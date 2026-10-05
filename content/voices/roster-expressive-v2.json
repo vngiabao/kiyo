@@ -1,0 +1,58 @@
+{
+  "status": "audition-only; awaiting approval by ear",
+  "identity": "Sayo: original synthetic young adult woman; low-mid pitch, composed, crisp. These are delivery targets, not verified voice qualities.",
+  "reference": "output/voice-compare/synthetic-reference.wav",
+  "referenceSource": "Synthesized locally using existing Kokoro v1.1 zh zf_001, not a recording of a real person.",
+  "moods": [
+    {
+      "id": "clear",
+      "description": "Crisp, engaged teaching; audible intention on each phrase.",
+      "instruct": "You are a helpful assistant. 请用自信、生动、清晰的普通话说话，重点鲜明，声调准确。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.0,
+      "pitchShift": 0
+    },
+    {
+      "id": "cool",
+      "description": "Confident challenge; a raised-eyebrow attitude and pointed endings.",
+      "instruct": "You are a helpful assistant. 请用自信、挑衅又俏皮的语气说话，重音鲜明，像动画角色在挑战朋友。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 0.96,
+      "pitchShift": 0
+    },
+    {
+      "id": "intense",
+      "description": "A bright, emphatic burst of praise.",
+      "instruct": "You are a helpful assistant. 请非常开心地说一句话。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.03,
+      "pitchShift": 0
+    },
+    {
+      "id": "soft",
+      "description": "Warm reassurance with emotion, not a flat whisper.",
+      "instruct": "You are a helpful assistant. 请用温柔、真诚、富有感情的语气鼓励朋友，抑扬顿挫。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 0.97,
+      "pitchShift": 0
+    },
+    {
+      "id": "deadpan",
+      "description": "Mock annoyance; a short pause, then a pointed dry punchline.",
+      "instruct": "You are a helpful assistant. 请用假装生气、带着调侃的语气说话，重音鲜明，表现力强。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.0,
+      "pitchShift": 0
+    },
+    {
+      "id": "playful",
+      "description": "Mischievous character acting; smiling, lively and rhythmic.",
+      "instruct": "You are a helpful assistant. 请用俏皮、兴奋、带着笑意的语气说话，抑扬顿挫，有动画角色的表现力。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.02,
+      "pitchShift": 0
+    }
+  ],
+  "revision": "expressive-v2",
+  "direction": "Character performance: vivid emphasis, teasing challenges and sudden bright praise; clear words retain accurate tones. Not a casual conversational read."
+}

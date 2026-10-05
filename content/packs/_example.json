@@ -1,0 +1,133 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u01",
+    "stage": 1,
+    "order": 1,
+    "title": "A bowl of noodles",
+    "titleZh": "来一碗面",
+    "canDo": ["Say you're hungry", "Order rice or noodles", "Understand the total price"],
+    "hskTarget": { "standard": "HSK3.0", "level": 2 },
+    "prerequisites": [],
+    "estimatedMinutes": 40
+  },
+  "vocabulary": [
+    { "id": "s1-u01-w-e", "hanzi": "饿", "pinyin": "è", "pos": "adjective", "meaning": "hungry", "meaningVi": "đói", "register": "neutral", "isChunk": false, "hskLevel": 1,
+      "example": { "zh": "我有点儿饿。", "py": "Wǒ yǒudiǎnr è.", "en": "I'm a bit hungry." }, "collocations": ["饿了", "不饿"], "usageNote": "饿了 means you've become hungry." },
+    { "id": "s1-u01-w-mifan", "hanzi": "米饭", "pinyin": "mǐfàn", "pos": "noun", "meaning": "cooked rice", "meaningVi": "cơm", "register": "neutral", "measureWord": "碗 wǎn", "hskLevel": 1,
+      "example": { "zh": "我要米饭。", "py": "Wǒ yào mǐfàn.", "en": "I'll have rice." } },
+    { "id": "s1-u01-w-jidan", "hanzi": "鸡蛋", "pinyin": "jīdàn", "pos": "noun", "meaning": "egg", "meaningVi": "trứng gà", "register": "neutral", "measureWord": "个 ge", "hskLevel": 1,
+      "example": { "zh": "再来两个鸡蛋。", "py": "Zài lái liǎng ge jīdàn.", "en": "Two more eggs, please." } },
+    { "id": "s1-u01-w-wan", "hanzi": "碗", "pinyin": "wǎn", "pos": "measure word / noun", "meaning": "bowl", "meaningVi": "bát, tô", "register": "neutral", "hskLevel": 2,
+      "example": { "zh": "来一碗面。", "py": "Lái yì wǎn miàn.", "en": "A bowl of noodles, please." }, "usageNote": "Also the counting word for anything served in a bowl." },
+    { "id": "s1-u01-w-mian", "hanzi": "面", "pinyin": "miàn", "pos": "noun", "meaning": "noodles", "meaningVi": "mì", "register": "neutral", "measureWord": "碗 wǎn", "hskLevel": 2,
+      "example": { "zh": "这家的面很好吃。", "py": "Zhè jiā de miàn hěn hǎochī.", "en": "This place's noodles are really good." } },
+    { "id": "s1-u01-w-yigong", "hanzi": "一共", "pinyin": "yígòng", "pos": "adverb", "meaning": "in total", "meaningVi": "tổng cộng", "register": "neutral", "hskLevel": 2,
+      "example": { "zh": "一共二十块。", "py": "Yígòng èrshí kuài.", "en": "Twenty yuan in total." } },
+    { "id": "s1-u01-w-kuai", "hanzi": "块", "pinyin": "kuài", "pos": "measure word", "meaning": "yuan (spoken)", "meaningVi": "đồng (tệ)", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "三十五块。", "py": "Sānshíwǔ kuài.", "en": "Thirty-five yuan." }, "usageNote": "Everyday word for 元 yuán when talking about prices." },
+    { "id": "s1-u01-w-bao", "hanzi": "饱", "pinyin": "bǎo", "pos": "adjective", "meaning": "full (after eating)", "meaningVi": "no", "register": "neutral", "hskLevel": 2,
+      "example": { "zh": "我吃饱了。", "py": "Wǒ chībǎo le.", "en": "I'm full." } },
+    { "id": "s1-u01-w-youdianr", "hanzi": "有点儿", "pinyin": "yǒudiǎnr", "pos": "adverb", "meaning": "a bit (usually not great)", "meaningVi": "hơi", "register": "neutral", "isChunk": true, "hskLevel": 2,
+      "example": { "zh": "今天有点儿忙。", "py": "Jīntiān yǒudiǎnr máng.", "en": "I'm a bit busy today." } },
+    { "id": "s1-u01-w-haishi", "hanzi": "还是", "pinyin": "háishi", "pos": "conjunction", "meaning": "or (in questions)", "meaningVi": "hay là", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你喝茶还是喝咖啡？", "py": "Nǐ hē chá háishi hē kāfēi?", "en": "Tea or coffee?" } },
+    { "id": "s1-u01-w-zai", "hanzi": "再", "pinyin": "zài", "pos": "adverb", "meaning": "again; more", "meaningVi": "lại, thêm", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们再去吃饭吧。", "py": "Wǒmen zài qù chīfàn ba.", "en": "Let's go eat there again." } }
+  ],
+  "characters": [
+    { "hanzi": "饿", "pinyin": "è", "meaning": "hungry", "strokes": 10,
+      "parts": [ { "form": "饣", "role": "meaning", "gloss": "food" }, { "form": "我", "role": "sound", "gloss": "wǒ (old sound hint)" } ],
+      "noteKind": "origin", "note": "饣 on the left marks food; 我 on the right once gave the sound.",
+      "words": [ { "w": "饿了", "p": "è le", "m": "hungry now" }, { "w": "不饿", "p": "bú è", "m": "not hungry" } ] },
+    { "hanzi": "饭", "pinyin": "fàn", "meaning": "meal; cooked rice", "strokes": 7,
+      "parts": [ { "form": "饣", "role": "meaning", "gloss": "food" }, { "form": "反", "role": "sound", "gloss": "fǎn" } ],
+      "noteKind": "origin", "note": "饣 (food) plus 反 fǎn for the sound.",
+      "words": [ { "w": "米饭", "p": "mǐfàn", "m": "cooked rice" }, { "w": "吃饭", "p": "chīfàn", "m": "have a meal" } ] }
+  ],
+  "grammar": [
+    { "id": "s1-u01-g-haishi", "pattern": "A 还是 B？", "purpose": "Ask someone to choose between options",
+      "explanation": "Put 还是 between the options in a question. The listener picks one. Don't add 吗: the 还是 already makes it a question.",
+      "examples": [
+        { "zh": "你想吃米饭还是面？", "py": "Nǐ xiǎng chī mǐfàn háishi miàn?", "en": "Do you want rice or noodles?" },
+        { "zh": "你喝茶还是喝咖啡？", "py": "Nǐ hē chá háishi hē kāfēi?", "en": "Tea or coffee?" }
+      ],
+      "commonMistakes": [
+        { "wrong": "你想吃米饭或者面？", "right": "你想吃米饭还是面？", "why": "或者 is for statements (either is fine); 还是 is for choice questions." },
+        { "wrong": "你想吃米饭还是面吗？", "right": "你想吃米饭还是面？", "why": "A 还是 question doesn't take 吗." }
+      ],
+      "contrastWith": "或者 (or, in statements)", "register": "neutral" },
+    { "id": "s1-u01-g-youdianr", "pattern": "有点儿 + adjective", "purpose": "Say something is a bit (too) much",
+      "explanation": "有点儿 goes before an adjective and usually signals something slightly unwelcome: a bit hungry, a bit busy. In the north it's 有点儿; in the south and in writing, 有点.",
+      "examples": [
+        { "zh": "我有点儿饿。", "py": "Wǒ yǒudiǎnr è.", "en": "I'm a bit hungry." },
+        { "zh": "今天有点儿忙。", "py": "Jīntiān yǒudiǎnr máng.", "en": "I'm a bit busy today." }
+      ],
+      "commonMistakes": [ { "wrong": "我饿一点儿。", "right": "我有点儿饿。", "why": "有点儿 comes before the adjective; 一点儿 comes after it and is used differently." } ],
+      "contrastWith": "一点儿 (after adjectives, in comparisons and requests)", "register": "neutral" }
+  ],
+  "dialogue": {
+    "id": "s1-u01-d", "title": "Lunch", "titleZh": "吃午饭", "setting": "A small noodle shop near campus.", "register": "casual",
+    "speakers": [ { "id": "linan", "name": "林安" }, { "id": "chenyu", "name": "陈宇" }, { "id": "waiter", "name": "服务员" } ],
+    "glosses": [
+      { "hanzi": "午", "pinyin": "wǔ", "meaning": "noon (午饭 = lunch)" },
+      { "hanzi": "要", "pinyin": "yào", "meaning": "want; I'll have (when ordering)" },
+      { "hanzi": "两个", "pinyin": "liǎng ge", "meaning": "two (of something)" }
+    ],
+    "lines": [
+      { "speaker": "linan", "zh": "你饿不饿？", "py": "Nǐ è bu è?", "en": "Are you hungry?" },
+      { "speaker": "chenyu", "zh": "有点儿饿。我们去吃饭吧。", "py": "Yǒudiǎnr è. Wǒmen qù chīfàn ba.", "en": "A bit. Let's go eat." },
+      { "speaker": "waiter", "zh": "你们好！吃什么？", "py": "Nǐmen hǎo! Chī shénme?", "en": "Hi! What will you have?" },
+      { "speaker": "linan", "zh": "你想吃米饭还是面？", "py": "Nǐ xiǎng chī mǐfàn háishi miàn?", "en": "Rice or noodles?" },
+      { "speaker": "chenyu", "zh": "面吧。来一碗面。", "py": "Miàn ba. Lái yì wǎn miàn.", "en": "Noodles. A bowl of noodles, please." },
+      { "speaker": "linan", "zh": "我要米饭，再来两个鸡蛋。", "py": "Wǒ yào mǐfàn, zài lái liǎng ge jīdàn.", "en": "Rice for me, and two eggs too." },
+      { "speaker": "waiter", "zh": "好的。一共三十五块。", "py": "Hǎo de. Yígòng sānshíwǔ kuài.", "en": "Okay. Thirty-five yuan in total." },
+      { "speaker": "chenyu", "zh": "我吃饱了。", "py": "Wǒ chībǎo le.", "en": "I'm full." },
+      { "speaker": "linan", "zh": "我也饱了。", "py": "Wǒ yě bǎo le.", "en": "Me too." }
+    ],
+    "questions": [
+      { "type": "detail", "q": "What does Chen Yu order?", "choices": ["A bowl of noodles", "Rice and two eggs", "Only tea"], "answer": "A bowl of noodles" },
+      { "type": "detail", "q": "How much is it in total?", "choices": ["35 yuan", "25 yuan", "53 yuan"], "answer": "35 yuan" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u01-r", "title": "A message the next day", "titleZh": "第二天的消息", "blurb": "Lin An messages Chen Yu.", "format": "message",
+    "glosses": [
+      { "hanzi": "昨天", "pinyin": "zuótiān", "meaning": "yesterday" },
+      { "hanzi": "中午", "pinyin": "zhōngwǔ", "meaning": "noon" },
+      { "hanzi": "陈宇", "pinyin": "Chén Yǔ", "meaning": "Chen Yu (a name)" }
+    ],
+    "lines": [
+      { "zh": "陈宇，昨天的面好吃吗？", "py": "Chén Yǔ, zuótiān de miàn hǎochī ma?", "en": "Chen Yu, were yesterday's noodles good?" },
+      { "zh": "我有点儿饿了。", "py": "Wǒ yǒudiǎnr è le.", "en": "I'm getting a bit hungry." },
+      { "zh": "今天中午我们再去吃饭吧？", "py": "Jīntiān zhōngwǔ wǒmen zài qù chīfàn ba?", "en": "Shall we go again at lunchtime today?" },
+      { "zh": "你想吃面还是米饭？", "py": "Nǐ xiǎng chī miàn háishi mǐfàn?", "en": "Noodles or rice?" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What is Lin An suggesting?", "choices": ["Lunch together again", "Cooking at home", "Buying eggs"], "answer": "Lunch together again" },
+      { "type": "detail", "q": "When?", "choices": ["Today at noon", "Tomorrow evening", "Yesterday"], "answer": "Today at noon" }
+    ]
+  },
+  "conversation": {
+    "id": "s1-u01-c", "title": "Ordering lunch", "place": "At a noodle shop", "context": "You sit down, hungry. The waiter comes over.", "goal": "Order · add something · finish politely",
+    "partner": { "name": "服务员", "persona": "busy, friendly waiter at a noodle shop" },
+    "turns": [
+      { "text": "你好！吃什么？", "pinyin": "Nǐ hǎo! Chī shénme?", "meaning": "Hi! What would you like?", "intent": "Order a bowl of noodles.", "examples": ["来一碗面", "我要一碗面"], "accept": ["(来|要)一碗面"] },
+      { "text": "还要别的吗？", "pinyin": "Hái yào bié de ma?", "meaning": "Anything else?", "intent": "Ask for two eggs too.", "examples": ["再来两个鸡蛋", "我还要两个鸡蛋"], "accept": ["两个鸡蛋"] },
+      { "text": "好的，一共二十块。", "pinyin": "Hǎo de, yígòng èrshí kuài.", "meaning": "Okay, twenty yuan in total.", "intent": "Thank the waiter.", "examples": ["谢谢", "好的，谢谢"], "accept": ["谢谢"] }
+    ],
+    "aiPartnerBrief": "Play a friendly noodle-shop waiter. Use only words from this unit and earlier. Keep replies under 10 characters. Correct only errors that change the order."
+  },
+  "pragmatics": [
+    { "situation": "Ordering from a waiter",
+      "natural": { "zh": "来一碗面。", "py": "Lái yì wǎn miàn.", "en": "A bowl of noodles, please." },
+      "tooFormal": { "zh": "请给我一碗面，谢谢您。", "py": "Qǐng gěi wǒ yì wǎn miàn, xièxie nín." },
+      "tooBlunt": { "zh": "给我面。", "py": "Gěi wǒ miàn." },
+      "note": "来 + amount + dish is the everyday way to order. The polite version is fine, but stiff at a noodle shop; 给我面 sounds curt." }
+  ],
+  "review": [
+    { "type": "read-choose", "prompt": "What does 一共 mean?", "zh": "一共二十块", "choices": ["Twenty yuan in total", "Two bowls", "Twenty eggs"], "answer": "Twenty yuan in total" },
+    { "type": "listen-choose", "prompt": "What did they order?", "zh": "来一碗面，再来两个鸡蛋", "choices": ["A bowl of noodles and two more eggs", "Two bowls of rice", "One egg"], "answer": "A bowl of noodles and two more eggs" }
+  ],
+  "notes": "Example pack for the format. 有点儿 is the northern form; 有点 is common in the south."
+}

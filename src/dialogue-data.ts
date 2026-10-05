@@ -1,0 +1,123 @@
+export const baseScenarios = [
+  {
+    id: "meet",
+    title: "A familiar face",
+    partner: "林安",
+    place: "At a language exchange",
+    context:
+      "You’ve just sat down next to Lin An. Introduce yourself and keep the conversation moving.",
+    goal: "Greet · introduce yourself · ask a question",
+    turns: [
+      {
+        text: "你好！",
+        pinyin: "Nǐ hǎo!",
+        meaning: "Hello!",
+        intent: "Greet Lin An.",
+        examples: ["你好", "你好啊"],
+        phrase: "hello",
+        test: (s: string) => s.includes("你好"),
+      },
+      {
+        text: "我叫林安。你叫什么名字？",
+        pinyin: "Wǒ jiào Lín Ān. Nǐ jiào shénme míngzi?",
+        meaning: "My name is Lin An. What is your name?",
+        intent: "Say your name with 我叫…",
+        examples: ["我叫安娜", "我叫大卫"],
+        phrase: "myname",
+        test: (s: string) => /^我叫.{1,20}$/.test(s),
+      },
+      {
+        text: "很高兴认识你！你在学中文吗？",
+        pinyin: "Hěn gāoxìng rènshi nǐ! Nǐ zài xué Zhōngwén ma?",
+        meaning: "Nice to meet you! Are you learning Chinese?",
+        intent: "Tell Lin An you’re learning Chinese.",
+        examples: ["对，我在学中文", "我在学中文"],
+        phrase: "learning",
+        test: (s: string) => s.includes("学中文"),
+      },
+      {
+        text: "我在学英语。明天一起喝咖啡吧？",
+        pinyin: "Wǒ zài xué Yīngyǔ. Míngtiān yìqǐ hē kāfēi ba?",
+        meaning: "I’m learning English. Shall we have coffee tomorrow?",
+        intent: "Accept, or ask what time.",
+        examples: ["好啊", "几点"],
+        phrase: "okay",
+        test: (s: string) => /好|可以|几点/.test(s),
+      },
+    ],
+  },
+  {
+    id: "cafe",
+    title: "A table for two",
+    partner: "林安",
+    place: "At the neighborhood café",
+    context:
+      "You and Lin An stop for a drink. Ask for what you want and make a small plan.",
+    goal: "Choose a drink · ask a time · agree",
+    turns: [
+      {
+        text: "你想喝什么？",
+        pinyin: "Nǐ xiǎng hē shénme?",
+        meaning: "What would you like to drink?",
+        intent: "Say you would like tea, water, or coffee.",
+        examples: ["我想喝茶", "我想喝咖啡"],
+        phrase: "wanttea",
+        test: (s: string) => /我想喝(茶|水|咖啡)/.test(s),
+      },
+      {
+        text: "好。明天你有空吗？",
+        pinyin: "Hǎo. Míngtiān nǐ yǒu kòng ma?",
+        meaning: "Okay. Are you free tomorrow?",
+        intent: "Say you are free or a little busy.",
+        examples: ["有空", "我有点忙"],
+        phrase: "free",
+        test: (s: string) => /有空|有点忙/.test(s),
+      },
+      {
+        text: "那周末一起喝咖啡吧。",
+        pinyin: "Nà zhōumò yìqǐ hē kāfēi ba.",
+        meaning: "Then let’s have coffee together at the weekend.",
+        intent: "Accept and ask what time.",
+        examples: ["好啊，几点", "可以，几点"],
+        phrase: "when",
+        test: (s: string) => s.includes("几点"),
+      },
+      {
+        text: "三点，可以吗？",
+        pinyin: "Sān diǎn, kěyǐ ma?",
+        meaning: "Three o’clock, okay?",
+        intent: "Confirm the plan.",
+        examples: ["可以", "好啊"],
+        phrase: "can",
+        test: (s: string) => /可以|好/.test(s),
+      },
+    ],
+  },
+];
+
+export const segments = [
+  {
+    speaker: "Lin An",
+    text: "你明天有空吗？",
+    pinyin: "Nǐ míngtiān yǒu kòng ma?",
+    meaning: "Are you free tomorrow?",
+  },
+  {
+    speaker: "Chen Yu",
+    text: "有空。几点？",
+    pinyin: "Yǒu kòng. Jǐ diǎn?",
+    meaning: "I am. What time?",
+  },
+  {
+    speaker: "Lin An",
+    text: "三点。一起喝咖啡吧。",
+    pinyin: "Sān diǎn. Yìqǐ hē kāfēi ba.",
+    meaning: "Three. Let’s have coffee together.",
+  },
+  {
+    speaker: "Chen Yu",
+    text: "好啊，明天见！",
+    pinyin: "Hǎo a, míngtiān jiàn!",
+    meaning: "Sure, see you tomorrow!",
+  },
+];

@@ -1,0 +1,299 @@
+{
+  "createdAt": "2026-10-05T04:42:23.457376+00:00",
+  "status": "B selected as starting point. This refinement is audition-only, not approved for installation.",
+  "selection": "Owner selected dry and playful B; wants some of the current voice retained.",
+  "model": {
+    "repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "revision": "fd4b254389122332181a7c3db7f27e918eec64e3"
+  },
+  "installedManifestSha256": "d312a4fe8fc1be28f02612432a60c569c93273344c5fffb607ef51fb4fa9b033",
+  "syntheticAnchor": {
+    "file": "b-anchor.wav",
+    "sha256": "fa07c542e6fd2022b995f0e539887dd2061197da788b3cea2c6e3ecb2e757ddc",
+    "seconds": 17.92,
+    "sampleRate": 24000,
+    "peak": 0.5859375,
+    "candidate": "b",
+    "title": "Dry and playful",
+    "kind": "anchor",
+    "text": "来了？开始吧。别紧张，我陪你慢慢来。这个字读什么？先想一想。声调呢？嗯，这次读对了。哎呀，全对啦！不错嘛，你还挺厉害的。好，我们再来一次。",
+    "instruction": "二十多岁的年轻女性，自然中低音，清晰厚实、有质感的女声，略带鼻腔共鸣。准确的标准普通话。亲近的朋友之间打趣，懒洋洋、带笑，假装一本正经但藏不住开心，偶尔短促地明亮起来。温暖而有精神，不凶也不气声。语速中等稍慢，声调清楚自然。",
+    "seed": 16201,
+    "screeningTranscript": "来了 开始吧别紧张 我陪你慢慢来这个字读是吗 先想一想声调呢嗯 这次读对了哎呀 全对了 不错嘛你还挺厉害的好 我们再来一次",
+    "screeningExactText": false,
+    "screenings": {
+      "small": "来了 开始吧别紧张 我陪你慢慢来这个字读是吗先想一想声调呢这次读对了哎呀 全对了不错嘛 你还挺厉害的好 我们再来一次",
+      "medium": "来了 开始吧别紧张 我陪你慢慢来这个字读是吗 先想一想声调呢嗯 这次读对了哎呀 全对了 不错嘛你还挺厉害的好 我们再来一次"
+    }
+  },
+  "currentSyntheticReferences": [
+    {
+      "text": "来了？开始吧。",
+      "mood": "playful",
+      "file": "public/audio-v2/f5ab91d49dcce628-playful-ebd12e369e.mp3",
+      "sha256": "c5cfd7daa908650bc425bfba0381591df70e2424c7272ed7d7c830dff6ea2513"
+    },
+    {
+      "text": "不错嘛。",
+      "mood": "deadpan",
+      "file": "public/audio-v2/b112658fd90d7e63-deadpan-352a9d549b.mp3",
+      "sha256": "716cf23da9a7c8ca02d6d8d0198a21b3bc13734ff703d50ae9f5eb3e4e117cc2"
+    },
+    {
+      "text": "今天够了。",
+      "mood": "soft",
+      "file": "public/audio-v2/6ae3eea4bae3c573-soft-522c8c59b7.mp3",
+      "sha256": "945041be24a3c89f2a7783d587345455e21f476606126d8bdf6e1f609cacbc8f"
+    }
+  ],
+  "clips": [
+    {
+      "id": "welcome",
+      "text": "来了？开始吧。",
+      "pinyin": "Lái le? Kāishǐ ba.",
+      "meaning": "You’re here? Let’s begin.",
+      "current": "/audio-v2/f5ab91d49dcce628-playful-ebd12e369e.mp3",
+      "takes": [
+        {
+          "id": "b",
+          "file": "../voice-base-review/b-welcome.wav",
+          "sha256": "ad77b2500733f8917067d3425175ef60a1279269075b1462441a2a1285e9b562",
+          "seed": 16320,
+          "seconds": 1.197,
+          "screeningTranscript": "来了 开始吧",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-welcome.wav",
+          "sha256": "24b06da534b40911d7131a34cf68f4da098faf3d2956c4cb9f342d934bab99b5",
+          "seconds": 1.36,
+          "sampleRate": 24000,
+          "peak": 0.6015625,
+          "id": "refined",
+          "seed": 16320,
+          "screeningTranscript": "来了,开始吧",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "teacher",
+      "text": "认真一点。开始吧。",
+      "pinyin": "Rènzhēn yìdiǎn. Kāishǐ ba.",
+      "meaning": "Focus a little. Let’s begin.",
+      "current": "/audio-v2/59c286663764262a-cool-83c427eb96.mp3",
+      "takes": [
+        {
+          "id": "b",
+          "file": "../voice-base-review/b-teacher.wav",
+          "sha256": "155275361c6a5a817b56de0caf8e323a558c8f326135cd326b96c711a46f3161",
+          "seed": 16321,
+          "seconds": 1.52,
+          "screeningTranscript": "认真一点 开始吧",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-teacher.wav",
+          "sha256": "5c797ecb8b889ec5662e87095b5572208a34f31a9d05074491d10bc4dcbf0d5d",
+          "seconds": 1.518,
+          "sampleRate": 24000,
+          "peak": 0.43359375,
+          "id": "refined",
+          "seed": 16321,
+          "screeningTranscript": "認真一點 開始吧",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "tones",
+      "text": "声调呢？",
+      "pinyin": "Shēngdiào ne?",
+      "meaning": "What about the tones?",
+      "current": "/audio-v2/2537d82df126e1d9-deadpan-c78e404d00.mp3",
+      "takes": [
+        {
+          "id": "b",
+          "file": "../voice-base-review/b-tones.wav",
+          "sha256": "8e65ec5bcc142fd4e3c87eba3a5f24b26877a118584664be0c8e053fd39226b6",
+          "seed": 16322,
+          "seconds": 1.354,
+          "screeningTranscript": "声调呢",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-tones.wav",
+          "sha256": "abf2473d890cbe713e5542162ad65dafd4364a6dd6b5f4ea422b240e7f8653dc",
+          "seconds": 1.674,
+          "sampleRate": 24000,
+          "peak": 0.431640625,
+          "id": "refined",
+          "seed": 16322,
+          "screeningTranscript": "声调呢",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "smug",
+      "text": "不错嘛。",
+      "pinyin": "Bú cuò ma.",
+      "meaning": "Not bad at all.",
+      "current": "/audio-v2/b112658fd90d7e63-deadpan-352a9d549b.mp3",
+      "takes": [
+        {
+          "file": "b-smug.wav",
+          "sha256": "90760256cc0234165136074d4e065f48ff36eb5736e555dbd47f2f8ad32515d7",
+          "seconds": 0.685,
+          "sampleRate": 24000,
+          "peak": 0.31640625,
+          "id": "b",
+          "seed": 16410,
+          "screeningTranscript": "不錯嗎",
+          "screeningExactText": false
+        },
+        {
+          "file": "refined-smug.wav",
+          "sha256": "ac9a39d981e3b0b01121be9b4526c60e2b2f55c70f6c956184d9c8a3abe0c4d8",
+          "seconds": 0.824,
+          "sampleRate": 24000,
+          "peak": 0.390625,
+          "id": "refined",
+          "seed": 16410,
+          "screeningTranscript": "不錯嘛",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "celebrate",
+      "text": "太棒了！",
+      "pinyin": "Tài bàng le!",
+      "meaning": "Fantastic!",
+      "current": "/audio-v2/9ffacf656db96349-intense-122675941e.mp3",
+      "takes": [
+        {
+          "file": "b-celebrate.wav",
+          "sha256": "7a40931fb4e12c220aa09f6f9eefa70f6a06b45bc0c2bc21d772f12ec7539765",
+          "seconds": 0.56,
+          "sampleRate": 24000,
+          "peak": 0.52734375,
+          "id": "b",
+          "seed": 16411,
+          "screeningTranscript": "太棒了",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-celebrate.wav",
+          "sha256": "cfcbe752472394c81e10fbc63af207412041077979cdf0d8959baee413b9788e",
+          "seconds": 0.64,
+          "sampleRate": 24000,
+          "peak": 0.455078125,
+          "id": "refined",
+          "seed": 16411,
+          "screeningTranscript": "太棒了",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "hint",
+      "text": "下次不看提示。",
+      "pinyin": "Xià cì bú kàn tíshì.",
+      "meaning": "Next time, no peeking.",
+      "current": "/audio-v2/2837a290de9cfbf7-deadpan-75c656fce1.mp3",
+      "takes": [
+        {
+          "file": "b-hint.wav",
+          "sha256": "ee7039220dc36f60d2c25463c7782423770a11437d7245dddbbea99a80a59864",
+          "seconds": 1.206,
+          "sampleRate": 24000,
+          "peak": 0.486328125,
+          "id": "b",
+          "seed": 16412,
+          "screeningTranscript": "下次不看提示",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-hint.wav",
+          "sha256": "e100512d151ef87f88725048f483ebb06957a36e3f22fd4fc8ecf7a6b35501d2",
+          "seconds": 1.206,
+          "sampleRate": 24000,
+          "peak": 0.470703125,
+          "id": "refined",
+          "seed": 16412,
+          "screeningTranscript": "下次不看提示",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "rest",
+      "text": "今天够了。",
+      "pinyin": "Jīntiān gòu le.",
+      "meaning": "That’s enough for today.",
+      "current": "/audio-v2/6ae3eea4bae3c573-soft-522c8c59b7.mp3",
+      "takes": [
+        {
+          "file": "b-rest.wav",
+          "sha256": "74a7bfb05ba51bb5fb6b3d5963b8fc916597d96e76a98ebe862a6c832c5d81a9",
+          "seconds": 1.231,
+          "sampleRate": 24000,
+          "peak": 0.3828125,
+          "id": "b",
+          "seed": 16413,
+          "screeningTranscript": "今天够了",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-rest.wav",
+          "sha256": "6d0ed7acb8bc16323e1d785717053dbc4c074da78f8ce76bb2c820de1c0f27c6",
+          "seconds": 1.154,
+          "sampleRate": 24000,
+          "peak": 0.380859375,
+          "id": "refined",
+          "seed": 16413,
+          "screeningTranscript": "今天够了",
+          "screeningExactText": true
+        }
+      ]
+    },
+    {
+      "id": "words",
+      "text": "什么？很好。我的书。你好吗？",
+      "pinyin": "Shénme? Hěn hǎo. Wǒ de shū. Nǐ hǎo ma?",
+      "meaning": "What? Very good. My book. How are you?",
+      "current": null,
+      "takes": [
+        {
+          "id": "b",
+          "file": "../voice-base-review/b-words.wav",
+          "sha256": "4eee7e3bd482effbb22679840234825b7e2e83b427447ee8fa0d95eead4a9a93",
+          "seed": 16324,
+          "seconds": 2.919,
+          "screeningTranscript": "什么 很好 我的书 你好吗",
+          "screeningExactText": true
+        },
+        {
+          "file": "refined-words.wav",
+          "sha256": "22c31ac9fdacc22236b9811562d50e8acf9293e3b1e5a6be91a0d6ae94e0b413",
+          "seconds": 2.922,
+          "sampleRate": 24000,
+          "peak": 0.4375,
+          "id": "refined",
+          "seed": 16324,
+          "screeningTranscript": "什么 很好 我的书 你好吗",
+          "screeningExactText": true
+        }
+      ]
+    }
+  ],
+  "method": "Experimental speaker-embedding interpolation: normalize each current synthetic clip embedding, average, normalize; 0.85 B + 0.15 current, then restore B embedding norm. B reference codes and text stay identical for every take. These are embedding weights, not perceived percentages. Both sources are synthetic. No real-person recordings or post pitch/formant/tempo effects.",
+  "weights": {
+    "b": 0.85,
+    "current": 0.15
+  },
+  "runtime": "qwen-tts 0.1.1; torch 2.6.0+cu124; bf16; sdpa",
+  "fixedBlendEmbeddingSha256": "b83589a5e62c3889c857c4636d935c926bb58239cbf0fa8ee3a9320b172ff444",
+  "screening": "Whisper medium, Chinese, no expected-text prompt. Punctuation ignored; 認/认, 點/点, 開/开, 錯/错 and 嗎/吗 normalized as orthographic equivalents. Homophones such as 吗/嘛 remain mismatches. Raw transcripts retained. Not tone, naturalness or speaker-identity certification."
+}

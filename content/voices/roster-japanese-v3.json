@@ -1,0 +1,61 @@
+{
+  "status": "audition-only; awaiting approval by ear",
+  "identity": "Sayo: same synthetic female reference, expressive delivery with light Japanese-accented Mandarin. Requested character and accent are audition targets, not verified acoustic qualities.",
+  "reference": "output/voice-compare/synthetic-reference.wav",
+  "referenceSource": "Synthesized locally using existing Kokoro v1.1 zh zf_001, not a recording of a real person.",
+  "moods": [
+    {
+      "id": "clear",
+      "description": "Light Japanese-accent target. Crisp, engaged teaching; audible intention on each phrase.",
+      "instruct": "You are a helpful assistant. 请用带有轻微日语母语口音的中文说话，像一位日语母语的年轻女性在流利地说中文。保留中文词语和可辨认的汉语声调，不要说日语。请用自信、生动、清晰的普通话说话，重点鲜明，声调准确。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.0,
+      "pitchShift": 0
+    },
+    {
+      "id": "cool",
+      "description": "Light Japanese-accent target. Confident challenge; a raised-eyebrow attitude and pointed endings.",
+      "instruct": "You are a helpful assistant. 请用带有轻微日语母语口音的中文说话，像一位日语母语的年轻女性在流利地说中文。保留中文词语和可辨认的汉语声调，不要说日语。请用自信、挑衅又俏皮的语气说话，重音鲜明，像动画角色在挑战朋友。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 0.96,
+      "pitchShift": 0
+    },
+    {
+      "id": "intense",
+      "description": "Light Japanese-accent target. A bright, emphatic burst of praise.",
+      "instruct": "You are a helpful assistant. 请用带有轻微日语母语口音的中文说话，像一位日语母语的年轻女性在流利地说中文。保留中文词语和可辨认的汉语声调，不要说日语。请非常开心地说一句话。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.03,
+      "pitchShift": 0
+    },
+    {
+      "id": "soft",
+      "description": "Light Japanese-accent target. Warm reassurance with emotion, not a flat whisper.",
+      "instruct": "You are a helpful assistant. 请用带有轻微日语母语口音的中文说话，像一位日语母语的年轻女性在流利地说中文。保留中文词语和可辨认的汉语声调，不要说日语。请用温柔、真诚、富有感情的语气鼓励朋友，抑扬顿挫。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 0.97,
+      "pitchShift": 0
+    },
+    {
+      "id": "deadpan",
+      "description": "Light Japanese-accent target. Mock annoyance; a short pause, then a pointed dry punchline.",
+      "instruct": "You are a helpful assistant. 请用带有轻微日语母语口音的中文说话，像一位日语母语的年轻女性在流利地说中文。保留中文词语和可辨认的汉语声调，不要说日语。请用假装生气、带着调侃的语气说话，重音鲜明，表现力强。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.0,
+      "pitchShift": 0
+    },
+    {
+      "id": "playful",
+      "description": "Light Japanese-accent target. Mischievous character acting; smiling, lively and rhythmic.",
+      "instruct": "You are a helpful assistant. 请用带有轻微日语母语口音的中文说话，像一位日语母语的年轻女性在流利地说中文。保留中文词语和可辨认的汉语声调，不要说日语。请用俏皮、兴奋、带着笑意的语气说话，抑扬顿挫，有动画角色的表现力。<|endofprompt|>",
+      "reference": "output/voice-compare/synthetic-reference.wav",
+      "speed": 1.02,
+      "pitchShift": 0
+    }
+  ],
+  "revision": "japanese-v3",
+  "direction": "A Japanese native speaker speaking fluent Mandarin with a light Japanese accent, retaining expressive character acting and intelligible Mandarin tones. Audition target, not verified accent quality.",
+  "reviewTitle": "A Japanese accent. Sayo’s attitude.",
+  "reviewIntro": "A new audition for a Japanese speaker’s rhythm in Mandarin, with Sayo’s expressive reactions. Compare the previous and new takes below. The accent and tones still need your listening review.",
+  "previousRevision": "expressive-v2"
+}

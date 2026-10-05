@@ -1,0 +1,76 @@
+{
+  "status": "Installed approved B-half identity; individual pronunciation review remains ongoing.",
+  "revision": "sayo-b-half-2026-10-05",
+  "engine": "qwen3-tts-base",
+  "approvedProfile": "content/voices/approved-b-half/profile.json",
+  "identity": "One original synthetic adult female identity, approved dry/playful B blend",
+  "model": {
+    "repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "revision": "fd4b254389122332181a7c3db7f27e918eec64e3"
+  },
+  "pitchMethod": "resample",
+  "pitchShift": -2.25,
+  "moods": [
+    {
+      "id": "clear",
+      "description": "clear delivery in the same fixed Sayo timbre",
+      "reference": "content/voices/approved-b-half/source/refined-words.wav",
+      "referenceSha256": "22c31ac9fdacc22236b9811562d50e8acf9293e3b1e5a6be91a0d6ae94e0b413",
+      "referenceText": "什么？很好。我的书。你好吗？",
+      "speed": 1,
+      "pitchShift": -2.25,
+      "pitchMethod": "resample"
+    },
+    {
+      "id": "cool",
+      "description": "cool delivery in the same fixed Sayo timbre",
+      "reference": "content/voices/approved-b-half/source/refined-teacher.wav",
+      "referenceSha256": "5c797ecb8b889ec5662e87095b5572208a34f31a9d05074491d10bc4dcbf0d5d",
+      "referenceText": "认真一点。开始吧。",
+      "speed": 1,
+      "pitchShift": -2.25,
+      "pitchMethod": "resample"
+    },
+    {
+      "id": "playful",
+      "description": "playful delivery in the same fixed Sayo timbre",
+      "reference": "content/voices/approved-b-half/source/refined-welcome.wav",
+      "referenceSha256": "24b06da534b40911d7131a34cf68f4da098faf3d2956c4cb9f342d934bab99b5",
+      "referenceText": "来了？开始吧。",
+      "speed": 1,
+      "pitchShift": -2.25,
+      "pitchMethod": "resample"
+    },
+    {
+      "id": "intense",
+      "description": "intense delivery in the same fixed Sayo timbre",
+      "reference": "content/voices/approved-b-half/source/refined-celebrate.wav",
+      "referenceSha256": "cfcbe752472394c81e10fbc63af207412041077979cdf0d8959baee413b9788e",
+      "referenceText": "太棒了！",
+      "speed": 1,
+      "pitchShift": -2.25,
+      "pitchMethod": "resample"
+    },
+    {
+      "id": "soft",
+      "description": "soft delivery in the same fixed Sayo timbre",
+      "reference": "content/voices/approved-b-half/source/refined-rest.wav",
+      "referenceSha256": "6d0ed7acb8bc16323e1d785717053dbc4c074da78f8ce76bb2c820de1c0f27c6",
+      "referenceText": "今天够了。",
+      "speed": 1,
+      "pitchShift": -2.25,
+      "pitchMethod": "resample"
+    },
+    {
+      "id": "deadpan",
+      "description": "deadpan delivery in the same fixed Sayo timbre",
+      "reference": "content/voices/approved-b-half/source/refined-smug.wav",
+      "referenceSha256": "ac9a39d981e3b0b01121be9b4526c60e2b2f55c70f6c956184d9c8a3abe0c4d8",
+      "referenceText": "不错嘛。",
+      "speed": 1,
+      "pitchShift": -2.25,
+      "pitchMethod": "resample"
+    }
+  ],
+  "note": "Delivery uses approved unprocessed performance references with the same locked speaker embedding in all moods; not six distinct speakers. No model emotion-instruction API. Apply approved single-pass resampling only once."
+}

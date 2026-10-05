@@ -1,0 +1,1170 @@
+{
+  "kind": "hsk-practice",
+  "version": 1,
+  "id": "hsk1-reading-foundations",
+  "standard": "HSK 2.0",
+  "level": 1,
+  "provenance": {
+    "author": "Kiyo original exercises",
+    "status": "AI-assisted draft; vocabulary checked against imported HSK list; native review pending",
+    "sources": [
+      "https://www.chinesetest.cn/HSK/1",
+      "https://www.blcup.com/EnPInfo/index/77",
+      "https://github.com/drkameleon/complete-hsk-vocabulary"
+    ]
+  },
+  "items": [
+    {
+      "id": "hsk1-r-01",
+      "unit": "identity",
+      "prompt": "我___学生。",
+      "sentence": "我是学生。",
+      "py": "Wǒ shì xuésheng.",
+      "en": "I am a student.",
+      "choices": [
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at; in"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        }
+      ],
+      "answer": "是",
+      "explanation": "Use 是 before a noun that identifies someone."
+    },
+    {
+      "id": "hsk1-r-02",
+      "unit": "identity",
+      "prompt": "你叫___名字？",
+      "sentence": "你叫什么名字？",
+      "py": "Nǐ jiào shénme míngzi?",
+      "en": "What is your name?",
+      "choices": [
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many (small number)"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many; how much"
+        }
+      ],
+      "answer": "什么",
+      "explanation": "什么 asks what; 什么名字 asks for a name."
+    },
+    {
+      "id": "hsk1-r-03",
+      "unit": "identity",
+      "prompt": "这___我的书。",
+      "sentence": "这是我的书。",
+      "py": "Zhè shì wǒ de shū.",
+      "en": "This is my book.",
+      "choices": [
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at; in"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        }
+      ],
+      "answer": "是",
+      "explanation": "这是 introduces or identifies a thing."
+    },
+    {
+      "id": "hsk1-r-04",
+      "unit": "identity",
+      "prompt": "我___是老师，我是学生。",
+      "sentence": "我不是老师，我是学生。",
+      "py": "Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
+      "en": "I am not a teacher; I am a student.",
+      "choices": [
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not; have not"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        }
+      ],
+      "answer": "不",
+      "explanation": "Negate 是 with 不. Before fourth-tone 是, 不 is pronounced bú."
+    },
+    {
+      "id": "hsk1-r-05",
+      "unit": "identity",
+      "prompt": "他是我___朋友。",
+      "sentence": "他是我的朋友。",
+      "py": "Tā shì wǒ de péngyou.",
+      "en": "He is my friend.",
+      "choices": [
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possession marker"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "question particle"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "en": "question/topic particle"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "change/completion particle"
+        }
+      ],
+      "answer": "的",
+      "explanation": "的 links the person to their friend: 我的朋友."
+    },
+    {
+      "id": "hsk1-r-06",
+      "unit": "identity",
+      "prompt": "你是学生___？",
+      "sentence": "你是学生吗？",
+      "py": "Nǐ shì xuésheng ma?",
+      "en": "Are you a student?",
+      "choices": [
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "question particle"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possession marker"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        }
+      ],
+      "answer": "吗",
+      "explanation": "Add 吗 to turn a statement into a yes/no question."
+    },
+    {
+      "id": "hsk1-r-07",
+      "unit": "identity",
+      "prompt": "我学习___。",
+      "sentence": "我学习汉语。",
+      "py": "Wǒ xuéxí Hànyǔ.",
+      "en": "I study Mandarin Chinese.",
+      "choices": [
+        {
+          "zh": "汉语",
+          "py": "Hànyǔ",
+          "en": "Mandarin Chinese"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōngguó",
+          "en": "China"
+        },
+        {
+          "zh": "北京",
+          "py": "Běijīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "名字",
+          "py": "míngzi",
+          "en": "name"
+        }
+      ],
+      "answer": "汉语",
+      "explanation": "学习汉语 means to study Mandarin Chinese."
+    },
+    {
+      "id": "hsk1-r-08",
+      "unit": "identity",
+      "prompt": "你___几岁？",
+      "sentence": "你女儿几岁？",
+      "py": "Nǐ nǚ’ér jǐ suì?",
+      "en": "How old is your daughter?",
+      "choices": [
+        {
+          "zh": "女儿",
+          "py": "nǚ’ér",
+          "en": "daughter"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "book"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐfàn",
+          "en": "cooked rice"
+        }
+      ],
+      "answer": "女儿",
+      "explanation": "女儿 means daughter. The question asks a person’s age."
+    },
+    {
+      "id": "hsk1-r-09",
+      "unit": "numbers",
+      "prompt": "我有三个苹果，你有一个，我们有___个苹果。",
+      "sentence": "我有三个苹果，你有一个，我们有四个苹果。",
+      "py": "Wǒ yǒu sān ge píngguǒ, nǐ yǒu yí ge, wǒmen yǒu sì ge píngguǒ.",
+      "en": "I have three apples and you have one; we have four apples.",
+      "choices": [
+        {
+          "zh": "四",
+          "py": "sì",
+          "en": "four"
+        },
+        {
+          "zh": "二",
+          "py": "èr",
+          "en": "two"
+        },
+        {
+          "zh": "五",
+          "py": "wǔ",
+          "en": "five"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        }
+      ],
+      "answer": "四",
+      "explanation": "Three plus one makes four: 四."
+    },
+    {
+      "id": "hsk1-r-10",
+      "unit": "numbers",
+      "prompt": "我有三___书。",
+      "sentence": "我有三本书。",
+      "py": "Wǒ yǒu sān běn shū.",
+      "en": "I have three books.",
+      "choices": [
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        }
+      ],
+      "answer": "本",
+      "explanation": "Use 本 to count books."
+    },
+    {
+      "id": "hsk1-r-11",
+      "unit": "numbers",
+      "prompt": "她十___。",
+      "sentence": "她十岁。",
+      "py": "Tā shí suì.",
+      "en": "She is ten years old.",
+      "choices": [
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "块",
+          "py": "kuài",
+          "en": "yuan (spoken)"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        }
+      ],
+      "answer": "岁",
+      "explanation": "岁 follows a number to give a person’s age."
+    },
+    {
+      "id": "hsk1-r-12",
+      "unit": "numbers",
+      "prompt": "现在三___。",
+      "sentence": "现在三点。",
+      "py": "Xiànzài sān diǎn.",
+      "en": "It is three o’clock now.",
+      "choices": [
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        }
+      ],
+      "answer": "点",
+      "explanation": "点 follows the hour when telling the time."
+    },
+    {
+      "id": "hsk1-r-13",
+      "unit": "numbers",
+      "prompt": "茶五___钱。",
+      "sentence": "茶五块钱。",
+      "py": "Chá wǔ kuài qián.",
+      "en": "The tea costs five yuan.",
+      "choices": [
+        {
+          "zh": "块",
+          "py": "kuài",
+          "en": "yuan (spoken)"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        }
+      ],
+      "answer": "块",
+      "explanation": "块 is the spoken unit for yuan."
+    },
+    {
+      "id": "hsk1-r-14",
+      "unit": "numbers",
+      "prompt": "我有一___苹果。",
+      "sentence": "我有一个苹果。",
+      "py": "Wǒ yǒu yí ge píngguǒ.",
+      "en": "I have one apple.",
+      "choices": [
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        }
+      ],
+      "answer": "个",
+      "explanation": "个 is the measure word used here for apples."
+    },
+    {
+      "id": "hsk1-r-15",
+      "unit": "numbers",
+      "prompt": "今天星期一，明天星期___。",
+      "sentence": "今天星期一，明天星期二。",
+      "py": "Jīntiān xīngqīyī, míngtiān xīngqī’èr.",
+      "en": "Today is Monday; tomorrow is Tuesday.",
+      "choices": [
+        {
+          "zh": "二",
+          "py": "èr",
+          "en": "two"
+        },
+        {
+          "zh": "四",
+          "py": "sì",
+          "en": "four"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        }
+      ],
+      "answer": "二",
+      "explanation": "The day after 星期一 is 星期二."
+    },
+    {
+      "id": "hsk1-r-16",
+      "unit": "numbers",
+      "prompt": "一年有十二个___。",
+      "sentence": "一年有十二个月。",
+      "py": "Yì nián yǒu shí’èr ge yuè.",
+      "en": "A year has twelve months.",
+      "choices": [
+        {
+          "zh": "月",
+          "py": "yuè",
+          "en": "month"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        }
+      ],
+      "answer": "月",
+      "explanation": "月 is month; there are twelve months in a year."
+    },
+    {
+      "id": "hsk1-r-17",
+      "unit": "daily",
+      "prompt": "我想___水。",
+      "sentence": "我想喝水。",
+      "py": "Wǒ xiǎng hē shuǐ.",
+      "en": "I would like to drink water.",
+      "choices": [
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to look; read"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        }
+      ],
+      "answer": "喝",
+      "explanation": "喝 is the verb used for drinking water."
+    },
+    {
+      "id": "hsk1-r-18",
+      "unit": "daily",
+      "prompt": "我们___米饭。",
+      "sentence": "我们吃米饭。",
+      "py": "Wǒmen chī mǐfàn.",
+      "en": "We eat rice.",
+      "choices": [
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        }
+      ],
+      "answer": "吃",
+      "explanation": "Use 吃 with food such as 米饭."
+    },
+    {
+      "id": "hsk1-r-19",
+      "unit": "daily",
+      "prompt": "我___字。",
+      "sentence": "我写字。",
+      "py": "Wǒ xiě zì.",
+      "en": "I write characters.",
+      "choices": [
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        }
+      ],
+      "answer": "写",
+      "explanation": "写字 means to write characters."
+    },
+    {
+      "id": "hsk1-r-20",
+      "unit": "daily",
+      "prompt": "我去___看医生。",
+      "sentence": "我去医院看医生。",
+      "py": "Wǒ qù yīyuàn kàn yīshēng.",
+      "en": "I go to the hospital to see a doctor.",
+      "choices": [
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home"
+        }
+      ],
+      "answer": "医院",
+      "explanation": "医院 is the place for seeing a doctor."
+    },
+    {
+      "id": "hsk1-r-21",
+      "unit": "daily",
+      "prompt": "请___，老师在说话。",
+      "sentence": "请听，老师在说话。",
+      "py": "Qǐng tīng, lǎoshī zài shuōhuà.",
+      "en": "Please listen; the teacher is speaking.",
+      "choices": [
+        {
+          "zh": "听",
+          "py": "tīng",
+          "en": "to listen"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        }
+      ],
+      "answer": "听",
+      "explanation": "听 means listen; the next clause tells you someone is speaking."
+    },
+    {
+      "id": "hsk1-r-22",
+      "unit": "daily",
+      "prompt": "我在商店___衣服。",
+      "sentence": "我在商店买衣服。",
+      "py": "Wǒ zài shāngdiàn mǎi yīfu.",
+      "en": "I buy clothes at the shop.",
+      "choices": [
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        }
+      ],
+      "answer": "买",
+      "explanation": "买 means buy; 商店 is a shop."
+    },
+    {
+      "id": "hsk1-r-23",
+      "unit": "daily",
+      "prompt": "水在杯子___。",
+      "sentence": "水在杯子里。",
+      "py": "Shuǐ zài bēizi lǐ.",
+      "en": "The water is inside the cup.",
+      "choices": [
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on; above"
+        },
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "under; below"
+        },
+        {
+          "zh": "前面",
+          "py": "qiánmiàn",
+          "en": "in front"
+        }
+      ],
+      "answer": "里",
+      "explanation": "里 locates something inside a container."
+    },
+    {
+      "id": "hsk1-r-24",
+      "unit": "daily",
+      "prompt": "你去学校___什么？",
+      "sentence": "你去学校做什么？",
+      "py": "Nǐ qù xuéxiào zuò shénme?",
+      "en": "What do you go to school to do?",
+      "choices": [
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "to do; to make"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "买",
+          "py": "mǎi",
+          "en": "to buy"
+        }
+      ],
+      "answer": "做",
+      "explanation": "做什么 asks what activity someone will do."
+    },
+    {
+      "id": "hsk1-r-25",
+      "unit": "sample",
+      "prompt": "她___我的老师。",
+      "sentence": "她是我的老师。",
+      "py": "Tā shì wǒ de lǎoshī.",
+      "en": "She is my teacher.",
+      "choices": [
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at; in"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have"
+        }
+      ],
+      "answer": "是",
+      "explanation": "Use 是 to identify someone as your teacher."
+    },
+    {
+      "id": "hsk1-r-26",
+      "unit": "sample",
+      "prompt": "这是你___杯子吗？",
+      "sentence": "这是你的杯子吗？",
+      "py": "Zhè shì nǐ de bēizi ma?",
+      "en": "Is this your cup?",
+      "choices": [
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "possession marker"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "question particle"
+        },
+        {
+          "zh": "呢",
+          "py": "ne",
+          "en": "question/topic particle"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "change/completion particle"
+        }
+      ],
+      "answer": "的",
+      "explanation": "你的杯子 means your cup; 的 connects owner and object."
+    },
+    {
+      "id": "hsk1-r-27",
+      "unit": "sample",
+      "prompt": "他___是医生，他是老师。",
+      "sentence": "他不是医生，他是老师。",
+      "py": "Tā bú shì yīshēng, tā shì lǎoshī.",
+      "en": "He is not a doctor; he is a teacher.",
+      "choices": [
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not; have not"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        }
+      ],
+      "answer": "不",
+      "explanation": "不是 is the negative of 是."
+    },
+    {
+      "id": "hsk1-r-28",
+      "unit": "sample",
+      "prompt": "你想喝___？",
+      "sentence": "你想喝什么？",
+      "py": "Nǐ xiǎng hē shénme?",
+      "en": "What would you like to drink?",
+      "choices": [
+        {
+          "zh": "什么",
+          "py": "shénme",
+          "en": "what"
+        },
+        {
+          "zh": "谁",
+          "py": "shéi",
+          "en": "who"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "how many (small number)"
+        },
+        {
+          "zh": "多少",
+          "py": "duōshao",
+          "en": "how many; how much"
+        }
+      ],
+      "answer": "什么",
+      "explanation": "什么 asks for the thing to drink; 几 and 多少 ask quantities."
+    },
+    {
+      "id": "hsk1-r-29",
+      "unit": "sample",
+      "prompt": "我有五个苹果，他有一个，我们有___个苹果。",
+      "sentence": "我有五个苹果，他有一个，我们有六个苹果。",
+      "py": "Wǒ yǒu wǔ ge píngguǒ, tā yǒu yí ge, wǒmen yǒu liù ge píngguǒ.",
+      "en": "I have five apples and he has one; we have six apples.",
+      "choices": [
+        {
+          "zh": "七",
+          "py": "qī",
+          "en": "seven"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "九",
+          "py": "jiǔ",
+          "en": "nine"
+        }
+      ],
+      "answer": "六",
+      "explanation": "Five plus one makes six: 六."
+    },
+    {
+      "id": "hsk1-r-30",
+      "unit": "sample",
+      "prompt": "他有三___书。",
+      "sentence": "他有三本书。",
+      "py": "Tā yǒu sān běn shū.",
+      "en": "He has three books.",
+      "choices": [
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        },
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "点",
+          "py": "diǎn",
+          "en": "o’clock"
+        }
+      ],
+      "answer": "本",
+      "explanation": "本 counts books."
+    },
+    {
+      "id": "hsk1-r-31",
+      "unit": "sample",
+      "prompt": "我女儿六___。",
+      "sentence": "我女儿六岁。",
+      "py": "Wǒ nǚ’ér liù suì.",
+      "en": "My daughter is six years old.",
+      "choices": [
+        {
+          "zh": "岁",
+          "py": "suì",
+          "en": "years old"
+        },
+        {
+          "zh": "块",
+          "py": "kuài",
+          "en": "yuan (spoken)"
+        },
+        {
+          "zh": "本",
+          "py": "běn",
+          "en": "measure word for books"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "general measure word"
+        }
+      ],
+      "answer": "岁",
+      "explanation": "岁 expresses age in years."
+    },
+    {
+      "id": "hsk1-r-32",
+      "unit": "sample",
+      "prompt": "今天星期三，明天星期___。",
+      "sentence": "今天星期三，明天星期四。",
+      "py": "Jīntiān xīngqīsān, míngtiān xīngqīsì.",
+      "en": "Today is Wednesday; tomorrow is Thursday.",
+      "choices": [
+        {
+          "zh": "四",
+          "py": "sì",
+          "en": "four"
+        },
+        {
+          "zh": "二",
+          "py": "èr",
+          "en": "two"
+        },
+        {
+          "zh": "六",
+          "py": "liù",
+          "en": "six"
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        }
+      ],
+      "answer": "四",
+      "explanation": "Thursday, 星期四, follows Wednesday."
+    },
+    {
+      "id": "hsk1-r-33",
+      "unit": "sample",
+      "prompt": "她想___茶。",
+      "sentence": "她想喝茶。",
+      "py": "Tā xiǎng hē chá.",
+      "en": "She would like to drink tea.",
+      "choices": [
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        }
+      ],
+      "answer": "喝",
+      "explanation": "Tea is something to drink: 喝."
+    },
+    {
+      "id": "hsk1-r-34",
+      "unit": "sample",
+      "prompt": "我们去___买苹果。",
+      "sentence": "我们去商店买苹果。",
+      "py": "Wǒmen qù shāngdiàn mǎi píngguǒ.",
+      "en": "We go to the shop to buy apples.",
+      "choices": [
+        {
+          "zh": "商店",
+          "py": "shāngdiàn",
+          "en": "shop"
+        },
+        {
+          "zh": "医院",
+          "py": "yīyuàn",
+          "en": "hospital"
+        },
+        {
+          "zh": "学校",
+          "py": "xuéxiào",
+          "en": "school"
+        },
+        {
+          "zh": "家",
+          "py": "jiā",
+          "en": "home"
+        }
+      ],
+      "answer": "商店",
+      "explanation": "商店 is the shop where you buy things."
+    },
+    {
+      "id": "hsk1-r-35",
+      "unit": "sample",
+      "prompt": "我___我的名字。",
+      "sentence": "我写我的名字。",
+      "py": "Wǒ xiě wǒ de míngzi.",
+      "en": "I write my name.",
+      "choices": [
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        }
+      ],
+      "answer": "写",
+      "explanation": "写 is write; the other actions do not work with 名字 here."
+    },
+    {
+      "id": "hsk1-r-36",
+      "unit": "sample",
+      "prompt": "请___水。",
+      "sentence": "请喝水。",
+      "py": "Qǐng hē shuǐ.",
+      "en": "Please drink water.",
+      "choices": [
+        {
+          "zh": "喝",
+          "py": "hē",
+          "en": "to drink"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "坐",
+          "py": "zuò",
+          "en": "to sit"
+        },
+        {
+          "zh": "写",
+          "py": "xiě",
+          "en": "to write"
+        }
+      ],
+      "answer": "喝",
+      "explanation": "喝 is the verb for drinking; the other choices do not work with water here."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-04",
+  "tool": "Built-in image_gen; transparent identity-preserving edit",
+  "reference": "public/mascot/quiet/review.png",
+  "original": "public/mascot/quiet/teacher.png",
+  "runtime": "public/mascot/web/teacher.webp",
+  "preparation": "scripts/prepare-mascot.py; isolated teacher asset",
+  "prompt": "Use case: identity-preserve. Asset type: transparent full-body PNG mascot for Kiyo's serious HSK study area. Edit target: attached approved Sayo artwork. Preserve EXACT character design, slender chibi body, face size, long navy hair shape and ahoge top strand, teal half-lidded eyes, charcoal coat and trousers, white shirt, teal flower and ribbon at collar, navy outlines, flat cel shading, proportions and palette. Change only the POSE and very subtle expression: Sayo is a strict but caring exam tutor, standing straight with a closed dark-blue study notebook tucked in her left arm against her torso, right hand holding a slim pencil upright as a teacher pointer. Subtle focused eyebrows, small straight mouth with a hint of dry humor. Cute composed serious teacher, not angry or intimidating. No glasses, no new outfit or accessories other than the notebook and pencil. Full character including top hair strand and shoes, centered with compact transparent margins, same polished illustration quality as reference. No text, no labels, no background, no scene, no shadow, no glow, no pale outer halo. Real transparent alpha. One single character only.",
+  "glassesRevision": "User-requested thin dark-navy oval glasses added with built-in image_gen; all other design details preserved. Previous art retained in .cache/hsk-teacher/teacher-original.png.",
+  "sha256": "4485cdc7b8d37ca5d8ed36b2804fa920e877552bac819a8fbf8d431bf0a0904e"
+}

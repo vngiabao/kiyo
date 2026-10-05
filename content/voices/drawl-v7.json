@@ -1,0 +1,37 @@
+{
+  "revision": "drawl-v7",
+  "status": "Unapproved reaction audition; pitch processing explicitly labeled.",
+  "title": "A low drawl. A dry little joke.",
+  "intro": "Lazy, drawn-out endings, introverted teasing, and Japanese-speaker inflection in Mandarin. Compare the natural take with the version lowered two semitones, then try the brief startled reaction.",
+  "seed": 7416,
+  "text": "来了啊——。嗯，开始吧。不错嘛——。诶？全对了？……行吧，你厉害。",
+  "pinyin": "Lái le a—. Ǹg, kāishǐ ba. Bú cuò ma—. Éi? Quán duì le? … Xíng ba, nǐ lìhai.",
+  "english": "You’re heeere. Mm, let’s start. Not baaad. Huh? All correct? … Fine, you’re good.",
+  "takes": [
+    {
+      "id": "natural-drawl",
+      "label": "Lazy drawl · natural pitch",
+      "description": "Low, reserved teasing; stretch the final 啊 and 嘛 into a lazy drawl.",
+      "instruct": "用低沉厚实、略带沙哑的成年女声说中文，有明显自然的日语口音和日语式说话节奏。内向，懒懒的，面无表情地逗朋友。来了啊的啊、不错嘛的嘛故意把元音拖长，像打招呼时拖长尾音，语尾慢慢往下落。其他字正常说，不要整句话都拖慢。保持中文声调可辨。诶全对了有点惊讶，然后行吧你厉害低声嘴硬地夸奖。",
+      "speed": 0.98,
+      "pitchShift": 0
+    },
+    {
+      "id": "deeper-drawl",
+      "label": "Lazy drawl · deeper",
+      "description": "The same direction, digitally lowered two semitones with duration preserved.",
+      "instruct": "用低沉厚实、略带沙哑的成年女声说中文，有明显自然的日语口音和日语式说话节奏。内向，懒懒的，面无表情地逗朋友。来了啊的啊、不错嘛的嘛故意把元音拖长，像打招呼时拖长尾音，语尾慢慢往下落。其他字正常说，不要整句话都拖慢。保持中文声调可辨。诶全对了有点惊讶，然后行吧你厉害低声嘴硬地夸奖。",
+      "speed": 0.98,
+      "pitchShift": -2
+    },
+    {
+      "id": "startled-drawl",
+      "label": "Deeper · startled then dry",
+      "description": "A small breath and brief startled burst, then a low, reluctant compliment. Lowered two semitones.",
+      "text": "来了啊——。嗯，开始吧。不错嘛——。[breath]诶？<strong>全对了？</strong>……行吧，你厉害。",
+      "instruct": "用低沉厚实的成年女声说中文，带日语母语者说中文的口音。害羞内向又爱吐槽。来了啊和不错嘛的最后元音拖长，懒懒地故意调侃。诶全对了突然慌张惊讶地提高音调，有点好笑，只爆发这一小句。然后立刻恢复低沉冷淡，行吧你厉害像不好意思承认朋友很厉害。发音清晰，中文四声可辨，不要一直大喊。",
+      "speed": 0.98,
+      "pitchShift": -2
+    }
+  ]
+}

@@ -1,0 +1,1056 @@
+/* Kiyo · Night Study v2 — loaded last, so it is the source of truth for colour,
+ * surfaces and the shared-spec layout of Today, lessons and Sayo.
+ *
+ * Direction: a late-night studio. Deep blue-black with one soft "moonlight"
+ * glow (Oura's dusk screens), a single luminous blue-rose accent (Sayo / Ado),
+ * paper-like surfaces that are lighter, never boxed-in. One coloured plane per
+ * screen: the verdict bar while it shows, otherwise only small accents.
+ * Motion (Emil Kowalski): transform/opacity, ease-out, ≤ 260 ms, fine-pointer
+ * hover only, reduced motion keeps state and drops movement.
+ */
+:root {
+  --paper: #0b1220;
+  --paper-deep: rgb(255 255 255 / 0.05);
+  --sheet: #111a2b;
+  --sheet-2: #172338;
+  --ink: #eef2f8;
+  --ink-2: #b8c4d6;
+  --ink-3: #8f9cb2;
+  --ink-4: #7b889e;
+  --rule: rgb(148 170 214 / 0.14);
+  --rule-strong: rgb(148 170 214 / 0.28);
+  --accent: #86a8ff;
+  --accent-hover: #a3bdff;
+  --accent-wash: rgb(134 168 255 / 0.14);
+  --on-accent: #0a1430;
+  --good: #72d9b9;
+  --good-wash: rgb(114 217 185 / 0.12);
+  --bad: #ff9a92;
+  --bad-wash: rgb(255 154 146 / 0.12);
+  --sound: #f2c47e;
+  --t1: #ff9a92;
+  --t2: #f4c46e;
+  --t3: #72d9b9;
+  --t4: #8fb0ff;
+  --t5: #9eaabd;
+  --scrim: rgb(4 8 16 / 0.7);
+  --glass: rgb(12 19 33 / 0.78);
+  --verdict-h: 76px;
+  /* Solid colours for the stroke-order library (it can't parse rgb(… / alpha)). */
+  --writer-outline: #34435f;
+}
+
+html {
+  background-color: #0b1323;
+}
+body {
+  background:
+    radial-gradient(1100px 520px at 88% -8%, rgb(134 168 255 / 0.13), transparent 62%),
+    radial-gradient(800px 420px at -10% 4%, rgb(114 217 185 / 0.05), transparent 60%),
+    linear-gradient(180deg, #0d1628 0px, #0b1323 900px);
+  background-color: #0b1323;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* ---------- Chrome: frosted, quiet ---------- */
+.masthead,
+.focus-header {
+  background: var(--glass);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border-bottom: 1px solid var(--rule);
+}
+.tabbar {
+  background: var(--glass) !important;
+}
+
+/* ---------- Buttons: one luminous accent ---------- */
+.button {
+  background: var(--accent);
+  color: var(--on-accent);
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.35),
+    0 10px 26px -14px rgb(134 168 255 / 0.85);
+}
+.button:not(.secondary):disabled {
+  box-shadow: none;
+}
+.button.secondary {
+  background: transparent;
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--rule-strong);
+}
+@media (hover: hover) and (pointer: fine) {
+  .button:hover:not(:disabled) {
+    background: var(--accent-hover);
+  }
+  .button.secondary:hover:not(:disabled) {
+    background: var(--paper-deep);
+  }
+}
+
+/* ---------- Fewer shouty labels ---------- */
+.dateline {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--ink-3);
+}
+.today-facts dt {
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.today-facts dd .muted {
+  color: var(--ink-3);
+}
+
+/* ---------- Sayo's bubble (shared spec §4) ---------- */
+.mo-bubble {
+  max-width: 280px;
+  padding: 12px 16px 12px;
+  border-radius: 14px;
+  background: var(--sheet-2);
+  border: 1px solid var(--rule-strong);
+  box-shadow: 0 18px 40px -22px rgb(0 0 0 / 0.75);
+  gap: 3px;
+}
+.mo-bubble::after {
+  background: var(--sheet-2);
+  border-color: var(--rule-strong);
+}
+.mo-zh {
+  font-size: 20px;
+  line-height: 1.35;
+}
+.mo-py {
+  font-size: 14px;
+}
+.mo-en {
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.mo-voice-hint {
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+button.mo-bubble {
+  cursor: pointer;
+  text-align: inherit;
+  transition:
+    border-color 160ms ease,
+    transform 160ms var(--ease-out);
+}
+button.mo-bubble:active {
+  transform: scale(0.98);
+}
+@media (hover: hover) and (pointer: fine) {
+  button.mo-bubble:hover {
+    border-color: var(--accent);
+  }
+}
+
+/* ---------- Today ---------- */
+.today-head {
+  align-items: center;
+  padding-top: 24px; /* clear the header by ≥ 24px */
+  margin-bottom: 40px;
+}
+.today-head h1 {
+  font-size: clamp(40px, 5vw, 60px);
+}
+.today-mo .mo-bubble {
+  margin-bottom: 92px;
+}
+.lead {
+  border-bottom: 0;
+  padding-bottom: 8px;
+}
+.lead-glyph {
+  border-radius: 22px;
+  border: 1px solid var(--rule-strong);
+  background-color: var(--sheet);
+  background-image:
+    linear-gradient(var(--rule) 1px, transparent 1px),
+    linear-gradient(90deg, var(--rule) 1px, transparent 1px),
+    radial-gradient(120% 90% at 25% 0%, rgb(134 168 255 / 0.16), transparent 60%);
+  background-size:
+    100% 50%,
+    50% 100%,
+    100% 100%;
+  background-position:
+    0 calc(50% + 0.5px),
+    calc(50% + 0.5px) 0,
+    0 0;
+  background-repeat: no-repeat;
+  box-shadow:
+    inset 0 1px 0 rgb(255 255 255 / 0.06),
+    0 40px 80px -50px rgb(0 0 0 / 0.9);
+}
+.lead-phrase .pinyin {
+  font-size: clamp(18px, 2vw, 24px);
+  margin-top: 10px;
+}
+.lead-phrase > span[lang] {
+  font-size: clamp(64px, 7vw, 96px);
+}
+.today-columns {
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid var(--rule);
+}
+.section-head {
+  align-items: center;
+}
+.minutes-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 1px var(--rule-strong);
+}
+.minutes-picker button {
+  min-width: 40px;
+  min-height: 32px;
+  padding: 0 8px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-3);
+  transition:
+    background-color 160ms ease,
+    color 160ms ease;
+}
+.minutes-picker button[aria-checked="true"] {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+.minutes-picker > span {
+  margin: 0 10px 0 6px;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+@media (hover: hover) and (pointer: fine) {
+  .minutes-picker button:hover:not([aria-checked="true"]) {
+    color: var(--ink);
+  }
+}
+.plan ol {
+  border-top: 1px solid var(--rule-strong);
+}
+.plan li button {
+  grid-template-columns: 44px minmax(0, 1fr) auto 22px;
+  border-radius: 10px;
+}
+.plan-go {
+  color: var(--ink-4);
+  display: inline-flex;
+  transition:
+    transform 180ms var(--ease-out),
+    color 160ms ease;
+}
+@media (hover: hover) and (pointer: fine) {
+  .plan li button:hover .plan-go {
+    color: var(--accent);
+    transform: translateX(3px);
+  }
+}
+.text-teaser {
+  border-radius: 18px;
+  background:
+    radial-gradient(90% 120% at 100% 0%, rgb(134 168 255 / 0.1), transparent 55%),
+    var(--sheet);
+  border: 1px solid var(--rule);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.05);
+}
+
+/* ---------- Lessons (shared spec §2–§4) ---------- */
+.exercise {
+  padding-top: clamp(24px, 11vh, 128px);
+}
+.exercise-head h1 {
+  letter-spacing: -0.015em;
+}
+
+/* Verdict bar: a dark glass bar with a lit top edge, not a muddy fill. */
+.exercise-footer,
+.exercise-footer.is-right,
+.exercise-footer.is-wrong {
+  background: var(--glass);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border-top: 1px solid var(--rule);
+  min-height: var(--verdict-h);
+}
+.exercise-footer::before {
+  content: "";
+  position: absolute;
+  inset: -1px 0 auto 0;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 260ms var(--ease-out);
+}
+.exercise-footer.is-right::before {
+  background: var(--good);
+  transform: none;
+  box-shadow: 0 0 24px 2px rgb(114 217 185 / 0.45);
+}
+.exercise-footer.is-wrong::before {
+  background: var(--bad);
+  transform: none;
+  box-shadow: 0 0 24px 2px rgb(255 154 146 / 0.4);
+}
+.exercise-footer.is-right {
+  background-image: linear-gradient(180deg, rgb(114 217 185 / 0.08), transparent 70%);
+}
+.exercise-footer.is-wrong {
+  background-image: linear-gradient(180deg, rgb(255 154 146 / 0.08), transparent 70%);
+}
+.verdict-icon {
+  color: var(--paper);
+}
+.is-right .verdict-icon {
+  background: var(--good);
+}
+.is-wrong .verdict-icon {
+  background: var(--bad);
+}
+.verdict-text {
+  gap: 2px;
+}
+.verdict-answer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  color: var(--ink);
+}
+.verdict-answer .verdict-zh {
+  font-size: 20px;
+}
+.verdict-answer .audio-chip {
+  min-width: 34px;
+  height: 34px;
+}
+.verdict-evidence {
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+/* Sayo's home beside the task: right gutter, ≤ 48 px from the column, feet
+   16 px above the verdict bar. Idle pose without a bubble; reactions with one. */
+.lesson-mo {
+  position: fixed;
+  z-index: 14;
+  left: calc(50% + 380px + 24px);
+  bottom: calc(var(--verdict-h) + 16px + env(safe-area-inset-bottom));
+  pointer-events: none;
+}
+.lesson-mo .mo-says,
+.lesson-mo .mo-bubble {
+  pointer-events: auto;
+}
+.lesson-mo .mo-says.side-top {
+  align-items: flex-start;
+}
+.lesson-mo .mo-says.side-top .mo-bubble {
+  max-width: min(280px, calc(50vw - 380px - 40px));
+  text-align: left;
+  justify-items: start;
+}
+.lesson-mo .mo-says.side-top .mo-bubble::after {
+  left: 60px;
+}
+.lesson-mo .mascot {
+  animation: mo-swap 200ms var(--ease-out);
+}
+@keyframes mo-swap {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+.verdict-mo {
+  display: none;
+}
+
+/* Below 1280px there's no room beside the task, so a fixed Sayo would cover answers.
+   She joins the page flow after the task instead: right-aligned, bubble to her left. */
+@media (max-width: 1279px) {
+  .lesson-mo {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: auto;
+  }
+  .lesson-mo .mascot {
+    width: 96px;
+    height: 96px;
+  }
+  .lesson-mo .mo-says.side-top {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .lesson-mo .mo-says.side-top .mo-bubble {
+    max-width: min(320px, calc(100vw - 96px - 56px));
+    margin-bottom: 28px;
+  }
+  .lesson-mo .mo-says.side-top .mo-bubble::after {
+    left: auto;
+    right: -7px;
+    bottom: 14px;
+    transform: rotate(-45deg);
+  }
+}
+@media (max-width: 767px) {
+  .lesson-mo .mascot {
+    width: 64px;
+    height: 64px;
+  }
+  .lesson-mo .mo-says.side-top .mo-bubble {
+    max-width: calc(100vw - 64px - 48px);
+    padding: 8px 12px;
+    margin-bottom: 16px;
+  }
+  .lesson-mo .mo-zh {
+    font-size: 17px;
+  }
+  .lesson-mo .mo-voice-hint {
+    display: none;
+  }
+  /* One line until tapped. */
+  .lesson-mo .is-collapsible:not(.is-expanded) .mo-py,
+  .lesson-mo .is-collapsible:not(.is-expanded) .mo-en {
+    display: none;
+  }
+  .today-mo .mo-bubble {
+    margin-bottom: 0;
+  }
+  .today-head h1 {
+    font-size: clamp(30px, 8.5vw, 40px);
+  }
+  .plan .section-head {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .minutes-picker {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .minutes-picker button {
+    flex: 1;
+    min-height: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lesson-mo .mascot {
+    animation: none;
+  }
+  .exercise-footer::before {
+    transition: none;
+  }
+}
+
+/* ---------- Practice tasks (HSK formats) ---------- */
+.task {
+  width: 100%;
+  display: grid;
+  gap: 22px;
+  justify-items: stretch;
+}
+.task .stage-audio,
+.task .fill-audio {
+  justify-self: center;
+}
+.choice-text .pinyin {
+  display: block;
+  margin-top: 2px;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.zh-choices .choice-text {
+  font-family: var(--font-han);
+  font-size: 20px;
+}
+.task-gate {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.task-why {
+  margin: 0;
+  padding: 12px 16px;
+  border-radius: var(--r);
+  background: var(--paper-deep);
+  color: var(--ink-2);
+  font-size: 15px;
+}
+
+/* Conversation player: who is talking, where we are, nothing to read yet. */
+.convo-player {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  padding: 22px 18px 18px;
+  border-radius: calc(var(--r) + 4px);
+  background: var(--sheet);
+  box-shadow: inset 0 0 0 1px var(--rule);
+}
+.convo-cast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cast-chip {
+  --who: var(--accent);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 10px;
+  border-radius: 999px;
+  box-shadow: inset 0 0 0 1px var(--rule-strong);
+  font-family: var(--font-han);
+  font-size: 16px;
+  color: var(--ink-2);
+  transition:
+    background-color 200ms ease,
+    box-shadow 200ms ease,
+    color 200ms ease;
+}
+.cast-chip.tone-1 {
+  --who: var(--sound);
+}
+.cast-chip.tone-2 {
+  --who: var(--good);
+}
+.cast-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--who);
+  opacity: 0.55;
+  transition:
+    opacity 200ms ease,
+    transform 200ms var(--ease-out);
+}
+.cast-chip.is-speaking {
+  color: var(--ink);
+  background: color-mix(in srgb, var(--who) 14%, transparent);
+  box-shadow: inset 0 0 0 1.5px var(--who);
+}
+.cast-chip.is-speaking .cast-dot {
+  opacity: 1;
+  transform: scale(1.25);
+}
+.convo-controls {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+}
+.convo-dots {
+  display: flex;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.convo-dots li {
+  width: 18px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--rule-strong);
+  transition: background-color 200ms ease;
+}
+.convo-dots li.is-done {
+  background: var(--ink-4);
+}
+.convo-dots li.is-now {
+  background: var(--accent);
+}
+
+/* Questions under the player */
+.task-questions {
+  display: grid;
+  gap: 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.task-question {
+  display: grid;
+  gap: 10px;
+}
+.tq-prompt {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--ink);
+}
+.tq-num {
+  flex: none;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.task-question .choice {
+  min-height: 50px;
+  padding: 10px 16px;
+  font-size: 16px;
+}
+
+/* Transcript: shown after answering, or on request (which counts as support). */
+.transcript {
+  border-top: 1px solid var(--rule);
+  padding-top: 14px;
+}
+.transcript summary {
+  cursor: pointer;
+  color: var(--ink-3);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.transcript ol,
+.transcript-inline {
+  display: grid;
+  gap: 4px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tx-line {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 12px;
+  border-radius: var(--r);
+  transition: background-color 200ms ease;
+}
+.tx-line.is-active {
+  background: var(--accent-wash);
+}
+.transcript-inline .tx-line {
+  grid-template-columns: minmax(0, 1fr) auto;
+  background: var(--sheet);
+  box-shadow: inset 0 0 0 1px var(--rule);
+}
+.tx-who {
+  font-family: var(--font-han);
+  font-size: 14px;
+  color: var(--ink-3);
+  min-width: 3em;
+}
+.tx-text {
+  display: grid;
+  gap: 2px;
+}
+.tx-zh {
+  font-family: var(--font-han);
+  font-size: 20px;
+  color: var(--ink);
+}
+.tx-text .pinyin {
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.tx-en {
+  font-size: 14px;
+  color: var(--ink-2);
+}
+
+/* True or false */
+.tf-statement {
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  font-family: var(--font-display);
+  color: var(--ink);
+}
+.task-tf .choices {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Fill in what you hear */
+.fill-audio {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.fill-line {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--font-han);
+  font-size: clamp(26px, 4vw, 34px);
+  color: var(--ink);
+  text-align: center;
+}
+.fill-slot input {
+  min-width: 4.5em;
+  max-width: 100%;
+  padding: 2px 8px 4px;
+  border: 0;
+  border-bottom: 2px solid var(--accent);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.8em;
+  text-align: center;
+}
+.fill-slot input::placeholder {
+  color: var(--ink-4);
+  font-family: var(--font-ui);
+  font-size: 15px;
+}
+.fill-slot input:focus-visible {
+  outline: none;
+  background: var(--accent-wash);
+}
+.fill-slot.is-right input {
+  border-color: var(--good);
+  color: var(--good);
+}
+.fill-slot.is-wrong input {
+  border-color: var(--bad);
+  color: var(--bad);
+  text-decoration: line-through;
+}
+.fill-py {
+  text-align: center;
+  color: var(--ink-3);
+}
+.task-fill > .small {
+  margin: 0;
+  text-align: center;
+}
+
+/* Gap-fill with a word bank */
+.cloze-text {
+  display: grid;
+  gap: 14px;
+  padding: 20px;
+  border-radius: calc(var(--r) + 4px);
+  background: var(--sheet);
+  box-shadow: inset 0 0 0 1px var(--rule);
+}
+.cloze-line {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "who zh audio"
+    ". py ."
+    ". en .";
+  column-gap: 12px;
+  align-items: baseline;
+}
+.cloze-line .tx-who {
+  grid-area: who;
+}
+.cloze-zh {
+  grid-area: zh;
+  font-family: var(--font-han);
+  font-size: 22px;
+  line-height: 1.9;
+  color: var(--ink);
+}
+.cloze-line .pinyin {
+  grid-area: py;
+  font-size: 14px;
+  color: var(--ink-3);
+}
+.cloze-line .tx-en {
+  grid-area: en;
+}
+.cloze-line .audio-control {
+  grid-area: audio;
+}
+.cloze-slot {
+  position: relative;
+  display: inline-block;
+  min-width: 2.6em;
+  margin: 0 3px;
+  padding: 0 6px;
+  border-bottom: 2px solid var(--rule-strong);
+  border-radius: 4px 4px 0 0;
+  color: var(--accent-hover);
+  font: inherit;
+  line-height: 1.35;
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease;
+}
+.cloze-slot.is-active {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+.cloze-slot.is-right {
+  border-color: var(--good);
+  color: var(--good);
+}
+.cloze-slot.is-wrong {
+  border-color: var(--bad);
+  color: var(--bad);
+  text-decoration: line-through;
+}
+.cloze-fix {
+  display: inline-block;
+  margin-left: 6px;
+  color: var(--good);
+}
+.task-cloze .token-bank button {
+  font-size: 22px;
+  height: 50px;
+  padding: 0 14px;
+}
+
+/* Matching */
+.task-match {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 16px;
+}
+.match-left,
+.match-right {
+  display: grid;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.match-item,
+.match-option {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  min-height: 58px;
+  padding: 10px 14px;
+  border-radius: var(--r);
+  background: var(--sheet);
+  box-shadow: inset 0 0 0 1px var(--rule);
+  text-align: left;
+  font-size: 16px;
+  transition:
+    box-shadow 160ms ease,
+    background-color 160ms ease,
+    transform 160ms var(--ease-out);
+}
+.match-item:active:not(:disabled),
+.match-option:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.match-option {
+  grid-template-columns: minmax(0, 1fr);
+}
+.match-option.is-used {
+  grid-template-columns: 26px minmax(0, 1fr);
+  background: var(--paper-deep);
+}
+.match-key {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1px var(--rule-strong);
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.match-option .match-key,
+.match-item.is-active .match-key {
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow: none;
+}
+.match-item.is-active {
+  background: var(--accent-wash);
+  box-shadow: inset 0 0 0 1.5px var(--accent);
+}
+.match-item.is-right {
+  box-shadow: inset 0 0 0 1.5px var(--good);
+}
+.match-item.is-wrong {
+  box-shadow: inset 0 0 0 1.5px var(--bad);
+}
+.match-zh {
+  display: grid;
+  font-family: var(--font-han);
+  font-size: 19px;
+}
+.match-zh .pinyin {
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.match-link {
+  grid-column: 2;
+  font-family: var(--font-han);
+  font-size: 15px;
+  color: var(--accent-hover);
+}
+.match-fix {
+  margin: 6px 0 0 38px;
+  font-family: var(--font-han);
+  color: var(--good);
+}
+.match-fix .pinyin {
+  margin-left: 6px;
+  font-family: var(--font-ui);
+  font-size: 13px;
+  color: var(--ink-3);
+}
+@media (hover: hover) and (pointer: fine) {
+  .match-item:hover:not(:disabled):not(.is-active),
+  .match-option:hover:not(:disabled) {
+    box-shadow: inset 0 0 0 1px var(--ink-4);
+  }
+}
+@media (max-width: 560px) {
+  .task-match {
+    grid-template-columns: 1fr;
+  }
+  .cloze-line {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "who audio"
+      "zh zh"
+      "py py"
+      "en en";
+  }
+  .tx-line {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .tx-line .tx-who {
+    grid-column: 1 / -1;
+  }
+  .fill-audio {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cast-chip,
+  .cast-dot,
+  .convo-dots li,
+  .tx-line,
+  .cloze-slot,
+  .match-item,
+  .match-option {
+    transition: none;
+  }
+}
+
+/* ---------- Reader: a reason to read, and the text in its real-world shape ---------- */
+.reader-purpose {
+  margin: 0;
+  padding: 12px 16px;
+  border-left: 2px solid var(--accent);
+  background: var(--accent-wash);
+  border-radius: 0 var(--r) var(--r) 0;
+  color: var(--ink);
+  font-size: 16px;
+}
+.q-kind {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+/* WeChat-style chat: the first speaker on the left, the reply on the right. */
+.reader-text.format-chat {
+  gap: 14px;
+}
+.format-chat .reader-line {
+  max-width: min(88%, 560px);
+  padding: 10px 16px 8px;
+  border-radius: 4px 18px 18px 18px;
+  background: var(--sheet-2);
+  box-shadow: inset 0 0 0 1px var(--rule);
+}
+.format-chat .reader-line.is-reply {
+  justify-self: end;
+  border-radius: 18px 4px 18px 18px;
+  background: var(--accent-wash);
+  box-shadow: inset 0 0 0 1px rgb(134 168 255 / 0.3);
+}
+.format-chat .line-zh {
+  font-size: clamp(24px, 3.6vw, 30px);
+}
+.format-chat .speaker {
+  font-size: 13px;
+}
+.reader-text.format-chat,
+.reader-text.format-post,
+.reader-text.format-note {
+  border-top-color: var(--rule);
+}
+/* A post or a note: one sheet, like a page you were handed. */
+.reader-text.format-post,
+.reader-text.format-note {
+  gap: 16px;
+  padding: 28px clamp(18px, 4vw, 36px);
+  border: 0;
+  border-radius: calc(var(--r) + 6px);
+  background: var(--sheet);
+  box-shadow:
+    inset 0 0 0 1px var(--rule),
+    0 18px 40px rgb(3 9 18 / 0.3);
+}
+.format-note .line-zh,
+.format-post .line-zh {
+  font-size: clamp(24px, 3.8vw, 32px);
+}
+.reader-lock .task {
+  margin-top: -8px;
+}
+.question .choice {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+.cloze-line .tx-en,
+.cloze-line .pinyin {
+  font-family: var(--font-ui);
+}
+
+/* Disabled primary buttons read as "not yet", not as broken: no fade, a quiet wash. */
+.button:not(.secondary):disabled {
+  opacity: 1;
+  background: var(--accent-wash);
+  color: var(--ink-3);
+  box-shadow: none;
+}
+@media (max-width: 1279px) {
+  .lesson-mo {
+    scroll-margin-bottom: calc(var(--verdict-h) + 16px);
+  }
+  /* Room to scroll the last element clear of the fixed verdict bar, however tall it grows. */
+  .exercise {
+    padding-bottom: calc(var(--verdict-h, 120px) + 32px);
+  }
+}

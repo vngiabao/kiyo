@@ -1,0 +1,164 @@
+# Tingjian · Mandarin, in real life
+
+A working, local-first beginner Mandarin learning app. Sound comes first; reading supports understanding; conversation and media practice have their own learning evidence. This release implements the first usable slice of the larger product brief. It is **not** the finished zero-to-advanced commercial platform.
+
+## Run
+
+Use Node.js 22.12+ (a current LTS is recommended) and npm.
+
+```sh
+npm ci
+npm run dev
+```
+
+Open the local URL printed by the server, normally http://127.0.0.1:5173. No account, API key, Python installation, or audio model download is needed to use the app.
+
+For the optimized offline-capable build:
+
+```sh
+npm run build
+npm run preview
+```
+
+Open the printed preview URL, normally http://127.0.0.1:4173. Visit once while connected and allow the service worker to finish installing. After that the app, fonts, lessons and bundled audio work offline. Development mode does not install the offline service worker. Close all app tabs and reopen when installing a new production version. Changing the hostname or port creates a separate browser storage origin; export a backup before moving to another origin.
+
+## What works
+
+- **Sayo 小夜, the study mentor**: reacts to answers with short Mandarin lines (Chinese, pinyin, English); level-ups name what you can now do; an optional days-in-a-row count. Final artwork spec in [MASCOT_BRIEF.md](MASCOT_BRIEF.md).
+- **Beginner path map**: Read and Listen show a winding, Duolingo-style trail of units (learn → quick check → reading) with Sayo marking where to start, plus a plain-language 10-step “whole journey.”
+- **Characters-first reading path** (new default, switchable): starts with counting 一–十, then easy first words; 66 characters in eight lessons; every new character shows its pinyin and audio with stroke-order animation, component breakdowns (meaning / sound / shape), labelled origin notes, example words and optional tracing. Sound and pinyin stay hidden until requested.
+- **Graded readings**: five short original texts with tap-to-gloss, optional pinyin and per-line English, coverage from your own unaided recognition, and comprehension checks.
+- **Character wall** showing every character as not met / met / recognised / secure.
+
+- Three-step onboarding with goals, a choice of path (characters first, side by side, sound first), a 10/20/30/45/60-minute daily budget, and quiet mode.
+- Twenty accessible lessons: ten foundation lessons and ten everyday contexts; 78 authored phrases and 348 exercise steps. These are reusable activity instances, not 348 independently authored lessons. Prerequisites guide the sequence without locking the catalog.
+- Audio-first comprehension, explicit usage notes, retrieval reflection, character recognition, sentence assembly, recording/replay and supported alternatives.
+- Bundled Sayo audio in multiple moods, including dialogue turns in the same voice identity. Audio must finish before an unaided listening response can be submitted. Optional device voices are also available.
+- Independent FSRS memories, due reviews, mistake records, pause/resume and an explainable daily plan based on actual attempts.
+- Two four-turn conversation rehearsals, with optional local recording and transparent, limited typed-response matching.
+- Three-pass Media Lab scene: gist, detail and return without text; segment replay, slower audio, local video, SRT captions and A–B loops.
+- A searchable course dictionary, saved-attempt progress, backup export/import and full local reset.
+- Responsive navigation, visible keyboard focus, reduced-motion support and text alternatives.
+
+## Adding curriculum (content packs)
+
+Units are written as JSON "content packs" (see `prompts/content-prompt.md` for the ChatGPT prompts and the exact format).
+
+1. Save each unit as `content/packs/<unit-id>.json` (e.g. `s1-u03.json`). Files starting with `_` are ignored.
+2. Run `npm run packs`. Every pack is checked in curriculum order:
+   - pinyin lines up with the characters;
+   - HSK 3.0 levels and pinyin match the official word list (`content/hsk/levels.json`, from the MIT-licensed complete-hsk-vocabulary dataset; refresh with `npx tsx scripts/import-hsk.ts`);
+   - answer keys are valid;
+   - every character in a text can be looked up;
+   - ≥ 95% of the text is known vocabulary;
+   - role-play patterns accept their own example replies;
+   - ids are unique and prerequisites exist.
+3. Packs that pass are published to `src/generated/packs.json` and become lessons automatically: words, grammar & usage, a dialogue and a reading in the reader, and a role-play in Speak. Packs with errors are listed with exact fixes and are not published.
+
+Preview the format with the bundled example: `npm run packs -- --example --publish`. Run `npm run packs` again to return to the real set. Pack audio uses device voices until you add the texts to the audio generator.
+
+## HSK study room
+
+Open **HSK** in the desktop navigation, or **More → HSK** on mobile (`/#hsk`). Select a target level and exam version. The Source desk links Chinese Testing International's syllabus, official sample papers and demo, plus BLCUP's HSK Standard Course textbook/workbook series. These open on their publishers' sites; book access may require purchase. No textbook pages or official questions are redistributed.
+
+The first internal track contains 36 original HSK 2.0 Level 1 reading questions: three eight-question checkpoints and a separate twelve-question, six-minute sample. Study the notes, then pass each checkpoint with at least 80% unaided and no pinyin help to unlock the next. Answers save locally; the timed sample's deadline continues when you leave. Missed and supported items stay in Mistakes until corrected without help. Scores are raw practice results, never official scores or readiness estimates.
+
+The full roadmap covers HSK 1–6 and the combined advanced 7–9 exam, with level-specific entry prerequisites, study targets and sequential source-work checklists. Levels 2–9 currently use official external samples rather than an internal graded question bank. Source-work completion is self-reported and saved separately by level and exam version. Standard Course ends at 6; the advanced path uses CTI's 7–9 requirements and sample tasks, including writing, translation and speaking. The advanced sample omits some questions, so it is not a complete mock. Legacy books and the 2021 vocabulary standard do not establish full new-syllabus coverage. Confirm the version with your centre.
+
+The HSK notebook uses its own local database and **Export / Restore HSK notebook** controls at the bottom of the study room. It is not included in the main learning backup or cloud sync. Export it separately. The bundled reading practice, teacher art and Sayo speech work offline after installation; external source sites need internet access.
+
+Add reading packs as `content/packs/*.hsk.json`, following `hsk-reading.hsk.json`. `npm run packs` validates question structure, pinyin, answer keys and legacy Level 1 vocabulary before generating `src/generated/hsk-practice.json`. These AI-assisted original drafts still need human linguistic review. The new teacher pose preserves Sayo's approved design; her lines use the existing approved local voice.
+
+## Evidence and privacy
+
+No backend, analytics, advertising, remote tutor, or cloud speech-recognition service is connected. Attempts, review state and preferences are stored in this browser's IndexedDB. Audio recordings and imported media stay in the current tab and are discarded when their screen closes. Bundled voices are local. **Optional device speech voices may contact the browser/operating-system provider**; use the bundled voices for predictable offline behavior.
+
+Use Settings → Export learning record regularly. Browser data can be cleared or evicted. Export includes attempts, schedules, mistakes, sessions, lesson positions and preferences, but no voice recordings or imported videos. Import validates the complete file before a transactional merge; matching IDs are replaced with the imported version after confirmation. Use one active study tab. Optional consent-based cloud sync is implemented but remains disconnected until configured; there is no application-level database encryption.
+
+## Optional cloud sync
+
+Copy `.env.example` to `.env.local` only when setting up an authorized local Supabase instance. Keep it blank for local-only learning. Setup, the migration, the RLS verification script, and two-device acceptance checks are in [supabase/README.md](supabase/README.md). No live project has been connected.
+
+Sync covers attempts, rebuilt schedules, mistakes, completed sessions and learning preferences. First sign-in with existing guest progress requires consent. Signing out keeps local data. Settings provides the last sync time, Sync now, Export learning record and Delete my cloud data. Cloud deletion pauses uploads and keeps a minimal deletion marker so another device cannot silently restore deleted history. Recordings, imported video and unfinished lesson positions stay local. The ten approved Sayo pose revisions are installed; the new Kiyo logo concepts remain uninstalled.
+
+Supported attempts remain supported after help is hidden. Self-reported recall and recordings do not earn a measured pronunciation score. Typed scripted conversations are labeled rehearsal. Completed lessons are not fluency. Formal HSK mappings and exam readiness remain pending; the current exam and the 2021 standard are separate references.
+
+## Validation
+
+```sh
+npm run validate:content
+npm test
+npx tsx scripts/screenshots.ts   # visual QA at 1440 / 768 / 375 into .impeccable/review
+npm run test:e2e
+```
+
+Browser tests require Google Chrome and a running development server. If Chrome is unavailable, install a Playwright browser and adjust `channel` in `playwright.config.ts`.
+
+To test the production service worker, start the preview server, then run in PowerShell with its actual URL:
+
+```powershell
+$env:APP_URL='http://127.0.0.1:4173'
+npx playwright test e2e/reliability.spec.ts -g 'installed production'
+```
+
+See [QA.md](QA.md) for tested scenarios, exact scope and remaining checks. Content validation checks structural correctness and file coverage; it cannot certify natural Mandarin.
+
+## Project guide
+
+- [PEDAGOGY.md](PEDAGOGY.md): sources, decisions, hypotheses and measurement limits.
+- [ARCHITECTURE.md](ARCHITECTURE.md): storage, evidence, curriculum contracts, provider boundaries and publishing architecture.
+- [DESIGN.md](DESIGN.md): the implemented visual system.
+- [BENCHMARKS.md](BENCHMARKS.md): source-linked product observations.
+- [RELEASE_SCOPE.md](RELEASE_SCOPE.md): delivered scope and commercial release gates.
+- [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md): audio, fonts, dictionary and software attribution.
+
+`src/content.ts` owns original seed curriculum. `src/learning.ts` owns scheduling and evidence policy. `src/db.ts` owns persistence. Add content with stable IDs and provenance, regenerate audio when necessary, and validate before building. The application uses React, TypeScript, Vite, Dexie and ts-fsrs.
+
+## Sayo audio generation
+
+The app uses one original synthetic Sayo identity in six moods. Clear is the default for teaching and tone drills; Cool and Playful are selectable reading styles. Reactions select Cool, Intense, Soft or Deadpan to fit the line. Dialogue speakers use different moods and pacing, all in Sayo's voice. Word taps and speech bubbles replay their audio; quiet mode suppresses automatic comments.
+
+The current rollout uses local Qwen3-TTS Base in `.voice-design-env` (Python 3.12, qwen-tts 0.1.1, PyTorch 2.6.0+cu124). Mastering and advisory Whisper screening use `.tts-env`. Models and Python are not required to use the app. The pinned model, synthetic references and exact approved takes live in `content/voices/approved-b-half/profile.json`.
+
+```powershell
+npm run packs
+npm run audio:manifest
+.voice-design-env/Scripts/python.exe scripts/generate-audio-qwen.py --batch 6
+.tts-env/Scripts/python.exe scripts/screen-audio-qwen.py --repeat-short --carrier
+.tts-env/Scripts/python.exe scripts/master-audio-qwen.py
+npx tsx scripts/voice-task-review.ts
+.tts-env/Scripts/python.exe scripts/review-approved-audio.py
+# Resolve screening discrepancies before installing:
+.tts-env/Scripts/python.exe scripts/master-audio-qwen.py --install
+npm run audio:check
+npm run build
+```
+
+`content/audio-scripts.json` covers phrases, contextual character pronunciations (`say`), word examples, pack grammar examples, reading lines, dialogue turns and Sayo reactions. Add curriculum through content packs, then rebuild the catalog and audio. Missing future text can use a device Mandarin voice, with a visible fallback message.
+
+The owner selected the half-semitone option from the final showdown: **-2.25 semitones from the unprocessed B blend**, or **-0.5 relative to Previous audition**. One fixed speaker representation combines synthetic B/current inputs at 85/15; those weights are not perceptual percentages. Mood references change delivery while the speaker representation stays fixed. Processing uses a single polyphase resample at 8837/7760, with no phase vocoder, time stretch or formant correction. Exact approved reactions bypass that step because they are already processed. No real person's recording is used. Mandarin pronunciation takes priority over theatrical delivery.
+
+The generator resumes only files whose recipe and checksum match. It makes up to four attempts for invalid durations and stops on invalid audio. Outputs are mono 24 kHz / 64 kbps MP3s, trimmed and measured at -16 +/-1 LUFS. Generation and screening receipts remain in `.cache/sayo-qwen-approved`. Pronunciation repairs use a cumulative `--retry-list` JSON mapping entry-id/mood keys to take numbers; retain that map on subsequent runs. Installation checks the complete manifest and screening report before replacing the catalog. `content/voices/sayo-library-provenance.json` records model versions, reference recipes, seeds, processing and SHA-256 per file.
+
+Open `/output/approved-voice-rollout/index.html` for the new task conversations, 20 reproducibly selected clips and every single-syllable clip. Whisper transcription, OpenCC spelling conversion and tone-number pinyin comparisons only identify review candidates; they do not certify tones or naturalness. Inactive installed MP3s and catalog snapshots are archived in `output/audio-backup-before-approved-b/`, outside the PWA. The original Kokoro backup remains untouched. Nothing in this workflow reads learner recordings or contacts a paid service.
+
+Task audio includes `taskAudio()` for base lessons and validated packs. Conversation speakers receive Cool, Playful, then Soft in order of appearance; other task lines use Clear. Dialogue assemblies reuse the finalized line files. `npm run audio:check` rejects missing task mood files or spoken gap brackets. The older CosyVoice revisions described below are historical; the approved profile above is the current source of truth.
+
+For ambiguous short words, `pronunciation-contexts.json` can synthesize a natural carrier followed by the target, then retain only that last clause. Carrier audio, crop boundaries and hashes are preserved. Written homophone cues are explicitly recorded and must retain the target's pinyin and tones. Screening can transcribe the complete carrier without supplying the expected text; this helps separate short-context recognition failures from wrong words. When a mood take remains uncertain, mastering prefers a screened take of the same text in another Sayo mood, usually Clear. Every substitution is listed in provenance; it never substitutes a different word or another voice. Installation refuses texts with no screened alternative.
+
+## Deployment
+
+Deploy the `dist/` directory to an HTTPS static host at the domain root. Microphone access requires HTTPS or localhost. No service credentials belong in the browser bundle. A public preview is available at https://tingjian-mandarin-preview.gbao-n-vo.chatgpt.site. See HOSTING.md for its identity and update workflow. Establish a tested backup/sync policy, privacy review and content approval process before accepting paying learners.
+
+Friendly drawl revision (October 4): Read and Welcome use Playful; all five reaction moods now ask for a fuller, smiling delivery with a modest phrase-final drawl. Soft means relaxed encouragement at normal volume, not whispering. Every gallery reaction—including Hint through Run—uses high-quality resampling for the two-semitone lowering, accepting a slightly longer duration instead of phase-vocoder pitch shifting. Reaction synthesis runs at normal speed; teaching-word settings remain unchanged. Every changed recipe gets a new filename, so cached older audio cannot masquerade as the revision. A regression check covers processing for all 17 gallery lines, and browser coverage plays each one to completion. File checks do not certify naturalness or perceived timbre; the owner still judges these by ear.
+
+Smile-and-rise follow-up: the owner confirmed the metallic sound was gone but found the delivery grumpy. Reaction instructions now prioritize an audible broad smile, a full lower opening followed by a brighter higher register, wider expressive movement and more outgoing, affectionate humor. Mandarin lexical tones and the spoken text must remain intact. The model generates the intonation; no artificial pitch sweep is applied. The original synthetic reference and clean reaction processing remain the same.
+
+`reactionTakes` can pin a line's direction and synthesis seed after comparing takes; both are included in its recipe hash and provenance. Welcome uses a selected wider-range take. Pitch measurements help compare range but do not establish friendliness, correct tones or naturalness.
+
+Light teasing follow-up: the owner liked the smile-and-rise base and requested more intonation, slightly lighter delivery and a little tsundere personality. Reaction directions add playful question lifts, short pauses and affectionate mock-indifference with warmth underneath. The synthetic reference, reaction pitch processing, speed and greeting seed stay fixed; no dialogue words or teaching settings change. The preceding roster and manifest are preserved in `.cache/sayo-smile-base`, with superseded audio retained in `.cache/sayo-unused-audio`.
+
+
+Accuracy-first follow-up: reactions are slightly happier and gentler, with synthesis speed at 0.98. The greeting no longer requests a staged pause or abrupt register jump. All HSK-tagged teaching entries now also use high-quality resampling instead of phase-vocoder pitch shifting. `pronunciationTakes` and `reactionTakes` in the roster pin per-line synthesis text, instructions and optional seeds; CosyVoice 3 pronunciation tokens can repair specific words without changing displayed Chinese. Every setting is recorded in each clip's provenance and filename hash.
+
+HSK neutral particles play contextual phrases: 的 → 我的, 吗 → 好吗, 呢 → 你呢, 了 → 好了. Buttons name the actual spoken phrase and show its Chinese, pinyin and meaning. A local Whisper small pass was used to find suspicious takes, not to certify tones: short syllables, homophones and traditional-character transcriptions need human interpretation. The HSK word bank and `/output/voice-review/index.html` remain listening-review surfaces. Non-HSK teaching entries retain their previous processing unless they share an HSK catalog entry.

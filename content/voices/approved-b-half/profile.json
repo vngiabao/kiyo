@@ -1,0 +1,292 @@
+{
+  "id": "sayo-b-half-approved-2026-10-05",
+  "status": "Owner-approved voice choice; full library rollout pending.",
+  "approvedAt": "2026-10-05T05:16:54.989232+00:00",
+  "ownerSelection": "0.5! lock in",
+  "audition": "output/voice-final-showdown/index.html",
+  "option": "half",
+  "model": {
+    "repo": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "revision": "fd4b254389122332181a7c3db7f27e918eec64e3"
+  },
+  "runtime": "qwen-tts 0.1.1; torch 2.6.0+cu124; bf16; sdpa",
+  "weights": {
+    "b": 0.85,
+    "current": 0.15
+  },
+  "embeddingMethod": "Experimental speaker-embedding interpolation: normalize each current synthetic clip embedding, average, normalize; 0.85 B + 0.15 current, then restore B embedding norm. B reference codes and text stay identical for every take. These are embedding weights, not perceived percentages. Both sources are synthetic. No real-person recordings or post pitch/formant/tempo effects.",
+  "fixedBlendEmbeddingSha256": "b83589a5e62c3889c857c4636d935c926bb58239cbf0fa8ee3a9320b172ff444",
+  "anchor": {
+    "file": "content/voices/approved-b-half/source/b-anchor.wav",
+    "sha256": "fa07c542e6fd2022b995f0e539887dd2061197da788b3cea2c6e3ecb2e757ddc",
+    "text": "来了？开始吧。别紧张，我陪你慢慢来。这个字读什么？先想一想。声调呢？嗯，这次读对了。哎呀，全对啦！不错嘛，你还挺厉害的。好，我们再来一次。"
+  },
+  "currentSyntheticReferences": [
+    {
+      "file": "content/voices/approved-b-half/source/f5ab91d49dcce628-playful-ebd12e369e.mp3",
+      "sha256": "c5cfd7daa908650bc425bfba0381591df70e2424c7272ed7d7c830dff6ea2513",
+      "text": "来了？开始吧。",
+      "mood": "playful"
+    },
+    {
+      "file": "content/voices/approved-b-half/source/b112658fd90d7e63-deadpan-352a9d549b.mp3",
+      "sha256": "716cf23da9a7c8ca02d6d8d0198a21b3bc13734ff703d50ae9f5eb3e4e117cc2",
+      "text": "不错嘛。",
+      "mood": "deadpan"
+    },
+    {
+      "file": "content/voices/approved-b-half/source/6ae3eea4bae3c573-soft-522c8c59b7.mp3",
+      "sha256": "945041be24a3c89f2a7783d587345455e21f476606126d8bdf6e1f609cacbc8f",
+      "text": "今天够了。",
+      "mood": "soft"
+    }
+  ],
+  "processing": {
+    "method": "scipy.signal.resample_poly",
+    "window": [
+      "kaiser",
+      8.6
+    ],
+    "totalSemitonesFromUnprocessedBlend": -2.25,
+    "semitonesFromPreviousAudition": -0.5,
+    "resampleRatio": "8837/7760",
+    "timeStretch": false,
+    "formantCorrection": false,
+    "note": "Generate from the pinned unprocessed synthetic identity, then lower once. Do not condition on a processed audition and lower again. Preserve approved clips exactly."
+  },
+  "clips": [
+    {
+      "id": "welcome",
+      "text": "来了？开始吧。",
+      "pinyin": "Lái le? Kāishǐ ba.",
+      "meaning": "You’re here? Let’s begin.",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/welcome-half.wav",
+        "sha256": "d268a597c0cce5dcd8accdc08cd34991a1226866ba336d2b0636c22bd262096c"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-welcome.wav",
+        "sha256": "24b06da534b40911d7131a34cf68f4da098faf3d2956c4cb9f342d934bab99b5"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "welcome-half.wav",
+        "sha256": "d268a597c0cce5dcd8accdc08cd34991a1226866ba336d2b0636c22bd262096c",
+        "seconds": 1.5487916666666666,
+        "lufs": -20.98204377433289,
+        "baselineLufs": -20.982054837236124,
+        "measuredShiftFromOriginal": -2.2,
+        "screeningTranscript": "来了 开始吧"
+      }
+    },
+    {
+      "id": "teacher",
+      "text": "认真一点。开始吧。",
+      "pinyin": "Rènzhēn yìdiǎn. Kāishǐ ba.",
+      "meaning": "Focus a little. Let’s begin.",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/teacher-half.wav",
+        "sha256": "ff1fa3e89bdc689ec7392a14468653bbd02c1e6ce794f22f1a12a5eb7adf340a"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-teacher.wav",
+        "sha256": "5c797ecb8b889ec5662e87095b5572208a34f31a9d05074491d10bc4dcbf0d5d"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "teacher-half.wav",
+        "sha256": "ff1fa3e89bdc689ec7392a14468653bbd02c1e6ce794f22f1a12a5eb7adf340a",
+        "seconds": 1.7285,
+        "lufs": -21.054513617042733,
+        "baselineLufs": -21.054511035172354,
+        "measuredShiftFromOriginal": -2.25,
+        "screeningTranscript": "認真一點 開始吧"
+      }
+    },
+    {
+      "id": "tones",
+      "text": "声调呢？",
+      "pinyin": "Shēngdiào ne?",
+      "meaning": "What about the tones?",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/tones-half.wav",
+        "sha256": "bf905a7560a4d082a9fbbdc623f5fe682418a3812853ac09eba147b09b91d6e1"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-tones.wav",
+        "sha256": "abf2473d890cbe713e5542162ad65dafd4364a6dd6b5f4ea422b240e7f8653dc"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "tones-half.wav",
+        "sha256": "bf905a7560a4d082a9fbbdc623f5fe682418a3812853ac09eba147b09b91d6e1",
+        "seconds": 1.9059583333333334,
+        "lufs": -19.64094903384786,
+        "baselineLufs": -19.64094274836105,
+        "measuredShiftFromOriginal": -2.3,
+        "screeningTranscript": "聲調呢"
+      }
+    },
+    {
+      "id": "smug",
+      "text": "不错嘛。",
+      "pinyin": "Bú cuò ma.",
+      "meaning": "Not bad at all.",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/smug-half.wav",
+        "sha256": "1fed8d1326539f08730e95e28b8a0edbc07727a2773c5b35a218ae6bbf2544c2"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-smug.wav",
+        "sha256": "ac9a39d981e3b0b01121be9b4526c60e2b2f55c70f6c956184d9c8a3abe0c4d8"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "smug-half.wav",
+        "sha256": "1fed8d1326539f08730e95e28b8a0edbc07727a2773c5b35a218ae6bbf2544c2",
+        "seconds": 0.9387083333333334,
+        "lufs": -20.141562191089726,
+        "baselineLufs": -20.141555627999196,
+        "measuredShiftFromOriginal": -2.2,
+        "screeningTranscript": "不錯嘛"
+      }
+    },
+    {
+      "id": "celebrate",
+      "text": "太棒了！",
+      "pinyin": "Tài bàng le!",
+      "meaning": "Fantastic!",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/celebrate-half.wav",
+        "sha256": "4b528cb7950271f3b7dfac41f1682e3ba9972bd8b3020b33644420c0ed121c84"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-celebrate.wav",
+        "sha256": "cfcbe752472394c81e10fbc63af207412041077979cdf0d8959baee413b9788e"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "celebrate-half.wav",
+        "sha256": "4b528cb7950271f3b7dfac41f1682e3ba9972bd8b3020b33644420c0ed121c84",
+        "seconds": 0.7288333333333333,
+        "lufs": -19.360952515965362,
+        "baselineLufs": -19.3609537996553,
+        "measuredShiftFromOriginal": -2.3,
+        "screeningTranscript": "太棒了"
+      }
+    },
+    {
+      "id": "hint",
+      "text": "下次不看提示。",
+      "pinyin": "Xià cì bú kàn tíshì.",
+      "meaning": "Next time, no peeking.",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/hint-half.wav",
+        "sha256": "050c3787a0a803ef49c1b17e4335e9c64245d128d8709ef4f8d925b7ea3ba419"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-hint.wav",
+        "sha256": "e100512d151ef87f88725048f483ebb06957a36e3f22fd4fc8ecf7a6b35501d2"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "hint-half.wav",
+        "sha256": "050c3787a0a803ef49c1b17e4335e9c64245d128d8709ef4f8d925b7ea3ba419",
+        "seconds": 1.3729166666666666,
+        "lufs": -21.013504972341178,
+        "baselineLufs": -21.013502184547622,
+        "measuredShiftFromOriginal": -2.3,
+        "screeningTranscript": "下次不看提示"
+      }
+    },
+    {
+      "id": "rest",
+      "text": "今天够了。",
+      "pinyin": "Jīntiān gòu le.",
+      "meaning": "That’s enough for today.",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/rest-half.wav",
+        "sha256": "fa35587f6d4772fa7996cc01d7fc807bf4ae55bbd26ba632de3a11e145ef93bc"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-rest.wav",
+        "sha256": "6d0ed7acb8bc16323e1d785717053dbc4c074da78f8ce76bb2c820de1c0f27c6"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "rest-half.wav",
+        "sha256": "fa35587f6d4772fa7996cc01d7fc807bf4ae55bbd26ba632de3a11e145ef93bc",
+        "seconds": 1.3143333333333334,
+        "lufs": -20.33450562983702,
+        "baselineLufs": -20.334506559610986,
+        "measuredShiftFromOriginal": -2.3,
+        "screeningTranscript": "今天够了"
+      }
+    },
+    {
+      "id": "words",
+      "text": "什么？很好。我的书。你好吗？",
+      "pinyin": "Shénme? Hěn hǎo. Wǒ de shū. Nǐ hǎo ma?",
+      "meaning": "What? Very good. My book. How are you?",
+      "approved": {
+        "file": "content/voices/approved-b-half/approved/words-half.wav",
+        "sha256": "a3df915a6caf3a67b40689beaec3c578600dc4d4497e086bb81a80de8b4ff653"
+      },
+      "unprocessed": {
+        "file": "content/voices/approved-b-half/source/refined-words.wav",
+        "sha256": "22c31ac9fdacc22236b9811562d50e8acf9293e3b1e5a6be91a0d6ae94e0b413"
+      },
+      "settings": {
+        "id": "half",
+        "label": "0.5 semitone lower",
+        "relativeSemitones": -0.5,
+        "totalSemitones": -2.25,
+        "relativeSpeed": 0.9715319411536059,
+        "ratio": "8837/7760",
+        "file": "words-half.wav",
+        "sha256": "a3df915a6caf3a67b40689beaec3c578600dc4d4497e086bb81a80de8b4ff653",
+        "seconds": 3.3272916666666665,
+        "lufs": -21.35576314493404,
+        "baselineLufs": -21.355760353803646,
+        "measuredShiftFromOriginal": -2.2,
+        "screeningTranscript": "什么?很好。我的书,你好吗?"
+      }
+    }
+  ],
+  "installedManifestSha256AtApproval": "d312a4fe8fc1be28f02612432a60c569c93273344c5fffb607ef51fb4fa9b033"
+}

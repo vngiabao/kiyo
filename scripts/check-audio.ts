@@ -1,0 +1,67 @@
+import { readFileSync, existsSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { voiceKey } from "../src/sayo-voice";
+import { lessonTasks, taskAudio } from "../src/tasks";
+import { compiledPacks } from "../src/pack-content";
+
+const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
+const assets = read("src/audio-assets.json") as Record<
+  string,
+  Record<string, string>
+>;
+const index = new Map(
+  Object.entries(assets).map(([text, voices]) => [voiceKey(text), voices]),
+);
+const scripts = read("content/audio-scripts.json") as {
+  text: string;
+  moods: string[];
+}[];
+const provenance = read("content/voices/sayo-library-provenance.json") as {
+  clips: {
+    file: string;
+    sha256: string;
+    sampleRate: number;
+    seconds: number;
+  }[];
+};
+const files = new Map(provenance.clips.map((c) => [c.file, c]));
+const issues: string[] = [];
+const tasks = [
+  ...Object.values(lessonTasks).flat(),
+  ...compiledPacks.flatMap((p) => p.tasks),
+];
+for (const task of tasks)
+  for (const line of taskAudio(task)) {
+    if (/[【】]/u.test(line.zh))
+      issues.push(`Unexpanded gap in task ${task.id}`);
+    if (!index.get(voiceKey(line.zh))?.[line.mood])
+      issues.push(`Task ${task.id}: missing ${line.mood}: ${line.zh}`);
+  }
+for (const s of scripts)
+  for (const mood of s.moods) {
+    const url = index.get(voiceKey(s.text))?.[mood];
+    if (!url?.startsWith("/audio-v2/")) {
+      issues.push(`Missing ${mood}: ${s.text}`);
+      continue;
+    }
+    const file = "public" + url;
+    const record = files.get(file);
+    if (!record || !existsSync(file)) {
+      issues.push(`Missing file/provenance: ${file}`);
+      continue;
+    }
+    if (record.sampleRate !== 24000 || record.seconds <= 0)
+      issues.push(`Invalid metadata: ${file}`);
+  }
+for (const [file, record] of files) {
+  if (!existsSync(file)) {
+    issues.push(`Missing ${file}`);
+    continue;
+  }
+  const hash = createHash("sha256").update(readFileSync(file)).digest("hex");
+  if (hash !== record.sha256) issues.push(`Changed audio: ${file}`);
+}
+if (issues.length) throw new Error(issues.join("\n"));
+console.log(
+  `${scripts.length} texts covered; ${files.size} audio files match their provenance; ${tasks.length} tasks have their requested moods.`,
+);

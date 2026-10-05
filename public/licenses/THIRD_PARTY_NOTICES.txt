@@ -1,0 +1,40 @@
+# Third-party notices
+
+## Runtime software and fonts
+
+Actual license texts are distributed in `public/licenses/` and copied to `dist/licenses/` on build. Runtime components:
+
+- @fontsource-variable/dm-sans 5.3.0: OFL-1.1
+- @fontsource/noto-serif-sc 5.3.0: OFL-1.1
+- @phosphor-icons/react 2.1.10: MIT
+- dexie 4.4.6: Apache-2.0
+- dexie-react-hooks 4.4.0: Apache-2.0
+- react 19.3.0: MIT
+- react-dom 19.3.0: MIT
+- scheduler 0.28.0: MIT
+- ts-fsrs 5.4.2: MIT
+- workbox-window 7.4.1: MIT
+- workbox-core 7.4.1: MIT
+- workbox-precaching 7.4.1: MIT
+- workbox-routing 7.4.1: MIT
+- workbox-strategies 7.4.1: MIT
+- workbox-cacheable-response 7.4.1: MIT
+- workbox-expiration 7.4.1: MIT
+
+DM Sans and Noto Serif SC are self-hosted; no Google Fonts network request is needed. Their SIL Open Font License notices are included. Application code is a private project; this file does not assign a new public license to original project work.
+
+## Synthesized speech
+
+The 185 files under `public/audio/` were generated locally from original seed scripts using [Kokoro-82M-v1.1-zh](https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh), identified by its publisher as Apache-2.0. Voices: zf_001 and zm_010. Generation used [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx), MIT, and Misaki Chinese grapheme-to-phoneme processing. The source model, voice bank and tools are not shipped in the browser application. Audio provenance and SHA-256 checksums are in `content/audio-provenance.json`. Apache-2.0 text is included for reference; model licensing does not by itself establish linguistic quality or a separate copyright status for generated output.
+
+Scripts are original AI-assisted drafts. The audio is synthetic, not a native human recording and not an impersonation of any named real person. Lin An and Chen Yu are fictional scenario characters. All clips still need educator review. No competitor audio, television footage or proprietary lesson content has been copied.
+
+## Dictionary reference data
+
+`content/reference-check.json` contains extracted entries from **CC-CEDICT contributors, via MDBG**, retrieved 4 October 2026. Source: https://www.mdbg.net/chinese/export/cedict/cedict_1_0_ts_utf-8_mdbg.txt.gz . Dictionary data is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Changes: exact-match subset selected, wrapped in JSON and associated with original phrase IDs and authored pinyin. Extracted/adapted dictionary data retains CC BY-SA 4.0. The evidence file is development material and is not included in the browser bundle. No source endorses this app.
+
+Reference definitions were retained as evidence, not republished as a purportedly independent commercial dictionary. Curriculum explanations and scenario scripts were authored separately. Future content sourced or adapted from dictionaries must retain appropriate attribution and licensing per item.
+
+## User media
+
+No external video library is bundled. Local media is supplied by its user and remains in that user's tab. No rights are granted by the app over imported material.
