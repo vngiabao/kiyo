@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AppleLogo, ArrowLeft, EnvelopeSimple } from "@phosphor-icons/react";
-import { authConfigured, sendEmailCode, signInWith, verifyEmailCode, type OAuthProvider } from "./auth";
+import { authConfigured, emailConfigured, oauthConfigured, sendEmailCode, signInWith, verifyEmailCode, type OAuthProvider } from "./auth";
 import { BrandMark, Wordmark, brand } from "./brand";
 import { Arrow } from "./components";
 import { MoSays } from "./Mascot";
@@ -72,30 +72,33 @@ export default function Welcome({
 
         {stage === "choose" && (
           <div className="auth-options">
-            <button
+            {emailConfigured && <button
               className="auth-button apple"
-              disabled={!authConfigured || busy !== null}
+              disabled={!oauthConfigured("apple") || busy !== null}
+              title={oauthConfigured("apple") ? undefined : "Apple sign-in is not configured. Use email."}
               onClick={() => void oauth("apple")}
             >
               <AppleLogo size={20} weight="fill" />
               {busy === "apple" ? "Opening Apple…" : "Continue with Apple"}
-            </button>
+            </button>}
             <button
               className="auth-button google"
-              disabled={!authConfigured || busy !== null}
+              disabled={!oauthConfigured("google") || busy !== null}
+              title={oauthConfigured("google") ? undefined : "Google sign-in is not configured yet."}
               onClick={() => void oauth("google")}
             >
               <GoogleG />
               {busy === "google" ? "Opening Google…" : "Continue with Google"}
             </button>
-            <button
+            {emailConfigured && <button
               className="auth-button email"
               disabled={!authConfigured || busy !== null}
               onClick={() => setStage("email")}
             >
               <EnvelopeSimple size={20} />
               Continue with email
-            </button>
+            </button>}
+            {authConfigured && !emailConfigured && <p className="auth-note">Private sync · Google account gbao.n.vo@gmail.com only.</p>}
             {!authConfigured && (
               <p className="auth-note" role="note">
                 Accounts aren’t switched on yet. You can start now and add one
@@ -113,7 +116,7 @@ export default function Welcome({
               if (!validEmail) return;
               void run("send", async () => {
                 await sendEmailCode(email.trim());
-                setNotice(`We sent a 6-digit code to ${email.trim()}.`);
+                setNotice(`Check ${email.trim()} and open the sign-in link in this browser. If the email includes a code, enter it below.`);
                 setStage("code");
               });
             }}
@@ -135,7 +138,7 @@ export default function Welcome({
                 <ArrowLeft size={17} /> Other options
               </button>
               <button className="button" disabled={!validEmail || busy !== null}>
-                {busy === "send" ? "Sending…" : "Send code"} <Arrow />
+                {busy === "send" ? "Sending…" : "Send sign-in email"} <Arrow />
               </button>
             </div>
           </form>
@@ -153,13 +156,13 @@ export default function Welcome({
               {notice}
             </p>
             <label className="field">
-              Code
+              Email code (if provided)
               <input
                 className="code-input"
                 inputMode="numeric"
                 autoComplete="one-time-code"
                 autoFocus
-                maxLength={6}
+                maxLength={12}
                 value={code}
                 onChange={(e) => setCode(e.target.value.replace(/\D/g, ""))}
                 placeholder="••••••"
@@ -169,7 +172,7 @@ export default function Welcome({
               <button type="button" className="text-button" onClick={() => setStage("email")}>
                 <ArrowLeft size={17} /> Change email
               </button>
-              <button className="button" disabled={code.length !== 6 || busy !== null}>
+              <button className="button" disabled={!code.trim() || busy !== null}>
                 {busy === "verify" ? "Checking…" : "Sign in"} <Arrow />
               </button>
             </div>

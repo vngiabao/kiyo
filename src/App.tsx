@@ -41,7 +41,7 @@ import { Journey, PathMap, stoneIcon, type PathNode, type PathUnit } from "./Pat
 import type { Profile, Modality, LearningPath } from "./types";
 import LessonPlayer from "./LessonPlayer";
 import Welcome from "./Welcome";
-import { authConfigured, signInWith, signOut } from "./auth";
+import { authConfigured, oauthConfigured, signInWith, signOut } from "./auth";
 import { acceptAccount, detachSync, startSync, syncNow } from "./sync";
 import { SyncConsent, SyncPanel, useSyncStatus } from "./SyncPanel";
 import { BrandMark, Wordmark, brand } from "./brand";
@@ -1419,12 +1419,12 @@ function AccountPanel({
       </span>
       {authConfigured && (
         <span className="account-actions">
-          <button className="button secondary" onClick={() => void signInWith("google").catch((e) => setError((e as Error).message))}>
+          <button className="button secondary" disabled={!oauthConfigured("google")} onClick={() => void signInWith("google").catch((e) => setError((e as Error).message))}>
             Google
           </button>
-          <button className="button secondary" onClick={() => void signInWith("apple").catch((e) => setError((e as Error).message))}>
+          {oauthConfigured("apple") && <button className="button secondary" onClick={() => void signInWith("apple").catch((e) => setError((e as Error).message))}>
             Apple
-          </button>
+          </button>}
         </span>
       )}
       {error && (

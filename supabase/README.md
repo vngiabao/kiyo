@@ -1,6 +1,10 @@
 # Optional Kiyo cloud sync
 
-This change is built and tested locally with a fake transport. No live project is connected. The SQL migration and the SQL isolation script have not yet been executed against Supabase/Postgres. Run the checks below on a local Supabase instance before approving a live connection.
+Live setup (2026-10-05): Kiyo shares project `brepokoccawgqtxqxuwg` in Bao's Website with Shiori. Both migrations are applied, and hosted rollback-only two-user RLS tests passed, including anonymous denial and cross-app deletion isolation. Cloudflare build variables connect each deployment to the same API URL and publishable key. Actual learner sign-in and two-device progress acceptance remain manual.
+
+Kiyo uses `kiyo_sync_state`, `kiyo_learning_records` and `kiyo_sync_*` RPCs; Shiori uses separate `shiori_` tables and RPCs. Auth identities and project quotas are shared. Clearing cloud progress in one app does not clear the other; deleting the Supabase Auth user deletes that user's records in BOTH apps. Browser databases stay separate and unchanged.
+
+Allowed Auth redirects are `https://kiyo.gbaonvo.com/` and `https://shiori.gbaonvo.com/`. Each app requests its own redirect. Hosted login is Google-only for `gbao.n.vo@gmail.com`. The shared `shared-project/owner-only.sql` is applied: the signup hook, restrictive RLS and all six sync RPCs enforce exact owner email and Google provider. Its rollback-only hosted test passed. Email and Apple are disabled; Google OAuth credentials await owner setup. Once enabled in Supabase, set `VITE_AUTH_PROVIDERS=google`, `VITE_AUTH_MODE=google-only` in both Cloudflare builds. Private repositories can stay private, and both hosted sites remain protected by Cloudflare Access. Keep regular backup exports.
 
 ## Local setup
 
