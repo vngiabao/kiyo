@@ -1,3 +1,4 @@
+import { sayoReactions } from "./sayo-reactions";
 export type SayoMood =
   "clear" | "cool" | "playful" | "intense" | "soft" | "deadpan";
 export const voiceKey = (text: string) =>
@@ -9,6 +10,7 @@ export function sayoVoiceURI(uri = "") {
     : uri;
 }
 const reactionMoods: Record<string, SayoMood> = {
+  你好我是小夜: "playful",
   认真一点开始吧: "cool",
   不错下一关: "deadpan",
   先改错再往前: "cool",
@@ -38,6 +40,8 @@ const reactionMoods: Record<string, SayoMood> = {
   今天学得不错: "deadpan",
 };
 export const reactionMood = (text: string): SayoMood =>
-  reactionMoods[voiceKey(text)] ?? "cool";
+  sayoReactions.find((r) => voiceKey(r.zh) === voiceKey(text))?.mood ??
+  reactionMoods[voiceKey(text)] ??
+  "cool";
 export const dialogueMood = (turn: number): SayoMood =>
   ["cool", "playful", "soft"][turn % 3] as SayoMood;

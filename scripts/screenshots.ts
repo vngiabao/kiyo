@@ -42,6 +42,7 @@ for (const [label, width, height] of widths) {
   await shot("lesson-meet", false);
   await click(page, "Continue");
   await click(page, "Continue");
+  await click(page, "Continue");
   await page.locator(".kind-glyph").waitFor();
   await page.locator(".choice").nth(1).click();
   await shot("lesson-glyph", false);
@@ -68,6 +69,7 @@ for (const [label, width, height] of widths) {
   await page.goto(url);
   await wait(page, 600);
   const nav = async (name: string) => {
+    await wait(page, 450);
     if (width <= 820) {
       const tab = page.locator(".tabbar").getByRole("button", { name });
       if (await tab.count()) return tab.click();

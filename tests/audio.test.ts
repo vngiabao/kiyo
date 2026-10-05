@@ -1,5 +1,6 @@
 import { afterEach, expect, it, vi } from "vitest";
 import { browserSpeech } from "../src/audio";
+import { welcomeGreeting } from "../src/sayo-lines";
 
 class TestAudio {
   static clips: TestAudio[] = [];
@@ -20,6 +21,19 @@ afterEach(() => {
   browserSpeech.stop();
   vi.unstubAllGlobals();
   TestAudio.clips = [];
+});
+
+it("welcome uses Sayo's bundled playful recording", async () => {
+  vi.stubGlobal("Audio", TestAudio);
+  const fallback = vi.fn();
+  const pending = browserSpeech.speak(welcomeGreeting.zh, {
+    mood: "playful",
+    onFallback: fallback,
+  });
+  expect(TestAudio.clips[0].src).toMatch(/^\/audio-v2\//);
+  TestAudio.clips[0].onended?.();
+  await pending;
+  expect(fallback).not.toHaveBeenCalled();
 });
 
 it("rapid taps cancel earlier audio without awarding completed listening", async () => {

@@ -27,7 +27,9 @@ it("the installed voice uses the exact approved identity and one-pass clean proc
     (c: { parts?: unknown }) => !c.parts,
   )) {
     expect(clip.pitchMethod, clip.text).toBe("resample");
-    expect(clip.pitchShift, clip.text).toBe(-2.25);
+    expect(clip.pitchShift, clip.text).toBe(
+      -2.25 + (clip.delivery?.pitchOffset ?? 0),
+    );
     expect(clip.profileSha256).toBe(
       createHash("sha256")
         .update(readFileSync(roster.approvedProfile))

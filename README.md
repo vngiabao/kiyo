@@ -118,23 +118,25 @@ See [QA.md](QA.md) for tested scenarios, exact scope and remaining checks. Conte
 
 The app uses one original synthetic Sayo identity in six moods. Clear is the default for teaching and tone drills; Cool and Playful are selectable reading styles. Reactions select Cool, Intense, Soft or Deadpan to fit the line. Dialogue speakers use different moods and pacing, all in Sayo's voice. Word taps and speech bubbles replay their audio; quiet mode suppresses automatic comments.
 
-The current rollout uses local Qwen3-TTS Base in `.voice-design-env` (Python 3.12, qwen-tts 0.1.1, PyTorch 2.6.0+cu124). Mastering and advisory Whisper screening use `.tts-env`. Models and Python are not required to use the app. The pinned model, synthetic references and exact approved takes live in `content/voices/approved-b-half/profile.json`.
+The current rollout uses local Qwen3-TTS Base in `.voice-design-env` (Python 3.12, qwen-tts 0.1.1, PyTorch 2.6.0+cu124), with mastering and advisory Whisper screening in the same environment. Dependencies are pinned in `scripts/voice-qwen-requirements.txt`. Models and Python are not required to use the app. The pinned model, synthetic references and exact approved takes live in `content/voices/approved-b-half/profile.json`.
 
 ```powershell
 npm run packs
 npm run audio:manifest
 .voice-design-env/Scripts/python.exe scripts/generate-audio-qwen.py --batch 6
-.tts-env/Scripts/python.exe scripts/screen-audio-qwen.py --repeat-short --carrier
-.tts-env/Scripts/python.exe scripts/master-audio-qwen.py
+.voice-design-env/Scripts/python.exe scripts/screen-audio-qwen.py --repeat-short --carrier
+.voice-design-env/Scripts/python.exe scripts/master-audio-qwen.py
 npx tsx scripts/voice-task-review.ts
-.tts-env/Scripts/python.exe scripts/review-approved-audio.py
+.voice-design-env/Scripts/python.exe scripts/review-approved-audio.py
 # Resolve screening discrepancies before installing:
-.tts-env/Scripts/python.exe scripts/master-audio-qwen.py --install
+.voice-design-env/Scripts/python.exe scripts/master-audio-qwen.py --install
 npm run audio:check
 npm run build
 ```
 
-`content/audio-scripts.json` covers phrases, contextual character pronunciations (`say`), word examples, pack grammar examples, reading lines, dialogue turns and Sayo reactions. Add curriculum through content packs, then rebuild the catalog and audio. Missing future text can use a device Mandarin voice, with a visible fallback message.
+`content/audio-scripts.json` covers phrases, contextual character pronunciations (`say`), word examples, pack grammar examples, reading lines, dialogue turns, the welcome greeting and Sayo reactions. Both content validation and production builds check the fresh catalog against installed audio, rejecting stale manifests, missing moods, broken URLs and changed file hashes. Unknown user-provided text can still use a device Mandarin voice, with a visible fallback message.
+
+`src/sayo-reactions.ts` supplies 100 lesson reactions in outcome-specific pools. Each pool cycles before repeating; a checked answer keeps its line stable. Ungraded practice is acknowledged without claiming it was correct. Reactions use the same approved identity and existing art. Their additional pitch offset is 0 to −0.5 semitone, putting them between −0.5 and −1 relative to the previous audition. One resampling pass also gently slows lower takes, without additional time stretching. The local rollout page includes all 100 reactions and 20 sample clips; transcription screening is not native-speaker approval.
 
 The owner selected the half-semitone option from the final showdown: **-2.25 semitones from the unprocessed B blend**, or **-0.5 relative to Previous audition**. One fixed speaker representation combines synthetic B/current inputs at 85/15; those weights are not perceptual percentages. Mood references change delivery while the speaker representation stays fixed. Processing uses a single polyphase resample at 8837/7760, with no phase vocoder, time stretch or formant correction. Exact approved reactions bypass that step because they are already processed. No real person's recording is used. Mandarin pronunciation takes priority over theatrical delivery.
 

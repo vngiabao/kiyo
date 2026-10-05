@@ -2,6 +2,12 @@
 export type MoLine = { zh: string; py: string; en: string };
 const line = (zh: string, py: string, en: string): MoLine => ({ zh, py, en });
 
+export const welcomeGreeting = line(
+  "你好！我是小夜。",
+  "Nǐ hǎo! Wǒ shì Xiǎoyè.",
+  "Hi. I’m Sayo, your study mentor.",
+);
+
 /**
  * Sayo 小夜 — a cool, exacting mentor. She is brief, never gushes, never
  * shames. Every line is real, useful Mandarin, so her reactions teach too.
@@ -11,7 +17,11 @@ export const mascotScenes = [
   {
     id: "teacher",
     name: "Exam tutor",
-    say: line("认真一点。开始吧。", "Rènzhēn yìdiǎn. Kāishǐ ba.", "Focus. Let’s begin."),
+    say: line(
+      "认真一点。开始吧。",
+      "Rènzhēn yìdiǎn. Kāishǐ ba.",
+      "Focus. Let’s begin.",
+    ),
     use: "HSK study, reading checkpoints and exam preparation.",
   },
   {

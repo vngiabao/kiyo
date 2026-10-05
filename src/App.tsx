@@ -22,7 +22,7 @@ import {
   standards,
   packUnits,
 } from "./content";
-import { readings } from "./hanzi";
+import { readings, characterSpeech } from "./hanzi";
 import { dailyPlan, searchNormalize, skillEvidence, type PlanItem } from "./learning";
 import { AudioButton, Arrow, PhraseText, Pinyin } from "./components";
 import { useSpeech } from "./useSpeech";
@@ -655,7 +655,7 @@ function Today({
               Continue <Arrow />
             </button>
             <AudioButton
-              text={readFirst ? featured.say : phraseById[nextSpeak.phrases[0]].hanzi}
+              text={readFirst ? featured.say : phraseById[nextSpeak.phrases[0]].audio.text}
               voiceURI={profile.voiceURI}
               label="Hear it"
             />
@@ -1003,7 +1003,7 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
                         You chose “{m.answer}”. Expected “{m.expected}”.
                       </p>
                     </div>
-                    <AudioButton text={phraseById[m.phraseId]?.hanzi ?? ""} />
+                    <AudioButton text={phraseById[m.phraseId]?.audio.text ?? ""} />
                   </li>
                 ))}
             </ul>
@@ -1111,7 +1111,7 @@ function Dictionary({ profile }: { profile: Profile }) {
             ) : (
               <>
                 <PhraseText phrase={pick} />
-                <AudioButton text={pick.hanzi} voiceURI={profile.voiceURI} label="Hear it" />
+                <AudioButton text={pick.audio.text || pick.hanzi} voiceURI={profile.voiceURI} label="Hear it" />
                 <h3>In real life</h3>
                 <p>{pick.usage}</p>
                 <dl className="detail-facts">
@@ -1123,7 +1123,7 @@ function Dictionary({ profile }: { profile: Profile }) {
                   <dd lang="zh-CN" className="detail-chars">
                     {Array.from(pick.hanzi).map((c, i) =>
                       charByHanzi[c] ? (
-                        <button key={i} className="text-button" onClick={() => { setSelected(`c:${c}`); speech.speak(charByHanzi[c]?.say ?? c); }}>
+                        <button key={i} className="text-button" onClick={() => { setSelected(`c:${c}`); speech.speak(characterSpeech(c)); }}>
                           {c}
                         </button>
                       ) : (

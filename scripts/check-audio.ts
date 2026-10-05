@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { voiceKey } from "../src/sayo-voice";
 import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks } from "../src/pack-content";
+import { collectAudioScripts } from "./audio-manifest";
 
 const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
 const assets = read("src/audio-assets.json") as Record<
@@ -12,10 +13,7 @@ const assets = read("src/audio-assets.json") as Record<
 const index = new Map(
   Object.entries(assets).map(([text, voices]) => [voiceKey(text), voices]),
 );
-const scripts = read("content/audio-scripts.json") as {
-  text: string;
-  moods: string[];
-}[];
+const scripts = collectAudioScripts();
 const provenance = read("content/voices/sayo-library-provenance.json") as {
   clips: {
     file: string;
@@ -26,6 +24,20 @@ const provenance = read("content/voices/sayo-library-provenance.json") as {
 };
 const files = new Map(provenance.clips.map((c) => [c.file, c]));
 const issues: string[] = [];
+if (
+  JSON.stringify(read("content/audio-scripts.json")) !== JSON.stringify(scripts)
+)
+  issues.push("Audio manifest is stale. Run npm run audio:manifest.");
+// Also validate unused mappings: a bad URL must not hide behind a covered text.
+for (const [text, voices] of Object.entries(assets))
+  for (const [mood, url] of Object.entries(voices)) {
+    if (
+      !url.startsWith("/audio-v2/") ||
+      !existsSync("public" + url) ||
+      !files.has("public" + url)
+    )
+      issues.push(`Invalid mapping ${text} [${mood}]: ${url}`);
+  }
 const tasks = [
   ...Object.values(lessonTasks).flat(),
   ...compiledPacks.flatMap((p) => p.tasks),

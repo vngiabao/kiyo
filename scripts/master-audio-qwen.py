@@ -45,6 +45,7 @@ def main():
     parser.add_argument('--install',action='store_true')
     parser.add_argument('--partial',action='store_true')
     args=parser.parse_args()
+    installed_hash=digest(ROOT/'src/audio-assets.json')
     assert not(args.install and args.partial)
     sys.stdout.reconfigure(encoding='utf-8')
     plan=read(CACHE/'plan.json')
@@ -83,7 +84,9 @@ def main():
                 unresolved.append(dict(text=raw['text'],mood=original_mood,status=screening(raw)))
         source=ROOT/raw['rawFile']
         assert digest(source)==raw['rawSha256']
-        token=hashlib.sha256((raw['rawSha256']+original_mood+'qwen-master-v1').encode()).hexdigest()[:12]
+        pitch_offset=raw.get('delivery',{}).get('pitchOffset',0)
+        processing_key='qwen-master-v1'+(f':{pitch_offset}' if pitch_offset else '')
+        token=hashlib.sha256((raw['rawSha256']+original_mood+processing_key).encode()).hexdigest()[:12]
         dest=OUT/f'sayo-b-half-{original_mood}-{token}.mp3'
         receipt=CACHE/(dest.stem+'-master.json')
         if receipt.exists() and dest.exists():
@@ -93,9 +96,10 @@ def main():
             audio,rate=sf.read(source)
             assert rate==24000
             if not raw['alreadyProcessed']:
-                audio=resample_poly(audio,ratio.numerator,ratio.denominator,window=('kaiser',8.6))
+                clip_ratio=Fraction(float(ratio)*2**(-pitch_offset/12)).limit_denominator(100000)
+                audio=resample_poly(audio,clip_ratio.numerator,clip_ratio.denominator,window=('kaiser',8.6))
             record=dict(raw)
-            record.update(**encode(audio,dest),pitchMethod='resample',pitchShift=-2.25,
+            record.update(**encode(audio,dest),pitchMethod='resample',pitchShift=-2.25+pitch_offset,
                 sourceApprovedProfile=profile_path.relative_to(ROOT).as_posix(),
                 masteredAt=datetime.now(timezone.utc).isoformat())
             atomic(receipt,record)
@@ -135,8 +139,7 @@ def main():
     atomic(CACHE/'provenance.json',provenance)
     if args.install:
         previous=ROOT/'output/audio-backup-before-approved-b/audio-assets.json'
-        assert digest(ROOT/'src/audio-assets.json') in [digest(previous),
-            hashlib.sha256((json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode()).hexdigest()], 'Installed catalog changed in parallel; review before replacing it'
+        assert digest(ROOT/'src/audio-assets.json')==installed_hash, 'Installed catalog changed in parallel; review before replacing it'
         screen=read(CACHE/'screening.json')
         assert screen['planSha256']==digest(CACHE/'plan.json')
         assert not unresolved, 'Resolve discrepancies without a screened same-word alternative before install'

@@ -58,6 +58,8 @@ def main():
             recipe = dict(text=entry['text'], mood=mood, model=profile['model'],
                 profileSha256=digest(PROFILE), rosterSha256=digest(ROSTER), pipeline=1,
                 take=int(retries.get(entry['id']+'-'+mood, 0)))
+            if entry.get('delivery'):
+                recipe['delivery'] = entry['delivery']
             if entry['id']+'-'+mood in overrides:
                 recipe['pronunciationContext'] = overrides[entry['id']+'-'+mood]
             token = hashlib.sha256(json.dumps(recipe, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]

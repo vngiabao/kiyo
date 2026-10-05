@@ -1,6 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowLeft, Check, Eye, X } from "@phosphor-icons/react";
-import { lessonById, lessons, exercisesFor, phraseById, charByHanzi, grammarById } from "./content";
+import {
+  lessonById,
+  lessons,
+  exercisesFor,
+  phraseById,
+  charByHanzi,
+  grammarById,
+} from "./content";
 import type { CompiledGrammar } from "./packs";
 import { db, saveAttempt } from "./db";
 import {
@@ -15,11 +22,21 @@ import {
 import { CharacterAnatomy, HanziStage } from "./Characters";
 import type { Exercise, Profile } from "./types";
 import { normalize } from "./learning";
-import { Mascot, MoSays, moLines, pickLine, type MascotState, type MoLine } from "./Mascot";
+import { Mascot, MoSays, type MascotState, type MoLine } from "./Mascot";
 import { levelOf, streakOf } from "./progression";
 import { TaskView, type TaskAnswer } from "./TaskView";
+import { nextReaction, type ReactionKind } from "./sayo-reactions";
 
-const quizKinds = ["choice", "glyph", "pick", "count", "dialogue", "truefalse", "reply", "listenfill"];
+const quizKinds = [
+  "choice",
+  "glyph",
+  "pick",
+  "count",
+  "dialogue",
+  "truefalse",
+  "reply",
+  "listenfill",
+];
 const listeningTasks = ["dialogue", "truefalse", "reply", "listenfill"];
 export default function LessonPlayer({
   lessonId,
@@ -33,6 +50,7 @@ export default function LessonPlayer({
   mode?: "lesson" | "listening" | "assessment";
 }) {
   const lesson = lessonById[lessonId] ?? lessons[0];
+  const [completionLine] = useState(() => nextReaction("done"));
   const steps = useMemo(
     () =>
       mode === "lesson"
@@ -43,7 +61,11 @@ export default function LessonPlayer({
   const [step, setStep] = useState(0),
     [ready, setReady] = useState(false),
     [done, setDone] = useState(false),
-    [levelUp, setLevelUp] = useState<{ level: number; streak: number; newDay: boolean } | null>(null),
+    [levelUp, setLevelUp] = useState<{
+      level: number;
+      streak: number;
+      newDay: boolean;
+    } | null>(null),
     [error, setError] = useState("");
   const advancing = useRef(false);
   const started = useRef(Date.now()),
@@ -78,7 +100,8 @@ export default function LessonPlayer({
         const before = await db.sessions.toArray();
         const attemptTimes = await db.attempts.toArray();
         const firstFinish =
-          mode === "lesson" && !before.some((s) => s.lessonId === lessonId && s.kind === "lesson");
+          mode === "lesson" &&
+          !before.some((s) => s.lessonId === lessonId && s.kind === "lesson");
         const hadToday = streakOf(before, []).studiedToday;
         await db.transaction("rw", db.sessions, db.drafts, async () => {
           await db.sessions.add({
@@ -87,7 +110,22 @@ export default function LessonPlayer({
             kind: mode === "assessment" ? "assessment" : "lesson",
             completedAt: Date.now(),
             attempts: steps.filter((e) =>
-              ["choice", "reorder", "read", "recall", "glyph", "pick", "spot", "count", "dialogue", "truefalse", "reply", "listenfill", "cloze", "match"].includes(e.kind),
+              [
+                "choice",
+                "reorder",
+                "read",
+                "recall",
+                "glyph",
+                "pick",
+                "spot",
+                "count",
+                "dialogue",
+                "truefalse",
+                "reply",
+                "listenfill",
+                "cloze",
+                "match",
+              ].includes(e.kind),
             ).length,
             seconds: Math.round((Date.now() - started.current) / 1000),
           });
@@ -96,15 +134,25 @@ export default function LessonPlayer({
         if (firstFinish) {
           const after = await db.sessions.toArray();
           const run = streakOf(after, attemptTimes);
-          setLevelUp({ level: levelOf(after).level, streak: run.days, newDay: !hadToday });
+          setLevelUp({
+            level: levelOf(after).level,
+            streak: run.days,
+            newDay: !hadToday,
+          });
         }
         setDone(true);
       } else {
-        await db.drafts.put({ id: draftKey, step: step + 1, updatedAt: Date.now() });
+        await db.drafts.put({
+          id: draftKey,
+          step: step + 1,
+          updatedAt: Date.now(),
+        });
         setStep((s) => s + 1);
       }
     } catch {
-      setError("Your progress could not be saved. Keep this tab open and try again.");
+      setError(
+        "Your progress could not be saved. Keep this tab open and try again.",
+      );
     } finally {
       advancing.current = false;
     }
@@ -113,11 +161,18 @@ export default function LessonPlayer({
   return (
     <main className={`focus-layout ${isRead ? "track-read" : "track-speak"}`}>
       <header className="focus-header">
-        <button className="text-button" onClick={onExit} aria-label="Save and exit">
-          <ArrowLeft size={18} /> <span className="hide-sm">Save &amp; exit</span>
+        <button
+          className="text-button"
+          onClick={onExit}
+          aria-label="Save and exit"
+        >
+          <ArrowLeft size={18} />{" "}
+          <span className="hide-sm">Save &amp; exit</span>
         </button>
         <span className="focus-title">
-          <span className="hide-sm">{isRead ? "Characters" : lesson.unit} · </span>
+          <span className="hide-sm">
+            {isRead ? "Characters" : lesson.unit} ·{" "}
+          </span>
           {lesson.title}
         </span>
         <span className="focus-count">
@@ -132,7 +187,9 @@ export default function LessonPlayer({
         aria-valuemax={steps.length}
         aria-valuenow={done ? steps.length : step}
       >
-        <div style={{ transform: `scaleX(${done ? 1 : step / steps.length})` }} />
+        <div
+          style={{ transform: `scaleX(${done ? 1 : step / steps.length})` }}
+        />
       </div>
       {error && (
         <p role="alert" className="inline-error">
@@ -150,7 +207,13 @@ export default function LessonPlayer({
         />
       ) : done ? (
         <div className="lesson-done">
-          <MoSays autoSpeak state="celebrate" say={moLines.done} size={150} side="top" />
+          <MoSays
+            autoSpeak
+            state="celebrate"
+            say={completionLine}
+            size={150}
+            side="top"
+          />
           {isRead ? (
             <p className="done-glyphs" lang="zh-CN">
               {lesson.phrases.map((p) => (
@@ -162,7 +225,11 @@ export default function LessonPlayer({
               <Check size={30} weight="bold" />
             </div>
           )}
-          <h1>{isRead ? "Eight more characters you can read." : "A little more Mandarin in your world."}</h1>
+          <h1>
+            {isRead
+              ? "Eight more characters you can read."
+              : "A little more Mandarin in your world."}
+          </h1>
           <p>{lesson.mission}</p>
           <p className="muted">
             Unaided answers now have their own review schedule. Come back in a
@@ -182,7 +249,10 @@ export default function LessonPlayer({
           onNext={next}
         />
       ) : (
-        <div className="loading-state"><Mascot state="think" size={100} />Opening your saved lesson…</div>
+        <div className="loading-state">
+          <Mascot state="think" size={100} />
+          Opening your saved lesson…
+        </div>
       )}
     </main>
   );
@@ -227,6 +297,10 @@ export function ExerciseView({
 }) {
   const p = phraseById[e.phraseId];
   const char = charByHanzi[p.hanzi];
+  const [feedback, setFeedback] = useState<{
+    state: MascotState;
+    say: MoLine;
+  } | null>(null);
   const [revealed, setRevealed] = useState(false),
     [answer, setAnswer] = useState(""),
     [selected, setSelected] = useState<number[]>([]),
@@ -243,13 +317,24 @@ export function ExerciseView({
     primary = useRef<HTMLButtonElement>(null),
     footerRef = useRef<HTMLElement>(null),
     moRef = useRef<HTMLDivElement>(null);
-  const isChoice = ["choice", "read", "glyph", "pick", "spot", "count", "register"].includes(e.kind),
+  const isChoice = [
+      "choice",
+      "read",
+      "glyph",
+      "pick",
+      "spot",
+      "count",
+      "register",
+    ].includes(e.kind),
     isTask = !!e.task,
     listeningTask = listeningTasks.includes(e.kind),
-    testing = isChoice || isTask || e.kind === "reorder" || e.kind === "dictation",
+    testing =
+      isChoice || isTask || e.kind === "reorder" || e.kind === "dictation",
     glyphChoices = ["pick", "spot", "count"].includes(e.kind),
     needsAudio = e.kind === "choice" && !heard && !revealed;
-  const supportKind = ["glyph", "read", "cloze", "match"].includes(e.kind) ? "pinyin" : "transcript";
+  const supportKind = ["glyph", "read", "cloze", "match"].includes(e.kind)
+    ? "pinyin"
+    : "transcript";
   async function submit(
     correct: boolean | null,
     value: string,
@@ -271,6 +356,7 @@ export function ExerciseView({
         context: e.id,
       });
       setResult(correct);
+      setFeedback(reaction(e, p.topic, correct, revealed));
       setSubmitted(true);
     } catch {
       setError("That answer hasn’t been saved. Please try again.");
@@ -284,11 +370,14 @@ export function ExerciseView({
       return;
     }
     const value =
-      e.kind === "reorder" ? selected.map((i) => e.tokens?.[i]).join("") : answer;
+      e.kind === "reorder"
+        ? selected.map((i) => e.tokens?.[i]).join("")
+        : answer;
     void submit(normalize(value) === normalize(e.correct ?? p.hanzi), value);
   };
   const advance = async () => {
-    if (e.kind === "meet" && !submitted) await submit(null, "Met the character");
+    if (e.kind === "meet" && !submitted)
+      await submit(null, "Met the character");
     await onNext();
   };
   const canContinue = !(
@@ -298,7 +387,11 @@ export function ExerciseView({
   );
   const canCheck =
     !busy &&
-    (isTask ? !!taskAnswer?.complete : e.kind === "reorder" ? selected.length === e.tokens?.length : !!answer);
+    (isTask
+      ? !!taskAnswer?.complete
+      : e.kind === "reorder"
+        ? selected.length === e.tokens?.length
+        : !!answer);
   // Keyboard: Space replays, 1–4 choose, Enter checks or continues.
   useEffect(() => {
     const handler = (event: KeyboardEvent) => {
@@ -306,13 +399,18 @@ export function ExerciseView({
       if (["INPUT", "TEXTAREA", "SELECT"].includes(tag)) return;
       if (event.code === "Space" && tag !== "BUTTON") {
         event.preventDefault();
-        (audioRef.current?.querySelector<HTMLButtonElement>("[data-audio] button") ?? audioRef.current?.querySelector("button"))?.click();
+        (
+          audioRef.current?.querySelector<HTMLButtonElement>(
+            "[data-audio] button",
+          ) ?? audioRef.current?.querySelector("button")
+        )?.click();
       } else if (isChoice && !submitted && /^[1-9]$/.test(event.key)) {
         const c = e.choices?.[+event.key - 1];
         if (c && !needsAudio) setAnswer(c);
       } else if (
         event.key === "Enter" &&
-        (tag !== "BUTTON" || (event.target as HTMLElement).classList.contains("choice"))
+        (tag !== "BUTTON" ||
+          (event.target as HTMLElement).classList.contains("choice"))
       ) {
         event.preventDefault();
         primary.current?.click();
@@ -326,26 +424,44 @@ export function ExerciseView({
     const el = footerRef.current;
     if (!el || typeof ResizeObserver === "undefined") return;
     const root = document.documentElement;
-    const ro = new ResizeObserver(() => root.style.setProperty("--verdict-h", `${el.offsetHeight}px`));
+    const ro = new ResizeObserver(() =>
+      root.style.setProperty("--verdict-h", `${el.offsetHeight}px`),
+    );
     ro.observe(el);
     return () => ro.disconnect();
   }, []);
   // Below 1280px Sayo sits in the flow after the task; bring her reaction into view.
   useEffect(() => {
     if (!submitted || e.kind === "meet" || window.innerWidth >= 1280) return;
-    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const reduce = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
     // Wait for the verdict bar to grow and report its height, or the page can't scroll far enough yet.
-    const timer = setTimeout(() => moRef.current?.scrollIntoView({ block: "nearest", behavior: reduce ? "auto" : "smooth" }), 120);
+    const timer = setTimeout(
+      () =>
+        moRef.current?.scrollIntoView({
+          block: "nearest",
+          behavior: reduce ? "auto" : "smooth",
+        }),
+      120,
+    );
     return () => clearTimeout(timer);
   }, [submitted, e.kind]);
   return (
-    <section className={`exercise kind-${e.kind}`} aria-labelledby="exercise-title">
+    <section
+      className={`exercise kind-${e.kind}`}
+      aria-labelledby="exercise-title"
+    >
       <div className="exercise-head">
         <p className="eyebrow">{kindLabel[e.kind]}</p>
         <h1 id="exercise-title">{e.prompt}</h1>
         {e.kind === "hear" && <p className="exercise-context">{context}</p>}
-        {e.task?.type === "dialogue" && <p className="exercise-context">{e.task.setting}</p>}
-        {(e.kind === "spot" || e.kind === "register") && <p className="exercise-context">{e.cue}</p>}
+        {e.task?.type === "dialogue" && (
+          <p className="exercise-context">{e.task.setting}</p>
+        )}
+        {(e.kind === "spot" || e.kind === "register") && (
+          <p className="exercise-context">{e.cue}</p>
+        )}
       </div>
 
       <div className="exercise-stage" ref={isTask ? audioRef : undefined}>
@@ -368,12 +484,22 @@ export function ExerciseView({
         )}
         {e.kind === "glyph" && (
           <div className="big-glyph" lang="zh-CN">
-            <Speakable text={char?.say ?? p.audio.text ?? p.hanzi} onHear={() => { if (!submitted) setRevealed(true); }}>{p.hanzi}</Speakable>
+            <Speakable
+              text={char?.say ?? p.audio.text ?? p.hanzi}
+              onHear={() => {
+                if (!submitted) setRevealed(true);
+              }}
+            >
+              {p.hanzi}
+            </Speakable>
             {revealed && <Pinyin text={p.pinyin} className="glyph-pinyin" />}
           </div>
         )}
         {e.kind === "grammar" && grammarById[e.cue ?? ""] && (
-          <GrammarCard g={grammarById[e.cue ?? ""]} voiceURI={profile.voiceURI} />
+          <GrammarCard
+            g={grammarById[e.cue ?? ""]}
+            voiceURI={profile.voiceURI}
+          />
         )}
         {e.kind === "count" && (
           <div className="count-dots" role="img" aria-label={`${e.cue} dots`}>
@@ -387,11 +513,17 @@ export function ExerciseView({
             {e.prompt.match(/contains (.+)\?/)?.[1]}
           </div>
         )}
-        {["hear", "choice", "notice", "record", "dictation"].includes(e.kind) && (
+        {["hear", "choice", "notice", "record", "dictation"].includes(
+          e.kind,
+        ) && (
           <div ref={audioRef} className="stage-audio">
             <AudioButton
               text={p.audio.text}
-              mood={e.modality === "tone" || p.topic === "sounds" ? "clear" : undefined}
+              mood={
+                e.modality === "tone" || p.topic === "sounds"
+                  ? "clear"
+                  : undefined
+              }
               companion={!submitted && !revealed && !error}
               voiceURI={profile.voiceURI}
               large={["hear", "choice", "dictation"].includes(e.kind)}
@@ -430,23 +562,41 @@ export function ExerciseView({
               <div className="tone-pair">
                 <ToneCurve tone={2} />
                 <ToneCurve tone={3} />
-                <span className="small">ní + hǎo · how it is actually said</span>
+                <span className="small">
+                  ní + hǎo · how it is actually said
+                </span>
               </div>
             )}
           </>
         )}
-        {e.kind === "read" && <PhraseText phrase={p} pinyin={revealed} meaning={false} onHear={() => { if (!submitted) setRevealed(true); }} />}
-        {e.kind === "choice" && revealed && <PhraseText phrase={p} meaning={false} />}
+        {e.kind === "read" && (
+          <PhraseText
+            phrase={p}
+            pinyin={revealed}
+            meaning={false}
+            onHear={() => {
+              if (!submitted) setRevealed(true);
+            }}
+          />
+        )}
+        {e.kind === "choice" && revealed && (
+          <PhraseText phrase={p} meaning={false} />
+        )}
         {e.kind === "recall" && (
           <>
             <p className="recall-meaning">{p.meaning}</p>
             {revealed ? (
               <>
                 <PhraseText phrase={p} meaning={false} />
-                <AudioButton text={p.hanzi} voiceURI={profile.voiceURI} />
+                <AudioButton
+                  text={char?.say ?? p.audio.text}
+                  voiceURI={profile.voiceURI}
+                />
               </>
             ) : (
-              <p className="muted">Say it aloud from memory, then reveal it to compare.</p>
+              <p className="muted">
+                Say it aloud from memory, then reveal it to compare.
+              </p>
             )}
           </>
         )}
@@ -458,7 +608,9 @@ export function ExerciseView({
                 <button
                   key={`${index}-${i}`}
                   disabled={submitted}
-                  onClick={() => setSelected((s) => s.filter((_, j) => j !== i))}
+                  onClick={() =>
+                    setSelected((s) => s.filter((_, j) => j !== i))
+                  }
                 >
                   {e.tokens?.[index]}
                 </button>
@@ -484,7 +636,9 @@ export function ExerciseView({
             <input
               value={answer}
               onChange={(v) => setAnswer(v.target.value)}
-              onKeyDown={(k) => k.key === "Enter" && canCheck && !submitted && check()}
+              onKeyDown={(k) =>
+                k.key === "Enter" && canCheck && !submitted && check()
+              }
               lang="zh-CN"
               placeholder="输入中文"
             />
@@ -493,14 +647,20 @@ export function ExerciseView({
         {e.kind === "record" && (
           <>
             <PhraseText phrase={p} />
-            <p className="muted">Listen, repeat, then compare your recording with the model.</p>
+            <p className="muted">
+              Listen, repeat, then compare your recording with the model.
+            </p>
             {!profile.quiet && <Recorder onAttempt={() => setRecorded(true)} />}
           </>
         )}
       </div>
 
       {isChoice && (
-        <div className={`choices ${glyphChoices ? "glyph-choices" : ""} ${e.kind === "register" ? "zh-choices" : ""}`} role="radiogroup" aria-label="Answers">
+        <div
+          className={`choices ${glyphChoices ? "glyph-choices" : ""} ${e.kind === "register" ? "zh-choices" : ""}`}
+          role="radiogroup"
+          aria-label="Answers"
+        >
           {e.choices?.map((choice, i) => {
             const state = submitted
               ? choice === e.correct
@@ -519,13 +679,17 @@ export function ExerciseView({
                 disabled={submitted || busy || needsAudio}
                 className={`choice ${state}`}
                 onClick={() => setAnswer(choice)}
-                lang={glyphChoices || e.kind === "register" ? "zh-CN" : undefined}
+                lang={
+                  glyphChoices || e.kind === "register" ? "zh-CN" : undefined
+                }
               >
                 <span className="choice-key" aria-hidden>
                   {i + 1}
                 </span>
                 <span className="choice-text">{choice}</span>
-                {submitted && choice === e.correct && <Check size={18} weight="bold" className="choice-mark" />}
+                {submitted && choice === e.correct && (
+                  <Check size={18} weight="bold" className="choice-mark" />
+                )}
               </button>
             );
           })}
@@ -534,16 +698,21 @@ export function ExerciseView({
 
       <div className="exercise-support">
         {e.kind === "hear" && (
-          <button className="text-button" onClick={() => setRevealed(!revealed)}>
+          <button
+            className="text-button"
+            onClick={() => setRevealed(!revealed)}
+          >
             <Eye size={17} /> {revealed ? "Hide the words" : "Show the words"}
           </button>
         )}
-        {["choice", "read", "glyph"].includes(e.kind) && !submitted && !revealed && (
-          <button className="text-button" onClick={() => setRevealed(true)}>
-            <Eye size={17} />
-            {e.kind === "choice" ? "Show the words" : "Show pinyin"}
-          </button>
-        )}
+        {["choice", "read", "glyph"].includes(e.kind) &&
+          !submitted &&
+          !revealed && (
+            <button className="text-button" onClick={() => setRevealed(true)}>
+              <Eye size={17} />
+              {e.kind === "choice" ? "Show the words" : "Show pinyin"}
+            </button>
+          )}
         {isTask && !submitted && !revealed && (
           <button className="text-button" onClick={() => setRevealed(true)}>
             <Eye size={17} />
@@ -551,16 +720,27 @@ export function ExerciseView({
           </button>
         )}
         {e.kind === "recall" && !revealed && (
-          <button className="button secondary" onClick={() => setRevealed(true)}>
+          <button
+            className="button secondary"
+            onClick={() => setRevealed(true)}
+          >
             Reveal phrase
           </button>
         )}
         {e.kind === "recall" && revealed && !submitted && (
           <div className="rating-row">
-            <button className="button secondary" disabled={busy} onClick={() => submit(false, "Needed a reminder", "self-report")}>
+            <button
+              className="button secondary"
+              disabled={busy}
+              onClick={() => submit(false, "Needed a reminder", "self-report")}
+            >
               Needed a reminder
             </button>
-            <button className="button secondary" disabled={busy} onClick={() => submit(true, "Recalled aloud", "self-report")}>
+            <button
+              className="button secondary"
+              disabled={busy}
+              onClick={() => submit(true, "Recalled aloud", "self-report")}
+            >
               I had it
             </button>
           </div>
@@ -572,12 +752,20 @@ export function ExerciseView({
             onClick={() =>
               submit(
                 null,
-                recorded ? "Recorded local speaking practice" : profile.quiet ? "Quiet-mode alternative" : "Practiced without recording",
+                recorded
+                  ? "Recorded local speaking practice"
+                  : profile.quiet
+                    ? "Quiet-mode alternative"
+                    : "Practiced without recording",
                 "self-report",
               )
             }
           >
-            {recorded ? "Save this speaking attempt" : profile.quiet ? "I rehearsed it silently" : "I said it aloud"}
+            {recorded
+              ? "Save this speaking attempt"
+              : profile.quiet
+                ? "I rehearsed it silently"
+                : "I said it aloud"}
           </button>
         )}
         {error && (
@@ -588,9 +776,12 @@ export function ExerciseView({
       </div>
 
       {/* Sayo lives in one place beside the task: idle pose while you work, a reaction with her line after you check. */}
-      <div ref={moRef} className={`lesson-mo ${submitted && e.kind !== "meet" ? "is-reacting" : ""}`}>
+      <div
+        ref={moRef}
+        className={`lesson-mo ${submitted && e.kind !== "meet" ? "is-reacting" : ""}`}
+      >
         {submitted && e.kind !== "meet" ? (
-          <MoSays autoSpeak collapsible side="top" size={132} {...reaction(e, p.topic, result, revealed)} />
+          <MoSays autoSpeak collapsible side="top" size={132} {...feedback!} />
         ) : (
           <Mascot
             size={132}
@@ -604,7 +795,12 @@ export function ExerciseView({
                     ? "read"
                     : e.kind === "record"
                       ? "speak"
-                      : ["hear", "choice", "dictation", ...listeningTasks].includes(e.kind)
+                      : [
+                            "hear",
+                            "choice",
+                            "dictation",
+                            ...listeningTasks,
+                          ].includes(e.kind)
                         ? "listen"
                         : "think"
             }
@@ -619,20 +815,38 @@ export function ExerciseView({
           {submitted && e.kind !== "meet" ? (
             <>
               <span className="verdict-icon">
-                {result === false ? <X size={18} weight="bold" /> : <Check size={18} weight="bold" />}
+                {result === false ? (
+                  <X size={18} weight="bold" />
+                ) : (
+                  <Check size={18} weight="bold" />
+                )}
               </span>
               <span className="verdict-text">
-                <strong>{result === true ? "Right." : result === false ? "Not quite." : "Saved."}</strong>
+                <strong>
+                  {result === true
+                    ? "Right."
+                    : result === false
+                      ? "Not quite."
+                      : "Saved."}
+                </strong>
                 {result === false && isTask ? (
                   <span className="verdict-answer">
-                    {taskAnswer && taskAnswer.total > 1 ? `${taskAnswer.right} of ${taskAnswer.total} right. ` : ""}The answers are marked above.
+                    {taskAnswer && taskAnswer.total > 1
+                      ? `${taskAnswer.right} of ${taskAnswer.total} right. `
+                      : ""}
+                    The answers are marked above.
                   </span>
                 ) : result === false ? (
                   <span className="verdict-answer">
-                    <span lang="zh-CN" className="verdict-zh">{p.hanzi}</span>
+                    <span lang="zh-CN" className="verdict-zh">
+                      {p.hanzi}
+                    </span>
                     <Pinyin text={p.pinyin} />
                     <span>“{p.meaning}”</span>
-                    <AudioButton text={p.hanzi} voiceURI={profile.voiceURI} />
+                    <AudioButton
+                      text={char?.say ?? p.audio.text}
+                      voiceURI={profile.voiceURI}
+                    />
                   </span>
                 ) : null}
                 <span className="verdict-evidence">
@@ -658,18 +872,28 @@ export function ExerciseView({
                     ? "Play the audio first · Space"
                     : isTask
                       ? "Enter to check"
-                  : e.kind === "meet"
-                    ? "Enter to continue"
-                    : ""}
+                      : e.kind === "meet"
+                        ? "Enter to continue"
+                        : ""}
             </span>
           )}
         </div>
         {testing && !submitted ? (
-          <button ref={primary} className="button" disabled={!canCheck} onClick={check}>
+          <button
+            ref={primary}
+            className="button"
+            disabled={!canCheck}
+            onClick={check}
+          >
             {busy ? "Saving…" : "Check"}
           </button>
         ) : (
-          <button ref={primary} className="button" disabled={!canContinue} onClick={() => void advance()}>
+          <button
+            ref={primary}
+            className="button"
+            disabled={!canContinue}
+            onClick={() => void advance()}
+          >
             Continue <Arrow />
           </button>
         )}
@@ -685,14 +909,32 @@ function reaction(
   result: boolean | null,
   supported: boolean,
 ): { state: MascotState; say: MoLine } {
-  if (result === null) return { state: "celebrate", say: moLines.right[2] };
-  if (result && supported) return { state: "hint", say: moLines.supported };
-  if (result) {
-    const seed = e.id.length + e.id.charCodeAt(e.id.length - 1);
-    return { state: "celebrate", say: seed % 4 === 0 ? moLines.cool : pickLine(moLines.right, e.id) };
-  }
-  if (topic === "sounds" || e.modality === "tone") return { state: "grumpy", say: moLines.tone };
-  return { state: "encourage", say: pickLine(moLines.wrong, e.id) };
+  const kind: ReactionKind =
+    result === null
+      ? "saved"
+      : result && supported
+        ? "supported"
+        : result
+          ? "right"
+          : topic === "sounds" || e.modality === "tone"
+            ? "tone"
+            : "wrong";
+  const say = nextReaction(kind);
+  const state: MascotState =
+    kind === "saved"
+      ? "thumbsup"
+      : kind === "supported"
+        ? "hint"
+        : kind === "tone"
+          ? "listen"
+          : kind === "wrong"
+            ? "encourage"
+            : say.mood === "deadpan"
+              ? "smug"
+              : say.mood === "intense"
+                ? "celebrate"
+                : "thumbsup";
+  return { state, say };
 }
 
 /** First finish of a lesson: a level that names what you can now do. */
@@ -711,9 +953,16 @@ function LevelUp({
   glyphs: string[];
   onExit: () => void;
 }) {
+  const [levelLine] = useState(() => nextReaction("levelUp"));
   return (
     <div className="level-up" role="status">
-      <MoSays autoSpeak state="thumbsup" say={moLines.levelUp} size={156} side="top" />
+      <MoSays
+        autoSpeak
+        state="thumbsup"
+        say={levelLine}
+        size={156}
+        side="top"
+      />
       <div className="level-badge" aria-label={`Level ${level}`}>
         <span className="level-word">Level</span>
         <span className="level-number tabular">{level}</span>
@@ -721,7 +970,11 @@ function LevelUp({
       <h1>Now you can</h1>
       <p className="level-mission">{mission}</p>
       {glyphs.length > 0 && (
-        <p className="done-glyphs" lang="zh-CN" aria-label={`New characters: ${glyphs.join(" ")}`}>
+        <p
+          className="done-glyphs"
+          lang="zh-CN"
+          aria-label={`New characters: ${glyphs.join(" ")}`}
+        >
           {glyphs.map((g) => (
             <span key={g}>{g}</span>
           ))}
@@ -731,7 +984,8 @@ function LevelUp({
         <p className="level-streak">
           <Mascot state="run" size={44} still />
           <span>
-            <strong className="tabular">{streak}</strong> {streak === 1 ? "day" : "days in a row"}
+            <strong className="tabular">{streak}</strong>{" "}
+            {streak === 1 ? "day" : "days in a row"}
             {newDay && streak > 1 ? " · one more today" : ""}
           </span>
         </p>
@@ -740,7 +994,11 @@ function LevelUp({
         Unaided answers now have their own review schedule. Come back in a day
         or two and see which ones stayed.
       </p>
-      <button className="button" onClick={onExit} ref={(b) => b?.focus({ preventScroll: true })}>
+      <button
+        className="button"
+        onClick={onExit}
+        ref={(b) => b?.focus({ preventScroll: true })}
+      >
         Continue <Arrow />
       </button>
     </div>
@@ -748,7 +1006,13 @@ function LevelUp({
 }
 
 /** A grammar pattern: what it's for, how it works, real examples, and the usual traps. */
-function GrammarCard({ g, voiceURI }: { g: CompiledGrammar; voiceURI: string }) {
+function GrammarCard({
+  g,
+  voiceURI,
+}: {
+  g: CompiledGrammar;
+  voiceURI: string;
+}) {
   return (
     <div className="grammar-card">
       <p className="grammar-pattern" lang="zh-CN">
