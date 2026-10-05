@@ -1,4 +1,18 @@
-# Public preview hosting
+# Kiyo hosting
+
+## Current deployment — 5 October 2026
+
+- Address: https://kiyo.gbaonvo.com
+- Host: Cloudflare Workers static assets, project `kiyo`, connected to the private `vngiabao/kiyo` GitHub repository, production branch `main`.
+- Build command: `npm run build`. Deploy command: `npx wrangler deploy`. Root directory: `/`.
+- Configuration: `wrangler.jsonc` serves `dist/` with SPA navigation handling and binds `kiyo.gbaonvo.com` as a custom domain.
+- Cloudflare Access protects all Worker traffic with the `Kiyo owner only` Allow policy, restricted to `gbao.n.vo@gmail.com`. Other identities are denied by default. The existing Google and Cloudflare identity providers are available.
+- The production `workers.dev` address, preview URLs, and preview builds are disabled.
+- No new paid service, domain purchase, or database was required. The deployment reuses the account's existing build credential; no secret is stored in this repository.
+- Supabase remains unconfigured. Learning data stays in each browser. To move localhost progress, export a backup there and import it on this domain; Access login does not synchronize progress.
+- Verified: Cloudflare build/deployment succeeded; the custom domain presents the Access gate, the owner's existing Cloudflare login reaches Kiyo, onboarding and the Sayo gallery load, and the gallery has no broken images. Full learning tests passed locally before deployment; remote-device and live-Supabase tests are still separate checks.
+
+## Historical public preview
 
 > Update: the mascot has been renamed Mo (墨墨). The gallery URL is now `#companion`; the entries below are a historical log.
 
