@@ -1536,3 +1536,21 @@ button.mo-bubble:active {
 .brand-portrait { display: inline-block; flex: 0 0 auto; overflow: hidden; border-radius: 23%; background: #b3d2f5; position: relative; }
 .brand-portrait img { position: absolute; width: 166%; max-width: none; height: 166%; left: -33%; top: 1%; object-fit: contain; }
 .wordmark-vector { display: block; width: 2.76em; height: 1em; flex: 0 0 auto; overflow: visible; }
+/* A waiting PWA update must remain visible without replacing the study session. */
+.update-notice {
+  position: fixed;
+  z-index: 120;
+  bottom: 5rem;
+  right: 1rem;
+  max-width: min(24rem, calc(100vw - 2rem));
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .75rem 1rem;
+  background: var(--surface, #19283a);
+  color: var(--text, #eef2f7);
+  border: 1px solid #617a9b;
+  border-radius: .75rem;
+}
+.update-notice p { margin: 0; font-size: .875rem; }
+.update-notice .button { flex: 0 0 auto; }

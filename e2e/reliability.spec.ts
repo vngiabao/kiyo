@@ -1,5 +1,34 @@
 import { test, expect, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+
+test("a waiting app update requires an explicit refresh", async ({ page }) => {
+  test.skip(!process.env.APP_URL, "Update notice is production-only.");
+  await page.addInitScript(() => {
+    const registration = Object.assign(new EventTarget(), {
+      waiting: { postMessage: (message: unknown) => {
+        localStorage.setItem("test-update-message", JSON.stringify(message));
+      } },
+      installing: null,
+      update: async () => {},
+    });
+    const worker = Object.assign(new EventTarget(), {
+      controller: {},
+      ready: Promise.resolve(registration),
+      register: async () => registration,
+    });
+    Object.defineProperty(navigator, "serviceWorker", { value: worker });
+  });
+  await page.goto("/");
+  await expect(page.getByRole("status")).toHaveText(
+    "An update is ready. Refresh when you’re ready.",
+  );
+  expect(await page.evaluate(() => localStorage.getItem("test-update-message"))).toBeNull();
+  await page.getByRole("button", { name: "Refresh", exact: true }).click();
+  expect(await page.evaluate(() => localStorage.getItem("test-update-message"))).toBe(
+    JSON.stringify({ type: "SKIP_WAITING" }),
+  );
+  await expect(page.getByRole("heading", { name: "Mandarin, crystal clear." })).toBeVisible();
+});
 /** First screen is sign-in; tests study as a guest. */
 async function enter(page: Page) {
   const guest = page.getByRole("button", { name: /Start without an account/ });

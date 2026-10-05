@@ -6,6 +6,7 @@ import "@fontsource/noto-serif-sc/400.css";
 import "@fontsource/noto-serif-sc/600.css";
 import "./styles.css";
 import App from "./App";
+import { UpdateNotice } from "./UpdateNotice";
 import { Mascot, MascotProvider } from "./Mascot";
 // Loaded last: Night Study v2 tokens and shared-spec layout.
 import "./night.css";
@@ -36,7 +37,7 @@ class Boundary extends React.Component<
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Boundary>
-      <MascotProvider><App /></MascotProvider>
+      <MascotProvider><App /><UpdateNotice /></MascotProvider>
     </Boundary>
   </React.StrictMode>,
 );

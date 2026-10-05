@@ -24,6 +24,10 @@ export default defineConfig({
         ],
       },
       workbox: {
+        // Activate the cache update even for older installs without an update UI.
+        // UpdateNotice leaves the running React session intact until Refresh.
+        skipWaiting: true,
+        clientsClaim: true,
         globPatterns: ["**/*.{js,css,html,svg,woff2,mp3,json,png,webp}"],
         // CJK fonts ship as ~100 unicode-range slices per weight; cache the
         // slices a learner actually uses instead of precaching all of them.
