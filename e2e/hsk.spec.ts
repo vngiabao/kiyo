@@ -274,6 +274,14 @@ test("installed HSK notebook and new teacher audio work offline", async ({
   await expect(
     page.getByRole("heading", { name: "HSK study room." }),
   ).toBeVisible();
+  // Audio is saved on first playback rather than included in the shell precache.
+  const firstPlay = page.waitForResponse(
+    (r) => r.url().includes("/audio-v2/") && r.ok(),
+  );
+  await page.locator(".hsk-intro .mo-bubble").click();
+  const teacherUrl = (await firstPlay).url();
+  await expect.poll(() => page.evaluate(async (url) =>
+    Boolean(await caches.match(url)), teacherUrl)).toBe(true);
   await context.setOffline(true);
   await page.reload();
   await expect(

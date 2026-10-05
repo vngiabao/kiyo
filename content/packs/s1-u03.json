@@ -1,0 +1,157 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u03",
+    "stage": 1,
+    "order": 3,
+    "title": "Small talk: the weather",
+    "titleZh": "天气怎么样",
+    "canDo": ["Open a chat with the weather", "Say it's too hot, cold or rainy", "Suggest staying in, or another day"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u02"],
+    "estimatedMinutes": 34
+  },
+  "vocabulary": [
+    { "id": "s1-u03-w-tianqi", "hanzi": "天气", "pinyin": "tiānqì", "pos": "noun", "meaning": "weather", "meaningVi": "thời tiết", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "今天天气很好。", "py": "Jīntiān tiānqì hěn hǎo.", "en": "The weather's nice today." } },
+    { "id": "s1-u03-w-zenmeyang", "hanzi": "怎么样", "pinyin": "zěnmeyàng", "pos": "phrase", "meaning": "how is it?; what do you think?", "meaningVi": "thế nào", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "明天天气怎么样？", "py": "Míngtiān tiānqì zěnmeyàng?", "en": "What's the weather like tomorrow?" } },
+    { "id": "s1-u03-w-leng", "hanzi": "冷", "pinyin": "lěng", "pos": "adjective", "meaning": "cold", "meaningVi": "lạnh", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "外边太冷了！", "py": "Wàibian tài lěng le!", "en": "It's so cold outside!" } },
+    { "id": "s1-u03-w-re", "hanzi": "热", "pinyin": "rè", "pos": "adjective", "meaning": "hot", "meaningVi": "nóng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "今天非常热。", "py": "Jīntiān fēicháng rè.", "en": "It's very hot today." } },
+    { "id": "s1-u03-w-tai", "hanzi": "太", "pinyin": "tài", "pos": "adverb", "meaning": "too; so (太…了)", "meaningVi": "quá", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "太热了！", "py": "Tài rè le!", "en": "It's so hot!" } },
+    { "id": "s1-u03-w-feichang", "hanzi": "非常", "pinyin": "fēicháng", "pos": "adverb", "meaning": "very; extremely", "meaningVi": "rất, vô cùng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "北京今天非常冷。", "py": "Běijīng jīntiān fēicháng lěng.", "en": "Beijing is very cold today." } },
+    { "id": "s1-u03-w-xiayu", "hanzi": "下雨", "pinyin": "xià yǔ", "pos": "verb", "meaning": "to rain", "meaningVi": "mưa", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "下午下雨。", "py": "Xiàwǔ xià yǔ.", "en": "It'll rain in the afternoon." } },
+    { "id": "s1-u03-w-feng", "hanzi": "风", "pinyin": "fēng", "pos": "noun", "meaning": "wind", "meaningVi": "gió", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "外边风很大。", "py": "Wàibian fēng hěn dà.", "en": "It's very windy outside." } },
+    { "id": "s1-u03-w-waibian", "hanzi": "外边", "pinyin": "wàibian", "pos": "noun", "meaning": "outside", "meaningVi": "bên ngoài", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "外边下雨了。", "py": "Wàibian xià yǔ le.", "en": "It's started raining outside." } },
+    { "id": "s1-u03-w-chuan", "hanzi": "穿", "pinyin": "chuān", "pos": "verb", "meaning": "to wear", "meaningVi": "mặc", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "多穿一点儿衣服。", "py": "Duō chuān yìdiǎnr yīfu.", "en": "Wear some extra layers." } },
+    { "id": "s1-u03-w-yifu", "hanzi": "衣服", "pinyin": "yīfu", "pos": "noun", "meaning": "clothes", "meaningVi": "quần áo", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我穿很多衣服。", "py": "Wǒ chuān hěn duō yīfu.", "en": "I'm wearing lots of layers." } },
+    { "id": "s1-u03-w-zaoshang", "hanzi": "早上", "pinyin": "zǎoshang", "pos": "noun", "meaning": "morning", "meaningVi": "buổi sáng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "早上好！", "py": "Zǎoshang hǎo!", "en": "Good morning!" } },
+    { "id": "s1-u03-w-zhongwu", "hanzi": "中午", "pinyin": "zhōngwǔ", "pos": "noun", "meaning": "noon; midday", "meaningVi": "buổi trưa", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "中午我们一起吃饭吧。", "py": "Zhōngwǔ wǒmen yìqǐ chīfàn ba.", "en": "Let's have lunch together." } },
+    { "id": "s1-u03-w-xiawu", "hanzi": "下午", "pinyin": "xiàwǔ", "pos": "noun", "meaning": "afternoon", "meaningVi": "buổi chiều", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "下午你有空吗？", "py": "Xiàwǔ nǐ yǒu kòng ma?", "en": "Are you free this afternoon?" } },
+    { "id": "s1-u03-w-chuqu", "hanzi": "出去", "pinyin": "chūqu", "pos": "verb", "meaning": "to go out", "meaningVi": "đi ra ngoài", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我不想出去。", "py": "Wǒ bù xiǎng chūqu.", "en": "I don't feel like going out." } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u03-g-tai",
+      "pattern": "太 + adjective + 了 · 很 / 非常 + adjective",
+      "purpose": "Describe how hot, cold or nice it is",
+      "explanation": "Adjectives work as verbs, so no 是: 今天很冷. Bare 很 is mild; 非常 is \"very\"; 太…了 is \"so…!\" or \"too…\", a reaction. Don't drop 了 from 太…了 in speech.",
+      "examples": [
+        { "zh": "今天很冷。", "py": "Jīntiān hěn lěng.", "en": "It's cold today." },
+        { "zh": "北京今天非常冷。", "py": "Běijīng jīntiān fēicháng lěng.", "en": "Beijing is really cold today." },
+        { "zh": "太热了！", "py": "Tài rè le!", "en": "It's so hot!" }
+      ],
+      "commonMistakes": [{ "wrong": "今天是冷。", "right": "今天很冷。", "why": "Adjectives don't take 是." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u03-g-zenmeyang",
+      "pattern": "… 怎么样？",
+      "purpose": "Ask how something is, or what someone thinks",
+      "explanation": "Put 怎么样 at the end to ask about a state or an opinion: 天气怎么样？ (What's the weather like?) 这个蛋糕怎么样？ (How's the cake?) After a suggestion it means \"how about it?\".",
+      "examples": [
+        { "zh": "今天天气怎么样？", "py": "Jīntiān tiānqì zěnmeyàng?", "en": "How's the weather today?" },
+        { "zh": "这个蛋糕怎么样？", "py": "Zhège dàngāo zěnmeyàng?", "en": "How's the cake?" },
+        { "zh": "我们中午一起吃饭，怎么样？", "py": "Wǒmen zhōngwǔ yìqǐ chīfàn, zěnmeyàng?", "en": "Lunch together, how about it?" }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u03-d",
+    "title": "A cold morning",
+    "titleZh": "今天好冷",
+    "setting": "Lin An and Chen Yu bump into each other outside the flats.",
+    "register": "casual",
+    "speakers": [{ "id": "linan", "name": "林安" }, { "id": "chenyu", "name": "陈宇" }],
+    "lines": [
+      { "speaker": "linan", "zh": "早上好！今天天气怎么样？", "py": "Zǎoshang hǎo! Jīntiān tiānqì zěnmeyàng?", "en": "Morning! How's the weather today?" },
+      { "speaker": "chenyu", "zh": "太冷了！外边风很大。", "py": "Tài lěng le! Wàibian fēng hěn dà.", "en": "Freezing! It's really windy." },
+      { "speaker": "linan", "zh": "下雨吗？", "py": "Xià yǔ ma?", "en": "Is it raining?" },
+      { "speaker": "chenyu", "zh": "早上不下，下午下雨。", "py": "Zǎoshang bú xià, xiàwǔ xià yǔ.", "en": "Not this morning. It'll rain this afternoon." },
+      { "speaker": "linan", "zh": "好，我多穿一点儿衣服。", "py": "Hǎo, wǒ duō chuān yìdiǎnr yīfu.", "en": "OK, I'll put on another layer." },
+      { "speaker": "chenyu", "zh": "中午我们一起吃饭，怎么样？", "py": "Zhōngwǔ wǒmen yìqǐ chīfàn, zěnmeyàng?", "en": "Lunch together, how about it?" },
+      { "speaker": "linan", "zh": "好啊。外边太冷，我们在家吃吧！", "py": "Hǎo a. Wàibian tài lěng, wǒmen zài jiā chī ba!", "en": "Sure. It's too cold out; let's eat at home!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What do they mostly talk about?", "choices": ["The weather", "Food prices", "Work"], "answer": "The weather" },
+      { "type": "detail", "q": "When will it rain?", "choices": ["In the afternoon", "In the morning", "At night"], "answer": "In the afternoon" },
+      { "type": "inference", "q": "Where will they have lunch?", "choices": ["At home", "At a restaurant", "At the café"], "answer": "At home" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u03-r",
+    "title": "Anna's post from Beijing",
+    "titleZh": "北京好冷",
+    "format": "post",
+    "blurb": "Anna posts to her friends from Beijing.",
+    "purpose": "Anna is in Beijing. Read her post to find out what the weather is like and what she's doing about it.",
+    "glosses": [{ "hanzi": "北京", "pinyin": "Běijīng", "meaning": "Beijing" }, { "hanzi": "地方", "pinyin": "dìfang", "meaning": "place" }],
+    "lines": [
+      { "zh": "北京今天非常冷！", "py": "Běijīng jīntiān fēicháng lěng!", "en": "Beijing is really cold today!" },
+      { "zh": "外边风很大，我不想出去。", "py": "Wàibian fēng hěn dà, wǒ bù xiǎng chūqu.", "en": "It's so windy I don't want to go out." },
+      { "zh": "我在家喝茶，看电影。", "py": "Wǒ zài jiā hē chá, kàn diànyǐng.", "en": "I'm drinking tea and watching films at home." },
+      { "zh": "明天下雨。我想去热的地方！", "py": "Míngtiān xià yǔ. Wǒ xiǎng qù rè de dìfang!", "en": "Tomorrow it's rain. I want to go somewhere hot!" }
+    ],
+    "questions": [
+      { "type": "detail", "q": "What's the weather like in Beijing today?", "choices": ["Very cold and windy", "Hot and sunny", "Rainy but warm"], "answer": "Very cold and windy" },
+      { "type": "detail", "q": "What is Anna doing today?", "choices": ["Tea and films at home", "Walking outside", "Working"], "answer": "Tea and films at home" },
+      { "type": "inference", "q": "How does she feel about the weather?", "choices": ["She's had enough of the cold", "She loves it", "She hasn't noticed"], "answer": "She's had enough of the cold" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "北京今天【非常】冷！", "py": "Běijīng jīntiān fēicháng lěng!", "en": "Beijing is really cold today!" },
+        { "zh": "外边【风】很大，我不想【出去】。", "py": "Wàibian fēng hěn dà, wǒ bù xiǎng chūqu.", "en": "It's so windy I don't want to go out." }
+      ],
+      "bank": ["非常", "风", "出去", "热"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u03-c",
+    "title": "Weather small talk",
+    "place": "The lift in your building",
+    "context": "A neighbour makes small talk.",
+    "goal": "Keep a short weather chat going",
+    "partner": { "name": "林安", "persona": "friendly neighbour" },
+    "turns": [
+      { "text": "今天好冷啊！", "pinyin": "Jīntiān hǎo lěng a!", "meaning": "So cold today!", "intent": "Agree", "examples": ["对，太冷了！", "是啊，非常冷"], "accept": ["冷"] },
+      { "text": "下午下雨吗？", "pinyin": "Xiàwǔ xià yǔ ma?", "meaning": "Is it going to rain this afternoon?", "intent": "Say yes or no", "examples": ["下雨", "不下雨", "我不知道"], "accept": ["下", "知道"] },
+      { "text": "你要出去吗？", "pinyin": "Nǐ yào chūqu ma?", "meaning": "Are you going out?", "intent": "Say whether you're going out", "examples": ["不出去，太冷了", "我要出去"], "accept": ["出去"] }
+    ],
+    "aiPartnerBrief": "You are 林安, a neighbour. Make weather small talk using HSK 1 words; keep it light."
+  },
+  "pragmatics": [
+    { "situation": "Opening small talk", "natural": { "zh": "今天好冷啊！", "py": "Jīntiān hǎo lěng a!", "en": "So cold today!" }, "tooFormal": { "zh": "今日天气非常寒冷。", "py": "Jīnrì tiānqì fēicháng hánlěng." }, "note": "好 + adjective + 啊 is a casual \"so…!\". 今日 and 寒冷 sound like a weather report." },
+    { "situation": "Declining going out in bad weather", "natural": { "zh": "外边太冷了，我们改天吧。", "py": "Wàibian tài lěng le, wǒmen gǎitiān ba.", "en": "It's too cold out; let's do another day." }, "tooBlunt": { "zh": "我不去。", "py": "Wǒ bú qù." }, "note": "Give a reason and offer 改天 (another day); a bare 我不去 sounds like rejection." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u03-tf1", "phrase": "s1-u03-w-re", "audio": { "zh": "今天太热了！", "py": "Jīntiān tài rè le!", "en": "It's so hot today!" }, "statement": "It's cold today.", "answer": false, "why": "热 is hot; cold is 冷." },
+    { "type": "truefalse", "id": "s1-u03-tf2", "phrase": "s1-u03-w-xiayu", "audio": { "zh": "下午下雨。", "py": "Xiàwǔ xià yǔ.", "en": "It'll rain this afternoon." }, "statement": "It will rain in the afternoon.", "answer": true, "why": "下午 is the afternoon." },
+    { "type": "truefalse", "id": "s1-u03-tf3", "phrase": "s1-u03-w-feng", "audio": { "zh": "外边风很大。", "py": "Wàibian fēng hěn dà.", "en": "It's very windy outside." }, "statement": "It's windy outside.", "answer": true, "why": "风很大 is \"the wind is strong\"." },
+    { "type": "truefalse", "id": "s1-u03-tf4", "phrase": "s1-u03-w-zaoshang", "audio": { "zh": "早上不冷，中午很热。", "py": "Zǎoshang bù lěng, zhōngwǔ hěn rè.", "en": "It's not cold in the morning, and hot at noon." }, "statement": "It's cold in the morning.", "answer": false, "why": "早上不冷 means the morning is not cold." },
+    { "type": "reply", "id": "s1-u03-r1", "phrase": "s1-u03-w-zenmeyang", "prompt": { "zh": "今天天气怎么样？", "py": "Jīntiān tiānqì zěnmeyàng?", "en": "How's the weather today?" }, "choices": ["我二十岁。", "非常冷！", "下午见。"], "answer": "非常冷！" },
+    { "type": "reply", "id": "s1-u03-r2", "phrase": "s1-u03-w-waibian", "prompt": { "zh": "外边下雨了。", "py": "Wàibian xià yǔ le.", "en": "It's raining outside." }, "choices": ["生日快乐！", "我会说一点儿。", "那我们在家吃吧。"], "answer": "那我们在家吃吧。" },
+    { "type": "listenfill", "id": "s1-u03-f1", "phrase": "s1-u03-w-zenmeyang", "line": { "zh": "今天天气【怎么样】？", "py": "Jīntiān tiānqì zěnmeyàng?", "en": "How's the weather today?" }, "blankPy": "zěnmeyàng" },
+    { "type": "listenfill", "id": "s1-u03-f2", "phrase": "s1-u03-w-xiawu", "line": { "zh": "【下午】下雨。", "py": "Xiàwǔ xià yǔ.", "en": "It'll rain this afternoon." }, "blankPy": "xiàwǔ" },
+    { "type": "cloze", "id": "s1-u03-c1", "phrase": "s1-u03-w-tai", "title": "A bad-weather day", "lines": [{ "zh": "今天天气不好：【下雨】，风也很大。外边【太】冷了！我【穿】很多衣服。", "py": "Jīntiān tiānqì bù hǎo: xià yǔ, fēng yě hěn dà. Wàibian tài lěng le! Wǒ chuān hěn duō yīfu.", "en": "The weather's bad today: rain, and strong wind too. It's so cold out! I'm wearing lots of layers." }], "bank": ["下雨", "太", "穿", "热"] },
+    { "type": "match", "id": "s1-u03-m1", "phrase": "s1-u03-w-tianqi", "title": "What would you say?", "pairs": [
+      { "left": "Ask about the weather", "right": { "zh": "天气怎么样？", "py": "Tiānqì zěnmeyàng?", "en": "" } },
+      { "left": "Say it's far too cold", "right": { "zh": "太冷了！", "py": "Tài lěng le!", "en": "" } },
+      { "left": "Say it's raining", "right": { "zh": "下雨了。", "py": "Xià yǔ le.", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. 那 appears in a reply option before it is taught (unit 5); fine as a recognisable choice, but check."
+}

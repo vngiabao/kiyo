@@ -1,0 +1,159 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u04",
+    "stage": 1,
+    "order": 4,
+    "title": "Work and family",
+    "titleZh": "你做什么工作",
+    "canDo": ["Ask and say what someone does", "Say where people work", "Talk about your family's jobs"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u03"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u04-w-gongzuo", "hanzi": "工作", "pinyin": "gōngzuò", "pos": "noun / verb", "meaning": "job; to work", "meaningVi": "công việc; làm việc", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你做什么工作？", "py": "Nǐ zuò shénme gōngzuò?", "en": "What do you do?" } },
+    { "id": "s1-u04-w-yisheng", "hanzi": "医生", "pinyin": "yīshēng", "pos": "noun", "meaning": "doctor", "meaningVi": "bác sĩ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我是医生。", "py": "Wǒ shì yīshēng.", "en": "I'm a doctor." } },
+    { "id": "s1-u04-w-yiyuan", "hanzi": "医院", "pinyin": "yīyuàn", "pos": "noun", "meaning": "hospital", "meaningVi": "bệnh viện", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我在医院工作。", "py": "Wǒ zài yīyuàn gōngzuò.", "en": "I work at a hospital." } },
+    { "id": "s1-u04-w-xuexiao", "hanzi": "学校", "pinyin": "xuéxiào", "pos": "noun", "meaning": "school", "meaningVi": "trường học", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "他们在学校工作。", "py": "Tāmen zài xuéxiào gōngzuò.", "en": "They work at a school." } },
+    { "id": "s1-u04-w-daxue", "hanzi": "大学", "pinyin": "dàxué", "pos": "noun", "meaning": "university", "meaningVi": "đại học", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我妈妈在大学工作。", "py": "Wǒ māma zài dàxué gōngzuò.", "en": "My mum works at a university." } },
+    { "id": "s1-u04-w-daxuesheng", "hanzi": "大学生", "pinyin": "dàxuéshēng", "pos": "noun", "meaning": "university student", "meaningVi": "sinh viên", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我是大学生。", "py": "Wǒ shì dàxuéshēng.", "en": "I'm a university student." } },
+    { "id": "s1-u04-w-baba", "hanzi": "爸爸", "pinyin": "bàba", "pos": "noun", "meaning": "dad", "meaningVi": "bố", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我爸爸是医生。", "py": "Wǒ bàba shì yīshēng.", "en": "My dad is a doctor." } },
+    { "id": "s1-u04-w-mama", "hanzi": "妈妈", "pinyin": "māma", "pos": "noun", "meaning": "mum", "meaningVi": "mẹ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我妈妈是老师。", "py": "Wǒ māma shì lǎoshī.", "en": "My mum is a teacher." } },
+    { "id": "s1-u04-w-he", "hanzi": "和", "pinyin": "hé", "pos": "conjunction", "meaning": "and (between nouns)", "meaningVi": "và", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "爸爸和妈妈", "py": "bàba hé māma", "en": "Dad and Mum" }, "usageNote": "和 joins nouns only. To join sentences, just use a comma, or 也." },
+    { "id": "s1-u04-w-dou", "hanzi": "都", "pinyin": "dōu", "pos": "adverb", "meaning": "both; all", "meaningVi": "đều", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们都很忙。", "py": "Wǒmen dōu hěn máng.", "en": "We're all busy." } },
+    { "id": "s1-u04-w-tamen", "hanzi": "他们", "pinyin": "tāmen", "pos": "pronoun", "meaning": "they; them", "meaningVi": "họ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "他们在哪儿工作？", "py": "Tāmen zài nǎr gōngzuò?", "en": "Where do they work?" } },
+    { "id": "s1-u04-w-lei", "hanzi": "累", "pinyin": "lèi", "pos": "adjective", "meaning": "tired", "meaningVi": "mệt", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你的工作累吗？", "py": "Nǐ de gōngzuò lèi ma?", "en": "Is your job tiring?" } },
+    { "id": "s1-u04-w-keshi", "hanzi": "可是", "pinyin": "kěshì", "pos": "conjunction", "meaning": "but", "meaningVi": "nhưng", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "很累，可是我喜欢我的工作。", "py": "Hěn lèi, kěshì wǒ xǐhuan wǒ de gōngzuò.", "en": "It's tiring, but I like my job." } },
+    { "id": "s1-u04-w-xiansheng", "hanzi": "先生", "pinyin": "xiānsheng", "pos": "noun", "meaning": "Mr; sir", "meaningVi": "ông, ngài", "register": "polite", "hskLevel": 1,
+      "example": { "zh": "王先生，您好！", "py": "Wáng xiānsheng, nín hǎo!", "en": "Hello, Mr Wang!" }, "usageNote": "Surname + 先生 for a man you don't know well. 您 is the polite \"you\"." }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u04-g-zai",
+      "pattern": "Person + 在 + place + verb",
+      "purpose": "Say where someone does something",
+      "explanation": "The place comes before the action, introduced by 在: 我在医院工作 (I at hospital work). English puts the place at the end; Chinese never does here. Ask with 在哪儿: 你在哪儿工作？",
+      "examples": [
+        { "zh": "我在医院工作。", "py": "Wǒ zài yīyuàn gōngzuò.", "en": "I work at a hospital." },
+        { "zh": "他们在哪儿工作？", "py": "Tāmen zài nǎr gōngzuò?", "en": "Where do they work?" },
+        { "zh": "我妈妈在大学工作。", "py": "Wǒ māma zài dàxué gōngzuò.", "en": "My mum works at a university." }
+      ],
+      "commonMistakes": [{ "wrong": "我工作在医院。", "right": "我在医院工作。", "why": "在 + place comes before the verb." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u04-g-dou",
+      "pattern": "A 和 B + 都 + verb",
+      "purpose": "Say both or all of them do something",
+      "explanation": "都 goes after the people it covers and before the verb: 爸爸和妈妈都是老师. It always looks back at a plural subject. 和 joins nouns only.",
+      "examples": [
+        { "zh": "我爸爸和妈妈都是老师。", "py": "Wǒ bàba hé māma dōu shì lǎoshī.", "en": "My dad and mum are both teachers." },
+        { "zh": "我们都很忙。", "py": "Wǒmen dōu hěn máng.", "en": "We're all busy." },
+        { "zh": "他们都在医院工作。", "py": "Tāmen dōu zài yīyuàn gōngzuò.", "en": "They both work at the hospital." }
+      ],
+      "commonMistakes": [{ "wrong": "都我们很忙。", "right": "我们都很忙。", "why": "都 comes after the subject, before the verb." }],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u04-d",
+    "title": "Over dinner",
+    "titleZh": "你做什么工作",
+    "setting": "Anna and Chen Yu chat over dinner.",
+    "register": "casual",
+    "speakers": [{ "id": "anna", "name": "安娜" }, { "id": "chenyu", "name": "陈宇" }],
+    "glosses": [{ "hanzi": "陈宇", "pinyin": "Chén Yǔ", "meaning": "Chen Yu (a name)" }],
+    "lines": [
+      { "speaker": "anna", "zh": "陈宇，你做什么工作？", "py": "Chén Yǔ, nǐ zuò shénme gōngzuò?", "en": "Chen Yu, what do you do?" },
+      { "speaker": "chenyu", "zh": "我是医生，在医院工作。你呢？", "py": "Wǒ shì yīshēng, zài yīyuàn gōngzuò. Nǐ ne?", "en": "I'm a doctor, at a hospital. You?" },
+      { "speaker": "anna", "zh": "我是大学生。我爸爸妈妈都是老师。", "py": "Wǒ shì dàxuéshēng. Wǒ bàba māma dōu shì lǎoshī.", "en": "I'm a student. My parents are both teachers." },
+      { "speaker": "chenyu", "zh": "他们在哪儿工作？", "py": "Tāmen zài nǎr gōngzuò?", "en": "Where do they work?" },
+      { "speaker": "anna", "zh": "在美国的一个学校。你的工作累吗？", "py": "Zài Měiguó de yí ge xuéxiào. Nǐ de gōngzuò lèi ma?", "en": "At a school in the US. Is your job tiring?" },
+      { "speaker": "chenyu", "zh": "很累，可是我喜欢我的工作。", "py": "Hěn lèi, kěshì wǒ xǐhuan wǒ de gōngzuò.", "en": "Very, but I like it." },
+      { "speaker": "anna", "zh": "医生都很忙吧？", "py": "Yīshēng dōu hěn máng ba?", "en": "Doctors are always busy, right?" },
+      { "speaker": "chenyu", "zh": "对，我每天都很忙。", "py": "Duì, wǒ měi tiān dōu hěn máng.", "en": "Yes, I'm busy every day." }
+    ],
+    "questions": [
+      { "type": "detail", "q": "What does Chen Yu do?", "choices": ["He's a doctor", "He's a teacher", "He's a student"], "answer": "He's a doctor" },
+      { "type": "detail", "q": "What do Anna's parents do?", "choices": ["They're both teachers", "They're both doctors", "One teaches, one is a doctor"], "answer": "They're both teachers" },
+      { "type": "inference", "q": "How does Chen Yu feel about his job?", "choices": ["Tired, but he likes it", "He wants to quit", "It's easy"], "answer": "Tired, but he likes it" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u04-r",
+    "title": "Chen Yu's family photo",
+    "titleZh": "我的家",
+    "format": "post",
+    "blurb": "Chen Yu posts a family photo.",
+    "purpose": "Chen Yu posted a family photo. Read to find out what everyone does, and when they get together.",
+    "lines": [
+      { "zh": "这是我的家：爸爸、妈妈和我。", "py": "Zhè shì wǒ de jiā: bàba, māma hé wǒ.", "en": "This is my family: Dad, Mum and me." },
+      { "zh": "我爸爸是医生，在医院工作。", "py": "Wǒ bàba shì yīshēng, zài yīyuàn gōngzuò.", "en": "My dad is a doctor at a hospital." },
+      { "zh": "我妈妈在大学工作，她是老师。", "py": "Wǒ māma zài dàxué gōngzuò, tā shì lǎoshī.", "en": "My mum works at a university; she's a teacher." },
+      { "zh": "我也是医生！我们都很忙。", "py": "Wǒ yě shì yīshēng! Wǒmen dōu hěn máng.", "en": "I'm a doctor too! We're all busy." },
+      { "zh": "星期天我们一起在家吃饭。", "py": "Xīngqītiān wǒmen yìqǐ zài jiā chīfàn.", "en": "On Sundays we eat together at home." }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What is the post about?", "choices": ["His family and their jobs", "His holiday", "A new job"], "answer": "His family and their jobs" },
+      { "type": "detail", "q": "Where does his mum work?", "choices": ["At a university", "At a hospital", "At home"], "answer": "At a university" },
+      { "type": "inference", "q": "Why is Sunday special for them?", "choices": ["It's when the busy family eats together", "It's his mum's birthday", "They all work on Sunday"], "answer": "It's when the busy family eats together" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "我爸爸是【医生】，在医院工作。", "py": "Wǒ bàba shì yīshēng, zài yīyuàn gōngzuò.", "en": "My dad is a doctor at a hospital." },
+        { "zh": "我妈妈在【大学】工作，她是老师。", "py": "Wǒ māma zài dàxué gōngzuò, tā shì lǎoshī.", "en": "My mum works at a university; she's a teacher." },
+        { "zh": "我也是医生！我们【都】很忙。", "py": "Wǒ yě shì yīshēng! Wǒmen dōu hěn máng.", "en": "I'm a doctor too! We're all busy." }
+      ],
+      "bank": ["医生", "大学", "都", "先生"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u04-c",
+    "title": "What do you do?",
+    "place": "A friend's dinner party",
+    "context": "Someone you just met asks about your work.",
+    "goal": "Say what you do, where, and how it is",
+    "partner": { "name": "陈宇", "persona": "chatty doctor" },
+    "turns": [
+      { "text": "你做什么工作？", "pinyin": "Nǐ zuò shénme gōngzuò?", "meaning": "What do you do?", "intent": "Say your job or that you're a student", "examples": ["我是学生", "我是老师"], "accept": ["是", "工作"] },
+      { "text": "你在哪儿工作？", "pinyin": "Nǐ zài nǎr gōngzuò?", "meaning": "Where do you work?", "intent": "Say where", "examples": ["我在大学", "我在医院工作"], "accept": ["在"] },
+      { "text": "你的工作累吗？", "pinyin": "Nǐ de gōngzuò lèi ma?", "meaning": "Is your job tiring?", "intent": "Say how it is", "examples": ["很累", "不累", "有点儿累"], "accept": ["累"] }
+    ],
+    "aiPartnerBrief": "You are 陈宇, a doctor at a dinner party. Ask about work and family using HSK 1 words."
+  },
+  "pragmatics": [
+    { "situation": "Asking a new acquaintance about work", "natural": { "zh": "你做什么工作？", "py": "Nǐ zuò shénme gōngzuò?", "en": "What do you do?" }, "tooBlunt": { "zh": "你工资多少？", "py": "Nǐ gōngzī duōshao?" }, "note": "Older people in China may ask about pay; many younger people find it too personal with someone new." },
+    { "situation": "Greeting an older man you don't know well", "natural": { "zh": "王先生，您好！", "py": "Wáng xiānsheng, nín hǎo!", "en": "Hello, Mr Wang!" }, "tooBlunt": { "zh": "喂，你好！", "py": "Wéi, nǐ hǎo!" }, "note": "Surname + 先生 and 您 show respect. 喂 is for the phone, not for people in front of you." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u04-tf1", "phrase": "s1-u04-w-yiyuan", "audio": { "zh": "我在医院工作。", "py": "Wǒ zài yīyuàn gōngzuò.", "en": "I work at a hospital." }, "statement": "The speaker works at a school.", "answer": false, "why": "医院 is a hospital; a school is 学校." },
+    { "type": "truefalse", "id": "s1-u04-tf2", "phrase": "s1-u04-w-dou", "audio": { "zh": "我爸爸和妈妈都是老师。", "py": "Wǒ bàba hé māma dōu shì lǎoshī.", "en": "My dad and mum are both teachers." }, "statement": "Both parents are teachers.", "answer": true, "why": "都 means both." },
+    { "type": "truefalse", "id": "s1-u04-tf3", "phrase": "s1-u04-w-daxuesheng", "audio": { "zh": "我不是医生，我是大学生。", "py": "Wǒ bú shì yīshēng, wǒ shì dàxuéshēng.", "en": "I'm not a doctor; I'm a university student." }, "statement": "The speaker is a doctor.", "answer": false, "why": "不是医生 means not a doctor." },
+    { "type": "truefalse", "id": "s1-u04-tf4", "phrase": "s1-u04-w-lei", "audio": { "zh": "我的工作很累。", "py": "Wǒ de gōngzuò hěn lèi.", "en": "My job is tiring." }, "statement": "The speaker's job is tiring.", "answer": true, "why": "累 is tired / tiring." },
+    { "type": "reply", "id": "s1-u04-r1", "phrase": "s1-u04-w-gongzuo", "prompt": { "zh": "你做什么工作？", "py": "Nǐ zuò shénme gōngzuò?", "en": "What do you do?" }, "choices": ["我是医生。", "我在家。", "我很好。"], "answer": "我是医生。" },
+    { "type": "reply", "id": "s1-u04-r2", "phrase": "s1-u04-w-lei", "prompt": { "zh": "你的工作累吗？", "py": "Nǐ de gōngzuò lèi ma?", "en": "Is your job tiring?" }, "choices": ["二十五岁。", "在医院。", "有点儿累。"], "answer": "有点儿累。" },
+    { "type": "listenfill", "id": "s1-u04-f1", "phrase": "s1-u04-w-yiyuan", "line": { "zh": "我在【医院】工作。", "py": "Wǒ zài yīyuàn gōngzuò.", "en": "I work at a hospital." }, "blankPy": "yīyuàn" },
+    { "type": "listenfill", "id": "s1-u04-f2", "phrase": "s1-u04-w-dou", "line": { "zh": "我们【都】很忙。", "py": "Wǒmen dōu hěn máng.", "en": "We're all busy." }, "blankPy": "dōu" },
+    { "type": "cloze", "id": "s1-u04-c1", "phrase": "s1-u04-w-gongzuo", "title": "About Chen Yu", "lines": [{ "zh": "陈宇是【医生】。他在医院【工作】，每天都很【累】。", "py": "Chén Yǔ shì yīshēng. Tā zài yīyuàn gōngzuò, měi tiān dōu hěn lèi.", "en": "Chen Yu is a doctor. He works at a hospital and is tired every day." }], "bank": ["医生", "工作", "累", "学校"] },
+    { "type": "match", "id": "s1-u04-m1", "phrase": "s1-u04-w-daxuesheng", "title": "What would you say?", "pairs": [
+      { "left": "Ask what someone does", "right": { "zh": "你做什么工作？", "py": "Nǐ zuò shénme gōngzuò?", "en": "" } },
+      { "left": "Say you're a university student", "right": { "zh": "我是大学生。", "py": "Wǒ shì dàxuéshēng.", "en": "" } },
+      { "left": "Say they're both teachers", "right": { "zh": "他们都是老师。", "py": "Tāmen dōu shì lǎoshī.", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. Check the salary-question note for tone."
+}

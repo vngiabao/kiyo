@@ -1102,8 +1102,26 @@ const taskPrompt: Record<Task["type"], (t: Task) => string> = {
   cloze: (t) => (t.type === "cloze" ? t.title : "Fill the gaps."),
   match: (t) => (t.type === "match" ? t.title : "Match them up."),
 };
+/** A small stable hash, so the same task always shows the same order. */
+const seedOf = (s: string) => Array.from(s).reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
+/**
+ * Authors tend to write the right answer first. Place it at a position that
+ * varies by task and question, so the key's position never gives it away.
+ */
+export function placeAnswer(choices: string[], answer: string, seed: number): string[] {
+  const others = choices.filter((c) => c !== answer);
+  const at = seed % choices.length;
+  return [...others.slice(0, at), answer, ...others.slice(at)];
+}
+const arranged = (task: Task): Task =>
+  task.type === "dialogue"
+    ? { ...task, questions: task.questions.map((q, i) => ({ ...q, choices: placeAnswer(q.choices, q.answer, seedOf(`${task.id}:${i}`)) })) }
+    : task.type === "reply"
+      ? { ...task, choices: placeAnswer(task.choices, task.answer, seedOf(task.id)) }
+      : task;
 /** A practice task as a lesson step. */
-export function taskExercise(lessonId: string, task: Task): Exercise {
+export function taskExercise(lessonId: string, raw: Task): Exercise {
+  const task = arranged(raw);
   return {
     id: `${lessonId}-${task.id}`,
     kind: taskKind[task.type],
@@ -1206,6 +1224,29 @@ export function exercisesFor(lesson: Lesson): Exercise[] {
   });
   return steps;
 }
+let taskSteps: Exercise[] | null = null;
+/** Every practice-task step in the course (built once, on first use). */
+export function allTaskSteps(): Exercise[] {
+  taskSteps ??= allLessons.flatMap((l) => exercisesFor(l)).filter((e) => e.task);
+  return taskSteps;
+}
+/** The lesson step an attempt came from, whether answered in a lesson or in review. */
+export const stepOf = (context: string) => context.replace(/^review:/, "").replace(/:\d+$/, "");
+/**
+ * What review should bring back for a due memory: the task you missed, if any;
+ * otherwise another task that uses the same phrase in a new sentence, rotating
+ * so you don't meet the same one every time. Null means no task uses it yet.
+ */
+export function reviewTaskFor(
+  memory: { phraseId: string; modality: string; due: number },
+  lastMistakeContext?: string,
+): Exercise | null {
+  const options = allTaskSteps().filter((e) => e.phraseId === memory.phraseId && e.modality === memory.modality);
+  if (!options.length) return null;
+  const missed = lastMistakeContext && options.find((e) => e.id === stepOf(lastMistakeContext));
+  return missed || options[Math.floor(memory.due / 86_400_000) % options.length];
+}
+
 export const standards = [
   {
     id: "GF0025-2021",
@@ -1422,22 +1463,31 @@ function packExercisesFor(lesson: Lesson): Exercise[] {
       choices.splice(i % (choices.length + 1), 0, p.meaning);
       return { id: `${lesson.id}-${id}-choice`, kind: "choice", phraseId: id, prompt: "What did you hear?", modality: "listening", choices, correct: p.meaning };
     };
+    const tasks = (compiledPacks.find((c) => c.unit.id === lesson.id)?.tasks ?? []).map((x) => taskExercise(lesson.id, x));
+    // Most practice happens in sentences (the tasks). Single-word checks are only for
+    // words no task covers, at most six, so a lesson stays one sitting long.
+    const inTasks = new Set(tasks.map((x) => x.phraseId));
+    const untested = ids.filter((id) => !inTasks.has(id));
+    const checked = new Set([...untested, ...ids.filter((id) => inTasks.has(id))].slice(0, 6));
     // Each word's listening check comes after the next word, not straight away.
     ids.forEach((id, i) => {
       steps.push({ id: `${lesson.id}-${id}-notice`, kind: "notice", phraseId: id, prompt: "A new word.", modality: "reading" });
-      if (i >= 1) steps.push(choice(i - 1));
+      if (i >= 1 && checked.has(ids[i - 1])) steps.push(choice(i - 1));
     });
-    const tasks = (compiledPacks.find((c) => c.unit.id === lesson.id)?.tasks ?? []).map((x) => taskExercise(lesson.id, x));
     const dialogue = tasks.filter((x) => x.kind === "dialogue");
     const rest = tasks.filter((x) => x.kind !== "dialogue");
-    steps.push(...dialogue.slice(0, 1), choice(ids.length - 1), ...dialogue.slice(1));
+    steps.push(...dialogue.slice(0, 1));
+    if (checked.has(ids[ids.length - 1])) steps.push(choice(ids.length - 1));
+    steps.push(...dialogue.slice(1));
     const mixed = roundRobin(
       rest.filter((x) => x.kind === "truefalse"),
       rest.filter((x) => x.kind === "reply"),
       rest.filter((x) => x.kind === "listenfill"),
     );
-    steps.push(...mixed, ...rest.filter((x) => x.kind === "cloze" || x.kind === "match"));
-    ids.slice(0, 5).forEach((id, i) => {
+    // With a grammar & usage lesson, the mixed practice moves there, after the patterns.
+    const hasUsage = allLessons.some((l) => l.id === `${lesson.id}-usage`);
+    if (!hasUsage) steps.push(...mixed, ...rest.filter((x) => x.kind === "cloze" || x.kind === "match"));
+    ids.slice(0, 3).forEach((id, i) => {
       const p = phraseById[id];
       const others = rotate(ids.filter((x) => x !== id), i + 2).map((x) => phraseById[x].meaning).filter((m) => m !== p.meaning).slice(0, 2);
       const choices = [...new Set(others)];
@@ -1479,5 +1529,17 @@ function packExercisesFor(lesson: Lesson): Exercise[] {
       else steps.push({ id: `${lesson.id}-${id}-notice`, kind: "notice", phraseId: id, prompt: u?.situation ?? "Say it naturally.", modality: "reading" });
     }
   }
+  // Then practice in exam formats, now that the patterns are fresh.
+  const unitTasks = (compiledPacks.find((c) => `${c.unit.id}-usage` === lesson.id)?.tasks ?? [])
+    .filter((x) => x.type !== "dialogue")
+    .map((x) => taskExercise(lesson.id, x));
+  steps.push(
+    ...roundRobin(
+      unitTasks.filter((x) => x.kind === "truefalse"),
+      unitTasks.filter((x) => x.kind === "reply"),
+      unitTasks.filter((x) => x.kind === "listenfill"),
+    ),
+    ...unitTasks.filter((x) => x.kind === "cloze" || x.kind === "match"),
+  );
   return steps;
 }

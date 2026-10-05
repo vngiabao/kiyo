@@ -1,0 +1,167 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u01",
+    "stage": 1,
+    "order": 1,
+    "title": "Happy birthday",
+    "titleZh": "生日快乐",
+    "canDo": ["Ask and say ages the right way", "Give dates and days of the week", "Wish someone a happy birthday"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["weekend"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u01-w-shengri", "hanzi": "生日", "pinyin": "shēngrì", "pos": "noun", "meaning": "birthday", "meaningVi": "sinh nhật", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "今天是我的生日。", "py": "Jīntiān shì wǒ de shēngrì.", "en": "Today is my birthday." } },
+    { "id": "s1-u01-w-kuaile", "hanzi": "快乐", "pinyin": "kuàilè", "pos": "adjective", "meaning": "happy (for wishes)", "meaningVi": "vui vẻ", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "生日快乐！", "py": "Shēngrì kuàilè!", "en": "Happy birthday!" }, "usageNote": "Mostly in set wishes: 生日快乐, 新年快乐. To say you feel happy, use 高兴." },
+    { "id": "s1-u01-w-jinnian", "hanzi": "今年", "pinyin": "jīnnián", "pos": "noun", "meaning": "this year", "meaningVi": "năm nay", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我今年二十五岁。", "py": "Wǒ jīnnián èrshíwǔ suì.", "en": "I'm twenty-five this year." } },
+    { "id": "s1-u01-w-sui", "hanzi": "岁", "pinyin": "suì", "pos": "measure word", "meaning": "years old", "meaningVi": "tuổi", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "她三岁。", "py": "Tā sān suì.", "en": "She's three." } },
+    { "id": "s1-u01-w-duoda", "hanzi": "多大", "pinyin": "duō dà", "pos": "phrase", "meaning": "how old (asking a peer)", "meaningVi": "bao nhiêu tuổi", "register": "neutral", "isChunk": true, "hskLevel": null,
+      "example": { "zh": "你今年多大？", "py": "Nǐ jīnnián duō dà?", "en": "How old are you?" }, "usageNote": "To children: 你几岁？ To elders: 您多大年纪了？" },
+    { "id": "s1-u01-w-hao", "hanzi": "号", "pinyin": "hào", "pos": "noun", "meaning": "day of the month (spoken)", "meaningVi": "ngày (trong tháng)", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "今天三月八号。", "py": "Jīntiān sān yuè bā hào.", "en": "Today is March 8th." } },
+    { "id": "s1-u01-w-yue", "hanzi": "月", "pinyin": "yuè", "pos": "noun", "meaning": "month", "meaningVi": "tháng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我的生日是十月一号。", "py": "Wǒ de shēngrì shì shí yuè yī hào.", "en": "My birthday is October 1st." } },
+    { "id": "s1-u01-w-xingqi", "hanzi": "星期", "pinyin": "xīngqī", "pos": "noun", "meaning": "week; day of the week", "meaningVi": "tuần; thứ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "明天星期几？", "py": "Míngtiān xīngqī jǐ?", "en": "What day is it tomorrow?" }, "usageNote": "星期一 Monday … 星期六 Saturday, 星期天 Sunday." },
+    { "id": "s1-u01-w-xingqiliu", "hanzi": "星期六", "pinyin": "xīngqīliù", "pos": "noun", "meaning": "Saturday", "meaningVi": "thứ bảy", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "星期六你有空吗？", "py": "Xīngqīliù nǐ yǒu kòng ma?", "en": "Are you free on Saturday?" } },
+    { "id": "s1-u01-w-wanshang", "hanzi": "晚上", "pinyin": "wǎnshang", "pos": "noun", "meaning": "evening", "meaningVi": "buổi tối", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们晚上七点见。", "py": "Wǒmen wǎnshang qī diǎn jiàn.", "en": "See you at seven this evening." } },
+    { "id": "s1-u01-w-song", "hanzi": "送", "pinyin": "sòng", "pos": "verb", "meaning": "to give (as a gift)", "meaningVi": "tặng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们送你一个蛋糕。", "py": "Wǒmen sòng nǐ yí ge dàngāo.", "en": "We're giving you a cake." } },
+    { "id": "s1-u01-w-dangao", "hanzi": "蛋糕", "pinyin": "dàngāo", "pos": "noun", "meaning": "cake", "meaningVi": "bánh ngọt", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "这个蛋糕很好吃。", "py": "Zhège dàngāo hěn hǎochī.", "en": "This cake is really good." } },
+    { "id": "s1-u01-w-hua", "hanzi": "花", "pinyin": "huā", "pos": "noun", "meaning": "flower", "meaningVi": "hoa", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你买花吧。", "py": "Nǐ mǎi huā ba.", "en": "You buy the flowers." } },
+    { "id": "s1-u01-w-yao", "hanzi": "要", "pinyin": "yào", "pos": "verb", "meaning": "to want; to need", "meaningVi": "muốn; cần", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "要买蛋糕吗？", "py": "Yào mǎi dàngāo ma?", "en": "Do we need to buy a cake?" } },
+    { "id": "s1-u01-w-ge", "hanzi": "个", "pinyin": "gè", "pos": "measure word", "meaning": "general measure word", "meaningVi": "cái, chiếc (lượng từ chung)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "一个蛋糕", "py": "yí ge dàngāo", "en": "a cake" }, "usageNote": "Number + 个 + noun. Usually neutral tone: yí ge." },
+    { "id": "s1-u01-w-women", "hanzi": "我们", "pinyin": "wǒmen", "pos": "pronoun", "meaning": "we; us", "meaningVi": "chúng tôi, chúng ta", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们一起吃吧！", "py": "Wǒmen yìqǐ chī ba!", "en": "Let's eat together!" } },
+    { "id": "s1-u01-w-nimen", "hanzi": "你们", "pinyin": "nǐmen", "pos": "pronoun", "meaning": "you (plural)", "meaningVi": "các bạn", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "谢谢你们！", "py": "Xièxie nǐmen!", "en": "Thank you, all of you!" } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u01-g-sui",
+      "pattern": "Person + (今年) + number + 岁",
+      "purpose": "Say how old someone is",
+      "explanation": "Age needs no verb: 我二十五岁 (\"I twenty-five years\"). 今年 (this year) often comes first. Ask a peer 你多大？, a child 你几岁？, and an elder 您多大年纪了？.",
+      "examples": [
+        { "zh": "我今年二十五岁。", "py": "Wǒ jīnnián èrshíwǔ suì.", "en": "I'm twenty-five this year." },
+        { "zh": "你今年多大？", "py": "Nǐ jīnnián duō dà?", "en": "How old are you this year?" },
+        { "zh": "她三岁。", "py": "Tā sān suì.", "en": "She's three." }
+      ],
+      "commonMistakes": [{ "wrong": "我是二十五岁。", "right": "我二十五岁。", "why": "Age usually drops 是." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u01-g-date",
+      "pattern": "X 月 X 号 + 星期 X",
+      "purpose": "Give a date and a day of the week",
+      "explanation": "Chinese goes from big to small: month, then day, then weekday. Days are numbers too: 星期一 is Monday, 星期六 Saturday; Sunday is 星期天. Ask with 几: 几月几号？ 星期几？",
+      "examples": [
+        { "zh": "今天三月八号，星期六。", "py": "Jīntiān sān yuè bā hào, xīngqīliù.", "en": "Today is Saturday, March 8th." },
+        { "zh": "你的生日是几月几号？", "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?", "en": "When is your birthday?" },
+        { "zh": "明天星期几？", "py": "Míngtiān xīngqī jǐ?", "en": "What day is it tomorrow?" }
+      ],
+      "commonMistakes": [{ "wrong": "八号三月", "right": "三月八号", "why": "Month comes before day." }],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u01-d",
+    "title": "A cake at the café",
+    "titleZh": "生日快乐",
+    "setting": "Lin An and Chen Yu surprise Anna at the café.",
+    "register": "casual",
+    "speakers": [{ "id": "linan", "name": "林安" }, { "id": "chenyu", "name": "陈宇" }, { "id": "anna", "name": "安娜" }],
+    "glosses": [{ "hanzi": "安娜", "pinyin": "Ānnà", "meaning": "Anna (a name)" }],
+    "lines": [
+      { "speaker": "linan", "zh": "安娜，生日快乐！", "py": "Ānnà, shēngrì kuàilè!", "en": "Anna, happy birthday!" },
+      { "speaker": "chenyu", "zh": "今天是你的生日？", "py": "Jīntiān shì nǐ de shēngrì?", "en": "It's your birthday today?" },
+      { "speaker": "anna", "zh": "对，今天三月八号。", "py": "Duì, jīntiān sān yuè bā hào.", "en": "Yes, it's March 8th." },
+      { "speaker": "chenyu", "zh": "生日快乐！你今年多大？", "py": "Shēngrì kuàilè! Nǐ jīnnián duō dà?", "en": "Happy birthday! How old are you?" },
+      { "speaker": "anna", "zh": "我今年二十五岁。你呢？", "py": "Wǒ jīnnián èrshíwǔ suì. Nǐ ne?", "en": "Twenty-five. And you?" },
+      { "speaker": "chenyu", "zh": "我二十七。这是我们送你的。", "py": "Wǒ èrshíqī. Zhè shì wǒmen sòng nǐ de.", "en": "Twenty-seven. This is from us." },
+      { "speaker": "anna", "zh": "是蛋糕！谢谢你们！", "py": "Shì dàngāo! Xièxie nǐmen!", "en": "A cake! Thank you!" },
+      { "speaker": "linan", "zh": "来，我们一起吃吧！", "py": "Lái, wǒmen yìqǐ chī ba!", "en": "Come on, let's eat it together!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What's happening?", "choices": ["It's Anna's birthday", "Chen Yu is leaving", "They're ordering coffee"], "answer": "It's Anna's birthday" },
+      { "type": "detail", "q": "How old is Anna?", "choices": ["25", "27", "8"], "answer": "25" },
+      { "type": "detail", "q": "What do her friends give her?", "choices": ["A cake", "Flowers", "Tea"], "answer": "A cake" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u01-r",
+    "title": "The group chat",
+    "titleZh": "群聊",
+    "format": "message",
+    "blurb": "Lin An plans a party in the group chat.",
+    "purpose": "Lin An posted in the group chat. Read to find out when the party is, and who brings what.",
+    "speakers": [{ "id": "linan", "name": "林安" }, { "id": "chenyu", "name": "陈宇" }, { "id": "daming", "name": "大明" }],
+    "glosses": [{ "hanzi": "安娜", "pinyin": "Ānnà", "meaning": "Anna (a name)" }],
+    "lines": [
+      { "speaker": "linan", "zh": "星期六是安娜的生日！", "py": "Xīngqīliù shì Ānnà de shēngrì!", "en": "Saturday is Anna's birthday!" },
+      { "speaker": "linan", "zh": "我们晚上七点在我家吃饭。", "py": "Wǒmen wǎnshang qī diǎn zài wǒ jiā chīfàn.", "en": "We'll have dinner at my place at seven." },
+      { "speaker": "chenyu", "zh": "好啊！要买蛋糕吗？", "py": "Hǎo a! Yào mǎi dàngāo ma?", "en": "Great! Should we buy a cake?" },
+      { "speaker": "linan", "zh": "我买蛋糕，你买花吧。", "py": "Wǒ mǎi dàngāo, nǐ mǎi huā ba.", "en": "I'll get the cake; you get flowers." },
+      { "speaker": "daming", "zh": "我也去！", "py": "Wǒ yě qù!", "en": "I'm coming too!" }
+    ],
+    "questions": [
+      { "type": "detail", "q": "When is the party?", "choices": ["Saturday at 7 pm", "Saturday at 7 am", "Sunday at 7 pm"], "answer": "Saturday at 7 pm" },
+      { "type": "detail", "q": "Who is buying the cake?", "choices": ["Lin An", "Chen Yu", "Daming"], "answer": "Lin An" },
+      { "type": "inference", "q": "What will Chen Yu bring?", "choices": ["Flowers", "A cake", "Nothing"], "answer": "Flowers" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "星期六是安娜的【生日】！", "py": "Xīngqīliù shì Ānnà de shēngrì!", "en": "Saturday is Anna's birthday!" },
+        { "zh": "我们【晚上】七点在我家吃饭。", "py": "Wǒmen wǎnshang qī diǎn zài wǒ jiā chīfàn.", "en": "We'll have dinner at my place at seven." },
+        { "zh": "我买蛋糕，你买【花】吧。", "py": "Wǒ mǎi dàngāo, nǐ mǎi huā ba.", "en": "I'll get the cake; you get flowers." }
+      ],
+      "bank": ["生日", "晚上", "花", "今天"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u01-c",
+    "title": "Meeting someone at the party",
+    "place": "Lin An's place",
+    "context": "At Anna's party, a friend of hers starts chatting with you.",
+    "goal": "Say how you know Anna, your age, and your birthday",
+    "partner": { "name": "陈宇", "persona": "friendly, a little nosy" },
+    "turns": [
+      { "text": "你好！你是安娜的朋友吗？", "pinyin": "Nǐ hǎo! Nǐ shì Ānnà de péngyou ma?", "meaning": "Hi! Are you Anna's friend?", "intent": "Say yes, you're her friend", "examples": ["对，我是她的朋友", "是，我是安娜的朋友"], "accept": ["朋友"] },
+      { "text": "你今年多大？", "pinyin": "Nǐ jīnnián duō dà?", "meaning": "How old are you?", "intent": "Say your age", "examples": ["我今年二十五岁", "我二十岁"], "accept": ["岁", "[一二三四五六七八九十]{1,3}$"] },
+      { "text": "你的生日是几月几号？", "pinyin": "Nǐ de shēngrì shì jǐ yuè jǐ hào?", "meaning": "When's your birthday?", "intent": "Say your birthday", "examples": ["我的生日是五月三号", "五月三号"], "accept": ["月.*号"] }
+    ],
+    "aiPartnerBrief": "You are 陈宇 at a birthday party. Use only HSK 1 words plus this unit's words. Keep replies to one short sentence."
+  },
+  "pragmatics": [
+    { "situation": "Asking a new friend their age", "natural": { "zh": "你今年多大？", "py": "Nǐ jīnnián duō dà?", "en": "How old are you?" }, "tooFormal": { "zh": "您今年多大年纪了？", "py": "Nín jīnnián duō dà niánjì le?" }, "tooBlunt": { "zh": "你几岁？", "py": "Nǐ jǐ suì?" }, "note": "几岁 is how you ask a child. 您多大年纪了 is for older people." },
+    { "situation": "Wishing a friend happy birthday", "natural": { "zh": "生日快乐！", "py": "Shēngrì kuàilè!", "en": "Happy birthday!" }, "tooFormal": { "zh": "祝您生日快乐！", "py": "Zhù nín shēngrì kuàilè!" }, "note": "祝您… suits a card or an elder. With friends, just 生日快乐！" }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u01-tf1", "phrase": "s1-u01-w-sui", "audio": { "zh": "我今年二十岁。", "py": "Wǒ jīnnián èrshí suì.", "en": "I'm twenty this year." }, "statement": "The speaker is twelve.", "answer": false, "why": "二十 is twenty. Twelve is 十二." },
+    { "type": "truefalse", "id": "s1-u01-tf2", "phrase": "s1-u01-w-shengri", "audio": { "zh": "明天是我的生日。", "py": "Míngtiān shì wǒ de shēngrì.", "en": "Tomorrow is my birthday." }, "statement": "The speaker's birthday is tomorrow.", "answer": true, "why": "明天 is tomorrow." },
+    { "type": "truefalse", "id": "s1-u01-tf3", "phrase": "s1-u01-w-xingqiliu", "audio": { "zh": "我们星期六见。", "py": "Wǒmen xīngqīliù jiàn.", "en": "See you on Saturday." }, "statement": "They'll meet on Sunday.", "answer": false, "why": "星期六 is Saturday. Sunday is 星期天." },
+    { "type": "reply", "id": "s1-u01-r1", "phrase": "s1-u01-w-duoda", "prompt": { "zh": "你今年多大？", "py": "Nǐ jīnnián duō dà?", "en": "How old are you?" }, "choices": ["我二十五岁。", "三月八号。", "生日快乐！"], "answer": "我二十五岁。" },
+    { "type": "reply", "id": "s1-u01-r2", "phrase": "s1-u01-w-kuaile", "prompt": { "zh": "今天是我的生日！", "py": "Jīntiān shì wǒ de shēngrì!", "en": "It's my birthday today!" }, "choices": ["没关系。", "生日快乐！", "我不知道。"], "answer": "生日快乐！" },
+    { "type": "reply", "id": "s1-u01-r3", "phrase": "s1-u01-w-hao", "prompt": { "zh": "你的生日是几月几号？", "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?", "en": "When's your birthday?" }, "choices": ["星期六。", "我二十岁。", "十月一号。"], "answer": "十月一号。", "why": "几月几号 asks for a date: month, then day." },
+    { "type": "listenfill", "id": "s1-u01-f1", "phrase": "s1-u01-w-duoda", "line": { "zh": "你今年【多大】？", "py": "Nǐ jīnnián duō dà?", "en": "How old are you?" }, "blankPy": "duō dà" },
+    { "type": "listenfill", "id": "s1-u01-f2", "phrase": "s1-u01-w-hao", "line": { "zh": "我的生日是十月一【号】。", "py": "Wǒ de shēngrì shì shí yuè yī hào.", "en": "My birthday is October 1st." }, "blankPy": "hào" },
+    { "type": "cloze", "id": "s1-u01-c1", "phrase": "s1-u01-w-song", "title": "Anna's birthday", "lines": [{ "zh": "今天三月八号，【星期六】。安娜今年二十五【岁】。我们【送】她一个蛋糕。", "py": "Jīntiān sān yuè bā hào, xīngqīliù. Ānnà jīnnián èrshíwǔ suì. Wǒmen sòng tā yí ge dàngāo.", "en": "Today is Saturday, March 8th. Anna turns twenty-five. We're giving her a cake." }], "bank": ["星期六", "岁", "送", "号"] },
+    { "type": "match", "id": "s1-u01-m1", "phrase": "s1-u01-w-shengri", "title": "What would you say?", "pairs": [
+      { "left": "Ask a friend's age", "right": { "zh": "你今年多大？", "py": "Nǐ jīnnián duō dà?", "en": "" } },
+      { "left": "Wish them a happy birthday", "right": { "zh": "生日快乐！", "py": "Shēngrì kuàilè!", "en": "" } },
+      { "left": "Ask today's date", "right": { "zh": "今天几月几号？", "py": "Jīntiān jǐ yuè jǐ hào?", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. Check: 多大 vs 几岁 register note; 星期六 vs 周六 (both common; 周 already taught via 周末)."
+}

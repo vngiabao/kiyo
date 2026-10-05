@@ -33,7 +33,7 @@ def main():
         selected.append(f'<section><h2>{esc(task["id"])}</h2>'+''.join(line(l['zh'],l['mood'],l['py'],l['en']) for l in task['lines'])+'</section>')
     eligible=[c for c in report['clips'] if not c.get('parts')]
     reactions=[c for c in eligible if c.get('delivery')]
-    sample_pool=reactions or eligible
+    sample_pool=eligible
     sample=random.Random(20261005).sample(sample_pool,min(20,len(sample_pool)))
     singles=[c for c in eligible if len(re.findall(r'[\u4e00-\u9fff]',c['text']))==1]
     def record_line(c):

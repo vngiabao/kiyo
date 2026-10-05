@@ -1,36 +1,13 @@
-import { useEffect, useRef, useState } from "react";
-import {
-  ArrowCounterClockwise,
-  Check,
-  FilmStrip,
-  UploadSimple,
-} from "@phosphor-icons/react";
+import { useRef, useState } from "react";
+import { ArrowCounterClockwise, Check, FilmStrip } from "@phosphor-icons/react";
 import { AudioButton, Arrow, Recorder } from "./components";
 import { db, saveAttempt } from "./db";
 import type { Profile } from "./types";
 import { segments } from "./dialogue-data";
 import { dialogueMood } from "./sayo-voice";
-export function parseSrt(input: string) {
-  return input
-    .trim()
-    .split(/\r?\n\s*\r?\n/)
-    .flatMap((block) => {
-      const lines = block.split(/\r?\n/);
-      const i = lines.findIndex((l) => l.includes("-->"));
-      if (i < 0) return [];
-      const time = (s: string) => {
-        const m = s.trim().match(/^(\d{2}):(\d{2}):(\d{2})[,.](\d{3})/);
-        return m ? +m[1] * 3600 + +m[2] * 60 + +m[3] + +m[4] / 1000 : NaN;
-      };
-      const [a, b] = lines[i].split("-->");
-      const start = time(a),
-        end = time(b),
-        text = lines.slice(i + 1).join(" ");
-      return Number.isFinite(start) && end > start && text
-        ? [{ start, end, text }]
-        : [];
-    });
-}
+import { ReadingRoute, WatchPlayer } from "./Watch";
+/** Kept for callers of the old export; the parser lives in captions.ts. */
+export { parseSrt } from "./captions";
 export default function MediaLab({ profile }: { profile: Profile }) {
   const [pass, setPass] = useState(0),
     [support, setSupport] = useState(false),
@@ -42,21 +19,7 @@ export default function MediaLab({ profile }: { profile: Profile }) {
     [heard, setHeard] = useState(false),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false);
-  const [videoUrl, setVideoUrl] = useState(""),
-    [videoName, setVideoName] = useState(""),
-    [cues, setCues] = useState<ReturnType<typeof parseSrt>>([]),
-    [current, setCurrent] = useState(0),
-    [a, setA] = useState<number | null>(null),
-    [b, setB] = useState<number | null>(null),
-    [loop, setLoop] = useState(false);
-  const video = useRef<HTMLVideoElement>(null),
-    start = useRef(Date.now());
-  useEffect(
-    () => () => {
-      if (videoUrl) URL.revokeObjectURL(videoUrl);
-    },
-    [videoUrl],
-  );
+  const start = useRef(Date.now());
   const choices =
     pass === 0
       ? ["Making a plan to meet", "Ordering lunch", "Asking for directions"]
@@ -113,9 +76,12 @@ export default function MediaLab({ profile }: { profile: Profile }) {
     <div>
       <div className="page-head">
         <p className="eyebrow"><span lang="zh-CN">看</span> Media</p>
-        <h1>Hear the scene. Then let the captions go.</h1>
-        <p>Gist first, detail second, then the same scene without text.</p>
+        <h1>Watch, listen, sing. Then let the text go.</h1>
+        <p>Your own shows and songs, with less help each time, and a practice scene to warm up.</p>
       </div>
+      <ReadingRoute />
+      <WatchPlayer profile={profile} />
+      <h2 className="media-practice-title">A practice scene</h2>
       <div className="media-layout">
         <section>
           <div className="scene-player">
@@ -314,118 +280,6 @@ export default function MediaLab({ profile }: { profile: Profile }) {
           )}
         </aside>
       </div>
-      <section className="import-media">
-        <div className="section-heading">
-          <div>
-            <h2>Bring a little of your world.</h2>
-            <p>
-              Open a video you have permission to use. It stays on your device.
-            </p>
-          </div>
-          <label className="button secondary file-button">
-            <UploadSimple /> Open local video
-            <input
-              type="file"
-              accept="video/*"
-              onChange={(e) => {
-                const f = e.target.files?.[0];
-                if (f) {
-                  setVideoUrl(URL.createObjectURL(f));
-                  setVideoName(f.name);
-                  setCues([]);
-                  setA(null);
-                  setB(null);
-                  setLoop(false);
-                }
-              }}
-            />
-          </label>
-        </div>
-        {videoUrl && (
-          <div className="local-media">
-            <h3>{videoName}</h3>
-            <video
-              ref={video}
-              src={videoUrl}
-              controls
-              onTimeUpdate={() => {
-                const t = video.current?.currentTime ?? 0;
-                setCurrent(t);
-                if (loop && a !== null && b !== null && t >= b && video.current)
-                  video.current.currentTime = a;
-              }}
-            />
-            <div className="local-controls">
-              <label className="button secondary file-button">
-                Import SRT captions
-                <input
-                  type="file"
-                  accept=".srt,.txt"
-                  onChange={async (e) => {
-                    try {
-                      const file = e.target.files?.[0];
-                      if (file) {
-                        const parsed = parseSrt(await file.text());
-                        setCues(parsed);
-                        if (!parsed.length)
-                          setError(
-                            "No valid subtitle timings found. Use an SRT file with start and end times.",
-                          );
-                      }
-                    } catch {
-                      setError("The subtitle file could not be read.");
-                    }
-                  }}
-                />
-              </label>
-              <button
-                className="button secondary"
-                onClick={() => {
-                  setA(current);
-                  setB(null);
-                  setLoop(false);
-                }}
-              >
-                Set A · {current.toFixed(1)}s
-              </button>
-              <button
-                className="button secondary"
-                disabled={a === null || current <= (a ?? 0)}
-                onClick={() => setB(current)}
-              >
-                Set B
-              </button>
-              <button
-                className="button secondary"
-                disabled={a === null || b === null}
-                aria-pressed={loop}
-                onClick={() => setLoop(!loop)}
-              >
-                {loop ? "Stop loop" : "Loop A–B"}
-              </button>
-              <button
-                className="text-button"
-                onClick={() => {
-                  setSupport(!support);
-                  setSupportUsed(true);
-                }}
-              >
-                {support ? "Hide captions" : "Show captions"}
-              </button>
-            </div>
-            {support && (
-              <p className="local-caption" lang="zh-CN">
-                {cues.find((c) => current >= c.start && current <= c.end)
-                  ?.text ?? "—"}
-              </p>
-            )}
-            <p className="small">
-              Local files and subtitle text are not uploaded or retained after
-              this page closes.
-            </p>
-          </div>
-        )}
-      </section>
     </div>
   );
 }

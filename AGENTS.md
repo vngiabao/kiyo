@@ -17,6 +17,7 @@ Checks (run all before saying something works):
 npx tsc -b                 # types
 npm test                   # unit tests (vitest), 27 tests
 npm run validate:content   # curriculum consistency
+npm run check:pinyin       # every pack line's pinyin vs the HSK 3.0 dictionary (also runs in packs/build)
 npm run test:e2e           # browser tests (needs `npm run dev` running and Google Chrome)
 npm run build              # production build (also runs `npm run packs`)
 ```
@@ -54,6 +55,11 @@ Visual QA: `npx tsx scripts/screenshots.ts` saves screenshots at 1440 / 768 / 37
 9. **Match the existing code style.** Small, readable files; comments only where the "why" isn't obvious.
 
 ## 4. Current state (October 2026)
+
+- **HSK 1 course:** 12 units in `content/packs/s1-u01…u12.json` (social situations; units 11–12 feed songs and dramas). Each unit: words → listening conversation → grammar & usage → mixed exam-format tasks; reading with a purpose and a gap-fill. Today continues from the 20 base lessons into these units. AI-assisted drafts: native review still needed (`prompts/gpt-side-tasks.md`).
+- **Lessons teach like a course:** checks come one item after introduction; HSK task formats live in `src/tasks.ts` + `src/TaskView.tsx`; answer positions are varied and tested; review brings back the task you missed (`reviewTaskFor`).
+- **Media = Watch & sing:** your own video/song + .srt/.vtt/.lrc (`src/captions.ts`, `src/Watch.tsx`): three rungs (subtitles → peek → none), counted peeks/look-ups, saved lines (Dexie v3 `savedLines`, `watchLog`, in backups) and Anki export; plus the six-stage route.
+- **Lasting:** audio is cached on first play (`sayo-audio` cache) with "Save all audio" in Settings; persistent-storage request; weekly backup reminder on Today until sync is live.
 
 - **Done and working:**
   - onboarding with sign-in;

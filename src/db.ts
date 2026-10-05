@@ -6,6 +6,8 @@ import type {
   Mistake,
   Session,
   Draft,
+  SavedLine,
+  WatchLog,
 } from "./types";
 import { updateMemory } from "./learning";
 import { phraseById } from "./content";
@@ -19,6 +21,8 @@ class LearningDB extends Dexie {
   sessions!: EntityTable<Session, "id">;
   drafts!: EntityTable<Draft, "id">;
   syncState!: EntityTable<SyncState, "id">;
+  savedLines!: EntityTable<SavedLine, "id">;
+  watchLog!: EntityTable<WatchLog, "id">;
   constructor() {
     super("tingjian-v1");
     this.version(1).stores({
@@ -30,6 +34,8 @@ class LearningDB extends Dexie {
       drafts: "id",
     });
     this.version(2).stores({ syncState: "id" });
+    // Watch player: saved subtitle/lyric lines and session history (additive).
+    this.version(3).stores({ savedLines: "id,at", watchLog: "id,at" });
     this.profiles.hook("creating", (_key, profile, tx) => {
       if ((tx as typeof tx & { fromCloud?: boolean }).fromCloud) return;
       profile.updatedAt = Date.now();
@@ -93,7 +99,7 @@ export async function saveAttempt(
   );
 }
 export async function exportRecord() {
-  const [profiles, attempts, memories, mistakes, sessions, drafts] =
+  const [profiles, attempts, memories, mistakes, sessions, drafts, savedLines, watchLog] =
     await Promise.all([
       db.profiles.toArray(),
       db.attempts.toArray(),
@@ -101,6 +107,8 @@ export async function exportRecord() {
       db.mistakes.toArray(),
       db.sessions.toArray(),
       db.drafts.toArray(),
+      db.savedLines.toArray(),
+      db.watchLog.toArray(),
     ]);
   return {
     schemaVersion: 1,
@@ -111,6 +119,8 @@ export async function exportRecord() {
     mistakes,
     sessions,
     drafts,
+    savedLines,
+    watchLog,
   };
 }
 export async function importRecord(raw: unknown) {
@@ -244,7 +254,25 @@ export async function importRecord(raw: unknown) {
       !finite(m.at)
     )
       throw new Error("A mistake record is invalid.");
+  // Added later: older backups simply don't have these.
+  const savedLines = Array.isArray(r.savedLines) ? (r.savedLines as SavedLine[]) : [];
+  const watchLog = Array.isArray(r.watchLog) ? (r.watchLog as WatchLog[]) : [];
+  if (savedLines.length > 100000 || watchLog.length > 100000) throw new Error("The backup is incomplete or too large.");
+  for (const l of savedLines)
+    if (typeof l.id !== "string" || typeof l.text !== "string" || typeof l.note !== "string" || typeof l.source !== "string" || !finite(l.start) || !finite(l.at))
+      throw new Error("A saved line is invalid.");
+  for (const w of watchLog)
+    if (
+      typeof w.id !== "string" ||
+      typeof w.source !== "string" ||
+      !["video", "audio"].includes(w.media) ||
+      !["subtitles", "peek", "none"].includes(w.rung) ||
+      ![w.seconds, w.peeks, w.lookups, w.lines, w.at].every(finite)
+    )
+      throw new Error("A watch session is invalid.");
   await db.transaction("rw", db.tables, async () => {
+    await db.savedLines.bulkPut(savedLines);
+    await db.watchLog.bulkPut(watchLog);
     await db.profiles.bulkPut(data.profiles);
     await db.attempts.bulkPut(data.attempts);
     await db.memories.bulkPut(data.memories);

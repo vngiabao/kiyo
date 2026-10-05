@@ -1,0 +1,151 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u06",
+    "stage": 1,
+    "order": 6,
+    "title": "How much is it?",
+    "titleZh": "多少钱",
+    "canDo": ["Ask prices and understand the answer", "Bargain politely at a market", "Read a simple price list"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u05"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u06-w-kuai", "hanzi": "块", "pinyin": "kuài", "pos": "measure word", "meaning": "yuan (spoken)", "meaningVi": "đồng (tệ)", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "这个三十块。", "py": "Zhège sānshí kuài.", "en": "This one is thirty yuan." }, "usageNote": "Prices say 块 out loud; written prices use 元." },
+    { "id": "s1-u06-w-bai", "hanzi": "百", "pinyin": "bǎi", "pos": "number", "meaning": "hundred", "meaningVi": "trăm", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "一百二十块。", "py": "Yìbǎi èrshí kuài.", "en": "A hundred and twenty yuan." } },
+    { "id": "s1-u06-w-liang", "hanzi": "两", "pinyin": "liǎng", "pos": "number", "meaning": "two (before a measure word)", "meaningVi": "hai (trước lượng từ)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "两个蛋糕五十块。", "py": "Liǎng ge dàngāo wǔshí kuài.", "en": "Two cakes for fifty." }, "usageNote": "Counting things: 两个, 两块. Saying the number itself: 二 (二十, 十二)." },
+    { "id": "s1-u06-w-gui", "hanzi": "贵", "pinyin": "guì", "pos": "adjective", "meaning": "expensive", "meaningVi": "đắt", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "太贵了！", "py": "Tài guì le!", "en": "That's too expensive!" } },
+    { "id": "s1-u06-w-pianyi", "hanzi": "便宜", "pinyin": "piányi", "pos": "adjective", "meaning": "cheap", "meaningVi": "rẻ", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "便宜一点儿吧！", "py": "Piányi yìdiǎnr ba!", "en": "Can you go a bit cheaper?" } },
+    { "id": "s1-u06-w-jian", "hanzi": "件", "pinyin": "jiàn", "pos": "measure word", "meaning": "measure word for clothes (tops)", "meaningVi": "chiếc (áo)", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "这件衣服多少钱？", "py": "Zhè jiàn yīfu duōshao qián?", "en": "How much is this top?" } },
+    { "id": "s1-u06-w-shi", "hanzi": "试", "pinyin": "shì", "pos": "verb", "meaning": "to try (on)", "meaningVi": "thử", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我能试试吗？", "py": "Wǒ néng shìshi ma?", "en": "Can I try it on?" } },
+    { "id": "s1-u06-w-haokan", "hanzi": "好看", "pinyin": "hǎokàn", "pos": "adjective", "meaning": "good-looking; nice", "meaningVi": "đẹp", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "这件衣服很好看。", "py": "Zhè jiàn yīfu hěn hǎokàn.", "en": "This top looks nice." } },
+    { "id": "s1-u06-w-hai", "hanzi": "还", "pinyin": "hái", "pos": "adverb", "meaning": "also; still; else", "meaningVi": "còn", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "还要别的吗？", "py": "Hái yào biéde ma?", "en": "Anything else?" } },
+    { "id": "s1-u06-w-biede", "hanzi": "别的", "pinyin": "biéde", "pos": "pronoun", "meaning": "other; anything else", "meaningVi": "cái khác", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "不要别的了。", "py": "Bú yào biéde le.", "en": "Nothing else." } },
+    { "id": "s1-u06-w-dongxi", "hanzi": "东西", "pinyin": "dōngxi", "pos": "noun", "meaning": "thing; stuff", "meaningVi": "đồ vật", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我去买东西。", "py": "Wǒ qù mǎi dōngxi.", "en": "I'm going shopping." } },
+    { "id": "s1-u06-w-laoban", "hanzi": "老板", "pinyin": "lǎobǎn", "pos": "noun", "meaning": "boss; shop owner", "meaningVi": "ông chủ", "register": "casual", "hskLevel": null,
+      "example": { "zh": "老板，这个多少钱？", "py": "Lǎobǎn, zhège duōshao qián?", "en": "Excuse me, how much is this?" }, "usageNote": "The friendly way to call any stallholder or small-shop owner." }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u06-g-money",
+      "pattern": "number + 块 · 两 + measure word",
+      "purpose": "Say and understand prices",
+      "explanation": "Say prices with 块: 三十块, 一百二十块. Before any measure word, two is 两: 两个, 两块, 两件. 二 is for the number itself (二十, 十二). 多少钱 asks the price.",
+      "examples": [
+        { "zh": "这件衣服一百二十块。", "py": "Zhè jiàn yīfu yìbǎi èrshí kuài.", "en": "This top is 120 yuan." },
+        { "zh": "两个蛋糕五十块。", "py": "Liǎng ge dàngāo wǔshí kuài.", "en": "Two cakes for 50." },
+        { "zh": "水三块。", "py": "Shuǐ sān kuài.", "en": "Water is 3 yuan." }
+      ],
+      "commonMistakes": [{ "wrong": "二个蛋糕", "right": "两个蛋糕", "why": "Use 两 before a measure word." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u06-g-bargain",
+      "pattern": "adjective + 一点儿 + 吧",
+      "purpose": "Ask for a little more or less, politely",
+      "explanation": "一点儿 after an adjective means \"a bit more so\": 便宜一点儿 (a bit cheaper), 慢一点儿 (a bit slower). 吧 turns it into a soft request.",
+      "examples": [
+        { "zh": "便宜一点儿吧！", "py": "Piányi yìdiǎnr ba!", "en": "A bit cheaper?" },
+        { "zh": "慢一点儿吧。", "py": "Màn yìdiǎnr ba.", "en": "A bit slower, please." }
+      ],
+      "register": "casual"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u06-d",
+    "title": "At the night market",
+    "titleZh": "多少钱",
+    "setting": "Lin An likes a top at a market stall.",
+    "register": "casual",
+    "speakers": [{ "id": "linan", "name": "林安" }, { "id": "boss", "name": "老板" }],
+    "lines": [
+      { "speaker": "linan", "zh": "老板，这件衣服多少钱？", "py": "Lǎobǎn, zhè jiàn yīfu duōshao qián?", "en": "How much is this top?" },
+      { "speaker": "boss", "zh": "一百二十块。", "py": "Yìbǎi èrshí kuài.", "en": "120." },
+      { "speaker": "linan", "zh": "太贵了！便宜一点儿吧。", "py": "Tài guì le! Piányi yìdiǎnr ba.", "en": "Too expensive! A bit cheaper?" },
+      { "speaker": "boss", "zh": "一百块，怎么样？", "py": "Yìbǎi kuài, zěnmeyàng?", "en": "100, how's that?" },
+      { "speaker": "linan", "zh": "八十块，可以吗？", "py": "Bāshí kuài, kěyǐ ma?", "en": "Would 80 work?" },
+      { "speaker": "boss", "zh": "好吧，八十块。你试试？", "py": "Hǎo ba, bāshí kuài. Nǐ shìshi?", "en": "Fine, 80. Want to try it on?" },
+      { "speaker": "linan", "zh": "好看！我要了。", "py": "Hǎokàn! Wǒ yào le.", "en": "It looks good! I'll take it." },
+      { "speaker": "boss", "zh": "还要别的吗？", "py": "Hái yào biéde ma?", "en": "Anything else?" },
+      { "speaker": "linan", "zh": "不要了，谢谢！", "py": "Bú yào le, xièxie!", "en": "That's all, thanks!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What is Lin An buying?", "choices": ["A top", "A cake", "A phone"], "answer": "A top" },
+      { "type": "detail", "q": "What price do they agree on?", "choices": ["80 yuan", "100 yuan", "120 yuan"], "answer": "80 yuan" },
+      { "type": "intent", "q": "What does the stall owner mean by 还要别的吗？", "choices": ["Do you want anything else?", "Is it too expensive?", "Do you want to try it on?"], "answer": "Do you want anything else?" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u06-r",
+    "title": "The café price list",
+    "titleZh": "价目表",
+    "format": "menu",
+    "blurb": "A price list on a café wall.",
+    "purpose": "You have 30 yuan. Read the price list: what can you buy?",
+    "lines": [
+      { "zh": "咖啡：二十五块", "py": "Kāfēi: èrshíwǔ kuài", "en": "Coffee: 25 yuan" },
+      { "zh": "茶：十八块", "py": "Chá: shíbā kuài", "en": "Tea: 18 yuan" },
+      { "zh": "水：三块", "py": "Shuǐ: sān kuài", "en": "Water: 3 yuan" },
+      { "zh": "蛋糕：三十块一个，两个五十块", "py": "Dàngāo: sānshí kuài yí ge, liǎng ge wǔshí kuài", "en": "Cake: 30 each, two for 50" }
+    ],
+    "questions": [
+      { "type": "detail", "q": "How much is a tea?", "choices": ["18 yuan", "25 yuan", "8 yuan"], "answer": "18 yuan" },
+      { "type": "detail", "q": "How much are two cakes?", "choices": ["50 yuan", "60 yuan", "30 yuan"], "answer": "50 yuan" },
+      { "type": "inference", "q": "With 30 yuan, can you buy a coffee and a water?", "choices": ["Yes, with 2 yuan left", "No, it's 33 yuan", "Only the coffee"], "answer": "Yes, with 2 yuan left" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "茶：十八【块】", "py": "Chá: shíbā kuài", "en": "Tea: 18 yuan" },
+        { "zh": "蛋糕：三十块一【个】，【两】个五十块", "py": "Dàngāo: sānshí kuài yí ge, liǎng ge wǔshí kuài", "en": "Cake: 30 each, two for 50" }
+      ],
+      "bank": ["块", "个", "两", "二"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u06-c",
+    "title": "Haggling at a stall",
+    "place": "A night market",
+    "context": "You want a top, but the first price is high.",
+    "goal": "Get a better price politely",
+    "partner": { "name": "老板", "persona": "cheerful stallholder who expects to bargain" },
+    "turns": [
+      { "text": "你要什么？", "pinyin": "Nǐ yào shénme?", "meaning": "What would you like?", "intent": "Say you want this one", "examples": ["我要这个", "这件衣服多少钱？"], "accept": ["这", "要", "多少钱"] },
+      { "text": "一百块。", "pinyin": "Yìbǎi kuài.", "meaning": "100 yuan.", "intent": "Say it's too much and ask for less", "examples": ["太贵了！便宜一点儿吧", "便宜一点儿吧"], "accept": ["便宜", "贵"] },
+      { "text": "八十块，好吗？", "pinyin": "Bāshí kuài, hǎo ma?", "meaning": "80, OK?", "intent": "Accept", "examples": ["好，我要了", "可以"], "accept": ["好", "可以", "要"] }
+    ],
+    "aiPartnerBrief": "You are a market stallholder. Start high, accept a polite counter-offer. Use HSK 1 words and prices with 块."
+  },
+  "pragmatics": [
+    { "situation": "Asking for a lower price at a market", "natural": { "zh": "便宜一点儿吧！", "py": "Piányi yìdiǎnr ba!", "en": "A bit cheaper?" }, "tooBlunt": { "zh": "太贵了，我不要。", "py": "Tài guì le, wǒ bú yào." }, "note": "Bargaining is normal at markets and small stalls, not in malls or supermarkets. Keep it friendly." },
+    { "situation": "Getting a stallholder's attention", "natural": { "zh": "老板，这个多少钱？", "py": "Lǎobǎn, zhège duōshao qián?", "en": "Excuse me, how much is this?" }, "tooFormal": { "zh": "先生，请问这个的价格是多少？", "py": "Xiānsheng, qǐngwèn zhège de jiàgé shì duōshao?" }, "note": "老板 (boss) is the friendly, normal way to address any stallholder." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u06-tf1", "phrase": "s1-u06-w-bai", "audio": { "zh": "这件衣服一百块。", "py": "Zhè jiàn yīfu yìbǎi kuài.", "en": "This top is 100 yuan." }, "statement": "The top costs 100 yuan.", "answer": true, "why": "一百块 is 100 yuan." },
+    { "type": "truefalse", "id": "s1-u06-tf2", "phrase": "s1-u06-w-gui", "audio": { "zh": "太贵了！", "py": "Tài guì le!", "en": "Too expensive!" }, "statement": "The speaker thinks it's cheap.", "answer": false, "why": "贵 is expensive; cheap is 便宜." },
+    { "type": "truefalse", "id": "s1-u06-tf3", "phrase": "s1-u06-w-liang", "audio": { "zh": "两个蛋糕五十块。", "py": "Liǎng ge dàngāo wǔshí kuài.", "en": "Two cakes for fifty." }, "statement": "Two cakes cost 50 yuan.", "answer": true, "why": "两个 is two (of them)." },
+    { "type": "truefalse", "id": "s1-u06-tf4", "phrase": "s1-u06-w-biede", "audio": { "zh": "不要别的了，谢谢。", "py": "Bú yào biéde le, xièxie.", "en": "Nothing else, thanks." }, "statement": "The speaker wants to buy more.", "answer": false, "why": "不要别的 means nothing else." },
+    { "type": "reply", "id": "s1-u06-r1", "phrase": "s1-u06-w-kuai", "prompt": { "zh": "这个多少钱？", "py": "Zhège duōshao qián?", "en": "How much is this?" }, "choices": ["我要了。", "三十块。", "好看！"], "answer": "三十块。" },
+    { "type": "reply", "id": "s1-u06-r2", "phrase": "s1-u06-w-hai", "prompt": { "zh": "还要别的吗？", "py": "Hái yào biéde ma?", "en": "Anything else?" }, "choices": ["八十块。", "太冷了。", "不要了，谢谢。"], "answer": "不要了，谢谢。" },
+    { "type": "listenfill", "id": "s1-u06-f1", "phrase": "s1-u06-w-pianyi", "line": { "zh": "【便宜】一点儿吧！", "py": "Piányi yìdiǎnr ba!", "en": "A bit cheaper?" }, "blankPy": "piányi" },
+    { "type": "listenfill", "id": "s1-u06-f2", "phrase": "s1-u06-w-kuai", "line": { "zh": "一百二十【块】。", "py": "Yìbǎi èrshí kuài.", "en": "120 yuan." }, "blankPy": "kuài" },
+    { "type": "cloze", "id": "s1-u06-c1", "phrase": "s1-u06-w-haokan", "title": "Worth bargaining", "lines": [{ "zh": "这件衣服很【好看】，可是太【贵】了。老板，【便宜】一点儿吧！", "py": "Zhè jiàn yīfu hěn hǎokàn, kěshì tài guì le. Lǎobǎn, piányi yìdiǎnr ba!", "en": "This top looks great, but it's too expensive. Could you go a bit cheaper?" }], "bank": ["好看", "贵", "便宜", "冷"] },
+    { "type": "match", "id": "s1-u06-m1", "phrase": "s1-u06-w-pianyi", "title": "What would you say?", "pairs": [
+      { "left": "Ask the price", "right": { "zh": "这个多少钱？", "py": "Zhège duōshao qián?", "en": "" } },
+      { "left": "Say it's too expensive", "right": { "zh": "太贵了！", "py": "Tài guì le!", "en": "" } },
+      { "left": "Ask for a discount", "right": { "zh": "便宜一点儿吧！", "py": "Piányi yìdiǎnr ba!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. Price-list lines have no punctuation by design (it's a sign)."
+}

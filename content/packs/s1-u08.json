@@ -1,0 +1,155 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u08",
+    "stage": 1,
+    "order": 8,
+    "title": "Welcome to my place",
+    "titleZh": "欢迎来我家",
+    "canDo": ["Welcome a guest, or be a good guest", "Give and receive a gift the polite way", "Leave and see someone off"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u07"],
+    "estimatedMinutes": 34
+  },
+  "vocabulary": [
+    { "id": "s1-u08-w-huanying", "hanzi": "欢迎", "pinyin": "huānyíng", "pos": "verb", "meaning": "welcome", "meaningVi": "chào mừng", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "欢迎来我家！", "py": "Huānyíng lái wǒ jiā!", "en": "Welcome to my place!" } },
+    { "id": "s1-u08-w-qing", "hanzi": "请", "pinyin": "qǐng", "pos": "verb", "meaning": "please; to invite", "meaningVi": "mời; xin", "register": "polite", "hskLevel": 1,
+      "example": { "zh": "请喝茶。", "py": "Qǐng hē chá.", "en": "Please, have some tea." } },
+    { "id": "s1-u08-w-jin", "hanzi": "进", "pinyin": "jìn", "pos": "verb", "meaning": "to enter", "meaningVi": "vào", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "请进！", "py": "Qǐng jìn!", "en": "Come in!" } },
+    { "id": "s1-u08-w-bukeqi", "hanzi": "不客气", "pinyin": "bú kèqi", "pos": "phrase", "meaning": "you're welcome", "meaningVi": "không có gì", "register": "neutral", "isChunk": true, "hskLevel": 1,
+      "example": { "zh": "不客气！", "py": "Bú kèqi!", "en": "You're welcome!" } },
+    { "id": "s1-u08-w-keqi", "hanzi": "客气", "pinyin": "kèqi", "pos": "adjective", "meaning": "polite; standing on ceremony", "meaningVi": "khách sáo", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "你太客气了！", "py": "Nǐ tài kèqi le!", "en": "You shouldn't have!" } },
+    { "id": "s1-u08-w-bie", "hanzi": "别", "pinyin": "bié", "pos": "adverb", "meaning": "don't", "meaningVi": "đừng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "别客气！", "py": "Bié kèqi!", "en": "Make yourself at home!" } },
+    { "id": "s1-u08-w-fangzi", "hanzi": "房子", "pinyin": "fángzi", "pos": "noun", "meaning": "house; flat", "meaningVi": "nhà", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你的房子真漂亮。", "py": "Nǐ de fángzi zhēn piàoliang.", "en": "Your place is lovely." } },
+    { "id": "s1-u08-w-fangjian", "hanzi": "房间", "pinyin": "fángjiān", "pos": "noun", "meaning": "room", "meaningVi": "phòng", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你的房间在左边。", "py": "Nǐ de fángjiān zài zuǒbian.", "en": "Your room is on the left." } },
+    { "id": "s1-u08-w-piaoliang", "hanzi": "漂亮", "pinyin": "piàoliang", "pos": "adjective", "meaning": "pretty; lovely", "meaningVi": "đẹp", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "这个房间很漂亮。", "py": "Zhège fángjiān hěn piàoliang.", "en": "This room is lovely." } },
+    { "id": "s1-u08-w-shuiguo", "hanzi": "水果", "pinyin": "shuǐguǒ", "pos": "noun", "meaning": "fruit", "meaningVi": "trái cây", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "这是给你的水果。", "py": "Zhè shì gěi nǐ de shuǐguǒ.", "en": "This fruit is for you." } },
+    { "id": "s1-u08-w-zhuozi", "hanzi": "桌子", "pinyin": "zhuōzi", "pos": "noun", "meaning": "table", "meaningVi": "cái bàn", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "水果在桌子上。", "py": "Shuǐguǒ zài zhuōzi shang.", "en": "The fruit is on the table." } },
+    { "id": "s1-u08-w-manzou", "hanzi": "慢走", "pinyin": "màn zǒu", "pos": "phrase", "meaning": "take care (seeing a guest off)", "meaningVi": "đi cẩn thận nhé", "register": "polite", "isChunk": true, "hskLevel": null,
+      "example": { "zh": "慢走！有空再来！", "py": "Màn zǒu! Yǒu kòng zài lái!", "en": "Take care! Come again!" } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u08-g-qing",
+      "pattern": "请 + verb · 别 + verb",
+      "purpose": "Invite politely, or tell someone not to",
+      "explanation": "请 before a verb is a warm invitation: 请进, 请坐, 请喝茶. 别 before a verb means \"don't\": 别客气 (don't stand on ceremony), 别打车. Hosts use both constantly.",
+      "examples": [
+        { "zh": "请进！请坐！", "py": "Qǐng jìn! Qǐng zuò!", "en": "Come in! Sit down!" },
+        { "zh": "别客气，这是你的家！", "py": "Bié kèqi, zhè shì nǐ de jiā!", "en": "Make yourself at home!" },
+        { "zh": "请喝茶。", "py": "Qǐng hē chá.", "en": "Please have some tea." }
+      ],
+      "commonMistakes": [{ "wrong": "不客气，这是你的家！", "right": "别客气，这是你的家！", "why": "不客气 answers thanks; 别客气 tells a guest to relax." }],
+      "register": "polite"
+    },
+    {
+      "id": "s1-u08-g-zaishang",
+      "pattern": "thing + 在 + place + 上",
+      "purpose": "Say where something is",
+      "explanation": "在 + place + a position word: 桌子上 (on the table), 左边 (on the left). The thing comes first: 水果在桌子上.",
+      "examples": [
+        { "zh": "水果在桌子上。", "py": "Shuǐguǒ zài zhuōzi shang.", "en": "The fruit is on the table." },
+        { "zh": "你的房间在左边。", "py": "Nǐ de fángjiān zài zuǒbian.", "en": "Your room is on the left." }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u08-d",
+    "title": "Dropping by",
+    "titleZh": "欢迎",
+    "setting": "Chen Yu visits Lin An's new flat for the first time.",
+    "register": "casual",
+    "speakers": [{ "id": "linan", "name": "林安" }, { "id": "chenyu", "name": "陈宇" }],
+    "glosses": [{ "hanzi": "哪里", "pinyin": "nǎli", "meaning": "\"not at all\" (a modest reply to praise)" }],
+    "lines": [
+      { "speaker": "linan", "zh": "欢迎，欢迎！请进！", "py": "Huānyíng, huānyíng! Qǐng jìn!", "en": "Welcome! Come in!" },
+      { "speaker": "chenyu", "zh": "这是给你的水果。", "py": "Zhè shì gěi nǐ de shuǐguǒ.", "en": "I brought you some fruit." },
+      { "speaker": "linan", "zh": "你太客气了！请坐，喝点儿茶吧。", "py": "Nǐ tài kèqi le! Qǐng zuò, hē diǎnr chá ba.", "en": "You shouldn't have! Sit down, have some tea." },
+      { "speaker": "chenyu", "zh": "谢谢！你的房子真漂亮。", "py": "Xièxie! Nǐ de fángzi zhēn piàoliang.", "en": "Thanks! Your place is lovely." },
+      { "speaker": "linan", "zh": "哪里，房子很小。", "py": "Nǎli, fángzi hěn xiǎo.", "en": "Oh, it's tiny." },
+      { "speaker": "chenyu", "zh": "很晚了，我走了。", "py": "Hěn wǎn le, wǒ zǒu le.", "en": "It's late. I'd better go." },
+      { "speaker": "linan", "zh": "再坐一会儿吧！", "py": "Zài zuò yíhuìr ba!", "en": "Stay a bit longer!" },
+      { "speaker": "chenyu", "zh": "不了，谢谢你的茶！", "py": "Bù le, xièxie nǐ de chá!", "en": "No, really. Thanks for the tea!" },
+      { "speaker": "linan", "zh": "不客气，慢走！", "py": "Bú kèqi, màn zǒu!", "en": "You're welcome. Take care!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What's happening?", "choices": ["Chen Yu visits Lin An's home", "Lin An is moving house", "They're at a café"], "answer": "Chen Yu visits Lin An's home" },
+      { "type": "detail", "q": "What does Chen Yu bring?", "choices": ["Fruit", "Flowers", "Cake"], "answer": "Fruit" },
+      { "type": "intent", "q": "Why does Lin An say 房子很小 after the compliment?", "choices": ["She's being modest", "She wants a bigger flat", "She disagrees angrily"], "answer": "She's being modest" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u08-r",
+    "title": "A note for the guest",
+    "titleZh": "给你的信",
+    "format": "note",
+    "blurb": "Lin An leaves a note for a friend staying over.",
+    "purpose": "You're staying at Lin An's while she's out. Read her note to find your room and what she wants you to do.",
+    "lines": [
+      { "zh": "欢迎来我家！", "py": "Huānyíng lái wǒ jiā!", "en": "Welcome to my place!" },
+      { "zh": "你的房间在左边。", "py": "Nǐ de fángjiān zài zuǒbian.", "en": "Your room is on the left." },
+      { "zh": "水果和茶在桌子上，请吃，请喝！", "py": "Shuǐguǒ hé chá zài zhuōzi shang, qǐng chī, qǐng hē!", "en": "Fruit and tea are on the table. Help yourself!" },
+      { "zh": "别客气，这是你的家！", "py": "Bié kèqi, zhè shì nǐ de jiā!", "en": "Make yourself at home!" },
+      { "zh": "我晚上七点回家。林安", "py": "Wǒ wǎnshang qī diǎn huí jiā. Lín Ān", "en": "I'll be home at seven. Lin An" }
+    ],
+    "questions": [
+      { "type": "detail", "q": "Where is your room?", "choices": ["On the left", "On the right", "Upstairs"], "answer": "On the left" },
+      { "type": "detail", "q": "Where are the fruit and tea?", "choices": ["On the table", "In your room", "In the shop"], "answer": "On the table" },
+      { "type": "inference", "q": "What does 别客气 tell you here?", "choices": ["Make yourself at home", "You're welcome", "Don't touch anything"], "answer": "Make yourself at home" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "你的【房间】在左边。", "py": "Nǐ de fángjiān zài zuǒbian.", "en": "Your room is on the left." },
+        { "zh": "水果和茶在【桌子】上，请吃，请喝！", "py": "Shuǐguǒ hé chá zài zhuōzi shang, qǐng chī, qǐng hē!", "en": "Fruit and tea are on the table. Help yourself!" },
+        { "zh": "【别】客气，这是你的家！", "py": "Bié kèqi, zhè shì nǐ de jiā!", "en": "Make yourself at home!" }
+      ],
+      "bank": ["房间", "桌子", "别", "不"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u08-c",
+    "title": "Being a guest",
+    "place": "A friend's flat",
+    "context": "You visit a friend's home for the first time.",
+    "goal": "Greet, accept hospitality, leave politely",
+    "partner": { "name": "林安", "persona": "warm host who keeps offering things" },
+    "turns": [
+      { "text": "欢迎！请进！", "pinyin": "Huānyíng! Qǐng jìn!", "meaning": "Welcome! Come in!", "intent": "Thank her", "examples": ["谢谢！", "谢谢，这是给你的水果"], "accept": ["谢谢"] },
+      { "text": "喝点儿茶吧？", "pinyin": "Hē diǎnr chá ba?", "meaning": "Some tea?", "intent": "Accept or decline politely", "examples": ["好，谢谢", "不用了，谢谢"], "accept": ["好", "谢谢", "不"] },
+      { "text": "再坐一会儿吧！", "pinyin": "Zài zuò yíhuìr ba!", "meaning": "Stay a bit longer!", "intent": "Say you need to go", "examples": ["不了，很晚了", "不了，谢谢你的茶"], "accept": ["不", "晚", "走"] }
+    ],
+    "aiPartnerBrief": "You are 林安, a host. Offer tea twice and protest a little when the guest leaves. Use HSK 1 words."
+  },
+  "pragmatics": [
+    { "situation": "Receiving a gift from a guest", "natural": { "zh": "你太客气了！", "py": "Nǐ tài kèqi le!", "en": "You shouldn't have!" }, "tooBlunt": { "zh": "谢谢，放这儿吧。", "py": "Xièxie, fàng zhèr ba." }, "note": "Hosts protest a little at gifts before accepting. Bringing fruit or a small gift when visiting is expected." },
+    { "situation": "Seeing a guest off", "natural": { "zh": "慢走！有空再来！", "py": "Màn zǒu! Yǒu kòng zài lái!", "en": "Take care! Come again!" }, "tooBlunt": { "zh": "再见。", "py": "Zàijiàn." }, "note": "Hosts walk guests to the door and say 慢走 (literally \"walk slowly\")." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u08-tf1", "phrase": "s1-u08-w-jin", "audio": { "zh": "请进！请坐！", "py": "Qǐng jìn! Qǐng zuò!", "en": "Come in! Sit down!" }, "statement": "The speaker is inviting someone in.", "answer": true, "why": "请进 is \"come in\"." },
+    { "type": "truefalse", "id": "s1-u08-tf2", "phrase": "s1-u08-w-fangzi", "audio": { "zh": "房子很小。", "py": "Fángzi hěn xiǎo.", "en": "The flat is small." }, "statement": "The flat is big.", "answer": false, "why": "小 is small." },
+    { "type": "truefalse", "id": "s1-u08-tf3", "phrase": "s1-u08-w-fangjian", "audio": { "zh": "你的房间在右边。", "py": "Nǐ de fángjiān zài yòubian.", "en": "Your room is on the right." }, "statement": "Your room is on the left.", "answer": false, "why": "右边 is the right." },
+    { "type": "truefalse", "id": "s1-u08-tf4", "phrase": "s1-u08-w-zhuozi", "audio": { "zh": "水果在桌子上。", "py": "Shuǐguǒ zài zhuōzi shang.", "en": "The fruit is on the table." }, "statement": "The fruit is on the table.", "answer": true, "why": "桌子上 is on the table." },
+    { "type": "reply", "id": "s1-u08-r1", "phrase": "s1-u08-w-bukeqi", "prompt": { "zh": "谢谢你的茶！", "py": "Xièxie nǐ de chá!", "en": "Thanks for the tea!" }, "choices": ["请进！", "不客气！", "太贵了！"], "answer": "不客气！" },
+    { "type": "reply", "id": "s1-u08-r2", "phrase": "s1-u08-w-keqi", "prompt": { "zh": "这是给你的水果。", "py": "Zhè shì gěi nǐ de shuǐguǒ.", "en": "This fruit is for you." }, "choices": ["我不要。", "好看！", "你太客气了！"], "answer": "你太客气了！" },
+    { "type": "reply", "id": "s1-u08-r3", "phrase": "s1-u08-w-manzou", "prompt": { "zh": "很晚了，我走了。", "py": "Hěn wǎn le, wǒ zǒu le.", "en": "It's late, I'll go." }, "choices": ["慢走！", "欢迎！", "请坐！"], "answer": "慢走！" },
+    { "type": "listenfill", "id": "s1-u08-f1", "phrase": "s1-u08-w-qing", "line": { "zh": "【请】坐，喝点儿茶吧。", "py": "Qǐng zuò, hē diǎnr chá ba.", "en": "Sit down, have some tea." }, "blankPy": "qǐng" },
+    { "type": "listenfill", "id": "s1-u08-f2", "phrase": "s1-u08-w-huanying", "line": { "zh": "【欢迎】来我家！", "py": "Huānyíng lái wǒ jiā!", "en": "Welcome to my place!" }, "blankPy": "huānyíng" },
+    { "type": "cloze", "id": "s1-u08-c1", "phrase": "s1-u08-w-bie", "title": "At the door", "lines": [{ "zh": "【欢迎】！请【进】！别【客气】，这是你的家。", "py": "Huānyíng! Qǐng jìn! Bié kèqi, zhè shì nǐ de jiā.", "en": "Welcome! Come in! Make yourself at home." }], "bank": ["欢迎", "进", "客气", "漂亮"] },
+    { "type": "match", "id": "s1-u08-m1", "phrase": "s1-u08-w-qing", "title": "What would you say?", "pairs": [
+      { "left": "Invite someone in", "right": { "zh": "请进！", "py": "Qǐng jìn!", "en": "" } },
+      { "left": "Reply to thanks", "right": { "zh": "不客气！", "py": "Bú kèqi!", "en": "" } },
+      { "left": "See a guest off", "right": { "zh": "慢走！", "py": "Màn zǒu!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. 哪里 as a modest reply is glossed rather than taught; it's dated among young people but still heard."
+}

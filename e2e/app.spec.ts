@@ -1,4 +1,5 @@
 import { test, expect, type Page } from "@playwright/test";
+import { readFileSync } from "node:fs";
 /** First screen is sign-in; tests study as a guest. */
 async function enter(page: Page) {
   const guest = page.getByRole("button", { name: /Start without an account/ });
@@ -21,27 +22,121 @@ async function onboard(page: Page) {
 }
 /** Navigate by label: masthead on wide screens, tab bar or "More" drawer on phones. */
 async function go(page: Page, label: string) {
-  const top = page.locator(".main-nav").getByRole("button", { name: label, exact: true });
-  if (await top.isVisible()) return top.click();
-  const tab = page.locator(".tabbar").getByRole("button", { name: label, exact: true });
+  const top = page
+    .locator(".main-nav")
+    .getByRole("button", { name: label, exact: true });
+  if (await top.isVisible()) {
+    await top.click();
+    return;
+  }
+  const tab = page
+    .locator(".tabbar")
+    .getByRole("button", { name: label, exact: true });
   if (await tab.isVisible()) return tab.click();
   await page.locator(".tabbar").getByRole("button", { name: "More" }).click();
-  await page.locator(".drawer").getByRole("button", { name: label, exact: true }).click();
+  await page
+    .locator(".drawer")
+    .getByRole("button", { name: label, exact: true })
+    .click();
+  await expect(page.locator(".drawer-scrim")).toBeHidden();
 }
-test("characters-first path: meet, read, miss, and look up without pinyin", async ({ page }) => {
+
+test("navigation survives refresh and browser back; skip link preserves the screen", async ({
+  page,
+}) => {
+  await onboard(page);
+  await page.getByRole("button", { name: "Save and exit" }).click();
+  await go(page, "Media");
+  await expect(page).toHaveURL(/#media$/);
+  await expect(
+    page.getByRole("heading", { name: "Watch and sing", exact: true }),
+  ).toBeVisible();
+  await page.reload();
+  await expect(
+    page.getByRole("heading", { name: "Watch and sing", exact: true }),
+  ).toBeVisible();
+  await go(page, "Progress");
+  await page.goBack();
+  await expect(
+    page.getByRole("heading", { name: "Watch and sing", exact: true }),
+  ).toBeVisible();
+  await page.getByRole("link", { name: "Skip to content" }).focus();
+  await page.getByRole("link", { name: "Skip to content" }).press("Enter");
+  await expect(page.locator("#main")).toBeFocused();
+  await expect(page).toHaveURL(/#media$/);
+  await expect(
+    page.getByRole("heading", { name: "Watch and sing", exact: true }),
+  ).toBeVisible();
+});
+
+test("watch captions and saved lines work; changing media clears old captions", async ({
+  page,
+}) => {
+  await onboard(page);
+  await page.getByRole("button", { name: "Save and exit" }).click();
+  await go(page, "Media");
+  const watch = page.locator(".watch");
+  const assets = JSON.parse(readFileSync("src/audio-assets.json", "utf8"));
+  const clip = readFileSync(`public${assets["你好"].clear}`);
+  const media = watch.locator('input[type="file"][accept="video/*,audio/*"]');
+  await media.setInputFiles({
+    name: "practice.mp3",
+    mimeType: "audio/mpeg",
+    buffer: clip,
+  });
+  await watch
+    .locator('input[type="file"][accept=".srt,.vtt,.lrc,.txt"]')
+    .setInputFiles({
+      name: "practice.srt",
+      mimeType: "text/plain",
+      buffer: Buffer.from("1\n00:00:00,000 --> 00:00:02,000\n你好。\n"),
+    });
+  await expect(watch.locator(".watch-line.now")).toHaveText("你好。");
+  await watch.getByRole("button", { name: "Save line", exact: true }).click();
+  await watch
+    .getByPlaceholder("What it means, or why you saved it")
+    .fill("Greeting");
+  await watch
+    .getByPlaceholder("What it means, or why you saved it")
+    .press("Enter");
+  await expect(watch.locator(".watch-saved")).toContainText("你好。");
+  await watch.getByRole("button", { name: "End session", exact: true }).click();
+  await expect(
+    watch.getByRole("heading", { name: "Session finished.", exact: true }),
+  ).toBeVisible();
+  await media.setInputFiles({
+    name: "another.mp3",
+    mimeType: "audio/mpeg",
+    buffer: clip,
+  });
+  await expect(watch.locator(".watch-line.now")).toHaveCount(0);
+  await expect(
+    watch.getByRole("button", { name: "Replay line", exact: true }),
+  ).toBeDisabled();
+  await page.reload();
+  await expect(page.locator(".watch-saved")).toContainText("Greeting");
+});
+test("characters-first path: meet, read, miss, and look up without pinyin", async ({
+  page,
+}) => {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
   await page.goto("/");
   await enter(page);
   await page.getByRole("button", { name: "Continue", exact: true }).click();
-  await expect(page.getByRole("radio", { name: /Characters first/ })).toHaveAttribute("aria-checked", "true");
+  await expect(
+    page.getByRole("radio", { name: /Characters first/ }),
+  ).toHaveAttribute("aria-checked", "true");
   await page.getByRole("button", { name: "Continue", exact: true }).click();
-  await page.getByRole("button", { name: "Meet your first characters" }).click();
+  await page
+    .getByRole("button", { name: "Meet your first characters" })
+    .click();
   // Lesson 1 is counting; every new character arrives with its pinyin.
   await expect(page.locator(".anatomy-meaning")).toHaveText("one");
   await expect(page.locator(".anatomy-pinyin")).toHaveText("yī");
   // Meaning checks come two characters later, read from memory.
-  for (let i = 0; i < 3; i++) await page.getByRole("button", { name: "Continue", exact: true }).click();
+  for (let i = 0; i < 3; i++)
+    await page.getByRole("button", { name: "Continue", exact: true }).click();
   await expect(page.locator(".big-glyph")).toHaveText("一");
   await page.locator(".choice").filter({ hasText: "two" }).click();
   await page.getByRole("button", { name: "Check", exact: true }).click();
@@ -77,15 +172,22 @@ test("onboarding, fallback, answer persistence, resume, search and backup", asyn
   await expect(page.getByText("Not quite.")).toBeVisible();
   await page.getByRole("button", { name: "Continue", exact: true }).click();
   await page.getByRole("button", { name: "Save and exit" }).click();
-  await expect(page.getByRole("heading", { level: 1, name: /Alex\./ })).toBeVisible();
+  await expect(
+    page.getByRole("heading", { level: 1, name: /Alex\./ }),
+  ).toBeVisible();
   await page.reload();
-  await expect(page.getByRole("heading", { level: 1, name: /Alex\./ })).toBeVisible();
+  await expect(
+    page.getByRole("heading", { level: 1, name: /Alex\./ }),
+  ).toBeVisible();
   await page.locator(".lead").getByRole("button", { name: "Continue" }).click();
   await expect(page.getByText("6 / 22", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "Save and exit" }).click();
   await page.getByRole("button", { name: "Dictionary", exact: true }).click();
   await page.getByPlaceholder("Try 你好, ni hao, or hello…").fill("xiexie");
-  await page.locator(".word-list button").click();
+  await page
+    .locator(".word-list button", { hasText: "Thank you" })
+    .first()
+    .click();
   await expect(page.locator(".word-detail")).toContainText("Thank you");
   await page.getByRole("button", { name: "Settings", exact: true }).click();
   const download = page.waitForEvent("download");

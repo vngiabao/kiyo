@@ -9,7 +9,7 @@ import {
 } from "@phosphor-icons/react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "./db";
-import { phraseById, lessons } from "./content";
+import { phraseById, lessons, reviewTaskFor } from "./content";
 import { ExerciseView } from "./LessonPlayer";
 import { AudioButton, Arrow, ToneCurve, Recorder } from "./components";
 import type { Profile, Exercise, Memory } from "./types";
@@ -24,6 +24,7 @@ export function Review({
   const [queue, setQueue] = useState<Memory[] | null>(null),
     [position, setPosition] = useState(0);
   const memories = useLiveQuery(() => db.memories.toArray()) ?? [];
+  const mistakes = useLiveQuery(() => db.mistakes.toArray()) ?? [];
   const due = memories.filter(
     (m) =>
       m.due <= Date.now() &&
@@ -40,7 +41,9 @@ export function Review({
     const choices = [
       ...new Set([...alternatives.map((v) => v.meaning), p.meaning]),
     ];
-    const e: Exercise = {
+    // Bring back a real task (the one you missed, or a fresh sentence with the same phrase).
+    const task = reviewTaskFor(m, mistakes.find((x) => x.id === m.id)?.context);
+    const e: Exercise = task ? { ...task, id: `review:${task.id}:${m.due}` } : {
       id: `review:${m.id}:${m.due}`,
       kind: ["listening", "media", "tone"].includes(m.modality)
         ? "choice"

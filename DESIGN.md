@@ -261,7 +261,9 @@ The `/#companion` collection remains available before onboarding, starts with We
 
 ## Optional cloud-sync controls
 
-Settings adds Cloud sync within the existing Account column: a plain-language status, last successful sync time, Sync now and an explicitly confirmed Delete my cloud data action. A separate consent screen asks whether to add existing device progress before any upload. Declining keeps learning available. Confirmation, error, paused and offline states use existing controls and palette; no extra animation is introduced. File inputs and account names wrap within narrow screens. The new Kiyo logo concepts remain uninstalled by owner request.
+Settings adds Cloud sync within the existing Account column: a plain-language status, last successful sync time, Sync now and an explicitly confirmed Delete my cloud data action. A separate consent screen asks whether to add existing device progress before any upload. Declining keeps learning available. Confirmation, error, paused and offline states use existing controls and palette; no extra animation is introduced. File inputs and account names wrap within narrow screens.
+
+The owner approved applying the Sayo portrait tile and KĪYO capitals during the October 5 integration. The masthead and welcome screen share outlined SVG lettering with a straight K and blue tone bar. The installed app icon reuses the existing approved raster portrait inside an SVG container; it is not vector character art. The 清 mark remains the tiny browser favicon. Exports are in `public/brand/`, rebuilt by `scripts/make-brand.ts`.
 
 
 ## Night Study v2 (current; supersedes earlier colour notes) — `src/night.css`

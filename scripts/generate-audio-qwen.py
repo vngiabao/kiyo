@@ -62,6 +62,10 @@ def main():
                 recipe['delivery'] = entry['delivery']
             if entry['id']+'-'+mood in overrides:
                 recipe['pronunciationContext'] = overrides[entry['id']+'-'+mood]
+            elif 'yāo' in entry.get('pinyin','').lower():
+                # Only digit runs are phone numbers: 一 in 一点儿 stays yi.
+                spoken = re.sub(r'[零一二三四五六七八九]{3,}', lambda m:m.group().replace('一','幺'), entry['text'])
+                recipe['pronunciationContext'] = dict(synthesisText=spoken, extract='whole', reason='Read phone-number 一 as yāo, matching authored pinyin.')
             token = hashlib.sha256(json.dumps(recipe, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
             filename = f'{entry["id"]}-{mood}-{token}'
             receipt, wav = CACHE/(filename+'.json'), CACHE/(filename+'.wav')
@@ -137,7 +141,7 @@ def main():
                 pad = int(.12*rate)
                 audio = audio[max(0,nz[0]-pad):min(len(audio),nz[-1]+pad)]
                 context_record = {}
-                if j['recipe'].get('pronunciationContext'):
+                if j['recipe'].get('pronunciationContext',{}).get('extract') == 'last-clause':
                     # A natural carrier disambiguates pronunciation; only its final repeated word ships.
                     carrier = j['wav'].with_name(j['wav'].stem+'-carrier.wav')
                     sf.write(carrier,audio,rate,subtype='PCM_16')

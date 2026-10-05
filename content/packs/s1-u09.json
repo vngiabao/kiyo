@@ -1,0 +1,157 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u09",
+    "stage": 1,
+    "order": 9,
+    "title": "Feeling unwell",
+    "titleZh": "我不舒服",
+    "canDo": ["Say you're ill and what hurts", "Give simple care advice", "Write a polite absence note to a teacher"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u08"],
+    "estimatedMinutes": 34
+  },
+  "vocabulary": [
+    { "id": "s1-u09-w-bing", "hanzi": "病", "pinyin": "bìng", "pos": "noun / verb", "meaning": "illness; to be ill", "meaningVi": "bệnh; bị ốm", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我病了。", "py": "Wǒ bìng le.", "en": "I'm ill." } },
+    { "id": "s1-u09-w-shufu", "hanzi": "舒服", "pinyin": "shūfu", "pos": "adjective", "meaning": "comfortable; well", "meaningVi": "dễ chịu, khỏe", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我有点儿不舒服。", "py": "Wǒ yǒudiǎnr bù shūfu.", "en": "I don't feel too well." } },
+    { "id": "s1-u09-w-shenti", "hanzi": "身体", "pinyin": "shēntǐ", "pos": "noun", "meaning": "body; health", "meaningVi": "cơ thể, sức khỏe", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你身体好吗？", "py": "Nǐ shēntǐ hǎo ma?", "en": "Are you keeping well?" } },
+    { "id": "s1-u09-w-tou", "hanzi": "头", "pinyin": "tóu", "pos": "noun", "meaning": "head", "meaningVi": "đầu", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我头很疼。", "py": "Wǒ tóu hěn téng.", "en": "I have a bad headache." } },
+    { "id": "s1-u09-w-teng", "hanzi": "疼", "pinyin": "téng", "pos": "adjective", "meaning": "sore; painful", "meaningVi": "đau", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "头还疼吗？", "py": "Tóu hái téng ma?", "en": "Does your head still hurt?" } },
+    { "id": "s1-u09-w-ganmao", "hanzi": "感冒", "pinyin": "gǎnmào", "pos": "verb / noun", "meaning": "to catch a cold; a cold", "meaningVi": "cảm cúm", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我感冒了。", "py": "Wǒ gǎnmào le.", "en": "I've caught a cold." } },
+    { "id": "s1-u09-w-yao", "hanzi": "药", "pinyin": "yào", "pos": "noun", "meaning": "medicine", "meaningVi": "thuốc", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我有药。", "py": "Wǒ yǒu yào.", "en": "I have medicine." } },
+    { "id": "s1-u09-w-kanbing", "hanzi": "看病", "pinyin": "kànbìng", "pos": "verb", "meaning": "to see a doctor", "meaningVi": "đi khám bệnh", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你要去医院看病吗？", "py": "Nǐ yào qù yīyuàn kànbìng ma?", "en": "Are you going to see a doctor?" } },
+    { "id": "s1-u09-w-xiuxi", "hanzi": "休息", "pinyin": "xiūxi", "pos": "verb", "meaning": "to rest", "meaningVi": "nghỉ ngơi", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "多喝水，多休息。", "py": "Duō hē shuǐ, duō xiūxi.", "en": "Drink lots of water and rest." } },
+    { "id": "s1-u09-w-shuijiao", "hanzi": "睡觉", "pinyin": "shuìjiào", "pos": "verb", "meaning": "to sleep", "meaningVi": "ngủ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我想睡觉。", "py": "Wǒ xiǎng shuìjiào.", "en": "I want to sleep." } },
+    { "id": "s1-u09-w-zenmele", "hanzi": "怎么了", "pinyin": "zěnme le", "pos": "phrase", "meaning": "what's wrong?", "meaningVi": "sao vậy", "register": "casual", "isChunk": true, "hskLevel": null,
+      "example": { "zh": "你怎么了？", "py": "Nǐ zěnme le?", "en": "What's wrong?" } },
+    { "id": "s1-u09-w-buyong", "hanzi": "不用", "pinyin": "bú yòng", "pos": "phrase", "meaning": "no need", "meaningVi": "không cần", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "不用，谢谢。", "py": "Bú yòng, xièxie.", "en": "No need, thanks." } },
+    { "id": "s1-u09-w-nin", "hanzi": "您", "pinyin": "nín", "pos": "pronoun", "meaning": "you (polite)", "meaningVi": "ngài, ông/bà (lịch sự)", "register": "polite", "hskLevel": 1,
+      "example": { "zh": "王老师，您好！", "py": "Wáng lǎoshī, nín hǎo!", "en": "Hello, Teacher Wang!" } },
+    { "id": "s1-u09-w-shangke", "hanzi": "上课", "pinyin": "shàngkè", "pos": "verb", "meaning": "to go to class; class starts", "meaningVi": "lên lớp, đi học", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "今天我不能去上课。", "py": "Jīntiān wǒ bù néng qù shàngkè.", "en": "I can't come to class today." } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u09-g-le",
+      "pattern": "situation + 了 (something has changed)",
+      "purpose": "Say a new situation has started",
+      "explanation": "了 at the end can mean \"now it's like this\": 我病了 (I've got ill), 我好点儿了 (I'm better now), 很晚了 (it's got late). It marks a change, not just the past.",
+      "examples": [
+        { "zh": "我病了。", "py": "Wǒ bìng le.", "en": "I'm ill (now)." },
+        { "zh": "我好点儿了。", "py": "Wǒ hǎo diǎnr le.", "en": "I'm a bit better." },
+        { "zh": "我感冒了。", "py": "Wǒ gǎnmào le.", "en": "I've caught a cold." }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u09-g-duo",
+      "pattern": "多 + verb",
+      "purpose": "Give caring advice",
+      "explanation": "多 before a verb means \"do more of it\": 多喝水 (drink plenty of water), 多休息 (get lots of rest). It's what everyone says to someone who's ill.",
+      "examples": [
+        { "zh": "多喝水，多休息。", "py": "Duō hē shuǐ, duō xiūxi.", "en": "Drink lots of water and rest." },
+        { "zh": "你要多睡觉。", "py": "Nǐ yào duō shuìjiào.", "en": "You need more sleep." }
+      ],
+      "register": "casual"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u09-d",
+    "title": "A phone call",
+    "titleZh": "你怎么了",
+    "setting": "Anna missed class. Lin An calls to check on her.",
+    "register": "casual",
+    "speakers": [{ "id": "linan", "name": "林安" }, { "id": "anna", "name": "安娜" }],
+    "lines": [
+      { "speaker": "linan", "zh": "喂，安娜，你怎么了？", "py": "Wéi, Ānnà, nǐ zěnme le?", "en": "Hi Anna, what's wrong?" },
+      { "speaker": "anna", "zh": "我病了，头很疼。", "py": "Wǒ bìng le, tóu hěn téng.", "en": "I'm ill. I've got a bad headache." },
+      { "speaker": "linan", "zh": "你感冒了吧？你要去医院看病吗？", "py": "Nǐ gǎnmào le ba? Nǐ yào qù yīyuàn kànbìng ma?", "en": "A cold? Are you going to see a doctor?" },
+      { "speaker": "anna", "zh": "不用，我有药。", "py": "Bú yòng, wǒ yǒu yào.", "en": "No need, I have medicine." },
+      { "speaker": "linan", "zh": "那你多喝水，多休息。", "py": "Nà nǐ duō hē shuǐ, duō xiūxi.", "en": "Then drink lots of water and rest." },
+      { "speaker": "anna", "zh": "好，我想睡觉。", "py": "Hǎo, wǒ xiǎng shuìjiào.", "en": "OK. I want to sleep." },
+      { "speaker": "linan", "zh": "明天我去看你，给你买水果。", "py": "Míngtiān wǒ qù kàn nǐ, gěi nǐ mǎi shuǐguǒ.", "en": "I'll come and see you tomorrow and bring fruit." },
+      { "speaker": "anna", "zh": "谢谢你！", "py": "Xièxie nǐ!", "en": "Thank you!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "Why is Lin An calling?", "choices": ["Anna is ill", "Anna's birthday", "To plan a trip"], "answer": "Anna is ill" },
+      { "type": "detail", "q": "What hurts?", "choices": ["Her head", "Her back", "Nothing, she's tired"], "answer": "Her head" },
+      { "type": "intent", "q": "What does Lin An offer to do?", "choices": ["Visit tomorrow with fruit", "Take her to hospital now", "Call a doctor"], "answer": "Visit tomorrow with fruit" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u09-r",
+    "title": "A note to the teacher",
+    "titleZh": "给王老师",
+    "format": "email",
+    "blurb": "Anna messages her teacher.",
+    "purpose": "Anna wrote to her teacher. Read to find out why she's absent and when she'll be back.",
+    "lines": [
+      { "zh": "王老师，您好！", "py": "Wáng lǎoshī, nín hǎo!", "en": "Hello, Teacher Wang!" },
+      { "zh": "我是安娜。我病了，今天不能去上课。", "py": "Wǒ shì Ānnà. Wǒ bìng le, jīntiān bù néng qù shàngkè.", "en": "It's Anna. I'm ill and can't come to class today." },
+      { "zh": "医生说我要休息两天。", "py": "Yīshēng shuō wǒ yào xiūxi liǎng tiān.", "en": "The doctor says I need two days' rest." },
+      { "zh": "星期四我去上课。", "py": "Xīngqīsì wǒ qù shàngkè.", "en": "I'll be back in class on Thursday." },
+      { "zh": "谢谢您！安娜", "py": "Xièxie nín! Ānnà", "en": "Thank you! Anna" }
+    ],
+    "glosses": [{ "hanzi": "王", "pinyin": "Wáng", "meaning": "Wang (a surname)" }],
+    "questions": [
+      { "type": "detail", "q": "Why can't Anna go to class?", "choices": ["She's ill", "She's travelling", "She's working"], "answer": "She's ill" },
+      { "type": "detail", "q": "How long does the doctor want her to rest?", "choices": ["Two days", "A week", "One afternoon"], "answer": "Two days" },
+      { "type": "inference", "q": "Why does she write 您 and not 你?", "choices": ["To be respectful to her teacher", "Because the teacher is ill", "It's a typo"], "answer": "To be respectful to her teacher" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "我是安娜。我病了，今天不能去【上课】。", "py": "Wǒ shì Ānnà. Wǒ bìng le, jīntiān bù néng qù shàngkè.", "en": "It's Anna. I'm ill and can't come to class today." },
+        { "zh": "医生说我要【休息】两天。", "py": "Yīshēng shuō wǒ yào xiūxi liǎng tiān.", "en": "The doctor says I need two days' rest." },
+        { "zh": "谢谢【您】！安娜", "py": "Xièxie nín! Ānnà", "en": "Thank you! Anna" }
+      ],
+      "bank": ["上课", "休息", "您", "睡觉"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u09-c",
+    "title": "Not feeling great",
+    "place": "On the phone",
+    "context": "A friend calls because you missed lunch.",
+    "goal": "Say what's wrong and reassure them",
+    "partner": { "name": "林安", "persona": "worried friend" },
+    "turns": [
+      { "text": "你怎么了？", "pinyin": "Nǐ zěnme le?", "meaning": "What's wrong?", "intent": "Say you're ill or what hurts", "examples": ["我病了", "我头疼", "我感冒了"], "accept": ["病", "疼", "感冒", "舒服"] },
+      { "text": "你要去医院吗？", "pinyin": "Nǐ yào qù yīyuàn ma?", "meaning": "Are you going to hospital?", "intent": "Say whether you need to", "examples": ["不用，我有药", "要去"], "accept": ["不用", "去", "要", "药"] },
+      { "text": "你好点儿了吗？", "pinyin": "Nǐ hǎo diǎnr le ma?", "meaning": "Are you feeling better?", "intent": "Say how you feel now", "examples": ["好点儿了", "还不舒服"], "accept": ["好", "舒服"] }
+    ],
+    "aiPartnerBrief": "You are 林安, worried about a friend who is ill. Give simple advice with 多 + verb."
+  },
+  "pragmatics": [
+    { "situation": "Checking on a friend who's been ill", "natural": { "zh": "你好点儿了吗？", "py": "Nǐ hǎo diǎnr le ma?", "en": "Feeling better?" }, "tooBlunt": { "zh": "你怎么又病了？", "py": "Nǐ zěnme yòu bìng le?" }, "note": "怎么又… (how come… again?) sounds like blame." },
+    { "situation": "Messaging a teacher", "natural": { "zh": "王老师，您好！", "py": "Wáng lǎoshī, nín hǎo!", "en": "Hello, Teacher Wang!" }, "tooBlunt": { "zh": "老师，我今天不来。", "py": "Lǎoshī, wǒ jīntiān bù lái." }, "note": "Greet with 您 and give a reason, even on WeChat. Teachers notice." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u09-tf1", "phrase": "s1-u09-w-teng", "audio": { "zh": "我头很疼。", "py": "Wǒ tóu hěn téng.", "en": "I have a bad headache." }, "statement": "The speaker has a headache.", "answer": true, "why": "头疼 is a headache." },
+    { "type": "truefalse", "id": "s1-u09-tf2", "phrase": "s1-u09-w-kanbing", "audio": { "zh": "我不想去医院看病。", "py": "Wǒ bù xiǎng qù yīyuàn kànbìng.", "en": "I don't want to go to the doctor." }, "statement": "The speaker wants to see a doctor.", "answer": false, "why": "不想 means doesn't want to." },
+    { "type": "truefalse", "id": "s1-u09-tf3", "phrase": "s1-u09-w-xiuxi", "audio": { "zh": "医生说要多休息。", "py": "Yīshēng shuō yào duō xiūxi.", "en": "The doctor says to rest a lot." }, "statement": "The doctor says to rest.", "answer": true, "why": "多休息 is rest a lot." },
+    { "type": "truefalse", "id": "s1-u09-tf4", "phrase": "s1-u09-w-bing", "audio": { "zh": "我好点儿了。", "py": "Wǒ hǎo diǎnr le.", "en": "I'm a bit better." }, "statement": "The speaker feels worse.", "answer": false, "why": "好点儿了 means a bit better now." },
+    { "type": "reply", "id": "s1-u09-r1", "phrase": "s1-u09-w-zenmele", "prompt": { "zh": "你怎么了？", "py": "Nǐ zěnme le?", "en": "What's wrong?" }, "choices": ["我感冒了。", "不客气。", "八十块。"], "answer": "我感冒了。" },
+    { "type": "reply", "id": "s1-u09-r2", "phrase": "s1-u09-w-shufu", "prompt": { "zh": "你好点儿了吗？", "py": "Nǐ hǎo diǎnr le ma?", "en": "Feeling better?" }, "choices": ["慢走！", "好点儿了，谢谢。", "我坐地铁。"], "answer": "好点儿了，谢谢。" },
+    { "type": "reply", "id": "s1-u09-r3", "phrase": "s1-u09-w-shangke", "prompt": { "zh": "我病了，不能去上课。", "py": "Wǒ bìng le, bù néng qù shàngkè.", "en": "I'm ill; I can't come to class." }, "choices": ["太好了！", "生日快乐！", "多休息！"], "answer": "多休息！" },
+    { "type": "listenfill", "id": "s1-u09-f1", "phrase": "s1-u09-w-zenmele", "line": { "zh": "你【怎么了】？", "py": "Nǐ zěnme le?", "en": "What's wrong?" }, "blankPy": "zěnme le" },
+    { "type": "listenfill", "id": "s1-u09-f2", "phrase": "s1-u09-w-xiuxi", "line": { "zh": "多喝水，多【休息】。", "py": "Duō hē shuǐ, duō xiūxi.", "en": "Drink lots of water and rest." }, "blankPy": "xiūxi" },
+    { "type": "cloze", "id": "s1-u09-c1", "phrase": "s1-u09-w-ganmao", "title": "Anna's cold", "lines": [{ "zh": "安娜【感冒】了，头很【疼】。医生说她要多【休息】。", "py": "Ānnà gǎnmào le, tóu hěn téng. Yīshēng shuō tā yào duō xiūxi.", "en": "Anna has a cold and a bad headache. The doctor says she needs lots of rest." }], "bank": ["感冒", "疼", "休息", "漂亮"] },
+    { "type": "match", "id": "s1-u09-m1", "phrase": "s1-u09-w-bing", "title": "What would you say?", "pairs": [
+      { "left": "Ask what's wrong", "right": { "zh": "你怎么了？", "py": "Nǐ zěnme le?", "en": "" } },
+      { "left": "Say you're ill", "right": { "zh": "我病了。", "py": "Wǒ bìng le.", "en": "" } },
+      { "left": "Tell someone to rest", "right": { "zh": "多休息！", "py": "Duō xiūxi!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. 头很疼 vs 头疼: both fine. Check that 不用 (bú yòng) tone change is marked as spoken."
+}

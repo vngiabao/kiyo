@@ -11,7 +11,7 @@ import {
   ArrowLeft,
   ArrowCounterClockwise,
 } from "@phosphor-icons/react";
-import { db, defaultProfile, exportRecord, importRecord } from "./db";
+import { db, defaultProfile, importRecord } from "./db";
 import {
   characters,
   charByHanzi,
@@ -21,9 +21,15 @@ import {
   readingLessons,
   standards,
   packUnits,
+  packLessons,
 } from "./content";
 import { readings, characterSpeech } from "./hanzi";
-import { dailyPlan, searchNormalize, skillEvidence, type PlanItem } from "./learning";
+import {
+  dailyPlan,
+  searchNormalize,
+  skillEvidence,
+  type PlanItem,
+} from "./learning";
 import { AudioButton, Arrow, PhraseText, Pinyin } from "./components";
 import { useSpeech } from "./useSpeech";
 import {
@@ -36,8 +42,16 @@ import {
   useCharacterStatus,
 } from "./Characters";
 import { mandarinVoices } from "./audio";
+import { backupDue, downloadBackup } from "./backup";
+import { OfflinePanel } from "./OfflinePanel";
 import { sayoVoiceURI } from "./sayo-voice";
-import { Journey, PathMap, stoneIcon, type PathNode, type PathUnit } from "./PathMap";
+import {
+  Journey,
+  PathMap,
+  stoneIcon,
+  type PathNode,
+  type PathUnit,
+} from "./PathMap";
 import type { Profile, Modality, LearningPath } from "./types";
 import LessonPlayer from "./LessonPlayer";
 import Welcome from "./Welcome";
@@ -51,7 +65,9 @@ const Conversation = lazy(() => import("./Conversation"));
 const MediaLab = lazy(() => import("./MediaLab"));
 const Practice = lazy(() => import("./Practice"));
 const Hsk = lazy(() => import("./Hsk"));
-const Review = lazy(() => import("./Practice").then((m) => ({ default: m.Review })));
+const Review = lazy(() =>
+  import("./Practice").then((m) => ({ default: m.Review })),
+);
 
 type Route =
   | "today"
@@ -78,22 +94,42 @@ const nav: { id: Route; label: string; zh: string; mobile?: boolean }[] = [
   { id: "progress", label: "Progress", zh: "进步" },
 ];
 const pathOf = (p: Profile): LearningPath => p.path ?? "characters";
+const routes: Route[] = [
+  ...nav.map((n) => n.id),
+  "dictionary",
+  "settings",
+  "review",
+  "mascot",
+];
+function routeFromHash(): Route {
+  const hash = location.hash.slice(1);
+  if (hash === "companion") return "mascot";
+  if (hash === "listen") return "learn";
+  return routes.includes(hash as Route) ? (hash as Route) : "today";
+}
 
 export default function App() {
   const syncStatus = useSyncStatus();
   useEffect(startSync, []);
   const profileData = useLiveQuery(() => db.profiles.get("learner"), [], null);
   const profile = profileData ?? defaultProfile;
-  const [route, setRoute] = useState<Route>(location.hash === "#companion" ? "mascot" : location.hash === "#hsk" ? "hsk" : "today"),
+  const [route, setRoute] = useState<Route>(routeFromHash),
     [hskFocus, setHskFocus] = useState(false),
     [speakScenario, setSpeakScenario] = useState<string | undefined>(undefined),
-    [lesson, setLesson] = useState<{ id: string; mode: LessonMode } | null>(null),
+    [lesson, setLesson] = useState<{ id: string; mode: LessonMode } | null>(
+      null,
+    ),
     [reading, setReading] = useState<string | null>(null),
     [more, setMore] = useState(false),
     [online, setOnline] = useState(navigator.onLine),
     [storageError, setStorageError] = useState("");
   useEffect(() => {
-    const sync = () => { if (["#companion", "#hsk"].includes(location.hash)) { setLesson(null); setReading(null); setRoute(location.hash === "#hsk" ? "hsk" : "mascot"); } else setRoute((r) => r === "mascot" || r === "hsk" ? "today" : r); };
+    const sync = () => {
+      if (location.hash === "#main") return;
+      setLesson(null);
+      setReading(null);
+      setRoute(routeFromHash());
+    };
     window.addEventListener("hashchange", sync);
     return () => window.removeEventListener("hashchange", sync);
   }, []);
@@ -115,7 +151,8 @@ export default function App() {
     );
   }, []);
   useEffect(() => {
-    document.documentElement.dataset.tones = profile.toneColors === false ? "off" : "on";
+    document.documentElement.dataset.tones =
+      profile.toneColors === false ? "off" : "on";
   }, [profile.toneColors]);
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -125,13 +162,13 @@ export default function App() {
     setReading(null);
     setMore(false);
     setRoute(r);
-    if (r === "mascot") location.hash = "companion";
-    else if (r === "hsk") location.hash = "hsk";
-    else if (["#companion", "#hsk"].includes(location.hash)) history.replaceState(null, "", location.pathname + location.search);
+    location.hash = r === "mascot" ? "companion" : r === "learn" ? "listen" : r;
   };
-  const openLesson = (id: string, mode: LessonMode = "lesson") => setLesson({ id, mode });
+  const openLesson = (id: string, mode: LessonMode = "lesson") =>
+    setLesson({ id, mode });
   if (syncStatus.phase === "consent") return <SyncConsent />;
-  if (route === "mascot") return <MascotGallery onBack={() => navigate("today")} />;
+  if (route === "mascot")
+    return <MascotGallery onBack={() => navigate("today")} />;
   if (storageError)
     return (
       <main className="recovery">
@@ -182,15 +219,36 @@ export default function App() {
       />
     );
   if (reading)
-    return <Reader readingId={reading} profile={profile} onExit={() => setReading(null)} />;
+    return (
+      <Reader
+        readingId={reading}
+        profile={profile}
+        onExit={() => setReading(null)}
+      />
+    );
   const current = nav.find((n) => n.id === route);
   return (
-    <div className={`app-shell${route === "hsk" && hskFocus ? " hsk-focused" : ""}`}>
-      <a className="skip-link" href="#main">
+    <div
+      className={`app-shell${route === "hsk" && hskFocus ? " hsk-focused" : ""}`}
+    >
+      <a
+        className="skip-link"
+        href="#main"
+        onClick={(e) => {
+          e.preventDefault();
+          const main = document.getElementById("main");
+          main?.focus();
+          main?.scrollIntoView();
+        }}
+      >
         Skip to content
       </a>
       <header className="masthead">
-        <button className="brand" onClick={() => navigate("today")} aria-label={`${brand.name}, today`}>
+        <button
+          className="brand"
+          onClick={() => navigate("today")}
+          aria-label={`${brand.name}, today`}
+        >
           <BrandMark size={34} />
           <Wordmark className="brand-word" />
         </button>
@@ -207,7 +265,11 @@ export default function App() {
           ))}
         </nav>
         <div className="masthead-tools">
-          {!online && <span className="offline-note">Offline · local learning available</span>}
+          {!online && (
+            <span className="offline-note">
+              Offline · local learning available
+            </span>
+          )}
           <button
             className={`icon-button ${route === "dictionary" ? "active" : ""}`}
             aria-label="Dictionary"
@@ -224,8 +286,15 @@ export default function App() {
           </button>
         </div>
       </header>
-      <main id="main" className="main-content">
-        <Suspense fallback={<div className="loading-state"><Mascot state="think" size={100} />Opening…</div>}>
+      <main id="main" className="main-content" tabIndex={-1}>
+        <Suspense
+          fallback={
+            <div className="loading-state">
+              <Mascot state="think" size={100} />
+              Opening…
+            </div>
+          }
+        >
           {route === "today" && (
             <Today
               profile={profile}
@@ -235,7 +304,11 @@ export default function App() {
             />
           )}
           {route === "read" && (
-            <ReadHome profile={profile} onLesson={(id, mode) => openLesson(id, mode ?? "lesson")} onReading={setReading} />
+            <ReadHome
+              profile={profile}
+              onLesson={(id, mode) => openLesson(id, mode ?? "lesson")}
+              onReading={setReading}
+            />
           )}
           {route === "learn" && (
             <Learn
@@ -248,15 +321,31 @@ export default function App() {
             />
           )}
           {route === "practice" && (
-            <Practice profile={profile} onLesson={openLesson} onReview={() => navigate("review")} />
+            <Practice
+              profile={profile}
+              onLesson={openLesson}
+              onReview={() => navigate("review")}
+            />
           )}
-          {route === "speak" && <Conversation key={speakScenario ?? "default"} profile={profile} initialScenario={speakScenario} />}
+          {route === "speak" && (
+            <Conversation
+              key={speakScenario ?? "default"}
+              profile={profile}
+              initialScenario={speakScenario}
+            />
+          )}
           {route === "media" && <MediaLab profile={profile} />}
-          {route === "hsk" && <Hsk onLesson={openLesson} onFocus={setHskFocus} />}
+          {route === "hsk" && (
+            <Hsk onLesson={openLesson} onFocus={setHskFocus} />
+          )}
           {route === "progress" && <Progress onLesson={openLesson} />}
           {route === "dictionary" && <Dictionary profile={profile} />}
-          {route === "settings" && <Settings profile={profile} onMascot={() => navigate("mascot")} />}
-          {route === "review" && <Review profile={profile} onLearn={() => navigate("read")} />}
+          {route === "settings" && (
+            <Settings profile={profile} onMascot={() => navigate("mascot")} />
+          )}
+          {route === "review" && (
+            <Review profile={profile} onLearn={() => navigate("read")} />
+          )}
         </Suspense>
       </main>
       <nav className="tabbar" aria-label="Main navigation">
@@ -286,7 +375,11 @@ export default function App() {
           <span>More</span>
         </button>
       </nav>
-      <div className={`drawer-scrim ${more ? "open" : ""}`} onClick={() => setMore(false)} aria-hidden={!more}>
+      <div
+        className={`drawer-scrim ${more ? "open" : ""}`}
+        onClick={() => setMore(false)}
+        aria-hidden={!more}
+      >
         <div
           className="drawer"
           role="dialog"
@@ -306,8 +399,14 @@ export default function App() {
               ["settings", "Settings", "设置"],
             ] as [Route, string, string][]
           ).map(([id, label, zh]) => (
-            <button key={id} tabIndex={more ? 0 : -1} onClick={() => navigate(id)}>
-              <span lang="zh-CN" aria-hidden>{zh}</span>
+            <button
+              key={id}
+              tabIndex={more ? 0 : -1}
+              onClick={() => navigate(id)}
+            >
+              <span lang="zh-CN" aria-hidden>
+                {zh}
+              </span>
               {label}
             </button>
           ))}
@@ -325,7 +424,13 @@ const goalsList = [
   "Travel & everyday life",
   "Work & ideas",
 ];
-const paths: { id: LearningPath; title: string; zh: string; body: string; sample: string }[] = [
+const paths: {
+  id: LearningPath;
+  title: string;
+  zh: string;
+  body: string;
+  sample: string;
+}[] = [
   {
     id: "characters",
     title: "Characters first",
@@ -348,11 +453,20 @@ const paths: { id: LearningPath; title: string; zh: string; body: string; sample
     sample: "nǐ hǎo",
   },
 ];
-function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profile) => Promise<void> }) {
+function Onboarding({
+  base,
+  onComplete,
+}: {
+  base: Profile;
+  onComplete: (p: Profile) => Promise<void>;
+}) {
   const [stage, setStage] = useState(0),
     [name, setName] = useState(base.name),
     [minutes, setMinutes] = useState(30),
-    [goals, setGoals] = useState(["Reading", ...defaultProfile.goals.slice(0, 2)]),
+    [goals, setGoals] = useState([
+      "Reading",
+      ...defaultProfile.goals.slice(0, 2),
+    ]),
     [path, setPath] = useState<LearningPath>("characters"),
     [quiet, setQuiet] = useState(false),
     [busy, setBusy] = useState(false),
@@ -371,7 +485,9 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
         onboarded: true,
       });
     } catch {
-      setError("Your preferences could not be saved. Check browser storage and try again.");
+      setError(
+        "Your preferences could not be saved. Check browser storage and try again.",
+      );
       setBusy(false);
     }
   }
@@ -397,12 +513,13 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
           {stage === 0 && (
             <>
               <p className="lede">
-                Characters you can read. Speech you can follow. Replies that come
-                without translating in your head.
+                Characters you can read. Speech you can follow. Replies that
+                come without translating in your head.
               </p>
               <label className="field">
                 <span>
-                  What should we call you? <span className="muted">Optional</span>
+                  What should we call you?{" "}
+                  <span className="muted">Optional</span>
                 </span>
                 <input
                   value={name}
@@ -420,7 +537,9 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
                     aria-pressed={goals.includes(g)}
                     key={g}
                     onClick={() =>
-                      setGoals((v) => (v.includes(g) ? v.filter((x) => x !== g) : [...v, g]))
+                      setGoals((v) =>
+                        v.includes(g) ? v.filter((x) => x !== g) : [...v, g],
+                      )
                     }
                   >
                     {goals.includes(g) && <Check size={14} weight="bold" />}
@@ -439,10 +558,14 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
           {stage === 1 && (
             <>
               <p className="lede">
-                You can change this any time. Every path ends up in the same place:
-                reading, listening and speaking.
+                You can change this any time. Every path ends up in the same
+                place: reading, listening and speaking.
               </p>
-              <div className="path-picker" role="radiogroup" aria-label="Learning path">
+              <div
+                className="path-picker"
+                role="radiogroup"
+                aria-label="Learning path"
+              >
                 {paths.map((p) => (
                   <button
                     key={p.id}
@@ -451,7 +574,10 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
                     className={path === p.id ? "on" : ""}
                     onClick={() => setPath(p.id)}
                   >
-                    <span className="path-sample" lang={p.id === "sound" ? "zh-Latn-pinyin" : "zh-CN"}>
+                    <span
+                      className="path-sample"
+                      lang={p.id === "sound" ? "zh-Latn-pinyin" : "zh-CN"}
+                    >
                       {p.sample}
                     </span>
                     <span className="path-copy">
@@ -479,16 +605,26 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
               <fieldset className="duration-picker">
                 <legend>Minutes a day</legend>
                 {[10, 20, 30, 45, 60].map((n) => (
-                  <button key={n} aria-pressed={minutes === n} onClick={() => setMinutes(n)}>
+                  <button
+                    key={n}
+                    aria-pressed={minutes === n}
+                    onClick={() => setMinutes(n)}
+                  >
                     {n}
                   </button>
                 ))}
               </fieldset>
               <label className="check-field">
-                <input type="checkbox" checked={quiet} onChange={(e) => setQuiet(e.target.checked)} />
+                <input
+                  type="checkbox"
+                  checked={quiet}
+                  onChange={(e) => setQuiet(e.target.checked)}
+                />
                 <span>
                   Start in quiet mode
-                  <small>Text alternatives to speaking. Change this any time.</small>
+                  <small>
+                    Text alternatives to speaking. Change this any time.
+                  </small>
                 </span>
               </label>
               <p className="privacy-note">
@@ -499,7 +635,11 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
                 <button className="text-button" onClick={() => setStage(1)}>
                   <ArrowLeft size={17} /> Back
                 </button>
-                <button className="button" disabled={busy} onClick={() => void finish()}>
+                <button
+                  className="button"
+                  disabled={busy}
+                  onClick={() => void finish()}
+                >
                   {busy
                     ? "Preparing…"
                     : path === "sound"
@@ -517,9 +657,28 @@ function Onboarding({ base, onComplete }: { base: Profile; onComplete: (p: Profi
           )}
         </section>
         <aside className="onboarding-specimen">
-          <Mascot state={stage === 0 ? "welcome" : stage === 1 ? path === "sound" ? "listen" : "read" : "encourage"} size={360} />
-          <p className="mascot-caption">{stage === 0 ? "A little Mandarin, together." : stage === 1 ? "We’ll find your way into the language." : "Small steps. Plenty of room to grow."}</p>
-          <a className="text-button" href="#companion">Meet Sayo</a>
+          <Mascot
+            state={
+              stage === 0
+                ? "welcome"
+                : stage === 1
+                  ? path === "sound"
+                    ? "listen"
+                    : "read"
+                  : "encourage"
+            }
+            size={360}
+          />
+          <p className="mascot-caption">
+            {stage === 0
+              ? "A little Mandarin, together."
+              : stage === 1
+                ? "We’ll find your way into the language."
+                : "Small steps. Plenty of room to grow."}
+          </p>
+          <a className="text-button" href="#companion">
+            Meet Sayo
+          </a>
         </aside>
       </div>
     </main>
@@ -537,7 +696,13 @@ function chineseDate(date: Date) {
 }
 function greeting(date: Date) {
   const h = date.getHours();
-  return h < 5 ? "Still up" : h < 12 ? "Good morning" : h < 18 ? "Good afternoon" : "Good evening";
+  return h < 5
+    ? "Still up"
+    : h < 12
+      ? "Good morning"
+      : h < 18
+        ? "Good afternoon"
+        : "Good evening";
 }
 
 function Today({
@@ -559,35 +724,83 @@ function Today({
   const path = pathOf(profile);
   const complete = new Set(
     sessions
-      .filter((s) => (s.kind === "lesson" || s.kind === "assessment") && !s.lessonId.startsWith("listening:"))
+      .filter(
+        (s) =>
+          (s.kind === "lesson" || s.kind === "assessment") &&
+          !s.lessonId.startsWith("listening:"),
+      )
       .map((s) => s.lessonId),
   );
-  const nextSpeak = lessons.find((l) => !complete.has(l.id)) ?? lessons[0];
-  const nextRead = readingLessons.find((l) => !complete.has(l.id)) ?? readingLessons[0];
+  // The speaking course: the base lessons, then the HSK units in order.
+  const course = [...lessons, ...packLessons];
+  const nextSpeak = course.find((l) => !complete.has(l.id)) ?? lessons[0];
+  const nextRead =
+    readingLessons.find((l) => !complete.has(l.id)) ?? readingLessons[0];
   const nextText =
-    readings.find((r) => !complete.has(`read:${r.id}`) && coverage(r, known).pct >= 50) ??
+    readings.find(
+      (r) => !complete.has(`read:${r.id}`) && coverage(r, known).pct >= 50,
+    ) ??
     readings.find((r) => !complete.has(`read:${r.id}`)) ??
     readings[0];
   const due = memories.filter(
-    (m) => m.due <= Date.now() && !["conversation", "speaking", "recall", "media"].includes(m.modality),
+    (m) =>
+      m.due <= Date.now() &&
+      !["conversation", "speaking", "recall", "media"].includes(m.modality),
   ).length;
   const plan = dailyPlan(profile.minutes, attempts, due, path);
   const { level, finished } = levelOf(sessions);
   const { days: streak, studiedToday } = streakOf(sessions, attempts);
   const now = new Date();
-  const date = now.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+  const date = now.toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+  });
   const readFirst = path !== "sound";
   const featured =
-    charByHanzi[(nextRead.phrases.find((p) => status[p.slice(2)] === "new") ?? nextRead.phrases[0]).slice(2)];
+    charByHanzi[
+      (
+        nextRead.phrases.find((p) => status[p.slice(2)] === "new") ??
+        nextRead.phrases[0]
+      ).slice(2)
+    ];
   const go = (item: PlanItem) => {
     if (item.route === "review") onNavigate("review");
     else if (item.route === "speak") onNavigate("speak");
     else if (item.route === "characters") onLesson(nextRead.id);
     else if (item.route === "reading") onReading(nextText.id);
-    else onLesson(nextSpeak.id, item.route === "listening" ? "listening" : "lesson");
+    else
+      onLesson(
+        nextSpeak.id,
+        item.route === "listening" ? "listening" : "lesson",
+      );
   };
-  const recognised = Object.values(status).filter((s) => s === "recognised" || s === "secure").length;
+  const recognised = Object.values(status).filter(
+    (s) => s === "recognised" || s === "secure",
+  ).length;
   const textCover = coverage(nextText, known);
+  const syncState = useLiveQuery(() => db.syncState.get("local"));
+  const [backupNote, setBackupNote] = useState("");
+  const showBackup = backupDue({
+    now: Date.now(),
+    firstStudyAt: sessions.length
+      ? Math.min(...sessions.map((s) => s.completedAt))
+      : undefined,
+    lastBackupAt: profile.lastBackupAt,
+    snoozedAt: profile.backupSnoozedAt,
+    lastSyncAt: syncState?.enabled ? syncState.lastSync : undefined,
+  });
+  async function backupNow() {
+    try {
+      await downloadBackup();
+      await db.profiles.put({ ...profile, lastBackupAt: Date.now() });
+      setBackupNote(
+        "Backup saved. Keep the file somewhere safe, like a cloud drive.",
+      );
+    } catch {
+      setBackupNote("The backup couldn’t be created. Try again from Settings.");
+    }
+  }
   return (
     <div className="today">
       <header className="today-head">
@@ -634,12 +847,18 @@ function Today({
           <p className="eyebrow">
             {readFirst
               ? `Characters · lesson ${readingLessons.indexOf(nextRead) + 1} of ${readingLessons.length}`
-              : `${nextSpeak.unit} · lesson ${lessons.indexOf(nextSpeak) + 1}`}
+              : `${nextSpeak.unit} · lesson ${course.indexOf(nextSpeak) + 1}`}
           </p>
-          <h2 id="lead-title">{readFirst ? nextRead.title : nextSpeak.title}</h2>
+          <h2 id="lead-title">
+            {readFirst ? nextRead.title : nextSpeak.title}
+          </h2>
           <p>{readFirst ? nextRead.description : nextSpeak.description}</p>
           {readFirst && (
-            <p className="lead-chars" lang="zh-CN" aria-label="Characters in this lesson">
+            <p
+              className="lead-chars"
+              lang="zh-CN"
+              aria-label="Characters in this lesson"
+            >
               {nextRead.phrases.map((p) => (
                 <span key={p} className={`s-${status[p.slice(2)]}`}>
                   {p.slice(2)}
@@ -650,12 +869,18 @@ function Today({
           <div className="lead-actions">
             <button
               className="button"
-              onClick={() => (readFirst ? onLesson(nextRead.id) : onLesson(nextSpeak.id))}
+              onClick={() =>
+                readFirst ? onLesson(nextRead.id) : onLesson(nextSpeak.id)
+              }
             >
               Continue <Arrow />
             </button>
             <AudioButton
-              text={readFirst ? featured.say : phraseById[nextSpeak.phrases[0]].audio.text}
+              text={
+                readFirst
+                  ? featured.say
+                  : phraseById[nextSpeak.phrases[0]].audio.text
+              }
               voiceURI={profile.voiceURI}
               label="Hear it"
             />
@@ -663,18 +888,58 @@ function Today({
         </div>
       </section>
 
+      {(showBackup || backupNote) && (
+        <aside className="backup-nudge" role="status">
+          {backupNote ? (
+            <p>{backupNote}</p>
+          ) : (
+            <>
+              <p>
+                <strong>Back up your progress.</strong> It lives only in this
+                browser until sync is on; clearing site data would erase it.
+              </p>
+              <div className="backup-actions">
+                <button
+                  className="button secondary"
+                  onClick={() => void backupNow()}
+                >
+                  <DownloadSimple size={18} /> Export backup
+                </button>
+                <button
+                  className="text-button"
+                  onClick={() =>
+                    void db.profiles.put({
+                      ...profile,
+                      backupSnoozedAt: Date.now(),
+                    })
+                  }
+                >
+                  Later
+                </button>
+              </div>
+            </>
+          )}
+        </aside>
+      )}
+
       <div className="today-columns">
         <section className="plan" aria-labelledby="plan-title">
           <div className="section-head">
             <h2 id="plan-title">Today’s session</h2>
-            <div className="minutes-picker" role="radiogroup" aria-label="Minutes today">
+            <div
+              className="minutes-picker"
+              role="radiogroup"
+              aria-label="Minutes today"
+            >
               {[10, 20, 30, 45, 60].map((n) => (
                 <button
                   key={n}
                   role="radio"
                   aria-checked={profile.minutes === n}
                   className="tabular"
-                  onClick={() => void db.profiles.put({ ...profile, minutes: n })}
+                  onClick={() =>
+                    void db.profiles.put({ ...profile, minutes: n })
+                  }
                 >
                   {n}
                 </button>
@@ -709,7 +974,10 @@ function Today({
               All readings <ArrowUpRight size={16} />
             </button>
           </div>
-          <button className="text-teaser" onClick={() => onReading(nextText.id)}>
+          <button
+            className="text-teaser"
+            onClick={() => onReading(nextText.id)}
+          >
             <span className="teaser-title" lang="zh-CN">
               {nextText.titleZh}
             </span>
@@ -721,7 +989,8 @@ function Today({
               ))}
             </span>
             <span className="teaser-meta">
-              {nextText.title} · you recognise {textCover.known} of {textCover.total} characters
+              {nextText.title} · you recognise {textCover.known} of{" "}
+              {textCover.total} characters
             </span>
           </button>
           <dl className="today-facts">
@@ -751,7 +1020,11 @@ function Today({
                 <dd>
                   <span className="tabular">{streak}</span>
                   <span className="muted">
-                    {studiedToday ? " · today counts" : streak ? " · study today to keep it" : " · start today"}
+                    {studiedToday
+                      ? " · today counts"
+                      : streak
+                        ? " · study today to keep it"
+                        : " · start today"}
                   </span>
                 </dd>
               </div>
@@ -760,7 +1033,10 @@ function Today({
               <dt>Review</dt>
               <dd>
                 {due ? (
-                  <button className="text-button" onClick={() => onNavigate("review")}>
+                  <button
+                    className="text-button"
+                    onClick={() => onNavigate("review")}
+                  >
                     {due} ready now <Arrow />
                   </button>
                 ) : (
@@ -771,7 +1047,8 @@ function Today({
             <div>
               <dt>Characters</dt>
               <dd>
-                <span className="tabular">{recognised}</span> of {characters.length} recognised without help
+                <span className="tabular">{recognised}</span> of{" "}
+                {characters.length} recognised without help
               </dd>
             </div>
           </dl>
@@ -793,8 +1070,18 @@ function Learn({
   const sessions = useLiveQuery(() => db.sessions.toArray()) ?? [],
     done = new Set(sessions.map((s) => s.lessonId));
   const groups = [
-    { id: "foundation", title: "First conversations", subtitle: "Hello, your name, yes and no, numbers and friends.", match: (u: string) => u === "Sound & survival" },
-    { id: "everyday", title: "Everyday moments", subtitle: "Cafés, plans, directions, hobbies and your day.", match: (u: string) => u !== "Sound & survival" },
+    {
+      id: "foundation",
+      title: "First conversations",
+      subtitle: "Hello, your name, yes and no, numbers and friends.",
+      match: (u: string) => u === "Sound & survival",
+    },
+    {
+      id: "everyday",
+      title: "Everyday moments",
+      subtitle: "Cafés, plans, directions, hobbies and your day.",
+      match: (u: string) => u !== "Sound & survival",
+    },
   ];
   const units: PathUnit[] = groups.map((g, gi) => ({
     id: g.id,
@@ -807,7 +1094,9 @@ function Learn({
         const sample = phraseById[l.phrases[0]].hanzi;
         return {
           id: l.id,
-          face: <span lang="zh-CN">{Array.from(sample).slice(0, 2).join("")}</span>,
+          face: (
+            <span lang="zh-CN">{Array.from(sample).slice(0, 2).join("")}</span>
+          ),
           title: l.title,
           detail: `${phraseById[l.phrases[0]].pinyin} · ${l.minutes} min`,
           status: done.has(l.id) ? "done" : "open",
@@ -821,7 +1110,11 @@ function Learn({
       id: l.id,
       face:
         l.packPart === "words" ? (
-          <span lang="zh-CN">{Array.from(phraseById[l.phrases[0]]?.hanzi ?? "词").slice(0, 2).join("")}</span>
+          <span lang="zh-CN">
+            {Array.from(phraseById[l.phrases[0]]?.hanzi ?? "词")
+              .slice(0, 2)
+              .join("")}
+          </span>
         ) : (
           stoneIcon.check
         ),
@@ -835,7 +1128,9 @@ function Learn({
       nodes.push({
         id: `read:${t.id}`,
         face: stoneIcon.read,
-        title: t.id.endsWith("-d") ? `Dialogue: ${t.title}` : `Read: ${t.title}`,
+        title: t.id.endsWith("-d")
+          ? `Dialogue: ${t.title}`
+          : `Read: ${t.title}`,
         detail: t.titleZh,
         status: done.has(`read:${t.id}`) ? "done" : "open",
         kind: "read",
@@ -860,7 +1155,9 @@ function Learn({
       nodes,
     });
   }
-  const firstOpen = units.flatMap((u) => u.nodes).find((n) => n.status !== "done");
+  const firstOpen = units
+    .flatMap((u) => u.nodes)
+    .find((n) => n.status !== "done");
   if (firstOpen) firstOpen.status = "next";
   return (
     <div className="listen-page">
@@ -883,7 +1180,11 @@ function Learn({
   );
 }
 
-function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => void }) {
+function Progress({
+  onLesson,
+}: {
+  onLesson: (id: string, mode: "assessment") => void;
+}) {
   const attempts = useLiveQuery(() => db.attempts.toArray()) ?? [],
     sessions = useLiveQuery(() => db.sessions.toArray()) ?? [],
     mistakes = useLiveQuery(() => db.mistakes.toArray()) ?? [];
@@ -893,7 +1194,11 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
     ["reading", "Reading", "Characters and words understood without pinyin"],
     ["listening", "Listening", "Meaning recognised from audio alone"],
     ["typing", "Typing & structure", "Phrases assembled or typed"],
-    ["conversation", "Conversation rehearsal", "Limited scripted patterns, typed responses"],
+    [
+      "conversation",
+      "Conversation rehearsal",
+      "Limited scripted patterns, typed responses",
+    ],
     ["media", "Media listening", "Gist and detail in the original scene"],
     ["speaking", "Speaking", "Practice attempts; no automatic scoring"],
   ];
@@ -904,11 +1209,18 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
       <header className="page-head">
         <p className="eyebrow">Progress</p>
         <h1>What’s becoming possible.</h1>
-        <p className="lede">Evidence, one skill at a time. No single fluency score.</p>
+        <p className="lede">
+          Evidence, one skill at a time. No single fluency score.
+        </p>
       </header>
       <div className="tabs" role="tablist" aria-label="Progress sections">
         {["Capabilities", "Mistakes", "HSK alignment"].map((s) => (
-          <button key={s} role="tab" aria-selected={section === s} onClick={() => setSection(s)}>
+          <button
+            key={s}
+            role="tab"
+            aria-selected={section === s}
+            onClick={() => setSection(s)}
+          >
             {s}
           </button>
         ))}
@@ -923,14 +1235,30 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
           <section className="char-meter" aria-label="Character recognition">
             <div className="meter" aria-hidden>
               {(["secure", "recognised", "met", "new"] as const).map((k) => (
-                <i key={k} className={`s-${k}`} style={{ flexGrow: counts[k] }} />
+                <i
+                  key={k}
+                  className={`s-${k}`}
+                  style={{ flexGrow: counts[k] }}
+                />
               ))}
             </div>
             <dl>
-              <div><dt>Secure</dt><dd className="tabular">{counts.secure}</dd></div>
-              <div><dt>Recognised</dt><dd className="tabular">{counts.recognised}</dd></div>
-              <div><dt>Met</dt><dd className="tabular">{counts.met}</dd></div>
-              <div><dt>Not met</dt><dd className="tabular">{counts.new}</dd></div>
+              <div>
+                <dt>Secure</dt>
+                <dd className="tabular">{counts.secure}</dd>
+              </div>
+              <div>
+                <dt>Recognised</dt>
+                <dd className="tabular">{counts.recognised}</dd>
+              </div>
+              <div>
+                <dt>Met</dt>
+                <dd className="tabular">{counts.met}</dd>
+              </div>
+              <div>
+                <dt>Not met</dt>
+                <dd className="tabular">{counts.new}</dd>
+              </div>
             </dl>
           </section>
           <table className="capability-table">
@@ -952,7 +1280,8 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
                     <td>
                       {id === "speaking" ? (
                         <strong className="tabular">
-                          {attempts.filter((a) => a.modality === id).length} attempts
+                          {attempts.filter((a) => a.modality === id).length}{" "}
+                          attempts
                         </strong>
                       ) : e.count ? (
                         <>
@@ -978,14 +1307,19 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
                 product exercise with familiar material, not an official rating.
               </p>
             </div>
-            <button className="button secondary" onClick={() => onLesson("first", "assessment")}>
+            <button
+              className="button secondary"
+              onClick={() => onLesson("first", "assessment")}
+            >
               Try the checkpoint <Arrow />
             </button>
           </section>
         </>
       ) : section === "Mistakes" ? (
         <>
-          <p className="muted">A place to notice, not a list to be perfect at.</p>
+          <p className="muted">
+            A place to notice, not a list to be perfect at.
+          </p>
           {mistakes.length ? (
             <ul className="mistake-list">
               {mistakes
@@ -997,20 +1331,26 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
                     </span>
                     <div>
                       <strong>
-                        {m.modality} · missed {m.count} {m.count === 1 ? "time" : "times"}
+                        {m.modality} · missed {m.count}{" "}
+                        {m.count === 1 ? "time" : "times"}
                       </strong>
                       <p>
                         You chose “{m.answer}”. Expected “{m.expected}”.
                       </p>
                     </div>
-                    <AudioButton text={phraseById[m.phraseId]?.audio.text ?? ""} />
+                    <AudioButton
+                      text={phraseById[m.phraseId]?.audio.text ?? ""}
+                    />
                   </li>
                 ))}
             </ul>
           ) : (
             <div className="empty-state">
               <h2>Nothing here yet.</h2>
-              <p>When an exercise reveals a gap, it is saved here and used in review.</p>
+              <p>
+                When an exercise reveals a gap, it is saved here and used in
+                review.
+              </p>
             </div>
           )}
         </>
@@ -1034,7 +1374,9 @@ function Progress({ onLesson }: { onLesson: (id: string, mode: "assessment") => 
             {Array.from({ length: 9 }, (_, i) => (
               <li key={i}>
                 <span className="tabular">{i + 1}</span>
-                <strong>{i < 3 ? "Elementary" : i < 6 ? "Intermediate" : "Advanced"}</strong>
+                <strong>
+                  {i < 3 ? "Elementary" : i < 6 ? "Intermediate" : "Advanced"}
+                </strong>
                 <small>Mapping pending</small>
               </li>
             ))}
@@ -1051,7 +1393,10 @@ function Dictionary({ profile }: { profile: Profile }) {
   const [query, setQuery] = useState(""),
     [selected, setSelected] = useState<string | null>(null);
   const q = searchNormalize(query);
-  const items = [...characters, ...phrases.filter((p) => p.topic !== "sounds" || !charByHanzi[p.hanzi])];
+  const items = [
+    ...characters,
+    ...phrases.filter((p) => p.topic !== "sounds" || !charByHanzi[p.hanzi]),
+  ];
   const filtered = items.filter((p) =>
     searchNormalize([p.hanzi, p.pinyin, p.meaning].join(" ")).includes(q),
   );
@@ -1072,17 +1417,33 @@ function Dictionary({ profile }: { profile: Profile }) {
           placeholder="Try 你好, ni hao, or hello…"
         />
         {query && (
-          <button className="icon-button" aria-label="Clear search" onClick={() => setQuery("")}>
+          <button
+            className="icon-button"
+            aria-label="Clear search"
+            onClick={() => setQuery("")}
+          >
             <X size={18} />
           </button>
         )}
       </label>
-      {speech.error && <p className="inline-error" role="alert">{speech.error}</p>}
+      {speech.error && (
+        <p className="inline-error" role="alert">
+          {speech.error}
+        </p>
+      )}
       <div className={`dictionary-layout ${pick ? "has-detail" : ""}`}>
         <ul className="word-list">
           {filtered.map((p) => (
             <li key={p.id}>
-              <button className={selected === p.id ? "selected" : ""} onClick={() => { setSelected(p.id); speech.speak(charByHanzi[p.hanzi]?.say ?? p.audio.text ?? p.hanzi); }}>
+              <button
+                className={selected === p.id ? "selected" : ""}
+                onClick={() => {
+                  setSelected(p.id);
+                  speech.speak(
+                    charByHanzi[p.hanzi]?.say ?? p.audio.text ?? p.hanzi,
+                  );
+                }}
+              >
                 <span className="wl-zh" lang="zh-CN">
                   {p.hanzi}
                 </span>
@@ -1111,7 +1472,11 @@ function Dictionary({ profile }: { profile: Profile }) {
             ) : (
               <>
                 <PhraseText phrase={pick} />
-                <AudioButton text={pick.audio.text || pick.hanzi} voiceURI={profile.voiceURI} label="Hear it" />
+                <AudioButton
+                  text={pick.audio.text || pick.hanzi}
+                  voiceURI={profile.voiceURI}
+                  label="Hear it"
+                />
                 <h3>In real life</h3>
                 <p>{pick.usage}</p>
                 <dl className="detail-facts">
@@ -1123,7 +1488,14 @@ function Dictionary({ profile }: { profile: Profile }) {
                   <dd lang="zh-CN" className="detail-chars">
                     {Array.from(pick.hanzi).map((c, i) =>
                       charByHanzi[c] ? (
-                        <button key={i} className="text-button" onClick={() => { setSelected(`c:${c}`); speech.speak(characterSpeech(c)); }}>
+                        <button
+                          key={i}
+                          className="text-button"
+                          onClick={() => {
+                            setSelected(`c:${c}`);
+                            speech.speak(characterSpeech(c));
+                          }}
+                        >
                           {c}
                         </button>
                       ) : (
@@ -1134,7 +1506,9 @@ function Dictionary({ profile }: { profile: Profile }) {
                 </dl>
               </>
             )}
-            <p className="small">Original draft · awaiting native educator review.</p>
+            <p className="small">
+              Original draft · awaiting native educator review.
+            </p>
           </aside>
         )}
       </div>
@@ -1142,7 +1516,13 @@ function Dictionary({ profile }: { profile: Profile }) {
   );
 }
 
-function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => void }) {
+function Settings({
+  profile,
+  onMascot,
+}: {
+  profile: Profile;
+  onMascot: () => void;
+}) {
   const [message, setMessage] = useState(""),
     [error, setError] = useState(""),
     [voices, setVoices] = useState(mandarinVoices()),
@@ -1151,7 +1531,8 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
   useEffect(() => {
     const load = () => setVoices(mandarinVoices());
     globalThis.speechSynthesis?.addEventListener("voiceschanged", load);
-    return () => globalThis.speechSynthesis?.removeEventListener("voiceschanged", load);
+    return () =>
+      globalThis.speechSynthesis?.removeEventListener("voiceschanged", load);
   }, []);
   useEffect(() => {
     if (!message) return;
@@ -1169,13 +1550,8 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
   }
   async function backup() {
     try {
-      const record = await exportRecord(),
-        url = URL.createObjectURL(new Blob([JSON.stringify(record, null, 2)], { type: "application/json" }));
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `tingjian-backup-${new Date().toISOString().slice(0, 10)}.json`;
-      a.click();
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
+      await downloadBackup();
+      await db.profiles.put({ ...profile, lastBackupAt: Date.now() });
       setMessage("Your backup is ready. Keep it somewhere safe.");
     } catch {
       setError("The backup could not be created. Please try again.");
@@ -1184,9 +1560,12 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
   async function restore() {
     if (!restoreFile) return;
     try {
-      if (restoreFile.size > 20000000) throw new Error("Choose a backup smaller than 20 MB.");
+      if (restoreFile.size > 20000000)
+        throw new Error("Choose a backup smaller than 20 MB.");
       await importRecord(JSON.parse(await restoreFile.text()));
-      setMessage("Backup restored. Matching records were updated; other records were kept.");
+      setMessage(
+        "Backup restored. Matching records were updated; other records were kept.",
+      );
       setRestoreFile(null);
     } catch (e) {
       setError((e as Error).message);
@@ -1202,29 +1581,64 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
         <section>
           <h2>Learning</h2>
           <label className="check-field">
-            <input type="checkbox" checked={profile.mascotEnabled !== false} onChange={(e) => void update({ mascotEnabled: e.target.checked })} />
-            <span>Show Sayo<small>A companion for learning, practice, and feedback.</small></span>
+            <input
+              type="checkbox"
+              checked={profile.mascotEnabled !== false}
+              onChange={(e) => void update({ mascotEnabled: e.target.checked })}
+            />
+            <span>
+              Show Sayo
+              <small>A companion for learning, practice, and feedback.</small>
+            </span>
           </label>
           <label className="check-field">
-            <input type="checkbox" checked={profile.mascotMotion !== false} onChange={(e) => void update({ mascotMotion: e.target.checked })} />
-            <span>Animate Sayo<small>Your device’s reduced-motion setting always takes priority.</small></span>
+            <input
+              type="checkbox"
+              checked={profile.mascotMotion !== false}
+              onChange={(e) => void update({ mascotMotion: e.target.checked })}
+            />
+            <span>
+              Animate Sayo
+              <small>
+                Your device’s reduced-motion setting always takes priority.
+              </small>
+            </span>
           </label>
           <label className="check-field">
-            <input type="checkbox" checked={profile.showStreak !== false} onChange={(e) => void update({ showStreak: e.target.checked })} />
-            <span>Show days in a row<small>A gentle count of study days. It never blocks or punishes anything.</small></span>
+            <input
+              type="checkbox"
+              checked={profile.showStreak !== false}
+              onChange={(e) => void update({ showStreak: e.target.checked })}
+            />
+            <span>
+              Show days in a row
+              <small>
+                A gentle count of study days. It never blocks or punishes
+                anything.
+              </small>
+            </span>
           </label>
-          <button className="text-button" onClick={onMascot}>Meet Sayo · her moods and phrases <Arrow /></button>
+          <button className="text-button" onClick={onMascot}>
+            Meet Sayo · her moods and phrases <Arrow />
+          </button>
           <fieldset className="segmented">
             <legend>Where to begin each day</legend>
             {paths.map((p) => (
-              <button key={p.id} aria-pressed={pathOf(profile) === p.id} onClick={() => void update({ path: p.id })}>
+              <button
+                key={p.id}
+                aria-pressed={pathOf(profile) === p.id}
+                onClick={() => void update({ path: p.id })}
+              >
                 {p.title}
               </button>
             ))}
           </fieldset>
           <label className="field">
             Daily time
-            <select value={profile.minutes} onChange={(e) => void update({ minutes: +e.target.value })}>
+            <select
+              value={profile.minutes}
+              onChange={(e) => void update({ minutes: +e.target.value })}
+            >
               {[10, 20, 30, 45, 60].map((n) => (
                 <option key={n} value={n}>
                   {n} minutes
@@ -1233,7 +1647,11 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
             </select>
           </label>
           <label className="check-field">
-            <input type="checkbox" checked={profile.pinyin} onChange={(e) => void update({ pinyin: e.target.checked })} />
+            <input
+              type="checkbox"
+              checked={profile.pinyin}
+              onChange={(e) => void update({ pinyin: e.target.checked })}
+            />
             <span>
               Show pinyin in phrase lessons
               <small>Recognition checks always begin without pinyin.</small>
@@ -1253,15 +1671,25 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
             </span>
           </label>
           <label className="check-field">
-            <input type="checkbox" checked={profile.quiet} onChange={(e) => void update({ quiet: e.target.checked })} />
+            <input
+              type="checkbox"
+              checked={profile.quiet}
+              onChange={(e) => void update({ quiet: e.target.checked })}
+            />
             <span>
               Quiet mode
-              <small>Mute automatic Sayo comments and use text alternatives. Tap-to-hear still works.</small>
+              <small>
+                Mute automatic Sayo comments and use text alternatives.
+                Tap-to-hear still works.
+              </small>
             </span>
           </label>
           <label className="field">
             Sayo’s voice
-            <select value={sayoVoiceURI(profile.voiceURI)} onChange={(e) => void update({ voiceURI: e.target.value })}>
+            <select
+              value={sayoVoiceURI(profile.voiceURI)}
+              onChange={(e) => void update({ voiceURI: e.target.value })}
+            >
               <option value="local:clear">Clear · precise and calm</option>
               <option value="local:cool">Cool · low and unhurried</option>
               <option value="local:playful">Playful · a little smile</option>
@@ -1273,10 +1701,15 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
               ))}
             </select>
           </label>
-          <AudioButton text="你好，很高兴认识你。" voiceURI={profile.voiceURI} label="Preview voice" />
+          <AudioButton
+            text="你好，很高兴认识你。"
+            voiceURI={profile.voiceURI}
+            label="Preview voice"
+          />
           <p className="small">
-            One Sayo voice, three reading styles. Her reactions choose their own mood.
-            Device voices are a fallback; online device voices may send text to your operating system’s speech service.
+            One Sayo voice, three reading styles. Her reactions choose their own
+            mood. Device voices are a fallback; online device voices may send
+            text to your operating system’s speech service.
           </p>
         </section>
         <section>
@@ -1285,8 +1718,8 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
           <SyncPanel />
           <h2>Your data</h2>
           <p>
-            Learning records always stay available in this browser. Cloud sync is
-            optional. Keep an exported backup before clearing browser data.
+            Learning records always stay available in this browser. Cloud sync
+            is optional. Keep an exported backup before clearing browser data.
           </p>
           <button className="button secondary" onClick={() => void backup()}>
             <DownloadSimple size={18} /> Export learning record
@@ -1305,22 +1738,30 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
           {restoreFile && (
             <div className="confirm-box">
               <p>
-                Restore <strong>{restoreFile.name}</strong>? Matching records will be
-                replaced by this backup. Other records stay.
+                Restore <strong>{restoreFile.name}</strong>? Matching records
+                will be replaced by this backup. Other records stay.
               </p>
-              <button className="button secondary" onClick={() => void restore()}>
+              <button
+                className="button secondary"
+                onClick={() => void restore()}
+              >
                 Restore this backup
               </button>
             </div>
           )}
+          <OfflinePanel />
           <h3>Voice privacy</h3>
-          <p>No recording leaves the tab. Recordings are temporary and not included in backups.</p>
+          <p>
+            No recording leaves the tab. Recordings are temporary and not
+            included in backups.
+          </p>
           <h3>Start again</h3>
           {reset ? (
             <div className="confirm-box danger">
               <p>
-                This removes all learning records and preferences from this browser.
-                It also signs you out. Cloud data is not deleted. Export first if you want to keep a local copy.
+                This removes all learning records and preferences from this
+                browser. It also signs you out. Cloud data is not deleted.
+                Export first if you want to keep a local copy.
               </p>
               <button
                 className="button danger"
@@ -1332,7 +1773,9 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
                       for (const table of db.tables) await table.clear();
                     });
                   } catch {
-                    setError("The reset could not be completed. Please try again.");
+                    setError(
+                      "The reset could not be completed. Please try again.",
+                    );
                   }
                 }}
               >
@@ -1348,13 +1791,18 @@ function Settings({ profile, onMascot }: { profile: Profile; onMascot: () => voi
             </button>
           )}
           <p className="small about-note">
-            {brand.name} {brand.zh} · early learning release. Original curriculum drafts. No official
-            certification, validated fluency estimate, or automated pronunciation
-            assessment. Stroke data from Make Me a Hanzi (Arphic Public License).
+            {brand.name} {brand.zh} · early learning release. Original
+            curriculum drafts. No official certification, validated fluency
+            estimate, or automated pronunciation assessment. Stroke data from
+            Make Me a Hanzi (Arphic Public License).
           </p>
         </section>
       </div>
-      <p className={`toast ${message ? "show" : ""}`} role="status" aria-live="polite">
+      <p
+        className={`toast ${message ? "show" : ""}`}
+        role="status"
+        aria-live="polite"
+      >
         {message}
       </p>
       {error && (
@@ -1382,7 +1830,12 @@ function AccountPanel({
         <span className="account-body">
           <strong>{a.name || a.email}</strong>
           <span className="small">
-            Signed in with {a.provider === "email" ? "email" : a.provider === "google" ? "Google" : "Apple"}
+            Signed in with{" "}
+            {a.provider === "email"
+              ? "email"
+              : a.provider === "google"
+                ? "Google"
+                : "Apple"}
             {a.name && a.email ? ` · ${a.email}` : ""}
           </span>
         </span>
@@ -1419,12 +1872,29 @@ function AccountPanel({
       </span>
       {authConfigured && (
         <span className="account-actions">
-          <button className="button secondary" disabled={!oauthConfigured("google")} onClick={() => void signInWith("google").catch((e) => setError((e as Error).message))}>
+          <button
+            className="button secondary"
+            disabled={!oauthConfigured("google")}
+            onClick={() =>
+              void signInWith("google").catch((e) =>
+                setError((e as Error).message),
+              )
+            }
+          >
             Google
           </button>
-          {oauthConfigured("apple") && <button className="button secondary" onClick={() => void signInWith("apple").catch((e) => setError((e as Error).message))}>
-            Apple
-          </button>}
+          {oauthConfigured("apple") && (
+            <button
+              className="button secondary"
+              onClick={() =>
+                void signInWith("apple").catch((e) =>
+                  setError((e as Error).message),
+                )
+              }
+            >
+              Apple
+            </button>
+          )}
         </span>
       )}
       {error && (

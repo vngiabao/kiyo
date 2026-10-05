@@ -109,6 +109,32 @@ export interface Session {
   seconds: number;
   kind: "lesson" | "conversation" | "media" | "assessment";
 }
+/** A subtitle or lyric line the learner saved from the Watch player. */
+export interface SavedLine {
+  id: string;
+  text: string;
+  note: string;
+  /** File name of the video, episode or song. */
+  source: string;
+  /** Seconds into the media. */
+  start: number;
+  at: number;
+}
+/** One Watch session: how much help was needed, honestly counted. */
+export interface WatchLog {
+  id: string;
+  source: string;
+  media: "video" | "audio";
+  rung: "subtitles" | "peek" | "none";
+  /** Seconds actually played. */
+  seconds: number;
+  /** Lines revealed on the peek rung, and characters looked up. */
+  peeks: number;
+  lookups: number;
+  /** Subtitle or lyric lines that played. */
+  lines: number;
+  at: number;
+}
 export interface Account {
   id: string;
   provider: "google" | "apple" | "email";
@@ -138,6 +164,10 @@ export interface Profile {
   /** How the learner came in: an account, or straight in as a guest. */
   entry?: "account" | "guest";
   account?: Account | null;
+  /** Device-only (never synced): when this browser last exported a backup. */
+  lastBackupAt?: number;
+  /** Device-only: "Later" on the backup reminder. */
+  backupSnoozedAt?: number;
 }
 export type LearningPath = "characters" | "sound" | "together";
 export interface Draft {

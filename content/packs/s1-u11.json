@@ -1,0 +1,150 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u11",
+    "stage": 1,
+    "order": 11,
+    "title": "Karaoke night",
+    "titleZh": "去唱歌吧",
+    "canDo": ["Talk about songs you like", "Invite friends to sing together", "Read a lyric line at singing pace"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u10"],
+    "estimatedMinutes": 34
+  },
+  "vocabulary": [
+    { "id": "s1-u11-w-chang", "hanzi": "唱", "pinyin": "chàng", "pos": "verb", "meaning": "to sing", "meaningVi": "hát", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你唱一首吧！", "py": "Nǐ chàng yì shǒu ba!", "en": "Sing one!" } },
+    { "id": "s1-u11-w-ge", "hanzi": "歌", "pinyin": "gē", "pos": "noun", "meaning": "song", "meaningVi": "bài hát", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "这首歌很好听。", "py": "Zhè shǒu gē hěn hǎotīng.", "en": "This song is lovely." } },
+    { "id": "s1-u11-w-changge", "hanzi": "唱歌", "pinyin": "chànggē", "pos": "verb", "meaning": "to sing (songs); to do karaoke", "meaningVi": "hát, đi karaoke", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们去唱歌吧！", "py": "Wǒmen qù chànggē ba!", "en": "Let's go to karaoke!" }, "usageNote": "去唱歌 usually means going to a karaoke place (KTV)." },
+    { "id": "s1-u11-w-haoting", "hanzi": "好听", "pinyin": "hǎotīng", "pos": "adjective", "meaning": "nice to listen to", "meaningVi": "hay (nghe hay)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你的歌很好听！", "py": "Nǐ de gē hěn hǎotīng!", "en": "Your song sounds great!" } },
+    { "id": "s1-u11-w-shou", "hanzi": "首", "pinyin": "shǒu", "pos": "measure word", "meaning": "measure word for songs and poems", "meaningVi": "bài (lượng từ cho bài hát)", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我会唱一首中文歌。", "py": "Wǒ huì chàng yì shǒu Zhōngwén gē.", "en": "I can sing one Chinese song." } },
+    { "id": "s1-u11-w-zui", "hanzi": "最", "pinyin": "zuì", "pos": "adverb", "meaning": "most", "meaningVi": "nhất", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你最喜欢哪首歌？", "py": "Nǐ zuì xǐhuan nǎ shǒu gē?", "en": "Which song do you like best?" } },
+    { "id": "s1-u11-w-geci", "hanzi": "歌词", "pinyin": "gēcí", "pos": "noun", "meaning": "lyrics", "meaningVi": "lời bài hát", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "歌词有点儿快。", "py": "Gēcí yǒudiǎnr kuài.", "en": "The lyrics go a bit fast." } },
+    { "id": "s1-u11-w-zi", "hanzi": "字", "pinyin": "zì", "pos": "noun", "meaning": "character; written word", "meaningVi": "chữ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我看字唱。", "py": "Wǒ kàn zì chàng.", "en": "I sing reading the words." } },
+    { "id": "s1-u11-w-gen", "hanzi": "跟", "pinyin": "gēn", "pos": "preposition", "meaning": "with", "meaningVi": "cùng với", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "我跟你们一起唱。", "py": "Wǒ gēn nǐmen yìqǐ chàng.", "en": "I'll sing with you." } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u11-g-shou",
+      "pattern": "number + 首 + 歌 · 哪首歌",
+      "purpose": "Count songs, and ask which one",
+      "explanation": "Songs take the measure word 首: 一首歌, 两首歌, 这首歌. Ask which one with 哪首: 你最喜欢哪首歌？",
+      "examples": [
+        { "zh": "我会唱一首中文歌。", "py": "Wǒ huì chàng yì shǒu Zhōngwén gē.", "en": "I can sing one Chinese song." },
+        { "zh": "这首歌很好听。", "py": "Zhè shǒu gē hěn hǎotīng.", "en": "This song is lovely." },
+        { "zh": "你最喜欢哪首歌？", "py": "Nǐ zuì xǐhuan nǎ shǒu gē?", "en": "Which song do you like best?" }
+      ],
+      "commonMistakes": [{ "wrong": "一个歌", "right": "一首歌", "why": "Songs use 首." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u11-g-gen",
+      "pattern": "跟 + person + 一起 + verb · 最 + adjective / verb",
+      "purpose": "Do something with someone; say what you like most",
+      "explanation": "跟 + person + 一起 = together with them: 我跟你们一起唱. 最 before an adjective or 喜欢 makes \"the most\": 最好听, 最喜欢.",
+      "examples": [
+        { "zh": "我跟你们一起唱。", "py": "Wǒ gēn nǐmen yìqǐ chàng.", "en": "I'll sing with you." },
+        { "zh": "这首歌最好听。", "py": "Zhè shǒu gē zuì hǎotīng.", "en": "This song sounds the best." },
+        { "zh": "我最喜欢唱歌。", "py": "Wǒ zuì xǐhuan chànggē.", "en": "Singing is my favourite thing." }
+      ],
+      "register": "casual"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u11-d",
+    "title": "At the karaoke room",
+    "titleZh": "去唱歌",
+    "setting": "Lin An, Chen Yu and Anna in a karaoke room.",
+    "register": "casual",
+    "speakers": [{ "id": "chenyu", "name": "陈宇" }, { "id": "anna", "name": "安娜" }, { "id": "linan", "name": "林安" }],
+    "glosses": [
+      { "hanzi": "屏幕", "pinyin": "píngmù", "meaning": "screen" },
+      { "hanzi": "月亮代表我的心", "pinyin": "Yuèliang dàibiǎo wǒ de xīn", "meaning": "\"The Moon Represents My Heart\", a classic love song" }
+    ],
+    "lines": [
+      { "speaker": "chenyu", "zh": "安娜，你会唱中文歌吗？", "py": "Ānnà, nǐ huì chàng Zhōngwén gē ma?", "en": "Anna, can you sing any Chinese songs?" },
+      { "speaker": "anna", "zh": "会一首！可是歌词有点儿快。", "py": "Huì yì shǒu! Kěshì gēcí yǒudiǎnr kuài.", "en": "One! But the lyrics go a bit fast." },
+      { "speaker": "linan", "zh": "没关系，屏幕上有字。", "py": "Méi guānxi, píngmù shang yǒu zì.", "en": "Don't worry, the words are on the screen." },
+      { "speaker": "chenyu", "zh": "你最喜欢哪首歌？", "py": "Nǐ zuì xǐhuan nǎ shǒu gē?", "en": "Which song do you like best?" },
+      { "speaker": "anna", "zh": "《月亮代表我的心》，很好听！", "py": "\"Yuèliang dàibiǎo wǒ de xīn\", hěn hǎotīng!", "en": "\"The Moon Represents My Heart\". It's beautiful!" },
+      { "speaker": "linan", "zh": "我也会唱！我们一起唱吧！", "py": "Wǒ yě huì chàng! Wǒmen yìqǐ chàng ba!", "en": "I know that one! Let's sing it together!" },
+      { "speaker": "chenyu", "zh": "好！我跟你们一起唱。", "py": "Hǎo! Wǒ gēn nǐmen yìqǐ chàng.", "en": "Yes! I'll join you." },
+      { "speaker": "anna", "zh": "慢一点儿，我看字！", "py": "Màn yìdiǎnr, wǒ kàn zì!", "en": "Slow down, I'm reading!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "Where are they?", "choices": ["At karaoke", "At a concert", "In class"], "answer": "At karaoke" },
+      { "type": "detail", "q": "What does Anna find hard?", "choices": ["The lyrics go fast", "The song is too long", "She can't sing"], "answer": "The lyrics go fast" },
+      { "type": "detail", "q": "What do they decide to do?", "choices": ["Sing together", "Leave early", "Choose an English song"], "answer": "Sing together" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u11-r",
+    "title": "A song for Saturday",
+    "titleZh": "星期六",
+    "format": "note",
+    "blurb": "An original verse, written for this course.",
+    "purpose": "Read this verse slowly, then again at singing pace. Who goes where, and whose song is best?",
+    "lines": [
+      { "zh": "星期六，不上班，", "py": "Xīngqīliù, bú shàngbān,", "en": "Saturday, no work," },
+      { "zh": "我和朋友去唱歌。", "py": "Wǒ hé péngyou qù chànggē.", "en": "My friends and I go to sing." },
+      { "zh": "你唱一首，我唱一首，", "py": "Nǐ chàng yì shǒu, wǒ chàng yì shǒu,", "en": "You sing one, I sing one," },
+      { "zh": "最好听的歌是你的歌。", "py": "Zuì hǎotīng de gē shì nǐ de gē.", "en": "The best song is yours." }
+    ],
+    "questions": [
+      { "type": "detail", "q": "What day is it?", "choices": ["Saturday", "Sunday", "Monday"], "answer": "Saturday" },
+      { "type": "detail", "q": "What do they do?", "choices": ["Sing karaoke together", "Go to work", "Listen to a concert"], "answer": "Sing karaoke together" },
+      { "type": "inference", "q": "Whose song does the singer like best?", "choices": ["The friend's", "Their own", "Nobody's"], "answer": "The friend's" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "我和朋友去【唱歌】。", "py": "Wǒ hé péngyou qù chànggē.", "en": "My friends and I go to sing." },
+        { "zh": "你唱一【首】，我唱一首，", "py": "Nǐ chàng yì shǒu, wǒ chàng yì shǒu,", "en": "You sing one, I sing one," },
+        { "zh": "【最】好听的歌是你的歌。", "py": "Zuì hǎotīng de gē shì nǐ de gē.", "en": "The best song is yours." }
+      ],
+      "bank": ["唱歌", "首", "最", "件"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u11-c",
+    "title": "Choosing a song",
+    "place": "A karaoke room",
+    "context": "Friends hand you the microphone.",
+    "goal": "Talk about songs and join in",
+    "partner": { "name": "林安", "persona": "karaoke enthusiast" },
+    "turns": [
+      { "text": "你会唱中文歌吗？", "pinyin": "Nǐ huì chàng Zhōngwén gē ma?", "meaning": "Can you sing Chinese songs?", "intent": "Say yes, a little, or no", "examples": ["会一首", "不会，我听你们唱"], "accept": ["会"] },
+      { "text": "你最喜欢哪首歌？", "pinyin": "Nǐ zuì xǐhuan nǎ shǒu gē?", "meaning": "Which song do you like best?", "intent": "Name a song you like", "examples": ["我最喜欢这首歌"], "accept": ["喜欢", "歌"] },
+      { "text": "我们一起唱吧！", "pinyin": "Wǒmen yìqǐ chàng ba!", "meaning": "Let's sing together!", "intent": "Agree", "examples": ["好啊！", "好，我试试"], "accept": ["好", "试"] }
+    ],
+    "aiPartnerBrief": "You are 林安 at karaoke. Encourage the learner to sing; praise kindly. HSK 1 words."
+  },
+  "pragmatics": [
+    { "situation": "Getting a friend to sing", "natural": { "zh": "来，你唱一首！", "py": "Lái, nǐ chàng yì shǒu!", "en": "Come on, your turn!" }, "tooBlunt": { "zh": "你唱。", "py": "Nǐ chàng." }, "note": "来 + 一首 makes it a warm invitation." },
+    { "situation": "Praising someone's singing", "natural": { "zh": "你唱得真好听！", "py": "Nǐ chàng de zhēn hǎotīng!", "en": "You sound amazing!" }, "tooFormal": { "zh": "您的歌声非常动听。", "py": "Nín de gēshēng fēicháng dòngtīng." }, "note": "At karaoke, praise is generous and casual." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u11-tf1", "phrase": "s1-u11-w-haoting", "audio": { "zh": "这首歌很好听。", "py": "Zhè shǒu gē hěn hǎotīng.", "en": "This song is lovely." }, "statement": "The speaker likes how the song sounds.", "answer": true, "why": "好听 means nice to listen to." },
+    { "type": "truefalse", "id": "s1-u11-tf2", "phrase": "s1-u11-w-chang", "audio": { "zh": "我不会唱中文歌。", "py": "Wǒ bú huì chàng Zhōngwén gē.", "en": "I can't sing Chinese songs." }, "statement": "The speaker can sing a Chinese song.", "answer": false, "why": "不会唱 means can't sing." },
+    { "type": "truefalse", "id": "s1-u11-tf3", "phrase": "s1-u11-w-geci", "audio": { "zh": "歌词有点儿快。", "py": "Gēcí yǒudiǎnr kuài.", "en": "The lyrics go a bit fast." }, "statement": "The lyrics are slow.", "answer": false, "why": "快 is fast." },
+    { "type": "truefalse", "id": "s1-u11-tf4", "phrase": "s1-u11-w-gen", "audio": { "zh": "我跟你们一起唱。", "py": "Wǒ gēn nǐmen yìqǐ chàng.", "en": "I'll sing with you." }, "statement": "The speaker will sing with them.", "answer": true, "why": "跟你们一起 is together with you." },
+    { "type": "reply", "id": "s1-u11-r1", "phrase": "s1-u11-w-changge", "prompt": { "zh": "你会唱中文歌吗？", "py": "Nǐ huì chàng Zhōngwén gē ma?", "en": "Can you sing Chinese songs?" }, "choices": ["很远。", "会一首！", "八十块。"], "answer": "会一首！" },
+    { "type": "reply", "id": "s1-u11-r2", "phrase": "s1-u11-w-shou", "prompt": { "zh": "来，你唱一首！", "py": "Lái, nǐ chàng yì shǒu!", "en": "Come on, sing one!" }, "choices": ["慢走！", "不客气。", "好，我试试！"], "answer": "好，我试试！" },
+    { "type": "listenfill", "id": "s1-u11-f1", "phrase": "s1-u11-w-haoting", "line": { "zh": "这首歌很【好听】！", "py": "Zhè shǒu gē hěn hǎotīng!", "en": "This song is lovely!" }, "blankPy": "hǎotīng" },
+    { "type": "listenfill", "id": "s1-u11-f2", "phrase": "s1-u11-w-zui", "line": { "zh": "你【最】喜欢哪首歌？", "py": "Nǐ zuì xǐhuan nǎ shǒu gē?", "en": "Which song do you like best?" }, "blankPy": "zuì" },
+    { "type": "cloze", "id": "s1-u11-c1", "phrase": "s1-u11-w-shou", "title": "Saturday night", "lines": [{ "zh": "星期六我们去【唱歌】。安娜唱了一【首】中文歌，非常【好听】！", "py": "Xīngqīliù wǒmen qù chànggē. Ānnà chàng le yì shǒu Zhōngwén gē, fēicháng hǎotīng!", "en": "On Saturday we went to karaoke. Anna sang a Chinese song; it was lovely!" }], "bank": ["唱歌", "首", "好听", "好吃"] },
+    { "type": "match", "id": "s1-u11-m1", "phrase": "s1-u11-w-changge", "title": "What would you say?", "pairs": [
+      { "left": "Ask if they sing Chinese songs", "right": { "zh": "你会唱中文歌吗？", "py": "Nǐ huì chàng Zhōngwén gē ma?", "en": "" } },
+      { "left": "Say a song sounds great", "right": { "zh": "很好听！", "py": "Hěn hǎotīng!", "en": "" } },
+      { "left": "Invite them to sing together", "right": { "zh": "我们一起唱吧！", "py": "Wǒmen yìqǐ chàng ba!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. The song title is quoted as a title only (no lyrics). The reading verse is original to this course."
+}

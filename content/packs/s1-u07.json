@@ -1,0 +1,162 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u07",
+    "stage": 1,
+    "order": 7,
+    "title": "Getting around",
+    "titleZh": "怎么去",
+    "canDo": ["Ask how to get somewhere", "Say how far and how long", "Offer and accept a lift"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u06"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u07-w-zenme", "hanzi": "怎么", "pinyin": "zěnme", "pos": "pronoun", "meaning": "how", "meaningVi": "thế nào, làm sao", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你怎么去机场？", "py": "Nǐ zěnme qù jīchǎng?", "en": "How are you getting to the airport?" } },
+    { "id": "s1-u07-w-zuo", "hanzi": "坐", "pinyin": "zuò", "pos": "verb", "meaning": "to sit; to take (transport)", "meaningVi": "ngồi; đi (xe)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我坐地铁去。", "py": "Wǒ zuò dìtiě qù.", "en": "I'll take the metro." } },
+    { "id": "s1-u07-w-ditie", "hanzi": "地铁", "pinyin": "dìtiě", "pos": "noun", "meaning": "metro; subway", "meaningVi": "tàu điện ngầm", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "坐地铁要四十分钟。", "py": "Zuò dìtiě yào sìshí fēnzhōng.", "en": "The metro takes forty minutes." } },
+    { "id": "s1-u07-w-dache", "hanzi": "打车", "pinyin": "dǎchē", "pos": "verb", "meaning": "to take a taxi", "meaningVi": "bắt taxi", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "我们打车吧。", "py": "Wǒmen dǎchē ba.", "en": "Let's take a taxi." } },
+    { "id": "s1-u07-w-feiji", "hanzi": "飞机", "pinyin": "fēijī", "pos": "noun", "meaning": "plane", "meaningVi": "máy bay", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "明天我坐飞机回家。", "py": "Míngtiān wǒ zuò fēijī huí jiā.", "en": "I fly home tomorrow." } },
+    { "id": "s1-u07-w-jichang", "hanzi": "机场", "pinyin": "jīchǎng", "pos": "noun", "meaning": "airport", "meaningVi": "sân bay", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "机场很远。", "py": "Jīchǎng hěn yuǎn.", "en": "The airport is far." } },
+    { "id": "s1-u07-w-huoche", "hanzi": "火车", "pinyin": "huǒchē", "pos": "noun", "meaning": "train", "meaningVi": "tàu hỏa", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我坐火车去北京。", "py": "Wǒ zuò huǒchē qù Běijīng.", "en": "I'm taking the train to Beijing." } },
+    { "id": "s1-u07-w-yuan", "hanzi": "远", "pinyin": "yuǎn", "pos": "adjective", "meaning": "far", "meaningVi": "xa", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "地铁站不远。", "py": "Dìtiězhàn bù yuǎn.", "en": "The metro station isn't far." } },
+    { "id": "s1-u07-w-cong", "hanzi": "从", "pinyin": "cóng", "pos": "preposition", "meaning": "from", "meaningVi": "từ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "从这儿到机场远吗？", "py": "Cóng zhèr dào jīchǎng yuǎn ma?", "en": "Is it far from here to the airport?" } },
+    { "id": "s1-u07-w-dao", "hanzi": "到", "pinyin": "dào", "pos": "verb / preposition", "meaning": "to; to arrive", "meaningVi": "đến", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "到了给我打电话！", "py": "Dào le gěi wǒ dǎ diànhuà!", "en": "Call me when you get there!" } },
+    { "id": "s1-u07-w-xiaoshi", "hanzi": "小时", "pinyin": "xiǎoshí", "pos": "noun", "meaning": "hour", "meaningVi": "giờ đồng hồ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "打车要一个小时。", "py": "Dǎchē yào yí ge xiǎoshí.", "en": "A taxi takes an hour." } },
+    { "id": "s1-u07-w-fenzhong", "hanzi": "分钟", "pinyin": "fēnzhōng", "pos": "noun", "meaning": "minute (length of time)", "meaningVi": "phút", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "走路十分钟。", "py": "Zǒulù shí fēnzhōng.", "en": "A ten-minute walk." } },
+    { "id": "s1-u07-w-kaiche", "hanzi": "开车", "pinyin": "kāichē", "pos": "verb", "meaning": "to drive", "meaningVi": "lái xe", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我开车送你吧！", "py": "Wǒ kāichē sòng nǐ ba!", "en": "I'll drive you!" } },
+    { "id": "s1-u07-w-zoulu", "hanzi": "走路", "pinyin": "zǒulù", "pos": "verb", "meaning": "to walk", "meaningVi": "đi bộ", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "走路五分钟。", "py": "Zǒulù wǔ fēnzhōng.", "en": "A five-minute walk." } },
+    { "id": "s1-u07-w-shijian", "hanzi": "时间", "pinyin": "shíjiān", "pos": "noun", "meaning": "time", "meaningVi": "thời gian", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "要多长时间？", "py": "Yào duō cháng shíjiān?", "en": "How long does it take?" } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u07-g-zuo",
+      "pattern": "坐 + transport + 去 + place",
+      "purpose": "Say how you get somewhere",
+      "explanation": "The way you travel comes before 去 and the place: 坐地铁去机场 (sit metro go airport). Driving and walking are verbs on their own: 开车去, 走路去. Ask with 怎么去？",
+      "examples": [
+        { "zh": "我坐地铁去机场。", "py": "Wǒ zuò dìtiě qù jīchǎng.", "en": "I take the metro to the airport." },
+        { "zh": "你怎么去？", "py": "Nǐ zěnme qù?", "en": "How are you getting there?" },
+        { "zh": "我们走路去吧。", "py": "Wǒmen zǒulù qù ba.", "en": "Let's walk there." }
+      ],
+      "commonMistakes": [{ "wrong": "我去机场坐地铁。", "right": "我坐地铁去机场。", "why": "How you travel comes first." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u07-g-congdao",
+      "pattern": "从 A 到 B + (要) + time",
+      "purpose": "Say how far or how long a trip is",
+      "explanation": "从 A 到 B frames the trip: 从这儿到机场. Then 远 / 不远, or 要 + length of time: 要一个小时, 要十分钟. 多长时间 asks how long.",
+      "examples": [
+        { "zh": "从这儿到机场远吗？", "py": "Cóng zhèr dào jīchǎng yuǎn ma?", "en": "Is it far from here to the airport?" },
+        { "zh": "打车要一个小时。", "py": "Dǎchē yào yí ge xiǎoshí.", "en": "A taxi takes an hour." },
+        { "zh": "坐地铁要多长时间？", "py": "Zuò dìtiě yào duō cháng shíjiān?", "en": "How long does the metro take?" }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u07-d",
+    "title": "To the airport",
+    "titleZh": "怎么去机场",
+    "setting": "Anna flies home tomorrow and asks Chen Yu about getting to the airport.",
+    "register": "casual",
+    "speakers": [{ "id": "anna", "name": "安娜" }, { "id": "chenyu", "name": "陈宇" }],
+    "glosses": [{ "hanzi": "长", "pinyin": "cháng", "meaning": "long" }],
+    "lines": [
+      { "speaker": "anna", "zh": "明天我坐飞机回美国。", "py": "Míngtiān wǒ zuò fēijī huí Měiguó.", "en": "I fly back to the US tomorrow." },
+      { "speaker": "chenyu", "zh": "你怎么去机场？", "py": "Nǐ zěnme qù jīchǎng?", "en": "How are you getting to the airport?" },
+      { "speaker": "anna", "zh": "打车吧。从这儿到机场远吗？", "py": "Dǎchē ba. Cóng zhèr dào jīchǎng yuǎn ma?", "en": "By taxi, I guess. Is it far?" },
+      { "speaker": "chenyu", "zh": "很远，打车要一个小时。", "py": "Hěn yuǎn, dǎchē yào yí ge xiǎoshí.", "en": "Very. A taxi takes an hour." },
+      { "speaker": "chenyu", "zh": "坐地铁吧，地铁站不远，走路十分钟。", "py": "Zuò dìtiě ba, dìtiězhàn bù yuǎn, zǒulù shí fēnzhōng.", "en": "Take the metro. The station's a ten-minute walk." },
+      { "speaker": "anna", "zh": "坐地铁要多长时间？", "py": "Zuò dìtiě yào duō cháng shíjiān?", "en": "How long does the metro take?" },
+      { "speaker": "chenyu", "zh": "四十分钟。我开车送你吧！", "py": "Sìshí fēnzhōng. Wǒ kāichē sòng nǐ ba!", "en": "Forty minutes. Actually, I'll drive you!" },
+      { "speaker": "anna", "zh": "真的吗？太谢谢你了！", "py": "Zhēn de ma? Tài xièxie nǐ le!", "en": "Really? Thank you so much!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What is Anna doing tomorrow?", "choices": ["Flying back to the US", "Taking the train to Beijing", "Starting a new job"], "answer": "Flying back to the US" },
+      { "type": "detail", "q": "How long does a taxi take?", "choices": ["An hour", "Forty minutes", "Ten minutes"], "answer": "An hour" },
+      { "type": "intent", "q": "What does Chen Yu offer in the end?", "choices": ["To drive her", "To lend her money", "To call a taxi"], "answer": "To drive her" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u07-r",
+    "title": "How to get to my place",
+    "titleZh": "怎么来我家",
+    "format": "message",
+    "blurb": "Lin An's directions to a friend arriving from the airport.",
+    "purpose": "Lin An sent you directions. Read to find out where to get off, how long it takes, and what to do when you arrive.",
+    "speakers": [{ "id": "linan", "name": "林安" }],
+    "lines": [
+      { "speaker": "linan", "zh": "从机场到我家，你坐地铁吧。", "py": "Cóng jīchǎng dào wǒ jiā, nǐ zuò dìtiě ba.", "en": "From the airport to my place, take the metro." },
+      { "speaker": "linan", "zh": "坐地铁到大学站，要四十分钟。", "py": "Zuò dìtiě dào Dàxué Zhàn, yào sìshí fēnzhōng.", "en": "Ride to University station; it takes forty minutes." },
+      { "speaker": "linan", "zh": "从大学站到我家不远，走路五分钟。", "py": "Cóng Dàxué Zhàn dào wǒ jiā bù yuǎn, zǒulù wǔ fēnzhōng.", "en": "My place is a five-minute walk from the station." },
+      { "speaker": "linan", "zh": "别打车，太贵了！", "py": "Bié dǎchē, tài guì le!", "en": "Don't take a taxi, it's too expensive!" },
+      { "speaker": "linan", "zh": "到了给我打电话！", "py": "Dào le gěi wǒ dǎ diànhuà!", "en": "Call me when you arrive!" }
+    ],
+    "glosses": [{ "hanzi": "别", "pinyin": "bié", "meaning": "don't" }],
+    "questions": [
+      { "type": "detail", "q": "Where do you get off the metro?", "choices": ["University station", "The airport", "Lin An's door"], "answer": "University station" },
+      { "type": "detail", "q": "How long is the walk from the station?", "choices": ["Five minutes", "Forty minutes", "An hour"], "answer": "Five minutes" },
+      { "type": "inference", "q": "Why does Lin An say not to take a taxi?", "choices": ["It costs too much", "It's too slow", "Taxis don't go there"], "answer": "It costs too much" }
+    ],
+    "cloze": {
+      "lines": [
+        { "speaker": "linan", "zh": "【从】机场到我家，你坐地铁吧。", "py": "Cóng jīchǎng dào wǒ jiā, nǐ zuò dìtiě ba.", "en": "From the airport to my place, take the metro." },
+        { "speaker": "linan", "zh": "从大学站到我家不【远】，走路五【分钟】。", "py": "Cóng Dàxué Zhàn dào wǒ jiā bù yuǎn, zǒulù wǔ fēnzhōng.", "en": "My place is a five-minute walk from the station." }
+      ],
+      "bank": ["从", "远", "分钟", "小时"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u07-c",
+    "title": "Planning a trip across town",
+    "place": "A café",
+    "context": "A friend asks how you're getting to a party.",
+    "goal": "Say how you'll travel, how far, how long",
+    "partner": { "name": "林安", "persona": "practical, likes to plan" },
+    "turns": [
+      { "text": "你怎么去？", "pinyin": "Nǐ zěnme qù?", "meaning": "How are you getting there?", "intent": "Say how you'll travel", "examples": ["坐地铁", "打车", "走路去"], "accept": ["坐", "打车", "走", "开车"] },
+      { "text": "远吗？", "pinyin": "Yuǎn ma?", "meaning": "Is it far?", "intent": "Say far or not far", "examples": ["不远", "很远"], "accept": ["远"] },
+      { "text": "要多长时间？", "pinyin": "Yào duō cháng shíjiān?", "meaning": "How long does it take?", "intent": "Give a time", "examples": ["二十分钟", "一个小时"], "accept": ["分钟", "小时"] }
+    ],
+    "aiPartnerBrief": "You are 林安. Ask how the learner is travelling; use HSK 1 transport words."
+  },
+  "pragmatics": [
+    { "situation": "Asking a stranger the way", "natural": { "zh": "请问，地铁站怎么走？", "py": "Qǐngwèn, dìtiězhàn zěnme zǒu?", "en": "Excuse me, how do I get to the metro?" }, "tooBlunt": { "zh": "地铁站在哪儿？说。", "py": "Dìtiězhàn zài nǎr? Shuō." }, "note": "请问 (may I ask) opens any question to a stranger." },
+    { "situation": "Thanking a friend for a big favour", "natural": { "zh": "太谢谢你了！", "py": "Tài xièxie nǐ le!", "en": "Thank you so much!" }, "tooFormal": { "zh": "非常感谢您的帮助。", "py": "Fēicháng gǎnxiè nín de bāngzhù." }, "note": "感谢您的帮助 sounds like a business email; with friends, 太谢谢你了 is warm." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u07-tf1", "phrase": "s1-u07-w-zuo", "audio": { "zh": "我坐地铁去。", "py": "Wǒ zuò dìtiě qù.", "en": "I'll take the metro." }, "statement": "The speaker is taking a taxi.", "answer": false, "why": "坐地铁 is the metro; a taxi is 打车." },
+    { "type": "truefalse", "id": "s1-u07-tf2", "phrase": "s1-u07-w-xiaoshi", "audio": { "zh": "打车要一个小时。", "py": "Dǎchē yào yí ge xiǎoshí.", "en": "A taxi takes an hour." }, "statement": "A taxi takes an hour.", "answer": true, "why": "一个小时 is one hour." },
+    { "type": "truefalse", "id": "s1-u07-tf3", "phrase": "s1-u07-w-yuan", "audio": { "zh": "地铁站不远。", "py": "Dìtiězhàn bù yuǎn.", "en": "The metro station isn't far." }, "statement": "The metro station is far.", "answer": false, "why": "不远 means not far." },
+    { "type": "truefalse", "id": "s1-u07-tf4", "phrase": "s1-u07-w-kaiche", "audio": { "zh": "我开车送你吧。", "py": "Wǒ kāichē sòng nǐ ba.", "en": "I'll drive you." }, "statement": "The speaker offers a lift.", "answer": true, "why": "开车送你 is \"drive you there\"." },
+    { "type": "reply", "id": "s1-u07-r1", "phrase": "s1-u07-w-zenme", "prompt": { "zh": "你怎么去机场？", "py": "Nǐ zěnme qù jīchǎng?", "en": "How are you getting to the airport?" }, "choices": ["十分钟。", "打车。", "不远。"], "answer": "打车。" },
+    { "type": "reply", "id": "s1-u07-r2", "phrase": "s1-u07-w-yuan", "prompt": { "zh": "从这儿到地铁站远吗？", "py": "Cóng zhèr dào dìtiězhàn yuǎn ma?", "en": "Is the metro far from here?" }, "choices": ["我坐地铁。", "太贵了。", "不远，走路五分钟。"], "answer": "不远，走路五分钟。" },
+    { "type": "reply", "id": "s1-u07-r3", "phrase": "s1-u07-w-kaiche", "prompt": { "zh": "我开车送你吧！", "py": "Wǒ kāichē sòng nǐ ba!", "en": "I'll drive you!" }, "choices": ["太谢谢你了！", "生日快乐！", "没关系。"], "answer": "太谢谢你了！" },
+    { "type": "listenfill", "id": "s1-u07-f1", "phrase": "s1-u07-w-zenme", "line": { "zh": "你【怎么】去机场？", "py": "Nǐ zěnme qù jīchǎng?", "en": "How are you getting to the airport?" }, "blankPy": "zěnme" },
+    { "type": "listenfill", "id": "s1-u07-f2", "phrase": "s1-u07-w-fenzhong", "line": { "zh": "走路十【分钟】。", "py": "Zǒulù shí fēnzhōng.", "en": "A ten-minute walk." }, "blankPy": "fēnzhōng" },
+    { "type": "cloze", "id": "s1-u07-c1", "phrase": "s1-u07-w-feiji", "title": "Off to the airport", "lines": [{ "zh": "我明天坐【飞机】回家。从这儿到机场很【远】，打车要一个【小时】。", "py": "Wǒ míngtiān zuò fēijī huí jiā. Cóng zhèr dào jīchǎng hěn yuǎn, dǎchē yào yí ge xiǎoshí.", "en": "I fly home tomorrow. The airport is far from here; a taxi takes an hour." }], "bank": ["飞机", "远", "小时", "火车"] },
+    { "type": "match", "id": "s1-u07-m1", "phrase": "s1-u07-w-cong", "title": "What would you say?", "pairs": [
+      { "left": "Ask how to get there", "right": { "zh": "怎么去？", "py": "Zěnme qù?", "en": "" } },
+      { "left": "Say it's not far", "right": { "zh": "不远。", "py": "Bù yuǎn.", "en": "" } },
+      { "left": "Offer someone a lift", "right": { "zh": "我开车送你吧！", "py": "Wǒ kāichē sòng nǐ ba!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. 送 is reused with its second meaning (to see someone off / give a lift)."
+}

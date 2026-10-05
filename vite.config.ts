@@ -16,7 +16,7 @@ export default defineConfig({
         display: "standalone",
         icons: [
           {
-            src: "/icon.svg",
+            src: "/brand/app-icon.svg",
             sizes: "any",
             type: "image/svg+xml",
             purpose: "any",
@@ -28,8 +28,40 @@ export default defineConfig({
         // CJK fonts ship as ~100 unicode-range slices per weight; cache the
         // slices a learner actually uses instead of precaching all of them.
         // Full-size mascot PNGs are only for the gallery download; the app uses WebP.
-        globIgnores: ["**/noto-serif-sc-*.woff2", "**/mascot/quiet/*.png", "audio/**", "audio-reactions/**"],
+        // Sayo's clips are cached the first time each one plays (and all at once from
+        // Settings → "Save audio for offline"), so the install stays small as the course grows.
+        globIgnores: [
+          "**/noto-serif-sc-*.woff2",
+          "**/mascot/quiet/*.png",
+          "audio/**",
+          "audio-reactions/**",
+          "audio-v2/**",
+        ],
         runtimeCaching: [
+          {
+            urlPattern: /\/audio-v2\/.+\.(mp3|wav)$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "sayo-audio",
+              // Clip files are content-hashed, so a cached clip never goes stale.
+              expiration: { maxEntries: 6000 },
+              cacheableResponse: { statuses: [200] },
+              rangeRequests: true,
+              plugins: [
+                {
+                  // <audio> asks for byte ranges; fetch the whole clip so it can be cached,
+                  // then later ranges are served from the cached copy.
+                  requestWillFetch: async ({ request }) =>
+                    new Request(request.url, { credentials: "same-origin" }),
+                  cacheWillUpdate: async ({ response }) =>
+                    response.status === 200 &&
+                    /^audio\//i.test(response.headers.get("content-type") ?? "")
+                      ? response
+                      : null,
+                },
+              ],
+            },
+          },
           {
             urlPattern: /noto-serif-sc-.*\.woff2$/,
             handler: "CacheFirst",
@@ -46,7 +78,15 @@ export default defineConfig({
   server: {
     port: 5173,
     // Local speech runtimes contain thousands of files unrelated to the app.
-    watch: { ignored: ["**/.voice-design-env/**", "**/.tts-env/**", "**/.audio-env/**", "**/.models/**", "**/.tts/**"] },
+    watch: {
+      ignored: [
+        "**/.voice-design-env/**",
+        "**/.tts-env/**",
+        "**/.audio-env/**",
+        "**/.models/**",
+        "**/.tts/**",
+      ],
+    },
   },
   build: { chunkSizeWarningLimit: 700 },
 });

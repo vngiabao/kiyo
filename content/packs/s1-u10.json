@@ -1,0 +1,148 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u10",
+    "stage": 1,
+    "order": 10,
+    "title": "How was your weekend?",
+    "titleZh": "周末你做了什么",
+    "canDo": ["Say what you did, and didn't do", "Tell a short story about a day out", "Keep weekend small talk going"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u09"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u10-w-zuotian", "hanzi": "昨天", "pinyin": "zuótiān", "pos": "noun", "meaning": "yesterday", "meaningVi": "hôm qua", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "昨天下雨了。", "py": "Zuótiān xià yǔ le.", "en": "It rained yesterday." } },
+    { "id": "s1-u10-w-wanr", "hanzi": "玩儿", "pinyin": "wánr", "pos": "verb", "meaning": "to have fun; to hang out", "meaningVi": "chơi", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "周末我们去玩儿吧！", "py": "Zhōumò wǒmen qù wánr ba!", "en": "Let's go out this weekend!" } },
+    { "id": "s1-u10-w-haowanr", "hanzi": "好玩儿", "pinyin": "hǎowánr", "pos": "adjective", "meaning": "fun", "meaningVi": "vui", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "爬山很好玩儿！", "py": "Pá shān hěn hǎowánr!", "en": "Hiking is fun!" } },
+    { "id": "s1-u10-w-pashan", "hanzi": "爬山", "pinyin": "pá shān", "pos": "verb", "meaning": "to climb a mountain; to hike", "meaningVi": "leo núi", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "星期六我们去爬山了。", "py": "Xīngqīliù wǒmen qù pá shān le.", "en": "We went hiking on Saturday." } },
+    { "id": "s1-u10-w-qichuang", "hanzi": "起床", "pinyin": "qǐchuáng", "pos": "verb", "meaning": "to get up", "meaningVi": "thức dậy", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们早上六点起床。", "py": "Wǒmen zǎoshang liù diǎn qǐchuáng.", "en": "We got up at six." } },
+    { "id": "s1-u10-w-gao", "hanzi": "高", "pinyin": "gāo", "pos": "adjective", "meaning": "tall; high", "meaningVi": "cao", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "山很高。", "py": "Shān hěn gāo.", "en": "The mountain is high." } },
+    { "id": "s1-u10-w-diyici", "hanzi": "第一次", "pinyin": "dì yī cì", "pos": "phrase", "meaning": "the first time", "meaningVi": "lần đầu tiên", "register": "neutral", "isChunk": true, "hskLevel": null,
+      "example": { "zh": "我第一次去爬山。", "py": "Wǒ dì yī cì qù pá shān.", "en": "It was my first time hiking." } },
+    { "id": "s1-u10-w-xiaci", "hanzi": "下次", "pinyin": "xià cì", "pos": "noun", "meaning": "next time", "meaningVi": "lần sau", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "下次我们一起去吧！", "py": "Xià cì wǒmen yìqǐ qù ba!", "en": "Let's go together next time!" } },
+    { "id": "s1-u10-w-jianmian", "hanzi": "见面", "pinyin": "jiànmiàn", "pos": "verb", "meaning": "to meet up", "meaningVi": "gặp mặt", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我们星期天见面吧。", "py": "Wǒmen xīngqītiān jiànmiàn ba.", "en": "Let's meet up on Sunday." } },
+    { "id": "s1-u10-w-mei", "hanzi": "没", "pinyin": "méi", "pos": "adverb", "meaning": "didn't; haven't", "meaningVi": "không (đã không)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我昨天没出去。", "py": "Wǒ zuótiān méi chūqu.", "en": "I didn't go out yesterday." } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u10-g-verble",
+      "pattern": "verb + 了 · 没 + verb",
+      "purpose": "Say what happened, and what didn't",
+      "explanation": "了 after a verb marks it as done: 我看了两个电影. To say it didn't happen, use 没 and drop 了: 我没出去. Questions: 你去了吗？ / 你去没去？",
+      "examples": [
+        { "zh": "我在家看了两个电影。", "py": "Wǒ zài jiā kàn le liǎng ge diànyǐng.", "en": "I watched two films at home." },
+        { "zh": "我昨天没出去。", "py": "Wǒ zuótiān méi chūqu.", "en": "I didn't go out yesterday." },
+        { "zh": "周末你做了什么？", "py": "Zhōumò nǐ zuò le shénme?", "en": "What did you do at the weekend?" }
+      ],
+      "commonMistakes": [{ "wrong": "我没出去了。", "right": "我没出去。", "why": "没 replaces 了; they don't go together here." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u10-g-diyici",
+      "pattern": "第一次 + verb",
+      "purpose": "Say it was the first time",
+      "explanation": "第 makes ordinal numbers: 第一 (first), 第二 (second). 第一次 + verb = the first time doing it: 我第一次去爬山.",
+      "examples": [
+        { "zh": "我第一次去爬山。", "py": "Wǒ dì yī cì qù pá shān.", "en": "It was my first time hiking." },
+        { "zh": "这是我第一次来中国。", "py": "Zhè shì wǒ dì yī cì lái Zhōngguó.", "en": "This is my first time in China." }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u10-d",
+    "title": "Monday morning",
+    "titleZh": "周末怎么样",
+    "setting": "Chen Yu and Lin An catch up on Monday.",
+    "register": "casual",
+    "speakers": [{ "id": "chenyu", "name": "陈宇" }, { "id": "linan", "name": "林安" }],
+    "lines": [
+      { "speaker": "chenyu", "zh": "周末你做了什么？", "py": "Zhōumò nǐ zuò le shénme?", "en": "What did you do at the weekend?" },
+      { "speaker": "linan", "zh": "星期六我和安娜去爬山了。", "py": "Xīngqīliù wǒ hé Ānnà qù pá shān le.", "en": "Anna and I went hiking on Saturday." },
+      { "speaker": "chenyu", "zh": "好玩儿吗？", "py": "Hǎowánr ma?", "en": "Was it fun?" },
+      { "speaker": "linan", "zh": "很好玩儿，可是太累了！你呢？", "py": "Hěn hǎowánr, kěshì tài lèi le! Nǐ ne?", "en": "Really fun, but exhausting! You?" },
+      { "speaker": "chenyu", "zh": "我在家看了两个电影。", "py": "Wǒ zài jiā kàn le liǎng ge diànyǐng.", "en": "I watched two films at home." },
+      { "speaker": "linan", "zh": "你没出去吗？", "py": "Nǐ méi chūqu ma?", "en": "You didn't go out?" },
+      { "speaker": "chenyu", "zh": "没有，昨天下雨了。", "py": "Méiyǒu, zuótiān xià yǔ le.", "en": "No, it rained yesterday." },
+      { "speaker": "linan", "zh": "下次我们一起去吧！", "py": "Xià cì wǒmen yìqǐ qù ba!", "en": "Come with us next time!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What are they talking about?", "choices": ["What they did at the weekend", "Plans for tonight", "A film they both saw"], "answer": "What they did at the weekend" },
+      { "type": "detail", "q": "What did Lin An do on Saturday?", "choices": ["Went hiking with Anna", "Watched films", "Stayed in bed"], "answer": "Went hiking with Anna" },
+      { "type": "detail", "q": "Why didn't Chen Yu go out?", "choices": ["It rained", "He was ill", "He had to work"], "answer": "It rained" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u10-r",
+    "title": "My first hike",
+    "titleZh": "第一次爬山",
+    "format": "post",
+    "blurb": "Lin An posts about Saturday.",
+    "purpose": "Read Lin An's post. What did she do, how long did it take, and how did she feel at the end?",
+    "glosses": [{ "hanzi": "就", "pinyin": "jiù", "meaning": "already (that early)" }],
+    "lines": [
+      { "zh": "星期六我第一次去爬山。", "py": "Xīngqīliù wǒ dì yī cì qù pá shān.", "en": "On Saturday I went hiking for the first time." },
+      { "zh": "我们早上六点起床，七点出去了。", "py": "Wǒmen zǎoshang liù diǎn qǐchuáng, qī diǎn chūqu le.", "en": "We got up at six and left at seven." },
+      { "zh": "山很高，我们走了四个小时！", "py": "Shān hěn gāo, wǒmen zǒu le sì ge xiǎoshí!", "en": "The mountain was high; we walked for four hours!" },
+      { "zh": "山上很冷，可是非常漂亮。", "py": "Shān shang hěn lěng, kěshì fēicháng piàoliang.", "en": "It was cold at the top, but gorgeous." },
+      { "zh": "晚上回家，我九点就睡觉了。", "py": "Wǎnshang huí jiā, wǒ jiǔ diǎn jiù shuìjiào le.", "en": "Back home, I was asleep by nine." }
+    ],
+    "questions": [
+      { "type": "detail", "q": "What time did they get up?", "choices": ["6 am", "7 am", "9 am"], "answer": "6 am" },
+      { "type": "detail", "q": "How long did they walk?", "choices": ["Four hours", "One hour", "All day"], "answer": "Four hours" },
+      { "type": "inference", "q": "How did Lin An feel that evening?", "choices": ["Very tired", "Bored", "Ill"], "answer": "Very tired" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "我们早上六点【起床】，七点出去了。", "py": "Wǒmen zǎoshang liù diǎn qǐchuáng, qī diǎn chūqu le.", "en": "We got up at six and left at seven." },
+        { "zh": "山很【高】，我们走【了】四个小时！", "py": "Shān hěn gāo, wǒmen zǒu le sì ge xiǎoshí!", "en": "The mountain was high; we walked for four hours!" }
+      ],
+      "bank": ["起床", "高", "了", "吗"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u10-c",
+    "title": "Weekend catch-up",
+    "place": "Monday at work",
+    "context": "A colleague asks about your weekend.",
+    "goal": "Say what you did and keep the chat going",
+    "partner": { "name": "陈宇", "persona": "friendly colleague" },
+    "turns": [
+      { "text": "周末你做了什么？", "pinyin": "Zhōumò nǐ zuò le shénme?", "meaning": "What did you do at the weekend?", "intent": "Say what you did", "examples": ["我去爬山了", "我在家看电影了", "没做什么，在家休息"], "accept": ["了", "在家", "去", "没"] },
+      { "text": "好玩儿吗？", "pinyin": "Hǎowánr ma?", "meaning": "Was it fun?", "intent": "Say how it was", "examples": ["很好玩儿", "有点儿累"], "accept": ["好玩", "累", "好"] },
+      { "text": "下次一起去吧！", "pinyin": "Xià cì yìqǐ qù ba!", "meaning": "Let's go together next time!", "intent": "Agree", "examples": ["好啊！"], "accept": ["好"] }
+    ],
+    "aiPartnerBrief": "You are 陈宇. Ask about the weekend and react with interest. Use verb + 了 and 没."
+  },
+  "pragmatics": [
+    { "situation": "When you did nothing special", "natural": { "zh": "没做什么，在家休息。", "py": "Méi zuò shénme, zài jiā xiūxi.", "en": "Nothing much, just rested at home." }, "tooBlunt": { "zh": "没有。", "py": "Méiyǒu." }, "note": "没做什么 + a detail keeps the chat going; a bare 没有 ends it." },
+    { "situation": "Inviting someone next time", "natural": { "zh": "下次我们一起去吧！", "py": "Xià cì wǒmen yìqǐ qù ba!", "en": "Come with us next time!" }, "note": "A friendly way to include someone who missed out." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u10-tf1", "phrase": "s1-u10-w-mei", "audio": { "zh": "昨天我没出去。", "py": "Zuótiān wǒ méi chūqu.", "en": "I didn't go out yesterday." }, "statement": "The speaker went out yesterday.", "answer": false, "why": "没出去 means didn't go out." },
+    { "type": "truefalse", "id": "s1-u10-tf2", "phrase": "s1-u10-w-zuotian", "audio": { "zh": "我昨天看了两个电影。", "py": "Wǒ zuótiān kàn le liǎng ge diànyǐng.", "en": "I watched two films yesterday." }, "statement": "The speaker watched two films.", "answer": true, "why": "看了两个电影 is \"watched two films\"." },
+    { "type": "truefalse", "id": "s1-u10-tf3", "phrase": "s1-u10-w-pashan", "audio": { "zh": "星期六我们去爬山了。", "py": "Xīngqīliù wǒmen qù pá shān le.", "en": "We went hiking on Saturday." }, "statement": "They went hiking on Saturday.", "answer": true, "why": "爬山 is hiking; 了 marks it as done." },
+    { "type": "truefalse", "id": "s1-u10-tf4", "phrase": "s1-u10-w-diyici", "audio": { "zh": "我第一次去爬山。", "py": "Wǒ dì yī cì qù pá shān.", "en": "It was my first time hiking." }, "statement": "The speaker has hiked many times.", "answer": false, "why": "第一次 is the first time." },
+    { "type": "reply", "id": "s1-u10-r1", "phrase": "s1-u10-w-zuotian", "prompt": { "zh": "周末你做了什么？", "py": "Zhōumò nǐ zuò le shénme?", "en": "What did you do at the weekend?" }, "choices": ["我二十岁。", "我在家看电影了。", "太贵了！"], "answer": "我在家看电影了。" },
+    { "type": "reply", "id": "s1-u10-r2", "phrase": "s1-u10-w-haowanr", "prompt": { "zh": "好玩儿吗？", "py": "Hǎowánr ma?", "en": "Was it fun?" }, "choices": ["不客气！", "下午三点。", "很好玩儿！"], "answer": "很好玩儿！" },
+    { "type": "listenfill", "id": "s1-u10-f1", "phrase": "s1-u10-w-qichuang", "line": { "zh": "我们早上六点【起床】。", "py": "Wǒmen zǎoshang liù diǎn qǐchuáng.", "en": "We got up at six." }, "blankPy": "qǐchuáng" },
+    { "type": "listenfill", "id": "s1-u10-f2", "phrase": "s1-u10-w-xiaci", "line": { "zh": "【下次】我们一起去吧！", "py": "Xià cì wǒmen yìqǐ qù ba!", "en": "Let's go together next time!" }, "blankPy": "xià cì" },
+    { "type": "cloze", "id": "s1-u10-c1", "phrase": "s1-u10-w-zuotian", "title": "Yesterday", "lines": [{ "zh": "【昨天】我和朋友去爬山【了】。山很高，我们都很【累】。", "py": "Zuótiān wǒ hé péngyou qù pá shān le. Shān hěn gāo, wǒmen dōu hěn lèi.", "en": "Yesterday I went hiking with friends. The mountain was high; we were all tired." }], "bank": ["昨天", "了", "累", "明天"] },
+    { "type": "match", "id": "s1-u10-m1", "phrase": "s1-u10-w-mei", "title": "What would you say?", "pairs": [
+      { "left": "Ask about the weekend", "right": { "zh": "周末你做了什么？", "py": "Zhōumò nǐ zuò le shénme?", "en": "" } },
+      { "left": "Say you didn't go out", "right": { "zh": "我没出去。", "py": "Wǒ méi chūqu.", "en": "" } },
+      { "left": "Say it was fun", "right": { "zh": "很好玩儿！", "py": "Hěn hǎowánr!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. Check 你去没去 alternative question in the grammar note."
+}

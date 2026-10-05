@@ -1,4 +1,5 @@
 import glyph from "hanzi-writer-data/清.json";
+import { toneBarPath, wordmarkPaths } from "./brand-paths";
 
 /**
  * One place for the product's name. Change these and the logo, wordmark,
@@ -17,10 +18,27 @@ export const brand = {
 };
 
 /**
- * The mark: 清 drawn from stroke data. The flat top bar of 青 (stroke 4)
- * is lit in pale blue: it doubles as the first-tone mark in qīng.
+ * The main tile uses approved Sayo art. The compact 清 mark remains available
+ * for tiny favicons, where the portrait's face cannot be read.
  */
-export function BrandMark({ size = 40, tile = true }: { size?: number; tile?: boolean }) {
+export function BrandMark({
+  size = 40,
+  tile = true,
+}: {
+  size?: number;
+  tile?: boolean;
+}) {
+  if (tile)
+    return (
+      <span
+        className="brand-portrait"
+        style={{ width: size, height: size }}
+        role="img"
+        aria-label={`${brand.name} logo`}
+      >
+        <img src="/mascot/web/welcome.webp" alt="" aria-hidden />
+      </span>
+    );
   return (
     <svg
       className="brand-mark-svg"
@@ -30,11 +48,14 @@ export function BrandMark({ size = 40, tile = true }: { size?: number; tile?: bo
       role="img"
       aria-label={`${brand.name} logo`}
     >
-      {tile && <rect width="1024" height="1024" rx="232" className="bm-tile" />}
       <g transform="translate(112 112) scale(0.78)">
         <g transform="scale(1,-1) translate(0,-900)">
           {glyph.strokes.map((d: string, i: number) => (
-            <path key={i} d={d} className={i === TONE_STROKE ? "bm-tone" : "bm-ink"} />
+            <path
+              key={i}
+              d={d}
+              className={i === TONE_STROKE ? "bm-tone" : "bm-ink"}
+            />
           ))}
         </g>
       </g>
@@ -45,11 +66,16 @@ export function BrandMark({ size = 40, tile = true }: { size?: number; tile?: bo
 /** Wordmark: KIYO, with a blue bar over the I echoing the tone mark in qīng. */
 export function Wordmark({ className = "" }: { className?: string }) {
   return (
-    <span className={`wordmark ${className}`}>
-      <span className="sr-only">{brand.name}</span>
-      <span aria-hidden>
-        K<span className="wm-e">I<span className="wm-macron" /></span>YO
-      </span>
-    </span>
+    <svg
+      className={`wordmark wordmark-vector ${className}`}
+      viewBox="0 0 259 94"
+      role="img"
+      aria-label={brand.name}
+    >
+      <path d={toneBarPath} fill="var(--accent)" />
+      {wordmarkPaths.map((d, i) => (
+        <path key={i} d={d} fill="currentColor" fillRule="evenodd" />
+      ))}
+    </svg>
   );
 }

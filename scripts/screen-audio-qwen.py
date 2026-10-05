@@ -20,15 +20,38 @@ digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 read=lambda p:json.loads(p.read_text('utf-8'))
 convert=OpenCC('t2s')
 
-def normalize(text):
+def normalize(text, digit_sequence=False):
     text=convert.convert(text)
     def number(match):
-        n=int(match.group());digits='零一二三四五六七八九'
+        digits='零一二三四五六七八九'
+        if digit_sequence or match.group().startswith('0'):
+            return ''.join(digits[int(c)] for c in match.group())
+        n=int(match.group())
         if n<10:return digits[n]
         if n<100:return (digits[n//10] if n>=20 else '')+'十'+(digits[n%10] if n%10 else '')
+        if n<1000:
+            rest=n%100
+            tail='' if rest==0 else ('零'+digits[rest] if rest<10 else digits[rest//10]+'十'+(digits[rest%10] if rest%10 else ''))
+            return digits[n//100]+'百'+tail
         return match.group()
     text=re.sub(r'\d+',number,text)
     return re.sub(r'[^\u4e00-\u9fff0-9]', '', text)
+
+def transcript_status(expected_text, transcript):
+    digit_sequence='幺' in expected_text or bool(re.fullmatch(r'[零一二三四五六七八九幺]+',normalize(expected_text)))
+    expected,heard=normalize(expected_text,digit_sequence),normalize(transcript,digit_sequence)
+    if expected==heard:return 'text-match'
+    # ASR writes spoken phone-number yao as 一. Synthesis still receives 幺.
+    if '幺' in expected and expected.replace('幺','一')==heard:return 'phone-number-transcript'
+    if '幺' in expected:expected=expected.replace('幺','一')
+    # Whisper often omits the orthographic 儿 suffix for rhotic vowels. This is
+    # an explicitly labelled transcript equivalence, not a pronunciation check.
+    without_erhua=lambda t:re.sub(r'([点玩哪这那会])儿',r'\1',t)
+    if expected!=without_erhua(expected) and without_erhua(expected)==heard:
+        return 'erhua-transcript'
+    if expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
+        return 'homophone-transcript'
+    return 'needs-review'
 
 def atomic(path,data):
     tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n','utf-8');tmp.replace(path)
@@ -57,6 +80,13 @@ def main():
             assert digest(source)==hash
             id=hash+':'+job['text']
             previous=report['clips'].get(id)
+            if previous and previous['status']=='needs-review':
+                cue=record.get('pronunciationContext',{})
+                expected_text=cue.get('synthesisText',job['text']) if cue.get('extract')=='whole' else job['text']
+                status=transcript_status(expected_text,previous.get('transcript',''))
+                if status!='needs-review':
+                    previous.update(status=status,orthographicCheckVersion=2)
+                    atomic(path,report)
             repeat=bool(args.repeat_short and previous and previous['status']=='needs-review'
                 and len(normalize(job['text']))<=3 and 'repeatedTranscript' not in previous)
             carrier=bool(args.carrier and previous and previous['status']=='needs-review' and record.get('carrierFile') and 'carrierTranscript' not in previous)
@@ -74,8 +104,10 @@ def main():
                     # More acoustic context, with no expected-text prompt or changed pronunciation.
                     audio=np.concatenate([audio,np.zeros(8000,dtype=np.float32),audio,np.zeros(8000,dtype=np.float32),audio])
                 transcript=model.transcribe(audio,language='zh',temperature=0,beam_size=5,condition_on_previous_text=False,fp16=args.device=='cuda')['text']
-                expected,heard=normalize(job['text']),normalize(transcript)
-                status='text-match' if expected==heard else 'needs-review'
+                cue=record.get('pronunciationContext',{})
+                expected_text=cue.get('synthesisText',job['text']) if cue.get('extract')=='whole' else job['text']
+                expected,heard=normalize(expected_text),normalize(transcript)
+                status=transcript_status(expected_text,transcript)
                 if repeat and heard in [expected*2,expected*3]:status='repeated-text-match'
                 if status=='needs-review' and expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
                     status='homophone-transcript'

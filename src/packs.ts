@@ -7,7 +7,7 @@
  * conversation scenarios. Pure functions; no file or browser access here.
  */
 import type { Lesson, Phrase, Provenance, Task } from "./types";
-import { checkTask, plain } from "./tasks";
+import { checkTask, plain, taskAudio } from "./tasks";
 
 // ---------- Schema ----------
 export type Register = "casual" | "neutral" | "polite" | "formal" | "written" | "internet";
@@ -62,6 +62,10 @@ export interface PackText {
   lines: Line[];
   glosses?: { hanzi: string; pinyin: string; meaning: string }[];
   questions?: Question[];
+  /** Readings: what the learner reads to find out (shown before the text). */
+  purpose?: string;
+  /** Readings: "lock it in" gap-fill; every line must be a line of the text with 【blanks】. */
+  cloze?: { lines: Line[]; bank: string[] };
 }
 export interface PackConversation {
   id: string;
@@ -291,6 +295,11 @@ export function validatePack(raw: unknown, ctx: ValidationContext): Report {
       for (const l of t.lines ?? [])
         if (l.speaker && !t.speakers.some((s) => s.id === l.speaker)) err(`${name}: speaker "${l.speaker}" not in speakers.`);
     checkQuestions(t.questions, name);
+    if (t.cloze) {
+      for (const problem of checkTask({ type: "cloze", id: `${t.id}-lock`, phrase: "", title: t.title, lines: t.cloze.lines, bank: t.cloze.bank })) err(`${name}: ${problem}`);
+      for (const l of t.cloze.lines)
+        if (!(t.lines ?? []).some((x) => x.zh === plain(l.zh))) err(`${name}: gap-fill line "${plain(l.zh)}" isn't a line of the text.`);
+    }
   }
   if (!p.dialogue && !p.reading) warn("No dialogue or reading: the unit has no connected text to read or hear.");
   if (p.dialogue && !(p.dialogue.questions ?? []).length) warn("dialogue: add 2–3 questions (gist, detail, intent) so it becomes a listening task.");
@@ -334,6 +343,7 @@ export function validatePack(raw: unknown, ctx: ValidationContext): Report {
     ...(p.dialogue?.lines ?? []),
     ...(p.reading?.lines ?? []),
     ...(p.grammar ?? []).flatMap((g) => g.examples ?? []),
+    ...(p.tasks ?? []).flatMap((task) => (task && typeof task === "object" && "type" in task ? taskAudio(task) : [])),
   ].map((l) => l.zh ?? "").join("\n") + (p.review ?? []).map((r) => `${r.zh ?? ""}${r.prompt}`).join("\n");
   const thin = vocab.filter((v) => isStr(v?.hanzi) && context.split(v.hanzi).length - 1 < 2).map((v) => v.hanzi);
   if (thin.length) warn(`Appear fewer than 2 times in context: ${thin.join("、")}.`);
@@ -386,9 +396,17 @@ export interface CompiledText {
   after: string;
   blurb: string;
   lines: { zh: string; py: string; en: string; speaker?: string }[];
-  questions: { q: string; choices: string[]; answer: string }[];
+  questions: { q: string; choices: string[]; answer: string; kind?: "gist" | "detail" | "inference" }[];
   glosses: { hanzi: string; pinyin: string; meaning: string }[];
+  format?: "chat" | "post" | "note" | "story";
+  purpose?: string;
+  cloze?: { lines: Line[]; bank: string[] };
 }
+/** Pack text formats map onto the reader's four layouts. */
+const layoutOf = (f?: string): CompiledText["format"] =>
+  f === "message" || f === "chat" ? "chat" : f === "post" ? "post" : f === "story" || f === "article" ? "story" : f ? "note" : undefined;
+const questionKinds = ["gist", "detail", "inference"] as const;
+const kindOf = (t?: string) => questionKinds.find((k) => k === t);
 
 const provenance: Provenance = {
   status: "AI-assisted draft",
@@ -485,8 +503,11 @@ export function compilePack(p: ContentPack) {
           after: u.id,
           blurb: t.blurb ?? t.setting ?? "",
           lines: t.lines.map((l) => ({ ...l, speaker: l.speaker ? (t.speakers?.find((s) => s.id === l.speaker)?.name ?? l.speaker) : undefined })),
-          questions: (t.questions ?? []).map((q) => ({ q: q.q, choices: q.choices, answer: q.answer })),
+          questions: (t.questions ?? []).map((q) => ({ q: q.q, choices: q.choices, answer: q.answer, kind: kindOf(q.type) })),
           glosses: t.glosses ?? [],
+          format: layoutOf(t.format) ?? (t.speakers?.length ? "chat" : undefined),
+          purpose: t.purpose,
+          cloze: t.cloze,
         }
       : null;
   const texts = [text(p.dialogue, "对话"), text(p.reading, "阅读")].filter((x): x is CompiledText => !!x);
@@ -526,7 +547,12 @@ export function compilePack(p: ContentPack) {
             title: d.title,
             setting: d.setting ?? d.blurb ?? "",
             lines: d.lines.map((l) => ({ ...l, speaker: l.speaker ? (d.speakers?.find((s) => s.id === l.speaker)?.name ?? l.speaker) : "" })),
-            questions: (d.questions ?? []).map((q) => ({ kind: "detail" as const, q: q.q, choices: q.choices, answer: q.answer })),
+            questions: (d.questions ?? []).map((q) => ({
+              kind: (["gist", "detail", "inference", "intent"] as const).find((k) => k === q.type) ?? "detail",
+              q: q.q,
+              choices: q.choices,
+              answer: q.answer,
+            })),
           },
         ]
       : [];

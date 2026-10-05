@@ -166,13 +166,26 @@ test("installed production shell, routes and bundled audio work offline", async 
   await expect(
     page.getByRole("heading", { level: 1, name: /Good (morning|afternoon|evening)|Still up/ }),
   ).toBeVisible();
+  await page.locator(".lead").getByRole("button", { name: "Continue" }).click();
+  const firstPlay = page.waitForResponse(
+    (r) => r.url().includes("/audio-v2/") && r.ok(),
+  );
+  await page.getByRole("button", { name: "Play Mandarin audio" }).click();
+  const audioUrl = (await firstPlay).url();
+  await expect.poll(() => page.evaluate(async (url) =>
+    Boolean(await caches.match(url)), audioUrl)).toBe(true);
+  await page.getByRole("button", { name: "Save and exit" }).click();
   await context.setOffline(true);
   await page.reload();
   await expect(
     page.getByText("Offline · local learning available"),
   ).toBeVisible();
   await page.locator(".lead").getByRole("button", { name: "Continue" }).click();
+  const offlinePlay = page.waitForResponse(
+    (r) => r.url() === audioUrl && r.ok(),
+  );
   await page.getByRole("button", { name: "Play Mandarin audio" }).click();
+  await offlinePlay;
   await expect(
     page.getByRole("button", { name: "Continue", exact: true }),
   ).toBeEnabled({ timeout: 12000 });

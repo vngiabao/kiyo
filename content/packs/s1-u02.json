@@ -1,0 +1,158 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u02",
+    "stage": 1,
+    "order": 2,
+    "title": "Language exchange",
+    "titleZh": "你会说中文吗",
+    "canDo": ["Say what languages you speak, and how well", "Offer to teach and ask to learn", "Answer a compliment on your Chinese"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u01"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u02-w-hui", "hanzi": "会", "pinyin": "huì", "pos": "verb", "meaning": "can (a learned skill)", "meaningVi": "biết (làm gì)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你会说中文吗？", "py": "Nǐ huì shuō Zhōngwén ma?", "en": "Do you speak Chinese?" } },
+    { "id": "s1-u02-w-neng", "hanzi": "能", "pinyin": "néng", "pos": "verb", "meaning": "can (able to; free to)", "meaningVi": "có thể", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我能教你汉字。", "py": "Wǒ néng jiāo nǐ Hànzì.", "en": "I can teach you characters." } },
+    { "id": "s1-u02-w-hanyu", "hanzi": "汉语", "pinyin": "Hànyǔ", "pos": "noun", "meaning": "Chinese (the language)", "meaningVi": "tiếng Hán, tiếng Trung", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你会说汉语吗？", "py": "Nǐ huì shuō Hànyǔ ma?", "en": "Do you speak Chinese?" }, "usageNote": "汉语 is the textbook and exam word; in conversation people mostly say 中文." },
+    { "id": "s1-u02-w-yingyu", "hanzi": "英语", "pinyin": "Yīngyǔ", "pos": "noun", "meaning": "English (the language)", "meaningVi": "tiếng Anh", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我会说英语。", "py": "Wǒ huì shuō Yīngyǔ.", "en": "I speak English." } },
+    { "id": "s1-u02-w-yidianr", "hanzi": "一点儿", "pinyin": "yìdiǎnr", "pos": "phrase", "meaning": "a little (amount)", "meaningVi": "một chút", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我会说一点儿中文。", "py": "Wǒ huì shuō yìdiǎnr Zhōngwén.", "en": "I speak a little Chinese." }, "usageNote": "Northern speech adds -r: yìdiǎnr. In the south people say 一点 yìdiǎn." },
+    { "id": "s1-u02-w-jiao", "hanzi": "教", "pinyin": "jiāo", "pos": "verb", "meaning": "to teach", "meaningVi": "dạy", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你教我英语，好吗？", "py": "Nǐ jiāo wǒ Yīngyǔ, hǎo ma?", "en": "Will you teach me English?" } },
+    { "id": "s1-u02-w-renshi", "hanzi": "认识", "pinyin": "rènshi", "pos": "verb", "meaning": "to know (a person); to meet", "meaningVi": "quen biết", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我想认识中国朋友。", "py": "Wǒ xiǎng rènshi Zhōngguó péngyou.", "en": "I'd like to make Chinese friends." } },
+    { "id": "s1-u02-w-gaoxing", "hanzi": "高兴", "pinyin": "gāoxìng", "pos": "adjective", "meaning": "glad; happy", "meaningVi": "vui", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "很高兴认识你！", "py": "Hěn gāoxìng rènshi nǐ!", "en": "Nice to meet you!" } },
+    { "id": "s1-u02-w-laoshi", "hanzi": "老师", "pinyin": "lǎoshī", "pos": "noun", "meaning": "teacher", "meaningVi": "thầy cô giáo", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "王老师教我们中文。", "py": "Wáng lǎoshī jiāo wǒmen Zhōngwén.", "en": "Teacher Wang teaches us Chinese." }, "usageNote": "Surname + 老师 is how you address a teacher: 王老师." },
+    { "id": "s1-u02-w-hanzi", "hanzi": "汉字", "pinyin": "Hànzì", "pos": "noun", "meaning": "Chinese character", "meaningVi": "chữ Hán", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "汉字很难。", "py": "Hànzì hěn nán.", "en": "Characters are hard." } },
+    { "id": "s1-u02-w-xie", "hanzi": "写", "pinyin": "xiě", "pos": "verb", "meaning": "to write", "meaningVi": "viết", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我每天写汉字。", "py": "Wǒ měi tiān xiě Hànzì.", "en": "I write characters every day." } },
+    { "id": "s1-u02-w-nan", "hanzi": "难", "pinyin": "nán", "pos": "adjective", "meaning": "difficult", "meaningVi": "khó", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "中文难吗？", "py": "Zhōngwén nán ma?", "en": "Is Chinese hard?" } },
+    { "id": "s1-u02-w-meitian", "hanzi": "每天", "pinyin": "měi tiān", "pos": "phrase", "meaning": "every day", "meaningVi": "mỗi ngày", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "我每天学中文。", "py": "Wǒ měi tiān xué Zhōngwén.", "en": "I study Chinese every day." } },
+    { "id": "s1-u02-w-tongxue", "hanzi": "同学", "pinyin": "tóngxué", "pos": "noun", "meaning": "classmate", "meaningVi": "bạn học", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "她是我的同学。", "py": "Tā shì wǒ de tóngxué.", "en": "She's my classmate." } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u02-g-huineng",
+      "pattern": "会 / 能 + verb",
+      "purpose": "Say what you can do",
+      "explanation": "会 is a skill you have learned: 会说中文, 会写汉字. 能 is being able or free to do something right now: 我能教你, 明天我不能去. The negatives are 不会 and 不能.",
+      "examples": [
+        { "zh": "我会说英语。", "py": "Wǒ huì shuō Yīngyǔ.", "en": "I speak English." },
+        { "zh": "我不会写汉字。", "py": "Wǒ bú huì xiě Hànzì.", "en": "I can't write characters." },
+        { "zh": "明天我不能去。", "py": "Míngtiān wǒ bù néng qù.", "en": "I can't go tomorrow." }
+      ],
+      "commonMistakes": [{ "wrong": "我能说中文。", "right": "我会说中文。", "why": "Speaking a language is a learned skill, so 会 is the usual choice." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u02-g-yidianr",
+      "pattern": "verb + 一点儿 · 有点儿 + adjective",
+      "purpose": "Say \"a little\" the right way",
+      "explanation": "一点儿 is an amount, after a verb or adjective: 说一点儿中文, 慢一点儿. 有点儿 goes before an adjective and usually sounds like a mild complaint: 汉字有点儿难.",
+      "examples": [
+        { "zh": "我会说一点儿中文。", "py": "Wǒ huì shuō yìdiǎnr Zhōngwén.", "en": "I speak a little Chinese." },
+        { "zh": "汉字有点儿难。", "py": "Hànzì yǒudiǎnr nán.", "en": "Characters are a bit hard." },
+        { "zh": "慢一点儿，好吗？", "py": "Màn yìdiǎnr, hǎo ma?", "en": "A bit slower, please?" }
+      ],
+      "commonMistakes": [{ "wrong": "汉字一点儿难。", "right": "汉字有点儿难。", "why": "Before an adjective, use 有点儿." }],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u02-d",
+    "title": "At the language corner",
+    "titleZh": "语言角",
+    "setting": "Chen Yu meets Anna at a language-exchange evening.",
+    "register": "casual",
+    "speakers": [{ "id": "chenyu", "name": "陈宇" }, { "id": "anna", "name": "安娜" }],
+    "lines": [
+      { "speaker": "chenyu", "zh": "你好！你会说中文吗？", "py": "Nǐ hǎo! Nǐ huì shuō Zhōngwén ma?", "en": "Hi! Do you speak Chinese?" },
+      { "speaker": "anna", "zh": "会一点儿。我在学中文。", "py": "Huì yìdiǎnr. Wǒ zài xué Zhōngwén.", "en": "A little. I'm learning." },
+      { "speaker": "chenyu", "zh": "你的中文很好！", "py": "Nǐ de Zhōngwén hěn hǎo!", "en": "Your Chinese is good!" },
+      { "speaker": "anna", "zh": "谢谢！我还在学。汉字很难。", "py": "Xièxie! Wǒ hái zài xué. Hànzì hěn nán.", "en": "Thanks! I'm still learning. Characters are hard." },
+      { "speaker": "chenyu", "zh": "我能教你汉字。你会说英语吗？", "py": "Wǒ néng jiāo nǐ Hànzì. Nǐ huì shuō Yīngyǔ ma?", "en": "I can teach you characters. Do you speak English?" },
+      { "speaker": "anna", "zh": "会！我教你英语，好吗？", "py": "Huì! Wǒ jiāo nǐ Yīngyǔ, hǎo ma?", "en": "Yes! I'll teach you English, OK?" },
+      { "speaker": "chenyu", "zh": "好啊！很高兴认识你。", "py": "Hǎo a! Hěn gāoxìng rènshi nǐ.", "en": "Deal! Nice to meet you." },
+      { "speaker": "anna", "zh": "我也很高兴认识你！", "py": "Wǒ yě hěn gāoxìng rènshi nǐ!", "en": "Nice to meet you too!" }
+    ],
+    "glosses": [{ "hanzi": "还", "pinyin": "hái", "meaning": "still" }],
+    "questions": [
+      { "type": "gist", "q": "What do they agree to do?", "choices": ["Teach each other", "Have dinner", "Go to class together"], "answer": "Teach each other" },
+      { "type": "detail", "q": "What does Anna find hard?", "choices": ["Characters", "Speaking", "English"], "answer": "Characters" },
+      { "type": "intent", "q": "How does Anna answer the compliment?", "choices": ["Thanks him and says she's still learning", "Agrees her Chinese is great", "Ignores it"], "answer": "Thanks him and says she's still learning" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u02-r",
+    "title": "Anna's exchange profile",
+    "titleZh": "我的介绍",
+    "format": "post",
+    "blurb": "Anna's profile on a language-exchange app.",
+    "purpose": "Read Anna's profile. What can she offer, and what is she looking for?",
+    "lines": [
+      { "zh": "我叫安娜，我是美国人。", "py": "Wǒ jiào Ānnà, wǒ shì Měiguó rén.", "en": "I'm Anna, I'm American." },
+      { "zh": "我会说英语，也会说一点儿中文。", "py": "Wǒ huì shuō Yīngyǔ, yě huì shuō yìdiǎnr Zhōngwén.", "en": "I speak English, and a little Chinese." },
+      { "zh": "我每天写汉字，汉字很难！", "py": "Wǒ měi tiān xiě Hànzì, Hànzì hěn nán!", "en": "I write characters every day. They're hard!" },
+      { "zh": "我想认识中国朋友。", "py": "Wǒ xiǎng rènshi Zhōngguó péngyou.", "en": "I'd like to make Chinese friends." },
+      { "zh": "我能教你英语，你能教我中文吗？", "py": "Wǒ néng jiāo nǐ Yīngyǔ, nǐ néng jiāo wǒ Zhōngwén ma?", "en": "I can teach you English. Can you teach me Chinese?" }
+    ],
+    "questions": [
+      { "type": "detail", "q": "Which languages does Anna speak?", "choices": ["English and a little Chinese", "Only English", "Chinese and Vietnamese"], "answer": "English and a little Chinese" },
+      { "type": "detail", "q": "What does she practise every day?", "choices": ["Writing characters", "Speaking", "Listening to music"], "answer": "Writing characters" },
+      { "type": "inference", "q": "What is she looking for?", "choices": ["A language-exchange partner", "A Chinese teacher to pay", "A job"], "answer": "A language-exchange partner" }
+    ],
+    "cloze": {
+      "lines": [
+        { "zh": "我会说英语，也会说【一点儿】中文。", "py": "Wǒ huì shuō Yīngyǔ, yě huì shuō yìdiǎnr Zhōngwén.", "en": "I speak English, and a little Chinese." },
+        { "zh": "我每天写【汉字】，汉字很【难】！", "py": "Wǒ měi tiān xiě Hànzì, Hànzì hěn nán!", "en": "I write characters every day. They're hard!" }
+      ],
+      "bank": ["一点儿", "汉字", "难", "老师"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u02-c",
+    "title": "Finding a language partner",
+    "place": "A language-exchange evening",
+    "context": "A Chinese student starts talking to you.",
+    "goal": "Say what you speak and set up an exchange",
+    "partner": { "name": "陈宇", "persona": "curious student who wants to practise English" },
+    "turns": [
+      { "text": "你会说中文吗？", "pinyin": "Nǐ huì shuō Zhōngwén ma?", "meaning": "Do you speak Chinese?", "intent": "Say you speak a little", "examples": ["会一点儿", "我会说一点儿中文"], "accept": ["一点"] },
+      { "text": "你会写汉字吗？", "pinyin": "Nǐ huì xiě Hànzì ma?", "meaning": "Can you write characters?", "intent": "Say whether you can", "examples": ["会写一点儿", "不会，汉字很难"], "accept": ["会", "难"] },
+      { "text": "我教你中文，你教我英语，好吗？", "pinyin": "Wǒ jiāo nǐ Zhōngwén, nǐ jiāo wǒ Yīngyǔ, hǎo ma?", "meaning": "I teach you Chinese, you teach me English, OK?", "intent": "Accept the offer", "examples": ["好啊！", "好，谢谢！"], "accept": ["好"] }
+    ],
+    "aiPartnerBrief": "You are 陈宇, a student at a language exchange. Use HSK 1 words. Praise the learner's Chinese once and see how they respond."
+  },
+  "pragmatics": [
+    { "situation": "Someone says your Chinese is good", "natural": { "zh": "谢谢！我还在学呢。", "py": "Xièxie! Wǒ hái zài xué ne.", "en": "Thanks! I'm still learning." }, "tooBlunt": { "zh": "对，我的中文很好。", "py": "Duì, wǒ de Zhōngwén hěn hǎo." }, "tooFormal": { "zh": "哪里哪里，您过奖了。", "py": "Nǎli nǎli, nín guòjiǎng le." }, "note": "Accept with thanks and a little modesty. 哪里哪里 is the old-style humble reply; friends your age usually just say 谢谢." },
+    { "situation": "Meeting someone new", "natural": { "zh": "很高兴认识你！", "py": "Hěn gāoxìng rènshi nǐ!", "en": "Nice to meet you!" }, "tooFormal": { "zh": "认识您很荣幸。", "py": "Rènshi nín hěn róngxìng." }, "note": "荣幸 (honoured) belongs at formal events, not at a language corner." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u02-tf1", "phrase": "s1-u02-w-yidianr", "audio": { "zh": "我会说一点儿中文。", "py": "Wǒ huì shuō yìdiǎnr Zhōngwén.", "en": "I speak a little Chinese." }, "statement": "The speaker doesn't speak any Chinese.", "answer": false, "why": "一点儿 means a little, not none." },
+    { "type": "truefalse", "id": "s1-u02-tf2", "phrase": "s1-u02-w-nan", "audio": { "zh": "汉字有点儿难。", "py": "Hànzì yǒudiǎnr nán.", "en": "Characters are a bit hard." }, "statement": "The speaker finds characters a bit hard.", "answer": true, "why": "有点儿难 is \"a bit hard\"." },
+    { "type": "truefalse", "id": "s1-u02-tf3", "phrase": "s1-u02-w-xie", "audio": { "zh": "我不会写汉字。", "py": "Wǒ bú huì xiě Hànzì.", "en": "I can't write characters." }, "statement": "The speaker can write characters.", "answer": false, "why": "不会写 means can't write." },
+    { "type": "truefalse", "id": "s1-u02-tf4", "phrase": "s1-u02-w-jiao", "audio": { "zh": "王老师教我们中文。", "py": "Wáng lǎoshī jiāo wǒmen Zhōngwén.", "en": "Teacher Wang teaches us Chinese." }, "statement": "Teacher Wang teaches Chinese.", "answer": true, "why": "教 is to teach." },
+    { "type": "reply", "id": "s1-u02-r1", "phrase": "s1-u02-w-gaoxing", "prompt": { "zh": "很高兴认识你！", "py": "Hěn gāoxìng rènshi nǐ!", "en": "Nice to meet you!" }, "choices": ["我也很高兴认识你！", "会一点儿。", "汉字很难。"], "answer": "我也很高兴认识你！" },
+    { "type": "reply", "id": "s1-u02-r2", "phrase": "s1-u02-w-hui", "prompt": { "zh": "你会说英语吗？", "py": "Nǐ huì shuō Yīngyǔ ma?", "en": "Do you speak English?" }, "choices": ["我是美国人。", "会，我会说英语。", "没关系。"], "answer": "会，我会说英语。", "why": "Answer a 会 question with 会 or 不会." },
+    { "type": "listenfill", "id": "s1-u02-f1", "phrase": "s1-u02-w-yidianr", "line": { "zh": "我会说【一点儿】中文。", "py": "Wǒ huì shuō yìdiǎnr Zhōngwén.", "en": "I speak a little Chinese." }, "blankPy": "yìdiǎnr" },
+    { "type": "listenfill", "id": "s1-u02-f2", "phrase": "s1-u02-w-jiao", "line": { "zh": "我能【教】你汉字。", "py": "Wǒ néng jiāo nǐ Hànzì.", "en": "I can teach you characters." }, "blankPy": "jiāo" },
+    { "type": "cloze", "id": "s1-u02-c1", "phrase": "s1-u02-w-renshi", "title": "Introduce yourself", "lines": [{ "zh": "我叫安娜。我【会】说英语，也会说一点儿中文。我每天【写】汉字。很高兴【认识】你！", "py": "Wǒ jiào Ānnà. Wǒ huì shuō Yīngyǔ, yě huì shuō yìdiǎnr Zhōngwén. Wǒ měi tiān xiě Hànzì. Hěn gāoxìng rènshi nǐ!", "en": "I'm Anna. I speak English and a little Chinese. I write characters every day. Nice to meet you!" }], "bank": ["会", "写", "认识", "吃"] },
+    { "type": "match", "id": "s1-u02-m1", "phrase": "s1-u02-w-hui", "title": "What would you say?", "pairs": [
+      { "left": "Ask if they speak English", "right": { "zh": "你会说英语吗？", "py": "Nǐ huì shuō Yīngyǔ ma?", "en": "" } },
+      { "left": "Say it's nice to meet them", "right": { "zh": "很高兴认识你！", "py": "Hěn gāoxìng rènshi nǐ!", "en": "" } },
+      { "left": "Say characters are a bit hard", "right": { "zh": "汉字有点儿难。", "py": "Hànzì yǒudiǎnr nán.", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. Check the modesty note (哪里哪里) and whether 我能说中文 should be flagged only as \"less usual\"."
+}

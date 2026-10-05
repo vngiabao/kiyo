@@ -62,7 +62,7 @@ def main():
     OUT.mkdir(exist_ok=True)
     records,manifest=[],{}
     screen=read(CACHE/'screening.json') if (CACHE/'screening.json').exists() else {'clips':{}}
-    acceptable={'text-match','repeated-text-match','homophone-transcript','owner-approved-take','carrier-text-match','carrier-homophone-transcript'}
+    acceptable={'text-match','repeated-text-match','homophone-transcript','owner-approved-take','carrier-text-match','carrier-homophone-transcript','erhua-transcript','phone-number-transcript'}
     raw_records=[read(ROOT/j['receipt']) for j in plan['jobs'] if (ROOT/j['receipt']).exists()]
     def screening(record):
         return screen['clips'].get(record['rawSha256']+':'+record['text'],{}).get('status','pending')

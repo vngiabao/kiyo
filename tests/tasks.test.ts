@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { exercisesFor, lessons, scramble } from "../src/content";
+import { allLessons, allTaskSteps, exercisesFor, lessons, reviewTaskFor, scramble, stepOf } from "../src/content";
 import { readingLessons as readingLessonsForTest } from "../src/hanzi";
 import { lessonTasks, checkTask, fillMatches, taskAudio, withGaps, plain, blanksOf } from "../src/tasks";
 
@@ -84,5 +84,45 @@ describe("lesson order", () => {
       expect(out).not.toEqual(tiles);
       if (tiles.length > 2) expect(out).not.toEqual([...tiles].reverse());
     }
+  });
+  it("never lets the answer's position give it away", () => {
+    const positions: number[] = [];
+    for (const l of allLessons)
+      for (const e of exercisesFor(l)) {
+        const t = e.task;
+        if (t?.type === "dialogue") t.questions.forEach((q) => positions.push(q.choices.indexOf(q.answer)));
+        else if (t?.type === "reply") positions.push(t.choices.indexOf(t.answer));
+        else if (e.choices && e.correct) positions.push(e.choices.indexOf(e.correct));
+      }
+    expect(positions.every((p) => p >= 0)).toBe(true);
+    // With 3–4 options, no single slot should hold the key for more than 40% of items.
+    for (const slot of [0, 1, 2, 3]) expect(positions.filter((p) => p === slot).length / positions.length, `slot ${slot + 1}`).toBeLessThan(0.4);
+  });
+});
+
+describe("review brings back tasks, not bare words", () => {
+  const DAY = 86_400_000;
+  it("brings back the exact task you missed", () => {
+    const missed = allTaskSteps().find((e) => e.id === "first-first-tf1")!;
+    const memory = { phraseId: missed.phraseId, modality: missed.modality, due: 40 * DAY };
+    expect(reviewTaskFor(memory, "first-first-tf1")?.id).toBe("first-first-tf1");
+    // A miss made during review is traced back to its lesson step too.
+    expect(reviewTaskFor(memory, `review:first-first-tf1:${30 * DAY}`)?.id).toBe("first-first-tf1");
+  });
+  it("otherwise rotates through tasks that use the same phrase and skill", () => {
+    const memory = { phraseId: "namequestion", modality: "listening", due: 0 };
+    const seen = new Set(Array.from({ length: 6 }, (_, d) => reviewTaskFor({ ...memory, due: d * DAY })?.id));
+    expect(seen.size).toBeGreaterThan(1);
+    for (const id of seen) {
+      const e = allTaskSteps().find((x) => x.id === id)!;
+      expect([e.phraseId, e.modality]).toEqual(["namequestion", "listening"]);
+    }
+  });
+  it("falls back to a plain review when no task uses the phrase", () => {
+    expect(reviewTaskFor({ phraseId: "hemp", modality: "reading", due: 0 })).toBeNull();
+  });
+  it("traces review contexts back to lesson steps", () => {
+    expect(stepOf("review:names-names-d:1728000000000")).toBe("names-names-d");
+    expect(stepOf("names-names-d")).toBe("names-names-d");
   });
 });

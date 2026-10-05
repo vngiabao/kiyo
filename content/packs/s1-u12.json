@@ -1,0 +1,157 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u12",
+    "stage": 1,
+    "order": 12,
+    "title": "Watching dramas",
+    "titleZh": "看电视剧",
+    "canDo": ["Talk about a show you're watching", "Say what you understood, by ear or by reading", "Follow a short scene from its subtitles"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u11"],
+    "estimatedMinutes": 36
+  },
+  "vocabulary": [
+    { "id": "s1-u12-w-dianshi", "hanzi": "电视", "pinyin": "diànshì", "pos": "noun", "meaning": "television", "meaningVi": "tivi", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我晚上看电视。", "py": "Wǒ wǎnshang kàn diànshì.", "en": "I watch TV in the evening." } },
+    { "id": "s1-u12-w-dianshiju", "hanzi": "电视剧", "pinyin": "diànshìjù", "pos": "noun", "meaning": "TV drama; series", "meaningVi": "phim truyền hình", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "这个电视剧很好看。", "py": "Zhège diànshìjù hěn hǎokàn.", "en": "This drama is really good." } },
+    { "id": "s1-u12-w-zimu", "hanzi": "字幕", "pinyin": "zìmù", "pos": "noun", "meaning": "subtitles", "meaningVi": "phụ đề", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "有中文字幕吗？", "py": "Yǒu Zhōngwén zìmù ma?", "en": "Are there Chinese subtitles?" }, "usageNote": "Most Chinese shows and films have Chinese subtitles burned in." },
+    { "id": "s1-u12-w-kandong", "hanzi": "看懂", "pinyin": "kàndǒng", "pos": "verb", "meaning": "to understand (by reading or watching)", "meaningVi": "xem hiểu, đọc hiểu", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "你看懂了吗？", "py": "Nǐ kàndǒng le ma?", "en": "Did you follow it?" } },
+    { "id": "s1-u12-w-mingbai", "hanzi": "明白", "pinyin": "míngbai", "pos": "verb", "meaning": "to understand; to get it", "meaningVi": "hiểu", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我明白了！", "py": "Wǒ míngbai le!", "en": "Ah, I get it!" } },
+    { "id": "s1-u12-w-haishi", "hanzi": "还是", "pinyin": "háishi", "pos": "conjunction", "meaning": "or (in questions)", "meaningVi": "hay là", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "中文字幕还是英语字幕？", "py": "Zhōngwén zìmù háishi Yīngyǔ zìmù?", "en": "Chinese or English subtitles?" } },
+    { "id": "s1-u12-w-di", "hanzi": "第", "pinyin": "dì", "pos": "prefix", "meaning": "(makes ordinals: first, second…)", "meaningVi": "thứ (số thứ tự)", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我看到第五集了。", "py": "Wǒ kàn dào dì wǔ jí le.", "en": "I'm up to episode five." } },
+    { "id": "s1-u12-w-ji", "hanzi": "集", "pinyin": "jí", "pos": "measure word", "meaning": "episode", "meaningVi": "tập (phim)", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "你看到第几集了？", "py": "Nǐ kàn dào dì jǐ jí le?", "en": "Which episode are you on?" } },
+    { "id": "s1-u12-w-xiao", "hanzi": "笑", "pinyin": "xiào", "pos": "verb", "meaning": "to laugh; to smile", "meaningVi": "cười", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "这个电视剧很好笑。", "py": "Zhège diànshìjù hěn hǎoxiào.", "en": "This drama is really funny." } },
+    { "id": "s1-u12-w-youyisi", "hanzi": "有意思", "pinyin": "yǒu yìsi", "pos": "adjective", "meaning": "interesting; fun", "meaningVi": "thú vị", "register": "neutral", "isChunk": true, "hskLevel": null,
+      "example": { "zh": "这个电视剧很有意思。", "py": "Zhège diànshìjù hěn yǒu yìsi.", "en": "This drama is really interesting." }, "usageNote": "Opposite: 没意思 (boring)." },
+    { "id": "s1-u12-w-shuohua", "hanzi": "说话", "pinyin": "shuōhuà", "pos": "verb", "meaning": "to talk; to speak", "meaningVi": "nói chuyện", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "他们说话太快。", "py": "Tāmen shuōhuà tài kuài.", "en": "They talk too fast." } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u12-g-dong",
+      "pattern": "看懂 / 听懂 · 没看懂 / 没听懂",
+      "purpose": "Say whether you understood, and how",
+      "explanation": "懂 after a verb shows the result: 看懂 (understood by reading or watching), 听懂 (understood by ear). Done: 看懂了. Not: 没看懂, 没听懂. With fast speech you might 没听懂 but 看懂了 the subtitles.",
+      "examples": [
+        { "zh": "你看懂了吗？", "py": "Nǐ kàndǒng le ma?", "en": "Did you follow it?" },
+        { "zh": "他们说话太快，我没听懂。", "py": "Tāmen shuōhuà tài kuài, wǒ méi tīngdǒng.", "en": "They talk too fast; I didn't catch it." },
+        { "zh": "字幕我看懂了。", "py": "Zìmù wǒ kàndǒng le.", "en": "I understood the subtitles." }
+      ],
+      "commonMistakes": [{ "wrong": "我不看懂。", "right": "我没看懂。", "why": "For a result that didn't happen, use 没." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u12-g-haishi",
+      "pattern": "A 还是 B？ · 第 + number",
+      "purpose": "Ask \"A or B?\"; say which episode",
+      "explanation": "还是 offers a choice in a question: 中文字幕还是英语字幕？ (No 吗 needed.) 第 + number makes an ordinal: 第一集 (episode one), 第几集？ (which episode?).",
+      "examples": [
+        { "zh": "中文字幕还是英语字幕？", "py": "Zhōngwén zìmù háishi Yīngyǔ zìmù?", "en": "Chinese or English subtitles?" },
+        { "zh": "你看到第几集了？", "py": "Nǐ kàn dào dì jǐ jí le?", "en": "Which episode are you on?" },
+        { "zh": "第五集很好笑。", "py": "Dì wǔ jí hěn hǎoxiào.", "en": "Episode five is really funny." }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u12-d",
+    "title": "Binge-watching",
+    "titleZh": "你在看什么",
+    "setting": "Chen Yu finds Anna glued to her laptop.",
+    "register": "casual",
+    "speakers": [{ "id": "chenyu", "name": "陈宇" }, { "id": "anna", "name": "安娜" }],
+    "lines": [
+      { "speaker": "chenyu", "zh": "你在看什么？", "py": "Nǐ zài kàn shénme?", "en": "What are you watching?" },
+      { "speaker": "anna", "zh": "一个中国电视剧，很好看！", "py": "Yí ge Zhōngguó diànshìjù, hěn hǎokàn!", "en": "A Chinese drama. It's so good!" },
+      { "speaker": "chenyu", "zh": "你看懂了吗？", "py": "Nǐ kàndǒng le ma?", "en": "Can you follow it?" },
+      { "speaker": "anna", "zh": "有字幕，我看懂了一点儿。", "py": "Yǒu zìmù, wǒ kàndǒng le yìdiǎnr.", "en": "There are subtitles. I follow a bit." },
+      { "speaker": "chenyu", "zh": "中文字幕还是英语字幕？", "py": "Zhōngwén zìmù háishi Yīngyǔ zìmù?", "en": "Chinese or English subtitles?" },
+      { "speaker": "anna", "zh": "中文的！他们说话太快，可是字幕我看懂了。", "py": "Zhōngwén de! Tāmen shuōhuà tài kuài, kěshì zìmù wǒ kàndǒng le.", "en": "Chinese! They talk too fast, but I can read the subtitles." },
+      { "speaker": "chenyu", "zh": "太好了！你看到第几集了？", "py": "Tài hǎo le! Nǐ kàn dào dì jǐ jí le?", "en": "Brilliant! Which episode are you on?" },
+      { "speaker": "anna", "zh": "第五集。很好笑！", "py": "Dì wǔ jí. Hěn hǎoxiào!", "en": "Five. It's hilarious!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What is Anna doing?", "choices": ["Watching a Chinese drama", "Listening to music", "Doing homework"], "answer": "Watching a Chinese drama" },
+      { "type": "detail", "q": "Which subtitles does she use?", "choices": ["Chinese", "English", "None"], "answer": "Chinese" },
+      { "type": "inference", "q": "How does she manage to follow the story?", "choices": ["She reads the subtitles when the speech is too fast", "She understands every word by ear", "Chen Yu explains it"], "answer": "She reads the subtitles when the speech is too fast" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u12-r",
+    "title": "Subtitles: episode one",
+    "titleZh": "第一集",
+    "format": "message",
+    "blurb": "Subtitles from a scene in an original mini-drama.",
+    "purpose": "These are the subtitles from a scene. Read them as if they were flashing by: what did Daming forget, and how does he fix it?",
+    "speakers": [{ "id": "daming", "name": "大明" }, { "id": "linan", "name": "林安" }],
+    "glosses": [
+      { "hanzi": "忘", "pinyin": "wàng", "meaning": "to forget" },
+      { "hanzi": "又", "pinyin": "yòu", "meaning": "again" },
+      { "hanzi": "生气", "pinyin": "shēngqì", "meaning": "angry" }
+    ],
+    "lines": [
+      { "speaker": "daming", "zh": "你怎么在这儿？", "py": "Nǐ zěnme zài zhèr?", "en": "What are you doing here?" },
+      { "speaker": "linan", "zh": "我在等你。你忘了吗？", "py": "Wǒ zài děng nǐ. Nǐ wàng le ma?", "en": "Waiting for you. Did you forget?" },
+      { "speaker": "daming", "zh": "今天是你的生日！", "py": "Jīntiān shì nǐ de shēngrì!", "en": "Today's your birthday!" },
+      { "speaker": "linan", "zh": "对。你又忘了。", "py": "Duì. Nǐ yòu wàng le.", "en": "Yes. You forgot. Again." },
+      { "speaker": "daming", "zh": "别生气！我们去吃饭吧，我请你！", "py": "Bié shēngqì! Wǒmen qù chīfàn ba, wǒ qǐng nǐ!", "en": "Don't be mad! Let's go to dinner, my treat!" }
+    ],
+    "questions": [
+      { "type": "detail", "q": "What did Daming forget?", "choices": ["Lin An's birthday", "Their dinner booking", "His phone"], "answer": "Lin An's birthday" },
+      { "type": "inference", "q": "How does Lin An feel?", "choices": ["Annoyed", "Delighted", "Scared"], "answer": "Annoyed" },
+      { "type": "detail", "q": "How does Daming make up for it?", "choices": ["He treats her to dinner", "He buys flowers", "He sings a song"], "answer": "He treats her to dinner" }
+    ],
+    "cloze": {
+      "lines": [
+        { "speaker": "linan", "zh": "我在【等】你。你忘了吗？", "py": "Wǒ zài děng nǐ. Nǐ wàng le ma?", "en": "Waiting for you. Did you forget?" },
+        { "speaker": "daming", "zh": "别生气！我们去吃饭吧，我【请】你！", "py": "Bié shēngqì! Wǒmen qù chīfàn ba, wǒ qǐng nǐ!", "en": "Don't be mad! Let's go to dinner, my treat!" }
+      ],
+      "bank": ["等", "请", "送", "看"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u12-c",
+    "title": "Talking about a show",
+    "place": "A café",
+    "context": "A friend sees you watching something on your phone.",
+    "goal": "Say what you're watching and how much you understand",
+    "partner": { "name": "陈宇", "persona": "drama fan" },
+    "turns": [
+      { "text": "你看中国电视剧吗？", "pinyin": "Nǐ kàn Zhōngguó diànshìjù ma?", "meaning": "Do you watch Chinese dramas?", "intent": "Say yes or no", "examples": ["看！我很喜欢", "不看"], "accept": ["看", "喜欢"] },
+      { "text": "你看懂了吗？", "pinyin": "Nǐ kàndǒng le ma?", "meaning": "Can you follow them?", "intent": "Say how much you understand", "examples": ["看懂了一点儿", "没看懂"], "accept": ["懂"] },
+      { "text": "中文字幕还是英语字幕？", "pinyin": "Zhōngwén zìmù háishi Yīngyǔ zìmù?", "meaning": "Chinese or English subtitles?", "intent": "Choose one", "examples": ["中文字幕", "英语的"], "accept": ["中文", "英语"] }
+    ],
+    "aiPartnerBrief": "You are 陈宇, a drama fan. Ask what the learner watches and recommend a show simply."
+  },
+  "pragmatics": [
+    { "situation": "Offering to pay for a friend", "natural": { "zh": "我请你！", "py": "Wǒ qǐng nǐ!", "en": "My treat!" }, "tooFormal": { "zh": "这顿饭由我来付款。", "py": "Zhè dùn fàn yóu wǒ lái fùkuǎn." }, "note": "我请你 means \"I'm paying\". Friends often argue over the bill; offering is polite." },
+    { "situation": "Recommending a show", "natural": { "zh": "这个电视剧很好看，你看吧！", "py": "Zhège diànshìjù hěn hǎokàn, nǐ kàn ba!", "en": "This drama's great, watch it!" }, "note": "吧 makes it a friendly push, not an order." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u12-tf1", "phrase": "s1-u12-w-kandong", "audio": { "zh": "字幕我看懂了。", "py": "Zìmù wǒ kàndǒng le.", "en": "I understood the subtitles." }, "statement": "The speaker understood the subtitles.", "answer": true, "why": "看懂了 means understood (by reading)." },
+    { "type": "truefalse", "id": "s1-u12-tf2", "phrase": "s1-u12-w-shuohua", "audio": { "zh": "他们说话太快，我没听懂。", "py": "Tāmen shuōhuà tài kuài, wǒ méi tīngdǒng.", "en": "They talk too fast; I didn't catch it." }, "statement": "The speaker understood everything by ear.", "answer": false, "why": "没听懂 means didn't understand by ear." },
+    { "type": "truefalse", "id": "s1-u12-tf3", "phrase": "s1-u12-w-ji", "audio": { "zh": "我看到第三集了。", "py": "Wǒ kàn dào dì sān jí le.", "en": "I'm up to episode three." }, "statement": "The speaker is on episode three.", "answer": true, "why": "第三集 is episode three." },
+    { "type": "truefalse", "id": "s1-u12-tf4", "phrase": "s1-u12-w-youyisi", "audio": { "zh": "这个电视剧没意思。", "py": "Zhège diànshìjù méi yìsi.", "en": "This drama is boring." }, "statement": "The speaker loves the drama.", "answer": false, "why": "没意思 means boring." },
+    { "type": "reply", "id": "s1-u12-r1", "phrase": "s1-u12-w-kandong", "prompt": { "zh": "你看懂了吗？", "py": "Nǐ kàndǒng le ma?", "en": "Did you follow it?" }, "choices": ["第五集。", "看懂了一点儿。", "我在家。"], "answer": "看懂了一点儿。" },
+    { "type": "reply", "id": "s1-u12-r2", "phrase": "s1-u12-w-dianshiju", "prompt": { "zh": "这个电视剧好看吗？", "py": "Zhège diànshìjù hǎokàn ma?", "en": "Is this drama good?" }, "choices": ["很好看！", "不客气。", "慢走！"], "answer": "很好看！" },
+    { "type": "reply", "id": "s1-u12-r3", "phrase": "s1-u12-w-haishi", "prompt": { "zh": "中文字幕还是英语字幕？", "py": "Zhōngwén zìmù háishi Yīngyǔ zìmù?", "en": "Chinese or English subtitles?" }, "choices": ["中文字幕。", "很好笑。", "两个。"], "answer": "中文字幕。", "why": "还是 asks you to choose one." },
+    { "type": "listenfill", "id": "s1-u12-f1", "phrase": "s1-u12-w-zimu", "line": { "zh": "有中文【字幕】吗？", "py": "Yǒu Zhōngwén zìmù ma?", "en": "Are there Chinese subtitles?" }, "blankPy": "zìmù" },
+    { "type": "listenfill", "id": "s1-u12-f2", "phrase": "s1-u12-w-ji", "line": { "zh": "你看到第几【集】了？", "py": "Nǐ kàn dào dì jǐ jí le?", "en": "Which episode are you on?" }, "blankPy": "jí" },
+    { "type": "cloze", "id": "s1-u12-c1", "phrase": "s1-u12-w-zimu", "title": "Every evening", "lines": [{ "zh": "我每天晚上看中国【电视剧】。他们说话很快，可是有中文【字幕】，我能看【懂】。", "py": "Wǒ měi tiān wǎnshang kàn Zhōngguó diànshìjù. Tāmen shuōhuà hěn kuài, kěshì yǒu Zhōngwén zìmù, wǒ néng kàndǒng.", "en": "I watch a Chinese drama every evening. They talk fast, but there are Chinese subtitles, so I can follow it." }], "bank": ["电视剧", "字幕", "懂", "歌"] },
+    { "type": "match", "id": "s1-u12-m1", "phrase": "s1-u12-w-dianshi", "title": "What would you say?", "pairs": [
+      { "left": "Ask if they followed it", "right": { "zh": "你看懂了吗？", "py": "Nǐ kàndǒng le ma?", "en": "" } },
+      { "left": "Say there are subtitles", "right": { "zh": "有字幕。", "py": "Yǒu zìmù.", "en": "" } },
+      { "left": "Say it's your treat", "right": { "zh": "我请你！", "py": "Wǒ qǐng nǐ!", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. The scene is original. 好笑 (funny) appears in context; check whether to teach it formally."
+}

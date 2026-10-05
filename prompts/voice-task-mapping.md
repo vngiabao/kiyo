@@ -1,5 +1,11 @@
 # Voice mapping for the new practice tasks (paste into the voice / work chat)
 
+> **Update (12 HSK 1 units added).** `content/packs/s1-u01.json … s1-u12.json` are now published. Their vocabulary, examples, grammar examples, dialogues (one mood per speaker, same rule), readings and tasks all need clips. `npm run audio:manifest` picks them up; `npm run validate:content` currently lists every missing clip. Paste this short version to the voice chat:
+>
+> ```
+> 12 new HSK 1 units were published (content/packs/s1-u01 … s1-u12). Run npm run audio:manifest, generate the missing clips with the same mood rules as before (dialogue speakers by order of appearance: cool, playful, soft; everything else clear), then npm run audio:check and npm test. Notes: in phone numbers 一 is read yāo (s1-u05); 喂 is wéi; s1-u06's price list has no punctuation by design. Don't edit content/packs or src/; list any line that sounds wrong instead.
+> ```
+
 Paste the box into the chat that's building Sayo's voice pack. It explains which new lines need audio, which mood each one gets, and how to add them without touching anything else.
 
 ```

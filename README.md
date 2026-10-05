@@ -1,4 +1,4 @@
-# Tingjian · Mandarin, in real life
+# Kiyo 清 · Mandarin, crystal clear
 
 A working, local-first beginner Mandarin learning app. Sound comes first; reading supports understanding; conversation and media practice have their own learning evidence. This release implements the first usable slice of the larger product brief. It is **not** the finished zero-to-advanced commercial platform.
 
@@ -20,20 +20,22 @@ npm run build
 npm run preview
 ```
 
-Open the printed preview URL, normally http://127.0.0.1:4173. Visit once while connected and allow the service worker to finish installing. After that the app, fonts, lessons and bundled audio work offline. Development mode does not install the offline service worker. Close all app tabs and reopen when installing a new production version. Changing the hostname or port creates a separate browser storage origin; export a backup before moving to another origin.
+Open the printed preview URL, normally http://127.0.0.1:4173. Visit once while connected and allow the service worker to finish installing. The app shell and lessons then work offline. Audio and CJK font slices are cached as used; Settings → Save all audio downloads the complete voice library for offline study. Development mode does not install the offline service worker. Changing the hostname or port creates a separate browser storage origin; export a backup before moving to another origin.
 
 ## What works
 
 - **Sayo 小夜, the study mentor**: reacts to answers with short Mandarin lines (Chinese, pinyin, English); level-ups name what you can now do; an optional days-in-a-row count. Final artwork spec in [MASCOT_BRIEF.md](MASCOT_BRIEF.md).
 - **Beginner path map**: Read and Listen show a winding, Duolingo-style trail of units (learn → quick check → reading) with Sayo marking where to start, plus a plain-language 10-step “whole journey.”
 - **Characters-first reading path** (new default, switchable): starts with counting 一–十, then easy first words; 66 characters in eight lessons; every new character shows its pinyin and audio with stroke-order animation, component breakdowns (meaning / sound / shape), labelled origin notes, example words and optional tracing. Sound and pinyin stay hidden until requested.
-- **Graded readings**: five short original texts with tap-to-gloss, optional pinyin and per-line English, coverage from your own unaided recognition, and comprehension checks.
+- **Graded readings**: original texts and pack dialogues with tap-to-gloss, optional pinyin and per-line English, coverage from your own unaided recognition, and comprehension checks.
 - **Character wall** showing every character as not met / met / recognised / secure.
 
 - Three-step onboarding with goals, a choice of path (characters first, side by side, sound first), a 10/20/30/45/60-minute daily budget, and quiet mode.
-- Twenty accessible lessons: ten foundation lessons and ten everyday contexts; 78 authored phrases and 348 exercise steps. These are reusable activity instances, not 348 independently authored lessons. Prerequisites guide the sequence without locking the catalog.
+- The foundation and everyday lessons now include twelve HSK 1 content-pack units. Content validation reports the current lesson and phrase totals. The HSK roadmap covers all levels; the current curriculum does not yet provide complete coverage at every level. AI-assisted packs remain drafts for native-speaker review.
 - Audio-first comprehension, explicit usage notes, retrieval reflection, character recognition, sentence assembly, recording/replay and supported alternatives.
 - Bundled Sayo audio in multiple moods, including dialogue turns in the same voice identity. Audio must finish before an unaided listening response can be submitted. Optional device voices are also available.
+- **Watch and sing**: local video or audio with timed SRT/VTT/LRC captions, subtitle/peek/no-subtitle practice, saved lines, notes and Anki export. Media files are never uploaded. Saved lines and watch history are included in device backups; they are currently local and are not part of cloud sync.
+- **Branding**: Sayo portrait tile, outlined SVG KĪYO wordmark, and the compact 清 browser favicon. The portrait retains the approved raster artwork; the lettering is vector.
 - Independent FSRS memories, due reviews, mistake records, pause/resume and an explainable daily plan based on actual attempts.
 - Two four-turn conversation rehearsals, with optional local recording and transparent, limited typed-response matching.
 - Three-pass Media Lab scene: gist, detail and return without text; segment replay, slower audio, local video, SRT captions and A–B loops.
@@ -71,15 +73,15 @@ Add reading packs as `content/packs/*.hsk.json`, following `hsk-reading.hsk.json
 
 ## Evidence and privacy
 
-No backend, analytics, advertising, remote tutor, or cloud speech-recognition service is connected. Attempts, review state and preferences are stored in this browser's IndexedDB. Audio recordings and imported media stay in the current tab and are discarded when their screen closes. Bundled voices are local. **Optional device speech voices may contact the browser/operating-system provider**; use the bundled voices for predictable offline behavior.
+The deployed app uses Supabase for Google sign-in and optional progress sync. Analytics, advertising, a remote tutor and cloud speech recognition are not connected. Attempts, review state and preferences are stored in this browser's IndexedDB. Audio recordings and imported media stay in the current tab and are discarded when their screen closes. Bundled voices are local. **Optional device speech voices may contact the browser/operating-system provider**; use the bundled voices for predictable offline behavior.
 
 Use Settings → Export learning record regularly. Browser data can be cleared or evicted. Export includes attempts, schedules, mistakes, sessions, lesson positions and preferences, but no voice recordings or imported videos. Import validates the complete file before a transactional merge; matching IDs are replaced with the imported version after confirmation. Use one active study tab. Optional consent-based cloud sync is implemented but remains disconnected until configured; there is no application-level database encryption.
 
 ## Optional cloud sync
 
-Copy `.env.example` to `.env.local` only when setting up an authorized local Supabase instance. Keep it blank for local-only learning. Setup, the migration, the RLS verification script, and two-device acceptance checks are in [supabase/README.md](supabase/README.md). No live project has been connected.
+Copy `.env.example` to `.env.local` only when configuring an authorized Supabase instance. Keep it blank for local-only learning. Setup, the migration, the RLS verification script, and two-device acceptance checks are in [supabase/README.md](supabase/README.md). Production shares the Shiori Supabase project, with separate Kiyo tables and owner-only access rules.
 
-Sync covers attempts, rebuilt schedules, mistakes, completed sessions and learning preferences. First sign-in with existing guest progress requires consent. Signing out keeps local data. Settings provides the last sync time, Sync now, Export learning record and Delete my cloud data. Cloud deletion pauses uploads and keeps a minimal deletion marker so another device cannot silently restore deleted history. Recordings, imported video and unfinished lesson positions stay local. The ten approved Sayo pose revisions are installed; the new Kiyo logo concepts remain uninstalled.
+Sync covers attempts, rebuilt schedules, mistakes, completed sessions and learning preferences. First sign-in with existing guest progress requires consent. Signing out keeps local data. Settings provides the last sync time, Sync now, Export learning record and Delete my cloud data. Cloud deletion pauses uploads and keeps a minimal deletion marker so another device cannot silently restore deleted history. Recordings, imported video, saved media lines/history and unfinished lesson positions stay local. The approved Sayo pose revisions and portrait branding are installed; the KĪYO lettering is SVG, while the portrait uses existing raster art.
 
 Supported attempts remain supported after help is hidden. Self-reported recall and recordings do not earn a measured pronunciation score. Typed scripted conversations are labeled rehearsal. Completed lessons are not fluency. Formal HSK mappings and exam readiness remain pending; the current exam and the 2021 standard are separate references.
 

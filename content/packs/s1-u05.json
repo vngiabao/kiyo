@@ -1,0 +1,152 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u05",
+    "stage": 1,
+    "order": 5,
+    "title": "Add me on WeChat",
+    "titleZh": "加个微信吧",
+    "canDo": ["Swap WeChat or phone numbers", "Read phone numbers the Chinese way", "Answer the phone and arrange a call"],
+    "hskTarget": { "standard": "HSK3.0", "level": 1 },
+    "prerequisites": ["s1-u04"],
+    "estimatedMinutes": 34
+  },
+  "vocabulary": [
+    { "id": "s1-u05-w-weixin", "hanzi": "微信", "pinyin": "Wēixìn", "pos": "noun", "meaning": "WeChat", "meaningVi": "WeChat", "register": "neutral", "hskLevel": null,
+      "example": { "zh": "你有微信吗？", "py": "Nǐ yǒu Wēixìn ma?", "en": "Do you have WeChat?" } },
+    { "id": "s1-u05-w-jia", "hanzi": "加", "pinyin": "jiā", "pos": "verb", "meaning": "to add", "meaningVi": "thêm, kết bạn", "register": "casual", "hskLevel": null,
+      "example": { "zh": "我们加个微信吧！", "py": "Wǒmen jiā ge Wēixìn ba!", "en": "Let's add each other on WeChat!" } },
+    { "id": "s1-u05-w-shouji", "hanzi": "手机", "pinyin": "shǒujī", "pos": "noun", "meaning": "mobile phone", "meaningVi": "điện thoại di động", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你的手机号是多少？", "py": "Nǐ de shǒujī hào shì duōshao?", "en": "What's your mobile number?" } },
+    { "id": "s1-u05-w-dianhua", "hanzi": "电话", "pinyin": "diànhuà", "pos": "noun", "meaning": "phone; phone call", "meaningVi": "điện thoại", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "这是我的电话。", "py": "Zhè shì wǒ de diànhuà.", "en": "This is my number." } },
+    { "id": "s1-u05-w-dadianhua", "hanzi": "打电话", "pinyin": "dǎ diànhuà", "pos": "verb", "meaning": "to make a phone call", "meaningVi": "gọi điện thoại", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "我给你打电话。", "py": "Wǒ gěi nǐ dǎ diànhuà.", "en": "I'll call you." } },
+    { "id": "s1-u05-w-gei", "hanzi": "给", "pinyin": "gěi", "pos": "preposition / verb", "meaning": "to; for; to give", "meaningVi": "cho; gửi", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你给我打电话吧。", "py": "Nǐ gěi wǒ dǎ diànhuà ba.", "en": "Give me a call." } },
+    { "id": "s1-u05-w-yihuir", "hanzi": "一会儿", "pinyin": "yíhuìr", "pos": "noun", "meaning": "a moment; in a bit", "meaningVi": "một lát", "register": "casual", "hskLevel": 1,
+      "example": { "zh": "我一会儿给你打电话。", "py": "Wǒ yíhuìr gěi nǐ dǎ diànhuà.", "en": "I'll call you in a bit." } },
+    { "id": "s1-u05-w-wei", "hanzi": "喂", "pinyin": "wéi", "pos": "interjection", "meaning": "hello? (on the phone)", "meaningVi": "a lô", "register": "casual", "hskLevel": null,
+      "example": { "zh": "喂，你好！", "py": "Wéi, nǐ hǎo!", "en": "Hello? Hi!" }, "usageNote": "On the phone it's said wéi (rising). Only for phone calls." },
+    { "id": "s1-u05-w-ling", "hanzi": "零", "pinyin": "líng", "pos": "number", "meaning": "zero", "meaningVi": "số không", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "零六二七", "py": "líng liù èr qī", "en": "0627" } },
+    { "id": "s1-u05-w-na", "hanzi": "那", "pinyin": "nà", "pos": "pronoun", "meaning": "that; then, in that case", "meaningVi": "đó; vậy thì", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "那星期六怎么样？", "py": "Nà xīngqīliù zěnmeyàng?", "en": "Then how about Saturday?" } },
+    { "id": "s1-u05-w-gaosu", "hanzi": "告诉", "pinyin": "gàosu", "pos": "verb", "meaning": "to tell", "meaningVi": "nói cho biết", "register": "neutral", "hskLevel": 1,
+      "example": { "zh": "你告诉我你的手机号吧。", "py": "Nǐ gàosu wǒ nǐ de shǒujī hào ba.", "en": "Tell me your number." } },
+    { "id": "s1-u05-w-haode", "hanzi": "好的", "pinyin": "hǎo de", "pos": "phrase", "meaning": "OK; sure", "meaningVi": "được, ok", "register": "casual", "isChunk": true, "hskLevel": null,
+      "example": { "zh": "好的，一会儿见！", "py": "Hǎo de, yíhuìr jiàn!", "en": "OK, see you in a bit!" } }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u05-g-gei",
+      "pattern": "给 + person + verb",
+      "purpose": "Say who you do something for or to",
+      "explanation": "给 introduces the person, before the verb: 我给你打电话 (I to you make a call = I'll call you). Same order as 在 + place: the extra detail comes before the action.",
+      "examples": [
+        { "zh": "我给你打电话。", "py": "Wǒ gěi nǐ dǎ diànhuà.", "en": "I'll call you." },
+        { "zh": "你给我打电话吧。", "py": "Nǐ gěi wǒ dǎ diànhuà ba.", "en": "Give me a call." },
+        { "zh": "我一会儿给你打电话。", "py": "Wǒ yíhuìr gěi nǐ dǎ diànhuà.", "en": "I'll call you in a bit." }
+      ],
+      "commonMistakes": [{ "wrong": "我打电话给你一会儿。", "right": "我一会儿给你打电话。", "why": "Time and 给 + person both come before the verb." }],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u05-g-phone",
+      "pattern": "Phone numbers: digit by digit, 一 = yāo",
+      "purpose": "Say and understand phone numbers",
+      "explanation": "Read numbers one digit at a time, often in groups: 138 0627 5914. In phone, room and bus numbers 一 is read yāo so it can't be confused with 七 qī. Ask: 你的手机号是多少？",
+      "examples": [
+        { "zh": "一三八，零六二七，五九一四。", "py": "Yāo sān bā, líng liù èr qī, wǔ jiǔ yāo sì.", "en": "138 0627 5914." },
+        { "zh": "你的手机号是多少？", "py": "Nǐ de shǒujī hào shì duōshao?", "en": "What's your mobile number?" }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u05-d",
+    "title": "Swapping numbers",
+    "titleZh": "加个微信吧",
+    "setting": "After the language exchange, Chen Yu wants to stay in touch with Anna.",
+    "register": "casual",
+    "speakers": [{ "id": "chenyu", "name": "陈宇" }, { "id": "anna", "name": "安娜" }],
+    "lines": [
+      { "speaker": "chenyu", "zh": "我们加个微信吧？", "py": "Wǒmen jiā ge Wēixìn ba?", "en": "Shall we add each other on WeChat?" },
+      { "speaker": "anna", "zh": "我没有微信。你的手机号是多少？", "py": "Wǒ méiyǒu Wēixìn. Nǐ de shǒujī hào shì duōshao?", "en": "I don't have WeChat. What's your number?" },
+      { "speaker": "chenyu", "zh": "一三八，零六二七，五九一四。", "py": "Yāo sān bā, líng liù èr qī, wǔ jiǔ yāo sì.", "en": "138 0627 5914." },
+      { "speaker": "anna", "zh": "慢一点儿！一三八，然后呢？", "py": "Màn yìdiǎnr! Yāo sān bā, ránhòu ne?", "en": "Slower! 138, then?" },
+      { "speaker": "chenyu", "zh": "零六二七，五九一四。", "py": "Líng liù èr qī, wǔ jiǔ yāo sì.", "en": "0627, 5914." },
+      { "speaker": "anna", "zh": "好，我一会儿给你打电话。", "py": "Hǎo, wǒ yíhuìr gěi nǐ dǎ diànhuà.", "en": "OK, I'll call you in a bit." },
+      { "speaker": "chenyu", "zh": "好的！", "py": "Hǎo de!", "en": "Great!" }
+    ],
+    "questions": [
+      { "type": "gist", "q": "What are they doing?", "choices": ["Swapping phone numbers", "Ordering food", "Saying goodbye forever"], "answer": "Swapping phone numbers" },
+      { "type": "detail", "q": "Why don't they add each other on WeChat?", "choices": ["Anna doesn't have WeChat", "Chen Yu's phone is dead", "They already have"], "answer": "Anna doesn't have WeChat" },
+      { "type": "intent", "q": "What does Anna promise?", "choices": ["To call him in a bit", "To send him a message tomorrow", "To meet him at three"], "answer": "To call him in a bit" }
+    ]
+  },
+  "reading": {
+    "id": "s1-u05-r",
+    "title": "First messages",
+    "titleZh": "第一条信息",
+    "format": "message",
+    "blurb": "Chen Yu and Anna's first chat.",
+    "purpose": "Read their first messages. When will they meet, and how will they find each other?",
+    "speakers": [{ "id": "chenyu", "name": "陈宇" }, { "id": "anna", "name": "安娜" }],
+    "lines": [
+      { "speaker": "chenyu", "zh": "你好！我是陈宇。", "py": "Nǐ hǎo! Wǒ shì Chén Yǔ.", "en": "Hi! It's Chen Yu." },
+      { "speaker": "anna", "zh": "你好！很高兴认识你。", "py": "Nǐ hǎo! Hěn gāoxìng rènshi nǐ.", "en": "Hi! Nice to meet you." },
+      { "speaker": "chenyu", "zh": "你明天有空吗？我们一起喝咖啡吧。", "py": "Nǐ míngtiān yǒu kòng ma? Wǒmen yìqǐ hē kāfēi ba.", "en": "Are you free tomorrow? Let's get a coffee." },
+      { "speaker": "anna", "zh": "明天我不能去，那星期六怎么样？", "py": "Míngtiān wǒ bù néng qù, nà xīngqīliù zěnmeyàng?", "en": "I can't tomorrow. How about Saturday?" },
+      { "speaker": "chenyu", "zh": "好！星期六下午三点，我给你打电话。", "py": "Hǎo! Xīngqīliù xiàwǔ sān diǎn, wǒ gěi nǐ dǎ diànhuà.", "en": "Great! Saturday at 3, I'll call you." }
+    ],
+    "questions": [
+      { "type": "detail", "q": "Why don't they meet tomorrow?", "choices": ["Anna can't make it", "Chen Yu is busy", "The café is closed"], "answer": "Anna can't make it" },
+      { "type": "detail", "q": "When will they meet?", "choices": ["Saturday at 3 pm", "Tomorrow at 3 pm", "Saturday morning"], "answer": "Saturday at 3 pm" },
+      { "type": "inference", "q": "How will they find each other on Saturday?", "choices": ["Chen Yu will call her", "Anna will message", "They'll meet at the metro"], "answer": "Chen Yu will call her" }
+    ],
+    "cloze": {
+      "lines": [
+        { "speaker": "anna", "zh": "明天我不【能】去，那星期六【怎么样】？", "py": "Míngtiān wǒ bù néng qù, nà xīngqīliù zěnmeyàng?", "en": "I can't tomorrow. How about Saturday?" },
+        { "speaker": "chenyu", "zh": "好！星期六下午三点，我【给】你打电话。", "py": "Hǎo! Xīngqīliù xiàwǔ sān diǎn, wǒ gěi nǐ dǎ diànhuà.", "en": "Great! Saturday at 3, I'll call you." }
+      ],
+      "bank": ["能", "怎么样", "给", "吃"]
+    }
+  },
+  "conversation": {
+    "id": "s1-u05-c",
+    "title": "Staying in touch",
+    "place": "Leaving a café",
+    "context": "A new friend wants to keep in touch.",
+    "goal": "Give your number and agree to call",
+    "partner": { "name": "陈宇", "persona": "friendly, a little fast" },
+    "turns": [
+      { "text": "你有微信吗？", "pinyin": "Nǐ yǒu Wēixìn ma?", "meaning": "Do you have WeChat?", "intent": "Say yes or no", "examples": ["有", "没有"], "accept": ["有"] },
+      { "text": "你的手机号是多少？", "pinyin": "Nǐ de shǒujī hào shì duōshao?", "meaning": "What's your number?", "intent": "Say a number digit by digit", "examples": ["一三八零六二七五九一四"], "accept": ["[零一二三四五六七八九]{5,}"] },
+      { "text": "我一会儿给你打电话，好吗？", "pinyin": "Wǒ yíhuìr gěi nǐ dǎ diànhuà, hǎo ma?", "meaning": "I'll call you in a bit, OK?", "intent": "Agree", "examples": ["好的！", "好啊"], "accept": ["好"] }
+    ],
+    "aiPartnerBrief": "You are 陈宇. Ask for the learner's number and read yours digit by digit with 一 as yāo."
+  },
+  "pragmatics": [
+    { "situation": "Asking a new friend to stay in touch", "natural": { "zh": "我们加个微信吧！", "py": "Wǒmen jiā ge Wēixìn ba!", "en": "Let's add each other on WeChat!" }, "tooFormal": { "zh": "请问，可以告诉我您的联系方式吗？", "py": "Qǐngwèn, kěyǐ gàosu wǒ nín de liánxì fāngshì ma?" }, "note": "In China, WeChat is the normal way to keep in touch, even with new acquaintances." },
+    { "situation": "Answering the phone", "natural": { "zh": "喂，你好！", "py": "Wéi, nǐ hǎo!", "en": "Hello?" }, "tooBlunt": { "zh": "说。", "py": "Shuō." }, "note": "Every call starts with 喂. Add 你好 for someone you don't know." }
+  ],
+  "tasks": [
+    { "type": "truefalse", "id": "s1-u05-tf1", "phrase": "s1-u05-w-yihuir", "audio": { "zh": "我一会儿给你打电话。", "py": "Wǒ yíhuìr gěi nǐ dǎ diànhuà.", "en": "I'll call you in a bit." }, "statement": "The speaker will call soon.", "answer": true, "why": "一会儿 means in a moment." },
+    { "type": "truefalse", "id": "s1-u05-tf2", "phrase": "s1-u05-w-weixin", "audio": { "zh": "我没有微信。", "py": "Wǒ méiyǒu Wēixìn.", "en": "I don't have WeChat." }, "statement": "The speaker has WeChat.", "answer": false, "why": "没有 means doesn't have." },
+    { "type": "truefalse", "id": "s1-u05-tf3", "phrase": "s1-u05-w-ling", "audio": { "zh": "我的手机号是一三九，零零一七。", "py": "Wǒ de shǒujī hào shì yāo sān jiǔ, líng líng yāo qī.", "en": "My number is 139 0017." }, "statement": "The number starts with 137.", "answer": false, "why": "一三九 is 1-3-9; yāo is how 一 sounds in numbers." },
+    { "type": "truefalse", "id": "s1-u05-tf4", "phrase": "s1-u05-w-wei", "audio": { "zh": "喂，你好！我是林安。", "py": "Wéi, nǐ hǎo! Wǒ shì Lín Ān.", "en": "Hello? Hi, it's Lin An." }, "statement": "Lin An is on the phone.", "answer": true, "why": "喂 starts a phone call." },
+    { "type": "reply", "id": "s1-u05-r1", "phrase": "s1-u05-w-jia", "prompt": { "zh": "我们加个微信吧！", "py": "Wǒmen jiā ge Wēixìn ba!", "en": "Let's add each other on WeChat!" }, "choices": ["好啊！", "不客气。", "我二十岁。"], "answer": "好啊！" },
+    { "type": "reply", "id": "s1-u05-r2", "phrase": "s1-u05-w-wei", "prompt": { "zh": "喂，你好！", "py": "Wéi, nǐ hǎo!", "en": "Hello?" }, "choices": ["生日快乐！", "你好！我是安娜。", "太冷了！"], "answer": "你好！我是安娜。" },
+    { "type": "reply", "id": "s1-u05-r3", "phrase": "s1-u05-w-shouji", "prompt": { "zh": "你的手机号是多少？", "py": "Nǐ de shǒujī hào shì duōshao?", "en": "What's your number?" }, "choices": ["我在医院工作。", "下午三点。", "一三八，零六二七。"], "answer": "一三八，零六二七。" },
+    { "type": "listenfill", "id": "s1-u05-f1", "phrase": "s1-u05-w-gei", "line": { "zh": "我一会儿【给】你打电话。", "py": "Wǒ yíhuìr gěi nǐ dǎ diànhuà.", "en": "I'll call you in a bit." }, "blankPy": "gěi" },
+    { "type": "listenfill", "id": "s1-u05-f2", "phrase": "s1-u05-w-weixin", "line": { "zh": "我们加个【微信】吧！", "py": "Wǒmen jiā ge Wēixìn ba!", "en": "Let's add each other on WeChat!" }, "blankPy": "Wēixìn" },
+    { "type": "cloze", "id": "s1-u05-c1", "phrase": "s1-u05-w-dianhua", "title": "No number yet", "lines": [{ "zh": "我没有你的【手机】号。你【给】我打【电话】吧！", "py": "Wǒ méiyǒu nǐ de shǒujī hào. Nǐ gěi wǒ dǎ diànhuà ba!", "en": "I don't have your number. Give me a call!" }], "bank": ["手机", "给", "电话", "微信"] },
+    { "type": "match", "id": "s1-u05-m1", "phrase": "s1-u05-w-dadianhua", "title": "What would you say?", "pairs": [
+      { "left": "Answer the phone", "right": { "zh": "喂，你好！", "py": "Wéi, nǐ hǎo!", "en": "" } },
+      { "left": "Suggest adding each other on WeChat", "right": { "zh": "我们加个微信吧！", "py": "Wǒmen jiā ge Wēixìn ba!", "en": "" } },
+      { "left": "Say you'll call in a bit", "right": { "zh": "我一会儿给你打电话。", "py": "Wǒ yíhuìr gěi nǐ dǎ diànhuà.", "en": "" } }
+    ] }
+  ],
+  "notes": "AI-assisted draft. 喂 is given as wéi (phone); some dictionaries list wèi. Check the cloze: 微信 as distractor in \"打微信\" is unnatural, which is intended."
+}
