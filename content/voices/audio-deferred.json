@@ -1,0 +1,169 @@
+{
+  "decision": "Owner decision, 6 Oct 2026: Kiyo is reading-first. Lines whose Sayo take could not be verified by the automatic speech screen ship WITHOUT a Sayo clip (the app falls back to the device voice) instead of blocking the release. They are not marked reviewed. Remove a line from this list as soon as an accepted take is installed.",
+  "reason": "Erhua (儿化) endings: automatic transcription (local ASR and Whisper large-v3) consistently omits 儿, so the screen cannot confirm the rhotic ending. Native listening still needed.",
+  "texts": [
+    "没事儿，明天再来。",
+    "没事儿，再记一次。",
+    "那个男孩儿是我弟弟。",
+    "女孩儿",
+    "那个女孩儿是我妹妹。",
+    "没事儿。你先等一下，我看日历。",
+    "没事儿，今天不用等老师，明天也别等。",
+    "那边的男孩儿和女孩儿呢？",
+    "弟弟是那边的男孩儿，妹妹是旁边的女孩儿。",
+    "男孩儿跟女孩儿，小朋友在楼下玩。"
+  ],
+  "entries": [
+    {
+      "text": "没事儿，明天再来。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\a739793f61b18167-clear-087c5f4a4289.json",
+          "rawSha256": "4c4f94fa8477b70499dfa686a793d5ae77d9b2d4532b08c7457b4bbdfcb0bd15",
+          "transcript": "没事 明天再来",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "没事儿，再记一次。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\8868a5c0ed09317a-clear-d1e531a838fd.json",
+          "rawSha256": "c25382d16095c4640e86b0566997d185c2b766b84343fd0720c5df866fb3da1b",
+          "transcript": "没事 再记一次",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "那个男孩儿是我弟弟。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\c445386d32626dd6-clear-14d64f5f428a.json",
+          "rawSha256": "1c90d2a4cd5b25173177f0fee2af6107ef771eca327c3c83c80ab972828e538e",
+          "transcript": "那個男孩是我弟弟",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "女孩儿",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\08a83ed3192475b6-clear-a86897a05eba.json",
+          "rawSha256": "f4352f2af745e2fcf323c047b160a3e26de2b1b5d037dcdfd139fd9708fd54cc",
+          "transcript": "女孩",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "那个女孩儿是我妹妹。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\73cd90cdde1bd36d-clear-d41ae4daec1c.json",
+          "rawSha256": "c6fce1f9d2cc57e1bb8fe01e3a7cc0dfb1169e8a874247dfd9bd166627309e39",
+          "transcript": "那个女孩是我妹妹",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "没事儿。你先等一下，我看日历。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\b0e6ab04c121a082-clear-ff9a786f3dc0.json",
+          "rawSha256": "358cc6a10c6cbaf5d451203a66713a4c4be92e9d3324d1be679954ca701974d5",
+          "transcript": "没事 你先等一下我看日历",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "没事儿，今天不用等老师，明天也别等。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\a8c80cd9974d7cca-clear-722f4d06947b.json",
+          "rawSha256": "10c8ab38fcad756c8938b88d3c0e2b55145e7af40ecc6d8b7e087bbc861d68d4",
+          "transcript": "没事 今天不用等老师 明天也别等",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "那边的男孩儿和女孩儿呢？",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\d40a8f66cca20d45-clear-7f316758be0e.json",
+          "rawSha256": "a28b92455cbe85347f623fe3fd467674e1f5abd2b8353888384016dadf109c98",
+          "transcript": "那邊的男孩和女孩呢",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "弟弟是那边的男孩儿，妹妹是旁边的女孩儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\963376ffd1125996-clear-4fff3034938f.json",
+          "rawSha256": "2daa54dd1b2316cf4f758e4958d0527bff8ed882e0c27132e77c911c194b2ab5",
+          "transcript": "弟弟是那邊的男孩妹妹是旁邊的女孩",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "男孩儿跟女孩儿，小朋友在楼下玩。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 4,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\b66036f6b7cc9cab-clear-a8a1bd1f7ce9.json",
+          "rawSha256": "1cd8abdf7c0d35bfcadb6238dfee6370f2ff802732be27a9f9f6473ed8abcd5f",
+          "transcript": "男孩跟女孩小朋友在楼下玩",
+          "status": "needs-review"
+        }
+      ]
+    }
+  ],
+  "policy": "Owner approved directly: one real repair, then dated device-speech deferral. All non-audio gates remain strict."
+}

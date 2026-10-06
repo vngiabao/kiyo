@@ -1,0 +1,1375 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u23",
+    "stage": 1,
+    "order": 23,
+    "title": "Meet me outside",
+    "titleZh": "在车站见",
+    "canDo": [
+      "Agree on a station meeting place and clock time",
+      "Use 在 before an action to give its location",
+      "Read a date and distinguish boarding from getting off"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u22"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u23-w01",
+      "hanzi": "车",
+      "pinyin": "chē",
+      "meaning": "vehicle; car",
+      "meaningVi": "xe",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那辆车是朋友的。",
+        "py": "nà liàng chē shì péng you de .",
+        "en": "That vehicle belongs to a friend."
+      }
+    },
+    {
+      "id": "s1-u23-w02",
+      "hanzi": "车票",
+      "pinyin": "chē piào",
+      "meaning": "transport ticket",
+      "meaningVi": "vé xe",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我买了两张车票。",
+        "py": "wǒ mǎi le liǎng zhāng chē piào .",
+        "en": "I bought two tickets."
+      }
+    },
+    {
+      "id": "s1-u23-w03",
+      "hanzi": "车上",
+      "pinyin": "chē shàng",
+      "meaning": "on board a vehicle",
+      "meaningVi": "trên xe",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我现在在车上。",
+        "py": "wǒ xiàn zài zài chē shàng .",
+        "en": "I am on the vehicle now."
+      }
+    },
+    {
+      "id": "s1-u23-w04",
+      "hanzi": "车站",
+      "pinyin": "chē zhàn",
+      "meaning": "station; bus stop",
+      "meaningVi": "bến xe; ga",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们在车站见面。",
+        "py": "wǒ men zài chē zhàn jiàn miàn .",
+        "en": "Let us meet at the station."
+      }
+    },
+    {
+      "id": "s1-u23-w05",
+      "hanzi": "路",
+      "pinyin": "lù",
+      "meaning": "road",
+      "meaningVi": "đường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这条路不长。",
+        "py": "zhè tiáo lù bù zhǎng .",
+        "en": "This road is not long."
+      }
+    },
+    {
+      "id": "s1-u23-w06",
+      "hanzi": "路口",
+      "pinyin": "lù kǒu",
+      "meaning": "road junction",
+      "meaningVi": "ngã đường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我在路口等你。",
+        "py": "wǒ zài lù kǒu děng nǐ .",
+        "en": "I will wait for you at the junction."
+      }
+    },
+    {
+      "id": "s1-u23-w07",
+      "hanzi": "路上",
+      "pinyin": "lù shàng",
+      "meaning": "on the way; on the road",
+      "meaningVi": "trên đường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我在路上，还有五分钟。",
+        "py": "wǒ zài lù shàng , hái yǒu wǔ fēn zhōng .",
+        "en": "I am on the way; it will be another five minutes."
+      }
+    },
+    {
+      "id": "s1-u23-w08",
+      "hanzi": "马路",
+      "pinyin": "mǎ lù",
+      "meaning": "road; street",
+      "meaningVi": "đường phố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "马路上有很多车。",
+        "py": "mǎ lù shàng yǒu hěn duō chē .",
+        "en": "There are many vehicles on the road."
+      }
+    },
+    {
+      "id": "s1-u23-w09",
+      "hanzi": "汽车",
+      "pinyin": "qì chē",
+      "meaning": "motor vehicle; car",
+      "meaningVi": "ô tô",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这辆汽车是蓝色的。",
+        "py": "zhè liàng qì chē shì lán sè de .",
+        "en": "This car is blue."
+      }
+    },
+    {
+      "id": "s1-u23-w10",
+      "hanzi": "上车",
+      "pinyin": "shàng chē",
+      "meaning": "to get on a vehicle",
+      "meaningVi": "lên xe",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们八点上车。",
+        "py": "wǒ men bā diǎn shàng chē .",
+        "en": "We get on at eight."
+      }
+    },
+    {
+      "id": "s1-u23-w11",
+      "hanzi": "下车",
+      "pinyin": "xià chē",
+      "meaning": "to get off a vehicle",
+      "meaningVi": "xuống xe",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你在大学站下车。",
+        "py": "nǐ zài dà xué zhàn xià chē .",
+        "en": "Get off at University Station."
+      }
+    },
+    {
+      "id": "s1-u23-w12",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "meaning": "station; stop; to stand",
+      "meaningVi": "ga; bến; đứng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "下一站是大学站。",
+        "py": "xià yī zhàn shì dà xué zhàn .",
+        "en": "The next stop is University Station."
+      }
+    },
+    {
+      "id": "s1-u23-w13",
+      "hanzi": "这边",
+      "pinyin": "zhè biān",
+      "meaning": "this side; over here",
+      "meaningVi": "bên này",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "出口在这边。",
+        "py": "chū kǒu zài zhè biān .",
+        "en": "The exit is on this side."
+      }
+    },
+    {
+      "id": "s1-u23-w14",
+      "hanzi": "那边",
+      "pinyin": "nà biān",
+      "meaning": "that side; over there",
+      "meaningVi": "bên kia",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那边有一家商店。",
+        "py": "nà biān yǒu yī jiā shāng diàn .",
+        "en": "There is a shop over there."
+      }
+    },
+    {
+      "id": "s1-u23-w15",
+      "hanzi": "旁边",
+      "pinyin": "páng biān",
+      "meaning": "beside; next to",
+      "meaningVi": "bên cạnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我在车站旁边。",
+        "py": "wǒ zài chē zhàn páng biān .",
+        "en": "I am next to the station."
+      }
+    },
+    {
+      "id": "s1-u23-w16",
+      "hanzi": "地方",
+      "pinyin": "dì fāng",
+      "meaning": "place",
+      "meaningVi": "nơi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个地方很好找。",
+        "py": "zhè gè dì fāng hěn hǎo zhǎo .",
+        "en": "This place is easy to find."
+      }
+    },
+    {
+      "id": "s1-u23-w17",
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning": "minute; divide",
+      "meaningVi": "phút; chia",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "现在七点五十分。",
+        "py": "xiàn zài qī diǎn wǔ shí fēn .",
+        "en": "It is seven fifty now."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "车",
+      "pinyin": "chē",
+      "meaning": "vehicle",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "车",
+          "role": "whole",
+          "gloss": "vehicle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 车 in 车 / 车票. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "车",
+          "p": "chē",
+          "m": "vehicle; car"
+        },
+        {
+          "w": "车票",
+          "p": "chē piào",
+          "m": "transport ticket"
+        }
+      ]
+    },
+    {
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "meaning": "station; to stand",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "站",
+          "role": "whole",
+          "gloss": "station; to stand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 站 in 车站 / 站. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "车站",
+          "p": "chē zhàn",
+          "m": "station; bus stop"
+        },
+        {
+          "w": "站",
+          "p": "zhàn",
+          "m": "station; stop; to stand"
+        }
+      ]
+    },
+    {
+      "hanzi": "路",
+      "pinyin": "lù",
+      "meaning": "road",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "路",
+          "role": "whole",
+          "gloss": "road"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 路 in 路 / 路口. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "路",
+          "p": "lù",
+          "m": "road"
+        },
+        {
+          "w": "路口",
+          "p": "lù kǒu",
+          "m": "road junction"
+        }
+      ]
+    },
+    {
+      "hanzi": "汽",
+      "pinyin": "qì",
+      "meaning": "steam",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "汽",
+          "role": "whole",
+          "gloss": "steam"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 汽 in 汽车. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "汽车",
+          "p": "qì chē",
+          "m": "motor vehicle; car"
+        }
+      ]
+    },
+    {
+      "hanzi": "方",
+      "pinyin": "fāng",
+      "meaning": "direction; place",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "方",
+          "role": "whole",
+          "gloss": "direction; place"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 方 in 地方. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "地方",
+          "p": "dì fāng",
+          "m": "place"
+        }
+      ]
+    },
+    {
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning": "minute; to divide",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "分",
+          "role": "whole",
+          "gloss": "minute; to divide"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 分 in 分 / 分钟. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "分",
+          "p": "fēn",
+          "m": "minute; divide"
+        },
+        {
+          "w": "分钟",
+          "p": "fēnzhōng",
+          "m": "minute (length of time)"
+        }
+      ]
+    },
+    {
+      "hanzi": "从",
+      "pinyin": "cóng",
+      "meaning": "from",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "从",
+          "role": "whole",
+          "gloss": "from"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 从 in 从. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "从",
+          "p": "cóng",
+          "m": "from"
+        }
+      ]
+    },
+    {
+      "hanzi": "号",
+      "pinyin": "hào",
+      "meaning": "number",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "号",
+          "role": "whole",
+          "gloss": "number"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 号 in 号. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "号",
+          "p": "hào",
+          "m": "day of the month (spoken)"
+        }
+      ]
+    },
+    {
+      "hanzi": "零",
+      "pinyin": "líng",
+      "meaning": "zero",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "零",
+          "role": "whole",
+          "gloss": "zero"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 零 in 零. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "零",
+          "p": "líng",
+          "m": "zero"
+        }
+      ]
+    },
+    {
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "meaning": "two",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "两",
+          "role": "whole",
+          "gloss": "two"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 两 in 两. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "两",
+          "p": "liǎng",
+          "m": "two (before a measure word)"
+        }
+      ]
+    },
+    {
+      "hanzi": "百",
+      "pinyin": "bǎi",
+      "meaning": "hundred",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "百",
+          "role": "whole",
+          "gloss": "hundred"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 百 in 百. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "百",
+          "p": "bǎi",
+          "m": "hundred"
+        }
+      ]
+    },
+    {
+      "hanzi": "远",
+      "pinyin": "yuǎn",
+      "meaning": "far",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "远",
+          "role": "whole",
+          "gloss": "far"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 远 in 远. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "远",
+          "p": "yuǎn",
+          "m": "far"
+        }
+      ]
+    },
+    {
+      "hanzi": "走",
+      "pinyin": "zǒu",
+      "meaning": "to walk",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "走",
+          "role": "whole",
+          "gloss": "to walk"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 走 in 走路 / 慢走. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "走路",
+          "p": "zǒulù",
+          "m": "to walk"
+        },
+        {
+          "w": "慢走",
+          "p": "màn zǒu",
+          "m": "take care (seeing a guest off)"
+        }
+      ]
+    },
+    {
+      "hanzi": "坐",
+      "pinyin": "zuò",
+      "meaning": "to sit; ride",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "坐",
+          "role": "whole",
+          "gloss": "to sit; ride"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 坐 in 坐. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "坐",
+          "p": "zuò",
+          "m": "to sit; to take (transport)"
+        }
+      ]
+    },
+    {
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaning": "dot; o’clock",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "点",
+          "role": "whole",
+          "gloss": "dot; o’clock"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 点 in 一点儿 / 地点. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "一点儿",
+          "p": "yìdiǎnr",
+          "m": "a little (amount)"
+        },
+        {
+          "w": "地点",
+          "p": "dì diǎn",
+          "m": "location; venue"
+        }
+      ]
+    },
+    {
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning": "many; much",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "多",
+          "role": "whole",
+          "gloss": "many; much"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 多 in 多大 / 多. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "多大",
+          "p": "duō dà",
+          "m": "how old (asking a peer)"
+        },
+        {
+          "w": "多",
+          "p": "duō",
+          "m": "how (in degree questions); many"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u23-g一16",
+      "pattern": "在 + place + action",
+      "purpose": "Give the location of an action",
+      "explanation": "在 introduces where an action happens: 我在车站等你. The place phrase normally comes before the action verb. Compare 我在车站, where 在 itself states location, with 我在等你, where 在 marks an ongoing action. The following word tells you which use is intended.",
+      "examples": [
+        {
+          "zh": "我在车站旁边等你。",
+          "py": "wǒ zài chē zhàn páng biān děng nǐ .",
+          "en": "I will wait beside the station."
+        },
+        {
+          "zh": "我们在这边买车票。",
+          "py": "wǒ men zài zhè biān mǎi chē piào .",
+          "en": "We buy tickets on this side."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我等在车站你。",
+          "right": "我在车站等你。",
+          "why": "Put the location before 等 and its object 你."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u23-g一29",
+      "pattern": "subject + action + object",
+      "purpose": "Build an ordinary verb-predicate sentence",
+      "explanation": "An ordinary action sentence has a subject and a verb phrase: 我买车票. Time and place can precede the verb: 我八点在车站买票. A yes/no question may use 吗; the action does not need 是. This family concerns action predicates; adjective and nominal predicates have their own patterns.",
+      "examples": [
+        {
+          "zh": "我买车票，你等朋友。",
+          "py": "wǒ mǎi chē piào , nǐ děng péng you .",
+          "en": "I buy tickets; you wait for our friend."
+        },
+        {
+          "zh": "朋友在大学站下车。",
+          "py": "péng you zài dà xué zhàn xià chē .",
+          "en": "Our friend gets off at University Station."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我是买车票。",
+          "right": "我买车票。",
+          "why": "For a neutral statement of the action, do not insert 是 before 买. Contextual emphatic 是 has a different use."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u23-g一44",
+      "pattern": "year → month → day · hour → minutes",
+      "purpose": "Read a complete appointment date and time",
+      "explanation": "Write a date from larger units to smaller: 二零二六年十月六日. 年 is read digit by digit; 〇 in a year is líng. 日 is formal; 号 is common in speech. A weekday uses 星期 plus 一 to 六, or 日/天 for Sunday. Clock time puts 点 before minutes: 八点零五分. 半 means half past, so 八点半 is eight thirty. Use 二 in 二零二六年 but 两 in 两点.",
+      "examples": [
+        {
+          "zh": "二零二六年十月六日，星期二。",
+          "py": "èr líng èr liù nián shí yuè liù rì , xīng qī èr .",
+          "en": "Tuesday, 6 October 2026."
+        },
+        {
+          "zh": "我们八点零五分见面。",
+          "py": "wǒ men bā diǎn líng wǔ fēn jiàn miàn .",
+          "en": "Let us meet at eight oh five."
+        },
+        {
+          "zh": "星期日两点半上车。",
+          "py": "xīng qī rì liǎng diǎn bàn shàng chē .",
+          "en": "Board on Sunday at half past two."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "五分八点见面。",
+          "right": "八点零五分见面。",
+          "why": "Say the hour before the minutes."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u23-d",
+    "title": "Which side of the station?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the agreed meeting point and time.",
+    "lines": [
+      {
+        "zh": "我们星期二八点在车站见面，好吗？",
+        "py": "wǒ men xīng qī èr bā diǎn zài chē zhàn jiàn miàn , hǎo ma ?",
+        "en": "Shall we meet at the station on Tuesday at eight?",
+        "speaker": "a"
+      },
+      {
+        "zh": "十月六号，八点零五分吧。我要先买车票。",
+        "py": "shí yuè liù hào , bā diǎn líng wǔ fēn ba . wǒ yào xiān mǎi chē piào .",
+        "en": "On 6 October, at eight oh five. I need to buy a ticket first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好。你现在在什么地方？",
+        "py": "hǎo . nǐ xiàn zài zài shén me dì fāng ?",
+        "en": "Okay. Where are you now?",
+        "speaker": "a"
+      },
+      {
+        "zh": "在车上，下一站是大学站，我在那里下车。",
+        "py": "zài chē shàng , xià yī zhàn shì dà xué zhàn , wǒ zài nà lǐ xià chē .",
+        "en": "On the vehicle. The next stop is University Station; I will get off there.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我在路上，还有五分钟。你在路口等吗？",
+        "py": "wǒ zài lù shàng , hái yǒu wǔ fēn zhōng . nǐ zài lù kǒu děng ma ?",
+        "en": "I am on the way, another five minutes. Will you wait at the junction?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不，路口的马路上车多。我在车站旁边等。",
+        "py": "bù , lù kǒu de mǎ lù shàng chē duō . wǒ zài chē zhàn páng biān děng .",
+        "en": "No, there is heavy traffic at the junction. I will wait beside the station.",
+        "speaker": "b"
+      },
+      {
+        "zh": "是在这边还是那边？",
+        "py": "shì zài zhè biān hái shi nà biān ?",
+        "en": "Is it on this side or that side?",
+        "speaker": "a"
+      },
+      {
+        "zh": "出口这边，旁边有商店，这个地方很好找。",
+        "py": "chū kǒu zhè biān , páng biān yǒu shāng diàn , zhè gè dì fāng hěn hǎo zhǎo .",
+        "en": "On the exit side, next to a shop. This place is easy to find.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我看到一辆蓝色汽车，是你的车吗？",
+        "py": "wǒ kàn dào yī liàng lán sè qì chē , shì nǐ de chē ma ?",
+        "en": "I can see a blue car; is it yours?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是。我走这条路过来，你别在马路上等。",
+        "py": "bù shì . wǒ zǒu zhè tiáo lù guò lái , nǐ bié zài mǎ lù shàng děng .",
+        "en": "No. I am walking along this road to you; do not wait in the road.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我下车后先买两张车票。",
+        "py": "hǎo , wǒ xià chē hòu xiān mǎi liǎng zhāng chē piào .",
+        "en": "Okay. After getting off, I will buy two tickets first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "行，我们八点半再一起上车。",
+        "py": "xíng , wǒ men bā diǎn bàn zài yì qǐ shàng chē .",
+        "en": "Okay. We will get on together at eight thirty.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What are they clarifying?",
+        "choices": [
+          "The meeting point and time",
+          "A restaurant order",
+          "A school subject"
+        ],
+        "answer": "The meeting point and time"
+      },
+      {
+        "type": "detail",
+        "q": "What time do they agree to meet?",
+        "choices": [
+          "Eight oh five",
+          "Eight thirty",
+          "Seven fifty"
+        ],
+        "answer": "Eight oh five"
+      },
+      {
+        "type": "inference",
+        "q": "Why avoid waiting at the junction?",
+        "choices": [
+          "There is heavy traffic",
+          "The shop is closed",
+          "The tickets are free"
+        ],
+        "answer": "There is heavy traffic"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "辆",
+        "pinyin": "liàng",
+        "meaning": "classifier for vehicles"
+      },
+      {
+        "hanzi": "蓝色",
+        "pinyin": "lán sè",
+        "meaning": "blue"
+      },
+      {
+        "hanzi": "条",
+        "pinyin": "tiáo",
+        "meaning": "classifier for long things such as roads"
+      },
+      {
+        "hanzi": "过",
+        "pinyin": "guò",
+        "meaning": "to cross; pass"
+      },
+      {
+        "hanzi": "路口",
+        "pinyin": "lù kǒu",
+        "meaning": "road junction"
+      },
+      {
+        "hanzi": "出口",
+        "pinyin": "chū kǒu",
+        "meaning": "exit"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u23-r",
+    "title": "Meeting note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the meeting time, the boarding time and the safe waiting place.",
+    "lines": [
+      {
+        "zh": "二零二六年十月六日，星期二，我们去见朋友。",
+        "py": "èr líng èr liù nián shí yuè liù rì , xīng qī èr , wǒ men qù jiàn péng you .",
+        "en": "On Tuesday, 6 October 2026, we are going to meet a friend."
+      },
+      {
+        "zh": "先在大学站下车，八点零五分在车站旁边见面。",
+        "py": "xiān zài dà xué zhàn xià chē , bā diǎn líng wǔ fēn zài chē zhàn páng biān jiàn miàn .",
+        "en": "Get off at University Station first; meet beside the station at eight oh five."
+      },
+      {
+        "zh": "现在七点五十分，我在车上，朋友在路上。",
+        "py": "xiàn zài qī diǎn wǔ shí fēn , wǒ zài chē shàng , péng you zài lù shàng .",
+        "en": "It is seven fifty now. I am on the vehicle; my friend is on the way."
+      },
+      {
+        "zh": "路口的马路上车很多，不在路口等。",
+        "py": "lù kǒu de mǎ lù shàng chē hěn duō , bù zài lù kǒu děng .",
+        "en": "There are many vehicles on the road at the junction; do not wait there."
+      },
+      {
+        "zh": "出口这边有商店，我们在这个地方等。",
+        "py": "chū kǒu zhè biān yǒu shāng diàn , wǒ men zài zhè gè dì fāng děng .",
+        "en": "There is a shop on the exit side; we will wait at this place."
+      },
+      {
+        "zh": "那边有一辆蓝色汽车，不是朋友的车。",
+        "py": "nà biān yǒu yī liàng lán sè qì chē , bù shì péng you de chē .",
+        "en": "There is a blue car over there; it is not our friend’s."
+      },
+      {
+        "zh": "这条路不长，走五分钟就到。",
+        "py": "zhè tiáo lù bù zhǎng , zǒu wǔ fēn zhōng jiù dào .",
+        "en": "This road is short; it is five minutes on foot."
+      },
+      {
+        "zh": "我先买两张车票，八点半我们再一起上车。",
+        "py": "wǒ xiān mǎi liǎng zhāng chē piào , bā diǎn bàn wǒ men zài yì qǐ shàng chē .",
+        "en": "I will buy two tickets first; we will get on together at eight thirty."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note explain?",
+        "choices": [
+          "A transport meeting plan",
+          "How to wash a car",
+          "Where to study all night"
+        ],
+        "answer": "A transport meeting plan"
+      },
+      {
+        "type": "detail",
+        "q": "What happens at eight thirty?",
+        "choices": [
+          "They board together",
+          "They first meet",
+          "The writer gets off"
+        ],
+        "answer": "They board together"
+      },
+      {
+        "type": "inference",
+        "q": "Is the blue car their planned transport?",
+        "choices": [
+          "No, it is not their friend’s car",
+          "Yes, it belongs to the writer",
+          "Yes, it is a taxi they booked"
+        ],
+        "answer": "No, it is not their friend’s car"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "先在大学站下车，八点【零五】分在车站旁边见面。",
+          "py": "xiān zài dà xué zhàn xià chē , bā diǎn líng wǔ fēn zài chē zhàn páng biān jiàn miàn .",
+          "en": "Get off at University Station first; meet beside the station at eight oh five."
+        },
+        {
+          "zh": "我先买两张车票，八点半我们再一起【上车】。",
+          "py": "wǒ xiān mǎi liǎng zhāng chē piào , bā diǎn bàn wǒ men zài yì qǐ shàng chē .",
+          "en": "I will buy two tickets first; we will get on together at eight thirty."
+        }
+      ],
+      "bank": [
+        "零五",
+        "上车",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "辆",
+        "pinyin": "liàng",
+        "meaning": "classifier for vehicles"
+      },
+      {
+        "hanzi": "蓝色",
+        "pinyin": "lán sè",
+        "meaning": "blue"
+      },
+      {
+        "hanzi": "条",
+        "pinyin": "tiáo",
+        "meaning": "classifier for long things such as roads"
+      },
+      {
+        "hanzi": "路口",
+        "pinyin": "lù kǒu",
+        "meaning": "road junction"
+      },
+      {
+        "hanzi": "出口",
+        "pinyin": "chū kǒu",
+        "meaning": "exit"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u23-media",
+      "title": "Do not wait in the road",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Follow a meeting mix-up in an original scene.",
+      "lines": [
+        {
+          "zh": "我在这边。你在哪边？",
+          "py": "wǒ zài zhè biān . nǐ zài nǎ biān ?",
+          "en": "I am over here. Which side are you on?",
+          "speaker": "a"
+        },
+        {
+          "zh": "在车站旁边，不在路口。",
+          "py": "zài chē zhàn páng biān , bù zài lù kǒu .",
+          "en": "Beside the station, not at the junction.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那辆汽车是你的车吗？",
+          "py": "nà liàng qì chē shì nǐ de chē ma ?",
+          "en": "Is that car yours?",
+          "speaker": "a"
+        },
+        {
+          "zh": "不是。先下车，走到出口这边。",
+          "py": "bù shì . xiān xià chē , zǒu dào chū kǒu zhè biān .",
+          "en": "No. Get off first, then walk to this side of the exit.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这条路上车很多，我先等红灯。",
+          "py": "zhè tiáo lù shàng chē hěn duō , wǒ xiān děng hóng dēng .",
+          "en": "There is heavy traffic on this road; I will wait at the red light first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好，安全一点。八点零五分见面，八点半再上车。",
+          "py": "hǎo , ān quán yī diǎn . bā diǎn líng wǔ fēn jiàn miàn , bā diǎn bàn zài shàng chē .",
+          "en": "Good, stay safe. Meet at eight oh five and board at eight thirty.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Is arriving quickly more important than safety?",
+          "choices": [
+            "No, waiting at the red light is accepted",
+            "Yes, the friend says to run",
+            "The traffic light is broken"
+          ],
+          "answer": "No, waiting at the red light is accepted"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "辆",
+          "pinyin": "liàng",
+          "meaning": "classifier for vehicles"
+        },
+        {
+          "hanzi": "条",
+          "pinyin": "tiáo",
+          "meaning": "classifier for long things such as roads"
+        },
+        {
+          "hanzi": "路口",
+          "pinyin": "lù kǒu",
+          "meaning": "road junction"
+        },
+        {
+          "hanzi": "出口",
+          "pinyin": "chū kǒu",
+          "meaning": "exit"
+        },
+        {
+          "hanzi": "红灯",
+          "pinyin": "hóng dēng",
+          "meaning": "red traffic light"
+        },
+        {
+          "hanzi": "安全",
+          "pinyin": "ān quán",
+          "meaning": "safe; safety"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u23-t1",
+      "phrase": "s1-u23-w07",
+      "audio": {
+        "zh": "我在路上，还有五分钟。",
+        "py": "wǒ zài lù shàng , hái yǒu wǔ fēn zhōng .",
+        "en": "I am on the way; another five minutes."
+      },
+      "statement": "The speaker has already arrived.",
+      "answer": false,
+      "why": "在路上 means still on the way."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u23-t2",
+      "phrase": "s1-u23-w11",
+      "audio": {
+        "zh": "我在大学站下车。",
+        "py": "wǒ zài dà xué zhàn xià chē .",
+        "en": "I get off at University Station."
+      },
+      "statement": "The speaker gets off at University Station.",
+      "answer": true,
+      "why": "下车 is getting off."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u23-t3",
+      "phrase": "s1-u23-w16",
+      "prompt": {
+        "zh": "你在什么地方？",
+        "py": "nǐ zài shén me dì fāng ?",
+        "en": "Where are you?"
+      },
+      "choices": [
+        "我在车站旁边。",
+        "八点半。",
+        "两张。"
+      ],
+      "answer": "我在车站旁边。",
+      "why": "Give a place."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u23-t4",
+      "phrase": "s1-u23-w17",
+      "prompt": {
+        "zh": "几点见面？",
+        "py": "jǐ diǎn jiàn miàn ?",
+        "en": "What time do we meet?"
+      },
+      "choices": [
+        "八点零五分。",
+        "八张车票。",
+        "八个人。"
+      ],
+      "answer": "八点零五分。",
+      "why": "Give the clock time."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u23-t5",
+      "phrase": "s1-u23-w02",
+      "line": {
+        "zh": "我买两张【车票】。",
+        "py": "wǒ mǎi liǎng zhāng chē piào .",
+        "en": "I will buy two tickets."
+      },
+      "blankPy": "chē piào"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u23-t6",
+      "phrase": "s1-u23-w15",
+      "line": {
+        "zh": "我在车站【旁边】等。",
+        "py": "wǒ zài chē zhàn páng biān děng .",
+        "en": "I will wait beside the station."
+      },
+      "blankPy": "páng biān"
+    },
+    {
+      "type": "match",
+      "id": "s1-u23-t7",
+      "phrase": "s1-u23-w10",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Board at eight thirty.",
+          "right": {
+            "zh": "八点半上车。",
+            "py": "bā diǎn bàn shàng chē .",
+            "en": "Board at eight thirty."
+          }
+        },
+        {
+          "left": "I am on the vehicle now.",
+          "right": {
+            "zh": "我现在在车上。",
+            "py": "wǒ xiàn zài zài chē shàng .",
+            "en": "I am on the vehicle now."
+          }
+        },
+        {
+          "left": "There is a car over there.",
+          "right": {
+            "zh": "那边有一辆汽车。",
+            "py": "nà biān yǒu yī liàng qì chē .",
+            "en": "There is a car over there."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u23-t8",
+      "phrase": "s1-u23-w08",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "There are many vehicles on the road.",
+          "right": {
+            "zh": "马路上车很多。",
+            "py": "mǎ lù shàng chē hěn duō .",
+            "en": "There are many vehicles on the road."
+          }
+        },
+        {
+          "left": "This road is not long.",
+          "right": {
+            "zh": "这条路不长。",
+            "py": "zhè tiáo lù bù zhǎng .",
+            "en": "This road is not long."
+          }
+        },
+        {
+          "left": "The exit is on this side.",
+          "right": {
+            "zh": "出口在这边。",
+            "py": "chū kǒu zài zhè biān .",
+            "en": "The exit is on this side."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u23-t9",
+      "phrase": "s1-u23-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I watched two films at home.",
+          "right": {
+            "zh": "我在家看了两个电影。",
+            "py": "Wǒ zài jiā kàn le liǎng ge diànyǐng.",
+            "en": "I watched two films at home."
+          }
+        },
+        {
+          "left": "One shop, two rooms, three family members.",
+          "right": {
+            "zh": "一家商店，两间房，三口人。",
+            "py": "yī jiā shāng diàn , liǎng jiān fáng , sān kǒu rén .",
+            "en": "One shop, two rooms, three family members."
+          }
+        },
+        {
+          "left": "I often read at home; she often studies in the morning.",
+          "right": {
+            "zh": "我常在家读书，她常常上午学习。",
+            "py": "wǒ cháng zài jiā dú shū , tā cháng cháng shàng wǔ xué xí .",
+            "en": "I often read at home; she often studies in the morning."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "A precise meeting point",
+      "natural": {
+        "zh": "出口这边，商店旁边。",
+        "py": "chū kǒu zhè biān , shāng diàn páng biān .",
+        "en": "On the exit side, beside the shop."
+      },
+      "note": "A landmark and side are more helpful than a bare station name."
+    },
+    {
+      "situation": "Safe arrival",
+      "natural": {
+        "zh": "别在马路上等。",
+        "py": "bié zài mǎ lù shàng děng .",
+        "en": "Do not wait in the road."
+      },
+      "note": "Keep the instruction about a specific unsafe location."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u23-speak",
+    "title": "Meet me outside",
+    "place": "A language-exchange meeting",
+    "context": "Set a meeting place and a precise time.",
+    "goal": "Agree on a station meeting place and clock time",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "几点见面？",
+        "pinyin": "jǐ diǎn jiàn miàn ?",
+        "meaning": "When do we meet?",
+        "intent": "Say eight oh five",
+        "examples": [
+          "八点零五分。"
+        ],
+        "accept": [
+          "^八点零五分。[。！？]?$"
+        ]
+      },
+      {
+        "text": "在哪里等？",
+        "pinyin": "zài nǎ lǐ děng ?",
+        "meaning": "Where should we wait?",
+        "intent": "Say beside the station",
+        "examples": [
+          "在车站旁边等。"
+        ],
+        "accept": [
+          "^在车站旁边等。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一16, 一29, 一44. Native check: vehicle/station context, 零 in year/clock reading, and street safety wording. Dates are verified against the real weekday, not a recurring promise. Planned retrieval 一41 / 一08 / 一37 / 一12 / 一28: 我在家看了两个电影。, 一家商店，两间房，三口人。, 我常在家读书，她常常上午学习。."
+}

@@ -1,0 +1,1232 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u20",
+    "stage": 1,
+    "order": 20,
+    "title": "What are you doing now?",
+    "titleZh": "现在忙吗",
+    "canDo": [
+      "Tell a friend what you are doing now",
+      "Recognize progressive 在 / 正 / 正在 / 呢",
+      "Ask for a reply without interrupting someone"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u19"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u20-w01",
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "meaning": "busy",
+      "meaningVi": "bận",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你现在忙吗？",
+        "py": "nǐ xiàn zài máng ma ?",
+        "en": "Are you busy now?"
+      }
+    },
+    {
+      "id": "s1-u20-w02",
+      "hanzi": "现在",
+      "pinyin": "xiàn zài",
+      "meaning": "now",
+      "meaningVi": "bây giờ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我现在在家。",
+        "py": "wǒ xiàn zài zài jiā .",
+        "en": "I am at home now."
+      }
+    },
+    {
+      "id": "s1-u20-w03",
+      "hanzi": "马上",
+      "pinyin": "mǎ shàng",
+      "meaning": "right away",
+      "meaningVi": "ngay lập tức",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我马上回你。",
+        "py": "wǒ mǎ shàng huí nǐ .",
+        "en": "I will reply to you right away."
+      }
+    },
+    {
+      "id": "s1-u20-w04",
+      "hanzi": "先",
+      "pinyin": "xiān",
+      "meaning": "first",
+      "meaningVi": "trước; trước tiên",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你先读，我再说。",
+        "py": "nǐ xiān dú , wǒ zài shuō .",
+        "en": "You read first; I will speak afterwards."
+      }
+    },
+    {
+      "id": "s1-u20-w05",
+      "hanzi": "正",
+      "pinyin": "zhèng",
+      "meaning": "just; currently",
+      "meaningVi": "đang; đúng lúc",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我正读书呢。",
+        "py": "wǒ zhèng dú shū ne .",
+        "en": "I am reading right now."
+      }
+    },
+    {
+      "id": "s1-u20-w06",
+      "hanzi": "正在",
+      "pinyin": "zhèng zài",
+      "meaning": "in the middle of doing",
+      "meaningVi": "đang",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我正在读课文。",
+        "py": "wǒ zhèng zài dú kè wén .",
+        "en": "I am reading the lesson text."
+      }
+    },
+    {
+      "id": "s1-u20-w07",
+      "hanzi": "有时候",
+      "pinyin": "yǒu shí hou",
+      "meaning": "sometimes",
+      "meaningVi": "đôi khi",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我有时候晚上读书。",
+        "py": "wǒ yǒu shí hou wǎn shang dú shū .",
+        "en": "Sometimes I read at night."
+      }
+    },
+    {
+      "id": "s1-u20-w08",
+      "hanzi": "动作",
+      "pinyin": "dòng zuò",
+      "meaning": "movement; action",
+      "meaningVi": "động tác; hành động",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个动作很慢。",
+        "py": "zhè gè dòng zuò hěn màn .",
+        "en": "This movement is slow."
+      }
+    },
+    {
+      "id": "s1-u20-w09",
+      "hanzi": "干",
+      "pinyin": "gàn",
+      "meaning": "to do",
+      "meaningVi": "làm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你在干什么？",
+        "py": "nǐ zài gàn shén me ?",
+        "en": "What are you doing?"
+      }
+    },
+    {
+      "id": "s1-u20-w10",
+      "hanzi": "干什么",
+      "pinyin": "gàn shén me",
+      "meaning": "to do what",
+      "meaningVi": "làm gì",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你现在干什么？",
+        "py": "nǐ xiàn zài gàn shén me ?",
+        "en": "What are you doing now?"
+      }
+    },
+    {
+      "id": "s1-u20-w11",
+      "hanzi": "打开",
+      "pinyin": "dǎ kāi",
+      "meaning": "to open; turn on",
+      "meaningVi": "mở; bật",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请打开电脑。",
+        "py": "qǐng dǎ kāi diàn nǎo .",
+        "en": "Please turn on the computer."
+      }
+    },
+    {
+      "id": "s1-u20-w12",
+      "hanzi": "关",
+      "pinyin": "guān",
+      "meaning": "to close; turn off",
+      "meaningVi": "đóng; tắt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我先关电脑。",
+        "py": "wǒ xiān guān diàn nǎo .",
+        "en": "I will turn off the computer first."
+      }
+    },
+    {
+      "id": "s1-u20-w13",
+      "hanzi": "关上",
+      "pinyin": "guān shang",
+      "meaning": "to shut",
+      "meaningVi": "đóng lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请关上门。",
+        "py": "qǐng guān shang mén .",
+        "en": "Please shut the door."
+      }
+    },
+    {
+      "id": "s1-u20-w14",
+      "hanzi": "动",
+      "pinyin": "dòng",
+      "meaning": "to move",
+      "meaningVi": "cử động; di chuyển",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "先不要动。",
+        "py": "xiān bú yào dòng .",
+        "en": "Please do not move yet."
+      }
+    },
+    {
+      "id": "s1-u20-w15",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning": "to read",
+      "meaningVi": "đọc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我在读课文。",
+        "py": "wǒ zài dú kè wén .",
+        "en": "I am reading the lesson text."
+      }
+    },
+    {
+      "id": "s1-u20-w16",
+      "hanzi": "读书",
+      "pinyin": "dú shū",
+      "meaning": "to read; study",
+      "meaningVi": "đọc sách; học",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我喜欢在家读书。",
+        "py": "wǒ xǐ huān zài jiā dú shū .",
+        "en": "I like reading at home."
+      }
+    },
+    {
+      "id": "s1-u20-w17",
+      "hanzi": "上网",
+      "pinyin": "shàng wǎng",
+      "meaning": "to go online",
+      "meaningVi": "lên mạng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我现在不上网。",
+        "py": "wǒ xiàn zài bù shàng wǎng .",
+        "en": "I am not going online now."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "现",
+      "pinyin": "xiàn",
+      "meaning": "present; to appear",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "现",
+          "role": "whole",
+          "gloss": "present; to appear"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 现 in 现在. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "现在",
+          "p": "xiàn zài",
+          "m": "now"
+        }
+      ]
+    },
+    {
+      "hanzi": "先",
+      "pinyin": "xiān",
+      "meaning": "first",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "先",
+          "role": "whole",
+          "gloss": "first"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 先 in 先. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "先",
+          "p": "xiān",
+          "m": "first"
+        }
+      ]
+    },
+    {
+      "hanzi": "正",
+      "pinyin": "zhèng",
+      "meaning": "just; currently",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "正",
+          "role": "whole",
+          "gloss": "just; currently"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 正 in 正 / 正在. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "正",
+          "p": "zhèng",
+          "m": "just; currently"
+        },
+        {
+          "w": "正在",
+          "p": "zhèng zài",
+          "m": "in the middle of doing"
+        }
+      ]
+    },
+    {
+      "hanzi": "时",
+      "pinyin": "shí",
+      "meaning": "time",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "时",
+          "role": "whole",
+          "gloss": "time"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 时 in 有时候. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "有时候",
+          "p": "yǒu shí hou",
+          "m": "sometimes"
+        }
+      ]
+    },
+    {
+      "hanzi": "候",
+      "pinyin": "hòu",
+      "meaning": "time in 时候",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "候",
+          "role": "whole",
+          "gloss": "time in 时候"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 候 in 有时候. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "有时候",
+          "p": "yǒu shí hou",
+          "m": "sometimes"
+        }
+      ]
+    },
+    {
+      "hanzi": "动",
+      "pinyin": "dòng",
+      "meaning": "to move",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "动",
+          "role": "whole",
+          "gloss": "to move"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 动 in 动作 / 动. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "动作",
+          "p": "dòng zuò",
+          "m": "movement; action"
+        },
+        {
+          "w": "动",
+          "p": "dòng",
+          "m": "to move"
+        }
+      ]
+    },
+    {
+      "hanzi": "作",
+      "pinyin": "zuò",
+      "meaning": "action; work",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "作",
+          "role": "whole",
+          "gloss": "action; work"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 作 in 动作. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "动作",
+          "p": "dòng zuò",
+          "m": "movement; action"
+        }
+      ]
+    },
+    {
+      "hanzi": "打",
+      "pinyin": "dǎ",
+      "meaning": "to hit; open in 打开",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "打",
+          "role": "whole",
+          "gloss": "to hit; open in 打开"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 打 in 打开. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "打开",
+          "p": "dǎ kāi",
+          "m": "to open; turn on"
+        }
+      ]
+    },
+    {
+      "hanzi": "开",
+      "pinyin": "kāi",
+      "meaning": "to open",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "开",
+          "role": "whole",
+          "gloss": "to open"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 开 in 打开. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "打开",
+          "p": "dǎ kāi",
+          "m": "to open; turn on"
+        }
+      ]
+    },
+    {
+      "hanzi": "关",
+      "pinyin": "guān",
+      "meaning": "to close",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "关",
+          "role": "whole",
+          "gloss": "to close"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 关 in 关 / 关上. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "关",
+          "p": "guān",
+          "m": "to close; turn off"
+        },
+        {
+          "w": "关上",
+          "p": "guān shang",
+          "m": "to shut"
+        }
+      ]
+    },
+    {
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning": "to read",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "读",
+          "role": "whole",
+          "gloss": "to read"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 读 in 读 / 读书. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "读",
+          "p": "dú",
+          "m": "to read"
+        },
+        {
+          "w": "读书",
+          "p": "dú shū",
+          "m": "to read; study"
+        }
+      ]
+    },
+    {
+      "hanzi": "网",
+      "pinyin": "wǎng",
+      "meaning": "net; internet",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "网",
+          "role": "whole",
+          "gloss": "net; internet"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 网 in 上网. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "上网",
+          "p": "shàng wǎng",
+          "m": "to go online"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u20-g一11",
+      "pattern": "马上 / 先 / 有时 · 在 / 正 / 正在",
+      "purpose": "Place timing words before the action",
+      "explanation": "马上 says right away; 先 marks what happens first; 有时/有时候 means sometimes. Put these before the main verb, after the subject. 在/正/正在 can mark an ongoing action. Compare 我在家 (location) with 我在读书 (ongoing action). The two meanings of 在 have different complements.",
+      "examples": [
+        {
+          "zh": "我马上打开电脑。",
+          "py": "wǒ mǎ shàng dǎ kāi diàn nǎo .",
+          "en": "I will turn on the computer right away."
+        },
+        {
+          "zh": "你先读课文，我再读。",
+          "py": "nǐ xiān dú kè wén , wǒ zài dú .",
+          "en": "Read the lesson text first; I will read afterwards."
+        },
+        {
+          "zh": "我有时上网，有时候读书。",
+          "py": "wǒ yǒu shí shàng wǎng , yǒu shí hou dú shū .",
+          "en": "Sometimes I go online; sometimes I read."
+        },
+        {
+          "zh": "我正读书呢。",
+          "py": "wǒ zhèng dú shū ne .",
+          "en": "I am reading right now."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我打开马上电脑。",
+          "right": "我马上打开电脑。",
+          "why": "Put 马上 before the verb phrase 打开电脑."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u20-g一42",
+      "pattern": "在 / 正在 + verb · 在 / 正 / 正在 + verb + 呢 · action + 呢",
+      "purpose": "Report an action in progress",
+      "explanation": "Use 在 or 正在 before an action verb to emphasize that it is happening now. 呢 may close the sentence; with clear context it can carry the ongoing meaning without 在: 我读书呢. 正 commonly pairs with 呢. These patterns do not make all verbs progressive: states such as 有 normally do not use 正在. A question can ask 你在干什么？",
+      "examples": [
+        {
+          "zh": "我在读书。",
+          "py": "wǒ zài dú shū .",
+          "en": "I am reading."
+        },
+        {
+          "zh": "我正在读课文。",
+          "py": "wǒ zhèng zài dú kè wén .",
+          "en": "I am reading the lesson text."
+        },
+        {
+          "zh": "我在读书呢。",
+          "py": "wǒ zài dú shū ne .",
+          "en": "I am reading right now."
+        },
+        {
+          "zh": "我正读书呢。",
+          "py": "wǒ zhèng dú shū ne .",
+          "en": "I am reading right now."
+        },
+        {
+          "zh": "我正在读书呢。",
+          "py": "wǒ zhèng zài dú shū ne .",
+          "en": "I am in the middle of reading."
+        },
+        {
+          "zh": "我读书呢，等一下。",
+          "py": "wǒ dú shū ne , děng yī xià .",
+          "en": "I am reading; wait a moment."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我正在有三本书。",
+          "right": "我有三本书。",
+          "why": "Having books is a state, not an ongoing action here."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u20-d",
+    "title": "A voice message at the wrong moment",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the friend’s current activity and the agreed next step.",
+    "lines": [
+      {
+        "zh": "你现在忙吗？在干什么？",
+        "py": "nǐ xiàn zài máng ma ? zài gàn shén me ?",
+        "en": "Are you busy now? What are you doing?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我正在读书呢，先不说话。",
+        "py": "wǒ zhèng zài dú shū ne , xiān bù shuō huà .",
+        "en": "I am reading right now, so I will not talk yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我马上关电脑。",
+        "py": "hǎo , wǒ mǎ shàng guān diàn nǎo .",
+        "en": "Okay, I will turn off the computer right away.",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用。你先上网找课文。",
+        "py": "bù yòng . nǐ xiān shàng wǎng zhǎo kè wén .",
+        "en": "No need. Go online and find the lesson text first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你有时候读书，有时候上网，是吗？",
+        "py": "nǐ yǒu shí hou dú shū , yǒu shí hou shàng wǎng , shì ma ?",
+        "en": "Sometimes you read and sometimes you go online, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。我正读课文呢。",
+        "py": "duì . wǒ zhèng dú kè wén ne .",
+        "en": "Yes. I am reading the lesson text right now.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我打开电脑了，现在做什么？",
+        "py": "wǒ dǎ kāi diàn nǎo le , xiàn zài zuò shén me ?",
+        "en": "I turned on the computer. What should I do now?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先看这个动作，不要动。",
+        "py": "xiān kàn zhè gè dòng zuò , bú yào dòng .",
+        "en": "Watch this movement first; do not move yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这个动作很慢，我看清楚了。",
+        "py": "zhè gè dòng zuò hěn màn , wǒ kàn qīng chǔ le .",
+        "en": "This movement is slow; I can see it clearly.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，关上门，再大声读。",
+        "py": "hǎo , guān shang mén , zài dà shēng dú .",
+        "en": "Good. Shut the door, then read aloud.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我在读呢。你能听到吗？",
+        "py": "wǒ zài dú ne . nǐ néng tīng dào ma ?",
+        "en": "I am reading. Can you hear?",
+        "speaker": "a"
+      },
+      {
+        "zh": "能听到。读完再回消息，不着急。",
+        "py": "néng tīng dào . dú wán zài huí xiāo xī , bù zháo jí .",
+        "en": "Yes. Reply to the message after reading; there is no rush.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do the friends arrange?",
+        "choices": [
+          "Reading practice without an interruption",
+          "A shopping trip",
+          "A shared meal"
+        ],
+        "answer": "Reading practice without an interruption"
+      },
+      {
+        "type": "detail",
+        "q": "What is the friend doing at first?",
+        "choices": [
+          "Reading",
+          "Cooking",
+          "Watching a film"
+        ],
+        "answer": "Reading"
+      },
+      {
+        "type": "inference",
+        "q": "Must the message be answered immediately?",
+        "choices": [
+          "No, reading comes first",
+          "Yes, before reading",
+          "Yes, before closing the door"
+        ],
+        "answer": "No, reading comes first"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "消息",
+        "pinyin": "xiāo xī",
+        "meaning": "message"
+      },
+      {
+        "hanzi": "回",
+        "pinyin": "huí",
+        "meaning": "to reply"
+      },
+      {
+        "hanzi": "清楚",
+        "pinyin": "qīng chǔ",
+        "meaning": "clear; clearly"
+      },
+      {
+        "hanzi": "大声",
+        "pinyin": "dà shēng",
+        "meaning": "in a loud voice"
+      },
+      {
+        "hanzi": "着急",
+        "pinyin": "zháo jí",
+        "meaning": "to be anxious; in a hurry"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u20-r",
+    "title": "A short reply",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find why the reply can wait and what to do first.",
+    "lines": [
+      {
+        "zh": "我现在很忙，正在读课文。",
+        "py": "wǒ xiàn zài hěn máng , zhèng zài dú kè wén .",
+        "en": "I am busy now, reading the lesson text."
+      },
+      {
+        "zh": "你问我在干什么，我先回一个消息。",
+        "py": "nǐ wèn wǒ zài gàn shén me , wǒ xiān huí yī gè xiāo xī .",
+        "en": "You asked what I am doing; I will reply with one message first."
+      },
+      {
+        "zh": "我有时候读书，有时候上网找课文。",
+        "py": "wǒ yǒu shí hou dú shū , yǒu shí hou shàng wǎng zhǎo kè wén .",
+        "en": "Sometimes I read books; sometimes I go online to find lesson texts."
+      },
+      {
+        "zh": "今天我打开电脑，正在看一个动作。",
+        "py": "jīn tiān wǒ dǎ kāi diàn nǎo , zhèng zài kàn yī gè dòng zuò .",
+        "en": "Today I turned on the computer and am watching a movement."
+      },
+      {
+        "zh": "动作很慢，看清楚再动。",
+        "py": "dòng zuò hěn màn , kàn qīng chǔ zài dòng .",
+        "en": "The movement is slow; move after you see it clearly."
+      },
+      {
+        "zh": "我关上门，在家读书呢。",
+        "py": "wǒ guān shang mén , zài jiā dú shū ne .",
+        "en": "I shut the door and am reading at home."
+      },
+      {
+        "zh": "现在先读，读完再说。",
+        "py": "xiàn zài xiān dú , dú wán zài shuō .",
+        "en": "Read first now; talk after finishing."
+      },
+      {
+        "zh": "我马上关电脑，晚上再上网。",
+        "py": "wǒ mǎ shàng guān diàn nǎo , wǎn shang zài shàng wǎng .",
+        "en": "I will turn off the computer right away and go online again tonight."
+      },
+      {
+        "zh": "你不用马上回我，先做你的事。",
+        "py": "nǐ bù yòng mǎ shàng huí wǒ , xiān zuò nǐ de shì .",
+        "en": "You do not need to reply right away; do what you need to do first."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the writer suggest?",
+        "choices": [
+          "Let messages wait while studying",
+          "Never use a computer",
+          "Read only at night"
+        ],
+        "answer": "Let messages wait while studying"
+      },
+      {
+        "type": "detail",
+        "q": "What is the writer watching?",
+        "choices": [
+          "A slow movement",
+          "A cooking video",
+          "A film"
+        ],
+        "answer": "A slow movement"
+      },
+      {
+        "type": "inference",
+        "q": "Does 上网 always mean wasting time here?",
+        "choices": [
+          "No, it can help find texts",
+          "Yes, it is forbidden",
+          "The writer has no internet"
+        ],
+        "answer": "No, it can help find texts"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我现在很忙，【正在】读课文。",
+          "py": "wǒ xiàn zài hěn máng , zhèng zài dú kè wén .",
+          "en": "I am busy now, reading the lesson text."
+        },
+        {
+          "zh": "我【马上】关电脑，晚上再上网。",
+          "py": "wǒ mǎ shàng guān diàn nǎo , wǎn shang zài shàng wǎng .",
+          "en": "I will turn off the computer right away and go online again tonight."
+        }
+      ],
+      "bank": [
+        "正在",
+        "马上",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "消息",
+        "pinyin": "xiāo xī",
+        "meaning": "message"
+      },
+      {
+        "hanzi": "回",
+        "pinyin": "huí",
+        "meaning": "to reply"
+      },
+      {
+        "hanzi": "清楚",
+        "pinyin": "qīng chǔ",
+        "meaning": "clear; clearly"
+      },
+      {
+        "hanzi": "事",
+        "pinyin": "shì",
+        "meaning": "matter; thing to do"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u20-media",
+      "title": "Wait for the last line",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Follow a voice message in an original verse.",
+      "lines": [
+        {
+          "zh": "现在忙，正读书呢。",
+          "py": "xiàn zài máng , zhèng dú shū ne .",
+          "en": "Busy now, reading."
+        },
+        {
+          "zh": "你问干什么，我正在读课文。",
+          "py": "nǐ wèn gàn shén me , wǒ zhèng zài dú kè wén .",
+          "en": "You ask what I am doing; I am reading the lesson text."
+        },
+        {
+          "zh": "先打开电脑，有时候上网。",
+          "py": "xiān dǎ kāi diàn nǎo , yǒu shí hou shàng wǎng .",
+          "en": "Turn on the computer first; sometimes go online."
+        },
+        {
+          "zh": "动作慢一点，看好再动。",
+          "py": "dòng zuò màn yī diǎn , kàn hǎo zài dòng .",
+          "en": "A slower movement; watch before moving."
+        },
+        {
+          "zh": "关上门，大声读，马上关电脑。",
+          "py": "guān shang mén , dà shēng dú , mǎ shàng guān diàn nǎo .",
+          "en": "Shut the door, read aloud, turn off the computer soon."
+        },
+        {
+          "zh": "先读完，再说话，你的消息可以等。",
+          "py": "xiān dú wán , zài shuō huà , nǐ de xiāo xī kě yǐ děng .",
+          "en": "Finish reading, then talk; your message can wait."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What can wait?",
+          "choices": [
+            "The message",
+            "The movement",
+            "The door"
+          ],
+          "answer": "The message"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "消息",
+          "pinyin": "xiāo xī",
+          "meaning": "message"
+        },
+        {
+          "hanzi": "大声",
+          "pinyin": "dà shēng",
+          "meaning": "in a loud voice"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u20-t1",
+      "phrase": "s1-u20-w01",
+      "audio": {
+        "zh": "我现在忙，正在读书。",
+        "py": "wǒ xiàn zài máng , zhèng zài dú shū .",
+        "en": "I am busy now, reading."
+      },
+      "statement": "The speaker is reading now.",
+      "answer": true,
+      "why": "正在 marks the ongoing action."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u20-t2",
+      "phrase": "s1-u20-w13",
+      "audio": {
+        "zh": "我先关上门，再读。",
+        "py": "wǒ xiān guān shang mén , zài dú .",
+        "en": "I will shut the door first, then read."
+      },
+      "statement": "Reading comes before shutting the door.",
+      "answer": false,
+      "why": "先 marks closing as first."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u20-t3",
+      "phrase": "s1-u20-w10",
+      "prompt": {
+        "zh": "你在干什么？",
+        "py": "nǐ zài gàn shén me ?",
+        "en": "What are you doing?"
+      },
+      "choices": [
+        "我在读书。",
+        "三口人。",
+        "三块钱。"
+      ],
+      "answer": "我在读书。",
+      "why": "Answer with a current activity."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u20-t4",
+      "phrase": "s1-u20-w03",
+      "prompt": {
+        "zh": "要马上回消息吗？",
+        "py": "yào mǎ shàng huí xiāo xī ma ?",
+        "en": "Do I need to reply right away?"
+      },
+      "choices": [
+        "不用，先读书。",
+        "昨天八点。",
+        "这是钱包。"
+      ],
+      "answer": "不用，先读书。",
+      "why": "Say whether an immediate reply is needed."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u20-t5",
+      "phrase": "s1-u20-w04",
+      "line": {
+        "zh": "你【先】打开电脑。",
+        "py": "nǐ xiān dǎ kāi diàn nǎo .",
+        "en": "Turn on the computer first."
+      },
+      "blankPy": "xiān"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u20-t6",
+      "phrase": "s1-u20-w17",
+      "line": {
+        "zh": "我晚上再【上网】。",
+        "py": "wǒ wǎn shang zài shàng wǎng .",
+        "en": "I will go online again tonight."
+      },
+      "blankPy": "shàng wǎng"
+    },
+    {
+      "type": "match",
+      "id": "s1-u20-t7",
+      "phrase": "s1-u20-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I am reading right now.",
+          "right": {
+            "zh": "我正读书呢。",
+            "py": "wǒ zhèng dú shū ne .",
+            "en": "I am reading right now."
+          }
+        },
+        {
+          "left": "This movement is slow.",
+          "right": {
+            "zh": "这个动作很慢。",
+            "py": "zhè gè dòng zuò hěn màn .",
+            "en": "This movement is slow."
+          }
+        },
+        {
+          "left": "Please shut the door.",
+          "right": {
+            "zh": "请关上门。",
+            "py": "qǐng guān shang mén .",
+            "en": "Please shut the door."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u20-t8",
+      "phrase": "s1-u20-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Sometimes I read at home.",
+          "right": {
+            "zh": "我有时候在家读书。",
+            "py": "wǒ yǒu shí hou zài jiā dú shū .",
+            "en": "Sometimes I read at home."
+          }
+        },
+        {
+          "left": "Do not move now.",
+          "right": {
+            "zh": "现在不要动。",
+            "py": "xiàn zài bú yào dòng .",
+            "en": "Do not move now."
+          }
+        },
+        {
+          "left": "I will turn off the computer first.",
+          "right": {
+            "zh": "我先关电脑。",
+            "py": "wǒ xiān guān diàn nǎo .",
+            "en": "I will turn off the computer first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u20-t9",
+      "phrase": "s1-u20-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I watched two films yesterday.",
+          "right": {
+            "zh": "我昨天看了两个电影。",
+            "py": "Wǒ zuótiān kàn le liǎng ge diànyǐng.",
+            "en": "I watched two films yesterday."
+          }
+        },
+        {
+          "left": "Chinese subtitles or English subtitles?",
+          "right": {
+            "zh": "中文字幕还是英语字幕？",
+            "py": "Zhōngwén zìmù háishi Yīngyǔ zìmù?",
+            "en": "Chinese subtitles or English subtitles?"
+          }
+        },
+        {
+          "left": "What did you do at the weekend?",
+          "right": {
+            "zh": "周末你做了什么？",
+            "py": "Zhōumò nǐ zuò le shénme?",
+            "en": "What did you do at the weekend?"
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Respecting attention",
+      "natural": {
+        "zh": "不用马上回，先读书。",
+        "py": "bù yòng mǎ shàng huí , xiān dú shū .",
+        "en": "No need to reply right away; read first."
+      },
+      "note": "Make the permission explicit rather than expecting an immediate response."
+    },
+    {
+      "situation": "Asking about activity",
+      "natural": {
+        "zh": "你在干什么？",
+        "py": "nǐ zài gàn shén me ?",
+        "en": "What are you doing?"
+      },
+      "note": "Friendly in a shared context; a bare 干什么？ can sound abrupt depending on tone."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u20-speak",
+    "title": "What are you doing now?",
+    "place": "A language-exchange meeting",
+    "context": "Send a voice message without interrupting.",
+    "goal": "Tell a friend what you are doing now",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你在干什么？",
+        "pinyin": "nǐ zài gàn shén me ?",
+        "meaning": "What are you doing?",
+        "intent": "Say you are reading",
+        "examples": [
+          "我在读书。",
+          "我正在读书呢。"
+        ],
+        "accept": [
+          "^我在读书。[。！？]?$",
+          "^我正在读书呢。[。！？]?$"
+        ]
+      },
+      {
+        "text": "要马上回消息吗？",
+        "pinyin": "yào mǎ shàng huí xiāo xī ma ?",
+        "meaning": "Do I need to reply right away?",
+        "intent": "Tell the friend to read first",
+        "examples": [
+          "不用，先读书。"
+        ],
+        "accept": [
+          "^不用，先读书。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一11, 一42. Native check: voice-message context, progressive 呢 without 在, and clipped original verse rhythm. The grammar distinguishes state 有 from ongoing action. Planned retrieval 一21 / 一47: 我昨天看了两个电影。, 中文字幕还是英语字幕？, 周末你做了什么？."
+}

@@ -12,6 +12,7 @@ import { existsSync, readdirSync, readFileSync, writeFileSync, mkdirSync } from 
 import { basePhrases, lessons, readingLessons } from "../src/content";
 import { baseCharacters, baseReadings } from "../src/hanzi";
 import { isHan, validatePack, type ContentPack, type HskWord, type ValidationContext } from "../src/packs";
+import { wordsOf, type DictEntry } from "../src/dictionary";
 import { validateHskPack, type HskPracticePack } from "../src/hsk-pack";
 
 const dir = "content/packs";
@@ -30,6 +31,14 @@ const strokeData = existsSync(strokeDir)
   : undefined;
 
 const hanOf = (s: string) => Array.from(s).filter(isHan);
+// Word-level readability uses the offline dictionary (npm run dict). Without it, the gate
+// falls back to the character check only, and says so.
+const dict = new Map<string, DictEntry[]>();
+if (existsSync("public/dict/manifest.json"))
+  for (const f of readdirSync("public/dict").filter((f) => /^\d{3}\.json$/.test(f)))
+    for (const [k, v] of Object.entries(JSON.parse(readFileSync(`public/dict/${f}`, "utf8")) as Record<string, DictEntry[]>)) dict.set(k, v);
+else console.warn("⚠ public/dict missing: word-level readability isn't checked (run: npm run dict).");
+const splitWords = dict.size ? (line: string) => wordsOf(line, (w) => dict.get(w)) : undefined;
 const ctx: ValidationContext = {
   knownUnits: new Set([...lessons, ...readingLessons].map((l) => l.id)),
   seenIds: new Set(basePhrases.map((p) => p.id)),
@@ -41,7 +50,14 @@ const ctx: ValidationContext = {
   knownWords: new Set(basePhrases.map((p) => p.hanzi)),
   hsk,
   strokeData,
+  wordsOf: splitWords,
 };
+// Words the base course has shown: its phrases split into words, its characters, its readings.
+if (splitWords) {
+  for (const p of basePhrases) for (const w of splitWords(p.hanzi)) ctx.knownWords.add(w);
+  for (const c of baseCharacters) ctx.knownWords.add(c.hanzi);
+  for (const r of baseReadings) for (const l of r.lines) for (const w of splitWords(l.zh)) ctx.knownWords.add(w);
+}
 
 mkdirSync(dir, { recursive: true });
 const files = onlyExample
@@ -88,6 +104,7 @@ for (const { file, pack, parseError } of loaded) {
     ...(pack.grammar ?? []).map((g) => g.id),
     pack.dialogue?.id,
     pack.reading?.id,
+    ...(pack.extraReadings ?? []).map((r) => r.id),
     pack.conversation?.id,
   ].filter((x): x is string => !!x);
   ids.forEach((id) => ctx.seenIds.add(id));
@@ -96,7 +113,13 @@ for (const { file, pack, parseError } of loaded) {
     hanOf(v.hanzi).forEach((c) => ctx.knownChars.add(c));
   }
   for (const c of pack.characters ?? []) ctx.knownChars.add(c.hanzi);
-  for (const t of [pack.dialogue, pack.reading]) t?.lines.forEach((l) => hanOf(l.zh).forEach((c) => ctx.knownChars.add(c)));
+  const texts = [pack.dialogue, pack.reading, ...(pack.extraReadings ?? [])];
+  for (const t of texts) t?.lines.forEach((l) => hanOf(l.zh).forEach((c) => ctx.knownChars.add(c)));
+  // After a unit, its glossed words and the words of its texts count as met.
+  for (const t of texts) for (const g of t?.glosses ?? []) ctx.knownWords.add(g.hanzi);
+  if (splitWords)
+    for (const l of [...texts.flatMap((t) => t?.lines ?? []), ...(pack.grammar ?? []).flatMap((g) => g.examples)])
+      for (const w of splitWords(l.zh)) ctx.knownWords.add(w);
 }
 
 // --example --publish: load the example into the app to preview the format (undo with `npm run packs`).

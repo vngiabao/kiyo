@@ -1,6 +1,7 @@
 import type { Phrase, Lesson, Provenance, Exercise, Task } from "./types";
 import { lessonTasks } from "./tasks";
 import { characters, readingLessons, charByHanzi, isHan, registerWordHelp } from "./hanzi";
+import { wordSpeech } from "./word-speech";
 import { compiledPacks } from "./pack-content";
 import type { CompiledGrammar, CompiledScenario, PackPragmatics } from "./packs";
 export { characters, readingLessons, charByHanzi } from "./hanzi";
@@ -837,7 +838,9 @@ export const basePhrases: Phrase[] = rows.map(
 /** Base course phrases plus words, grammar examples and natural phrasings from content packs. */
 export const phrases: Phrase[] = [
   ...basePhrases,
-  ...compiledPacks.flatMap((p) => p.phrases).filter((p) => !basePhrases.some((b) => b.id === p.id)),
+  ...compiledPacks.flatMap((p) => p.phrases).filter((p) => !basePhrases.some((b) => b.id === p.id)).map((p) => ({
+    ...p, audio: { ...p.audio, text: wordSpeech(p.audio.text, p.pinyin) },
+  })),
 ];
 registerWordHelp(phrases.filter((p) => p.topic !== "sounds"));
 export const phraseById: Record<string, Phrase> = Object.fromEntries(

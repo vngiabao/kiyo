@@ -14,9 +14,10 @@ import {
 } from "@phosphor-icons/react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "./db";
+import { packUnits } from "./content";
 import { cueAt, parseCaptions, type Cue } from "./captions";
-import { glossFor, isHan } from "./hanzi";
-import { Pinyin } from "./components";
+import { TappableLine, WordCard, useWords } from "./WordCard";
+import type { Token } from "./dictionary";
 import type { Profile, WatchLog } from "./types";
 
 type Rung = WatchLog["rung"];
@@ -45,7 +46,7 @@ const mmss = (s: number) =>
  * Three rungs from reading every line to none; peeks and look-ups are counted honestly.
  * Files never leave the device.
  */
-export function WatchPlayer(_props: { profile: Profile }) {
+export function WatchPlayer({ profile }: { profile: Profile }) {
   const [media, setMedia] = useState<{
       url: string;
       name: string;
@@ -60,7 +61,7 @@ export function WatchPlayer(_props: { profile: Profile }) {
     [peeked, setPeeked] = useState<Set<number>>(new Set()),
     [heardLines, setHeardLines] = useState<Set<number>>(new Set()),
     [lookups, setLookups] = useState(0),
-    [tapped, setTapped] = useState<string | null>(null),
+    [tapped, setTapped] = useState<{ token: Token; line: string } | null>(null),
     [noteFor, setNoteFor] = useState<string | null>(null),
     [summary, setSummary] = useState<WatchLog | null>(null),
     [error, setError] = useState("");
@@ -158,33 +159,19 @@ export function WatchPlayer(_props: { profile: Profile }) {
     return () => window.removeEventListener("keydown", onKey);
   });
 
-  const line = (i: number, role: "prev" | "now" | "next") => {
+  const line = (i: number, role: "prev" | "next") => {
     const c = cues[i];
-    if (!c) return <p className={`watch-line ${role}`} aria-hidden />;
     return (
-      <p className={`watch-line ${role}`} lang="zh-CN">
-        {Array.from(c.text).map((ch, k) =>
-          isHan(ch) && role === "now" ? (
-            <button
-              key={k}
-              className={`wch ${tapped === ch ? "on" : ""}`}
-              onClick={() => {
-                setTapped(ch);
-                setLookups((n) => n + 1);
-              }}
-            >
-              {ch}
-            </button>
-          ) : (
-            <span key={k}>{ch}</span>
-          ),
-        )}
+      <p className={`watch-line ${role}`} lang="zh-CN" aria-hidden={!c}>
+        {c?.text}
       </p>
     );
   };
-  const gloss = tapped ? glossFor(tapped) : null;
   const showNow =
     rung === "subtitles" || (rung === "peek" && peeked.has(focus));
+  // The current line, split into dictionary words (loaded on demand, then offline).
+  const nowText = showNow && focus >= 0 ? cues[focus]?.text : undefined;
+  const words = useWords(nowText);
 
   return (
     <section className="watch" aria-labelledby="watch-title">
@@ -301,8 +288,19 @@ export function WatchPlayer(_props: { profile: Profile }) {
           {cues.length > 0 && (
             <div className={`watch-text rung-${rung}`} aria-live="off">
               {rung === "subtitles" && line(focus - 1, "prev")}
-              {showNow ? (
-                line(focus, "now")
+              {showNow && nowText ? (
+                <TappableLine
+                  className="watch-line now"
+                  line={nowText}
+                  tokens={words.tokens}
+                  active={tapped?.line === nowText ? tapped.token : null}
+                  onTap={(token) => {
+                    // Looking a word up pauses the scene so you can read the card.
+                    el.current?.pause();
+                    setTapped({ token, line: nowText });
+                    setLookups((n) => n + 1);
+                  }}
+                />
               ) : rung === "peek" ? (
                 <button
                   className="watch-peek"
@@ -317,17 +315,15 @@ export function WatchPlayer(_props: { profile: Profile }) {
                 </p>
               )}
               {rung === "subtitles" && line(focus + 1, "next")}
-              {tapped && showNow && (
-                <p className="watch-gloss" role="status">
-                  <span lang="zh-CN">{tapped}</span>
-                  {gloss ? (
-                    <>
-                      <Pinyin text={gloss.p} /> <span>{gloss.m}</span>
-                    </>
-                  ) : (
-                    <span className="muted">Not in your course yet</span>
-                  )}
-                </p>
+              {words.error && <p className="small muted">{words.error}</p>}
+              {tapped && (
+                <WordCard
+                  token={tapped.token}
+                  line={tapped.line}
+                  source={media.name}
+                  voiceURI={profile.voiceURI}
+                  onClose={() => setTapped(null)}
+                />
               )}
             </div>
           )}
@@ -505,6 +501,7 @@ export function WatchPlayer(_props: { profile: Profile }) {
       )}
 
       {saved.length > 0 && <SavedLines lines={saved} />}
+      <SavedWords />
     </section>
   );
 
@@ -519,6 +516,52 @@ export function WatchPlayer(_props: { profile: Profile }) {
       m.currentTime = cues[focus].start + 0.01;
     setTime(t);
   }
+}
+
+/** Words saved from the dictionary card, with an Anki export. */
+function SavedWords() {
+  const words = useLiveQuery(() => db.personalWords.orderBy("at").reverse().toArray()) ?? [];
+  if (!words.length) return null;
+  const exportAnki = () => {
+    // Front: word. Back: pinyin · meaning · the line it came from.
+    const tsv = words
+      .map((w) => [w.id, `${w.pinyin} · ${w.meaning}${w.line ? ` · ${w.line}` : ""}`].map((f) => f.replace(/[\t\n]/g, " ")).join("\t"))
+      .join("\n");
+    const url = URL.createObjectURL(new Blob([tsv], { type: "text/tab-separated-values" }));
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `kiyo-saved-words-${new Date().toISOString().slice(0, 10)}.txt`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+  return (
+    <div className="watch-saved">
+      <div className="section-heading">
+        <h3>Saved words</h3>
+        <button className="button secondary" onClick={exportAnki}>
+          <DownloadSimple size={18} /> Export for Anki
+        </button>
+      </div>
+      <ul>
+        {words.map((w) => (
+          <li key={w.id}>
+            <span className="saved-text" lang="zh-CN">
+              {w.id} <span className="saved-py">{w.pinyin}</span>
+            </span>
+            <span className="saved-note">{w.meaning}</span>
+            {w.line && (
+              <span className="saved-src small" lang="zh-CN">
+                {w.line}
+              </span>
+            )}
+            <button className="icon-button" aria-label={`Delete saved word ${w.id}`} onClick={() => void db.personalWords.delete(w.id)}>
+              <Trash size={16} />
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 function SavedLines({
@@ -588,14 +631,13 @@ function SavedLines({
 /** The honest route from the course to watching and singing without help. */
 export function ReadingRoute() {
   const sessions = useLiveQuery(() => db.sessions.toArray()) ?? [];
-  const units = useMemo(
-    () =>
-      new Set(
-        sessions.map((s) => s.lessonId).filter((id) => /^s1-u\d+$/.test(id)),
-      ).size,
-    [sessions],
-  );
-  const here = units >= 12 ? 1 : 0;
+  // HSK 1 units are whatever packs target HSK level 1; the count grows as units are added.
+  const hsk1 = useMemo(() => packUnits.filter((u) => u.hskTarget?.level === 1).map((u) => u.id), []);
+  const units = useMemo(() => {
+    const done = new Set(sessions.map((s) => s.lessonId));
+    return hsk1.filter((id) => done.has(id)).length;
+  }, [sessions, hsk1]);
+  const here = hsk1.length && units >= hsk1.length ? 1 : 0;
   const stages = [
     {
       name: "Foundation",
@@ -603,7 +645,7 @@ export function ReadingRoute() {
       watch:
         "Short clips you already know, Chinese subtitles on, 0.75×. Slow songs with lyrics.",
       how: "One line at a time: hear it, read it, replay it.",
-      next: `Finish the 12 HSK 1 units (${units} of 12 so far).`,
+      next: `Finish the ${hsk1.length} HSK 1 units (${units} of ${hsk1.length} so far).`,
     },
     {
       name: "Subtitle reader",

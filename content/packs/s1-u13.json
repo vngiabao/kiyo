@@ -1,0 +1,1145 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u13",
+    "stage": 1,
+    "order": 13,
+    "title": "A friend of a friend",
+    "titleZh": "朋友的朋友",
+    "canDo": [
+      "Introduce a friend and explain how people know each other",
+      "Distinguish school stages without assuming ages",
+      "Use personal pronouns with clear references"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u12"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u13-w01",
+      "hanzi": "她们",
+      "pinyin": "tā men",
+      "meaning": "they (female group)",
+      "meaningVi": "họ (nhóm nữ)",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "她们是我的朋友。",
+        "py": "tā men shì wǒ de péng you .",
+        "en": "They are my friends."
+      }
+    },
+    {
+      "id": "s1-u13-w02",
+      "hanzi": "班",
+      "pinyin": "bān",
+      "meaning": "class; group of students",
+      "meaningVi": "lớp học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们在一个班。",
+        "py": "wǒ men zài yī gè bān .",
+        "en": "We are in the same class."
+      }
+    },
+    {
+      "id": "s1-u13-w03",
+      "hanzi": "学生",
+      "pinyin": "xué sheng",
+      "meaning": "student",
+      "meaningVi": "học sinh; sinh viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你是学生吗？",
+        "py": "nǐ shì xué sheng ma ?",
+        "en": "Are you a student?"
+      }
+    },
+    {
+      "id": "s1-u13-w04",
+      "hanzi": "中学",
+      "pinyin": "zhōng xué",
+      "meaning": "secondary school",
+      "meaningVi": "trường trung học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我妹妹在中学学习。",
+        "py": "wǒ mèi mei zài zhōng xué xué xí .",
+        "en": "My younger sister studies at secondary school."
+      }
+    },
+    {
+      "id": "s1-u13-w05",
+      "hanzi": "中学生",
+      "pinyin": "zhōng xué sheng",
+      "meaning": "secondary-school student",
+      "meaningVi": "học sinh trung học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "他是中学生。",
+        "py": "tā shì zhōng xué sheng .",
+        "en": "He is a secondary-school student."
+      }
+    },
+    {
+      "id": "s1-u13-w06",
+      "hanzi": "小学",
+      "pinyin": "xiǎo xué",
+      "meaning": "primary school",
+      "meaningVi": "trường tiểu học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我弟弟在小学学习。",
+        "py": "wǒ dì di zài xiǎo xué xué xí .",
+        "en": "My younger brother studies at primary school."
+      }
+    },
+    {
+      "id": "s1-u13-w07",
+      "hanzi": "小学生",
+      "pinyin": "xiǎo xué sheng",
+      "meaning": "primary-school student",
+      "meaningVi": "học sinh tiểu học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "她是小学生。",
+        "py": "tā shì xiǎo xué sheng .",
+        "en": "She is a primary-school student."
+      }
+    },
+    {
+      "id": "s1-u13-w08",
+      "hanzi": "学院",
+      "pinyin": "xué yuàn",
+      "meaning": "college; institute",
+      "meaningVi": "học viện; trường cao đẳng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我姐姐在这个学院学习。",
+        "py": "wǒ jiě jie zài zhè gè xué yuàn xué xí .",
+        "en": "My older sister studies at this college."
+      }
+    },
+    {
+      "id": "s1-u13-w09",
+      "hanzi": "姐姐",
+      "pinyin": "jiě jie",
+      "meaning": "older sister",
+      "meaningVi": "chị gái",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是我姐姐。",
+        "py": "zhè shì wǒ jiě jie .",
+        "en": "This is my older sister."
+      }
+    },
+    {
+      "id": "s1-u13-w10",
+      "hanzi": "妹妹",
+      "pinyin": "mèi mei",
+      "meaning": "younger sister",
+      "meaningVi": "em gái",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我妹妹今年十五岁。",
+        "py": "wǒ mèi mei jīn nián shí wǔ suì .",
+        "en": "My younger sister is fifteen this year."
+      }
+    },
+    {
+      "id": "s1-u13-w11",
+      "hanzi": "弟弟",
+      "pinyin": "dì di",
+      "meaning": "younger brother",
+      "meaningVi": "em trai",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我弟弟今年八岁。",
+        "py": "wǒ dì di jīn nián bā suì .",
+        "en": "My younger brother is eight this year."
+      }
+    },
+    {
+      "id": "s1-u13-w12",
+      "hanzi": "男",
+      "pinyin": "nán",
+      "meaning": "male",
+      "meaningVi": "nam",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们班有十个男学生。",
+        "py": "wǒ men bān yǒu shí gè nán xué sheng .",
+        "en": "Our class has ten male students."
+      }
+    },
+    {
+      "id": "s1-u13-w13",
+      "hanzi": "女生",
+      "pinyin": "nǚ shēng",
+      "meaning": "female student",
+      "meaningVi": "nữ sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这两个女生是朋友。",
+        "py": "zhè liǎng gè nǚ shēng shì péng you .",
+        "en": "These two female students are friends."
+      }
+    },
+    {
+      "id": "s1-u13-w14",
+      "hanzi": "男生",
+      "pinyin": "nán shēng",
+      "meaning": "male student",
+      "meaningVi": "nam sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那个男生是我弟弟。",
+        "py": "nà gè nán shēng shì wǒ dì di .",
+        "en": "That male student is my younger brother."
+      }
+    },
+    {
+      "id": "s1-u13-w15",
+      "hanzi": "孩子",
+      "pinyin": "hái zi",
+      "meaning": "child",
+      "meaningVi": "trẻ em; con",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这两个孩子都喜欢中文。",
+        "py": "zhè liǎng gè hái zi dōu xǐ huān zhōng wén .",
+        "en": "Both children like Chinese."
+      },
+      "usageNote": "Northern casual speech also says 小孩儿 (xiǎoháir), meaning a young child. This is a recognition note; the spoken course practice uses 孩子 (háizi)."
+    },
+    {
+      "id": "s1-u13-w16",
+      "hanzi": "儿子",
+      "pinyin": "ér zi",
+      "meaning": "son",
+      "meaningVi": "con trai",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "她的儿子是小学生。",
+        "py": "tā de ér zi shì xiǎo xué sheng .",
+        "en": "Her son is a primary-school student."
+      }
+    },
+    {
+      "id": "s1-u13-w17",
+      "hanzi": "外国",
+      "pinyin": "wài guó",
+      "meaning": "foreign country; abroad",
+      "meaningVi": "nước ngoài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我姐姐在外国学习。",
+        "py": "wǒ jiě jie zài wài guó xué xí .",
+        "en": "My older sister studies abroad."
+      }
+    },
+    {
+      "id": "s1-u13-w18",
+      "hanzi": "国家",
+      "pinyin": "guó jiā",
+      "meaning": "country",
+      "meaningVi": "quốc gia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你喜欢哪个国家？",
+        "py": "nǐ xǐ huān nǎ gè guó jiā ?",
+        "en": "Which country do you like?"
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "儿",
+      "pinyin": "ér",
+      "meaning": "child; son",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "儿",
+          "role": "whole",
+          "gloss": "child; son"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 儿 in 儿子. This usage note is not an origin or decomposition claim. In 小孩儿, 儿 is an -r ending, not a separate ér syllable.",
+      "words": [
+        {
+          "w": "儿子",
+          "p": "ér zi",
+          "m": "son"
+        }
+      ]
+    },
+    {
+      "hanzi": "外",
+      "pinyin": "wài",
+      "meaning": "outside; foreign",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "外",
+          "role": "whole",
+          "gloss": "outside; foreign"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 外 in 外国. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "外国",
+          "p": "wài guó",
+          "m": "foreign country; abroad"
+        }
+      ]
+    },
+    {
+      "hanzi": "妹",
+      "pinyin": "mèi",
+      "meaning": "younger sister",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "妹",
+          "role": "whole",
+          "gloss": "younger sister"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 妹 in 妹妹. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "妹妹",
+          "p": "mèi mei",
+          "m": "younger sister"
+        }
+      ]
+    },
+    {
+      "hanzi": "姐",
+      "pinyin": "jiě",
+      "meaning": "older sister",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "姐",
+          "role": "whole",
+          "gloss": "older sister"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 姐 in 姐姐. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "姐姐",
+          "p": "jiě jie",
+          "m": "older sister"
+        }
+      ]
+    },
+    {
+      "hanzi": "孩",
+      "pinyin": "hái",
+      "meaning": "child",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "孩",
+          "role": "whole",
+          "gloss": "child"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 孩 in 孩子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "孩子",
+          "p": "hái zi",
+          "m": "child"
+        }
+      ]
+    },
+    {
+      "hanzi": "弟",
+      "pinyin": "dì",
+      "meaning": "younger brother",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "弟",
+          "role": "whole",
+          "gloss": "younger brother"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 弟 in 弟弟. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "弟弟",
+          "p": "dì di",
+          "m": "younger brother"
+        }
+      ]
+    },
+    {
+      "hanzi": "班",
+      "pinyin": "bān",
+      "meaning": "class; group",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "班",
+          "role": "whole",
+          "gloss": "class; group"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 班 in 班. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "班",
+          "p": "bān",
+          "m": "class; group of students"
+        }
+      ]
+    },
+    {
+      "hanzi": "男",
+      "pinyin": "nán",
+      "meaning": "male",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "男",
+          "role": "whole",
+          "gloss": "male"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 男 in 男 / 男生. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "男",
+          "p": "nán",
+          "m": "male"
+        },
+        {
+          "w": "男生",
+          "p": "nán shēng",
+          "m": "male student"
+        }
+      ]
+    },
+    {
+      "hanzi": "院",
+      "pinyin": "yuàn",
+      "meaning": "institute; courtyard",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "院",
+          "role": "whole",
+          "gloss": "institute; courtyard"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 院 in 学院. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "学院",
+          "p": "xué yuàn",
+          "m": "college; institute"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u13-g一05",
+      "pattern": "我 / 你 / 您 / 他 / 她 · 我们 / 你们 / 他们 / 她们",
+      "purpose": "Keep track of who is speaking",
+      "explanation": "Use 我 for the speaker, 你 for the listener and 您 for respectful singular address. 他 and 她 sound identical: tā. 我们 includes the speaker; 你们 addresses a group. 他们 can refer to men or a mixed group; 她们 is written for a female group. Do not add 们 to 您 in beginner usage.",
+      "examples": [
+        {
+          "zh": "我是学生，你呢？",
+          "py": "wǒ shì xué sheng , nǐ ne ?",
+          "en": "I am a student. What about you?"
+        },
+        {
+          "zh": "您是我们的老师吗？",
+          "py": "nín shì wǒ men de lǎo shī ma ?",
+          "en": "Are you our teacher?"
+        },
+        {
+          "zh": "他是中学生，她是小学生。",
+          "py": "tā shì zhōng xué sheng , tā shì xiǎo xué sheng .",
+          "en": "He is a secondary-school student; she is a primary-school student."
+        },
+        {
+          "zh": "我们在一个班，你们呢？",
+          "py": "wǒ men zài yī gè bān , nǐ men ne ?",
+          "en": "We are in the same class. What about you?"
+        },
+        {
+          "zh": "他们是男生，她们是女生。",
+          "py": "tā men shì nán shēng , tā men shì nǚ shēng .",
+          "en": "They are male students; the others are female students."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我们是一个学生。",
+          "right": "我们都是学生。",
+          "why": "我们 refers to a group; 一个学生 describes just one student in this ordinary introduction."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u13-g一24",
+      "pattern": "person / pronoun / noun phrase + predicate",
+      "purpose": "Introduce someone with a clear subject",
+      "explanation": "A subject can be a noun, a pronoun or a noun phrase. State who the sentence is about before 是 or the main verb. 我的朋友 is one noun phrase: 我的 modifies 朋友. Chinese does not need an extra pronoun after that subject. Use 是 with a noun description; ordinary adjective descriptions do not require it.",
+      "examples": [
+        {
+          "zh": "学生在这里学习。",
+          "py": "xué sheng zài zhè lǐ xué xí .",
+          "en": "Students study here."
+        },
+        {
+          "zh": "她在外国学习。",
+          "py": "tā zài wài guó xué xí .",
+          "en": "She studies abroad."
+        },
+        {
+          "zh": "我的两个朋友在一个班。",
+          "py": "wǒ de liǎng gè péng you zài yī gè bān .",
+          "en": "My two friends are in the same class."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "是学生我的朋友。",
+          "right": "我的朋友是学生。",
+          "why": "Put the subject 我的朋友 before the predicate 是学生 in an ordinary statement. Topic-comment constructions are a different valid pattern, not an error."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u13-d",
+    "title": "Meeting two sisters",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find out how the two new friends are related.",
+    "lines": [
+      {
+        "zh": "这两个人是你的朋友吗？",
+        "py": "zhè liǎng gè rén shì nǐ de péng you ma ?",
+        "en": "Are these two people your friends?",
+        "speaker": "a"
+      },
+      {
+        "zh": "是，她们是我的朋友。",
+        "py": "shì , tā men shì wǒ de péng you .",
+        "en": "Yes, they are my friends.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她们在一个班吗？",
+        "py": "tā men zài yī gè bān ma ?",
+        "en": "Are they in the same class?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不在。她们是姐姐和妹妹。",
+        "py": "bù zài . tā men shì jiě jie hé mèi mei .",
+        "en": "No. They are older and younger sisters.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她们都是学生吗？",
+        "py": "tā men dōu shì xué sheng ma ?",
+        "en": "Are they both students?",
+        "speaker": "a"
+      },
+      {
+        "zh": "是。姐姐在学院学习，妹妹是中学生。",
+        "py": "shì . jiě jie zài xué yuàn xué xí , mèi mei shì zhōng xué sheng .",
+        "en": "Yes. The older sister studies at a college; the younger sister is a secondary-school student.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她们的弟弟呢？",
+        "py": "tā men de dì di ne ?",
+        "en": "What about their younger brother?",
+        "speaker": "a"
+      },
+      {
+        "zh": "他是小学生，在小学学习。",
+        "py": "tā shì xiǎo xué sheng , zài xiǎo xué xué xí .",
+        "en": "He is a primary-school student and studies at primary school.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你也是学生吗？",
+        "py": "nǐ yě shì xué sheng ma ?",
+        "en": "Are you a student too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "是。我和她们都学中文。",
+        "py": "shì . wǒ hé tā men dōu xué zhōng wén .",
+        "en": "Yes. The sisters and I all study Chinese.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你们的老师是哪国人？",
+        "py": "nǐ men de lǎo shī shì nǎ guó rén ?",
+        "en": "What country is your teacher from?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我们的老师是中国人。",
+        "py": "wǒ men de lǎo shī shì zhōng guó rén .",
+        "en": "Our teacher is Chinese.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How do the two new friends know each other?",
+        "choices": [
+          "They are sisters",
+          "They are in the same class",
+          "They are colleagues"
+        ],
+        "answer": "They are sisters"
+      },
+      {
+        "type": "detail",
+        "q": "Where does the older sister study?",
+        "choices": [
+          "At primary school",
+          "At a college",
+          "At secondary school"
+        ],
+        "answer": "At a college"
+      },
+      {
+        "type": "inference",
+        "q": "Why is 不在 followed by an explanation?",
+        "choices": [
+          "To refuse a drink",
+          "To end the conversation",
+          "To correct the assumption that they share a class"
+        ],
+        "answer": "To correct the assumption that they share a class"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "学习",
+        "pinyin": "xué xí",
+        "meaning": "to study"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u13-r",
+    "title": "A family introduction",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which children are in which school.",
+    "lines": [
+      {
+        "zh": "我们家有三个孩子。",
+        "py": "wǒ men jiā yǒu sān gè hái zi .",
+        "en": "There are three children in our family."
+      },
+      {
+        "zh": "姐姐是中学生，在中学学习。",
+        "py": "jiě jie shì zhōng xué sheng , zài zhōng xué xué xí .",
+        "en": "The older sister is a secondary-school student and studies at secondary school."
+      },
+      {
+        "zh": "妹妹和弟弟是小学生。",
+        "py": "mèi mei hé dì di shì xiǎo xué sheng .",
+        "en": "The younger sister and brother are primary-school students."
+      },
+      {
+        "zh": "他们在一个小学，不在一个班。",
+        "py": "tā men zài yī gè xiǎo xué , bù zài yī gè bān .",
+        "en": "They attend the same primary school but are not in the same class."
+      },
+      {
+        "zh": "妹妹是女生，弟弟是男生。",
+        "py": "mèi mei shì nǚ shēng , dì di shì nán shēng .",
+        "en": "The younger sister is a female student; the younger brother is a male student."
+      },
+      {
+        "zh": "弟弟的班有十个男学生。",
+        "py": "dì di de bān yǒu shí gè nán xué sheng .",
+        "en": "The younger brother’s class has ten male students."
+      },
+      {
+        "zh": "这三个孩子都喜欢学中文。",
+        "py": "zhè sān gè hái zi dōu xǐ huān xué zhōng wén .",
+        "en": "All three children enjoy learning Chinese."
+      },
+      {
+        "zh": "老师的儿子也在这所小学学习。",
+        "py": "lǎo shī de ér zi yě zài zhè suǒ xiǎo xué xué xí .",
+        "en": "The teacher’s son also studies at this primary school."
+      },
+      {
+        "zh": "我们有一个朋友在外国的学院学习。",
+        "py": "wǒ men yǒu yī gè péng you zài wài guó de xué yuàn xué xí .",
+        "en": "A friend of ours studies at a college abroad."
+      },
+      {
+        "zh": "她很喜欢那个国家。",
+        "py": "tā hěn xǐ huān nà gè guó jiā .",
+        "en": "She really likes that country."
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the note introduce?",
+        "choices": [
+          "A restaurant",
+          "Children and their schools",
+          "A new teacher"
+        ],
+        "answer": "Children and their schools"
+      },
+      {
+        "type": "detail",
+        "q": "Do the younger sister and brother share a class?",
+        "choices": [
+          "Yes",
+          "The note does not say",
+          "No"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Why can 他们 refer to the younger sister and brother?",
+        "choices": [
+          "It can refer to a mixed group",
+          "It means only sisters",
+          "It refers to a single adult"
+        ],
+        "answer": "It can refer to a mixed group"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "姐姐是【中学生】，在中学学习。",
+          "py": "jiě jie shì zhōng xué sheng , zài zhōng xué xué xí .",
+          "en": "The older sister is a secondary-school student and studies at secondary school."
+        },
+        {
+          "zh": "妹妹和弟弟是【小学生】。",
+          "py": "mèi mei hé dì di shì xiǎo xué sheng .",
+          "en": "The younger sister and brother are primary-school students."
+        }
+      ],
+      "bank": [
+        "中学生",
+        "小学生",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "学习",
+        "pinyin": "xué xí",
+        "meaning": "to study"
+      },
+      {
+        "hanzi": "所",
+        "pinyin": "suǒ",
+        "meaning": "classifier for schools"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u13-media",
+      "title": "The small visitor",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene: who is the visitor?",
+      "lines": [
+        {
+          "zh": "这个孩子是你的学生吗？",
+          "py": "zhè gè hái zi shì nǐ de xué sheng ma ?",
+          "en": "Is this young child your student?",
+          "speaker": "a"
+        },
+        {
+          "zh": "不是，他是我弟弟。",
+          "py": "bù shì , tā shì wǒ dì di .",
+          "en": "No, he is my younger brother.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你弟弟在哪儿学习？",
+          "py": "nǐ dì di zài nǎr xué xí ?",
+          "en": "Where does your younger brother study?",
+          "speaker": "a"
+        },
+        {
+          "zh": "在小学。他是小学生。",
+          "py": "zài xiǎo xué . tā shì xiǎo xué sheng .",
+          "en": "At primary school. He is a primary-school student.",
+          "speaker": "b"
+        },
+        {
+          "zh": "他喜欢哪个国家？",
+          "py": "tā xǐ huān nǎ gè guó jiā ?",
+          "en": "Which country does he like?",
+          "speaker": "a"
+        },
+        {
+          "zh": "他喜欢中国，想在外国学中文。",
+          "py": "tā xǐ huān zhōng guó , xiǎng zài wài guó xué zhōng wén .",
+          "en": "He likes China and wants to study Chinese abroad.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Who is the visitor?",
+          "choices": [
+            "A younger brother",
+            "A teacher",
+            "An older sister"
+          ],
+          "answer": "A younger brother"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "学习",
+          "pinyin": "xué xí",
+          "meaning": "to study"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u13-t1",
+      "phrase": "s1-u13-w01",
+      "audio": {
+        "zh": "她们在一个班学习。",
+        "py": "tā men zài yī gè bān xué xí .",
+        "en": "They study in the same class."
+      },
+      "statement": "The group studies in different classes.",
+      "answer": false,
+      "why": "一个班 means the same class."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u13-t2",
+      "phrase": "s1-u13-w17",
+      "audio": {
+        "zh": "我妹妹在外国的中学学习。",
+        "py": "wǒ mèi mei zài wài guó de zhōng xué xué xí .",
+        "en": "My younger sister studies at secondary school abroad."
+      },
+      "statement": "The younger sister studies abroad.",
+      "answer": true,
+      "why": "外国 locates her study abroad."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u13-t3",
+      "phrase": "s1-u13-w02",
+      "prompt": {
+        "zh": "你们在一个班吗？",
+        "py": "nǐ men zài yī gè bān ma ?",
+        "en": "Are you in the same class?"
+      },
+      "choices": [
+        "我喝水。",
+        "是，我们在一个班。",
+        "这本书很好看。"
+      ],
+      "answer": "是，我们在一个班。",
+      "why": "The reply directly answers the class question."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u13-t4",
+      "phrase": "s1-u13-w03",
+      "prompt": {
+        "zh": "您是学生吗？",
+        "py": "nín shì xué sheng ma ?",
+        "en": "Are you a student?"
+      },
+      "choices": [
+        "不，我是老师。",
+        "我们看电影吧。",
+        "这是我的书。"
+      ],
+      "answer": "不，我是老师。",
+      "why": "The respectful question asks about student status."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u13-t5",
+      "phrase": "s1-u13-w09",
+      "line": {
+        "zh": "我的【姐姐】在学院学中文。",
+        "py": "wǒ de jiě jie zài xué yuàn xué zhōng wén .",
+        "en": "My older sister studies Chinese at a college."
+      },
+      "blankPy": "jiě jie"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u13-t6",
+      "phrase": "s1-u13-w18",
+      "line": {
+        "zh": "她很喜欢这个【国家】。",
+        "py": "tā hěn xǐ huān zhè gè guó jiā .",
+        "en": "She really likes this country."
+      },
+      "blankPy": "guó jiā"
+    },
+    {
+      "type": "match",
+      "id": "s1-u13-t7",
+      "phrase": "s1-u13-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "They are female secondary-school students.",
+          "right": {
+            "zh": "她们是中学生。",
+            "py": "tā men shì zhōng xué sheng .",
+            "en": "They are female secondary-school students."
+          }
+        },
+        {
+          "left": "I am a female student.",
+          "right": {
+            "zh": "我是女生。",
+            "py": "wǒ shì nǚ shēng .",
+            "en": "I am a female student."
+          }
+        },
+        {
+          "left": "He is a male student.",
+          "right": {
+            "zh": "他是男生。",
+            "py": "tā shì nán shēng .",
+            "en": "He is a male student."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u13-t8",
+      "phrase": "s1-u13-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Her son is a primary-school student.",
+          "right": {
+            "zh": "她的儿子是小学生。",
+            "py": "tā de ér zi shì xiǎo xué sheng .",
+            "en": "Her son is a primary-school student."
+          }
+        },
+        {
+          "left": "That young child is eight this year.",
+          "right": {
+            "zh": "那个孩子今年八岁。",
+            "py": "nà gè hái zi jīn nián bā suì .",
+            "en": "That young child is eight this year."
+          }
+        },
+        {
+          "left": "This is my younger sister.",
+          "right": {
+            "zh": "这是我的妹妹。",
+            "py": "zhè shì wǒ de mèi mei .",
+            "en": "This is my younger sister."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u13-t9",
+      "phrase": "s1-u13-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I can speak English.",
+          "right": {
+            "zh": "我会说英语。",
+            "py": "Wǒ huì shuō Yīngyǔ.",
+            "en": "I can speak English."
+          }
+        },
+        {
+          "left": "I cannot attend class today.",
+          "right": {
+            "zh": "今天我不能去上课。",
+            "py": "Jīntiān wǒ bù néng qù shàngkè.",
+            "en": "I cannot attend class today."
+          }
+        },
+        {
+          "left": "I can teach you Chinese characters.",
+          "right": {
+            "zh": "我能教你汉字。",
+            "py": "Wǒ néng jiāo nǐ Hànzì.",
+            "en": "I can teach you Chinese characters."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Introduce without listing private details",
+      "natural": {
+        "zh": "这是我的朋友。",
+        "py": "zhè shì wǒ de péng you .",
+        "en": "This is my friend."
+      },
+      "note": "A brief introduction does not require someone’s age, income or full history."
+    },
+    {
+      "situation": "Show respect when meeting the teacher",
+      "natural": {
+        "zh": "您好，您是我们的老师吗？",
+        "py": "nín hǎo , nín shì wǒ men de lǎo shī ma ?",
+        "en": "Hello. Are you our teacher?"
+      },
+      "note": "您好 / 您 is respectful singular address; use 你好 / 你 with peers."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u13-speak",
+    "title": "A friend of a friend",
+    "place": "A language-exchange meeting",
+    "context": "Introduce people without sounding like a form.",
+    "goal": "Introduce a friend and explain how people know each other",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "她们是你的朋友吗？",
+        "pinyin": "tā men shì nǐ de péng you ma ?",
+        "meaning": "Are they your friends?",
+        "intent": "Identify the relationship",
+        "examples": [
+          "是，她们是我的朋友",
+          "不是，她们是我的姐姐和妹妹"
+        ],
+        "accept": [
+          "^是，她们是我的朋友[。！？]?$",
+          "^不是，她们是我的姐姐和妹妹[。！？]?$"
+        ]
+      },
+      {
+        "text": "你们在一个班吗？",
+        "pinyin": "nǐ men zài yī gè bān ma ?",
+        "meaning": "Are you in the same class?",
+        "intent": "Confirm or correct the class assumption",
+        "examples": [
+          "我们在一个班",
+          "我们不在一个班"
+        ],
+        "accept": [
+          "^我们在一个班[。！？]?$",
+          "^我们不在一个班[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一05, 一24. Native review: country-reference clarity in the original visitor scene; 学院 gloss includes college/institute without asserting an exact foreign qualification. Planned retrieval 一02: 我会说英语。, 今天我不能去上课。, 我能教你汉字。."
+}

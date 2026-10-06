@@ -16,6 +16,18 @@ export default defineConfig({
         display: "standalone",
         icons: [
           {
+            src: "/brand/app-icon-192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
+            src: "/brand/app-icon-512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
             src: "/brand/app-icon.svg",
             sizes: "any",
             type: "image/svg+xml",
@@ -40,8 +52,29 @@ export default defineConfig({
           "audio/**",
           "audio-reactions/**",
           "audio-v2/**",
+          // The dictionary (~17 MB in 256 shards) loads per lookup; see src/dictionary.ts.
+          "dict/**",
         ],
         runtimeCaching: [
+          {
+            urlPattern: /\/dict\/[^/]+\.json$/,
+            handler: "StaleWhileRevalidate",
+            options: {
+              cacheName: "kiyo-dict",
+              expiration: { maxEntries: 300 },
+              cacheableResponse: { statuses: [200] },
+              plugins: [
+                {
+                  // Never store an HTML fallback page as a dictionary shard.
+                  cacheWillUpdate: async ({ response }) =>
+                    response.status === 200 &&
+                    /json/i.test(response.headers.get("content-type") ?? "")
+                      ? response
+                      : null,
+                },
+              ],
+            },
+          },
           {
             urlPattern: /\/audio-v2\/.+\.(mp3|wav)$/,
             handler: "CacheFirst",
@@ -89,6 +122,9 @@ export default defineConfig({
         "**/.audio-env/**",
         "**/.models/**",
         "**/.tts/**",
+        "**/.cache/**",
+        "**/.dict-cache/**",
+        "**/output/**",
       ],
     },
   },

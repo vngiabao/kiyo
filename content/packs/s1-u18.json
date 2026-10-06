@@ -1,0 +1,1298 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u18",
+    "stage": 1,
+    "order": 18,
+    "title": "Our shared kitchen",
+    "titleZh": "家里有什么",
+    "canDo": [
+      "Describe what a home has",
+      "Count rooms, pages and households with the right classifier",
+      "Distinguish a container from its contents"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u17"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u18-w01",
+      "hanzi": "家里",
+      "pinyin": "jiā lǐ",
+      "meaning": "at home; inside the home",
+      "meaningVi": "ở nhà; trong nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "家里有两个杯子。",
+        "py": "jiā lǐ yǒu liǎng gè bēi zi .",
+        "en": "There are two cups at home."
+      }
+    },
+    {
+      "id": "s1-u18-w02",
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "meaning": "inside",
+      "meaningVi": "bên trong",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "包里有一本书。",
+        "py": "bāo lǐ yǒu yī běn shū .",
+        "en": "There is a book in the bag."
+      }
+    },
+    {
+      "id": "s1-u18-w03",
+      "hanzi": "里边",
+      "pinyin": "lǐ bian",
+      "meaning": "inside",
+      "meaningVi": "bên trong",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "杯子里边没有水。",
+        "py": "bēi zi lǐ bian méi yǒu shuǐ .",
+        "en": "There is no water inside the cup."
+      }
+    },
+    {
+      "id": "s1-u18-w04",
+      "hanzi": "间",
+      "pinyin": "jiān",
+      "meaning": "classifier for rooms",
+      "meaningVi": "lượng từ cho phòng",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这里有两间房。",
+        "py": "zhè lǐ yǒu liǎng jiān fáng .",
+        "en": "There are two rooms here."
+      }
+    },
+    {
+      "id": "s1-u18-w05",
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "meaning": "hand",
+      "meaningVi": "tay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "先洗手，再喝水。",
+        "py": "xiān xǐ shǒu , zài hē shuǐ .",
+        "en": "Wash your hands first, then drink water."
+      }
+    },
+    {
+      "id": "s1-u18-w06",
+      "hanzi": "页",
+      "pinyin": "yè",
+      "meaning": "page; classifier for pages",
+      "meaningVi": "trang",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这本书有一百页。",
+        "py": "zhè běn shū yǒu yī bǎi yè .",
+        "en": "This book has one hundred pages."
+      }
+    },
+    {
+      "id": "s1-u18-w07",
+      "hanzi": "电",
+      "pinyin": "diàn",
+      "meaning": "electricity",
+      "meaningVi": "điện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这里没有电。",
+        "py": "zhè lǐ méi yǒu diàn .",
+        "en": "There is no electricity here."
+      }
+    },
+    {
+      "id": "s1-u18-w08",
+      "hanzi": "电脑",
+      "pinyin": "diàn nǎo",
+      "meaning": "computer",
+      "meaningVi": "máy tính",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "电脑在桌子上。",
+        "py": "diàn nǎo zài zhuō zi shàng .",
+        "en": "The computer is on the table."
+      }
+    },
+    {
+      "id": "s1-u18-w09",
+      "hanzi": "电视机",
+      "pinyin": "diàn shì jī",
+      "meaning": "television set",
+      "meaningVi": "ti vi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "家里没有电视机。",
+        "py": "jiā lǐ méi yǒu diàn shì jī .",
+        "en": "There is no television set at home."
+      }
+    },
+    {
+      "id": "s1-u18-w10",
+      "hanzi": "床",
+      "pinyin": "chuáng",
+      "meaning": "bed",
+      "meaningVi": "giường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这间房有两张床。",
+        "py": "zhè jiān fáng yǒu liǎng zhāng chuáng .",
+        "en": "This room has two beds."
+      }
+    },
+    {
+      "id": "s1-u18-w11",
+      "hanzi": "干净",
+      "pinyin": "gān jìng",
+      "meaning": "clean",
+      "meaningVi": "sạch",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "杯子很干净。",
+        "py": "bēi zi hěn gān jìng .",
+        "en": "The cup is clean."
+      }
+    },
+    {
+      "id": "s1-u18-w12",
+      "hanzi": "洗",
+      "pinyin": "xǐ",
+      "meaning": "to wash",
+      "meaningVi": "rửa; giặt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "先洗杯子，再喝水。",
+        "py": "xiān xǐ bēi zi , zài hē shuǐ .",
+        "en": "Wash the cup first, then drink water."
+      }
+    },
+    {
+      "id": "s1-u18-w13",
+      "hanzi": "洗手间",
+      "pinyin": "xǐ shǒu jiān",
+      "meaning": "toilet; restroom",
+      "meaningVi": "nhà vệ sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "洗手间在楼上。",
+        "py": "xǐ shǒu jiān zài lóu shàng .",
+        "en": "The restroom is upstairs."
+      }
+    },
+    {
+      "id": "s1-u18-w14",
+      "hanzi": "地上",
+      "pinyin": "dì shang",
+      "meaning": "on the ground; on the floor",
+      "meaningVi": "trên sàn; trên mặt đất",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "地上有一本书。",
+        "py": "dì shang yǒu yī běn shū .",
+        "en": "There is a book on the floor."
+      }
+    },
+    {
+      "id": "s1-u18-w15",
+      "hanzi": "楼",
+      "pinyin": "lóu",
+      "meaning": "building; floor",
+      "meaningVi": "tòa nhà; tầng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们住在这栋楼。",
+        "py": "wǒ men zhù zài zhè dòng lóu .",
+        "en": "We live in this building."
+      }
+    },
+    {
+      "id": "s1-u18-w16",
+      "hanzi": "楼上",
+      "pinyin": "lóu shàng",
+      "meaning": "upstairs",
+      "meaningVi": "trên lầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "姐姐在楼上。",
+        "py": "jiě jie zài lóu shàng .",
+        "en": "My older sister is upstairs."
+      }
+    },
+    {
+      "id": "s1-u18-w17",
+      "hanzi": "楼下",
+      "pinyin": "lóu xià",
+      "meaning": "downstairs",
+      "meaningVi": "dưới lầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "楼下有一家小商店。",
+        "py": "lóu xià yǒu yī jiā xiǎo shāng diàn .",
+        "en": "There is a small shop downstairs."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "里",
+      "pinyin": "lǐ",
+      "meaning": "inside",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "里",
+          "role": "whole",
+          "gloss": "inside"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 里 in 家里 / 里. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "家里",
+          "p": "jiā lǐ",
+          "m": "at home; inside the home"
+        },
+        {
+          "w": "里",
+          "p": "lǐ",
+          "m": "inside"
+        }
+      ]
+    },
+    {
+      "hanzi": "边",
+      "pinyin": "biān",
+      "meaning": "side",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "边",
+          "role": "whole",
+          "gloss": "side"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 边 in 里边. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "里边",
+          "p": "lǐ bian",
+          "m": "inside"
+        }
+      ]
+    },
+    {
+      "hanzi": "间",
+      "pinyin": "jiān",
+      "meaning": "room; classifier for rooms",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "间",
+          "role": "whole",
+          "gloss": "room; classifier for rooms"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 间 in 间 / 洗手间. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "间",
+          "p": "jiān",
+          "m": "classifier for rooms"
+        },
+        {
+          "w": "洗手间",
+          "p": "xǐ shǒu jiān",
+          "m": "toilet; restroom"
+        }
+      ]
+    },
+    {
+      "hanzi": "页",
+      "pinyin": "yè",
+      "meaning": "page",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "页",
+          "role": "whole",
+          "gloss": "page"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 页 in 页. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "页",
+          "p": "yè",
+          "m": "page; classifier for pages"
+        }
+      ]
+    },
+    {
+      "hanzi": "脑",
+      "pinyin": "nǎo",
+      "meaning": "brain",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "脑",
+          "role": "whole",
+          "gloss": "brain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 脑 in 电脑. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "电脑",
+          "p": "diàn nǎo",
+          "m": "computer"
+        }
+      ]
+    },
+    {
+      "hanzi": "视",
+      "pinyin": "shì",
+      "meaning": "to view",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "视",
+          "role": "whole",
+          "gloss": "to view"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 视 in 电视机. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "电视机",
+          "p": "diàn shì jī",
+          "m": "television set"
+        }
+      ]
+    },
+    {
+      "hanzi": "机",
+      "pinyin": "jī",
+      "meaning": "machine",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "机",
+          "role": "whole",
+          "gloss": "machine"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 机 in 电视机. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "电视机",
+          "p": "diàn shì jī",
+          "m": "television set"
+        }
+      ]
+    },
+    {
+      "hanzi": "床",
+      "pinyin": "chuáng",
+      "meaning": "bed",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "床",
+          "role": "whole",
+          "gloss": "bed"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 床 in 床. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "床",
+          "p": "chuáng",
+          "m": "bed"
+        }
+      ]
+    },
+    {
+      "hanzi": "干",
+      "pinyin": "gān",
+      "meaning": "dry",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "干",
+          "role": "whole",
+          "gloss": "dry"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 干 in 干净. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "干净",
+          "p": "gān jìng",
+          "m": "clean"
+        }
+      ]
+    },
+    {
+      "hanzi": "净",
+      "pinyin": "jìng",
+      "meaning": "clean",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "净",
+          "role": "whole",
+          "gloss": "clean"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 净 in 干净. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "干净",
+          "p": "gān jìng",
+          "m": "clean"
+        }
+      ]
+    },
+    {
+      "hanzi": "洗",
+      "pinyin": "xǐ",
+      "meaning": "to wash",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "洗",
+          "role": "whole",
+          "gloss": "to wash"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 洗 in 洗 / 洗手间. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "洗",
+          "p": "xǐ",
+          "m": "to wash"
+        },
+        {
+          "w": "洗手间",
+          "p": "xǐ shǒu jiān",
+          "m": "toilet; restroom"
+        }
+      ]
+    },
+    {
+      "hanzi": "手",
+      "pinyin": "shǒu",
+      "meaning": "hand",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "手",
+          "role": "whole",
+          "gloss": "hand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 手 in 手 / 洗手间. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "手",
+          "p": "shǒu",
+          "m": "hand"
+        },
+        {
+          "w": "洗手间",
+          "p": "xǐ shǒu jiān",
+          "m": "toilet; restroom"
+        }
+      ]
+    },
+    {
+      "hanzi": "地",
+      "pinyin": "dì",
+      "meaning": "ground; adverbial particle",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "地",
+          "role": "whole",
+          "gloss": "ground; adverbial particle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 地 in 地上. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "地上",
+          "p": "dì shang",
+          "m": "on the ground; on the floor"
+        }
+      ]
+    },
+    {
+      "hanzi": "楼",
+      "pinyin": "lóu",
+      "meaning": "building; floor",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "楼",
+          "role": "whole",
+          "gloss": "building; floor"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 楼 in 楼 / 楼上. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "楼",
+          "p": "lóu",
+          "m": "building; floor"
+        },
+        {
+          "w": "楼上",
+          "p": "lóu shàng",
+          "m": "upstairs"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u18-g一08",
+      "pattern": "杯 / 本 / 个 / 家 / 间 / 口 / 块 / 页",
+      "purpose": "Choose what a number counts",
+      "explanation": "Use 杯 for cupfuls, 本 for books, 个 for many ordinary objects, 家 for shops/businesses, 间 for rooms, 口 in family-member counts, 块 for yuan or pieces, and 页 for pages. 一杯水 counts the drink; 一个杯子 counts its container. Classifiers are linked to a noun, not chosen by English plural endings.",
+      "examples": [
+        {
+          "zh": "两杯水，两本书，三个杯子。",
+          "py": "liǎng bēi shuǐ , liǎng běn shū , sān gè bēi zi .",
+          "en": "Two glasses of water, two books, three cups."
+        },
+        {
+          "zh": "一家商店，两间房，三口人。",
+          "py": "yī jiā shāng diàn , liǎng jiān fáng , sān kǒu rén .",
+          "en": "One shop, two rooms, three family members."
+        },
+        {
+          "zh": "这本书十块钱，一百页。",
+          "py": "zhè běn shū shí kuài qián , yī bǎi yè .",
+          "en": "This book costs ten yuan and has one hundred pages."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我家有三个人口。",
+          "right": "我家有三口人。",
+          "why": "Place 口 between the number and 人 when counting family members."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u18-g一37",
+      "pattern": "person + 有 + object · place + 有 + object",
+      "purpose": "Describe possession and existence",
+      "explanation": "有 means have with a person as subject, and there is/are with a place as subject. A place may include 里/上: 包里有一本书. Negate with 没有, not 不有. For an unknown object in a place, introduce it after 有; to locate a known object, use 在: 我的书在桌子上.",
+      "examples": [
+        {
+          "zh": "我有一台电脑。",
+          "py": "wǒ yǒu yī tái diàn nǎo .",
+          "en": "I have a computer."
+        },
+        {
+          "zh": "家里有电脑，没有电视机。",
+          "py": "jiā lǐ yǒu diàn nǎo , méi yǒu diàn shì jī .",
+          "en": "There is a computer at home, but no television set."
+        },
+        {
+          "zh": "桌子上有一个杯子，我的书在地上。",
+          "py": "zhuō zi shàng yǒu yī gè bēi zi , wǒ de shū zài dì shang .",
+          "en": "There is a cup on the table; my book is on the floor."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "家里不有电视机。",
+          "right": "家里没有电视机。",
+          "why": "Negate possession or existence with 没有."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u18-d",
+    "title": "Tour of a small home",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find where the restroom is and what needs cleaning.",
+    "lines": [
+      {
+        "zh": "你家有几口人？",
+        "py": "nǐ jiā yǒu jǐ kǒu rén ?",
+        "en": "How many people are in your family?",
+        "speaker": "a"
+      },
+      {
+        "zh": "三口人。家里有两间房。",
+        "py": "sān kǒu rén . jiā lǐ yǒu liǎng jiān fáng .",
+        "en": "Three people. There are two rooms at home.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这间房有两张床，电脑在哪里？",
+        "py": "zhè jiān fáng yǒu liǎng zhāng chuáng , diàn nǎo zài nǎ lǐ ?",
+        "en": "This room has two beds. Where is the computer?",
+        "speaker": "a"
+      },
+      {
+        "zh": "在桌子上。包里还有一本书。",
+        "py": "zài zhuō zi shàng . bāo lǐ hái yǒu yī běn shū .",
+        "en": "On the table. There is also a book in the bag.",
+        "speaker": "b"
+      },
+      {
+        "zh": "书有多少页？",
+        "py": "shū yǒu duō shao yè ?",
+        "en": "How many pages are in the book?",
+        "speaker": "a"
+      },
+      {
+        "zh": "一百页。你看，地上也有一本。",
+        "py": "yī bǎi yè . nǐ kàn , dì shang yě yǒu yī běn .",
+        "en": "One hundred. Look, there is another book on the floor.",
+        "speaker": "b"
+      },
+      {
+        "zh": "洗手间在楼上吗？",
+        "py": "xǐ shǒu jiān zài lóu shàng ma ?",
+        "en": "Is the restroom upstairs?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，在楼上。楼下有厨房。",
+        "py": "duì , zài lóu shàng . lóu xià yǒu chú fáng .",
+        "en": "Yes, upstairs. There is a kitchen downstairs.",
+        "speaker": "b"
+      },
+      {
+        "zh": "杯子里边有水吗？",
+        "py": "bēi zi lǐ bian yǒu shuǐ ma ?",
+        "en": "Is there water inside the cup?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没有。杯子不干净，先洗一下。",
+        "py": "méi yǒu . bēi zi bù gān jìng , xiān xǐ yī xià .",
+        "en": "No. The cup is not clean. Wash it first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这栋楼有电视机吗？",
+        "py": "zhè dòng lóu yǒu diàn shì jī ma ?",
+        "en": "Is there a television in this building?",
+        "speaker": "a"
+      },
+      {
+        "zh": "家里没有电视机，那是电脑。我们在楼下喝水吧。",
+        "py": "jiā lǐ méi yǒu diàn shì jī , nà shì diàn nǎo . wǒ men zài lóu xià hē shuǐ ba .",
+        "en": "There is no television here; that is a computer. Let us drink water downstairs.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What are they doing?",
+        "choices": [
+          "Touring a home",
+          "Buying film tickets",
+          "Taking a test"
+        ],
+        "answer": "Touring a home"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the restroom?",
+        "choices": [
+          "Downstairs",
+          "Upstairs",
+          "In the shop"
+        ],
+        "answer": "Upstairs"
+      },
+      {
+        "type": "inference",
+        "q": "Can they drink from the cup immediately?",
+        "choices": [
+          "No, it needs washing",
+          "Yes, it is full",
+          "No, it belongs to the shop"
+        ],
+        "answer": "No, it needs washing"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "厨房",
+        "pinyin": "chú fáng",
+        "meaning": "kitchen"
+      },
+      {
+        "hanzi": "桌子",
+        "pinyin": "zhuō zi",
+        "meaning": "table"
+      },
+      {
+        "hanzi": "栋",
+        "pinyin": "dòng",
+        "meaning": "classifier for buildings"
+      },
+      {
+        "hanzi": "房",
+        "pinyin": "fáng",
+        "meaning": "room"
+      },
+      {
+        "hanzi": "包",
+        "pinyin": "bāo",
+        "meaning": "bag"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u18-r",
+    "title": "Note for a visitor",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the useful locations and the household items.",
+    "lines": [
+      {
+        "zh": "我们家有三口人，住在这栋楼。",
+        "py": "wǒ men jiā yǒu sān kǒu rén , zhù zài zhè dòng lóu .",
+        "en": "There are three people in our family; we live in this building."
+      },
+      {
+        "zh": "家里有两间房，楼上有床和洗手间。",
+        "py": "jiā lǐ yǒu liǎng jiān fáng , lóu shàng yǒu chuáng hé xǐ shǒu jiān .",
+        "en": "There are two rooms at home; upstairs are beds and a restroom."
+      },
+      {
+        "zh": "楼下有厨房，旁边有一张桌子。",
+        "py": "lóu xià yǒu chú fáng , páng biān yǒu yī zhāng zhuō zi .",
+        "en": "Downstairs there is a kitchen with a table next to it."
+      },
+      {
+        "zh": "桌子上有电脑，没有电视机。",
+        "py": "zhuō zi shàng yǒu diàn nǎo , méi yǒu diàn shì jī .",
+        "en": "There is a computer on the table and no television set."
+      },
+      {
+        "zh": "包里有一本书，书有一百页。",
+        "py": "bāo lǐ yǒu yī běn shū , shū yǒu yī bǎi yè .",
+        "en": "There is a book in the bag, with one hundred pages."
+      },
+      {
+        "zh": "地上还有一本书，请拿到桌子上。",
+        "py": "dì shang hái yǒu yī běn shū , qǐng ná dào zhuō zi shàng .",
+        "en": "There is another book on the floor; please put it on the table."
+      },
+      {
+        "zh": "杯子里边没有水，杯子也不干净。",
+        "py": "bēi zi lǐ bian méi yǒu shuǐ , bēi zi yě bù gān jìng .",
+        "en": "There is no water inside the cup, and the cup is not clean."
+      },
+      {
+        "zh": "先洗手，再洗杯子，准备两杯水。",
+        "py": "xiān xǐ shǒu , zài xǐ bēi zi , zhǔn bèi liǎng bēi shuǐ .",
+        "en": "First wash your hands, then wash the cups and prepare two glasses of water."
+      },
+      {
+        "zh": "家里有电，电脑可以用。",
+        "py": "jiā lǐ yǒu diàn , diàn nǎo kě yǐ yòng .",
+        "en": "There is electricity at home, so the computer can be used."
+      },
+      {
+        "zh": "这栋楼的楼下有一家商店，可以买牛奶。",
+        "py": "zhè dòng lóu de lóu xià yǒu yī jiā shāng diàn , kě yǐ mǎi niú nǎi .",
+        "en": "There is a shop downstairs in this building where you can buy milk."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Who is this note useful for?",
+        "choices": [
+          "A visitor to the home",
+          "A cinema manager",
+          "A train passenger"
+        ],
+        "answer": "A visitor to the home"
+      },
+      {
+        "type": "detail",
+        "q": "What is inside the bag?",
+        "choices": [
+          "A book",
+          "A cup",
+          "A television"
+        ],
+        "answer": "A book"
+      },
+      {
+        "type": "inference",
+        "q": "Why should the visitor wash the cup?",
+        "choices": [
+          "It is not clean",
+          "It has milk in it",
+          "It is broken"
+        ],
+        "answer": "It is not clean"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "家里有两间房，楼上有床和【洗手间】。",
+          "py": "jiā lǐ yǒu liǎng jiān fáng , lóu shàng yǒu chuáng hé xǐ shǒu jiān .",
+          "en": "There are two rooms at home; upstairs are beds and a restroom."
+        },
+        {
+          "zh": "包里有一本书，书有【一百】页。",
+          "py": "bāo lǐ yǒu yī běn shū , shū yǒu yī bǎi yè .",
+          "en": "There is a book in the bag, with one hundred pages."
+        }
+      ],
+      "bank": [
+        "洗手间",
+        "一百",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "厨房",
+        "pinyin": "chú fáng",
+        "meaning": "kitchen"
+      },
+      {
+        "hanzi": "桌子",
+        "pinyin": "zhuō zi",
+        "meaning": "table"
+      },
+      {
+        "hanzi": "栋",
+        "pinyin": "dòng",
+        "meaning": "classifier for buildings"
+      },
+      {
+        "hanzi": "商店",
+        "pinyin": "shāng diàn",
+        "meaning": "shop"
+      },
+      {
+        "hanzi": "房",
+        "pinyin": "fáng",
+        "meaning": "room"
+      },
+      {
+        "hanzi": "包",
+        "pinyin": "bāo",
+        "meaning": "bag"
+      },
+      {
+        "hanzi": "住",
+        "pinyin": "zhù",
+        "meaning": "to live"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u18-media",
+      "title": "Upstairs, downstairs",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Hear an original verse describe the home.",
+      "lines": [
+        {
+          "zh": "家里三口人，两间房。",
+          "py": "jiā lǐ sān kǒu rén , liǎng jiān fáng .",
+          "en": "Three people at home, two rooms."
+        },
+        {
+          "zh": "楼上两张床，楼下有厨房。",
+          "py": "lóu shàng liǎng zhāng chuáng , lóu xià yǒu chú fáng .",
+          "en": "Two beds upstairs, a kitchen downstairs."
+        },
+        {
+          "zh": "电脑在桌上，书在包里边。",
+          "py": "diàn nǎo zài zhuō shàng , shū zài bāo lǐ bian .",
+          "en": "The computer on the table, the book inside the bag."
+        },
+        {
+          "zh": "一百页的书，地上还有一本。",
+          "py": "yī bǎi yè de shū , dì shang hái yǒu yī běn .",
+          "en": "A hundred-page book; another one on the floor."
+        },
+        {
+          "zh": "家里有电，有电脑，没有电视机。",
+          "py": "jiā lǐ yǒu diàn , yǒu diàn nǎo , méi yǒu diàn shì jī .",
+          "en": "Electricity and a computer at home, but no television."
+        },
+        {
+          "zh": "洗手间在楼上，洗杯子在楼下。",
+          "py": "xǐ shǒu jiān zài lóu shàng , xǐ bēi zi zài lóu xià .",
+          "en": "The restroom upstairs, cup washing downstairs."
+        },
+        {
+          "zh": "干净的杯子，两杯水，一家小店在楼下。",
+          "py": "gān jìng de bēi zi , liǎng bēi shuǐ , yī jiā xiǎo diàn zài lóu xià .",
+          "en": "Clean cups, two glasses of water, a small shop downstairs."
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Which item is absent from the home?",
+          "choices": [
+            "Books",
+            "A television set",
+            "A computer"
+          ],
+          "answer": "A television set"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "厨房",
+          "pinyin": "chú fáng",
+          "meaning": "kitchen"
+        },
+        {
+          "hanzi": "小店",
+          "pinyin": "xiǎo diàn",
+          "meaning": "small shop"
+        },
+        {
+          "hanzi": "房",
+          "pinyin": "fáng",
+          "meaning": "room"
+        },
+        {
+          "hanzi": "包",
+          "pinyin": "bāo",
+          "meaning": "bag"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u18-t1",
+      "phrase": "s1-u18-w13",
+      "audio": {
+        "zh": "洗手间在楼上。",
+        "py": "xǐ shǒu jiān zài lóu shàng .",
+        "en": "The restroom is upstairs."
+      },
+      "statement": "The restroom is downstairs.",
+      "answer": false,
+      "why": "楼上 means upstairs."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u18-t2",
+      "phrase": "s1-u18-w10",
+      "audio": {
+        "zh": "这间房有两张床。",
+        "py": "zhè jiān fáng yǒu liǎng zhāng chuáng .",
+        "en": "This room has two beds."
+      },
+      "statement": "There are two beds.",
+      "answer": true,
+      "why": "两张床 is two beds."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u18-t3",
+      "phrase": "s1-u18-w06",
+      "prompt": {
+        "zh": "这本书有多少页？",
+        "py": "zhè běn shū yǒu duō shao yè ?",
+        "en": "How many pages are in this book?"
+      },
+      "choices": [
+        "一百页。",
+        "一百元。",
+        "一百个杯子。"
+      ],
+      "answer": "一百页。",
+      "why": "页 counts pages."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u18-t4",
+      "phrase": "s1-u18-w07",
+      "prompt": {
+        "zh": "这里有电吗？",
+        "py": "zhè lǐ yǒu diàn ma ?",
+        "en": "Is there electricity here?"
+      },
+      "choices": [
+        "有，可以用电脑。",
+        "我是学生。",
+        "两本。"
+      ],
+      "answer": "有，可以用电脑。",
+      "why": "Answer the existence question."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u18-t5",
+      "phrase": "s1-u18-w11",
+      "line": {
+        "zh": "这个杯子很【干净】。",
+        "py": "zhè gè bēi zi hěn gān jìng .",
+        "en": "This cup is clean."
+      },
+      "blankPy": "gān jìng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u18-t6",
+      "phrase": "s1-u18-w17",
+      "line": {
+        "zh": "我们在【楼下】喝水。",
+        "py": "wǒ men zài lóu xià hē shuǐ .",
+        "en": "We drink water downstairs."
+      },
+      "blankPy": "lóu xià"
+    },
+    {
+      "type": "match",
+      "id": "s1-u18-t7",
+      "phrase": "s1-u18-w08",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The computer is on the table.",
+          "right": {
+            "zh": "电脑在桌子上。",
+            "py": "diàn nǎo zài zhuō zi shàng .",
+            "en": "The computer is on the table."
+          }
+        },
+        {
+          "left": "There is no water inside the cup.",
+          "right": {
+            "zh": "杯子里边没有水。",
+            "py": "bēi zi lǐ bian méi yǒu shuǐ .",
+            "en": "There is no water inside the cup."
+          }
+        },
+        {
+          "left": "Wash the cup first.",
+          "right": {
+            "zh": "先洗杯子。",
+            "py": "xiān xǐ bēi zi .",
+            "en": "Wash the cup first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u18-t8",
+      "phrase": "s1-u18-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "There is no television at home.",
+          "right": {
+            "zh": "家里没有电视机。",
+            "py": "jiā lǐ méi yǒu diàn shì jī .",
+            "en": "There is no television at home."
+          }
+        },
+        {
+          "left": "There is a book on the floor.",
+          "right": {
+            "zh": "地上有一本书。",
+            "py": "dì shang yǒu yī běn shū .",
+            "en": "There is a book on the floor."
+          }
+        },
+        {
+          "left": "The restroom is upstairs.",
+          "right": {
+            "zh": "洗手间在楼上。",
+            "py": "xǐ shǒu jiān zài lóu shàng .",
+            "en": "The restroom is upstairs."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u18-t9",
+      "phrase": "s1-u18-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I can speak English.",
+          "right": {
+            "zh": "我会说英语。",
+            "py": "Wǒ huì shuō Yīngyǔ.",
+            "en": "I can speak English."
+          }
+        },
+        {
+          "left": "I watched two films at home.",
+          "right": {
+            "zh": "我在家看了两个电影。",
+            "py": "Wǒ zài jiā kàn le liǎng ge diànyǐng.",
+            "en": "I watched two films at home."
+          }
+        },
+        {
+          "left": "I did not go out yesterday.",
+          "right": {
+            "zh": "我昨天没出去。",
+            "py": "Wǒ zuótiān méi chūqu.",
+            "en": "I did not go out yesterday."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Asking about a home",
+      "natural": {
+        "zh": "洗手间在哪里？",
+        "py": "xǐ shǒu jiān zài nǎ lǐ ?",
+        "en": "Where is the restroom?"
+      },
+      "note": "洗手间 is a useful polite public and domestic location word."
+    },
+    {
+      "situation": "Offering a drink",
+      "natural": {
+        "zh": "先洗杯子，再喝水。",
+        "py": "xiān xǐ bēi zi , zài hē shuǐ .",
+        "en": "Wash the cup first, then drink water."
+      },
+      "note": "State the practical reason; this is not a judgment about the person."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u18-speak",
+    "title": "Our shared kitchen",
+    "place": "A language-exchange meeting",
+    "context": "Explain what the flat has and count household things.",
+    "goal": "Describe what a home has",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你家有几口人？",
+        "pinyin": "nǐ jiā yǒu jǐ kǒu rén ?",
+        "meaning": "How many people are in your family?",
+        "intent": "Say three people",
+        "examples": [
+          "我家有三口人。",
+          "三口人。"
+        ],
+        "accept": [
+          "^我家有三口人。[。！？]?$",
+          "^三口人。[。！？]?$"
+        ]
+      },
+      {
+        "text": "洗手间在哪里？",
+        "pinyin": "xǐ shǒu jiān zài nǎ lǐ ?",
+        "meaning": "Where is the restroom?",
+        "intent": "Say upstairs",
+        "examples": [
+          "洗手间在楼上。",
+          "在楼上。"
+        ],
+        "accept": [
+          "^洗手间在楼上。[。！？]?$",
+          "^在楼上。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一08, 一37. Native check: domestic location/register and classifier combinations. 口 is taught specifically for family-member counts. Planned retrieval 一02 / 一41: 我会说英语。, 我在家看了两个电影。, 我昨天没出去。."
+}

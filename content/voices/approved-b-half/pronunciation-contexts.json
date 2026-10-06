@@ -98,5 +98,204 @@
     "synthesisText": "又来了。又。",
     "extract": "last-clause",
     "reason": "Natural context for the target tone; only the final repeated word ships."
+  },
+  "af620f8352234e1a-clear": {
+    "synthesisText": "北京话里有儿化音。小孩儿。",
+    "extract": "last-clause",
+    "reason": "Regenerate a failed automatic transcription using natural pronunciation context; only the final target clause ships."
+  },
+  "04e45efb3be890e7-clear": {
+    "synthesisText": "使用。用。",
+    "extract": "last-clause",
+    "reason": "Regenerate a failed automatic transcription using natural pronunciation context; only the final target clause ships."
+  },
+  "0e826095b60ccf03-clear": {
+    "synthesisText": "外面。外。",
+    "extract": "last-clause",
+    "reason": "Regenerate a failed automatic transcription using natural pronunciation context; only the final target clause ships."
+  },
+  "1aac8b956f808df5-clear": {
+    "synthesisText": "大米。米。",
+    "extract": "last-clause",
+    "reason": "Regenerate a failed automatic transcription using natural pronunciation context; only the final target clause ships."
+  },
+  "dd2509884781df6b-clear": {
+    "synthesisText": "一共三十块。一共。",
+    "extract": "last-clause",
+    "reason": "Regenerate a failed automatic transcription using natural pronunciation context; only the final target clause ships."
+  },
+  "d24d3c99460c7e3a-clear": {
+    "synthesisText": "一页纸。书的页。页。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "4bd12b1e62a32a9c-clear": {
+    "synthesisText": "帮忙。帮。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "c9defc59a5f35c34-clear": {
+    "synthesisText": "动作。动。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "f93d7367ecb3121f-clear": {
+    "synthesisText": "很重。重。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "409e2c3882c96ae6-clear": {
+    "synthesisText": "只有。只。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "dbdb54d77a4c588f-clear": {
+    "synthesisText": "够用。够。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "0e1457401a5a815f-clear": {
+    "synthesisText": "一栋楼。栋。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "75cadcaf0ac6de53-clear": {
+    "synthesisText": "买两本书。两本。",
+    "extract": "last-clause",
+    "reason": "Natural pronunciation context for an unresolved isolated word or short quantity; only the final target clause ships and must pass the unchanged screen."
+  },
+  "6b1134e3ea23cbee-clear": {
+    "synthesisText": "两块五毛钱。两块五毛。",
+    "extract": "last-clause",
+    "reason": "Natural price context for a failed quantity reply; the unchanged transcription screen must still accept the final crop."
+  },
+  "a739793f61b18167-clear": {
+    "synthesisText": "没事儿，明天再来。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "8868a5c0ed09317a-clear": {
+    "synthesisText": "没事儿，再记一次。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "d5c7850a5185913a-clear": {
+    "synthesisText": "男孩儿，是儿化音。男孩儿。",
+    "extract": "last-clause",
+    "reason": "Third actual pronunciation repair: keep the same verified fixed speaker embedding, remove reference-delivery ICL, and condition rhotic short words with a natural phonetic carrier. No acceptance-rule change.",
+    "sampling": {
+      "temperature": 0.65,
+      "subtalker_temperature": 0.65
+    },
+    "promptMode": "speaker-only"
+  },
+  "c445386d32626dd6-clear": {
+    "synthesisText": "那个男孩儿是我弟弟。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "08a83ed3192475b6-clear": {
+    "synthesisText": "女孩儿，是儿化音。女孩儿。",
+    "extract": "last-clause",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "73cd90cdde1bd36d-clear": {
+    "synthesisText": "那个女孩儿是我妹妹。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "172fb7e67b9b09dd-clear": {
+    "synthesisText": "来两次。次。",
+    "extract": "last-clause",
+    "reason": "Regenerate an unresolved target with the fixed approved identity and natural pronunciation context. Cropped targets must independently pass the unchanged speech screen."
+  },
+  "4a5ff677e1dbd37c-clear": {
+    "synthesisText": "地方。方。",
+    "extract": "last-clause",
+    "reason": "Second real pronunciation repair uses deterministic decoding with the same fixed approved Sayo identity. Exact/cropped speech still must pass the original transcription checks.",
+    "sampling": {
+      "do_sample": false,
+      "subtalker_dosample": false
+    }
+  },
+  "b0e6ab04c121a082-clear": {
+    "synthesisText": "没事儿。你先等一下，我看日历。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "a8c80cd9974d7cca-clear": {
+    "synthesisText": "没事儿，今天不用等老师，明天也别等。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "d40a8f66cca20d45-clear": {
+    "synthesisText": "那边的男孩儿和女孩儿呢？",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "963376ffd1125996-clear": {
+    "synthesisText": "弟弟是那边的男孩儿，妹妹是旁边的女孩儿。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "b66036f6b7cc9cab-clear": {
+    "synthesisText": "男孩儿跟女孩儿，小朋友在楼下玩。",
+    "extract": "whole",
+    "promptMode": "speaker-only",
+    "sampling": {
+      "temperature": 0.85,
+      "subtalker_temperature": 0.85
+    },
+    "reason": "Final independent seeded retry with fixed approved speaker embedding and higher sampling diversity. Exact speech acceptance rules unchanged."
+  },
+  "f004f1d84cf962dc-clear": {
+    "synthesisText": "条",
+    "extract": "whole",
+    "reason": "Regenerate an unresolved target with the fixed approved identity and natural pronunciation context. Cropped targets must independently pass the unchanged speech screen."
   }
 }

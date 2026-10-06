@@ -9,7 +9,7 @@ import {
   verifyEmailCode,
   type OAuthProvider,
 } from "./auth";
-import { BrandMark, Wordmark, brand } from "./brand";
+import { BrandSignature, brand } from "./brand";
 import { Arrow } from "./components";
 import { MoSays } from "./Mascot";
 import { welcomeGreeting as greeting } from "./sayo-lines";
@@ -83,8 +83,7 @@ export default function Welcome({
       </div>
       <section className="welcome-panel" aria-labelledby="welcome-title">
         <div className="welcome-brand">
-          <BrandMark size={56} />
-          <Wordmark />
+          <BrandSignature />
         </div>
         <h1 id="welcome-title">{brand.tagline}</h1>
         <p className="lede">

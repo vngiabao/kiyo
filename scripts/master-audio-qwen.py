@@ -1,4 +1,4 @@
-"""Master a complete approved Sayo library; install only with --install after checks."""
+"""Install screened speech; only documented owner-approved deferrals may stay absent."""
 import argparse
 from datetime import datetime, timezone
 from fractions import Fraction
@@ -48,6 +48,7 @@ def main():
     installed_hash=digest(ROOT/'src/audio-assets.json')
     assert not(args.install and args.partial)
     sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
     plan=read(CACHE/'plan.json')
     profile_path=ROOT/'content/voices/approved-b-half/profile.json'
     roster_path=ROOT/'content/voices/sayo-roster-staged.json'
@@ -66,6 +67,12 @@ def main():
     raw_records=[read(ROOT/j['receipt']) for j in plan['jobs'] if (ROOT/j['receipt']).exists()]
     def screening(record):
         return screen['clips'].get(record['rawSha256']+':'+record['text'],{}).get('status','pending')
+    if args.install:
+        assert screen['planSha256']==digest(CACHE/'plan.json'), 'Screen the current generation plan before installing'
+        screened_texts={r['text'] for r in raw_records if screening(r) in acceptable}
+        blocked=sorted({r['text'] for r in raw_records if r['text'] not in screened_texts})
+        if blocked:
+            print('Installing accepted clips only; unresolved texts: '+', '.join(blocked),flush=True)
     substitutions=[]
     unresolved=[]
     ratio=Fraction(profile['processing']['resampleRatio'])
@@ -82,6 +89,7 @@ def main():
                 substitutions.append(dict(text=raw['text'],requestedMood=original_mood,deliveryMood=raw['mood'],reason='Use the screened same-word take of the same Sayo identity; pronunciation before mood.'))
             else:
                 unresolved.append(dict(text=raw['text'],mood=original_mood,status=screening(raw)))
+                continue
         source=ROOT/raw['rawFile']
         assert digest(source)==raw['rawSha256']
         pitch_offset=raw.get('delivery',{}).get('pitchOffset',0)
@@ -111,6 +119,11 @@ def main():
         for entry in scripts:
             if not entry.get('parts'): continue
             for mood in ['dialogue'] if entry.get('dialogue') else entry['moods']:
+                absent=[p for p in entry['parts'] if not index.get(key(p['text']),{}).get(p['mood'] if mood=='dialogue' else mood)]
+                if absent:
+                    for alias in entry['moods'] if mood=='dialogue' else [mood]:
+                        unresolved.append(dict(text=entry['text'],mood=alias,status='missing-screened-part',parts=absent))
+                    continue
                 audios,hashes,selections=[],[],[]
                 for part in entry['parts']:
                     part_mood=part['mood'] if mood=='dialogue' else mood
@@ -120,21 +133,45 @@ def main():
                     hashes.append(digest(source));selections.append(dict(text=part['text'],mood=part_mood))
                 token=hashlib.sha256((''.join(hashes)+'qwen-assembly-v1').encode()).hexdigest()[:12]
                 dest=OUT/f'{entry["id"]}-{mood}-{token}.mp3'
-                record=dict(text=entry['text'],mood=mood,parts=selections,sourceHashes=hashes,
-                    **encode(np.concatenate(audios[:-1]),dest))
+                receipt=CACHE/(dest.stem+'-master.json')
+                if receipt.exists() and dest.exists():
+                    record=read(receipt)
+                    assert digest(dest)==record['sha256']
+                    assert record['sourceHashes']==hashes and record['parts']==selections
+                else:
+                    record=dict(text=entry['text'],mood=mood,parts=selections,sourceHashes=hashes,
+                        **encode(np.concatenate(audios[:-1]),dest))
+                    atomic(receipt,record)
                 records.append(record)
                 for alias in entry['moods'] if mood=='dialogue' else [mood]:
                     manifest.setdefault(entry['text'],{})[alias]='/audio-v2/'+dest.name
         index={key(text):voices for text,voices in manifest.items()}
         for entry in scripts:
             for mood in entry['moods']:
-                assert index.get(key(entry['text']),{}).get(mood), (entry['text'],mood)
+                if not index.get(key(entry['text']),{}).get(mood) and not any(x['text']==entry['text'] and x['mood']==mood for x in unresolved):
+                    unresolved.append(dict(text=entry['text'],mood=mood,status='missing-generation'))
+    deferred=set()
+    policy_path=ROOT/'content/voices/audio-deferred.json'
+    if policy_path.exists():
+        policy=read(policy_path)
+        entries=policy.get('entries',[])
+        assert set(policy['texts'])=={e['text'] for e in entries}, 'Deferral metadata missing'
+        assert all(e.get('date') and e.get('reason') and e.get('reviewed') is False and e.get('repairRounds',0)>=1 for e in entries)
+        deferred={key(e['text']) for e in entries}
+        changed=True
+        while changed:
+            changed=False
+            for entry in scripts:
+                if key(entry['text']) not in deferred and any(key(p['text']) in deferred for p in entry.get('parts',[])):
+                    deferred.add(key(entry['text']));changed=True
+    blockers=[entry for entry in unresolved if key(entry['text']) not in deferred]
     provenance=dict(model=profile['model'],roster='content/voices/roster.json',
         approvedProfile='content/voices/approved-b-half/profile.json',
         generatedAt=datetime.now(timezone.utc).isoformat(),status='Owner-approved synthetic voice; automatic screening is not native pronunciation certification.',
         format='mono 24 kHz MP3, 64 kbps',loudness='-16 +/-1 LUFS, measured after encoding',
         pitchMethod='single-pass polyphase resampling; no phase vocoder',clips=records,
-        totalBytes=sum(r['bytes'] for r in records),pronunciationFirstSubstitutions=substitutions,unresolved=unresolved)
+        totalBytes=sum(r['bytes'] for r in records),pronunciationFirstSubstitutions=substitutions,unresolved=unresolved,
+        deferred=[entry for entry in unresolved if key(entry['text']) in deferred])
     atomic(CACHE/'assets.json',manifest)
     atomic(CACHE/'provenance.json',provenance)
     if args.install:
@@ -142,7 +179,6 @@ def main():
         assert digest(ROOT/'src/audio-assets.json')==installed_hash, 'Installed catalog changed in parallel; review before replacing it'
         screen=read(CACHE/'screening.json')
         assert screen['planSha256']==digest(CACHE/'plan.json')
-        assert not unresolved, 'Resolve discrepancies without a screened same-word alternative before install'
         backup=ROOT/'output/audio-backup-before-approved-b'
         backup.mkdir(parents=True,exist_ok=True)
         # Keep all inactive audio recoverable outside public so the PWA only ships the new library.
@@ -161,7 +197,7 @@ def main():
         atomic(ROOT/'content/voices/sayo-library-provenance.json',provenance)
         atomic(ROOT/'content/audio-provenance.json',dict(provenance,settings=roster,
             scripts='content/audio-scripts.json',modelLicense='Apache-2.0',voiceIdentity='Sayo: one approved original synthetic voice',legacyBackup='output/audio-backup-before-approved-b'))
-        roster['status']='Installed approved B-half identity; individual pronunciation review remains ongoing.'
+        roster['status']='Installed screened clips of the approved B-half identity; see provenance for unresolved texts.'
         atomic(ROOT/'content/voices/roster.json',roster)
         atomic(OUT/'assets.json',manifest)
         for file in OUT.glob('*.mp3'):
@@ -169,6 +205,10 @@ def main():
                 assert digest(archive/file.name)==digest(file)
                 file.unlink()
     print(f'MASTERED {len(records)} files; {provenance["totalBytes"]:,} bytes; installed={args.install}; missing={len(missing)}',flush=True)
+    if unresolved:
+        print('UNRESOLVED '+json.dumps(unresolved,ensure_ascii=False),flush=True)
+    if blockers:
+        raise SystemExit(1)
 
 if __name__=='__main__':
     main()

@@ -499,7 +499,7 @@ export function Reader({
     known = knownSet(status);
   const [pinyin, setPinyin] = useState(profile.path !== "characters"),
     [english, setEnglish] = useState<Set<number>>(new Set()),
-    [tapped, setTapped] = useState<{ ch: string; line: number } | null>(null),
+    [tapped, setTapped] = useState<{ ch: string; line: number; at: number } | null>(null),
     [stage, setStage] = useState<"read" | "check" | "lock" | "done">("read"),
     [lock, setLock] = useState<TaskAnswer | null>(null),
     [locked, setLocked] = useState(false),
@@ -508,6 +508,9 @@ export function Reader({
   const started = useRef(Date.now());
   const c = coverage(reading, known);
   const gloss = tapped ? glossFor(tapped.ch) : null;
+  // Characters the course hasn't taught fall back to the full dictionary (the whole word).
+  const words = useWords(tapped && !gloss?.taught ? reading.lines[tapped.line]?.zh : undefined);
+  const word = tapped && words.tokens ? tokenAt(words.tokens, tapped.at) : undefined;
   async function finish() {
     await db.sessions.add({
       id: crypto.randomUUID(),
@@ -574,7 +577,7 @@ export function Reader({
                           key={ci}
                           className={`rch ${known.has(ch) ? "k" : charByHanzi[ch] ? "t" : "u"} ${tapped?.ch === ch && tapped.line === li ? "on" : ""}`}
                           onClick={() => {
-                            setTapped({ ch, line: li });
+                            setTapped({ ch, line: li, at: ci });
                             setLookups((n) => n + 1);
                             speech.speak(characterSpeech(ch));
                           }}
@@ -606,7 +609,18 @@ export function Reader({
               ))}
             </article>
             {speech.error && <p className="inline-error" role="alert">{speech.error}</p>}
-            {tapped && gloss && (
+            {tapped && !gloss?.taught && word && (
+              <div className="reader-word">
+                <WordCard
+                  token={word}
+                  line={reading.lines[tapped.line].zh}
+                  source={reading.title}
+                  voiceURI={profile.voiceURI}
+                  onClose={() => setTapped(null)}
+                />
+              </div>
+            )}
+            {tapped && gloss?.taught && (
               <aside className="gloss" role="status" lang="en">
                 <span className="gloss-char" lang="zh-CN">
                   {tapped.ch}
@@ -614,7 +628,6 @@ export function Reader({
                 <span className="gloss-body">
                   <Pinyin text={gloss.p} />
                   <span>{gloss.m}</span>
-                  {!gloss.taught && <span className="small">Not in the character path yet</span>}
                 </span>
                 <button className="icon-button" aria-label="Close gloss" onClick={() => setTapped(null)}>
                   <X size={18} />
@@ -733,3 +746,5 @@ export function Reader({
 }
 import { Mascot, MoSays } from "./Mascot";
 import { TaskView, type TaskAnswer } from "./TaskView";
+import { WordCard, useWords } from "./WordCard";
+import { tokenAt } from "./dictionary";

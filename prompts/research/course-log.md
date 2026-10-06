@@ -1,0 +1,126 @@
+# Project C implementation log
+
+Owner approved all 96 units and removed intermediate review stops on 5 October 2026. Each batch is accepted only after its generated audio and all requested gates pass. Coverage means explicit curriculum introduction, never learner mastery or native certification.
+
+## Batch 01 — s1-u13 to s1-u16 — prepared, acceptance pending
+
+- Units: A friend of a friend; Want to come along?; Wait, which one?; This one or that one?
+- Allocation: 72 vocabulary entries, 36 explicit characters, eight grammar cards, four original supplementary scenes/verses. Vocabulary comes from the C1 official remaining inventory; levels are read from the HSK lookup.
+- Grammar: 一05 personal pronouns; 一24 subjects; 一03 想/要; 一13 还/也; 一04 question words; 一46 question-word questions; 一06 demonstratives; 一27 attributives. Cards introduce the stated inventory with examples; this does not establish learner mastery.
+- Practice: each unit has a 12-turn dialogue, three comprehension questions, a purpose-led reading with three questions and gap fill, eight listening/exam-format tasks, pragmatics and a scripted role-play. Every vocabulary entry occurs in at least two distinct connected practice lines.
+- Self-review fixes: removed early 把 constructions; added missing support glosses; repaired citation pinyin and neutral tones; changed an ambiguous pronoun-error example to an unmistakable singular/group mismatch; added gap-fill distractors; gave new characters usage notes with local stroke-data counts rather than invented etymology.
+- Bootstrap verification: all 16 existing/new packs compiled; new word readability 99%, 97%, 100%, 100%; pinyin check had zero lines to fix before the explicit-character additions; targeted allocation/practice/audio-manifest tests passed (three tests). These are preparation checks, not the final batch gates.
+- Audio: local approved B-half generation completed, but installation is blocked by the pronunciation screen described below. Supplementary lines and their full assembled readings are explicitly collected by the manifest. No human listening or native review is claimed.
+- Existing checker warnings: several words were encountered in earlier/base material although the conservative C1 ledger did not count a standalone introduction. They are explicitly consolidated here. Existing earlier-unit thin-context warnings remain visible; no gate has been weakened.
+
+### Native-review flags
+
+- s1-u13: check the country-reference examples and the contextual gloss of 学院 (college/institute, not a foreign qualification). School stages do not assert a universal age.
+- s1-u14: the supplementary verse is original rhythmic reading, not a claim that it fits a melody; check 爱看 as fondness. Invitation acceptance/refusal must remain natural.
+- s1-u15: check rapid successive clarification questions. 刚才 is a glossed support word, not claimed as a completed grammar target.
+- s1-u16: the original verse intentionally omits 是/很 in short poetic lines; ordinary conversation examples retain full forms. Borrowing and demonstrative contrasts require shared visible objects.
+
+### 6 October verification — not accepted; audio blocker
+
+- `npm run packs`: passed, 16/16 packs; the four new units have word readability 99%, 97%, 100%, 100%. `npx tsx scripts/check-pinyin.ts`: 4,522 dictionary matches, zero lines to fix. Eight character entries lack dictionary entries and remain explicitly reported by the existing checker.
+- `npx tsc -b`: passed after fixing the image-readiness helper's DOM type.
+- `npm test`: 117 passed, one failed: the installed-audio catalog test rejects new task lines because the staged audio has not been installed. No test was weakened or skipped.
+- `npm run validate:content`: curriculum validation passed (369 phrases, 102 characters, 41 readings, 60 lessons, 1,310 steps); its required installed-audio check failed. `npm run build` failed at the same required audio check before producing a release.
+- Raw generation: 3,949 current jobs completed; automatic screening finished. Failed individual moods can use a screened same-text take of the same identity, with recorded pronunciation-first substitutions. Three texts have no accepted take at any required mood, so `scripts/master-audio-qwen.py --install` refuses installation before expensive mastering. The existing final refusal remains as a second check.
+- Real repair attempts: generated new clear takes with natural carrier context; discarded a carrier extraction that cut a multi-clause sentence; regenerated exact full sentences; then regenerated the three child-reference sentences with a natural pause after 小孩儿. Automatic transcripts still consistently omit 儿. This may be an ASR orthography limitation, but it has not been established as correct rhotic pronunciation. The erhuā equivalence gate was not broadened to dismiss the failures.
+- Hardened the screening check: a long cropped sentence cannot be accepted just because its full carrier contains the expected ending. Carrier-based equivalence is limited to short targets; longer targets must match their cropped clip's own transcript. A direct check confirms `还有菜` still fails as a transcript of `我有米饭，还有菜。`, while a complete `我想先吃饭。` passes. The blocker was rechecked after this stricter guard.
+- Content/audio fixes: bound glyphs 什/么/以/息/儿/孩/弟 keep meaningful word-context speech; corrected the subject-order mistake to `是学生我的朋友。` → `我的朋友是学生。`; replaced the awkward `是，我想先吃饭。` response with the natural `我想先吃饭。`; punctuation and authored pinyin follow the updated sentences.
+- Diagnostic latest takes, with the approved profile's selected pitch processing and measured loudness: `output/course-audio-blocker/index.html`; source hashes, screen results and encoding receipts in its `provenance.json`. These are not installed app assets or a native listening certification.
+- Current **draft-inclusive** GF2021 explicit vocabulary coverage: L1 261/500, L2 26/772, L3 6/973. Draft-inclusive explicit characters: 99/300, 1/300, 1/300. The new grammar crosswalk has not been accepted or expanded while the batch is blocked. Coverage is introduction evidence, never mastery.
+- Protected file SHA-256 audit passed for `src/packs.ts`, `src/dictionary.ts`, `src/Watch.tsx`, `src/ReadingDrill.tsx`, `src/drill.ts` against the C2 start snapshot.
+- Branding requested during this run is implemented locally, with the selected leaning signature and a square portrait of the existing waving pose. Desktop/tablet/mobile/320 px captures were checked; source pixels and icon PNG exports were verified. It has not been deployed with an incomplete course build.
+- `npx playwright test`: 29 passed, four failed, three conditionally skipped by the unchanged production-only tests (6.5 minutes). All four failures are the new supplementary-reading playback checks: their reader routes and visible content loaded, but Read aloud had no installed bundled mapping and could not request `/audio-v2/`. Existing navigation, accessibility, HSK, word-tap/reaction speech and isolated fake-cloud sync checks passed. The three production service-worker/update/offline checks require a successful production build and remain unverified; they are not counted as passes. No live Google/Supabase verification was attempted in this course run.
+
+#### Exact unresolved pronunciation lines for native review
+
+1. s1-u13 vocabulary 小孩儿 example: `那个小孩儿，是我妹妹。`
+2. s1-u13 supplementary scene, turn 1: `这个小孩儿，是你的学生吗？`
+3. s1-u13 listening task s1-u13-t2: `那个小孩儿，今年八岁。`
+
+Other native-language uncertainties remain those listed above: 学院 / foreign-country references, invitation register and original rhythmic writing, clarification-dialogue pacing, and poetic omissions in the original u16 verse. They are not marked as reviewed.
+
+The owner's allowed stop condition applies: a required audio gate remains failed after real regeneration attempts. **Four units are drafted, zero new batches accepted; 92 units remain unwritten. No deployment or push has been performed.**
+
+### 6 October continuation — Batch 01 accepted
+
+- Repaired the child-reference blocker without broadening the pronunciation screen: spoken practice now uses 孩子. Because 孩子 was already allocated, the former 小孩儿 vocabulary slot introduces 儿子 instead; the three child-reference sentences and the son example were regenerated. The northern 小孩儿 form remains a recognition-only usage note and does not earn standalone vocabulary coverage.
+- Added concrete retrieval tasks for 一02, 一15, 一21 and 一34 using earlier screened course sentences. Each unit now contains nine tasks. Additional previously owned subject, modal, question and demonstrative families recur in the connected practice; native review remains pending.
+- Hardened audio installation so accepted clips can install while unresolved texts still produce a nonzero exit and fail release validation. Two fixture tests verify this behavior. Screened exact-text alternate takes retain the same Sayo identity; failed speech is never installed as an accepted take. Assembly reuse checks source and output hashes.
+- All final gates passed: packs 16/16 with zero pinyin fixes (4,589 dictionary matches; eight explicitly reported characters without dictionary entries), content and installed-audio validation, 118 unit tests, TypeScript, and production build. Browser suite: 33 passed; its three production-only conditional checks were separately run against the final production build and all three passed. Receipts: `output/gates/batch-01/`.
+- Installed audio: 1,596 texts, 4,048 files, 62,921,216 bytes. Supplementary reading playback was verified through real bundled-audio HTTP requests without a device-voice fallback. Automatic screening is not a native listening certificate.
+- Accepted GF2021 introduction coverage: vocabulary L1 261/500, L2 26/772, L3 6/973; explicit characters 99/300, 1/300, 1/300. Eight new grammar-owner cards were crosswalked to their explicit inventories; coverage never means learner mastery.
+- Native-review flags above remain open; specifically retain the recognition note 小孩儿 (xiǎoháir), college/school wording, invitation register, clarification pacing, and intentional poetic omissions. The three former unresolved spoken lines are superseded by screened 孩子 lines.
+- Branding and dictionary/drill production dependencies remain local, including the actual audio catalogs and files. Four new units are accepted; 92 units remain to be accepted. No deployment or push yet; the owner requested deployment at the end of the full run.
+
+## Batch 02 — s1-u17 to s1-u20 — prepared, audio and acceptance pending
+
+- Units: Cooking for the group; Our shared kitchen; Whose charger is this?; What are you doing now? Allocation: 69 vocabulary records and 59 explicit characters. Levels and pronunciation alternatives are read from the existing official lookup; this batch is not yet accepted.
+- Grammar owners: 一07 numbers including 二/两 and 半; 一23 quantities; 一08 the eight classifiers; 一37 possession and existence with 有; 一20 的/地; 一26 objects; 一11 temporal/progressive adverbs; 一42 all listed progressive forms, including action + 呢 without 在. Owner cards explain the inventories rather than claiming mastery from incidental use.
+- Retrieval task 9 brings back 一40 in u17, 一02/一41 in u18, 一15/一43 in u19, and 一21/一47 in u20. Existing question-word questions recur in u17/u20; ownership and demonstrative phrases recur in u18/u19; quantities recur in u19, and existence/location in u20. Each unit has eight mixed tasks plus this explicit retrieval task, twelve dialogue turns and three questions, a purpose-led core reading with three questions/gaps, and an original supplementary scene or verse.
+- Self-review: reviewed Chinese/English/Vietnamese against the communicative goal; kept money amounts arithmetically consistent (three buns at 2.50 = 7.50), removed premature disposal/complement constructions, checked gifts versus purchasing in 得到 contexts, and made the charger’s unknown owner explicit. Replaced the out-of-ledger 口 vocabulary allocation with 手; 口 remains explicitly taught in the classifier grammar card. Corrected glyph readings 干 gān, 地 dì and 得 dé independently of particles/verbs.
+- Support words have actual meanings in the tap glossary: 只, 栋, 厨房, 商店/小店, 房/住, 充电器/借/送, 答案/白色, 清楚/大声/着急/事. Some passages still produce the existing “many glossed characters” warning; it is recorded, not suppressed. Bound or ambiguous glyph audio uses 干净, 地上, 得到, 知识, 时候, 电视机, 准备 and 电脑. The standalone vocabulary 地 remains the neutral particle de, not the ground noun dì.
+- Preparation gates: packs 20/20, word readability 99%/100%/100%/98%, zero pinyin lines to fix, 6,326 dictionary matches and nine explicitly reported unlisted characters; all three targeted allocation/practice/manifest tests pass. Local generation is in progress. Full content/audio, unit, browser and production checks remain pending.
+- Native-review flags: u17 `肉一半做午饭，一半做晚饭。` (portion wording); u18 `洗手间在楼上，洗杯子在楼下。` (intentional clipped verse versus ordinary full sentence); u19 `朋友送我一本书，我得到一本外语课本。` and the longer gift acknowledgment (natural use of 得到); u20 `我读书呢，等一下。` (progressive without 在 and practical delivery). Classifier 口 is restricted to household-member counts. Automatic pinyin/transcript checks do not close these flags.
+
+### Batch 02 acceptance — 6 October
+
+- Accepted s1-u17–s1-u20: 69 vocabulary records, 59 explicit characters and eight grammar-owner families above. Coverage is introduction evidence, never learner mastery. GF2021 words: L1 330/500, L2 26/772, L3 6/973; characters 158/300, 1/300, 1/300.
+- Applied audio repairs: isolated words regenerated with natural carrier context, and 够 stays inside 够用 for reader lookup. Replaced the two short, irrelevant price distractors 两块五毛 with 三块钱 after real failed regeneration attempts; the valid full-context price examples remain. Added 认真地读 as a dictionary-checked grammar example. The phonetic comparison now uses authored neutral de only at an exact 地→的 position; ground dì, missing syllables and 小孩儿→小孩 still fail. Two fixture tests cover those distinctions. No erhuā whitelist change.
+- Installed 1,961 texts / 5,067 files / 84,507,300 bytes with complete requested mood coverage, source/output hashes, decoding and loudness checks. Failed individual moods use a screened alternate of the same identity with substitutions recorded; no text remains unresolved. Automatic ASR equivalence is not tone or native-language certification.
+- Required final gates passed: packs 20/20 with zero pinyin fixes and 99%/100%/100%/98% new-unit word readability; content/audio, types, 119 unit tests, production build. Browser first run: one reply field detached during a concurrent build; focused rerun passed, then the full stable run passed 33 tests. Its three production-only conditions were separately run against the built preview: all three passed. Five protected files still match their C2 start hashes. No test was changed to dismiss a failure.
+- Receipts: output/gates/batch-02-*.log. All native-review flags listed in preparation remain open, including the gift wording, quantity wording and original clipped verse. No live Google/Supabase verification in this course run. Eight new units accepted, 88 remaining; no deployment before completion.
+- Editorial preflight for later units caught the second GF2021 还 entry: it is huán “return”, not another introduction of hái “still”. Unit 30 source now explicitly teaches the correct reading/verb sense with return-book contexts. Suffix 子/们 source annotations receive credit only from explicit neutral suffix introductions with a source note, never from compound exposure; nine focused audit/plan tests passed.
+
+## Batch 03 — s1-u21 to s1-u24 — prepared, not accepted
+
+- Units: A realistic weekday routine; correcting the class day and time; finding the right bus/entrance; introducing family and friends. Allocation: 68 vocabulary records, 68 explicit characters, nine grammar-owner cards. Owners: 一12 habits/repetition, 一28 circumstance adverbials, 一14 negation, 一48 A-not-A, 一16 location 在, 一29 verb predicates, 一44 dates and clock time, 一17 跟/和 accompaniment, 一19 coordination and choices. Earlier permission, quantities, progressive forms and compliments recur in concrete task 9 retrievals.
+- Applied self-review fixes: distinguished 对不起 as a verb and 这边/那边 as pronouns; checked six-o’clock/eleven-o’clock routine details, changed a misleading “tomorrow” correction to the actual weekday/class-time correction; checked 2026-10-06 as Tuesday and boarding/meeting times separately; kept 男朋友/女朋友 separate from 男人/女人 and 男孩儿/女孩儿. Added real glossary meanings for class periods, safety, vehicle/people/tree classifiers, calendar changes and family generations instead of hiding unfamiliar characters.
+- Preparation: 24/24 packs compile with 97%/96%/99%/100% new-unit word readability and zero pinyin fixes (8,156 matched dictionary syllables; nine unlisted glyphs reported). The current generation still contains the earlier 二〇二六 spelling; the source now uses 二零二六 so it will be rebuilt and its changed lines regenerated before acceptance. Raw audio is not installed or treated as verified.
+- Playback repair: vocabulary entries keep their own reading instead of taking the glyph default. Neutral 地 stays in 认真地读, ground 地 in 地上, dry 干 in 干净, do 干 in 干什么, return 还 in 还书, and suffixes in actual words. The new browser regression currently correctly fails for a not-yet-installed context clip; acceptance requires it to pass with bundled audio responses.
+- Native-review flags: u21 `下课后，我和朋友认真地读课文，再说五分钟汉语。` (study-plan wording); u22 `你记星期一晚上七点，那间房不大，人不多。` (clarification pacing); u23 bus-stop/boarding announcements and the original clipped travel verse; u24 `男人是朋友，不是男朋友。女人是老师。` (intentional contrast in an original verse), 男孩儿/女孩儿 delivery and family-reference/register choices. Automatic checks do not certify tone or native naturalness. No native approval recorded; full acceptance gates pending.
+
+### Batch 03 continuation — unresolved speech gate, 6 October
+
+- Rebuilt the date lines as 二零二六年十月六日. The narrowly scoped year-digit comparison accepts the same date written as 2026年10月6日; different years/days still fail. Three screening fixtures and two accepted-only installation fixtures pass. No erhuā acceptance whitelist was broadened.
+- Four real repair rounds were attempted after initial generation: natural carriers, deterministic decoding, speaker-only conditioning with the identical approved fixed embedding, then a fresh seeded higher-diversity speaker-only pass. Standalone 男孩儿 now has an accepted exact-transcript take. Ten other texts still fail the original automatic screen. An independent local Whisper large-v3 diagnostic on the preceding round also omitted their 儿 endings. That is an unresolved pronunciation/transcription ambiguity, not evidence of native approval.
+- Accepted speech installed locally: 5,970 files, 104,119,896 bytes. Thirty requested mood mappings for ten unresolved texts and fifteen mappings for five dependent assemblies remain absent; the installer exits 1 and the content/build audio gate correctly rejects this state. The printed raw-file missing count of zero does not mean complete accepted mapping coverage.
+- Final packs check passes 24/24 with 97%/96%/99%/100% word readability for this batch, 8,156 dictionary matches, nine explicitly reported unlisted characters and zero pinyin lines to fix. TypeScript passes. `validate:content` checks curriculum successfully (539 phrases, 229 characters, 65 readings, 76 lessons, 1,650 steps) but exits 1 on required audio mappings; production build also exits 1 at that gate. Final unit and targeted playback results are recorded below when complete. A failed production build cannot verify production-only service-worker checks.
+- All five protected files retain their C2 start SHA-256 hashes. No database name, stored learner data, live services or npm dependencies changed. No commit, push or deployment in this continuation. Branding is prepared locally; it has not shipped from this incomplete course run.
+- Accepted new units remain s1-u13–s1-u20 (eight). s1-u21–s1-u24 are compiled drafts, not accepted. Editorial Python sources for s1-u25–s1-u30 and s2-u01–s2-u04 are prepared but not serialized/accepted. Eighty-eight of the requested 96 units still await completion. Accepted GF2021 vocabulary introduction coverage remains L1 330/500, L2 26/772, L3 6/973; explicit characters 158/300, 1/300, 1/300. Do not count draft-inclusive coverage as accepted or as learner mastery.
+- The owner's explicit stop condition applies: a required gate remains failed after real repair attempts. Preserve the raw takes, source packs, screening receipts and failed gate logs. Deployment stays blocked rather than shipping missing audio.
+
+#### Exact unresolved spoken texts — native listening/phonetic review still open
+
+1. `没事儿，明天再来。`
+2. `没事儿，再记一次。`
+3. `女孩儿`
+4. `那个男孩儿是我弟弟。`
+5. `那个女孩儿是我妹妹。`
+6. `没事儿。你先等一下，我看日历。`
+7. `没事儿，今天不用等老师，明天也别等。`
+8. `那边的男孩儿和女孩儿呢？`
+9. `弟弟是那边的男孩儿，妹妹是旁边的女孩儿。`
+10. `男孩儿跟女孩儿，小朋友在楼下玩。`
+
+Earlier native-language flags remain open: school/college and country references, invitation register, clarification pacing, original poetic omissions; u17 portion wording, u18 clipped shared-kitchen verse, u19 得到/gift acknowledgment, u20 progressive 呢; and the specific Batch 03 lines above. No line is marked native-reviewed.
+
+#### Final gate receipts for the blocked continuation
+
+- `npm test`: 120 passed, one failed; the unchanged catalog assertion rejects a missing required task-audio mapping.
+- Focused Playwright playback/regression suite: four passed, one failed. The three supplementary readings u21–u23 and the taught-reading word-tap test passed with bundled audio requests. u24's scene loaded correctly but timed out waiting for an audio-v2 request because its assembly contains an unresolved spoken line. No timeout or assertion was loosened.
+- Logs: `output/gates/batch-03-final-packs.log`, `batch-03-final-types.log`, `batch-03-final-content.log`, `batch-03-final-unit.log`, `batch-03-final-playback.log`, `batch-03-final-build.log`, `batch-03-final-master.log`, and `batch-03-repair-4-{generation,screen}.log`.
+- The full browser suite and production-only checks were not claimed as verified for this failed release. Earlier complete checks apply to Batch 02 only. Resume by resolving the exact ten speech texts above, rebuilding/installing the audio plan and running every batch gate; do not deploy the current partial catalog.
+
+### Owner-approved audio policy and Batch 03 acceptance — 6 October
+
+- The owner directly approved all three handoff points: one real audio repair followed by a dated device-speech exception; continued HSK 1–3 course batches with no review stops and deployment after each completed level; original rotating exam banks with about 60 checkpoint/30 sample items per level, retaining old IDs/results. Existing dictionary/drill/branding/course changes are to be committed now. This supersedes the earlier audio-only blocking requirement; every other content, pinyin, readability, answer-key, test and build gate remains strict.
+- The ten existing exceptions have individual date/reason/repair receipts and remain `reviewed: false`. Assemblies are derived from their actual manifest parts, not arbitrary substring matches. Accepted audio stays installed; failed takes never become accepted clips. Four mastering fixture tests cover normal success, unlisted failure, documented deferral without installation, and an unrelated exception that cannot hide missing speech. A separate unit test verifies exact-text/assembly scoping.
+- Accepted s1-u21–s1-u24 under that explicit policy: 68 vocabulary records, 68 explicit characters, nine grammar-owner cards and concrete retrieval tasks. Native-review flags above remain open. Coverage: GF2021 vocabulary 398/500, 26/772, 6/973; characters 226/300, 1/300, 1/300; level-1 grammar 33 introduced, 6 partial, 9 unmapped. Introduction does not mean mastery or native certification.
+- Packs/pinyin, content with declared audio fallback, types and build pass. Initial full unit suite: 121/121; the newly added policy/coverage/plan tests pass (10), and installed-catalog/policy tests pass (6). Full browser run: 33 passed, three production-only conditions, one failed new fallback fixture; corrected the mock utterance constructor, then all four supplementary-reader tests passed, including actual device-speech dispatch for the deferred scene. Its navigation/pinyin checks were retained. The three production-only tests were separately run against the final build and all passed. Final full unit receipt accompanies the commit.
+- Build precache: 446 entries / 5,327.25 KiB; dictionary shards and the 104,119,896-byte audio library are runtime data, not installation precache. No live Supabase or Google sign-in test in this course batch. Protected A/B files remain unchanged from their C2 snapshot.
+- Current new-course acceptance: 12/96 units, through s1-u24. The previous blocked status is historical and revoked by the owner's approved audio policy. Continue with s1-u25–s1-u28, then s1-u29–s1-u30, and the approved level-2/3 outline; retain all native flags and explicit audio exceptions.

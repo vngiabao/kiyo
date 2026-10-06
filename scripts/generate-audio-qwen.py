@@ -6,6 +6,7 @@ import argparse
 from dataclasses import replace
 from datetime import datetime, timezone
 import hashlib
+from itertools import groupby
 import json
 from pathlib import Path
 import random
@@ -110,18 +111,29 @@ def main():
     assert hashlib.sha256(mixed.detach().cpu().numpy().tobytes()).hexdigest() == profile['fixedBlendEmbeddingSha256']
     prompts = {}
     repair_prompt = replace(base_prompt, ref_spk_embedding=mixed.to(b.dtype))
+    def prompt_for(job):
+        prompt=repair_prompt if job['recipe']['take'] else prompts[job['mood']]
+        if job['recipe'].get('pronunciationContext',{}).get('promptMode')=='speaker-only':
+            # Preserve the verified speaker embedding without copying reference delivery.
+            prompt=replace(prompt,ref_code=None,ref_text=None,x_vector_only_mode=True,icl_mode=False)
+        return prompt
     for mood in roster['moods']:
         assert digest(ROOT/mood['reference']) == mood['referenceSha256']
         delivery = model.create_voice_clone_prompt(ref_audio=str(ROOT/mood['reference']),
             ref_text=mood['referenceText'], x_vector_only_mode=False)[0]
         prompts[mood['id']] = replace(delivery, ref_spk_embedding=mixed.to(b.dtype))
     # Keep similar lengths together to avoid wasting batch decoding on padding.
-    pending.sort(key=lambda j: (len(j['entry']['text']), j['entry']['id'], j['mood']))
+    sampling = lambda j: j['recipe'].get('pronunciationContext',{}).get('sampling',{})
+    sampling_key = lambda j: json.dumps(sampling(j),sort_keys=True)
+    pending.sort(key=lambda j: (sampling_key(j),len(j['entry']['text']), j['entry']['id'], j['mood']))
     if args.limit:
         pending = pending[:args.limit]
     done = 0
-    for start in range(0, len(pending), args.batch):
-        batch = pending[start:start+args.batch]
+    batches=[]
+    for _, items in groupby(pending,key=sampling_key):
+        group=list(items)
+        batches.extend(group[start:start+args.batch] for start in range(0,len(group),args.batch))
+    for batch in batches:
         batch_seed = int(hashlib.sha256(''.join(str(j['wav']) for j in batch).encode()).hexdigest()[:8], 16) % (2**31)
         for attempt in range(4):
             seed = batch_seed + attempt
@@ -129,8 +141,8 @@ def main():
             texts = [j['recipe'].get('pronunciationContext',{}).get('synthesisText',j['entry']['text']) for j in batch]
             texts = [t if re.search(r'[。！？.!?]$', t) else t+'。' for t in texts]
             wavs, rate = model.generate_voice_clone(text=texts, language='Chinese',
-                voice_clone_prompt=[repair_prompt if j['recipe']['take'] else prompts[j['mood']] for j in batch], non_streaming_mode=True,
-                max_new_tokens=min(650, max(100, max(map(len, texts))*8+50)))
+                voice_clone_prompt=[prompt_for(j) for j in batch], non_streaming_mode=True,
+                max_new_tokens=min(650, max(100, max(map(len, texts))*8+50)),**sampling(batch[0]))
             failed = []
             for j, audio in zip(batch, wavs):
                 audio = np.asarray(audio, dtype=np.float32).squeeze()

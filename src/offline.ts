@@ -83,3 +83,55 @@ export async function askPersistentStorage(): Promise<boolean | null> {
     return null;
   }
 }
+
+// ---------- Dictionary ----------
+export const DICT_CACHE = "kiyo-dict";
+export interface DictManifest {
+  shards: number;
+  entries: number;
+  bytes: number;
+  gzipBytes: number;
+  version: string;
+  attribution: string;
+  license: string;
+}
+const shardUrl = (i: number) => new URL(`/dict/${String(i).padStart(3, "0")}.json`, location.origin).href;
+export async function dictManifest(): Promise<DictManifest | null> {
+  try {
+    const res = await fetch("/dict/manifest.json");
+    return res.ok && /json/i.test(res.headers.get("content-type") ?? "") ? ((await res.json()) as DictManifest) : null;
+  } catch {
+    return null;
+  }
+}
+export async function savedShardCount(shards: number): Promise<number> {
+  if (typeof caches === "undefined") return 0;
+  const have = new Set((await (await caches.open(DICT_CACHE)).keys()).map((r) => r.url));
+  return Array.from({ length: shards }, (_, i) => shardUrl(i)).filter((u) => have.has(u)).length;
+}
+/** Download every dictionary shard not yet cached (resumable, like the audio). */
+export async function saveDictionary(shards: number, onProgress: (done: number) => void, signal?: AbortSignal) {
+  if (typeof caches === "undefined") throw new Error("This browser can’t store the dictionary for offline use.");
+  const cache = await caches.open(DICT_CACHE);
+  const have = new Set((await cache.keys()).map((r) => r.url));
+  const todo = Array.from({ length: shards }, (_, i) => shardUrl(i)).filter((u) => !have.has(u));
+  let done = shards - todo.length,
+    failed = 0;
+  onProgress(done);
+  const worker = async () => {
+    while (todo.length && !signal?.aborted) {
+      const url = todo.shift()!;
+      try {
+        const res = await fetch(url, { signal });
+        if (res.ok && /json/i.test(res.headers.get("content-type") ?? "")) await cache.put(url, res);
+        else failed++;
+      } catch {
+        if (signal?.aborted) return;
+        failed++;
+      }
+      onProgress(++done);
+    }
+  };
+  await Promise.all(Array.from({ length: 4 }, worker));
+  return { failed };
+}

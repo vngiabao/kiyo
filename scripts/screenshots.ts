@@ -27,9 +27,23 @@ for (const [label, width, height] of widths) {
   const page = await ctx.newPage();
   const shot = async (name: string, full = true) => {
     await wait(page, 700);
-    await page.screenshot({ path: `${out}/${name}-${label}.png`, fullPage: full });
+    await page
+      .locator("img")
+      .evaluateAll((images) =>
+        Promise.all(
+          images.map((image) =>
+            (image as HTMLImageElement).decode().catch(() => undefined),
+          ),
+        ),
+      );
+    await page.screenshot({
+      path: `${out}/${name}-${label}.png`,
+      fullPage: full,
+    });
   };
-  await page.goto(url);
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+  await page.locator(".welcome").waitFor();
+  await page.evaluate(() => document.fonts.ready);
   await shot("welcome", false);
   await click(page, /Start without an account/);
   await page.getByPlaceholder("Your first name").fill("Alex");
@@ -51,33 +65,47 @@ for (const [label, width, height] of widths) {
   // Walk forward until a "Find" (pick) step, answering whatever comes up.
   for (let i = 0; i < 14; i++) {
     if (await page.locator(".kind-pick").count()) break;
-    if (await page.locator(".kind-count").count() && !(await page.locator(".kind-count.shot").count())) {
+    if (
+      (await page.locator(".kind-count").count()) &&
+      !(await page.locator(".kind-count.shot").count())
+    ) {
       await shot("lesson-count", false);
-      await page.evaluate(() => document.querySelector(".kind-count")?.classList.add("shot"));
+      await page.evaluate(() =>
+        document.querySelector(".kind-count")?.classList.add("shot"),
+      );
     }
-    if (await page.getByRole("button", { name: "Check", exact: true }).count()) {
+    if (
+      await page.getByRole("button", { name: "Check", exact: true }).count()
+    ) {
       await page.locator(".choice").first().click();
       await click(page, "Check");
     }
     await click(page, "Continue");
     await wait(page, 200);
   }
-  if (await page.locator(".kind-pick").count()) await shot("lesson-pick", false);
+  if (await page.locator(".kind-pick").count())
+    await shot("lesson-pick", false);
   await click(page, "Save and exit");
   await page.locator(".today").waitFor();
   await shot("today");
-  await page.goto(url);
+  await page.goto(url, { waitUntil: "domcontentloaded" });
   await wait(page, 600);
   const nav = async (name: string) => {
     await wait(page, 450);
     if (width <= 820) {
       const tab = page.locator(".tabbar").getByRole("button", { name });
       if (await tab.count()) return tab.click();
-      await page.locator(".tabbar").getByRole("button", { name: "More" }).click();
+      await page
+        .locator(".tabbar")
+        .getByRole("button", { name: "More" })
+        .click();
       await wait(page, 350);
       return page.locator(".drawer").getByRole("button", { name }).click();
     }
-    return page.locator(".main-nav").getByRole("button", { name, exact: true }).click();
+    return page
+      .locator(".main-nav")
+      .getByRole("button", { name, exact: true })
+      .click();
   };
   await nav("Read");
   await shot("read-path");
@@ -102,7 +130,8 @@ for (const [label, width, height] of widths) {
   await shot("media");
   await nav("Progress");
   await shot("progress");
-  if (width > 820) await page.getByRole("button", { name: "Dictionary" }).click();
+  if (width > 820)
+    await page.getByRole("button", { name: "Dictionary" }).click();
   else await nav("Dictionary");
   await page.getByPlaceholder(/Try/).fill("hao");
   await page.locator(".word-list button").first().click();

@@ -59,6 +59,8 @@ Visual QA: `npx tsx scripts/screenshots.ts` saves screenshots at 1440 / 768 / 37
 - **HSK 1 course:** 12 units in `content/packs/s1-u01…u12.json` (social situations; units 11–12 feed songs and dramas). Each unit: words → listening conversation → grammar & usage → mixed exam-format tasks; reading with a purpose and a gap-fill. Today continues from the 20 base lessons into these units. AI-assisted drafts: native review still needed (`prompts/gpt-side-tasks.md`).
 - **Lessons teach like a course:** checks come one item after introduction; HSK task formats live in `src/tasks.ts` + `src/TaskView.tsx`; answer positions are varied and tested; review brings back the task you missed (`reviewTaskFor`).
 - **Media = Watch & sing:** your own video/song + .srt/.vtt/.lrc (`src/captions.ts`, `src/Watch.tsx`): three rungs (subtitles → peek → none), counted peeks/look-ups, saved lines (Dexie v3 `savedLines`, `watchLog`, in backups) and Anki export; plus the six-stage route.
+- **Dictionary (offline, CC-CEDICT, CC BY-SA 4.0):** `npm run dict` builds `public/dict/` (256 shards, loaded per lookup, cache `kiyo-dict`, never precached). `src/dictionary.ts` splits lines into words (96.6% boundary accuracy on the test set in `tests/dictionary.test.ts`); `src/WordCard.tsx` is the tap card used by the Watch player and the reader. Saved words: Dexie v4 `personalWords` (in backups, Anki export). Research notes: `prompts/research/dictionary-and-speed.md`.
+- **Reading-speed drill:** Practice → Reading speed (`src/drill.ts`, `src/ReadingDrill.tsx`). Only lines from finished content, made of taught characters, flashed at your pace; unaided meaning check; staircase pace; Netflix reference of 9 chars/s (adults), 7 (children). Sessions: Dexie v4 `readingSpeed` (in backups).
 - **Lasting:** audio is cached on first play (`sayo-audio` cache) with "Save all audio" in Settings; persistent-storage request; weekly backup reminder on Today until sync is live.
 
 - **Done and working:**
@@ -96,3 +98,11 @@ Visual QA: `npx tsx scripts/screenshots.ts` saves screenshots at 1440 / 768 / 37
    - check the gallery at `/#companion`.
 
 After each task: run the checks in section 1, look at screenshots, and tell the owner plainly what's done, what was verified and what's left.
+
+## 6. Current course handoff (5 October 2026)
+
+- The owner split the next phase: Claude handles the dictionary and timed reading drill (A/B); GPT handles course research, content packs and Sayo audio (C). Brief: `prompts/gpt-next-phase.md`.
+- C1 plan: `prompts/research/course-plan.md` and its JSON ledger. Approved for all 96 units on 5 October 2026; the owner revoked intermediate review stops. Claude implemented `extraReadings` and the word-readability gate. Do not edit `src/packs.ts`, `src/dictionary.ts`, `src/Watch.tsx`, `src/ReadingDrill.tsx`, or `src/drill.ts` during C2.
+- Reproduce the audit: `npx tsx scripts/coverage-report.ts --write`. Evidence is curriculum introduction, never learner mastery. GF0025-2021 vocabulary, characters and grammar are separate from the newer exam syllabus.
+- Current conservative GF2021 word coverage: level 1 189/500, level 2 26/772, level 3 6/973. The 96-unit proposal includes grammar ownership and later retrieval slots; exact lexical/character allocations are finalized before each batch. Research files are not app assets or precache inputs.
+- Preserve the approved B-half Sayo identity and existing audio checks. A/B storage, UI and dictionary work remains Claude's scope. Shared-check results and handoff limitations: `prompts/research/c1-validation.md`.

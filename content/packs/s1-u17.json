@@ -1,0 +1,1297 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u17",
+    "stage": 1,
+    "order": 17,
+    "title": "Cooking for the group",
+    "titleZh": "一起做饭",
+    "canDo": [
+      "Count ingredients and divide a meal",
+      "Distinguish 二 in numbers from 两 before classifiers",
+      "Read a simple shared cooking plan"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u16"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u17-w01",
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "meaning": "half",
+      "meaningVi": "nửa",
+      "pos": "number",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我只要半杯奶。",
+        "py": "wǒ zhǐ yào bàn bēi nǎi .",
+        "en": "I only want half a cup of milk."
+      }
+    },
+    {
+      "id": "s1-u17-w02",
+      "hanzi": "一半",
+      "pinyin": "yí bàn",
+      "meaning": "one half",
+      "meaningVi": "một nửa",
+      "pos": "number",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这些肉，一半是你的。",
+        "py": "zhè xiē ròu , yí bàn shì nǐ de .",
+        "en": "Half of this meat is yours."
+      }
+    },
+    {
+      "id": "s1-u17-w03",
+      "hanzi": "半天",
+      "pinyin": "bàn tiān",
+      "meaning": "half a day",
+      "meaningVi": "nửa ngày",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们有半天时间。",
+        "py": "wǒ men yǒu bàn tiān shí jiān .",
+        "en": "We have half a day."
+      }
+    },
+    {
+      "id": "s1-u17-w04",
+      "hanzi": "鸡蛋",
+      "pinyin": "jī dàn",
+      "meaning": "egg",
+      "meaningVi": "trứng gà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "买六个鸡蛋。",
+        "py": "mǎi liù gè jī dàn .",
+        "en": "Buy six eggs."
+      }
+    },
+    {
+      "id": "s1-u17-w05",
+      "hanzi": "肉",
+      "pinyin": "ròu",
+      "meaning": "meat",
+      "meaningVi": "thịt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我今天不吃肉。",
+        "py": "wǒ jīn tiān bù chī ròu .",
+        "en": "I am not eating meat today."
+      }
+    },
+    {
+      "id": "s1-u17-w06",
+      "hanzi": "好吃",
+      "pinyin": "hǎo chī",
+      "meaning": "tasty",
+      "meaningVi": "ngon",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个菜很好吃。",
+        "py": "zhè gè cài hěn hǎo chī .",
+        "en": "This dish is tasty."
+      }
+    },
+    {
+      "id": "s1-u17-w07",
+      "hanzi": "早饭",
+      "pinyin": "zǎo fàn",
+      "meaning": "breakfast",
+      "meaningVi": "bữa sáng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我的早饭是面包和牛奶。",
+        "py": "wǒ de zǎo fàn shì miàn bāo hé niú nǎi .",
+        "en": "My breakfast is bread and milk."
+      }
+    },
+    {
+      "id": "s1-u17-w08",
+      "hanzi": "午饭",
+      "pinyin": "wǔ fàn",
+      "meaning": "lunch",
+      "meaningVi": "bữa trưa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天我们一起做午饭。",
+        "py": "jīn tiān wǒ men yì qǐ zuò wǔ fàn .",
+        "en": "Today we are making lunch together."
+      }
+    },
+    {
+      "id": "s1-u17-w09",
+      "hanzi": "晚饭",
+      "pinyin": "wǎn fàn",
+      "meaning": "dinner",
+      "meaningVi": "bữa tối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "晚饭吃什么？",
+        "py": "wǎn fàn chī shén me ?",
+        "en": "What are we having for dinner?"
+      }
+    },
+    {
+      "id": "s1-u17-w10",
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaning": "few; little",
+      "meaningVi": "ít",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "米饭太少了。",
+        "py": "mǐ fàn tài shǎo le .",
+        "en": "There is too little rice."
+      }
+    },
+    {
+      "id": "s1-u17-w11",
+      "hanzi": "一些",
+      "pinyin": "yī xiē",
+      "meaning": "some",
+      "meaningVi": "một ít; một số",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我想买一些菜。",
+        "py": "wǒ xiǎng mǎi yī xiē cài .",
+        "en": "I would like to buy some vegetables."
+      }
+    },
+    {
+      "id": "s1-u17-w12",
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "meaning": "to do; to make",
+      "meaningVi": "làm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你会做饭吗？",
+        "py": "nǐ huì zuò fàn ma ?",
+        "en": "Can you cook?"
+      }
+    },
+    {
+      "id": "s1-u17-w13",
+      "hanzi": "准备",
+      "pinyin": "zhǔn bèi",
+      "meaning": "to prepare",
+      "meaningVi": "chuẩn bị",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我准备三杯水。",
+        "py": "wǒ zhǔn bèi sān bēi shuǐ .",
+        "en": "I am preparing three glasses of water."
+      }
+    },
+    {
+      "id": "s1-u17-w14",
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaning": "to buy",
+      "meaningVi": "mua",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你买肉，我买菜。",
+        "py": "nǐ mǎi ròu , wǒ mǎi cài .",
+        "en": "You buy meat; I will buy vegetables."
+      }
+    },
+    {
+      "id": "s1-u17-w15",
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaning": "money",
+      "meaningVi": "tiền",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我没有那么多钱。",
+        "py": "wǒ méi yǒu nà me duō qián .",
+        "en": "I do not have that much money."
+      }
+    },
+    {
+      "id": "s1-u17-w16",
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "meaning": "yuan",
+      "meaningVi": "nhân dân tệ",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "鸡蛋一共六元。",
+        "py": "jī dàn yī gòng liù yuán .",
+        "en": "The eggs cost six yuan altogether."
+      }
+    },
+    {
+      "id": "s1-u17-w17",
+      "hanzi": "毛",
+      "pinyin": "máo",
+      "meaning": "one tenth of a yuan",
+      "meaningVi": "hào; một phần mười tệ",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个包子两块五毛。",
+        "py": "zhè gè bāo zi liǎng kuài wǔ máo .",
+        "en": "This steamed bun costs two yuan and fifty cents."
+      }
+    },
+    {
+      "id": "s1-u17-w18",
+      "hanzi": "奶",
+      "pinyin": "nǎi",
+      "meaning": "milk",
+      "meaningVi": "sữa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我不想喝奶，想喝水。",
+        "py": "wǒ bù xiǎng hē nǎi , xiǎng hē shuǐ .",
+        "en": "I would like water rather than milk."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "半",
+      "pinyin": "bàn",
+      "meaning": "half",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "半",
+          "role": "whole",
+          "gloss": "half"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 半 in 半 / 一半. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "半",
+          "p": "bàn",
+          "m": "half"
+        },
+        {
+          "w": "一半",
+          "p": "yí bàn",
+          "m": "one half"
+        }
+      ]
+    },
+    {
+      "hanzi": "鸡",
+      "pinyin": "jī",
+      "meaning": "chicken",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "鸡",
+          "role": "whole",
+          "gloss": "chicken"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 鸡 in 鸡蛋. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "鸡蛋",
+          "p": "jī dàn",
+          "m": "egg"
+        }
+      ]
+    },
+    {
+      "hanzi": "蛋",
+      "pinyin": "dàn",
+      "meaning": "egg",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "蛋",
+          "role": "whole",
+          "gloss": "egg"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 蛋 in 鸡蛋. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "鸡蛋",
+          "p": "jī dàn",
+          "m": "egg"
+        }
+      ]
+    },
+    {
+      "hanzi": "肉",
+      "pinyin": "ròu",
+      "meaning": "meat",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "肉",
+          "role": "whole",
+          "gloss": "meat"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 肉 in 肉. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "肉",
+          "p": "ròu",
+          "m": "meat"
+        }
+      ]
+    },
+    {
+      "hanzi": "早",
+      "pinyin": "zǎo",
+      "meaning": "early",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "早",
+          "role": "whole",
+          "gloss": "early"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 早 in 早饭. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "早饭",
+          "p": "zǎo fàn",
+          "m": "breakfast"
+        }
+      ]
+    },
+    {
+      "hanzi": "午",
+      "pinyin": "wǔ",
+      "meaning": "noon",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "午",
+          "role": "whole",
+          "gloss": "noon"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 午 in 午饭. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "午饭",
+          "p": "wǔ fàn",
+          "m": "lunch"
+        }
+      ]
+    },
+    {
+      "hanzi": "晚",
+      "pinyin": "wǎn",
+      "meaning": "late; evening",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "晚",
+          "role": "whole",
+          "gloss": "late; evening"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 晚 in 晚饭. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "晚饭",
+          "p": "wǎn fàn",
+          "m": "dinner"
+        }
+      ]
+    },
+    {
+      "hanzi": "少",
+      "pinyin": "shǎo",
+      "meaning": "few; little",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "少",
+          "role": "whole",
+          "gloss": "few; little"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 少 in 少. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "少",
+          "p": "shǎo",
+          "m": "few; little"
+        }
+      ]
+    },
+    {
+      "hanzi": "些",
+      "pinyin": "xiē",
+      "meaning": "some",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "些",
+          "role": "whole",
+          "gloss": "some"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 些 in 一些. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "一些",
+          "p": "yī xiē",
+          "m": "some"
+        }
+      ]
+    },
+    {
+      "hanzi": "做",
+      "pinyin": "zuò",
+      "meaning": "to do; to make",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "做",
+          "role": "whole",
+          "gloss": "to do; to make"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 做 in 做. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "做",
+          "p": "zuò",
+          "m": "to do; to make"
+        }
+      ]
+    },
+    {
+      "hanzi": "准",
+      "pinyin": "zhǔn",
+      "meaning": "to be accurate; to prepare in 准备",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "准",
+          "role": "whole",
+          "gloss": "to be accurate; to prepare in 准备"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 准 in 准备. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "准备",
+          "p": "zhǔn bèi",
+          "m": "to prepare"
+        }
+      ]
+    },
+    {
+      "hanzi": "备",
+      "pinyin": "bèi",
+      "meaning": "to prepare",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "备",
+          "role": "whole",
+          "gloss": "to prepare"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 备 in 准备. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "准备",
+          "p": "zhǔn bèi",
+          "m": "to prepare"
+        }
+      ]
+    },
+    {
+      "hanzi": "买",
+      "pinyin": "mǎi",
+      "meaning": "to buy",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "买",
+          "role": "whole",
+          "gloss": "to buy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 买 in 买. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "买",
+          "p": "mǎi",
+          "m": "to buy"
+        }
+      ]
+    },
+    {
+      "hanzi": "钱",
+      "pinyin": "qián",
+      "meaning": "money",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "钱",
+          "role": "whole",
+          "gloss": "money"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 钱 in 钱. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "钱",
+          "p": "qián",
+          "m": "money"
+        }
+      ]
+    },
+    {
+      "hanzi": "元",
+      "pinyin": "yuán",
+      "meaning": "yuan",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "元",
+          "role": "whole",
+          "gloss": "yuan"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 元 in 元. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "元",
+          "p": "yuán",
+          "m": "yuan"
+        }
+      ]
+    },
+    {
+      "hanzi": "毛",
+      "pinyin": "máo",
+      "meaning": "one tenth of a yuan",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "毛",
+          "role": "whole",
+          "gloss": "one tenth of a yuan"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 毛 in 毛. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "毛",
+          "p": "máo",
+          "m": "one tenth of a yuan"
+        }
+      ]
+    },
+    {
+      "hanzi": "奶",
+      "pinyin": "nǎi",
+      "meaning": "milk",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "奶",
+          "role": "whole",
+          "gloss": "milk"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 奶 in 奶. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "奶",
+          "p": "nǎi",
+          "m": "milk"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u17-g一07",
+      "pattern": "numbers · 二 / 两 · 十 / 百 · 半",
+      "purpose": "Count portions and prices",
+      "explanation": "零、一、二、三、四、五、六、七、八、九 name digits. 十 starts the tens: 十一, 二十; 百 starts hundreds: 一百. Use 二 in 二十 and room numbers; use 两 before ordinary classifiers: 两个鸡蛋. 半 means half: 半杯奶. Read 元 as formal yuan, 块 as everyday yuan, and 毛 as one tenth of a yuan. Citation pinyin keeps 一 as yī; its spoken tone changes before following tones.",
+      "examples": [
+        {
+          "zh": "零、一、二、三、四、五、六、七、八、九。",
+          "py": "líng , yī , èr , sān , sì , wǔ , liù , qī , bā , jiǔ .",
+          "en": "Zero, one, two, three, four, five, six, seven, eight, nine."
+        },
+        {
+          "zh": "二十个鸡蛋，一百元。",
+          "py": "èr shí gè jī dàn , yī bǎi yuán .",
+          "en": "Twenty eggs, one hundred yuan."
+        },
+        {
+          "zh": "两杯水和半杯奶。",
+          "py": "liǎng bēi shuǐ hé bàn bēi nǎi .",
+          "en": "Two glasses of water and half a cup of milk."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "两十个鸡蛋。",
+          "right": "二十个鸡蛋。",
+          "why": "Use 二 rather than 两 in 二十."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u17-g一23",
+      "pattern": "number + classifier (+ noun)",
+      "purpose": "Measure what each person gets",
+      "explanation": "A quantity phrase combines a number with a classifier, usually followed by the noun: 三个鸡蛋, 两杯水. When the object is already understood, the noun can be omitted: 我要两个. 半 precedes the classifier. Some amounts name a portion rather than an object: 半杯奶 is a measured amount of milk.",
+      "examples": [
+        {
+          "zh": "我买六个鸡蛋，你要几个？",
+          "py": "wǒ mǎi liù gè jī dàn , nǐ yào jǐ gè ?",
+          "en": "I am buying six eggs. How many would you like?"
+        },
+        {
+          "zh": "我要两个，还要半杯奶。",
+          "py": "wǒ yào liǎng gè , hái yào bàn bēi nǎi .",
+          "en": "I would like two, and half a cup of milk."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我要三鸡蛋。",
+          "right": "我要三个鸡蛋。",
+          "why": "Use 个 to count eggs."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u17-d",
+    "title": "The lunch plan",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the shopping quantities and the division of work.",
+    "lines": [
+      {
+        "zh": "今天谁来做午饭？",
+        "py": "jīn tiān shéi lái zuò wǔ fàn ?",
+        "en": "Who is making lunch today?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我们一起做。我有半天时间。",
+        "py": "wǒ men yì qǐ zuò . wǒ yǒu bàn tiān shí jiān .",
+        "en": "We will make it together. I have half a day.",
+        "speaker": "b"
+      },
+      {
+        "zh": "早饭吃了吗？",
+        "py": "zǎo fàn chī le ma ?",
+        "en": "Have you had breakfast?",
+        "speaker": "a"
+      },
+      {
+        "zh": "吃了面包，喝了半杯奶。",
+        "py": "chī le miàn bāo , hē le bàn bēi nǎi .",
+        "en": "I had bread and half a cup of milk.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我去买一些菜，你买肉，好吗？",
+        "py": "wǒ qù mǎi yī xiē cài , nǐ mǎi ròu , hǎo ma ?",
+        "en": "I will buy some vegetables. Could you buy meat?",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。鸡蛋买几个？",
+        "py": "hǎo . jī dàn mǎi jǐ gè ?",
+        "en": "Okay. How many eggs shall we buy?",
+        "speaker": "b"
+      },
+      {
+        "zh": "买六个，我们每个人吃两个。",
+        "py": "mǎi liù gè , wǒ men měi gè rén chī liǎng gè .",
+        "en": "Buy six. Each of us will eat two.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我的钱不多，六个鸡蛋多少钱？",
+        "py": "wǒ de qián bù duō , liù gè jī dàn duō shao qián ?",
+        "en": "I do not have much money. How much are six eggs?",
+        "speaker": "b"
+      },
+      {
+        "zh": "一共六元。包子两块五毛一个。",
+        "py": "yī gòng liù yuán . bāo zi liǎng kuài wǔ máo yī gè .",
+        "en": "Six yuan altogether. The steamed buns are two yuan fifty each.",
+        "speaker": "a"
+      },
+      {
+        "zh": "肉是不是太少了？",
+        "py": "ròu shì bú shì tài shǎo le ?",
+        "en": "Is there too little meat?",
+        "speaker": "b"
+      },
+      {
+        "zh": "午饭吃一半，晚饭吃一半。我准备米饭和水。",
+        "py": "wǔ fàn chī yí bàn , wǎn fàn chī yí bàn . wǒ zhǔn bèi mǐ fàn hé shuǐ .",
+        "en": "Half is for lunch and half for dinner. I will prepare rice and water.",
+        "speaker": "a"
+      },
+      {
+        "zh": "行。你做的菜很好吃。",
+        "py": "xíng . nǐ zuò de cài hěn hǎo chī .",
+        "en": "Okay. The dishes you make are tasty.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What are the friends planning?",
+        "choices": [
+          "A shared lunch",
+          "A cinema trip",
+          "A school exam"
+        ],
+        "answer": "A shared lunch"
+      },
+      {
+        "type": "detail",
+        "q": "How many eggs will they buy?",
+        "choices": [
+          "Two",
+          "Six",
+          "Twenty"
+        ],
+        "answer": "Six"
+      },
+      {
+        "type": "inference",
+        "q": "Why do they divide the meat?",
+        "choices": [
+          "They will use it for two meals",
+          "Nobody eats meat",
+          "They plan to sell it"
+        ],
+        "answer": "They will use it for two meals"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": []
+  },
+  "reading": {
+    "id": "s1-u17-r",
+    "title": "Shopping note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what to buy and which meal uses each half.",
+    "lines": [
+      {
+        "zh": "今天我们一起做午饭和晚饭。",
+        "py": "jīn tiān wǒ men yì qǐ zuò wǔ fàn hé wǎn fàn .",
+        "en": "Today we will make lunch and dinner together."
+      },
+      {
+        "zh": "我们有半天时间，先买东西，再做饭。",
+        "py": "wǒ men yǒu bàn tiān shí jiān , xiān mǎi dōng xi , zài zuò fàn .",
+        "en": "We have half a day. First we will shop, then cook."
+      },
+      {
+        "zh": "我买一些菜，你买肉和六个鸡蛋。",
+        "py": "wǒ mǎi yī xiē cài , nǐ mǎi ròu hé liù gè jī dàn .",
+        "en": "I will buy some vegetables; you will buy meat and six eggs."
+      },
+      {
+        "zh": "鸡蛋一共六元，包子两块五毛一个。",
+        "py": "jī dàn yī gòng liù yuán , bāo zi liǎng kuài wǔ máo yī gè .",
+        "en": "The eggs cost six yuan altogether; buns cost two yuan fifty each."
+      },
+      {
+        "zh": "肉一半做午饭，一半做晚饭。",
+        "py": "ròu yí bàn zuò wǔ fàn , yí bàn zuò wǎn fàn .",
+        "en": "Half the meat is for lunch and half for dinner."
+      },
+      {
+        "zh": "三个人吃六个鸡蛋，每个人吃两个。",
+        "py": "sān gè rén chī liù gè jī dàn , měi gè rén chī liǎng gè .",
+        "en": "Three people will eat six eggs, two each."
+      },
+      {
+        "zh": "我准备三杯水，也准备一些奶。",
+        "py": "wǒ zhǔn bèi sān bēi shuǐ , yě zhǔn bèi yī xiē nǎi .",
+        "en": "I will prepare three glasses of water and some milk."
+      },
+      {
+        "zh": "我早饭只喝了半杯奶，现在想喝水。",
+        "py": "wǒ zǎo fàn zhǐ hē le bàn bēi nǎi , xiàn zài xiǎng hē shuǐ .",
+        "en": "At breakfast I only had half a cup of milk; now I would like water."
+      },
+      {
+        "zh": "米饭不少，肉也不少。",
+        "py": "mǐ fàn bù shǎo , ròu yě bù shǎo .",
+        "en": "There is plenty of rice, and plenty of meat."
+      },
+      {
+        "zh": "你做的菜很好吃，我们都想再吃。",
+        "py": "nǐ zuò de cài hěn hǎo chī , wǒ men dōu xiǎng zài chī .",
+        "en": "Your dishes are tasty. We would all like some more."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What kind of text is this?",
+        "choices": [
+          "A shared cooking note",
+          "A train ticket",
+          "A film review"
+        ],
+        "answer": "A shared cooking note"
+      },
+      {
+        "type": "detail",
+        "q": "Who buys the vegetables?",
+        "choices": [
+          "The writer",
+          "The person addressed",
+          "Their teacher"
+        ],
+        "answer": "The writer"
+      },
+      {
+        "type": "inference",
+        "q": "Do they need to buy more eggs for three people?",
+        "choices": [
+          "No: six gives each person two",
+          "Yes: one each is not enough",
+          "The note does not say how many"
+        ],
+        "answer": "No: six gives each person two"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我买一些菜，你买肉和六个【鸡蛋】。",
+          "py": "wǒ mǎi yī xiē cài , nǐ mǎi ròu hé liù gè jī dàn .",
+          "en": "I will buy some vegetables; you will buy meat and six eggs."
+        },
+        {
+          "zh": "肉【一半】做午饭，一半做晚饭。",
+          "py": "ròu yí bàn zuò wǔ fàn , yí bàn zuò wǎn fàn .",
+          "en": "Half the meat is for lunch and half for dinner."
+        }
+      ],
+      "bank": [
+        "鸡蛋",
+        "一半",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "只",
+        "pinyin": "zhǐ",
+        "meaning": "only"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u17-media",
+      "title": "Six eggs, three friends",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Find how three friends share ingredients in an original scene.",
+      "lines": [
+        {
+          "zh": "早饭只喝了半杯奶，现在想吃午饭。",
+          "py": "zǎo fàn zhǐ hē le bàn bēi nǎi , xiàn zài xiǎng chī wǔ fàn .",
+          "en": "I only had half a cup of milk at breakfast. Now I would like lunch.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我们有半天时间，先买菜和鸡蛋。",
+          "py": "wǒ men yǒu bàn tiān shí jiān , xiān mǎi cài hé jī dàn .",
+          "en": "We have half a day. First buy vegetables and eggs.",
+          "speaker": "b"
+        },
+        {
+          "zh": "六个鸡蛋六元，三个包子七块五毛。钱够吗？",
+          "py": "liù gè jī dàn liù yuán , sān gè bāo zi qī kuài wǔ máo . qián gòu ma ?",
+          "en": "Six eggs cost six yuan; three buns cost seven yuan fifty. Is there enough money?",
+          "speaker": "a"
+        },
+        {
+          "zh": "够。我准备一些肉，午饭一半，晚饭一半。",
+          "py": "gòu . wǒ zhǔn bèi yī xiē ròu , wǔ fàn yí bàn , wǎn fàn yí bàn .",
+          "en": "Yes. I will prepare some meat: half for lunch, half for dinner.",
+          "speaker": "b"
+        },
+        {
+          "zh": "菜会不会太少？我们有三个人。",
+          "py": "cài huì bù huì tài shǎo ? wǒ men yǒu sān gè rén .",
+          "en": "Will there be too few vegetables? There are three of us.",
+          "speaker": "a"
+        },
+        {
+          "zh": "不少。我们一起做饭，好吃就好。",
+          "py": "bù shǎo . wǒ men yì qǐ zuò fàn , hǎo chī jiù hǎo .",
+          "en": "There are plenty. Let us cook together; tasty is enough.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "How much do the three buns cost?",
+          "choices": [
+            "Six yuan",
+            "Seven yuan fifty",
+            "Two yuan fifty"
+          ],
+          "answer": "Seven yuan fifty"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "够",
+          "pinyin": "gòu",
+          "meaning": "enough"
+        },
+        {
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "meaning": "only"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u17-t1",
+      "phrase": "s1-u17-w04",
+      "audio": {
+        "zh": "今天买六个鸡蛋。",
+        "py": "jīn tiān mǎi liù gè jī dàn .",
+        "en": "Today we are buying six eggs."
+      },
+      "statement": "They will buy two eggs.",
+      "answer": false,
+      "why": "The speaker says six."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u17-t2",
+      "phrase": "s1-u17-w01",
+      "audio": {
+        "zh": "我只要半杯奶。",
+        "py": "wǒ zhǐ yào bàn bēi nǎi .",
+        "en": "I only want half a cup of milk."
+      },
+      "statement": "The speaker wants half a cup of milk.",
+      "answer": true,
+      "why": "半杯 means half a cup."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u17-t3",
+      "phrase": "s1-u17-w09",
+      "prompt": {
+        "zh": "晚饭吃什么？",
+        "py": "wǎn fàn chī shén me ?",
+        "en": "What are we having for dinner?"
+      },
+      "choices": [
+        "吃米饭和菜。",
+        "下午三点。",
+        "这是我妹妹。"
+      ],
+      "answer": "吃米饭和菜。",
+      "why": "Answer the food question."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u17-t4",
+      "phrase": "s1-u17-w15",
+      "prompt": {
+        "zh": "这些鸡蛋多少钱？",
+        "py": "zhè xiē jī dàn duō shao qián ?",
+        "en": "How much are these eggs?"
+      },
+      "choices": [
+        "六个。",
+        "六元。",
+        "六点。"
+      ],
+      "answer": "六元。",
+      "why": "元 gives the price."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u17-t5",
+      "phrase": "s1-u17-w13",
+      "line": {
+        "zh": "我【准备】三杯水。",
+        "py": "wǒ zhǔn bèi sān bēi shuǐ .",
+        "en": "I will prepare three glasses of water."
+      },
+      "blankPy": "zhǔn bèi"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u17-t6",
+      "phrase": "s1-u17-w10",
+      "line": {
+        "zh": "米饭太【少】了。",
+        "py": "mǐ fàn tài shǎo le .",
+        "en": "There is too little rice."
+      },
+      "blankPy": "shǎo"
+    },
+    {
+      "type": "match",
+      "id": "s1-u17-t7",
+      "phrase": "s1-u17-w08",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "We are making lunch together.",
+          "right": {
+            "zh": "我们一起做午饭。",
+            "py": "wǒ men yì qǐ zuò wǔ fàn .",
+            "en": "We are making lunch together."
+          }
+        },
+        {
+          "left": "I would like to buy some vegetables.",
+          "right": {
+            "zh": "我想买一些菜。",
+            "py": "wǒ xiǎng mǎi yī xiē cài .",
+            "en": "I would like to buy some vegetables."
+          }
+        },
+        {
+          "left": "We have half a day.",
+          "right": {
+            "zh": "我们有半天时间。",
+            "py": "wǒ men yǒu bàn tiān shí jiān .",
+            "en": "We have half a day."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u17-t8",
+      "phrase": "s1-u17-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Half the meat is for dinner.",
+          "right": {
+            "zh": "肉一半做晚饭。",
+            "py": "ròu yí bàn zuò wǎn fàn .",
+            "en": "Half the meat is for dinner."
+          }
+        },
+        {
+          "left": "This dish is tasty.",
+          "right": {
+            "zh": "这个菜很好吃。",
+            "py": "zhè gè cài hěn hǎo chī .",
+            "en": "This dish is tasty."
+          }
+        },
+        {
+          "left": "I do not want milk.",
+          "right": {
+            "zh": "我不想喝奶。",
+            "py": "wǒ bù xiǎng hē nǎi .",
+            "en": "I do not want milk."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u17-t9",
+      "phrase": "s1-u17-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I have become ill.",
+          "right": {
+            "zh": "我病了。",
+            "py": "Wǒ bìng le.",
+            "en": "I have become ill."
+          }
+        },
+        {
+          "left": "I am a little better now.",
+          "right": {
+            "zh": "我好点儿了。",
+            "py": "Wǒ hǎo diǎnr le.",
+            "en": "I am a little better now."
+          }
+        },
+        {
+          "left": "I have caught a cold.",
+          "right": {
+            "zh": "我感冒了。",
+            "py": "Wǒ gǎnmào le.",
+            "en": "I have caught a cold."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Sharing a meal",
+      "natural": {
+        "zh": "你要几个？",
+        "py": "nǐ yào jǐ gè ?",
+        "en": "How many would you like?"
+      },
+      "note": "Ask for the amount instead of assuming everyone eats the same amount."
+    },
+    {
+      "situation": "Discussing a price",
+      "natural": {
+        "zh": "两块五毛一个。",
+        "py": "liǎng kuài wǔ máo yī gè .",
+        "en": "Two yuan fifty each."
+      },
+      "note": "块 and 毛 are common spoken money units; 元 is useful on written prices."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u17-speak",
+    "title": "Cooking for the group",
+    "place": "A language-exchange meeting",
+    "context": "Count portions and share a simple recipe.",
+    "goal": "Count ingredients and divide a meal",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "鸡蛋买几个？",
+        "pinyin": "jī dàn mǎi jǐ gè ?",
+        "meaning": "How many eggs shall we buy?",
+        "intent": "Say six eggs",
+        "examples": [
+          "买六个鸡蛋。",
+          "六个。"
+        ],
+        "accept": [
+          "^买六个鸡蛋。[。！？]?$",
+          "^六个。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你准备什么？",
+        "pinyin": "nǐ zhǔn bèi shén me ?",
+        "meaning": "What will you prepare?",
+        "intent": "Say three glasses of water",
+        "examples": [
+          "我准备三杯水。"
+        ],
+        "accept": [
+          "^我准备三杯水。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一07, 一23. Native check: shared-meal portion language and the original verse rhythm. No tune or singing is claimed. Planned retrieval 一40: 我病了。, 我好点儿了。, 我感冒了。."
+}

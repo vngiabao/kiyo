@@ -1,0 +1,1328 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u21",
+    "stage": 1,
+    "order": 21,
+    "title": "Our weekday routines",
+    "titleZh": "每天一点时间",
+    "canDo": [
+      "Describe a weekday routine",
+      "Use 常/常常 for habits and 再 for a later action",
+      "Find a realistic study time"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u20"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u21-w01",
+      "hanzi": "白天",
+      "pinyin": "bái tiān",
+      "meaning": "daytime",
+      "meaningVi": "ban ngày",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我白天上班，晚上学习。",
+        "py": "wǒ bái tiān shàng bān , wǎn shang xué xí .",
+        "en": "I work in the daytime and study in the evening."
+      }
+    },
+    {
+      "id": "s1-u21-w02",
+      "hanzi": "常",
+      "pinyin": "cháng",
+      "meaning": "often",
+      "meaningVi": "thường",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我常在家读书。",
+        "py": "wǒ cháng zài jiā dú shū .",
+        "en": "I often read at home."
+      }
+    },
+    {
+      "id": "s1-u21-w03",
+      "hanzi": "常常",
+      "pinyin": "cháng cháng",
+      "meaning": "often",
+      "meaningVi": "thường xuyên",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "她常常上午读课文。",
+        "py": "tā cháng cháng shàng wǔ dú kè wén .",
+        "en": "She often reads lesson texts in the morning."
+      }
+    },
+    {
+      "id": "s1-u21-w04",
+      "hanzi": "上学",
+      "pinyin": "shàng xué",
+      "meaning": "to go to school",
+      "meaningVi": "đi học",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "弟弟七点上学。",
+        "py": "dì di qī diǎn shàng xué .",
+        "en": "My younger brother goes to school at seven."
+      }
+    },
+    {
+      "id": "s1-u21-w05",
+      "hanzi": "放学",
+      "pinyin": "fàng xué",
+      "meaning": "to finish school for the day",
+      "meaningVi": "tan học",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "他下午四点放学。",
+        "py": "tā xià wǔ sì diǎn fàng xué .",
+        "en": "He finishes school at four in the afternoon."
+      }
+    },
+    {
+      "id": "s1-u21-w06",
+      "hanzi": "下班",
+      "pinyin": "xià bān",
+      "meaning": "to finish work",
+      "meaningVi": "tan làm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "姐姐六点下班。",
+        "py": "jiě jie liù diǎn xià bān .",
+        "en": "My older sister finishes work at six."
+      }
+    },
+    {
+      "id": "s1-u21-w07",
+      "hanzi": "下课",
+      "pinyin": "xià kè",
+      "meaning": "to finish a class",
+      "meaningVi": "hết tiết học",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们九点下课。",
+        "py": "wǒ men jiǔ diǎn xià kè .",
+        "en": "Our class finishes at nine."
+      }
+    },
+    {
+      "id": "s1-u21-w08",
+      "hanzi": "上午",
+      "pinyin": "shàng wǔ",
+      "meaning": "morning",
+      "meaningVi": "buổi sáng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "上午我在家。",
+        "py": "shàng wǔ wǒ zài jiā .",
+        "en": "I am at home in the morning."
+      }
+    },
+    {
+      "id": "s1-u21-w09",
+      "hanzi": "时候",
+      "pinyin": "shí hou",
+      "meaning": "time; when",
+      "meaningVi": "lúc; khi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "下班的时候，我常常很累。",
+        "py": "xià bān de shí hou , wǒ cháng cháng hěn lèi .",
+        "en": "I am often tired when I finish work."
+      }
+    },
+    {
+      "id": "s1-u21-w10",
+      "hanzi": "再",
+      "pinyin": "zài",
+      "meaning": "then; again for a future action",
+      "meaningVi": "rồi; lại",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "先吃饭，再读书。",
+        "py": "xiān chī fàn , zài dú shū .",
+        "en": "Eat first, then read."
+      }
+    },
+    {
+      "id": "s1-u21-w11",
+      "hanzi": "在家",
+      "pinyin": "zài jiā",
+      "meaning": "at home",
+      "meaningVi": "ở nhà",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天我在家学习。",
+        "py": "jīn tiān wǒ zài jiā xué xí .",
+        "en": "Today I study at home."
+      }
+    },
+    {
+      "id": "s1-u21-w12",
+      "hanzi": "睡",
+      "pinyin": "shuì",
+      "meaning": "to sleep",
+      "meaningVi": "ngủ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我晚上十一点睡。",
+        "py": "wǒ wǎn shang shí yī diǎn shuì .",
+        "en": "I go to sleep at eleven at night."
+      }
+    },
+    {
+      "id": "s1-u21-w13",
+      "hanzi": "起",
+      "pinyin": "qǐ",
+      "meaning": "to get up; rise",
+      "meaningVi": "dậy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我每天七点起。",
+        "py": "wǒ měi tiān qī diǎn qǐ .",
+        "en": "I get up at seven every day."
+      }
+    },
+    {
+      "id": "s1-u21-w14",
+      "hanzi": "起来",
+      "pinyin": "qǐ lái",
+      "meaning": "to get up; rise",
+      "meaningVi": "dậy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "闹钟响了，我起来了。",
+        "py": "nào zhōng xiǎng le , wǒ qǐ lái le .",
+        "en": "The alarm rang; I got up."
+      }
+    },
+    {
+      "id": "s1-u21-w15",
+      "hanzi": "学习",
+      "pinyin": "xué xí",
+      "meaning": "to study; learn",
+      "meaningVi": "học",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我想每天学习汉语。",
+        "py": "wǒ xiǎng měi tiān xué xí hàn yǔ .",
+        "en": "I would like to study Chinese every day."
+      }
+    },
+    {
+      "id": "s1-u21-w16",
+      "hanzi": "课",
+      "pinyin": "kè",
+      "meaning": "class; lesson",
+      "meaningVi": "tiết học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天晚上有汉语课。",
+        "py": "jīn tiān wǎn shang yǒu hàn yǔ kè .",
+        "en": "There is a Chinese class this evening."
+      }
+    },
+    {
+      "id": "s1-u21-w17",
+      "hanzi": "听写",
+      "pinyin": "tīng xiě",
+      "meaning": "dictation; to write from dictation",
+      "meaningVi": "nghe chép chính tả",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "下课前，我们做听写。",
+        "py": "xià kè qián , wǒ men zuò tīng xiě .",
+        "en": "Before class finishes, we do dictation."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "常",
+      "pinyin": "cháng",
+      "meaning": "often",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "常",
+          "role": "whole",
+          "gloss": "often"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 常 in 常 / 常常. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "常",
+          "p": "cháng",
+          "m": "often"
+        },
+        {
+          "w": "常常",
+          "p": "cháng cháng",
+          "m": "often"
+        }
+      ]
+    },
+    {
+      "hanzi": "身",
+      "pinyin": "shēn",
+      "meaning": "body",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "身",
+          "role": "whole",
+          "gloss": "body"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 身 in 身体. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "身体",
+          "p": "shēntǐ",
+          "m": "body; health"
+        }
+      ]
+    },
+    {
+      "hanzi": "睡",
+      "pinyin": "shuì",
+      "meaning": "to sleep",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "睡",
+          "role": "whole",
+          "gloss": "to sleep"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 睡 in 睡 / 睡觉. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "睡",
+          "p": "shuì",
+          "m": "to sleep"
+        },
+        {
+          "w": "睡觉",
+          "p": "shuìjiào",
+          "m": "to sleep"
+        }
+      ]
+    },
+    {
+      "hanzi": "起",
+      "pinyin": "qǐ",
+      "meaning": "to rise",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "起",
+          "role": "whole",
+          "gloss": "to rise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 起 in 起 / 起来. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "起",
+          "p": "qǐ",
+          "m": "to get up; rise"
+        },
+        {
+          "w": "起来",
+          "p": "qǐ lái",
+          "m": "to get up; rise"
+        }
+      ]
+    },
+    {
+      "hanzi": "习",
+      "pinyin": "xí",
+      "meaning": "to practise",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "习",
+          "role": "whole",
+          "gloss": "to practise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 习 in 学习. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "学习",
+          "p": "xué xí",
+          "m": "to study; learn"
+        }
+      ]
+    },
+    {
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning": "to write",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "写",
+          "role": "whole",
+          "gloss": "to write"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 写 in 听写 / 写. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "听写",
+          "p": "tīng xiě",
+          "m": "dictation; to write from dictation"
+        },
+        {
+          "w": "写",
+          "p": "xiě",
+          "m": "to write"
+        }
+      ]
+    },
+    {
+      "hanzi": "再",
+      "pinyin": "zài",
+      "meaning": "again; then",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "再",
+          "role": "whole",
+          "gloss": "again; then"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 再 in 再. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "再",
+          "p": "zài",
+          "m": "then; again for a future action"
+        }
+      ]
+    },
+    {
+      "hanzi": "校",
+      "pinyin": "xiào",
+      "meaning": "school",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "校",
+          "role": "whole",
+          "gloss": "school"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 校 in 学校. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "学校",
+          "p": "xuéxiào",
+          "m": "school"
+        }
+      ]
+    },
+    {
+      "hanzi": "觉",
+      "pinyin": "jué",
+      "meaning": "sleep; to feel",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "觉",
+          "role": "whole",
+          "gloss": "sleep; to feel"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 觉 in 睡觉. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "睡觉",
+          "p": "shuìjiào",
+          "m": "to sleep"
+        }
+      ]
+    },
+    {
+      "hanzi": "工",
+      "pinyin": "gōng",
+      "meaning": "work",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "工",
+          "role": "whole",
+          "gloss": "work"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 工 in 工作. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "工作",
+          "p": "gōngzuò",
+          "m": "job; to work"
+        }
+      ]
+    },
+    {
+      "hanzi": "师",
+      "pinyin": "shī",
+      "meaning": "teacher",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "师",
+          "role": "whole",
+          "gloss": "teacher"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 师 in 老师. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "老师",
+          "p": "lǎoshī",
+          "m": "teacher"
+        }
+      ]
+    },
+    {
+      "hanzi": "同",
+      "pinyin": "tóng",
+      "meaning": "same; together",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "同",
+          "role": "whole",
+          "gloss": "same; together"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 同 in 同学. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "同学",
+          "p": "tóngxué",
+          "m": "classmate"
+        }
+      ]
+    },
+    {
+      "hanzi": "星",
+      "pinyin": "xīng",
+      "meaning": "star",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "星",
+          "role": "whole",
+          "gloss": "star"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 星 in 星期 / 星期六. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "星期",
+          "p": "xīngqī",
+          "m": "week; day of the week"
+        },
+        {
+          "w": "星期六",
+          "p": "xīngqīliù",
+          "m": "Saturday"
+        }
+      ]
+    },
+    {
+      "hanzi": "昨",
+      "pinyin": "zuó",
+      "meaning": "yesterday",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "昨",
+          "role": "whole",
+          "gloss": "yesterday"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 昨 in 昨天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "昨天",
+          "p": "zuótiān",
+          "m": "yesterday"
+        }
+      ]
+    },
+    {
+      "hanzi": "今",
+      "pinyin": "jīn",
+      "meaning": "now; this",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "今",
+          "role": "whole",
+          "gloss": "now; this"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 今 in 今年. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "今年",
+          "p": "jīnnián",
+          "m": "this year"
+        }
+      ]
+    },
+    {
+      "hanzi": "年",
+      "pinyin": "nián",
+      "meaning": "year",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "年",
+          "role": "whole",
+          "gloss": "year"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 年 in 今年. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "今年",
+          "p": "jīnnián",
+          "m": "this year"
+        }
+      ]
+    },
+    {
+      "hanzi": "累",
+      "pinyin": "lèi",
+      "meaning": "tired",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "累",
+          "role": "whole",
+          "gloss": "tired"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 累 in 累. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "累",
+          "p": "lèi",
+          "m": "tired"
+        }
+      ]
+    },
+    {
+      "hanzi": "息",
+      "pinyin": "xī",
+      "meaning": "rest; breath",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "息",
+          "role": "whole",
+          "gloss": "rest; breath"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 息 in 休息. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "休息",
+          "p": "xiūxi",
+          "m": "to rest"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u21-g一12",
+      "pattern": "常 / 常常 + action · 先…再…",
+      "purpose": "Describe habits and order later actions",
+      "explanation": "常 and 常常 say that an action happens often. They go before the verb, after a stated subject: 我常在家学习. They are not exact frequency percentages. 再 marks a further or later action, often in 先…再…. Here 再 looks forward; 昨天又读了一遍 uses 又 for an already repeated action, not yesterday’s 再.",
+      "examples": [
+        {
+          "zh": "我常在家读书，她常常上午学习。",
+          "py": "wǒ cháng zài jiā dú shū , tā cháng cháng shàng wǔ xué xí .",
+          "en": "I often read at home; she often studies in the morning."
+        },
+        {
+          "zh": "先吃晚饭，再去上课。",
+          "py": "xiān chī wǎn fàn , zài qù shàng kè .",
+          "en": "Eat dinner first, then go to class."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我读常书。",
+          "right": "我常读书。",
+          "why": "常 is placed before the verb phrase, not between verb and object."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u21-g一28",
+      "pattern": "subject + time / place / manner + verb",
+      "purpose": "Place the circumstances before the action",
+      "explanation": "Time expressions can precede the subject or follow it: 晚上我学习 / 我晚上学习. Place phrases such as 在家 normally precede the action. Adverbs such as 常常 and manner descriptions such as 认真地 also precede the action. A simple adjective can modify an action without 地: 慢一点读. Do not move an ordinary object into the place of a time phrase.",
+      "examples": [
+        {
+          "zh": "我上午在家认真地读课文。",
+          "py": "wǒ shàng wǔ zài jiā rèn zhēn de dú kè wén .",
+          "en": "I read the lesson text carefully at home in the morning."
+        },
+        {
+          "zh": "下课后，我们慢一点读。",
+          "py": "xià kè hòu , wǒ men màn yī diǎn dú .",
+          "en": "After class, we read a little more slowly."
+        },
+        {
+          "zh": "晚上我再做听写。",
+          "py": "wǎn shang wǒ zài zuò tīng xiě .",
+          "en": "I will do dictation again in the evening."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我学习在家汉语。",
+          "right": "我在家学习汉语。",
+          "why": "Put the location before the action 学习."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u21-d",
+    "title": "Finding fifteen minutes",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find when the friends can study together.",
+    "lines": [
+      {
+        "zh": "你白天有时间学习吗？",
+        "py": "nǐ bái tiān yǒu shí jiān xué xí ma ?",
+        "en": "Do you have time to study during the day?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没有，我白天上班，六点下班。",
+        "py": "méi yǒu , wǒ bái tiān shàng bān , liù diǎn xià bān .",
+        "en": "No, I work in the daytime and finish at six.",
+        "speaker": "b"
+      },
+      {
+        "zh": "上午也不在家吗？",
+        "py": "shàng wǔ yě bù zài jiā ma ?",
+        "en": "Are you also away from home in the morning?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。我常常七点起，弟弟也起来了，他要上学。",
+        "py": "duì . wǒ cháng cháng qī diǎn qǐ , dì di yě qǐ lái le , tā yào shàng xué .",
+        "en": "Right. I often get up at seven. My younger brother gets up too; he needs to go to school.",
+        "speaker": "b"
+      },
+      {
+        "zh": "他什么时候放学？",
+        "py": "tā shén me shí hou fàng xué ?",
+        "en": "When does he finish school?",
+        "speaker": "a"
+      },
+      {
+        "zh": "下午四点。下班的时候，我常常很累。",
+        "py": "xià wǔ sì diǎn . xià bān de shí hou , wǒ cháng cháng hěn lèi .",
+        "en": "At four in the afternoon. I am often tired when I finish work.",
+        "speaker": "b"
+      },
+      {
+        "zh": "先吃饭，再学习十五分钟，行吗？",
+        "py": "xiān chī fàn , zài xué xí shí wǔ fēn zhōng , xíng ma ?",
+        "en": "Eat first, then study for fifteen minutes. Would that work?",
+        "speaker": "a"
+      },
+      {
+        "zh": "行。我常在家读书，晚上也有汉语课。",
+        "py": "xíng . wǒ cháng zài jiā dú shū , wǎn shang yě yǒu hàn yǔ kè .",
+        "en": "Yes. I often read at home, and I also have a Chinese class in the evening.",
+        "speaker": "b"
+      },
+      {
+        "zh": "几点下课？下课前做听写吗？",
+        "py": "jǐ diǎn xià kè ? xià kè qián zuò tīng xiě ma ?",
+        "en": "When does class finish? Do you do dictation before it finishes?",
+        "speaker": "a"
+      },
+      {
+        "zh": "九点下课。对，老师读，我们写。",
+        "py": "jiǔ diǎn xià kè . duì , lǎo shī dú , wǒ men xiě .",
+        "en": "It finishes at nine. Yes, the teacher reads and we write.",
+        "speaker": "b"
+      },
+      {
+        "zh": "下课后再说五分钟汉语吧。",
+        "py": "xià kè hòu zài shuō wǔ fēn zhōng hàn yǔ ba .",
+        "en": "Let us speak Chinese for another five minutes after class.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，别太晚。我十一点睡。",
+        "py": "hǎo , bié tài wǎn . wǒ shí yī diǎn shuì .",
+        "en": "Okay, but not too late. I go to sleep at eleven.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do they arrange?",
+        "choices": [
+          "A short study time around work",
+          "A full day off",
+          "A school change"
+        ],
+        "answer": "A short study time around work"
+      },
+      {
+        "type": "detail",
+        "q": "When does class finish?",
+        "choices": [
+          "At six",
+          "At nine",
+          "At eleven"
+        ],
+        "answer": "At nine"
+      },
+      {
+        "type": "inference",
+        "q": "Why should practice stay short?",
+        "choices": [
+          "Work is tiring and bedtime matters",
+          "They dislike Chinese",
+          "There is no class"
+        ],
+        "answer": "Work is tiring and bedtime matters"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "前",
+        "pinyin": "qián",
+        "meaning": "before; in front"
+      },
+      {
+        "hanzi": "累",
+        "pinyin": "lèi",
+        "meaning": "tired"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u21-r",
+    "title": "A weekday note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find three parts of the routine and the small practice slot.",
+    "lines": [
+      {
+        "zh": "我白天上班，弟弟白天上学。",
+        "py": "wǒ bái tiān shàng bān , dì di bái tiān shàng xué .",
+        "en": "I work during the day; my younger brother goes to school."
+      },
+      {
+        "zh": "上午七点我起来，先吃早饭，再出去。",
+        "py": "shàng wǔ qī diǎn wǒ qǐ lái , xiān chī zǎo fàn , zài chū qù .",
+        "en": "I get up at seven in the morning, eat breakfast first, then go out."
+      },
+      {
+        "zh": "弟弟四点放学，我六点下班。",
+        "py": "dì di sì diǎn fàng xué , wǒ liù diǎn xià bān .",
+        "en": "My younger brother finishes school at four; I finish work at six."
+      },
+      {
+        "zh": "下班的时候，我常常很累，先回家吃饭。",
+        "py": "xià bān de shí hou , wǒ cháng cháng hěn lèi , xiān huí jiā chī fàn .",
+        "en": "I am often tired after work, so I go home and eat first."
+      },
+      {
+        "zh": "我常在家学习十五分钟，再去上汉语课。",
+        "py": "wǒ cháng zài jiā xué xí shí wǔ fēn zhōng , zài qù shàng hàn yǔ kè .",
+        "en": "I often study at home for fifteen minutes, then go to Chinese class."
+      },
+      {
+        "zh": "这节课九点下课，下课前我们做听写。",
+        "py": "zhè jié kè jiǔ diǎn xià kè , xià kè qián wǒ men zuò tīng xiě .",
+        "en": "This class finishes at nine; we do dictation before it finishes."
+      },
+      {
+        "zh": "下课后，我和朋友认真地读课文，再说五分钟汉语。",
+        "py": "xià kè hòu , wǒ hé péng you rèn zhēn de dú kè wén , zài shuō wǔ fēn zhōng hàn yǔ .",
+        "en": "After class, my friend and I read the lesson text carefully, then speak Chinese for five minutes."
+      },
+      {
+        "zh": "我十一点睡，明天还要早起。",
+        "py": "wǒ shí yī diǎn shuì , míng tiān hái yào zǎo qǐ .",
+        "en": "I sleep at eleven; I need to get up early tomorrow too."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What makes the study plan possible?",
+        "choices": [
+          "Short practice fitted around daily life",
+          "Sleeping all day",
+          "Skipping every class"
+        ],
+        "answer": "Short practice fitted around daily life"
+      },
+      {
+        "type": "detail",
+        "q": "How long is the practice at home?",
+        "choices": [
+          "Five minutes",
+          "Fifteen minutes",
+          "An hour"
+        ],
+        "answer": "Fifteen minutes"
+      },
+      {
+        "type": "inference",
+        "q": "Is a long session after class required?",
+        "choices": [
+          "No, only five minutes is proposed",
+          "Yes, all night",
+          "Yes, until work starts"
+        ],
+        "answer": "No, only five minutes is proposed"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我常在家【学习】十五分钟，再去上汉语课。",
+          "py": "wǒ cháng zài jiā xué xí shí wǔ fēn zhōng , zài qù shàng hàn yǔ kè .",
+          "en": "I often study at home for fifteen minutes, then go to Chinese class."
+        },
+        {
+          "zh": "这节课九点下课，下课前我们做【听写】。",
+          "py": "zhè jié kè jiǔ diǎn xià kè , xià kè qián wǒ men zuò tīng xiě .",
+          "en": "This class finishes at nine; we do dictation before it finishes."
+        }
+      ],
+      "bank": [
+        "学习",
+        "听写",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "前",
+        "pinyin": "qián",
+        "meaning": "before; in front"
+      },
+      {
+        "hanzi": "节",
+        "pinyin": "jié",
+        "meaning": "class period; section"
+      },
+      {
+        "hanzi": "累",
+        "pinyin": "lèi",
+        "meaning": "tired"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u21-media",
+      "title": "A short practice is still practice",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Follow a realistic evening in an original scene.",
+      "lines": [
+        {
+          "zh": "我下班了。白天工作，晚上学习，太累了。",
+          "py": "wǒ xià bān le . bái tiān gōng zuò , wǎn shang xué xí , tài lèi le .",
+          "en": "Work is over. Work by day and study by night—it is tiring.",
+          "speaker": "a"
+        },
+        {
+          "zh": "先吃饭，再读。十五分钟，好吗？",
+          "py": "xiān chī fàn , zài dú . shí wǔ fēn zhōng , hǎo ma ?",
+          "en": "Eat first, then read. Fifteen minutes, okay?",
+          "speaker": "b"
+        },
+        {
+          "zh": "行。我常在家读书，今天也在家。",
+          "py": "xíng . wǒ cháng zài jiā dú shū , jīn tiān yě zài jiā .",
+          "en": "Okay. I often read at home, and I am at home today too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "弟弟放学了吗？",
+          "py": "dì di fàng xué le ma ?",
+          "en": "Has your younger brother finished school?",
+          "speaker": "b"
+        },
+        {
+          "zh": "放学了。他常常上午学习，下午做听写。",
+          "py": "fàng xué le . tā cháng cháng shàng wǔ xué xí , xià wǔ zuò tīng xiě .",
+          "en": "Yes. He often studies in the morning and does dictation in the afternoon.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你九点下课，十一点睡。下课后再说五分钟，不用多。",
+          "py": "nǐ jiǔ diǎn xià kè , shí yī diǎn shuì . xià kè hòu zài shuō wǔ fēn zhōng , bù yòng duō .",
+          "en": "Class finishes at nine; you sleep at eleven. Another five minutes of speaking after class is enough.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "How much reading is suggested first?",
+          "choices": [
+            "Fifteen minutes",
+            "Five hours",
+            "A whole day"
+          ],
+          "answer": "Fifteen minutes"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "累",
+          "pinyin": "lèi",
+          "meaning": "tired"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u21-t1",
+      "phrase": "s1-u21-w06",
+      "audio": {
+        "zh": "我六点下班。",
+        "py": "wǒ liù diǎn xià bān .",
+        "en": "I finish work at six."
+      },
+      "statement": "Work finishes at six.",
+      "answer": true,
+      "why": "下班 refers to finishing work."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u21-t2",
+      "phrase": "s1-u21-w12",
+      "audio": {
+        "zh": "我十一点睡。",
+        "py": "wǒ shí yī diǎn shuì .",
+        "en": "I sleep at eleven."
+      },
+      "statement": "The speaker gets up at eleven.",
+      "answer": false,
+      "why": "睡 is sleeping, not getting up."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u21-t3",
+      "phrase": "s1-u21-w05",
+      "prompt": {
+        "zh": "你弟弟几点放学？",
+        "py": "nǐ dì di jǐ diǎn fàng xué ?",
+        "en": "What time does your younger brother finish school?"
+      },
+      "choices": [
+        "下午四点。",
+        "他是老师。",
+        "一本书。"
+      ],
+      "answer": "下午四点。",
+      "why": "Give the time."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u21-t4",
+      "phrase": "s1-u21-w16",
+      "prompt": {
+        "zh": "今天晚上有课吗？",
+        "py": "jīn tiān wǎn shang yǒu kè ma ?",
+        "en": "Is there class this evening?"
+      },
+      "choices": [
+        "有，九点下课。",
+        "六个鸡蛋。",
+        "白色的。"
+      ],
+      "answer": "有，九点下课。",
+      "why": "Answer the class question."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u21-t5",
+      "phrase": "s1-u21-w03",
+      "line": {
+        "zh": "她【常常】上午学习。",
+        "py": "tā cháng cháng shàng wǔ xué xí .",
+        "en": "She often studies in the morning."
+      },
+      "blankPy": "cháng cháng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u21-t6",
+      "phrase": "s1-u21-w10",
+      "line": {
+        "zh": "先吃饭，【再】做听写。",
+        "py": "xiān chī fàn , zài zuò tīng xiě .",
+        "en": "Eat first, then do dictation."
+      },
+      "blankPy": "zài"
+    },
+    {
+      "type": "match",
+      "id": "s1-u21-t7",
+      "phrase": "s1-u21-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I get up at seven.",
+          "right": {
+            "zh": "我七点起。",
+            "py": "wǒ qī diǎn qǐ .",
+            "en": "I get up at seven."
+          }
+        },
+        {
+          "left": "The alarm rang; I got up.",
+          "right": {
+            "zh": "闹钟响了，我起来了。",
+            "py": "nào zhōng xiǎng le , wǒ qǐ lái le .",
+            "en": "The alarm rang; I got up."
+          }
+        },
+        {
+          "left": "I am at home in the morning.",
+          "right": {
+            "zh": "我上午在家。",
+            "py": "wǒ shàng wǔ zài jiā .",
+            "en": "I am at home in the morning."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u21-t8",
+      "phrase": "s1-u21-w09",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "When class ends, the teacher says goodbye.",
+          "right": {
+            "zh": "下课的时候，老师说再见。",
+            "py": "xià kè de shí hou , lǎo shī shuō zài jiàn .",
+            "en": "When class ends, the teacher says goodbye."
+          }
+        },
+        {
+          "left": "I work during the day.",
+          "right": {
+            "zh": "我白天上班。",
+            "py": "wǒ bái tiān shàng bān .",
+            "en": "I work during the day."
+          }
+        },
+        {
+          "left": "I often read at home.",
+          "right": {
+            "zh": "我常在家读书。",
+            "py": "wǒ cháng zài jiā dú shū .",
+            "en": "I often read at home."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u21-t9",
+      "phrase": "s1-u21-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Please sit down and have some tea.",
+          "right": {
+            "zh": "请坐，喝点儿茶吧。",
+            "py": "Qǐng zuò, hē diǎnr chá ba.",
+            "en": "Please sit down and have some tea."
+          }
+        },
+        {
+          "left": "Give me your WeChat contact.",
+          "right": {
+            "zh": "给我你的微信吧。",
+            "py": "gěi wǒ nǐ de wēi xìn ba .",
+            "en": "Give me your WeChat contact."
+          }
+        },
+        {
+          "left": "I will look for my wallet; please help me.",
+          "right": {
+            "zh": "我找钱包，你帮我。",
+            "py": "wǒ zhǎo qián bāo , nǐ bāng wǒ .",
+            "en": "I will look for my wallet; please help me."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "A manageable invitation",
+      "natural": {
+        "zh": "先读十五分钟吧。",
+        "py": "xiān dú shí wǔ fēn zhōng ba .",
+        "en": "Let us read for fifteen minutes first."
+      },
+      "note": "A short concrete invitation is easier to accept than a vague demand to work harder."
+    },
+    {
+      "situation": "Protecting sleep",
+      "natural": {
+        "zh": "别太晚，明天还要早起。",
+        "py": "bié tài wǎn , míng tiān hái yào zǎo qǐ .",
+        "en": "Not too late; we need to get up early tomorrow."
+      },
+      "note": "The shared reason softens the reminder."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u21-speak",
+    "title": "Our weekday routines",
+    "place": "A language-exchange meeting",
+    "context": "Describe habits and fit study around daily life.",
+    "goal": "Describe a weekday routine",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你几点下班？",
+        "pinyin": "nǐ jǐ diǎn xià bān ?",
+        "meaning": "When do you finish work?",
+        "intent": "Say six",
+        "examples": [
+          "我六点下班。"
+        ],
+        "accept": [
+          "^我六点下班。[。！？]?$"
+        ]
+      },
+      {
+        "text": "先做什么？",
+        "pinyin": "xiān zuò shén me ?",
+        "meaning": "What do we do first?",
+        "intent": "Say eat first, then study",
+        "examples": [
+          "先吃饭，再学习。"
+        ],
+        "accept": [
+          "^先吃饭，再学习。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一12, 一28. Native check: clipped 我七点起 versus fuller 起床, timing of 起来, and the realism of the weekday study plan. Planned retrieval 一34 / 二26 / 一20 / 一26: 请坐，喝点儿茶吧。, 给我你的微信吧。, 我找钱包，你帮我。."
+}

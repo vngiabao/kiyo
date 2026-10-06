@@ -120,6 +120,27 @@ export interface SavedLine {
   start: number;
   at: number;
 }
+/** A word saved from the dictionary card (Watch player or reader). */
+export interface PersonalWord {
+  /** The word itself (simplified), so saving twice keeps one copy. */
+  id: string;
+  pinyin: string;
+  meaning: string;
+  /** The line it was found in, and where. */
+  line: string;
+  source: string;
+  at: number;
+}
+/** One timed-reading drill session. Rates are characters per second. */
+export interface ReadingSpeed {
+  id: string;
+  at: number;
+  startRate: number;
+  endRate: number;
+  lines: number;
+  /** Unaided correct answers (the only ones that raise the rate). */
+  correct: number;
+}
 /** One Watch session: how much help was needed, honestly counted. */
 export interface WatchLog {
   id: string;

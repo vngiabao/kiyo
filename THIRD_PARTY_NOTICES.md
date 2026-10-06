@@ -76,3 +76,11 @@ The explicitly labeled lowered-pitch drawl auditions use librosa (ISC) for a two
 # HSK study sources and original practice
 
 The HSK study room links Chinese Testing International's official syllabus, demo and sample papers, and Beijing Language and Culture University Press's HSK Standard Course series. External material remains on its owner's site; no textbook pages or official exam questions are bundled. The 36 questions in `content/packs/hsk-reading.hsk.json` are original AI-assisted Kiyo practice, with human linguistic review pending. Vocabulary validation uses the existing MIT-licensed complete-hsk-vocabulary dataset's legacy levels. These practice results are not official HSK scores.
+
+## CC-CEDICT (offline dictionary data)
+
+- Source: CC-CEDICT, https://www.mdbg.net/chinese/dictionary?page=cc-cedict (MDBG and contributors).
+- Licence: Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/).
+- Used for: the tap-to-look-up dictionary in the Watch player and the reader.
+- Changes made (scripts/build-dictionary.ts): numbered pinyin converted to tone marks; first three senses kept; variant-only entries dropped and erhua forms given their base word's meaning; measure words reformatted; HSK 3.0 levels added; common readings ordered first; data split into 256 files in public/dict/.
+- The adapted data in public/dict/ is distributed under the same CC BY-SA 4.0 licence. Attribution is shown in Settings → "On this device" and recorded in public/dict/manifest.json.

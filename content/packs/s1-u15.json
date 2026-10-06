@@ -1,0 +1,1169 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u15",
+    "stage": 1,
+    "order": 15,
+    "title": "Wait, which one?",
+    "titleZh": "你说的是哪一个",
+    "canDo": [
+      "Ask which event, people and place a message means",
+      "Use a question word without adding 吗",
+      "Clarify a mistaken date before making plans"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u14"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u15-w01",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning": "how (in degree questions); many",
+      "meaningVi": "bao nhiêu; nhiều",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你弟弟多大？",
+        "py": "nǐ dì di duō dà ?",
+        "en": "How old is your younger brother?"
+      }
+    },
+    {
+      "id": "s1-u15-w02",
+      "hanzi": "多少",
+      "pinyin": "duō shao",
+      "meaning": "how many; how much",
+      "meaningVi": "bao nhiêu",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "一共有多少人？",
+        "py": "yī gòng yǒu duō shao rén ?",
+        "en": "How many people are there altogether?"
+      }
+    },
+    {
+      "id": "s1-u15-w03",
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaning": "how many (small expected number)",
+      "meaningVi": "mấy; bao nhiêu",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你们有几个人？",
+        "py": "nǐ men yǒu jǐ gè rén ?",
+        "en": "How many people are in your group?"
+      }
+    },
+    {
+      "id": "s1-u15-w04",
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaning": "which",
+      "meaningVi": "nào",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你去哪个电影院？",
+        "py": "nǐ qù nǎ gè diàn yǐng yuàn ?",
+        "en": "Which cinema are you going to?"
+      }
+    },
+    {
+      "id": "s1-u15-w05",
+      "hanzi": "哪里",
+      "pinyin": "nǎ lǐ",
+      "meaning": "where",
+      "meaningVi": "ở đâu",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你在哪里？",
+        "py": "nǐ zài nǎ lǐ ?",
+        "en": "Where are you?"
+      }
+    },
+    {
+      "id": "s1-u15-w06",
+      "hanzi": "哪儿",
+      "pinyin": "nǎr",
+      "meaning": "where",
+      "meaningVi": "ở đâu",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们在哪儿见？",
+        "py": "wǒ men zài nǎr jiàn ?",
+        "en": "Where shall we meet?"
+      }
+    },
+    {
+      "id": "s1-u15-w07",
+      "hanzi": "哪些",
+      "pinyin": "nǎ xiē",
+      "meaning": "which ones",
+      "meaningVi": "những cái nào; những ai",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "哪些朋友想去？",
+        "py": "nǎ xiē péng you xiǎng qù ?",
+        "en": "Which friends want to go?"
+      }
+    },
+    {
+      "id": "s1-u15-w08",
+      "hanzi": "什么",
+      "pinyin": "shén me",
+      "meaning": "what",
+      "meaningVi": "gì",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你们想看什么？",
+        "py": "nǐ men xiǎng kàn shén me ?",
+        "en": "What do you want to see?"
+      }
+    },
+    {
+      "id": "s1-u15-w09",
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaning": "who",
+      "meaningVi": "ai",
+      "pos": "question word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "谁买票？",
+        "py": "shéi mǎi piào ?",
+        "en": "Who is buying the tickets?"
+      }
+    },
+    {
+      "id": "s1-u15-w10",
+      "hanzi": "日期",
+      "pinyin": "rì qī",
+      "meaning": "date",
+      "meaningVi": "ngày tháng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请问，日期对吗？",
+        "py": "qǐng wèn , rì qī duì ma ?",
+        "en": "Excuse me, is the date correct?"
+      }
+    },
+    {
+      "id": "s1-u15-w11",
+      "hanzi": "星期天",
+      "pinyin": "xīng qī tiān",
+      "meaning": "Sunday",
+      "meaningVi": "Chủ nhật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "星期天我们去看电影。",
+        "py": "xīng qī tiān wǒ men qù kàn diàn yǐng .",
+        "en": "We are going to see a film on Sunday."
+      }
+    },
+    {
+      "id": "s1-u15-w12",
+      "hanzi": "后天",
+      "pinyin": "hòu tiān",
+      "meaning": "the day after tomorrow",
+      "meaningVi": "ngày kia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "后天是星期天。",
+        "py": "hòu tiān shì xīng qī tiān .",
+        "en": "The day after tomorrow is Sunday."
+      }
+    },
+    {
+      "id": "s1-u15-w13",
+      "hanzi": "门口",
+      "pinyin": "mén kǒu",
+      "meaning": "entrance; doorway",
+      "meaningVi": "cửa ra vào",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们在门口见。",
+        "py": "wǒ men zài mén kǒu jiàn .",
+        "en": "Let us meet at the entrance."
+      }
+    },
+    {
+      "id": "s1-u15-w14",
+      "hanzi": "地图",
+      "pinyin": "dì tú",
+      "meaning": "map",
+      "meaningVi": "bản đồ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你看地图了吗？",
+        "py": "nǐ kàn dì tú le ma ?",
+        "en": "Have you looked at the map?"
+      }
+    },
+    {
+      "id": "s1-u15-w15",
+      "hanzi": "地点",
+      "pinyin": "dì diǎn",
+      "meaning": "location; venue",
+      "meaningVi": "địa điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "地点在学校旁边。",
+        "py": "dì diǎn zài xué xiào páng biān .",
+        "en": "The venue is next to the school."
+      }
+    },
+    {
+      "id": "s1-u15-w16",
+      "hanzi": "记住",
+      "pinyin": "jì zhù",
+      "meaning": "to remember; to keep in mind",
+      "meaningVi": "ghi nhớ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请记住这个地点。",
+        "py": "qǐng jì zhù zhè gè dì diǎn .",
+        "en": "Please remember this location."
+      }
+    },
+    {
+      "id": "s1-u15-w17",
+      "hanzi": "错",
+      "pinyin": "cuò",
+      "meaning": "wrong; mistake",
+      "meaningVi": "sai; lỗi",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个日期错了。",
+        "py": "zhè gè rì qī cuò le .",
+        "en": "This date is wrong."
+      }
+    },
+    {
+      "id": "s1-u15-w18",
+      "hanzi": "回答",
+      "pinyin": "huí dá",
+      "meaning": "to answer; answer",
+      "meaningVi": "trả lời; câu trả lời",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请回答这个问题。",
+        "py": "qǐng huí dá zhè gè wèn tí .",
+        "en": "Please answer this question."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "哪",
+      "pinyin": "nǎ",
+      "meaning": "which",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "哪",
+          "role": "whole",
+          "gloss": "which"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 哪 in 哪 / 哪里. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "哪",
+          "p": "nǎ",
+          "m": "which"
+        },
+        {
+          "w": "哪里",
+          "p": "nǎ lǐ",
+          "m": "where"
+        }
+      ]
+    },
+    {
+      "hanzi": "什",
+      "pinyin": "shén",
+      "meaning": "part of 什么: what",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "什",
+          "role": "whole",
+          "gloss": "part of 什么: what"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 什 in 什么. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "什么",
+          "p": "shén me",
+          "m": "what"
+        }
+      ]
+    },
+    {
+      "hanzi": "么",
+      "pinyin": "me",
+      "meaning": "part of 什么: what",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "么",
+          "role": "whole",
+          "gloss": "part of 什么: what"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 么 in 什么. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "什么",
+          "p": "shén me",
+          "m": "what"
+        }
+      ]
+    },
+    {
+      "hanzi": "几",
+      "pinyin": "jǐ",
+      "meaning": "how many (small number)",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "几",
+          "role": "whole",
+          "gloss": "how many (small number)"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 几 in 几. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "几",
+          "p": "jǐ",
+          "m": "how many (small expected number)"
+        }
+      ]
+    },
+    {
+      "hanzi": "谁",
+      "pinyin": "shéi",
+      "meaning": "who",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "谁",
+          "role": "whole",
+          "gloss": "who"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 谁 in 谁. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "谁",
+          "p": "shéi",
+          "m": "who"
+        }
+      ]
+    },
+    {
+      "hanzi": "期",
+      "pinyin": "qī",
+      "meaning": "period; scheduled time",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "期",
+          "role": "whole",
+          "gloss": "period; scheduled time"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 期 in 日期 / 星期天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "日期",
+          "p": "rì qī",
+          "m": "date"
+        },
+        {
+          "w": "星期天",
+          "p": "xīng qī tiān",
+          "m": "Sunday"
+        }
+      ]
+    },
+    {
+      "hanzi": "图",
+      "pinyin": "tú",
+      "meaning": "picture; map",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "图",
+          "role": "whole",
+          "gloss": "picture; map"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 图 in 地图. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "地图",
+          "p": "dì tú",
+          "m": "map"
+        }
+      ]
+    },
+    {
+      "hanzi": "记",
+      "pinyin": "jì",
+      "meaning": "to remember; to record",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "记",
+          "role": "whole",
+          "gloss": "to remember; to record"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 记 in 记住. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "记住",
+          "p": "jì zhù",
+          "m": "to remember; to keep in mind"
+        }
+      ]
+    },
+    {
+      "hanzi": "答",
+      "pinyin": "dá",
+      "meaning": "to answer",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "答",
+          "role": "whole",
+          "gloss": "to answer"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 答 in 回答. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "回答",
+          "p": "huí dá",
+          "m": "to answer; answer"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u15-g一04",
+      "pattern": "多大 / 多少 / 几 / 哪 / 哪里 / 哪儿 / 哪些 / 什么 / 谁 / 怎么",
+      "purpose": "Choose the information you need",
+      "explanation": "多 + adjective asks degree: 多大 asks age or size. 多少 asks amount; 几 asks a number expected to be small and takes a classifier before a noun. 哪 chooses one; 哪些 chooses several. 哪里 and 哪儿 ask place. 什么 asks a thing, 谁 a person, 怎么 a method. Put the question word in the answer’s position.",
+      "examples": [
+        {
+          "zh": "你妹妹多大？",
+          "py": "nǐ mèi mei duō dà ?",
+          "en": "How old is your younger sister?"
+        },
+        {
+          "zh": "门票多少钱？",
+          "py": "mén piào duō shao qián ?",
+          "en": "How much is an admission ticket?"
+        },
+        {
+          "zh": "你们有几个人？",
+          "py": "nǐ men yǒu jǐ gè rén ?",
+          "en": "How many people are in your group?"
+        },
+        {
+          "zh": "你想看哪个电影？",
+          "py": "nǐ xiǎng kàn nǎ gè diàn yǐng ?",
+          "en": "Which film do you want to see?"
+        },
+        {
+          "zh": "地点在哪里？我们在哪儿见？",
+          "py": "dì diǎn zài nǎ lǐ ? wǒ men zài nǎr jiàn ?",
+          "en": "Where is the venue? Where shall we meet?"
+        },
+        {
+          "zh": "哪些人要去？",
+          "py": "nǎ xiē rén yào qù ?",
+          "en": "Which people are going?"
+        },
+        {
+          "zh": "谁买票？你想吃什么？",
+          "py": "shéi mǎi piào ? nǐ xiǎng chī shén me ?",
+          "en": "Who is buying the tickets? What would you like to eat?"
+        },
+        {
+          "zh": "我们怎么去？",
+          "py": "wǒ men zěn me qù ?",
+          "en": "How shall we get there?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你们有几人？",
+          "right": "你们有几个人？",
+          "why": "Use a classifier after 几 before 人 in the ordinary beginner pattern."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u15-g一46",
+      "pattern": "statement slot → question word (no 吗)",
+      "purpose": "Ask a follow-up question without an extra question particle",
+      "explanation": "Keep ordinary Chinese word order when using a question word: 你去学校 becomes 你去哪里. The question word itself asks for information, so do not add 吗. 谁 can be the subject or object. Several short follow-ups are easier to answer than one long interrogation. Use 请问 with an unfamiliar person.",
+      "examples": [
+        {
+          "zh": "谁在电影院门口？",
+          "py": "shéi zài diàn yǐng yuàn mén kǒu ?",
+          "en": "Who is at the cinema entrance?"
+        },
+        {
+          "zh": "你在等谁？",
+          "py": "nǐ zài děng shéi ?",
+          "en": "Who are you waiting for?"
+        },
+        {
+          "zh": "请问，这个地点怎么去？",
+          "py": "qǐng wèn , zhè gè dì diǎn zěn me qù ?",
+          "en": "Excuse me, how do I get to this location?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你在哪里吗？",
+          "right": "你在哪里？",
+          "why": "A where-question does not take the yes/no particle 吗."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u15-d",
+    "title": "Which cinema was that?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the corrected date, place and ticket buyer.",
+    "lines": [
+      {
+        "zh": "后天一起看电影吧。",
+        "py": "hòu tiān yì qǐ kàn diàn yǐng ba .",
+        "en": "Let us see a film together the day after tomorrow.",
+        "speaker": "a"
+      },
+      {
+        "zh": "后天是星期天吗？",
+        "py": "hòu tiān shì xīng qī tiān ma ?",
+        "en": "Is the day after tomorrow Sunday?",
+        "speaker": "b"
+      },
+      {
+        "zh": "是，星期天。",
+        "py": "shì , xīng qī tiān .",
+        "en": "Yes, Sunday.",
+        "speaker": "a"
+      },
+      {
+        "zh": "看什么电影？地点在哪里？",
+        "py": "kàn shén me diàn yǐng ? dì diǎn zài nǎ lǐ ?",
+        "en": "What film? Where is the venue?",
+        "speaker": "b"
+      },
+      {
+        "zh": "看一个中国电影，在学校旁边的电影院。",
+        "py": "kàn yī gè zhōng guó diàn yǐng , zài xué xiào páng biān de diàn yǐng yuàn .",
+        "en": "A Chinese film, at the cinema next to the school.",
+        "speaker": "a"
+      },
+      {
+        "zh": "哪些人想去？一共几个人？",
+        "py": "nǎ xiē rén xiǎng qù ? yī gòng jǐ gè rén ?",
+        "en": "Which people want to go? How many people altogether?",
+        "speaker": "b"
+      },
+      {
+        "zh": "我和两个朋友，一共三个人。",
+        "py": "wǒ hé liǎng gè péng you , yī gòng sān gè rén .",
+        "en": "Me and two friends: three people altogether.",
+        "speaker": "a"
+      },
+      {
+        "zh": "门票多少钱？谁买票？",
+        "py": "mén piào duō shao qián ? shéi mǎi piào ?",
+        "en": "How much are tickets? Who will buy them?",
+        "speaker": "b"
+      },
+      {
+        "zh": "一张三十块，我买。",
+        "py": "yī zhāng sān shí kuài , wǒ mǎi .",
+        "en": "Thirty yuan each. I will buy them.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我们在哪儿见？怎么去？",
+        "py": "wǒ men zài nǎr jiàn ? zěn me qù ?",
+        "en": "Where shall we meet? How do we get there?",
+        "speaker": "b"
+      },
+      {
+        "zh": "看地图，我们在电影院门口见。记住，日期是星期天。",
+        "py": "kàn dì tú , wǒ men zài diàn yǐng yuàn mén kǒu jiàn . jì zhù , rì qī shì xīng qī tiān .",
+        "en": "Check the map. We will meet at the cinema entrance. Remember, the date is Sunday.",
+        "speaker": "a"
+      },
+      {
+        "zh": "知道了。我刚才的日期错了，谢谢你回答。",
+        "py": "zhī dào le . wǒ gāng cái de rì qī cuò le , xiè xiè nǐ huí dá .",
+        "en": "Got it. The date I had just now was wrong. Thanks for answering.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What are the speakers doing?",
+        "choices": [
+          "Cancelling a class",
+          "Clarifying a film outing",
+          "Reviewing an exam result"
+        ],
+        "answer": "Clarifying a film outing"
+      },
+      {
+        "type": "detail",
+        "q": "Who will buy the tickets?",
+        "choices": [
+          "The first speaker",
+          "A teacher",
+          "The second speaker"
+        ],
+        "answer": "The first speaker"
+      },
+      {
+        "type": "inference",
+        "q": "Why does the last speaker thank the friend?",
+        "choices": [
+          "The friend bought lunch",
+          "The friend changed the cinema",
+          "The friend corrected the date and clarified the plan"
+        ],
+        "answer": "The friend corrected the date and clarified the plan"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "一共",
+        "pinyin": "yī gòng",
+        "meaning": "altogether"
+      },
+      {
+        "hanzi": "刚才",
+        "pinyin": "gāng cái",
+        "meaning": "just now"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u15-r",
+    "title": "The corrected plan",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Use the final message, not the writer’s earlier mistake.",
+    "lines": [
+      {
+        "zh": "今天我问朋友：后天去哪儿？",
+        "py": "jīn tiān wǒ wèn péng you : hòu tiān qù nǎr ?",
+        "en": "Today I ask a friend: where are we going the day after tomorrow?"
+      },
+      {
+        "zh": "他回答：星期天去学校旁边的电影院。",
+        "py": "tā huí dá : xīng qī tiān qù xué xiào páng biān de diàn yǐng yuàn .",
+        "en": "He answers: on Sunday we are going to the cinema next to the school."
+      },
+      {
+        "zh": "我看地图，记住了地点。",
+        "py": "wǒ kàn dì tú , jì zhù le dì diǎn .",
+        "en": "I look at the map and remember the location."
+      },
+      {
+        "zh": "我们在电影院门口见，一共三个人。",
+        "py": "wǒ men zài diàn yǐng yuàn mén kǒu jiàn , yī gòng sān gè rén .",
+        "en": "We will meet at the cinema entrance; there are three people altogether."
+      },
+      {
+        "zh": "我问哪些朋友去，他说是我认识的两个学生。",
+        "py": "wǒ wèn nǎ xiē péng you qù , tā shuō shì wǒ rèn shi de liǎng gè xué sheng .",
+        "en": "I ask which friends are going; he says two students I know."
+      },
+      {
+        "zh": "门票一张三十块，他买票。",
+        "py": "mén piào yī zhāng sān shí kuài , tā mǎi piào .",
+        "en": "Admission tickets are thirty yuan each; he is buying them."
+      },
+      {
+        "zh": "我还问看什么电影，他说是中国电影。",
+        "py": "wǒ hái wèn kàn shén me diàn yǐng , tā shuō shì zhōng guó diàn yǐng .",
+        "en": "I also ask what film we are seeing; he says it is a Chinese film."
+      },
+      {
+        "zh": "我刚才的日期错了，现在知道是星期天。",
+        "py": "wǒ gāng cái de rì qī cuò le , xiàn zài zhī dào shì xīng qī tiān .",
+        "en": "The date I had just now was wrong; now I know it is Sunday."
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is the corrected plan?",
+        "choices": [
+          "Go to a film on Sunday",
+          "Meet a teacher on Monday",
+          "Buy a map tomorrow"
+        ],
+        "answer": "Go to a film on Sunday"
+      },
+      {
+        "type": "detail",
+        "q": "Where will the group meet?",
+        "choices": [
+          "Inside the school",
+          "At the cinema entrance",
+          "At the writer’s home"
+        ],
+        "answer": "At the cinema entrance"
+      },
+      {
+        "type": "inference",
+        "q": "Which fact should override the earlier remembered date?",
+        "choices": [
+          "Ticket price",
+          "Number of students",
+          "The friend’s explicit Sunday confirmation"
+        ],
+        "answer": "The friend’s explicit Sunday confirmation"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我看地图，记住了【地点】。",
+          "py": "wǒ kàn dì tú , jì zhù le dì diǎn .",
+          "en": "I look at the map and remember the location."
+        },
+        {
+          "zh": "我们在电影院【门口】见，一共三个人。",
+          "py": "wǒ men zài diàn yǐng yuàn mén kǒu jiàn , yī gòng sān gè rén .",
+          "en": "We will meet at the cinema entrance; there are three people altogether."
+        }
+      ],
+      "bank": [
+        "地点",
+        "门口",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "一共",
+        "pinyin": "yī gòng",
+        "meaning": "altogether"
+      },
+      {
+        "hanzi": "刚才",
+        "pinyin": "gāng cái",
+        "meaning": "just now"
+      },
+      {
+        "hanzi": "现在",
+        "pinyin": "xiàn zài",
+        "meaning": "now"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u15-media",
+      "title": "Too many questions?",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene: distinguish the two people asking questions.",
+      "lines": [
+        {
+          "zh": "你弟弟多大？",
+          "py": "nǐ dì di duō dà ?",
+          "en": "How old is your younger brother?",
+          "speaker": "a"
+        },
+        {
+          "zh": "八岁。你有多少个问题？",
+          "py": "bā suì . nǐ yǒu duō shao gè wèn tí ?",
+          "en": "Eight. How many questions do you have?",
+          "speaker": "b"
+        },
+        {
+          "zh": "我还想问，他在哪里上学？",
+          "py": "wǒ hái xiǎng wèn , tā zài nǎ lǐ shàng xué ?",
+          "en": "I also want to ask: where does he go to school?",
+          "speaker": "a"
+        },
+        {
+          "zh": "在小学。还有什么？",
+          "py": "zài xiǎo xué . hái yǒu shén me ?",
+          "en": "At primary school. Anything else?",
+          "speaker": "b"
+        },
+        {
+          "zh": "他怎么去学校？",
+          "py": "tā zěn me qù xué xiào ?",
+          "en": "How does he get to school?",
+          "speaker": "a"
+        },
+        {
+          "zh": "他走路去。现在我问你！",
+          "py": "tā zǒu lù qù . xiàn zài wǒ wèn nǐ !",
+          "en": "He walks there. Now it is my turn to ask you!",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does 现在我问你 imply?",
+          "choices": [
+            "The conversation is over",
+            "The second person wants a turn to ask",
+            "The brother has no school"
+          ],
+          "answer": "The second person wants a turn to ask"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "现在",
+          "pinyin": "xiàn zài",
+          "meaning": "now"
+        },
+        {
+          "hanzi": "问题",
+          "pinyin": "wèn tí",
+          "meaning": "question"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u15-t1",
+      "phrase": "s1-u15-w02",
+      "audio": {
+        "zh": "门票一张三十块，一共三张。",
+        "py": "mén piào yī zhāng sān shí kuài , yī gòng sān zhāng .",
+        "en": "Tickets are thirty yuan each; there are three tickets in total."
+      },
+      "statement": "The three tickets cost thirty yuan altogether.",
+      "answer": false,
+      "why": "Thirty is the price of one ticket, not all three."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u15-t2",
+      "phrase": "s1-u15-w10",
+      "audio": {
+        "zh": "我记住了，日期是星期天。",
+        "py": "wǒ jì zhù le , rì qī shì xīng qī tiān .",
+        "en": "I remember: the date is Sunday."
+      },
+      "statement": "The speaker now remembers the Sunday plan.",
+      "answer": true,
+      "why": "记住了 confirms remembering."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u15-t3",
+      "phrase": "s1-u15-w09",
+      "prompt": {
+        "zh": "谁在门口等我们？",
+        "py": "shéi zài mén kǒu děng wǒ men ?",
+        "en": "Who is waiting for us at the entrance?"
+      },
+      "choices": [
+        "三十块。",
+        "我的两个朋友。",
+        "星期天。"
+      ],
+      "answer": "我的两个朋友。",
+      "why": "谁 needs a person or group of people."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u15-t4",
+      "phrase": "s1-u15-w06",
+      "prompt": {
+        "zh": "我们在哪儿见？",
+        "py": "wǒ men zài nǎr jiàn ?",
+        "en": "Where shall we meet?"
+      },
+      "choices": [
+        "星期天。",
+        "三个人。",
+        "在电影院门口。"
+      ],
+      "answer": "在电影院门口。",
+      "why": "哪儿 asks for a place."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u15-t5",
+      "phrase": "s1-u15-w14",
+      "line": {
+        "zh": "我看了【地图】，知道怎么去。",
+        "py": "wǒ kàn le dì tú , zhī dào zěn me qù .",
+        "en": "I looked at the map and know how to get there."
+      },
+      "blankPy": "dì tú"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u15-t6",
+      "phrase": "s1-u15-w17",
+      "line": {
+        "zh": "这个日期【错】了，是后天。",
+        "py": "zhè gè rì qī cuò le , shì hòu tiān .",
+        "en": "This date is wrong; it is the day after tomorrow."
+      },
+      "blankPy": "cuò"
+    },
+    {
+      "type": "match",
+      "id": "s1-u15-t7",
+      "phrase": "s1-u15-w18",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Please answer: which class are you in?",
+          "right": {
+            "zh": "请回答：你在哪个班？",
+            "py": "qǐng huí dá : nǐ zài nǎ gè bān ?",
+            "en": "Please answer: which class are you in?"
+          }
+        },
+        {
+          "left": "Which students want to go?",
+          "right": {
+            "zh": "哪些学生想去？",
+            "py": "nǎ xiē xué sheng xiǎng qù ?",
+            "en": "Which students want to go?"
+          }
+        },
+        {
+          "left": "How old is your younger brother?",
+          "right": {
+            "zh": "你弟弟多大？",
+            "py": "nǐ dì di duō dà ?",
+            "en": "How old is your younger brother?"
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u15-t8",
+      "phrase": "s1-u15-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Please remember this location.",
+          "right": {
+            "zh": "请记住这个地点。",
+            "py": "qǐng jì zhù zhè gè dì diǎn .",
+            "en": "Please remember this location."
+          }
+        },
+        {
+          "left": "Where shall we meet the day after tomorrow?",
+          "right": {
+            "zh": "我们后天在哪儿见？",
+            "py": "wǒ men hòu tiān zài nǎr jiàn ?",
+            "en": "Where shall we meet the day after tomorrow?"
+          }
+        },
+        {
+          "left": "How many people are there altogether?",
+          "right": {
+            "zh": "一共有多少人？",
+            "py": "yī gòng yǒu duō shao rén ?",
+            "en": "How many people are there altogether?"
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u15-t9",
+      "phrase": "s1-u15-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I watched two films yesterday.",
+          "right": {
+            "zh": "我昨天看了两个电影。",
+            "py": "Wǒ zuótiān kàn le liǎng ge diànyǐng.",
+            "en": "I watched two films yesterday."
+          }
+        },
+        {
+          "left": "I did not go out yesterday.",
+          "right": {
+            "zh": "我昨天没出去。",
+            "py": "Wǒ zuótiān méi chūqu.",
+            "en": "I did not go out yesterday."
+          }
+        },
+        {
+          "left": "It rained yesterday.",
+          "right": {
+            "zh": "昨天下雨了。",
+            "py": "Zuótiān xià yǔ le.",
+            "en": "It rained yesterday."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask one follow-up before piling on",
+      "natural": {
+        "zh": "看什么电影？",
+        "py": "kàn shén me diàn yǐng ?",
+        "en": "What film are we seeing?"
+      },
+      "note": "Get the main missing detail first; then ask about time, place or cost."
+    },
+    {
+      "situation": "Ask an unfamiliar person politely",
+      "natural": {
+        "zh": "请问，电影院在哪里？",
+        "py": "qǐng wèn , diàn yǐng yuàn zài nǎ lǐ ?",
+        "en": "Excuse me, where is the cinema?"
+      },
+      "note": "请问 can introduce a request for information without changing the question’s word order."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u15-speak",
+    "title": "Wait, which one?",
+    "place": "A language-exchange meeting",
+    "context": "Ask follow-up questions in a group chat.",
+    "goal": "Ask which event, people and place a message means",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "我们在哪儿见？",
+        "pinyin": "wǒ men zài nǎr jiàn ?",
+        "meaning": "Where shall we meet?",
+        "intent": "Name a meeting place",
+        "examples": [
+          "在电影院门口见",
+          "在学校门口见"
+        ],
+        "accept": [
+          "^在电影院门口见[。！？]?$",
+          "^在学校门口见[。！？]?$"
+        ]
+      },
+      {
+        "text": "一共几个人？",
+        "pinyin": "yī gòng jǐ gè rén ?",
+        "meaning": "How many people altogether?",
+        "intent": "Give the group size",
+        "examples": [
+          "一共三个人",
+          "一共两个人"
+        ],
+        "accept": [
+          "^一共三个人[。！？]?$",
+          "^一共两个人[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一04, 一46. Native review: the deliberately rapid sequence of questions in the scene; 刚才 is glossed support vocabulary, not a new grammar claim here. Planned retrieval 一21: 我昨天看了两个电影。, 我昨天没出去。, 昨天下雨了。."
+}

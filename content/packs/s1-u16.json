@@ -1,0 +1,1132 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u16",
+    "stage": 1,
+    "order": 16,
+    "title": "This one or that one?",
+    "titleZh": "这本还是那本",
+    "canDo": [
+      "Identify an object using demonstratives and a classifier",
+      "Describe whose object it is without ambiguous reference",
+      "Contrast some objects with other objects"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u15"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u16-w01",
+      "hanzi": "这儿",
+      "pinyin": "zhèr",
+      "meaning": "here",
+      "meaningVi": "ở đây",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请放在这儿。",
+        "py": "qǐng fàng zài zhèr .",
+        "en": "Please put it here."
+      }
+    },
+    {
+      "id": "s1-u16-w02",
+      "hanzi": "这里",
+      "pinyin": "zhè lǐ",
+      "meaning": "here; this place",
+      "meaningVi": "ở đây; chỗ này",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这里有书和本子。",
+        "py": "zhè lǐ yǒu shū hé běn zi .",
+        "en": "There are books and notebooks here."
+      }
+    },
+    {
+      "id": "s1-u16-w03",
+      "hanzi": "这些",
+      "pinyin": "zhè xiē",
+      "meaning": "these",
+      "meaningVi": "những cái này",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这些书都是我的。",
+        "py": "zhè xiē shū dōu shì wǒ de .",
+        "en": "These books are all mine."
+      }
+    },
+    {
+      "id": "s1-u16-w04",
+      "hanzi": "那儿",
+      "pinyin": "nàr",
+      "meaning": "there",
+      "meaningVi": "ở đó",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你的书包在那儿。",
+        "py": "nǐ de shū bāo zài nàr .",
+        "en": "Your schoolbag is there."
+      }
+    },
+    {
+      "id": "s1-u16-w05",
+      "hanzi": "那里",
+      "pinyin": "nà lǐ",
+      "meaning": "there; that place",
+      "meaningVi": "ở đó; chỗ đó",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那里有两个杯子。",
+        "py": "nà lǐ yǒu liǎng gè bēi zi .",
+        "en": "There are two cups there."
+      }
+    },
+    {
+      "id": "s1-u16-w06",
+      "hanzi": "那些",
+      "pinyin": "nà xiē",
+      "meaning": "those",
+      "meaningVi": "những cái đó",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那些本子不是我的。",
+        "py": "nà xiē běn zi bù shì wǒ de .",
+        "en": "Those notebooks are not mine."
+      }
+    },
+    {
+      "id": "s1-u16-w07",
+      "hanzi": "有的",
+      "pinyin": "yǒu de",
+      "meaning": "some (members of a set)",
+      "meaningVi": "một số",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这些书有的很新。",
+        "py": "zhè xiē shū yǒu de hěn xīn .",
+        "en": "Some of these books are very new."
+      }
+    },
+    {
+      "id": "s1-u16-w08",
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "meaning": "new",
+      "meaningVi": "mới",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是一本新书。",
+        "py": "zhè shì yī běn xīn shū .",
+        "en": "This is a new book."
+      }
+    },
+    {
+      "id": "s1-u16-w09",
+      "hanzi": "白",
+      "pinyin": "bái",
+      "meaning": "white",
+      "meaningVi": "trắng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我要白的杯子。",
+        "py": "wǒ yào bái de bēi zi .",
+        "en": "I would like the white cup."
+      }
+    },
+    {
+      "id": "s1-u16-w10",
+      "hanzi": "书",
+      "pinyin": "shū",
+      "meaning": "book",
+      "meaningVi": "sách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是我的书。",
+        "py": "zhè shì wǒ de shū .",
+        "en": "This is my book."
+      }
+    },
+    {
+      "id": "s1-u16-w11",
+      "hanzi": "本",
+      "pinyin": "běn",
+      "meaning": "classifier for books",
+      "meaningVi": "lượng từ cho sách",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我有两本书。",
+        "py": "wǒ yǒu liǎng běn shū .",
+        "en": "I have two books."
+      }
+    },
+    {
+      "id": "s1-u16-w12",
+      "hanzi": "本子",
+      "pinyin": "běn zi",
+      "meaning": "notebook",
+      "meaningVi": "vở",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个本子是新的。",
+        "py": "zhè gè běn zi shì xīn de .",
+        "en": "This notebook is new."
+      }
+    },
+    {
+      "id": "s1-u16-w13",
+      "hanzi": "书包",
+      "pinyin": "shū bāo",
+      "meaning": "schoolbag",
+      "meaningVi": "cặp sách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我的书包在桌上。",
+        "py": "wǒ de shū bāo zài zhuō shàng .",
+        "en": "My schoolbag is on the table."
+      }
+    },
+    {
+      "id": "s1-u16-w14",
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "meaning": "cupful; classifier for drinks",
+      "meaningVi": "cốc; lượng từ cho đồ uống",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请给我一杯水。",
+        "py": "qǐng gěi wǒ yī bēi shuǐ .",
+        "en": "Please give me a glass of water."
+      }
+    },
+    {
+      "id": "s1-u16-w15",
+      "hanzi": "杯子",
+      "pinyin": "bēi zi",
+      "meaning": "cup; glass",
+      "meaningVi": "cốc; ly",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是你的杯子吗？",
+        "py": "zhè shì nǐ de bēi zi ma ?",
+        "en": "Is this your cup?"
+      }
+    },
+    {
+      "id": "s1-u16-w16",
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "meaning": "to take; to hold",
+      "meaningVi": "cầm; lấy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请拿那本书。",
+        "py": "qǐng ná nà běn shū .",
+        "en": "Please take that book."
+      }
+    },
+    {
+      "id": "s1-u16-w17",
+      "hanzi": "放",
+      "pinyin": "fàng",
+      "meaning": "to put; to place",
+      "meaningVi": "đặt; để",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "书放在桌上。",
+        "py": "shū fàng zài zhuō shàng .",
+        "en": "The book is placed on the table."
+      }
+    },
+    {
+      "id": "s1-u16-w18",
+      "hanzi": "用",
+      "pinyin": "yòng",
+      "meaning": "to use",
+      "meaningVi": "dùng; sử dụng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你可以用我的本子。",
+        "py": "nǐ kě yǐ yòng wǒ de běn zi .",
+        "en": "You can use my notebook."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "书",
+      "pinyin": "shū",
+      "meaning": "book",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "书",
+          "role": "whole",
+          "gloss": "book"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 书 in 书 / 书包. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "书",
+          "p": "shū",
+          "m": "book"
+        },
+        {
+          "w": "书包",
+          "p": "shū bāo",
+          "m": "schoolbag"
+        }
+      ]
+    },
+    {
+      "hanzi": "本",
+      "pinyin": "běn",
+      "meaning": "root; classifier for books",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "本",
+          "role": "whole",
+          "gloss": "root; classifier for books"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 本 in 本 / 本子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "本",
+          "p": "běn",
+          "m": "classifier for books"
+        },
+        {
+          "w": "本子",
+          "p": "běn zi",
+          "m": "notebook"
+        }
+      ]
+    },
+    {
+      "hanzi": "杯",
+      "pinyin": "bēi",
+      "meaning": "cup",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "杯",
+          "role": "whole",
+          "gloss": "cup"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 杯 in 杯 / 杯子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "杯",
+          "p": "bēi",
+          "m": "cupful; classifier for drinks"
+        },
+        {
+          "w": "杯子",
+          "p": "bēi zi",
+          "m": "cup; glass"
+        }
+      ]
+    },
+    {
+      "hanzi": "新",
+      "pinyin": "xīn",
+      "meaning": "new",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "新",
+          "role": "whole",
+          "gloss": "new"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 新 in 新. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "新",
+          "p": "xīn",
+          "m": "new"
+        }
+      ]
+    },
+    {
+      "hanzi": "白",
+      "pinyin": "bái",
+      "meaning": "white",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "白",
+          "role": "whole",
+          "gloss": "white"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 白 in 白. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "白",
+          "p": "bái",
+          "m": "white"
+        }
+      ]
+    },
+    {
+      "hanzi": "拿",
+      "pinyin": "ná",
+      "meaning": "to take; to hold",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "拿",
+          "role": "whole",
+          "gloss": "to take; to hold"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 拿 in 拿. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "拿",
+          "p": "ná",
+          "m": "to take; to hold"
+        }
+      ]
+    },
+    {
+      "hanzi": "放",
+      "pinyin": "fàng",
+      "meaning": "to put; to release",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "放",
+          "role": "whole",
+          "gloss": "to put; to release"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 放 in 放. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "放",
+          "p": "fàng",
+          "m": "to put; to place"
+        }
+      ]
+    },
+    {
+      "hanzi": "用",
+      "pinyin": "yòng",
+      "meaning": "to use",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "用",
+          "role": "whole",
+          "gloss": "to use"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 用 in 用. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "用",
+          "p": "yòng",
+          "m": "to use"
+        }
+      ]
+    },
+    {
+      "hanzi": "那",
+      "pinyin": "nà",
+      "meaning": "that",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "那",
+          "role": "whole",
+          "gloss": "that"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 那 in 那儿 / 那里. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "那儿",
+          "p": "nàr",
+          "m": "there"
+        },
+        {
+          "w": "那里",
+          "p": "nà lǐ",
+          "m": "there; that place"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u16-g一06",
+      "pattern": "这 / 那 · 这儿 / 那儿 · 这里 / 那里 · 这些 / 那些 · 别的 / 有的",
+      "purpose": "Point to a thing, place or subset",
+      "explanation": "这 and 那 distinguish this from that; add classifier + noun: 这本书. 这儿 / 这里 and 那儿 / 那里 name places. 这些 / 那些 refer to plural sets without an extra 们. 有的 picks some members of a known set; 别的 means other or different ones. Establish the set before saying 有的 so the reference is clear.",
+      "examples": [
+        {
+          "zh": "这是我的书，那是你的本子。",
+          "py": "zhè shì wǒ de shū , nà shì nǐ de běn zi .",
+          "en": "This is my book; that is your notebook."
+        },
+        {
+          "zh": "这儿有书，那儿有杯子。",
+          "py": "zhèr yǒu shū , nàr yǒu bēi zi .",
+          "en": "There are books here and cups there."
+        },
+        {
+          "zh": "这里的书是新的，那里的书不是新的。",
+          "py": "zhè lǐ de shū shì xīn de , nà lǐ de shū bù shì xīn de .",
+          "en": "The books here are new; the books there are not."
+        },
+        {
+          "zh": "这些书有的很新，那些本子有的很小。",
+          "py": "zhè xiē shū yǒu de hěn xīn , nà xiē běn zi yǒu de hěn xiǎo .",
+          "en": "Some of these books are very new; some of those notebooks are very small."
+        },
+        {
+          "zh": "你想用别的本子吗？",
+          "py": "nǐ xiǎng yòng bié de běn zi ma ?",
+          "en": "Would you like to use a different notebook?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这些们书是我的。",
+          "right": "这些书是我的。",
+          "why": "这些 already refers to a plural set; do not add 们."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u16-g一27",
+      "pattern": "noun / pronoun + 的 · adjective · number + classifier + noun",
+      "purpose": "Describe which object you mean",
+      "explanation": "Place descriptions before the noun: 我的书, 新书, 两本书. A possessor or longer adjective phrase often uses 的: 我的书, 很新的书. A simple adjective may attach directly, as in 新书. A quantity needs a classifier: 一本书, 一个杯子. Do not confuse 本 (classifier) with 本子 (notebook) or 杯 (cupful) with 杯子 (container).",
+      "examples": [
+        {
+          "zh": "老师的书在这里。",
+          "py": "lǎo shī de shū zài zhè lǐ .",
+          "en": "The teacher’s book is here."
+        },
+        {
+          "zh": "我的白杯子在那儿。",
+          "py": "wǒ de bái bēi zi zài nàr .",
+          "en": "My white cup is there."
+        },
+        {
+          "zh": "那两本新书是你的。",
+          "py": "nà liǎng běn xīn shū shì nǐ de .",
+          "en": "Those two new books are yours."
+        },
+        {
+          "zh": "我要一杯水，不是一个杯子。",
+          "py": "wǒ yào yī bēi shuǐ , bù shì yī gè bēi zi .",
+          "en": "I would like a glass of water, not an empty cup."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我有两书。",
+          "right": "我有两本书。",
+          "why": "Put the classifier 本 between the number and 书."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u16-d",
+    "title": "Before you take that book",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Listen for the owner of each object.",
+    "lines": [
+      {
+        "zh": "这些书都是你的吗？",
+        "py": "zhè xiē shū dōu shì nǐ de ma ?",
+        "en": "Are all these books yours?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，有的是我的，有的是老师的。",
+        "py": "bù shì , yǒu de shì wǒ de , yǒu de shì lǎo shī de .",
+        "en": "No. Some are mine, and some are the teacher’s.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我可以拿这本新书吗？",
+        "py": "wǒ kě yǐ ná zhè běn xīn shū ma ?",
+        "en": "May I take this new book?",
+        "speaker": "a"
+      },
+      {
+        "zh": "那本是我的，这本是老师的。",
+        "py": "nà běn shì wǒ de , zhè běn shì lǎo shī de .",
+        "en": "That one is mine; this one is the teacher’s.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我用你的书吧。我的本子在哪里？",
+        "py": "nà wǒ yòng nǐ de shū ba . wǒ de běn zi zài nǎ lǐ ?",
+        "en": "Then I will use your book. Where is my notebook?",
+        "speaker": "a"
+      },
+      {
+        "zh": "在那儿，你的书包旁边。",
+        "py": "zài nàr , nǐ de shū bāo páng biān .",
+        "en": "Over there, next to your schoolbag.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那些白杯子也是老师的吗？",
+        "py": "nà xiē bái bēi zi yě shì lǎo shī de ma ?",
+        "en": "Are those white cups also the teacher’s?",
+        "speaker": "a"
+      },
+      {
+        "zh": "是。我的杯子在这里。",
+        "py": "shì . wǒ de bēi zi zài zhè lǐ .",
+        "en": "Yes. My cup is here.",
+        "speaker": "b"
+      },
+      {
+        "zh": "请给我一杯水。",
+        "py": "qǐng gěi wǒ yī bēi shuǐ .",
+        "en": "Please give me a glass of water.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。你先拿杯子，我来放书。",
+        "py": "hǎo . nǐ xiān ná bēi zi , wǒ lái fàng shū .",
+        "en": "Okay. You take a cup first; I will put the books away.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这些本子放这儿吗？",
+        "py": "zhè xiē běn zi fàng zhèr ma ?",
+        "en": "Do these notebooks go here?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。那些书放那里。",
+        "py": "duì . nà xiē shū fàng nà lǐ .",
+        "en": "Yes. Those books go there.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What are they sorting out?",
+        "choices": [
+          "People’s books and study things",
+          "A cinema timetable",
+          "The school’s meal prices"
+        ],
+        "answer": "People’s books and study things"
+      },
+      {
+        "type": "detail",
+        "q": "Who owns the new book pointed to as 这本?",
+        "choices": [
+          "The second speaker",
+          "The teacher",
+          "The first speaker"
+        ],
+        "answer": "The teacher"
+      },
+      {
+        "type": "inference",
+        "q": "Why does the first speaker switch to 那本?",
+        "choices": [
+          "It is white",
+          "It is not a book",
+          "They can borrow the friend’s book rather than the teacher’s"
+        ],
+        "answer": "They can borrow the friend’s book rather than the teacher’s"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": []
+  },
+  "reading": {
+    "id": "s1-u16-r",
+    "title": "Leave the right things on the table",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which objects belong here and which belong there.",
+    "lines": [
+      {
+        "zh": "这里有两本新书和三个本子。",
+        "py": "zhè lǐ yǒu liǎng běn xīn shū hé sān gè běn zi .",
+        "en": "Here there are two new books and three notebooks."
+      },
+      {
+        "zh": "这两本书是老师的，那些本子是我的。",
+        "py": "zhè liǎng běn shū shì lǎo shī de , nà xiē běn zi shì wǒ de .",
+        "en": "These two books are the teacher’s, and those notebooks are mine."
+      },
+      {
+        "zh": "本子有的大，有的小。",
+        "py": "běn zi yǒu de dà , yǒu de xiǎo .",
+        "en": "Some notebooks are big; some are small."
+      },
+      {
+        "zh": "老师的白杯子在那儿，我的杯子在这儿。",
+        "py": "lǎo shī de bái bēi zi zài nàr , wǒ de bēi zi zài zhèr .",
+        "en": "The teacher’s white cup is there; my cup is here."
+      },
+      {
+        "zh": "请拿我的杯子，给我一杯水。",
+        "py": "qǐng ná wǒ de bēi zi , gěi wǒ yī bēi shuǐ .",
+        "en": "Please take my cup and give me a glass of water."
+      },
+      {
+        "zh": "你可以用我的本子，不要拿老师的书。",
+        "py": "nǐ kě yǐ yòng wǒ de běn zi , bú yào ná lǎo shī de shū .",
+        "en": "You may use my notebook; do not take the teacher’s books."
+      },
+      {
+        "zh": "我的书包在桌子旁边。",
+        "py": "wǒ de shū bāo zài zhuō zi páng biān .",
+        "en": "My schoolbag is next to the table."
+      },
+      {
+        "zh": "用完的本子放这里，老师的书放那里。",
+        "py": "yòng wán de běn zi fàng zhè lǐ , lǎo shī de shū fàng nà lǐ .",
+        "en": "Put notebooks you have finished using here, and the teacher’s books there."
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is this note for?",
+        "choices": [
+          "Introducing students",
+          "Explaining where objects belong",
+          "Buying film tickets"
+        ],
+        "answer": "Explaining where objects belong"
+      },
+      {
+        "type": "detail",
+        "q": "Which object may the reader use?",
+        "choices": [
+          "The teacher’s book",
+          "The teacher’s cup",
+          "The writer’s notebook"
+        ],
+        "answer": "The writer’s notebook"
+      },
+      {
+        "type": "inference",
+        "q": "Why should the reader check ownership before taking a book?",
+        "choices": [
+          "The teacher’s books are not offered for borrowing",
+          "All books are broken",
+          "There are no books"
+        ],
+        "answer": "The teacher’s books are not offered for borrowing"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "这两本书是【老师】的，那些本子是我的。",
+          "py": "zhè liǎng běn shū shì lǎo shī de , nà xiē běn zi shì wǒ de .",
+          "en": "These two books are the teacher’s, and those notebooks are mine."
+        },
+        {
+          "zh": "老师的【白】杯子在那儿，我的杯子在这儿。",
+          "py": "lǎo shī de bái bēi zi zài nàr , wǒ de bēi zi zài zhèr .",
+          "en": "The teacher’s white cup is there; my cup is here."
+        }
+      ],
+      "bank": [
+        "老师",
+        "白",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "用完",
+        "pinyin": "yòng wán",
+        "meaning": "finish using"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u16-media",
+      "title": "This side, that side",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read this original verse: follow the objects across the two places.",
+      "lines": [
+        {
+          "zh": "这本新书放这里。",
+          "py": "zhè běn xīn shū fàng zhè lǐ .",
+          "en": "Put this new book here."
+        },
+        {
+          "zh": "那本书放在那儿。",
+          "py": "nà běn shū fàng zài nàr .",
+          "en": "Put that book there."
+        },
+        {
+          "zh": "这些本子有的大。",
+          "py": "zhè xiē běn zi yǒu de dà .",
+          "en": "Some of these notebooks are big."
+        },
+        {
+          "zh": "那些杯子有的白。",
+          "py": "nà xiē bēi zi yǒu de bái .",
+          "en": "Some of those cups are white."
+        },
+        {
+          "zh": "拿一本，读一下。",
+          "py": "ná yī běn , dú yī xià .",
+          "en": "Take one book and read a little."
+        },
+        {
+          "zh": "用完再放回书包。",
+          "py": "yòng wán zài fàng huí shū bāo .",
+          "en": "Put it back in the schoolbag after using it."
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What is taken for reading?",
+          "choices": [
+            "A cup",
+            "A notebook",
+            "A book"
+          ],
+          "answer": "A book"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "用完",
+          "pinyin": "yòng wán",
+          "meaning": "finish using"
+        },
+        {
+          "hanzi": "读",
+          "pinyin": "dú",
+          "meaning": "to read"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u16-t1",
+      "phrase": "s1-u16-w11",
+      "audio": {
+        "zh": "这里有两本书，不是两个本子。",
+        "py": "zhè lǐ yǒu liǎng běn shū , bù shì liǎng gè běn zi .",
+        "en": "There are two books here, not two notebooks."
+      },
+      "statement": "There are two notebooks here.",
+      "answer": false,
+      "why": "书 and 本子 are different objects."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u16-t2",
+      "phrase": "s1-u16-w14",
+      "audio": {
+        "zh": "那儿有一个杯子，里面有一杯水。",
+        "py": "nàr yǒu yī gè bēi zi , lǐ miàn yǒu yī bēi shuǐ .",
+        "en": "There is a cup there, with a glassful of water inside."
+      },
+      "statement": "杯子 names the container and 杯 measures its contents.",
+      "answer": true,
+      "why": "一个杯子 is the container; 一杯水 is the drink amount."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u16-t3",
+      "phrase": "s1-u16-w16",
+      "prompt": {
+        "zh": "我可以拿老师的书吗？",
+        "py": "wǒ kě yǐ ná lǎo shī de shū ma ?",
+        "en": "May I take the teacher’s book?"
+      },
+      "choices": [
+        "三十块。",
+        "请先问老师。",
+        "我想看电影。"
+      ],
+      "answer": "请先问老师。",
+      "why": "Ask the owner before taking the book."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u16-t4",
+      "phrase": "s1-u16-w02",
+      "prompt": {
+        "zh": "这些本子放哪里？",
+        "py": "zhè xiē běn zi fàng nǎ lǐ ?",
+        "en": "Where do these notebooks go?"
+      },
+      "choices": [
+        "放这里。",
+        "我不饿。",
+        "她是学生。"
+      ],
+      "answer": "放这里。",
+      "why": "The question asks for placement."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u16-t5",
+      "phrase": "s1-u16-w13",
+      "line": {
+        "zh": "我的【书包】里有三本书。",
+        "py": "wǒ de shū bāo lǐ yǒu sān běn shū .",
+        "en": "There are three books in my schoolbag."
+      },
+      "blankPy": "shū bāo"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u16-t6",
+      "phrase": "s1-u16-w09",
+      "line": {
+        "zh": "那个【白】杯子不是我的。",
+        "py": "nà gè bái bēi zi bù shì wǒ de .",
+        "en": "That white cup is not mine."
+      },
+      "blankPy": "bái"
+    },
+    {
+      "type": "match",
+      "id": "s1-u16-t7",
+      "phrase": "s1-u16-w17",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Please put it here.",
+          "right": {
+            "zh": "请放在这儿。",
+            "py": "qǐng fàng zài zhèr .",
+            "en": "Please put it here."
+          }
+        },
+        {
+          "left": "You may use that notebook.",
+          "right": {
+            "zh": "你可以用那个本子。",
+            "py": "nǐ kě yǐ yòng nà gè běn zi .",
+            "en": "You may use that notebook."
+          }
+        },
+        {
+          "left": "These books are new.",
+          "right": {
+            "zh": "这些书是新的。",
+            "py": "zhè xiē shū shì xīn de .",
+            "en": "These books are new."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u16-t8",
+      "phrase": "s1-u16-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Those cups are on the teacher’s table.",
+          "right": {
+            "zh": "那些杯子在老师的桌上。",
+            "py": "nà xiē bēi zi zài lǎo shī de zhuō shàng .",
+            "en": "Those cups are on the teacher’s table."
+          }
+        },
+        {
+          "left": "My schoolbag is there.",
+          "right": {
+            "zh": "那里有我的书包。",
+            "py": "nà lǐ yǒu wǒ de shū bāo .",
+            "en": "My schoolbag is there."
+          }
+        },
+        {
+          "left": "These two books are not mine.",
+          "right": {
+            "zh": "这两本书不是我的。",
+            "py": "zhè liǎng běn shū bù shì wǒ de .",
+            "en": "These two books are not mine."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u16-t9",
+      "phrase": "s1-u16-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Please sit down.",
+          "right": {
+            "zh": "请坐！",
+            "py": "qǐng zuò !",
+            "en": "Please sit down."
+          }
+        },
+        {
+          "left": "Please come in and sit down.",
+          "right": {
+            "zh": "请进！请坐！",
+            "py": "Qǐng jìn! Qǐng zuò!",
+            "en": "Please come in and sit down."
+          }
+        },
+        {
+          "left": "Please sit down and have some tea.",
+          "right": {
+            "zh": "请坐，喝点儿茶吧。",
+            "py": "Qǐng zuò, hē diǎnr chá ba.",
+            "en": "Please sit down and have some tea."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask before borrowing",
+      "natural": {
+        "zh": "我可以用你的本子吗？",
+        "py": "wǒ kě yǐ yòng nǐ de běn zi ma ?",
+        "en": "May I use your notebook?"
+      },
+      "note": "Ownership and permission are different. Pointing at an object is not permission to take it."
+    },
+    {
+      "situation": "Resolve a reference by pointing clearly",
+      "natural": {
+        "zh": "这本是老师的，那本是我的。",
+        "py": "zhè běn shì lǎo shī de , nà běn shì wǒ de .",
+        "en": "This one is the teacher’s; that one is mine."
+      },
+      "note": "The listener needs shared visual context for 这 / 那. Repeat 书 if the objects are not visible."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u16-speak",
+    "title": "This one or that one?",
+    "place": "A language-exchange meeting",
+    "context": "Point out items and describe the one you mean.",
+    "goal": "Identify an object using demonstratives and a classifier",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你想用哪个本子？",
+        "pinyin": "nǐ xiǎng yòng nǎ gè běn zi ?",
+        "meaning": "Which notebook would you like to use?",
+        "intent": "Identify a notebook",
+        "examples": [
+          "我想用这个本子",
+          "我想用那个本子"
+        ],
+        "accept": [
+          "^我想用这个本子[。！？]?$",
+          "^我想用那个本子[。！？]?$"
+        ]
+      },
+      {
+        "text": "这些书放哪里？",
+        "pinyin": "zhè xiē shū fàng nǎ lǐ ?",
+        "meaning": "Where do these books go?",
+        "intent": "Give a placement instruction",
+        "examples": [
+          "放在这里",
+          "放在那儿"
+        ],
+        "accept": [
+          "^放在这里[。！？]?$",
+          "^放在那儿[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一06, 一27. Native review: literary omissions of 是 / 很 in the short original verse are intentional; use full ordinary forms in conversation. Borrowing choices depend on visible referents. Planned retrieval 一34: 请坐！, 请进！请坐！, 请坐，喝点儿茶吧。."
+}

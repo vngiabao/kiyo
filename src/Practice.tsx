@@ -6,6 +6,7 @@ import {
   Waveform,
   ArrowLeft,
   Check,
+  Lightning,
 } from "@phosphor-icons/react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "./db";
@@ -14,6 +15,7 @@ import { ExerciseView } from "./LessonPlayer";
 import { AudioButton, Arrow, ToneCurve, Recorder } from "./components";
 import type { Profile, Exercise, Memory } from "./types";
 import { MoSays } from "./Mascot";
+import { ReadingDrill } from "./ReadingDrill";
 export function Review({
   profile,
   onLearn,
@@ -177,6 +179,7 @@ export default function Practice({
     { id: "pronunciation", label: "Pronunciation", icon: Waveform },
     { id: "speaking", label: "Speaking", icon: Microphone },
     { id: "reading", label: "Words & structure", icon: BookOpen },
+    { id: "speed", label: "Reading speed", icon: Lightning },
   ];
   return (
     <>
@@ -198,7 +201,9 @@ export default function Practice({
           </button>
         ))}
       </div>
-      {tab === "pronunciation" ? (
+      {tab === "speed" ? (
+        <ReadingDrill />
+      ) : tab === "pronunciation" ? (
         <div className="pronunciation-layout">
           <div>
             <h2>Follow the pitch.</h2>

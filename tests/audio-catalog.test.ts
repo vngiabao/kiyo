@@ -1,4 +1,5 @@
 import { expect, it } from "vitest";
+import { isDeferred } from "../scripts/audio-deferred";
 import scripts from "../content/audio-scripts.json";
 import { phrases, grammarById, packScenarios } from "../src/content";
 import { characters, readings, characterSpeech, isHan } from "../src/hanzi";
@@ -63,6 +64,8 @@ it("every task line has both a generation entry and installed audio in its requi
   for (const task of tasks)
     for (const line of taskAudio(task)) {
       expect(line.zh, task.id).not.toMatch(/[【】]/u);
+      // Owner-deferred lines ship without a Sayo clip (content/voices/audio-deferred.json).
+      if (isDeferred(line.zh)) continue;
       expect(
         index.get(voiceKey(line.zh))?.moods,
         task.id + " " + line.zh,

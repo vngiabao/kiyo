@@ -8,6 +8,8 @@ import type {
   Draft,
   SavedLine,
   WatchLog,
+  PersonalWord,
+  ReadingSpeed,
 } from "./types";
 import { updateMemory } from "./learning";
 import { phraseById } from "./content";
@@ -23,6 +25,8 @@ class LearningDB extends Dexie {
   syncState!: EntityTable<SyncState, "id">;
   savedLines!: EntityTable<SavedLine, "id">;
   watchLog!: EntityTable<WatchLog, "id">;
+  personalWords!: EntityTable<PersonalWord, "id">;
+  readingSpeed!: EntityTable<ReadingSpeed, "id">;
   constructor() {
     super("tingjian-v1");
     this.version(1).stores({
@@ -36,6 +40,8 @@ class LearningDB extends Dexie {
     this.version(2).stores({ syncState: "id" });
     // Watch player: saved subtitle/lyric lines and session history (additive).
     this.version(3).stores({ savedLines: "id,at", watchLog: "id,at" });
+    // Dictionary words you saved, and timed-reading drill sessions (additive).
+    this.version(4).stores({ personalWords: "id,at", readingSpeed: "id,at" });
     this.profiles.hook("creating", (_key, profile, tx) => {
       if ((tx as typeof tx & { fromCloud?: boolean }).fromCloud) return;
       profile.updatedAt = Date.now();
@@ -99,7 +105,7 @@ export async function saveAttempt(
   );
 }
 export async function exportRecord() {
-  const [profiles, attempts, memories, mistakes, sessions, drafts, savedLines, watchLog] =
+  const [profiles, attempts, memories, mistakes, sessions, drafts, savedLines, watchLog, personalWords, readingSpeed] =
     await Promise.all([
       db.profiles.toArray(),
       db.attempts.toArray(),
@@ -109,6 +115,8 @@ export async function exportRecord() {
       db.drafts.toArray(),
       db.savedLines.toArray(),
       db.watchLog.toArray(),
+      db.personalWords.toArray(),
+      db.readingSpeed.toArray(),
     ]);
   return {
     schemaVersion: 1,
@@ -121,6 +129,8 @@ export async function exportRecord() {
     drafts,
     savedLines,
     watchLog,
+    personalWords,
+    readingSpeed,
   };
 }
 export async function importRecord(raw: unknown) {
@@ -270,7 +280,18 @@ export async function importRecord(raw: unknown) {
       ![w.seconds, w.peeks, w.lookups, w.lines, w.at].every(finite)
     )
       throw new Error("A watch session is invalid.");
+  const personalWords = Array.isArray(r.personalWords) ? (r.personalWords as PersonalWord[]) : [];
+  const readingSpeed = Array.isArray(r.readingSpeed) ? (r.readingSpeed as ReadingSpeed[]) : [];
+  if (personalWords.length > 100000 || readingSpeed.length > 100000) throw new Error("The backup is incomplete or too large.");
+  for (const w of personalWords)
+    if (![w.id, w.pinyin, w.meaning, w.line, w.source].every((s) => typeof s === "string") || !finite(w.at))
+      throw new Error("A saved word is invalid.");
+  for (const s of readingSpeed)
+    if (typeof s.id !== "string" || ![s.at, s.startRate, s.endRate, s.lines, s.correct].every(finite))
+      throw new Error("A reading-speed session is invalid.");
   await db.transaction("rw", db.tables, async () => {
+    await db.personalWords.bulkPut(personalWords);
+    await db.readingSpeed.bulkPut(readingSpeed);
     await db.savedLines.bulkPut(savedLines);
     await db.watchLog.bulkPut(watchLog);
     await db.profiles.bulkPut(data.profiles);

@@ -117,6 +117,9 @@ CONTENT SCHEMA (JSON). Exact keys; ids are lowercase-kebab, unique, and prefixed
     "glosses": [ { "hanzi": "", "pinyin": "", "meaning": "" } ],
     "questions": [ { "type": "gist | detail | inference", "q": "", "choices": ["", "", ""], "answer": "" } ]
   },
+  "extraReadings": [
+    { "id": "s1-u03-x1", "title": "", "titleZh": "", "format": "message (drama scene as subtitles, ≤ 16 characters per line, with speakers) | note (original song verse)", "purpose": "", "speakers": [], "lines": [], "glosses": [], "questions": [], "cloze": { "lines": [], "bank": [] } }
+  ],
   "conversation": {
     "id": "s1-u03-c",
     "title": "", "place": "", "context": "", "goal": "",

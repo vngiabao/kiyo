@@ -102,6 +102,12 @@ export interface ContentPack {
   grammar?: PackGrammar[];
   dialogue?: PackText;
   reading?: PackText;
+  /**
+   * More readings in the same unit: an original drama scene written as subtitles
+   * (format "message", short lines) or an original song verse (format "note").
+   * Checked and compiled exactly like `reading`.
+   */
+  extraReadings?: PackText[];
   conversation?: PackConversation;
   pragmatics?: PackPragmatics[];
   review?: { type: string; prompt: string; zh?: string; choices?: string[]; answer?: string }[];
@@ -169,7 +175,14 @@ export interface ValidationContext {
   hsk?: Record<string, HskWord>;
   /** Characters with stroke data available. */
   strokeData?: Set<string>;
+  /**
+   * Word splitter backed by the offline dictionary (scripts/build-packs.ts provides it).
+   * When present, readability is measured in WORDS, not just characters.
+   */
+  wordsOf?: (line: string) => string[];
 }
+/** Packs from this order on must reach 95% known words; earlier packs only warn. */
+export const WORD_COVERAGE_STRICT_FROM = 13;
 export interface Report { errors: string[]; warnings: string[]; stats: Record<string, number | string> }
 
 const registers = ["casual", "neutral", "polite", "formal", "written", "internet"];
@@ -284,7 +297,12 @@ export function validatePack(raw: unknown, ctx: ValidationContext): Report {
   });
 
   // Texts
-  const texts: [PackText | undefined, string][] = [[p.dialogue, "dialogue"], [p.reading, "reading"]];
+  const texts: [PackText | undefined, string][] = [
+    [p.dialogue, "dialogue"],
+    [p.reading, "reading"],
+    ...(p.extraReadings ?? []).map((t, i): [PackText, string] => [t, `extraReadings[${i}]`]),
+  ];
+  if (p.extraReadings !== undefined && !Array.isArray(p.extraReadings)) err("extraReadings must be a list of readings.");
   for (const [t, name] of texts) {
     if (!t) continue;
     claim(t.id, name);
@@ -319,7 +337,8 @@ export function validatePack(raw: unknown, ctx: ValidationContext): Report {
   if (!(p.tasks ?? []).length) warn("No practice tasks: add truefalse / reply / listenfill and a cloze so words are used in new sentences.");
 
   // Coverage: characters in the texts the learner should already know (proxy for word coverage).
-  const glossChars = new Set([...(p.dialogue?.glosses ?? []), ...(p.reading?.glosses ?? [])].flatMap((g) => Array.from(g.hanzi)));
+  const allTexts = texts.map(([t]) => t).filter((t): t is PackText => !!t);
+  const glossChars = new Set(allTexts.flatMap((t) => t.glosses ?? []).flatMap((g) => Array.from(g.hanzi)));
   const known = new Set([...ctx.knownChars, ...[...newWords].flatMap((w) => Array.from(w)), ...(p.characters ?? []).map((c) => c.hanzi)]);
   for (const [t, name] of texts) {
     if (!t) continue;
@@ -328,7 +347,7 @@ export function validatePack(raw: unknown, ctx: ValidationContext): Report {
     const missing = [...new Set(chars.filter((c) => !known.has(c) && !own.has(c)))];
     if (missing.length) err(`${name}: no meaning available for ${missing.join("")}. Add them to ${name}.glosses (names too, e.g. 陈宇 = "Chen Yu, a name").`);
   }
-  const textChars = [...(p.dialogue?.lines ?? []), ...(p.reading?.lines ?? [])].flatMap((l) => Array.from(l.zh ?? "").filter(isHan));
+  const textChars = allTexts.flatMap((t) => t.lines ?? []).flatMap((l) => Array.from(l.zh ?? "").filter(isHan));
   if (textChars.length) {
     const outside = textChars.filter((c) => !known.has(c));
     const coverage = Math.round((100 * (textChars.length - outside.length)) / textChars.length);
@@ -338,10 +357,31 @@ export function validatePack(raw: unknown, ctx: ValidationContext): Report {
     else if (coverage < 95) warn(`Coverage ${coverage}% (aim ≥ 95%). Glossed or unknown: ${list}.`);
     if (glossChars.size > 8) warn(`${glossChars.size} glossed characters: the texts may be above the learner's level.`);
   }
+  // Word-level readability: share of words in the connected texts the learner knows
+  // (taught before, new this unit, glossed, or a number), using the dictionary's word split.
+  if (ctx.wordsOf && textChars.length) {
+    const glossWords = new Set(allTexts.flatMap((t) => t.glosses ?? []).map((g) => g.hanzi));
+    const isKnown = (w: string) => ctx.knownWords.has(w) || newWords.has(w) || glossWords.has(w);
+    // A phrase the splitter kept whole (生日快乐, 别客气) counts if it splits fully into known words.
+    const composed = (w: string): boolean => {
+      const cs = Array.from(w);
+      const ok = [true, ...cs.map(() => false)];
+      for (let i = 0; i < cs.length; i++) if (ok[i]) for (let j = i + 1; j <= cs.length; j++) if (isKnown(cs.slice(i, j).join(""))) ok[j] = true;
+      return ok[cs.length];
+    };
+    const knownWord = (w: string) => isKnown(w) || /^[零一二两三四五六七八九十百千万]+$/.test(w) || (Array.from(w).length > 1 && composed(w));
+    const words = allTexts.flatMap((t) => t.lines ?? []).flatMap((l) => ctx.wordsOf!(l.zh ?? ""));
+    const unknown = words.filter((w) => !knownWord(w));
+    const pct = Math.round((100 * (words.length - unknown.length)) / Math.max(1, words.length));
+    stats.words = `${pct}%`;
+    const list = [...new Set(unknown)].slice(0, 15).join("、");
+    if (pct < 95) (u.order >= WORD_COVERAGE_STRICT_FROM ? err : warn)(`Only ${pct}% of words in the texts are known, new this unit or glossed (need ≥ 95%). Not covered: ${list}.`);
+  }
   // Recycling: each new word should appear at least twice in context.
   const context = [
     ...(p.dialogue?.lines ?? []),
     ...(p.reading?.lines ?? []),
+    ...(p.extraReadings ?? []).flatMap((t) => t.lines ?? []),
     ...(p.grammar ?? []).flatMap((g) => g.examples ?? []),
     ...(p.tasks ?? []).flatMap((task) => (task && typeof task === "object" && "type" in task ? taskAudio(task) : [])),
   ].map((l) => l.zh ?? "").join("\n") + (p.review ?? []).map((r) => `${r.zh ?? ""}${r.prompt}`).join("\n");
@@ -510,7 +550,9 @@ export function compilePack(p: ContentPack) {
           cloze: t.cloze,
         }
       : null;
-  const texts = [text(p.dialogue, "对话"), text(p.reading, "阅读")].filter((x): x is CompiledText => !!x);
+  const texts = [text(p.dialogue, "对话"), text(p.reading, "阅读"), ...(p.extraReadings ?? []).map((t) => text(t, "阅读"))].filter(
+    (x): x is CompiledText => !!x,
+  );
   const c = p.conversation;
   const scenario: CompiledScenario | null = c
     ? {

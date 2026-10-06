@@ -1,0 +1,1323 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u19",
+    "stage": 1,
+    "order": 19,
+    "title": "Whose charger is this?",
+    "titleZh": "这是谁的",
+    "canDo": [
+      "Identify and return belongings",
+      "Use 的 for ownership and 地 before a verb",
+      "Ask for help without guessing who owns an item"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u18"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u19-w01",
+      "hanzi": "帮",
+      "pinyin": "bāng",
+      "meaning": "to help",
+      "meaningVi": "giúp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请帮我找钱包。",
+        "py": "qǐng bāng wǒ zhǎo qián bāo .",
+        "en": "Please help me look for my wallet."
+      }
+    },
+    {
+      "id": "s1-u19-w02",
+      "hanzi": "帮忙",
+      "pinyin": "bāng máng",
+      "meaning": "to help; lend a hand",
+      "meaningVi": "giúp đỡ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你可以帮忙吗？",
+        "py": "nǐ kě yǐ bāng máng ma ?",
+        "en": "Can you lend a hand?"
+      }
+    },
+    {
+      "id": "s1-u19-w03",
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "meaning": "bag",
+      "meaningVi": "túi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个白包是我的。",
+        "py": "zhè gè bái bāo shì wǒ de .",
+        "en": "This white bag is mine."
+      }
+    },
+    {
+      "id": "s1-u19-w04",
+      "hanzi": "钱包",
+      "pinyin": "qián bāo",
+      "meaning": "wallet",
+      "meaningVi": "ví",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我的钱包在包里。",
+        "py": "wǒ de qián bāo zài bāo lǐ .",
+        "en": "My wallet is in my bag."
+      }
+    },
+    {
+      "id": "s1-u19-w05",
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "meaning": "to look for",
+      "meaningVi": "tìm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我找课本。",
+        "py": "wǒ zhǎo kè běn .",
+        "en": "I am looking for my textbook."
+      }
+    },
+    {
+      "id": "s1-u19-w06",
+      "hanzi": "找到",
+      "pinyin": "zhǎo dào",
+      "meaning": "to find",
+      "meaningVi": "tìm thấy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我找到你的书了。",
+        "py": "wǒ zhǎo dào nǐ de shū le .",
+        "en": "I have found your book."
+      }
+    },
+    {
+      "id": "s1-u19-w07",
+      "hanzi": "得到",
+      "pinyin": "dé dào",
+      "meaning": "to get; receive",
+      "meaningVi": "nhận được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我得到一本新书。",
+        "py": "wǒ dé dào yī běn xīn shū .",
+        "en": "I received a new book."
+      }
+    },
+    {
+      "id": "s1-u19-w08",
+      "hanzi": "别人",
+      "pinyin": "bié ren",
+      "meaning": "other people; someone else",
+      "meaningVi": "người khác",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是别人的包。",
+        "py": "zhè shì bié ren de bāo .",
+        "en": "This is someone else’s bag."
+      }
+    },
+    {
+      "id": "s1-u19-w09",
+      "hanzi": "重要",
+      "pinyin": "zhòng yào",
+      "meaning": "important",
+      "meaningVi": "quan trọng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这本课本很重要。",
+        "py": "zhè běn kè běn hěn zhòng yào .",
+        "en": "This textbook is important."
+      }
+    },
+    {
+      "id": "s1-u19-w10",
+      "hanzi": "有用",
+      "pinyin": "yǒu yòng",
+      "meaning": "useful",
+      "meaningVi": "hữu ích",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这些知识很有用。",
+        "py": "zhè xiē zhī shi hěn yǒu yòng .",
+        "en": "This knowledge is useful."
+      }
+    },
+    {
+      "id": "s1-u19-w11",
+      "hanzi": "认真",
+      "pinyin": "rèn zhēn",
+      "meaning": "serious; careful",
+      "meaningVi": "nghiêm túc; cẩn thận",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "她学习很认真。",
+        "py": "tā xué xí hěn rèn zhēn .",
+        "en": "She studies carefully."
+      }
+    },
+    {
+      "id": "s1-u19-w12",
+      "hanzi": "地",
+      "pinyin": "de",
+      "meaning": "adverbial particle de",
+      "meaningVi": "trợ từ trước động từ",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我认真地读课文。",
+        "py": "wǒ rèn zhēn de dú kè wén .",
+        "en": "I read the text carefully."
+      }
+    },
+    {
+      "id": "s1-u19-w13",
+      "hanzi": "知识",
+      "pinyin": "zhī shi",
+      "meaning": "knowledge",
+      "meaningVi": "kiến thức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我想学习新的知识。",
+        "py": "wǒ xiǎng xué xí xīn de zhī shi .",
+        "en": "I want to learn new things."
+      }
+    },
+    {
+      "id": "s1-u19-w14",
+      "hanzi": "课本",
+      "pinyin": "kè běn",
+      "meaning": "textbook",
+      "meaningVi": "sách giáo khoa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是你的课本吗？",
+        "py": "zhè shì nǐ de kè běn ma ?",
+        "en": "Is this your textbook?"
+      }
+    },
+    {
+      "id": "s1-u19-w15",
+      "hanzi": "课文",
+      "pinyin": "kè wén",
+      "meaning": "lesson text",
+      "meaningVi": "bài khóa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天的课文不长。",
+        "py": "jīn tiān de kè wén bù zhǎng .",
+        "en": "Today’s lesson text is not long."
+      }
+    },
+    {
+      "id": "s1-u19-w16",
+      "hanzi": "外语",
+      "pinyin": "wài yǔ",
+      "meaning": "foreign language",
+      "meaningVi": "ngoại ngữ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我学习一门外语。",
+        "py": "wǒ xué xí yī mén wài yǔ .",
+        "en": "I am learning a foreign language."
+      }
+    },
+    {
+      "id": "s1-u19-w17",
+      "hanzi": "书店",
+      "pinyin": "shū diàn",
+      "meaning": "bookshop",
+      "meaningVi": "hiệu sách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "书店在学校旁边。",
+        "py": "shū diàn zài xué xiào páng biān .",
+        "en": "The bookshop is next to the school."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "帮",
+      "pinyin": "bāng",
+      "meaning": "to help",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "帮",
+          "role": "whole",
+          "gloss": "to help"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 帮 in 帮 / 帮忙. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "帮",
+          "p": "bāng",
+          "m": "to help"
+        },
+        {
+          "w": "帮忙",
+          "p": "bāng máng",
+          "m": "to help; lend a hand"
+        }
+      ]
+    },
+    {
+      "hanzi": "忙",
+      "pinyin": "máng",
+      "meaning": "busy",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "忙",
+          "role": "whole",
+          "gloss": "busy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 忙 in 帮忙. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "帮忙",
+          "p": "bāng máng",
+          "m": "to help; lend a hand"
+        }
+      ]
+    },
+    {
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "meaning": "bag; to wrap",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "包",
+          "role": "whole",
+          "gloss": "bag; to wrap"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 包 in 包 / 钱包. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "包",
+          "p": "bāo",
+          "m": "bag"
+        },
+        {
+          "w": "钱包",
+          "p": "qián bāo",
+          "m": "wallet"
+        }
+      ]
+    },
+    {
+      "hanzi": "找",
+      "pinyin": "zhǎo",
+      "meaning": "to look for",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "找",
+          "role": "whole",
+          "gloss": "to look for"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 找 in 找 / 找到. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "找",
+          "p": "zhǎo",
+          "m": "to look for"
+        },
+        {
+          "w": "找到",
+          "p": "zhǎo dào",
+          "m": "to find"
+        }
+      ]
+    },
+    {
+      "hanzi": "到",
+      "pinyin": "dào",
+      "meaning": "to arrive; result of reaching",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "到",
+          "role": "whole",
+          "gloss": "to arrive; result of reaching"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 到 in 找到 / 得到. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "找到",
+          "p": "zhǎo dào",
+          "m": "to find"
+        },
+        {
+          "w": "得到",
+          "p": "dé dào",
+          "m": "to get; receive"
+        }
+      ]
+    },
+    {
+      "hanzi": "得",
+      "pinyin": "dé",
+      "meaning": "to obtain",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "得",
+          "role": "whole",
+          "gloss": "to obtain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 得 in 得到. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "得到",
+          "p": "dé dào",
+          "m": "to get; receive"
+        }
+      ]
+    },
+    {
+      "hanzi": "别",
+      "pinyin": "bié",
+      "meaning": "other; do not",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "别",
+          "role": "whole",
+          "gloss": "other; do not"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 别 in 别人. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "别人",
+          "p": "bié ren",
+          "m": "other people; someone else"
+        }
+      ]
+    },
+    {
+      "hanzi": "重",
+      "pinyin": "zhòng",
+      "meaning": "heavy; important",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "重",
+          "role": "whole",
+          "gloss": "heavy; important"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 重 in 重要. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "重要",
+          "p": "zhòng yào",
+          "m": "important"
+        }
+      ]
+    },
+    {
+      "hanzi": "要",
+      "pinyin": "yào",
+      "meaning": "to want; important in 重要",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "要",
+          "role": "whole",
+          "gloss": "to want; important in 重要"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 要 in 重要. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "重要",
+          "p": "zhòng yào",
+          "m": "important"
+        }
+      ]
+    },
+    {
+      "hanzi": "认",
+      "pinyin": "rèn",
+      "meaning": "to recognize",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "认",
+          "role": "whole",
+          "gloss": "to recognize"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 认 in 认真. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "认真",
+          "p": "rèn zhēn",
+          "m": "serious; careful"
+        }
+      ]
+    },
+    {
+      "hanzi": "真",
+      "pinyin": "zhēn",
+      "meaning": "true; really",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "真",
+          "role": "whole",
+          "gloss": "true; really"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 真 in 认真. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "认真",
+          "p": "rèn zhēn",
+          "m": "serious; careful"
+        }
+      ]
+    },
+    {
+      "hanzi": "知",
+      "pinyin": "zhī",
+      "meaning": "to know",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "知",
+          "role": "whole",
+          "gloss": "to know"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 知 in 知识. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "知识",
+          "p": "zhī shi",
+          "m": "knowledge"
+        }
+      ]
+    },
+    {
+      "hanzi": "识",
+      "pinyin": "shí",
+      "meaning": "knowledge; to recognize",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "识",
+          "role": "whole",
+          "gloss": "knowledge; to recognize"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 识 in 知识. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "知识",
+          "p": "zhī shi",
+          "m": "knowledge"
+        }
+      ]
+    },
+    {
+      "hanzi": "课",
+      "pinyin": "kè",
+      "meaning": "lesson",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "课",
+          "role": "whole",
+          "gloss": "lesson"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 课 in 课本 / 课文. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "课本",
+          "p": "kè běn",
+          "m": "textbook"
+        },
+        {
+          "w": "课文",
+          "p": "kè wén",
+          "m": "lesson text"
+        }
+      ]
+    },
+    {
+      "hanzi": "语",
+      "pinyin": "yǔ",
+      "meaning": "language",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "语",
+          "role": "whole",
+          "gloss": "language"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 语 in 外语. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "外语",
+          "p": "wài yǔ",
+          "m": "foreign language"
+        }
+      ]
+    },
+    {
+      "hanzi": "店",
+      "pinyin": "diàn",
+      "meaning": "shop",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "店",
+          "role": "whole",
+          "gloss": "shop"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 店 in 书店. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "书店",
+          "p": "shū diàn",
+          "m": "bookshop"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u19-g一20",
+      "pattern": "description + 的 + noun · manner + 地 + verb",
+      "purpose": "Distinguish ownership from manner",
+      "explanation": "的 links a description to a noun: 我的包, 认真的学生. 地 links a manner description to a verb: 认真地读. Both are neutral-tone de, but their written forms and functions differ. In natural speech simple manner words may occur without 地; do not treat every omission as wrong. 我的 can stand alone when the possessed noun is understood.",
+      "examples": [
+        {
+          "zh": "这是我的课本，那是别人的。",
+          "py": "zhè shì wǒ de kè běn , nà shì bié ren de .",
+          "en": "This is my textbook; that one belongs to someone else."
+        },
+        {
+          "zh": "认真的学生认真地读课文。",
+          "py": "rèn zhēn de xué sheng rèn zhēn de dú kè wén .",
+          "en": "The careful student reads the lesson text carefully."
+        },
+        {
+          "zh": "认真地读。",
+          "py": "rèn zhēn de dú.",
+          "en": "Read carefully."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我认真地课本在这里。",
+          "right": "我的课本在这里。",
+          "why": "The noun 课本 needs an ownership phrase with 的, not an adverbial phrase with 地."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u19-g一26",
+      "pattern": "verb + noun / pronoun / noun phrase",
+      "purpose": "Say what an action affects",
+      "explanation": "Put an ordinary object after the verb: 找钱包, 帮我, 读今天的课文. A noun phrase can contain ownership or a description. Do not confuse the object with the subject: 我找你的书 says who searches and what they search for. Chinese can omit an already understood object in conversation; an omitted object is not automatically an error.",
+      "examples": [
+        {
+          "zh": "我找钱包，你帮我。",
+          "py": "wǒ zhǎo qián bāo , nǐ bāng wǒ .",
+          "en": "I will look for the wallet; please help me."
+        },
+        {
+          "zh": "她读今天的课文。",
+          "py": "tā dú jīn tiān de kè wén .",
+          "en": "She reads today’s lesson text."
+        },
+        {
+          "zh": "朋友送我一本书，我得到一本外语课本。",
+          "py": "péng you sòng wǒ yī běn shū , wǒ dé dào yī běn wài yǔ kè běn .",
+          "en": "A friend gave me a book; I received a foreign-language textbook."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我找的你书。",
+          "right": "我找你的书。",
+          "why": "你的书 is one object phrase after 找."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u19-d",
+    "title": "Whose bag?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find who owns the bag and what the missing item is.",
+    "lines": [
+      {
+        "zh": "这是你的包吗？",
+        "py": "zhè shì nǐ de bāo ma ?",
+        "en": "Is this your bag?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，这是别人的。我的包是白的。",
+        "py": "bù shì , zhè shì bié ren de . wǒ de bāo shì bái de .",
+        "en": "No, it belongs to someone else. My bag is white.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你在找什么？",
+        "py": "nǐ zài zhǎo shén me ?",
+        "en": "What are you looking for?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我找钱包，可以帮忙吗？",
+        "py": "wǒ zhǎo qián bāo , kě yǐ bāng máng ma ?",
+        "en": "I am looking for my wallet. Could you help?",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我帮你找。课本也在包里吗？",
+        "py": "hǎo , wǒ bāng nǐ zhǎo . kè běn yě zài bāo lǐ ma ?",
+        "en": "Sure, I will help you look. Is your textbook in the bag too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "在。外语课本很重要，今天要读课文。",
+        "py": "zài . wài yǔ kè běn hěn zhòng yào , jīn tiān yào dú kè wén .",
+        "en": "Yes. The foreign-language textbook is important; we need to read the lesson text today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我找到白包了，钱包在里边。",
+        "py": "wǒ zhǎo dào bái bāo le , qián bāo zài lǐ bian .",
+        "en": "I found the white bag. The wallet is inside.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢！朋友在书店买了这本新书，我得到了一本好书，里面的知识很有用。",
+        "py": "xiè xiè ! péng you zài shū diàn mǎi le zhè běn xīn shū , wǒ dé dào le yī běn hǎo shū , lǐ miàn de zhī shi hěn yǒu yòng .",
+        "en": "Thanks! My friend bought this new book at the bookshop, and I received a good book. The knowledge inside is useful.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你学习很认真。",
+        "py": "nǐ xué xí hěn rèn zhēn .",
+        "en": "You study carefully.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我想认真地读，不想只看答案。",
+        "py": "wǒ xiǎng rèn zhēn de dú , bù xiǎng zhǐ kàn dá àn .",
+        "en": "I want to read carefully, not just look at answers.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这个充电器也是你的吗？",
+        "py": "zhè gè chōng diàn qì yě shì nǐ de ma ?",
+        "en": "Is this charger yours too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，先问别人吧。",
+        "py": "bù shì , xiān wèn bié ren ba .",
+        "en": "No. Ask the others first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does one friend help the other do?",
+        "choices": [
+          "Find a wallet",
+          "Buy tickets",
+          "Choose dinner"
+        ],
+        "answer": "Find a wallet"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the wallet?",
+        "choices": [
+          "In the white bag",
+          "In the bookshop",
+          "On the floor"
+        ],
+        "answer": "In the white bag"
+      },
+      {
+        "type": "inference",
+        "q": "Is the charger’s owner known?",
+        "choices": [
+          "No, they need to ask",
+          "Yes, it is the reader’s",
+          "Yes, it belongs to the bookshop"
+        ],
+        "answer": "No, they need to ask"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "充电器",
+        "pinyin": "chōng diàn qì",
+        "meaning": "charger"
+      },
+      {
+        "hanzi": "只",
+        "pinyin": "zhǐ",
+        "meaning": "only"
+      },
+      {
+        "hanzi": "答案",
+        "pinyin": "dá àn",
+        "meaning": "answer"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u19-r",
+    "title": "Message after study",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the lost item, its location and the unclaimed object.",
+    "lines": [
+      {
+        "zh": "今天朋友去学校旁边的书店，买了外语课本送我。",
+        "py": "jīn tiān péng you qù xué xiào páng biān de shū diàn , mǎi le wài yǔ kè běn sòng wǒ .",
+        "en": "Today my friend went to the bookshop next to school and bought me a foreign-language textbook."
+      },
+      {
+        "zh": "课文里的知识很有用，对我也很重要。",
+        "py": "kè wén lǐ de zhī shi hěn yǒu yòng , duì wǒ yě hěn zhòng yào .",
+        "en": "The knowledge in the lesson text is useful and important to me."
+      },
+      {
+        "zh": "我想认真地读课文，朋友学习也很认真。",
+        "py": "wǒ xiǎng rèn zhēn de dú kè wén , péng you xué xí yě hěn rèn zhēn .",
+        "en": "I want to read carefully; my friend also studies carefully."
+      },
+      {
+        "zh": "我找课本的时候，没有找到钱包。",
+        "py": "wǒ zhǎo kè běn de shí hou , méi yǒu zhǎo dào qián bāo .",
+        "en": "When I looked for my textbook, I could not find my wallet."
+      },
+      {
+        "zh": "朋友来帮忙，帮我找白色的包。",
+        "py": "péng you lái bāng máng , bāng wǒ zhǎo bái sè de bāo .",
+        "en": "My friend came to help, and helped me look for the white bag."
+      },
+      {
+        "zh": "他找到包了，钱包在包里。",
+        "py": "tā zhǎo dào bāo le , qián bāo zài bāo lǐ .",
+        "en": "He found the bag; the wallet was inside."
+      },
+      {
+        "zh": "桌子上还有别人的包和一个充电器。",
+        "py": "zhuō zi shàng hái yǒu bié ren de bāo hé yī gè chōng diàn qì .",
+        "en": "On the table were someone else’s bag and a charger."
+      },
+      {
+        "zh": "我知道那个包不是我的，不知道充电器是谁的。",
+        "py": "wǒ zhī dào nà gè bāo bù shì wǒ de , bù zhī dào chōng diàn qì shì shéi de .",
+        "en": "I know that bag is not mine; I do not know whose charger it is."
+      },
+      {
+        "zh": "我先问别人，再回家。",
+        "py": "wǒ xiān wèn bié ren , zài huí jiā .",
+        "en": "I will ask the others first, then go home."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the message mainly about?",
+        "choices": [
+          "Study and finding belongings",
+          "A family meal",
+          "A concert"
+        ],
+        "answer": "Study and finding belongings"
+      },
+      {
+        "type": "detail",
+        "q": "What did the writer get at the bookshop?",
+        "choices": [
+          "A foreign-language textbook",
+          "A white bag",
+          "A charger"
+        ],
+        "answer": "A foreign-language textbook"
+      },
+      {
+        "type": "inference",
+        "q": "Why ask before taking the charger?",
+        "choices": [
+          "Its owner is unknown",
+          "It is certainly broken",
+          "It is very expensive"
+        ],
+        "answer": "Its owner is unknown"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "今天朋友去学校旁边的书店，买了外语【课本】送我。",
+          "py": "jīn tiān péng you qù xué xiào páng biān de shū diàn , mǎi le wài yǔ kè běn sòng wǒ .",
+          "en": "Today my friend went to the bookshop next to school and bought me a foreign-language textbook."
+        },
+        {
+          "zh": "他找到包了，【钱包】在包里。",
+          "py": "tā zhǎo dào bāo le , qián bāo zài bāo lǐ .",
+          "en": "He found the bag; the wallet was inside."
+        }
+      ],
+      "bank": [
+        "课本",
+        "钱包",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "充电器",
+        "pinyin": "chōng diàn qì",
+        "meaning": "charger"
+      },
+      {
+        "hanzi": "还",
+        "pinyin": "hái",
+        "meaning": "to return"
+      },
+      {
+        "hanzi": "送",
+        "pinyin": "sòng",
+        "meaning": "to give as a gift"
+      },
+      {
+        "hanzi": "时候",
+        "pinyin": "shí hou",
+        "meaning": "time; when"
+      },
+      {
+        "hanzi": "白色",
+        "pinyin": "bái sè",
+        "meaning": "white colour"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u19-media",
+      "title": "The white bag returns",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene with a missing wallet and a useful book.",
+      "lines": [
+        {
+          "zh": "别找了，我找到你的包了。",
+          "py": "bié zhǎo le , wǒ zhǎo dào nǐ de bāo le .",
+          "en": "Stop looking; I found your bag.",
+          "speaker": "a"
+        },
+        {
+          "zh": "白的那个？钱包也在吗？",
+          "py": "bái de nà gè ? qián bāo yě zài ma ?",
+          "en": "The white one? Is the wallet there too?",
+          "speaker": "b"
+        },
+        {
+          "zh": "在。你的课本也在。",
+          "py": "zài . nǐ de kè běn yě zài .",
+          "en": "Yes. Your textbook is there too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "帮大忙了，这本书很重要。",
+          "py": "bāng dà máng le , zhè běn shū hěn zhòng yào .",
+          "en": "That is a big help. This book is important.",
+          "speaker": "b"
+        },
+        {
+          "zh": "朋友在书店买的外语书？",
+          "py": "péng you zài shū diàn mǎi de wài yǔ shū ?",
+          "en": "The foreign-language book your friend bought at the bookshop?",
+          "speaker": "a"
+        },
+        {
+          "zh": "对，课文有用，知识也有用。",
+          "py": "duì , kè wén yǒu yòng , zhī shi yě yǒu yòng .",
+          "en": "Yes. The lesson texts are useful, and so is the knowledge.",
+          "speaker": "b"
+        },
+        {
+          "zh": "认真地读吧。别人的包，我们先不拿。",
+          "py": "rèn zhēn de dú ba . bié ren de bāo , wǒ men xiān bù ná .",
+          "en": "Read carefully. Let us leave the other person’s bag.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。谢谢你帮忙，不只是帮我找东西。",
+          "py": "hǎo . xiè xiè nǐ bāng máng , bù zhǐ shì bāng wǒ zhǎo dōng xi .",
+          "en": "Okay. Thanks for helping, with more than just looking for things.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why leave the other bag?",
+          "choices": [
+            "It belongs to someone else",
+            "It is empty",
+            "It is a textbook"
+          ],
+          "answer": "It belongs to someone else"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "只",
+          "pinyin": "zhǐ",
+          "meaning": "only"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u19-t1",
+      "phrase": "s1-u19-w04",
+      "audio": {
+        "zh": "钱包在白包里。",
+        "py": "qián bāo zài bái bāo lǐ .",
+        "en": "The wallet is in the white bag."
+      },
+      "statement": "The wallet is in the white bag.",
+      "answer": true,
+      "why": "The location is explicit."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u19-t2",
+      "phrase": "s1-u19-w08",
+      "audio": {
+        "zh": "这是别人的课本。",
+        "py": "zhè shì bié ren de kè běn .",
+        "en": "This is someone else’s textbook."
+      },
+      "statement": "It is the speaker’s textbook.",
+      "answer": false,
+      "why": "别人 means someone else."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u19-t3",
+      "phrase": "s1-u19-w02",
+      "prompt": {
+        "zh": "你可以帮忙吗？",
+        "py": "nǐ kě yǐ bāng máng ma ?",
+        "en": "Can you help?"
+      },
+      "choices": [
+        "可以，我帮你找。",
+        "一百页。",
+        "三块钱。"
+      ],
+      "answer": "可以，我帮你找。",
+      "why": "Accept the request for help."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u19-t4",
+      "phrase": "s1-u19-w17",
+      "prompt": {
+        "zh": "书店在哪里？",
+        "py": "shū diàn zài nǎ lǐ ?",
+        "en": "Where is the bookshop?"
+      },
+      "choices": [
+        "学校旁边。",
+        "认真地读。",
+        "很有用。"
+      ],
+      "answer": "学校旁边。",
+      "why": "Give a location."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u19-t5",
+      "phrase": "s1-u19-w11",
+      "line": {
+        "zh": "我【认真】地读课文。",
+        "py": "wǒ rèn zhēn de dú kè wén .",
+        "en": "I read the lesson text carefully."
+      },
+      "blankPy": "rèn zhēn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u19-t6",
+      "phrase": "s1-u19-w09",
+      "line": {
+        "zh": "这本课本很【重要】。",
+        "py": "zhè běn kè běn hěn zhòng yào .",
+        "en": "This textbook is important."
+      },
+      "blankPy": "zhòng yào"
+    },
+    {
+      "type": "match",
+      "id": "s1-u19-t7",
+      "phrase": "s1-u19-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I received a new book.",
+          "right": {
+            "zh": "我得到一本新书。",
+            "py": "wǒ dé dào yī běn xīn shū .",
+            "en": "I received a new book."
+          }
+        },
+        {
+          "left": "This knowledge is useful.",
+          "right": {
+            "zh": "这些知识很有用。",
+            "py": "zhè xiē zhī shi hěn yǒu yòng .",
+            "en": "This knowledge is useful."
+          }
+        },
+        {
+          "left": "I read the lesson text carefully.",
+          "right": {
+            "zh": "我认真地读课文。",
+            "py": "wǒ rèn zhēn de dú kè wén .",
+            "en": "I read the lesson text carefully."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u19-t8",
+      "phrase": "s1-u19-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I am learning a foreign language.",
+          "right": {
+            "zh": "我在学习外语。",
+            "py": "wǒ zài xué xí wài yǔ .",
+            "en": "I am learning a foreign language."
+          }
+        },
+        {
+          "left": "I found the wallet.",
+          "right": {
+            "zh": "我找到了钱包。",
+            "py": "wǒ zhǎo dào le qián bāo .",
+            "en": "I found the wallet."
+          }
+        },
+        {
+          "left": "The bookshop is next to the school.",
+          "right": {
+            "zh": "书店在学校旁边。",
+            "py": "shū diàn zài xué xiào páng biān .",
+            "en": "The bookshop is next to the school."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u19-t9",
+      "phrase": "s1-u19-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Is the airport far from here?",
+          "right": {
+            "zh": "从这儿到机场远吗？",
+            "py": "Cóng zhèr dào jīchǎng yuǎn ma?",
+            "en": "Is the airport far from here?"
+          }
+        },
+        {
+          "left": "This item of clothing costs one hundred and twenty yuan.",
+          "right": {
+            "zh": "这件衣服一百二十块。",
+            "py": "Zhè jiàn yīfu yìbǎi èrshí kuài.",
+            "en": "This item of clothing costs one hundred and twenty yuan."
+          }
+        },
+        {
+          "left": "Water costs three yuan.",
+          "right": {
+            "zh": "水三块。",
+            "py": "Shuǐ sān kuài.",
+            "en": "Water costs three yuan."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Finding an unclaimed object",
+      "natural": {
+        "zh": "这是谁的？",
+        "py": "zhè shì shéi de ?",
+        "en": "Whose is this?"
+      },
+      "note": "Ask before claiming or taking a shared-room object."
+    },
+    {
+      "situation": "Requesting help",
+      "natural": {
+        "zh": "可以帮我找一下吗？",
+        "py": "kě yǐ bāng wǒ zhǎo yī xià ma ?",
+        "en": "Could you help me look?"
+      },
+      "note": "Specify a manageable action; the person can decline."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u19-speak",
+    "title": "Whose charger is this?",
+    "place": "A language-exchange meeting",
+    "context": "Return belongings and state who needs what.",
+    "goal": "Identify and return belongings",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "这是你的包吗？",
+        "pinyin": "zhè shì nǐ de bāo ma ?",
+        "meaning": "Is this your bag?",
+        "intent": "Say it belongs to someone else",
+        "examples": [
+          "不是，这是别人的。",
+          "这是别人的。"
+        ],
+        "accept": [
+          "^不是，这是别人的。[。！？]?$",
+          "^这是别人的。[。！？]?$"
+        ]
+      },
+      {
+        "text": "需要帮忙吗？",
+        "pinyin": "xū yào bāng máng ma ?",
+        "meaning": "Do you need help?",
+        "intent": "Ask for help finding a wallet",
+        "examples": [
+          "请帮我找钱包。"
+        ],
+        "accept": [
+          "^请帮我找钱包。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一20, 一26. Native check: 得到 in the bookshop context; omission of 地 in ordinary speech; charger ownership language. No blanket rule that a missing 地 is ungrammatical. Planned retrieval 一15 / 一43: 从这儿到机场远吗？, 这件衣服一百二十块。, 水三块。."
+}

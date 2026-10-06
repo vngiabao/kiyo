@@ -485,7 +485,7 @@ export function ExerciseView({
         {e.kind === "glyph" && (
           <div className="big-glyph" lang="zh-CN">
             <Speakable
-              text={char?.say ?? p.audio.text ?? p.hanzi}
+              text={p.audio.text ?? p.hanzi}
               onHear={() => {
                 if (!submitted) setRevealed(true);
               }}
@@ -589,7 +589,7 @@ export function ExerciseView({
               <>
                 <PhraseText phrase={p} meaning={false} />
                 <AudioButton
-                  text={char?.say ?? p.audio.text}
+                  text={p.audio.text}
                   voiceURI={profile.voiceURI}
                 />
               </>
@@ -844,7 +844,7 @@ export function ExerciseView({
                     <Pinyin text={p.pinyin} />
                     <span>“{p.meaning}”</span>
                     <AudioButton
-                      text={char?.say ?? p.audio.text}
+                      text={p.audio.text}
                       voiceURI={profile.voiceURI}
                     />
                   </span>

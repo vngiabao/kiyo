@@ -20,8 +20,11 @@ digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 read=lambda p:json.loads(p.read_text('utf-8'))
 convert=OpenCC('t2s')
 
-def normalize(text, digit_sequence=False):
+def normalize(text, digit_sequence=False, year_digits=False):
     text=convert.convert(text)
+    if year_digits:
+        digits='零一二三四五六七八九'
+        text=re.sub(r'(?<!\d)\d{4}(?=年)',lambda match:''.join(digits[int(c)] for c in match.group()),text)
     def number(match):
         digits='零一二三四五六七八九'
         if digit_sequence or match.group().startswith('0'):
@@ -37,9 +40,10 @@ def normalize(text, digit_sequence=False):
     text=re.sub(r'\d+',number,text)
     return re.sub(r'[^\u4e00-\u9fff0-9]', '', text)
 
-def transcript_status(expected_text, transcript):
+def transcript_status(expected_text, transcript, authored_pinyin=None):
     digit_sequence='幺' in expected_text or bool(re.fullmatch(r'[零一二三四五六七八九幺]+',normalize(expected_text)))
-    expected,heard=normalize(expected_text,digit_sequence),normalize(transcript,digit_sequence)
+    year_digits=bool(re.search(r'[零一二三四五六七八九]{4}年',expected_text))
+    expected,heard=normalize(expected_text,digit_sequence,year_digits),normalize(transcript,digit_sequence,year_digits)
     if expected==heard:return 'text-match'
     # ASR writes spoken phone-number yao as 一. Synthesis still receives 幺.
     if '幺' in expected and expected.replace('幺','一')==heard:return 'phone-number-transcript'
@@ -51,6 +55,14 @@ def transcript_status(expected_text, transcript):
         return 'erhua-transcript'
     if expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
         return 'homophone-transcript'
+    # The dictionary-only reading of 地 is dì, even in a de adverbial.
+    # Use the independently checked authored reading only at that exact
+    # position; ground dì and missing/different syllables remain failures.
+    syllables=re.findall(r"[a-züāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+",(authored_pinyin or '').lower())
+    if len(expected)==len(heard)==len(syllables):
+        differences=[i for i,(a,b) in enumerate(zip(expected,heard)) if a!=b]
+        if differences and all(expected[i]=='地' and heard[i]=='的' and syllables[i]=='de' for i in differences):
+            return 'homophone-transcript'
     return 'needs-review'
 
 def atomic(path,data):
@@ -67,6 +79,7 @@ def main():
     torch.set_num_threads(3)
     path=CACHE/'screening.json'
     report=read(path) if path.exists() else dict(method='Whisper medium, Chinese, no expected text prompt. OpenCC t2s orthography only; tone-number pinyin comparison flags homophone transcripts separately. Not tone or naturalness certification.',clips={})
+    scripts={entry['text']:entry for entry in read(ROOT/'content/audio-scripts.json')}
     model=None
     while True:
         plan=read(CACHE/'plan.json')
@@ -80,10 +93,15 @@ def main():
             assert digest(source)==hash
             id=hash+':'+job['text']
             previous=report['clips'].get(id)
+            if previous and previous['status'].startswith('carrier-') and len(normalize(job['text']))>3:
+                # A carrier may contain the whole sentence while the crop contains
+                # only its ending. Long crops must match their own transcription.
+                previous.update(status=transcript_status(job['text'],previous.get('transcript','')),cropCheckVersion=1)
+                atomic(path,report)
             if previous and previous['status']=='needs-review':
                 cue=record.get('pronunciationContext',{})
                 expected_text=cue.get('synthesisText',job['text']) if cue.get('extract')=='whole' else job['text']
-                status=transcript_status(expected_text,previous.get('transcript',''))
+                status=transcript_status(expected_text,previous.get('transcript',''),scripts.get(job['text'],{}).get('pinyin'))
                 if status!='needs-review':
                     previous.update(status=status,orthographicCheckVersion=2)
                     atomic(path,report)
@@ -107,15 +125,18 @@ def main():
                 cue=record.get('pronunciationContext',{})
                 expected_text=cue.get('synthesisText',job['text']) if cue.get('extract')=='whole' else job['text']
                 expected,heard=normalize(expected_text),normalize(transcript)
-                status=transcript_status(expected_text,transcript)
+                status=transcript_status(expected_text,transcript,scripts.get(job['text'],{}).get('pinyin'))
                 if repeat and heard in [expected*2,expected*3]:status='repeated-text-match'
                 if status=='needs-review' and expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
                     status='homophone-transcript'
                 result=dict(text=job['text'],transcript=transcript,status=status,rawSha256=hash)
                 if carrier:
                     tail=heard[-len(expected):]
-                    if tail==expected:status='carrier-text-match'
-                    elif lazy_pinyin(tail,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True):status='carrier-homophone-transcript'
+                    if len(expected)<=3:
+                        if tail==expected:status='carrier-text-match'
+                        elif lazy_pinyin(tail,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True):status='carrier-homophone-transcript'
+                    else:
+                        status=transcript_status(job['text'],previous.get('transcript',''))
                     result=dict(previous,carrierTranscript=transcript,status=status)
                 if repeat and not carrier:
                     result.update(transcript=previous['transcript'],repeatedTranscript=transcript)

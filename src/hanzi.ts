@@ -158,10 +158,21 @@ export const baseCharacters: HanziEntry[] = rows.map(
   }),
 );
 // Characters introduced by content packs (first definition wins; the base course is never overridden).
+const characterContexts: Record<string, string> = {
+  空: "有空", 吧: "好吧", 啊: "好啊", 什: "什么", 么: "什么", 以: "可以",
+  息: "休息", 儿: "儿子", 孩: "孩子", 弟: "弟弟", 干: "干净", 地: "地上",
+  得: "得到", 识: "知识", 候: "时候", 视: "电视机", 准: "准备", 备: "准备",
+  脑: "电脑", 够: "够用", 习: "学习", 觉: "睡觉", 汉: "汉语", 师: "老师",
+  同: "同学", 星: "星期", 昨: "昨天", 今: "今天", 汽: "汽车", 介: "介绍",
+  绍: "介绍", 京: "北京", 服: "衣服", 欢: "喜欢", 喜: "喜欢", 兴: "高兴",
+  爸: "爸爸", 谢: "谢谢", 体: "身体", 方: "地方",
+};
 const packCharacters: HanziEntry[] = [];
 for (const pack of compiledPacks)
   for (const c of pack.characters) {
     if (baseCharacters.some((b) => b.hanzi === c.hanzi) || packCharacters.some((b) => b.hanzi === c.hanzi)) continue;
+    // Bound syllables must keep their word context when packs add explicit glyphs.
+    const say = characterContexts[c.hanzi] ?? c.hanzi;
     packCharacters.push({
       id: `c:${c.hanzi}`,
       hanzi: c.hanzi,
@@ -174,7 +185,7 @@ for (const pack of compiledPacks)
       usage: c.note,
       utilityScore: 70,
       topic: "characters",
-      audio: { provider: "local", text: c.hanzi },
+      audio: { provider: "local", text: say },
       provenance: { ...provenance, author: "Content pack (AI-assisted)" },
       hskAlignment: [],
       strokes: c.strokes,
@@ -182,7 +193,7 @@ for (const pack of compiledPacks)
       note: c.note,
       noteKind: c.noteKind,
       words: c.words,
-      say: c.hanzi,
+      say,
     });
   }
 export const characters: HanziEntry[] = [...baseCharacters, ...packCharacters];
@@ -441,6 +452,5 @@ export const isHan = (ch: string) => /\p{Script=Han}/u.test(ch);
 
 /** Keep neutral particles and ambiguous syllables inside a familiar word. */
 export function characterSpeech(ch: string) {
-  const context: Record<string, string> = { 空: "有空", 吧: "好吧", 啊: "好啊", 什: "什么", 么: "什么", 以: "可以", 息: "休息" };
-  return charByHanzi[ch]?.say ?? context[ch] ?? (extraGloss[ch] ? ch : wordHelp.get(ch)?.say ?? ch);
+  return charByHanzi[ch]?.say ?? characterContexts[ch] ?? (extraGloss[ch] ? ch : wordHelp.get(ch)?.say ?? ch);
 }

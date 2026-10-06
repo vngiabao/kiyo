@@ -29,12 +29,12 @@ for (const file of files) {
   const pack = JSON.parse(readFileSync(`content/packs/${file}`, "utf8")) as ContentPack;
   if (only && pack.unit.id !== only) continue;
   for (const v of pack.vocabulary) addWord(v.hanzi, v.pinyin);
-  for (const t of [pack.dialogue, pack.reading]) for (const g of t?.glosses ?? []) addWord(g.hanzi, g.pinyin);
+  for (const t of [pack.dialogue, pack.reading, ...(pack.extraReadings ?? [])]) for (const g of t?.glosses ?? []) addWord(g.hanzi, g.pinyin);
   const lines: { where: string; zh: string; py: string }[] = [];
   const push = (where: string, l?: { zh?: string; py?: string }) => l?.zh && l.py && lines.push({ where, zh: plain(l.zh), py: l.py });
   pack.vocabulary.forEach((v) => push(`word ${v.hanzi} example`, v.example));
   (pack.grammar ?? []).forEach((g) => g.examples.forEach((e, i) => push(`grammar ${g.pattern} ex ${i + 1}`, e)));
-  for (const [name, t] of [["dialogue", pack.dialogue], ["reading", pack.reading]] as const)
+  for (const [name, t] of [["dialogue", pack.dialogue], ["reading", pack.reading], ...(pack.extraReadings ?? []).map((r, k) => [`extra reading ${k + 1}`, r] as const)] as const)
     t?.lines.forEach((l, i) => push(`${name} line ${i + 1}`, l));
   (pack.pragmatics ?? []).forEach((x, i) => {
     push(`usage ${i + 1} natural`, x.natural);

@@ -1,0 +1,1327 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u22",
+    "stage": 1,
+    "order": 22,
+    "title": "No, I meant tomorrow",
+    "titleZh": "记对上课时间",
+    "canDo": [
+      "Correct a mistaken date politely",
+      "Distinguish 不 from 没/没有",
+      "Use an A-not-A question without adding 吗"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u21"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u22-w01",
+      "hanzi": "不大",
+      "pinyin": "bù dà",
+      "meaning": "not very; not big",
+      "meaningVi": "không lớn; không lắm",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这间房不大。",
+        "py": "zhè jiān fáng bù dà .",
+        "en": "This room is not large."
+      }
+    },
+    {
+      "id": "s1-u22-w02",
+      "hanzi": "没有",
+      "pinyin": "méi yǒu",
+      "meaning": "not have; did not",
+      "meaningVi": "không có; đã không",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我昨天没有上课。",
+        "py": "wǒ zuó tiān méi yǒu shàng kè .",
+        "en": "I did not attend class yesterday."
+      }
+    },
+    {
+      "id": "s1-u22-w03",
+      "hanzi": "没什么",
+      "pinyin": "méi shén me",
+      "meaning": "nothing much; not really anything",
+      "meaningVi": "không có gì",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "没什么，我只是有一点累。",
+        "py": "méi shén me , wǒ zhǐ shì yǒu yī diǎn lèi .",
+        "en": "Nothing much; I am just a little tired."
+      }
+    },
+    {
+      "id": "s1-u22-w04",
+      "hanzi": "没事儿",
+      "pinyin": "méi shìr",
+      "meaning": "it is okay; nothing wrong",
+      "meaningVi": "không sao",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "没事儿，明天再来。",
+        "py": "méi shìr , míng tiān zài lái .",
+        "en": "It is okay; come again tomorrow."
+      }
+    },
+    {
+      "id": "s1-u22-w05",
+      "hanzi": "对不起",
+      "pinyin": "duì bu qǐ",
+      "meaning": "sorry",
+      "meaningVi": "xin lỗi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "对不起，我记错了。",
+        "py": "duì bu qǐ , wǒ jì cuò le .",
+        "en": "Sorry, I remembered incorrectly."
+      }
+    },
+    {
+      "id": "s1-u22-w06",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "meaning": "to wait",
+      "meaningVi": "đợi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你先等一下。",
+        "py": "nǐ xiān děng yī xià .",
+        "en": "Please wait a moment first."
+      }
+    },
+    {
+      "id": "s1-u22-w07",
+      "hanzi": "记",
+      "pinyin": "jì",
+      "meaning": "to remember; note down",
+      "meaningVi": "nhớ; ghi lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我记这个时间。",
+        "py": "wǒ jì zhè gè shí jiān .",
+        "en": "I will note down this time."
+      }
+    },
+    {
+      "id": "s1-u22-w08",
+      "hanzi": "记得",
+      "pinyin": "jì de",
+      "meaning": "to remember",
+      "meaningVi": "nhớ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你记得明天有课吗？",
+        "py": "nǐ jì de míng tiān yǒu kè ma ?",
+        "en": "Do you remember that there is class tomorrow?"
+      }
+    },
+    {
+      "id": "s1-u22-w09",
+      "hanzi": "忘",
+      "pinyin": "wàng",
+      "meaning": "to forget",
+      "meaningVi": "quên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "别忘了时间。",
+        "py": "bié wàng le shí jiān .",
+        "en": "Do not forget the time."
+      }
+    },
+    {
+      "id": "s1-u22-w10",
+      "hanzi": "忘记",
+      "pinyin": "wàng jì",
+      "meaning": "to forget",
+      "meaningVi": "quên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我忘记星期几上课了。",
+        "py": "wǒ wàng jì xīng qī jǐ shàng kè le .",
+        "en": "I forgot which day of the week class is."
+      }
+    },
+    {
+      "id": "s1-u22-w11",
+      "hanzi": "是不是",
+      "pinyin": "shì bu shì",
+      "meaning": "is it or is it not",
+      "meaningVi": "có phải hay không",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天是不是星期日？",
+        "py": "jīn tiān shì bu shì xīng qī rì ?",
+        "en": "Is today Sunday?"
+      }
+    },
+    {
+      "id": "s1-u22-w12",
+      "hanzi": "事",
+      "pinyin": "shì",
+      "meaning": "matter; thing to do",
+      "meaningVi": "việc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我明天有事。",
+        "py": "wǒ míng tiān yǒu shì .",
+        "en": "I have something to do tomorrow."
+      }
+    },
+    {
+      "id": "s1-u22-w13",
+      "hanzi": "前天",
+      "pinyin": "qián tiān",
+      "meaning": "the day before yesterday",
+      "meaningVi": "hôm kia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "前天我没有去学校。",
+        "py": "qián tiān wǒ méi yǒu qù xué xiào .",
+        "en": "I did not go to school the day before yesterday."
+      }
+    },
+    {
+      "id": "s1-u22-w14",
+      "hanzi": "去年",
+      "pinyin": "qù nián",
+      "meaning": "last year",
+      "meaningVi": "năm ngoái",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "去年我在北京学习。",
+        "py": "qù nián wǒ zài běi jīng xué xí .",
+        "en": "I studied in Beijing last year."
+      }
+    },
+    {
+      "id": "s1-u22-w15",
+      "hanzi": "半年",
+      "pinyin": "bàn nián",
+      "meaning": "half a year",
+      "meaningVi": "nửa năm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我学习汉语半年了。",
+        "py": "wǒ xué xí hàn yǔ bàn nián le .",
+        "en": "I have been studying Chinese for half a year."
+      }
+    },
+    {
+      "id": "s1-u22-w16",
+      "hanzi": "明年",
+      "pinyin": "míng nián",
+      "meaning": "next year",
+      "meaningVi": "năm sau",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "明年我想去中国。",
+        "py": "míng nián wǒ xiǎng qù zhōng guó .",
+        "en": "I would like to go to China next year."
+      }
+    },
+    {
+      "id": "s1-u22-w17",
+      "hanzi": "星期日",
+      "pinyin": "xīng qī rì",
+      "meaning": "Sunday",
+      "meaningVi": "Chủ nhật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "星期日没有课。",
+        "py": "xīng qī rì méi yǒu kè .",
+        "en": "There is no class on Sunday."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "事",
+      "pinyin": "shì",
+      "meaning": "matter",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "事",
+          "role": "whole",
+          "gloss": "matter"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 事 in 没事儿 / 事. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "没事儿",
+          "p": "méi shìr",
+          "m": "it is okay; nothing wrong"
+        },
+        {
+          "w": "事",
+          "p": "shì",
+          "m": "matter; thing to do"
+        }
+      ]
+    },
+    {
+      "hanzi": "忘",
+      "pinyin": "wàng",
+      "meaning": "to forget",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "忘",
+          "role": "whole",
+          "gloss": "to forget"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 忘 in 忘 / 忘记. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "忘",
+          "p": "wàng",
+          "m": "to forget"
+        },
+        {
+          "w": "忘记",
+          "p": "wàng jì",
+          "m": "to forget"
+        }
+      ]
+    },
+    {
+      "hanzi": "等",
+      "pinyin": "děng",
+      "meaning": "to wait",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "等",
+          "role": "whole",
+          "gloss": "to wait"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 等 in 等. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "等",
+          "p": "děng",
+          "m": "to wait"
+        }
+      ]
+    },
+    {
+      "hanzi": "前",
+      "pinyin": "qián",
+      "meaning": "before; front",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "前",
+          "role": "whole",
+          "gloss": "before; front"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 前 in 前天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "前天",
+          "p": "qián tiān",
+          "m": "the day before yesterday"
+        }
+      ]
+    },
+    {
+      "hanzi": "汉",
+      "pinyin": "hàn",
+      "meaning": "Han; Chinese",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "汉",
+          "role": "whole",
+          "gloss": "Han; Chinese"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 汉 in 汉语 / 汉字. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "汉语",
+          "p": "Hànyǔ",
+          "m": "Chinese (the language)"
+        },
+        {
+          "w": "汉字",
+          "p": "Hànzì",
+          "m": "Chinese character"
+        }
+      ]
+    },
+    {
+      "hanzi": "没",
+      "pinyin": "méi",
+      "meaning": "not; not have",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "没",
+          "role": "whole",
+          "gloss": "not; not have"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 没 in 没有 / 没什么. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "没有",
+          "p": "méi yǒu",
+          "m": "not have; did not"
+        },
+        {
+          "w": "没什么",
+          "p": "méi shén me",
+          "m": "nothing much; not really anything"
+        }
+      ]
+    },
+    {
+      "hanzi": "对",
+      "pinyin": "duì",
+      "meaning": "correct; toward",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "对",
+          "role": "whole",
+          "gloss": "correct; toward"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 对 in 对不起. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "对不起",
+          "p": "duì bu qǐ",
+          "m": "sorry"
+        }
+      ]
+    },
+    {
+      "hanzi": "体",
+      "pinyin": "tǐ",
+      "meaning": "body; form",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "体",
+          "role": "whole",
+          "gloss": "body; form"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 体 in 身体. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "身体",
+          "p": "shēntǐ",
+          "m": "body; health"
+        }
+      ]
+    },
+    {
+      "hanzi": "病",
+      "pinyin": "bìng",
+      "meaning": "illness",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "病",
+          "role": "whole",
+          "gloss": "illness"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 病 in 病 / 看病. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "病",
+          "p": "bìng",
+          "m": "illness; to be ill"
+        },
+        {
+          "w": "看病",
+          "p": "kànbìng",
+          "m": "to see a doctor"
+        }
+      ]
+    },
+    {
+      "hanzi": "错",
+      "pinyin": "cuò",
+      "meaning": "wrong",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "错",
+          "role": "whole",
+          "gloss": "wrong"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 错 in 错. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "错",
+          "p": "cuò",
+          "m": "wrong; mistake"
+        }
+      ]
+    },
+    {
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaning": "can; meeting",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "会",
+          "role": "whole",
+          "gloss": "can; meeting"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 会 in 会 / 一会儿. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "会",
+          "p": "huì",
+          "m": "can (a learned skill)"
+        },
+        {
+          "w": "一会儿",
+          "p": "yíhuìr",
+          "m": "a moment; in a bit"
+        }
+      ]
+    },
+    {
+      "hanzi": "能",
+      "pinyin": "néng",
+      "meaning": "can",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "能",
+          "role": "whole",
+          "gloss": "can"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 能 in 能. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "能",
+          "p": "néng",
+          "m": "can (able to; free to)"
+        }
+      ]
+    },
+    {
+      "hanzi": "请",
+      "pinyin": "qǐng",
+      "meaning": "please; to invite",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "请",
+          "role": "whole",
+          "gloss": "please; to invite"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 请 in 请. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "请",
+          "p": "qǐng",
+          "m": "please; to invite"
+        }
+      ]
+    },
+    {
+      "hanzi": "送",
+      "pinyin": "sòng",
+      "meaning": "to give; send",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "送",
+          "role": "whole",
+          "gloss": "to give; send"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 送 in 送. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "送",
+          "p": "sòng",
+          "m": "to give (as a gift)"
+        }
+      ]
+    },
+    {
+      "hanzi": "第",
+      "pinyin": "dì",
+      "meaning": "ordinal prefix",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "第",
+          "role": "whole",
+          "gloss": "ordinal prefix"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 第 in 第一次 / 第. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "第一次",
+          "p": "dì yī cì",
+          "m": "the first time"
+        },
+        {
+          "w": "第",
+          "p": "dì",
+          "m": "(makes ordinals: first, second…)"
+        }
+      ]
+    },
+    {
+      "hanzi": "次",
+      "pinyin": "cì",
+      "meaning": "occasion; time",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "次",
+          "role": "whole",
+          "gloss": "occasion; time"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 次 in 第一次 / 下次. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "第一次",
+          "p": "dì yī cì",
+          "m": "the first time"
+        },
+        {
+          "w": "下次",
+          "p": "xià cì",
+          "m": "next time"
+        }
+      ]
+    },
+    {
+      "hanzi": "谢",
+      "pinyin": "xiè",
+      "meaning": "to thank",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "谢",
+          "role": "whole",
+          "gloss": "to thank"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 谢 in 谢谢. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "谢谢",
+          "p": "xiè xiè",
+          "m": "to thank"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u22-g一14",
+      "pattern": "不 / 没 / 没有 · 别 + verb",
+      "purpose": "Negate a habit, a past event or an instruction",
+      "explanation": "不 commonly negates a habit, intention or state: 我不喝奶; 房间不大. 没/没有 negates an event that did not happen: 昨天没上课. 没有 also means not have: 没有课. Do not use 不有. 别 gives a negative instruction: 别忘了. The choice is about meaning, not a rule that every past sentence contains 没.",
+      "examples": [
+        {
+          "zh": "我不喝奶，昨天也没喝。",
+          "py": "wǒ bù hē nǎi , zuó tiān yě méi hē .",
+          "en": "I do not drink milk and did not drink it yesterday either."
+        },
+        {
+          "zh": "星期日没有课，别去学校。",
+          "py": "xīng qī rì méi yǒu kè , bié qù xué xiào .",
+          "en": "There is no class on Sunday; do not go to school."
+        },
+        {
+          "zh": "这间房不大。",
+          "py": "zhè jiān fáng bù dà .",
+          "en": "This room is not large."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不有课。",
+          "right": "我没有课。",
+          "why": "有 is negated with 没有, not 不有."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u22-g一48",
+      "pattern": "verb + 不 + verb · 有 + 没有",
+      "purpose": "Ask an A-not-A question",
+      "explanation": "Repeat the verb around its negative: 去不去, 是不是; 有 uses 有没有. Two-syllable verbs can repeat fully or shorten the first part: 喜欢不喜欢 / 喜不喜欢. These questions already ask for a yes/no choice, so do not add 吗 in the same neutral question. Answer with the affirmative or negative verb; 是 is not a universal English-style yes.",
+      "examples": [
+        {
+          "zh": "明天去不去学校？",
+          "py": "míng tiān qù bù qù xué xiào ?",
+          "en": "Will you go to school tomorrow?"
+        },
+        {
+          "zh": "星期日有没有课？",
+          "py": "xīng qī rì yǒu méi yǒu kè ?",
+          "en": "Is there class on Sunday?"
+        },
+        {
+          "zh": "你是不是记错了？",
+          "py": "nǐ shì bu shì jì cuò le ?",
+          "en": "Did you remember incorrectly?"
+        },
+        {
+          "zh": "你喜欢不喜欢这本书？",
+          "py": "nǐ xǐ huān bù xǐ huān zhè běn shū ?",
+          "en": "Do you like this book?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "明天去不去学校吗？",
+          "right": "明天去不去学校？",
+          "why": "Choose either the A-not-A structure or a 吗 question."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u22-d",
+    "title": "The wrong day",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the corrected class day and the plan after the mistake.",
+    "lines": [
+      {
+        "zh": "今天是不是星期日？你去不去学校？",
+        "py": "jīn tiān shì bu shì xīng qī rì ? nǐ qù bù qù xué xiào ?",
+        "en": "Is today Sunday? Are you going to school?",
+        "speaker": "a"
+      },
+      {
+        "zh": "今天是星期六。你是不是记错了？",
+        "py": "jīn tiān shì xīng qī liù . nǐ shì bu shì jì cuò le ?",
+        "en": "Today is Saturday. Did you remember incorrectly?",
+        "speaker": "b"
+      },
+      {
+        "zh": "对不起，我忘记星期几上课了。",
+        "py": "duì bu qǐ , wǒ wàng jì xīng qī jǐ shàng kè le .",
+        "en": "Sorry, I forgot which day class is.",
+        "speaker": "a"
+      },
+      {
+        "zh": "没事儿。你先等一下，我看日历。",
+        "py": "méi shìr . nǐ xiān děng yī xià , wǒ kàn rì lì .",
+        "en": "It is okay. Wait a moment; I will check the calendar.",
+        "speaker": "b"
+      },
+      {
+        "zh": "前天有没有课？",
+        "py": "qián tiān yǒu méi yǒu kè ?",
+        "en": "Was there class the day before yesterday?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没有。星期日也没有课，明天别去学校。",
+        "py": "méi yǒu . xīng qī rì yě méi yǒu kè , míng tiān bié qù xué xiào .",
+        "en": "No. There is no class on Sunday either, so do not go to school tomorrow.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我记得去年星期日有课。",
+        "py": "wǒ jì de qù nián xīng qī rì yǒu kè .",
+        "en": "I remember having class on Sundays last year.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，今年改了。你学习汉语半年了吧？",
+        "py": "duì , jīn nián gǎi le . nǐ xué xí hàn yǔ bàn nián le ba ?",
+        "en": "Right, it changed this year. You have studied Chinese for half a year, right?",
+        "speaker": "b"
+      },
+      {
+        "zh": "对，明年想去中国。我怕忘了时间。",
+        "py": "duì , míng nián xiǎng qù zhōng guó . wǒ pà wàng le shí jiān .",
+        "en": "Yes, I would like to go to China next year. I worry I will forget the time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你记星期一晚上七点就行。那间房不大，人不多。",
+        "py": "nǐ jì xīng qī yī wǎn shang qī diǎn jiù xíng . nà jiān fáng bù dà , rén bù duō .",
+        "en": "Note down Monday at seven in the evening. That room is small and there are not many people.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你明天有没有事？",
+        "py": "nǐ míng tiān yǒu méi yǒu shì ?",
+        "en": "Do you have anything to do tomorrow?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没什么事，我们在家读书吧。",
+        "py": "méi shén me shì , wǒ men zài jiā dú shū ba .",
+        "en": "Nothing much. Let us read at home.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What was mistaken?",
+        "choices": [
+          "The day of class",
+          "The book price",
+          "The teacher’s name"
+        ],
+        "answer": "The day of class"
+      },
+      {
+        "type": "detail",
+        "q": "When is the next class stated to be?",
+        "choices": [
+          "Sunday morning",
+          "Monday at seven in the evening",
+          "Saturday noon"
+        ],
+        "answer": "Monday at seven in the evening"
+      },
+      {
+        "type": "inference",
+        "q": "Should they go to school tomorrow?",
+        "choices": [
+          "No, Sunday has no class",
+          "Yes, to buy a book",
+          "Yes, class is unchanged"
+        ],
+        "answer": "No, Sunday has no class"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "怕",
+        "pinyin": "pà",
+        "meaning": "to be afraid; worried"
+      },
+      {
+        "hanzi": "日历",
+        "pinyin": "rì lì",
+        "meaning": "calendar"
+      },
+      {
+        "hanzi": "别",
+        "pinyin": "bié",
+        "meaning": "do not"
+      },
+      {
+        "hanzi": "改",
+        "pinyin": "gǎi",
+        "meaning": "to change"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u22-r",
+    "title": "Corrected group message",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the date correction and the next class time.",
+    "lines": [
+      {
+        "zh": "对不起，我刚才记错了，今天是星期六，不是星期日。",
+        "py": "duì bu qǐ , wǒ gāng cái jì cuò le , jīn tiān shì xīng qī liù , bù shì xīng qī rì .",
+        "en": "Sorry, I remembered incorrectly just now: today is Saturday, not Sunday."
+      },
+      {
+        "zh": "前天没有课，明天也没有课。",
+        "py": "qián tiān méi yǒu kè , míng tiān yě méi yǒu kè .",
+        "en": "There was no class the day before yesterday, and there is none tomorrow."
+      },
+      {
+        "zh": "去年星期日有课，今年改了，请别去错时间。",
+        "py": "qù nián xīng qī rì yǒu kè , jīn nián gǎi le , qǐng bié qù cuò shí jiān .",
+        "en": "Last year there was class on Sunday; it changed this year, so please do not go at the wrong time."
+      },
+      {
+        "zh": "你记星期一晚上七点，那间房不大，人不多。",
+        "py": "nǐ jì xīng qī yī wǎn shang qī diǎn , nà jiān fáng bù dà , rén bù duō .",
+        "en": "Note Monday at seven in the evening; the room is small and there are not many people."
+      },
+      {
+        "zh": "我学习汉语半年了，明年想去中国。",
+        "py": "wǒ xué xí hàn yǔ bàn nián le , míng nián xiǎng qù zhōng guó .",
+        "en": "I have studied Chinese for half a year and would like to go to China next year."
+      },
+      {
+        "zh": "我记得要学习，也怕忘记时间。请你下次再告诉我。",
+        "py": "wǒ jì de yào xué xí , yě pà wàng jì shí jiān . qǐng nǐ xià cì zài gào sù wǒ .",
+        "en": "I remember to study but worry I will forget the time; please tell me again next time."
+      },
+      {
+        "zh": "明天有没有事？没什么事的话，我们在家读书。",
+        "py": "míng tiān yǒu méi yǒu shì ? méi shén me shì de huà , wǒ men zài jiā dú shū .",
+        "en": "Do you have anything to do tomorrow? If there is nothing much, let us read at home."
+      },
+      {
+        "zh": "没事儿，今天不用等老师，明天也别等。",
+        "py": "méi shìr , jīn tiān bù yòng děng lǎo shī , míng tiān yě bié děng .",
+        "en": "It is okay. There is no need to wait for the teacher today or tomorrow."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Why was this message sent?",
+        "choices": [
+          "To correct a class arrangement",
+          "To cancel all study",
+          "To introduce a teacher"
+        ],
+        "answer": "To correct a class arrangement"
+      },
+      {
+        "type": "detail",
+        "q": "How long has the writer studied?",
+        "choices": [
+          "Half a year",
+          "One week",
+          "Two years"
+        ],
+        "answer": "Half a year"
+      },
+      {
+        "type": "inference",
+        "q": "Is reading at home compulsory?",
+        "choices": [
+          "No, it is suggested if they are free",
+          "Yes, it replaces every class",
+          "Only the teacher may read"
+        ],
+        "answer": "No, it is suggested if they are free"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "对不起，我刚才记错了，今天是星期六，不是【星期日】。",
+          "py": "duì bu qǐ , wǒ gāng cái jì cuò le , jīn tiān shì xīng qī liù , bù shì xīng qī rì .",
+          "en": "Sorry, I remembered incorrectly just now: today is Saturday, not Sunday."
+        },
+        {
+          "zh": "你记星期一晚上【七点】，那间房不大，人不多。",
+          "py": "nǐ jì xīng qī yī wǎn shang qī diǎn , nà jiān fáng bù dà , rén bù duō .",
+          "en": "Note Monday at seven in the evening; the room is small and there are not many people."
+        }
+      ],
+      "bank": [
+        "星期日",
+        "七点",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "怕",
+        "pinyin": "pà",
+        "meaning": "to be afraid; worried"
+      },
+      {
+        "hanzi": "别",
+        "pinyin": "bié",
+        "meaning": "do not"
+      },
+      {
+        "hanzi": "改",
+        "pinyin": "gǎi",
+        "meaning": "to change"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u22-media",
+      "title": "One wrong day",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Follow the correction in an original rhythmic verse.",
+      "lines": [
+        {
+          "zh": "记星期几？星期六。是不是星期日？不是。",
+          "py": "jì xīng qī jǐ ? xīng qī liù . shì bu shì xīng qī rì ? bù shì .",
+          "en": "Which day to note? Saturday. Is it Sunday? No."
+        },
+        {
+          "zh": "前天没有课，明天也没有，别等老师。",
+          "py": "qián tiān méi yǒu kè , míng tiān yě méi yǒu , bié děng lǎo shī .",
+          "en": "No class the day before yesterday, none tomorrow; do not wait for the teacher."
+        },
+        {
+          "zh": "对不起，忘记了。没事儿，再记一次。",
+          "py": "duì bu qǐ , wàng jì le . méi shìr , zài jì yī cì .",
+          "en": "Sorry, I forgot. It is okay; note it once more."
+        },
+        {
+          "zh": "去年到今年，半年学习，明年还想去中国。",
+          "py": "qù nián dào jīn nián , bàn nián xué xí , míng nián hái xiǎng qù zhōng guó .",
+          "en": "From last year to this year, half a year studying; next year I still want to go to China."
+        },
+        {
+          "zh": "那间房不大，星期一七点，别忘时间。",
+          "py": "nà jiān fáng bù dà , xīng qī yī qī diǎn , bié wàng shí jiān .",
+          "en": "The room is small; Monday at seven—do not forget the time."
+        },
+        {
+          "zh": "明天没什么事，在家读书，先不等。",
+          "py": "míng tiān méi shén me shì , zài jiā dú shū , xiān bù děng .",
+          "en": "Nothing much tomorrow; read at home rather than wait."
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What should be remembered?",
+          "choices": [
+            "Monday at seven",
+            "Sunday at noon",
+            "Saturday at ten"
+          ],
+          "answer": "Monday at seven"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "别",
+          "pinyin": "bié",
+          "meaning": "do not"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u22-t1",
+      "phrase": "s1-u22-w13",
+      "audio": {
+        "zh": "前天没有课。",
+        "py": "qián tiān méi yǒu kè .",
+        "en": "There was no class the day before yesterday."
+      },
+      "statement": "There was class the day before yesterday.",
+      "answer": false,
+      "why": "没有 negates the event."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u22-t2",
+      "phrase": "s1-u22-w01",
+      "audio": {
+        "zh": "这间房不大。",
+        "py": "zhè jiān fáng bù dà .",
+        "en": "This room is not large."
+      },
+      "statement": "The room is small.",
+      "answer": true,
+      "why": "不大 means not large."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u22-t3",
+      "phrase": "s1-u22-w11",
+      "prompt": {
+        "zh": "今天是不是星期日？",
+        "py": "jīn tiān shì bu shì xīng qī rì ?",
+        "en": "Is today Sunday?"
+      },
+      "choices": [
+        "不是，是星期六。",
+        "六元。",
+        "我喜欢水。"
+      ],
+      "answer": "不是，是星期六。",
+      "why": "Correct the day."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u22-t4",
+      "phrase": "s1-u22-w04",
+      "prompt": {
+        "zh": "对不起，我记错了。",
+        "py": "duì bu qǐ , wǒ jì cuò le .",
+        "en": "Sorry, I remembered incorrectly."
+      },
+      "choices": [
+        "没事儿，再记一次。",
+        "这是你的包吗？",
+        "一百页。"
+      ],
+      "answer": "没事儿，再记一次。",
+      "why": "Reassure and give the next step."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u22-t5",
+      "phrase": "s1-u22-w09",
+      "line": {
+        "zh": "别【忘】了时间。",
+        "py": "bié wàng le shí jiān .",
+        "en": "Do not forget the time."
+      },
+      "blankPy": "wàng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u22-t6",
+      "phrase": "s1-u22-w08",
+      "line": {
+        "zh": "我【记得】明天没有课。",
+        "py": "wǒ jì de míng tiān méi yǒu kè .",
+        "en": "I remember that there is no class tomorrow."
+      },
+      "blankPy": "jì de"
+    },
+    {
+      "type": "match",
+      "id": "s1-u22-t7",
+      "phrase": "s1-u22-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Wait a moment first.",
+          "right": {
+            "zh": "你先等一下。",
+            "py": "nǐ xiān děng yī xià .",
+            "en": "Wait a moment first."
+          }
+        },
+        {
+          "left": "I have something to do tomorrow.",
+          "right": {
+            "zh": "我明天有事。",
+            "py": "wǒ míng tiān yǒu shì .",
+            "en": "I have something to do tomorrow."
+          }
+        },
+        {
+          "left": "I will note down this time.",
+          "right": {
+            "zh": "我记这个时间。",
+            "py": "wǒ jì zhè gè shí jiān .",
+            "en": "I will note down this time."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u22-t8",
+      "phrase": "s1-u22-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I would like to go to China next year.",
+          "right": {
+            "zh": "明年我想去中国。",
+            "py": "míng nián wǒ xiǎng qù zhōng guó .",
+            "en": "I would like to go to China next year."
+          }
+        },
+        {
+          "left": "There was class on Sundays last year.",
+          "right": {
+            "zh": "去年星期日有课。",
+            "py": "qù nián xīng qī rì yǒu kè .",
+            "en": "There was class on Sundays last year."
+          }
+        },
+        {
+          "left": "I have studied Chinese for half a year.",
+          "right": {
+            "zh": "我学习汉语半年了。",
+            "py": "wǒ xué xí hàn yǔ bàn nián le .",
+            "en": "I have studied Chinese for half a year."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u22-t9",
+      "phrase": "s1-u22-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I am a little better now.",
+          "right": {
+            "zh": "我好点儿了。",
+            "py": "Wǒ hǎo diǎnr le.",
+            "en": "I am a little better now."
+          }
+        },
+        {
+          "left": "This is my first visit to China.",
+          "right": {
+            "zh": "这是我第一次来中国。",
+            "py": "Zhè shì wǒ dì yī cì lái Zhōngguó.",
+            "en": "This is my first visit to China."
+          }
+        },
+        {
+          "left": "Two glasses of water and half a cup of milk.",
+          "right": {
+            "zh": "两杯水和半杯奶。",
+            "py": "liǎng bēi shuǐ hé bàn bēi nǎi .",
+            "en": "Two glasses of water and half a cup of milk."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Correcting a mistake",
+      "natural": {
+        "zh": "对不起，我记错了。",
+        "py": "duì bu qǐ , wǒ jì cuò le .",
+        "en": "Sorry, I remembered incorrectly."
+      },
+      "note": "Own the small mistake directly instead of blaming the other person."
+    },
+    {
+      "situation": "Responding to an apology",
+      "natural": {
+        "zh": "没事儿，再记一次。",
+        "py": "méi shìr , zài jì yī cì .",
+        "en": "It is okay; note it again."
+      },
+      "note": "A practical next step can make reassurance sincere."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u22-speak",
+    "title": "No, I meant tomorrow",
+    "place": "A language-exchange meeting",
+    "context": "Check and correct plans politely.",
+    "goal": "Correct a mistaken date politely",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "明天有没有课？",
+        "pinyin": "míng tiān yǒu méi yǒu kè ?",
+        "meaning": "Is there class tomorrow?",
+        "intent": "Say there is no class",
+        "examples": [
+          "明天没有课。",
+          "没有。"
+        ],
+        "accept": [
+          "^明天没有课。[。！？]?$",
+          "^没有。[。！？]?$"
+        ]
+      },
+      {
+        "text": "今天是不是星期日？",
+        "pinyin": "jīn tiān shì bu shì xīng qī rì ?",
+        "meaning": "Is today Sunday?",
+        "intent": "Correct to Saturday",
+        "examples": [
+          "不是，今天是星期六。"
+        ],
+        "accept": [
+          "^不是，今天是星期六。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一14, 一48. Native check: the casual rhotic 没事儿, year/half-year timeline, and A-not-A politeness. No learner ability or pronunciation score is inferred. Planned retrieval 一40 / 二72 / 一07 / 一23: 我好点儿了。, 这是我第一次来中国。, 两杯水和半杯奶。."
+}

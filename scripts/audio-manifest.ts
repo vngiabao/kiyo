@@ -12,7 +12,8 @@ import { baseScenarios, segments } from "../src/dialogue-data";
 import { mascotScenes, moLines, welcomeGreeting } from "../src/sayo-lines";
 import { hskItems, hskSpeech, teacherLines } from "../src/hsk-model";
 import { lessonTasks, taskAudio } from "../src/tasks";
-import { compiledPacks } from "../src/pack-content";
+import { compiledPacks, packs } from "../src/pack-content";
+import { wordSpeech } from "../src/word-speech";
 import { sayoReactions } from "../src/sayo-reactions";
 import {
   dialogueMood,
@@ -95,7 +96,7 @@ export function collectAudioScripts(): Script[] {
     }
   }
   phrases.forEach((p) => {
-    add(p.audio.text, "word", p.pinyin, p.meaning);
+    add(p.audio.text, "word", p.audio.text === p.hanzi ? p.pinyin : undefined, p.meaning);
     if (p.example) add(p.example.zh, "example", p.example.py, p.example.en);
   });
   characters.forEach((c) => {
@@ -105,7 +106,10 @@ export function collectAudioScripts(): Script[] {
       c.say === c.hanzi ? c.pinyin : undefined,
       c.meaning,
     );
-    c.words.forEach((w) => add(w.w, "word", w.p, w.m));
+    c.words.forEach((w) => {
+      const spoken = wordSpeech(w.w, w.p);
+      add(spoken, "word", spoken === w.w ? w.p : undefined, w.m);
+    });
   });
   Object.values(grammarById).forEach((g) =>
     g.examples.forEach((e) => add(e.zh, "grammar", e.py, e.en)),
@@ -123,6 +127,22 @@ export function collectAudioScripts(): Script[] {
       })),
       r.lines.map((l) => l.zh).join(""),
     ),
+  );
+  // Keep supplementary scenes explicit: compiling a reader must never be a
+  // prerequisite for discovering its audio. add() deduplicates shared lines.
+  packs.forEach((p) =>
+    (p.extraReadings ?? []).forEach((r) => {
+      dialogue(
+        r.lines.map((l) => ({
+          text: l.zh,
+          pinyin: l.py,
+          meaning: l.en,
+          speaker: l.speaker,
+        })),
+        r.lines.map((l) => l.zh).join(""),
+      );
+      r.lines.forEach((l) => add(l.zh, "extra-reading", l.py, l.en));
+    }),
   );
   readings.forEach((r) =>
     r.lines.forEach((l) =>

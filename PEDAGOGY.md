@@ -68,3 +68,9 @@ English is the implemented instructional locale. Vietnamese glosses and `L1Profi
 
 ## Required pilot before commercial learning claims
 English- and Vietnamese-speaking beginner cohorts, baseline and delayed tests, interviews, observed hesitation, microphone avoidance, pinyin use, uncaptioned comprehension, and a real conversation outside the training environment. Predefine success measures and compare retention/transfer, not just engagement. Native content and assessment review remain release gates.
+
+## Proposed course expansion (C1, awaiting approval)
+
+`prompts/research/course-plan.md` uses the GF0025-2021 inventories as a broad learning baseline and keeps the newer exam syllabus separate. `scripts/coverage-report.ts` measures explicit curriculum introduction, including standalone character words, rather than learner mastery or incidental appearance in text. Official grammar codes identify families; proposed completion tracking must include their subpatterns and two later retrievals.
+
+The outline proposes 96 additional social units and alternating original drama scenes/lyrical readings. Exact word and character allocations precede each four-unit batch. All content remains AI-assisted until native review; automated pinyin, readability, task and audio checks do not certify natural Chinese or correct spoken tones. Proposed level-3 core readings remain within 300 characters, with longer stretch readings optional. These course decisions require approval before content writing and do not set timed-drill speed targets.

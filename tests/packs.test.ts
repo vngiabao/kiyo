@@ -101,3 +101,36 @@ describe("compiling packs into lessons", () => {
     expect(c.phrases.find((p) => p.id === "s1-u01-g-haishi-ex")?.hanzi).toBe("你想吃米饭还是面？");
   });
 });
+
+describe("extra readings and word-level readability", () => {
+  const scene = {
+    id: "s1-u01-x1",
+    title: "A scene",
+    format: "message",
+    speakers: [{ id: "a", name: "林安" }],
+    lines: [{ speaker: "a", zh: "我想喝茶。", py: "Wǒ xiǎng hē chá.", en: "I'd like tea." }],
+    questions: [{ q: "What does she want?", choices: ["Tea", "Rice", "Water"], answer: "Tea" }],
+  };
+  it("checks and compiles extra readings like the main reading", () => {
+    const p = clone();
+    p.extraReadings = [scene];
+    expect(validatePack(p, ctx()).errors).toEqual([]);
+    const compiled = compilePack(p);
+    expect(compiled.texts.some((t) => t.id === "s1-u01-x1" && t.format === "chat")).toBe(true);
+    const bad = clone();
+    bad.extraReadings = [{ ...scene, lines: [{ speaker: "a", zh: "我要鬱金香。", py: "Wǒ yào yùjīnxiāng.", en: "Tulips." }] }];
+    expect(validatePack(bad, ctx()).errors.join(" ")).toMatch(/extraReadings\[0\]: no meaning available/);
+  });
+  it("measures known words when a word splitter is provided; strict from unit 13", () => {
+    const words = (line: string) => Array.from(line).filter(isHan); // simple stand-in splitter
+    const early = clone();
+    early.unit.order = 1;
+    const r1 = validatePack(early, { ...ctx(), wordsOf: words });
+    expect(r1.stats.words).toMatch(/%$/);
+    const late = clone();
+    late.unit.order = 13;
+    const knownNone = { ...ctx(), knownWords: new Set<string>(), wordsOf: () => ["鬱金香", "鬱金香", "鬱金香"] };
+    expect(validatePack(late, knownNone).errors.join(" ")).toMatch(/of words in the texts are known/);
+    expect(validatePack({ ...late, unit: { ...late.unit, order: 1 } }, knownNone).warnings.join(" ")).toMatch(/of words in the texts are known/);
+  });
+});

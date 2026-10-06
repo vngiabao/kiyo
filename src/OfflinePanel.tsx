@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { askPersistentStorage, clipUrls, saveAllAudio, savedClipCount, storageInfo, type StorageInfo } from "./offline";
+import { dictManifest, saveDictionary, savedShardCount, type DictManifest } from "./offline";
 
 /** Settings → Your data: keep this device's copy safe and usable offline. */
 export function OfflinePanel() {
@@ -79,6 +80,75 @@ export function OfflinePanel() {
           {note}
         </p>
       )}
+      <DictionaryPanel />
+    </div>
+  );
+}
+
+/** The offline dictionary: how much is saved, and a button to save it all. */
+function DictionaryPanel() {
+  const [manifest, setManifest] = useState<DictManifest | null>(null),
+    [saved, setSaved] = useState<number | null>(null),
+    [progress, setProgress] = useState<number | null>(null),
+    [note, setNote] = useState("");
+  const abort = useRef<AbortController | null>(null);
+  useEffect(() => {
+    void dictManifest().then(async (m) => {
+      setManifest(m);
+      if (m) setSaved(await savedShardCount(m.shards));
+    });
+    return () => abort.current?.abort();
+  }, []);
+  if (!manifest) return null;
+  const mb = (manifest.bytes / 1e6).toFixed(0);
+  async function save() {
+    abort.current = new AbortController();
+    setNote("");
+    try {
+      const { failed } = await saveDictionary(manifest!.shards, setProgress, abort.current.signal);
+      setNote(failed ? `${failed} parts couldn’t download. Try again when you’re online.` : "The whole dictionary is saved on this device.");
+    } catch (e) {
+      if (!abort.current.signal.aborted) setNote((e as Error).message);
+    } finally {
+      setProgress(null);
+      setSaved(await savedShardCount(manifest!.shards));
+    }
+  }
+  return (
+    <div className="offline-dict">
+      <dl className="offline-facts">
+        <div>
+          <dt>Dictionary</dt>
+          <dd className="tabular">
+            {progress !== null
+              ? `Saving… ${Math.round((progress / manifest.shards) * 100)}%`
+              : saved === null
+                ? "…"
+                : saved === manifest.shards
+                  ? `All ${manifest.entries.toLocaleString()} entries saved`
+                  : `${Math.round(((saved ?? 0) / manifest.shards) * 100)}% saved · parts load as you look words up`}
+          </dd>
+        </div>
+      </dl>
+      <div className="offline-actions">
+        {progress !== null ? (
+          <button className="button secondary" onClick={() => abort.current?.abort()}>
+            Stop
+          </button>
+        ) : (
+          <button className="button secondary" disabled={saved === manifest.shards} onClick={() => void save()}>
+            {saved === manifest.shards ? "Dictionary saved" : `Save dictionary for offline (about ${mb} MB)`}
+          </button>
+        )}
+      </div>
+      {note && (
+        <p className="small" role="status">
+          {note}
+        </p>
+      )}
+      <p className="small muted">
+        Dictionary: {manifest.attribution} Licence {manifest.license}.
+      </p>
     </div>
   );
 }

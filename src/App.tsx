@@ -1440,7 +1440,7 @@ function Dictionary({ profile }: { profile: Profile }) {
                 onClick={() => {
                   setSelected(p.id);
                   speech.speak(
-                    charByHanzi[p.hanzi]?.say ?? p.audio.text ?? p.hanzi,
+                    p.audio.text ?? charByHanzi[p.hanzi]?.say ?? p.hanzi,
                   );
                 }}
               >

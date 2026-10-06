@@ -17,6 +17,20 @@ export const brand = {
   tagline: "Mandarin, crystal clear.",
 };
 
+/** The owner's selected website signature; preserves the original approved art. */
+export function BrandSignature() {
+  return (
+    <img
+      className="brand-signature"
+      src="/brand/signature.png"
+      width={1774}
+      height={887}
+      alt="Kiyo — Sayo leaning over the wordmark"
+      decoding="async"
+    />
+  );
+}
+
 /**
  * The main tile uses approved Sayo art. The compact 清 mark remains available
  * for tiny favicons, where the portrait's face cannot be read.
