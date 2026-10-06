@@ -18,6 +18,10 @@ unit_glosses.update({
 's2-u04':{'选择':'to choose; choice','评价':'to evaluate; review','油':'oil','环境':'environment; surroundings','口味':'taste preference','排队':'to queue','服务员':'server','客观':'objective','距离':'distance'},
 })
 dictionary.update({'咱们':'zán men','它们':'tā men','组长':'zǔ zhǎng','班长':'bān zhǎng','留学生':'liú xué shēng','普通话':'pǔ tōng huà','客人':'kè ren','主人':'zhǔ ren','带来':'dài lai','筷子':'kuài zi','饺子':'jiǎo zi','瓶子':'píng zi','答应':'dā ying','打算':'dǎ suan','商量':'shāng liang','想法':'xiǎng fa','意见':'yì jian','看法':'kàn fa','味道':'wèi dao'})
+unit_glosses['s2-u01'].update({'原来':'originally; it turns out','包括':'to include','群':'group chat; group','已经':'already'})
+unit_glosses['s2-u02'].update({'装水':'to fill with water','夸':'to praise; boast','讲':'to say; explain'})
+unit_glosses['s2-u03'].update({'原来':'original; originally','已经':'already','对方':'the other person','没有关系':'it is okay; no problem','一定':'definitely','把':'marks the object affected by the following action','当成':'to regard as','急着':'to be in a hurry to','定':'to settle; decide','今晚':'tonight'})
+unit_glosses['s2-u04'].update({'辣':'spicy','离':'distance from','近':'near','完全':'completely','讲清楚':'to explain clearly','定':'to settle; decide','店里':'in the shop or restaurant','已经':'already'})
 u='s2-u01'
 write(u,'加入朋友的小组',['Introduce yourself to a new group','Distinguish inclusive 咱们 from context-dependent 我们','Express possibility without promising an outcome'],[
 ('大家','everyone','mọi người','pronoun','大家好，我是新来的留学生。','Hello everyone; I am a newly arrived international student.'),

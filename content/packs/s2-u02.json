@@ -1,0 +1,1235 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u02",
+    "stage": 1,
+    "order": 32,
+    "title": "What should I bring?",
+    "titleZh": "去朋友家带什么",
+    "canDo": [
+      "Ask what to bring without assuming the host’s needs",
+      "Use 该/应该 for advice and questions for permission",
+      "Check food restrictions before choosing a gift"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u01"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u02-w01",
+      "hanzi": "该",
+      "pinyin": "gāi",
+      "meaning": "should; ought to",
+      "meaningVi": "nên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我该带什么去朋友家？",
+        "py": "wǒ gāi dài shén me qù péng you jiā ?",
+        "en": "What should I bring to my friend’s home?"
+      },
+      "usageNote": "[GF2021:L2:2532] Source entry: 该; gāi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w02",
+      "hanzi": "应该",
+      "pinyin": "yīng gāi",
+      "meaning": "should; ought to",
+      "meaningVi": "nên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们应该先问主人。",
+        "py": "wǒ men yīng gāi xiān wèn zhǔ ren .",
+        "en": "We should ask the host first."
+      },
+      "usageNote": "[GF2021:L2:9734] Source entry: 应该; yīnggāi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w03",
+      "hanzi": "带",
+      "pinyin": "dài",
+      "meaning": "to bring; carry",
+      "meaningVi": "mang",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我带一瓶水，可以吗？",
+        "py": "wǒ dài yī píng shuǐ , kě yǐ ma ?",
+        "en": "May I bring a bottle of water?"
+      },
+      "usageNote": "[GF2021:L2:1546] Source entry: 带; dài; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w04",
+      "hanzi": "带来",
+      "pinyin": "dài lai",
+      "meaning": "to bring here",
+      "meaningVi": "mang đến đây",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你可以带来一个空瓶子。",
+        "py": "nǐ kě yǐ dài lai yī gè kōng píng zi .",
+        "en": "You can bring an empty bottle here."
+      },
+      "usageNote": "[GF2021:L2:1549] Source entry: 带来; dài·lái; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w05",
+      "hanzi": "客人",
+      "pinyin": "kè ren",
+      "meaning": "guest; customer",
+      "meaningVi": "khách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天有三位客人来吃饭。",
+        "py": "jīn tiān yǒu sān wèi kè ren lái chī fàn .",
+        "en": "Three guests are coming for dinner today."
+      },
+      "usageNote": "[GF2021:L2:4735] Source entry: 客人; kè·rén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w06",
+      "hanzi": "主人",
+      "pinyin": "zhǔ ren",
+      "meaning": "host; owner",
+      "meaningVi": "chủ nhà; chủ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "主人正在做饺子。",
+        "py": "zhǔ ren zhèng zài zuò jiǎo zi .",
+        "en": "The host is making dumplings."
+      },
+      "usageNote": "[GF2021:L2:10720] Source entry: 主人; zhǔ·rén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w07",
+      "hanzi": "礼物",
+      "pinyin": "lǐ wù",
+      "meaning": "gift",
+      "meaningVi": "quà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这本书可以做礼物吗？",
+        "py": "zhè běn shū kě yǐ zuò lǐ wù ma ?",
+        "en": "Could this book be a gift?"
+      },
+      "usageNote": "[GF2021:L2:5027] Source entry: 礼物; lǐwù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w08",
+      "hanzi": "合适",
+      "pinyin": "hé shì",
+      "meaning": "suitable",
+      "meaningVi": "phù hợp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先问她喜欢什么，再选合适的礼物。",
+        "py": "xiān wèn tā xǐ huān shén me , zài xuǎn hé shì de lǐ wù .",
+        "en": "Ask what she likes first, then choose a suitable gift."
+      },
+      "usageNote": "[GF2021:L2:3272] Source entry: 合适; héshì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w09",
+      "hanzi": "请求",
+      "pinyin": "qǐng qiú",
+      "meaning": "to request; request",
+      "meaningVi": "yêu cầu; lời nhờ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我请求朋友先告诉我吃饭的时间。",
+        "py": "wǒ qǐng qiú péng you xiān gào sù wǒ chī fàn de shí jiān .",
+        "en": "I ask my friend to tell me the meal time first."
+      },
+      "usageNote": "[GF2021:L2:6525] Source entry: 请求; qǐngqiú; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w10",
+      "hanzi": "要求",
+      "pinyin": "yāo qiú",
+      "meaning": "to require; requirement",
+      "meaningVi": "yêu cầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "主人没有要求大家带食物。",
+        "py": "zhǔ ren méi yǒu yāo qiú dà jiā dài shí wù .",
+        "en": "The host has not required everyone to bring food."
+      },
+      "usageNote": "[GF2021:L2:9388] Source entry: 要求; yāoqiú; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w11",
+      "hanzi": "随便",
+      "pinyin": "suí biàn",
+      "meaning": "casual; as one likes",
+      "meaningVi": "tùy ý; thoải mái",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "吃什么都行，我不随便猜别人的口味。",
+        "py": "chī shén me dōu xíng , wǒ bù suí biàn cāi bié ren de kǒu wèi .",
+        "en": "Anything is fine for me; I do not casually guess others’ tastes."
+      },
+      "usageNote": "[GF2021:L2:7703] Source entry: 随便; suíbiàn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w12",
+      "hanzi": "筷子",
+      "pinyin": "kuài zi",
+      "meaning": "chopsticks",
+      "meaningVi": "đũa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "桌上有筷子和碗。",
+        "py": "zhuō shàng yǒu kuài zi hé wǎn .",
+        "en": "There are chopsticks and bowls on the table."
+      },
+      "usageNote": "[GF2021:L2:4839] Source entry: 筷子; kuàizi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w13",
+      "hanzi": "碗",
+      "pinyin": "wǎn",
+      "meaning": "bowl",
+      "meaningVi": "bát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请给客人三个碗。",
+        "py": "qǐng gěi kè ren sān gè wǎn .",
+        "en": "Please give the guests three bowls."
+      },
+      "usageNote": "[GF2021:L2:8309] Source entry: 碗; wǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w14",
+      "hanzi": "饺子",
+      "pinyin": "jiǎo zi",
+      "meaning": "dumpling",
+      "meaningVi": "bánh chẻo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "主人今天做饺子，不做面条儿。",
+        "py": "zhǔ ren jīn tiān zuò jiǎo zi , bù zuò miàn tiáor .",
+        "en": "The host is making dumplings today, not noodles."
+      },
+      "usageNote": "[GF2021:L2:4096] Source entry: 饺子; jiǎozi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w15",
+      "hanzi": "瓶",
+      "pinyin": "píng",
+      "meaning": "bottle; bottle classifier",
+      "meaningVi": "chai; lượng từ chai",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我带两瓶水。",
+        "py": "wǒ dài liǎng píng shuǐ .",
+        "en": "I will bring two bottles of water."
+      },
+      "usageNote": "[GF2021:L2:6157] Source entry: 瓶; píng; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w16",
+      "hanzi": "瓶子",
+      "pinyin": "píng zi",
+      "meaning": "bottle",
+      "meaningVi": "chai",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个瓶子是空的。",
+        "py": "zhè gè píng zi shì kōng de .",
+        "en": "This bottle is empty."
+      },
+      "usageNote": "[GF2021:L2:6159] Source entry: 瓶子; píngzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w17",
+      "hanzi": "食物",
+      "pinyin": "shí wù",
+      "meaning": "food",
+      "meaningVi": "thực phẩm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有些食物我不能吃。",
+        "py": "yǒu xiē shí wù wǒ bù néng chī .",
+        "en": "There are some foods I cannot eat."
+      },
+      "usageNote": "[GF2021:L2:7260] Source entry: 食物; shíwù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w18",
+      "hanzi": "西餐",
+      "pinyin": "xī cān",
+      "meaning": "Western-style food",
+      "meaningVi": "món Tây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我昨天吃西餐，今天想吃中餐。",
+        "py": "wǒ zuó tiān chī xī cān , jīn tiān xiǎng chī zhōng cān .",
+        "en": "I had Western-style food yesterday and want Chinese food today."
+      },
+      "usageNote": "[GF2021:L2:8597] Source entry: 西餐; xīcān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w19",
+      "hanzi": "中餐",
+      "pinyin": "zhōng cān",
+      "meaning": "Chinese food",
+      "meaningVi": "món Trung Hoa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是中餐，不是西餐。",
+        "py": "zhè shì zhōng cān , bù shì xī cān .",
+        "en": "This is Chinese food, not Western-style food."
+      },
+      "usageNote": "[GF2021:L2:10607] Source entry: 中餐; zhōngcān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w20",
+      "hanzi": "早餐",
+      "pinyin": "zǎo cān",
+      "meaning": "breakfast",
+      "meaningVi": "bữa sáng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "早餐我吃面包和鸡蛋。",
+        "py": "zǎo cān wǒ chī miàn bāo hé jī dàn .",
+        "en": "For breakfast I eat bread and eggs."
+      },
+      "usageNote": "[GF2021:L2:10157] Source entry: 早餐; zǎocān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w21",
+      "hanzi": "午餐",
+      "pinyin": "wǔ cān",
+      "meaning": "lunch",
+      "meaningVi": "bữa trưa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "午餐在学校吃，晚餐去朋友家。",
+        "py": "wǔ cān zài xué xiào chī , wǎn cān qù péng you jiā .",
+        "en": "I eat lunch at school and go to my friend’s home for dinner."
+      },
+      "usageNote": "[GF2021:L2:8561] Source entry: 午餐; wǔcān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u02-w22",
+      "hanzi": "晚餐",
+      "pinyin": "wǎn cān",
+      "meaning": "dinner",
+      "meaningVi": "bữa tối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "晚餐是六点半，别太早来。",
+        "py": "wǎn cān shì liù diǎn bàn , bié tài zǎo lái .",
+        "en": "Dinner is at half past six; do not arrive too early."
+      },
+      "usageNote": "[GF2021:L2:8300] Source entry: 晚餐; wǎncān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "该",
+      "pinyin": "gāi",
+      "meaning": "should",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "该",
+          "role": "whole",
+          "gloss": "should"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 该 in 该 / 应该. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "该",
+          "p": "gāi",
+          "m": "should; ought to"
+        },
+        {
+          "w": "应该",
+          "p": "yīng gāi",
+          "m": "should; ought to"
+        }
+      ]
+    },
+    {
+      "hanzi": "应",
+      "pinyin": "yīng",
+      "meaning": "should; respond",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "应",
+          "role": "whole",
+          "gloss": "should; respond"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 应 in 应该. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "应该",
+          "p": "yīng gāi",
+          "m": "should; ought to"
+        }
+      ]
+    },
+    {
+      "hanzi": "带",
+      "pinyin": "dài",
+      "meaning": "to bring; carry",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "带",
+          "role": "whole",
+          "gloss": "to bring; carry"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 带 in 带 / 带来. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "带",
+          "p": "dài",
+          "m": "to bring"
+        },
+        {
+          "w": "带来",
+          "p": "dài lai",
+          "m": "to bring here"
+        }
+      ]
+    },
+    {
+      "hanzi": "主",
+      "pinyin": "zhǔ",
+      "meaning": "main; host",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "主",
+          "role": "whole",
+          "gloss": "main; host"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 主 in 主人. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "主人",
+          "p": "zhǔ ren",
+          "m": "host; owner"
+        }
+      ]
+    },
+    {
+      "hanzi": "礼",
+      "pinyin": "lǐ",
+      "meaning": "courtesy; gift",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "礼",
+          "role": "whole",
+          "gloss": "courtesy; gift"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 礼 in 礼物. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "礼物",
+          "p": "lǐ wù",
+          "m": "gift"
+        }
+      ]
+    },
+    {
+      "hanzi": "适",
+      "pinyin": "shì",
+      "meaning": "suitable",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "适",
+          "role": "whole",
+          "gloss": "suitable"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 适 in 合适. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "合适",
+          "p": "hé shì",
+          "m": "suitable"
+        }
+      ]
+    },
+    {
+      "hanzi": "筷",
+      "pinyin": "kuài",
+      "meaning": "chopsticks",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "筷",
+          "role": "whole",
+          "gloss": "chopsticks"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 筷 in 筷子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "筷子",
+          "p": "kuài zi",
+          "m": "chopsticks"
+        }
+      ]
+    },
+    {
+      "hanzi": "碗",
+      "pinyin": "wǎn",
+      "meaning": "bowl",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "碗",
+          "role": "whole",
+          "gloss": "bowl"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 碗 in 碗. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "碗",
+          "p": "wǎn",
+          "m": "bowl"
+        }
+      ]
+    },
+    {
+      "hanzi": "饺",
+      "pinyin": "jiǎo",
+      "meaning": "dumpling",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "饺",
+          "role": "whole",
+          "gloss": "dumpling"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 饺 in 饺子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "饺子",
+          "p": "jiǎo zi",
+          "m": "dumpling"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u02-g二02",
+      "pattern": "该 / 应该 + action",
+      "purpose": "Give advice without turning it into a command",
+      "explanation": "该 and 应该 introduce what one should do: 我该带什么 / 应该先问. They do not guarantee an action has happened. 不该/不应该 negate the advised action. A question 我该… asks for guidance; 该不该… asks whether an action is advisable. Advice about a host’s needs still requires information from that host.",
+      "examples": [
+        {
+          "zh": "我该带什么？你应该先问主人。",
+          "py": "wǒ gāi dài shén me ? nǐ yīng gāi xiān wèn zhǔ ren .",
+          "en": "What should I bring? You should ask the host first."
+        },
+        {
+          "zh": "我该不该带食物？主人说不用带。",
+          "py": "wǒ gāi bù gāi dài shí wù ? zhǔ ren shuō bù yòng dài .",
+          "en": "Should I bring food? The host said there was no need."
+        },
+        {
+          "zh": "不应该随便猜，先问清楚。",
+          "py": "bù yīng gāi suí biàn cāi , xiān wèn qīng chǔ .",
+          "en": "We should not guess casually; ask clearly first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我应该带了食物。",
+          "right": "我应该带食物。",
+          "why": "To give advice use 应该 + action; adding 了 would change the reading to an inference or completed event."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u02-g二75",
+      "pattern": "好吗 / 可以吗 / 行吗 / 怎么样",
+      "purpose": "Make a proposal and check permission",
+      "explanation": "好吗 checks whether a proposal is acceptable: 六点半，好吗. 可以吗 and 行吗 commonly ask permission or feasibility: 我带水，可以吗. 怎么样 asks for an evaluation of a proposed option: 带书怎么样. These are not guarantees of agreement; the reply may accept, refuse or suggest another option. Use a real option before the question ending.",
+      "examples": [
+        {
+          "zh": "六点半来，好吗？好。",
+          "py": "liù diǎn bàn lái , hǎo ma ? hǎo .",
+          "en": "Come at half past six, okay? Okay."
+        },
+        {
+          "zh": "我带两瓶水，可以吗？行吗？可以。",
+          "py": "wǒ dài liǎng píng shuǐ , kě yǐ ma ? xíng ma ? kě yǐ .",
+          "en": "May I bring two bottles of water? Is that okay? Yes."
+        },
+        {
+          "zh": "带这本书怎么样？合适，她喜欢读书。",
+          "py": "dài zhè běn shū zěn me yàng ? hé shì , tā xǐ huān dú shū .",
+          "en": "How about bringing this book? Suitable; she likes reading."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我带什么，好吗？",
+          "right": "我带两瓶水，好吗？",
+          "why": "好吗 evaluates an actual proposal; 带什么 asks for the missing choice."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u02-d",
+    "title": "Ask the host first",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is agreed, what is optional and when to arrive.",
+    "lines": [
+      {
+        "zh": "晚餐去朋友家，我该带什么礼物？",
+        "py": "wǎn cān qù péng you jiā , wǒ gāi dài shén me lǐ wù ?",
+        "en": "For dinner at a friend’s home, what gift should I bring?",
+        "speaker": "a"
+      },
+      {
+        "zh": "你应该先问主人。她没有要求客人带食物。",
+        "py": "nǐ yīng gāi xiān wèn zhǔ ren . tā méi yǒu yāo qiú kè ren dài shí wù .",
+        "en": "You should ask the host first. She has not required guests to bring food.",
+        "speaker": "b"
+      },
+      {
+        "zh": "带这本书怎么样？她喜欢读书。",
+        "py": "dài zhè běn shū zěn me yàng ? tā xǐ huān dú shū .",
+        "en": "How about this book? She likes reading.",
+        "speaker": "a"
+      },
+      {
+        "zh": "很合适。西餐中餐都不用带，主人今天做饺子。",
+        "py": "hěn hé shì . xī cān zhōng cān dōu bù yòng dài , zhǔ ren jīn tiān zuò jiǎo zi .",
+        "en": "Very suitable. No need to bring Western or Chinese food; the host is making dumplings today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我还可以带两瓶水，行吗？",
+        "py": "wǒ hái kě yǐ dài liǎng píng shuǐ , xíng ma ?",
+        "en": "Could I also bring two bottles of water?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以。她请求大家带来空瓶子，饭后带水回去。",
+        "py": "kě yǐ . tā qǐng qiú dà jiā dài lai kōng píng zi , fàn hòu dài shuǐ huí qù .",
+        "en": "Yes. She asks everyone to bring an empty bottle to take water home after the meal.",
+        "speaker": "b"
+      },
+      {
+        "zh": "桌上有筷子和碗吗？我可以帮忙。",
+        "py": "zhuō shàng yǒu kuài zi hé wǎn ma ? wǒ kě yǐ bāng máng .",
+        "en": "Are there chopsticks and bowls on the table? I can help.",
+        "speaker": "a"
+      },
+      {
+        "zh": "有。你可以给三位客人拿三个碗。",
+        "py": "yǒu . nǐ kě yǐ gěi sān wèi kè ren ná sān gè wǎn .",
+        "en": "Yes. You can get three bowls for the three guests.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我早餐吃鸡蛋，午餐吃面包。有些食物不能吃。",
+        "py": "wǒ zǎo cān chī jī dàn , wǔ cān chī miàn bāo . yǒu xiē shí wù bù néng chī .",
+        "en": "I had eggs for breakfast and bread for lunch. There are some foods I cannot eat.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那应该提前告诉主人，别随便猜菜单。",
+        "py": "nà yīng gāi tí qián gào sù zhǔ ren , bié suí biàn cāi cài dān .",
+        "en": "Then tell the host in advance; do not casually guess the menu.",
+        "speaker": "b"
+      },
+      {
+        "zh": "晚餐六点半，六点半来，好吗？",
+        "py": "wǎn cān liù diǎn bàn , liù diǎn bàn lái , hǎo ma ?",
+        "en": "Dinner at half past six; come then, okay?",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。我先告诉她，再带书和空瓶子。",
+        "py": "hǎo . wǒ xiān gào sù tā , zài dài shū hé kōng píng zi .",
+        "en": "Okay. I will tell her first, then bring the book and an empty bottle.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the practical approach?",
+        "choices": [
+          "Ask the host and choose a suitable optional gift",
+          "Bring every kind of food",
+          "Ignore the host’s plans"
+        ],
+        "answer": "Ask the host and choose a suitable optional gift"
+      },
+      {
+        "type": "detail",
+        "q": "When should the guest arrive?",
+        "choices": [
+          "Half past six",
+          "Half past five",
+          "At breakfast"
+        ],
+        "answer": "Half past six"
+      },
+      {
+        "type": "inference",
+        "q": "Why discuss foods the guest cannot eat?",
+        "choices": [
+          "The host needs that information before preparing food",
+          "Every guest must eat all dishes",
+          "A book solves every food restriction"
+        ],
+        "answer": "The host needs that information before preparing food"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "提前",
+        "pinyin": "tí qián",
+        "meaning": "in advance"
+      },
+      {
+        "hanzi": "菜单",
+        "pinyin": "cài dān",
+        "meaning": "menu"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u02-r",
+    "title": "The guest’s checklist",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to separate a gift, a request and food information.",
+    "lines": [
+      {
+        "zh": "我去朋友家吃晚餐，先问该带什么。",
+        "py": "wǒ qù péng you jiā chī wǎn cān , xiān wèn gāi dài shén me .",
+        "en": "I am going to a friend’s home for dinner; I first ask what I should bring."
+      },
+      {
+        "zh": "主人没有要求客人带食物，她做中餐，今天是饺子。",
+        "py": "zhǔ ren méi yǒu yāo qiú kè ren dài shí wù , tā zuò zhōng cān , jīn tiān shì jiǎo zi .",
+        "en": "The host has not required guests to bring food. She is making Chinese food: dumplings today."
+      },
+      {
+        "zh": "我想带书做礼物。朋友喜欢读书，带书很合适。",
+        "py": "wǒ xiǎng dài shū zuò lǐ wù . péng you xǐ huān dú shū , dài shū hěn hé shì .",
+        "en": "I would like to bring a book as a gift. My friend likes reading, so it is suitable."
+      },
+      {
+        "zh": "我问带两瓶水可以吗，她说可以，还请求大家带来空瓶子。",
+        "py": "wǒ wèn dài liǎng píng shuǐ kě yǐ ma , tā shuō kě yǐ , hái qǐng qiú dà jiā dài lai kōng píng zi .",
+        "en": "I ask if I may bring two bottles of water. She says yes and also asks everyone to bring an empty bottle."
+      },
+      {
+        "zh": "瓶子饭后可以装水，筷子和碗她家都有。",
+        "py": "píng zi fàn hòu kě yǐ zhuāng shuǐ , kuài zi hé wǎn tā jiā dōu yǒu .",
+        "en": "The bottles can hold water after the meal; there are already chopsticks and bowls at her home."
+      },
+      {
+        "zh": "早餐我吃鸡蛋，午餐吃面包。西餐中餐都吃，但有些食物不能吃。",
+        "py": "zǎo cān wǒ chī jī dàn , wǔ cān chī miàn bāo . xī cān zhōng cān dōu chī , dàn yǒu xiē shí wù bù néng chī .",
+        "en": "I had eggs for breakfast and bread for lunch. I eat both Western and Chinese food, but cannot eat some foods."
+      },
+      {
+        "zh": "我应该提前告诉主人，不能随便猜她的菜单。",
+        "py": "wǒ yīng gāi tí qián gào sù zhǔ ren , bù néng suí biàn cāi tā de cài dān .",
+        "en": "I should tell the host in advance; I cannot casually guess her menu."
+      },
+      {
+        "zh": "六点半来，好吗？她这样问。我说好，带书、空瓶子，也先告诉她食物的事。",
+        "py": "liù diǎn bàn lái , hǎo ma ? tā zhè yàng wèn . wǒ shuō hǎo , dài shū , kōng píng zi , yě xiān gào sù tā shí wù de shì .",
+        "en": "“Come at half past six, okay?” she asks. I agree, bring the book and empty bottle, and tell her about food first."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What makes the visit considerate?",
+        "choices": [
+          "Checking needs, timing and food restrictions",
+          "Buying the most expensive gift",
+          "Arriving without asking"
+        ],
+        "answer": "Checking needs, timing and food restrictions"
+      },
+      {
+        "type": "detail",
+        "q": "What item is requested for taking water home?",
+        "choices": [
+          "An empty bottle",
+          "A new bowl",
+          "A menu"
+        ],
+        "answer": "An empty bottle"
+      },
+      {
+        "type": "inference",
+        "q": "Is food contribution mandatory?",
+        "choices": [
+          "No, the host has not required it",
+          "Yes, every guest must bring dumplings",
+          "Yes, a gift means food"
+        ],
+        "answer": "No, the host has not required it"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我想带书做【礼物】。朋友喜欢读书，带书很合适。",
+          "py": "wǒ xiǎng dài shū zuò lǐ wù . péng you xǐ huān dú shū , dài shū hěn hé shì .",
+          "en": "I would like to bring a book as a gift. My friend likes reading, so it is suitable."
+        },
+        {
+          "zh": "我【应该】提前告诉主人，不能随便猜她的菜单。",
+          "py": "wǒ yīng gāi tí qián gào sù zhǔ ren , bù néng suí biàn cāi tā de cài dān .",
+          "en": "I should tell the host in advance; I cannot casually guess her menu."
+        }
+      ],
+      "bank": [
+        "礼物",
+        "应该",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "提前",
+        "pinyin": "tí qián",
+        "meaning": "in advance"
+      },
+      {
+        "hanzi": "菜单",
+        "pinyin": "cài dān",
+        "meaning": "menu"
+      },
+      {
+        "hanzi": "装水",
+        "pinyin": "zhuāng shuǐ",
+        "meaning": "to fill with water"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u02-media",
+      "title": "A gift is a question too",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse about asking instead of assuming.",
+      "lines": [
+        {
+          "zh": "早餐午餐自己吃，晚餐去朋友家。",
+          "py": "zǎo cān wǔ cān zì jǐ chī , wǎn cān qù péng you jiā .",
+          "en": "Breakfast and lunch on my own; dinner at a friend’s home."
+        },
+        {
+          "zh": "中餐西餐别先猜，主人做饺子，先问她。",
+          "py": "zhōng cān xī cān bié xiān cāi , zhǔ ren zuò jiǎo zi , xiān wèn tā .",
+          "en": "Do not guess Chinese or Western food; the host is making dumplings, ask her first."
+        },
+        {
+          "zh": "礼物带书怎么样？合适就带，不用夸。",
+          "py": "lǐ wù dài shū zěn me yàng ? hé shì jiù dài , bù yòng kuā .",
+          "en": "How about a book as a gift? Bring it if suitable; no boasting."
+        },
+        {
+          "zh": "空瓶子带来，筷子碗在桌上。客人帮一点，主人少忙一点。",
+          "py": "kōng píng zi dài lai , kuài zi wǎn zài zhuō shàng . kè ren bāng yī diǎn , zhǔ ren shǎo máng yī diǎn .",
+          "en": "Bring an empty bottle; chopsticks and bowls on the table. Guests help a little, so the host is less busy."
+        },
+        {
+          "zh": "食物有些不能吃，应该提前讲。",
+          "py": "shí wù yǒu xiē bù néng chī , yīng gāi tí qián jiǎng .",
+          "en": "Some foods I cannot eat; I should say so beforehand."
+        },
+        {
+          "zh": "六点半来好吗？好。问清楚，再出发。",
+          "py": "liù diǎn bàn lái hǎo ma ? hǎo . wèn qīng chǔ , zài chū fā .",
+          "en": "Come at half past six, okay? Okay. Ask clearly, then set off."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the recurring action?",
+          "choices": [
+            "Ask and communicate before the visit",
+            "Demand a specific menu",
+            "Assume all food is suitable"
+          ],
+          "answer": "Ask and communicate before the visit"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "提前",
+          "pinyin": "tí qián",
+          "meaning": "in advance"
+        },
+        {
+          "hanzi": "夸",
+          "pinyin": "kuā",
+          "meaning": "to praise; boast"
+        },
+        {
+          "hanzi": "讲",
+          "pinyin": "jiǎng",
+          "meaning": "to say; explain"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u02-t1",
+      "phrase": "s2-u02-w10",
+      "audio": {
+        "zh": "主人没有要求客人带食物。",
+        "py": "zhǔ ren méi yǒu yāo qiú kè ren dài shí wù .",
+        "en": "The host has not required guests to bring food."
+      },
+      "statement": "Every guest is required to bring food.",
+      "answer": false,
+      "why": "没有要求 denies that requirement."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u02-t2",
+      "phrase": "s2-u02-w22",
+      "audio": {
+        "zh": "晚餐六点半，六点半来。",
+        "py": "wǎn cān liù diǎn bàn , liù diǎn bàn lái .",
+        "en": "Dinner at half past six; arrive then."
+      },
+      "statement": "The requested arrival time is half past six.",
+      "answer": true,
+      "why": "The time is explicit."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u02-t3",
+      "phrase": "s2-u02-w07",
+      "prompt": {
+        "zh": "带书做礼物怎么样？",
+        "py": "dài shū zuò lǐ wù zěn me yàng ?",
+        "en": "How about a book as a gift?"
+      },
+      "choices": [
+        "合适，她喜欢读书。",
+        "昨天在学校。",
+        "三个小时。"
+      ],
+      "answer": "合适，她喜欢读书。",
+      "why": "Evaluate the proposal."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u02-t4",
+      "phrase": "s2-u02-w03",
+      "prompt": {
+        "zh": "我带两瓶水，可以吗？",
+        "py": "wǒ dài liǎng píng shuǐ , kě yǐ ma ?",
+        "en": "May I bring two bottles of water?"
+      },
+      "choices": [
+        "可以，谢谢。",
+        "书在桌上。",
+        "我来自越南。"
+      ],
+      "answer": "可以，谢谢。",
+      "why": "Answer permission directly."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u02-t5",
+      "phrase": "s2-u02-w02",
+      "line": {
+        "zh": "我【应该】先告诉主人。",
+        "py": "wǒ yīng gāi xiān gào sù zhǔ ren .",
+        "en": "I should tell the host first."
+      },
+      "blankPy": "yīng gāi"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u02-t6",
+      "phrase": "s2-u02-w05",
+      "line": {
+        "zh": "今天有三位【客人】。",
+        "py": "jīn tiān yǒu sān wèi kè ren .",
+        "en": "There are three guests today."
+      },
+      "blankPy": "kè ren"
+    },
+    {
+      "type": "match",
+      "id": "s2-u02-t7",
+      "phrase": "s2-u02-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Eggs for breakfast.",
+          "right": {
+            "zh": "早餐吃鸡蛋。",
+            "py": "zǎo cān chī jī dàn .",
+            "en": "Eggs for breakfast."
+          }
+        },
+        {
+          "left": "Lunch at school.",
+          "right": {
+            "zh": "午餐在学校吃。",
+            "py": "wǔ cān zài xué xiào chī .",
+            "en": "Lunch at school."
+          }
+        },
+        {
+          "left": "Dinner at a friend’s home.",
+          "right": {
+            "zh": "晚餐去朋友家。",
+            "py": "wǎn cān qù péng you jiā .",
+            "en": "Dinner at a friend’s home."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u02-t8",
+      "phrase": "s2-u02-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Bring an empty bottle here.",
+          "right": {
+            "zh": "带来一个空瓶子。",
+            "py": "dài lai yī gè kōng píng zi .",
+            "en": "Bring an empty bottle here."
+          }
+        },
+        {
+          "left": "Give the guests three bowls.",
+          "right": {
+            "zh": "请给客人三个碗。",
+            "py": "qǐng gěi kè ren sān gè wǎn .",
+            "en": "Give the guests three bowls."
+          }
+        },
+        {
+          "left": "Chopsticks are on the table.",
+          "right": {
+            "zh": "桌上有筷子。",
+            "py": "zhuō shàng yǒu kuài zi .",
+            "en": "Chopsticks are on the table."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u02-t9",
+      "phrase": "s2-u02-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "We walk and chat at the same time.",
+          "right": {
+            "zh": "我们一边走，一边聊天。",
+            "py": "wǒ men yī biān zǒu , yī biān liáo tiān .",
+            "en": "We walk and chat at the same time."
+          }
+        },
+        {
+          "left": "We all want to walk; some friends want to run.",
+          "right": {
+            "zh": "我们都想走，有些朋友想跑。",
+            "py": "wǒ men dōu xiǎng zǒu , yǒu xiē péng you xiǎng pǎo .",
+            "en": "We all want to walk; some friends want to run."
+          }
+        },
+        {
+          "left": "This is a school, the place where we study.",
+          "right": {
+            "zh": "这是学校，是我们学习的地方。",
+            "py": "zhè shì xué xiào , shì wǒ men xué xí de dì fāng .",
+            "en": "This is a school, the place where we study."
+          }
+        },
+        {
+          "left": "Today is Saturday; I am twenty.",
+          "right": {
+            "zh": "今天星期六，我二十岁。",
+            "py": "jīn tiān xīng qī liù , wǒ èr shí suì .",
+            "en": "Today is Saturday; I am twenty."
+          }
+        },
+        {
+          "left": "What is on the table is a book, not food.",
+          "right": {
+            "zh": "桌上是书，不是饭。",
+            "py": "zhuō shàng shì shū , bù shì fàn .",
+            "en": "What is on the table is a book, not food."
+          }
+        },
+        {
+          "left": "I have books and also enjoy reading.",
+          "right": {
+            "zh": "我有书，也喜欢读书。",
+            "py": "wǒ yǒu shū , yě xǐ huān dú shū .",
+            "en": "I have books and also enjoy reading."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Checking expectations",
+      "natural": {
+        "zh": "我该带什么？",
+        "py": "wǒ gāi dài shén me ?",
+        "en": "What should I bring?"
+      },
+      "note": "A specific question lets the host state needs instead of requiring an expensive gift."
+    },
+    {
+      "situation": "Food restrictions",
+      "natural": {
+        "zh": "有些食物我不能吃，先告诉你。",
+        "py": "yǒu xiē shí wù wǒ bù néng chī , xiān gào sù nǐ .",
+        "en": "There are some foods I cannot eat; I am telling you first."
+      },
+      "note": "Do not imply a diagnosed allergy when the learner has only stated a food restriction."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u02-speak",
+    "title": "What should I bring?",
+    "place": "A language-exchange meeting",
+    "context": "Ask for advice before visiting someone.",
+    "goal": "Ask what to bring without assuming the host’s needs",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "带书怎么样？",
+        "pinyin": "dài shū zěn me yàng ?",
+        "meaning": "How about a book?",
+        "intent": "Accept a suitable gift",
+        "examples": [
+          "很合适。"
+        ],
+        "accept": [
+          "^很合适。[。！？]?$"
+        ]
+      },
+      {
+        "text": "六点半来，好吗？",
+        "pinyin": "liù diǎn bàn lái , hǎo ma ?",
+        "meaning": "Come at half past six, okay?",
+        "intent": "Confirm arrival",
+        "examples": [
+          "好，六点半来。"
+        ],
+        "accept": [
+          "^好，六点半来。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二02, 二75. Native check: 请求 versus everyday 请 in the gift context, 随便 used for careless guessing, bottle-to-take-water request, regional host/guest expectations, and clipped original verse. No food restriction is treated as a medical diagnosis. Planned retrieval 一10 / 一39 / 一25 / 一32 / 一36: 我们一边走，一边聊天。, 我们都想走，有些朋友想跑。, 这是学校，是我们学习的地方。, 今天星期六，我二十岁。, 桌上是书，不是饭。, 我有书，也喜欢读书。."
+}

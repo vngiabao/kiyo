@@ -133,6 +133,69 @@ RETRIEVALS.update({
 ('好吧，我们先别开这个玩笑。','Okay, let us not make this joke for now.')]),
 })
 
+RETRIEVALS.update({
+'s2-u21':('二19 / 二66 / 二67',[
+('只要有空，就可以来。','As long as you are free, you may come.'),
+('如果下雨，就换地方，时间不变。','If it rains, change the venue; the time stays unchanged.'),
+('多云不等于一定下雨。','Cloudy does not mean rain is certain.')]),
+'s2-u22':('二21 / 二40',[
+('今天我当组长，明天换人。','I act as group leader today; someone else takes a turn tomorrow.'),
+('我们想办活动，还没有举行。','We want to organize an event; it has not yet been held.'),
+('目的是让大家练习说汉语。','The purpose is to let everyone practise speaking Mandarin.')]),
+'s2-u23':('二22 / 二23',[
+('往东走，路口再向左转。','Walk east, then turn left at the intersection.'),
+('看着北边，不是已经往北走。','Looking north is not already walking north.'),
+('出口在右边，别去左边。','The exit is on the right; do not go left.')]),
+'s2-u24':('二24 / 二60',[
+('我们是去年在门口认识的。','We met at the entrance last year.'),
+('从这个消息看，时间还没定。','Judging from this message, the time is not settled yet.'),
+('从小在南方长大。','Grew up in the south from childhood.')]),
+})
+
+RETRIEVALS.update({
+'s2-u25':('二25 / 二59',[
+('我对这个活动有兴趣。','I am interested in this activity.'),
+('她跟我一样喜欢看书。','She likes reading just as I do.'),
+('生活不同，不等于态度不好。','Different lives do not imply a bad attitude.')]),
+'s2-u26':('二27 / 二53',[
+('湖离海很远，我们先去河边。','The lake is far from the sea; we will go to the river first.'),
+('这条路比那条路长一公里。','This route is one kilometre longer than that one.'),
+('她背两句话，不是背着一个包。','She recites two sentences, rather than carrying a bag on her back.')]),
+'s2-u27':('二28 / 二55',[
+('我为朋友打印两页。','I print two pages for a friend.'),
+('她为这个问题想了很久。','She thought about this question for a long time.'),
+('这个活动很有意义。','This activity is meaningful.')]),
+'s2-u28':('二29 / 二64',[
+('明天读书或者看影片，还没定。','Read or watch a film tomorrow; it is not settled.'),
+('你想读书还是听音乐？','Would you like to read or listen to music?'),
+('或者我先讲，或者你先讲。','Either I speak first or you do.')]),
+'s2-u29':('二32 / 二71',[
+('她去过这个地方，但今天不在那里。','She has been to this place but is not there today.'),
+('以前坐过船，不等于今天已经上船。','Having taken a boat before does not mean having boarded one today.'),
+('没有去过，还想试一次。','Has not been before and still wants to try once.')]),
+'s2-u30':('二30 / 二65 / 二33 / 二56 / 二70',[
+('虽然下雨，但是时间没变。','Although it rains, the time has not changed.'),
+('门开着，不等于可以直接进去。','An open door does not mean you may enter directly.'),
+('桌上放着书，她还没有读。','A book lies on the table; she has not read it yet.')]),
+'s2-u31':('二31 / 二51 / 二34 / 二43 / 二77',[
+('她说得很清楚。','She speaks clearly.'),
+('带书、笔什么的就行。','Things like books and pens are enough.'),
+('我想看书，你呢？','I want to read; what about you?')]),
+'s2-u32':('二35 / 二42 / 二36 / 二32 / 二71',[
+('喂，你好，现在方便吗？','Hello, is now convenient?'),
+('有空的话，我来坐一会儿。','If free, I will visit briefly.'),
+('不一会儿，她回了消息。','A short while later, she replied.'),
+('这部影片我看过，但小说还没读。','I have seen this film but not read the novel.')]),
+'s2-u33':('二44 / 二63 / 二33 / 二56 / 二70',[
+('她不但能读，而且能说。','She can not only read but also speak.'),
+('越来越清楚，还不是完美。','It is becoming clearer, but is not perfect yet.'),
+('桌上放着杯子，门还开着。','Cups lie on the table and the door is still open.')]),
+'s2-u34':('二48 / 二54 / 二34 / 二43 / 二77',[
+('今天星期三，这本书三十五块。','Today is Wednesday; this book costs thirty-five yuan.'),
+('姐姐是商人，我是学生。','My elder sister is a businessperson; I am a student.'),
+('我想读报纸，你呢？','I want to read a newspaper; what about you?')]),
+})
+
 def apply(first, last):
     apply_ids(list(range(first,last+1)))
 

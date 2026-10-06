@@ -12,6 +12,12 @@ def drywrite(uid,*values):
     plan=next(u for u in common.plan['units'] if u['id']==uid)
     words=common.vocab(values[2],uid,plan['gfLevel'])
     assert len(words)==plan['wordBudget'],uid
+    if plan['gfLevel']==2:
+        unit_number=int(uid.split('u')[-1])
+        assert len(common.character_groups[uid])==(9 if unit_number<=27 else 8),(uid,'character allocation budget')
+    if plan['gfLevel']==3:
+        unit_number=int(uid.split('u')[-1])
+        assert len(common.character_groups[uid])==(7 if unit_number<=35 else 6),(uid,'character allocation budget')
     for word in words:
         # Polyphonic/grammatical source rows may intentionally reuse a form;
         # the final coverage audit must still verify the new reading and sense.

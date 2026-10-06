@@ -1,0 +1,1274 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u04",
+    "stage": 1,
+    "order": 34,
+    "title": "Why that restaurant?",
+    "titleZh": "选这家有原因",
+    "canDo": [
+      "Ask why a place is chosen and how long it takes",
+      "Separate a personal taste from a concrete service problem",
+      "Give a reason for a restaurant choice without inventing a ranking"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u03"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u04-w01",
+      "hanzi": "为什么",
+      "pinyin": "wèi shén me",
+      "meaning": "why",
+      "meaningVi": "tại sao",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你为什么选这家饭馆？",
+        "py": "nǐ wèi shén me xuǎn zhè jiā fàn guǎn ?",
+        "en": "Why did you choose this restaurant?"
+      },
+      "usageNote": "[GF2021:L2:8419] Source entry: 为什么; wèi shénme; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w02",
+      "hanzi": "安静",
+      "pinyin": "ān jìng",
+      "meaning": "quiet",
+      "meaningVi": "yên tĩnh",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这家饭馆比较安静。",
+        "py": "zhè jiā fàn guǎn bǐ jiào ān jìng .",
+        "en": "This restaurant is relatively quiet."
+      },
+      "usageNote": "[GF2021:L2:34] Source entry: 安静; ānjìng; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w03",
+      "hanzi": "怎样",
+      "pinyin": "zěn yàng",
+      "meaning": "how; in what way",
+      "meaningVi": "như thế nào",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "怎样去这家饭馆？",
+        "py": "zěn yàng qù zhè jiā fàn guǎn ?",
+        "en": "How do we get to this restaurant?"
+      },
+      "usageNote": "[GF2021:L2:10187] Source entry: 怎样; zěnyàng; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w04",
+      "hanzi": "多久",
+      "pinyin": "duō jiǔ",
+      "meaning": "how long",
+      "meaningVi": "bao lâu",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "坐车要多久？",
+        "py": "zuò chē yào duō jiǔ ?",
+        "en": "How long does it take by vehicle?"
+      },
+      "usageNote": "[GF2021:L2:2059] Source entry: 多久; duōjiǔ; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w05",
+      "hanzi": "什么样",
+      "pinyin": "shén me yàng",
+      "meaning": "what kind; what is it like",
+      "meaningVi": "loại nào; như thế nào",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你想去什么样的饭馆？",
+        "py": "nǐ xiǎng qù shén me yàng de fàn guǎn ?",
+        "en": "What kind of restaurant would you like?"
+      },
+      "usageNote": "[GF2021:L2:7081] Source entry: 什么样; shénmeyàng; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w06",
+      "hanzi": "认为",
+      "pinyin": "rèn wéi",
+      "meaning": "to think; consider",
+      "meaningVi": "cho rằng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我认为这里适合聊天。",
+        "py": "wǒ rèn wéi zhè lǐ shì hé liáo tiān .",
+        "en": "I think this place is suitable for chatting."
+      },
+      "usageNote": "[GF2021:L2:6741] Source entry: 认为; rènwéi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w07",
+      "hanzi": "看法",
+      "pinyin": "kàn fa",
+      "meaning": "view; opinion",
+      "meaningVi": "quan điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你的看法和我的不同。",
+        "py": "nǐ de kàn fa hé wǒ de bù tóng .",
+        "en": "Your view is different from mine."
+      },
+      "usageNote": "[GF2021:L2:4639] Source entry: 看法; kàn·fǎ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w08",
+      "hanzi": "原因",
+      "pinyin": "yuán yīn",
+      "meaning": "reason; cause",
+      "meaningVi": "lý do",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "选这里的原因是安静。",
+        "py": "xuǎn zhè lǐ de yuán yīn shì ān jìng .",
+        "en": "The reason for choosing here is that it is quiet."
+      },
+      "usageNote": "[GF2021:L2:10011] Source entry: 原因; yuányīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w09",
+      "hanzi": "好处",
+      "pinyin": "hǎo chù",
+      "meaning": "advantage; benefit",
+      "meaningVi": "điểm lợi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里的好处是离家近。",
+        "py": "zhè lǐ de hǎo chù shì lí jiā jìn .",
+        "en": "The advantage here is that it is close to home."
+      },
+      "usageNote": "[GF2021:L2:3220] Source entry: 好处; hǎochù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w10",
+      "hanzi": "坏处",
+      "pinyin": "huài chù",
+      "meaning": "disadvantage; drawback",
+      "meaningVi": "điểm bất lợi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里的坏处是要等很久。",
+        "py": "zhè lǐ de huài chù shì yào děng hěn jiǔ .",
+        "en": "The disadvantage here is a long wait."
+      },
+      "usageNote": "[GF2021:L2:3490] Source entry: 坏处; huàichù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w11",
+      "hanzi": "味道",
+      "pinyin": "wèi dao",
+      "meaning": "taste; flavour",
+      "meaningVi": "mùi vị",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个菜的味道不错。",
+        "py": "zhè gè cài de wèi dao bù cuò .",
+        "en": "This dish tastes good."
+      },
+      "usageNote": "[GF2021:L2:8431] Source entry: 味道; wèi·dào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w12",
+      "hanzi": "饭馆",
+      "pinyin": "fàn guǎn",
+      "meaning": "restaurant",
+      "meaningVi": "quán ăn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这家饭馆不大，但很干净。",
+        "py": "zhè jiā fàn guǎn bù dà , dàn hěn gān jìng .",
+        "en": "This restaurant is not big, but it is clean."
+      },
+      "usageNote": "[GF2021:L2:2232] Source entry: 饭馆; fànguǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w13",
+      "hanzi": "快餐",
+      "pinyin": "kuài cān",
+      "meaning": "fast food",
+      "meaningVi": "đồ ăn nhanh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "午餐我吃快餐，晚餐想慢慢吃。",
+        "py": "wǔ cān wǒ chī kuài cān , wǎn cān xiǎng màn màn chī .",
+        "en": "I had fast food for lunch and want to eat dinner slowly."
+      },
+      "usageNote": "[GF2021:L2:4830] Source entry: 快餐; kuàicān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w14",
+      "hanzi": "外卖",
+      "pinyin": "wài mài",
+      "meaning": "takeout; delivery food",
+      "meaningVi": "đồ ăn mang đi; giao tận nơi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天不想叫外卖，我想出去走走。",
+        "py": "jīn tiān bù xiǎng jiào wài mài , wǒ xiǎng chū qù zǒu zǒu .",
+        "en": "I do not want delivery food today; I would like to go out for a walk."
+      },
+      "usageNote": "[GF2021:L2:8258] Source entry: 外卖; wàimài; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w15",
+      "hanzi": "方便面",
+      "pinyin": "fāng biàn miàn",
+      "meaning": "instant noodles",
+      "meaningVi": "mì ăn liền",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "昨天吃方便面，今天想吃米饭。",
+        "py": "zuó tiān chī fāng biàn miàn , jīn tiān xiǎng chī mǐ fàn .",
+        "en": "I had instant noodles yesterday and want rice today."
+      },
+      "usageNote": "[GF2021:L2:2241] Source entry: 方便面; fāngbiànmiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w16",
+      "hanzi": "服务",
+      "pinyin": "fú wù",
+      "meaning": "to serve; service",
+      "meaningVi": "phục vụ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这家店服务顾客很热情。",
+        "py": "zhè jiā diàn fú wù gù kè hěn rè qíng .",
+        "en": "This shop serves customers warmly."
+      },
+      "usageNote": "[GF2021:L2:2451] Source entry: 服务; fúwù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w17",
+      "hanzi": "顾客",
+      "pinyin": "gù kè",
+      "meaning": "customer",
+      "meaningVi": "khách hàng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "顾客正在等座位。",
+        "py": "gù kè zhèng zài děng zuò wèi .",
+        "en": "The customers are waiting for seats."
+      },
+      "usageNote": "[GF2021:L2:2926] Source entry: 顾客; gùkè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w18",
+      "hanzi": "满意",
+      "pinyin": "mǎn yì",
+      "meaning": "to be satisfied",
+      "meaningVi": "hài lòng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我对今天的菜很满意。",
+        "py": "wǒ duì jīn tiān de cài hěn mǎn yì .",
+        "en": "I am very satisfied with today’s food."
+      },
+      "usageNote": "[GF2021:L2:5420] Source entry: 满意; mǎnyì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w19",
+      "hanzi": "不满",
+      "pinyin": "bù mǎn",
+      "meaning": "dissatisfied; dissatisfaction",
+      "meaningVi": "không hài lòng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我对等了很久有点不满。",
+        "py": "wǒ duì děng le hěn jiǔ yǒu diǎn bù mǎn .",
+        "en": "I am a little dissatisfied with the long wait."
+      },
+      "usageNote": "[GF2021:L2:605] Source entry: 不满; bùmǎn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w20",
+      "hanzi": "比如",
+      "pinyin": "bǐ rú",
+      "meaning": "for example",
+      "meaningVi": "ví dụ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有些菜不辣，比如这个鸡蛋。",
+        "py": "yǒu xiē cài bù là , bǐ rú zhè gè jī dàn .",
+        "en": "Some dishes are not spicy, for example this egg dish."
+      },
+      "usageNote": "[GF2021:L2:340] Source entry: 比如; bǐrú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w21",
+      "hanzi": "不同",
+      "pinyin": "bù tóng",
+      "meaning": "different",
+      "meaningVi": "khác nhau",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们的口味不同。",
+        "py": "wǒ men de kǒu wèi bù tóng .",
+        "en": "Our tastes are different."
+      },
+      "usageNote": "[GF2021:L2:619] Source entry: 不同; bù tóng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u04-w22",
+      "hanzi": "座位",
+      "pinyin": "zuò wèi",
+      "meaning": "seat",
+      "meaningVi": "chỗ ngồi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "顾客正在等座位。",
+        "py": "gù kè zhèng zài děng zuò wèi .",
+        "en": "The customers are waiting for seats."
+      },
+      "usageNote": "[GF2021:L2:11083] Source entry: 座位; zuò·wèi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "因",
+      "pinyin": "yīn",
+      "meaning": "cause",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "因",
+          "role": "whole",
+          "gloss": "cause"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 因 in 原因. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "原因",
+          "p": "yuán yīn",
+          "m": "reason; cause"
+        }
+      ]
+    },
+    {
+      "hanzi": "味",
+      "pinyin": "wèi",
+      "meaning": "taste",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "味",
+          "role": "whole",
+          "gloss": "taste"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 味 in 味道 / 口味. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "味道",
+          "p": "wèi dao",
+          "m": "taste; flavour"
+        },
+        {
+          "w": "口味",
+          "p": "kǒu wèi",
+          "m": "taste preference"
+        }
+      ]
+    },
+    {
+      "hanzi": "食",
+      "pinyin": "shí",
+      "meaning": "food; eat",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "食",
+          "role": "whole",
+          "gloss": "food; eat"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 食 in 食物. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "食物",
+          "p": "shí wù",
+          "m": "food"
+        }
+      ]
+    },
+    {
+      "hanzi": "务",
+      "pinyin": "wù",
+      "meaning": "affair; service",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "务",
+          "role": "whole",
+          "gloss": "affair; service"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 务 in 服务. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "服务",
+          "p": "fú wù",
+          "m": "to serve; service"
+        }
+      ]
+    },
+    {
+      "hanzi": "顾",
+      "pinyin": "gù",
+      "meaning": "customer; attend to",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "顾",
+          "role": "whole",
+          "gloss": "customer; attend to"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 顾 in 顾客 / 照顾. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "顾客",
+          "p": "gù kè",
+          "m": "customer"
+        },
+        {
+          "w": "照顾",
+          "p": "zhào gù",
+          "m": "to look after"
+        }
+      ]
+    },
+    {
+      "hanzi": "满",
+      "pinyin": "mǎn",
+      "meaning": "full; satisfied",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "满",
+          "role": "whole",
+          "gloss": "full; satisfied"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 满 in 满意 / 不满. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "满意",
+          "p": "mǎn yì",
+          "m": "to be satisfied"
+        },
+        {
+          "w": "不满",
+          "p": "bù mǎn",
+          "m": "dissatisfied; dissatisfaction"
+        }
+      ]
+    },
+    {
+      "hanzi": "静",
+      "pinyin": "jìng",
+      "meaning": "quiet",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "静",
+          "role": "whole",
+          "gloss": "quiet"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 静 in 安静. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "安静",
+          "p": "ān jìng",
+          "m": "quiet"
+        }
+      ]
+    },
+    {
+      "hanzi": "餐",
+      "pinyin": "cān",
+      "meaning": "meal; food",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "餐",
+          "role": "whole",
+          "gloss": "meal; food"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 餐 in 快餐 / 西餐. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "快餐",
+          "p": "kuài cān",
+          "m": "fast food"
+        },
+        {
+          "w": "西餐",
+          "p": "xī cān",
+          "m": "Western-style food"
+        }
+      ]
+    },
+    {
+      "hanzi": "如",
+      "pinyin": "rú",
+      "meaning": "as; for example in 比如",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "如",
+          "role": "whole",
+          "gloss": "as; for example in 比如"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 如 in 比如. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "比如",
+          "p": "bǐ rú",
+          "m": "for example"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u04-g二05",
+      "pattern": "多久 / 为什么 / 怎么样 / 怎样",
+      "purpose": "Ask for duration, reason or manner",
+      "explanation": "多久 asks duration, not a clock time: 坐车要多久 versus 几点出发. 为什么 asks a reason. 怎么样 often asks an evaluation or condition: 味道怎么样. 怎样 can ask the manner of doing something: 怎样去, and can also ask an evaluation. Put the question word where the missing information belongs; these questions do not need 吗. A reason may use 因为, taught more fully later; a simple 因为 clause is a useful recognition answer here.",
+      "examples": [
+        {
+          "zh": "坐车要多久？二十分钟。几点出发？六点。",
+          "py": "zuò chē yào duō jiǔ ? èr shí fēn zhōng . jǐ diǎn chū fā ? liù diǎn .",
+          "en": "How long by vehicle? Twenty minutes. What time do we leave? Six."
+        },
+        {
+          "zh": "为什么选这里？这里安静。味道怎么样？不错。",
+          "py": "wèi shén me xuǎn zhè lǐ ? zhè lǐ ān jìng . wèi dao zěn me yàng ? bù cuò .",
+          "en": "Why choose here? It is quiet. How does it taste? Good."
+        },
+        {
+          "zh": "怎样去？坐车到大学站，再走五分钟。",
+          "py": "zěn yàng qù ? zuò chē dào dà xué zhàn , zài zǒu wǔ fēn zhōng .",
+          "en": "How do we get there? Ride to University Station, then walk five minutes."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "坐车要多久吗？",
+          "right": "坐车要多久？",
+          "why": "Do not add 吗 to this question-word duration question."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u04-g二76",
+      "pattern": "什么时候 / 什么样 / 为什么 / 怎么样 / 怎样",
+      "purpose": "Choose the information a question requests",
+      "explanation": "什么时候 asks when; 什么样 asks kind or characteristics; 为什么 asks why; 怎么样/怎样 ask a condition, evaluation or way. Use context to disambiguate 怎样. 什么样的饭馆 is a kind question, not a request for the restaurant name. A preference answer is one person’s view and does not establish a universal quality ranking.",
+      "examples": [
+        {
+          "zh": "什么时候去？今晚。想去什么样的饭馆？安静一点的。",
+          "py": "shén me shí hou qù ? jīn wǎn . xiǎng qù shén me yàng de fàn guǎn ? ān jìng yī diǎn de .",
+          "en": "When shall we go? Tonight. What kind of restaurant? A somewhat quieter one."
+        },
+        {
+          "zh": "为什么不叫外卖？想出去走走。这里服务怎么样？很热情。",
+          "py": "wèi shén me bù jiào wài mài ? xiǎng chū qù zǒu zǒu . zhè lǐ fú wù zěn me yàng ? hěn rè qíng .",
+          "en": "Why not order delivery? I want a walk. How is the service here? Welcoming."
+        },
+        {
+          "zh": "你认为怎样去合适？坐车吧。",
+          "py": "nǐ rèn wéi zěn yàng qù hé shì ? zuò chē ba .",
+          "en": "What way of getting there do you think is suitable? Let us take a vehicle."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你什么样时候去？",
+          "right": "你什么时候去？",
+          "why": "什么时候 asks a time; 什么样 asks a kind or characteristic."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u04-d",
+    "title": "Why this place?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find their reasons and the trade-off they accept.",
+    "lines": [
+      {
+        "zh": "晚餐去什么样的饭馆？快餐也可以。",
+        "py": "wǎn cān qù shén me yàng de fàn guǎn ? kuài cān yě kě yǐ .",
+        "en": "What kind of restaurant for dinner? Fast food is an option too.",
+        "speaker": "a"
+      },
+      {
+        "zh": "午餐吃了快餐，昨天还吃方便面。今天想慢慢吃。",
+        "py": "wǔ cān chī le kuài cān , zuó tiān hái chī fāng biàn miàn . jīn tiān xiǎng màn màn chī .",
+        "en": "I had fast food for lunch and instant noodles yesterday. Today I want to eat slowly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "为什么不叫外卖？在家很方便。",
+        "py": "wèi shén me bù jiào wài mài ? zài jiā hěn fāng biàn .",
+        "en": "Why not order delivery? It is convenient at home.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我想出去走走，也想找安静的地方聊天。",
+        "py": "wǒ xiǎng chū qù zǒu zǒu , yě xiǎng zhǎo ān jìng de dì fāng liáo tiān .",
+        "en": "I want to go out for a walk and find a quiet place to chat.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你的看法是什么？这家怎么样？",
+        "py": "nǐ de kàn fa shì shén me ? zhè jiā zěn me yàng ?",
+        "en": "What is your view? How about this place?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我认为合适。饭馆不大，桌子和碗很干净，服务也热情。",
+        "py": "wǒ rèn wéi hé shì . fàn guǎn bù dà , zhuō zi hé wǎn hěn gān jìng , fú wù yě rè qíng .",
+        "en": "I think it is suitable. The restaurant is small, its tables and bowls are clean, and the service is welcoming.",
+        "speaker": "b"
+      },
+      {
+        "zh": "味道怎么样？比如这个鸡蛋辣吗？",
+        "py": "wèi dao zěn me yàng ? bǐ rú zhè gè jī dàn là ma ?",
+        "en": "How does the food taste? Is this egg dish spicy, for example?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不辣。我们的口味不同，可以点不同的菜。",
+        "py": "bù là . wǒ men de kǒu wèi bù tóng , kě yǐ diǎn bù tóng de cài .",
+        "en": "Not spicy. Our tastes differ, so we can order different dishes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "有什么好处和坏处？顾客多，要等多久？",
+        "py": "yǒu shén me hǎo chù hé huài chù ? gù kè duō , yào děng duō jiǔ ?",
+        "en": "What advantages and drawbacks are there? There are many customers; how long is the wait?",
+        "speaker": "a"
+      },
+      {
+        "zh": "好处是离家近，坏处是要等二十分钟。我对菜满意，对等很久有点不满。",
+        "py": "hǎo chù shì lí jiā jìn , huài chù shì yào děng èr shí fēn zhōng . wǒ duì cài mǎn yì , duì děng hěn jiǔ yǒu diǎn bù mǎn .",
+        "en": "It is close to home, but the drawback is a twenty-minute wait. I am satisfied with the food but a little dissatisfied with a long wait.",
+        "speaker": "b"
+      },
+      {
+        "zh": "怎样去？什么时候出发？",
+        "py": "zěn yàng qù ? shén me shí hou chū fā ?",
+        "en": "How do we get there? When shall we leave?",
+        "speaker": "a"
+      },
+      {
+        "zh": "坐车十分钟，再走五分钟。六点出发吧。选这里的原因是方便聊天。",
+        "py": "zuò chē shí fēn zhōng , zài zǒu wǔ fēn zhōng . liù diǎn chū fā ba . xuǎn zhè lǐ de yuán yīn shì fāng biàn liáo tiān .",
+        "en": "Ride ten minutes, then walk five. Let us leave at six. We choose here because it is convenient for chatting.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Why choose this restaurant?",
+        "choices": [
+          "A quiet, clean place suited to chatting",
+          "Guaranteed immediate seating",
+          "The cheapest price is proved"
+        ],
+        "answer": "A quiet, clean place suited to chatting"
+      },
+      {
+        "type": "detail",
+        "q": "How long is the stated wait?",
+        "choices": [
+          "Twenty minutes",
+          "Five minutes",
+          "Ten minutes"
+        ],
+        "answer": "Twenty minutes"
+      },
+      {
+        "type": "inference",
+        "q": "Does satisfaction with the food erase the wait complaint?",
+        "choices": [
+          "No, the two refer to different aspects",
+          "Yes, every aspect must have one rating",
+          "The speaker never tasted food"
+        ],
+        "answer": "No, the two refer to different aspects"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "口味",
+        "pinyin": "kǒu wèi",
+        "meaning": "taste preference"
+      },
+      {
+        "hanzi": "辣",
+        "pinyin": "là",
+        "meaning": "spicy"
+      },
+      {
+        "hanzi": "离",
+        "pinyin": "lí",
+        "meaning": "distance from"
+      },
+      {
+        "hanzi": "近",
+        "pinyin": "jìn",
+        "meaning": "near"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u04-r",
+    "title": "Separate the reasons",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to distinguish travel time, waiting time and taste.",
+    "lines": [
+      {
+        "zh": "午餐我吃快餐，昨天吃方便面。今晚不想叫外卖，想和朋友出去聊天。",
+        "py": "wǔ cān wǒ chī kuài cān , zuó tiān chī fāng biàn miàn . jīn wǎn bù xiǎng jiào wài mài , xiǎng hé péng you chū qù liáo tiān .",
+        "en": "I had fast food for lunch and instant noodles yesterday. Tonight I do not want delivery; I want to go out and chat with a friend."
+      },
+      {
+        "zh": "我问想去什么样的饭馆，朋友说安静一点的，碗和桌子也应该干净。",
+        "py": "wǒ wèn xiǎng qù shén me yàng de fàn guǎn , péng you shuō ān jìng yī diǎn de , wǎn hé zhuō zi yě yīng gāi gān jìng .",
+        "en": "I asked what kind of restaurant; my friend said a somewhat quieter one with clean bowls and tables."
+      },
+      {
+        "zh": "我们认为这家合适。选择它的原因是方便聊天，服务顾客也很热情。",
+        "py": "wǒ men rèn wéi zhè jiā hé shì . xuǎn zé tā de yuán yīn shì fāng biàn liáo tiān , fú wù gù kè yě hěn rè qíng .",
+        "en": "We think this place is suitable. We choose it because it is convenient for chatting, and it serves customers warmly."
+      },
+      {
+        "zh": "我们的看法不完全一样，口味也不同。比如我不想吃辣的鸡蛋，她想吃别的菜。",
+        "py": "wǒ men de kàn fa bù wán quán yī yàng , kǒu wèi yě bù tóng . bǐ rú wǒ bù xiǎng chī là de jī dàn , tā xiǎng chī bié de cài .",
+        "en": "Our views are not entirely the same, and our tastes differ. For example, I do not want spicy eggs, while she wants another dish."
+      },
+      {
+        "zh": "这家的味道不错，我对菜很满意。好处是离家近，坏处是顾客多，要等二十分钟。",
+        "py": "zhè jiā de wèi dao bù cuò , wǒ duì cài hěn mǎn yì . hǎo chù shì lí jiā jìn , huài chù shì gù kè duō , yào děng èr shí fēn zhōng .",
+        "en": "The food tastes good and I am satisfied with it. It is close to home, but the drawback is many customers and a twenty-minute wait."
+      },
+      {
+        "zh": "等了很久，我有点不满，但没有说菜不好吃。评价要讲清楚是哪一件事。",
+        "py": "děng le hěn jiǔ , wǒ yǒu diǎn bù mǎn , dàn méi yǒu shuō cài bù hǎo chī . píng jià yào jiǎng qīng chǔ shì nǎ yī jiàn shì .",
+        "en": "I am a little dissatisfied with waiting a long time, but did not say the food was bad. An evaluation should specify which aspect."
+      },
+      {
+        "zh": "怎样去？坐车十分钟，再走五分钟。什么时候出发？我们定六点。",
+        "py": "zěn yàng qù ? zuò chē shí fēn zhōng , zài zǒu wǔ fēn zhōng . shén me shí hou chū fā ? wǒ men dìng liù diǎn .",
+        "en": "How do we get there? Ride ten minutes, then walk five. When do we leave? We decided on six."
+      },
+      {
+        "zh": "要多久可以坐下，还要问店里。路上十五分钟，不是已经有了座位。",
+        "py": "yào duō jiǔ kě yǐ zuò xià , hái yào wèn diàn lǐ . lù shàng shí wǔ fēn zhōng , bù shì yǐ jīng yǒu le zuò wèi .",
+        "en": "We still need to ask the restaurant how long until we can sit. Fifteen minutes of travel does not mean a seat is already available."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the writer careful to separate?",
+        "choices": [
+          "Different reasons and time intervals",
+          "Only restaurant names",
+          "All food from all opinions"
+        ],
+        "answer": "Different reasons and time intervals"
+      },
+      {
+        "type": "detail",
+        "q": "What is the total travel time?",
+        "choices": [
+          "Fifteen minutes",
+          "Twenty minutes",
+          "Thirty-five minutes"
+        ],
+        "answer": "Fifteen minutes"
+      },
+      {
+        "type": "inference",
+        "q": "Does leaving at six prove sitting at six fifteen?",
+        "choices": [
+          "No, waiting may remain",
+          "Yes, travel and waiting are identical",
+          "Yes, a seat was booked"
+        ],
+        "answer": "No, waiting may remain"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我问想去什么样的饭馆，朋友说【安静】一点的，碗和桌子也应该干净。",
+          "py": "wǒ wèn xiǎng qù shén me yàng de fàn guǎn , péng you shuō ān jìng yī diǎn de , wǎn hé zhuō zi yě yīng gāi gān jìng .",
+          "en": "I asked what kind of restaurant; my friend said a somewhat quieter one with clean bowls and tables."
+        },
+        {
+          "zh": "这家的味道不错，我对菜很满意。好处是离家近，【坏处】是顾客多，要等二十分钟。",
+          "py": "zhè jiā de wèi dao bù cuò , wǒ duì cài hěn mǎn yì . hǎo chù shì lí jiā jìn , huài chù shì gù kè duō , yào děng èr shí fēn zhōng .",
+          "en": "The food tastes good and I am satisfied with it. It is close to home, but the drawback is many customers and a twenty-minute wait."
+        }
+      ],
+      "bank": [
+        "安静",
+        "坏处",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "选择",
+        "pinyin": "xuǎn zé",
+        "meaning": "to choose; choice"
+      },
+      {
+        "hanzi": "评价",
+        "pinyin": "píng jià",
+        "meaning": "to evaluate; review"
+      },
+      {
+        "hanzi": "口味",
+        "pinyin": "kǒu wèi",
+        "meaning": "taste preference"
+      },
+      {
+        "hanzi": "辣",
+        "pinyin": "là",
+        "meaning": "spicy"
+      },
+      {
+        "hanzi": "离",
+        "pinyin": "lí",
+        "meaning": "distance from"
+      },
+      {
+        "hanzi": "近",
+        "pinyin": "jìn",
+        "meaning": "near"
+      },
+      {
+        "hanzi": "完全",
+        "pinyin": "wán quán",
+        "meaning": "completely"
+      },
+      {
+        "hanzi": "讲清楚",
+        "pinyin": "jiǎng qīng chǔ",
+        "meaning": "to explain clearly"
+      },
+      {
+        "hanzi": "定",
+        "pinyin": "dìng",
+        "meaning": "to settle; decide"
+      },
+      {
+        "hanzi": "店里",
+        "pinyin": "diàn lǐ",
+        "meaning": "in the shop or restaurant"
+      },
+      {
+        "hanzi": "已经",
+        "pinyin": "yǐ jīng",
+        "meaning": "already"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u04-media",
+      "title": "Not one number",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse about an honest opinion.",
+      "lines": [
+        {
+          "zh": "快餐午餐，方便面昨天。今晚不叫外卖，和朋友见。",
+          "py": "kuài cān wǔ cān , fāng biàn miàn zuó tiān . jīn wǎn bù jiào wài mài , hé péng you jiàn .",
+          "en": "Fast food for lunch, instant noodles yesterday. No delivery tonight; meet a friend."
+        },
+        {
+          "zh": "饭馆安静，碗干净。服务热情，顾客等。",
+          "py": "fàn guǎn ān jìng , wǎn gān jìng . fú wù rè qíng , gù kè děng .",
+          "en": "Quiet restaurant, clean bowls. Welcoming service, customers wait."
+        },
+        {
+          "zh": "好处离家近，坏处等一等。味道我满意，不满是等很久。",
+          "py": "hǎo chù lí jiā jìn , huài chù děng yī děng . wèi dao wǒ mǎn yì , bù mǎn shì děng hěn jiǔ .",
+          "en": "Close to home is a benefit; waiting is a drawback. Satisfied with the taste; the complaint is a long wait."
+        },
+        {
+          "zh": "你的看法，我的看法，不同也能一起吃。",
+          "py": "nǐ de kàn fa , wǒ de kàn fa , bù tóng yě néng yì qǐ chī .",
+          "en": "Your view, my view; different and still able to eat together."
+        },
+        {
+          "zh": "为什么选这里？方便聊天。怎样去？坐车，再走一点。",
+          "py": "wèi shén me xuǎn zhè lǐ ? fāng biàn liáo tiān . zěn yàng qù ? zuò chē , zài zǒu yī diǎn .",
+          "en": "Why choose here? Convenient for chatting. How do we get there? Ride, then walk a little."
+        },
+        {
+          "zh": "什么时候走？六点。要多久？先问清楚，是路上还是等座位。",
+          "py": "shén me shí hou zǒu ? liù diǎn . yào duō jiǔ ? xiān wèn qīng chǔ , shì lù shàng hái shi děng zuò wèi .",
+          "en": "When do we leave? Six. How long? Ask clearly whether travel or waiting for a seat."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why clarify 要多久?",
+          "choices": [
+            "The question could refer to travel or waiting",
+            "There is no meaningful answer",
+            "Six o’clock means six hours"
+          ],
+          "answer": "The question could refer to travel or waiting"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "离",
+          "pinyin": "lí",
+          "meaning": "distance from"
+        },
+        {
+          "hanzi": "近",
+          "pinyin": "jìn",
+          "meaning": "near"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u04-t1",
+      "phrase": "s2-u04-w04",
+      "audio": {
+        "zh": "坐车十分钟，再走五分钟。",
+        "py": "zuò chē shí fēn zhōng , zài zǒu wǔ fēn zhōng .",
+        "en": "Ride ten minutes, then walk five."
+      },
+      "statement": "Travel totals fifteen minutes.",
+      "answer": true,
+      "why": "Ten plus five equals fifteen."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u04-t2",
+      "phrase": "s2-u04-w19",
+      "audio": {
+        "zh": "我对菜满意，对等很久有点不满。",
+        "py": "wǒ duì cài mǎn yì , duì děng hěn jiǔ yǒu diǎn bù mǎn .",
+        "en": "I am satisfied with the food, but a little dissatisfied with a long wait."
+      },
+      "statement": "The speaker dislikes the food.",
+      "answer": false,
+      "why": "The complaint concerns waiting, not food."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u04-t3",
+      "phrase": "s2-u04-w01",
+      "prompt": {
+        "zh": "为什么不叫外卖？",
+        "py": "wèi shén me bù jiào wài mài ?",
+        "en": "Why not order delivery?"
+      },
+      "choices": [
+        "我想出去走走。",
+        "六点出发。",
+        "二十分钟。"
+      ],
+      "answer": "我想出去走走。",
+      "why": "Give a reason rather than a time."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u04-t4",
+      "phrase": "s2-u04-w05",
+      "prompt": {
+        "zh": "你想去什么样的饭馆？",
+        "py": "nǐ xiǎng qù shén me yàng de fàn guǎn ?",
+        "en": "What kind of restaurant would you like?"
+      },
+      "choices": [
+        "安静一点的。",
+        "我来自越南。",
+        "明天六点。"
+      ],
+      "answer": "安静一点的。",
+      "why": "Describe the desired kind."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u04-t5",
+      "phrase": "s2-u04-w08",
+      "line": {
+        "zh": "选这里的【原因】是安静。",
+        "py": "xuǎn zhè lǐ de yuán yīn shì ān jìng .",
+        "en": "The reason for choosing here is quietness."
+      },
+      "blankPy": "yuán yīn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u04-t6",
+      "phrase": "s2-u04-w22",
+      "line": {
+        "zh": "顾客正在等【座位】。",
+        "py": "gù kè zhèng zài děng zuò wèi .",
+        "en": "The customers are waiting for seats."
+      },
+      "blankPy": "zuò wèi"
+    },
+    {
+      "type": "match",
+      "id": "s2-u04-t7",
+      "phrase": "s2-u04-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "How long does the ride take?",
+          "right": {
+            "zh": "坐车要多久？",
+            "py": "zuò chē yào duō jiǔ ?",
+            "en": "How long does the ride take?"
+          }
+        },
+        {
+          "left": "When do we leave?",
+          "right": {
+            "zh": "什么时候出发？",
+            "py": "shén me shí hou chū fā ?",
+            "en": "When do we leave?"
+          }
+        },
+        {
+          "left": "How do we get to the restaurant?",
+          "right": {
+            "zh": "怎样去饭馆？",
+            "py": "zěn yàng qù fàn guǎn ?",
+            "en": "How do we get to the restaurant?"
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u04-t8",
+      "phrase": "s2-u04-w11",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "This dish tastes good.",
+          "right": {
+            "zh": "这个菜的味道不错。",
+            "py": "zhè gè cài de wèi dao bù cuò .",
+            "en": "This dish tastes good."
+          }
+        },
+        {
+          "left": "The service here is welcoming.",
+          "right": {
+            "zh": "这里服务很热情。",
+            "py": "zhè lǐ fú wù hěn rè qíng .",
+            "en": "The service here is welcoming."
+          }
+        },
+        {
+          "left": "Our taste preferences differ.",
+          "right": {
+            "zh": "我们的口味不同。",
+            "py": "wǒ men de kǒu wèi bù tóng .",
+            "en": "Our taste preferences differ."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u04-t9",
+      "phrase": "s2-u04-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The north gate: in front of the school, on the east side of the road.",
+          "right": {
+            "zh": "北门。学校前边，路的东边。",
+            "py": "běi mén . xué xiào qián biān , lù de dōng biān .",
+            "en": "The north gate: in front of the school, on the east side of the road."
+          }
+        },
+        {
+          "left": "What should I bring? You should ask the host first.",
+          "right": {
+            "zh": "我该带什么？你应该先问主人。",
+            "py": "wǒ gāi dài shén me ? nǐ yīng gāi xiān wèn zhǔ ren .",
+            "en": "What should I bring? You should ask the host first."
+          }
+        },
+        {
+          "left": "Come at half past six, okay? How about bringing a book?",
+          "right": {
+            "zh": "六点半来，好吗？带书怎么样？",
+            "py": "liù diǎn bàn lái , hǎo ma ? dài shū zěn me yàng ?",
+            "en": "Come at half past six, okay? How about bringing a book?"
+          }
+        },
+        {
+          "left": "May I bring two bottles of water? Is that okay?",
+          "right": {
+            "zh": "我带两瓶水，可以吗？行吗？",
+            "py": "wǒ dài liǎng píng shuǐ , kě yǐ ma ? xíng ma ?",
+            "en": "May I bring two bottles of water? Is that okay?"
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Specific dissatisfaction",
+      "natural": {
+        "zh": "等了很久，我有点不满。",
+        "py": "děng le hěn jiǔ , wǒ yǒu diǎn bù mǎn .",
+        "en": "I am a little dissatisfied with the long wait."
+      },
+      "note": "Name the issue without claiming every aspect is bad."
+    },
+    {
+      "situation": "Duration referent",
+      "natural": {
+        "zh": "你问路上要多久，还是等座位要多久？",
+        "py": "nǐ wèn lù shàng yào duō jiǔ , hái shi děng zuò wèi yào duō jiǔ ?",
+        "en": "Do you mean travel time or waiting time for a seat?"
+      },
+      "note": "Clarify the missing referent before supplying a number."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u04-speak",
+    "title": "Why that restaurant?",
+    "place": "A language-exchange meeting",
+    "context": "Ask about preferences and reasons.",
+    "goal": "Ask why a place is chosen and how long it takes",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "为什么选这里？",
+        "pinyin": "wèi shén me xuǎn zhè lǐ ?",
+        "meaning": "Why choose here?",
+        "intent": "Give a relevant reason",
+        "examples": [
+          "这里安静，方便聊天。"
+        ],
+        "accept": [
+          "^这里安静，方便聊天。[。！？]?$"
+        ]
+      },
+      {
+        "text": "坐车要多久？",
+        "pinyin": "zuò chē yào duō jiǔ ?",
+        "meaning": "How long by vehicle?",
+        "intent": "Give duration",
+        "examples": [
+          "坐车十分钟。"
+        ],
+        "accept": [
+          "^坐车十分钟。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二05, 二76. Native check: collocations for customer service and dissatisfaction, the nominal use of 快餐/外卖, clipped original verse, and exactly which time interval 多久 refers to. No restaurant recommendation, reservation or objective star rating is claimed. Planned retrieval 一01 / 一31 / 二02 / 二75: 北门。学校前边，路的东边。, 我该带什么？你应该先问主人。, 六点半来，好吗？带书怎么样？, 我带两瓶水，可以吗？行吗？."
+}

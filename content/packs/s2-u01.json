@@ -1,0 +1,1257 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u01",
+    "stage": 1,
+    "order": 31,
+    "title": "Joining the friend group",
+    "titleZh": "加入朋友的小组",
+    "canDo": [
+      "Introduce yourself to a new group",
+      "Distinguish inclusive 咱们 from context-dependent 我们",
+      "Express possibility without promising an outcome"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s1-u30"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u01-w01",
+      "hanzi": "大家",
+      "pinyin": "dà jiā",
+      "meaning": "everyone",
+      "meaningVi": "mọi người",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "大家好，我是新来的留学生。",
+        "py": "dà jiā hǎo , wǒ shì xīn lái de liú xué shēng .",
+        "en": "Hello everyone; I am a newly arrived international student."
+      },
+      "usageNote": "[GF2021:L2:1473] Source entry: 大家; dàjiā; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w02",
+      "hanzi": "自己",
+      "pinyin": "zì jǐ",
+      "meaning": "oneself",
+      "meaningVi": "bản thân",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我自己介绍一下吧。",
+        "py": "wǒ zì jǐ jiè shào yī xià ba .",
+        "en": "Let me introduce myself."
+      },
+      "usageNote": "[GF2021:L2:10909] Source entry: 自己; zìjǐ; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w03",
+      "hanzi": "它",
+      "pinyin": "tā",
+      "meaning": "it",
+      "meaningVi": "nó",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是我们的群，它有十个人。",
+        "py": "zhè shì wǒ men de qún , tā yǒu shí gè rén .",
+        "en": "This is our group chat; it has ten members."
+      },
+      "usageNote": "[GF2021:L2:7752] Source entry: 它; tā; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w04",
+      "hanzi": "它们",
+      "pinyin": "tā men",
+      "meaning": "they, for things",
+      "meaningVi": "chúng",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这两本书很好，它们有很多例子。",
+        "py": "zhè liǎng běn shū hěn hǎo , tā men yǒu hěn duō lì zi .",
+        "en": "These two books are good; they have many examples."
+      },
+      "usageNote": "[GF2021:L2:7753] Source entry: 它们; tāmen; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w05",
+      "hanzi": "咱",
+      "pinyin": "zán",
+      "meaning": "we; I in some northern informal contexts",
+      "meaningVi": "chúng ta; cách nói thân mật miền bắc",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "咱一起读这个句子吧。",
+        "py": "zán yì qǐ dú zhè gè jù zi ba .",
+        "en": "Let us read this sentence together."
+      },
+      "usageNote": "[GF2021:L2:10130] Source entry: 咱; zán; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w06",
+      "hanzi": "咱们",
+      "pinyin": "zán men",
+      "meaning": "we, including the listener",
+      "meaningVi": "chúng ta, gồm người nghe",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "咱们一起参加活动吧。",
+        "py": "zán men yì qǐ cān jiā huó dòng ba .",
+        "en": "Let us join the activity together."
+      },
+      "usageNote": "[GF2021:L2:10131] Source entry: 咱们; zánmen; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w07",
+      "hanzi": "交朋友",
+      "pinyin": "jiāo péng yǒu",
+      "meaning": "to make friends",
+      "meaningVi": "kết bạn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我想学习普通话，也想交朋友。",
+        "py": "wǒ xiǎng xué xí pǔ tōng huà , yě xiǎng jiāo péng yǒu .",
+        "en": "I would like to learn Mandarin and make friends."
+      },
+      "usageNote": "[GF2021:L2:4062] Source entry: 交朋友; jiāo péngyou; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w08",
+      "hanzi": "小组",
+      "pinyin": "xiǎo zǔ",
+      "meaning": "small group",
+      "meaningVi": "nhóm nhỏ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们的小组有四个人。",
+        "py": "wǒ men de xiǎo zǔ yǒu sì gè rén .",
+        "en": "Our small group has four people."
+      },
+      "usageNote": "[GF2021:L2:8921] Source entry: 小组; xiǎozǔ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w09",
+      "hanzi": "组",
+      "pinyin": "zǔ",
+      "meaning": "group; to organize",
+      "meaningVi": "nhóm; tổ chức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个组今天练习听写。",
+        "py": "zhè gè zǔ jīn tiān liàn xí tīng xiě .",
+        "en": "This group is practising dictation today."
+      },
+      "usageNote": "[GF2021:L2:11014] Source entry: 组; zǔ; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w10",
+      "hanzi": "组长",
+      "pinyin": "zǔ zhǎng",
+      "meaning": "group leader",
+      "meaningVi": "trưởng nhóm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "组长先介绍今天的活动。",
+        "py": "zǔ zhǎng xiān jiè shào jīn tiān de huó dòng .",
+        "en": "The group leader introduces today’s activity first."
+      },
+      "usageNote": "[GF2021:L2:11018] Source entry: 组长; zǔzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w11",
+      "hanzi": "组成",
+      "pinyin": "zǔ chéng",
+      "meaning": "to form; be made up of",
+      "meaningVi": "tạo thành; gồm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "四个人组成一个小组。",
+        "py": "sì gè rén zǔ chéng yī gè xiǎo zǔ .",
+        "en": "Four people form one small group."
+      },
+      "usageNote": "[GF2021:L2:11015] Source entry: 组成; zǔchéng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w12",
+      "hanzi": "参加",
+      "pinyin": "cān jiā",
+      "meaning": "to participate in",
+      "meaningVi": "tham gia",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我可以参加这个小组吗？",
+        "py": "wǒ kě yǐ cān jiā zhè gè xiǎo zǔ ma ?",
+        "en": "May I join this group?"
+      },
+      "usageNote": "[GF2021:L2:699] Source entry: 参加; cānjiā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w13",
+      "hanzi": "活动",
+      "pinyin": "huó dòng",
+      "meaning": "activity; to move about",
+      "meaningVi": "hoạt động",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天的活动是读书和聊天。",
+        "py": "jīn tiān de huó dòng shì dú shū hé liáo tiān .",
+        "en": "Today’s activity is reading and chatting."
+      },
+      "usageNote": "[GF2021:L2:3626] Source entry: 活动; huódòng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w14",
+      "hanzi": "班长",
+      "pinyin": "bān zhǎng",
+      "meaning": "class monitor",
+      "meaningVi": "lớp trưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "班长也参加今天的活动。",
+        "py": "bān zhǎng yě cān jiā jīn tiān de huó dòng .",
+        "en": "The class monitor is also joining today’s activity."
+      },
+      "usageNote": "[GF2021:L2:121] Source entry: 班长; bānzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w15",
+      "hanzi": "年级",
+      "pinyin": "nián jí",
+      "meaning": "school year; grade",
+      "meaningVi": "khối; năm học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你们是同一个年级的吗？",
+        "py": "nǐ men shì tóng yī gè nián jí de ma ?",
+        "en": "Are you in the same school year?"
+      },
+      "usageNote": "[GF2021:L2:5860] Source entry: 年级; niánjí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w16",
+      "hanzi": "年轻",
+      "pinyin": "nián qīng",
+      "meaning": "young",
+      "meaningVi": "trẻ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们的老师很年轻。",
+        "py": "wǒ men de lǎo shī hěn nián qīng .",
+        "en": "Our teacher is young."
+      },
+      "usageNote": "[GF2021:L2:5865] Source entry: 年轻; niánqīng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w17",
+      "hanzi": "留学生",
+      "pinyin": "liú xué shēng",
+      "meaning": "international student",
+      "meaningVi": "du học sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我是来自国外的留学生。",
+        "py": "wǒ shì lái zì guó wài de liú xué shēng .",
+        "en": "I am an international student from abroad."
+      },
+      "usageNote": "[GF2021:L2:5242] Source entry: 留学生; liúxuéshēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w18",
+      "hanzi": "来自",
+      "pinyin": "lái zì",
+      "meaning": "to come from",
+      "meaningVi": "đến từ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我来自越南，现在住在北京。",
+        "py": "wǒ lái zì yuè nán , xiàn zài zhù zài běi jīng .",
+        "en": "I come from Vietnam and now live in Beijing."
+      },
+      "usageNote": "[GF2021:L2:4915] Source entry: 来自; láizì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w19",
+      "hanzi": "友好",
+      "pinyin": "yǒu hǎo",
+      "meaning": "friendly",
+      "meaningVi": "thân thiện",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "大家对新同学很友好。",
+        "py": "dà jiā duì xīn tóng xué hěn yǒu hǎo .",
+        "en": "Everyone is friendly to the new classmate."
+      },
+      "usageNote": "[GF2021:L2:9861] Source entry: 友好; yǒuhǎo; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w20",
+      "hanzi": "热情",
+      "pinyin": "rè qíng",
+      "meaning": "enthusiastic; welcoming",
+      "meaningVi": "nhiệt tình",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "组长很热情，给我介绍朋友。",
+        "py": "zǔ zhǎng hěn rè qíng , gěi wǒ jiè shào péng you .",
+        "en": "The group leader is welcoming and introduces friends to me."
+      },
+      "usageNote": "[GF2021:L2:6681] Source entry: 热情; rèqíng; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w21",
+      "hanzi": "可能",
+      "pinyin": "kě néng",
+      "meaning": "may; possible",
+      "meaningVi": "có thể",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "明天可能下雨，我们先看天气。",
+        "py": "míng tiān kě néng xià yǔ , wǒ men xiān kàn tiān qì .",
+        "en": "It may rain tomorrow; let us check the weather first."
+      },
+      "usageNote": "[GF2021:L2:4705] Source entry: 可能; kěnéng; 动、形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u01-w22",
+      "hanzi": "普通话",
+      "pinyin": "pǔ tōng huà",
+      "meaning": "standard Mandarin",
+      "meaningVi": "tiếng Phổ thông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们一起练习普通话。",
+        "py": "wǒ men yì qǐ liàn xí pǔ tōng huà .",
+        "en": "We practise standard Mandarin together."
+      },
+      "usageNote": "[GF2021:L2:6193] Source entry: 普通话; pǔtōnghuà; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "自",
+      "pinyin": "zì",
+      "meaning": "self",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "自",
+          "role": "whole",
+          "gloss": "self"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 自 in 自己 / 来自. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "自己",
+          "p": "zì jǐ",
+          "m": "oneself"
+        },
+        {
+          "w": "来自",
+          "p": "lái zì",
+          "m": "to come from"
+        }
+      ]
+    },
+    {
+      "hanzi": "组",
+      "pinyin": "zǔ",
+      "meaning": "group; organize",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "组",
+          "role": "whole",
+          "gloss": "group; organize"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 组 in 小组 / 组. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "小组",
+          "p": "xiǎo zǔ",
+          "m": "small group"
+        },
+        {
+          "w": "组",
+          "p": "zǔ",
+          "m": "group; to organize"
+        }
+      ]
+    },
+    {
+      "hanzi": "参",
+      "pinyin": "cān",
+      "meaning": "to participate",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "参",
+          "role": "whole",
+          "gloss": "to participate"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 参 in 参加. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "参加",
+          "p": "cān jiā",
+          "m": "to participate in"
+        }
+      ]
+    },
+    {
+      "hanzi": "活",
+      "pinyin": "huó",
+      "meaning": "living; activity",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "活",
+          "role": "whole",
+          "gloss": "living; activity"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 活 in 活动. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "活动",
+          "p": "huó dòng",
+          "m": "activity; to move about"
+        }
+      ]
+    },
+    {
+      "hanzi": "留",
+      "pinyin": "liú",
+      "meaning": "to stay; retain",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "留",
+          "role": "whole",
+          "gloss": "to stay; retain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 留 in 留学生. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "留学生",
+          "p": "liú xué shēng",
+          "m": "international student"
+        }
+      ]
+    },
+    {
+      "hanzi": "普",
+      "pinyin": "pǔ",
+      "meaning": "general; common",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "普",
+          "role": "whole",
+          "gloss": "general; common"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 普 in 普通话 / 普通. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "普通话",
+          "p": "pǔ tōng huà",
+          "m": "standard Mandarin"
+        },
+        {
+          "w": "普通",
+          "p": "pǔ tōng",
+          "m": "ordinary"
+        }
+      ]
+    },
+    {
+      "hanzi": "它",
+      "pinyin": "tā",
+      "meaning": "it",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "它",
+          "role": "whole",
+          "gloss": "it"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 它 in 它 / 它们. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "它",
+          "p": "tā",
+          "m": "it"
+        },
+        {
+          "w": "它们",
+          "p": "tā men",
+          "m": "they, for things"
+        }
+      ]
+    },
+    {
+      "hanzi": "咱",
+      "pinyin": "zán",
+      "meaning": "we, including the listener",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "咱",
+          "role": "whole",
+          "gloss": "we, including the listener"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 咱 in 咱 / 咱们. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "咱",
+          "p": "zán",
+          "m": "we; I in some northern informal contexts"
+        },
+        {
+          "w": "咱们",
+          "p": "zán men",
+          "m": "we, including the listener"
+        }
+      ]
+    },
+    {
+      "hanzi": "情",
+      "pinyin": "qíng",
+      "meaning": "feeling; situation",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "情",
+          "role": "whole",
+          "gloss": "feeling; situation"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 情 in 热情. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "热情",
+          "p": "rè qíng",
+          "m": "warm; welcoming"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u01-g二06",
+      "pattern": "大家 / 别人 / 自己 · 它 / 它们 · 咱 / 咱们",
+      "purpose": "Refer to the right people or things",
+      "explanation": "大家 refers to everyone in the relevant group; 别人 means other people. 自己 refers back to the relevant person: 我自己 / 他自己; do not assume its referent without context. 它/它们 normally refer to things or animals in writing. 咱们 explicitly includes the listener; 我们 may include or exclude them. 咱 is northern and informal, and can represent I or we according to context; 咱们 is clearer for inclusive we.",
+      "examples": [
+        {
+          "zh": "大家先介绍自己，再听别人介绍。",
+          "py": "dà jiā xiān jiè shào zì jǐ , zài tīng bié ren jiè shào .",
+          "en": "Everyone introduces themselves first, then listens to others."
+        },
+        {
+          "zh": "两本书在桌上，它们是我的。",
+          "py": "liǎng běn shū zài zhuō shàng , tā men shì wǒ de .",
+          "en": "The two books are on the table; they are mine."
+        },
+        {
+          "zh": "咱一起读吧。咱们都参加，你也来。",
+          "py": "zán yì qǐ dú ba . zán men dōu cān jiā , nǐ yě lái .",
+          "en": "Let us read together. All of us, including you, will participate."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "大家介绍我自己。",
+          "right": "我介绍我自己，大家介绍自己。",
+          "why": "Keep 自己 attached to the intended person; 大家自己 does not mean just me."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u01-g二37",
+      "pattern": "coordination · modification · verb-object · verb-complement · subject-predicate",
+      "purpose": "Recognize five ways words form a phrase",
+      "explanation": "A phrase need not be a full sentence. Coordination joins equals: 读书和聊天. Modification describes a head: 年轻的老师 / 很热情. Verb-object pairs an action and its object: 参加活动. Verb-complement adds a result or direction to an action: 读懂 / 走出来. Subject-predicate pairs a topic with what is said about it: 大家热情. These structural labels do not replace meaning or license arbitrary combinations; 读懂 is a recognition example here and gets fuller result-complement practice later.",
+      "examples": [
+        {
+          "zh": "读书和聊天，是今天的活动。",
+          "py": "dú shū hé liáo tiān , shì jīn tiān de huó dòng .",
+          "en": "Reading and chatting are today’s activity."
+        },
+        {
+          "zh": "年轻的老师很热情，大家参加活动。",
+          "py": "nián qīng de lǎo shī hěn rè qíng , dà jiā cān jiā huó dòng .",
+          "en": "The young teacher is welcoming; everyone joins the activity."
+        },
+        {
+          "zh": "这篇文章，我读懂了。大家热情，是我的看法。",
+          "py": "zhè piān wén zhāng , wǒ dú dǒng le . dà jiā rè qíng , shì wǒ de kàn fa .",
+          "en": "I have read and understood this passage. “Everyone is welcoming” is my impression."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我活动参加。",
+          "right": "我参加活动。",
+          "why": "In this basic verb-object phrase the action 参加 precedes its object 活动."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u01-g二01",
+      "pattern": "可能 / 可以 / 会 + action",
+      "purpose": "Separate possibility, permission and predicted events",
+      "explanation": "可能 expresses uncertainty: 明天可能下雨. 可以 can grant permission or indicate feasibility: 可以参加. 会 can predict an event: 明天会下雨, as well as learned ability from earlier lessons. A prediction is not proof; use 可能 when uncertain. Put the modal before the main action and use 不可能/不可以/不会 for the relevant negative meaning.",
+      "examples": [
+        {
+          "zh": "我可以参加吗？可以，明天可能还有新同学。",
+          "py": "wǒ kě yǐ cān jiā ma ? kě yǐ , míng tiān kě néng hái yǒu xīn tóng xué .",
+          "en": "May I join? Yes; there may be more new classmates tomorrow."
+        },
+        {
+          "zh": "我会说一点普通话。明天可能下雨，也可能不下。",
+          "py": "wǒ huì shuō yī diǎn pǔ tōng huà . míng tiān kě néng xià yǔ , yě kě néng bù xià .",
+          "en": "I can speak a little Mandarin. It may rain tomorrow, or it may not."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "明天一定可能下雨。",
+          "right": "明天可能下雨。",
+          "why": "Do not combine a certainty claim with uncertain 可能 for the same prediction."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u01-d",
+    "title": "One new member",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what the new learner may join and who is included.",
+    "lines": [
+      {
+        "zh": "大家好，我是来自越南的留学生。",
+        "py": "dà jiā hǎo , wǒ shì lái zì yuè nán de liú xué shēng .",
+        "en": "Hello everyone; I am an international student from Vietnam.",
+        "speaker": "a"
+      },
+      {
+        "zh": "欢迎！我自己也刚来，想交朋友。",
+        "py": "huān yíng ! wǒ zì jǐ yě gāng lái , xiǎng jiāo péng yǒu .",
+        "en": "Welcome! I have also just arrived and want to make friends.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你们是同一个年级的吗？",
+        "py": "nǐ men shì tóng yī gè nián jí de ma ?",
+        "en": "Are you in the same school year?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是。班长和我同年级，别人不一定。",
+        "py": "bù shì . bān zhǎng hé wǒ tóng nián jí , bié ren bù yí dìng .",
+        "en": "No. The class monitor and I are in the same year; the others are not necessarily.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我可以参加你们的小组吗？",
+        "py": "wǒ kě yǐ cān jiā nǐ men de xiǎo zǔ ma ?",
+        "en": "May I join your small group?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以。四个人组成一个组，你来就有五个人。",
+        "py": "kě yǐ . sì gè rén zǔ chéng yī gè zǔ , nǐ lái jiù yǒu wǔ gè rén .",
+        "en": "Yes. Four people form one group; with you, there will be five.",
+        "speaker": "b"
+      },
+      {
+        "zh": "组长是谁？她看起来很年轻。",
+        "py": "zǔ zhǎng shì shéi ? tā kàn qǐ lái hěn nián qīng .",
+        "en": "Who is the group leader? She looks young.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那位同学。她很热情，大家也很友好。",
+        "py": "nà wèi tóng xué . tā hěn rè qíng , dà jiā yě hěn yǒu hǎo .",
+        "en": "That classmate. She is welcoming, and everyone is friendly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "今天有什么活动？我想练普通话。",
+        "py": "jīn tiān yǒu shén me huó dòng ? wǒ xiǎng liàn pǔ tōng huà .",
+        "en": "What activities are there today? I want to practise Mandarin.",
+        "speaker": "a"
+      },
+      {
+        "zh": "咱们先读书，再聊天。咱一起读吧。",
+        "py": "zán men xiān dú shū , zài liáo tiān . zán yì qǐ dú ba .",
+        "en": "Let us read first, then chat. Let us read together.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这两本书可以用吗？它们是你的吗？",
+        "py": "zhè liǎng běn shū kě yǐ yòng ma ? tā men shì nǐ de ma ?",
+        "en": "May we use these two books? Are they yours?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，它们是小组的。明天可能下雨，明天的活动先不定。",
+        "py": "kě yǐ , tā men shì xiǎo zǔ de . míng tiān kě néng xià yǔ , míng tiān de huó dòng xiān bù dìng .",
+        "en": "Yes, they belong to the group. It may rain tomorrow; tomorrow’s activity is not decided yet.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the newcomer want?",
+        "choices": [
+          "Join the group and practise Mandarin",
+          "Lead an examination",
+          "Buy the two books"
+        ],
+        "answer": "Join the group and practise Mandarin"
+      },
+      {
+        "type": "detail",
+        "q": "How many people are there after the newcomer joins?",
+        "choices": [
+          "Five",
+          "Four",
+          "Ten"
+        ],
+        "answer": "Five"
+      },
+      {
+        "type": "inference",
+        "q": "Does 咱们 exclude the newcomer being addressed?",
+        "choices": [
+          "No, it includes the listener",
+          "Yes, it always excludes the listener",
+          "It refers only to books"
+        ],
+        "answer": "No, it includes the listener"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "聊天",
+        "pinyin": "liáo tiān",
+        "meaning": "to chat"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u01-r",
+    "title": "A small group, not one year group",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to identify the people, books and uncertain plan.",
+    "lines": [
+      {
+        "zh": "我是留学生，来自越南。我想交朋友，也想练普通话。",
+        "py": "wǒ shì liú xué shēng , lái zì yuè nán . wǒ xiǎng jiāo péng yǒu , yě xiǎng liàn pǔ tōng huà .",
+        "en": "I am an international student from Vietnam. I want to make friends and practise Mandarin."
+      },
+      {
+        "zh": "今天我参加一个小组。原来四个人组成一个组，我来以后有五个人。",
+        "py": "jīn tiān wǒ cān jiā yī gè xiǎo zǔ . yuán lái sì gè rén zǔ chéng yī gè zǔ , wǒ lái yǐ hòu yǒu wǔ gè rén .",
+        "en": "Today I joined a small group. Originally four people formed it; after I joined there were five."
+      },
+      {
+        "zh": "组长很年轻，也很热情。班长也在，大家对我很友好。",
+        "py": "zǔ zhǎng hěn nián qīng , yě hěn rè qíng . bān zhǎng yě zài , dà jiā duì wǒ hěn yǒu hǎo .",
+        "en": "The group leader is young and welcoming. The class monitor is there too, and everyone is friendly to me."
+      },
+      {
+        "zh": "我们不是一个年级的，班长和一位同学同年级。",
+        "py": "wǒ men bù shì yī gè nián jí de , bān zhǎng hé yī wèi tóng xué tóng nián jí .",
+        "en": "We are not all in one school year; the monitor and one classmate are in the same year."
+      },
+      {
+        "zh": "大家先介绍自己，再听别人介绍。今天的活动是读书和聊天。",
+        "py": "dà jiā xiān jiè shào zì jǐ , zài tīng bié ren jiè shào . jīn tiān de huó dòng shì dú shū hé liáo tiān .",
+        "en": "Everyone introduces themselves first, then listens to others. Today’s activity is reading and chatting."
+      },
+      {
+        "zh": "桌上有两本书，它们是小组的。我问可以用吗，组长说可以。",
+        "py": "zhuō shàng yǒu liǎng běn shū , tā men shì xiǎo zǔ de . wǒ wèn kě yǐ yòng ma , zǔ zhǎng shuō kě yǐ .",
+        "en": "There are two books on the table; they belong to the group. I asked if I could use them and the leader said yes."
+      },
+      {
+        "zh": "组长说咱们一起读，咱们也包括我。这个群有十个人，它比今天的小组大。",
+        "py": "zǔ zhǎng shuō zán men yì qǐ dú , zán men yě bāo kuò wǒ . zhè gè qún yǒu shí gè rén , tā bǐ jīn tiān de xiǎo zǔ dà .",
+        "en": "The leader said we would all read together, including me. The group chat has ten people; it is larger than today’s small group."
+      },
+      {
+        "zh": "明天可能下雨，组长还没定活动。可以参加，不是已经定了明天的时间。",
+        "py": "míng tiān kě néng xià yǔ , zǔ zhǎng hái méi dìng huó dòng . kě yǐ cān jiā , bù shì yǐ jīng dìng le míng tiān de shí jiān .",
+        "en": "It may rain tomorrow; the leader has not decided the activity. Being allowed to join does not mean tomorrow’s time is already settled."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What changes today?",
+        "choices": [
+          "A learner joins a welcoming study group",
+          "The group chat is closed",
+          "Everyone changes year group"
+        ],
+        "answer": "A learner joins a welcoming study group"
+      },
+      {
+        "type": "detail",
+        "q": "Whose books are on the table?",
+        "choices": [
+          "The small group’s",
+          "The newcomer’s",
+          "A shop’s"
+        ],
+        "answer": "The small group’s"
+      },
+      {
+        "type": "inference",
+        "q": "Is tomorrow’s time settled?",
+        "choices": [
+          "No, the activity is undecided",
+          "Yes, permission proves the time",
+          "Yes, ten o’clock is stated"
+        ],
+        "answer": "No, the activity is undecided"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我是留学生，来自越南。我想交朋友，也想练【普通话】。",
+          "py": "wǒ shì liú xué shēng , lái zì yuè nán . wǒ xiǎng jiāo péng yǒu , yě xiǎng liàn pǔ tōng huà .",
+          "en": "I am an international student from Vietnam. I want to make friends and practise Mandarin."
+        },
+        {
+          "zh": "大家先介绍【自己】，再听别人介绍。今天的活动是读书和聊天。",
+          "py": "dà jiā xiān jiè shào zì jǐ , zài tīng bié ren jiè shào . jīn tiān de huó dòng shì dú shū hé liáo tiān .",
+          "en": "Everyone introduces themselves first, then listens to others. Today’s activity is reading and chatting."
+        }
+      ],
+      "bank": [
+        "普通话",
+        "自己",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "聊天",
+        "pinyin": "liáo tiān",
+        "meaning": "to chat"
+      },
+      {
+        "hanzi": "原来",
+        "pinyin": "yuán lái",
+        "meaning": "originally; it turns out"
+      },
+      {
+        "hanzi": "包括",
+        "pinyin": "bāo kuò",
+        "meaning": "to include"
+      },
+      {
+        "hanzi": "群",
+        "pinyin": "qún",
+        "meaning": "group chat; group"
+      },
+      {
+        "hanzi": "已经",
+        "pinyin": "yǐ jīng",
+        "meaning": "already"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u01-media",
+      "title": "Included",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about inclusive we.",
+      "lines": [
+        {
+          "zh": "我可以参加活动吗？我想交朋友。",
+          "py": "wǒ kě yǐ cān jiā huó dòng ma ? wǒ xiǎng jiāo péng yǒu .",
+          "en": "May I join the activity? I would like to make friends.",
+          "speaker": "a"
+        },
+        {
+          "zh": "可以。大家介绍自己，你也介绍一下。",
+          "py": "kě yǐ . dà jiā jiè shào zì jǐ , nǐ yě jiè shào yī xià .",
+          "en": "Yes. Everyone introduces themselves; you should too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你说咱们，是不是也有我？",
+          "py": "nǐ shuō zán men , shì bú shì yě yǒu wǒ ?",
+          "en": "When you say “we”, does that include me?",
+          "speaker": "a"
+        },
+        {
+          "zh": "有你。咱们一起读书，也一起练普通话。",
+          "py": "yǒu nǐ . zán men yì qǐ dú shū , yě yì qǐ liàn pǔ tōng huà .",
+          "en": "It includes you. We read and practise Mandarin together.",
+          "speaker": "b"
+        },
+        {
+          "zh": "组长很友好，也很热情。明天还是这里吗？",
+          "py": "zǔ zhǎng hěn yǒu hǎo , yě hěn rè qíng . míng tiān hái shi zhè lǐ ma ?",
+          "en": "The group leader is friendly and welcoming. Here again tomorrow?",
+          "speaker": "a"
+        },
+        {
+          "zh": "可能下雨，先别定。欢迎你，不是猜天气。",
+          "py": "kě néng xià yǔ , xiān bié dìng . huān yíng nǐ , bù shì cāi tiān qì .",
+          "en": "It may rain; let us not decide yet. Welcoming you does not mean guessing the weather.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the last line distinguish?",
+          "choices": [
+            "Welcoming a member from predicting weather",
+            "A group from a classroom wall",
+            "Permission from refusal"
+          ],
+          "answer": "Welcoming a member from predicting weather"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u01-t1",
+      "phrase": "s2-u01-w11",
+      "audio": {
+        "zh": "四个人组成一个组，你来就有五个人。",
+        "py": "sì gè rén zǔ chéng yī gè zǔ , nǐ lái jiù yǒu wǔ gè rén .",
+        "en": "Four people form a group; with you there will be five."
+      },
+      "statement": "There are five after the listener joins.",
+      "answer": true,
+      "why": "Four plus one is five."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u01-t2",
+      "phrase": "s2-u01-w21",
+      "audio": {
+        "zh": "明天可能下雨，还没定活动。",
+        "py": "míng tiān kě néng xià yǔ , hái méi dìng huó dòng .",
+        "en": "It may rain tomorrow; the activity is not settled."
+      },
+      "statement": "Tomorrow’s activity is already decided.",
+      "answer": false,
+      "why": "还没定 explicitly keeps it undecided."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u01-t3",
+      "phrase": "s2-u01-w12",
+      "prompt": {
+        "zh": "我可以参加你们的小组吗？",
+        "py": "wǒ kě yǐ cān jiā nǐ men de xiǎo zǔ ma ?",
+        "en": "May I join your group?"
+      },
+      "choices": [
+        "可以，咱们一起读吧。",
+        "它是白色的。",
+        "两块钱。"
+      ],
+      "answer": "可以，咱们一起读吧。",
+      "why": "Grant participation and include the listener."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u01-t4",
+      "phrase": "s2-u01-w18",
+      "prompt": {
+        "zh": "你来自哪里？",
+        "py": "nǐ lái zì nǎ lǐ ?",
+        "en": "Where do you come from?"
+      },
+      "choices": [
+        "我来自越南。",
+        "我明天可能去。",
+        "这本书很好。"
+      ],
+      "answer": "我来自越南。",
+      "why": "Answer the origin question."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u01-t5",
+      "phrase": "s2-u01-w02",
+      "line": {
+        "zh": "大家先介绍【自己】。",
+        "py": "dà jiā xiān jiè shào zì jǐ .",
+        "en": "Everyone introduces themselves first."
+      },
+      "blankPy": "zì jǐ"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u01-t6",
+      "phrase": "s2-u01-w08",
+      "line": {
+        "zh": "我们的【小组】有五个人。",
+        "py": "wǒ men de xiǎo zǔ yǒu wǔ gè rén .",
+        "en": "Our small group has five people."
+      },
+      "blankPy": "xiǎo zǔ"
+    },
+    {
+      "type": "match",
+      "id": "s2-u01-t7",
+      "phrase": "s2-u01-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The two books belong to the group.",
+          "right": {
+            "zh": "两本书在桌上，它们是小组的。",
+            "py": "liǎng běn shū zài zhuō shàng , tā men shì xiǎo zǔ de .",
+            "en": "The two books belong to the group."
+          }
+        },
+        {
+          "left": "The group chat is larger than the small group.",
+          "right": {
+            "zh": "这个群有十个人，它比小组大。",
+            "py": "zhè gè qún yǒu shí gè rén , tā bǐ xiǎo zǔ dà .",
+            "en": "The group chat is larger than the small group."
+          }
+        },
+        {
+          "left": "Let us read together, including you.",
+          "right": {
+            "zh": "咱们一起读吧。",
+            "py": "zán men yì qǐ dú ba .",
+            "en": "Let us read together, including you."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u01-t8",
+      "phrase": "s2-u01-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The group leader is welcoming.",
+          "right": {
+            "zh": "组长很热情。",
+            "py": "zǔ zhǎng hěn rè qíng .",
+            "en": "The group leader is welcoming."
+          }
+        },
+        {
+          "left": "The monitor and I are in the same year.",
+          "right": {
+            "zh": "班长和我同年级。",
+            "py": "bān zhǎng hé wǒ tóng nián jí .",
+            "en": "The monitor and I are in the same year."
+          }
+        },
+        {
+          "left": "She is a young teacher.",
+          "right": {
+            "zh": "她是一位年轻的老师。",
+            "py": "tā shì yī wèi nián qīng de lǎo shī .",
+            "en": "She is a young teacher."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u01-t9",
+      "phrase": "s2-u01-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The library is quieter than the shopping centre.",
+          "right": {
+            "zh": "图书馆比商场安静。",
+            "py": "tú shū guǎn bǐ shāng chǎng ān jìng .",
+            "en": "The library is quieter than the shopping centre."
+          }
+        },
+        {
+          "left": "The shopping centre is not as quiet as the library.",
+          "right": {
+            "zh": "商场没有图书馆安静。",
+            "py": "shāng chǎng méi yǒu tú shū guǎn ān jìng .",
+            "en": "The shopping centre is not as quiet as the library."
+          }
+        },
+        {
+          "left": "The north gate: in front of the school, on the east side of the road.",
+          "right": {
+            "zh": "北门。学校前边，路的东边。",
+            "py": "běi mén . xué xiào qián biān , lù de dōng biān .",
+            "en": "The north gate: in front of the school, on the east side of the road."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Joining without assuming",
+      "natural": {
+        "zh": "我可以参加吗？",
+        "py": "wǒ kě yǐ cān jiā ma ?",
+        "en": "May I join?"
+      },
+      "note": "Ask before treating membership as decided."
+    },
+    {
+      "situation": "Inclusive invitation",
+      "natural": {
+        "zh": "咱们一起读吧。",
+        "py": "zán men yì qǐ dú ba .",
+        "en": "Let us read together."
+      },
+      "note": "咱们 explicitly includes the listener; it is friendly informal wording, not a requirement for all regions."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u01-speak",
+    "title": "Joining the friend group",
+    "place": "A language-exchange meeting",
+    "context": "Refer to people and link ideas naturally.",
+    "goal": "Introduce yourself to a new group",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你来自哪里？",
+        "pinyin": "nǐ lái zì nǎ lǐ ?",
+        "meaning": "Where do you come from?",
+        "intent": "Introduce your origin",
+        "examples": [
+          "我来自越南。"
+        ],
+        "accept": [
+          "^我来自越南。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你想参加吗？",
+        "pinyin": "nǐ xiǎng cān jiā ma ?",
+        "meaning": "Would you like to join?",
+        "intent": "Accept and name a purpose",
+        "examples": [
+          "想，我想练普通话。"
+        ],
+        "accept": [
+          "^想，我想练普通话。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二06, 二37, 二01. Native check: northern informal 咱 versus broadly usable 咱们, the metalinguistic phrase card, 群 versus 小组 referents and inclusive invitation register. 读懂 is explicitly recognition-only here; fuller result complements follow later. Planned retrieval 一18 / 一38 / 一01 / 一31: 图书馆比商场安静。, 商场没有图书馆安静。, 北门。学校前边，路的东边。."
+}
