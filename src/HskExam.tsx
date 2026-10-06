@@ -3,7 +3,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { ArrowLeft, Check, Clock, Flag } from "@phosphor-icons/react";
 import { AudioButton, Pinyin } from "./components";
 import { MoSays } from "./Mascot";
-import { finishHskRun, hskDB, saveHskAnswer } from "./hsk-db";
+import { finishHskRun, hskDB, saveHskAnswer, markHskItemSeen } from "./hsk-db";
 import {
   gradeRun,
   hskItemById,
@@ -25,6 +25,12 @@ export default function HskExam({
     [busy, setBusy] = useState(false),
     [error, setError] = useState("");
   const [optimistic, setOptimistic] = useState<Record<string, HskAnswer>>({});
+  const visibleItem = run?.itemIds[index];
+  useEffect(() => {
+    if (visibleItem && run && !run.finishedAt)
+      void markHskItemSeen(id, visibleItem).catch(() =>
+        setError("Your question history could not be saved. Reload before continuing."));
+  }, [id, visibleItem, run?.finishedAt]);
   useEffect(() => {
     const t = setInterval(() => setNow(Date.now()), 500);
     return () => clearInterval(t);
@@ -83,17 +89,17 @@ export default function HskExam({
   const choices = [...q.choices.slice(offset), ...q.choices.slice(0, offset)];
   const answered = Object.values(run.answers).filter((a) => a.value).length;
   return (
-    <section className="hsk-exam" aria-label="HSK reading practice">
+    <section className="hsk-exam" aria-label="HSK practice">
       <div className="hsk-exam-bar">
         <button className="text-button" disabled={busy} onClick={onExit}>
           <ArrowLeft /> Save & leave
         </button>
         <span>
           {run.unit === "sample"
-            ? "Timed reading sample"
+            ? "Timed practice sample"
             : run.unit === "repair"
               ? "Mistake repair"
-              : "Reading checkpoint"}
+              : `Level ${run.level ?? 1} checkpoint`}
         </span>
         <span
           className="hsk-clock"
@@ -127,10 +133,18 @@ export default function HskExam({
           </button>
         ))}
       </nav>
-      <h1>Choose the missing word.</h1>
-      <p className="hsk-question" lang="zh-CN">
-        {q.prompt.replace("___", "（　）")}
-      </p>
+      <h1>{q.format === "listening" ? "Listen, then choose." : q.format === "reading" ? "Read, then choose." : q.format === "ordering" ? "Choose the ordinary word order." : "Choose the missing word."}</h1>
+      {q.format === "listening" && <>
+        <AudioButton key={q.id} text={q.sentence} mood="clear" label="Play question" />
+        {answer?.supported && <p className="hsk-question" lang="zh-CN">{q.sentence}</p>}
+      </>}
+      {q.format === "reading" && <p className="hsk-question" lang="zh-CN">{q.sentence}</p>}
+      {q.format === "ordering" && <>
+        <p className="muted">Use the ordinary order taught in the course to answer the question. Other marked or poetic orders are outside this exercise.</p>
+        <p className="hsk-question" lang="zh-CN">{[...(q.segments ?? [])].reverse().map((c) => c.zh).join(" / ")}</p>
+      </>}
+      <p className="hsk-question" lang="zh-CN">{q.prompt.replace("___", "（　）")}</p>
+      {answer?.supported && q.promptPy && <Pinyin text={q.promptPy} />}
       <fieldset className="hsk-choices" disabled={busy || expired}>
         <legend className="sr-only">Answer for question {index + 1}</legend>
         {choices.map((c, i) => (
@@ -161,7 +175,7 @@ export default function HskExam({
         >
           {answer?.supported
             ? "Pinyin used · this attempt is supported"
-            : "Show option pinyin · marks this attempt as supported"}
+            : q.format === "listening" ? "Show words and pinyin · marks this attempt as supported" : "Show option pinyin · marks this attempt as supported"}
         </button>
       )}
       {error && <p role="alert">{error}</p>}
@@ -196,7 +210,7 @@ export default function HskExam({
         )}
       </div>
       <p className="muted">
-        Original Kiyo reading practice. Raw results only; this is not a full HSK
+        Original Kiyo practice. Raw results only; this is not a full HSK
         paper or an official score.
       </p>
     </section>

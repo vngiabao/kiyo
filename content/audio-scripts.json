@@ -104,7 +104,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -486,6 +487,7 @@
     ],
     "kinds": [
       "word",
+      "hsk-ordering-part",
       "task-match"
     ]
   },
@@ -533,6 +535,8 @@
     "kinds": [
       "word",
       "character",
+      "hsk-word",
+      "hsk-ordering-part",
       "task-match"
     ]
   },
@@ -549,7 +553,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word"
     ]
   },
   {
@@ -728,6 +733,7 @@
     ],
     "kinds": [
       "word",
+      "hsk-word",
       "task-reply-choice",
       "task-cloze"
     ]
@@ -789,7 +795,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -868,7 +875,6 @@
     ],
     "kinds": [
       "word",
-      "reader-lookup",
       "dialogue"
     ]
   },
@@ -883,7 +889,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "character",
+      "reader-lookup"
     ]
   },
   {
@@ -946,6 +954,7 @@
     ],
     "kinds": [
       "word",
+      "hsk-word",
       "task-match"
     ]
   },
@@ -1344,7 +1353,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -1744,7 +1754,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -1881,6 +1892,7 @@
       "word",
       "character",
       "reader-lookup",
+      "hsk-ordering-part",
       "hsk-word"
     ]
   },
@@ -1976,7 +1988,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -2069,7 +2082,9 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -2218,7 +2233,8 @@
     ],
     "kinds": [
       "word",
-      "character"
+      "character",
+      "hsk-word"
     ]
   },
   {
@@ -2563,7 +2579,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word"
     ]
   },
   {
@@ -2801,7 +2818,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word"
     ]
   },
   {
@@ -2866,6 +2884,7 @@
     ],
     "kinds": [
       "word",
+      "hsk-ordering-part",
       "hsk-word"
     ]
   },
@@ -2923,7 +2942,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -2954,7 +2974,9 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -2982,7 +3004,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -3598,6 +3622,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup",
       "hsk-word"
     ]
@@ -3849,6 +3874,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -3907,8 +3933,7 @@
       "cool"
     ],
     "kinds": [
-      "word",
-      "reader-lookup"
+      "word"
     ]
   },
   {
@@ -4135,7 +4160,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "character",
+      "reader-lookup"
     ]
   },
   {
@@ -4377,7 +4404,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -4544,6 +4572,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -4559,6 +4588,7 @@
     ],
     "kinds": [
       "example",
+      "word",
       "task-reply-choice",
       "task-match"
     ]
@@ -4741,7 +4771,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -4838,8 +4869,11 @@
     "kinds": [
       "word",
       "grammar",
+      "usage",
+      "conversation-answer",
       "task-truefalse",
-      "task-match"
+      "task-match",
+      "task-reply-choice"
     ]
   },
   {
@@ -5297,7 +5331,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -5534,7 +5569,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -5777,6 +5813,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -5840,6 +5877,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -6351,7 +6389,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -6410,7 +6450,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -6522,7 +6563,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -6550,7 +6593,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -6580,7 +6625,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word"
     ]
   },
   {
@@ -6726,7 +6772,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word"
     ]
   },
   {
@@ -7311,7 +7358,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -7339,7 +7387,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part",
+      "hsk-word"
     ]
   },
   {
@@ -7367,7 +7417,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -7785,8 +7836,7 @@
       "cool"
     ],
     "kinds": [
-      "word",
-      "reader-lookup"
+      "word"
     ]
   },
   {
@@ -8453,7 +8503,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -8849,7 +8900,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -9124,7 +9176,8 @@
     "kinds": [
       "word",
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-word"
     ]
   },
   {
@@ -9667,7 +9720,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -9695,7 +9749,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-word"
     ]
   },
   {
@@ -10755,7 +10810,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -11145,7 +11201,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part",
+      "hsk-word"
     ]
   },
   {
@@ -12360,8 +12418,7 @@
       "cool"
     ],
     "kinds": [
-      "word",
-      "reader-lookup"
+      "word"
     ]
   },
   {
@@ -13910,6 +13967,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -15261,6 +15319,1080 @@
     ]
   },
   {
+    "id": "01bc01b32975b903",
+    "text": "北",
+    "pinyin": "běi",
+    "meaning": "north",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "74f213c94ff29bdc",
+    "text": "地图的上边是北。",
+    "pinyin": "dì tú de shàng biān shì běi .",
+    "meaning": "The top of the map is north.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "db3274424dabf973",
+    "text": "北边",
+    "pinyin": "běi biān",
+    "meaning": "on the north side",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b86341349d3e02b6",
+    "text": "车站在学校北边。",
+    "pinyin": "chē zhàn zài xué xiào běi biān .",
+    "meaning": "The station is north of the school.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "5469a6af4ceaad28",
+    "text": "东",
+    "pinyin": "dōng",
+    "meaning": "east",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "eabfca32f9ddbe22",
+    "text": "面向北，右边是东。",
+    "pinyin": "miàn xiàng běi , yòu biān shì dōng .",
+    "meaning": "When facing north, east is on the right.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "691b1216093d230f",
+    "text": "东边",
+    "pinyin": "dōng biān",
+    "meaning": "on the east side",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "13f6e6c67acec44e",
+    "text": "入口在楼的东边。",
+    "pinyin": "rù kǒu zài lóu de dōng biān .",
+    "meaning": "The entrance is on the east side of the building.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "b2f94b1034506f37",
+    "text": "南",
+    "pinyin": "nán",
+    "meaning": "south",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "df2998d708b033a4",
+    "text": "地图的下边是南。",
+    "pinyin": "dì tú de xià biān shì nán .",
+    "meaning": "The bottom of the map is south.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "3053fe9592d52496",
+    "text": "南边",
+    "pinyin": "nán biān",
+    "meaning": "on the south side",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "15245087656fb6c7",
+    "text": "商店在学校南边。",
+    "pinyin": "shāng diàn zài xué xiào nán biān .",
+    "meaning": "The shop is south of the school.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "b9f0c815459caa83",
+    "text": "西",
+    "pinyin": "xī",
+    "meaning": "west",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "598717bd05a0a398",
+    "text": "面向北，左边是西。",
+    "pinyin": "miàn xiàng běi , zuǒ biān shì xī .",
+    "meaning": "When facing north, west is on the left.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "e619ad8e60ba2132",
+    "text": "西边",
+    "pinyin": "xī biān",
+    "meaning": "on the west side",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "0dff35848ff63c92",
+    "text": "书店在学校西边。",
+    "pinyin": "shū diàn zài xué xiào xī biān .",
+    "meaning": "The bookshop is west of the school.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "60be66d61586b95c",
+    "text": "后",
+    "pinyin": "hòu",
+    "meaning": "behind; after",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "a3ba25f528143b83",
+    "text": "先看前，再看后。",
+    "pinyin": "xiān kàn qián , zài kàn hòu .",
+    "meaning": "Look in front first, then behind.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "7e7ccabc40613c6a",
+    "text": "后边",
+    "pinyin": "hòu biān",
+    "meaning": "behind; at the back",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "76d8883dea3dc4ce",
+    "text": "停车场在楼后边。",
+    "pinyin": "tíng chē chǎng zài lóu hòu biān .",
+    "meaning": "The car park is behind the building.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "6044e9f095e0b5e4",
+    "text": "前",
+    "pinyin": "qián",
+    "meaning": "in front; before",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "6241fb8d17f49774",
+    "text": "我们在门前等你。",
+    "pinyin": "wǒ men zài mén qián děng nǐ .",
+    "meaning": "We are waiting in front of the gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "1e576dc6f553f400",
+    "text": "前边",
+    "pinyin": "qián biān",
+    "meaning": "in front; at the front",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "ee0e06ea794f2a5f",
+    "text": "前边有一个入口。",
+    "pinyin": "qián biān yǒu yī gè rù kǒu .",
+    "meaning": "There is an entrance ahead.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "e2e0c454e5d53186",
+    "text": "左",
+    "pinyin": "zuǒ",
+    "meaning": "left",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "24bb0c1b5f8af0dd",
+    "text": "这个箭头指左。",
+    "pinyin": "zhè gè jiàn tóu zhǐ zuǒ .",
+    "meaning": "This arrow points left.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-match"
+    ]
+  },
+  {
+    "id": "14ab1f2bce0a8777",
+    "text": "右",
+    "pinyin": "yòu",
+    "meaning": "right",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "002293bce7643c10",
+    "text": "那个箭头指右。",
+    "pinyin": "nà gè jiàn tóu zhǐ yòu .",
+    "meaning": "That arrow points right.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-match"
+    ]
+  },
+  {
+    "id": "8cae94088bff52d7",
+    "text": "上边",
+    "pinyin": "shàng biān",
+    "meaning": "above; upper side",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "99519e215e9f03b9",
+    "text": "地图上边有一个北字。",
+    "pinyin": "dì tú shàng biān yǒu yī gè běi zì .",
+    "meaning": "There is a north character at the top of the map.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "a5089425543b417e",
+    "text": "下边",
+    "pinyin": "xià biān",
+    "meaning": "below; lower side",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "eedbe6eba8be9751",
+    "text": "地图下边有一个南字。",
+    "pinyin": "dì tú xià biān yǒu yī gè nán zì .",
+    "meaning": "There is a south character at the bottom of the map.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "79f883a9fb832c8b",
+    "text": "中间",
+    "pinyin": "zhōng jiān",
+    "meaning": "in the middle",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "d5efd05cfaeee6da",
+    "text": "我在两个入口中间。",
+    "pinyin": "wǒ zài liǎng gè rù kǒu zhōng jiān .",
+    "meaning": "I am between the two entrances.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "fde70766e98aa81d",
+    "text": "门里、门外，楼上、楼下。",
+    "pinyin": "mén lǐ , mén wài , lóu shàng , lóu xià .",
+    "meaning": "Inside and outside the gate; upstairs and downstairs.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "5822fe2382e6e4e8",
+    "text": "在哪儿？在北门外。",
+    "pinyin": "zài nǎr ? zài běi mén wài .",
+    "meaning": "Where? Outside the north gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "7046be63f5ebc38d",
+    "text": "你面向哪边？",
+    "pinyin": "nǐ miàn xiàng nǎ biān ?",
+    "meaning": "Which way are you facing?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "usage"
+    ]
+  },
+  {
+    "id": "8f8a41e1fea148d8",
+    "text": "在北门外。",
+    "pinyin": "zài běi mén wài .",
+    "meaning": "Outside the north gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "usage",
+      "conversation-answer"
+    ]
+  },
+  {
+    "id": "d67694a23c721c84",
+    "text": "还书",
+    "meaning": "to return; give back",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "3e9e85acce900ba8",
+    "text": "我明天还你的课本。",
+    "pinyin": "wǒ míng tiān huán nǐ de kè běn .",
+    "meaning": "I will return your textbook tomorrow.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "d5a26c3299dae33d",
+    "text": "朋友们",
+    "meaning": "neutral group suffix in 朋友们",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "276b433c90eedb65",
+    "text": "朋友们来我家。",
+    "pinyin": "péng you men lái wǒ jiā .",
+    "meaning": "My friends come to my home.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "9abfe3d2eebc8c79",
+    "text": "面条儿",
+    "pinyin": "miàn tiáor",
+    "meaning": "noodles, with a northern rhotic ending",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "ef9f7252714d55cc",
+    "text": "今天我们吃面条儿。",
+    "pinyin": "jīn tiān wǒ men chī miàn tiáor .",
+    "meaning": "Today we are having noodles.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "5a490d99246de50a",
+    "text": "进来",
+    "pinyin": "jìn lái",
+    "meaning": "to come in",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "6c8bb23986e20bf5",
+    "text": "朋友从门外进来。",
+    "pinyin": "péng you cóng mén wài jìn lái .",
+    "meaning": "My friend comes in from outside the door.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "cdfd23ad259cd75c",
+    "text": "进去",
+    "pinyin": "jìn qù",
+    "meaning": "to go in",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "69fcf80c096a5dac",
+    "text": "他们从门外进去。",
+    "pinyin": "tā men cóng mén wài jìn qù .",
+    "meaning": "They go in from outside the door.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-match"
+    ]
+  },
+  {
+    "id": "14ec0d3722961538",
+    "text": "门开了，请进。",
+    "pinyin": "mén kāi le , qǐng jìn .",
+    "meaning": "The door is open; please come in.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "f60d976a91507856",
+    "text": "请坐",
+    "pinyin": "qǐng zuò",
+    "meaning": "please sit down",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "task-reply-choice",
+      "task-match"
+    ]
+  },
+  {
+    "id": "97eb2d76abcb2199",
+    "text": "你口渴了？请坐，喝水吧。",
+    "pinyin": "nǐ kǒu kě le ? qǐng zuò , hē shuǐ ba .",
+    "meaning": "Are you thirsty? Please sit down and have water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "30d4711445a2d3f9",
+    "text": "坐下",
+    "pinyin": "zuò xià",
+    "meaning": "to sit down",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "bff7b24170277c31",
+    "text": "我坐下写今天的日记。",
+    "pinyin": "wǒ zuò xià xiě jīn tiān de rì jì .",
+    "meaning": "I sit down to write today’s diary.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "0e826095b60ccf03",
+    "text": "外",
+    "pinyin": "wài",
+    "meaning": "outside",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "d46976b1a92a9e15",
+    "text": "门外有一棵树。",
+    "pinyin": "mén wài yǒu yī kē shù .",
+    "meaning": "There is a tree outside the door.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-match"
+    ]
+  },
+  {
+    "id": "bff01f9cc7b66c85",
+    "text": "工人",
+    "pinyin": "gōng rén",
+    "meaning": "worker",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ab1eb23c19ece582",
+    "text": "我的邻居是工人。",
+    "pinyin": "wǒ de lín jū shì gōng rén .",
+    "meaning": "My neighbour is a worker.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "word",
+      "grammar",
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "635643d28367e5e0",
+    "text": "树",
+    "pinyin": "shù",
+    "meaning": "tree",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "0702469f342e92f4",
+    "text": "这棵树下有两个孩子。",
+    "pinyin": "zhè kē shù xià yǒu liǎng gè hái zi .",
+    "meaning": "There are two children under this tree.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "9e5bf0d2d993accb",
+    "text": "着",
+    "pinyin": "zhe",
+    "meaning": "neutral continuing-state particle",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "283154819408efa3",
+    "text": "门开着，请进。",
+    "pinyin": "mén kāi zhe , qǐng jìn .",
+    "meaning": "The door is open; please come in.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "af620f8352234e1a",
+    "text": "小孩儿",
+    "pinyin": "xiǎo háir",
+    "meaning": "young child, with a northern rhotic ending",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "672994313a47f3ed",
+    "text": "那个小孩儿在树下玩。",
+    "pinyin": "nà gè xiǎo háir zài shù xià wán .",
+    "meaning": "That young child is playing under the tree.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "08dddeac1319d6e8",
+    "text": "点",
+    "pinyin": "diǎn",
+    "meaning": "a little; classifier for a small amount",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "70f58d2076a193e7",
+    "text": "请喝点水。",
+    "pinyin": "qǐng hē diǎn shuǐ .",
+    "meaning": "Please have a little water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "005944e50b70d3c3",
+    "text": "桌子上有两个杯子。",
+    "pinyin": "zhuō zi shàng yǒu liǎng gè bēi zi .",
+    "meaning": "There are two cups on the table.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-match"
+    ]
+  },
+  {
+    "id": "445905122e87b990",
+    "text": "最后",
+    "pinyin": "zuì hòu",
+    "meaning": "last; finally",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "879cfc7d0b52cb06",
+    "text": "我们最后一起洗杯子。",
+    "pinyin": "wǒ men zuì hòu yì qǐ xǐ bēi zi .",
+    "meaning": "We wash the cups together at the end.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "70fb29929614c2b2",
+    "text": "坏",
+    "pinyin": "huài",
+    "meaning": "bad; broken",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "b2425c516145109c",
+    "text": "这个杯子坏了，别用。",
+    "pinyin": "zhè gè bēi zi huài le , bié yòng .",
+    "meaning": "This cup is broken; do not use it.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "cab2ed74f9ecca1f",
+    "text": "朋友们进来，我们一起吃面条儿。",
+    "pinyin": "péng you men jìn lái , wǒ men yì qǐ chī miàn tiáor .",
+    "meaning": "Our friends come in; we have noodles together.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "5b5b31523fe09720",
+    "text": "我住在这里，我还在学习汉语。",
+    "pinyin": "wǒ zhù zài zhè lǐ , wǒ hái zài xué xí hàn yǔ .",
+    "meaning": "I live here; I am still learning Mandarin.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "fbccedd595017d54",
+    "text": "我还在学习汉语。",
+    "pinyin": "wǒ hái zài xué xí hàn yǔ .",
+    "meaning": "I am still learning Mandarin.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "usage",
+      "task-truefalse"
+    ]
+  },
+  {
     "id": "50f5d65d57290f75",
     "text": "人",
     "pinyin": "rén",
@@ -15850,7 +16982,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -15938,7 +17071,8 @@
     ],
     "kinds": [
       "character",
-      "reader-lookup"
+      "reader-lookup",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -16014,6 +17148,7 @@
     "kinds": [
       "character",
       "reader-lookup",
+      "hsk-ordering-part",
       "hsk-word"
     ]
   },
@@ -16042,7 +17177,8 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -16121,6 +17257,7 @@
       "character",
       "reader-lookup",
       "conversation-answer",
+      "hsk-ordering-part",
       "hsk-word"
     ]
   },
@@ -16185,6 +17322,7 @@
     "kinds": [
       "character",
       "reader-lookup",
+      "hsk-ordering-part",
       "hsk-word"
     ]
   },
@@ -16776,7 +17914,9 @@
       "cool"
     ],
     "kinds": [
-      "word"
+      "word",
+      "hsk-ordering-part",
+      "hsk-word"
     ]
   },
   {
@@ -16954,21 +18094,6 @@
     ],
     "kinds": [
       "word"
-    ]
-  },
-  {
-    "id": "0e826095b60ccf03",
-    "text": "外",
-    "pinyin": "wài",
-    "meaning": "outside; foreign",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
     ]
   },
   {
@@ -17362,37 +18487,6 @@
     ]
   },
   {
-    "id": "6044e9f095e0b5e4",
-    "text": "前",
-    "pinyin": "qián",
-    "meaning": "before; front",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
-    "id": "08dddeac1319d6e8",
-    "text": "点",
-    "pinyin": "diǎn",
-    "meaning": "dot; o’clock",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup",
-      "hsk-word"
-    ]
-  },
-  {
     "id": "d20e1289115e0b38",
     "text": "爷",
     "pinyin": "yé",
@@ -17442,21 +18536,6 @@
     "text": "客",
     "pinyin": "kè",
     "meaning": "guest",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
-    "id": "62e299326e5f7694",
-    "text": "场",
-    "pinyin": "chǎng",
-    "meaning": "field; place",
     "moods": [
       "clear",
       "playful",
@@ -17553,6 +18632,66 @@
     ],
     "kinds": [
       "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "b98694cf18b7d129",
+    "text": "旁",
+    "pinyin": "páng",
+    "meaning": "beside",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "85755d8b4f8c7c16",
+    "text": "口渴",
+    "pinyin": "kǒu kě",
+    "meaning": "thirsty",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "cb6fca23bf415f2c",
+    "text": "着急",
+    "pinyin": "zháo jí",
+    "meaning": "to be anxious; in a hurry",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "f004f1d84cf962dc",
+    "text": "条",
+    "pinyin": "tiáo",
+    "meaning": "strip; classifier for long things",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "character",
+      "word",
       "reader-lookup"
     ]
   },
@@ -18881,6 +20020,146 @@
     "text": "你在网上买的吗？",
     "pinyin": "nǐ zài wǎng shàng mǎi de ma ?",
     "meaning": "Did you buy it online?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "2a63183070f9960f",
+    "text": "楼前、楼后，门左边、门右边。",
+    "pinyin": "lóu qián , lóu hòu , mén zuǒ biān , mén yòu biān .",
+    "meaning": "In front of and behind the building; to the left and right of the gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "18b29b2d6c114a60",
+    "text": "上边、下边、里边、外边、前边、后边。",
+    "pinyin": "shàng biān , xià biān , lǐ bian , wài biān , qián biān , hòu biān .",
+    "meaning": "Above, below, inside, outside, in front, behind.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "e0de23e1faf8d47c",
+    "text": "左边、右边、东边、南边、西边、北边。",
+    "pinyin": "zuǒ biān , yòu biān , dōng biān , nán biān , xī biān , běi biān .",
+    "meaning": "Left, right, east, south, west, north.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "97d23353cf076c0c",
+    "text": "面向北，右边是东，左边是西。",
+    "pinyin": "miàn xiàng běi , yòu biān shì dōng , zuǒ biān shì xī .",
+    "meaning": "Facing north, east is on the right and west on the left.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "b2d1f39d5e8e163b",
+    "text": "几个人？两个人。",
+    "pinyin": "jǐ gè rén ? liǎng gè rén .",
+    "meaning": "How many people? Two.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "bcb20a941dfe7e7d",
+    "text": "入口。出口。好！",
+    "pinyin": "rù kǒu . chū kǒu . hǎo !",
+    "meaning": "Entrance. Exit. Okay!",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "6f8ad8918a4a2f11",
+    "text": "邻居很热情，杯子坏了。",
+    "pinyin": "lín jū hěn rè qíng , bēi zi huài le .",
+    "meaning": "The neighbours are welcoming; the cup is broken.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "54399537b8a6f195",
+    "text": "我不是工人，昨天没去学校。",
+    "pinyin": "wǒ bù shì gōng rén , zuó tiān méi qù xué xiào .",
+    "meaning": "I am not a worker; I did not go to school yesterday.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "293a1e680d8fb326",
+    "text": "她是一个热情的人。",
+    "pinyin": "tā shì yī gè rè qíng de rén .",
+    "meaning": "She is a welcoming person.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "d6c0ca88aaea8daa",
+    "text": "门外是一棵树，前边是学校。",
+    "pinyin": "mén wài shì yī kē shù , qián biān shì xué xiào .",
+    "meaning": "Outside the door is a tree; ahead is the school.",
     "moods": [
       "clear",
       "playful",
@@ -30758,6 +32037,1056 @@
     "dialogue": false
   },
   {
+    "id": "d99dae71822043d1",
+    "text": "我到学校南边了，你们在哪儿？",
+    "pinyin": "wǒ dào xué xiào nán biān le , nǐ men zài nǎr ?",
+    "meaning": "I have reached the south side of the school. Where are you?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "c9717c83b8e0a2c9",
+    "text": "在北门外。北边有车站，南边有商店。",
+    "pinyin": "zài běi mén wài . běi biān yǒu chē zhàn , nán biān yǒu shāng diàn .",
+    "meaning": "Outside the north gate. There is a station to the north and a shop to the south.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "13e3a5e589aaeb29",
+    "text": "我看地图，上边是北，下边是南，对吗？",
+    "pinyin": "wǒ kàn dì tú , shàng biān shì běi , xià biān shì nán , duì ma ?",
+    "meaning": "On the map, the top is north and the bottom is south, right?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "1fc46d84fe85020f",
+    "text": "对，这张地图上边有一个北字。东在右，西在左。",
+    "pinyin": "duì , zhè zhāng dì tú shàng biān yǒu yī gè běi zì . dōng zài yòu , xī zài zuǒ .",
+    "meaning": "Yes, this map has a north character at the top. East is right, west is left.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "ab61fb2c3550b48d",
+    "text": "楼的东边有两个入口，我走哪个？",
+    "pinyin": "lóu de dōng biān yǒu liǎng gè rù kǒu , wǒ zǒu nǎ gè ?",
+    "meaning": "There are two entrances on the east side of the building. Which do I take?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6424c18fdc299af1",
+    "text": "先到北门。我们不在东边的入口，也不在西边的书店。",
+    "pinyin": "xiān dào běi mén . wǒ men bù zài dōng biān de rù kǒu , yě bù zài xī biān de shū diàn .",
+    "meaning": "Come to the north gate first. We are not at the eastern entrance or the western bookshop.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "423fe0f1092667d4",
+    "text": "我现在面向北，左边是西，右边是东。",
+    "pinyin": "wǒ xiàn zài miàn xiàng běi , zuǒ biān shì xī , yòu biān shì dōng .",
+    "meaning": "I am facing north now: west is on the left, east on the right.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "c72b383bd91aa7c8",
+    "text": "对。前边是北，后边是南。你先看前，再看后。",
+    "pinyin": "duì . qián biān shì běi , hòu biān shì nán . nǐ xiān kàn qián , zài kàn hòu .",
+    "meaning": "Correct. Ahead is north, behind is south. Look ahead first, then behind.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e917649625bbc9b2",
+    "text": "北门前边有两个人，是你们吗？",
+    "pinyin": "běi mén qián biān yǒu liǎng gè rén , shì nǐ men ma ?",
+    "meaning": "There are two people in front of the north gate. Is that you?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "716ff100365ce579",
+    "text": "是，我们在门前等你。停车场在楼后边。",
+    "pinyin": "shì , wǒ men zài mén qián děng nǐ . tíng chē chǎng zài lóu hòu biān .",
+    "meaning": "Yes, we are waiting in front of the gate. The car park is behind the building.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "545beaf663cc1371",
+    "text": "我在两个入口中间，现在看到你们了。",
+    "pinyin": "wǒ zài liǎng gè rù kǒu zhōng jiān , xiàn zài kàn dào nǐ men le .",
+    "meaning": "I am between the two entrances. I can see you now.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "968829434b8ecfe7",
+    "text": "好！看箭头，入口指左，出口指右。我们从入口进去。",
+    "pinyin": "hǎo ! kàn jiàn tóu , rù kǒu zhǐ zuǒ , chū kǒu zhǐ yòu . wǒ men cóng rù kǒu jìn qù .",
+    "meaning": "Good! Look at the arrows: entrance points left, exit points right. We will go in through the entrance.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "ff3c3c8c5a3ad5da",
+    "text": "我到学校南边了，你们在哪儿？在北门外。北边有车站，南边有商店。我看地图，上边是北，下边是南，对吗？对，这张地图上边有一个北字。东在右，西在左。楼的东边有两个入口，我走哪个？先到北门。我们不在东边的入口，也不在西边的书店。我现在面向北，左边是西，右边是东。对。前边是北，后边是南。你先看前，再看后。北门前边有两个人，是你们吗？是，我们在门前等你。停车场在楼后边。我在两个入口中间，现在看到你们了。好！看箭头，入口指左，出口指右。我们从入口进去。",
+    "pinyin": "wǒ dào xué xiào nán biān le , nǐ men zài nǎr ? zài běi mén wài . běi biān yǒu chē zhàn , nán biān yǒu shāng diàn . wǒ kàn dì tú , shàng biān shì běi , xià biān shì nán , duì ma ? duì , zhè zhāng dì tú shàng biān yǒu yī gè běi zì . dōng zài yòu , xī zài zuǒ . lóu de dōng biān yǒu liǎng gè rù kǒu , wǒ zǒu nǎ gè ? xiān dào běi mén . wǒ men bù zài dōng biān de rù kǒu , yě bù zài xī biān de shū diàn . wǒ xiàn zài miàn xiàng běi , zuǒ biān shì xī , yòu biān shì dōng . duì . qián biān shì běi , hòu biān shì nán . nǐ xiān kàn qián , zài kàn hòu . běi mén qián biān yǒu liǎng gè rén , shì nǐ men ma ? shì , wǒ men zài mén qián děng nǐ . tíng chē chǎng zài lóu hòu biān . wǒ zài liǎng gè rù kǒu zhōng jiān , xiàn zài kàn dào nǐ men le . hǎo ! kàn jiàn tóu , rù kǒu zhǐ zuǒ , chū kǒu zhǐ yòu . wǒ men cóng rù kǒu jìn qù .",
+    "meaning": "I have reached the south side of the school. Where are you? Outside the north gate. There is a station to the north and a shop to the south. On the map, the top is north and the bottom is south, right? Yes, this map has a north character at the top. East is right, west is left. There are two entrances on the east side of the building. Which do I take? Come to the north gate first. We are not at the eastern entrance or the western bookshop. I am facing north now: west is on the left, east on the right. Correct. Ahead is north, behind is south. Look ahead first, then behind. There are two people in front of the north gate. Is that you? Yes, we are waiting in front of the gate. The car park is behind the building. I am between the two entrances. I can see you now. Good! Look at the arrows: entrance points left, exit points right. We will go in through the entrance.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "我到学校南边了，你们在哪儿？",
+        "mood": "cool"
+      },
+      {
+        "text": "在北门外。北边有车站，南边有商店。",
+        "mood": "playful"
+      },
+      {
+        "text": "我看地图，上边是北，下边是南，对吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "对，这张地图上边有一个北字。东在右，西在左。",
+        "mood": "playful"
+      },
+      {
+        "text": "楼的东边有两个入口，我走哪个？",
+        "mood": "cool"
+      },
+      {
+        "text": "先到北门。我们不在东边的入口，也不在西边的书店。",
+        "mood": "playful"
+      },
+      {
+        "text": "我现在面向北，左边是西，右边是东。",
+        "mood": "cool"
+      },
+      {
+        "text": "对。前边是北，后边是南。你先看前，再看后。",
+        "mood": "playful"
+      },
+      {
+        "text": "北门前边有两个人，是你们吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "是，我们在门前等你。停车场在楼后边。",
+        "mood": "playful"
+      },
+      {
+        "text": "我在两个入口中间，现在看到你们了。",
+        "mood": "cool"
+      },
+      {
+        "text": "好！看箭头，入口指左，出口指右。我们从入口进去。",
+        "mood": "playful"
+      }
+    ],
+    "dialogue": true
+  },
+  {
+    "id": "f547cbc64102e915",
+    "text": "今天我们在学校北门外等朋友。",
+    "pinyin": "jīn tiān wǒ men zài xué xiào běi mén wài děng péng you .",
+    "meaning": "Today we are waiting for a friend outside the school’s north gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "3a293d4fb0d6c49b",
+    "text": "学校北边是车站，南边有商店，西边有书店。",
+    "pinyin": "xué xiào běi biān shì chē zhàn , nán biān yǒu shāng diàn , xī biān yǒu shū diàn .",
+    "meaning": "There is a station north of the school, a shop to the south and a bookshop to the west.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "2cf2ec0ad50dd84c",
+    "text": "楼的东边有两个入口，但我们在北门前。",
+    "pinyin": "lóu de dōng biān yǒu liǎng gè rù kǒu , dàn wǒ men zài běi mén qián .",
+    "meaning": "There are two entrances on the east side of the building, but we are in front of the north gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "570ada8e12e1084c",
+    "text": "这张地图上边是北，下边是南；右是东，左是西。",
+    "pinyin": "zhè zhāng dì tú shàng biān shì běi , xià biān shì nán ; yòu shì dōng , zuǒ shì xī .",
+    "meaning": "On this map, north is at the top and south at the bottom; east is right, west is left.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "961339d07955b82a",
+    "text": "面向北的时候，前边是北，后边是南。",
+    "pinyin": "miàn xiàng běi de shí hou , qián biān shì běi , hòu biān shì nán .",
+    "meaning": "When facing north, north is ahead and south is behind.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "9f3bbb08240a5285",
+    "text": "停车场在楼后边，门前有两个人。",
+    "pinyin": "tíng chē chǎng zài lóu hòu biān , mén qián yǒu liǎng gè rén .",
+    "meaning": "The car park is behind the building; there are two people in front of the gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "a600c0ab9d04b240",
+    "text": "朋友先在两个入口中间，后来看到我们。",
+    "pinyin": "péng you xiān zài liǎng gè rù kǒu zhōng jiān , hòu lái kàn dào wǒ men .",
+    "meaning": "Our friend was between the two entrances first, then saw us.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "0c156cbaf94cef4f",
+    "text": "我们一起看箭头：入口在左，出口在右。",
+    "pinyin": "wǒ men yì qǐ kàn jiàn tóu : rù kǒu zài zuǒ , chū kǒu zài yòu .",
+    "meaning": "We look at the arrows together: entrance on the left, exit on the right.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "ebb609b1deb5908b",
+    "text": "今天我们在学校北门外等朋友。学校北边是车站，南边有商店，西边有书店。楼的东边有两个入口，但我们在北门前。这张地图上边是北，下边是南；右是东，左是西。面向北的时候，前边是北，后边是南。停车场在楼后边，门前有两个人。朋友先在两个入口中间，后来看到我们。我们一起看箭头：入口在左，出口在右。",
+    "pinyin": "jīn tiān wǒ men zài xué xiào běi mén wài děng péng you . xué xiào běi biān shì chē zhàn , nán biān yǒu shāng diàn , xī biān yǒu shū diàn . lóu de dōng biān yǒu liǎng gè rù kǒu , dàn wǒ men zài běi mén qián . zhè zhāng dì tú shàng biān shì běi , xià biān shì nán ; yòu shì dōng , zuǒ shì xī . miàn xiàng běi de shí hou , qián biān shì běi , hòu biān shì nán . tíng chē chǎng zài lóu hòu biān , mén qián yǒu liǎng gè rén . péng you xiān zài liǎng gè rù kǒu zhōng jiān , hòu lái kàn dào wǒ men . wǒ men yì qǐ kàn jiàn tóu : rù kǒu zài zuǒ , chū kǒu zài yòu .",
+    "meaning": "Today we are waiting for a friend outside the school’s north gate. There is a station north of the school, a shop to the south and a bookshop to the west. There are two entrances on the east side of the building, but we are in front of the north gate. On this map, north is at the top and south at the bottom; east is right, west is left. When facing north, north is ahead and south is behind. The car park is behind the building; there are two people in front of the gate. Our friend was between the two entrances first, then saw us. We look at the arrows together: entrance on the left, exit on the right.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "今天我们在学校北门外等朋友。",
+        "mood": "clear"
+      },
+      {
+        "text": "学校北边是车站，南边有商店，西边有书店。",
+        "mood": "clear"
+      },
+      {
+        "text": "楼的东边有两个入口，但我们在北门前。",
+        "mood": "clear"
+      },
+      {
+        "text": "这张地图上边是北，下边是南；右是东，左是西。",
+        "mood": "clear"
+      },
+      {
+        "text": "面向北的时候，前边是北，后边是南。",
+        "mood": "clear"
+      },
+      {
+        "text": "停车场在楼后边，门前有两个人。",
+        "mood": "clear"
+      },
+      {
+        "text": "朋友先在两个入口中间，后来看到我们。",
+        "mood": "clear"
+      },
+      {
+        "text": "我们一起看箭头：入口在左，出口在右。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
+    "id": "0d5d9af18e880bfe",
+    "text": "地图上边是北，下边是南。我们在北门外。",
+    "pinyin": "dì tú shàng biān shì běi , xià biān shì nán . wǒ men zài běi mén wài .",
+    "meaning": "The map’s top is north and bottom is south. We are outside the north gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "c15a41436df60fd4",
+    "text": "我在南边的商店。东边的两个入口中间有人吗？",
+    "pinyin": "wǒ zài nán biān de shāng diàn . dōng biān de liǎng gè rù kǒu zhōng jiān yǒu rén ma ?",
+    "meaning": "I am at the southern shop. Is anyone between the two eastern entrances?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "fcf73402f9c245db",
+    "text": "有，可是我们在门前，不在那边。西边是书店。",
+    "pinyin": "yǒu , kě shì wǒ men zài mén qián , bù zài nà biān . xī biān shì shū diàn .",
+    "meaning": "Yes, but we are in front of the gate, not over there. The west side has the bookshop.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "4aec08a5102c190f",
+    "text": "我面向北，左是西，右是东，前是北，后是南。",
+    "pinyin": "wǒ miàn xiàng běi , zuǒ shì xī , yòu shì dōng , qián shì běi , hòu shì nán .",
+    "meaning": "I am facing north: left is west, right east, ahead north, behind south.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "f981e2b8d64cd084",
+    "text": "对。楼后边是停车场。来北门前边吧。",
+    "pinyin": "duì . lóu hòu biān shì tíng chē chǎng . lái běi mén qián biān ba .",
+    "meaning": "Right. The car park is behind the building. Come to the front of the north gate.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "ec5bc0d7fe49d982",
+    "text": "看到了！入口指左，出口指右。好！",
+    "pinyin": "kàn dào le ! rù kǒu zhǐ zuǒ , chū kǒu zhǐ yòu . hǎo !",
+    "meaning": "I see you! Entrance points left, exit right. Okay!",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "b4f9dee8a241333c",
+    "text": "地图上边是北，下边是南。我们在北门外。我在南边的商店。东边的两个入口中间有人吗？有，可是我们在门前，不在那边。西边是书店。我面向北，左是西，右是东，前是北，后是南。对。楼后边是停车场。来北门前边吧。看到了！入口指左，出口指右。好！",
+    "pinyin": "dì tú shàng biān shì běi , xià biān shì nán . wǒ men zài běi mén wài . wǒ zài nán biān de shāng diàn . dōng biān de liǎng gè rù kǒu zhōng jiān yǒu rén ma ? yǒu , kě shì wǒ men zài mén qián , bù zài nà biān . xī biān shì shū diàn . wǒ miàn xiàng běi , zuǒ shì xī , yòu shì dōng , qián shì běi , hòu shì nán . duì . lóu hòu biān shì tíng chē chǎng . lái běi mén qián biān ba . kàn dào le ! rù kǒu zhǐ zuǒ , chū kǒu zhǐ yòu . hǎo !",
+    "meaning": "The map’s top is north and bottom is south. We are outside the north gate. I am at the southern shop. Is anyone between the two eastern entrances? Yes, but we are in front of the gate, not over there. The west side has the bookshop. I am facing north: left is west, right east, ahead north, behind south. Right. The car park is behind the building. Come to the front of the north gate. I see you! Entrance points left, exit right. Okay!",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "地图上边是北，下边是南。我们在北门外。",
+        "mood": "cool"
+      },
+      {
+        "text": "我在南边的商店。东边的两个入口中间有人吗？",
+        "mood": "playful"
+      },
+      {
+        "text": "有，可是我们在门前，不在那边。西边是书店。",
+        "mood": "cool"
+      },
+      {
+        "text": "我面向北，左是西，右是东，前是北，后是南。",
+        "mood": "playful"
+      },
+      {
+        "text": "对。楼后边是停车场。来北门前边吧。",
+        "mood": "cool"
+      },
+      {
+        "text": "看到了！入口指左，出口指右。好！",
+        "mood": "playful"
+      }
+    ],
+    "dialogue": true
+  },
+  {
+    "id": "a7dbe2f19bff6d37",
+    "text": "你在这里住一个月了，还在学习汉语吗？",
+    "pinyin": "nǐ zài zhè lǐ zhù yī gè yuè le , hái zài xué xí hàn yǔ ma ?",
+    "meaning": "You have lived here for a month. Are you still studying Mandarin?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6b48445e1d6896ab",
+    "text": "还在学习。朋友们常常来，我们一起读书。",
+    "pinyin": "hái zài xué xí . péng you men cháng cháng lái , wǒ men yì qǐ dú shū .",
+    "meaning": "I still am. My friends often visit; we read together.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "8c7c54507572fbdb",
+    "text": "门开着，我可以进来吗？",
+    "pinyin": "mén kāi zhe , wǒ kě yǐ jìn lái ma ?",
+    "meaning": "The door is open. May I come in?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "54f21f776f47c6da",
+    "text": "请进，请坐！先喝点水。",
+    "pinyin": "qǐng jìn , qǐng zuò ! xiān hē diǎn shuǐ .",
+    "meaning": "Please come in and sit down! Have a little water first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6a7a1b296cdf741c",
+    "text": "门外的小孩儿是谁？他在树下玩。",
+    "pinyin": "mén wài de xiǎo háir shì shéi ? tā zài shù xià wán .",
+    "meaning": "Who is the young child outside? He is playing under the tree.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6def01ba697549f8",
+    "text": "是邻居的儿子。那个小孩儿常和小朋友一起玩。",
+    "pinyin": "shì lín jū de ér zi . nà gè xiǎo háir cháng hé xiǎo péng yǒu yì qǐ wán .",
+    "meaning": "He is my neighbour’s son. That young child often plays with other children.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "a58f8ee91c45a85f",
+    "text": "你的邻居是工人吗？",
+    "pinyin": "nǐ de lín jū shì gōng rén ma ?",
+    "meaning": "Is your neighbour a worker?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "5be5537251936a8e",
+    "text": "是，她很热情，也常照顾孩子。我们今天吃面条儿。",
+    "pinyin": "shì , tā hěn rè qíng , yě cháng zhào gù hái zi . wǒ men jīn tiān chī miàn tiáor .",
+    "meaning": "Yes, she is welcoming and often looks after the children. We are having noodles today.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "655c0e439f923889",
+    "text": "桌子上的两个杯子可以用吗？",
+    "pinyin": "zhuō zi shàng de liǎng gè bēi zi kě yǐ yòng ma ?",
+    "meaning": "Can we use the two cups on the table?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "c0727bf1da98bf45",
+    "text": "这个坏了，别用。那个是好的，你坐下喝水吧。",
+    "pinyin": "zhè gè huài le , bié yòng . nà gè shì hǎo de , nǐ zuò xià hē shuǐ ba .",
+    "meaning": "This one is broken; do not use it. That one is fine. Sit down and have water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "0d4f9e6761e58b55",
+    "text": "大家从门外进去吃饭，最后洗杯子，对吗？",
+    "pinyin": "dà jiā cóng mén wài jìn qù chī fàn , zuì hòu xǐ bēi zi , duì ma ?",
+    "meaning": "Everyone goes inside to eat, then washes the cups at the end, right?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e77910147b942c2a",
+    "text": "对。这本书是你的，我明天还给你。",
+    "pinyin": "duì . zhè běn shū shì nǐ de , wǒ míng tiān huán gěi nǐ .",
+    "meaning": "Right. This book is yours; I will return it tomorrow.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "64470ac65bee1701",
+    "text": "你在这里住一个月了，还在学习汉语吗？还在学习。朋友们常常来，我们一起读书。门开着，我可以进来吗？请进，请坐！先喝点水。门外的小孩儿是谁？他在树下玩。是邻居的儿子。那个小孩儿常和小朋友一起玩。你的邻居是工人吗？是，她很热情，也常照顾孩子。我们今天吃面条儿。桌子上的两个杯子可以用吗？这个坏了，别用。那个是好的，你坐下喝水吧。大家从门外进去吃饭，最后洗杯子，对吗？对。这本书是你的，我明天还给你。",
+    "pinyin": "nǐ zài zhè lǐ zhù yī gè yuè le , hái zài xué xí hàn yǔ ma ? hái zài xué xí . péng you men cháng cháng lái , wǒ men yì qǐ dú shū . mén kāi zhe , wǒ kě yǐ jìn lái ma ? qǐng jìn , qǐng zuò ! xiān hē diǎn shuǐ . mén wài de xiǎo háir shì shéi ? tā zài shù xià wán . shì lín jū de ér zi . nà gè xiǎo háir cháng hé xiǎo péng yǒu yì qǐ wán . nǐ de lín jū shì gōng rén ma ? shì , tā hěn rè qíng , yě cháng zhào gù hái zi . wǒ men jīn tiān chī miàn tiáor . zhuō zi shàng de liǎng gè bēi zi kě yǐ yòng ma ? zhè gè huài le , bié yòng . nà gè shì hǎo de , nǐ zuò xià hē shuǐ ba . dà jiā cóng mén wài jìn qù chī fàn , zuì hòu xǐ bēi zi , duì ma ? duì . zhè běn shū shì nǐ de , wǒ míng tiān huán gěi nǐ .",
+    "meaning": "You have lived here for a month. Are you still studying Mandarin? I still am. My friends often visit; we read together. The door is open. May I come in? Please come in and sit down! Have a little water first. Who is the young child outside? He is playing under the tree. He is my neighbour’s son. That young child often plays with other children. Is your neighbour a worker? Yes, she is welcoming and often looks after the children. We are having noodles today. Can we use the two cups on the table? This one is broken; do not use it. That one is fine. Sit down and have water. Everyone goes inside to eat, then washes the cups at the end, right? Right. This book is yours; I will return it tomorrow.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "你在这里住一个月了，还在学习汉语吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "还在学习。朋友们常常来，我们一起读书。",
+        "mood": "playful"
+      },
+      {
+        "text": "门开着，我可以进来吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "请进，请坐！先喝点水。",
+        "mood": "playful"
+      },
+      {
+        "text": "门外的小孩儿是谁？他在树下玩。",
+        "mood": "cool"
+      },
+      {
+        "text": "是邻居的儿子。那个小孩儿常和小朋友一起玩。",
+        "mood": "playful"
+      },
+      {
+        "text": "你的邻居是工人吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "是，她很热情，也常照顾孩子。我们今天吃面条儿。",
+        "mood": "playful"
+      },
+      {
+        "text": "桌子上的两个杯子可以用吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "这个坏了，别用。那个是好的，你坐下喝水吧。",
+        "mood": "playful"
+      },
+      {
+        "text": "大家从门外进去吃饭，最后洗杯子，对吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "对。这本书是你的，我明天还给你。",
+        "mood": "playful"
+      }
+    ],
+    "dialogue": true
+  },
+  {
+    "id": "d777a8d22c9109b2",
+    "text": "我在这里住一个月了，还在学习汉语。",
+    "pinyin": "wǒ zài zhè lǐ zhù yī gè yuè le , hái zài xué xí hàn yǔ .",
+    "meaning": "I have lived here for a month and am still learning Mandarin.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "a8d2d4892fc09b13",
+    "text": "朋友们常来，我请他们进来，请坐，喝点水。",
+    "pinyin": "péng you men cháng lái , wǒ qǐng tā men jìn lái , qǐng zuò , hē diǎn shuǐ .",
+    "meaning": "My friends often visit. I invite them in, ask them to sit and offer a little water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "ff144c9fb7f2073a",
+    "text": "门外是一棵树，前边是学校。我的邻居是工人。",
+    "pinyin": "mén wài shì yī kē shù , qián biān shì xué xiào . wǒ de lín jū shì gōng rén .",
+    "meaning": "Outside the door is a tree and ahead is the school. My neighbour is a worker.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "1a7ae78208c9314b",
+    "text": "她很热情，她的儿子是个小孩儿，常在树下玩。",
+    "pinyin": "tā hěn rè qíng , tā de ér zi shì gè xiǎo háir , cháng zài shù xià wán .",
+    "meaning": "She is welcoming. Her son is a young child who often plays under the tree.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "31b175a6a8e31975",
+    "text": "今天门开着，大家从门外进去吃面条儿。",
+    "pinyin": "jīn tiān mén kāi zhe , dà jiā cóng mén wài jìn qù chī miàn tiáor .",
+    "meaning": "Today the door is open; everyone goes inside to have noodles.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "b91c9b067659c1a8",
+    "text": "我坐下读日记，朋友们坐在桌子旁边。",
+    "pinyin": "wǒ zuò xià dú rì jì , péng you men zuò zài zhuō zi páng biān .",
+    "meaning": "I sit down to read my diary; my friends sit beside the table.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "2b5859428f448339",
+    "text": "桌子上有两个杯子，一个坏了，另一个可以用。",
+    "pinyin": "zhuō zi shàng yǒu liǎng gè bēi zi , yī gè huài le , lìng yī gè kě yǐ yòng .",
+    "meaning": "There are two cups on the table; one is broken and the other can be used.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e0b150de7f7f91ed",
+    "text": "最后我们一起收桌子。朋友借我一本书，我明天还给她。我还想学新的词。",
+    "pinyin": "zuì hòu wǒ men yì qǐ shōu zhuō zi . péng you jiè wǒ yī běn shū , wǒ míng tiān huán gěi tā . wǒ hái xiǎng xué xīn de cí .",
+    "meaning": "At the end we clear the table together. A friend lent me a book; I will return it tomorrow. I still want to learn new words.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "bdb5cf45970bad50",
+    "text": "我在这里住一个月了，还在学习汉语。朋友们常来，我请他们进来，请坐，喝点水。门外是一棵树，前边是学校。我的邻居是工人。她很热情，她的儿子是个小孩儿，常在树下玩。今天门开着，大家从门外进去吃面条儿。我坐下读日记，朋友们坐在桌子旁边。桌子上有两个杯子，一个坏了，另一个可以用。最后我们一起收桌子。朋友借我一本书，我明天还给她。我还想学新的词。",
+    "pinyin": "wǒ zài zhè lǐ zhù yī gè yuè le , hái zài xué xí hàn yǔ . péng you men cháng lái , wǒ qǐng tā men jìn lái , qǐng zuò , hē diǎn shuǐ . mén wài shì yī kē shù , qián biān shì xué xiào . wǒ de lín jū shì gōng rén . tā hěn rè qíng , tā de ér zi shì gè xiǎo háir , cháng zài shù xià wán . jīn tiān mén kāi zhe , dà jiā cóng mén wài jìn qù chī miàn tiáor . wǒ zuò xià dú rì jì , péng you men zuò zài zhuō zi páng biān . zhuō zi shàng yǒu liǎng gè bēi zi , yī gè huài le , lìng yī gè kě yǐ yòng . zuì hòu wǒ men yì qǐ shōu zhuō zi . péng you jiè wǒ yī běn shū , wǒ míng tiān huán gěi tā . wǒ hái xiǎng xué xīn de cí .",
+    "meaning": "I have lived here for a month and am still learning Mandarin. My friends often visit. I invite them in, ask them to sit and offer a little water. Outside the door is a tree and ahead is the school. My neighbour is a worker. She is welcoming. Her son is a young child who often plays under the tree. Today the door is open; everyone goes inside to have noodles. I sit down to read my diary; my friends sit beside the table. There are two cups on the table; one is broken and the other can be used. At the end we clear the table together. A friend lent me a book; I will return it tomorrow. I still want to learn new words.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "我在这里住一个月了，还在学习汉语。",
+        "mood": "clear"
+      },
+      {
+        "text": "朋友们常来，我请他们进来，请坐，喝点水。",
+        "mood": "clear"
+      },
+      {
+        "text": "门外是一棵树，前边是学校。我的邻居是工人。",
+        "mood": "clear"
+      },
+      {
+        "text": "她很热情，她的儿子是个小孩儿，常在树下玩。",
+        "mood": "clear"
+      },
+      {
+        "text": "今天门开着，大家从门外进去吃面条儿。",
+        "mood": "clear"
+      },
+      {
+        "text": "我坐下读日记，朋友们坐在桌子旁边。",
+        "mood": "clear"
+      },
+      {
+        "text": "桌子上有两个杯子，一个坏了，另一个可以用。",
+        "mood": "clear"
+      },
+      {
+        "text": "最后我们一起收桌子。朋友借我一本书，我明天还给她。我还想学新的词。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
+    "id": "806e42fe5ef90f0f",
+    "text": "门外有树，树下有小孩儿。",
+    "pinyin": "mén wài yǒu shù , shù xià yǒu xiǎo háir .",
+    "meaning": "A tree outside, a young child under it.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "c915fc50bb26c0cc",
+    "text": "门开着，朋友们进来，请进，请坐。",
+    "pinyin": "mén kāi zhe , péng you men jìn lái , qǐng jìn , qǐng zuò .",
+    "meaning": "The door is open; friends come in. Come in, sit down.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "9b1e98813a67a993",
+    "text": "工人邻居请大家进去，一起吃面条儿。",
+    "pinyin": "gōng rén lín jū qǐng dà jiā jìn qù , yì qǐ chī miàn tiáor .",
+    "meaning": "Our worker neighbour invites everyone in to have noodles together.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "821ce4cc6d780d0c",
+    "text": "口渴了，坐下喝点水。桌子旁有朋友们。",
+    "pinyin": "kǒu kě le , zuò xià hē diǎn shuǐ . zhuō zi páng yǒu péng you men .",
+    "meaning": "Thirsty? Sit down, have a little water. Friends beside the table.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "e54f02e03ec32e46",
+    "text": "杯子坏了，别用。换一个，再喝水。",
+    "pinyin": "bēi zi huài le , bié yòng . huàn yī gè , zài hē shuǐ .",
+    "meaning": "A broken cup: do not use it. Take another, then have water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "fd462d9dcbf44205",
+    "text": "最后收桌子，还读书。一个月，不是最后。",
+    "pinyin": "zuì hòu shōu zhuō zi , hái dú shū . yī gè yuè , bù shì zuì hòu .",
+    "meaning": "Clear the table at the end, keep reading. One month is not the end.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "078cf4542442bd9d",
+    "text": "门外有树，树下有小孩儿。门开着，朋友们进来，请进，请坐。工人邻居请大家进去，一起吃面条儿。口渴了，坐下喝点水。桌子旁有朋友们。杯子坏了，别用。换一个，再喝水。最后收桌子，还读书。一个月，不是最后。",
+    "pinyin": "mén wài yǒu shù , shù xià yǒu xiǎo háir . mén kāi zhe , péng you men jìn lái , qǐng jìn , qǐng zuò . gōng rén lín jū qǐng dà jiā jìn qù , yì qǐ chī miàn tiáor . kǒu kě le , zuò xià hē diǎn shuǐ . zhuō zi páng yǒu péng you men . bēi zi huài le , bié yòng . huàn yī gè , zài hē shuǐ . zuì hòu shōu zhuō zi , hái dú shū . yī gè yuè , bù shì zuì hòu .",
+    "meaning": "A tree outside, a young child under it. The door is open; friends come in. Come in, sit down. Our worker neighbour invites everyone in to have noodles together. Thirsty? Sit down, have a little water. Friends beside the table. A broken cup: do not use it. Take another, then have water. Clear the table at the end, keep reading. One month is not the end.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "门外有树，树下有小孩儿。",
+        "mood": "clear"
+      },
+      {
+        "text": "门开着，朋友们进来，请进，请坐。",
+        "mood": "clear"
+      },
+      {
+        "text": "工人邻居请大家进去，一起吃面条儿。",
+        "mood": "clear"
+      },
+      {
+        "text": "口渴了，坐下喝点水。桌子旁有朋友们。",
+        "mood": "clear"
+      },
+      {
+        "text": "杯子坏了，别用。换一个，再喝水。",
+        "mood": "clear"
+      },
+      {
+        "text": "最后收桌子，还读书。一个月，不是最后。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
     "id": "77f34a38180f766e",
     "text": "安",
     "pinyin": "ān",
@@ -31121,19 +33450,6 @@
     ]
   },
   {
-    "id": "cb6fca23bf415f2c",
-    "text": "着急",
-    "meaning": "in 着急: to be anxious; in a hurry",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "ada40d1b8bfe64f1",
     "text": "节",
     "pinyin": "jié",
@@ -31216,20 +33532,6 @@
     ]
   },
   {
-    "id": "f004f1d84cf962dc",
-    "text": "条",
-    "pinyin": "tiáo",
-    "meaning": "classifier for long things such as roads",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "b7ee4544c13f61c0",
     "text": "红灯",
     "meaning": "in 红灯: red traffic light",
@@ -31274,20 +33576,6 @@
     "text": "棵",
     "pinyin": "kē",
     "meaning": "classifier for trees",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "reader-lookup"
-    ]
-  },
-  {
-    "id": "635643d28367e5e0",
-    "text": "树",
-    "pinyin": "shù",
-    "meaning": "tree",
     "moods": [
       "clear",
       "playful",
@@ -31532,6 +33820,139 @@
     "id": "36f33adaf0942634",
     "text": "确认",
     "meaning": "in 确认: to confirm",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "1a7930272017090b",
+    "text": "入口",
+    "meaning": "in 入口: entrance",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "2019f9645edcfe59",
+    "text": "面向",
+    "meaning": "in 面向: to face toward",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "22964380dd7f66a7",
+    "text": "停车场",
+    "meaning": "in 停车场: car park",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "83fa01a2d7805b1b",
+    "text": "箭头",
+    "meaning": "in 箭头: arrow",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "0c806d3c7818c5a1",
+    "text": "指",
+    "pinyin": "zhǐ",
+    "meaning": "to point; indicate",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "58cf5de1eb45dbcc",
+    "text": "邻居",
+    "meaning": "in 邻居: neighbour",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "6dc3c72f4c3d1934",
+    "text": "热情",
+    "meaning": "in 热情: warm; welcoming",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "eb9bc7e8e961b040",
+    "text": "照顾",
+    "meaning": "in 照顾: to look after",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "339bacf403051262",
+    "text": "收",
+    "pinyin": "shōu",
+    "meaning": "to collect; clear away",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "2b264025e323409f",
+    "text": "借",
+    "pinyin": "jiè",
+    "meaning": "to lend; borrow",
     "moods": [
       "clear",
       "playful",
@@ -32124,7 +34545,8 @@
       "cool"
     ],
     "kinds": [
-      "conversation"
+      "conversation",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -32928,13 +35350,16 @@
   {
     "id": "754470e50b335d16",
     "text": "在楼上。",
+    "pinyin": "zài lóu shàng",
+    "meaning": "Sentence part",
     "moods": [
       "clear",
       "playful",
       "cool"
     ],
     "kinds": [
-      "conversation-answer"
+      "conversation-answer",
+      "hsk-ordering-part"
     ]
   },
   {
@@ -33043,7 +35468,8 @@
       "cool"
     ],
     "kinds": [
-      "conversation"
+      "conversation",
+      "hsk-question"
     ]
   },
   {
@@ -33108,6 +35534,7 @@
     ],
     "kinds": [
       "conversation",
+      "hsk-question",
       "task-reply-prompt"
     ]
   },
@@ -33349,6 +35776,87 @@
   {
     "id": "b3d2f1eb1dfc9b25",
     "text": "不知道，先问学校吧。",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation-answer"
+    ]
+  },
+  {
+    "id": "ae87ef31e62ef7d7",
+    "text": "你现在在哪儿？",
+    "pinyin": "nǐ xiàn zài zài nǎr ?",
+    "meaning": "Where are you now?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation",
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "e26c7e8cb5f87562",
+    "text": "面向北，右边是哪边？",
+    "pinyin": "miàn xiàng běi , yòu biān shì nǎ biān ?",
+    "meaning": "Facing north, which direction is on the right?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "195bf764a86c45a8",
+    "text": "右边是东。",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation-answer"
+    ]
+  },
+  {
+    "id": "b45ed82c0bda0134",
+    "text": "可以进来吗？",
+    "pinyin": "kě yǐ jìn lái ma ?",
+    "meaning": "May I come in?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "bd075c6bf8f7ab69",
+    "text": "这个杯子可以用吗？",
+    "pinyin": "zhè gè bēi zi kě yǐ yòng ma ?",
+    "meaning": "Can this cup be used?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "90253780da9e2df9",
+    "text": "这个坏了，用那个吧。",
     "moods": [
       "clear",
       "playful",
@@ -35259,6 +37767,3026 @@
     ]
   },
   {
+    "id": "d7a07def1b64bc6a",
+    "text": "我的姐姐是医生，妹妹是学生。",
+    "pinyin": "wǒ de jiě jie shì yī shēng , mèi mei shì xué sheng .",
+    "meaning": "My elder sister is a doctor; my younger sister is a student.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "4458e68dd29e6c07",
+    "text": "谁是医生？",
+    "pinyin": "shéi shì yī shēng ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "a34b1dcb42903d54",
+    "text": "我的哥哥是工人，他今天不上班。",
+    "pinyin": "wǒ de gē gē shì gōng rén , tā jīn tiān bù shàng bān .",
+    "meaning": "My elder brother is a worker; he is not working today.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "fc367f39d71231c7",
+    "text": "哥哥是做什么的？",
+    "pinyin": "gē gē shì zuò shén me de ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "269741ca4d4010cc",
+    "text": "妹妹是学生",
+    "pinyin": "mèi mei shì xué sheng",
+    "meaning": "My younger sister is a student.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "1678d31470b2ed38",
+    "text": "谁是学生？",
+    "pinyin": "shéi shì xué sheng ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "acbba487e73ac57b",
+    "text": "妹妹学生是",
+    "pinyin": "mèi mei xué sheng shì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "0673d4004fc1b403",
+    "text": "是学生妹妹",
+    "pinyin": "shì xué sheng mèi mei",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ae56f4478545b634",
+    "text": "学生妹妹是",
+    "pinyin": "xué sheng mèi mei shì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f770a98086f89d48",
+    "text": "他是我的同学，不是我的弟弟。",
+    "pinyin": "tā shì wǒ de tóng xué , bù shì wǒ de dì di .",
+    "meaning": "He is my classmate, not my younger brother.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "250fa3584d0dfef9",
+    "text": "他是谁？",
+    "pinyin": "tā shì shéi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "eeb409e9842b2273",
+    "text": "新来的老师教我们汉字。",
+    "pinyin": "xīn lái de lǎo shī jiào wǒ men hàn zì .",
+    "meaning": "The new teacher teaches us Chinese characters.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "c1f6fa75057267eb",
+    "text": "谁教汉字？",
+    "pinyin": "shéi jiào hàn zì ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "993d312deca9ebd0",
+    "text": "新来的老师",
+    "pinyin": "xīn lái de lǎo shī",
+    "meaning": "The new teacher",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b589d0269ffe2e04",
+    "text": "我的妹妹",
+    "pinyin": "wǒ de mèi mei",
+    "meaning": "My younger sister",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "1dfa65d53c03429a",
+    "text": "那个孩子",
+    "pinyin": "nà gè hái zi",
+    "meaning": "That child",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "612b11b0352076e7",
+    "text": "他的爸爸",
+    "pinyin": "tā de bà bà",
+    "meaning": "His father",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "59ebb433ec56ecbe",
+    "text": "哥哥不是老师",
+    "pinyin": "gē gē bù shì lǎo shī",
+    "meaning": "My elder brother is not a teacher.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "08b1f5ec5db3a844",
+    "text": "谁不是老师？",
+    "pinyin": "shéi bù shì lǎo shī ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "29bc2c2e5feadd90",
+    "text": "哥哥不老师是",
+    "pinyin": "gē gē bù lǎo shī shì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "0deb25c6dc1cb7fb",
+    "text": "不是哥哥老师",
+    "pinyin": "bù shì gē gē lǎo shī",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e8be527989504340",
+    "text": "老师哥哥不是",
+    "pinyin": "lǎo shī gē gē bù shì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b60074fb17411c2f",
+    "text": "那个孩子的妈妈是老师。",
+    "pinyin": "nà gè hái zi de mā mā shì lǎo shī .",
+    "meaning": "That child’s mother is a teacher.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "22303f35ad1bac1f",
+    "text": "谁是老师？",
+    "pinyin": "shéi shì lǎo shī ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "566392cfc6af767e",
+    "text": "朋友的姐姐",
+    "pinyin": "péng you de jiě jie",
+    "meaning": "My friend’s elder sister",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "25799260d2a2bc49",
+    "text": "孩子的妈妈",
+    "pinyin": "hái zi de mā mā",
+    "meaning": "The child’s mother",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "eaf96ffb6e1fc891",
+    "text": "我的妈妈",
+    "pinyin": "wǒ de mā mā",
+    "meaning": "My mother",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b739bc8c01d04017",
+    "text": "今天是奶奶的生日，爷爷也来。",
+    "pinyin": "jīn tiān shì nǎi nai de shēng rì , yé ye yě lái .",
+    "meaning": "Today is grandmother’s birthday; grandfather is also coming.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "a56630eaca7fc6f5",
+    "text": "今天是谁的生日？",
+    "pinyin": "jīn tiān shì shéi de shēng rì ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "f2f37b7792debd51",
+    "text": "姐姐的",
+    "pinyin": "jiě jie de",
+    "meaning": "Elder sister’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "708ecb996415614b",
+    "text": "奶奶的",
+    "pinyin": "nǎi nai de",
+    "meaning": "Grandmother’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b13dac1feab6861f",
+    "text": "爷爷的",
+    "pinyin": "yé ye de",
+    "meaning": "Grandfather’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "8a83596174c09439",
+    "text": "妈妈的",
+    "pinyin": "mā mā de",
+    "meaning": "Mother’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "1e1ca8ab212abc1c",
+    "text": "老师教汉语",
+    "pinyin": "lǎo shī jiào hàn yǔ",
+    "meaning": "The teacher teaches Mandarin.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f3bae9ee1435eb75",
+    "text": "谁教汉语？",
+    "pinyin": "shéi jiào hàn yǔ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "b6cf6a0424ebb0ef",
+    "text": "汉语教老师",
+    "pinyin": "hàn yǔ jiào lǎo shī",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "066d4c46f5920499",
+    "text": "老师汉语教",
+    "pinyin": "lǎo shī hàn yǔ jiào",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ddcabd1334737776",
+    "text": "教汉语老师",
+    "pinyin": "jiào hàn yǔ lǎo shī",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "5824101c804bcd0b",
+    "text": "妈妈在家，爸爸在学校。",
+    "pinyin": "mā mā zài jiā , bà bà zài xué xiào .",
+    "meaning": "Mother is at home; father is at school.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "63f20adff41c9e29",
+    "text": "谁在学校？",
+    "pinyin": "shéi zài xué xiào ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "6b1b5704637ef68e",
+    "text": "朋友的儿子在家，他的女儿在学校。",
+    "pinyin": "péng you de ér zi zài jiā , tā de nǚ ér zài xué xiào .",
+    "meaning": "My friend’s son is at home; his daughter is at school.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "709657fee8eedb32",
+    "text": "谁在家？",
+    "pinyin": "shéi zài jiā ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "8d54ceb1fc403b71",
+    "text": "爸爸在学校",
+    "pinyin": "bà bà zài xué xiào",
+    "meaning": "Father is at school.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "3e40fd403644244c",
+    "text": "学校在爸爸",
+    "pinyin": "xué xiào zài bà bà",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "eae8e7f00e26d574",
+    "text": "在爸爸学校",
+    "pinyin": "zài bà bà xué xiào",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "d55283d2a81ea4fb",
+    "text": "爸爸学校在",
+    "pinyin": "bà bà xué xiào zài",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "eff028033828b9d3",
+    "text": "我朋友会说汉语，也会读汉字。",
+    "pinyin": "wǒ péng you huì shuō hàn yǔ , yě huì dú hàn zì .",
+    "meaning": "My friend can speak Mandarin and read Chinese characters.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "1efd6105180563d7",
+    "text": "朋友会做什么？",
+    "pinyin": "péng you huì zuò shén me ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "b07e06e2ef9c5d58",
+    "text": "说汉语和读汉字",
+    "pinyin": "shuō hàn yǔ hé dú hàn zì",
+    "meaning": "Speak Mandarin and read characters",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "72b7ab6ce38903c4",
+    "text": "不说汉语",
+    "pinyin": "bù shuō hàn yǔ",
+    "meaning": "Not speak Mandarin",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "7d5103d5a79968d5",
+    "text": "不读汉字",
+    "pinyin": "bù dú hàn zì",
+    "meaning": "Not read characters",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "13d4519acb8ab601",
+    "text": "不说话",
+    "pinyin": "bù shuō huà",
+    "meaning": "Not speak",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "838266c013feb89a",
+    "text": "这是我的书，那是别人的书。",
+    "pinyin": "zhè shì wǒ de shū , nà shì bié ren de shū .",
+    "meaning": "This is my book; that is someone else’s book.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "ce51aedc77938e80",
+    "text": "那是谁的书？",
+    "pinyin": "nà shì shéi de shū ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "d78fe8ccc4e64229",
+    "text": "老师的",
+    "pinyin": "lǎo shī de",
+    "meaning": "The teacher’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "919f3b6865dc229b",
+    "text": "妹妹的",
+    "pinyin": "mèi mei de",
+    "meaning": "My younger sister’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "8360e4fab71d7713",
+    "text": "别人的",
+    "pinyin": "bié ren de",
+    "meaning": "Someone else’s",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "3970938be517c269",
+    "text": "姐姐有两个孩子",
+    "pinyin": "jiě jie yǒu liǎng gè hái zi",
+    "meaning": "My elder sister has two children.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "562163b7db8bd047",
+    "text": "谁有两个孩子？",
+    "pinyin": "shéi yǒu liǎng gè hái zi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "160ac9cdd77f4b86",
+    "text": "两个孩子",
+    "pinyin": "liǎng gè hái zi",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "568a7f405ae2c289",
+    "text": "姐姐两个有孩子",
+    "pinyin": "jiě jie liǎng gè yǒu hái zi",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "bcca00e93c574cb3",
+    "text": "有姐姐两个孩子",
+    "pinyin": "yǒu jiě jie liǎng gè hái zi",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "cc41cdc1a7d10c5c",
+    "text": "两个孩子有姐姐",
+    "pinyin": "liǎng gè hái zi yǒu jiě jie",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e6445417a0880ff0",
+    "text": "我有两个妹妹，没有哥哥。",
+    "pinyin": "wǒ yǒu liǎng gè mèi mei , méi yǒu gē gē .",
+    "meaning": "I have two younger sisters and no elder brother.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "20a51445c2e54126",
+    "text": "我没有谁？",
+    "pinyin": "wǒ méi yǒu shéi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "9193c920d982e027",
+    "text": "我不是老师，我是大学生。",
+    "pinyin": "wǒ bù shì lǎo shī , wǒ shì dà xué shēng .",
+    "meaning": "I am not a teacher; I am a university student.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "63621be272d0f826",
+    "text": "我是谁？",
+    "pinyin": "wǒ shì shéi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "c2e34e3cdc50ae01",
+    "text": "朋友会说汉语",
+    "pinyin": "péng you huì shuō hàn yǔ",
+    "meaning": "My friend can speak Mandarin.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "503bd0bf6bfc2727",
+    "text": "谁会说汉语？",
+    "pinyin": "shéi huì shuō hàn yǔ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "3b3caf00cc7bd135",
+    "text": "会说",
+    "pinyin": "huì shuō",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "c8cf776b5f385fb2",
+    "text": "汉语会说朋友",
+    "pinyin": "hàn yǔ huì shuō péng you",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "c7b3f1dbe605d888",
+    "text": "朋友汉语会说",
+    "pinyin": "péng you hàn yǔ huì shuō",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "72881a040153a327",
+    "text": "会说朋友汉语",
+    "pinyin": "huì shuō péng you hàn yǔ",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "2a33f78f377890db",
+    "text": "一本书十块，三本书三十块。",
+    "pinyin": "yī běn shū shí kuài , sān běn shū sān shí kuài .",
+    "meaning": "One book costs ten yuan; three cost thirty.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "47e97d715bed0f3d",
+    "text": "三本书多少钱？",
+    "pinyin": "sān běn shū duō shao qián ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "24c00948b5e7e6be",
+    "text": "二十块",
+    "pinyin": "èr shí kuài",
+    "meaning": "Twenty yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "6e05d8ed088aba7f",
+    "text": "四十块",
+    "pinyin": "sì shí kuài",
+    "meaning": "Forty yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "9daa5b87865bb3a3",
+    "text": "三十块",
+    "pinyin": "sān shí kuài",
+    "meaning": "Thirty yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "task-listenfill",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "534dbbc332351c75",
+    "text": "十块",
+    "pinyin": "shí kuài",
+    "meaning": "Ten yuan",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "hsk-word",
+      "dialogue",
+      "task-truefalse",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "31c35c366792cb83",
+    "text": "水三块，茶五块。我买茶。",
+    "pinyin": "shuǐ sān kuài , chá wǔ kuài . wǒ mǎi chá .",
+    "meaning": "Water costs three yuan; tea costs five. I buy tea.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "5fef4a8d034e9c87",
+    "text": "我买的东西多少钱？",
+    "pinyin": "wǒ mǎi de dōng xi duō shao qián ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "768ae73ef7581665",
+    "text": "两块",
+    "pinyin": "liǎng kuài",
+    "meaning": "Two yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "c612453a16c880d3",
+    "text": "五块",
+    "pinyin": "wǔ kuài",
+    "meaning": "Five yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "161aac5c925af7d7",
+    "text": "三块",
+    "pinyin": "sān kuài",
+    "meaning": "Three yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "9b9f49349313be79",
+    "text": "八块",
+    "pinyin": "bā kuài",
+    "meaning": "Eight yuan",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "6e55191ecc8f5923",
+    "text": "我买了三本书",
+    "pinyin": "wǒ mǎi le sān běn shū",
+    "meaning": "I bought three books.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "1460cc251ce4af07",
+    "text": "谁买了三本书？",
+    "pinyin": "shéi mǎi le sān běn shū ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "3840a6547ddb5b7a",
+    "text": "买了",
+    "pinyin": "mǎi le",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "26e6cfc82f945847",
+    "text": "三本书",
+    "pinyin": "sān běn shū",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "5e99b97b86a0cf1d",
+    "text": "三本书买了我",
+    "pinyin": "sān běn shū mǎi le wǒ",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "25f25aa12511a000",
+    "text": "我三本买了书",
+    "pinyin": "wǒ sān běn mǎi le shū",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "9ba41534509b76de",
+    "text": "我买三了本书",
+    "pinyin": "wǒ mǎi sān le běn shū",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "1c58aea70844a2af",
+    "text": "我们星期六上午九点见面。",
+    "pinyin": "wǒ men xīng qī liù shàng wǔ jiǔ diǎn jiàn miàn .",
+    "meaning": "We meet at nine on Saturday morning.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "a06523ab7b2399f9",
+    "text": "下午九点",
+    "pinyin": "xià wǔ jiǔ diǎn",
+    "meaning": "Nine in the afternoon",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "3e6096387ba2ca7b",
+    "text": "上午六点",
+    "pinyin": "shàng wǔ liù diǎn",
+    "meaning": "Six in the morning",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "3d5a685c04b19531",
+    "text": "下午六点",
+    "pinyin": "xià wǔ liù diǎn",
+    "meaning": "Six in the afternoon",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "bca70fb84c3325af",
+    "text": "上午九点",
+    "pinyin": "shàng wǔ jiǔ diǎn",
+    "meaning": "Nine in the morning",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "1d5485b5e9b40d28",
+    "text": "我们下午两点半上车，三点到。",
+    "pinyin": "wǒ men xià wǔ liǎng diǎn bàn shàng chē , sān diǎn dào .",
+    "meaning": "We board at half past two and arrive at three in the afternoon.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "9636b746c83a1150",
+    "text": "几点上车？",
+    "pinyin": "jǐ diǎn shàng chē ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "baca9b3d510ee543",
+    "text": "三点半",
+    "pinyin": "sān diǎn bàn",
+    "meaning": "Half past three",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e1b1b101dfb4db57",
+    "text": "两点",
+    "pinyin": "liǎng diǎn",
+    "meaning": "Two",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "9ff41a226e19ab88",
+    "text": "两点半",
+    "pinyin": "liǎng diǎn bàn",
+    "meaning": "Half past two",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e503ccf13df2c119",
+    "text": "妹妹今年十五岁",
+    "pinyin": "mèi mei jīn nián shí wǔ suì",
+    "meaning": "My younger sister is fifteen this year.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "5601fb7abdfc27e7",
+    "text": "谁今年十五岁？",
+    "pinyin": "shéi jīn nián shí wǔ suì ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "fe79312c68e5207b",
+    "text": "十五岁",
+    "pinyin": "shí wǔ suì",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b422ac6e85fa84b9",
+    "text": "十五岁今年妹妹",
+    "pinyin": "shí wǔ suì jīn nián mèi mei",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "9548085a96e99e7e",
+    "text": "今年妹妹岁十五",
+    "pinyin": "jīn nián mèi mei suì shí wǔ",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "6676003dde909df8",
+    "text": "妹妹十五今年岁",
+    "pinyin": "mèi mei shí wǔ jīn nián suì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "717588d3b215e604",
+    "text": "哥哥二十岁，妹妹十五岁。",
+    "pinyin": "gē gē èr shí suì , mèi mei shí wǔ suì .",
+    "meaning": "My elder brother is twenty; my younger sister is fifteen.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "64fafc0772fefb8b",
+    "text": "妹妹多大？",
+    "pinyin": "mèi mei duō dà ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "df1ab0045a064395",
+    "text": "二十岁",
+    "pinyin": "èr shí suì",
+    "meaning": "Twenty years old",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "7046ed8c3fc441ec",
+    "text": "五岁",
+    "pinyin": "wǔ suì",
+    "meaning": "Five years old",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "4d2bb582a1584f4e",
+    "text": "十岁",
+    "pinyin": "shí suì",
+    "meaning": "Ten years old",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "2f257a358fc39b54",
+    "text": "学校里有四个人，老师还没来。",
+    "pinyin": "xué xiào lǐ yǒu sì gè rén , lǎo shī hái méi lái .",
+    "meaning": "There are four people inside the school; the teacher has not arrived.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "4f41b0952fccb1e2",
+    "text": "现在有几个人？",
+    "pinyin": "xiàn zài yǒu jǐ gè rén ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "54fad3072f4bd2a5",
+    "text": "五个人",
+    "pinyin": "wǔ gè rén",
+    "meaning": "Five people",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ad7f664caafba88e",
+    "text": "三个人",
+    "pinyin": "sān gè rén",
+    "meaning": "Three people",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "c83248705bfc600d",
+    "text": "一个人",
+    "pinyin": "yī gè rén",
+    "meaning": "One person",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "550ee92cbcf83c84",
+    "text": "四个人",
+    "pinyin": "sì gè rén",
+    "meaning": "Four people",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "2974b9d8ef0a18fc",
+    "text": "我们八点见面",
+    "pinyin": "wǒ men bā diǎn jiàn miàn",
+    "meaning": "We meet at eight.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "d2e4efffb0f786c3",
+    "text": "谁八点见面？",
+    "pinyin": "shéi bā diǎn jiàn miàn ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "5e11bbf4960d887e",
+    "text": "见面我们八点",
+    "pinyin": "jiàn miàn wǒ men bā diǎn",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "7fb85fb2b436d5d6",
+    "text": "见面八点我们",
+    "pinyin": "jiàn miàn bā diǎn wǒ men",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "030f8c3ef5e58301",
+    "text": "我们见面八点",
+    "pinyin": "wǒ men jiàn miàn bā diǎn",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "d4b8fe611116937d",
+    "text": "桌子上有两杯水和一杯茶。",
+    "pinyin": "zhuō zi shàng yǒu liǎng bēi shuǐ hé yī bēi chá .",
+    "meaning": "There are two glasses of water and one cup of tea on the table.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "e6ad700d56d1cc16",
+    "text": "有几杯水？",
+    "pinyin": "yǒu jǐ bēi shuǐ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "24a60e0eb972c92e",
+    "text": "四杯",
+    "pinyin": "sì bēi",
+    "meaning": "Four cups",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "cf3fd8e44d150ecf",
+    "text": "两杯",
+    "pinyin": "liǎng bēi",
+    "meaning": "Two cups",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "aff352b1a6e1d3ab",
+    "text": "一杯",
+    "pinyin": "yī bēi",
+    "meaning": "One cup",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "369005c54526732e",
+    "text": "三杯",
+    "pinyin": "sān bēi",
+    "meaning": "Three cups",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "40d08f2ab9bb87f4",
+    "text": "我拿两本书和三个本子。",
+    "pinyin": "wǒ ná liǎng běn shū hé sān gè běn zi .",
+    "meaning": "I take two books and three notebooks.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "b006e19d9971d20c",
+    "text": "我拿几本书？",
+    "pinyin": "wǒ ná jǐ běn shū ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "75cadcaf0ac6de53",
+    "text": "两本",
+    "pinyin": "liǎng běn",
+    "meaning": "Two books",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "7ea0d9280a320c47",
+    "text": "三本",
+    "pinyin": "sān běn",
+    "meaning": "Three books",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f03315a8c5d57666",
+    "text": "五本",
+    "pinyin": "wǔ běn",
+    "meaning": "Five books",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "dd71905c050ca86e",
+    "text": "一本",
+    "pinyin": "yī běn",
+    "meaning": "One book",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "265c1d7970903267",
+    "text": "桌子上有两杯水",
+    "pinyin": "zhuō zi shàng yǒu liǎng bēi shuǐ",
+    "meaning": "There are two glasses of water on the table.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "d45d290bfde3a028",
+    "text": "哪里有两杯水？",
+    "pinyin": "nǎ lǐ yǒu liǎng bēi shuǐ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "0cabf76829bf8bd5",
+    "text": "桌子上",
+    "pinyin": "zhuō zi shàng",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "c9d4c64de69846c3",
+    "text": "两杯水",
+    "pinyin": "liǎng bēi shuǐ",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "309720ce5264b217",
+    "text": "两杯水有桌子上",
+    "pinyin": "liǎng bēi shuǐ yǒu zhuō zi shàng",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "08c0463da7bb2999",
+    "text": "桌子上两杯水有",
+    "pinyin": "zhuō zi shàng liǎng bēi shuǐ yǒu",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e067e23704a11371",
+    "text": "有两杯水桌子上",
+    "pinyin": "yǒu liǎng bēi shuǐ zhuō zi shàng",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "c35c2ac5fa8d743c",
+    "text": "今天十月六日，明天十月七日。",
+    "pinyin": "jīn tiān shí yuè liù rì , míng tiān shí yuè qī rì .",
+    "meaning": "Today is October sixth; tomorrow is October seventh.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "8beaffe68a443c57",
+    "text": "明天几月几日？",
+    "pinyin": "míng tiān jǐ yuè jǐ rì ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "f8df3e31c026566f",
+    "text": "七月十日",
+    "pinyin": "qī yuè shí rì",
+    "meaning": "July tenth",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "5a3a8d5f2acef832",
+    "text": "六月十日",
+    "pinyin": "liù yuè shí rì",
+    "meaning": "June tenth",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "61ec0157aab14582",
+    "text": "十月七日",
+    "pinyin": "shí yuè qī rì",
+    "meaning": "October seventh",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "a8d19cf06868c220",
+    "text": "十月六日",
+    "pinyin": "shí yuè liù rì",
+    "meaning": "October sixth",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "79a109f5fdb504cd",
+    "text": "我们八点看电影，我七点半到。",
+    "pinyin": "wǒ men bā diǎn kàn diàn yǐng , wǒ qī diǎn bàn dào .",
+    "meaning": "We watch the film at eight; I arrive at half past seven.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "27dc1627b51947c9",
+    "text": "几点看电影？",
+    "pinyin": "jǐ diǎn kàn diàn yǐng ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "c88998c90c467cf2",
+    "text": "七点",
+    "pinyin": "qī diǎn",
+    "meaning": "Seven",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "c34555b4ae8c9496",
+    "text": "七点半",
+    "pinyin": "qī diǎn bàn",
+    "meaning": "Half past seven",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "280d302406a062eb",
+    "text": "八点半",
+    "pinyin": "bā diǎn bàn",
+    "meaning": "Half past eight",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "109d51d0a4624a72",
+    "text": "哥哥喝了半杯奶",
+    "pinyin": "gē gē hē le bàn bēi nǎi",
+    "meaning": "My elder brother drank half a glass of milk.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f9d0730e1c7fb016",
+    "text": "谁喝了半杯奶？",
+    "pinyin": "shéi hē le bàn bēi nǎi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "7f959ddacb354243",
+    "text": "喝了",
+    "pinyin": "hē le",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "5b08ec53f643d2d5",
+    "text": "半杯奶",
+    "pinyin": "bàn bēi nǎi",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "1dbfc73e5fd4f116",
+    "text": "半杯奶喝了哥哥",
+    "pinyin": "bàn bēi nǎi hē le gē gē",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "6d0f24f49ce7efed",
+    "text": "哥哥半喝了杯奶",
+    "pinyin": "gē gē bàn hē le bēi nǎi",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "6b8691708bfc45f5",
+    "text": "哥哥喝半了杯奶",
+    "pinyin": "gē gē hē bàn le bēi nǎi",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "5563064cc1492530",
+    "text": "我买五个包子，朋友买两个。",
+    "pinyin": "wǒ mǎi wǔ gè bāo zi , péng you mǎi liǎng gè .",
+    "meaning": "I buy five steamed buns; my friend buys two.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "e6facf2dd7dc76be",
+    "text": "朋友买几个包子？",
+    "pinyin": "péng you mǎi jǐ gè bāo zi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "d64ed28f4d9eb0bb",
+    "text": "五个",
+    "pinyin": "wǔ gè",
+    "meaning": "Five",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "560a430f06e28c0a",
+    "text": "七个",
+    "pinyin": "qī gè",
+    "meaning": "Seven",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b6d5fed885471e52",
+    "text": "三个",
+    "pinyin": "sān gè",
+    "meaning": "Three",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "eab040a4964afffa",
+    "text": "两个",
+    "pinyin": "liǎng gè",
+    "meaning": "Two",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "6a00bc11bbf9c73e",
+    "text": "一杯奶和半杯水，我都喝了。",
+    "pinyin": "yī bēi nǎi hé bàn bēi shuǐ , wǒ dōu hē le .",
+    "meaning": "I drank one glass of milk and half a glass of water.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "ffe18c8f30f1fe74",
+    "text": "我喝了多少水？",
+    "pinyin": "wǒ hē le duō shao shuǐ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "4b05e414507c93ed",
+    "text": "半杯",
+    "pinyin": "bàn bēi",
+    "meaning": "Half a cup",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "93cab5625638bf5c",
+    "text": "这本书是一百块",
+    "pinyin": "zhè běn shū shì yī bǎi kuài",
+    "meaning": "This book costs one hundred yuan.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e82ab87c84f5802b",
+    "text": "什么是一百块？",
+    "pinyin": "shén me shì yī bǎi kuài ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "d27d721f34b0f309",
+    "text": "这本书",
+    "pinyin": "zhè běn shū",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "d52a5e4a5d45be6f",
+    "text": "这本书一百块是",
+    "pinyin": "zhè běn shū yī bǎi kuài shì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "bca6cae4fff2b9d0",
+    "text": "一百块这本书是",
+    "pinyin": "yī bǎi kuài zhè běn shū shì",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "a78b5cb4722356c9",
+    "text": "是这本书一百块",
+    "pinyin": "shì zhè běn shū yī bǎi kuài",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b09d7ccdb22c25fe",
+    "text": "我先吃晚饭，再去学校。",
+    "pinyin": "wǒ xiān chī wǎn fàn , zài qù xué xiào .",
+    "meaning": "I eat dinner first, then go to school.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "b790aee7b7d7981b",
+    "text": "吃晚饭",
+    "pinyin": "chī wǎn fàn",
+    "meaning": "Eat dinner",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "2b5b7b03da37caad",
+    "text": "去学校",
+    "pinyin": "qù xué xiào",
+    "meaning": "Go to school",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "5289ad2de0471132",
+    "text": "买衣服",
+    "pinyin": "mǎi yī fú",
+    "meaning": "Buy clothes",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "b6beac3e2c9bb2b5",
+    "text": "我坐车去上课，回来走路。",
+    "pinyin": "wǒ zuò chē qù shàng kè , huí lái zǒu lù .",
+    "meaning": "I go to class by vehicle and walk back.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "f67ef20206bbff5d",
+    "text": "去上课怎么走？",
+    "pinyin": "qù shàng kè zěn me zǒu ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "7af7bdf680ba1931",
+    "text": "坐飞机",
+    "pinyin": "zuò fēi jī",
+    "meaning": "Fly",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ac321088e554fb9e",
+    "text": "不去",
+    "pinyin": "bù qù",
+    "meaning": "Not go",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "6c331b864a29c453",
+    "text": "坐车",
+    "pinyin": "zuò chē",
+    "meaning": "Go by vehicle",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "63b40f5f8d7ad68f",
+    "text": "我在家看书",
+    "pinyin": "wǒ zài jiā kàn shū",
+    "meaning": "I read at home.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "7c251fd4b0ca4ae8",
+    "text": "谁在家看书？",
+    "pinyin": "shéi zài jiā kàn shū ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "aa68879f72c76460",
+    "text": "我书在家看",
+    "pinyin": "wǒ shū zài jiā kàn",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "737f41b51e74e648",
+    "text": "在我看家书",
+    "pinyin": "zài wǒ kàn jiā shū",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "cb55f3c27023ac85",
+    "text": "看书在我家",
+    "pinyin": "kàn shū zài wǒ jiā",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f19d734914006bd7",
+    "text": "书店在学校西边，商店在南边。",
+    "pinyin": "shū diàn zài xué xiào xī biān , shāng diàn zài nán biān .",
+    "meaning": "The bookshop is west of the school; the shop is south.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "aaad44fb2340f546",
+    "text": "书店在哪里？",
+    "pinyin": "shū diàn zài nǎ lǐ ?",
+    "meaning": "Where is the bookshop?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question",
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "7f3134119aee4122",
+    "text": "妈妈在楼上看书，爸爸在楼下做饭。",
+    "pinyin": "mā mā zài lóu shàng kàn shū , bà bà zài lóu xià zuò fàn .",
+    "meaning": "Mother reads upstairs; father cooks downstairs.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "0170c73209d6adef",
+    "text": "谁在楼下？",
+    "pinyin": "shéi zài lóu xià ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "df022d9141fc2bcc",
+    "text": "朋友不想吃包子",
+    "pinyin": "péng you bù xiǎng chī bāo zi",
+    "meaning": "My friend does not want steamed buns.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f7e5be3b1ea91863",
+    "text": "谁不想吃包子？",
+    "pinyin": "shéi bù xiǎng chī bāo zi ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "b4d005e7fdeee8da",
+    "text": "不想吃",
+    "pinyin": "bù xiǎng chī",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "ddc85dce2ddb50b7",
+    "text": "包子不想吃朋友",
+    "pinyin": "bāo zi bù xiǎng chī péng you",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f28c3ad4356953c2",
+    "text": "朋友包子不想吃",
+    "pinyin": "péng you bāo zi bù xiǎng chī",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "82d436af8e0fde0d",
+    "text": "不朋友想吃包子",
+    "pinyin": "bù péng you xiǎng chī bāo zi",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "8c72d68563afb6b5",
+    "text": "昨天我没去学校，在家看书。",
+    "pinyin": "zuó tiān wǒ méi qù xué xiào , zài jiā kàn shū .",
+    "meaning": "I did not go to school yesterday; I read at home.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "f17dc53d34cf5c21",
+    "text": "昨天我在哪里？",
+    "pinyin": "zuó tiān wǒ zài nǎ lǐ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "c1f622372c3a1b57",
+    "text": "在商店",
+    "pinyin": "zài shāng diàn",
+    "meaning": "At the shop",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "87a182e8b4e374ca",
+    "text": "在车站",
+    "pinyin": "zài chē zhàn",
+    "meaning": "At the station",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word",
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "ef08cbdc739c1009",
+    "text": "在学校",
+    "pinyin": "zài xué xiào",
+    "meaning": "At school",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "a06e9320b7a260e6",
+    "text": "我不喝牛奶，给我一杯茶吧。",
+    "pinyin": "wǒ bù hē niú nǎi , gěi wǒ yī bēi chá ba .",
+    "meaning": "I do not drink milk; give me a cup of tea, please.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "d5eee325d88eefd8",
+    "text": "我想喝什么？",
+    "pinyin": "wǒ xiǎng hē shén me ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "6a3a077a947d5a47",
+    "text": "妈妈在楼上读书",
+    "pinyin": "mā mā zài lóu shàng dú shū",
+    "meaning": "Mother reads upstairs.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ae4b98d62baddd51",
+    "text": "谁在楼上读书？",
+    "pinyin": "shéi zài lóu shàng dú shū ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "92317b54797b3d3b",
+    "text": "妈妈书在楼上读",
+    "pinyin": "mā mā shū zài lóu shàng dú",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ca4765f8af927287",
+    "text": "读书妈妈在楼上",
+    "pinyin": "dú shū mā mā zài lóu shàng",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "5694f1e4895e03d1",
+    "text": "楼上读在妈妈书",
+    "pinyin": "lóu shàng dú zài mā mā shū",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "5451ad3bb2acb0f0",
+    "text": "弟弟想吃米饭，不想吃包子。",
+    "pinyin": "dì di xiǎng chī mǐ fàn , bù xiǎng chī bāo zi .",
+    "meaning": "My younger brother wants rice, not steamed buns.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "a3dd6351fea76dc6",
+    "text": "弟弟想吃什么？",
+    "pinyin": "dì di xiǎng chī shén me ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "89bac6759730116b",
+    "text": "这本书是新的，那本不是新的。",
+    "pinyin": "zhè běn shū shì xīn de , nà běn bù shì xīn de .",
+    "meaning": "This book is new; that book is not new.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "dbfc14de0334ddfd",
+    "text": "哪本书是新的？",
+    "pinyin": "nǎ běn shū shì xīn de ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "a0f9259248e0b958",
+    "text": "这本",
+    "pinyin": "zhè běn",
+    "meaning": "This one",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "84dd497edb97b16f",
+    "text": "那本",
+    "pinyin": "nà běn",
+    "meaning": "That one",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "e5bfa28fd6188261",
+    "text": "他昨天没上课",
+    "pinyin": "tā zuó tiān méi shàng kè",
+    "meaning": "He did not attend class yesterday.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "2d4c0b9b948a9fbf",
+    "text": "谁昨天没上课？",
+    "pinyin": "shéi zuó tiān méi shàng kè ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "cb596d59489b36ee",
+    "text": "没上课",
+    "pinyin": "méi shàng kè",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "d446d70457ae5879",
+    "text": "昨天上他没课",
+    "pinyin": "zuó tiān shàng tā méi kè",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "4870c1efe7d59fac",
+    "text": "他昨天没课上",
+    "pinyin": "tā zuó tiān méi kè shàng",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "abe53ca6cf7a4b7d",
+    "text": "没他昨天上课",
+    "pinyin": "méi tā zuó tiān shàng kè",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "51083cdda0fc2816",
+    "text": "下雨了，我们今天不出去。",
+    "pinyin": "xià yǔ le , wǒ men jīn tiān bù chū qù .",
+    "meaning": "It is raining; we are not going out today.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "9e0e19f9abc919a8",
+    "text": "今天出去吗？",
+    "pinyin": "jīn tiān chū qù ma ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "5d5996abb230ef39",
+    "text": "不出去",
+    "pinyin": "bù chū qù",
+    "meaning": "Not going out",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "57363200b4a93fbc",
+    "text": "现在出去",
+    "pinyin": "xiàn zài chū qù",
+    "meaning": "Go out now",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ab86cadacc1dba49",
+    "text": "先出去",
+    "pinyin": "xiān chū qù",
+    "meaning": "Go out first",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "f1f90efc3551049c",
+    "text": "一起出去",
+    "pinyin": "yì qǐ chū qù",
+    "meaning": "Go out together",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "2cbc4bbfc1c406a6",
+    "text": "我们在学校前边等你，不在后边。",
+    "pinyin": "wǒ men zài xué xiào qián biān děng nǐ , bù zài hòu biān .",
+    "meaning": "We wait for you in front of the school, not behind it.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "ba5703a59b91a7a9",
+    "text": "我们在哪里等？",
+    "pinyin": "wǒ men zài nǎ lǐ děng ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "3ffaba692f2f06ce",
+    "text": "学校后边",
+    "pinyin": "xué xiào hòu biān",
+    "meaning": "Behind school",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "bb68fbfa6da1b636",
+    "text": "学校里边",
+    "pinyin": "xué xiào lǐ bian",
+    "meaning": "Inside school",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ca0db6c097d34623",
+    "text": "学校上边",
+    "pinyin": "xué xiào shàng biān",
+    "meaning": "Above school",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "d7d8c3b556fe010a",
+    "text": "学校前边",
+    "pinyin": "xué xiào qián biān",
+    "meaning": "In front of school",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "008a808491f5714f",
+    "text": "我们一起去学校",
+    "pinyin": "wǒ men yì qǐ qù xué xiào",
+    "meaning": "We go to school together.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "8656e69d13a9bce6",
+    "text": "谁一起去学校？",
+    "pinyin": "shéi yì qǐ qù xué xiào ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "0ead3fd4ba8abb15",
+    "text": "我们去一起学校",
+    "pinyin": "wǒ men qù yì qǐ xué xiào",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "71759c95c4336e66",
+    "text": "一起我们学校去",
+    "pinyin": "yì qǐ wǒ men xué xiào qù",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "a52bdfe60bafc90c",
+    "text": "学校一起去我们",
+    "pinyin": "xué xiào yì qǐ qù wǒ men",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "90aa3a0a3b6d6747",
+    "text": "门开着，朋友在门外等我。",
+    "pinyin": "mén kāi zhe , péng you zài mén wài děng wǒ .",
+    "meaning": "The door is open; my friend is waiting outside it.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "f7abd851f38c2337",
+    "text": "朋友在哪里？",
+    "pinyin": "péng you zài nǎ lǐ ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "26bf66294cdc4231",
+    "text": "门外",
+    "pinyin": "mén wài",
+    "meaning": "Outside the door",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "4442058cff3dbaed",
+    "text": "门里",
+    "pinyin": "mén lǐ",
+    "meaning": "Inside the door",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "93e680e5e7bb3f9b",
+    "text": "今天我不买衣服，我买书。",
+    "pinyin": "jīn tiān wǒ bù mǎi yī fú , wǒ mǎi shū .",
+    "meaning": "Today I do not buy clothes; I buy books.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example"
+    ]
+  },
+  {
+    "id": "afb26628f98564e0",
+    "text": "今天我买什么？",
+    "pinyin": "jīn tiān wǒ mǎi shén me ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "38e56a98dd90ddd0",
+    "text": "爸爸做了晚饭",
+    "pinyin": "bà bà zuò le wǎn fàn",
+    "meaning": "Father made dinner.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-example",
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "22144f07f955c938",
+    "text": "谁做了晚饭？",
+    "pinyin": "shéi zuò le wǎn fàn ?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-question"
+    ]
+  },
+  {
+    "id": "8de1f0369489448e",
+    "text": "做了",
+    "pinyin": "zuò le",
+    "meaning": "Sentence part",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-ordering-part"
+    ]
+  },
+  {
+    "id": "2d09c29027a22095",
+    "text": "晚饭做了爸爸",
+    "pinyin": "wǎn fàn zuò le bà bà",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "ab92348f5587355d",
+    "text": "爸爸晚了做饭",
+    "pinyin": "bà bà wǎn le zuò fàn",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
+    "id": "55e379f1cb4e07b2",
+    "text": "爸爸了晚饭做",
+    "pinyin": "bà bà le wǎn fàn zuò",
+    "meaning": "Alternative word order",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "hsk-word"
+    ]
+  },
+  {
     "id": "29679f718599809e",
     "text": "我不是老师，我是学生。",
     "pinyin": "Wǒ bú shì lǎoshī, wǒ shì xuésheng.",
@@ -36227,22 +41755,6 @@
     ]
   },
   {
-    "id": "534dbbc332351c75",
-    "text": "十块。",
-    "pinyin": "Shí kuài.",
-    "meaning": "Ten yuan.",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "dialogue",
-      "task-truefalse",
-      "task-reply-choice"
-    ]
-  },
-  {
     "id": "4b89467e0fabee41",
     "text": "三个多少钱？",
     "pinyin": "Sān ge duōshao qián?",
@@ -36303,19 +41815,6 @@
       }
     ],
     "dialogue": true
-  },
-  {
-    "id": "9daa5b87865bb3a3",
-    "text": "三十块。",
-    "pinyin": "Sānshí kuài.",
-    "meaning": "Thirty yuan.",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-listenfill",
-      "task-reply-choice"
-    ]
   },
   {
     "id": "01e51caf364cb787",
@@ -38121,19 +43620,6 @@
     ]
   },
   {
-    "id": "f60d976a91507856",
-    "text": "请坐！",
-    "pinyin": "qǐng zuò !",
-    "meaning": "Please sit down.",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-choice",
-      "task-match"
-    ]
-  },
-  {
     "id": "1c50cec8703f3915",
     "text": "请坐，喝点儿茶吧。",
     "pinyin": "Qǐng zuò, hē diǎnr chá ba.",
@@ -38370,16 +43856,6 @@
   {
     "id": "f69164964755fcc4",
     "text": "很好笑。",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-choice"
-    ]
-  },
-  {
-    "id": "eab040a4964afffa",
-    "text": "两个。",
     "moods": [
       "clear"
     ],
@@ -38831,16 +44307,6 @@
     ]
   },
   {
-    "id": "ad7f664caafba88e",
-    "text": "三个人。",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-choice"
-    ]
-  },
-  {
     "id": "e9a11c3402aefb27",
     "text": "在电影院门口。",
     "moods": [
@@ -39247,16 +44713,6 @@
     ]
   },
   {
-    "id": "75cadcaf0ac6de53",
-    "text": "两本。",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-choice"
-    ]
-  },
-  {
     "id": "2f80cfe33894a9c1",
     "text": "这个杯子很干净。",
     "pinyin": "zhè gè bēi zi hěn gān jìng .",
@@ -39334,18 +44790,6 @@
     ],
     "kinds": [
       "task-reply-choice"
-    ]
-  },
-  {
-    "id": "aaad44fb2340f546",
-    "text": "书店在哪里？",
-    "pinyin": "shū diàn zài nǎ lǐ ?",
-    "meaning": "Where is the bookshop?",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-prompt"
     ]
   },
   {
@@ -39745,16 +45189,6 @@
     ]
   },
   {
-    "id": "280d302406a062eb",
-    "text": "八点半。",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-choice"
-    ]
-  },
-  {
     "id": "44c27492c7368ce7",
     "text": "两张。",
     "moods": [
@@ -39991,16 +45425,6 @@
   {
     "id": "5eef9e5521582fbe",
     "text": "昨天七点。",
-    "moods": [
-      "clear"
-    ],
-    "kinds": [
-      "task-reply-choice"
-    ]
-  },
-  {
-    "id": "87a182e8b4e374ca",
-    "text": "在车站。",
     "moods": [
       "clear"
     ],
@@ -40397,6 +45821,262 @@
     "text": "这个网友学习汉语。",
     "pinyin": "zhè gè wǎng yǒu xué xí hàn yǔ .",
     "meaning": "This online friend studies Chinese.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "f45806d9d6b53f4d",
+    "text": "在两个入口中间。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "7fb15b311aafd3fe",
+    "text": "两个朋友。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "c8643d1ea9b558bb",
+    "text": "明年再来。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "ba82fe225aca508c",
+    "text": "门前边是你们吗？",
+    "pinyin": "mén qián biān shì nǐ men ma ?",
+    "meaning": "Is that you in front of the gate?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "a6ba927638e516f4",
+    "text": "是，我们在门前。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "052475cf2e4c79d7",
+    "text": "昨天没上课。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "3bcd50161413b2b4",
+    "text": "地图上边是北。",
+    "pinyin": "dì tú shàng biān shì běi .",
+    "meaning": "North is at the top of the map.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "48206f74a5e6869d",
+    "text": "地图下边是南。",
+    "pinyin": "dì tú xià biān shì nán .",
+    "meaning": "South is at the bottom of the map.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "dcfa9f08373908ed",
+    "text": "西边有书店。",
+    "pinyin": "xī biān yǒu shū diàn .",
+    "meaning": "There is a bookshop to the west.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "25809e62a9e084b8",
+    "text": "我们在门前。",
+    "pinyin": "wǒ men zài mén qián .",
+    "meaning": "We are in front of the gate.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "c282a891197441b0",
+    "text": "我们一边走路，一边聊天。",
+    "pinyin": "wǒ men yī biān zǒu lù , yī biān liáo tiān .",
+    "meaning": "We walk and chat at the same time.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "91ada148122c4cc9",
+    "text": "我可以进来吗？",
+    "pinyin": "wǒ kě yǐ jìn lái ma ?",
+    "meaning": "May I come in?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "ed36afd163c63704",
+    "text": "那个杯子坏了。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "716dc632661457db",
+    "text": "昨天星期日。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "de966f5431edd4ff",
+    "text": "口渴了，可以喝水吗？",
+    "pinyin": "kǒu kě le , kě yǐ hē shuǐ ma ?",
+    "meaning": "I am thirsty; may I have water?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "72c1b120f51a9fb1",
+    "text": "可以，喝点水吧。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "33fb1c79e0a26795",
+    "text": "他是工人。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "04a454568990ca03",
+    "text": "门外是一棵树。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "209df312adb8d970",
+    "text": "我们最后一起收桌子。",
+    "pinyin": "wǒ men zuì hòu yì qǐ shōu zhuō zi .",
+    "meaning": "We clear the table together at the end.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "7392a10cf4600495",
+    "text": "朋友们常常来。",
+    "pinyin": "péng you men cháng cháng lái .",
+    "meaning": "My friends often visit.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "0eb748fa913285b5",
+    "text": "我们还在读书。",
+    "pinyin": "wǒ men hái zài dú shū .",
+    "meaning": "We are still reading.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "eaf796167ebe903e",
+    "text": "我坐下喝水。",
+    "pinyin": "wǒ zuò xià hē shuǐ .",
+    "meaning": "I sit down to drink water.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "2d4c9ef4065858f9",
+    "text": "我可以进去吗？",
+    "pinyin": "wǒ kě yǐ jìn qù ma ?",
+    "meaning": "May I go in?",
     "moods": [
       "clear"
     ],

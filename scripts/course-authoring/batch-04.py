@@ -37,7 +37,7 @@ write(25,'具体一点的夸奖',['Give a specific compliment without exaggerati
 ('晚','late','muộn','adjective','现在太晚了，明天再看吧。','It is too late now; let us look again tomorrow.'),
 ('最好','best; had better','tốt nhất','adverb','这三件衣服，我觉得白色的最好看。','Of these three, I think the white one looks best.')],
 [grammar(u,'一09','很 / 非常 / 太 / 真 / 最 + adjective','Choose the strength of a description',
-'很 often makes a neutral adjective predicate natural and need not mean an unusually high degree. 非常 is stronger. 真 gives a sincere reaction. 太…了 can praise or complain according to the adjective and context: 太好看了 / 太贵了. 最 selects the highest degree within a understood set; make the comparison set clear.',[
+'很 often makes a neutral adjective predicate natural and need not mean an unusually high degree. 非常 is stronger. 真 gives a sincere reaction. 太…了 can praise or complain according to the adjective and context: 太好看了 / 太贵了. 最 selects the highest degree within an understood set; make the comparison set clear.',[
 ('这件衣服很好看，那件非常好看。','This item looks good; that one looks very good.'),('这个颜色真好看，太好看了！','This colour looks really good—so good!'),('这三件，白色的最好看。','Of these three, the white one looks best.')],
 ('这件衣服最很好看。','这三件衣服，白色的最好看。','Use 最 without 很 before the same adjective, and state the comparison set.')),
 grammar(u,'一30','subject + degree word + adjective','Describe an attribute directly',

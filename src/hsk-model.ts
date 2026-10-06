@@ -1,9 +1,12 @@
 import packs from "./generated/hsk-practice.json";
-import type { HskItem, HskPracticePack } from "./hsk-pack";
+import type { AnyHskPack, HskItem } from "./hsk-pack";
 import { roadmapFor } from "./hsk-roadmap";
+import { selectBankItems } from "./hsk-bank";
 
 export type HskEdition = "2.0" | "3.0";
-export const hskItems = (packs as HskPracticePack[]).flatMap((p) => p.items);
+const installedPacks = packs as AnyHskPack[];
+export const hskItems = installedPacks.flatMap((p) => p.items.map((q) => ({ ...q, level: p.level })));
+const legacyItems = installedPacks.filter((p) => p.version === 1).flatMap((p) => p.items);
 export const hskItemById = Object.fromEntries(hskItems.map((q) => [q.id, q]));
 export const hskParticleContext: Record<
   string,
@@ -167,7 +170,9 @@ export interface HskAnswer {
 export interface HskRun {
   id: string;
   schemaVersion: 1;
-  packVersion: 1;
+  packVersion: 1 | 2;
+  level?: 1 | 2 | 3;
+  seenItemIds?: string[];
   unit: HskItem["unit"] | "repair";
   itemIds: string[];
   answers: Record<string, HskAnswer>;
@@ -212,16 +217,16 @@ export function gradeRun(run: HskRun) {
       supported === 0,
   };
 }
-export function unitPassed(unit: string, runs: HskRun[]) {
-  return runs.some((r) => r.unit === unit && gradeRun(r).passed);
+export function unitPassed(unit: string, runs: HskRun[], level = 1) {
+  return runs.some((r) => (r.level ?? 1) === level && r.unit === unit && gradeRun(r).passed);
 }
-export function unitUnlocked(index: number, runs: HskRun[]) {
-  return hskUnits.slice(0, index).every((u) => unitPassed(u.id, runs));
+export function unitUnlocked(index: number, runs: HskRun[], level = 1) {
+  return hskUnits.slice(0, index).every((u) => unitPassed(u.id, runs, level));
 }
-export function unresolvedItems(runs: HskRun[]) {
+export function unresolvedItems(runs: HskRun[], level = 1) {
   const latest = new Map<string, HskAnswer | undefined>();
   [...runs]
-    .filter((r) => r.finishedAt)
+    .filter((r) => r.finishedAt && (r.level ?? 1) === level)
     .sort((a, b) => a.finishedAt! - b.finishedAt! || a.id.localeCompare(b.id))
     .forEach((r) => r.itemIds.forEach((id) => latest.set(id, r.answers[id])));
   return [...latest]
@@ -241,12 +246,35 @@ export function makeRun(
     schemaVersion: 1,
     packVersion: 1,
     unit,
-    itemIds: ids ?? hskItems.filter((q) => q.unit === unit).map((q) => q.id),
+    itemIds: ids ?? legacyItems.filter((q) => q.unit === unit).map((q) => q.id),
     answers: {},
     startedAt: now,
     deadline: unit === "sample" ? now + 6 * 60_000 : null,
     finishedAt: null,
   };
+}
+export function hasHskBank(level: number) {
+  return installedPacks.some((p) => p.version === 2 && p.level === level);
+}
+export function makeBankRun(
+  unit: HskRun["unit"],
+  level: 1 | 2 | 3,
+  history: HskRun[],
+  ids?: string[],
+  now = Date.now(),
+): HskRun {
+  if (!hasHskBank(level)) throw new Error("This level’s practice bank is not installed yet.");
+  const id = crypto.randomUUID();
+  const itemIds = unit === "repair" ? ids ?? [] : selectBankItems(
+    hskItems, history, level, unit, unit === "sample" ? 12 : 10, id,
+  );
+  const run: HskRun = {
+    id, schemaVersion: 1, packVersion: 2, level, unit, itemIds,
+    seenItemIds: [], answers: {}, startedAt: now,
+    deadline: unit === "sample" ? now + 12 * 60_000 : null, finishedAt: null,
+  };
+  if (!validRun(run)) throw new Error("The selected practice questions are invalid.");
+  return run;
 }
 export function validRun(raw: unknown): raw is HskRun {
   const r = raw as HskRun;
@@ -254,23 +282,29 @@ export function validRun(raw: unknown): raw is HskRun {
     !!r &&
     typeof r.id === "string" &&
     r.schemaVersion === 1 &&
-    r.packVersion === 1 &&
+    (r.packVersion === 1 || (r.packVersion === 2 && [1, 2, 3].includes(r.level!))) &&
     ["identity", "numbers", "daily", "sample", "repair"].includes(r.unit) &&
     Array.isArray(r.itemIds) &&
     r.itemIds.length > 0 &&
-    r.itemIds.length <= 36 &&
+    r.itemIds.length <= (r.packVersion === 1 ? 36 : 90) &&
     new Set(r.itemIds).size === r.itemIds.length &&
     r.itemIds.every(
       (id) =>
         !!hskItemById[id] &&
-        (r.unit === "repair" || hskItemById[id].unit === r.unit),
+        (r.unit === "repair" || hskItemById[id].unit === r.unit) &&
+        (r.packVersion === 1 ? legacyItems.some((q) => q.id === id) : hskItemById[id].level === r.level),
     ) &&
     (r.unit === "repair" ||
-      r.itemIds.length === hskItems.filter((q) => q.unit === r.unit).length) &&
+      (r.packVersion === 1
+        ? r.itemIds.length === legacyItems.filter((q) => q.unit === r.unit).length
+        : r.itemIds.length === (r.unit === "sample" ? 12 : 10))) &&
+    (r.packVersion === 1 ||
+      (Array.isArray(r.seenItemIds) && new Set(r.seenItemIds).size === r.seenItemIds.length &&
+       r.seenItemIds.every((id) => r.itemIds.includes(id)))) &&
     Number.isFinite(r.startedAt) &&
     r.startedAt > 0 &&
     (r.unit === "sample"
-      ? r.deadline === r.startedAt + 360_000
+      ? r.deadline === r.startedAt + (r.packVersion === 1 ? 360_000 : 720_000)
       : r.deadline === null) &&
     (r.finishedAt === null ||
       (Number.isFinite(r.finishedAt) && r.finishedAt >= r.startedAt)) &&

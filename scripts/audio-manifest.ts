@@ -188,6 +188,8 @@ export function collectAudioScripts(): Script[] {
   );
   hskItems.forEach((q) => {
     add(q.sentence, "hsk-example", q.py, q.en, ["clear"]);
+    if (q.promptPy) add(q.prompt, "hsk-question", q.promptPy, undefined, ["clear"]);
+    q.segments?.forEach((c) => add(c.zh, "hsk-ordering-part", c.py, c.en, ["clear"]));
     q.choices.forEach((c) =>
       add(
         hskSpeech(c.zh),

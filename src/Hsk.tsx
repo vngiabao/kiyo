@@ -23,6 +23,8 @@ import {
   hskSources,
   hskUnits,
   makeRun,
+  makeBankRun,
+  hasHskBank,
   officialPaper,
   sourceSteps,
   sourceStepsFor,
@@ -61,6 +63,9 @@ export default function Hsk({
     [],
   );
   const s = settings ?? defaultHskSettings;
+  const bank = hasHskBank(s.level);
+  const practiceAvailable = s.level === 1 || bank;
+  const studyKey = (unit: string) => s.level === 1 ? unit : `${s.level}:${unit}`;
   const plan = roadmapFor(s.level);
   const levelSteps = sourceStepsFor(s.level);
   const selectLevel = (level: number) =>
@@ -97,25 +102,27 @@ export default function Hsk({
   if (!runs) return <p role="status">Opening your HSK notebook…</p>;
   const start = (unit: HskRun["unit"], ids?: string[]) =>
     void act(async () => {
-      const r = makeRun(unit, ids);
+      const r = bank
+        ? makeBankRun(unit, s.level as 1 | 2 | 3, runs, ids)
+        : makeRun(unit, ids);
       await hskDB.runs.add(r);
       setActive(r.id);
     });
   if (active) return <HskExam id={active} onExit={() => setActive(null)} />;
-  const completed = hskUnits.filter((u) => unitPassed(u.id, runs)).length;
-  const unfinished = runs.find((r) => !r.finishedAt);
-  const mistakes = unresolvedItems(runs);
+  const completed = hskUnits.filter((u) => unitPassed(u.id, runs, s.level)).length;
+  const unfinished = runs.find((r) => !r.finishedAt && (r.level ?? 1) === s.level);
+  const mistakes = unresolvedItems(runs, s.level);
   const sourceKey = `${s.edition}:${s.level}:`;
   const sourceCount = sourceSteps.filter((t) =>
     s.sourceDone.includes(sourceKey + t.id),
   ).length;
-  const next = hskUnits.find((u) => !unitPassed(u.id, runs));
+  const next = hskUnits.find((u) => !unitPassed(u.id, runs, s.level));
   if (study) {
     const unit = hskUnits.find((u) => u.id === study)!;
-    const items = hskItems.filter((q) => q.unit === study);
+    const items = hskItems.filter((q) => q.unit === study && q.level === s.level);
     const words = [
       ...new Map(
-        items.flatMap((q) => q.choices).map((c) => [c.zh, c]),
+        items.filter((q) => !q.format || q.format === "cloze").flatMap((q) => q.choices).map((c) => [c.zh, c]),
       ).values(),
     ];
     return (
@@ -128,7 +135,7 @@ export default function Hsk({
           {unit.description} Read the examples, then close the notes for your
           checkpoint.
         </p>
-        <h2>Words in this checkpoint</h2>
+        {words.length > 0 && <><h2>Words in this checkpoint</h2>
         <dl className="hsk-word-bank">
           {words.map((w) => (
             <div key={w.zh}>
@@ -152,7 +159,7 @@ export default function Hsk({
               </dd>
             </div>
           ))}
-        </dl>
+        </dl></>}
         <h2>Read in context</h2>
         <div className="hsk-study-lines">
           {items.map((q) => (
@@ -176,7 +183,7 @@ export default function Hsk({
           onClick={() =>
             void act(async () => {
               await changeHskSettings({
-                studied: [...new Set([...s.studied, study])],
+                studied: [...new Set([...s.studied, studyKey(study)])],
               });
               setStudy(null);
             })
@@ -208,14 +215,14 @@ export default function Hsk({
           onClick={() =>
             unfinished
               ? setActive(unfinished.id)
-              : s.level === 1 && next
+              : practiceAvailable && next
                 ? setStudy(next.id)
                 : setTab("sources")
           }
         >
           {unfinished
             ? "Continue saved practice"
-            : s.level === 1 && next
+            : practiceAvailable && next
               ? `Begin: ${next.title}`
               : "Open your source checklist"}
         </button>
@@ -341,30 +348,28 @@ export default function Hsk({
             </details>
             <div className="hsk-section-heading">
               <h2>
-                {s.level === 1
+                {practiceAvailable
                   ? "Your reading foundation"
                   : `${plan.label} · ${plan.title}`}
               </h2>
               <span>
-                {s.level === 1
+                {practiceAvailable
                   ? `${completed} / 3 checkpoints`
                   : `${sourceCount} / 5 study steps`}
               </span>
             </div>
-            {s.level === 1 ? (
+            {practiceAvailable ? (
               <>
                 <p className="muted">
-                  36 original Kiyo questions: 24 to study, 12 in a separate
-                  timed sample. Vocabulary checked against the legacy HSK 1
-                  list.
-                  {s.edition === "3.0" &&
-                    " This is foundation work, not full HSK 3.0 Level 1 coverage."}
+                  {bank
+                    ? `${hskItems.filter((q) => q.level === s.level).length} original questions: 60 checkpoint items and 30 sample items. Each attempt brings unseen items first, then those seen least often. Vocabulary follows the GF2021 inventory; this is adapted practice, not a complete official paper.`
+                    : "36 original cloze questions: 24 checkpoint items and 12 sample items. This is foundation practice, not complete exam coverage."}
                 </p>
                 <ol className="hsk-path">
                   {hskUnits.map((u, i) => {
-                    const passed = unitPassed(u.id, runs),
-                      unlocked = unitUnlocked(i, runs),
-                      studied = s.studied.includes(u.id);
+                    const passed = unitPassed(u.id, runs, s.level),
+                      unlocked = unitUnlocked(i, runs, s.level),
+                      studied = s.studied.includes(studyKey(u.id));
                     return (
                       <li key={u.id}>
                         <span
@@ -384,12 +389,13 @@ export default function Hsk({
                                   : "Locked"}
                             </span>
                           </div>
-                          <p className="hsk-focus" lang="zh-CN">
+                          {!bank && <><p className="hsk-focus" lang="zh-CN">
                             {u.focus}
                           </p>
                           <Pinyin text={u.focusPy} />
                           <p>{u.description}</p>
-                          <p className="muted">{u.book}</p>
+                          <p className="muted">{u.book}</p></>}
+                          {bank && <p>Study the examples, then answer a fresh selection of listening, reading and word-order questions without help.</p>}
                           {unlocked ? (
                             <div className="hsk-row-actions">
                               <button
@@ -416,7 +422,7 @@ export default function Hsk({
                           )}
                           {unlocked && !studied && (
                             <small>
-                              Study the notes first to unlock the 8-question
+                              Study the notes first to unlock the {bank ? 10 : 8}-question
                               checkpoint.
                             </small>
                           )}
@@ -428,13 +434,12 @@ export default function Hsk({
                 <div className="hsk-timed">
                   <Timer size={28} />
                   <div>
-                    <h3>Reading under pressure.</h3>
+                    <h3>{bank ? "A fresh timed selection." : "Reading under pressure."}</h3>
                     <p>
-                      12 new-to-this-path questions · 6 minutes · no hints ·
-                      auto-submit.
+                      {bank ? "12 questions · 12 minutes" : "12 questions · 6 minutes"} · no hints · auto-submit.
                     </p>
                     <p className="muted">
-                      A short cloze sample, not a full official mock. All three
+                      A short original sample, not a full official mock. All three
                       checkpoints must be cleared.
                     </p>
                     <button
@@ -654,8 +659,8 @@ export default function Hsk({
           <details>
             <summary>How Kiyo’s practice was made</summary>
             <p>
-              The 36 in-app cloze questions are original AI-assisted Kiyo
-              drafts, not copied exam or textbook questions. Vocabulary and
+              The in-app questions are original AI-assisted Kiyo
+              drafts, not copied exam or textbook questions. Mixed banks add listening, reading and adapted word-order practice; they do not reproduce every official section. Vocabulary and
               answer structure are checked by the content-pack pipeline against
               the imported MIT-licensed HSK list. Native-language review is
               still pending. The 2021 HSK vocabulary standard is not treated as
@@ -705,7 +710,7 @@ export default function Hsk({
                   <li key={r.id}>
                     <div>
                       <strong>
-                        {r.unit === "sample"
+                        Level {r.level ?? 1} · {r.unit === "sample"
                           ? "Timed reading sample"
                           : r.unit === "repair"
                             ? "Mistake repair"

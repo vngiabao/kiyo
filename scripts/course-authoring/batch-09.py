@@ -1,5 +1,6 @@
 """Editorial source: updates, message sequences, clarification and friendly teasing."""
 from common import *
+selected_source_rows['s2-u15:实在']='7253'
 character_groups.update({
 's2-u13':[('忽','suddenly; neglect'),('急','urgent; anxious'),('交','to hand over; exchange'),('司','to manage; in 司机'),('辆','vehicle classifier'),('近','near'),('离','to leave; distance from'),('已','already'),('定','to decide; fixed')],
 's2-u14':[('经','to pass through; in 经常'),('又','again; also'),('然','in 然后: then'),('通','to connect; pass through'),('随','to follow; according to'),('件','item classifier'),('业','work; study'),('完','to finish'),('借','to borrow; lend')],
@@ -76,3 +77,194 @@ match=[('出发',[('我刚出发。','I have just set off.'),('我已经到了�
 [('A useful delay update','我还在车上，时间确认后再告诉你。','I am still on the vehicle; I will tell you after the time is confirmed.','Location and next update are useful even when an exact estimate is unknown.'),('Calming urgency','我知道你在等，先别急，我会再发消息。','I know you are waiting; do not worry for now, I will message again.','Acknowledge the wait without claiming control over the driver or traffic.')],
 [('你已经到了吗？','Have you arrived yet?','Give the actual state',['还没到，我还在车上。']),('什么时候再发消息？','When will you message again?','State the next update',['时间确认后再发。'])],
 'Native check: 经过 versus 到站, the range of 才/都/就/正好, 该…了, clipped driver announcements and the original scene. No route, transport estimate or message delivery is asserted beyond the written scenario.')
+
+u='s2-u14'
+write(u,'到了就给我发消息',['Follow the latest address rather than an old screenshot','Sequence arrival, contact and entry','Distinguish regular habits from a repeated action'],[
+('重新','again; anew','làm lại','adverb','地址变了，我重新发一次。','The address has changed; I will send it again.'),
+('经常','often','thường xuyên','adverb','我们经常在图书馆见面。','We often meet at the library.'),
+('老','always; repeatedly, colloquial','cứ; luôn','adverb','你老看旧图片，先看新消息吧。','You keep looking at the old image; check the new message first.'),
+('老是','always; repeatedly','cứ mãi','adverb','我老是忘记关机，今天先记下来。','I keep forgetting to switch off; I will write it down first today.'),
+('又','again','lại','adverb','我又走错入口了。','I have gone to the wrong entrance again.'),
+('然后','then','sau đó','conjunction','先看地址，然后出门。','Check the address first, then go out.'),
+('接着','then; next','tiếp theo','adverb','我先借书，接着交作业。','I will borrow books first, then hand in homework.'),
+('接下来','next; what follows','tiếp theo','noun','接下来我们确认入口。','Next we will confirm the entrance.'),
+('出门','to go out','ra ngoài','verb','地址还没确认，先别出门。','The address is unconfirmed; do not go out yet.'),
+('关机','to switch a device off','tắt máy','verb','活动开始前，请把手机关机。','Please switch your phone off before the activity starts.'),
+('开机','to switch a device on','bật máy','verb','出来以后再开机，看新消息。','Switch it on again after coming out and check new messages.'),
+('随时','at any time','bất cứ lúc nào','adverb','有问题随时发消息，回复可能要等。','Message at any time if there is a problem; a reply may take time.'),
+('通','to connect; get through','thông; kết nối','verb','电话还没通，我先发短信。','The call has not connected; I will send a text first.'),
+('通过','to pass through','đi qua','verb','从入口通过，别走出口。','Go through the entrance, not the exit.'),
+('进入','to enter','đi vào','verb','确认入口后，我们进入图书馆。','After checking the entrance, we enter the library.'),
+('走进','to walk into','đi vào','verb','我走进门，先看通知。','I walk through the door and check the notice first.'),
+('走开','to walk away','đi ra xa','verb','先别走开，我去问工作人员。','Do not walk away yet; I will ask a staff member.'),
+('走过','to walk past','đi ngang qua','verb','我刚走过书店，没有进去。','I just walked past the bookshop without going in.'),
+('出口','exit','lối ra','noun','出口在右边。','The exit is on the right.'),
+('入口','entrance','lối vào','noun','新的入口在东边。','The new entrance is on the east side.'),
+('找出','to find out; locate','tìm ra','verb','先找出最新的一条消息。','Find the newest message first.'),
+('拿出','to take out','lấy ra','verb','进入以后拿出要还的书。','Take out the books to return after entering.')],
+[grammar(u,'二16','重新 / 经常 / 老 / 老是 / 又','Separate a regular habit from doing something again',
+'经常 describes a regular frequency. 重新 means anew, often replacing an earlier version. 又 reports a further occurrence; use 再 for an intended next action. Colloquial 老/老是 often carry a complaint about repetition, not a person’s age. Say the concrete problem rather than treating a friend’s mistake as a permanent trait.',[
+('我们经常见面，今天重新确认地址。','We meet often; today we are confirming the address anew.'),('我又走错了，明天再看新地址。','I went the wrong way again; tomorrow I will check the new address again.'),('你老看旧图片，老是走错入口。','You keep looking at the old image and repeatedly take the wrong entrance.')],
+('明天我又发一次新地址。','明天我再发一次新地址。','再 marks an intended future repetition in this neutral example.')),
+grammar(u,'二62','arrival → contact → entry; 先 … 再 / 然后 …','Carry out the agreed order',
+'Actions can follow one another without linking words: 到了，发消息，等朋友. 先…再/然后… makes an ordered plan explicit. 接着 and 接下来 identify the next step. Then does not mean immediately or simultaneously. If entry requires confirmation, do not treat merely arriving outside as entering.',[
+('到了，发消息，等朋友。','Arrive, message, wait for the friend.'),('先看地址，再出门，然后确认入口。','Check the address first, then go out, then confirm the entrance.'),('先还书，接着借书，接下来交作业。','Return books, then borrow books, then hand in homework.')],
+('先进入，再问能不能进。','先问能不能进，再进入。','Check permission before entering.')),
+grammar(u,'二69','一 … 就 …','Connect a trigger to the next action',
+'一到就发消息 means message as soon as arrival occurs. 一…就… links the trigger and response; it does not prove either has happened. Use an actual trigger such as 到北门, not an ambiguous 到了 if there are several entrances. Compare 到了以后再发消息, which does not stress immediacy.',[
+('我一到北门，就给你发消息。','I will message you as soon as I reach the north gate.'),('手机一开机，就能看到新消息。','New messages can be seen as soon as the phone is switched on.'),('一确认入口，我们就进去。','We will go in as soon as the entrance is confirmed.')],
+('一到就发消息，所以现在已经到了。','一到就发消息，但现在还没到。','The conditional plan does not establish present arrival.'))],
+text(u,'d','Use the new address','Find which message to use and when to enter.',[
+('你出门了吗？我重新发了地址。','Have you gone out? I have sent the address again.'),('还没。我经常去北门，今天也走北门吗？','Not yet. I often go to the north gate. Should I go there today too?'),
+('今天入口在东边，北门不能进。先找出最新的消息。','Today the entrance is on the east side; you cannot enter through the north gate. Find the newest message first.'),('我又看旧图片了，差点儿走错。','I looked at the old image again and nearly went the wrong way.'),
+('你老看旧图片。先看地址，再出门，到东边就发消息。','You keep looking at the old image. Check the address first, then go out, and message when you reach the east side.'),('电话通了吗？','Did the call connect?'),
+('还没通，先用短信。我可能不能随时回复。','Not yet; use a text first. I may not be able to reply at every moment.'),('明白。我一到东边，就给你发消息，先不进入。','Understood. I will message as soon as I reach the east side and will not enter yet.'),
+('对，确认以后再通过入口。出口在右边，别走错。','Right. Go through the entrance after confirmation. The exit is on the right; do not mix them up.'),('进去以后先拿出要还的书，然后借书，接着交作业。','After going in, take out the books to return first, then borrow books, then hand in homework.'),
+('活动开始前关机，出来以后再开机。','Switch off before the activity starts and switch on after coming out.'),('我老是忘记关机，这次先写在笔记本里。','I keep forgetting to switch off; this time I will write it in my notebook first.')],
+[('mainidea','What must be checked before departure?',['The latest address','The oldest screenshot','Whether the book is heavy'],0),('detail','Which gate cannot be used today?',['The north gate','The eastern entrance','The exit on the right'],0),('inference','Does arriving outside mean immediate permission to enter?',['No, confirmation comes first','Yes, entering is automatic','The conversation gives no entry plan'],0)],drama=True),
+text(u,'r','An updated entry plan','Follow the message, contact and entry sequence.',[
+('我们经常在图书馆见面，今天入口换了。朋友重新发了一条消息。','We often meet at the library; today the entrance has changed. My friend sent a new message.'),('旧图片写北门，新消息写东边。先找出新消息，再出门。','The old image says north gate; the new message says east side. Find the new message before going out.'),
+('我刚走过书店，还没走进图书馆。经过一个地方不是进入那里。','I just walked past the bookshop and have not entered the library. Passing a place is not entering it.'),('电话没通，我先发短信。一到东边就发消息，确认后再进入。','The call did not connect, so I send a text first. I message on reaching the east side and enter after confirmation.'),
+('入口和出口不同。出口在右边，入口要看新的通知。','Entrance and exit are different. The exit is on the right; check the new notice for the entrance.'),('进入后拿出要还的书，先还书，然后借书，接着交作业。','After entering, take out the return books, return them, then borrow books and hand in homework.'),
+('活动开始前关机，出来以后再开机。我老是忘记，今天写下来。','Switch off before the activity and back on after coming out. I repeatedly forget, so I write it down today.'),('有问题随时发消息，不等于朋友随时能回复。先别走开，等确认。','Being able to message at any time does not mean my friend can reply at any time. Do not walk away yet; wait for confirmation.')],
+[('mainidea','What does this plan prioritize?',['Using the new message and following the agreed order','Entering the old gate quickly','Calling repeatedly without checking messages'],0),('detail','What follows returning the books?',['Borrowing books','Switching off before arrival','Walking away from the entrance'],0),('inference','Does 随时发消息 guarantee an immediate reply?',['No, the friend may be unavailable','Yes, every reply is instant','It means never send messages'],0)],[(1,'东边'),(5,'借书')]),
+text(u,'media','The old screenshot','Read an original exchange about an outdated plan.',[
+('我又到北门了。你说我们经常在这里见。','I reached the north gate again. You said we often meet here.'),('经常不是今天。今天重新发了地址。','Often does not mean today. I sent a new address today.'),
+('我老是先出门，再看消息。','I keep going out first and checking messages afterward.'),('那今天换顺序：先看消息，再走。','Change the order today: read the message first, then go.'),
+('我一到东边，就发短信。','I will text as soon as I reach the east side.'),('行，确认后再进，别从出口走进来。','Okay. Enter after confirmation, and do not come in through the exit.')],
+[('inference','Why did the friend go to the wrong gate?',['They relied on the usual location rather than today’s update','The new message said north gate','No address was sent'],0)],drama=True),
+dict(tf=[('重新','我重新发了地址，今天从东边进。','I sent the address again; enter from the east today.','The updated entrance is on the east side.',True,'The new message explicitly names the east side.'),('走过','我走过书店，没有走进。','I walked past the bookshop without entering.','I entered the bookshop.',False,'走过 is contrasted with 没有走进.')],
+reply=[('入口','到了就进去吗？','Should I enter immediately on arrival?',['先发消息，确认后再进入。','我经常去北门。','书是新的。'],0,'Follow the confirmation condition.'),('随时','随时发消息，你就能马上回吗？','If I message at any time, can you reply immediately?',['不一定，我有空再回。','电话没有通。','出口在右边。'],0,'Availability is not guaranteed.')],
+fill=[('然后','先看地址，然后出门。','Check the address first, then go out.'),('拿出','进入以后拿出要还的书。','Take out the return books after entering.')],
+match=[('关机',[('活动开始前关机。','Switch off before the activity.'),('出来以后开机。','Switch on after coming out.'),('确认后进入。','Enter after confirmation.')]),('接着',[('先还书，接着借书。','Return books first, then borrow books.'),('老是看旧图片。','Keep looking at the old image.'),('电话还没通。','The call has not connected yet.')])]),
+[('Updating a plan','我重新发了地址，先看最新的消息。','I sent the address again; check the latest message first.','Name the changed detail rather than blaming the reader.'),('Agreeing to contact','我一到东边，就给你发消息。','I will message as soon as I reach the east side.','Use a specific place as the trigger.')],
+[('到了以后怎么做？','What should you do after arrival?','State contact before entry',['先发消息，确认后再进入。']),('为什么重新发地址？','Why send the address again?','Name the change',['今天入口换了。'])],
+'Native check: complaint strength of 老/老是; 接着 versus 然后 sequencing; conditional 一…就… and telephone 通. Latest-message details and entry conditions are explicit; no guaranteed instant reply.')
+
+u='s2-u15'
+write(u,'对，我就是这个意思',['Clarify a main point without turning emphasis into a complaint','Separate a correct summary from agreement with a proposal','Use 就 for emphasis and keep its other senses distinct'],[
+('正是','exactly; precisely is','chính là','verb','这正是我想问的问题。','This is exactly the question I wanted to ask.'),
+('正确','correct','đúng','adjective','这条地址是正确的，日期还要核对。','This address is correct; the date still needs checking.'),
+('准确','accurate','chính xác','adjective','请说准确的时间，不要只说晚上。','Please give the precise time, not just evening.'),
+('真正','truly; genuinely','thật sự','adverb','我真正想确认的是入口。','What I truly want to confirm is the entrance.'),
+('直接','directly','trực tiếp','adverb','我直接问负责人，不猜他的意思。','I ask the person in charge directly rather than guessing what he means.'),
+('意思','meaning; intention','ý nghĩa; ý định','noun','我的意思是先确认，不是先进去。','I mean to confirm first, not to go in first.'),
+('重点','main point','trọng tâm','noun','重点是今天的地址，不是旧图片。','The main point is today’s address, not the old image.'),
+('主要','main; principal','chủ yếu','adjective','主要问题是时间还没有确认。','The main problem is that the time is unconfirmed.'),
+('观点','viewpoint','quan điểm','noun','我们观点不同，也可以慢慢讨论。','We have different views but can still discuss them calmly.'),
+('角度','angle; perspective','góc; góc nhìn','noun','从客人的角度看，通知要清楚。','From a guest’s perspective, the notice needs to be clear.'),
+('方面','aspect','mặt; phương diện','noun','时间方面还有一个问题。','There is another issue concerning time.'),
+('提','to raise; bring up','nêu; đề cập','verb','有问题可以提，不用等到最后。','You can raise a problem without waiting until the end.'),
+('提出','to put forward','đề xuất; đưa ra','verb','朋友提出先问入口的意见。','My friend suggests asking about the entrance first.'),
+('提到','to mention','nhắc đến','verb','他提到北门，但没说从那里进。','He mentioned the north gate but did not say to enter there.'),
+('讨论','to discuss','thảo luận','verb','我们先讨论时间，再写通知。','We will discuss the time first, then write the notice.'),
+('问题','question; problem','câu hỏi; vấn đề','noun','这个问题是问时间，不是问价格。','This question asks about time, not price.'),
+('道理','reason; principle','lý lẽ; lẽ phải','noun','先确认再出发，这个道理我明白。','I understand why we should confirm before leaving.'),
+('实际','actual; practical','thực tế','adjective','实际的入口在东边。','The actual entrance is on the east side.'),
+('实在','really; indeed','thật sự; quả thực','adverb','这个时间实在不方便，我们换一天吧。','This time really is inconvenient; let us choose another day.'),
+('对','toward; to; concerning','đối với; với','preposition','我对这个安排还有问题。','I still have questions about this arrangement.'),
+('同样','same; equally','giống nhau; tương tự','adjective','两个朋友有同样的问题。','Two friends have the same question.'),
+('相同','identical; the same','giống nhau','adjective','两条消息的地址相同，日期不同。','The two messages have the same address but different dates.')],
+[grammar(u,'二17','就: exactly this person, place or intention','Focus the listener on the intended referent',
+'就是这个意思 can emphasize exactly this meaning. 就在东边 focuses the location. This is different from limiting 就三个人 and sequence 一到就发消息. Keep the focus explicit. 我就是问问 can downplay the request, but it does not make intrusive questions automatically polite. Emphasis does not by itself mean anger.',[
+('对，我就是这个意思。','Yes, that is exactly what I mean.'),('入口就在东边，不在北门。','The entrance is right on the east side, not at the north gate.'),('我就想确认时间，没有别的要求。','I only want to confirm the time; I have no other request.')],
+('我就是这个意思，所以我一定生气了。','我就是这个意思，我没有生气。','The emphatic 就 does not entail anger.')),
+grammar(u,'二74','就 + focused statement','Make a clarification stronger without making it harsher',
+'Use 就 to highlight a correction when alternatives are clear: 我说的就是今天，不是明天. Its effect depends on context and delivery. Start with acknowledgment 对 or 我明白你的意思, state the contrast once, and ask a neutral question if needed. Do not assume an emphatic statement accepts a proposal: 对，我明白 means understood, not necessarily agreed.',[
+('我说的就是今天，不是明天。','I mean today, not tomorrow.'),('我明白，你提的就是时间问题。','I understand: the issue you raised is precisely the time.'),('对，我明白你的意思，但还没同意这个安排。','Yes, I understand what you mean, but I have not agreed to the arrangement yet.')],
+('他说对，所以一定同意了。','他说对，可能只是明白，还要问是否同意。','Acknowledging a correct interpretation does not always signal agreement.'))],
+text(u,'d','Exactly that point','Find the unresolved detail despite an accurate summary.',[
+('你对这个安排有问题吗？','Do you have a question about this arrangement?'),('有。我真正想确认的是时间，地址已经看到了。','Yes. What I truly want to confirm is the time; I have already seen the address.'),
+('你是说地址不正确？','Are you saying the address is incorrect?'),('不是。两条消息的地址相同，日期不同，这就是重点。','No. The two messages have the same address but different dates; that is the main point.'),
+('明白，你提的就是日期问题。','Understood; the issue you raised is precisely the date.'),('对，我就是这个意思。请说准确的日期，不要只说周末。','Yes, that is exactly what I mean. Please give a precise date, not just weekend.'),
+('朋友提到北门，你也想从北门进吗？','Our friend mentioned the north gate. Do you want to enter there too?'),('提到不等于说从那里进。实际入口就在东边。','Mentioning it does not mean saying to enter there. The actual entrance is on the east side.'),
+('我们从客人的角度再讨论通知吧。','Let us discuss the notice again from a guest’s perspective.'),('好，先提出问题，再直接问负责人。态度可以友好，问题也可以清楚。','Okay. Raise the issues first, then ask the person in charge directly. We can be friendly and still ask clearly.'),
+('那你同意星期六的安排了？','Then have you agreed to the Saturday arrangement?'),('我明白你的意思，但还没同意。那个时间实在不方便，要换一天。','I understand what you mean but have not agreed yet. That time really is inconvenient; we need another day.')],
+[('mainidea','What needs clarification?',['The date, despite a known address','Whether all guests agree','The colour of a sign'],0),('detail','Where is the actual entrance?',['On the east side','At the north gate','At an unnamed station'],0),('inference','Does 对，我就是这个意思 mean agreement to Saturday here?',['No, the speaker later explicitly declines that time','Yes, every 对 is full agreement','Saturday is already confirmed for everyone'],0)],drama=True),
+text(u,'r','Understood is not agreed','Check what the speaker accepts and what remains open.',[
+('两个朋友有同样的问题：两条消息地址相同，日期却不同。','Two friends have the same question: the messages share an address but have different dates.'),('我们提出这个问题，不是说地址不正确。主要问题在时间方面。','We raise this issue without saying the address is incorrect. The main problem concerns time.'),
+('我说这就是重点。朋友回答，对，我明白你的意思。','I say this is exactly the main point. My friend replies that they understand what I mean.'),('明白一个观点，不等于同意一个安排。我们还要讨论实际的日期。','Understanding a viewpoint is not agreeing to an arrangement. We still need to discuss the actual date.'),
+('他提到北门，没有说从那里进。入口就在东边，要看准确的通知。','He mentioned the north gate without saying to enter there. The entrance is on the east side; check the accurate notice.'),('从客人的角度看，通知要直接说明时间、地点和入口。','From a guest’s perspective, the notice should directly state time, place and entrance.'),
+('我对安排还有问题，可以提出来。友好的态度不妨碍说清楚问题。','I still have questions about the arrangement and can raise them. A friendly attitude does not prevent clarity.'),('星期六实在不方便。我就是想换一天，不是取消见面。','Saturday really is inconvenient. I want to change the day, not cancel the meeting.')],
+[('mainidea','What distinction does the note explain?',['Understanding a point versus agreeing to a plan','A train versus a bus','A correct price versus a discount'],0),('detail','Which detail differs in the messages?',['The dates','The address','The entrance colour'],0),('inference','Is the speaker cancelling the meeting entirely?',['No, they want a different day','Yes, they refuse all meetings','No, Saturday is now agreed'],0)],[(0,'日期'),(7,'换一天')]),
+text(u,'media','Not angry, just specific','Read an original exchange about emphatic clarification.',[
+('你说就是这个意思，听起来好像有点儿生气。','When you say exactly that meaning, you sound a little angry.'),('没有，我是在说重点。两条消息的日期不同。','I am not angry; I am stating the main point. The two messages have different dates.'),
+('哦，那我问准确的时间。','Oh, then I will ask for the precise time.'),('对，这正是我的问题。先确认，不用猜。','Yes, that is exactly my question. Confirm first; no guessing.'),
+('所以你同意星期六？','So you agree to Saturday?'),('我明白，不是我同意。我们还得换一天。','Understanding is not agreeing. We still need another day.')],
+[('inference','What should the listener avoid assuming?',['That emphasis proves anger or agreement','That the messages contain different dates','That the date needs checking'],0)],drama=True),
+dict(tf=[('相同','两条消息地址相同，日期不同。','The messages share an address but have different dates.','The two dates are identical.',False,'Only the address is identical.'),('意思','我明白你的意思，但还没同意。','I understand your meaning but have not agreed.','Agreement is still open.',True,'还没同意 explicitly leaves agreement open.')],
+reply=[('准确','你想确认什么？','What do you want to confirm?',['准确的日期，地址已经清楚了。','我已经同意了。','北门就是入口。'],0,'Name the unresolved detail.'),('提出','有问题要等到最后再说吗？','Must a question wait until the end?',['不用，现在可以提出来。','两个地址相同。','我没看到价格。'],0,'Permission to raise the question is the relevant response.')],
+fill=[('重点','这就是重点。','This is exactly the main point.'),('实际','实际的入口在东边。','The actual entrance is on the east side.')],
+match=[('观点',[('我明白你的观点。','I understand your viewpoint.'),('我还没同意安排。','I have not agreed to the arrangement.'),('我要准确的日期。','I need the precise date.')]),('直接',[('直接问负责人。','Ask the person in charge directly.'),('从客人的角度看。','From a guest’s perspective.'),('相同的地址。','The same address.')])]),
+[('Emphatic clarification','对，我就是这个意思。','Yes, that is exactly what I mean.','Acknowledge the accurate summary; delivery need not sound annoyed.'),('Separating understanding and agreement','我明白，但这个时间实在不方便。','I understand, but this time really is inconvenient.','State the practical objection after acknowledging the meaning.')],
+[('你说的是地址吗？','Do you mean the address?','Correct the focus',['不是，我说的就是日期。']),('明白了就同意了吗？','Does understanding mean agreeing?','Keep the distinction',['我明白，但还没同意。'])],
+'Native check: emphatic 就 pragmatics; 正是/真正 senses; 从…角度看 and 对… arrangements; 实在 stressed adverb versus neutral adjective. Do not infer anger or consent from emphasis alone.')
+
+u='s2-u16'
+vocabulary_readings[u+':笑话']='xiào hua'
+vocabulary_readings[u+':笑话儿']='xiào huar'
+dictionary.update({'笑话儿':'xiào huar','笑话':'xiào hua','好像':'hǎo xiàng','眼睛':'yǎn jing','头发':'tóu fa','点头':'diǎn tóu'})
+write(u,'我是在开玩笑',['Check an interpretation before accusing a friend','Recognize teasing, apology and a request to stop','Use tentative 吧 and 是不是 questions'],[
+('故意','deliberately; on purpose','cố ý','adverb','我不是故意拿错你的笔。','I did not take your pen by mistake on purpose.'),
+('好像','to seem; as if','dường như','verb','你好像不太开心，我问一下。','You seem a little unhappy; I will ask.'),
+('以为','to think mistakenly or without confirmation','tưởng','verb','我以为你同意了，其实还没问。','I thought you agreed, but had not actually asked.'),
+('感觉','to feel; perceive','cảm thấy','verb','我感觉你有点儿不舒服。','I feel that you are a little uncomfortable.'),
+('难看','unpleasant-looking; ugly','khó coi; xấu','adjective','我不喜欢这件衣服，但不说你穿得难看。','I dislike this item of clothing but do not tell you that you look ugly in it.'),
+('可怕','frightening','đáng sợ','adjective','那个故事有点儿可怕，先别讲了。','That story is a little frightening; stop telling it for now.'),
+('笑话','to ridicule; laugh at','chế giễu','verb','别笑话别人说得慢。','Do not ridicule someone for speaking slowly.'),
+('笑话儿','joke; a northern rhotic noun form','chuyện cười; cách nói có âm r','noun','这个笑话儿不好笑，换个话题吧。','This joke is not funny; let us change the topic.'),
+('哭','to cry','khóc','verb','她哭了，我先问要不要帮忙。','She is crying; I first ask whether she wants help.'),
+('喊','to shout; call out','hét; gọi lớn','verb','别喊，我在你旁边。','Do not shout; I am beside you.'),
+('眼','eye','mắt','noun','别用手碰眼，先洗手。','Do not touch your eyes with your hands; wash your hands first.'),
+('眼睛','eyes','đôi mắt','noun','她的眼睛有点儿红。','Her eyes are a little red.'),
+('脸','face','mặt','noun','他笑了，但不能只看脸就猜意思。','He smiled, but we cannot infer intention just from his face.'),
+('嘴','mouth','miệng','noun','他用手指了指嘴，没有说话。','He pointed at his mouth without speaking.'),
+('头发','hair','tóc','noun','我刚剪头发，朋友差点儿没认出来。','I just had my hair cut; my friend nearly did not recognize me.'),
+('点头','to nod','gật đầu','verb','他点头了，我还要确认是不是同意。','He nodded; I still need to confirm whether he agrees.'),
+('小心','to be careful','cẩn thận','verb','小心，杯子在桌边。','Be careful; the cup is at the edge of the table.'),
+('假','false; fake','giả','adjective','那是假消息，不是真的通知。','That is a false message, not a real notice.'),
+('好人','good person','người tốt','noun','做好人不等于替朋友决定一切。','Being a good person does not mean deciding everything for a friend.'),
+('坏人','bad person','người xấu','noun','拿错笔不等于就是坏人。','Taking the wrong pen does not automatically make someone a bad person.'),
+('好事','good deed; good thing','việc tốt','noun','先问需不需要帮助，再做好事。','Ask whether help is needed before doing a good deed.'),
+('气','to anger; annoy','làm tức giận','verb','别故意气我，我真的不喜欢。','Do not deliberately annoy me; I truly dislike it.')],
+[grammar(u,'二18','故意 + action; 不是故意的','Distinguish intention from an accidental result',
+'故意 marks deliberate intent. 我不是故意的 denies intent; it does not deny that a mistake happened or remove the need to apologize. Before saying 你故意气我, check what happened and what the person meant. 故意 with a negative verb phrase can describe deliberate refusal, so place negation carefully.',[
+('我不是故意拿错笔的，对不起。','I did not intentionally take the wrong pen; sorry.'),('他故意不回消息。','He deliberately does not reply to the messages.'),('他不是故意不回，手机没信号。','His failure to reply is not deliberate; his phone has no signal.')],
+('我不是故意的，所以我没有拿错。','我不是故意的，但确实拿错了。','A denial of intention does not erase the mistaken action.')),
+grammar(u,'二79','statement + 吧？','Check a tentative interpretation',
+'你是在开玩笑吧？ asks for confirmation of a tentative assumption. This questioning 吧 differs from the suggestion 换个话题吧. It can still sound presumptive; accept a correction. Do not infer someone is comfortable solely because they smile. Use 不喜欢就告诉我 instead of insisting the teasing was harmless.',[
+('你是在开玩笑吧？','You are joking, right?'),('你不太喜欢这个话题吧？','You do not really like this topic, do you?'),('不是，我是认真的。','No, I am serious.')],
+('你笑了，所以一定喜欢这个玩笑吧。','你笑了，但我还是想问：你喜欢这个玩笑吗？','Ask instead of treating a smile as certain agreement.')),
+grammar(u,'二78','是不是 + statement','Ask whether an interpretation is right',
+'是不是 checks a proposition: 你是不是没听清？ or 你没听清，是不是？ Keep the question open to no. It differs from 谁/什么 questions, which ask for new information. 是不是 and 吗 are not stacked in a neutral yes/no question. After a correction, restate the actual meaning rather than repeating the accusation.',[
+('你是不是没听清？','Did you perhaps not hear clearly?'),('他点头是不是表示同意？','Does his nod mean agreement?'),('你不喜欢这个话题，是不是？','You do not like this topic, is that right?')],
+('你是不是不开心吗？','你是不是不开心？','Use this 是不是 pattern without adding 吗.'))],
+text(u,'d','A joke that did not land','Find what was accidental and what must stop.',[
+('你拿我的笔，是不是故意气我？','You took my pen; were you deliberately trying to annoy me?'),('不是故意的。我以为这是我的，对不起。','It was not deliberate. I thought it was mine; sorry.'),
+('你还笑话我说话慢。','You also ridiculed me for speaking slowly.'),('我是在开玩笑，但你不喜欢，我就不说了。','I was joking, but if you dislike it, I will stop.'),
+('你是在开玩笑吧？我感觉你刚才是认真的。','You were joking, right? I felt you were serious just now.'),('我想说个笑话儿，没说好。拿错笔和笑话别人都不合适。','I wanted to tell a joke but did it badly. Taking the wrong pen and ridiculing someone are both inappropriate.'),
+('我刚剪头发，你也说难看。','I just had my hair cut, and you also called it ugly.'),('对不起，不该这样说。你想换个话题吗？','Sorry, I should not have said that. Would you like to change the topic?'),
+('嗯，我好像有点儿想哭，但不是要你替我决定。','Yes. I feel a little like crying, but that does not mean I want you to decide for me.'),('明白。我不喊，也不继续讲可怕的故事。你需要什么帮助？','Understood. I will not shout or continue the frightening story. What help do you need?'),
+('把笔给我就行。小心，杯子在桌边。','Just give me the pen. Be careful; the cup is at the edge of the table.'),('好，我给你。你点头，我也不猜所有意思；有问题直接问。','Okay, here it is. When you nod, I will not guess every meaning; I will ask directly if unsure.')],
+[('mainidea','What makes the exchange improve?',['An apology, stopping unwanted teasing and asking what help is wanted','Insisting every joke is harmless','Deciding everything for the upset friend'],0),('detail','Why was the wrong pen taken?',['The speaker thought it was theirs','The friend asked for a story','The pen was a gift'],0),('inference','Does 不是故意的 mean no mistake occurred?',['No, the speaker acknowledges taking the wrong pen','Yes, the pen was never taken','Yes, the friend accepted all jokes'],0)],drama=True),
+text(u,'r','Ask before teasing again','Read for intention, effect and a clear boundary.',[
+('朋友拿了我的笔。我问是不是故意的，他说以为是自己的。','My friend took my pen. I asked if it was deliberate; he said he thought it was his.'),('不是故意的，不等于没有拿错。把笔还回来，也要说对不起。','Not deliberate does not mean no mistake. Return the pen and also apologize.'),
+('他笑话我说话慢，又说我的头发难看。我不喜欢，直接告诉他。','He ridiculed me for speaking slowly and called my hair ugly. I disliked it and told him directly.'),('他说是在开玩笑。我问你是在开玩笑吧，还是认真的？','He said he was joking. I asked whether he was joking or serious.'),
+('一个笑话儿不好笑，可以换话题，不用继续气别人。','If a joke is not funny, change the topic rather than continuing to annoy someone.'),('看脸、看眼睛或看点头，都不能保证知道一个人的意思。','Looking at a face, eyes or a nod cannot guarantee knowing someone’s intention.'),
+('我有点儿想哭，他先问需要什么帮助，不喊，也不替我决定。','I felt a little like crying; he first asked what help I needed, without shouting or deciding for me.'),('我只要拿回笔，暂时不想听那个可怕的故事。说清楚后，我们换了话题。','I only wanted the pen back and did not want the frightening story for now. After clarification, we changed the topic.')],
+[('mainidea','What is the writer’s main advice?',['Check meaning and respect a stated limit','Interpret every smile as agreement','Continue a joke until it becomes funny'],0),('detail','What help does the writer want?',['The pen returned','A frightening story continued','All decisions made for them'],0),('inference','Can a nod alone settle all possible meanings?',['No, an uncertain meaning should be checked','Yes, it always means full agreement','It always means anger'],0)],[(1,'对不起'),(7,'换了话题')]),
+text(u,'media','The pen, please','Read an original scene about a failed joke.',[
+('你是故意拿错笔的吗？','Did you take the wrong pen deliberately?'),('不是，我以为是我的。这个解释听起来好像有点儿假，但是真的。','No, I thought it was mine. That explanation may sound a little false, but it is true.'),
+('那你先还笔，别再讲笑话儿。','Then return the pen first and stop telling jokes.'),('好。我不是坏人，不过刚才也没做好事。','Okay. I am not a bad person, but I did not do a good deed just now either.'),
+('是不是好人以后再说。杯子快掉了，小心！','Whether you are a good person can wait. The cup is about to fall; be careful!'),('收到，先拿杯子。你需要帮助就告诉我。','Understood; cup first. Tell me if you need help.')],
+[('detail','What becomes urgent at the end?',['The cup may fall','The pen is now a gift','The friend must finish a joke'],0)],drama=True),
+dict(tf=[('故意','我不是故意的，但确实拿错了。','It was not deliberate, but I did take the wrong one.','The speaker denies the mistake itself.',False,'Only intention is denied.'),('点头','他点头了，我还要问是不是同意。','He nodded; I still need to ask whether he agrees.','Agreement is not yet confirmed.',True,'The speaker explicitly asks for confirmation.')],
+reply=[('气','我不喜欢这个玩笑。','I do not like this joke.',['对不起，我不继续说了。','笑了就是喜欢。','你一定同意。'],0,'Acknowledge the stated limit and stop.'),('好像','你好像不开心，需要帮助吗？','You seem unhappy; do you need help?',['把笔还给我就行。','你替我决定所有事。','我一定开心。'],0,'State the concrete help wanted in this scene.')],
+fill=[('小心','小心，杯子在桌边。','Be careful; the cup is at the table edge.'),('感觉','我感觉你有点儿不舒服。','I feel you are a little uncomfortable.')],
+match=[('以为',[('我以为是我的。','I thought it was mine.'),('我不是故意的。','It was not deliberate.'),('别继续气我。','Do not keep annoying me.')]),('哭',[('她有点儿想哭。','She feels a little like crying.'),('他点头，没有说话。','He nods without speaking.'),('故事有点儿可怕。','The story is a little frightening.')])]),
+[('Checking interpretation','你是不是在开玩笑？','Are you joking?','Accept a correction rather than treating this question as an accusation.'),('Stopping unwanted teasing','对不起，我不继续说了。','Sorry, I will stop.','An apology should accompany the change in behavior.')],
+[('你是故意的吗？','Was it deliberate?','Acknowledge an accidental mistake',['不是故意的，但确实拿错了。']),('我不喜欢这个玩笑。','I dislike this joke.','Stop and apologize',['对不起，我不继续说了。'])],
+'Native check: 笑话 verb versus 笑话儿 noun and rhotic delivery; questioning 吧 pragmatics; degree of friend-to-friend teasing and clipped humorous scene. A smile or nod does not substitute for asking about an uncertain interpretation.')
+
+from retrievals import apply_ids
+apply_ids(['s2-u13','s2-u14','s2-u15','s2-u16'])

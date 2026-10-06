@@ -1,6 +1,6 @@
 {
   "decision": "Owner decision, 6 Oct 2026: Kiyo is reading-first. Lines whose Sayo take could not be verified by the automatic speech screen ship WITHOUT a Sayo clip (the app falls back to the device voice) instead of blocking the release. They are not marked reviewed. Remove a line from this list as soon as an accepted take is installed.",
-  "reason": "Erhua (儿化) endings: automatic transcription (local ASR and Whisper large-v3) consistently omits 儿, so the screen cannot confirm the rhotic ending. Native listening still needed.",
+  "reason": "Each exact text below has no accepted take after a real pronunciation repair. Entries retain the dated reason and transcript receipts; several involve omitted 儿化 endings. Native listening remains pending.",
   "texts": [
     "没事儿，明天再来。",
     "没事儿，再记一次。",
@@ -13,14 +13,30 @@
     "弟弟是那边的男孩儿，妹妹是旁边的女孩儿。",
     "男孩儿跟女孩儿，小朋友在楼下玩。",
     "我们一块儿去散步吧。",
-    "场",
     "我们一起走，也一块儿聊天。",
     "我们一块儿出门吧。有些朋友也想去。",
     "今天有些朋友想出门，我们一块儿走一会儿。",
     "七点回到家，八点再出来，一块儿走。",
     "好，我先回去，你也回吧。等一下儿再说。",
     "行，我们一块儿走吧。",
-    "我们一块儿去散步。"
+    "我们一块儿去散步。",
+    "后",
+    "这个箭头指左。",
+    "右",
+    "地图下边有一个南字。",
+    "面条儿",
+    "今天我们吃面条儿。",
+    "着",
+    "那个小孩儿在树下玩。",
+    "朋友们进来，我们一起吃面条儿。",
+    "对，这张地图上边有一个北字。东在右，西在左。",
+    "门外的小孩儿是谁？他在树下玩。",
+    "是，她很热情，也常照顾孩子。我们今天吃面条儿。",
+    "她很热情，她的儿子是个小孩儿，常在树下玩。",
+    "今天门开着，大家从门外进去吃面条儿。",
+    "门外有树，树下有小孩儿。",
+    "工人邻居请大家进去，一起吃面条儿。",
+    "我们在学校前边等你，不在后边。"
   ],
   "entries": [
     {
@@ -189,21 +205,6 @@
       ]
     },
     {
-      "text": "场",
-      "date": "2026-10-06",
-      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
-      "reviewed": false,
-      "repairRounds": 1,
-      "evidence": [
-        {
-          "receipt": ".cache\\sayo-qwen-approved\\62e299326e5f7694-clear-385dfa923605.json",
-          "rawSha256": "62f32de1014dde39f7ad275c297c9f63564ba6739caf61f80aab739f7e085ebd",
-          "transcript": "常",
-          "status": "needs-review"
-        }
-      ]
-    },
-    {
       "text": "我们一起走，也一块儿聊天。",
       "date": "2026-10-06",
       "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
@@ -304,6 +305,261 @@
           "receipt": ".cache\\sayo-qwen-approved\\7517c9b8f35250ea-clear-5762bac768c3.json",
           "rawSha256": "9122a927973d52519292bba6099a0bcbcdfa4717bd425dc679fa403e97cfd23a",
           "transcript": "我們一塊去散步",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "后",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\60be66d61586b95c-clear-e157fc061715.json",
+          "rawSha256": "2d42517f5c3f80f07b6e4d72f5b339670b3a98fe7e39a8f12c76a6f54392b5f3",
+          "transcript": "齁",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "这个箭头指左。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\24bb0c1b5f8af0dd-clear-0edd32003a4b.json",
+          "rawSha256": "daf5d0943d8e6bbe38bb0383340c3484266b575318c4976eaed06dabb6137bc2",
+          "transcript": "这个箭头直左",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "右",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\14ab1f2bce0a8777-clear-1086f73a6758.json",
+          "rawSha256": "c4955736693bb0c3e0d1e3c7714cdaa8984accf7ef920aff3f4d8db979ca59f9",
+          "transcript": "喲",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "地图下边有一个南字。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\eedbe6eba8be9751-clear-08c1eeab93bd.json",
+          "rawSha256": "66797b9de8db2a5d7756f8007401fe581cae5513c52218bcc392a2baa7a922c3",
+          "transcript": "地图下面有一个男子",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "面条儿",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\9abfe3d2eebc8c79-clear-77fa219f4fcc.json",
+          "rawSha256": "af050f6e3f5ea6c78a48b6174361fce9a313409ca6076bc99d0d77551ffc4208",
+          "transcript": "麵條",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "今天我们吃面条儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\ef9f7252714d55cc-clear-6b299fbc6d0e.json",
+          "rawSha256": "c362869ac070f18101922b37b8bb8be5e564d469ae280ff7cb10b86e9f388703",
+          "transcript": "今天我们吃面条",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "着",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\9e5bf0d2d993accb-clear-68052290cc34.json",
+          "rawSha256": "ed5fc5110a5f700ae4484c96d32a040feb118ead347cf07a566f80801b1c02e0",
+          "transcript": "啄",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "那个小孩儿在树下玩。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\672994313a47f3ed-clear-3a4b13bbb1a4.json",
+          "rawSha256": "f76dbc3aab9ae2da62327edfbd48a783e2557cd0c53aa731eeb0657c1dbb4081",
+          "transcript": "那个小孩在树下玩",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "朋友们进来，我们一起吃面条儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\cab2ed74f9ecca1f-clear-915f8f265d29.json",
+          "rawSha256": "213b0508e9da1ffc95971cc43ba3c418e0143dcb8da2015862ae9f6cd7208e2e",
+          "transcript": "朋友們進來,我們一起吃麵條",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "对，这张地图上边有一个北字。东在右，西在左。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\1fc46d84fe85020f-clear-d1e88e8dbcfe.json",
+          "rawSha256": "954c48c186a5c53f3f7a53618b54cdd612c28c65688e7439631c63bc9e94a976",
+          "transcript": "对,这张地图上面有一个北字,东在右,西在左。",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "门外的小孩儿是谁？他在树下玩。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\6a7a1b296cdf741c-clear-9bf6362b565c.json",
+          "rawSha256": "b9f5aef7f09b2294e60d3b061079e51f9d3dae624e8e20df53344476539cf72a",
+          "transcript": "门外的小孩是谁,他在树下玩",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "是，她很热情，也常照顾孩子。我们今天吃面条儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\5be5537251936a8e-clear-594daae6132f.json",
+          "rawSha256": "91ca204b219aea2a2e1f92f482d7a6b41acc4bf9f573b7ed2f8148ca5e7e9851",
+          "transcript": "是啊她很热情也常照顾孩子我们今天吃面条",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "她很热情，她的儿子是个小孩儿，常在树下玩。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\1a7ae78208c9314b-clear-b90257dc8351.json",
+          "rawSha256": "f6aac589194e3444d5d9ec0c62fec7f2aefaca37e5c434093ba99f36c11eed78",
+          "transcript": "她很热情她的儿子是个小孩常在树下玩",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "今天门开着，大家从门外进去吃面条儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\31b175a6a8e31975-clear-3728b4a2dca0.json",
+          "rawSha256": "2e1781b53488529fd49b3eb5594731d359059c43d4b29487e00547cd9a0e0f79",
+          "transcript": "今天门开着大家从门外进去吃面条",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "门外有树，树下有小孩儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\806e42fe5ef90f0f-clear-64c825a5ca6b.json",
+          "rawSha256": "8324d0228973901743915a344184cc33014e1cf824dbcf671d621ec9c9bb807a",
+          "transcript": "门外有树,树下有小孩",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "工人邻居请大家进去，一起吃面条儿。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\9b1e98813a67a993-clear-8486fa32c5f9.json",
+          "rawSha256": "01f3d3f35e076df649409148207e6d8abd431fddd18b85b5ac0494107b80f20a",
+          "transcript": "工人鄰居請大家進去一起吃麵條",
+          "status": "needs-review"
+        }
+      ]
+    },
+    {
+      "text": "我们在学校前边等你，不在后边。",
+      "date": "2026-10-06",
+      "reason": "No accepted take after a real pronunciation repair; automatic transcripts require native listening review.",
+      "reviewed": false,
+      "repairRounds": 1,
+      "evidence": [
+        {
+          "receipt": ".cache\\sayo-qwen-approved\\2cbc4bbfc1c406a6-clear-77adf9d086a2.json",
+          "rawSha256": "853df034219e279002a3422cc0a0524d779e34196004145c77f4243433ad31f3",
+          "transcript": "我們在學校前面等你不在後邊",
           "status": "needs-review"
         }
       ]

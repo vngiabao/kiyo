@@ -133,3 +133,23 @@ Earlier native-language flags remain open: school/college and country references
 - Installed 6,839 screened/mastered files, 125,917,300 bytes. After a real repair round, nine additional exact texts remain documented device-speech exceptions (19 direct exceptions total; 27 texts including dependent assemblies). Failed takes are not installed and exceptions remain reviewed:false. These are explicit owner-approved audio exceptions; other gates remain strict. Automatic ASR is not native tone certification.
 - Native flags: reference sets for 最好/最好看; 饭店 restaurant versus hotel; formal 小姐; clipped original poetry; 一块儿/一下儿 pronunciation; directional/polyphonic verbs. Exact unresolved speech is in content/voices/audio-deferred.json, with dated reasons and repair receipts. Earlier flags remain open.
 - All five protected A/B files match their C2-start hashes. No learner data or database name changed, no dependency or paid service added. New-course acceptance is 16/96; 80 remain. Level 1 deployment follows its final two units.
+
+### Batch 05 acceptance — 2026-10-06
+
+- Accepted s1-u29, s1-u30: 34 vocabulary records, 18 explicit characters. Grammar owners: 一01, 一31, 一25, 一32, 一36. Each includes original media writing and retrieval.
+- Self-review and applied fixes: Checked map orientation, return versus ongoing-study readings of 还, suffix 们/子 contexts, north-gate meeting constraints, broken-cup refusal and reader answer keys. Corrected source aliases and retained actual gloss support. Native checking of erhua, poetic omissions and map-localizer phrasing remains pending.
+- All eight required gates passed; exact receipts and test counts: output/gates/batch-05-final-*.log. Packs/pinyin and word readability remain strict; production-only checks ran separately against the final preview.
+- Audio: 35 direct dated exceptions after a real repair. Failed takes remain uninstalled, reviewed:false. Dependent assemblies use the same explicit policy. Automatic transcript screening is not native tone certification.
+- Native-review flags remain open:
+  - s1-u29: AI-assisted draft; native review pending. GF2021 grammar families: 一01, 一31. Native check: 北门 and east-side entrance geometry, localizer shortening on signs, and relative versus cardinal directions. No claim that every map is north-up. Planned retrieval 一12 / 一28 / 一17 / 一19 / 一10 / 一39: 我常在家读书，她常常上午学习。, 爷爷和奶奶都来。, 我们一边走路，一边聊天。.
+  - s1-u30: AI-assisted draft; native review pending. GF2021 grammar families: 一25, 一32, 一36. Native check: 小孩儿 and 面条儿 rhotic pronunciation; short poetic omissions and the last line’s metaphor. 们/子 are explicit neutral suffix entries, never standalone spoken zǐ. 着 is recognized as a continuing state here; its full grammar owner is s2-u28. Planned retrieval 一14 / 一48 / 一09 / 一30 / 一35 / 一22 / 一33 / 一45: 星期日有没有课？, 真好看！, 我可以进去吗？.
+
+### HSK 1 rotating-bank release checks — 6 October
+
+- The final two course units are accepted; all 30 HSK 1 units now introduce GF2021 level-1 words 500/500, characters 300/300 and grammar 48/48. This is introduction evidence, not learner mastery or native approval. New-course acceptance is 18/96.
+- Added 54 original items without changing the legacy 36 IDs/keys, yielding exactly 60 checkpoint and 30 sample items. Reading, listening and adapted word-order formats; all four answer positions. Corrected an ordering distractor and actual legacy pool counts. Native ambiguity/pronunciation flags: prompts/research/exam-bank-review.md.
+- Rotation counts displayed questions, selects unseen first, then least-seen/oldest. Existing runs/backups retain their schema, identifiers and grades. Found and fixed a backup export aliasing the default settings object. A restored listening checkpoint hides its transcript until explicit help, and supported status survives reload.
+- Character speech keeps 着 inside 门开着，请进。 and 场 inside 机场, with 右边/后边 contexts. The approved synthetic voice identity remains unchanged.
+- Final gates all passed: packs/pinyin (0 fixes), types, content/audio, 132 unit tests, 35 browser tests and production build; the three conditional production tests passed separately. Receipts: output/gates/batch-51-final-*.log. Verified mobile/desktop exam captures at 1440/768/375/320 px and automated WCAG AA checks.
+- Installed 7,508 audio files, 138,642,352 bytes. The content gate covers 3,059 texts; 47 direct/dependent texts use the explicit dated repair-and-deferral policy, never marked reviewed. Precache is 485 entries / 5,741.72 KiB; dictionary/audio are runtime data.
+- No protected A/B file, learner database name, dependency or live-service configuration changed. No new live Google/Supabase test was performed during these local course gates.

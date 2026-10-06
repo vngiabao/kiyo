@@ -8,6 +8,7 @@ import {
   unitUnlocked,
   unresolvedItems,
   validRun,
+  makeBankRun,
 } from "../src/hsk-model";
 import { validateHskPack } from "../src/hsk-pack";
 import {
@@ -16,6 +17,7 @@ import {
   finishHskRun,
   exportHsk,
   importHsk,
+  markHskItemSeen,
 } from "../src/hsk-db";
 const pack = JSON.parse(
   readFileSync("content/packs/hsk-reading.hsk.json", "utf8"),
@@ -118,4 +120,40 @@ it("advanced notebook backups preserve the combined exam and reject legacy misla
   expect((await exportHsk()).settings.level).toBe(7);
   backup.settings.edition = "2.0";
   await expect(importHsk(backup)).rejects.toThrow();
+});
+
+it("keeps legacy results valid and restores rotating-bank exposure without overwriting it", async () => {
+  const legacy = completed("identity");
+  const bank = makeBankRun("identity", 1, [legacy]);
+  expect(bank.itemIds).toHaveLength(10);
+  expect(bank.itemIds.every((id) => !legacy.itemIds.includes(id))).toBe(true);
+  expect(validRun(legacy)).toBe(true);
+  await hskDB.runs.bulkAdd([legacy, bank]);
+  await markHskItemSeen(bank.id, bank.itemIds[0]);
+  await markHskItemSeen(bank.id, bank.itemIds[0]);
+  await markHskItemSeen(bank.id, "not-in-run");
+  const backup = await exportHsk();
+  expect(backup.runs.find((r) => r.id === bank.id)!.seenItemIds).toEqual([bank.itemIds[0]]);
+  for (const row of backup.runs) expect(validRun(row), JSON.stringify(row)).toBe(true);
+  await hskDB.runs.clear();
+  await importHsk(backup);
+  expect(gradeRun((await hskDB.runs.get(legacy.id))!).passed).toBe(true);
+  expect((await hskDB.runs.get(bank.id))!.seenItemIds).toEqual([bank.itemIds[0]]);
+  const corrupted = structuredClone(backup);
+  corrupted.runs.find((r) => r.id === bank.id)!.level = 2;
+  await expect(importHsk(corrupted)).rejects.toThrow();
+  expect(await hskDB.runs.count()).toBe(2);
+});
+
+it("publishes a varied 60-checkpoint and 30-sample level-1 bank with stable legacy IDs", () => {
+  const bank = JSON.parse(readFileSync("content/packs/hsk-1-bank.hsk.json", "utf8"));
+  expect(validateHskPack(bank, words)).toEqual([]);
+  const items = hskItems.filter((q) => q.level === 1);
+  expect(items).toHaveLength(90);
+  expect(items.filter((q) => q.unit === "sample")).toHaveLength(30);
+  expect(items.filter((q) => q.unit !== "sample")).toHaveLength(60);
+  expect(pack.items.every((q: { id: string }) => items.some((i) => i.id === q.id))).toBe(true);
+  expect(new Set(items.filter((q) => q.format).map((q) => q.format))).toEqual(new Set(["reading","listening","ordering"]));
+  const positions = bank.items.map((q: { answer: string; choices: { zh: string }[] }) => q.choices.findIndex((c) => c.zh === q.answer));
+  expect(new Set(positions).size).toBe(4);
 });

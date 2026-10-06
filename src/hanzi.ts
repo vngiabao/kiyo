@@ -170,6 +170,7 @@ const characterContexts: Record<string, string> = {
   桌: "桌子", 唱: "唱歌", 歌: "唱歌", 告: "告诉", 诉: "告诉",
   考: "考试", 哥: "哥哥", 道: "知道", 气: "生气", 系: "没关系",
   样: "一样", 怎: "怎么",
+  着: "门开着，请进。", 场: "机场", 右: "右边", 后: "后边",
 };
 const packCharacters: HanziEntry[] = [];
 for (const pack of compiledPacks)

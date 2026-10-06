@@ -184,6 +184,9 @@ function validateBank(raw: unknown, words: Record<string, HskWord>): string[] {
         errors.push(`${q.id}: ordering segments/answer mismatch`);
       for (const c of q.segments ?? [])
         if (!c.en?.trim() || !verifiedBankText(c.zh, c.py, words, p.level)) errors.push(`${q.id}: unverified ordering segment`);
+      const letters = (text: string) => Array.from(text).filter((c) => /\p{Script=Han}/u.test(c)).sort().join("");
+      for (const c of q.choices)
+        if (letters(c.zh) !== letters(q.answer)) errors.push(`${q.id}: ordering choice changes the supplied characters`);
     } else if (q.segments) errors.push(`${q.id}: unexpected ordering segments`);
   }
   for (const unit of ["identity", "numbers", "daily", "sample"])

@@ -1,10 +1,10 @@
 """Editorial source: gifts, event timing, venue comfort and a shared order."""
 from common import *
 character_groups.update({
-'s2-u09':[('层','layer; floor'),('封','seal; letter counter'),('份','portion; copy'),('套','set'),('纸','paper'),('笔','pen; writing'),('感','to feel'),('谢','to thank'),('顾','to look after')],
+'s2-u09':[('层','layer; floor'),('封','seal; letter counter'),('份','portion; copy'),('套','set'),('纸','paper'),('笔','pen; writing'),('感','to feel'),('卡','card'),('位','position; polite person classifier')],
 's2-u10':[('周','week; cycle'),('晨','early morning'),('夜','night'),('刚','just; firm'),('接','to receive; meet'),('受','to receive; accept'),('节','festival; section'),('灯','lamp'),('停','to stop')],
 's2-u11':[('温','warm; temperature'),('度','degree'),('声','sound; voice'),('响','to sound; loud'),('亮','bright'),('更','more'),('空','empty; free time'),('超','to exceed'),('够','enough')],
-'s2-u12':[('只','only'),('鸡','chicken'),('鱼','fish'),('油','oil'),('饱','full after eating'),('公','public; common'),('数','number; to count'),('平','level; fair'),('量','quantity; to measure')],
+'s2-u12':[('只','only'),('其','that; in 其他/其中'),('所','place; in 所有'),('油','oil'),('饱','full after eating'),('公','public; common'),('数','number; to count'),('平','level; fair'),('量','quantity; to measure')],
 })
 unit_glosses.update({
 's2-u09':{'信封':'envelope','贺卡':'greeting card','围巾':'scarf','收件人':'recipient','包裹':'parcel','地址':'address','快递':'delivery service','邮寄':'to mail','补写':'to add missing writing'},

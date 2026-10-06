@@ -16,6 +16,15 @@ class HskDB extends Dexie {
   }
 }
 export const hskDB = new HskDB();
+export async function markHskItemSeen(id: string, item: string) {
+  await hskDB.transaction("rw", hskDB.runs, async () => {
+    const run = await hskDB.runs.get(id);
+    if (!run || run.packVersion !== 2 || run.finishedAt ||
+      !run.itemIds.includes(item) || run.seenItemIds?.includes(item) ||
+      (run.deadline !== null && Date.now() >= run.deadline)) return;
+    await hskDB.runs.update(id, { seenItemIds: [...(run.seenItemIds ?? []), item] });
+  });
+}
 export async function saveHskAnswer(
   id: string,
   item: string,
@@ -61,7 +70,7 @@ export async function exportHsk() {
     kind: "kiyo-hsk-backup",
     schemaVersion: 1,
     exportedAt: new Date().toISOString(),
-    settings: (await hskDB.settings.get("learner")) ?? defaultHskSettings,
+    settings: (await hskDB.settings.get("learner")) ?? structuredClone(defaultHskSettings),
     runs: await hskDB.runs.toArray(),
   };
 }

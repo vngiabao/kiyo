@@ -95,6 +95,44 @@ RETRIEVALS = {
 ('快要七点了，节目就要开始了。','It is nearly seven; the programme is about to begin.')]),
 }
 
+RETRIEVALS.update({
+'s2-u13':('二09 / 二73 / 二10 / 二61',[
+('一万不是一千，一亿不是一百万。','Ten thousand is not one thousand; one hundred million is not one million.'),
+('十多个人，一个多小时。','More than ten people, a little over an hour.'),
+('一封信，一件衣服，一条围巾。','A letter, an item of clothing, a scarf.'),
+('我送你一本书，我送给你一本书。','I give you a book; I give a book to you.')]),
+'s2-u14':('二12 / 二47 / 二81',[
+('开场以前先坐好，散场以后再出去。','Take your seat before the start; leave after the end.'),
+('快要七点了，节目就要开始了。','It is nearly seven; the programme is about to begin.'),
+('我们等十分钟，七点开始。','We wait ten minutes; it starts at seven.')]),
+'s2-u15':('二13 / 二58',[
+('这里挺亮，也很凉快。','It is quite bright and pleasantly cool here.'),
+('里面比外面响，外面不如里面暖和。','Inside is louder than outside; outside is not as warm as inside.'),
+('这里又亮又响，我想换个地方。','It is bright and loud here; I would like to change places.')]),
+'s2-u16':('二14 / 二39',[
+('四个人，其中一个只要水。','Four people, one of whom wants only water.'),
+('大多数同意，不等于所有人都同意。','The majority agreeing does not mean everyone agrees.'),
+('其他人还没选，先别下单。','The others have not chosen yet; do not order first.')]),
+'s2-u17':('二15 / 二20 / 二80',[
+('朋友已经到了，我还在路上。','My friend has already arrived; I am still on the way.'),
+('才六点四十，不用急。','It is only six forty; no need to hurry.'),
+('都七点了，他七点才到。','It is already seven; he did not arrive until seven.'),
+('集合时间到了，我们该出发了。','The meeting time has come; it is time for us to set off.')]),
+'s2-u18':('二16 / 二62 / 二69',[
+('先看通知，然后报名。','Check the notice first, then sign up.'),
+('从学校走到活动地点，先走进东门。','Walk from the school to the event venue; first enter through the east gate.'),
+('从教室拿出书，再把书交给老师。','Take a book out of the classroom, then hand it to the teacher.')]),
+'s2-u19':('二17 / 二74',[
+('重点是日期，不是地址。','The main point is the date, not the address.'),
+('我想讨论这个问题，你可以直接问。','I want to discuss this question; you may ask directly.'),
+('同样的问题，不一定有相同的答案。','The same question does not necessarily have an identical answer.')]),
+'s2-u20':('二18 / 二79 / 二78',[
+('我以为你同意了，但还没有问清楚。','I thought you had agreed, but had not clarified it.'),
+('点头不一定就是同意。','Nodding does not necessarily mean agreement.'),
+('不是故意拿的，我现在还给你。','I did not take it deliberately; I will return it now.'),
+('好吧，我们先别开这个玩笑。','Okay, let us not make this joke for now.')]),
+})
+
 def apply(first, last):
     apply_ids(list(range(first,last+1)))
 

@@ -22,7 +22,7 @@ remaining = {f: e for e in baseline['levels'][0]['words']['remainingEntries'] fo
 remaining_by_level = {level['level']: {f: e for e in level['words']['remainingEntries'] for f in e['forms']} for level in baseline['levels']}
 source_aliases={'有（一）点儿':['有点儿','有一点儿'],'家（科学家）':['家'],
     '老（老王）':['老'],'小（小王）':['小'],'头（里头）':['头'],
-    '面1':['面'],'面2':['面']}
+    '面1':['面'],'面2':['面'],'们（朋友们）':['们'],'子（桌子）':['子']}
 for level, allocation in remaining_by_level.items():
     for entry in baseline['levels'][level-1]['words']['remainingEntries']:
         for alias in source_aliases.get(entry['entry'],[]):
@@ -92,7 +92,7 @@ def vocab(rows, uid, gf_level=1):
         result.append(dict(id=f'{uid}-w{i:02}',hanzi=w,pinyin=vocabulary_readings.get(uid+':'+w,py(w)),meaning=en,meaningVi=vi,pos=pos,
             register='neutral',hskLevel=levels[w]['hsk3'],example=line(example,translation)))
         source=source_rows[selected_source_rows[uid+':'+w]] if uid+':'+w in selected_source_rows else allocation[w]
-        assert w in source['forms'] or w in source_aliases.get(source['entry'],[])
+        assert w in source['forms'] or w in source_aliases.get(source['entry'],[]), f'{uid}: {w} does not match cited source {source["entry"]}'
         result[-1]['usageNote']=f"[GF2021:L{gf_level}:{source['sourceNo']}] Source entry: {source['entry']}; {source['pinyin']}; {source['partOfSpeech']}. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
     return result
 

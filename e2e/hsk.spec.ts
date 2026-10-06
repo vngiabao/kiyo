@@ -1,13 +1,84 @@
 import { test, expect, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import { readFileSync } from "node:fs";
-import type { HskPracticePack } from "../src/hsk-pack";
+import type { HskPracticePack, AnyHskPack } from "../src/hsk-pack";
+import type { HskRun } from "../src/hsk-model";
 import { mascotScenes } from "../src/sayo-lines";
 import { reactionMood } from "../src/sayo-voice";
 const audioAssets = JSON.parse(readFileSync("src/audio-assets.json", "utf8"));
 const pack: HskPracticePack = JSON.parse(
   readFileSync("content/packs/hsk-reading.hsk.json", "utf8"),
 );
+const installed: AnyHskPack[] = JSON.parse(readFileSync("src/generated/hsk-practice.json", "utf8"));
+const itemById = Object.fromEntries(installed.flatMap((p) => p.items).map((q) => [q.id, q]));
+async function savedRun(page: Page): Promise<HskRun> {
+  return page.evaluate(async () => new Promise<HskRun>((resolve, reject) => {
+    const request = indexedDB.open("kiyo-hsk-v1");
+    request.onerror = () => reject(request.error);
+    request.onsuccess = () => {
+      const db = request.result;
+      const rows = db.transaction("runs", "readonly").objectStore("runs").getAll();
+      rows.onerror = () => { db.close(); reject(rows.error); };
+      rows.onsuccess = () => {
+        const pending = rows.result.filter((r) => !r.finishedAt).sort((a, b) => b.startedAt - a.startedAt);
+        db.close();
+        if (pending[0]) resolve(pending[0]); else reject(new Error("No saved practice run"));
+      };
+    };
+  }));
+}
+async function answerRun(page: Page, run: HskRun) {
+  for (let i = 0; i < run.itemIds.length; i++) {
+    await page.locator(`input[type=radio][value=${JSON.stringify(itemById[run.itemIds[i]].answer)}]`).check();
+    if (i < run.itemIds.length - 1)
+      await page.getByRole("button", { name: "Next question" }).click();
+  }
+}
+
+test("a restored listening checkpoint hides its transcript and keeps revealed help supported", async ({ page }) => {
+  await enter(page);
+  const pool = installed.flatMap((p) => p.items.map((q) => ({ ...q, level: p.level })))
+    .filter((q) => q.level === 1 && q.unit === "identity");
+  const listening = pool.find((q) => q.format === "listening")!;
+  expect(listening).toBeTruthy();
+  const run: HskRun = {
+    id: "restored-listening-checkpoint", schemaVersion: 1, packVersion: 2, level: 1,
+    unit: "identity", itemIds: [listening.id, ...pool.filter((q) => q.id !== listening.id).slice(0, 9).map((q) => q.id)],
+    seenItemIds: [], answers: {}, startedAt: Date.now(), deadline: null, finishedAt: null,
+  };
+  await page.evaluate(async (row) => new Promise<void>((resolve, reject) => {
+    const request = indexedDB.open("kiyo-hsk-v1");
+    request.onerror = () => reject(request.error);
+    request.onsuccess = () => {
+      const db = request.result, tx = db.transaction("runs", "readwrite");
+      tx.objectStore("runs").put(row);
+      tx.oncomplete = () => { db.close(); resolve(); };
+      tx.onerror = () => { db.close(); reject(tx.error); };
+    };
+  }), run);
+  await page.reload();
+  await page.getByRole("button", { name: "Resume practice" }).click();
+  await expect(page.getByText(listening.sentence, { exact: true })).toHaveCount(0);
+  const audio = page.waitForResponse((r) => r.url().endsWith(audioAssets[listening.sentence].clear) && r.ok());
+  await page.getByRole("button", { name: "Play question", exact: true }).click();
+  await audio;
+  await page.getByRole("button", { name: /Show words and pinyin/ }).click();
+  await expect(page.getByText(listening.sentence, { exact: true })).toBeVisible();
+  await page.locator(`input[type=radio][value=${JSON.stringify(listening.answer)}]`).check();
+  await page.getByRole("button", { name: "Save & leave" }).click();
+  await page.reload();
+  await page.getByRole("button", { name: "Resume practice" }).click();
+  await expect(page.getByText(listening.sentence, { exact: true })).toBeVisible();
+  const restored = await savedRun(page);
+  expect(restored.answers[listening.id]).toEqual({ value: listening.answer, supported: true });
+  expect(restored.seenItemIds).toContain(listening.id);
+  for (const width of [1440, 768, 375, 320]) {
+    await page.setViewportSize({ width, height: 900 });
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.screenshot({ path: `.impeccable/review/hsk-listening-${width}.png`, fullPage: true });
+  }
+  expect((await new AxeBuilder({ page }).include(".hsk-exam").withTags(["wcag2a","wcag2aa","wcag21aa"]).analyze()).violations).toEqual([]);
+});
 async function enter(page: Page) {
   await page.goto("/");
   await page.getByRole("button", { name: /Start without an account/ }).click();
@@ -97,22 +168,16 @@ test("HSK prerequisites, supported answers, reload, repair and source isolation"
   await page
     .getByRole("button", { name: "Take checkpoint", exact: true })
     .click();
-  await page.getByRole("button", { name: /Show option pinyin/ }).click();
-  const questions = pack.items.filter((q) => q.unit === "identity");
-  for (let i = 0; i < questions.length; i++) {
-    await page
-      .locator(`input[type=radio][value="${questions[i].answer}"]`)
-      .check();
-    if (i < questions.length - 1)
-      await page.getByRole("button", { name: "Next question" }).click();
-  }
+  const run = await savedRun(page);
+  await page.getByRole("button", { name: /Show (option pinyin|words and pinyin)/ }).click();
+  await answerRun(page, run);
   await expect(
-    page.getByText("8 of 8 answered · Saved on this device", { exact: true }),
+    page.getByText(`${run.itemIds.length} of ${run.itemIds.length} answered · Saved on this device`, { exact: true }),
   ).toBeVisible();
   await page.reload();
   await page.getByRole("button", { name: "Resume practice" }).click();
   await page
-    .getByRole("button", { name: "Question 8, answered", exact: true })
+    .getByRole("button", { name: `Question ${run.itemIds.length}, answered`, exact: true })
     .click();
   await page
     .getByRole("button", { name: "Submit answers", exact: true })
@@ -121,13 +186,13 @@ test("HSK prerequisites, supported answers, reload, repair and source isolation"
     page.getByRole("heading", { name: "Keep the mistakes. Fix them." }),
   ).toBeVisible();
   await expect(
-    page.getByText("7 unaided · 1 supported · 0 unanswered"),
+    page.getByText(`${run.itemIds.length - 1} unaided · 1 supported · 0 unanswered`),
   ).toBeVisible();
   await page.getByRole("button", { name: "Return to the pathway" }).click();
   await expect(page.locator(".hsk-path>li").nth(1)).toContainText("Locked");
   await page.getByRole("button", { name: "Mistakes (1)", exact: true }).click();
   await page.getByRole("button", { name: "Practise these again" }).click();
-  await page.locator('input[type=radio][value="是"]').check();
+  await page.locator(`input[type=radio][value=${JSON.stringify(itemById[run.itemIds[0]].answer)}]`).check();
   await page
     .getByRole("button", { name: "Submit answers", exact: true })
     .click();
@@ -209,14 +274,9 @@ test("unaided checkpoints unlock a timed sample that survives leaving and expire
     await page
       .getByRole("button", { name: "Take checkpoint", exact: true })
       .click();
-    const questions = pack.items.filter((q) => q.unit === unit);
-    for (let i = 0; i < questions.length; i++) {
-      await page
-        .locator(`input[type=radio][value="${questions[i].answer}"]`)
-        .check();
-      if (i < questions.length - 1)
-        await page.getByRole("button", { name: "Next question" }).click();
-    }
+    const run = await savedRun(page);
+    expect(run.unit).toBe(unit);
+    await answerRun(page, run);
     await page
       .getByRole("button", { name: "Submit answers", exact: true })
       .click();
@@ -253,13 +313,14 @@ test("unaided checkpoints unlock a timed sample that survives leaving and expire
     ).violations,
   ).toEqual([]);
   await page.getByRole("button", { name: "Save & leave", exact: true }).click();
-  await page.clock.fastForward(360500);
+  const sample = await savedRun(page);
+  await page.clock.fastForward(sample.deadline! - sample.startedAt + 1000);
   await page.getByRole("button", { name: "Resume practice" }).click();
   await expect(
     page.getByRole("heading", { name: "Keep the mistakes. Fix them." }),
   ).toBeVisible();
   await expect(
-    page.getByText("0 unaided · 0 supported · 12 unanswered"),
+    page.getByText(`0 unaided · 0 supported · ${sample.itemIds.length} unanswered`),
   ).toBeVisible();
 });
 
@@ -311,8 +372,9 @@ test("installed HSK notebook and new teacher audio work offline", async ({
   await expect(page.locator(".masthead")).toBeHidden();
   await expect(page.locator(".tabbar")).toBeHidden();
   await page.locator("input[type=radio]").first().check();
+  const run = await savedRun(page);
   await expect(
-    page.getByText("1 of 8 answered · Saved on this device", { exact: true }),
+    page.getByText(`1 of ${run.itemIds.length} answered · Saved on this device`, { exact: true }),
   ).toBeVisible();
   await page.getByRole("button", { name: "Save & leave" }).click();
   await page.reload();

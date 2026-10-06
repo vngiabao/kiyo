@@ -1,0 +1,2159 @@
+{
+  "kind": "hsk-practice",
+  "version": 2,
+  "id": "hsk1-original-rotating",
+  "standard": "GF2021 practice",
+  "level": 1,
+  "provenance": {
+    "author": "Kiyo original exercises",
+    "status": "AI-assisted draft; native review pending; original mixed practice, not an official paper",
+    "sources": [
+      "https://www.chinesetest.cn/syllabus",
+      "https://hsk-sample-1409982902.cos.ap-beijing.myqcloud.com/HSK3.0.zip"
+    ]
+  },
+  "items": [
+    {
+      "format": "reading",
+      "sentence": "我的姐姐是医生，妹妹是学生。",
+      "py": "wǒ de jiě jie shì yī shēng , mèi mei shì xué sheng .",
+      "en": "My elder sister is a doctor; my younger sister is a student.",
+      "prompt": "谁是医生？",
+      "promptPy": "shéi shì yī shēng ?",
+      "choices": [
+        {
+          "zh": "姐姐",
+          "py": "jiě jie",
+          "en": "Elder sister"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèi mei",
+          "en": "Younger sister"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Teacher"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gē gē",
+          "en": "Elder brother"
+        }
+      ],
+      "answer": "姐姐",
+      "explanation": "姐姐 is explicitly identified as the doctor; 妹妹 is the student.",
+      "id": "hsk1-bank-identity-01",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "我的哥哥是工人，他今天不上班。",
+      "py": "wǒ de gē gē shì gōng rén , tā jīn tiān bù shàng bān .",
+      "en": "My elder brother is a worker; he is not working today.",
+      "prompt": "哥哥是做什么的？",
+      "promptPy": "gē gē shì zuò shén me de ?",
+      "choices": [
+        {
+          "zh": "学生",
+          "py": "xué sheng",
+          "en": "Student"
+        },
+        {
+          "zh": "医生",
+          "py": "yī shēng",
+          "en": "Doctor"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Teacher"
+        },
+        {
+          "zh": "工人",
+          "py": "gōng rén",
+          "en": "Worker"
+        }
+      ],
+      "answer": "工人",
+      "explanation": "His occupation is 工人 even though he is not at work today.",
+      "id": "hsk1-bank-identity-02",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "妹妹是学生",
+      "py": "mèi mei shì xué sheng",
+      "en": "My younger sister is a student.",
+      "prompt": "谁是学生？",
+      "promptPy": "shéi shì xué sheng ?",
+      "segments": [
+        {
+          "zh": "妹妹",
+          "py": "mèi mei",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "学生",
+          "py": "xué sheng",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "妹妹学生是",
+          "py": "mèi mei xué sheng shì",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "是学生妹妹",
+          "py": "shì xué sheng mèi mei",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "妹妹是学生",
+          "py": "mèi mei shì xué sheng",
+          "en": "My younger sister is a student."
+        },
+        {
+          "zh": "学生妹妹是",
+          "py": "xué sheng mèi mei shì",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "妹妹是学生",
+      "explanation": "Use the stated ordinary subject–是–identity order; 妹妹 is the subject.",
+      "id": "hsk1-bank-identity-03",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "他是我的同学，不是我的弟弟。",
+      "py": "tā shì wǒ de tóng xué , bù shì wǒ de dì di .",
+      "en": "He is my classmate, not my younger brother.",
+      "prompt": "他是谁？",
+      "promptPy": "tā shì shéi ?",
+      "choices": [
+        {
+          "zh": "工人",
+          "py": "gōng rén",
+          "en": "Worker"
+        },
+        {
+          "zh": "同学",
+          "py": "tóng xué",
+          "en": "Classmate"
+        },
+        {
+          "zh": "弟弟",
+          "py": "dì di",
+          "en": "Younger brother"
+        },
+        {
+          "zh": "医生",
+          "py": "yī shēng",
+          "en": "Doctor"
+        }
+      ],
+      "answer": "同学",
+      "explanation": "The positive identity is 同学; 弟弟 is explicitly denied.",
+      "id": "hsk1-bank-identity-04",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "新来的老师教我们汉字。",
+      "py": "xīn lái de lǎo shī jiào wǒ men hàn zì .",
+      "en": "The new teacher teaches us Chinese characters.",
+      "prompt": "谁教汉字？",
+      "promptPy": "shéi jiào hàn zì ?",
+      "choices": [
+        {
+          "zh": "新来的老师",
+          "py": "xīn lái de lǎo shī",
+          "en": "The new teacher"
+        },
+        {
+          "zh": "我的妹妹",
+          "py": "wǒ de mèi mei",
+          "en": "My younger sister"
+        },
+        {
+          "zh": "那个孩子",
+          "py": "nà gè hái zi",
+          "en": "That child"
+        },
+        {
+          "zh": "他的爸爸",
+          "py": "tā de bà bà",
+          "en": "His father"
+        }
+      ],
+      "answer": "新来的老师",
+      "explanation": "The subject of 教我们汉字 is 新来的老师.",
+      "id": "hsk1-bank-identity-05",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "哥哥不是老师",
+      "py": "gē gē bù shì lǎo shī",
+      "en": "My elder brother is not a teacher.",
+      "prompt": "谁不是老师？",
+      "promptPy": "shéi bù shì lǎo shī ?",
+      "segments": [
+        {
+          "zh": "哥哥",
+          "py": "gē gē",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不是",
+          "py": "bù shì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "哥哥不老师是",
+          "py": "gē gē bù lǎo shī shì",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "不是哥哥老师",
+          "py": "bù shì gē gē lǎo shī",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "老师哥哥不是",
+          "py": "lǎo shī gē gē bù shì",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "哥哥不是老师",
+          "py": "gē gē bù shì lǎo shī",
+          "en": "My elder brother is not a teacher."
+        }
+      ],
+      "answer": "哥哥不是老师",
+      "explanation": "Place 不是 before the identity complement 老师.",
+      "id": "hsk1-bank-identity-06",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "那个孩子的妈妈是老师。",
+      "py": "nà gè hái zi de mā mā shì lǎo shī .",
+      "en": "That child’s mother is a teacher.",
+      "prompt": "谁是老师？",
+      "promptPy": "shéi shì lǎo shī ?",
+      "choices": [
+        {
+          "zh": "朋友的姐姐",
+          "py": "péng you de jiě jie",
+          "en": "My friend’s elder sister"
+        },
+        {
+          "zh": "那个孩子",
+          "py": "nà gè hái zi",
+          "en": "That child"
+        },
+        {
+          "zh": "孩子的妈妈",
+          "py": "hái zi de mā mā",
+          "en": "The child’s mother"
+        },
+        {
+          "zh": "我的妈妈",
+          "py": "wǒ de mā mā",
+          "en": "My mother"
+        }
+      ],
+      "answer": "孩子的妈妈",
+      "explanation": "The stated teacher is the child’s mother; the child is not identified as a teacher.",
+      "id": "hsk1-bank-identity-07",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "今天是奶奶的生日，爷爷也来。",
+      "py": "jīn tiān shì nǎi nai de shēng rì , yé ye yě lái .",
+      "en": "Today is grandmother’s birthday; grandfather is also coming.",
+      "prompt": "今天是谁的生日？",
+      "promptPy": "jīn tiān shì shéi de shēng rì ?",
+      "choices": [
+        {
+          "zh": "姐姐的",
+          "py": "jiě jie de",
+          "en": "Elder sister’s"
+        },
+        {
+          "zh": "奶奶的",
+          "py": "nǎi nai de",
+          "en": "Grandmother’s"
+        },
+        {
+          "zh": "爷爷的",
+          "py": "yé ye de",
+          "en": "Grandfather’s"
+        },
+        {
+          "zh": "妈妈的",
+          "py": "mā mā de",
+          "en": "Mother’s"
+        }
+      ],
+      "answer": "奶奶的",
+      "explanation": "爷爷 also attends, but the birthday belongs to 奶奶.",
+      "id": "hsk1-bank-identity-08",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "老师教汉语",
+      "py": "lǎo shī jiào hàn yǔ",
+      "en": "The teacher teaches Mandarin.",
+      "prompt": "谁教汉语？",
+      "promptPy": "shéi jiào hàn yǔ ?",
+      "segments": [
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "教",
+          "py": "jiào",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "汉语",
+          "py": "hàn yǔ",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "老师教汉语",
+          "py": "lǎo shī jiào hàn yǔ",
+          "en": "The teacher teaches Mandarin."
+        },
+        {
+          "zh": "汉语教老师",
+          "py": "hàn yǔ jiào lǎo shī",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "老师汉语教",
+          "py": "lǎo shī hàn yǔ jiào",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "教汉语老师",
+          "py": "jiào hàn yǔ lǎo shī",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "老师教汉语",
+      "explanation": "老师 performs 教; 汉语 is what is taught. The alternatives reverse the relation or break ordinary word order.",
+      "id": "hsk1-bank-identity-09",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "妈妈在家，爸爸在学校。",
+      "py": "mā mā zài jiā , bà bà zài xué xiào .",
+      "en": "Mother is at home; father is at school.",
+      "prompt": "谁在学校？",
+      "promptPy": "shéi zài xué xiào ?",
+      "choices": [
+        {
+          "zh": "妈妈",
+          "py": "mā mā",
+          "en": "Mother"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gē gē",
+          "en": "Elder brother"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèi mei",
+          "en": "Younger sister"
+        },
+        {
+          "zh": "爸爸",
+          "py": "bà bà",
+          "en": "Father"
+        }
+      ],
+      "answer": "爸爸",
+      "explanation": "爸爸 is located at school; 妈妈 is located at home.",
+      "id": "hsk1-bank-identity-10",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "朋友的儿子在家，他的女儿在学校。",
+      "py": "péng you de ér zi zài jiā , tā de nǚ ér zài xué xiào .",
+      "en": "My friend’s son is at home; his daughter is at school.",
+      "prompt": "谁在家？",
+      "promptPy": "shéi zài jiā ?",
+      "choices": [
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Teacher"
+        },
+        {
+          "zh": "工人",
+          "py": "gōng rén",
+          "en": "Worker"
+        },
+        {
+          "zh": "儿子",
+          "py": "ér zi",
+          "en": "Son"
+        },
+        {
+          "zh": "女儿",
+          "py": "nǚ ér",
+          "en": "Daughter"
+        }
+      ],
+      "answer": "儿子",
+      "explanation": "The locations distinguish 儿子 at home from 女儿 at school.",
+      "id": "hsk1-bank-identity-11",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "爸爸在学校",
+      "py": "bà bà zài xué xiào",
+      "en": "Father is at school.",
+      "prompt": "谁在学校？",
+      "promptPy": "shéi zài xué xiào ?",
+      "segments": [
+        {
+          "zh": "爸爸",
+          "py": "bà bà",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "学校",
+          "py": "xué xiào",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "学校在爸爸",
+          "py": "xué xiào zài bà bà",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "爸爸在学校",
+          "py": "bà bà zài xué xiào",
+          "en": "Father is at school."
+        },
+        {
+          "zh": "在爸爸学校",
+          "py": "zài bà bà xué xiào",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "爸爸学校在",
+          "py": "bà bà xué xiào zài",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "爸爸在学校",
+      "explanation": "在 introduces the location after the subject 爸爸.",
+      "id": "hsk1-bank-identity-12",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "我朋友会说汉语，也会读汉字。",
+      "py": "wǒ péng you huì shuō hàn yǔ , yě huì dú hàn zì .",
+      "en": "My friend can speak Mandarin and read Chinese characters.",
+      "prompt": "朋友会做什么？",
+      "promptPy": "péng you huì zuò shén me ?",
+      "choices": [
+        {
+          "zh": "说汉语和读汉字",
+          "py": "shuō hàn yǔ hé dú hàn zì",
+          "en": "Speak Mandarin and read characters"
+        },
+        {
+          "zh": "不说汉语",
+          "py": "bù shuō hàn yǔ",
+          "en": "Not speak Mandarin"
+        },
+        {
+          "zh": "不读汉字",
+          "py": "bù dú hàn zì",
+          "en": "Not read characters"
+        },
+        {
+          "zh": "不说话",
+          "py": "bù shuō huà",
+          "en": "Not speak"
+        }
+      ],
+      "answer": "说汉语和读汉字",
+      "explanation": "Both speaking Mandarin and reading characters are affirmed; the negative alternatives contradict the statement.",
+      "id": "hsk1-bank-identity-13",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "这是我的书，那是别人的书。",
+      "py": "zhè shì wǒ de shū , nà shì bié ren de shū .",
+      "en": "This is my book; that is someone else’s book.",
+      "prompt": "那是谁的书？",
+      "promptPy": "nà shì shéi de shū ?",
+      "choices": [
+        {
+          "zh": "我的",
+          "py": "wǒ de",
+          "en": "Mine"
+        },
+        {
+          "zh": "老师的",
+          "py": "lǎo shī de",
+          "en": "The teacher’s"
+        },
+        {
+          "zh": "妹妹的",
+          "py": "mèi mei de",
+          "en": "My younger sister’s"
+        },
+        {
+          "zh": "别人的",
+          "py": "bié ren de",
+          "en": "Someone else’s"
+        }
+      ],
+      "answer": "别人的",
+      "explanation": "The second book is only identified as someone else’s; the person is not specified.",
+      "id": "hsk1-bank-identity-14",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "姐姐有两个孩子",
+      "py": "jiě jie yǒu liǎng gè hái zi",
+      "en": "My elder sister has two children.",
+      "prompt": "谁有两个孩子？",
+      "promptPy": "shéi yǒu liǎng gè hái zi ?",
+      "segments": [
+        {
+          "zh": "姐姐",
+          "py": "jiě jie",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "两个孩子",
+          "py": "liǎng gè hái zi",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "姐姐两个有孩子",
+          "py": "jiě jie liǎng gè yǒu hái zi",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "有姐姐两个孩子",
+          "py": "yǒu jiě jie liǎng gè hái zi",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "姐姐有两个孩子",
+          "py": "jiě jie yǒu liǎng gè hái zi",
+          "en": "My elder sister has two children."
+        },
+        {
+          "zh": "两个孩子有姐姐",
+          "py": "liǎng gè hái zi yǒu jiě jie",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "姐姐有两个孩子",
+      "explanation": "姐姐 is the possessor; 两个孩子 is the object with a complete numeral-classifier phrase.",
+      "id": "hsk1-bank-identity-15",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "我有两个妹妹，没有哥哥。",
+      "py": "wǒ yǒu liǎng gè mèi mei , méi yǒu gē gē .",
+      "en": "I have two younger sisters and no elder brother.",
+      "prompt": "我没有谁？",
+      "promptPy": "wǒ méi yǒu shéi ?",
+      "choices": [
+        {
+          "zh": "爸爸",
+          "py": "bà bà",
+          "en": "Father"
+        },
+        {
+          "zh": "哥哥",
+          "py": "gē gē",
+          "en": "Elder brother"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèi mei",
+          "en": "Younger sister"
+        },
+        {
+          "zh": "妈妈",
+          "py": "mā mā",
+          "en": "Mother"
+        }
+      ],
+      "answer": "哥哥",
+      "explanation": "没有哥哥 is an explicit negative; there are two 妹妹.",
+      "id": "hsk1-bank-identity-16",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "我不是老师，我是大学生。",
+      "py": "wǒ bù shì lǎo shī , wǒ shì dà xué shēng .",
+      "en": "I am not a teacher; I am a university student.",
+      "prompt": "我是谁？",
+      "promptPy": "wǒ shì shéi ?",
+      "choices": [
+        {
+          "zh": "大学生",
+          "py": "dà xué shēng",
+          "en": "University student"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Teacher"
+        },
+        {
+          "zh": "医生",
+          "py": "yī shēng",
+          "en": "Doctor"
+        },
+        {
+          "zh": "中学生",
+          "py": "zhōng xué sheng",
+          "en": "Secondary-school student"
+        }
+      ],
+      "answer": "大学生",
+      "explanation": "大学生 is explicitly affirmed; 老师 is negated.",
+      "id": "hsk1-bank-identity-17",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "朋友会说汉语",
+      "py": "péng you huì shuō hàn yǔ",
+      "en": "My friend can speak Mandarin.",
+      "prompt": "谁会说汉语？",
+      "promptPy": "shéi huì shuō hàn yǔ ?",
+      "segments": [
+        {
+          "zh": "朋友",
+          "py": "péng you",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "会说",
+          "py": "huì shuō",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "汉语",
+          "py": "hàn yǔ",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "汉语会说朋友",
+          "py": "hàn yǔ huì shuō péng you",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "朋友汉语会说",
+          "py": "péng you hàn yǔ huì shuō",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "会说朋友汉语",
+          "py": "huì shuō péng you hàn yǔ",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "朋友会说汉语",
+          "py": "péng you huì shuō hàn yǔ",
+          "en": "My friend can speak Mandarin."
+        }
+      ],
+      "answer": "朋友会说汉语",
+      "explanation": "Keep 会说 together after the subject; 汉语 is the language spoken.",
+      "id": "hsk1-bank-identity-18",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "一本书十块，三本书三十块。",
+      "py": "yī běn shū shí kuài , sān běn shū sān shí kuài .",
+      "en": "One book costs ten yuan; three cost thirty.",
+      "prompt": "三本书多少钱？",
+      "promptPy": "sān běn shū duō shao qián ?",
+      "choices": [
+        {
+          "zh": "二十块",
+          "py": "èr shí kuài",
+          "en": "Twenty yuan"
+        },
+        {
+          "zh": "四十块",
+          "py": "sì shí kuài",
+          "en": "Forty yuan"
+        },
+        {
+          "zh": "三十块",
+          "py": "sān shí kuài",
+          "en": "Thirty yuan"
+        },
+        {
+          "zh": "十块",
+          "py": "shí kuài",
+          "en": "Ten yuan"
+        }
+      ],
+      "answer": "三十块",
+      "explanation": "The price for three books is stated as 三十块, consistent with three times ten.",
+      "id": "hsk1-bank-numbers-01",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "水三块，茶五块。我买茶。",
+      "py": "shuǐ sān kuài , chá wǔ kuài . wǒ mǎi chá .",
+      "en": "Water costs three yuan; tea costs five. I buy tea.",
+      "prompt": "我买的东西多少钱？",
+      "promptPy": "wǒ mǎi de dōng xi duō shao qián ?",
+      "choices": [
+        {
+          "zh": "两块",
+          "py": "liǎng kuài",
+          "en": "Two yuan"
+        },
+        {
+          "zh": "五块",
+          "py": "wǔ kuài",
+          "en": "Five yuan"
+        },
+        {
+          "zh": "三块",
+          "py": "sān kuài",
+          "en": "Three yuan"
+        },
+        {
+          "zh": "八块",
+          "py": "bā kuài",
+          "en": "Eight yuan"
+        }
+      ],
+      "answer": "五块",
+      "explanation": "Only tea is bought, so its price 五块 applies; eight would combine unpurchased water and tea.",
+      "id": "hsk1-bank-numbers-02",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我买了三本书",
+      "py": "wǒ mǎi le sān běn shū",
+      "en": "I bought three books.",
+      "prompt": "谁买了三本书？",
+      "promptPy": "shéi mǎi le sān běn shū ?",
+      "segments": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "买了",
+          "py": "mǎi le",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "三本书",
+          "py": "sān běn shū",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "我买了三本书",
+          "py": "wǒ mǎi le sān běn shū",
+          "en": "I bought three books."
+        },
+        {
+          "zh": "三本书买了我",
+          "py": "sān běn shū mǎi le wǒ",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "我三本买了书",
+          "py": "wǒ sān běn mǎi le shū",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "我买三了本书",
+          "py": "wǒ mǎi sān le běn shū",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "我买了三本书",
+      "explanation": "The subject 我 precedes 买了; keep 三本书 intact as the object.",
+      "id": "hsk1-bank-numbers-03",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "我们星期六上午九点见面。",
+      "py": "wǒ men xīng qī liù shàng wǔ jiǔ diǎn jiàn miàn .",
+      "en": "We meet at nine on Saturday morning.",
+      "prompt": "几点见面？",
+      "promptPy": "jǐ diǎn jiàn miàn ?",
+      "choices": [
+        {
+          "zh": "下午九点",
+          "py": "xià wǔ jiǔ diǎn",
+          "en": "Nine in the afternoon"
+        },
+        {
+          "zh": "上午六点",
+          "py": "shàng wǔ liù diǎn",
+          "en": "Six in the morning"
+        },
+        {
+          "zh": "下午六点",
+          "py": "xià wǔ liù diǎn",
+          "en": "Six in the afternoon"
+        },
+        {
+          "zh": "上午九点",
+          "py": "shàng wǔ jiǔ diǎn",
+          "en": "Nine in the morning"
+        }
+      ],
+      "answer": "上午九点",
+      "explanation": "The message specifies 上午九点; 星期六 is the day, not the time.",
+      "id": "hsk1-bank-numbers-04",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "我们下午两点半上车，三点到。",
+      "py": "wǒ men xià wǔ liǎng diǎn bàn shàng chē , sān diǎn dào .",
+      "en": "We board at half past two and arrive at three in the afternoon.",
+      "prompt": "几点上车？",
+      "promptPy": "jǐ diǎn shàng chē ?",
+      "choices": [
+        {
+          "zh": "三点半",
+          "py": "sān diǎn bàn",
+          "en": "Half past three"
+        },
+        {
+          "zh": "两点",
+          "py": "liǎng diǎn",
+          "en": "Two"
+        },
+        {
+          "zh": "两点半",
+          "py": "liǎng diǎn bàn",
+          "en": "Half past two"
+        },
+        {
+          "zh": "三点",
+          "py": "sān diǎn",
+          "en": "Three"
+        }
+      ],
+      "answer": "两点半",
+      "explanation": "上车 is at 两点半; 到 is at 三点.",
+      "id": "hsk1-bank-numbers-05",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "妹妹今年十五岁",
+      "py": "mèi mei jīn nián shí wǔ suì",
+      "en": "My younger sister is fifteen this year.",
+      "prompt": "谁今年十五岁？",
+      "promptPy": "shéi jīn nián shí wǔ suì ?",
+      "segments": [
+        {
+          "zh": "妹妹",
+          "py": "mèi mei",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "今年",
+          "py": "jīn nián",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "十五岁",
+          "py": "shí wǔ suì",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "十五岁今年妹妹",
+          "py": "shí wǔ suì jīn nián mèi mei",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "妹妹今年十五岁",
+          "py": "mèi mei jīn nián shí wǔ suì",
+          "en": "My younger sister is fifteen this year."
+        },
+        {
+          "zh": "今年妹妹岁十五",
+          "py": "jīn nián mèi mei suì shí wǔ",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "妹妹十五今年岁",
+          "py": "mèi mei shí wǔ jīn nián suì",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "妹妹今年十五岁",
+      "explanation": "Place the time 今年 before the age predicate 十五岁.",
+      "id": "hsk1-bank-numbers-06",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "哥哥二十岁，妹妹十五岁。",
+      "py": "gē gē èr shí suì , mèi mei shí wǔ suì .",
+      "en": "My elder brother is twenty; my younger sister is fifteen.",
+      "prompt": "妹妹多大？",
+      "promptPy": "mèi mei duō dà ?",
+      "choices": [
+        {
+          "zh": "十五岁",
+          "py": "shí wǔ suì",
+          "en": "Fifteen years old"
+        },
+        {
+          "zh": "二十岁",
+          "py": "èr shí suì",
+          "en": "Twenty years old"
+        },
+        {
+          "zh": "五岁",
+          "py": "wǔ suì",
+          "en": "Five years old"
+        },
+        {
+          "zh": "十岁",
+          "py": "shí suì",
+          "en": "Ten years old"
+        }
+      ],
+      "answer": "十五岁",
+      "explanation": "十五岁 is the younger sister’s age; twenty belongs to her brother.",
+      "id": "hsk1-bank-numbers-07",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "学校里有四个人，老师还没来。",
+      "py": "xué xiào lǐ yǒu sì gè rén , lǎo shī hái méi lái .",
+      "en": "There are four people inside the school; the teacher has not arrived.",
+      "prompt": "现在有几个人？",
+      "promptPy": "xiàn zài yǒu jǐ gè rén ?",
+      "choices": [
+        {
+          "zh": "五个人",
+          "py": "wǔ gè rén",
+          "en": "Five people"
+        },
+        {
+          "zh": "三个人",
+          "py": "sān gè rén",
+          "en": "Three people"
+        },
+        {
+          "zh": "一个人",
+          "py": "yī gè rén",
+          "en": "One person"
+        },
+        {
+          "zh": "四个人",
+          "py": "sì gè rén",
+          "en": "Four people"
+        }
+      ],
+      "answer": "四个人",
+      "explanation": "Count the four people currently present; the absent teacher is not a fifth person inside the school.",
+      "id": "hsk1-bank-numbers-08",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我们八点见面",
+      "py": "wǒ men bā diǎn jiàn miàn",
+      "en": "We meet at eight.",
+      "prompt": "谁八点见面？",
+      "promptPy": "shéi bā diǎn jiàn miàn ?",
+      "segments": [
+        {
+          "zh": "我们",
+          "py": "wǒ men",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "八点",
+          "py": "bā diǎn",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "见面",
+          "py": "jiàn miàn",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "见面我们八点",
+          "py": "jiàn miàn wǒ men bā diǎn",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "见面八点我们",
+          "py": "jiàn miàn bā diǎn wǒ men",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "我们八点见面",
+          "py": "wǒ men bā diǎn jiàn miàn",
+          "en": "We meet at eight."
+        },
+        {
+          "zh": "我们见面八点",
+          "py": "wǒ men jiàn miàn bā diǎn",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "我们八点见面",
+      "explanation": "Keep 见面 together and put the clock time before it in ordinary subject–time–verb order.",
+      "id": "hsk1-bank-numbers-09",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "桌子上有两杯水和一杯茶。",
+      "py": "zhuō zi shàng yǒu liǎng bēi shuǐ hé yī bēi chá .",
+      "en": "There are two glasses of water and one cup of tea on the table.",
+      "prompt": "有几杯水？",
+      "promptPy": "yǒu jǐ bēi shuǐ ?",
+      "choices": [
+        {
+          "zh": "四杯",
+          "py": "sì bēi",
+          "en": "Four cups"
+        },
+        {
+          "zh": "两杯",
+          "py": "liǎng bēi",
+          "en": "Two cups"
+        },
+        {
+          "zh": "一杯",
+          "py": "yī bēi",
+          "en": "One cup"
+        },
+        {
+          "zh": "三杯",
+          "py": "sān bēi",
+          "en": "Three cups"
+        }
+      ],
+      "answer": "两杯",
+      "explanation": "Count only water: 两杯水. The extra cup contains tea.",
+      "id": "hsk1-bank-numbers-10",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "我拿两本书和三个本子。",
+      "py": "wǒ ná liǎng běn shū hé sān gè běn zi .",
+      "en": "I take two books and three notebooks.",
+      "prompt": "我拿几本书？",
+      "promptPy": "wǒ ná jǐ běn shū ?",
+      "choices": [
+        {
+          "zh": "两本",
+          "py": "liǎng běn",
+          "en": "Two books"
+        },
+        {
+          "zh": "三本",
+          "py": "sān běn",
+          "en": "Three books"
+        },
+        {
+          "zh": "五本",
+          "py": "wǔ běn",
+          "en": "Five books"
+        },
+        {
+          "zh": "一本",
+          "py": "yī běn",
+          "en": "One book"
+        }
+      ],
+      "answer": "两本",
+      "explanation": "Only the books are counted in the question. There are two books and three separate notebooks.",
+      "id": "hsk1-bank-numbers-11",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "桌子上有两杯水",
+      "py": "zhuō zi shàng yǒu liǎng bēi shuǐ",
+      "en": "There are two glasses of water on the table.",
+      "prompt": "哪里有两杯水？",
+      "promptPy": "nǎ lǐ yǒu liǎng bēi shuǐ ?",
+      "segments": [
+        {
+          "zh": "桌子上",
+          "py": "zhuō zi shàng",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "两杯水",
+          "py": "liǎng bēi shuǐ",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "两杯水有桌子上",
+          "py": "liǎng bēi shuǐ yǒu zhuō zi shàng",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "桌子上两杯水有",
+          "py": "zhuō zi shàng liǎng bēi shuǐ yǒu",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "有两杯水桌子上",
+          "py": "yǒu liǎng bēi shuǐ zhuō zi shàng",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "桌子上有两杯水",
+          "py": "zhuō zi shàng yǒu liǎng bēi shuǐ",
+          "en": "There are two glasses of water on the table."
+        }
+      ],
+      "answer": "桌子上有两杯水",
+      "explanation": "Use the stated place–有–object order. Inversion or a postponed location does not answer the requested ordinary order.",
+      "id": "hsk1-bank-numbers-12",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "今天十月六日，明天十月七日。",
+      "py": "jīn tiān shí yuè liù rì , míng tiān shí yuè qī rì .",
+      "en": "Today is October sixth; tomorrow is October seventh.",
+      "prompt": "明天几月几日？",
+      "promptPy": "míng tiān jǐ yuè jǐ rì ?",
+      "choices": [
+        {
+          "zh": "七月十日",
+          "py": "qī yuè shí rì",
+          "en": "July tenth"
+        },
+        {
+          "zh": "六月十日",
+          "py": "liù yuè shí rì",
+          "en": "June tenth"
+        },
+        {
+          "zh": "十月七日",
+          "py": "shí yuè qī rì",
+          "en": "October seventh"
+        },
+        {
+          "zh": "十月六日",
+          "py": "shí yuè liù rì",
+          "en": "October sixth"
+        }
+      ],
+      "answer": "十月七日",
+      "explanation": "明天 is explicitly 十月七日; do not reverse month and day.",
+      "id": "hsk1-bank-numbers-13",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "我们八点看电影，我七点半到。",
+      "py": "wǒ men bā diǎn kàn diàn yǐng , wǒ qī diǎn bàn dào .",
+      "en": "We watch the film at eight; I arrive at half past seven.",
+      "prompt": "几点看电影？",
+      "promptPy": "jǐ diǎn kàn diàn yǐng ?",
+      "choices": [
+        {
+          "zh": "七点",
+          "py": "qī diǎn",
+          "en": "Seven"
+        },
+        {
+          "zh": "八点",
+          "py": "bā diǎn",
+          "en": "Eight"
+        },
+        {
+          "zh": "七点半",
+          "py": "qī diǎn bàn",
+          "en": "Half past seven"
+        },
+        {
+          "zh": "八点半",
+          "py": "bā diǎn bàn",
+          "en": "Half past eight"
+        }
+      ],
+      "answer": "八点",
+      "explanation": "Watching the film is planned for 八点; 七点半 is the visitor’s arrival.",
+      "id": "hsk1-bank-numbers-14",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "哥哥喝了半杯奶",
+      "py": "gē gē hē le bàn bēi nǎi",
+      "en": "My elder brother drank half a glass of milk.",
+      "prompt": "谁喝了半杯奶？",
+      "promptPy": "shéi hē le bàn bēi nǎi ?",
+      "segments": [
+        {
+          "zh": "哥哥",
+          "py": "gē gē",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "喝了",
+          "py": "hē le",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "半杯奶",
+          "py": "bàn bēi nǎi",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "哥哥喝了半杯奶",
+          "py": "gē gē hē le bàn bēi nǎi",
+          "en": "My elder brother drank half a glass of milk."
+        },
+        {
+          "zh": "半杯奶喝了哥哥",
+          "py": "bàn bēi nǎi hē le gē gē",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "哥哥半喝了杯奶",
+          "py": "gē gē bàn hē le bēi nǎi",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "哥哥喝半了杯奶",
+          "py": "gē gē hē bàn le bēi nǎi",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "哥哥喝了半杯奶",
+      "explanation": "The subject is 哥哥; 半杯奶 stays together after 喝了.",
+      "id": "hsk1-bank-numbers-15",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "我买五个包子，朋友买两个。",
+      "py": "wǒ mǎi wǔ gè bāo zi , péng you mǎi liǎng gè .",
+      "en": "I buy five steamed buns; my friend buys two.",
+      "prompt": "朋友买几个包子？",
+      "promptPy": "péng you mǎi jǐ gè bāo zi ?",
+      "choices": [
+        {
+          "zh": "五个",
+          "py": "wǔ gè",
+          "en": "Five"
+        },
+        {
+          "zh": "七个",
+          "py": "qī gè",
+          "en": "Seven"
+        },
+        {
+          "zh": "三个",
+          "py": "sān gè",
+          "en": "Three"
+        },
+        {
+          "zh": "两个",
+          "py": "liǎng gè",
+          "en": "Two"
+        }
+      ],
+      "answer": "两个",
+      "explanation": "The question asks only about the friend, who buys two, not the group’s total.",
+      "id": "hsk1-bank-numbers-16",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "一杯奶和半杯水，我都喝了。",
+      "py": "yī bēi nǎi hé bàn bēi shuǐ , wǒ dōu hē le .",
+      "en": "I drank one glass of milk and half a glass of water.",
+      "prompt": "我喝了多少水？",
+      "promptPy": "wǒ hē le duō shao shuǐ ?",
+      "choices": [
+        {
+          "zh": "两杯",
+          "py": "liǎng bēi",
+          "en": "Two cups"
+        },
+        {
+          "zh": "三杯",
+          "py": "sān bēi",
+          "en": "Three cups"
+        },
+        {
+          "zh": "半杯",
+          "py": "bàn bēi",
+          "en": "Half a cup"
+        },
+        {
+          "zh": "一杯",
+          "py": "yī bēi",
+          "en": "One cup"
+        }
+      ],
+      "answer": "半杯",
+      "explanation": "Water is 半杯; the full cup contains milk.",
+      "id": "hsk1-bank-numbers-17",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "这本书是一百块",
+      "py": "zhè běn shū shì yī bǎi kuài",
+      "en": "This book costs one hundred yuan.",
+      "prompt": "什么是一百块？",
+      "promptPy": "shén me shì yī bǎi kuài ?",
+      "segments": [
+        {
+          "zh": "这本书",
+          "py": "zhè běn shū",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "一百块",
+          "py": "yī bǎi kuài",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "这本书一百块是",
+          "py": "zhè běn shū yī bǎi kuài shì",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "这本书是一百块",
+          "py": "zhè běn shū shì yī bǎi kuài",
+          "en": "This book costs one hundred yuan."
+        },
+        {
+          "zh": "一百块这本书是",
+          "py": "yī bǎi kuài zhè běn shū shì",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "是这本书一百块",
+          "py": "shì zhè běn shū yī bǎi kuài",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "这本书是一百块",
+      "explanation": "Keep the book phrase and 一百块 whole. 是 introduces the stated price in this exchange.",
+      "id": "hsk1-bank-numbers-18",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "我先吃晚饭，再去学校。",
+      "py": "wǒ xiān chī wǎn fàn , zài qù xué xiào .",
+      "en": "I eat dinner first, then go to school.",
+      "prompt": "先做什么？",
+      "promptPy": "xiān zuò shén me ?",
+      "choices": [
+        {
+          "zh": "吃晚饭",
+          "py": "chī wǎn fàn",
+          "en": "Eat dinner"
+        },
+        {
+          "zh": "去学校",
+          "py": "qù xué xiào",
+          "en": "Go to school"
+        },
+        {
+          "zh": "看电影",
+          "py": "kàn diàn yǐng",
+          "en": "Watch a film"
+        },
+        {
+          "zh": "买衣服",
+          "py": "mǎi yī fú",
+          "en": "Buy clothes"
+        }
+      ],
+      "answer": "吃晚饭",
+      "explanation": "先 marks eating dinner as the first action; school comes after 再.",
+      "id": "hsk1-bank-daily-01",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "我坐车去上课，回来走路。",
+      "py": "wǒ zuò chē qù shàng kè , huí lái zǒu lù .",
+      "en": "I go to class by vehicle and walk back.",
+      "prompt": "去上课怎么走？",
+      "promptPy": "qù shàng kè zěn me zǒu ?",
+      "choices": [
+        {
+          "zh": "走路",
+          "py": "zǒu lù",
+          "en": "Walk"
+        },
+        {
+          "zh": "坐飞机",
+          "py": "zuò fēi jī",
+          "en": "Fly"
+        },
+        {
+          "zh": "不去",
+          "py": "bù qù",
+          "en": "Not go"
+        },
+        {
+          "zh": "坐车",
+          "py": "zuò chē",
+          "en": "Go by vehicle"
+        }
+      ],
+      "answer": "坐车",
+      "explanation": "The outward journey is by vehicle; walking belongs to the return journey. The specific vehicle is not stated.",
+      "id": "hsk1-bank-daily-02",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我在家看书",
+      "py": "wǒ zài jiā kàn shū",
+      "en": "I read at home.",
+      "prompt": "谁在家看书？",
+      "promptPy": "shéi zài jiā kàn shū ?",
+      "segments": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "在家",
+          "py": "zài jiā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "看书",
+          "py": "kàn shū",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "我书在家看",
+          "py": "wǒ shū zài jiā kàn",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "在我看家书",
+          "py": "zài wǒ kàn jiā shū",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "我在家看书",
+          "py": "wǒ zài jiā kàn shū",
+          "en": "I read at home."
+        },
+        {
+          "zh": "看书在我家",
+          "py": "kàn shū zài wǒ jiā",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "我在家看书",
+      "explanation": "Put the location 在家 before the action 看书 in ordinary subject–location–verb order.",
+      "id": "hsk1-bank-daily-03",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "书店在学校西边，商店在南边。",
+      "py": "shū diàn zài xué xiào xī biān , shāng diàn zài nán biān .",
+      "en": "The bookshop is west of the school; the shop is south.",
+      "prompt": "书店在哪里？",
+      "promptPy": "shū diàn zài nǎ lǐ ?",
+      "choices": [
+        {
+          "zh": "北边",
+          "py": "běi biān",
+          "en": "North side"
+        },
+        {
+          "zh": "西边",
+          "py": "xī biān",
+          "en": "West side"
+        },
+        {
+          "zh": "南边",
+          "py": "nán biān",
+          "en": "South side"
+        },
+        {
+          "zh": "东边",
+          "py": "dōng biān",
+          "en": "East side"
+        }
+      ],
+      "answer": "西边",
+      "explanation": "The bookshop is 西边; 南边 identifies the other shop.",
+      "id": "hsk1-bank-daily-04",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "妈妈在楼上看书，爸爸在楼下做饭。",
+      "py": "mā mā zài lóu shàng kàn shū , bà bà zài lóu xià zuò fàn .",
+      "en": "Mother reads upstairs; father cooks downstairs.",
+      "prompt": "谁在楼下？",
+      "promptPy": "shéi zài lóu xià ?",
+      "choices": [
+        {
+          "zh": "爸爸",
+          "py": "bà bà",
+          "en": "Father"
+        },
+        {
+          "zh": "妈妈",
+          "py": "mā mā",
+          "en": "Mother"
+        },
+        {
+          "zh": "妹妹",
+          "py": "mèi mei",
+          "en": "Younger sister"
+        },
+        {
+          "zh": "老师",
+          "py": "lǎo shī",
+          "en": "Teacher"
+        }
+      ],
+      "answer": "爸爸",
+      "explanation": "Father’s cooking is located downstairs; mother’s reading is upstairs.",
+      "id": "hsk1-bank-daily-05",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "朋友不想吃包子",
+      "py": "péng you bù xiǎng chī bāo zi",
+      "en": "My friend does not want steamed buns.",
+      "prompt": "谁不想吃包子？",
+      "promptPy": "shéi bù xiǎng chī bāo zi ?",
+      "segments": [
+        {
+          "zh": "朋友",
+          "py": "péng you",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不想吃",
+          "py": "bù xiǎng chī",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "包子",
+          "py": "bāo zi",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "包子不想吃朋友",
+          "py": "bāo zi bù xiǎng chī péng you",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "朋友包子不想吃",
+          "py": "péng you bāo zi bù xiǎng chī",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "不朋友想吃包子",
+          "py": "bù péng you xiǎng chī bāo zi",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "朋友不想吃包子",
+          "py": "péng you bù xiǎng chī bāo zi",
+          "en": "My friend does not want steamed buns."
+        }
+      ],
+      "answer": "朋友不想吃包子",
+      "explanation": "不 negates 想吃 before the object 包子; it does not negate the person.",
+      "id": "hsk1-bank-daily-06",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "昨天我没去学校，在家看书。",
+      "py": "zuó tiān wǒ méi qù xué xiào , zài jiā kàn shū .",
+      "en": "I did not go to school yesterday; I read at home.",
+      "prompt": "昨天我在哪里？",
+      "promptPy": "zuó tiān wǒ zài nǎ lǐ ?",
+      "choices": [
+        {
+          "zh": "在商店",
+          "py": "zài shāng diàn",
+          "en": "At the shop"
+        },
+        {
+          "zh": "在车站",
+          "py": "zài chē zhàn",
+          "en": "At the station"
+        },
+        {
+          "zh": "在家",
+          "py": "zài jiā",
+          "en": "At home"
+        },
+        {
+          "zh": "在学校",
+          "py": "zài xué xiào",
+          "en": "At school"
+        }
+      ],
+      "answer": "在家",
+      "explanation": "The speaker says 在家 and explicitly denies going to school.",
+      "id": "hsk1-bank-daily-07",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "我不喝牛奶，给我一杯茶吧。",
+      "py": "wǒ bù hē niú nǎi , gěi wǒ yī bēi chá ba .",
+      "en": "I do not drink milk; give me a cup of tea, please.",
+      "prompt": "我想喝什么？",
+      "promptPy": "wǒ xiǎng hē shén me ?",
+      "choices": [
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "Water"
+        },
+        {
+          "zh": "茶",
+          "py": "chá",
+          "en": "Tea"
+        },
+        {
+          "zh": "牛奶",
+          "py": "niú nǎi",
+          "en": "Milk"
+        },
+        {
+          "zh": "奶",
+          "py": "nǎi",
+          "en": "Milk, short form"
+        }
+      ],
+      "answer": "茶",
+      "explanation": "The request is for 茶, while milk is explicitly declined.",
+      "id": "hsk1-bank-daily-08",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "妈妈在楼上读书",
+      "py": "mā mā zài lóu shàng dú shū",
+      "en": "Mother reads upstairs.",
+      "prompt": "谁在楼上读书？",
+      "promptPy": "shéi zài lóu shàng dú shū ?",
+      "segments": [
+        {
+          "zh": "妈妈",
+          "py": "mā mā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "在楼上",
+          "py": "zài lóu shàng",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "读书",
+          "py": "dú shū",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "妈妈在楼上读书",
+          "py": "mā mā zài lóu shàng dú shū",
+          "en": "Mother reads upstairs."
+        },
+        {
+          "zh": "妈妈书在楼上读",
+          "py": "mā mā shū zài lóu shàng dú",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "读书妈妈在楼上",
+          "py": "dú shū mā mā zài lóu shàng",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "楼上读在妈妈书",
+          "py": "lóu shàng dú zài mā mā shū",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "妈妈在楼上读书",
+      "explanation": "Keep 在楼上 as the location phrase and 读书 as the action after 妈妈.",
+      "id": "hsk1-bank-daily-09",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "弟弟想吃米饭，不想吃包子。",
+      "py": "dì di xiǎng chī mǐ fàn , bù xiǎng chī bāo zi .",
+      "en": "My younger brother wants rice, not steamed buns.",
+      "prompt": "弟弟想吃什么？",
+      "promptPy": "dì di xiǎng chī shén me ?",
+      "choices": [
+        {
+          "zh": "包子",
+          "py": "bāo zi",
+          "en": "Steamed buns"
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐ guǒ",
+          "en": "Fruit"
+        },
+        {
+          "zh": "面包",
+          "py": "miàn bāo",
+          "en": "Bread"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐ fàn",
+          "en": "Rice"
+        }
+      ],
+      "answer": "米饭",
+      "explanation": "米饭 is wanted; 包子 is explicitly declined.",
+      "id": "hsk1-bank-daily-10",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "这本书是新的，那本不是新的。",
+      "py": "zhè běn shū shì xīn de , nà běn bù shì xīn de .",
+      "en": "This book is new; that book is not new.",
+      "prompt": "哪本书是新的？",
+      "promptPy": "nǎ běn shū shì xīn de ?",
+      "choices": [
+        {
+          "zh": "两本",
+          "py": "liǎng běn",
+          "en": "Both books"
+        },
+        {
+          "zh": "三本",
+          "py": "sān běn",
+          "en": "Three books"
+        },
+        {
+          "zh": "这本",
+          "py": "zhè běn",
+          "en": "This one"
+        },
+        {
+          "zh": "那本",
+          "py": "nà běn",
+          "en": "That one"
+        }
+      ],
+      "answer": "这本",
+      "explanation": "这本 is identified as new; the second book is explicitly not new.",
+      "id": "hsk1-bank-daily-11",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "他昨天没上课",
+      "py": "tā zuó tiān méi shàng kè",
+      "en": "He did not attend class yesterday.",
+      "prompt": "谁昨天没上课？",
+      "promptPy": "shéi zuó tiān méi shàng kè ?",
+      "segments": [
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "昨天",
+          "py": "zuó tiān",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "没上课",
+          "py": "méi shàng kè",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "昨天上他没课",
+          "py": "zuó tiān shàng tā méi kè",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "他昨天没上课",
+          "py": "tā zuó tiān méi shàng kè",
+          "en": "He did not attend class yesterday."
+        },
+        {
+          "zh": "他昨天没课上",
+          "py": "tā zuó tiān méi kè shàng",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "没他昨天上课",
+          "py": "méi tā zuó tiān shàng kè",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "他昨天没上课",
+      "explanation": "The time precedes 没上课; 没 negates the past action.",
+      "id": "hsk1-bank-daily-12",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "下雨了，我们今天不出去。",
+      "py": "xià yǔ le , wǒ men jīn tiān bù chū qù .",
+      "en": "It is raining; we are not going out today.",
+      "prompt": "今天出去吗？",
+      "promptPy": "jīn tiān chū qù ma ?",
+      "choices": [
+        {
+          "zh": "不出去",
+          "py": "bù chū qù",
+          "en": "Not going out"
+        },
+        {
+          "zh": "现在出去",
+          "py": "xiàn zài chū qù",
+          "en": "Go out now"
+        },
+        {
+          "zh": "先出去",
+          "py": "xiān chū qù",
+          "en": "Go out first"
+        },
+        {
+          "zh": "一起出去",
+          "py": "yì qǐ chū qù",
+          "en": "Go out together"
+        }
+      ],
+      "answer": "不出去",
+      "explanation": "今天不出去 directly states the plan for today.",
+      "id": "hsk1-bank-daily-13",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "我们在学校前边等你，不在后边。",
+      "py": "wǒ men zài xué xiào qián biān děng nǐ , bù zài hòu biān .",
+      "en": "We wait for you in front of the school, not behind it.",
+      "prompt": "我们在哪里等？",
+      "promptPy": "wǒ men zài nǎ lǐ děng ?",
+      "choices": [
+        {
+          "zh": "学校后边",
+          "py": "xué xiào hòu biān",
+          "en": "Behind school"
+        },
+        {
+          "zh": "学校里边",
+          "py": "xué xiào lǐ bian",
+          "en": "Inside school"
+        },
+        {
+          "zh": "学校上边",
+          "py": "xué xiào shàng biān",
+          "en": "Above school"
+        },
+        {
+          "zh": "学校前边",
+          "py": "xué xiào qián biān",
+          "en": "In front of school"
+        }
+      ],
+      "answer": "学校前边",
+      "explanation": "前边 is explicitly affirmed and 后边 denied.",
+      "id": "hsk1-bank-daily-14",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我们一起去学校",
+      "py": "wǒ men yì qǐ qù xué xiào",
+      "en": "We go to school together.",
+      "prompt": "谁一起去学校？",
+      "promptPy": "shéi yì qǐ qù xué xiào ?",
+      "segments": [
+        {
+          "zh": "我们",
+          "py": "wǒ men",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "一起",
+          "py": "yì qǐ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "去学校",
+          "py": "qù xué xiào",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "我们去一起学校",
+          "py": "wǒ men qù yì qǐ xué xiào",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "一起我们学校去",
+          "py": "yì qǐ wǒ men xué xiào qù",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "我们一起去学校",
+          "py": "wǒ men yì qǐ qù xué xiào",
+          "en": "We go to school together."
+        },
+        {
+          "zh": "学校一起去我们",
+          "py": "xué xiào yì qǐ qù wǒ men",
+          "en": "Alternative word order"
+        }
+      ],
+      "answer": "我们一起去学校",
+      "explanation": "一起 modifies the action 去学校 after the subject in the ordinary order requested.",
+      "id": "hsk1-bank-daily-15",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "门开着，朋友在门外等我。",
+      "py": "mén kāi zhe , péng you zài mén wài děng wǒ .",
+      "en": "The door is open; my friend is waiting outside it.",
+      "prompt": "朋友在哪里？",
+      "promptPy": "péng you zài nǎ lǐ ?",
+      "choices": [
+        {
+          "zh": "楼下",
+          "py": "lóu xià",
+          "en": "Downstairs"
+        },
+        {
+          "zh": "门外",
+          "py": "mén wài",
+          "en": "Outside the door"
+        },
+        {
+          "zh": "门里",
+          "py": "mén lǐ",
+          "en": "Inside the door"
+        },
+        {
+          "zh": "楼上",
+          "py": "lóu shàng",
+          "en": "Upstairs"
+        }
+      ],
+      "answer": "门外",
+      "explanation": "The friend is 门外; an open door does not establish that they entered.",
+      "id": "hsk1-bank-daily-16",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "今天我不买衣服，我买书。",
+      "py": "jīn tiān wǒ bù mǎi yī fú , wǒ mǎi shū .",
+      "en": "Today I do not buy clothes; I buy books.",
+      "prompt": "今天我买什么？",
+      "promptPy": "jīn tiān wǒ mǎi shén me ?",
+      "choices": [
+        {
+          "zh": "书",
+          "py": "shū",
+          "en": "Books"
+        },
+        {
+          "zh": "衣服",
+          "py": "yī fú",
+          "en": "Clothes"
+        },
+        {
+          "zh": "杯子",
+          "py": "bēi zi",
+          "en": "Cups"
+        },
+        {
+          "zh": "米饭",
+          "py": "mǐ fàn",
+          "en": "Rice"
+        }
+      ],
+      "answer": "书",
+      "explanation": "Books are the stated purchase; clothes are explicitly excluded.",
+      "id": "hsk1-bank-daily-17",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "爸爸做了晚饭",
+      "py": "bà bà zuò le wǎn fàn",
+      "en": "Father made dinner.",
+      "prompt": "谁做了晚饭？",
+      "promptPy": "shéi zuò le wǎn fàn ?",
+      "segments": [
+        {
+          "zh": "爸爸",
+          "py": "bà bà",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "做了",
+          "py": "zuò le",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "晚饭",
+          "py": "wǎn fàn",
+          "en": "Sentence part"
+        }
+      ],
+      "choices": [
+        {
+          "zh": "晚饭做了爸爸",
+          "py": "wǎn fàn zuò le bà bà",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "爸爸晚了做饭",
+          "py": "bà bà wǎn le zuò fàn",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "爸爸了晚饭做",
+          "py": "bà bà le wǎn fàn zuò",
+          "en": "Alternative word order"
+        },
+        {
+          "zh": "爸爸做了晚饭",
+          "py": "bà bà zuò le wǎn fàn",
+          "en": "Father made dinner."
+        }
+      ],
+      "answer": "爸爸做了晚饭",
+      "explanation": "爸爸 is the cook and 晚饭 the thing made; 了 follows 做.",
+      "id": "hsk1-bank-daily-18",
+      "unit": "sample"
+    }
+  ]
+}

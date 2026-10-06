@@ -43,6 +43,11 @@ it("requires a dictionary-backed question and correct ordering segments", () => 
       { zh: "我水喝", py: "wǒ shuǐ hē", en: "Scrambled: I / water / drink." },
     ] };
   expect(validateHskPack(pack, words)).toEqual([]);
+  const changed = structuredClone(pack);
+  changed.items[2].choices[1] = { zh: "我喝茶", py: "wǒ hē chá", en: "I drink tea." };
+  expect(validateHskPack(changed, words)).toEqual(expect.arrayContaining([
+    expect.stringContaining("ordering choice changes"),
+  ]));
   pack.items[0].promptPy = "hē shū";
   pack.items[2].segments!.reverse();
   expect(validateHskPack(pack, words)).toEqual(expect.arrayContaining([

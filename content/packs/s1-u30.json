@@ -1,0 +1,1217 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u30",
+    "stage": 1,
+    "order": 30,
+    "title": "My first month here",
+    "titleZh": "在这里的第一个月",
+    "canDo": [
+      "Write a concrete first-month recap",
+      "Invite a neighbour in and make a simple request",
+      "Distinguish descriptions from questions and requests"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u29"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u30-w01",
+      "hanzi": "还",
+      "pinyin": "huán",
+      "meaning": "to return; give back",
+      "meaningVi": "trả lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我明天还你的课本。",
+        "py": "wǒ míng tiān huán nǐ de kè běn .",
+        "en": "I will return your textbook tomorrow."
+      },
+      "usageNote": "[GF2021:L1:3499] Source entry: 还; huán; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w02",
+      "hanzi": "们",
+      "pinyin": "men",
+      "meaning": "neutral group suffix in 朋友们",
+      "meaningVi": "hậu tố chỉ nhóm trong 朋友们",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "朋友们来我家。",
+        "py": "péng you men lái wǒ jiā .",
+        "en": "My friends come to my home."
+      },
+      "usageNote": "Suffix, not a standalone spoken word. The official source entry is 们（朋友们）. 们 marks a group of people or pronouns, as in 朋友们; do not add it after a numeral and classifier."
+    },
+    {
+      "id": "s1-u30-w03",
+      "hanzi": "面条儿",
+      "pinyin": "miàn tiáor",
+      "meaning": "noodles, with a northern rhotic ending",
+      "meaningVi": "mì sợi, cách nói có âm r ở miền bắc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天我们吃面条儿。",
+        "py": "jīn tiān wǒ men chī miàn tiáor .",
+        "en": "Today we are having noodles."
+      },
+      "usageNote": "[GF2021:L1:5588] Source entry: 面条儿; miàntiáor; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w04",
+      "hanzi": "进来",
+      "pinyin": "jìn lái",
+      "meaning": "to come in",
+      "meaningVi": "đi vào phía người nói",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "朋友从门外进来。",
+        "py": "péng you cóng mén wài jìn lái .",
+        "en": "My friend comes in from outside the door."
+      },
+      "usageNote": "[GF2021:L1:4298] Source entry: 进来; jìn∥·lái; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w05",
+      "hanzi": "进去",
+      "pinyin": "jìn qù",
+      "meaning": "to go in",
+      "meaningVi": "đi vào xa người nói",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "他们从门外进去。",
+        "py": "tā men cóng mén wài jìn qù .",
+        "en": "They go in from outside the door."
+      },
+      "usageNote": "[GF2021:L1:4299] Source entry: 进去; jìn∥·qù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w06",
+      "hanzi": "请进",
+      "pinyin": "qǐng jìn",
+      "meaning": "please come in",
+      "meaningVi": "mời vào",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "门开了，请进。",
+        "py": "mén kāi le , qǐng jìn .",
+        "en": "The door is open; please come in."
+      },
+      "usageNote": "[GF2021:L1:6523] Source entry: 请进; qǐng jìn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w07",
+      "hanzi": "请坐",
+      "pinyin": "qǐng zuò",
+      "meaning": "please sit down",
+      "meaningVi": "mời ngồi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你口渴了？请坐，喝水吧。",
+        "py": "nǐ kǒu kě le ? qǐng zuò , hē shuǐ ba .",
+        "en": "Are you thirsty? Please sit down and have water."
+      },
+      "usageNote": "[GF2021:L1:6528] Source entry: 请坐; qǐng zuò; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w08",
+      "hanzi": "坐下",
+      "pinyin": "zuò xià",
+      "meaning": "to sit down",
+      "meaningVi": "ngồi xuống",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我坐下写今天的日记。",
+        "py": "wǒ zuò xià xiě jīn tiān de rì jì .",
+        "en": "I sit down to write today’s diary."
+      },
+      "usageNote": "[GF2021:L1:11079] Source entry: 坐下; zuò xia; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w09",
+      "hanzi": "外",
+      "pinyin": "wài",
+      "meaning": "outside",
+      "meaningVi": "bên ngoài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "门外有一棵树。",
+        "py": "mén wài yǒu yī kē shù .",
+        "en": "There is a tree outside the door."
+      },
+      "usageNote": "[GF2021:L1:8239] Source entry: 外; wài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w10",
+      "hanzi": "工人",
+      "pinyin": "gōng rén",
+      "meaning": "worker",
+      "meaningVi": "công nhân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我的邻居是工人。",
+        "py": "wǒ de lín jū shì gōng rén .",
+        "en": "My neighbour is a worker."
+      },
+      "usageNote": "[GF2021:L1:2761] Source entry: 工人; gōngrén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w11",
+      "hanzi": "树",
+      "pinyin": "shù",
+      "meaning": "tree",
+      "meaningVi": "cây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这棵树下有两个孩子。",
+        "py": "zhè kē shù xià yǒu liǎng gè hái zi .",
+        "en": "There are two children under this tree."
+      },
+      "usageNote": "[GF2021:L1:7487] Source entry: 树; shù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w12",
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "meaning": "neutral continuing-state particle",
+      "meaningVi": "trợ từ chỉ trạng thái đang tiếp diễn",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "门开着，请进。",
+        "py": "mén kāi zhe , qǐng jìn .",
+        "en": "The door is open; please come in."
+      },
+      "usageNote": "[GF2021:L1:10340] Source entry: 着; zhe; 助. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w13",
+      "hanzi": "小孩儿",
+      "pinyin": "xiǎo háir",
+      "meaning": "young child, with a northern rhotic ending",
+      "meaningVi": "trẻ nhỏ, cách nói có âm r ở miền bắc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那个小孩儿在树下玩。",
+        "py": "nà gè xiǎo háir zài shù xià wán .",
+        "en": "That young child is playing under the tree."
+      },
+      "usageNote": "[GF2021:L1:8894] Source entry: 小孩儿; xiǎoháir; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w14",
+      "hanzi": "点",
+      "pinyin": "diǎn",
+      "meaning": "a little; classifier for a small amount",
+      "meaningVi": "một ít; lượng nhỏ",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请喝点水。",
+        "py": "qǐng hē diǎn shuǐ .",
+        "en": "Please have a little water."
+      },
+      "usageNote": "[GF2021:L1:1801] Source entry: 点; diǎn; 量、动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w15",
+      "hanzi": "子",
+      "pinyin": "zi",
+      "meaning": "neutral noun suffix in 桌子",
+      "meaningVi": "hậu tố danh từ trong 桌子",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "桌子上有两个杯子。",
+        "py": "zhuō zi shàng yǒu liǎng gè bēi zi .",
+        "en": "There are two cups on the table."
+      },
+      "usageNote": "Suffix, not a standalone spoken word. The official source entry is 子（桌子）. 子 is a neutral suffix in 桌子; this differs from full-tone zǐ in other words."
+    },
+    {
+      "id": "s1-u30-w16",
+      "hanzi": "最后",
+      "pinyin": "zuì hòu",
+      "meaning": "last; finally",
+      "meaningVi": "cuối cùng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们最后一起洗杯子。",
+        "py": "wǒ men zuì hòu yì qǐ xǐ bēi zi .",
+        "en": "We wash the cups together at the end."
+      },
+      "usageNote": "[GF2021:L1:11038] Source entry: 最后; zuìhòu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s1-u30-w17",
+      "hanzi": "坏",
+      "pinyin": "huài",
+      "meaning": "bad; broken",
+      "meaningVi": "xấu; hỏng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个杯子坏了，别用。",
+        "py": "zhè gè bēi zi huài le , bié yòng .",
+        "en": "This cup is broken; do not use it."
+      },
+      "usageNote": "[GF2021:L1:3489] Source entry: 坏; huài; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "还",
+      "pinyin": "huán",
+      "meaning": "to return; also read hái for still or also",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "还",
+          "role": "whole",
+          "gloss": "to return; also read hái for still or also"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 还 in 还 / 还是. This usage note is not an origin or decomposition claim. Read huán in 还书 (return a book); read hái in 还在学习 (still studying). The word context determines the reading.",
+      "words": [
+        {
+          "w": "还",
+          "p": "hái",
+          "m": "to return"
+        },
+        {
+          "w": "还是",
+          "p": "háishi",
+          "m": "or (in questions)"
+        }
+      ]
+    },
+    {
+      "hanzi": "进",
+      "pinyin": "jìn",
+      "meaning": "to enter",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "进",
+          "role": "whole",
+          "gloss": "to enter"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 进 in 进来 / 进去. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "进来",
+          "p": "jìn lái",
+          "m": "to come in"
+        },
+        {
+          "w": "进去",
+          "p": "jìn qù",
+          "m": "to go in"
+        }
+      ]
+    },
+    {
+      "hanzi": "渴",
+      "pinyin": "kě",
+      "meaning": "thirsty",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "渴",
+          "role": "whole",
+          "gloss": "thirsty"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 渴 in 渴 / 口渴. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "渴",
+          "p": "kě",
+          "m": "thirsty"
+        },
+        {
+          "w": "口渴",
+          "p": "kǒu kě",
+          "m": "thirsty"
+        }
+      ]
+    },
+    {
+      "hanzi": "块",
+      "pinyin": "kuài",
+      "meaning": "piece; yuan classifier",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "块",
+          "role": "whole",
+          "gloss": "piece; yuan classifier"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 块 in 块 / 一块儿. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "块",
+          "p": "kuài",
+          "m": "yuan (spoken)"
+        },
+        {
+          "w": "一块儿",
+          "p": "yī kuàir",
+          "m": "together"
+        }
+      ]
+    },
+    {
+      "hanzi": "树",
+      "pinyin": "shù",
+      "meaning": "tree",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "树",
+          "role": "whole",
+          "gloss": "tree"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 树 in 树. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "树",
+          "p": "shù",
+          "m": "tree"
+        }
+      ]
+    },
+    {
+      "hanzi": "坏",
+      "pinyin": "huài",
+      "meaning": "bad; broken",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "坏",
+          "role": "whole",
+          "gloss": "bad; broken"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 坏 in 坏. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "坏",
+          "p": "huài",
+          "m": "bad; broken"
+        }
+      ]
+    },
+    {
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "meaning": "continuing-state particle",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "着",
+          "role": "whole",
+          "gloss": "continuing-state particle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 着 in 着 / 着急. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "着",
+          "p": "zhe",
+          "m": "neutral continuing-state particle"
+        },
+        {
+          "w": "着急",
+          "p": "zháo jí",
+          "m": "to be anxious; in a hurry"
+        }
+      ]
+    },
+    {
+      "hanzi": "条",
+      "pinyin": "tiáo",
+      "meaning": "strip; classifier for long things",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "条",
+          "role": "whole",
+          "gloss": "strip; classifier for long things"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 条 in 面条儿 / 条. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "面条儿",
+          "p": "miàn tiáor",
+          "m": "noodles, with a northern rhotic ending"
+        },
+        {
+          "w": "条",
+          "p": "tiáo",
+          "m": "classifier for long things such as roads"
+        }
+      ]
+    },
+    {
+      "hanzi": "最",
+      "pinyin": "zuì",
+      "meaning": "most",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "最",
+          "role": "whole",
+          "gloss": "most"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 最 in 最后 / 最. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "最后",
+          "p": "zuì hòu",
+          "m": "last; finally"
+        },
+        {
+          "w": "最",
+          "p": "zuì",
+          "m": "most"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u30-g一25",
+      "pattern": "subject + verb phrase / adjective phrase",
+      "purpose": "Say what someone does or what something is like",
+      "explanation": "A predicate can be a verb or verb phrase: 朋友们进来; 我学习汉语. It can also be an adjective phrase: 邻居很热情; 杯子坏了. Match the subject to the action or property. 是 is not required before an ordinary adjective predicate. A word’s category is not a command to use it in every possible predicate position.",
+      "examples": [
+        {
+          "zh": "朋友们进来，我们一起吃面条儿。",
+          "py": "péng you men jìn lái , wǒ men yì qǐ chī miàn tiáor .",
+          "en": "Our friends come in; we have noodles together."
+        },
+        {
+          "zh": "邻居很热情，杯子坏了。",
+          "py": "lín jū hěn rè qíng , bēi zi huài le .",
+          "en": "The neighbours are welcoming; the cup is broken."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "邻居是很热情。",
+          "right": "邻居很热情。",
+          "why": "A neutral adjective description does not need 是."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u30-g一32",
+      "pattern": "positive statement · negative statement",
+      "purpose": "Report a fact without turning it into a question",
+      "explanation": "A statement gives information: 我住在这里; 我不是工人. It normally ends with a full stop, not a question particle 吗. Use 不 for present negation of 是 or a general habit, and 没 for an action that did not happen. A statement can include 了 or an appropriate adverb. Do not infer that someone completed a course merely because they say 我学习汉语.",
+      "examples": [
+        {
+          "zh": "我住在这里，我还在学习汉语。",
+          "py": "wǒ zhù zài zhè lǐ , wǒ hái zài xué xí hàn yǔ .",
+          "en": "I live here; I am still learning Mandarin."
+        },
+        {
+          "zh": "我不是工人，昨天没去学校。",
+          "py": "wǒ bù shì gōng rén , zuó tiān méi qù xué xiào .",
+          "en": "I am not a worker; I did not go to school yesterday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我住在这里吗。",
+          "right": "我住在这里。",
+          "why": "Remove 吗 when stating where you live."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u30-g一36",
+      "pattern": "identity / category · defining characteristic · presence at a place",
+      "purpose": "Use 是 with the intended relation",
+      "explanation": "Identity/category: 我的邻居是工人. A characteristic can use a noun phrase: 她是一个热情的人; this differs from the direct adjective predicate 她很热情. A place + 是 + noun phrase describes what occupies it: 门外是一棵树; 前边是学校. Compare 门外有一棵树, which introduces something present. These location descriptions require a clear scene, not a blanket substitution of 是 for every 有.",
+      "examples": [
+        {
+          "zh": "我的邻居是工人。",
+          "py": "wǒ de lín jū shì gōng rén .",
+          "en": "My neighbour is a worker."
+        },
+        {
+          "zh": "她是一个热情的人。",
+          "py": "tā shì yī gè rè qíng de rén .",
+          "en": "She is a welcoming person."
+        },
+        {
+          "zh": "门外是一棵树，前边是学校。",
+          "py": "mén wài shì yī kē shù , qián biān shì xué xiào .",
+          "en": "Outside the door is a tree; ahead is the school."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我的邻居有工人。",
+          "right": "我的邻居是工人。",
+          "why": "Use 是 to identify the neighbour’s category, not 有."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u30-d",
+    "title": "A neighbour visits",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find who visits, what the host offers, and what must not be used.",
+    "lines": [
+      {
+        "zh": "你在这里住一个月了，还在学习汉语吗？",
+        "py": "nǐ zài zhè lǐ zhù yī gè yuè le , hái zài xué xí hàn yǔ ma ?",
+        "en": "You have lived here for a month. Are you still studying Mandarin?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还在学习。朋友们常常来，我们一起读书。",
+        "py": "hái zài xué xí . péng you men cháng cháng lái , wǒ men yì qǐ dú shū .",
+        "en": "I still am. My friends often visit; we read together.",
+        "speaker": "b"
+      },
+      {
+        "zh": "门开着，我可以进来吗？",
+        "py": "mén kāi zhe , wǒ kě yǐ jìn lái ma ?",
+        "en": "The door is open. May I come in?",
+        "speaker": "a"
+      },
+      {
+        "zh": "请进，请坐！先喝点水。",
+        "py": "qǐng jìn , qǐng zuò ! xiān hē diǎn shuǐ .",
+        "en": "Please come in and sit down! Have a little water first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "门外的小孩儿是谁？他在树下玩。",
+        "py": "mén wài de xiǎo háir shì shéi ? tā zài shù xià wán .",
+        "en": "Who is the young child outside? He is playing under the tree.",
+        "speaker": "a"
+      },
+      {
+        "zh": "是邻居的儿子。那个小孩儿常和小朋友一起玩。",
+        "py": "shì lín jū de ér zi . nà gè xiǎo háir cháng hé xiǎo péng yǒu yì qǐ wán .",
+        "en": "He is my neighbour’s son. That young child often plays with other children.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你的邻居是工人吗？",
+        "py": "nǐ de lín jū shì gōng rén ma ?",
+        "en": "Is your neighbour a worker?",
+        "speaker": "a"
+      },
+      {
+        "zh": "是，她很热情，也常照顾孩子。我们今天吃面条儿。",
+        "py": "shì , tā hěn rè qíng , yě cháng zhào gù hái zi . wǒ men jīn tiān chī miàn tiáor .",
+        "en": "Yes, she is welcoming and often looks after the children. We are having noodles today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "桌子上的两个杯子可以用吗？",
+        "py": "zhuō zi shàng de liǎng gè bēi zi kě yǐ yòng ma ?",
+        "en": "Can we use the two cups on the table?",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个坏了，别用。那个是好的，你坐下喝水吧。",
+        "py": "zhè gè huài le , bié yòng . nà gè shì hǎo de , nǐ zuò xià hē shuǐ ba .",
+        "en": "This one is broken; do not use it. That one is fine. Sit down and have water.",
+        "speaker": "b"
+      },
+      {
+        "zh": "大家从门外进去吃饭，最后洗杯子，对吗？",
+        "py": "dà jiā cóng mén wài jìn qù chī fàn , zuì hòu xǐ bēi zi , duì ma ?",
+        "en": "Everyone goes inside to eat, then washes the cups at the end, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。这本书是你的，我明天还给你。",
+        "py": "duì . zhè běn shū shì nǐ de , wǒ míng tiān huán gěi nǐ .",
+        "en": "Right. This book is yours; I will return it tomorrow.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is happening?",
+        "choices": [
+          "A neighbour is being welcomed into the home",
+          "A formal exam is starting",
+          "The host is moving away"
+        ],
+        "answer": "A neighbour is being welcomed into the home"
+      },
+      {
+        "type": "detail",
+        "q": "Which cup must not be used?",
+        "choices": [
+          "The broken one",
+          "Both cups",
+          "The good one"
+        ],
+        "answer": "The broken one"
+      },
+      {
+        "type": "inference",
+        "q": "Does 还在学习 mean the host claims Mandarin mastery?",
+        "choices": [
+          "No, study is continuing",
+          "Yes, all learning is finished",
+          "The host has stopped studying"
+        ],
+        "answer": "No, study is continuing"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "邻居",
+        "pinyin": "lín jū",
+        "meaning": "neighbour"
+      },
+      {
+        "hanzi": "照顾",
+        "pinyin": "zhào gù",
+        "meaning": "to look after"
+      },
+      {
+        "hanzi": "热情",
+        "pinyin": "rè qíng",
+        "meaning": "warm; welcoming"
+      },
+      {
+        "hanzi": "桌子",
+        "pinyin": "zhuō zi",
+        "meaning": "table"
+      },
+      {
+        "hanzi": "朋友们",
+        "pinyin": "péng you men",
+        "meaning": "friends, as a group"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u30-r",
+    "title": "My first month here",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read for the new routine and one practical problem, not a proficiency claim.",
+    "lines": [
+      {
+        "zh": "我在这里住一个月了，还在学习汉语。",
+        "py": "wǒ zài zhè lǐ zhù yī gè yuè le , hái zài xué xí hàn yǔ .",
+        "en": "I have lived here for a month and am still learning Mandarin."
+      },
+      {
+        "zh": "朋友们常来，我请他们进来，请坐，喝点水。",
+        "py": "péng you men cháng lái , wǒ qǐng tā men jìn lái , qǐng zuò , hē diǎn shuǐ .",
+        "en": "My friends often visit. I invite them in, ask them to sit and offer a little water."
+      },
+      {
+        "zh": "门外是一棵树，前边是学校。我的邻居是工人。",
+        "py": "mén wài shì yī kē shù , qián biān shì xué xiào . wǒ de lín jū shì gōng rén .",
+        "en": "Outside the door is a tree and ahead is the school. My neighbour is a worker."
+      },
+      {
+        "zh": "她很热情，她的儿子是个小孩儿，常在树下玩。",
+        "py": "tā hěn rè qíng , tā de ér zi shì gè xiǎo háir , cháng zài shù xià wán .",
+        "en": "She is welcoming. Her son is a young child who often plays under the tree."
+      },
+      {
+        "zh": "今天门开着，大家从门外进去吃面条儿。",
+        "py": "jīn tiān mén kāi zhe , dà jiā cóng mén wài jìn qù chī miàn tiáor .",
+        "en": "Today the door is open; everyone goes inside to have noodles."
+      },
+      {
+        "zh": "我坐下读日记，朋友们坐在桌子旁边。",
+        "py": "wǒ zuò xià dú rì jì , péng you men zuò zài zhuō zi páng biān .",
+        "en": "I sit down to read my diary; my friends sit beside the table."
+      },
+      {
+        "zh": "桌子上有两个杯子，一个坏了，另一个可以用。",
+        "py": "zhuō zi shàng yǒu liǎng gè bēi zi , yī gè huài le , lìng yī gè kě yǐ yòng .",
+        "en": "There are two cups on the table; one is broken and the other can be used."
+      },
+      {
+        "zh": "最后我们一起收桌子。朋友借我一本书，我明天还给她。我还想学新的词。",
+        "py": "zuì hòu wǒ men yì qǐ shōu zhuō zi . péng you jiè wǒ yī běn shū , wǒ míng tiān huán gěi tā . wǒ hái xiǎng xué xīn de cí .",
+        "en": "At the end we clear the table together. A friend lent me a book; I will return it tomorrow. I still want to learn new words."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the recap describe?",
+        "choices": [
+          "A new local routine and continuing study",
+          "A guarantee of exam success",
+          "A journey to the airport"
+        ],
+        "answer": "A new local routine and continuing study"
+      },
+      {
+        "type": "detail",
+        "q": "What is wrong with one cup?",
+        "choices": [
+          "It is broken",
+          "It is too heavy",
+          "It is not on the table"
+        ],
+        "answer": "It is broken"
+      },
+      {
+        "type": "inference",
+        "q": "What suggests learning continues?",
+        "choices": [
+          "The writer wants new words and diary entries",
+          "The neighbours are workers",
+          "There is a tree outside"
+        ],
+        "answer": "The writer wants new words and diary entries"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【朋友们】常来，我请他们进来，请坐，喝点水。",
+          "py": "péng you men cháng lái , wǒ qǐng tā men jìn lái , qǐng zuò , hē diǎn shuǐ .",
+          "en": "My friends often visit. I invite them in, ask them to sit and offer a little water."
+        },
+        {
+          "zh": "【最后】我们一起收桌子。朋友借我一本书，我明天还给她。我还想学新的词。",
+          "py": "zuì hòu wǒ men yì qǐ shōu zhuō zi . péng you jiè wǒ yī běn shū , wǒ míng tiān huán gěi tā . wǒ hái xiǎng xué xīn de cí .",
+          "en": "At the end we clear the table together. A friend lent me a book; I will return it tomorrow. I still want to learn new words."
+        }
+      ],
+      "bank": [
+        "朋友们",
+        "最后",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "邻居",
+        "pinyin": "lín jū",
+        "meaning": "neighbour"
+      },
+      {
+        "hanzi": "热情",
+        "pinyin": "rè qíng",
+        "meaning": "warm; welcoming"
+      },
+      {
+        "hanzi": "桌子",
+        "pinyin": "zhuō zi",
+        "meaning": "table"
+      },
+      {
+        "hanzi": "收",
+        "pinyin": "shōu",
+        "meaning": "to collect; clear away"
+      },
+      {
+        "hanzi": "借",
+        "pinyin": "jiè",
+        "meaning": "to lend; borrow"
+      },
+      {
+        "hanzi": "朋友们",
+        "pinyin": "péng you men",
+        "meaning": "friends, as a group"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u30-media",
+      "title": "A small place to begin",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse about study and company.",
+      "lines": [
+        {
+          "zh": "门外有树，树下有小孩儿。",
+          "py": "mén wài yǒu shù , shù xià yǒu xiǎo háir .",
+          "en": "A tree outside, a young child under it."
+        },
+        {
+          "zh": "门开着，朋友们进来，请进，请坐。",
+          "py": "mén kāi zhe , péng you men jìn lái , qǐng jìn , qǐng zuò .",
+          "en": "The door is open; friends come in. Come in, sit down."
+        },
+        {
+          "zh": "工人邻居请大家进去，一起吃面条儿。",
+          "py": "gōng rén lín jū qǐng dà jiā jìn qù , yì qǐ chī miàn tiáor .",
+          "en": "Our worker neighbour invites everyone in to have noodles together."
+        },
+        {
+          "zh": "口渴了，坐下喝点水。桌子旁有朋友们。",
+          "py": "kǒu kě le , zuò xià hē diǎn shuǐ . zhuō zi páng yǒu péng you men .",
+          "en": "Thirsty? Sit down, have a little water. Friends beside the table."
+        },
+        {
+          "zh": "杯子坏了，别用。换一个，再喝水。",
+          "py": "bēi zi huài le , bié yòng . huàn yī gè , zài hē shuǐ .",
+          "en": "A broken cup: do not use it. Take another, then have water."
+        },
+        {
+          "zh": "最后收桌子，还读书。一个月，不是最后。",
+          "py": "zuì hòu shōu zhuō zi , hái dú shū . yī gè yuè , bù shì zuì hòu .",
+          "en": "Clear the table at the end, keep reading. One month is not the end."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the last line suggest?",
+          "choices": [
+            "The first month is a beginning",
+            "Study is finished forever",
+            "The home is closing"
+          ],
+          "answer": "The first month is a beginning"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "邻居",
+          "pinyin": "lín jū",
+          "meaning": "neighbour"
+        },
+        {
+          "hanzi": "桌子",
+          "pinyin": "zhuō zi",
+          "meaning": "table"
+        },
+        {
+          "hanzi": "收",
+          "pinyin": "shōu",
+          "meaning": "to collect; clear away"
+        },
+        {
+          "hanzi": "朋友们",
+          "pinyin": "péng you men",
+          "meaning": "friends, as a group"
+        },
+        {
+          "hanzi": "口渴",
+          "pinyin": "kǒu kě",
+          "meaning": "thirsty"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u30-t1",
+      "phrase": "s1-u30-w17",
+      "audio": {
+        "zh": "这个杯子坏了，别用。",
+        "py": "zhè gè bēi zi huài le , bié yòng .",
+        "en": "This cup is broken; do not use it."
+      },
+      "statement": "The speaker says to use this cup.",
+      "answer": false,
+      "why": "别用 explicitly says not to use it."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u30-t2",
+      "phrase": "s1-u30-w01",
+      "audio": {
+        "zh": "我还在学习汉语。",
+        "py": "wǒ hái zài xué xí hàn yǔ .",
+        "en": "I am still learning Mandarin."
+      },
+      "statement": "The learning is continuing.",
+      "answer": true,
+      "why": "还在学习 describes continuing study."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u30-t3",
+      "phrase": "s1-u30-w06",
+      "prompt": {
+        "zh": "我可以进来吗？",
+        "py": "wǒ kě yǐ jìn lái ma ?",
+        "en": "May I come in?"
+      },
+      "choices": [
+        "请进，请坐。",
+        "那个杯子坏了。",
+        "昨天星期日。"
+      ],
+      "answer": "请进，请坐。",
+      "why": "Welcome the visitor in."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u30-t4",
+      "phrase": "s1-u30-w14",
+      "prompt": {
+        "zh": "口渴了，可以喝水吗？",
+        "py": "kǒu kě le , kě yǐ hē shuǐ ma ?",
+        "en": "I am thirsty; may I have water?"
+      },
+      "choices": [
+        "可以，喝点水吧。",
+        "他是工人。",
+        "门外是一棵树。"
+      ],
+      "answer": "可以，喝点水吧。",
+      "why": "Offer some water."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u30-t5",
+      "phrase": "s1-u30-w16",
+      "line": {
+        "zh": "我们【最后】一起收桌子。",
+        "py": "wǒ men zuì hòu yì qǐ shōu zhuō zi .",
+        "en": "We clear the table together at the end."
+      },
+      "blankPy": "zuì hòu"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u30-t6",
+      "phrase": "s1-u30-w10",
+      "line": {
+        "zh": "我的邻居是【工人】。",
+        "py": "wǒ de lín jū shì gōng rén .",
+        "en": "My neighbour is a worker."
+      },
+      "blankPy": "gōng rén"
+    },
+    {
+      "type": "match",
+      "id": "s1-u30-t7",
+      "phrase": "s1-u30-w02",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "My friends often visit.",
+          "right": {
+            "zh": "朋友们常常来。",
+            "py": "péng you men cháng cháng lái .",
+            "en": "My friends often visit."
+          }
+        },
+        {
+          "left": "We are still reading.",
+          "right": {
+            "zh": "我们还在读书。",
+            "py": "wǒ men hái zài dú shū .",
+            "en": "We are still reading."
+          }
+        },
+        {
+          "left": "There is a tree outside the door.",
+          "right": {
+            "zh": "门外有一棵树。",
+            "py": "mén wài yǒu yī kē shù .",
+            "en": "There is a tree outside the door."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u30-t8",
+      "phrase": "s1-u30-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "There are two cups on the table.",
+          "right": {
+            "zh": "桌子上有两个杯子。",
+            "py": "zhuō zi shàng yǒu liǎng gè bēi zi .",
+            "en": "There are two cups on the table."
+          }
+        },
+        {
+          "left": "I sit down to drink water.",
+          "right": {
+            "zh": "我坐下喝水。",
+            "py": "wǒ zuò xià hē shuǐ .",
+            "en": "I sit down to drink water."
+          }
+        },
+        {
+          "left": "They go in from outside the door.",
+          "right": {
+            "zh": "他们从门外进去。",
+            "py": "tā men cóng mén wài jìn qù .",
+            "en": "They go in from outside the door."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u30-t9",
+      "phrase": "s1-u30-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Is there class on Sunday?",
+          "right": {
+            "zh": "星期日有没有课？",
+            "py": "xīng qī rì yǒu méi yǒu kè ?",
+            "en": "Is there class on Sunday?"
+          }
+        },
+        {
+          "left": "That really looks good!",
+          "right": {
+            "zh": "真好看！",
+            "py": "zhēn hǎo kàn !",
+            "en": "That really looks good!"
+          }
+        },
+        {
+          "left": "May I go in?",
+          "right": {
+            "zh": "我可以进去吗？",
+            "py": "wǒ kě yǐ jìn qù ma ?",
+            "en": "May I go in?"
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Inviting a visitor",
+      "natural": {
+        "zh": "请进，请坐。",
+        "py": "qǐng jìn , qǐng zuò .",
+        "en": "Please come in and sit down."
+      },
+      "note": "A brief welcome is enough; offer a seat and water without pressuring the visitor."
+    },
+    {
+      "situation": "An honest recap",
+      "natural": {
+        "zh": "我还在学习汉语。",
+        "py": "wǒ hái zài xué xí hàn yǔ .",
+        "en": "I am still learning Mandarin."
+      },
+      "note": "Describe actual ongoing study rather than making a proficiency claim."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u30-speak",
+    "title": "My first month here",
+    "place": "A language-exchange meeting",
+    "context": "Introduce a neighbourhood and write a short recap.",
+    "goal": "Write a concrete first-month recap",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "可以进来吗？",
+        "pinyin": "kě yǐ jìn lái ma ?",
+        "meaning": "May I come in?",
+        "intent": "Welcome your visitor",
+        "examples": [
+          "请进，请坐。"
+        ],
+        "accept": [
+          "^请进，请坐。[。！？]?$"
+        ]
+      },
+      {
+        "text": "这个杯子可以用吗？",
+        "pinyin": "zhè gè bēi zi kě yǐ yòng ma ?",
+        "meaning": "Can this cup be used?",
+        "intent": "Say it is broken and offer the other",
+        "examples": [
+          "这个坏了，用那个吧。"
+        ],
+        "accept": [
+          "^这个坏了，用那个吧。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一25, 一32, 一36. Native check: 小孩儿 and 面条儿 rhotic pronunciation; short poetic omissions and the last line’s metaphor. 们/子 are explicit neutral suffix entries, never standalone spoken zǐ. 着 is recognized as a continuing state here; its full grammar owner is s2-u28. Planned retrieval 一14 / 一48 / 一09 / 一30 / 一35 / 一22 / 一33 / 一45: 星期日有没有课？, 真好看！, 我可以进去吗？."
+}
