@@ -7,12 +7,12 @@ character_groups.update({
 's2-u12':[('只','only'),('其','that; in 其他/其中'),('所','place; in 所有'),('油','oil'),('饱','full after eating'),('公','public; common'),('数','number; to count'),('平','level; fair'),('量','quantity; to measure')],
 })
 unit_glosses.update({
-'s2-u09':{'信封':'envelope','贺卡':'greeting card','围巾':'scarf','收件人':'recipient','包裹':'parcel','地址':'address','快递':'delivery service','邮寄':'to mail','补写':'to add missing writing'},
-'s2-u10':{'演出':'performance','开场':'start of a performance','入场':'admission','散场':'end of a show','检票':'ticket checking','周年':'anniversary','重发':'to resend','集合':'to gather','提前':'in advance'},
-'s2-u11':{'音量':'volume','场地':'venue','音箱':'speaker','耳朵':'ear','刺眼':'dazzling to the eyes','不适':'discomfort','距离':'distance','温度':'temperature','分贝':'decibel'},
-'s2-u12':{'分量':'portion size','配料':'ingredient','过敏':'allergy','确认':'to confirm','清淡':'lightly seasoned','预算':'budget','菜单':'menu','单独':'separately','份量':'portion size'},
+'s2-u09':{'信封':'envelope','贺卡':'greeting card','围巾':'scarf','收件人':'recipient','包裹':'parcel','地址':'address','快递':'delivery service','邮寄':'to mail','补写':'to add missing writing','寄':'to send by post','服务台':'service desk'},
+'s2-u10':{'演出':'performance','开场':'start of a performance','入场':'admission','散场':'end of a show','检票':'ticket checking','周年':'anniversary','重发':'to resend','集合':'to gather','提前':'in advance','开始':'to begin','暗':'dark'},
+'s2-u11':{'音量':'volume','场地':'venue','音箱':'speaker','耳朵':'ear','刺眼':'dazzling to the eyes','不适':'discomfort','距离':'distance','温度':'temperature','分贝':'decibel','测':'to measure','温度表':'thermometer','显示':'to display','直接':'directly','调':'to adjust','差价':'price difference','感受':'personal impression','量':'to measure','空儿':'free time'},
+'s2-u12':{'分量':'portion size','配料':'ingredient','过敏':'allergy','确认':'to confirm','清淡':'lightly seasoned','预算':'budget','菜单':'menu','单独':'separately','份量':'portion size','具体':'specific','组员':'group member','各人':'each person'},
 })
-dictionary.update({'笔记':'bǐ jì','笔记本':'bǐ jì běn','照顾':'zhào gù','一会儿':'yí huìr','不一会儿':'bù yí huìr','有一点儿':'yǒu yì diǎnr','有空儿':'yǒu kòngr','好久':'hǎo jiǔ','大多数':'dà duō shù','人数':'rén shù','数':'shǔ','分量':'fèn liàng'})
+dictionary.update({'笔记':'bǐ jì','笔记本':'bǐ jì běn','照顾':'zhào gù','一会儿':'yí huìr','不一会儿':'bù yí huìr','有一点儿':'yǒu yì diǎnr','有空儿':'yǒu kòngr','空儿':'kòngr','好久':'hǎo jiǔ','大多数':'dà duō shù','人数':'rén shù','数':'shǔ','分量':'fèn liàng','量声音':'liáng shēng yīn','没量':'méi liáng'})
 
 u='s2-u09'
 write(u,'给你一份小礼物',['Choose counters for a letter, clothing and a recipient','Keep the recipient and the gift in the right order','Check an address before sending'],[

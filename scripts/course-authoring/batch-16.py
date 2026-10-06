@@ -7,10 +7,10 @@ character_groups.update({
 's3-u08':[('较','comparatively'),('强','strong'),('步','step'),('技','skill; technique'),('艺','art; skill'),('舞','to dance'),('剧','drama')],
 })
 unit_glosses.update({
-'s3-u05':{'版本':'version','文件夹':'folder','备份':'backup copy','打开':'to open','原件':'original document','校对':'to proofread','核对':'to check against','保存':'to save','删去':'to remove','更改':'to change','截止':'deadline; to end','凭空':'without basis'},
-'s3-u06':{'钢琴':'piano','筷子':'chopsticks','餐具':'tableware','餐厅':'restaurant','一行':'one line','一顿':'one meal','一眼':'one glance','一口':'one mouthful','上菜':'to serve food'},
-'s3-u07':{'分量':'portion size','分配':'to allocate','均匀':'evenly distributed','剩余':'remaining','份':'portion','逐个':'one at a time','人手':'each person’s hands; manpower','总量':'total quantity'},
-'s3-u08':{'唱歌':'to sing','节拍':'beat; metre','速度':'speed','曲子':'tune','高音':'high note','标准':'standard','比较':'comparison','录音':'recording','改进':'improvement'},
+'s3-u05':{'版本':'version','文件夹':'folder','备份':'backup copy','打开':'to open','原件':'original document','校对':'to proofread','核对':'to check against','保存':'to save','删去':'to remove','更改':'to change','截止':'deadline; to end','凭空':'without basis','凭':'on the basis of','未':'not yet'},
+'s3-u06':{'钢琴':'piano','筷子':'chopsticks','餐具':'tableware','餐厅':'restaurant','一行':'one line','一顿':'one meal','一眼':'one glance','一口':'one mouthful','上菜':'to serve food','根':'classifier for slender objects','饮料':'drink; beverage','仔细':'carefully'},
+'s3-u07':{'分量':'portion size','分配':'to allocate','均匀':'evenly distributed','剩余':'remaining','份':'portion','逐个':'one at a time','人手':'each person’s hands; manpower','总量':'total quantity','混':'to mix; confuse','美好':'pleasant; lovely'},
+'s3-u08':{'唱歌':'to sing','节拍':'beat; metre','速度':'speed','曲子':'tune','高音':'high note','标准':'standard','比较':'comparison','录音':'recording','改进':'improvement','话剧':'spoken drama','原创':'originally created','归':'concedes a description in X归X: X may be X, but…'},
 })
 selected_source_rows.update({'s3-u06:把':'76','s3-u06:行':'3197','s3-u06:只':'10471'})
 vocabulary_readings.update({'s3-u06:行':'háng','s3-u06:只':'zhī'})

@@ -1,0 +1,1354 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u08",
+    "stage": 1,
+    "order": 38,
+    "title": "Our weekend budget",
+    "titleZh": "周末的钱一起算",
+    "canDo": [
+      "Calculate a shared cost without confusing currency and time",
+      "Read 千/万/亿 accurately",
+      "Distinguish approximate counts from extra fractional quantities"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u07"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u08-w01",
+      "hanzi": "千",
+      "pinyin": "qiān",
+      "meaning": "thousand",
+      "meaningVi": "nghìn",
+      "pos": "numeral",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一千是一百的十倍。",
+        "py": "yī qiān shì yī bǎi de shí bèi .",
+        "en": "One thousand is ten times one hundred."
+      },
+      "usageNote": "[GF2021:L2:6304] Source entry: 千; qiān; 数. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w02",
+      "hanzi": "万",
+      "pinyin": "wàn",
+      "meaning": "ten thousand",
+      "meaningVi": "mười nghìn",
+      "pos": "numeral",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一万是十个一千，不是一千。",
+        "py": "yī wàn shì shí gè yī qiān , bù shì yī qiān .",
+        "en": "Ten thousand is ten thousands, not one thousand."
+      },
+      "usageNote": "[GF2021:L2:8310] Source entry: 万; wàn; 数. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w03",
+      "hanzi": "亿",
+      "pinyin": "yì",
+      "meaning": "one hundred million",
+      "meaningVi": "một trăm triệu",
+      "pos": "numeral",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一亿是一万万。",
+        "py": "yī yì shì yī wàn wàn .",
+        "en": "One hundred million is ten thousand times ten thousand."
+      },
+      "usageNote": "[GF2021:L2:9632] Source entry: 亿; yì; 数. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w04",
+      "hanzi": "一共",
+      "pinyin": "yī gòng",
+      "meaning": "altogether",
+      "meaningVi": "tổng cộng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "饭和车票一共一百二十块。",
+        "py": "fàn hé chē piào yī gòng yī bǎi èr shí kuài .",
+        "en": "Food and tickets total one hundred and twenty yuan."
+      },
+      "usageNote": "[GF2021:L2:9504] Source entry: 一共; yígòng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w05",
+      "hanzi": "部分",
+      "pinyin": "bù fèn",
+      "meaning": "part; portion",
+      "meaningVi": "phần",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "车票只是费用的一部分。",
+        "py": "chē piào zhǐ shì fèi yòng de yī bù fèn .",
+        "en": "Tickets are only part of the cost."
+      },
+      "usageNote": "[GF2021:L2:654] Source entry: 部分; bùfen; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w06",
+      "hanzi": "全",
+      "pinyin": "quán",
+      "meaning": "all; whole",
+      "meaningVi": "toàn bộ; đều",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "大家全到了，再算钱。",
+        "py": "dà jiā quán dào le , zài suàn qián .",
+        "en": "Everyone has arrived; now calculate the costs."
+      },
+      "usageNote": "[GF2021:L2:6599] Source entry: 全; quán; 副、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w07",
+      "hanzi": "全部",
+      "pinyin": "quán bù",
+      "meaning": "all; entire amount",
+      "meaningVi": "tất cả; toàn bộ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "全部费用是一百二十块。",
+        "py": "quán bù fèi yòng shì yī bǎi èr shí kuài .",
+        "en": "The entire cost is one hundred and twenty yuan."
+      },
+      "usageNote": "[GF2021:L2:6600] Source entry: 全部; quánbù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w08",
+      "hanzi": "角",
+      "pinyin": "jiǎo",
+      "meaning": "one tenth of a yuan; currency counter",
+      "meaningVi": "hào; một phần mười tệ",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "五角是半块钱。",
+        "py": "wǔ jiǎo shì bàn kuài qián .",
+        "en": "Five jiao is half a yuan."
+      },
+      "usageNote": "[GF2021:L2:4092] Source entry: 角; jiǎo; 量、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w09",
+      "hanzi": "分",
+      "pinyin": "fēn",
+      "meaning": "to divide; share out",
+      "meaningVi": "chia; phân chia",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们把一百二十块分成三份。",
+        "py": "wǒ men bǎ yī bǎi èr shí kuài fēn chéng sān fèn .",
+        "en": "We divide one hundred and twenty yuan into three portions."
+      },
+      "usageNote": "[GF2021:L2:2329] Source entry: 分; fēn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w10",
+      "hanzi": "斤",
+      "pinyin": "jīn",
+      "meaning": "half kilogram; weight unit",
+      "meaningVi": "cân Trung Quốc; nửa ki-lô",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "两斤是一公斤。",
+        "py": "liǎng jīn shì yī gōng jīn .",
+        "en": "Two jin equal one kilogram."
+      },
+      "usageNote": "[GF2021:L2:4245] Source entry: 斤; jīn; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w11",
+      "hanzi": "公斤",
+      "pinyin": "gōng jīn",
+      "meaning": "kilogram",
+      "meaningVi": "ki-lô-gam",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们买一公斤水果。",
+        "py": "wǒ men mǎi yī gōng jīn shuǐ guǒ .",
+        "en": "We buy one kilogram of fruit."
+      },
+      "usageNote": "[GF2021:L2:2789] Source entry: 公斤; gōngjīn; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w12",
+      "hanzi": "卖",
+      "pinyin": "mài",
+      "meaning": "to sell",
+      "meaningVi": "bán",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这家店卖水果，也卖水。",
+        "py": "zhè jiā diàn mài shuǐ guǒ , yě mài shuǐ .",
+        "en": "This shop sells fruit and water."
+      },
+      "usageNote": "[GF2021:L2:5410] Source entry: 卖; mài; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w13",
+      "hanzi": "数",
+      "pinyin": "shǔ",
+      "meaning": "to count",
+      "meaningVi": "đếm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你数人数，我算钱。",
+        "py": "nǐ shǔ rén shù , wǒ suàn qián .",
+        "en": "You count people; I will calculate the money."
+      },
+      "usageNote": "[GF2021:L2:7481] Source entry: 数; shǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w14",
+      "hanzi": "多",
+      "pinyin": "duō",
+      "meaning": "more than; over",
+      "meaningVi": "hơn; lẻ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "十多个人不是正好十个。",
+        "py": "shí duō gè rén bù shì zhèng hǎo shí gè .",
+        "en": "More than ten people does not mean exactly ten."
+      },
+      "usageNote": "[GF2021:L2:2053] Source entry: 多; duō; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w15",
+      "hanzi": "不少",
+      "pinyin": "bù shǎo",
+      "meaning": "quite a few; not little",
+      "meaningVi": "khá nhiều",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "要买的东西不少，先写清楚。",
+        "py": "yào mǎi de dōng xi bù shǎo , xiān xiě qīng chu .",
+        "en": "There are quite a few things to buy; write them clearly first."
+      },
+      "usageNote": "[GF2021:L2:615] Source entry: 不少; bù shǎo; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w16",
+      "hanzi": "卡",
+      "pinyin": "kǎ",
+      "meaning": "card",
+      "meaningVi": "thẻ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这张卡可以付款吗？",
+        "py": "zhè zhāng kǎ kě yǐ fù kuǎn ma ?",
+        "en": "Can I pay with this card?"
+      },
+      "usageNote": "[GF2021:L2:4571] Source entry: 卡; kǎ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w17",
+      "hanzi": "银行卡",
+      "pinyin": "yín háng kǎ",
+      "meaning": "bank card",
+      "meaningVi": "thẻ ngân hàng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我带了银行卡，也带了现金。",
+        "py": "wǒ dài le yín háng kǎ , yě dài le xiàn jīn .",
+        "en": "I brought a bank card and cash."
+      },
+      "usageNote": "[GF2021:L2:9695] Source entry: 银行卡; yínhángkǎ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w18",
+      "hanzi": "收入",
+      "pinyin": "shōu rù",
+      "meaning": "income; receipts",
+      "meaningVi": "thu nhập; khoản thu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我的收入不多，这次先定预算。",
+        "py": "wǒ de shōu rù bù duō , zhè cì xiān dìng yù suàn .",
+        "en": "My income is not large; let us set a budget for this visit."
+      },
+      "usageNote": "[GF2021:L2:7363] Source entry: 收入; shōurù; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w19",
+      "hanzi": "花",
+      "pinyin": "huā",
+      "meaning": "to spend money or time",
+      "meaningVi": "tiêu tiền; bỏ thời gian",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天每人花四十块。",
+        "py": "jīn tiān měi rén huā sì shí kuài .",
+        "en": "Each person spends forty yuan today."
+      },
+      "usageNote": "[GF2021:L2:3430] Source entry: 花; huā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w20",
+      "hanzi": "算",
+      "pinyin": "suàn",
+      "meaning": "to calculate; count as",
+      "meaningVi": "tính",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先算全部费用，再分。",
+        "py": "xiān suàn quán bù fèi yòng , zài fēn .",
+        "en": "Calculate the entire cost before dividing it."
+      },
+      "usageNote": "[GF2021:L2:7693] Source entry: 算; suàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w21",
+      "hanzi": "够",
+      "pinyin": "gòu",
+      "meaning": "enough",
+      "meaningVi": "đủ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一百五十块够付一百二十块。",
+        "py": "yī bǎi wǔ shí kuài gòu fù yī bǎi èr shí kuài .",
+        "en": "One hundred and fifty yuan is enough to pay one hundred and twenty."
+      },
+      "usageNote": "[GF2021:L2:2875] Source entry: 够; gòu; 动、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u08-w22",
+      "hanzi": "正好",
+      "pinyin": "zhèng hǎo",
+      "meaning": "exactly; just right",
+      "meaningVi": "vừa đúng; vừa đủ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "三个人，每人四十，正好一百二十。",
+        "py": "sān gè rén , měi rén sì shí , zhèng hǎo yī bǎi èr shí .",
+        "en": "Three people at forty each makes exactly one hundred and twenty."
+      },
+      "usageNote": "[GF2021:L2:10423] Source entry: 正好; zhènghǎo; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "千",
+      "pinyin": "qiān",
+      "meaning": "thousand",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "千",
+          "role": "whole",
+          "gloss": "thousand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 千 in 千. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "千",
+          "p": "qiān",
+          "m": "thousand"
+        }
+      ]
+    },
+    {
+      "hanzi": "万",
+      "pinyin": "wàn",
+      "meaning": "ten thousand",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "万",
+          "role": "whole",
+          "gloss": "ten thousand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 万 in 万. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "万",
+          "p": "wàn",
+          "m": "ten thousand"
+        }
+      ]
+    },
+    {
+      "hanzi": "亿",
+      "pinyin": "yì",
+      "meaning": "hundred million",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "亿",
+          "role": "whole",
+          "gloss": "hundred million"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 亿 in 亿. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "亿",
+          "p": "yì",
+          "m": "one hundred million"
+        }
+      ]
+    },
+    {
+      "hanzi": "部",
+      "pinyin": "bù",
+      "meaning": "part",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "部",
+          "role": "whole",
+          "gloss": "part"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 部 in 部分 / 全部. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "部分",
+          "p": "bù fèn",
+          "m": "part; portion"
+        },
+        {
+          "w": "全部",
+          "p": "quán bù",
+          "m": "all; entire amount"
+        }
+      ]
+    },
+    {
+      "hanzi": "全",
+      "pinyin": "quán",
+      "meaning": "whole; all",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "全",
+          "role": "whole",
+          "gloss": "whole; all"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 全 in 全 / 全部. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "全",
+          "p": "quán",
+          "m": "all; whole"
+        },
+        {
+          "w": "全部",
+          "p": "quán bù",
+          "m": "all; entire amount"
+        }
+      ]
+    },
+    {
+      "hanzi": "角",
+      "pinyin": "jiǎo",
+      "meaning": "corner; one tenth of a yuan",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "角",
+          "role": "whole",
+          "gloss": "corner; one tenth of a yuan"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 角 in 角. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "角",
+          "p": "jiǎo",
+          "m": "one tenth of a yuan; currency counter"
+        }
+      ]
+    },
+    {
+      "hanzi": "斤",
+      "pinyin": "jīn",
+      "meaning": "half kilogram",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "斤",
+          "role": "whole",
+          "gloss": "half kilogram"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 斤 in 斤 / 公斤. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "斤",
+          "p": "jīn",
+          "m": "half kilogram; weight unit"
+        },
+        {
+          "w": "公斤",
+          "p": "gōng jīn",
+          "m": "kilogram"
+        }
+      ]
+    },
+    {
+      "hanzi": "银",
+      "pinyin": "yín",
+      "meaning": "silver",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "银",
+          "role": "whole",
+          "gloss": "silver"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 银 in 银行卡. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "银行卡",
+          "p": "yín háng kǎ",
+          "m": "bank card"
+        }
+      ]
+    },
+    {
+      "hanzi": "入",
+      "pinyin": "rù",
+      "meaning": "to enter; income",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "入",
+          "role": "whole",
+          "gloss": "to enter; income"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 入 in 收入 / 入口. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "收入",
+          "p": "shōu rù",
+          "m": "income; receipts"
+        },
+        {
+          "w": "入口",
+          "p": "rù kǒu",
+          "m": "entrance"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u08-g二09",
+      "pattern": "千 / 万 / 亿",
+      "purpose": "Read large units rather than substituting English groups",
+      "explanation": "千 = 1,000; 万 = 10,000; 亿 = 100,000,000. Chinese large-number grouping uses 万 and 亿. 一万 is ten thousands; 一亿 is ten thousand 万. 二万 and 两万 can occur, while 两千 is common; do not turn 两万 into two thousand. Use explicit digits when checking a financial label. The large numbers here are reading practice, not this outing’s actual budget.",
+      "examples": [
+        {
+          "zh": "一千是一百的十倍，一万是一千的十倍。",
+          "py": "yī qiān shì yī bǎi de shí bèi , yī wàn shì yī qiān de shí bèi .",
+          "en": "One thousand is ten hundreds; ten thousand is ten thousands."
+        },
+        {
+          "zh": "两万是二十个一千。",
+          "py": "liǎng wàn shì èr shí gè yī qiān .",
+          "en": "Twenty thousand is twenty thousands."
+        },
+        {
+          "zh": "一亿是一万万，不是一百万。",
+          "py": "yī yì shì yī wàn wàn , bù shì yī bǎi wàn .",
+          "en": "One hundred million is ten thousand ten-thousands, not one million."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一万是一千。",
+          "right": "一万是一万，不是一千。",
+          "why": "万 denotes ten thousand; 千 denotes one thousand."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u08-g二73",
+      "pattern": "number + 多 + classifier / number + classifier + 多",
+      "purpose": "Keep approximate counts and fractional extras separate",
+      "explanation": "十多个人 gives an integer count over ten, commonly in the teens. 一百多块 gives more than one hundred yuan without an exact total. 一个多小时 is more than one hour, normally less than two; 多 follows the duration classifier. 三斤多 is a little over three jin. These are approximate descriptions, not exact sums; the actual amount may need confirmation. Do not interpret 十多个人 as 10.5 people or 一个多小时 as more than ten hours.",
+      "examples": [
+        {
+          "zh": "十多个人参加，不是正好十个。",
+          "py": "shí duō gè rén cān jiā , bù shì zhèng hǎo shí gè .",
+          "en": "More than ten people participate, not exactly ten."
+        },
+        {
+          "zh": "活动一个多小时，不是十多个小时。",
+          "py": "huó dòng yī gè duō xiǎo shí , bù shì shí duō gè xiǎo shí .",
+          "en": "The activity lasts a little over an hour, not more than ten hours."
+        },
+        {
+          "zh": "水果三斤多，钱一百多块，先问具体是多少。",
+          "py": "shuǐ guǒ sān jīn duō , qián yī bǎi duō kuài , xiān wèn jù tǐ shì duō shao .",
+          "en": "The fruit is a little over three jin and the cost over a hundred yuan; ask for exact amounts."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "十个多个人参加。",
+          "right": "十多个人参加。",
+          "why": "Place 多 after 十 and before 个 for an approximate count of people."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u08-d",
+    "title": "Three shares",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the real total and what is only reading practice.",
+    "lines": [
+      {
+        "zh": "先数人数吧。",
+        "py": "xiān shǔ rén shù ba .",
+        "en": "Let us count the people first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "三个人，全到了。要买的东西不少，我先算一算。",
+        "py": "sān gè rén , quán dào le . yào mǎi de dōng xi bù shǎo , wǒ xiān suàn yī suàn .",
+        "en": "Three people, all here. There are quite a few things to buy; I will calculate first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "车票一部分，饭和水果一部分，一共多少？",
+        "py": "chē piào yī bù fèn , fàn hé shuǐ guǒ yī bù fèn , yī gòng duō shao ?",
+        "en": "Tickets are one part and food and fruit another; what is the total?",
+        "speaker": "a"
+      },
+      {
+        "zh": "全部一百二十块。分成三份，每人四十。",
+        "py": "quán bù yī bǎi èr shí kuài . fēn chéng sān fèn , měi rén sì shí .",
+        "en": "One hundred and twenty altogether. Three shares of forty.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我收入不多，这次预算一百五十，够吗？",
+        "py": "wǒ shōu rù bù duō , zhè cì yù suàn yī bǎi wǔ shí , gòu ma ?",
+        "en": "My income is not large; I budgeted one hundred and fifty for this outing. Is that enough?",
+        "speaker": "a"
+      },
+      {
+        "zh": "够。正好付一百二十，还剩三十。",
+        "py": "gòu . zhèng hǎo fù yī bǎi èr shí , hái shèng sān shí .",
+        "en": "Yes. Pay exactly one hundred and twenty; thirty remains.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这家店卖水果。买一公斤，两斤，对吗？",
+        "py": "zhè jiā diàn mài shuǐ guǒ . mǎi yī gōng jīn , liǎng jīn , duì ma ?",
+        "en": "This shop sells fruit. One kilogram is two jin, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。五角是半块，别把角和块看成一样。",
+        "py": "duì . wǔ jiǎo shì bàn kuài , bié bǎ jiǎo hé kuài kàn chéng yī yàng .",
+        "en": "Yes. Five jiao is half a yuan; do not treat jiao and yuan as the same.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这张银行卡能用吗？我也带了现金。",
+        "py": "zhè zhāng yín háng kǎ néng yòng ma ? wǒ yě dài le xiàn jīn .",
+        "en": "Can I use this bank card? I also brought cash.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先问店里。今天每人花四十，不是四十万。",
+        "py": "xiān wèn diàn lǐ . jīn tiān měi rén huā sì shí , bù shì sì shí wàn .",
+        "en": "Ask the shop first. Today each person spends forty, not four hundred thousand.",
+        "speaker": "b"
+      },
+      {
+        "zh": "哈哈。一千、一万、一亿，只是在练数字吧？",
+        "py": "hā hā . yī qiān , yī wàn , yī yì , zhǐ shì zài liàn shù zì ba ?",
+        "en": "Ha. One thousand, ten thousand and a hundred million are just number practice, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。十多个人和一个多小时也要分清，不能当今天的准确人数和时间。",
+        "py": "duì . shí duō gè rén hé yī gè duō xiǎo shí yě yào fēn qīng , bù néng dāng jīn tiān de zhǔn què rén shù hé shí jiān .",
+        "en": "Right. Distinguish more than ten people from over an hour too; neither is today’s exact count or time.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is agreed?",
+        "choices": [
+          "Three shares of forty yuan",
+          "Three shares of forty thousand",
+          "Every person pays the entire total"
+        ],
+        "answer": "Three shares of forty yuan"
+      },
+      {
+        "type": "detail",
+        "q": "What remains from the 150-yuan budget?",
+        "choices": [
+          "Thirty yuan",
+          "Fifty yuan",
+          "No money"
+        ],
+        "answer": "Thirty yuan"
+      },
+      {
+        "type": "inference",
+        "q": "Is card payment confirmed?",
+        "choices": [
+          "No, they still need to ask the shop",
+          "Yes, having a card proves acceptance",
+          "No shop accepts cards"
+        ],
+        "answer": "No, they still need to ask the shop"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "预算",
+        "pinyin": "yù suàn",
+        "meaning": "budget"
+      },
+      {
+        "hanzi": "每人",
+        "pinyin": "měi rén",
+        "meaning": "per person"
+      },
+      {
+        "hanzi": "分成",
+        "pinyin": "fēn chéng",
+        "meaning": "to divide into"
+      },
+      {
+        "hanzi": "份",
+        "pinyin": "fèn",
+        "meaning": "portion; share"
+      },
+      {
+        "hanzi": "付",
+        "pinyin": "fù",
+        "meaning": "to pay"
+      },
+      {
+        "hanzi": "剩",
+        "pinyin": "shèng",
+        "meaning": "to remain; remaining"
+      },
+      {
+        "hanzi": "看成",
+        "pinyin": "kàn chéng",
+        "meaning": "to regard as"
+      },
+      {
+        "hanzi": "现金",
+        "pinyin": "xiàn jīn",
+        "meaning": "cash"
+      },
+      {
+        "hanzi": "哈哈",
+        "pinyin": "hā hā",
+        "meaning": "ha-ha; laughter"
+      },
+      {
+        "hanzi": "分清",
+        "pinyin": "fēn qīng",
+        "meaning": "to distinguish clearly"
+      },
+      {
+        "hanzi": "当",
+        "pinyin": "dāng",
+        "meaning": "to regard as; act as"
+      },
+      {
+        "hanzi": "准确",
+        "pinyin": "zhǔn què",
+        "meaning": "accurate"
+      },
+      {
+        "hanzi": "时",
+        "pinyin": "shí",
+        "meaning": "when; time"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u08-r",
+    "title": "The cost record",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to check arithmetic, units and unconfirmed payment.",
+    "lines": [
+      {
+        "zh": "我们三个人，全到了。先数人数，再算全部费用。",
+        "py": "wǒ men sān gè rén , quán dào le . xiān shǔ rén shù , zài suàn quán bù fèi yòng .",
+        "en": "All three of us arrived. We count people first, then calculate the total cost."
+      },
+      {
+        "zh": "车票是一部分，饭和水果是一部分，一共一百二十块。",
+        "py": "chē piào shì yī bù fèn , fàn hé shuǐ guǒ shì yī bù fèn , yī gòng yī bǎi èr shí kuài .",
+        "en": "Tickets are one portion, food and fruit another; the total is one hundred and twenty yuan."
+      },
+      {
+        "zh": "一百二十分成三份，正好每人四十。今天每人花四十块。",
+        "py": "yī bǎi èr shí fēn chéng sān fèn , zhèng hǎo měi rén sì shí . jīn tiān měi rén huā sì shí kuài .",
+        "en": "Divide one hundred and twenty into three shares: exactly forty each. Each person spends forty today."
+      },
+      {
+        "zh": "收入不多也可以先定预算。这次一百五十够付，付完还剩三十。",
+        "py": "shōu rù bù duō yě kě yǐ xiān dìng yù suàn . zhè cì yī bǎi wǔ shí gòu fù , fù wán hái shèng sān shí .",
+        "en": "Even with a modest income we can set a budget. One hundred and fifty is enough, leaving thirty after payment."
+      },
+      {
+        "zh": "店里卖水果，我们买一公斤，也就是两斤。五角是半块钱。",
+        "py": "diàn lǐ mài shuǐ guǒ , wǒ men mǎi yī gōng jīn , yě jiù shì liǎng jīn . wǔ jiǎo shì bàn kuài qián .",
+        "en": "The shop sells fruit; we buy one kilogram, or two jin. Five jiao is half a yuan."
+      },
+      {
+        "zh": "我带了银行卡和现金，卡能不能用，还要问店里。",
+        "py": "wǒ dài le yín háng kǎ hé xiàn jīn , kǎ néng bù néng yòng , hái yào wèn diàn lǐ .",
+        "en": "I brought a bank card and cash; I still need to ask whether the shop accepts the card."
+      },
+      {
+        "zh": "一千、一万、一亿是练习读数字，不是今天的费用。要买的东西不少，但没有花一万。",
+        "py": "yī qiān , yī wàn , yī yì shì liàn xí dú shù zì , bù shì jīn tiān de fèi yòng . yào mǎi de dōng xi bù shǎo , dàn méi yǒu huā yī wàn .",
+        "en": "One thousand, ten thousand and a hundred million are number-reading practice, not today’s cost. We buy quite a few things but do not spend ten thousand."
+      },
+      {
+        "zh": "十多个人是概数，一个多小时也是概数。记账时，不能拿它们代替准确的总数。",
+        "py": "shí duō gè rén shì gài shǔ , yī gè duō xiǎo shí yě shì gài shǔ . jì zhàng shí , bù néng ná tā men dài tì zhǔn què de zǒng shù .",
+        "en": "More than ten people and a little over an hour are approximations; we cannot substitute them for exact totals in our records."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the record keep separate?",
+        "choices": [
+          "Exact totals, approximate examples and different units",
+          "Only the colours of cards",
+          "Food costs from all arithmetic"
+        ],
+        "answer": "Exact totals, approximate examples and different units"
+      },
+      {
+        "type": "detail",
+        "q": "How much does each of three people pay?",
+        "choices": [
+          "Forty yuan",
+          "One hundred and twenty yuan",
+          "Thirty yuan"
+        ],
+        "answer": "Forty yuan"
+      },
+      {
+        "type": "inference",
+        "q": "Why bring cash as well?",
+        "choices": [
+          "Card acceptance remains unconfirmed",
+          "The text proves cards never work",
+          "Cash changes the total to one thousand"
+        ],
+        "answer": "Card acceptance remains unconfirmed"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "车票是一部分，饭和水果是一部分，【一共】一百二十块。",
+          "py": "chē piào shì yī bù fèn , fàn hé shuǐ guǒ shì yī bù fèn , yī gòng yī bǎi èr shí kuài .",
+          "en": "Tickets are one portion, food and fruit another; the total is one hundred and twenty yuan."
+        },
+        {
+          "zh": "我带了【银行卡】和现金，卡能不能用，还要问店里。",
+          "py": "wǒ dài le yín háng kǎ hé xiàn jīn , kǎ néng bù néng yòng , hái yào wèn diàn lǐ .",
+          "en": "I brought a bank card and cash; I still need to ask whether the shop accepts the card."
+        }
+      ],
+      "bank": [
+        "一共",
+        "银行卡",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "预算",
+        "pinyin": "yù suàn",
+        "meaning": "budget"
+      },
+      {
+        "hanzi": "总数",
+        "pinyin": "zǒng shù",
+        "meaning": "total number"
+      },
+      {
+        "hanzi": "费用",
+        "pinyin": "fèi yòng",
+        "meaning": "cost"
+      },
+      {
+        "hanzi": "每人",
+        "pinyin": "měi rén",
+        "meaning": "per person"
+      },
+      {
+        "hanzi": "记账",
+        "pinyin": "jì zhàng",
+        "meaning": "to keep accounts"
+      },
+      {
+        "hanzi": "分成",
+        "pinyin": "fēn chéng",
+        "meaning": "to divide into"
+      },
+      {
+        "hanzi": "份",
+        "pinyin": "fèn",
+        "meaning": "portion; share"
+      },
+      {
+        "hanzi": "付",
+        "pinyin": "fù",
+        "meaning": "to pay"
+      },
+      {
+        "hanzi": "剩",
+        "pinyin": "shèng",
+        "meaning": "to remain; remaining"
+      },
+      {
+        "hanzi": "现金",
+        "pinyin": "xiàn jīn",
+        "meaning": "cash"
+      },
+      {
+        "hanzi": "准确",
+        "pinyin": "zhǔn què",
+        "meaning": "accurate"
+      },
+      {
+        "hanzi": "练习",
+        "pinyin": "liàn xí",
+        "meaning": "practice; to practise"
+      },
+      {
+        "hanzi": "概数",
+        "pinyin": "gài shǔ",
+        "meaning": "approximate number"
+      },
+      {
+        "hanzi": "时",
+        "pinyin": "shí",
+        "meaning": "when; time"
+      },
+      {
+        "hanzi": "代替",
+        "pinyin": "dài tì",
+        "meaning": "to replace; act in place of"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u08-media",
+      "title": "Count before guessing",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original shared-budget verse.",
+      "lines": [
+        {
+          "zh": "数一数，三个人。算一算，一百二十。",
+          "py": "shǔ yī shǔ , sān gè rén . suàn yī suàn , yī bǎi èr shí .",
+          "en": "Count: three people. Calculate: one hundred and twenty."
+        },
+        {
+          "zh": "分三份，正好四十。花四十，别把万写上。",
+          "py": "fēn sān fèn , zhèng hǎo sì shí . huā sì shí , bié bǎ wàn xiě shàng .",
+          "en": "Three shares, exactly forty. Spend forty; do not add ten-thousands."
+        },
+        {
+          "zh": "五角半块，两斤一公斤。店里卖水果，单位看清。",
+          "py": "wǔ jiǎo bàn kuài , liǎng jīn yī gōng jīn . diàn lǐ mài shuǐ guǒ , dān wèi kàn qīng .",
+          "en": "Five jiao, half a yuan; two jin, a kilogram. The shop sells fruit; read the units clearly."
+        },
+        {
+          "zh": "千、万、亿，数字来练。一万不是一千，今天不用花一万。",
+          "py": "qiān , wàn , yì , shù zì lái liàn . yī wàn bù shì yī qiān , jīn tiān bù yòng huā yī wàn .",
+          "en": "Thousand, ten-thousand, hundred-million: practise numbers. Ten thousand is not a thousand; no need to spend ten thousand today."
+        },
+        {
+          "zh": "十多个人，一个多小时。一个是人数，一个是时间。",
+          "py": "shí duō gè rén , yī gè duō xiǎo shí . yī gè shì rén shù , yī gè shì shí jiān .",
+          "en": "More than ten people, a little over an hour. One counts people; one measures time."
+        },
+        {
+          "zh": "卡先问，现金带上。收入和预算，不用猜别人的。",
+          "py": "kǎ xiān wèn , xiàn jīn dài shàng . shōu rù hé yù suàn , bù yòng cāi bié ren de .",
+          "en": "Ask about the card; bring cash. No need to guess another person’s income or budget."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the practical theme?",
+          "choices": [
+            "Check quantities and ask before assuming",
+            "Every outing costs ten thousand",
+            "Use approximate examples as exact accounts"
+          ],
+          "answer": "Check quantities and ask before assuming"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "预算",
+          "pinyin": "yù suàn",
+          "meaning": "budget"
+        },
+        {
+          "hanzi": "份",
+          "pinyin": "fèn",
+          "meaning": "portion; share"
+        },
+        {
+          "hanzi": "现金",
+          "pinyin": "xiàn jīn",
+          "meaning": "cash"
+        },
+        {
+          "hanzi": "时",
+          "pinyin": "shí",
+          "meaning": "when; time"
+        },
+        {
+          "hanzi": "单位",
+          "pinyin": "dān wèi",
+          "meaning": "unit"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u08-t1",
+      "phrase": "s2-u08-w04",
+      "audio": {
+        "zh": "三个人，每人四十，一共一百二十。",
+        "py": "sān gè rén , měi rén sì shí , yī gòng yī bǎi èr shí .",
+        "en": "Three people at forty each total one hundred and twenty."
+      },
+      "statement": "The total is one hundred and twenty.",
+      "answer": true,
+      "why": "Three times forty equals one hundred and twenty."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u08-t2",
+      "phrase": "s2-u08-w14",
+      "audio": {
+        "zh": "十多个人参加。",
+        "py": "shí duō gè rén cān jiā .",
+        "en": "More than ten people participate."
+      },
+      "statement": "Exactly ten people participate.",
+      "answer": false,
+      "why": "多 makes the count approximate and greater than ten."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u08-t3",
+      "phrase": "s2-u08-w09",
+      "prompt": {
+        "zh": "一百二十块，三个人，怎么分？",
+        "py": "yī bǎi èr shí kuài , sān gè rén , zěn me fēn ?",
+        "en": "One hundred and twenty yuan among three people: how do we divide it?"
+      },
+      "choices": [
+        "每人四十块。",
+        "三个人都来了。",
+        "两斤是一公斤。"
+      ],
+      "answer": "每人四十块。",
+      "why": "Give the correct equal share."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u08-t4",
+      "phrase": "s2-u08-w16",
+      "prompt": {
+        "zh": "这张卡能用吗？",
+        "py": "zhè zhāng kǎ néng yòng ma ?",
+        "en": "Can this card be used?"
+      },
+      "choices": [
+        "先问店里，我也带了现金。",
+        "今天一共三个人。",
+        "一万是一千的十倍。"
+      ],
+      "answer": "先问店里，我也带了现金。",
+      "why": "Card acceptance needs checking."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u08-t5",
+      "phrase": "s2-u08-w21",
+      "line": {
+        "zh": "一百五十块【够】付一百二十块。",
+        "py": "yī bǎi wǔ shí kuài gòu fù yī bǎi èr shí kuài .",
+        "en": "One hundred and fifty yuan is enough to pay one hundred and twenty."
+      },
+      "blankPy": "gòu"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u08-t6",
+      "phrase": "s2-u08-w19",
+      "line": {
+        "zh": "今天每人【花】四十块。",
+        "py": "jīn tiān měi rén huā sì shí kuài .",
+        "en": "Each person spends forty yuan today."
+      },
+      "blankPy": "huā"
+    },
+    {
+      "type": "match",
+      "id": "s2-u08-t7",
+      "phrase": "s2-u08-w02",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Ten thousand.",
+          "right": {
+            "zh": "一万。",
+            "py": "yī wàn .",
+            "en": "Ten thousand."
+          }
+        },
+        {
+          "left": "One thousand.",
+          "right": {
+            "zh": "一千。",
+            "py": "yī qiān .",
+            "en": "One thousand."
+          }
+        },
+        {
+          "left": "One hundred million.",
+          "right": {
+            "zh": "一亿。",
+            "py": "yī yì .",
+            "en": "One hundred million."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u08-t8",
+      "phrase": "s2-u08-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "More than ten people.",
+          "right": {
+            "zh": "十多个人。",
+            "py": "shí duō gè rén .",
+            "en": "More than ten people."
+          }
+        },
+        {
+          "left": "A little over an hour.",
+          "right": {
+            "zh": "一个多小时。",
+            "py": "yī gè duō xiǎo shí .",
+            "en": "A little over an hour."
+          }
+        },
+        {
+          "left": "Exactly three people.",
+          "right": {
+            "zh": "正好三个人。",
+            "py": "zhèng hǎo sān gè rén .",
+            "en": "Exactly three people."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u08-t9",
+      "phrase": "s2-u08-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I am willing to help, but tonight is inconvenient.",
+          "right": {
+            "zh": "我愿意帮忙，但今晚不方便。",
+            "py": "wǒ yuàn yì bāng máng , dàn jīn wǎn bù fāng biàn .",
+            "en": "I am willing to help, but tonight is inconvenient."
+          }
+        },
+        {
+          "left": "Let us go on Saturday instead; would you like tea or coffee?",
+          "right": {
+            "zh": "还是星期六去吧，你想喝茶还是喝咖啡？",
+            "py": "hái shi xīng qī liù qù ba , nǐ xiǎng hē chá hái shi hē kā fēi ?",
+            "en": "Let us go on Saturday instead; would you like tea or coffee?"
+          }
+        },
+        {
+          "left": "The image is so small; do not guess the time that way.",
+          "right": {
+            "zh": "图片这么小，别那样猜时间。",
+            "py": "tú piàn zhè me xiǎo , bié nà yàng cāi shí jiān .",
+            "en": "The image is so small; do not guess the time that way."
+          }
+        },
+        {
+          "left": "The new notice is not here yet; I will ask the organizer.",
+          "right": {
+            "zh": "新的通知还没有，我去问主办方。",
+            "py": "xīn de tōng zhī hái méi yǒu , wǒ qù wèn zhǔ bàn fāng .",
+            "en": "The new notice is not here yet; I will ask the organizer."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "A personal budget",
+      "natural": {
+        "zh": "我这次预算一百五十，够就好。",
+        "py": "wǒ zhè cì yù suàn yī bǎi wǔ shí , gòu jiù hǎo .",
+        "en": "My budget this time is one hundred and fifty; enough is fine."
+      },
+      "note": "State your own limit without inferring someone else’s income."
+    },
+    {
+      "situation": "Unit clarification",
+      "natural": {
+        "zh": "你说的是块还是角？",
+        "py": "nǐ shuō de shì kuài hái shi jiǎo ?",
+        "en": "Do you mean yuan or jiao?"
+      },
+      "note": "Clarify the monetary unit before calculation; no currency exchange advice is provided."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u08-speak",
+    "title": "Our weekend budget",
+    "place": "A language-exchange meeting",
+    "context": "Agree spending limits and approximate numbers.",
+    "goal": "Calculate a shared cost without confusing currency and time",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "三个人分一百二十，多少？",
+        "pinyin": "sān gè rén fēn yī bǎi èr shí , duō shao ?",
+        "meaning": "How much is 120 shared among three?",
+        "intent": "Calculate an equal share",
+        "examples": [
+          "每人四十块。"
+        ],
+        "accept": [
+          "^每人四十块。[。！？]?$"
+        ]
+      },
+      {
+        "text": "这张卡能用吗？",
+        "pinyin": "zhè zhāng kǎ néng yòng ma ?",
+        "meaning": "Can we use this card?",
+        "intent": "Acknowledge uncertainty",
+        "examples": [
+          "还要问店里。"
+        ],
+        "accept": [
+          "^还要问店里。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二09, 二73. Native check: approximate-number ranges, monetary counter register, 分 as divide versus currency 分, 全 as an adverb, and the clipped original verse. Arithmetic is explicit; no actual income, financial advice or exchange rate is supplied. Planned retrieval 二03 / 二45 / 二07 / 二38: 我愿意帮忙，但今晚不方便。, 还是星期六去吧，你想喝茶还是喝咖啡？, 图片这么小，别那样猜时间。, 新的通知还没有，我去问主办方。."
+}

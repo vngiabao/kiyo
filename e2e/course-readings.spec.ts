@@ -46,7 +46,7 @@ for (const pack of latest) {
       await page.getByRole("tab", { name: "Readings" }).click();
       await page
         .locator(".reading-row")
-        .filter({ hasText: reading.title })
+        .filter({ has: page.getByText(reading.title, { exact: true }) })
         .click();
       await expect(page.locator(".reader-purpose")).toHaveText(reading.purpose);
       await expect(page.locator(".line-py")).toHaveCount(0);

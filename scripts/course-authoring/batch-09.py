@@ -8,10 +8,10 @@ character_groups.update({
 's2-u16':[('故','reason; in 故意'),('喊','to shout'),('睛','eye, in 眼睛'),('脸','face'),('嘴','mouth'),('头','head'),('哭','to cry'),('眼','eye'),('怕','to fear')],
 })
 unit_glosses.update({
-'s2-u13':{'迟到':'to arrive late','路口':'road intersection','预计':'to estimate','堵车':'traffic jam','改道':'to change route','安全':'safe; safety','准确':'accurate','站台':'platform; stop waiting area','发车':'departure of a vehicle'},
+'s2-u13':{'迟到':'to arrive late','路口':'road intersection','预计':'to estimate','堵车':'traffic jam','改道':'to change route','安全':'safe; safety','准确':'accurate','站台':'platform; stop waiting area','发车':'departure of a vehicle','顺利':'smoothly; without difficulties','位置':'position; location','距离':'distance','到达':'to arrive'},
 's2-u14':{'地址':'address','更新':'to update','信号':'signal','顺序':'sequence','确认':'to confirm','重发':'to resend','借书':'to borrow books','作业':'homework','入口':'entrance'},
-'s2-u15':{'态度':'attitude','语气':'tone of delivery','误会':'misunderstanding','理由':'reason','重点':'main point','核对':'to check against','版本':'version','同意':'to agree'},
-'s2-u16':{'玩笑':'joke; joking','误会':'misunderstanding','道歉':'to apologize','表情':'facial expression','生气':'to be angry','边界':'boundary','取笑':'to make fun of','尴尬':'awkward'},
+'s2-u15':{'态度':'attitude','语气':'tone of delivery','误会':'misunderstanding','理由':'reason','重点':'main point','核对':'to check against','版本':'version','同意':'to agree','负责':'to be responsible','却':'however; unexpectedly','妨碍':'to obstruct','取':'to fetch; take','好像':'to seem','哦':'oh; acknowledgement'},
+'s2-u16':{'玩笑':'joke; joking','误会':'misunderstanding','道歉':'to apologize','表情':'facial expression','生气':'to be angry','边界':'boundary','取笑':'to make fun of','尴尬':'awkward','剪':'to cut with scissors','继续':'to continue','需要':'to need','或者':'or; alternatively','或':'or; alternatively','保证':'to guarantee','暂时':'temporarily','解释':'to explain','掉':'off; result complement'},
 })
 dictionary.update({'一定':'yí dìng','司机':'sī jī','公共汽车':'gōng gòng qì chē','公交车':'gōng jiāo chē','车辆':'chē liàng','一直':'yì zhí','手表':'shǒu biǎo','信号':'xìn hào','快点儿':'kuài diǎnr','离开':'lí kāi','停车场':'tíng chē chǎng'})
 
@@ -244,7 +244,7 @@ text(u,'d','A joke that did not land','Find what was accidental and what must st
 ('你还笑话我说话慢。','You also ridiculed me for speaking slowly.'),('我是在开玩笑，但你不喜欢，我就不说了。','I was joking, but if you dislike it, I will stop.'),
 ('你是在开玩笑吧？我感觉你刚才是认真的。','You were joking, right? I felt you were serious just now.'),('我想说个笑话儿，没说好。拿错笔和笑话别人都不合适。','I wanted to tell a joke but did it badly. Taking the wrong pen and ridiculing someone are both inappropriate.'),
 ('我刚剪头发，你也说难看。','I just had my hair cut, and you also called it ugly.'),('对不起，不该这样说。你想换个话题吗？','Sorry, I should not have said that. Would you like to change the topic?'),
-('嗯，我好像有点儿想哭，但不是要你替我决定。','Yes. I feel a little like crying, but that does not mean I want you to decide for me.'),('明白。我不喊，也不继续讲可怕的故事。你需要什么帮助？','Understood. I will not shout or continue the frightening story. What help do you need?'),
+('好，我好像有点儿想哭，但不是要你替我决定。','Yes. I feel a little like crying, but that does not mean I want you to decide for me.'),('明白。我不喊，也不继续讲可怕的故事。你需要什么帮助？','Understood. I will not shout or continue the frightening story. What help do you need?'),
 ('把笔给我就行。小心，杯子在桌边。','Just give me the pen. Be careful; the cup is at the edge of the table.'),('好，我给你。你点头，我也不猜所有意思；有问题直接问。','Okay, here it is. When you nod, I will not guess every meaning; I will ask directly if unsure.')],
 [('mainidea','What makes the exchange improve?',['An apology, stopping unwanted teasing and asking what help is wanted','Insisting every joke is harmless','Deciding everything for the upset friend'],0),('detail','Why was the wrong pen taken?',['The speaker thought it was theirs','The friend asked for a story','The pen was a gift'],0),('inference','Does 不是故意的 mean no mistake occurred?',['No, the speaker acknowledges taking the wrong pen','Yes, the pen was never taken','Yes, the friend accepted all jokes'],0)],drama=True),
 text(u,'r','Ask before teasing again','Read for intention, effect and a clear boundary.',[

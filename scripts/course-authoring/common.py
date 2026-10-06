@@ -114,7 +114,10 @@ def text(uid, suffix, title, purpose, rows, qs, blanks=(), drama=False):
     return result
 
 def tasks(uid, words, spec):
-    def base(kind,i,word): return dict(type=kind,id=f'{uid}-t{i}',phrase=next(v['id'] for v in words if v['hanzi']==word))
+    def base(kind,i,word):
+        phrase=next((v['id'] for v in words if v['hanzi']==word),None)
+        assert phrase, (uid,word,'assessment anchor must be a vocabulary ID from this unit')
+        return dict(type=kind,id=f'{uid}-t{i}',phrase=phrase)
     result=[]
     for i,(w,zh,en,statement,truth,why) in enumerate(spec['tf'],1):
         result.append(dict(**base('truefalse',i,w),audio=line(zh,en),statement=statement,answer=truth,why=why))
@@ -165,7 +168,7 @@ def write(n, titleZh, canDo, wordrows, gs, dialogue, reading, media, practice, p
         assert ch not in earlier_characters, f'{uid}: {ch} already has an explicit earlier introduction'
         stroke=read(ROOT/'node_modules/hanzi-writer-data'/f'{ch}.json')
         examples=list({v['hanzi']:v for v in [*vs,*earlier_words] if ch in v['hanzi']}.values())[:2]
-        assert examples
+        assert examples, (uid,ch,'needs a taught word or a visible connected-text gloss')
         chars.append(dict(hanzi=ch,pinyin=character_readings.get(uid+':'+ch,py(ch)),meaning=meaning,strokes=len(stroke['strokes']),
             parts=[dict(form=ch,role='whole',gloss=meaning)],noteKind='usage',
             note=f"Recognize {ch} in {' / '.join(v['hanzi'] for v in examples)}. This usage note is not an origin or decomposition claim." + (' In 小孩儿, 儿 is an -r ending, not a separate ér syllable.' if ch=='儿' else '') + character_notes.get(uid+':'+ch,''),
@@ -179,6 +182,8 @@ def write(n, titleZh, canDo, wordrows, gs, dialogue, reading, media, practice, p
             turns=[dict(text=zh,pinyin=py(zh),meaning=en,intent=intent,examples=examples,
                 accept=[f'^{re.escape(e)}[。！？]?$' for e in examples]) for zh,en,intent,examples in turns]),
         notes='AI-assisted draft; native review pending. GF2021 grammar families: '+', '.join(g['code'] for g in p['grammar'])+'. '+flags)
+    from context_recycling import enrich
+    enrich(result,line,support)
     dest=ROOT/'content/packs'/f'{uid}.json'
     dest.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n','utf-8')
     print(uid, len(vs), 'words; authored source saved')

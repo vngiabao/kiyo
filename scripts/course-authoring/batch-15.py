@@ -8,10 +8,10 @@ character_groups.update({
 })
 dictionary.update({'姑娘':'gū niang','父亲':'fù qīn','母亲':'mǔ qīn','亲切':'qīn qiè','认得':'rèn de','个性':'gè xìng','性格':'xìng gé','熟人':'shú rén','长处':'cháng chù','害怕':'hài pà','各位':'gè wèi','各自':'gè zì','志愿者':'zhì yuàn zhě','需要':'xū yào','亲自':'qīn zì','麻烦':'má fan','互相':'hù xiāng','联系':'lián xì'})
 unit_glosses.update({
-'s3-u01':{'老李':'Li, familiarly addressed with 老','小李':'Li, familiarly addressed with 小','李':'Li, a fictional surname','称呼':'form of address','前缀':'prefix','后缀':'suffix','排行':'order among siblings','隐私':'privacy','当地':'local','祖父':'paternal grandfather','亲属':'relative','名单':'name list','专家':'specialist','泛指':'generic reference','部分':'part'},
-'s3-u02':{'报名':'to sign up','名单':'name list','要求':'requirement','条件':'condition','国籍':'nationality','限制':'restriction','选择':'choice; to choose','允许':'to allow','轮到':'to be someone’s turn','承诺':'promise','分组':'to form groups'},
-'s3-u03':{'工作人员':'staff member','招募':'to recruit','自愿':'voluntary','同意':'to agree','要求':'requirement','职责':'responsibility','轮流':'to take turns','登记':'to register','值班':'to be on duty','人数':'number of people','成员':'member'},
-'s3-u04':{'丈夫':'husband','夫人':'Mrs.; wife as a respectful title','亲友':'relatives and friends','预约':'appointment; to book','转达':'to pass on a message','事先':'beforehand','确认':'to confirm','联系人':'contact person','请求':'request','拒绝':'to refuse','婚礼':'wedding','理发师':'hairdresser'},
+'s3-u01':{'老李':'Li, familiarly addressed with 老','小李':'Li, familiarly addressed with 小','李':'Li, a fictional surname','称呼':'form of address','前缀':'prefix','后缀':'suffix','排行':'order among siblings','隐私':'privacy','当地':'local','祖父':'paternal grandfather','亲属':'relative','名单':'name list','专家':'specialist','泛指':'generic reference','部分':'part','陪同':'to accompany','判断':'to judge; establish'},
+'s3-u02':{'报名':'to sign up','名单':'name list','要求':'requirement','条件':'condition','国籍':'nationality','限制':'restriction','选择':'choice; to choose','允许':'to allow','轮到':'to be someone’s turn','承诺':'promise','分组':'to form groups','比赛':'competition'},
+'s3-u03':{'工作人员':'staff member','招募':'to recruit','自愿':'voluntary','同意':'to agree','要求':'requirement','职责':'responsibility','轮流':'to take turns','登记':'to register','值班':'to be on duty','人数':'number of people','成员':'member','内容':'content','限制':'restriction','诚实':'honest'},
+'s3-u04':{'丈夫':'husband','夫人':'Mrs.; wife as a respectful title','亲友':'relatives and friends','预约':'appointment; to book','转达':'to pass on a message','事先':'beforehand','确认':'to confirm','联系人':'contact person','请求':'request','拒绝':'to refuse','婚礼':'wedding','理发师':'hairdresser','无限':'unlimited','允许':'to allow'},
 })
 
 u='s3-u01'

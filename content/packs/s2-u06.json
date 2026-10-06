@@ -1,0 +1,1337 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u06",
+    "stage": 1,
+    "order": 36,
+    "title": "That post you sent me",
+    "titleZh": "你转发的那条消息",
+    "canDo": [
+      "Check a message’s date and source before acting",
+      "Use 这么/那么/这样/那样 for degree or manner",
+      "Identify a 的 phrase and an action sequence"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u05"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u06-w01",
+      "hanzi": "那么",
+      "pinyin": "nà me",
+      "meaning": "that much; so",
+      "meaningVi": "như vậy; đến thế",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "昨天没那么冷。",
+        "py": "zuó tiān méi nà me lěng .",
+        "en": "It was not that cold yesterday."
+      },
+      "usageNote": "[GF2021:L2:5745] Source entry: 那么; nàme; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w02",
+      "hanzi": "那样",
+      "pinyin": "nà yàng",
+      "meaning": "that way; like that",
+      "meaningVi": "như thế",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "别那样猜时间，先问清楚。",
+        "py": "bié nà yàng cāi shí jiān , xiān wèn qīng chu .",
+        "en": "Do not guess the time like that; ask clearly first."
+      },
+      "usageNote": "[GF2021:L2:5749] Source entry: 那样; nàyàng; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w03",
+      "hanzi": "这么",
+      "pinyin": "zhè me",
+      "meaning": "this much; so",
+      "meaningVi": "đến thế; như vậy",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这张图片怎么这么小？",
+        "py": "zhè zhāng tú piàn zěn me zhè me xiǎo ?",
+        "en": "Why is this picture so small?"
+      },
+      "usageNote": "[GF2021:L2:10335] Source entry: 这么; zhème; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w04",
+      "hanzi": "这样",
+      "pinyin": "zhè yàng",
+      "meaning": "this way; like this",
+      "meaningVi": "như thế này",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们这样做：先看日期，再问主办方。",
+        "py": "wǒ men zhè yàng zuò : xiān kàn rì qī , zài wèn zhǔ bàn fāng .",
+        "en": "Let us do it this way: check the date, then ask the organizer."
+      },
+      "usageNote": "[GF2021:L2:10338] Source entry: 这样; zhèyàng; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w05",
+      "hanzi": "原来",
+      "pinyin": "yuán lái",
+      "meaning": "originally; it turns out",
+      "meaningVi": "ban đầu; hóa ra",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "原来那张是上个月的。",
+        "py": "yuán lái nà zhāng shì shàng gè yuè de .",
+        "en": "It turns out that picture was from last month."
+      },
+      "usageNote": "[GF2021:L2:10004] Source entry: 原来; yuánlái; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w06",
+      "hanzi": "图片",
+      "pinyin": "tú piàn",
+      "meaning": "picture; image",
+      "meaningVi": "hình ảnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "图片上的时间已经改了。",
+        "py": "tú piàn shàng de shí jiān yǐ jīng gǎi le .",
+        "en": "The time shown in the image has changed."
+      },
+      "usageNote": "[GF2021:L2:8142] Source entry: 图片; túpiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w07",
+      "hanzi": "信息",
+      "pinyin": "xìn xī",
+      "meaning": "information; message",
+      "meaningVi": "thông tin; tin nhắn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个信息还要确认。",
+        "py": "zhè gè xìn xī hái yào què rèn .",
+        "en": "This information still needs confirmation."
+      },
+      "usageNote": "[GF2021:L2:9038] Source entry: 信息; xìnxī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w08",
+      "hanzi": "新闻",
+      "pinyin": "xīn wén",
+      "meaning": "news",
+      "meaningVi": "tin tức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "新闻说今天下雨，我们再看活动通知。",
+        "py": "xīn wén shuō jīn tiān xià yǔ , wǒ men zài kàn huó dòng tōng zhī .",
+        "en": "The news says it will rain today; let us also check the activity notice."
+      },
+      "usageNote": "[GF2021:L2:9023] Source entry: 新闻; xīnwén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w09",
+      "hanzi": "发",
+      "pinyin": "fā",
+      "meaning": "to send",
+      "meaningVi": "gửi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我发一条短信给你。",
+        "py": "wǒ fā yī tiáo duǎn xìn gěi nǐ .",
+        "en": "I will send you a text message."
+      },
+      "usageNote": "[GF2021:L2:2123] Source entry: 发; fā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w10",
+      "hanzi": "收",
+      "pinyin": "shōu",
+      "meaning": "to receive; collect",
+      "meaningVi": "nhận; thu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我每天收很多信息，不是每条都可靠。",
+        "py": "wǒ měi tiān shōu hěn duō xìn xī , bù shì měi tiáo dōu kě kào .",
+        "en": "I receive much information every day; not every message is reliable."
+      },
+      "usageNote": "[GF2021:L2:7348] Source entry: 收; shōu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w11",
+      "hanzi": "收到",
+      "pinyin": "shōu dào",
+      "meaning": "to receive successfully",
+      "meaningVi": "nhận được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你收到新的通知了吗？",
+        "py": "nǐ shōu dào xīn de tōng zhī le ma ?",
+        "en": "Have you received the new notice?"
+      },
+      "usageNote": "[GF2021:L2:7350] Source entry: 收到; shōudào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w12",
+      "hanzi": "表示",
+      "pinyin": "biǎo shì",
+      "meaning": "to express; indicate",
+      "meaningVi": "bày tỏ; biểu thị",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "他表示愿意帮忙，不是说活动已经开始。",
+        "py": "tā biǎo shì yuàn yì bāng máng , bù shì shuō huó dòng yǐ jīng kāi shǐ .",
+        "en": "He expressed willingness to help, not that the activity had already begun."
+      },
+      "usageNote": "[GF2021:L2:446] Source entry: 表示; biǎoshì; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w13",
+      "hanzi": "说明",
+      "pinyin": "shuō míng",
+      "meaning": "to explain; explanation",
+      "meaningVi": "giải thích; phần giải thích",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请说明这张图片是哪天的。",
+        "py": "qǐng shuō míng zhè zhāng tú piàn shì nǎ tiān de .",
+        "en": "Please explain which day this image is from."
+      },
+      "usageNote": "[GF2021:L2:7598] Source entry: 说明; shuōmíng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w14",
+      "hanzi": "清楚",
+      "pinyin": "qīng chu",
+      "meaning": "clear; clearly",
+      "meaningVi": "rõ ràng; rõ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "日期看不清楚，先别转发。",
+        "py": "rì qī kàn bù qīng chu , xiān bié zhuǎn fā .",
+        "en": "The date is not clear; do not forward it yet."
+      },
+      "usageNote": "[GF2021:L2:6484] Source entry: 清楚; qīngchu; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w15",
+      "hanzi": "发现",
+      "pinyin": "fā xiàn",
+      "meaning": "to discover; notice",
+      "meaningVi": "phát hiện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我发现地址和新的不同。",
+        "py": "wǒ fā xiàn dì zhǐ hé xīn de bù tóng .",
+        "en": "I noticed the address differs from the new one."
+      },
+      "usageNote": "[GF2021:L2:2157] Source entry: 发现; fāxiàn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w16",
+      "hanzi": "故事",
+      "pinyin": "gù shì",
+      "meaning": "story",
+      "meaningVi": "câu chuyện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个故事是朋友写的，不是新闻。",
+        "py": "zhè gè gù shì shì péng you xiě de , bù shì xīn wén .",
+        "en": "This story was written by a friend; it is not news."
+      },
+      "usageNote": "[GF2021:L2:2918] Source entry: 故事; gùshi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w17",
+      "hanzi": "照片",
+      "pinyin": "zhào piàn",
+      "meaning": "photograph",
+      "meaningVi": "ảnh chụp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "照片里有日期，你看看。",
+        "py": "zhào piàn lǐ yǒu rì qī , nǐ kàn kàn .",
+        "en": "There is a date in the photo; take a look."
+      },
+      "usageNote": "[GF2021:L2:10312] Source entry: 照片; zhàopiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w18",
+      "hanzi": "信",
+      "pinyin": "xìn",
+      "meaning": "letter",
+      "meaningVi": "thư",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这封信是朋友写的。",
+        "py": "zhè fēng xìn shì péng you xiě de .",
+        "en": "This letter was written by a friend."
+      },
+      "usageNote": "[GF2021:L2:9029] Source entry: 信; xìn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w19",
+      "hanzi": "短信",
+      "pinyin": "duǎn xìn",
+      "meaning": "text message",
+      "meaningVi": "tin nhắn văn bản",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "短信说活动改到星期六。",
+        "py": "duǎn xìn shuō huó dòng gǎi dào xīng qī liù .",
+        "en": "The text says the activity has moved to Saturday."
+      },
+      "usageNote": "[GF2021:L2:2002] Source entry: 短信; duǎnxìn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w20",
+      "hanzi": "通知",
+      "pinyin": "tōng zhī",
+      "meaning": "notice; to notify",
+      "meaningVi": "thông báo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "新的通知在网上。",
+        "py": "xīn de tōng zhī zài wǎng shàng .",
+        "en": "The new notice is online."
+      },
+      "usageNote": "[GF2021:L2:8051] Source entry: 通知; tōngzhī; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w21",
+      "hanzi": "一会儿",
+      "pinyin": "yí huìr",
+      "meaning": "a short while",
+      "meaningVi": "một lát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "等一会儿，我去问主办方。",
+        "py": "děng yí huìr , wǒ qù wèn zhǔ bàn fāng .",
+        "en": "Wait a moment; I will ask the organizer."
+      },
+      "usageNote": "[GF2021:L2:9508] Source entry: 一会儿; yíhuìr; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u06-w22",
+      "hanzi": "作用",
+      "pinyin": "zuò yòng",
+      "meaning": "function; effect",
+      "meaningVi": "tác dụng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个日期的作用是让我们知道是哪次活动。",
+        "py": "zhè gè rì qī de zuò yòng shì ràng wǒ men zhī dào shì nǎ cì huó dòng .",
+        "en": "The date lets us know which occurrence of the activity it refers to."
+      },
+      "usageNote": "[GF2021:L2:11074] Source entry: 作用; zuòyòng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "原",
+      "pinyin": "yuán",
+      "meaning": "original",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "原",
+          "role": "whole",
+          "gloss": "original"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 原 in 原来 / 原因. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "原来",
+          "p": "yuán lái",
+          "m": "original; originally"
+        },
+        {
+          "w": "原因",
+          "p": "yuán yīn",
+          "m": "reason; cause"
+        }
+      ]
+    },
+    {
+      "hanzi": "片",
+      "pinyin": "piàn",
+      "meaning": "piece; picture",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "片",
+          "role": "whole",
+          "gloss": "piece; picture"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 片 in 图片 / 照片. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "图片",
+          "p": "tú piàn",
+          "m": "picture; image"
+        },
+        {
+          "w": "照片",
+          "p": "zhào piàn",
+          "m": "photograph"
+        }
+      ]
+    },
+    {
+      "hanzi": "信",
+      "pinyin": "xìn",
+      "meaning": "letter; information",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "信",
+          "role": "whole",
+          "gloss": "letter; information"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 信 in 信息 / 信. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "信息",
+          "p": "xìn xī",
+          "m": "information; message"
+        },
+        {
+          "w": "信",
+          "p": "xìn",
+          "m": "letter"
+        }
+      ]
+    },
+    {
+      "hanzi": "闻",
+      "pinyin": "wén",
+      "meaning": "to hear",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "闻",
+          "role": "whole",
+          "gloss": "to hear"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 闻 in 新闻. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "新闻",
+          "p": "xīn wén",
+          "m": "news"
+        }
+      ]
+    },
+    {
+      "hanzi": "收",
+      "pinyin": "shōu",
+      "meaning": "to receive",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "收",
+          "role": "whole",
+          "gloss": "to receive"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 收 in 收 / 收到. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "收",
+          "p": "shōu",
+          "m": "to collect; clear away"
+        },
+        {
+          "w": "收到",
+          "p": "shōu dào",
+          "m": "to receive successfully"
+        }
+      ]
+    },
+    {
+      "hanzi": "表",
+      "pinyin": "biǎo",
+      "meaning": "to express; surface",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "表",
+          "role": "whole",
+          "gloss": "to express; surface"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 表 in 表示 / 月亮代表我的心. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "表示",
+          "p": "biǎo shì",
+          "m": "to express; indicate"
+        },
+        {
+          "w": "月亮代表我的心",
+          "p": "Yuèliang dàibiǎo wǒ de xīn",
+          "m": "\"The Moon Represents My Heart\", a classic love song"
+        }
+      ]
+    },
+    {
+      "hanzi": "示",
+      "pinyin": "shì",
+      "meaning": "to show",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "示",
+          "role": "whole",
+          "gloss": "to show"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 示 in 表示. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "表示",
+          "p": "biǎo shì",
+          "m": "to express; indicate"
+        }
+      ]
+    },
+    {
+      "hanzi": "楚",
+      "pinyin": "chǔ",
+      "meaning": "clear",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "楚",
+          "role": "whole",
+          "gloss": "clear"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 楚 in 清楚 / 讲清楚. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "清楚",
+          "p": "qīng chǔ",
+          "m": "clear; clearly"
+        },
+        {
+          "w": "讲清楚",
+          "p": "jiǎng qīng chǔ",
+          "m": "to explain clearly"
+        }
+      ]
+    },
+    {
+      "hanzi": "照",
+      "pinyin": "zhào",
+      "meaning": "to photograph; shine",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "照",
+          "role": "whole",
+          "gloss": "to photograph; shine"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 照 in 照片 / 照顾. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "照片",
+          "p": "zhào piàn",
+          "m": "photograph"
+        },
+        {
+          "w": "照顾",
+          "p": "zhào gù",
+          "m": "to look after"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u06-g二07",
+      "pattern": "这么 / 那么 / 这样 / 那样",
+      "purpose": "Separate degree from manner",
+      "explanation": "这么/那么 often indicate degree before adjectives: 这么小、那么冷. 这样/那样 often indicate manner: 这样做、那样猜. 这 points to the current or nearer context; 那 to a previously mentioned or more distant context. They are not automatically two different times. Compare 图片这么小 (degree) with 这样看日期 (method).",
+      "examples": [
+        {
+          "zh": "图片这么小，日期看不清楚。",
+          "py": "tú piàn zhè me xiǎo , rì qī kàn bù qīng chu .",
+          "en": "The picture is so small that the date is unclear."
+        },
+        {
+          "zh": "昨天没那么冷，今天冷多了。",
+          "py": "zuó tiān méi nà me lěng , jīn tiān lěng duō le .",
+          "en": "Yesterday was not that cold; today is much colder."
+        },
+        {
+          "zh": "我们这样做，别像昨天那样猜。",
+          "py": "wǒ men zhè yàng zuò , bié xiàng zuó tiān nà yàng cāi .",
+          "en": "Let us do it this way, rather than guess like yesterday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "图片这样小。",
+          "right": "图片这么小。",
+          "why": "For degree before 小, use 这么; 这样 is used here for the way an action is done."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u06-g二38",
+      "pattern": "的 phrase / successive verb phrases",
+      "purpose": "Recover an omitted noun and follow an action sequence",
+      "explanation": "A modifier + 的 can stand for a contextually known noun: 新的 means the new one when discussing notices; 朋友写的 means the one written by a friend. Do not assume a noun without context. A serial phrase describes one subject’s actions without a linking conjunction: 去问主办方、发短信告诉你. The later action can express purpose; order alone does not prove both actions are complete.",
+      "examples": [
+        {
+          "zh": "旧的通知我收到了，新的还没有。",
+          "py": "jiù de tōng zhī wǒ shōu dào le , xīn de hái méi yǒu .",
+          "en": "I received the old notice but not the new one."
+        },
+        {
+          "zh": "这封信是朋友写的，那张图片是老师发的。",
+          "py": "zhè fēng xìn shì péng you xiě de , nà zhāng tú piàn shì lǎo shī fā de .",
+          "en": "This letter was written by a friend; that image was sent by the teacher."
+        },
+        {
+          "zh": "我去问主办方，再发短信告诉你。",
+          "py": "wǒ qù wèn zhǔ bàn fāng , zài fā duǎn xìn gào sù nǐ .",
+          "en": "I will ask the organizer, then text you."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "新的已经改时间。",
+          "right": "新的通知已经改了时间。",
+          "why": "When the referent of 新的 is unclear, name the notice rather than leaving the reader to guess."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u06-d",
+    "title": "The old image",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the corrected day and what remains unconfirmed.",
+    "lines": [
+      {
+        "zh": "你收到我发的图片了吗？",
+        "py": "nǐ shōu dào wǒ fā de tú piàn le ma ?",
+        "en": "Did you receive the image I sent?",
+        "speaker": "a"
+      },
+      {
+        "zh": "收到了。这么小，日期看不清楚。",
+        "py": "shōu dào le . zhè me xiǎo , rì qī kàn bù qīng chu .",
+        "en": "Yes. It is so small that I cannot read the date clearly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "照片里写星期五晚上六点。我们那样安排吧？",
+        "py": "zhào piàn lǐ xiě xīng qī wǔ wǎn shang liù diǎn . wǒ men nà yàng ān pái ba ?",
+        "en": "The photo says Friday at six. Shall we arrange things that way?",
+        "speaker": "a"
+      },
+      {
+        "zh": "等一会儿。我发现地址和新的通知不同。",
+        "py": "děng yí huìr . wǒ fā xiàn dì zhǐ hé xīn de tōng zhī bù tóng .",
+        "en": "Wait a moment. I noticed the address differs from the new notice.",
+        "speaker": "b"
+      },
+      {
+        "zh": "原来那张是上个月的！",
+        "py": "yuán lái nà zhāng shì shàng gè yuè de !",
+        "en": "It turns out that one was from last month!",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。我们这样做：先看日期，再问主办方。",
+        "py": "duì . wǒ men zhè yàng zuò : xiān kàn rì qī , zài wèn zhǔ bàn fāng .",
+        "en": "Right. Let us check the date first, then ask the organizer.",
+        "speaker": "b"
+      },
+      {
+        "zh": "新闻说今天下雨，网上的信息这么多，我不知道哪条可靠。",
+        "py": "xīn wén shuō jīn tiān xià yǔ , wǎng shàng de xìn xī zhè me duō , wǒ bù zhī dào nǎ tiáo kě kào .",
+        "en": "The news says it will rain today; there is so much information online that I do not know which message is reliable.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先别转发。新的短信说活动改到星期六，但还没说明几点。",
+        "py": "xiān bié zhuǎn fā . xīn de duǎn xìn shuō huó dòng gǎi dào xīng qī liù , dàn hái méi shuō míng jǐ diǎn .",
+        "en": "Do not forward it yet. The new text says the activity has moved to Saturday but does not yet state the time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "朋友写的故事里也有星期六，我刚才看错了。",
+        "py": "péng you xiě de gù shì lǐ yě yǒu xīng qī liù , wǒ gāng cái kàn cuò le .",
+        "en": "My friend’s story also says Saturday; I misread it just now.",
+        "speaker": "a"
+      },
+      {
+        "zh": "故事不是通知。那封信是朋友写的，也不是主办方发的。",
+        "py": "gù shì bù shì tōng zhī . nà fēng xìn shì péng you xiě de , yě bù shì zhǔ bàn fāng fā de .",
+        "en": "A story is not a notice. That letter was written by a friend, not sent by the organizer.",
+        "speaker": "b"
+      },
+      {
+        "zh": "他表示愿意帮忙查时间。",
+        "py": "tā biǎo shì yuàn yì bāng máng chá shí jiān .",
+        "en": "He says he is willing to help check the time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。日期有作用，但还要看是谁发的。问清楚后再告诉大家。",
+        "py": "hǎo . rì qī yǒu zuò yòng , dàn hái yào kàn shì shéi fā de . wèn qīng chu hòu zài gào sù dà jiā .",
+        "en": "Good. The date matters, but we must also check who sent it. Tell everyone after confirming.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the sensible next action?",
+        "choices": [
+          "Confirm the current notice with its organizer",
+          "Forward the old image",
+          "Treat a story as the timetable"
+        ],
+        "answer": "Confirm the current notice with its organizer"
+      },
+      {
+        "type": "detail",
+        "q": "Which day is in the new text?",
+        "choices": [
+          "Saturday",
+          "Friday",
+          "Sunday"
+        ],
+        "answer": "Saturday"
+      },
+      {
+        "type": "inference",
+        "q": "Is six o’clock on Saturday confirmed?",
+        "choices": [
+          "No, the new message has not stated the time",
+          "Yes, all versions share the same time",
+          "Yes, a friend is willing to help"
+        ],
+        "answer": "No, the new message has not stated the time"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "日期",
+        "pinyin": "rì qī",
+        "meaning": "date"
+      },
+      {
+        "hanzi": "主办方",
+        "pinyin": "zhǔ bàn fāng",
+        "meaning": "organizer"
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      },
+      {
+        "hanzi": "转发",
+        "pinyin": "zhuǎn fā",
+        "meaning": "to forward"
+      },
+      {
+        "hanzi": "可靠",
+        "pinyin": "kě kào",
+        "meaning": "reliable"
+      },
+      {
+        "hanzi": "安排",
+        "pinyin": "ān pái",
+        "meaning": "arrangement; to arrange"
+      },
+      {
+        "hanzi": "封",
+        "pinyin": "fēng",
+        "meaning": "classifier for letters"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u06-r",
+    "title": "Before forwarding",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to distinguish a correction from an assumption.",
+    "lines": [
+      {
+        "zh": "朋友发了一张图片，我收到了，先看日期。",
+        "py": "péng you fā le yī zhāng tú piàn , wǒ shōu dào le , xiān kàn rì qī .",
+        "en": "My friend sent an image; I received it and checked the date first."
+      },
+      {
+        "zh": "图片这么小，照片里的字看不清楚。",
+        "py": "tú piàn zhè me xiǎo , zhào piàn lǐ de zì kàn bù qīng chu .",
+        "en": "The image was so small that the words in the photo were unclear."
+      },
+      {
+        "zh": "我发现地址和新的通知不同。原来图片是上个月的，写星期五晚上六点。",
+        "py": "wǒ fā xiàn dì zhǐ hé xīn de tōng zhī bù tóng . yuán lái tú piàn shì shàng gè yuè de , xiě xīng qī wǔ wǎn shang liù diǎn .",
+        "en": "I noticed the address differed from the new notice. The image was from last month and said Friday at six."
+      },
+      {
+        "zh": "新的短信说改到星期六，还没说明几点。不能那样猜，不能把旧时间当新时间。",
+        "py": "xīn de duǎn xìn shuō gǎi dào xīng qī liù , hái méi shuō míng jǐ diǎn . bù néng nà yàng cāi , bù néng bǎ jiù shí jiān dāng xīn shí jiān .",
+        "en": "The new text said Saturday but did not state the time. We must not guess or treat the old time as the new time."
+      },
+      {
+        "zh": "网上信息很多，新闻、通知、故事都有。朋友写的故事不是活动通知。",
+        "py": "wǎng shàng xìn xī hěn duō , xīn wén , tōng zhī , gù shì dōu yǒu . péng you xiě de gù shì bù shì huó dòng tōng zhī .",
+        "en": "There is much information online: news, notices and stories. A friend’s story is not an activity notice."
+      },
+      {
+        "zh": "那封信也是朋友写的，不是主办方发的。他表示愿意帮助我们。",
+        "py": "nà fēng xìn yě shì péng you xiě de , bù shì zhǔ bàn fāng fā de . tā biǎo shì yuàn yì bāng zhù wǒ men .",
+        "en": "That letter was also written by a friend, not sent by the organizer. He expressed willingness to help us."
+      },
+      {
+        "zh": "日期的作用是分清哪次活动，发信息的人也要问清楚。",
+        "py": "rì qī de zuò yòng shì fēn qīng nǎ cì huó dòng , fā xìn xī de rén yě yào wèn qīng chu .",
+        "en": "The date helps distinguish occurrences of the activity; we also need to check who sent the message."
+      },
+      {
+        "zh": "我们这样做：等一会儿，去问主办方，确认后发短信告诉大家。",
+        "py": "wǒ men zhè yàng zuò : děng yí huìr , qù wèn zhǔ bàn fāng , què rèn hòu fā duǎn xìn gào sù dà jiā .",
+        "en": "We will wait a moment, ask the organizer, then text everyone after confirmation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the writer verify?",
+        "choices": [
+          "Date, sender and current details",
+          "Only whether a picture is pretty",
+          "How many stories exist"
+        ],
+        "answer": "Date, sender and current details"
+      },
+      {
+        "type": "detail",
+        "q": "Which image had Friday at six?",
+        "choices": [
+          "Last month’s image",
+          "The newly confirmed image",
+          "A photo with no text"
+        ],
+        "answer": "Last month’s image"
+      },
+      {
+        "type": "inference",
+        "q": "Why avoid forwarding now?",
+        "choices": [
+          "Unconfirmed information might mislead friends",
+          "All messages are false",
+          "The organizer has refused to answer"
+        ],
+        "answer": "Unconfirmed information might mislead friends"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我发现地址和新的【通知】不同。原来图片是上个月的，写星期五晚上六点。",
+          "py": "wǒ fā xiàn dì zhǐ hé xīn de tōng zhī bù tóng . yuán lái tú piàn shì shàng gè yuè de , xiě xīng qī wǔ wǎn shang liù diǎn .",
+          "en": "I noticed the address differed from the new notice. The image was from last month and said Friday at six."
+        },
+        {
+          "zh": "我们这样做：等一会儿，去问主办方，确认后发【短信】告诉大家。",
+          "py": "wǒ men zhè yàng zuò : děng yí huìr , qù wèn zhǔ bàn fāng , què rèn hòu fā duǎn xìn gào sù dà jiā .",
+          "en": "We will wait a moment, ask the organizer, then text everyone after confirmation."
+        }
+      ],
+      "bank": [
+        "通知",
+        "短信",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "日期",
+        "pinyin": "rì qī",
+        "meaning": "date"
+      },
+      {
+        "hanzi": "主办方",
+        "pinyin": "zhǔ bàn fāng",
+        "meaning": "organizer"
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "旧",
+        "pinyin": "jiù",
+        "meaning": "old; previous"
+      },
+      {
+        "hanzi": "帮助",
+        "pinyin": "bāng zhù",
+        "meaning": "to help"
+      },
+      {
+        "hanzi": "封",
+        "pinyin": "fēng",
+        "meaning": "classifier for letters"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u06-media",
+      "title": "Wait before send",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about resisting a quick assumption.",
+      "lines": [
+        {
+          "zh": "这么小的图片，看不清。那样猜时间，不行。",
+          "py": "zhè me xiǎo de tú piàn , kàn bù qīng . nà yàng cāi shí jiān , bù xíng .",
+          "en": "Such a small image; unclear. Guessing the time that way will not do."
+        },
+        {
+          "zh": "旧的星期五，新的星期六。六点是哪次？先别说。",
+          "py": "jiù de xīng qī wǔ , xīn de xīng qī liù . liù diǎn shì nǎ cì ? xiān bié shuō .",
+          "en": "Old one Friday, new one Saturday. Which event has six o’clock? Do not say yet."
+        },
+        {
+          "zh": "照片有日期，信里有故事。朋友写的，不是通知。",
+          "py": "zhào piàn yǒu rì qī , xìn lǐ yǒu gù shì . péng you xiě de , bù shì tōng zhī .",
+          "en": "A photo has a date; a letter has a story. Written by a friend, not a notice."
+        },
+        {
+          "zh": "新闻信息，一条一条。发现不同，说明清楚。",
+          "py": "xīn wén xìn xī , yī tiáo yī tiáo . fā xiàn bù tóng , shuō míng qīng chu .",
+          "en": "News and messages, one by one. Notice a difference; explain clearly."
+        },
+        {
+          "zh": "等一会儿，去问问。这样做，再转发。",
+          "py": "děng yí huìr , qù wèn wèn . zhè yàng zuò , zài zhuǎn fā .",
+          "en": "Wait a moment and ask. Do it this way; then forward it."
+        },
+        {
+          "zh": "表示愿意，不是已经。收到新的，再告诉你。",
+          "py": "biǎo shì yuàn yì , bù shì yǐ jīng . shōu dào xīn de , zài gào sù nǐ .",
+          "en": "Willingness does not mean completion. Receive the new one, then tell you."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the contrast in 表示愿意，不是已经?",
+          "choices": [
+            "Offering help is not proof of completion",
+            "A letter cannot include a story",
+            "Every Saturday event is cancelled"
+          ],
+          "answer": "Offering help is not proof of completion"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "日期",
+          "pinyin": "rì qī",
+          "meaning": "date"
+        },
+        {
+          "hanzi": "转发",
+          "pinyin": "zhuǎn fā",
+          "meaning": "to forward"
+        },
+        {
+          "hanzi": "旧",
+          "pinyin": "jiù",
+          "meaning": "old; previous"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u06-t1",
+      "phrase": "s2-u06-w20",
+      "audio": {
+        "zh": "新的通知说星期六，还没说明几点。",
+        "py": "xīn de tōng zhī shuō xīng qī liù , hái méi shuō míng jǐ diǎn .",
+        "en": "The new notice says Saturday but does not state the time."
+      },
+      "statement": "The new time has been confirmed as six.",
+      "answer": false,
+      "why": "Only the day is given."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u06-t2",
+      "phrase": "s2-u06-w16",
+      "audio": {
+        "zh": "朋友写的是故事，不是活动通知。",
+        "py": "péng you xiě de shì gù shì , bù shì huó dòng tōng zhī .",
+        "en": "The friend wrote a story, not an activity notice."
+      },
+      "statement": "The text is not the activity notice.",
+      "answer": true,
+      "why": "The two text types are explicitly distinguished."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u06-t3",
+      "phrase": "s2-u06-w21",
+      "prompt": {
+        "zh": "你能现在告诉我几点吗？",
+        "py": "nǐ néng xiàn zài gào sù wǒ jǐ diǎn ma ?",
+        "en": "Can you tell me the time now?"
+      },
+      "choices": [
+        "等一会儿，我去问主办方。",
+        "图片太小。",
+        "朋友写了一个故事。"
+      ],
+      "answer": "等一会儿，我去问主办方。",
+      "why": "Ask for time to confirm rather than inventing a time."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u06-t4",
+      "phrase": "s2-u06-w13",
+      "prompt": {
+        "zh": "这张图片是哪次活动的？",
+        "py": "zhè zhāng tú piàn shì nǎ cì huó dòng de ?",
+        "en": "Which occurrence of the activity is this image from?"
+      },
+      "choices": [
+        "上个月的，不是这次的。",
+        "他表示愿意。",
+        "这样做吧。"
+      ],
+      "answer": "上个月的，不是这次的。",
+      "why": "Identify the dated occurrence."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u06-t5",
+      "phrase": "s2-u06-w15",
+      "line": {
+        "zh": "我【发现】地址和新的不同。",
+        "py": "wǒ fā xiàn dì zhǐ hé xīn de bù tóng .",
+        "en": "I noticed the address differed from the new one."
+      },
+      "blankPy": "fā xiàn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u06-t6",
+      "phrase": "s2-u06-w12",
+      "line": {
+        "zh": "他【表示】愿意帮忙。",
+        "py": "tā biǎo shì yuàn yì bāng máng .",
+        "en": "He expressed willingness to help."
+      },
+      "blankPy": "biǎo shì"
+    },
+    {
+      "type": "match",
+      "id": "s2-u06-t7",
+      "phrase": "s2-u06-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Do it this way: check the date first.",
+          "right": {
+            "zh": "这样做：先看日期。",
+            "py": "zhè yàng zuò : xiān kàn rì qī .",
+            "en": "Do it this way: check the date first."
+          }
+        },
+        {
+          "left": "The picture is so small.",
+          "right": {
+            "zh": "图片这么小。",
+            "py": "tú piàn zhè me xiǎo .",
+            "en": "The picture is so small."
+          }
+        },
+        {
+          "left": "Do not guess that way.",
+          "right": {
+            "zh": "别那样猜。",
+            "py": "bié nà yàng cāi .",
+            "en": "Do not guess that way."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u06-t8",
+      "phrase": "s2-u06-w11",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I have received the text.",
+          "right": {
+            "zh": "我已经收到短信。",
+            "py": "wǒ yǐ jīng shōu dào duǎn xìn .",
+            "en": "I have received the text."
+          }
+        },
+        {
+          "left": "I have not sent the text yet.",
+          "right": {
+            "zh": "我还没发短信。",
+            "py": "wǒ hái méi fā duǎn xìn .",
+            "en": "I have not sent the text yet."
+          }
+        },
+        {
+          "left": "The new one has not stated the time.",
+          "right": {
+            "zh": "新的还没说明时间。",
+            "py": "xīn de hái méi shuō míng shí jiān .",
+            "en": "The new one has not stated the time."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u06-tcontext-01",
+      "phrase": "s2-u06-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "It was not that cold yesterday.",
+          "right": {
+            "zh": "昨天没那么冷。",
+            "py": "zuó tiān méi nà me lěng .",
+            "en": "It was not that cold yesterday."
+          }
+        },
+        {
+          "left": "Do not guess the time like that; ask clearly first.",
+          "right": {
+            "zh": "别那样猜时间，先问清楚。",
+            "py": "bié nà yàng cāi shí jiān , xiān wèn qīng chu .",
+            "en": "Do not guess the time like that; ask clearly first."
+          }
+        },
+        {
+          "left": "Why is this picture so small?",
+          "right": {
+            "zh": "这张图片怎么这么小？",
+            "py": "zhè zhāng tú piàn zěn me zhè me xiǎo ?",
+            "en": "Why is this picture so small?"
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u06-t9",
+      "phrase": "s2-u06-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Let us check for ourselves first; have we understood the group’s book?",
+          "right": {
+            "zh": "咱们自己先看，小组的书读懂了吗？",
+            "py": "zán men zì jǐ xiān kàn , xiǎo zǔ de shū dú dǒng le ma ?",
+            "en": "Let us check for ourselves first; have we understood the group’s book?"
+          }
+        },
+        {
+          "left": "You may go; he might come.",
+          "right": {
+            "zh": "你可以去，他可能会来。",
+            "py": "nǐ kě yǐ qù , tā kě néng huì lái .",
+            "en": "You may go; he might come."
+          }
+        },
+        {
+          "left": "Why choose here? What kind of restaurant would you like?",
+          "right": {
+            "zh": "为什么选这里？你想去什么样的饭馆？",
+            "py": "wèi shén me xuǎn zhè lǐ ? nǐ xiǎng qù shén me yàng de fàn guǎn ?",
+            "en": "Why choose here? What kind of restaurant would you like?"
+          }
+        },
+        {
+          "left": "How do we get there, and how long does it take?",
+          "right": {
+            "zh": "怎样去，要多久？",
+            "py": "zěn yàng qù , yào duō jiǔ ?",
+            "en": "How do we get there, and how long does it take?"
+          }
+        },
+        {
+          "left": "Who is coming, where do we meet, and when do we leave?",
+          "right": {
+            "zh": "谁来，哪里见，什么时候走？",
+            "py": "shéi lái , nǎ lǐ jiàn , shén me shí hou zǒu ?",
+            "en": "Who is coming, where do we meet, and when do we leave?"
+          }
+        },
+        {
+          "left": "Which dish, how many people, how much money, and how do we pay?",
+          "right": {
+            "zh": "什么菜，几个人，多少钱，怎么付？",
+            "py": "shén me cài , jǐ gè rén , duō shao qián , zěn me fù ?",
+            "en": "Which dish, how many people, how much money, and how do we pay?"
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Unconfirmed details",
+      "natural": {
+        "zh": "星期六可以，几点还要确认。",
+        "py": "xīng qī liù kě yǐ , jǐ diǎn hái yào què rèn .",
+        "en": "Saturday is possible; the time still needs confirmation."
+      },
+      "note": "Separate the known day from an unconfirmed time."
+    },
+    {
+      "situation": "A gentle correction",
+      "natural": {
+        "zh": "原来那张是上个月的。",
+        "py": "yuán lái nà zhāng shì shàng gè yuè de .",
+        "en": "It turns out that one was from last month."
+      },
+      "note": "Point out the dated source without calling the friend careless."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u06-speak",
+    "title": "That post you sent me",
+    "place": "A language-exchange meeting",
+    "context": "Refer back to a post without repeating everything.",
+    "goal": "Check a message’s date and source before acting",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你收到图片了吗？",
+        "pinyin": "nǐ shōu dào tú piàn le ma ?",
+        "meaning": "Did you receive the image?",
+        "intent": "Confirm receipt without validating the contents",
+        "examples": [
+          "收到了，但日期看不清楚。"
+        ],
+        "accept": [
+          "^收到了，但日期看不清楚。[。！？]?$"
+        ]
+      },
+      {
+        "text": "那就六点见？",
+        "pinyin": "nà jiù liù diǎn jiàn ?",
+        "meaning": "Then meet at six?",
+        "intent": "Reject an unsupported assumption",
+        "examples": [
+          "几点还要问清楚。"
+        ],
+        "accept": [
+          "^几点还要问清楚。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二07, 二38. Native check: the degree/manner contrasts, natural use of 表示 and nominal 的 phrases, and the clipped original scene. The corrected day is Saturday; no new clock time is confirmed. Reference letters/stories are original, not real news. Planned retrieval 二06 / 二37 / 二01 / 二05 / 二76: 咱们自己先看，小组的书读懂了吗？, 你可以去，他可能会来。, 为什么选这里？你想去什么样的饭馆？, 怎样去，要多久？, 谁来，哪里见，什么时候走？, 什么菜，几个人，多少钱，怎么付？."
+}

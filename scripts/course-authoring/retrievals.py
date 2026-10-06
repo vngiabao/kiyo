@@ -196,6 +196,114 @@ RETRIEVALS.update({
 ('我想读报纸，你呢？','I want to read a newspaper; what about you?')]),
 })
 
+RETRIEVALS.update({
+'s3-u01':('二35 / 二42 / 二36 / 二49 / 二50 / 二57',[
+('喂，你好，有空的话来坐一会儿。','Hello; if free, come visit briefly.'),
+('不一会儿，她回了消息。','A short while later, she replied.'),
+('先把面粉取出来，再称一百克。','Take the flour out first, then weigh a hundred grams.'),
+('请她把杯子端出来。','Ask her to bring the cups out.')]),
+'s3-u02':('二44 / 二63 / 二68',[
+('她不但能读，而且能说。','She can not only read but also speak.'),
+('越练越清楚，还不是完美。','Practice makes it clearer, but it is not yet perfect.'),
+('因为分工清楚，所以没有重复做。','Because responsibilities were clear, the work was not duplicated.')]),
+'s3-u03':('二48 / 二54 / 三01 / 三02',[
+('姐姐是商人，我是学生。','My elder sister is a businessperson; I am a student.'),
+('今天星期三，这本书三十五块。','Today is Wednesday; this book costs thirty-five yuan.'),
+('老李是称呼，不能直接猜他的年龄。','Old Li is an address form; do not directly infer his age.'),
+('朋友们看包里头的书，桌子上的笔先别动。','The friends look at the books inside the bag; leave the pens on the table for now.')]),
+'s3-u04':('二49 / 二50 / 二57 / 三03 / 三07',[
+('请她把杯子端出来。','Ask her to bring the cups out.'),
+('先取出面粉，再称一百克。','Take out the flour first, then weigh a hundred grams.'),
+('谁都可以只听，不一定参加比赛。','Anyone may just listen; entering the competition is not required.'),
+('不敢参加，不等于没有能力。','Not daring to join does not imply lacking ability.')]),
+'s3-u05':('二68 / 三04 / 三08',[
+('因为分工清楚，所以没有重复做。','Because responsibilities were clear, the work was not duplicated.'),
+('每个人都先看自己的任务。','Everyone first checks their own task.'),
+('需要帮忙，先问对方有没有空。','When help is needed, first ask whether the other person is free.'),
+('任何人都可以问，不必已经有答案。','Anyone may ask; already having the answer is unnecessary.')]),
+'s3-u06':('三01 / 三02 / 三05 / 三57',[
+('老李是称呼，不能直接猜他的年龄。','Old Li is an address form; do not directly infer his age.'),
+('朋友们看包里头的书。','The friends look at the books inside the bag.'),
+('下午理个发，再跟朋友谈一谈话。','Have a haircut in the afternoon, then have a chat with a friend.'),
+('请她问一下朋友，不能替朋友答应。','Ask her to ask her friend; she cannot agree on the friend’s behalf.')]),
+'s3-u07':('三03 / 三07 / 三06 / 三46',[
+('谁都可以只听，不一定参加比赛。','Anyone may just listen; competition entry is not required.'),
+('不敢参加，不等于没有能力。','Not daring to join does not imply lacking ability.'),
+('文件打得开，日期还没核对。','The file can open; its date has not been checked.'),
+('找了十分钟，终于找到了。','Searched for ten minutes and finally found it.')]),
+'s3-u08':('三04 / 三08 / 三09 / 三10',[
+('每个人都先看自己的任务。','Everyone first checks their own task.'),
+('需要帮忙，先问对方有没有空。','When help is needed, ask whether the other person is free first.'),
+('两双筷子，通常是四根。','Two pairs of chopsticks normally contain four individual sticks.'),
+('看了一眼，还要仔细读。','After a glance, one still needs to read carefully.')]),
+'s3-u09':('三05 / 三57 / 三11 / 三33',[
+('下午理个发，再跟朋友谈一谈话。','Have a haircut in the afternoon, then have a chat with a friend.'),
+('请她问一下朋友，不能替朋友答应。','Ask her to ask her friend; she cannot agree on the friend’s behalf.'),
+('张张纸都有标题，一张一张地看。','Every sheet has a heading; read them one at a time.'),
+('六个人四张纸，还缺两张。','Six people and four sheets: two more sheets are needed.')]),
+'s3-u10':('三06 / 三46 / 三12 / 三58',[
+('文件打得开，日期还没核对。','The file can open; its date has not been checked.'),
+('找了十分钟，终于找到了。','Searched for ten minutes and finally found it.'),
+('今天更加清楚，不等于一定更快。','Clearer today does not mean necessarily faster.'),
+('不比她快，可能一样快。','Not faster than her; possibly equally fast.')]),
+'s3-u11':('三09 / 三10 / 三13 / 三37',[
+('两双筷子，通常是四根。','Two pairs of chopsticks normally contain four individual sticks.'),
+('看了一眼，还要仔细读。','After a glance, one still needs to read carefully.'),
+('至少提前一天，提前两天也可以。','At least one day ahead; two days ahead is also acceptable.'),
+('材料有的是，名额还要确认。','Materials are plentiful; places still need confirmation.')]),
+'s3-u12':('三11 / 三33 / 三14 / 三21',[
+('张张纸都有标题，一张一张地看。','Every sheet has a heading; read them one at a time.'),
+('六个人四张纸，还缺两张。','Six people and four sheets: two more sheets are needed.'),
+('她曾经住这里，旧店早已搬走。','She once lived here; the old shop moved away long ago.'),
+('自从毕业，我们很少见面。','Since graduation we have rarely met.')]),
+})
+
+RETRIEVALS.update({
+'s3-u13':('三12 / 三58 / 三15 / 三51',[
+('今天更加清楚，不等于一定更快。','Clearer today does not necessarily mean faster.'),
+('不比她快，可能一样快。','Not faster than her; possibly equally fast.'),
+('通常周末散步，今天只走了二十分钟。','Usually walk on weekends; today walked only twenty minutes.'),
+('连续两天不等于坚持了一年。','Two consecutive days do not mean a year of perseverance.')]),
+'s3-u14':('三13 / 三37 / 三16 / 三17',[
+('至少提前一天，提前两天也可以。','At least one day ahead; two days ahead is fine too.'),
+('材料有的是，名额还要确认。','Materials are plentiful; places still need confirmation.'),
+('等听清楚了再加快。','Increase speed after hearing clearly.'),
+('我亲自读，你帮我听。','I read personally; you help listen.')]),
+'s3-u15':('三14 / 三21 / 三18 / 三69',[
+('她曾经住这里，旧店早已搬走。','She once lived here; the old shop moved long ago.'),
+('自从毕业，我们很少见面。','Since graduation we have rarely met.'),
+('她大概六点到，还没确认。','She will probably arrive at six; it is unconfirmed.'),
+('要是下雨，就在室内见。','If it rains, meet indoors.')]),
+'s3-u16':('三15 / 三51 / 三19 / 三76',[
+('通常周末散步，今天只走了二十分钟。','Usually walk on weekends; today walked only twenty minutes.'),
+('连续两天不等于坚持了一年。','Two consecutive days do not mean a year of perseverance.'),
+('活动并没有取消，只是换了房间。','The event is not cancelled; only the room changed.'),
+('难道旧图片就能证明今天取消了吗？','Can an old picture really prove today’s cancellation?')]),
+})
+
+RETRIEVALS.update({
+'s3-u17':('三16 / 三17 / 三20 / 三29',[
+('等听清楚了再加快。','Increase speed after hearing clearly.'),
+('我亲自读，你帮我听。','I read personally; you help listen.'),
+('活动由学生举办。','Students organize the event.'),
+('按名单分组，不按到达时间。','Group according to the list, not arrival time.')]),
+'s3-u18':('三18 / 三69 / 三22 / 三47',[
+('她大概六点到，还没确认。','She will probably arrive at six; it is unconfirmed.'),
+('要是下雨，就在室内见。','If it rains, meet indoors.'),
+('朝门口走，还没说是否到达。','Walk toward the doorway; arrival has not been established.'),
+('我在二楼，你上来。','I am on the second floor; come up.')]),
+'s3-u19':('三19 / 三76 / 三23 / 三40',[
+('活动并没有取消，只是换了房间。','The event is not cancelled; only the room changed.'),
+('难道旧图片就能证明今天取消了吗？','Can an old picture really prove today’s cancellation?'),
+('我为她担心，也尊重她的选择。','I worry about her and also respect her choice.'),
+('对我来说，安静很重要。','For me, quiet matters.')]),
+'s3-u20':('三20 / 三29 / 三24 / 三41',[
+('活动由学生举办。','Students organize the event.'),
+('按名单分组，不按到达时间。','Group according to the list, not arrival time.'),
+('向主人问清楚时间。','Ask the host to clarify the time.'),
+('像平时一样，先问时间。','As usual, ask the time first.')]),
+})
+
 def apply(first, last):
     apply_ids(list(range(first,last+1)))
 

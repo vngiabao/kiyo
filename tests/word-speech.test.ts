@@ -12,10 +12,23 @@ it("separates the reading of a word from its glyph's default reading", () => {
   expect(wordSpeech("们", "men")).toBe("朋友们");
   expect(wordSpeech("子", "zi")).toBe("桌子");
   expect(wordSpeech("子", "zǐ")).toBe("子");
+  expect(wordSpeech("头", "tou")).toBe("里头");
+  expect(wordSpeech("头", "tóu")).toBe("头");
+  expect(wordSpeech("得", "de")).toBe("说得清楚");
+  expect(wordSpeech("得", "dé")).toBe("得到");
+  expect(wordSpeech("得", "děi")).toBe("我得去");
+  expect(wordSpeech("过", "guo")).toBe("去过");
+  expect(wordSpeech("过", "guò")).toBe("过");
+  expect(wordSpeech("长", "zhǎng")).toBe("长大");
+  expect(wordSpeech("长", "cháng")).toBe("很长");
+  expect(wordSpeech("行", "háng")).toBe("一行字");
+  expect(wordSpeech("行", "xíng")).toBe("行");
+  expect(wordSpeech("只", "zhī")).toBe("一只猫");
+  expect(wordSpeech("只", "zhǐ")).toBe("只");
   expect(wordSpeech("你好", "nǐ hǎo")).toBe("你好");
 });
 
 it("compiled course word audio retains its taught reading", () => {
-  for (const p of phrases.filter((p) => p.id.startsWith("s") && ["干", "地", "还", "们", "子"].includes(p.hanzi)))
+  for (const p of phrases.filter((p) => p.id.startsWith("s") && ["干", "地", "还", "们", "子", "头", "得", "过", "长", "行", "只"].includes(p.hanzi)))
     expect(p.audio.text, `${p.id}: ${p.pinyin}`).toBe(wordSpeech(p.hanzi, p.pinyin));
 });

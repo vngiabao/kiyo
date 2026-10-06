@@ -12,7 +12,13 @@ unit_glosses.update({
 's2-u07':{'尺寸':'size','合身':'fits the body','围巾':'scarf','舒服':'comfortable','正式':'formal','宽':'wide','搭配':'to coordinate clothes','要求':'requirement'},
 's2-u08':{'预算':'budget','总数':'total number','平均':'average','费用':'cost','每人':'per person','付款':'payment','兑换':'exchange currency','标签':'label','小数':'decimal','记账':'to keep accounts'},
 })
-dictionary.update({'复习':'fù xí','练习':'liàn xí','一会儿':'yí huìr','成绩':'chéng jì','清楚':'qīng chu','凉':'liáng','表示':'biǎo shì','数':'shǔ'})
+unit_glosses['s2-u05'].update({'理解':'to understand','等于':'to equal','到底':'to the end; after all'})
+unit_glosses['s2-u06'].update({'安排':'arrangement; to arrange','信封':'envelope','检查':'to check','旧':'old; previous','帮助':'to help'})
+unit_glosses['s2-u07'].update({'统一':'uniform; to unify','合格':'meets the criteria; qualified','担心':'to worry','保存':'to save; keep','决定':'to decide','成绩':'result; grade','用于':'used for'})
+unit_glosses['s2-u08'].update({'分成':'to divide into','份':'portion; share','付':'to pay','剩':'to remain; remaining','看成':'to regard as','现金':'cash','哈哈':'ha-ha; laughter','分清':'to distinguish clearly','当':'to regard as; act as','准确':'accurate','练习':'practice; to practise','概数':'approximate number','时':'when; time','代替':'to replace; act in place of','单位':'unit'})
+unit_glosses['s2-u06']['封']='classifier for letters'
+unit_glosses['s2-u07'].update({'价格':'price','存在':'to exist'})
+dictionary.update({'复习':'fù xí','练习':'liàn xí','一会儿':'yí huìr','成绩':'chéng jì','清楚':'qīng chu','凉':'liáng','表示':'biǎo shì','数':'shǔ','照片':'zhào piàn'})
 
 u='s2-u05'
 vocabulary_readings[u+':回']='huí'
