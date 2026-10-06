@@ -1,0 +1,1390 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u10",
+    "stage": 1,
+    "order": 40,
+    "title": "Before the show starts",
+    "titleZh": "开场以前",
+    "canDo": [
+      "Keep event time separate from meeting time",
+      "Use week and duration counters",
+      "Explain what is about to happen"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u09"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u10-w01",
+      "hanzi": "周",
+      "pinyin": "zhōu",
+      "meaning": "week",
+      "meaningVi": "tuần",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们一周见一次。",
+        "py": "wǒ men yī zhōu jiàn yī cì .",
+        "en": "We meet once a week."
+      },
+      "usageNote": "[GF2021:L2:10681] Source entry: 周; zhōu; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w02",
+      "hanzi": "上周",
+      "pinyin": "shàng zhōu",
+      "meaning": "last week",
+      "meaningVi": "tuần trước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "上周我们去了学校。",
+        "py": "shàng zhōu wǒ men qù le xué xiào .",
+        "en": "Last week we went to the school."
+      },
+      "usageNote": "[GF2021:L2:6984] Source entry: 上周; shàng zhōu; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w03",
+      "hanzi": "下周",
+      "pinyin": "xià zhōu",
+      "meaning": "next week",
+      "meaningVi": "tuần sau",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "下周再看一次演出。",
+        "py": "xià zhōu zài kàn yī cì yǎn chū .",
+        "en": "We will see another performance next week."
+      },
+      "usageNote": "[GF2021:L2:8709] Source entry: 下周; xià zhōu; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w04",
+      "hanzi": "学期",
+      "pinyin": "xué qī",
+      "meaning": "school term",
+      "meaningVi": "học kỳ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个学期每周都有活动。",
+        "py": "zhè gè xué qī měi zhōu dōu yǒu huó dòng .",
+        "en": "There is an activity every week this term."
+      },
+      "usageNote": "[GF2021:L2:9210] Source entry: 学期; xuéqī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w05",
+      "hanzi": "周年",
+      "pinyin": "zhōu nián",
+      "meaning": "anniversary; full year",
+      "meaningVi": "năm tròn; kỷ niệm năm",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是学校十周年的节目。",
+        "py": "zhè shì xué xiào shí zhōu nián de jié mù .",
+        "en": "This is the programme for the school’s tenth anniversary."
+      },
+      "usageNote": "[GF2021:L2:10686] Source entry: 周年; zhōunián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w06",
+      "hanzi": "不久",
+      "pinyin": "bù jiǔ",
+      "meaning": "soon; not long",
+      "meaningVi": "không lâu; chẳng bao lâu",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不久以后，还会有新节目。",
+        "py": "bù jiǔ yǐ hòu , hái huì yǒu xīn jié mù .",
+        "en": "There will be another new programme before long."
+      },
+      "usageNote": "[GF2021:L2:597] Source entry: 不久; bùjiǔ; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w07",
+      "hanzi": "就要",
+      "pinyin": "jiù yào",
+      "meaning": "about to; soon going to",
+      "meaningVi": "sắp; chuẩn bị",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "节目就要开始了，先坐好。",
+        "py": "jié mù jiù yào kāi shǐ le , xiān zuò hǎo .",
+        "en": "The programme is about to begin; take your seat first."
+      },
+      "usageNote": "[GF2021:L2:4452] Source entry: 就要; jiùyào; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w08",
+      "hanzi": "快要",
+      "pinyin": "kuài yào",
+      "meaning": "nearly about to",
+      "meaningVi": "sắp sửa",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "快要七点了，先看时间。",
+        "py": "kuài yào qī diǎn le , xiān kàn shí jiān .",
+        "en": "It is nearly seven; check the time first."
+      },
+      "usageNote": "[GF2021:L2:4838] Source entry: 快要; kuàiyào; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w09",
+      "hanzi": "以后",
+      "pinyin": "yǐ hòu",
+      "meaning": "after; later",
+      "meaningVi": "sau; về sau",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "散场以后，我们去喝茶。",
+        "py": "sàn chǎng yǐ hòu , wǒ men qù hē chá .",
+        "en": "After the show ends, we will have tea."
+      },
+      "usageNote": "[GF2021:L2:9562] Source entry: 以后; yǐhòu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w10",
+      "hanzi": "以前",
+      "pinyin": "yǐ qián",
+      "meaning": "before; formerly",
+      "meaningVi": "trước; trước đây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "开场以前先检票。",
+        "py": "kāi chǎng yǐ qián xiān jiǎn piào .",
+        "en": "Tickets are checked before the show starts."
+      },
+      "usageNote": "[GF2021:L2:9567] Source entry: 以前; yǐqián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w11",
+      "hanzi": "刚",
+      "pinyin": "gāng",
+      "meaning": "just",
+      "meaningVi": "vừa",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我刚到，你在哪儿？",
+        "py": "wǒ gāng dào , nǐ zài nǎr ?",
+        "en": "I just arrived; where are you?"
+      },
+      "usageNote": "[GF2021:L2:2611] Source entry: 刚; gāng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w12",
+      "hanzi": "刚才",
+      "pinyin": "gāng cái",
+      "meaning": "just now",
+      "meaningVi": "vừa nãy",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "刚才收到的是旧通知。",
+        "py": "gāng cái shōu dào de shì jiù tōng zhī .",
+        "en": "What we received just now was the old notice."
+      },
+      "usageNote": "[GF2021:L2:2612] Source entry: 刚才; gāngcái; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w13",
+      "hanzi": "刚刚",
+      "pinyin": "gāng gāng",
+      "meaning": "just; only just",
+      "meaningVi": "vừa mới",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "新通知刚刚发来。",
+        "py": "xīn tōng zhī gāng gāng fā lái .",
+        "en": "The new notice has only just arrived."
+      },
+      "usageNote": "[GF2021:L2:2613] Source entry: 刚刚; gānggāng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w14",
+      "hanzi": "这时",
+      "pinyin": "zhè shí",
+      "meaning": "at this time",
+      "meaningVi": "lúc này",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这时灯还亮着，节目没开始。",
+        "py": "zhè shí dēng hái liàng zhe , jié mù méi kāi shǐ .",
+        "en": "At this time the lights are still on; the programme has not started."
+      },
+      "usageNote": "[GF2021:L2:10336] Source entry: 这时候∣这时; zhè shíhou∣zhè shí; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w15",
+      "hanzi": "停",
+      "pinyin": "tíng",
+      "meaning": "to stop",
+      "meaningVi": "dừng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先停一下，看看票上的时间。",
+        "py": "xiān tíng yī xià , kàn kàn piào shàng de shí jiān .",
+        "en": "Stop for a moment and check the time on the ticket."
+      },
+      "usageNote": "[GF2021:L2:8014] Source entry: 停; tíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w16",
+      "hanzi": "灯",
+      "pinyin": "dēng",
+      "meaning": "lamp; light",
+      "meaningVi": "đèn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "灯暗了以后，别到处走。",
+        "py": "dēng àn le yǐ hòu , bié dào chù zǒu .",
+        "en": "After the lights dim, do not walk around."
+      },
+      "usageNote": "[GF2021:L2:1703] Source entry: 灯; dēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w17",
+      "hanzi": "节目",
+      "pinyin": "jié mù",
+      "meaning": "programme; performance item",
+      "meaningVi": "chương trình; tiết mục",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "节目七点开始，不是六点半。",
+        "py": "jié mù qī diǎn kāi shǐ , bù shì liù diǎn bàn .",
+        "en": "The programme starts at seven, not half past six."
+      },
+      "usageNote": "[GF2021:L2:4174] Source entry: 节目; jiémù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w18",
+      "hanzi": "后来",
+      "pinyin": "hòu lái",
+      "meaning": "afterwards",
+      "meaningVi": "sau đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "后来我们发现集合时间改了。",
+        "py": "hòu lái wǒ men fā xiàn jí hé shí jiān gǎi le .",
+        "en": "Afterwards we discovered that the meeting time had changed."
+      },
+      "usageNote": "[GF2021:L2:3375] Source entry: 后来; hòulái; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w19",
+      "hanzi": "不一会儿",
+      "pinyin": "bù yí huìr",
+      "meaning": "in a little while",
+      "meaningVi": "chẳng bao lâu",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不一会儿，朋友就到了。",
+        "py": "bù yí huìr , péng you jiù dào le .",
+        "en": "Our friend arrived in a little while."
+      },
+      "usageNote": "[GF2021:L2:627] Source entry: 不一会儿; bù yíhuìr; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w20",
+      "hanzi": "半夜",
+      "pinyin": "bàn yè",
+      "meaning": "middle of the night",
+      "meaningVi": "nửa đêm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "别等到半夜才发消息。",
+        "py": "bié děng dào bàn yè cái fā xiāo xī .",
+        "en": "Do not wait until the middle of the night to send the message."
+      },
+      "usageNote": "[GF2021:L2:152] Source entry: 半夜; bànyè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w21",
+      "hanzi": "夜里",
+      "pinyin": "yè lǐ",
+      "meaning": "at night",
+      "meaningVi": "ban đêm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "夜里回家，先看还有没有车。",
+        "py": "yè lǐ huí jiā , xiān kàn hái yǒu méi yǒu chē .",
+        "en": "When going home at night, check whether transport is still running."
+      },
+      "usageNote": "[GF2021:L2:9453] Source entry: 夜里; yè·lǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u10-w22",
+      "hanzi": "早晨",
+      "pinyin": "zǎo chén",
+      "meaning": "early morning",
+      "meaningVi": "sáng sớm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "早晨我先看了新通知。",
+        "py": "zǎo chén wǒ xiān kàn le xīn tōng zhī .",
+        "en": "I checked the new notice in the early morning."
+      },
+      "usageNote": "[GF2021:L2:10158] Source entry: 早晨; zǎochen; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "周",
+      "pinyin": "zhōu",
+      "meaning": "week; cycle",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "周",
+          "role": "whole",
+          "gloss": "week; cycle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 周 in 周 / 上周. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "周",
+          "p": "zhōu",
+          "m": "week"
+        },
+        {
+          "w": "上周",
+          "p": "shàng zhōu",
+          "m": "last week"
+        }
+      ]
+    },
+    {
+      "hanzi": "晨",
+      "pinyin": "chén",
+      "meaning": "early morning",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "晨",
+          "role": "whole",
+          "gloss": "early morning"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 晨 in 早晨. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "早晨",
+          "p": "zǎo chén",
+          "m": "early morning"
+        }
+      ]
+    },
+    {
+      "hanzi": "夜",
+      "pinyin": "yè",
+      "meaning": "night",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "夜",
+          "role": "whole",
+          "gloss": "night"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 夜 in 半夜 / 夜里. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "半夜",
+          "p": "bàn yè",
+          "m": "middle of the night"
+        },
+        {
+          "w": "夜里",
+          "p": "yè lǐ",
+          "m": "at night"
+        }
+      ]
+    },
+    {
+      "hanzi": "刚",
+      "pinyin": "gāng",
+      "meaning": "just; firm",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "刚",
+          "role": "whole",
+          "gloss": "just; firm"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 刚 in 刚 / 刚才. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "刚",
+          "p": "gāng",
+          "m": "just"
+        },
+        {
+          "w": "刚才",
+          "p": "gāng cái",
+          "m": "just now"
+        }
+      ]
+    },
+    {
+      "hanzi": "接",
+      "pinyin": "jiē",
+      "meaning": "to receive; meet",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "接",
+          "role": "whole",
+          "gloss": "to receive; meet"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 接 in 接 / 接到. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "接",
+          "p": "jiē",
+          "m": "to receive; meet"
+        },
+        {
+          "w": "接到",
+          "p": "jiē dào",
+          "m": "to receive; reach by receiving"
+        }
+      ]
+    },
+    {
+      "hanzi": "受",
+      "pinyin": "shòu",
+      "meaning": "to receive; accept",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "受",
+          "role": "whole",
+          "gloss": "to receive; accept"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 受 in 难受 / 接受. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "难受",
+          "p": "nán shòu",
+          "m": "uncomfortable; distressed"
+        },
+        {
+          "w": "接受",
+          "p": "jiē shòu",
+          "m": "to accept"
+        }
+      ]
+    },
+    {
+      "hanzi": "节",
+      "pinyin": "jié",
+      "meaning": "festival; section",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "节",
+          "role": "whole",
+          "gloss": "festival; section"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 节 in 节目 / 节. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "节目",
+          "p": "jié mù",
+          "m": "programme; performance item"
+        },
+        {
+          "w": "节",
+          "p": "jié",
+          "m": "class period; section"
+        }
+      ]
+    },
+    {
+      "hanzi": "灯",
+      "pinyin": "dēng",
+      "meaning": "lamp",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "灯",
+          "role": "whole",
+          "gloss": "lamp"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 灯 in 灯 / 红灯. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "灯",
+          "p": "dēng",
+          "m": "lamp; light"
+        },
+        {
+          "w": "红灯",
+          "p": "hóng dēng",
+          "m": "red traffic light"
+        }
+      ]
+    },
+    {
+      "hanzi": "停",
+      "pinyin": "tíng",
+      "meaning": "to stop",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "停",
+          "role": "whole",
+          "gloss": "to stop"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 停 in 停 / 停车场. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "停",
+          "p": "tíng",
+          "m": "to stop"
+        },
+        {
+          "w": "停车场",
+          "p": "tíng chē chǎng",
+          "m": "car park"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u10-g二12",
+      "pattern": "分钟 / 年 / 天 / 周",
+      "purpose": "Distinguish a duration from a point in time",
+      "explanation": "分钟 measures elapsed minutes, not a clock reading: 等十分钟. 年、天、周 can measure durations: 学了两年、住三天、过一周再见. 七点 is seven o’clock; 七分钟 is seven minutes. 第十周年 marks ten completed years of an institution, while the plan below concerns one evening. Usually say 下周 or 一周以后, not 一个下周.",
+      "examples": [
+        {
+          "zh": "我们等十分钟，七点开始。",
+          "py": "wǒ men děng shí fēn zhōng , qī diǎn kāi shǐ .",
+          "en": "We wait ten minutes; it starts at seven."
+        },
+        {
+          "zh": "他学了两年汉语，在这里住三天。",
+          "py": "tā xué le liǎng nián hàn yǔ , zài zhè lǐ zhù sān tiān .",
+          "en": "He has studied Chinese for two years and stays here for three days."
+        },
+        {
+          "zh": "一周以后再见，下周还有节目。",
+          "py": "yī zhōu yǐ hòu zài jiàn , xià zhōu hái yǒu jié mù .",
+          "en": "See you a week later; there is another programme next week."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我们等七点分钟。",
+          "right": "我们等七分钟。",
+          "why": "For a seven-minute duration, use 七分钟; 点 belongs to a clock time."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u10-g二47",
+      "pattern": "（在）…以前 / 以后 / 前 / 后",
+      "purpose": "Anchor before and after to the actual event",
+      "explanation": "开场以前 and 开场前 both mean before the start; 散场以后 and 散场后 mean after the end. 在 can introduce the time phrase: 在开场前. 以前/以后 can also stand alone for formerly/later, so give an explicit anchor when timings matter. 六点半集合 is not a claim that the programme starts at six thirty.",
+      "examples": [
+        {
+          "zh": "在开场前，我们先检票。",
+          "py": "zài kāi chǎng qián , wǒ men xiān jiǎn piào .",
+          "en": "Before the show starts, we first have our tickets checked."
+        },
+        {
+          "zh": "开场以前先坐好，散场以后再出去。",
+          "py": "kāi chǎng yǐ qián xiān zuò hǎo , sàn chǎng yǐ hòu zài chū qù .",
+          "en": "Take your seat before the start; leave after the end."
+        },
+        {
+          "zh": "散场后喝茶，回家前看有没有车。",
+          "py": "sàn chǎng hòu hē chá , huí jiā qián kàn yǒu méi yǒu chē .",
+          "en": "Have tea after the show; check transport before going home."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "开场以后先检票，才可以入场。",
+          "right": "开场以前先检票，才可以入场。",
+          "why": "In this plan, ticket checking precedes admission and the start."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u10-g二81",
+      "pattern": "要 / 快要 / 就要 … 了",
+      "purpose": "Signal an approaching change",
+      "explanation": "要开始了、快要开始了、就要开始了 mark an approaching start. 了 belongs to the change construction, not a completed start. With a definite near time, 就要 is often natural: 明天就要开始了. 快要 generally describes imminence without a fixed future time directly before it. Compare 节目开始了 (already started) and 节目就要开始了 (about to start). Do not translate both as finished.",
+      "examples": [
+        {
+          "zh": "节目要开始了。",
+          "py": "jié mù yào kāi shǐ le .",
+          "en": "The programme is about to begin."
+        },
+        {
+          "zh": "快要七点了，节目就要开始了。",
+          "py": "kuài yào qī diǎn le , jié mù jiù yào kāi shǐ le .",
+          "en": "It is nearly seven; the programme is about to begin."
+        },
+        {
+          "zh": "下周就要放假了，不是已经放假了。",
+          "py": "xià zhōu jiù yào fàng jià le , bù shì yǐ jīng fàng jià le .",
+          "en": "The holiday starts next week; it has not already begun."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "节目就要开始了，所以已经结束了。",
+          "right": "节目就要开始了，所以还没开始。",
+          "why": "About to start does not mean already ended."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u10-d",
+    "title": "The changed meeting time",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the current meeting time and what stays the same.",
+    "lines": [
+      {
+        "zh": "你刚到吗？我早晨看了通知，说六点半集合。",
+        "py": "nǐ gāng dào ma ? wǒ zǎo chén kàn le tōng zhī , shuō liù diǎn bàn jí hé .",
+        "en": "Did you just arrive? I read a notice this morning saying to meet at half past six.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先停一下。新通知刚刚发来，集合改成六点四十。",
+        "py": "xiān tíng yī xià . xīn tōng zhī gāng gāng fā lái , jí hé gǎi chéng liù diǎn sì shí .",
+        "en": "Wait. The new notice has just arrived; the meeting time changed to six forty.",
+        "speaker": "b"
+      },
+      {
+        "zh": "节目也改了吗？",
+        "py": "jié mù yě gǎi le ma ?",
+        "en": "Did the programme time change too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没有，还是七点。开场以前先检票，六点四十集合就好。",
+        "py": "méi yǒu , hái shi qī diǎn . kāi chǎng yǐ qián xiān jiǎn piào , liù diǎn sì shí jí hé jiù hǎo .",
+        "en": "No, still seven. Tickets are checked before the start; meeting at six forty is fine.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我们有二十分钟。刚才收到的是什么？",
+        "py": "nà wǒ men yǒu èr shí fēn zhōng . gāng cái shōu dào de shì shén me ?",
+        "en": "Then we have twenty minutes. What did we receive just now?",
+        "speaker": "a"
+      },
+      {
+        "zh": "刚才是旧的。上周的图片也别当成今天的。",
+        "py": "gāng cái shì jiù de . shàng zhōu de tú piàn yě bié dàng chéng jīn tiān de .",
+        "en": "That was the old one. Do not treat last week’s image as today’s either.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这时灯还亮着，节目还没开始吧？",
+        "py": "zhè shí dēng hái liàng zhe , jié mù hái méi kāi shǐ ba ?",
+        "en": "The lights are still on now; it has not started yet, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，快要七点了。灯暗了以后先别走，节目就要开始了。",
+        "py": "duì , kuài yào qī diǎn le . dēng àn le yǐ hòu xiān bié zǒu , jié mù jiù yào kāi shǐ le .",
+        "en": "Right, nearly seven. Stay seated after the lights dim; the programme is about to begin.",
+        "speaker": "b"
+      },
+      {
+        "zh": "散场后喝茶？夜里还有车吗？",
+        "py": "sàn chǎng hòu hē chá ? yè lǐ hái yǒu chē ma ?",
+        "en": "Tea after the show? Will transport still be running at night?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先确认，别到半夜才问。不一会儿，另一位朋友也会到。",
+        "py": "xiān què rèn , bié dào bàn yè cái wèn . bù yí huìr , lìng yī wèi péng you yě huì dào .",
+        "en": "Check first; do not wait until midnight to ask. Another friend will arrive shortly too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "学校十周年，这个学期节目不少。下周还有？",
+        "py": "xué xiào shí zhōu nián , zhè gè xué qī jié mù bù shǎo . xià zhōu hái yǒu ?",
+        "en": "It is the school’s tenth anniversary; quite a few programmes this term. Another next week?",
+        "speaker": "a"
+      },
+      {
+        "zh": "有，不久以后再发通知。今天先看这一场。",
+        "py": "yǒu , bù jiǔ yǐ hòu zài fā tōng zhī . jīn tiān xiān kàn zhè yī chǎng .",
+        "en": "Yes, another notice will be sent before long. Today let us watch this one first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What changed?",
+        "choices": [
+          "The meeting time only",
+          "The programme now starts at six forty",
+          "The anniversary became next week"
+        ],
+        "answer": "The meeting time only"
+      },
+      {
+        "type": "detail",
+        "q": "How long from the new meeting time to seven?",
+        "choices": [
+          "Twenty minutes",
+          "Thirty minutes",
+          "Forty minutes"
+        ],
+        "answer": "Twenty minutes"
+      },
+      {
+        "type": "inference",
+        "q": "Are late transport arrangements confirmed?",
+        "choices": [
+          "No, they still need checking",
+          "Yes, every bus runs all night",
+          "No, the show is cancelled"
+        ],
+        "answer": "No, they still need checking"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "开场",
+        "pinyin": "kāi chǎng",
+        "meaning": "start of a performance"
+      },
+      {
+        "hanzi": "散场",
+        "pinyin": "sàn chǎng",
+        "meaning": "end of a show"
+      },
+      {
+        "hanzi": "检票",
+        "pinyin": "jiǎn piào",
+        "meaning": "ticket checking"
+      },
+      {
+        "hanzi": "周年",
+        "pinyin": "zhōu nián",
+        "meaning": "anniversary"
+      },
+      {
+        "hanzi": "集合",
+        "pinyin": "jí hé",
+        "meaning": "to gather"
+      },
+      {
+        "hanzi": "开始",
+        "pinyin": "kāi shǐ",
+        "meaning": "to begin"
+      },
+      {
+        "hanzi": "暗",
+        "pinyin": "àn",
+        "meaning": "dark"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u10-r",
+    "title": "Current notice",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to distinguish old information, durations and event anchors.",
+    "lines": [
+      {
+        "zh": "早晨的通知写六点半集合。新通知刚刚改成六点四十，节目还是七点。",
+        "py": "zǎo chén de tōng zhī xiě liù diǎn bàn jí hé . xīn tōng zhī gāng gāng gǎi chéng liù diǎn sì shí , jié mù hái shi qī diǎn .",
+        "en": "The morning notice says to meet at six thirty. The new notice has just changed it to six forty; the programme still starts at seven."
+      },
+      {
+        "zh": "刚才收到的图片是旧的。后来我们才看到新消息，先停下来检查了一遍。",
+        "py": "gāng cái shōu dào de tú piàn shì jiù de . hòu lái wǒ men cái kàn dào xīn xiāo xī , xiān tíng xià lái jiǎn chá le yī biàn .",
+        "en": "The image received just now was old. We only saw the new message afterwards and stopped to check it."
+      },
+      {
+        "zh": "从六点四十到七点有二十分钟，不是二十点。开场以前先检票，再入场。",
+        "py": "cóng liù diǎn sì shí dào qī diǎn yǒu èr shí fēn zhōng , bù shì èr shí diǎn . kāi chǎng yǐ qián xiān jiǎn piào , zài rù chǎng .",
+        "en": "There are twenty minutes from six forty to seven, not twenty o’clock. Have tickets checked before the start, then enter."
+      },
+      {
+        "zh": "这时灯还亮着。快要七点了，节目要开始了，但还没有开始。",
+        "py": "zhè shí dēng hái liàng zhe . kuài yào qī diǎn le , jié mù yào kāi shǐ le , dàn hái méi yǒu kāi shǐ .",
+        "en": "The lights are still on now. It is nearly seven and the programme is about to begin, but it has not started yet."
+      },
+      {
+        "zh": "灯暗了以后，先坐好。散场后再喝茶，回家前先确认夜里有没有车。",
+        "py": "dēng àn le yǐ hòu , xiān zuò hǎo . sàn chǎng hòu zài hē chá , huí jiā qián xiān què rèn yè lǐ yǒu méi yǒu chē .",
+        "en": "When the lights dim, stay seated. Have tea after the show and check night transport before going home."
+      },
+      {
+        "zh": "不一会儿，朋友也来了。我们没有等到半夜才问回家的办法。",
+        "py": "bù yí huìr , péng you yě lái le . wǒ men méi yǒu děng dào bàn yè cái wèn huí jiā de bàn fǎ .",
+        "en": "Our friend arrived in a little while too. We did not wait until the middle of the night to ask how to get home."
+      },
+      {
+        "zh": "学校十周年，这个学期每周都有活动。上周去过一次，下周还想再去。",
+        "py": "xué xiào shí zhōu nián , zhè gè xué qī měi zhōu dōu yǒu huó dòng . shàng zhōu qù guò yī cì , xià zhōu hái xiǎng zài qù .",
+        "en": "For the school’s tenth anniversary there is an activity every week this term. We went once last week and want to go again next week."
+      },
+      {
+        "zh": "不久以后会发下周的通知。今天这一张不能拿来确定下周的时间。",
+        "py": "bù jiǔ yǐ hòu huì fā xià zhōu de tōng zhī . jīn tiān zhè yī zhāng bù néng ná lái què dìng xià zhōu de shí jiān .",
+        "en": "Next week’s notice will be sent before long. Today’s notice cannot establish next week’s times."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the reader rely on for today?",
+        "choices": [
+          "The new notice",
+          "Only last week’s image",
+          "A guess about next week"
+        ],
+        "answer": "The new notice"
+      },
+      {
+        "type": "detail",
+        "q": "When is the programme due to start?",
+        "choices": [
+          "Seven",
+          "Six forty",
+          "Six thirty"
+        ],
+        "answer": "Seven"
+      },
+      {
+        "type": "inference",
+        "q": "Does today’s notice prove next week’s time?",
+        "choices": [
+          "No, next week needs its own notice",
+          "Yes, every activity has the same time",
+          "Yes, the term ends today"
+        ],
+        "answer": "No, next week needs its own notice"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "早晨的通知写六点半集合。新通知刚刚改成【六点四十】，节目还是七点。",
+          "py": "zǎo chén de tōng zhī xiě liù diǎn bàn jí hé . xīn tōng zhī gāng gāng gǎi chéng liù diǎn sì shí , jié mù hái shi qī diǎn .",
+          "en": "The morning notice says to meet at six thirty. The new notice has just changed it to six forty; the programme still starts at seven."
+        },
+        {
+          "zh": "灯暗了以后，先坐好。【散场后】再喝茶，回家前先确认夜里有没有车。",
+          "py": "dēng àn le yǐ hòu , xiān zuò hǎo . sàn chǎng hòu zài hē chá , huí jiā qián xiān què rèn yè lǐ yǒu méi yǒu chē .",
+          "en": "When the lights dim, stay seated. Have tea after the show and check night transport before going home."
+        }
+      ],
+      "bank": [
+        "六点四十",
+        "散场后",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "开场",
+        "pinyin": "kāi chǎng",
+        "meaning": "start of a performance"
+      },
+      {
+        "hanzi": "入场",
+        "pinyin": "rù chǎng",
+        "meaning": "admission"
+      },
+      {
+        "hanzi": "散场",
+        "pinyin": "sàn chǎng",
+        "meaning": "end of a show"
+      },
+      {
+        "hanzi": "检票",
+        "pinyin": "jiǎn piào",
+        "meaning": "ticket checking"
+      },
+      {
+        "hanzi": "周年",
+        "pinyin": "zhōu nián",
+        "meaning": "anniversary"
+      },
+      {
+        "hanzi": "集合",
+        "pinyin": "jí hé",
+        "meaning": "to gather"
+      },
+      {
+        "hanzi": "开始",
+        "pinyin": "kāi shǐ",
+        "meaning": "to begin"
+      },
+      {
+        "hanzi": "暗",
+        "pinyin": "àn",
+        "meaning": "dark"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u10-media",
+      "title": "Wait for the start",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse about a shared evening.",
+      "lines": [
+        {
+          "zh": "刚到门口，先停一停。旧图放下，新消息看清。",
+          "py": "gāng dào mén kǒu , xiān tíng yī tíng . jiù tú fàng xià , xīn xiāo xī kàn qīng .",
+          "en": "Just at the door, pause a moment. Put down the old image; read the new message clearly."
+        },
+        {
+          "zh": "六点四十，一起集合。二十分钟以后，七点开场。",
+          "py": "liù diǎn sì shí , yì qǐ jí hé . èr shí fēn zhōng yǐ hòu , qī diǎn kāi chǎng .",
+          "en": "Meet together at six forty. Twenty minutes later, start at seven."
+        },
+        {
+          "zh": "开场前检票，灯暗后坐好。要开始了，不是已经散场。",
+          "py": "kāi chǎng qián jiǎn piào , dēng àn hòu zuò hǎo . yào kāi shǐ le , bù shì yǐ jīng sàn chǎng .",
+          "en": "Check tickets before the start; sit when the lights dim. About to begin does not mean already ended."
+        },
+        {
+          "zh": "散场后喝茶，回家前看车。不等半夜，才想办法。",
+          "py": "sàn chǎng hòu hē chá , huí jiā qián kàn chē . bù děng bàn yè , cái xiǎng bàn fǎ .",
+          "en": "Tea after the show; check transport before heading home. Do not leave planning until midnight."
+        },
+        {
+          "zh": "上周是上周，下周等通知。今天的时间，别送给明天。",
+          "py": "shàng zhōu shì shàng zhōu , xià zhōu děng tōng zhī . jīn tiān de shí jiān , bié sòng gěi míng tiān .",
+          "en": "Last week is last week; wait for next week’s notice. Do not give today’s times to tomorrow."
+        },
+        {
+          "zh": "一周又一周，朋友还会见。周年有节目，我们慢慢看。",
+          "py": "yī zhōu yòu yī zhōu , péng you hái huì jiàn . zhōu nián yǒu jié mù , wǒ men màn màn kàn .",
+          "en": "Week after week, we will meet friends again. Anniversary programmes: we can take our time watching."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why keep different notices separate?",
+          "choices": [
+            "Their dates and times may differ",
+            "Every performance has ended",
+            "No friend can arrive"
+          ],
+          "answer": "Their dates and times may differ"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "开场",
+          "pinyin": "kāi chǎng",
+          "meaning": "start of a performance"
+        },
+        {
+          "hanzi": "散场",
+          "pinyin": "sàn chǎng",
+          "meaning": "end of a show"
+        },
+        {
+          "hanzi": "检票",
+          "pinyin": "jiǎn piào",
+          "meaning": "ticket checking"
+        },
+        {
+          "hanzi": "周年",
+          "pinyin": "zhōu nián",
+          "meaning": "anniversary"
+        },
+        {
+          "hanzi": "集合",
+          "pinyin": "jí hé",
+          "meaning": "to gather"
+        },
+        {
+          "hanzi": "开始",
+          "pinyin": "kāi shǐ",
+          "meaning": "to begin"
+        },
+        {
+          "hanzi": "暗",
+          "pinyin": "àn",
+          "meaning": "dark"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u10-t1",
+      "phrase": "s2-u10-w07",
+      "audio": {
+        "zh": "节目就要开始了，还没有开始。",
+        "py": "jié mù jiù yào kāi shǐ le , hái méi yǒu kāi shǐ .",
+        "en": "The programme is about to begin and has not started yet."
+      },
+      "statement": "It has already started.",
+      "answer": false,
+      "why": "就要…了 describes the approaching change."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u10-t2",
+      "phrase": "s2-u10-w13",
+      "audio": {
+        "zh": "新通知刚刚改成六点四十，节目还是七点。",
+        "py": "xīn tōng zhī gāng gāng gǎi chéng liù diǎn sì shí , jié mù hái shi qī diǎn .",
+        "en": "The new notice just changed the meeting time to six forty; the programme stays at seven."
+      },
+      "statement": "The programme stays at seven.",
+      "answer": true,
+      "why": "Only the meeting time changed."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u10-t3",
+      "phrase": "s2-u10-w09",
+      "prompt": {
+        "zh": "散场以后做什么？",
+        "py": "sàn chǎng yǐ hòu zuò shén me ?",
+        "en": "What do we do after the show?"
+      },
+      "choices": [
+        "去喝茶，先确认回家的车。",
+        "开场以前检票。",
+        "上周已经去了。"
+      ],
+      "answer": "去喝茶，先确认回家的车。",
+      "why": "Answer the after-show plan."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u10-t4",
+      "phrase": "s2-u10-w03",
+      "prompt": {
+        "zh": "下周也是七点吗？",
+        "py": "xià zhōu yě shì qī diǎn ma ?",
+        "en": "Is next week also at seven?"
+      },
+      "choices": [
+        "还要等下周的通知。",
+        "今天是七点，所以一定一样。",
+        "二十分钟是二十点。"
+      ],
+      "answer": "还要等下周的通知。",
+      "why": "Today’s notice is not evidence for next week."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u10-t5",
+      "phrase": "s2-u10-w10",
+      "line": {
+        "zh": "开场【以前】先检票。",
+        "py": "kāi chǎng yǐ qián xiān jiǎn piào .",
+        "en": "Have tickets checked before the start."
+      },
+      "blankPy": "yǐ qián"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u10-t6",
+      "phrase": "s2-u10-w07",
+      "line": {
+        "zh": "节目【就要】开始了。",
+        "py": "jié mù jiù yào kāi shǐ le .",
+        "en": "The programme is about to begin."
+      },
+      "blankPy": "jiù yào"
+    },
+    {
+      "type": "match",
+      "id": "s2-u10-t7",
+      "phrase": "s2-u10-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "A week later.",
+          "right": {
+            "zh": "一周以后。",
+            "py": "yī zhōu yǐ hòu .",
+            "en": "A week later."
+          }
+        },
+        {
+          "left": "Wait ten minutes.",
+          "right": {
+            "zh": "等十分钟。",
+            "py": "děng shí fēn zhōng .",
+            "en": "Wait ten minutes."
+          }
+        },
+        {
+          "left": "Stay three days.",
+          "right": {
+            "zh": "住三天。",
+            "py": "zhù sān tiān .",
+            "en": "Stay three days."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u10-t8",
+      "phrase": "s2-u10-w12",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Received the old image just now.",
+          "right": {
+            "zh": "刚才收到旧图。",
+            "py": "gāng cái shōu dào jiù tú .",
+            "en": "Received the old image just now."
+          }
+        },
+        {
+          "left": "The new notice has only just arrived.",
+          "right": {
+            "zh": "新通知刚刚发来。",
+            "py": "xīn tōng zhī gāng gāng fā lái .",
+            "en": "The new notice has only just arrived."
+          }
+        },
+        {
+          "left": "Have tea after the show.",
+          "right": {
+            "zh": "散场以后喝茶。",
+            "py": "sàn chǎng yǐ hòu hē chá .",
+            "en": "Have tea after the show."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u10-tcontext-01",
+      "phrase": "s2-u10-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "Afterwards we discovered that the meeting time had changed.",
+          "right": {
+            "zh": "后来我们发现集合时间改了。",
+            "py": "hòu lái wǒ men fā xiàn jí hé shí jiān gǎi le .",
+            "en": "Afterwards we discovered that the meeting time had changed."
+          }
+        },
+        {
+          "left": "We meet once a week.",
+          "right": {
+            "zh": "我们一周见一次。",
+            "py": "wǒ men yī zhōu jiàn yī cì .",
+            "en": "We meet once a week."
+          }
+        },
+        {
+          "left": "Last week we went to the school.",
+          "right": {
+            "zh": "上周我们去了学校。",
+            "py": "shàng zhōu wǒ men qù le xué xiào .",
+            "en": "Last week we went to the school."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u10-t9",
+      "phrase": "s2-u10-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I briefly looked at the questions; let us practise a little.",
+          "right": {
+            "zh": "我看了看题目，我们练习练习。",
+            "py": "wǒ kàn le kàn tí mù , wǒ men liàn xí liàn xí .",
+            "en": "I briefly looked at the questions; let us practise a little."
+          }
+        },
+        {
+          "left": "This recording was heard twice through; the answers were checked three times.",
+          "right": {
+            "zh": "这段录音听了两遍，答案检查了三次。",
+            "py": "zhè duàn lù yīn tīng le liǎng biàn , dá àn jiǎn chá le sān cì .",
+            "en": "This recording was heard twice through; the answers were checked three times."
+          }
+        },
+        {
+          "left": "Watch a film showing, attend an activity once, and the teacher claps three times.",
+          "right": {
+            "zh": "看一场电影，去一回活动，老师拍三下手。",
+            "py": "kàn yī chǎng diàn yǐng , qù yī huí huó dòng , lǎo shī pāi sān xià shǒu .",
+            "en": "Watch a film showing, attend an activity once, and the teacher claps three times."
+          }
+        },
+        {
+          "left": "Ten thousand is not one thousand; one hundred million is not one million.",
+          "right": {
+            "zh": "一万不是一千，一亿不是一百万。",
+            "py": "yī wàn bù shì yī qiān , yī yì bù shì yī bǎi wàn .",
+            "en": "Ten thousand is not one thousand; one hundred million is not one million."
+          }
+        },
+        {
+          "left": "More than ten people, a little over an hour.",
+          "right": {
+            "zh": "十多个人，一个多小时。",
+            "py": "shí duō gè rén , yī gè duō xiǎo shí .",
+            "en": "More than ten people, a little over an hour."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Correcting a time",
+      "natural": {
+        "zh": "集合改成六点四十，开场还是七点。",
+        "py": "jí hé gǎi chéng liù diǎn sì shí , kāi chǎng hái shi qī diǎn .",
+        "en": "The meeting time changed to six forty; the start is still seven."
+      },
+      "note": "State which time changed instead of implying both did."
+    },
+    {
+      "situation": "Checking transport",
+      "natural": {
+        "zh": "回家前先看看夜里有没有车。",
+        "py": "huí jiā qián xiān kàn kàn yè lǐ yǒu méi yǒu chē .",
+        "en": "Before going home, check whether transport runs at night."
+      },
+      "note": "Transport availability is not inferred from the performance notice."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u10-speak",
+    "title": "Before the show starts",
+    "place": "A language-exchange meeting",
+    "context": "Plan time before and after an event.",
+    "goal": "Keep event time separate from meeting time",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "几点集合？",
+        "pinyin": "jǐ diǎn jí hé ?",
+        "meaning": "When do we meet?",
+        "intent": "Use the new notice",
+        "examples": [
+          "六点四十集合。"
+        ],
+        "accept": [
+          "^六点四十集合。[。！？]?$"
+        ]
+      },
+      {
+        "text": "开始了吗？",
+        "pinyin": "kāi shǐ le ma ?",
+        "meaning": "Has it started?",
+        "intent": "Distinguish imminent and completed",
+        "examples": [
+          "还没有，就要开始了。"
+        ],
+        "accept": [
+          "^还没有，就要开始了。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二12, 二47, 二81. Native check: before/after anchors, approaching-change scope, programme/anniversary counter register, and poetic 今天的时间，别送给明天. All dates and transport remain scenario facts, not live schedules. Planned retrieval 二04 / 二11 / 二52 / 二09 / 二73: 我看了看题目，我们练习练习。, 这段录音听了两遍，答案检查了三次。, 看一场电影，去一回活动，老师拍三下手。, 一万不是一千，一亿不是一百万。, 十多个人，一个多小时。."
+}

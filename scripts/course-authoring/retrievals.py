@@ -304,6 +304,98 @@ RETRIEVALS.update({
 ('像平时一样，先问时间。','As usual, ask the time first.')]),
 })
 
+RETRIEVALS.update({
+'s3-u21':('三22 / 三47 / 三25 / 三71',[
+('朝门口走，还没说是否到达。','Walk toward the doorway; arrival has not been established.'),
+('我在二楼，你上来。','I am on the second floor; come up.'),
+('因为我没核对，我发了旧地址。','Because I did not check, I sent the old address.'),
+('由于通知有错，所以先停止传播旧通知。','Because the notice is wrong, stop circulating the old notice first.')]),
+'s3-u22':('三23 / 三40 / 三26 / 三72',[
+('我为她担心，也尊重她的选择。','I worry about her and also respect her choice.'),
+('对我来说，安静很重要。','For me, quiet matters.'),
+('为了带书方便，我选这个布袋。','For carrying books conveniently, I choose this cloth bag.'),
+('为了纪念见面，我们做一张贺卡。','To commemorate meeting, we make a greeting card.')]),
+'s3-u23':('三24 / 三41 / 三27 / 三54',[
+('向主人问清楚时间。','Ask the host to clarify the time.'),
+('像平时一样，先问时间。','As usual, ask the time first.'),
+('衣服被雨弄湿了。','The clothes were made wet by rain.'),
+('把这本书交给她。','Hand this book to her.')]),
+'s3-u24':('三25 / 三71 / 三28 / 三38',[
+('因为没核对，我发了旧通知。','Because I did not check, I sent an old notice.'),
+('由于通知有错，所以先停止传播旧通知。','Because the notice is wrong, stop circulating the old notice first.'),
+('除了看节目，我还听广播。','Besides watching programmes, I also listen to the radio.'),
+('除了周五，其他几天都可以。','Any of the other days works, except Friday.')]),
+})
+
+RETRIEVALS.update({
+'s3-u25':('三26 / 三72 / 三30 / 三70',[
+('为了带书方便，我选这个布袋。','For carrying books conveniently, I choose this cloth bag.'),
+('为了纪念见面，我们做一张贺卡。','To commemorate meeting, we make a greeting card.'),
+('要是时间合适，就再问她。','If the time suits, ask her again.'),
+('只有她同意，才写她的职业。','Only if she agrees do we write her occupation.')]),
+'s3-u26':('三27 / 三54 / 三31 / 三78',[
+('衣服被雨弄湿了。','The clothes were made wet by rain.'),
+('把这本书交给她。','Hand this book to her.'),
+('哈哈，笑的是我自己。','Ha ha, I am laughing at myself.'),
+('你今天也来参加活动？','Are you joining the event today too?')]),
+'s3-u27':('三28 / 三38 / 三32 / 三53',[
+('除了看节目，我还听广播。','Besides watching programmes, I also listen to the radio.'),
+('除了周五，其他几天都可以。','Any of the other days works, except Friday.'),
+('老师张先生也来了。','Teacher Mr Zhang also came.'),
+('她汉语说得很流利。','She speaks Chinese fluently.')]),
+'s3-u28':('三30 / 三70 / 三34 / 三68',[
+('要是时间合适，就再问她。','If the time suits, ask her again.'),
+('只有她同意，才写她的职业。','Only if she agrees do we write her occupation.'),
+('她不慌不忙地核对地址。','She checks the address unhurriedly.'),
+('好是好，不过地点还没确认。','It is good, but the location is still unconfirmed.')]),
+})
+
+RETRIEVALS.update({
+'s3-u29':('三31 / 三78 / 三35 / 三36',[
+('哈哈，笑的是我自己。','Ha ha, I am laughing at myself.'),
+('你今天也来参加活动？','Are you joining the event today too?'),
+('她看起来很累，先问本人。','She looks tired; ask her first.'),
+('照片看上去很亮，不说明现场温度。','The photo looks bright; it does not establish the temperature there.')]),
+'s3-u30':('三32 / 三53 / 三39 / 三52',[
+('老师张先生也来了。','Teacher Mr Zhang also came.'),
+('她汉语说得很流利。','She speaks Chinese fluently.'),
+('从下周起，每天先读一段。','Starting next week, read a passage first each day.'),
+('她离开这里三天了。','It has been three days since she left here.')]),
+'s3-u31':('三34 / 三68 / 三42 / 三59',[
+('她不慌不忙地核对地址。','She checks the address unhurriedly.'),
+('好是好，不过地点还没确认。','It is good, but the location is still unconfirmed.'),
+('越听越累，就先停一下。','If listening makes you increasingly tired, stop briefly.'),
+('她听汉语听得很认真。','She listens to Chinese carefully.')]),
+'s3-u32':('三35 / 三36 / 三43 / 三44',[
+('她看起来很累，先问本人。','She looks tired; ask her first.'),
+('照片看上去很亮，不说明现场温度。','The photo looks bright; it does not establish the temperature there.'),
+('学习汉语需要时间。','Learning Chinese takes time.'),
+('我希望大家都看懂说明。','I hope everyone understands the instructions.')]),
+})
+
+RETRIEVALS.update({
+'s3-u33':('三39 / 三52 / 三45 / 三56',[
+('从下周起，每天先读一段。','Starting next week, read a passage first each day.'),
+('她离开这里三天了。','It has been three days since she left here.'),
+('朋友推荐的旅馆还没订。','The hotel recommended by the friend is not booked.'),
+('我们去村里了解农业。','We go to the village to learn about agriculture.')]),
+'s3-u34':('三42 / 三59 / 三48 / 三50',[
+('越听越累，就先停一下。','If listening makes you increasingly tired, stop briefly.'),
+('她听汉语听得很认真。','She listens to Chinese carefully.'),
+('这些邮件今天处理不了。','These emails cannot be dealt with today.'),
+('我问了她三次。','I asked her three times.')]),
+'s3-u35':('三43 / 三44 / 三49 / 三75',[
+('学习汉语需要时间。','Learning Chinese takes time.'),
+('我希望大家都看懂说明。','I hope everyone understands the instructions.'),
+('她笑得很开心。','She laughs happily.'),
+('她一点儿也不生气。','She is not angry at all.')]),
+'s3-u36':('三45 / 三56 / 三55 / 三77',[
+('朋友推荐的旅馆还没订。','The hotel recommended by the friend is not booked.'),
+('我们去村里了解农业。','We go to the village to learn about agriculture.'),
+('行李被同学移到门后了。','A classmate moved the luggage behind the door.'),
+('我是来领行李的。','I came to collect the luggage.')]),
+})
+
 def apply(first, last):
     apply_ids(list(range(first,last+1)))
 

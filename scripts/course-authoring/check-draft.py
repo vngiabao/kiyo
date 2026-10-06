@@ -10,6 +10,7 @@ import common
 
 parser=argparse.ArgumentParser()
 parser.add_argument('batches',nargs='+',type=int)
+parser.add_argument('--exam',type=int,choices=[1,2,3])
 args=parser.parse_args()
 actual=common.ROOT
 shadow=actual/'.cache'/('course-editorial-'+ '-'.join(f'{b:02}' for b in args.batches))
@@ -28,6 +29,9 @@ retrievals.ROOT=shadow
 for batch in args.batches:
     path=actual/f'scripts/course-authoring/batch-{batch:02}.py'
     exec(compile(path.read_text('utf-8'),str(path),'exec'),{'__file__':str(path)})
+if args.exam:
+    name=f'hsk-{args.exam}-bank.hsk.json'
+    shutil.copy2(actual/'.cache/course-authoring'/name,shadow/'content/packs'/name)
 print('Unpublished shadow:',shadow,flush=True)
 
 # Mirror the existing acceptance test before spending time generating audio.

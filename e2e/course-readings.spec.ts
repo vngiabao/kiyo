@@ -47,6 +47,7 @@ for (const pack of latest) {
       await page
         .locator(".reading-row")
         .filter({ has: page.getByText(reading.title, { exact: true }) })
+        .filter({ has: page.getByText(reading.titleZh ?? pack.unit.titleZh, { exact: true }) })
         .click();
       await expect(page.locator(".reader-purpose")).toHaveText(reading.purpose);
       await expect(page.locator(".line-py")).toHaveCount(0);

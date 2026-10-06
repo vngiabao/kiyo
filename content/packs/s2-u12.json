@@ -1,0 +1,1344 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u12",
+    "stage": 1,
+    "order": 42,
+    "title": "Ordering for everyone",
+    "titleZh": "先问大家吃什么",
+    "canDo": [
+      "Distinguish all, most and only",
+      "Assemble a noun phrase for an actual shared order",
+      "Confirm portions and ingredients before ordering"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u11"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u12-w01",
+      "hanzi": "只",
+      "pinyin": "zhǐ",
+      "meaning": "only",
+      "meaningVi": "chỉ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我只想要水，不要茶。",
+        "py": "wǒ zhǐ xiǎng yào shuǐ , bú yào chá .",
+        "en": "I only want water, not tea."
+      },
+      "usageNote": "[GF2021:L2:10522] Source entry: 只; zhǐ; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w02",
+      "hanzi": "只能",
+      "pinyin": "zhǐ néng",
+      "meaning": "can only",
+      "meaningVi": "chỉ có thể",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这张桌子只能坐四个人。",
+        "py": "zhè zhāng zhuō zi zhǐ néng zuò sì gè rén .",
+        "en": "This table can seat only four people."
+      },
+      "usageNote": "[GF2021:L2:10529] Source entry: 只能; zhǐ néng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w03",
+      "hanzi": "所有",
+      "pinyin": "suǒ yǒu",
+      "meaning": "all",
+      "meaningVi": "tất cả",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "所有人都到了，先问想吃什么。",
+        "py": "suǒ yǒu rén dōu dào le , xiān wèn xiǎng chī shén me .",
+        "en": "Everyone has arrived; ask what they want to eat first."
+      },
+      "usageNote": "[GF2021:L2:7740] Source entry: 所有; suǒyǒu; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w04",
+      "hanzi": "全体",
+      "pinyin": "quán tǐ",
+      "meaning": "all members; entire group",
+      "meaningVi": "toàn thể",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "全体组员都看过菜单了。",
+        "py": "quán tǐ zǔ yuán dōu kàn guò cài dān le .",
+        "en": "All group members have looked at the menu."
+      },
+      "usageNote": "[GF2021:L2:6617] Source entry: 全体; quántǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w05",
+      "hanzi": "全家",
+      "pinyin": "quán jiā",
+      "meaning": "the whole family",
+      "meaningVi": "cả nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友全家都来吃饭。",
+        "py": "péng you quán jiā dōu lái chī fàn .",
+        "en": "My friend’s whole family is coming for the meal."
+      },
+      "usageNote": "[GF2021:L2:6607] Source entry: 全家; quánjiā; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w06",
+      "hanzi": "大部分",
+      "pinyin": "dà bù fèn",
+      "meaning": "most; the greater part",
+      "meaningVi": "phần lớn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "大部分人想吃米饭。",
+        "py": "dà bù fèn rén xiǎng chī mǐ fàn .",
+        "en": "Most people want rice."
+      },
+      "usageNote": "[GF2021:L2:1451] Source entry: 大部分; dàbùfen; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w07",
+      "hanzi": "大多数",
+      "pinyin": "dà duō shù",
+      "meaning": "the majority",
+      "meaningVi": "đa số",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "大多数人选了清淡的菜。",
+        "py": "dà duō shù rén xuǎn le qīng dàn de cài .",
+        "en": "The majority chose lightly seasoned dishes."
+      },
+      "usageNote": "[GF2021:L2:1462] Source entry: 大多数; dàduōshù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w08",
+      "hanzi": "多数",
+      "pinyin": "duō shù",
+      "meaning": "majority; most",
+      "meaningVi": "đa số",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "多数同意，不等于所有人都同意。",
+        "py": "duō shù tóng yì , bù děng yú suǒ yǒu rén dōu tóng yì .",
+        "en": "Majority agreement does not mean everyone agrees."
+      },
+      "usageNote": "[GF2021:L2:2067] Source entry: 多数; duōshù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w09",
+      "hanzi": "少数",
+      "pinyin": "shǎo shù",
+      "meaning": "minority; a few",
+      "meaningVi": "thiểu số; số ít",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "少数人不吃鸡肉，要单独问。",
+        "py": "shǎo shù rén bù chī jī ròu , yào dān dú wèn .",
+        "en": "A few people do not eat chicken; ask them separately."
+      },
+      "usageNote": "[GF2021:L2:7001] Source entry: 少数; shǎoshù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w10",
+      "hanzi": "其他",
+      "pinyin": "qí tā",
+      "meaning": "other; the rest",
+      "meaningVi": "khác; những người còn lại",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "其他人还没选，先别下单。",
+        "py": "qí tā rén hái méi xuǎn , xiān bié xià dān .",
+        "en": "The others have not chosen yet; do not order first."
+      },
+      "usageNote": "[GF2021:L2:6222] Source entry: 其他; qítā; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w11",
+      "hanzi": "其中",
+      "pinyin": "qí zhōng",
+      "meaning": "among them; within it",
+      "meaningVi": "trong đó",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "四个人，其中一个只要水。",
+        "py": "sì gè rén , qí zhōng yī gè zhǐ yào shuǐ .",
+        "en": "Four people, one of whom wants only water."
+      },
+      "usageNote": "[GF2021:L2:6224] Source entry: 其中; qízhōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w12",
+      "hanzi": "一部分",
+      "pinyin": "yī bù fèn",
+      "meaning": "a part; some",
+      "meaningVi": "một phần",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先上一部分菜，其他的等一下。",
+        "py": "xiān shàng yī bù fèn cài , qí tā de děng yī xià .",
+        "en": "Serve some of the dishes first; wait a little for the rest."
+      },
+      "usageNote": "[GF2021:L2:9490] Source entry: 一部分; yí bùfen; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w13",
+      "hanzi": "两",
+      "pinyin": "liǎng",
+      "meaning": "liang, a weight or portion unit",
+      "meaningVi": "lạng Trung Quốc; đơn vị khối lượng",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "菜单写二两米饭，先问分量。",
+        "py": "cài dān xiě èr liǎng mǐ fàn , xiān wèn fèn liàng .",
+        "en": "The menu says two liang of rice; ask about the portion size first."
+      },
+      "usageNote": "[GF2021:L2:5140] Source entry: 两; liǎng; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w14",
+      "hanzi": "蛋",
+      "pinyin": "dàn",
+      "meaning": "egg",
+      "meaningVi": "trứng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这道菜里有蛋吗？",
+        "py": "zhè dào cài lǐ yǒu dàn ma ?",
+        "en": "Does this dish contain egg?"
+      },
+      "usageNote": "[GF2021:L2:1598] Source entry: 蛋; dàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w15",
+      "hanzi": "鸡",
+      "pinyin": "jī",
+      "meaning": "chicken",
+      "meaningVi": "gà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "鸡和鱼分开做，可以吗？",
+        "py": "jī hé yú fēn kāi zuò , kě yǐ ma ?",
+        "en": "Can the chicken and fish be prepared separately?"
+      },
+      "usageNote": "[GF2021:L2:3695] Source entry: 鸡; jī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w16",
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "meaning": "fish",
+      "meaningVi": "cá",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我想要鱼，不想要鸡。",
+        "py": "wǒ xiǎng yào yú , bù xiǎng yào jī .",
+        "en": "I would like fish, not chicken."
+      },
+      "usageNote": "[GF2021:L2:9920] Source entry: 鱼; yú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w17",
+      "hanzi": "油",
+      "pinyin": "yóu",
+      "meaning": "oil",
+      "meaningVi": "dầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请少放一点儿油。",
+        "py": "qǐng shǎo fàng yì diǎn ér yóu .",
+        "en": "Please use a little less oil."
+      },
+      "usageNote": "[GF2021:L2:9848] Source entry: 油; yóu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w18",
+      "hanzi": "饱",
+      "pinyin": "bǎo",
+      "meaning": "full after eating",
+      "meaningVi": "no",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我已经饱了，不用再加饭。",
+        "py": "wǒ yǐ jīng bǎo le , bù yòng zài jiā fàn .",
+        "en": "I am already full; no need to add more rice."
+      },
+      "usageNote": "[GF2021:L2:185] Source entry: 饱; bǎo; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w19",
+      "hanzi": "完全",
+      "pinyin": "wán quán",
+      "meaning": "completely; entirely",
+      "meaningVi": "hoàn toàn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我还没完全看懂菜单，先问一问。",
+        "py": "wǒ hái méi wán quán kàn dǒng cài dān , xiān wèn yī wèn .",
+        "en": "I have not completely understood the menu yet; let me ask first."
+      },
+      "usageNote": "[GF2021:L2:8284] Source entry: 完全; wánquán; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w20",
+      "hanzi": "公平",
+      "pinyin": "gōng píng",
+      "meaning": "fair",
+      "meaningVi": "công bằng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先商量怎么付，大家觉得公平就好。",
+        "py": "xiān shāng liáng zěn me fù , dà jiā jué de gōng píng jiù hǎo .",
+        "en": "Discuss payment first; it is fine if everyone considers it fair."
+      },
+      "usageNote": "[GF2021:L2:2798] Source entry: 公平; gōngpíng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w21",
+      "hanzi": "请客",
+      "pinyin": "qǐng kè",
+      "meaning": "to treat someone to a meal",
+      "meaningVi": "mời ăn; đãi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天我请客，但先看预算。",
+        "py": "jīn tiān wǒ qǐng kè , dàn xiān kàn yù suàn .",
+        "en": "Today I am treating, but let us check the budget first."
+      },
+      "usageNote": "[GF2021:L2:6524] Source entry: 请客; qǐng∥kè; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u12-w22",
+      "hanzi": "人数",
+      "pinyin": "rén shù",
+      "meaning": "number of people",
+      "meaningVi": "số người",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "人数是四，不是五。",
+        "py": "rén shù shì sì , bù shì wǔ .",
+        "en": "The number of people is four, not five."
+      },
+      "usageNote": "[GF2021:L2:6714] Source entry: 人数; rénshù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "只",
+      "pinyin": "zhǐ",
+      "meaning": "only",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "只",
+          "role": "whole",
+          "gloss": "only"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 只 in 只 / 只能. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "只",
+          "p": "zhǐ",
+          "m": "only"
+        },
+        {
+          "w": "只能",
+          "p": "zhǐ néng",
+          "m": "can only"
+        }
+      ]
+    },
+    {
+      "hanzi": "其",
+      "pinyin": "qí",
+      "meaning": "that; in 其他/其中",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "其",
+          "role": "whole",
+          "gloss": "that; in 其他/其中"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 其 in 其他 / 其中. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "其他",
+          "p": "qí tā",
+          "m": "other; the rest"
+        },
+        {
+          "w": "其中",
+          "p": "qí zhōng",
+          "m": "among them; within it"
+        }
+      ]
+    },
+    {
+      "hanzi": "所",
+      "pinyin": "suǒ",
+      "meaning": "place; in 所有",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "所",
+          "role": "whole",
+          "gloss": "place; in 所有"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 所 in 所有 / 所. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "所有",
+          "p": "suǒ yǒu",
+          "m": "all"
+        },
+        {
+          "w": "所",
+          "p": "suǒ",
+          "m": "classifier for schools"
+        }
+      ]
+    },
+    {
+      "hanzi": "油",
+      "pinyin": "yóu",
+      "meaning": "oil",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "油",
+          "role": "whole",
+          "gloss": "oil"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 油 in 油. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "油",
+          "p": "yóu",
+          "m": "oil"
+        }
+      ]
+    },
+    {
+      "hanzi": "饱",
+      "pinyin": "bǎo",
+      "meaning": "full after eating",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "饱",
+          "role": "whole",
+          "gloss": "full after eating"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 饱 in 饱. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "饱",
+          "p": "bǎo",
+          "m": "full after eating"
+        }
+      ]
+    },
+    {
+      "hanzi": "公",
+      "pinyin": "gōng",
+      "meaning": "public; common",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "公",
+          "role": "whole",
+          "gloss": "public; common"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 公 in 公平 / 公斤. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "公平",
+          "p": "gōng píng",
+          "m": "fair"
+        },
+        {
+          "w": "公斤",
+          "p": "gōng jīn",
+          "m": "kilogram"
+        }
+      ]
+    },
+    {
+      "hanzi": "数",
+      "pinyin": "shǔ",
+      "meaning": "number; to count",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "数",
+          "role": "whole",
+          "gloss": "number; to count"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 数 in 大多数 / 多数. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "大多数",
+          "p": "dà duō shù",
+          "m": "the majority"
+        },
+        {
+          "w": "多数",
+          "p": "duō shù",
+          "m": "majority; most"
+        }
+      ]
+    },
+    {
+      "hanzi": "平",
+      "pinyin": "píng",
+      "meaning": "level; fair",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "平",
+          "role": "whole",
+          "gloss": "level; fair"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 平 in 公平 / 平时. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "公平",
+          "p": "gōng píng",
+          "m": "fair"
+        },
+        {
+          "w": "平时",
+          "p": "píng shí",
+          "m": "usually"
+        }
+      ]
+    },
+    {
+      "hanzi": "量",
+      "pinyin": "liàng",
+      "meaning": "quantity; to measure",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "量",
+          "role": "whole",
+          "gloss": "quantity; to measure"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 量 in 商量 / 音量. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "商量",
+          "p": "shāng liang",
+          "m": "to discuss; consult"
+        },
+        {
+          "w": "音量",
+          "p": "yīn liàng",
+          "m": "volume"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u12-g二14",
+      "pattern": "全 / 一共 / 只",
+      "purpose": "Distinguish a whole group, a total and a restriction",
+      "explanation": "我们全到了 and 我们全都到了 include every person in the stated group. 一共 counts the total: 一共四个人. 只 restricts what follows: 我只喝水 versus 只有一个人喝水. Most is not all: 大多数人同意 does not establish 全体同意. 只放一点儿油 limits oil; 少放一点儿油 asks for a reduction without establishing an exact amount.",
+      "examples": [
+        {
+          "zh": "我们全到了，一共四个人。",
+          "py": "wǒ men quán dào le , yī gòng sì gè rén .",
+          "en": "All of us have arrived, four people altogether."
+        },
+        {
+          "zh": "我只喝水，只有一个人喝茶。",
+          "py": "wǒ zhǐ hē shuǐ , zhǐ yǒu yī gè rén hē chá .",
+          "en": "I drink only water; only one person drinks tea."
+        },
+        {
+          "zh": "大多数人吃米饭，不能说所有人都吃米饭。",
+          "py": "dà duō shù rén chī mǐ fàn , bù néng shuō suǒ yǒu rén dōu chī mǐ fàn .",
+          "en": "Most people eat rice; that does not mean everyone does."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "三个人同意，所以四个人全同意。",
+          "right": "三个人同意，一个人还没说，不能说全同意。",
+          "why": "Three of four agreeing does not establish unanimous agreement."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u12-g二39",
+      "pattern": "modifier + noun / number + classifier + noun / coordinated nouns",
+      "purpose": "Identify the noun phrase before expanding the order",
+      "explanation": "我们小组的晚餐、四个人的晚餐 and 两份米饭 are noun phrases: the head is 晚餐 or 米饭. In 鸡和鱼 the two nouns are coordinated. 清淡的菜 uses 的 after the describing phrase; 我的那份米饭 combines ownership and identification. A noun phrase may serve as an object or topic, but is not automatically a full statement. 本次 source 两 is the weight unit in 二两米饭; numeral 两 in 两份 is already taught. Do not count the numeral as a new lexical sense.",
+      "examples": [
+        {
+          "zh": "我们小组的晚餐还没点。",
+          "py": "wǒ men xiǎo zǔ de wǎn cān hái méi diǎn .",
+          "en": "We have not ordered our group’s dinner yet."
+        },
+        {
+          "zh": "两份米饭和一份鱼，先确认配料。",
+          "py": "liǎng fèn mǐ fàn hé yī fèn yú , xiān què rèn pèi liào .",
+          "en": "Two portions of rice and one fish dish: confirm the ingredients first."
+        },
+        {
+          "zh": "我的那份米饭不要油，清淡的菜先上。",
+          "py": "wǒ de nà fèn mǐ fàn bú yào yóu , qīng dàn de cài xiān shàng .",
+          "en": "Do not add oil to my rice portion; serve the lightly seasoned dishes first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "两米饭。",
+          "right": "两份米饭。",
+          "why": "Use a portion counter to request two portions; 二两米饭 instead expresses a weight quantity."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u12-d",
+    "title": "Ask all four",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the complete order without turning most into everyone.",
+    "lines": [
+      {
+        "zh": "人数确认了吗？",
+        "py": "rén shù què rèn le ma ?",
+        "en": "Have we confirmed the number of people?",
+        "speaker": "a"
+      },
+      {
+        "zh": "全到了，一共四个人。这张桌子只能坐四个，正好。",
+        "py": "quán dào le , yī gòng sì gè rén . zhè zhāng zhuō zi zhǐ néng zuò sì gè , zhèng hǎo .",
+        "en": "Everyone is here, four in total. This table seats only four, exactly enough.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我今天请客，先问所有人想吃什么。",
+        "py": "wǒ jīn tiān qǐng kè , xiān wèn suǒ yǒu rén xiǎng chī shén me .",
+        "en": "I am treating today; let us first ask everyone what they want.",
+        "speaker": "a"
+      },
+      {
+        "zh": "大多数人想吃米饭，少数不想要。不能替其他人决定。",
+        "py": "dà duō shù rén xiǎng chī mǐ fàn , shǎo shù bù xiǎng yào . bù néng tì qí tā rén jué dìng .",
+        "en": "The majority want rice and a few do not. We cannot decide for the others.",
+        "speaker": "b"
+      },
+      {
+        "zh": "具体是谁？全体组员都看菜单了吗？",
+        "py": "jù tǐ shì shéi ? quán tǐ zǔ yuán dōu kàn cài dān le ma ?",
+        "en": "Who specifically? Has every group member looked at the menu?",
+        "speaker": "a"
+      },
+      {
+        "zh": "三个人要饭，一个不要。其中一个只喝水，另外三个人喝茶。",
+        "py": "sān gè rén yào fàn , yī gè bú yào . qí zhōng yī gè zhǐ hē shuǐ , lìng wài sān gè rén hē chá .",
+        "en": "Three want rice and one does not. One drinks only water and the other three drink tea.",
+        "speaker": "b"
+      },
+      {
+        "zh": "鸡和鱼都可以吗？有蛋吗？",
+        "py": "jī hé yú dōu kě yǐ ma ? yǒu dàn ma ?",
+        "en": "Are chicken and fish both okay? Is there egg?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先问配料。我没完全看懂，也不能猜过敏的人能不能吃。",
+        "py": "xiān wèn pèi liào . wǒ méi wán quán kàn dǒng , yě bù néng cāi guò mǐn de rén néng bù néng chī .",
+        "en": "Ask about ingredients first. I have not fully understood it and cannot guess whether someone with an allergy can eat it.",
+        "speaker": "b"
+      },
+      {
+        "zh": "菜单写二两米饭，是两份吗？",
+        "py": "cài dān xiě èr liǎng mǐ fàn , shì liǎng fèn ma ?",
+        "en": "The menu says two liang of rice; is that two portions?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，两是分量单位，份是份数。先问店里一份是多少。",
+        "py": "bù shì , liǎng shì fèn liàng dān wèi , fèn shì fèn shǔ . xiān wèn diàn lǐ yī fèn shì duō shao .",
+        "en": "No, liang is a weight unit and fen counts portions. Ask the restaurant how much a portion is.",
+        "speaker": "b"
+      },
+      {
+        "zh": "油少一点儿，菜先上一部分。我吃饱了就不加饭。",
+        "py": "yóu shǎo yì diǎn ér , cài xiān shàng yī bù fèn . wǒ chī bǎo le jiù bù jiā fàn .",
+        "en": "A little less oil, and serve some dishes first. Once I am full, I will not add rice.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。大家觉得公平就好，不用因为请客就多点。下次朋友全家来也先问。",
+        "py": "hǎo . dà jiā jué de gōng píng jiù hǎo , bù yòng yīn wèi qǐng kè jiù duō diǎn . xià cì péng you quán jiā lái yě xiān wèn .",
+        "en": "Okay. As long as everyone finds it fair; no need to over-order because someone is treating. Ask first when our friend’s whole family visits next time too.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do they do before ordering?",
+        "choices": [
+          "Ask every person and clarify portions and ingredients",
+          "Let the majority choose everything for everyone",
+          "Treat 二两 as two portions"
+        ],
+        "answer": "Ask every person and clarify portions and ingredients"
+      },
+      {
+        "type": "detail",
+        "q": "How many people want rice?",
+        "choices": [
+          "Three",
+          "Four",
+          "One"
+        ],
+        "answer": "Three"
+      },
+      {
+        "type": "inference",
+        "q": "Are allergy suitability and ingredients confirmed?",
+        "choices": [
+          "No, they still need to ask",
+          "Yes, fish always contains no egg",
+          "Yes, reading part of the menu proves safety"
+        ],
+        "answer": "No, they still need to ask"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "分量",
+        "pinyin": "fèn liàng",
+        "meaning": "portion size"
+      },
+      {
+        "hanzi": "配料",
+        "pinyin": "pèi liào",
+        "meaning": "ingredient"
+      },
+      {
+        "hanzi": "过敏",
+        "pinyin": "guò mǐn",
+        "meaning": "allergy"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "菜单",
+        "pinyin": "cài dān",
+        "meaning": "menu"
+      },
+      {
+        "hanzi": "具体",
+        "pinyin": "jù tǐ",
+        "meaning": "specific"
+      },
+      {
+        "hanzi": "组员",
+        "pinyin": "zǔ yuán",
+        "meaning": "group member"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u12-r",
+    "title": "The shared order",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to distinguish total people, food choices and unconfirmed facts.",
+    "lines": [
+      {
+        "zh": "我们小组一共四个人，全到了。这张桌子只能坐四个，人数正好。",
+        "py": "wǒ men xiǎo zǔ yī gòng sì gè rén , quán dào le . zhè zhāng zhuō zi zhǐ néng zuò sì gè , rén shù zhèng hǎo .",
+        "en": "Our group has four people in total, all here. This table seats only four, so the number fits."
+      },
+      {
+        "zh": "我今天请客，但先看预算，也先问所有人。全体组员看过菜单，不等于全都想吃一样的菜。",
+        "py": "wǒ jīn tiān qǐng kè , dàn xiān kàn yù suàn , yě xiān wèn suǒ yǒu rén . quán tǐ zǔ yuán kàn guò cài dān , bù děng yú quán dōu xiǎng chī yī yàng de cài .",
+        "en": "I am treating today, but check the budget and ask everyone first. Every member having read the menu does not mean all want the same dishes."
+      },
+      {
+        "zh": "三个人要米饭，一个不要。多数要饭，少数不要，不能说所有人都要。",
+        "py": "sān gè rén yào mǐ fàn , yī gè bú yào . duō shù yào fàn , shǎo shù bú yào , bù néng shuō suǒ yǒu rén dōu yào .",
+        "en": "Three want rice and one does not. Most want rice and a minority do not; we cannot say everyone wants it."
+      },
+      {
+        "zh": "其中一个只喝水，其他三个人喝茶。鸡和鱼还没定，要先确认有没有蛋。",
+        "py": "qí zhōng yī gè zhǐ hē shuǐ , qí tā sān gè rén hē chá . jī hé yú hái méi dìng , yào xiān què rèn yǒu méi yǒu dàn .",
+        "en": "One drinks only water and the other three have tea. Chicken and fish are not decided yet; we must confirm whether they contain egg."
+      },
+      {
+        "zh": "我没完全看懂配料。对过敏问题要问清楚，不能只看菜名就决定。",
+        "py": "wǒ méi wán quán kàn dǒng pèi liào . duì guò mǐn wèn tí yào wèn qīng chǔ , bù néng zhǐ kàn cài míng jiù jué dìng .",
+        "en": "I have not fully understood the ingredients. We must ask clearly about allergies; dish names alone are not enough to decide."
+      },
+      {
+        "zh": "菜单写二两米饭，这里的两是分量单位，不是两份。一份有多少，还要问店里。",
+        "py": "cài dān xiě èr liǎng mǐ fàn , zhè lǐ de liǎng shì fèn liàng dān wèi , bù shì liǎng fèn . yī fèn yǒu duō shao , hái yào wèn diàn lǐ .",
+        "en": "The menu says two liang of rice; liang is a weight unit here, not two portions. How much one portion contains still needs asking."
+      },
+      {
+        "zh": "清淡的菜先上一部分，油少一点儿。吃饱了就不加，不用为了请客点太多。",
+        "py": "qīng dàn de cài xiān shàng yī bù fèn , yóu shǎo yì diǎn ér . chī bǎo le jiù bù jiā , bù yòng wèi le qǐng kè diǎn tài duō .",
+        "en": "Serve some of the lightly seasoned dishes first and use less oil. Stop adding when full; no need to over-order because of a treat."
+      },
+      {
+        "zh": "付钱的办法先商量，大家觉得公平就好。下次朋友全家来，也要问各人，不替全家选。",
+        "py": "fù qián de bàn fǎ xiān shāng liáng , dà jiā jué de gōng píng jiù hǎo . xià cì péng you quán jiā lái , yě yào wèn gè rén , bù tì quán jiā xuǎn .",
+        "en": "Discuss payment arrangements first; it is fine if everyone considers them fair. When our friend’s whole family comes next time, ask each person rather than choosing for the entire family."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What principle guides the order?",
+        "choices": [
+          "Check individual needs rather than assuming unanimity",
+          "All members must order identical food",
+          "A treat requires extra food"
+        ],
+        "answer": "Check individual needs rather than assuming unanimity"
+      },
+      {
+        "type": "detail",
+        "q": "How many people drink tea?",
+        "choices": [
+          "Three",
+          "Four",
+          "One"
+        ],
+        "answer": "Three"
+      },
+      {
+        "type": "inference",
+        "q": "Does 二两 establish two portions?",
+        "choices": [
+          "No, it names a weight unit",
+          "Yes, 两 always means two portions",
+          "Yes, the table has two seats"
+        ],
+        "answer": "No, it names a weight unit"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【三个人】要米饭，一个不要。多数要饭，少数不要，不能说所有人都要。",
+          "py": "sān gè rén yào mǐ fàn , yī gè bú yào . duō shù yào fàn , shǎo shù bú yào , bù néng shuō suǒ yǒu rén dōu yào .",
+          "en": "Three want rice and one does not. Most want rice and a minority do not; we cannot say everyone wants it."
+        },
+        {
+          "zh": "其中一个只喝【水】，其他三个人喝茶。鸡和鱼还没定，要先确认有没有蛋。",
+          "py": "qí zhōng yī gè zhǐ hē shuǐ , qí tā sān gè rén hē chá . jī hé yú hái méi dìng , yào xiān què rèn yǒu méi yǒu dàn .",
+          "en": "One drinks only water and the other three have tea. Chicken and fish are not decided yet; we must confirm whether they contain egg."
+        }
+      ],
+      "bank": [
+        "三个人",
+        "水",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "分量",
+        "pinyin": "fèn liàng",
+        "meaning": "portion size"
+      },
+      {
+        "hanzi": "配料",
+        "pinyin": "pèi liào",
+        "meaning": "ingredient"
+      },
+      {
+        "hanzi": "过敏",
+        "pinyin": "guò mǐn",
+        "meaning": "allergy"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "清淡",
+        "pinyin": "qīng dàn",
+        "meaning": "lightly seasoned"
+      },
+      {
+        "hanzi": "预算",
+        "pinyin": "yù suàn",
+        "meaning": "budget"
+      },
+      {
+        "hanzi": "菜单",
+        "pinyin": "cài dān",
+        "meaning": "menu"
+      },
+      {
+        "hanzi": "组员",
+        "pinyin": "zǔ yuán",
+        "meaning": "group member"
+      },
+      {
+        "hanzi": "各人",
+        "pinyin": "gè rén",
+        "meaning": "each person"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u12-media",
+      "title": "Count, then ask",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original ordering verse.",
+      "lines": [
+        {
+          "zh": "四个人，全到了。一共四个，不多不少。",
+          "py": "sì gè rén , quán dào le . yī gòng sì gè , bù duō bù shǎo .",
+          "en": "Four people, all here. Four altogether, neither more nor fewer."
+        },
+        {
+          "zh": "三人要饭，一人不要。大多数，不是每一个。",
+          "py": "sān rén yào fàn , yī rén bú yào . dà duō shù , bù shì měi yī gè .",
+          "en": "Three want rice, one does not. The majority, not every person."
+        },
+        {
+          "zh": "一人只喝水，三人想喝茶。谁吃鸡，谁吃鱼，先问才知道。",
+          "py": "yī rén zhǐ hē shuǐ , sān rén xiǎng hē chá . shéi chī jī , shéi chī yú , xiān wèn cái zhī dào .",
+          "en": "One drinks only water, three want tea. Who eats chicken or fish? Ask before knowing."
+        },
+        {
+          "zh": "蛋和油，配料看清。没有确认，不能替人猜。",
+          "py": "dàn hé yóu , pèi liào kàn qīng . méi yǒu què rèn , bù néng tì rén cāi .",
+          "en": "Egg and oil: read the ingredients. Without confirmation, do not guess for someone else."
+        },
+        {
+          "zh": "二两不是两份，份数分量要分开。菜先上一部分，饱了不用加。",
+          "py": "èr liǎng bù shì liǎng fèn , fèn shǔ fèn liàng yào fēn kāi . cài xiān shàng yī bù fèn , bǎo le bù yòng jiā .",
+          "en": "Two liang is not two portions; separate portion counts and weight. Serve some dishes first; no need to add when full."
+        },
+        {
+          "zh": "请客也看预算，公平先商量。全家来吃饭，也问每个人。",
+          "py": "qǐng kè yě kàn yù suàn , gōng píng xiān shāng liáng . quán jiā lái chī fàn , yě wèn měi gè rén .",
+          "en": "Even when treating, check the budget and discuss fairness. Even for a family meal, ask each person."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the verse warn against?",
+          "choices": [
+            "Turning a majority preference into everyone’s choice",
+            "Asking individuals",
+            "Checking the menu"
+          ],
+          "answer": "Turning a majority preference into everyone’s choice"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "分量",
+          "pinyin": "fèn liàng",
+          "meaning": "portion size"
+        },
+        {
+          "hanzi": "配料",
+          "pinyin": "pèi liào",
+          "meaning": "ingredient"
+        },
+        {
+          "hanzi": "确认",
+          "pinyin": "què rèn",
+          "meaning": "to confirm"
+        },
+        {
+          "hanzi": "预算",
+          "pinyin": "yù suàn",
+          "meaning": "budget"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u12-t1",
+      "phrase": "s2-u12-w07",
+      "audio": {
+        "zh": "三个人要米饭，一个不要。",
+        "py": "sān gè rén yào mǐ fàn , yī gè bú yào .",
+        "en": "Three want rice and one does not."
+      },
+      "statement": "Everyone wants rice.",
+      "answer": false,
+      "why": "Three of four is a majority, not all."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u12-t2",
+      "phrase": "s2-u12-w11",
+      "audio": {
+        "zh": "四个人，其中一个喝水，其他三个人喝茶。",
+        "py": "sì gè rén , qí zhōng yī gè hē shuǐ , qí tā sān gè rén hē chá .",
+        "en": "Four people: one drinks water and the other three drink tea."
+      },
+      "statement": "Three people drink tea.",
+      "answer": true,
+      "why": "The sentence states three."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u12-t3",
+      "phrase": "s2-u12-w13",
+      "prompt": {
+        "zh": "二两米饭是两份吗？",
+        "py": "èr liǎng mǐ fàn shì liǎng fèn ma ?",
+        "en": "Is two liang of rice two portions?"
+      },
+      "choices": [
+        "不是，先问一份的分量。",
+        "四个人全到了。",
+        "我今天请客。"
+      ],
+      "answer": "不是，先问一份的分量。",
+      "why": "Clarify the weight-versus-portion distinction."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u12-t4",
+      "phrase": "s2-u12-w19",
+      "prompt": {
+        "zh": "你完全看懂配料了吗？",
+        "py": "nǐ wán quán kàn dǒng pèi liào le ma ?",
+        "en": "Have you completely understood the ingredients?"
+      },
+      "choices": [
+        "还没有，我先问清楚。",
+        "所有人都是四个。",
+        "只要水，不要茶。"
+      ],
+      "answer": "还没有，我先问清楚。",
+      "why": "Acknowledge incomplete understanding and ask."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u12-t5",
+      "phrase": "s2-u12-w01",
+      "line": {
+        "zh": "我【只】喝水。",
+        "py": "wǒ zhǐ hē shuǐ .",
+        "en": "I drink only water."
+      },
+      "blankPy": "zhǐ"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u12-t6",
+      "phrase": "s2-u12-w22",
+      "line": {
+        "zh": "【人数】是四，不是五。",
+        "py": "rén shù shì sì , bù shì wǔ .",
+        "en": "The number of people is four, not five."
+      },
+      "blankPy": "rén shù"
+    },
+    {
+      "type": "match",
+      "id": "s2-u12-t7",
+      "phrase": "s2-u12-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Everyone has arrived.",
+          "right": {
+            "zh": "所有人都到了。",
+            "py": "suǒ yǒu rén dōu dào le .",
+            "en": "Everyone has arrived."
+          }
+        },
+        {
+          "left": "Most people want rice.",
+          "right": {
+            "zh": "大多数人要饭。",
+            "py": "dà duō shù rén yào fàn .",
+            "en": "Most people want rice."
+          }
+        },
+        {
+          "left": "Only one person drinks water.",
+          "right": {
+            "zh": "只有一个人喝水。",
+            "py": "zhǐ yǒu yī gè rén hē shuǐ .",
+            "en": "Only one person drinks water."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u12-t8",
+      "phrase": "s2-u12-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Rice measured as two liang.",
+          "right": {
+            "zh": "二两米饭。",
+            "py": "èr liǎng mǐ fàn .",
+            "en": "Rice measured as two liang."
+          }
+        },
+        {
+          "left": "Two portions of rice.",
+          "right": {
+            "zh": "两份米饭。",
+            "py": "liǎng fèn mǐ fàn .",
+            "en": "Two portions of rice."
+          }
+        },
+        {
+          "left": "Some of the dishes.",
+          "right": {
+            "zh": "一部分菜。",
+            "py": "yī bù fèn cài .",
+            "en": "Some of the dishes."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u12-tcontext-01",
+      "phrase": "s2-u12-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "Most people want rice.",
+          "right": {
+            "zh": "大部分人想吃米饭。",
+            "py": "dà bù fèn rén xiǎng chī mǐ fàn .",
+            "en": "Most people want rice."
+          }
+        },
+        {
+          "left": "Most friends have arrived; two have not come yet.",
+          "right": {
+            "zh": "大部分朋友都到了，还有两个人没来。",
+            "py": "dà bù fèn péng you dōu dào le , hái yǒu liǎng gè rén méi lái .",
+            "en": "Most friends have arrived; two have not come yet."
+          }
+        },
+        {
+          "left": "I only want water, not tea.",
+          "right": {
+            "zh": "我只想要水，不要茶。",
+            "py": "wǒ zhǐ xiǎng yào shuǐ , bú yào chá .",
+            "en": "I only want water, not tea."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u12-t9",
+      "phrase": "s2-u12-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The green one is light and short; the yellow one is not dry.",
+          "right": {
+            "zh": "绿的又轻又短，黄的还没干。",
+            "py": "lǜ de yòu qīng yòu duǎn , huáng de hái méi gàn .",
+            "en": "The green one is light and short; the yellow one is not dry."
+          }
+        },
+        {
+          "left": "The clothes are clean, and the shoes are clean too.",
+          "right": {
+            "zh": "衣服干干净净，鞋也干干净净。",
+            "py": "yī fú gān gān jìng jìng , xié yě gān gān jìng jìng .",
+            "en": "The clothes are clean, and the shoes are clean too."
+          }
+        },
+        {
+          "left": "We wait ten minutes; it starts at seven.",
+          "right": {
+            "zh": "我们等十分钟，七点开始。",
+            "py": "wǒ men děng shí fēn zhōng , qī diǎn kāi shǐ .",
+            "en": "We wait ten minutes; it starts at seven."
+          }
+        },
+        {
+          "left": "Take your seat before the start; leave after the end.",
+          "right": {
+            "zh": "开场以前先坐好，散场以后再出去。",
+            "py": "kāi chǎng yǐ qián xiān zuò hǎo , sàn chǎng yǐ hòu zài chū qù .",
+            "en": "Take your seat before the start; leave after the end."
+          }
+        },
+        {
+          "left": "It is nearly seven; the programme is about to begin.",
+          "right": {
+            "zh": "快要七点了，节目就要开始了。",
+            "py": "kuài yào qī diǎn le , jié mù jiù yào kāi shǐ le .",
+            "en": "It is nearly seven; the programme is about to begin."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Clarifying ingredients",
+      "natural": {
+        "zh": "这道菜里有蛋吗？我还需要确认配料。",
+        "py": "zhè dào cài lǐ yǒu dàn ma ? wǒ hái xū yào què rèn pèi liào .",
+        "en": "Does this dish contain egg? I still need to confirm the ingredients."
+      },
+      "note": "A language lesson cannot establish food-allergy safety; ask about the actual dish."
+    },
+    {
+      "situation": "Checking individual needs",
+      "natural": {
+        "zh": "别替大家选，我先问每个人。",
+        "py": "bié tì dà jiā xuǎn , wǒ xiān wèn měi gè rén .",
+        "en": "Do not choose for everyone; I will ask each person first."
+      },
+      "note": "A majority preference does not speak for everyone."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u12-speak",
+    "title": "Ordering for everyone",
+    "place": "A language-exchange meeting",
+    "context": "Count the whole order and check preferences.",
+    "goal": "Distinguish all, most and only",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "全都要饭吗？",
+        "pinyin": "quán dōu yào fàn ma ?",
+        "meaning": "Does everyone want rice?",
+        "intent": "Distinguish most from all",
+        "examples": [
+          "不是，三个人要，一个不要。"
+        ],
+        "accept": [
+          "^不是，三个人要，一个不要。[。！？]?$"
+        ]
+      },
+      {
+        "text": "配料看懂了吗？",
+        "pinyin": "pèi liào kàn dǒng le ma ?",
+        "meaning": "Did you understand the ingredients?",
+        "intent": "Keep uncertainty explicit",
+        "examples": [
+          "还没有，我先问清楚。"
+        ],
+        "accept": [
+          "^还没有，我先问清楚。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二14, 二39. Native check: liang as a weight sense separate from numeral 两, restaurant portion conventions, noun-phrase head analysis, ordering register and the original verse. No allergy safety is inferred from a dish name; no universal portion weight is asserted. Planned retrieval 二08 / 二41 / 二46 / 二12 / 二47 / 二81: 绿的又轻又短，黄的还没干。, 衣服干干净净，鞋也干干净净。, 我们等十分钟，七点开始。, 开场以前先坐好，散场以后再出去。, 快要七点了，节目就要开始了。."
+}

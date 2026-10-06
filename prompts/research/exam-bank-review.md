@@ -11,6 +11,14 @@ The inspected sample papers have listening and reading in levels 1–3 and writi
 ## Level 1 editorial review
 
 - Preserve every ID, choice and answer in the original 36-item version-1 pack. That pack contains 24 checkpoint items and 12 sample items. Add 54 new items: 36 checkpoint and 18 sample, giving 60/30 overall.
+
+## Level 2 draft review (6 October 2026)
+
+The unpublished original bank has 90 items: 60 checkpoint and 30 sample, with reading, listening, ordering and choice cloze interleaved. Existing level-1 IDs are untouched. The unchanged dictionary-backed level/pinyin gate passes all 90 in the isolated course shadow; this is preflight, not publication or audio acceptance.
+
+Applied fixes: removed higher-level/unlisted wording (including 毕业, 决定, 替, 每, 身份, 店员, 消息, 窗户, 糖 and 听清) from level-2 exam strings; replaced the situations and their translations with validated equivalent practice. Corrected neutral readings of 妈妈/衣服 and 玩儿, and replaced ordering distractors that split dictionary words or allowed another ordinary temporal reading. All four answer positions rotate; ordering choices preserve the exact character multiset; each cloze restores the full stated sentence. Checked arithmetic, time references, actor/ownership scope, willingness versus agreement, intent versus completion, personal reports versus observers' guesses, and permission boundaries.
+
+Native review still pending: ordering alternatives under topic fronting, spoken duration examples, concession scope in willingness questions, naturalness of classmate clothing advice, and single-word option pronunciation. No automatic check certifies pronunciation or a full official mock. Audio, full acceptance gates and level deployment remain required.
 - New items interleave reading comprehension, listening comprehension and ordinary word-order selection. Questions, options, connected sentences and ordering segments must pass the dictionary-backed level and pinyin check. No invented word levels.
 - Removed out-of-level/unlisted draft vocabulary, including English/coffee/apple/classroom/subway forms; replaced them with validated level-1 contexts. Corrected a malformed ordering distractor and required every ordering choice to have the same Han-character multiset as the answer. All four answer positions appear.
 - Checked identity versus occupation, departure versus arrival, day versus time, item price versus total, explicit negatives and source-specific quantities. Each key has an explanation tied to the stated sentence. An alternative cannot be correct just because it is generally plausible.

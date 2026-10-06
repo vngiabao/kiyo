@@ -1,0 +1,1312 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u09",
+    "stage": 1,
+    "order": 39,
+    "title": "A little gift for you",
+    "titleZh": "给你一份小礼物",
+    "canDo": [
+      "Choose counters for a letter, clothing and a recipient",
+      "Keep the recipient and the gift in the right order",
+      "Check an address before sending"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u08"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u09-w01",
+      "hanzi": "层",
+      "pinyin": "céng",
+      "meaning": "floor; layer classifier",
+      "meaningVi": "tầng; lớp",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友住三层，我先问怎么上去。",
+        "py": "péng you zhù sān céng , wǒ xiān wèn zěn me shàng qù .",
+        "en": "My friend lives on the third floor; I first ask how to get upstairs."
+      },
+      "usageNote": "[GF2021:L2:759] Source entry: 层; céng; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w02",
+      "hanzi": "封",
+      "pinyin": "fēng",
+      "meaning": "letter classifier",
+      "meaningVi": "lượng từ thư",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我写了一封信，放进信封。",
+        "py": "wǒ xiě le yī fēng xìn , fàng jìn xìn fēng .",
+        "en": "I wrote a letter and put it in an envelope."
+      },
+      "usageNote": "[GF2021:L2:2415] Source entry: 封; fēng; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w03",
+      "hanzi": "放下",
+      "pinyin": "fàng xià",
+      "meaning": "to put down",
+      "meaningVi": "đặt xuống",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先把包裹放下，再找笔。",
+        "py": "xiān bǎ bāo guǒ fàng xià , zài zhǎo bǐ .",
+        "en": "Put the parcel down first, then find a pen."
+      },
+      "usageNote": "[GF2021:L2:2287] Source entry: 放下; fàngxia; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w04",
+      "hanzi": "条",
+      "pinyin": "tiáo",
+      "meaning": "long-item classifier",
+      "meaningVi": "lượng từ vật dài",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这条围巾是给你的。",
+        "py": "zhè tiáo wéi jīn shì gěi nǐ de .",
+        "en": "This scarf is for you."
+      },
+      "usageNote": "[GF2021:L2:7969] Source entry: 条; tiáo; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w05",
+      "hanzi": "位",
+      "pinyin": "wèi",
+      "meaning": "polite person classifier",
+      "meaningVi": "vị; lượng từ người lịch sự",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "那位朋友还没收到礼物。",
+        "py": "nà wèi péng you hái mò shōu dào lǐ wù .",
+        "en": "That friend has not received the gift yet."
+      },
+      "usageNote": "[GF2021:L2:8427] Source entry: 位; wèi; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w06",
+      "hanzi": "份",
+      "pinyin": "fèn",
+      "meaning": "portion; copy classifier",
+      "meaningVi": "phần; bản",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "每人一份小礼物。",
+        "py": "měi rén yī fèn xiǎo lǐ wù .",
+        "en": "One small gift for each person."
+      },
+      "usageNote": "[GF2021:L2:2372] Source entry: 份; fèn; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w07",
+      "hanzi": "套",
+      "pinyin": "tào",
+      "meaning": "set classifier",
+      "meaningVi": "bộ",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我买了一套笔记本和笔。",
+        "py": "wǒ mǎi le yī tào bǐ jì běn hé bǐ .",
+        "en": "I bought a set of notebooks and pens."
+      },
+      "usageNote": "[GF2021:L2:7851] Source entry: 套; tào; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w08",
+      "hanzi": "纸",
+      "pinyin": "zhǐ",
+      "meaning": "paper",
+      "meaningVi": "giấy",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这张纸用来写地址。",
+        "py": "zhè zhāng zhǐ yòng lái xiě dì zhǐ .",
+        "en": "This sheet of paper is for writing the address."
+      },
+      "usageNote": "[GF2021:L2:10534] Source entry: 纸; zhǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w09",
+      "hanzi": "笔",
+      "pinyin": "bǐ",
+      "meaning": "pen",
+      "meaningVi": "bút",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请借我一支笔。",
+        "py": "qǐng jiè wǒ yī zhī bǐ .",
+        "en": "Please lend me a pen."
+      },
+      "usageNote": "[GF2021:L2:347] Source entry: 笔; bǐ; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w10",
+      "hanzi": "笔记",
+      "pinyin": "bǐ jì",
+      "meaning": "notes",
+      "meaningVi": "ghi chú",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "地址在我的笔记里。",
+        "py": "dì zhǐ zài wǒ de bǐ jì lǐ .",
+        "en": "The address is in my notes."
+      },
+      "usageNote": "[GF2021:L2:348] Source entry: 笔记; bǐjì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w11",
+      "hanzi": "笔记本",
+      "pinyin": "bǐ jì běn",
+      "meaning": "notebook",
+      "meaningVi": "vở; sổ tay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "新笔记本里还没有字。",
+        "py": "xīn bǐ jì běn lǐ hái méi yǒu zì .",
+        "en": "The new notebook has no writing in it yet."
+      },
+      "usageNote": "[GF2021:L2:349] Source entry: 笔记本; bǐjìběn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w12",
+      "hanzi": "交",
+      "pinyin": "jiāo",
+      "meaning": "to hand over",
+      "meaningVi": "nộp; giao",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我把包裹交到服务台。",
+        "py": "wǒ bǎ bāo guǒ jiāo dào fú wù tái .",
+        "en": "I hand the parcel over at the service desk."
+      },
+      "usageNote": "[GF2021:L2:4047] Source entry: 交; jiāo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w13",
+      "hanzi": "交给",
+      "pinyin": "jiāo gěi",
+      "meaning": "to hand to",
+      "meaningVi": "giao cho",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请把这封信交给她。",
+        "py": "qǐng bǎ zhè fēng xìn jiāo gěi tā .",
+        "en": "Please hand this letter to her."
+      },
+      "usageNote": "[GF2021:L2:4053] Source entry: 交给; jiāo gěi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w14",
+      "hanzi": "送给",
+      "pinyin": "sòng gěi",
+      "meaning": "to give as a gift",
+      "meaningVi": "tặng cho",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我送给你一本书。",
+        "py": "wǒ sòng gěi nǐ yī běn shū .",
+        "en": "I give you a book as a gift."
+      },
+      "usageNote": "[GF2021:L2:7658] Source entry: 送给; sòng gěi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w15",
+      "hanzi": "送到",
+      "pinyin": "sòng dào",
+      "meaning": "to deliver to",
+      "meaningVi": "đưa đến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "包裹送到学校，不是家里。",
+        "py": "bāo guǒ sòng dào xué xiào , bù shì jiā lǐ .",
+        "en": "The parcel is delivered to the school, not the home."
+      },
+      "usageNote": "[GF2021:L2:7657] Source entry: 送到; sòngdào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w16",
+      "hanzi": "接",
+      "pinyin": "jiē",
+      "meaning": "to receive; meet",
+      "meaningVi": "nhận; đón",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我到门口接朋友。",
+        "py": "wǒ dào mén kǒu jiē péng you .",
+        "en": "I go to the entrance to meet my friend."
+      },
+      "usageNote": "[GF2021:L2:4139] Source entry: 接; jiē; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w17",
+      "hanzi": "接到",
+      "pinyin": "jiē dào",
+      "meaning": "to receive; reach by receiving",
+      "meaningVi": "nhận được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我接到通知后再去拿。",
+        "py": "wǒ jiē dào tōng zhī hòu zài qù ná .",
+        "en": "I go to collect it after receiving the notice."
+      },
+      "usageNote": "[GF2021:L2:4144] Source entry: 接到; jiēdào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w18",
+      "hanzi": "接受",
+      "pinyin": "jiē shòu",
+      "meaning": "to accept",
+      "meaningVi": "chấp nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你不方便接受也没关系。",
+        "py": "nǐ bù fāng biàn jiē shòu yě méi guān xì .",
+        "en": "It is okay if accepting it is inconvenient for you."
+      },
+      "usageNote": "[GF2021:L2:4155] Source entry: 接受; jiēshòu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w19",
+      "hanzi": "感谢",
+      "pinyin": "gǎn xiè",
+      "meaning": "to thank; gratitude",
+      "meaningVi": "cảm ơn; lòng biết ơn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "谢谢你，我很感谢你的帮助。",
+        "py": "xiè xiè nǐ , wǒ hěn gǎn xiè nǐ de bāng zhù .",
+        "en": "Thank you; I am very grateful for your help."
+      },
+      "usageNote": "[GF2021:L2:2602] Source entry: 感谢; gǎnxiè; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w20",
+      "hanzi": "感动",
+      "pinyin": "gǎn dòng",
+      "meaning": "to be moved",
+      "meaningVi": "cảm động",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "看了信，我很感动。",
+        "py": "kàn le xìn , wǒ hěn gǎn dòng .",
+        "en": "I was very moved after reading the letter."
+      },
+      "usageNote": "[GF2021:L2:2589] Source entry: 感动; gǎndòng; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w21",
+      "hanzi": "感到",
+      "pinyin": "gǎn dào",
+      "meaning": "to feel",
+      "meaningVi": "cảm thấy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "收到朋友的信，我感到很开心。",
+        "py": "shōu dào péng you de xìn , wǒ gǎn dào hěn kāi xīn .",
+        "en": "Receiving my friend’s letter makes me feel happy."
+      },
+      "usageNote": "[GF2021:L2:2588] Source entry: 感到; gǎndào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u09-w22",
+      "hanzi": "照顾",
+      "pinyin": "zhào gù",
+      "meaning": "to look after",
+      "meaningVi": "chăm sóc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这几天谢谢你照顾我。",
+        "py": "zhè jǐ tiān xiè xiè nǐ zhào gù wǒ .",
+        "en": "Thank you for looking after me these past few days."
+      },
+      "usageNote": "[GF2021:L2:10308] Source entry: 照顾; zhàogù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "层",
+      "pinyin": "céng",
+      "meaning": "layer; floor",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "层",
+          "role": "whole",
+          "gloss": "layer; floor"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 层 in 层. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "层",
+          "p": "céng",
+          "m": "floor; layer classifier"
+        }
+      ]
+    },
+    {
+      "hanzi": "封",
+      "pinyin": "fēng",
+      "meaning": "seal; letter counter",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "封",
+          "role": "whole",
+          "gloss": "seal; letter counter"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 封 in 封. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "封",
+          "p": "fēng",
+          "m": "classifier for letters"
+        }
+      ]
+    },
+    {
+      "hanzi": "份",
+      "pinyin": "fèn",
+      "meaning": "portion; copy",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "份",
+          "role": "whole",
+          "gloss": "portion; copy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 份 in 份. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "份",
+          "p": "fèn",
+          "m": "portion; share"
+        }
+      ]
+    },
+    {
+      "hanzi": "套",
+      "pinyin": "tào",
+      "meaning": "set",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "套",
+          "role": "whole",
+          "gloss": "set"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 套 in 套. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "套",
+          "p": "tào",
+          "m": "set classifier"
+        }
+      ]
+    },
+    {
+      "hanzi": "纸",
+      "pinyin": "zhǐ",
+      "meaning": "paper",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "纸",
+          "role": "whole",
+          "gloss": "paper"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 纸 in 纸. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "纸",
+          "p": "zhǐ",
+          "m": "paper"
+        }
+      ]
+    },
+    {
+      "hanzi": "笔",
+      "pinyin": "bǐ",
+      "meaning": "pen; writing",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "笔",
+          "role": "whole",
+          "gloss": "pen; writing"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 笔 in 笔 / 笔记. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "笔",
+          "p": "bǐ",
+          "m": "pen"
+        },
+        {
+          "w": "笔记",
+          "p": "bǐ jì",
+          "m": "notes"
+        }
+      ]
+    },
+    {
+      "hanzi": "感",
+      "pinyin": "gǎn",
+      "meaning": "to feel",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "感",
+          "role": "whole",
+          "gloss": "to feel"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 感 in 感谢 / 感动. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "感谢",
+          "p": "gǎn xiè",
+          "m": "to thank; gratitude"
+        },
+        {
+          "w": "感动",
+          "p": "gǎn dòng",
+          "m": "to be moved"
+        }
+      ]
+    },
+    {
+      "hanzi": "卡",
+      "pinyin": "kǎ",
+      "meaning": "card",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "卡",
+          "role": "whole",
+          "gloss": "card"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 卡 in 卡 / 银行卡. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "卡",
+          "p": "kǎ",
+          "m": "card"
+        },
+        {
+          "w": "银行卡",
+          "p": "yín háng kǎ",
+          "m": "bank card"
+        }
+      ]
+    },
+    {
+      "hanzi": "位",
+      "pinyin": "wèi",
+      "meaning": "position; polite person classifier",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "位",
+          "role": "whole",
+          "gloss": "position; polite person classifier"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 位 in 位 / 座位. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "位",
+          "p": "wèi",
+          "m": "respectful classifier for people"
+        },
+        {
+          "w": "座位",
+          "p": "zuò wèi",
+          "m": "seat"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u09-g二10",
+      "pattern": "层 / 封 / 件 / 条 / 位",
+      "purpose": "Match the classifier to the thing or person",
+      "explanation": "层 counts floors or layers; 封 counts letters; 件 counts items of clothing and some matters; 条 counts long flexible things such as scarves; 位 respectfully counts people. Compare 一件衣服 and 一条围巾. 位 does not replace every classifier: a letter is 一封信, not 一位信. Use a recipient’s own name if it is available; the classifier does not tell you their gender.",
+      "examples": [
+        {
+          "zh": "三层有两间房，一位朋友住在那里。",
+          "py": "sān céng yǒu liǎng jiān fáng , yī wèi péng you zhù zài nà lǐ .",
+          "en": "There are two rooms on the third floor; a friend lives there."
+        },
+        {
+          "zh": "一封信，一件衣服，一条围巾。",
+          "py": "yī fēng xìn , yī jiàn yī fú , yī tiáo wéi jīn .",
+          "en": "A letter, an item of clothing, a scarf."
+        },
+        {
+          "zh": "这位老师收到两封信。",
+          "py": "zhè wèi lǎo shī shōu dào liǎng fēng xìn .",
+          "en": "This teacher received two letters."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我写了一条信。",
+          "right": "我写了一封信。",
+          "why": "Use 封 for a written letter; 条 is not its classifier."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u09-g二61",
+      "pattern": "送 + recipient + gift / 送给 + recipient + gift",
+      "purpose": "Keep two objects and the destination distinct",
+      "explanation": "With giving verbs, the person can come before the thing: 我送你一本书. 给 can mark the recipient: 我送给你一本书. 我给你一本书 also works. 送到学校 states the destination, not the person receiving the gift. Not every verb takes two bare objects: use 把这封信交给她 or 将这封信交给她, rather than transferring the pattern to 看. These examples teach the common giving patterns, not a universal rule for all verbs.",
+      "examples": [
+        {
+          "zh": "我送你一本书。",
+          "py": "wǒ sòng nǐ yī běn shū .",
+          "en": "I give you a book as a gift."
+        },
+        {
+          "zh": "我送给你一本书。",
+          "py": "wǒ sòng gěi nǐ yī běn shū .",
+          "en": "I give you a book as a gift."
+        },
+        {
+          "zh": "我给她一支笔，包裹送到学校。",
+          "py": "wǒ gěi tā yī zhī bǐ , bāo guǒ sòng dào xué xiào .",
+          "en": "I give her a pen; the parcel is delivered to the school."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我送一本书你。",
+          "right": "我送你一本书。",
+          "why": "In this bare double-object construction, put the recipient before the thing."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u09-d",
+    "title": "Check the recipient",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which gift goes to which person and what still needs checking.",
+    "lines": [
+      {
+        "zh": "包裹先放下吧。你写了几封信？",
+        "py": "bāo guǒ xiān fàng xià ba . nǐ xiě le jǐ fēng xìn ?",
+        "en": "Put the parcel down first. How many letters did you write?",
+        "speaker": "a"
+      },
+      {
+        "zh": "两封。一封给照顾我的朋友，一封给老师。",
+        "py": "liǎng fēng . yī fēng gěi zhào gù wǒ de péng you , yī fēng gěi lǎo shī .",
+        "en": "Two. One for the friend who looked after me and one for the teacher.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那位朋友住三层，对吗？",
+        "py": "nà wèi péng you zhù sān céng , duì ma ?",
+        "en": "That friend lives on the third floor, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，但这个包裹送到学校。地址在笔记本里。",
+        "py": "duì , dàn zhè gè bāo guǒ sòng dào xué xiào . dì zhǐ zài bǐ jì běn lǐ .",
+        "en": "Yes, but this parcel goes to the school. The address is in my notebook.",
+        "speaker": "b"
+      },
+      {
+        "zh": "纸和笔在这儿。你准备了什么礼物？",
+        "py": "zhǐ hé bǐ zài zhèr . nǐ zhǔn bèi le shén me lǐ wù ?",
+        "en": "The paper and pen are here. What gifts did you prepare?",
+        "speaker": "a"
+      },
+      {
+        "zh": "一条围巾、一件衣服，还有一套笔记本和笔。",
+        "py": "yī tiáo wéi jīn , yī jiàn yī fú , hái yǒu yī tào bǐ jì běn hé bǐ .",
+        "en": "A scarf, an item of clothing, and a set of notebooks and pens.",
+        "speaker": "b"
+      },
+      {
+        "zh": "哪一份送给老师？",
+        "py": "nǎ yī fèn sòng gěi lǎo shī ?",
+        "en": "Which gift is for the teacher?",
+        "speaker": "a"
+      },
+      {
+        "zh": "笔记本和笔。我送朋友围巾，衣服留给自己。",
+        "py": "bǐ jì běn hé bǐ . wǒ sòng péng you wéi jīn , yī fú liú gěi zì jǐ .",
+        "en": "The notebooks and pens. I give my friend the scarf and keep the clothing for myself.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她接受了吗？",
+        "py": "tā jiē shòu le ma ?",
+        "en": "Has she accepted it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "她说谢谢，还说看了信很感动。我也感谢她的帮助。",
+        "py": "tā shuō xiè xiè , hái shuō kàn le xìn hěn gǎn dòng . wǒ yě gǎn xiè tā de bāng zhù .",
+        "en": "She thanked me and said she was moved by the letter. I am grateful for her help too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "信要交给谁？",
+        "py": "xìn yào jiāo gěi shéi ?",
+        "en": "Who should receive the letter?",
+        "speaker": "a"
+      },
+      {
+        "zh": "交给老师。先确认收件人，再寄，别只看楼层。",
+        "py": "jiāo gěi lǎo shī . xiān què rèn shōu jiàn rén , zài jì , bié zhǐ kàn lóu céng .",
+        "en": "Hand it to the teacher. Confirm the recipient before mailing; do not check only the floor.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What are they doing?",
+        "choices": [
+          "Checking gifts and recipients",
+          "Choosing a film time",
+          "Returning all the gifts"
+        ],
+        "answer": "Checking gifts and recipients"
+      },
+      {
+        "type": "detail",
+        "q": "What is the teacher’s gift?",
+        "choices": [
+          "Notebooks and pens",
+          "The scarf",
+          "The clothing"
+        ],
+        "answer": "Notebooks and pens"
+      },
+      {
+        "type": "inference",
+        "q": "Does knowing the floor replace checking the address?",
+        "choices": [
+          "No, they still need to confirm the recipient and address",
+          "Yes, every address on that floor is the same",
+          "Yes, the parcel goes to the friend’s home"
+        ],
+        "answer": "No, they still need to confirm the recipient and address"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "围巾",
+        "pinyin": "wéi jīn",
+        "meaning": "scarf"
+      },
+      {
+        "hanzi": "收件人",
+        "pinyin": "shōu jiàn rén",
+        "meaning": "recipient"
+      },
+      {
+        "hanzi": "包裹",
+        "pinyin": "bāo guǒ",
+        "meaning": "parcel"
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      },
+      {
+        "hanzi": "寄",
+        "pinyin": "jì",
+        "meaning": "to send by post"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u09-r",
+    "title": "Before mailing",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to identify destinations and a gift kept by the sender.",
+    "lines": [
+      {
+        "zh": "我写了两封信，一封给朋友，一封给老师。",
+        "py": "wǒ xiě le liǎng fēng xìn , yī fēng gěi péng you , yī fēng gěi lǎo shī .",
+        "en": "I wrote two letters, one to my friend and one to my teacher."
+      },
+      {
+        "zh": "朋友前几天照顾我，我想感谢她。她看了信，说很感动。",
+        "py": "péng you qián jǐ tiān zhào gù wǒ , wǒ xiǎng gǎn xiè tā . tā kàn le xìn , shuō hěn gǎn dòng .",
+        "en": "My friend looked after me a few days ago, and I wanted to thank her. She read the letter and said she was moved."
+      },
+      {
+        "zh": "我送给她一条围巾。那件衣服不是礼物，留给我自己。",
+        "py": "wǒ sòng gěi tā yī tiáo wéi jīn . nà jiàn yī fú bù shì lǐ wù , liú gěi wǒ zì jǐ .",
+        "en": "I give her a scarf. The item of clothing is not a gift; I keep it for myself."
+      },
+      {
+        "zh": "给老师的礼物是一套笔记本和笔，每人一份，不用猜价格。",
+        "py": "gěi lǎo shī de lǐ wù shì yī tào bǐ jì běn hé bǐ , měi rén yī fèn , bù yòng cāi jià gé .",
+        "en": "The teacher’s gift is a set of notebooks and pens: one gift each, with no need to guess the price."
+      },
+      {
+        "zh": "朋友住三层，但这个包裹要送到学校。学校地址在我的笔记里。",
+        "py": "péng you zhù sān céng , dàn zhè gè bāo guǒ yào sòng dào xué xiào . xué xiào dì zhǐ zài wǒ de bǐ jì lǐ .",
+        "en": "My friend lives on the third floor, but this parcel goes to the school. The school address is in my notes."
+      },
+      {
+        "zh": "我先把包裹放下，拿纸和笔写地址，再检查收件人。",
+        "py": "wǒ xiān bǎ bāo guǒ fàng xià , ná zhǐ hé bǐ xiě dì zhǐ , zài jiǎn chá shōu jiàn rén .",
+        "en": "I put the parcel down, take paper and a pen to write the address, and then check the recipient."
+      },
+      {
+        "zh": "接到服务台的通知后，老师可以去拿。我请朋友把另一封信交给她。",
+        "py": "jiē dào fú wù tái de tōng zhī hòu , lǎo shī kě yǐ qù ná . wǒ qǐng péng you bǎ lìng yī fēng xìn jiāo gěi tā .",
+        "en": "After receiving the service desk’s notice, the teacher can collect it. I ask my friend to hand her the other letter."
+      },
+      {
+        "zh": "别人不方便接受礼物，也可以说不用了。感谢不一定要靠送东西。",
+        "py": "bié ren bù fāng biàn jiē shòu lǐ wù , yě kě yǐ shuō bù yòng le . gǎn xiè bù yí dìng yào kào sòng dōng xi .",
+        "en": "Someone who finds accepting a gift inconvenient can decline it. Gratitude does not have to depend on giving things."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the sender check?",
+        "choices": [
+          "People, gifts and the delivery address",
+          "Only clothing colours",
+          "The price of every gift"
+        ],
+        "answer": "People, gifts and the delivery address"
+      },
+      {
+        "type": "detail",
+        "q": "What is kept by the sender?",
+        "choices": [
+          "The clothing",
+          "The scarf",
+          "The teacher’s notebooks"
+        ],
+        "answer": "The clothing"
+      },
+      {
+        "type": "inference",
+        "q": "What can someone do if accepting a gift is inconvenient?",
+        "choices": [
+          "Decline it politely",
+          "They must accept it",
+          "Change the recipient’s name"
+        ],
+        "answer": "Decline it politely"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我送给她一条【围巾】。那件衣服不是礼物，留给我自己。",
+          "py": "wǒ sòng gěi tā yī tiáo wéi jīn . nà jiàn yī fú bù shì lǐ wù , liú gěi wǒ zì jǐ .",
+          "en": "I give her a scarf. The item of clothing is not a gift; I keep it for myself."
+        },
+        {
+          "zh": "朋友住三层，但这个包裹要送到【学校】。学校地址在我的笔记里。",
+          "py": "péng you zhù sān céng , dàn zhè gè bāo guǒ yào sòng dào xué xiào . xué xiào dì zhǐ zài wǒ de bǐ jì lǐ .",
+          "en": "My friend lives on the third floor, but this parcel goes to the school. The school address is in my notes."
+        }
+      ],
+      "bank": [
+        "围巾",
+        "学校",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "围巾",
+        "pinyin": "wéi jīn",
+        "meaning": "scarf"
+      },
+      {
+        "hanzi": "收件人",
+        "pinyin": "shōu jiàn rén",
+        "meaning": "recipient"
+      },
+      {
+        "hanzi": "包裹",
+        "pinyin": "bāo guǒ",
+        "meaning": "parcel"
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      },
+      {
+        "hanzi": "服务台",
+        "pinyin": "fú wù tái",
+        "meaning": "service desk"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u09-media",
+      "title": "The missing name",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original short scene about an incomplete address.",
+      "lines": [
+        {
+          "zh": "地址写好了，就交给快递吧。",
+          "py": "dì zhǐ xiě hǎo le , jiù jiāo gěi kuài dì ba .",
+          "en": "The address is written; let us give it to the delivery service.",
+          "speaker": "a"
+        },
+        {
+          "zh": "等一下，这张纸上只有学校，没有收件人的名字。",
+          "py": "děng yī xià , zhè zhāng zhǐ shàng zhǐ yǒu xué xiào , méi yǒu shōu jiàn rén de míng zi .",
+          "en": "Wait: this sheet has only the school name, not the recipient’s name.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我刚才只看三层，忘了补写。",
+          "py": "wǒ gāng cái zhǐ kàn sān céng , wàng le bǔ xiě .",
+          "en": "I only checked the third floor and forgot to add it.",
+          "speaker": "a"
+        },
+        {
+          "zh": "楼层不是名字。是送给老师的那一份吗？",
+          "py": "lóu céng bù shì míng zi . shì sòng gěi lǎo shī de nà yī fèn ma ?",
+          "en": "The floor is not a name. Is this the gift for the teacher?",
+          "speaker": "b"
+        },
+        {
+          "zh": "对。写上名字，再检查一遍。",
+          "py": "duì . xiě shàng míng zi , zài jiǎn chá yī biàn .",
+          "en": "Yes. Add the name and check once more.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这样才清楚。谢谢你照顾我的包裹。",
+          "py": "zhè yàng cái qīng chǔ . xiè xiè nǐ zhào gù wǒ de bāo guǒ .",
+          "en": "Now it is clear. Thank you for looking after my parcel.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What was missing?",
+          "choices": [
+            "The recipient’s name",
+            "Every gift",
+            "The floor number"
+          ],
+          "answer": "The recipient’s name"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "收件人",
+          "pinyin": "shōu jiàn rén",
+          "meaning": "recipient"
+        },
+        {
+          "hanzi": "包裹",
+          "pinyin": "bāo guǒ",
+          "meaning": "parcel"
+        },
+        {
+          "hanzi": "地址",
+          "pinyin": "dì zhǐ",
+          "meaning": "address"
+        },
+        {
+          "hanzi": "快递",
+          "pinyin": "kuài dì",
+          "meaning": "delivery service"
+        },
+        {
+          "hanzi": "补写",
+          "pinyin": "bǔ xiě",
+          "meaning": "to add missing writing"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u09-t1",
+      "phrase": "s2-u09-w04",
+      "audio": {
+        "zh": "我送朋友一条围巾，衣服留给自己。",
+        "py": "wǒ sòng péng you yī tiáo wéi jīn , yī fú liú gěi zì jǐ .",
+        "en": "I give my friend a scarf and keep the clothing for myself."
+      },
+      "statement": "The friend receives the clothing.",
+      "answer": false,
+      "why": "The scarf is the gift; the clothing is kept."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u09-t2",
+      "phrase": "s2-u09-w15",
+      "audio": {
+        "zh": "这个包裹送到学校。",
+        "py": "zhè gè bāo guǒ sòng dào xué xiào .",
+        "en": "This parcel goes to the school."
+      },
+      "statement": "The school is the destination.",
+      "answer": true,
+      "why": "到 marks the destination here."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u09-t3",
+      "phrase": "s2-u09-w13",
+      "prompt": {
+        "zh": "这封信交给谁？",
+        "py": "zhè fēng xìn jiāo gěi shéi ?",
+        "en": "Who should receive this letter?"
+      },
+      "choices": [
+        "交给老师。",
+        "一封信。",
+        "三层有两间房。"
+      ],
+      "answer": "交给老师。",
+      "why": "Identify the recipient, not the counter or floor."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u09-t4",
+      "phrase": "s2-u09-w18",
+      "prompt": {
+        "zh": "你不方便接受吗？",
+        "py": "nǐ bù fāng biàn jiē shòu ma ?",
+        "en": "Is accepting it inconvenient?"
+      },
+      "choices": [
+        "谢谢，不用了。",
+        "地址有三层。",
+        "围巾是一条。"
+      ],
+      "answer": "谢谢，不用了。",
+      "why": "A polite refusal answers the question without pressure."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u09-t5",
+      "phrase": "s2-u09-w14",
+      "line": {
+        "zh": "我【送给】你一本书。",
+        "py": "wǒ sòng gěi nǐ yī běn shū .",
+        "en": "I give you a book as a gift."
+      },
+      "blankPy": "sòng gěi"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u09-t6",
+      "phrase": "s2-u09-w02",
+      "line": {
+        "zh": "我写了一【封】信。",
+        "py": "wǒ xiě le yī fēng xìn .",
+        "en": "I wrote a letter."
+      },
+      "blankPy": "fēng"
+    },
+    {
+      "type": "match",
+      "id": "s2-u09-t7",
+      "phrase": "s2-u09-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "A set of notebooks and pens.",
+          "right": {
+            "zh": "一套笔记本和笔。",
+            "py": "yī tào bǐ jì běn hé bǐ .",
+            "en": "A set of notebooks and pens."
+          }
+        },
+        {
+          "left": "A scarf.",
+          "right": {
+            "zh": "一条围巾。",
+            "py": "yī tiáo wéi jīn .",
+            "en": "A scarf."
+          }
+        },
+        {
+          "left": "A teacher, respectfully.",
+          "right": {
+            "zh": "一位老师。",
+            "py": "yī wèi lǎo shī .",
+            "en": "A teacher, respectfully."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u09-t8",
+      "phrase": "s2-u09-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Deliver to the school.",
+          "right": {
+            "zh": "送到学校。",
+            "py": "sòng dào xué xiào .",
+            "en": "Deliver to the school."
+          }
+        },
+        {
+          "left": "Give to the teacher.",
+          "right": {
+            "zh": "送给老师。",
+            "py": "sòng gěi lǎo shī .",
+            "en": "Give to the teacher."
+          }
+        },
+        {
+          "left": "Hand to a friend.",
+          "right": {
+            "zh": "交给朋友。",
+            "py": "jiāo gěi péng you .",
+            "en": "Hand to a friend."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u09-tcontext-01",
+      "phrase": "s2-u09-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "I go to collect it after receiving the notice.",
+          "right": {
+            "zh": "我接到通知后再去拿。",
+            "py": "wǒ jiē dào tōng zhī hòu zài qù ná .",
+            "en": "I go to collect it after receiving the notice."
+          }
+        },
+        {
+          "left": "Receiving my friend’s letter makes me feel happy.",
+          "right": {
+            "zh": "收到朋友的信，我感到很开心。",
+            "py": "shōu dào péng you de xìn , wǒ gǎn dào hěn kāi xīn .",
+            "en": "Receiving my friend’s letter makes me feel happy."
+          }
+        },
+        {
+          "left": "Receiving my friend’s letter makes me feel happy.",
+          "right": {
+            "zh": "收到朋友的信，我感到很高兴。",
+            "py": "shōu dào péng you de xìn , wǒ gǎn dào hěn gāo xìng .",
+            "en": "Receiving my friend’s letter makes me feel happy."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u09-t9",
+      "phrase": "s2-u09-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Why choose here? What kind of restaurant would you like?",
+          "right": {
+            "zh": "为什么选这里？你想去什么样的饭馆？",
+            "py": "wèi shén me xuǎn zhè lǐ ? nǐ xiǎng qù shén me yàng de fàn guǎn ?",
+            "en": "Why choose here? What kind of restaurant would you like?"
+          }
+        },
+        {
+          "left": "How do we get there, how long does it take, who comes, where do we meet, and when do we leave?",
+          "right": {
+            "zh": "怎样去，要多久？谁来，哪里见，什么时候走？",
+            "py": "zěn yàng qù , yào duō jiǔ ? shéi lái , nǎ lǐ jiàn , shén me shí hou zǒu ?",
+            "en": "How do we get there, how long does it take, who comes, where do we meet, and when do we leave?"
+          }
+        },
+        {
+          "left": "The green one is light and short; the yellow one is not dry.",
+          "right": {
+            "zh": "绿的又轻又短，黄的还没干。",
+            "py": "lǜ de yòu qīng yòu duǎn , huáng de hái méi gàn .",
+            "en": "The green one is light and short; the yellow one is not dry."
+          }
+        },
+        {
+          "left": "The clothes are clean, and the shoes are clean too.",
+          "right": {
+            "zh": "衣服干干净净，鞋也干干净净。",
+            "py": "yī fú gān gān jìng jìng , xié yě gān gān jìng jìng .",
+            "en": "The clothes are clean, and the shoes are clean too."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Declining a gift",
+      "natural": {
+        "zh": "谢谢，不用了，你留着吧。",
+        "py": "xiè xiè , bù yòng le , nǐ liú zhe ba .",
+        "en": "Thank you, no need; please keep it."
+      },
+      "note": "A gift does not create an obligation to accept."
+    },
+    {
+      "situation": "Checking a recipient",
+      "natural": {
+        "zh": "请再确认一下收件人的名字。",
+        "py": "qǐng zài què rèn yī xià shōu jiàn rén de míng zi .",
+        "en": "Please confirm the recipient’s name once more."
+      },
+      "note": "Knowing the floor is not enough for delivery."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u09-speak",
+    "title": "A little gift for you",
+    "place": "A language-exchange meeting",
+    "context": "Give and send gifts politely.",
+    "goal": "Choose counters for a letter, clothing and a recipient",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "这份送给谁？",
+        "pinyin": "zhè fèn sòng gěi shéi ?",
+        "meaning": "Who is this gift for?",
+        "intent": "State the recipient",
+        "examples": [
+          "送给老师。"
+        ],
+        "accept": [
+          "^送给老师。[。！？]?$"
+        ]
+      },
+      {
+        "text": "那件衣服呢？",
+        "pinyin": "nà jiàn yī fú ne ?",
+        "meaning": "What about that clothing?",
+        "intent": "Clarify ownership",
+        "examples": [
+          "那件留给我自己。"
+        ],
+        "accept": [
+          "^那件留给我自己。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二10, 二61. Native check: service-desk collection wording, gifting register, double-object verb restrictions, and classifier choices. Gifts are voluntary; the original scene is not adapted from a show. Planned retrieval 二05 / 二76 / 二08 / 二41 / 二46: 为什么选这里？你想去什么样的饭馆？, 怎样去，要多久？谁来，哪里见，什么时候走？, 绿的又轻又短，黄的还没干。, 衣服干干净净，鞋也干干净净。."
+}

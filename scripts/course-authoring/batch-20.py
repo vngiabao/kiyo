@@ -4,12 +4,13 @@ from editorial import unit
 character_groups.update({
 's3-u21':[('被','passive marker; cover'),('挂','to hang'),('解','to untie; resolve'),('紧','tight'),('旧','old; used'),('衬','to line; shirt component'),('裤','trousers')],
 's3-u22':[('除','to exclude; remove'),('播','to broadcast; sow'),('媒','medium; intermediary'),('类','kind; category'),('界','boundary; world'),('众','many; crowd'),('式','form; style')],
-'s3-u23':[('防','to prevent; guard'),('范','pattern; model'),('止','to stop'),('议','to discuss'),('准','accurate; approve'),('制','system; to make'),('危','danger')],
+'s3-u23':[('防','to prevent; guard'),('范','pattern; model'),('止','to stop'),('议','to discuss'),('及','to reach; and'),('制','system; to make'),('危','danger')],
 's3-u24':[('哈','laughter syllable'),('精','fine; spirit'),('神','spirit; expression'),('速','speed'),('演','to perform'),('突','sudden; protrude'),('烈','intense')],
 })
 selected_source_rows.update({'s3-u21:把':'75','s3-u21:被':'288','s3-u21:叫':'4108'})
 unit_glosses.update({'s3-u21':{'衣架':'clothes hanger','椅子':'chair','收件人':'recipient','交给':'to hand to','弄湿':'to get wet','绳子':'rope; cord','外套':'coat','袖子':'sleeve','袋子':'bag','领口':'collar opening','签收':'to sign for receipt','打包':'to pack','被弄湿':'to be made wet (passive expression)','结果':'result','处置':'handling; disposal'}})
 dictionary.update({'解开':'jiě kāi','被子':'bèi zi','衬衫':'chèn shān','衬衣':'chèn yī','皮包':'pí bāo','紧':'jǐn'})
+unit_glosses['s3-u21']['单独']='separately; alone'
 u='s3-u21'
 unit(u,'请把它放在门边',[
 'Specify where a known object should be put','Distinguish an agent’s handling from an affected object’s experience','Name the resulting state rather than merely the action'],[
@@ -139,7 +140,8 @@ match=[('广播',[('我收听广播。','I listen to radio broadcasts.'),('她�
 [('周五可以吗？','Does Friday work?','Name the excluded day',['除了周五，其他几天都可以。']),('只看电视吗？','Do you only watch television?','Add another habit',['除了电视，我还听广播。'])],
 'Native check: 普遍 versus universal scope, 除了…也 negation, 收看/观看 and 收听 register, 广大 audience collocation, and the original verse’s ellipsis. No population survey is claimed. Native review pending.')
 
-unit_glosses['s3-u23']={'表决':'to vote','报名':'to register','私人':'private','场地':'venue','许可':'permission','危险':'dangerous; danger','费用':'expense','参与':'to participate','规则':'rule','安全':'safety; safe','意见':'opinion','建议':'suggestion','拒绝':'to refuse','方案':'proposed plan','取消':'to cancel','公布':'to publish; announce'}
+unit_glosses['s3-u23']={'表决':'to vote','报名':'to register','私人':'private','场地':'venue','许可':'permission','危险':'dangerous; danger','费用':'expense','参与':'to participate','规则':'rule','安全':'safety; safe','意见':'opinion','建议':'suggestion','拒绝':'to refuse','方案':'proposed plan','取消':'to cancel','公布':'to publish; announce','以及':'as well as'}
+unit_glosses['s3-u23'].update({'符合':'to conform to','拥挤':'crowded; crowding','与否':'whether or not','是否':'whether; whether or not','不合法':'not lawful','项':'classifier for projects, provisions or systems'})
 u='s3-u23'
 unit(u,'只有大家同意才公布',[
 'State a necessary condition without claiming it guarantees an outcome','Add reasons and alternatives with explicit connectors','Separate an approved plan from a proposed one'],[
@@ -191,7 +193,7 @@ grammar(u,'三70','只有……，才……','Name a necessary, not sufficient, 
 ('A notice with conditions','Read the proposed steps without mistaking them for completed actions.',[
 ('这个主意还没成为决定，先问能不能参加，了解每个人的情况。','This idea is not yet a decision; ask whether each person can attend and understand their circumstances.'),
 ('有人认可组织者的努力，却反对时间，不能因此说他同意。','Someone recognizes the organizer’s effort but opposes the time; that does not mean consent.'),
-('组织者主张不光问地点，还问费用；并且说明如何报名。','The organizer advocates asking not only the venue but the fee, and explaining how to register.'),
+('组织者主张不光问地点，还问费用；并且说明如何报名，以及参加的时间。','The organizer advocates asking not only the venue but the fee, and explaining how to register as well as the time for participating.'),
 ('不仅通知要清楚，格式也要符合规范；另外，私人信息不能随便公布。','The notice must be clear and its format meet the standard; additionally private information cannot be announced casually.'),
 ('场地还没批准，要是下雨，就再讨论室内方案。','The venue is unapproved; if it rains, discuss the indoor alternative again.'),
 ('只有大家同意，才公布；同意以后还要确认场地许可。','Announce only if everyone agrees; venue permission still needs confirmation after agreement.'),
@@ -213,6 +215,7 @@ unit_glosses['s3-u24']={'语调':'intonation','声调':'lexical tone','疑问':'
 selected_source_rows['s3-u24:精神']='4365'
 vocabulary_readings['s3-u24:精神']='jīng shen'
 dictionary.update({'很精神':'hěn jīng shen','精神一点':'jīng shen yì diǎn','看着很精神':'kàn zhe hěn jīng shen','干吗':'gàn má','乐':'lè','好好':'hǎo hǎo'})
+unit_glosses['s3-u24']['起落']='rise and fall'
 u='s3-u24'
 unit(u,'笑一下，也问清楚',[
 'Understand laughter in context without assuming mockery','Recognize an intonation question without 吗','Separate lively delivery from speed and pronunciation accuracy'],[

@@ -25,5 +25,10 @@ export function wordSpeech(text: string, pinyin: string) {
   }
   if (text === "行" && reading === "háng") return "一行字";
   if (text === "只" && reading === "zhī") return "一只猫";
+  if (text === "了" && reading === "liǎo") return "没完没了";
+  if (text === "精神") {
+    if (reading === "jīngshen") return "很精神";
+    if (reading === "jīngshén") return "精神力量";
+  }
   return text;
 }

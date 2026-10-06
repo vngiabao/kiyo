@@ -25,6 +25,10 @@ it("separates the reading of a word from its glyph's default reading", () => {
   expect(wordSpeech("行", "xíng")).toBe("行");
   expect(wordSpeech("只", "zhī")).toBe("一只猫");
   expect(wordSpeech("只", "zhǐ")).toBe("只");
+  expect(wordSpeech("了", "liǎo")).toBe("没完没了");
+  expect(wordSpeech("了", "le")).toBe("了");
+  expect(wordSpeech("精神", "jīng shen")).toBe("很精神");
+  expect(wordSpeech("精神", "jīng shén")).toBe("精神力量");
   expect(wordSpeech("你好", "nǐ hǎo")).toBe("你好");
 });
 
