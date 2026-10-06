@@ -153,3 +153,11 @@ Earlier native-language flags remain open: school/college and country references
 - Final gates all passed: packs/pinyin (0 fixes), types, content/audio, 132 unit tests, 35 browser tests and production build; the three conditional production tests passed separately. Receipts: output/gates/batch-51-final-*.log. Verified mobile/desktop exam captures at 1440/768/375/320 px and automated WCAG AA checks.
 - Installed 7,508 audio files, 138,642,352 bytes. The content gate covers 3,059 texts; 47 direct/dependent texts use the explicit dated repair-and-deferral policy, never marked reviewed. Precache is 485 entries / 5,741.72 KiB; dictionary/audio are runtime data.
 - No protected A/B file, learner database name, dependency or live-service configuration changed. No new live Google/Supabase test was performed during these local course gates.
+
+### HSK 1 release — 6 October 2026
+
+- Source commit `30556cc` pushed to `origin/main`; a detached clean checkout passed `npm ci` and `npm run build`.
+- The 30-unit HSK 1 course introduces GF2021 vocabulary 500/500, characters 300/300, grammar families 48/48. This is curriculum evidence, not learner mastery or native approval.
+- The practice bank contains 60 checkpoint and 30 sample questions, retaining all 36 legacy IDs. Full release checks: 132 unit tests, 35 browser tests, plus all three production-only browser checks passed.
+- The production build preserves the existing Google-only Supabase public configuration. Cloudflare shows successful Git build `30556cc`; the subsequent CLI deployment is `9a350078-4680-4702-b0b7-4d7fedce25d5`, active at 100% on kiyo.gbaonvo.com.
+- The existing live browser initially retained its old cached app shell. Deployment is confirmed, but that browser's updated bank and playback are not yet verified. Existing guest progress was not merged, removed or submitted as test learning. No new live sync success is claimed.

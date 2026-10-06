@@ -9,7 +9,7 @@
 - Cloudflare Access protects all Worker traffic with the `Kiyo owner only` Allow policy, restricted to `gbao.n.vo@gmail.com`. Other identities are denied by default. The existing Google and Cloudflare identity providers are available.
 - The production `workers.dev` address, preview URLs, and preview builds are disabled.
 - No new paid service, domain purchase, or database was required. The deployment reuses the account's existing build credential; no secret is stored in this repository.
-- Supabase remains unconfigured. Learning data stays in each browser. To move localhost progress, export a backup there and import it on this domain; Access login does not synchronize progress.
+- Supabase is configured through the existing Cloudflare build variables. Kiyo and Shiori share the owner's project with separate progress tables. Google-only sign-in is enabled; Cloudflare Access login and optional learning sync remain separate. A CLI release must load the same public `VITE_SUPABASE_URL`, publishable `VITE_SUPABASE_ANON_KEY`, `VITE_AUTH_MODE=google-only` and `VITE_AUTH_PROVIDERS=google` into the Vite build. An ignored `.env.local` holds these settings on this machine. Never put a service-role key in Vite variables.
 - Verified: Cloudflare build/deployment succeeded; the custom domain presents the Access gate, the owner's existing Cloudflare login reaches Kiyo, onboarding and the Sayo gallery load, and the gallery has no broken images. Full learning tests passed locally before deployment; remote-device and live-Supabase tests are still separate checks.
 
 ## Historical public preview
