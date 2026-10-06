@@ -13,7 +13,7 @@ import { basePhrases, lessons, readingLessons } from "../src/content";
 import { baseCharacters, baseReadings } from "../src/hanzi";
 import { isHan, validatePack, type ContentPack, type HskWord, type ValidationContext } from "../src/packs";
 import { wordsOf, type DictEntry } from "../src/dictionary";
-import { validateHskPack, type HskPracticePack } from "../src/hsk-pack";
+import { validateHskPack, type AnyHskPack } from "../src/hsk-pack";
 
 const dir = "content/packs";
 const args = process.argv.slice(2);
@@ -135,11 +135,16 @@ if (!onlyExample && !only) {
   console.log(`\nPublished ${accepted.length} of ${loaded.length} pack(s) to src/generated/packs.json.`);
 }
 if (!onlyExample && !only) {
-  const hskPacks: HskPracticePack[] = [];
+  const hskPacks: AnyHskPack[] = [];
+  const questionIds = new Set<string>();
   for (const file of readdirSync(dir).filter(f => f.endsWith(".hsk.json") && !f.startsWith("_"))) {
     try {
       const pack = JSON.parse(readFileSync(`${dir}/${file}`, "utf8"));
       const errors = validateHskPack(pack, hsk ?? {});
+      for (const item of pack.items ?? []) {
+        if (questionIds.has(item.id)) errors.push(`Duplicate question ID across packs: ${item.id}`);
+        questionIds.add(item.id);
+      }
       if (errors.length) throw new Error(errors.join("\n"));
       hskPacks.push(pack);
       console.log(`Validated ${file}: ${pack.items.length} HSK practice items.`);

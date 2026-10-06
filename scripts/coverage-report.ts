@@ -108,6 +108,25 @@ export function auditCoverage(
             r.partOfSpeech.includes(pos[v.pos ?? ""]),
         ),
       );
+    const sourceAliases: Record<string, string[]> = {
+      "有（一）点儿": ["有点儿", "有一点儿"], "家（科学家）": ["家"],
+      "老（老王）": ["老"], "小（小王）": ["小"], "头（里头）": ["头"],
+      "面1": ["面"], "面2": ["面"],
+    };
+    const sourceReadings = (r: (typeof rows)[number], word: string) => {
+      if (r.entry === "有（一）点儿") return word === "有点儿" ? ["yǒudiǎnr"] : ["yǒuyìdiǎnr"];
+      const readings = r.pinyin.split(/[∣|｜]/u);
+      return readings.length === r.forms.length && readings.length > 1
+        ? [readings[r.forms.indexOf(word)]] : [r.pinyin.split(/[（(]/u)[0].trim()];
+    };
+    const hasSourceRowEvidence = (r: (typeof rows)[number]) =>
+      input.packs.some((p) => p.vocabulary.some((v) =>
+        [...r.forms, ...(sourceAliases[r.entry] ?? [])].includes(v.hanzi) &&
+        v.usageNote?.includes(`[GF2021:L${level}:${r.sourceNo}]`) &&
+        sourceReadings(r, v.hanzi).some((py) => normalizePinyin(v.pinyin) === normalizePinyin(py)) &&
+        !!pos[v.pos ?? ""] && (!r.partOfSpeech || r.partOfSpeech.includes(pos[v.pos ?? ""])) &&
+        (!r.partOfSpeech.includes("后缀") || (v.pos === "suffix" && !!v.usageNote.includes(r.entry))),
+      ));
     // Repeated forms may introduce another reading or sense: exact spelling alone is insufficient.
     const suffixEvidence = (w: string, r: (typeof rows)[number]) =>
       input.packs.some((p) => p.vocabulary.some((v) =>
@@ -125,7 +144,7 @@ export function auditCoverage(
             input.packs.some((p) =>
               p.vocabulary.some((v) => v.hanzi === w && v.hskLevel === level),
             )),
-      );
+      ) || hasSourceRowEvidence(r);
     const introduced = rows.filter(isIntroduced);
     const remaining = rows.filter((r) => !isIntroduced(r));
     const repeatedFormNeedsReview = remaining.filter((r) =>

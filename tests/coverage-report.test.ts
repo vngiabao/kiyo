@@ -92,6 +92,17 @@ describe("course coverage audit", () => {
     expect(alternatives("家（科学家）")).toEqual(["家（科学家）"]);
     expect(alternatives("第（第二）")).toEqual(["第"]);
   });
+  it("credits a higher-level sense through its exact source row without changing the minimum level", () => {
+    const count = (pinyin: string, pos: string, usageNote: string) =>
+      auditCoverage(inventory(), { ...input(), packs: [{
+        vocabulary: [{ hanzi: "花", hskLevel: 1, pinyin, pos, usageNote }], grammar: [],
+      } as unknown as ContentPack] }, {}).levels[1].words.introduced;
+    expect(count("huā", "verb", "[GF2021:L2:3] spend money")).toBe(1);
+    expect(count("huā", "noun", "[GF2021:L2:3] flower")).toBe(0);
+    expect(count("huà", "verb", "[GF2021:L2:3] spend money")).toBe(0);
+    expect(count("huā", "verb", "[GF2021:L2:4] wrong row")).toBe(0);
+    expect(count("huā", "verb", "incidental appearance")).toBe(0);
+  });
   it("requires an explicit neutral suffix lesson, not a compound or full-tone noun", () => {
     const ref = inventory();
     ref.levels["1"].words = [["1", "一级", "子（桌子）", "zi (zhuōzi)", "后缀"]];
@@ -146,5 +157,22 @@ describe("course coverage audit", () => {
         {},
       ),
     ).toThrow("Duplicate grammar");
+  });
+  it("requires row-specific evidence for annotated suffixes and numbered lexical senses", () => {
+    const ref = inventory();
+    ref.levels["2"].words = [
+      ["10", "二级", "家（科学家）", "jiā (kēxuéjiā)", "后缀"],
+      ["11", "二级", "面1", "miàn", "名、量"],
+      ["12", "二级", "面2", "miàn", "名"],
+    ];
+    const pack = { vocabulary: [
+      { hanzi: "家", pinyin: "jiā", pos: "noun", hskLevel: 1 },
+      { hanzi: "面", pinyin: "miàn", pos: "noun", hskLevel: 1,
+        usageNote: "[GF2021:L2:12] noodles" },
+    ], grammar: [] } as unknown as ContentPack;
+    expect(auditCoverage(ref, { ...input(), packs: [pack] }, {}).levels[1].words.introduced).toBe(1);
+    pack.vocabulary[0].pos = "suffix";
+    pack.vocabulary[0].usageNote = "[GF2021:L2:10] 家（科学家） denotes an occupation specialist.";
+    expect(auditCoverage(ref, { ...input(), packs: [pack] }, {}).levels[1].words.introduced).toBe(2);
   });
 });

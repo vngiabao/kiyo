@@ -257,7 +257,7 @@ text(u,'r','Separate the reasons','Read to distinguish travel time, waiting time
 ('我们认为这家合适。选择它的原因是方便聊天，服务顾客也很热情。','We think this place is suitable. We choose it because it is convenient for chatting, and it serves customers warmly.'),
 ('我们的看法不完全一样，口味也不同。比如我不想吃辣的鸡蛋，她想吃别的菜。','Our views are not entirely the same, and our tastes differ. For example, I do not want spicy eggs, while she wants another dish.'),
 ('这家的味道不错，我对菜很满意。好处是离家近，坏处是顾客多，要等二十分钟。','The food tastes good and I am satisfied with it. It is close to home, but the drawback is many customers and a twenty-minute wait.'),
-('我对等很久有点不满，但没有说菜不好吃。评价要讲清楚是哪一件事。','I am a little dissatisfied with waiting a long time, but did not say the food was bad. An evaluation should specify which aspect.'),
+('等了很久，我有点不满，但没有说菜不好吃。评价要讲清楚是哪一件事。','I am a little dissatisfied with waiting a long time, but did not say the food was bad. An evaluation should specify which aspect.'),
 ('怎样去？坐车十分钟，再走五分钟。什么时候出发？我们定六点。','How do we get there? Ride ten minutes, then walk five. When do we leave? We decided on six.'),
 ('要多久可以坐下，还要问店里。路上十五分钟，不是已经有了座位。','We still need to ask the restaurant how long until we can sit. Fifteen minutes of travel does not mean a seat is already available.')],
 [('mainidea','What is the writer careful to separate?',['Different reasons and time intervals','Only restaurant names','All food from all opinions'],0),('detail','What is the total travel time?',['Fifteen minutes','Twenty minutes','Thirty-five minutes'],0),('inference','Does leaving at six prove sitting at six fifteen?',['No, waiting may remain','Yes, travel and waiting are identical','Yes, a seat was booked'],0)],[(1,'安静'),(4,'坏处')]),
@@ -270,6 +270,9 @@ dict(tf=[('多久','坐车十分钟，再走五分钟。','Ride ten minutes, the
 reply=[('为什么','为什么不叫外卖？','Why not order delivery?',['我想出去走走。','六点出发。','二十分钟。'],0,'Give a reason rather than a time.'),('什么样','你想去什么样的饭馆？','What kind of restaurant would you like?',['安静一点的。','我来自越南。','明天六点。'],0,'Describe the desired kind.')],
 fill=[('原因','选这里的原因是安静。','The reason for choosing here is quietness.'),('座位','顾客正在等座位。','The customers are waiting for seats.')],
 match=[('多久',[('坐车要多久？','How long does the ride take?'),('什么时候出发？','When do we leave?'),('怎样去饭馆？','How do we get to the restaurant?')]),('味道',[('这个菜的味道不错。','This dish tastes good.'),('这里服务很热情。','The service here is welcoming.'),('我们的口味不同。','Our taste preferences differ.')])]),
-[('Specific dissatisfaction','我对等很久有点不满。','I am a little dissatisfied with the long wait.','Name the issue without claiming every aspect is bad.'),('Duration referent','你问路上要多久，还是等座位要多久？','Do you mean travel time or waiting time for a seat?','Clarify the missing referent before supplying a number.')],
+[('Specific dissatisfaction','等了很久，我有点不满。','I am a little dissatisfied with the long wait.','Name the issue without claiming every aspect is bad.'),('Duration referent','你问路上要多久，还是等座位要多久？','Do you mean travel time or waiting time for a seat?','Clarify the missing referent before supplying a number.')],
 [('为什么选这里？','Why choose here?','Give a relevant reason',['这里安静，方便聊天。']),('坐车要多久？','How long by vehicle?','Give duration',['坐车十分钟。'])],
 'Native check: collocations for customer service and dissatisfaction, the nominal use of 快餐/外卖, clipped original verse, and exactly which time interval 多久 refers to. No restaurant recommendation, reservation or objective star rating is claimed.')
+
+from retrievals import apply_ids
+apply_ids(['s2-u01','s2-u02','s2-u03','s2-u04'])

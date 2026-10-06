@@ -11,6 +11,11 @@ unit_glosses.update({25:{'衣服':'clothes','换':'to change','颜色':'colour',
 26:{'安静':'quiet','声音':'sound','人多':'crowded','座位':'seat','硬':'hard','水杯':'drinking cup'},
 27:{'散步':'to take a walk','聊天':'to chat','安全':'safety; safe','路灯':'streetlight','口袋':'pocket'},
 28:{'确认':'to confirm','航班':'flight','张':'Zhang, a surname','证件':'identity document','通知':'notice','报名':'to register'}})
+unit_glosses[25].update({'普通':'ordinary','练':'to practise','但':'but','另':'another; other'})
+unit_glosses[26].update({'湿':'wet','让':'to let; allow','选':'to choose'})
+unit_glosses[27].update({'但':'but','不一定':'not necessarily'})
+unit_glosses[28].update({'发':'to send'})
+dictionary.update({'一块儿':'yī kuàir','一下儿':'yī xiàr'})
 u='s1-u25'
 dictionary['干']='gān'
 write(25,'具体一点的夸奖',['Give a specific compliment without exaggerating','Use an adjective predicate without adding 是','Recognize an exclamation without treating every 太 as praise'],[
@@ -52,7 +57,7 @@ text(u,'d','A compliment with a reason','Find what is praised and whether the fr
 ('现在还早，先喝茶，再唱一次吧。','It is still early. Have tea first, then sing once more.'),('好，但别太晚。太晚了，明天上学会累。','Okay, but not too late. If it is too late, school tomorrow will be tiring.')],
 [('mainidea','What does the friend praise specifically?',['The white clothes and colour match','The bag’s weight','An exam score'],0),('detail','Why change the bag?',['It is heavy','It is wet','It belongs to a teacher'],0),('inference','Is the compliment intended as a joke?',['No, the friend explicitly denies joking','Yes, the friend admits it','The friend has not seen the clothes'],0)],drama=True),
 text(u,'r','After the compliment','Find the concrete praise and the practical plan.',[
-('今天朋友看到我身上的白衣服，说真好看。','Today a friend saw the white clothes I was wearing and said they looked really good.'),
+('今天朋友看见我身上的白衣服，说真好看。','Today a friend saw the white clothes I was wearing and said they looked really good.'),
 ('我觉得白色很普通，他真的喜欢这个颜色。','I think white is ordinary; he really likes this colour.'),
 ('这三件衣服，白色的最好看，和包的颜色一样。','Of these three items, the white one looks best and matches the bag’s colour.'),
 ('商店很有名，可是我的包很重，另一个包不重。','The shop is well-known, but my bag is heavy; another bag is not.'),

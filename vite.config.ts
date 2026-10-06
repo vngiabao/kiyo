@@ -1,6 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
+import audioAssets from "./src/audio-assets.json";
+// An explicit offline download must fit the installed catalog, including future levels.
+const audioCacheCapacity = Math.max(6000, new Set(
+  Object.values(audioAssets).flatMap((voices) => Object.values(voices)),
+).size);
 export default defineConfig({
   plugins: [
     react(),
@@ -81,7 +86,7 @@ export default defineConfig({
             options: {
               cacheName: "sayo-audio",
               // Clip files are content-hashed, so a cached clip never goes stale.
-              expiration: { maxEntries: 6000 },
+              expiration: { maxEntries: audioCacheCapacity },
               cacheableResponse: { statuses: [200] },
               rangeRequests: true,
               plugins: [

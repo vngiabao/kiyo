@@ -16,8 +16,19 @@ baseline = read(ROOT / 'prompts/research/c1-coverage-baseline.json')
 unit_glosses={}
 character_contexts={}
 vocabulary_readings={}
+character_readings={}
+character_notes={}
 remaining = {f: e for e in baseline['levels'][0]['words']['remainingEntries'] for f in e['forms']}
 remaining_by_level = {level['level']: {f: e for e in level['words']['remainingEntries'] for f in e['forms']} for level in baseline['levels']}
+source_aliases={'有（一）点儿':['有点儿','有一点儿'],'家（科学家）':['家'],
+    '老（老王）':['老'],'小（小王）':['小'],'头（里头）':['头'],
+    '面1':['面'],'面2':['面']}
+for level, allocation in remaining_by_level.items():
+    for entry in baseline['levels'][level-1]['words']['remainingEntries']:
+        for alias in source_aliases.get(entry['entry'],[]):
+            allocation.setdefault(alias,entry)
+source_rows={e['sourceNo']:e for level in baseline['levels'] for e in level['words']['remainingEntries']}
+selected_source_rows={}
 for form, annotated in [('们','们（朋友们）'),('子','子（桌子）')]:
     remaining[form]=remaining[annotated]
 character_groups = {
@@ -41,7 +52,7 @@ overrides = {'她们':'tā men','学生':'xué sheng','中学生':'zhōng xué s
  '吗':'ma','们':'men','子':'zi','着':'zhe','个':'gè','要':'yào','还':'hái','都':'dōu','那':'nà','读':'dú',
  '上':'shàng','下':'xià','班':'bān','国':'guó','三':'sān','也':'yě',
  '书':'shū','新':'xīn','白':'bái','水':'shuǐ','爱好':'ài hào','地':'de',
- '看到':'kàn dào','完':'wán','怎么':'zěn me','门口':'mén kǒu','谁':'shéi'}
+ '看到':'kàn dào','完':'wán','怎么':'zěn me','门口':'mén kǒu','谁':'shéi','干干净净':'gān gān jìng jìng'}
 dictionary = {w: ' '.join(lazy_pinyin(w,style=Style.TONE)) for w,v in levels.items() if v.get('pinyin')}
 dictionary.update(overrides)
 def py(text):
@@ -80,6 +91,9 @@ def vocab(rows, uid, gf_level=1):
         assert w in allocation, f'{w}: not an untaught level-{gf_level} source entry'
         result.append(dict(id=f'{uid}-w{i:02}',hanzi=w,pinyin=vocabulary_readings.get(uid+':'+w,py(w)),meaning=en,meaningVi=vi,pos=pos,
             register='neutral',hskLevel=levels[w]['hsk3'],example=line(example,translation)))
+        source=source_rows[selected_source_rows[uid+':'+w]] if uid+':'+w in selected_source_rows else allocation[w]
+        assert w in source['forms'] or w in source_aliases.get(source['entry'],[])
+        result[-1]['usageNote']=f"[GF2021:L{gf_level}:{source['sourceNo']}] Source entry: {source['entry']}; {source['pinyin']}; {source['partOfSpeech']}. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
     return result
 
 def grammar(uid, code, pattern, purpose, explanation, examples, mistake):
@@ -126,10 +140,19 @@ def write(n, titleZh, canDo, wordrows, gs, dialogue, reading, media, practice, p
             v['usageNote']=('Suffix, not a standalone spoken word. The official source entry is '+remaining[v['hanzi']]['entry']+'. '+('们 marks a group of people or pronouns, as in 朋友们; do not add it after a numeral and classifier.' if v['hanzi']=='们' else '子 is a neutral suffix in 桌子; this differs from full-tone zǐ in other words.'))
     chars=[]
     earlier_words=[]
+    earlier_characters=set()
     for path in sorted((ROOT/'content/packs').glob('s*.json')):
         earlier=read(path)
         if (earlier['unit']['stage'],earlier['unit']['order'])<(p['packStage'],p['order']):
             earlier_words.extend(earlier['vocabulary'])
+            for reading_text in [earlier.get('dialogue'),earlier.get('reading'),*earlier.get('extraReadings',[])]:
+                if reading_text:
+                    earlier_words.extend(reading_text.get('glosses',[]))
+            earlier_characters.update(c['hanzi'] for c in earlier.get('characters',[]))
+    # A displayed gloss in this unit is actual recognition instruction, not audited
+    # vocabulary credit. Only words present in the connected text can support glyphs.
+    for reading_text in [dialogue,reading,media]:
+        earlier_words.extend(reading_text.get('glosses',[]))
     introduced={form for level in baseline['levels'] for entry in level['words']['introducedEntries'] for form in entry['forms']}
     base_source=(ROOT/'src/content.ts').read_text('utf-8')
     for w,meaning in character_contexts.values():
@@ -137,12 +160,13 @@ def write(n, titleZh, canDo, wordrows, gs, dialogue, reading, media, practice, p
         earlier_words.append(dict(hanzi=w,pinyin=py(w),meaning=meaning))
     for ch, meaning in character_groups[n]:
         assert ch in baseline['levels'][p['gfLevel']-1]['characters']['remaining'], f'{uid}: {ch} is not an unintroduced level-{p["gfLevel"]} character'
+        assert ch not in earlier_characters, f'{uid}: {ch} already has an explicit earlier introduction'
         stroke=read(ROOT/'node_modules/hanzi-writer-data'/f'{ch}.json')
         examples=list({v['hanzi']:v for v in [*vs,*earlier_words] if ch in v['hanzi']}.values())[:2]
         assert examples
-        chars.append(dict(hanzi=ch,pinyin=py(ch),meaning=meaning,strokes=len(stroke['strokes']),
+        chars.append(dict(hanzi=ch,pinyin=character_readings.get(uid+':'+ch,py(ch)),meaning=meaning,strokes=len(stroke['strokes']),
             parts=[dict(form=ch,role='whole',gloss=meaning)],noteKind='usage',
-            note=f"Recognize {ch} in {' / '.join(v['hanzi'] for v in examples)}. This usage note is not an origin or decomposition claim." + (' In 小孩儿, 儿 is an -r ending, not a separate ér syllable.' if ch=='儿' else ''),
+            note=f"Recognize {ch} in {' / '.join(v['hanzi'] for v in examples)}. This usage note is not an origin or decomposition claim." + (' In 小孩儿, 儿 is an -r ending, not a separate ér syllable.' if ch=='儿' else '') + character_notes.get(uid+':'+ch,''),
             words=[dict(w=v['hanzi'],p=v['pinyin'],m=v['meaning']) for v in examples]))
     result=dict(packVersion=1,unit=dict(id=uid,stage=p['packStage'],order=p['order'],title=p['title'],titleZh=titleZh,
         canDo=canDo,hskTarget=dict(standard='HSK3.0',level=p['gfLevel']),prerequisites=[p['prerequisite']],estimatedMinutes=45),

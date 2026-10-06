@@ -23,15 +23,88 @@ RETRIEVALS = {
 28:('一16 / 一29 / 一44 / 一18 / 一38',[('我买车票，你等朋友。','I buy tickets; you wait for our friend.'),('星期日两点半上车。','Board on Sunday at half past two.'),('商场没有图书馆安静。','The shopping centre is not as quiet as the library.')]),
 29:('一12 / 一28 / 一17 / 一19 / 一10 / 一39',[('我常在家读书，她常常上午学习。','I often read at home; she often studies in the morning.'),('爷爷和奶奶都来。','Grandfather and grandmother are both coming.'),('我们一边走路，一边聊天。','We walk and chat at the same time.')]),
 30:('一14 / 一48 / 一09 / 一30 / 一35 / 一22 / 一33 / 一45',[('星期日有没有课？','Is there class on Sunday?'),('真好看！','That really looks good!'),('我可以进去吗？','May I go in?')]),
+'s2-u01':('一18 / 一38 / 一01 / 一31',[
+('图书馆比商场安静。','The library is quieter than the shopping centre.'),
+('商场没有图书馆安静。','The shopping centre is not as quiet as the library.'),
+('北门。学校前边，路的东边。','The north gate: in front of the school, on the east side of the road.')]),
+'s2-u02':('一10 / 一39 / 一25 / 一32 / 一36',[
+('我们一边走，一边聊天。','We walk and chat at the same time.'),
+('我们都想走，有些朋友想跑。','We all want to walk; some friends want to run.'),
+('这是学校，是我们学习的地方。','This is a school, the place where we study.'),
+('今天星期六，我二十岁。','Today is Saturday; I am twenty.'),
+('桌上是书，不是饭。','What is on the table is a book, not food.'),
+('我有书，也喜欢读书。','I have books and also enjoy reading.')]),
+'s2-u03':('一22 / 一33 / 一45 / 二06 / 二37 / 二01',[
+('明天考不考？上午还是下午？','Is there a test tomorrow or not? In the morning or afternoon?'),
+('咱们自己先看，小组的书读懂了吗？','Let us check for ourselves first; have we understood the group’s book?'),
+('你可以去，他可能会来。大家来了？开始吧。','You may go; he might come. Is everyone here? Let us begin.'),
+('你在网上买的吗？','Did you buy it online?'),
+('书和本子，新的书，读书，读懂，大家来了。','Book and notebook; a new book; read a book; understand by reading; everyone has arrived.'),
+('我在家，你呢？','I am at home; what about you?')]),
+'s2-u04':('一01 / 一31 / 二02 / 二75',[
+('北门。学校前边，路的东边。','The north gate: in front of the school, on the east side of the road.'),
+('我该带什么？你应该先问主人。','What should I bring? You should ask the host first.'),
+('六点半来，好吗？带书怎么样？','Come at half past six, okay? How about bringing a book?'),
+('我带两瓶水，可以吗？行吗？','May I bring two bottles of water? Is that okay?')]),
+'s2-u05':('一25 / 一32 / 一36 / 二03 / 二45',[
+('今天星期六，我二十岁。','Today is Saturday; I am twenty.'),
+('这是学校，是我们学习的地方。','This is a school, the place where we study.'),
+('我愿意帮忙，但今晚不方便。','I am willing to help, but tonight is inconvenient.'),
+('还是星期六去吧，你想喝茶还是喝咖啡？','Let us go on Saturday instead; would you like tea or coffee?')]),
+'s2-u06':('二06 / 二37 / 二01 / 二05 / 二76',[
+('咱们自己先看，小组的书读懂了吗？','Let us check for ourselves first; have we understood the group’s book?'),
+('你可以去，他可能会来。','You may go; he might come.'),
+('为什么选这里？你想去什么样的饭馆？','Why choose here? What kind of restaurant would you like?'),
+('怎样去，要多久？','How do we get there, and how long does it take?'),
+('谁来，哪里见，什么时候走？','Who is coming, where do we meet, and when do we leave?'),
+('什么菜，几个人，多少钱，怎么付？','Which dish, how many people, how much money, and how do we pay?')]),
+'s2-u07':('二02 / 二75 / 二04 / 二11 / 二52',[
+('我该带什么？你应该先问主人。','What should I bring? You should ask the host first.'),
+('六点半来，好吗？我带两瓶水，可以吗？','Come at half past six, okay? May I bring two bottles of water?'),
+('我看了看题目，我们练习练习。','I briefly looked at the questions; let us practise a little.'),
+('这段录音听了两遍，答案检查了三次。','This recording was heard twice through; the answers were checked three times.'),
+('看一场电影，去一回活动，老师拍三下手。','Watch a film showing, attend an activity once, and the teacher claps three times.'),
+('看看，说一说，再练习练习。','Take a look, say a little, then practise a little.')]),
+'s2-u08':('二03 / 二45 / 二07 / 二38',[
+('我愿意帮忙，但今晚不方便。','I am willing to help, but tonight is inconvenient.'),
+('还是星期六去吧，你想喝茶还是喝咖啡？','Let us go on Saturday instead; would you like tea or coffee?'),
+('图片这么小，别那样猜时间。','The image is so small; do not guess the time that way.'),
+('新的通知还没有，我去问主办方。','The new notice is not here yet; I will ask the organizer.')]),
+'s2-u09':('二05 / 二76 / 二08 / 二41 / 二46',[
+('为什么选这里？你想去什么样的饭馆？','Why choose here? What kind of restaurant would you like?'),
+('怎样去，要多久？谁来，哪里见，什么时候走？','How do we get there, how long does it take, who comes, where do we meet, and when do we leave?'),
+('绿的又轻又短，黄的还没干。','The green one is light and short; the yellow one is not dry.'),
+('衣服干干净净，鞋也干干净净。','The clothes are clean, and the shoes are clean too.')]),
+'s2-u10':('二04 / 二11 / 二52 / 二09 / 二73',[
+('我看了看题目，我们练习练习。','I briefly looked at the questions; let us practise a little.'),
+('这段录音听了两遍，答案检查了三次。','This recording was heard twice through; the answers were checked three times.'),
+('看一场电影，去一回活动，老师拍三下手。','Watch a film showing, attend an activity once, and the teacher claps three times.'),
+('一万不是一千，一亿不是一百万。','Ten thousand is not one thousand; one hundred million is not one million.'),
+('十多个人，一个多小时。','More than ten people, a little over an hour.')]),
+'s2-u11':('二07 / 二38 / 二10 / 二61',[
+('图片这么小，别那样猜时间。','The image is so small; do not guess the time that way.'),
+('新的通知还没有，我去问主办方。','The new notice is not here yet; I will ask the organizer.'),
+('一封信，一件衣服，一条围巾。','A letter, an item of clothing, a scarf.'),
+('我送你一本书。','I give you a book as a gift.'),
+('我送给你一本书。','I give you a book as a gift.')]),
+'s2-u12':('二08 / 二41 / 二46 / 二12 / 二47 / 二81',[
+('绿的又轻又短，黄的还没干。','The green one is light and short; the yellow one is not dry.'),
+('衣服干干净净，鞋也干干净净。','The clothes are clean, and the shoes are clean too.'),
+('我们等十分钟，七点开始。','We wait ten minutes; it starts at seven.'),
+('开场以前先坐好，散场以后再出去。','Take your seat before the start; leave after the end.'),
+('快要七点了，节目就要开始了。','It is nearly seven; the programme is about to begin.')]),
 }
 
 def apply(first, last):
+    apply_ids(list(range(first,last+1)))
+
+def apply_ids(ids):
     scripts=json.loads((ROOT/'content/audio-scripts.json').read_text('utf-8'))
     by_text={e['text']:e for e in scripts}
-    for n in range(first,last+1):
+    for n in ids:
         if n not in RETRIEVALS:continue
         code, pairs=RETRIEVALS[n]
-        uid=f's1-u{n:02}'
+        uid=f's1-u{n:02}' if isinstance(n,int) else n
         path=ROOT/'content/packs'/f'{uid}.json'
         p=json.loads(path.read_text('utf-8'))
         task_pairs=[]

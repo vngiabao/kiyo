@@ -1,0 +1,1300 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u28",
+    "stage": 1,
+    "order": 28,
+    "title": "Are we still on?",
+    "titleZh": "还去不去",
+    "canDo": [
+      "Confirm a travel or study plan rather than assume it",
+      "Choose between 吗, a question word, 还是 and A-not-A",
+      "Use 吧/呢/了 without adding a universal question particle"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u27"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u28-w01",
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "meaning": "suggestion or tentative particle",
+      "meaningVi": "trợ từ gợi ý; phỏng đoán",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们明天再看吧。",
+        "py": "wǒ men míng tiān zài kàn ba .",
+        "en": "Let us look again tomorrow."
+      }
+    },
+    {
+      "id": "s1-u28-w02",
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "meaning": "what-about or ongoing-action particle",
+      "meaningVi": "trợ từ hỏi tiếp; hành động đang diễn ra",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我在家，你呢？",
+        "py": "wǒ zài jiā , nǐ ne ?",
+        "en": "I am at home; what about you?"
+      }
+    },
+    {
+      "id": "s1-u28-w03",
+      "hanzi": "过",
+      "pinyin": "guò",
+      "meaning": "to pass; spend a holiday",
+      "meaningVi": "qua; đón dịp lễ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我们一起过新年。",
+        "py": "wǒ men yì qǐ guò xīn nián .",
+        "en": "We celebrate the new year together."
+      }
+    },
+    {
+      "id": "s1-u28-w04",
+      "hanzi": "就",
+      "pinyin": "jiù",
+      "meaning": "just; right away; then",
+      "meaningVi": "ngay; thì",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我现在就去。",
+        "py": "wǒ xiàn zài jiù qù .",
+        "en": "I will go right now."
+      }
+    },
+    {
+      "id": "s1-u28-w05",
+      "hanzi": "年",
+      "pinyin": "nián",
+      "meaning": "year",
+      "meaningVi": "năm",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这是我来北京的第二年。",
+        "py": "zhè shì wǒ lái běi jīng de dì èr nián .",
+        "en": "This is my second year in Beijing."
+      }
+    },
+    {
+      "id": "s1-u28-w06",
+      "hanzi": "新年",
+      "pinyin": "xīn nián",
+      "meaning": "new year",
+      "meaningVi": "năm mới",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "新年你回家吗？",
+        "py": "xīn nián nǐ huí jiā ma ?",
+        "en": "Are you going home for the new year?"
+      }
+    },
+    {
+      "id": "s1-u28-w07",
+      "hanzi": "上次",
+      "pinyin": "shàng cì",
+      "meaning": "last time",
+      "meaningVi": "lần trước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "上次我忘记买票了。",
+        "py": "shàng cì wǒ wàng jì mǎi piào le .",
+        "en": "Last time I forgot to buy a ticket."
+      }
+    },
+    {
+      "id": "s1-u28-w08",
+      "hanzi": "机票",
+      "pinyin": "jī piào",
+      "meaning": "plane ticket",
+      "meaningVi": "vé máy bay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我的机票在手机里。",
+        "py": "wǒ de jī piào zài shǒu jī lǐ .",
+        "en": "My plane ticket is on my phone."
+      }
+    },
+    {
+      "id": "s1-u28-w09",
+      "hanzi": "飞",
+      "pinyin": "fēi",
+      "meaning": "to fly",
+      "meaningVi": "bay",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "明天上午飞北京。",
+        "py": "míng tiān shàng wǔ fēi běi jīng .",
+        "en": "Fly to Beijing tomorrow morning."
+      }
+    },
+    {
+      "id": "s1-u28-w10",
+      "hanzi": "网上",
+      "pinyin": "wǎng shàng",
+      "meaning": "online; on the internet",
+      "meaningVi": "trên mạng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我在网上买机票。",
+        "py": "wǒ zài wǎng shàng mǎi jī piào .",
+        "en": "I buy plane tickets online."
+      }
+    },
+    {
+      "id": "s1-u28-w11",
+      "hanzi": "网友",
+      "pinyin": "wǎng yǒu",
+      "meaning": "online friend; internet user",
+      "meaningVi": "bạn quen trên mạng; người dùng mạng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个网友也学习汉语。",
+        "py": "zhè gè wǎng yǒu yě xué xí hàn yǔ .",
+        "en": "This online friend also studies Chinese."
+      }
+    },
+    {
+      "id": "s1-u28-w12",
+      "hanzi": "考",
+      "pinyin": "kǎo",
+      "meaning": "to take a test; examine",
+      "meaningVi": "thi; kiểm tra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我明天考汉语。",
+        "py": "wǒ míng tiān kǎo hàn yǔ .",
+        "en": "I have a Chinese test tomorrow."
+      }
+    },
+    {
+      "id": "s1-u28-w13",
+      "hanzi": "考试",
+      "pinyin": "kǎo shì",
+      "meaning": "examination; take an exam",
+      "meaningVi": "kỳ thi; thi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "考试是星期五。",
+        "py": "kǎo shì shì xīng qī wǔ .",
+        "en": "The exam is on Friday."
+      }
+    },
+    {
+      "id": "s1-u28-w14",
+      "hanzi": "知道",
+      "pinyin": "zhī dào",
+      "meaning": "to know",
+      "meaningVi": "biết",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你知道几点考试吗？",
+        "py": "nǐ zhī dào jǐ diǎn kǎo shì ma ?",
+        "en": "Do you know what time the exam is?"
+      }
+    },
+    {
+      "id": "s1-u28-w15",
+      "hanzi": "名字",
+      "pinyin": "míng zi",
+      "meaning": "name",
+      "meaningVi": "tên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请问，您的名字怎么写？",
+        "py": "qǐng wèn , nín de míng zi zěn me xiě ?",
+        "en": "May I ask how your name is written?"
+      }
+    },
+    {
+      "id": "s1-u28-w16",
+      "hanzi": "请问",
+      "pinyin": "qǐng wèn",
+      "meaning": "excuse me; may I ask",
+      "meaningVi": "xin hỏi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "请问，明天几点开门？",
+        "py": "qǐng wèn , míng tiān jǐ diǎn kāi mén ?",
+        "en": "Excuse me, what time do you open tomorrow?"
+      }
+    },
+    {
+      "id": "s1-u28-w17",
+      "hanzi": "小姐",
+      "pinyin": "xiǎo jiě",
+      "meaning": "Miss; young woman in specific contexts",
+      "meaningVi": "cô; cách gọi Miss trong ngữ cảnh phù hợp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "通知上写的是张小姐。",
+        "py": "tōng zhī shàng xiě de shì zhāng xiǎo jiě .",
+        "en": "The notice is addressed to Miss Zhang."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "吧",
+      "pinyin": "ba",
+      "meaning": "suggestion particle",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "吧",
+          "role": "whole",
+          "gloss": "suggestion particle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 吧 in 吧. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "吧",
+          "p": "ba",
+          "m": "suggestion or tentative particle"
+        }
+      ]
+    },
+    {
+      "hanzi": "呢",
+      "pinyin": "ne",
+      "meaning": "question or continuing-action particle",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "呢",
+          "role": "whole",
+          "gloss": "question or continuing-action particle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 呢 in 呢. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "呢",
+          "p": "ne",
+          "m": "what-about or ongoing-action particle"
+        }
+      ]
+    },
+    {
+      "hanzi": "过",
+      "pinyin": "guò",
+      "meaning": "to pass; spend",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "过",
+          "role": "whole",
+          "gloss": "to pass; spend"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 过 in 过. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "过",
+          "p": "guò",
+          "m": "to pass; spend a holiday"
+        }
+      ]
+    },
+    {
+      "hanzi": "就",
+      "pinyin": "jiù",
+      "meaning": "just; then",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "就",
+          "role": "whole",
+          "gloss": "just; then"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 就 in 就. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "就",
+          "p": "jiù",
+          "m": "just; right away; then"
+        }
+      ]
+    },
+    {
+      "hanzi": "飞",
+      "pinyin": "fēi",
+      "meaning": "to fly",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "飞",
+          "role": "whole",
+          "gloss": "to fly"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 飞 in 飞 / 飞机. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "飞",
+          "p": "fēi",
+          "m": "to fly"
+        },
+        {
+          "w": "飞机",
+          "p": "fēijī",
+          "m": "plane"
+        }
+      ]
+    },
+    {
+      "hanzi": "考",
+      "pinyin": "kǎo",
+      "meaning": "to examine; test",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "考",
+          "role": "whole",
+          "gloss": "to examine; test"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 考 in 考 / 考试. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "考",
+          "p": "kǎo",
+          "m": "to take a test; examine"
+        },
+        {
+          "w": "考试",
+          "p": "kǎo shì",
+          "m": "examination; take an exam"
+        }
+      ]
+    },
+    {
+      "hanzi": "您",
+      "pinyin": "nín",
+      "meaning": "polite you",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "您",
+          "role": "whole",
+          "gloss": "polite you"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 您 in 您. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "您",
+          "p": "nín",
+          "m": "you (polite)"
+        }
+      ]
+    },
+    {
+      "hanzi": "哥",
+      "pinyin": "gē",
+      "meaning": "older brother",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "哥",
+          "role": "whole",
+          "gloss": "older brother"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 哥 in 哥哥. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "哥哥",
+          "p": "gē gē",
+          "m": "older brother"
+        }
+      ]
+    },
+    {
+      "hanzi": "道",
+      "pinyin": "dào",
+      "meaning": "way; to know in 知道",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "道",
+          "role": "whole",
+          "gloss": "way; to know in 知道"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 道 in 知道. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "知道",
+          "p": "zhī dào",
+          "m": "to know"
+        }
+      ]
+    },
+    {
+      "hanzi": "果",
+      "pinyin": "guǒ",
+      "meaning": "fruit; result",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "果",
+          "role": "whole",
+          "gloss": "fruit; result"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 果 in 水果. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "水果",
+          "p": "shuǐguǒ",
+          "m": "fruit"
+        }
+      ]
+    },
+    {
+      "hanzi": "气",
+      "pinyin": "qì",
+      "meaning": "air; mood",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "气",
+          "role": "whole",
+          "gloss": "air; mood"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 气 in 天气 / 不客气. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "天气",
+          "p": "tiānqì",
+          "m": "weather"
+        },
+        {
+          "w": "不客气",
+          "p": "bú kèqi",
+          "m": "you're welcome"
+        }
+      ]
+    },
+    {
+      "hanzi": "系",
+      "pinyin": "xì",
+      "meaning": "relation; connection",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "系",
+          "role": "whole",
+          "gloss": "relation; connection"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 系 in 没关系. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "没关系",
+          "p": "méi guān xì",
+          "m": "it is okay; never mind"
+        }
+      ]
+    },
+    {
+      "hanzi": "样",
+      "pinyin": "yàng",
+      "meaning": "appearance; kind",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "样",
+          "role": "whole",
+          "gloss": "appearance; kind"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 样 in 怎么样 / 一样. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "怎么样",
+          "p": "zěnmeyàng",
+          "m": "how is it?; what do you think?"
+        },
+        {
+          "w": "一样",
+          "p": "yī yàng",
+          "m": "the same"
+        }
+      ]
+    },
+    {
+      "hanzi": "怎",
+      "pinyin": "zěn",
+      "meaning": "how in 怎么",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "怎",
+          "role": "whole",
+          "gloss": "how in 怎么"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 怎 in 怎么样 / 怎么. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "怎么样",
+          "p": "zěnmeyàng",
+          "m": "how is it?; what do you think?"
+        },
+        {
+          "w": "怎么",
+          "p": "zěnme",
+          "m": "how"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u28-g一22",
+      "pattern": "吧 / 了 / 吗 / 呢",
+      "purpose": "Hear what a sentence-ending particle does",
+      "explanation": "吧 can suggest a plan or make a tentative assumption. Sentence-final 了 marks a changed situation: 我知道了. 吗 makes a neutral yes/no question from a statement. 呢 can ask “what about…?” or close an ongoing-action statement. They are not interchangeable endings. A word question such as 几点考试 already asks for missing information and does not add 吗.",
+      "examples": [
+        {
+          "zh": "明天再看吧。",
+          "py": "míng tiān zài kàn ba .",
+          "en": "Let us look again tomorrow."
+        },
+        {
+          "zh": "我知道了。",
+          "py": "wǒ zhī dào le .",
+          "en": "I know now; understood."
+        },
+        {
+          "zh": "你明天回家吗？",
+          "py": "nǐ míng tiān huí jiā ma ?",
+          "en": "Are you going home tomorrow?"
+        },
+        {
+          "zh": "我在家，你呢？",
+          "py": "wǒ zài jiā , nǐ ne ?",
+          "en": "I am at home; what about you?"
+        },
+        {
+          "zh": "我读书呢。",
+          "py": "wǒ dú shū ne .",
+          "en": "I am reading."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你几点考试吗？",
+          "right": "你几点考试？",
+          "why": "Do not add 吗 to the question word 几点 in this direct question."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u28-g一33",
+      "pattern": "吗? · question word? · A 还是 B? · A-not-A?",
+      "purpose": "Choose the information you need",
+      "explanation": "A yes/no question checks a proposition: 明天考试吗？ A question-word question asks a missing detail: 几点考试？ A choice question offers alternatives: 上午还是下午？ An A-not-A question checks a choice of positive/negative: 考不考？ These are different ways to ask, not four endings to combine. A choice needs an actual offered answer; do not answer a time question only with 是.",
+      "examples": [
+        {
+          "zh": "明天考试吗？",
+          "py": "míng tiān kǎo shì ma ?",
+          "en": "Is the exam tomorrow?"
+        },
+        {
+          "zh": "几点考试？",
+          "py": "jǐ diǎn kǎo shì ?",
+          "en": "What time is the exam?"
+        },
+        {
+          "zh": "上午还是下午考试？",
+          "py": "shàng wǔ hái shi xià wǔ kǎo shì ?",
+          "en": "Is the exam in the morning or afternoon?"
+        },
+        {
+          "zh": "明天考不考？",
+          "py": "míng tiān kǎo bù kǎo ?",
+          "en": "Is there a test tomorrow or not?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "上午还是下午考试吗？",
+          "right": "上午还是下午考试？",
+          "why": "Do not combine the direct 还是 alternatives with 吗 here."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u28-g一45",
+      "pattern": "statement + 吗?",
+      "purpose": "Check a proposition politely",
+      "explanation": "Add 吗 to an ordinary statement to ask whether it is true: 你买票了 → 你买票了吗？ Answer the specific predicate or give a short fact. This is a neutral question; 不 forms a negative proposition, so 你不回家吗？ may sound surprised in context. Do not mechanically add 吗 to question-word, choice or A-not-A questions.",
+      "examples": [
+        {
+          "zh": "你买机票了吗？",
+          "py": "nǐ mǎi jī piào le ma ?",
+          "en": "Have you bought a plane ticket?"
+        },
+        {
+          "zh": "你在网上买的吗？",
+          "py": "nǐ zài wǎng shàng mǎi de ma ?",
+          "en": "Did you buy it online?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你买不买机票吗？",
+          "right": "你买机票吗？",
+          "why": "Use one direct yes/no question structure, not two combined."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u28-d",
+    "title": "One plan, four useful questions",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what changes and what still needs checking.",
+    "lines": [
+      {
+        "zh": "新年我们还一起过吗？你回家吗？",
+        "py": "xīn nián wǒ men hái yì qǐ guò ma ? nǐ huí jiā ma ?",
+        "en": "Are we still celebrating the new year together? Are you going home?",
+        "speaker": "a"
+      },
+      {
+        "zh": "回家。今年是我来北京的第二年，上次没回去。",
+        "py": "huí jiā . jīn nián shì wǒ lái běi jīng de dì èr nián , shàng cì méi huí qù .",
+        "en": "I am going home. This is my second year in Beijing; I did not go back last time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你买机票了吗？在网上买的吗？",
+        "py": "nǐ mǎi jī piào le ma ? zài wǎng shàng mǎi de ma ?",
+        "en": "Have you bought a plane ticket? Did you buy it online?",
+        "speaker": "a"
+      },
+      {
+        "zh": "买了，在网上买的。明天上午飞。",
+        "py": "mǎi le , zài wǎng shàng mǎi de . míng tiān shàng wǔ fēi .",
+        "en": "Yes, I bought it online. I fly tomorrow morning.",
+        "speaker": "b"
+      },
+      {
+        "zh": "上午还是下午？我记得你有考试。",
+        "py": "shàng wǔ hái shi xià wǔ ? wǒ jì de nǐ yǒu kǎo shì .",
+        "en": "Morning or afternoon? I remember that you have an exam.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，我明天考汉语，考试是下午。机票要改。",
+        "py": "duì , wǒ míng tiān kǎo hàn yǔ , kǎo shì shì xià wǔ . jī piào yào gǎi .",
+        "en": "Right, I have a Chinese test tomorrow afternoon. I need to change the plane ticket.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你知道几点考试吗？",
+        "py": "nǐ zhī dào jǐ diǎn kǎo shì ma ?",
+        "en": "Do you know what time the exam is?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不知道。我现在就看通知。你呢？",
+        "py": "bù zhī dào . wǒ xiàn zài jiù kàn tōng zhī . nǐ ne ?",
+        "en": "No. I will check the notice right now. What about you?",
+        "speaker": "b"
+      },
+      {
+        "zh": "我在家读书呢。通知的名字是张小姐吗？",
+        "py": "wǒ zài jiā dú shū ne . tōng zhī de míng zi shì zhāng xiǎo jiě ma ?",
+        "en": "I am reading at home. Is the name on the notice Miss Zhang?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，是我。网友发给我的通知，先问学校吧。",
+        "py": "duì , shì wǒ . wǎng yǒu fā gěi wǒ de tōng zhī , xiān wèn xué xiào ba .",
+        "en": "Yes, that is me. An online friend sent me the notice; I should ask the school first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "请问，明天几点考试？先这样问。",
+        "py": "qǐng wèn , míng tiān jǐ diǎn kǎo shì ? xiān zhè yàng wèn .",
+        "en": "“Excuse me, what time is the exam tomorrow?” Ask that first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，我知道了。先确认考试，再改机票。",
+        "py": "hǎo , wǒ zhī dào le . xiān què rèn kǎo shì , zài gǎi jī piào .",
+        "en": "Okay, understood. Confirm the exam first, then change the plane ticket.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What conflict needs resolving?",
+        "choices": [
+          "A flight and an exam on the same day",
+          "Two restaurants",
+          "Two people with one bag"
+        ],
+        "answer": "A flight and an exam on the same day"
+      },
+      {
+        "type": "detail",
+        "q": "When is the stated exam?",
+        "choices": [
+          "Tomorrow afternoon",
+          "Tomorrow morning",
+          "Last year"
+        ],
+        "answer": "Tomorrow afternoon"
+      },
+      {
+        "type": "inference",
+        "q": "Why contact the school?",
+        "choices": [
+          "The notice came through an online friend",
+          "The ticket proves the exam time",
+          "The speaker has no name"
+        ],
+        "answer": "The notice came through an online friend"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "张",
+        "pinyin": "zhāng",
+        "meaning": "Zhang, a surname"
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice"
+      },
+      {
+        "hanzi": "发",
+        "pinyin": "fā",
+        "meaning": "to send"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u28-r",
+    "title": "Confirm before changing",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is known and what should be verified directly.",
+    "lines": [
+      {
+        "zh": "新年我想回家，和家里人一起过。",
+        "py": "xīn nián wǒ xiǎng huí jiā , hé jiā lǐ rén yì qǐ guò .",
+        "en": "I would like to go home for the new year and celebrate with my family."
+      },
+      {
+        "zh": "今年是我来北京的第二年，上次没有回去。",
+        "py": "jīn nián shì wǒ lái běi jīng de dì èr nián , shàng cì méi yǒu huí qù .",
+        "en": "This is my second year in Beijing; I did not go back last time."
+      },
+      {
+        "zh": "我在网上买了明天上午的机票，想上午飞。",
+        "py": "wǒ zài wǎng shàng mǎi le míng tiān shàng wǔ de jī piào , xiǎng shàng wǔ fēi .",
+        "en": "I bought an online ticket for tomorrow morning and plan to fly in the morning."
+      },
+      {
+        "zh": "朋友问我明天考不考汉语，我才想起考试。",
+        "py": "péng you wèn wǒ míng tiān kǎo bù kǎo hàn yǔ , wǒ cái xiǎng qǐ kǎo shì .",
+        "en": "A friend asked whether I have a Chinese test tomorrow; only then did I remember the exam."
+      },
+      {
+        "zh": "网友发的通知写下午考试，名字是张小姐。",
+        "py": "wǎng yǒu fā de tōng zhī xiě xià wǔ kǎo shì , míng zi shì zhāng xiǎo jiě .",
+        "en": "The notice sent by an online friend says the exam is in the afternoon and is addressed to Miss Zhang."
+      },
+      {
+        "zh": "我还不知道几点，也不知道这个通知对不对。",
+        "py": "wǒ hái bù zhī dào jǐ diǎn , yě bù zhī dào zhè gè tōng zhī duì bú duì .",
+        "en": "I do not yet know the time or whether the notice is correct."
+      },
+      {
+        "zh": "我现在就问学校：请问，明天几点考试？",
+        "py": "wǒ xiàn zài jiù wèn xué xiào : qǐng wèn , míng tiān jǐ diǎn kǎo shì ?",
+        "en": "I will ask the school right now: “Excuse me, what time is tomorrow’s exam?”"
+      },
+      {
+        "zh": "先确认考试，再改机票。朋友在家读书呢，我们明天再说吧。",
+        "py": "xiān què rèn kǎo shì , zài gǎi jī piào . péng you zài jiā dú shū ne , wǒ men míng tiān zài shuō ba .",
+        "en": "Confirm the exam first, then change the ticket. My friend is reading at home; we will talk again tomorrow."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should happen first?",
+        "choices": [
+          "Verify the exam with the school",
+          "Assume the notice is correct",
+          "Miss every flight"
+        ],
+        "answer": "Verify the exam with the school"
+      },
+      {
+        "type": "detail",
+        "q": "Who sent the notice?",
+        "choices": [
+          "An online friend",
+          "The airline directly",
+          "A doctor"
+        ],
+        "answer": "An online friend"
+      },
+      {
+        "type": "inference",
+        "q": "Can the exact exam time be stated confidently?",
+        "choices": [
+          "No, it has not been verified",
+          "Yes, eight in the morning",
+          "Yes, midnight"
+        ],
+        "answer": "No, it has not been verified"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我在网上买了明天上午的【机票】，想上午飞。",
+          "py": "wǒ zài wǎng shàng mǎi le míng tiān shàng wǔ de jī piào , xiǎng shàng wǔ fēi .",
+          "en": "I bought an online ticket for tomorrow morning and plan to fly in the morning."
+        },
+        {
+          "zh": "我现在就问学校：【请问】，明天几点考试？",
+          "py": "wǒ xiàn zài jiù wèn xué xiào : qǐng wèn , míng tiān jǐ diǎn kǎo shì ?",
+          "en": "I will ask the school right now: “Excuse me, what time is tomorrow’s exam?”"
+        }
+      ],
+      "bank": [
+        "机票",
+        "请问",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "张",
+        "pinyin": "zhāng",
+        "meaning": "Zhang, a surname"
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice"
+      },
+      {
+        "hanzi": "发",
+        "pinyin": "fā",
+        "meaning": "to send"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u28-media",
+      "title": "Ask the actual question",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse with four question shapes.",
+      "lines": [
+        {
+          "zh": "新年回家吗？回家。去年没回，今年过新年。",
+          "py": "xīn nián huí jiā ma ? huí jiā . qù nián méi huí , jīn nián guò xīn nián .",
+          "en": "Going home for the new year? Yes. Not last year; celebrate this year."
+        },
+        {
+          "zh": "机票买了吗？买了。网上买，明天飞。",
+          "py": "jī piào mǎi le ma ? mǎi le . wǎng shàng mǎi , míng tiān fēi .",
+          "en": "Ticket bought? Yes. Bought online; fly tomorrow."
+        },
+        {
+          "zh": "上午还是下午？考试几点？先看通知，再问学校。",
+          "py": "shàng wǔ hái shi xià wǔ ? kǎo shì jǐ diǎn ? xiān kàn tōng zhī , zài wèn xué xiào .",
+          "en": "Morning or afternoon? What time is the exam? Read the notice, then ask the school."
+        },
+        {
+          "zh": "明天考不考？还不知道，先问学校。",
+          "py": "míng tiān kǎo bù kǎo ? hái bù zhī dào , xiān wèn xué xiào .",
+          "en": "An exam tomorrow or not? Still unknown; ask the school first."
+        },
+        {
+          "zh": "名字张小姐，网友发通知。别猜，确认吧。",
+          "py": "míng zi zhāng xiǎo jiě , wǎng yǒu fā tōng zhī . bié cāi , què rèn ba .",
+          "en": "Name: Miss Zhang; notice from an online friend. Do not guess; confirm it."
+        },
+        {
+          "zh": "我在家，你呢？读书呢。知道了，明天再说。",
+          "py": "wǒ zài jiā , nǐ ne ? dú shū ne . zhī dào le , míng tiān zài shuō .",
+          "en": "I am at home; you? Reading. Understood; talk tomorrow."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What attitude does the verse recommend?",
+          "choices": [
+            "Check uncertain information",
+            "Treat every forwarded notice as official",
+            "Change a ticket without checking"
+          ],
+          "answer": "Check uncertain information"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "确认",
+          "pinyin": "què rèn",
+          "meaning": "to confirm"
+        },
+        {
+          "hanzi": "张",
+          "pinyin": "zhāng",
+          "meaning": "Zhang, a surname"
+        },
+        {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "meaning": "notice"
+        },
+        {
+          "hanzi": "发",
+          "pinyin": "fā",
+          "meaning": "to send"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u28-t1",
+      "phrase": "s1-u28-w08",
+      "audio": {
+        "zh": "我在网上买机票。",
+        "py": "wǒ zài wǎng shàng mǎi jī piào .",
+        "en": "I buy plane tickets online."
+      },
+      "statement": "The ticket is bought online.",
+      "answer": true,
+      "why": "网上 gives the purchasing channel."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u28-t2",
+      "phrase": "s1-u28-w13",
+      "audio": {
+        "zh": "我还不知道几点考试。",
+        "py": "wǒ hái bù zhī dào jǐ diǎn kǎo shì .",
+        "en": "I do not yet know what time the exam is."
+      },
+      "statement": "The exact exam time is known.",
+      "answer": false,
+      "why": "还不知道 explicitly says it is unknown."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u28-t3",
+      "phrase": "s1-u28-w01",
+      "prompt": {
+        "zh": "先问学校吧。",
+        "py": "xiān wèn xué xiào ba .",
+        "en": "Let us ask the school first."
+      },
+      "choices": [
+        "好，我现在就问。",
+        "两张床。",
+        "白色的包。"
+      ],
+      "answer": "好，我现在就问。",
+      "why": "Accept the practical suggestion."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u28-t4",
+      "phrase": "s1-u28-w02",
+      "prompt": {
+        "zh": "我在家，你呢？",
+        "py": "wǒ zài jiā , nǐ ne ?",
+        "en": "I am at home; what about you?"
+      },
+      "choices": [
+        "我在车站。",
+        "我不知道谁的。",
+        "六块钱。"
+      ],
+      "answer": "我在车站。",
+      "why": "Provide your own location."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u28-t5",
+      "phrase": "s1-u28-w16",
+      "line": {
+        "zh": "【请问】，明天几点考试？",
+        "py": "qǐng wèn , míng tiān jǐ diǎn kǎo shì ?",
+        "en": "Excuse me, what time is tomorrow’s exam?"
+      },
+      "blankPy": "qǐng wèn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u28-t6",
+      "phrase": "s1-u28-w14",
+      "line": {
+        "zh": "我【知道】了，先确认时间。",
+        "py": "wǒ zhī dào le , xiān què rèn shí jiān .",
+        "en": "Understood; first confirm the time."
+      },
+      "blankPy": "zhī dào"
+    },
+    {
+      "type": "match",
+      "id": "s1-u28-t7",
+      "phrase": "s1-u28-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "We celebrate the new year together.",
+          "right": {
+            "zh": "我们一起过新年。",
+            "py": "wǒ men yì qǐ guò xīn nián .",
+            "en": "We celebrate the new year together."
+          }
+        },
+        {
+          "left": "Fly to Beijing tomorrow morning.",
+          "right": {
+            "zh": "明天上午飞北京。",
+            "py": "míng tiān shàng wǔ fēi běi jīng .",
+            "en": "Fly to Beijing tomorrow morning."
+          }
+        },
+        {
+          "left": "I did not go back last time.",
+          "right": {
+            "zh": "上次我没回去。",
+            "py": "shàng cì wǒ méi huí qù .",
+            "en": "I did not go back last time."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u28-t8",
+      "phrase": "s1-u28-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The notice is addressed to Miss Zhang.",
+          "right": {
+            "zh": "通知上写的是张小姐。",
+            "py": "tōng zhī shàng xiě de shì zhāng xiǎo jiě .",
+            "en": "The notice is addressed to Miss Zhang."
+          }
+        },
+        {
+          "left": "How is your name written?",
+          "right": {
+            "zh": "您的名字怎么写？",
+            "py": "nín de míng zi zěn me xiě ?",
+            "en": "How is your name written?"
+          }
+        },
+        {
+          "left": "This online friend studies Chinese.",
+          "right": {
+            "zh": "这个网友学习汉语。",
+            "py": "zhè gè wǎng yǒu xué xí hàn yǔ .",
+            "en": "This online friend studies Chinese."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u28-t9",
+      "phrase": "s1-u28-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I buy tickets; you wait for our friend.",
+          "right": {
+            "zh": "我买车票，你等朋友。",
+            "py": "wǒ mǎi chē piào , nǐ děng péng you .",
+            "en": "I buy tickets; you wait for our friend."
+          }
+        },
+        {
+          "left": "Board on Sunday at half past two.",
+          "right": {
+            "zh": "星期日两点半上车。",
+            "py": "xīng qī rì liǎng diǎn bàn shàng chē .",
+            "en": "Board on Sunday at half past two."
+          }
+        },
+        {
+          "left": "The shopping centre is not as quiet as the library.",
+          "right": {
+            "zh": "商场没有图书馆安静。",
+            "py": "shāng chǎng méi yǒu tú shū guǎn ān jìng .",
+            "en": "The shopping centre is not as quiet as the library."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Formal name reference",
+      "natural": {
+        "zh": "通知上写的是张小姐。",
+        "py": "tōng zhī shàng xiě de shì zhāng xiǎo jiě .",
+        "en": "The notice is addressed to Miss Zhang."
+      },
+      "note": "小姐 after a surname can occur in formal written references; for a stranger, 请问 avoids assuming an appropriate personal title. It is not a default restaurant-server address."
+    },
+    {
+      "situation": "Checking rather than guessing",
+      "natural": {
+        "zh": "请问，明天几点考试？",
+        "py": "qǐng wèn , míng tiān jǐ diǎn kǎo shì ?",
+        "en": "Excuse me, what time is tomorrow’s exam?"
+      },
+      "note": "Ask the institution for the missing detail; a forwarded notice is not independent verification."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u28-speak",
+    "title": "Are we still on?",
+    "place": "A language-exchange meeting",
+    "context": "Confirm plans in a chat and ask real questions.",
+    "goal": "Confirm a travel or study plan rather than assume it",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你买机票了吗？",
+        "pinyin": "nǐ mǎi jī piào le ma ?",
+        "meaning": "Have you bought a plane ticket?",
+        "intent": "Say you bought it online",
+        "examples": [
+          "买了，在网上买的。"
+        ],
+        "accept": [
+          "^买了，在网上买的。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你知道几点考试吗？",
+        "pinyin": "nǐ zhī dào jǐ diǎn kǎo shì ma ?",
+        "meaning": "Do you know what time the exam is?",
+        "intent": "Say unknown and propose checking",
+        "examples": [
+          "不知道，先问学校吧。"
+        ],
+        "accept": [
+          "^不知道，先问学校吧。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一22, 一33, 一45. Native check: formal 小姐 after a surname, travel/exam timing, question-particle combinations, and the clipped original verse. No exam result or travel booking is claimed. Planned retrieval 一16 / 一29 / 一44 / 一18 / 一38: 我买车票，你等朋友。, 星期日两点半上车。, 商场没有图书馆安静。."
+}

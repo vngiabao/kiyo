@@ -1,0 +1,1249 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s1-u26",
+    "stage": 1,
+    "order": 26,
+    "title": "Which place is quieter?",
+    "titleZh": "选个安静的地方",
+    "canDo": [
+      "Compare two study places",
+      "Use 比 and 没有 in the right comparison direction",
+      "Choose a place using practical reasons"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 1
+    },
+    "prerequisites": [
+      "s1-u25"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s1-u26-w01",
+      "hanzi": "比",
+      "pinyin": "bǐ",
+      "meaning": "than; compare",
+      "meaningVi": "hơn; so sánh",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "图书馆比商场安静。",
+        "py": "tú shū guǎn bǐ shāng chǎng ān jìng .",
+        "en": "The library is quieter than the shopping centre."
+      }
+    },
+    {
+      "id": "s1-u26-w02",
+      "hanzi": "图书馆",
+      "pinyin": "tú shū guǎn",
+      "meaning": "library",
+      "meaningVi": "thư viện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我想去图书馆读书。",
+        "py": "wǒ xiǎng qù tú shū guǎn dú shū .",
+        "en": "I would like to read at the library."
+      }
+    },
+    {
+      "id": "s1-u26-w03",
+      "hanzi": "教学楼",
+      "pinyin": "jiào xué lóu",
+      "meaning": "teaching building",
+      "meaningVi": "tòa nhà giảng dạy",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "教学楼在学校里面。",
+        "py": "jiào xué lóu zài xué xiào lǐ miàn .",
+        "en": "The teaching building is inside the school."
+      }
+    },
+    {
+      "id": "s1-u26-w04",
+      "hanzi": "饭店",
+      "pinyin": "fàn diàn",
+      "meaning": "restaurant; hotel depending on context",
+      "meaningVi": "nhà hàng; khách sạn tùy ngữ cảnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这家饭店的菜很好吃。",
+        "py": "zhè jiā fàn diàn de cài hěn hǎo chī .",
+        "en": "The food at this restaurant is tasty."
+      }
+    },
+    {
+      "id": "s1-u26-w05",
+      "hanzi": "商场",
+      "pinyin": "shāng chǎng",
+      "meaning": "shopping centre; department store",
+      "meaningVi": "trung tâm mua sắm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "商场里人很多。",
+        "py": "shāng chǎng lǐ rén hěn duō .",
+        "en": "There are many people in the shopping centre."
+      }
+    },
+    {
+      "id": "s1-u26-w06",
+      "hanzi": "商店",
+      "pinyin": "shāng diàn",
+      "meaning": "shop",
+      "meaningVi": "cửa hàng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这家商店有水杯。",
+        "py": "zhè jiā shāng diàn yǒu shuǐ bēi .",
+        "en": "This shop has drinking cups."
+      }
+    },
+    {
+      "id": "s1-u26-w07",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "meaning": "fast",
+      "meaningVi": "nhanh",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这辆车很快。",
+        "py": "zhè liàng chē hěn kuài .",
+        "en": "This vehicle is fast."
+      }
+    },
+    {
+      "id": "s1-u26-w08",
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "meaning": "slow",
+      "meaningVi": "chậm",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "走路比坐车慢。",
+        "py": "zǒu lù bǐ zuò chē màn .",
+        "en": "Walking is slower than taking a vehicle."
+      }
+    },
+    {
+      "id": "s1-u26-w09",
+      "hanzi": "病人",
+      "pinyin": "bìng rén",
+      "meaning": "patient; sick person",
+      "meaningVi": "người bệnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "病人在家休息。",
+        "py": "bìng rén zài jiā xiū xī .",
+        "en": "The patient is resting at home."
+      }
+    },
+    {
+      "id": "s1-u26-w10",
+      "hanzi": "生病",
+      "pinyin": "shēng bìng",
+      "meaning": "to become ill; be ill",
+      "meaningVi": "bị bệnh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "朋友生病了，今天请假。",
+        "py": "péng you shēng bìng le , jīn tiān qǐng jià .",
+        "en": "My friend is ill and is taking leave today."
+      }
+    },
+    {
+      "id": "s1-u26-w11",
+      "hanzi": "渴",
+      "pinyin": "kě",
+      "meaning": "thirsty",
+      "meaningVi": "khát",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我很渴，想喝水。",
+        "py": "wǒ hěn kě , xiǎng hē shuǐ .",
+        "en": "I am thirsty and would like water."
+      }
+    },
+    {
+      "id": "s1-u26-w12",
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "meaning": "rain",
+      "meaningVi": "mưa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "今天的雨很大。",
+        "py": "jīn tiān de yǔ hěn dà .",
+        "en": "The rain is heavy today."
+      }
+    },
+    {
+      "id": "s1-u26-w13",
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "meaning": "to live; stay",
+      "meaningVi": "sống; ở",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我住在学校旁边。",
+        "py": "wǒ zhù zài xué xiào páng biān .",
+        "en": "I live next to the school."
+      }
+    },
+    {
+      "id": "s1-u26-w14",
+      "hanzi": "地",
+      "pinyin": "dì",
+      "meaning": "ground; land",
+      "meaningVi": "đất; mặt đất",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这里的地很干。",
+        "py": "zhè lǐ de dì hěn gàn .",
+        "en": "The ground here is dry."
+      }
+    },
+    {
+      "id": "s1-u26-w15",
+      "hanzi": "请假",
+      "pinyin": "qǐng jià",
+      "meaning": "to request leave",
+      "meaningVi": "xin nghỉ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我生病了，想请假。",
+        "py": "wǒ shēng bìng le , xiǎng qǐng jià .",
+        "en": "I am ill and would like to request leave."
+      }
+    },
+    {
+      "id": "s1-u26-w16",
+      "hanzi": "放假",
+      "pinyin": "fàng jià",
+      "meaning": "to have a holiday; be on break",
+      "meaningVi": "được nghỉ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "学校明天放假。",
+        "py": "xué xiào míng tiān fàng jià .",
+        "en": "The school has a holiday tomorrow."
+      }
+    },
+    {
+      "id": "s1-u26-w17",
+      "hanzi": "次",
+      "pinyin": "cì",
+      "meaning": "time; occasion",
+      "meaningVi": "lần",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我去过一次这家饭店。",
+        "py": "wǒ qù guò yī cì zhè jiā fàn diàn .",
+        "en": "I have been to this restaurant once."
+      }
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "比",
+      "pinyin": "bǐ",
+      "meaning": "to compare; than",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "比",
+          "role": "whole",
+          "gloss": "to compare; than"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 比 in 比. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "比",
+          "p": "bǐ",
+          "m": "than; compare"
+        }
+      ]
+    },
+    {
+      "hanzi": "场",
+      "pinyin": "chǎng",
+      "meaning": "field; place",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "场",
+          "role": "whole",
+          "gloss": "field; place"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 场 in 商场 / 机场. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "商场",
+          "p": "shāng chǎng",
+          "m": "shopping centre; department store"
+        },
+        {
+          "w": "机场",
+          "p": "jīchǎng",
+          "m": "airport"
+        }
+      ]
+    },
+    {
+      "hanzi": "馆",
+      "pinyin": "guǎn",
+      "meaning": "public building",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "馆",
+          "role": "whole",
+          "gloss": "public building"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 馆 in 图书馆. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "图书馆",
+          "p": "tú shū guǎn",
+          "m": "library"
+        }
+      ]
+    },
+    {
+      "hanzi": "教",
+      "pinyin": "jiào",
+      "meaning": "to teach",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "教",
+          "role": "whole",
+          "gloss": "to teach"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 教 in 教学楼 / 教. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "教学楼",
+          "p": "jiào xué lóu",
+          "m": "teaching building"
+        },
+        {
+          "w": "教",
+          "p": "jiāo",
+          "m": "to teach"
+        }
+      ]
+    },
+    {
+      "hanzi": "商",
+      "pinyin": "shāng",
+      "meaning": "commerce",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "商",
+          "role": "whole",
+          "gloss": "commerce"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 商 in 商场 / 商店. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "商场",
+          "p": "shāng chǎng",
+          "m": "shopping centre; department store"
+        },
+        {
+          "w": "商店",
+          "p": "shāng diàn",
+          "m": "shop"
+        }
+      ]
+    },
+    {
+      "hanzi": "住",
+      "pinyin": "zhù",
+      "meaning": "to live; stay",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "住",
+          "role": "whole",
+          "gloss": "to live; stay"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 住 in 住 / 记住. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "住",
+          "p": "zhù",
+          "m": "to live; stay"
+        },
+        {
+          "w": "记住",
+          "p": "jì zhù",
+          "m": "to remember; to keep in mind"
+        }
+      ]
+    },
+    {
+      "hanzi": "房",
+      "pinyin": "fáng",
+      "meaning": "room; house",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "房",
+          "role": "whole",
+          "gloss": "room; house"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 房 in 房子 / 房间. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "房子",
+          "p": "fángzi",
+          "m": "house; flat"
+        },
+        {
+          "w": "房间",
+          "p": "fángjiān",
+          "m": "room"
+        }
+      ]
+    },
+    {
+      "hanzi": "雨",
+      "pinyin": "yǔ",
+      "meaning": "rain",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "雨",
+          "role": "whole",
+          "gloss": "rain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 雨 in 雨 / 下雨. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "雨",
+          "p": "yǔ",
+          "m": "rain"
+        },
+        {
+          "w": "下雨",
+          "p": "xià yǔ",
+          "m": "to rain"
+        }
+      ]
+    },
+    {
+      "hanzi": "风",
+      "pinyin": "fēng",
+      "meaning": "wind",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "风",
+          "role": "whole",
+          "gloss": "wind"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 风 in 风. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "风",
+          "p": "fēng",
+          "m": "wind"
+        }
+      ]
+    },
+    {
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "meaning": "fast",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "快",
+          "role": "whole",
+          "gloss": "fast"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 快 in 快 / 快乐. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "快",
+          "p": "kuài",
+          "m": "fast"
+        },
+        {
+          "w": "快乐",
+          "p": "kuàilè",
+          "m": "happy (for wishes)"
+        }
+      ]
+    },
+    {
+      "hanzi": "慢",
+      "pinyin": "màn",
+      "meaning": "slow",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "慢",
+          "role": "whole",
+          "gloss": "slow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 慢 in 慢 / 慢走. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "慢",
+          "p": "màn",
+          "m": "slow"
+        },
+        {
+          "w": "慢走",
+          "p": "màn zǒu",
+          "m": "take care (seeing a guest off)"
+        }
+      ]
+    },
+    {
+      "hanzi": "假",
+      "pinyin": "jiǎ",
+      "meaning": "leave; holiday",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "假",
+          "role": "whole",
+          "gloss": "leave; holiday"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 假 in 请假 / 放假. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "请假",
+          "p": "qǐng jià",
+          "m": "to request leave"
+        },
+        {
+          "w": "放假",
+          "p": "fàng jià",
+          "m": "to have a holiday; be on break"
+        }
+      ]
+    },
+    {
+      "hanzi": "难",
+      "pinyin": "nán",
+      "meaning": "difficult",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "难",
+          "role": "whole",
+          "gloss": "difficult"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 难 in 难. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "难",
+          "p": "nán",
+          "m": "difficult"
+        }
+      ]
+    },
+    {
+      "hanzi": "试",
+      "pinyin": "shì",
+      "meaning": "to try; test",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "试",
+          "role": "whole",
+          "gloss": "to try; test"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 试 in 试. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "试",
+          "p": "shì",
+          "m": "to try (on)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s1-u26-g一18",
+      "pattern": "A + 比 + B + adjective",
+      "purpose": "Name the comparison reference",
+      "explanation": "比 introduces the reference B: 图书馆比商场安静 compares the library with the shopping centre. Keep the adjective after both A and B. Do not add 很 before that adjective in this simple comparison. State the same attribute for both things; 比 does not mean every attribute is better.",
+      "examples": [
+        {
+          "zh": "图书馆比商场安静。",
+          "py": "tú shū guǎn bǐ shāng chǎng ān jìng .",
+          "en": "The library is quieter than the shopping centre."
+        },
+        {
+          "zh": "坐车比走路快。",
+          "py": "zuò chē bǐ zǒu lù kuài .",
+          "en": "Taking a vehicle is faster than walking."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "图书馆比商场很安静。",
+          "right": "图书馆比商场安静。",
+          "why": "Do not insert 很 in this basic 比 comparison."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s1-u26-g一38",
+      "pattern": "A 比 B + adjective · A 没有 B + adjective",
+      "purpose": "Keep the direction of a comparison clear",
+      "explanation": "A 比 B 快 means A is faster than B. A 没有 B 快 means A is not as fast as B. It does not mean A lacks B. This negative comparison differs from A不比B快, which need not assert that A is slower; here practise 没有. Compare objects on a relevant shared attribute.",
+      "examples": [
+        {
+          "zh": "走路没有坐车快。",
+          "py": "zǒu lù méi yǒu zuò chē kuài .",
+          "en": "Walking is not as fast as taking a vehicle."
+        },
+        {
+          "zh": "商场没有图书馆安静。",
+          "py": "shāng chǎng méi yǒu tú shū guǎn ān jìng .",
+          "en": "The shopping centre is not as quiet as the library."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "走路比坐车没有快。",
+          "right": "走路没有坐车快。",
+          "why": "Put 没有 between A and B for not-as comparison."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s1-u26-d",
+    "title": "Quiet, close, and open",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the place they choose and the alternative they reject.",
+    "lines": [
+      {
+        "zh": "今天去商场还是图书馆？",
+        "py": "jīn tiān qù shāng chǎng hái shi tú shū guǎn ?",
+        "en": "The shopping centre or the library today?",
+        "speaker": "a"
+      },
+      {
+        "zh": "图书馆比商场安静，我想读书。",
+        "py": "tú shū guǎn bǐ shāng chǎng ān jìng , wǒ xiǎng dú shū .",
+        "en": "The library is quieter than the shopping centre; I would like to read.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你住在哪里？图书馆远吗？",
+        "py": "nǐ zhù zài nǎ lǐ ? tú shū guǎn yuǎn ma ?",
+        "en": "Where do you live? Is the library far?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我住在教学楼旁边。走路很慢，坐车快一点。",
+        "py": "wǒ zhù zài jiào xué lóu páng biān . zǒu lù hěn màn , zuò chē kuài yī diǎn .",
+        "en": "I live beside the teaching building. Walking is slow; taking a vehicle is a little faster.",
+        "speaker": "b"
+      },
+      {
+        "zh": "今天雨大，外面的地很湿。坐车吧。",
+        "py": "jīn tiān yǔ dà , wài miàn de dì hěn shī . zuò chē ba .",
+        "en": "The rain is heavy and the ground outside is wet. Let us take a vehicle.",
+        "speaker": "a"
+      },
+      {
+        "zh": "行。我很渴，先在商店买水，再去图书馆。",
+        "py": "xíng . wǒ hěn kě , xiān zài shāng diàn mǎi shuǐ , zài qù tú shū guǎn .",
+        "en": "Okay. I am thirsty; first buy water at the shop, then go to the library.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这家饭店的菜好吃，要先吃饭吗？",
+        "py": "zhè jiā fàn diàn de cài hǎo chī , yào xiān chī fàn ma ?",
+        "en": "This restaurant has tasty food. Shall we eat first?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我去过一次。它没有图书馆安静，先读书吧。",
+        "py": "wǒ qù guò yī cì . tā méi yǒu tú shū guǎn ān jìng , xiān dú shū ba .",
+        "en": "I have been once. It is not as quiet as the library; let us read first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "朋友今天请假，是生病了吗？",
+        "py": "péng you jīn tiān qǐng jià , shì shēng bìng le ma ?",
+        "en": "Our friend took leave today. Is she ill?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，病人在家休息，我们不用等她。",
+        "py": "duì , bìng rén zài jiā xiū xī , wǒ men bù yòng děng tā .",
+        "en": "Yes, she is resting at home; we do not need to wait for her.",
+        "speaker": "b"
+      },
+      {
+        "zh": "学校明天放假，教学楼不开门。图书馆呢？",
+        "py": "xué xiào míng tiān fàng jià , jiào xué lóu bù kāi mén . tú shū guǎn ne ?",
+        "en": "The school has a holiday tomorrow and the teaching building is closed. What about the library?",
+        "speaker": "a"
+      },
+      {
+        "zh": "明天不知道。今天开门，我们今天去。",
+        "py": "míng tiān bù zhī dào . jīn tiān kāi mén , wǒ men jīn tiān qù .",
+        "en": "I do not know about tomorrow. It is open today, so we will go today.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do they choose?",
+        "choices": [
+          "The library for reading",
+          "The shopping centre for an exam",
+          "A restaurant for a meeting"
+        ],
+        "answer": "The library for reading"
+      },
+      {
+        "type": "detail",
+        "q": "Where do they buy water?",
+        "choices": [
+          "The shop",
+          "The teaching building",
+          "The friend’s home"
+        ],
+        "answer": "The shop"
+      },
+      {
+        "type": "inference",
+        "q": "Why discuss opening rather than assume tomorrow is suitable?",
+        "choices": [
+          "A school holiday may affect access",
+          "Every library closes permanently",
+          "They have already visited tomorrow"
+        ],
+        "answer": "A school holiday may affect access"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "安静",
+        "pinyin": "ān jìng",
+        "meaning": "quiet"
+      },
+      {
+        "hanzi": "湿",
+        "pinyin": "shī",
+        "meaning": "wet"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s1-u26-r",
+    "title": "A place comparison",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the actual reasons for the choice, not a universal ranking.",
+    "lines": [
+      {
+        "zh": "我住在教学楼旁边，今天想去图书馆。",
+        "py": "wǒ zhù zài jiào xué lóu páng biān , jīn tiān xiǎng qù tú shū guǎn .",
+        "en": "I live beside the teaching building and would like to go to the library today."
+      },
+      {
+        "zh": "图书馆比商场安静，商场里人多。",
+        "py": "tú shū guǎn bǐ shāng chǎng ān jìng , shāng chǎng lǐ rén duō .",
+        "en": "The library is quieter than the shopping centre; the shopping centre is crowded."
+      },
+      {
+        "zh": "我去过一次旁边的饭店，菜好吃，可是没有图书馆安静。",
+        "py": "wǒ qù guò yī cì páng biān de fàn diàn , cài hǎo chī , kě shì méi yǒu tú shū guǎn ān jìng .",
+        "en": "I have visited the nearby restaurant once. The food is good, but it is not as quiet as the library."
+      },
+      {
+        "zh": "今天雨很大，地上有水，外面的地不干。",
+        "py": "jīn tiān yǔ hěn dà , dì shang yǒu shuǐ , wài miàn de dì bù gàn .",
+        "en": "There is heavy rain today; water is on the ground and the ground outside is not dry."
+      },
+      {
+        "zh": "走路比坐车慢，所以我们先坐车到商店。",
+        "py": "zǒu lù bǐ zuò chē màn , suǒ yǐ wǒ men xiān zuò chē dào shāng diàn .",
+        "en": "Walking is slower than taking a vehicle, so we will go to the shop by vehicle first."
+      },
+      {
+        "zh": "我很渴，在商店买水，再去读书。",
+        "py": "wǒ hěn kě , zài shāng diàn mǎi shuǐ , zài qù dú shū .",
+        "en": "I am thirsty; I will buy water at the shop, then go and read."
+      },
+      {
+        "zh": "朋友生病请假了，今天在家休息，不等她。",
+        "py": "péng you shēng bìng qǐng jià le , jīn tiān zài jiā xiū xī , bù děng tā .",
+        "en": "Our friend is ill and took leave; she is resting at home today, so we will not wait for her."
+      },
+      {
+        "zh": "学校明天放假，今天图书馆开门，我们今天去。",
+        "py": "xué xiào míng tiān fàng jià , jīn tiān tú shū guǎn kāi mén , wǒ men jīn tiān qù .",
+        "en": "The school has a holiday tomorrow; the library is open today, so we will go today."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Why choose the library today?",
+        "choices": [
+          "It is quiet and known to be open today",
+          "It sells cheap food",
+          "It has no books"
+        ],
+        "answer": "It is quiet and known to be open today"
+      },
+      {
+        "type": "detail",
+        "q": "Why is the friend absent?",
+        "choices": [
+          "She is ill and took leave",
+          "She is at the shopping centre",
+          "She is teaching"
+        ],
+        "answer": "She is ill and took leave"
+      },
+      {
+        "type": "inference",
+        "q": "Does quietness alone settle every practical choice?",
+        "choices": [
+          "No, transport and opening also matter",
+          "Yes, opening never matters",
+          "No one compares quietness"
+        ],
+        "answer": "No, transport and opening also matter"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "图书馆【比】商场安静，商场里人多。",
+          "py": "tú shū guǎn bǐ shāng chǎng ān jìng , shāng chǎng lǐ rén duō .",
+          "en": "The library is quieter than the shopping centre; the shopping centre is crowded."
+        },
+        {
+          "zh": "朋友生病【请假】了，今天在家休息，不等她。",
+          "py": "péng you shēng bìng qǐng jià le , jīn tiān zài jiā xiū xī , bù děng tā .",
+          "en": "Our friend is ill and took leave; she is resting at home today, so we will not wait for her."
+        }
+      ],
+      "bank": [
+        "比",
+        "请假",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "安静",
+        "pinyin": "ān jìng",
+        "meaning": "quiet"
+      },
+      {
+        "hanzi": "人多",
+        "pinyin": "rén duō",
+        "meaning": "crowded"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s1-u26-media",
+      "title": "Not all places do the same job",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse comparing useful places.",
+      "lines": [
+        {
+          "zh": "商场人多，图书馆安静。饭店菜好吃，读书不一样。",
+          "py": "shāng chǎng rén duō , tú shū guǎn ān jìng . fàn diàn cài hǎo chī , dú shū bù yī yàng .",
+          "en": "The shopping centre is crowded; the library is quiet. The restaurant has good food; reading is another matter."
+        },
+        {
+          "zh": "我住教学楼旁边，雨大，地不干。",
+          "py": "wǒ zhù jiào xué lóu páng biān , yǔ dà , dì bù gàn .",
+          "en": "I live beside the teaching building; heavy rain, wet ground."
+        },
+        {
+          "zh": "走路慢，坐车快。商店买水，我很渴。",
+          "py": "zǒu lù màn , zuò chē kuài . shāng diàn mǎi shuǐ , wǒ hěn kě .",
+          "en": "Walking is slow; taking a vehicle is fast. Buy water at the shop; I am thirsty."
+        },
+        {
+          "zh": "朋友生病，请假休息。不等病人，让她好好睡。",
+          "py": "péng you shēng bìng , qǐng jià xiū xī . bù děng bìng rén , ràng tā hǎo hǎo shuì .",
+          "en": "Our friend is ill; leave and rest. Do not wait for her; let her sleep well."
+        },
+        {
+          "zh": "去过一次饭店，没有图书馆安静。",
+          "py": "qù guò yī cì fàn diàn , méi yǒu tú shū guǎn ān jìng .",
+          "en": "Visited the restaurant once; not as quiet as the library."
+        },
+        {
+          "zh": "明天放假，今天开门。选今天，先读书。",
+          "py": "míng tiān fàng jià , jīn tiān kāi mén . xuǎn jīn tiān , xiān dú shū .",
+          "en": "A holiday tomorrow; open today. Choose today and read first."
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Which place is chosen for reading?",
+          "choices": [
+            "The library",
+            "The restaurant",
+            "The shopping centre"
+          ],
+          "answer": "The library"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "安静",
+          "pinyin": "ān jìng",
+          "meaning": "quiet"
+        },
+        {
+          "hanzi": "人多",
+          "pinyin": "rén duō",
+          "meaning": "crowded"
+        },
+        {
+          "hanzi": "让",
+          "pinyin": "ràng",
+          "meaning": "to let; allow"
+        },
+        {
+          "hanzi": "选",
+          "pinyin": "xuǎn",
+          "meaning": "to choose"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s1-u26-t1",
+      "phrase": "s1-u26-w01",
+      "audio": {
+        "zh": "走路没有坐车快。",
+        "py": "zǒu lù méi yǒu zuò chē kuài .",
+        "en": "Walking is not as fast as taking a vehicle."
+      },
+      "statement": "Walking is faster.",
+      "answer": false,
+      "why": "没有…快 is not-as-fast."
+    },
+    {
+      "type": "truefalse",
+      "id": "s1-u26-t2",
+      "phrase": "s1-u26-w16",
+      "audio": {
+        "zh": "学校明天放假。",
+        "py": "xué xiào míng tiān fàng jià .",
+        "en": "The school has a holiday tomorrow."
+      },
+      "statement": "The school holiday is tomorrow.",
+      "answer": true,
+      "why": "明天 gives the day."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u26-t3",
+      "phrase": "s1-u26-w11",
+      "prompt": {
+        "zh": "你想喝水吗？",
+        "py": "nǐ xiǎng hē shuǐ ma ?",
+        "en": "Would you like water?"
+      },
+      "choices": [
+        "想，我很渴。",
+        "我九点下车。",
+        "两本书。"
+      ],
+      "answer": "想，我很渴。",
+      "why": "State the need for water."
+    },
+    {
+      "type": "reply",
+      "id": "s1-u26-t4",
+      "phrase": "s1-u26-w15",
+      "prompt": {
+        "zh": "为什么今天请假？",
+        "py": "wèi shén me jīn tiān qǐng jià ?",
+        "en": "Why take leave today?"
+      },
+      "choices": [
+        "我生病了。",
+        "这本书一百页。",
+        "汽车是蓝色的。"
+      ],
+      "answer": "我生病了。",
+      "why": "Give the reason."
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u26-t5",
+      "phrase": "s1-u26-w05",
+      "line": {
+        "zh": "【商场】没有图书馆安静。",
+        "py": "shāng chǎng méi yǒu tú shū guǎn ān jìng .",
+        "en": "The shopping centre is not as quiet as the library."
+      },
+      "blankPy": "shāng chǎng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s1-u26-t6",
+      "phrase": "s1-u26-w08",
+      "line": {
+        "zh": "走路比坐车【慢】。",
+        "py": "zǒu lù bǐ zuò chē màn .",
+        "en": "Walking is slower than taking a vehicle."
+      },
+      "blankPy": "màn"
+    },
+    {
+      "type": "match",
+      "id": "s1-u26-t7",
+      "phrase": "s1-u26-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The ground here is dry.",
+          "right": {
+            "zh": "这里的地很干。",
+            "py": "zhè lǐ de dì hěn gàn .",
+            "en": "The ground here is dry."
+          }
+        },
+        {
+          "left": "The rain is heavy today.",
+          "right": {
+            "zh": "今天的雨很大。",
+            "py": "jīn tiān de yǔ hěn dà .",
+            "en": "The rain is heavy today."
+          }
+        },
+        {
+          "left": "The patient is resting at home.",
+          "right": {
+            "zh": "病人在家休息。",
+            "py": "bìng rén zài jiā xiū xī .",
+            "en": "The patient is resting at home."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u26-t8",
+      "phrase": "s1-u26-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Taking a vehicle is faster than walking.",
+          "right": {
+            "zh": "坐车比走路快。",
+            "py": "zuò chē bǐ zǒu lù kuài .",
+            "en": "Taking a vehicle is faster than walking."
+          }
+        },
+        {
+          "left": "The teaching building is inside the school.",
+          "right": {
+            "zh": "教学楼在学校里面。",
+            "py": "jiào xué lóu zài xué xiào lǐ miàn .",
+            "en": "The teaching building is inside the school."
+          }
+        },
+        {
+          "left": "I live next to the school.",
+          "right": {
+            "zh": "我住在学校旁边。",
+            "py": "wǒ zhù zài xué xiào páng biān .",
+            "en": "I live next to the school."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s1-u26-t9",
+      "phrase": "s1-u26-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Give me your WeChat contact.",
+          "right": {
+            "zh": "给我你的微信吧。",
+            "py": "gěi wǒ nǐ de wēi xìn ba .",
+            "en": "Give me your WeChat contact."
+          }
+        },
+        {
+          "left": "Eat dinner first, then go to class.",
+          "right": {
+            "zh": "先吃晚饭，再去上课。",
+            "py": "xiān chī wǎn fàn , zài qù shàng kè .",
+            "en": "Eat dinner first, then go to class."
+          }
+        },
+        {
+          "left": "Grandfather and grandmother are both coming.",
+          "right": {
+            "zh": "爷爷和奶奶都来。",
+            "py": "yé ye hé nǎi nai dōu lái .",
+            "en": "Grandfather and grandmother are both coming."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Choosing a place",
+      "natural": {
+        "zh": "图书馆比商场安静，我们去那里吧。",
+        "py": "tú shū guǎn bǐ shāng chǎng ān jìng , wǒ men qù nà lǐ ba .",
+        "en": "The library is quieter than the shopping centre; let us go there."
+      },
+      "note": "Tie the comparison to the shared activity rather than insulting a place."
+    },
+    {
+      "situation": "Respecting an absent friend",
+      "natural": {
+        "zh": "她生病了，今天先休息。",
+        "py": "tā shēng bìng le , jīn tiān xiān xiū xī .",
+        "en": "She is ill; let her rest today."
+      },
+      "note": "Do not diagnose or suggest treatment; this is coordination about attendance."
+    }
+  ],
+  "conversation": {
+    "id": "s1-u26-speak",
+    "title": "Which place is quieter?",
+    "place": "A language-exchange meeting",
+    "context": "Compare two places and choose together.",
+    "goal": "Compare two study places",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "去哪里读书？",
+        "pinyin": "qù nǎ lǐ dú shū ?",
+        "meaning": "Where shall we read?",
+        "intent": "Choose the library",
+        "examples": [
+          "去图书馆吧。"
+        ],
+        "accept": [
+          "^去图书馆吧。[。！？]?$"
+        ]
+      },
+      {
+        "text": "走路快还是坐车快？",
+        "pinyin": "zǒu lù kuài hái shi zuò chē kuài ?",
+        "meaning": "Is walking or taking a vehicle faster?",
+        "intent": "Say taking a vehicle",
+        "examples": [
+          "坐车比走路快。"
+        ],
+        "accept": [
+          "^坐车比走路快。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 一18, 一38. Native check: quietness comparisons, 饭店 restaurant versus hotel context, and referral to a sick friend without repeatedly calling her 病人. 地 is dì ground, not de. Planned retrieval 二26 / 一12 / 一28 / 一17 / 一19: 给我你的微信吧。, 先吃晚饭，再去上课。, 爷爷和奶奶都来。."
+}

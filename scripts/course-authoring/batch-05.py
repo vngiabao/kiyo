@@ -2,7 +2,7 @@
 from common import *
 character_groups.update({
 29:[('北','north'),('东','east'),('南','south'),('西','west'),('后','behind; after'),('左','left'),('右','right'),('旁','beside'),('字','written character')],
-30:[('还','still; also'),('进','to enter'),('渴','thirsty'),('块','piece; yuan classifier'),('树','tree'),('坏','bad; broken'),('着','continuing-state particle'),('条','strip; classifier for long things'),('最','most')],
+30:[('还','to return; also read hái for still or also'),('进','to enter'),('渴','thirsty'),('块','piece; yuan classifier'),('树','tree'),('坏','bad; broken'),('着','continuing-state particle'),('条','strip; classifier for long things'),('最','most')],
 })
 character_contexts.update({'桌':('桌子','table')})
 unit_glosses.update({29:{'入口':'entrance','出口':'exit','门':'door; gate','门口':'at the door; entrance','面向':'to face toward','箭头':'arrow','地图':'map','停车场':'car park','指':'to point; indicate','北门':'north gate','南门':'south gate','位置':'position'},
@@ -63,6 +63,8 @@ match=[('上边',[('地图上边是北。','North is at the top of the map.'),('
 
 u='s1-u30'
 vocabulary_readings[u+':还']='huán'
+character_readings[u+':还']='huán'
+character_notes[u+':还']=' Read huán in 还书 (return a book); read hái in 还在学习 (still studying). The word context determines the reading.'
 dictionary.update({'还你':'huán nǐ','还给':'huán gěi'})
 write(30,'在这里的第一个月',['Write a concrete first-month recap','Invite a neighbour in and make a simple request','Distinguish descriptions from questions and requests'],[
 ('还','to return; give back','trả lại','verb','我明天还你的课本。','I will return your textbook tomorrow.'),
