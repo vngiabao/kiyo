@@ -35,7 +35,7 @@ Open the printed preview URL, normally http://127.0.0.1:4173. Visit once while c
 - Audio-first comprehension, explicit usage notes, retrieval reflection, character recognition, sentence assembly, recording/replay and supported alternatives.
 - Bundled Sayo audio in multiple moods, including dialogue turns in the same voice identity. Audio must finish before an unaided listening response can be submitted. Optional device voices are also available.
 - **Watch and sing**: local video or audio with timed SRT/VTT/LRC captions, subtitle/peek/no-subtitle practice, saved lines, notes and Anki export. Media files are never uploaded. Saved lines and watch history are included in device backups; they are currently local and are not part of cloud sync.
-- **Branding**: Sayo portrait tile, outlined SVG KĪYO wordmark, and the compact 清 browser favicon. The portrait retains the approved raster artwork; the lettering is vector.
+- **Branding**: the approved lowercase “kiyo” signature with Sayo leaning over it, plus a separate waving Sayo portrait for the app icon and browser favicon. PNG artwork is preserved; `/favicon.ico` and the old `/icon.svg` URL also display that portrait.
 - Independent FSRS memories, due reviews, mistake records, pause/resume and an explainable daily plan based on actual attempts.
 - Two four-turn conversation rehearsals, with optional local recording and transparent, limited typed-response matching.
 - Three-pass Media Lab scene: gist, detail and return without text; segment replay, slower audio, local video, SRT captions and A–B loops.

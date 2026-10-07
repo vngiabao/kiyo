@@ -1,11 +1,25 @@
-// Builds public/icon.svg (app icon + favicon) from the 清 stroke data (stroke 4, the top bar of 青, is the blue tone mark), so the
-// icon and the in-app <BrandMark> are the same drawing.
-import { writeFileSync } from "node:fs";
-import glyph from "hanzi-writer-data/清.json";
+// Browser fallback and the old favicon URL both use the approved portrait.
+import { readFileSync, writeFileSync } from "node:fs";
+import assets from "../src/brand-assets.json";
 
-const paths = glyph.strokes
-  .map((d: string, i: number) => `<path d="${d}" fill="${i === 3 ? "#b3d2f5" : "#f0f3f5"}"/>`)
-  .join("");
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><rect width="1024" height="1024" rx="232" fill="#101b2b"/><g transform="translate(112 112) scale(0.78)"><g transform="scale(1,-1) translate(0,-900)">${paths}</g></g></svg>`;
-writeFileSync("public/icon.svg", svg);
-console.log(`Wrote public/icon.svg (${svg.length} bytes)`);
+const png = readFileSync(`public${assets.icon32.src}`);
+// ICO supports a PNG payload; preserve the approved pixels without conversion.
+const directory = Buffer.alloc(22);
+directory.writeUInt16LE(1, 2);
+directory.writeUInt16LE(1, 4);
+directory[6] = assets.icon32.width;
+directory[7] = assets.icon32.height;
+directory.writeUInt16LE(1, 10);
+directory.writeUInt16LE(32, 12);
+directory.writeUInt32LE(png.length, 14);
+directory.writeUInt32LE(directory.length, 18);
+writeFileSync("public/favicon.ico", Buffer.concat([directory, png]));
+
+// Compatibility for older open pages pointing at /icon.svg. This embeds raster
+// artwork in an SVG container; it is not a vector drawing of the character.
+const portrait = readFileSync(`public${assets.icon192.src}`).toString("base64");
+writeFileSync(
+  "public/icon.svg",
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192"><title>Kiyo · Sayo</title><image width="192" height="192" href="data:image/png;base64,${portrait}"/></svg>`,
+);
+console.log("Exported Sayo browser favicon and legacy-URL compatibility icon.");

@@ -14,7 +14,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "prompt",
-      includeAssets: [brandAssets.icon32.src.slice(1)],
+      includeAssets: [brandAssets.icon32.src.slice(1), "favicon.ico", "icon.svg"],
       manifest: {
         name: "Kiyo 清 · Mandarin, crystal clear",
         short_name: "Kiyo",
