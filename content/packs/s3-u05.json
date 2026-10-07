@@ -1,0 +1,1293 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u05",
+    "stage": 2,
+    "order": 69,
+    "title": "Found it at last",
+    "titleZh": "找到文件再说完成",
+    "canDo": [
+      "Separate finding from trying to find",
+      "Use result complements 到、住、走",
+      "Distinguish a readable file from a completed task"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u04"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u05-w01",
+      "hanzi": "存",
+      "pinyin": "cún",
+      "meaning": "to store; keep",
+      "meaningVi": "lưu; giữ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把文件存在这里，再查一次。",
+        "py": "bǎ wén jiàn cún zài zhè lǐ , zài chá yī cì .",
+        "en": "Store the file here and then check again."
+      },
+      "usageNote": "[GF2021:L3:1374] Source entry: 存; cún; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w02",
+      "hanzi": "保存",
+      "pinyin": "bǎo cún",
+      "meaning": "to save; preserve",
+      "meaningVi": "lưu; bảo tồn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "保存以后再打开看看。",
+        "py": "bǎo cún yǐ hòu zài dǎ kāi kàn kàn .",
+        "en": "After saving, open it again to check."
+      },
+      "usageNote": "[GF2021:L3:198] Source entry: 保存; bǎocún; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w03",
+      "hanzi": "保留",
+      "pinyin": "bǎo liú",
+      "meaning": "to retain; keep",
+      "meaningVi": "giữ lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先保留原件，不急着删。",
+        "py": "xiān bǎo liú yuán jiàn , bù jí zhe shān .",
+        "en": "Keep the original first; do not rush to delete it."
+      },
+      "usageNote": "[GF2021:L3:202] Source entry: 保留; bǎoliú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w04",
+      "hanzi": "整理",
+      "pinyin": "zhěng lǐ",
+      "meaning": "to organize; tidy",
+      "meaningVi": "sắp xếp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "整理文件，不是随便改内容。",
+        "py": "zhěng lǐ wén jiàn , bù shì suí biàn gǎi nèi róng .",
+        "en": "Organizing files does not mean changing their content arbitrarily."
+      },
+      "usageNote": "[GF2021:L3:10408] Source entry: 整理; zhěnglǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w05",
+      "hanzi": "整齐",
+      "pinyin": "zhěng qí",
+      "meaning": "neat; orderly",
+      "meaningVi": "gọn gàng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "标题整齐，但还要查内容。",
+        "py": "biāo tí zhěng qí , dàn hái yào chá nèi róng .",
+        "en": "The headings are neat, but the content still needs checking."
+      },
+      "usageNote": "[GF2021:L3:10409] Source entry: 整齐; zhěngqí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w06",
+      "hanzi": "完整",
+      "pinyin": "wán zhěng",
+      "meaning": "complete; intact",
+      "meaningVi": "đầy đủ; nguyên vẹn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这份文件完整，另一份少一页。",
+        "py": "zhè fèn wén jiàn wán zhěng , lìng yī fèn shǎo yī yè .",
+        "en": "This file is complete; the other lacks a page."
+      },
+      "usageNote": "[GF2021:L3:8286] Source entry: 完整; wánzhěng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w07",
+      "hanzi": "文件",
+      "pinyin": "wén jiàn",
+      "meaning": "document; file",
+      "meaningVi": "tài liệu; tệp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "文件在第一个文件夹里。",
+        "py": "wén jiàn zài dì yī gè wén jiàn jiā lǐ .",
+        "en": "The file is in the first folder."
+      },
+      "usageNote": "[GF2021:L3:8455] Source entry: 文件; wénjiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w08",
+      "hanzi": "表格",
+      "pinyin": "biǎo gé",
+      "meaning": "form; table",
+      "meaningVi": "biểu mẫu; bảng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "表格上的日期要核对。",
+        "py": "biǎo gé shàng de rì qī yào hé duì .",
+        "en": "The date on the form needs checking."
+      },
+      "usageNote": "[GF2021:L3:440] Source entry: 表格; biǎogé; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w09",
+      "hanzi": "标题",
+      "pinyin": "biāo tí",
+      "meaning": "title; heading",
+      "meaningVi": "tiêu đề",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "标题相同，内容不一定相同。",
+        "py": "biāo tí xiāng tóng , nèi róng bù yí dìng xiāng tóng .",
+        "en": "Identical titles do not guarantee identical content."
+      },
+      "usageNote": "[GF2021:L3:431] Source entry: 标题; biāotí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w10",
+      "hanzi": "内容",
+      "pinyin": "nèi róng",
+      "meaning": "content",
+      "meaningVi": "nội dung",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先看内容，再判断版本。",
+        "py": "xiān kàn nèi róng , zài pàn duàn bǎn běn .",
+        "en": "Read the content before judging the version."
+      },
+      "usageNote": "[GF2021:L3:5825] Source entry: 内容; nèiróng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w11",
+      "hanzi": "记录",
+      "pinyin": "jì lù",
+      "meaning": "to record; record",
+      "meaningVi": "ghi chép; bản ghi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "记录写的是星期六，不是星期日。",
+        "py": "jì lù xiě de shì xīng qī liù , bù shì xīng qī rì .",
+        "en": "The record says Saturday, not Sunday."
+      },
+      "usageNote": "[GF2021:L3:3788] Source entry: 记录; jìlù; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w12",
+      "hanzi": "证据",
+      "pinyin": "zhèng jù",
+      "meaning": "evidence",
+      "meaningVi": "bằng chứng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "找到文件是证据之一，不是所有结论。",
+        "py": "zhǎo dào wén jiàn shì zhèng jù zhī yī , bù shì suǒ yǒu jié lùn .",
+        "en": "Finding the file is one piece of evidence, not every conclusion."
+      },
+      "usageNote": "[GF2021:L3:10437] Source entry: 证据; zhèngjù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w13",
+      "hanzi": "证明",
+      "pinyin": "zhèng míng",
+      "meaning": "to prove; proof",
+      "meaningVi": "chứng minh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "日期可以证明版本，不证明活动已经举行。",
+        "py": "rì qī kě yǐ zhèng míng bǎn běn , bù zhèng míng huó dòng yǐ jīng jǔ xíng .",
+        "en": "A date may establish the version, not that an event already happened."
+      },
+      "usageNote": "[GF2021:L3:10438] Source entry: 证明; zhèngmíng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w14",
+      "hanzi": "具体",
+      "pinyin": "jù tǐ",
+      "meaning": "specific; concrete",
+      "meaningVi": "cụ thể",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "请说具体哪一页。",
+        "py": "qǐng shuō jù tǐ nǎ yī yè .",
+        "en": "Please specify which page."
+      },
+      "usageNote": "[GF2021:L3:4501] Source entry: 具体; jùtǐ; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w15",
+      "hanzi": "明确",
+      "pinyin": "míng què",
+      "meaning": "clear; definite",
+      "meaningVi": "rõ ràng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "任务明确，才知道完成什么。",
+        "py": "rèn wù míng què , cái zhī dào wán chéng shén me .",
+        "en": "A clear task tells us what needs completing."
+      },
+      "usageNote": "[GF2021:L3:5644] Source entry: 明确; míngquè; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w16",
+      "hanzi": "错误",
+      "pinyin": "cuò wù",
+      "meaning": "error; mistaken",
+      "meaningVi": "lỗi; sai",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "发现错误就先记下来。",
+        "py": "fā xiàn cuò wù jiù xiān jì xià lái .",
+        "en": "Record an error when it is found."
+      },
+      "usageNote": "[GF2021:L3:1391] Source entry: 错误; cuòwù; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w17",
+      "hanzi": "修改",
+      "pinyin": "xiū gǎi",
+      "meaning": "to revise; modify",
+      "meaningVi": "sửa đổi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "修改日期前先问原来的意思。",
+        "py": "xiū gǎi rì qī qián xiān wèn yuán lái de yì si .",
+        "en": "Ask the intended meaning before revising the date."
+      },
+      "usageNote": "[GF2021:L3:9131] Source entry: 修改; xiūgǎi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w18",
+      "hanzi": "修",
+      "pinyin": "xiū",
+      "meaning": "to repair; fix",
+      "meaningVi": "sửa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先修好门，再搬文件。",
+        "py": "xiān xiū hǎo mén , zài bān wén jiàn .",
+        "en": "Fix the door before moving the documents."
+      },
+      "usageNote": "[GF2021:L3:9125] Source entry: 修; xiū; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w19",
+      "hanzi": "处理",
+      "pinyin": "chǔ lǐ",
+      "meaning": "to handle; deal with",
+      "meaningVi": "xử lý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "处理问题，先看具体内容。",
+        "py": "chǔ lǐ wèn tí , xiān kàn jù tǐ nèi róng .",
+        "en": "Before handling the problem, examine the details."
+      },
+      "usageNote": "[GF2021:L3:1191] Source entry: 处理; chǔlǐ; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w20",
+      "hanzi": "解决",
+      "pinyin": "jiě jué",
+      "meaning": "to solve; resolve",
+      "meaningVi": "giải quyết",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "找到原因，不等于已经解决。",
+        "py": "zhǎo dào yuán yīn , bù děng yú yǐ jīng jiě jué .",
+        "en": "Finding the cause does not mean solving it."
+      },
+      "usageNote": "[GF2021:L3:4214] Source entry: 解决; jiějué; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w21",
+      "hanzi": "达到",
+      "pinyin": "dá dào",
+      "meaning": "to reach; attain",
+      "meaningVi": "đạt tới",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "结果还没达到标准。",
+        "py": "jié guǒ hái méi dá dào biāo zhǔn .",
+        "en": "The result has not yet reached the standard."
+      },
+      "usageNote": "[GF2021:L3:1402] Source entry: 达到; dá∥dào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u05-w22",
+      "hanzi": "结束",
+      "pinyin": "jié shù",
+      "meaning": "to end; finish",
+      "meaningVi": "kết thúc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "时间结束了，任务还没完成。",
+        "py": "shí jiān jié shù le , rèn wù hái méi wán chéng .",
+        "en": "The time is up, but the task is not finished."
+      },
+      "usageNote": "[GF2021:L3:4197] Source entry: 结束; jiéshù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "存",
+      "pinyin": "cún",
+      "meaning": "to store; exist",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "存",
+          "role": "whole",
+          "gloss": "to store; exist"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 存 in 存 / 保存. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "存",
+          "p": "cún",
+          "m": "to store; keep"
+        },
+        {
+          "w": "保存",
+          "p": "bǎo cún",
+          "m": "to save"
+        }
+      ]
+    },
+    {
+      "hanzi": "整",
+      "pinyin": "zhěng",
+      "meaning": "whole; tidy",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "整",
+          "role": "whole",
+          "gloss": "whole; tidy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 整 in 整理 / 整齐. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "整理",
+          "p": "zhěng lǐ",
+          "m": "to organize; tidy"
+        },
+        {
+          "w": "整齐",
+          "p": "zhěng qí",
+          "m": "neat; orderly"
+        }
+      ]
+    },
+    {
+      "hanzi": "标",
+      "pinyin": "biāo",
+      "meaning": "mark; standard",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "标",
+          "role": "whole",
+          "gloss": "mark; standard"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 标 in 标题 / 标准. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "标题",
+          "p": "biāo tí",
+          "m": "title; heading"
+        },
+        {
+          "w": "标准",
+          "p": "biāo zhǔn",
+          "m": "standard; criterion"
+        }
+      ]
+    },
+    {
+      "hanzi": "证",
+      "pinyin": "zhèng",
+      "meaning": "evidence; certify",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "证",
+          "role": "whole",
+          "gloss": "evidence; certify"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 证 in 证据 / 证明. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "证据",
+          "p": "zhèng jù",
+          "m": "evidence"
+        },
+        {
+          "w": "证明",
+          "p": "zhèng míng",
+          "m": "to establish; prove"
+        }
+      ]
+    },
+    {
+      "hanzi": "据",
+      "pinyin": "jù",
+      "meaning": "according to; evidence",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "据",
+          "role": "whole",
+          "gloss": "according to; evidence"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 据 in 证据 / 据此. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "证据",
+          "p": "zhèng jù",
+          "m": "evidence"
+        },
+        {
+          "w": "据此",
+          "p": "jù cǐ",
+          "m": "on this basis"
+        }
+      ]
+    },
+    {
+      "hanzi": "误",
+      "pinyin": "wù",
+      "meaning": "error; mistaken",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "误",
+          "role": "whole",
+          "gloss": "error; mistaken"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 误 in 错误. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "错误",
+          "p": "cuò wù",
+          "m": "error; mistaken"
+        }
+      ]
+    },
+    {
+      "hanzi": "修",
+      "pinyin": "xiū",
+      "meaning": "to repair; revise",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "修",
+          "role": "whole",
+          "gloss": "to repair; revise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 修 in 修改 / 修. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "修改",
+          "p": "xiū gǎi",
+          "m": "to revise; modify"
+        },
+        {
+          "w": "修",
+          "p": "xiū",
+          "m": "to repair; fix"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u05-g三06",
+      "pattern": "动补式离合：打开 / 看见 / 离开 / 完成",
+      "purpose": "Interpret inserted potential material and lexical limits",
+      "explanation": "打开 can contrast with 打不开; 看见 with 看得见/看不见; 离开 with 离不开, often a dependence meaning; 完成 with 完不成. These words are not noun-object compounds like 帮忙 and do not freely accept an object between their syllables. Read the complete construction, not just a separated character. 打不开门 describes inability to open it, not proof nobody tried.",
+      "examples": [
+        {
+          "zh": "这份文件打得开。",
+          "py": "zhè fèn wén jiàn dǎ dé kāi .",
+          "en": "This file can be opened."
+        },
+        {
+          "zh": "字太小，我看不见。",
+          "py": "zì tài xiǎo , wǒ kàn bú jiàn .",
+          "en": "The writing is too small for me to see."
+        },
+        {
+          "zh": "今天完不成，明天继续。",
+          "py": "jīn tiān wán bù chéng , míng tiān jì xù .",
+          "en": "Cannot finish today; continue tomorrow."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我打开了，所以任务都完成了。",
+          "right": "我打开了文件，但任务还没完成。",
+          "why": "Opening a file is distinct from finishing the task."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u05-g三46",
+      "pattern": "动词 + 到 / 住 / 走：结果",
+      "purpose": "Identify achieved finding, retention or removal",
+      "explanation": "找文件 names searching; 找到文件 asserts successful finding. 记住 emphasizes retaining something, and 拿走 removes it from a location. 没找到 negates achieved finding, not necessarily the attempt. Do not treat all complements as interchangeable: 看到了 notices an object, 看懂了 understands its meaning.",
+      "examples": [
+        {
+          "zh": "找了十分钟，终于找到了。",
+          "py": "zhǎo le shí fēn zhōng , zhōng yú zhǎo dào le .",
+          "en": "Searched for ten minutes and finally found it."
+        },
+        {
+          "zh": "我记住日期了。",
+          "py": "wǒ jì zhù rì qī le .",
+          "en": "I have retained the date."
+        },
+        {
+          "zh": "她拿走原件，留下复印件。",
+          "py": "tā ná zǒu yuán jiàn , liú xià fù yìn jiàn .",
+          "en": "She took the original away and left the photocopy."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我找了，所以一定找到了。",
+          "right": "我找了，但还没找到。",
+          "why": "An attempted action does not guarantee the resulting achievement."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u05-d",
+    "title": "One file, one missing check",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what has been achieved and what remains.",
+    "lines": [
+      {
+        "zh": "文件找到了吗？",
+        "py": "wén jiàn zhǎo dào le ma ?",
+        "en": "Have you found the file?",
+        "speaker": "a"
+      },
+      {
+        "zh": "找到了，在第一个文件夹里。",
+        "py": "zhǎo dào le , zài dì yī gè wén jiàn jiā lǐ .",
+        "en": "Yes, in the first folder.",
+        "speaker": "b"
+      },
+      {
+        "zh": "标题和昨天一样，内容也一样吗？",
+        "py": "biāo tí hé zuó tiān yī yàng , nèi róng yě yī yàng ma ?",
+        "en": "The title is the same as yesterday; is the content too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不一样。这份有三页，另一份只有两页。",
+        "py": "bù yī yàng . zhè fèn yǒu sān yè , lìng yī fèn zhǐ yǒu liǎng yè .",
+        "en": "No. This one has three pages and the other only two.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那任务完成了吗？",
+        "py": "nà rèn wù wán chéng le ma ?",
+        "en": "Then is the task complete?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没。表格上的日期要再核对。",
+        "py": "hái méi . biǎo gé shàng de rì qī yào zài hé duì .",
+        "en": "Not yet. The date on the form needs checking again.",
+        "speaker": "b"
+      },
+      {
+        "zh": "先保留原件，修改后保存，再打开看看。",
+        "py": "xiān bǎo liú yuán jiàn , xiū gǎi hòu bǎo cún , zài dǎ kāi kàn kàn .",
+        "en": "Keep the original; revise, save and reopen to check.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，找到不等于完成，整齐也不等于没错误。",
+        "py": "hǎo , zhǎo dào bù děng yú wán chéng , zhěng qí yě bù děng yú méi cuò wù .",
+        "en": "Okay; found does not mean finished, and neat does not mean error-free.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What distinction matters?",
+        "choices": [
+          "Finding and finishing are separate",
+          "Matching titles prove matching content",
+          "Neat headings prove no error"
+        ],
+        "answer": "Finding and finishing are separate"
+      },
+      {
+        "type": "detail",
+        "q": "How many pages does the found file have?",
+        "choices": [
+          "Three",
+          "Two",
+          "One"
+        ],
+        "answer": "Three"
+      },
+      {
+        "type": "inference",
+        "q": "Is the date check complete?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only because the file opens"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "文件夹",
+        "pinyin": "wén jiàn jiā",
+        "meaning": "folder"
+      },
+      {
+        "hanzi": "打开",
+        "pinyin": "dǎ kāi",
+        "meaning": "to open"
+      },
+      {
+        "hanzi": "原件",
+        "pinyin": "yuán jiàn",
+        "meaning": "original document"
+      },
+      {
+        "hanzi": "核对",
+        "pinyin": "hé duì",
+        "meaning": "to check against"
+      },
+      {
+        "hanzi": "保存",
+        "pinyin": "bǎo cún",
+        "meaning": "to save"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u05-r",
+    "title": "A careful file record",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the remaining check before reporting completion.",
+    "lines": [
+      {
+        "zh": "找了十分钟，文件终于找到了。",
+        "py": "zhǎo le shí fēn zhōng , wén jiàn zhōng yú zhǎo dào le .",
+        "en": "After ten minutes of searching, the file was finally found."
+      },
+      {
+        "zh": "文件完整，有三页，另一份少一页。",
+        "py": "wén jiàn wán zhěng , yǒu sān yè , lìng yī fèn shǎo yī yè .",
+        "en": "The file is complete with three pages; the other lacks a page."
+      },
+      {
+        "zh": "标题一样，内容不同，不能凭标题判断。",
+        "py": "biāo tí yī yàng , nèi róng bù tóng , bù néng píng biāo tí pàn duàn .",
+        "en": "The titles match but the contents differ; do not judge from the title."
+      },
+      {
+        "zh": "文件打得开，也看得见字，但日期还要核对。",
+        "py": "wén jiàn dǎ dé kāi , yě kàn dé jiàn zì , dàn rì qī hái yào hé duì .",
+        "en": "The file can open and its writing can be seen, but its date still needs checking."
+      },
+      {
+        "zh": "原件先保留，不因为整齐就删去。",
+        "py": "yuán jiàn xiān bǎo liú , bù yīn wèi zhěng qí jiù shān qù .",
+        "en": "Retain the original; do not remove it merely because things are neat."
+      },
+      {
+        "zh": "修改后保存，再打开检查具体内容。",
+        "py": "xiū gǎi hòu bǎo cún , zài dǎ kāi jiǎn chá jù tǐ nèi róng .",
+        "en": "After revision, save and reopen to check the actual content."
+      },
+      {
+        "zh": "记住日期是学习结果，不是活动已举行的证明。",
+        "py": "jì zhù rì qī shì xué xí jié guǒ , bù shì huó dòng yǐ jǔ xíng de zhèng míng .",
+        "en": "Remembering the date is a learning result, not proof the event occurred."
+      },
+      {
+        "zh": "时间结束时任务未完成，就如实记录没完成。",
+        "py": "shí jiān jié shù shí rèn wù wèi wán chéng , jiù rú shí jì lù méi wán chéng .",
+        "en": "If the task is unfinished when time ends, record it honestly as unfinished."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note recommend?",
+        "choices": [
+          "Checking content and reporting actual status",
+          "Deleting every original",
+          "Calling a reopened file a completed event"
+        ],
+        "answer": "Checking content and reporting actual status"
+      },
+      {
+        "type": "detail",
+        "q": "What remains to check?",
+        "choices": [
+          "The date",
+          "The existence of the three pages",
+          "Whether a title exists"
+        ],
+        "answer": "The date"
+      },
+      {
+        "type": "inference",
+        "q": "Does remembering a date prove the event occurred?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only after ten minutes"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "文件打得开，也看得见字，但【日期】还要核对。",
+          "py": "wén jiàn dǎ dé kāi , yě kàn dé jiàn zì , dàn rì qī hái yào hé duì .",
+          "en": "The file can open and its writing can be seen, but its date still needs checking."
+        },
+        {
+          "zh": "【原件】先保留，不因为整齐就删去。",
+          "py": "yuán jiàn xiān bǎo liú , bù yīn wèi zhěng qí jiù shān qù .",
+          "en": "Retain the original; do not remove it merely because things are neat."
+        }
+      ],
+      "bank": [
+        "日期",
+        "原件",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "打开",
+        "pinyin": "dǎ kāi",
+        "meaning": "to open"
+      },
+      {
+        "hanzi": "原件",
+        "pinyin": "yuán jiàn",
+        "meaning": "original document"
+      },
+      {
+        "hanzi": "核对",
+        "pinyin": "hé duì",
+        "meaning": "to check against"
+      },
+      {
+        "hanzi": "保存",
+        "pinyin": "bǎo cún",
+        "meaning": "to save"
+      },
+      {
+        "hanzi": "删去",
+        "pinyin": "shān qù",
+        "meaning": "to remove"
+      },
+      {
+        "hanzi": "凭",
+        "pinyin": "píng",
+        "meaning": "on the basis of"
+      },
+      {
+        "hanzi": "未",
+        "pinyin": "wèi",
+        "meaning": "not yet"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u05-media",
+      "title": "The title tried its best",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a tidy file and an untidy assumption.",
+      "lines": [
+        {
+          "zh": "标题这么整齐，错误应该都走了吧？",
+          "py": "biāo tí zhè me zhěng qí , cuò wù yīng gāi dōu zǒu le ba ?",
+          "en": "The title is so neat; surely all the errors left?",
+          "speaker": "a"
+        },
+        {
+          "zh": "错误不会看标题就自己拿包走。",
+          "py": "cuò wù bù huì kàn biāo tí jiù zì jǐ ná bāo zǒu .",
+          "en": "Errors do not pack up and leave on seeing a title.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我找到文件，还不算完成？",
+          "py": "nà wǒ zhǎo dào wén jiàn , hái bù suàn wán chéng ?",
+          "en": "Then finding the file does not count as finishing?",
+          "speaker": "a"
+        },
+        {
+          "zh": "找到是找到，日期还没查。",
+          "py": "zhǎo dào shì zhǎo dào , rì qī hái méi chá .",
+          "en": "Found means found; the date has not been checked.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，先处理这一页。",
+          "py": "hǎo , xiān chǔ lǐ zhè yī yè .",
+          "en": "Okay, handle this page first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次记录，比标题可靠。",
+          "py": "zhè cì jì lù , bǐ biāo tí kě kào .",
+          "en": "This time the record is more reliable than the title.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What assumption is corrected?",
+          "choices": [
+            "Neat appearance does not establish correctness",
+            "Every file lacks a date",
+            "Finding a file is impossible"
+          ],
+          "answer": "Neat appearance does not establish correctness"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u05-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "整理文件，不是随便改内容。",
+          "py": "zhěng lǐ wén jiàn , bù shì suí biàn gǎi nèi róng .",
+          "en": "Organizing files does not mean changing their content arbitrarily."
+        },
+        {
+          "zh": "整理文件时，把旧日期和新日期分开。",
+          "py": "zhěng lǐ wén jiàn shí , bǎ jiù rì qī hé xīn rì qī fēn kāi .",
+          "en": "When organizing files, separate old and new dates."
+        },
+        {
+          "zh": "表格上的日期要核对。",
+          "py": "biǎo gé shàng de rì qī yào hé duì .",
+          "en": "The date on the form needs checking."
+        },
+        {
+          "zh": "找到文件是证据之一，不是所有结论。",
+          "py": "zhǎo dào wén jiàn shì zhèng jù zhī yī , bù shì suǒ yǒu jié lùn .",
+          "en": "Finding the file is one piece of evidence, not every conclusion."
+        },
+        {
+          "zh": "图片没有日期，不能当今天活动的证据。",
+          "py": "tú piàn méi yǒu rì qī , bù néng dāng jīn tiān huó dòng de zhèng jù .",
+          "en": "An image without a date cannot serve as evidence for today’s event."
+        },
+        {
+          "zh": "日期可以证明版本，不证明活动已经举行。",
+          "py": "rì qī kě yǐ zhèng míng bǎn běn , bù zhèng míng huó dòng yǐ jīng jǔ xíng .",
+          "en": "A date may establish the version, not that an event already happened."
+        },
+        {
+          "zh": "任务明确，才知道完成什么。",
+          "py": "rèn wù míng què , cái zhī dào wán chéng shén me .",
+          "en": "A clear task tells us what needs completing."
+        },
+        {
+          "zh": "信息还不明确，先别发给所有人。",
+          "py": "xìn xī hái bù míng què , xiān bié fā gěi suǒ yǒu rén .",
+          "en": "The information remains unclear; do not send it to everyone yet."
+        },
+        {
+          "zh": "处理问题，先看具体内容。",
+          "py": "chǔ lǐ wèn tí , xiān kàn jù tǐ nèi róng .",
+          "en": "Before handling the problem, examine the details."
+        },
+        {
+          "zh": "找到原因，不等于已经解决。",
+          "py": "zhǎo dào yuán yīn , bù děng yú yǐ jīng jiě jué .",
+          "en": "Finding the cause does not mean solving it."
+        },
+        {
+          "zh": "解决开门问题以后，再核对日期。",
+          "py": "jiě jué kāi mén wèn tí yǐ hòu , zài hé duì rì qī .",
+          "en": "After resolving the opening problem, check the date."
+        },
+        {
+          "zh": "结果还没达到标准。",
+          "py": "jié guǒ hái méi dá dào biāo zhǔn .",
+          "en": "The result has not yet reached the standard."
+        },
+        {
+          "zh": "只找到文件，还没达到核对完成的目标。",
+          "py": "zhǐ zhǎo dào wén jiàn , hái méi dá dào hé duì wán chéng de mù biāo .",
+          "en": "Finding the file alone has not achieved the goal of completed checking."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "版本",
+          "pinyin": "bǎn běn",
+          "meaning": "version"
+        },
+        {
+          "hanzi": "核对",
+          "pinyin": "hé duì",
+          "meaning": "to check against"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u05-t1",
+      "phrase": "s3-u05-w06",
+      "audio": {
+        "zh": "这份三页，另一份少一页。",
+        "py": "zhè fèn sān yè , lìng yī fèn shǎo yī yè .",
+        "en": "This has three pages; the other lacks one."
+      },
+      "statement": "The other has all three pages.",
+      "answer": false,
+      "why": "One is missing."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u05-t2",
+      "phrase": "s3-u05-w21",
+      "audio": {
+        "zh": "日期还没核对，任务未完成。",
+        "py": "rì qī hái méi hé duì , rèn wù wèi wán chéng .",
+        "en": "The date is unchecked and the task unfinished."
+      },
+      "statement": "The task remains incomplete.",
+      "answer": true,
+      "why": "未完成 states the result."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u05-t3",
+      "phrase": "s3-u05-w09",
+      "prompt": {
+        "zh": "标题一样，内容也一定一样吗？",
+        "py": "biāo tí yī yàng , nèi róng yě yí dìng yī yàng ma ?",
+        "en": "Do identical titles guarantee identical content?"
+      },
+      "choices": [
+        "不一定，要看内容。",
+        "一定，标题就是所有证据。",
+        "完成就是打不开。"
+      ],
+      "answer": "不一定，要看内容。",
+      "why": "Check the actual contents."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u05-t4",
+      "phrase": "s3-u05-w03",
+      "prompt": {
+        "zh": "修改之前，原件怎么办？",
+        "py": "xiū gǎi zhī qián , yuán jiàn zěn me bàn ?",
+        "en": "What about the original before revision?"
+      },
+      "choices": [
+        "先保留，修改后再核对。",
+        "先删，保证都正确。",
+        "把日期当颜色。"
+      ],
+      "answer": "先保留，修改后再核对。",
+      "why": "Retain the source for comparison."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u05-t5",
+      "phrase": "s3-u05-w02",
+      "line": {
+        "zh": "修改后【保存】，再打开检查。",
+        "py": "xiū gǎi hòu bǎo cún , zài dǎ kāi jiǎn chá .",
+        "en": "After revision, save and reopen to check."
+      },
+      "blankPy": "bǎo cún"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u05-t6",
+      "phrase": "s3-u05-w14",
+      "line": {
+        "zh": "请说【具体】哪一页。",
+        "py": "qǐng shuō jù tǐ nǎ yī yè .",
+        "en": "Specify which page."
+      },
+      "blankPy": "jù tǐ"
+    },
+    {
+      "type": "match",
+      "id": "s3-u05-t7",
+      "phrase": "s3-u05-w11",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Successfully find the file.",
+          "right": {
+            "zh": "找到文件。",
+            "py": "zhǎo dào wén jiàn .",
+            "en": "Successfully find the file."
+          }
+        },
+        {
+          "left": "Retain the date.",
+          "right": {
+            "zh": "记住日期。",
+            "py": "jì zhù rì qī .",
+            "en": "Retain the date."
+          }
+        },
+        {
+          "left": "Take the original away.",
+          "right": {
+            "zh": "拿走原件。",
+            "py": "ná zǒu yuán jiàn .",
+            "en": "Take the original away."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u05-t8",
+      "phrase": "s3-u05-w21",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Time ended with the task unfinished.",
+          "right": {
+            "zh": "时间结束，任务未完成。",
+            "py": "shí jiān jié shù , rèn wù wèi wán chéng .",
+            "en": "Time ended with the task unfinished."
+          }
+        },
+        {
+          "left": "The file is intact with three pages.",
+          "right": {
+            "zh": "文件完整，有三页。",
+            "py": "wén jiàn wán zhěng , yǒu sān yè .",
+            "en": "The file is intact with three pages."
+          }
+        },
+        {
+          "left": "The content has an error.",
+          "right": {
+            "zh": "内容有错误。",
+            "py": "nèi róng yǒu cuò wù .",
+            "en": "The content has an error."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u05-t9",
+      "phrase": "s3-u05-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Because responsibilities were clear, the work was not duplicated.",
+          "right": {
+            "zh": "因为分工清楚，所以没有重复做。",
+            "py": "yīn wèi fēn gōng qīng chǔ , suǒ yǐ méi yǒu chóng fù zuò .",
+            "en": "Because responsibilities were clear, the work was not duplicated."
+          }
+        },
+        {
+          "left": "Everyone first checks their own task.",
+          "right": {
+            "zh": "每个人都先看自己的任务。",
+            "py": "měi gè rén dōu xiān kàn zì jǐ de rèn wù .",
+            "en": "Everyone first checks their own task."
+          }
+        },
+        {
+          "left": "When help is needed, first ask whether the other person is free.",
+          "right": {
+            "zh": "需要帮忙，先问对方有没有空。",
+            "py": "xū yào bāng máng , xiān wèn duì fāng yǒu méi yǒu kōng .",
+            "en": "When help is needed, first ask whether the other person is free."
+          }
+        },
+        {
+          "left": "Anyone may ask; already having the answer is unnecessary.",
+          "right": {
+            "zh": "任何人都可以问，不必已经有答案。",
+            "py": "rèn hé rén dōu kě yǐ wèn , bù bì yǐ jīng yǒu dá àn .",
+            "en": "Anyone may ask; already having the answer is unnecessary."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Report partial completion",
+      "natural": {
+        "zh": "文件找到了，日期还没核对。",
+        "py": "wén jiàn zhǎo dào le , rì qī hái méi hé duì .",
+        "en": "The file is found; the date is not checked yet."
+      },
+      "note": "Report both achieved and pending results."
+    },
+    {
+      "situation": "Ask a specific question",
+      "natural": {
+        "zh": "请说具体哪一页有错误。",
+        "py": "qǐng shuō jù tǐ nǎ yī yè yǒu cuò wù .",
+        "en": "Specify which page contains the error."
+      },
+      "note": "Avoid inferring correctness from appearance."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u05-speak",
+    "title": "Found it at last",
+    "place": "A language-exchange meeting",
+    "context": "Report finding something and completing an action.",
+    "goal": "Separate finding from trying to find",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "任务完成了吗？",
+        "pinyin": "rèn wù wán chéng le ma ?",
+        "meaning": "Is the task complete?",
+        "intent": "State the remaining check",
+        "examples": [
+          "还没，日期要核对。"
+        ],
+        "accept": [
+          "^还没，日期要核对。[。！？]?$"
+        ]
+      },
+      {
+        "text": "文件在哪里？",
+        "pinyin": "wén jiàn zài nǎ lǐ ?",
+        "meaning": "Where is the file?",
+        "intent": "Give the stated location",
+        "examples": [
+          "在第一个文件夹里。"
+        ],
+        "accept": [
+          "^在第一个文件夹里。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三06, 三46. Native check: 打得开/看不见/离不开/完不成 potential forms versus noun-object separables; 到/住/走 achieved results; 文件/纪录/记录 distinction and the title-personification joke. No actual learner file is modified. Native review pending. Planned retrieval 二68 / 三04 / 三08: 因为分工清楚，所以没有重复做。, 每个人都先看自己的任务。, 需要帮忙，先问对方有没有空。, 任何人都可以问，不必已经有答案。."
+}

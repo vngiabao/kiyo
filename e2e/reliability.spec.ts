@@ -223,6 +223,16 @@ test("installed production shell, routes and bundled audio work offline", async 
   await expect(
     page.getByRole("heading", { name: "Before they leave." }),
   ).toBeVisible();
+  await context.setOffline(false);
+  const callbackPath = "/cdn-cgi/access/authorized?kiyo-test";
+  await page.route(`**${callbackPath}`, async (route) => route.fulfill({
+    status: 200,
+    contentType: "text/html",
+    body: "<h1>Access callback reached the network</h1>",
+  }));
+  const callback = await page.goto(callbackPath);
+  await expect(page.getByRole("heading", { name: "Access callback reached the network" })).toBeVisible();
+  expect(callback?.fromServiceWorker()).toBe(false);
 });
 
 test("complete beginner lesson saves a session and starts the next lesson", async ({

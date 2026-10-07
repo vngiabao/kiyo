@@ -1,0 +1,1232 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u07",
+    "stage": 2,
+    "order": 71,
+    "title": "A little for each person",
+    "titleZh": "一张一张先分好",
+    "canDo": [
+      "Read classifier repetition as distribution or sequence",
+      "Distinguish the total from each person’s allocation",
+      "Keep a payment or offer separate from completion"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u06"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u07-w01",
+      "hanzi": "丰富",
+      "pinyin": "fēng fù",
+      "meaning": "rich; plentiful; varied",
+      "meaningVi": "phong phú",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "内容丰富，也先选一段。",
+        "py": "nèi róng fēng fù , yě xiān xuǎn yī duàn .",
+        "en": "The content is varied; still choose one passage first."
+      },
+      "usageNote": "[GF2021:L3:2380] Source entry: 丰富; fēngfù; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w02",
+      "hanzi": "富",
+      "pinyin": "fù",
+      "meaning": "rich; wealthy",
+      "meaningVi": "giàu",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "富不富不是我们分纸的标准。",
+        "py": "fù bù fù bù shì wǒ men fēn zhǐ de biāo zhǔn .",
+        "en": "Wealth is not our criterion for distributing paper."
+      },
+      "usageNote": "[GF2021:L3:2520] Source entry: 富; fù; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w03",
+      "hanzi": "缺",
+      "pinyin": "quē",
+      "meaning": "to lack; be short of",
+      "meaningVi": "thiếu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "还缺两张纸。",
+        "py": "hái quē liǎng zhāng zhǐ .",
+        "en": "Two sheets are still missing."
+      },
+      "usageNote": "[GF2021:L3:6629] Source entry: 缺; quē; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w04",
+      "hanzi": "缺少",
+      "pinyin": "quē shǎo",
+      "meaning": "to lack; be short of",
+      "meaningVi": "thiếu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "缺少信息，先问清楚。",
+        "py": "quē shǎo xìn xī , xiān wèn qīng chǔ .",
+        "en": "If information is missing, clarify it first."
+      },
+      "usageNote": "[GF2021:L3:6633] Source entry: 缺少; quēshǎo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w05",
+      "hanzi": "数量",
+      "pinyin": "shù liàng",
+      "meaning": "quantity; number",
+      "meaningVi": "số lượng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "数量是六张，不是每人六张。",
+        "py": "shù liàng shì liù zhāng , bù shì měi rén liù zhāng .",
+        "en": "The quantity is six sheets, not six per person."
+      },
+      "usageNote": "[GF2021:L3:7499] Source entry: 数量; shùliàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w06",
+      "hanzi": "满足",
+      "pinyin": "mǎn zú",
+      "meaning": "to satisfy; meet",
+      "meaningVi": "đáp ứng; thỏa mãn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "六张可以满足六个人的需要。",
+        "py": "liù zhāng kě yǐ mǎn zú liù gè rén de xū yào .",
+        "en": "Six sheets can meet six people’s need."
+      },
+      "usageNote": "[GF2021:L3:5421] Source entry: 满足; mǎnzú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w07",
+      "hanzi": "分别",
+      "pinyin": "fēn bié",
+      "meaning": "separately; respectively",
+      "meaningVi": "riêng; lần lượt",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "两组分别拿三张。",
+        "py": "liǎng zǔ fēn bié ná sān zhāng .",
+        "en": "The two groups each take three sheets."
+      },
+      "usageNote": "[GF2021:L3:2331] Source entry: 分别; fēnbié; 动、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w08",
+      "hanzi": "方式",
+      "pinyin": "fāng shì",
+      "meaning": "way; method",
+      "meaningVi": "cách thức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "分的方式是一人一张。",
+        "py": "fēn de fāng shì shì yī rén yī zhāng .",
+        "en": "The distribution method is one sheet per person."
+      },
+      "usageNote": "[GF2021:L3:2245] Source entry: 方式; fāngshì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w09",
+      "hanzi": "配",
+      "pinyin": "pèi",
+      "meaning": "to match; allocate; equip",
+      "meaningVi": "phối; cấp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "给每组配两支笔。",
+        "py": "gěi měi zǔ pèi liǎng zhī bǐ .",
+        "en": "Equip each group with two pens."
+      },
+      "usageNote": "[GF2021:L3:6014] Source entry: 配; pèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w10",
+      "hanzi": "配合",
+      "pinyin": "pèi hé",
+      "meaning": "to cooperate; coordinate",
+      "meaningVi": "phối hợp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你递纸，我配合记数量。",
+        "py": "nǐ dì zhǐ , wǒ pèi hé jì shù liàng .",
+        "en": "You pass the sheets; I cooperate by recording quantities."
+      },
+      "usageNote": "[GF2021:L3:6016] Source entry: 配合; pèihé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w11",
+      "hanzi": "齐",
+      "pinyin": "qí",
+      "meaning": "complete; all present; even",
+      "meaningVi": "đủ; đều",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "纸齐了，人数还没确认。",
+        "py": "zhǐ qí le , rén shù hái méi què rèn .",
+        "en": "The sheets are all present; attendance is still unconfirmed."
+      },
+      "usageNote": "[GF2021:L3:6214] Source entry: 齐; qí; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w12",
+      "hanzi": "整",
+      "pinyin": "zhěng",
+      "meaning": "whole; entire",
+      "meaningVi": "toàn; nguyên",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "整本书不是只看标题。",
+        "py": "zhěng běn shū bù shì zhǐ kàn biāo tí .",
+        "en": "The whole book means more than reading the title."
+      },
+      "usageNote": "[GF2021:L3:10403] Source entry: 整; zhěng; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w13",
+      "hanzi": "整个",
+      "pinyin": "zhěng gè",
+      "meaning": "the whole; entire",
+      "meaningVi": "toàn bộ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "整个小组有六个人。",
+        "py": "zhěng gè xiǎo zǔ yǒu liù gè rén .",
+        "en": "The whole group has six people."
+      },
+      "usageNote": "[GF2021:L3:10405] Source entry: 整个; zhěnggè; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w14",
+      "hanzi": "整体",
+      "pinyin": "zhěng tǐ",
+      "meaning": "whole; overall entity",
+      "meaningVi": "tổng thể",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "看整体，也看每个人的需要。",
+        "py": "kàn zhěng tǐ , yě kàn měi gè rén de xū yào .",
+        "en": "Consider the whole and each individual’s needs."
+      },
+      "usageNote": "[GF2021:L3:10411] Source entry: 整体; zhěngtǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w15",
+      "hanzi": "全面",
+      "pinyin": "quán miàn",
+      "meaning": "comprehensive; all-round",
+      "meaningVi": "toàn diện",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "全面检查，不是只数纸。",
+        "py": "quán miàn jiǎn chá , bù shì zhǐ shù zhǐ .",
+        "en": "A comprehensive check does not count only paper."
+      },
+      "usageNote": "[GF2021:L3:6611] Source entry: 全面; quánmiàn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w16",
+      "hanzi": "人群",
+      "pinyin": "rén qún",
+      "meaning": "crowd; group of people",
+      "meaningVi": "đám đông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "人群在门外，名单还要核对。",
+        "py": "rén qún zài mén wài , míng dān hái yào hé duì .",
+        "en": "The crowd is outside; the list still needs checking."
+      },
+      "usageNote": "[GF2021:L3:6708] Source entry: 人群; rénqún; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w17",
+      "hanzi": "双方",
+      "pinyin": "shuāng fāng",
+      "meaning": "both parties; both sides",
+      "meaningVi": "hai bên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "双方同意以后再安排。",
+        "py": "shuāng fāng tóng yì yǐ hòu zài ān pái .",
+        "en": "Arrange it once both parties agree."
+      },
+      "usageNote": "[GF2021:L3:7530] Source entry: 双方; shuāngfāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w18",
+      "hanzi": "人民币",
+      "pinyin": "rén mín bì",
+      "meaning": "renminbi; Chinese currency",
+      "meaningVi": "nhân dân tệ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "费用用人民币写。",
+        "py": "fèi yòng yòng rén mín bì xiě .",
+        "en": "The fee is stated in renminbi."
+      },
+      "usageNote": "[GF2021:L3:6703] Source entry: 人民币; rénmínbì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w19",
+      "hanzi": "付",
+      "pinyin": "fù",
+      "meaning": "to pay; give",
+      "meaningVi": "trả",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我还没付，只是问价钱。",
+        "py": "wǒ hái méi fù , zhǐ shì wèn jià qián .",
+        "en": "I have not paid; I only asked the price."
+      },
+      "usageNote": "[GF2021:L3:2486] Source entry: 付; fù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w20",
+      "hanzi": "支付",
+      "pinyin": "zhī fù",
+      "meaning": "to pay; make a payment",
+      "meaningVi": "thanh toán",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "支付以后要看记录。",
+        "py": "zhī fù yǐ hòu yào kàn jì lù .",
+        "en": "Check the record after payment."
+      },
+      "usageNote": "[GF2021:L3:10466] Source entry: 支付; zhīfù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w21",
+      "hanzi": "交费",
+      "pinyin": "jiāo fèi",
+      "meaning": "to pay a fee",
+      "meaningVi": "nộp phí",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "交费的时间还没定。",
+        "py": "jiāo fèi de shí jiān hái méi dìng .",
+        "en": "The fee-payment time is not settled."
+      },
+      "usageNote": "[GF2021:L3:4050] Source entry: 交费; jiāofèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u07-w22",
+      "hanzi": "收费",
+      "pinyin": "shōu fèi",
+      "meaning": "to charge a fee",
+      "meaningVi": "thu phí",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个活动不收费。",
+        "py": "zhè gè huó dòng bù shōu fèi .",
+        "en": "This activity does not charge a fee."
+      },
+      "usageNote": "[GF2021:L3:7351] Source entry: 收费; shōufèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "配",
+      "pinyin": "pèi",
+      "meaning": "to allocate; coordinate",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "配",
+          "role": "whole",
+          "gloss": "to allocate; coordinate"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 配 in 配 / 配合. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "配",
+          "p": "pèi",
+          "m": "to match; allocate; equip"
+        },
+        {
+          "w": "配合",
+          "p": "pèi hé",
+          "m": "to cooperate; coordinate"
+        }
+      ]
+    },
+    {
+      "hanzi": "丰",
+      "pinyin": "fēng",
+      "meaning": "abundant",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "丰",
+          "role": "whole",
+          "gloss": "abundant"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 丰 in 丰富. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "丰富",
+          "p": "fēng fù",
+          "m": "rich; plentiful; varied"
+        }
+      ]
+    },
+    {
+      "hanzi": "富",
+      "pinyin": "fù",
+      "meaning": "rich",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "富",
+          "role": "whole",
+          "gloss": "rich"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 富 in 丰富 / 富. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "丰富",
+          "p": "fēng fù",
+          "m": "rich; plentiful; varied"
+        },
+        {
+          "w": "富",
+          "p": "fù",
+          "m": "rich; wealthy"
+        }
+      ]
+    },
+    {
+      "hanzi": "足",
+      "pinyin": "zú",
+      "meaning": "foot; sufficient",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "足",
+          "role": "whole",
+          "gloss": "foot; sufficient"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 足 in 满足 / 足够. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "满足",
+          "p": "mǎn zú",
+          "m": "to satisfy; meet"
+        },
+        {
+          "w": "足够",
+          "p": "zú gòu",
+          "m": "enough; sufficient"
+        }
+      ]
+    },
+    {
+      "hanzi": "缺",
+      "pinyin": "quē",
+      "meaning": "to lack",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "缺",
+          "role": "whole",
+          "gloss": "to lack"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 缺 in 缺 / 缺少. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "缺",
+          "p": "quē",
+          "m": "to lack; be short of"
+        },
+        {
+          "w": "缺少",
+          "p": "quē shǎo",
+          "m": "to lack; be short of"
+        }
+      ]
+    },
+    {
+      "hanzi": "齐",
+      "pinyin": "qí",
+      "meaning": "even; complete",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "齐",
+          "role": "whole",
+          "gloss": "even; complete"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 齐 in 齐 / 整齐. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "齐",
+          "p": "qí",
+          "m": "complete; all present; even"
+        },
+        {
+          "w": "整齐",
+          "p": "zhěng qí",
+          "m": "neat; orderly"
+        }
+      ]
+    },
+    {
+      "hanzi": "美",
+      "pinyin": "měi",
+      "meaning": "beautiful",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "美",
+          "role": "whole",
+          "gloss": "beautiful"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 美 in 美食 / 美好. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "美食",
+          "p": "měi shí",
+          "m": "delicious food; cuisine"
+        },
+        {
+          "w": "美好",
+          "p": "měi hǎo",
+          "m": "pleasant; lovely"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u07-g三11",
+      "pattern": "量词重叠：个个 / 本本 / 张张等",
+      "purpose": "Read distribution within a stated set",
+      "explanation": "这六张纸张张都有名字 means each of these six sheets bears a name; it does not prove every sheet anywhere is named. 本本都读过 ranges over the books just mentioned. Not every classifier repeats equally naturally in all contexts; use 个个/本本/张张 with a clear noun or preceding set. Compare 每张 rather than invent a new total from repetition.",
+      "examples": [
+        {
+          "zh": "这六张纸，张张都有名字。",
+          "py": "zhè liù zhāng zhǐ , zhāng zhāng dōu yǒu míng zì .",
+          "en": "Each of these six sheets bears a name."
+        },
+        {
+          "zh": "这些书，本本都读过。",
+          "py": "zhè xiē shū , běn běn dōu dú guò .",
+          "en": "Each of these books has been read."
+        },
+        {
+          "zh": "组里的朋友个个都来了。",
+          "py": "zǔ lǐ de péng you gè gè dōu lái le .",
+          "en": "Every friend in the group came."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "张张有名字，所以世界上所有纸都有名字。",
+          "right": "这六张纸张张有名字，只说这六张。",
+          "why": "The distributive scope remains the stated set."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u07-g三33",
+      "pattern": "数词 + 量词重复：一个一个 / 一张一张",
+      "purpose": "Read sequential handling and context-dependent distribution",
+      "explanation": "一张一张递 describes passing sheets one at a time. 两张两张发 distributes or handles two at a time; with six sheets this means three batches, not two total sheets. 一人一张 states individual allocation and has a different pattern. Repetition alone does not establish the overall quantity or completion.",
+      "examples": [
+        {
+          "zh": "把六张纸一张一张递过来。",
+          "py": "bǎ liù zhāng zhǐ yī zhāng yī zhāng dì guò lái .",
+          "en": "Pass the six sheets over one at a time."
+        },
+        {
+          "zh": "两张两张发，一共六张。",
+          "py": "liǎng zhāng liǎng zhāng fā , yī gòng liù zhāng .",
+          "en": "Distribute them two at a time, six in total."
+        },
+        {
+          "zh": "一人一张，六个人要六张。",
+          "py": "yī rén yī zhāng , liù gè rén yào liù zhāng .",
+          "en": "One sheet per person: six people need six sheets."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "两张两张发，所以一共只有两张。",
+          "right": "两张两张发是方式，总数还要看说明。",
+          "why": "Batch size is not total quantity."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u07-d",
+    "title": "Six sheets, two groups",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Track total, group and person quantities.",
+    "lines": [
+      {
+        "zh": "整个小组六个人，现在有几张纸？",
+        "py": "zhěng gè xiǎo zǔ liù gè rén , xiàn zài yǒu jǐ zhāng zhǐ ?",
+        "en": "There are six in the whole group; how many sheets are here?",
+        "speaker": "a"
+      },
+      {
+        "zh": "四张，还缺两张。",
+        "py": "sì zhāng , hái quē liǎng zhāng .",
+        "en": "Four; two are still missing.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我再拿两张，六张就齐了。",
+        "py": "wǒ zài ná liǎng zhāng , liù zhāng jiù qí le .",
+        "en": "I will get two more, making all six present.",
+        "speaker": "a"
+      },
+      {
+        "zh": "两组分别拿三张，一人一张。",
+        "py": "liǎng zǔ fēn bié ná sān zhāng , yī rén yī zhāng .",
+        "en": "The two groups each take three, one per person.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我一张一张递，你配合记数量。",
+        "py": "wǒ yī zhāng yī zhāng dì , nǐ pèi hé jì shù liàng .",
+        "en": "I pass one at a time; help record the quantity.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这六张，张张都有名字。活动收费吗？",
+        "py": "zhè liù zhāng , zhāng zhāng dōu yǒu míng zì . huó dòng shōu fèi ma ?",
+        "en": "Each of these six has a name. Does the event charge a fee?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不收费，人民币也不用付。",
+        "py": "bù shōu fèi , rén mín bì yě bù yòng fù .",
+        "en": "No charge and no renminbi payment needed.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，纸齐不等于人都到了，最后核对名单。",
+        "py": "hǎo , zhǐ qí bù děng yú rén dōu dào le , zuì hòu hé duì míng dān .",
+        "en": "Okay; all sheets present does not mean all people arrived. Check the list last.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What quantities are kept distinct?",
+        "choices": [
+          "Total sheets, group share and individual share",
+          "Only currency amounts",
+          "Every sheet in the world"
+        ],
+        "answer": "Total sheets, group share and individual share"
+      },
+      {
+        "type": "detail",
+        "q": "How many sheets does each group take?",
+        "choices": [
+          "Three",
+          "Six",
+          "Two"
+        ],
+        "answer": "Three"
+      },
+      {
+        "type": "inference",
+        "q": "Does having six sheets prove six people arrived?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if names are written"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": []
+  },
+  "reading": {
+    "id": "s3-u07-r",
+    "title": "An allocation note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Follow sequence without confusing it with a total.",
+    "lines": [
+      {
+        "zh": "整个小组六个人，原来四张纸，再拿两张，共六张。",
+        "py": "zhěng gè xiǎo zǔ liù gè rén , yuán lái sì zhāng zhǐ , zài ná liǎng zhāng , gòng liù zhāng .",
+        "en": "The group has six people; four sheets plus two more makes six."
+      },
+      {
+        "zh": "两组分别拿三张，每个人一张，数量不能混。",
+        "py": "liǎng zǔ fēn bié ná sān zhāng , měi gè rén yī zhāng , shù liàng bù néng hùn .",
+        "en": "Each of two groups takes three, one per person; do not confuse the quantities."
+      },
+      {
+        "zh": "一张一张递说方式，不是说只有一张。",
+        "py": "yī zhāng yī zhāng dì shuō fāng shì , bù shì shuō zhǐ yǒu yī zhāng .",
+        "en": "Passing one at a time states a method, not a total of one."
+      },
+      {
+        "zh": "这六张纸张张都有名字，只说这六张。",
+        "py": "zhè liù zhāng zhǐ zhāng zhāng dōu yǒu míng zì , zhǐ shuō zhè liù zhāng .",
+        "en": "Each of these six sheets has a name; only these six are described."
+      },
+      {
+        "zh": "内容丰富，也不用一次读完整本书。",
+        "py": "nèi róng fēng fù , yě bù yòng yī cì dú wán zhěng běn shū .",
+        "en": "Varied content does not require reading the whole book in one sitting."
+      },
+      {
+        "zh": "两组配合可以满足需要，缺少信息就再问。",
+        "py": "liǎng zǔ pèi hé kě yǐ mǎn zú xū yào , quē shǎo xìn xī jiù zài wèn .",
+        "en": "The two groups can cooperate to meet the need; ask again if information is missing."
+      },
+      {
+        "zh": "双方说活动不收费，不需要交费和支付。",
+        "py": "shuāng fāng shuō huó dòng bù shōu fèi , bù xū yào jiāo fèi hé zhī fù .",
+        "en": "Both parties say the event is free; no fee or payment is needed."
+      },
+      {
+        "zh": "全面看整体，也看个人；美好的安排要把名单核对齐。",
+        "py": "quán miàn kàn zhěng tǐ , yě kàn gè rén ; měi hǎo de ān pái yào bǎ míng dān hé duì qí .",
+        "en": "Consider the whole and each individual; a good arrangement checks the full list."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What distinction does the note teach?",
+        "choices": [
+          "Allocation method versus total and scope",
+          "A mandatory paid registration",
+          "A universal quantity of three"
+        ],
+        "answer": "Allocation method versus total and scope"
+      },
+      {
+        "type": "detail",
+        "q": "How many sheets were originally present?",
+        "choices": [
+          "Four",
+          "Six",
+          "Two"
+        ],
+        "answer": "Four"
+      },
+      {
+        "type": "inference",
+        "q": "Does one-at-a-time mean one sheet in total?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only at a free event"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "两组分别拿【三张】，每个人一张，数量不能混。",
+          "py": "liǎng zǔ fēn bié ná sān zhāng , měi gè rén yī zhāng , shù liàng bù néng hùn .",
+          "en": "Each of two groups takes three, one per person; do not confuse the quantities."
+        },
+        {
+          "zh": "双方说活动不【收费】，不需要交费和支付。",
+          "py": "shuāng fāng shuō huó dòng bù shōu fèi , bù xū yào jiāo fèi hé zhī fù .",
+          "en": "Both parties say the event is free; no fee or payment is needed."
+        }
+      ],
+      "bank": [
+        "三张",
+        "收费",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "混",
+        "pinyin": "hùn",
+        "meaning": "to mix; confuse"
+      },
+      {
+        "hanzi": "美好",
+        "pinyin": "měi hǎo",
+        "meaning": "pleasant; lovely"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u07-media",
+      "title": "The single-sheet universe",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a tiny quantity error.",
+      "lines": [
+        {
+          "zh": "一张一张递，那一共就是一张？",
+          "py": "yī zhāng yī zhāng dì , nà yī gòng jiù shì yī zhāng ?",
+          "en": "Pass one at a time, so there is just one in total?",
+          "speaker": "a"
+        },
+        {
+          "zh": "你把整个小组放进一张纸了。",
+          "py": "nǐ bǎ zhěng gè xiǎo zǔ fàng jìn yī zhāng zhǐ le .",
+          "en": "You put the whole group inside one sheet.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那六张，两组分别三张。",
+          "py": "nà liù zhāng , liǎng zǔ fēn bié sān zhāng .",
+          "en": "Then six sheets, three for each of two groups.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对，一人一张，张张有名字。",
+          "py": "duì , yī rén yī zhāng , zhāng zhāng yǒu míng zì .",
+          "en": "Yes, one per person, each with a name.",
+          "speaker": "b"
+        },
+        {
+          "zh": "纸齐了，人还要数。",
+          "py": "zhǐ qí le , rén hái yào shù .",
+          "en": "The sheets are all here; we still count people.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次全面了一点儿。",
+          "py": "zhè cì quán miàn le yì diǎn ér .",
+          "en": "A little more comprehensive this time.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What error is repaired?",
+          "choices": [
+            "Treating a handling unit as the total",
+            "Charging an imaginary fee",
+            "Claiming the event is free"
+          ],
+          "answer": "Treating a handling unit as the total"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u07-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "内容丰富，也先选一段。",
+          "py": "nèi róng fēng fù , yě xiān xuǎn yī duàn .",
+          "en": "The content is varied; still choose one passage first."
+        },
+        {
+          "zh": "富不富不是我们分纸的标准。",
+          "py": "fù bù fù bù shì wǒ men fēn zhǐ de biāo zhǔn .",
+          "en": "Wealth is not our criterion for distributing paper."
+        },
+        {
+          "zh": "缺少信息，先问清楚。",
+          "py": "quē shǎo xìn xī , xiān wèn qīng chǔ .",
+          "en": "If information is missing, clarify it first."
+        },
+        {
+          "zh": "六张可以满足六个人的需要。",
+          "py": "liù zhāng kě yǐ mǎn zú liù gè rén de xū yào .",
+          "en": "Six sheets can meet six people’s need."
+        },
+        {
+          "zh": "看整体，也看每个人的需要。",
+          "py": "kàn zhěng tǐ , yě kàn měi gè rén de xū yào .",
+          "en": "Consider the whole and each individual’s needs."
+        },
+        {
+          "zh": "人群在门外，名单还要核对。",
+          "py": "rén qún zài mén wài , míng dān hái yào hé duì .",
+          "en": "The crowd is outside; the list still needs checking."
+        },
+        {
+          "zh": "人群里有六个人，纸还缺两张。",
+          "py": "rén qún lǐ yǒu liù gè rén , zhǐ hái quē liǎng zhāng .",
+          "en": "There are six people in the group; two sheets of paper are still missing."
+        },
+        {
+          "zh": "双方同意以后再安排。",
+          "py": "shuāng fāng tóng yì yǐ hòu zài ān pái .",
+          "en": "Arrange it once both parties agree."
+        },
+        {
+          "zh": "费用用人民币写。",
+          "py": "fèi yòng yòng rén mín bì xiě .",
+          "en": "The fee is stated in renminbi."
+        },
+        {
+          "zh": "支付以后要看记录。",
+          "py": "zhī fù yǐ hòu yào kàn jì lù .",
+          "en": "Check the record after payment."
+        },
+        {
+          "zh": "交费的时间还没定。",
+          "py": "jiāo fèi de shí jiān hái méi dìng .",
+          "en": "The fee-payment time is not settled."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "内容",
+          "pinyin": "nèi róng",
+          "meaning": "content"
+        },
+        {
+          "hanzi": "标准",
+          "pinyin": "biāo zhǔn",
+          "meaning": "standard"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u07-t1",
+      "phrase": "s3-u07-w05",
+      "audio": {
+        "zh": "六个人，一人一张，共六张。",
+        "py": "liù gè rén , yī rén yī zhāng , gòng liù zhāng .",
+        "en": "Six people, one per person, six sheets total."
+      },
+      "statement": "The total is six.",
+      "answer": true,
+      "why": "The allocation multiplies to six."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u07-t2",
+      "phrase": "s3-u07-w19",
+      "audio": {
+        "zh": "活动不收费，不用付。",
+        "py": "huó dòng bù shōu fèi , bù yòng fù .",
+        "en": "The event is free; no payment is needed."
+      },
+      "statement": "A payment is required.",
+      "answer": false,
+      "why": "Both claims deny a charge."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u07-t3",
+      "phrase": "s3-u07-w03",
+      "prompt": {
+        "zh": "四张纸，六个人，一人一张，缺多少？",
+        "py": "sì zhāng zhǐ , liù gè rén , yī rén yī zhāng , quē duō shao ?",
+        "en": "Four sheets for six people, one each; how many missing?"
+      },
+      "choices": [
+        "缺两张。",
+        "缺六张。",
+        "不缺，四等于六。"
+      ],
+      "answer": "缺两张。",
+      "why": "Six minus four is two."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u07-t4",
+      "phrase": "s3-u07-w11",
+      "prompt": {
+        "zh": "纸都齐了，人一定都到了吗？",
+        "py": "zhǐ dōu qí le , rén yí dìng dōu dào le ma ?",
+        "en": "All sheets are here; did all people necessarily arrive?"
+      },
+      "choices": [
+        "不一定，要核对名单。",
+        "一定，纸就是人。",
+        "只看人民币就行。"
+      ],
+      "answer": "不一定，要核对名单。",
+      "why": "Inventory and attendance differ."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u07-t5",
+      "phrase": "s3-u07-w08",
+      "line": {
+        "zh": "一张一张递，说的是【方式】。",
+        "py": "yī zhāng yī zhāng dì , shuō de shì fāng shì .",
+        "en": "Passing one at a time describes the method."
+      },
+      "blankPy": "fāng shì"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u07-t6",
+      "phrase": "s3-u07-w22",
+      "line": {
+        "zh": "活动不【收费】。",
+        "py": "huó dòng bù shōu fèi .",
+        "en": "The event is free."
+      },
+      "blankPy": "shōu fèi"
+    },
+    {
+      "type": "match",
+      "id": "s3-u07-t7",
+      "phrase": "s3-u07-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Three sheets per group for two groups.",
+          "right": {
+            "zh": "两组分别三张。",
+            "py": "liǎng zǔ fēn bié sān zhāng .",
+            "en": "Three sheets per group for two groups."
+          }
+        },
+        {
+          "left": "One sheet per person.",
+          "right": {
+            "zh": "每人一张。",
+            "py": "měi rén yī zhāng .",
+            "en": "One sheet per person."
+          }
+        },
+        {
+          "left": "Six sheets in total.",
+          "right": {
+            "zh": "一共六张。",
+            "py": "yī gòng liù zhāng .",
+            "en": "Six sheets in total."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u07-t8",
+      "phrase": "s3-u07-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Each of these six sheets has a name.",
+          "right": {
+            "zh": "这六张张张有名字。",
+            "py": "zhè liù zhāng zhāng zhāng yǒu míng zì .",
+            "en": "Each of these six sheets has a name."
+          }
+        },
+        {
+          "left": "Distribute two at a time.",
+          "right": {
+            "zh": "两张两张发。",
+            "py": "liǎng zhāng liǎng zhāng fā .",
+            "en": "Distribute two at a time."
+          }
+        },
+        {
+          "left": "Two more sheets are needed.",
+          "right": {
+            "zh": "还缺两张。",
+            "py": "hái quē liǎng zhāng .",
+            "en": "Two more sheets are needed."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u07-t9",
+      "phrase": "s3-u07-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Anyone may just listen; competition entry is not required.",
+          "right": {
+            "zh": "谁都可以只听，不一定参加比赛。",
+            "py": "shéi dōu kě yǐ zhǐ tīng , bù yí dìng cān jiā bǐ sài .",
+            "en": "Anyone may just listen; competition entry is not required."
+          }
+        },
+        {
+          "left": "Not daring to join does not imply lacking ability.",
+          "right": {
+            "zh": "不敢参加，不等于没有能力。",
+            "py": "bù gǎn cān jiā , bù děng yú méi yǒu néng lì .",
+            "en": "Not daring to join does not imply lacking ability."
+          }
+        },
+        {
+          "left": "The file can open; its date has not been checked.",
+          "right": {
+            "zh": "文件打得开，日期还没核对。",
+            "py": "wén jiàn dǎ dé kāi , rì qī hái méi hé duì .",
+            "en": "The file can open; its date has not been checked."
+          }
+        },
+        {
+          "left": "Searched for ten minutes and finally found it.",
+          "right": {
+            "zh": "找了十分钟，终于找到了。",
+            "py": "zhǎo le shí fēn zhōng , zhōng yú zhǎo dào le .",
+            "en": "Searched for ten minutes and finally found it."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Check the total",
+      "natural": {
+        "zh": "六个人一人一张，一共六张，对吗？",
+        "py": "liù gè rén yī rén yī zhāng , yī gòng liù zhāng , duì ma ?",
+        "en": "Six people with one each: six total, right?"
+      },
+      "note": "Confirm people, unit and total."
+    },
+    {
+      "situation": "Keep attendance separate",
+      "natural": {
+        "zh": "纸齐了，还要核对人。",
+        "py": "zhǐ qí le , hái yào hé duì rén .",
+        "en": "The sheets are all present; people still need checking."
+      },
+      "note": "Do not infer attendance from inventory."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u07-speak",
+    "title": "A little for each person",
+    "place": "A language-exchange meeting",
+    "context": "Share food and distribute tasks evenly.",
+    "goal": "Read classifier repetition as distribution or sequence",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "四张够六个人吗？",
+        "pinyin": "sì zhāng gòu liù gè rén ma ?",
+        "meaning": "Are four sheets enough for six people?",
+        "intent": "Use one-per-person rule",
+        "examples": [
+          "还缺两张。"
+        ],
+        "accept": [
+          "^还缺两张。[。！？]?$"
+        ]
+      },
+      {
+        "text": "两组怎么分？",
+        "pinyin": "liǎng zǔ zěn me fēn ?",
+        "meaning": "How do the two groups share them?",
+        "intent": "State group allocation",
+        "examples": [
+          "分别三张。"
+        ],
+        "accept": [
+          "^分别三张。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三11, 三33. Native check: classifier AA naturalness and bounded scope, one-at-a-time versus per-person patterns, 配/配合 collocations, 富 adjective and nominal 整/整体. The original verse is spoken course writing, not borrowed lyrics. Native review pending. Planned retrieval 三03 / 三07 / 三06 / 三46: 谁都可以只听，不一定参加比赛。, 不敢参加，不等于没有能力。, 文件打得开，日期还没核对。, 找了十分钟，终于找到了。."
+}

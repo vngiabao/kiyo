@@ -45,6 +45,9 @@ export default defineConfig({
         // UpdateNotice leaves the running React session intact until Refresh.
         skipWaiting: true,
         clientsClaim: true,
+        // Access must finish its server-side callback before the offline shell
+        // handles app navigation; otherwise an expired login cannot recover.
+        navigateFallbackDenylist: [/^\/cdn-cgi\//],
         globPatterns: ["**/*.{js,css,html,svg,woff2,mp3,json,png,webp}"],
         // CJK fonts ship as ~100 unicode-range slices per weight; cache the
         // slices a learner actually uses instead of precaching all of them.

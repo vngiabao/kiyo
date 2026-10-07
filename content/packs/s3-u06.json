@@ -1,0 +1,1304 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u06",
+    "stage": 2,
+    "order": 70,
+    "title": "Dinner for a big group",
+    "titleZh": "一顿饭先数清楚",
+    "canDo": [
+      "Select common object and action classifiers in context",
+      "Count dishes separately from mouthfuls and meals",
+      "Track actual quantities in a shared meal"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u05"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u06-w01",
+      "hanzi": "把",
+      "pinyin": "bǎ",
+      "meaning": "classifier for handled objects and chairs",
+      "meaningVi": "lượng từ cho đồ có tay cầm và ghế",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "桌边放着两把椅子。",
+        "py": "zhuō biān fàng zhe liǎng bǎ yǐ zi .",
+        "en": "Two chairs stand beside the table."
+      },
+      "usageNote": "[GF2021:L3:76] Source entry: 把; bǎ; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w02",
+      "hanzi": "行",
+      "pinyin": "háng",
+      "meaning": "classifier for lines of writing",
+      "meaningVi": "lượng từ cho dòng chữ",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "通知只有一行字。",
+        "py": "tōng zhī zhǐ yǒu yī háng zì .",
+        "en": "The notice has only one line of writing."
+      },
+      "usageNote": "[GF2021:L3:3197] Source entry: 行; háng; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w03",
+      "hanzi": "架",
+      "pinyin": "jià",
+      "meaning": "classifier for machines and framed objects",
+      "meaningVi": "lượng từ cho máy và vật có khung",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "那架钢琴不是今天要搬的。",
+        "py": "nà jià gāng qín bù shì jīn tiān yào bān de .",
+        "en": "That piano is not to be moved today."
+      },
+      "usageNote": "[GF2021:L3:3891] Source entry: 架; jià; 量、名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w04",
+      "hanzi": "束",
+      "pinyin": "shù",
+      "meaning": "classifier for bunches and bundles",
+      "meaningVi": "lượng từ cho bó",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "桌上有一束花。",
+        "py": "zhuō shàng yǒu yī shù huā .",
+        "en": "There is a bunch of flowers on the table."
+      },
+      "usageNote": "[GF2021:L3:7485] Source entry: 束; shù; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w05",
+      "hanzi": "双",
+      "pinyin": "shuāng",
+      "meaning": "pair; classifier for pairs",
+      "meaningVi": "đôi",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我拿两双筷子。",
+        "py": "wǒ ná liǎng shuāng kuài zi .",
+        "en": "I take two pairs of chopsticks."
+      },
+      "usageNote": "[GF2021:L3:7525] Source entry: 双; shuāng; 量、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w06",
+      "hanzi": "台",
+      "pinyin": "tái",
+      "meaning": "classifier for equipment",
+      "meaningVi": "lượng từ cho thiết bị",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "一台电脑在门边。",
+        "py": "yī tái diàn nǎo zài mén biān .",
+        "en": "One computer is beside the door."
+      },
+      "usageNote": "[GF2021:L3:7763] Source entry: 台; tái; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w07",
+      "hanzi": "张",
+      "pinyin": "zhāng",
+      "meaning": "classifier for flat objects",
+      "meaningVi": "lượng từ cho vật phẳng",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每人拿一张纸。",
+        "py": "měi rén ná yī zhāng zhǐ .",
+        "en": "Each person takes one sheet of paper."
+      },
+      "usageNote": "[GF2021:L3:10253] Source entry: 张; zhāng; 量、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w08",
+      "hanzi": "支",
+      "pinyin": "zhī",
+      "meaning": "classifier for pens and slender objects",
+      "meaningVi": "lượng từ cho bút và vật thon",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "纸边有一支笔。",
+        "py": "zhǐ biān yǒu yī zhī bǐ .",
+        "en": "There is a pen beside the paper."
+      },
+      "usageNote": "[GF2021:L3:10461] Source entry: 支; zhī; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w09",
+      "hanzi": "只",
+      "pinyin": "zhī",
+      "meaning": "classifier for certain animals and individual objects",
+      "meaningVi": "lượng từ cho một số động vật và vật",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "门外有一只猫。",
+        "py": "mén wài yǒu yī zhī māo .",
+        "en": "There is a cat outside the door."
+      },
+      "usageNote": "[GF2021:L3:10471] Source entry: 只; zhī; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w10",
+      "hanzi": "种",
+      "pinyin": "zhǒng",
+      "meaning": "kind; classifier for types",
+      "meaningVi": "loại",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "只有两种饮料。",
+        "py": "zhǐ yǒu liǎng zhǒng yǐn liào .",
+        "en": "There are only two kinds of drink."
+      },
+      "usageNote": "[GF2021:L3:10654] Source entry: 种; zhǒng; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w11",
+      "hanzi": "顿",
+      "pinyin": "dùn",
+      "meaning": "classifier for meals and episodes",
+      "meaningVi": "lượng từ cho bữa ăn",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天只一起吃这一顿饭。",
+        "py": "jīn tiān zhǐ yì qǐ chī zhè yī dùn fàn .",
+        "en": "Today we share only this one meal."
+      },
+      "usageNote": "[GF2021:L3:2050] Source entry: 顿; dùn; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w12",
+      "hanzi": "红酒",
+      "pinyin": "hóng jiǔ",
+      "meaning": "red wine",
+      "meaningVi": "rượu vang đỏ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "红酒是酒，不是果汁。",
+        "py": "hóng jiǔ shì jiǔ , bù shì guǒ zhī .",
+        "en": "Red wine is alcohol, not fruit juice."
+      },
+      "usageNote": "[GF2021:L3:3350] Source entry: 红酒; hóngjiǔ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w13",
+      "hanzi": "红茶",
+      "pinyin": "hóng chá",
+      "meaning": "black tea",
+      "meaningVi": "trà đen",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "红茶里不放糖。",
+        "py": "hóng chá lǐ bù fàng táng .",
+        "en": "No sugar goes in the black tea."
+      },
+      "usageNote": "[GF2021:L3:3347] Source entry: 红茶; hóngchá; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w14",
+      "hanzi": "白菜",
+      "pinyin": "bái cài",
+      "meaning": "Chinese cabbage",
+      "meaningVi": "cải thảo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这一道菜有白菜。",
+        "py": "zhè yī dào cài yǒu bái cài .",
+        "en": "This dish contains Chinese cabbage."
+      },
+      "usageNote": "[GF2021:L3:94] Source entry: 白菜; báicài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w15",
+      "hanzi": "食品",
+      "pinyin": "shí pǐn",
+      "meaning": "food; food products",
+      "meaningVi": "thực phẩm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "食品放在这里，餐具放另一边。",
+        "py": "shí pǐn fàng zài zhè lǐ , cān jù fàng lìng yī biān .",
+        "en": "Food goes here and tableware on the other side."
+      },
+      "usageNote": "[GF2021:L3:7257] Source entry: 食品; shípǐn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w16",
+      "hanzi": "美食",
+      "pinyin": "měi shí",
+      "meaning": "delicious food; cuisine",
+      "meaningVi": "món ngon; ẩm thực",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她喜欢美食，也可以只吃一点儿。",
+        "py": "tā xǐ huān měi shí , yě kě yǐ zhǐ chī yì diǎn ér .",
+        "en": "She likes good food and may still eat just a little."
+      },
+      "usageNote": "[GF2021:L3:5499] Source entry: 美食; měishí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w17",
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "meaning": "soup",
+      "meaningVi": "canh; súp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "汤还烫，先等一下。",
+        "py": "tāng hái tàng , xiān děng yī xià .",
+        "en": "The soup is still hot; wait first."
+      },
+      "usageNote": "[GF2021:L3:7816] Source entry: 汤; tāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w18",
+      "hanzi": "糖",
+      "pinyin": "táng",
+      "meaning": "sugar; sweets",
+      "meaningVi": "đường; kẹo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "茶里不放糖。",
+        "py": "chá lǐ bù fàng táng .",
+        "en": "No sugar goes in the tea."
+      },
+      "usageNote": "[GF2021:L3:7819] Source entry: 糖; táng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w19",
+      "hanzi": "甜",
+      "pinyin": "tián",
+      "meaning": "sweet",
+      "meaningVi": "ngọt",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这杯很甜，我只喝一点儿。",
+        "py": "zhè bēi hěn tián , wǒ zhǐ hē yì diǎn ér .",
+        "en": "This drink is sweet; I drink only a little."
+      },
+      "usageNote": "[GF2021:L3:7956] Source entry: 甜; tián; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w20",
+      "hanzi": "果汁",
+      "pinyin": "guǒ zhī",
+      "meaning": "fruit juice",
+      "meaningVi": "nước trái cây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "果汁一杯，不是每人一瓶。",
+        "py": "guǒ zhī yī bēi , bù shì měi rén yī píng .",
+        "en": "One cup of juice, not a bottle per person."
+      },
+      "usageNote": "[GF2021:L3:3102] Source entry: 果汁; guǒzhī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w21",
+      "hanzi": "可乐",
+      "pinyin": "kě lè",
+      "meaning": "cola",
+      "meaningVi": "cola",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "可乐和果汁是两种饮料。",
+        "py": "kě lè hé guǒ zhī shì liǎng zhǒng yǐn liào .",
+        "en": "Cola and juice are two kinds of drink."
+      },
+      "usageNote": "[GF2021:L3:4703] Source entry: 可乐; kělè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u06-w22",
+      "hanzi": "啤酒",
+      "pinyin": "pí jiǔ",
+      "meaning": "beer",
+      "meaningVi": "bia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她不喝啤酒，选水。",
+        "py": "tā bù hē pí jiǔ , xuǎn shuǐ .",
+        "en": "She does not drink beer and chooses water."
+      },
+      "usageNote": "[GF2021:L3:6060] Source entry: 啤酒; píjiǔ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "把",
+      "pinyin": "bǎ",
+      "meaning": "classifier for handled objects; 把 construction",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "把",
+          "role": "whole",
+          "gloss": "classifier for handled objects; 把 construction"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 把 in 把. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "把",
+          "p": "bǎ",
+          "m": "marks the object affected by the following action"
+        }
+      ]
+    },
+    {
+      "hanzi": "架",
+      "pinyin": "jià",
+      "meaning": "rack; classifier for machines",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "架",
+          "role": "whole",
+          "gloss": "rack; classifier for machines"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 架 in 架. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "架",
+          "p": "jià",
+          "m": "classifier for machines and framed objects"
+        }
+      ]
+    },
+    {
+      "hanzi": "束",
+      "pinyin": "shù",
+      "meaning": "bundle; classifier for bunches",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "束",
+          "role": "whole",
+          "gloss": "bundle; classifier for bunches"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 束 in 束 / 结束. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "束",
+          "p": "shù",
+          "m": "classifier for bunches and bundles"
+        },
+        {
+          "w": "结束",
+          "p": "jié shù",
+          "m": "to end; finish"
+        }
+      ]
+    },
+    {
+      "hanzi": "双",
+      "pinyin": "shuāng",
+      "meaning": "pair",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "双",
+          "role": "whole",
+          "gloss": "pair"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 双 in 双. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "双",
+          "p": "shuāng",
+          "m": "pair; classifier for pairs"
+        }
+      ]
+    },
+    {
+      "hanzi": "台",
+      "pinyin": "tái",
+      "meaning": "platform; classifier for equipment",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "台",
+          "role": "whole",
+          "gloss": "platform; classifier for equipment"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 台 in 台 / 服务台. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "台",
+          "p": "tái",
+          "m": "classifier for equipment"
+        },
+        {
+          "w": "服务台",
+          "p": "fú wù tái",
+          "m": "service desk"
+        }
+      ]
+    },
+    {
+      "hanzi": "张",
+      "pinyin": "zhāng",
+      "meaning": "to open; classifier for flat objects",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "张",
+          "role": "whole",
+          "gloss": "to open; classifier for flat objects"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 张 in 张. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "张",
+          "p": "zhāng",
+          "m": "Zhang, a surname"
+        }
+      ]
+    },
+    {
+      "hanzi": "顿",
+      "pinyin": "dùn",
+      "meaning": "a meal; a pause",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "顿",
+          "role": "whole",
+          "gloss": "a meal; a pause"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 顿 in 顿 / 一顿. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "顿",
+          "p": "dùn",
+          "m": "classifier for meals and episodes"
+        },
+        {
+          "w": "一顿",
+          "p": "yī dùn",
+          "m": "one meal"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u06-g三09",
+      "pattern": "把 / 行 / 架 / 群 / 束 / 双 / 台 / 张 / 支 / 只 / 种",
+      "purpose": "Use noun classifiers to identify the counted thing",
+      "explanation": "两把椅子 counts chairs; 两双筷子 counts two pairs, normally four individual chopsticks. 一行字 uses háng, not xíng. 一只猫 uses zhī, unlike the adverb 只 zhǐ. 一架钢琴、一台电脑、一束花、一张纸、一支笔、一群人、两种饮料 illustrate common noun combinations. Classifier choice depends on the object and intended grouping, not just its English count.",
+      "examples": [
+        {
+          "zh": "两把椅子，一束花。",
+          "py": "liǎng bǎ yǐ zi , yī shù huā .",
+          "en": "Two chairs and a bunch of flowers."
+        },
+        {
+          "zh": "两双筷子，四根筷子。",
+          "py": "liǎng shuāng kuài zi , sì gēn kuài zi .",
+          "en": "Two pairs of chopsticks, four individual chopsticks."
+        },
+        {
+          "zh": "一行字，一只猫。",
+          "py": "yī háng zì , yī zhī māo .",
+          "en": "One line of writing and one cat."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "两双筷子就是两根筷子。",
+          "right": "两双筷子通常是四根筷子。",
+          "why": "Count pairs rather than individual sticks."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u06-g三10",
+      "pattern": "顿 / 口 / 眼：动作计量",
+      "purpose": "Distinguish a meal, a mouthful and a glance",
+      "explanation": "一顿饭 counts one meal occasion; 一口汤 a mouthful; 看一眼 a brief look. 喝一口 does not mean drinking the whole bowl, and 看一眼 is not evidence of reading every line. These action measures do not provide an exact time or physical volume without further context.",
+      "examples": [
+        {
+          "zh": "一起吃一顿饭。",
+          "py": "yì qǐ chī yī dùn fàn .",
+          "en": "Share one meal."
+        },
+        {
+          "zh": "先喝一口汤。",
+          "py": "xiān hē yī kǒu tāng .",
+          "en": "Take a mouthful of soup first."
+        },
+        {
+          "zh": "看一眼通知，再仔细读。",
+          "py": "kàn yī yǎn tōng zhī , zài zǐ xì dú .",
+          "en": "Glance at the notice and then read it carefully."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "看一眼就一定读懂全部内容。",
+          "right": "看了一眼，还要仔细读内容。",
+          "why": "A brief glance does not guarantee full comprehension."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u06-d",
+    "title": "Two pairs, one meal",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the meal’s actual quantities.",
+    "lines": [
+      {
+        "zh": "我们有两个人，先拿两双筷子。",
+        "py": "wǒ men yǒu liǎng gè rén , xiān ná liǎng shuāng kuài zi .",
+        "en": "There are two of us; take two pairs of chopsticks first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "两双是两根吗？",
+        "py": "liǎng shuāng shì liǎng gēn ma ?",
+        "en": "Do two pairs mean two individual chopsticks?",
+        "speaker": "b"
+      },
+      {
+        "zh": "通常四根，一人一双。",
+        "py": "tōng cháng sì gēn , yī rén yī shuāng .",
+        "en": "Normally four individual sticks: one pair per person.",
+        "speaker": "a"
+      },
+      {
+        "zh": "通知只有一行字，说两种饮料。",
+        "py": "tōng zhī zhǐ yǒu yī háng zì , shuō liǎng zhǒng yǐn liào .",
+        "en": "The notice has one line saying there are two kinds of drink.",
+        "speaker": "b"
+      },
+      {
+        "zh": "可乐和果汁。我不喝啤酒。",
+        "py": "kě lè hé guǒ zhī . wǒ bù hē pí jiǔ .",
+        "en": "Cola and juice. I do not drink beer.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先看一眼菜单，白菜这一道可以吗？",
+        "py": "xiān kàn yī yǎn cài dān , bái cài zhè yī dào kě yǐ ma ?",
+        "en": "Glance at the menu first; is this cabbage dish okay?",
+        "speaker": "b"
+      },
+      {
+        "zh": "可以。汤还烫，我先等，不马上喝一口。",
+        "py": "kě yǐ . tāng hái tàng , wǒ xiān děng , bù mǎ shàng hē yī kǒu .",
+        "en": "Yes. The soup is hot; I will wait rather than take a mouthful immediately.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，今天这一顿，先问清楚再上菜。",
+        "py": "hǎo , jīn tiān zhè yī dùn , xiān wèn qīng chǔ zài shàng cài .",
+        "en": "Okay; for this meal, clarify before serving.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is clarified before eating?",
+        "choices": [
+          "Pairs, drinks and the dish",
+          "A full-day diet plan",
+          "The piano’s transport date"
+        ],
+        "answer": "Pairs, drinks and the dish"
+      },
+      {
+        "type": "detail",
+        "q": "How many individual chopsticks are in two pairs?",
+        "choices": [
+          "Four",
+          "Two",
+          "Six"
+        ],
+        "answer": "Four"
+      },
+      {
+        "type": "inference",
+        "q": "Does a glance guarantee complete menu comprehension?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with juice"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "筷子",
+        "pinyin": "kuài zi",
+        "meaning": "chopsticks"
+      },
+      {
+        "hanzi": "一行",
+        "pinyin": "yī xíng",
+        "meaning": "one line"
+      },
+      {
+        "hanzi": "一顿",
+        "pinyin": "yī dùn",
+        "meaning": "one meal"
+      },
+      {
+        "hanzi": "一眼",
+        "pinyin": "yī yǎn",
+        "meaning": "one glance"
+      },
+      {
+        "hanzi": "一口",
+        "pinyin": "yī kǒu",
+        "meaning": "one mouthful"
+      },
+      {
+        "hanzi": "上菜",
+        "pinyin": "shàng cài",
+        "meaning": "to serve food"
+      },
+      {
+        "hanzi": "根",
+        "pinyin": "gēn",
+        "meaning": "classifier for slender objects"
+      },
+      {
+        "hanzi": "饮料",
+        "pinyin": "yǐn liào",
+        "meaning": "drink; beverage"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u06-r",
+    "title": "Count what the phrase actually counts",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read pairs and portions without changing their units.",
+    "lines": [
+      {
+        "zh": "两个人用两双筷子，通常是四根。",
+        "py": "liǎng gè rén yòng liǎng shuāng kuài zi , tōng cháng shì sì gēn .",
+        "en": "Two people use two pairs of chopsticks, normally four individual sticks."
+      },
+      {
+        "zh": "桌边两把椅子，桌上一束花和两张纸。",
+        "py": "zhuō biān liǎng bǎ yǐ zi , zhuō shàng yī shù huā hé liǎng zhāng zhǐ .",
+        "en": "Two chairs stand by the table; a bunch of flowers and two sheets lie on it."
+      },
+      {
+        "zh": "每张纸边放一支笔，电脑是一台，不是一张。",
+        "py": "měi zhāng zhǐ biān fàng yī zhī bǐ , diàn nǎo shì yī tái , bù shì yī zhāng .",
+        "en": "A pen lies beside each sheet; the computer is counted with 台, not 张."
+      },
+      {
+        "zh": "那架钢琴在里面，门外一只猫，不是今天的任务。",
+        "py": "nà jià gāng qín zài lǐ miàn , mén wài yī zhī māo , bù shì jīn tiān de rèn wù .",
+        "en": "The piano is inside and one cat outside; neither is today’s task."
+      },
+      {
+        "zh": "菜单写白菜和汤，通知写两种饮料。",
+        "py": "cài dān xiě bái cài hé tāng , tōng zhī xiě liǎng zhǒng yǐn liào .",
+        "en": "The menu lists cabbage and soup; the notice lists two kinds of drink."
+      },
+      {
+        "zh": "一顿是一个吃饭的场合，一口不是整碗汤。",
+        "py": "yī dùn shì yī gè chī fàn de chǎng hé , yī kǒu bù shì zhěng wǎn tāng .",
+        "en": "One 顿 is a meal occasion; one mouthful is not an entire bowl of soup."
+      },
+      {
+        "zh": "看一眼只是短看，仔细读才知道具体内容。",
+        "py": "kàn yī yǎn zhǐ shì duǎn kàn , zǐ xì dú cái zhī dào jù tǐ nèi róng .",
+        "en": "A glance is a brief look; careful reading reveals the actual content."
+      },
+      {
+        "zh": "喜欢甜的也先问糖放不放，啤酒不是人人都选。",
+        "py": "xǐ huān tián de yě xiān wèn táng fàng bù fàng , pí jiǔ bù shì rén rén dōu xuǎn .",
+        "en": "Even if you like sweetness, ask about sugar first; not everyone chooses beer."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the reader preserve?",
+        "choices": [
+          "The counted unit and the statement’s scope",
+          "One universal classifier",
+          "A compulsory choice of beer"
+        ],
+        "answer": "The counted unit and the statement’s scope"
+      },
+      {
+        "type": "detail",
+        "q": "What lies beside each sheet?",
+        "choices": [
+          "A pen",
+          "A piano",
+          "A cat"
+        ],
+        "answer": "A pen"
+      },
+      {
+        "type": "inference",
+        "q": "Does one mouthful mean all the soup?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only in a meal"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "两个人用两【双】筷子，通常是四根。",
+          "py": "liǎng gè rén yòng liǎng shuāng kuài zi , tōng cháng shì sì gēn .",
+          "en": "Two people use two pairs of chopsticks, normally four individual sticks."
+        },
+        {
+          "zh": "一顿是一个吃饭的场合，【一口】不是整碗汤。",
+          "py": "yī dùn shì yī gè chī fàn de chǎng hé , yī kǒu bù shì zhěng wǎn tāng .",
+          "en": "One 顿 is a meal occasion; one mouthful is not an entire bowl of soup."
+        }
+      ],
+      "bank": [
+        "双",
+        "一口",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "钢琴",
+        "pinyin": "gāng qín",
+        "meaning": "piano"
+      },
+      {
+        "hanzi": "筷子",
+        "pinyin": "kuài zi",
+        "meaning": "chopsticks"
+      },
+      {
+        "hanzi": "一顿",
+        "pinyin": "yī dùn",
+        "meaning": "one meal"
+      },
+      {
+        "hanzi": "一眼",
+        "pinyin": "yī yǎn",
+        "meaning": "one glance"
+      },
+      {
+        "hanzi": "一口",
+        "pinyin": "yī kǒu",
+        "meaning": "one mouthful"
+      },
+      {
+        "hanzi": "根",
+        "pinyin": "gēn",
+        "meaning": "classifier for slender objects"
+      },
+      {
+        "hanzi": "饮料",
+        "pinyin": "yǐn liào",
+        "meaning": "drink; beverage"
+      },
+      {
+        "hanzi": "仔细",
+        "pinyin": "zǐ xì",
+        "meaning": "carefully"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u06-media",
+      "title": "The piano is not tableware",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about classifier overconfidence.",
+      "lines": [
+        {
+          "zh": "一架钢琴，两把椅子，两双筷子，今天都要搬？",
+          "py": "yī jià gāng qín , liǎng bǎ yǐ zi , liǎng shuāng kuài zi , jīn tiān dōu yào bān ?",
+          "en": "One piano, two chairs and two pairs of chopsticks—move them all today?",
+          "speaker": "a"
+        },
+        {
+          "zh": "先看内容，不要只看量词。钢琴不用搬。",
+          "py": "xiān kàn nèi róng , bú yào zhǐ kàn liàng cí . gāng qín bù yòng bān .",
+          "en": "Read the content, not just the classifiers. The piano stays.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我看了一眼，算读完了吗？",
+          "py": "wǒ kàn le yī yǎn , suàn dú wán le ma ?",
+          "en": "I glanced at it; does that count as finishing the reading?",
+          "speaker": "a"
+        },
+        {
+          "zh": "一眼是一眼，不是读懂的证明。",
+          "py": "yī yǎn shì yī yǎn , bù shì dú dǒng de zhèng míng .",
+          "en": "A glance is a glance, not proof of understanding.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，两个人两双筷子，四根。",
+          "py": "hǎo , liǎng gè rén liǎng shuāng kuài zi , sì gēn .",
+          "en": "Okay: two people, two pairs of chopsticks, four individual sticks.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次没把饭吃成搬家。",
+          "py": "zhè cì méi bǎ fàn chī chéng bān jiā .",
+          "en": "This time you did not turn a meal into a house move.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What should not be inferred?",
+          "choices": [
+            "That every listed object must be moved",
+            "That two pairs are normally four sticks",
+            "That the meal involves two people"
+          ],
+          "answer": "That every listed object must be moved"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "钢琴",
+          "pinyin": "gāng qín",
+          "meaning": "piano"
+        },
+        {
+          "hanzi": "筷子",
+          "pinyin": "kuài zi",
+          "meaning": "chopsticks"
+        },
+        {
+          "hanzi": "一眼",
+          "pinyin": "yī yǎn",
+          "meaning": "one glance"
+        },
+        {
+          "hanzi": "根",
+          "pinyin": "gēn",
+          "meaning": "classifier for slender objects"
+        }
+      ]
+    },
+    {
+      "id": "s3-u06-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "纸边有一支笔。",
+          "py": "zhǐ biān yǒu yī zhī bǐ .",
+          "en": "There is a pen beside the paper."
+        },
+        {
+          "zh": "红酒是酒，不是果汁。",
+          "py": "hóng jiǔ shì jiǔ , bù shì guǒ zhī .",
+          "en": "Red wine is alcohol, not fruit juice."
+        },
+        {
+          "zh": "她不喝红酒，给她果汁就好。",
+          "py": "tā bù hē hóng jiǔ , gěi tā guǒ zhī jiù hǎo .",
+          "en": "She does not drink red wine; juice is fine for her."
+        },
+        {
+          "zh": "红茶里不放糖。",
+          "py": "hóng chá lǐ bù fàng táng .",
+          "en": "No sugar goes in the black tea."
+        },
+        {
+          "zh": "红茶还很热，先放在桌上。",
+          "py": "hóng chá hái hěn rè , xiān fàng zài zhuō shàng .",
+          "en": "The black tea is still hot; leave it on the table first."
+        },
+        {
+          "zh": "食品放在这里，餐具放另一边。",
+          "py": "shí pǐn fàng zài zhè lǐ , cān jù fàng lìng yī biān .",
+          "en": "Food goes here and tableware on the other side."
+        },
+        {
+          "zh": "买食品以前，先看人数和需要。",
+          "py": "mǎi shí pǐn yǐ qián , xiān kàn rén shù hé xū yào .",
+          "en": "Check the number of people and their needs before buying food."
+        },
+        {
+          "zh": "她喜欢美食，也可以只吃一点儿。",
+          "py": "tā xǐ huān měi shí , yě kě yǐ zhǐ chī yì diǎn ér .",
+          "en": "She likes good food and may still eat just a little."
+        },
+        {
+          "zh": "分享美食，也要问别人能不能吃。",
+          "py": "fēn xiǎng měi shí , yě yào wèn bié ren néng bù néng chī .",
+          "en": "When sharing good food, also ask whether others can eat it."
+        },
+        {
+          "zh": "这杯很甜，我只喝一点儿。",
+          "py": "zhè bēi hěn tián , wǒ zhǐ hē yì diǎn ér .",
+          "en": "This drink is sweet; I drink only a little."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "餐具",
+          "pinyin": "cān jù",
+          "meaning": "tableware"
+        },
+        {
+          "hanzi": "分享",
+          "pinyin": "fēn xiǎng",
+          "meaning": "to share"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u06-t1",
+      "phrase": "s3-u06-w05",
+      "audio": {
+        "zh": "两双筷子，通常四根。",
+        "py": "liǎng shuāng kuài zi , tōng cháng sì gēn .",
+        "en": "Two pairs of chopsticks, normally four sticks."
+      },
+      "statement": "There are normally four sticks.",
+      "answer": true,
+      "why": "双 counts pairs."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u06-t2",
+      "phrase": "s3-u06-w13",
+      "audio": {
+        "zh": "我只看了一眼，还没仔细读。",
+        "py": "wǒ zhǐ kàn le yī yǎn , hái méi zǐ xì dú .",
+        "en": "I glanced once and have not read carefully."
+      },
+      "statement": "Careful reading is complete.",
+      "answer": false,
+      "why": "Only a glance happened."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u06-t3",
+      "phrase": "s3-u06-w09",
+      "prompt": {
+        "zh": "门外有一只猫，要把猫搬到桌上吗？",
+        "py": "mén wài yǒu yī zhī māo , yào bǎ māo bān dào zhuō shàng ma ?",
+        "en": "There is a cat outside; must we move it onto the table?"
+      },
+      "choices": [
+        "不用，猫不是今天的任务。",
+        "对，所有动物都搬。",
+        "一只猫就是两架钢琴。"
+      ],
+      "answer": "不用，猫不是今天的任务。",
+      "why": "The cat is explicitly outside the moving task."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u06-t4",
+      "phrase": "s3-u06-w17",
+      "prompt": {
+        "zh": "汤还很烫，马上喝吗？",
+        "py": "tāng hái hěn tàng , mǎ shàng hē ma ?",
+        "en": "The soup is scalding; drink immediately?"
+      },
+      "choices": [
+        "先等一下。",
+        "所有人都必须喝酒。",
+        "一口就是一顿饭。"
+      ],
+      "answer": "先等一下。",
+      "why": "Respect the stated wait."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u06-t5",
+      "phrase": "s3-u06-w20",
+      "line": {
+        "zh": "【果汁】和可乐是两种饮料。",
+        "py": "guǒ zhī hé kě lè shì liǎng zhǒng yǐn liào .",
+        "en": "Juice and cola are two kinds of drink."
+      },
+      "blankPy": "guǒ zhī"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u06-t6",
+      "phrase": "s3-u06-w18",
+      "line": {
+        "zh": "茶里不放【糖】。",
+        "py": "chá lǐ bù fàng táng .",
+        "en": "No sugar goes in the tea."
+      },
+      "blankPy": "táng"
+    },
+    {
+      "type": "match",
+      "id": "s3-u06-t7",
+      "phrase": "s3-u06-w02",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "One line of writing.",
+          "right": {
+            "zh": "一行字。",
+            "py": "yī háng zì .",
+            "en": "One line of writing."
+          }
+        },
+        {
+          "left": "One computer.",
+          "right": {
+            "zh": "一台电脑。",
+            "py": "yī tái diàn nǎo .",
+            "en": "One computer."
+          }
+        },
+        {
+          "left": "One piano.",
+          "right": {
+            "zh": "一架钢琴。",
+            "py": "yī jià gāng qín .",
+            "en": "One piano."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u06-t8",
+      "phrase": "s3-u06-w11",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Have one meal.",
+          "right": {
+            "zh": "吃一顿饭。",
+            "py": "chī yī dùn fàn .",
+            "en": "Have one meal."
+          }
+        },
+        {
+          "left": "Take a mouthful of soup.",
+          "right": {
+            "zh": "喝一口汤。",
+            "py": "hē yī kǒu tāng .",
+            "en": "Take a mouthful of soup."
+          }
+        },
+        {
+          "left": "Take one glance.",
+          "right": {
+            "zh": "看一眼。",
+            "py": "kàn yī yǎn .",
+            "en": "Take one glance."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u06-t9",
+      "phrase": "s3-u06-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Old Li is an address form; do not directly infer his age.",
+          "right": {
+            "zh": "老李是称呼，不能直接猜他的年龄。",
+            "py": "lǎo lǐ shì chēng hū , bù néng zhí jiē cāi tā de nián líng .",
+            "en": "Old Li is an address form; do not directly infer his age."
+          }
+        },
+        {
+          "left": "The friends look at the books inside the bag.",
+          "right": {
+            "zh": "朋友们看包里头的书。",
+            "py": "péng you men kàn bāo lǐ tou de shū .",
+            "en": "The friends look at the books inside the bag."
+          }
+        },
+        {
+          "left": "Have a haircut in the afternoon, then have a chat with a friend.",
+          "right": {
+            "zh": "下午理个发，再跟朋友谈一谈话。",
+            "py": "xià wǔ lǐ gè fā , zài gēn péng you tán yī tán huà .",
+            "en": "Have a haircut in the afternoon, then have a chat with a friend."
+          }
+        },
+        {
+          "left": "Ask her to ask her friend; she cannot agree on the friend’s behalf.",
+          "right": {
+            "zh": "请她问一下朋友，不能替朋友答应。",
+            "py": "qǐng tā wèn yī xià péng you , bù néng tì péng you dā yìng .",
+            "en": "Ask her to ask her friend; she cannot agree on the friend’s behalf."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Clarify unit",
+      "natural": {
+        "zh": "两双筷子是四根，对吗？",
+        "py": "liǎng shuāng kuài zi shì sì gēn , duì ma ?",
+        "en": "Two pairs of chopsticks are four individual sticks, right?"
+      },
+      "note": "Pair count differs from individual count."
+    },
+    {
+      "situation": "Decline a drink",
+      "natural": {
+        "zh": "我不喝啤酒，水就好。",
+        "py": "wǒ bù hē pí jiǔ , shuǐ jiù hǎo .",
+        "en": "I do not drink beer; water is fine."
+      },
+      "note": "A group meal does not require alcohol."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u06-speak",
+    "title": "Dinner for a big group",
+    "place": "A language-exchange meeting",
+    "context": "Count objects and portions in a busy restaurant.",
+    "goal": "Select common object and action classifiers in context",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "两双是几根？",
+        "pinyin": "liǎng shuāng shì jǐ gēn ?",
+        "meaning": "How many individual sticks are two pairs?",
+        "intent": "Count pairs correctly",
+        "examples": [
+          "通常四根。"
+        ],
+        "accept": [
+          "^通常四根。[。！？]?$"
+        ]
+      },
+      {
+        "text": "看一眼就够了吗？",
+        "pinyin": "kàn yī yǎn jiù gòu le ma ?",
+        "meaning": "Is one glance enough?",
+        "intent": "Request full reading",
+        "examples": [
+          "还要仔细读。"
+        ],
+        "accept": [
+          "^还要仔细读。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三09, 三10. Native check: noun classifier collocations, 行 háng and 只 zhī readings, 双 versus 根 quantities, 顿/口/眼 action measures and abbreviated measure phrases. Original meal scenario, no prescribed serving size. Native review pending. Planned retrieval 三01 / 三02 / 三05 / 三57: 老李是称呼，不能直接猜他的年龄。, 朋友们看包里头的书。, 下午理个发，再跟朋友谈一谈话。, 请她问一下朋友，不能替朋友答应。."
+}
