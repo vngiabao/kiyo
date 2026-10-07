@@ -1,0 +1,1175 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u37",
+    "stage": 2,
+    "order": 101,
+    "title": "Planning something together",
+    "titleZh": "先确认，再开展",
+    "canDo": [
+      "Organize steps with 首先…然后",
+      "Add a related point using 并且",
+      "Distinguish a plan from work already completed"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u36"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u37-w01",
+      "hanzi": "首先",
+      "pinyin": "shǒu xiān",
+      "meaning": "first",
+      "meaningVi": "trước hết",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "首先确认时间，然后再报名。",
+        "py": "shǒu xiān què rèn shí jiān , rán hòu zài bào míng .",
+        "en": "First confirm the time, then sign up."
+      },
+      "usageNote": "[GF2021:L3:7410] Source entry: 首先; shǒuxiān; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w02",
+      "hanzi": "其次",
+      "pinyin": "qí cì",
+      "meaning": "second; next",
+      "meaningVi": "thứ hai",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先看时间，其次看地点。",
+        "py": "xiān kàn shí jiān , qí cì kàn dì diǎn .",
+        "en": "First check time; next check location."
+      },
+      "usageNote": "[GF2021:L3:6218] Source entry: 其次; qícì; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w03",
+      "hanzi": "开展",
+      "pinyin": "kāi zhǎn",
+      "meaning": "to carry out; launch",
+      "meaningVi": "triển khai",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "社团下周开展活动。",
+        "py": "shè tuán xià zhōu kāi zhǎn huó dòng .",
+        "en": "The club launches activities next week."
+      },
+      "usageNote": "[GF2021:L3:4615] Source entry: 开展; kāizhǎn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w04",
+      "hanzi": "展开",
+      "pinyin": "zhǎn kāi",
+      "meaning": "to unfold; carry out",
+      "meaningVi": "mở; triển khai",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把图展开再看路线。",
+        "py": "bǎ tú zhǎn kāi zài kàn lù xiàn .",
+        "en": "Unfold the diagram before checking the route."
+      },
+      "usageNote": "[GF2021:L3:10226] Source entry: 展开; zhǎn∥kāi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w05",
+      "hanzi": "建",
+      "pinyin": "jiàn",
+      "meaning": "to build",
+      "meaningVi": "xây",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里他们建一个小厂。",
+        "py": "gù shì lǐ tā men jiàn yī gè xiǎo chǎng .",
+        "en": "They build a small factory in the story."
+      },
+      "usageNote": "[GF2021:L3:3986] Source entry: 建; jiàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w06",
+      "hanzi": "建成",
+      "pinyin": "jiàn chéng",
+      "meaning": "to complete construction",
+      "meaningVi": "xây xong",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "小厂还没建成。",
+        "py": "xiǎo chǎng hái méi jiàn chéng .",
+        "en": "The small factory is not finished."
+      },
+      "usageNote": "[GF2021:L3:3987] Source entry: 建成; jiànchéng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w07",
+      "hanzi": "建立",
+      "pinyin": "jiàn lì",
+      "meaning": "to establish",
+      "meaningVi": "thiết lập",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先建立联系，再安排见面。",
+        "py": "xiān jiàn lì lián xì , zài ān pái jiàn miàn .",
+        "en": "Establish contact before arranging a meeting."
+      },
+      "usageNote": "[GF2021:L3:3989] Source entry: 建立; jiànlì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w08",
+      "hanzi": "建设",
+      "pinyin": "jiàn shè",
+      "meaning": "construction; to build",
+      "meaningVi": "xây dựng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "建设计划还没开始实行。",
+        "py": "jiàn shè jì huà hái méi kāi shǐ shí xíng .",
+        "en": "The construction plan is not yet implemented."
+      },
+      "usageNote": "[GF2021:L3:3990] Source entry: 建设; jiànshè; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w09",
+      "hanzi": "成立",
+      "pinyin": "chéng lì",
+      "meaning": "to establish; be founded",
+      "meaningVi": "thành lập",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "社团去年成立。",
+        "py": "shè tuán qù nián chéng lì .",
+        "en": "The club was founded last year."
+      },
+      "usageNote": "[GF2021:L3:962] Source entry: 成立; chénglì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w10",
+      "hanzi": "设立",
+      "pinyin": "shè lì",
+      "meaning": "to set up",
+      "meaningVi": "lập",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "设立报名点以前先确认负责人。",
+        "py": "shè lì bào míng diǎn yǐ qián xiān què rèn fù zé rén .",
+        "en": "Confirm the responsible person before setting up a registration point."
+      },
+      "usageNote": "[GF2021:L3:7019] Source entry: 设立; shèlì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w11",
+      "hanzi": "厂",
+      "pinyin": "chǎng",
+      "meaning": "factory",
+      "meaningVi": "xưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "厂里还没有正式开工。",
+        "py": "chǎng lǐ hái méi yǒu zhèng shì kāi gōng .",
+        "en": "The factory has not formally started work."
+      },
+      "usageNote": "[GF2021:L3:849] Source entry: 厂; chǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w12",
+      "hanzi": "创业",
+      "pinyin": "chuàng yè",
+      "meaning": "to start a business",
+      "meaningVi": "khởi nghiệp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她想创业，还在了解条件。",
+        "py": "tā xiǎng chuàng yè , hái zài liǎo jiě tiáo jiàn .",
+        "en": "She wants to start a business and is still learning the requirements."
+      },
+      "usageNote": "[GF2021:L3:1261] Source entry: 创业; chuàngyè; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w13",
+      "hanzi": "从事",
+      "pinyin": "cóng shì",
+      "meaning": "to engage in work",
+      "meaningVi": "làm việc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "他从事教材制作。",
+        "py": "tā cóng shì jiào cái zhì zuò .",
+        "en": "He works in teaching-material production."
+      },
+      "usageNote": "[GF2021:L3:1340] Source entry: 从事; cóngshì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w14",
+      "hanzi": "经营",
+      "pinyin": "jīng yíng",
+      "meaning": "to run a business",
+      "meaningVi": "kinh doanh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "店还没开始经营。",
+        "py": "diàn hái méi kāi shǐ jīng yíng .",
+        "en": "The shop has not started trading."
+      },
+      "usageNote": "[GF2021:L3:4334] Source entry: 经营; jīngyíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w15",
+      "hanzi": "生意",
+      "pinyin": "shēng yi",
+      "meaning": "business; trade",
+      "meaningVi": "việc làm ăn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她说最近生意不多。",
+        "py": "tā shuō zuì jìn shēng yi bù duō .",
+        "en": "She says there is not much business recently."
+      },
+      "usageNote": "[GF2021:L3:7136] Source entry: 生意; shēngyi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w16",
+      "hanzi": "工资",
+      "pinyin": "gōng zī",
+      "meaning": "salary; wages",
+      "meaningVi": "lương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "通知没有写工资。",
+        "py": "tōng zhī méi yǒu xiě gōng zī .",
+        "en": "The notice does not state wages."
+      },
+      "usageNote": "[GF2021:L3:2768] Source entry: 工资; gōngzī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w17",
+      "hanzi": "职工",
+      "pinyin": "zhí gōng",
+      "meaning": "staff; employee",
+      "meaningVi": "nhân viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "职工参加活动是自愿的。",
+        "py": "zhí gōng cān jiā huó dòng shì zì yuàn de .",
+        "en": "Employees join the activity voluntarily."
+      },
+      "usageNote": "[GF2021:L3:10508] Source entry: 职工; zhígōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w18",
+      "hanzi": "就业",
+      "pinyin": "jiù yè",
+      "meaning": "to get employment",
+      "meaningVi": "có việc làm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她正在了解就业信息。",
+        "py": "tā zhèng zài liǎo jiě jiù yè xìn xī .",
+        "en": "She is learning about employment information."
+      },
+      "usageNote": "[GF2021:L3:4453] Source entry: 就业; jiù∥yè; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w19",
+      "hanzi": "事业",
+      "pinyin": "shì yè",
+      "meaning": "career; undertaking",
+      "meaningVi": "sự nghiệp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她谈自己的事业，不替别人定目标。",
+        "py": "tā tán zì jǐ de shì yè , bù tì bié ren dìng mù biāo .",
+        "en": "She discusses her career without setting others’ goals."
+      },
+      "usageNote": "[GF2021:L3:7310] Source entry: 事业; shìyè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w20",
+      "hanzi": "人才",
+      "pinyin": "rén cái",
+      "meaning": "talented people",
+      "meaningVi": "nhân tài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "人才需要适合的工作条件。",
+        "py": "rén cái xū yào shì hé de gōng zuò tiáo jiàn .",
+        "en": "Talented people need suitable working conditions."
+      },
+      "usageNote": "[GF2021:L3:6689] Source entry: 人才; réncái; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w21",
+      "hanzi": "推动",
+      "pinyin": "tuī dòng",
+      "meaning": "to promote; propel",
+      "meaningVi": "thúc đẩy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "朋友推动活动，也听不同意见。",
+        "py": "péng you tuī dòng huó dòng , yě tīng bù tóng yì jiàn .",
+        "en": "The friend promotes the activity and hears differing views."
+      },
+      "usageNote": "[GF2021:L3:8178] Source entry: 推动; tuī∥dòng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u37-w22",
+      "hanzi": "推进",
+      "pinyin": "tuī jìn",
+      "meaning": "to advance",
+      "meaningVi": "đẩy tới",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "确认以后再推进计划。",
+        "py": "què rèn yǐ hòu zài tuī jìn jì huà .",
+        "en": "Advance the plan after confirmation."
+      },
+      "usageNote": "[GF2021:L3:8183] Source entry: 推进; tuījìn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "社",
+      "pinyin": "shè",
+      "meaning": "society",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "社",
+          "role": "whole",
+          "gloss": "society"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 社 in 社会 / 旅行社. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "社会",
+          "p": "shè huì",
+          "m": "society"
+        },
+        {
+          "w": "旅行社",
+          "p": "lǚ xíng shè",
+          "m": "travel agency"
+        }
+      ]
+    },
+    {
+      "hanzi": "增",
+      "pinyin": "zēng",
+      "meaning": "increase",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "增",
+          "role": "whole",
+          "gloss": "increase"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 增 in 增加. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "增加",
+          "p": "zēng jiā",
+          "m": "to increase"
+        }
+      ]
+    },
+    {
+      "hanzi": "展",
+      "pinyin": "zhǎn",
+      "meaning": "expand; exhibit",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "展",
+          "role": "whole",
+          "gloss": "expand; exhibit"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 展 in 开展 / 展开. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "开展",
+          "p": "kāi zhǎn",
+          "m": "to carry out; launch"
+        },
+        {
+          "w": "展开",
+          "p": "zhǎn kāi",
+          "m": "to unfold; carry out"
+        }
+      ]
+    },
+    {
+      "hanzi": "济",
+      "pinyin": "jì",
+      "meaning": "economic; help",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "济",
+          "role": "whole",
+          "gloss": "economic; help"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 济 in 经济. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "经济",
+          "p": "jīng jì",
+          "m": "economy"
+        }
+      ]
+    },
+    {
+      "hanzi": "势",
+      "pinyin": "shì",
+      "meaning": "situation; momentum",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "势",
+          "role": "whole",
+          "gloss": "situation; momentum"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 势 in 优势 / 气势. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "优势",
+          "p": "yōu shì",
+          "m": "advantage; strength relative to others"
+        },
+        {
+          "w": "气势",
+          "p": "qì shì",
+          "m": "momentum; imposing manner"
+        }
+      ]
+    },
+    {
+      "hanzi": "坚",
+      "pinyin": "jiān",
+      "meaning": "firm",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "坚",
+          "role": "whole",
+          "gloss": "firm"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 坚 in 坚持 / 坚决. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "坚持",
+          "p": "jiān chí",
+          "m": "to persist"
+        },
+        {
+          "w": "坚决",
+          "p": "jiān jué",
+          "m": "firm; resolute"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u37-g三64",
+      "pattern": "首先…，然后…",
+      "purpose": "Sequence intended actions",
+      "explanation": "首先确认时间，然后报名 sets an order, not a claim that either step is finished. 其次 may introduce the next reason in an explanation; it is not automatically later in clock time.",
+      "examples": [
+        {
+          "zh": "首先确认时间，然后报名。",
+          "py": "shǒu xiān què rèn shí jiān , rán hòu bào míng .",
+          "en": "First confirm the time, then sign up."
+        },
+        {
+          "zh": "首先听问题，然后回答。",
+          "py": "shǒu xiān tīng wèn tí , rán hòu huí dá .",
+          "en": "First hear the question, then answer."
+        },
+        {
+          "zh": "首先看来源，然后核对日期。",
+          "py": "shǒu xiān kàn lái yuán , rán hòu hé duì rì qī .",
+          "en": "First check the source, then the date."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "首先确认，然后报名，所以已经报名了。",
+          "right": "这是顺序安排，还没说明报名完成。",
+          "why": "A planned sequence is not a completion report."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u37-g三65",
+      "pattern": "并且 + 相关补充",
+      "purpose": "Add a related point",
+      "explanation": "并且 adds a related action or quality to the preceding clause. 她核对时间，并且问了地点 states two actions; it does not imply causation. Avoid using 并且 where the intended relation is a contradiction.",
+      "examples": [
+        {
+          "zh": "她核对时间，并且问了地点。",
+          "py": "tā hé duì shí jiān , bìng qiě wèn le dì diǎn .",
+          "en": "She checks the time and also asks the location."
+        },
+        {
+          "zh": "活动有讲解，并且有练习。",
+          "py": "huó dòng yǒu jiǎng jiě , bìng qiě yǒu liàn xí .",
+          "en": "The activity includes explanation and practice."
+        },
+        {
+          "zh": "先听完，并且记下问题。",
+          "py": "xiān tīng wán , bìng qiě jì xià wèn tí .",
+          "en": "Hear everything first and also note questions."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她有空，并且她没有空。",
+          "right": "她想来，但是没有空。",
+          "why": "Use a contrastive connection for opposing information."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u37-d",
+    "title": "A club plan",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is confirmed and what remains planned.",
+    "lines": [
+      {
+        "zh": "社团去年成立，下周想开展语言活动。",
+        "py": "shè tuán qù nián chéng lì , xià zhōu xiǎng kāi zhǎn yǔ yán huó dòng .",
+        "en": "The club was founded last year and wants to launch a language activity next week.",
+        "speaker": "a"
+      },
+      {
+        "zh": "首先确认时间，然后报名，并且问场地有没有许可。",
+        "py": "shǒu xiān què rèn shí jiān , rán hòu bào míng , bìng qiě wèn chǎng dì yǒu méi yǒu xǔ kě .",
+        "en": "First confirm time, then register, and ask whether the venue has permission.",
+        "speaker": "b"
+      },
+      {
+        "zh": "职工都必须来吗？",
+        "py": "zhí gōng dōu bì xū lái ma ?",
+        "en": "Must all employees attend?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，自愿。名单也不等于出席记录。",
+        "py": "bù shì , zì yuàn . míng dān yě bù děng yú chū xí jì lù .",
+        "en": "No, attendance is voluntary; the list is not attendance.",
+        "speaker": "b"
+      },
+      {
+        "zh": "图展开了，小厂也建成了，就算已经经营了吗？",
+        "py": "tú zhǎn kāi le , xiǎo chǎng yě jiàn chéng le , jiù suàn yǐ jīng jīng yíng le ma ?",
+        "en": "The diagram is unfolded and the small factory finished; is it already trading?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不一定。建设、建成和经营是不同情况。先建立联系再问。",
+        "py": "bù yí dìng . jiàn shè , jiàn chéng hé jīng yíng shì bù tóng qíng kuàng . xiān jiàn lì lián xì zài wèn .",
+        "en": "Not necessarily. Construction, completion and trading differ; establish contact before asking.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Is attendance compulsory?",
+        "choices": [
+          "No, it is voluntary",
+          "Yes, everyone on the list must attend",
+          "Only the factory staff must attend"
+        ],
+        "answer": "No, it is voluntary"
+      },
+      {
+        "type": "detail",
+        "q": "When was the club founded?",
+        "choices": [
+          "Last year",
+          "Next week",
+          "Today"
+        ],
+        "answer": "Last year"
+      },
+      {
+        "type": "inference",
+        "q": "Does the list prove attendance?",
+        "choices": [
+          "No",
+          "Yes",
+          "If wages are mentioned"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "社团",
+        "pinyin": "shè tuán",
+        "meaning": "club; association"
+      },
+      {
+        "hanzi": "首先",
+        "pinyin": "shǒu xiān",
+        "meaning": "first"
+      },
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "sign up"
+      },
+      {
+        "hanzi": "出席",
+        "pinyin": "chū xí",
+        "meaning": "to attend"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u37-r",
+    "title": "Plan and conditions",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the organizer’s note.",
+    "lines": [
+      {
+        "zh": "设立报名点之前先确认权限，推进只写实际完成的部分。",
+        "py": "shè lì bào míng diǎn zhī qián xiān què rèn quán xiàn , tuī jìn zhǐ xiě shí jì wán chéng de bù fèn .",
+        "en": "Confirm authority before setting up registration; describe only actual progress."
+      },
+      {
+        "zh": "朋友从事教材制作，想创业，生意和工资条件都还要核对。",
+        "py": "péng you cóng shì jiào cái zhì zuò , xiǎng chuàng yè , shēng yi hé gōng zī tiáo jiàn dōu hái yào hé duì .",
+        "en": "The friend makes teaching materials and wants to start a business; business and wages still need checking."
+      },
+      {
+        "zh": "就业信息不是工作保证；人才的事业选择也要听本人。",
+        "py": "jiù yè xìn xī bù shì gōng zuò bǎo zhèng ; rén cái de shì yè xuǎn zé yě yào tīng běn rén .",
+        "en": "Employment information is not a job guarantee; hear talented people’s own career choices."
+      },
+      {
+        "zh": "首先看时间，其次看地点，并且记录不同意见。推动活动不是强迫参加。",
+        "py": "shǒu xiān kàn shí jiān , qí cì kàn dì diǎn , bìng qiě jì lù bù tóng yì jiàn . tuī dòng huó dòng bù shì qiǎng pò cān jiā .",
+        "en": "First consider time, next location, and record differing views; promoting an event is not forcing attendance."
+      },
+      {
+        "zh": "经济条件、增加的人数和气势不代替许可；展开讨论，能坚持也允许暂停。",
+        "py": "jīng jì tiáo jiàn , zēng jiā de rén shù hé qì shì bù dài tì xǔ kě ; zhǎn kāi tǎo lùn , néng jiān chí yě yǔn xǔ zàn tíng .",
+        "en": "Economic conditions, increased attendance and momentum do not replace permission; open discussion, with room to pause even when persistent."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What is considered first and next?",
+        "choices": [
+          "Time, then place",
+          "Place, then clothing",
+          "Attendance, then an automatic job offer"
+        ],
+        "answer": "Time, then place"
+      },
+      {
+        "type": "inference",
+        "q": "Does employment information guarantee a job?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only when the diagram is unfolded"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What limits the plan?",
+        "choices": [
+          "Actual confirmation, authority and voluntary choice",
+          "An assumed job guarantee",
+          "A list treated as attendance"
+        ],
+        "answer": "Actual confirmation, authority and voluntary choice"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【首先】看时间，其次看地点，并且记录不同意见。推动活动不是强迫参加。",
+          "py": "shǒu xiān kàn shí jiān , qí cì kàn dì diǎn , bìng qiě jì lù bù tóng yì jiàn . tuī dòng huó dòng bù shì qiǎng pò cān jiā .",
+          "en": "First consider time, next location, and record differing views; promoting an event is not forcing attendance."
+        }
+      ],
+      "bank": [
+        "首先",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "增加",
+        "pinyin": "zēng jiā",
+        "meaning": "to increase"
+      },
+      {
+        "hanzi": "经济",
+        "pinyin": "jīng jì",
+        "meaning": "economy"
+      },
+      {
+        "hanzi": "气势",
+        "pinyin": "qì shì",
+        "meaning": "momentum; imposing manner"
+      },
+      {
+        "hanzi": "坚持",
+        "pinyin": "jiān chí",
+        "meaning": "to persist"
+      },
+      {
+        "hanzi": "首先",
+        "pinyin": "shǒu xiān",
+        "meaning": "first"
+      },
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "sign up"
+      },
+      {
+        "hanzi": "权限",
+        "pinyin": "quán xiàn",
+        "meaning": "authority"
+      },
+      {
+        "hanzi": "强迫",
+        "pinyin": "qiǎng pò",
+        "meaning": "to force"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u37-media",
+      "title": "The plan stands up first",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original comic scene.",
+      "lines": [
+        {
+          "zh": "我把图展开了，计划是不是已经推进了？",
+          "py": "wǒ bǎ tú zhǎn kāi le , jì huà shì bú shì yǐ jīng tuī jìn le ?",
+          "en": "I unfolded the diagram; has the plan already advanced?",
+          "speaker": "a"
+        },
+        {
+          "zh": "纸展开了，人还没报名。",
+          "py": "zhǐ zhǎn kāi le , rén hái méi bào míng .",
+          "en": "The paper unfolded; nobody has registered yet.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那就先问时间，别让纸替我完成。",
+          "py": "nà jiù xiān wèn shí jiān , bié ràng zhǐ tì wǒ wán chéng .",
+          "en": "Then ask the time first; do not let paper complete it for me.",
+          "speaker": "a"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the correction?",
+          "choices": [
+            "Preparation is not completion",
+            "A drawing guarantees work",
+            "Every activity is compulsory"
+          ],
+          "answer": "Preparation is not completion"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "sign up"
+        }
+      ]
+    },
+    {
+      "id": "s3-u37-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "社团下周开展活动。",
+          "py": "shè tuán xià zhōu kāi zhǎn huó dòng .",
+          "en": "The club launches activities next week."
+        },
+        {
+          "zh": "建设计划还没开始实行。",
+          "py": "jiàn shè jì huà hái méi kāi shǐ shí xíng .",
+          "en": "The construction plan is not yet implemented."
+        },
+        {
+          "zh": "设立报名点以前先确认负责人。",
+          "py": "shè lì bào míng diǎn yǐ qián xiān què rèn fù zé rén .",
+          "en": "Confirm the responsible person before setting up a registration point."
+        },
+        {
+          "zh": "他从事教材制作。",
+          "py": "tā cóng shì jiào cái zhì zuò .",
+          "en": "He works in teaching-material production."
+        },
+        {
+          "zh": "她说最近生意不多。",
+          "py": "tā shuō zuì jìn shēng yi bù duō .",
+          "en": "She says there is not much business recently."
+        },
+        {
+          "zh": "她正在了解就业信息。",
+          "py": "tā zhèng zài liǎo jiě jiù yè xìn xī .",
+          "en": "She is learning about employment information."
+        },
+        {
+          "zh": "她谈自己的事业，不替别人定目标。",
+          "py": "tā tán zì jǐ de shì yè , bù tì bié ren dìng mù biāo .",
+          "en": "She discusses her career without setting others’ goals."
+        },
+        {
+          "zh": "人才需要适合的工作条件。",
+          "py": "rén cái xū yào shì hé de gōng zuò tiáo jiàn .",
+          "en": "Talented people need suitable working conditions."
+        },
+        {
+          "zh": "朋友推动活动，也听不同意见。",
+          "py": "péng you tuī dòng huó dòng , yě tīng bù tóng yì jiàn .",
+          "en": "The friend promotes the activity and hears differing views."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "社团",
+          "pinyin": "shè tuán",
+          "meaning": "club; association"
+        },
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "sign up"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u37-t1",
+      "phrase": "s3-u37-w09",
+      "audio": {
+        "zh": "社团去年成立。",
+        "py": "shè tuán qù nián chéng lì .",
+        "en": "The club was founded last year."
+      },
+      "statement": "It was founded last year.",
+      "answer": true,
+      "why": "The date is explicit."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u37-t2",
+      "phrase": "s3-u37-w06",
+      "audio": {
+        "zh": "小厂建成，还没经营。",
+        "py": "xiǎo chǎng jiàn chéng , hái méi jīng yíng .",
+        "en": "The factory is built but not trading."
+      },
+      "statement": "It is already trading.",
+      "answer": false,
+      "why": "Trading is explicitly uncompleted."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u37-t3",
+      "phrase": "s3-u37-w17",
+      "prompt": {
+        "zh": "名单就说明大家来了？",
+        "py": "míng dān jiù shuō míng dà jiā lái le ?",
+        "en": "Does the list prove everyone attended?"
+      },
+      "choices": [
+        "不是，还要出席记录。",
+        "名单代替实际记录。",
+        "有图就算来了。"
+      ],
+      "answer": "不是，还要出席记录。",
+      "why": "List membership differs from attendance."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u37-t4",
+      "phrase": "s3-u37-w22",
+      "prompt": {
+        "zh": "现在可以推进吗？",
+        "py": "xiàn zài kě yǐ tuī jìn ma ?",
+        "en": "May we advance now?"
+      },
+      "choices": [
+        "先确认时间和许可。",
+        "不问场地就行。",
+        "计划等于完成。"
+      ],
+      "answer": "先确认时间和许可。",
+      "why": "Confirm before proceeding."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u37-t5",
+      "phrase": "s3-u37-w01",
+      "line": {
+        "zh": "【首先】确认时间，然后报名。",
+        "py": "shǒu xiān què rèn shí jiān , rán hòu bào míng .",
+        "en": "Confirm time first, then register."
+      },
+      "blankPy": "shǒu xiān"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u37-t6",
+      "phrase": "s3-u37-w16",
+      "line": {
+        "zh": "通知没有写【工资】。",
+        "py": "tōng zhī méi yǒu xiě gōng zī .",
+        "en": "The notice gives no wages."
+      },
+      "blankPy": "gōng zī"
+    },
+    {
+      "type": "match",
+      "id": "s3-u37-t7",
+      "phrase": "s3-u37-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Establish contact first.",
+          "right": {
+            "zh": "先建立联系。",
+            "py": "xiān jiàn lì lián xì .",
+            "en": "Establish contact first."
+          }
+        },
+        {
+          "left": "And also asked the location.",
+          "right": {
+            "zh": "并且问了地点。",
+            "py": "bìng qiě wèn le dì diǎn .",
+            "en": "And also asked the location."
+          }
+        },
+        {
+          "left": "A business idea is not an outcome.",
+          "right": {
+            "zh": "创业想法不是结果。",
+            "py": "chuàng yè xiǎng fǎ bù shì jié guǒ .",
+            "en": "A business idea is not an outcome."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u37-t8",
+      "phrase": "s3-u37-w02",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Next consider location.",
+          "right": {
+            "zh": "其次看地点。",
+            "py": "qí cì kàn dì diǎn .",
+            "en": "Next consider location."
+          }
+        },
+        {
+          "left": "Staff participate voluntarily.",
+          "right": {
+            "zh": "职工自愿参加。",
+            "py": "zhí gōng zì yuàn cān jiā .",
+            "en": "Staff participate voluntarily."
+          }
+        },
+        {
+          "left": "The factory is not finished.",
+          "right": {
+            "zh": "小厂还没建成。",
+            "py": "xiǎo chǎng hái méi jiàn chéng .",
+            "en": "The factory is not finished."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u37-t9",
+      "phrase": "s3-u37-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "These emails cannot be dealt with today.",
+          "right": {
+            "zh": "这些邮件今天处理不了。",
+            "py": "zhè xiē yóu jiàn jīn tiān chǔ lǐ bù le .",
+            "en": "These emails cannot be dealt with today."
+          }
+        },
+        {
+          "left": "I asked her three times.",
+          "right": {
+            "zh": "我问了她三次。",
+            "py": "wǒ wèn le tā sān cì .",
+            "en": "I asked her three times."
+          }
+        },
+        {
+          "left": "I watch football and also dance.",
+          "right": {
+            "zh": "我也看足球，也跳舞。",
+            "py": "wǒ yě kàn zú qiú , yě tiào wǔ .",
+            "en": "I watch football and also dance."
+          }
+        },
+        {
+          "left": "She is both happy and nervous.",
+          "right": {
+            "zh": "她又高兴又紧张。",
+            "py": "tā yòu gāo xìng yòu jǐn zhāng .",
+            "en": "She is both happy and nervous."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Sequence",
+      "natural": {
+        "zh": "先确认，再推进。",
+        "py": "xiān què rèn , zài tuī jìn .",
+        "en": "Confirm first, then advance."
+      },
+      "note": "Preparation and completion differ."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u37-speak",
+    "title": "Planning something together",
+    "place": "A language-exchange meeting",
+    "context": "Explain steps and add connected information.",
+    "goal": "Organize steps with 首先…然后",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "怎么开始？",
+        "pinyin": "zěn me kāi shǐ ?",
+        "meaning": "How should we start?",
+        "intent": "Sequence two steps",
+        "examples": [
+          "首先确认时间，然后报名。"
+        ],
+        "accept": [
+          "^首先确认时间，然后报名。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三64, 三65. Native check: first versus second reason, 并且 scope, club and employment register, construction/completion/trading distinction. Fictional business language, not advice or guarantees. Native review pending. Planned retrieval 三48 / 三50 / 三60 / 三63: 这些邮件今天处理不了。, 我问了她三次。, 我也看足球，也跳舞。, 她又高兴又紧张。."
+}

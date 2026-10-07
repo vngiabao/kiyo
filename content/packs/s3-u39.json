@@ -1,0 +1,1154 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u39",
+    "stage": 2,
+    "order": 103,
+    "title": "Splitting the trip costs",
+    "titleZh": "涨了多少，要看原来多少",
+    "canDo": [
+      "Follow 了…就 linked completed and subsequent events",
+      "Read approximate numbers without false precision",
+      "Compare costs using explicit scope"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u38"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u39-w01",
+      "hanzi": "任",
+      "pinyin": "rèn",
+      "meaning": "regardless of; no matter",
+      "meaningVi": "dù",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "任你怎么说，都要看实际记录。",
+        "py": "rèn nǐ zěn me shuō , dōu yào kàn shí jì jì lù .",
+        "en": "No matter what you say, we must check the actual record."
+      },
+      "usageNote": "[GF2021:L3:6746] Source entry: 任; rèn; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w02",
+      "hanzi": "为",
+      "pinyin": "wéi",
+      "meaning": "to be; serve as, wéi",
+      "meaningVi": "là; làm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她作为负责人先核对金额。",
+        "py": "tā zuò wéi fù zé rén xiān hé duì jīn é .",
+        "en": "Serving as the responsible person, she checks amounts first."
+      },
+      "usageNote": "[GF2021:L3:8374] Source entry: 为; wéi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w03",
+      "hanzi": "某",
+      "pinyin": "mǒu",
+      "meaning": "some; a certain",
+      "meaningVi": "nào đó",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "某个商品涨价了，还不知道哪个。",
+        "py": "mǒu gè shāng pǐn zhǎng jià le , hái bù zhī dào nǎ gè .",
+        "en": "A certain product rose in price; we do not yet know which."
+      },
+      "usageNote": "[GF2021:L3:5695] Source entry: 某; mǒu; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w04",
+      "hanzi": "费",
+      "pinyin": "fèi",
+      "meaning": "to spend; expense",
+      "meaningVi": "tốn; phí",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这样做费时间。",
+        "py": "zhè yàng zuò fèi shí jiān .",
+        "en": "Doing this takes time."
+      },
+      "usageNote": "[GF2021:L3:2325] Source entry: 费; fèi; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w05",
+      "hanzi": "商品",
+      "pinyin": "shāng pǐn",
+      "meaning": "goods; product",
+      "meaningVi": "hàng hóa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "商品价格要看日期。",
+        "py": "shāng pǐn jià gé yào kàn rì qī .",
+        "en": "Check the date of a product’s price."
+      },
+      "usageNote": "[GF2021:L3:6934] Source entry: 商品; shāngpǐn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w06",
+      "hanzi": "商业",
+      "pinyin": "shāng yè",
+      "meaning": "commerce; commercial",
+      "meaningVi": "thương mại",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "商业介绍和朋友意见不同。",
+        "py": "shāng yè jiè shào hé péng you yì jiàn bù tóng .",
+        "en": "A commercial introduction differs from a friend’s view."
+      },
+      "usageNote": "[GF2021:L3:6938] Source entry: 商业; shāngyè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w07",
+      "hanzi": "市场",
+      "pinyin": "shì chǎng",
+      "meaning": "market",
+      "meaningVi": "thị trường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个市场的价格还没核对。",
+        "py": "zhè gè shì chǎng de jià gé hái méi hé duì .",
+        "en": "Prices at this market are unverified."
+      },
+      "usageNote": "[GF2021:L3:7285] Source entry: 市场; shìchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w08",
+      "hanzi": "经济",
+      "pinyin": "jīng jì",
+      "meaning": "economy; economic",
+      "meaningVi": "kinh tế",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "经济数据要说明年份。",
+        "py": "jīng jì shù jù yào shuō míng nián fèn .",
+        "en": "Economic data needs a stated year."
+      },
+      "usageNote": "[GF2021:L3:4326] Source entry: 经济; jīngjì; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w09",
+      "hanzi": "上升",
+      "pinyin": "shàng shēng",
+      "meaning": "to rise",
+      "meaningVi": "tăng lên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这次价格上升了。",
+        "py": "zhè cì jià gé shàng shēng le .",
+        "en": "The price rose this time."
+      },
+      "usageNote": "[GF2021:L3:6964] Source entry: 上升; shàngshēng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w10",
+      "hanzi": "增加",
+      "pinyin": "zēng jiā",
+      "meaning": "to increase",
+      "meaningVi": "tăng thêm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "人数增加了五个。",
+        "py": "rén shù zēng jiā le wǔ gè .",
+        "en": "The number of people increased by five."
+      },
+      "usageNote": "[GF2021:L3:10192] Source entry: 增加; zēngjiā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w11",
+      "hanzi": "增长",
+      "pinyin": "zēng zhǎng",
+      "meaning": "to grow; growth",
+      "meaningVi": "tăng trưởng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这次总量增长，不说明每个人都增加。",
+        "py": "zhè cì zǒng liàng zēng zhǎng , bù shuō míng měi gè rén dōu zēng jiā .",
+        "en": "The total grew, not necessarily everyone’s amount."
+      },
+      "usageNote": "[GF2021:L3:10197] Source entry: 增长; zēngzhǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w12",
+      "hanzi": "升",
+      "pinyin": "shēng",
+      "meaning": "to rise; litre",
+      "meaningVi": "lên; lít",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "价格升了，先看实际通知。",
+        "py": "jià gé shēng le , xiān kàn shí jì tōng zhī .",
+        "en": "The price rose; check the actual notice."
+      },
+      "usageNote": "[GF2021:L3:7106] Source entry: 升; shēng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w13",
+      "hanzi": "值",
+      "pinyin": "zhí",
+      "meaning": "to be worth",
+      "meaningVi": "đáng giá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个杯子值多少钱还没确认。",
+        "py": "zhè gè bēi zi zhí duō shao qián hái méi què rèn .",
+        "en": "The cup’s value is not confirmed."
+      },
+      "usageNote": "[GF2021:L3:10504] Source entry: 值; zhí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w14",
+      "hanzi": "值得",
+      "pinyin": "zhí de",
+      "meaning": "to be worthwhile",
+      "meaningVi": "đáng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个问题值得再问。",
+        "py": "zhè gè wèn tí zhí de zài wèn .",
+        "en": "This question is worth asking again."
+      },
+      "usageNote": "[GF2021:L3:10506] Source entry: 值得; zhí∥·dé; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w15",
+      "hanzi": "突出",
+      "pinyin": "tū chū",
+      "meaning": "prominent; stand out",
+      "meaningVi": "nổi bật",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个数字特别突出。",
+        "py": "zhè gè shù zì tè bié tū chū .",
+        "en": "This number stands out."
+      },
+      "usageNote": "[GF2021:L3:8131] Source entry: 突出; tūchū; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w16",
+      "hanzi": "特色",
+      "pinyin": "tè sè",
+      "meaning": "distinctive feature",
+      "meaningVi": "đặc trưng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "特色介绍要看实际内容。",
+        "py": "tè sè jiè shào yào kàn shí jì nèi róng .",
+        "en": "Check actual content for distinctive features."
+      },
+      "usageNote": "[GF2021:L3:7865] Source entry: 特色; tèsè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w17",
+      "hanzi": "普及",
+      "pinyin": "pǔ jí",
+      "meaning": "to popularize; widespread",
+      "meaningVi": "phổ cập",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "活动帮助普及阅读知识。",
+        "py": "huó dòng bāng zhù pǔ jí yuè dú zhī shi .",
+        "en": "The activity helps spread reading knowledge."
+      },
+      "usageNote": "[GF2021:L3:6191] Source entry: 普及; pǔjí; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w18",
+      "hanzi": "发达",
+      "pinyin": "fā dá",
+      "meaning": "developed",
+      "meaningVi": "phát triển",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "交通发达也要看具体路线。",
+        "py": "jiāo tōng fā dá yě yào kàn jù tǐ lù xiàn .",
+        "en": "Even with developed transport, check the route."
+      },
+      "usageNote": "[GF2021:L3:2131] Source entry: 发达; fādá; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w19",
+      "hanzi": "石油",
+      "pinyin": "shí yóu",
+      "meaning": "petroleum",
+      "meaningVi": "dầu mỏ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "报道提到石油价格，没有给购买建议。",
+        "py": "bào dào tí dào shí yóu jià gé , méi yǒu gěi gòu mǎi jiàn yì .",
+        "en": "The report mentions oil prices without purchase advice."
+      },
+      "usageNote": "[GF2021:L3:7207] Source entry: 石油; shíyóu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w20",
+      "hanzi": "环",
+      "pinyin": "huán",
+      "meaning": "ring; loop",
+      "meaningVi": "vòng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这条路线是一个环。",
+        "py": "zhè tiáo lù xiàn shì yī gè huán .",
+        "en": "This route forms a loop."
+      },
+      "usageNote": "[GF2021:L3:3502] Source entry: 环; huán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w21",
+      "hanzi": "环保",
+      "pinyin": "huán bǎo",
+      "meaning": "environmental protection",
+      "meaningVi": "bảo vệ môi trường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "环保说法要看具体做法。",
+        "py": "huán bǎo shuō fǎ yào kàn jù tǐ zuò fǎ .",
+        "en": "Check specific actions behind environmental claims."
+      },
+      "usageNote": "[GF2021:L3:3503] Source entry: 环保; huánbǎo; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u39-w22",
+      "hanzi": "环境",
+      "pinyin": "huán jìng",
+      "meaning": "environment; surroundings",
+      "meaningVi": "môi trường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "环境介绍不代替现场观察。",
+        "py": "huán jìng jiè shào bù dài tì xiàn chǎng guān chá .",
+        "en": "An environment description does not replace observation."
+      },
+      "usageNote": "[GF2021:L3:3505] Source entry: 环境; huánjìng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "环",
+      "pinyin": "huán",
+      "meaning": "ring; surrounding",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "环",
+          "role": "whole",
+          "gloss": "ring; surrounding"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 环 in 环 / 环保. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "环",
+          "p": "huán",
+          "m": "ring; loop"
+        },
+        {
+          "w": "环保",
+          "p": "huán bǎo",
+          "m": "environmental protection"
+        }
+      ]
+    },
+    {
+      "hanzi": "境",
+      "pinyin": "jìng",
+      "meaning": "boundary; situation",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "境",
+          "role": "whole",
+          "gloss": "boundary; situation"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 境 in 环境. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "环境",
+          "p": "huán jìng",
+          "m": "environment; surroundings"
+        }
+      ]
+    },
+    {
+      "hanzi": "升",
+      "pinyin": "shēng",
+      "meaning": "rise",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "升",
+          "role": "whole",
+          "gloss": "rise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 升 in 上升 / 升. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "上升",
+          "p": "shàng shēng",
+          "m": "to rise"
+        },
+        {
+          "w": "升",
+          "p": "shēng",
+          "m": "to rise; litre"
+        }
+      ]
+    },
+    {
+      "hanzi": "石",
+      "pinyin": "shí",
+      "meaning": "stone",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "石",
+          "role": "whole",
+          "gloss": "stone"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 石 in 石油 / 石头. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "石油",
+          "p": "shí yóu",
+          "m": "petroleum"
+        },
+        {
+          "w": "石头",
+          "p": "shí tou",
+          "m": "stone"
+        }
+      ]
+    },
+    {
+      "hanzi": "象",
+      "pinyin": "xiàng",
+      "meaning": "elephant; appearance",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "象",
+          "role": "whole",
+          "gloss": "elephant; appearance"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 象 in 印象 / 对象. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "印象",
+          "p": "yìn xiàng",
+          "m": "impression"
+        },
+        {
+          "w": "对象",
+          "p": "duì xiàng",
+          "m": "object; intended recipient"
+        }
+      ]
+    },
+    {
+      "hanzi": "啤",
+      "pinyin": "pí",
+      "meaning": "in 啤酒: beer",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "啤",
+          "role": "whole",
+          "gloss": "in 啤酒: beer"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 啤 in 啤酒. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "啤酒",
+          "p": "pí jiǔ",
+          "m": "beer"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u39-g三73",
+      "pattern": "完成动作 + 了 + 就 + 后续动作",
+      "purpose": "Follow event order",
+      "explanation": "看了通知就问她 says the asking follows reading the notice. The second event is not necessarily guaranteed whenever the first occurs; read the stated context and tense. 买了就用 is distinct from 一买就用 habitual or immediate framing.",
+      "examples": [
+        {
+          "zh": "我看了通知就问她。",
+          "py": "wǒ kàn le tōng zhī jiù wèn tā .",
+          "en": "After reading the notice I asked her."
+        },
+        {
+          "zh": "到了市场就核对价格。",
+          "py": "dào le shì chǎng jiù hé duì jià gé .",
+          "en": "After reaching the market, check prices."
+        },
+        {
+          "zh": "她问了条件就记下来。",
+          "py": "tā wèn le tiáo jiàn jiù jì xià lái .",
+          "en": "After asking the conditions, she notes them."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "看了通知就问她，说明没看通知。",
+          "right": "这句话先说看通知，再说问她。",
+          "why": "The first event precedes the second in this report."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u39-g三74",
+      "pattern": "数量 + 左右 / 大约 + 数量；相邻数",
+      "purpose": "Read approximations",
+      "explanation": "十个人左右 and 大约十个人 are approximate, not exactly ten. 三四个人 is normally three or four people; do not generalize adjacent numerals to a mathematically exact range in every context. Avoid redundant 大约…左右 in careful precision tasks.",
+      "examples": [
+        {
+          "zh": "十个人左右参加。",
+          "py": "shí gè rén zuǒ yòu cān jiā .",
+          "en": "About ten people attend."
+        },
+        {
+          "zh": "大约三十块。",
+          "py": "dà yuē sān shí kuài .",
+          "en": "Approximately thirty yuan."
+        },
+        {
+          "zh": "三四个人还没到。",
+          "py": "sān sì gè rén hái méi dào .",
+          "en": "Three or four people have not arrived."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "十个人左右就是正好十个。",
+          "right": "十个人左右是大概，不是精确数。",
+          "why": "Approximation does not establish exact equality."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u39-d",
+    "title": "What actually increased?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the quantity and its scope.",
+    "lines": [
+      {
+        "zh": "通知说人数增加五个，是百分之五吗？",
+        "py": "tōng zhī shuō rén shù zēng jiā wǔ gè , shì bǎi fēn zhī wǔ ma ?",
+        "en": "The notice says five more people. Is that five percent?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，增加人数和比例不同，要看原来多少。",
+        "py": "bù shì , zēng jiā rén shù hé bǐ lì bù tóng , yào kàn yuán lái duō shao .",
+        "en": "No; a count increase differs from a proportion; check the original total.",
+        "speaker": "b"
+      },
+      {
+        "zh": "某个商品价格上升，整个市场都涨了吗？",
+        "py": "mǒu gè shāng pǐn jià gé shàng shēng , zhěng gè shì chǎng dōu zhǎng le ma ?",
+        "en": "A certain product’s price rose. Did the entire market rise?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没说。经济报道也要看时间和范围。",
+        "py": "méi shuō . jīng jì bào dào yě yào kàn shí jiān hé fàn wéi .",
+        "en": "It does not say; economic reports need time and scope.",
+        "speaker": "b"
+      },
+      {
+        "zh": "大约三十块，十个人左右，都是准确数吗？",
+        "py": "dà yuē sān shí kuài , shí gè rén zuǒ yòu , dōu shì zhǔn què shù ma ?",
+        "en": "About thirty yuan and about ten people: are they exact?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是。我看了通知就问她，先核对再记录。",
+        "py": "bù shì . wǒ kàn le tōng zhī jiù wèn tā , xiān hé duì zài jì lù .",
+        "en": "No. After reading the notice I asked her; verify before recording.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "inference",
+        "q": "Does one product’s price rise establish that the whole market rose?",
+        "choices": [
+          "No, the report does not establish that",
+          "Yes, all prices certainly increased",
+          "Yes, every price stayed the same"
+        ],
+        "answer": "No, the report does not establish that"
+      },
+      {
+        "type": "detail",
+        "q": "What increase is stated?",
+        "choices": [
+          "Five people",
+          "Five percent",
+          "Every product price"
+        ],
+        "answer": "Five people"
+      },
+      {
+        "type": "inference",
+        "q": "Does about ten specify an exact count?",
+        "choices": [
+          "No",
+          "Yes",
+          "If the market is developed"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "涨",
+        "pinyin": "zhǎng",
+        "meaning": "to rise"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u39-r",
+    "title": "Costs without invented precision",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the comparison note.",
+    "lines": [
+      {
+        "zh": "商品值多少还没确认，商业介绍与实际付款记录分开。费时间也不是金额。",
+        "py": "shāng pǐn zhí duō shao hái méi què rèn , shāng yè jiè shào yǔ shí jì fù kuǎn jì lù fēn kāi . fèi shí jiān yě bù shì jīn é .",
+        "en": "A product’s value is unconfirmed; keep commercial descriptions separate from payments; time spent is not money."
+      },
+      {
+        "zh": "总量增长不说明每个人都增加，价格升了也先问比较时间。",
+        "py": "zǒng liàng zēng zhǎng bù shuō míng měi gè rén dōu zēng jiā , jià gé shēng le yě xiān wèn bǐ jiào shí jiān .",
+        "en": "Total growth does not mean every individual increased; ask the comparison period for price rises."
+      },
+      {
+        "zh": "突出数字可能只是一部分，特色和发达不表示所有人都满意。",
+        "py": "tū chū shù zì kě néng zhǐ shì yī bù fèn , tè sè hé fā dá bù biǎo shì suǒ yǒu rén dōu mǎn yì .",
+        "en": "A prominent number may be only one part; distinctiveness and development do not imply universal satisfaction."
+      },
+      {
+        "zh": "报道说石油价格，这里没有投资建议。环保要看具体做法，环境要现场观察。",
+        "py": "bào dào shuō shí yóu jià gé , zhè lǐ méi yǒu tóu zī jiàn yì . huán bǎo yào kàn jù tǐ zuò fǎ , huán jìng yào xiàn chǎng guān chá .",
+        "en": "The report discusses oil prices without investment advice; check environmental actions and observe conditions."
+      },
+      {
+        "zh": "环形图里有大象和石头，旁边卖啤酒，但图片不代表实际数量或年龄许可。",
+        "py": "huán xíng tú lǐ yǒu dà xiàng hé shí tou , páng biān mài pí jiǔ , dàn tú piàn bù dài biǎo shí jì shù liàng huò nián líng xǔ kě .",
+        "en": "The loop diagram depicts an elephant and stones, with beer sold nearby; the picture does not establish quantities or age permission."
+      },
+      {
+        "zh": "她作为负责人说，任你怎么说，普及活动也先核对。值得问，不等于必须买。",
+        "py": "tā zuò wéi fù zé rén shuō , rèn nǐ zěn me shuō , pǔ jí huó dòng yě xiān hé duì . zhí de wèn , bù děng yú bì xū mǎi .",
+        "en": "As leader she says: whatever you say, verify the outreach activity first; worth asking does not mean compulsory purchase."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What is shown in the loop diagram?",
+        "choices": [
+          "An elephant and stones",
+          "Only a timetable",
+          "A completed attendance list"
+        ],
+        "answer": "An elephant and stones"
+      },
+      {
+        "type": "inference",
+        "q": "Does 值得问 mean that a purchase is required?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only for the group leader"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What does the note insist on?",
+        "choices": [
+          "Scope and actual evidence",
+          "Exactness from approximate wording",
+          "Financial recommendations"
+        ],
+        "answer": "Scope and actual evidence"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【商品】值多少还没确认，商业介绍与实际付款记录分开。费时间也不是金额。",
+          "py": "shāng pǐn zhí duō shao hái méi què rèn , shāng yè jiè shào yǔ shí jì fù kuǎn jì lù fēn kāi . fèi shí jiān yě bù shì jīn é .",
+          "en": "A product’s value is unconfirmed; keep commercial descriptions separate from payments; time spent is not money."
+        }
+      ],
+      "bank": [
+        "商品",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "环形",
+        "pinyin": "huán xíng",
+        "meaning": "ring-shaped"
+      },
+      {
+        "hanzi": "石头",
+        "pinyin": "shí tou",
+        "meaning": "stone"
+      },
+      {
+        "hanzi": "大象",
+        "pinyin": "dà xiàng",
+        "meaning": "elephant"
+      },
+      {
+        "hanzi": "啤酒",
+        "pinyin": "pí jiǔ",
+        "meaning": "beer"
+      },
+      {
+        "hanzi": "总量",
+        "pinyin": "zǒng liàng",
+        "meaning": "total amount"
+      },
+      {
+        "hanzi": "投资",
+        "pinyin": "tóu zī",
+        "meaning": "investment"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u39-media",
+      "title": "My exact approximate answer",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original comic scene.",
+      "lines": [
+        {
+          "zh": "大约三十，我答得特别精确。",
+          "py": "dà yuē sān shí , wǒ dá dé tè bié jīng què .",
+          "en": "Approximately thirty: my answer is very precise.",
+          "speaker": "a"
+        },
+        {
+          "zh": "大约已经告诉你，不是精确数。",
+          "py": "dà yuē yǐ jīng gào sù nǐ , bù shì jīng què shù .",
+          "en": "Approximately has already told you it is not exact.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，我精确地知道自己还不知道。",
+          "py": "hǎo , wǒ jīng què de zhī dào zì jǐ hái bù zhī dào .",
+          "en": "Fine; I precisely know I do not yet know.",
+          "speaker": "a"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is acknowledged?",
+          "choices": [
+            "The number is approximate",
+            "The exact price is confirmed",
+            "Every price rose"
+          ],
+          "answer": "The number is approximate"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u39-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "任你怎么说，都要看实际记录。",
+          "py": "rèn nǐ zěn me shuō , dōu yào kàn shí jì jì lù .",
+          "en": "No matter what you say, we must check the actual record."
+        },
+        {
+          "zh": "她作为负责人先核对金额。",
+          "py": "tā zuò wéi fù zé rén xiān hé duì jīn é .",
+          "en": "Serving as the responsible person, she checks amounts first."
+        },
+        {
+          "zh": "这样做费时间。",
+          "py": "zhè yàng zuò fèi shí jiān .",
+          "en": "Doing this takes time."
+        },
+        {
+          "zh": "商业介绍和朋友意见不同。",
+          "py": "shāng yè jiè shào hé péng you yì jiàn bù tóng .",
+          "en": "A commercial introduction differs from a friend’s view."
+        },
+        {
+          "zh": "经济数据要说明年份。",
+          "py": "jīng jì shù jù yào shuō míng nián fèn .",
+          "en": "Economic data needs a stated year."
+        },
+        {
+          "zh": "这次价格上升了。",
+          "py": "zhè cì jià gé shàng shēng le .",
+          "en": "The price rose this time."
+        },
+        {
+          "zh": "这个数字特别突出。",
+          "py": "zhè gè shù zì tè bié tū chū .",
+          "en": "This number stands out."
+        },
+        {
+          "zh": "活动帮助普及阅读知识。",
+          "py": "huó dòng bāng zhù pǔ jí yuè dú zhī shi .",
+          "en": "The activity helps spread reading knowledge."
+        },
+        {
+          "zh": "交通发达也要看具体路线。",
+          "py": "jiāo tōng fā dá yě yào kàn jù tǐ lù xiàn .",
+          "en": "Even with developed transport, check the route."
+        },
+        {
+          "zh": "报道提到石油价格，没有给购买建议。",
+          "py": "bào dào tí dào shí yóu jià gé , méi yǒu gěi gòu mǎi jiàn yì .",
+          "en": "The report mentions oil prices without purchase advice."
+        },
+        {
+          "zh": "环境介绍不代替现场观察。",
+          "py": "huán jìng jiè shào bù dài tì xiàn chǎng guān chá .",
+          "en": "An environment description does not replace observation."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "购买",
+          "pinyin": "gòu mǎi",
+          "meaning": "to purchase"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u39-t1",
+      "phrase": "s3-u39-w10",
+      "audio": {
+        "zh": "人数增加五个，没写比例。",
+        "py": "rén shù zēng jiā wǔ gè , méi xiě bǐ lì .",
+        "en": "Five more people; no proportion stated."
+      },
+      "statement": "A five-percent increase is confirmed.",
+      "answer": false,
+      "why": "An absolute increase is not a percent."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u39-t2",
+      "phrase": "s3-u39-w03",
+      "audio": {
+        "zh": "某个商品涨了，没说全部。",
+        "py": "mǒu gè shāng pǐn zhǎng le , méi shuō quán bù .",
+        "en": "One product rose; not all are stated."
+      },
+      "statement": "The claim has limited scope.",
+      "answer": true,
+      "why": "It is restricted to a product."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u39-t3",
+      "phrase": "s3-u39-w11",
+      "prompt": {
+        "zh": "增长跟哪一年比？",
+        "py": "zēng zhǎng gēn nǎ yī nián bǐ ?",
+        "en": "Which year is growth compared with?"
+      },
+      "choices": [
+        "先查报道的比较时间。",
+        "不需要时间。",
+        "特色就是增长。"
+      ],
+      "answer": "先查报道的比较时间。",
+      "why": "Specify comparison periods."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u39-t4",
+      "phrase": "s3-u39-w14",
+      "prompt": {
+        "zh": "值得问就必须买吗？",
+        "py": "zhí de wèn jiù bì xū mǎi ma ?",
+        "en": "Does worth asking mean having to buy?"
+      },
+      "choices": [
+        "不是，了解和购买不同。",
+        "问了就自动付款。",
+        "价格升就都一样。"
+      ],
+      "answer": "不是，了解和购买不同。",
+      "why": "Keep inquiry separate from purchase."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u39-t5",
+      "phrase": "s3-u39-w07",
+      "line": {
+        "zh": "这个【市场】的价格还没核对。",
+        "py": "zhè gè shì chǎng de jià gé hái méi hé duì .",
+        "en": "Prices at this market are unchecked."
+      },
+      "blankPy": "shì chǎng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u39-t6",
+      "phrase": "s3-u39-w21",
+      "line": {
+        "zh": "【环保】说法要看具体做法。",
+        "py": "huán bǎo shuō fǎ yào kàn jù tǐ zuò fǎ .",
+        "en": "Check actions behind environmental claims."
+      },
+      "blankPy": "huán bǎo"
+    },
+    {
+      "type": "match",
+      "id": "s3-u39-t7",
+      "phrase": "s3-u39-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "About ten people attend.",
+          "right": {
+            "zh": "十个人左右参加。",
+            "py": "shí gè rén zuǒ yòu cān jiā .",
+            "en": "About ten people attend."
+          }
+        },
+        {
+          "left": "She asked after reading the notice.",
+          "right": {
+            "zh": "她看了通知就问。",
+            "py": "tā kàn le tōng zhī jiù wèn .",
+            "en": "She asked after reading the notice."
+          }
+        },
+        {
+          "left": "Five more is not five percent.",
+          "right": {
+            "zh": "增加五个不是百分之五。",
+            "py": "zēng jiā wǔ gè bù shì bǎi fēn zhī wǔ .",
+            "en": "Five more is not five percent."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u39-t8",
+      "phrase": "s3-u39-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "A feature is not universally liked.",
+          "right": {
+            "zh": "特色不是人人喜欢。",
+            "py": "tè sè bù shì rén rén xǐ huān .",
+            "en": "A feature is not universally liked."
+          }
+        },
+        {
+          "left": "The value is unconfirmed.",
+          "right": {
+            "zh": "值多少还没确认。",
+            "py": "zhí duō shao hái méi què rèn .",
+            "en": "The value is unconfirmed."
+          }
+        },
+        {
+          "left": "A loop shape does not specify distance.",
+          "right": {
+            "zh": "环的形状不说明距离。",
+            "py": "huán de xíng zhuàng bù shuō míng jù lí .",
+            "en": "A loop shape does not specify distance."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u39-t9",
+      "phrase": "s3-u39-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "A classmate moved the luggage behind the door.",
+          "right": {
+            "zh": "行李被同学移到门后了。",
+            "py": "xíng lǐ bèi tóng xué yí dào mén hòu le .",
+            "en": "A classmate moved the luggage behind the door."
+          }
+        },
+        {
+          "left": "I came to collect the luggage.",
+          "right": {
+            "zh": "我是来领行李的。",
+            "py": "wǒ shì lái lǐng xíng lǐ de .",
+            "en": "I came to collect the luggage."
+          }
+        },
+        {
+          "left": "Confirm time first, then register.",
+          "right": {
+            "zh": "首先确认时间，然后报名。",
+            "py": "shǒu xiān què rèn shí jiān , rán hòu bào míng .",
+            "en": "Confirm time first, then register."
+          }
+        },
+        {
+          "left": "She checks the time and also asks the location.",
+          "right": {
+            "zh": "她核对时间，并且问了地点。",
+            "py": "tā hé duì shí jiān , bìng qiě wèn le dì diǎn .",
+            "en": "She checks the time and also asks the location."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Check precision",
+      "natural": {
+        "zh": "大概是大概，别写成精确。",
+        "py": "dà gài shì dà gài , bié xiě chéng jīng què .",
+        "en": "Approximate is approximate; do not record it as exact."
+      },
+      "note": "Preserve uncertainty."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u39-speak",
+    "title": "Splitting the trip costs",
+    "place": "A language-exchange meeting",
+    "context": "Estimate amounts and link completed actions.",
+    "goal": "Follow 了…就 linked completed and subsequent events",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "涨了多少？",
+        "pinyin": "zhǎng le duō shao ?",
+        "meaning": "How much did it rise?",
+        "intent": "Ask for basis",
+        "examples": [
+          "先看原来多少和比较时间。"
+        ],
+        "accept": [
+          "^先看原来多少和比较时间。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三73, 三74. Native check: 任 conjunction, 为 wéi in 作为, 了…就 narrative scope, approximate adjacent numerals, count versus percentage. No investment, purchasing or eligibility advice. Native review pending. Planned retrieval 三55 / 三77 / 三64 / 三65: 行李被同学移到门后了。, 我是来领行李的。, 首先确认时间，然后报名。, 她核对时间，并且问了地点。."
+}

@@ -1,0 +1,1178 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u40",
+    "stage": 2,
+    "order": 104,
+    "title": "The party is already over",
+    "titleZh": "都这么晚了，今天就到这里吧",
+    "canDo": [
+      "Use 都…了 to signal a late or advanced state",
+      "Recognize X就X点儿吧 as reluctant acceptance",
+      "Close an activity without inventing medical or official conclusions"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u39"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u40-w01",
+      "hanzi": "大夫",
+      "pinyin": "dài fu",
+      "meaning": "doctor, informal",
+      "meaningVi": "bác sĩ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她想问大夫，不让朋友猜病因。",
+        "py": "tā xiǎng wèn dài fu , bù ràng péng you cāi bìng yīn .",
+        "en": "She wants to ask a doctor rather than have friends guess causes."
+      },
+      "usageNote": "[GF2021:L3:1536] Source entry: 大夫; dàifu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w02",
+      "hanzi": "公务员",
+      "pinyin": "gōng wù yuán",
+      "meaning": "civil servant",
+      "meaningVi": "công chức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里的公务员在休假。",
+        "py": "gù shì lǐ de gōng wù yuán zài xiū jià .",
+        "en": "The story’s civil servant is on leave."
+      },
+      "usageNote": "[GF2021:L3:2808] Source entry: 公务员; gōngwùyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w03",
+      "hanzi": "调",
+      "pinyin": "diào",
+      "meaning": "to transfer, diào",
+      "meaningVi": "điều chuyển",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她被调到另一个部门。",
+        "py": "tā bèi diào dào lìng yī gè bù mén .",
+        "en": "She was transferred to another department."
+      },
+      "usageNote": "[GF2021:L3:1855] Source entry: 调; diào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w04",
+      "hanzi": "调查",
+      "pinyin": "diào chá",
+      "meaning": "to investigate; survey",
+      "meaningVi": "điều tra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "调查还没结束。",
+        "py": "diào chá hái méi jié shù .",
+        "en": "The investigation is unfinished."
+      },
+      "usageNote": "[GF2021:L3:1856] Source entry: 调查; diàochá; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w05",
+      "hanzi": "否定",
+      "pinyin": "fǒu dìng",
+      "meaning": "to negate; negative",
+      "meaningVi": "phủ định",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不能只凭没听见就否定发生。",
+        "py": "bù néng zhǐ píng méi tīng jiàn jiù fǒu dìng fā shēng .",
+        "en": "Do not deny an occurrence solely because it was unheard."
+      },
+      "usageNote": "[GF2021:L3:2437] Source entry: 否定; fǒudìng; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w06",
+      "hanzi": "否认",
+      "pinyin": "fǒu rèn",
+      "meaning": "to deny",
+      "meaningVi": "phủ nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她否认发过那条通知。",
+        "py": "tā fǒu rèn fā guò nà tiáo tōng zhī .",
+        "en": "She denies sending the notice."
+      },
+      "usageNote": "[GF2021:L3:2439] Source entry: 否认; fǒurèn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w07",
+      "hanzi": "紧急",
+      "pinyin": "jǐn jí",
+      "meaning": "urgent; emergency",
+      "meaningVi": "khẩn cấp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "紧急情况要联系当地负责的人。",
+        "py": "jǐn jí qíng kuàng yào lián xì dāng dì fù zé de rén .",
+        "en": "In an emergency contact the responsible local person."
+      },
+      "usageNote": "[GF2021:L3:4272] Source entry: 紧急; jǐnjí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w08",
+      "hanzi": "交警",
+      "pinyin": "jiāo jǐng",
+      "meaning": "traffic police",
+      "meaningVi": "cảnh sát giao thông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场景里的交警说明路口安排。",
+        "py": "chǎng jǐng lǐ de jiāo jǐng shuō míng lù kǒu ān pái .",
+        "en": "The traffic officer explains the junction arrangement in the scene."
+      },
+      "usageNote": "[GF2021:L3:4059] Source entry: 交警; jiāojǐng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w09",
+      "hanzi": "警察",
+      "pinyin": "jǐng chá",
+      "meaning": "police",
+      "meaningVi": "cảnh sát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里她联系了警察。",
+        "py": "gù shì lǐ tā lián xì le jǐng chá .",
+        "en": "She contacted police in the story."
+      },
+      "usageNote": "[GF2021:L3:4382] Source entry: 警察; jǐngchá; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w10",
+      "hanzi": "救",
+      "pinyin": "jiù",
+      "meaning": "to save; rescue",
+      "meaningVi": "cứu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里的角色求助救人。",
+        "py": "gù shì lǐ de jué sè qiú zhù jiù rén .",
+        "en": "The story’s character seeks help to rescue someone."
+      },
+      "usageNote": "[GF2021:L3:4435] Source entry: 救; jiù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w11",
+      "hanzi": "危害",
+      "pinyin": "wēi hài",
+      "meaning": "to harm; harm",
+      "meaningVi": "gây hại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "乱猜可能危害对方的决定。",
+        "py": "luàn cāi kě néng wēi hài duì fāng de jué dìng .",
+        "en": "Guessing may harm the other person’s decision."
+      },
+      "usageNote": "[GF2021:L3:8355] Source entry: 危害; wēihài; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w12",
+      "hanzi": "卫生",
+      "pinyin": "wèi shēng",
+      "meaning": "hygiene; hygienic",
+      "meaningVi": "vệ sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "卫生情况不能只看颜色。",
+        "py": "wèi shēng qíng kuàng bù néng zhǐ kàn yán sè .",
+        "en": "Do not judge hygiene by colour alone."
+      },
+      "usageNote": "[GF2021:L3:8411] Source entry: 卫生; wèishēng; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w13",
+      "hanzi": "卫生间",
+      "pinyin": "wèi shēng jiān",
+      "meaning": "toilet; bathroom",
+      "meaningVi": "nhà vệ sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "卫生间在门后右边。",
+        "py": "wèi shēng jiān zài mén hòu yòu biān .",
+        "en": "The bathroom is to the right behind the door."
+      },
+      "usageNote": "[GF2021:L3:8412] Source entry: 卫生间; wèishēngjiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w14",
+      "hanzi": "血",
+      "pinyin": "xiě",
+      "meaning": "blood, colloquial xiě",
+      "meaningVi": "máu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "角色的手指出血了。",
+        "py": "jué sè de shǒu zhǐ chū xiě le .",
+        "en": "The character’s finger is bleeding."
+      },
+      "usageNote": "[GF2021:L3:8963] Source entry: 血; xiě; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w15",
+      "hanzi": "死",
+      "pinyin": "sǐ",
+      "meaning": "to die; dead",
+      "meaningVi": "chết",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里的植物死了。",
+        "py": "gù shì lǐ de zhí wù sǐ le .",
+        "en": "The plant died in the story."
+      },
+      "usageNote": "[GF2021:L3:7632] Source entry: 死; sǐ; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w16",
+      "hanzi": "退休",
+      "pinyin": "tuì xiū",
+      "meaning": "to retire",
+      "meaningVi": "nghỉ hưu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她去年退休，仍参加活动。",
+        "py": "tā qù nián tuì xiū , réng cān jiā huó dòng .",
+        "en": "She retired last year and still joins activities."
+      },
+      "usageNote": "[GF2021:L3:8202] Source entry: 退休; tuì∥xiū; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w17",
+      "hanzi": "离婚",
+      "pinyin": "lí hūn",
+      "meaning": "to divorce",
+      "meaningVi": "ly hôn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "角色说自己离婚了，别追问私人细节。",
+        "py": "jué sè shuō zì jǐ lí hūn le , bié zhuī wèn sī rén xì jié .",
+        "en": "The character says they divorced; do not press for private details."
+      },
+      "usageNote": "[GF2021:L3:5014] Source entry: 离婚; lí∥hūn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w18",
+      "hanzi": "空调",
+      "pinyin": "kōng tiáo",
+      "meaning": "air conditioner",
+      "meaningVi": "điều hòa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "空调还没开。",
+        "py": "kōng tiáo hái méi kāi .",
+        "en": "The air conditioner is not on."
+      },
+      "usageNote": "[GF2021:L3:4756] Source entry: 空调; kōngtiáo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w19",
+      "hanzi": "凉水",
+      "pinyin": "liáng shuǐ",
+      "meaning": "cool water",
+      "meaningVi": "nước mát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她拿了凉水，没有说是处理伤口。",
+        "py": "tā ná le liáng shuǐ , méi yǒu shuō shì chǔ lǐ shāng kǒu .",
+        "en": "She took cool water; no wound treatment is stated."
+      },
+      "usageNote": "[GF2021:L3:5135] Source entry: 凉水; liángshuǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w20",
+      "hanzi": "手指",
+      "pinyin": "shǒu zhǐ",
+      "meaning": "finger",
+      "meaningVi": "ngón tay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里她的手指受伤了。",
+        "py": "gù shì lǐ tā de shǒu zhǐ shòu shāng le .",
+        "en": "Her finger is injured in the story."
+      },
+      "usageNote": "[GF2021:L3:7395] Source entry: 手指; shǒuzhǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w21",
+      "hanzi": "压",
+      "pinyin": "yā",
+      "meaning": "to press",
+      "meaningVi": "đè; ép",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "别用包压住门。",
+        "py": "bié yòng bāo yā zhù mén .",
+        "en": "Do not hold the door down with a bag."
+      },
+      "usageNote": "[GF2021:L3:9254] Source entry: 压; yā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u40-w22",
+      "hanzi": "钟",
+      "pinyin": "zhōng",
+      "meaning": "clock; bell",
+      "meaningVi": "đồng hồ; chuông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "钟上已经十点。",
+        "py": "zhōng shàng yǐ jīng shí diǎn .",
+        "en": "The clock already shows ten."
+      },
+      "usageNote": "[GF2021:L3:10649] Source entry: 钟; zhōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "夫",
+      "pinyin": "fū",
+      "meaning": "man; in 大夫: doctor",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "夫",
+          "role": "whole",
+          "gloss": "man; in 大夫: doctor"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 夫 in 大夫 / 工夫. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "大夫",
+          "p": "dài fu",
+          "m": "doctor, informal"
+        },
+        {
+          "w": "工夫",
+          "p": "gōng fu",
+          "m": "time; effort"
+        }
+      ]
+    },
+    {
+      "hanzi": "警",
+      "pinyin": "jǐng",
+      "meaning": "alert; police",
+      "strokes": 19,
+      "parts": [
+        {
+          "form": "警",
+          "role": "whole",
+          "gloss": "alert; police"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 警 in 交警 / 警察. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "交警",
+          "p": "jiāo jǐng",
+          "m": "traffic police"
+        },
+        {
+          "w": "警察",
+          "p": "jǐng chá",
+          "m": "police"
+        }
+      ]
+    },
+    {
+      "hanzi": "救",
+      "pinyin": "jiù",
+      "meaning": "save",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "救",
+          "role": "whole",
+          "gloss": "save"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 救 in 救 / 急救. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "救",
+          "p": "jiù",
+          "m": "to save; rescue"
+        },
+        {
+          "w": "急救",
+          "p": "jí jiù",
+          "m": "first aid"
+        }
+      ]
+    },
+    {
+      "hanzi": "卫",
+      "pinyin": "wèi",
+      "meaning": "protect; hygiene",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "卫",
+          "role": "whole",
+          "gloss": "protect; hygiene"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 卫 in 卫生 / 卫生间. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "卫生",
+          "p": "wèi shēng",
+          "m": "hygiene; hygienic"
+        },
+        {
+          "w": "卫生间",
+          "p": "wèi shēng jiān",
+          "m": "toilet; bathroom"
+        }
+      ]
+    },
+    {
+      "hanzi": "烟",
+      "pinyin": "yān",
+      "meaning": "smoke",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "烟",
+          "role": "whole",
+          "gloss": "smoke"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 烟 in 烟. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "烟",
+          "p": "yān",
+          "m": "smoke"
+        }
+      ]
+    },
+    {
+      "hanzi": "退",
+      "pinyin": "tuì",
+      "meaning": "withdraw",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "退",
+          "role": "whole",
+          "gloss": "withdraw"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 退 in 退休 / 退. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "退休",
+          "p": "tuì xiū",
+          "m": "to retire"
+        },
+        {
+          "w": "退",
+          "p": "tuì",
+          "m": "to step back; withdraw"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u40-g三79",
+      "pattern": "都 + 状态 / 数量 + 了",
+      "purpose": "Signal an already advanced state",
+      "explanation": "都十点了 highlights lateness in context. 都 refers to the advanced state, not necessarily every object. 都这么晚了 expresses the speaker’s evaluation; verify actual clock time separately.",
+      "examples": [
+        {
+          "zh": "都十点了，先结束吧。",
+          "py": "dōu shí diǎn le , xiān jié shù ba .",
+          "en": "It is already ten; let us stop first."
+        },
+        {
+          "zh": "都这么晚了，别再等。",
+          "py": "dōu zhè me wǎn le , bié zài děng .",
+          "en": "It is already so late; do not keep waiting."
+        },
+        {
+          "zh": "都三天了，还没收到回答。",
+          "py": "dōu sān tiān le , hái mò shōu dào huí dá .",
+          "en": "It has already been three days without a reply."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "都十点了表示十个钟。",
+          "right": "都十点了强调已经十点，不是钟的数量。",
+          "why": "Read the advanced-time use of 都."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u40-g三80",
+      "pattern": "X 就 X 点儿吧",
+      "purpose": "Recognize a resigned concession",
+      "explanation": "晚就晚点儿吧 concedes a little lateness rather than claiming lateness never matters. 累就累点儿吧 is language of reluctant acceptance, not advice to ignore exhaustion. This pattern does not override limits, consent or safety.",
+      "examples": [
+        {
+          "zh": "晚就晚点儿吧，先告诉她。",
+          "py": "wǎn jiù wǎn diǎn ér ba , xiān gào sù tā .",
+          "en": "A little late is acceptable; tell her first."
+        },
+        {
+          "zh": "少就少点儿吧，别强迫别人。",
+          "py": "shǎo jiù shǎo diǎn ér ba , bié qiǎng pò bié ren .",
+          "en": "A little less is acceptable; do not force others."
+        },
+        {
+          "zh": "慢就慢点儿吧，先说准确。",
+          "py": "màn jiù màn diǎn ér ba , xiān shuō zhǔn què .",
+          "en": "A little slower is acceptable; say it accurately first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "慢就慢点儿吧表示必须加快。",
+          "right": "慢就慢点儿吧是接受慢一点，不是要求加快。",
+          "why": "The pattern concedes the stated degree."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u40-d",
+    "title": "Close the evening",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is reported and what remains unknown.",
+    "lines": [
+      {
+        "zh": "都这么晚了，今天就到这里吧。钟上十点，但还没核对。",
+        "py": "dōu zhè me wǎn le , jīn tiān jiù dào zhè lǐ ba . zhōng shàng shí diǎn , dàn hái méi hé duì .",
+        "en": "It is already so late; stop here today. The clock shows ten but is unverified.",
+        "speaker": "a"
+      },
+      {
+        "zh": "慢就慢点儿吧，先把情况说准确。调查结束了吗？",
+        "py": "màn jiù màn diǎn ér ba , xiān bǎ qíng kuàng shuō zhǔn què . diào chá jié shù le ma ?",
+        "en": "A little slower is acceptable; describe the situation accurately first. Is the investigation finished?",
+        "speaker": "b"
+      },
+      {
+        "zh": "没有。她否认发通知，不等于事实确认。警察到场也不是结束。",
+        "py": "méi yǒu . tā fǒu rèn fā tōng zhī , bù děng yú shì shí què rèn . jǐng chá dào chǎng yě bù shì jié shù .",
+        "en": "No. She denies sending the notice, but facts are not confirmed; police arriving is not completion.",
+        "speaker": "a"
+      },
+      {
+        "zh": "故事里手指出血，她拿了凉水，是治疗建议吗？",
+        "py": "gù shì lǐ shǒu zhǐ chū xiě , tā ná le liáng shuǐ , shì zhì liáo jiàn yì ma ?",
+        "en": "In the story a finger bleeds and she takes cool water. Is this treatment advice?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不是，是虚构台词。紧急情况联系当地负责的人，不靠故事猜。",
+        "py": "bù shì , shì xū gòu tái cí . jǐn jí qíng kuàng lián xì dāng dì fù zé de rén , bù kào gù shì cāi .",
+        "en": "No, it is fictional dialogue. Contact the responsible local person in an emergency instead of guessing from a story.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。空调关了吗？卫生间在门后右边，退场前再问。",
+        "py": "hǎo . kōng tiáo guān le ma ? wèi shēng jiān zài mén hòu yòu biān , tuì chǎng qián zài wèn .",
+        "en": "Good. Is the air conditioner off? The bathroom is to the right behind the door; ask before leaving.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Where is the bathroom described as being?",
+        "choices": [
+          "To the right behind the door",
+          "To the left outside the building",
+          "Inside the air conditioner"
+        ],
+        "answer": "To the right behind the door"
+      },
+      {
+        "type": "detail",
+        "q": "Is the investigation finished?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only because police arrived"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Is cool water prescribed as treatment?",
+        "choices": [
+          "No",
+          "Yes",
+          "If the character retired"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "退场",
+        "pinyin": "tuì chǎng",
+        "meaning": "leave the venue"
+      },
+      {
+        "hanzi": "出血",
+        "pinyin": "chū xiě",
+        "meaning": "bleed"
+      },
+      {
+        "hanzi": "治疗",
+        "pinyin": "zhì liáo",
+        "meaning": "to treat medically"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u40-r",
+    "title": "Respect limits at closing",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the closing note.",
+    "lines": [
+      {
+        "zh": "她退休以后仍来活动，公务员也可能在休假；被调到新部门和到场时间不同。",
+        "py": "tā tuì xiū yǐ hòu réng lái huó dòng , gōng wù yuán yě kě néng zài xiū jià ; bèi diào dào xīn bù mén hé dào chǎng shí jiān bù tóng .",
+        "en": "She attends after retirement; a civil servant may be on leave; transfer and attendance time differ."
+      },
+      {
+        "zh": "离婚经历属于本人，不追问；植物死的原因没有写，不替故事猜。",
+        "py": "lí hūn jīng lì shǔ yú běn rén , bù zhuī wèn ; zhí wù sǐ de yuán yīn méi yǒu xiě , bù tì gù shì cāi .",
+        "en": "Divorce belongs to the person; do not press; the plant’s cause of death is unstated, so do not guess."
+      },
+      {
+        "zh": "卫生与卫生间是否能用要问现场，颜色不证明卫生。别用包压门。",
+        "py": "wèi shēng yǔ wèi shēng jiān shì fǒu néng yòng yào wèn xiàn chǎng , yán sè bù zhèng míng wèi shēng . bié yòng bāo yā mén .",
+        "en": "Ask about hygiene and bathroom use locally; colour does not prove hygiene; do not prop the door with a bag."
+      },
+      {
+        "zh": "她想问大夫；交警和警察的台词只用于理解，不给真实办事或急救步骤。",
+        "py": "tā xiǎng wèn dài fu ; jiāo jǐng hé jǐng chá de tái cí zhǐ yòng yú lǐ jiě , bù gěi zhēn shí bàn shì huò jí jiù bù zhòu .",
+        "en": "She wants to ask a doctor; traffic and police dialogue is for comprehension, not actual procedural or first-aid steps."
+      },
+      {
+        "zh": "有烟就先说明现场情况，救人剧情不代替当地求助。危害和诊断不靠一句判断。",
+        "py": "yǒu yān jiù xiān shuō míng xiàn chǎng qíng kuàng , jiù rén jù qíng bù dài tì dāng dì qiú zhù . wēi hài hé zhěn duàn bù kào yī jù pàn duàn .",
+        "en": "If smoke is present, describe actual conditions; rescue fiction does not replace local help; do not infer harm or diagnosis from one sentence."
+      },
+      {
+        "zh": "都十点了，晚就晚点儿吧，先联系；退场是今天结束，不是以前记录消失。",
+        "py": "dōu shí diǎn le , wǎn jiù wǎn diǎn ér ba , xiān lián xì ; tuì chǎng shì jīn tiān jié shù , bù shì yǐ qián jì lù xiāo shī .",
+        "en": "It is already ten; a little lateness is acceptable, but contact people first; leaving ends today, not prior records."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Whom does she want to ask?",
+        "choices": [
+          "A doctor",
+          "An actor’s toy",
+          "A shop sign"
+        ],
+        "answer": "A doctor"
+      },
+      {
+        "type": "inference",
+        "q": "Does ending today’s session erase earlier records?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only after ten o’clock"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What should remain separate?",
+        "choices": [
+          "Language practice, real procedures and private experience",
+          "Denial and verified fact treated as one",
+          "Arrival and investigation completion"
+        ],
+        "answer": "Language practice, real procedures and private experience"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "她【退休】以后仍来活动，公务员也可能在休假；被调到新部门和到场时间不同。",
+          "py": "tā tuì xiū yǐ hòu réng lái huó dòng , gōng wù yuán yě kě néng zài xiū jià ; bèi diào dào xīn bù mén hé dào chǎng shí jiān bù tóng .",
+          "en": "She attends after retirement; a civil servant may be on leave; transfer and attendance time differ."
+        }
+      ],
+      "bank": [
+        "退休",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "烟",
+        "pinyin": "yān",
+        "meaning": "smoke"
+      },
+      {
+        "hanzi": "退场",
+        "pinyin": "tuì chǎng",
+        "meaning": "leave the venue"
+      },
+      {
+        "hanzi": "诊断",
+        "pinyin": "zhěn duàn",
+        "meaning": "diagnosis"
+      },
+      {
+        "hanzi": "急救",
+        "pinyin": "jí jiù",
+        "meaning": "first aid"
+      },
+      {
+        "hanzi": "追问",
+        "pinyin": "zhuī wèn",
+        "meaning": "ask further"
+      },
+      {
+        "hanzi": "步骤",
+        "pinyin": "bù zhòu",
+        "meaning": "step; procedure"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u40-media",
+      "title": "A clock with no authority",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original comic scene.",
+      "lines": [
+        {
+          "zh": "钟都十点了，它批准我结束了吗？",
+          "py": "zhōng dōu shí diǎn le , tā pī zhǔn wǒ jié shù le ma ?",
+          "en": "The clock already says ten. Has it approved my stopping?",
+          "speaker": "a"
+        },
+        {
+          "zh": "钟会显示，不会替你问主人。",
+          "py": "zhōng huì xiǎn shì , bù huì tì nǐ wèn zhǔ rén .",
+          "en": "A clock displays; it does not ask the host for you.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好吧，慢就慢点儿，先把话说完。",
+          "py": "hǎo ba , màn jiù màn diǎn ér , xiān bǎ huà shuō wán .",
+          "en": "All right; a little slow is fine; finish speaking first.",
+          "speaker": "a"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the correction?",
+          "choices": [
+            "A displayed time is not another person’s decision",
+            "Time cannot be described",
+            "Every delay is forbidden"
+          ],
+          "answer": "A displayed time is not another person’s decision"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u40-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "她想问大夫，不让朋友猜病因。",
+          "py": "tā xiǎng wèn dài fu , bù ràng péng you cāi bìng yīn .",
+          "en": "She wants to ask a doctor rather than have friends guess causes."
+        },
+        {
+          "zh": "故事里的公务员在休假。",
+          "py": "gù shì lǐ de gōng wù yuán zài xiū jià .",
+          "en": "The story’s civil servant is on leave."
+        },
+        {
+          "zh": "不能只凭没听见就否定发生。",
+          "py": "bù néng zhǐ píng méi tīng jiàn jiù fǒu dìng fā shēng .",
+          "en": "Do not deny an occurrence solely because it was unheard."
+        },
+        {
+          "zh": "否定的是这句话，不是这个人。",
+          "py": "fǒu dìng de shì zhè jù huà , bù shì zhè gè rén .",
+          "en": "The statement is negated, not the person."
+        },
+        {
+          "zh": "紧急情况要联系当地负责的人。",
+          "py": "jǐn jí qíng kuàng yào lián xì dāng dì fù zé de rén .",
+          "en": "In an emergency contact the responsible local person."
+        },
+        {
+          "zh": "场景里的交警说明路口安排。",
+          "py": "chǎng jǐng lǐ de jiāo jǐng shuō míng lù kǒu ān pái .",
+          "en": "The traffic officer explains the junction arrangement in the scene."
+        },
+        {
+          "zh": "乱猜可能危害对方的决定。",
+          "py": "luàn cāi kě néng wēi hài duì fāng de jué dìng .",
+          "en": "Guessing may harm the other person’s decision."
+        },
+        {
+          "zh": "故事里的植物死了。",
+          "py": "gù shì lǐ de zhí wù sǐ le .",
+          "en": "The plant died in the story."
+        },
+        {
+          "zh": "角色说自己离婚了，别追问私人细节。",
+          "py": "jué sè shuō zì jǐ lí hūn le , bié zhuī wèn sī rén xì jié .",
+          "en": "The character says they divorced; do not press for private details."
+        },
+        {
+          "zh": "别用包压住门。",
+          "py": "bié yòng bāo yā zhù mén .",
+          "en": "Do not hold the door down with a bag."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "病因",
+          "pinyin": "bìng yīn",
+          "meaning": "cause of illness"
+        },
+        {
+          "hanzi": "追问",
+          "pinyin": "zhuī wèn",
+          "meaning": "ask further"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u40-t1",
+      "phrase": "s3-u40-w06",
+      "audio": {
+        "zh": "她否认发过通知，事实还没核对。",
+        "py": "tā fǒu rèn fā guò tōng zhī , shì shí hái méi hé duì .",
+        "en": "She denies sending it; facts are unchecked."
+      },
+      "statement": "The facts are verified.",
+      "answer": false,
+      "why": "Denial is not verification."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u40-t2",
+      "phrase": "s3-u40-w16",
+      "audio": {
+        "zh": "她去年退休。",
+        "py": "tā qù nián tuì xiū .",
+        "en": "She retired last year."
+      },
+      "statement": "Retirement happened last year.",
+      "answer": true,
+      "why": "The date is explicit."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u40-t3",
+      "phrase": "s3-u40-w01",
+      "prompt": {
+        "zh": "能凭台词判断病因吗？",
+        "py": "néng píng tái cí pàn duàn bìng yīn ma ?",
+        "en": "Can dialogue determine a cause of illness?"
+      },
+      "choices": [
+        "不能，语言练习不是诊断。",
+        "一杯水就说明全部。",
+        "钟显示了就确定。"
+      ],
+      "answer": "不能，语言练习不是诊断。",
+      "why": "Do not diagnose from fictional dialogue."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u40-t4",
+      "phrase": "s3-u40-w22",
+      "prompt": {
+        "zh": "钟还没核对，时间确定吗？",
+        "py": "zhōng hái méi hé duì , shí jiān què dìng ma ?",
+        "en": "The clock is unchecked; is time certain?"
+      },
+      "choices": [
+        "还不确定，先核对。",
+        "十个钟就是十点。",
+        "退休就不用问。"
+      ],
+      "answer": "还不确定，先核对。",
+      "why": "Verify the clock."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u40-t5",
+      "phrase": "s3-u40-w18",
+      "line": {
+        "zh": "【空调】还没开。",
+        "py": "kōng tiáo hái méi kāi .",
+        "en": "The air conditioner is off."
+      },
+      "blankPy": "kōng tiáo"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u40-t6",
+      "phrase": "s3-u40-w13",
+      "line": {
+        "zh": "【卫生间】在门后右边。",
+        "py": "wèi shēng jiān zài mén hòu yòu biān .",
+        "en": "The bathroom is to the right behind the door."
+      },
+      "blankPy": "wèi shēng jiān"
+    },
+    {
+      "type": "match",
+      "id": "s3-u40-t7",
+      "phrase": "s3-u40-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The investigation is unfinished.",
+          "right": {
+            "zh": "调查还没结束。",
+            "py": "diào chá hái méi jié shù .",
+            "en": "The investigation is unfinished."
+          }
+        },
+        {
+          "left": "It is already ten.",
+          "right": {
+            "zh": "都十点了。",
+            "py": "dōu shí diǎn le .",
+            "en": "It is already ten."
+          }
+        },
+        {
+          "left": "A little slower is acceptable.",
+          "right": {
+            "zh": "慢就慢点儿吧。",
+            "py": "màn jiù màn diǎn ér ba .",
+            "en": "A little slower is acceptable."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u40-t8",
+      "phrase": "s3-u40-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The character’s finger is bleeding.",
+          "right": {
+            "zh": "角色的手指出血了。",
+            "py": "jué sè de shǒu zhǐ chū xiě le .",
+            "en": "The character’s finger is bleeding."
+          }
+        },
+        {
+          "left": "She took cool water.",
+          "right": {
+            "zh": "她拿了凉水。",
+            "py": "tā ná le liáng shuǐ .",
+            "en": "She took cool water."
+          }
+        },
+        {
+          "left": "The story supplies no treatment procedure.",
+          "right": {
+            "zh": "故事不提供治疗步骤。",
+            "py": "gù shì bù tí gōng zhì liáo bù zhòu .",
+            "en": "The story supplies no treatment procedure."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u40-t9",
+      "phrase": "s3-u40-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I watch football and also dance.",
+          "right": {
+            "zh": "我也看足球，也跳舞。",
+            "py": "wǒ yě kàn zú qiú , yě tiào wǔ .",
+            "en": "I watch football and also dance."
+          }
+        },
+        {
+          "left": "She is both happy and nervous.",
+          "right": {
+            "zh": "她又高兴又紧张。",
+            "py": "tā yòu gāo xìng yòu jǐn zhāng .",
+            "en": "She is both happy and nervous."
+          }
+        },
+        {
+          "left": "There is reading and also listening.",
+          "right": {
+            "zh": "不仅有阅读，而且有听力。",
+            "py": "bù jǐn yǒu yuè dú , ér qiě yǒu tīng lì .",
+            "en": "There is reading and also listening."
+          }
+        },
+        {
+          "left": "It is either this course or that one.",
+          "right": {
+            "zh": "不是这门，就是那门。",
+            "py": "bù shì zhè mén , jiù shì nà mén .",
+            "en": "It is either this course or that one."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Close respectfully",
+      "natural": {
+        "zh": "今天先到这里，下次再来。",
+        "py": "jīn tiān xiān dào zhè lǐ , xià cì zài lái .",
+        "en": "Let us stop here today and return next time."
+      },
+      "note": "State today’s limit."
+    },
+    {
+      "situation": "Keep accuracy",
+      "natural": {
+        "zh": "慢就慢点儿，先说准确。",
+        "py": "màn jiù màn diǎn ér , xiān shuō zhǔn què .",
+        "en": "A little slower is fine; speak accurately first."
+      },
+      "note": "Accuracy precedes pace."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u40-speak",
+    "title": "The party is already over",
+    "place": "A language-exchange meeting",
+    "context": "React to a late situation and accept a small compromise.",
+    "goal": "Use 都…了 to signal a late or advanced state",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "今天结束吗？",
+        "pinyin": "jīn tiān jié shù ma ?",
+        "meaning": "Are we stopping today?",
+        "intent": "State a limit",
+        "examples": [
+          "都这么晚了，今天先到这里吧。"
+        ],
+        "accept": [
+          "^都这么晚了，今天先到这里吧。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三79, 三80. Native check: 都 advanced-state use, resigned X就X点儿吧, 大夫 neutral fu, 调 diào, 血 xiě versus xuè, respectful private-history wording. Fictional language only; no diagnosis, first-aid or legal instructions. Native review pending. Planned retrieval 三60 / 三63 / 三66 / 三67: 我也看足球，也跳舞。, 她又高兴又紧张。, 不仅有阅读，而且有听力。, 不是这门，就是那门。."
+}
