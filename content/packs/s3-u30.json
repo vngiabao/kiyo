@@ -1,0 +1,1283 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u30",
+    "stage": 2,
+    "order": 94,
+    "title": "Learning with a purpose",
+    "titleZh": "为了学会，不只为了看过",
+    "canDo": [
+      "Use activities and qualities as subjects",
+      "Recognize verb, adjective and subject–predicate objects",
+      "Connect technical vocabulary to a specific learning purpose"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u29"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u30-w01",
+      "hanzi": "产生",
+      "pinyin": "chǎn shēng",
+      "meaning": "to produce; arise",
+      "meaningVi": "tạo ra; nảy sinh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个例子产生了新问题。",
+        "py": "zhè gè lì zi chǎn shēng le xīn wèn tí .",
+        "en": "This example raised a new question."
+      },
+      "usageNote": "[GF2021:L3:806] Source entry: 产生; chǎnshēng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w02",
+      "hanzi": "发明",
+      "pinyin": "fā míng",
+      "meaning": "invention; to invent",
+      "meaningVi": "phát minh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们没有发明新机器，只做模型。",
+        "py": "wǒ men méi yǒu fā míng xīn jī qì , zhǐ zuò mó xíng .",
+        "en": "We have not invented a new machine; we only make a model."
+      },
+      "usageNote": "[GF2021:L3:2145] Source entry: 发明; fāmíng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w03",
+      "hanzi": "发展",
+      "pinyin": "fā zhǎn",
+      "meaning": "to develop; development",
+      "meaningVi": "phát triển",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "发展技术也要考虑实际需要。",
+        "py": "fā zhǎn jì shù yě yào kǎo lǜ shí jì xū yào .",
+        "en": "Technological development should consider actual needs."
+      },
+      "usageNote": "[GF2021:L3:2167] Source entry: 发展; fāzhǎn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w04",
+      "hanzi": "开发",
+      "pinyin": "kāi fā",
+      "meaning": "to develop; create",
+      "meaningVi": "phát triển; khai phát",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她想开发一个练习工具。",
+        "py": "tā xiǎng kāi fā yī gè liàn xí gōng jù .",
+        "en": "She wants to develop a practice tool."
+      },
+      "usageNote": "[GF2021:L3:4584] Source entry: 开发; kāifā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w05",
+      "hanzi": "科技",
+      "pinyin": "kē jì",
+      "meaning": "science and technology",
+      "meaningVi": "khoa học công nghệ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "科技课介绍基本原理。",
+        "py": "kē jì kè jiè shào jī běn yuán lǐ .",
+        "en": "The science-and-technology class introduces basic principles."
+      },
+      "usageNote": "[GF2021:L3:4680] Source entry: 科技; kējì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w06",
+      "hanzi": "先进",
+      "pinyin": "xiān jìn",
+      "meaning": "advanced",
+      "meaningVi": "tiên tiến",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "设备先进，不代表已经会用。",
+        "py": "shè bèi xiān jìn , bù dài biǎo yǐ jīng huì yòng .",
+        "en": "Advanced equipment does not mean already knowing how to use it."
+      },
+      "usageNote": "[GF2021:L3:8722] Source entry: 先进; xiānjìn; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w07",
+      "hanzi": "化",
+      "pinyin": "huà",
+      "meaning": "suffix meaning make or become",
+      "meaningVi": "hậu tố chỉ biến đổi",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "现代化里的化表示一种变化。",
+        "py": "xiàn dài huà lǐ de huà biǎo shì yī zhǒng biàn huà .",
+        "en": "The suffix 化 in modernization indicates a transformation."
+      },
+      "usageNote": "[GF2021:L3:3455] Source entry: 化（现代化）; huà (xiàndàihuà); 后缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w08",
+      "hanzi": "工程师",
+      "pinyin": "gōng chéng shī",
+      "meaning": "engineer",
+      "meaningVi": "kỹ sư",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "工程师先看需求，再看机器。",
+        "py": "gōng chéng shī xiān kàn xū qiú , zài kàn jī qì .",
+        "en": "The engineer checks requirements before the machine."
+      },
+      "usageNote": "[GF2021:L3:2755] Source entry: 工程师; gōngchéngshī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w09",
+      "hanzi": "工厂",
+      "pinyin": "gōng chǎng",
+      "meaning": "factory",
+      "meaningVi": "nhà máy",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "工厂参观先问能不能进入。",
+        "py": "gōng chǎng cān guān xiān wèn néng bù néng jìn rù .",
+        "en": "Ask whether entry is allowed before visiting the factory."
+      },
+      "usageNote": "[GF2021:L3:2753] Source entry: 工厂; gōngchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w10",
+      "hanzi": "工业",
+      "pinyin": "gōng yè",
+      "meaning": "industry",
+      "meaningVi": "công nghiệp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "工业发展不是这张图的全部内容。",
+        "py": "gōng yè fā zhǎn bù shì zhè zhāng tú de quán bù nèi róng .",
+        "en": "Industrial development is not all the diagram describes."
+      },
+      "usageNote": "[GF2021:L3:2765] Source entry: 工业; gōngyè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w11",
+      "hanzi": "生产",
+      "pinyin": "shēng chǎn",
+      "meaning": "to produce; production",
+      "meaningVi": "sản xuất",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这里生产的是教学模型。",
+        "py": "zhè lǐ shēng chǎn de shì jiào xué mó xíng .",
+        "en": "They produce teaching models here."
+      },
+      "usageNote": "[GF2021:L3:7115] Source entry: 生产; shēngchǎn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w12",
+      "hanzi": "制造",
+      "pinyin": "zhì zào",
+      "meaning": "to manufacture",
+      "meaningVi": "chế tạo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "制造机器和读说明不同。",
+        "py": "zhì zào jī qì hé dú shuō míng bù tóng .",
+        "en": "Manufacturing a machine differs from reading instructions."
+      },
+      "usageNote": "[GF2021:L3:10574] Source entry: 制造; zhìzào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w13",
+      "hanzi": "制作",
+      "pinyin": "zhì zuò",
+      "meaning": "to make; create",
+      "meaningVi": "làm; chế tác",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们制作一张路线图。",
+        "py": "wǒ men zhì zuò yī zhāng lù xiàn tú .",
+        "en": "We make a route diagram."
+      },
+      "usageNote": "[GF2021:L3:10576] Source entry: 制作; zhìzuò; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w14",
+      "hanzi": "加工",
+      "pinyin": "jiā gōng",
+      "meaning": "to process; work on",
+      "meaningVi": "gia công",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "材料加工由工作人员说明。",
+        "py": "cái liào jiā gōng yóu gōng zuò rén yuán shuō míng .",
+        "en": "Staff explain the processing of materials."
+      },
+      "usageNote": "[GF2021:L3:3832] Source entry: 加工; jiā∥gōng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w15",
+      "hanzi": "人工",
+      "pinyin": "rén gōng",
+      "meaning": "manual; human-made",
+      "meaningVi": "thủ công; nhân công",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是人工检查，不是自动结果。",
+        "py": "zhè shì rén gōng jiǎn chá , bù shì zì dòng jié guǒ .",
+        "en": "This is a human check, not an automatic result."
+      },
+      "usageNote": "[GF2021:L3:6693] Source entry: 人工; réngōng; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w16",
+      "hanzi": "机器",
+      "pinyin": "jī qì",
+      "meaning": "machine",
+      "meaningVi": "máy móc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "机器还没打开，先读要求。",
+        "py": "jī qì hái méi dǎ kāi , xiān dú yāo qiú .",
+        "en": "The machine is not yet switched on; read the requirements first."
+      },
+      "usageNote": "[GF2021:L3:3687] Source entry: 机器; jī·qì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w17",
+      "hanzi": "设备",
+      "pinyin": "shè bèi",
+      "meaning": "equipment",
+      "meaningVi": "thiết bị",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "设备操作需要实际许可。",
+        "py": "shè bèi cāo zuò xū yào shí jì xǔ kě .",
+        "en": "Operating the equipment needs actual authorization."
+      },
+      "usageNote": "[GF2021:L3:7014] Source entry: 设备; shèbèi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w18",
+      "hanzi": "实验",
+      "pinyin": "shí yàn",
+      "meaning": "experiment",
+      "meaningVi": "thí nghiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "实验记录要写条件。",
+        "py": "shí yàn jì lù yào xiě tiáo jiàn .",
+        "en": "An experiment record should state conditions."
+      },
+      "usageNote": "[GF2021:L3:7250] Source entry: 实验; shíyàn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w19",
+      "hanzi": "实验室",
+      "pinyin": "shí yàn shì",
+      "meaning": "laboratory",
+      "meaningVi": "phòng thí nghiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "实验室开放时间还没确认。",
+        "py": "shí yàn shì kāi fàng shí jiān hái méi què rèn .",
+        "en": "The laboratory’s opening time is not yet confirmed."
+      },
+      "usageNote": "[GF2021:L3:7251] Source entry: 实验室; shíyànshì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w20",
+      "hanzi": "试验",
+      "pinyin": "shì yàn",
+      "meaning": "trial; test",
+      "meaningVi": "thử nghiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "工具先做小范围试验。",
+        "py": "gōng jù xiān zuò xiǎo fàn wéi shì yàn .",
+        "en": "The tool first has a small-scale trial."
+      },
+      "usageNote": "[GF2021:L3:7320] Source entry: 试验; shìyàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w21",
+      "hanzi": "实行",
+      "pinyin": "shí xíng",
+      "meaning": "to carry out; implement",
+      "meaningVi": "thực hiện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "方案确认以后才实行。",
+        "py": "fāng àn què rèn yǐ hòu cái shí xíng .",
+        "en": "Implement the plan only after confirmation."
+      },
+      "usageNote": "[GF2021:L3:7249] Source entry: 实行; shíxíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u30-w22",
+      "hanzi": "专家",
+      "pinyin": "zhuān jiā",
+      "meaning": "specialist; expert",
+      "meaningVi": "chuyên gia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "专家解释原理，我们核对理解。",
+        "py": "zhuān jiā jiě shì yuán lǐ , wǒ men hé duì lǐ jiě .",
+        "en": "The specialist explains the principle, and we check our understanding."
+      },
+      "usageNote": "[GF2021:L3:10778] Source entry: 专家; zhuānjiā; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "产",
+      "pinyin": "chǎn",
+      "meaning": "to produce",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "产",
+          "role": "whole",
+          "gloss": "to produce"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 产 in 产生 / 生产. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "产生",
+          "p": "chǎn shēng",
+          "m": "to produce; arise"
+        },
+        {
+          "w": "生产",
+          "p": "shēng chǎn",
+          "m": "to produce; production"
+        }
+      ]
+    },
+    {
+      "hanzi": "厂",
+      "pinyin": "chǎng",
+      "meaning": "factory",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "厂",
+          "role": "whole",
+          "gloss": "factory"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 厂 in 工厂. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "工厂",
+          "p": "gōng chǎng",
+          "m": "factory"
+        }
+      ]
+    },
+    {
+      "hanzi": "器",
+      "pinyin": "qì",
+      "meaning": "device; vessel",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "器",
+          "role": "whole",
+          "gloss": "device; vessel"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 器 in 机器 / 充电器. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "机器",
+          "p": "jī qì",
+          "m": "machine"
+        },
+        {
+          "w": "充电器",
+          "p": "chōng diàn qì",
+          "m": "charger"
+        }
+      ]
+    },
+    {
+      "hanzi": "造",
+      "pinyin": "zào",
+      "meaning": "to make",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "造",
+          "role": "whole",
+          "gloss": "to make"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 造 in 制造 / 改造. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "制造",
+          "p": "zhì zào",
+          "m": "to manufacture"
+        },
+        {
+          "w": "改造",
+          "p": "gǎi zào",
+          "m": "to remodel; transform"
+        }
+      ]
+    },
+    {
+      "hanzi": "建",
+      "pinyin": "jiàn",
+      "meaning": "to build",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "建",
+          "role": "whole",
+          "gloss": "to build"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 建 in 建议 / 建立. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "建议",
+          "p": "jiàn yì",
+          "m": "suggestion"
+        },
+        {
+          "w": "建立",
+          "p": "jiàn lì",
+          "m": "to establish"
+        }
+      ]
+    },
+    {
+      "hanzi": "专",
+      "pinyin": "zhuān",
+      "meaning": "specialized",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "专",
+          "role": "whole",
+          "gloss": "specialized"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 专 in 专家 / 专业. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "专家",
+          "p": "zhuān jiā",
+          "m": "specialist; expert"
+        },
+        {
+          "w": "专业",
+          "p": "zhuān yè",
+          "m": "professional; specialized"
+        }
+      ]
+    },
+    {
+      "hanzi": "转",
+      "pinyin": "zhuǎn",
+      "meaning": "to turn; change",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "转",
+          "role": "whole",
+          "gloss": "to turn; change"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 转 in 转发 / 转变. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "转发",
+          "p": "zhuǎn fā",
+          "m": "to forward"
+        },
+        {
+          "w": "转变",
+          "p": "zhuǎn biàn",
+          "m": "to change"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u30-g三43",
+      "pattern": "活动 / 性质 + 谓语",
+      "purpose": "Use an activity or quality as the subject",
+      "explanation": "学习汉语需要时间 uses a verb phrase as the subject. 认真很重要 uses an adjective as the subject when talking about the quality of being careful. 早起对我来说不容易 uses an activity. Do not add a person to every subject or infer that every adjective can be used this way in every context.",
+      "examples": [
+        {
+          "zh": "学习汉语需要时间。",
+          "py": "xué xí hàn yǔ xū yào shí jiān .",
+          "en": "Learning Chinese takes time."
+        },
+        {
+          "zh": "认真很重要。",
+          "py": "rèn zhēn hěn zhòng yào .",
+          "en": "Being careful matters."
+        },
+        {
+          "zh": "核对实验记录有帮助。",
+          "py": "hé duì shí yàn jì lù yǒu bāng zhù .",
+          "en": "Checking experiment records helps."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "学习汉语是需要时间人。",
+          "right": "学习汉语需要时间。",
+          "why": "The activity itself is the subject; no person noun is required."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u30-g三44",
+      "pattern": "V + 动作 / 性质 / 主谓短语",
+      "purpose": "Identify a phrase as the object",
+      "explanation": "我喜欢学习汉语 has an activity as the object of 喜欢. 我喜欢安静 has a quality as its object. 我希望大家都看懂 has the subject–predicate phrase 大家都看懂 as the object of 希望. The lexical verb determines which complement is natural; do not interchange objects freely.",
+      "examples": [
+        {
+          "zh": "我喜欢学习汉语。",
+          "py": "wǒ xǐ huān xué xí hàn yǔ .",
+          "en": "I like learning Chinese."
+        },
+        {
+          "zh": "我喜欢安静。",
+          "py": "wǒ xǐ huān ān jìng .",
+          "en": "I like quiet."
+        },
+        {
+          "zh": "我希望大家都看懂说明。",
+          "py": "wǒ xī wàng dà jiā dōu kàn dǒng shuō míng .",
+          "en": "I hope everyone understands the instructions."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我希望说明大家都看懂的。",
+          "right": "我希望大家都看懂说明。",
+          "why": "Keep the embedded subject before its predicate and object."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u30-d",
+    "title": "A tool for one actual need",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what the group is making and what is not established.",
+    "lines": [
+      {
+        "zh": "学科技词语有什么目的？只看过机器还不够。",
+        "py": "xué kē jì cí yǔ yǒu shén me mù dì ? zhǐ kàn guò jī qì hái bù gòu .",
+        "en": "What is the purpose of learning technical vocabulary? Seeing the machine alone is insufficient.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我想制作一个练习模型，不说已经发明新设备。",
+        "py": "wǒ xiǎng zhì zuò yī gè liàn xí mó xíng , bù shuō yǐ jīng fā míng xīn shè bèi .",
+        "en": "I want to make a practice model, not claim to have invented new equipment.",
+        "speaker": "b"
+      },
+      {
+        "zh": "工程师会说明加工和生产，专家也介绍原理。",
+        "py": "gōng chéng shī huì shuō míng jiā gōng hé shēng chǎn , zhuān jiā yě jiè shào yuán lǐ .",
+        "en": "The engineer explains processing and production; a specialist introduces the principle.",
+        "speaker": "a"
+      },
+      {
+        "zh": "学习这些需要时间，认真很重要。",
+        "py": "xué xí zhè xiē xū yào shí jiān , rèn zhēn hěn zhòng yào .",
+        "en": "Learning these takes time; care matters.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我希望大家都看懂说明，不只是觉得先进。",
+        "py": "wǒ xī wàng dà jiā dōu kàn dǒng shuō míng , bù zhǐ shì jué de xiān jìn .",
+        "en": "I hope everyone understands the instructions, rather than merely thinks the equipment advanced.",
+        "speaker": "a"
+      },
+      {
+        "zh": "开发工具以前，先做小范围试验。",
+        "py": "kāi fā gōng jù yǐ qián , xiān zuò xiǎo fàn wéi shì yàn .",
+        "en": "Before developing the tool, do a small-scale trial.",
+        "speaker": "b"
+      },
+      {
+        "zh": "实验室时间没确认，工厂也不能直接进去。",
+        "py": "shí yàn shì shí jiān méi què rèn , gōng chǎng yě bù néng zhí jiē jìn qù .",
+        "en": "The laboratory time is unconfirmed, and we cannot simply enter the factory.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，实行方案前先核对许可和责任。",
+        "py": "hǎo , shí xíng fāng àn qián xiān hé duì xǔ kě hé zé rèn .",
+        "en": "Okay; check permission and responsibility before implementing the plan.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the actual learning purpose?",
+        "choices": [
+          "Understand instructions for a practice model",
+          "Claim a finished invention",
+          "Enter any factory without permission"
+        ],
+        "answer": "Understand instructions for a practice model"
+      },
+      {
+        "type": "detail",
+        "q": "What should happen before development?",
+        "choices": [
+          "A small-scale trial",
+          "Automatic publication of results",
+          "Unrestricted equipment operation"
+        ],
+        "answer": "A small-scale trial"
+      },
+      {
+        "type": "inference",
+        "q": "Does advanced equipment establish operator skill?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only in a laboratory"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "原理",
+        "pinyin": "yuán lǐ",
+        "meaning": "principle"
+      },
+      {
+        "hanzi": "作",
+        "pinyin": "zuò",
+        "meaning": "to serve as"
+      },
+      {
+        "hanzi": "以",
+        "pinyin": "yǐ",
+        "meaning": "with; by means of"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u30-r",
+    "title": "An activity can be a subject",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the group’s draft explanation.",
+    "lines": [
+      {
+        "zh": "学习技术需要时间，认真很重要；活动或性质本身可以作主语。",
+        "py": "xué xí jì shù xū yào shí jiān , rèn zhēn hěn zhòng yào ; huó dòng huò xìng zhì běn shēn kě yǐ zuò zhǔ yǔ .",
+        "en": "Learning technology takes time and care matters; activities or qualities can themselves be subjects."
+      },
+      {
+        "zh": "我喜欢学习，也喜欢安静；我希望大家都看懂说明，宾语不只可以是物品。",
+        "py": "wǒ xǐ huān xué xí , yě xǐ huān ān jìng ; wǒ xī wàng dà jiā dōu kàn dǒng shuō míng , bīn yǔ bù zhǐ kě yǐ shì wù pǐn .",
+        "en": "I like learning and quiet; I hope everyone understands the instructions; objects need not be items."
+      },
+      {
+        "zh": "科技、工业和发展要放回具体领域，现代化里的化是后缀，不是任意加字。",
+        "py": "kē jì , gōng yè hé fā zhǎn yào fàng huí jù tǐ lǐng yù , xiàn dài huà lǐ de huà shì hòu zhuì , bù shì rèn yì jiā zì .",
+        "en": "Science, industry and development need a specific domain; 化 in modernization is a suffix, not arbitrary character addition."
+      },
+      {
+        "zh": "工程师说明生产和加工，制造机器与制作模型不同，人工检查也可能有错。",
+        "py": "gōng chéng shī shuō míng shēng chǎn hé jiā gōng , zhì zào jī qì yǔ zhì zuò mó xíng bù tóng , rén gōng jiǎn chá yě kě néng yǒu cuò .",
+        "en": "The engineer explains production and processing; manufacturing differs from model-making, and human checks may err."
+      },
+      {
+        "zh": "先进设备仍要实际许可，工厂与实验室都先问进入要求。",
+        "py": "xiān jìn shè bèi réng yào shí jì xǔ kě , gōng chǎng yǔ shí yàn shì dōu xiān wèn jìn rù yāo qiú .",
+        "en": "Advanced equipment still needs actual authorization; ask entry requirements for both factory and laboratory."
+      },
+      {
+        "zh": "实验记录写条件，工具试验写范围，专家解释不替代可核对的依据。",
+        "py": "shí yàn jì lù xiě tiáo jiàn , gōng jù shì yàn xiě fàn wéi , zhuān jiā jiě shì bù tì dài kě hé duì de yī jù .",
+        "en": "Experiment records state conditions and tool trials their scope; expert explanations do not replace checkable evidence."
+      },
+      {
+        "zh": "开发可能产生新问题，不能把一次结果直接写成发明。",
+        "py": "kāi fā kě néng chǎn shēng xīn wèn tí , bù néng bǎ yī cì jié guǒ zhí jiē xiě chéng fā míng .",
+        "en": "Development may raise new questions; one result should not directly be described as an invention."
+      },
+      {
+        "zh": "建立目标，再看实际转变；方案确认以后实行，不以设备名字冒充学习完成。",
+        "py": "jiàn lì mù biāo , zài kàn shí jì zhuǎn biàn ; fāng àn què rèn yǐ hòu shí xíng , bù yǐ shè bèi míng zi mào chōng xué xí wán chéng .",
+        "en": "Establish a goal and inspect actual change; implement confirmed plans rather than call equipment ownership completed learning."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should technical learning remain tied to?",
+        "choices": [
+          "An actual goal, context and evidence",
+          "Equipment names alone",
+          "One guaranteed trial result"
+        ],
+        "answer": "An actual goal, context and evidence"
+      },
+      {
+        "type": "detail",
+        "q": "What must a trial report specify?",
+        "choices": [
+          "Its scope",
+          "Every future result",
+          "Only the expert’s title"
+        ],
+        "answer": "Its scope"
+      },
+      {
+        "type": "inference",
+        "q": "Is the practice model claimed to be an invention?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if it is advanced"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "工程师说明生产和加工，制造机器与制作模型不同，【人工】检查也可能有错。",
+          "py": "gōng chéng shī shuō míng shēng chǎn hé jiā gōng , zhì zào jī qì yǔ zhì zuò mó xíng bù tóng , rén gōng jiǎn chá yě kě néng yǒu cuò .",
+          "en": "The engineer explains production and processing; manufacturing differs from model-making, and human checks may err."
+        },
+        {
+          "zh": "开发可能【产生】新问题，不能把一次结果直接写成发明。",
+          "py": "kāi fā kě néng chǎn shēng xīn wèn tí , bù néng bǎ yī cì jié guǒ zhí jiē xiě chéng fā míng .",
+          "en": "Development may raise new questions; one result should not directly be described as an invention."
+        }
+      ],
+      "bank": [
+        "人工",
+        "产生",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "建立",
+        "pinyin": "jiàn lì",
+        "meaning": "to establish"
+      },
+      {
+        "hanzi": "转变",
+        "pinyin": "zhuǎn biàn",
+        "meaning": "to change"
+      },
+      {
+        "hanzi": "技术",
+        "pinyin": "jì shù",
+        "meaning": "technology; technique"
+      },
+      {
+        "hanzi": "现代化",
+        "pinyin": "xiàn dài huà",
+        "meaning": "modernization"
+      },
+      {
+        "hanzi": "实验记录",
+        "pinyin": "shí yàn jì lù",
+        "meaning": "experiment record"
+      },
+      {
+        "hanzi": "目标",
+        "pinyin": "mù biāo",
+        "meaning": "goal"
+      },
+      {
+        "hanzi": "性质",
+        "pinyin": "xìng zhì",
+        "meaning": "nature; property"
+      },
+      {
+        "hanzi": "本身",
+        "pinyin": "běn shēn",
+        "meaning": "itself"
+      },
+      {
+        "hanzi": "作",
+        "pinyin": "zuò",
+        "meaning": "to serve as"
+      },
+      {
+        "hanzi": "主语",
+        "pinyin": "zhǔ yǔ",
+        "meaning": "subject"
+      },
+      {
+        "hanzi": "宾语",
+        "pinyin": "bīn yǔ",
+        "meaning": "object"
+      },
+      {
+        "hanzi": "领域",
+        "pinyin": "lǐng yù",
+        "meaning": "field; domain"
+      },
+      {
+        "hanzi": "后缀",
+        "pinyin": "hòu zhuì",
+        "meaning": "suffix"
+      },
+      {
+        "hanzi": "任意",
+        "pinyin": "rèn yì",
+        "meaning": "arbitrary; at will"
+      },
+      {
+        "hanzi": "替代",
+        "pinyin": "tì dài",
+        "meaning": "to replace"
+      },
+      {
+        "hanzi": "依据",
+        "pinyin": "yī jù",
+        "meaning": "basis; evidence"
+      },
+      {
+        "hanzi": "以",
+        "pinyin": "yǐ",
+        "meaning": "with; by means of"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u30-media",
+      "title": "Names are not skills",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse.",
+      "lines": [
+        {
+          "zh": "机器的名字，先念清楚。",
+          "py": "jī qì de míng zi , xiān niàn qīng chǔ .",
+          "en": "Pronounce the machine’s name clearly first."
+        },
+        {
+          "zh": "学习的目的，不藏在屏幕。",
+          "py": "xué xí de mù dì , bù cáng zài píng mù .",
+          "en": "The learning purpose is not hidden in the screen."
+        },
+        {
+          "zh": "我希望你懂，也允许再问。",
+          "py": "wǒ xī wàng nǐ dǒng , yě yǔn xǔ zài wèn .",
+          "en": "I hope you understand, and asking again is welcome."
+        },
+        {
+          "zh": "认真不是吼，慢一点也进步。",
+          "py": "rèn zhēn bù shì hǒu , màn yī diǎn yě jìn bù .",
+          "en": "Care is not shouting; slower work can bring progress too."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the verse welcome?",
+          "choices": [
+            "Clarification with a concrete goal",
+            "Guaranteed gains from volume",
+            "Equipment as proof of learning"
+          ],
+          "answer": "Clarification with a concrete goal"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "藏",
+          "pinyin": "cáng",
+          "meaning": "to hide"
+        },
+        {
+          "hanzi": "吼",
+          "pinyin": "hǒu",
+          "meaning": "to roar; shout"
+        }
+      ]
+    },
+    {
+      "id": "s3-u30-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这个例子产生了新问题。",
+          "py": "zhè gè lì zi chǎn shēng le xīn wèn tí .",
+          "en": "This example raised a new question."
+        },
+        {
+          "zh": "发展技术也要考虑实际需要。",
+          "py": "fā zhǎn jì shù yě yào kǎo lǜ shí jì xū yào .",
+          "en": "Technological development should consider actual needs."
+        },
+        {
+          "zh": "现代化里的化表示一种变化。",
+          "py": "xiàn dài huà lǐ de huà biǎo shì yī zhǒng biàn huà .",
+          "en": "The suffix 化 in modernization indicates a transformation."
+        },
+        {
+          "zh": "工业发展不是这张图的全部内容。",
+          "py": "gōng yè fā zhǎn bù shì zhè zhāng tú de quán bù nèi róng .",
+          "en": "Industrial development is not all the diagram describes."
+        },
+        {
+          "zh": "制造机器和读说明不同。",
+          "py": "zhì zào jī qì hé dú shuō míng bù tóng .",
+          "en": "Manufacturing a machine differs from reading instructions."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "技术",
+          "pinyin": "jì shù",
+          "meaning": "technology; technique"
+        },
+        {
+          "hanzi": "现代化",
+          "pinyin": "xiàn dài huà",
+          "meaning": "modernization"
+        },
+        {
+          "hanzi": "考虑",
+          "pinyin": "kǎo lǜ",
+          "meaning": "to consider"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u30-t1",
+      "phrase": "s3-u30-w02",
+      "audio": {
+        "zh": "我们只制作模型，没有发明新机器。",
+        "py": "wǒ men zhǐ zhì zuò mó xíng , méi yǒu fā míng xīn jī qì .",
+        "en": "We make only a model, not an invented new machine."
+      },
+      "statement": "A new machine was invented.",
+      "answer": false,
+      "why": "The invention is explicitly denied."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u30-t2",
+      "phrase": "s3-u30-w21",
+      "audio": {
+        "zh": "方案确认以后才实行。",
+        "py": "fāng àn què rèn yǐ hòu cái shí xíng .",
+        "en": "Implement the plan only after confirmation."
+      },
+      "statement": "An unconfirmed plan should automatically be implemented.",
+      "answer": false,
+      "why": "Confirmation is a stated prerequisite."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u30-t3",
+      "phrase": "s3-u30-w22",
+      "prompt": {
+        "zh": "专家说了，就能不看证据吗？",
+        "py": "zhuān jiā shuō le , jiù néng bù kàn zhèng jù ma ?",
+        "en": "May we ignore evidence because an expert spoke?"
+      },
+      "choices": [
+        "不能，也要看具体依据。",
+        "身份就是所有结果。",
+        "一次试验证明一切。"
+      ],
+      "answer": "不能，也要看具体依据。",
+      "why": "Status does not replace evidence."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u30-t4",
+      "phrase": "s3-u30-w17",
+      "prompt": {
+        "zh": "可以直接操作设备吗？",
+        "py": "kě yǐ zhí jiē cāo zuò shè bèi ma ?",
+        "en": "May we operate the equipment directly?"
+      },
+      "choices": [
+        "先确认现场许可和要求。",
+        "看过机器就算会用。",
+        "名字先进就不用问。"
+      ],
+      "answer": "先确认现场许可和要求。",
+      "why": "Confirm actual authorization."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u30-t5",
+      "phrase": "s3-u30-w13",
+      "line": {
+        "zh": "我们【制作】一个练习模型。",
+        "py": "wǒ men zhì zuò yī gè liàn xí mó xíng .",
+        "en": "We make a practice model."
+      },
+      "blankPy": "zhì zuò"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u30-t6",
+      "phrase": "s3-u30-w18",
+      "line": {
+        "zh": "【实验】记录要写条件。",
+        "py": "shí yàn jì lù yào xiě tiáo jiàn .",
+        "en": "Experiment records state conditions."
+      },
+      "blankPy": "shí yàn"
+    },
+    {
+      "type": "match",
+      "id": "s3-u30-t7",
+      "phrase": "s3-u30-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Learning Chinese takes time.",
+          "right": {
+            "zh": "学习汉语需要时间。",
+            "py": "xué xí hàn yǔ xū yào shí jiān .",
+            "en": "Learning Chinese takes time."
+          }
+        },
+        {
+          "left": "Being careful matters.",
+          "right": {
+            "zh": "认真很重要。",
+            "py": "rèn zhēn hěn zhòng yào .",
+            "en": "Being careful matters."
+          }
+        },
+        {
+          "left": "I hope everyone understands.",
+          "right": {
+            "zh": "我希望大家都看懂。",
+            "py": "wǒ xī wàng dà jiā dōu kàn dǒng .",
+            "en": "I hope everyone understands."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u30-t8",
+      "phrase": "s3-u30-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Human checks can also err.",
+          "right": {
+            "zh": "人工检查也可能出错。",
+            "py": "rén gōng jiǎn chá yě kě néng chū cuò .",
+            "en": "Human checks can also err."
+          }
+        },
+        {
+          "left": "I like quiet.",
+          "right": {
+            "zh": "我喜欢安静。",
+            "py": "wǒ xǐ huān ān jìng .",
+            "en": "I like quiet."
+          }
+        },
+        {
+          "left": "Ask users before development.",
+          "right": {
+            "zh": "开发以前先问使用者。",
+            "py": "kāi fā yǐ qián xiān wèn shǐ yòng zhě .",
+            "en": "Ask users before development."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u30-t9",
+      "phrase": "s3-u30-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Teacher Mr Zhang also came.",
+          "right": {
+            "zh": "老师张先生也来了。",
+            "py": "lǎo shī zhāng xiān shēng yě lái le .",
+            "en": "Teacher Mr Zhang also came."
+          }
+        },
+        {
+          "left": "She speaks Chinese fluently.",
+          "right": {
+            "zh": "她汉语说得很流利。",
+            "py": "tā hàn yǔ shuō dé hěn liú lì .",
+            "en": "She speaks Chinese fluently."
+          }
+        },
+        {
+          "left": "Starting next week, read a passage first each day.",
+          "right": {
+            "zh": "从下周起，每天先读一段。",
+            "py": "cóng xià zhōu qǐ , měi tiān xiān dú yī duàn .",
+            "en": "Starting next week, read a passage first each day."
+          }
+        },
+        {
+          "left": "It has been three days since she left here.",
+          "right": {
+            "zh": "她离开这里三天了。",
+            "py": "tā lí kāi zhè lǐ sān tiān le .",
+            "en": "It has been three days since she left here."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "State the purpose",
+      "natural": {
+        "zh": "学会看懂，不只是看过。",
+        "py": "xué huì kàn dǒng , bù zhǐ shì kàn guò .",
+        "en": "Learn to understand, rather than merely have seen it."
+      },
+      "note": "Use an observable learning goal."
+    },
+    {
+      "situation": "Allow another question",
+      "natural": {
+        "zh": "没看懂就问，别装懂。",
+        "py": "méi kàn dǒng jiù wèn , bié zhuāng dǒng .",
+        "en": "Ask if you did not understand; do not pretend."
+      },
+      "note": "Keep clarification welcome."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u30-speak",
+    "title": "Learning with a purpose",
+    "place": "A language-exchange meeting",
+    "context": "Use activities as subjects and discuss plans.",
+    "goal": "Use activities and qualities as subjects",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "学习的目的是什么？",
+        "pinyin": "xué xí de mù dì shì shén me ?",
+        "meaning": "What is the learning purpose?",
+        "intent": "Name an observable goal",
+        "examples": [
+          "我希望大家看懂说明。"
+        ],
+        "accept": [
+          "^我希望大家看懂说明。[。！？]?$"
+        ]
+      },
+      {
+        "text": "设备先进就会用吗？",
+        "pinyin": "shè bèi xiān jìn jiù huì yòng ma ?",
+        "meaning": "Does advanced equipment imply knowing how to use it?",
+        "intent": "Separate equipment and ability",
+        "examples": [
+          "不代表，先学要求再确认。"
+        ],
+        "accept": [
+          "^不代表，先学要求再确认。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三43, 三44. Native check: action/adjective subjects, subject–predicate objects after 希望, 化 suffix productivity, 实验 versus 试验 overlap, 工业 vocabulary and permission wording, original verse rhythm. Language practice is not laboratory operating instruction. Native review pending. Planned retrieval 三32 / 三53 / 三39 / 三52: 老师张先生也来了。, 她汉语说得很流利。, 从下周起，每天先读一段。, 她离开这里三天了。."
+}

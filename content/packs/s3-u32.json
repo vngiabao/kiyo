@@ -1,0 +1,1220 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u32",
+    "stage": 2,
+    "order": 96,
+    "title": "Can we follow this scene?",
+    "titleZh": "这段场景看得懂吗",
+    "canDo": [
+      "Describe whether a task can be completed",
+      "Place a count and a noun or pronoun object naturally",
+      "Follow a documentary scene without treating it as a real transaction"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u31"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u32-w01",
+      "hanzi": "报",
+      "pinyin": "bào",
+      "meaning": "newspaper",
+      "meaningVi": "báo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "报上写了这次访问。",
+        "py": "bào shàng xiě le zhè cì fǎng wèn .",
+        "en": "The newspaper described the visit."
+      },
+      "usageNote": "[GF2021:L3:218] Source entry: 报; bào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w02",
+      "hanzi": "报道",
+      "pinyin": "bào dào",
+      "meaning": "to report; news report",
+      "meaningVi": "đưa tin; bản tin",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "报道还没有确认结果。",
+        "py": "bào dào hái méi yǒu què rèn jié guǒ .",
+        "en": "The news report has not confirmed the outcome."
+      },
+      "usageNote": "[GF2021:L3:224] Source entry: 报道; bàodào; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w03",
+      "hanzi": "报告",
+      "pinyin": "bào gào",
+      "meaning": "report; to report",
+      "meaningVi": "báo cáo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "报告说明实际发生的事。",
+        "py": "bào gào shuō míng shí jì fā shēng de shì .",
+        "en": "The report describes what actually happened."
+      },
+      "usageNote": "[GF2021:L3:227] Source entry: 报告; bàogào; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w04",
+      "hanzi": "发出",
+      "pinyin": "fā chū",
+      "meaning": "to send out",
+      "meaningVi": "gửi đi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "邮件已经发出，还没收到回答。",
+        "py": "yóu jiàn yǐ jīng fā chū , hái mò shōu dào huí dá .",
+        "en": "The email has been sent; no reply has arrived."
+      },
+      "usageNote": "[GF2021:L3:2130] Source entry: 发出; fāchū; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w05",
+      "hanzi": "发表",
+      "pinyin": "fā biǎo",
+      "meaning": "to publish; express publicly",
+      "meaningVi": "công bố; phát biểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "发表以前先核对事实。",
+        "py": "fā biǎo yǐ qián xiān hé duì shì shí .",
+        "en": "Check facts before publication."
+      },
+      "usageNote": "[GF2021:L3:2124] Source entry: 发表; fābiǎo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w06",
+      "hanzi": "电子邮件",
+      "pinyin": "diàn zǐ yóu jiàn",
+      "meaning": "email",
+      "meaningVi": "thư điện tử",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "电子邮件里不要随便放个人信息。",
+        "py": "diàn zǐ yóu jiàn lǐ bú yào suí biàn fàng gè rén xìn xī .",
+        "en": "Do not casually put personal information in email."
+      },
+      "usageNote": "[GF2021:L3:1838] Source entry: 电子邮件; diànzǐ yóujiàn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w07",
+      "hanzi": "邮件",
+      "pinyin": "yóu jiàn",
+      "meaning": "mail; email",
+      "meaningVi": "thư",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这封邮件我看了两遍。",
+        "py": "zhè fēng yóu jiàn wǒ kàn le liǎng biàn .",
+        "en": "I read this email twice."
+      },
+      "usageNote": "[GF2021:L3:9840] Source entry: 邮件; yóujiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w08",
+      "hanzi": "邮箱",
+      "pinyin": "yóu xiāng",
+      "meaning": "mailbox; email inbox",
+      "meaningVi": "hộp thư",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "邮箱地址要完整核对。",
+        "py": "yóu xiāng dì zhǐ yào wán zhěng hé duì .",
+        "en": "Check the mailbox address completely."
+      },
+      "usageNote": "[GF2021:L3:9843] Source entry: 邮箱; yóuxiāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w09",
+      "hanzi": "邮票",
+      "pinyin": "yóu piào",
+      "meaning": "postage stamp",
+      "meaningVi": "tem",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "信封上的邮票还没贴好。",
+        "py": "xìn fēng shàng de yóu piào hái méi tiē hǎo .",
+        "en": "The postage stamp has not yet been properly attached to the envelope."
+      },
+      "usageNote": "[GF2021:L3:9842] Source entry: 邮票; yóupiào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w10",
+      "hanzi": "信封",
+      "pinyin": "xìn fēng",
+      "meaning": "envelope",
+      "meaningVi": "phong bì",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "信封外面写收件人。",
+        "py": "xìn fēng wài miàn xiě shōu jiàn rén .",
+        "en": "The recipient is written on the envelope."
+      },
+      "usageNote": "[GF2021:L3:9032] Source entry: 信封; xìnfēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w11",
+      "hanzi": "证件",
+      "pinyin": "zhèng jiàn",
+      "meaning": "identification document",
+      "meaningVi": "giấy tờ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "证件由本人保管。",
+        "py": "zhèng jiàn yóu běn rén bǎo guǎn .",
+        "en": "The person keeps their own identification documents."
+      },
+      "usageNote": "[GF2021:L3:10436] Source entry: 证件; zhèngjiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w12",
+      "hanzi": "身份证",
+      "pinyin": "shēn fèn zhèng",
+      "meaning": "identity card",
+      "meaningVi": "căn cước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场景里工作人员要求看身份证。",
+        "py": "chǎng jǐng lǐ gōng zuò rén yuán yāo qiú kàn shēn fèn zhèng .",
+        "en": "In the scene, the staff member asks to see ID."
+      },
+      "usageNote": "[GF2021:L3:7053] Source entry: 身份证; shēnfènzhèng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w13",
+      "hanzi": "通信",
+      "pinyin": "tōng xìn",
+      "meaning": "to communicate by correspondence",
+      "meaningVi": "trao đổi thư từ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她们用邮件通信。",
+        "py": "tā men yòng yóu jiàn tōng xìn .",
+        "en": "They communicate by email."
+      },
+      "usageNote": "[GF2021:L3:8046] Source entry: 通信; tōng∥xìn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w14",
+      "hanzi": "交易",
+      "pinyin": "jiāo yì",
+      "meaning": "transaction; trade",
+      "meaningVi": "giao dịch",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这段只是交易场景，不是真实付款。",
+        "py": "zhè duàn zhǐ shì jiāo yì chǎng jǐng , bù shì zhēn shí fù kuǎn .",
+        "en": "This is only a transaction scene, not a real payment."
+      },
+      "usageNote": "[GF2021:L3:4071] Source entry: 交易; jiāoyì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w15",
+      "hanzi": "海关",
+      "pinyin": "hǎi guān",
+      "meaning": "customs",
+      "meaningVi": "hải quan",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "海关的通知要看日期和来源。",
+        "py": "hǎi guān de tōng zhī yào kàn rì qī hé lái yuán .",
+        "en": "Check the customs notice’s date and source."
+      },
+      "usageNote": "[GF2021:L3:3150] Source entry: 海关; hǎiguān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w16",
+      "hanzi": "旅行社",
+      "pinyin": "lǚ xíng shè",
+      "meaning": "travel agency",
+      "meaningVi": "công ty du lịch",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旅行社给她发了说明。",
+        "py": "lǚ xíng shè gěi tā fā le shuō míng .",
+        "en": "The travel agency sent her an explanation."
+      },
+      "usageNote": "[GF2021:L3:5362] Source entry: 旅行社; lǚxíngshè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w17",
+      "hanzi": "信",
+      "pinyin": "xìn",
+      "meaning": "to believe; trust",
+      "meaningVi": "tin",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有依据再信，不只看标题。",
+        "py": "yǒu yī jù zài xìn , bù zhǐ kàn biāo tí .",
+        "en": "Believe with evidence, not solely from a title."
+      },
+      "usageNote": "[GF2021:L3:9030] Source entry: 信; xìn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w18",
+      "hanzi": "大使馆",
+      "pinyin": "dà shǐ guǎn",
+      "meaning": "embassy",
+      "meaningVi": "đại sứ quán",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场景里的大使馆名字是虚构的。",
+        "py": "chǎng jǐng lǐ de dà shǐ guǎn míng zi shì xū gòu de .",
+        "en": "The embassy name in this scene is fictional."
+      },
+      "usageNote": "[GF2021:L3:1503] Source entry: 大使馆; dàshǐguǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w19",
+      "hanzi": "美元",
+      "pinyin": "měi yuán",
+      "meaning": "US dollar",
+      "meaningVi": "đô la Mỹ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "纸上写美元，不是人民币。",
+        "py": "zhǐ shàng xiě měi yuán , bù shì rén mín bì .",
+        "en": "The paper says US dollars, not renminbi."
+      },
+      "usageNote": "[GF2021:L3:5502] Source entry: 美元; měiyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w20",
+      "hanzi": "资金",
+      "pinyin": "zī jīn",
+      "meaning": "funds; capital",
+      "meaningVi": "nguồn vốn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "资金还没支付，先确认条件。",
+        "py": "zī jīn hái méi zhī fù , xiān què rèn tiáo jiàn .",
+        "en": "The funds have not been paid; confirm terms first."
+      },
+      "usageNote": "[GF2021:L3:10885] Source entry: 资金; zījīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w21",
+      "hanzi": "正式",
+      "pinyin": "zhèng shì",
+      "meaning": "formal; official",
+      "meaningVi": "chính thức",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "正式通知和朋友建议不同。",
+        "py": "zhèng shì tōng zhī hé péng you jiàn yì bù tóng .",
+        "en": "An official notice differs from a friend’s suggestion."
+      },
+      "usageNote": "[GF2021:L3:10428] Source entry: 正式; zhèngshì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u32-w22",
+      "hanzi": "证",
+      "pinyin": "zhèng",
+      "meaning": "certificate; proof document",
+      "meaningVi": "giấy chứng nhận",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场景里她出示了一本工作证。",
+        "py": "chǎng jǐng lǐ tā chū shì le yī běn gōng zuò zhèng .",
+        "en": "She presents a work ID in the scene."
+      },
+      "usageNote": "[GF2021:L3:10435] Source entry: 证; zhèng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "邮",
+      "pinyin": "yóu",
+      "meaning": "post",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "邮",
+          "role": "whole",
+          "gloss": "post"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 邮 in 电子邮件 / 邮件. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "电子邮件",
+          "p": "diàn zǐ yóu jiàn",
+          "m": "email"
+        },
+        {
+          "w": "邮件",
+          "p": "yóu jiàn",
+          "m": "mail; email"
+        }
+      ]
+    },
+    {
+      "hanzi": "资",
+      "pinyin": "zī",
+      "meaning": "resources; funds",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "资",
+          "role": "whole",
+          "gloss": "resources; funds"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 资 in 资金 / 资格. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "资金",
+          "p": "zī jīn",
+          "m": "funds; capital"
+        },
+        {
+          "w": "资格",
+          "p": "zī gé",
+          "m": "qualification; eligibility"
+        }
+      ]
+    },
+    {
+      "hanzi": "充",
+      "pinyin": "chōng",
+      "meaning": "to fill; sufficient",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "充",
+          "role": "whole",
+          "gloss": "to fill; sufficient"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 充 in 充电器 / 补充. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "充电器",
+          "p": "chōng diàn qì",
+          "m": "charger"
+        },
+        {
+          "w": "补充",
+          "p": "bǔ chōng",
+          "m": "to supplement; add"
+        }
+      ]
+    },
+    {
+      "hanzi": "易",
+      "pinyin": "yì",
+      "meaning": "easy; exchange",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "易",
+          "role": "whole",
+          "gloss": "easy; exchange"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 易 in 交易 / 容易. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "交易",
+          "p": "jiāo yì",
+          "m": "transaction; trade"
+        },
+        {
+          "w": "容易",
+          "p": "róng yì",
+          "m": "easy"
+        }
+      ]
+    },
+    {
+      "hanzi": "付",
+      "pinyin": "fù",
+      "meaning": "to pay; entrust",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "付",
+          "role": "whole",
+          "gloss": "to pay; entrust"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 付 in 付 / 支付. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "付",
+          "p": "fù",
+          "m": "to pay; give"
+        },
+        {
+          "w": "支付",
+          "p": "zhī fù",
+          "m": "to pay; make a payment"
+        }
+      ]
+    },
+    {
+      "hanzi": "负",
+      "pinyin": "fù",
+      "meaning": "to bear; negative",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "负",
+          "role": "whole",
+          "gloss": "to bear; negative"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 负 in 负责. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "负责",
+          "p": "fù zé",
+          "m": "to be responsible"
+        }
+      ]
+    },
+    {
+      "hanzi": "保",
+      "pinyin": "bǎo",
+      "meaning": "to protect; keep",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "保",
+          "role": "whole",
+          "gloss": "to protect; keep"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 保 in 保证 / 保持. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "保证",
+          "p": "bǎo zhèng",
+          "m": "to guarantee"
+        },
+        {
+          "w": "保持",
+          "p": "bǎo chí",
+          "m": "to maintain"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u32-g三48",
+      "pattern": "V + 得 / 不 + 结果；V + 得 / 不 + 了",
+      "purpose": "Describe potential completion rather than permission",
+      "explanation": "看得懂/看不懂 describes whether understanding is possible. 拿得动/拿不动 describes ability to move an item. 今天处理得了这些邮件吗 asks whether completion is manageable; 了 is liǎo in this potential complement. 不可以 is a permission judgment, different from 看不懂. A capability statement does not establish actual completion.",
+      "examples": [
+        {
+          "zh": "这封邮件我看得懂。",
+          "py": "zhè fēng yóu jiàn wǒ kàn dé dǒng .",
+          "en": "I can understand this email."
+        },
+        {
+          "zh": "这些邮件今天处理不了。",
+          "py": "zhè xiē yóu jiàn jīn tiān chǔ lǐ bù le .",
+          "en": "These emails cannot be dealt with today."
+        },
+        {
+          "zh": "她拿不动这个箱子。",
+          "py": "tā ná bù dòng zhè gè xiāng zi .",
+          "en": "She cannot lift or move this box."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "看得懂就是已经看完了。",
+          "right": "看得懂表示能够理解，不代表已经看完。",
+          "why": "Potential completion and actual completion differ."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u32-g三50",
+      "pattern": "V + 次数 + 名物 / V + 代词 + 次数",
+      "purpose": "Place the object with an event count",
+      "explanation": "我看了两遍报告 puts the noun object after the count. 我问了她三次 puts a pronoun object before the count. With people’s names, different placements are possible according to context; do not invent an absolute placement rule for all nouns. Keep the counted event distinct from the number of objects: 看两遍报告 is two readings, not necessarily two reports.",
+      "examples": [
+        {
+          "zh": "我看了两遍报告。",
+          "py": "wǒ kàn le liǎng biàn bào gào .",
+          "en": "I read the report twice."
+        },
+        {
+          "zh": "我给她打了两次电话。",
+          "py": "wǒ gěi tā dǎ le liǎng cì diàn huà .",
+          "en": "I called her twice."
+        },
+        {
+          "zh": "我问了她三次。",
+          "py": "wǒ wèn le tā sān cì .",
+          "en": "I asked her three times."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我问了三次她。",
+          "right": "我问了她三次。",
+          "why": "For this ordinary pronoun-object count, put 她 before 三次."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u32-d",
+    "title": "The paper is a scene",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Follow a fictional report without performing a transaction.",
+    "lines": [
+      {
+        "zh": "这段场景讲海关还是旅行社？我看不懂标题。",
+        "py": "zhè duàn chǎng jǐng jiǎng hǎi guān hái shi lǚ xíng shè ? wǒ kàn bù dǒng biāo tí .",
+        "en": "Is the scene about customs or a travel agency? I cannot understand the title.",
+        "speaker": "a"
+      },
+      {
+        "zh": "旅行社发出电子邮件，介绍一个虚构的大使馆访问。",
+        "py": "lǚ xíng shè fā chū diàn zǐ yóu jiàn , jiè shào yī gè xū gòu de dà shǐ guǎn fǎng wèn .",
+        "en": "The travel agency sends an email introducing a fictional embassy visit.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我看了两遍报告，邮件里的资金写美元。",
+        "py": "wǒ kàn le liǎng biàn bào gào , yóu jiàn lǐ de zī jīn xiě měi yuán .",
+        "en": "I read the report twice; the funds in the email are in US dollars.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，不是人民币。这段交易不是实际付款。",
+        "py": "duì , bù shì rén mín bì . zhè duàn jiāo yì bù shì shí jì fù kuǎn .",
+        "en": "Right, not renminbi; this transaction is not a real payment.",
+        "speaker": "b"
+      },
+      {
+        "zh": "身份证和证件能直接发表在报上吗？",
+        "py": "shēn fèn zhèng hé zhèng jiàn néng zhí jiē fā biǎo zài bào shàng ma ?",
+        "en": "May ID cards and document details be published directly in the newspaper?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不能替别人同意。正式通知也要查来源。",
+        "py": "bù néng tì bié ren tóng yì . zhèng shì tōng zhī yě yào chá lái yuán .",
+        "en": "Do not consent for others; check the source of formal notices too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她问了工作人员三次，还没收到回答。",
+        "py": "tā wèn le gōng zuò rén yuán sān cì , hái mò shōu dào huí dá .",
+        "en": "She asked the staff member three times and has not received a reply.",
+        "speaker": "a"
+      },
+      {
+        "zh": "所以别把通信记录当成确认；看得懂也不等于已经办完。",
+        "py": "suǒ yǐ bié bǎ tōng xìn jì lù dàng chéng què rèn ; kàn dé dǒng yě bù děng yú yǐ jīng bàn wán .",
+        "en": "So do not treat correspondence as confirmation; understanding does not mean having completed the procedure.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What must remain separate?",
+        "choices": [
+          "Understanding a fictional scene and an actual transaction",
+          "A title and every confirmed fact",
+          "Reading counts and report counts"
+        ],
+        "answer": "Understanding a fictional scene and an actual transaction"
+      },
+      {
+        "type": "detail",
+        "q": "Which currency is stated?",
+        "choices": [
+          "US dollars",
+          "Renminbi",
+          "Neither is written"
+        ],
+        "answer": "US dollars"
+      },
+      {
+        "type": "inference",
+        "q": "Does sending the email imply receiving a reply?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with a work ID"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "付款",
+        "pinyin": "fù kuǎn",
+        "meaning": "to pay"
+      },
+      {
+        "hanzi": "场景",
+        "pinyin": "chǎng jǐng",
+        "meaning": "scene; scenario"
+      },
+      {
+        "hanzi": "虚构",
+        "pinyin": "xū gòu",
+        "meaning": "fictional; to invent"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u32-r",
+    "title": "Two readings, one report",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the explicit limits of the document.",
+    "lines": [
+      {
+        "zh": "报上的报道与内部报告不同，充满疑问时要核对来源和日期。",
+        "py": "bào shàng de bào dào yǔ nèi bù bào gào bù tóng , chōng mǎn yí wèn shí yào hé duì lái yuán hé rì qī .",
+        "en": "A newspaper report differs from an internal report; when full of questions, check sources and dates."
+      },
+      {
+        "zh": "旅行社发出的电子邮件放在邮箱里，通信记录还没收到正式回答。",
+        "py": "lǚ xíng shè fā chū de diàn zǐ yóu jiàn fàng zài yóu xiāng lǐ , tōng xìn jì lù hái mò shōu dào zhèng shì huí dá .",
+        "en": "The agency’s email is in the mailbox, and the correspondence has no formal reply yet."
+      },
+      {
+        "zh": "信封写收件人，邮票只是邮资标记，不是身份确认。",
+        "py": "xìn fēng xiě shōu jiàn rén , yóu piào zhǐ shì yóu zī biāo jì , bù shì shēn fèn què rèn .",
+        "en": "The envelope states the recipient; the stamp marks postage rather than confirms identity."
+      },
+      {
+        "zh": "证件和身份证由本人保管，出示工作证也不能随便公开个人信息。",
+        "py": "zhèng jiàn hé shēn fèn zhèng yóu běn rén bǎo guǎn , chū shì gōng zuò zhèng yě bù néng suí biàn gōng kāi gè rén xìn xī .",
+        "en": "Keep ID documents personally; showing work ID does not allow casual publication of personal information."
+      },
+      {
+        "zh": "海关与大使馆的场景是虚构练习，不提供真实办事规则；信要有依据。",
+        "py": "hǎi guān yǔ dà shǐ guǎn de chǎng jǐng shì xū gòu liàn xí , bù tí gōng zhēn shí bàn shì guī zé ; xìn yào yǒu yī jù .",
+        "en": "The customs and embassy scenario is fictional practice and provides no actual procedural rules; belief requires evidence."
+      },
+      {
+        "zh": "交易没有付款，资金记录注明美元，负责的人要核对对象与条件。",
+        "py": "jiāo yì méi yǒu fù kuǎn , zī jīn jì lù zhù míng měi yuán , fù zé de rén yào hé duì duì xiàng yǔ tiáo jiàn .",
+        "en": "No payment occurs in the transaction; funds records specify dollars, and the responsible person checks parties and terms."
+      },
+      {
+        "zh": "我看了两遍报告，数的是阅读次数；我问了她三次，代词在次数前。",
+        "py": "wǒ kàn le liǎng biàn bào gào , shù de shì yuè dú cì shù ; wǒ wèn le tā sān cì , dài cí zài cì shù qián .",
+        "en": "I read the report twice, counting readings; I asked her three times, putting the pronoun before the count."
+      },
+      {
+        "zh": "今天处理不了所有邮件，是能力与时间的限制；看得懂也不代表办完。",
+        "py": "jīn tiān chǔ lǐ bù le suǒ yǒu yóu jiàn , shì néng lì yǔ shí jiān de xiàn zhì ; kàn dé dǒng yě bù dài biǎo bàn wán .",
+        "en": "Inability to process all emails today concerns capacity and time; understanding does not imply completion."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the reading explicitly avoid?",
+        "choices": [
+          "Treating a fictional scene as real procedural advice",
+          "Reading the report again",
+          "Counting actual attempts"
+        ],
+        "answer": "Treating a fictional scene as real procedural advice"
+      },
+      {
+        "type": "detail",
+        "q": "What is counted by 两遍报告 here?",
+        "choices": [
+          "Two readings",
+          "Two distinct reports",
+          "Two people"
+        ],
+        "answer": "Two readings"
+      },
+      {
+        "type": "inference",
+        "q": "Does showing a document authorize public disclosure?",
+        "choices": [
+          "No",
+          "Yes",
+          "If a newspaper exists"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我看了两遍【报告】，数的是阅读次数；我问了她三次，代词在次数前。",
+          "py": "wǒ kàn le liǎng biàn bào gào , shù de shì yuè dú cì shù ; wǒ wèn le tā sān cì , dài cí zài cì shù qián .",
+          "en": "I read the report twice, counting readings; I asked her three times, putting the pronoun before the count."
+        },
+        {
+          "zh": "今天处理不了所有【邮件】，是能力与时间的限制；看得懂也不代表办完。",
+          "py": "jīn tiān chǔ lǐ bù le suǒ yǒu yóu jiàn , shì néng lì yǔ shí jiān de xiàn zhì ; kàn dé dǒng yě bù dài biǎo bàn wán .",
+          "en": "Inability to process all emails today concerns capacity and time; understanding does not imply completion."
+        }
+      ],
+      "bank": [
+        "报告",
+        "邮件",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "充满",
+        "pinyin": "chōng mǎn",
+        "meaning": "to be full of"
+      },
+      {
+        "hanzi": "保管",
+        "pinyin": "bǎo guǎn",
+        "meaning": "to keep safely"
+      },
+      {
+        "hanzi": "付款",
+        "pinyin": "fù kuǎn",
+        "meaning": "to pay"
+      },
+      {
+        "hanzi": "负责",
+        "pinyin": "fù zé",
+        "meaning": "to be responsible"
+      },
+      {
+        "hanzi": "个人信息",
+        "pinyin": "gè rén xìn xī",
+        "meaning": "personal information"
+      },
+      {
+        "hanzi": "场景",
+        "pinyin": "chǎng jǐng",
+        "meaning": "scene; scenario"
+      },
+      {
+        "hanzi": "疑问",
+        "pinyin": "yí wèn",
+        "meaning": "question; doubt"
+      },
+      {
+        "hanzi": "虚构",
+        "pinyin": "xū gòu",
+        "meaning": "fictional; to invent"
+      },
+      {
+        "hanzi": "依据",
+        "pinyin": "yī jù",
+        "meaning": "basis; evidence"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u32-media",
+      "title": "The envelope does not answer",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse.",
+      "lines": [
+        {
+          "zh": "邮件发出，回答还没来。",
+          "py": "yóu jiàn fā chū , huí dá hái méi lái .",
+          "en": "The email is sent; the answer has not arrived."
+        },
+        {
+          "zh": "报告两遍，问题仍在。",
+          "py": "bào gào liǎng biàn , wèn tí réng zài .",
+          "en": "Two readings of the report, and the question remains."
+        },
+        {
+          "zh": "看不懂，就问；办不了，说明。",
+          "py": "kàn bù dǒng , jiù wèn ; bàn bù le , shuō míng .",
+          "en": "Ask when you cannot understand; explain when you cannot finish."
+        },
+        {
+          "zh": "纸会记事，不会替人答应。",
+          "py": "zhǐ huì jì shì , bù huì tì rén dā yìng .",
+          "en": "Paper records events; it does not agree for people."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is encouraged?",
+          "choices": [
+            "Clarify actual understanding and capacity",
+            "Assume agreement from correspondence",
+            "Treat every stamp as identity proof"
+          ],
+          "answer": "Clarify actual understanding and capacity"
+        }
+      ],
+      "glosses": []
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u32-t1",
+      "phrase": "s3-u32-w04",
+      "audio": {
+        "zh": "邮件发出，还没收到回答。",
+        "py": "yóu jiàn fā chū , hái mò shōu dào huí dá .",
+        "en": "The email was sent; no reply has arrived."
+      },
+      "statement": "A reply was received.",
+      "answer": false,
+      "why": "No reply is stated."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u32-t2",
+      "phrase": "s3-u32-w19",
+      "audio": {
+        "zh": "记录写的是美元，不是人民币。",
+        "py": "jì lù xiě de shì měi yuán , bù shì rén mín bì .",
+        "en": "The record says dollars, not renminbi."
+      },
+      "statement": "The currency is renminbi.",
+      "answer": false,
+      "why": "Renminbi is explicitly denied."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u32-t3",
+      "phrase": "s3-u32-w11",
+      "prompt": {
+        "zh": "可以替她公开证件信息吗？",
+        "py": "kě yǐ tì tā gōng kāi zhèng jiàn xìn xī ma ?",
+        "en": "May we disclose her document details for her?"
+      },
+      "choices": [
+        "先问本人，不能替她同意。",
+        "有邮票就可以。",
+        "看两遍就自动许可。"
+      ],
+      "answer": "先问本人，不能替她同意。",
+      "why": "The person’s actual consent matters."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u32-t4",
+      "phrase": "s3-u32-w21",
+      "prompt": {
+        "zh": "这就是正式规则吗？",
+        "py": "zhè jiù shì zhèng shì guī zé ma ?",
+        "en": "Is this the actual formal rule?"
+      },
+      "choices": [
+        "这是虚构练习，真实要求另查。",
+        "故事等于现行规则。",
+        "所有国家都一样。"
+      ],
+      "answer": "这是虚构练习，真实要求另查。",
+      "why": "Do not turn fiction into real rules."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u32-t5",
+      "phrase": "s3-u32-w03",
+      "line": {
+        "zh": "我看了两遍【报告】。",
+        "py": "wǒ kàn le liǎng biàn bào gào .",
+        "en": "I read the report twice."
+      },
+      "blankPy": "bào gào"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u32-t6",
+      "phrase": "s3-u32-w13",
+      "line": {
+        "zh": "【通信】记录还没有正式回答。",
+        "py": "tōng xìn jì lù hái méi yǒu zhèng shì huí dá .",
+        "en": "The correspondence has no formal reply yet."
+      },
+      "blankPy": "tōng xìn"
+    },
+    {
+      "type": "match",
+      "id": "s3-u32-t7",
+      "phrase": "s3-u32-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I can understand this email.",
+          "right": {
+            "zh": "这封邮件我看得懂。",
+            "py": "zhè fēng yóu jiàn wǒ kàn dé dǒng .",
+            "en": "I can understand this email."
+          }
+        },
+        {
+          "left": "These emails cannot all be processed today.",
+          "right": {
+            "zh": "这些邮件今天处理不了。",
+            "py": "zhè xiē yóu jiàn jīn tiān chǔ lǐ bù le .",
+            "en": "These emails cannot all be processed today."
+          }
+        },
+        {
+          "left": "I asked her three times.",
+          "right": {
+            "zh": "我问了她三次。",
+            "py": "wǒ wèn le tā sān cì .",
+            "en": "I asked her three times."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u32-t8",
+      "phrase": "s3-u32-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The funds are not yet paid.",
+          "right": {
+            "zh": "资金还没支付。",
+            "py": "zī jīn hái méi zhī fù .",
+            "en": "The funds are not yet paid."
+          }
+        },
+        {
+          "left": "The envelope states the recipient.",
+          "right": {
+            "zh": "信封写收件人。",
+            "py": "xìn fēng xiě shōu jiàn rén .",
+            "en": "The envelope states the recipient."
+          }
+        },
+        {
+          "left": "Check the formal source’s date too.",
+          "right": {
+            "zh": "正式来源也要看日期。",
+            "py": "zhèng shì lái yuán yě yào kàn rì qī .",
+            "en": "Check the formal source’s date too."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u32-tcontext-01",
+      "phrase": "s3-u32-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "The news report has not confirmed the outcome.",
+          "right": {
+            "zh": "报道还没有确认结果。",
+            "py": "bào dào hái méi yǒu què rèn jié guǒ .",
+            "en": "The news report has not confirmed the outcome."
+          }
+        },
+        {
+          "left": "Check facts before publication.",
+          "right": {
+            "zh": "发表以前先核对事实。",
+            "py": "fā biǎo yǐ qián xiān hé duì shì shí .",
+            "en": "Check facts before publication."
+          }
+        },
+        {
+          "left": "Check the mailbox address completely.",
+          "right": {
+            "zh": "邮箱地址要完整核对。",
+            "py": "yóu xiāng dì zhǐ yào wán zhěng hé duì .",
+            "en": "Check the mailbox address completely."
+          }
+        },
+        {
+          "left": "The postage stamp has not yet been properly attached to the envelope.",
+          "right": {
+            "zh": "信封上的邮票还没贴好。",
+            "py": "xìn fēng shàng de yóu piào hái méi tiē hǎo .",
+            "en": "The postage stamp has not yet been properly attached to the envelope."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u32-t9",
+      "phrase": "s3-u32-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "She looks tired; ask her first.",
+          "right": {
+            "zh": "她看起来很累，先问本人。",
+            "py": "tā kàn qǐ lái hěn lèi , xiān wèn běn rén .",
+            "en": "She looks tired; ask her first."
+          }
+        },
+        {
+          "left": "The photo looks bright; it does not establish the temperature there.",
+          "right": {
+            "zh": "照片看上去很亮，不说明现场温度。",
+            "py": "zhào piān kàn shàng qù hěn liàng , bù shuō míng xiàn chǎng wēn dù .",
+            "en": "The photo looks bright; it does not establish the temperature there."
+          }
+        },
+        {
+          "left": "Learning Chinese takes time.",
+          "right": {
+            "zh": "学习汉语需要时间。",
+            "py": "xué xí hàn yǔ xū yào shí jiān .",
+            "en": "Learning Chinese takes time."
+          }
+        },
+        {
+          "left": "I hope everyone understands the instructions.",
+          "right": {
+            "zh": "我希望大家都看懂说明。",
+            "py": "wǒ xī wàng dà jiā dōu kàn dǒng shuō míng .",
+            "en": "I hope everyone understands the instructions."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Separate ability",
+      "natural": {
+        "zh": "看得懂，不等于已经办完。",
+        "py": "kàn dé dǒng , bù děng yú yǐ jīng bàn wán .",
+        "en": "Understanding does not mean having completed the procedure."
+      },
+      "note": "Keep capability and completion separate."
+    },
+    {
+      "situation": "Repeat clearly",
+      "natural": {
+        "zh": "没看懂的那一句，再来一遍。",
+        "py": "méi kàn dǒng de nà yī jù , zài lái yī biàn .",
+        "en": "Repeat the sentence you did not understand."
+      },
+      "note": "Ask a specific clarification."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u32-speak",
+    "title": "Can we follow this scene?",
+    "place": "A language-exchange meeting",
+    "context": "Discuss ability, difficulty and repetitions with an object.",
+    "goal": "Describe whether a task can be completed",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "今天能处理完吗？",
+        "pinyin": "jīn tiān néng chǔ lǐ wán ma ?",
+        "meaning": "Can it all be processed today?",
+        "intent": "State an actual limit",
+        "examples": [
+          "今天处理不了所有邮件。"
+        ],
+        "accept": [
+          "^今天处理不了所有邮件。[。！？]?$"
+        ]
+      },
+      {
+        "text": "看了两遍是什么意思？",
+        "pinyin": "kàn le liǎng biàn shì shén me yì si ?",
+        "meaning": "What does reading twice mean?",
+        "intent": "Count events rather than documents",
+        "examples": [
+          "是读两次，不一定是两份报告。"
+        ],
+        "accept": [
+          "^是读两次，不一定是两份报告。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三48, 三50. Native check: newspaper 报 versus report 报告/报道, verb 信, potential 了 liǎo, noun/pronoun placement with event counts, working-ID 证 reference and original verse rhythm. Embassy and customs content is fictional language practice, never current procedural or financial advice. Native review pending. Planned retrieval 三35 / 三36 / 三43 / 三44: 她看起来很累，先问本人。, 照片看上去很亮，不说明现场温度。, 学习汉语需要时间。, 我希望大家都看懂说明。."
+}
