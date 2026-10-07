@@ -68,6 +68,40 @@ describe('deployment audio preserves individually addressable clips', () => {
     const f = fixture(true);
     expect(Buffer.from(await (await f.request('second.mp3')).arrayBuffer())).toEqual(f.clips['second.mp3']);
   });
+  it('streams exact clip bytes and cancels the unread bundle tail when Range is ignored', async () => {
+    const bytes = Buffer.from('ID3 requested clip'), prefix = Buffer.from('another clip');
+    const filename = 'streamed.mp3';
+    let pulls = 0, canceled = false;
+    const assets = { async fetch(request: Request) {
+      if (new URL(request.url).pathname.endsWith('.json')) return Response.json({ version: 1, files: {
+        [filename]: { chunk: `chunk-${'a'.repeat(64)}.bin`, offset: prefix.length, length: bytes.length, sha256: sha(bytes) },
+      } });
+      return new Response(new ReadableStream<Uint8Array>({
+        pull(controller) {
+          pulls++;
+          if (pulls === 1) controller.enqueue(prefix);
+          else if (pulls === 2) controller.enqueue(bytes.subarray(0, 6));
+          else if (pulls === 3) controller.enqueue(Buffer.concat([bytes.subarray(6), Buffer.from('neighbour')]));
+          else controller.enqueue(new Uint8Array(8 * 1024 * 1024));
+        },
+        cancel() { canceled = true; },
+      }, { highWaterMark: 0 }), { headers: { 'Content-Type': 'application/octet-stream' } });
+    } };
+    const response = await serveAudio(new Request(`https://kiyo.test/audio-v2/${filename}`), { ASSETS: assets });
+    expect(response.status).toBe(200);
+    expect(Buffer.from(await response.arrayBuffer())).toEqual(bytes);
+    expect(pulls).toBe(3);
+    expect(canceled).toBe(true);
+  });
+  it('does not complete a clip when a streamed bundle ends too early', async () => {
+    const f = fixture(true);
+    const assets = { fetch: (request: Request) => new URL(request.url).pathname.endsWith('.json')
+      ? f.assets.fetch(request)
+      : Promise.resolve(new Response(new Uint8Array(2), { headers: { 'Content-Type': 'application/octet-stream' } })),
+    };
+    const response = await serveAudio(new Request('https://kiyo.test/audio-v2/second.mp3'), { ASSETS: assets });
+    await expect(response.arrayBuffer()).rejects.toThrow('ended before');
+  });
   it('rejects missing clips and an HTML login/fallback masquerading as index or audio', async () => {
     const f = fixture();
     expect((await f.request('missing.mp3')).status).toBe(404);
