@@ -1,0 +1,1222 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u21",
+    "stage": 2,
+    "order": 85,
+    "title": "Please put it by the door",
+    "titleZh": "请把它放在门边",
+    "canDo": [
+      "Specify where a known object should be put",
+      "Distinguish an agent’s handling from an affected object’s experience",
+      "Name the resulting state rather than merely the action"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u20"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u21-w01",
+      "hanzi": "把",
+      "pinyin": "bǎ",
+      "meaning": "object-disposal marker",
+      "meaningVi": "dấu hiệu đưa tân ngữ lên trước",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "请把这件衣服放在椅子上。",
+        "py": "qǐng bǎ zhè jiàn yī fú fàng zài yǐ zi shàng .",
+        "en": "Please put this item of clothing on the chair."
+      },
+      "usageNote": "[GF2021:L3:75] Source entry: 把; bǎ; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w02",
+      "hanzi": "被",
+      "pinyin": "bèi",
+      "meaning": "passive marker",
+      "meaningVi": "dấu hiệu bị động",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "袋子被雨弄湿了。",
+        "py": "dài zi bèi yǔ nòng shī le .",
+        "en": "The bag was made wet by rain."
+      },
+      "usageNote": "[GF2021:L3:288] Source entry: 被; bèi; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w03",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "meaning": "colloquial passive marker",
+      "meaningVi": "dấu hiệu bị động khẩu ngữ",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这张纸叫雨弄湿了。",
+        "py": "zhè zhāng zhǐ jiào yǔ nòng shī le .",
+        "en": "This sheet of paper was made wet by rain."
+      },
+      "usageNote": "[GF2021:L3:4108] Source entry: 叫; jiào; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w04",
+      "hanzi": "房东",
+      "pinyin": "fáng dōng",
+      "meaning": "landlord",
+      "meaningVi": "chủ nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "房东说包裹可以先放门边。",
+        "py": "fáng dōng shuō bāo guǒ kě yǐ xiān fàng mén biān .",
+        "en": "The landlord says the parcel can be left by the door first."
+      },
+      "usageNote": "[GF2021:L3:2266] Source entry: 房东; fángdōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w05",
+      "hanzi": "房屋",
+      "pinyin": "fáng wū",
+      "meaning": "house; building",
+      "meaningVi": "nhà ở",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张纸写的是房屋地址。",
+        "py": "zhè zhāng zhǐ xiě de shì fáng wū dì zhǐ .",
+        "en": "This paper gives the building address."
+      },
+      "usageNote": "[GF2021:L3:2269] Source entry: 房屋; fángwū; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w06",
+      "hanzi": "房租",
+      "pinyin": "fáng zū",
+      "meaning": "rent",
+      "meaningVi": "tiền thuê nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "房租和这次快递的费用分开付。",
+        "py": "fáng zū hé zhè cì kuài dì de fèi yòng fēn kāi fù .",
+        "en": "Rent and this delivery’s charge are paid separately."
+      },
+      "usageNote": "[GF2021:L3:2271] Source entry: 房租; fángzū; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w07",
+      "hanzi": "订",
+      "pinyin": "dìng",
+      "meaning": "to order; book",
+      "meaningVi": "đặt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我订了衣架，还没收到。",
+        "py": "wǒ dìng le yī jià , hái mò shōu dào .",
+        "en": "I ordered clothes hangers but have not received them."
+      },
+      "usageNote": "[GF2021:L3:1875] Source entry: 订; dìng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w08",
+      "hanzi": "放到",
+      "pinyin": "fàng dào",
+      "meaning": "to put at or into",
+      "meaningVi": "đặt vào; đặt tới",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把书放到书架上。",
+        "py": "bǎ shū fàng dào shū jià shàng .",
+        "en": "Put the book on the bookcase."
+      },
+      "usageNote": "[GF2021:L3:2280] Source entry: 放到; fàngdào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w09",
+      "hanzi": "挂",
+      "pinyin": "guà",
+      "meaning": "to hang",
+      "meaningVi": "treo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先挂好外套，再打开包裹。",
+        "py": "xiān guà hǎo wài tào , zài dǎ kāi bāo guǒ .",
+        "en": "Hang the coat properly before opening the parcel."
+      },
+      "usageNote": "[GF2021:L3:2940] Source entry: 挂; guà; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w10",
+      "hanzi": "解开",
+      "pinyin": "jiě kāi",
+      "meaning": "to untie; undo",
+      "meaningVi": "tháo; cởi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把绳子解开，再看里面。",
+        "py": "bǎ shéng zi jiě kāi , zài kàn lǐ miàn .",
+        "en": "Untie the cord before looking inside."
+      },
+      "usageNote": "[GF2021:L3:4215] Source entry: 解开; jiěkāi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w11",
+      "hanzi": "紧",
+      "pinyin": "jǐn",
+      "meaning": "tight",
+      "meaningVi": "chặt",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "绳子太紧，先别拉。",
+        "py": "shéng zi tài jǐn , xiān bié lā .",
+        "en": "The cord is too tight; do not pull yet."
+      },
+      "usageNote": "[GF2021:L3:4270] Source entry: 紧; jǐn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w12",
+      "hanzi": "旧",
+      "pinyin": "jiù",
+      "meaning": "old; used",
+      "meaningVi": "cũ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧衣服也要分清是谁的。",
+        "py": "jiù yī fú yě yào fēn qīng shì shéi de .",
+        "en": "Identify whose used clothes they are too."
+      },
+      "usageNote": "[GF2021:L3:4434] Source entry: 旧; jiù; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w13",
+      "hanzi": "书架",
+      "pinyin": "shū jià",
+      "meaning": "bookcase; bookshelf",
+      "meaningVi": "giá sách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "书架前面不要放袋子。",
+        "py": "shū jià qián miàn bú yào fàng dài zi .",
+        "en": "Do not put bags in front of the bookcase."
+      },
+      "usageNote": "[GF2021:L3:7444] Source entry: 书架; shūjià; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w14",
+      "hanzi": "沙发",
+      "pinyin": "shā fā",
+      "meaning": "sofa",
+      "meaningVi": "ghế sô pha",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "沙发上还有两个包。",
+        "py": "shā fā shàng hái yǒu liǎng gè bāo .",
+        "en": "There are still two bags on the sofa."
+      },
+      "usageNote": "[GF2021:L3:6873] Source entry: 沙发; shāfā; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w15",
+      "hanzi": "被子",
+      "pinyin": "bèi zi",
+      "meaning": "quilt; blanket",
+      "meaningVi": "chăn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "被子还在袋子里。",
+        "py": "bèi zi hái zài dài zi lǐ .",
+        "en": "The quilt is still in the bag."
+      },
+      "usageNote": "[GF2021:L3:293] Source entry: 被子; bèizi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w16",
+      "hanzi": "裤子",
+      "pinyin": "kù zi",
+      "meaning": "trousers",
+      "meaningVi": "quần",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这条裤子是她的。",
+        "py": "zhè tiáo kù zi shì tā de .",
+        "en": "These trousers belong to her."
+      },
+      "usageNote": "[GF2021:L3:4813] Source entry: 裤子; kùzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w17",
+      "hanzi": "衬衫",
+      "pinyin": "chèn shān",
+      "meaning": "shirt",
+      "meaningVi": "áo sơ mi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把衬衫挂好，别放地上。",
+        "py": "bǎ chèn shān guà hǎo , bié fàng dì shang .",
+        "en": "Hang up the shirt; do not put it on the floor."
+      },
+      "usageNote": "[GF2021:L3:936] Source entry: 衬衫; chènshān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w18",
+      "hanzi": "衬衣",
+      "pinyin": "chèn yī",
+      "meaning": "shirt; undershirt",
+      "meaningVi": "áo sơ mi; áo lót",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这件衬衣的袖子太长。",
+        "py": "zhè jiàn chèn yī de xiù zi tài zhǎng .",
+        "en": "This shirt’s sleeves are too long."
+      },
+      "usageNote": "[GF2021:L3:938] Source entry: 衬衣; chènyī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w19",
+      "hanzi": "上衣",
+      "pinyin": "shàng yī",
+      "meaning": "upper-body garment",
+      "meaningVi": "áo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "上衣放在左边的袋子里。",
+        "py": "shàng yī fàng zài zuǒ biān de dài zi lǐ .",
+        "en": "The top is in the bag on the left."
+      },
+      "usageNote": "[GF2021:L3:6979] Source entry: 上衣; shàngyī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w20",
+      "hanzi": "裙子",
+      "pinyin": "qún zi",
+      "meaning": "skirt",
+      "meaningVi": "váy",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "裙子和裤子放在不同袋子里。",
+        "py": "qún zi hé kù zi fàng zài bù tóng dài zi lǐ .",
+        "en": "The skirt and trousers are in different bags."
+      },
+      "usageNote": "[GF2021:L3:6648] Source entry: 裙子; qúnzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w21",
+      "hanzi": "皮包",
+      "pinyin": "pí bāo",
+      "meaning": "leather bag",
+      "meaningVi": "túi da",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "皮包不是这个包裹里的东西。",
+        "py": "pí bāo bù shì zhè gè bāo guǒ lǐ de dōng xi .",
+        "en": "The leather bag is not an item in this parcel."
+      },
+      "usageNote": "[GF2021:L3:6051] Source entry: 皮包; píbāo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u21-w22",
+      "hanzi": "皮",
+      "pinyin": "pí",
+      "meaning": "skin; leather",
+      "meaningVi": "da",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张卡写着皮，不是布。",
+        "py": "zhè zhāng kǎ xiě zhe pí , bù shì bù .",
+        "en": "This card says leather, not cloth."
+      },
+      "usageNote": "[GF2021:L3:6050] Source entry: 皮; pí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "被",
+      "pinyin": "bèi",
+      "meaning": "passive marker; cover",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "被",
+          "role": "whole",
+          "gloss": "passive marker; cover"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 被 in 被 / 被子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "被",
+          "p": "bèi",
+          "m": "passive marker"
+        },
+        {
+          "w": "被子",
+          "p": "bèi zi",
+          "m": "quilt; blanket"
+        }
+      ]
+    },
+    {
+      "hanzi": "挂",
+      "pinyin": "guà",
+      "meaning": "to hang",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "挂",
+          "role": "whole",
+          "gloss": "to hang"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 挂 in 挂. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "挂",
+          "p": "guà",
+          "m": "to hang"
+        }
+      ]
+    },
+    {
+      "hanzi": "解",
+      "pinyin": "jiě",
+      "meaning": "to untie; resolve",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "解",
+          "role": "whole",
+          "gloss": "to untie; resolve"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 解 in 解开 / 理解. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "解开",
+          "p": "jiě kāi",
+          "m": "to untie; undo"
+        },
+        {
+          "w": "理解",
+          "p": "lǐ jiě",
+          "m": "to understand"
+        }
+      ]
+    },
+    {
+      "hanzi": "紧",
+      "pinyin": "jǐn",
+      "meaning": "tight",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "紧",
+          "role": "whole",
+          "gloss": "tight"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 紧 in 紧 / 赶紧. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "紧",
+          "p": "jǐn",
+          "m": "tight"
+        },
+        {
+          "w": "赶紧",
+          "p": "gǎn jǐn",
+          "m": "quickly; hurry to"
+        }
+      ]
+    },
+    {
+      "hanzi": "旧",
+      "pinyin": "jiù",
+      "meaning": "old; used",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "旧",
+          "role": "whole",
+          "gloss": "old; used"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 旧 in 旧. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "旧",
+          "p": "jiù",
+          "m": "old; previous"
+        }
+      ]
+    },
+    {
+      "hanzi": "衬",
+      "pinyin": "chèn",
+      "meaning": "to line; shirt component",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "衬",
+          "role": "whole",
+          "gloss": "to line; shirt component"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 衬 in 衬衫 / 衬衣. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "衬衫",
+          "p": "chèn shān",
+          "m": "shirt"
+        },
+        {
+          "w": "衬衣",
+          "p": "chèn yī",
+          "m": "shirt; undershirt"
+        }
+      ]
+    },
+    {
+      "hanzi": "裤",
+      "pinyin": "kù",
+      "meaning": "trousers",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "裤",
+          "role": "whole",
+          "gloss": "trousers"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 裤 in 裤子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "裤子",
+          "p": "kù zi",
+          "m": "trousers"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u21-g三27",
+      "pattern": "把 / 被 / 叫 / 让",
+      "purpose": "Separate the actor and the affected object",
+      "explanation": "把 introduces a known object that the subject handles: 我把衣服挂好了. 被 introduces the agent of a passive event: 衣服被雨弄湿了; the agent may be omitted with 被. 叫 and 让 can also introduce a passive agent in colloquial speech: 衣服叫雨弄湿了 / 衣服让雨弄湿了. These passive uses require an agent and differ from 叫/让 meaning ask or allow. Do not infer the cause or actor from a bare changed state.",
+      "examples": [
+        {
+          "zh": "我把衣服挂好了。",
+          "py": "wǒ bǎ yī fú guà hǎo le .",
+          "en": "I have hung up the clothes properly."
+        },
+        {
+          "zh": "衣服被雨弄湿了。",
+          "py": "yī fú bèi yǔ nòng shī le .",
+          "en": "The clothes were made wet by rain."
+        },
+        {
+          "zh": "衣服叫雨弄湿了，也可以说衣服让雨弄湿了。",
+          "py": "yī fú jiào yǔ nòng shī le , yě kě yǐ shuō yī fú ràng yǔ nòng shī le .",
+          "en": "One can colloquially say the clothes were made wet by rain using either 叫 or 让."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "衣服叫弄湿了。",
+          "right": "衣服被弄湿了。",
+          "why": "For this agentless passive, use 被. With colloquial passive 叫/让, state the agent."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u21-g三54",
+      "pattern": "把 + 已知物 + 处所 / 接收者 / 结果",
+      "purpose": "Give the full handling instruction",
+      "explanation": "Use a known or specified object, then a predicate describing its placement, transfer or changed state. Placement: 把包裹放在门边 / 放到门边. Transfer: 把这本书交给她. Result or direction: 把绳子解开 / 把箱子搬进去. The action alone in 请把书放 is incomplete here. Negation and modal verbs precede 把: 不要把衣服放地上; 可以把书交给她.",
+      "examples": [
+        {
+          "zh": "请把包裹放在门边。",
+          "py": "qǐng bǎ bāo guǒ fàng zài mén biān .",
+          "en": "Please put the parcel by the door."
+        },
+        {
+          "zh": "把这本书交给她。",
+          "py": "bǎ zhè běn shū jiāo gěi tā .",
+          "en": "Hand this book to her."
+        },
+        {
+          "zh": "不要把绳子拉紧，先把它解开。",
+          "py": "bú yào bǎ shéng zi lā jǐn , xiān bǎ tā jiě kāi .",
+          "en": "Do not tighten the cord; untie it first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "请把这本书放。",
+          "right": "请把这本书放到书架上。",
+          "why": "State the intended placement or other result in this handling instruction."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u21-d",
+    "title": "The parcel has a recipient",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find where the parcel should go and what has happened to the bag.",
+    "lines": [
+      {
+        "zh": "你订的包裹到了，放哪里？",
+        "py": "nǐ dìng de bāo guǒ dào le , fàng nǎ lǐ ?",
+        "en": "Your ordered parcel has arrived; where should I put it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "请把包裹放在门边，别放沙发上。",
+        "py": "qǐng bǎ bāo guǒ fàng zài mén biān , bié fàng shā fā shàng .",
+        "en": "Please put the parcel by the door, not on the sofa.",
+        "speaker": "b"
+      },
+      {
+        "zh": "房东说先放这里，房屋地址没错吧？",
+        "py": "fáng dōng shuō xiān fàng zhè lǐ , fáng wū dì zhǐ méi cuò ba ?",
+        "en": "The landlord said to leave it here first; the building address is correct, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没错。房租另付，不在这次快递费用里。",
+        "py": "méi cuò . fáng zū lìng fù , bù zài zhè cì kuài dì fèi yòng lǐ .",
+        "en": "Correct. Rent is paid separately and is not part of this delivery charge.",
+        "speaker": "b"
+      },
+      {
+        "zh": "袋子被雨弄湿了，里面的被子呢？",
+        "py": "dài zi bèi yǔ nòng shī le , lǐ miàn de bèi zi ne ?",
+        "en": "The bag got wet in the rain; what about the quilt inside?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先把绳子解开看看。绳子很紧，别直接拉。",
+        "py": "xiān bǎ shéng zi jiě kāi kàn kàn . shéng zi hěn jǐn , bié zhí jiē lā .",
+        "en": "Untie the cord and check first. It is tight; do not just pull.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我把书交给你，你看衣服。",
+        "py": "nà wǒ bǎ shū jiāo gěi nǐ , nǐ kàn yī fú .",
+        "en": "Then I will hand the book to you, and you check the clothes.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，书放到书架上，衣服再分开。",
+        "py": "hǎo , shū fàng dào shū jià shàng , yī fú zài fēn kāi .",
+        "en": "Okay; put the book on the bookcase and separate the clothes next.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is being coordinated?",
+        "choices": [
+          "A delivery’s placement and checking",
+          "Paying everyone’s rent together",
+          "Choosing a new apartment"
+        ],
+        "answer": "A delivery’s placement and checking"
+      },
+      {
+        "type": "detail",
+        "q": "Where should the parcel be left?",
+        "choices": [
+          "By the door",
+          "On the sofa",
+          "On the floor outside the building"
+        ],
+        "answer": "By the door"
+      },
+      {
+        "type": "inference",
+        "q": "Is the quilt certainly wet?",
+        "choices": [
+          "No; only the bag is known to be wet",
+          "Yes, every item is wet",
+          "No; the quilt is confirmed dry"
+        ],
+        "answer": "No; only the bag is known to be wet"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "交给",
+        "pinyin": "jiāo gěi",
+        "meaning": "to hand to"
+      },
+      {
+        "hanzi": "弄湿",
+        "pinyin": "nòng shī",
+        "meaning": "to get wet"
+      },
+      {
+        "hanzi": "绳子",
+        "pinyin": "shéng zi",
+        "meaning": "rope; cord"
+      },
+      {
+        "hanzi": "袋子",
+        "pinyin": "dài zi",
+        "meaning": "bag"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u21-r",
+    "title": "Open before guessing",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Distinguish the known bag condition from the items still being checked.",
+    "lines": [
+      {
+        "zh": "包裹到了，房东让我们先放在门边，房屋地址已经核对。",
+        "py": "bāo guǒ dào le , fáng dōng ràng wǒ men xiān fàng zài mén biān , fáng wū dì zhǐ yǐ jīng hé duì .",
+        "en": "The parcel arrived; the landlord asked us to leave it by the door, and the building address has been checked."
+      },
+      {
+        "zh": "房租单独付，不能把订衣架的费用当房租。",
+        "py": "fáng zū dān dú fù , bù néng bǎ dìng yī jià de fèi yòng dāng fáng zū .",
+        "en": "Rent is paid separately; the charge for ordering clothes hangers is not rent."
+      },
+      {
+        "zh": "袋子被雨弄湿了；口语里也有人说叫雨弄湿了、让雨弄湿了。",
+        "py": "dài zi bèi yǔ nòng shī le ; kǒu yǔ lǐ yě yǒu rén shuō jiào yǔ nòng shī le , ràng yǔ nòng shī le .",
+        "en": "The bag was made wet by rain; colloquially some also use 叫 or 让 to introduce rain as the cause."
+      },
+      {
+        "zh": "绳子很紧，要先解开，不能只看袋子就说被子也湿了。",
+        "py": "shéng zi hěn jǐn , yào xiān jiě kāi , bù néng zhǐ kàn dài zi jiù shuō bèi zi yě shī le .",
+        "en": "The cord is tight and needs untying first; seeing the bag alone does not establish that the quilt is wet too."
+      },
+      {
+        "zh": "书放到书架上，旧上衣先从沙发上拿下来。",
+        "py": "shū fàng dào shū jià shàng , jiù shàng yī xiān cóng shā fā shàng ná xià lái .",
+        "en": "Put the book on the bookcase and take the used top off the sofa first."
+      },
+      {
+        "zh": "衬衫和衬衣挂好，裙子跟裤子放在两个袋子里。",
+        "py": "chèn shān hé chèn yī guà hǎo , qún zi gēn kù zi fàng zài liǎng gè dài zi lǐ .",
+        "en": "Hang up the shirts and put the skirt and trousers in separate bags."
+      },
+      {
+        "zh": "这张卡写着皮，皮包还没找到，不要把布袋当皮包。",
+        "py": "zhè zhāng kǎ xiě zhe pí , pí bāo hái méi zhǎo dào , bú yào bǎ bù dài dāng pí bāo .",
+        "en": "The card says leather; the leather bag has not been found, so do not mistake the cloth bag for it."
+      },
+      {
+        "zh": "把物品交给收件人以前，先问清楚，不替别人签收。",
+        "py": "bǎ wù pǐn jiāo gěi shōu jiàn rén yǐ qián , xiān wèn qīng chǔ , bù tì bié ren qiān shōu .",
+        "en": "Clarify before handing items to the recipient; do not sign for someone else without asking."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note prioritize?",
+        "choices": [
+          "Checking before inferring the parcel contents’ condition",
+          "Assuming every item is damaged",
+          "Using the rent bill as a clothing label"
+        ],
+        "answer": "Checking before inferring the parcel contents’ condition"
+      },
+      {
+        "type": "detail",
+        "q": "Which condition is directly known?",
+        "choices": [
+          "The outer bag is wet",
+          "The quilt is wet",
+          "The leather bag is missing forever"
+        ],
+        "answer": "The outer bag is wet"
+      },
+      {
+        "type": "inference",
+        "q": "Does the material label prove the cloth bag is leather?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only when placed on the sofa"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "书放到【书架】上，旧上衣先从沙发上拿下来。",
+          "py": "shū fàng dào shū jià shàng , jiù shàng yī xiān cóng shā fā shàng ná xià lái .",
+          "en": "Put the book on the bookcase and take the used top off the sofa first."
+        },
+        {
+          "zh": "衬衫和衬衣挂好，裙子跟【裤子】放在两个袋子里。",
+          "py": "chèn shān hé chèn yī guà hǎo , qún zi gēn kù zi fàng zài liǎng gè dài zi lǐ .",
+          "en": "Hang up the shirts and put the skirt and trousers in separate bags."
+        }
+      ],
+      "bank": [
+        "书架",
+        "裤子",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "衣架",
+        "pinyin": "yī jià",
+        "meaning": "clothes hanger"
+      },
+      {
+        "hanzi": "收件人",
+        "pinyin": "shōu jiàn rén",
+        "meaning": "recipient"
+      },
+      {
+        "hanzi": "交给",
+        "pinyin": "jiāo gěi",
+        "meaning": "to hand to"
+      },
+      {
+        "hanzi": "弄湿",
+        "pinyin": "nòng shī",
+        "meaning": "to get wet"
+      },
+      {
+        "hanzi": "绳子",
+        "pinyin": "shéng zi",
+        "meaning": "rope; cord"
+      },
+      {
+        "hanzi": "袋子",
+        "pinyin": "dài zi",
+        "meaning": "bag"
+      },
+      {
+        "hanzi": "签收",
+        "pinyin": "qiān shōu",
+        "meaning": "to sign for receipt"
+      },
+      {
+        "hanzi": "单独",
+        "pinyin": "dān dú",
+        "meaning": "separately; alone"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u21-media",
+      "title": "A sofa is not a parcel shelf",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a misplaced delivery.",
+      "lines": [
+        {
+          "zh": "我把包裹放好了。",
+          "py": "wǒ bǎ bāo guǒ fàng hǎo le .",
+          "en": "I have put the parcel down properly.",
+          "speaker": "a"
+        },
+        {
+          "zh": "在哪儿？",
+          "py": "zài nǎr ?",
+          "en": "Where?",
+          "speaker": "b"
+        },
+        {
+          "zh": "沙发上，坐着正好看。",
+          "py": "shā fā shàng , zuò zhe zhèng hǎo kàn .",
+          "en": "On the sofa; one can look at it while sitting.",
+          "speaker": "a"
+        },
+        {
+          "zh": "先把包裹搬下来。沙发没有订衣架。",
+          "py": "xiān bǎ bāo guǒ bān xià lái . shā fā méi yǒu dìng yī jià .",
+          "en": "Move the parcel off first. The sofa did not order clothes hangers.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why is the parcel moved?",
+          "choices": [
+            "The sofa is needed for sitting",
+            "The sofa signed for it",
+            "All its contents are wet"
+          ],
+          "answer": "The sofa is needed for sitting"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "衣架",
+          "pinyin": "yī jià",
+          "meaning": "clothes hanger"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u21-t1",
+      "phrase": "s3-u21-w01",
+      "audio": {
+        "zh": "把包裹放在门边，不放沙发上。",
+        "py": "bǎ bāo guǒ fàng zài mén biān , bù fàng shā fā shàng .",
+        "en": "Put the parcel by the door, not on the sofa."
+      },
+      "statement": "The instructed location is by the door.",
+      "answer": true,
+      "why": "The contrast gives the intended location."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u21-t2",
+      "phrase": "s3-u21-w02",
+      "audio": {
+        "zh": "袋子被雨弄湿了，里面还没看。",
+        "py": "dài zi bèi yǔ nòng shī le , lǐ miàn hái méi kàn .",
+        "en": "The bag was made wet by rain; the inside has not been checked."
+      },
+      "statement": "Every item inside is definitely wet.",
+      "answer": false,
+      "why": "The inner condition is unknown."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u21-t3",
+      "phrase": "s3-u21-w08",
+      "prompt": {
+        "zh": "书放哪里？",
+        "py": "shū fàng nǎ lǐ ?",
+        "en": "Where should the book go?"
+      },
+      "choices": [
+        "放到书架上。",
+        "房租先放晴天。",
+        "把书放。"
+      ],
+      "answer": "放到书架上。",
+      "why": "Specify the location after the handling verb."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u21-t4",
+      "phrase": "s3-u21-w11",
+      "prompt": {
+        "zh": "绳子太紧，先做什么？",
+        "py": "shéng zi tài jǐn , xiān zuò shén me ?",
+        "en": "What comes first when the cord is too tight?"
+      },
+      "choices": [
+        "先解开。",
+        "替所有人签收。",
+        "把沙发当地址。"
+      ],
+      "answer": "先解开。",
+      "why": "Undo the cord first."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u21-t5",
+      "phrase": "s3-u21-w09",
+      "line": {
+        "zh": "把衬衫【挂】好。",
+        "py": "bǎ chèn shān guà hǎo .",
+        "en": "Hang up the shirt properly."
+      },
+      "blankPy": "guà"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u21-t6",
+      "phrase": "s3-u21-w21",
+      "line": {
+        "zh": "【皮包】还没找到。",
+        "py": "pí bāo hái méi zhǎo dào .",
+        "en": "The leather bag has not been found yet."
+      },
+      "blankPy": "pí bāo"
+    },
+    {
+      "type": "match",
+      "id": "s3-u21-t7",
+      "phrase": "s3-u21-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Rent is paid separately.",
+          "right": {
+            "zh": "房租另付。",
+            "py": "fáng zū lìng fù .",
+            "en": "Rent is paid separately."
+          }
+        },
+        {
+          "left": "Hand the book to her.",
+          "right": {
+            "zh": "书交给她。",
+            "py": "shū jiāo gěi tā .",
+            "en": "Hand the book to her."
+          }
+        },
+        {
+          "left": "The bag was made wet by rain.",
+          "right": {
+            "zh": "袋子被雨弄湿了。",
+            "py": "dài zi bèi yǔ nòng shī le .",
+            "en": "The bag was made wet by rain."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u21-t8",
+      "phrase": "s3-u21-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Keep the skirt and trousers separate.",
+          "right": {
+            "zh": "裙子和裤子分开放。",
+            "py": "qún zi hé kù zi fēn kāi fàng .",
+            "en": "Keep the skirt and trousers separate."
+          }
+        },
+        {
+          "left": "Untie the cord first.",
+          "right": {
+            "zh": "先把绳子解开。",
+            "py": "xiān bǎ shéng zi jiě kāi .",
+            "en": "Untie the cord first."
+          }
+        },
+        {
+          "left": "The clothes hangers have not been received yet.",
+          "right": {
+            "zh": "衣架还没收到。",
+            "py": "yī jià hái mò shōu dào .",
+            "en": "The clothes hangers have not been received yet."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u21-tcontext-01",
+      "phrase": "s3-u21-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "Identify whose used clothes they are too.",
+          "right": {
+            "zh": "旧衣服也要分清是谁的。",
+            "py": "jiù yī fú yě yào fēn qīng shì shéi de .",
+            "en": "Identify whose used clothes they are too."
+          }
+        },
+        {
+          "left": "This shirt’s sleeves are too long.",
+          "right": {
+            "zh": "这件衬衣的袖子太长。",
+            "py": "zhè jiàn chèn yī de xiù zi tài zhǎng .",
+            "en": "This shirt’s sleeves are too long."
+          }
+        },
+        {
+          "left": "The top is in the bag on the left.",
+          "right": {
+            "zh": "上衣放在左边的袋子里。",
+            "py": "shàng yī fàng zài zuǒ biān de dài zi lǐ .",
+            "en": "The top is in the bag on the left."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u21-t9",
+      "phrase": "s3-u21-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Walk toward the doorway; arrival has not been established.",
+          "right": {
+            "zh": "朝门口走，还没说是否到达。",
+            "py": "cháo mén kǒu zǒu , hái méi shuō shì fǒu dào dá .",
+            "en": "Walk toward the doorway; arrival has not been established."
+          }
+        },
+        {
+          "left": "I am on the second floor; come up.",
+          "right": {
+            "zh": "我在二楼，你上来。",
+            "py": "wǒ zài èr lóu , nǐ shàng lái .",
+            "en": "I am on the second floor; come up."
+          }
+        },
+        {
+          "left": "Because I did not check, I sent the old address.",
+          "right": {
+            "zh": "因为我没核对，我发了旧地址。",
+            "py": "yīn wèi wǒ méi hé duì , wǒ fā le jiù dì zhǐ .",
+            "en": "Because I did not check, I sent the old address."
+          }
+        },
+        {
+          "left": "Because the notice is wrong, stop circulating the old notice first.",
+          "right": {
+            "zh": "由于通知有错，所以先停止传播旧通知。",
+            "py": "yóu yú tōng zhī yǒu cuò , suǒ yǐ xiān tíng zhǐ chuán bō jiù tōng zhī .",
+            "en": "Because the notice is wrong, stop circulating the old notice first."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Specify a result",
+      "natural": {
+        "zh": "请把它放在门边。",
+        "py": "qǐng bǎ tā fàng zài mén biān .",
+        "en": "Please put it by the door."
+      },
+      "note": "A precise placement request avoids guessing."
+    },
+    {
+      "situation": "Check first",
+      "natural": {
+        "zh": "里面还没看，先别说都湿了。",
+        "py": "lǐ miàn hái méi kàn , xiān bié shuō dōu shī le .",
+        "en": "The inside has not been checked; do not say it is all wet yet."
+      },
+      "note": "Distinguish a known observation from an inference."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u21-speak",
+    "title": "Please put it by the door",
+    "place": "A language-exchange meeting",
+    "context": "Coordinate a delivery and its result.",
+    "goal": "Specify where a known object should be put",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "放哪里？",
+        "pinyin": "fàng nǎ lǐ ?",
+        "meaning": "Where should it be put?",
+        "intent": "Name the intended location",
+        "examples": [
+          "放在门边。"
+        ],
+        "accept": [
+          "^放在门边。[。！？]?$"
+        ]
+      },
+      {
+        "text": "里面也湿了吗？",
+        "pinyin": "lǐ miàn yě shī le ma ?",
+        "meaning": "Is the inside wet too?",
+        "intent": "State the uncertainty",
+        "examples": [
+          "还没看，先打开看看。"
+        ],
+        "accept": [
+          "^还没看，先打开看看。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三27, 三54. Native check: colloquial passive 叫/让 with rain as agent, 衬衫 versus 衬衣 overlap by region, 皮 as material noun, natural delivery and landlord register, and the personified-sofa joke. No permission to sign for another person is inferred. Native review pending. Planned retrieval 三22 / 三47 / 三25 / 三71: 朝门口走，还没说是否到达。, 我在二楼，你上来。, 因为我没核对，我发了旧地址。, 由于通知有错，所以先停止传播旧通知。."
+}

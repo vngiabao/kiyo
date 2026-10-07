@@ -10,6 +10,7 @@ import { createHash } from "node:crypto";
 import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks } from "../src/pack-content";
 import assets from "../src/audio-assets.json";
+import { wordSpeech } from "../src/word-speech";
 
 const index = new Map(scripts.map((s) => [voiceKey(s.text), s]));
 it("the installed voice uses the exact approved identity and one-pass clean processing", () => {
@@ -94,7 +95,10 @@ it("the generation catalog covers teaching text and contextual character pronunc
       p.audio.text,
       ...(p.example ? [p.example.zh] : []),
     ]),
-    ...characters.flatMap((c) => [c.say, ...c.words.map((w) => w.w)]),
+    ...characters.flatMap((c) => [
+      c.say,
+      ...c.words.map((w) => wordSpeech(w.w, w.p)),
+    ]),
     ...Object.values(grammarById).flatMap((g) => g.examples.map((e) => e.zh)),
     ...readings.flatMap((r) => [
       ...r.lines.map((l) => l.zh),

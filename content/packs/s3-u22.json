@@ -1,0 +1,1238 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u22",
+    "stage": 2,
+    "order": 86,
+    "title": "Everyone except me?",
+    "titleZh": "除了我，大家都来吗",
+    "canDo": [
+      "Distinguish excluding one member from adding another activity",
+      "State the scope of 都 after an exception",
+      "Compare media habits without generalizing about a whole population"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u21"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u22-w01",
+      "hanzi": "除了",
+      "pinyin": "chú le",
+      "meaning": "except for; besides",
+      "meaningVi": "ngoại trừ; ngoài ra",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "除了我，大家都看过这个节目。",
+        "py": "chú le wǒ , dà jiā dōu kàn guò zhè gè jié mù .",
+        "en": "Everyone except me has watched this programme."
+      },
+      "usageNote": "[GF2021:L3:1181] Source entry: 除了; chúle; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w02",
+      "hanzi": "普遍",
+      "pinyin": "pǔ biàn",
+      "meaning": "widespread; common",
+      "meaningVi": "phổ biến",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个爱好很普遍，但不是人人都有。",
+        "py": "zhè gè ài hào hěn pǔ biàn , dàn bù shì rén rén dōu yǒu .",
+        "en": "This hobby is common, but not everyone has it."
+      },
+      "usageNote": "[GF2021:L3:6190] Source entry: 普遍; pǔbiàn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w03",
+      "hanzi": "类",
+      "pinyin": "lèi",
+      "meaning": "kind; category",
+      "meaningVi": "loại",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你喜欢哪一类节目？",
+        "py": "nǐ xǐ huān nǎ yī lèi jié mù ?",
+        "en": "What kind of programme do you like?"
+      },
+      "usageNote": "[GF2021:L3:4991] Source entry: 类; lèi; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w04",
+      "hanzi": "类似",
+      "pinyin": "lèi sì",
+      "meaning": "similar",
+      "meaningVi": "tương tự",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "两个节目类似，不等于内容相同。",
+        "py": "liǎng gè jié mù lèi sì , bù děng yú nèi róng xiāng tóng .",
+        "en": "The two programmes are similar, not identical in content."
+      },
+      "usageNote": "[GF2021:L3:4993] Source entry: 类似; lèisì; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w05",
+      "hanzi": "区别",
+      "pinyin": "qū bié",
+      "meaning": "difference; to distinguish",
+      "meaningVi": "khác biệt; phân biệt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先说两种方式的区别。",
+        "py": "xiān shuō liǎng zhǒng fāng shì de qū bié .",
+        "en": "Explain the difference between the two methods first."
+      },
+      "usageNote": "[GF2021:L3:6556] Source entry: 区别; qūbié; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w06",
+      "hanzi": "具有",
+      "pinyin": "jù yǒu",
+      "meaning": "to possess; have",
+      "meaningVi": "có",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个节目具有自己的特色。",
+        "py": "zhè gè jié mù jù yǒu zì jǐ de tè sè .",
+        "en": "This programme has its own distinctive features."
+      },
+      "usageNote": "[GF2021:L3:4502] Source entry: 具有; jùyǒu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w07",
+      "hanzi": "人生",
+      "pinyin": "rén shēng",
+      "meaning": "human life; life’s course",
+      "meaningVi": "cuộc đời",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这部故事讲人生，不是活动通知。",
+        "py": "zhè bù gù shì jiǎng rén shēng , bù shì huó dòng tōng zhī .",
+        "en": "This story concerns a life, not an event notice."
+      },
+      "usageNote": "[GF2021:L3:6710] Source entry: 人生; rénshēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w08",
+      "hanzi": "全场",
+      "pinyin": "quán chǎng",
+      "meaning": "the whole audience or venue",
+      "meaningVi": "toàn khán phòng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "全场都听见了，不等于每个人都同意。",
+        "py": "quán chǎng dōu tīng jiàn le , bù děng yú měi gè rén dōu tóng yì .",
+        "en": "The whole venue heard it; that does not mean everyone agrees."
+      },
+      "usageNote": "[GF2021:L3:6602] Source entry: 全场; quánchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w09",
+      "hanzi": "观众",
+      "pinyin": "guān zhòng",
+      "meaning": "audience; viewer",
+      "meaningVi": "khán giả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "观众还没进场，门口有人等。",
+        "py": "guān zhòng hái méi jìn chǎng , mén kǒu yǒu rén děng .",
+        "en": "The audience has not entered yet; people are waiting at the entrance."
+      },
+      "usageNote": "[GF2021:L3:2983] Source entry: 观众; guānzhòng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w10",
+      "hanzi": "观看",
+      "pinyin": "guān kàn",
+      "meaning": "to watch; view",
+      "meaningVi": "xem",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们一起观看节目。",
+        "py": "wǒ men yì qǐ guān kàn jié mù .",
+        "en": "We watch the programme together."
+      },
+      "usageNote": "[GF2021:L3:2978] Source entry: 观看; guānkàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w11",
+      "hanzi": "收看",
+      "pinyin": "shōu kàn",
+      "meaning": "to watch a broadcast",
+      "meaningVi": "xem chương trình phát sóng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她晚上收看电视节目。",
+        "py": "tā wǎn shang shōu kàn diàn shì jié mù .",
+        "en": "She watches a television programme in the evening."
+      },
+      "usageNote": "[GF2021:L3:7358] Source entry: 收看; shōukàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w12",
+      "hanzi": "收听",
+      "pinyin": "shōu tīng",
+      "meaning": "to listen to a broadcast",
+      "meaningVi": "nghe chương trình phát sóng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我早上收听广播。",
+        "py": "wǒ zǎo shàng shōu tīng guǎng bō .",
+        "en": "I listen to the radio in the morning."
+      },
+      "usageNote": "[GF2021:L3:7367] Source entry: 收听; shōutīng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w13",
+      "hanzi": "听众",
+      "pinyin": "tīng zhòng",
+      "meaning": "listeners; radio audience",
+      "meaningVi": "thính giả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "听众的问题由主持人读出来。",
+        "py": "tīng zhòng de wèn tí yóu zhǔ chí rén dú chū lái .",
+        "en": "The presenter reads listeners’ questions aloud."
+      },
+      "usageNote": "[GF2021:L3:8013] Source entry: 听众; tīngzhòng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w14",
+      "hanzi": "广播",
+      "pinyin": "guǎng bō",
+      "meaning": "radio broadcast; to broadcast",
+      "meaningVi": "phát thanh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "广播没有画面，先听清名字。",
+        "py": "guǎng bō méi yǒu huà miàn , xiān tīng qīng míng zi .",
+        "en": "The radio has no pictures; listen carefully to the names first."
+      },
+      "usageNote": "[GF2021:L3:3031] Source entry: 广播; guǎngbō; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w15",
+      "hanzi": "电台",
+      "pinyin": "diàn tái",
+      "meaning": "radio station",
+      "meaningVi": "đài phát thanh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这家电台今天播出什么？",
+        "py": "zhè jiā diàn tái jīn tiān bō chū shén me ?",
+        "en": "What is this radio station broadcasting today?"
+      },
+      "usageNote": "[GF2021:L3:1828] Source entry: 电台; diàntái; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w16",
+      "hanzi": "电视台",
+      "pinyin": "diàn shì tái",
+      "meaning": "television station",
+      "meaningVi": "đài truyền hình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "电视台的新节目还没开始。",
+        "py": "diàn shì tái de xīn jié mù hái méi kāi shǐ .",
+        "en": "The TV station’s new programme has not started yet."
+      },
+      "usageNote": "[GF2021:L3:1827] Source entry: 电视台; diànshìtái; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w17",
+      "hanzi": "国内",
+      "pinyin": "guó nèi",
+      "meaning": "within the country; domestic",
+      "meaningVi": "trong nước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "国内有不同的节目，不是一种风格。",
+        "py": "guó nèi yǒu bù tóng de jié mù , bù shì yī zhǒng fēng gé .",
+        "en": "There are different domestic programmes, not just one style."
+      },
+      "usageNote": "[GF2021:L3:3086] Source entry: 国内; guó nèi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w18",
+      "hanzi": "全球",
+      "pinyin": "quán qiú",
+      "meaning": "the whole world; global",
+      "meaningVi": "toàn cầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "全球的观众不可能都有同一个习惯。",
+        "py": "quán qiú de guān zhòng bù kě néng dōu yǒu tóng yī gè xí guàn .",
+        "en": "Viewers worldwide cannot all share the same habit."
+      },
+      "usageNote": "[GF2021:L3:6614] Source entry: 全球; quánqiú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w19",
+      "hanzi": "广大",
+      "pinyin": "guǎng dà",
+      "meaning": "broad; numerous",
+      "meaningVi": "đông đảo; rộng lớn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "通知面向广大观众，不只面向学生。",
+        "py": "tōng zhī miàn xiàng guǎng dà guān zhòng , bù zhǐ miàn xiàng xué sheng .",
+        "en": "The notice addresses the broader audience, not just students."
+      },
+      "usageNote": "[GF2021:L3:3033] Source entry: 广大; guǎngdà; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w20",
+      "hanzi": "媒体",
+      "pinyin": "méi tǐ",
+      "meaning": "media",
+      "meaningVi": "truyền thông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不同媒体可以报道同一件事。",
+        "py": "bù tóng méi tǐ kě yǐ bào dào tóng yī jiàn shì .",
+        "en": "Different media can report the same event."
+      },
+      "usageNote": "[GF2021:L3:5478] Source entry: 媒体; méitǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w21",
+      "hanzi": "互联网",
+      "pinyin": "hù lián wǎng",
+      "meaning": "Internet",
+      "meaningVi": "Internet",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我在互联网上查播出时间。",
+        "py": "wǒ zài hù lián wǎng shàng chá bō chū shí jiān .",
+        "en": "I check the broadcast time on the Internet."
+      },
+      "usageNote": "[GF2021:L3:3419] Source entry: 互联网; hùliánwǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u22-w22",
+      "hanzi": "联合",
+      "pinyin": "lián hé",
+      "meaning": "to unite; joint",
+      "meaningVi": "liên kết; chung",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "两个小组联合举办活动。",
+        "py": "liǎng gè xiǎo zǔ lián hé jǔ bàn huó dòng .",
+        "en": "Two groups jointly organize the event."
+      },
+      "usageNote": "[GF2021:L3:5105] Source entry: 联合; liánhé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "除",
+      "pinyin": "chú",
+      "meaning": "to exclude; remove",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "除",
+          "role": "whole",
+          "gloss": "to exclude; remove"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 除 in 除了. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "除了",
+          "p": "chú le",
+          "m": "except for; besides"
+        }
+      ]
+    },
+    {
+      "hanzi": "播",
+      "pinyin": "bō",
+      "meaning": "to broadcast; sow",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "播",
+          "role": "whole",
+          "gloss": "to broadcast; sow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 播 in 广播 / 传播. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "广播",
+          "p": "guǎng bō",
+          "m": "radio broadcast; to broadcast"
+        },
+        {
+          "w": "传播",
+          "p": "chuán bō",
+          "m": "to spread; disseminate"
+        }
+      ]
+    },
+    {
+      "hanzi": "媒",
+      "pinyin": "méi",
+      "meaning": "medium; intermediary",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "媒",
+          "role": "whole",
+          "gloss": "medium; intermediary"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 媒 in 媒体. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "媒体",
+          "p": "méi tǐ",
+          "m": "media"
+        }
+      ]
+    },
+    {
+      "hanzi": "类",
+      "pinyin": "lèi",
+      "meaning": "kind; category",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "类",
+          "role": "whole",
+          "gloss": "kind; category"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 类 in 类 / 类似. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "类",
+          "p": "lèi",
+          "m": "kind; category"
+        },
+        {
+          "w": "类似",
+          "p": "lèi sì",
+          "m": "similar"
+        }
+      ]
+    },
+    {
+      "hanzi": "界",
+      "pinyin": "jiè",
+      "meaning": "boundary; world",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "界",
+          "role": "whole",
+          "gloss": "boundary; world"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 界 in 世界. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "世界",
+          "p": "shì jiè",
+          "m": "world"
+        }
+      ]
+    },
+    {
+      "hanzi": "众",
+      "pinyin": "zhòng",
+      "meaning": "many; crowd",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "众",
+          "role": "whole",
+          "gloss": "many; crowd"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 众 in 观众 / 听众. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "观众",
+          "p": "guān zhòng",
+          "m": "audience; viewer"
+        },
+        {
+          "w": "听众",
+          "p": "tīng zhòng",
+          "m": "listeners; radio audience"
+        }
+      ]
+    },
+    {
+      "hanzi": "式",
+      "pinyin": "shì",
+      "meaning": "form; style",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "式",
+          "role": "whole",
+          "gloss": "form; style"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 式 in 正式 / 联系方式. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "正式",
+          "p": "zhèng shì",
+          "m": "formal"
+        },
+        {
+          "w": "联系方式",
+          "p": "lián xì fāng shì",
+          "m": "contact details"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u22-g三28",
+      "pattern": "除了 + 范围",
+      "purpose": "Identify whether an exception or addition is intended",
+      "explanation": "除了 introduces a noun phrase or activity. Its interpretation depends on the following clause: 除了我，大家都来 excludes me; 除了看节目，我还听广播 adds an activity. 以外 can follow the phrase. The same 除了 phrase without its continuation does not decide the meaning by itself.",
+      "examples": [
+        {
+          "zh": "除了我，大家都来了。",
+          "py": "chú le wǒ , dà jiā dōu lái le .",
+          "en": "Everyone except me came."
+        },
+        {
+          "zh": "除了看节目，我还听广播。",
+          "py": "chú le kàn jié mù , wǒ hái tīng guǎng bō .",
+          "en": "Besides watching programmes, I also listen to the radio."
+        },
+        {
+          "zh": "除了周末以外，她晚上也有空。",
+          "py": "chú le zhōu mò yǐ wài , tā wǎn shang yě yǒu kōng .",
+          "en": "Besides weekends, she is also free in the evenings."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除了我，大家都来，所以我也来。",
+          "right": "除了我，大家都来，我不来。",
+          "why": "In this 都 construction, the named person is excluded."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u22-g三38",
+      "pattern": "除了……（以外），还 / 也 / 都……",
+      "purpose": "Read the continuation and its scope",
+      "explanation": "还/也 commonly signal addition: 除了电视节目，她也看网上的视频. 都 commonly totals the remaining group after an exception: 除了我，大家都看过. State the remainder rather than treating 都 as a claim about all people everywhere. Do not infer whether another person joins from their preference for a similar activity.",
+      "examples": [
+        {
+          "zh": "除了广播，我还看电视节目。",
+          "py": "chú le guǎng bō , wǒ hái kàn diàn shì jié mù .",
+          "en": "Besides the radio, I also watch TV programmes."
+        },
+        {
+          "zh": "除了她以外，我也没看过。",
+          "py": "chú le tā yǐ wài , wǒ yě méi kàn guò .",
+          "en": "Besides her, I too have not watched it."
+        },
+        {
+          "zh": "除了周五，其他几天都可以。",
+          "py": "chú le zhōu wǔ , qí tā jǐ tiān dōu kě yǐ .",
+          "en": "Any of the other days works, except Friday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除了我，大家都看过，所以所有人都看过。",
+          "right": "除了我，其他人都看过。",
+          "why": "The total applies to the remaining group, not the excluded member."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u22-d",
+    "title": "One exception and one more habit",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find who has not watched and what else the host listens to.",
+    "lines": [
+      {
+        "zh": "除了我，大家都看过这个节目吗？",
+        "py": "chú le wǒ , dà jiā dōu kàn guò zhè gè jié mù ma ?",
+        "en": "Has everyone except me watched this programme?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，除了你，我也没看过。",
+        "py": "bù shì , chú le nǐ , wǒ yě méi kàn guò .",
+        "en": "No; besides you, I have not watched it either.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那今晚一起观看吧，电视台六点播出。",
+        "py": "nà jīn wǎn yì qǐ guān kàn ba , diàn shì tái liù diǎn bō chū .",
+        "en": "Then watch it together tonight; the TV station broadcasts it at six.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我除了收看电视，还收听电台的广播。",
+        "py": "wǒ chú le shōu kàn diàn shì , hái shōu tīng diàn tái de guǎng bō .",
+        "en": "Besides watching TV, I listen to the radio station’s broadcasts too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "观众和听众有什么区别？",
+        "py": "guān zhòng hé tīng zhòng yǒu shén me qū bié ?",
+        "en": "What is the difference between viewers and listeners?",
+        "speaker": "a"
+      },
+      {
+        "zh": "这里一个看画面，一个主要听声音，不能说所有媒体都相同。",
+        "py": "zhè lǐ yī gè kàn huà miàn , yī gè zhǔ yào tīng shēng yīn , bù néng shuō suǒ yǒu méi tǐ dōu xiāng tóng .",
+        "en": "Here one watches pictures and the other mainly listens; we cannot say all media are the same.",
+        "speaker": "b"
+      },
+      {
+        "zh": "互联网也能看，大家都来线下吗？",
+        "py": "hù lián wǎng yě néng kàn , dà jiā dōu lái xiàn xià ma ?",
+        "en": "It can also be watched online; is everyone joining in person?",
+        "speaker": "a"
+      },
+      {
+        "zh": "除了周五以外，其他几天都可以，先问每个人。",
+        "py": "chú le zhōu wǔ yǐ wài , qí tā jǐ tiān dōu kě yǐ , xiān wèn měi gè rén .",
+        "en": "Apart from Friday, the other days work; ask everyone first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Which distinction matters?",
+        "choices": [
+          "Exception versus an additional person or activity",
+          "All media having identical content",
+          "Every person joining in person"
+        ],
+        "answer": "Exception versus an additional person or activity"
+      },
+      {
+        "type": "detail",
+        "q": "How many speakers have not watched?",
+        "choices": [
+          "Both speakers",
+          "Only the first",
+          "Neither"
+        ],
+        "answer": "Both speakers"
+      },
+      {
+        "type": "inference",
+        "q": "Does access online confirm in-person attendance?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only at six"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "播出",
+        "pinyin": "bō chū",
+        "meaning": "to broadcast"
+      },
+      {
+        "hanzi": "节目",
+        "pinyin": "jié mù",
+        "meaning": "programme"
+      },
+      {
+        "hanzi": "区别",
+        "pinyin": "qū bié",
+        "meaning": "difference; to distinguish"
+      },
+      {
+        "hanzi": "画面",
+        "pinyin": "huà miàn",
+        "meaning": "picture; visual image"
+      },
+      {
+        "hanzi": "声音",
+        "pinyin": "shēng yīn",
+        "meaning": "sound; voice"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u22-r",
+    "title": "A broad audience is not one habit",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read how a group chooses media without making a universal claim.",
+    "lines": [
+      {
+        "zh": "两个小组联合办观看活动，面向广大观众。",
+        "py": "liǎng gè xiǎo zǔ lián hé bàn guān kàn huó dòng , miàn xiàng guǎng dà guān zhòng .",
+        "en": "Two groups organize a viewing event jointly for a broad audience."
+      },
+      {
+        "zh": "除了电视台的节目，他们还介绍电台广播，让听众也有选择。",
+        "py": "chú le diàn shì tái de jié mù , tā men hái jiè shào diàn tái guǎng bō , ràng tīng zhòng yě yǒu xuǎn zé .",
+        "en": "Besides television programmes, they introduce radio broadcasts, offering listeners choices too."
+      },
+      {
+        "zh": "有人收看画面，有人收听声音，互联网提供另一种参加方式。",
+        "py": "yǒu rén shōu kàn huà miàn , yǒu rén shōu tīng shēng yīn , hù lián wǎng tí gōng lìng yī zhǒng cān jiā fāng shì .",
+        "en": "Some watch pictures, others listen to sound; the Internet offers another way to join."
+      },
+      {
+        "zh": "国内和全球都有不同媒体，世界不只有一种节目，类似的节目也可能具有不同特色。",
+        "py": "guó nèi hé quán qiú dōu yǒu bù tóng méi tǐ , shì jiè bù zhǐ yǒu yī zhǒng jié mù , lèi sì de jié mù yě kě néng jù yǒu bù tóng tè sè .",
+        "en": "There are varied media domestically and globally; the world has more than one kind of programme, and similar programmes can have different distinctive features."
+      },
+      {
+        "zh": "哪一类爱好普遍，要说明调查范围，不能从全场都笑推断所有人都同意。",
+        "py": "nǎ yī lèi ài hào pǔ biàn , yào shuō míng diào chá fàn wéi , bù néng cóng quán chǎng dōu xiào tuī duàn suǒ yǒu rén dōu tóng yì .",
+        "en": "Claims about a common kind of hobby need a stated survey scope; the whole audience laughing does not establish universal agreement."
+      },
+      {
+        "zh": "一部讲人生的故事不是每个人的经历，节目和现实要区分。",
+        "py": "yī bù jiǎng rén shēng de gù shì bù shì měi gè rén de jīng lì , jié mù hé xiàn shí yào qū fēn .",
+        "en": "A story about a life is not everyone’s experience; distinguish the programme from reality."
+      },
+      {
+        "zh": "这次除了周五，其他几天都可以，但具体时间还没统一。",
+        "py": "zhè cì chú le zhōu wǔ , qí tā jǐ tiān dōu kě yǐ , dàn jù tǐ shí jiān hái méi tǒng yī .",
+        "en": "For this occasion, all days except Friday work, but the exact time is unsettled."
+      },
+      {
+        "zh": "把区别说清楚，再问朋友想看还是想听。",
+        "py": "bǎ qū bié shuō qīng chǔ , zài wèn péng you xiǎng kàn hái shi xiǎng tīng .",
+        "en": "Explain the differences, then ask whether the friends want to watch or listen."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the organizers avoid?",
+        "choices": [
+          "Turning a group’s reaction into a universal claim",
+          "Offering listeners a choice",
+          "Explaining different media"
+        ],
+        "answer": "Turning a group’s reaction into a universal claim"
+      },
+      {
+        "type": "detail",
+        "q": "Which day is excluded?",
+        "choices": [
+          "Friday",
+          "Saturday",
+          "Every evening"
+        ],
+        "answer": "Friday"
+      },
+      {
+        "type": "inference",
+        "q": "Is an exact meeting time fixed?",
+        "choices": [
+          "No",
+          "Yes, six for every person",
+          "Only for online viewers"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "两个小组【联合】办观看活动，面向广大观众。",
+          "py": "liǎng gè xiǎo zǔ lián hé bàn guān kàn huó dòng , miàn xiàng guǎng dà guān zhòng .",
+          "en": "Two groups organize a viewing event jointly for a broad audience."
+        },
+        {
+          "zh": "国内和全球都有不同媒体，世界不只有一种节目，类似的节目也可能具有不同【特色】。",
+          "py": "guó nèi hé quán qiú dōu yǒu bù tóng méi tǐ , shì jiè bù zhǐ yǒu yī zhǒng jié mù , lèi sì de jié mù yě kě néng jù yǒu bù tóng tè sè .",
+          "en": "There are varied media domestically and globally; the world has more than one kind of programme, and similar programmes can have different distinctive features."
+        }
+      ],
+      "bank": [
+        "联合",
+        "特色",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "节目",
+        "pinyin": "jié mù",
+        "meaning": "programme"
+      },
+      {
+        "hanzi": "方式",
+        "pinyin": "fāng shì",
+        "meaning": "method; way"
+      },
+      {
+        "hanzi": "世界",
+        "pinyin": "shì jiè",
+        "meaning": "world"
+      },
+      {
+        "hanzi": "区别",
+        "pinyin": "qū bié",
+        "meaning": "difference; to distinguish"
+      },
+      {
+        "hanzi": "画面",
+        "pinyin": "huà miàn",
+        "meaning": "picture; visual image"
+      },
+      {
+        "hanzi": "联合",
+        "pinyin": "lián hé",
+        "meaning": "joint; to unite"
+      },
+      {
+        "hanzi": "声音",
+        "pinyin": "shēng yīn",
+        "meaning": "sound; voice"
+      },
+      {
+        "hanzi": "爱好",
+        "pinyin": "ài hào",
+        "meaning": "hobby"
+      },
+      {
+        "hanzi": "经历",
+        "pinyin": "jīng lì",
+        "meaning": "experience"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u22-media",
+      "title": "One more voice",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse about inclusion and exceptions.",
+      "lines": [
+        {
+          "zh": "除了屏幕，还有声音。",
+          "py": "chú le píng mù , hái yǒu shēng yīn .",
+          "en": "Besides the screen, there is sound."
+        },
+        {
+          "zh": "除了你，我也没听。",
+          "py": "chú le nǐ , wǒ yě méi tīng .",
+          "en": "Besides you, I have not heard it either."
+        },
+        {
+          "zh": "大家的路，不必一样。",
+          "py": "dà jiā de lù , bù bì yī yàng .",
+          "en": "Everyone’s path need not be the same."
+        },
+        {
+          "zh": "先问一句，再选一场。",
+          "py": "xiān wèn yī jù , zài xuǎn yī chǎng .",
+          "en": "Ask first, then choose an event."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the verse encourage?",
+          "choices": [
+            "Asking about differing preferences",
+            "Assuming one habit fits all",
+            "Excluding every listener"
+          ],
+          "answer": "Asking about differing preferences"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "声音",
+          "pinyin": "shēng yīn",
+          "meaning": "sound; voice"
+        }
+      ]
+    },
+    {
+      "id": "s3-u22-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这个节目具有自己的特色。",
+          "py": "zhè gè jié mù jù yǒu zì jǐ de tè sè .",
+          "en": "This programme has its own distinctive features."
+        },
+        {
+          "zh": "这部故事讲人生，不是活动通知。",
+          "py": "zhè bù gù shì jiǎng rén shēng , bù shì huó dòng tōng zhī .",
+          "en": "This story concerns a life, not an event notice."
+        },
+        {
+          "zh": "国内有不同的节目，不是一种风格。",
+          "py": "guó nèi yǒu bù tóng de jié mù , bù shì yī zhǒng fēng gé .",
+          "en": "There are different domestic programmes, not just one style."
+        },
+        {
+          "zh": "全球的观众不可能都有同一个习惯。",
+          "py": "quán qiú de guān zhòng bù kě néng dōu yǒu tóng yī gè xí guàn .",
+          "en": "Viewers worldwide cannot all share the same habit."
+        },
+        {
+          "zh": "通知面向广大观众，不只面向学生。",
+          "py": "tōng zhī miàn xiàng guǎng dà guān zhòng , bù zhǐ miàn xiàng xué sheng .",
+          "en": "The notice addresses the broader audience, not just students."
+        },
+        {
+          "zh": "两个小组联合举办活动。",
+          "py": "liǎng gè xiǎo zǔ lián hé jǔ bàn huó dòng .",
+          "en": "Two groups jointly organize the event."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "节目",
+          "pinyin": "jié mù",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "联合",
+          "pinyin": "lián hé",
+          "meaning": "joint; to unite"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u22-t1",
+      "phrase": "s3-u22-w01",
+      "audio": {
+        "zh": "除了周五，其他几天都可以。",
+        "py": "chú le zhōu wǔ , qí tā jǐ tiān dōu kě yǐ .",
+        "en": "Any of the other days works except Friday."
+      },
+      "statement": "Friday is excluded.",
+      "answer": true,
+      "why": "都 totals the remaining days."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u22-t2",
+      "phrase": "s3-u22-w02",
+      "audio": {
+        "zh": "这种爱好普遍，但不是人人都有。",
+        "py": "zhè zhǒng ài hào pǔ biàn , dàn bù shì rén rén dōu yǒu .",
+        "en": "This hobby is widespread, but not everyone has it."
+      },
+      "statement": "Every person has this hobby.",
+      "answer": false,
+      "why": "普遍 is not universal."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u22-t3",
+      "phrase": "s3-u22-w12",
+      "prompt": {
+        "zh": "不看画面，想听节目。",
+        "py": "bù kàn huà miàn , xiǎng tīng jié mù .",
+        "en": "I do not want pictures; I want to listen to a programme."
+      },
+      "choices": [
+        "可以收听广播。",
+        "所有人都必须看。",
+        "除了我就是我一定来。"
+      ],
+      "answer": "可以收听广播。",
+      "why": "Offer a listening option."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u22-t4",
+      "phrase": "s3-u22-w05",
+      "prompt": {
+        "zh": "两个节目类似，能说完全一样吗？",
+        "py": "liǎng gè jié mù lèi sì , néng shuō wán quán yī yàng ma ?",
+        "en": "The programmes are similar; are they entirely identical?"
+      },
+      "choices": [
+        "不能，还要看区别。",
+        "能，类似就是相同。",
+        "能，观众就是电视台。"
+      ],
+      "answer": "不能，还要看区别。",
+      "why": "Similarity does not prove identity."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u22-t5",
+      "phrase": "s3-u22-w20",
+      "line": {
+        "zh": "不同【媒体】可以讲同一件事。",
+        "py": "bù tóng méi tǐ kě yǐ jiǎng tóng yī jiàn shì .",
+        "en": "Different media can discuss the same matter."
+      },
+      "blankPy": "méi tǐ"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u22-t6",
+      "phrase": "s3-u22-w09",
+      "line": {
+        "zh": "【观众】还没进场。",
+        "py": "guān zhòng hái méi jìn chǎng .",
+        "en": "The audience has not entered yet."
+      },
+      "blankPy": "guān zhòng"
+    },
+    {
+      "type": "match",
+      "id": "s3-u22-t7",
+      "phrase": "s3-u22-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I listen to radio broadcasts.",
+          "right": {
+            "zh": "我收听广播。",
+            "py": "wǒ shōu tīng guǎng bō .",
+            "en": "I listen to radio broadcasts."
+          }
+        },
+        {
+          "left": "She watches TV programmes.",
+          "right": {
+            "zh": "她收看电视节目。",
+            "py": "tā shōu kàn diàn shì jié mù .",
+            "en": "She watches TV programmes."
+          }
+        },
+        {
+          "left": "Everyone except me is coming.",
+          "right": {
+            "zh": "除了我，大家都来。",
+            "py": "chú le wǒ , dà jiā dōu lái .",
+            "en": "Everyone except me is coming."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u22-t8",
+      "phrase": "s3-u22-w21",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "It can also be watched on the Internet.",
+          "right": {
+            "zh": "互联网也能观看。",
+            "py": "hù lián wǎng yě néng guān kàn .",
+            "en": "It can also be watched on the Internet."
+          }
+        },
+        {
+          "left": "Besides her, I have not watched it either.",
+          "right": {
+            "zh": "除了她，我也没看过。",
+            "py": "chú le tā , wǒ yě méi kàn guò .",
+            "en": "Besides her, I have not watched it either."
+          }
+        },
+        {
+          "left": "The whole audience laughed.",
+          "right": {
+            "zh": "全场都笑了。",
+            "py": "quán chǎng dōu xiào le .",
+            "en": "The whole audience laughed."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u22-t9",
+      "phrase": "s3-u22-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I worry about her and also respect her choice.",
+          "right": {
+            "zh": "我为她担心，也尊重她的选择。",
+            "py": "wǒ wèi tā dān xīn , yě zūn zhòng tā de xuǎn zé .",
+            "en": "I worry about her and also respect her choice."
+          }
+        },
+        {
+          "left": "For me, quiet matters.",
+          "right": {
+            "zh": "对我来说，安静很重要。",
+            "py": "duì wǒ lái shuō , ān jìng hěn zhòng yào .",
+            "en": "For me, quiet matters."
+          }
+        },
+        {
+          "left": "For carrying books conveniently, I choose this cloth bag.",
+          "right": {
+            "zh": "为了带书方便，我选这个布袋。",
+            "py": "wèi le dài shū fāng biàn , wǒ xuǎn zhè gè bù dài .",
+            "en": "For carrying books conveniently, I choose this cloth bag."
+          }
+        },
+        {
+          "left": "To commemorate meeting, we make a greeting card.",
+          "right": {
+            "zh": "为了纪念见面，我们做一张贺卡。",
+            "py": "wèi le jì niàn jiàn miàn , wǒ men zuò yī zhāng hè kǎ .",
+            "en": "To commemorate meeting, we make a greeting card."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Clarify the exception",
+      "natural": {
+        "zh": "除了你，我也没看过。",
+        "py": "chú le nǐ , wǒ yě méi kàn guò .",
+        "en": "Besides you, I have not watched it either."
+      },
+      "note": "Keep addition separate from exclusion."
+    },
+    {
+      "situation": "Limit a claim",
+      "natural": {
+        "zh": "这只是我们小组的选择。",
+        "py": "zhè zhǐ shì wǒ men xiǎo zǔ de xuǎn zé .",
+        "en": "This is only our group’s choice."
+      },
+      "note": "Do not speak for all viewers."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u22-speak",
+    "title": "Everyone except me?",
+    "place": "A language-exchange meeting",
+    "context": "Discuss exceptions without losing the group's meaning.",
+    "goal": "Distinguish excluding one member from adding another activity",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "周五可以吗？",
+        "pinyin": "zhōu wǔ kě yǐ ma ?",
+        "meaning": "Does Friday work?",
+        "intent": "Name the excluded day",
+        "examples": [
+          "除了周五，其他几天都可以。"
+        ],
+        "accept": [
+          "^除了周五，其他几天都可以。[。！？]?$"
+        ]
+      },
+      {
+        "text": "只看电视吗？",
+        "pinyin": "zhǐ kàn diàn shì ma ?",
+        "meaning": "Do you only watch television?",
+        "intent": "Add another habit",
+        "examples": [
+          "除了电视，我还听广播。"
+        ],
+        "accept": [
+          "^除了电视，我还听广播。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三28, 三38. Native check: 普遍 versus universal scope, 除了…也 negation, 收看/观看 and 收听 register, 广大 audience collocation, and the original verse’s ellipsis. No population survey is claimed. Native review pending. Planned retrieval 三23 / 三40 / 三26 / 三72: 我为她担心，也尊重她的选择。, 对我来说，安静很重要。, 为了带书方便，我选这个布袋。, 为了纪念见面，我们做一张贺卡。."
+}

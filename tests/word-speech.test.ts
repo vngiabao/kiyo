@@ -44,6 +44,6 @@ it("separates the reading of a word from its glyph's default reading", () => {
 });
 
 it("compiled course word audio retains its taught reading", () => {
-  for (const p of phrases.filter((p) => p.id.startsWith("s") && ["干", "地", "还", "们", "子", "头", "得", "过", "长", "行", "只"].includes(p.hanzi)))
+  for (const p of phrases.filter((p) => p.id.startsWith("s") && ["干", "地", "还", "们", "子", "头", "得", "过", "长", "行", "只", "了", "背", "为", "调", "重", "性", "极了", "血", "精神"].includes(p.hanzi)))
     expect(p.audio.text, `${p.id}: ${p.pinyin}`).toBe(wordSpeech(p.hanzi, p.pinyin));
 });

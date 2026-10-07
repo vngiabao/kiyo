@@ -1,0 +1,1297 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u23",
+    "stage": 2,
+    "order": 87,
+    "title": "Only if everyone agrees",
+    "titleZh": "只有大家同意才公布",
+    "canDo": [
+      "State a necessary condition without claiming it guarantees an outcome",
+      "Add reasons and alternatives with explicit connectors",
+      "Separate an approved plan from a proposed one"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u22"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u23-w01",
+      "hanzi": "并且",
+      "pinyin": "bìng qiě",
+      "meaning": "and; moreover",
+      "meaningVi": "và; hơn nữa",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先确认场地，并且问清费用。",
+        "py": "xiān què rèn chǎng dì , bìng qiě wèn qīng fèi yòng .",
+        "en": "Confirm the venue and clarify the expenses first."
+      },
+      "usageNote": "[GF2021:L3:485] Source entry: 并且; bìngqiě; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w02",
+      "hanzi": "不光",
+      "pinyin": "bù guāng",
+      "meaning": "not only",
+      "meaningVi": "không chỉ",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不光问时间，还要问地点。",
+        "py": "bù guāng wèn shí jiān , hái yào wèn dì diǎn .",
+        "en": "Ask not only the time but also the location."
+      },
+      "usageNote": "[GF2021:L3:588] Source entry: 不光; bùguāng; 副、连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w03",
+      "hanzi": "不仅",
+      "pinyin": "bù jǐn",
+      "meaning": "not only",
+      "meaningVi": "không chỉ",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不仅要公布，也要让大家看得懂。",
+        "py": "bù jǐn yào gōng bù , yě yào ràng dà jiā kàn dé dǒng .",
+        "en": "Not only publish it, but make it understandable too."
+      },
+      "usageNote": "[GF2021:L3:593] Source entry: 不仅; bùjǐn; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w04",
+      "hanzi": "要是",
+      "pinyin": "yào shì",
+      "meaning": "if",
+      "meaningVi": "nếu",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "要是有人不同意，先听原因。",
+        "py": "yào shì yǒu rén bù tóng yì , xiān tīng yuán yīn .",
+        "en": "If someone disagrees, listen to the reasons first."
+      },
+      "usageNote": "[GF2021:L3:9425] Source entry: 要是; yàoshi; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w05",
+      "hanzi": "只有",
+      "pinyin": "zhǐ yǒu",
+      "meaning": "only if; only",
+      "meaningVi": "chỉ khi",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "只有大家同意，才公布新安排。",
+        "py": "zhǐ yǒu dà jiā tóng yì , cái gōng bù xīn ān pái .",
+        "en": "Announce the new arrangements only if everyone agrees."
+      },
+      "usageNote": "[GF2021:L3:10532] Source entry: 只有; zhǐyǒu; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w06",
+      "hanzi": "同意",
+      "pinyin": "tóng yì",
+      "meaning": "to agree; consent",
+      "meaningVi": "đồng ý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她还没同意，不要替她报名。",
+        "py": "tā hái méi tóng yì , bú yào tì tā bào míng .",
+        "en": "She has not agreed; do not register on her behalf."
+      },
+      "usageNote": "[GF2021:L3:8072] Source entry: 同意; tóngyì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w07",
+      "hanzi": "反对",
+      "pinyin": "fǎn duì",
+      "meaning": "to oppose",
+      "meaningVi": "phản đối",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她反对这个时间，不是反对活动本身。",
+        "py": "tā fǎn duì zhè gè shí jiān , bù shì fǎn duì huó dòng běn shēn .",
+        "en": "She opposes this time, not the event itself."
+      },
+      "usageNote": "[GF2021:L3:2207] Source entry: 反对; fǎnduì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w08",
+      "hanzi": "坚决",
+      "pinyin": "jiān jué",
+      "meaning": "firm; resolute",
+      "meaningVi": "kiên quyết",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她坚决不同意公开私人地址。",
+        "py": "tā jiān jué bù tóng yì gōng kāi sī rén dì zhǐ .",
+        "en": "She firmly opposes making the private address public."
+      },
+      "usageNote": "[GF2021:L3:3907] Source entry: 坚决; jiānjué; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w09",
+      "hanzi": "主张",
+      "pinyin": "zhǔ zhāng",
+      "meaning": "to advocate; position",
+      "meaningVi": "chủ trương",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我主张先问所有参与者。",
+        "py": "wǒ zhǔ zhāng xiān wèn suǒ yǒu cān yù zhě .",
+        "en": "I advocate asking all participants first."
+      },
+      "usageNote": "[GF2021:L3:10734] Source entry: 主张; zhǔzhāng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w10",
+      "hanzi": "主意",
+      "pinyin": "zhǔ yì",
+      "meaning": "idea; plan",
+      "meaningVi": "ý tưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是一个主意，还不是决定。",
+        "py": "zhè shì yī gè zhǔ yì , hái bù shì jué dìng .",
+        "en": "This is an idea, not a decision yet."
+      },
+      "usageNote": "[GF2021:L3:10732] Source entry: 主意; zhǔyi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w11",
+      "hanzi": "制定",
+      "pinyin": "zhì dìng",
+      "meaning": "to formulate; draw up",
+      "meaningVi": "lập; xây dựng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先讨论，再制定规则。",
+        "py": "xiān tǎo lùn , zài zhì dìng guī zé .",
+        "en": "Discuss before drawing up the rules."
+      },
+      "usageNote": "[GF2021:L3:10569] Source entry: 制定; zhìdìng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w12",
+      "hanzi": "制度",
+      "pinyin": "zhì dù",
+      "meaning": "system; rules",
+      "meaningVi": "chế độ; hệ thống quy định",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这项制度还在讨论中。",
+        "py": "zhè xiàng zhì dù hái zài tǎo lùn zhōng .",
+        "en": "This system of rules is still being discussed."
+      },
+      "usageNote": "[GF2021:L3:10570] Source entry: 制度; zhìdù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w13",
+      "hanzi": "规范",
+      "pinyin": "guī fàn",
+      "meaning": "standard; norm; standardize",
+      "meaningVi": "quy chuẩn; chuẩn hóa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "格式规范写在通知后面。",
+        "py": "gé shì guī fàn xiě zài tōng zhī hòu miàn .",
+        "en": "The formatting standard is written after the notice."
+      },
+      "usageNote": "[GF2021:L3:3049] Source entry: 规范; guīfàn; 形、名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w14",
+      "hanzi": "合法",
+      "pinyin": "hé fǎ",
+      "meaning": "lawful; legal",
+      "meaningVi": "hợp pháp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "合法不合法，要看实际规定。",
+        "py": "hé fǎ bù hé fǎ , yào kàn shí jì guī dìng .",
+        "en": "Whether it is lawful depends on the actual rules."
+      },
+      "usageNote": "[GF2021:L3:3265] Source entry: 合法; héfǎ; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w15",
+      "hanzi": "批准",
+      "pinyin": "pī zhǔn",
+      "meaning": "to approve; authorize",
+      "meaningVi": "phê duyệt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场地申请还没批准。",
+        "py": "chǎng dì shēn qǐng hái méi pī zhǔn .",
+        "en": "The venue application has not been approved."
+      },
+      "usageNote": "[GF2021:L3:6046] Source entry: 批准; pīzhǔn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w16",
+      "hanzi": "认可",
+      "pinyin": "rèn kě",
+      "meaning": "to recognize; accept",
+      "meaningVi": "công nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我认可你的努力，不代表同意这个时间。",
+        "py": "wǒ rèn kě nǐ de nǔ lì , bù dài biǎo tóng yì zhè gè shí jiān .",
+        "en": "I recognize your effort; that does not mean agreeing to this time."
+      },
+      "usageNote": "[GF2021:L3:6738] Source entry: 认可; rènkě; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w17",
+      "hanzi": "确保",
+      "pinyin": "què bǎo",
+      "meaning": "to ensure",
+      "meaningVi": "đảm bảo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先确保每个人都收到通知。",
+        "py": "xiān què bǎo měi gè rén dōu shōu dào tōng zhī .",
+        "en": "Make sure everyone receives the notice first."
+      },
+      "usageNote": "[GF2021:L3:6639] Source entry: 确保; quèbǎo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w18",
+      "hanzi": "防止",
+      "pinyin": "fáng zhǐ",
+      "meaning": "to prevent",
+      "meaningVi": "ngăn ngừa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "核对日期，防止发旧消息。",
+        "py": "hé duì rì qī , fáng zhǐ fā jiù xiāo xī .",
+        "en": "Check the date to prevent sending an old message."
+      },
+      "usageNote": "[GF2021:L3:2261] Source entry: 防止; fángzhǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w19",
+      "hanzi": "预防",
+      "pinyin": "yù fáng",
+      "meaning": "to take preventive measures",
+      "meaningVi": "phòng ngừa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "预防问题，要先看入口是否够用。",
+        "py": "yù fáng wèn tí , yào xiān kàn rù kǒu shì fǒu gòu yòng .",
+        "en": "To prevent problems, check whether the entrance is adequate first."
+      },
+      "usageNote": "[GF2021:L3:9956] Source entry: 预防; yùfáng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w20",
+      "hanzi": "情况",
+      "pinyin": "qíng kuàng",
+      "meaning": "situation; circumstances",
+      "meaningVi": "tình hình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先了解情况，不急着反对。",
+        "py": "xiān liǎo jiě qíng kuàng , bù jí zhe fǎn duì .",
+        "en": "Understand the situation before rushing to oppose it."
+      },
+      "usageNote": "[GF2021:L3:6509] Source entry: 情况; qíngkuàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w21",
+      "hanzi": "如何",
+      "pinyin": "rú hé",
+      "meaning": "how",
+      "meaningVi": "như thế nào",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "如何报名，通知还没说明。",
+        "py": "rú hé bào míng , tōng zhī hái méi shuō míng .",
+        "en": "The notice has not explained how to register."
+      },
+      "usageNote": "[GF2021:L3:6800] Source entry: 如何; rúhé; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u23-w22",
+      "hanzi": "能不能",
+      "pinyin": "néng bù néng",
+      "meaning": "whether one can; can or cannot",
+      "meaningVi": "có thể hay không",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "能不能用这个房间，还要问管理人员。",
+        "py": "néng bù néng yòng zhè gè fáng jiān , hái yào wèn guǎn lǐ rén yuán .",
+        "en": "Ask the staff whether this room may be used."
+      },
+      "usageNote": "[GF2021:L3:5834] Source entry: 能不能; néng bu néng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "防",
+      "pinyin": "fáng",
+      "meaning": "to prevent; guard",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "防",
+          "role": "whole",
+          "gloss": "to prevent; guard"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 防 in 防止 / 预防. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "防止",
+          "p": "fáng zhǐ",
+          "m": "to prevent"
+        },
+        {
+          "w": "预防",
+          "p": "yù fáng",
+          "m": "to take preventive measures"
+        }
+      ]
+    },
+    {
+      "hanzi": "范",
+      "pinyin": "fàn",
+      "meaning": "pattern; model",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "范",
+          "role": "whole",
+          "gloss": "pattern; model"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 范 in 规范 / 范围. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "规范",
+          "p": "guī fàn",
+          "m": "standard; norm; standardize"
+        },
+        {
+          "w": "范围",
+          "p": "fàn wéi",
+          "m": "range; scope"
+        }
+      ]
+    },
+    {
+      "hanzi": "止",
+      "pinyin": "zhǐ",
+      "meaning": "to stop",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "止",
+          "role": "whole",
+          "gloss": "to stop"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 止 in 防止. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "防止",
+          "p": "fáng zhǐ",
+          "m": "to prevent"
+        }
+      ]
+    },
+    {
+      "hanzi": "议",
+      "pinyin": "yì",
+      "meaning": "to discuss",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "议",
+          "role": "whole",
+          "gloss": "to discuss"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 议 in 建议 / 会议. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "建议",
+          "p": "jiàn yì",
+          "m": "suggestion"
+        },
+        {
+          "w": "会议",
+          "p": "huì yì",
+          "m": "meeting; conference"
+        }
+      ]
+    },
+    {
+      "hanzi": "及",
+      "pinyin": "jí",
+      "meaning": "to reach; and",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "及",
+          "role": "whole",
+          "gloss": "to reach; and"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 及 in 及时 / 以及. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "及时",
+          "p": "jí shí",
+          "m": "in time; timely"
+        },
+        {
+          "w": "以及",
+          "p": "yǐ jí",
+          "m": "as well as"
+        }
+      ]
+    },
+    {
+      "hanzi": "制",
+      "pinyin": "zhì",
+      "meaning": "system; to make",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "制",
+          "role": "whole",
+          "gloss": "system; to make"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 制 in 制定 / 制度. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "制定",
+          "p": "zhì dìng",
+          "m": "to formulate; draw up"
+        },
+        {
+          "w": "制度",
+          "p": "zhì dù",
+          "m": "system; rules"
+        }
+      ]
+    },
+    {
+      "hanzi": "危",
+      "pinyin": "wēi",
+      "meaning": "danger",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "危",
+          "role": "whole",
+          "gloss": "danger"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 危 in 危险. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "危险",
+          "p": "wēi xiǎn",
+          "m": "dangerous; danger"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u23-g三30",
+      "pattern": "并且 / 不光 / 不仅 / 另外 / 要是 / 因此 / 由于 / 只有",
+      "purpose": "Connect clauses according to their relationship",
+      "explanation": "并且 adds a connected statement; 不光/不仅 introduce the first part of an additive pair with 还/也/而且. 另外 adds a separate point. 要是 introduces an if-condition, commonly answered by 就. 由于 introduces the cause clause and 因此 the consequence; here 由于……，因此…… links two clauses, contrasting the earlier preposition plus cause phrase. 只有 names a necessary condition with 才. Do not interchange cause, addition and condition just because all link statements.",
+      "examples": [
+        {
+          "zh": "先确认地点，并且问清费用；另外，还要问人数。",
+          "py": "xiān què rèn dì diǎn , bìng qiě wèn qīng fèi yòng ; lìng wài , hái yào wèn rén shù .",
+          "en": "Confirm the venue and expenses; additionally ask the number of people."
+        },
+        {
+          "zh": "不光要问时间，还要问地点；不仅要公布，也要解释清楚。",
+          "py": "bù guāng yào wèn shí jiān , hái yào wèn dì diǎn ; bù jǐn yào gōng bù , yě yào jiě shì qīng chǔ .",
+          "en": "Ask not only the time but the venue; not only announce it but explain clearly."
+        },
+        {
+          "zh": "要是下雨，就换室内；由于场地没批准，因此先不公布。",
+          "py": "yào shì xià yǔ , jiù huàn shì nèi ; yóu yú chǎng dì méi pī zhǔn , yīn cǐ xiān bù gōng bù .",
+          "en": "If it rains, move indoors; because the venue is unapproved, do not announce yet."
+        },
+        {
+          "zh": "只有大家同意，才公布。",
+          "py": "zhǐ yǒu dà jiā tóng yì , cái gōng bù .",
+          "en": "Announce only if everyone agrees."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "要是大家同意，因此大家同意。",
+          "right": "要是大家同意，就再确认场地。",
+          "why": "An if-condition does not assert its own fulfillment; give the corresponding next action."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u23-g三70",
+      "pattern": "只有……，才……",
+      "purpose": "Name a necessary, not sufficient, condition",
+      "explanation": "只有大家同意才公布 sets agreement as necessary for announcing. It does not say agreement alone makes a venue available or forces an announcement. Contrast 要是大家同意，就再确认场地, an if-then step. 不同意就不公布 is compatible with the necessary condition; 同意了还要确认场地 is also compatible. Keep the stated condition and remaining requirements distinct.",
+      "examples": [
+        {
+          "zh": "只有大家同意，才公布新安排。",
+          "py": "zhǐ yǒu dà jiā tóng yì , cái gōng bù xīn ān pái .",
+          "en": "Only if everyone agrees will the new arrangements be announced."
+        },
+        {
+          "zh": "只有确认场地，才可以发地址。",
+          "py": "zhǐ yǒu què rèn chǎng dì , cái kě yǐ fā dì zhǐ .",
+          "en": "Only after confirming the venue may the address be sent."
+        },
+        {
+          "zh": "大家同意了，还要等场地批准。",
+          "py": "dà jiā tóng yì le , hái yào děng chǎng dì pī zhǔn .",
+          "en": "Everyone has agreed; venue approval is still needed."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只有大家同意才公布，所以同意以后一定立刻公布。",
+          "right": "大家同意以后，还要确认其他要求，再公布。",
+          "why": "A necessary condition alone does not guarantee immediate action."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u23-d",
+    "title": "An idea is not an approved plan",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is agreed and which requirement remains.",
+    "lines": [
+      {
+        "zh": "我有个主意，周五办活动，大家能不能来？",
+        "py": "wǒ yǒu gè zhǔ yì , zhōu wǔ bàn huó dòng , dà jiā néng bù néng lái ?",
+        "en": "I have an idea: an event on Friday. Can everyone come?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我认可你的努力，但反对周五这个时间。",
+        "py": "wǒ rèn kě nǐ de nǔ lì , dàn fǎn duì zhōu wǔ zhè gè shí jiān .",
+        "en": "I recognize your effort but oppose Friday as the time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那先了解情况，如何改合适？",
+        "py": "nà xiān liǎo jiě qíng kuàng , rú hé gǎi hé shì ?",
+        "en": "Then let us understand the situation; how should we change it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我主张先问每个人，并且确认场地。",
+        "py": "wǒ zhǔ zhāng xiān wèn měi gè rén , bìng qiě què rèn chǎng dì .",
+        "en": "I advocate asking each person and confirming the venue.",
+        "speaker": "b"
+      },
+      {
+        "zh": "不光要问时间，还要问费用；另外，私人地址别公开。",
+        "py": "bù guāng yào wèn shí jiān , hái yào wèn fèi yòng ; lìng wài , sī rén dì zhǐ bié gōng kāi .",
+        "en": "Ask not only the time but the expense; also do not make private addresses public.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，只有大家同意，才公布。现在有人同意了，可以发了吗？",
+        "py": "hǎo , zhǐ yǒu dà jiā tóng yì , cái gōng bù . xiàn zài yǒu rén tóng yì le , kě yǐ fā le ma ?",
+        "en": "Okay, announce only if everyone agrees. Some agree now; can we send it?",
+        "speaker": "b"
+      },
+      {
+        "zh": "还不行，场地还没批准。我坚决不同意先发旧地址。",
+        "py": "hái bù xíng , chǎng dì hái méi pī zhǔn . wǒ jiān jué bù tóng yì xiān fā jiù dì zhǐ .",
+        "en": "Not yet; the venue is not approved. I firmly oppose sending an old address first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先制定清楚的规则，防止大家收到不同版本。",
+        "py": "xiān zhì dìng qīng chǔ de guī zé , fáng zhǐ dà jiā shōu dào bù tóng bǎn běn .",
+        "en": "First draw up clear rules to prevent people receiving different versions.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What needs distinguishing?",
+        "choices": [
+          "A proposal, partial agreement and approval",
+          "Recognition and complete agreement as the same thing",
+          "Every venue as automatically available"
+        ],
+        "answer": "A proposal, partial agreement and approval"
+      },
+      {
+        "type": "detail",
+        "q": "What is still unapproved?",
+        "choices": [
+          "The venue",
+          "The private address owner’s identity",
+          "A completed exam result"
+        ],
+        "answer": "The venue"
+      },
+      {
+        "type": "inference",
+        "q": "Does some agreement meet “everyone agrees”?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only because the organizer worked hard"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "私人",
+        "pinyin": "sī rén",
+        "meaning": "private"
+      },
+      {
+        "hanzi": "场地",
+        "pinyin": "chǎng dì",
+        "meaning": "venue"
+      },
+      {
+        "hanzi": "费用",
+        "pinyin": "fèi yòng",
+        "meaning": "expense"
+      },
+      {
+        "hanzi": "规则",
+        "pinyin": "guī zé",
+        "meaning": "rule"
+      },
+      {
+        "hanzi": "公布",
+        "pinyin": "gōng bù",
+        "meaning": "to publish; announce"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u23-r",
+    "title": "A notice with conditions",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the proposed steps without mistaking them for completed actions.",
+    "lines": [
+      {
+        "zh": "这个主意还没成为决定，先问能不能参加，了解每个人的情况。",
+        "py": "zhè gè zhǔ yì hái méi chéng wéi jué dìng , xiān wèn néng bù néng cān jiā , liǎo jiě měi gè rén de qíng kuàng .",
+        "en": "This idea is not yet a decision; ask whether each person can attend and understand their circumstances."
+      },
+      {
+        "zh": "有人认可组织者的努力，却反对时间，不能因此说他同意。",
+        "py": "yǒu rén rèn kě zǔ zhī zhě de nǔ lì , què fǎn duì shí jiān , bù néng yīn cǐ shuō tā tóng yì .",
+        "en": "Someone recognizes the organizer’s effort but opposes the time; that does not mean consent."
+      },
+      {
+        "zh": "组织者主张不光问地点，还问费用；并且说明如何报名，以及参加的时间。",
+        "py": "zǔ zhī zhě zhǔ zhāng bù guāng wèn dì diǎn , hái wèn fèi yòng ; bìng qiě shuō míng rú hé bào míng , yǐ jí cān jiā de shí jiān .",
+        "en": "The organizer advocates asking not only the venue but the fee, and explaining how to register as well as the time for participating."
+      },
+      {
+        "zh": "不仅通知要清楚，格式也要符合规范；另外，私人信息不能随便公布。",
+        "py": "bù jǐn tōng zhī yào qīng chǔ , gé shì yě yào fú hé guī fàn ; lìng wài , sī rén xìn xī bù néng suí biàn gōng bù .",
+        "en": "The notice must be clear and its format meet the standard; additionally private information cannot be announced casually."
+      },
+      {
+        "zh": "场地还没批准，要是下雨，就再讨论室内方案。",
+        "py": "chǎng dì hái méi pī zhǔn , yào shì xià yǔ , jiù zài tǎo lùn shì nèi fāng àn .",
+        "en": "The venue is unapproved; if it rains, discuss the indoor alternative again."
+      },
+      {
+        "zh": "只有大家同意，才公布；同意以后还要确认场地许可。",
+        "py": "zhǐ yǒu dà jiā tóng yì , cái gōng bù ; tóng yì yǐ hòu hái yào què rèn chǎng dì xǔ kě .",
+        "en": "Announce only if everyone agrees; venue permission still needs confirmation after agreement."
+      },
+      {
+        "zh": "有人建议制定制度，也要检查入口，预防拥挤，确保大家收到同一通知，不能保证没有危险。",
+        "py": "yǒu rén jiàn yì zhì dìng zhì dù , yě yào jiǎn chá rù kǒu , yù fáng yōng jǐ , què bǎo dà jiā shōu dào tóng yī tōng zhī , bù néng bǎo zhèng méi yǒu wēi xiǎn .",
+        "en": "Someone suggests drawing up rules; still check the entrance, prevent crowding and ensure everyone receives the same notice, without guaranteeing an absence of danger."
+      },
+      {
+        "zh": "由于地址还没核实，因此先不发布；合法与否要看实际规定，不凭一句玩笑判断。",
+        "py": "yóu yú dì zhǐ hái méi hé shí , yīn cǐ xiān bù fā bù ; hé fǎ yǔ fǒu yào kàn shí jì guī dìng , bù píng yī jù wán xiào pàn duàn .",
+        "en": "Because the address is unverified, do not publish yet; legality depends on actual rules, not a joke."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the notice make explicit?",
+        "choices": [
+          "Conditions and remaining checks",
+          "A guarantee against every future problem",
+          "A final legal opinion"
+        ],
+        "answer": "Conditions and remaining checks"
+      },
+      {
+        "type": "detail",
+        "q": "What follows agreement?",
+        "choices": [
+          "Confirmation of venue permission",
+          "Automatic immediate publication",
+          "Deletion of the rules"
+        ],
+        "answer": "Confirmation of venue permission"
+      },
+      {
+        "type": "inference",
+        "q": "Is the discussion a legal determination?",
+        "choices": [
+          "No; it says to check actual rules",
+          "Yes",
+          "Only if the joke is funny"
+        ],
+        "answer": "No; it says to check actual rules"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【只有】大家同意，才公布；同意以后还要确认场地许可。",
+          "py": "zhǐ yǒu dà jiā tóng yì , cái gōng bù ; tóng yì yǐ hòu hái yào què rèn chǎng dì xǔ kě .",
+          "en": "Announce only if everyone agrees; venue permission still needs confirmation after agreement."
+        },
+        {
+          "zh": "由于地址还没核实，【因此】先不发布；合法与否要看实际规定，不凭一句玩笑判断。",
+          "py": "yóu yú dì zhǐ hái méi hé shí , yīn cǐ xiān bù fā bù ; hé fǎ yǔ fǒu yào kàn shí jì guī dìng , bù píng yī jù wán xiào pàn duàn .",
+          "en": "Because the address is unverified, do not publish yet; legality depends on actual rules, not a joke."
+        }
+      ],
+      "bank": [
+        "只有",
+        "因此",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "to register"
+      },
+      {
+        "hanzi": "私人",
+        "pinyin": "sī rén",
+        "meaning": "private"
+      },
+      {
+        "hanzi": "场地",
+        "pinyin": "chǎng dì",
+        "meaning": "venue"
+      },
+      {
+        "hanzi": "许可",
+        "pinyin": "xǔ kě",
+        "meaning": "permission"
+      },
+      {
+        "hanzi": "危险",
+        "pinyin": "wēi xiǎn",
+        "meaning": "dangerous; danger"
+      },
+      {
+        "hanzi": "费用",
+        "pinyin": "fèi yòng",
+        "meaning": "expense"
+      },
+      {
+        "hanzi": "建议",
+        "pinyin": "jiàn yì",
+        "meaning": "suggestion"
+      },
+      {
+        "hanzi": "方案",
+        "pinyin": "fāng àn",
+        "meaning": "proposed plan"
+      },
+      {
+        "hanzi": "公布",
+        "pinyin": "gōng bù",
+        "meaning": "to publish; announce"
+      },
+      {
+        "hanzi": "以及",
+        "pinyin": "yǐ jí",
+        "meaning": "as well as"
+      },
+      {
+        "hanzi": "符合",
+        "pinyin": "fú hé",
+        "meaning": "to conform to"
+      },
+      {
+        "hanzi": "拥挤",
+        "pinyin": "yōng jǐ",
+        "meaning": "crowded; crowding"
+      },
+      {
+        "hanzi": "与否",
+        "pinyin": "yǔ fǒu",
+        "meaning": "whether or not"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u23-media",
+      "title": "Not every yes is the same yes",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about counting agreement.",
+      "lines": [
+        {
+          "zh": "一个人点头了，可以公布吧？",
+          "py": "yī gè rén diǎn tóu le , kě yǐ gōng bù ba ?",
+          "en": "One person nodded; we can announce now, right?",
+          "speaker": "a"
+        },
+        {
+          "zh": "你说的是只有大家同意。",
+          "py": "nǐ shuō de shì zhǐ yǒu dà jiā tóng yì .",
+          "en": "You said only if everyone agrees.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我的主意听起来很热闹。",
+          "py": "wǒ de zhǔ yì tīng qǐ lái hěn rè nào .",
+          "en": "My idea sounds lively.",
+          "speaker": "a"
+        },
+        {
+          "zh": "热闹不是表决。先问清楚。",
+          "py": "rè nào bù shì biǎo jué . xiān wèn qīng chǔ .",
+          "en": "Lively is not a vote. Ask clearly first.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why is announcing premature?",
+          "choices": [
+            "One nod does not establish everyone’s consent",
+            "Lively ideas are always forbidden",
+            "The room has already been booked"
+          ],
+          "answer": "One nod does not establish everyone’s consent"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "表决",
+          "pinyin": "biǎo jué",
+          "meaning": "to vote"
+        },
+        {
+          "hanzi": "公布",
+          "pinyin": "gōng bù",
+          "meaning": "to publish; announce"
+        }
+      ]
+    },
+    {
+      "id": "s3-u23-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "她坚决不同意公开私人地址。",
+          "py": "tā jiān jué bù tóng yì gōng kāi sī rén dì zhǐ .",
+          "en": "She firmly opposes making the private address public."
+        },
+        {
+          "zh": "这项制度还在讨论中。",
+          "py": "zhè xiàng zhì dù hái zài tǎo lùn zhōng .",
+          "en": "This system of rules is still being discussed."
+        },
+        {
+          "zh": "格式规范写在通知后面。",
+          "py": "gé shì guī fàn xiě zài tōng zhī hòu miàn .",
+          "en": "The formatting standard is written after the notice."
+        },
+        {
+          "zh": "合法不合法，要看实际规定。",
+          "py": "hé fǎ bù hé fǎ , yào kàn shí jì guī dìng .",
+          "en": "Whether it is lawful depends on the actual rules."
+        },
+        {
+          "zh": "先确保每个人都收到通知。",
+          "py": "xiān què bǎo měi gè rén dōu shōu dào tōng zhī .",
+          "en": "Make sure everyone receives the notice first."
+        },
+        {
+          "zh": "预防问题，要先看入口是否够用。",
+          "py": "yù fáng wèn tí , yào xiān kàn rù kǒu shì fǒu gòu yòng .",
+          "en": "To prevent problems, check whether the entrance is adequate first."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "私人",
+          "pinyin": "sī rén",
+          "meaning": "private"
+        },
+        {
+          "hanzi": "是否",
+          "pinyin": "shì fǒu",
+          "meaning": "whether; whether or not"
+        },
+        {
+          "hanzi": "不合法",
+          "pinyin": "bù hé fǎ",
+          "meaning": "not lawful"
+        },
+        {
+          "hanzi": "项",
+          "pinyin": "xiàng",
+          "meaning": "classifier for projects, provisions or systems"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u23-t1",
+      "phrase": "s3-u23-w05",
+      "audio": {
+        "zh": "只有大家同意，才公布；场地还要确认。",
+        "py": "zhǐ yǒu dà jiā tóng yì , cái gōng bù ; chǎng dì hái yào què rèn .",
+        "en": "Announce only if everyone agrees; the venue still needs confirming."
+      },
+      "statement": "Agreement alone guarantees immediate publication.",
+      "answer": false,
+      "why": "A necessary condition is not sufficient."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u23-t2",
+      "phrase": "s3-u23-w16",
+      "audio": {
+        "zh": "我认可你的努力，但不同意时间。",
+        "py": "wǒ rèn kě nǐ de nǔ lì , dàn bù tóng yì shí jiān .",
+        "en": "I recognize your effort but disagree with the time."
+      },
+      "statement": "Recognition is not consent to the time.",
+      "answer": true,
+      "why": "The contrast explicitly separates them."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u23-t3",
+      "phrase": "s3-u23-w15",
+      "prompt": {
+        "zh": "场地还没批准，先发地址吗？",
+        "py": "chǎng dì hái méi pī zhǔn , xiān fā dì zhǐ ma ?",
+        "en": "The venue is unapproved; should we send the address?"
+      },
+      "choices": [
+        "先不发，再确认许可。",
+        "发完就自动批准。",
+        "有人点头就是所有人同意。"
+      ],
+      "answer": "先不发，再确认许可。",
+      "why": "Wait for confirmation."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u23-t4",
+      "phrase": "s3-u23-w21",
+      "prompt": {
+        "zh": "有人反对这个时间，怎么办？",
+        "py": "yǒu rén fǎn duì zhè gè shí jiān , zěn me bàn ?",
+        "en": "Someone opposes this time; what now?"
+      },
+      "choices": [
+        "先问原因，再讨论。",
+        "替他报名。",
+        "把反对写成同意。"
+      ],
+      "answer": "先问原因，再讨论。",
+      "why": "Hear the reasons."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u23-t5",
+      "phrase": "s3-u23-w01",
+      "line": {
+        "zh": "先确认场地，【并且】问清费用。",
+        "py": "xiān què rèn chǎng dì , bìng qiě wèn qīng fèi yòng .",
+        "en": "Confirm the venue and clarify expenses first."
+      },
+      "blankPy": "bìng qiě"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u23-t6",
+      "phrase": "s3-u23-w18",
+      "line": {
+        "zh": "先核对，【防止】发旧消息。",
+        "py": "xiān hé duì , fáng zhǐ fā jiù xiāo xī .",
+        "en": "Check first to avoid sending old information."
+      },
+      "blankPy": "fáng zhǐ"
+    },
+    {
+      "type": "match",
+      "id": "s3-u23-t7",
+      "phrase": "s3-u23-w10",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "This is an idea, not yet a decision.",
+          "right": {
+            "zh": "这是主意，还没决定。",
+            "py": "zhè shì zhǔ yì , hái méi jué dìng .",
+            "en": "This is an idea, not yet a decision."
+          }
+        },
+        {
+          "left": "The venue remains unapproved.",
+          "right": {
+            "zh": "场地还没批准。",
+            "py": "chǎng dì hái méi pī zhǔn .",
+            "en": "The venue remains unapproved."
+          }
+        },
+        {
+          "left": "First ask how to register.",
+          "right": {
+            "zh": "先问如何报名。",
+            "py": "xiān wèn rú hé bào míng .",
+            "en": "First ask how to register."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u23-t8",
+      "phrase": "s3-u23-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "She has not agreed yet.",
+          "right": {
+            "zh": "她还没同意。",
+            "py": "tā hái méi tóng yì .",
+            "en": "She has not agreed yet."
+          }
+        },
+        {
+          "left": "If it rains, move indoors.",
+          "right": {
+            "zh": "要是下雨，就换室内。",
+            "py": "yào shì xià yǔ , jiù huàn shì nèi .",
+            "en": "If it rains, move indoors."
+          }
+        },
+        {
+          "left": "Everyone receives the same notice.",
+          "right": {
+            "zh": "大家收到同一通知。",
+            "py": "dà jiā shōu dào tóng yī tōng zhī .",
+            "en": "Everyone receives the same notice."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u23-t9",
+      "phrase": "s3-u23-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Ask the host to clarify the time.",
+          "right": {
+            "zh": "向主人问清楚时间。",
+            "py": "xiàng zhǔ rén wèn qīng chǔ shí jiān .",
+            "en": "Ask the host to clarify the time."
+          }
+        },
+        {
+          "left": "As usual, ask the time first.",
+          "right": {
+            "zh": "像平时一样，先问时间。",
+            "py": "xiàng píng shí yī yàng , xiān wèn shí jiān .",
+            "en": "As usual, ask the time first."
+          }
+        },
+        {
+          "left": "The clothes were made wet by rain.",
+          "right": {
+            "zh": "衣服被雨弄湿了。",
+            "py": "yī fú bèi yǔ nòng shī le .",
+            "en": "The clothes were made wet by rain."
+          }
+        },
+        {
+          "left": "Hand this book to her.",
+          "right": {
+            "zh": "把这本书交给她。",
+            "py": "bǎ zhè běn shū jiāo gěi tā .",
+            "en": "Hand this book to her."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Separate appreciation and agreement",
+      "natural": {
+        "zh": "谢谢你的安排，但这个时间我不行。",
+        "py": "xiè xiè nǐ de ān pái , dàn zhè gè shí jiān wǒ bù xíng .",
+        "en": "Thanks for arranging it, but this time does not work for me."
+      },
+      "note": "Appreciation does not require consent."
+    },
+    {
+      "situation": "State what remains",
+      "natural": {
+        "zh": "同意以后还要等批准。",
+        "py": "tóng yì yǐ hòu hái yào děng pī zhǔn .",
+        "en": "Approval is still needed after agreement."
+      },
+      "note": "Keep a pending requirement visible."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u23-speak",
+    "title": "Only if everyone agrees",
+    "place": "A language-exchange meeting",
+    "context": "Set conditions and add connected reasons.",
+    "goal": "State a necessary condition without claiming it guarantees an outcome",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "有人反对，怎么办？",
+        "pinyin": "yǒu rén fǎn duì , zěn me bàn ?",
+        "meaning": "What should we do if someone opposes it?",
+        "intent": "Listen before deciding",
+        "examples": [
+          "先问原因，再讨论。"
+        ],
+        "accept": [
+          "^先问原因，再讨论。[。！？]?$"
+        ]
+      },
+      {
+        "text": "现在可以公布吗？",
+        "pinyin": "xiàn zài kě yǐ gōng bù ma ?",
+        "meaning": "Can we announce now?",
+        "intent": "Name the remaining requirement",
+        "examples": [
+          "还要确认场地。"
+        ],
+        "accept": [
+          "^还要确认场地。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三30, 三70. Native check: conjunction 由于 versus cause-preposition use, connector scope, 认可/同意 distinction, necessary versus sufficient 只有 conditions, and club-rule language. Legal and safety vocabulary are language practice only; no real determination or event safety guarantee is claimed. Native review pending. Planned retrieval 三24 / 三41 / 三27 / 三54: 向主人问清楚时间。, 像平时一样，先问时间。, 衣服被雨弄湿了。, 把这本书交给她。."
+}

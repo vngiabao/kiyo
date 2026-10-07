@@ -1,0 +1,1192 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u24",
+    "stage": 2,
+    "order": 88,
+    "title": "The joke in the chat",
+    "titleZh": "笑一下，也问清楚",
+    "canDo": [
+      "Understand laughter in context without assuming mockery",
+      "Recognize an intonation question without 吗",
+      "Separate lively delivery from speed and pronunciation accuracy"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u23"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u24-w01",
+      "hanzi": "哈哈",
+      "pinyin": "hā hā",
+      "meaning": "ha ha; laughter",
+      "meaningVi": "ha ha; tiếng cười",
+      "pos": "onomatopoeia",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她写哈哈，是笑自己的玩笑。",
+        "py": "tā xiě hā hā , shì xiào zì jǐ de wán xiào .",
+        "en": "She writes “ha ha,” laughing at her own joke."
+      },
+      "usageNote": "[GF2021:L3:3137] Source entry: 哈哈; hāhā; 拟声. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w02",
+      "hanzi": "干吗",
+      "pinyin": "gàn má",
+      "meaning": "why; what for",
+      "meaningVi": "làm gì; tại sao",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你干吗突然安静了？",
+        "py": "nǐ gàn má tū rán ān jìng le ?",
+        "en": "Why did you suddenly go quiet?"
+      },
+      "usageNote": "[GF2021:L3:2608] Source entry: 干吗; gànmá; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w03",
+      "hanzi": "话题",
+      "pinyin": "huà tí",
+      "meaning": "topic",
+      "meaningVi": "chủ đề",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个话题还没说完。",
+        "py": "zhè gè huà tí hái méi shuō wán .",
+        "en": "We have not finished discussing this topic."
+      },
+      "usageNote": "[GF2021:L3:3478] Source entry: 话题; huàtí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w04",
+      "hanzi": "念",
+      "pinyin": "niàn",
+      "meaning": "to read aloud; recite",
+      "meaningVi": "đọc thành tiếng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "请把这句话念出来。",
+        "py": "qǐng bǎ zhè jù huà niàn chū lái .",
+        "en": "Please read this sentence aloud."
+      },
+      "usageNote": "[GF2021:L3:5871] Source entry: 念; niàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w05",
+      "hanzi": "突然",
+      "pinyin": "tū rán",
+      "meaning": "sudden; unexpected",
+      "meaningVi": "đột nhiên",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "声音突然变大了。",
+        "py": "shēng yīn tū rán biàn dà le .",
+        "en": "The voice suddenly became louder."
+      },
+      "usageNote": "[GF2021:L3:8136] Source entry: 突然; tūrán; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w06",
+      "hanzi": "快速",
+      "pinyin": "kuài sù",
+      "meaning": "fast; rapid",
+      "meaningVi": "nhanh",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "快速回答不等于回答正确。",
+        "py": "kuài sù huí dá bù děng yú huí dá zhèng què .",
+        "en": "A fast reply does not necessarily mean a correct reply."
+      },
+      "usageNote": "[GF2021:L3:4837] Source entry: 快速; kuàisù; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w07",
+      "hanzi": "速度",
+      "pinyin": "sù dù",
+      "meaning": "speed",
+      "meaningVi": "tốc độ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "速度慢一点，先说清楚。",
+        "py": "sù dù màn yī diǎn , xiān shuō qīng chǔ .",
+        "en": "Slow down a little and speak clearly first."
+      },
+      "usageNote": "[GF2021:L3:7684] Source entry: 速度; sùdù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w08",
+      "hanzi": "静",
+      "pinyin": "jìng",
+      "meaning": "quiet; still",
+      "meaningVi": "yên tĩnh",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "屋里很静，我听见她笑了。",
+        "py": "wū lǐ hěn jìng , wǒ tīng jiàn tā xiào le .",
+        "en": "The room is quiet; I hear her laugh."
+      },
+      "usageNote": "[GF2021:L3:4408] Source entry: 静; jìng; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w09",
+      "hanzi": "紧张",
+      "pinyin": "jǐn zhāng",
+      "meaning": "nervous; tense",
+      "meaningVi": "căng thẳng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她有点紧张，不是在生气。",
+        "py": "tā yǒu diǎn jǐn zhāng , bù shì zài shēng qì .",
+        "en": "She is a little nervous, not angry."
+      },
+      "usageNote": "[GF2021:L3:4279] Source entry: 紧张; jǐnzhāng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w10",
+      "hanzi": "乐",
+      "pinyin": "lè",
+      "meaning": "to enjoy; be amused",
+      "meaningVi": "vui; thích thú",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "听到这个玩笑，她乐了。",
+        "py": "tīng dào zhè gè wán xiào , tā lè le .",
+        "en": "Hearing the joke amused her."
+      },
+      "usageNote": "[GF2021:L3:4979] Source entry: 乐; lè; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w11",
+      "hanzi": "乐观",
+      "pinyin": "lè guān",
+      "meaning": "optimistic",
+      "meaningVi": "lạc quan",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她很乐观，也承认还有困难。",
+        "py": "tā hěn lè guān , yě chéng rèn hái yǒu kùn nán .",
+        "en": "She is optimistic and also acknowledges remaining difficulties."
+      },
+      "usageNote": "[GF2021:L3:4980] Source entry: 乐观; lèguān; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w12",
+      "hanzi": "欢乐",
+      "pinyin": "huān lè",
+      "meaning": "joyful; joyous",
+      "meaningVi": "vui vẻ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "现场很欢乐，不代表每个人都想大声说。",
+        "py": "xiàn chǎng hěn huān lè , bù dài biǎo měi gè rén dōu xiǎng dà shēng shuō .",
+        "en": "The scene is joyful, but that does not mean everyone wants to speak loudly."
+      },
+      "usageNote": "[GF2021:L3:3496] Source entry: 欢乐; huānlè; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w13",
+      "hanzi": "活",
+      "pinyin": "huó",
+      "meaning": "alive; lively",
+      "meaningVi": "sống; sống động",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她说得很活，不是只把字念完。",
+        "py": "tā shuō dé hěn huó , bù shì zhǐ bǎ zì niàn wán .",
+        "en": "Her delivery is lively, not merely finishing the written words."
+      },
+      "usageNote": "[GF2021:L3:3625] Source entry: 活; huó; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w14",
+      "hanzi": "生动",
+      "pinyin": "shēng dòng",
+      "meaning": "vivid; lively",
+      "meaningVi": "sinh động",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个例子很生动，也要准确。",
+        "py": "zhè gè lì zi hěn shēng dòng , yě yào zhǔn què .",
+        "en": "This example is vivid, and must also be accurate."
+      },
+      "usageNote": "[GF2021:L3:7119] Source entry: 生动; shēngdòng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w15",
+      "hanzi": "动人",
+      "pinyin": "dòng rén",
+      "meaning": "moving; touching",
+      "meaningVi": "cảm động",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "一句简单的感谢也很动人。",
+        "py": "yī jù jiǎn dān de gǎn xiè yě hěn dòng rén .",
+        "en": "Even a simple thank-you can be moving."
+      },
+      "usageNote": "[GF2021:L3:1929] Source entry: 动人; dòngrén; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w16",
+      "hanzi": "表现",
+      "pinyin": "biǎo xiàn",
+      "meaning": "performance; to display",
+      "meaningVi": "thể hiện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这次表现要看具体做了什么。",
+        "py": "zhè cì biǎo xiàn yào kàn jù tǐ zuò le shén me .",
+        "en": "Judge this performance by what was actually done."
+      },
+      "usageNote": "[GF2021:L3:450] Source entry: 表现; biǎoxiàn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w17",
+      "hanzi": "表演",
+      "pinyin": "biǎo yǎn",
+      "meaning": "to perform; performance",
+      "meaningVi": "biểu diễn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "表演时可以夸张，教学时仍要说清。",
+        "py": "biǎo yǎn shí kě yǐ kuā zhāng , jiào xué shí réng yào shuō qīng .",
+        "en": "Performance can be exaggerated; teaching still requires clear speech."
+      },
+      "usageNote": "[GF2021:L3:451] Source entry: 表演; biǎoyǎn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w18",
+      "hanzi": "明显",
+      "pinyin": "míng xiǎn",
+      "meaning": "obvious; clear",
+      "meaningVi": "rõ ràng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她的笑意很明显，但意思还要看上下文。",
+        "py": "tā de xiào yì hěn míng xiǎn , dàn yì si hái yào kàn shàng xià wén .",
+        "en": "Her amusement is obvious, but meaning still depends on context."
+      },
+      "usageNote": "[GF2021:L3:5647] Source entry: 明显; míngxiǎn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w19",
+      "hanzi": "精神",
+      "pinyin": "jīng shen",
+      "meaning": "lively; smart-looking",
+      "meaningVi": "tươi tỉnh; gọn gàng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她今天看着很精神。",
+        "py": "tā jīn tiān kàn zhe hěn jīng shen .",
+        "en": "She looks lively and smart today."
+      },
+      "usageNote": "[GF2021:L3:4365] Source entry: 精神; jīngshen; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w20",
+      "hanzi": "状态",
+      "pinyin": "zhuàng tài",
+      "meaning": "state; condition",
+      "meaningVi": "trạng thái",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天状态不一样，先慢慢来。",
+        "py": "jīn tiān zhuàng tài bù yī yàng , xiān màn màn lái .",
+        "en": "Today’s condition is different; take it slowly first."
+      },
+      "usageNote": "[GF2021:L3:10839] Source entry: 状态; zhuàngtài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w21",
+      "hanzi": "自觉",
+      "pinyin": "zì jué",
+      "meaning": "self-motivated; conscious",
+      "meaningVi": "tự giác",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她很自觉，没听清就再问。",
+        "py": "tā hěn zì jué , méi tīng qīng jiù zài wèn .",
+        "en": "She is conscientious and asks again when she has not heard clearly."
+      },
+      "usageNote": "[GF2021:L3:10910] Source entry: 自觉; zìjué; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u24-w22",
+      "hanzi": "好好",
+      "pinyin": "hǎo hǎo",
+      "meaning": "properly; carefully",
+      "meaningVi": "đàng hoàng; cẩn thận",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先好好听，再学她的玩笑。",
+        "py": "xiān hǎo hǎo tīng , zài xué tā de wán xiào .",
+        "en": "Listen carefully before learning her joke."
+      },
+      "usageNote": "[GF2021:L3:3224] Source entry: 好好; hǎohǎo; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "哈",
+      "pinyin": "hā",
+      "meaning": "laughter syllable",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "哈",
+          "role": "whole",
+          "gloss": "laughter syllable"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 哈 in 哈哈. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "哈哈",
+          "p": "hā hā",
+          "m": "ha-ha; laughter"
+        }
+      ]
+    },
+    {
+      "hanzi": "精",
+      "pinyin": "jīng",
+      "meaning": "fine; spirit",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "精",
+          "role": "whole",
+          "gloss": "fine; spirit"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 精 in 精神 / 精彩. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "精神",
+          "p": "jīng shen",
+          "m": "lively; smart-looking"
+        },
+        {
+          "w": "精彩",
+          "p": "jīng cǎi",
+          "m": "wonderful; excellent"
+        }
+      ]
+    },
+    {
+      "hanzi": "神",
+      "pinyin": "shén",
+      "meaning": "spirit; expression",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "神",
+          "role": "whole",
+          "gloss": "spirit; expression"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 神 in 精神. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "精神",
+          "p": "jīng shen",
+          "m": "lively; smart-looking"
+        }
+      ]
+    },
+    {
+      "hanzi": "速",
+      "pinyin": "sù",
+      "meaning": "speed",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "速",
+          "role": "whole",
+          "gloss": "speed"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 速 in 快速 / 速度. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "快速",
+          "p": "kuài sù",
+          "m": "fast; rapid"
+        },
+        {
+          "w": "速度",
+          "p": "sù dù",
+          "m": "speed"
+        }
+      ]
+    },
+    {
+      "hanzi": "演",
+      "pinyin": "yǎn",
+      "meaning": "to perform",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "演",
+          "role": "whole",
+          "gloss": "to perform"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 演 in 表演 / 演唱. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "表演",
+          "p": "biǎo yǎn",
+          "m": "to perform; performance"
+        },
+        {
+          "w": "演唱",
+          "p": "yǎn chàng",
+          "m": "to sing; perform singing"
+        }
+      ]
+    },
+    {
+      "hanzi": "突",
+      "pinyin": "tū",
+      "meaning": "sudden; protrude",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "突",
+          "role": "whole",
+          "gloss": "sudden; protrude"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 突 in 突然. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "突然",
+          "p": "tū rán",
+          "m": "suddenly"
+        }
+      ]
+    },
+    {
+      "hanzi": "烈",
+      "pinyin": "liè",
+      "meaning": "intense",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "烈",
+          "role": "whole",
+          "gloss": "intense"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 烈 in 强烈 / 热烈. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "强烈",
+          "p": "qiáng liè",
+          "m": "intense; strong"
+        },
+        {
+          "w": "热烈",
+          "p": "rè liè",
+          "m": "enthusiastic; intense"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u24-g三31",
+      "pattern": "哈哈：笑声的文字表示",
+      "purpose": "Interpret laughter through the surrounding turn",
+      "explanation": "哈哈 writes a laugh, not an automatic insult or agreement. It can follow amusement, self-directed humour or relaxed banter. Who or what the joke targets depends on context. If the listener is uncomfortable, clarify rather than insisting that a laugh proves friendliness. Spoken laughter need not literally pronounce two citation syllables; these written examples are read as language practice.",
+      "examples": [
+        {
+          "zh": "哈哈，我又把日期看错了。",
+          "py": "hā hā , wǒ yòu bǎ rì qī kàn cuò le .",
+          "en": "Ha ha, I misread the date again."
+        },
+        {
+          "zh": "你笑什么？我在笑自己的玩笑。",
+          "py": "nǐ xiào shén me ? wǒ zài xiào zì jǐ de wán xiào .",
+          "en": "What are you laughing at? My own joke."
+        },
+        {
+          "zh": "哈哈只是笑声，不能证明大家同意。",
+          "py": "hā hā zhǐ shì xiào shēng , bù néng zhèng míng dà jiā tóng yì .",
+          "en": "“Ha ha” is only laughter; it does not prove everyone agrees."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她写哈哈，所以一定在笑我。",
+          "right": "她写哈哈，我先问她在笑什么。",
+          "why": "Laughter alone does not identify its target."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u24-g三78",
+      "pattern": "用疑问语调提问，不必都有吗",
+      "purpose": "Recognize a confirmation question in context",
+      "explanation": "An utterance with statement word order can be a confirmation question through intonation and context: 你今天也来参加这个活动？ No 吗 is required. Question intonation does not erase Mandarin lexical tones; it is not a rule to replace every final syllable’s tone with a rise. Compare a question seeking confirmation with a statement giving confirmed information. These synthesized examples are practice, not a certified acoustic minimal-pair test.",
+      "examples": [
+        {
+          "zh": "你今天也来参加这个活动？我确认一下。",
+          "py": "nǐ jīn tiān yě lái cān jiā zhè gè huó dòng ? wǒ què rèn yī xià .",
+          "en": "Are you also joining this event today? Let me confirm."
+        },
+        {
+          "zh": "他今天也来，我已经问过了。",
+          "py": "tā jīn tiān yě lái , wǒ yǐ jīng wèn guò le .",
+          "en": "He is joining today too; I have already asked."
+        },
+        {
+          "zh": "你说的时间是周五晚上？我怕记错了。",
+          "py": "nǐ shuō de shí jiān shì zhōu wǔ wǎn shang ? wǒ pà jì cuò le .",
+          "en": "The time you said was Friday evening? I am worried I remembered incorrectly."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "没有吗，所以不能是问题。",
+          "right": "没有吗，也可以用疑问语调确认。",
+          "why": "Question particles are not the only way to ask a question."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u24-d",
+    "title": "The laugh was about the date",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the target of the joke and the actual question.",
+    "lines": [
+      {
+        "zh": "哈哈，我又把日期看错了。",
+        "py": "hā hā , wǒ yòu bǎ rì qī kàn cuò le .",
+        "en": "Ha ha, I misread the date again.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你在笑我？我有点紧张。",
+        "py": "nǐ zài xiào wǒ ? wǒ yǒu diǎn jǐn zhāng .",
+        "en": "Are you laughing at me? I am a little nervous.",
+        "speaker": "b"
+      },
+      {
+        "zh": "没有，我在笑自己。你干吗突然不说话了？",
+        "py": "méi yǒu , wǒ zài xiào zì jǐ . nǐ gàn má tū rán bù shuō huà le ?",
+        "en": "No, I am laughing at myself. Why did you suddenly stop talking?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我以为你在表演那个话题，声音变大了。",
+        "py": "wǒ yǐ wéi nǐ zài biǎo yǎn nà gè huà tí , shēng yīn biàn dà le .",
+        "en": "I thought you were performing that topic; your voice got louder.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我乐了才大声一点，先好好说清楚。",
+        "py": "wǒ lè le cái dà shēng yī diǎn , xiān hǎo hǎo shuō qīng chǔ .",
+        "en": "I spoke a little louder because I was amused; let me clarify properly.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你今天也来参加这个活动？我确认一下。",
+        "py": "nǐ jīn tiān yě lái cān jiā zhè gè huó dòng ? wǒ què rèn yī xià .",
+        "en": "Are you also joining this event today? Let me confirm.",
+        "speaker": "b"
+      },
+      {
+        "zh": "来。你把通知慢一点念，速度太快我没听清。",
+        "py": "lái . nǐ bǎ tōng zhī màn yī diǎn niàn , sù dù tài kuài wǒ méi tīng qīng .",
+        "en": "Yes. Read the notice more slowly; I could not hear clearly at that speed.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，状态不同就调整，不把快速当表现好。",
+        "py": "hǎo , zhuàng tài bù tóng jiù tiáo zhěng , bù bǎ kuài sù dāng biǎo xiàn hǎo .",
+        "en": "Okay; adjust for different conditions, without equating speed with good performance.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What misunderstanding is resolved?",
+        "choices": [
+          "The laugh concerned the speaker’s own date mistake",
+          "The listener was definitely being mocked",
+          "All loud voices express anger"
+        ],
+        "answer": "The laugh concerned the speaker’s own date mistake"
+      },
+      {
+        "type": "detail",
+        "q": "What does the listener request?",
+        "choices": [
+          "A slower reading of the notice",
+          "A new joke targeting her",
+          "Cancellation of the event"
+        ],
+        "answer": "A slower reading of the notice"
+      },
+      {
+        "type": "inference",
+        "q": "Does the absence of 吗 rule out a question?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only when the room is quiet"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "突然",
+        "pinyin": "tū rán",
+        "meaning": "suddenly"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u24-r",
+    "title": "Lively, not careless",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read what changes with delivery and what must stay clear.",
+    "lines": [
+      {
+        "zh": "屋里很静，朋友突然写了哈哈，笑的是自己看错日期。",
+        "py": "wū lǐ hěn jìng , péng you tū rán xiě le hā hā , xiào de shì zì jǐ kàn cuò rì qī .",
+        "en": "The room is quiet; the friend suddenly writes “ha ha,” laughing at her own date mistake."
+      },
+      {
+        "zh": "听者紧张，不一定是生气，先问干吗停下来，别猜心情。",
+        "py": "tīng zhě jǐn zhāng , bù yí dìng shì shēng qì , xiān wèn gàn má tíng xià lái , bié cāi xīn qíng .",
+        "en": "The listener’s nervousness is not necessarily anger; ask why she paused rather than guessing her mood."
+      },
+      {
+        "zh": "笑意明显，现场欢乐，气氛热烈，但这个话题仍要好好说明。",
+        "py": "xiào yì míng xiǎn , xiàn chǎng huān lè , qì fēn rè liè , dàn zhè gè huà tí réng yào hǎo hǎo shuō míng .",
+        "en": "The amusement is obvious and the atmosphere joyful and enthusiastic, but this topic still needs careful explanation."
+      },
+      {
+        "zh": "说得活、例子生动，会让普通感谢也动人；表演不是模糊发音的理由。",
+        "py": "shuō dé huó , lì zi shēng dòng , huì ràng pǔ tōng gǎn xiè yě dòng rén ; biǎo yǎn bù shì mó hú fā yīn de lǐ yóu .",
+        "en": "Lively delivery and vivid examples can make ordinary thanks moving; performance is no excuse for unclear pronunciation."
+      },
+      {
+        "zh": "她听了玩笑就乐了，看着很精神，也自觉把速度放慢。",
+        "py": "tā tīng le wán xiào jiù lè le , kàn zhe hěn jīng shen , yě zì jué bǎ sù dù fàng màn .",
+        "en": "The joke amused her; she looks lively and conscientiously slows down."
+      },
+      {
+        "zh": "乐观不等于没有困难，快速不等于准确，表现要看实际完成的事。",
+        "py": "lè guān bù děng yú méi yǒu kùn nán , kuài sù bù děng yú zhǔn què , biǎo xiàn yào kàn shí jì wán chéng de shì .",
+        "en": "Optimism does not mean absence of difficulty, speed does not mean accuracy, and performance depends on actual accomplishments."
+      },
+      {
+        "zh": "她把问题念出来：你说的时间是周五晚上？然后等对方确认。",
+        "py": "tā bǎ wèn tí niàn chū lái : nǐ shuō de shí jiān shì zhōu wǔ wǎn shang ? rán hòu děng duì fāng què rèn .",
+        "en": "She reads the question aloud: the time you said was Friday evening? Then she waits for confirmation."
+      },
+      {
+        "zh": "状态不合适就休息，声音大小不能代替意思和声调。",
+        "py": "zhuàng tài bù hé shì jiù xiū xī , shēng yīn dà xiǎo bù néng dài tì yì si hé shēng diào .",
+        "en": "Rest if the condition is unsuitable; volume cannot replace meaning and lexical tones."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What balance does the note advocate?",
+        "choices": [
+          "Expressiveness with clear meaning and pronunciation",
+          "Speed regardless of accuracy",
+          "Interpreting every laugh as agreement"
+        ],
+        "answer": "Expressiveness with clear meaning and pronunciation"
+      },
+      {
+        "type": "detail",
+        "q": "What made the speaker laugh?",
+        "choices": [
+          "Her own date mistake",
+          "The listener’s failure",
+          "A confirmed cancellation"
+        ],
+        "answer": "Her own date mistake"
+      },
+      {
+        "type": "inference",
+        "q": "Does sounding optimistic prove no difficulties remain?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with loud delivery"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "笑意【明显】，现场欢乐，气氛热烈，但这个话题仍要好好说明。",
+          "py": "xiào yì míng xiǎn , xiàn chǎng huān lè , qì fēn rè liè , dàn zhè gè huà tí réng yào hǎo hǎo shuō míng .",
+          "en": "The amusement is obvious and the atmosphere joyful and enthusiastic, but this topic still needs careful explanation."
+        },
+        {
+          "zh": "乐观不等于没有困难，【快速】不等于准确，表现要看实际完成的事。",
+          "py": "lè guān bù děng yú méi yǒu kùn nán , kuài sù bù děng yú zhǔn què , biǎo xiàn yào kàn shí jì wán chéng de shì .",
+          "en": "Optimism does not mean absence of difficulty, speed does not mean accuracy, and performance depends on actual accomplishments."
+        }
+      ],
+      "bank": [
+        "明显",
+        "快速",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "声调",
+        "pinyin": "shēng diào",
+        "meaning": "lexical tone"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "气氛",
+        "pinyin": "qì fēn",
+        "meaning": "atmosphere"
+      },
+      {
+        "hanzi": "热烈",
+        "pinyin": "rè liè",
+        "meaning": "enthusiastic; intense"
+      },
+      {
+        "hanzi": "心情",
+        "pinyin": "xīn qíng",
+        "meaning": "mood"
+      },
+      {
+        "hanzi": "突然",
+        "pinyin": "tū rán",
+        "meaning": "suddenly"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u24-media",
+      "title": "Read the date, not my mind",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original playful verse.",
+      "lines": [
+        {
+          "zh": "哈哈，笑的是我。",
+          "py": "hā hā , xiào de shì wǒ .",
+          "en": "Ha ha, I am laughing at myself."
+        },
+        {
+          "zh": "你今天也来？先等你说。",
+          "py": "nǐ jīn tiān yě lái ? xiān děng nǐ shuō .",
+          "en": "Are you coming today too? I will wait for your answer."
+        },
+        {
+          "zh": "声音有起落，字要念清楚。",
+          "py": "shēng yīn yǒu qǐ luò , zì yào niàn qīng chǔ .",
+          "en": "The voice rises and falls; pronounce the words clearly."
+        },
+        {
+          "zh": "日期没记准，再问也不错。",
+          "py": "rì qī méi jì zhǔn , zài wèn yě bù cuò .",
+          "en": "If the date was not remembered accurately, asking again is fine."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is encouraged?",
+          "choices": [
+            "Clarifying after a mistake",
+            "Guessing another person’s thoughts",
+            "Replacing lexical tones with volume"
+          ],
+          "answer": "Clarifying after a mistake"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "起落",
+          "pinyin": "qǐ luò",
+          "meaning": "rise and fall"
+        }
+      ]
+    },
+    {
+      "id": "s3-u24-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "屋里很静，我听见她笑了。",
+          "py": "wū lǐ hěn jìng , wǒ tīng jiàn tā xiào le .",
+          "en": "The room is quiet; I hear her laugh."
+        },
+        {
+          "zh": "现场很欢乐，不代表每个人都想大声说。",
+          "py": "xiàn chǎng hěn huān lè , bù dài biǎo měi gè rén dōu xiǎng dà shēng shuō .",
+          "en": "The scene is joyful, but that does not mean everyone wants to speak loudly."
+        },
+        {
+          "zh": "这个例子很生动，也要准确。",
+          "py": "zhè gè lì zi hěn shēng dòng , yě yào zhǔn què .",
+          "en": "This example is vivid, and must also be accurate."
+        },
+        {
+          "zh": "一句简单的感谢也很动人。",
+          "py": "yī jù jiǎn dān de gǎn xiè yě hěn dòng rén .",
+          "en": "Even a simple thank-you can be moving."
+        },
+        {
+          "zh": "她的笑意很明显，但意思还要看上下文。",
+          "py": "tā de xiào yì hěn míng xiǎn , dàn yì si hái yào kàn shàng xià wén .",
+          "en": "Her amusement is obvious, but meaning still depends on context."
+        }
+      ],
+      "questions": [],
+      "glosses": []
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u24-t1",
+      "phrase": "s3-u24-w01",
+      "audio": {
+        "zh": "哈哈，我在笑自己看错日期。",
+        "py": "hā hā , wǒ zài xiào zì jǐ kàn cuò rì qī .",
+        "en": "Ha ha, I laugh at my own date mistake."
+      },
+      "statement": "The stated target is the speaker’s own mistake.",
+      "answer": true,
+      "why": "The target is explicit."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u24-t2",
+      "phrase": "s3-u24-w06",
+      "audio": {
+        "zh": "她说得快速，但还没念清楚。",
+        "py": "tā shuō dé kuài sù , dàn hái méi niàn qīng chǔ .",
+        "en": "She speaks quickly but has not pronounced it clearly."
+      },
+      "statement": "Speed proves clear pronunciation.",
+      "answer": false,
+      "why": "Speed and clarity are distinct."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u24-t3",
+      "phrase": "s3-u24-w09",
+      "prompt": {
+        "zh": "你在笑我吗？",
+        "py": "nǐ zài xiào wǒ ma ?",
+        "en": "Are you laughing at me?"
+      },
+      "choices": [
+        "没有，我在笑自己看错日期。",
+        "哈哈就是所有人都同意。",
+        "你紧张就是生气。"
+      ],
+      "answer": "没有，我在笑自己看错日期。",
+      "why": "Clarify the target rather than assume."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u24-t4",
+      "phrase": "s3-u24-w04",
+      "prompt": {
+        "zh": "没听清通知，怎么办？",
+        "py": "méi tīng qīng tōng zhī , zěn me bàn ?",
+        "en": "The notice was unclear; what should we do?"
+      },
+      "choices": [
+        "慢一点再念。",
+        "只加大声音，不管字。",
+        "把日期猜出来。"
+      ],
+      "answer": "慢一点再念。",
+      "why": "Repeat more slowly and clearly."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u24-t5",
+      "phrase": "s3-u24-w07",
+      "line": {
+        "zh": "【速度】慢一点，先说清楚。",
+        "py": "sù dù màn yī diǎn , xiān shuō qīng chǔ .",
+        "en": "Slow down and speak clearly first."
+      },
+      "blankPy": "sù dù"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u24-t6",
+      "phrase": "s3-u24-w20",
+      "line": {
+        "zh": "今天【状态】不同，先调整。",
+        "py": "jīn tiān zhuàng tài bù tóng , xiān tiáo zhěng .",
+        "en": "Today’s condition differs; adjust first."
+      },
+      "blankPy": "zhuàng tài"
+    },
+    {
+      "type": "match",
+      "id": "s3-u24-t7",
+      "phrase": "s3-u24-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The topic has not been finished.",
+          "right": {
+            "zh": "话题还没说完。",
+            "py": "huà tí hái méi shuō wán .",
+            "en": "The topic has not been finished."
+          }
+        },
+        {
+          "left": "She looks lively and smart.",
+          "right": {
+            "zh": "她看着很精神。",
+            "py": "tā kàn zhe hěn jīng shen .",
+            "en": "She looks lively and smart."
+          }
+        },
+        {
+          "left": "She conscientiously asks again.",
+          "right": {
+            "zh": "她自觉再问一次。",
+            "py": "tā zì jué zài wèn yī cì .",
+            "en": "She conscientiously asks again."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u24-t8",
+      "phrase": "s3-u24-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Performance depends on what was actually done.",
+          "right": {
+            "zh": "表现要看实际做了什么。",
+            "py": "biǎo xiàn yào kàn shí jì zuò le shén me .",
+            "en": "Performance depends on what was actually done."
+          }
+        },
+        {
+          "left": "One can be optimistic and acknowledge difficulties.",
+          "right": {
+            "zh": "乐观也可以承认困难。",
+            "py": "lè guān yě kě yǐ chéng rèn kùn nán .",
+            "en": "One can be optimistic and acknowledge difficulties."
+          }
+        },
+        {
+          "left": "Laughter does not prove agreement.",
+          "right": {
+            "zh": "笑声不证明同意。",
+            "py": "xiào shēng bù zhèng míng tóng yì .",
+            "en": "Laughter does not prove agreement."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u24-t9",
+      "phrase": "s3-u24-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Because I did not check, I sent an old notice.",
+          "right": {
+            "zh": "因为没核对，我发了旧通知。",
+            "py": "yīn wèi méi hé duì , wǒ fā le jiù tōng zhī .",
+            "en": "Because I did not check, I sent an old notice."
+          }
+        },
+        {
+          "left": "Because the notice is wrong, stop circulating the old notice first.",
+          "right": {
+            "zh": "由于通知有错，所以先停止传播旧通知。",
+            "py": "yóu yú tōng zhī yǒu cuò , suǒ yǐ xiān tíng zhǐ chuán bō jiù tōng zhī .",
+            "en": "Because the notice is wrong, stop circulating the old notice first."
+          }
+        },
+        {
+          "left": "Besides watching programmes, I also listen to the radio.",
+          "right": {
+            "zh": "除了看节目，我还听广播。",
+            "py": "chú le kàn jié mù , wǒ hái tīng guǎng bō .",
+            "en": "Besides watching programmes, I also listen to the radio."
+          }
+        },
+        {
+          "left": "Any of the other days works, except Friday.",
+          "right": {
+            "zh": "除了周五，其他几天都可以。",
+            "py": "chú le zhōu wǔ , qí tā jǐ tiān dōu kě yǐ .",
+            "en": "Any of the other days works, except Friday."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Clarify gently",
+      "natural": {
+        "zh": "我笑的是自己，不是你。",
+        "py": "wǒ xiào de shì zì jǐ , bù shì nǐ .",
+        "en": "I am laughing at myself, not at you."
+      },
+      "note": "Humour should not override the other person’s interpretation."
+    },
+    {
+      "situation": "Ask without guessing",
+      "natural": {
+        "zh": "你今天也来参加活动？",
+        "py": "nǐ jīn tiān yě lái cān jiā huó dòng ?",
+        "en": "Are you joining the event today too?"
+      },
+      "note": "Wait for confirmation."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u24-speak",
+    "title": "The joke in the chat",
+    "place": "A language-exchange meeting",
+    "context": "Hear a question tone and understand a laugh in context.",
+    "goal": "Understand laughter in context without assuming mockery",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你在笑什么？",
+        "pinyin": "nǐ zài xiào shén me ?",
+        "meaning": "What are you laughing at?",
+        "intent": "Name the actual target",
+        "examples": [
+          "我在笑自己看错日期。"
+        ],
+        "accept": [
+          "^我在笑自己看错日期。[。！？]?$"
+        ]
+      },
+      {
+        "text": "速度太快，怎么办？",
+        "pinyin": "sù dù tài kuài , zěn me bàn ?",
+        "meaning": "What if the speed is too fast?",
+        "intent": "Ask for a clear repeat",
+        "examples": [
+          "慢一点，再念一遍。"
+        ],
+        "accept": [
+          "^慢一点，再念一遍。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三31, 三78. Native check: 精神 adjective jīngshen versus noun jīngshén, 活 for lively delivery, 乐 verb register, 干吗 casual tone, 哈哈 target and written-versus-spontaneous laughter, original verse rhythm, and question intonation preserving lexical tones. Synthesized intonation has not been certified by a native listener. Native review pending. Planned retrieval 三25 / 三71 / 三28 / 三38: 因为没核对，我发了旧通知。, 由于通知有错，所以先停止传播旧通知。, 除了看节目，我还听广播。, 除了周五，其他几天都可以。."
+}
