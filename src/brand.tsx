@@ -1,5 +1,5 @@
 import glyph from "hanzi-writer-data/清.json";
-import { toneBarPath, wordmarkPaths } from "./brand-paths";
+import assets from "./brand-assets.json";
 
 /**
  * One place for the product's name. Change these and the logo, wordmark,
@@ -18,13 +18,13 @@ export const brand = {
 };
 
 /** The owner's selected website signature; preserves the original approved art. */
-export function BrandSignature() {
+export function BrandSignature({ className = "" }: { className?: string }) {
   return (
     <img
-      className="brand-signature"
-      src="/brand/signature.png"
-      width={1774}
-      height={887}
+      className={`brand-signature ${className}`}
+      src={assets.signature.src}
+      width={assets.signature.width}
+      height={assets.signature.height}
       alt="Kiyo — Sayo leaning over the wordmark"
       decoding="async"
     />
@@ -32,8 +32,8 @@ export function BrandSignature() {
 }
 
 /**
- * The main tile uses approved Sayo art. The compact 清 mark remains available
- * for tiny favicons, where the portrait's face cannot be read.
+ * The tile uses approved Sayo art. The legacy 清 glyph remains available
+ * to callers that explicitly request it; installed icons use the waving portrait.
  */
 export function BrandMark({
   size = 40,
@@ -50,7 +50,7 @@ export function BrandMark({
         role="img"
         aria-label={`${brand.name} logo`}
       >
-        <img src="/mascot/web/welcome.webp" alt="" aria-hidden />
+        <img src={assets.icon512.src} alt="" aria-hidden />
       </span>
     );
   return (
@@ -73,23 +73,6 @@ export function BrandMark({
           ))}
         </g>
       </g>
-    </svg>
-  );
-}
-
-/** Wordmark: KIYO, with a blue bar over the I echoing the tone mark in qīng. */
-export function Wordmark({ className = "" }: { className?: string }) {
-  return (
-    <svg
-      className={`wordmark wordmark-vector ${className}`}
-      viewBox="0 0 259 94"
-      role="img"
-      aria-label={brand.name}
-    >
-      <path d={toneBarPath} fill="var(--accent)" />
-      {wordmarkPaths.map((d, i) => (
-        <path key={i} d={d} fill="currentColor" fillRule="evenodd" />
-      ))}
     </svg>
   );
 }

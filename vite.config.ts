@@ -2,16 +2,19 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 import audioAssets from "./src/audio-assets.json";
+import brandAssets from "./src/brand-assets.json";
 // An explicit offline download must fit the installed catalog, including future levels.
-const audioCacheCapacity = Math.max(6000, new Set(
-  Object.values(audioAssets).flatMap((voices) => Object.values(voices)),
-).size);
+const audioCacheCapacity = Math.max(
+  6000,
+  new Set(Object.values(audioAssets).flatMap((voices) => Object.values(voices)))
+    .size,
+);
 export default defineConfig({
   plugins: [
     react(),
     VitePWA({
       registerType: "prompt",
-      includeAssets: ["icon.svg"],
+      includeAssets: [brandAssets.icon32.src.slice(1)],
       manifest: {
         name: "Kiyo 清 · Mandarin, crystal clear",
         short_name: "Kiyo",
@@ -21,21 +24,15 @@ export default defineConfig({
         display: "standalone",
         icons: [
           {
-            src: "/brand/app-icon-192.png",
+            src: brandAssets.icon192.src,
             sizes: "192x192",
             type: "image/png",
             purpose: "any",
           },
           {
-            src: "/brand/app-icon-512.png",
+            src: brandAssets.icon512.src,
             sizes: "512x512",
             type: "image/png",
-            purpose: "any",
-          },
-          {
-            src: "/brand/app-icon.svg",
-            sizes: "any",
-            type: "image/svg+xml",
             purpose: "any",
           },
         ],
@@ -144,8 +141,8 @@ export default defineConfig({
       output: {
         codeSplitting: {
           groups: [
-            { name: 'course-data', test: /generated[\\/]packs\.json$/ },
-            { name: 'audio-catalog', test: /src[\\/]audio-assets\.json$/ },
+            { name: "course-data", test: /generated[\\/]packs\.json$/ },
+            { name: "audio-catalog", test: /src[\\/]audio-assets\.json$/ },
           ],
         },
       },

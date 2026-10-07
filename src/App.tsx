@@ -58,7 +58,7 @@ import Welcome from "./Welcome";
 import { authConfigured, oauthConfigured, signInWith, signOut } from "./auth";
 import { acceptAccount, detachSync, startSync, syncNow } from "./sync";
 import { SyncConsent, SyncPanel, useSyncStatus } from "./SyncPanel";
-import { BrandMark, Wordmark, brand } from "./brand";
+import { BrandSignature, brand } from "./brand";
 import { Mascot, MascotGallery, MoSays, moLines } from "./Mascot";
 import { levelOf, streakOf } from "./progression";
 const Conversation = lazy(() => import("./Conversation"));
@@ -184,7 +184,7 @@ export default function App() {
     return (
       <div className="loading-state">
         <Mascot state="think" size={100} />
-        <BrandMark size={44} />
+        <BrandSignature className="brand-loading" />
       </div>
     );
   if (!profile.onboarded && !profile.entry)
@@ -249,8 +249,7 @@ export default function App() {
           onClick={() => navigate("today")}
           aria-label={`${brand.name}, today`}
         >
-          <BrandMark size={34} />
-          <Wordmark className="brand-word" />
+          <BrandSignature />
         </button>
         <nav aria-label="Main navigation" className="main-nav">
           {nav.map((n) => (
@@ -499,7 +498,7 @@ function Onboarding({
   return (
     <main className="onboarding">
       <header className="onboarding-top">
-        <BrandMark size={44} />
+        <BrandSignature className="brand-onboarding" />
         <ol className="steps" aria-label={`Step ${stage + 1} of 3`}>
           {[0, 1, 2].map((i) => (
             <li key={i} className={i <= stage ? "on" : ""} />
