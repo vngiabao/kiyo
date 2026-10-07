@@ -18131,8 +18131,7 @@
       "cool"
     ],
     "kinds": [
-      "word",
-      "reader-lookup"
+      "word"
     ]
   },
   {
@@ -19070,8 +19069,7 @@
       "cool"
     ],
     "kinds": [
-      "word",
-      "reader-lookup"
+      "word"
     ]
   },
   {
@@ -31285,6 +31283,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -31314,6 +31313,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -31343,6 +31343,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -31430,6 +31431,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -31461,6 +31463,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -31670,6 +31673,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -31701,6 +31705,7 @@
     ],
     "kinds": [
       "word",
+      "character",
       "reader-lookup"
     ]
   },
@@ -35229,8 +35234,7 @@
       "cool"
     ],
     "kinds": [
-      "word",
-      "reader-lookup"
+      "word"
     ]
   },
   {
@@ -36443,7 +36447,8 @@
       "word",
       "grammar",
       "conversation",
-      "task-reply-prompt"
+      "task-reply-prompt",
+      "task-match"
     ]
   },
   {
@@ -37859,7 +37864,8 @@
     ],
     "kinds": [
       "word",
-      "grammar"
+      "grammar",
+      "task-match"
     ]
   },
   {
@@ -38565,6 +38571,1339 @@
     "text": "姐姐是商人，我是学生。",
     "pinyin": "jiě jie shì shāng rén , wǒ shì xué sheng .",
     "meaning": "My elder sister is a businessperson; I am a student.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "usage",
+      "task-match"
+    ]
+  },
+  {
+    "id": "c55cceb16b4958d6",
+    "text": "查",
+    "pinyin": "chá",
+    "meaning": "to check; look up",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "6c728eab886bcbbf",
+    "text": "先查做法，再动手。",
+    "pinyin": "xiān chá zuò fa , zài dòng shǒu .",
+    "meaning": "Check the method before starting.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "2de164d9671b38af",
+    "text": "称",
+    "pinyin": "chēng",
+    "meaning": "to weigh",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "75d4ebe5608342dd",
+    "text": "称一百克面粉。",
+    "pinyin": "chēng yī bǎi kè miàn fěn .",
+    "meaning": "Weigh one hundred grams of flour.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "f788f78fe4c1cdba",
+    "text": "请往杯里倒水。",
+    "pinyin": "qǐng wǎng bēi lǐ dào shuǐ .",
+    "meaning": "Please pour water into the cup.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "00a9d5bd97c269b4",
+    "text": "道",
+    "pinyin": "dào",
+    "meaning": "classifier for dishes and questions",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "82b3f4f6d0b3ac62",
+    "text": "这一道菜先做好。",
+    "pinyin": "zhè yī dào cài xiān zuò hǎo .",
+    "meaning": "Finish preparing this dish first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "4bc69a0562ff8ea4",
+    "text": "等于",
+    "pinyin": "děng yú",
+    "meaning": "to equal",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "4475f5b275dd59ce",
+    "text": "两片加三片等于五片。",
+    "pinyin": "liǎng piàn jiā sān piàn děng yú wǔ piàn .",
+    "meaning": "Two slices plus three slices equals five slices.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "61b99196d57c26a4",
+    "text": "干杯",
+    "pinyin": "gān bēi",
+    "meaning": "cheers; to toast",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "12d8ed33bc62a0d8",
+    "text": "有人说干杯，我用水也可以。",
+    "pinyin": "yǒu rén shuō gān bēi , wǒ yòng shuǐ yě kě yǐ .",
+    "meaning": "Someone says cheers; I can use water too.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "d52f0bd07c3fdfd5",
+    "text": "过来",
+    "pinyin": "guò lái",
+    "meaning": "to come over",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "4dda3614455a1675",
+    "text": "请过来看看做法。",
+    "pinyin": "qǐng guò lái kàn kàn zuò fa .",
+    "meaning": "Please come over and look at the method.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "8b7c6d87472d8688",
+    "text": "酒",
+    "pinyin": "jiǔ",
+    "meaning": "alcohol; alcoholic drink",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "ae3fcf7ffc1268fb",
+    "text": "她不喝酒，杯里是水。",
+    "pinyin": "tā bù hē jiǔ , bēi lǐ shì shuǐ .",
+    "meaning": "She does not drink alcohol; there is water in her cup.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "747bf31c6621e929",
+    "text": "克",
+    "pinyin": "kè",
+    "meaning": "gram",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "8af1f84e287d2370",
+    "text": "先称一百克。",
+    "pinyin": "xiān chēng yī bǎi kè .",
+    "meaning": "Weigh one hundred grams first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "3ccf035260d523fb",
+    "text": "刻",
+    "pinyin": "kè",
+    "meaning": "quarter of an hour",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "4101a281d5d2ae4c",
+    "text": "等一刻再看，不是等一小时。",
+    "pinyin": "děng yī kè zài kàn , bù shì děng yī xiǎo shí .",
+    "meaning": "Check again after a quarter of an hour, not an hour.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "1d42518ea06d8c92",
+    "text": "这里的面是面粉，不是桌子的面。",
+    "pinyin": "zhè lǐ de miàn shì miàn fěn , bù shì zhuō zi de miàn .",
+    "meaning": "Here 面 means flour, not the surface of a table.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "0b8ae7c40592661b",
+    "text": "弄",
+    "pinyin": "nòng",
+    "meaning": "to do; handle",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "62d7227d4422e819",
+    "text": "我弄这个，你先把桌子擦好。",
+    "pinyin": "wǒ nòng zhè gè , nǐ xiān bǎ zhuō zi cā hǎo .",
+    "meaning": "I will handle this; finish wiping the table first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "43991cbbf5ea0e83",
+    "text": "片",
+    "pinyin": "piàn",
+    "meaning": "classifier for slices and pieces",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "8b681f31d58ec0d2",
+    "text": "先放两片，再看够不够。",
+    "pinyin": "xiān fàng liǎng piàn , zài kàn gòu bù gòu .",
+    "meaning": "Put in two slices first, then see whether that is enough.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "2527ecf9122b145b",
+    "text": "平",
+    "pinyin": "píng",
+    "meaning": "flat; level",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "dcd0a2a15b7c8f7f",
+    "text": "桌子不平，杯子先放别处。",
+    "pinyin": "zhuō zi bù píng , bēi zi xiān fàng bié chù .",
+    "meaning": "The table is uneven; put the cup elsewhere first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "fe6b35284ad4e7ea",
+    "text": "千克",
+    "pinyin": "qiān kè",
+    "meaning": "kilogram",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "f42cf041c2d4ebf3",
+    "text": "今天买一千克面粉，只用一百克。",
+    "pinyin": "jīn tiān mǎi yī qiān kè miàn fěn , zhǐ yòng yī bǎi kè .",
+    "meaning": "Buy a kilogram of flour today and use only one hundred grams.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "69ea969866d15c55",
+    "text": "熟",
+    "pinyin": "shú",
+    "meaning": "cooked; ripe; familiar",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "01dd5dc88f761332",
+    "text": "饭熟了，再端出来。",
+    "pinyin": "fàn shú le , zài duān chū lái .",
+    "meaning": "When the rice is cooked, bring it out.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "28e0bba69ee9141a",
+    "text": "完",
+    "pinyin": "wán",
+    "meaning": "to finish",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "ddf202614ede18e1",
+    "text": "看完做法，再问问题。",
+    "pinyin": "kàn wán zuò fa , zài wèn wèn tí .",
+    "meaning": "Finish reading the method before asking questions.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "0f8a4559eec77005",
+    "text": "做到",
+    "pinyin": "zuò dào",
+    "meaning": "to achieve; manage to do",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "60c184659961a9fd",
+    "text": "答应早到，也要做到。",
+    "pinyin": "dā yìng zǎo dào , yě yào zuò dào .",
+    "meaning": "If you promise to arrive early, fulfil it.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "70d5b65ceb8df3e5",
+    "text": "做法",
+    "pinyin": "zuò fa",
+    "meaning": "method; way of doing",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "d9eb3a07bd20bd30",
+    "text": "做法写在纸上，先读清楚。",
+    "pinyin": "zuò fa xiě zài zhǐ shàng , xiān dú qīng chǔ .",
+    "meaning": "The method is written on paper; read it carefully first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "39712e9368a8e037",
+    "text": "做饭",
+    "pinyin": "zuò fàn",
+    "meaning": "to cook; prepare a meal",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "fe973e7a7fb54ee9",
+    "text": "我们一起做饭，先分好工作。",
+    "pinyin": "wǒ men yì qǐ zuò fàn , xiān fēn hǎo gōng zuò .",
+    "meaning": "We will cook together; divide the tasks first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "ae5b916354418a5d",
+    "text": "吹",
+    "pinyin": "chuī",
+    "meaning": "to blow",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "987e31afe2d8453f",
+    "text": "她吹了吹热汤，还是先等一下。",
+    "pinyin": "tā chuī le chuī rè tāng , hái shi xiān děng yī xià .",
+    "meaning": "She blew on the hot soup but still waited a little first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "2939d1761c301c55",
+    "text": "饭做好了，先等一下再端。",
+    "pinyin": "fàn zuò hǎo le , xiān děng yī xià zài duān .",
+    "meaning": "The meal is prepared; wait a little before serving.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "51758363e89ce2f2",
+    "text": "我在门外，请端出来。",
+    "pinyin": "wǒ zài mén wài , qǐng duān chū lái .",
+    "meaning": "I am outside the door; please bring it out here.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar",
+      "usage"
+    ]
+  },
+  {
+    "id": "9c942786155a74ef",
+    "text": "我去商店买面。",
+    "pinyin": "wǒ qù shāng diàn mǎi miàn .",
+    "meaning": "I go to the shop to buy flour.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "3588ac6538396a4c",
+    "text": "你看完了，也看懂了吗？",
+    "pinyin": "nǐ kàn wán le , yě kàn dǒng le ma ?",
+    "meaning": "You finished reading; did you understand too?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "usage"
+    ]
+  },
+  {
+    "id": "105f559adeb99017",
+    "text": "出现",
+    "pinyin": "chū xiàn",
+    "meaning": "to appear; arise",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "10f1f1c91e7dbb34",
+    "text": "问题出现了，先别急。",
+    "pinyin": "wèn tí chū xiàn le , xiān bié jí .",
+    "meaning": "A problem arose; do not panic first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "86bc39361d05eb18",
+    "text": "大大",
+    "pinyin": "dà dà",
+    "meaning": "greatly",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "c13f4b333b99847e",
+    "text": "分好工作，大大减少了重复。",
+    "pinyin": "fēn hǎo gōng zuò , dà dà jiǎn shǎo le chóng fù .",
+    "meaning": "Dividing the work greatly reduced repetition.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "f5c239df755a813e",
+    "text": "大量",
+    "pinyin": "dà liàng",
+    "meaning": "a large amount; numerous",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "d2a67b60605b09da",
+    "text": "有大量消息，也要一条一条看。",
+    "pinyin": "yǒu dà liàng xiāo xī , yě yào yī tiáo yī tiáo kàn .",
+    "meaning": "There is a lot of information; still check it line by line.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "577c189ba2c3960e",
+    "text": "大门",
+    "pinyin": "dà mén",
+    "meaning": "main entrance; large gate",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "d48b8516310cada3",
+    "text": "我们在大门外等，不挡入口。",
+    "pinyin": "wǒ men zài dà mén wài děng , bù dǎng rù kǒu .",
+    "meaning": "We wait outside the main entrance without blocking it.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "cbfb27fdfea155ab",
+    "text": "掉",
+    "pinyin": "diào",
+    "meaning": "to drop; fall off",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "3b0706ddc9772a70",
+    "text": "纸掉了，先捡起来。",
+    "pinyin": "zhǐ diào le , xiān jiǎn qǐ lái .",
+    "meaning": "The paper fell; pick it up first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "0052237ba6502de7",
+    "text": "干活儿",
+    "pinyin": "gàn huór",
+    "meaning": "to work; do a job",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "a5a06311930be906",
+    "text": "一起干活儿，先分好任务。",
+    "pinyin": "yì qǐ gàn huór , xiān fēn hǎo rèn wù .",
+    "meaning": "When working together, divide the tasks first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "dae0e2c15fec3ec7",
+    "text": "个子",
+    "pinyin": "gè zi",
+    "meaning": "height; build",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "4a1886411c13297f",
+    "text": "个子高，不等于知道所有答案。",
+    "pinyin": "gè zi gāo , bù děng yú zhī dào suǒ yǒu dá àn .",
+    "meaning": "Being tall does not mean knowing every answer.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "d2c8576739e011e1",
+    "text": "经理",
+    "pinyin": "jīng lǐ",
+    "meaning": "manager",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "cc57d5daad1074a9",
+    "text": "经理让我们先核对记录。",
+    "pinyin": "jīng lǐ ràng wǒ men xiān hé duì jì lù .",
+    "meaning": "The manager asks us to check the records first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "c4e0892eb7342848",
+    "text": "开学",
+    "pinyin": "kāi xué",
+    "meaning": "school begins; term starts",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "7cfeddeb4b9a3955",
+    "text": "开学的日期还要看通知。",
+    "pinyin": "kāi xué de rì qī hái yào kàn tōng zhī .",
+    "meaning": "The term-start date still needs checking against the notice.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "d526fa6412c91a53",
+    "text": "流",
+    "pinyin": "liú",
+    "meaning": "to flow",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "e9f146d7b6f34511",
+    "text": "水往下流，先把杯子放好。",
+    "pinyin": "shuǐ wǎng xià liú , xiān bǎ bēi zi fàng hǎo .",
+    "meaning": "Water flows downward; place the cup properly first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "0af1dcb2d2aa58e4",
+    "text": "难题",
+    "pinyin": "nán tí",
+    "meaning": "difficult problem",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "e911d5cfceae5421",
+    "text": "难题可以分开讨论。",
+    "pinyin": "nán tí kě yǐ fēn kāi tǎo lùn .",
+    "meaning": "Difficult problems can be discussed separately.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "3c6ca37690485e29",
+    "text": "排",
+    "pinyin": "pái",
+    "meaning": "row; classifier for rows",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "3771c3ea3932bf90",
+    "text": "坐第一排，不是第一座楼。",
+    "pinyin": "zuò dì yī pái , bù shì dì yī zuò lóu .",
+    "meaning": "Sit in the first row, not the first building.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "117c113c3b45cf89",
+    "text": "排队",
+    "pinyin": "pái duì",
+    "meaning": "to queue",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "3c3562db26cbd16f",
+    "text": "请排队，别挡行人。",
+    "pinyin": "qǐng pái duì , bié dǎng xíng rén .",
+    "meaning": "Please queue without blocking pedestrians.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "88b46de2e5e299b2",
+    "text": "关好水，大大省水。",
+    "pinyin": "guān hǎo shuǐ , dà dà shěng shuǐ .",
+    "meaning": "Shutting off the water properly saves a lot of water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "dacf0702602643bb",
+    "text": "相机",
+    "pinyin": "xiàng jī",
+    "meaning": "camera",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "56c0bdf262a099a1",
+    "text": "相机先放好，照相前问一下。",
+    "pinyin": "xiàng jī xiān fàng hǎo , zhào xiàng qián wèn yī xià .",
+    "meaning": "Put the camera in place and ask before taking a photo.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "77dbe8fa77598bf5",
+    "text": "行人",
+    "pinyin": "xíng rén",
+    "meaning": "pedestrian",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "46eceeb2236db81d",
+    "text": "行人要过来，我们让开。",
+    "pinyin": "xíng rén yào guò lái , wǒ men ràng kāi .",
+    "meaning": "Pedestrians need to pass; move aside.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "795cfc96d4b55db7",
+    "text": "因为",
+    "pinyin": "yīn wèi",
+    "meaning": "because",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "0aa0d8de3ce007c9",
+    "text": "因为分好工作，所以更顺利。",
+    "pinyin": "yīn wèi fēn hǎo gōng zuò , suǒ yǐ gèng shùn lì .",
+    "meaning": "Because we divided the work, things went more smoothly.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "920e88c5a602df57",
+    "text": "银行",
+    "pinyin": "yín háng",
+    "meaning": "bank",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "478711fd07062d97",
+    "text": "银行在大门右边，不是会场。",
+    "pinyin": "yín háng zài dà mén yòu biān , bù shì huì chǎng .",
+    "meaning": "The bank is to the right of the main entrance, not the event venue.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "9f6fee1aba17a565",
+    "text": "语言",
+    "pinyin": "yǔ yán",
+    "meaning": "language",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "7a6dea58299f6315",
+    "text": "语言不同，可以先说慢一点儿。",
+    "pinyin": "yǔ yán bù tóng , kě yǐ xiān shuō màn yì diǎn ér .",
+    "meaning": "With different languages, start by speaking a little more slowly.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example",
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "ceb2fb9214b22240",
+    "text": "照相",
+    "pinyin": "zhào xiàng",
+    "meaning": "to take a photograph",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "e2be3897976fe7d7",
+    "text": "照相前，先问朋友愿不愿意。",
+    "pinyin": "zhào xiàng qián , xiān wèn péng you yuàn bù yuàn yì .",
+    "meaning": "Before photographing, ask whether your friend is willing.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "001d9c64f7f1d381",
+    "text": "座",
+    "pinyin": "zuò",
+    "meaning": "classifier for buildings and large fixed things",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "3e961e38f3e5d172",
+    "text": "这座楼前面有一排椅子。",
+    "pinyin": "zhè zuò lóu qián miàn yǒu yī pái yǐ zi .",
+    "meaning": "There is a row of chairs in front of this building.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "example"
+    ]
+  },
+  {
+    "id": "4fd22eb8a794f9ad",
+    "text": "因为先分好工作，所以更顺利。",
+    "pinyin": "yīn wèi xiān fēn hǎo gōng zuò , suǒ yǐ gèng shùn lì .",
+    "meaning": "Because the work was divided first, things went more smoothly.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar",
+      "usage"
+    ]
+  },
+  {
+    "id": "3c7558ade8d19d5f",
+    "text": "我给朋友倒水。",
+    "pinyin": "wǒ gěi péng you dào shuǐ .",
+    "meaning": "I pour water for a friend.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "1c494610e58cb551",
+    "text": "第一步看通知，第二步问时间。",
+    "pinyin": "dì yī bù kàn tōng zhī , dì èr bù wèn shí jiān .",
+    "meaning": "First check the notice; second ask the time.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word",
+      "grammar"
+    ]
+  },
+  {
+    "id": "52e6b60a0a23b54d",
+    "text": "照相还没问完，先别写全部完成。",
+    "pinyin": "zhào xiàng hái méi wèn wán , xiān bié xiě quán bù wán chéng .",
+    "meaning": "Photo consent is not all requested; do not record everything complete.",
     "moods": [
       "clear",
       "playful",
@@ -41019,21 +42358,6 @@
     ]
   },
   {
-    "id": "43991cbbf5ea0e83",
-    "text": "片",
-    "pinyin": "piàn",
-    "meaning": "piece; picture",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "174c194fe64f6a34",
     "text": "月亮代表我的心",
     "pinyin": "Yuèliang dàibiǎo wǒ de xīn",
@@ -41345,21 +42669,6 @@
     ]
   },
   {
-    "id": "2527ecf9122b145b",
-    "text": "平",
-    "pinyin": "píng",
-    "meaning": "level; fair",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "ab121cd5a89868b7",
     "text": "量",
     "pinyin": "liàng",
@@ -41512,21 +42821,6 @@
     "text": "业",
     "pinyin": "yè",
     "meaning": "work; study",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
-    "id": "28e0bba69ee9141a",
-    "text": "完",
-    "pinyin": "wán",
-    "meaning": "to finish",
     "moods": [
       "clear",
       "playful",
@@ -41850,21 +43144,6 @@
     ]
   },
   {
-    "id": "2de164d9671b38af",
-    "text": "称",
-    "pinyin": "chēng",
-    "meaning": "to call; name",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "26092b300f84129b",
     "text": "单",
     "pinyin": "dān",
@@ -41884,21 +43163,6 @@
     "text": "篮",
     "pinyin": "lán",
     "meaning": "basket",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
-    "id": "3c6ca37690485e29",
-    "text": "排",
-    "pinyin": "pái",
-    "meaning": "row; to arrange",
     "moods": [
       "clear",
       "playful",
@@ -42521,20 +43785,6 @@
     ]
   },
   {
-    "id": "9f6fee1aba17a565",
-    "text": "语言",
-    "pinyin": "yǔ yán",
-    "meaning": "language",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "word"
-    ]
-  },
-  {
     "id": "f4a2c3f2e75db7e5",
     "text": "虽",
     "pinyin": "suī",
@@ -42729,22 +43979,6 @@
     ]
   },
   {
-    "id": "c55cceb16b4958d6",
-    "text": "查",
-    "pinyin": "chá",
-    "meaning": "to check; look up",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "word",
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "59854abf83c93334",
     "text": "清",
     "pinyin": "qīng",
@@ -42862,20 +44096,6 @@
     "kinds": [
       "character",
       "reader-lookup"
-    ]
-  },
-  {
-    "id": "4bc69a0562ff8ea4",
-    "text": "等于",
-    "pinyin": "děng yú",
-    "meaning": "to equal",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "word"
     ]
   },
   {
@@ -43057,21 +44277,6 @@
     ]
   },
   {
-    "id": "d526fa6412c91a53",
-    "text": "流",
-    "pinyin": "liú",
-    "meaning": "to flow",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "character",
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "2b3611f71ddd36fd",
     "text": "色",
     "pinyin": "sè",
@@ -43187,6 +44392,63 @@
     "kinds": [
       "character",
       "reader-lookup"
+    ]
+  },
+  {
+    "id": "b031a23374f47434",
+    "text": "倒下",
+    "pinyin": "dǎo xià",
+    "meaning": "to fall down",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "c82e0431b4e531f5",
+    "text": "法",
+    "pinyin": "fǎ",
+    "meaning": "method; rule",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "character",
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "da2331d6a4759984",
+    "text": "熟人",
+    "pinyin": "shú rén",
+    "meaning": "an acquaintance",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
+    ]
+  },
+  {
+    "id": "fde486deff029cd3",
+    "text": "时刻",
+    "pinyin": "shí kè",
+    "meaning": "moment",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "word"
     ]
   },
   {
@@ -46664,6 +47926,174 @@
     "text": "今天不是星期二，是星期三。",
     "pinyin": "jīn tiān bù shì xīng qī èr , shì xīng qī sān .",
     "meaning": "Today is not Tuesday; it is Wednesday.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "a5949000532fd5b5",
+    "text": "我看完了，但还没看懂。",
+    "pinyin": "wǒ kàn wán le , dàn hái méi kàn dǒng .",
+    "meaning": "I finished reading but still have not understood.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "c974dd665bb497ea",
+    "text": "没听清楚，请再说一次。",
+    "pinyin": "méi tīng qīng chǔ , qǐng zài shuō yī cì .",
+    "meaning": "I did not hear clearly; please say it again.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "69fef2734dd73147",
+    "text": "你在屋里，把杯子拿出去。",
+    "pinyin": "nǐ zài wū lǐ , bǎ bēi zi ná chū qù .",
+    "meaning": "You are inside; take the cup out away from there.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "1852c103f5d82809",
+    "text": "把书拿下来，再放回去。",
+    "pinyin": "bǎ shū ná xià lái , zài fàng huí qù .",
+    "meaning": "Take the book down and then put it back.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "bda9e730bc95f828",
+    "text": "她拿杯子喝水。",
+    "pinyin": "tā ná bēi zi hē shuǐ .",
+    "meaning": "She takes a cup to drink water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "4ee92e88db348321",
+    "text": "他进厨房帮忙。",
+    "pinyin": "tā jìn chú fáng bāng máng .",
+    "meaning": "He enters the kitchen to help.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "783b55c2044eb98b",
+    "text": "因为下雨，我们换了地方。",
+    "pinyin": "yīn wèi xià yǔ , wǒ men huàn le dì fāng .",
+    "meaning": "Because it rained, we changed the location.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "6bb2de21dbdf9da5",
+    "text": "大家先确认了，所以不用再猜。",
+    "pinyin": "dà jiā xiān què rèn le , suǒ yǐ bù yòng zài cāi .",
+    "meaning": "Everyone confirmed first, so there is no need to guess again.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "2113d497d3c46073",
+    "text": "她给老师发消息。",
+    "pinyin": "tā gěi lǎo shī fā xiāo xī .",
+    "meaning": "She sends the teacher a message.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "b967b34070a8da92",
+    "text": "我想给你照相，可以吗？",
+    "pinyin": "wǒ xiǎng gěi nǐ zhào xiàng , kě yǐ ma ?",
+    "meaning": "I would like to photograph you; is that okay?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "f13be75342c5ed08",
+    "text": "最后核对结果。",
+    "pinyin": "zuì hòu hé duì jié guǒ .",
+    "meaning": "Finally check the results.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "grammar"
+    ]
+  },
+  {
+    "id": "51e3eb836507d937",
+    "text": "第三步还没做。",
+    "pinyin": "dì sān bù hái méi zuò .",
+    "meaning": "The third step has not been done yet.",
     "moods": [
       "clear",
       "playful",
@@ -77772,6 +79202,1342 @@
     "dialogue": false
   },
   {
+    "id": "4b696b390c1f0fd2",
+    "text": "你查过做法吗？",
+    "pinyin": "nǐ chá guò zuò fa ma ?",
+    "meaning": "Have you checked the method?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6e5e06629b590a67",
+    "text": "看完了，但这一道菜我还没做过。",
+    "pinyin": "kàn wán le , dàn zhè yī dào cài wǒ hái méi zuò guò .",
+    "meaning": "I finished reading it, but have not made this dish before.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "b2ad4f532a955f9c",
+    "text": "先称一百克面粉，再倒水。",
+    "pinyin": "xiān chēng yī bǎi kè miàn fěn , zài dào shuǐ .",
+    "meaning": "Weigh one hundred grams of flour first, then pour in water.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "25fa230e686ae2b8",
+    "text": "好。你在屋里还是门外？",
+    "pinyin": "hǎo . nǐ zài wū lǐ hái shi mén wài ?",
+    "meaning": "Okay. Are you inside or outside the door?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "745d564ef99a12e4",
+    "text": "我在门外，做好后端出来。",
+    "pinyin": "wǒ zài mén wài , zuò hǎo hòu duān chū lái .",
+    "meaning": "I am outside the door; bring it out here once ready.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "5d2d522302d9556e",
+    "text": "饭熟了，汤还很烫，不能马上喝。",
+    "pinyin": "fàn shú le , tāng hái hěn tàng , bù néng mǎ shàng hē .",
+    "meaning": "The rice is cooked; the soup is still scalding and cannot be drunk immediately.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "0193ebf57f1b3fe3",
+    "text": "那先等一刻，取下那张做法。",
+    "pinyin": "nà xiān děng yī kè , qǔ xià nà zhāng zuò fa .",
+    "meaning": "Then wait a quarter of an hour first and take down that recipe sheet.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e8686d9dde0ccd79",
+    "text": "好，先把杯子放平，再给你倒水。",
+    "pinyin": "hǎo , xiān bǎ bēi zi fàng píng , zài gěi nǐ dào shuǐ .",
+    "meaning": "Okay; put the cup on a level surface first, then pour water for you.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "7627deef2f8bbcdd",
+    "text": "你查过做法吗？看完了，但这一道菜我还没做过。先称一百克面粉，再倒水。好。你在屋里还是门外？我在门外，做好后端出来。饭熟了，汤还很烫，不能马上喝。那先等一刻，取下那张做法。好，先把杯子放平，再给你倒水。",
+    "pinyin": "nǐ chá guò zuò fa ma ? kàn wán le , dàn zhè yī dào cài wǒ hái méi zuò guò . xiān chēng yī bǎi kè miàn fěn , zài dào shuǐ . hǎo . nǐ zài wū lǐ hái shi mén wài ? wǒ zài mén wài , zuò hǎo hòu duān chū lái . fàn shú le , tāng hái hěn tàng , bù néng mǎ shàng hē . nà xiān děng yī kè , qǔ xià nà zhāng zuò fa . hǎo , xiān bǎ bēi zi fàng píng , zài gěi nǐ dào shuǐ .",
+    "meaning": "Have you checked the method? I finished reading it, but have not made this dish before. Weigh one hundred grams of flour first, then pour in water. Okay. Are you inside or outside the door? I am outside the door; bring it out here once ready. The rice is cooked; the soup is still scalding and cannot be drunk immediately. Then wait a quarter of an hour first and take down that recipe sheet. Okay; put the cup on a level surface first, then pour water for you.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "你查过做法吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "看完了，但这一道菜我还没做过。",
+        "mood": "playful"
+      },
+      {
+        "text": "先称一百克面粉，再倒水。",
+        "mood": "cool"
+      },
+      {
+        "text": "好。你在屋里还是门外？",
+        "mood": "playful"
+      },
+      {
+        "text": "我在门外，做好后端出来。",
+        "mood": "cool"
+      },
+      {
+        "text": "饭熟了，汤还很烫，不能马上喝。",
+        "mood": "playful"
+      },
+      {
+        "text": "那先等一刻，取下那张做法。",
+        "mood": "cool"
+      },
+      {
+        "text": "好，先把杯子放平，再给你倒水。",
+        "mood": "playful"
+      }
+    ],
+    "dialogue": true
+  },
+  {
+    "id": "a4dbf639439cea7b",
+    "text": "我去商店买面粉，朋友在家查做法。",
+    "pinyin": "wǒ qù shāng diàn mǎi miàn fěn , péng you zài jiā chá zuò fa .",
+    "meaning": "I go to the shop for flour; my friend checks the method at home.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6a783bf2b62ec92e",
+    "text": "今天买一千克面粉，做菜只称一百克。",
+    "pinyin": "jīn tiān mǎi yī qiān kè miàn fěn , zuò cài zhǐ chēng yī bǎi kè .",
+    "meaning": "Buy a kilogram of flour today; weigh only one hundred grams for the dish.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "3a8e9fbf5e2bc476",
+    "text": "她先看完做法，再弄这一道菜。",
+    "pinyin": "tā xiān kàn wán zuò fa , zài nòng zhè yī dào cài .",
+    "meaning": "She finishes reading the method before handling this dish.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "cd35908ed3225765",
+    "text": "桌子不平，杯子换到平的地方。",
+    "pinyin": "zhuō zi bù píng , bēi zi huàn dào píng de dì fāng .",
+    "meaning": "The table is uneven; move the cup to a level place.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "25aedeec07145e37",
+    "text": "饭做好了，但汤还烫，先等一刻。",
+    "pinyin": "fàn zuò hǎo le , dàn tāng hái tàng , xiān děng yī kè .",
+    "meaning": "The meal is ready, but the soup is scalding; wait a quarter of an hour.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "3c6ddf685aeb1268",
+    "text": "我在门外，说端出来，不是端进去。",
+    "pinyin": "wǒ zài mén wài , shuō duān chū lái , bù shì duān jìn qù .",
+    "meaning": "I am outside and say bring it out here, not take it in.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e5e0e39d962cf609",
+    "text": "朋友取下做法，给我倒水；不喝酒也可以说干杯。",
+    "pinyin": "péng you qǔ xià zuò fa , gěi wǒ dào shuǐ ; bù hē jiǔ yě kě yǐ shuō gān bēi .",
+    "meaning": "My friend takes down the method and pours water; you may say cheers without alcohol.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e7aeecdfdf046795",
+    "text": "工作分开，结果一起查；没听清楚就再问一次。",
+    "pinyin": "gōng zuò fēn kāi , jié guǒ yì qǐ chá ; méi tīng qīng chǔ jiù zài wèn yī cì .",
+    "meaning": "Divide the work and check the results together; ask again if you did not hear clearly.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "52af1b3a0ec68997",
+    "text": "我去商店买面粉，朋友在家查做法。今天买一千克面粉，做菜只称一百克。她先看完做法，再弄这一道菜。桌子不平，杯子换到平的地方。饭做好了，但汤还烫，先等一刻。我在门外，说端出来，不是端进去。朋友取下做法，给我倒水；不喝酒也可以说干杯。工作分开，结果一起查；没听清楚就再问一次。",
+    "pinyin": "wǒ qù shāng diàn mǎi miàn fěn , péng you zài jiā chá zuò fa . jīn tiān mǎi yī qiān kè miàn fěn , zuò cài zhǐ chēng yī bǎi kè . tā xiān kàn wán zuò fa , zài nòng zhè yī dào cài . zhuō zi bù píng , bēi zi huàn dào píng de dì fāng . fàn zuò hǎo le , dàn tāng hái tàng , xiān děng yī kè . wǒ zài mén wài , shuō duān chū lái , bù shì duān jìn qù . péng you qǔ xià zuò fa , gěi wǒ dào shuǐ ; bù hē jiǔ yě kě yǐ shuō gān bēi . gōng zuò fēn kāi , jié guǒ yì qǐ chá ; méi tīng qīng chǔ jiù zài wèn yī cì .",
+    "meaning": "I go to the shop for flour; my friend checks the method at home. Buy a kilogram of flour today; weigh only one hundred grams for the dish. She finishes reading the method before handling this dish. The table is uneven; move the cup to a level place. The meal is ready, but the soup is scalding; wait a quarter of an hour. I am outside and say bring it out here, not take it in. My friend takes down the method and pours water; you may say cheers without alcohol. Divide the work and check the results together; ask again if you did not hear clearly.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "我去商店买面粉，朋友在家查做法。",
+        "mood": "clear"
+      },
+      {
+        "text": "今天买一千克面粉，做菜只称一百克。",
+        "mood": "clear"
+      },
+      {
+        "text": "她先看完做法，再弄这一道菜。",
+        "mood": "clear"
+      },
+      {
+        "text": "桌子不平，杯子换到平的地方。",
+        "mood": "clear"
+      },
+      {
+        "text": "饭做好了，但汤还烫，先等一刻。",
+        "mood": "clear"
+      },
+      {
+        "text": "我在门外，说端出来，不是端进去。",
+        "mood": "clear"
+      },
+      {
+        "text": "朋友取下做法，给我倒水；不喝酒也可以说干杯。",
+        "mood": "clear"
+      },
+      {
+        "text": "工作分开，结果一起查；没听清楚就再问一次。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
+    "id": "37ff762e85ab8490",
+    "text": "我看完了做法，杯子也看完了吗？",
+    "pinyin": "wǒ kàn wán le zuò fa , bēi zi yě kàn wán le ma ?",
+    "meaning": "I finished the method; did the cup finish it too?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "825ebeac0b8619bc",
+    "text": "杯子不用看，你先放平。",
+    "pinyin": "bēi zi bù yòng kàn , nǐ xiān fàng píng .",
+    "meaning": "The cup need not read; put it on a level surface first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "846e83652c4b204e",
+    "text": "饭好了，我端进去？",
+    "pinyin": "fàn hǎo le , wǒ duān jìn qù ?",
+    "meaning": "The rice is ready; shall I carry it in?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "41918d27c20113c4",
+    "text": "我在门外，端出来。别把方向也煮了。",
+    "pinyin": "wǒ zài mén wài , duān chū lái . bié bǎ fāng xiàng yě zhǔ le .",
+    "meaning": "I am outside; bring it out here. Do not cook the direction too.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "3817d50f068c7fef",
+    "text": "好，水先倒上，酒今天不喝。",
+    "pinyin": "hǎo , shuǐ xiān dào shàng , jiǔ jīn tiān bù hē .",
+    "meaning": "Okay; pour water first and skip alcohol today.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "2b45c3ea4409bc04",
+    "text": "干杯。用水，也算一起做好了。",
+    "pinyin": "gān bēi . yòng shuǐ , yě suàn yì qǐ zuò hǎo le .",
+    "meaning": "Cheers. With water, we still finished this together.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "39fe6822b37e4fab",
+    "text": "我看完了做法，杯子也看完了吗？杯子不用看，你先放平。饭好了，我端进去？我在门外，端出来。别把方向也煮了。好，水先倒上，酒今天不喝。干杯。用水，也算一起做好了。",
+    "pinyin": "wǒ kàn wán le zuò fa , bēi zi yě kàn wán le ma ? bēi zi bù yòng kàn , nǐ xiān fàng píng . fàn hǎo le , wǒ duān jìn qù ? wǒ zài mén wài , duān chū lái . bié bǎ fāng xiàng yě zhǔ le . hǎo , shuǐ xiān dào shàng , jiǔ jīn tiān bù hē . gān bēi . yòng shuǐ , yě suàn yì qǐ zuò hǎo le .",
+    "meaning": "I finished the method; did the cup finish it too? The cup need not read; put it on a level surface first. The rice is ready; shall I carry it in? I am outside; bring it out here. Do not cook the direction too. Okay; pour water first and skip alcohol today. Cheers. With water, we still finished this together.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "我看完了做法，杯子也看完了吗？",
+        "mood": "cool"
+      },
+      {
+        "text": "杯子不用看，你先放平。",
+        "mood": "playful"
+      },
+      {
+        "text": "饭好了，我端进去？",
+        "mood": "cool"
+      },
+      {
+        "text": "我在门外，端出来。别把方向也煮了。",
+        "mood": "playful"
+      },
+      {
+        "text": "好，水先倒上，酒今天不喝。",
+        "mood": "cool"
+      },
+      {
+        "text": "干杯。用水，也算一起做好了。",
+        "mood": "playful"
+      }
+    ],
+    "dialogue": true
+  },
+  {
+    "id": "51fbab0e87ca6a91",
+    "text": "三加二等于五，不是六。",
+    "pinyin": "sān jiā èr děng yú wǔ , bù shì liù .",
+    "meaning": "Three plus two equals five, not six.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "f0a5e762be63db66",
+    "text": "我在厨房，你过来看看。",
+    "pinyin": "wǒ zài chú fáng , nǐ guò lái kàn kàn .",
+    "meaning": "I am in the kitchen; come over and look.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "449b498dcc807098",
+    "text": "先尝一片，再决定要多少。",
+    "pinyin": "xiān cháng yī piàn , zài jué dìng yào duō shao .",
+    "meaning": "Try one slice before deciding how much you want.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "e0db1e4402b02fb2",
+    "text": "还没做到，就别说已经完成。",
+    "pinyin": "hái méi zuò dào , jiù bié shuō yǐ jīng wán chéng .",
+    "meaning": "Do not say it is complete before accomplishing it.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "07ca7264c892356c",
+    "text": "今天一起做饭，先问每个人吃什么。",
+    "pinyin": "jīn tiān yì qǐ zuò fàn , xiān wèn měi gè rén chī shén me .",
+    "meaning": "We cook together today; ask what each person eats first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "14f505839e35f2f8",
+    "text": "饭还烫，吹一吹再吃。",
+    "pinyin": "fàn hái tàng , chuī yī chuī zài chī .",
+    "meaning": "The food is still hot; blow on it before eating.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "e4cdbd61c81817ed",
+    "text": "两片加三片等于五片。三加二等于五，不是六。请过来看看做法。我在厨房，你过来看看。我弄这个，你先把桌子擦好。先放两片，再看够不够。先尝一片，再决定要多少。今天买一千克面粉，只用一百克。饭熟了，再端出来。答应早到，也要做到。还没做到，就别说已经完成。我们一起做饭，先分好工作。今天一起做饭，先问每个人吃什么。她吹了吹热汤，还是先等一下。饭还烫，吹一吹再吃。",
+    "pinyin": "liǎng piàn jiā sān piàn děng yú wǔ piàn . sān jiā èr děng yú wǔ , bù shì liù . qǐng guò lái kàn kàn zuò fa . wǒ zài chú fáng , nǐ guò lái kàn kàn . wǒ nòng zhè gè , nǐ xiān bǎ zhuō zi cā hǎo . xiān fàng liǎng piàn , zài kàn gòu bù gòu . xiān cháng yī piàn , zài jué dìng yào duō shao . jīn tiān mǎi yī qiān kè miàn fěn , zhǐ yòng yī bǎi kè . fàn shú le , zài duān chū lái . dā yìng zǎo dào , yě yào zuò dào . hái méi zuò dào , jiù bié shuō yǐ jīng wán chéng . wǒ men yì qǐ zuò fàn , xiān fēn hǎo gōng zuò . jīn tiān yì qǐ zuò fàn , xiān wèn měi gè rén chī shén me . tā chuī le chuī rè tāng , hái shi xiān děng yī xià . fàn hái tàng , chuī yī chuī zài chī .",
+    "meaning": "Two slices plus three slices equals five slices. Three plus two equals five, not six. Please come over and look at the method. I am in the kitchen; come over and look. I will handle this; finish wiping the table first. Put in two slices first, then see whether that is enough. Try one slice before deciding how much you want. Buy a kilogram of flour today and use only one hundred grams. When the rice is cooked, bring it out. If you promise to arrive early, fulfil it. Do not say it is complete before accomplishing it. We will cook together; divide the tasks first. We cook together today; ask what each person eats first. She blew on the hot soup but still waited a little first. The food is still hot; blow on it before eating.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "两片加三片等于五片。",
+        "mood": "clear"
+      },
+      {
+        "text": "三加二等于五，不是六。",
+        "mood": "clear"
+      },
+      {
+        "text": "请过来看看做法。",
+        "mood": "clear"
+      },
+      {
+        "text": "我在厨房，你过来看看。",
+        "mood": "clear"
+      },
+      {
+        "text": "我弄这个，你先把桌子擦好。",
+        "mood": "clear"
+      },
+      {
+        "text": "先放两片，再看够不够。",
+        "mood": "clear"
+      },
+      {
+        "text": "先尝一片，再决定要多少。",
+        "mood": "clear"
+      },
+      {
+        "text": "今天买一千克面粉，只用一百克。",
+        "mood": "clear"
+      },
+      {
+        "text": "饭熟了，再端出来。",
+        "mood": "clear"
+      },
+      {
+        "text": "答应早到，也要做到。",
+        "mood": "clear"
+      },
+      {
+        "text": "还没做到，就别说已经完成。",
+        "mood": "clear"
+      },
+      {
+        "text": "我们一起做饭，先分好工作。",
+        "mood": "clear"
+      },
+      {
+        "text": "今天一起做饭，先问每个人吃什么。",
+        "mood": "clear"
+      },
+      {
+        "text": "她吹了吹热汤，还是先等一下。",
+        "mood": "clear"
+      },
+      {
+        "text": "饭还烫，吹一吹再吃。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
+    "id": "d38609825ffbd929",
+    "text": "今天为什么更顺利？",
+    "pinyin": "jīn tiān wèi shén me gèng shùn lì ?",
+    "meaning": "Why did things go more smoothly today?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "4e04bcc69122106a",
+    "text": "因为先分好工作，所以没有重复做。",
+    "pinyin": "yīn wèi xiān fēn hǎo gōng zuò , suǒ yǐ méi yǒu chóng fù zuò .",
+    "meaning": "Because we divided the work first, we did not duplicate the tasks.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "274443ca1a708c4f",
+    "text": "第一步查做法，第二步做饭，最后核对结果。",
+    "pinyin": "dì yī bù chá zuò fa , dì èr bù zuò fàn , zuì hòu hé duì jié guǒ .",
+    "meaning": "First check the method, second prepare the meal, finally check the results.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "03554d6e5891cdac",
+    "text": "你给谁倒水？",
+    "pinyin": "nǐ gěi shéi dào shuǐ ?",
+    "meaning": "For whom did you pour water?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "6055c55c69b4480e",
+    "text": "给朋友。他不喝酒。",
+    "pinyin": "gěi péng you . tā bù hē jiǔ .",
+    "meaning": "For a friend; he does not drink alcohol.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "95c321d05be20a0e",
+    "text": "大家都照相了吗？",
+    "pinyin": "dà jiā dōu zhào xiàng le ma ?",
+    "meaning": "Did everyone have a photo taken?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "4f8e92da0ea2a1ff",
+    "text": "没有。有人不想照，我们还没问完。",
+    "pinyin": "méi yǒu . yǒu rén bù xiǎng zhào , wǒ men hái méi wèn wán .",
+    "meaning": "No. Some do not want a photo; we have not finished asking.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "41398baef9e6065b",
+    "text": "好，先别说所有事都完成。",
+    "pinyin": "hǎo , xiān bié shuō suǒ yǒu shì dōu wán chéng .",
+    "meaning": "Okay; do not say everything is finished yet.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "bd2a1e118afa0ec0",
+    "text": "今天为什么更顺利？因为先分好工作，所以没有重复做。第一步查做法，第二步做饭，最后核对结果。你给谁倒水？给朋友。他不喝酒。大家都照相了吗？没有。有人不想照，我们还没问完。好，先别说所有事都完成。",
+    "pinyin": "jīn tiān wèi shén me gèng shùn lì ? yīn wèi xiān fēn hǎo gōng zuò , suǒ yǐ méi yǒu chóng fù zuò . dì yī bù chá zuò fa , dì èr bù zuò fàn , zuì hòu hé duì jié guǒ . nǐ gěi shéi dào shuǐ ? gěi péng you . tā bù hē jiǔ . dà jiā dōu zhào xiàng le ma ? méi yǒu . yǒu rén bù xiǎng zhào , wǒ men hái méi wèn wán . hǎo , xiān bié shuō suǒ yǒu shì dōu wán chéng .",
+    "meaning": "Why did things go more smoothly today? Because we divided the work first, we did not duplicate the tasks. First check the method, second prepare the meal, finally check the results. For whom did you pour water? For a friend; he does not drink alcohol. Did everyone have a photo taken? No. Some do not want a photo; we have not finished asking. Okay; do not say everything is finished yet.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "今天为什么更顺利？",
+        "mood": "cool"
+      },
+      {
+        "text": "因为先分好工作，所以没有重复做。",
+        "mood": "playful"
+      },
+      {
+        "text": "第一步查做法，第二步做饭，最后核对结果。",
+        "mood": "cool"
+      },
+      {
+        "text": "你给谁倒水？",
+        "mood": "playful"
+      },
+      {
+        "text": "给朋友。他不喝酒。",
+        "mood": "cool"
+      },
+      {
+        "text": "大家都照相了吗？",
+        "mood": "playful"
+      },
+      {
+        "text": "没有。有人不想照，我们还没问完。",
+        "mood": "cool"
+      },
+      {
+        "text": "好，先别说所有事都完成。",
+        "mood": "playful"
+      }
+    ],
+    "dialogue": true
+  },
+  {
+    "id": "bbc6a1a53c9628d3",
+    "text": "因为先查做法、分工作，所以做饭更顺利。",
+    "pinyin": "yīn wèi xiān chá zuò fa , fēn gōng zuò , suǒ yǐ zuò fàn gèng shùn lì .",
+    "meaning": "Checking the method and dividing work first made cooking smoother.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "492016c08b6e3a6a",
+    "text": "第一步查，第二步做，最后核对；不是只写顺序就算完成。",
+    "pinyin": "dì yī bù chá , dì èr bù zuò , zuì hòu hé duì ; bù shì zhǐ xiě shùn xù jiù suàn wán chéng .",
+    "meaning": "Check first, do second and verify last; merely writing the order does not complete it.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "3e682220de0ca7fc",
+    "text": "我给朋友倒水，朋友不是倒水的人。",
+    "pinyin": "wǒ gěi péng you dào shuǐ , péng you bù shì dào shuǐ de rén .",
+    "meaning": "I poured water for a friend; the friend was not the person doing the pouring.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "7f9a53cb189ec624",
+    "text": "纸掉了，朋友拉开椅子，我捡起来。",
+    "pinyin": "zhǐ diào le , péng you lā kāi yǐ zi , wǒ jiǎn qǐ lái .",
+    "meaning": "The paper fell; my friend moved the chair and I picked it up.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "ffdb7bdb78d1133d",
+    "text": "大门外有行人，大家排队，让开人行道。",
+    "pinyin": "dà mén wài yǒu xíng rén , dà jiā pái duì , ràng kāi rén xíng dào .",
+    "meaning": "There are pedestrians outside the entrance; everyone queues and keeps the pavement clear.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "139c1a35e32d3cc8",
+    "text": "一座楼前有一排椅子，第一排不等于第一座。",
+    "pinyin": "yī zuò lóu qián yǒu yī pái yǐ zi , dì yī pái bù děng yú dì yī zuò .",
+    "meaning": "There is a row of chairs before a building; first row is not first building.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "f1f9f9c8a7054d19",
+    "text": "有人求帮忙推门，猫和狗都先留在屋里。",
+    "pinyin": "yǒu rén qiú bāng máng tuī mén , māo hé gǒu dōu xiān liú zài wū lǐ .",
+    "meaning": "Someone asks for help pushing the door; the cat and dog stay inside first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "33ee7f7e42060433",
+    "text": "照相还没问完，不愿意的人不照；记录不写全部完成。",
+    "pinyin": "zhào xiàng hái méi wèn wán , bù yuàn yì de rén bù zhào ; jì lù bù xiě quán bù wán chéng .",
+    "meaning": "Photo consent has not all been requested; those unwilling are not photographed, and the record does not say everything is complete.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue"
+    ]
+  },
+  {
+    "id": "e321b0e02ff05850",
+    "text": "因为先查做法、分工作，所以做饭更顺利。第一步查，第二步做，最后核对；不是只写顺序就算完成。我给朋友倒水，朋友不是倒水的人。纸掉了，朋友拉开椅子，我捡起来。大门外有行人，大家排队，让开人行道。一座楼前有一排椅子，第一排不等于第一座。有人求帮忙推门，猫和狗都先留在屋里。照相还没问完，不愿意的人不照；记录不写全部完成。",
+    "pinyin": "yīn wèi xiān chá zuò fa , fēn gōng zuò , suǒ yǐ zuò fàn gèng shùn lì . dì yī bù chá , dì èr bù zuò , zuì hòu hé duì ; bù shì zhǐ xiě shùn xù jiù suàn wán chéng . wǒ gěi péng you dào shuǐ , péng you bù shì dào shuǐ de rén . zhǐ diào le , péng you lā kāi yǐ zi , wǒ jiǎn qǐ lái . dà mén wài yǒu xíng rén , dà jiā pái duì , ràng kāi rén xíng dào . yī zuò lóu qián yǒu yī pái yǐ zi , dì yī pái bù děng yú dì yī zuò . yǒu rén qiú bāng máng tuī mén , māo hé gǒu dōu xiān liú zài wū lǐ . zhào xiàng hái méi wèn wán , bù yuàn yì de rén bù zhào ; jì lù bù xiě quán bù wán chéng .",
+    "meaning": "Checking the method and dividing work first made cooking smoother. Check first, do second and verify last; merely writing the order does not complete it. I poured water for a friend; the friend was not the person doing the pouring. The paper fell; my friend moved the chair and I picked it up. There are pedestrians outside the entrance; everyone queues and keeps the pavement clear. There is a row of chairs before a building; first row is not first building. Someone asks for help pushing the door; the cat and dog stay inside first. Photo consent has not all been requested; those unwilling are not photographed, and the record does not say everything is complete.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "因为先查做法、分工作，所以做饭更顺利。",
+        "mood": "clear"
+      },
+      {
+        "text": "第一步查，第二步做，最后核对；不是只写顺序就算完成。",
+        "mood": "clear"
+      },
+      {
+        "text": "我给朋友倒水，朋友不是倒水的人。",
+        "mood": "clear"
+      },
+      {
+        "text": "纸掉了，朋友拉开椅子，我捡起来。",
+        "mood": "clear"
+      },
+      {
+        "text": "大门外有行人，大家排队，让开人行道。",
+        "mood": "clear"
+      },
+      {
+        "text": "一座楼前有一排椅子，第一排不等于第一座。",
+        "mood": "clear"
+      },
+      {
+        "text": "有人求帮忙推门，猫和狗都先留在屋里。",
+        "mood": "clear"
+      },
+      {
+        "text": "照相还没问完，不愿意的人不照；记录不写全部完成。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
+    "id": "f4506cc272bad9d4",
+    "text": "第一步先看，第二步再干。",
+    "pinyin": "dì yī bù xiān kàn , dì èr bù zài gàn .",
+    "meaning": "First look; second do the work.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "1f0c4c79141fe3bb",
+    "text": "难题分开讲，朋友一起谈。",
+    "pinyin": "nán tí fēn kāi jiǎng , péng you yì qǐ tán .",
+    "meaning": "Explain difficult problems separately; talk together as friends.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "6fd59d45ae6f4dd8",
+    "text": "因为先问好，所以不用猜。",
+    "pinyin": "yīn wèi xiān wèn hǎo , suǒ yǐ bù yòng cāi .",
+    "meaning": "Because we asked clearly first, there is no need to guess.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "f4cb580aa3d4c356",
+    "text": "水给朋友喝，相机先放下。",
+    "pinyin": "shuǐ gěi péng you hē , xiàng jī xiān fàng xià .",
+    "meaning": "The water is for a friend; put the camera down first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "26b2cdee36a98b20",
+    "text": "有人还没问，照片等一下。",
+    "pinyin": "yǒu rén hái méi wèn , zhào piān děng yī xià .",
+    "meaning": "Someone has not yet been asked; photographs can wait.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "5aa8c1f0c16207c7",
+    "text": "做完才说完，今晚不乱夸。",
+    "pinyin": "zuò wán cái shuō wán , jīn wǎn bù luàn kuā .",
+    "meaning": "Say complete only once complete; no exaggerated praise tonight.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "b72f6a8a1bac8da3",
+    "text": "第一步先看，第二步再干。难题分开讲，朋友一起谈。因为先问好，所以不用猜。水给朋友喝，相机先放下。有人还没问，照片等一下。做完才说完，今晚不乱夸。",
+    "pinyin": "dì yī bù xiān kàn , dì èr bù zài gàn . nán tí fēn kāi jiǎng , péng you yì qǐ tán . yīn wèi xiān wèn hǎo , suǒ yǐ bù yòng cāi . shuǐ gěi péng you hē , xiàng jī xiān fàng xià . yǒu rén hái méi wèn , zhào piān děng yī xià . zuò wán cái shuō wán , jīn wǎn bù luàn kuā .",
+    "meaning": "First look; second do the work. Explain difficult problems separately; talk together as friends. Because we asked clearly first, there is no need to guess. The water is for a friend; put the camera down first. Someone has not yet been asked; photographs can wait. Say complete only once complete; no exaggerated praise tonight.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "第一步先看，第二步再干。",
+        "mood": "clear"
+      },
+      {
+        "text": "难题分开讲，朋友一起谈。",
+        "mood": "clear"
+      },
+      {
+        "text": "因为先问好，所以不用猜。",
+        "mood": "clear"
+      },
+      {
+        "text": "水给朋友喝，相机先放下。",
+        "mood": "clear"
+      },
+      {
+        "text": "有人还没问，照片等一下。",
+        "mood": "clear"
+      },
+      {
+        "text": "做完才说完，今晚不乱夸。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
+    "id": "8b0c3d76f4715cab",
+    "text": "新问题出现了，我们先停下来问。",
+    "pinyin": "xīn wèn tí chū xiàn le , wǒ men xiān tíng xià lái wèn .",
+    "meaning": "A new problem has arisen; stop and ask first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "bcec5d5c5a776934",
+    "text": "先确认地址，可以大大减少走错的可能。",
+    "pinyin": "xiān què rèn dì zhǐ , kě yǐ dà dà jiǎn shǎo zǒu cuò de kě néng .",
+    "meaning": "Confirming the address first can greatly reduce the chance of going the wrong way.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "ce1fcf9bbaf89a56",
+    "text": "群里有大量消息，先找最新的通知。",
+    "pinyin": "qún lǐ yǒu dà liàng xiāo xī , xiān zhǎo zuì xīn de tōng zhī .",
+    "meaning": "The group has many messages; find the latest notice first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "cb15c4660d6f8cdd",
+    "text": "干活儿以前，先把安排说清楚。",
+    "pinyin": "gàn huór yǐ qián , xiān bǎ ān pái shuō qīng chǔ .",
+    "meaning": "Clarify the arrangements before starting work.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "da9c980c8a3821cc",
+    "text": "她个子高，还是要先问她愿不愿意帮忙。",
+    "pinyin": "tā gè zi gāo , hái shi yào xiān wèn tā yuàn bù yuàn yì bāng máng .",
+    "meaning": "She is tall, but still ask whether she is willing to help.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "8c683cd044a513ce",
+    "text": "经理还没回来，先问工作人员。",
+    "pinyin": "jīng lǐ hái méi huí lái , xiān wèn gōng zuò rén yuán .",
+    "meaning": "The manager has not returned; ask the staff first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "6357ab1a85da8870",
+    "text": "开学以后时间变了，我们重新约。",
+    "pinyin": "kāi xué yǐ hòu shí jiān biàn le , wǒ men chóng xīn yuē .",
+    "meaning": "Our schedules change after term starts; arrange a new meeting.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "d2844e649b140751",
+    "text": "水一直流，先把水关了。",
+    "pinyin": "shuǐ yì zhí liú , xiān bǎ shuǐ guān le .",
+    "meaning": "The water keeps running; turn it off first.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "00395ecb66c486d1",
+    "text": "这次省了十块，下次还要看价格。",
+    "pinyin": "zhè cì shěng le shí kuài , xià cì hái yào kàn jià gé .",
+    "meaning": "This time we saved ten yuan; still check the price next time.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "ad2e4fc3bb21228e",
+    "text": "学习语言要练习，也要给自己时间。",
+    "pinyin": "xué xí yǔ yán yào liàn xí , yě yào gěi zì jǐ shí jiān .",
+    "meaning": "Learning a language requires practice and time.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "dialogue",
+      "extra-reading"
+    ]
+  },
+  {
+    "id": "e4127b9ba01dab56",
+    "text": "问题出现了，先别急。新问题出现了，我们先停下来问。分好工作，大大减少了重复。先确认地址，可以大大减少走错的可能。有大量消息，也要一条一条看。群里有大量消息，先找最新的通知。纸掉了，先捡起来。一起干活儿，先分好任务。干活儿以前，先把安排说清楚。个子高，不等于知道所有答案。她个子高，还是要先问她愿不愿意帮忙。经理让我们先核对记录。经理还没回来，先问工作人员。开学的日期还要看通知。开学以后时间变了，我们重新约。水往下流，先把杯子放好。水一直流，先把水关了。难题可以分开讨论。关好水，大大省水。这次省了十块，下次还要看价格。相机先放好，照相前问一下。银行在大门右边，不是会场。语言不同，可以先说慢一点儿。学习语言要练习，也要给自己时间。",
+    "pinyin": "wèn tí chū xiàn le , xiān bié jí . xīn wèn tí chū xiàn le , wǒ men xiān tíng xià lái wèn . fēn hǎo gōng zuò , dà dà jiǎn shǎo le chóng fù . xiān què rèn dì zhǐ , kě yǐ dà dà jiǎn shǎo zǒu cuò de kě néng . yǒu dà liàng xiāo xī , yě yào yī tiáo yī tiáo kàn . qún lǐ yǒu dà liàng xiāo xī , xiān zhǎo zuì xīn de tōng zhī . zhǐ diào le , xiān jiǎn qǐ lái . yì qǐ gàn huór , xiān fēn hǎo rèn wù . gàn huór yǐ qián , xiān bǎ ān pái shuō qīng chǔ . gè zi gāo , bù děng yú zhī dào suǒ yǒu dá àn . tā gè zi gāo , hái shi yào xiān wèn tā yuàn bù yuàn yì bāng máng . jīng lǐ ràng wǒ men xiān hé duì jì lù . jīng lǐ hái méi huí lái , xiān wèn gōng zuò rén yuán . kāi xué de rì qī hái yào kàn tōng zhī . kāi xué yǐ hòu shí jiān biàn le , wǒ men chóng xīn yuē . shuǐ wǎng xià liú , xiān bǎ bēi zi fàng hǎo . shuǐ yì zhí liú , xiān bǎ shuǐ guān le . nán tí kě yǐ fēn kāi tǎo lùn . guān hǎo shuǐ , dà dà shěng shuǐ . zhè cì shěng le shí kuài , xià cì hái yào kàn jià gé . xiàng jī xiān fàng hǎo , zhào xiàng qián wèn yī xià . yín háng zài dà mén yòu biān , bù shì huì chǎng . yǔ yán bù tóng , kě yǐ xiān shuō màn yì diǎn ér . xué xí yǔ yán yào liàn xí , yě yào gěi zì jǐ shí jiān .",
+    "meaning": "A problem arose; do not panic first. A new problem has arisen; stop and ask first. Dividing the work greatly reduced repetition. Confirming the address first can greatly reduce the chance of going the wrong way. There is a lot of information; still check it line by line. The group has many messages; find the latest notice first. The paper fell; pick it up first. When working together, divide the tasks first. Clarify the arrangements before starting work. Being tall does not mean knowing every answer. She is tall, but still ask whether she is willing to help. The manager asks us to check the records first. The manager has not returned; ask the staff first. The term-start date still needs checking against the notice. Our schedules change after term starts; arrange a new meeting. Water flows downward; place the cup properly first. The water keeps running; turn it off first. Difficult problems can be discussed separately. Shutting off the water properly saves a lot of water. This time we saved ten yuan; still check the price next time. Put the camera in place and ask before taking a photo. The bank is to the right of the main entrance, not the event venue. With different languages, start by speaking a little more slowly. Learning a language requires practice and time.",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reading"
+    ],
+    "parts": [
+      {
+        "text": "问题出现了，先别急。",
+        "mood": "clear"
+      },
+      {
+        "text": "新问题出现了，我们先停下来问。",
+        "mood": "clear"
+      },
+      {
+        "text": "分好工作，大大减少了重复。",
+        "mood": "clear"
+      },
+      {
+        "text": "先确认地址，可以大大减少走错的可能。",
+        "mood": "clear"
+      },
+      {
+        "text": "有大量消息，也要一条一条看。",
+        "mood": "clear"
+      },
+      {
+        "text": "群里有大量消息，先找最新的通知。",
+        "mood": "clear"
+      },
+      {
+        "text": "纸掉了，先捡起来。",
+        "mood": "clear"
+      },
+      {
+        "text": "一起干活儿，先分好任务。",
+        "mood": "clear"
+      },
+      {
+        "text": "干活儿以前，先把安排说清楚。",
+        "mood": "clear"
+      },
+      {
+        "text": "个子高，不等于知道所有答案。",
+        "mood": "clear"
+      },
+      {
+        "text": "她个子高，还是要先问她愿不愿意帮忙。",
+        "mood": "clear"
+      },
+      {
+        "text": "经理让我们先核对记录。",
+        "mood": "clear"
+      },
+      {
+        "text": "经理还没回来，先问工作人员。",
+        "mood": "clear"
+      },
+      {
+        "text": "开学的日期还要看通知。",
+        "mood": "clear"
+      },
+      {
+        "text": "开学以后时间变了，我们重新约。",
+        "mood": "clear"
+      },
+      {
+        "text": "水往下流，先把杯子放好。",
+        "mood": "clear"
+      },
+      {
+        "text": "水一直流，先把水关了。",
+        "mood": "clear"
+      },
+      {
+        "text": "难题可以分开讨论。",
+        "mood": "clear"
+      },
+      {
+        "text": "关好水，大大省水。",
+        "mood": "clear"
+      },
+      {
+        "text": "这次省了十块，下次还要看价格。",
+        "mood": "clear"
+      },
+      {
+        "text": "相机先放好，照相前问一下。",
+        "mood": "clear"
+      },
+      {
+        "text": "银行在大门右边，不是会场。",
+        "mood": "clear"
+      },
+      {
+        "text": "语言不同，可以先说慢一点儿。",
+        "mood": "clear"
+      },
+      {
+        "text": "学习语言要练习，也要给自己时间。",
+        "mood": "clear"
+      }
+    ],
+    "dialogue": false
+  },
+  {
     "id": "4e187edb730066cd",
     "text": "美",
     "pinyin": "měi",
@@ -78808,20 +81574,6 @@
     ]
   },
   {
-    "id": "cbfb27fdfea155ab",
-    "text": "掉",
-    "pinyin": "diào",
-    "meaning": "off; result complement",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "f44b862142d99d49",
     "text": "一切",
     "meaning": "in 一切: everything",
@@ -79267,19 +82019,6 @@
     ]
   },
   {
-    "id": "fde486deff029cd3",
-    "text": "时刻",
-    "meaning": "in 时刻: moment",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "reader-lookup"
-    ]
-  },
-  {
     "id": "5890c084b9317bb1",
     "text": "约",
     "pinyin": "yuē",
@@ -79366,19 +82105,6 @@
     "text": "李",
     "pinyin": "lǐ",
     "meaning": "Li, a surname",
-    "moods": [
-      "clear",
-      "playful",
-      "cool"
-    ],
-    "kinds": [
-      "reader-lookup"
-    ]
-  },
-  {
-    "id": "da2331d6a4759984",
-    "text": "熟人",
-    "meaning": "in 熟人: an acquaintance",
     "moods": [
       "clear",
       "playful",
@@ -79632,6 +82358,157 @@
     "id": "9e77992be03d5eb1",
     "text": "职务",
     "meaning": "in 职务: position; job responsibilities",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "21eaff4331362c33",
+    "text": "面粉",
+    "meaning": "in 面粉: flour",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "74ec94a65d17bf0c",
+    "text": "端",
+    "pinyin": "duān",
+    "meaning": "to carry level in one’s hands; serve",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "37fe121b6b013d9c",
+    "text": "汤",
+    "pinyin": "tāng",
+    "meaning": "soup",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "7ad12ba0d6ecd87c",
+    "text": "烫",
+    "pinyin": "tàng",
+    "meaning": "scalding; hot",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "b606bf981ff8f416",
+    "text": "煮",
+    "pinyin": "zhǔ",
+    "meaning": "to boil; cook in water",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "15dce1fac9ecf4c9",
+    "text": "擦",
+    "pinyin": "cā",
+    "meaning": "to wipe",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "6109c45b11f63663",
+    "text": "尝",
+    "pinyin": "cháng",
+    "meaning": "to taste",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "2e81b3dff5809023",
+    "text": "核对",
+    "meaning": "in 核对: to check against",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "67ee40b6d45a2a85",
+    "text": "捡",
+    "pinyin": "jiǎn",
+    "meaning": "to pick up",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "82d709a64eddf23f",
+    "text": "谈",
+    "pinyin": "tán",
+    "meaning": "to discuss; talk",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "reader-lookup"
+    ]
+  },
+  {
+    "id": "43c9f2ba740457e6",
+    "text": "减少",
+    "meaning": "in 减少: to reduce",
     "moods": [
       "clear",
       "playful",
@@ -83117,6 +85994,110 @@
     ],
     "kinds": [
       "conversation"
+    ]
+  },
+  {
+    "id": "fbbf044278746e3e",
+    "text": "你在门外吗？",
+    "pinyin": "nǐ zài mén wài ma ?",
+    "meaning": "Are you outside the door?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "5bff9b7f2a53efaf",
+    "text": "对，请端出来。",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation-answer"
+    ]
+  },
+  {
+    "id": "75e88f50aae4146f",
+    "text": "一定喝酒吗？",
+    "pinyin": "yí dìng hē jiǔ ma ?",
+    "meaning": "Must we drink alcohol?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "5a93afb754d5673b",
+    "text": "不用，用水也可以。",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation-answer"
+    ]
+  },
+  {
+    "id": "17371ac284c20798",
+    "text": "为什么没有重复做？",
+    "pinyin": "wèi shén me méi yǒu chóng fù zuò ?",
+    "meaning": "Why was the work not duplicated?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "84fb963b3f7486ce",
+    "text": "因为先分好工作。",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation-answer"
+    ]
+  },
+  {
+    "id": "1315d55c56eddf61",
+    "text": "都照相了吗？",
+    "pinyin": "dōu zhào xiàng le ma ?",
+    "meaning": "Did everyone have a photo taken?",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation"
+    ]
+  },
+  {
+    "id": "ed9b08ec75114695",
+    "text": "没有，还没问完。",
+    "moods": [
+      "clear",
+      "playful",
+      "cool"
+    ],
+    "kinds": [
+      "conversation-answer"
     ]
   },
   {
@@ -99795,6 +102776,450 @@
     "text": "这部影片我看过，但小说还没读。",
     "pinyin": "zhè bù yǐng piàn wǒ kàn guò , dàn xiǎo shuō hái méi dú .",
     "meaning": "I have seen this film but not read the novel.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "ed03b46e0cd9d94b",
+    "text": "看完了，但还没看懂。",
+    "pinyin": "kàn wán le , dàn hái méi kàn dǒng .",
+    "meaning": "Finished reading but did not yet understand.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "cdb9f1f42135af4a",
+    "text": "杯里是水，不是酒。",
+    "pinyin": "bēi lǐ shì shuǐ , bù shì jiǔ .",
+    "meaning": "There is water, not alcohol, in the cup.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "0bd1618bb1ebb65a",
+    "text": "我在门外，你做好后怎么端？",
+    "pinyin": "wǒ zài mén wài , nǐ zuò hǎo hòu zěn me duān ?",
+    "meaning": "I am outside; how will you bring the prepared dish?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "ddd2105d8d11b6ff",
+    "text": "端出来给你。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "b68689758ec942f5",
+    "text": "先证明杯子读懂。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "c328838cd5e88eea",
+    "text": "面就是桌子的面。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "b6be7aba5fd5a8ce",
+    "text": "汤还很烫，现在喝吗？",
+    "pinyin": "tāng hái hěn tàng , xiàn zài hē ma ?",
+    "meaning": "The soup is still scalding; drink now?",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "fab6b271bce056a9",
+    "text": "先等一下。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "d766c6e571973b50",
+    "text": "听过就是喝过。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "938f930730356c4a",
+    "text": "一定马上喝完。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "cc3dbbe850a508e7",
+    "text": "先称一百克面粉。",
+    "pinyin": "xiān chēng yī bǎi kè miàn fěn .",
+    "meaning": "Weigh one hundred grams of flour first.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "f6aeaef42e025350",
+    "text": "先读清楚做法。",
+    "pinyin": "xiān dú qīng chǔ zuò fa .",
+    "meaning": "Read the method clearly first.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "250b43638dc50844",
+    "text": "看完，但没看懂。",
+    "pinyin": "kàn wán , dàn méi kàn dǒng .",
+    "meaning": "Finished reading but did not understand.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "2ecc825311b9bdd5",
+    "text": "听清楚了。",
+    "pinyin": "tīng qīng chǔ le .",
+    "meaning": "Heard clearly.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "924996bc7c5c6d1f",
+    "text": "看见杯子了。",
+    "pinyin": "kàn jiàn bēi zi le .",
+    "meaning": "Saw the cup.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "e2f99d4635849ece",
+    "text": "这一道菜。",
+    "pinyin": "zhè yī dào cài .",
+    "meaning": "This dish.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "d1e03b0967340bb7",
+    "text": "等一刻。",
+    "pinyin": "děng yī kè .",
+    "meaning": "Wait a quarter of an hour.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "dadaa8306e3acf7a",
+    "text": "称一百克。",
+    "pinyin": "chēng yī bǎi kè .",
+    "meaning": "Weigh one hundred grams.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "11ac575762aa589d",
+    "text": "越来越清楚，还不是完美。",
+    "pinyin": "yuè lái yuè qīng chǔ , hái bù shì wán měi .",
+    "meaning": "It is becoming clearer, but is not perfect yet.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "80d0dc8c6d15a60d",
+    "text": "桌上放着杯子，门还开着。",
+    "pinyin": "zhuō shàng fàng zhe bēi zi , mén hái kāi zhe .",
+    "meaning": "Cups lie on the table and the door is still open.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "626add6e9c2805b3",
+    "text": "因为分好工作，所以没有重复做。",
+    "pinyin": "yīn wèi fēn hǎo gōng zuò , suǒ yǐ méi yǒu chóng fù zuò .",
+    "meaning": "Because tasks were divided, work was not duplicated.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "896052066a3701ba",
+    "text": "照相还没问完。",
+    "pinyin": "zhào xiàng hái méi wèn wán .",
+    "meaning": "Asking about photographs is not finished.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-truefalse"
+    ]
+  },
+  {
+    "id": "09198962ee3510f9",
+    "text": "行人要过来，我们站在大门口。",
+    "pinyin": "xíng rén yào guò lái , wǒ men zhàn zài dà mén kǒu .",
+    "meaning": "Pedestrians need to pass and we are at the entrance.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "01ecbe3e15443b10",
+    "text": "先让开，别挡路。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "5284cd3dd1364b60",
+    "text": "因为大门就是语言。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "23c2f00e0f68097c",
+    "text": "马上把所有人推开。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "c3043d374f2421d2",
+    "text": "有人不想照相。",
+    "pinyin": "yǒu rén bù xiǎng zhào xiàng .",
+    "meaning": "Someone does not want a photograph.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-prompt"
+    ]
+  },
+  {
+    "id": "795810d9a5d745f4",
+    "text": "好，不照他。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "6f19b79406513f31",
+    "text": "所以他一定同意。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "754047fdbd0e5b05",
+    "text": "相机可以代替问。",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-reply-choice"
+    ]
+  },
+  {
+    "id": "5751c7b09be66aa0",
+    "text": "银行在大门右边。",
+    "pinyin": "yín háng zài dà mén yòu biān .",
+    "meaning": "The bank is to the right of the entrance.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "84fb61ee08e52dd1",
+    "text": "大家排队，别挡行人。",
+    "pinyin": "dà jiā pái duì , bié dǎng xíng rén .",
+    "meaning": "Queue without blocking pedestrians.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-listenfill"
+    ]
+  },
+  {
+    "id": "373f23721ec46c8b",
+    "text": "一座楼。",
+    "pinyin": "yī zuò lóu .",
+    "meaning": "One building.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "0a06737b2fad5278",
+    "text": "一排椅子。",
+    "pinyin": "yī pái yǐ zi .",
+    "meaning": "One row of chairs.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "d4f12e6d05f8dacd",
+    "text": "第一步查。",
+    "pinyin": "dì yī bù chá .",
+    "meaning": "Check in the first step.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "e69a18dbdc097e01",
+    "text": "因为先问，所以不猜。",
+    "pinyin": "yīn wèi xiān wèn , suǒ yǐ bù cāi .",
+    "meaning": "Asking first removes the need to guess.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "11f6b21f65aa12c7",
+    "text": "虽然下雨，但时间不变。",
+    "pinyin": "suī rán xià yǔ , dàn shí jiān bù biàn .",
+    "meaning": "Although it rains, the time is unchanged.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "e174aaf6cc0f07b2",
+    "text": "有人没同意，照片先等。",
+    "pinyin": "yǒu rén méi tóng yì , zhào piān xiān děng .",
+    "meaning": "Someone has not agreed, so photographs wait.",
+    "moods": [
+      "clear"
+    ],
+    "kinds": [
+      "task-match"
+    ]
+  },
+  {
+    "id": "c01dee0c7b4dcf4b",
+    "text": "今天星期三，这本书三十五块。",
+    "pinyin": "jīn tiān xīng qī sān , zhè běn shū sān shí wǔ kuài .",
+    "meaning": "Today is Wednesday; this book costs thirty-five yuan.",
     "moods": [
       "clear"
     ],

@@ -1,0 +1,1388 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u33",
+    "stage": 1,
+    "order": 63,
+    "title": "Let's finish cooking first",
+    "titleZh": "先做好再端出来",
+    "canDo": [
+      "Distinguish an action from its completed result",
+      "Track direction relative to the speaker",
+      "Describe successive actions by one person"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u32"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u33-w01",
+      "hanzi": "查",
+      "pinyin": "chá",
+      "meaning": "to check; look up",
+      "meaningVi": "tra; kiểm tra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先查做法，再动手。",
+        "py": "xiān chá zuò fa , zài dòng shǒu .",
+        "en": "Check the method before starting."
+      },
+      "usageNote": "[GF2021:L2:781] Source entry: 查; chá; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w02",
+      "hanzi": "称",
+      "pinyin": "chēng",
+      "meaning": "to weigh",
+      "meaningVi": "cân",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "称一百克面粉。",
+        "py": "chēng yī bǎi kè miàn fěn .",
+        "en": "Weigh one hundred grams of flour."
+      },
+      "usageNote": "[GF2021:L2:943] Source entry: 称1; chēng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w03",
+      "hanzi": "倒",
+      "pinyin": "dào",
+      "meaning": "to pour",
+      "meaningVi": "rót",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请往杯里倒水。",
+        "py": "qǐng wǎng bēi lǐ dào shuǐ .",
+        "en": "Please pour water into the cup."
+      },
+      "usageNote": "[GF2021:L2:1662] Source entry: 倒; dào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w04",
+      "hanzi": "道",
+      "pinyin": "dào",
+      "meaning": "classifier for dishes and questions",
+      "meaningVi": "lượng từ cho món ăn và câu hỏi",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这一道菜先做好。",
+        "py": "zhè yī dào cài xiān zuò hǎo .",
+        "en": "Finish preparing this dish first."
+      },
+      "usageNote": "[GF2021:L2:1671] Source entry: 道; dào; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w05",
+      "hanzi": "等于",
+      "pinyin": "děng yú",
+      "meaning": "to equal",
+      "meaningVi": "bằng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "两片加三片等于五片。",
+        "py": "liǎng piàn jiā sān piàn děng yú wǔ piàn .",
+        "en": "Two slices plus three slices equals five slices."
+      },
+      "usageNote": "[GF2021:L2:1720] Source entry: 等于; děngyú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w06",
+      "hanzi": "干杯",
+      "pinyin": "gān bēi",
+      "meaning": "cheers; to toast",
+      "meaningVi": "cạn ly; chúc mừng",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有人说干杯，我用水也可以。",
+        "py": "yǒu rén shuō gān bēi , wǒ yòng shuǐ yě kě yǐ .",
+        "en": "Someone says cheers; I can use water too."
+      },
+      "usageNote": "[GF2021:L2:2560] Source entry: 干杯; gān∥bēi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w07",
+      "hanzi": "过来",
+      "pinyin": "guò lái",
+      "meaning": "to come over",
+      "meaningVi": "qua đây",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请过来看看做法。",
+        "py": "qǐng guò lái kàn kàn zuò fa .",
+        "en": "Please come over and look at the method."
+      },
+      "usageNote": "[GF2021:L2:3118] Source entry: 过来; guò·lái; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w08",
+      "hanzi": "酒",
+      "pinyin": "jiǔ",
+      "meaning": "alcohol; alcoholic drink",
+      "meaningVi": "rượu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她不喝酒，杯里是水。",
+        "py": "tā bù hē jiǔ , bēi lǐ shì shuǐ .",
+        "en": "She does not drink alcohol; there is water in her cup."
+      },
+      "usageNote": "[GF2021:L2:4427] Source entry: 酒; jiǔ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w09",
+      "hanzi": "克",
+      "pinyin": "kè",
+      "meaning": "gram",
+      "meaningVi": "gam",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先称一百克。",
+        "py": "xiān chēng yī bǎi kè .",
+        "en": "Weigh one hundred grams first."
+      },
+      "usageNote": "[GF2021:L2:4719] Source entry: 克; kè; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w10",
+      "hanzi": "刻",
+      "pinyin": "kè",
+      "meaning": "quarter of an hour",
+      "meaningVi": "khắc; mười lăm phút",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "等一刻再看，不是等一小时。",
+        "py": "děng yī kè zài kàn , bù shì děng yī xiǎo shí .",
+        "en": "Check again after a quarter of an hour, not an hour."
+      },
+      "usageNote": "[GF2021:L2:4723] Source entry: 刻; kè; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w11",
+      "hanzi": "面",
+      "pinyin": "miàn",
+      "meaning": "flour",
+      "meaningVi": "bột mì",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里的面是面粉，不是桌子的面。",
+        "py": "zhè lǐ de miàn shì miàn fěn , bù shì zhuō zi de miàn .",
+        "en": "Here 面 means flour, not the surface of a table."
+      },
+      "usageNote": "[GF2021:L2:5574] Source entry: 面2; miàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w12",
+      "hanzi": "弄",
+      "pinyin": "nòng",
+      "meaning": "to do; handle",
+      "meaningVi": "làm; xử lý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我弄这个，你先把桌子擦好。",
+        "py": "wǒ nòng zhè gè , nǐ xiān bǎ zhuō zi cā hǎo .",
+        "en": "I will handle this; finish wiping the table first."
+      },
+      "usageNote": "[GF2021:L2:5912] Source entry: 弄; nòng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w13",
+      "hanzi": "片",
+      "pinyin": "piàn",
+      "meaning": "classifier for slices and pieces",
+      "meaningVi": "lượng từ cho lát; mảnh",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先放两片，再看够不够。",
+        "py": "xiān fàng liǎng piàn , zài kàn gòu bù gòu .",
+        "en": "Put in two slices first, then see whether that is enough."
+      },
+      "usageNote": "[GF2021:L2:6081] Source entry: 片; piàn; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w14",
+      "hanzi": "平",
+      "pinyin": "píng",
+      "meaning": "flat; level",
+      "meaningVi": "bằng phẳng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "桌子不平，杯子先放别处。",
+        "py": "zhuō zi bù píng , bēi zi xiān fàng bié chù .",
+        "en": "The table is uneven; put the cup elsewhere first."
+      },
+      "usageNote": "[GF2021:L2:6118] Source entry: 平; píng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w15",
+      "hanzi": "千克",
+      "pinyin": "qiān kè",
+      "meaning": "kilogram",
+      "meaningVi": "kilôgam",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天买一千克面粉，只用一百克。",
+        "py": "jīn tiān mǎi yī qiān kè miàn fěn , zhǐ yòng yī bǎi kè .",
+        "en": "Buy a kilogram of flour today and use only one hundred grams."
+      },
+      "usageNote": "[GF2021:L2:6310] Source entry: 千克; qiānkè; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w16",
+      "hanzi": "熟",
+      "pinyin": "shú",
+      "meaning": "cooked; ripe; familiar",
+      "meaningVi": "chín; quen thuộc",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "饭熟了，再端出来。",
+        "py": "fàn shú le , zài duān chū lái .",
+        "en": "When the rice is cooked, bring it out."
+      },
+      "usageNote": "[GF2021:L2:7470] Source entry: 熟; shú/shóu; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w17",
+      "hanzi": "完",
+      "pinyin": "wán",
+      "meaning": "to finish",
+      "meaningVi": "xong",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "看完做法，再问问题。",
+        "py": "kàn wán zuò fa , zài wèn wèn tí .",
+        "en": "Finish reading the method before asking questions."
+      },
+      "usageNote": "[GF2021:L2:8276] Source entry: 完; wán; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w18",
+      "hanzi": "做到",
+      "pinyin": "zuò dào",
+      "meaning": "to achieve; manage to do",
+      "meaningVi": "làm được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "答应早到，也要做到。",
+        "py": "dā yìng zǎo dào , yě yào zuò dào .",
+        "en": "If you promise to arrive early, fulfil it."
+      },
+      "usageNote": "[GF2021:L2:11086] Source entry: 做到; zuòdào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w19",
+      "hanzi": "做法",
+      "pinyin": "zuò fa",
+      "meaning": "method; way of doing",
+      "meaningVi": "cách làm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "做法写在纸上，先读清楚。",
+        "py": "zuò fa xiě zài zhǐ shàng , xiān dú qīng chǔ .",
+        "en": "The method is written on paper; read it carefully first."
+      },
+      "usageNote": "[GF2021:L2:11087] Source entry: 做法; zuò·fǎ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w20",
+      "hanzi": "做饭",
+      "pinyin": "zuò fàn",
+      "meaning": "to cook; prepare a meal",
+      "meaningVi": "nấu ăn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们一起做饭，先分好工作。",
+        "py": "wǒ men yì qǐ zuò fàn , xiān fēn hǎo gōng zuò .",
+        "en": "We will cook together; divide the tasks first."
+      },
+      "usageNote": "[GF2021:L2:11088] Source entry: 做饭; zuò∥fàn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u33-w21",
+      "hanzi": "吹",
+      "pinyin": "chuī",
+      "meaning": "to blow",
+      "meaningVi": "thổi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她吹了吹热汤，还是先等一下。",
+        "py": "tā chuī le chuī rè tāng , hái shi xiān děng yī xià .",
+        "en": "She blew on the hot soup but still waited a little first."
+      },
+      "usageNote": "[GF2021:L2:1265] Source entry: 吹; chuī; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "吹",
+      "pinyin": "chuī",
+      "meaning": "to blow",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "吹",
+          "role": "whole",
+          "gloss": "to blow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 吹 in 吹. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "吹",
+          "p": "chuī",
+          "m": "to blow"
+        }
+      ]
+    },
+    {
+      "hanzi": "倒",
+      "pinyin": "dào",
+      "meaning": "to pour; fall",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "倒",
+          "role": "whole",
+          "gloss": "to pour; fall"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 倒 in 倒 / 倒下. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "倒",
+          "p": "dào",
+          "m": "to fall; tip over"
+        },
+        {
+          "w": "倒下",
+          "p": "dǎo xià",
+          "m": "to fall down"
+        }
+      ]
+    },
+    {
+      "hanzi": "法",
+      "pinyin": "fǎ",
+      "meaning": "method; rule",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "法",
+          "role": "whole",
+          "gloss": "method; rule"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 法 in 做法 / 想法. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "做法",
+          "p": "zuò fa",
+          "m": "method; recipe"
+        },
+        {
+          "w": "想法",
+          "p": "xiǎng fa",
+          "m": "idea; thought"
+        }
+      ]
+    },
+    {
+      "hanzi": "酒",
+      "pinyin": "jiǔ",
+      "meaning": "alcohol; alcoholic drink",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "酒",
+          "role": "whole",
+          "gloss": "alcohol; alcoholic drink"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 酒 in 酒 / 酒店. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "酒",
+          "p": "jiǔ",
+          "m": "alcohol; alcoholic drink"
+        },
+        {
+          "w": "酒店",
+          "p": "jiǔ diàn",
+          "m": "hotel"
+        }
+      ]
+    },
+    {
+      "hanzi": "克",
+      "pinyin": "kè",
+      "meaning": "gram; to overcome",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "克",
+          "role": "whole",
+          "gloss": "gram; to overcome"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 克 in 克 / 千克. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "克",
+          "p": "kè",
+          "m": "gram"
+        },
+        {
+          "w": "千克",
+          "p": "qiān kè",
+          "m": "kilogram"
+        }
+      ]
+    },
+    {
+      "hanzi": "熟",
+      "pinyin": "shú",
+      "meaning": "cooked; familiar",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "熟",
+          "role": "whole",
+          "gloss": "cooked; familiar"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 熟 in 熟 / 熟人. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "熟",
+          "p": "shú",
+          "m": "cooked; ripe; familiar"
+        },
+        {
+          "w": "熟人",
+          "p": "shú rén",
+          "m": "an acquaintance"
+        }
+      ]
+    },
+    {
+      "hanzi": "弄",
+      "pinyin": "nòng",
+      "meaning": "to do; handle",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "弄",
+          "role": "whole",
+          "gloss": "to do; handle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 弄 in 弄. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "弄",
+          "p": "nòng",
+          "m": "to do; handle"
+        }
+      ]
+    },
+    {
+      "hanzi": "取",
+      "pinyin": "qǔ",
+      "meaning": "to take; obtain",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "取",
+          "role": "whole",
+          "gloss": "to take; obtain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 取 in 取 / 取得. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "取",
+          "p": "qǔ",
+          "m": "to collect; take"
+        },
+        {
+          "w": "取得",
+          "p": "qǔ dé",
+          "m": "to obtain; achieve"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u33-g二49",
+      "pattern": "动词 + 好 / 完 / 到 / 见 / 懂 / 清楚",
+      "purpose": "Check the resulting state rather than infer it from an action",
+      "explanation": "做饭 names an activity; 做好饭 says the preparation reaches the intended ready state. 看完 says reading finished, 看懂 says it was understood, 看见 says something was perceived. 听清楚 is clearer perception, not necessarily comprehension. Negative result uses 没有: 没听清楚. Do not claim a safe temperature or successful outcome just because someone tried.",
+      "examples": [
+        {
+          "zh": "饭做好了，先等一下再端。",
+          "py": "fàn zuò hǎo le , xiān děng yī xià zài duān .",
+          "en": "The meal is prepared; wait a little before serving."
+        },
+        {
+          "zh": "我看完了，但还没看懂。",
+          "py": "wǒ kàn wán le , dàn hái méi kàn dǒng .",
+          "en": "I finished reading but still have not understood."
+        },
+        {
+          "zh": "没听清楚，请再说一次。",
+          "py": "méi tīng qīng chǔ , qǐng zài shuō yī cì .",
+          "en": "I did not hear clearly; please say it again."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我听了，所以一定听懂了。",
+          "right": "我听了，但还没听懂。",
+          "why": "Hearing an utterance does not guarantee comprehension."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u33-g二50",
+      "pattern": "动词 + 来 / 去；动词 + 上 / 下 / 进 / 出 / 回 / 过 / 起",
+      "purpose": "Locate movement and its direction",
+      "explanation": "端出来 is movement out toward the speaker or the scene’s reference point; 端出去 moves out away from it. 拿上 indicates movement upward, 拿下 downward, 拿进去 into somewhere. Mark the location before choosing 来/去. The directional complement is not proof that the object is cooked or that permission was granted.",
+      "examples": [
+        {
+          "zh": "我在门外，请端出来。",
+          "py": "wǒ zài mén wài , qǐng duān chū lái .",
+          "en": "I am outside the door; please bring it out here."
+        },
+        {
+          "zh": "你在屋里，把杯子拿出去。",
+          "py": "nǐ zài wū lǐ , bǎ bēi zi ná chū qù .",
+          "en": "You are inside; take the cup out away from there."
+        },
+        {
+          "zh": "把书拿下来，再放回去。",
+          "py": "bǎ shū ná xià lái , zài fàng huí qù .",
+          "en": "Take the book down and then put it back."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我在门外，请端出去给我。这里以我为方向。",
+          "right": "我在门外，请端出来给我。",
+          "why": "Use toward the stated speaker as the reference direction."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u33-g二57",
+      "pattern": "同一主语 + 动词短语 + 动词短语",
+      "purpose": "Recognize linked actions with one subject",
+      "explanation": "我去商店买东西 uses the same subject for going and buying; buying is the purpose of the trip. 我拿杯子喝水 links taking a cup to drinking. Do not change the subject midway without stating it. A purpose is not a completed result: 去买 does not guarantee 买到.",
+      "examples": [
+        {
+          "zh": "我去商店买面。",
+          "py": "wǒ qù shāng diàn mǎi miàn .",
+          "en": "I go to the shop to buy flour."
+        },
+        {
+          "zh": "她拿杯子喝水。",
+          "py": "tā ná bēi zi hē shuǐ .",
+          "en": "She takes a cup to drink water."
+        },
+        {
+          "zh": "他进厨房帮忙。",
+          "py": "tā jìn chú fáng bāng máng .",
+          "en": "He enters the kitchen to help."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我去商店她买面。这要说我去买。",
+          "right": "我去商店买面。",
+          "why": "Keep the intended shared subject instead of inserting a different one."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u33-d",
+    "title": "Ready does not mean here",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Track completion and direction while preparing an original shared meal.",
+    "lines": [
+      {
+        "zh": "你查过做法吗？",
+        "py": "nǐ chá guò zuò fa ma ?",
+        "en": "Have you checked the method?",
+        "speaker": "a"
+      },
+      {
+        "zh": "看完了，但这一道菜我还没做过。",
+        "py": "kàn wán le , dàn zhè yī dào cài wǒ hái méi zuò guò .",
+        "en": "I finished reading it, but have not made this dish before.",
+        "speaker": "b"
+      },
+      {
+        "zh": "先称一百克面粉，再倒水。",
+        "py": "xiān chēng yī bǎi kè miàn fěn , zài dào shuǐ .",
+        "en": "Weigh one hundred grams of flour first, then pour in water.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。你在屋里还是门外？",
+        "py": "hǎo . nǐ zài wū lǐ hái shi mén wài ?",
+        "en": "Okay. Are you inside or outside the door?",
+        "speaker": "b"
+      },
+      {
+        "zh": "我在门外，做好后端出来。",
+        "py": "wǒ zài mén wài , zuò hǎo hòu duān chū lái .",
+        "en": "I am outside the door; bring it out here once ready.",
+        "speaker": "a"
+      },
+      {
+        "zh": "饭熟了，汤还很烫，不能马上喝。",
+        "py": "fàn shú le , tāng hái hěn tàng , bù néng mǎ shàng hē .",
+        "en": "The rice is cooked; the soup is still scalding and cannot be drunk immediately.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那先等一刻，取下那张做法。",
+        "py": "nà xiān děng yī kè , qǔ xià nà zhāng zuò fa .",
+        "en": "Then wait a quarter of an hour first and take down that recipe sheet.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，先把杯子放平，再给你倒水。",
+        "py": "hǎo , xiān bǎ bēi zi fàng píng , zài gěi nǐ dào shuǐ .",
+        "en": "Okay; put the cup on a level surface first, then pour water for you.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What needs tracking?",
+        "choices": [
+          "Preparation, temperature and direction",
+          "A guaranteed cooking skill",
+          "A mandatory alcoholic toast"
+        ],
+        "answer": "Preparation, temperature and direction"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the speaker who requests the dish?",
+        "choices": [
+          "Outside the door",
+          "Inside the kitchen",
+          "At the shop"
+        ],
+        "answer": "Outside the door"
+      },
+      {
+        "type": "inference",
+        "q": "Does finishing the recipe reading prove experience with the dish?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with water"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "面粉",
+        "pinyin": "miàn fěn",
+        "meaning": "flour"
+      },
+      {
+        "hanzi": "做法",
+        "pinyin": "zuò fa",
+        "meaning": "method; recipe"
+      },
+      {
+        "hanzi": "取下",
+        "pinyin": "qǔ xià",
+        "meaning": "to take down; remove"
+      },
+      {
+        "hanzi": "烫",
+        "pinyin": "tàng",
+        "meaning": "scalding; hot"
+      },
+      {
+        "hanzi": "汤",
+        "pinyin": "tāng",
+        "meaning": "soup"
+      },
+      {
+        "hanzi": "端",
+        "pinyin": "duān",
+        "meaning": "to carry level in one’s hands; serve"
+      },
+      {
+        "hanzi": "屋里",
+        "pinyin": "wū lǐ",
+        "meaning": "inside the room"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u33-r",
+    "title": "A meal with separate tasks",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find purpose, completed results and remaining steps.",
+    "lines": [
+      {
+        "zh": "我去商店买面粉，朋友在家查做法。",
+        "py": "wǒ qù shāng diàn mǎi miàn fěn , péng you zài jiā chá zuò fa .",
+        "en": "I go to the shop for flour; my friend checks the method at home."
+      },
+      {
+        "zh": "今天买一千克面粉，做菜只称一百克。",
+        "py": "jīn tiān mǎi yī qiān kè miàn fěn , zuò cài zhǐ chēng yī bǎi kè .",
+        "en": "Buy a kilogram of flour today; weigh only one hundred grams for the dish."
+      },
+      {
+        "zh": "她先看完做法，再弄这一道菜。",
+        "py": "tā xiān kàn wán zuò fa , zài nòng zhè yī dào cài .",
+        "en": "She finishes reading the method before handling this dish."
+      },
+      {
+        "zh": "桌子不平，杯子换到平的地方。",
+        "py": "zhuō zi bù píng , bēi zi huàn dào píng de dì fāng .",
+        "en": "The table is uneven; move the cup to a level place."
+      },
+      {
+        "zh": "饭做好了，但汤还烫，先等一刻。",
+        "py": "fàn zuò hǎo le , dàn tāng hái tàng , xiān děng yī kè .",
+        "en": "The meal is ready, but the soup is scalding; wait a quarter of an hour."
+      },
+      {
+        "zh": "我在门外，说端出来，不是端进去。",
+        "py": "wǒ zài mén wài , shuō duān chū lái , bù shì duān jìn qù .",
+        "en": "I am outside and say bring it out here, not take it in."
+      },
+      {
+        "zh": "朋友取下做法，给我倒水；不喝酒也可以说干杯。",
+        "py": "péng you qǔ xià zuò fa , gěi wǒ dào shuǐ ; bù hē jiǔ yě kě yǐ shuō gān bēi .",
+        "en": "My friend takes down the method and pours water; you may say cheers without alcohol."
+      },
+      {
+        "zh": "工作分开，结果一起查；没听清楚就再问一次。",
+        "py": "gōng zuò fēn kāi , jié guǒ yì qǐ chá ; méi tīng qīng chǔ jiù zài wèn yī cì .",
+        "en": "Divide the work and check the results together; ask again if you did not hear clearly."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "How is the meal organized?",
+        "choices": [
+          "Separate tasks and checks of actual results",
+          "One person guessing every step",
+          "The cup measures kilograms"
+        ],
+        "answer": "Separate tasks and checks of actual results"
+      },
+      {
+        "type": "detail",
+        "q": "How much flour is weighed today?",
+        "choices": [
+          "One hundred grams",
+          "One kilogram",
+          "Two kilograms"
+        ],
+        "answer": "One hundred grams"
+      },
+      {
+        "type": "inference",
+        "q": "Is alcohol required?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only outside"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "饭做好了，但汤还烫，先等【一刻】。",
+          "py": "fàn zuò hǎo le , dàn tāng hái tàng , xiān děng yī kè .",
+          "en": "The meal is ready, but the soup is scalding; wait a quarter of an hour."
+        },
+        {
+          "zh": "工作分开，【结果】一起查；没听清楚就再问一次。",
+          "py": "gōng zuò fēn kāi , jié guǒ yì qǐ chá ; méi tīng qīng chǔ jiù zài wèn yī cì .",
+          "en": "Divide the work and check the results together; ask again if you did not hear clearly."
+        }
+      ],
+      "bank": [
+        "一刻",
+        "结果",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "面粉",
+        "pinyin": "miàn fěn",
+        "meaning": "flour"
+      },
+      {
+        "hanzi": "做法",
+        "pinyin": "zuò fa",
+        "meaning": "method; recipe"
+      },
+      {
+        "hanzi": "取下",
+        "pinyin": "qǔ xià",
+        "meaning": "to take down; remove"
+      },
+      {
+        "hanzi": "烫",
+        "pinyin": "tàng",
+        "meaning": "scalding; hot"
+      },
+      {
+        "hanzi": "汤",
+        "pinyin": "tāng",
+        "meaning": "soup"
+      },
+      {
+        "hanzi": "结果",
+        "pinyin": "jié guǒ",
+        "meaning": "result"
+      },
+      {
+        "hanzi": "端",
+        "pinyin": "duān",
+        "meaning": "to carry level in one’s hands; serve"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u33-media",
+      "title": "The cup did not read the method",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about imagined shortcuts.",
+      "lines": [
+        {
+          "zh": "我看完了做法，杯子也看完了吗？",
+          "py": "wǒ kàn wán le zuò fa , bēi zi yě kàn wán le ma ?",
+          "en": "I finished the method; did the cup finish it too?",
+          "speaker": "a"
+        },
+        {
+          "zh": "杯子不用看，你先放平。",
+          "py": "bēi zi bù yòng kàn , nǐ xiān fàng píng .",
+          "en": "The cup need not read; put it on a level surface first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "饭好了，我端进去？",
+          "py": "fàn hǎo le , wǒ duān jìn qù ?",
+          "en": "The rice is ready; shall I carry it in?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我在门外，端出来。别把方向也煮了。",
+          "py": "wǒ zài mén wài , duān chū lái . bié bǎ fāng xiàng yě zhǔ le .",
+          "en": "I am outside; bring it out here. Do not cook the direction too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，水先倒上，酒今天不喝。",
+          "py": "hǎo , shuǐ xiān dào shàng , jiǔ jīn tiān bù hē .",
+          "en": "Okay; pour water first and skip alcohol today.",
+          "speaker": "a"
+        },
+        {
+          "zh": "干杯。用水，也算一起做好了。",
+          "py": "gān bēi . yòng shuǐ , yě suàn yì qǐ zuò hǎo le .",
+          "en": "Cheers. With water, we still finished this together.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the correction?",
+          "choices": [
+            "Bring the dish toward the speaker outside",
+            "Pour alcohol automatically",
+            "Treat the cup as a cook"
+          ],
+          "answer": "Bring the dish toward the speaker outside"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "做法",
+          "pinyin": "zuò fa",
+          "meaning": "method; recipe"
+        },
+        {
+          "hanzi": "端",
+          "pinyin": "duān",
+          "meaning": "to carry level in one’s hands; serve"
+        },
+        {
+          "hanzi": "煮",
+          "pinyin": "zhǔ",
+          "meaning": "to boil; cook in water"
+        }
+      ]
+    },
+    {
+      "id": "s2-u33-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "两片加三片等于五片。",
+          "py": "liǎng piàn jiā sān piàn děng yú wǔ piàn .",
+          "en": "Two slices plus three slices equals five slices."
+        },
+        {
+          "zh": "三加二等于五，不是六。",
+          "py": "sān jiā èr děng yú wǔ , bù shì liù .",
+          "en": "Three plus two equals five, not six."
+        },
+        {
+          "zh": "请过来看看做法。",
+          "py": "qǐng guò lái kàn kàn zuò fa .",
+          "en": "Please come over and look at the method."
+        },
+        {
+          "zh": "我在厨房，你过来看看。",
+          "py": "wǒ zài chú fáng , nǐ guò lái kàn kàn .",
+          "en": "I am in the kitchen; come over and look."
+        },
+        {
+          "zh": "我弄这个，你先把桌子擦好。",
+          "py": "wǒ nòng zhè gè , nǐ xiān bǎ zhuō zi cā hǎo .",
+          "en": "I will handle this; finish wiping the table first."
+        },
+        {
+          "zh": "先放两片，再看够不够。",
+          "py": "xiān fàng liǎng piàn , zài kàn gòu bù gòu .",
+          "en": "Put in two slices first, then see whether that is enough."
+        },
+        {
+          "zh": "先尝一片，再决定要多少。",
+          "py": "xiān cháng yī piàn , zài jué dìng yào duō shao .",
+          "en": "Try one slice before deciding how much you want."
+        },
+        {
+          "zh": "今天买一千克面粉，只用一百克。",
+          "py": "jīn tiān mǎi yī qiān kè miàn fěn , zhǐ yòng yī bǎi kè .",
+          "en": "Buy a kilogram of flour today and use only one hundred grams."
+        },
+        {
+          "zh": "饭熟了，再端出来。",
+          "py": "fàn shú le , zài duān chū lái .",
+          "en": "When the rice is cooked, bring it out."
+        },
+        {
+          "zh": "答应早到，也要做到。",
+          "py": "dā yìng zǎo dào , yě yào zuò dào .",
+          "en": "If you promise to arrive early, fulfil it."
+        },
+        {
+          "zh": "还没做到，就别说已经完成。",
+          "py": "hái méi zuò dào , jiù bié shuō yǐ jīng wán chéng .",
+          "en": "Do not say it is complete before accomplishing it."
+        },
+        {
+          "zh": "我们一起做饭，先分好工作。",
+          "py": "wǒ men yì qǐ zuò fàn , xiān fēn hǎo gōng zuò .",
+          "en": "We will cook together; divide the tasks first."
+        },
+        {
+          "zh": "今天一起做饭，先问每个人吃什么。",
+          "py": "jīn tiān yì qǐ zuò fàn , xiān wèn měi gè rén chī shén me .",
+          "en": "We cook together today; ask what each person eats first."
+        },
+        {
+          "zh": "她吹了吹热汤，还是先等一下。",
+          "py": "tā chuī le chuī rè tāng , hái shi xiān děng yī xià .",
+          "en": "She blew on the hot soup but still waited a little first."
+        },
+        {
+          "zh": "饭还烫，吹一吹再吃。",
+          "py": "fàn hái tàng , chuī yī chuī zài chī .",
+          "en": "The food is still hot; blow on it before eating."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "面粉",
+          "pinyin": "miàn fěn",
+          "meaning": "flour"
+        },
+        {
+          "hanzi": "做法",
+          "pinyin": "zuò fa",
+          "meaning": "method; recipe"
+        },
+        {
+          "hanzi": "烫",
+          "pinyin": "tàng",
+          "meaning": "scalding; hot"
+        },
+        {
+          "hanzi": "汤",
+          "pinyin": "tāng",
+          "meaning": "soup"
+        },
+        {
+          "hanzi": "完成",
+          "pinyin": "wán chéng",
+          "meaning": "completion"
+        },
+        {
+          "hanzi": "端",
+          "pinyin": "duān",
+          "meaning": "to carry level in one’s hands; serve"
+        },
+        {
+          "hanzi": "擦",
+          "pinyin": "cā",
+          "meaning": "to wipe"
+        },
+        {
+          "hanzi": "尝",
+          "pinyin": "cháng",
+          "meaning": "to taste"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u33-t1",
+      "phrase": "s2-u33-w17",
+      "audio": {
+        "zh": "看完了，但还没看懂。",
+        "py": "kàn wán le , dàn hái méi kàn dǒng .",
+        "en": "Finished reading but did not yet understand."
+      },
+      "statement": "Understanding is complete.",
+      "answer": false,
+      "why": "完 and 懂 give distinct outcomes."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u33-t2",
+      "phrase": "s2-u33-w08",
+      "audio": {
+        "zh": "杯里是水，不是酒。",
+        "py": "bēi lǐ shì shuǐ , bù shì jiǔ .",
+        "en": "There is water, not alcohol, in the cup."
+      },
+      "statement": "The cup contains water.",
+      "answer": true,
+      "why": "水 is explicitly contrasted with 酒."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u33-t3",
+      "phrase": "s2-u33-w07",
+      "prompt": {
+        "zh": "我在门外，你做好后怎么端？",
+        "py": "wǒ zài mén wài , nǐ zuò hǎo hòu zěn me duān ?",
+        "en": "I am outside; how will you bring the prepared dish?"
+      },
+      "choices": [
+        "端出来给你。",
+        "先证明杯子读懂。",
+        "面就是桌子的面。"
+      ],
+      "answer": "端出来给你。",
+      "why": "Use direction toward the speaker."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u33-t4",
+      "phrase": "s2-u33-w16",
+      "prompt": {
+        "zh": "汤还很烫，现在喝吗？",
+        "py": "tāng hái hěn tàng , xiàn zài hē ma ?",
+        "en": "The soup is still scalding; drink now?"
+      },
+      "choices": [
+        "先等一下。",
+        "听过就是喝过。",
+        "一定马上喝完。"
+      ],
+      "answer": "先等一下。",
+      "why": "Respect the stated remaining wait."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u33-t5",
+      "phrase": "s2-u33-w02",
+      "line": {
+        "zh": "先【称】一百克面粉。",
+        "py": "xiān chēng yī bǎi kè miàn fěn .",
+        "en": "Weigh one hundred grams of flour first."
+      },
+      "blankPy": "chēng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u33-t6",
+      "phrase": "s2-u33-w19",
+      "line": {
+        "zh": "先读清楚【做法】。",
+        "py": "xiān dú qīng chǔ zuò fa .",
+        "en": "Read the method clearly first."
+      },
+      "blankPy": "zuò fa"
+    },
+    {
+      "type": "match",
+      "id": "s2-u33-t7",
+      "phrase": "s2-u33-w17",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Finished reading but did not understand.",
+          "right": {
+            "zh": "看完，但没看懂。",
+            "py": "kàn wán , dàn méi kàn dǒng .",
+            "en": "Finished reading but did not understand."
+          }
+        },
+        {
+          "left": "Heard clearly.",
+          "right": {
+            "zh": "听清楚了。",
+            "py": "tīng qīng chǔ le .",
+            "en": "Heard clearly."
+          }
+        },
+        {
+          "left": "Saw the cup.",
+          "right": {
+            "zh": "看见杯子了。",
+            "py": "kàn jiàn bēi zi le .",
+            "en": "Saw the cup."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u33-t8",
+      "phrase": "s2-u33-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "This dish.",
+          "right": {
+            "zh": "这一道菜。",
+            "py": "zhè yī dào cài .",
+            "en": "This dish."
+          }
+        },
+        {
+          "left": "Wait a quarter of an hour.",
+          "right": {
+            "zh": "等一刻。",
+            "py": "děng yī kè .",
+            "en": "Wait a quarter of an hour."
+          }
+        },
+        {
+          "left": "Weigh one hundred grams.",
+          "right": {
+            "zh": "称一百克。",
+            "py": "chēng yī bǎi kè .",
+            "en": "Weigh one hundred grams."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u33-t9",
+      "phrase": "s2-u33-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "She can not only read but also speak.",
+          "right": {
+            "zh": "她不但能读，而且能说。",
+            "py": "tā bù dàn néng dú , ér qiě néng shuō .",
+            "en": "She can not only read but also speak."
+          }
+        },
+        {
+          "left": "It is becoming clearer, but is not perfect yet.",
+          "right": {
+            "zh": "越来越清楚，还不是完美。",
+            "py": "yuè lái yuè qīng chǔ , hái bù shì wán měi .",
+            "en": "It is becoming clearer, but is not perfect yet."
+          }
+        },
+        {
+          "left": "Cups lie on the table and the door is still open.",
+          "right": {
+            "zh": "桌上放着杯子，门还开着。",
+            "py": "zhuō shàng fàng zhe bēi zi , mén hái kāi zhe .",
+            "en": "Cups lie on the table and the door is still open."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Check the result",
+      "natural": {
+        "zh": "你看完了，也看懂了吗？",
+        "py": "nǐ kàn wán le , yě kàn dǒng le ma ?",
+        "en": "You finished reading; did you understand too?"
+      },
+      "note": "Separate completion from comprehension."
+    },
+    {
+      "situation": "Clarify direction",
+      "natural": {
+        "zh": "我在门外，请端出来。",
+        "py": "wǒ zài mén wài , qǐng duān chū lái .",
+        "en": "I am outside; bring it out here."
+      },
+      "note": "State the reference point."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u33-speak",
+    "title": "Let's finish cooking first",
+    "place": "A language-exchange meeting",
+    "context": "Complete a task and move on to the next one.",
+    "goal": "Distinguish an action from its completed result",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你在门外吗？",
+        "pinyin": "nǐ zài mén wài ma ?",
+        "meaning": "Are you outside the door?",
+        "intent": "Confirm the reference point",
+        "examples": [
+          "对，请端出来。"
+        ],
+        "accept": [
+          "^对，请端出来。[。！？]?$"
+        ]
+      },
+      {
+        "text": "一定喝酒吗？",
+        "pinyin": "yí dìng hē jiǔ ma ?",
+        "meaning": "Must we drink alcohol?",
+        "intent": "Offer the stated alternative",
+        "examples": [
+          "不用，用水也可以。"
+        ],
+        "accept": [
+          "^不用，用水也可以。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二49, 二50, 二57. Native check: 称 chēng weighing, 面2 flour versus 面1 surface, 熟 shú with shóu colloquial variant, 来/去 reference point, linked-action purpose and result-complement distinctions. Time/weight values are fictional scene instructions, not a tested recipe or food-safety certification. Planned retrieval 二44 / 二63 / 二33 / 二56 / 二70: 她不但能读，而且能说。, 越来越清楚，还不是完美。, 桌上放着杯子，门还开着。."
+}
