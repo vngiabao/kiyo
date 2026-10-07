@@ -1,0 +1,1245 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u02",
+    "stage": 2,
+    "order": 66,
+    "title": "Anyone can join",
+    "titleZh": "谁都可以先来听",
+    "canDo": [
+      "Read 谁都 and other non-question uses without assuming a question",
+      "Express willingness to try despite fear",
+      "Distinguish an open invitation from guaranteed qualification"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u01"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u02-w01",
+      "hanzi": "群",
+      "pinyin": "qún",
+      "meaning": "group; crowd",
+      "meaningVi": "nhóm; đám đông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这群人先看要求。",
+        "py": "zhè qún rén xiān kàn yāo qiú .",
+        "en": "This group first checks the requirements."
+      },
+      "usageNote": "[GF2021:L3:6649] Source entry: 群; qún; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w02",
+      "hanzi": "各",
+      "pinyin": "gè",
+      "meaning": "each; every",
+      "meaningVi": "mỗi; các",
+      "pos": "determiner",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "各组先选一个联系人。",
+        "py": "gè zǔ xiān xuǎn yī gè lián xì rén .",
+        "en": "Each group first chooses a contact person."
+      },
+      "usageNote": "[GF2021:L3:2722] Source entry: 各; gè; 代、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w03",
+      "hanzi": "每",
+      "pinyin": "měi",
+      "meaning": "every; each",
+      "meaningVi": "mỗi",
+      "pos": "determiner",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每个人先听一遍。",
+        "py": "měi gè rén xiān tīng yī biàn .",
+        "en": "Each person listens once first."
+      },
+      "usageNote": "[GF2021:L3:5483] Source entry: 每; měi; 代、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w04",
+      "hanzi": "任何",
+      "pinyin": "rèn hé",
+      "meaning": "any; whatever",
+      "meaningVi": "bất kỳ",
+      "pos": "determiner",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "任何人都可以先来听。",
+        "py": "rèn hé rén dōu kě yǐ xiān lái tīng .",
+        "en": "Anyone may come and listen first."
+      },
+      "usageNote": "[GF2021:L3:6747] Source entry: 任何; rènhé; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w05",
+      "hanzi": "敢",
+      "pinyin": "gǎn",
+      "meaning": "to dare",
+      "meaningVi": "dám",
+      "pos": "modal",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我有点儿害怕，但敢试一次。",
+        "py": "wǒ yǒu diǎn ér hài pà , dàn gǎn shì yī cì .",
+        "en": "I am a little afraid but dare to try once."
+      },
+      "usageNote": "[GF2021:L3:2583] Source entry: 敢; gǎn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w06",
+      "hanzi": "害怕",
+      "pinyin": "hài pà",
+      "meaning": "to be afraid; fear",
+      "meaningVi": "sợ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "害怕说错，可以先慢慢说。",
+        "py": "hài pà shuō cuò , kě yǐ xiān màn màn shuō .",
+        "en": "If afraid of a mistake, start by speaking slowly."
+      },
+      "usageNote": "[GF2021:L3:3171] Source entry: 害怕; hài∥pà; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w07",
+      "hanzi": "怕",
+      "pinyin": "pà",
+      "meaning": "to fear; be afraid",
+      "meaningVi": "sợ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我怕说错，不是怕你。",
+        "py": "wǒ pà shuō cuò , bù shì pà nǐ .",
+        "en": "I am afraid of misspeaking, not of you."
+      },
+      "usageNote": "[GF2021:L3:5943] Source entry: 怕; pà; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w08",
+      "hanzi": "好奇",
+      "pinyin": "hào qí",
+      "meaning": "curious",
+      "meaningVi": "tò mò",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我很好奇，想先听听。",
+        "py": "wǒ hěn hào qí , xiǎng xiān tīng tīng .",
+        "en": "I am curious and would like to listen first."
+      },
+      "usageNote": "[GF2021:L3:3251] Source entry: 好奇; hàoqí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w09",
+      "hanzi": "容易",
+      "pinyin": "róng yì",
+      "meaning": "easy",
+      "meaningVi": "dễ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "第一段容易，不等于所有段都容易。",
+        "py": "dì yī duàn róng yì , bù děng yú suǒ yǒu duàn dōu róng yì .",
+        "en": "The first passage is easy, but not necessarily all passages."
+      },
+      "usageNote": "[GF2021:L3:6784] Source entry: 容易; róngyì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w10",
+      "hanzi": "难度",
+      "pinyin": "nán dù",
+      "meaning": "difficulty level",
+      "meaningVi": "độ khó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "难度不同，可以先选适合的。",
+        "py": "nán dù bù tóng , kě yǐ xiān xuǎn shì hé de .",
+        "en": "The difficulty varies; start by choosing what suits you."
+      },
+      "usageNote": "[GF2021:L3:5789] Source entry: 难度; nándù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w11",
+      "hanzi": "能力",
+      "pinyin": "néng lì",
+      "meaning": "ability",
+      "meaningVi": "năng lực",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "能力要看实际表现，不是看年纪。",
+        "py": "néng lì yào kàn shí jì biǎo xiàn , bù shì kàn nián jì .",
+        "en": "Ability depends on actual performance, not age."
+      },
+      "usageNote": "[GF2021:L3:5839] Source entry: 能力; nénglì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w12",
+      "hanzi": "才能",
+      "pinyin": "cái néng",
+      "meaning": "talent; ability",
+      "meaningVi": "tài năng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "才能不能只从一张照片判断。",
+        "py": "cái néng bù néng zhǐ cóng yī zhāng zhào piān pàn duàn .",
+        "en": "Talent cannot be judged from one photograph."
+      },
+      "usageNote": "[GF2021:L3:668] Source entry: 才能; cáinéng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w13",
+      "hanzi": "资格",
+      "pinyin": "zī gé",
+      "meaning": "qualification; eligibility",
+      "meaningVi": "tư cách; điều kiện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "来听不等于已经有比赛资格。",
+        "py": "lái tīng bù děng yú yǐ jīng yǒu bǐ sài zī gé .",
+        "en": "Attending to listen does not mean being eligible for the competition."
+      },
+      "usageNote": "[GF2021:L3:10884] Source entry: 资格; zīgé; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w14",
+      "hanzi": "足够",
+      "pinyin": "zú gòu",
+      "meaning": "enough; sufficient",
+      "meaningVi": "đủ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "时间足够，先把要求看完。",
+        "py": "shí jiān zú gòu , xiān bǎ yāo qiú kàn wán .",
+        "en": "There is enough time; finish reading the requirements first."
+      },
+      "usageNote": "[GF2021:L3:11001] Source entry: 足够; zúgòu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w15",
+      "hanzi": "标准",
+      "pinyin": "biāo zhǔn",
+      "meaning": "standard; criterion",
+      "meaningVi": "tiêu chuẩn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "标准写在通知上。",
+        "py": "biāo zhǔn xiě zài tōng zhī shàng .",
+        "en": "The criteria are written on the notice."
+      },
+      "usageNote": "[GF2021:L3:435] Source entry: 标准; biāozhǔn; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w16",
+      "hanzi": "公开",
+      "pinyin": "gōng kāi",
+      "meaning": "public; to make public",
+      "meaningVi": "công khai",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是公开活动，但报名还有要求。",
+        "py": "zhè shì gōng kāi huó dòng , dàn bào míng hái yǒu yāo qiú .",
+        "en": "It is a public event, but registration still has requirements."
+      },
+      "usageNote": "[GF2021:L3:2790] Source entry: 公开; gōngkāi; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w17",
+      "hanzi": "开放",
+      "pinyin": "kāi fàng",
+      "meaning": "open; to open",
+      "meaningVi": "mở; cởi mở",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天开放旁听，不是开放所有比赛。",
+        "py": "jīn tiān kāi fàng páng tīng , bù shì kāi fàng suǒ yǒu bǐ sài .",
+        "en": "Listening attendance is open today, not every competition."
+      },
+      "usageNote": "[GF2021:L3:4587] Source entry: 开放; kāifàng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w18",
+      "hanzi": "各地",
+      "pinyin": "gè dì",
+      "meaning": "various places",
+      "meaningVi": "các nơi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "各地的朋友都来听。",
+        "py": "gè dì de péng you dōu lái tīng .",
+        "en": "Friends from various places come to listen."
+      },
+      "usageNote": "[GF2021:L3:2724] Source entry: 各地; gèdì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w19",
+      "hanzi": "各位",
+      "pinyin": "gè wèi",
+      "meaning": "everyone; all of you",
+      "meaningVi": "quý vị; mọi người",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "各位先坐，再看通知。",
+        "py": "gè wèi xiān zuò , zài kàn tōng zhī .",
+        "en": "Everyone, sit first and then look at the notice."
+      },
+      "usageNote": "[GF2021:L3:2727] Source entry: 各位; gèwèi; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w20",
+      "hanzi": "各种",
+      "pinyin": "gè zhǒng",
+      "meaning": "various kinds",
+      "meaningVi": "nhiều loại",
+      "pos": "determiner",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "各种难度都有，不必都选。",
+        "py": "gè zhǒng nán dù dōu yǒu , bù bì dōu xuǎn .",
+        "en": "There are various difficulties; you need not choose them all."
+      },
+      "usageNote": "[GF2021:L3:2728] Source entry: 各种; gèzhǒng; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w21",
+      "hanzi": "各自",
+      "pinyin": "gè zì",
+      "meaning": "each on their own",
+      "meaningVi": "mỗi người tự",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "大家各自选一段。",
+        "py": "dà jiā gè zì xuǎn yī duàn .",
+        "en": "Each person chooses a passage independently."
+      },
+      "usageNote": "[GF2021:L3:2729] Source entry: 各自; gèzì; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u02-w22",
+      "hanzi": "范围",
+      "pinyin": "fàn wéi",
+      "meaning": "range; scope",
+      "meaningVi": "phạm vi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "开放的范围是旁听。",
+        "py": "kāi fàng de fàn wéi shì páng tīng .",
+        "en": "The scope of openness is listening attendance."
+      },
+      "usageNote": "[GF2021:L3:2236] Source entry: 范围; fànwéi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "敢",
+      "pinyin": "gǎn",
+      "meaning": "to dare",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "敢",
+          "role": "whole",
+          "gloss": "to dare"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 敢 in 敢. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "敢",
+          "p": "gǎn",
+          "m": "to dare"
+        }
+      ]
+    },
+    {
+      "hanzi": "害",
+      "pinyin": "hài",
+      "meaning": "harm; fear in 害怕",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "害",
+          "role": "whole",
+          "gloss": "harm; fear in 害怕"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 害 in 害怕. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "害怕",
+          "p": "hài pà",
+          "m": "to be afraid; fear"
+        }
+      ]
+    },
+    {
+      "hanzi": "各",
+      "pinyin": "gè",
+      "meaning": "each; every",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "各",
+          "role": "whole",
+          "gloss": "each; every"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 各 in 各 / 各地. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "各",
+          "p": "gè",
+          "m": "each; every"
+        },
+        {
+          "w": "各地",
+          "p": "gè dì",
+          "m": "various places"
+        }
+      ]
+    },
+    {
+      "hanzi": "每",
+      "pinyin": "měi",
+      "meaning": "every",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "每",
+          "role": "whole",
+          "gloss": "every"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 每 in 每 / 每天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "每",
+          "p": "měi",
+          "m": "every; each"
+        },
+        {
+          "w": "每天",
+          "p": "měi tiān",
+          "m": "every day"
+        }
+      ]
+    },
+    {
+      "hanzi": "何",
+      "pinyin": "hé",
+      "meaning": "what; which",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "何",
+          "role": "whole",
+          "gloss": "what; which"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 何 in 任何. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "任何",
+          "p": "rèn hé",
+          "m": "any; whatever"
+        }
+      ]
+    },
+    {
+      "hanzi": "格",
+      "pinyin": "gé",
+      "meaning": "pattern; standard",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "格",
+          "role": "whole",
+          "gloss": "pattern; standard"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 格 in 资格 / 价格. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "资格",
+          "p": "zī gé",
+          "m": "qualification; eligibility"
+        },
+        {
+          "w": "价格",
+          "p": "jià gé",
+          "m": "price"
+        }
+      ]
+    },
+    {
+      "hanzi": "群",
+      "pinyin": "qún",
+      "meaning": "group; crowd",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "群",
+          "role": "whole",
+          "gloss": "group; crowd"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 群 in 群. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "群",
+          "p": "qún",
+          "m": "group chat; group"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u02-g三03",
+      "pattern": "敢 + 动词：勇气与意愿",
+      "purpose": "Separate willingness from ability and permission",
+      "explanation": "敢说 expresses daring to speak despite hesitation. 不敢 says the courage is lacking; it does not prove the person cannot speak or is prohibited. 敢不敢试？ asks willingness; 能不能试？ may ask ability or permission in context. Do not pressure a refusal: 可以先听 allows a gradual start.",
+      "examples": [
+        {
+          "zh": "我不敢说，但听得懂。",
+          "py": "wǒ bù gǎn shuō , dàn tīng dé dǒng .",
+          "en": "I do not dare speak, but can understand."
+        },
+        {
+          "zh": "敢不敢先试一句？",
+          "py": "gǎn bù gǎn xiān shì yī jù ?",
+          "en": "Would you dare try one sentence first?"
+        },
+        {
+          "zh": "现在不想试，也可以先听。",
+          "py": "xiàn zài bù xiǎng shì , yě kě yǐ xiān tīng .",
+          "en": "If you do not want to try now, you may listen first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "不敢说就是不会说。",
+          "right": "不敢说不一定是不会说。",
+          "why": "Courage, competence and permission are separate meanings."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u02-g三07",
+      "pattern": "谁都 / 哪儿都 / 疑问词呼应 / 不定指",
+      "purpose": "Read a question word used without a question",
+      "explanation": "谁都可以先来听 means everyone is permitted to listen; 谁可以来听？ asks who may attend. 你想读什么，就读什么 links the selected object across clauses. 我想问你什么事 is unnatural for the intended vague sense; 我想问你点儿什么 can mean something unspecified, while 我想问你一件事 is clearer. Scope matters: 谁都 can be narrowed by the notice, and 谁都不 says nobody.",
+      "examples": [
+        {
+          "zh": "谁都可以先来听。",
+          "py": "shéi dōu kě yǐ xiān lái tīng .",
+          "en": "Anyone may come and listen first."
+        },
+        {
+          "zh": "你想读什么，就读什么。",
+          "py": "nǐ xiǎng dú shén me , jiù dú shén me .",
+          "en": "Read whatever you want to read."
+        },
+        {
+          "zh": "今天哪儿都不去，就在这里。",
+          "py": "jīn tiān nǎr dōu bù qù , jiù zài zhè lǐ .",
+          "en": "Go nowhere today; stay here."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "谁都不去就是谁都去。",
+          "right": "谁都不去，就是没有人去。",
+          "why": "The negation changes an inclusive claim to nobody."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u02-d",
+    "title": "Open to listeners",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the scope of the invitation and the choice each person makes.",
+    "lines": [
+      {
+        "zh": "各位，今天谁都可以先来听。",
+        "py": "gè wèi , jīn tiān shéi dōu kě yǐ xiān lái tīng .",
+        "en": "Everyone, anyone may come and listen first today.",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用比赛资格吗？",
+        "py": "bù yòng bǐ sài zī gé ma ?",
+        "en": "No competition eligibility needed?",
+        "speaker": "b"
+      },
+      {
+        "zh": "旁听不用，比赛报名要另看标准。",
+        "py": "páng tīng bù yòng , bǐ sài bào míng yào lìng kàn biāo zhǔn .",
+        "en": "Not for listening; competition registration has separate criteria.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我有点儿害怕，不敢马上说。",
+        "py": "wǒ yǒu diǎn ér hài pà , bù gǎn mǎ shàng shuō .",
+        "en": "I am a little afraid and do not dare speak immediately.",
+        "speaker": "b"
+      },
+      {
+        "zh": "可以先听。想读什么，就先选什么。",
+        "py": "kě yǐ xiān tīng . xiǎng dú shén me , jiù xiān xuǎn shén me .",
+        "en": "You may listen first. Start by selecting what you want to read.",
+        "speaker": "a"
+      },
+      {
+        "zh": "各种难度都有，每个人必须全读吗？",
+        "py": "gè zhǒng nán dù dōu yǒu , měi gè rén bì xū quán dú ma ?",
+        "en": "There are various difficulties; must each person read them all?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不用，大家各自选一段，时间足够。",
+        "py": "bù yòng , dà jiā gè zì xuǎn yī duàn , shí jiān zú gòu .",
+        "en": "No; each chooses one passage and there is enough time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，我先选容易的一段，再试一句。",
+        "py": "hǎo , wǒ xiān xuǎn róng yì de yī duàn , zài shì yī jù .",
+        "en": "Okay; I will choose an easy passage first and then try one sentence.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is open to anyone?",
+        "choices": [
+          "Listening attendance",
+          "Every competition place",
+          "An automatic certificate"
+        ],
+        "answer": "Listening attendance"
+      },
+      {
+        "type": "detail",
+        "q": "How much must each person choose?",
+        "choices": [
+          "One passage",
+          "All passages",
+          "No passage may be chosen"
+        ],
+        "answer": "One passage"
+      },
+      {
+        "type": "inference",
+        "q": "Does not daring to speak prove no ability?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only at public events"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "to sign up"
+      },
+      {
+        "hanzi": "比赛",
+        "pinyin": "bǐ sài",
+        "meaning": "competition"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u02-r",
+    "title": "Read the scope before joining",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Separate inclusive language from an unstated guarantee.",
+    "lines": [
+      {
+        "zh": "公开活动今天开放旁听，任何人都可以先来听。",
+        "py": "gōng kāi huó dòng jīn tiān kāi fàng páng tīng , rèn hé rén dōu kě yǐ xiān lái tīng .",
+        "en": "The public event opens listening attendance today; anyone may listen first."
+      },
+      {
+        "zh": "比赛资格和标准写在另一张通知上。",
+        "py": "bǐ sài zī gé hé biāo zhǔn xiě zài lìng yī zhāng tōng zhī shàng .",
+        "en": "Competition eligibility and criteria are on a separate notice."
+      },
+      {
+        "zh": "谁都可以听，不是说谁都已经有比赛资格。",
+        "py": "shéi dōu kě yǐ tīng , bù shì shuō shéi dōu yǐ jīng yǒu bǐ sài zī gé .",
+        "en": "Everyone may listen; it does not say everyone is already eligible to compete."
+      },
+      {
+        "zh": "每个人各自选一段，不用把各种难度都选。",
+        "py": "měi gè rén gè zì xuǎn yī duàn , bù yòng bǎ gè zhǒng nán dù dōu xuǎn .",
+        "en": "Each person selects one passage independently; no need to select every difficulty."
+      },
+      {
+        "zh": "害怕说错可以先听，不敢和不会不是同一个意思。",
+        "py": "hài pà shuō cuò kě yǐ xiān tīng , bù gǎn hé bù huì bù shì tóng yī gè yì si .",
+        "en": "If afraid of a mistake, listen first; not daring and not knowing how differ."
+      },
+      {
+        "zh": "你想读什么就读什么，但是先看这次允许的范围。",
+        "py": "nǐ xiǎng dú shén me jiù dú shén me , dàn shì xiān kàn zhè cì yǔn xǔ de fàn wéi .",
+        "en": "Read what you want, but first check the scope permitted this time."
+      },
+      {
+        "zh": "各组都有不同安排，各地朋友也不能替别人选择。",
+        "py": "gè zǔ dōu yǒu bù tóng ān pái , gè dì péng you yě bù néng tì bié ren xuǎn zé .",
+        "en": "Each group has different arrangements; friends from different places cannot choose on others’ behalf."
+      },
+      {
+        "zh": "时间足够，先问清楚，再决定试不试。",
+        "py": "shí jiān zú gòu , xiān wèn qīng chǔ , zài jué dìng shì bù shì .",
+        "en": "There is enough time; clarify first and then decide whether to try."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note explain?",
+        "choices": [
+          "Scope, choice and willingness",
+          "Everyone’s certified talent",
+          "A requirement to read every passage"
+        ],
+        "answer": "Scope, choice and willingness"
+      },
+      {
+        "type": "detail",
+        "q": "Where are competition criteria?",
+        "choices": [
+          "On a separate notice",
+          "In everyone’s photograph",
+          "In the first passage only"
+        ],
+        "answer": "On a separate notice"
+      },
+      {
+        "type": "inference",
+        "q": "Is listening permission a competition qualification?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only for older attendees"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "公开活动今天开放旁听，【任何】人都可以先来听。",
+          "py": "gōng kāi huó dòng jīn tiān kāi fàng páng tīng , rèn hé rén dōu kě yǐ xiān lái tīng .",
+          "en": "The public event opens listening attendance today; anyone may listen first."
+        },
+        {
+          "zh": "时间【足够】，先问清楚，再决定试不试。",
+          "py": "shí jiān zú gòu , xiān wèn qīng chǔ , zài jué dìng shì bù shì .",
+          "en": "There is enough time; clarify first and then decide whether to try."
+        }
+      ],
+      "bank": [
+        "任何",
+        "足够",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "选择",
+        "pinyin": "xuǎn zé",
+        "meaning": "choice; to choose"
+      },
+      {
+        "hanzi": "允许",
+        "pinyin": "yǔn xǔ",
+        "meaning": "to allow"
+      },
+      {
+        "hanzi": "比赛",
+        "pinyin": "bǐ sài",
+        "meaning": "competition"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u02-media",
+      "title": "An inclusive invitation, one brave sentence",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a small first attempt.",
+      "lines": [
+        {
+          "zh": "谁都可以听，那我只听就行？",
+          "py": "shéi dōu kě yǐ tīng , nà wǒ zhǐ tīng jiù xíng ?",
+          "en": "Anyone may listen, so just listening is fine for me?",
+          "speaker": "a"
+        },
+        {
+          "zh": "行。谁都可以，不是每个人都必须马上说。",
+          "py": "xíng . shéi dōu kě yǐ , bù shì měi gè rén dōu bì xū mǎ shàng shuō .",
+          "en": "Yes. Anyone may do it does not mean everyone must speak immediately.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我选容易的，先试一句。",
+          "py": "wǒ xuǎn róng yì de , xiān shì yī jù .",
+          "en": "I will choose the easy one and try one sentence first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "有点儿害怕，也敢试。这两件事可以一起。",
+          "py": "yǒu diǎn ér hài pà , yě gǎn shì . zhè liǎng jiàn shì kě yǐ yì qǐ .",
+          "en": "A little afraid, yet willing to try: those can coexist.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我说错了呢？",
+          "py": "nà wǒ shuō cuò le ne ?",
+          "en": "What if I get it wrong?",
+          "speaker": "a"
+        },
+        {
+          "zh": "再听一次。资格不靠这一次乱猜。",
+          "py": "zài tīng yī cì . zī gé bù kào zhè yī cì luàn cāi .",
+          "en": "Listen again. We do not guess your qualification from this one attempt.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the small attempt meant to do?",
+          "choices": [
+            "Allow voluntary practice",
+            "Certify competition eligibility",
+            "Prohibit future listening"
+          ],
+          "answer": "Allow voluntary practice"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u02-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这群人先看要求。",
+          "py": "zhè qún rén xiān kàn yāo qiú .",
+          "en": "This group first checks the requirements."
+        },
+        {
+          "zh": "一群朋友来了，不等于他们都报名了。",
+          "py": "yī qún péng you lái le , bù děng yú tā men dōu bào míng le .",
+          "en": "A group of friends arrived; it does not mean all of them registered."
+        },
+        {
+          "zh": "任何人都可以先来听。",
+          "py": "rèn hé rén dōu kě yǐ xiān lái tīng .",
+          "en": "Anyone may come and listen first."
+        },
+        {
+          "zh": "我很好奇，想先听听。",
+          "py": "wǒ hěn hào qí , xiǎng xiān tīng tīng .",
+          "en": "I am curious and would like to listen first."
+        },
+        {
+          "zh": "我对比赛很好奇，但还没决定参加。",
+          "py": "wǒ duì bǐ sài hěn hào qí , dàn hái méi jué dìng cān jiā .",
+          "en": "I am curious about the competition but have not decided to enter."
+        },
+        {
+          "zh": "能力要看实际表现，不是看年纪。",
+          "py": "néng lì yào kàn shí jì biǎo xiàn , bù shì kàn nián jì .",
+          "en": "Ability depends on actual performance, not age."
+        },
+        {
+          "zh": "有能力的人也可以选择先听。",
+          "py": "yǒu néng lì de rén yě kě yǐ xuǎn zé xiān tīng .",
+          "en": "A capable person can also choose to listen first."
+        },
+        {
+          "zh": "才能不能只从一张照片判断。",
+          "py": "cái néng bù néng zhǐ cóng yī zhāng zhào piān pàn duàn .",
+          "en": "Talent cannot be judged from one photograph."
+        },
+        {
+          "zh": "她有语言才能，也需要练习。",
+          "py": "tā yǒu yǔ yán cái néng , yě xū yào liàn xí .",
+          "en": "She has a talent for languages and still needs practice."
+        },
+        {
+          "zh": "这是公开活动，但报名还有要求。",
+          "py": "zhè shì gōng kāi huó dòng , dàn bào míng hái yǒu yāo qiú .",
+          "en": "It is a public event, but registration still has requirements."
+        },
+        {
+          "zh": "今天开放旁听，不是开放所有比赛。",
+          "py": "jīn tiān kāi fàng páng tīng , bù shì kāi fàng suǒ yǒu bǐ sài .",
+          "en": "Listening attendance is open today, not every competition."
+        },
+        {
+          "zh": "各地的朋友都来听。",
+          "py": "gè dì de péng you dōu lái tīng .",
+          "en": "Friends from various places come to listen."
+        },
+        {
+          "zh": "各位先坐，再看通知。",
+          "py": "gè wèi xiān zuò , zài kàn tōng zhī .",
+          "en": "Everyone, sit first and then look at the notice."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "to sign up"
+        },
+        {
+          "hanzi": "要求",
+          "pinyin": "yāo qiú",
+          "meaning": "requirement"
+        },
+        {
+          "hanzi": "选择",
+          "pinyin": "xuǎn zé",
+          "meaning": "choice; to choose"
+        },
+        {
+          "hanzi": "比赛",
+          "pinyin": "bǐ sài",
+          "meaning": "competition"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u02-t1",
+      "phrase": "s3-u02-w13",
+      "audio": {
+        "zh": "旁听不用比赛资格。",
+        "py": "páng tīng bù yòng bǐ sài zī gé .",
+        "en": "Listening attendance does not need competition eligibility."
+      },
+      "statement": "Listening requires competition eligibility.",
+      "answer": false,
+      "why": "旁听 is explicitly distinguished."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u02-t2",
+      "phrase": "s3-u02-w05",
+      "audio": {
+        "zh": "害怕，但敢试一句。",
+        "py": "hài pà , dàn gǎn shì yī jù .",
+        "en": "Afraid, but willing to try one sentence."
+      },
+      "statement": "Fear and willingness coexist.",
+      "answer": true,
+      "why": "但 contrasts the two states."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u02-t3",
+      "phrase": "s3-u02-w21",
+      "prompt": {
+        "zh": "每个人都要读完所有段吗？",
+        "py": "měi gè rén dōu yào dú wán suǒ yǒu duàn ma ?",
+        "en": "Must each read every passage?"
+      },
+      "choices": [
+        "不用，各自选一段。",
+        "谁都就是一个人。",
+        "资格是照片的颜色。"
+      ],
+      "answer": "不用，各自选一段。",
+      "why": "Follow the stated selection rule."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u02-t4",
+      "phrase": "s3-u02-w07",
+      "prompt": {
+        "zh": "我不敢马上说。",
+        "py": "wǒ bù gǎn mǎ shàng shuō .",
+        "en": "I do not dare speak immediately."
+      },
+      "choices": [
+        "没关系，可以先听。",
+        "所以你一定不会。",
+        "必须现在说所有段。"
+      ],
+      "answer": "没关系，可以先听。",
+      "why": "Permit a gradual voluntary start."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u02-t5",
+      "phrase": "s3-u02-w22",
+      "line": {
+        "zh": "先看允许的【范围】。",
+        "py": "xiān kàn yǔn xǔ de fàn wéi .",
+        "en": "Check the permitted scope first."
+      },
+      "blankPy": "fàn wéi"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u02-t6",
+      "phrase": "s3-u02-w15",
+      "line": {
+        "zh": "比赛【标准】写在通知上。",
+        "py": "bǐ sài biāo zhǔn xiě zài tōng zhī shàng .",
+        "en": "Competition criteria are on the notice."
+      },
+      "blankPy": "biāo zhǔn"
+    },
+    {
+      "type": "match",
+      "id": "s3-u02-t7",
+      "phrase": "s3-u02-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Anyone may listen first.",
+          "right": {
+            "zh": "谁都可以先听。",
+            "py": "shéi dōu kě yǐ xiān tīng .",
+            "en": "Anyone may listen first."
+          }
+        },
+        {
+          "left": "Who may listen first?",
+          "right": {
+            "zh": "谁可以先听？",
+            "py": "shéi kě yǐ xiān tīng ?",
+            "en": "Who may listen first?"
+          }
+        },
+        {
+          "left": "Nobody goes.",
+          "right": {
+            "zh": "谁都不去。",
+            "py": "shéi dōu bù qù .",
+            "en": "Nobody goes."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u02-t8",
+      "phrase": "s3-u02-w21",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Each chooses one passage independently.",
+          "right": {
+            "zh": "各自选一段。",
+            "py": "gè zì xuǎn yī duàn .",
+            "en": "Each chooses one passage independently."
+          }
+        },
+        {
+          "left": "Read whatever you wish.",
+          "right": {
+            "zh": "想读什么就读什么。",
+            "py": "xiǎng dú shén me jiù dú shén me .",
+            "en": "Read whatever you wish."
+          }
+        },
+        {
+          "left": "Does not dare speak immediately.",
+          "right": {
+            "zh": "不敢马上说。",
+            "py": "bù gǎn mǎ shàng shuō .",
+            "en": "Does not dare speak immediately."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u02-t9",
+      "phrase": "s3-u02-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "She can not only read but also speak.",
+          "right": {
+            "zh": "她不但能读，而且能说。",
+            "py": "tā bù dàn néng dú , ér qiě néng shuō .",
+            "en": "She can not only read but also speak."
+          }
+        },
+        {
+          "left": "Practice makes it clearer, but it is not yet perfect.",
+          "right": {
+            "zh": "越练越清楚，还不是完美。",
+            "py": "yuè liàn yuè qīng chǔ , hái bù shì wán měi .",
+            "en": "Practice makes it clearer, but it is not yet perfect."
+          }
+        },
+        {
+          "left": "Because responsibilities were clear, the work was not duplicated.",
+          "right": {
+            "zh": "因为分工清楚，所以没有重复做。",
+            "py": "yīn wèi fēn gōng qīng chǔ , suǒ yǐ méi yǒu chóng fù zuò .",
+            "en": "Because responsibilities were clear, the work was not duplicated."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Express hesitant willingness",
+      "natural": {
+        "zh": "有点儿害怕，但想先试一句。",
+        "py": "yǒu diǎn ér hài pà , dàn xiǎng xiān shì yī jù .",
+        "en": "I am a little afraid, but want to try one sentence first."
+      },
+      "note": "No invented ability score."
+    },
+    {
+      "situation": "Clarify scope",
+      "natural": {
+        "zh": "谁都可以听，比赛要另看标准，对吗？",
+        "py": "shéi dōu kě yǐ tīng , bǐ sài yào lìng kàn biāo zhǔn , duì ma ?",
+        "en": "Anyone may listen, but competition has separate criteria, right?"
+      },
+      "note": "Confirm before treating an invitation as eligibility."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u02-speak",
+    "title": "Anyone can join",
+    "place": "A language-exchange meeting",
+    "context": "Invite freely and express courage without pressure.",
+    "goal": "Read 谁都 and other non-question uses without assuming a question",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "不敢马上说吗？",
+        "pinyin": "bù gǎn mǎ shàng shuō ma ?",
+        "meaning": "Do you not dare speak immediately?",
+        "intent": "Choose a gradual start",
+        "examples": [
+          "我可以先听。"
+        ],
+        "accept": [
+          "^我可以先听。[。！？]?$"
+        ]
+      },
+      {
+        "text": "想读什么？",
+        "pinyin": "xiǎng dú shén me ?",
+        "meaning": "What would you like to read?",
+        "intent": "Choose one suitable passage",
+        "examples": [
+          "我先选容易的一段。"
+        ],
+        "accept": [
+          "^我先选容易的一段。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三03, 三07. Native check: 敢 versus 能/可以, 谁都 with negation and restricted scope, interrogative-word echo constructions, indefinite 点儿什么 and each versus all. Public participation is a fictional event arrangement, not a universal competition policy. Native review pending. Planned retrieval 二44 / 二63 / 二68: 她不但能读，而且能说。, 越练越清楚，还不是完美。, 因为分工清楚，所以没有重复做。."
+}

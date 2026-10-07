@@ -17,6 +17,10 @@ if ($Level -eq 2) {
   & $python scripts/course-authoring/batch-09.py > "$prefix-editorial-correction.log" 2>&1
   Require-Exit 'Reserialize the reviewed safety wording with unchanged unit IDs'
 }
+if ($Level -eq 3) {
+  & $python scripts/course-authoring/batch-07.py > "$prefix-coverage-correction.log" 2>&1
+  Require-Exit 'Align the temporal adverbial entry with its explicit source classification'
+}
 & $python "scripts/course-authoring/exam-bank-$Level.py" --install > "$prefix-bank.log" 2>&1
 Require-Exit 'Exam-bank serialization'
 & npm.cmd run packs > "$prefix-bank-preflight.log" 2>&1

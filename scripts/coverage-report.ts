@@ -93,10 +93,12 @@ export function auditCoverage(
       adverb: "副",
       pronoun: "代",
       "measure word": "量",
+      classifier: "量",
       particle: "助",
       preposition: "介",
       conjunction: "连",
       suffix: "后缀",
+      prefix: "前缀",
     };
     const hasSenseEvidence = (w: string, r: (typeof rows)[number]) =>
       input.packs.some((p) =>
@@ -111,7 +113,7 @@ export function auditCoverage(
     const sourceAliases: Record<string, string[]> = {
       "有（一）点儿": ["有点儿", "有一点儿"], "家（科学家）": ["家"],
       "老（老王）": ["老"], "小（小王）": ["小"], "头（里头）": ["头"],
-      "面1": ["面"], "面2": ["面"],
+      "面1": ["面"], "面2": ["面"], "称1": ["称"],
     };
     const sourceReadings = (r: (typeof rows)[number], word: string) => {
       if (r.entry === "有（一）点儿") return word === "有点儿" ? ["yǒudiǎnr"] : ["yǒuyìdiǎnr"];

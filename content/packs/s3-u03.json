@@ -1,0 +1,1258 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u03",
+    "stage": 2,
+    "order": 67,
+    "title": "We need volunteers",
+    "titleZh": "需要帮忙先说清楚",
+    "canDo": [
+      "Distinguish a real need from voluntary consent",
+      "Assign tasks and state each person’s role",
+      "Interpret 各、每 and 任何 with their stated scope"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u02"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u03-w01",
+      "hanzi": "需要",
+      "pinyin": "xū yào",
+      "meaning": "to need; require",
+      "meaningVi": "cần",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "需要两个人，不是说你必须答应。",
+        "py": "xū yào liǎng gè rén , bù shì shuō nǐ bì xū dā yìng .",
+        "en": "Two people are needed; that does not mean you must agree."
+      },
+      "usageNote": "[GF2021:L3:9156] Source entry: 需要; xūyào; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w02",
+      "hanzi": "需求",
+      "pinyin": "xū qiú",
+      "meaning": "need; demand",
+      "meaningVi": "nhu cầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先写实际需求，再招募。",
+        "py": "xiān xiě shí jì xū qiú , zài zhāo mù .",
+        "en": "Write the actual needs before recruiting."
+      },
+      "usageNote": "[GF2021:L3:9155] Source entry: 需求; xūqiú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w03",
+      "hanzi": "志愿",
+      "pinyin": "zhì yuàn",
+      "meaning": "aspiration; voluntary intention",
+      "meaningVi": "nguyện vọng; tự nguyện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "志愿不是别人替我决定的。",
+        "py": "zhì yuàn bù shì bié ren tì wǒ jué dìng de .",
+        "en": "Voluntary intention is not something another person decides for me."
+      },
+      "usageNote": "[GF2021:L3:10563] Source entry: 志愿; zhìyuàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w04",
+      "hanzi": "志愿者",
+      "pinyin": "zhì yuàn zhě",
+      "meaning": "volunteer",
+      "meaningVi": "tình nguyện viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "志愿者可以先问工作内容。",
+        "py": "zhì yuàn zhě kě yǐ xiān wèn gōng zuò nèi róng .",
+        "en": "A volunteer may first ask about the work."
+      },
+      "usageNote": "[GF2021:L3:10564] Source entry: 志愿者; zhìyuànzhě; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w05",
+      "hanzi": "者",
+      "pinyin": "zhě",
+      "meaning": "suffix for a person who acts or has a role",
+      "meaningVi": "hậu tố chỉ người",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "志愿者里的者说的是人。",
+        "py": "zhì yuàn zhě lǐ de zhě shuō de shì rén .",
+        "en": "者 in 志愿者 refers to a person."
+      },
+      "usageNote": "[GF2021:L3:10328] Source entry: 者（志愿者）; zhě (zhìyuànzhě); 后缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w06",
+      "hanzi": "员",
+      "pinyin": "yuán",
+      "meaning": "suffix for a member or worker",
+      "meaningVi": "hậu tố chỉ thành viên hoặc nhân viên",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "服务员里的员不是一个独立的名字。",
+        "py": "fú wù yuán lǐ de yuán bù shì yī gè dú lì de míng zi .",
+        "en": "员 in 服务员 is not an independent name."
+      },
+      "usageNote": "[GF2021:L3:9996] Source entry: 员（服务员）; yuán（fúwùyuán）; 后缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w07",
+      "hanzi": "员工",
+      "pinyin": "yuán gōng",
+      "meaning": "employee",
+      "meaningVi": "nhân viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "员工和值班志愿者的安排不同。",
+        "py": "yuán gōng hé zhí bān zhì yuàn zhě de ān pái bù tóng .",
+        "en": "Employees and volunteers on duty have different arrangements."
+      },
+      "usageNote": "[GF2021:L3:9997] Source entry: 员工; yuángōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w08",
+      "hanzi": "任务",
+      "pinyin": "rèn wù",
+      "meaning": "task; assignment",
+      "meaningVi": "nhiệm vụ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "任务是搬两把椅子，不是搬所有东西。",
+        "py": "rèn wù shì bān liǎng bǎ yǐ zi , bù shì bān suǒ yǒu dōng xi .",
+        "en": "The task is moving two chairs, not every object."
+      },
+      "usageNote": "[GF2021:L3:6751] Source entry: 任务; rènwu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w09",
+      "hanzi": "责任",
+      "pinyin": "zé rèn",
+      "meaning": "responsibility",
+      "meaningVi": "trách nhiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先说清楚责任，再答应。",
+        "py": "xiān shuō qīng chǔ zé rèn , zài dā yìng .",
+        "en": "Clarify responsibilities before agreeing."
+      },
+      "usageNote": "[GF2021:L3:10182] Source entry: 责任; zérèn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w10",
+      "hanzi": "负责",
+      "pinyin": "fù zé",
+      "meaning": "to be responsible for",
+      "meaningVi": "phụ trách",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她负责入口，我负责名单。",
+        "py": "tā fù zé rù kǒu , wǒ fù zé míng dān .",
+        "en": "She handles the entrance and I handle the list."
+      },
+      "usageNote": "[GF2021:L3:2494] Source entry: 负责; fùzé; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w11",
+      "hanzi": "安排",
+      "pinyin": "ān pái",
+      "meaning": "to arrange; arrangement",
+      "meaningVi": "sắp xếp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "时间由大家一起安排。",
+        "py": "shí jiān yóu dà jiā yì qǐ ān pái .",
+        "en": "Everyone arranges the time together."
+      },
+      "usageNote": "[GF2021:L3:37] Source entry: 安排; ānpái; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w12",
+      "hanzi": "分配",
+      "pinyin": "fēn pèi",
+      "meaning": "to distribute; allocate",
+      "meaningVi": "phân công; phân phối",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先分配任务，不要两个人重复做。",
+        "py": "xiān fēn pèi rèn wù , bú yào liǎng gè rén chóng fù zuò .",
+        "en": "Allocate tasks first so two people do not duplicate them."
+      },
+      "usageNote": "[GF2021:L3:2347] Source entry: 分配; fēnpèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w13",
+      "hanzi": "分组",
+      "pinyin": "fēn zǔ",
+      "meaning": "to form groups",
+      "meaningVi": "chia nhóm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先分组，每组两个人。",
+        "py": "xiān fēn zǔ , měi zǔ liǎng gè rén .",
+        "en": "Form groups first, with two people per group."
+      },
+      "usageNote": "[GF2021:L3:2359] Source entry: 分组; fēn zǔ; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w14",
+      "hanzi": "集体",
+      "pinyin": "jí tǐ",
+      "meaning": "collective; group",
+      "meaningVi": "tập thể",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "集体决定，也要听每个人的意见。",
+        "py": "jí tǐ jué dìng , yě yào tīng měi gè rén de yì jiàn .",
+        "en": "A group decision still needs each person’s views heard."
+      },
+      "usageNote": "[GF2021:L3:3766] Source entry: 集体; jítǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w15",
+      "hanzi": "共同",
+      "pinyin": "gòng tóng",
+      "meaning": "shared; jointly",
+      "meaningVi": "chung; cùng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是共同任务，不是谁一个人的。",
+        "py": "zhè shì gòng tóng rèn wù , bù shì shéi yī gè rén de .",
+        "en": "This is a shared task, not one person’s alone."
+      },
+      "usageNote": "[GF2021:L3:2852] Source entry: 共同; gòngtóng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w16",
+      "hanzi": "共有",
+      "pinyin": "gòng yǒu",
+      "meaning": "to have in total; share possession",
+      "meaningVi": "có tổng cộng; cùng có",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们共有四把椅子。",
+        "py": "wǒ men gòng yǒu sì bǎ yǐ zi .",
+        "en": "Together we have four chairs."
+      },
+      "usageNote": "[GF2021:L3:2856] Source entry: 共有; gòngyǒu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w17",
+      "hanzi": "合作",
+      "pinyin": "hé zuò",
+      "meaning": "to cooperate",
+      "meaningVi": "hợp tác",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "合作前，先说谁做什么。",
+        "py": "hé zuò qián , xiān shuō shéi zuò shén me .",
+        "en": "Before cooperating, specify who does what."
+      },
+      "usageNote": "[GF2021:L3:3277] Source entry: 合作; hézuò; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w18",
+      "hanzi": "积极",
+      "pinyin": "jī jí",
+      "meaning": "active; enthusiastic",
+      "meaningVi": "tích cực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "积极参加，也可以说自己时间不够。",
+        "py": "jī jí cān jiā , yě kě yǐ shuō zì jǐ shí jiān bù gòu .",
+        "en": "Participating enthusiastically does not prevent saying time is limited."
+      },
+      "usageNote": "[GF2021:L3:3699] Source entry: 积极; jījí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w19",
+      "hanzi": "支持",
+      "pinyin": "zhī chí",
+      "meaning": "to support",
+      "meaningVi": "ủng hộ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "支持活动，不一定能全程参加。",
+        "py": "zhī chí huó dòng , bù yí dìng néng quán chéng cān jiā .",
+        "en": "Supporting the event does not guarantee attending throughout."
+      },
+      "usageNote": "[GF2021:L3:10464] Source entry: 支持; zhīchí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w20",
+      "hanzi": "主动",
+      "pinyin": "zhǔ dòng",
+      "meaning": "on one’s initiative; proactive",
+      "meaningVi": "chủ động",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她主动问需要什么。",
+        "py": "tā zhǔ dòng wèn xū yào shén me .",
+        "en": "She proactively asks what is needed."
+      },
+      "usageNote": "[GF2021:L3:10712] Source entry: 主动; zhǔdòng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w21",
+      "hanzi": "团体",
+      "pinyin": "tuán tǐ",
+      "meaning": "group; organization",
+      "meaningVi": "đoàn thể; nhóm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "团体名单上有各位成员。",
+        "py": "tuán tǐ míng dān shàng yǒu gè wèi chéng yuán .",
+        "en": "The organization’s list names its members."
+      },
+      "usageNote": "[GF2021:L3:8169] Source entry: 团体; tuántǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u03-w22",
+      "hanzi": "队员",
+      "pinyin": "duì yuán",
+      "meaning": "team member",
+      "meaningVi": "thành viên đội",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每位队员先确认任务。",
+        "py": "měi wèi duì yuán xiān què rèn rèn wù .",
+        "en": "Each team member confirms the task first."
+      },
+      "usageNote": "[GF2021:L3:2016] Source entry: 队员; duìyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "需",
+      "pinyin": "xū",
+      "meaning": "to need",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "需",
+          "role": "whole",
+          "gloss": "to need"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 需 in 需要 / 需求. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "需要",
+          "p": "xū yào",
+          "m": "to need"
+        },
+        {
+          "w": "需求",
+          "p": "xū qiú",
+          "m": "need; demand"
+        }
+      ]
+    },
+    {
+      "hanzi": "员",
+      "pinyin": "yuán",
+      "meaning": "member; personnel",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "员",
+          "role": "whole",
+          "gloss": "member; personnel"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 员 in 员 / 员工. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "员",
+          "p": "yuán",
+          "m": "suffix for a member or worker"
+        },
+        {
+          "w": "员工",
+          "p": "yuán gōng",
+          "m": "employee"
+        }
+      ]
+    },
+    {
+      "hanzi": "志",
+      "pinyin": "zhì",
+      "meaning": "aspiration; will",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "志",
+          "role": "whole",
+          "gloss": "aspiration; will"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 志 in 志愿 / 志愿者. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "志愿",
+          "p": "zhì yuàn",
+          "m": "aspiration; voluntary intention"
+        },
+        {
+          "w": "志愿者",
+          "p": "zhì yuàn zhě",
+          "m": "volunteer"
+        }
+      ]
+    },
+    {
+      "hanzi": "责",
+      "pinyin": "zé",
+      "meaning": "responsibility",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "责",
+          "role": "whole",
+          "gloss": "responsibility"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 责 in 责任 / 负责. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "责任",
+          "p": "zé rèn",
+          "m": "responsibility"
+        },
+        {
+          "w": "负责",
+          "p": "fù zé",
+          "m": "to be responsible"
+        }
+      ]
+    },
+    {
+      "hanzi": "团",
+      "pinyin": "tuán",
+      "meaning": "group",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "团",
+          "role": "whole",
+          "gloss": "group"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 团 in 团体. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "团体",
+          "p": "tuán tǐ",
+          "m": "group; organization"
+        }
+      ]
+    },
+    {
+      "hanzi": "积",
+      "pinyin": "jī",
+      "meaning": "accumulate; positive in 积极",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "积",
+          "role": "whole",
+          "gloss": "accumulate; positive in 积极"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 积 in 积极. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "积极",
+          "p": "jī jí",
+          "m": "active; enthusiastic"
+        }
+      ]
+    },
+    {
+      "hanzi": "支",
+      "pinyin": "zhī",
+      "meaning": "branch; to support",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "支",
+          "role": "whole",
+          "gloss": "branch; to support"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 支 in 支持 / 支. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "支持",
+          "p": "zhī chí",
+          "m": "support; to support"
+        },
+        {
+          "w": "支",
+          "p": "zhī",
+          "m": "classifier for teams"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u03-g三04",
+      "pattern": "需要 + 名词 / 动词短语",
+      "purpose": "State a need without turning it into consent",
+      "explanation": "活动需要两个人 states a staffing need; 我需要休息 states a personal need. 需要 is not a volunteer’s promise. 不需要 contrasts absence of need with 不愿意, lack of willingness. Questions like 需要我帮忙吗？ offer help and still await an answer. State quantity and task scope, not a blanket requirement to obey.",
+      "examples": [
+        {
+          "zh": "活动需要两个人。",
+          "py": "huó dòng xū yào liǎng gè rén .",
+          "en": "The event needs two people."
+        },
+        {
+          "zh": "需要我搬椅子吗？",
+          "py": "xū yào wǒ bān yǐ zi ma ?",
+          "en": "Do you need me to move chairs?"
+        },
+        {
+          "zh": "我需要先看任务内容。",
+          "py": "wǒ xū yào xiān kàn rèn wù nèi róng .",
+          "en": "I need to see the task description first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "需要两个人，所以你已经答应了。",
+          "right": "需要两个人，还要问你愿不愿意。",
+          "why": "A need does not establish another person’s agreement."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u03-g三08",
+      "pattern": "各 / 各位 / 各种 / 每 / 任何",
+      "purpose": "Read distribution and the bounds of a general claim",
+      "explanation": "各组 distributes work by group; 每个人 by individual. 各位 politely addresses those present, not the whole world. 各种 names different kinds, not necessarily every possible type. 任何人都可以询问 uses any within the stated context; 任何人都不 may deny permission to everyone in that context. Always recover what set the statement concerns.",
+      "examples": [
+        {
+          "zh": "各组先确认时间。",
+          "py": "gè zǔ xiān què rèn shí jiān .",
+          "en": "Each group confirms the time first."
+        },
+        {
+          "zh": "每位队员搬两把椅子。",
+          "py": "měi wèi duì yuán bān liǎng bǎ yǐ zi .",
+          "en": "Each team member moves two chairs."
+        },
+        {
+          "zh": "任何人都可以先问内容。",
+          "py": "rèn hé rén dōu kě yǐ xiān wèn nèi róng .",
+          "en": "Anyone may first ask about the task."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "每组两个人，就是每个人两组。",
+          "right": "每组两个人，是一组有两个人。",
+          "why": "Do not reverse the distributed unit and the counted members."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u03-d",
+    "title": "A need is not a promise",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the volunteer’s actual availability and task.",
+    "lines": [
+      {
+        "zh": "周末需要两位志愿者，你愿意吗？",
+        "py": "zhōu mò xū yào liǎng wèi zhì yuàn zhě , nǐ yuàn yì ma ?",
+        "en": "Two volunteers are needed this weekend; are you willing?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我支持活动，但只能来一小时。",
+        "py": "wǒ zhī chí huó dòng , dàn zhǐ néng lái yī xiǎo shí .",
+        "en": "I support the event but can come for only one hour.",
+        "speaker": "b"
+      },
+      {
+        "zh": "可以，先把责任说清楚。",
+        "py": "kě yǐ , xiān bǎ zé rèn shuō qīng chǔ .",
+        "en": "That is fine; clarify responsibilities first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "各组怎么分配任务？",
+        "py": "gè zǔ zěn me fēn pèi rèn wù ?",
+        "en": "How are tasks allocated to each group?",
+        "speaker": "b"
+      },
+      {
+        "zh": "每组两个人，你负责名单，另一位负责入口。",
+        "py": "měi zǔ liǎng gè rén , nǐ fù zé míng dān , lìng yī wèi fù zé rù kǒu .",
+        "en": "Two per group: you handle the list and the other person the entrance.",
+        "speaker": "a"
+      },
+      {
+        "zh": "共同任务需要搬椅子吗？",
+        "py": "gòng tóng rèn wù xū yào bān yǐ zi ma ?",
+        "en": "Does the shared task require moving chairs?",
+        "speaker": "b"
+      },
+      {
+        "zh": "只搬四把。我们共有四把，不是全楼的椅子。",
+        "py": "zhǐ bān sì bǎ . wǒ men gòng yǒu sì bǎ , bù shì quán lóu de yǐ zi .",
+        "en": "Only four. We have four in total, not all the building’s chairs.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，一小时后我要走，别把支持写成全天答应。",
+        "py": "hǎo , yī xiǎo shí hòu wǒ yào zǒu , bié bǎ zhī chí xiě chéng quán tiān dā yìng .",
+        "en": "Okay; I leave after one hour, so do not record support as all-day agreement.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is clarified before agreement?",
+        "choices": [
+          "Time and responsibilities",
+          "Every person’s family history",
+          "A compulsory full-day promise"
+        ],
+        "answer": "Time and responsibilities"
+      },
+      {
+        "type": "detail",
+        "q": "How long can the volunteer stay?",
+        "choices": [
+          "One hour",
+          "All day",
+          "Two days"
+        ],
+        "answer": "One hour"
+      },
+      {
+        "type": "inference",
+        "q": "Does supporting the event mean all-day attendance?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with four chairs"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": []
+  },
+  "reading": {
+    "id": "s3-u03-r",
+    "title": "A work note with boundaries",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the individual role within a collective arrangement.",
+    "lines": [
+      {
+        "zh": "活动需要两位志愿者，招募先说明工作内容。",
+        "py": "huó dòng xū yào liǎng wèi zhì yuàn zhě , zhāo mù xiān shuō míng gōng zuò nèi róng .",
+        "en": "The event needs two volunteers; recruitment first explains the work."
+      },
+      {
+        "zh": "志愿者表示自愿，不能由别人替他答应。",
+        "py": "zhì yuàn zhě biǎo shì zì yuàn , bù néng yóu bié ren tì tā dā yìng .",
+        "en": "Volunteers express voluntary consent; others cannot agree for them."
+      },
+      {
+        "zh": "每组两个人，各组先确认时间。",
+        "py": "měi zǔ liǎng gè rén , gè zǔ xiān què rèn shí jiān .",
+        "en": "Two people per group; each group confirms the time first."
+      },
+      {
+        "zh": "一位负责名单，另一位负责入口。",
+        "py": "yī wèi fù zé míng dān , lìng yī wèi fù zé rù kǒu .",
+        "en": "One handles the list and the other the entrance."
+      },
+      {
+        "zh": "集体共有四把椅子，共同任务只搬这四把。",
+        "py": "jí tǐ gòng yǒu sì bǎ yǐ zi , gòng tóng rèn wù zhǐ bān zhè sì bǎ .",
+        "en": "The group has four chairs in total; the shared task moves only those four."
+      },
+      {
+        "zh": "员工安排和值班志愿者不一定相同，先问职责。",
+        "py": "yuán gōng ān pái hé zhí bān zhì yuàn zhě bù yí dìng xiāng tóng , xiān wèn zhí zé .",
+        "en": "Employee arrangements and volunteer shifts may differ; ask responsibilities first."
+      },
+      {
+        "zh": "积极支持也可以有时间限制，不是没有责任。",
+        "py": "jī jí zhī chí yě kě yǐ yǒu shí jiān xiàn zhì , bù shì méi yǒu zé rèn .",
+        "en": "Enthusiastic support can have a time limit; that does not mean no responsibility."
+      },
+      {
+        "zh": "合作把任务分开，也把每个人的同意记清楚。",
+        "py": "hé zuò bǎ rèn wù fēn kāi , yě bǎ měi gè rén de tóng yì jì qīng chǔ .",
+        "en": "Cooperation divides tasks and records each person’s agreement clearly."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the work note capture?",
+        "choices": [
+          "Tasks, scope and actual consent",
+          "Only enthusiasm",
+          "An unlimited role for every attendee"
+        ],
+        "answer": "Tasks, scope and actual consent"
+      },
+      {
+        "type": "detail",
+        "q": "How many chairs are in the shared task?",
+        "choices": [
+          "Four",
+          "Every chair in the building",
+          "Two hundred"
+        ],
+        "answer": "Four"
+      },
+      {
+        "type": "inference",
+        "q": "Are employee and volunteer arrangements necessarily identical?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only at the entrance"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "一位【负责】名单，另一位负责入口。",
+          "py": "yī wèi fù zé míng dān , lìng yī wèi fù zé rù kǒu .",
+          "en": "One handles the list and the other the entrance."
+        },
+        {
+          "zh": "集体【共有】四把椅子，共同任务只搬这四把。",
+          "py": "jí tǐ gòng yǒu sì bǎ yǐ zi , gòng tóng rèn wù zhǐ bān zhè sì bǎ .",
+          "en": "The group has four chairs in total; the shared task moves only those four."
+        }
+      ],
+      "bank": [
+        "负责",
+        "共有",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "招募",
+        "pinyin": "zhāo mù",
+        "meaning": "to recruit"
+      },
+      {
+        "hanzi": "自愿",
+        "pinyin": "zì yuàn",
+        "meaning": "voluntary"
+      },
+      {
+        "hanzi": "同意",
+        "pinyin": "tóng yì",
+        "meaning": "to agree"
+      },
+      {
+        "hanzi": "职责",
+        "pinyin": "zhí zé",
+        "meaning": "responsibility"
+      },
+      {
+        "hanzi": "值班",
+        "pinyin": "zhí bān",
+        "meaning": "to be on duty"
+      },
+      {
+        "hanzi": "内容",
+        "pinyin": "nèi róng",
+        "meaning": "content"
+      },
+      {
+        "hanzi": "限制",
+        "pinyin": "xiàn zhì",
+        "meaning": "restriction"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u03-media",
+      "title": "The chair did not volunteer",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about responsibility and a limited offer.",
+      "lines": [
+        {
+          "zh": "我主动搬椅子，椅子也主动合作吗？",
+          "py": "wǒ zhǔ dòng bān yǐ zi , yǐ zi yě zhǔ dòng hé zuò ma ?",
+          "en": "I offered to move chairs; do the chairs cooperate proactively too?",
+          "speaker": "a"
+        },
+        {
+          "zh": "椅子不答应，人要答应。你先说能来多久。",
+          "py": "yǐ zi bù dā yìng , rén yào dā yìng . nǐ xiān shuō néng lái duō jiǔ .",
+          "en": "Chairs do not agree; people need to. Say how long you can stay first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "一小时。四把椅子，名单我来。",
+          "py": "yī xiǎo shí . sì bǎ yǐ zi , míng dān wǒ lái .",
+          "en": "One hour. Four chairs, and I will handle the list.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好，分配清楚了，不是整天都靠你。",
+          "py": "hǎo , fēn pèi qīng chǔ le , bù shì zhěng tiān dōu kào nǐ .",
+          "en": "Good; the allocation is clear, and we do not rely on you all day.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那就积极一小时。",
+          "py": "nà jiù jī jí yī xiǎo shí .",
+          "en": "Then I will be enthusiastic for one hour.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这样比没问清楚就写一天更诚实。",
+          "py": "zhè yàng bǐ méi wèn qīng chǔ jiù xiě yī tiān gèng chéng shí .",
+          "en": "That is more honest than recording a whole day without clarifying the time.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why is the one-hour offer accepted?",
+          "choices": [
+            "Its actual limit is recorded",
+            "The chair agreed on the person’s behalf",
+            "All volunteers must stay all day"
+          ],
+          "answer": "Its actual limit is recorded"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "诚实",
+          "pinyin": "chéng shí",
+          "meaning": "honest"
+        }
+      ]
+    },
+    {
+      "id": "s3-u03-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "先写实际需求，再招募。",
+          "py": "xiān xiě shí jì xū qiú , zài zhāo mù .",
+          "en": "Write the actual needs before recruiting."
+        },
+        {
+          "zh": "先问各组的需求，再分配任务。",
+          "py": "xiān wèn gè zǔ de xū qiú , zài fēn pèi rèn wù .",
+          "en": "Ask each group’s needs before allocating tasks."
+        },
+        {
+          "zh": "员工和值班志愿者的安排不同。",
+          "py": "yuán gōng hé zhí bān zhì yuàn zhě de ān pái bù tóng .",
+          "en": "Employees and volunteers on duty have different arrangements."
+        },
+        {
+          "zh": "时间由大家一起安排。",
+          "py": "shí jiān yóu dà jiā yì qǐ ān pái .",
+          "en": "Everyone arranges the time together."
+        },
+        {
+          "zh": "按名单分组，不按谁先说话。",
+          "py": "àn míng dān fēn zǔ , bù àn shéi xiān shuō huà .",
+          "en": "Group according to the list, not who speaks first."
+        },
+        {
+          "zh": "集体决定，也要听每个人的意见。",
+          "py": "jí tǐ jué dìng , yě yào tīng měi gè rén de yì jiàn .",
+          "en": "A group decision still needs each person’s views heard."
+        },
+        {
+          "zh": "她主动问需要什么。",
+          "py": "tā zhǔ dòng wèn xū yào shén me .",
+          "en": "She proactively asks what is needed."
+        },
+        {
+          "zh": "团体名单上有各位成员。",
+          "py": "tuán tǐ míng dān shàng yǒu gè wèi chéng yuán .",
+          "en": "The organization’s list names its members."
+        },
+        {
+          "zh": "这个团体今天需要四位志愿者。",
+          "py": "zhè gè tuán tǐ jīn tiān xū yào sì wèi zhì yuàn zhě .",
+          "en": "This group needs four volunteers today."
+        },
+        {
+          "zh": "每位队员先确认任务。",
+          "py": "měi wèi duì yuán xiān què rèn rèn wù .",
+          "en": "Each team member confirms the task first."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "招募",
+          "pinyin": "zhāo mù",
+          "meaning": "to recruit"
+        },
+        {
+          "hanzi": "值班",
+          "pinyin": "zhí bān",
+          "meaning": "to be on duty"
+        },
+        {
+          "hanzi": "成员",
+          "pinyin": "chéng yuán",
+          "meaning": "member"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u03-t1",
+      "phrase": "s3-u03-w19",
+      "audio": {
+        "zh": "支持活动，但只能来一小时。",
+        "py": "zhī chí huó dòng , dàn zhǐ néng lái yī xiǎo shí .",
+        "en": "Supports the event but can attend for one hour."
+      },
+      "statement": "The person agrees to all day.",
+      "answer": false,
+      "why": "Only one hour is offered."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u03-t2",
+      "phrase": "s3-u03-w16",
+      "audio": {
+        "zh": "我们共有四把椅子。",
+        "py": "wǒ men gòng yǒu sì bǎ yǐ zi .",
+        "en": "We have four chairs in total."
+      },
+      "statement": "The total is four.",
+      "answer": true,
+      "why": "共有 states the total."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u03-t3",
+      "phrase": "s3-u03-w01",
+      "prompt": {
+        "zh": "需要我做什么？",
+        "py": "xū yào wǒ zuò shén me ?",
+        "en": "What do you need me to do?"
+      },
+      "choices": [
+        "负责名单，先确认时间。",
+        "支持就是永远不走。",
+        "每组就是所有世界。"
+      ],
+      "answer": "负责名单，先确认时间。",
+      "why": "Give a specific role."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u03-t4",
+      "phrase": "s3-u03-w08",
+      "prompt": {
+        "zh": "搬这四把，还是全楼的？",
+        "py": "bān zhè sì bǎ , hái shi quán lóu de ?",
+        "en": "Move these four or the entire building’s chairs?"
+      },
+      "choices": [
+        "只搬这四把。",
+        "责任就是相机。",
+        "你必须所有都搬。"
+      ],
+      "answer": "只搬这四把。",
+      "why": "Preserve the specified scope."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u03-t5",
+      "phrase": "s3-u03-w10",
+      "line": {
+        "zh": "你【负责】名单。",
+        "py": "nǐ fù zé míng dān .",
+        "en": "You handle the list."
+      },
+      "blankPy": "fù zé"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u03-t6",
+      "phrase": "s3-u03-w13",
+      "line": {
+        "zh": "先【分组】，每组两个人。",
+        "py": "xiān fēn zǔ , měi zǔ liǎng gè rén .",
+        "en": "Form groups first, two per group."
+      },
+      "blankPy": "fēn zǔ"
+    },
+    {
+      "type": "match",
+      "id": "s3-u03-t7",
+      "phrase": "s3-u03-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The event needs two people.",
+          "right": {
+            "zh": "活动需要两个人。",
+            "py": "huó dòng xū yào liǎng gè rén .",
+            "en": "The event needs two people."
+          }
+        },
+        {
+          "left": "I need to rest.",
+          "right": {
+            "zh": "我需要休息。",
+            "py": "wǒ xū yào xiū xī .",
+            "en": "I need to rest."
+          }
+        },
+        {
+          "left": "I have not agreed yet.",
+          "right": {
+            "zh": "我还没答应。",
+            "py": "wǒ hái méi dā yìng .",
+            "en": "I have not agreed yet."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u03-t8",
+      "phrase": "s3-u03-w12",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Two people per group.",
+          "right": {
+            "zh": "每组两个人。",
+            "py": "měi zǔ liǎng gè rén .",
+            "en": "Two people per group."
+          }
+        },
+        {
+          "left": "Each group confirms its time first.",
+          "right": {
+            "zh": "各组先确认时间。",
+            "py": "gè zǔ xiān què rèn shí jiān .",
+            "en": "Each group confirms its time first."
+          }
+        },
+        {
+          "left": "One person handles the entrance.",
+          "right": {
+            "zh": "一位负责入口。",
+            "py": "yī wèi fù zé rù kǒu .",
+            "en": "One person handles the entrance."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u03-t9",
+      "phrase": "s3-u03-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "My elder sister is a businessperson; I am a student.",
+          "right": {
+            "zh": "姐姐是商人，我是学生。",
+            "py": "jiě jie shì shāng rén , wǒ shì xué sheng .",
+            "en": "My elder sister is a businessperson; I am a student."
+          }
+        },
+        {
+          "left": "Today is Wednesday; this book costs thirty-five yuan.",
+          "right": {
+            "zh": "今天星期三，这本书三十五块。",
+            "py": "jīn tiān xīng qī sān , zhè běn shū sān shí wǔ kuài .",
+            "en": "Today is Wednesday; this book costs thirty-five yuan."
+          }
+        },
+        {
+          "left": "Old Li is an address form; do not directly infer his age.",
+          "right": {
+            "zh": "老李是称呼，不能直接猜他的年龄。",
+            "py": "lǎo lǐ shì chēng hū , bù néng zhí jiē cāi tā de nián líng .",
+            "en": "Old Li is an address form; do not directly infer his age."
+          }
+        },
+        {
+          "left": "The friends look at the books inside the bag; leave the pens on the table for now.",
+          "right": {
+            "zh": "朋友们看包里头的书，桌子上的笔先别动。",
+            "py": "péng you men kàn bāo lǐ tou de shū , zhuō zi shàng de bǐ xiān bié dòng .",
+            "en": "The friends look at the books inside the bag; leave the pens on the table for now."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Set availability",
+      "natural": {
+        "zh": "我愿意，但只能来一小时。",
+        "py": "wǒ yuàn yì , dàn zhǐ néng lái yī xiǎo shí .",
+        "en": "I am willing, but can come for only one hour."
+      },
+      "note": "Support does not erase a limit."
+    },
+    {
+      "situation": "Ask scope",
+      "natural": {
+        "zh": "只搬这四把椅子，对吗？",
+        "py": "zhǐ bān zhè sì bǎ yǐ zi , duì ma ?",
+        "en": "Only these four chairs, right?"
+      },
+      "note": "Clarify the task before accepting."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u03-speak",
+    "title": "We need volunteers",
+    "place": "A language-exchange meeting",
+    "context": "Assign responsibilities and address a whole group.",
+    "goal": "Distinguish a real need from voluntary consent",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "周末愿意帮忙吗？",
+        "pinyin": "zhōu mò yuàn yì bāng máng ma ?",
+        "meaning": "Would you help this weekend?",
+        "intent": "Give actual availability",
+        "examples": [
+          "愿意，但只能来一小时。"
+        ],
+        "accept": [
+          "^愿意，但只能来一小时。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你负责什么？",
+        "pinyin": "nǐ fù zé shén me ?",
+        "meaning": "What do you handle?",
+        "intent": "State the agreed role",
+        "examples": [
+          "我负责名单。"
+        ],
+        "accept": [
+          "^我负责名单。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三04, 三08. Native check: 需要 versus obligation and consent; 志愿 noun use; suffixes 者/员 in connected words; 每/各/任何 scope; 共有 versus 共同; collective-work collocations and original chair joke. No real employment or volunteering arrangement is created. Native review pending. Planned retrieval 二48 / 二54 / 三01 / 三02: 姐姐是商人，我是学生。, 今天星期三，这本书三十五块。, 老李是称呼，不能直接猜他的年龄。, 朋友们看包里头的书，桌子上的笔先别动。."
+}

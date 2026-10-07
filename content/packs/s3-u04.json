@@ -1,0 +1,1343 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u04",
+    "stage": 2,
+    "order": 68,
+    "title": "Could you ask them for me?",
+    "titleZh": "能帮我问一下吗",
+    "canDo": [
+      "Make a bounded request and allow refusal",
+      "Separate separable verbs around objects and duration",
+      "Explain two successive actions by a shared subject"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u03"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u04-w01",
+      "hanzi": "互相",
+      "pinyin": "hù xiāng",
+      "meaning": "mutually; each other",
+      "meaningVi": "lẫn nhau",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们互相帮忙，不是只让你做。",
+        "py": "wǒ men hù xiāng bāng máng , bù shì zhǐ ràng nǐ zuò .",
+        "en": "We help each other, rather than leave all the work to you."
+      },
+      "usageNote": "[GF2021:L3:3420] Source entry: 互相; hùxiāng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w02",
+      "hanzi": "相互",
+      "pinyin": "xiāng hù",
+      "meaning": "mutually; reciprocal",
+      "meaningVi": "lẫn nhau",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "相互尊重，也包括听到拒绝。",
+        "py": "xiāng hù zūn zhòng , yě bāo kuò tīng dào jù jué .",
+        "en": "Mutual respect includes hearing a refusal."
+      },
+      "usageNote": "[GF2021:L3:8804] Source entry: 相互; xiānghù; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w03",
+      "hanzi": "联系",
+      "pinyin": "lián xì",
+      "meaning": "to contact; connection",
+      "meaningVi": "liên hệ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我先联系她，再约时间。",
+        "py": "wǒ xiān lián xì tā , zài yuē shí jiān .",
+        "en": "I contact her before arranging a time."
+      },
+      "usageNote": "[GF2021:L3:5113] Source entry: 联系; liánxì; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w04",
+      "hanzi": "另外",
+      "pinyin": "lìng wài",
+      "meaning": "another; in addition",
+      "meaningVi": "ngoài ra; khác",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "另外一位还没回消息。",
+        "py": "lìng wài yī wèi hái méi huí xiāo xī .",
+        "en": "Another person has not replied."
+      },
+      "usageNote": "[GF2021:L3:5228] Source entry: 另外; lìngwài; 代、副、连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w05",
+      "hanzi": "麻烦",
+      "pinyin": "má fan",
+      "meaning": "troublesome; to trouble",
+      "meaningVi": "phiền; làm phiền",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "麻烦你帮我问一下，可以吗？",
+        "py": "má fan nǐ bāng wǒ wèn yī xià , kě yǐ ma ?",
+        "en": "Could I trouble you to ask for me?"
+      },
+      "usageNote": "[GF2021:L3:5381] Source entry: 麻烦; máfan; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w06",
+      "hanzi": "请教",
+      "pinyin": "qǐng jiào",
+      "meaning": "to ask for advice",
+      "meaningVi": "xin chỉ dẫn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个问题想请教你。",
+        "py": "zhè gè wèn tí xiǎng qǐng jiào nǐ .",
+        "en": "I would like to ask your advice on this question."
+      },
+      "usageNote": "[GF2021:L3:6522] Source entry: 请教; qǐngjiào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w07",
+      "hanzi": "打听",
+      "pinyin": "dǎ tīng",
+      "meaning": "to ask around; inquire",
+      "meaningVi": "hỏi thăm; tìm hiểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先打听时间，不问私人信息。",
+        "py": "xiān dǎ tīng shí jiān , bù wèn sī rén xìn xī .",
+        "en": "Ask about the time first, not private details."
+      },
+      "usageNote": "[GF2021:L3:1438] Source entry: 打听; dǎting; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w08",
+      "hanzi": "访问",
+      "pinyin": "fǎng wèn",
+      "meaning": "to visit; interview",
+      "meaningVi": "thăm; phỏng vấn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "访问前先联系对方。",
+        "py": "fǎng wèn qián xiān lián xì duì fāng .",
+        "en": "Contact the other party before a visit or interview."
+      },
+      "usageNote": "[GF2021:L3:2276] Source entry: 访问; fǎngwèn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w09",
+      "hanzi": "接待",
+      "pinyin": "jiē dài",
+      "meaning": "to receive guests; host",
+      "meaningVi": "tiếp đón",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她负责接待，不是负责所有安排。",
+        "py": "tā fù zé jiē dài , bù shì fù zé suǒ yǒu ān pái .",
+        "en": "She handles reception, not every arrangement."
+      },
+      "usageNote": "[GF2021:L3:4143] Source entry: 接待; jiēdài; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w10",
+      "hanzi": "及时",
+      "pinyin": "jí shí",
+      "meaning": "in time; timely",
+      "meaningVi": "kịp thời",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "改了时间，要及时告诉朋友。",
+        "py": "gǎi le shí jiān , yào jí shí gào sù péng you .",
+        "en": "Tell friends promptly if the time changes."
+      },
+      "usageNote": "[GF2021:L3:3727] Source entry: 及时; jíshí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w11",
+      "hanzi": "提前",
+      "pinyin": "tí qián",
+      "meaning": "ahead of time; beforehand",
+      "meaningVi": "trước; sớm",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "提前问清楚，不是提前替她答应。",
+        "py": "tí qián wèn qīng chǔ , bù shì tí qián tì tā dā yìng .",
+        "en": "Ask clearly beforehand, rather than agree on her behalf."
+      },
+      "usageNote": "[GF2021:L3:7892] Source entry: 提前; tíqián; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w12",
+      "hanzi": "约",
+      "pinyin": "yuē",
+      "meaning": "to arrange a meeting; invite",
+      "meaningVi": "hẹn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我想约她见面，时间还没定。",
+        "py": "wǒ xiǎng yuē tā jiàn miàn , shí jiān hái méi dìng .",
+        "en": "I want to arrange a meeting with her; the time is not settled."
+      },
+      "usageNote": "[GF2021:L3:10047] Source entry: 约; yuē; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w13",
+      "hanzi": "告别",
+      "pinyin": "gào bié",
+      "meaning": "to say farewell",
+      "meaningVi": "tạm biệt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "告别前，再确认明天的时间。",
+        "py": "gào bié qián , zài què rèn míng tiān de shí jiān .",
+        "en": "Confirm tomorrow’s time again before saying goodbye."
+      },
+      "usageNote": "[GF2021:L3:2674] Source entry: 告别; gào∥bié; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w14",
+      "hanzi": "理发",
+      "pinyin": "lǐ fà",
+      "meaning": "to have a haircut; cut hair",
+      "meaningVi": "cắt tóc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她去理发，下午才能回消息。",
+        "py": "tā qù lǐ fà , xià wǔ cái néng huí xiāo xī .",
+        "en": "She goes for a haircut and can reply only in the afternoon."
+      },
+      "usageNote": "[GF2021:L3:5037] Source entry: 理发; lǐ∥fà; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w15",
+      "hanzi": "结婚",
+      "pinyin": "jié hūn",
+      "meaning": "to marry",
+      "meaningVi": "kết hôn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "朋友结婚了，不等于所有人都参加了婚礼。",
+        "py": "péng you jié hūn le , bù děng yú suǒ yǒu rén dōu cān jiā le hūn lǐ .",
+        "en": "A friend married; that does not mean everyone attended the wedding."
+      },
+      "usageNote": "[GF2021:L3:4192] Source entry: 结婚; jié∥hūn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w16",
+      "hanzi": "谈话",
+      "pinyin": "tán huà",
+      "meaning": "to talk; conversation",
+      "meaningVi": "nói chuyện; cuộc trò chuyện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "谈话先问她现在方便不方便。",
+        "py": "tán huà xiān wèn tā xiàn zài fāng biàn bù fāng biàn .",
+        "en": "Before talking, ask whether now is convenient."
+      },
+      "usageNote": "[GF2021:L3:7792] Source entry: 谈话; tán∥huà; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w17",
+      "hanzi": "建议",
+      "pinyin": "jiàn yì",
+      "meaning": "suggestion; to suggest",
+      "meaningVi": "đề nghị; gợi ý",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是建议，不是已经确认的时间。",
+        "py": "zhè shì jiàn yì , bù shì yǐ jīng què rèn de shí jiān .",
+        "en": "This is a suggestion, not a confirmed time."
+      },
+      "usageNote": "[GF2021:L3:3992] Source entry: 建议; jiànyì; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w18",
+      "hanzi": "补充",
+      "pinyin": "bǔ chōng",
+      "meaning": "to supplement; add",
+      "meaningVi": "bổ sung",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "最后补充一句，我只问时间。",
+        "py": "zuì hòu bǔ chōng yī jù , wǒ zhǐ wèn shí jiān .",
+        "en": "Add one final detail: I ask only about the time."
+      },
+      "usageNote": "[GF2021:L3:562] Source entry: 补充; bǔchōng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w19",
+      "hanzi": "复印",
+      "pinyin": "fù yìn",
+      "meaning": "to photocopy",
+      "meaningVi": "photocopy; sao chụp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我去办公室复印两页。",
+        "py": "wǒ qù bàn gōng shì fù yìn liǎng yè .",
+        "en": "I go to the office to photocopy two pages."
+      },
+      "usageNote": "[GF2021:L3:2512] Source entry: 复印; fùyìn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w20",
+      "hanzi": "亲",
+      "pinyin": "qīn",
+      "meaning": "close; related by blood",
+      "meaningVi": "ruột thịt; thân",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她们是亲姐妹，不是只看起来像。",
+        "py": "tā men shì qīn jiě mèi , bù shì zhǐ kàn qǐ lái xiàng .",
+        "en": "They are biological sisters, not just similar-looking."
+      },
+      "usageNote": "[GF2021:L3:6438] Source entry: 亲; qīn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w21",
+      "hanzi": "领导",
+      "pinyin": "lǐng dǎo",
+      "meaning": "leader; to lead",
+      "meaningVi": "lãnh đạo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "领导不在，可以先问联系人。",
+        "py": "lǐng dǎo bù zài , kě yǐ xiān wèn lián xì rén .",
+        "en": "The leader is absent; ask the contact person first."
+      },
+      "usageNote": "[GF2021:L3:5213] Source entry: 领导; lǐngdǎo; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u04-w22",
+      "hanzi": "交往",
+      "pinyin": "jiāo wǎng",
+      "meaning": "to associate; interact",
+      "meaningVi": "giao tiếp; qua lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "交往要相互尊重，不替别人做决定。",
+        "py": "jiāo wǎng yào xiāng hù zūn zhòng , bù tì bié ren zuò jué dìng .",
+        "en": "Interaction needs mutual respect; do not decide for others."
+      },
+      "usageNote": "[GF2021:L3:4069] Source entry: 交往; jiāowǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "婚",
+      "pinyin": "hūn",
+      "meaning": "marriage",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "婚",
+          "role": "whole",
+          "gloss": "marriage"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 婚 in 结婚. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "结婚",
+          "p": "jié hūn",
+          "m": "to marry"
+        }
+      ]
+    },
+    {
+      "hanzi": "联",
+      "pinyin": "lián",
+      "meaning": "to connect",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "联",
+          "role": "whole",
+          "gloss": "to connect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 联 in 联系 / 联系方式. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "联系",
+          "p": "lián xì",
+          "m": "to contact"
+        },
+        {
+          "w": "联系方式",
+          "p": "lián xì fāng shì",
+          "m": "contact details"
+        }
+      ]
+    },
+    {
+      "hanzi": "互",
+      "pinyin": "hù",
+      "meaning": "mutual",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "互",
+          "role": "whole",
+          "gloss": "mutual"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 互 in 互相 / 相互. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "互相",
+          "p": "hù xiāng",
+          "m": "mutually; each other"
+        },
+        {
+          "w": "相互",
+          "p": "xiāng hù",
+          "m": "mutually; reciprocal"
+        }
+      ]
+    },
+    {
+      "hanzi": "另",
+      "pinyin": "lìng",
+      "meaning": "another; separately",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "另",
+          "role": "whole",
+          "gloss": "another; separately"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 另 in 另外 / 另. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "另外",
+          "p": "lìng wài",
+          "m": "another; in addition"
+        },
+        {
+          "w": "另",
+          "p": "lìng",
+          "m": "another; other"
+        }
+      ]
+    },
+    {
+      "hanzi": "麻",
+      "pinyin": "má",
+      "meaning": "hemp; part of 麻烦",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "麻",
+          "role": "whole",
+          "gloss": "hemp; part of 麻烦"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 麻 in 麻烦. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "麻烦",
+          "p": "má fan",
+          "m": "troublesome; to trouble"
+        }
+      ]
+    },
+    {
+      "hanzi": "烦",
+      "pinyin": "fán",
+      "meaning": "troublesome; bothered",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "烦",
+          "role": "whole",
+          "gloss": "troublesome; bothered"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 烦 in 麻烦. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "麻烦",
+          "p": "má fan",
+          "m": "troublesome; to trouble"
+        }
+      ]
+    },
+    {
+      "hanzi": "任",
+      "pinyin": "rèn",
+      "meaning": "to appoint; responsibility",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "任",
+          "role": "whole",
+          "gloss": "to appoint; responsibility"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 任 in 责任 / 任务. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "责任",
+          "p": "zé rèn",
+          "m": "responsibility"
+        },
+        {
+          "w": "任务",
+          "p": "rèn wù",
+          "m": "task; assignment"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u04-g三05",
+      "pattern": "动宾式离合词：对象、数量和时长",
+      "purpose": "Place added material inside the separable construction",
+      "explanation": "帮忙 can expand to 帮我一个忙, 见面 to 跟朋友见一次面, 理发 to 理个发, 睡觉 to 睡了一个小时的觉. Do not attach every object after the full compound: 帮忙我 is not the intended standard request. With 结婚 use 跟/和…结婚 rather than 结婚她. The semantic object is built into the compound; duration/number placement depends on the construction, and not every two-character verb is separable.",
+      "examples": [
+        {
+          "zh": "能帮我一个忙吗？",
+          "py": "néng bāng wǒ yī gè máng ma ?",
+          "en": "Could you do me a favour?"
+        },
+        {
+          "zh": "我想跟她见一次面。",
+          "py": "wǒ xiǎng gēn tā jiàn yī cì miàn .",
+          "en": "I would like to meet her once."
+        },
+        {
+          "zh": "她去理个发，下午再联系。",
+          "py": "tā qù lǐ gè fā , xià wǔ zài lián xì .",
+          "en": "She goes for a haircut and will contact us in the afternoon."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "请帮忙我一个。",
+          "right": "请帮我一个忙。",
+          "why": "Place the beneficiary and quantity inside this separable verb."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u04-g三57",
+      "pattern": "连动句：同一主语的连续动作或目的",
+      "purpose": "Keep the actor and purpose clear in a request",
+      "explanation": "我去办公室复印两页 states my going and copying, with copying as the trip purpose. 她来找我讨论时间 shares one actor across linked verbs. A different actor must be stated separately. 去问时间 describes an intended task, not proof an answer was obtained; ask for the result afterward.",
+      "examples": [
+        {
+          "zh": "我去办公室复印两页。",
+          "py": "wǒ qù bàn gōng shì fù yìn liǎng yè .",
+          "en": "I go to the office to photocopy two pages."
+        },
+        {
+          "zh": "她来找我讨论时间。",
+          "py": "tā lái zhǎo wǒ tǎo lùn shí jiān .",
+          "en": "She comes to find me to discuss the time."
+        },
+        {
+          "zh": "我联系她问时间，还没收到回答。",
+          "py": "wǒ lián xì tā wèn shí jiān , hái mò shōu dào huí dá .",
+          "en": "I contact her to ask the time and have not received an answer."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我去办公室你复印两页。这里说我做两件事。",
+          "right": "我去办公室复印两页。",
+          "why": "Keep the shared actor for the intended linked actions."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u04-d",
+    "title": "Ask only the time",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the favour’s actual scope and the missing reply.",
+    "lines": [
+      {
+        "zh": "麻烦你帮我一个忙，可以吗？",
+        "py": "má fan nǐ bāng wǒ yī gè máng , kě yǐ ma ?",
+        "en": "Could I trouble you to do me a favour?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先说是什么，我下午才有空。",
+        "py": "xiān shuō shì shén me , wǒ xià wǔ cái yǒu kōng .",
+        "en": "Say what it is first; I am free only this afternoon.",
+        "speaker": "b"
+      },
+      {
+        "zh": "联系她问见面的时间，不用替我答应。",
+        "py": "lián xì tā wèn jiàn miàn de shí jiān , bù yòng tì wǒ dā yìng .",
+        "en": "Contact her to ask the meeting time; do not agree for me.",
+        "speaker": "a"
+      },
+      {
+        "zh": "她在理发，下午才能回消息。",
+        "py": "tā zài lǐ fà , xià wǔ cái néng huí xiāo xī .",
+        "en": "She is having a haircut and can reply only in the afternoon.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好。我先去办公室复印两页，再等消息。",
+        "py": "hǎo . wǒ xiān qù bàn gōng shì fù yìn liǎng yè , zài děng xiāo xī .",
+        "en": "Okay. I will go to the office to copy two pages, then wait for a message.",
+        "speaker": "a"
+      },
+      {
+        "zh": "另外一位也要问吗？",
+        "py": "lìng wài yī wèi yě yào wèn ma ?",
+        "en": "Should I ask the other person too?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不用，只问她。最后补充一句，时间还没确认。",
+        "py": "bù yòng , zhǐ wèn tā . zuì hòu bǔ chōng yī jù , shí jiān hái méi què rèn .",
+        "en": "No, ask only her. One final detail: the time is unconfirmed.",
+        "speaker": "a"
+      },
+      {
+        "zh": "明白，是帮你问，不是替所有人决定。",
+        "py": "míng bái , shì bāng nǐ wèn , bù shì tì suǒ yǒu rén jué dìng .",
+        "en": "Understood: ask for you, rather than decide for everyone.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What favour is requested?",
+        "choices": [
+          "Ask one person’s meeting time",
+          "Confirm for the whole group",
+          "Photocopy for every member"
+        ],
+        "answer": "Ask one person’s meeting time"
+      },
+      {
+        "type": "detail",
+        "q": "When can the other person reply?",
+        "choices": [
+          "In the afternoon",
+          "Immediately",
+          "Only next year"
+        ],
+        "answer": "In the afternoon"
+      },
+      {
+        "type": "inference",
+        "q": "Is the meeting confirmed?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only because of photocopying"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u04-r",
+    "title": "A bounded favour",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Follow actor, object and consent in the message.",
+    "lines": [
+      {
+        "zh": "请帮我一个忙，是一个请求，不是给你无限任务。",
+        "py": "qǐng bāng wǒ yī gè máng , shì yī gè qǐng qiú , bù shì gěi nǐ wú xiàn rèn wù .",
+        "en": "Please do me a favour is a request, not unlimited assignments."
+      },
+      {
+        "zh": "只联系一位朋友，问见面的时间。",
+        "py": "zhǐ lián xì yī wèi péng you , wèn jiàn miàn de shí jiān .",
+        "en": "Contact only one friend and ask the meeting time."
+      },
+      {
+        "zh": "她去理个发，下午才有空回消息。",
+        "py": "tā qù lǐ gè fā , xià wǔ cái yǒu kōng huí xiāo xī .",
+        "en": "She goes for a haircut and has time to reply only in the afternoon."
+      },
+      {
+        "zh": "我去办公室复印两页，是我做这两件事。",
+        "py": "wǒ qù bàn gōng shì fù yìn liǎng yè , shì wǒ zuò zhè liǎng jiàn shì .",
+        "en": "I go to the office to copy two pages; I perform both linked actions."
+      },
+      {
+        "zh": "麻烦你问，不是麻烦你替别人答应。",
+        "py": "má fan nǐ wèn , bù shì má fan nǐ tì bié ren dā yìng .",
+        "en": "Trouble you to ask, not to agree for someone else."
+      },
+      {
+        "zh": "先联系，再接待；亲姐妹也要问自己的安排。",
+        "py": "xiān lián xì , zài jiē dài ; qīn jiě mèi yě yào wèn zì jǐ de ān pái .",
+        "en": "Contact first, then receive guests; even biological sisters need their own plans asked."
+      },
+      {
+        "zh": "相互帮忙也允许说不方便，另外一位不用自动加入。",
+        "py": "xiāng hù bāng máng yě yǔn xǔ shuō bù fāng biàn , lìng wài yī wèi bù yòng zì dòng jiā rù .",
+        "en": "Mutual help allows saying it is inconvenient; another person need not automatically join."
+      },
+      {
+        "zh": "没收到回答就说没收到，不把建议写成确认。",
+        "py": "mò shōu dào huí dá jiù shuō mò shōu dào , bù bǎ jiàn yì xiě chéng què rèn .",
+        "en": "If no reply arrived, say so; do not record a suggestion as confirmation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What keeps the request bounded?",
+        "choices": [
+          "One contact, one question and actual consent",
+          "Unlimited family authority",
+          "Automatic acceptance of a suggestion"
+        ],
+        "answer": "One contact, one question and actual consent"
+      },
+      {
+        "type": "detail",
+        "q": "How many pages does the speaker copy?",
+        "choices": [
+          "Two",
+          "Every page",
+          "One hundred"
+        ],
+        "answer": "Two"
+      },
+      {
+        "type": "inference",
+        "q": "May an unanswered suggestion be reported as confirmed?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only for sisters"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "请帮我一个忙，是一个【请求】，不是给你无限任务。",
+          "py": "qǐng bāng wǒ yī gè máng , shì yī gè qǐng qiú , bù shì gěi nǐ wú xiàn rèn wù .",
+          "en": "Please do me a favour is a request, not unlimited assignments."
+        },
+        {
+          "zh": "没收到回答就说没收到，不把【建议】写成确认。",
+          "py": "mò shōu dào huí dá jiù shuō mò shōu dào , bù bǎ jiàn yì xiě chéng què rèn .",
+          "en": "If no reply arrived, say so; do not record a suggestion as confirmation."
+        }
+      ],
+      "bank": [
+        "请求",
+        "建议",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "请求",
+        "pinyin": "qǐng qiú",
+        "meaning": "request"
+      },
+      {
+        "hanzi": "无限",
+        "pinyin": "wú xiàn",
+        "meaning": "unlimited"
+      },
+      {
+        "hanzi": "允许",
+        "pinyin": "yǔn xǔ",
+        "meaning": "to allow"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u04-media",
+      "title": "The favour has a size",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a favour becoming too large.",
+      "lines": [
+        {
+          "zh": "帮我一个忙，顺便替大家把周末都安排了。",
+          "py": "bāng wǒ yī gè máng , shùn biàn tì dà jiā bǎ zhōu mò dōu ān pái le .",
+          "en": "Do me a favour, and while at it arrange everyone’s weekend.",
+          "speaker": "a"
+        },
+        {
+          "zh": "一个忙，怎么长成整个周末了？",
+          "py": "yī gè máng , zěn me zhǎng chéng zhěng gè zhōu mò le ?",
+          "en": "How did one favour grow into an entire weekend?",
+          "speaker": "b"
+        },
+        {
+          "zh": "那就只问时间，别替她答应。",
+          "py": "nà jiù zhǐ wèn shí jiān , bié tì tā dā yìng .",
+          "en": "Then ask only the time; do not agree for her.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。帮你问，也要问我方不方便。",
+          "py": "hǎo . bāng nǐ wèn , yě yào wèn wǒ fāng bù fāng biàn .",
+          "en": "Okay. Asking for you also needs checking whether it suits me.",
+          "speaker": "b"
+        },
+        {
+          "zh": "下午有空再问，不急。",
+          "py": "xià wǔ yǒu kōng zài wèn , bù jí .",
+          "en": "Ask when you are free this afternoon; no rush.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次任务，终于有边了。",
+          "py": "zhè cì rèn wù , zhōng yú yǒu biān le .",
+          "en": "At last, this task has a boundary.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is reduced in the revised request?",
+          "choices": [
+            "Its scope",
+            "The friend’s right to refuse",
+            "The photocopy quality"
+          ],
+          "answer": "Its scope"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u04-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "我们互相帮忙，不是只让你做。",
+          "py": "wǒ men hù xiāng bāng máng , bù shì zhǐ ràng nǐ zuò .",
+          "en": "We help each other, rather than leave all the work to you."
+        },
+        {
+          "zh": "我们互相问清楚时间，不替别人答应。",
+          "py": "wǒ men hù xiāng wèn qīng chǔ shí jiān , bù tì bié ren dā yìng .",
+          "en": "We clarify the time with each other without agreeing for others."
+        },
+        {
+          "zh": "相互尊重，也包括听到拒绝。",
+          "py": "xiāng hù zūn zhòng , yě bāo kuò tīng dào jù jué .",
+          "en": "Mutual respect includes hearing a refusal."
+        },
+        {
+          "zh": "这个问题想请教你。",
+          "py": "zhè gè wèn tí xiǎng qǐng jiào nǐ .",
+          "en": "I would like to ask your advice on this question."
+        },
+        {
+          "zh": "有不懂的地方，可以向老师请教。",
+          "py": "yǒu bù dǒng de dì fāng , kě yǐ xiàng lǎo shī qǐng jiào .",
+          "en": "One can ask a teacher for advice about what is unclear."
+        },
+        {
+          "zh": "先打听时间，不问私人信息。",
+          "py": "xiān dǎ tīng shí jiān , bù wèn sī rén xìn xī .",
+          "en": "Ask about the time first, not private details."
+        },
+        {
+          "zh": "我先打听开门时间，不直接猜。",
+          "py": "wǒ xiān dǎ tīng kāi mén shí jiān , bù zhí jiē cāi .",
+          "en": "I first inquire about opening time rather than guessing."
+        },
+        {
+          "zh": "访问前先联系对方。",
+          "py": "fǎng wèn qián xiān lián xì duì fāng .",
+          "en": "Contact the other party before a visit or interview."
+        },
+        {
+          "zh": "访问以前先约时间，别突然到。",
+          "py": "fǎng wèn yǐ qián xiān yuē shí jiān , bié tū rán dào .",
+          "en": "Arrange a time before visiting rather than arriving suddenly."
+        },
+        {
+          "zh": "她负责接待，不是负责所有安排。",
+          "py": "tā fù zé jiē dài , bù shì fù zé suǒ yǒu ān pái .",
+          "en": "She handles reception, not every arrangement."
+        },
+        {
+          "zh": "改了时间，要及时告诉朋友。",
+          "py": "gǎi le shí jiān , yào jí shí gào sù péng you .",
+          "en": "Tell friends promptly if the time changes."
+        },
+        {
+          "zh": "她及时回了消息，我还没出发。",
+          "py": "tā jí shí huí le xiāo xī , wǒ hái méi chū fā .",
+          "en": "She replied promptly, before I had set off."
+        },
+        {
+          "zh": "提前问清楚，不是提前替她答应。",
+          "py": "tí qián wèn qīng chǔ , bù shì tí qián tì tā dā yìng .",
+          "en": "Ask clearly beforehand, rather than agree on her behalf."
+        },
+        {
+          "zh": "要提前问，不等到门口才说。",
+          "py": "yào tí qián wèn , bù děng dào mén kǒu cái shuō .",
+          "en": "Ask in advance, not only on reaching the doorway."
+        },
+        {
+          "zh": "我想约她见面，时间还没定。",
+          "py": "wǒ xiǎng yuē tā jiàn miàn , shí jiān hái méi dìng .",
+          "en": "I want to arrange a meeting with her; the time is not settled."
+        },
+        {
+          "zh": "我们约了明天下午，不是今天。",
+          "py": "wǒ men yuē le míng tiān xià wǔ , bù shì jīn tiān .",
+          "en": "We arranged tomorrow afternoon, not today."
+        },
+        {
+          "zh": "告别前，再确认明天的时间。",
+          "py": "gào bié qián , zài què rèn míng tiān de shí jiān .",
+          "en": "Confirm tomorrow’s time again before saying goodbye."
+        },
+        {
+          "zh": "活动结束时，先向主人告别。",
+          "py": "huó dòng jié shù shí , xiān xiàng zhǔ rén gào bié .",
+          "en": "Say goodbye to the host when the event ends."
+        },
+        {
+          "zh": "朋友结婚了，不等于所有人都参加了婚礼。",
+          "py": "péng you jié hūn le , bù děng yú suǒ yǒu rén dōu cān jiā le hūn lǐ .",
+          "en": "A friend married; that does not mean everyone attended the wedding."
+        },
+        {
+          "zh": "她朋友结婚了，具体安排还要看邀请。",
+          "py": "tā péng you jié hūn le , jù tǐ ān pái hái yào kàn yāo qǐng .",
+          "en": "Her friend got married; check the invitation for specific arrangements."
+        },
+        {
+          "zh": "谈话先问她现在方便不方便。",
+          "py": "tán huà xiān wèn tā xiàn zài fāng biàn bù fāng biàn .",
+          "en": "Before talking, ask whether now is convenient."
+        },
+        {
+          "zh": "谈话没结束，我先不打断。",
+          "py": "tán huà méi jié shù , wǒ xiān bù dǎ duàn .",
+          "en": "The conversation has not ended; I will not interrupt."
+        },
+        {
+          "zh": "最后补充一句，我只问时间。",
+          "py": "zuì hòu bǔ chōng yī jù , wǒ zhǐ wèn shí jiān .",
+          "en": "Add one final detail: I ask only about the time."
+        },
+        {
+          "zh": "她们是亲姐妹，不是只看起来像。",
+          "py": "tā men shì qīn jiě mèi , bù shì zhǐ kàn qǐ lái xiàng .",
+          "en": "They are biological sisters, not just similar-looking."
+        },
+        {
+          "zh": "领导不在，可以先问联系人。",
+          "py": "lǐng dǎo bù zài , kě yǐ xiān wèn lián xì rén .",
+          "en": "The leader is absent; ask the contact person first."
+        },
+        {
+          "zh": "领导不在，先问今天谁负责接待。",
+          "py": "lǐng dǎo bù zài , xiān wèn jīn tiān shéi fù zé jiē dài .",
+          "en": "The leader is absent; ask who handles reception today."
+        },
+        {
+          "zh": "交往要相互尊重，不替别人做决定。",
+          "py": "jiāo wǎng yào xiāng hù zūn zhòng , bù tì bié ren zuò jué dìng .",
+          "en": "Interaction needs mutual respect; do not decide for others."
+        },
+        {
+          "zh": "交往中有问题，可以先说明自己的需要。",
+          "py": "jiāo wǎng zhōng yǒu wèn tí , kě yǐ xiān shuō míng zì jǐ de xū yào .",
+          "en": "When problems arise in interactions, first explain one’s needs."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "确认",
+          "pinyin": "què rèn",
+          "meaning": "to confirm"
+        },
+        {
+          "hanzi": "联系人",
+          "pinyin": "lián xì rén",
+          "meaning": "contact person"
+        },
+        {
+          "hanzi": "拒绝",
+          "pinyin": "jù jué",
+          "meaning": "to refuse"
+        },
+        {
+          "hanzi": "婚礼",
+          "pinyin": "hūn lǐ",
+          "meaning": "wedding"
+        },
+        {
+          "hanzi": "突然",
+          "pinyin": "tū rán",
+          "meaning": "suddenly"
+        },
+        {
+          "hanzi": "邀请",
+          "pinyin": "yāo qǐng",
+          "meaning": "to invite"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u04-t1",
+      "phrase": "s3-u04-w17",
+      "audio": {
+        "zh": "建议还没有确认。",
+        "py": "jiàn yì hái méi yǒu què rèn .",
+        "en": "The suggestion has not been confirmed."
+      },
+      "statement": "A confirmed arrangement exists.",
+      "answer": false,
+      "why": "还没有 confirms that it is pending."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u04-t2",
+      "phrase": "s3-u04-w04",
+      "audio": {
+        "zh": "只问她，另外一位不用问。",
+        "py": "zhǐ wèn tā , lìng wài yī wèi bù yòng wèn .",
+        "en": "Ask only her; no need to ask the other person."
+      },
+      "statement": "Only one contact is requested.",
+      "answer": true,
+      "why": "只 restricts the contact scope."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u04-t3",
+      "phrase": "s3-u04-w05",
+      "prompt": {
+        "zh": "能帮我一个忙吗？",
+        "py": "néng bāng wǒ yī gè máng ma ?",
+        "en": "Could you do me a favour?"
+      },
+      "choices": [
+        "先说是什么，我下午有空。",
+        "所以你已经替我结婚。",
+        "一个就是所有任务。"
+      ],
+      "answer": "先说是什么，我下午有空。",
+      "why": "Ask scope and state availability."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u04-t4",
+      "phrase": "s3-u04-w03",
+      "prompt": {
+        "zh": "她还没回消息。",
+        "py": "tā hái méi huí xiāo xī .",
+        "en": "She has not replied."
+      },
+      "choices": [
+        "那时间还没确认。",
+        "所以她一定答应。",
+        "那复印等于接待。"
+      ],
+      "answer": "那时间还没确认。",
+      "why": "Report the absent reply honestly."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u04-t5",
+      "phrase": "s3-u04-w14",
+      "line": {
+        "zh": "她去【理发】，下午再联系。",
+        "py": "tā qù lǐ fà , xià wǔ zài lián xì .",
+        "en": "She goes for a haircut and will contact us this afternoon."
+      },
+      "blankPy": "lǐ fà"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u04-t6",
+      "phrase": "s3-u04-w19",
+      "line": {
+        "zh": "我去办公室【复印】两页。",
+        "py": "wǒ qù bàn gōng shì fù yìn liǎng yè .",
+        "en": "I go to the office to copy two pages."
+      },
+      "blankPy": "fù yìn"
+    },
+    {
+      "type": "match",
+      "id": "s3-u04-t7",
+      "phrase": "s3-u04-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Meet a friend once.",
+          "right": {
+            "zh": "跟朋友见一次面。",
+            "py": "gēn péng you jiàn yī cì miàn .",
+            "en": "Meet a friend once."
+          }
+        },
+        {
+          "left": "Do me a favour.",
+          "right": {
+            "zh": "帮我一个忙。",
+            "py": "bāng wǒ yī gè máng .",
+            "en": "Do me a favour."
+          }
+        },
+        {
+          "left": "Go for a haircut.",
+          "right": {
+            "zh": "去理个发。",
+            "py": "qù lǐ gè fā .",
+            "en": "Go for a haircut."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u04-t8",
+      "phrase": "s3-u04-w17",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I contact her to ask the time.",
+          "right": {
+            "zh": "我联系她问时间。",
+            "py": "wǒ lián xì tā wèn shí jiān .",
+            "en": "I contact her to ask the time."
+          }
+        },
+        {
+          "left": "She has not replied.",
+          "right": {
+            "zh": "她还没回消息。",
+            "py": "tā hái méi huí xiāo xī .",
+            "en": "She has not replied."
+          }
+        },
+        {
+          "left": "A suggestion is not confirmation.",
+          "right": {
+            "zh": "建议不是确认。",
+            "py": "jiàn yì bù shì què rèn .",
+            "en": "A suggestion is not confirmation."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u04-t9",
+      "phrase": "s3-u04-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Ask her to bring the cups out.",
+          "right": {
+            "zh": "请她把杯子端出来。",
+            "py": "qǐng tā bǎ bēi zi duān chū lái .",
+            "en": "Ask her to bring the cups out."
+          }
+        },
+        {
+          "left": "Take out the flour first, then weigh a hundred grams.",
+          "right": {
+            "zh": "先取出面粉，再称一百克。",
+            "py": "xiān qǔ chū miàn fěn , zài chēng yī bǎi kè .",
+            "en": "Take out the flour first, then weigh a hundred grams."
+          }
+        },
+        {
+          "left": "Anyone may just listen; entering the competition is not required.",
+          "right": {
+            "zh": "谁都可以只听，不一定参加比赛。",
+            "py": "shéi dōu kě yǐ zhǐ tīng , bù yí dìng cān jiā bǐ sài .",
+            "en": "Anyone may just listen; entering the competition is not required."
+          }
+        },
+        {
+          "left": "Not daring to join does not imply lacking ability.",
+          "right": {
+            "zh": "不敢参加，不等于没有能力。",
+            "py": "bù gǎn cān jiā , bù děng yú méi yǒu néng lì .",
+            "en": "Not daring to join does not imply lacking ability."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Bound a favour",
+      "natural": {
+        "zh": "只帮我问时间，不用替我答应。",
+        "py": "zhǐ bāng wǒ wèn shí jiān , bù yòng tì wǒ dā yìng .",
+        "en": "Just ask the time for me; do not agree for me."
+      },
+      "note": "State the requested result and what remains my decision."
+    },
+    {
+      "situation": "Allow refusal",
+      "natural": {
+        "zh": "不方便的话，我自己再联系。",
+        "py": "bù fāng biàn de huà , wǒ zì jǐ zài lián xì .",
+        "en": "If inconvenient, I will contact her myself."
+      },
+      "note": "Leave a real opportunity to decline."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u04-speak",
+    "title": "Could you ask them for me?",
+    "place": "A language-exchange meeting",
+    "context": "Ask for help and pass a request along.",
+    "goal": "Make a bounded request and allow refusal",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "能帮我一个忙吗？",
+        "pinyin": "néng bāng wǒ yī gè máng ma ?",
+        "meaning": "Could you do me a favour?",
+        "intent": "Ask the scope before accepting",
+        "examples": [
+          "先说是什么。"
+        ],
+        "accept": [
+          "^先说是什么。[。！？]?$"
+        ]
+      },
+      {
+        "text": "已经确认了吗？",
+        "pinyin": "yǐ jīng què rèn le ma ?",
+        "meaning": "Is it confirmed?",
+        "intent": "Report the actual missing reply",
+        "examples": [
+          "还没有，她没回消息。"
+        ],
+        "accept": [
+          "^还没有，她没回消息。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三05, 三57. Native check: separated forms 帮我一个忙/见一次面/理个发, variable duration constructions, 跟…结婚 versus direct object, shared-subject linked verbs, 亲 adjective in 亲姐妹 and informal metaphor in the original scene. Native review pending; no actual personal appointment is made. Planned retrieval 二49 / 二50 / 二57 / 三03 / 三07: 请她把杯子端出来。, 先取出面粉，再称一百克。, 谁都可以只听，不一定参加比赛。, 不敢参加，不等于没有能力。."
+}

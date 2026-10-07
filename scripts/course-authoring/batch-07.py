@@ -107,7 +107,7 @@ write(u,'你转发的那条消息',['Check a message’s date and source before 
 ('信','letter','thư','noun','这封信是朋友写的。','This letter was written by a friend.'),
 ('短信','text message','tin nhắn văn bản','noun','短信说活动改到星期六。','The text says the activity has moved to Saturday.'),
 ('通知','notice; to notify','thông báo','noun','新的通知在网上。','The new notice is online.'),
-('一会儿','a short while','một lát','noun','等一会儿，我去问主办方。','Wait a moment; I will ask the organizer.'),
+('一会儿','briefly; a short while (temporal adverbial)','một lát','adverb','等一会儿，我去问主办方。','Wait a moment; I will ask the organizer.'),
 ('作用','function; effect','tác dụng','noun','这个日期的作用是让我们知道是哪次活动。','The date lets us know which occurrence of the activity it refers to.')],
 [grammar(u,'二07','这么 / 那么 / 这样 / 那样','Separate degree from manner',
 '这么/那么 often indicate degree before adjectives: 这么小、那么冷. 这样/那样 often indicate manner: 这样做、那样猜. 这 points to the current or nearer context; 那 to a previously mentioned or more distant context. They are not automatically two different times. Compare 图片这么小 (degree) with 这样看日期 (method).',[

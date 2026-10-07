@@ -45,6 +45,27 @@ const input = () => ({
 });
 
 describe("course coverage audit", () => {
+  it("requires exact source evidence for prefixes, classifiers and numbered senses", () => {
+    const ref = inventory();
+    ref.levels["2"].words = [
+      ["20", "二级", "老（老王）", "lǎo (Lǎo Wáng)", "前缀"],
+      ["21", "二级", "下", "xià", "量"],
+      ["22", "二级", "称1", "chēng", "动"],
+    ];
+    ref.levels["1"].words.push(["19", "一级", "下", "xià", "名"]);
+    const words = [
+      { hanzi: "老", pinyin: "lǎo", pos: "prefix", usageNote: "[GF2021:L2:20] 老（老王）" },
+      { hanzi: "下", pinyin: "xià", pos: "classifier", usageNote: "[GF2021:L2:21] action count" },
+      { hanzi: "称", pinyin: "chēng", pos: "verb", usageNote: "[GF2021:L2:22] weigh" },
+    ];
+    const count = (vocabulary: typeof words) => auditCoverage(ref, { ...input(),
+      packs: [{ vocabulary, grammar: [] } as unknown as ContentPack],
+    }, {}).levels[1].words.introduced;
+    expect(count(words)).toBe(3);
+    expect(count(words.map(w => ({ ...w, usageNote: "incidental appearance" })))).toBe(0);
+    expect(count(words.map(w => ({ ...w, pos: "noun" })))).toBe(0);
+    expect(count(words.map(w => ({ ...w, pinyin: "chèn" })))).toBe(0);
+  });
   it("does not credit another reading of an already-taught spelling", () => {
     const ref = inventory();
     ref.levels["1"].words = [
