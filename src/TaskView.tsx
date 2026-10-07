@@ -357,7 +357,7 @@ function ClozeTask({ t, profile, submitted, revealed, onAnswer }: Omit<Shared, "
     <div className="task task-cloze">
       <div className="cloze-text" lang="zh-CN">
         {t.lines.map((l, li) => (
-          <p key={li} className="cloze-line">
+          <div key={li} className="cloze-line">
             {l.speaker && <span className="tx-who">{l.speaker}</span>}
             <span className="cloze-zh">
               {l.zh.split(/(【[^】]+】)/).map((part, pi) => {
@@ -384,7 +384,7 @@ function ClozeTask({ t, profile, submitted, revealed, onAnswer }: Omit<Shared, "
             {(revealed || submitted) && <Pinyin text={l.py} />}
             {submitted && l.en && <span className="tx-en">{l.en}</span>}
             {submitted && <AudioButton text={plain(l.zh)} mood="clear" voiceURI={profile.voiceURI} />}
-          </p>
+          </div>
         ))}
       </div>
       {!submitted && (

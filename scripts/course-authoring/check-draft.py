@@ -4,6 +4,7 @@ This preflight writes only an ignored shadow tree, leaving the current audio and
 browser gate inputs stable. It is not an acceptance receipt.
 """
 import argparse
+import copy
 import shutil
 import subprocess
 import common
@@ -26,7 +27,14 @@ shutil.copytree(actual/'node_modules/hanzi-writer-data',shadow/'node_modules/han
 common.ROOT=shadow
 import retrievals
 retrievals.ROOT=shadow
+# Each batch is serialized by a fresh Python process in the real continuation.
+# Preserve all preceding packs, but do not leak another source's pronunciation
+# overrides or gloss allocations into the next source during this preflight.
+editorial_fields=['dictionary','character_groups','unit_glosses','character_contexts',
+                  'vocabulary_readings','character_readings','character_notes','selected_source_rows']
+initial={field:copy.deepcopy(getattr(common,field)) for field in editorial_fields}
 for batch in args.batches:
+    for field,value in initial.items():setattr(common,field,copy.deepcopy(value))
     path=actual/f'scripts/course-authoring/batch-{batch:02}.py'
     exec(compile(path.read_text('utf-8'),str(path),'exec'),{'__file__':str(path)})
 if args.exam:

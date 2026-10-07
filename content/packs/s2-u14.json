@@ -1,0 +1,1335 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u14",
+    "stage": 1,
+    "order": 44,
+    "title": "Message me when you arrive",
+    "titleZh": "到了就给我发消息",
+    "canDo": [
+      "Follow the latest address rather than an old screenshot",
+      "Sequence arrival, contact and entry",
+      "Distinguish regular habits from a repeated action"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u13"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u14-w01",
+      "hanzi": "重新",
+      "pinyin": "chóng xīn",
+      "meaning": "again; anew",
+      "meaningVi": "làm lại",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "地址变了，我重新发一次。",
+        "py": "dì zhǐ biàn le , wǒ chóng xīn fā yī cì .",
+        "en": "The address has changed; I will send it again."
+      },
+      "usageNote": "[GF2021:L2:1073] Source entry: 重新; chóngxīn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w02",
+      "hanzi": "经常",
+      "pinyin": "jīng cháng",
+      "meaning": "often",
+      "meaningVi": "thường xuyên",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们经常在图书馆见面。",
+        "py": "wǒ men jīng cháng zài tú shū guǎn jiàn miàn .",
+        "en": "We often meet at the library."
+      },
+      "usageNote": "[GF2021:L2:4321] Source entry: 经常; jīngcháng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w03",
+      "hanzi": "老",
+      "pinyin": "lǎo",
+      "meaning": "always; repeatedly, colloquial",
+      "meaningVi": "cứ; luôn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "你老看旧图片，先看新消息吧。",
+        "py": "nǐ lǎo kàn jiù tú piàn , xiān kàn xīn xiāo xī ba .",
+        "en": "You keep looking at the old image; check the new message first."
+      },
+      "usageNote": "[GF2021:L2:4952] Source entry: 老; lǎo; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w04",
+      "hanzi": "老是",
+      "pinyin": "lǎo shì",
+      "meaning": "always; repeatedly",
+      "meaningVi": "cứ mãi",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我老是忘记关机，今天先记下来。",
+        "py": "wǒ lǎo shì wàng jì guān jī , jīn tiān xiān jì xià lái .",
+        "en": "I keep forgetting to switch off; I will write it down first today."
+      },
+      "usageNote": "[GF2021:L2:4970] Source entry: 老是; lǎo·shì; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w05",
+      "hanzi": "又",
+      "pinyin": "yòu",
+      "meaning": "again",
+      "meaningVi": "lại",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我又走错入口了。",
+        "py": "wǒ yòu zǒu cuò rù kǒu le .",
+        "en": "I have gone to the wrong entrance again."
+      },
+      "usageNote": "[GF2021:L2:9906] Source entry: 又; yòu; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w06",
+      "hanzi": "然后",
+      "pinyin": "rán hòu",
+      "meaning": "then",
+      "meaningVi": "sau đó",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先看地址，然后出门。",
+        "py": "xiān kàn dì zhǐ , rán hòu chū mén .",
+        "en": "Check the address first, then go out."
+      },
+      "usageNote": "[GF2021:L2:6653] Source entry: 然后; ránhòu; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w07",
+      "hanzi": "接着",
+      "pinyin": "jiē zhe",
+      "meaning": "then; next",
+      "meaningVi": "tiếp theo",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我先借书，接着交作业。",
+        "py": "wǒ xiān jiè shū , jiē zhe jiāo zuò yè .",
+        "en": "I will borrow books first, then hand in homework."
+      },
+      "usageNote": "[GF2021:L2:4161] Source entry: 接着; jiēzhe; 动、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w08",
+      "hanzi": "接下来",
+      "pinyin": "jiē xià lái",
+      "meaning": "next; what follows",
+      "meaningVi": "tiếp theo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "接下来我们确认入口。",
+        "py": "jiē xià lái wǒ men què rèn rù kǒu .",
+        "en": "Next we will confirm the entrance."
+      },
+      "usageNote": "[GF2021:L2:4160] Source entry: 接下来; jiē ·xià·lái; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w09",
+      "hanzi": "出门",
+      "pinyin": "chū mén",
+      "meaning": "to go out",
+      "meaningVi": "ra ngoài",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "地址还没确认，先别出门。",
+        "py": "dì zhǐ hái méi què rèn , xiān bié chū mén .",
+        "en": "The address is unconfirmed; do not go out yet."
+      },
+      "usageNote": "[GF2021:L2:1133] Source entry: 出门; chū∥mén; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w10",
+      "hanzi": "关机",
+      "pinyin": "guān jī",
+      "meaning": "to switch a device off",
+      "meaningVi": "tắt máy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "活动开始前，请把手机关机。",
+        "py": "huó dòng kāi shǐ qián , qǐng bǎ shǒu jī guān jī .",
+        "en": "Please switch your phone off before the activity starts."
+      },
+      "usageNote": "[GF2021:L2:2961] Source entry: 关机; guān∥jī; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w11",
+      "hanzi": "开机",
+      "pinyin": "kāi jī",
+      "meaning": "to switch a device on",
+      "meaningVi": "bật máy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "出来以后再开机，看新消息。",
+        "py": "chū lái yǐ hòu zài kāi jī , kàn xīn xiāo xī .",
+        "en": "Switch it on again after coming out and check new messages."
+      },
+      "usageNote": "[GF2021:L2:4592] Source entry: 开机; kāi∥jī; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w12",
+      "hanzi": "随时",
+      "pinyin": "suí shí",
+      "meaning": "at any time",
+      "meaningVi": "bất cứ lúc nào",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有问题随时发消息，回复可能要等。",
+        "py": "yǒu wèn tí suí shí fā xiāo xī , huí fù kě néng yào děng .",
+        "en": "Message at any time if there is a problem; a reply may take time."
+      },
+      "usageNote": "[GF2021:L2:7710] Source entry: 随时; suíshí; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w13",
+      "hanzi": "通",
+      "pinyin": "tōng",
+      "meaning": "to connect; get through",
+      "meaningVi": "thông; kết nối",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "电话还没通，我先发短信。",
+        "py": "diàn huà hái méi tōng , wǒ xiān fā duǎn xìn .",
+        "en": "The call has not connected; I will send a text first."
+      },
+      "usageNote": "[GF2021:L2:8029] Source entry: 通; tōng; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w14",
+      "hanzi": "通过",
+      "pinyin": "tōng guò",
+      "meaning": "to pass through",
+      "meaningVi": "đi qua",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "从入口通过，别走出口。",
+        "py": "cóng rù kǒu tōng guò , bié zǒu chū kǒu .",
+        "en": "Go through the entrance, not the exit."
+      },
+      "usageNote": "[GF2021:L2:8037] Source entry: 通过; tōngguò; 介、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w15",
+      "hanzi": "进入",
+      "pinyin": "jìn rù",
+      "meaning": "to enter",
+      "meaningVi": "đi vào",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "确认入口后，我们进入图书馆。",
+        "py": "què rèn rù kǒu hòu , wǒ men jìn rù tú shū guǎn .",
+        "en": "After checking the entrance, we enter the library."
+      },
+      "usageNote": "[GF2021:L2:4300] Source entry: 进入; jìnrù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w16",
+      "hanzi": "走进",
+      "pinyin": "zǒu jìn",
+      "meaning": "to walk into",
+      "meaningVi": "đi vào",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我走进门，先看通知。",
+        "py": "wǒ zǒu jìn mén , xiān kàn tōng zhī .",
+        "en": "I walk through the door and check the notice first."
+      },
+      "usageNote": "[GF2021:L2:10986] Source entry: 走进; zǒujìn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w17",
+      "hanzi": "走开",
+      "pinyin": "zǒu kāi",
+      "meaning": "to walk away",
+      "meaningVi": "đi ra xa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先别走开，我去问工作人员。",
+        "py": "xiān bié zǒu kāi , wǒ qù wèn gōng zuò rén yuán .",
+        "en": "Do not walk away yet; I will ask a staff member."
+      },
+      "usageNote": "[GF2021:L2:10988] Source entry: 走开; zǒukāi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w18",
+      "hanzi": "走过",
+      "pinyin": "zǒu guò",
+      "meaning": "to walk past",
+      "meaningVi": "đi ngang qua",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我刚走过书店，没有进去。",
+        "py": "wǒ gāng zǒu guò shū diàn , méi yǒu jìn qù .",
+        "en": "I just walked past the bookshop without going in."
+      },
+      "usageNote": "[GF2021:L2:10983] Source entry: 走过; zǒuguò; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w19",
+      "hanzi": "出口",
+      "pinyin": "chū kǒu",
+      "meaning": "exit",
+      "meaningVi": "lối ra",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "出口在右边。",
+        "py": "chū kǒu zài yòu biān .",
+        "en": "The exit is on the right."
+      },
+      "usageNote": "[GF2021:L2:1126] Source entry: 出口; chūkǒu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w20",
+      "hanzi": "入口",
+      "pinyin": "rù kǒu",
+      "meaning": "entrance",
+      "meaningVi": "lối vào",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "新的入口在东边。",
+        "py": "xīn de rù kǒu zài dōng biān .",
+        "en": "The new entrance is on the east side."
+      },
+      "usageNote": "[GF2021:L2:6816] Source entry: 入口; rùkǒu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w21",
+      "hanzi": "找出",
+      "pinyin": "zhǎo chū",
+      "meaning": "to find out; locate",
+      "meaningVi": "tìm ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先找出最新的一条消息。",
+        "py": "xiān zhǎo chū zuì xīn de yī tiáo xiāo xī .",
+        "en": "Find the newest message first."
+      },
+      "usageNote": "[GF2021:L2:10299] Source entry: 找出; zhǎochū; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u14-w22",
+      "hanzi": "拿出",
+      "pinyin": "ná chū",
+      "meaning": "to take out",
+      "meaningVi": "lấy ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "进入以后拿出要还的书。",
+        "py": "jìn rù yǐ hòu ná chū yào huán de shū .",
+        "en": "Take out the books to return after entering."
+      },
+      "usageNote": "[GF2021:L2:5730] Source entry: 拿出; náchū; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "经",
+      "pinyin": "jīng",
+      "meaning": "to pass through; in 经常",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "经",
+          "role": "whole",
+          "gloss": "to pass through; in 经常"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 经 in 经常 / 已经. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "经常",
+          "p": "jīng cháng",
+          "m": "often"
+        },
+        {
+          "w": "已经",
+          "p": "yǐ jīng",
+          "m": "already"
+        }
+      ]
+    },
+    {
+      "hanzi": "又",
+      "pinyin": "yòu",
+      "meaning": "again; also",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "又",
+          "role": "whole",
+          "gloss": "again; also"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 又 in 又. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "又",
+          "p": "yòu",
+          "m": "again"
+        }
+      ]
+    },
+    {
+      "hanzi": "然",
+      "pinyin": "rán",
+      "meaning": "in 然后: then",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "然",
+          "role": "whole",
+          "gloss": "in 然后: then"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 然 in 然后 / 忽然. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "然后",
+          "p": "rán hòu",
+          "m": "then"
+        },
+        {
+          "w": "忽然",
+          "p": "hū rán",
+          "m": "suddenly"
+        }
+      ]
+    },
+    {
+      "hanzi": "通",
+      "pinyin": "tōng",
+      "meaning": "to connect; pass through",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "通",
+          "role": "whole",
+          "gloss": "to connect; pass through"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 通 in 通 / 通过. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "通",
+          "p": "tōng",
+          "m": "to connect; get through"
+        },
+        {
+          "w": "通过",
+          "p": "tōng guò",
+          "m": "to pass through"
+        }
+      ]
+    },
+    {
+      "hanzi": "随",
+      "pinyin": "suí",
+      "meaning": "to follow; according to",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "随",
+          "role": "whole",
+          "gloss": "to follow; according to"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 随 in 随时 / 随便. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "随时",
+          "p": "suí shí",
+          "m": "at any time"
+        },
+        {
+          "w": "随便",
+          "p": "suí biàn",
+          "m": "casual; as one likes"
+        }
+      ]
+    },
+    {
+      "hanzi": "件",
+      "pinyin": "jiàn",
+      "meaning": "item classifier",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "件",
+          "role": "whole",
+          "gloss": "item classifier"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 件 in 件 / 收件人. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "件",
+          "p": "jiàn",
+          "m": "measure word for clothes (tops)"
+        },
+        {
+          "w": "收件人",
+          "p": "shōu jiàn rén",
+          "m": "recipient"
+        }
+      ]
+    },
+    {
+      "hanzi": "业",
+      "pinyin": "yè",
+      "meaning": "work; study",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "业",
+          "role": "whole",
+          "gloss": "work; study"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 业 in 作业. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "作业",
+          "p": "zuò yè",
+          "m": "homework"
+        }
+      ]
+    },
+    {
+      "hanzi": "完",
+      "pinyin": "wán",
+      "meaning": "to finish",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "完",
+          "role": "whole",
+          "gloss": "to finish"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 完 in 用完 / 完全. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "用完",
+          "p": "yòng wán",
+          "m": "finish using"
+        },
+        {
+          "w": "完全",
+          "p": "wán quán",
+          "m": "completely; entirely"
+        }
+      ]
+    },
+    {
+      "hanzi": "借",
+      "pinyin": "jiè",
+      "meaning": "to borrow; lend",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "借",
+          "role": "whole",
+          "gloss": "to borrow; lend"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 借 in 借 / 借书. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "借",
+          "p": "jiè",
+          "m": "to lend; borrow"
+        },
+        {
+          "w": "借书",
+          "p": "jiè shū",
+          "m": "to borrow books"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u14-g二16",
+      "pattern": "重新 / 经常 / 老 / 老是 / 又",
+      "purpose": "Separate a regular habit from doing something again",
+      "explanation": "经常 describes a regular frequency. 重新 means anew, often replacing an earlier version. 又 reports a further occurrence; use 再 for an intended next action. Colloquial 老/老是 often carry a complaint about repetition, not a person’s age. Say the concrete problem rather than treating a friend’s mistake as a permanent trait.",
+      "examples": [
+        {
+          "zh": "我们经常见面，今天重新确认地址。",
+          "py": "wǒ men jīng cháng jiàn miàn , jīn tiān chóng xīn què rèn dì zhǐ .",
+          "en": "We meet often; today we are confirming the address anew."
+        },
+        {
+          "zh": "我又走错了，明天再看新地址。",
+          "py": "wǒ yòu zǒu cuò le , míng tiān zài kàn xīn dì zhǐ .",
+          "en": "I went the wrong way again; tomorrow I will check the new address again."
+        },
+        {
+          "zh": "你老看旧图片，老是走错入口。",
+          "py": "nǐ lǎo kàn jiù tú piàn , lǎo shì zǒu cuò rù kǒu .",
+          "en": "You keep looking at the old image and repeatedly take the wrong entrance."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "明天我又发一次新地址。",
+          "right": "明天我再发一次新地址。",
+          "why": "再 marks an intended future repetition in this neutral example."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u14-g二62",
+      "pattern": "arrival → contact → entry; 先 … 再 / 然后 …",
+      "purpose": "Carry out the agreed order",
+      "explanation": "Actions can follow one another without linking words: 到了，发消息，等朋友. 先…再/然后… makes an ordered plan explicit. 接着 and 接下来 identify the next step. Then does not mean immediately or simultaneously. If entry requires confirmation, do not treat merely arriving outside as entering.",
+      "examples": [
+        {
+          "zh": "到了，发消息，等朋友。",
+          "py": "dào le , fā xiāo xī , děng péng you .",
+          "en": "Arrive, message, wait for the friend."
+        },
+        {
+          "zh": "先看地址，再出门，然后确认入口。",
+          "py": "xiān kàn dì zhǐ , zài chū mén , rán hòu què rèn rù kǒu .",
+          "en": "Check the address first, then go out, then confirm the entrance."
+        },
+        {
+          "zh": "先还书，接着借书，接下来交作业。",
+          "py": "xiān huán shū , jiē zhe jiè shū , jiē xià lái jiāo zuò yè .",
+          "en": "Return books, then borrow books, then hand in homework."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先进入，再问能不能进。",
+          "right": "先问能不能进，再进入。",
+          "why": "Check permission before entering."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u14-g二69",
+      "pattern": "一 … 就 …",
+      "purpose": "Connect a trigger to the next action",
+      "explanation": "一到就发消息 means message as soon as arrival occurs. 一…就… links the trigger and response; it does not prove either has happened. Use an actual trigger such as 到北门, not an ambiguous 到了 if there are several entrances. Compare 到了以后再发消息, which does not stress immediacy.",
+      "examples": [
+        {
+          "zh": "我一到北门，就给你发消息。",
+          "py": "wǒ yī dào běi mén , jiù gěi nǐ fā xiāo xī .",
+          "en": "I will message you as soon as I reach the north gate."
+        },
+        {
+          "zh": "手机一开机，就能看到新消息。",
+          "py": "shǒu jī yī kāi jī , jiù néng kàn dào xīn xiāo xī .",
+          "en": "New messages can be seen as soon as the phone is switched on."
+        },
+        {
+          "zh": "一确认入口，我们就进去。",
+          "py": "yī què rèn rù kǒu , wǒ men jiù jìn qù .",
+          "en": "We will go in as soon as the entrance is confirmed."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一到就发消息，所以现在已经到了。",
+          "right": "一到就发消息，但现在还没到。",
+          "why": "The conditional plan does not establish present arrival."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u14-d",
+    "title": "Use the new address",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which message to use and when to enter.",
+    "lines": [
+      {
+        "zh": "你出门了吗？我重新发了地址。",
+        "py": "nǐ chū mén le ma ? wǒ chóng xīn fā le dì zhǐ .",
+        "en": "Have you gone out? I have sent the address again.",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没。我经常去北门，今天也走北门吗？",
+        "py": "hái méi . wǒ jīng cháng qù běi mén , jīn tiān yě zǒu běi mén ma ?",
+        "en": "Not yet. I often go to the north gate. Should I go there today too?",
+        "speaker": "b"
+      },
+      {
+        "zh": "今天入口在东边，北门不能进。先找出最新的消息。",
+        "py": "jīn tiān rù kǒu zài dōng biān , běi mén bù néng jìn . xiān zhǎo chū zuì xīn de xiāo xī .",
+        "en": "Today the entrance is on the east side; you cannot enter through the north gate. Find the newest message first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我又看旧图片了，差点儿走错。",
+        "py": "wǒ yòu kàn jiù tú piàn le , chà diǎn ér zǒu cuò .",
+        "en": "I looked at the old image again and nearly went the wrong way.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你老看旧图片。先看地址，再出门，到东边就发消息。",
+        "py": "nǐ lǎo kàn jiù tú piàn . xiān kàn dì zhǐ , zài chū mén , dào dōng biān jiù fā xiāo xī .",
+        "en": "You keep looking at the old image. Check the address first, then go out, and message when you reach the east side.",
+        "speaker": "a"
+      },
+      {
+        "zh": "电话通了吗？",
+        "py": "diàn huà tōng le ma ?",
+        "en": "Did the call connect?",
+        "speaker": "b"
+      },
+      {
+        "zh": "还没通，先用短信。我可能不能随时回复。",
+        "py": "hái méi tōng , xiān yòng duǎn xìn . wǒ kě néng bù néng suí shí huí fù .",
+        "en": "Not yet; use a text first. I may not be able to reply at every moment.",
+        "speaker": "a"
+      },
+      {
+        "zh": "明白。我一到东边，就给你发消息，先不进入。",
+        "py": "míng bái . wǒ yī dào dōng biān , jiù gěi nǐ fā xiāo xī , xiān bù jìn rù .",
+        "en": "Understood. I will message as soon as I reach the east side and will not enter yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "对，确认以后再通过入口。出口在右边，别走错。",
+        "py": "duì , què rèn yǐ hòu zài tōng guò rù kǒu . chū kǒu zài yòu biān , bié zǒu cuò .",
+        "en": "Right. Go through the entrance after confirmation. The exit is on the right; do not mix them up.",
+        "speaker": "a"
+      },
+      {
+        "zh": "进去以后先拿出要还的书，然后借书，接着交作业。",
+        "py": "jìn qù yǐ hòu xiān ná chū yào huán de shū , rán hòu jiè shū , jiē zhe jiāo zuò yè .",
+        "en": "After going in, take out the books to return first, then borrow books, then hand in homework.",
+        "speaker": "b"
+      },
+      {
+        "zh": "活动开始前关机，出来以后再开机。",
+        "py": "huó dòng kāi shǐ qián guān jī , chū lái yǐ hòu zài kāi jī .",
+        "en": "Switch off before the activity starts and switch on after coming out.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我老是忘记关机，这次先写在笔记本里。",
+        "py": "wǒ lǎo shì wàng jì guān jī , zhè cì xiān xiě zài bǐ jì běn lǐ .",
+        "en": "I keep forgetting to switch off; this time I will write it in my notebook first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What must be checked before departure?",
+        "choices": [
+          "The latest address",
+          "The oldest screenshot",
+          "Whether the book is heavy"
+        ],
+        "answer": "The latest address"
+      },
+      {
+        "type": "detail",
+        "q": "Which gate cannot be used today?",
+        "choices": [
+          "The north gate",
+          "The eastern entrance",
+          "The exit on the right"
+        ],
+        "answer": "The north gate"
+      },
+      {
+        "type": "inference",
+        "q": "Does arriving outside mean immediate permission to enter?",
+        "choices": [
+          "No, confirmation comes first",
+          "Yes, entering is automatic",
+          "The conversation gives no entry plan"
+        ],
+        "answer": "No, confirmation comes first"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "借书",
+        "pinyin": "jiè shū",
+        "meaning": "to borrow books"
+      },
+      {
+        "hanzi": "作业",
+        "pinyin": "zuò yè",
+        "meaning": "homework"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u14-r",
+    "title": "An updated entry plan",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Follow the message, contact and entry sequence.",
+    "lines": [
+      {
+        "zh": "我们经常在图书馆见面，今天入口换了。朋友重新发了一条消息。",
+        "py": "wǒ men jīng cháng zài tú shū guǎn jiàn miàn , jīn tiān rù kǒu huàn le . péng you chóng xīn fā le yī tiáo xiāo xī .",
+        "en": "We often meet at the library; today the entrance has changed. My friend sent a new message."
+      },
+      {
+        "zh": "旧图片写北门，新消息写东边。先找出新消息，再出门。",
+        "py": "jiù tú piàn xiě běi mén , xīn xiāo xī xiě dōng biān . xiān zhǎo chū xīn xiāo xī , zài chū mén .",
+        "en": "The old image says north gate; the new message says east side. Find the new message before going out."
+      },
+      {
+        "zh": "我刚走过书店，还没走进图书馆。经过一个地方不是进入那里。",
+        "py": "wǒ gāng zǒu guò shū diàn , hái méi zǒu jìn tú shū guǎn . jīng guò yī gè dì fāng bù shì jìn rù nà lǐ .",
+        "en": "I just walked past the bookshop and have not entered the library. Passing a place is not entering it."
+      },
+      {
+        "zh": "电话没通，我先发短信。一到东边就发消息，确认后再进入。",
+        "py": "diàn huà méi tōng , wǒ xiān fā duǎn xìn . yī dào dōng biān jiù fā xiāo xī , què rèn hòu zài jìn rù .",
+        "en": "The call did not connect, so I send a text first. I message on reaching the east side and enter after confirmation."
+      },
+      {
+        "zh": "入口和出口不同。出口在右边，入口要看新的通知。",
+        "py": "rù kǒu hé chū kǒu bù tóng . chū kǒu zài yòu biān , rù kǒu yào kàn xīn de tōng zhī .",
+        "en": "Entrance and exit are different. The exit is on the right; check the new notice for the entrance."
+      },
+      {
+        "zh": "进入后拿出要还的书，先还书，然后借书，接着交作业。",
+        "py": "jìn rù hòu ná chū yào huán de shū , xiān huán shū , rán hòu jiè shū , jiē zhe jiāo zuò yè .",
+        "en": "After entering, take out the return books, return them, then borrow books and hand in homework."
+      },
+      {
+        "zh": "活动开始前关机，出来以后再开机。我老是忘记，今天写下来。",
+        "py": "huó dòng kāi shǐ qián guān jī , chū lái yǐ hòu zài kāi jī . wǒ lǎo shì wàng jì , jīn tiān xiě xià lái .",
+        "en": "Switch off before the activity and back on after coming out. I repeatedly forget, so I write it down today."
+      },
+      {
+        "zh": "有问题随时发消息，不等于朋友随时能回复。先别走开，等确认。",
+        "py": "yǒu wèn tí suí shí fā xiāo xī , bù děng yú péng you suí shí néng huí fù . xiān bié zǒu kāi , děng què rèn .",
+        "en": "Being able to message at any time does not mean my friend can reply at any time. Do not walk away yet; wait for confirmation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does this plan prioritize?",
+        "choices": [
+          "Using the new message and following the agreed order",
+          "Entering the old gate quickly",
+          "Calling repeatedly without checking messages"
+        ],
+        "answer": "Using the new message and following the agreed order"
+      },
+      {
+        "type": "detail",
+        "q": "What follows returning the books?",
+        "choices": [
+          "Borrowing books",
+          "Switching off before arrival",
+          "Walking away from the entrance"
+        ],
+        "answer": "Borrowing books"
+      },
+      {
+        "type": "inference",
+        "q": "Does 随时发消息 guarantee an immediate reply?",
+        "choices": [
+          "No, the friend may be unavailable",
+          "Yes, every reply is instant",
+          "It means never send messages"
+        ],
+        "answer": "No, the friend may be unavailable"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "旧图片写北门，新消息写【东边】。先找出新消息，再出门。",
+          "py": "jiù tú piàn xiě běi mén , xīn xiāo xī xiě dōng biān . xiān zhǎo chū xīn xiāo xī , zài chū mén .",
+          "en": "The old image says north gate; the new message says east side. Find the new message before going out."
+        },
+        {
+          "zh": "进入后拿出要还的书，先还书，然后【借书】，接着交作业。",
+          "py": "jìn rù hòu ná chū yào huán de shū , xiān huán shū , rán hòu jiè shū , jiē zhe jiāo zuò yè .",
+          "en": "After entering, take out the return books, return them, then borrow books and hand in homework."
+        }
+      ],
+      "bank": [
+        "东边",
+        "借书",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "借书",
+        "pinyin": "jiè shū",
+        "meaning": "to borrow books"
+      },
+      {
+        "hanzi": "作业",
+        "pinyin": "zuò yè",
+        "meaning": "homework"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u14-media",
+      "title": "The old screenshot",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original exchange about an outdated plan.",
+      "lines": [
+        {
+          "zh": "我又到北门了。你说我们经常在这里见。",
+          "py": "wǒ yòu dào běi mén le . nǐ shuō wǒ men jīng cháng zài zhè lǐ jiàn .",
+          "en": "I reached the north gate again. You said we often meet here.",
+          "speaker": "a"
+        },
+        {
+          "zh": "经常不是今天。今天重新发了地址。",
+          "py": "jīng cháng bù shì jīn tiān . jīn tiān chóng xīn fā le dì zhǐ .",
+          "en": "Often does not mean today. I sent a new address today.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我老是先出门，再看消息。",
+          "py": "wǒ lǎo shì xiān chū mén , zài kàn xiāo xī .",
+          "en": "I keep going out first and checking messages afterward.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那今天换顺序：先看消息，再走。",
+          "py": "nà jīn tiān huàn shùn xù : xiān kàn xiāo xī , zài zǒu .",
+          "en": "Change the order today: read the message first, then go.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我一到东边，就发短信。",
+          "py": "wǒ yī dào dōng biān , jiù fā duǎn xìn .",
+          "en": "I will text as soon as I reach the east side.",
+          "speaker": "a"
+        },
+        {
+          "zh": "行，确认后再进，别从出口走进来。",
+          "py": "xíng , què rèn hòu zài jìn , bié cóng chū kǒu zǒu jìn lái .",
+          "en": "Okay. Enter after confirmation, and do not come in through the exit.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why did the friend go to the wrong gate?",
+          "choices": [
+            "They relied on the usual location rather than today’s update",
+            "The new message said north gate",
+            "No address was sent"
+          ],
+          "answer": "They relied on the usual location rather than today’s update"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "地址",
+          "pinyin": "dì zhǐ",
+          "meaning": "address"
+        },
+        {
+          "hanzi": "顺序",
+          "pinyin": "shùn xù",
+          "meaning": "sequence"
+        },
+        {
+          "hanzi": "确认",
+          "pinyin": "què rèn",
+          "meaning": "to confirm"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u14-t1",
+      "phrase": "s2-u14-w01",
+      "audio": {
+        "zh": "我重新发了地址，今天从东边进。",
+        "py": "wǒ chóng xīn fā le dì zhǐ , jīn tiān cóng dōng biān jìn .",
+        "en": "I sent the address again; enter from the east today."
+      },
+      "statement": "The updated entrance is on the east side.",
+      "answer": true,
+      "why": "The new message explicitly names the east side."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u14-t2",
+      "phrase": "s2-u14-w18",
+      "audio": {
+        "zh": "我走过书店，没有走进。",
+        "py": "wǒ zǒu guò shū diàn , méi yǒu zǒu jìn .",
+        "en": "I walked past the bookshop without entering."
+      },
+      "statement": "I entered the bookshop.",
+      "answer": false,
+      "why": "走过 is contrasted with 没有走进."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u14-t3",
+      "phrase": "s2-u14-w20",
+      "prompt": {
+        "zh": "到了就进去吗？",
+        "py": "dào le jiù jìn qù ma ?",
+        "en": "Should I enter immediately on arrival?"
+      },
+      "choices": [
+        "先发消息，确认后再进入。",
+        "我经常去北门。",
+        "书是新的。"
+      ],
+      "answer": "先发消息，确认后再进入。",
+      "why": "Follow the confirmation condition."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u14-t4",
+      "phrase": "s2-u14-w12",
+      "prompt": {
+        "zh": "随时发消息，你就能马上回吗？",
+        "py": "suí shí fā xiāo xī , nǐ jiù néng mǎ shàng huí ma ?",
+        "en": "If I message at any time, can you reply immediately?"
+      },
+      "choices": [
+        "不一定，我有空再回。",
+        "电话没有通。",
+        "出口在右边。"
+      ],
+      "answer": "不一定，我有空再回。",
+      "why": "Availability is not guaranteed."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u14-t5",
+      "phrase": "s2-u14-w06",
+      "line": {
+        "zh": "先看地址，【然后】出门。",
+        "py": "xiān kàn dì zhǐ , rán hòu chū mén .",
+        "en": "Check the address first, then go out."
+      },
+      "blankPy": "rán hòu"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u14-t6",
+      "phrase": "s2-u14-w22",
+      "line": {
+        "zh": "进入以后【拿出】要还的书。",
+        "py": "jìn rù yǐ hòu ná chū yào huán de shū .",
+        "en": "Take out the return books after entering."
+      },
+      "blankPy": "ná chū"
+    },
+    {
+      "type": "match",
+      "id": "s2-u14-t7",
+      "phrase": "s2-u14-w10",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Switch off before the activity.",
+          "right": {
+            "zh": "活动开始前关机。",
+            "py": "huó dòng kāi shǐ qián guān jī .",
+            "en": "Switch off before the activity."
+          }
+        },
+        {
+          "left": "Switch on after coming out.",
+          "right": {
+            "zh": "出来以后开机。",
+            "py": "chū lái yǐ hòu kāi jī .",
+            "en": "Switch on after coming out."
+          }
+        },
+        {
+          "left": "Enter after confirmation.",
+          "right": {
+            "zh": "确认后进入。",
+            "py": "què rèn hòu jìn rù .",
+            "en": "Enter after confirmation."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u14-t8",
+      "phrase": "s2-u14-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Return books first, then borrow books.",
+          "right": {
+            "zh": "先还书，接着借书。",
+            "py": "xiān huán shū , jiē zhe jiè shū .",
+            "en": "Return books first, then borrow books."
+          }
+        },
+        {
+          "left": "Keep looking at the old image.",
+          "right": {
+            "zh": "老是看旧图片。",
+            "py": "lǎo shì kàn jiù tú piàn .",
+            "en": "Keep looking at the old image."
+          }
+        },
+        {
+          "left": "The call has not connected yet.",
+          "right": {
+            "zh": "电话还没通。",
+            "py": "diàn huà hái méi tōng .",
+            "en": "The call has not connected yet."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u14-tcontext-01",
+      "phrase": "s2-u14-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "Next we will confirm the entrance.",
+          "right": {
+            "zh": "接下来我们确认入口。",
+            "py": "jiē xià lái wǒ men què rèn rù kǒu .",
+            "en": "Next we will confirm the entrance."
+          }
+        },
+        {
+          "left": "Go through the entrance, not the exit.",
+          "right": {
+            "zh": "从入口通过，别走出口。",
+            "py": "cóng rù kǒu tōng guò , bié zǒu chū kǒu .",
+            "en": "Go through the entrance, not the exit."
+          }
+        },
+        {
+          "left": "Do not walk away yet; I will ask a staff member.",
+          "right": {
+            "zh": "先别走开，我去问工作人员。",
+            "py": "xiān bié zǒu kāi , wǒ qù wèn gōng zuò rén yuán .",
+            "en": "Do not walk away yet; I will ask a staff member."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u14-t9",
+      "phrase": "s2-u14-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Take your seat before the start; leave after the end.",
+          "right": {
+            "zh": "开场以前先坐好，散场以后再出去。",
+            "py": "kāi chǎng yǐ qián xiān zuò hǎo , sàn chǎng yǐ hòu zài chū qù .",
+            "en": "Take your seat before the start; leave after the end."
+          }
+        },
+        {
+          "left": "It is nearly seven; the programme is about to begin.",
+          "right": {
+            "zh": "快要七点了，节目就要开始了。",
+            "py": "kuài yào qī diǎn le , jié mù jiù yào kāi shǐ le .",
+            "en": "It is nearly seven; the programme is about to begin."
+          }
+        },
+        {
+          "left": "We wait ten minutes; it starts at seven.",
+          "right": {
+            "zh": "我们等十分钟，七点开始。",
+            "py": "wǒ men děng shí fēn zhōng , qī diǎn kāi shǐ .",
+            "en": "We wait ten minutes; it starts at seven."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Updating a plan",
+      "natural": {
+        "zh": "我重新发了地址，先看最新的消息。",
+        "py": "wǒ chóng xīn fā le dì zhǐ , xiān kàn zuì xīn de xiāo xī .",
+        "en": "I sent the address again; check the latest message first."
+      },
+      "note": "Name the changed detail rather than blaming the reader."
+    },
+    {
+      "situation": "Agreeing to contact",
+      "natural": {
+        "zh": "我一到东边，就给你发消息。",
+        "py": "wǒ yī dào dōng biān , jiù gěi nǐ fā xiāo xī .",
+        "en": "I will message as soon as I reach the east side."
+      },
+      "note": "Use a specific place as the trigger."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u14-speak",
+    "title": "Message me when you arrive",
+    "place": "A language-exchange meeting",
+    "context": "Coordinate a sequence and repeated plans.",
+    "goal": "Follow the latest address rather than an old screenshot",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "到了以后怎么做？",
+        "pinyin": "dào le yǐ hòu zěn me zuò ?",
+        "meaning": "What should you do after arrival?",
+        "intent": "State contact before entry",
+        "examples": [
+          "先发消息，确认后再进入。"
+        ],
+        "accept": [
+          "^先发消息，确认后再进入。[。！？]?$"
+        ]
+      },
+      {
+        "text": "为什么重新发地址？",
+        "pinyin": "wèi shén me chóng xīn fā dì zhǐ ?",
+        "meaning": "Why send the address again?",
+        "intent": "Name the change",
+        "examples": [
+          "今天入口换了。"
+        ],
+        "accept": [
+          "^今天入口换了。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二16, 二62, 二69. Native check: complaint strength of 老/老是; 接着 versus 然后 sequencing; conditional 一…就… and telephone 通. Latest-message details and entry conditions are explicit; no guaranteed instant reply. Planned retrieval 二12 / 二47 / 二81: 开场以前先坐好，散场以后再出去。, 快要七点了，节目就要开始了。, 我们等十分钟，七点开始。."
+}

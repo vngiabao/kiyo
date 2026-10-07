@@ -1,0 +1,1311 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u13",
+    "stage": 1,
+    "order": 43,
+    "title": "Sorry, I'm running late",
+    "titleZh": "我还在路上",
+    "canDo": [
+      "Send a useful delay update without promising an unknown arrival",
+      "Distinguish already, still and suddenly",
+      "Recognize early or late judgments from context"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u12"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u13-w01",
+      "hanzi": "忽然",
+      "pinyin": "hū rán",
+      "meaning": "suddenly",
+      "meaningVi": "đột nhiên",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "车忽然停了，我还不知道原因。",
+        "py": "chē hū rán tíng le , wǒ hái bù zhī dào yuán yīn .",
+        "en": "The vehicle suddenly stopped; I do not yet know why."
+      },
+      "usageNote": "[GF2021:L2:3402] Source entry: 忽然; hūrán; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w02",
+      "hanzi": "一直",
+      "pinyin": "yì zhí",
+      "meaning": "all along; continuously",
+      "meaningVi": "suốt; liên tục",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我一直在站台等，没有离开。",
+        "py": "wǒ yì zhí zài zhàn tái děng , méi yǒu lí kāi .",
+        "en": "I have been waiting at the stop all along and have not left."
+      },
+      "usageNote": "[GF2021:L2:9631] Source entry: 一直; yìzhí; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w03",
+      "hanzi": "已经",
+      "pinyin": "yǐ jīng",
+      "meaning": "already",
+      "meaningVi": "đã",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友已经到了，我还在路上。",
+        "py": "péng you yǐ jīng dào le , wǒ hái zài lù shàng .",
+        "en": "My friend has already arrived; I am still on the way."
+      },
+      "usageNote": "[GF2021:L2:9559] Source entry: 已经; yǐjīng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w04",
+      "hanzi": "急",
+      "pinyin": "jí",
+      "meaning": "anxious; urgent",
+      "meaningVi": "lo; gấp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我有点儿急，但先把消息说清楚。",
+        "py": "wǒ yǒu diǎn ér jí , dàn xiān bǎ xiāo xī shuō qīng chǔ .",
+        "en": "I am a little anxious, but I first explain the message clearly."
+      },
+      "usageNote": "[GF2021:L2:3750] Source entry: 急; jí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w05",
+      "hanzi": "交通",
+      "pinyin": "jiāo tōng",
+      "meaning": "traffic; transport",
+      "meaningVi": "giao thông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天交通不太顺利，可能晚到。",
+        "py": "jīn tiān jiāo tōng bù tài shùn lì , kě néng wǎn dào .",
+        "en": "Traffic is not going smoothly today; I may arrive late."
+      },
+      "usageNote": "[GF2021:L2:4067] Source entry: 交通; jiāotōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w06",
+      "hanzi": "公共汽车",
+      "pinyin": "gōng gòng qì chē",
+      "meaning": "bus",
+      "meaningVi": "xe buýt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我坐公共汽车，不是出租车。",
+        "py": "wǒ zuò gōng gòng qì chē , bù shì chū zū chē .",
+        "en": "I take a bus, not a taxi."
+      },
+      "usageNote": "[GF2021:L2:2783] Source entry: 公共汽车; gōnggòng qìchē; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w07",
+      "hanzi": "公交车",
+      "pinyin": "gōng jiāo chē",
+      "meaning": "bus; public bus",
+      "meaningVi": "xe buýt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这辆公交车还没到站。",
+        "py": "zhè liàng gōng jiāo chē hái méi dào zhàn .",
+        "en": "This bus has not reached the stop yet."
+      },
+      "usageNote": "[GF2021:L2:2788] Source entry: 公交车; gōngjiāochē; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w08",
+      "hanzi": "司机",
+      "pinyin": "sī jī",
+      "meaning": "driver",
+      "meaningVi": "tài xế",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "司机说前面的路暂时不能走。",
+        "py": "sī jī shuō qián miàn de lù zàn shí bù néng zǒu .",
+        "en": "The driver says the road ahead cannot be used for now."
+      },
+      "usageNote": "[GF2021:L2:7608] Source entry: 司机; sījī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w09",
+      "hanzi": "车辆",
+      "pinyin": "chē liàng",
+      "meaning": "vehicles",
+      "meaningVi": "xe cộ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "路口的车辆很多，先别猜到达时间。",
+        "py": "lù kǒu de chē liàng hěn duō , xiān bié cāi dào dá shí jiān .",
+        "en": "There are many vehicles at the intersection; do not guess the arrival time first."
+      },
+      "usageNote": "[GF2021:L2:902] Source entry: 车辆; chēliàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w10",
+      "hanzi": "出发",
+      "pinyin": "chū fā",
+      "meaning": "to set off",
+      "meaningVi": "khởi hành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我六点出发，七点还没到。",
+        "py": "wǒ liù diǎn chū fā , qī diǎn hái méi dào .",
+        "en": "I set off at six and have not arrived by seven."
+      },
+      "usageNote": "[GF2021:L2:1117] Source entry: 出发; chūfā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w11",
+      "hanzi": "等到",
+      "pinyin": "děng dào",
+      "meaning": "until; wait until",
+      "meaningVi": "đợi đến; đến khi",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "等到车停好，我再下来。",
+        "py": "děng dào chē tíng hǎo , wǒ zài xià lái .",
+        "en": "I will get off after the vehicle has stopped properly."
+      },
+      "usageNote": "[GF2021:L2:1717] Source entry: 等到; děngdào; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w12",
+      "hanzi": "经过",
+      "pinyin": "jīng guò",
+      "meaning": "to pass through; pass by",
+      "meaningVi": "đi qua",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "车经过学校，但没有在那里停。",
+        "py": "chē jīng guò xué xiào , dàn méi yǒu zài nà lǐ tíng .",
+        "en": "The vehicle passes the school but does not stop there."
+      },
+      "usageNote": "[GF2021:L2:4325] Source entry: 经过; jīngguò; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w13",
+      "hanzi": "离",
+      "pinyin": "lí",
+      "meaning": "away from; distance from",
+      "meaningVi": "cách; rời",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个站离学校很近。",
+        "py": "zhè gè zhàn lí xué xiào hěn jìn .",
+        "en": "This stop is very near the school."
+      },
+      "usageNote": "[GF2021:L2:5012] Source entry: 离; lí; 动、介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w14",
+      "hanzi": "离开",
+      "pinyin": "lí kāi",
+      "meaning": "to leave",
+      "meaningVi": "rời khỏi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我还没有离开站台。",
+        "py": "wǒ hái méi yǒu lí kāi zhàn tái .",
+        "en": "I have not left the stop yet."
+      },
+      "usageNote": "[GF2021:L2:5015] Source entry: 离开; lí∥kāi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w15",
+      "hanzi": "路边",
+      "pinyin": "lù biān",
+      "meaning": "roadside",
+      "meaningVi": "bên đường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不要站在路边等车，先找站台。",
+        "py": "bú yào zhàn zài lù biān děng chē , xiān zhǎo zhàn tái .",
+        "en": "Do not wait by the roadside; find the stop first."
+      },
+      "usageNote": "[GF2021:L2:5306] Source entry: 路边; lù biān; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w16",
+      "hanzi": "停车",
+      "pinyin": "tíng chē",
+      "meaning": "to park; stop a vehicle",
+      "meaningVi": "đỗ xe; dừng xe",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里不能停车，请看指示。",
+        "py": "zhè lǐ bù néng tíng chē , qǐng kàn zhǐ shì .",
+        "en": "Parking is not allowed here; check the signs."
+      },
+      "usageNote": "[GF2021:L2:8016] Source entry: 停车; tíng∥chē; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w17",
+      "hanzi": "停车场",
+      "pinyin": "tíng chē chǎng",
+      "meaning": "car park",
+      "meaningVi": "bãi đỗ xe",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "停车场不是公交站。",
+        "py": "tíng chē chǎng bù shì gōng jiāo zhàn .",
+        "en": "The car park is not the bus stop."
+      },
+      "usageNote": "[GF2021:L2:8017] Source entry: 停车场; tíngchēchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w18",
+      "hanzi": "近",
+      "pinyin": "jìn",
+      "meaning": "near",
+      "meaningVi": "gần",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "从站台到学校很近，但还要走路。",
+        "py": "cóng zhàn tái dào xué xiào hěn jìn , dàn hái yào zǒu lù .",
+        "en": "The school is near the stop, but walking is still needed."
+      },
+      "usageNote": "[GF2021:L2:4305] Source entry: 近; jìn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w19",
+      "hanzi": "手表",
+      "pinyin": "shǒu biǎo",
+      "meaning": "wristwatch",
+      "meaningVi": "đồng hồ đeo tay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我看手表，已经七点了。",
+        "py": "wǒ kàn shǒu biǎo , yǐ jīng qī diǎn le .",
+        "en": "I check my watch; it is already seven."
+      },
+      "usageNote": "[GF2021:L2:7374] Source entry: 手表; shǒubiǎo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w20",
+      "hanzi": "信号",
+      "pinyin": "xìn hào",
+      "meaning": "signal",
+      "meaningVi": "tín hiệu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "手机信号不好，消息可能没发出。",
+        "py": "shǒu jī xìn hào bù hǎo , xiāo xī kě néng méi fā chū .",
+        "en": "The phone signal is poor; the message may not have gone through."
+      },
+      "usageNote": "[GF2021:L2:9033] Source entry: 信号; xìnhào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w21",
+      "hanzi": "快点儿",
+      "pinyin": "kuài diǎnr",
+      "meaning": "a little faster; hurry up",
+      "meaningVi": "nhanh lên một chút",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友说快点儿，我还是先看安全。",
+        "py": "péng you shuō kuài diǎnr , wǒ hái shi xiān kàn ān quán .",
+        "en": "My friend says to hurry, but I still prioritize safety."
+      },
+      "usageNote": "[GF2021:L2:4833] Source entry: 快点儿; kuài diǎnr; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u13-w22",
+      "hanzi": "一定",
+      "pinyin": "yí dìng",
+      "meaning": "certainly; definitely",
+      "meaningVi": "nhất định; chắc chắn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "时间一确认，我一定发消息。",
+        "py": "shí jiān yī què rèn , wǒ yí dìng fā xiāo xī .",
+        "en": "Once the time is confirmed, I will definitely send a message."
+      },
+      "usageNote": "[GF2021:L2:9498] Source entry: 一定; yídìng; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "忽",
+      "pinyin": "hū",
+      "meaning": "suddenly; neglect",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "忽",
+          "role": "whole",
+          "gloss": "suddenly; neglect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 忽 in 忽然. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "忽然",
+          "p": "hū rán",
+          "m": "suddenly"
+        }
+      ]
+    },
+    {
+      "hanzi": "急",
+      "pinyin": "jí",
+      "meaning": "urgent; anxious",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "急",
+          "role": "whole",
+          "gloss": "urgent; anxious"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 急 in 急 / 着急. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "急",
+          "p": "jí",
+          "m": "anxious; urgent"
+        },
+        {
+          "w": "着急",
+          "p": "zháo jí",
+          "m": "to be anxious; in a hurry"
+        }
+      ]
+    },
+    {
+      "hanzi": "交",
+      "pinyin": "jiāo",
+      "meaning": "to hand over; exchange",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "交",
+          "role": "whole",
+          "gloss": "to hand over; exchange"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 交 in 交通 / 公交车. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "交通",
+          "p": "jiāo tōng",
+          "m": "traffic; transport"
+        },
+        {
+          "w": "公交车",
+          "p": "gōng jiāo chē",
+          "m": "bus; public bus"
+        }
+      ]
+    },
+    {
+      "hanzi": "司",
+      "pinyin": "sī",
+      "meaning": "to manage; in 司机",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "司",
+          "role": "whole",
+          "gloss": "to manage; in 司机"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 司 in 司机. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "司机",
+          "p": "sī jī",
+          "m": "driver"
+        }
+      ]
+    },
+    {
+      "hanzi": "辆",
+      "pinyin": "liàng",
+      "meaning": "vehicle classifier",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "辆",
+          "role": "whole",
+          "gloss": "vehicle classifier"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 辆 in 车辆 / 辆. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "车辆",
+          "p": "chē liàng",
+          "m": "vehicles"
+        },
+        {
+          "w": "辆",
+          "p": "liàng",
+          "m": "classifier for vehicles"
+        }
+      ]
+    },
+    {
+      "hanzi": "近",
+      "pinyin": "jìn",
+      "meaning": "near",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "近",
+          "role": "whole",
+          "gloss": "near"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 近 in 近 / 最近. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "近",
+          "p": "jìn",
+          "m": "near"
+        },
+        {
+          "w": "最近",
+          "p": "zuì jìn",
+          "m": "recently; these days"
+        }
+      ]
+    },
+    {
+      "hanzi": "离",
+      "pinyin": "lí",
+      "meaning": "to leave; distance from",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "离",
+          "role": "whole",
+          "gloss": "to leave; distance from"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 离 in 离 / 离开. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "离",
+          "p": "lí",
+          "m": "distance from"
+        },
+        {
+          "w": "离开",
+          "p": "lí kāi",
+          "m": "to leave"
+        }
+      ]
+    },
+    {
+      "hanzi": "已",
+      "pinyin": "yǐ",
+      "meaning": "already",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "已",
+          "role": "whole",
+          "gloss": "already"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 已 in 已经. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "已经",
+          "p": "yǐ jīng",
+          "m": "already"
+        }
+      ]
+    },
+    {
+      "hanzi": "定",
+      "pinyin": "dìng",
+      "meaning": "to decide; fixed",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "定",
+          "role": "whole",
+          "gloss": "to decide; fixed"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 定 in 一定 / 不一定. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "一定",
+          "p": "yí dìng",
+          "m": "definitely"
+        },
+        {
+          "w": "不一定",
+          "p": "bù yí dìng",
+          "m": "not necessarily; not certain"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u13-g二15",
+      "pattern": "刚 / 刚刚 / 还 / 忽然 / 一直 / 已经",
+      "purpose": "Locate a change without pretending the journey is finished",
+      "explanation": "刚/刚刚 place an event in the recent past; 已经 says it has happened by now. 还 can say a state continues: 还在路上. 一直 describes continuation across the stated period, not literally every moment forever. 忽然 describes a sudden change. Compare 我刚出发、我已经出发 and 我还没到: departure is not arrival. Use a location update instead of inventing an arrival time.",
+      "examples": [
+        {
+          "zh": "我刚出发，朋友刚刚到。",
+          "py": "wǒ gāng chū fā , péng you gāng gāng dào .",
+          "en": "I have just set off; my friend has just arrived."
+        },
+        {
+          "zh": "朋友已经到了，我还在路上。",
+          "py": "péng you yǐ jīng dào le , wǒ hái zài lù shàng .",
+          "en": "My friend has already arrived; I am still on the way."
+        },
+        {
+          "zh": "我一直在站台等，车忽然停了。",
+          "py": "wǒ yì zhí zài zhàn tái děng , chē hū rán tíng le .",
+          "en": "I have been waiting at the stop all along; the vehicle suddenly stopped."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我已经出发了，所以我已经到了。",
+          "right": "我已经出发了，但还没到。",
+          "why": "Having departed does not entail having arrived."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u13-g二20",
+      "pattern": "才 / 都 / 就 / 正好",
+      "purpose": "Read the speaker’s expectation, not just the clock",
+      "explanation": "才六点四十 can mean only six forty, earlier than expected; 七点才到 means not arriving until seven, later than expected. 都七点了 expresses that seven is already late in this context. 就三个人 limits the group to only three people; 正好三个人 says exactly the needed three. These words express an expectation or fit. They do not change the factual time or headcount. Context decides whether a time feels early or late.",
+      "examples": [
+        {
+          "zh": "才六点四十，不用急。",
+          "py": "cái liù diǎn sì shí , bù yòng jí .",
+          "en": "It is only six forty; no need to hurry."
+        },
+        {
+          "zh": "都七点了，他七点才到，大家已经等了一会儿。",
+          "py": "dōu qī diǎn le , tā qī diǎn cái dào , dà jiā yǐ jīng děng le yī huì er .",
+          "en": "It is already seven; he did not arrive until seven and everyone has already waited a while."
+        },
+        {
+          "zh": "今天就三个人，三个座位正好。",
+          "py": "jīn tiān jiù sān gè rén , sān gè zuò wèi zhèng hǎo .",
+          "en": "Today there are only three people; three seats are exactly enough."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "正好三个人，所以一定有四个人。",
+          "right": "正好三个人，没有第四个人。",
+          "why": "正好三个人 gives an exact fit of three, not a fourth person."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u13-g二80",
+      "pattern": "该 … 了",
+      "purpose": "Say that the time for an action has come",
+      "explanation": "该出发了 says it is time to depart now; 该走了 can gently close a visit. It does not say departure already happened. Compare 我们已经出发了. A time-related 该…了 is different from a general obligation 你应该看通知. Give the relevant plan when asking someone to act; urgency is not permission to ignore safety.",
+      "examples": [
+        {
+          "zh": "集合时间到了，我们该出发了。",
+          "py": "jí hé shí jiān dào le , wǒ men gāi chū fā le .",
+          "en": "The meeting time has come; it is time for us to set off."
+        },
+        {
+          "zh": "天晚了，该回家了。",
+          "py": "tiān wǎn le , gāi huí jiā le .",
+          "en": "It is late; it is time to go home."
+        },
+        {
+          "zh": "该发消息了，还没有发出去。",
+          "py": "gāi fā xiāo xī le , hái méi yǒu fā chū qù .",
+          "en": "It is time to send the message; it has not gone through yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我们该出发了，就是我们已经到了。",
+          "right": "我们该出发了，但还没有出发。",
+          "why": "Time to depart is not evidence that the journey is completed."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u13-d",
+    "title": "A delay update",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the actual location and the next agreed update.",
+    "lines": [
+      {
+        "zh": "都七点了，你到了吗？",
+        "py": "dōu qī diǎn le , nǐ dào le ma ?",
+        "en": "It is already seven; have you arrived?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没到。我六点出发，坐公共汽车。现在还在车上。",
+        "py": "hái méi dào . wǒ liù diǎn chū fā , zuò gōng gòng qì chē . xiàn zài hái zài chē shàng .",
+        "en": "Not yet. I set off at six by bus and am still on the vehicle now.",
+        "speaker": "b"
+      },
+      {
+        "zh": "快点儿，我们已经等了一会儿。",
+        "py": "kuài diǎnr , wǒ men yǐ jīng děng le yī huì er .",
+        "en": "Hurry a little; we have already waited a while.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我有点儿急，但不能让司机开快。今天交通不顺利。",
+        "py": "wǒ yǒu diǎn ér jí , dàn bù néng ràng sī jī kāi kuài . jīn tiān jiāo tōng bù shùn lì .",
+        "en": "I am anxious, but I cannot ask the driver to speed up. Traffic is not going smoothly today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "怎么了？",
+        "py": "zěn me le ?",
+        "en": "What happened?",
+        "speaker": "a"
+      },
+      {
+        "zh": "车忽然停了。司机说路口的车辆很多，这辆公交车可能要改道。",
+        "py": "chē hū rán tíng le . sī jī shuō lù kǒu de chē liàng hěn duō , zhè liàng gōng jiāo chē kě néng yào gǎi dào .",
+        "en": "It suddenly stopped. The driver says there are many vehicles at the intersection and this bus may need a different route.",
+        "speaker": "b"
+      },
+      {
+        "zh": "到学校的站了吗？",
+        "py": "dào xué xiào de zhàn le ma ?",
+        "en": "Have you reached the school stop?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没有。刚经过学校，没停车。车还没到那个站。",
+        "py": "hái méi yǒu . gāng jīng guò xué xiào , méi tíng chē . chē hái méi dào nà gè zhàn .",
+        "en": "Not yet. We just passed the school without stopping. The vehicle has not reached that stop.",
+        "speaker": "b"
+      },
+      {
+        "zh": "停车场那边近吗？你在那里下吧。",
+        "py": "tíng chē chǎng nà biān jìn ma ? nǐ zài nà lǐ xià ba .",
+        "en": "Is the car park nearby? Get off there.",
+        "speaker": "a"
+      },
+      {
+        "zh": "停车场不是站台，我先等到车停好再下。离学校近，也不能在路边下。",
+        "py": "tíng chē chǎng bù shì zhàn tái , wǒ xiān děng dào chē tíng hǎo zài xià . lí xué xiào jìn , yě bù néng zài lù biān xià .",
+        "en": "The car park is not the stop; I will wait until the vehicle stops properly before getting off. Being near the school does not mean I can get off at the roadside.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那该什么时候再问你？",
+        "py": "nà gāi shén me shí hou zài wèn nǐ ?",
+        "en": "Then when should I ask again?",
+        "speaker": "a"
+      },
+      {
+        "zh": "手机信号不好。我看手表了，但到达时间还没确认。时间一确认，我一定发消息。",
+        "py": "shǒu jī xìn hào bù hǎo . wǒ kàn shǒu biǎo le , dàn dào dá shí jiān hái méi què rèn . shí jiān yī què rèn , wǒ yí dìng fā xiāo xī .",
+        "en": "The phone signal is poor. I checked my watch, but the arrival time is unconfirmed. Once it is confirmed, I will definitely message.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the traveller provide?",
+        "choices": [
+          "A location update and a promise to message once confirmed",
+          "A confirmed arrival at seven",
+          "Permission to speed up"
+        ],
+        "answer": "A location update and a promise to message once confirmed"
+      },
+      {
+        "type": "detail",
+        "q": "Is passing the school the same as reaching its stop?",
+        "choices": [
+          "No, the bus passed without stopping",
+          "Yes, the traveller is already inside the school",
+          "Yes, the bus is at the car park"
+        ],
+        "answer": "No, the bus passed without stopping"
+      },
+      {
+        "type": "inference",
+        "q": "Can the friend infer an exact arrival time?",
+        "choices": [
+          "No, it remains unconfirmed",
+          "Yes, it is definitely seven",
+          "Yes, it is definitely six"
+        ],
+        "answer": "No, it remains unconfirmed"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "路口",
+        "pinyin": "lù kǒu",
+        "meaning": "road intersection"
+      },
+      {
+        "hanzi": "改道",
+        "pinyin": "gǎi dào",
+        "meaning": "to change route"
+      },
+      {
+        "hanzi": "站台",
+        "pinyin": "zhàn tái",
+        "meaning": "platform; stop waiting area"
+      },
+      {
+        "hanzi": "顺利",
+        "pinyin": "shùn lì",
+        "meaning": "smoothly; without difficulties"
+      },
+      {
+        "hanzi": "到达",
+        "pinyin": "dào dá",
+        "meaning": "to arrive"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u13-r",
+    "title": "Still on the bus",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to distinguish departure, passing a place and actual arrival.",
+    "lines": [
+      {
+        "zh": "我六点出发，七点还在公共汽车上。朋友已经到了，我还没到。",
+        "py": "wǒ liù diǎn chū fā , qī diǎn hái zài gōng gòng qì chē shàng . péng you yǐ jīng dào le , wǒ hái méi dào .",
+        "en": "I set off at six and am still on the bus at seven. My friend has already arrived; I have not."
+      },
+      {
+        "zh": "刚才车忽然停了。司机说交通不顺利，路口的车辆很多。",
+        "py": "gāng cái chē hū rán tíng le . sī jī shuō jiāo tōng bù shùn lì , lù kǒu de chē liàng hěn duō .",
+        "en": "The vehicle suddenly stopped just now. The driver says traffic is not going smoothly and there are many vehicles at the intersection."
+      },
+      {
+        "zh": "这辆公交车刚经过学校，没有在那里停车。经过学校不是到站，更不是进学校。",
+        "py": "zhè liàng gōng jiāo chē gāng jīng guò xué xiào , méi yǒu zài nà lǐ tíng chē . jīng guò xué xiào bù shì dào zhàn , gèng bù shì jìn xué xiào .",
+        "en": "This bus just passed the school without stopping there. Passing the school is not reaching the stop, much less entering the school."
+      },
+      {
+        "zh": "我有点儿急。朋友说快点儿，我还是先看安全，不让司机开快。",
+        "py": "wǒ yǒu diǎn ér jí . péng you shuō kuài diǎnr , wǒ hái shi xiān kàn ān quán , bù ràng sī jī kāi kuài .",
+        "en": "I am anxious. My friend says to hurry, but I still prioritize safety and do not ask the driver to speed up."
+      },
+      {
+        "zh": "停车场离学校近，但停车场不是公交站。我等到车停好才下，不在路边下。",
+        "py": "tíng chē chǎng lí xué xiào jìn , dàn tíng chē chǎng bù shì gōng jiāo zhàn . wǒ děng dào chē tíng hǎo cái xià , bù zài lù biān xià .",
+        "en": "The car park is near the school but is not the bus stop. I wait until the vehicle stops properly to get off, not by the roadside."
+      },
+      {
+        "zh": "我一直没有离开车。站台的位置还要看清楚，不能只看距离近。",
+        "py": "wǒ yì zhí méi yǒu lí kāi chē . zhàn tái de wèi zhì hái yào kàn qīng chǔ , bù néng zhǐ kàn jù lí jìn .",
+        "en": "I have not left the vehicle all this time. I still need to check where the stop is; a short distance is not enough."
+      },
+      {
+        "zh": "看手表，已经七点了。手机信号不好，第一条消息可能没有发出去。",
+        "py": "kàn shǒu biǎo , yǐ jīng qī diǎn le . shǒu jī xìn hào bù hǎo , dì yī tiáo xiāo xī kě néng méi yǒu fā chū qù .",
+        "en": "My watch says it is already seven. The phone signal is poor, so the first message may not have gone through."
+      },
+      {
+        "zh": "到达时间还没确认，我不说一定七点到。时间一确认，就发消息。",
+        "py": "dào dá shí jiān hái méi què rèn , wǒ bù shuō yí dìng qī diǎn dào . shí jiān yī què rèn , jiù fā xiāo xī .",
+        "en": "The arrival time is unconfirmed, so I do not claim I will definitely arrive at seven. I will send a message once it is confirmed."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Which facts are kept distinct?",
+        "choices": [
+          "Departure, location, arrival and an uncertain estimate",
+          "The identities of two drivers",
+          "Only the colours of vehicles"
+        ],
+        "answer": "Departure, location, arrival and an uncertain estimate"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the traveller at seven?",
+        "choices": [
+          "Still on the bus",
+          "Already inside the school",
+          "At home"
+        ],
+        "answer": "Still on the bus"
+      },
+      {
+        "type": "inference",
+        "q": "Does sending the first message prove it was delivered?",
+        "choices": [
+          "No, poor signal leaves delivery uncertain",
+          "Yes, every phone always sends instantly",
+          "Yes, the traveller has already arrived"
+        ],
+        "answer": "No, poor signal leaves delivery uncertain"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我六点出发，【七点】还在公共汽车上。朋友已经到了，我还没到。",
+          "py": "wǒ liù diǎn chū fā , qī diǎn hái zài gōng gòng qì chē shàng . péng you yǐ jīng dào le , wǒ hái méi dào .",
+          "en": "I set off at six and am still on the bus at seven. My friend has already arrived; I have not."
+        },
+        {
+          "zh": "到达时间还没【确认】，我不说一定七点到。时间一确认，就发消息。",
+          "py": "dào dá shí jiān hái méi què rèn , wǒ bù shuō yí dìng qī diǎn dào . shí jiān yī què rèn , jiù fā xiāo xī .",
+          "en": "The arrival time is unconfirmed, so I do not claim I will definitely arrive at seven. I will send a message once it is confirmed."
+        }
+      ],
+      "bank": [
+        "七点",
+        "确认",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "路口",
+        "pinyin": "lù kǒu",
+        "meaning": "road intersection"
+      },
+      {
+        "hanzi": "安全",
+        "pinyin": "ān quán",
+        "meaning": "safe; safety"
+      },
+      {
+        "hanzi": "站台",
+        "pinyin": "zhàn tái",
+        "meaning": "platform; stop waiting area"
+      },
+      {
+        "hanzi": "顺利",
+        "pinyin": "shùn lì",
+        "meaning": "smoothly; without difficulties"
+      },
+      {
+        "hanzi": "位置",
+        "pinyin": "wèi zhì",
+        "meaning": "position; location"
+      },
+      {
+        "hanzi": "距离",
+        "pinyin": "jù lí",
+        "meaning": "distance"
+      },
+      {
+        "hanzi": "到达",
+        "pinyin": "dào dá",
+        "meaning": "to arrive"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u13-media",
+      "title": "Not there yet",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about an impatient message.",
+      "lines": [
+        {
+          "zh": "你说刚经过学校，我以为你已经到了。",
+          "py": "nǐ shuō gāng jīng guò xué xiào , wǒ yǐ wéi nǐ yǐ jīng dào le .",
+          "en": "You said you had just passed the school; I thought you had arrived.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我还在车上。经过不是停车，停车也不是进学校。",
+          "py": "wǒ hái zài chē shàng . jīng guò bù shì tíng chē , tíng chē yě bù shì jìn xué xiào .",
+          "en": "I am still on the vehicle. Passing is not stopping, and stopping is not entering the school.",
+          "speaker": "b"
+        },
+        {
+          "zh": "都七点了，我才问清楚。",
+          "py": "dōu qī diǎn le , wǒ cái wèn qīng chǔ .",
+          "en": "It is already seven, and only now am I asking clearly.",
+          "speaker": "a"
+        },
+        {
+          "zh": "急也要说准确。你先别在路边等我。",
+          "py": "jí yě yào shuō zhǔn què . nǐ xiān bié zài lù biān děng wǒ .",
+          "en": "Even when anxious, be accurate. Do not wait for me by the roadside.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我该发什么消息？",
+          "py": "nà wǒ gāi fā shén me xiāo xī ?",
+          "en": "Then what message should I send?",
+          "speaker": "a"
+        },
+        {
+          "zh": "发你在哪里，我确认以后再回。",
+          "py": "fā nǐ zài nǎ lǐ , wǒ què rèn yǐ hòu zài huí .",
+          "en": "Send where you are; I will reply after I have confirmation.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What caused the misunderstanding?",
+          "choices": [
+            "Treating passing the school as arrival",
+            "Knowing the exact arrival time",
+            "Checking the actual location"
+          ],
+          "answer": "Treating passing the school as arrival"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "准确",
+          "pinyin": "zhǔn què",
+          "meaning": "accurate"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u13-t1",
+      "phrase": "s2-u13-w03",
+      "audio": {
+        "zh": "朋友已经到了，我还在车上。",
+        "py": "péng you yǐ jīng dào le , wǒ hái zài chē shàng .",
+        "en": "My friend has already arrived; I am still on the vehicle."
+      },
+      "statement": "Both people have arrived.",
+      "answer": false,
+      "why": "Only the friend has arrived."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u13-t2",
+      "phrase": "s2-u13-w12",
+      "audio": {
+        "zh": "车经过学校，没有在那里停车。",
+        "py": "chē jīng guò xué xiào , méi yǒu zài nà lǐ tíng chē .",
+        "en": "The vehicle passes the school without stopping."
+      },
+      "statement": "The vehicle did not stop at the school.",
+      "answer": true,
+      "why": "没有停车 explicitly denies stopping."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u13-t3",
+      "phrase": "s2-u13-w20",
+      "prompt": {
+        "zh": "第一条消息发出去了吗？",
+        "py": "dì yī tiáo xiāo xī fā chū qù le ma ?",
+        "en": "Did the first message go through?"
+      },
+      "choices": [
+        "信号不好，还不确定。",
+        "我已经进学校了。",
+        "停车场不是公交站。"
+      ],
+      "answer": "信号不好，还不确定。",
+      "why": "Acknowledge the uncertain delivery."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u13-t4",
+      "phrase": "s2-u13-w22",
+      "prompt": {
+        "zh": "你一定七点到吗？",
+        "py": "nǐ yí dìng qī diǎn dào ma ?",
+        "en": "Will you definitely arrive at seven?"
+      },
+      "choices": [
+        "时间还没确认，我确认后再发消息。",
+        "已经七点了，所以一定到了。",
+        "手表是我的。"
+      ],
+      "answer": "时间还没确认，我确认后再发消息。",
+      "why": "Do not turn the current time into a confirmed arrival."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u13-t5",
+      "phrase": "s2-u13-w03",
+      "line": {
+        "zh": "朋友【已经】到了。",
+        "py": "péng you yǐ jīng dào le .",
+        "en": "My friend has already arrived."
+      },
+      "blankPy": "yǐ jīng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u13-t6",
+      "phrase": "s2-u13-w14",
+      "line": {
+        "zh": "我还没有【离开】站台。",
+        "py": "wǒ hái méi yǒu lí kāi zhàn tái .",
+        "en": "I have not left the stop yet."
+      },
+      "blankPy": "lí kāi"
+    },
+    {
+      "type": "match",
+      "id": "s2-u13-t7",
+      "phrase": "s2-u13-w10",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I have just set off.",
+          "right": {
+            "zh": "我刚出发。",
+            "py": "wǒ gāng chū fā .",
+            "en": "I have just set off."
+          }
+        },
+        {
+          "left": "I have already arrived.",
+          "right": {
+            "zh": "我已经到了。",
+            "py": "wǒ yǐ jīng dào le .",
+            "en": "I have already arrived."
+          }
+        },
+        {
+          "left": "I am still on the way.",
+          "right": {
+            "zh": "我还在路上。",
+            "py": "wǒ hái zài lù shàng .",
+            "en": "I am still on the way."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u13-t8",
+      "phrase": "s2-u13-w18",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Very near the school.",
+          "right": {
+            "zh": "离学校很近。",
+            "py": "lí xué xiào hěn jìn .",
+            "en": "Very near the school."
+          }
+        },
+        {
+          "left": "Passed the school without stopping.",
+          "right": {
+            "zh": "经过学校，没停车。",
+            "py": "jīng guò xué xiào , méi tíng chē .",
+            "en": "Passed the school without stopping."
+          }
+        },
+        {
+          "left": "It is time to set off.",
+          "right": {
+            "zh": "该出发了。",
+            "py": "gāi chū fā le .",
+            "en": "It is time to set off."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u13-t9",
+      "phrase": "s2-u13-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Ten thousand is not one thousand; one hundred million is not one million.",
+          "right": {
+            "zh": "一万不是一千，一亿不是一百万。",
+            "py": "yī wàn bù shì yī qiān , yī yì bù shì yī bǎi wàn .",
+            "en": "Ten thousand is not one thousand; one hundred million is not one million."
+          }
+        },
+        {
+          "left": "More than ten people, a little over an hour.",
+          "right": {
+            "zh": "十多个人，一个多小时。",
+            "py": "shí duō gè rén , yī gè duō xiǎo shí .",
+            "en": "More than ten people, a little over an hour."
+          }
+        },
+        {
+          "left": "A letter, an item of clothing, a scarf.",
+          "right": {
+            "zh": "一封信，一件衣服，一条围巾。",
+            "py": "yī fēng xìn , yī jiàn yī fú , yī tiáo wéi jīn .",
+            "en": "A letter, an item of clothing, a scarf."
+          }
+        },
+        {
+          "left": "I give you a book; I give a book to you.",
+          "right": {
+            "zh": "我送你一本书，我送给你一本书。",
+            "py": "wǒ sòng nǐ yī běn shū , wǒ sòng gěi nǐ yī běn shū .",
+            "en": "I give you a book; I give a book to you."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "A useful delay update",
+      "natural": {
+        "zh": "我还在车上，时间确认后再告诉你。",
+        "py": "wǒ hái zài chē shàng , shí jiān què rèn hòu zài gào sù nǐ .",
+        "en": "I am still on the vehicle; I will tell you after the time is confirmed."
+      },
+      "note": "Location and next update are useful even when an exact estimate is unknown."
+    },
+    {
+      "situation": "Calming urgency",
+      "natural": {
+        "zh": "我知道你在等，先别急，我会再发消息。",
+        "py": "wǒ zhī dào nǐ zài děng , xiān bié jí , wǒ huì zài fā xiāo xī .",
+        "en": "I know you are waiting; do not worry for now, I will message again."
+      },
+      "note": "Acknowledge the wait without claiming control over the driver or traffic."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u13-speak",
+    "title": "Sorry, I'm running late",
+    "place": "A language-exchange meeting",
+    "context": "Update friends and decide when to leave.",
+    "goal": "Send a useful delay update without promising an unknown arrival",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你已经到了吗？",
+        "pinyin": "nǐ yǐ jīng dào le ma ?",
+        "meaning": "Have you arrived yet?",
+        "intent": "Give the actual state",
+        "examples": [
+          "还没到，我还在车上。"
+        ],
+        "accept": [
+          "^还没到，我还在车上。[。！？]?$"
+        ]
+      },
+      {
+        "text": "什么时候再发消息？",
+        "pinyin": "shén me shí hou zài fā xiāo xī ?",
+        "meaning": "When will you message again?",
+        "intent": "State the next update",
+        "examples": [
+          "时间确认后再发。"
+        ],
+        "accept": [
+          "^时间确认后再发。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二15, 二20, 二80. Native check: 经过 versus 到站, the range of 才/都/就/正好, 该…了, clipped driver announcements and the original scene. No route, transport estimate or message delivery is asserted beyond the written scenario. Planned retrieval 二09 / 二73 / 二10 / 二61: 一万不是一千，一亿不是一百万。, 十多个人，一个多小时。, 一封信，一件衣服，一条围巾。, 我送你一本书，我送给你一本书。."
+}

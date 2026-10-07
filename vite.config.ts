@@ -133,5 +133,19 @@ export default defineConfig({
       ],
     },
   },
-  build: { chunkSizeWarningLimit: 700 },
+  build: {
+    chunkSizeWarningLimit: 700,
+    // Keep each data bundle below the existing offline precache file limit.
+    // All are still cached; this separates data from frequently changing UI code.
+    rolldownOptions: {
+      output: {
+        codeSplitting: {
+          groups: [
+            { name: 'course-data', test: /generated[\\/]packs\.json$/ },
+            { name: 'audio-catalog', test: /src[\\/]audio-assets\.json$/ },
+          ],
+        },
+      },
+    },
+  },
 });

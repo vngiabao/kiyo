@@ -26,6 +26,16 @@ export function wordSpeech(text: string, pinyin: string) {
   if (text === "行" && reading === "háng") return "一行字";
   if (text === "只" && reading === "zhī") return "一只猫";
   if (text === "了" && reading === "liǎo") return "没完没了";
+  if (text === "背" && reading === "bèi") return "后背";
+  if (text === "为" && reading === "wéi") return "作为";
+  if (text === "调") {
+    if (reading === "diào") return "调到上海";
+    if (reading === "tiáo") return "调整";
+  }
+  if (text === "重" && reading === "chóng") return "重新";
+  if (text === "性" && reading === "xìng") return "积极性";
+  if (text === "极了") return "高兴极了";
+  if (text === "血" && reading === "xiě") return "出血";
   if (text === "精神") {
     if (reading === "jīngshen") return "很精神";
     if (reading === "jīngshén") return "精神力量";

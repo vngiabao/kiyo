@@ -56,6 +56,10 @@ overrides = {'她们':'tā men','学生':'xué sheng','中学生':'zhōng xué s
  '看到':'kàn dào','完':'wán','怎么':'zěn me','门口':'mén kǒu','谁':'shéi','干干净净':'gān gān jìng jìng'}
 dictionary = {w: ' '.join(lazy_pinyin(w,style=Style.TONE)) for w,v in levels.items() if v.get('pinyin')}
 dictionary.update(overrides)
+# Return an object: distinguish huán from the adverb hái without changing still/yet.
+dictionary.update({'还书':'huán shū', '还笔':'huán bǐ', '还回来':'huán huí lái',
+                   '还的书':'huán de shū', '还给':'huán gěi', '还你':'huán nǐ',
+                   '有空儿':'yǒu kòngr', '没空儿':'méi kòngr', '变为':'biàn wéi'})
 def py(text):
     text = text.replace('【','').replace('】','')
     out, i = [], 0

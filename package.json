@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build": "tsx scripts/build-packs.ts && tsx scripts/check-pinyin.ts && tsx scripts/copy-stroke-data.ts && tsx scripts/check-audio.ts && tsx scripts/make-brand.ts && tsc -b && vite build",
+    "postbuild": "tsx scripts/pack-deployment-audio.ts",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
     "validate:content": "tsx scripts/validate-content.ts && tsx scripts/check-audio.ts",

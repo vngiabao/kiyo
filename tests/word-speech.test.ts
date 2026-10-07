@@ -27,6 +27,17 @@ it("separates the reading of a word from its glyph's default reading", () => {
   expect(wordSpeech("只", "zhǐ")).toBe("只");
   expect(wordSpeech("了", "liǎo")).toBe("没完没了");
   expect(wordSpeech("了", "le")).toBe("了");
+  expect(wordSpeech("背", "bèi")).toBe("后背");
+  expect(wordSpeech("背", "bēi")).toBe("背");
+  expect(wordSpeech("为", "wéi")).toBe("作为");
+  expect(wordSpeech("为", "wèi")).toBe("为");
+  expect(wordSpeech("调", "diào")).toBe("调到上海");
+  expect(wordSpeech("调", "tiáo")).toBe("调整");
+  expect(wordSpeech("重", "chóng")).toBe("重新");
+  expect(wordSpeech("重", "zhòng")).toBe("重");
+  expect(wordSpeech("性", "xìng")).toBe("积极性");
+  expect(wordSpeech("极了", "jí le")).toBe("高兴极了");
+  expect(wordSpeech("血", "xiě")).toBe("出血");
   expect(wordSpeech("精神", "jīng shen")).toBe("很精神");
   expect(wordSpeech("精神", "jīng shén")).toBe("精神力量");
   expect(wordSpeech("你好", "nǐ hǎo")).toBe("你好");

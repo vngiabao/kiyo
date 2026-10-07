@@ -396,6 +396,53 @@ RETRIEVALS.update({
 ('我是来领行李的。','I came to collect the luggage.')]),
 })
 
+RETRIEVALS.update({
+'s3-u37':('三48 / 三50 / 三60 / 三63',[
+('这些邮件今天处理不了。','These emails cannot be dealt with today.'),
+('我问了她三次。','I asked her three times.'),
+('我也看足球，也跳舞。','I watch football and also dance.'),
+('她又高兴又紧张。','She is both happy and nervous.')]),
+'s3-u38':('三49 / 三75 / 三61 / 三62',[
+('她笑得很开心。','She laughs happily.'),
+('她一点儿也不生气。','She is not angry at all.'),
+('我一会儿读，一会儿听。','I alternate between reading and listening.'),
+('一方面想参加，另一方面需要休息。','I want to join on one hand and need rest on the other.')]),
+'s3-u39':('三55 / 三77 / 三64 / 三65',[
+('行李被同学移到门后了。','A classmate moved the luggage behind the door.'),
+('我是来领行李的。','I came to collect the luggage.'),
+('首先确认时间，然后报名。','Confirm time first, then register.'),
+('她核对时间，并且问了地点。','She checks the time and also asks the location.')]),
+'s3-u40':('三60 / 三63 / 三66 / 三67',[
+('我也看足球，也跳舞。','I watch football and also dance.'),
+('她又高兴又紧张。','She is both happy and nervous.'),
+('不仅有阅读，而且有听力。','There is reading and also listening.'),
+('不是这门，就是那门。','It is either this course or that one.')]),
+})
+
+RETRIEVALS.update({
+'s3-u41':('三61 / 三62 / 三73 / 三74',[
+('我一会儿读，一会儿听。','I alternate between reading and listening.'),
+('一方面想参加，另一方面需要休息。','I want to join on one hand and need rest on the other.'),
+('我看了通知就问她。','After reading the notice I asked her.'),
+('十个人左右参加。','About ten people attend.')]),
+'s3-u42':('三64 / 三65 / 三79 / 三80',[
+('首先确认时间，然后报名。','Confirm time first, then register.'),
+('她核对时间，并且问了地点。','She checks time and also asks the location.'),
+('都十点了，先结束吧。','It is already ten; let us stop first.'),
+('慢就慢点儿吧，先说准确。','A little slower is acceptable; speak accurately first.')]),
+'s3-u43':('三66 / 三67 / 三81',[
+('不仅有阅读，而且有听力。','There is reading and also listening.'),
+('不是这门，就是那门。','It is either this course or that one.'),
+('怕什么啊，我陪你。','What is there to fear? I will accompany you.'),
+('急什么啊，还没到时间。','Why rush? The time has not come yet.')]),
+'s3-u44':('三73 / 三74 / 三79 / 三80 / 三81',[
+('我看了通知就问她。','After reading the notice I asked her.'),
+('十个人左右参加。','About ten people attend.'),
+('都十点了，先结束吧。','It is already ten; let us stop first.'),
+('慢就慢点儿吧，先说准确。','A little slower is acceptable; speak accurately first.'),
+('急什么啊，还没到时间。','Why rush? The time has not come yet.')]),
+})
+
 def apply(first, last):
     apply_ids(list(range(first,last+1)))
 

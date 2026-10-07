@@ -1,5 +1,6 @@
 {
   "name": "kiyo",
+  "main": "./workers/audio.ts",
   "compatibility_date": "2026-10-05",
   "workers_dev": false,
   "preview_urls": false,
@@ -7,7 +8,9 @@
     { "pattern": "kiyo.gbaonvo.com", "custom_domain": true }
   ],
   "assets": {
-    "directory": "./dist",
+    "directory": "./.deploy-dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/audio-v2/*"],
     "not_found_handling": "single-page-application"
   }
 }

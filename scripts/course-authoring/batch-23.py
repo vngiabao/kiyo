@@ -68,7 +68,7 @@ course(u,'是谁把行李移走了',['Follow a passive report without assuming t
 ('破','broken; to break','rách; vỡ','adjective','外面的袋子破了。','The outer bag is torn.','袋子破，不等于里面东西都坏。','A torn bag does not mean everything inside is broken.'),
 ('破坏','to damage; destroy','phá hỏng','verb','移动没有得到许可，可能破坏原来的安排。','Moving without permission may disrupt the original arrangement.','不要为了找包破坏别人的物品。','Do not damage someone’s property while finding a bag.'),
 ('行李','luggage','hành lý','noun','行李被移到门后了。','The luggage was moved behind the door.','行李是谁的，先看本人确认。','Confirm whose luggage it is with the person.'),
-('屋子','room; house','phòng; nhà','noun','屋子里还有一张衣架。','There is still a clothes rack in the room.','进屋子以前先问主人。','Ask the host before entering the room.'),
+('屋子','room; house','phòng; nhà','noun','屋子里还有一个衣架。','There is still a clothes rack in the room.','进屋子以前先问主人。','Ask the host before entering the room.'),
 ('衣架','clothes hanger; rack','móc; giá áo','noun','衣架旁边是我的包。','My bag is beside the clothes rack.','这个衣架还没固定好。','This clothes rack has not yet been secured.'),
 ('服装','clothing','trang phục','noun','服装放在同一个箱子里。','The clothes are in one box.','服装颜色不能说明主人是谁。','Clothing colour cannot identify its owner.'),
 ('短裤','shorts','quần đùi','noun','短裤和衬衫放在一起。','The shorts and shirt are placed together.','那条短裤不是我的。','Those shorts are not mine.'),
