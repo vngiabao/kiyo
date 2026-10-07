@@ -1,0 +1,1359 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u19",
+    "stage": 1,
+    "order": 49,
+    "title": "Getting across town",
+    "titleZh": "往东走，向左看",
+    "canDo": [
+      "Give a direction without confusing it with a location",
+      "Distinguish a route from a confirmed open entrance",
+      "Choose a route by destination and actual conditions"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u18"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u19-w01",
+      "hanzi": "往",
+      "pinyin": "wǎng",
+      "meaning": "towards; in the direction of",
+      "meaningVi": "về phía",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "从这里往东走。",
+        "py": "cóng zhè lǐ wǎng dōng zǒu .",
+        "en": "Walk east from here."
+      },
+      "usageNote": "[GF2021:L2:8335] Source entry: 往; wǎng; 动、介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w02",
+      "hanzi": "向",
+      "pinyin": "xiàng",
+      "meaning": "towards; facing",
+      "meaningVi": "hướng về",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "到路口向左看，先别过街。",
+        "py": "dào lù kǒu xiàng zuǒ kàn , xiān bié guò jiē .",
+        "en": "At the intersection look left; do not cross yet."
+      },
+      "usageNote": "[GF2021:L2:8848] Source entry: 向; xiàng; 介、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w03",
+      "hanzi": "方向",
+      "pinyin": "fāng xiàng",
+      "meaning": "direction",
+      "meaningVi": "phương hướng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先看方向，再看距离。",
+        "py": "xiān kàn fāng xiàng , zài kàn jù lí .",
+        "en": "Check the direction first, then the distance."
+      },
+      "usageNote": "[GF2021:L2:2246] Source entry: 方向; fāngxiàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w04",
+      "hanzi": "问路",
+      "pinyin": "wèn lù",
+      "meaning": "to ask directions",
+      "meaningVi": "hỏi đường",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不清楚就问路，别跟着猜。",
+        "py": "bù qīng chǔ jiù wèn lù , bié gēn zhe cāi .",
+        "en": "Ask directions if unsure; do not follow a guess."
+      },
+      "usageNote": "[GF2021:L2:8486] Source entry: 问路; wènlù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w05",
+      "hanzi": "道路",
+      "pinyin": "dào lù",
+      "meaning": "road; route",
+      "meaningVi": "đường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这条道路今天不能走。",
+        "py": "zhè tiáo dào lù jīn tiān bù néng zǒu .",
+        "en": "This road cannot be used today."
+      },
+      "usageNote": "[GF2021:L2:1676] Source entry: 道路; dàolù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w06",
+      "hanzi": "公路",
+      "pinyin": "gōng lù",
+      "meaning": "highway; road",
+      "meaningVi": "đường ô tô",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "公路不是步行的入口。",
+        "py": "gōng lù bù shì bù xíng de rù kǒu .",
+        "en": "The highway is not the pedestrian entrance."
+      },
+      "usageNote": "[GF2021:L2:2795] Source entry: 公路; gōnglù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w07",
+      "hanzi": "街",
+      "pinyin": "jiē",
+      "meaning": "street",
+      "meaningVi": "phố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这条街的名字在地图上。",
+        "py": "zhè tiáo jiē de míng zi zài dì tú shàng .",
+        "en": "The name of this street is on the map."
+      },
+      "usageNote": "[GF2021:L2:4167] Source entry: 街; jiē; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w08",
+      "hanzi": "广场",
+      "pinyin": "guǎng chǎng",
+      "meaning": "square; plaza",
+      "meaningVi": "quảng trường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们在广场东边见。",
+        "py": "wǒ men zài guǎng chǎng dōng biān jiàn .",
+        "en": "We meet on the east side of the square."
+      },
+      "usageNote": "[GF2021:L2:3032] Source entry: 广场; guǎngchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w09",
+      "hanzi": "公园",
+      "pinyin": "gōng yuán",
+      "meaning": "park",
+      "meaningVi": "công viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "公园今天只开东门。",
+        "py": "gōng yuán jīn tiān zhǐ kāi dōng mén .",
+        "en": "Only the east gate of the park is open today."
+      },
+      "usageNote": "[GF2021:L2:2814] Source entry: 公园; gōngyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w10",
+      "hanzi": "花园",
+      "pinyin": "huā yuán",
+      "meaning": "garden",
+      "meaningVi": "vườn hoa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "花园在公园里，不是门外。",
+        "py": "huā yuán zài gōng yuán lǐ , bù shì mén wài .",
+        "en": "The garden is inside the park, not outside its gate."
+      },
+      "usageNote": "[GF2021:L2:3439] Source entry: 花园; huāyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w11",
+      "hanzi": "动物园",
+      "pinyin": "dòng wù yuán",
+      "meaning": "zoo",
+      "meaningVi": "sở thú",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "动物园在另一边，别走错。",
+        "py": "dòng wù yuán zài lìng yī biān , bié zǒu cuò .",
+        "en": "The zoo is on the other side; do not go the wrong way."
+      },
+      "usageNote": "[GF2021:L2:1936] Source entry: 动物园; dòngwùyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w12",
+      "hanzi": "对面",
+      "pinyin": "duì miàn",
+      "meaning": "opposite; across from",
+      "meaningVi": "đối diện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "学校对面有一个公园。",
+        "py": "xué xiào duì miàn yǒu yī gè gōng yuán .",
+        "en": "There is a park opposite the school."
+      },
+      "usageNote": "[GF2021:L2:2033] Source entry: 对面; duìmiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w13",
+      "hanzi": "边",
+      "pinyin": "biān",
+      "meaning": "side; edge",
+      "meaningVi": "bên; phía",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先问是哪一边的入口。",
+        "py": "xiān wèn shì nǎ yī biān de rù kǒu .",
+        "en": "First ask which side has the entrance."
+      },
+      "usageNote": "[GF2021:L2:375] Source entry: 边; biān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w14",
+      "hanzi": "东方",
+      "pinyin": "dōng fāng",
+      "meaning": "the east",
+      "meaningVi": "phía đông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "地图右边是东方。",
+        "py": "dì tú yòu biān shì dōng fāng .",
+        "en": "The right side of the map is east."
+      },
+      "usageNote": "[GF2021:L2:1906] Source entry: 东方; dōngfāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w15",
+      "hanzi": "东北",
+      "pinyin": "dōng běi",
+      "meaning": "northeast",
+      "meaningVi": "đông bắc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "动物园在地图的东北。",
+        "py": "dòng wù yuán zài dì tú de dōng běi .",
+        "en": "The zoo is in the northeast on the map."
+      },
+      "usageNote": "[GF2021:L2:1901] Source entry: 东北; dōngběi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w16",
+      "hanzi": "东南",
+      "pinyin": "dōng nán",
+      "meaning": "southeast",
+      "meaningVi": "đông nam",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "东南那边有一条公路。",
+        "py": "dōng nán nà biān yǒu yī tiáo gōng lù .",
+        "en": "There is a highway to the southeast."
+      },
+      "usageNote": "[GF2021:L2:1907] Source entry: 东南; dōngnán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w17",
+      "hanzi": "西方",
+      "pinyin": "xī fāng",
+      "meaning": "the west",
+      "meaningVi": "phía tây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这张地图左边是西方。",
+        "py": "zhè zhāng dì tú zuǒ biān shì xī fāng .",
+        "en": "On this map the left side is west."
+      },
+      "usageNote": "[GF2021:L2:8598] Source entry: 西方; xīfāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w18",
+      "hanzi": "西北",
+      "pinyin": "xī běi",
+      "meaning": "northwest",
+      "meaningVi": "tây bắc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "花园在公园的西北。",
+        "py": "huā yuán zài gōng yuán de xī běi .",
+        "en": "The garden is in the northwest of the park."
+      },
+      "usageNote": "[GF2021:L2:8594] Source entry: 西北; xīběi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w19",
+      "hanzi": "西南",
+      "pinyin": "xī nán",
+      "meaning": "southwest",
+      "meaningVi": "tây nam",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "广场在学校西南。",
+        "py": "guǎng chǎng zài xué xiào xī nán .",
+        "en": "The square is southwest of the school."
+      },
+      "usageNote": "[GF2021:L2:8601] Source entry: 西南; xīnán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w20",
+      "hanzi": "公里",
+      "pinyin": "gōng lǐ",
+      "meaning": "kilometre",
+      "meaningVi": "ki-lô-mét",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "从这里到公园两公里。",
+        "py": "cóng zhè lǐ dào gōng yuán liǎng gōng lǐ .",
+        "en": "It is two kilometres from here to the park."
+      },
+      "usageNote": "[GF2021:L2:2793] Source entry: 公里; gōnglǐ; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w21",
+      "hanzi": "米",
+      "pinyin": "mǐ",
+      "meaning": "metre",
+      "meaningVi": "mét",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "东门前五十米有一个路口。",
+        "py": "dōng mén qián wǔ shí mǐ yǒu yī gè lù kǒu .",
+        "en": "There is an intersection fifty metres in front of the east gate."
+      },
+      "usageNote": "[GF2021:L2:5545] Source entry: 米; mǐ; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u19-w22",
+      "hanzi": "辆",
+      "pinyin": "liàng",
+      "meaning": "vehicle classifier",
+      "meaningVi": "lượng từ xe",
+      "pos": "measure word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "那边有两辆公交车，不是两个人。",
+        "py": "nà biān yǒu liǎng liàng gōng jiāo chē , bù shì liǎng gè rén .",
+        "en": "There are two buses there, not two people."
+      },
+      "usageNote": "[GF2021:L2:5152] Source entry: 辆; liàng; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "往",
+      "pinyin": "wǎng",
+      "meaning": "towards",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "往",
+          "role": "whole",
+          "gloss": "towards"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 往 in 往. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "往",
+          "p": "wǎng",
+          "m": "towards; in the direction of"
+        }
+      ]
+    },
+    {
+      "hanzi": "向",
+      "pinyin": "xiàng",
+      "meaning": "towards; direction",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "向",
+          "role": "whole",
+          "gloss": "towards; direction"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 向 in 向 / 方向. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "向",
+          "p": "xiàng",
+          "m": "towards; facing"
+        },
+        {
+          "w": "方向",
+          "p": "fāng xiàng",
+          "m": "direction"
+        }
+      ]
+    },
+    {
+      "hanzi": "街",
+      "pinyin": "jiē",
+      "meaning": "street",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "街",
+          "role": "whole",
+          "gloss": "street"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 街 in 街. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "街",
+          "p": "jiē",
+          "m": "street"
+        }
+      ]
+    },
+    {
+      "hanzi": "广",
+      "pinyin": "guǎng",
+      "meaning": "wide",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "广",
+          "role": "whole",
+          "gloss": "wide"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 广 in 广场. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "广场",
+          "p": "guǎng chǎng",
+          "m": "square; plaza"
+        }
+      ]
+    },
+    {
+      "hanzi": "园",
+      "pinyin": "yuán",
+      "meaning": "garden; park",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "园",
+          "role": "whole",
+          "gloss": "garden; park"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 园 in 公园 / 花园. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "公园",
+          "p": "gōng yuán",
+          "m": "park"
+        },
+        {
+          "w": "花园",
+          "p": "huā yuán",
+          "m": "garden"
+        }
+      ]
+    },
+    {
+      "hanzi": "市",
+      "pinyin": "shì",
+      "meaning": "city; market",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "市",
+          "role": "whole",
+          "gloss": "city; market"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 市 in 市区. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "市区",
+          "p": "shì qū",
+          "m": "urban area"
+        }
+      ]
+    },
+    {
+      "hanzi": "铁",
+      "pinyin": "tiě",
+      "meaning": "iron",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "铁",
+          "role": "whole",
+          "gloss": "iron"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 铁 in 地铁. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "地铁",
+          "p": "dì tiě",
+          "m": "metro"
+        }
+      ]
+    },
+    {
+      "hanzi": "船",
+      "pinyin": "chuán",
+      "meaning": "boat",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "船",
+          "role": "whole",
+          "gloss": "boat"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 船 in 船. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "船",
+          "p": "chuán",
+          "m": "boat"
+        }
+      ]
+    },
+    {
+      "hanzi": "骑",
+      "pinyin": "qí",
+      "meaning": "to ride",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "骑",
+          "role": "whole",
+          "gloss": "to ride"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 骑 in 骑车. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "骑车",
+          "p": "qí chē",
+          "m": "to ride a bicycle"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u19-g二22",
+      "pattern": "往",
+      "purpose": "Describe the direction of movement",
+      "explanation": "往东走 places 往 plus direction before the motion verb. 往公园走 means move towards the park; it does not prove arrival. 在公园 says where a person is. A route can say 从学校往东走, keeping the start and direction separate. Distance and road availability are additional information, not supplied by 往.",
+      "examples": [
+        {
+          "zh": "从学校往东走。",
+          "py": "cóng xué xiào wǎng dōng zǒu .",
+          "en": "Walk east from the school."
+        },
+        {
+          "zh": "我往公园走，还没有到。",
+          "py": "wǒ wǎng gōng yuán zǒu , hái méi yǒu dào .",
+          "en": "I am walking towards the park and have not arrived yet."
+        },
+        {
+          "zh": "往前走五十米，再问入口。",
+          "py": "wǎng qián zǒu wǔ shí mǐ , zài wèn rù kǒu .",
+          "en": "Walk forward fifty metres, then ask about the entrance."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我往公园，所以我已经在公园里。",
+          "right": "我往公园走，还没有到。",
+          "why": "Moving towards a destination does not assert being inside it."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u19-g二23",
+      "pattern": "向",
+      "purpose": "Orient an action or direct it towards a target",
+      "explanation": "向左看 gives the direction of looking; 向老师问路 names the person addressed. 向 can introduce direction or an action’s target, so the following verb matters. 向东走 describes movement; 向东看 describes looking. Do not equate left with east without a known orientation. Here the map is explicitly north-up.",
+      "examples": [
+        {
+          "zh": "在路口向左看。",
+          "py": "zài lù kǒu xiàng zuǒ kàn .",
+          "en": "Look left at the intersection."
+        },
+        {
+          "zh": "向老师问路。",
+          "py": "xiàng lǎo shī wèn lù .",
+          "en": "Ask the teacher for directions."
+        },
+        {
+          "zh": "向东看，公园在学校对面。",
+          "py": "xiàng dōng kàn , gōng yuán zài xué xiào duì miàn .",
+          "en": "Look east; the park is opposite the school."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "向东看，就是已经走到公园。",
+          "right": "向东看，还没有走过去。",
+          "why": "Looking east is not walking there."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u19-d",
+    "title": "The open gate matters",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the available entrance rather than following a stale route.",
+    "lines": [
+      {
+        "zh": "从学校怎样去公园？",
+        "py": "cóng xué xiào zěn yàng qù gōng yuán ?",
+        "en": "How do I get to the park from school?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先看这张地图，上边是北，右边是东。",
+        "py": "xiān kàn zhè zhāng dì tú , shàng biān shì běi , yòu biān shì dōng .",
+        "en": "First look at this map: the top is north, the right is east.",
+        "speaker": "b"
+      },
+      {
+        "zh": "公园在学校对面，是往东走吗？",
+        "py": "gōng yuán zài xué xiào duì miàn , shì wǎng dōng zǒu ma ?",
+        "en": "The park is opposite the school. Do I walk east?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，往东走。但今天西门关了，要去东门。",
+        "py": "duì , wǎng dōng zǒu . dàn jīn tiān xī mén guān le , yào qù dōng mén .",
+        "en": "Yes, walk east. But the west gate is closed today; use the east gate.",
+        "speaker": "b"
+      },
+      {
+        "zh": "导航让我走西门。",
+        "py": "dǎo háng ràng wǒ zǒu xī mén .",
+        "en": "Navigation sends me to the west gate.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那是以前的路线，先看新的通知。",
+        "py": "nà shì yǐ qián de lù xiàn , xiān kàn xīn de tōng zhī .",
+        "en": "That is the earlier route; check the new notice first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "从这里到东门多远？",
+        "py": "cóng zhè lǐ dào dōng mén duō yuǎn ?",
+        "en": "How far is it from here to the east gate?",
+        "speaker": "a"
+      },
+      {
+        "zh": "两公里。东门前五十米有路口，先看清楚再过街。",
+        "py": "liǎng gōng lǐ . dōng mén qián wǔ shí mǐ yǒu lù kǒu , xiān kàn qīng chǔ zài guò jiē .",
+        "en": "Two kilometres. There is an intersection fifty metres before the east gate; look carefully before crossing.",
+        "speaker": "b"
+      },
+      {
+        "zh": "花园和动物园都在里面吗？",
+        "py": "huā yuán hé dòng wù yuán dōu zài lǐ miàn ma ?",
+        "en": "Are the garden and zoo both inside?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是。花园在公园西北，动物园在地图东北，是另一个地方。",
+        "py": "bù shì . huā yuán zài gōng yuán xī běi , dòng wù yuán zài dì tú dōng běi , shì lìng yī gè dì fāng .",
+        "en": "No. The garden is in the northwest of the park; the zoo is northeast on the map, a different place.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我骑车过去，可以从公路进吗？",
+        "py": "wǒ qí chē guò qù , kě yǐ cóng gōng lù jìn ma ?",
+        "en": "I will cycle there. Can I enter from the highway?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先向工作人员问路，入口不能猜。",
+        "py": "xiān xiàng gōng zuò rén yuán wèn lù , rù kǒu bù néng cāi .",
+        "en": "Ask staff for directions first; do not guess the entrance.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Which source should guide the entrance choice?",
+        "choices": [
+          "The updated notice, with the east gate open",
+          "The old west-gate navigation route",
+          "A guess from distance alone"
+        ],
+        "answer": "The updated notice, with the east gate open"
+      },
+      {
+        "type": "detail",
+        "q": "How far is the east gate from here?",
+        "choices": [
+          "Two kilometres",
+          "Fifty metres",
+          "Two metres"
+        ],
+        "answer": "Two kilometres"
+      },
+      {
+        "type": "inference",
+        "q": "Does looking east mean arrival?",
+        "choices": [
+          "No, looking is not travel",
+          "Yes, it proves arrival",
+          "Yes, the zoo is inside the park"
+        ],
+        "answer": "No, looking is not travel"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "导航",
+        "pinyin": "dǎo háng",
+        "meaning": "navigation"
+      },
+      {
+        "hanzi": "路口",
+        "pinyin": "lù kǒu",
+        "meaning": "intersection"
+      },
+      {
+        "hanzi": "路线",
+        "pinyin": "lù xiàn",
+        "meaning": "route"
+      },
+      {
+        "hanzi": "地图",
+        "pinyin": "dì tú",
+        "meaning": "map"
+      },
+      {
+        "hanzi": "骑车",
+        "pinyin": "qí chē",
+        "meaning": "to ride a bicycle"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u19-r",
+    "title": "A north-up route note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read for direction, distance and the changed entrance.",
+    "lines": [
+      {
+        "zh": "这张市区地图上北下南，左西右东。",
+        "py": "zhè zhāng shì qū dì tú shàng běi xià nán , zuǒ xī yòu dōng .",
+        "en": "This urban-area map has north at top, south below, west left and east right."
+      },
+      {
+        "zh": "公园在学校对面，广场在学校西南。",
+        "py": "gōng yuán zài xué xiào duì miàn , guǎng chǎng zài xué xiào xī nán .",
+        "en": "The park is opposite the school; the square is southwest of it."
+      },
+      {
+        "zh": "花园在公园西北，动物园在地图东北。",
+        "py": "huā yuán zài gōng yuán xī běi , dòng wù yuán zài dì tú dōng běi .",
+        "en": "The garden is northwest inside the park; the zoo is northeast on the map."
+      },
+      {
+        "zh": "从学校往东走，可以去公园。",
+        "py": "cóng xué xiào wǎng dōng zǒu , kě yǐ qù gōng yuán .",
+        "en": "Walking east from the school takes you towards the park."
+      },
+      {
+        "zh": "今天西门关闭，只能从东门进。",
+        "py": "jīn tiān xī mén guān bì , zhǐ néng cóng dōng mén jìn .",
+        "en": "Today the west gate is closed; enter only from the east gate."
+      },
+      {
+        "zh": "东门离这里两公里，不是五十米。",
+        "py": "dōng mén lí zhè lǐ liǎng gōng lǐ , bù shì wǔ shí mǐ .",
+        "en": "The east gate is two kilometres from here, not fifty metres."
+      },
+      {
+        "zh": "五十米是东门前的路口到东门的距离。",
+        "py": "wǔ shí mǐ shì dōng mén qián de lù kǒu dào dōng mén de jù lí .",
+        "en": "Fifty metres is the distance from the intersection in front to the east gate."
+      },
+      {
+        "zh": "坐地铁、坐船还是骑车，都先问新的入口。",
+        "py": "zuò dì tiě , zuò chuán hái shi qí chē , dōu xiān wèn xīn de rù kǒu .",
+        "en": "Whether taking metro, boat or bicycle, first ask about the updated entrance."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the key route update?",
+        "choices": [
+          "Use the east gate because the west gate is closed",
+          "The garden is now the zoo",
+          "Every left turn is east"
+        ],
+        "answer": "Use the east gate because the west gate is closed"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the zoo?",
+        "choices": [
+          "Northeast on the map",
+          "Inside the garden",
+          "Southwest of the school"
+        ],
+        "answer": "Northeast on the map"
+      },
+      {
+        "type": "inference",
+        "q": "Does fifty metres describe the whole trip?",
+        "choices": [
+          "No, it describes the last intersection-to-gate distance",
+          "Yes, the whole two kilometres",
+          "Yes, it means two metres"
+        ],
+        "answer": "No, it describes the last intersection-to-gate distance"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "今天西门关闭，只能从【东门】进。",
+          "py": "jīn tiān xī mén guān bì , zhǐ néng cóng dōng mén jìn .",
+          "en": "Today the west gate is closed; enter only from the east gate."
+        },
+        {
+          "zh": "东门离这里【两公里】，不是五十米。",
+          "py": "dōng mén lí zhè lǐ liǎng gōng lǐ , bù shì wǔ shí mǐ .",
+          "en": "The east gate is two kilometres from here, not fifty metres."
+        }
+      ],
+      "bank": [
+        "东门",
+        "两公里",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "地铁",
+        "pinyin": "dì tiě",
+        "meaning": "metro"
+      },
+      {
+        "hanzi": "路口",
+        "pinyin": "lù kǒu",
+        "meaning": "intersection"
+      },
+      {
+        "hanzi": "关闭",
+        "pinyin": "guān bì",
+        "meaning": "to close"
+      },
+      {
+        "hanzi": "地图",
+        "pinyin": "dì tú",
+        "meaning": "map"
+      },
+      {
+        "hanzi": "市区",
+        "pinyin": "shì qū",
+        "meaning": "urban area"
+      },
+      {
+        "hanzi": "船",
+        "pinyin": "chuán",
+        "meaning": "boat"
+      },
+      {
+        "hanzi": "骑车",
+        "pinyin": "qí chē",
+        "meaning": "to ride a bicycle"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u19-media",
+      "title": "Where you look, where you walk",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Follow this original scene’s correction of direction and action.",
+      "lines": [
+        {
+          "zh": "往东走，向左看。",
+          "py": "wǎng dōng zǒu , xiàng zuǒ kàn .",
+          "en": "Walk east; look left.",
+          "speaker": "a"
+        },
+        {
+          "zh": "左边就是东方吗？",
+          "py": "zuǒ biān jiù shì dōng fāng ma ?",
+          "en": "Is the left side east?",
+          "speaker": "b"
+        },
+        {
+          "zh": "不一定，要先看你向哪里。",
+          "py": "bù yí dìng , yào xiān kàn nǐ xiàng nǎ lǐ .",
+          "en": "Not necessarily; first check which way you are facing.",
+          "speaker": "a"
+        },
+        {
+          "zh": "地图上北下南，我往右走。",
+          "py": "dì tú shàng běi xià nán , wǒ wǎng yòu zǒu .",
+          "en": "The map is north-up and south-down; I go right.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那是在地图上往东，入口还要问。",
+          "py": "nà shì zài dì tú shàng wǎng dōng , rù kǒu hái yào wèn .",
+          "en": "That is east on the map; you must still ask about the entrance.",
+          "speaker": "a"
+        },
+        {
+          "zh": "知道了，到了门口再确认。",
+          "py": "zhī dào le , dào le mén kǒu zài què rèn .",
+          "en": "Understood; confirm again at the gate.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "mainidea",
+          "q": "What must be distinguished?",
+          "choices": [
+            "Map direction, bodily direction and entrance availability",
+            "East and west as the same direction",
+            "Looking and arrival as the same action"
+          ],
+          "answer": "Map direction, bodily direction and entrance availability"
+        },
+        {
+          "type": "detail",
+          "q": "How is the map oriented?",
+          "choices": [
+            "North at top",
+            "South at top",
+            "No orientation given"
+          ],
+          "answer": "North at top"
+        },
+        {
+          "type": "inference",
+          "q": "Is the entrance confirmed just by map direction?",
+          "choices": [
+            "No",
+            "Yes",
+            "Only if looking left"
+          ],
+          "answer": "No"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "地图",
+          "pinyin": "dì tú",
+          "meaning": "map"
+        }
+      ]
+    },
+    {
+      "id": "s2-u19-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "先看方向，再看距离。",
+          "py": "xiān kàn fāng xiàng , zài kàn jù lí .",
+          "en": "Check the direction first, then the distance."
+        },
+        {
+          "zh": "这条道路今天不能走。",
+          "py": "zhè tiáo dào lù jīn tiān bù néng zǒu .",
+          "en": "This road cannot be used today."
+        },
+        {
+          "zh": "这条道路还没走过，我们先看地图。",
+          "py": "zhè tiáo dào lù hái méi zǒu guò , wǒ men xiān kàn dì tú .",
+          "en": "We have not taken this road before; check the map first."
+        },
+        {
+          "zh": "公路不是步行的入口。",
+          "py": "gōng lù bù shì bù xíng de rù kǒu .",
+          "en": "The highway is not the pedestrian entrance."
+        },
+        {
+          "zh": "这条街的名字在地图上。",
+          "py": "zhè tiáo jiē de míng zi zài dì tú shàng .",
+          "en": "The name of this street is on the map."
+        },
+        {
+          "zh": "我们在广场东边见。",
+          "py": "wǒ men zài guǎng chǎng dōng biān jiàn .",
+          "en": "We meet on the east side of the square."
+        },
+        {
+          "zh": "地图右边是东方。",
+          "py": "dì tú yòu biān shì dōng fāng .",
+          "en": "The right side of the map is east."
+        },
+        {
+          "zh": "东南那边有一条公路。",
+          "py": "dōng nán nà biān yǒu yī tiáo gōng lù .",
+          "en": "There is a highway to the southeast."
+        },
+        {
+          "zh": "学校在这里的东南，不是西南。",
+          "py": "xué xiào zài zhè lǐ de dōng nán , bù shì xī nán .",
+          "en": "The school is southeast of here, not southwest."
+        },
+        {
+          "zh": "这张地图左边是西方。",
+          "py": "zhè zhāng dì tú zuǒ biān shì xī fāng .",
+          "en": "On this map the left side is west."
+        },
+        {
+          "zh": "地图上的西方在左边，不等于我们面前。",
+          "py": "dì tú shàng de xī fāng zài zuǒ biān , bù děng yú wǒ men miàn qián .",
+          "en": "West on the map is to the left, not necessarily in front of us."
+        },
+        {
+          "zh": "广场在学校西南。",
+          "py": "guǎng chǎng zài xué xiào xī nán .",
+          "en": "The square is southwest of the school."
+        },
+        {
+          "zh": "那边有两辆公交车，不是两个人。",
+          "py": "nà biān yǒu liǎng liàng gōng jiāo chē , bù shì liǎng gè rén .",
+          "en": "There are two buses there, not two people."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "步行",
+          "pinyin": "bù xíng",
+          "meaning": "to walk"
+        },
+        {
+          "hanzi": "地图",
+          "pinyin": "dì tú",
+          "meaning": "map"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u19-t1",
+      "phrase": "s2-u19-w20",
+      "audio": {
+        "zh": "从这里到东门两公里。",
+        "py": "cóng zhè lǐ dào dōng mén liǎng gōng lǐ .",
+        "en": "Two kilometres from here to the east gate."
+      },
+      "statement": "The whole trip is fifty metres.",
+      "answer": false,
+      "why": "The stated trip is two kilometres."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u19-t2",
+      "phrase": "s2-u19-w02",
+      "audio": {
+        "zh": "我向东看，还没有走过去。",
+        "py": "wǒ xiàng dōng kàn , hái méi yǒu zǒu guò qù .",
+        "en": "I look east and have not walked there."
+      },
+      "statement": "Looking does not mean arrival.",
+      "answer": true,
+      "why": "The speaker explicitly has not gone there."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u19-t3",
+      "phrase": "s2-u19-w04",
+      "prompt": {
+        "zh": "导航说走西门，但西门关了。",
+        "py": "dǎo háng shuō zǒu xī mén , dàn xī mén guān le .",
+        "en": "Navigation says west gate, but it is closed."
+      },
+      "choices": [
+        "先看更新，向工作人员问路。",
+        "五十米就是两公里。",
+        "往东看已经到了。"
+      ],
+      "answer": "先看更新，向工作人员问路。",
+      "why": "Use current entrance information."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u19-t4",
+      "phrase": "s2-u19-w03",
+      "prompt": {
+        "zh": "这张地图的方向怎么看？",
+        "py": "zhè zhāng dì tú de fāng xiàng zěn me kàn ?",
+        "en": "How is this map oriented?"
+      },
+      "choices": [
+        "上北下南，左西右东。",
+        "左边一定是你身体的东。",
+        "两辆是两个人。"
+      ],
+      "answer": "上北下南，左西右东。",
+      "why": "State the map orientation."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u19-t5",
+      "phrase": "s2-u19-w12",
+      "line": {
+        "zh": "公园在学校【对面】。",
+        "py": "gōng yuán zài xué xiào duì miàn .",
+        "en": "The park is opposite the school."
+      },
+      "blankPy": "duì miàn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u19-t6",
+      "phrase": "s2-u19-w15",
+      "line": {
+        "zh": "动物园在地图【东北】。",
+        "py": "dòng wù yuán zài dì tú dōng běi .",
+        "en": "The zoo is northeast on the map."
+      },
+      "blankPy": "dōng běi"
+    },
+    {
+      "type": "match",
+      "id": "s2-u19-t7",
+      "phrase": "s2-u19-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Walk east.",
+          "right": {
+            "zh": "往东走。",
+            "py": "wǎng dōng zǒu .",
+            "en": "Walk east."
+          }
+        },
+        {
+          "left": "Look left.",
+          "right": {
+            "zh": "向左看。",
+            "py": "xiàng zuǒ kàn .",
+            "en": "Look left."
+          }
+        },
+        {
+          "left": "Inside the park.",
+          "right": {
+            "zh": "在公园里。",
+            "py": "zài gōng yuán lǐ .",
+            "en": "Inside the park."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u19-t8",
+      "phrase": "s2-u19-w22",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Two buses.",
+          "right": {
+            "zh": "两辆公交车。",
+            "py": "liǎng liàng gōng jiāo chē .",
+            "en": "Two buses."
+          }
+        },
+        {
+          "left": "Two kilometres.",
+          "right": {
+            "zh": "两公里。",
+            "py": "liǎng gōng lǐ .",
+            "en": "Two kilometres."
+          }
+        },
+        {
+          "left": "Fifty metres.",
+          "right": {
+            "zh": "五十米。",
+            "py": "wǔ shí mǐ .",
+            "en": "Fifty metres."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u19-t9",
+      "phrase": "s2-u19-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The main point is the date, not the address.",
+          "right": {
+            "zh": "重点是日期，不是地址。",
+            "py": "zhòng diǎn shì rì qī , bù shì dì zhǐ .",
+            "en": "The main point is the date, not the address."
+          }
+        },
+        {
+          "left": "I want to discuss this question; you may ask directly.",
+          "right": {
+            "zh": "我想讨论这个问题，你可以直接问。",
+            "py": "wǒ xiǎng tǎo lùn zhè gè wèn tí , nǐ kě yǐ zhí jiē wèn .",
+            "en": "I want to discuss this question; you may ask directly."
+          }
+        },
+        {
+          "left": "The same question does not necessarily have an identical answer.",
+          "right": {
+            "zh": "同样的问题，不一定有相同的答案。",
+            "py": "tóng yàng de wèn tí , bù yí dìng yǒu xiāng tóng de dá àn .",
+            "en": "The same question does not necessarily have an identical answer."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Checking a route",
+      "natural": {
+        "zh": "今天从哪个门进？",
+        "py": "jīn tiān cóng nǎ gè mén jìn ?",
+        "en": "Which gate do we use today?"
+      },
+      "note": "Ask about current conditions rather than relying on a saved route."
+    },
+    {
+      "situation": "Unknown entrance",
+      "natural": {
+        "zh": "我不清楚，先问路吧。",
+        "py": "wǒ bù qīng chǔ , xiān wèn lù ba .",
+        "en": "I am unsure; let us ask directions first."
+      },
+      "note": "Do not make up a route."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u19-speak",
+    "title": "Getting across town",
+    "place": "A language-exchange meeting",
+    "context": "Explain a route and direction of travel.",
+    "goal": "Give a direction without confusing it with a location",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "从学校往哪里走？",
+        "pinyin": "cóng xué xiào wǎng nǎ lǐ zǒu ?",
+        "meaning": "Which way from the school?",
+        "intent": "Give a direction",
+        "examples": [
+          "往东走。"
+        ],
+        "accept": [
+          "^往东走。[。！？]?$"
+        ]
+      },
+      {
+        "text": "西门关了，怎么办？",
+        "pinyin": "xī mén guān le , zěn me bàn ?",
+        "meaning": "The west gate is closed; what now?",
+        "intent": "Ask for current directions",
+        "examples": [
+          "先向工作人员问路。"
+        ],
+        "accept": [
+          "^先向工作人员问路。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二22, 二23. Native check: 往/向 targets, compass orientation, 对面 reference, metro/boat route plausibility and short dialogue ellipsis. Distances are fictional exercise facts, not real navigation instructions. Planned retrieval 二17 / 二74: 重点是日期，不是地址。, 我想讨论这个问题，你可以直接问。, 同样的问题，不一定有相同的答案。."
+}

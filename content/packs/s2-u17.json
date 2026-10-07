@@ -1,0 +1,1391 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u17",
+    "stage": 1,
+    "order": 47,
+    "title": "If it rains, plan B",
+    "titleZh": "下雨就换个地方",
+    "canDo": [
+      "Make a conditional backup plan",
+      "Distinguish certainty from a weather forecast",
+      "State a sufficient condition without making it a requirement"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u16"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u17-w01",
+      "hanzi": "必须",
+      "pinyin": "bì xū",
+      "meaning": "must; be required to",
+      "meaningVi": "phải",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "下雪以后路不好走，必须先问场地的情况。",
+        "py": "xià xuě yǐ hòu lù bù hǎo zǒu , bì xū xiān wèn chǎng dì de qíng kuàng .",
+        "en": "After snow the route is difficult; we must first ask about the venue."
+      },
+      "usageNote": "[GF2021:L2:358] Source entry: 必须; bìxū; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w02",
+      "hanzi": "差不多",
+      "pinyin": "chà bu duō",
+      "meaning": "approximately; almost",
+      "meaningVi": "gần như; xấp xỉ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "两条路的时间差不多，但不是完全一样。",
+        "py": "liǎng tiáo lù de shí jiān chà bu duō , dàn bù shì wán quán yī yàng .",
+        "en": "The two routes take approximately the same time, but not exactly."
+      },
+      "usageNote": "[GF2021:L2:792] Source entry: 差不多; chàbuduō; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w03",
+      "hanzi": "如果",
+      "pinyin": "rú guǒ",
+      "meaning": "if",
+      "meaningVi": "nếu",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "如果明天下雨，我们就在室内见。",
+        "py": "rú guǒ míng tiān xià yǔ , wǒ men jiù zài shì nèi jiàn .",
+        "en": "If it rains tomorrow, we will meet indoors."
+      },
+      "usageNote": "[GF2021:L2:6798] Source entry: 如果; rúguǒ; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w04",
+      "hanzi": "只要",
+      "pinyin": "zhǐ yào",
+      "meaning": "as long as; provided that",
+      "meaningVi": "chỉ cần",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "只要你有空，就可以参加。",
+        "py": "zhǐ yào nǐ yǒu kōng , jiù kě yǐ cān jiā .",
+        "en": "As long as you are free, you can take part."
+      },
+      "usageNote": "[GF2021:L2:10531] Source entry: 只要; zhǐyào; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w05",
+      "hanzi": "条件",
+      "pinyin": "tiáo jiàn",
+      "meaning": "condition",
+      "meaningVi": "điều kiện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有空是这里说的条件，不是说必须下雨。",
+        "py": "yǒu kōng shì zhè lǐ shuō de tiáo jiàn , bù shì shuō bì xū xià yǔ .",
+        "en": "Being free is the condition here; it does not mean rain is required."
+      },
+      "usageNote": "[GF2021:L2:7970] Source entry: 条件; tiáojiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w06",
+      "hanzi": "气温",
+      "pinyin": "qì wēn",
+      "meaning": "air temperature",
+      "meaningVi": "nhiệt độ không khí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "气温只有三度，我多带一件衣服。",
+        "py": "qì wēn zhǐ yǒu sān dù , wǒ duō dài yī jiàn yī fú .",
+        "en": "The air temperature is only three degrees; I will bring another layer."
+      },
+      "usageNote": "[GF2021:L2:6279] Source entry: 气温; qìwēn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w07",
+      "hanzi": "多云",
+      "pinyin": "duō yún",
+      "meaning": "cloudy",
+      "meaningVi": "nhiều mây",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "预报说多云，还没有说会下雨。",
+        "py": "yù bào shuō duō yún , hái méi yǒu shuō huì xià yǔ .",
+        "en": "The forecast says cloudy; it has not said it will rain."
+      },
+      "usageNote": "[GF2021:L2:2072] Source entry: 多云; duōyún; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w08",
+      "hanzi": "晴",
+      "pinyin": "qíng",
+      "meaning": "clear; sunny",
+      "meaningVi": "quang; nắng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "天晴了，也要先看场地有没有开。",
+        "py": "tiān qíng le , yě yào xiān kàn chǎng dì yǒu méi yǒu kāi .",
+        "en": "It has cleared up, but we still need to check whether the venue is open."
+      },
+      "usageNote": "[GF2021:L2:6516] Source entry: 晴; qíng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w09",
+      "hanzi": "晴天",
+      "pinyin": "qíng tiān",
+      "meaning": "sunny day; clear weather",
+      "meaningVi": "ngày nắng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "晴天我们在公园见。",
+        "py": "qíng tiān wǒ men zài gōng yuán jiàn .",
+        "en": "In clear weather we meet at the park."
+      },
+      "usageNote": "[GF2021:L2:6518] Source entry: 晴天; qíngtiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w10",
+      "hanzi": "阴",
+      "pinyin": "yīn",
+      "meaning": "overcast",
+      "meaningVi": "âm u",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天阴，但不一定下雨。",
+        "py": "jīn tiān yīn , dàn bù yí dìng xià yǔ .",
+        "en": "Today is overcast, but it will not necessarily rain."
+      },
+      "usageNote": "[GF2021:L2:9680] Source entry: 阴; yīn; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w11",
+      "hanzi": "阴天",
+      "pinyin": "yīn tiān",
+      "meaning": "overcast day",
+      "meaningVi": "ngày âm u",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "阴天也可以出门，先看预报。",
+        "py": "yīn tiān yě kě yǐ chū mén , xiān kàn yù bào .",
+        "en": "You can go out on an overcast day too; check the forecast first."
+      },
+      "usageNote": "[GF2021:L2:9683] Source entry: 阴天; yīntiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w12",
+      "hanzi": "下雪",
+      "pinyin": "xià xuě",
+      "meaning": "to snow",
+      "meaningVi": "tuyết rơi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "如果下雪，就不骑车。",
+        "py": "rú guǒ xià xuě , jiù bù qí chē .",
+        "en": "If it snows, we will not ride bicycles."
+      },
+      "usageNote": "[GF2021:L2:8702] Source entry: 下雪; xià xuě; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w13",
+      "hanzi": "雪",
+      "pinyin": "xuě",
+      "meaning": "snow",
+      "meaningVi": "tuyết",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "路上有雪，走路要小心。",
+        "py": "lù shàng yǒu xuě , zǒu lù yào xiǎo xīn .",
+        "en": "There is snow on the road; walk carefully."
+      },
+      "usageNote": "[GF2021:L2:9227] Source entry: 雪; xuě; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w14",
+      "hanzi": "春天",
+      "pinyin": "chūn tiān",
+      "meaning": "spring",
+      "meaningVi": "mùa xuân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "春天我们常在公园见。",
+        "py": "chūn tiān wǒ men cháng zài gōng yuán jiàn .",
+        "en": "We often meet in the park in spring."
+      },
+      "usageNote": "[GF2021:L2:1275] Source entry: 春天; chūntiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w15",
+      "hanzi": "夏天",
+      "pinyin": "xià tiān",
+      "meaning": "summer",
+      "meaningVi": "mùa hè",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "夏天气温高，带水来吧。",
+        "py": "xià tiān qì wēn gāo , dài shuǐ lái ba .",
+        "en": "Temperatures are high in summer; bring water."
+      },
+      "usageNote": "[GF2021:L2:8716] Source entry: 夏天; xiàtiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w16",
+      "hanzi": "秋天",
+      "pinyin": "qiū tiān",
+      "meaning": "autumn",
+      "meaningVi": "mùa thu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "秋天凉快，我想出去走走。",
+        "py": "qiū tiān liáng kuai , wǒ xiǎng chū qù zǒu zǒu .",
+        "en": "Autumn is pleasantly cool; I would like to go for a walk."
+      },
+      "usageNote": "[GF2021:L2:6537] Source entry: 秋天; qiūtiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w17",
+      "hanzi": "冬天",
+      "pinyin": "dōng tiān",
+      "meaning": "winter",
+      "meaningVi": "mùa đông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "冬天也能见面，可以选室内。",
+        "py": "dōng tiān yě néng jiàn miàn , kě yǐ xuǎn shì nèi .",
+        "en": "We can meet in winter too; we can choose indoors."
+      },
+      "usageNote": "[GF2021:L2:1911] Source entry: 冬天; dōngtiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w18",
+      "hanzi": "北方",
+      "pinyin": "běi fāng",
+      "meaning": "the north; northern region",
+      "meaningVi": "miền bắc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友住在北方，冬天常下雪。",
+        "py": "péng you zhù zài běi fāng , dōng tiān cháng xià xuě .",
+        "en": "My friend lives in the north, where it often snows in winter."
+      },
+      "usageNote": "[GF2021:L2:271] Source entry: 北方; běifāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w19",
+      "hanzi": "南方",
+      "pinyin": "nán fāng",
+      "meaning": "the south; southern region",
+      "meaningVi": "miền nam",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我在南方长大，不太习惯雪天出门。",
+        "py": "wǒ zài nán fāng zhǎng dà , bù tài xí guàn xuě tiān chū mén .",
+        "en": "I grew up in the south and am not used to going out in snow."
+      },
+      "usageNote": "[GF2021:L2:5780] Source entry: 南方; nánfāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w20",
+      "hanzi": "凉快",
+      "pinyin": "liáng kuai",
+      "meaning": "pleasantly cool",
+      "meaningVi": "mát mẻ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里凉快，不是很冷。",
+        "py": "zhè lǐ liáng kuai , bù shì hěn lěng .",
+        "en": "It is pleasantly cool here, not very cold."
+      },
+      "usageNote": "[GF2021:L2:5133] Source entry: 凉快; liángkuai; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w21",
+      "hanzi": "零下",
+      "pinyin": "líng xià",
+      "meaning": "below zero",
+      "meaningVi": "dưới không độ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "明天气温可能到零下三度。",
+        "py": "míng tiān qì wēn kě néng dào líng xià sān dù .",
+        "en": "Tomorrow the air temperature may reach minus three degrees."
+      },
+      "usageNote": "[GF2021:L2:5210] Source entry: 零下; líng xià; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u17-w22",
+      "hanzi": "云",
+      "pinyin": "yún",
+      "meaning": "cloud",
+      "meaningVi": "mây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "天上有云，不等于一定下雨。",
+        "py": "tiān shàng yǒu yún , bù děng yú yí dìng xià yǔ .",
+        "en": "There are clouds in the sky; that does not mean rain is certain."
+      },
+      "usageNote": "[GF2021:L2:10075] Source entry: 云; yún; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "必",
+      "pinyin": "bì",
+      "meaning": "must; certainly",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "必",
+          "role": "whole",
+          "gloss": "must; certainly"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 必 in 必须. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "必须",
+          "p": "bì xū",
+          "m": "must; be required to"
+        }
+      ]
+    },
+    {
+      "hanzi": "须",
+      "pinyin": "xū",
+      "meaning": "must; need",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "须",
+          "role": "whole",
+          "gloss": "must; need"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 须 in 必须. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "必须",
+          "p": "bì xū",
+          "m": "must; be required to"
+        }
+      ]
+    },
+    {
+      "hanzi": "春",
+      "pinyin": "chūn",
+      "meaning": "spring",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "春",
+          "role": "whole",
+          "gloss": "spring"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 春 in 春天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "春天",
+          "p": "chūn tiān",
+          "m": "spring"
+        }
+      ]
+    },
+    {
+      "hanzi": "夏",
+      "pinyin": "xià",
+      "meaning": "summer",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "夏",
+          "role": "whole",
+          "gloss": "summer"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 夏 in 夏天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "夏天",
+          "p": "xià tiān",
+          "m": "summer"
+        }
+      ]
+    },
+    {
+      "hanzi": "秋",
+      "pinyin": "qiū",
+      "meaning": "autumn",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "秋",
+          "role": "whole",
+          "gloss": "autumn"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 秋 in 秋天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "秋天",
+          "p": "qiū tiān",
+          "m": "autumn"
+        }
+      ]
+    },
+    {
+      "hanzi": "冬",
+      "pinyin": "dōng",
+      "meaning": "winter",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "冬",
+          "role": "whole",
+          "gloss": "winter"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 冬 in 冬天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "冬天",
+          "p": "dōng tiān",
+          "m": "winter"
+        }
+      ]
+    },
+    {
+      "hanzi": "晴",
+      "pinyin": "qíng",
+      "meaning": "clear weather",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "晴",
+          "role": "whole",
+          "gloss": "clear weather"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 晴 in 晴 / 晴天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "晴",
+          "p": "qíng",
+          "m": "clear; sunny"
+        },
+        {
+          "w": "晴天",
+          "p": "qíng tiān",
+          "m": "sunny day; clear weather"
+        }
+      ]
+    },
+    {
+      "hanzi": "阴",
+      "pinyin": "yīn",
+      "meaning": "overcast; shade",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "阴",
+          "role": "whole",
+          "gloss": "overcast; shade"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 阴 in 阴 / 阴天. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "阴",
+          "p": "yīn",
+          "m": "overcast"
+        },
+        {
+          "w": "阴天",
+          "p": "yīn tiān",
+          "m": "overcast day"
+        }
+      ]
+    },
+    {
+      "hanzi": "雪",
+      "pinyin": "xuě",
+      "meaning": "snow",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "雪",
+          "role": "whole",
+          "gloss": "snow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 雪 in 下雪 / 雪. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "下雪",
+          "p": "xià xuě",
+          "m": "to snow"
+        },
+        {
+          "w": "雪",
+          "p": "xuě",
+          "m": "snow"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u17-g二19",
+      "pattern": "必须 / 一定 / 差不多 / 好像 / 也许",
+      "purpose": "Keep obligation, certainty and approximation separate",
+      "explanation": "必须 states a requirement; 一定 expresses a firm expectation or commitment. 差不多 marks approximation, 好像 an impression and 也许 a possibility. A cloudy forecast does not license 一定下雨. Say 也许会下雨 when uncertain. 差不多三度 is approximate, not an exact measurement. Different words change the strength of the claim, not the evidence available.",
+      "examples": [
+        {
+          "zh": "必须先看通知，不一定要去室外。",
+          "py": "bì xū xiān kàn tōng zhī , bù yí dìng yào qù shì wài .",
+          "en": "We must check the notice first; we do not necessarily have to go outdoors."
+        },
+        {
+          "zh": "两条路差不多远，好像都能走。",
+          "py": "liǎng tiáo lù chà bu duō yuǎn , hǎo xiàng dōu néng zǒu .",
+          "en": "The two routes are about equally far; it looks as though both are usable."
+        },
+        {
+          "zh": "也许下雨，时间一确认，我一定告诉你。",
+          "py": "yě xǔ xià yǔ , shí jiān yī què rèn , wǒ yí dìng gào sù nǐ .",
+          "en": "It may rain; once the time is confirmed, I will definitely tell you."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "多云，所以一定下雨。",
+          "right": "多云，也许会下雨。",
+          "why": "Clouds alone do not make the forecast certain."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u17-g二66",
+      "pattern": "条件：如果 … 就 / … 的话，就 / 不用连词",
+      "purpose": "Give a condition and its consequence",
+      "explanation": "如果下雨，我们就在室内见 and 下雨的话，我们就在室内见 make the condition explicit. In a known plan 下雨就换地方 can omit 如果. The consequence only follows when that condition holds; this is not a claim that rain will occur. Keep the subject of each clause clear. State what stays fixed and what changes.",
+      "examples": [
+        {
+          "zh": "如果明天下雨，我们就在室内见。",
+          "py": "rú guǒ míng tiān xià yǔ , wǒ men jiù zài shì nèi jiàn .",
+          "en": "If it rains tomorrow, we will meet indoors."
+        },
+        {
+          "zh": "下雨的话，就换到饭馆。",
+          "py": "xià yǔ de huà , jiù huàn dào fàn guǎn .",
+          "en": "If it rains, change to the restaurant."
+        },
+        {
+          "zh": "天晴就在公园见，时间不变。",
+          "py": "tiān qíng jiù zài gōng yuán jiàn , shí jiān bù biàn .",
+          "en": "If it is clear, meet at the park; the time stays the same."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "如果下雨，所以我们在室内见。",
+          "right": "如果下雨，我们就在室内见。",
+          "why": "如果 sets a condition; 所以 is a causal link and is not the paired condition marker here."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u17-g二67",
+      "pattern": "只要 … 就",
+      "purpose": "Express a sufficient condition",
+      "explanation": "只要有空，就可以来 says having time is enough for this invitation. It does not require bad weather, a gift or a particular season. Contrast 如果下雨，就在室内见: the condition chooses the venue, not whether the person is allowed to come. Do not confuse 只要 with 只有…才, which states a necessary condition and is taught separately later.",
+      "examples": [
+        {
+          "zh": "只要你有空，就可以来。",
+          "py": "zhǐ yào nǐ yǒu kōng , jiù kě yǐ lái .",
+          "en": "As long as you are free, you may come."
+        },
+        {
+          "zh": "只要场地开着，我们就按计划见。",
+          "py": "zhǐ yào chǎng dì kāi zhe , wǒ men jiù àn jì huà jiàn .",
+          "en": "As long as the venue is open, we will meet according to plan."
+        },
+        {
+          "zh": "只要先发消息，就不用一直等。",
+          "py": "zhǐ yào xiān fā xiāo xī , jiù bù yòng yì zhí děng .",
+          "en": "As long as we message first, we need not keep waiting."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只要下雨，你才可以来。",
+          "right": "只要你有空，就可以来。",
+          "why": "The invitation makes free time sufficient; it does not require rain or use 只要…才."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u17-d",
+    "title": "The plan changes location",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the condition, fixed time and backup venue.",
+    "lines": [
+      {
+        "zh": "明天还是七点见吗？",
+        "py": "míng tiān hái shi qī diǎn jiàn ma ?",
+        "en": "Are we still meeting at seven tomorrow?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，时间不变。如果天晴，我们就在公园见。",
+        "py": "duì , shí jiān bù biàn . rú guǒ tiān qíng , wǒ men jiù zài gōng yuán jiàn .",
+        "en": "Yes, the time stays the same. If it is clear, we will meet in the park.",
+        "speaker": "b"
+      },
+      {
+        "zh": "预报说多云，一定下雨吗？",
+        "py": "yù bào shuō duō yún , yí dìng xià yǔ ma ?",
+        "en": "The forecast says cloudy. Is rain certain?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不一定。好像会下雨，但现在只能说也许。",
+        "py": "bù yí dìng . hǎo xiàng huì xià yǔ , dàn xiàn zài zhǐ néng shuō yě xǔ .",
+        "en": "Not necessarily. It looks like rain, but for now we can only say maybe.",
+        "speaker": "b"
+      },
+      {
+        "zh": "下雨的话，就不见了吗？",
+        "py": "xià yǔ de huà , jiù bú jiàn le ma ?",
+        "en": "If it rains, will we not meet?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，下雨就换到饭馆，还是七点。",
+        "py": "bù shì , xià yǔ jiù huàn dào fàn guǎn , hái shi qī diǎn .",
+        "en": "No, if it rains we change to the restaurant, still at seven.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我住得远，必须去吗？",
+        "py": "wǒ zhù dé yuǎn , bì xū qù ma ?",
+        "en": "I live far away. Must I go?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用。只要你有空，就可以来；不方便也可以改天。",
+        "py": "bù yòng . zhǐ yào nǐ yǒu kōng , jiù kě yǐ lái ; bù fāng biàn yě kě yǐ gǎi tiān .",
+        "en": "No. As long as you are free, you can come; if inconvenient, another day is fine.",
+        "speaker": "b"
+      },
+      {
+        "zh": "气温可能到零下三度，路上有雪怎么办？",
+        "py": "qì wēn kě néng dào líng xià sān dù , lù shàng yǒu xuě zěn me bàn ?",
+        "en": "The temperature may reach minus three. What if there is snow on the road?",
+        "speaker": "a"
+      },
+      {
+        "zh": "那就先问场地有没有开，别急着出门。",
+        "py": "nà jiù xiān wèn chǎng dì yǒu méi yǒu kāi , bié jí zhe chū mén .",
+        "en": "Then first ask whether the venue is open; do not rush out.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我明天下午再看通知。",
+        "py": "wǒ míng tiān xià wǔ zài kàn tōng zhī .",
+        "en": "I will check the notice tomorrow afternoon.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，地方一确认，我一定发消息。",
+        "py": "hǎo , dì fāng yī què rèn , wǒ yí dìng fā xiāo xī .",
+        "en": "Good. Once the place is confirmed, I will definitely message.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What changes if it rains?",
+        "choices": [
+          "The venue, not the agreed seven-o’clock time",
+          "The meeting must be cancelled",
+          "Everyone must attend"
+        ],
+        "answer": "The venue, not the agreed seven-o’clock time"
+      },
+      {
+        "type": "detail",
+        "q": "Does cloudy mean certain rain here?",
+        "choices": [
+          "No, rain is only a possibility",
+          "Yes, it is certain",
+          "No, rain is impossible"
+        ],
+        "answer": "No, rain is only a possibility"
+      },
+      {
+        "type": "inference",
+        "q": "What should happen before going out in snow?",
+        "choices": [
+          "Check whether the venue is open",
+          "Guess that it is open",
+          "Ride faster"
+        ],
+        "answer": "Check whether the venue is open"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "预报",
+        "pinyin": "yù bào",
+        "meaning": "forecast"
+      },
+      {
+        "hanzi": "场地",
+        "pinyin": "chǎng dì",
+        "meaning": "venue"
+      },
+      {
+        "hanzi": "公园",
+        "pinyin": "gōng yuán",
+        "meaning": "park"
+      },
+      {
+        "hanzi": "以来",
+        "pinyin": "yǐ lái",
+        "meaning": "since; up to now"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u17-r",
+    "title": "An afternoon update",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to choose the venue without guessing the weather.",
+    "lines": [
+      {
+        "zh": "我们明天七点见，时间不变。",
+        "py": "wǒ men míng tiān qī diǎn jiàn , shí jiān bù biàn .",
+        "en": "We meet at seven tomorrow; the time is unchanged."
+      },
+      {
+        "zh": "晴天在公园，雨天在饭馆。",
+        "py": "qíng tiān zài gōng yuán , yǔ tiān zài fàn guǎn .",
+        "en": "In clear weather, at the park; in rain, at the restaurant."
+      },
+      {
+        "zh": "今天的预报说多云，没有说一定下雨。",
+        "py": "jīn tiān de yù bào shuō duō yún , méi yǒu shuō yí dìng xià yǔ .",
+        "en": "Today’s forecast says cloudy, not certain rain."
+      },
+      {
+        "zh": "北方的朋友说冬天要小心路上的雪。",
+        "py": "běi fāng de péng you shuō dōng tiān yào xiǎo xīn lù shàng de xuě .",
+        "en": "Our friend from the north says to watch out for snow on the road in winter."
+      },
+      {
+        "zh": "南方的朋友觉得秋天更凉快。",
+        "py": "nán fāng de péng you jué de qiū tiān gèng liáng kuai .",
+        "en": "Our friend from the south finds autumn more pleasantly cool."
+      },
+      {
+        "zh": "春天和夏天也能见，天气不是参加的条件。",
+        "py": "chūn tiān hé xià tiān yě néng jiàn , tiān qì bù shì cān jiā de tiáo jiàn .",
+        "en": "We can meet in spring and summer too; the weather is not a condition of participation."
+      },
+      {
+        "zh": "只要有空，就可以来，不方便可以改天。",
+        "py": "zhǐ yào yǒu kōng , jiù kě yǐ lái , bù fāng biàn kě yǐ gǎi tiān .",
+        "en": "As long as you are free, you can come; another day is fine if inconvenient."
+      },
+      {
+        "zh": "明天下午看更新，地方确认以后再出门。",
+        "py": "míng tiān xià wǔ kàn gēng xīn , dì fāng què rèn yǐ hòu zài chū mén .",
+        "en": "Check the update tomorrow afternoon; leave once the venue is confirmed."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note organize?",
+        "choices": [
+          "A meeting with a weather-dependent venue",
+          "A compulsory winter trip",
+          "A confirmed sunny forecast"
+        ],
+        "answer": "A meeting with a weather-dependent venue"
+      },
+      {
+        "type": "detail",
+        "q": "When is the next update checked?",
+        "choices": [
+          "Tomorrow afternoon",
+          "Yesterday evening",
+          "After arriving"
+        ],
+        "answer": "Tomorrow afternoon"
+      },
+      {
+        "type": "inference",
+        "q": "Does participation require rain?",
+        "choices": [
+          "No, having free time is enough",
+          "Yes, only rain permits attendance",
+          "Yes, snow is required"
+        ],
+        "answer": "No, having free time is enough"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【晴天】在公园，雨天在饭馆。",
+          "py": "qíng tiān zài gōng yuán , yǔ tiān zài fàn guǎn .",
+          "en": "In clear weather, at the park; in rain, at the restaurant."
+        },
+        {
+          "zh": "【只要】有空，就可以来，不方便可以改天。",
+          "py": "zhǐ yào yǒu kōng , jiù kě yǐ lái , bù fāng biàn kě yǐ gǎi tiān .",
+          "en": "As long as you are free, you can come; another day is fine if inconvenient."
+        }
+      ],
+      "bank": [
+        "晴天",
+        "只要",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "预报",
+        "pinyin": "yù bào",
+        "meaning": "forecast"
+      },
+      {
+        "hanzi": "更新",
+        "pinyin": "gēng xīn",
+        "meaning": "to update"
+      },
+      {
+        "hanzi": "雨天",
+        "pinyin": "yǔ tiān",
+        "meaning": "rainy day"
+      },
+      {
+        "hanzi": "北方",
+        "pinyin": "běi fāng",
+        "meaning": "the north"
+      },
+      {
+        "hanzi": "南方",
+        "pinyin": "nán fāng",
+        "meaning": "the south"
+      },
+      {
+        "hanzi": "公园",
+        "pinyin": "gōng yuán",
+        "meaning": "park"
+      },
+      {
+        "hanzi": "以来",
+        "pinyin": "yǐ lái",
+        "meaning": "since; up to now"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u17-media",
+      "title": "Clouds are not a promise",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read the original short verse for the fixed plan and uncertain weather.",
+      "lines": [
+        {
+          "zh": "天上有云，心里别急。",
+          "py": "tiān shàng yǒu yún , xīn lǐ bié jí .",
+          "en": "Clouds in the sky; do not be anxious."
+        },
+        {
+          "zh": "春天换衣，夏天带水。",
+          "py": "chūn tiān huàn yī , xià tiān dài shuǐ .",
+          "en": "Change layers in spring; bring water in summer."
+        },
+        {
+          "zh": "秋天凉快，冬天看雪。",
+          "py": "qiū tiān liáng kuai , dōng tiān kàn xuě .",
+          "en": "Autumn is cool; in winter watch the snow."
+        },
+        {
+          "zh": "如果下雨，就换地方。",
+          "py": "rú guǒ xià yǔ , jiù huàn dì fāng .",
+          "en": "If it rains, change the place."
+        },
+        {
+          "zh": "只要有空，就来坐坐。",
+          "py": "zhǐ yào yǒu kōng , jiù lái zuò zuò .",
+          "en": "As long as you are free, come and sit a while."
+        },
+        {
+          "zh": "七点不变，先看消息。",
+          "py": "qī diǎn bù biàn , xiān kàn xiāo xī .",
+          "en": "Seven stays fixed; check the message first."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mainidea",
+          "q": "What stays fixed?",
+          "choices": [
+            "Seven o’clock",
+            "Sunny weather",
+            "Attendance by everyone"
+          ],
+          "answer": "Seven o’clock"
+        },
+        {
+          "type": "detail",
+          "q": "What happens in rain?",
+          "choices": [
+            "The place changes",
+            "The time becomes eight",
+            "The meeting is certainly cancelled"
+          ],
+          "answer": "The place changes"
+        },
+        {
+          "type": "inference",
+          "q": "Is a cloud treated as a certain forecast?",
+          "choices": [
+            "No",
+            "Yes",
+            "Only in summer"
+          ],
+          "answer": "No"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s2-u17-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "气温只有三度，我多带一件衣服。",
+          "py": "qì wēn zhǐ yǒu sān dù , wǒ duō dài yī jiàn yī fú .",
+          "en": "The air temperature is only three degrees; I will bring another layer."
+        },
+        {
+          "zh": "晴天我们在公园见。",
+          "py": "qíng tiān wǒ men zài gōng yuán jiàn .",
+          "en": "In clear weather we meet at the park."
+        },
+        {
+          "zh": "今天阴，但不一定下雨。",
+          "py": "jīn tiān yīn , dàn bù yí dìng xià yǔ .",
+          "en": "Today is overcast, but it will not necessarily rain."
+        },
+        {
+          "zh": "今天阴，出门前还是要看天气预报。",
+          "py": "jīn tiān yīn , chū mén qián hái shi yào kàn tiān qì yù bào .",
+          "en": "It is overcast today; still check the forecast before going out."
+        },
+        {
+          "zh": "阴天也可以出门，先看预报。",
+          "py": "yīn tiān yě kě yǐ chū mén , xiān kàn yù bào .",
+          "en": "You can go out on an overcast day too; check the forecast first."
+        },
+        {
+          "zh": "阴天也可以散步，不等于一定下雨。",
+          "py": "yīn tiān yě kě yǐ sàn bù , bù děng yú yí dìng xià yǔ .",
+          "en": "One can walk on an overcast day; it does not mean rain is certain."
+        },
+        {
+          "zh": "如果下雪，就不骑车。",
+          "py": "rú guǒ xià xuě , jiù bù qí chē .",
+          "en": "If it snows, we will not ride bicycles."
+        },
+        {
+          "zh": "明天可能下雪，见面的时间先别定死。",
+          "py": "míng tiān kě néng xià xuě , jiàn miàn de shí jiān xiān bié dìng sǐ .",
+          "en": "It may snow tomorrow; leave the meeting time flexible for now."
+        },
+        {
+          "zh": "朋友住在北方，冬天常下雪。",
+          "py": "péng you zhù zài běi fāng , dōng tiān cháng xià xuě .",
+          "en": "My friend lives in the north, where it often snows in winter."
+        },
+        {
+          "zh": "我在南方长大，不太习惯雪天出门。",
+          "py": "wǒ zài nán fāng zhǎng dà , bù tài xí guàn xuě tiān chū mén .",
+          "en": "I grew up in the south and am not used to going out in snow."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "天气预报",
+          "pinyin": "tiān qì yù bào",
+          "meaning": "weather forecast"
+        },
+        {
+          "hanzi": "预报",
+          "pinyin": "yù bào",
+          "meaning": "forecast"
+        },
+        {
+          "hanzi": "北方",
+          "pinyin": "běi fāng",
+          "meaning": "the north"
+        },
+        {
+          "hanzi": "南方",
+          "pinyin": "nán fāng",
+          "meaning": "the south"
+        },
+        {
+          "hanzi": "公园",
+          "pinyin": "gōng yuán",
+          "meaning": "park"
+        },
+        {
+          "hanzi": "骑车",
+          "pinyin": "qí chē",
+          "meaning": "to ride a bicycle"
+        },
+        {
+          "hanzi": "定死",
+          "pinyin": "dìng sǐ",
+          "meaning": "to fix inflexibly"
+        },
+        {
+          "hanzi": "习惯",
+          "pinyin": "xí guàn",
+          "meaning": "to be accustomed to"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u17-t1",
+      "phrase": "s2-u17-w07",
+      "audio": {
+        "zh": "预报说多云，不一定下雨。",
+        "py": "yù bào shuō duō yún , bù yí dìng xià yǔ .",
+        "en": "The forecast says cloudy, not certain rain."
+      },
+      "statement": "The speaker says rain is certain.",
+      "answer": false,
+      "why": "不一定 denies certainty."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u17-t2",
+      "phrase": "s2-u17-w04",
+      "audio": {
+        "zh": "只要有空，就可以来。",
+        "py": "zhǐ yào yǒu kōng , jiù kě yǐ lái .",
+        "en": "If you are free, you may come."
+      },
+      "statement": "Having time is sufficient here.",
+      "answer": true,
+      "why": "只要…就 gives a sufficient condition."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u17-t3",
+      "phrase": "s2-u17-w03",
+      "prompt": {
+        "zh": "如果明天下雨呢？",
+        "py": "rú guǒ míng tiān xià yǔ ne ?",
+        "en": "What if it rains tomorrow?"
+      },
+      "choices": [
+        "就在饭馆见，时间不变。",
+        "我在春天长大。",
+        "一共三度。"
+      ],
+      "answer": "就在饭馆见，时间不变。",
+      "why": "Supply the consequence of the condition."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u17-t4",
+      "phrase": "s2-u17-w01",
+      "prompt": {
+        "zh": "我明天不方便，必须来吗？",
+        "py": "wǒ míng tiān bù fāng biàn , bì xū lái ma ?",
+        "en": "Tomorrow is inconvenient; must I come?"
+      },
+      "choices": [
+        "不用，我们可以改天。",
+        "一定是晴天。",
+        "雪在天上。"
+      ],
+      "answer": "不用，我们可以改天。",
+      "why": "Do not invent an obligation."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u17-t5",
+      "phrase": "s2-u17-w02",
+      "line": {
+        "zh": "两条路的时间【差不多】。",
+        "py": "liǎng tiáo lù de shí jiān chà bu duō .",
+        "en": "The two routes take about the same time."
+      },
+      "blankPy": "chà bu duō"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u17-t6",
+      "phrase": "s2-u17-w20",
+      "line": {
+        "zh": "秋天这里很【凉快】。",
+        "py": "qiū tiān zhè lǐ hěn liáng kuai .",
+        "en": "It is pleasantly cool here in autumn."
+      },
+      "blankPy": "liáng kuai"
+    },
+    {
+      "type": "match",
+      "id": "s2-u17-t7",
+      "phrase": "s2-u17-w21",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Minus three degrees.",
+          "right": {
+            "zh": "零下三度。",
+            "py": "líng xià sān dù .",
+            "en": "Minus three degrees."
+          }
+        },
+        {
+          "left": "It may rain.",
+          "right": {
+            "zh": "也许下雨。",
+            "py": "yě xǔ xià yǔ .",
+            "en": "It may rain."
+          }
+        },
+        {
+          "left": "The time stays unchanged.",
+          "right": {
+            "zh": "时间不变。",
+            "py": "shí jiān bù biàn .",
+            "en": "The time stays unchanged."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u17-t8",
+      "phrase": "s2-u17-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Free time is the condition.",
+          "right": {
+            "zh": "有空是条件。",
+            "py": "yǒu kōng shì tiáo jiàn .",
+            "en": "Free time is the condition."
+          }
+        },
+        {
+          "left": "Cloud is not snow.",
+          "right": {
+            "zh": "云不是雪。",
+            "py": "yún bù shì xuě .",
+            "en": "Cloud is not snow."
+          }
+        },
+        {
+          "left": "Check the notice first.",
+          "right": {
+            "zh": "先看通知。",
+            "py": "xiān kàn tōng zhī .",
+            "en": "Check the notice first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u17-t9",
+      "phrase": "s2-u17-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "My friend has already arrived; I am still on the way.",
+          "right": {
+            "zh": "朋友已经到了，我还在路上。",
+            "py": "péng you yǐ jīng dào le , wǒ hái zài lù shàng .",
+            "en": "My friend has already arrived; I am still on the way."
+          }
+        },
+        {
+          "left": "It is only six forty; no need to hurry.",
+          "right": {
+            "zh": "才六点四十，不用急。",
+            "py": "cái liù diǎn sì shí , bù yòng jí .",
+            "en": "It is only six forty; no need to hurry."
+          }
+        },
+        {
+          "left": "It is already seven; he did not arrive until seven.",
+          "right": {
+            "zh": "都七点了，他七点才到。",
+            "py": "dōu qī diǎn le , tā qī diǎn cái dào .",
+            "en": "It is already seven; he did not arrive until seven."
+          }
+        },
+        {
+          "left": "The meeting time has come; it is time for us to set off.",
+          "right": {
+            "zh": "集合时间到了，我们该出发了。",
+            "py": "jí hé shí jiān dào le , wǒ men gāi chū fā le .",
+            "en": "The meeting time has come; it is time for us to set off."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Conditional update",
+      "natural": {
+        "zh": "下雨的话，就在饭馆见。",
+        "py": "xià yǔ de huà , jiù zài fàn guǎn jiàn .",
+        "en": "If it rains, meet at the restaurant."
+      },
+      "note": "Keep the fixed time explicit."
+    },
+    {
+      "situation": "Declining without pressure",
+      "natural": {
+        "zh": "不方便可以改天。",
+        "py": "bù fāng biàn kě yǐ gǎi tiān .",
+        "en": "Another day is fine if inconvenient."
+      },
+      "note": "An invitation is not an obligation."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u17-speak",
+    "title": "If it rains, plan B",
+    "place": "A language-exchange meeting",
+    "context": "Make a backup plan with clear conditions.",
+    "goal": "Make a conditional backup plan",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "如果下雨呢？",
+        "pinyin": "rú guǒ xià yǔ ne ?",
+        "meaning": "What if it rains?",
+        "intent": "Give a backup location",
+        "examples": [
+          "就在饭馆见。"
+        ],
+        "accept": [
+          "^就在饭馆见。[。！？]?$"
+        ]
+      },
+      {
+        "text": "我不方便，必须来吗？",
+        "pinyin": "wǒ bù fāng biàn , bì xū lái ma ?",
+        "meaning": "It is inconvenient; must I come?",
+        "intent": "Allow another day",
+        "examples": [
+          "不用，我们可以改天。"
+        ],
+        "accept": [
+          "^不用，我们可以改天。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二19, 二66, 二67. Native check: conditional omissions, 只要 sufficient-condition scope, weather-register collocations and clipped original seasonal verse. Forecast statements are uncertainty examples, not live weather guidance. Planned retrieval 二15 / 二20 / 二80: 朋友已经到了，我还在路上。, 才六点四十，不用急。, 都七点了，他七点才到。, 集合时间到了，我们该出发了。."
+}

@@ -37,3 +37,4 @@ Native flags: topic-fronting alternatives in ordering, naturalness of concession
 ## Pending native review
 
 All new items remain AI-assisted drafts. Prioritize ordering alternatives that involve fronted locations/objects, colloquial price expressions in 块, relationship reference chains, and the pronunciation/tone of single-word options. Automatic ASR and structural validation do not establish native pronunciation quality or eliminate every possible alternative interpretation.
+- Follow-up HSK 2 bank review: corrected the English distractor glosses for 谁参加了活动 (who took part in the activity) and 明天的饭 (tomorrow's meal). Chinese text, answer keys and item IDs are unchanged. The level release regenerates the bank and runs the full gates before publication.

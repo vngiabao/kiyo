@@ -30,6 +30,7 @@ for path in sorted((ROOT/'content/packs').glob('hsk-*-bank.hsk.json')):
     for item in bank['items']:
         # Exact connected prompts make the unresolved native-review scope clear.
         rows.append(dict(unit=item['id'],text=item['sentence'],py=item['py'],en=item['en'],
+                         prompt=item['prompt'],choices=item['choices'],answer=item['answer'],
                          reason='Original exam draft: check naturalness, tone delivery and whether the distractors admit another valid interpretation.',
                          status='native review pending'))
 for exception in read(ROOT/'content/voices/audio-deferred.json')['entries']:

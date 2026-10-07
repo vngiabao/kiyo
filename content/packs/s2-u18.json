@@ -1,0 +1,1314 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u18",
+    "stage": 1,
+    "order": 48,
+    "title": "Taking turns as host",
+    "titleZh": "今天你来当组长",
+    "canDo": [
+      "Agree a voluntary hosting role",
+      "State who organizes an activity and what it is for",
+      "Distinguish an action phrase from a completed event"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u17"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u18-w01",
+      "hanzi": "当",
+      "pinyin": "dāng",
+      "meaning": "to act as; work as",
+      "meaningVi": "làm; đảm nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天我当组长，明天换人。",
+        "py": "jīn tiān wǒ dāng zǔ zhǎng , míng tiān huàn rén .",
+        "en": "Today I act as group leader; tomorrow someone else takes a turn."
+      },
+      "usageNote": "[GF2021:L2:1601] Source entry: 当; dāng; 动、介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w02",
+      "hanzi": "办",
+      "pinyin": "bàn",
+      "meaning": "to organize; handle",
+      "meaningVi": "tổ chức; xử lý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们想办一个小活动。",
+        "py": "wǒ men xiǎng bàn yī gè xiǎo huó dòng .",
+        "en": "We want to organize a small activity."
+      },
+      "usageNote": "[GF2021:L2:132] Source entry: 办; bàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w03",
+      "hanzi": "报名",
+      "pinyin": "bào míng",
+      "meaning": "to register; sign up",
+      "meaningVi": "đăng ký",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "想参加的人先报名。",
+        "py": "xiǎng cān jiā de rén xiān bào míng .",
+        "en": "People who want to take part should sign up first."
+      },
+      "usageNote": "[GF2021:L2:231] Source entry: 报名; bào∥míng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w04",
+      "hanzi": "名单",
+      "pinyin": "míng dān",
+      "meaning": "list of names",
+      "meaningVi": "danh sách tên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "名单上有五个人，不是全班。",
+        "py": "míng dān shàng yǒu wǔ gè rén , bù shì quán bān .",
+        "en": "There are five people on the list, not the entire class."
+      },
+      "usageNote": "[GF2021:L2:5622] Source entry: 名单; míngdān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w05",
+      "hanzi": "名称",
+      "pinyin": "míng chēng",
+      "meaning": "name; designation",
+      "meaningVi": "tên gọi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "活动的名称是朋友见面。",
+        "py": "huó dòng de míng chēng shì péng you jiàn miàn .",
+        "en": "The name of the activity is Friends Meet."
+      },
+      "usageNote": "[GF2021:L2:5621] Source entry: 名称; míngchēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w06",
+      "hanzi": "目的",
+      "pinyin": "mù dì",
+      "meaning": "purpose",
+      "meaningVi": "mục đích",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "目的就是让大家有机会说汉语。",
+        "py": "mù dì jiù shì ràng dà jiā yǒu jī huì shuō hàn yǔ .",
+        "en": "The purpose is to give everyone a chance to speak Mandarin."
+      },
+      "usageNote": "[GF2021:L2:5712] Source entry: 目的; mùdì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w07",
+      "hanzi": "进行",
+      "pinyin": "jìn xíng",
+      "meaning": "to carry out; proceed",
+      "meaningVi": "tiến hành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "活动在室内进行。",
+        "py": "huó dòng zài shì nèi jìn xíng .",
+        "en": "The activity takes place indoors."
+      },
+      "usageNote": "[GF2021:L2:4301] Source entry: 进行; jìnxíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w08",
+      "hanzi": "举行",
+      "pinyin": "jǔ xíng",
+      "meaning": "to hold an event",
+      "meaningVi": "tổ chức sự kiện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "星期六举行活动，地点还要确认。",
+        "py": "xīng qī liù jǔ xíng huó dòng , dì diǎn hái yào què rèn .",
+        "en": "The event is held on Saturday; the venue still needs confirmation."
+      },
+      "usageNote": "[GF2021:L2:4487] Source entry: 举行; jǔxíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w09",
+      "hanzi": "队",
+      "pinyin": "duì",
+      "meaning": "team",
+      "meaningVi": "đội",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "每队三个人，先问谁愿意参加。",
+        "py": "měi duì sān gè rén , xiān wèn shéi yuàn yì cān jiā .",
+        "en": "There are three people per team; first ask who wants to join."
+      },
+      "usageNote": "[GF2021:L2:2013] Source entry: 队; duì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w10",
+      "hanzi": "队长",
+      "pinyin": "duì zhǎng",
+      "meaning": "team captain",
+      "meaningVi": "đội trưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "队长负责说明规则。",
+        "py": "duì zhǎng fù zé shuō míng guī zé .",
+        "en": "The captain is responsible for explaining the rules."
+      },
+      "usageNote": "[GF2021:L2:2017] Source entry: 队长; duìzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w11",
+      "hanzi": "球队",
+      "pinyin": "qiú duì",
+      "meaning": "sports team; ball-game team",
+      "meaningVi": "đội bóng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们不是正式球队，只是一起玩。",
+        "py": "wǒ men bù shì zhèng shì qiú duì , zhǐ shì yì qǐ wán .",
+        "en": "We are not an official sports team; we are just playing together."
+      },
+      "usageNote": "[GF2021:L2:6549] Source entry: 球队; qiúduì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w12",
+      "hanzi": "体育",
+      "pinyin": "tǐ yù",
+      "meaning": "physical education; sport",
+      "meaningVi": "thể dục; thể thao",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "体育活动也可以先说明怎么参加。",
+        "py": "tǐ yù huó dòng yě kě yǐ xiān shuō míng zěn me cān jiā .",
+        "en": "A sports activity can also start with an explanation of how to take part."
+      },
+      "usageNote": "[GF2021:L2:7917] Source entry: 体育; tǐyù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w13",
+      "hanzi": "体育场",
+      "pinyin": "tǐ yù chǎng",
+      "meaning": "sports ground; stadium",
+      "meaningVi": "sân vận động",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "体育场在外面，下雨就换地方。",
+        "py": "tǐ yù chǎng zài wài miàn , xià yǔ jiù huàn dì fāng .",
+        "en": "The sports ground is outdoors; in rain we change venue."
+      },
+      "usageNote": "[GF2021:L2:7918] Source entry: 体育场; tǐyùchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w14",
+      "hanzi": "体育馆",
+      "pinyin": "tǐ yù guǎn",
+      "meaning": "sports hall; gymnasium",
+      "meaningVi": "nhà thi đấu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "体育馆在室内，但要先问有没有开。",
+        "py": "tǐ yù guǎn zài shì nèi , dàn yào xiān wèn yǒu méi yǒu kāi .",
+        "en": "The sports hall is indoors, but we must first ask whether it is open."
+      },
+      "usageNote": "[GF2021:L2:7919] Source entry: 体育馆; tǐyùguǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w15",
+      "hanzi": "球场",
+      "pinyin": "qiú chǎng",
+      "meaning": "court; playing field",
+      "meaningVi": "sân bóng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "球场上已经有人，我们先等。",
+        "py": "qiú chǎng shàng yǐ jīng yǒu rén , wǒ men xiān děng .",
+        "en": "There are already people on the court; we wait first."
+      },
+      "usageNote": "[GF2021:L2:6548] Source entry: 球场; qiúchǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w16",
+      "hanzi": "球鞋",
+      "pinyin": "qiú xié",
+      "meaning": "sports shoes",
+      "meaningVi": "giày thể thao",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我带球鞋，也带一瓶水。",
+        "py": "wǒ dài qiú xié , yě dài yī píng shuǐ .",
+        "en": "I bring sports shoes and a bottle of water."
+      },
+      "usageNote": "[GF2021:L2:6552] Source entry: 球鞋; qiúxié; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w17",
+      "hanzi": "篮球",
+      "pinyin": "lán qiú",
+      "meaning": "basketball",
+      "meaningVi": "bóng rổ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友喜欢篮球，不太会打网球。",
+        "py": "péng you xǐ huān lán qiú , bù tài huì dǎ wǎng qiú .",
+        "en": "My friend likes basketball but is not very good at tennis."
+      },
+      "usageNote": "[GF2021:L2:4926] Source entry: 篮球; lánqiú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w18",
+      "hanzi": "排球",
+      "pinyin": "pái qiú",
+      "meaning": "volleyball",
+      "meaningVi": "bóng chuyền",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天不打排球，先学新的词。",
+        "py": "jīn tiān bù dǎ pái qiú , xiān xué xīn de cí .",
+        "en": "Today we are not playing volleyball; we first learn new words."
+      },
+      "usageNote": "[GF2021:L2:5960] Source entry: 排球; páiqiú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w19",
+      "hanzi": "网球",
+      "pinyin": "wǎng qiú",
+      "meaning": "tennis",
+      "meaningVi": "quần vợt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "想打网球的人在这边报名。",
+        "py": "xiǎng dǎ wǎng qiú de rén zài zhè biān bào míng .",
+        "en": "People who want to play tennis sign up here."
+      },
+      "usageNote": "[GF2021:L2:8329] Source entry: 网球; wǎngqiú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w20",
+      "hanzi": "运动",
+      "pinyin": "yùn dòng",
+      "meaning": "to exercise; sport",
+      "meaningVi": "vận động; thể thao",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天想运动的人可以参加小队。",
+        "py": "jīn tiān xiǎng yùn dòng de rén kě yǐ cān jiā xiǎo duì .",
+        "en": "People who want to exercise today can join a small team."
+      },
+      "usageNote": "[GF2021:L2:10081] Source entry: 运动; yùndòng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w21",
+      "hanzi": "举",
+      "pinyin": "jǔ",
+      "meaning": "to raise; lift",
+      "meaningVi": "giơ; nâng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不懂规则就举手问。",
+        "py": "bù dǒng guī zé jiù jǔ shǒu wèn .",
+        "en": "Raise your hand and ask if you do not understand the rules."
+      },
+      "usageNote": "[GF2021:L2:4477] Source entry: 举; jǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u18-w22",
+      "hanzi": "举手",
+      "pinyin": "jǔ shǒu",
+      "meaning": "to raise one’s hand",
+      "meaningVi": "giơ tay",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我举手是想问，不是说我一定当队长。",
+        "py": "wǒ jǔ shǒu shì xiǎng wèn , bù shì shuō wǒ yí dìng dāng duì zhǎng .",
+        "en": "I raise my hand to ask, not to say I will definitely be captain."
+      },
+      "usageNote": "[GF2021:L2:4486] Source entry: 举手; jǔshǒu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "办",
+      "pinyin": "bàn",
+      "meaning": "to handle; organize",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "办",
+          "role": "whole",
+          "gloss": "to handle; organize"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 办 in 办 / 办法. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "办",
+          "p": "bàn",
+          "m": "to organize; handle"
+        },
+        {
+          "w": "办法",
+          "p": "bàn fǎ",
+          "m": "way to solve something"
+        }
+      ]
+    },
+    {
+      "hanzi": "报",
+      "pinyin": "bào",
+      "meaning": "to report; register",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "报",
+          "role": "whole",
+          "gloss": "to report; register"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 报 in 报名 / 预报. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "报名",
+          "p": "bào míng",
+          "m": "to register; sign up"
+        },
+        {
+          "w": "预报",
+          "p": "yù bào",
+          "m": "forecast"
+        }
+      ]
+    },
+    {
+      "hanzi": "称",
+      "pinyin": "chēng",
+      "meaning": "to call; name",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "称",
+          "role": "whole",
+          "gloss": "to call; name"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 称 in 名称. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "名称",
+          "p": "míng chēng",
+          "m": "name; designation"
+        }
+      ]
+    },
+    {
+      "hanzi": "单",
+      "pinyin": "dān",
+      "meaning": "single; list",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "单",
+          "role": "whole",
+          "gloss": "single; list"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 单 in 名单 / 菜单. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "名单",
+          "p": "míng dān",
+          "m": "list of names"
+        },
+        {
+          "w": "菜单",
+          "p": "cài dān",
+          "m": "menu"
+        }
+      ]
+    },
+    {
+      "hanzi": "举",
+      "pinyin": "jǔ",
+      "meaning": "to lift; raise",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "举",
+          "role": "whole",
+          "gloss": "to lift; raise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 举 in 举行 / 举. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "举行",
+          "p": "jǔ xíng",
+          "m": "to hold an event"
+        },
+        {
+          "w": "举",
+          "p": "jǔ",
+          "m": "to raise; lift"
+        }
+      ]
+    },
+    {
+      "hanzi": "队",
+      "pinyin": "duì",
+      "meaning": "team",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "队",
+          "role": "whole",
+          "gloss": "team"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 队 in 队 / 队长. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "队",
+          "p": "duì",
+          "m": "team"
+        },
+        {
+          "w": "队长",
+          "p": "duì zhǎng",
+          "m": "team captain"
+        }
+      ]
+    },
+    {
+      "hanzi": "篮",
+      "pinyin": "lán",
+      "meaning": "basket",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "篮",
+          "role": "whole",
+          "gloss": "basket"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 篮 in 篮球. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "篮球",
+          "p": "lán qiú",
+          "m": "basketball"
+        }
+      ]
+    },
+    {
+      "hanzi": "排",
+      "pinyin": "pái",
+      "meaning": "row; to arrange",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "排",
+          "role": "whole",
+          "gloss": "row; to arrange"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 排 in 排球 / 安排. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "排球",
+          "p": "pái qiú",
+          "m": "volleyball"
+        },
+        {
+          "w": "安排",
+          "p": "ān pái",
+          "m": "arrangement; to arrange"
+        }
+      ]
+    },
+    {
+      "hanzi": "运",
+      "pinyin": "yùn",
+      "meaning": "to move; transport",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "运",
+          "role": "whole",
+          "gloss": "to move; transport"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 运 in 运动. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "运动",
+          "p": "yùn dòng",
+          "m": "to exercise; sport"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u18-g二21",
+      "pattern": "当",
+      "purpose": "Name an agreed role",
+      "explanation": "当组长/当队长 uses 当 as act as or serve as. 今天我当组长 describes a role; 我当过组长 adds experience, and 当时 gives a time in another construction. Do not infer willingness from a name on a list. Ask 可以吗 before assigning a role. Hosting is a responsibility, not a claim of higher ability.",
+      "examples": [
+        {
+          "zh": "今天我当组长，你当队长。",
+          "py": "jīn tiān wǒ dāng zǔ zhǎng , nǐ dāng duì zhǎng .",
+          "en": "Today I act as group leader and you as captain."
+        },
+        {
+          "zh": "你愿意当负责人吗？",
+          "py": "nǐ yuàn yì dāng fù zé rén ma ?",
+          "en": "Would you like to be the person responsible?"
+        },
+        {
+          "zh": "我可以当组长，但先说明规则。",
+          "py": "wǒ kě yǐ dāng zǔ zhǎng , dàn xiān shuō míng guī zé .",
+          "en": "I can act as leader, but first explain the rules."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我举手了，所以你一定当队长。",
+          "right": "你愿意当队长吗？",
+          "why": "One person raising a hand does not assign another person a role."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u18-g二40",
+      "pattern": "动词性词组",
+      "purpose": "Read an action together with its object or purpose",
+      "explanation": "办活动、举行活动、进行练习、参加球队 and 举手问问题 are action phrases. A phrase identifies an action but does not by itself say it is finished: 想办活动 is an intention. Keep verbs with appropriate objects; 举行 is used for an event, not a ball as an object. In 举手问问题 the first action enables the second. Distinguish the role 当组长 from the activity 办活动.",
+      "examples": [
+        {
+          "zh": "我们想办活动，还没有举行。",
+          "py": "wǒ men xiǎng bàn huó dòng , hái méi yǒu jǔ xíng .",
+          "en": "We want to organize an event; it has not been held yet."
+        },
+        {
+          "zh": "大家举手问问题。",
+          "py": "dà jiā jǔ shǒu wèn wèn tí .",
+          "en": "Everyone raises a hand to ask questions."
+        },
+        {
+          "zh": "队长先说明规则，再进行练习。",
+          "py": "duì zhǎng xiān shuō míng guī zé , zài jìn xíng liàn xí .",
+          "en": "The captain first explains the rules, then carries out practice."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我们举行篮球。",
+          "right": "我们举行篮球活动。",
+          "why": "举行 takes an event; 篮球 alone names the sport or ball rather than the event."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u18-d",
+    "title": "Who is hosting?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the agreed role and what registration actually means.",
+    "lines": [
+      {
+        "zh": "星期六想办活动，谁来当组长？",
+        "py": "xīng qī liù xiǎng bàn huó dòng , shéi lái dāng zǔ zhǎng ?",
+        "en": "We want to organize an event on Saturday. Who will lead?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我可以当，但先说活动的目的吧。",
+        "py": "wǒ kě yǐ dāng , dàn xiān shuō huó dòng de mù dì ba .",
+        "en": "I can, but first tell me the purpose.",
+        "speaker": "b"
+      },
+      {
+        "zh": "让大家说汉语，也一起运动。",
+        "py": "ràng dà jiā shuō hàn yǔ , yě yì qǐ yùn dòng .",
+        "en": "To let everyone speak Mandarin and exercise together.",
+        "speaker": "a"
+      },
+      {
+        "zh": "名称就叫朋友见面，行吗？",
+        "py": "míng chēng jiù jiào péng you jiàn miàn , xíng ma ?",
+        "en": "Can we call it Friends Meet?",
+        "speaker": "b"
+      },
+      {
+        "zh": "行。报名以后一定要打篮球吗？",
+        "py": "xíng . bào míng yǐ hòu yí dìng yào dǎ lán qiú ma ?",
+        "en": "Fine. Does signing up mean we must play basketball?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用，想参加哪队就先问。网球、排球都还没有确认。",
+        "py": "bù yòng , xiǎng cān jiā nǎ duì jiù xiān wèn . wǎng qiú , pái qiú dōu hái méi yǒu què rèn .",
+        "en": "No. Ask about the team you want to join; tennis and volleyball are not confirmed yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "名单上五个人，能组成两队吗？",
+        "py": "míng dān shàng wǔ gè rén , néng zǔ chéng liǎng duì ma ?",
+        "en": "There are five on the list. Can we form two teams?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先别分。今天每队三个人，人数还不够。",
+        "py": "xiān bié fēn . jīn tiān měi duì sān gè rén , rén shù hái bù gòu .",
+        "en": "Not yet. Today each team needs three; there are not enough people yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "体育场下雨就不能用了吧？",
+        "py": "tǐ yù chǎng xià yǔ jiù bù néng yòng le ba ?",
+        "en": "We cannot use the sports ground in rain, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "那就问体育馆有没有开，别先说一定能用。",
+        "py": "nà jiù wèn tǐ yù guǎn yǒu méi yǒu kāi , bié xiān shuō yí dìng néng yòng .",
+        "en": "Then ask whether the sports hall is open; do not say it is definitely available first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我刚举手，是想问规则，不是报名当队长。",
+        "py": "wǒ gāng jǔ shǒu , shì xiǎng wèn guī zé , bù shì bào míng dāng duì zhǎng .",
+        "en": "I raised my hand to ask the rules, not to volunteer as captain.",
+        "speaker": "a"
+      },
+      {
+        "zh": "知道了。谁愿意当队长，我们再问。",
+        "py": "zhī dào le . shéi yuàn yì dāng duì zhǎng , wǒ men zài wèn .",
+        "en": "Understood. We will ask who wants to be captain.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the group agree?",
+        "choices": [
+          "A volunteer leader and a purpose, with details still to confirm",
+          "Five people already form two teams of three",
+          "Everyone must play basketball"
+        ],
+        "answer": "A volunteer leader and a purpose, with details still to confirm"
+      },
+      {
+        "type": "detail",
+        "q": "Why did the speaker raise a hand?",
+        "choices": [
+          "To ask about the rules",
+          "To become captain",
+          "To cancel the event"
+        ],
+        "answer": "To ask about the rules"
+      },
+      {
+        "type": "inference",
+        "q": "Is the sports hall definitely available?",
+        "choices": [
+          "No, its opening must be checked",
+          "Yes, rain guarantees it",
+          "Yes, the list confirms it"
+        ],
+        "answer": "No, its opening must be checked"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "规则",
+        "pinyin": "guī zé",
+        "meaning": "rule"
+      },
+      {
+        "hanzi": "篮球",
+        "pinyin": "lán qiú",
+        "meaning": "basketball"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u18-r",
+    "title": "A voluntary small event",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read to separate plans, roles and completed actions.",
+    "lines": [
+      {
+        "zh": "星期六我们想办一个小活动，名称是朋友见面。",
+        "py": "xīng qī liù wǒ men xiǎng bàn yī gè xiǎo huó dòng , míng chēng shì péng you jiàn miàn .",
+        "en": "We want to organize a small event on Saturday called Friends Meet."
+      },
+      {
+        "zh": "目的是让大家有机会说汉语，也一起运动。",
+        "py": "mù dì shì ràng dà jiā yǒu jī huì shuō hàn yǔ , yě yì qǐ yùn dòng .",
+        "en": "The purpose is to let everyone speak Mandarin and exercise together."
+      },
+      {
+        "zh": "今天我当组长，负责看名单和说明规则。",
+        "py": "jīn tiān wǒ dāng zǔ zhǎng , fù zé kàn míng dān hé shuō míng guī zé .",
+        "en": "Today I act as leader, responsible for checking the list and explaining rules."
+      },
+      {
+        "zh": "名单上五个人，每队三个人，还不能分成两队。",
+        "py": "míng dān shàng wǔ gè rén , měi duì sān gè rén , hái bù néng fēn chéng liǎng duì .",
+        "en": "There are five on the list; with three per team, we cannot make two teams yet."
+      },
+      {
+        "zh": "报名不是答应当队长，举手也可能只是问问题。",
+        "py": "bào míng bù shì dā yìng dāng duì zhǎng , jǔ shǒu yě kě néng zhǐ shì wèn wèn tí .",
+        "en": "Signing up is not agreeing to be captain; raising a hand may just mean asking a question."
+      },
+      {
+        "zh": "体育场和体育馆都要先问有没有开。",
+        "py": "tǐ yù chǎng hé tǐ yù guǎn dōu yào xiān wèn yǒu méi yǒu kāi .",
+        "en": "We must check whether both the sports ground and sports hall are open."
+      },
+      {
+        "zh": "篮球、排球、网球由参加的人一起商量。",
+        "py": "lán qiú , pái qiú , wǎng qiú yóu cān jiā de rén yì qǐ shāng liáng .",
+        "en": "Participants discuss basketball, volleyball and tennis together."
+      },
+      {
+        "zh": "现在是计划，活动还没有举行。",
+        "py": "xiàn zài shì jì huà , huó dòng hái méi yǒu jǔ xíng .",
+        "en": "This is a plan; the event has not happened yet."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What kind of document is this?",
+        "choices": [
+          "A voluntary event plan",
+          "A completed-game score report",
+          "A compulsory team assignment"
+        ],
+        "answer": "A voluntary event plan"
+      },
+      {
+        "type": "detail",
+        "q": "How many people are on the list?",
+        "choices": [
+          "Five",
+          "Six",
+          "Three"
+        ],
+        "answer": "Five"
+      },
+      {
+        "type": "inference",
+        "q": "Does registration appoint a captain?",
+        "choices": [
+          "No, agreement is separate",
+          "Yes, everyone is a captain",
+          "Yes, the first name must be captain"
+        ],
+        "answer": "No, agreement is separate"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "今天我当【组长】，负责看名单和说明规则。",
+          "py": "jīn tiān wǒ dāng zǔ zhǎng , fù zé kàn míng dān hé shuō míng guī zé .",
+          "en": "Today I act as leader, responsible for checking the list and explaining rules."
+        },
+        {
+          "zh": "现在是计划，活动还没有【举行】。",
+          "py": "xiàn zài shì jì huà , huó dòng hái méi yǒu jǔ xíng .",
+          "en": "This is a plan; the event has not happened yet."
+        }
+      ],
+      "bank": [
+        "组长",
+        "举行",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "规则",
+        "pinyin": "guī zé",
+        "meaning": "rule"
+      },
+      {
+        "hanzi": "篮球",
+        "pinyin": "lán qiú",
+        "meaning": "basketball"
+      },
+      {
+        "hanzi": "由",
+        "pinyin": "yóu",
+        "meaning": "by; assigned to"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u18-media",
+      "title": "A hand raised",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Follow the original scene’s correction of an assumption.",
+      "lines": [
+        {
+          "zh": "你举手了，来当队长吧。",
+          "py": "nǐ jǔ shǒu le , lái dāng duì zhǎng ba .",
+          "en": "You raised your hand; be captain.",
+          "speaker": "a"
+        },
+        {
+          "zh": "等一下，我只是想问。",
+          "py": "děng yī xià , wǒ zhǐ shì xiǎng wèn .",
+          "en": "Wait, I only wanted to ask.",
+          "speaker": "b"
+        },
+        {
+          "zh": "问什么？规则还是地点？",
+          "py": "wèn shén me ? guī zé hái shi dì diǎn ?",
+          "en": "Ask what—the rules or venue?",
+          "speaker": "a"
+        },
+        {
+          "zh": "先问规则，再问体育馆开不开。",
+          "py": "xiān wèn guī zé , zài wèn tǐ yù guǎn kāi bù kāi .",
+          "en": "First the rules, then whether the sports hall is open.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那先别分队，五个人还不够。",
+          "py": "nà xiān bié fēn duì , wǔ gè rén hái bù gòu .",
+          "en": "Then do not form teams yet; five is not enough.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对，愿意当的人，我们再问。",
+          "py": "duì , yuàn yì dāng de rén , wǒ men zài wèn .",
+          "en": "Right. We will ask who wants the role.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "mainidea",
+          "q": "Which assumption is corrected?",
+          "choices": [
+            "A raised hand automatically means volunteering",
+            "The hall is closed",
+            "All five are captains"
+          ],
+          "answer": "A raised hand automatically means volunteering"
+        },
+        {
+          "type": "detail",
+          "q": "What is asked first?",
+          "choices": [
+            "The rules",
+            "The weather tomorrow",
+            "The final score"
+          ],
+          "answer": "The rules"
+        },
+        {
+          "type": "inference",
+          "q": "What remains unresolved?",
+          "choices": [
+            "Who voluntarily becomes captain",
+            "Whether five equals six",
+            "Whether the activity already ended"
+          ],
+          "answer": "Who voluntarily becomes captain"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "规则",
+          "pinyin": "guī zé",
+          "meaning": "rule"
+        }
+      ]
+    },
+    {
+      "id": "s2-u18-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "我们不是正式球队，只是一起玩。",
+          "py": "wǒ men bù shì zhèng shì qiú duì , zhǐ shì yì qǐ wán .",
+          "en": "We are not an official sports team; we are just playing together."
+        },
+        {
+          "zh": "这支球队周末比赛，我们先问在哪儿。",
+          "py": "zhè zhī qiú duì zhōu mò bǐ sài , wǒ men xiān wèn zài nǎr .",
+          "en": "This team plays at the weekend; first ask where."
+        },
+        {
+          "zh": "球场上已经有人，我们先等。",
+          "py": "qiú chǎng shàng yǐ jīng yǒu rén , wǒ men xiān děng .",
+          "en": "There are already people on the court; we wait first."
+        },
+        {
+          "zh": "朋友在球场外等，还没进去。",
+          "py": "péng you zài qiú chǎng wài děng , hái méi jìn qù .",
+          "en": "The friend waits outside the court and has not entered yet."
+        },
+        {
+          "zh": "我带球鞋，也带一瓶水。",
+          "py": "wǒ dài qiú xié , yě dài yī píng shuǐ .",
+          "en": "I bring sports shoes and a bottle of water."
+        },
+        {
+          "zh": "球鞋忘带了，我先回家拿。",
+          "py": "qiú xié wàng dài le , wǒ xiān huí jiā ná .",
+          "en": "I forgot my sports shoes; I will go home to get them first."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "正式",
+          "pinyin": "zhèng shì",
+          "meaning": "formal; official"
+        },
+        {
+          "hanzi": "支",
+          "pinyin": "zhī",
+          "meaning": "classifier for teams"
+        },
+        {
+          "hanzi": "比赛",
+          "pinyin": "bǐ sài",
+          "meaning": "to compete; match"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u18-t1",
+      "phrase": "s2-u18-w04",
+      "audio": {
+        "zh": "名单上五个人，每队三个人。",
+        "py": "míng dān shàng wǔ gè rén , měi duì sān gè rén .",
+        "en": "Five names, three per team."
+      },
+      "statement": "This already makes two teams of three.",
+      "answer": false,
+      "why": "Five is less than six."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u18-t2",
+      "phrase": "s2-u18-w06",
+      "audio": {
+        "zh": "目的是让大家有机会说汉语。",
+        "py": "mù dì shì ràng dà jiā yǒu jī huì shuō hàn yǔ .",
+        "en": "The purpose is to give everyone a chance to speak Mandarin."
+      },
+      "statement": "Speaking Mandarin is a stated purpose.",
+      "answer": true,
+      "why": "It is explicitly the purpose."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u18-t3",
+      "phrase": "s2-u18-w01",
+      "prompt": {
+        "zh": "你愿意当组长吗？",
+        "py": "nǐ yuàn yì dāng zǔ zhǎng ma ?",
+        "en": "Would you like to lead?"
+      },
+      "choices": [
+        "可以，但先说明规则吧。",
+        "我昨天吃米饭。",
+        "五点是三个人。"
+      ],
+      "answer": "可以，但先说明规则吧。",
+      "why": "Accept with a relevant clarification."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u18-t4",
+      "phrase": "s2-u18-w22",
+      "prompt": {
+        "zh": "你举手是想当队长吗？",
+        "py": "nǐ jǔ shǒu shì xiǎng dāng duì zhǎng ma ?",
+        "en": "Did you raise your hand to be captain?"
+      },
+      "choices": [
+        "不是，我只是想问。",
+        "已经两队三个人。",
+        "体育是一个名字。"
+      ],
+      "answer": "不是，我只是想问。",
+      "why": "Clarify the intention."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u18-t5",
+      "phrase": "s2-u18-w03",
+      "line": {
+        "zh": "想参加的人先【报名】。",
+        "py": "xiǎng cān jiā de rén xiān bào míng .",
+        "en": "People who want to take part sign up first."
+      },
+      "blankPy": "bào míng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u18-t6",
+      "phrase": "s2-u18-w08",
+      "line": {
+        "zh": "活动还没有【举行】。",
+        "py": "huó dòng hái méi yǒu jǔ xíng .",
+        "en": "The event has not been held yet."
+      },
+      "blankPy": "jǔ xíng"
+    },
+    {
+      "type": "match",
+      "id": "s2-u18-t7",
+      "phrase": "s2-u18-w10",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The captain explains the rules.",
+          "right": {
+            "zh": "队长说明规则。",
+            "py": "duì zhǎng shuō míng guī zé .",
+            "en": "The captain explains the rules."
+          }
+        },
+        {
+          "left": "I bring a bottle of water.",
+          "right": {
+            "zh": "我带一瓶水。",
+            "py": "wǒ dài yī píng shuǐ .",
+            "en": "I bring a bottle of water."
+          }
+        },
+        {
+          "left": "Five people are on the list.",
+          "right": {
+            "zh": "名单上五个人。",
+            "py": "míng dān shàng wǔ gè rén .",
+            "en": "Five people are on the list."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u18-t8",
+      "phrase": "s2-u18-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "It takes place indoors.",
+          "right": {
+            "zh": "在室内进行。",
+            "py": "zài shì nèi jìn xíng .",
+            "en": "It takes place indoors."
+          }
+        },
+        {
+          "left": "We want to organize an activity.",
+          "right": {
+            "zh": "想办一个活动。",
+            "py": "xiǎng bàn yī gè huó dòng .",
+            "en": "We want to organize an activity."
+          }
+        },
+        {
+          "left": "Raise a hand to ask questions.",
+          "right": {
+            "zh": "举手问问题。",
+            "py": "jǔ shǒu wèn wèn tí .",
+            "en": "Raise a hand to ask questions."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u18-t9",
+      "phrase": "s2-u18-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Check the notice first, then sign up.",
+          "right": {
+            "zh": "先看通知，然后报名。",
+            "py": "xiān kàn tōng zhī , rán hòu bào míng .",
+            "en": "Check the notice first, then sign up."
+          }
+        },
+        {
+          "left": "Walk from the school to the event venue; first enter through the east gate.",
+          "right": {
+            "zh": "从学校走到活动地点，先走进东门。",
+            "py": "cóng xué xiào zǒu dào huó dòng dì diǎn , xiān zǒu jìn dōng mén .",
+            "en": "Walk from the school to the event venue; first enter through the east gate."
+          }
+        },
+        {
+          "left": "Take a book out of the classroom, then hand it to the teacher.",
+          "right": {
+            "zh": "从教室拿出书，再把书交给老师。",
+            "py": "cóng jiào shì ná chū shū , zài bǎ shū jiāo gěi lǎo shī .",
+            "en": "Take a book out of the classroom, then hand it to the teacher."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Asking before assigning",
+      "natural": {
+        "zh": "你愿意当队长吗？",
+        "py": "nǐ yuàn yì dāng duì zhǎng ma ?",
+        "en": "Would you like to be captain?"
+      },
+      "note": "Registration and willingness for responsibility are separate."
+    },
+    {
+      "situation": "Correcting an assumption",
+      "natural": {
+        "zh": "我只是想问。",
+        "py": "wǒ zhǐ shì xiǎng wèn .",
+        "en": "I only wanted to ask."
+      },
+      "note": "A brief clarification is enough."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u18-speak",
+    "title": "Taking turns as host",
+    "place": "A language-exchange meeting",
+    "context": "Discuss roles and explain activities.",
+    "goal": "Agree a voluntary hosting role",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "谁当组长？",
+        "pinyin": "shéi dāng zǔ zhǎng ?",
+        "meaning": "Who will lead?",
+        "intent": "Volunteer with a condition",
+        "examples": [
+          "我可以当，但先说明规则。"
+        ],
+        "accept": [
+          "^我可以当，但先说明规则。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你举手了，想当队长吗？",
+        "pinyin": "nǐ jǔ shǒu le , xiǎng dāng duì zhǎng ma ?",
+        "meaning": "You raised a hand; want to be captain?",
+        "intent": "Clarify that you wanted to ask",
+        "examples": [
+          "不是，我只是想问。"
+        ],
+        "accept": [
+          "^不是，我只是想问。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二21, 二40. Native check: 举行/进行 collocations, role-assignment politeness, voluntary group register and marked action phrases. No sports skill or proficiency scores are invented. Planned retrieval 二16 / 二62 / 二69: 先看通知，然后报名。, 从学校走到活动地点，先走进东门。, 从教室拿出书，再把书交给老师。."
+}

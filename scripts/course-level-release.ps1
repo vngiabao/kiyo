@@ -11,12 +11,21 @@ $units=@(Get-ChildItem "content/packs/s$Level-u*.json" -File)
 if ($units.Count -ne $expected) { throw "HSK$Level has $($units.Count) units, expected $expected" }
 $courseLog=Get-Content prompts/research/course-log.md -Raw -Encoding utf8
 foreach ($unit in $units) { if (!$courseLog.Contains($unit.BaseName)) { throw "$($unit.BaseName) has no acceptance log" } }
+if ($Level -eq 2) {
+  # Apply the later self-review correction before compiling the release manifest.
+  # IDs and existing records remain stable; regenerate the changed speech only.
+  & $python scripts/course-authoring/batch-09.py > "$prefix-editorial-correction.log" 2>&1
+  Require-Exit 'Reserialize the reviewed safety wording with unchanged unit IDs'
+}
 & $python "scripts/course-authoring/exam-bank-$Level.py" --install > "$prefix-bank.log" 2>&1
 Require-Exit 'Exam-bank serialization'
 & npm.cmd run packs > "$prefix-bank-preflight.log" 2>&1
 Require-Exit 'Compile and validate the new exam bank before its audio manifest'
 & ./scripts/course-audio-gates.ps1 -Batch $gateBatch
 Require-Exit 'Exam-bank audio and full level gates'
+if ($Level -eq 2) {
+  Add-Content -LiteralPath prompts/research/course-log.md -Encoding utf8 -Value '- HSK 2 release self-review correction: replaced the awkward 先看安全 with 先注意安全 in s2-u13, added the recognition gloss, updated English, regenerated the changed speech and reading assembly, and passed all eight release gates. Existing unit/item IDs are preserved; native review remains pending.'
+}
 & npx.cmd tsx scripts/coverage-report.ts --write > "$prefix-coverage.log" 2>&1
 Require-Exit 'Coverage audit'
 & $python scripts/course-authoring/native-review-report.py > "$prefix-native.log" 2>&1

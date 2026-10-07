@@ -8,7 +8,8 @@
 //
 // Files starting with "_" are ignored (drafts, the example). Errors block a
 // pack; warnings are printed but don't block. Exit code 1 if anything failed.
-import { existsSync, readdirSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, mkdirSync } from "node:fs";
+import { publishGenerated } from "./publish-generated";
 import { basePhrases, lessons, readingLessons } from "../src/content";
 import { baseCharacters, baseReadings } from "../src/hanzi";
 import { isHan, validatePack, type ContentPack, type HskWord, type ValidationContext } from "../src/packs";
@@ -125,13 +126,13 @@ for (const { file, pack, parseError } of loaded) {
 // --example --publish: load the example into the app to preview the format (undo with `npm run packs`).
 if (onlyExample && args.includes("--publish")) {
   mkdirSync("src/generated", { recursive: true });
-  writeFileSync("src/generated/packs.json", JSON.stringify(accepted));
+  await publishGenerated("src/generated/packs.json", JSON.stringify(accepted));
   console.log(`
 Preview: published the example pack. Run \`npm run packs\` to restore the real set.`);
 }
 if (!onlyExample && !only) {
   mkdirSync("src/generated", { recursive: true });
-  writeFileSync("src/generated/packs.json", JSON.stringify(accepted));
+  await publishGenerated("src/generated/packs.json", JSON.stringify(accepted));
   console.log(`\nPublished ${accepted.length} of ${loaded.length} pack(s) to src/generated/packs.json.`);
 }
 if (!onlyExample && !only) {
@@ -150,7 +151,7 @@ if (!onlyExample && !only) {
       console.log(`Validated ${file}: ${pack.items.length} HSK practice items.`);
     } catch (error) { failed++; console.error(`${file}: ${String(error)}`); }
   }
-  if (!failed) writeFileSync("src/generated/hsk-practice.json", JSON.stringify(hskPacks));
+  if (!failed) await publishGenerated("src/generated/hsk-practice.json", JSON.stringify(hskPacks));
 }
 if (failed) {
   console.log(`${failed} pack(s) have errors and were not published. Fix them (or ask ChatGPT with Prompt 4) and run again.`);
