@@ -1,0 +1,1334 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u25",
+    "stage": 1,
+    "order": 55,
+    "title": "A complaint, gently",
+    "titleZh": "虽然开心也要小声",
+    "canDo": [
+      "Make a specific complaint without rejecting the person",
+      "Read a contrast introduced by 虽然",
+      "Respond to a request with an actionable change"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u24"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u25-w01",
+      "hanzi": "虽然",
+      "pinyin": "suī rán",
+      "meaning": "although",
+      "meaningVi": "mặc dù",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "虽然大家开心，也要小声一点。",
+        "py": "suī rán dà jiā kāi xīn , yě yào xiǎo shēng yī diǎn .",
+        "en": "Although everyone is happy, we should keep our voices a little lower."
+      },
+      "usageNote": "[GF2021:L2:7700] Source entry: 虽然; suīrán; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w02",
+      "hanzi": "所以",
+      "pinyin": "suǒ yǐ",
+      "meaning": "so; therefore",
+      "meaningVi": "cho nên",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "旁边有人上课，所以请小声说。",
+        "py": "páng biān yǒu rén shàng kè , suǒ yǐ qǐng xiǎo shēng shuō .",
+        "en": "Someone nearby is having class, so please speak quietly."
+      },
+      "usageNote": "[GF2021:L2:7739] Source entry: 所以; suǒyǐ; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w03",
+      "hanzi": "那",
+      "pinyin": "nà",
+      "meaning": "then; in that case",
+      "meaningVi": "vậy thì",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "那我关上门，再小声说。",
+        "py": "nà wǒ guān shang mén , zài xiǎo shēng shuō .",
+        "en": "Then I will close the door and speak more quietly."
+      },
+      "usageNote": "[GF2021:L2:5741] Source entry: 那; nà; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w04",
+      "hanzi": "让",
+      "pinyin": "ràng",
+      "meaning": "to let; allow; cause",
+      "meaningVi": "để; cho phép; khiến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "让我把这句话说完，好吗？",
+        "py": "ràng wǒ bǎ zhè jù huà shuō wán , hǎo ma ?",
+        "en": "May I finish this sentence?"
+      },
+      "usageNote": "[GF2021:L2:6661] Source entry: 让; ràng; 动、介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w05",
+      "hanzi": "占",
+      "pinyin": "zhàn",
+      "meaning": "to occupy; take up",
+      "meaningVi": "chiếm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "包占了两个座位，请拿开一个。",
+        "py": "bāo zhàn le liǎng gè zuò wèi , qǐng ná kāi yī gè .",
+        "en": "The bags take up two seats; please clear one."
+      },
+      "usageNote": "[GF2021:L2:10233] Source entry: 占; zhàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w06",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "meaning": "to stand",
+      "meaningVi": "đứng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我站在门边，没有坐在座位上。",
+        "py": "wǒ zhàn zài mén biān , méi yǒu zuò zài zuò wèi shàng .",
+        "en": "I am standing by the door, not sitting in a seat."
+      },
+      "usageNote": "[GF2021:L2:10247] Source entry: 站; zhàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w07",
+      "hanzi": "站住",
+      "pinyin": "zhàn zhù",
+      "meaning": "to stop walking; stand still",
+      "meaningVi": "đứng lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "听到朋友叫我，我先站住。",
+        "py": "tīng dào péng you jiào wǒ , wǒ xiān zhàn zhù .",
+        "en": "When I hear my friend call, I stop first."
+      },
+      "usageNote": "[GF2021:L2:10250] Source entry: 站住; zhàn∥zhù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w08",
+      "hanzi": "影响",
+      "pinyin": "yǐng xiǎng",
+      "meaning": "to affect; influence",
+      "meaningVi": "ảnh hưởng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "声音太大，会影响旁边的人。",
+        "py": "shēng yīn tài dà , huì yǐng xiǎng páng biān de rén .",
+        "en": "An overly loud voice can affect the people nearby."
+      },
+      "usageNote": "[GF2021:L2:9760] Source entry: 影响; yǐngxiǎng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w09",
+      "hanzi": "事情",
+      "pinyin": "shì qíng",
+      "meaning": "matter; thing; affair",
+      "meaningVi": "chuyện; việc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们说这件事情，不是说你不好。",
+        "py": "wǒ men shuō zhè jiàn shì qíng , bù shì shuō nǐ bù hǎo .",
+        "en": "We are discussing this matter, not saying you are a bad person."
+      },
+      "usageNote": "[GF2021:L2:7301] Source entry: 事情; shìqing; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w10",
+      "hanzi": "受到",
+      "pinyin": "shòu dào",
+      "meaning": "to receive; be subjected to",
+      "meaningVi": "nhận; chịu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个建议受到重视，但还没有实行。",
+        "py": "zhè gè jiàn yì shòu dào zhòng shì , dàn hái méi yǒu shí xíng .",
+        "en": "This suggestion has received attention but has not yet been implemented."
+      },
+      "usageNote": "[GF2021:L2:7417] Source entry: 受到; shòudào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w11",
+      "hanzi": "重视",
+      "pinyin": "zhòng shì",
+      "meaning": "to attach importance to",
+      "meaningVi": "coi trọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我重视你的意见，也想听完。",
+        "py": "wǒ zhòng shì nǐ de yì jiàn , yě xiǎng tīng wán .",
+        "en": "I value your opinion and want to hear it fully."
+      },
+      "usageNote": "[GF2021:L2:10676] Source entry: 重视; zhòngshì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w12",
+      "hanzi": "行动",
+      "pinyin": "xíng dòng",
+      "meaning": "action; to act",
+      "meaningVi": "hành động",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "答应以后要有行动。",
+        "py": "dā yìng yǐ hòu yào yǒu xíng dòng .",
+        "en": "A promise should be followed by action."
+      },
+      "usageNote": "[GF2021:L2:9060] Source entry: 行动; xíngdòng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w13",
+      "hanzi": "行为",
+      "pinyin": "xíng wéi",
+      "meaning": "behaviour; act",
+      "meaningVi": "hành vi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "占座位是这里讨论的行为。",
+        "py": "zhàn zuò wèi shì zhè lǐ tǎo lùn de xíng wéi .",
+        "en": "Taking up seats is the behaviour being discussed here."
+      },
+      "usageNote": "[GF2021:L2:9065] Source entry: 行为; xíngwéi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w14",
+      "hanzi": "顺利",
+      "pinyin": "shùn lì",
+      "meaning": "smooth; smoothly",
+      "meaningVi": "suôn sẻ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "改了时间以后，活动进行得很顺利。",
+        "py": "gǎi le shí jiān yǐ hòu , huó dòng jìn xíng de hěn shùn lì .",
+        "en": "After the time was changed, the activity went smoothly."
+      },
+      "usageNote": "[GF2021:L2:7576] Source entry: 顺利; shùnlì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w15",
+      "hanzi": "正常",
+      "pinyin": "zhèng cháng",
+      "meaning": "normal; regular",
+      "meaningVi": "bình thường",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "设备正常，不是设备坏了。",
+        "py": "shè bèi zhèng cháng , bù shì shè bèi huài le .",
+        "en": "The equipment is working normally; it is not broken."
+      },
+      "usageNote": "[GF2021:L2:10420] Source entry: 正常; zhèngcháng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w16",
+      "hanzi": "安全",
+      "pinyin": "ān quán",
+      "meaning": "safe; safety",
+      "meaningVi": "an toàn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "门口不能放包，要让路安全。",
+        "py": "mén kǒu bù néng fàng bāo , yào ràng lù ān quán .",
+        "en": "Do not put bags in the doorway; keep the way safe."
+      },
+      "usageNote": "[GF2021:L2:38] Source entry: 安全; ānquán; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w17",
+      "hanzi": "习惯",
+      "pinyin": "xí guàn",
+      "meaning": "habit; to be accustomed to",
+      "meaningVi": "thói quen; quen",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我有大声说话的习惯，但可以改。",
+        "py": "wǒ yǒu dà shēng shuō huà de xí guàn , dàn kě yǐ gǎi .",
+        "en": "I have a habit of speaking loudly, but I can change it."
+      },
+      "usageNote": "[GF2021:L2:8625] Source entry: 习惯; xíguàn; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w18",
+      "hanzi": "不要",
+      "pinyin": "bú yào",
+      "meaning": "do not; must not",
+      "meaningVi": "đừng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不要打断，让她说完。",
+        "py": "bú yào dǎ duàn , ràng tā shuō wán .",
+        "en": "Do not interrupt; let her finish."
+      },
+      "usageNote": "[GF2021:L2:549] Source entry: 不要; búyào; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w19",
+      "hanzi": "不错",
+      "pinyin": "bú cuò",
+      "meaning": "quite good; not bad",
+      "meaningVi": "khá tốt",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你的想法不错，声音可以小一点。",
+        "py": "nǐ de xiǎng fǎ bú cuò , shēng yīn kě yǐ xiǎo yī diǎn .",
+        "en": "Your idea is quite good; your voice could be a little lower."
+      },
+      "usageNote": "[GF2021:L2:523] Source entry: 不错; búcuò; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w20",
+      "hanzi": "挺好",
+      "pinyin": "tǐng hǎo",
+      "meaning": "quite good",
+      "meaningVi": "khá tốt",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个安排挺好，但还要确认地方。",
+        "py": "zhè gè ān pái tǐng hǎo , dàn hái yào què rèn dì fāng .",
+        "en": "This arrangement is quite good, but the venue still needs confirmation."
+      },
+      "usageNote": "[GF2021:L2:8028] Source entry: 挺好; tǐng hǎo; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w21",
+      "hanzi": "怎么办",
+      "pinyin": "zěn me bàn",
+      "meaning": "what should one do",
+      "meaningVi": "làm sao",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "声音影响上课，怎么办？",
+        "py": "shēng yīn yǐng xiǎng shàng kè , zěn me bàn ?",
+        "en": "The noise affects the class; what should we do?"
+      },
+      "usageNote": "[GF2021:L2:10185] Source entry: 怎么办; zěnme bàn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u25-w22",
+      "hanzi": "能够",
+      "pinyin": "néng gòu",
+      "meaning": "to be able to",
+      "meaningVi": "có thể",
+      "pos": "modal",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们能够换到外面聊。",
+        "py": "wǒ men néng gòu huàn dào wài miàn liáo .",
+        "en": "We can move outside to chat."
+      },
+      "usageNote": "[GF2021:L2:5837] Source entry: 能够; nénggòu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "虽",
+      "pinyin": "suī",
+      "meaning": "although",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "虽",
+          "role": "whole",
+          "gloss": "although"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 虽 in 虽然. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "虽然",
+          "p": "suī rán",
+          "m": "although"
+        }
+      ]
+    },
+    {
+      "hanzi": "让",
+      "pinyin": "ràng",
+      "meaning": "to let; allow",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "让",
+          "role": "whole",
+          "gloss": "to let; allow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 让 in 让. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "让",
+          "p": "ràng",
+          "m": "to let; allow"
+        }
+      ]
+    },
+    {
+      "hanzi": "占",
+      "pinyin": "zhàn",
+      "meaning": "to occupy",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "占",
+          "role": "whole",
+          "gloss": "to occupy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 占 in 占. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "占",
+          "p": "zhàn",
+          "m": "to occupy; take up"
+        }
+      ]
+    },
+    {
+      "hanzi": "顺",
+      "pinyin": "shùn",
+      "meaning": "smooth; along",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "顺",
+          "role": "whole",
+          "gloss": "smooth; along"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 顺 in 顺利 / 顺序. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "顺利",
+          "p": "shùn lì",
+          "m": "smoothly; without difficulties"
+        },
+        {
+          "w": "顺序",
+          "p": "shùn xù",
+          "m": "sequence"
+        }
+      ]
+    },
+    {
+      "hanzi": "惯",
+      "pinyin": "guàn",
+      "meaning": "accustomed",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "惯",
+          "role": "whole",
+          "gloss": "accustomed"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 惯 in 习惯. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "习惯",
+          "p": "xí guàn",
+          "m": "to be accustomed to"
+        }
+      ]
+    },
+    {
+      "hanzi": "者",
+      "pinyin": "zhě",
+      "meaning": "person; one who",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "者",
+          "role": "whole",
+          "gloss": "person; one who"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 者 in 或者 / 志愿者. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "或者",
+          "p": "huò zhě",
+          "m": "or; alternatively"
+        },
+        {
+          "w": "志愿者",
+          "p": "zhì yuàn zhě",
+          "m": "volunteer"
+        }
+      ]
+    },
+    {
+      "hanzi": "钟",
+      "pinyin": "zhōng",
+      "meaning": "clock; bell",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "钟",
+          "role": "whole",
+          "gloss": "clock; bell"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 钟 in 分钟. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "分钟",
+          "p": "fēnzhōng",
+          "m": "minute (length of time)"
+        }
+      ]
+    },
+    {
+      "hanzi": "宜",
+      "pinyin": "yí",
+      "meaning": "suitable",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "宜",
+          "role": "whole",
+          "gloss": "suitable"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 宜 in 便宜 / 合宜. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "便宜",
+          "p": "piányi",
+          "m": "cheap"
+        },
+        {
+          "w": "合宜",
+          "p": "hé yí",
+          "m": "appropriate"
+        }
+      ]
+    },
+    {
+      "hanzi": "迎",
+      "pinyin": "yíng",
+      "meaning": "to welcome; meet",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "迎",
+          "role": "whole",
+          "gloss": "to welcome; meet"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 迎 in 欢迎. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "欢迎",
+          "p": "huān yíng",
+          "m": "to welcome"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u25-g二30",
+      "pattern": "不过 / 但 / 但是 / 而且 / 那 / 如果 / 虽然 / 只要",
+      "purpose": "Choose the connective that matches the relation",
+      "explanation": "不过、但、但是 introduce contrast; 而且 adds another point; 那 introduces a response to the previous situation. 如果 makes a condition and 只要 makes it sufficient. 虽然 concedes a fact before the contrast. The same clauses cannot freely swap all these words: 开心 is conceded, 旁边上课 is a cause, and 换到外面 is a proposed response. Keep each clause’s relation explicit.",
+      "examples": [
+        {
+          "zh": "想法不错，不过声音有点大。",
+          "py": "xiǎng fǎ bú cuò , bù guò shēng yīn yǒu diǎn dà .",
+          "en": "The idea is good, but the voice is a little loud."
+        },
+        {
+          "zh": "这里安静，而且有空位。",
+          "py": "zhè lǐ ān jìng , ér qiě yǒu kōng wèi .",
+          "en": "It is quiet here and also has empty seats."
+        },
+        {
+          "zh": "如果影响上课，那就换到外面。",
+          "py": "rú guǒ yǐng xiǎng shàng kè , nà jiù huàn dào wài miàn .",
+          "en": "If it affects the class, then move outside."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "声音大，而且我们需要小声。这里是在转折。",
+          "right": "声音大，不过我们可以小声说。",
+          "why": "When contrasting a problem with a remedy, 不过 fits the stated relation."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u25-g二65",
+      "pattern": "虽然 … 但是 / 可是 / 不过；转折复句",
+      "purpose": "Concede a point while stating a limitation",
+      "explanation": "虽然开心，但是不能影响别人 concedes happiness and sets a boundary. In natural conversation the second marker may be omitted when the contrast is clear. 虽然…所以 does not express the intended contrast. A criticism of volume is not a rejection of the idea or person; preserve both propositions.",
+      "examples": [
+        {
+          "zh": "虽然想法不错，但是要小声一点。",
+          "py": "suī rán xiǎng fǎ bú cuò , dàn shì yào xiǎo shēng yī diǎn .",
+          "en": "Although the idea is good, we should speak a little more quietly."
+        },
+        {
+          "zh": "虽然我有这个习惯，不过愿意改。",
+          "py": "suī rán wǒ yǒu zhè gè xí guàn , bù guò yuàn yì gǎi .",
+          "en": "Although I have this habit, I am willing to change it."
+        },
+        {
+          "zh": "活动很开心，可是门口不能放包。",
+          "py": "huó dòng hěn kāi xīn , kě shì mén kǒu bù néng fàng bāo .",
+          "en": "The activity is enjoyable, but bags cannot be put in the doorway."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "虽然开心，所以不能影响别人。",
+          "right": "虽然开心，但是不能影响别人。",
+          "why": "The intended relation is concession and contrast, not causation."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u25-d",
+    "title": "About the noise",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the specific request and proposed repair.",
+    "lines": [
+      {
+        "zh": "我讲得太大声了吗？",
+        "py": "wǒ jiǎng de tài dà shēng le ma ?",
+        "en": "Am I speaking too loudly?",
+        "speaker": "a"
+      },
+      {
+        "zh": "有一点。想法不错，不过旁边有人上课。",
+        "py": "yǒu yī diǎn . xiǎng fǎ bú cuò , bù guò páng biān yǒu rén shàng kè .",
+        "en": "A little. The idea is good, but someone nearby is having class.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我有这个习惯，怎么办？",
+        "py": "wǒ yǒu zhè gè xí guàn , zěn me bàn ?",
+        "en": "I have this habit; what should I do?",
+        "speaker": "a"
+      },
+      {
+        "zh": "能够换到外面，或者关上门小声说。",
+        "py": "néng gòu huàn dào wài miàn , huò zhě guān shang mén xiǎo shēng shuō .",
+        "en": "We can move outside, or close the door and speak quietly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我先关门。虽然开心，也不能影响别人。",
+        "py": "nà wǒ xiān guān mén . suī rán kāi xīn , yě bù néng yǐng xiǎng bié ren .",
+        "en": "Then I will close the door first. Although we are happy, we should not disturb others.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢。还有这个包占了两个座位。",
+        "py": "xiè xiè . hái yǒu zhè gè bāo zhàn le liǎng gè zuò wèi .",
+        "en": "Thanks. Also, this bag is taking up two seats.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我拿开一个。让我把这句话说完，好吗？",
+        "py": "wǒ ná kāi yī gè . ràng wǒ bǎ zhè jù huà shuō wán , hǎo ma ?",
+        "en": "I will clear one. May I finish this sentence?",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，我先听完，不打断。",
+        "py": "hǎo , wǒ xiān tīng wán , bù dǎ duàn .",
+        "en": "Yes; I will listen to the end without interrupting.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is being repaired?",
+        "choices": [
+          "Voice volume and use of seats",
+          "The friend’s entire personality",
+          "Broken equipment"
+        ],
+        "answer": "Voice volume and use of seats"
+      },
+      {
+        "type": "detail",
+        "q": "What is the first proposed action taken?",
+        "choices": [
+          "Close the door",
+          "Cancel the activity",
+          "Stand on a seat"
+        ],
+        "answer": "Close the door"
+      },
+      {
+        "type": "inference",
+        "q": "Does 想法不错 mean the volume needs no change?",
+        "choices": [
+          "No, idea and volume are evaluated separately",
+          "Yes",
+          "Only when the speaker is happy"
+        ],
+        "answer": "No, idea and volume are evaluated separately"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "打断",
+        "pinyin": "dǎ duàn",
+        "meaning": "to interrupt"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u25-r",
+    "title": "A specific request",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read what was said, promised and changed.",
+    "lines": [
+      {
+        "zh": "今天的志愿者活动很开心，大家说话比较大声。",
+        "py": "jīn tiān de zhì yuàn zhě huó dòng hěn kāi xīn , dà jiā shuō huà bǐ jiào dà shēng .",
+        "en": "Today’s volunteer activity is enjoyable, and people speak rather loudly."
+      },
+      {
+        "zh": "旁边有人上课，声音会影响他们。",
+        "py": "páng biān yǒu rén shàng kè , shēng yīn huì yǐng xiǎng tā men .",
+        "en": "Someone nearby is having class and the noise can affect them."
+      },
+      {
+        "zh": "设备正常，问题不是设备坏了。",
+        "py": "shè bèi zhèng cháng , wèn tí bù shì shè bèi huài le .",
+        "en": "The equipment works normally; broken equipment is not the problem."
+      },
+      {
+        "zh": "朋友说想法不错，不过需要小声一点。",
+        "py": "péng you shuō xiǎng fǎ bú cuò , bù guò xū yào xiǎo shēng yī diǎn .",
+        "en": "A friend says the ideas are good but the voices need to be a little quieter."
+      },
+      {
+        "zh": "我虽然有大声说话的习惯，但是愿意改。",
+        "py": "wǒ suī rán yǒu dà shēng shuō huà de xí guàn , dàn shì yuàn yì gǎi .",
+        "en": "Although I have a habit of speaking loudly, I am willing to change it."
+      },
+      {
+        "zh": "我关上门，也把占座位的包拿开。",
+        "py": "wǒ guān shang mén , yě bǎ zhàn zuò wèi de bāo ná kāi .",
+        "en": "I close the door and clear the bags taking up seats."
+      },
+      {
+        "zh": "这个行动合宜，门口安全，也欢迎别人进来。",
+        "py": "zhè gè xíng dòng hé yí , mén kǒu ān quán , yě huān yíng bié ren jìn lái .",
+        "en": "This action is appropriate: the doorway is safe and others are welcome to enter."
+      },
+      {
+        "zh": "看钟，时间还够。让朋友说完，重视意见，不是只说好。",
+        "py": "kàn zhōng , shí jiān hái gòu . ràng péng you shuō wán , zhòng shì yì jiàn , bù shì zhǐ shuō hǎo .",
+        "en": "Check the clock; there is still time. Let the friend finish and value the view, rather than merely say okay."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What makes the response useful?",
+        "choices": [
+          "Specific changes follow the request",
+          "A promise without action",
+          "A claim that nothing happened"
+        ],
+        "answer": "Specific changes follow the request"
+      },
+      {
+        "type": "detail",
+        "q": "What is working normally?",
+        "choices": [
+          "The equipment",
+          "Every person’s volume",
+          "The blocked doorway"
+        ],
+        "answer": "The equipment"
+      },
+      {
+        "type": "inference",
+        "q": "What demonstrates attention to the friend?",
+        "choices": [
+          "Listening to the end",
+          "Interrupting again",
+          "Asking the clock to agree"
+        ],
+        "answer": "Listening to the end"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我【虽然】有大声说话的习惯，但是愿意改。",
+          "py": "wǒ suī rán yǒu dà shēng shuō huà de xí guàn , dàn shì yuàn yì gǎi .",
+          "en": "Although I have a habit of speaking loudly, I am willing to change it."
+        },
+        {
+          "zh": "我【关上】门，也把占座位的包拿开。",
+          "py": "wǒ guān shang mén , yě bǎ zhàn zuò wèi de bāo ná kāi .",
+          "en": "I close the door and clear the bags taking up seats."
+        }
+      ],
+      "bank": [
+        "虽然",
+        "关上",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "志愿者",
+        "pinyin": "zhì yuàn zhě",
+        "meaning": "volunteer"
+      },
+      {
+        "hanzi": "合宜",
+        "pinyin": "hé yí",
+        "meaning": "appropriate"
+      },
+      {
+        "hanzi": "欢迎",
+        "pinyin": "huān yíng",
+        "meaning": "to welcome"
+      },
+      {
+        "hanzi": "比较",
+        "pinyin": "bǐ jiào",
+        "meaning": "relatively; compare"
+      },
+      {
+        "hanzi": "设备",
+        "pinyin": "shè bèi",
+        "meaning": "equipment"
+      },
+      {
+        "hanzi": "需要",
+        "pinyin": "xū yào",
+        "meaning": "to need"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u25-media",
+      "title": "A volume knob",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a friendly correction.",
+      "lines": [
+        {
+          "zh": "我开心，声音也开心。",
+          "py": "wǒ kāi xīn , shēng yīn yě kāi xīn .",
+          "en": "I am happy; my voice is happy too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "声音太开心，旁边还在上课。",
+          "py": "shēng yīn tài kāi xīn , páng biān hái zài shàng kè .",
+          "en": "The voice is too happy; there is still a class nearby.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那声音小一点，开心留下。",
+          "py": "nà shēng yīn xiǎo yī diǎn , kāi xīn liú xia .",
+          "en": "Then lower the voice a little and keep the happiness.",
+          "speaker": "a"
+        },
+        {
+          "zh": "不错。不要把开心变成影响别人。",
+          "py": "bú cuò . bú yào bǎ kāi xīn biàn chéng yǐng xiǎng bié ren .",
+          "en": "Good. Do not turn happiness into disturbing others.",
+          "speaker": "b"
+        },
+        {
+          "zh": "让我说完最后一句。",
+          "py": "ràng wǒ shuō wán zuì hòu yī jù .",
+          "en": "Let me finish the last sentence.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好，我听着。说完咱们出去。",
+          "py": "hǎo , wǒ tīng zhe . shuō wán zán men chū qù .",
+          "en": "Okay, I am listening. After you finish, let us go outside.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the humorous correction preserve?",
+          "choices": [
+            "Enjoyment while reducing disturbance",
+            "A rule against happiness",
+            "A claim that class is over"
+          ],
+          "answer": "Enjoyment while reducing disturbance"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s2-u25-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "旁边有人上课，所以请小声说。",
+          "py": "páng biān yǒu rén shàng kè , suǒ yǐ qǐng xiǎo shēng shuō .",
+          "en": "Someone nearby is having class, so please speak quietly."
+        },
+        {
+          "zh": "地址变了，所以出发前再确认。",
+          "py": "dì zhǐ biàn le , suǒ yǐ chū fā qián zài què rèn .",
+          "en": "The address has changed, so confirm again before setting off."
+        },
+        {
+          "zh": "我站在门边，没有坐在座位上。",
+          "py": "wǒ zhàn zài mén biān , méi yǒu zuò zài zuò wèi shàng .",
+          "en": "I am standing by the door, not sitting in a seat."
+        },
+        {
+          "zh": "先站在门外，等朋友出来。",
+          "py": "xiān zhàn zài mén wài , děng péng you chū lái .",
+          "en": "Stand outside the door first and wait for the friend to come out."
+        },
+        {
+          "zh": "听到朋友叫我，我先站住。",
+          "py": "tīng dào péng you jiào wǒ , wǒ xiān zhàn zhù .",
+          "en": "When I hear my friend call, I stop first."
+        },
+        {
+          "zh": "请站住，前面还不能进去。",
+          "py": "qǐng zhàn zhù , qián miàn hái bù néng jìn qù .",
+          "en": "Please stop there; one cannot enter ahead yet."
+        },
+        {
+          "zh": "我们说这件事情，不是说你不好。",
+          "py": "wǒ men shuō zhè jiàn shì qíng , bù shì shuō nǐ bù hǎo .",
+          "en": "We are discussing this matter, not saying you are a bad person."
+        },
+        {
+          "zh": "事情还没说清楚，先别下结论。",
+          "py": "shì qíng hái méi shuō qīng chǔ , xiān bié xià jié lùn .",
+          "en": "The matter is not yet clear; do not draw a conclusion."
+        },
+        {
+          "zh": "这个建议受到重视，但还没有实行。",
+          "py": "zhè gè jiàn yì shòu dào zhòng shì , dàn hái méi yǒu shí xíng .",
+          "en": "This suggestion has received attention but has not yet been implemented."
+        },
+        {
+          "zh": "我受到朋友的帮助，也想帮别人。",
+          "py": "wǒ shòu dào péng you de bāng zhù , yě xiǎng bāng bié ren .",
+          "en": "I received help from friends and want to help others too."
+        },
+        {
+          "zh": "答应以后要有行动。",
+          "py": "dā yìng yǐ hòu yào yǒu xíng dòng .",
+          "en": "A promise should be followed by action."
+        },
+        {
+          "zh": "占座位是这里讨论的行为。",
+          "py": "zhàn zuò wèi shì zhè lǐ tǎo lùn de xíng wéi .",
+          "en": "Taking up seats is the behaviour being discussed here."
+        },
+        {
+          "zh": "这种行为让别人等了很久，要解释原因。",
+          "py": "zhè zhǒng xíng wéi ràng bié ren děng le hěn jiǔ , yào jiě shì yuán yīn .",
+          "en": "This behaviour kept others waiting a long time; explain why."
+        },
+        {
+          "zh": "改了时间以后，活动进行得很顺利。",
+          "py": "gǎi le shí jiān yǐ hòu , huó dòng jìn xíng de hěn shùn lì .",
+          "en": "After the time was changed, the activity went smoothly."
+        },
+        {
+          "zh": "今天报名很顺利，不到五分钟就好了。",
+          "py": "jīn tiān bào míng hěn shùn lì , bù dào wǔ fēn zhōng jiù hǎo le .",
+          "en": "Registration went smoothly today, taking less than five minutes."
+        },
+        {
+          "zh": "门口不能放包，要让路安全。",
+          "py": "mén kǒu bù néng fàng bāo , yào ràng lù ān quán .",
+          "en": "Do not put bags in the doorway; keep the way safe."
+        },
+        {
+          "zh": "这个安排挺好，但还要确认地方。",
+          "py": "zhè gè ān pái tǐng hǎo , dàn hái yào què rèn dì fāng .",
+          "en": "This arrangement is quite good, but the venue still needs confirmation."
+        },
+        {
+          "zh": "这个办法挺好，不过还要问朋友愿不愿意。",
+          "py": "zhè gè bàn fǎ tǐng hǎo , bù guò hái yào wèn péng you yuàn bù yuàn yì .",
+          "en": "This method is pretty good, but still ask whether the friend is willing."
+        },
+        {
+          "zh": "我们能够换到外面聊。",
+          "py": "wǒ men néng gòu huàn dào wài miàn liáo .",
+          "en": "We can move outside to chat."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "结论",
+          "pinyin": "jié lùn",
+          "meaning": "conclusion"
+        },
+        {
+          "hanzi": "建议",
+          "pinyin": "jiàn yì",
+          "meaning": "suggestion; to suggest"
+        },
+        {
+          "hanzi": "这种",
+          "pinyin": "zhè zhǒng",
+          "meaning": "this kind of"
+        },
+        {
+          "hanzi": "解释",
+          "pinyin": "jiě shì",
+          "meaning": "to explain"
+        },
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "to register"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u25-t1",
+      "phrase": "s2-u25-w15",
+      "audio": {
+        "zh": "设备正常，是声音太大。",
+        "py": "shè bèi zhèng cháng , shì shēng yīn tài dà .",
+        "en": "The equipment works normally; the voice is too loud."
+      },
+      "statement": "The equipment is broken.",
+      "answer": false,
+      "why": "正常 rejects a breakdown."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u25-t2",
+      "phrase": "s2-u25-w12",
+      "audio": {
+        "zh": "我已经把包拿开了。",
+        "py": "wǒ yǐ jīng bǎ bāo ná kāi le .",
+        "en": "I have already cleared the bag."
+      },
+      "statement": "An action has been completed.",
+      "answer": true,
+      "why": "已经…了 states completion."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u25-t3",
+      "phrase": "s2-u25-w21",
+      "prompt": {
+        "zh": "旁边在上课，怎么办？",
+        "py": "páng biān zài shàng kè , zěn me bàn ?",
+        "en": "There is a class nearby; what should we do?"
+      },
+      "choices": [
+        "关上门，小声说吧。",
+        "所以更大声。",
+        "不是我的想法。"
+      ],
+      "answer": "关上门，小声说吧。",
+      "why": "Give an actionable remedy."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u25-t4",
+      "phrase": "s2-u25-w04",
+      "prompt": {
+        "zh": "让我说完，好吗？",
+        "py": "ràng wǒ shuō wán , hǎo ma ?",
+        "en": "May I finish?"
+      },
+      "choices": [
+        "好，我先听完。",
+        "不，我先打断。",
+        "三点安全。"
+      ],
+      "answer": "好，我先听完。",
+      "why": "Allow the turn to finish."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u25-t5",
+      "phrase": "s2-u25-w17",
+      "line": {
+        "zh": "这个【习惯】可以慢慢改。",
+        "py": "zhè gè xí guàn kě yǐ màn màn gǎi .",
+        "en": "This habit can be changed gradually."
+      },
+      "blankPy": "xí guàn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u25-t6",
+      "phrase": "s2-u25-w01",
+      "line": {
+        "zh": "【虽然】开心，也要小声一点。",
+        "py": "suī rán kāi xīn , yě yào xiǎo shēng yī diǎn .",
+        "en": "Although happy, we should speak a little more quietly."
+      },
+      "blankPy": "suī rán"
+    },
+    {
+      "type": "match",
+      "id": "s2-u25-t7",
+      "phrase": "s2-u25-w08",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The noise affects the class.",
+          "right": {
+            "zh": "声音影响上课。",
+            "py": "shēng yīn yǐng xiǎng shàng kè .",
+            "en": "The noise affects the class."
+          }
+        },
+        {
+          "left": "Equipment works normally.",
+          "right": {
+            "zh": "设备正常。",
+            "py": "shè bèi zhèng cháng .",
+            "en": "Equipment works normally."
+          }
+        },
+        {
+          "left": "The bag occupies a seat.",
+          "right": {
+            "zh": "包占了座位。",
+            "py": "bāo zhàn le zuò wèi .",
+            "en": "The bag occupies a seat."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u25-t8",
+      "phrase": "s2-u25-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Then I will close the door first.",
+          "right": {
+            "zh": "那我先关门。",
+            "py": "nà wǒ xiān guān mén .",
+            "en": "Then I will close the door first."
+          }
+        },
+        {
+          "left": "Do not interrupt.",
+          "right": {
+            "zh": "不要打断。",
+            "py": "bú yào dǎ duàn .",
+            "en": "Do not interrupt."
+          }
+        },
+        {
+          "left": "I value your opinion.",
+          "right": {
+            "zh": "我重视你的意见。",
+            "py": "wǒ zhòng shì nǐ de yì jiàn .",
+            "en": "I value your opinion."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u25-t9",
+      "phrase": "s2-u25-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I am interested in this activity.",
+          "right": {
+            "zh": "我对这个活动有兴趣。",
+            "py": "wǒ duì zhè gè huó dòng yǒu xìng qù .",
+            "en": "I am interested in this activity."
+          }
+        },
+        {
+          "left": "She likes reading just as I do.",
+          "right": {
+            "zh": "她跟我一样喜欢看书。",
+            "py": "tā gēn wǒ yī yàng xǐ huān kàn shū .",
+            "en": "She likes reading just as I do."
+          }
+        },
+        {
+          "left": "Different lives do not imply a bad attitude.",
+          "right": {
+            "zh": "生活不同，不等于态度不好。",
+            "py": "shēng huó bù tóng , bù děng yú tài dù bù hǎo .",
+            "en": "Different lives do not imply a bad attitude."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Specific feedback",
+      "natural": {
+        "zh": "想法不错，不过小声一点吧。",
+        "py": "xiǎng fǎ bú cuò , bù guò xiǎo shēng yī diǎn ba .",
+        "en": "The idea is good; please speak a little more quietly."
+      },
+      "note": "Separate the valued idea from the requested change."
+    },
+    {
+      "situation": "Accepting a request",
+      "natural": {
+        "zh": "好，我现在拿开。",
+        "py": "hǎo , wǒ xiàn zài ná kāi .",
+        "en": "Okay, I will clear it now."
+      },
+      "note": "Follow acknowledgement with the stated action."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u25-speak",
+    "title": "A complaint, gently",
+    "place": "A language-exchange meeting",
+    "context": "Mention a problem while acknowledging the good.",
+    "goal": "Make a specific complaint without rejecting the person",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "声音太大。",
+        "pinyin": "shēng yīn tài dà .",
+        "meaning": "The voice is too loud.",
+        "intent": "Offer a change",
+        "examples": [
+          "那我小声一点。"
+        ],
+        "accept": [
+          "^那我小声一点。[。！？]?$"
+        ]
+      },
+      {
+        "text": "让我说完。",
+        "pinyin": "ràng wǒ shuō wán .",
+        "meaning": "Let me finish.",
+        "intent": "Respect the turn",
+        "examples": [
+          "好，我先听完。"
+        ],
+        "accept": [
+          "^好，我先听完。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二30, 二65. Native check: connective relations, 虽然 marker omission, 受到重视 collocation, 合宜 in the written note, friendly noise complaint and figurative original scene. No validated behaviour score is claimed. Planned retrieval 二25 / 二59: 我对这个活动有兴趣。, 她跟我一样喜欢看书。, 生活不同，不等于态度不好。."
+}

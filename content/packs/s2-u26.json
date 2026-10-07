@@ -1,0 +1,1369 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u26",
+    "stage": 1,
+    "order": 56,
+    "title": "How was my singing?",
+    "titleZh": "唱得好也要听清楚",
+    "canDo": [
+      "Read feedback with 得 state complements",
+      "Separate a measured result from a proficiency claim",
+      "Describe one improvement without inventing a score"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u25"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u26-w01",
+      "hanzi": "得",
+      "pinyin": "de",
+      "meaning": "links a verb with its manner or state complement",
+      "meaningVi": "trợ từ nối động từ với bổ ngữ",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她说得很清楚。",
+        "py": "tā shuō de hěn qīng chǔ .",
+        "en": "She speaks very clearly."
+      },
+      "usageNote": "[GF2021:L2:1701] Source entry: 得; de; 助. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w02",
+      "hanzi": "懂",
+      "pinyin": "dǒng",
+      "meaning": "to understand",
+      "meaningVi": "hiểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我懂这句话的意思，不懂所有的词。",
+        "py": "wǒ dǒng zhè jù huà de yì si , bù dǒng suǒ yǒu de cí .",
+        "en": "I understand this sentence’s meaning, not every word."
+      },
+      "usageNote": "[GF2021:L2:1915] Source entry: 懂; dǒng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w03",
+      "hanzi": "懂得",
+      "pinyin": "dǒng de",
+      "meaning": "to understand; know how to",
+      "meaningVi": "hiểu; biết cách",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我懂得先问清楚，再回答。",
+        "py": "wǒ dǒng de xiān wèn qīng chǔ , zài huí dá .",
+        "en": "I know to clarify first and then answer."
+      },
+      "usageNote": "[GF2021:L2:1916] Source entry: 懂得; dǒngde; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w04",
+      "hanzi": "流利",
+      "pinyin": "liú lì",
+      "meaning": "fluent; smoothly spoken",
+      "meaningVi": "lưu loát",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这一句说得流利，不等于所有话都流利。",
+        "py": "zhè yī jù shuō de liú lì , bù děng yú suǒ yǒu huà dōu liú lì .",
+        "en": "This sentence is spoken fluently; that does not mean all speech is fluent."
+      },
+      "usageNote": "[GF2021:L2:5253] Source entry: 流利; liúlì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w05",
+      "hanzi": "水平",
+      "pinyin": "shuǐ píng",
+      "meaning": "level; standard",
+      "meaningVi": "trình độ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一句话不能证明全部水平。",
+        "py": "yī jù huà bù néng zhèng míng quán bù shuǐ píng .",
+        "en": "One sentence cannot demonstrate overall ability."
+      },
+      "usageNote": "[GF2021:L2:7554] Source entry: 水平; shuǐpíng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w06",
+      "hanzi": "提高",
+      "pinyin": "tí gāo",
+      "meaning": "to raise; improve",
+      "meaningVi": "nâng cao",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "多练习可以帮助提高，但先看哪里要改。",
+        "py": "duō liàn xí kě yǐ bāng zhù tí gāo , dàn xiān kàn nǎ lǐ yào gǎi .",
+        "en": "Practice may help improvement, but first identify what needs changing."
+      },
+      "usageNote": "[GF2021:L2:7886] Source entry: 提高; tí∥gāo; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w07",
+      "hanzi": "高级",
+      "pinyin": "gāo jí",
+      "meaning": "advanced; high-level",
+      "meaningVi": "cao cấp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "高级材料不一定适合今天的练习。",
+        "py": "gāo jí cái liào bù yí dìng shì hé jīn tiān de liàn xí .",
+        "en": "Advanced materials may not suit today’s practice."
+      },
+      "usageNote": "[GF2021:L2:2644] Source entry: 高级; gāojí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w08",
+      "hanzi": "中级",
+      "pinyin": "zhōng jí",
+      "meaning": "intermediate",
+      "meaningVi": "trung cấp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这份材料写着中级，不是考试成绩。",
+        "py": "zhè fèn cái liào xiě zhe zhōng jí , bù shì kǎo shì chéng jì .",
+        "en": "The material is labelled intermediate; that is not an exam result."
+      },
+      "usageNote": "[GF2021:L2:10614] Source entry: 中级; zhōngjí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w09",
+      "hanzi": "考生",
+      "pinyin": "kǎo shēng",
+      "meaning": "examination candidate",
+      "meaningVi": "thí sinh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "考生先看要求，再答题。",
+        "py": "kǎo shēng xiān kàn yāo qiú , zài dá tí .",
+        "en": "Candidates read the instructions before answering."
+      },
+      "usageNote": "[GF2021:L2:4667] Source entry: 考生; kǎoshēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w10",
+      "hanzi": "分数",
+      "pinyin": "fēn shù",
+      "meaning": "score; points",
+      "meaningVi": "điểm số",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这只是练习分数，不是正式考试分数。",
+        "py": "zhè zhǐ shì liàn xí fēn shù , bù shì zhèng shì kǎo shì fēn shù .",
+        "en": "This is a practice score, not an official exam score."
+      },
+      "usageNote": "[GF2021:L2:2351] Source entry: 分数; fēnshù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w11",
+      "hanzi": "课堂",
+      "pinyin": "kè táng",
+      "meaning": "classroom session; class",
+      "meaningVi": "buổi học; lớp học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "课堂上先听老师的例子。",
+        "py": "kè táng shàng xiān tīng lǎo shī de lì zi .",
+        "en": "In class, listen to the teacher’s example first."
+      },
+      "usageNote": "[GF2021:L2:4741] Source entry: 课堂; kètáng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w12",
+      "hanzi": "黑板",
+      "pinyin": "hēi bǎn",
+      "meaning": "blackboard",
+      "meaningVi": "bảng đen",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "黑板上写着今天的两句话。",
+        "py": "hēi bǎn shàng xiě zhe jīn tiān de liǎng jù huà .",
+        "en": "Today’s two sentences are written on the blackboard."
+      },
+      "usageNote": "[GF2021:L2:3317] Source entry: 黑板; hēibǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w13",
+      "hanzi": "作文",
+      "pinyin": "zuò wén",
+      "meaning": "composition; essay",
+      "meaningVi": "bài văn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这篇作文只写今天的活动。",
+        "py": "zhè piān zuò wén zhǐ xiě jīn tiān de huó dòng .",
+        "en": "This composition only describes today’s activity."
+      },
+      "usageNote": "[GF2021:L2:11071] Source entry: 作文; zuòwén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w14",
+      "hanzi": "篇",
+      "pinyin": "piān",
+      "meaning": "classifier for articles and written works",
+      "meaningVi": "lượng từ cho bài viết",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我读一篇短文章。",
+        "py": "wǒ dú yī piān duǎn wén zhāng .",
+        "en": "I read one short article."
+      },
+      "usageNote": "[GF2021:L2:6078] Source entry: 篇; piān; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w15",
+      "hanzi": "信心",
+      "pinyin": "xìn xīn",
+      "meaning": "confidence",
+      "meaningVi": "sự tự tin",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有信心，也要认真检查。",
+        "py": "yǒu xìn xīn , yě yào rèn zhēn jiǎn chá .",
+        "en": "Have confidence, and still check carefully."
+      },
+      "usageNote": "[GF2021:L2:9040] Source entry: 信心; xìnxīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w16",
+      "hanzi": "重复",
+      "pinyin": "chóng fù",
+      "meaning": "to repeat; repetition",
+      "meaningVi": "lặp lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请重复第二句，不用从头再说。",
+        "py": "qǐng chóng fù dì èr jù , bù yòng cóng tóu zài shuō .",
+        "en": "Please repeat the second sentence; no need to restart."
+      },
+      "usageNote": "[GF2021:L2:1068] Source entry: 重复; chóngfù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w17",
+      "hanzi": "数字",
+      "pinyin": "shù zì",
+      "meaning": "numeral; number",
+      "meaningVi": "con số",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "数字要听清楚，不能猜。",
+        "py": "shù zì yào tīng qīng chǔ , bù néng cāi .",
+        "en": "Hear the numbers clearly; do not guess."
+      },
+      "usageNote": "[GF2021:L2:7502] Source entry: 数字; shùzì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w18",
+      "hanzi": "长",
+      "pinyin": "cháng",
+      "meaning": "long in extent or duration",
+      "meaningVi": "dài",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这句话长，但可以分开练。",
+        "py": "zhè jù huà cháng , dàn kě yǐ fēn kāi liàn .",
+        "en": "This sentence is long, but can be practised in parts."
+      },
+      "usageNote": "[GF2021:L2:816] Source entry: 长; cháng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w19",
+      "hanzi": "表",
+      "pinyin": "biǎo",
+      "meaning": "table; chart; watch",
+      "meaningVi": "bảng; biểu; đồng hồ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "表里写着次数，没有正式等级。",
+        "py": "biǎo lǐ xiě zhe cì shù , méi yǒu zhèng shì děng jí .",
+        "en": "The table lists counts, not an official level."
+      },
+      "usageNote": "[GF2021:L2:437] Source entry: 表; biǎo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w20",
+      "hanzi": "度",
+      "pinyin": "dù",
+      "meaning": "degree; unit of temperature or angle",
+      "meaningVi": "độ",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天气温三度，不是三分。",
+        "py": "jīn tiān qì wēn sān dù , bù shì sān fēn .",
+        "en": "Today’s temperature is three degrees, not three points."
+      },
+      "usageNote": "[GF2021:L2:1987] Source entry: 度; dù; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w21",
+      "hanzi": "节",
+      "pinyin": "jié",
+      "meaning": "classifier for lessons or sections",
+      "meaningVi": "tiết; đoạn",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天有两节课。",
+        "py": "jīn tiān yǒu liǎng jié kè .",
+        "en": "There are two lessons today."
+      },
+      "usageNote": "[GF2021:L2:4170] Source entry: 节; jié; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u26-w22",
+      "hanzi": "下",
+      "pinyin": "xià",
+      "meaning": "classifier for brief actions",
+      "meaningVi": "lần; cái",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我敲两下门，再进去。",
+        "py": "wǒ qiāo liǎng xià mén , zài jìn qù .",
+        "en": "I knock twice, then go in."
+      },
+      "usageNote": "[GF2021:L2:8672] Source entry: 下; xià; 量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "懂",
+      "pinyin": "dǒng",
+      "meaning": "to understand",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "懂",
+          "role": "whole",
+          "gloss": "to understand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 懂 in 懂 / 懂得. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "懂",
+          "p": "dǒng",
+          "m": "to understand"
+        },
+        {
+          "w": "懂得",
+          "p": "dǒng de",
+          "m": "to understand; know how to"
+        }
+      ]
+    },
+    {
+      "hanzi": "利",
+      "pinyin": "lì",
+      "meaning": "benefit; fluent",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "利",
+          "role": "whole",
+          "gloss": "benefit; fluent"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 利 in 流利 / 顺利. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "流利",
+          "p": "liú lì",
+          "m": "fluent; smoothly spoken"
+        },
+        {
+          "w": "顺利",
+          "p": "shùn lì",
+          "m": "smooth; smoothly"
+        }
+      ]
+    },
+    {
+      "hanzi": "堂",
+      "pinyin": "táng",
+      "meaning": "hall; class",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "堂",
+          "role": "whole",
+          "gloss": "hall; class"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 堂 in 课堂. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "课堂",
+          "p": "kè táng",
+          "m": "classroom session; class"
+        }
+      ]
+    },
+    {
+      "hanzi": "板",
+      "pinyin": "bǎn",
+      "meaning": "board",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "板",
+          "role": "whole",
+          "gloss": "board"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 板 in 黑板 / 老板. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "黑板",
+          "p": "hēi bǎn",
+          "m": "blackboard"
+        },
+        {
+          "w": "老板",
+          "p": "lǎobǎn",
+          "m": "boss; shop owner"
+        }
+      ]
+    },
+    {
+      "hanzi": "篇",
+      "pinyin": "piān",
+      "meaning": "piece; article classifier",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "篇",
+          "role": "whole",
+          "gloss": "piece; article classifier"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 篇 in 篇. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "篇",
+          "p": "piān",
+          "m": "classifier for articles and written works"
+        }
+      ]
+    },
+    {
+      "hanzi": "查",
+      "pinyin": "chá",
+      "meaning": "to check; look up",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "查",
+          "role": "whole",
+          "gloss": "to check; look up"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 查 in 检查 / 查. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "检查",
+          "p": "jiǎn chá",
+          "m": "to check"
+        },
+        {
+          "w": "查",
+          "p": "chá",
+          "m": "to look up; check"
+        }
+      ]
+    },
+    {
+      "hanzi": "清",
+      "pinyin": "qīng",
+      "meaning": "clear; clean",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "清",
+          "role": "whole",
+          "gloss": "clear; clean"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 清 in 清楚 / 讲清楚. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "清楚",
+          "p": "qīng chu",
+          "m": "clear; clearly"
+        },
+        {
+          "w": "讲清楚",
+          "p": "jiǎng qīng chǔ",
+          "m": "to explain clearly"
+        }
+      ]
+    },
+    {
+      "hanzi": "努",
+      "pinyin": "nǔ",
+      "meaning": "to strive",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "努",
+          "role": "whole",
+          "gloss": "to strive"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 努 in 努力. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "努力",
+          "p": "nǔ lì",
+          "m": "effort"
+        }
+      ]
+    },
+    {
+      "hanzi": "挺",
+      "pinyin": "tǐng",
+      "meaning": "quite; rather",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "挺",
+          "role": "whole",
+          "gloss": "quite; rather"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 挺 in 挺 / 挺好. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "挺",
+          "p": "tǐng",
+          "m": "quite; rather"
+        },
+        {
+          "w": "挺好",
+          "p": "tǐng hǎo",
+          "m": "quite good"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u26-g二31",
+      "pattern": "得：动词后的状态补语标记",
+      "purpose": "Place the state after the action",
+      "explanation": "说得清楚 and 唱得好 evaluate the action. 得 is neutral de here, not dé obtain or děi have to. With an object, repeat the verb or place the object before it: 这句话你说得很清楚 or 你说汉语说得很清楚. The complement is an evaluation of the stated action, not an automatic proficiency grade.",
+      "examples": [
+        {
+          "zh": "你说得很清楚。",
+          "py": "nǐ shuō de hěn qīng chǔ .",
+          "en": "You speak very clearly."
+        },
+        {
+          "zh": "这句话她读得很慢。",
+          "py": "zhè jù huà tā dú de hěn màn .",
+          "en": "She reads this sentence very slowly."
+        },
+        {
+          "zh": "她唱歌唱得很好。",
+          "py": "tā chàng gē chàng de hěn hǎo .",
+          "en": "She sings very well."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她唱歌得很好。",
+          "right": "她唱歌唱得很好。",
+          "why": "Repeat the verb when keeping the object between the first verb and complement."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u26-g二51",
+      "pattern": "动词 + 得 + 形容词：状态补语",
+      "purpose": "Describe how the action is performed",
+      "explanation": "读得慢 describes the manner of reading, while 读懂 describes a resulting understanding. 说得不清楚 negates the manner, not whether anything was said. 可以说得更慢 is an actionable request. Longer or louder speech does not by itself prove correct tones or fluent conversation.",
+      "examples": [
+        {
+          "zh": "我读得慢，但读懂了。",
+          "py": "wǒ dú de màn , dàn dú dǒng le .",
+          "en": "I read slowly but understood."
+        },
+        {
+          "zh": "第二句说得不清楚，请再说一次。",
+          "py": "dì èr jù shuō de bù qīng chǔ , qǐng zài shuō yī cì .",
+          "en": "The second sentence was unclear; please say it again."
+        },
+        {
+          "zh": "你可以说得更慢一点。",
+          "py": "nǐ kě yǐ shuō de gèng màn yī diǎn .",
+          "en": "You can speak a little more slowly."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不说得清楚。意思是说了，但不清楚。",
+          "right": "我说得不清楚。",
+          "why": "Negate the complement when the action occurred but its manner was unclear."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u26-d",
+    "title": "Useful feedback",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the part to repeat and what the praise does not prove.",
+    "lines": [
+      {
+        "zh": "我这次说得怎么样？",
+        "py": "wǒ zhè cì shuō de zěn me yàng ?",
+        "en": "How did I speak this time?",
+        "speaker": "a"
+      },
+      {
+        "zh": "第一句很清楚，第二句的数字没听清。",
+        "py": "dì yī jù hěn qīng chǔ , dì èr jù de shù zì méi tīng qīng .",
+        "en": "The first sentence was clear; I did not hear the numbers in the second clearly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我把全部重复一遍？",
+        "py": "nà wǒ bǎ quán bù chóng fù yī biàn ?",
+        "en": "Then should I repeat everything?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用，只重复第二句，说得更慢一点。",
+        "py": "bù yòng , zhǐ chóng fù dì èr jù , shuō de gèng màn yī diǎn .",
+        "en": "No need; repeat only the second sentence, a little more slowly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我一共花了三十五块。",
+        "py": "wǒ yī gòng huā le sān shí wǔ kuài .",
+        "en": "I spent thirty-five yuan in total.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这次听清了，是三十五，不是五十三。",
+        "py": "zhè cì tīng qīng le , shì sān shí wǔ , bù shì wǔ shí sān .",
+        "en": "Now I heard it clearly: thirty-five, not fifty-three.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我已经有高级水平了吗？",
+        "py": "nà wǒ yǐ jīng yǒu gāo jí shuǐ píng le ma ?",
+        "en": "Then do I already have advanced ability?",
+        "speaker": "a"
+      },
+      {
+        "zh": "一句话不能证明全部水平。这个地方进步了，继续练。",
+        "py": "yī jù huà bù néng zhèng míng quán bù shuǐ píng . zhè gè dì fāng jìn bù le , jì xù liàn .",
+        "en": "One sentence cannot demonstrate overall ability. This part improved; keep practising.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What feedback is actionable?",
+        "choices": [
+          "Repeat the second sentence more slowly",
+          "Repeat the entire lesson loudly",
+          "Claim advanced proficiency"
+        ],
+        "answer": "Repeat the second sentence more slowly"
+      },
+      {
+        "type": "detail",
+        "q": "What amount was clarified?",
+        "choices": [
+          "35 yuan",
+          "53 yuan",
+          "3 yuan"
+        ],
+        "answer": "35 yuan"
+      },
+      {
+        "type": "inference",
+        "q": "What does the clear sentence prove?",
+        "choices": [
+          "It was heard clearly in this exchange",
+          "An official advanced level",
+          "Perfect pronunciation of every word"
+        ],
+        "answer": "It was heard clearly in this exchange"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "证明",
+        "pinyin": "zhèng míng",
+        "meaning": "to establish; prove"
+      },
+      {
+        "hanzi": "继续",
+        "pinyin": "jì xù",
+        "meaning": "to continue"
+      },
+      {
+        "hanzi": "进步",
+        "pinyin": "jìn bù",
+        "meaning": "progress"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u26-r",
+    "title": "A practice record",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read only what the record actually measures.",
+    "lines": [
+      {
+        "zh": "课堂上黑板写着两句话，先听再说。",
+        "py": "kè táng shàng hēi bǎn xiě zhe liǎng jù huà , xiān tīng zài shuō .",
+        "en": "In class, two sentences are on the blackboard; listen before speaking."
+      },
+      {
+        "zh": "第一句说得清楚，第二句的数字要重复。",
+        "py": "dì yī jù shuō de qīng chǔ , dì èr jù de shù zì yào chóng fù .",
+        "en": "The first sentence is clear; the numbers in the second need repeating."
+      },
+      {
+        "zh": "第二次说三十五块，朋友听清了。",
+        "py": "dì èr cì shuō sān shí wǔ kuài , péng you tīng qīng le .",
+        "en": "The second attempt says thirty-five yuan, and the friend hears it clearly."
+      },
+      {
+        "zh": "表里记录两次，不记录正式等级。",
+        "py": "biǎo lǐ jì lù liǎng cì , bù jì lù zhèng shì děng jí .",
+        "en": "The table records two attempts, not an official level."
+      },
+      {
+        "zh": "有信心也要努力练习，查清楚问题。",
+        "py": "yǒu xìn xīn yě yào nǔ lì liàn xí , chá qīng chǔ wèn tí .",
+        "en": "Confidence still goes with practice and clarifying the problem."
+      },
+      {
+        "zh": "一篇长作文可以分开练，不必一次说完。",
+        "py": "yī piān cháng zuò wén kě yǐ fēn kāi liàn , bù bì yī cì shuō wán .",
+        "en": "A long composition can be practised in parts; there is no need to say it all at once."
+      },
+      {
+        "zh": "今天两节课，气温三度，两个数字的用途不同。",
+        "py": "jīn tiān liǎng jié kè , qì wēn sān dù , liǎng gè shù zì de yòng tú bù tóng .",
+        "en": "Two lessons today and a temperature of three degrees: the numbers serve different purposes."
+      },
+      {
+        "zh": "提高来自具体改进；读得慢，也能读懂。",
+        "py": "tí gāo lái zì jù tǐ gǎi jìn ; dú de màn , yě néng dú dǒng .",
+        "en": "Improvement comes from specific changes; you can understand while reading slowly."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the table record?",
+        "choices": [
+          "Two practice attempts",
+          "An official qualification",
+          "A pronunciation score"
+        ],
+        "answer": "Two practice attempts"
+      },
+      {
+        "type": "detail",
+        "q": "What needed repeating?",
+        "choices": [
+          "The numbers in sentence two",
+          "The entire composition",
+          "The temperature forecast"
+        ],
+        "answer": "The numbers in sentence two"
+      },
+      {
+        "type": "inference",
+        "q": "Can slow reading still produce understanding?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only with no words"
+        ],
+        "answer": "Yes"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "课堂上【黑板】写着两句话，先听再说。",
+          "py": "kè táng shàng hēi bǎn xiě zhe liǎng jù huà , xiān tīng zài shuō .",
+          "en": "In class, two sentences are on the blackboard; listen before speaking."
+        },
+        {
+          "zh": "有【信心】也要努力练习，查清楚问题。",
+          "py": "yǒu xìn xīn yě yào nǔ lì liàn xí , chá qīng chǔ wèn tí .",
+          "en": "Confidence still goes with practice and clarifying the problem."
+        }
+      ],
+      "bank": [
+        "黑板",
+        "信心",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "改进",
+        "pinyin": "gǎi jìn",
+        "meaning": "to improve"
+      },
+      {
+        "hanzi": "等级",
+        "pinyin": "děng jí",
+        "meaning": "level; grade"
+      },
+      {
+        "hanzi": "练习",
+        "pinyin": "liàn xí",
+        "meaning": "to practise"
+      },
+      {
+        "hanzi": "努力",
+        "pinyin": "nǔ lì",
+        "meaning": "effort"
+      },
+      {
+        "hanzi": "查",
+        "pinyin": "chá",
+        "meaning": "to look up; check"
+      },
+      {
+        "hanzi": "正式",
+        "pinyin": "zhèng shì",
+        "meaning": "official; formal"
+      },
+      {
+        "hanzi": "不必",
+        "pinyin": "bù bì",
+        "meaning": "need not"
+      },
+      {
+        "hanzi": "用途",
+        "pinyin": "yòng tú",
+        "meaning": "use; purpose"
+      },
+      {
+        "hanzi": "记录",
+        "pinyin": "jì lù",
+        "meaning": "record"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u26-media",
+      "title": "Thirty-five, at last",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about clarification rather than a magical grade.",
+      "lines": [
+        {
+          "zh": "三十五，五十三，数字跑太快。",
+          "py": "sān shí wǔ , wǔ shí sān , shù zì pǎo tài kuài .",
+          "en": "Thirty-five, fifty-three; the numbers run too fast.",
+          "speaker": "a"
+        },
+        {
+          "zh": "数字没跑，是你说得快。",
+          "py": "shù zì méi pǎo , shì nǐ shuō de kuài .",
+          "en": "The numbers did not run; you spoke fast.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我慢一点：三十五块。",
+          "py": "nà wǒ màn yī diǎn : sān shí wǔ kuài .",
+          "en": "Then a little slower: thirty-five yuan.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好，这次清楚了。",
+          "py": "hǎo , zhè cì qīng chǔ le .",
+          "en": "Good, now it is clear.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我提高了吗？",
+          "py": "wǒ tí gāo le ma ?",
+          "en": "Have I improved?",
+          "speaker": "a"
+        },
+        {
+          "zh": "这一句更清楚。别把一句变成全部。",
+          "py": "zhè yī jù gèng qīng chǔ . bié bǎ yī jù biàn chéng quán bù .",
+          "en": "This sentence is clearer. Do not turn one sentence into everything.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the limit on the praise?",
+          "choices": [
+            "Clarity of this sentence",
+            "An official level",
+            "No improvement at all"
+          ],
+          "answer": "Clarity of this sentence"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s2-u26-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "我懂得先问清楚，再回答。",
+          "py": "wǒ dǒng de xiān wèn qīng chǔ , zài huí dá .",
+          "en": "I know to clarify first and then answer."
+        },
+        {
+          "zh": "懂得规则以后，再开始练习。",
+          "py": "dǒng de guī zé yǐ hòu , zài kāi shǐ liàn xí .",
+          "en": "Start practising after understanding the rules."
+        },
+        {
+          "zh": "这一句说得流利，不等于所有话都流利。",
+          "py": "zhè yī jù shuō de liú lì , bù děng yú suǒ yǒu huà dōu liú lì .",
+          "en": "This sentence is spoken fluently; that does not mean all speech is fluent."
+        },
+        {
+          "zh": "高级材料不一定适合今天的练习。",
+          "py": "gāo jí cái liào bù yí dìng shì hé jīn tiān de liàn xí .",
+          "en": "Advanced materials may not suit today’s practice."
+        },
+        {
+          "zh": "这份材料写着中级，不是考试成绩。",
+          "py": "zhè fèn cái liào xiě zhe zhōng jí , bù shì kǎo shì chéng jì .",
+          "en": "The material is labelled intermediate; that is not an exam result."
+        },
+        {
+          "zh": "她在读中级课本，还是会问生词。",
+          "py": "tā zài dú zhōng jí kè běn , hái shi huì wèn shēng cí .",
+          "en": "She is using an intermediate textbook and still asks about unfamiliar words."
+        },
+        {
+          "zh": "考生先看要求，再答题。",
+          "py": "kǎo shēng xiān kàn yāo qiú , zài dá tí .",
+          "en": "Candidates read the instructions before answering."
+        },
+        {
+          "zh": "考生先看通知，不要只听别人说。",
+          "py": "kǎo shēng xiān kàn tōng zhī , bú yào zhǐ tīng bié ren shuō .",
+          "en": "Candidates should read the notice first, not just rely on what others say."
+        },
+        {
+          "zh": "这只是练习分数，不是正式考试分数。",
+          "py": "zhè zhǐ shì liàn xí fēn shù , bù shì zhèng shì kǎo shì fēn shù .",
+          "en": "This is a practice score, not an official exam score."
+        },
+        {
+          "zh": "课堂上先听老师的例子。",
+          "py": "kè táng shàng xiān tīng lǎo shī de lì zi .",
+          "en": "In class, listen to the teacher’s example first."
+        },
+        {
+          "zh": "黑板上写着今天的两句话。",
+          "py": "hēi bǎn shàng xiě zhe jīn tiān de liǎng jù huà .",
+          "en": "Today’s two sentences are written on the blackboard."
+        },
+        {
+          "zh": "这篇作文只写今天的活动。",
+          "py": "zhè piān zuò wén zhǐ xiě jīn tiān de huó dòng .",
+          "en": "This composition only describes today’s activity."
+        },
+        {
+          "zh": "有信心，也要认真检查。",
+          "py": "yǒu xìn xīn , yě yào rèn zhēn jiǎn chá .",
+          "en": "Have confidence, and still check carefully."
+        },
+        {
+          "zh": "这句话长，但可以分开练。",
+          "py": "zhè jù huà cháng , dàn kě yǐ fēn kāi liàn .",
+          "en": "This sentence is long, but can be practised in parts."
+        },
+        {
+          "zh": "表里写着次数，没有正式等级。",
+          "py": "biǎo lǐ xiě zhe cì shù , méi yǒu zhèng shì děng jí .",
+          "en": "The table lists counts, not an official level."
+        },
+        {
+          "zh": "我敲两下门，再进去。",
+          "py": "wǒ qiāo liǎng xià mén , zài jìn qù .",
+          "en": "I knock twice, then go in."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "等级",
+          "pinyin": "děng jí",
+          "meaning": "level; grade"
+        },
+        {
+          "hanzi": "练习",
+          "pinyin": "liàn xí",
+          "meaning": "to practise"
+        },
+        {
+          "hanzi": "查",
+          "pinyin": "chá",
+          "meaning": "to look up; check"
+        },
+        {
+          "hanzi": "正式",
+          "pinyin": "zhèng shì",
+          "meaning": "official; formal"
+        },
+        {
+          "hanzi": "规则",
+          "pinyin": "guī zé",
+          "meaning": "rule"
+        },
+        {
+          "hanzi": "材料",
+          "pinyin": "cái liào",
+          "meaning": "materials"
+        },
+        {
+          "hanzi": "敲",
+          "pinyin": "qiāo",
+          "meaning": "to knock"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u26-t1",
+      "phrase": "s2-u26-w05",
+      "audio": {
+        "zh": "一句话不能证明全部水平。",
+        "py": "yī jù huà bù néng zhèng míng quán bù shuǐ píng .",
+        "en": "One sentence cannot establish overall ability."
+      },
+      "statement": "Overall ability is proved.",
+      "answer": false,
+      "why": "不能 rejects that conclusion."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u26-t2",
+      "phrase": "s2-u26-w16",
+      "audio": {
+        "zh": "只重复第二句。",
+        "py": "zhǐ chóng fù dì èr jù .",
+        "en": "Repeat only sentence two."
+      },
+      "statement": "Sentence one need not be repeated.",
+      "answer": true,
+      "why": "只 limits the request."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u26-t3",
+      "phrase": "s2-u26-w01",
+      "prompt": {
+        "zh": "数字没听清，你可以说得慢一点吗？",
+        "py": "shù zì méi tīng qīng , nǐ kě yǐ shuō de màn yī diǎn ma ?",
+        "en": "I did not hear the numbers clearly; could you speak more slowly?"
+      },
+      "choices": [
+        "好，一共三十五块。",
+        "我已经高级了。",
+        "黑板很长大。"
+      ],
+      "answer": "好，一共三十五块。",
+      "why": "Repeat the needed content."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u26-t4",
+      "phrase": "s2-u26-w10",
+      "prompt": {
+        "zh": "这是正式考试分数吗？",
+        "py": "zhè shì zhèng shì kǎo shì fēn shù ma ?",
+        "en": "Is this an official exam score?"
+      },
+      "choices": [
+        "不是，只是练习分数。",
+        "当然，两节课。",
+        "三度就正式。"
+      ],
+      "answer": "不是，只是练习分数。",
+      "why": "Keep the record’s scope honest."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u26-t5",
+      "phrase": "s2-u26-w04",
+      "line": {
+        "zh": "这一句说得很【流利】。",
+        "py": "zhè yī jù shuō de hěn liú lì .",
+        "en": "This sentence is spoken fluently."
+      },
+      "blankPy": "liú lì"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u26-t6",
+      "phrase": "s2-u26-w14",
+      "line": {
+        "zh": "我读一【篇】短文章。",
+        "py": "wǒ dú yī piān duǎn wén zhāng .",
+        "en": "I read a short article."
+      },
+      "blankPy": "piān"
+    },
+    {
+      "type": "match",
+      "id": "s2-u26-t7",
+      "phrase": "s2-u26-w21",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Two lessons.",
+          "right": {
+            "zh": "两节课。",
+            "py": "liǎng jié kè .",
+            "en": "Two lessons."
+          }
+        },
+        {
+          "left": "Three degrees.",
+          "right": {
+            "zh": "三度。",
+            "py": "sān dù .",
+            "en": "Three degrees."
+          }
+        },
+        {
+          "left": "Knock twice.",
+          "right": {
+            "zh": "敲两下。",
+            "py": "qiāo liǎng xià .",
+            "en": "Knock twice."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u26-t8",
+      "phrase": "s2-u26-w02",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Speak clearly.",
+          "right": {
+            "zh": "说得很清楚。",
+            "py": "shuō de hěn qīng chǔ .",
+            "en": "Speak clearly."
+          }
+        },
+        {
+          "left": "Speak unclearly.",
+          "right": {
+            "zh": "说得不清楚。",
+            "py": "shuō de bù qīng chǔ .",
+            "en": "Speak unclearly."
+          }
+        },
+        {
+          "left": "Have already understood the reading.",
+          "right": {
+            "zh": "已经读懂了。",
+            "py": "yǐ jīng dú dǒng le .",
+            "en": "Have already understood the reading."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u26-t9",
+      "phrase": "s2-u26-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The lake is far from the sea; we will go to the river first.",
+          "right": {
+            "zh": "湖离海很远，我们先去河边。",
+            "py": "hú lí hǎi hěn yuǎn , wǒ men xiān qù hé biān .",
+            "en": "The lake is far from the sea; we will go to the river first."
+          }
+        },
+        {
+          "left": "This route is one kilometre longer than that one.",
+          "right": {
+            "zh": "这条路比那条路长一公里。",
+            "py": "zhè tiáo lù bǐ nà tiáo lù cháng yī gōng lǐ .",
+            "en": "This route is one kilometre longer than that one."
+          }
+        },
+        {
+          "left": "She recites two sentences, rather than carrying a bag on her back.",
+          "right": {
+            "zh": "她背两句话，不是背着一个包。",
+            "py": "tā bèi liǎng jù huà , bù shì bèi zhe yī gè bāo .",
+            "en": "She recites two sentences, rather than carrying a bag on her back."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Specific praise",
+      "natural": {
+        "zh": "这一句说得更清楚了。",
+        "py": "zhè yī jù shuō de gèng qīng chǔ le .",
+        "en": "This sentence is clearer now."
+      },
+      "note": "Do not turn local feedback into an overall score."
+    },
+    {
+      "situation": "A limited request",
+      "natural": {
+        "zh": "只重复第二句吧。",
+        "py": "zhǐ chóng fù dì èr jù ba .",
+        "en": "Repeat just the second sentence."
+      },
+      "note": "State the needed part."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u26-speak",
+    "title": "How was my singing?",
+    "place": "A language-exchange meeting",
+    "context": "Describe performance instead of guessing scores.",
+    "goal": "Read feedback with 得 state complements",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "我说得太快了吗？",
+        "pinyin": "wǒ shuō de tài kuài le ma ?",
+        "meaning": "Did I speak too fast?",
+        "intent": "Give an actionable request",
+        "examples": [
+          "第二句慢一点吧。"
+        ],
+        "accept": [
+          "^第二句慢一点吧。[。！？]?$"
+        ]
+      },
+      {
+        "text": "三十五块。",
+        "pinyin": "sān shí wǔ kuài .",
+        "meaning": "Thirty-five yuan.",
+        "intent": "Confirm the heard amount",
+        "examples": [
+          "是三十五，不是五十三。"
+        ],
+        "accept": [
+          "^是三十五，不是五十三。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二31, 二51. Native check: neutral 得 and object repetition, 读懂 versus 读得慢, 篇/节/下/度 classifiers, 长 cháng versus zhǎng and the original numeric joke. No fluency or pronunciation grade is fabricated. Planned retrieval 二27 / 二53: 湖离海很远，我们先去河边。, 这条路比那条路长一公里。, 她背两句话，不是背着一个包。."
+}

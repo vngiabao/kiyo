@@ -1,0 +1,1370 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u27",
+    "stage": 1,
+    "order": 57,
+    "title": "Have you tried this before?",
+    "titleZh": "去过不等于下次也会",
+    "canDo": [
+      "Describe a past experience with 过",
+      "Separate an itinerary from a completed experience",
+      "Ask what has been confirmed without relying on an old trip"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u26"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u27-w01",
+      "hanzi": "过",
+      "pinyin": "guo",
+      "meaning": "past-experience marker",
+      "meaningVi": "trợ từ trải nghiệm",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我去过那里，但不是今年去的。",
+        "py": "wǒ qù guo nà lǐ , dàn bù shì jīn nián qù de .",
+        "en": "I have been there, but not this year."
+      },
+      "usageNote": "[GF2021:L2:3136] Source entry: 过; guo; 助. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w02",
+      "hanzi": "会",
+      "pinyin": "huì",
+      "meaning": "meeting; gathering",
+      "meaningVi": "cuộc họp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个会下午两点开始。",
+        "py": "zhè gè huì xià wǔ liǎng diǎn kāi shǐ .",
+        "en": "This meeting starts at two in the afternoon."
+      },
+      "usageNote": "[GF2021:L2:3596] Source entry: 会; huì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w03",
+      "hanzi": "机会",
+      "pinyin": "jī huì",
+      "meaning": "opportunity",
+      "meaningVi": "cơ hội",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有机会我想再去。",
+        "py": "yǒu jī huì wǒ xiǎng zài qù .",
+        "en": "If there is an opportunity, I would like to go again."
+      },
+      "usageNote": "[GF2021:L2:3683] Source entry: 机会; jī·huì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w04",
+      "hanzi": "参观",
+      "pinyin": "cān guān",
+      "meaning": "to visit for viewing or learning",
+      "meaningVi": "tham quan",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们参观过那个博物馆。",
+        "py": "wǒ men cān guān guo nà gè bó wù guǎn .",
+        "en": "We have visited that museum."
+      },
+      "usageNote": "[GF2021:L2:698] Source entry: 参观; cānguān; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w05",
+      "hanzi": "出国",
+      "pinyin": "chū guó",
+      "meaning": "to go abroad",
+      "meaningVi": "ra nước ngoài",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "前年我出国学习。",
+        "py": "qián nián wǒ chū guó xué xí .",
+        "en": "I went abroad to study the year before last."
+      },
+      "usageNote": "[GF2021:L2:1121] Source entry: 出国; chū∥guó; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w06",
+      "hanzi": "回国",
+      "pinyin": "huí guó",
+      "meaning": "to return to one’s country",
+      "meaningVi": "về nước",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "去年回国以后，我继续学汉语。",
+        "py": "qù nián huí guó yǐ hòu , wǒ jì xù xué hàn yǔ .",
+        "en": "After returning to my country last year, I continued studying Mandarin."
+      },
+      "usageNote": "[GF2021:L2:3567] Source entry: 回国; huí guó; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w07",
+      "hanzi": "旅行",
+      "pinyin": "lǚ xíng",
+      "meaning": "to travel; journey",
+      "meaningVi": "du lịch; chuyến đi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这次旅行还没有定日期。",
+        "py": "zhè cì lǚ xíng hái méi yǒu dìng rì qī .",
+        "en": "This trip’s dates have not yet been fixed."
+      },
+      "usageNote": "[GF2021:L2:5326] Source entry: 旅行; lǚxíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w08",
+      "hanzi": "旅游",
+      "pinyin": "lǚ yóu",
+      "meaning": "to travel for leisure; tourism",
+      "meaningVi": "du lịch",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "周末旅游，先确认地方。",
+        "py": "zhōu mò lǚ yóu , xiān què rèn dì fāng .",
+        "en": "For a leisure trip this weekend, first confirm the destination."
+      },
+      "usageNote": "[GF2021:L2:5328] Source entry: 旅游; lǚyóu; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w09",
+      "hanzi": "游客",
+      "pinyin": "yóu kè",
+      "meaning": "visitor; tourist",
+      "meaningVi": "du khách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "游客先看入口的通知。",
+        "py": "yóu kè xiān kàn rù kǒu de tōng zhī .",
+        "en": "Visitors read the notice at the entrance first."
+      },
+      "usageNote": "[GF2021:L2:9852] Source entry: 游客; yóukè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w10",
+      "hanzi": "旅客",
+      "pinyin": "lǚ kè",
+      "meaning": "traveller; passenger",
+      "meaningVi": "hành khách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "旅客在车站等车。",
+        "py": "lǚ kè zài chē zhàn děng chē .",
+        "en": "Passengers wait for the vehicle at the station."
+      },
+      "usageNote": "[GF2021:L2:5324] Source entry: 旅客; lǚkè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w11",
+      "hanzi": "护照",
+      "pinyin": "hù zhào",
+      "meaning": "passport",
+      "meaningVi": "hộ chiếu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "护照用于旅行，不是普通会员卡。",
+        "py": "hù zhào yòng yú lǚ xíng , bù shì pǔ tōng huì yuán kǎ .",
+        "en": "A passport is used for travel, not as an ordinary membership card."
+      },
+      "usageNote": "[GF2021:L2:3428] Source entry: 护照; hùzhào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w12",
+      "hanzi": "国际",
+      "pinyin": "guó jì",
+      "meaning": "international",
+      "meaningVi": "quốc tế",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是国际活动，日期还没确认。",
+        "py": "zhè shì guó jì huó dòng , rì qī hái méi què rèn .",
+        "en": "This is an international event; the date is not confirmed yet."
+      },
+      "usageNote": "[GF2021:L2:3083] Source entry: 国际; guójì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w13",
+      "hanzi": "前年",
+      "pinyin": "qián nián",
+      "meaning": "the year before last",
+      "meaningVi": "năm kia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "前年去过，不是说今年已经去。",
+        "py": "qián nián qù guo , bù shì shuō jīn nián yǐ jīng qù .",
+        "en": "Having been the year before last does not mean having already gone this year."
+      },
+      "usageNote": "[GF2021:L2:6344] Source entry: 前年; qiánnián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w14",
+      "hanzi": "起飞",
+      "pinyin": "qǐ fēi",
+      "meaning": "to take off",
+      "meaningVi": "cất cánh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "航班还没有起飞。",
+        "py": "háng bān hái méi yǒu qǐ fēi .",
+        "en": "The flight has not taken off yet."
+      },
+      "usageNote": "[GF2021:L2:6258] Source entry: 起飞; qǐfēi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w15",
+      "hanzi": "船",
+      "pinyin": "chuán",
+      "meaning": "boat; ship",
+      "meaningVi": "thuyền; tàu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "船还没开，先看通知。",
+        "py": "chuán hái méi kāi , xiān kàn tōng zhī .",
+        "en": "The boat has not departed yet; first check the notice."
+      },
+      "usageNote": "[GF2021:L2:1236] Source entry: 船; chuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w16",
+      "hanzi": "骑",
+      "pinyin": "qí",
+      "meaning": "to ride astride",
+      "meaningVi": "cưỡi; đạp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我不会骑这辆车，不能直接出发。",
+        "py": "wǒ bù huì qí zhè liàng chē , bù néng zhí jiē chū fā .",
+        "en": "I do not know how to ride this bicycle, so I cannot just set off."
+      },
+      "usageNote": "[GF2021:L2:6232] Source entry: 骑; qí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w17",
+      "hanzi": "骑车",
+      "pinyin": "qí chē",
+      "meaning": "to ride a bicycle or motorbike",
+      "meaningVi": "đi xe đạp hoặc xe máy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "骑车以前先确认路。",
+        "py": "qí chē yǐ qián xiān què rèn lù .",
+        "en": "Check the route before riding."
+      },
+      "usageNote": "[GF2021:L2:6233] Source entry: 骑车; qí chē; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w18",
+      "hanzi": "自行车",
+      "pinyin": "zì xíng chē",
+      "meaning": "bicycle",
+      "meaningVi": "xe đạp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这辆自行车是借的。",
+        "py": "zhè liàng zì xíng chē shì jiè de .",
+        "en": "This bicycle is borrowed."
+      },
+      "usageNote": "[GF2021:L2:10931] Source entry: 自行车; zìxíngchē; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w19",
+      "hanzi": "外地",
+      "pinyin": "wài dì",
+      "meaning": "another locality; out of town",
+      "meaningVi": "nơi khác; ngoại tỉnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友从外地来，先确认到站时间。",
+        "py": "péng you cóng wài dì lái , xiān què rèn dào zhàn shí jiān .",
+        "en": "My friend is coming from out of town; first confirm the arrival time."
+      },
+      "usageNote": "[GF2021:L2:8245] Source entry: 外地; wàidì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w20",
+      "hanzi": "平安",
+      "pinyin": "píng ān",
+      "meaning": "safe and sound",
+      "meaningVi": "bình an",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "到了以后说一声平安。",
+        "py": "dào le yǐ hòu shuō yī shēng píng ān .",
+        "en": "Let us know you are safe once you arrive."
+      },
+      "usageNote": "[GF2021:L2:6119] Source entry: 平安; píng’ān; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w21",
+      "hanzi": "一路平安",
+      "pinyin": "yí lù píng ān",
+      "meaning": "have a safe journey",
+      "meaningVi": "thượng lộ bình an",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友出发前，我说一路平安。",
+        "py": "péng you chū fā qián , wǒ shuō yí lù píng ān .",
+        "en": "Before my friend leaves, I say Have a safe journey."
+      },
+      "usageNote": "[GF2021:L2:9513] Source entry: 一路平安; yílù-píng’ān; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u27-w22",
+      "hanzi": "一路顺风",
+      "pinyin": "yí lù shùn fēng",
+      "meaning": "have a smooth journey",
+      "meaningVi": "chúc chuyến đi thuận lợi",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一路顺风，到了给我消息。",
+        "py": "yí lù shùn fēng , dào le gěi wǒ xiāo xī .",
+        "en": "Have a smooth journey; message me once you arrive."
+      },
+      "usageNote": "[GF2021:L2:9515] Source entry: 一路顺风; yílù-shùnfēng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "观",
+      "pinyin": "guān",
+      "meaning": "to view; watch",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "观",
+          "role": "whole",
+          "gloss": "to view; watch"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 观 in 参观 / 观点. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "参观",
+          "p": "cān guān",
+          "m": "to visit for viewing or learning"
+        },
+        {
+          "w": "观点",
+          "p": "guān diǎn",
+          "m": "viewpoint"
+        }
+      ]
+    },
+    {
+      "hanzi": "护",
+      "pinyin": "hù",
+      "meaning": "to protect",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "护",
+          "role": "whole",
+          "gloss": "to protect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 护 in 护照. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "护照",
+          "p": "hù zhào",
+          "m": "passport"
+        }
+      ]
+    },
+    {
+      "hanzi": "际",
+      "pinyin": "jì",
+      "meaning": "between; international",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "际",
+          "role": "whole",
+          "gloss": "between; international"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 际 in 国际 / 实际. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "国际",
+          "p": "guó jì",
+          "m": "international"
+        },
+        {
+          "w": "实际",
+          "p": "shí jì",
+          "m": "actual; practical"
+        }
+      ]
+    },
+    {
+      "hanzi": "旅",
+      "pinyin": "lǚ",
+      "meaning": "travel",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "旅",
+          "role": "whole",
+          "gloss": "travel"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 旅 in 旅行 / 旅游. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "旅行",
+          "p": "lǚ xíng",
+          "m": "to travel; journey"
+        },
+        {
+          "w": "旅游",
+          "p": "lǚ yóu",
+          "m": "to travel for leisure; tourism"
+        }
+      ]
+    },
+    {
+      "hanzi": "游",
+      "pinyin": "yóu",
+      "meaning": "to travel; swim",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "游",
+          "role": "whole",
+          "gloss": "to travel; swim"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 游 in 旅游 / 游客. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "旅游",
+          "p": "lǚ yóu",
+          "m": "to travel for leisure; tourism"
+        },
+        {
+          "w": "游客",
+          "p": "yóu kè",
+          "m": "visitor; tourist"
+        }
+      ]
+    },
+    {
+      "hanzi": "于",
+      "pinyin": "yú",
+      "meaning": "at; in; for",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "于",
+          "role": "whole",
+          "gloss": "at; in; for"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 于 in 等于 / 终于. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "等于",
+          "p": "děng yú",
+          "m": "to equal"
+        },
+        {
+          "w": "终于",
+          "p": "zhōng yú",
+          "m": "finally"
+        }
+      ]
+    },
+    {
+      "hanzi": "爬",
+      "pinyin": "pá",
+      "meaning": "to climb; crawl",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "爬",
+          "role": "whole",
+          "gloss": "to climb; crawl"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 爬 in 爬山 / 爬. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "爬山",
+          "p": "pá shān",
+          "m": "to climb a mountain; to hike"
+        },
+        {
+          "w": "爬",
+          "p": "pá",
+          "m": "to climb; crawl"
+        }
+      ]
+    },
+    {
+      "hanzi": "鸟",
+      "pinyin": "niǎo",
+      "meaning": "bird",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "鸟",
+          "role": "whole",
+          "gloss": "bird"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 鸟 in 鸟. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "鸟",
+          "p": "niǎo",
+          "m": "bird"
+        }
+      ]
+    },
+    {
+      "hanzi": "鱼",
+      "pinyin": "yú",
+      "meaning": "fish",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "鱼",
+          "role": "whole",
+          "gloss": "fish"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 鱼 in 鱼. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "鱼",
+          "p": "yú",
+          "m": "fish"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u27-g二32",
+      "pattern": "过：经历标记",
+      "purpose": "Report experience without claiming a current event",
+      "explanation": "去过 means having had the experience. 没去过 denies experience; 不去 is refusal or a plan not to go. 去过 does not specify when, so add 前年 when relevant. 不要 infer that a museum is open now from having visited it before. The particle is neutral guo, unlike full-tone guò in passing by.",
+      "examples": [
+        {
+          "zh": "我去过，但不是今年。",
+          "py": "wǒ qù guo , dàn bù shì jīn nián .",
+          "en": "I have been, but not this year."
+        },
+        {
+          "zh": "我没去过那个地方。",
+          "py": "wǒ méi qù guo nà gè dì fāng .",
+          "en": "I have never been to that place."
+        },
+        {
+          "zh": "前年我参观过那里。",
+          "py": "qián nián wǒ cān guān guo nà lǐ .",
+          "en": "I visited it the year before last."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不去过。意思是没有这个经历。",
+          "right": "我没去过。",
+          "why": "Negate past experience with 没."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u27-g二71",
+      "pattern": "动词 + 过：曾经发生的经历",
+      "purpose": "Separate experience, plans and current confirmation",
+      "explanation": "我坐过船 but 今天船还没开 separates a past experience from today’s departure. 我想参观 is a desire, not a completed visit. 我去年去的 answers the time of an established event; 我去过 answers whether the experience exists. A trip can have occurred without establishing present conditions or expertise.",
+      "examples": [
+        {
+          "zh": "我坐过船，今天还要看发船时间。",
+          "py": "wǒ zuò guo chuán , jīn tiān hái yào kàn fā chuán shí jiān .",
+          "en": "I have taken a boat before; today I still need to check its departure time."
+        },
+        {
+          "zh": "她想参观，还没有参观过。",
+          "py": "tā xiǎng cān guān , hái méi yǒu cān guān guo .",
+          "en": "She wants to visit and has not visited before."
+        },
+        {
+          "zh": "这辆车我没骑过，先问怎么骑。",
+          "py": "zhè liàng chē wǒ méi qí guo , xiān wèn zěn me qí .",
+          "en": "I have never ridden this bicycle; first ask how to ride it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我去过，所以今天一定开门。",
+          "right": "我去过，但今天开不开要确认。",
+          "why": "A past visit cannot confirm today’s opening."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u27-d",
+    "title": "A trip is not a timetable",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which facts are experience and which remain unconfirmed.",
+    "lines": [
+      {
+        "zh": "你去过那个博物馆吗？",
+        "py": "nǐ qù guo nà gè bó wù guǎn ma ?",
+        "en": "Have you been to that museum?",
+        "speaker": "a"
+      },
+      {
+        "zh": "去过，前年出国的时候参观过。",
+        "py": "qù guo , qián nián chū guó de shí hou cān guān guo .",
+        "en": "Yes; I visited it when I went abroad the year before last.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那星期六一定开门吧？",
+        "py": "nà xīng qī liù yí dìng kāi mén ba ?",
+        "en": "Then it must be open on Saturday, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不一定。过去的经历不是今天的通知。",
+        "py": "bù yí dìng . guò qu de jīng lì bù shì jīn tiān de tōng zhī .",
+        "en": "Not necessarily. Past experience is not today’s notice.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这次国际活动的会几点开始？",
+        "py": "zhè cì guó jì huó dòng de huì jǐ diǎn kāi shǐ ?",
+        "en": "What time does the meeting for this international event start?",
+        "speaker": "a"
+      },
+      {
+        "zh": "会是两点，旅行日期还没确认。",
+        "py": "huì shì liǎng diǎn , lǚ xíng rì qī hái méi què rèn .",
+        "en": "The meeting is at two; the trip date is not yet confirmed.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我没坐过船，可以直接选船吗？",
+        "py": "wǒ méi zuò guo chuán , kě yǐ zhí jiē xuǎn chuán ma ?",
+        "en": "I have never taken a boat; can I just choose it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先看行程和发船时间，再选择。",
+        "py": "xiān kàn xíng chéng hé fā chuán shí jiān , zài xuǎn zé .",
+        "en": "Check the itinerary and boat departure time first, then choose.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What must still be checked?",
+        "choices": [
+          "Current opening and travel details",
+          "Whether the old visit ever occurred",
+          "Whether two means three"
+        ],
+        "answer": "Current opening and travel details"
+      },
+      {
+        "type": "detail",
+        "q": "When was the museum visit?",
+        "choices": [
+          "The year before last",
+          "This Saturday",
+          "This morning"
+        ],
+        "answer": "The year before last"
+      },
+      {
+        "type": "inference",
+        "q": "Does a past visit establish Saturday opening?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only after flying"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "行程",
+        "pinyin": "xíng chéng",
+        "meaning": "itinerary"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "经历",
+        "pinyin": "jīng lì",
+        "meaning": "experience"
+      },
+      {
+        "hanzi": "国际",
+        "pinyin": "guó jì",
+        "meaning": "international"
+      },
+      {
+        "hanzi": "博物馆",
+        "pinyin": "bó wù guǎn",
+        "meaning": "museum"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u27-r",
+    "title": "What I have actually done",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read an experience note without turning it into current travel guidance.",
+    "lines": [
+      {
+        "zh": "前年我出国学习，也参观过博物馆。",
+        "py": "qián nián wǒ chū guó xué xí , yě cān guān guo bó wù guǎn .",
+        "en": "The year before last, I went abroad to study and visited a museum."
+      },
+      {
+        "zh": "去年回国以后，我在家继续学习。",
+        "py": "qù nián huí guó yǐ hòu , wǒ zài jiā jì xù xué xí .",
+        "en": "After returning to my country last year, I continued studying at home."
+      },
+      {
+        "zh": "我坐过船，也骑过自行车。",
+        "py": "wǒ zuò guo chuán , yě qí guo zì xíng chē .",
+        "en": "I have taken a boat and ridden a bicycle."
+      },
+      {
+        "zh": "没有看过那里的鱼，也没有爬过那座山。",
+        "py": "méi yǒu kàn guo nà lǐ de yú , yě méi yǒu pá guo nà zuò shān .",
+        "en": "I have not seen the fish there or climbed that mountain."
+      },
+      {
+        "zh": "这些是经历，不是这次旅行的安排。",
+        "py": "zhè xiē shì jīng lì , bù shì zhè cì lǚ xíng de ān pái .",
+        "en": "These are experiences, not arrangements for this trip."
+      },
+      {
+        "zh": "护照用于旅行，证件要求需要看正式通知。",
+        "py": "hù zhào yòng yú lǚ xíng , zhèng jiàn yāo qiú xū yào kàn zhèng shì tōng zhī .",
+        "en": "A passport is used for travel; document requirements must be checked in the formal notice."
+      },
+      {
+        "zh": "游客和旅客都要确认时间，不能只看以前的照片。",
+        "py": "yóu kè hé lǚ kè dōu yào què rèn shí jiān , bù néng zhǐ kàn yǐ qián de zhào piān .",
+        "en": "Visitors and passengers need to confirm times, rather than rely only on old photos."
+      },
+      {
+        "zh": "外地朋友来看我，我说一路平安，到了再发消息。",
+        "py": "wài dì péng you lái kàn wǒ , wǒ shuō yí lù píng ān , dào le zài fā xiāo xī .",
+        "en": "A friend comes from out of town to visit; I wish a safe journey and ask for a message after arrival."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note distinguish?",
+        "choices": [
+          "Past experiences from present plans",
+          "The sea from every lake",
+          "All visitors from all friends"
+        ],
+        "answer": "Past experiences from present plans"
+      },
+      {
+        "type": "detail",
+        "q": "Which activity has not been done?",
+        "choices": [
+          "Climbing that mountain",
+          "Riding a bicycle",
+          "Visiting the museum"
+        ],
+        "answer": "Climbing that mountain"
+      },
+      {
+        "type": "inference",
+        "q": "Where should current document requirements come from?",
+        "choices": [
+          "Formal current information",
+          "The old photograph alone",
+          "An invented rule"
+        ],
+        "answer": "Formal current information"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【前年】我出国学习，也参观过博物馆。",
+          "py": "qián nián wǒ chū guó xué xí , yě cān guān guo bó wù guǎn .",
+          "en": "The year before last, I went abroad to study and visited a museum."
+        },
+        {
+          "zh": "这些是【经历】，不是这次旅行的安排。",
+          "py": "zhè xiē shì jīng lì , bù shì zhè cì lǚ xíng de ān pái .",
+          "en": "These are experiences, not arrangements for this trip."
+        }
+      ],
+      "bank": [
+        "前年",
+        "经历",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "证件",
+        "pinyin": "zhèng jiàn",
+        "meaning": "identity document"
+      },
+      {
+        "hanzi": "用于",
+        "pinyin": "yòng yú",
+        "meaning": "to be used for"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "经历",
+        "pinyin": "jīng lì",
+        "meaning": "experience"
+      },
+      {
+        "hanzi": "博物馆",
+        "pinyin": "bó wù guǎn",
+        "meaning": "museum"
+      },
+      {
+        "hanzi": "正式",
+        "pinyin": "zhèng shì",
+        "meaning": "official; formal"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u27-media",
+      "title": "The experienced postcard",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about relying too much on old pictures.",
+      "lines": [
+        {
+          "zh": "照片里你坐过船，所以今天不用查了？",
+          "py": "zhào piān lǐ nǐ zuò guo chuán , suǒ yǐ jīn tiān bù yòng chá le ?",
+          "en": "You took a boat in the photo, so no need to check today?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我坐过，不是每天都坐。",
+          "py": "wǒ zuò guo , bù shì měi tiān dōu zuò .",
+          "en": "I have taken one, not every day.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那你参观过，也不是永远开门。",
+          "py": "nà nǐ cān guān guo , yě bù shì yǒng yuǎn kāi mén .",
+          "en": "Then having visited does not mean it stays open forever either.",
+          "speaker": "a"
+        },
+        {
+          "zh": "终于懂了。先看通知。",
+          "py": "zhōng yú dǒng le . xiān kàn tōng zhī .",
+          "en": "At last, understood. Check the notice first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "一路顺风，到了告诉我。",
+          "py": "yí lù shùn fēng , dào le gào sù wǒ .",
+          "en": "Have a smooth journey; tell me after arrival.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。祝福不是时刻表。",
+          "py": "hǎo . zhù fú bù shì shí kè biǎo .",
+          "en": "Okay. A good wish is not a timetable.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the final joke limit?",
+          "choices": [
+            "A travel wish cannot supply a schedule",
+            "The friend must not travel",
+            "No notice is needed"
+          ],
+          "answer": "A travel wish cannot supply a schedule"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "永远",
+          "pinyin": "yǒng yuǎn",
+          "meaning": "forever"
+        },
+        {
+          "hanzi": "终于",
+          "pinyin": "zhōng yú",
+          "meaning": "finally"
+        },
+        {
+          "hanzi": "祝福",
+          "pinyin": "zhù fú",
+          "meaning": "good wishes; to wish well"
+        },
+        {
+          "hanzi": "时刻",
+          "pinyin": "shí kè",
+          "meaning": "moment"
+        }
+      ]
+    },
+    {
+      "id": "s2-u27-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "有机会我想再去。",
+          "py": "yǒu jī huì wǒ xiǎng zài qù .",
+          "en": "If there is an opportunity, I would like to go again."
+        },
+        {
+          "zh": "这次没机会见面，下次再约。",
+          "py": "zhè cì méi jī huì jiàn miàn , xià cì zài yuē .",
+          "en": "There is no chance to meet this time; arrange another occasion."
+        },
+        {
+          "zh": "去年回国以后，我继续学汉语。",
+          "py": "qù nián huí guó yǐ hòu , wǒ jì xù xué hàn yǔ .",
+          "en": "After returning to my country last year, I continued studying Mandarin."
+        },
+        {
+          "zh": "周末旅游，先确认地方。",
+          "py": "zhōu mò lǚ yóu , xiān què rèn dì fāng .",
+          "en": "For a leisure trip this weekend, first confirm the destination."
+        },
+        {
+          "zh": "旅游以前先确认地址和时间。",
+          "py": "lǚ yóu yǐ qián xiān què rèn dì zhǐ hé shí jiān .",
+          "en": "Confirm addresses and times before travelling."
+        },
+        {
+          "zh": "护照用于旅行，不是普通会员卡。",
+          "py": "hù zhào yòng yú lǚ xíng , bù shì pǔ tōng huì yuán kǎ .",
+          "en": "A passport is used for travel, not as an ordinary membership card."
+        },
+        {
+          "zh": "这是国际活动，日期还没确认。",
+          "py": "zhè shì guó jì huó dòng , rì qī hái méi què rèn .",
+          "en": "This is an international event; the date is not confirmed yet."
+        },
+        {
+          "zh": "航班还没有起飞。",
+          "py": "háng bān hái méi yǒu qǐ fēi .",
+          "en": "The flight has not taken off yet."
+        },
+        {
+          "zh": "骑车以前先确认路。",
+          "py": "qí chē yǐ qián xiān què rèn lù .",
+          "en": "Check the route before riding."
+        },
+        {
+          "zh": "今天下雨，我不骑车过去。",
+          "py": "jīn tiān xià yǔ , wǒ bù qí chē guò qu .",
+          "en": "It is raining today; I will not cycle there."
+        },
+        {
+          "zh": "这辆自行车是借的。",
+          "py": "zhè liàng zì xíng chē shì jiè de .",
+          "en": "This bicycle is borrowed."
+        },
+        {
+          "zh": "朋友从外地来，先确认到站时间。",
+          "py": "péng you cóng wài dì lái , xiān què rèn dào zhàn shí jiān .",
+          "en": "My friend is coming from out of town; first confirm the arrival time."
+        },
+        {
+          "zh": "朋友出发前，我说一路平安。",
+          "py": "péng you chū fā qián , wǒ shuō yí lù píng ān .",
+          "en": "Before my friend leaves, I say Have a safe journey."
+        },
+        {
+          "zh": "一路顺风，到了给我消息。",
+          "py": "yí lù shùn fēng , dào le gěi wǒ xiāo xī .",
+          "en": "Have a smooth journey; message me once you arrive."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "用于",
+          "pinyin": "yòng yú",
+          "meaning": "to be used for"
+        },
+        {
+          "hanzi": "确认",
+          "pinyin": "què rèn",
+          "meaning": "to confirm"
+        },
+        {
+          "hanzi": "航班",
+          "pinyin": "háng bān",
+          "meaning": "flight"
+        },
+        {
+          "hanzi": "国际",
+          "pinyin": "guó jì",
+          "meaning": "international"
+        },
+        {
+          "hanzi": "约",
+          "pinyin": "yuē",
+          "meaning": "to arrange to meet"
+        },
+        {
+          "hanzi": "继续",
+          "pinyin": "jì xù",
+          "meaning": "to continue"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u27-t1",
+      "phrase": "s2-u27-w01",
+      "audio": {
+        "zh": "我前年去过，今年还没去。",
+        "py": "wǒ qián nián qù guo , jīn nián hái méi qù .",
+        "en": "I went the year before last and have not gone this year."
+      },
+      "statement": "The speaker has already gone this year.",
+      "answer": false,
+      "why": "今年还没去 denies it."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u27-t2",
+      "phrase": "s2-u27-w04",
+      "audio": {
+        "zh": "我想参观，还没有参观过。",
+        "py": "wǒ xiǎng cān guān , hái méi yǒu cān guān guo .",
+        "en": "I want to visit and have not visited before."
+      },
+      "statement": "The visit is only desired so far.",
+      "answer": true,
+      "why": "想 and 没有 contrast desire and experience."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u27-t3",
+      "phrase": "s2-u27-w11",
+      "prompt": {
+        "zh": "这次旅行要什么证件？",
+        "py": "zhè cì lǚ xíng yào shén me zhèng jiàn ?",
+        "en": "What documents does this trip need?"
+      },
+      "choices": [
+        "先看正式通知，再确认。",
+        "照片里肯定都一样。",
+        "一路顺风就是护照。"
+      ],
+      "answer": "先看正式通知，再确认。",
+      "why": "Check actual requirements."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u27-t4",
+      "phrase": "s2-u27-w02",
+      "prompt": {
+        "zh": "这个会几点开始？",
+        "py": "zhè gè huì jǐ diǎn kāi shǐ ?",
+        "en": "When does this meeting begin?"
+      },
+      "choices": [
+        "下午两点。",
+        "我会游泳。",
+        "去过，所以不用问。"
+      ],
+      "answer": "下午两点。",
+      "why": "会 is a meeting noun in this question."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u27-t5",
+      "phrase": "s2-u27-w13",
+      "line": {
+        "zh": "【前年】我参观过那里。",
+        "py": "qián nián wǒ cān guān guo nà lǐ .",
+        "en": "I visited there the year before last."
+      },
+      "blankPy": "qián nián"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u27-t6",
+      "phrase": "s2-u27-w20",
+      "line": {
+        "zh": "到了以后说一声【平安】。",
+        "py": "dào le yǐ hòu shuō yī shēng píng ān .",
+        "en": "Let us know you are safe after arriving."
+      },
+      "blankPy": "píng ān"
+    },
+    {
+      "type": "match",
+      "id": "s2-u27-t7",
+      "phrase": "s2-u27-w10",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Passengers wait at the station.",
+          "right": {
+            "zh": "旅客在车站等车。",
+            "py": "lǚ kè zài chē zhàn děng chē .",
+            "en": "Passengers wait at the station."
+          }
+        },
+        {
+          "left": "Visitors read the entrance notice.",
+          "right": {
+            "zh": "游客看入口通知。",
+            "py": "yóu kè kàn rù kǒu tōng zhī .",
+            "en": "Visitors read the entrance notice."
+          }
+        },
+        {
+          "left": "The flight has not taken off.",
+          "right": {
+            "zh": "航班还没起飞。",
+            "py": "háng bān hái méi qǐ fēi .",
+            "en": "The flight has not taken off."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u27-t8",
+      "phrase": "s2-u27-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I have taken a boat before.",
+          "right": {
+            "zh": "我坐过船。",
+            "py": "wǒ zuò guo chuán .",
+            "en": "I have taken a boat before."
+          }
+        },
+        {
+          "left": "I would like to take a boat.",
+          "right": {
+            "zh": "我想坐船。",
+            "py": "wǒ xiǎng zuò chuán .",
+            "en": "I would like to take a boat."
+          }
+        },
+        {
+          "left": "The boat has not departed today.",
+          "right": {
+            "zh": "今天船还没开。",
+            "py": "jīn tiān chuán hái méi kāi .",
+            "en": "The boat has not departed today."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u27-t9",
+      "phrase": "s2-u27-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I print two pages for a friend.",
+          "right": {
+            "zh": "我为朋友打印两页。",
+            "py": "wǒ wèi péng you dǎ yìn liǎng yè .",
+            "en": "I print two pages for a friend."
+          }
+        },
+        {
+          "left": "She thought about this question for a long time.",
+          "right": {
+            "zh": "她为这个问题想了很久。",
+            "py": "tā wèi zhè gè wèn tí xiǎng le hěn jiǔ .",
+            "en": "She thought about this question for a long time."
+          }
+        },
+        {
+          "left": "This activity is meaningful.",
+          "right": {
+            "zh": "这个活动很有意义。",
+            "py": "zhè gè huó dòng hěn yǒu yì yì .",
+            "en": "This activity is meaningful."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "A past experience",
+      "natural": {
+        "zh": "去过，不过今天还要确认。",
+        "py": "qù guo , bù guò jīn tiān hái yào què rèn .",
+        "en": "I have been, but we still need to check today."
+      },
+      "note": "Do not infer current conditions from history."
+    },
+    {
+      "situation": "A travel wish",
+      "natural": {
+        "zh": "一路平安，到了发消息。",
+        "py": "yí lù píng ān , dào le fā xiāo xī .",
+        "en": "Have a safe journey; message after arriving."
+      },
+      "note": "A good wish is not a guarantee."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u27-speak",
+    "title": "Have you tried this before?",
+    "place": "A language-exchange meeting",
+    "context": "Swap experiences before trying something new.",
+    "goal": "Describe a past experience with 过",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "去过吗？",
+        "pinyin": "qù guo ma ?",
+        "meaning": "Have you been?",
+        "intent": "Report experience without a present guarantee",
+        "examples": [
+          "去过，今天还要确认。"
+        ],
+        "accept": [
+          "^去过，今天还要确认。[。！？]?$"
+        ]
+      },
+      {
+        "text": "我想坐船。",
+        "pinyin": "wǒ xiǎng zuò chuán .",
+        "meaning": "I want to take a boat.",
+        "intent": "Ask for current details",
+        "examples": [
+          "先看发船时间吧。"
+        ],
+        "accept": [
+          "^先看发船时间吧。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二32, 二71. Native check: guo experience particle versus guò motion readings, 会 meeting noun, 骑车 scope, 于 within 用于, passenger/visitor register and postcard joke. Document/transport lines teach verification, not live travel or immigration advice. Planned retrieval 二28 / 二55: 我为朋友打印两页。, 她为这个问题想了很久。, 这个活动很有意义。."
+}

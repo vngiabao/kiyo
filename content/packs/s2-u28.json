@@ -1,0 +1,1319 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u28",
+    "stage": 1,
+    "order": 58,
+    "title": "A room full of friends",
+    "titleZh": "进来坐门开着",
+    "canDo": [
+      "Describe a continuing state with 着",
+      "Locate an object with an existential sentence",
+      "Distinguish an available room from a completed rental agreement"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u27"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u28-w01",
+      "hanzi": "住房",
+      "pinyin": "zhù fáng",
+      "meaning": "housing; dwelling",
+      "meaningVi": "nhà ở",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是住房信息，不是已经租好的房子。",
+        "py": "zhè shì zhù fáng xìn xī , bù shì yǐ jīng zū hǎo de fáng zi .",
+        "en": "This is housing information, not a home already rented."
+      },
+      "usageNote": "[GF2021:L2:10744] Source entry: 住房; zhùfáng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w02",
+      "hanzi": "租",
+      "pinyin": "zū",
+      "meaning": "to rent; lease",
+      "meaningVi": "thuê",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "想租以前先问条件。",
+        "py": "xiǎng zū yǐ qián xiān wèn tiáo jiàn .",
+        "en": "Ask about the conditions before renting."
+      },
+      "usageNote": "[GF2021:L2:10997] Source entry: 租; zū; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w03",
+      "hanzi": "出租",
+      "pinyin": "chū zū",
+      "meaning": "to rent out",
+      "meaningVi": "cho thuê",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这间房出租，但还要确认时间。",
+        "py": "zhè jiān fáng chū zū , dàn hái yào què rèn shí jiān .",
+        "en": "This room is for rent, but the time still needs confirmation."
+      },
+      "usageNote": "[GF2021:L2:1167] Source entry: 出租; chūzū; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w04",
+      "hanzi": "出租车",
+      "pinyin": "chū zū chē",
+      "meaning": "taxi",
+      "meaningVi": "taxi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友坐出租车来看房。",
+        "py": "péng you zuò chū zū chē lái kàn fáng .",
+        "en": "My friend takes a taxi to view the room."
+      },
+      "usageNote": "[GF2021:L2:1168] Source entry: 出租车; chūzūchē; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w05",
+      "hanzi": "酒店",
+      "pinyin": "jiǔ diàn",
+      "meaning": "hotel",
+      "meaningVi": "khách sạn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "酒店是这次暂时住的地方。",
+        "py": "jiǔ diàn shì zhè cì zàn shí zhù de dì fāng .",
+        "en": "The hotel is temporary accommodation for this visit."
+      },
+      "usageNote": "[GF2021:L2:4429] Source entry: 酒店; jiǔdiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w06",
+      "hanzi": "店",
+      "pinyin": "diàn",
+      "meaning": "shop; store",
+      "meaningVi": "cửa hàng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "店里买东西，不是看这间房。",
+        "py": "diàn lǐ mǎi dōng xi , bù shì kàn zhè jiān fáng .",
+        "en": "You buy things in the shop, rather than view this room there."
+      },
+      "usageNote": "[GF2021:L2:1839] Source entry: 店; diàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w07",
+      "hanzi": "大衣",
+      "pinyin": "dà yī",
+      "meaning": "overcoat",
+      "meaningVi": "áo khoác dài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "大衣挂着，别放在地上。",
+        "py": "dà yī guà zhe , bié fàng zài dì shang .",
+        "en": "The overcoat is hanging; do not put it on the floor."
+      },
+      "usageNote": "[GF2021:L2:1521] Source entry: 大衣; dàyī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w08",
+      "hanzi": "大小",
+      "pinyin": "dà xiǎo",
+      "meaning": "size",
+      "meaningVi": "kích thước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "房间的大小要实际看。",
+        "py": "fáng jiān de dà xiǎo yào shí jì kàn .",
+        "en": "The size of the room needs to be seen in person."
+      },
+      "usageNote": "[GF2021:L2:1513] Source entry: 大小; dàxiǎo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w09",
+      "hanzi": "椅子",
+      "pinyin": "yǐ zi",
+      "meaning": "chair",
+      "meaningVi": "ghế",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "门边有两把椅子。",
+        "py": "mén biān yǒu liǎng bǎ yǐ zi .",
+        "en": "There are two chairs by the door."
+      },
+      "usageNote": "[GF2021:L2:9578] Source entry: 椅子; yǐzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w10",
+      "hanzi": "洗衣机",
+      "pinyin": "xǐ yī jī",
+      "meaning": "washing machine",
+      "meaningVi": "máy giặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "洗衣机可以用，但先问怎么用。",
+        "py": "xǐ yī jī kě yǐ yòng , dàn xiān wèn zěn me yòng .",
+        "en": "The washing machine may be used, but first ask how."
+      },
+      "usageNote": "[GF2021:L2:8636] Source entry: 洗衣机; xǐyījī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w11",
+      "hanzi": "洗澡",
+      "pinyin": "xǐ zǎo",
+      "meaning": "to bathe; take a shower",
+      "meaningVi": "tắm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "洗澡前先问热水什么时候有。",
+        "py": "xǐ zǎo qián xiān wèn rè shuǐ shén me shí hou yǒu .",
+        "en": "Before showering, ask when hot water is available."
+      },
+      "usageNote": "[GF2021:L2:8637] Source entry: 洗澡; xǐ∥zǎo; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w12",
+      "hanzi": "脏",
+      "pinyin": "zāng",
+      "meaning": "dirty",
+      "meaningVi": "bẩn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个杯垫有点脏，先洗一下。",
+        "py": "zhè gè bēi diàn yǒu diǎn zāng , xiān xǐ yī xià .",
+        "en": "This coaster is a little dirty; wash it first."
+      },
+      "usageNote": "[GF2021:L2:10146] Source entry: 脏; zāng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w13",
+      "hanzi": "装",
+      "pinyin": "zhuāng",
+      "meaning": "to pack; put into; install",
+      "meaningVi": "xếp vào; lắp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "把书装进包，不装湿衣服。",
+        "py": "bǎ shū zhuāng jìn bāo , bù zhuāng shī yī fú .",
+        "en": "Put the books in the bag, not wet clothes."
+      },
+      "usageNote": "[GF2021:L2:10826] Source entry: 装; zhuāng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w14",
+      "hanzi": "留",
+      "pinyin": "liú",
+      "meaning": "to stay; retain",
+      "meaningVi": "ở lại; giữ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "可以留一会儿，不是今天就搬进来。",
+        "py": "kě yǐ liú yī huì er , bù shì jīn tiān jiù bān jìn lái .",
+        "en": "You may stay a while; that does not mean move in today."
+      },
+      "usageNote": "[GF2021:L2:5235] Source entry: 留; liú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w15",
+      "hanzi": "留下",
+      "pinyin": "liú xia",
+      "meaning": "to leave behind; stay",
+      "meaningVi": "để lại; ở lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "把联系方式留下，明天再说。",
+        "py": "bǎ lián xì fāng shì liú xia , míng tiān zài shuō .",
+        "en": "Leave your contact details; we can discuss tomorrow."
+      },
+      "usageNote": "[GF2021:L2:5239] Source entry: 留下; liúxia; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w16",
+      "hanzi": "里头",
+      "pinyin": "lǐ tou",
+      "meaning": "inside",
+      "meaningVi": "bên trong",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "里头有桌子，先进去看看。",
+        "py": "lǐ tou yǒu zhuō zi , xiān jìn qù kàn kàn .",
+        "en": "There is a table inside; first go in and look."
+      },
+      "usageNote": "[GF2021:L2:5033] Source entry: 里头; lǐtou; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w17",
+      "hanzi": "头",
+      "pinyin": "tou",
+      "meaning": "neutral suffix in location words",
+      "meaningVi": "hậu tố chỉ vị trí",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "里头的头是轻声，不单独读成头发的头。",
+        "py": "lǐ tou de tou shì qīng shēng , bù dān dú dú chéng tóu fà de tou .",
+        "en": "The suffix in 里头 is neutral; it is not read independently as the full-tone 头 in hair."
+      },
+      "usageNote": "[GF2021:L2:8109] Source entry: 头（里头）; tou (lǐtou); 后缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w18",
+      "hanzi": "面",
+      "pinyin": "miàn",
+      "meaning": "face; surface; side",
+      "meaningVi": "mặt; bề mặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "桌子的面很平，没有放书。",
+        "py": "zhuō zi de miàn hěn píng , méi yǒu fàng shū .",
+        "en": "The table’s surface is flat and has no books on it."
+      },
+      "usageNote": "[GF2021:L2:5573] Source entry: 面1; miàn; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w19",
+      "hanzi": "面前",
+      "pinyin": "miàn qián",
+      "meaning": "in front of; before",
+      "meaningVi": "trước mặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "面前有桌子，别挡着门。",
+        "py": "miàn qián yǒu zhuō zi , bié dǎng zhe mén .",
+        "en": "There is a table in front of you; do not block the door."
+      },
+      "usageNote": "[GF2021:L2:5586] Source entry: 面前; miànqián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w20",
+      "hanzi": "有人",
+      "pinyin": "yǒu rén",
+      "meaning": "someone; there are people",
+      "meaningVi": "có người",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "屋里有人，先敲门。",
+        "py": "wū lǐ yǒu rén , xiān qiāo mén .",
+        "en": "There is someone in the room; knock first."
+      },
+      "usageNote": "[GF2021:L2:9885] Source entry: 有人; yǒu rén; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w21",
+      "hanzi": "院",
+      "pinyin": "yuàn",
+      "meaning": "courtyard; institute",
+      "meaningVi": "sân; viện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "院里有树，不是房间里。",
+        "py": "yuàn lǐ yǒu shù , bù shì fáng jiān lǐ .",
+        "en": "There are trees in the courtyard, not inside the room."
+      },
+      "usageNote": "[GF2021:L2:10039] Source entry: 院; yuàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u28-w22",
+      "hanzi": "院子",
+      "pinyin": "yuàn zi",
+      "meaning": "courtyard",
+      "meaningVi": "sân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "院子门开着，但先问能不能进。",
+        "py": "yuàn zi mén kāi zhe , dàn xiān wèn néng bù néng jìn .",
+        "en": "The courtyard gate is open, but first ask whether you may enter."
+      },
+      "usageNote": "[GF2021:L2:10042] Source entry: 院子; yuànzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "租",
+      "pinyin": "zū",
+      "meaning": "to rent",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "租",
+          "role": "whole",
+          "gloss": "to rent"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 租 in 租 / 出租. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "租",
+          "p": "zū",
+          "m": "to rent; lease"
+        },
+        {
+          "w": "出租",
+          "p": "chū zū",
+          "m": "to rent out"
+        }
+      ]
+    },
+    {
+      "hanzi": "椅",
+      "pinyin": "yǐ",
+      "meaning": "chair",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "椅",
+          "role": "whole",
+          "gloss": "chair"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 椅 in 椅子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "椅子",
+          "p": "yǐ zi",
+          "m": "chair"
+        }
+      ]
+    },
+    {
+      "hanzi": "澡",
+      "pinyin": "zǎo",
+      "meaning": "bath",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "澡",
+          "role": "whole",
+          "gloss": "bath"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 澡 in 洗澡. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "洗澡",
+          "p": "xǐ zǎo",
+          "m": "to bathe; take a shower"
+        }
+      ]
+    },
+    {
+      "hanzi": "脏",
+      "pinyin": "zāng",
+      "meaning": "dirty",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "脏",
+          "role": "whole",
+          "gloss": "dirty"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 脏 in 脏. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "脏",
+          "p": "zāng",
+          "m": "dirty"
+        }
+      ]
+    },
+    {
+      "hanzi": "装",
+      "pinyin": "zhuāng",
+      "meaning": "to pack; fit; dress",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "装",
+          "role": "whole",
+          "gloss": "to pack; fit; dress"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 装 in 装 / 装水. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "装",
+          "p": "zhuāng",
+          "m": "to pack; put into; install"
+        },
+        {
+          "w": "装水",
+          "p": "zhuāng shuǐ",
+          "m": "to fill with water"
+        }
+      ]
+    },
+    {
+      "hanzi": "瓶",
+      "pinyin": "píng",
+      "meaning": "bottle",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "瓶",
+          "role": "whole",
+          "gloss": "bottle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 瓶 in 瓶 / 瓶子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "瓶",
+          "p": "píng",
+          "m": "bottle; bottle classifier"
+        },
+        {
+          "w": "瓶子",
+          "p": "píng zi",
+          "m": "bottle"
+        }
+      ]
+    },
+    {
+      "hanzi": "凉",
+      "pinyin": "liáng",
+      "meaning": "cool",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "凉",
+          "role": "whole",
+          "gloss": "cool"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 凉 in 凉 / 凉快. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "凉",
+          "p": "liáng",
+          "m": "cool in temperature"
+        },
+        {
+          "w": "凉快",
+          "p": "liáng kuai",
+          "m": "pleasantly cool"
+        }
+      ]
+    },
+    {
+      "hanzi": "处",
+      "pinyin": "chù",
+      "meaning": "place; aspect",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "处",
+          "role": "whole",
+          "gloss": "place; aspect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 处 in 好处 / 坏处. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "好处",
+          "p": "hǎo chù",
+          "m": "advantage; benefit"
+        },
+        {
+          "w": "坏处",
+          "p": "huài chù",
+          "m": "disadvantage; drawback"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u28-g二33",
+      "pattern": "着：持续状态或动作标记",
+      "purpose": "Describe a state that remains",
+      "explanation": "门开着 states that the door is open; 开了门 reports opening it. 他拿着书 describes holding the book, not whether he is reading it. 着 is neutral zhe here. Open doors do not establish permission, and a continuing position does not prove a completed agreement.",
+      "examples": [
+        {
+          "zh": "门开着，先敲门吧。",
+          "py": "mén kāi zhe , xiān qiāo mén ba .",
+          "en": "The door is open; knock first."
+        },
+        {
+          "zh": "她拿着书，站在门边。",
+          "py": "tā ná zhe shū , zhàn zài mén biān .",
+          "en": "She is holding a book and standing by the door."
+        },
+        {
+          "zh": "大衣挂着，没有放在地上。",
+          "py": "dà yī guà zhe , méi yǒu fàng zài dì shang .",
+          "en": "The overcoat is hanging, not on the floor."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "门开着了，我是在说现在的状态。",
+          "right": "门开着。",
+          "why": "For this plain state description use 着; do not add 了 without a change-of-state context."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u28-g二56",
+      "pattern": "处所 + 是 / 有 / 动词着：存现",
+      "purpose": "Locate what exists in a place",
+      "explanation": "门边有椅子 introduces chairs at the door. 门边是洗手间 identifies what that location is. 桌上放着书 describes books positioned on the table. The place comes first in these existential descriptions. Compare 椅子在门边, which locates an already mentioned chair. Keep introduction and identification distinct.",
+      "examples": [
+        {
+          "zh": "门边有两把椅子。",
+          "py": "mén biān yǒu liǎng bǎ yǐ zi .",
+          "en": "There are two chairs by the door."
+        },
+        {
+          "zh": "门边是洗手间。",
+          "py": "mén biān shì xǐ shǒu jiān .",
+          "en": "The place beside the door is the bathroom."
+        },
+        {
+          "zh": "桌上放着一本书。",
+          "py": "zhuō shàng fàng zhe yī běn shū .",
+          "en": "A book is lying on the table."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "门边在两把椅子。",
+          "right": "门边有两把椅子。",
+          "why": "Introduce the chairs at a location with 有."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u28-g二70",
+      "pattern": "动词 + 着：持续；伴随状态",
+      "purpose": "Read a state accompanying another action",
+      "explanation": "拿着书说话 describes talking while holding a book. The holding accompanies the speaking and does not imply reading. 门开着 is a continuing state; 开门了 is an event or change. Do not infer consent to enter from the physical state, or infer a signed rental from viewing a room.",
+      "examples": [
+        {
+          "zh": "她拿着书介绍房间。",
+          "py": "tā ná zhe shū jiè shào fáng jiān .",
+          "en": "She introduces the room while holding a book."
+        },
+        {
+          "zh": "我站着等，没有坐下。",
+          "py": "wǒ zhàn zhe děng , méi yǒu zuò xià .",
+          "en": "I wait standing and have not sat down."
+        },
+        {
+          "zh": "桌上放着杯子，朋友在旁边说话。",
+          "py": "zhuō shàng fàng zhe bēi zi , péng you zài páng biān shuō huà .",
+          "en": "A cup sits on the table and the friend is talking nearby."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她拿着书，所以一定正在读。",
+          "right": "她拿着书，但现在在说话。",
+          "why": "Holding a book does not establish that reading is occurring."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u28-d",
+    "title": "An open door",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is available and what has not been agreed.",
+    "lines": [
+      {
+        "zh": "院子门开着，我可以直接进去吗？",
+        "py": "yuàn zi mén kāi zhe , wǒ kě yǐ zhí jiē jìn qù ma ?",
+        "en": "The courtyard gate is open; may I just enter?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先敲门问一声，里头有人。",
+        "py": "xiān qiāo mén wèn yī shēng , lǐ tou yǒu rén .",
+        "en": "Knock and ask first; there is someone inside.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你好，我们来看出租的房间。",
+        "py": "nǐ hǎo , wǒ men lái kàn chū zū de fáng jiān .",
+        "en": "Hello; we came to view the room for rent.",
+        "speaker": "a"
+      },
+      {
+        "zh": "请进。门边有椅子，面前是桌子。",
+        "py": "qǐng jìn . mén biān yǒu yǐ zi , miàn qián shì zhuō zi .",
+        "en": "Please come in. There are chairs by the door and the table is in front.",
+        "speaker": "b"
+      },
+      {
+        "zh": "洗衣机和热水可以用吗？",
+        "py": "xǐ yī jī hé rè shuǐ kě yǐ yòng ma ?",
+        "en": "May the washing machine and hot water be used?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，但先问怎么用、什么时候用。",
+        "py": "kě yǐ , dàn xiān wèn zěn me yòng , shén me shí hou yòng .",
+        "en": "Yes, but first ask how and when to use them.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那今天就能搬进来？",
+        "py": "nà jīn tiān jiù néng bān jìn lái ?",
+        "en": "Then may we move in today?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没定。先看大小和条件，留下联系方式，明天再说。",
+        "py": "hái méi dìng . xiān kàn dà xiǎo hé tiáo jiàn , liú xia lián xì fāng shì , míng tiān zài shuō .",
+        "en": "Not settled yet. First see the size and conditions, leave contact details, and discuss tomorrow.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is actually happening?",
+        "choices": [
+          "A room viewing with details still to confirm",
+          "A completed rental and immediate move",
+          "A closed hotel visit"
+        ],
+        "answer": "A room viewing with details still to confirm"
+      },
+      {
+        "type": "detail",
+        "q": "What is by the door?",
+        "choices": [
+          "Chairs",
+          "A river",
+          "A washing machine in the doorway"
+        ],
+        "answer": "Chairs"
+      },
+      {
+        "type": "inference",
+        "q": "Does an open gate alone give permission?",
+        "choices": [
+          "No, they are told to ask first",
+          "Yes",
+          "Only when carrying a book"
+        ],
+        "answer": "No, they are told to ask first"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "请进",
+        "pinyin": "qǐng jìn",
+        "meaning": "please come in"
+      },
+      {
+        "hanzi": "敲门",
+        "pinyin": "qiāo mén",
+        "meaning": "to knock at the door"
+      },
+      {
+        "hanzi": "搬",
+        "pinyin": "bān",
+        "meaning": "to move; carry"
+      },
+      {
+        "hanzi": "联系方式",
+        "pinyin": "lián xì fāng shì",
+        "meaning": "contact details"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u28-r",
+    "title": "A room-viewing note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the location and state descriptions without assuming an agreement.",
+    "lines": [
+      {
+        "zh": "朋友坐出租车来，先在院子门口敲门。",
+        "py": "péng you zuò chū zū chē lái , xiān zài yuàn zi mén kǒu qiāo mén .",
+        "en": "My friend arrives by taxi and first knocks at the courtyard entrance."
+      },
+      {
+        "zh": "门开着，屋里有人，所以先问。",
+        "py": "mén kāi zhe , wū lǐ yǒu rén , suǒ yǐ xiān wèn .",
+        "en": "The gate is open and someone is inside, so the friend asks first."
+      },
+      {
+        "zh": "门边有椅子，桌上放着杯子，杯子里没有水。",
+        "py": "mén biān yǒu yǐ zi , zhuō shàng fàng zhe bēi zi , bēi zi lǐ méi yǒu shuǐ .",
+        "en": "There are chairs by the door and cups on the table; the cups contain no water."
+      },
+      {
+        "zh": "大衣挂着，包放着，书还没有装进去。",
+        "py": "dà yī guà zhe , bāo fàng zhe , shū hái méi yǒu zhuāng jìn qù .",
+        "en": "The coat is hanging, the bag is set down, and the books have not been packed into it."
+      },
+      {
+        "zh": "房间凉快，瓶子倒了，先放好，脏杯垫也先洗。",
+        "py": "fáng jiān liáng kuài , píng zi dào le , xiān fàng hǎo , zāng bēi diàn yě xiān xǐ .",
+        "en": "The room is cool; a bottle has fallen over and should be put properly in place, and the dirty coaster washed."
+      },
+      {
+        "zh": "洗衣机在洗手间外面，使用时间还要问。",
+        "py": "xǐ yī jī zài xǐ shǒu jiān wài miàn , shǐ yòng shí jiān hái yào wèn .",
+        "en": "The washing machine is outside the bathroom; its hours of use still need asking."
+      },
+      {
+        "zh": "看住房大小和条件，不是看到开门就已经租好。",
+        "py": "kàn zhù fáng dà xiǎo hé tiáo jiàn , bù shì kàn dào kāi mén jiù yǐ jīng zū hǎo .",
+        "en": "Check the dwelling’s size and conditions; seeing an open door does not mean the rental is complete."
+      },
+      {
+        "zh": "留下联系方式以后先回酒店，明天再商量。",
+        "py": "liú xia lián xì fāng shì yǐ hòu xiān huí jiǔ diàn , míng tiān zài shāng liáng .",
+        "en": "After leaving contact details, return to the hotel for now and discuss tomorrow."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What distinction matters?",
+        "choices": [
+          "The room’s current state versus a rental agreement",
+          "The courtyard and a confirmed contract are identical",
+          "The cups prove permission"
+        ],
+        "answer": "The room’s current state versus a rental agreement"
+      },
+      {
+        "type": "detail",
+        "q": "Have the books been packed?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only into the washing machine"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Where does the viewer go afterward?",
+        "choices": [
+          "Back to the hotel",
+          "Immediately move into the room",
+          "Into the closed shop"
+        ],
+        "answer": "Back to the hotel"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "门【开着】，屋里有人，所以先问。",
+          "py": "mén kāi zhe , wū lǐ yǒu rén , suǒ yǐ xiān wèn .",
+          "en": "The gate is open and someone is inside, so the friend asks first."
+        },
+        {
+          "zh": "留下联系方式以后先回【酒店】，明天再商量。",
+          "py": "liú xia lián xì fāng shì yǐ hòu xiān huí jiǔ diàn , míng tiān zài shāng liáng .",
+          "en": "After leaving contact details, return to the hotel for now and discuss tomorrow."
+        }
+      ],
+      "bank": [
+        "开着",
+        "酒店",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "洗手间",
+        "pinyin": "xǐ shǒu jiān",
+        "meaning": "toilet; bathroom"
+      },
+      {
+        "hanzi": "杯垫",
+        "pinyin": "bēi diàn",
+        "meaning": "coaster"
+      },
+      {
+        "hanzi": "敲门",
+        "pinyin": "qiāo mén",
+        "meaning": "to knock at the door"
+      },
+      {
+        "hanzi": "联系方式",
+        "pinyin": "lián xì fāng shì",
+        "meaning": "contact details"
+      },
+      {
+        "hanzi": "屋",
+        "pinyin": "wū",
+        "meaning": "room; dwelling"
+      },
+      {
+        "hanzi": "挂",
+        "pinyin": "guà",
+        "meaning": "to hang"
+      },
+      {
+        "hanzi": "倒",
+        "pinyin": "dào",
+        "meaning": "to fall; tip over"
+      },
+      {
+        "hanzi": "使用",
+        "pinyin": "shǐ yòng",
+        "meaning": "to use"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u28-media",
+      "title": "A door that cannot sign",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a physical state and permission.",
+      "lines": [
+        {
+          "zh": "门开着，是欢迎我吗？",
+          "py": "mén kāi zhe , shì huān yíng wǒ ma ?",
+          "en": "The door is open; is it welcoming me?",
+          "speaker": "a"
+        },
+        {
+          "zh": "门不会说话，先问屋里的人。",
+          "py": "mén bù huì shuō huà , xiān wèn wū lǐ de rén .",
+          "en": "The door cannot speak; ask the person inside first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "桌上放着杯子，给我的吗？",
+          "py": "zhuō shàng fàng zhe bēi zi , gěi wǒ de ma ?",
+          "en": "There are cups on the table; are they for me?",
+          "speaker": "a"
+        },
+        {
+          "zh": "杯子也没说。问一声吧。",
+          "py": "bēi zi yě méi shuō . wèn yī shēng ba .",
+          "en": "The cups did not say either. Ask first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，先问，别替门同意。",
+          "py": "hǎo , xiān wèn , bié tì mén tóng yì .",
+          "en": "Okay, ask first; do not consent on the door’s behalf.",
+          "speaker": "a"
+        },
+        {
+          "zh": "终于。请进，先看房间。",
+          "py": "zhōng yú . qǐng jìn , xiān kàn fáng jiān .",
+          "en": "At last. Please come in and look at the room first.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the joke’s practical point?",
+          "choices": [
+            "A physical state is not permission",
+            "Furniture gives legal consent",
+            "The viewer has already rented"
+          ],
+          "answer": "A physical state is not permission"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "请进",
+          "pinyin": "qǐng jìn",
+          "meaning": "please come in"
+        },
+        {
+          "hanzi": "屋",
+          "pinyin": "wū",
+          "meaning": "room; dwelling"
+        },
+        {
+          "hanzi": "终于",
+          "pinyin": "zhōng yú",
+          "meaning": "finally"
+        }
+      ]
+    },
+    {
+      "id": "s2-u28-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这是住房信息，不是已经租好的房子。",
+          "py": "zhè shì zhù fáng xìn xī , bù shì yǐ jīng zū hǎo de fáng zi .",
+          "en": "This is housing information, not a home already rented."
+        },
+        {
+          "zh": "朋友坐出租车来看房。",
+          "py": "péng you zuò chū zū chē lái kàn fáng .",
+          "en": "My friend takes a taxi to view the room."
+        },
+        {
+          "zh": "酒店是这次暂时住的地方。",
+          "py": "jiǔ diàn shì zhè cì zàn shí zhù de dì fāng .",
+          "en": "The hotel is temporary accommodation for this visit."
+        },
+        {
+          "zh": "店里买东西，不是看这间房。",
+          "py": "diàn lǐ mǎi dōng xi , bù shì kàn zhè jiān fáng .",
+          "en": "You buy things in the shop, rather than view this room there."
+        },
+        {
+          "zh": "洗澡前先问热水什么时候有。",
+          "py": "xǐ zǎo qián xiān wèn rè shuǐ shén me shí hou yǒu .",
+          "en": "Before showering, ask when hot water is available."
+        },
+        {
+          "zh": "我洗澡以后再回消息。",
+          "py": "wǒ xǐ zǎo yǐ hòu zài huí xiāo xī .",
+          "en": "I will reply after taking a shower."
+        },
+        {
+          "zh": "这个杯垫有点脏，先洗一下。",
+          "py": "zhè gè bēi diàn yǒu diǎn zāng , xiān xǐ yī xià .",
+          "en": "This coaster is a little dirty; wash it first."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "杯垫",
+          "pinyin": "bēi diàn",
+          "meaning": "coaster"
+        },
+        {
+          "hanzi": "暂时",
+          "pinyin": "zàn shí",
+          "meaning": "temporarily"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u28-t1",
+      "phrase": "s2-u28-w02",
+      "audio": {
+        "zh": "先看房间，明天再商量租。",
+        "py": "xiān kàn fáng jiān , míng tiān zài shāng liáng zū .",
+        "en": "View the room first and discuss renting tomorrow."
+      },
+      "statement": "The rental is complete.",
+      "answer": false,
+      "why": "It remains for later discussion."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u28-t2",
+      "phrase": "s2-u28-w13",
+      "audio": {
+        "zh": "书还没有装进包。",
+        "py": "shū hái méi yǒu zhuāng jìn bāo .",
+        "en": "The books have not yet been packed into the bag."
+      },
+      "statement": "The books remain unpacked.",
+      "answer": true,
+      "why": "还没有 denies completion."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u28-t3",
+      "phrase": "s2-u28-w20",
+      "prompt": {
+        "zh": "屋里有人，我能直接进吗？",
+        "py": "wū lǐ yǒu rén , wǒ néng zhí jiē jìn ma ?",
+        "en": "Someone is in the room; may I just enter?"
+      },
+      "choices": [
+        "先敲门问一声。",
+        "有人就是可以。",
+        "把椅子洗澡。"
+      ],
+      "answer": "先敲门问一声。",
+      "why": "Ask permission first."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u28-t4",
+      "phrase": "s2-u28-w15",
+      "prompt": {
+        "zh": "今天就搬来吗？",
+        "py": "jīn tiān jiù bān lái ma ?",
+        "en": "Move in today?"
+      },
+      "choices": [
+        "还没定，先留下联系方式。",
+        "当然，门开着就是租好了。",
+        "杯子已经同意。"
+      ],
+      "answer": "还没定，先留下联系方式。",
+      "why": "Separate viewing from agreement."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u28-t5",
+      "phrase": "s2-u28-w22",
+      "line": {
+        "zh": "【院子】门开着，先问一声。",
+        "py": "yuàn zi mén kāi zhe , xiān wèn yī shēng .",
+        "en": "The courtyard gate is open; ask first."
+      },
+      "blankPy": "yuàn zi"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u28-t6",
+      "phrase": "s2-u28-w09",
+      "line": {
+        "zh": "门边有两把【椅子】。",
+        "py": "mén biān yǒu liǎng bǎ yǐ zi .",
+        "en": "There are two chairs by the door."
+      },
+      "blankPy": "yǐ zi"
+    },
+    {
+      "type": "match",
+      "id": "s2-u28-t7",
+      "phrase": "s2-u28-w17",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Someone is inside.",
+          "right": {
+            "zh": "里头有人。",
+            "py": "lǐ tou yǒu rén .",
+            "en": "Someone is inside."
+          }
+        },
+        {
+          "left": "The hair is long.",
+          "right": {
+            "zh": "头发很长。",
+            "py": "tóu fà hěn cháng .",
+            "en": "The hair is long."
+          }
+        },
+        {
+          "left": "A table is in front.",
+          "right": {
+            "zh": "面前有桌子。",
+            "py": "miàn qián yǒu zhuō zi .",
+            "en": "A table is in front."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u28-t8",
+      "phrase": "s2-u28-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The door is open.",
+          "right": {
+            "zh": "门开着。",
+            "py": "mén kāi zhe .",
+            "en": "The door is open."
+          }
+        },
+        {
+          "left": "She opened the door.",
+          "right": {
+            "zh": "她开了门。",
+            "py": "tā kāi le mén .",
+            "en": "She opened the door."
+          }
+        },
+        {
+          "left": "She talks while holding a book.",
+          "right": {
+            "zh": "她拿着书说话。",
+            "py": "tā ná zhe shū shuō huà .",
+            "en": "She talks while holding a book."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u28-t9",
+      "phrase": "s2-u28-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Read or watch a film tomorrow; it is not settled.",
+          "right": {
+            "zh": "明天读书或者看影片，还没定。",
+            "py": "míng tiān dú shū huò zhě kàn yǐng piàn , hái méi dìng .",
+            "en": "Read or watch a film tomorrow; it is not settled."
+          }
+        },
+        {
+          "left": "Would you like to read or listen to music?",
+          "right": {
+            "zh": "你想读书还是听音乐？",
+            "py": "nǐ xiǎng dú shū hái shi tīng yīn yuè ?",
+            "en": "Would you like to read or listen to music?"
+          }
+        },
+        {
+          "left": "Either I speak first or you do.",
+          "right": {
+            "zh": "或者我先讲，或者你先讲。",
+            "py": "huò zhě wǒ xiān jiǎng , huò zhě nǐ xiān jiǎng .",
+            "en": "Either I speak first or you do."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Permission before entry",
+      "natural": {
+        "zh": "门开着也先问一声。",
+        "py": "mén kāi zhe yě xiān wèn yī shēng .",
+        "en": "Ask first even if the door is open."
+      },
+      "note": "A physical state does not give consent."
+    },
+    {
+      "situation": "A provisional viewing",
+      "natural": {
+        "zh": "先看条件，明天再商量。",
+        "py": "xiān kàn tiáo jiàn , míng tiān zài shāng liáng .",
+        "en": "Check the conditions first and discuss tomorrow."
+      },
+      "note": "Do not infer a rental contract."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u28-speak",
+    "title": "A room full of friends",
+    "place": "A language-exchange meeting",
+    "context": "Describe the scene and ongoing actions.",
+    "goal": "Describe a continuing state with 着",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "门开着。",
+        "pinyin": "mén kāi zhe .",
+        "meaning": "The door is open.",
+        "intent": "Ask before entering",
+        "examples": [
+          "你好，可以进来吗？"
+        ],
+        "accept": [
+          "^你好，可以进来吗？[。！？]?$"
+        ]
+      },
+      {
+        "text": "今天就租好吗？",
+        "pinyin": "jīn tiān jiù zū hǎo ma ?",
+        "meaning": "Is renting settled today?",
+        "intent": "Keep the agreement provisional",
+        "examples": [
+          "还没定，明天再商量。"
+        ],
+        "accept": [
+          "^还没定，明天再商量。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二33, 二56, 二70. Native check: existential 是/有/放着, state versus event 了, head suffix tou, 面1 surface sense distinct from flour, room/rental collocations and original object-consent joke. No rental agreement or legal conclusion is claimed. Planned retrieval 二29 / 二64: 明天读书或者看影片，还没定。, 你想读书还是听音乐？, 或者我先讲，或者你先讲。."
+}
