@@ -1,0 +1,1509 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u30",
+    "stage": 1,
+    "order": 60,
+    "title": "Dropping by briefly",
+    "titleZh": "有空的话我来一下",
+    "canDo": [
+      "Arrange a brief visit with a condition and an exit",
+      "Read vague short-wait expressions without inventing minutes",
+      "Use 喂 for opening a telephone call"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u29"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u30-w01",
+      "hanzi": "院长",
+      "pinyin": "yuàn zhǎng",
+      "meaning": "head of an institute or hospital",
+      "meaningVi": "viện trưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "院长不在这里，我们先问联系人。",
+        "py": "yuàn zhǎng bù zài zhè lǐ , wǒ men xiān wèn lián xì rén .",
+        "en": "The head is not here; first ask the contact person."
+      },
+      "usageNote": "[GF2021:L2:10041] Source entry: 院长; yuànzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w02",
+      "hanzi": "住院",
+      "pinyin": "zhù yuàn",
+      "meaning": "to be hospitalized",
+      "meaningVi": "nằm viện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "朋友住院了，探望时间要先问。",
+        "py": "péng you zhù yuàn le , tàn wàng shí jiān yào xiān wèn .",
+        "en": "My friend is in hospital; visiting times should be asked about first."
+      },
+      "usageNote": "[GF2021:L2:10747] Source entry: 住院; zhù∥yuàn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w03",
+      "hanzi": "出院",
+      "pinyin": "chū yuàn",
+      "meaning": "to be discharged from hospital",
+      "meaningVi": "xuất viện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她已经出院，今天在家休息。",
+        "py": "tā yǐ jīng chū yuàn , jīn tiān zài jiā xiū xī .",
+        "en": "She has been discharged and is resting at home today."
+      },
+      "usageNote": "[GF2021:L2:1161] Source entry: 出院; chū∥yuàn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w04",
+      "hanzi": "健康",
+      "pinyin": "jiàn kāng",
+      "meaning": "healthy; health",
+      "meaningVi": "khỏe mạnh; sức khỏe",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "关心健康，也尊重她不想说的事。",
+        "py": "guān xīn jiàn kāng , yě zūn zhòng tā bù xiǎng shuō de shì .",
+        "en": "Care about health and respect what she does not wish to discuss."
+      },
+      "usageNote": "[GF2021:L2:3999] Source entry: 健康; jiànkāng; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w05",
+      "hanzi": "西医",
+      "pinyin": "xī yī",
+      "meaning": "Western medicine; practitioner of it",
+      "meaningVi": "Tây y; bác sĩ Tây y",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她说问过西医，我们不替医生判断。",
+        "py": "tā shuō wèn guò xī yī , wǒ men bù tì yī shēng pàn duàn .",
+        "en": "She says she has consulted a Western-medicine clinician; we do not judge in the clinician’s place."
+      },
+      "usageNote": "[GF2021:L2:8602] Source entry: 西医; xīyī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w06",
+      "hanzi": "中医",
+      "pinyin": "zhōng yī",
+      "meaning": "Chinese medicine; practitioner of it",
+      "meaningVi": "Đông y; thầy thuốc Đông y",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "中医是她提到的词，不是我给的建议。",
+        "py": "zhōng yī shì tā tí dào de cí , bù shì wǒ gěi de jiàn yì .",
+        "en": "Chinese medicine is a term she mentions, not a recommendation from me."
+      },
+      "usageNote": "[GF2021:L2:10634] Source entry: 中医; zhōngyī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w07",
+      "hanzi": "药店",
+      "pinyin": "yào diàn",
+      "meaning": "pharmacy",
+      "meaningVi": "hiệu thuốc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "药店的位置可以问，怎么用药要问专业人员。",
+        "py": "yào diàn de wèi zhì kě yǐ wèn , zěn me yòng yào yào wèn zhuān yè rén yuán .",
+        "en": "You can ask a pharmacy’s location; medication use should be asked of a professional."
+      },
+      "usageNote": "[GF2021:L2:9406] Source entry: 药店; yàodiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w08",
+      "hanzi": "药片",
+      "pinyin": "yào piàn",
+      "meaning": "tablet; pill",
+      "meaningVi": "viên thuốc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她说有药片，但没有说怎么服用。",
+        "py": "tā shuō yǒu yào piàn , dàn méi yǒu shuō zěn me fú yòng .",
+        "en": "She says she has tablets but has not said how they are taken."
+      },
+      "usageNote": "[GF2021:L2:9408] Source entry: 药片; yàopiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w09",
+      "hanzi": "药水",
+      "pinyin": "yào shuǐ",
+      "meaning": "liquid medicine",
+      "meaningVi": "thuốc nước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "瓶上写药水，不是饮料。",
+        "py": "píng shàng xiě yào shuǐ , bù shì yǐn liào .",
+        "en": "The bottle is labelled liquid medicine, not a drink."
+      },
+      "usageNote": "[GF2021:L2:9410] Source entry: 药水; yàoshuǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w10",
+      "hanzi": "养",
+      "pinyin": "yǎng",
+      "meaning": "to raise; keep; maintain",
+      "meaningVi": "nuôi; dưỡng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她想养一只猫，现在还没有养。",
+        "py": "tā xiǎng yǎng yī zhǐ māo , xiàn zài hái méi yǒu yǎng .",
+        "en": "She wants to keep a cat but does not yet have one."
+      },
+      "usageNote": "[GF2021:L2:9372] Source entry: 养; yǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w11",
+      "hanzi": "全身",
+      "pinyin": "quán shēn",
+      "meaning": "the whole body",
+      "meaningVi": "toàn thân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她说全身累，想先休息。",
+        "py": "tā shuō quán shēn lèi , xiǎng xiān xiū xī .",
+        "en": "She says her whole body feels tired and wants to rest first."
+      },
+      "usageNote": "[GF2021:L2:6615] Source entry: 全身; quánshēn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w12",
+      "hanzi": "闻",
+      "pinyin": "wén",
+      "meaning": "to smell; sniff; hear of",
+      "meaningVi": "ngửi; nghe thấy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "闻到饭的味道，不等于现在想吃。",
+        "py": "wén dào fàn de wèi dào , bù děng yú xiàn zài xiǎng chī .",
+        "en": "Smelling food does not mean wanting to eat now."
+      },
+      "usageNote": "[GF2021:L2:8470] Source entry: 闻; wén; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w13",
+      "hanzi": "空气",
+      "pinyin": "kōng qì",
+      "meaning": "air",
+      "meaningVi": "không khí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她想去院子呼吸空气，但还要问自己方便不方便。",
+        "py": "tā xiǎng qù yuàn zi hū xī kōng qì , dàn hái yào wèn zì jǐ fāng biàn bù fāng biàn .",
+        "en": "She wants some air in the courtyard, but still needs to consider whether it is convenient for her."
+      },
+      "usageNote": "[GF2021:L2:4754] Source entry: 空气; kōngqì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w14",
+      "hanzi": "地球",
+      "pinyin": "dì qiú",
+      "meaning": "Earth",
+      "meaningVi": "Trái Đất",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "书里讲地球，不是今天的天气预报。",
+        "py": "shū lǐ jiǎng dì qiú , bù shì jīn tiān de tiān qì yù bào .",
+        "en": "The book discusses Earth, not today’s weather forecast."
+      },
+      "usageNote": "[GF2021:L2:1768] Source entry: 地球; dìqiú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w15",
+      "hanzi": "太阳",
+      "pinyin": "tài yáng",
+      "meaning": "sun",
+      "meaningVi": "mặt trời",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "太阳出来了，但她还在休息。",
+        "py": "tài yáng chū lái le , dàn tā hái zài xiū xī .",
+        "en": "The sun has come out, but she is still resting."
+      },
+      "usageNote": "[GF2021:L2:7777] Source entry: 太阳; tài·yáng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w16",
+      "hanzi": "月亮",
+      "pinyin": "yuè liang",
+      "meaning": "moon",
+      "meaningVi": "mặt trăng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "晚上窗外有月亮。",
+        "py": "wǎn shang chuāng wài yǒu yuè liang .",
+        "en": "The moon is outside the window at night."
+      },
+      "usageNote": "[GF2021:L2:10057] Source entry: 月亮; yuèliang; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w17",
+      "hanzi": "星星",
+      "pinyin": "xīng xing",
+      "meaning": "star",
+      "meaningVi": "ngôi sao",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她喜欢看星星，不一定想出门。",
+        "py": "tā xǐ huān kàn xīng xing , bù yí dìng xiǎng chū mén .",
+        "en": "She likes looking at stars but does not necessarily want to go out."
+      },
+      "usageNote": "[GF2021:L2:9053] Source entry: 星星; xīngxing; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w18",
+      "hanzi": "夜",
+      "pinyin": "yè",
+      "meaning": "night",
+      "meaningVi": "đêm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "夜里我们不再打电话。",
+        "py": "yè lǐ wǒ men bù zài dǎ diàn huà .",
+        "en": "We do not call again at night."
+      },
+      "usageNote": "[GF2021:L2:9450] Source entry: 夜; yè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w19",
+      "hanzi": "天上",
+      "pinyin": "tiān shàng",
+      "meaning": "in the sky",
+      "meaningVi": "trên trời",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "天上有云，不是室内有云。",
+        "py": "tiān shàng yǒu yún , bù shì shì nèi yǒu yún .",
+        "en": "There are clouds in the sky, not indoors."
+      },
+      "usageNote": "[GF2021:L2:7942] Source entry: 天上; tiānshàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w20",
+      "hanzi": "月份",
+      "pinyin": "yuè fèn",
+      "meaning": "month; month of the year",
+      "meaningVi": "tháng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "预约的月份还没说，不能猜。",
+        "py": "yù yuē de yuè fèn hái méi shuō , bù néng cāi .",
+        "en": "The appointment month has not been stated and cannot be guessed."
+      },
+      "usageNote": "[GF2021:L2:10056] Source entry: 月份; yuèfèn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w21",
+      "hanzi": "一生",
+      "pinyin": "yī shēng",
+      "meaning": "one’s whole life; lifetime",
+      "meaningVi": "cả đời",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "一生的习惯不是一晚就能知道。",
+        "py": "yī shēng de xí guàn bù shì yī wǎn jiù néng zhī dào .",
+        "en": "A person’s lifelong habits cannot be known in one evening."
+      },
+      "usageNote": "[GF2021:L2:9611] Source entry: 一生; yìshēng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u30-w22",
+      "hanzi": "永远",
+      "pinyin": "yǒng yuǎn",
+      "meaning": "forever; always",
+      "meaningVi": "mãi mãi",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "永远尊重朋友，也包括让她休息。",
+        "py": "yǒng yuǎn zūn zhòng péng you , yě bāo kuò ràng tā xiū xī .",
+        "en": "Always respecting a friend includes letting her rest."
+      },
+      "usageNote": "[GF2021:L2:9786] Source entry: 永远; yǒngyuǎn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "健",
+      "pinyin": "jiàn",
+      "meaning": "healthy; strong",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "健",
+          "role": "whole",
+          "gloss": "healthy; strong"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 健 in 健康. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "健康",
+          "p": "jiàn kāng",
+          "m": "healthy; health"
+        }
+      ]
+    },
+    {
+      "hanzi": "康",
+      "pinyin": "kāng",
+      "meaning": "health",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "康",
+          "role": "whole",
+          "gloss": "health"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 康 in 健康. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "健康",
+          "p": "jiàn kāng",
+          "m": "healthy; health"
+        }
+      ]
+    },
+    {
+      "hanzi": "养",
+      "pinyin": "yǎng",
+      "meaning": "to raise; maintain",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "养",
+          "role": "whole",
+          "gloss": "to raise; maintain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 养 in 养 / 休养. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "养",
+          "p": "yǎng",
+          "m": "to raise; keep; maintain"
+        },
+        {
+          "w": "休养",
+          "p": "xiū yǎng",
+          "m": "to rest and recuperate"
+        }
+      ]
+    },
+    {
+      "hanzi": "药",
+      "pinyin": "yào",
+      "meaning": "medicine",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "药",
+          "role": "whole",
+          "gloss": "medicine"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 药 in 药店 / 药片. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "药店",
+          "p": "yào diàn",
+          "m": "pharmacy"
+        },
+        {
+          "w": "药片",
+          "p": "yào piàn",
+          "m": "tablet; pill"
+        }
+      ]
+    },
+    {
+      "hanzi": "疼",
+      "pinyin": "téng",
+      "meaning": "to hurt; painful",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "疼",
+          "role": "whole",
+          "gloss": "to hurt; painful"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 疼 in 疼. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "疼",
+          "p": "téng",
+          "m": "to hurt; pain"
+        }
+      ]
+    },
+    {
+      "hanzi": "云",
+      "pinyin": "yún",
+      "meaning": "cloud",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "云",
+          "role": "whole",
+          "gloss": "cloud"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 云 in 多云 / 云. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "多云",
+          "p": "duō yún",
+          "m": "cloudy"
+        },
+        {
+          "w": "云",
+          "p": "yún",
+          "m": "cloud"
+        }
+      ]
+    },
+    {
+      "hanzi": "以",
+      "pinyin": "yǐ",
+      "meaning": "by; with; in order to",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "以",
+          "role": "whole",
+          "gloss": "by; with; in order to"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 以 in 以后 / 以前. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "以后",
+          "p": "yǐ hòu",
+          "m": "after; later"
+        },
+        {
+          "w": "以前",
+          "p": "yǐ qián",
+          "m": "before; formerly"
+        }
+      ]
+    },
+    {
+      "hanzi": "喂",
+      "pinyin": "wèi",
+      "meaning": "hello on the telephone; feed",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "喂",
+          "role": "whole",
+          "gloss": "hello on the telephone; feed"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 喂 in 喂. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "喂",
+          "p": "wéi",
+          "m": "hello? (on the phone)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u30-g二35",
+      "pattern": "的话 / 等：条件与列举",
+      "purpose": "Read the whole phrase instead of its literal pieces",
+      "explanation": "有空的话 introduces a condition, not somebody’s spoken words. 药片、药水等 is a non-exhaustive list, not an instruction to wait. Compare 等一会儿, the waiting verb in another context. Neither an open list nor a condition provides missing doses, dates or permission.",
+      "examples": [
+        {
+          "zh": "方便的话，我来坐一会儿。",
+          "py": "fāng biàn de huà , wǒ lái zuò yī huì er .",
+          "en": "If convenient, I will come and sit a while."
+        },
+        {
+          "zh": "药片、药水等都先放好。",
+          "py": "yào piàn , yào shuǐ děng dōu xiān fàng hǎo .",
+          "en": "Put the tablets, liquid medicine and so on properly in place first."
+        },
+        {
+          "zh": "等一会儿，再问她方便不方便。",
+          "py": "děng yī huì er , zài wèn tā fāng biàn bù fāng biàn .",
+          "en": "Wait a while, then ask whether it is convenient for her."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "有空的话，所以我一定来。意思是还要看方便不方便。",
+          "right": "有空的话，我再来。",
+          "why": "Keep the visit conditional instead of asserting certain arrival."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u30-g二42",
+      "pattern": "不一会儿：短时间后的变化",
+      "purpose": "Recognize a short unspecified interval",
+      "explanation": "不一会儿电话响了 describes a short interval before a change. It does not mean an exact five minutes. 坐一会儿 states a short duration of sitting; 不一会儿…了 introduces what happens afterward. If the visit needs an exact end time, ask and state it separately.",
+      "examples": [
+        {
+          "zh": "不一会儿，她回了消息。",
+          "py": "bù yī huì er , tā huí le xiāo xī .",
+          "en": "A little later, she replied to the message."
+        },
+        {
+          "zh": "我坐一会儿就走。",
+          "py": "wǒ zuò yī huì er jiù zǒu .",
+          "en": "I will sit a short while and then leave."
+        },
+        {
+          "zh": "五点离开，这是确认的时间。",
+          "py": "wǔ diǎn lí kāi , zhè shì què rèn de shí jiān .",
+          "en": "Leave at five; that is the confirmed time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "不一会儿一定就是五分钟。",
+          "right": "不一会儿说的是短时间，不是准确分钟。",
+          "why": "The expression itself does not supply an exact duration."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u30-g二36",
+      "pattern": "喂：电话开场的叹词",
+      "purpose": "Open a telephone call and identify yourself",
+      "explanation": "喂，你好，我是… can open a call. Use the stated greeting and identify yourself, then ask whether speaking is convenient. Do not read it as 喂动物 feed animals, another full-tone reading and meaning. A greeting is not consent to a long call; allow the listener to decline.",
+      "examples": [
+        {
+          "zh": "喂，你好，我是小王。",
+          "py": "wèi , nǐ hǎo , wǒ shì xiǎo wáng .",
+          "en": "Hello, this is Xiao Wang."
+        },
+        {
+          "zh": "现在方便说话吗？",
+          "py": "xiàn zài fāng biàn shuō huà ma ?",
+          "en": "Is it convenient to talk now?"
+        },
+        {
+          "zh": "不方便的话，我晚点儿再联系。",
+          "py": "bù fāng biàn de huà , wǒ wǎn diǎn ér zài lián xì .",
+          "en": "If inconvenient, I will contact you later."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "喂！必须现在一直说。",
+          "right": "喂，你好，现在方便吗？",
+          "why": "The greeting should not become a demand for an uninterrupted call."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u30-d",
+    "title": "Five means the exit time",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the condition, agreed end time and optional visit.",
+    "lines": [
+      {
+        "zh": "喂，你好，我是小王。现在方便吗？",
+        "py": "wèi , nǐ hǎo , wǒ shì xiǎo wáng . xiàn zài fāng biàn ma ?",
+        "en": "Hello, this is Xiao Wang. Is now convenient?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以说一小会儿。我已经出院，在家休息。",
+        "py": "kě yǐ shuō yī xiǎo huì ér . wǒ yǐ jīng chū yuàn , zài jiā xiū xī .",
+        "en": "We can talk briefly. I have been discharged and am resting at home.",
+        "speaker": "b"
+      },
+      {
+        "zh": "方便的话，我来坐一会儿？",
+        "py": "fāng biàn de huà , wǒ lái zuò yī huì er ?",
+        "en": "If convenient, may I visit briefly?",
+        "speaker": "a"
+      },
+      {
+        "zh": "今天可以，四点半来，五点走。",
+        "py": "jīn tiān kě yǐ , sì diǎn bàn lái , wǔ diǎn zǒu .",
+        "en": "Today is fine: come at half past four and leave at five.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好。不一会儿你回消息，是五分钟的意思吗？",
+        "py": "hǎo . bù yī huì er nǐ huí xiāo xī , shì wǔ fēn zhōng de yì si ma ?",
+        "en": "Okay. When you say you replied shortly afterward, does that mean five minutes?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是准确分钟。今天五点走才是定好的时间。",
+        "py": "bù shì zhǔn què fēn zhōng . jīn tiān wǔ diǎn zǒu cái shì dìng hǎo de shí jiān .",
+        "en": "It is not an exact number of minutes. Leaving at five today is the agreed time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "需要我带药片、药水等吗？",
+        "py": "xū yào wǒ dài yào piàn , yào shuǐ děng ma ?",
+        "en": "Do you need me to bring tablets, liquid medicine or things like that?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用，不要替我安排用药。来问候就好。",
+        "py": "bù yòng , bú yào tì wǒ ān pái yòng yào . lái wèn hòu jiù hǎo .",
+        "en": "No; do not arrange medication for me. A greeting visit is enough.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What visit is agreed?",
+        "choices": [
+          "Today from 4:30 to 5, with no medication arrangement",
+          "An unlimited night visit",
+          "Five minutes after an invented reply"
+        ],
+        "answer": "Today from 4:30 to 5, with no medication arrangement"
+      },
+      {
+        "type": "detail",
+        "q": "When should the visitor leave?",
+        "choices": [
+          "Five",
+          "Half past four",
+          "Midnight"
+        ],
+        "answer": "Five"
+      },
+      {
+        "type": "inference",
+        "q": "What does the friend decline?",
+        "choices": [
+          "The visitor arranging medication",
+          "All contact",
+          "Leaving at five"
+        ],
+        "answer": "The visitor arranging medication"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "安排",
+        "pinyin": "ān pái",
+        "meaning": "arrangement"
+      },
+      {
+        "hanzi": "问候",
+        "pinyin": "wèn hòu",
+        "meaning": "greeting; to ask after"
+      },
+      {
+        "hanzi": "药",
+        "pinyin": "yào",
+        "meaning": "medicine"
+      },
+      {
+        "hanzi": "一小会儿",
+        "pinyin": "yī xiǎo huì ér",
+        "meaning": "a short while"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u30-r",
+    "title": "A considerate short visit",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the actual boundary and information that remains unstated.",
+    "lines": [
+      {
+        "zh": "朋友以前住院，已经出院，今天在家休养。",
+        "py": "péng you yǐ qián zhù yuàn , yǐ jīng chū yuàn , jīn tiān zài jiā xiū yǎng .",
+        "en": "My friend was previously hospitalized, has been discharged, and is resting at home today."
+      },
+      {
+        "zh": "我先打电话，喂，你好，现在方便吗？",
+        "py": "wǒ xiān dǎ diàn huà , wèi , nǐ hǎo , xiàn zài fāng biàn ma ?",
+        "en": "I phone first: hello, is now convenient?"
+      },
+      {
+        "zh": "方便的话我再去，不方便就改天。",
+        "py": "fāng biàn de huà wǒ zài qù , bù fāng biàn jiù gǎi tiān .",
+        "en": "I will go if convenient; if not, another day."
+      },
+      {
+        "zh": "她答应今天四点半见，五点结束。",
+        "py": "tā dā yìng jīn tiān sì diǎn bàn jiàn , wǔ diǎn jié shù .",
+        "en": "She agrees to meet today at half past four and finish at five."
+      },
+      {
+        "zh": "不一会儿回消息只说短时间，不给准确分钟。",
+        "py": "bù yī huì er huí xiāo xī zhǐ shuō duǎn shí jiān , bù gěi zhǔn què fēn zhōng .",
+        "en": "Replying shortly afterward describes a short interval without exact minutes."
+      },
+      {
+        "zh": "太阳出来，天上有云，她还是想休息。",
+        "py": "tài yáng chū lái , tiān shàng yǒu yún , tā hái shi xiǎng xiū xī .",
+        "en": "The sun is out and clouds are in the sky; she still wants to rest."
+      },
+      {
+        "zh": "我不问全身哪里疼，也不替她诊断和安排药。",
+        "py": "wǒ bù wèn quán shēn nǎ lǐ téng , yě bù tì tā zhěn duàn hé ān pái yào .",
+        "en": "I do not question which parts hurt or diagnose and arrange medication on her behalf."
+      },
+      {
+        "zh": "她没说预约月份，我们不猜；问候后按时离开。",
+        "py": "tā méi shuō yù yuē yuè fèn , wǒ men bù cāi ; wèn hòu hòu àn shí lí kāi .",
+        "en": "She has not given the appointment month, so we do not guess; after greeting her, we leave on time."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What makes the visit considerate?",
+        "choices": [
+          "Consent, a time limit and respect for privacy",
+          "Guessing medication use",
+          "Treating a greeting as unrestricted permission"
+        ],
+        "answer": "Consent, a time limit and respect for privacy"
+      },
+      {
+        "type": "detail",
+        "q": "Which detail remains unstated?",
+        "choices": [
+          "Appointment month",
+          "Today’s end time",
+          "Whether she is at home"
+        ],
+        "answer": "Appointment month"
+      },
+      {
+        "type": "inference",
+        "q": "Does sunshine prove she wants an outing?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only at five"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "方便【的话】我再去，不方便就改天。",
+          "py": "fāng biàn de huà wǒ zài qù , bù fāng biàn jiù gǎi tiān .",
+          "en": "I will go if convenient; if not, another day."
+        },
+        {
+          "zh": "她答应今天四点半见，五点【结束】。",
+          "py": "tā dā yìng jīn tiān sì diǎn bàn jiàn , wǔ diǎn jié shù .",
+          "en": "She agrees to meet today at half past four and finish at five."
+        }
+      ],
+      "bank": [
+        "的话",
+        "结束",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "休养",
+        "pinyin": "xiū yǎng",
+        "meaning": "to rest and recuperate"
+      },
+      {
+        "hanzi": "安排",
+        "pinyin": "ān pái",
+        "meaning": "arrangement"
+      },
+      {
+        "hanzi": "问候",
+        "pinyin": "wèn hòu",
+        "meaning": "greeting; to ask after"
+      },
+      {
+        "hanzi": "药",
+        "pinyin": "yào",
+        "meaning": "medicine"
+      },
+      {
+        "hanzi": "疼",
+        "pinyin": "téng",
+        "meaning": "to hurt; pain"
+      },
+      {
+        "hanzi": "诊断",
+        "pinyin": "zhěn duàn",
+        "meaning": "diagnosis"
+      },
+      {
+        "hanzi": "云",
+        "pinyin": "yún",
+        "meaning": "cloud"
+      },
+      {
+        "hanzi": "结束",
+        "pinyin": "jié shù",
+        "meaning": "to end; finish"
+      },
+      {
+        "hanzi": "约",
+        "pinyin": "yuē",
+        "meaning": "to arrange; make an appointment"
+      },
+      {
+        "hanzi": "按",
+        "pinyin": "àn",
+        "meaning": "according to"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u30-media",
+      "title": "A short visit, really",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about taking a time boundary seriously.",
+      "lines": [
+        {
+          "zh": "我只来一会儿，天上的云都还没走。",
+          "py": "wǒ zhǐ lái yī huì er , tiān shàng de yún dōu hái méi zǒu .",
+          "en": "I will visit briefly; even the clouds have not gone.",
+          "speaker": "a"
+        },
+        {
+          "zh": "云没有约定，我有。五点休息。",
+          "py": "yún méi yǒu yuē dìng , wǒ yǒu . wǔ diǎn xiū xī .",
+          "en": "The clouds have no agreement; I do. I rest at five.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，五点走，不跟月亮一起坐。",
+          "py": "hǎo , wǔ diǎn zǒu , bù gēn yuè liang yì qǐ zuò .",
+          "en": "Okay, leave at five; I will not stay sitting with the moon.",
+          "speaker": "a"
+        },
+        {
+          "zh": "谢谢。问候到了，时间也要到。",
+          "py": "xiè xiè . wèn hòu dào le , shí jiān yě yào dào .",
+          "en": "Thanks. Your greeting arrived; the end time should too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "晚安，今天不再打扰。",
+          "py": "wǎn ān , jīn tiān bù zài dǎ rǎo .",
+          "en": "Good night; no more disturbance today.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好，明天有空再聊。",
+          "py": "hǎo , míng tiān yǒu kōng zài liáo .",
+          "en": "Okay; talk tomorrow if there is time.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the joke reinforce?",
+          "choices": [
+            "The agreed end time",
+            "An all-night invitation",
+            "A cloud forecast"
+          ],
+          "answer": "The agreed end time"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "问候",
+          "pinyin": "wèn hòu",
+          "meaning": "greeting; to ask after"
+        },
+        {
+          "hanzi": "打扰",
+          "pinyin": "dǎ rǎo",
+          "meaning": "to disturb"
+        },
+        {
+          "hanzi": "云",
+          "pinyin": "yún",
+          "meaning": "cloud"
+        },
+        {
+          "hanzi": "约",
+          "pinyin": "yuē",
+          "meaning": "to arrange; make an appointment"
+        }
+      ]
+    },
+    {
+      "id": "s2-u30-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "院长不在这里，我们先问联系人。",
+          "py": "yuàn zhǎng bù zài zhè lǐ , wǒ men xiān wèn lián xì rén .",
+          "en": "The head is not here; first ask the contact person."
+        },
+        {
+          "zh": "院长今天不在，通知由办公室发。",
+          "py": "yuàn zhǎng jīn tiān bù zài , tōng zhī yóu bàn gōng shì fā .",
+          "en": "The hospital director is absent today; the office issues the notice."
+        },
+        {
+          "zh": "关心健康，也尊重她不想说的事。",
+          "py": "guān xīn jiàn kāng , yě zūn zhòng tā bù xiǎng shuō de shì .",
+          "en": "Care about health and respect what she does not wish to discuss."
+        },
+        {
+          "zh": "关心朋友的健康，也要尊重她不想说的事。",
+          "py": "guān xīn péng you de jiàn kāng , yě yào zūn zhòng tā bù xiǎng shuō de shì .",
+          "en": "Care about a friend’s health and respect things she does not want to discuss."
+        },
+        {
+          "zh": "她说问过西医，我们不替医生判断。",
+          "py": "tā shuō wèn guò xī yī , wǒ men bù tì yī shēng pàn duàn .",
+          "en": "She says she has consulted a Western-medicine clinician; we do not judge in the clinician’s place."
+        },
+        {
+          "zh": "她想找西医，先问能不能预约。",
+          "py": "tā xiǎng zhǎo xī yī , xiān wèn néng bù néng yù yuē .",
+          "en": "She wants to consult a practitioner of Western medicine; first ask whether an appointment is available."
+        },
+        {
+          "zh": "中医是她提到的词，不是我给的建议。",
+          "py": "zhōng yī shì tā tí dào de cí , bù shì wǒ gěi de jiàn yì .",
+          "en": "Chinese medicine is a term she mentions, not a recommendation from me."
+        },
+        {
+          "zh": "她问中医门诊几点开，不是在问药店。",
+          "py": "tā wèn zhōng yī mén zhěn jǐ diǎn kāi , bù shì zài wèn yào diàn .",
+          "en": "She asks when the Chinese medicine clinic opens, not the pharmacy."
+        },
+        {
+          "zh": "药店的位置可以问，怎么用药要问专业人员。",
+          "py": "yào diàn de wèi zhì kě yǐ wèn , zěn me yòng yào yào wèn zhuān yè rén yuán .",
+          "en": "You can ask a pharmacy’s location; medication use should be asked of a professional."
+        },
+        {
+          "zh": "药店地址变了，先看新通知。",
+          "py": "yào diàn dì zhǐ biàn le , xiān kàn xīn tōng zhī .",
+          "en": "The pharmacy has changed address; read the new notice first."
+        },
+        {
+          "zh": "她想养一只猫，现在还没有养。",
+          "py": "tā xiǎng yǎng yī zhǐ māo , xiàn zài hái méi yǒu yǎng .",
+          "en": "She wants to keep a cat but does not yet have one."
+        },
+        {
+          "zh": "她说全身累，想先休息。",
+          "py": "tā shuō quán shēn lèi , xiǎng xiān xiū xī .",
+          "en": "She says her whole body feels tired and wants to rest first."
+        },
+        {
+          "zh": "闻到饭的味道，不等于现在想吃。",
+          "py": "wén dào fàn de wèi dào , bù děng yú xiàn zài xiǎng chī .",
+          "en": "Smelling food does not mean wanting to eat now."
+        },
+        {
+          "zh": "我闻到饭香了，不过还没问吃什么。",
+          "py": "wǒ wén dào fàn xiāng le , bù guò hái méi wèn chī shén me .",
+          "en": "I smell food cooking, but have not asked what we will eat."
+        },
+        {
+          "zh": "她想去院子呼吸空气，但还要问自己方便不方便。",
+          "py": "tā xiǎng qù yuàn zi hū xī kōng qì , dàn hái yào wèn zì jǐ fāng biàn bù fāng biàn .",
+          "en": "She wants some air in the courtyard, but still needs to consider whether it is convenient for her."
+        },
+        {
+          "zh": "屋里空气不好，我们先出去。",
+          "py": "wū lǐ kōng qì bù hǎo , wǒ men xiān chū qù .",
+          "en": "The indoor air is unpleasant; let us go outside first."
+        },
+        {
+          "zh": "书里讲地球，不是今天的天气预报。",
+          "py": "shū lǐ jiǎng dì qiú , bù shì jīn tiān de tiān qì yù bào .",
+          "en": "The book discusses Earth, not today’s weather forecast."
+        },
+        {
+          "zh": "这段话讲地球，不是在讲某个城市。",
+          "py": "zhè duàn huà jiǎng dì qiú , bù shì zài jiǎng mǒu gè chéng shì .",
+          "en": "This passage concerns Earth, not a particular city."
+        },
+        {
+          "zh": "晚上窗外有月亮。",
+          "py": "wǎn shang chuāng wài yǒu yuè liang .",
+          "en": "The moon is outside the window at night."
+        },
+        {
+          "zh": "她喜欢看星星，不一定想出门。",
+          "py": "tā xǐ huān kàn xīng xing , bù yí dìng xiǎng chū mén .",
+          "en": "She likes looking at stars but does not necessarily want to go out."
+        },
+        {
+          "zh": "今天云很多，看不到星星。",
+          "py": "jīn tiān yún hěn duō , kàn bù dào xīng xing .",
+          "en": "There are many clouds today; the stars are not visible."
+        },
+        {
+          "zh": "夜里我们不再打电话。",
+          "py": "yè lǐ wǒ men bù zài dǎ diàn huà .",
+          "en": "We do not call again at night."
+        },
+        {
+          "zh": "一生的习惯不是一晚就能知道。",
+          "py": "yī shēng de xí guàn bù shì yī wǎn jiù néng zhī dào .",
+          "en": "A person’s lifelong habits cannot be known in one evening."
+        },
+        {
+          "zh": "这篇故事写一个人的一生，不只写一天。",
+          "py": "zhè piān gù shì xiě yī gè rén de yī shēng , bù zhǐ xiě yī tiān .",
+          "en": "This story describes a person’s lifetime, not just one day."
+        },
+        {
+          "zh": "永远尊重朋友，也包括让她休息。",
+          "py": "yǒng yuǎn zūn zhòng péng you , yě bāo kuò ràng tā xiū xī .",
+          "en": "Always respecting a friend includes letting her rest."
+        },
+        {
+          "zh": "我不能答应永远不改时间，但改了会告诉你。",
+          "py": "wǒ bù néng dā yìng yǒng yuǎn bù gǎi shí jiān , dàn gǎi le huì gào sù nǐ .",
+          "en": "I cannot promise never to change the time, but will tell you if it changes."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "药",
+          "pinyin": "yào",
+          "meaning": "medicine"
+        },
+        {
+          "hanzi": "联系人",
+          "pinyin": "lián xì rén",
+          "meaning": "contact person"
+        },
+        {
+          "hanzi": "云",
+          "pinyin": "yún",
+          "meaning": "cloud"
+        },
+        {
+          "hanzi": "约",
+          "pinyin": "yuē",
+          "meaning": "to arrange; make an appointment"
+        },
+        {
+          "hanzi": "办公室",
+          "pinyin": "bàn gōng shì",
+          "meaning": "office"
+        },
+        {
+          "hanzi": "尊重",
+          "pinyin": "zūn zhòng",
+          "meaning": "to respect"
+        },
+        {
+          "hanzi": "判断",
+          "pinyin": "pàn duàn",
+          "meaning": "to judge"
+        },
+        {
+          "hanzi": "建议",
+          "pinyin": "jiàn yì",
+          "meaning": "suggestion"
+        },
+        {
+          "hanzi": "门诊",
+          "pinyin": "mén zhěn",
+          "meaning": "outpatient clinic"
+        },
+        {
+          "hanzi": "专业",
+          "pinyin": "zhuān yè",
+          "meaning": "professional; specialized"
+        },
+        {
+          "hanzi": "猫",
+          "pinyin": "māo",
+          "meaning": "cat"
+        },
+        {
+          "hanzi": "香",
+          "pinyin": "xiāng",
+          "meaning": "fragrant; aroma"
+        },
+        {
+          "hanzi": "呼吸",
+          "pinyin": "hū xī",
+          "meaning": "to breathe; breathing"
+        },
+        {
+          "hanzi": "屋里",
+          "pinyin": "wū lǐ",
+          "meaning": "inside the room"
+        },
+        {
+          "hanzi": "某个",
+          "pinyin": "mǒu gè",
+          "meaning": "a certain"
+        },
+        {
+          "hanzi": "城市",
+          "pinyin": "chéng shì",
+          "meaning": "city"
+        },
+        {
+          "hanzi": "窗",
+          "pinyin": "chuāng",
+          "meaning": "window"
+        },
+        {
+          "hanzi": "习惯",
+          "pinyin": "xí guàn",
+          "meaning": "habit"
+        },
+        {
+          "hanzi": "篇",
+          "pinyin": "piān",
+          "meaning": "classifier for articles"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u30-t1",
+      "phrase": "s2-u30-w20",
+      "audio": {
+        "zh": "她还没有说预约月份。",
+        "py": "tā hái méi yǒu shuō yù yuē yuè fèn .",
+        "en": "She has not stated the appointment month."
+      },
+      "statement": "The month is known.",
+      "answer": false,
+      "why": "还没有 states it is missing."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u30-t2",
+      "phrase": "s2-u30-w03",
+      "audio": {
+        "zh": "她已经出院，在家休息。",
+        "py": "tā yǐ jīng chū yuàn , zài jiā xiū xī .",
+        "en": "She has been discharged and is resting at home."
+      },
+      "statement": "She is at home now.",
+      "answer": true,
+      "why": "在家 states the location."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u30-t3",
+      "phrase": "s2-u30-w04",
+      "prompt": {
+        "zh": "我想先休息，不说这些。",
+        "py": "wǒ xiǎng xiān xiū xī , bù shuō zhè xiē .",
+        "en": "I want to rest first and not discuss this."
+      },
+      "choices": [
+        "好，我们改天再聊。",
+        "那我一直问全身。",
+        "我替你选药。"
+      ],
+      "answer": "好，我们改天再聊。",
+      "why": "Respect the refusal."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u30-t4",
+      "phrase": "s2-u30-w18",
+      "prompt": {
+        "zh": "夜里还打电话吗？",
+        "py": "yè lǐ hái dǎ diàn huà ma ?",
+        "en": "Call again at night?"
+      },
+      "choices": [
+        "不用，今天不再打扰。",
+        "是，永远一直打。",
+        "天上有医院。"
+      ],
+      "answer": "不用，今天不再打扰。",
+      "why": "Honor the stated rest boundary."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u30-t5",
+      "phrase": "s2-u30-w15",
+      "line": {
+        "zh": "【太阳】出来，她还想休息。",
+        "py": "tài yáng chū lái , tā hái xiǎng xiū xī .",
+        "en": "The sun is out and she still wants to rest."
+      },
+      "blankPy": "tài yáng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u30-t6",
+      "phrase": "s2-u30-w02",
+      "line": {
+        "zh": "朋友以前【住院】，现在在家。",
+        "py": "péng you yǐ qián zhù yuàn , xiàn zài zài jiā .",
+        "en": "The friend was previously hospitalized and is now at home."
+      },
+      "blankPy": "zhù yuàn"
+    },
+    {
+      "type": "match",
+      "id": "s2-u30-t7",
+      "phrase": "s2-u30-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Has been discharged.",
+          "right": {
+            "zh": "已经出院。",
+            "py": "yǐ jīng chū yuàn .",
+            "en": "Has been discharged."
+          }
+        },
+        {
+          "left": "Appointment month not stated.",
+          "right": {
+            "zh": "预约月份没说。",
+            "py": "yù yuē yuè fèn méi shuō .",
+            "en": "Appointment month not stated."
+          }
+        },
+        {
+          "left": "Liquid medicine is not a beverage.",
+          "right": {
+            "zh": "药水不是饮料。",
+            "py": "yào shuǐ bù shì yǐn liào .",
+            "en": "Liquid medicine is not a beverage."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u30-t8",
+      "phrase": "s2-u30-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Come if there is time.",
+          "right": {
+            "zh": "有空的话再来。",
+            "py": "yǒu kōng de huà zài lái .",
+            "en": "Come if there is time."
+          }
+        },
+        {
+          "left": "Reply shortly afterward.",
+          "right": {
+            "zh": "不一会儿回消息。",
+            "py": "bù yī huì er huí xiāo xī .",
+            "en": "Reply shortly afterward."
+          }
+        },
+        {
+          "left": "Leave at five.",
+          "right": {
+            "zh": "五点走。",
+            "py": "wǔ diǎn zǒu .",
+            "en": "Leave at five."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u30-t9",
+      "phrase": "s2-u30-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Although it rains, the time has not changed.",
+          "right": {
+            "zh": "虽然下雨，但是时间没变。",
+            "py": "suī rán xià yǔ , dàn shì shí jiān méi biàn .",
+            "en": "Although it rains, the time has not changed."
+          }
+        },
+        {
+          "left": "An open door does not mean you may enter directly.",
+          "right": {
+            "zh": "门开着，不等于可以直接进去。",
+            "py": "mén kāi zhe , bù děng yú kě yǐ zhí jiē jìn qù .",
+            "en": "An open door does not mean you may enter directly."
+          }
+        },
+        {
+          "left": "A book lies on the table; she has not read it yet.",
+          "right": {
+            "zh": "桌上放着书，她还没有读。",
+            "py": "zhuō shàng fàng zhe shū , tā hái méi yǒu dú .",
+            "en": "A book lies on the table; she has not read it yet."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask before visiting",
+      "natural": {
+        "zh": "方便的话，我来坐一会儿？",
+        "py": "fāng biàn de huà , wǒ lái zuò yī huì er ?",
+        "en": "May I visit briefly if convenient?"
+      },
+      "note": "Allow refusal; do not assume availability."
+    },
+    {
+      "situation": "Respect the limit",
+      "natural": {
+        "zh": "好，五点我就走。",
+        "py": "hǎo , wǔ diǎn wǒ jiù zǒu .",
+        "en": "Okay, I will leave at five."
+      },
+      "note": "Use the actual end time rather than vague briefly."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u30-speak",
+    "title": "Dropping by briefly",
+    "place": "A language-exchange meeting",
+    "context": "Understand conditional phrasing and short waits.",
+    "goal": "Arrange a brief visit with a condition and an exit",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "现在方便吗？",
+        "pinyin": "xiàn zài fāng biàn ma ?",
+        "meaning": "Is now convenient?",
+        "intent": "Allow a short call",
+        "examples": [
+          "可以说一会儿。"
+        ],
+        "accept": [
+          "^可以说一会儿。[。！？]?$"
+        ]
+      },
+      {
+        "text": "五点休息。",
+        "pinyin": "wǔ diǎn xiū xī .",
+        "meaning": "I rest at five.",
+        "intent": "Confirm departure",
+        "examples": [
+          "好，五点我就走。"
+        ],
+        "accept": [
+          "^好，五点我就走。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二35, 二42, 二36. Native check: telephone 喂 pronunciation, conditional 的话 versus literal words, 不一会儿 interval versus 一会儿 duration, home-visit register and figurative cloud scene. Health words are comprehension examples; no diagnosis, drug choice or dose is taught. Planned retrieval 二30 / 二65 / 二33 / 二56 / 二70: 虽然下雨，但是时间没变。, 门开着，不等于可以直接进去。, 桌上放着书，她还没有读。."
+}

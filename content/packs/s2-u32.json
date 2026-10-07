@@ -1,0 +1,1330 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u32",
+    "stage": 1,
+    "order": 62,
+    "title": "Not everyone has the same story",
+    "titleZh": "每个人的故事不一样",
+    "canDo": [
+      "Give age, date and other short nominal predicates",
+      "Keep a personal background separate from an unsupported generalization",
+      "Read source senses of 得、长 and 省 in context"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u31"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u32-w01",
+      "hanzi": "变",
+      "pinyin": "biàn",
+      "meaning": "to change",
+      "meaningVi": "thay đổi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "计划变了，先问清楚。",
+        "py": "jì huà biàn le , xiān wèn qīng chǔ .",
+        "en": "The plan changed; clarify it first."
+      },
+      "usageNote": "[GF2021:L2:394] Source entry: 变; biàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w02",
+      "hanzi": "变成",
+      "pinyin": "biàn chéng",
+      "meaning": "to turn into; become",
+      "meaningVi": "trở thành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "小组变成了五个人。",
+        "py": "xiǎo zǔ biàn chéng le wǔ gè rén .",
+        "en": "The group has become a group of five."
+      },
+      "usageNote": "[GF2021:L2:395] Source entry: 变成; biànchéng; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w03",
+      "hanzi": "得",
+      "pinyin": "dé",
+      "meaning": "to obtain; gain",
+      "meaningVi": "đạt được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她得了三分，不是满分。",
+        "py": "tā dé le sān fēn , bù shì mǎn fēn .",
+        "en": "She scored three points, not full marks."
+      },
+      "usageNote": "[GF2021:L2:1679] Source entry: 得; dé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w04",
+      "hanzi": "得出",
+      "pinyin": "dé chū",
+      "meaning": "to arrive at a conclusion",
+      "meaningVi": "rút ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先看事实，再得出结论。",
+        "py": "xiān kàn shì shí , zài dé chū jié lùn .",
+        "en": "Look at facts before drawing a conclusion."
+      },
+      "usageNote": "[GF2021:L2:1681] Source entry: 得出; déchū; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w05",
+      "hanzi": "到处",
+      "pinyin": "dào chù",
+      "meaning": "everywhere",
+      "meaningVi": "khắp nơi",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "到处都有消息，不是到处都一样。",
+        "py": "dào chù dōu yǒu xiāo xī , bù shì dào chù dōu yī yàng .",
+        "en": "There is information everywhere, but it is not identical everywhere."
+      },
+      "usageNote": "[GF2021:L2:1655] Source entry: 到处; dàochù; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w06",
+      "hanzi": "分开",
+      "pinyin": "fēn kāi",
+      "meaning": "to separate; apart",
+      "meaningVi": "tách ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先把两个人的记录分开。",
+        "py": "xiān bǎ liǎng gè rén de jì lù fēn kāi .",
+        "en": "First separate the two people’s records."
+      },
+      "usageNote": "[GF2021:L2:2341] Source entry: 分开; fēn∥kāi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w07",
+      "hanzi": "结果",
+      "pinyin": "jié guǒ",
+      "meaning": "result; outcome",
+      "meaningVi": "kết quả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "结果出来了，再讨论。",
+        "py": "jié guǒ chū lái le , zài tǎo lùn .",
+        "en": "Discuss once the results are available."
+      },
+      "usageNote": "[GF2021:L2:4190] Source entry: 结果; jiéguǒ; 名、连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w08",
+      "hanzi": "选",
+      "pinyin": "xuǎn",
+      "meaning": "to select",
+      "meaningVi": "chọn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你选一段，我选另一段。",
+        "py": "nǐ xuǎn yī duàn , wǒ xuǎn lìng yī duàn .",
+        "en": "You choose one passage and I choose another."
+      },
+      "usageNote": "[GF2021:L2:9190] Source entry: 选; xuǎn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w09",
+      "hanzi": "想到",
+      "pinyin": "xiǎng dào",
+      "meaning": "to think of; realize",
+      "meaningVi": "nghĩ đến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我想到一个问题，先问。",
+        "py": "wǒ xiǎng dào yī gè wèn tí , xiān wèn .",
+        "en": "A question occurred to me; I will ask first."
+      },
+      "usageNote": "[GF2021:L2:8842] Source entry: 想到; xiǎngdào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w10",
+      "hanzi": "想起",
+      "pinyin": "xiǎng qǐ",
+      "meaning": "to recall",
+      "meaningVi": "nhớ lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我想起过去的朋友。",
+        "py": "wǒ xiǎng qǐ guò qu de péng you .",
+        "en": "I remember a friend from the past."
+      },
+      "usageNote": "[GF2021:L2:8846] Source entry: 想起; xiǎngqǐ; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w11",
+      "hanzi": "省",
+      "pinyin": "shěng",
+      "meaning": "province",
+      "meaningVi": "tỉnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她来自这个省，不是这个城市。",
+        "py": "tā lái zì zhè gè shěng , bù shì zhè gè chéng shì .",
+        "en": "She comes from this province, not this city."
+      },
+      "usageNote": "[GF2021:L2:7148] Source entry: 省; shěng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w12",
+      "hanzi": "许多",
+      "pinyin": "xǔ duō",
+      "meaning": "many; much",
+      "meaningVi": "nhiều",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "许多人有不同的故事。",
+        "py": "xǔ duō rén yǒu bù tóng de gù shì .",
+        "en": "Many people have different stories."
+      },
+      "usageNote": "[GF2021:L2:9159] Source entry: 许多; xǔduō; 数. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w13",
+      "hanzi": "以上",
+      "pinyin": "yǐ shàng",
+      "meaning": "above; at least",
+      "meaningVi": "trên; trở lên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "三分以上包括三分。",
+        "py": "sān fēn yǐ shàng bāo kuò sān fēn .",
+        "en": "At least three points includes three."
+      },
+      "usageNote": "[GF2021:L2:9568] Source entry: 以上; yǐshàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w14",
+      "hanzi": "以下",
+      "pinyin": "yǐ xià",
+      "meaning": "below; at most",
+      "meaningVi": "dưới; trở xuống",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "三分以下包括三分。",
+        "py": "sān fēn yǐ xià bāo kuò sān fēn .",
+        "en": "At most three points includes three."
+      },
+      "usageNote": "[GF2021:L2:9573] Source entry: 以下; yǐxià; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w15",
+      "hanzi": "以外",
+      "pinyin": "yǐ wài",
+      "meaning": "outside; except",
+      "meaningVi": "ngoài; ngoại trừ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天以外，时间还没定。",
+        "py": "jīn tiān yǐ wài , shí jiān hái méi dìng .",
+        "en": "Other than today, the times are not settled."
+      },
+      "usageNote": "[GF2021:L2:9570] Source entry: 以外; yǐwài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w16",
+      "hanzi": "长",
+      "pinyin": "zhǎng",
+      "meaning": "to grow",
+      "meaningVi": "lớn lên; mọc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她在这个城市长大。",
+        "py": "tā zài zhè gè chéng shì zhǎng dà .",
+        "en": "She grew up in this city."
+      },
+      "usageNote": "[GF2021:L2:10258] Source entry: 长; zhǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w17",
+      "hanzi": "中心",
+      "pinyin": "zhōng xīn",
+      "meaning": "centre",
+      "meaningVi": "trung tâm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "中心在前面，先看地图。",
+        "py": "zhōng xīn zài qián miàn , xiān kàn dì tú .",
+        "en": "The centre is ahead; check the map first."
+      },
+      "usageNote": "[GF2021:L2:10626] Source entry: 中心; zhōngxīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w18",
+      "hanzi": "市",
+      "pinyin": "shì",
+      "meaning": "city; municipality",
+      "meaningVi": "thành phố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个市有几个区。",
+        "py": "zhè gè shì yǒu jǐ gè qū .",
+        "en": "This city has several districts."
+      },
+      "usageNote": "[GF2021:L2:7284] Source entry: 市; shì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w19",
+      "hanzi": "市长",
+      "pinyin": "shì zhǎng",
+      "meaning": "mayor",
+      "meaningVi": "thị trưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "市长是职务，不是每个人的姓。",
+        "py": "shì zhǎng shì zhí wù , bù shì měi gè rén de xìng .",
+        "en": "Mayor is an office, not everyone’s surname."
+      },
+      "usageNote": "[GF2021:L2:7289] Source entry: 市长; shìzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w20",
+      "hanzi": "商人",
+      "pinyin": "shāng rén",
+      "meaning": "merchant; businessperson",
+      "meaningVi": "thương nhân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她是商人，弟弟还是学生。",
+        "py": "tā shì shāng rén , dì di hái shi xué sheng .",
+        "en": "She is a businessperson; her younger brother is still a student."
+      },
+      "usageNote": "[GF2021:L2:6935] Source entry: 商人; shāngrén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w21",
+      "hanzi": "信用卡",
+      "pinyin": "xìn yòng kǎ",
+      "meaning": "credit card",
+      "meaningVi": "thẻ tín dụng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里不能用信用卡，先问别的方式。",
+        "py": "zhè lǐ bù néng yòng xìn yòng kǎ , xiān wèn bié de fāng shì .",
+        "en": "Credit cards cannot be used here; ask about another method."
+      },
+      "usageNote": "[GF2021:L2:9043] Source entry: 信用卡; xìnyòngkǎ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u32-w22",
+      "hanzi": "过去",
+      "pinyin": "guò qu",
+      "meaning": "the past; formerly",
+      "meaningVi": "quá khứ; trước kia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "过去住这里，现在住别处。",
+        "py": "guò qu zhù zhè lǐ , xiàn zài zhù bié chù .",
+        "en": "Used to live here; now lives elsewhere."
+      },
+      "usageNote": "[GF2021:L2:3124] Source entry: 过去; guò·qù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "变",
+      "pinyin": "biàn",
+      "meaning": "to change",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "变",
+          "role": "whole",
+          "gloss": "to change"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 变 in 变 / 变成. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "变",
+          "p": "biàn",
+          "m": "to change"
+        },
+        {
+          "w": "变成",
+          "p": "biàn chéng",
+          "m": "to turn into; become"
+        }
+      ]
+    },
+    {
+      "hanzi": "结",
+      "pinyin": "jié",
+      "meaning": "to tie; result",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "结",
+          "role": "whole",
+          "gloss": "to tie; result"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 结 in 结果 / 结论. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "结果",
+          "p": "jié guǒ",
+          "m": "result; outcome"
+        },
+        {
+          "w": "结论",
+          "p": "jié lùn",
+          "m": "conclusion"
+        }
+      ]
+    },
+    {
+      "hanzi": "省",
+      "pinyin": "shěng",
+      "meaning": "province; to save",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "省",
+          "role": "whole",
+          "gloss": "province; to save"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 省 in 省. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "省",
+          "p": "shěng",
+          "m": "province"
+        }
+      ]
+    },
+    {
+      "hanzi": "许",
+      "pinyin": "xǔ",
+      "meaning": "to allow; many in 许多",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "许",
+          "role": "whole",
+          "gloss": "to allow; many in 许多"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 许 in 许多 / 也许. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "许多",
+          "p": "xǔ duō",
+          "m": "many; much"
+        },
+        {
+          "w": "也许",
+          "p": "yě xǔ",
+          "m": "perhaps"
+        }
+      ]
+    },
+    {
+      "hanzi": "选",
+      "pinyin": "xuǎn",
+      "meaning": "to choose",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "选",
+          "role": "whole",
+          "gloss": "to choose"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 选 in 选 / 选择. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "选",
+          "p": "xuǎn",
+          "m": "to choose"
+        },
+        {
+          "w": "选择",
+          "p": "xuǎn zé",
+          "m": "to choose"
+        }
+      ]
+    },
+    {
+      "hanzi": "像",
+      "pinyin": "xiàng",
+      "meaning": "to resemble; image",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "像",
+          "role": "whole",
+          "gloss": "to resemble; image"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 像 in 好像 / 像. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "好像",
+          "p": "hǎo xiàng",
+          "m": "to seem; as if"
+        },
+        {
+          "w": "像",
+          "p": "xiàng",
+          "m": "to resemble; be like"
+        }
+      ]
+    },
+    {
+      "hanzi": "卖",
+      "pinyin": "mài",
+      "meaning": "to sell",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "卖",
+          "role": "whole",
+          "gloss": "to sell"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 卖 in 外卖 / 卖. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "外卖",
+          "p": "wài mài",
+          "m": "takeout; delivery food"
+        },
+        {
+          "w": "卖",
+          "p": "mài",
+          "m": "to sell"
+        }
+      ]
+    },
+    {
+      "hanzi": "漂",
+      "pinyin": "piào",
+      "meaning": "to float; in 漂亮",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "漂",
+          "role": "whole",
+          "gloss": "to float; in 漂亮"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 漂 in 漂亮. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "漂亮",
+          "p": "piàoliang",
+          "m": "pretty; lovely"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u32-g二48",
+      "pattern": "名词性谓语：年龄、日期等",
+      "purpose": "Recognize bounded short nominal statements",
+      "explanation": "我二十二岁 and 今天星期三 can stand without 是 in familiar age/date contexts. This is not a rule to delete 是 from every identification: 她是商人 remains a normal noun classification. Negative age/date claims normally use 不是: 今天不是星期二. Ask what is being stated before expanding an omitted verb.",
+      "examples": [
+        {
+          "zh": "我二十二岁。",
+          "py": "wǒ èr shí èr suì .",
+          "en": "I am twenty-two."
+        },
+        {
+          "zh": "今天星期三。",
+          "py": "jīn tiān xīng qī sān .",
+          "en": "Today is Wednesday."
+        },
+        {
+          "zh": "她是商人。",
+          "py": "tā shì shāng rén .",
+          "en": "She is a businessperson."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她商人。这里是在介绍身份。",
+          "right": "她是商人。",
+          "why": "Keep 是 in this neutral identity introduction; short age/date patterns do not license every noun predicate."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u32-g二54",
+      "pattern": "主谓句：名词性谓语句",
+      "purpose": "Interpret topic, nominal predicate and scope",
+      "explanation": "今天星期三 has the topic 今天 and nominal predicate 星期三. 她今年二十二岁 states her age this year, not her birthday or birthplace. 这本书三十五块 gives a price in context. Use 不是 to reject a stated value and supply the actual one; these patterns do not establish unrelated facts.",
+      "examples": [
+        {
+          "zh": "她今年二十二岁。",
+          "py": "tā jīn nián èr shí èr suì .",
+          "en": "She is twenty-two this year."
+        },
+        {
+          "zh": "这本书三十五块。",
+          "py": "zhè běn shū sān shí wǔ kuài .",
+          "en": "This book is thirty-five yuan."
+        },
+        {
+          "zh": "今天不是星期二，是星期三。",
+          "py": "jīn tiān bù shì xīng qī èr , shì xīng qī sān .",
+          "en": "Today is not Tuesday; it is Wednesday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她今年二十二岁，所以知道生日是哪天。",
+          "right": "她今年二十二岁，生日是哪天还没说。",
+          "why": "An age does not identify the birthday date."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u32-d",
+    "title": "Two introductions, two stories",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the facts without joining two people’s records.",
+    "lines": [
+      {
+        "zh": "我今年二十二岁，过去在南方长大。",
+        "py": "wǒ jīn nián èr shí èr suì , guò qu zài nán fāng zhǎng dà .",
+        "en": "I am twenty-two this year and grew up in the south.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我二十三岁，在北方这个省长大。",
+        "py": "wǒ èr shí sān suì , zài běi fāng zhè gè shěng zhǎng dà .",
+        "en": "I am twenty-three and grew up in this northern province.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你姐姐是商人，你也是吗？",
+        "py": "nǐ jiě jie shì shāng rén , nǐ yě shì ma ?",
+        "en": "Your elder sister is a businessperson; are you too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，我还是学生。我们的故事要分开。",
+        "py": "bù shì , wǒ hái shi xué sheng . wǒ men de gù shì yào fēn kāi .",
+        "en": "No, I am still a student; keep our stories separate.",
+        "speaker": "b"
+      },
+      {
+        "zh": "今天星期三，见面时间变了吗？",
+        "py": "jīn tiān xīng qī sān , jiàn miàn shí jiān biàn le ma ?",
+        "en": "Today is Wednesday; has the meeting time changed?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没变，三点在中心门口见。",
+        "py": "méi biàn , sān diǎn zài zhōng xīn mén kǒu jiàn .",
+        "en": "It has not changed: meet at the centre entrance at three.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我得了三分，三分以上包括我吗？",
+        "py": "wǒ dé le sān fēn , sān fēn yǐ shàng bāo kuò wǒ ma ?",
+        "en": "I scored three; does at least three include me?",
+        "speaker": "a"
+      },
+      {
+        "zh": "包括。但你姐姐的结果没说，不能替她选。",
+        "py": "bāo kuò . dàn nǐ jiě jie de jié guǒ méi shuō , bù néng tì tā xuǎn .",
+        "en": "Yes. Your sister’s result has not been stated; you cannot choose for her.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What mistake does the exchange prevent?",
+        "choices": [
+          "Combining different people’s facts",
+          "Meeting at an unnamed time",
+          "Using a fictional province as a surname"
+        ],
+        "answer": "Combining different people’s facts"
+      },
+      {
+        "type": "detail",
+        "q": "Who is a businessperson?",
+        "choices": [
+          "The elder sister",
+          "Both students",
+          "The narrator"
+        ],
+        "answer": "The elder sister"
+      },
+      {
+        "type": "inference",
+        "q": "Is the sister’s score known?",
+        "choices": [
+          "No",
+          "Three",
+          "Twenty-three"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiě jie",
+        "meaning": "elder sister"
+      },
+      {
+        "hanzi": "故事",
+        "pinyin": "gù shì",
+        "meaning": "story"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u32-r",
+    "title": "Introductions are not conclusions",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find age, meeting facts and boundaries of the evidence.",
+    "lines": [
+      {
+        "zh": "今天星期三，我们三点在中心门口见。",
+        "py": "jīn tiān xīng qī sān , wǒ men sān diǎn zài zhōng xīn mén kǒu jiàn .",
+        "en": "Today is Wednesday; we meet at the centre entrance at three."
+      },
+      {
+        "zh": "一位今年二十二岁，另一位二十三岁。",
+        "py": "yī wèi jīn nián èr shí èr suì , lìng yī wèi èr shí sān suì .",
+        "en": "One person is twenty-two this year and the other twenty-three."
+      },
+      {
+        "zh": "两个人在不同地方长大，不能说背景一样。",
+        "py": "liǎng gè rén zài bù tóng dì fāng zhǎng dà , bù néng shuō bèi jǐng yī yàng .",
+        "en": "They grew up in different places; their backgrounds cannot be called identical."
+      },
+      {
+        "zh": "姐姐是商人，弟弟是学生，身份也要分开。",
+        "py": "jiě jie shì shāng rén , dì di shì xué sheng , shēn fèn yě yào fēn kāi .",
+        "en": "The elder sister is a businessperson and the younger brother a student; keep their roles separate too."
+      },
+      {
+        "zh": "她选了三张照片，有人说很像，有人说不一样。",
+        "py": "tā xuǎn le sān zhāng zhào piān , yǒu rén shuō hěn xiàng , yǒu rén shuō bù yī yàng .",
+        "en": "She chose three photographs; some say they are alike and others say they differ."
+      },
+      {
+        "zh": "过去的小组变成五个人，许多信息还没确认。",
+        "py": "guò qu de xiǎo zǔ biàn chéng wǔ gè rén , xǔ duō xìn xī hái méi què rèn .",
+        "en": "The earlier group became five people; much information is still unconfirmed."
+      },
+      {
+        "zh": "有人在市里卖书，那本漂亮的书三十五块。",
+        "py": "yǒu rén zài shì lǐ mài shū , nà běn piào liàng de shū sān shí wǔ kuài .",
+        "en": "Someone sells books in the city; that attractive book costs thirty-five yuan."
+      },
+      {
+        "zh": "一个人的结果不是所有人的结果，先看事实再得出结论。",
+        "py": "yī gè rén de jié guǒ bù shì suǒ yǒu rén de jié guǒ , xiān kàn shì shí zài dé chū jié lùn .",
+        "en": "One person’s result is not everyone’s; examine facts before drawing conclusions."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the note asking the reader to do?",
+        "choices": [
+          "Keep facts and people separate",
+          "Treat every score as identical",
+          "Invent birth dates from ages"
+        ],
+        "answer": "Keep facts and people separate"
+      },
+      {
+        "type": "detail",
+        "q": "What price is stated?",
+        "choices": [
+          "Thirty-five yuan",
+          "Twenty-two yuan",
+          "Three yuan"
+        ],
+        "answer": "Thirty-five yuan"
+      },
+      {
+        "type": "inference",
+        "q": "Do the two ages reveal their birthdays?",
+        "choices": [
+          "No",
+          "Yes, Wednesday",
+          "Yes, at three"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "今天【星期三】，我们三点在中心门口见。",
+          "py": "jīn tiān xīng qī sān , wǒ men sān diǎn zài zhōng xīn mén kǒu jiàn .",
+          "en": "Today is Wednesday; we meet at the centre entrance at three."
+        },
+        {
+          "zh": "一个人的结果不是所有人的结果，先看事实再得出【结论】。",
+          "py": "yī gè rén de jié guǒ bù shì suǒ yǒu rén de jié guǒ , xiān kàn shì shí zài dé chū jié lùn .",
+          "en": "One person’s result is not everyone’s; examine facts before drawing conclusions."
+        }
+      ],
+      "bank": [
+        "星期三",
+        "结论",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "背景",
+        "pinyin": "bèi jǐng",
+        "meaning": "background"
+      },
+      {
+        "hanzi": "结论",
+        "pinyin": "jié lùn",
+        "meaning": "conclusion"
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiě jie",
+        "meaning": "elder sister"
+      },
+      {
+        "hanzi": "信息",
+        "pinyin": "xìn xī",
+        "meaning": "information"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u32-media",
+      "title": "Two stories on one page",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse without filling in unstated background.",
+      "lines": [
+        {
+          "zh": "今天星期三，门口三点见。",
+          "py": "jīn tiān xīng qī sān , mén kǒu sān diǎn jiàn .",
+          "en": "Today is Wednesday; meet at the entrance at three."
+        },
+        {
+          "zh": "你从北方来，我从南方来。",
+          "py": "nǐ cóng běi fāng lái , wǒ cóng nán fāng lái .",
+          "en": "You come from the north and I from the south."
+        },
+        {
+          "zh": "过去不一样，现在坐一边。",
+          "py": "guò qu bù yī yàng , xiàn zài zuò yī biān .",
+          "en": "Our pasts differ; now we sit beside each other."
+        },
+        {
+          "zh": "一页写两人，不把故事连。",
+          "py": "yī yè xiě liǎng rén , bù bǎ gù shì lián .",
+          "en": "One page contains two people; do not merge their stories."
+        },
+        {
+          "zh": "先听你说完，再把我的讲。",
+          "py": "xiān tīng nǐ shuō wán , zài bǎ wǒ de jiǎng .",
+          "en": "Hear your account out before telling mine."
+        },
+        {
+          "zh": "朋友可以像，结果别乱猜。",
+          "py": "péng you kě yǐ xiàng , jié guǒ bié luàn cāi .",
+          "en": "Friends may resemble each other; do not guess their results."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does sitting together mean here?",
+          "choices": [
+            "A shared present meeting, not identical histories",
+            "Identical birth dates",
+            "A proven shared score"
+          ],
+          "answer": "A shared present meeting, not identical histories"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "故事",
+          "pinyin": "gù shì",
+          "meaning": "story"
+        },
+        {
+          "hanzi": "连",
+          "pinyin": "lián",
+          "meaning": "to join; connect"
+        },
+        {
+          "hanzi": "乱",
+          "pinyin": "luàn",
+          "meaning": "carelessly; without order"
+        }
+      ]
+    },
+    {
+      "id": "s2-u32-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "小组变成了五个人。",
+          "py": "xiǎo zǔ biàn chéng le wǔ gè rén .",
+          "en": "The group has become a group of five."
+        },
+        {
+          "zh": "先看事实，再得出结论。",
+          "py": "xiān kàn shì shí , zài dé chū jié lùn .",
+          "en": "Look at facts before drawing a conclusion."
+        },
+        {
+          "zh": "到处都有消息，不是到处都一样。",
+          "py": "dào chù dōu yǒu xiāo xī , bù shì dào chù dōu yī yàng .",
+          "en": "There is information everywhere, but it is not identical everywhere."
+        },
+        {
+          "zh": "我到处找笔，最后在包里找到了。",
+          "py": "wǒ dào chù zhǎo bǐ , zuì hòu zài bāo lǐ zhǎo dào le .",
+          "en": "I looked everywhere for the pen and finally found it in my bag."
+        },
+        {
+          "zh": "我想到一个问题，先问。",
+          "py": "wǒ xiǎng dào yī gè wèn tí , xiān wèn .",
+          "en": "A question occurred to me; I will ask first."
+        },
+        {
+          "zh": "想到朋友还没回消息，我先等等。",
+          "py": "xiǎng dào péng you hái méi huí xiāo xī , wǒ xiān děng děng .",
+          "en": "Thinking of my friend’s unanswered message, I wait a little."
+        },
+        {
+          "zh": "我想起过去的朋友。",
+          "py": "wǒ xiǎng qǐ guò qu de péng you .",
+          "en": "I remember a friend from the past."
+        },
+        {
+          "zh": "我想起地址改了，赶快联系她。",
+          "py": "wǒ xiǎng qǐ dì zhǐ gǎi le , gǎn kuài lián xì tā .",
+          "en": "I remembered the address had changed and contacted her promptly."
+        },
+        {
+          "zh": "她来自这个省，不是这个城市。",
+          "py": "tā lái zì zhè gè shěng , bù shì zhè gè chéng shì .",
+          "en": "She comes from this province, not this city."
+        },
+        {
+          "zh": "许多人有不同的故事。",
+          "py": "xǔ duō rén yǒu bù tóng de gù shì .",
+          "en": "Many people have different stories."
+        },
+        {
+          "zh": "以下三条是新安排，旧消息不要再发。",
+          "py": "yǐ xià sān tiáo shì xīn ān pái , jiù xiāo xī bú yào zài fā .",
+          "en": "The following three points are the new arrangements; stop forwarding the old message."
+        },
+        {
+          "zh": "今天以外，时间还没定。",
+          "py": "jīn tiān yǐ wài , shí jiān hái méi dìng .",
+          "en": "Other than today, the times are not settled."
+        },
+        {
+          "zh": "名单以外的人，要先问能不能加入。",
+          "py": "míng dān yǐ wài de rén , yào xiān wèn néng bù néng jiā rù .",
+          "en": "People not on the list should ask whether they can join first."
+        },
+        {
+          "zh": "这个市有几个区。",
+          "py": "zhè gè shì yǒu jǐ gè qū .",
+          "en": "This city has several districts."
+        },
+        {
+          "zh": "市长是职务，不是每个人的姓。",
+          "py": "shì zhǎng shì zhí wù , bù shì měi gè rén de xìng .",
+          "en": "Mayor is an office, not everyone’s surname."
+        },
+        {
+          "zh": "这条新闻讲市长的讲话，不是学校通知。",
+          "py": "zhè tiáo xīn wén jiǎng shì zhǎng de jiǎng huà , bù shì xué xiào tōng zhī .",
+          "en": "This news item concerns the mayor’s speech, not a school notice."
+        },
+        {
+          "zh": "这里不能用信用卡，先问别的方式。",
+          "py": "zhè lǐ bù néng yòng xìn yòng kǎ , xiān wèn bié de fāng shì .",
+          "en": "Credit cards cannot be used here; ask about another method."
+        },
+        {
+          "zh": "这里不能用信用卡，先问还能怎么付。",
+          "py": "zhè lǐ bù néng yòng xìn yòng kǎ , xiān wèn hái néng zěn me fù .",
+          "en": "Credit cards cannot be used here; ask what other payment methods are accepted."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "结论",
+          "pinyin": "jié lùn",
+          "meaning": "conclusion"
+        },
+        {
+          "hanzi": "故事",
+          "pinyin": "gù shì",
+          "meaning": "story"
+        },
+        {
+          "hanzi": "赶快",
+          "pinyin": "gǎn kuài",
+          "meaning": "promptly"
+        },
+        {
+          "hanzi": "联系",
+          "pinyin": "lián xì",
+          "meaning": "to contact"
+        },
+        {
+          "hanzi": "职务",
+          "pinyin": "zhí wù",
+          "meaning": "position; job responsibilities"
+        },
+        {
+          "hanzi": "姓",
+          "pinyin": "xìng",
+          "meaning": "surname"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u32-t1",
+      "phrase": "s2-u32-w13",
+      "audio": {
+        "zh": "三分以上包括三分。",
+        "py": "sān fēn yǐ shàng bāo kuò sān fēn .",
+        "en": "At least three includes three."
+      },
+      "statement": "Three is included.",
+      "answer": true,
+      "why": "The stated lower boundary is inclusive."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u32-t2",
+      "phrase": "s2-u32-w07",
+      "audio": {
+        "zh": "姐姐的结果还没说。",
+        "py": "jiě jie de jié guǒ hái méi shuō .",
+        "en": "The elder sister’s result has not been stated."
+      },
+      "statement": "Her score is three.",
+      "answer": false,
+      "why": "The result is unstated."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u32-t3",
+      "phrase": "s2-u32-w06",
+      "prompt": {
+        "zh": "姐姐是商人，你也是吗？",
+        "py": "jiě jie shì shāng rén , nǐ yě shì ma ?",
+        "en": "Your sister is a businessperson; are you too?"
+      },
+      "choices": [
+        "不是，我还是学生。",
+        "所以我们都是星期三。",
+        "信用卡就是所有人。"
+      ],
+      "answer": "不是，我还是学生。",
+      "why": "State your own role."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u32-t4",
+      "phrase": "s2-u32-w01",
+      "prompt": {
+        "zh": "三点见的时间变了吗？",
+        "py": "sān diǎn jiàn de shí jiān biàn le ma ?",
+        "en": "Has the three o’clock meeting time changed?"
+      },
+      "choices": [
+        "没变，还是三点。",
+        "许多就是二十二。",
+        "我们都是市长。"
+      ],
+      "answer": "没变，还是三点。",
+      "why": "Answer the specific time question."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u32-t5",
+      "phrase": "s2-u32-w17",
+      "line": {
+        "zh": "三点在【中心】门口见。",
+        "py": "sān diǎn zài zhōng xīn mén kǒu jiàn .",
+        "en": "Meet at the centre entrance at three."
+      },
+      "blankPy": "zhōng xīn"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u32-t6",
+      "phrase": "s2-u32-w22",
+      "line": {
+        "zh": "【过去】住这里，现在住别处。",
+        "py": "guò qu zhù zhè lǐ , xiàn zài zhù bié chù .",
+        "en": "Used to live here; now lives elsewhere."
+      },
+      "blankPy": "guò qu"
+    },
+    {
+      "type": "match",
+      "id": "s2-u32-t7",
+      "phrase": "s2-u32-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "She grew up in the south.",
+          "right": {
+            "zh": "她在南方长大。",
+            "py": "tā zài nán fāng zhǎng dà .",
+            "en": "She grew up in the south."
+          }
+        },
+        {
+          "left": "She is twenty-two this year.",
+          "right": {
+            "zh": "她今年二十二岁。",
+            "py": "tā jīn nián èr shí èr suì .",
+            "en": "She is twenty-two this year."
+          }
+        },
+        {
+          "left": "The elder sister is a businessperson.",
+          "right": {
+            "zh": "姐姐是商人。",
+            "py": "jiě jie shì shāng rén .",
+            "en": "The elder sister is a businessperson."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u32-t8",
+      "phrase": "s2-u32-w07",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "At least three includes three.",
+          "right": {
+            "zh": "三分以上包括三分。",
+            "py": "sān fēn yǐ shàng bāo kuò sān fēn .",
+            "en": "At least three includes three."
+          }
+        },
+        {
+          "left": "At most three includes three.",
+          "right": {
+            "zh": "三分以下包括三分。",
+            "py": "sān fēn yǐ xià bāo kuò sān fēn .",
+            "en": "At most three includes three."
+          }
+        },
+        {
+          "left": "Her result has not been stated.",
+          "right": {
+            "zh": "她的结果还没说。",
+            "py": "tā de jié guǒ hái méi shuō .",
+            "en": "Her result has not been stated."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u32-t9",
+      "phrase": "s2-u32-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Hello, is now convenient?",
+          "right": {
+            "zh": "喂，你好，现在方便吗？",
+            "py": "wèi , nǐ hǎo , xiàn zài fāng biàn ma ?",
+            "en": "Hello, is now convenient?"
+          }
+        },
+        {
+          "left": "If free, I will visit briefly.",
+          "right": {
+            "zh": "有空的话，我来坐一会儿。",
+            "py": "yǒu kōng de huà , wǒ lái zuò yī huì er .",
+            "en": "If free, I will visit briefly."
+          }
+        },
+        {
+          "left": "A short while later, she replied.",
+          "right": {
+            "zh": "不一会儿，她回了消息。",
+            "py": "bù yī huì er , tā huí le xiāo xī .",
+            "en": "A short while later, she replied."
+          }
+        },
+        {
+          "left": "I have seen this film but not read the novel.",
+          "right": {
+            "zh": "这部影片我看过，但小说还没读。",
+            "py": "zhè bù yǐng piàn wǒ kàn guò , dàn xiǎo shuō hái méi dú .",
+            "en": "I have seen this film but not read the novel."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Give your age",
+      "natural": {
+        "zh": "我今年二十二岁。",
+        "py": "wǒ jīn nián èr shí èr suì .",
+        "en": "I am twenty-two this year."
+      },
+      "note": "Do not infer a birth date from this statement."
+    },
+    {
+      "situation": "Correct a role assumption",
+      "natural": {
+        "zh": "姐姐是商人，我是学生。",
+        "py": "jiě jie shì shāng rén , wǒ shì xué sheng .",
+        "en": "My elder sister is a businessperson; I am a student."
+      },
+      "note": "Keep each person’s facts distinct."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u32-speak",
+    "title": "Not everyone has the same story",
+    "place": "A language-exchange meeting",
+    "context": "Give background and short nominal statements.",
+    "goal": "Give age, date and other short nominal predicates",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你也是商人吗？",
+        "pinyin": "nǐ yě shì shāng rén ma ?",
+        "meaning": "Are you a businessperson too?",
+        "intent": "Correct the assumption",
+        "examples": [
+          "不是，我是学生。"
+        ],
+        "accept": [
+          "^不是，我是学生。[。！？]?$"
+        ]
+      },
+      {
+        "text": "今天星期几？",
+        "pinyin": "jīn tiān xīng qī jǐ ?",
+        "meaning": "What day of the week is it today?",
+        "intent": "Use the scene’s stated day",
+        "examples": [
+          "今天星期三。"
+        ],
+        "accept": [
+          "^今天星期三。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二48, 二54. Native check: nominal predicates in age/date/price contexts, inclusive 以上/以下 boundaries, 得 dé obtaining versus de complement particle, 长 zhǎng growing versus cháng long, 省 noun versus saving verb, and the original verse’s compressed wording. Scores are fictional scene facts, not app readiness claims. Planned retrieval 二35 / 二42 / 二36 / 二32 / 二71: 喂，你好，现在方便吗？, 有空的话，我来坐一会儿。, 不一会儿，她回了消息。, 这部影片我看过，但小说还没读。."
+}

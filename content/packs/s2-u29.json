@@ -1,0 +1,1394 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u29",
+    "stage": 1,
+    "order": 59,
+    "title": "You, me, and all that",
+    "titleZh": "你呢还有这些啊",
+    "canDo": [
+      "Recover an omitted topic in a short chat response",
+      "Recognize sentence endings as stance rather than new facts",
+      "Use familiar surname prefixes only in an appropriate relationship"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u28"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u29-w01",
+      "hanzi": "啊",
+      "pinyin": "a",
+      "meaning": "sentence-final particle; exclamation",
+      "meaningVi": "trợ từ cuối câu; thán từ",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "原来是你啊。",
+        "py": "yuán lái shì nǐ a .",
+        "en": "Oh, it turns out to be you."
+      },
+      "usageNote": "[GF2021:L2:4] Source entry: 啊; a; 助. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w02",
+      "hanzi": "的话",
+      "pinyin": "de huà",
+      "meaning": "if; in the case of",
+      "meaningVi": "nếu; nếu là",
+      "pos": "expression",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "有空的话，来坐一会儿。",
+        "py": "yǒu kōng de huà , lái zuò yī huì er .",
+        "en": "If you are free, come and sit for a while."
+      },
+      "usageNote": "[GF2021:L2:1700] Source entry: 的话; dehuà; 助. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w03",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "meaning": "and so on; etc.",
+      "meaningVi": "vân vân",
+      "pos": "particle",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "我带书、笔等东西。",
+        "py": "wǒ dài shū , bǐ děng dōng xi .",
+        "en": "I bring books, pens and other things."
+      },
+      "usageNote": "[GF2021:L2:1715] Source entry: 等; děng; 助、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w04",
+      "hanzi": "家",
+      "pinyin": "jiā",
+      "meaning": "suffix for a specialist or practitioner",
+      "meaningVi": "hậu tố chỉ chuyên gia hoặc người hoạt động",
+      "pos": "suffix",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "科学家不是科学的家。",
+        "py": "kē xué jiā bù shì kē xué de jiā .",
+        "en": "科学家 means scientist, not a house belonging to science."
+      },
+      "usageNote": "[GF2021:L2:3850] Source entry: 家（科学家）; jiā (kēxuéjiā); 后缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w05",
+      "hanzi": "老",
+      "pinyin": "lǎo",
+      "meaning": "familiar prefix before a surname",
+      "meaningVi": "tiền tố xưng hô thân thuộc trước họ",
+      "pos": "prefix",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "大家都认识老王，但新人先问怎么称呼。",
+        "py": "dà jiā dōu rèn shi lǎo wáng , dàn xīn rén xiān wèn zěn me chēng hū .",
+        "en": "Everyone knows Old Wang, but a newcomer should ask how to address him first."
+      },
+      "usageNote": "[GF2021:L2:4953] Source entry: 老（老王）; lǎo (Lǎo Wáng); 前缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w06",
+      "hanzi": "小",
+      "pinyin": "xiǎo",
+      "meaning": "familiar prefix before a surname",
+      "meaningVi": "tiền tố xưng hô thân thuộc trước họ",
+      "pos": "prefix",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "小王说可以这样叫她。",
+        "py": "xiǎo wáng shuō kě yǐ zhè yàng jiào tā .",
+        "en": "Xiao Wang says this way of addressing her is okay."
+      },
+      "usageNote": "[GF2021:L2:8889] Source entry: 小（小王）; xiǎo (Xiǎo Wáng); 前缀. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w07",
+      "hanzi": "姓",
+      "pinyin": "xìng",
+      "meaning": "to have the surname; surname",
+      "meaningVi": "mang họ; họ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我姓王，不是姓小。",
+        "py": "wǒ xìng wáng , bù shì xìng xiǎo .",
+        "en": "My surname is Wang, not Xiao."
+      },
+      "usageNote": "[GF2021:L2:9101] Source entry: 姓; xìng; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w08",
+      "hanzi": "姓名",
+      "pinyin": "xìng míng",
+      "meaning": "full name",
+      "meaningVi": "họ tên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "姓名包括姓和名。",
+        "py": "xìng míng bāo kuò xìng hé míng .",
+        "en": "A full name includes the surname and given name."
+      },
+      "usageNote": "[GF2021:L2:9102] Source entry: 姓名; xìngmíng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w09",
+      "hanzi": "叫作",
+      "pinyin": "jiào zuò",
+      "meaning": "to be called; be named",
+      "meaningVi": "được gọi là",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个活动叫作朋友读书。",
+        "py": "zhè gè huó dòng jiào zuò péng you dú shū .",
+        "en": "This activity is called Friends Read."
+      },
+      "usageNote": "[GF2021:L2:4111] Source entry: 叫作; jiàozuò; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w10",
+      "hanzi": "人们",
+      "pinyin": "rén men",
+      "meaning": "people",
+      "meaningVi": "mọi người",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "人们的习惯不同，不能都猜一样。",
+        "py": "rén men de xí guàn bù tóng , bù néng dōu cāi yī yàng .",
+        "en": "People have different habits; do not assume all are alike."
+      },
+      "usageNote": "[GF2021:L2:6701] Source entry: 人们; rénmen; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w11",
+      "hanzi": "人口",
+      "pinyin": "rén kǒu",
+      "meaning": "population",
+      "meaningVi": "dân số",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "报纸写的是人口，不是今天参加的人数。",
+        "py": "bào zhǐ xiě de shì rén kǒu , bù shì jīn tiān cān jiā de rén shù .",
+        "en": "The newspaper reports population, not today’s attendance."
+      },
+      "usageNote": "[GF2021:L2:6698] Source entry: 人口; rénkǒu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w12",
+      "hanzi": "全国",
+      "pinyin": "quán guó",
+      "meaning": "the whole country; nationwide",
+      "meaningVi": "toàn quốc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是全国的消息，不只是一个小组。",
+        "py": "zhè shì quán guó de xiāo xī , bù zhǐ shì yī gè xiǎo zǔ .",
+        "en": "This is nationwide news, not just one small group."
+      },
+      "usageNote": "[GF2021:L2:6606] Source entry: 全国; quánguó; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w13",
+      "hanzi": "全年",
+      "pinyin": "quán nián",
+      "meaning": "the entire year",
+      "meaningVi": "cả năm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是全年的安排，不只是周末。",
+        "py": "zhè shì quán nián de ān pái , bù zhǐ shì zhōu mò .",
+        "en": "This is a whole-year arrangement, not just this weekend."
+      },
+      "usageNote": "[GF2021:L2:6613] Source entry: 全年; quánnián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w14",
+      "hanzi": "春节",
+      "pinyin": "chūn jié",
+      "meaning": "Spring Festival; Lunar New Year festival",
+      "meaningVi": "Tết Nguyên đán",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "春节的活动还要看通知。",
+        "py": "chūn jié de huó dòng hái yào kàn tōng zhī .",
+        "en": "The Spring Festival activity still needs checking against the notice."
+      },
+      "usageNote": "[GF2021:L2:1274] Source entry: 春节; Chūnjié; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w15",
+      "hanzi": "过年",
+      "pinyin": "guò nián",
+      "meaning": "to celebrate the New Year",
+      "meaningVi": "ăn Tết; đón năm mới",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今年想和朋友一起过年。",
+        "py": "jīn nián xiǎng hé péng you yì qǐ guò nián .",
+        "en": "This year I would like to celebrate the New Year with friends."
+      },
+      "usageNote": "[GF2021:L2:3121] Source entry: 过年; guò∥nián; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w16",
+      "hanzi": "节日",
+      "pinyin": "jié rì",
+      "meaning": "festival; holiday",
+      "meaningVi": "ngày lễ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "节日的安排可以先问朋友。",
+        "py": "jié rì de ān pái kě yǐ xiān wèn péng you .",
+        "en": "You can ask friends about holiday plans first."
+      },
+      "usageNote": "[GF2021:L2:4177] Source entry: 节日; jiérì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w17",
+      "hanzi": "晚会",
+      "pinyin": "wǎn huì",
+      "meaning": "evening gathering; evening show",
+      "meaningVi": "buổi liên hoan tối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "晚会以后再讨论读书计划。",
+        "py": "wǎn huì yǐ hòu zài tǎo lùn dú shū jì huà .",
+        "en": "Discuss the reading plan after the evening gathering."
+      },
+      "usageNote": "[GF2021:L2:8303] Source entry: 晚会; wǎnhuì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w18",
+      "hanzi": "午睡",
+      "pinyin": "wǔ shuì",
+      "meaning": "afternoon nap; to nap",
+      "meaningVi": "ngủ trưa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她正在午睡，我们晚点儿再联系。",
+        "py": "tā zhèng zài wǔ shuì , wǒ men wǎn diǎn ér zài lián xì .",
+        "en": "She is taking an afternoon nap; we will contact her later."
+      },
+      "usageNote": "[GF2021:L2:8563] Source entry: 午睡; wǔshuì; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w19",
+      "hanzi": "晚安",
+      "pinyin": "wǎn ān",
+      "meaning": "good night",
+      "meaningVi": "chúc ngủ ngon",
+      "pos": "phrase",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "睡觉前说晚安。",
+        "py": "shuì jiào qián shuō wǎn ān .",
+        "en": "Say good night before sleeping."
+      },
+      "usageNote": "[GF2021:L2:8298] Source entry: 晚安; wǎn’ān; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w20",
+      "hanzi": "晚报",
+      "pinyin": "wǎn bào",
+      "meaning": "evening newspaper",
+      "meaningVi": "báo buổi chiều",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "晚报是报纸，不是晚会。",
+        "py": "wǎn bào shì bào zhǐ , bù shì wǎn huì .",
+        "en": "An evening newspaper is a newspaper, not an evening gathering."
+      },
+      "usageNote": "[GF2021:L2:8299] Source entry: 晚报; wǎnbào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w21",
+      "hanzi": "日报",
+      "pinyin": "rì bào",
+      "meaning": "daily newspaper",
+      "meaningVi": "nhật báo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "日报每天发，不是全年的一本书。",
+        "py": "rì bào měi tiān fā , bù shì quán nián de yī běn shū .",
+        "en": "A daily newspaper is issued daily, not one book for the whole year."
+      },
+      "usageNote": "[GF2021:L2:6760] Source entry: 日报; rìbào; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u29-w22",
+      "hanzi": "报纸",
+      "pinyin": "bào zhǐ",
+      "meaning": "newspaper",
+      "meaningVi": "báo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我带报纸和书，读完再聊。",
+        "py": "wǒ dài bào zhǐ hé shū , dú wán zài liáo .",
+        "en": "I bring a newspaper and a book; we will talk after reading."
+      },
+      "usageNote": "[GF2021:L2:235] Source entry: 报纸; bàozhǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "啊",
+      "pinyin": "a",
+      "meaning": "sentence-final particle; exclamation",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "啊",
+          "role": "whole",
+          "gloss": "sentence-final particle; exclamation"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 啊 in 啊. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "啊",
+          "p": "a",
+          "m": "sentence-final particle; exclamation"
+        }
+      ]
+    },
+    {
+      "hanzi": "发",
+      "pinyin": "fā",
+      "meaning": "to send; issue",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "发",
+          "role": "whole",
+          "gloss": "to send; issue"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 发 in 发 / 发现. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "发",
+          "p": "fā",
+          "m": "to send"
+        },
+        {
+          "w": "发现",
+          "p": "fā xiàn",
+          "m": "to discover; notice"
+        }
+      ]
+    },
+    {
+      "hanzi": "王",
+      "pinyin": "wáng",
+      "meaning": "king; surname Wang",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "王",
+          "role": "whole",
+          "gloss": "king; surname Wang"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 王 in 王 / 老王. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "王",
+          "p": "wáng",
+          "m": "Wang, a surname"
+        },
+        {
+          "w": "老王",
+          "p": "lǎo wáng",
+          "m": "Wang, addressed familiarly with 老"
+        }
+      ]
+    },
+    {
+      "hanzi": "姓",
+      "pinyin": "xìng",
+      "meaning": "surname",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "姓",
+          "role": "whole",
+          "gloss": "surname"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 姓 in 姓 / 姓名. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "姓",
+          "p": "xìng",
+          "m": "to have the surname; surname"
+        },
+        {
+          "w": "姓名",
+          "p": "xìng míng",
+          "m": "full name"
+        }
+      ]
+    },
+    {
+      "hanzi": "末",
+      "pinyin": "mò",
+      "meaning": "end",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "末",
+          "role": "whole",
+          "gloss": "end"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 末 in 周末. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "周末",
+          "p": "zhōu mò",
+          "m": "weekend"
+        }
+      ]
+    },
+    {
+      "hanzi": "段",
+      "pinyin": "duàn",
+      "meaning": "section; segment",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "段",
+          "role": "whole",
+          "gloss": "section; segment"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 段 in 段. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "段",
+          "p": "duàn",
+          "m": "section; passage classifier"
+        }
+      ]
+    },
+    {
+      "hanzi": "级",
+      "pinyin": "jí",
+      "meaning": "level; grade",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "级",
+          "role": "whole",
+          "gloss": "level; grade"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 级 in 年级 / 级. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "年级",
+          "p": "nián jí",
+          "m": "school year; grade"
+        },
+        {
+          "w": "级",
+          "p": "jí",
+          "m": "level; grade; class"
+        }
+      ]
+    },
+    {
+      "hanzi": "特",
+      "pinyin": "tè",
+      "meaning": "special",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "特",
+          "role": "whole",
+          "gloss": "special"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 特 in 特别 / 特点. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "特别",
+          "p": "tè bié",
+          "m": "special"
+        },
+        {
+          "w": "特点",
+          "p": "tè diǎn",
+          "m": "characteristic; distinctive feature"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u29-g二34",
+      "pattern": "啊 / 吧 / 的：语气与话语作用",
+      "purpose": "Read stance without inventing a new fact",
+      "explanation": "原来是你啊 conveys recognition; 开始吧 is a suggestion. 好的 acknowledges a request, while 我会来的 expresses assurance. These endings affect how a known proposition is presented; 好的 by itself may leave the time or task unclear, so confirm details. 啊 may sound different after different syllables in natural speech; cite a neutral a and listen to the connected example.",
+      "examples": [
+        {
+          "zh": "原来是你啊。",
+          "py": "yuán lái shì nǐ a .",
+          "en": "Oh, it is you."
+        },
+        {
+          "zh": "先看通知吧。",
+          "py": "xiān kàn tōng zhī ba .",
+          "en": "Let us look at the notice first."
+        },
+        {
+          "zh": "好的，我先问时间。",
+          "py": "hǎo de , wǒ xiān wèn shí jiān .",
+          "en": "Okay, I will ask the time first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "开始啊吗吧。这里要给一个建议。",
+          "right": "开始吧。",
+          "why": "Use the intended suggestion ending rather than stack incompatible endings."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u29-g二43",
+      "pattern": "什么的：非穷尽列举",
+      "purpose": "Recognize a casual list with unlisted members",
+      "explanation": "书、笔什么的 means things like books and pens; it is not a precise inventory or a question asking what. In a formal list 书、笔等 can serve a similar function. Do not use a vague list for a task needing exact quantities: 两本书、一支笔 is specific. 什么的 does not prove every possible item is included.",
+      "examples": [
+        {
+          "zh": "带书、笔什么的就行。",
+          "py": "dài shū , bǐ shén me de jiù xíng .",
+          "en": "Things like books and pens are enough."
+        },
+        {
+          "zh": "我带报纸、书等。",
+          "py": "wǒ dài bào zhǐ , shū děng .",
+          "en": "I bring newspapers, books and so on."
+        },
+        {
+          "zh": "需要两本书，不是随便什么都行。",
+          "py": "xū yào liǎng běn shū , bù shì suí biàn shén me dōu xíng .",
+          "en": "Two books are needed, not just anything."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "要两本书，带什么的。这是准确数量。",
+          "right": "要两本书。",
+          "why": "When a quantity is exact, state it rather than imply an open list."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u29-g二77",
+      "pattern": "名词 / 代词 + 呢：承接已有话题",
+      "purpose": "Recover the omitted question from context",
+      "explanation": "我想读报纸。你呢？ asks what you would like to read, not where you are. 报纸呢？ after looking for objects can mean where the newspaper is. Read the preceding exchange before expanding the omission; 呢 itself does not encode one fixed full question. If uncertain, ask 你是问我想读什么吗？.",
+      "examples": [
+        {
+          "zh": "我想读报纸。你呢？",
+          "py": "wǒ xiǎng dú bào zhǐ . nǐ ne ?",
+          "en": "I want to read a newspaper. What about you?"
+        },
+        {
+          "zh": "书在桌上。报纸呢？",
+          "py": "shū zài zhuō shàng . bào zhǐ ne ?",
+          "en": "The book is on the table. What about the newspaper?"
+        },
+        {
+          "zh": "她先午睡，我呢？我先看书。",
+          "py": "tā xiān wǔ shuì , wǒ ne ? wǒ xiān kàn shū .",
+          "en": "She takes a nap first; as for me, I read first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我想读书。你呢？意思一定是你在哪里。",
+          "right": "我想读书。你呢？这里问你想读什么。",
+          "why": "The preceding topic determines the omitted question."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u29-d",
+    "title": "What about you?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Use each preceding line to recover the short question.",
+    "lines": [
+      {
+        "zh": "我姓王，可以叫我小王。你呢？",
+        "py": "wǒ xìng wáng , kě yǐ jiào wǒ xiǎo wáng . nǐ ne ?",
+        "en": "My surname is Wang; you may call me Xiao Wang. What about you?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我姓李，叫我小李就行。",
+        "py": "wǒ xìng lǐ , jiào wǒ xiǎo lǐ jiù xíng .",
+        "en": "My surname is Li; Xiao Li is fine.",
+        "speaker": "b"
+      },
+      {
+        "zh": "原来是你啊，昨天晚会见过。",
+        "py": "yuán lái shì nǐ a , zuó tiān wǎn huì jiàn guò .",
+        "en": "Oh, it is you; we met at the evening gathering yesterday.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。今天我想读报纸，你呢？",
+        "py": "duì . jīn tiān wǒ xiǎng dú bào zhǐ , nǐ ne ?",
+        "en": "Yes. Today I would like to read a newspaper. What about you?",
+        "speaker": "b"
+      },
+      {
+        "zh": "我想看书。要带书、笔什么的吗？",
+        "py": "wǒ xiǎng kàn shū . yào dài shū , bǐ shén me de ma ?",
+        "en": "I would like to read a book. Should I bring things like books and pens?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，不用带很多。书在桌上，报纸呢？",
+        "py": "duì , bù yòng dài hěn duō . shū zài zhuō shàng , bào zhǐ ne ?",
+        "en": "Yes; no need to bring much. The book is on the table; where is the newspaper?",
+        "speaker": "b"
+      },
+      {
+        "zh": "报纸在包里。老王正在午睡，晚点儿再问他。",
+        "py": "bào zhǐ zài bāo lǐ . lǎo wáng zhèng zài wǔ shuì , wǎn diǎn ér zài wèn tā .",
+        "en": "The newspaper is in the bag. Lao Wang is napping; ask him later.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好的，我们先读一段，再发消息。",
+        "py": "hǎo de , wǒ men xiān dú yī duàn , zài fā xiāo xī .",
+        "en": "Okay; we will read a paragraph first, then message.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What makes the short 呢 questions understandable?",
+        "choices": [
+          "The preceding topic",
+          "An identical fixed translation in every line",
+          "The newspaper’s population figure"
+        ],
+        "answer": "The preceding topic"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the newspaper?",
+        "choices": [
+          "In the bag",
+          "On the table",
+          "At the evening gathering"
+        ],
+        "answer": "In the bag"
+      },
+      {
+        "type": "inference",
+        "q": "May the newcomer address every stranger as 老王?",
+        "choices": [
+          "No, the familiar form needs context",
+          "Yes, 王 means every surname",
+          "Yes, it is a formal title"
+        ],
+        "answer": "No, the familiar form needs context"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "老王",
+        "pinyin": "lǎo wáng",
+        "meaning": "Wang, addressed familiarly with 老"
+      },
+      {
+        "hanzi": "小王",
+        "pinyin": "xiǎo wáng",
+        "meaning": "Wang, addressed familiarly with 小"
+      },
+      {
+        "hanzi": "王",
+        "pinyin": "wáng",
+        "meaning": "Wang, a surname"
+      },
+      {
+        "hanzi": "李",
+        "pinyin": "lǐ",
+        "meaning": "Li, a surname"
+      },
+      {
+        "hanzi": "小李",
+        "pinyin": "xiǎo lǐ",
+        "meaning": "Li, addressed familiarly with 小"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u29-r",
+    "title": "A group chat glossary",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read a familiar address and an informal list precisely.",
+    "lines": [
+      {
+        "zh": "小王是大家同意的称呼，不是说她姓小。",
+        "py": "xiǎo wáng shì dà jiā tóng yì de chēng hū , bù shì shuō tā xìng xiǎo .",
+        "en": "Xiao Wang is an agreed form of address, not a claim that her surname is Xiao."
+      },
+      {
+        "zh": "老王是熟人之间的称呼，新人先问。",
+        "py": "lǎo wáng shì shú rén zhī jiān de chēng hū , xīn rén xiān wèn .",
+        "en": "Lao Wang is used between familiar people; a newcomer should ask first."
+      },
+      {
+        "zh": "作家和科学家的家说的是身份，不是房子。",
+        "py": "zuò jiā hé kē xué jiā de jiā shuō de shì shēn fèn , bù shì fáng zi .",
+        "en": "家 in writer and scientist refers to a role, not a house."
+      },
+      {
+        "zh": "今天带报纸、书、笔什么的，准确数量还没说。",
+        "py": "jīn tiān dài bào zhǐ , shū , bǐ shén me de , zhǔn què shù liàng hái méi shuō .",
+        "en": "Today bring things like newspapers, books and pens; no exact quantity has been stated."
+      },
+      {
+        "zh": "日报和晚报是报纸，晚会是活动。",
+        "py": "rì bào hé wǎn bào shì bào zhǐ , wǎn huì shì huó dòng .",
+        "en": "A daily newspaper and evening newspaper are newspapers; an evening gathering is an activity."
+      },
+      {
+        "zh": "这段消息说周末见，中级小组有特别安排。",
+        "py": "zhè duàn xiāo xī shuō zhōu mò jiàn , zhōng jí xiǎo zǔ yǒu tè bié ān pái .",
+        "en": "This paragraph says to meet at the weekend; the intermediate group has a special arrangement."
+      },
+      {
+        "zh": "全年和全国不等于这一天、这一个组。",
+        "py": "quán nián hé quán guó bù děng yú zhè yī tiān , zhè yī gè zǔ .",
+        "en": "Whole year and nationwide are not the same as this day and this group."
+      },
+      {
+        "zh": "春节怎么过还要问；先说晚安，明天再聊。",
+        "py": "chūn jié zěn me guò hái yào wèn ; xiān shuō wǎn ān , míng tiān zài liáo .",
+        "en": "We still need to ask how to celebrate Spring Festival; say good night now and talk tomorrow."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note clarify?",
+        "choices": [
+          "Context, word senses and scope",
+          "A fixed nationwide holiday schedule",
+          "An official personal identity"
+        ],
+        "answer": "Context, word senses and scope"
+      },
+      {
+        "type": "detail",
+        "q": "Which item is an activity?",
+        "choices": [
+          "晚会",
+          "晚报",
+          "日报"
+        ],
+        "answer": "晚会"
+      },
+      {
+        "type": "inference",
+        "q": "Does 什么的 give an exact number?",
+        "choices": [
+          "No",
+          "Yes, always two",
+          "Only after midnight"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "小王是大家同意的【称呼】，不是说她姓小。",
+          "py": "xiǎo wáng shì dà jiā tóng yì de chēng hū , bù shì shuō tā xìng xiǎo .",
+          "en": "Xiao Wang is an agreed form of address, not a claim that her surname is Xiao."
+        },
+        {
+          "zh": "日报和晚报是报纸，【晚会】是活动。",
+          "py": "rì bào hé wǎn bào shì bào zhǐ , wǎn huì shì huó dòng .",
+          "en": "A daily newspaper and evening newspaper are newspapers; an evening gathering is an activity."
+        }
+      ],
+      "bank": [
+        "称呼",
+        "晚会",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "科学家",
+        "pinyin": "kē xué jiā",
+        "meaning": "scientist"
+      },
+      {
+        "hanzi": "老王",
+        "pinyin": "lǎo wáng",
+        "meaning": "Wang, addressed familiarly with 老"
+      },
+      {
+        "hanzi": "小王",
+        "pinyin": "xiǎo wáng",
+        "meaning": "Wang, addressed familiarly with 小"
+      },
+      {
+        "hanzi": "王",
+        "pinyin": "wáng",
+        "meaning": "Wang, a surname"
+      },
+      {
+        "hanzi": "称呼",
+        "pinyin": "chēng hū",
+        "meaning": "form of address"
+      },
+      {
+        "hanzi": "身份",
+        "pinyin": "shēn fèn",
+        "meaning": "identity; role"
+      },
+      {
+        "hanzi": "周末",
+        "pinyin": "zhōu mò",
+        "meaning": "weekend"
+      },
+      {
+        "hanzi": "特别",
+        "pinyin": "tè bié",
+        "meaning": "special"
+      },
+      {
+        "hanzi": "中级",
+        "pinyin": "zhōng jí",
+        "meaning": "intermediate"
+      },
+      {
+        "hanzi": "熟人",
+        "pinyin": "shú rén",
+        "meaning": "an acquaintance"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u29-media",
+      "title": "A house for science?",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a mistaken suffix.",
+      "lines": [
+        {
+          "zh": "科学家的家在哪里？",
+          "py": "kē xué jiā de jiā zài nǎ lǐ ?",
+          "en": "Where is the scientist’s home?",
+          "speaker": "a"
+        },
+        {
+          "zh": "等一下，你问房子，还是问科学家这个词？",
+          "py": "děng yī xià , nǐ wèn fáng zi , hái shi wèn kē xué jiā zhè gè cí ?",
+          "en": "Wait, are you asking about the home or the word scientist?",
+          "speaker": "b"
+        },
+        {
+          "zh": "这个词。家都是房子吗？",
+          "py": "zhè gè cí . jiā dōu shì fáng zi ma ?",
+          "en": "The word. Does 家 always mean a house?",
+          "speaker": "a"
+        },
+        {
+          "zh": "不是。科学家里的家说的是人。",
+          "py": "bù shì . kē xué jiā lǐ de jiā shuō de shì rén .",
+          "en": "No; 家 in scientist refers to a person.",
+          "speaker": "b"
+        },
+        {
+          "zh": "原来这样啊。你呢，也想当科学家吗？",
+          "py": "yuán lái zhè yàng a . nǐ ne , yě xiǎng dāng kē xué jiā ma ?",
+          "en": "Oh, I see. What about you—do you want to be a scientist too?",
+          "speaker": "a"
+        },
+        {
+          "zh": "先把这段读懂吧。理想明天再说。",
+          "py": "xiān bǎ zhè duàn dú dǒng ba . lǐ xiǎng míng tiān zài shuō .",
+          "en": "First understand this paragraph. Aspirations can wait until tomorrow.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What misunderstanding is repaired?",
+          "choices": [
+            "The role suffix is not always a house",
+            "Every scientist owns the same house",
+            "A house has a surname"
+          ],
+          "answer": "The role suffix is not always a house"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "科学家",
+          "pinyin": "kē xué jiā",
+          "meaning": "scientist"
+        }
+      ]
+    },
+    {
+      "id": "s2-u29-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "有空的话，来坐一会儿。",
+          "py": "yǒu kōng de huà , lái zuò yī huì er .",
+          "en": "If you are free, come and sit for a while."
+        },
+        {
+          "zh": "时间合适的话，我们一起去。",
+          "py": "shí jiān hé shì de huà , wǒ men yì qǐ qù .",
+          "en": "If the time works, we will go together."
+        },
+        {
+          "zh": "姓名包括姓和名。",
+          "py": "xìng míng bāo kuò xìng hé míng .",
+          "en": "A full name includes the surname and given name."
+        },
+        {
+          "zh": "这个活动叫作朋友读书。",
+          "py": "zhè gè huó dòng jiào zuò péng you dú shū .",
+          "en": "This activity is called Friends Read."
+        },
+        {
+          "zh": "这家店叫作夜书店，名字不代表一直开门。",
+          "py": "zhè jiā diàn jiào zuò yè shū diàn , míng zi bù dài biǎo yì zhí kāi mén .",
+          "en": "This shop is called Night Bookshop; its name does not mean it stays open all night."
+        },
+        {
+          "zh": "人们的习惯不同，不能都猜一样。",
+          "py": "rén men de xí guàn bù tóng , bù néng dōu cāi yī yàng .",
+          "en": "People have different habits; do not assume all are alike."
+        },
+        {
+          "zh": "人们有不同的安排，要分别问清楚。",
+          "py": "rén men yǒu bù tóng de ān pái , yào fēn bié wèn qīng chǔ .",
+          "en": "People have different arrangements; clarify with each of them."
+        },
+        {
+          "zh": "报纸写的是人口，不是今天参加的人数。",
+          "py": "bào zhǐ xiě de shì rén kǒu , bù shì jīn tiān cān jiā de rén shù .",
+          "en": "The newspaper reports population, not today’s attendance."
+        },
+        {
+          "zh": "这座城市人口很多，但不能据此判断活动人数。",
+          "py": "zhè zuò chéng shì rén kǒu hěn duō , dàn bù néng jù cǐ pàn duàn huó dòng rén shù .",
+          "en": "This city has a large population; that does not establish the event attendance."
+        },
+        {
+          "zh": "这是全国的消息，不只是一个小组。",
+          "py": "zhè shì quán guó de xiāo xī , bù zhǐ shì yī gè xiǎo zǔ .",
+          "en": "This is nationwide news, not just one small group."
+        },
+        {
+          "zh": "这是全年的安排，不只是周末。",
+          "py": "zhè shì quán nián de ān pái , bù zhǐ shì zhōu mò .",
+          "en": "This is a whole-year arrangement, not just this weekend."
+        },
+        {
+          "zh": "春节的活动还要看通知。",
+          "py": "chūn jié de huó dòng hái yào kàn tōng zhī .",
+          "en": "The Spring Festival activity still needs checking against the notice."
+        },
+        {
+          "zh": "今年想和朋友一起过年。",
+          "py": "jīn nián xiǎng hé péng you yì qǐ guò nián .",
+          "en": "This year I would like to celebrate the New Year with friends."
+        },
+        {
+          "zh": "过年时朋友回家，我们另选时间见。",
+          "py": "guò nián shí péng you huí jiā , wǒ men lìng xuǎn shí jiān jiàn .",
+          "en": "The friend goes home for the New Year; we will choose another meeting time."
+        },
+        {
+          "zh": "节日的安排可以先问朋友。",
+          "py": "jié rì de ān pái kě yǐ xiān wèn péng you .",
+          "en": "You can ask friends about holiday plans first."
+        },
+        {
+          "zh": "节日可能关门，出发前先问。",
+          "py": "jié rì kě néng guān mén , chū fā qián xiān wèn .",
+          "en": "It may close for the holiday; ask before leaving."
+        },
+        {
+          "zh": "日报每天发，不是全年的一本书。",
+          "py": "rì bào měi tiān fā , bù shì quán nián de yī běn shū .",
+          "en": "A daily newspaper is issued daily, not one book for the whole year."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "meaning": "notice"
+        },
+        {
+          "hanzi": "周末",
+          "pinyin": "zhōu mò",
+          "meaning": "weekend"
+        },
+        {
+          "hanzi": "城市",
+          "pinyin": "chéng shì",
+          "meaning": "city"
+        },
+        {
+          "hanzi": "据此",
+          "pinyin": "jù cǐ",
+          "meaning": "on this basis"
+        },
+        {
+          "hanzi": "判断",
+          "pinyin": "pàn duàn",
+          "meaning": "to judge; judgement"
+        },
+        {
+          "hanzi": "习惯",
+          "pinyin": "xí guàn",
+          "meaning": "habit; to be accustomed to"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u29-t1",
+      "phrase": "s2-u29-w08",
+      "audio": {
+        "zh": "我姓王，不是姓小。",
+        "py": "wǒ xìng wáng , bù shì xìng xiǎo .",
+        "en": "My surname is Wang, not Xiao."
+      },
+      "statement": "The surname is Xiao.",
+      "answer": false,
+      "why": "The correction is explicit."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u29-t2",
+      "phrase": "s2-u29-w03",
+      "audio": {
+        "zh": "书、笔等，不是准确数量。",
+        "py": "shū , bǐ děng , bù shì zhǔn què shù liàng .",
+        "en": "Books, pens and so on, not an exact quantity."
+      },
+      "statement": "The list is open-ended.",
+      "answer": true,
+      "why": "等 allows additional examples."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u29-t3",
+      "phrase": "s2-u29-w22",
+      "prompt": {
+        "zh": "我想读报纸，你呢？",
+        "py": "wǒ xiǎng dú bào zhǐ , nǐ ne ?",
+        "en": "I want to read a newspaper. What about you?"
+      },
+      "choices": [
+        "我想看书。",
+        "我在明天下面。",
+        "你就是人口。"
+      ],
+      "answer": "我想看书。",
+      "why": "Answer the current reading preference."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u29-t4",
+      "phrase": "s2-u29-w19",
+      "prompt": {
+        "zh": "现在要睡觉了。",
+        "py": "xiàn zài yào shuì jiào le .",
+        "en": "I am going to sleep now."
+      },
+      "choices": [
+        "晚安，明天再聊。",
+        "晚报很好，我姓笔。",
+        "必须马上晚会。"
+      ],
+      "answer": "晚安，明天再聊。",
+      "why": "Give a suitable closing."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u29-t5",
+      "phrase": "s2-u29-w20",
+      "line": {
+        "zh": "【晚报】是报纸，不是晚会。",
+        "py": "wǎn bào shì bào zhǐ , bù shì wǎn huì .",
+        "en": "An evening newspaper is a newspaper, not an evening gathering."
+      },
+      "blankPy": "wǎn bào"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u29-t6",
+      "phrase": "s2-u29-w07",
+      "line": {
+        "zh": "我【姓】王，可以叫我小王。",
+        "py": "wǒ xìng wáng , kě yǐ jiào wǒ xiǎo wáng .",
+        "en": "My surname is Wang; you may call me Xiao Wang."
+      },
+      "blankPy": "xìng"
+    },
+    {
+      "type": "match",
+      "id": "s2-u29-t7",
+      "phrase": "s2-u29-w04",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Scientist.",
+          "right": {
+            "zh": "科学家。",
+            "py": "kē xué jiā .",
+            "en": "Scientist."
+          }
+        },
+        {
+          "left": "My home is here.",
+          "right": {
+            "zh": "我家在这里。",
+            "py": "wǒ jiā zài zhè lǐ .",
+            "en": "My home is here."
+          }
+        },
+        {
+          "left": "The surname in a full name.",
+          "right": {
+            "zh": "姓名里的姓。",
+            "py": "xìng míng lǐ de xìng .",
+            "en": "The surname in a full name."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u29-t8",
+      "phrase": "s2-u29-w22",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I want to read; what would you like to read?",
+          "right": {
+            "zh": "我想读书。你呢？",
+            "py": "wǒ xiǎng dú shū . nǐ ne ?",
+            "en": "I want to read; what would you like to read?"
+          }
+        },
+        {
+          "left": "The book is on the table; where is the newspaper?",
+          "right": {
+            "zh": "书在桌上，报纸呢？",
+            "py": "shū zài zhuō shàng , bào zhǐ ne ?",
+            "en": "The book is on the table; where is the newspaper?"
+          }
+        },
+        {
+          "left": "Say good night first.",
+          "right": {
+            "zh": "先说晚安。",
+            "py": "xiān shuō wǎn ān .",
+            "en": "Say good night first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u29-t9",
+      "phrase": "s2-u29-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "She has been to this place but is not there today.",
+          "right": {
+            "zh": "她去过这个地方，但今天不在那里。",
+            "py": "tā qù guò zhè gè dì fāng , dàn jīn tiān bù zài nà lǐ .",
+            "en": "She has been to this place but is not there today."
+          }
+        },
+        {
+          "left": "Having taken a boat before does not mean having boarded one today.",
+          "right": {
+            "zh": "以前坐过船，不等于今天已经上船。",
+            "py": "yǐ qián zuò guò chuán , bù děng yú jīn tiān yǐ jīng shàng chuán .",
+            "en": "Having taken a boat before does not mean having boarded one today."
+          }
+        },
+        {
+          "left": "Has not been before and still wants to try once.",
+          "right": {
+            "zh": "没有去过，还想试一次。",
+            "py": "méi yǒu qù guò , hái xiǎng shì yī cì .",
+            "en": "Has not been before and still wants to try once."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask for a form of address",
+      "natural": {
+        "zh": "怎么称呼你？",
+        "py": "zěn me chēng hū nǐ ?",
+        "en": "How should I address you?"
+      },
+      "note": "Use familiar prefixes only when appropriate."
+    },
+    {
+      "situation": "Clarify an omission",
+      "natural": {
+        "zh": "你是问我想读什么吗？",
+        "py": "nǐ shì wèn wǒ xiǎng dú shén me ma ?",
+        "en": "Are you asking what I would like to read?"
+      },
+      "note": "Ask when the preceding topic is ambiguous."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u29-speak",
+    "title": "You, me, and all that",
+    "place": "A language-exchange meeting",
+    "context": "Understand omitted words and casual chat endings.",
+    "goal": "Recover an omitted topic in a short chat response",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "我想读报纸，你呢？",
+        "pinyin": "wǒ xiǎng dú bào zhǐ , nǐ ne ?",
+        "meaning": "I want to read a newspaper; what about you?",
+        "intent": "State a reading preference",
+        "examples": [
+          "我想看书。"
+        ],
+        "accept": [
+          "^我想看书。[。！？]?$"
+        ]
+      },
+      {
+        "text": "叫我小王就行。",
+        "pinyin": "jiào wǒ xiǎo wáng jiù xíng .",
+        "meaning": "Xiao Wang is fine.",
+        "intent": "Acknowledge the stated address",
+        "examples": [
+          "好的，小王。"
+        ],
+        "accept": [
+          "^好的，小王。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二34, 二43, 二77. Native check: contextual 啊 realization, 好的 stance, 老/小 surname-prefix pragmatics, 家 role suffix, 什么的 open lists and 呢 topic recovery. 李/小李 are fictional names requiring glosses; no real person or demographic statistic is described. Planned retrieval 二32 / 二71: 她去过这个地方，但今天不在那里。, 以前坐过船，不等于今天已经上船。, 没有去过，还想试一次。."
+}
