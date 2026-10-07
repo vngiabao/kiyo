@@ -1,0 +1,1144 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u44",
+    "stage": 2,
+    "order": 108,
+    "title": "Resolve it in the group chat",
+    "titleZh": "群聊最后确认一次",
+    "canDo": [
+      "Resolve an original group-chat plan using attribution and actual consent",
+      "Retrieve 把 and 被 from an object’s perspective",
+      "State unresolved details without inventing completion"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u43"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u44-w01",
+      "hanzi": "存在",
+      "pinyin": "cún zài",
+      "meaning": "to exist",
+      "meaningVi": "tồn tại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "问题仍然存在。",
+        "py": "wèn tí réng rán cún zài .",
+        "en": "The problem still exists."
+      },
+      "usageNote": "[GF2021:L3:1378] Source entry: 存在; cúnzài; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w02",
+      "hanzi": "单元",
+      "pinyin": "dān yuán",
+      "meaning": "unit",
+      "meaningVi": "đơn vị; bài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个单元结束，下一单元还没学。",
+        "py": "zhè gè dān yuán jié shù , xià yī dān yuán hái méi xué .",
+        "en": "This unit ends; the next is unstudied."
+      },
+      "usageNote": "[GF2021:L3:1581] Source entry: 单元; dānyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w03",
+      "hanzi": "发动",
+      "pinyin": "fā dòng",
+      "meaning": "to initiate; mobilize",
+      "meaningVi": "phát động",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她发动朋友参加自愿活动。",
+        "py": "tā fā dòng péng you cān jiā zì yuàn huó dòng .",
+        "en": "She mobilizes friends for a voluntary activity."
+      },
+      "usageNote": "[GF2021:L3:2134] Source entry: 发动; fādòng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w04",
+      "hanzi": "光明",
+      "pinyin": "guāng míng",
+      "meaning": "bright; hopeful",
+      "meaningVi": "sáng; tươi sáng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事给她光明的感觉。",
+        "py": "gù shì gěi tā guāng míng de gǎn jué .",
+        "en": "The story gives her a hopeful feeling."
+      },
+      "usageNote": "[GF2021:L3:3024] Source entry: 光明; guāngmíng; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w05",
+      "hanzi": "结实",
+      "pinyin": "jiē shi",
+      "meaning": "sturdy",
+      "meaningVi": "chắc chắn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个袋子看起来结实。",
+        "py": "zhè gè dài zi kàn qǐ lái jiē shi .",
+        "en": "This bag looks sturdy."
+      },
+      "usageNote": "[GF2021:L3:4138] Source entry: 结实; jiēshi; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w06",
+      "hanzi": "开业",
+      "pinyin": "kāi yè",
+      "meaning": "to open for business",
+      "meaningVi": "khai trương",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "店明天开业，今天还没开。",
+        "py": "diàn míng tiān kāi yè , jīn tiān hái méi kāi .",
+        "en": "The shop opens tomorrow, not today."
+      },
+      "usageNote": "[GF2021:L3:4613] Source entry: 开业; kāi∥yè; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w07",
+      "hanzi": "联合国",
+      "pinyin": "lián hé guó",
+      "meaning": "United Nations",
+      "meaningVi": "Liên Hợp Quốc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "材料提到联合国的名字。",
+        "py": "cái liào tí dào lián hé guó de míng zi .",
+        "en": "The material mentions the United Nations’ name."
+      },
+      "usageNote": "[GF2021:L3:5106] Source entry: 联合国; Liánhéguó; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w08",
+      "hanzi": "牌子",
+      "pinyin": "pái zi",
+      "meaning": "sign; brand",
+      "meaningVi": "biển; nhãn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "牌子写的是旧时间。",
+        "py": "pái zi xiě de shì jiù shí jiān .",
+        "en": "The sign shows the old time."
+      },
+      "usageNote": "[GF2021:L3:5964] Source entry: 牌子; páizi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w09",
+      "hanzi": "气候",
+      "pinyin": "qì hòu",
+      "meaning": "climate",
+      "meaningVi": "khí hậu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "气候和今天的天气不同。",
+        "py": "qì hòu hé jīn tiān de tiān qì bù tóng .",
+        "en": "Climate differs from today’s weather."
+      },
+      "usageNote": "[GF2021:L3:6270] Source entry: 气候; qìhòu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w10",
+      "hanzi": "去世",
+      "pinyin": "qù shì",
+      "meaning": "to pass away",
+      "meaningVi": "qua đời",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "小说里老人去世了。",
+        "py": "xiǎo shuō lǐ lǎo rén qù shì le .",
+        "en": "The elderly person passed away in the novel."
+      },
+      "usageNote": "[GF2021:L3:6587] Source entry: 去世; qùshì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w11",
+      "hanzi": "人类",
+      "pinyin": "rén lèi",
+      "meaning": "humankind",
+      "meaningVi": "loài người",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "人类包含不同个人，不是同一种想法。",
+        "py": "rén lèi bāo hán bù tóng gè rén , bù shì tóng yī zhǒng xiǎng fǎ .",
+        "en": "Humankind contains different individuals, not a single opinion."
+      },
+      "usageNote": "[GF2021:L3:6699] Source entry: 人类; rénlèi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w12",
+      "hanzi": "实际上",
+      "pinyin": "shí jì shàng",
+      "meaning": "in fact; actually",
+      "meaningVi": "thực ra",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "实际上她还没报名。",
+        "py": "shí jì shàng tā hái méi bào míng .",
+        "en": "In fact she has not registered."
+      },
+      "usageNote": "[GF2021:L3:7239] Source entry: 实际上; shíjì·shàng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w13",
+      "hanzi": "属",
+      "pinyin": "shǔ",
+      "meaning": "to belong to; be under",
+      "meaningVi": "thuộc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这件事属谁负责还没说。",
+        "py": "zhè jiàn shì shǔ shéi fù zé hái méi shuō .",
+        "en": "Who is responsible for this matter is unstated."
+      },
+      "usageNote": "[GF2021:L3:7476] Source entry: 属; shǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w14",
+      "hanzi": "属于",
+      "pinyin": "shǔ yú",
+      "meaning": "to belong to",
+      "meaningVi": "thuộc về",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个包属于她。",
+        "py": "zhè gè bāo shǔ yú tā .",
+        "en": "This bag belongs to her."
+      },
+      "usageNote": "[GF2021:L3:7478] Source entry: 属于; shǔyú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w15",
+      "hanzi": "谈",
+      "pinyin": "tán",
+      "meaning": "to talk; discuss",
+      "meaningVi": "nói; bàn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先谈时间，再谈地点。",
+        "py": "xiān tán shí jiān , zài tán dì diǎn .",
+        "en": "Discuss time first, then location."
+      },
+      "usageNote": "[GF2021:L3:7789] Source entry: 谈; tán; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w16",
+      "hanzi": "谈判",
+      "pinyin": "tán pàn",
+      "meaning": "to negotiate",
+      "meaningVi": "đàm phán",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "谈判还没得到结果。",
+        "py": "tán pàn hái méi dé dào jié guǒ .",
+        "en": "The negotiation has no result yet."
+      },
+      "usageNote": "[GF2021:L3:7794] Source entry: 谈判; tánpàn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w17",
+      "hanzi": "握手",
+      "pinyin": "wò shǒu",
+      "meaning": "to shake hands",
+      "meaningVi": "bắt tay",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "握手以后仍要确认安排。",
+        "py": "wò shǒu yǐ hòu réng yào què rèn ān pái .",
+        "en": "Confirm arrangements even after shaking hands."
+      },
+      "usageNote": "[GF2021:L3:8496] Source entry: 握手; wò∥shǒu; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w18",
+      "hanzi": "游戏",
+      "pinyin": "yóu xì",
+      "meaning": "game; to play a game",
+      "meaningVi": "trò chơi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "游戏结束了，聊天还没结束。",
+        "py": "yóu xì jié shù le , liáo tiān hái méi jié shù .",
+        "en": "The game ends; the chat has not."
+      },
+      "usageNote": "[GF2021:L3:9856] Source entry: 游戏; yóuxì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w19",
+      "hanzi": "照",
+      "pinyin": "zhào",
+      "meaning": "to photograph; according to",
+      "meaningVi": "chụp; theo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "照着新通知安排。",
+        "py": "zhào zhe xīn tōng zhī ān pái .",
+        "en": "Arrange according to the new notice."
+      },
+      "usageNote": "[GF2021:L3:10305] Source entry: 照; zhào; 动、介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w20",
+      "hanzi": "组合",
+      "pinyin": "zǔ hé",
+      "meaning": "to combine",
+      "meaningVi": "kết hợp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把两条信息组合起来看。",
+        "py": "bǎ liǎng tiáo xìn xī zǔ hé qǐ lái kàn .",
+        "en": "Consider the two messages together."
+      },
+      "usageNote": "[GF2021:L3:11016] Source entry: 组合; zǔhé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u44-w21",
+      "hanzi": "左右",
+      "pinyin": "zuǒ yòu",
+      "meaning": "approximately; to influence",
+      "meaningVi": "khoảng; chi phối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "十个人左右，还没精确统计。",
+        "py": "shí gè rén zuǒ yòu , hái méi jīng què tǒng jì .",
+        "en": "About ten people, not an exact count yet."
+      },
+      "usageNote": "[GF2021:L3:11059] Source entry: 左右; zuǒyòu; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "否",
+      "pinyin": "fǒu",
+      "meaning": "negation",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "否",
+          "role": "whole",
+          "gloss": "negation"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 否 in 与否 / 是否. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "与否",
+          "p": "yǔ fǒu",
+          "m": "whether or not"
+        },
+        {
+          "w": "是否",
+          "p": "shì fǒu",
+          "m": "whether; whether or not"
+        }
+      ]
+    },
+    {
+      "hanzi": "冒",
+      "pinyin": "mào",
+      "meaning": "emerge; brave",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "冒",
+          "role": "whole",
+          "gloss": "emerge; brave"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 冒 in 感冒 / 冒雨. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "感冒",
+          "p": "gǎnmào",
+          "m": "to catch a cold; a cold"
+        },
+        {
+          "w": "冒雨",
+          "p": "mào yǔ",
+          "m": "brave the rain"
+        }
+      ]
+    },
+    {
+      "hanzi": "牌",
+      "pinyin": "pái",
+      "meaning": "sign; brand",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "牌",
+          "role": "whole",
+          "gloss": "sign; brand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 牌 in 牌子 / 门牌号. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "牌子",
+          "p": "pái zi",
+          "m": "sign; brand"
+        },
+        {
+          "w": "门牌号",
+          "p": "mén pái hào",
+          "m": "building or house number"
+        }
+      ]
+    },
+    {
+      "hanzi": "死",
+      "pinyin": "sǐ",
+      "meaning": "die",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "死",
+          "role": "whole",
+          "gloss": "die"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 死 in 定死 / 枯死. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "定死",
+          "p": "dìng sǐ",
+          "m": "to fix inflexibly"
+        },
+        {
+          "w": "枯死",
+          "p": "kū sǐ",
+          "m": "to wither and die"
+        }
+      ]
+    },
+    {
+      "hanzi": "谈",
+      "pinyin": "tán",
+      "meaning": "talk",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "谈",
+          "role": "whole",
+          "gloss": "talk"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 谈 in 谈 / 谈判. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "谈",
+          "p": "tán",
+          "m": "to discuss; talk"
+        },
+        {
+          "w": "谈判",
+          "p": "tán pàn",
+          "m": "to negotiate"
+        }
+      ]
+    },
+    {
+      "hanzi": "祝",
+      "pinyin": "zhù",
+      "meaning": "wish",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "祝",
+          "role": "whole",
+          "gloss": "wish"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 祝 in 祝福 / 庆祝. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "祝福",
+          "p": "zhù fú",
+          "m": "good wishes; to wish well"
+        },
+        {
+          "w": "庆祝",
+          "p": "qìng zhù",
+          "m": "to celebrate"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u44-g三54",
+      "pattern": "把 + 对象 + 动作结果：再应用",
+      "purpose": "Retrieve object handling in the chat",
+      "explanation": "把旧牌子换成新牌子 states an object and intended or actual result depending on context. 已经把…换了 reports completion; 要把…换 states a requirement. A plan is not a finished action.",
+      "examples": [
+        {
+          "zh": "要把旧牌子换成新牌子。",
+          "py": "yào bǎ jiù pái zi huàn chéng xīn pái zi .",
+          "en": "Replace the old sign with the new one."
+        },
+        {
+          "zh": "已经把时间改了。",
+          "py": "yǐ jīng bǎ shí jiān gǎi le .",
+          "en": "The time has already been changed."
+        },
+        {
+          "zh": "把两条信息组合起来看。",
+          "py": "bǎ liǎng tiáo xìn xī zǔ hé qǐ lái kàn .",
+          "en": "Consider the two messages together."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "要把牌子换了，表示已经完成。",
+          "right": "要换是要求，不是已经完成。",
+          "why": "Requirement and completion differ."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u44-g三55",
+      "pattern": "被 + 动作：同一事件换视角",
+      "purpose": "Retrieve the affected item in a passive",
+      "explanation": "她把时间改了 / 时间被她改了 describe the same event with different focus. 时间被改了 leaves the agent unnamed. No added blame follows merely from using the passive.",
+      "examples": [
+        {
+          "zh": "她把时间改了。",
+          "py": "tā bǎ shí jiān gǎi le .",
+          "en": "She changed the time."
+        },
+        {
+          "zh": "时间被她改了。",
+          "py": "shí jiān bèi tā gǎi le .",
+          "en": "The time was changed by her."
+        },
+        {
+          "zh": "牌子被换成新的了。",
+          "py": "pái zi bèi huàn chéng xīn de le .",
+          "en": "The sign was replaced by a new one."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "时间被改了，一定是我改的。",
+          "right": "时间被改了，还没说是谁改的。",
+          "why": "An unnamed agent remains unknown."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u44-d",
+    "title": "One last group-chat check",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the final agreement and remaining uncertainty.",
+    "lines": [
+      {
+        "zh": "游戏结束了，这个单元也完成了，算等级认证吗？",
+        "py": "yóu xì jié shù le , zhè gè dān yuán yě wán chéng le , suàn děng jí rèn zhèng ma ?",
+        "en": "The game ended and the unit finished; does that certify a level?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不算。现在先谈群聊安排，不把次数写成认证。",
+        "py": "bù suàn . xiàn zài xiān tán qún liáo ān pái , bù bǎ cì shù xiě chéng rèn zhèng .",
+        "en": "No. Discuss the group plan now instead of recording counts as certification.",
+        "speaker": "b"
+      },
+      {
+        "zh": "店明天开业，牌子还是旧时间。谁负责换？",
+        "py": "diàn míng tiān kāi yè , pái zi hái shi jiù shí jiān . shéi fù zé huàn ?",
+        "en": "The shop opens tomorrow; the sign still has the old time. Who changes it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没说。要把旧牌子换成新牌子，不是已经换了。",
+        "py": "hái méi shuō . yào bǎ jiù pái zi huàn chéng xīn pái zi , bù shì yǐ jīng huàn le .",
+        "en": "Unstated. The sign needs replacement; it is not replaced yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "实际上她还没报名；握手也不是所有事项都同意。十个人左右还是大概数。",
+        "py": "shí jì shàng tā hái méi bào míng ; wò shǒu yě bù shì suǒ yǒu shì xiàng dōu tóng yì . shí gè rén zuǒ yòu hái shi dà gài shù .",
+        "en": "In fact she has not registered; a handshake is not agreement to everything; about ten is approximate.",
+        "speaker": "a"
+      },
+      {
+        "zh": "明白，组合两条信息，照新通知安排，再等本人回答。",
+        "py": "míng bái , zǔ hé liǎng tiáo xìn xī , zhào xīn tōng zhī ān pái , zài děng běn rén huí dá .",
+        "en": "Understood; combine the two messages, follow the new notice, and await the person’s answer.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Has she registered?",
+        "choices": [
+          "Not yet",
+          "Yes, the handshake proves it",
+          "Yes, the old sign confirms it"
+        ],
+        "answer": "Not yet"
+      },
+      {
+        "type": "detail",
+        "q": "Has the sign been replaced?",
+        "choices": [
+          "Not yet",
+          "Yes",
+          "The speaker states it is already new"
+        ],
+        "answer": "Not yet"
+      },
+      {
+        "type": "inference",
+        "q": "Does a handshake approve every item?",
+        "choices": [
+          "No",
+          "Yes",
+          "If a game ended"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": []
+  },
+  "reading": {
+    "id": "s3-u44-r",
+    "title": "Keep the facts and the people",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the final reflection.",
+    "lines": [
+      {
+        "zh": "问题仍然存在，谈过和谈判结束不同；先谈时间，再谈地点。",
+        "py": "wèn tí réng rán cún zài , tán guò hé tán pàn jié shù bù tóng ; xiān tán shí jiān , zài tán dì diǎn .",
+        "en": "The problem remains; discussion differs from a finished negotiation; discuss time before location."
+      },
+      {
+        "zh": "这个包属于她，具体事务属谁负责要问本人；结实的袋子也不装任意重量。",
+        "py": "zhè gè bāo shǔ yú tā , jù tǐ shì wù shǔ shéi fù zé yào wèn běn rén ; jiē shi de dài zi yě bù zhuāng rèn yì zhòng liàng .",
+        "en": "The bag is hers; ask who is responsible for matters; a sturdy bag does not hold any weight."
+      },
+      {
+        "zh": "发动朋友参加自愿活动，不替别人报名；一个意见不左右所有人的决定。",
+        "py": "fā dòng péng you cān jiā zì yuàn huó dòng , bù tì bié ren bào míng ; yī gè yì jiàn bù zuǒ yòu suǒ yǒu rén de jué dìng .",
+        "en": "Mobilize friends for voluntary participation without registering for them; one opinion does not control everyone."
+      },
+      {
+        "zh": "气候资料是长期范围，不代替今天的天气；联合国名字不是正式声明的证明。",
+        "py": "qì hòu zī liào shì cháng qī fàn wéi , bù dài tì jīn tiān de tiān qì ; lián hé guó míng zi bù shì zhèng shì shēng míng de zhèng míng .",
+        "en": "Climate concerns a longer period, not today’s weather; a United Nations name does not prove an official statement."
+      },
+      {
+        "zh": "小说里去世和死去是不同语气的人物经历，人类话题也尊重个人，不冒雨替人决定。",
+        "py": "xiǎo shuō lǐ qù shì hé sǐ qù shì bù tóng yǔ qì de rén wù jīng lì , rén lèi huà tí yě zūn zhòng gè rén , bù mào yǔ tì rén jué dìng .",
+        "en": "去世 and 死去 describe a fictional death with differing registers; discussions of humanity respect individuals and do not make decisions for others while braving rain."
+      },
+      {
+        "zh": "祝愿光明的明天，不保证结果。照相先问本人，牌子换没换先看记录，不随意否认。",
+        "py": "zhù yuàn guāng míng de míng tiān , bù bǎo zhèng jié guǒ . zhào xiàng xiān wèn běn rén , pái zi huàn méi huàn xiān kàn jì lù , bù suí yì fǒu rèn .",
+        "en": "Wish for a hopeful tomorrow without guarantees; ask before taking photos; check whether the sign changed rather than deny arbitrarily."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What should be checked to establish whether the sign was replaced?",
+        "choices": [
+          "The record",
+          "Only the weather",
+          "The novel’s ending"
+        ],
+        "answer": "The record"
+      },
+      {
+        "type": "inference",
+        "q": "Does a good wish guarantee the next result?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if a photograph is taken"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What should the final chat preserve?",
+        "choices": [
+          "Actual facts, limits and each person’s decision",
+          "Unit counts as level certification",
+          "A handshake as universal consent"
+        ],
+        "answer": "Actual facts, limits and each person’s decision"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【发动】朋友参加自愿活动，不替别人报名；一个意见不左右所有人的决定。",
+          "py": "fā dòng péng you cān jiā zì yuàn huó dòng , bù tì bié ren bào míng ; yī gè yì jiàn bù zuǒ yòu suǒ yǒu rén de jué dìng .",
+          "en": "Mobilize friends for voluntary participation without registering for them; one opinion does not control everyone."
+        }
+      ],
+      "bank": [
+        "发动",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "否认",
+        "pinyin": "fǒu rèn",
+        "meaning": "deny"
+      },
+      {
+        "hanzi": "冒雨",
+        "pinyin": "mào yǔ",
+        "meaning": "brave the rain"
+      },
+      {
+        "hanzi": "祝愿",
+        "pinyin": "zhù yuàn",
+        "meaning": "wish"
+      },
+      {
+        "hanzi": "随意",
+        "pinyin": "suí yì",
+        "meaning": "at will; arbitrary"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u44-media",
+      "title": "The last message stays open",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse.",
+      "lines": [
+        {
+          "zh": "旧牌换新，先问谁换。",
+          "py": "jiù pái huàn xīn , xiān wèn shéi huàn .",
+          "en": "Old sign to new: first ask who changes it."
+        },
+        {
+          "zh": "谈了不等于答应，祝愿不等于保证。",
+          "py": "tán le bù děng yú dā yìng , zhù yuàn bù děng yú bǎo zhèng .",
+          "en": "Discussion is not agreement; wishes are not guarantees."
+        },
+        {
+          "zh": "群聊留一句，等你自己说。",
+          "py": "qún liáo liú yī jù , děng nǐ zì jǐ shuō .",
+          "en": "Leave a line in the group chat, awaiting your own words."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why leave the last line open?",
+          "choices": [
+            "To wait for the person’s actual answer",
+            "To assume everyone agreed",
+            "To certify the level"
+          ],
+          "answer": "To wait for the person’s actual answer"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "祝愿",
+          "pinyin": "zhù yuàn",
+          "meaning": "wish"
+        }
+      ]
+    },
+    {
+      "id": "s3-u44-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "问题仍然存在。",
+          "py": "wèn tí réng rán cún zài .",
+          "en": "The problem still exists."
+        },
+        {
+          "zh": "她发动朋友参加自愿活动。",
+          "py": "tā fā dòng péng you cān jiā zì yuàn huó dòng .",
+          "en": "She mobilizes friends for a voluntary activity."
+        },
+        {
+          "zh": "故事给她光明的感觉。",
+          "py": "gù shì gěi tā guāng míng de gǎn jué .",
+          "en": "The story gives her a hopeful feeling."
+        },
+        {
+          "zh": "这个袋子看起来结实。",
+          "py": "zhè gè dài zi kàn qǐ lái jiē shi .",
+          "en": "This bag looks sturdy."
+        },
+        {
+          "zh": "材料提到联合国的名字。",
+          "py": "cái liào tí dào lián hé guó de míng zi .",
+          "en": "The material mentions the United Nations’ name."
+        },
+        {
+          "zh": "小说里老人去世了。",
+          "py": "xiǎo shuō lǐ lǎo rén qù shì le .",
+          "en": "The elderly person passed away in the novel."
+        },
+        {
+          "zh": "人类包含不同个人，不是同一种想法。",
+          "py": "rén lèi bāo hán bù tóng gè rén , bù shì tóng yī zhǒng xiǎng fǎ .",
+          "en": "Humankind contains different individuals, not a single opinion."
+        },
+        {
+          "zh": "谈判还没得到结果。",
+          "py": "tán pàn hái méi dé dào jié guǒ .",
+          "en": "The negotiation has no result yet."
+        },
+        {
+          "zh": "游戏结束了，聊天还没结束。",
+          "py": "yóu xì jié shù le , liáo tiān hái méi jié shù .",
+          "en": "The game ends; the chat has not."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "包含",
+          "pinyin": "bāo hán",
+          "meaning": "to contain; include"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u44-t1",
+      "phrase": "s3-u44-w06",
+      "audio": {
+        "zh": "店明天开业，今天没开。",
+        "py": "diàn míng tiān kāi yè , jīn tiān méi kāi .",
+        "en": "The shop opens tomorrow, not today."
+      },
+      "statement": "It is open today.",
+      "answer": false,
+      "why": "Today’s opening is denied."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u44-t2",
+      "phrase": "s3-u44-w14",
+      "audio": {
+        "zh": "包属于她，别人还没得到拿的许可。",
+        "py": "bāo shǔ yú tā , bié ren hái méi dé dào ná de xǔ kě .",
+        "en": "The bag is hers; others lack permission to take it."
+      },
+      "statement": "Ownership and permission differ.",
+      "answer": true,
+      "why": "The owner does not automatically authorize others."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u44-t3",
+      "phrase": "s3-u44-w16",
+      "prompt": {
+        "zh": "谈过就算同意吗？",
+        "py": "tán guò jiù suàn tóng yì ma ?",
+        "en": "Does discussing count as agreement?"
+      },
+      "choices": [
+        "不算，要等真实回答。",
+        "握手就是所有同意。",
+        "游戏结束就自动同意。"
+      ],
+      "answer": "不算，要等真实回答。",
+      "why": "Wait for an actual agreement."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u44-t4",
+      "phrase": "s3-u44-w21",
+      "prompt": {
+        "zh": "十个人左右是精确数吗？",
+        "py": "shí gè rén zuǒ yòu shì jīng què shù ma ?",
+        "en": "Is about ten people exact?"
+      },
+      "choices": [
+        "不是，还要实际统计。",
+        "正好十人已确定。",
+        "联合国名字就代表精确。"
+      ],
+      "answer": "不是，还要实际统计。",
+      "why": "Approximation is not precision."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u44-t5",
+      "phrase": "s3-u44-w12",
+      "line": {
+        "zh": "【实际上】她还没报名。",
+        "py": "shí jì shàng tā hái méi bào míng .",
+        "en": "In fact she has not registered."
+      },
+      "blankPy": "shí jì shàng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u44-t6",
+      "phrase": "s3-u44-w20",
+      "line": {
+        "zh": "把两条信息【组合】起来看。",
+        "py": "bǎ liǎng tiáo xìn xī zǔ hé qǐ lái kàn .",
+        "en": "Consider the two messages together."
+      },
+      "blankPy": "zǔ hé"
+    },
+    {
+      "type": "match",
+      "id": "s3-u44-t7",
+      "phrase": "s3-u44-w08",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The old sign needs replacement.",
+          "right": {
+            "zh": "要把旧牌子换成新牌子。",
+            "py": "yào bǎ jiù pái zi huàn chéng xīn pái zi .",
+            "en": "The old sign needs replacement."
+          }
+        },
+        {
+          "left": "She changed the time.",
+          "right": {
+            "zh": "时间被她改了。",
+            "py": "shí jiān bèi tā gǎi le .",
+            "en": "She changed the time."
+          }
+        },
+        {
+          "left": "Discussion is not agreement.",
+          "right": {
+            "zh": "谈过不等于同意过。",
+            "py": "tán guò bù děng yú tóng yì guò .",
+            "en": "Discussion is not agreement."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u44-t8",
+      "phrase": "s3-u44-w17",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Confirm even after a handshake.",
+          "right": {
+            "zh": "握手以后仍要确认。",
+            "py": "wò shǒu yǐ hòu réng yào què rèn .",
+            "en": "Confirm even after a handshake."
+          }
+        },
+        {
+          "left": "Climate is not today’s weather.",
+          "right": {
+            "zh": "气候不是今天的天气。",
+            "py": "qì hòu bù shì jīn tiān de tiān qì .",
+            "en": "Climate is not today’s weather."
+          }
+        },
+        {
+          "left": "Unit completion is not level certification.",
+          "right": {
+            "zh": "单元完成不是等级认证。",
+            "py": "dān yuán wán chéng bù shì děng jí rèn zhèng .",
+            "en": "Unit completion is not level certification."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u44-t9",
+      "phrase": "s3-u44-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "After reading the notice I asked her.",
+          "right": {
+            "zh": "我看了通知就问她。",
+            "py": "wǒ kàn le tōng zhī jiù wèn tā .",
+            "en": "After reading the notice I asked her."
+          }
+        },
+        {
+          "left": "About ten people attend.",
+          "right": {
+            "zh": "十个人左右参加。",
+            "py": "shí gè rén zuǒ yòu cān jiā .",
+            "en": "About ten people attend."
+          }
+        },
+        {
+          "left": "It is already ten; let us stop first.",
+          "right": {
+            "zh": "都十点了，先结束吧。",
+            "py": "dōu shí diǎn le , xiān jié shù ba .",
+            "en": "It is already ten; let us stop first."
+          }
+        },
+        {
+          "left": "A little slower is acceptable; speak accurately first.",
+          "right": {
+            "zh": "慢就慢点儿吧，先说准确。",
+            "py": "màn jiù màn diǎn ér ba , xiān shuō zhǔn què .",
+            "en": "A little slower is acceptable; speak accurately first."
+          }
+        },
+        {
+          "left": "Why rush? The time has not come yet.",
+          "right": {
+            "zh": "急什么啊，还没到时间。",
+            "py": "jí shén me a , hái méi dào shí jiān .",
+            "en": "Why rush? The time has not come yet."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Wait for the person",
+      "natural": {
+        "zh": "最后那句，等你自己说。",
+        "py": "zuì hòu nà jù , děng nǐ zì jǐ shuō .",
+        "en": "For the last line, I will wait for your own words."
+      },
+      "note": "Keep agency."
+    },
+    {
+      "situation": "End honestly",
+      "natural": {
+        "zh": "学过了，继续练；不假装全会。",
+        "py": "xué guò le , jì xù liàn ; bù jiǎ zhuāng quán huì .",
+        "en": "It has been studied; keep practising without pretending mastery."
+      },
+      "note": "Introduction is not mastery."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u44-speak",
+    "title": "Resolve it in the group chat",
+    "place": "A language-exchange meeting",
+    "context": "Combine disposal and passive structures in a social problem.",
+    "goal": "Resolve an original group-chat plan using attribution and actual consent",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "安排确认了吗？",
+        "pinyin": "ān pái què rèn le ma ?",
+        "meaning": "Are arrangements confirmed?",
+        "intent": "State what remains",
+        "examples": [
+          "还要等她本人回答。"
+        ],
+        "accept": [
+          "^还要等她本人回答。[。！？]?$"
+        ]
+      },
+      {
+        "text": "谁换牌子？",
+        "pinyin": "shéi huàn pái zi ?",
+        "meaning": "Who changes the sign?",
+        "intent": "State an unknown agent",
+        "examples": [
+          "还没说是谁负责。"
+        ],
+        "accept": [
+          "^还没说是谁负责。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三54, 三55. Native check: 把/被 focus, 属 responsibility and 属于 ownership, 照 according-to versus photography, 左右 approximation versus influence, respectful 去世 register, original group-chat conclusion. No level certification, copyright quotation or assumed consent. Native review pending. Planned retrieval 三73 / 三74 / 三79 / 三80 / 三81: 我看了通知就问她。, 十个人左右参加。, 都十点了，先结束吧。, 慢就慢点儿吧，先说准确。, 急什么啊，还没到时间。."
+}

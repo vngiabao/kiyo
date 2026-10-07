@@ -1,0 +1,1207 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u43",
+    "stage": 2,
+    "order": 107,
+    "title": "A song that tells a story",
+    "titleZh": "唱慢一点，意思别丢",
+    "canDo": [
+      "Read an original verse without treating it as literal history",
+      "Retrieve degree and 比起 comparisons",
+      "Notice quotation, imagery and the actual speaker"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u42"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u43-w01",
+      "hanzi": "重",
+      "pinyin": "chóng",
+      "meaning": "again, chóng",
+      "meaningVi": "lại",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "没听懂就重读这一句。",
+        "py": "méi tīng dǒng jiù chóng dú zhè yī jù .",
+        "en": "Reread this sentence if not understood."
+      },
+      "usageNote": "[GF2021:L3:1064] Source entry: 重; chóng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w02",
+      "hanzi": "代",
+      "pinyin": "dài",
+      "meaning": "to act for; replace",
+      "meaningVi": "thay",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我不能代她同意。",
+        "py": "wǒ bù néng dài tā tóng yì .",
+        "en": "I cannot consent for her."
+      },
+      "usageNote": "[GF2021:L3:1537] Source entry: 代; dài; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w03",
+      "hanzi": "带动",
+      "pinyin": "dài dòng",
+      "meaning": "to spur; drive",
+      "meaningVi": "thúc đẩy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "节拍带动她跟着读。",
+        "py": "jié pāi dài dòng tā gēn zhe dú .",
+        "en": "The beat prompts her to read along."
+      },
+      "usageNote": "[GF2021:L3:1547] Source entry: 带动; dàidòng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w04",
+      "hanzi": "管",
+      "pinyin": "guǎn",
+      "meaning": "to manage; care for",
+      "meaningVi": "quản lý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "谁管这次的材料？",
+        "py": "shéi guǎn zhè cì de cái liào ?",
+        "en": "Who manages the materials this time?"
+      },
+      "usageNote": "[GF2021:L3:2993] Source entry: 管; guǎn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w05",
+      "hanzi": "合",
+      "pinyin": "hé",
+      "meaning": "to join; fit",
+      "meaningVi": "hợp; ghép",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把两段合起来读。",
+        "py": "bǎ liǎng duàn hé qǐ lái dú .",
+        "en": "Read the two passages together."
+      },
+      "usageNote": "[GF2021:L3:3261] Source entry: 合; hé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w06",
+      "hanzi": "和平",
+      "pinyin": "hé píng",
+      "meaning": "peace",
+      "meaningVi": "hòa bình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "诗里希望和平。",
+        "py": "shī lǐ xī wàng hé píng .",
+        "en": "The verse wishes for peace."
+      },
+      "usageNote": "[GF2021:L3:3288] Source entry: 和平; hépíng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w07",
+      "hanzi": "划船",
+      "pinyin": "huá chuán",
+      "meaning": "to row a boat",
+      "meaningVi": "chèo thuyền",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "歌里有划船的想象。",
+        "py": "gē lǐ yǒu huá chuán de xiǎng xiàng .",
+        "en": "The song imagines rowing."
+      },
+      "usageNote": "[GF2021:L3:3441] Source entry: 划船; huáchuán; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w08",
+      "hanzi": "排",
+      "pinyin": "pái",
+      "meaning": "to line up; arrange",
+      "meaningVi": "xếp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "把句子按顺序排。",
+        "py": "bǎ jù zi àn shùn xù pái .",
+        "en": "Arrange the sentences in order."
+      },
+      "usageNote": "[GF2021:L3:5951] Source entry: 排; pái; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w09",
+      "hanzi": "前进",
+      "pinyin": "qián jìn",
+      "meaning": "to move forward",
+      "meaningVi": "tiến lên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "故事里她向前进。",
+        "py": "gù shì lǐ tā xiàng qián jìn .",
+        "en": "She moves forward in the story."
+      },
+      "usageNote": "[GF2021:L3:6340] Source entry: 前进; qiánjìn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w10",
+      "hanzi": "团",
+      "pinyin": "tuán",
+      "meaning": "group; classifier for a ball-shaped mass",
+      "meaningVi": "đoàn; cục",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个团是语言社团。",
+        "py": "zhè gè tuán shì yǔ yán shè tuán .",
+        "en": "This group is a language club."
+      },
+      "usageNote": "[GF2021:L3:8164] Source entry: 团; tuán; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w11",
+      "hanzi": "团结",
+      "pinyin": "tuán jié",
+      "meaning": "to unite; unity",
+      "meaningVi": "đoàn kết",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "团结也要允许不同意见。",
+        "py": "tuán jié yě yào yǔn xǔ bù tóng yì jiàn .",
+        "en": "Unity should allow differing opinions."
+      },
+      "usageNote": "[GF2021:L3:8167] Source entry: 团结; tuánjié; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w12",
+      "hanzi": "推广",
+      "pinyin": "tuī guǎng",
+      "meaning": "to promote; spread",
+      "meaningVi": "quảng bá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "推广活动以前确认来源。",
+        "py": "tuī guǎng huó dòng yǐ qián què rèn lái yuán .",
+        "en": "Check sources before promoting an activity."
+      },
+      "usageNote": "[GF2021:L3:8181] Source entry: 推广; tuīguǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w13",
+      "hanzi": "外交",
+      "pinyin": "wài jiāo",
+      "meaning": "diplomacy",
+      "meaningVi": "ngoại giao",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "歌词提到外交，不解释现行政策。",
+        "py": "gē cí tí dào wài jiāo , bù jiě shì xiàn xíng zhèng cè .",
+        "en": "The lyrics mention diplomacy without explaining current policy."
+      },
+      "usageNote": "[GF2021:L3:8253] Source entry: 外交; wàijiāo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w14",
+      "hanzi": "武器",
+      "pinyin": "wǔ qì",
+      "meaning": "weapon",
+      "meaningVi": "vũ khí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "诗里武器是冲突的意象。",
+        "py": "shī lǐ wǔ qì shì chōng tū de yì xiàng .",
+        "en": "Weapons are imagery of conflict in the verse."
+      },
+      "usageNote": "[GF2021:L3:8565] Source entry: 武器; wǔqì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w15",
+      "hanzi": "烟",
+      "pinyin": "yān",
+      "meaning": "smoke",
+      "meaningVi": "khói",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "烟在故事里挡住视线。",
+        "py": "yān zài gù shì lǐ dǎng zhù shì xiàn .",
+        "en": "Smoke blocks the view in the story."
+      },
+      "usageNote": "[GF2021:L3:9275] Source entry: 烟; yān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w16",
+      "hanzi": "直到",
+      "pinyin": "zhí dào",
+      "meaning": "until",
+      "meaningVi": "cho tới",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "直到最后她才回答。",
+        "py": "zhí dào zuì hòu tā cái huí dá .",
+        "en": "She answers only at the end."
+      },
+      "usageNote": "[GF2021:L3:10495] Source entry: 直到; zhídào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w17",
+      "hanzi": "停止",
+      "pinyin": "tíng zhǐ",
+      "meaning": "to stop",
+      "meaningVi": "dừng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "累了先停止练习。",
+        "py": "lèi le xiān tíng zhǐ liàn xí .",
+        "en": "Stop practising first when tired."
+      },
+      "usageNote": "[GF2021:L3:8025] Source entry: 停止; tíngzhǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w18",
+      "hanzi": "随",
+      "pinyin": "suí",
+      "meaning": "to follow; according to",
+      "meaningVi": "theo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "随她自己的节奏读。",
+        "py": "suí tā zì jǐ de jié zòu dú .",
+        "en": "Read at her own pace."
+      },
+      "usageNote": "[GF2021:L3:7702] Source entry: 随; suí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w19",
+      "hanzi": "追",
+      "pinyin": "zhuī",
+      "meaning": "to pursue; follow",
+      "meaningVi": "đuổi theo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "角色追着自己的影子。",
+        "py": "jué sè zhuī zhe zì jǐ de yǐng zi .",
+        "en": "The character chases their shadow."
+      },
+      "usageNote": "[GF2021:L3:10844] Source entry: 追; zhuī; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w20",
+      "hanzi": "争",
+      "pinyin": "zhēng",
+      "meaning": "to contend; compete",
+      "meaningVi": "tranh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "别为了争第一忘了准确。",
+        "py": "bié wèi le zhēng dì yī wàng le zhǔn què .",
+        "en": "Do not forget accuracy in competing for first place."
+      },
+      "usageNote": "[GF2021:L3:10381] Source entry: 争; zhēng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w21",
+      "hanzi": "争取",
+      "pinyin": "zhēng qǔ",
+      "meaning": "to strive for",
+      "meaningVi": "cố gắng giành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "争取机会，也尊重不同决定。",
+        "py": "zhēng qǔ jī huì , yě zūn zhòng bù tóng jué dìng .",
+        "en": "Strive for an opportunity and respect differing decisions."
+      },
+      "usageNote": "[GF2021:L3:10389] Source entry: 争取; zhēngqǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u43-w22",
+      "hanzi": "玩具",
+      "pinyin": "wán jù",
+      "meaning": "toy",
+      "meaningVi": "đồ chơi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "龙玩具在桌上。",
+        "py": "lóng wán jù zài zhuō shàng .",
+        "en": "The dragon toy is on the table."
+      },
+      "usageNote": "[GF2021:L3:8287] Source entry: 玩具; wánjù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "伟",
+      "pinyin": "wěi",
+      "meaning": "great",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "伟",
+          "role": "whole",
+          "gloss": "great"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 伟 in 伟大. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "伟大",
+          "p": "wěi dà",
+          "m": "great"
+        }
+      ]
+    },
+    {
+      "hanzi": "汤",
+      "pinyin": "tāng",
+      "meaning": "soup",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "汤",
+          "role": "whole",
+          "gloss": "soup"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 汤 in 汤. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "汤",
+          "p": "tāng",
+          "m": "soup"
+        }
+      ]
+    },
+    {
+      "hanzi": "汁",
+      "pinyin": "zhī",
+      "meaning": "juice",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "汁",
+          "role": "whole",
+          "gloss": "juice"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 汁 in 果汁. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "果汁",
+          "p": "guǒ zhī",
+          "m": "fruit juice"
+        }
+      ]
+    },
+    {
+      "hanzi": "蕉",
+      "pinyin": "jiāo",
+      "meaning": "in 香蕉: banana",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "蕉",
+          "role": "whole",
+          "gloss": "in 香蕉: banana"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 蕉 in 香蕉. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "香蕉",
+          "p": "xiāng jiāo",
+          "m": "banana"
+        }
+      ]
+    },
+    {
+      "hanzi": "苹",
+      "pinyin": "píng",
+      "meaning": "in 苹果: apple",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "苹",
+          "role": "whole",
+          "gloss": "in 苹果: apple"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 苹 in 苹果. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "苹果",
+          "p": "píng guǒ",
+          "m": "apple"
+        }
+      ]
+    },
+    {
+      "hanzi": "龙",
+      "pinyin": "lóng",
+      "meaning": "dragon",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "龙",
+          "role": "whole",
+          "gloss": "dragon"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 龙 in 龙. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "龙",
+          "p": "lóng",
+          "m": "dragon"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u43-g三49",
+      "pattern": "V得 + 程度：歌词中再用",
+      "purpose": "Retrieve degree in an imagined scene",
+      "explanation": "唱得慢 describes delivery; 哭得很伤心 describes an acted or imagined emotional degree. A lyrical speaker need not be the writer. Distinguish imagery, performance and actual biography.",
+      "examples": [
+        {
+          "zh": "她唱得很慢。",
+          "py": "tā chàng dé hěn màn .",
+          "en": "She sings slowly."
+        },
+        {
+          "zh": "角色哭得很伤心。",
+          "py": "jué sè kū dé hěn shāng xīn .",
+          "en": "The character cries sadly."
+        },
+        {
+          "zh": "这一句读得很清楚。",
+          "py": "zhè yī jù dú dé hěn qīng chǔ .",
+          "en": "This sentence is read clearly."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "歌词里的角色哭，作者一定在哭。",
+          "right": "歌词里的角色不一定是作者。",
+          "why": "Do not infer biography from a lyrical speaker."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u43-g三58",
+      "pattern": "比起…，更…：再次比较",
+      "purpose": "Retrieve the stated comparison basis",
+      "explanation": "比起昨天，这一句更清楚 compares the specific sentence and times. 比起快，她更重视准确 compares priorities, not a universal speed rule. Name a comparison basis and preserve the claim’s scope.",
+      "examples": [
+        {
+          "zh": "比起昨天，这一句更清楚。",
+          "py": "bǐ qǐ zuó tiān , zhè yī jù gèng qīng chǔ .",
+          "en": "Compared with yesterday, this sentence is clearer."
+        },
+        {
+          "zh": "比起快，她更重视准确。",
+          "py": "bǐ qǐ kuài , tā gèng zhòng shì zhǔn què .",
+          "en": "She values accuracy more than speed."
+        },
+        {
+          "zh": "比起独自练，她更喜欢一起读。",
+          "py": "bǐ qǐ dú zì liàn , tā gèng xǐ huān yì qǐ dú .",
+          "en": "She prefers reading together to practising alone."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这句更清楚说明全部都懂了。",
+          "right": "这句更清楚没有说明全部都懂。",
+          "why": "A comparative clarity claim is not total mastery."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u43-d",
+    "title": "Whose voice is in the verse?",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the performance discussion.",
+    "lines": [
+      {
+        "zh": "把两段合起来，按顺序排；重读时别丢意思。",
+        "py": "bǎ liǎng duàn hé qǐ lái , àn shùn xù pái ; chóng dú shí bié diū yì si .",
+        "en": "Combine the two passages and arrange them; preserve meaning on rereading.",
+        "speaker": "a"
+      },
+      {
+        "zh": "她唱得很慢，是作者也很伤心吗？",
+        "py": "tā chàng dé hěn màn , shì zuò zhě yě hěn shāng xīn ma ?",
+        "en": "She sings slowly. Is the author sad too?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不一定，角色和作者不同。比起快，她更重视准确。",
+        "py": "bù yí dìng , jué sè hé zuò zhě bù tóng . bǐ qǐ kuài , tā gèng zhòng shì zhǔn què .",
+        "en": "Not necessarily; character and writer differ. She values accuracy above speed.",
+        "speaker": "a"
+      },
+      {
+        "zh": "划船、烟和武器都是意象，外交和平是愿望吗？",
+        "py": "huá chuán , yān hé wǔ qì dōu shì yì xiàng , wài jiāo hé píng shì yuàn wàng ma ?",
+        "en": "Are rowing, smoke and weapons imagery, and diplomatic peace a wish?",
+        "speaker": "b"
+      },
+      {
+        "zh": "这里是原创诗的想象，不是现实报道；直到最后才说清楚。",
+        "py": "zhè lǐ shì yuán chuàng shī de xiǎng xiàng , bù shì xiàn shí bào dào ; zhí dào zuì hòu cái shuō qīng chǔ .",
+        "en": "This is an original verse’s imagination, not a real report; it becomes clear only at the end.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，随自己的节奏读，累了先停止。",
+        "py": "hǎo , suí zì jǐ de jié zòu dú , lèi le xiān tíng zhǐ .",
+        "en": "Good; read at your own pace and stop first when tired.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What should the reader do when tired?",
+        "choices": [
+          "Stop first",
+          "Continue without a pause",
+          "Treat the verse as a factual report"
+        ],
+        "answer": "Stop first"
+      },
+      {
+        "type": "detail",
+        "q": "What does she prioritize?",
+        "choices": [
+          "Accuracy",
+          "Speed alone",
+          "Being first"
+        ],
+        "answer": "Accuracy"
+      },
+      {
+        "type": "inference",
+        "q": "Is lyrical emotion necessarily the writer’s?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with smoke"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "丢",
+        "pinyin": "diū",
+        "meaning": "to lose"
+      },
+      {
+        "hanzi": "意象",
+        "pinyin": "yì xiàng",
+        "meaning": "imagery"
+      },
+      {
+        "hanzi": "诗",
+        "pinyin": "shī",
+        "meaning": "verse; poem"
+      },
+      {
+        "hanzi": "想象",
+        "pinyin": "xiǎng xiàng",
+        "meaning": "imagination"
+      },
+      {
+        "hanzi": "节奏",
+        "pinyin": "jié zòu",
+        "meaning": "rhythm"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u43-r",
+    "title": "Read the words and the image",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the rehearsal note.",
+    "lines": [
+      {
+        "zh": "语言团把两段组合练习，团结不是每个人都同一种感受。",
+        "py": "yǔ yán tuán bǎ liǎng duàn zǔ hé liàn xí , tuán jié bù shì měi gè rén dōu tóng yī zhǒng gǎn shòu .",
+        "en": "The language group practises joined passages; unity does not mean identical feelings."
+      },
+      {
+        "zh": "节拍带动跟读，管材料的人不代任何人同意；推广以前核对来源。",
+        "py": "jié pāi dài dòng gēn dú , guǎn cái liào de rén bù dài rèn hé rén tóng yì ; tuī guǎng yǐ qián hé duì lái yuán .",
+        "en": "The beat prompts reading along; the materials manager does not consent for others; check sources before promotion."
+      },
+      {
+        "zh": "故事里角色前进，追着影子，争第一也要尊重别人，争取机会不等于得到。",
+        "py": "gù shì lǐ jué sè qián jìn , zhuī zhe yǐng zi , zhēng dì yī yě yào zūn zhòng bié ren , zhēng qǔ jī huì bù děng yú dé dào .",
+        "en": "The character moves forward and chases shadows; competing for first requires respect; striving is not obtaining."
+      },
+      {
+        "zh": "桌上有汤、果汁、香蕉和苹果，旁边的龙玩具只是道具。",
+        "py": "zhuō shàng yǒu tāng , guǒ zhī , xiāng jiāo hé píng guǒ , páng biān de lóng wán jù zhǐ shì dào jù .",
+        "en": "The table has soup, juice, bananas and apples; the dragon toy nearby is only a prop."
+      },
+      {
+        "zh": "伟大是评价，和平是愿望；直到最后才回答，不说明从最后才开始等。",
+        "py": "wěi dà shì píng jià , hé píng shì yuàn wàng ; zhí dào zuì hòu cái huí dá , bù shuō míng cóng zuì hòu cái kāi shǐ děng .",
+        "en": "Great is an evaluation and peace a wish; answering only at the end does not mean waiting starts there."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What is the dragon toy used as?",
+        "choices": [
+          "A prop",
+          "A weather report",
+          "A real traveller"
+        ],
+        "answer": "A prop"
+      },
+      {
+        "type": "inference",
+        "q": "Does striving for an opportunity mean already obtaining it?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if the character moves forward"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What is the note doing?",
+        "choices": [
+          "Separating performance, objects and actual claims",
+          "Certifying every imagined event",
+          "Inferring a writer’s feelings"
+        ],
+        "answer": "Separating performance, objects and actual claims"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "节拍【带动】跟读，管材料的人不代任何人同意；推广以前核对来源。",
+          "py": "jié pāi dài dòng gēn dú , guǎn cái liào de rén bù dài rèn hé rén tóng yì ; tuī guǎng yǐ qián hé duì lái yuán .",
+          "en": "The beat prompts reading along; the materials manager does not consent for others; check sources before promotion."
+        }
+      ],
+      "bank": [
+        "带动",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "伟大",
+        "pinyin": "wěi dà",
+        "meaning": "great"
+      },
+      {
+        "hanzi": "汤",
+        "pinyin": "tāng",
+        "meaning": "soup"
+      },
+      {
+        "hanzi": "果汁",
+        "pinyin": "guǒ zhī",
+        "meaning": "fruit juice"
+      },
+      {
+        "hanzi": "香蕉",
+        "pinyin": "xiāng jiāo",
+        "meaning": "banana"
+      },
+      {
+        "hanzi": "苹果",
+        "pinyin": "píng guǒ",
+        "meaning": "apple"
+      },
+      {
+        "hanzi": "龙",
+        "pinyin": "lóng",
+        "meaning": "dragon"
+      },
+      {
+        "hanzi": "节拍",
+        "pinyin": "jié pāi",
+        "meaning": "beat"
+      },
+      {
+        "hanzi": "影子",
+        "pinyin": "yǐng zi",
+        "meaning": "shadow"
+      },
+      {
+        "hanzi": "道具",
+        "pinyin": "dào jù",
+        "meaning": "prop"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u43-media",
+      "title": "A small original chorus",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse.",
+      "lines": [
+        {
+          "zh": "船随想象，字随声音。",
+          "py": "chuán suí xiǎng xiàng , zì suí shēng yīn .",
+          "en": "A boat follows imagination; words follow sound."
+        },
+        {
+          "zh": "烟在纸上，不在眼前。",
+          "py": "yān zài zhǐ shàng , bù zài yǎn qián .",
+          "en": "Smoke is on paper, not before our eyes."
+        },
+        {
+          "zh": "和平是愿望，回答要等。",
+          "py": "hé píng shì yuàn wàng , huí dá yào děng .",
+          "en": "Peace is a wish; an answer needs waiting."
+        },
+        {
+          "zh": "慢慢前进，意思别丢。",
+          "py": "màn màn qián jìn , yì si bié diū .",
+          "en": "Move forward slowly; preserve meaning."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Where is the smoke placed?",
+          "choices": [
+            "In the written image",
+            "Verified in the room",
+            "Inside a real boat"
+          ],
+          "answer": "In the written image"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "丢",
+          "pinyin": "diū",
+          "meaning": "to lose"
+        },
+        {
+          "hanzi": "想象",
+          "pinyin": "xiǎng xiàng",
+          "meaning": "imagination"
+        }
+      ]
+    },
+    {
+      "id": "s3-u43-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "节拍带动她跟着读。",
+          "py": "jié pāi dài dòng tā gēn zhe dú .",
+          "en": "The beat prompts her to read along."
+        },
+        {
+          "zh": "谁管这次的材料？",
+          "py": "shéi guǎn zhè cì de cái liào ?",
+          "en": "Who manages the materials this time?"
+        },
+        {
+          "zh": "歌里有划船的想象。",
+          "py": "gē lǐ yǒu huá chuán de xiǎng xiàng .",
+          "en": "The song imagines rowing."
+        },
+        {
+          "zh": "把句子按顺序排。",
+          "py": "bǎ jù zi àn shùn xù pái .",
+          "en": "Arrange the sentences in order."
+        },
+        {
+          "zh": "这个团是语言社团。",
+          "py": "zhè gè tuán shì yǔ yán shè tuán .",
+          "en": "This group is a language club."
+        },
+        {
+          "zh": "团结也要允许不同意见。",
+          "py": "tuán jié yě yào yǔn xǔ bù tóng yì jiàn .",
+          "en": "Unity should allow differing opinions."
+        },
+        {
+          "zh": "歌词提到外交，不解释现行政策。",
+          "py": "gē cí tí dào wài jiāo , bù jiě shì xiàn xíng zhèng cè .",
+          "en": "The lyrics mention diplomacy without explaining current policy."
+        },
+        {
+          "zh": "诗里武器是冲突的意象。",
+          "py": "shī lǐ wǔ qì shì chōng tū de yì xiàng .",
+          "en": "Weapons are imagery of conflict in the verse."
+        },
+        {
+          "zh": "累了先停止练习。",
+          "py": "lèi le xiān tíng zhǐ liàn xí .",
+          "en": "Stop practising first when tired."
+        },
+        {
+          "zh": "角色追着自己的影子。",
+          "py": "jué sè zhuī zhe zì jǐ de yǐng zi .",
+          "en": "The character chases their shadow."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "歌词",
+          "pinyin": "gē cí",
+          "meaning": "lyrics"
+        },
+        {
+          "hanzi": "节拍",
+          "pinyin": "jié pāi",
+          "meaning": "beat"
+        },
+        {
+          "hanzi": "意象",
+          "pinyin": "yì xiàng",
+          "meaning": "imagery"
+        },
+        {
+          "hanzi": "诗",
+          "pinyin": "shī",
+          "meaning": "verse; poem"
+        },
+        {
+          "hanzi": "想象",
+          "pinyin": "xiǎng xiàng",
+          "meaning": "imagination"
+        },
+        {
+          "hanzi": "影子",
+          "pinyin": "yǐng zi",
+          "meaning": "shadow"
+        },
+        {
+          "hanzi": "社团",
+          "pinyin": "shè tuán",
+          "meaning": "club"
+        },
+        {
+          "hanzi": "现行",
+          "pinyin": "xiàn xíng",
+          "meaning": "currently in force"
+        },
+        {
+          "hanzi": "政策",
+          "pinyin": "zhèng cè",
+          "meaning": "policy"
+        },
+        {
+          "hanzi": "冲突",
+          "pinyin": "chōng tū",
+          "meaning": "conflict"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u43-t1",
+      "phrase": "s3-u43-w21",
+      "audio": {
+        "zh": "她争取机会，还没得到。",
+        "py": "tā zhēng qǔ jī huì , hái méi dé dào .",
+        "en": "She strives for an opportunity but has not obtained it."
+      },
+      "statement": "She has obtained it.",
+      "answer": false,
+      "why": "Striving differs from success."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u43-t2",
+      "phrase": "s3-u43-w16",
+      "audio": {
+        "zh": "直到最后她才回答。",
+        "py": "zhí dào zuì hòu tā cái huí dá .",
+        "en": "She answers only at the end."
+      },
+      "statement": "Her answer comes at the end.",
+      "answer": true,
+      "why": "The endpoint is stated."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u43-t3",
+      "phrase": "s3-u43-w02",
+      "prompt": {
+        "zh": "能代她同意吗？",
+        "py": "néng dài tā tóng yì ma ?",
+        "en": "May I consent for her?"
+      },
+      "choices": [
+        "不能，先问她本人。",
+        "管材料就代替她。",
+        "团结就是全部同意。"
+      ],
+      "answer": "不能，先问她本人。",
+      "why": "Preserve the person’s answer."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u43-t4",
+      "phrase": "s3-u43-w17",
+      "prompt": {
+        "zh": "累了还必须继续吗？",
+        "py": "lèi le hái bì xū jì xù ma ?",
+        "en": "Must I continue when tired?"
+      },
+      "choices": [
+        "可以先停止，下次再练。",
+        "停止就删除全部记录。",
+        "争第一比准确重要。"
+      ],
+      "answer": "可以先停止，下次再练。",
+      "why": "Allow a pause."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u43-t5",
+      "phrase": "s3-u43-w12",
+      "line": {
+        "zh": "【推广】活动以前确认来源。",
+        "py": "tuī guǎng huó dòng yǐ qián què rèn lái yuán .",
+        "en": "Check sources before promoting an activity."
+      },
+      "blankPy": "tuī guǎng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u43-t6",
+      "phrase": "s3-u43-w06",
+      "line": {
+        "zh": "诗里希望【和平】。",
+        "py": "shī lǐ xī wàng hé píng .",
+        "en": "The verse wishes for peace."
+      },
+      "blankPy": "hé píng"
+    },
+    {
+      "type": "match",
+      "id": "s3-u43-t7",
+      "phrase": "s3-u43-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Read the two passages together.",
+          "right": {
+            "zh": "把两段合起来读。",
+            "py": "bǎ liǎng duàn hé qǐ lái dú .",
+            "en": "Read the two passages together."
+          }
+        },
+        {
+          "left": "She values accuracy above speed.",
+          "right": {
+            "zh": "比起快，她更重视准确。",
+            "py": "bǐ qǐ kuài , tā gèng zhòng shì zhǔn què .",
+            "en": "She values accuracy above speed."
+          }
+        },
+        {
+          "left": "This sentence is read clearly.",
+          "right": {
+            "zh": "这一句读得很清楚。",
+            "py": "zhè yī jù dú dé hěn qīng chǔ .",
+            "en": "This sentence is read clearly."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u43-t8",
+      "phrase": "s3-u43-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Smoke is on paper, not before our eyes.",
+          "right": {
+            "zh": "烟在纸上，不在眼前。",
+            "py": "yān zài zhǐ shàng , bù zài yǎn qián .",
+            "en": "Smoke is on paper, not before our eyes."
+          }
+        },
+        {
+          "left": "Striving is not obtaining.",
+          "right": {
+            "zh": "争取不等于得到。",
+            "py": "zhēng qǔ bù děng yú dé dào .",
+            "en": "Striving is not obtaining."
+          }
+        },
+        {
+          "left": "The toy is only a prop.",
+          "right": {
+            "zh": "玩具只是道具。",
+            "py": "wán jù zhǐ shì dào jù .",
+            "en": "The toy is only a prop."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u43-t9",
+      "phrase": "s3-u43-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "There is reading and also listening.",
+          "right": {
+            "zh": "不仅有阅读，而且有听力。",
+            "py": "bù jǐn yǒu yuè dú , ér qiě yǒu tīng lì .",
+            "en": "There is reading and also listening."
+          }
+        },
+        {
+          "left": "It is either this course or that one.",
+          "right": {
+            "zh": "不是这门，就是那门。",
+            "py": "bù shì zhè mén , jiù shì nà mén .",
+            "en": "It is either this course or that one."
+          }
+        },
+        {
+          "left": "What is there to fear? I will accompany you.",
+          "right": {
+            "zh": "怕什么啊，我陪你。",
+            "py": "pà shén me a , wǒ péi nǐ .",
+            "en": "What is there to fear? I will accompany you."
+          }
+        },
+        {
+          "left": "Why rush? The time has not come yet.",
+          "right": {
+            "zh": "急什么啊，还没到时间。",
+            "py": "jí shén me a , hái méi dào shí jiān .",
+            "en": "Why rush? The time has not come yet."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Keep meaning",
+      "natural": {
+        "zh": "慢一点也行，意思别丢。",
+        "py": "màn yī diǎn yě xíng , yì si bié diū .",
+        "en": "A little slower is fine; preserve meaning."
+      },
+      "note": "Do not chase pace at the expense of accuracy."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u43-speak",
+    "title": "A song that tells a story",
+    "place": "A language-exchange meeting",
+    "context": "Transfer emotion and comparisons to original lyrical reading.",
+    "goal": "Read an original verse without treating it as literal history",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "为什么唱慢？",
+        "pinyin": "wèi shén me chàng màn ?",
+        "meaning": "Why sing slowly?",
+        "intent": "Name a priority",
+        "examples": [
+          "比起快，我更重视准确。"
+        ],
+        "accept": [
+          "^比起快，我更重视准确。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三49, 三58. Native check: original verse rhythm, figurative language, 重 chóng versus zhòng, degree/comparison retrieval, 随 register, 团 noun and_until scope. No copyrighted lyrics, real-person biography or operational guidance. Native review pending. Planned retrieval 三66 / 三67 / 三81: 不仅有阅读，而且有听力。, 不是这门，就是那门。, 怕什么啊，我陪你。, 急什么啊，还没到时间。."
+}

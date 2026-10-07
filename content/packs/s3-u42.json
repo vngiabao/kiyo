@@ -1,0 +1,1154 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u42",
+    "stage": 2,
+    "order": 106,
+    "title": "Drama night without peeking",
+    "titleZh": "这句台词指的是谁",
+    "canDo": [
+      "Resolve a reference from an original subtitle scene",
+      "Retrieve potential complements and indirect rhetorical questions",
+      "Separate a recorded claim from a verified result"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u41"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u42-w01",
+      "hanzi": "指",
+      "pinyin": "zhǐ",
+      "meaning": "to point; refer to",
+      "meaningVi": "chỉ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这句话指她的朋友。",
+        "py": "zhè jù huà zhǐ tā de péng you .",
+        "en": "This sentence refers to her friend."
+      },
+      "usageNote": "[GF2021:L3:10535] Source entry: 指; zhǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w02",
+      "hanzi": "指出",
+      "pinyin": "zhǐ chū",
+      "meaning": "to point out",
+      "meaningVi": "chỉ ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她指出通知日期错了。",
+        "py": "tā zhǐ chū tōng zhī rì qī cuò le .",
+        "en": "She points out the notice date is wrong."
+      },
+      "usageNote": "[GF2021:L3:10537] Source entry: 指出; zhǐchū; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w03",
+      "hanzi": "指导",
+      "pinyin": "zhǐ dǎo",
+      "meaning": "to guide",
+      "meaningVi": "hướng dẫn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "老师指导阅读，不替学生完成。",
+        "py": "lǎo shī zhǐ dǎo yuè dú , bù tì xué sheng wán chéng .",
+        "en": "The teacher guides reading without completing it for students."
+      },
+      "usageNote": "[GF2021:L3:10538] Source entry: 指导; zhǐdǎo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w04",
+      "hanzi": "调",
+      "pinyin": "tiáo",
+      "meaning": "to adjust, tiáo",
+      "meaningVi": "điều chỉnh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把声音调低一点。",
+        "py": "bǎ shēng yīn tiáo dī yī diǎn .",
+        "en": "Turn the sound down a little."
+      },
+      "usageNote": "[GF2021:L3:7974] Source entry: 调; tiáo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w05",
+      "hanzi": "调整",
+      "pinyin": "tiáo zhěng",
+      "meaning": "to adjust",
+      "meaningVi": "điều chỉnh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "调整速度，先保留准确声音。",
+        "py": "tiáo zhěng sù dù , xiān bǎo liú zhǔn què shēng yīn .",
+        "en": "Adjust speed while preserving accurate sound."
+      },
+      "usageNote": "[GF2021:L3:7982] Source entry: 调整; tiáozhěng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w06",
+      "hanzi": "线",
+      "pinyin": "xiàn",
+      "meaning": "line; wire",
+      "meaningVi": "đường; dây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "线断了，记录还在本地。",
+        "py": "xiàn duàn le , jì lù hái zài běn dì .",
+        "en": "The connection is broken; the record remains locally."
+      },
+      "usageNote": "[GF2021:L3:8773] Source entry: 线; xiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w07",
+      "hanzi": "铁",
+      "pinyin": "tiě",
+      "meaning": "iron",
+      "meaningVi": "sắt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场景里这块是铁，不是木材。",
+        "py": "chǎng jǐng lǐ zhè kuài shì tiě , bù shì mù cái .",
+        "en": "This piece is iron, not wood, in the scene."
+      },
+      "usageNote": "[GF2021:L3:8000] Source entry: 铁; tiě; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w08",
+      "hanzi": "造",
+      "pinyin": "zào",
+      "meaning": "to make; build",
+      "meaningVi": "chế tạo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她用纸造一个模型。",
+        "py": "tā yòng zhǐ zào yī gè mó xíng .",
+        "en": "She makes a model from paper."
+      },
+      "usageNote": "[GF2021:L3:10168] Source entry: 造; zào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w09",
+      "hanzi": "造成",
+      "pinyin": "zào chéng",
+      "meaning": "to cause",
+      "meaningVi": "gây ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧地址造成了误会。",
+        "py": "jiù dì zhǐ zào chéng le wù huì .",
+        "en": "The old address caused misunderstanding."
+      },
+      "usageNote": "[GF2021:L3:10169] Source entry: 造成; zàochéng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w10",
+      "hanzi": "打破",
+      "pinyin": "dǎ pò",
+      "meaning": "to break",
+      "meaningVi": "phá vỡ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她打破安静，问了一个问题。",
+        "py": "tā dǎ pò ān jìng , wèn le yī gè wèn tí .",
+        "en": "She breaks the silence with a question."
+      },
+      "usageNote": "[GF2021:L3:1433] Source entry: 打破; dǎ∥pò; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w11",
+      "hanzi": "使",
+      "pinyin": "shǐ",
+      "meaning": "to cause; make",
+      "meaningVi": "khiến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "慢一点使她听得更清楚。",
+        "py": "màn yī diǎn shǐ tā tīng dé gèng qīng chǔ .",
+        "en": "A slower pace makes her hear more clearly."
+      },
+      "usageNote": "[GF2021:L3:7264] Source entry: 使; shǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w12",
+      "hanzi": "形成",
+      "pinyin": "xíng chéng",
+      "meaning": "to form",
+      "meaningVi": "hình thành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "讨论形成一个初步方案。",
+        "py": "tǎo lùn xíng chéng yī gè chū bù fāng àn .",
+        "en": "Discussion forms a preliminary plan."
+      },
+      "usageNote": "[GF2021:L3:9069] Source entry: 形成; xíngchéng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w13",
+      "hanzi": "形状",
+      "pinyin": "xíng zhuàng",
+      "meaning": "shape",
+      "meaningVi": "hình dạng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "模型的形状像一个环。",
+        "py": "mó xíng de xíng zhuàng xiàng yī gè huán .",
+        "en": "The model is shaped like a ring."
+      },
+      "usageNote": "[GF2021:L3:9077] Source entry: 形状; xíngzhuàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w14",
+      "hanzi": "转",
+      "pinyin": "zhuǎn",
+      "meaning": "to turn; transfer",
+      "meaningVi": "xoay; chuyển",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把牌子转过来。",
+        "py": "bǎ pái zi zhuǎn guò lái .",
+        "en": "Turn the sign around."
+      },
+      "usageNote": "[GF2021:L3:10793] Source entry: 转; zhuǎn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w15",
+      "hanzi": "转变",
+      "pinyin": "zhuǎn biàn",
+      "meaning": "to change",
+      "meaningVi": "thay đổi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她的想法转变了，原因还没说。",
+        "py": "tā de xiǎng fǎ zhuǎn biàn le , yuán yīn hái méi shuō .",
+        "en": "Her view changed; the reason is unstated."
+      },
+      "usageNote": "[GF2021:L3:10794] Source entry: 转变; zhuǎnbiàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w16",
+      "hanzi": "总结",
+      "pinyin": "zǒng jié",
+      "meaning": "to summarize; summary",
+      "meaningVi": "tổng kết",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "总结只写实际完成的部分。",
+        "py": "zǒng jié zhǐ xiě shí jì wán chéng de bù fèn .",
+        "en": "Summarize only what was completed."
+      },
+      "usageNote": "[GF2021:L3:10966] Source entry: 总结; zǒngjié; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w17",
+      "hanzi": "一切",
+      "pinyin": "yī qiè",
+      "meaning": "everything",
+      "meaningVi": "mọi thứ",
+      "pos": "pronoun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "一切安排还要最后确认。",
+        "py": "yī qiè ān pái hái yào zuì hòu què rèn .",
+        "en": "All arrangements need final confirmation."
+      },
+      "usageNote": "[GF2021:L3:9519] Source entry: 一切; yíqiè; 代. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w18",
+      "hanzi": "应当",
+      "pinyin": "yīng dāng",
+      "meaning": "should",
+      "meaningVi": "nên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "应当核对，不代表已经核对。",
+        "py": "yīng dāng hé duì , bù dài biǎo yǐ jīng hé duì .",
+        "en": "One should verify; that does not mean having verified."
+      },
+      "usageNote": "[GF2021:L3:9733] Source entry: 应当; yīngdāng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w19",
+      "hanzi": "专门",
+      "pinyin": "zhuān mén",
+      "meaning": "specifically; especially",
+      "meaningVi": "chuyên; riêng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她专门来问这一句。",
+        "py": "tā zhuān mén lái wèn zhè yī jù .",
+        "en": "She comes specifically to ask about this sentence."
+      },
+      "usageNote": "[GF2021:L3:10782] Source entry: 专门; zhuānmén; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w20",
+      "hanzi": "专题",
+      "pinyin": "zhuān tí",
+      "meaning": "special topic",
+      "meaningVi": "chuyên đề",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "专题是台词中的指代。",
+        "py": "zhuān tí shì tái cí zhōng de zhǐ dài .",
+        "en": "The topic is reference in dialogue."
+      },
+      "usageNote": "[GF2021:L3:10784] Source entry: 专题; zhuāntí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w21",
+      "hanzi": "关注",
+      "pinyin": "guān zhù",
+      "meaning": "to pay attention to",
+      "meaningVi": "quan tâm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "关注她的回答，不替她说。",
+        "py": "guān zhù tā de huí dá , bù tì tā shuō .",
+        "en": "Attend to her answer without speaking for her."
+      },
+      "usageNote": "[GF2021:L3:2972] Source entry: 关注; guānzhù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u42-w22",
+      "hanzi": "提问",
+      "pinyin": "tí wèn",
+      "meaning": "to ask a question",
+      "meaningVi": "đặt câu hỏi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "没听懂就提问。",
+        "py": "méi tīng dǒng jiù tí wèn .",
+        "en": "Ask a question when you did not understand."
+      },
+      "usageNote": "[GF2021:L3:7896] Source entry: 提问; tíwèn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "形",
+      "pinyin": "xíng",
+      "meaning": "form",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "形",
+          "role": "whole",
+          "gloss": "form"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 形 in 形成 / 形状. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "形成",
+          "p": "xíng chéng",
+          "m": "to form"
+        },
+        {
+          "w": "形状",
+          "p": "xíng zhuàng",
+          "m": "shape"
+        }
+      ]
+    },
+    {
+      "hanzi": "状",
+      "pinyin": "zhuàng",
+      "meaning": "state; shape",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "状",
+          "role": "whole",
+          "gloss": "state; shape"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 状 in 形状 / 状况. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "形状",
+          "p": "xíng zhuàng",
+          "m": "shape"
+        },
+        {
+          "w": "状况",
+          "p": "zhuàng kuàng",
+          "m": "condition; situation"
+        }
+      ]
+    },
+    {
+      "hanzi": "抓",
+      "pinyin": "zhuā",
+      "meaning": "grab",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "抓",
+          "role": "whole",
+          "gloss": "grab"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 抓 in 抓 / 抓住. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "抓",
+          "p": "zhuā",
+          "m": "to grab"
+        },
+        {
+          "w": "抓住",
+          "p": "zhuā zhù",
+          "m": "seize; hold onto"
+        }
+      ]
+    },
+    {
+      "hanzi": "追",
+      "pinyin": "zhuī",
+      "meaning": "pursue",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "追",
+          "role": "whole",
+          "gloss": "pursue"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 追 in 追问. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "追问",
+          "p": "zhuī wèn",
+          "m": "ask further"
+        }
+      ]
+    },
+    {
+      "hanzi": "切",
+      "pinyin": "qiè",
+      "meaning": "cut",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "切",
+          "role": "whole",
+          "gloss": "cut"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 切 in 一切 / 亲切. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "一切",
+          "p": "yī qiè",
+          "m": "everything"
+        },
+        {
+          "w": "亲切",
+          "p": "qīn qiè",
+          "m": "warm; friendly"
+        }
+      ]
+    },
+    {
+      "hanzi": "武",
+      "pinyin": "wǔ",
+      "meaning": "martial; military",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "武",
+          "role": "whole",
+          "gloss": "martial; military"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 武 in 武术 / 武器. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "武术",
+          "p": "wǔ shù",
+          "m": "martial arts"
+        },
+        {
+          "w": "武器",
+          "p": "wǔ qì",
+          "m": "weapon"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u42-g三07",
+      "pattern": "不知道 / 想问 + 疑问分句",
+      "purpose": "Retrieve indirect questions without asserting an answer",
+      "explanation": "我不知道她指谁 embeds the unknown reference. It does not assert that she refers to a specific person. Unlike a direct question, an indirect unknown can occur inside a statement; do not add 吗 mechanically.",
+      "examples": [
+        {
+          "zh": "我不知道她指谁。",
+          "py": "wǒ bù zhī dào tā zhǐ shéi .",
+          "en": "I do not know whom she refers to."
+        },
+        {
+          "zh": "我想问这个模型是谁造的。",
+          "py": "wǒ xiǎng wèn zhè gè mó xíng shì shéi zào de .",
+          "en": "I want to ask who made this model."
+        },
+        {
+          "zh": "她还没说什么时候转变的。",
+          "py": "tā hái méi shuō shén me shí hou zhuǎn biàn de .",
+          "en": "She has not said when the change happened."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不知道她指谁，所以一定指老师。",
+          "right": "我不知道她指谁，还要问。",
+          "why": "An unknown reference does not identify someone."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u42-g三48",
+      "pattern": "看得懂 / 看不懂：字幕再应用",
+      "purpose": "Retrieve potential understanding",
+      "explanation": "这句看得懂 indicates potential understanding of that sentence, not a claim about every line. 看不清 concerns visual clarity; 看不懂 concerns meaning. A replay may improve clarity without guaranteeing understanding.",
+      "examples": [
+        {
+          "zh": "这句看得懂，下一句还不懂。",
+          "py": "zhè jù kàn dé dǒng , xià yī jù hái bù dǒng .",
+          "en": "I understand this sentence, but not the next."
+        },
+        {
+          "zh": "字太小，我看不清。",
+          "py": "zì tài xiǎo , wǒ kàn bù qīng .",
+          "en": "The text is too small to see clearly."
+        },
+        {
+          "zh": "声音调低了，这句还听得清。",
+          "py": "shēng yīn tiáo dī le , zhè jù hái tīng dé qīng .",
+          "en": "The sound is lowered but this sentence is still audible clearly."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "听得清就一定全部懂。",
+          "right": "听得清还不一定理解全部意思。",
+          "why": "Audibility and meaning differ."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u42-d",
+    "title": "The source of 她",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read an original subtitle scene.",
+    "lines": [
+      {
+        "zh": "她说她会改，这两个她是同一个人吗？",
+        "py": "tā shuō tā huì gǎi , zhè liǎng gè tā shì tóng yī gè rén ma ?",
+        "en": "She says she will change it. Are both 她 the same person?",
+        "speaker": "a"
+      },
+      {
+        "zh": "这一段还没说明。我专门来问，不随便猜。",
+        "py": "zhè yī duàn hái méi shuō míng . wǒ zhuān mén lái wèn , bù suí biàn cāi .",
+        "en": "This passage has not specified it. I came specifically to ask instead of guessing.",
+        "speaker": "b"
+      },
+      {
+        "zh": "把声音调低，字切换成大一点，能看得懂吗？",
+        "py": "bǎ shēng yīn tiáo dī , zì qiè huàn chéng dà yī diǎn , néng kàn dé dǒng ma ?",
+        "en": "Lower the sound and switch to larger text. Can you understand it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "字看得清，但意思还不全懂。老师指导我们查前一句。",
+        "py": "zì kàn dé qīng , dàn yì si hái bù quán dǒng . lǎo shī zhǐ dǎo wǒ men chá qián yī jù .",
+        "en": "The words are clear, but meaning is incomplete. The teacher guides us to check the previous sentence.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她指出旧地址造成误会，应当改；已经改了吗？",
+        "py": "tā zhǐ chū jiù dì zhǐ zào chéng wù huì , yīng dāng gǎi ; yǐ jīng gǎi le ma ?",
+        "en": "She points out the old address caused misunderstanding and should change. Is it changed?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没。形成方案和实行不同，总结只写完成部分。",
+        "py": "hái méi . xíng chéng fāng àn hé shí xíng bù tóng , zǒng jié zhǐ xiě wán chéng bù fèn .",
+        "en": "Not yet. Forming a plan differs from implementing it; summarize completed parts only.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "Has the old address already been corrected?",
+        "choices": [
+          "Not yet",
+          "Yes, every plan has been implemented",
+          "The address was never mentioned"
+        ],
+        "answer": "Not yet"
+      },
+      {
+        "type": "detail",
+        "q": "Is the reference established?",
+        "choices": [
+          "Not yet",
+          "Teacher",
+          "Director"
+        ],
+        "answer": "Not yet"
+      },
+      {
+        "type": "inference",
+        "q": "Does visual clarity prove full meaning understood?",
+        "choices": [
+          "No",
+          "Yes",
+          "If sound is low"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "切换",
+        "pinyin": "qiè huàn",
+        "meaning": "switch"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u42-r",
+    "title": "Look back before deciding",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the note about references.",
+    "lines": [
+      {
+        "zh": "提问先说明专题，关注实际回答；这句指谁，需要上下文。",
+        "py": "tí wèn xiān shuō míng zhuān tí , guān zhù shí jì huí dá ; zhè jù zhǐ shéi , xū yào shàng xià wén .",
+        "en": "State the topic when asking and attend to the answer; the reference needs context."
+      },
+      {
+        "zh": "把牌子转过来，形状像环的模型是纸造的，不是铁。",
+        "py": "bǎ pái zi zhuǎn guò lái , xíng zhuàng xiàng huán de mó xíng shì zhǐ zào de , bù shì tiě .",
+        "en": "Turn the sign around; the ring-shaped model is paper, not iron."
+      },
+      {
+        "zh": "线断了也保留本地记录；调整音量不是换说话人，切换字幕不是完成理解。",
+        "py": "xiàn duàn le yě bǎo liú běn dì jì lù ; tiáo zhěng yīn liàng bù shì huàn shuō huà rén , qiè huàn zì mù bù shì wán chéng lǐ jiě .",
+        "en": "Retain local records after connection loss; volume adjustment does not change speakers; changing captions does not complete understanding."
+      },
+      {
+        "zh": "打破安静使她开始提问，想法转变的原因仍没说。一切只指本段安排。",
+        "py": "dǎ pò ān jìng shǐ tā kāi shǐ tí wèn , xiǎng fǎ zhuǎn biàn de yuán yīn réng méi shuō . yī qiè zhǐ zhǐ běn duàn ān pái .",
+        "en": "Breaking silence makes her start asking; the reason her view changes remains unstated; everything refers only to this passage’s arrangements."
+      },
+      {
+        "zh": "抓住一句、追问前一句可以查指代；武器台词是虚构场景，不教真实使用。",
+        "py": "zhuā zhù yī jù , zhuī wèn qián yī jù kě yǐ chá zhǐ dài ; wǔ qì tái cí shì xū gòu chǎng jǐng , bù jiào zhēn shí shǐ yòng .",
+        "en": "Holding onto a line and asking about the preceding line may clarify reference; weapon dialogue is fictional, not usage instruction."
+      }
+    ],
+    "questions": [
+      {
+        "type": "detail",
+        "q": "What is retained after the connection breaks?",
+        "choices": [
+          "Local records",
+          "Only the speaker’s volume",
+          "A new weapon"
+        ],
+        "answer": "Local records"
+      },
+      {
+        "type": "inference",
+        "q": "Does switching subtitles by itself establish comprehension?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only when the picture is clear"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What resolves the unknown?",
+        "choices": [
+          "Context and an actual answer",
+          "A pronoun guessed from appearance",
+          "Replay assumed as mastery"
+        ],
+        "answer": "Context and an actual answer"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "把牌子转过来，【形状】像环的模型是纸造的，不是铁。",
+          "py": "bǎ pái zi zhuǎn guò lái , xíng zhuàng xiàng huán de mó xíng shì zhǐ zào de , bù shì tiě .",
+          "en": "Turn the sign around; the ring-shaped model is paper, not iron."
+        }
+      ],
+      "bank": [
+        "形状",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "抓住",
+        "pinyin": "zhuā zhù",
+        "meaning": "seize; hold onto"
+      },
+      {
+        "hanzi": "追问",
+        "pinyin": "zhuī wèn",
+        "meaning": "ask further"
+      },
+      {
+        "hanzi": "切换",
+        "pinyin": "qiè huàn",
+        "meaning": "switch"
+      },
+      {
+        "hanzi": "武器",
+        "pinyin": "wǔ qì",
+        "meaning": "weapon"
+      },
+      {
+        "hanzi": "字幕",
+        "pinyin": "zì mù",
+        "meaning": "subtitles"
+      },
+      {
+        "hanzi": "指代",
+        "pinyin": "zhǐ dài",
+        "meaning": "reference"
+      },
+      {
+        "hanzi": "环",
+        "pinyin": "huán",
+        "meaning": "ring; loop"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u42-media",
+      "title": "The model has opinions",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original comic scene.",
+      "lines": [
+        {
+          "zh": "她指谁？模型也没回答。",
+          "py": "tā zhǐ shéi ? mó xíng yě méi huí dá .",
+          "en": "Whom does she refer to? The model did not answer either.",
+          "speaker": "a"
+        },
+        {
+          "zh": "模型是纸造的，你先问说话的人。",
+          "py": "mó xíng shì zhǐ zào de , nǐ xiān wèn shuō huà de rén .",
+          "en": "The model is paper; ask the speaker first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "明白，先问人，再总结。",
+          "py": "míng bái , xiān wèn rén , zài zǒng jié .",
+          "en": "Understood; ask the person first, then summarize.",
+          "speaker": "a"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is corrected?",
+          "choices": [
+            "Seeking an answer from an inanimate model",
+            "A confirmed reference",
+            "The need for actual records"
+          ],
+          "answer": "Seeking an answer from an inanimate model"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u42-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "她指出通知日期错了。",
+          "py": "tā zhǐ chū tōng zhī rì qī cuò le .",
+          "en": "She points out the notice date is wrong."
+        },
+        {
+          "zh": "老师指导阅读，不替学生完成。",
+          "py": "lǎo shī zhǐ dǎo yuè dú , bù tì xué sheng wán chéng .",
+          "en": "The teacher guides reading without completing it for students."
+        },
+        {
+          "zh": "线断了，记录还在本地。",
+          "py": "xiàn duàn le , jì lù hái zài běn dì .",
+          "en": "The connection is broken; the record remains locally."
+        },
+        {
+          "zh": "旧地址造成了误会。",
+          "py": "jiù dì zhǐ zào chéng le wù huì .",
+          "en": "The old address caused misunderstanding."
+        },
+        {
+          "zh": "她打破安静，问了一个问题。",
+          "py": "tā dǎ pò ān jìng , wèn le yī gè wèn tí .",
+          "en": "She breaks the silence with a question."
+        },
+        {
+          "zh": "模型的形状像一个环。",
+          "py": "mó xíng de xíng zhuàng xiàng yī gè huán .",
+          "en": "The model is shaped like a ring."
+        },
+        {
+          "zh": "一切安排还要最后确认。",
+          "py": "yī qiè ān pái hái yào zuì hòu què rèn .",
+          "en": "All arrangements need final confirmation."
+        },
+        {
+          "zh": "专题是台词中的指代。",
+          "py": "zhuān tí shì tái cí zhōng de zhǐ dài .",
+          "en": "The topic is reference in dialogue."
+        },
+        {
+          "zh": "关注她的回答，不替她说。",
+          "py": "guān zhù tā de huí dá , bù tì tā shuō .",
+          "en": "Attend to her answer without speaking for her."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "指代",
+          "pinyin": "zhǐ dài",
+          "meaning": "reference"
+        },
+        {
+          "hanzi": "环",
+          "pinyin": "huán",
+          "meaning": "ring; loop"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u42-t1",
+      "phrase": "s3-u42-w18",
+      "audio": {
+        "zh": "应当改，还没改。",
+        "py": "yīng dāng gǎi , hái méi gǎi .",
+        "en": "It should change but has not."
+      },
+      "statement": "It has changed.",
+      "answer": false,
+      "why": "Obligation is not completion."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u42-t2",
+      "phrase": "s3-u42-w08",
+      "audio": {
+        "zh": "模型是纸造的，不是铁。",
+        "py": "mó xíng shì zhǐ zào de , bù shì tiě .",
+        "en": "The model is paper, not iron."
+      },
+      "statement": "It is made of paper.",
+      "answer": true,
+      "why": "The material is explicit."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u42-t3",
+      "phrase": "s3-u42-w01",
+      "prompt": {
+        "zh": "她指谁？",
+        "py": "tā zhǐ shéi ?",
+        "en": "Whom does she refer to?"
+      },
+      "choices": [
+        "还没说明，要看前一句。",
+        "看衣服就知道全部。",
+        "模型已经决定。"
+      ],
+      "answer": "还没说明，要看前一句。",
+      "why": "Resolve with context."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u42-t4",
+      "phrase": "s3-u42-w22",
+      "prompt": {
+        "zh": "听得清就全懂吗？",
+        "py": "tīng dé qīng jiù quán dǒng ma ?",
+        "en": "Does clear hearing mean full understanding?"
+      },
+      "choices": [
+        "不一定，还要确认意思。",
+        "音量就是分数。",
+        "转发就算理解。"
+      ],
+      "answer": "不一定，还要确认意思。",
+      "why": "Separate signal and meaning."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u42-t5",
+      "phrase": "s3-u42-w05",
+      "line": {
+        "zh": "【调整】速度，先保留准确声音。",
+        "py": "tiáo zhěng sù dù , xiān bǎo liú zhǔn què shēng yīn .",
+        "en": "Adjust pace while preserving accurate sound."
+      },
+      "blankPy": "tiáo zhěng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u42-t6",
+      "phrase": "s3-u42-w16",
+      "line": {
+        "zh": "【总结】只写实际完成的部分。",
+        "py": "zǒng jié zhǐ xiě shí jì wán chéng de bù fèn .",
+        "en": "Summarize actual completed parts."
+      },
+      "blankPy": "zǒng jié"
+    },
+    {
+      "type": "match",
+      "id": "s3-u42-t7",
+      "phrase": "s3-u42-w21",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "I do not know whom she refers to.",
+          "right": {
+            "zh": "我不知道她指谁。",
+            "py": "wǒ bù zhī dào tā zhǐ shéi .",
+            "en": "I do not know whom she refers to."
+          }
+        },
+        {
+          "left": "I can understand this sentence.",
+          "right": {
+            "zh": "这句看得懂。",
+            "py": "zhè jù kàn dé dǒng .",
+            "en": "I can understand this sentence."
+          }
+        },
+        {
+          "left": "I do not yet understand the next.",
+          "right": {
+            "zh": "下一句还不懂。",
+            "py": "xià yī jù hái bù dǒng .",
+            "en": "I do not yet understand the next."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u42-t8",
+      "phrase": "s3-u42-w15",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Her view changed.",
+          "right": {
+            "zh": "她的想法转变了。",
+            "py": "tā de xiǎng fǎ zhuǎn biàn le .",
+            "en": "Her view changed."
+          }
+        },
+        {
+          "left": "A plan is formed, not yet implemented.",
+          "right": {
+            "zh": "形成方案还没实行。",
+            "py": "xíng chéng fāng àn hái méi shí xíng .",
+            "en": "A plan is formed, not yet implemented."
+          }
+        },
+        {
+          "left": "Come specifically to ask about this sentence.",
+          "right": {
+            "zh": "专门来问这一句。",
+            "py": "zhuān mén lái wèn zhè yī jù .",
+            "en": "Come specifically to ask about this sentence."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u42-t9",
+      "phrase": "s3-u42-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Confirm time first, then register.",
+          "right": {
+            "zh": "首先确认时间，然后报名。",
+            "py": "shǒu xiān què rèn shí jiān , rán hòu bào míng .",
+            "en": "Confirm time first, then register."
+          }
+        },
+        {
+          "left": "She checks time and also asks the location.",
+          "right": {
+            "zh": "她核对时间，并且问了地点。",
+            "py": "tā hé duì shí jiān , bìng qiě wèn le dì diǎn .",
+            "en": "She checks time and also asks the location."
+          }
+        },
+        {
+          "left": "It is already ten; let us stop first.",
+          "right": {
+            "zh": "都十点了，先结束吧。",
+            "py": "dōu shí diǎn le , xiān jié shù ba .",
+            "en": "It is already ten; let us stop first."
+          }
+        },
+        {
+          "left": "A little slower is acceptable; speak accurately first.",
+          "right": {
+            "zh": "慢就慢点儿吧，先说准确。",
+            "py": "màn jiù màn diǎn ér ba , xiān shuō zhǔn què .",
+            "en": "A little slower is acceptable; speak accurately first."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask specifically",
+      "natural": {
+        "zh": "哪一个她？先看前一句。",
+        "py": "nǎ yī gè tā ? xiān kàn qián yī jù .",
+        "en": "Which she? Check the previous sentence first."
+      },
+      "note": "Resolve reference in context."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u42-speak",
+    "title": "Drama night without peeking",
+    "place": "A language-exchange meeting",
+    "context": "Transfer open reference and possibility complements to a scene.",
+    "goal": "Resolve a reference from an original subtitle scene",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "听得清吗？",
+        "pinyin": "tīng dé qīng ma ?",
+        "meaning": "Can you hear clearly?",
+        "intent": "Separate clarity from meaning",
+        "examples": [
+          "听得清，但意思还不全懂。"
+        ],
+        "accept": [
+          "^听得清，但意思还不全懂。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三07, 三48. Native check: indirect questions, pronoun references, 调 tiáo, repeated potential-complement retrieval, 看清 versus 看懂. Fictional props and scene, no weapon or operating instruction. Native review pending. Planned retrieval 三64 / 三65 / 三79 / 三80: 首先确认时间，然后报名。, 她核对时间，并且问了地点。, 都十点了，先结束吧。, 慢就慢点儿吧，先说准确。."
+}
