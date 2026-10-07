@@ -74,7 +74,7 @@ course(u,'不是这门，就是那门',['Read the alternatives in 不是…就�
 较|comparatively; rather|khá; tương đối|adverb|这门课较难，但有帮助。|This course is comparatively difficult but helpful.|较难要说明跟什么比。|Specify the comparison when saying comparatively difficult.
 比例|proportion|tỷ lệ|noun|比例要说明全部人数。|A proportion requires the total number of people.|两个数字不一定是同一种比例。|Two numbers are not necessarily comparable proportions.
 面积|area|diện tích|noun|面积用平方米，不用米。|Area uses square metres, not metres.|面积大不表示课程好。|A large area does not imply a good course.
-米|metre|mét|classifier|两米是长度，不是两平方米。|Two metres is length, not two square metres.|米和面积单位别混。|Do not confuse metres and area units.
+米|metre|mét|noun|两米是长度，不是两平方米。|Two metres is length, not two square metres.|米和面积单位别混。|Do not confuse metres and area units.
 内|inside; within|trong|noun|三天内回答，不是三天后回答。|Reply within three days, not after three days.|楼内的室还要看号码。|Check room numbers inside the building.
 当中|among; in the middle|trong số; giữa|noun|两个选项当中，她还没选。|She has not chosen between the two options.|同学当中有人需要休息。|Some classmates need rest.
 空儿|free time|thời gian rảnh|noun|有空儿再一起看课程。|Review courses together when free.|没有空儿就改时间。|Change the time if there is no free time.

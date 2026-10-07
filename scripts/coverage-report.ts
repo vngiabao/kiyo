@@ -114,9 +114,13 @@ export function auditCoverage(
       "有（一）点儿": ["有点儿", "有一点儿"], "家（科学家）": ["家"],
       "老（老王）": ["老"], "小（小王）": ["小"], "头（里头）": ["头"],
       "面1": ["面"], "面2": ["面"], "称1": ["称"],
+      "初（初一）": ["初"], "化（现代化）": ["化"],
+      "性（积极性）": ["性"], "员（服务员）": ["员"],
+      "者（志愿者）": ["者"], "…极了": ["极了"],
     };
     const sourceReadings = (r: (typeof rows)[number], word: string) => {
       if (r.entry === "有（一）点儿") return word === "有点儿" ? ["yǒudiǎnr"] : ["yǒuyìdiǎnr"];
+      if (r.entry === "…极了") return [r.pinyin.replace(/^…/u, "")];
       const readings = r.pinyin.split(/[∣|｜]/u);
       return readings.length === r.forms.length && readings.length > 1
         ? [readings[r.forms.indexOf(word)]] : [r.pinyin.split(/[（(]/u)[0].trim()];

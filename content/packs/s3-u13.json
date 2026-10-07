@@ -1,0 +1,1337 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u13",
+    "stage": 2,
+    "order": 77,
+    "title": "Tentative plans, honest answers",
+    "titleZh": "计划还没定",
+    "canDo": [
+      "Express estimates without presenting them as confirmed facts",
+      "Make a conditional indoor plan",
+      "Separate a wish, a decision and a forecast"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u12"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u13-w01",
+      "hanzi": "大概",
+      "pinyin": "dà gài",
+      "meaning": "probably; roughly",
+      "meaningVi": "có lẽ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她大概六点到，还没确认。",
+        "py": "tā dà gài liù diǎn dào , hái méi què rèn .",
+        "en": "She will probably arrive at six; it is not confirmed."
+      },
+      "usageNote": "[GF2021:L3:1465] Source entry: 大概; dàgài; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w02",
+      "hanzi": "恐怕",
+      "pinyin": "kǒng pà",
+      "meaning": "I am afraid; probably, often unwelcome",
+      "meaningVi": "e rằng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "恐怕要下雨，先看预报。",
+        "py": "kǒng pà yào xià yǔ , xiān kàn yù bào .",
+        "en": "I am afraid it may rain; check the forecast first."
+      },
+      "usageNote": "[GF2021:L3:4765] Source entry: 恐怕; kǒngpà; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w03",
+      "hanzi": "大约",
+      "pinyin": "dà yuē",
+      "meaning": "approximately",
+      "meaningVi": "khoảng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "路上大约要二十分钟。",
+        "py": "lù shàng dà yuē yào èr shí fēn zhōng .",
+        "en": "The journey takes approximately twenty minutes."
+      },
+      "usageNote": "[GF2021:L3:1526] Source entry: 大约; dàyuē; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w04",
+      "hanzi": "希望",
+      "pinyin": "xī wàng",
+      "meaning": "to hope; hope",
+      "meaningVi": "hy vọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我希望能在外面见面。",
+        "py": "wǒ xī wàng néng zài wài miàn jiàn miàn .",
+        "en": "I hope we can meet outside."
+      },
+      "usageNote": "[GF2021:L3:8612] Source entry: 希望; xīwàng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w05",
+      "hanzi": "愿望",
+      "pinyin": "yuàn wàng",
+      "meaning": "wish; aspiration",
+      "meaningVi": "nguyện vọng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "愿望不是已经定好的计划。",
+        "py": "yuàn wàng bù shì yǐ jīng dìng hǎo de jì huà .",
+        "en": "A wish is not an already settled plan."
+      },
+      "usageNote": "[GF2021:L3:10044] Source entry: 愿望; yuànwàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w06",
+      "hanzi": "将来",
+      "pinyin": "jiāng lái",
+      "meaning": "in the future; the future",
+      "meaningVi": "tương lai",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "将来可以再组织活动。",
+        "py": "jiāng lái kě yǐ zài zǔ zhī huó dòng .",
+        "en": "We can organize another activity in the future."
+      },
+      "usageNote": "[GF2021:L3:4017] Source entry: 将来; jiānglái; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w07",
+      "hanzi": "决定",
+      "pinyin": "jué dìng",
+      "meaning": "to decide; decision",
+      "meaningVi": "quyết định",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "等天气确认了再决定地点。",
+        "py": "děng tiān qì què rèn le zài jué dìng dì diǎn .",
+        "en": "Decide the venue after the weather is confirmed."
+      },
+      "usageNote": "[GF2021:L3:4536] Source entry: 决定; juédìng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w08",
+      "hanzi": "适合",
+      "pinyin": "shì hé",
+      "meaning": "to suit; be suitable for",
+      "meaningVi": "phù hợp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "室内更适合下雨天。",
+        "py": "shì nèi gèng shì hé xià yǔ tiān .",
+        "en": "Indoors is more suitable for a rainy day."
+      },
+      "usageNote": "[GF2021:L3:7338] Source entry: 适合; shìhé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w09",
+      "hanzi": "理由",
+      "pinyin": "lǐ yóu",
+      "meaning": "reason",
+      "meaningVi": "lý do",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "改地点的理由是天气，不是不想见面。",
+        "py": "gǎi dì diǎn de lǐ yóu shì tiān qì , bù shì bù xiǎng jiàn miàn .",
+        "en": "Weather is the reason for changing the venue, not unwillingness to meet."
+      },
+      "usageNote": "[GF2021:L3:5047] Source entry: 理由; lǐyóu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w10",
+      "hanzi": "不得不",
+      "pinyin": "bù dé bù",
+      "meaning": "have no choice but to",
+      "meaningVi": "buộc phải",
+      "pos": "expression",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场地关了，我们不得不改地点。",
+        "py": "chǎng dì guān le , wǒ men bù dé bù gǎi dì diǎn .",
+        "en": "The venue is closed; we have no choice but to change locations."
+      },
+      "usageNote": "[GF2021:L3:579] Source entry: 不得不; bùdébù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w11",
+      "hanzi": "不必",
+      "pinyin": "bù bì",
+      "meaning": "need not",
+      "meaningVi": "không cần",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "只是可能下雨，不必马上取消。",
+        "py": "zhǐ shì kě néng xià yǔ , bù bì mǎ shàng qǔ xiāo .",
+        "en": "Rain is only possible; there is no need to cancel immediately."
+      },
+      "usageNote": "[GF2021:L3:521] Source entry: 不必; búbì; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w12",
+      "hanzi": "不安",
+      "pinyin": "bù ān",
+      "meaning": "uneasy",
+      "meaningVi": "bất an",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "消息没确认，我有点不安。",
+        "py": "xiāo xī méi què rèn , wǒ yǒu diǎn bù ān .",
+        "en": "The message is unconfirmed; I feel a little uneasy."
+      },
+      "usageNote": "[GF2021:L3:574] Source entry: 不安; bù’ān; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w13",
+      "hanzi": "风险",
+      "pinyin": "fēng xiǎn",
+      "meaning": "risk",
+      "meaningVi": "rủi ro",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "在外面办活动有下雨的风险。",
+        "py": "zài wài miàn bàn huó dòng yǒu xià yǔ de fēng xiǎn .",
+        "en": "An outdoor event carries the risk of rain."
+      },
+      "usageNote": "[GF2021:L3:2411] Source entry: 风险; fēngxiǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w14",
+      "hanzi": "保险",
+      "pinyin": "bǎo xiǎn",
+      "meaning": "safer; insurance",
+      "meaningVi": "an toàn hơn; bảo hiểm",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先准备室内地点比较保险。",
+        "py": "xiān zhǔn bèi shì nèi dì diǎn bǐ jiào bǎo xiǎn .",
+        "en": "Preparing an indoor venue first is safer."
+      },
+      "usageNote": "[GF2021:L3:209] Source entry: 保险; bǎoxiǎn; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w15",
+      "hanzi": "意外",
+      "pinyin": "yì wài",
+      "meaning": "unexpected; accident",
+      "meaningVi": "bất ngờ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她提前到，让我很意外。",
+        "py": "tā tí qián dào , ràng wǒ hěn yì wài .",
+        "en": "Her early arrival surprised me."
+      },
+      "usageNote": "[GF2021:L3:9664] Source entry: 意外; yìwài; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w16",
+      "hanzi": "预计",
+      "pinyin": "yù jì",
+      "meaning": "to estimate; expect",
+      "meaningVi": "dự kiến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "预计六点到，不等于一定六点到。",
+        "py": "yù jì liù diǎn dào , bù děng yú yí dìng liù diǎn dào .",
+        "en": "Expected arrival at six does not mean certain arrival at six."
+      },
+      "usageNote": "[GF2021:L3:9959] Source entry: 预计; yùjì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w17",
+      "hanzi": "预报",
+      "pinyin": "yù bào",
+      "meaning": "forecast; to forecast",
+      "meaningVi": "dự báo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "预报说下午可能下雨。",
+        "py": "yù bào shuō xià wǔ kě néng xià yǔ .",
+        "en": "The forecast says rain is possible this afternoon."
+      },
+      "usageNote": "[GF2021:L3:9951] Source entry: 预报; yùbào; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w18",
+      "hanzi": "预习",
+      "pinyin": "yù xí",
+      "meaning": "to prepare for a lesson",
+      "meaningVi": "chuẩn bị bài",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "活动前先预习要用的句子。",
+        "py": "huó dòng qián xiān yù xí yào yòng de jù zi .",
+        "en": "Prepare the sentences needed before the activity."
+      },
+      "usageNote": "[GF2021:L3:9967] Source entry: 预习; yùxí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w19",
+      "hanzi": "仍",
+      "pinyin": "réng",
+      "meaning": "still, concise written form",
+      "meaningVi": "vẫn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "地点仍未确定。",
+        "py": "dì diǎn réng wèi què dìng .",
+        "en": "The venue remains undecided."
+      },
+      "usageNote": "[GF2021:L3:6756] Source entry: 仍; réng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w20",
+      "hanzi": "仍然",
+      "pinyin": "réng rán",
+      "meaning": "still",
+      "meaningVi": "vẫn còn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们仍然希望见面。",
+        "py": "wǒ men réng rán xī wàng jiàn miàn .",
+        "en": "We still hope to meet."
+      },
+      "usageNote": "[GF2021:L3:6758] Source entry: 仍然; réngrán; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w21",
+      "hanzi": "概念",
+      "pinyin": "gài niàn",
+      "meaning": "concept",
+      "meaningVi": "khái niệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "可能和确定是不同的概念。",
+        "py": "kě néng hé què dìng shì bù tóng de gài niàn .",
+        "en": "Possible and certain are different concepts."
+      },
+      "usageNote": "[GF2021:L3:2558] Source entry: 概念; gàiniàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u13-w22",
+      "hanzi": "观念",
+      "pinyin": "guān niàn",
+      "meaning": "notion; outlook",
+      "meaningVi": "quan niệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "计划可以改变，这个观念很重要。",
+        "py": "jì huà kě yǐ gǎi biàn , zhè gè guān niàn hěn zhòng yào .",
+        "en": "The notion that plans can change is important."
+      },
+      "usageNote": "[GF2021:L3:2980] Source entry: 观念; guānniàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "概",
+      "pinyin": "gài",
+      "meaning": "general outline",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "概",
+          "role": "whole",
+          "gloss": "general outline"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 概 in 大概 / 概念. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "大概",
+          "p": "dà gài",
+          "m": "probably; roughly"
+        },
+        {
+          "w": "概念",
+          "p": "gài niàn",
+          "m": "concept"
+        }
+      ]
+    },
+    {
+      "hanzi": "恐",
+      "pinyin": "kǒng",
+      "meaning": "fear",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "恐",
+          "role": "whole",
+          "gloss": "fear"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 恐 in 恐怕. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "恐怕",
+          "p": "kǒng pà",
+          "m": "I am afraid; probably, often unwelcome"
+        }
+      ]
+    },
+    {
+      "hanzi": "险",
+      "pinyin": "xiǎn",
+      "meaning": "risk; danger",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "险",
+          "role": "whole",
+          "gloss": "risk; danger"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 险 in 风险 / 保险. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "风险",
+          "p": "fēng xiǎn",
+          "m": "risk"
+        },
+        {
+          "w": "保险",
+          "p": "bǎo xiǎn",
+          "m": "insurance; safer"
+        }
+      ]
+    },
+    {
+      "hanzi": "预",
+      "pinyin": "yù",
+      "meaning": "in advance",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "预",
+          "role": "whole",
+          "gloss": "in advance"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 预 in 预计 / 预报. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "预计",
+          "p": "yù jì",
+          "m": "to estimate; expect"
+        },
+        {
+          "w": "预报",
+          "p": "yù bào",
+          "m": "forecast"
+        }
+      ]
+    },
+    {
+      "hanzi": "望",
+      "pinyin": "wàng",
+      "meaning": "hope; look into the distance",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "望",
+          "role": "whole",
+          "gloss": "hope; look into the distance"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 望 in 希望 / 愿望. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "希望",
+          "p": "xī wàng",
+          "m": "to hope; hope"
+        },
+        {
+          "w": "愿望",
+          "p": "yuàn wàng",
+          "m": "wish; aspiration"
+        }
+      ]
+    },
+    {
+      "hanzi": "将",
+      "pinyin": "jiāng",
+      "meaning": "will; forthcoming",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "将",
+          "role": "whole",
+          "gloss": "will; forthcoming"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 将 in 将来. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "将来",
+          "p": "jiāng lái",
+          "m": "in the future; the future"
+        }
+      ]
+    },
+    {
+      "hanzi": "念",
+      "pinyin": "niàn",
+      "meaning": "think of; idea",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "念",
+          "role": "whole",
+          "gloss": "think of; idea"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 念 in 概念 / 观念. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "概念",
+          "p": "gài niàn",
+          "m": "concept"
+        },
+        {
+          "w": "观念",
+          "p": "guān niàn",
+          "m": "notion; outlook"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u13-g三18",
+      "pattern": "大概 / 恐怕",
+      "purpose": "Signal uncertainty and an unwelcome possibility",
+      "explanation": "大概六点到 is an estimate, not a guarantee. 恐怕要下雨 often presents an unwelcome possibility politely; it is not simply the verb 害怕. Neither adverb proves the event occurred. 大约 estimates an amount or time; avoid silently upgrading any estimate to a confirmed appointment.",
+      "examples": [
+        {
+          "zh": "她大概六点到。",
+          "py": "tā dà gài liù diǎn dào .",
+          "en": "She will probably arrive at six."
+        },
+        {
+          "zh": "恐怕要下雨。",
+          "py": "kǒng pà yào xià yǔ .",
+          "en": "I am afraid it may rain."
+        },
+        {
+          "zh": "大概会来，但还没确认。",
+          "py": "dà gài huì lái , dàn hái méi què rèn .",
+          "en": "She will probably come, but it is not confirmed."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "大概六点到，就是保证六点到。",
+          "right": "大概六点到，还要确认。",
+          "why": "An estimate does not guarantee an exact time."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u13-g三69",
+      "pattern": "要是……就……",
+      "purpose": "Make a conditional plan",
+      "explanation": "要是下雨，就在室内见 states what to do under a condition, without asserting that the condition will occur. 就 belongs with the resulting plan. Use 如果 similarly, and distinguish a hypothetical consequence from a report of an event that has already happened.",
+      "examples": [
+        {
+          "zh": "要是下雨，就在室内见。",
+          "py": "yào shì xià yǔ , jiù zài shì nèi jiàn .",
+          "en": "If it rains, meet indoors."
+        },
+        {
+          "zh": "要是她还没到，我们就先发消息。",
+          "py": "yào shì tā hái méi dào , wǒ men jiù xiān fā xiāo xī .",
+          "en": "If she has not arrived, we will message first."
+        },
+        {
+          "zh": "要是地点关了，就换一个。",
+          "py": "yào shì dì diǎn guān le , jiù huàn yī gè .",
+          "en": "If the venue is closed, change it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "要是下雨，所以已经取消了。",
+          "right": "要是下雨，就改在室内见。",
+          "why": "Keep the conditional plan separate from a completed cancellation."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u13-d",
+    "title": "A forecast, not a cancellation",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what is confirmed and what is only conditional.",
+    "lines": [
+      {
+        "zh": "你大概几点到？",
+        "py": "nǐ dà gài jǐ diǎn dào ?",
+        "en": "About what time will you arrive?",
+        "speaker": "a"
+      },
+      {
+        "zh": "预计六点，路上大约二十分钟。",
+        "py": "yù jì liù diǎn , lù shàng dà yuē èr shí fēn zhōng .",
+        "en": "I expect six; the journey takes about twenty minutes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "恐怕下午要下雨。我们取消吗？",
+        "py": "kǒng pà xià wǔ yào xià yǔ . wǒ men qǔ xiāo ma ?",
+        "en": "I am afraid it may rain this afternoon. Should we cancel?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不必马上取消。要是下雨，就在室内见。",
+        "py": "bù bì mǎ shàng qǔ xiāo . yào shì xià yǔ , jiù zài shì nèi jiàn .",
+        "en": "No need to cancel immediately. If it rains, meet indoors.",
+        "speaker": "b"
+      },
+      {
+        "zh": "室内地点已经定了吗？",
+        "py": "shì nèi dì diǎn yǐ jīng dìng le ma ?",
+        "en": "Is the indoor venue already settled?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还没有。我先确认，再告诉你。",
+        "py": "hái méi yǒu . wǒ xiān què rèn , zài gào sù nǐ .",
+        "en": "Not yet. I will confirm it and then tell you.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我仍然希望见面。",
+        "py": "hǎo , wǒ réng rán xī wàng jiàn miàn .",
+        "en": "Okay; I still hope we can meet.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我也是。愿望有了，地点还要查。",
+        "py": "wǒ yě shì . yuàn wàng yǒu le , dì diǎn hái yào chá .",
+        "en": "Me too. We have the wish; the venue still needs checking.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the plan?",
+        "choices": [
+          "Keep meeting possible and check an indoor option",
+          "Cancel immediately",
+          "Guarantee the outdoor venue"
+        ],
+        "answer": "Keep meeting possible and check an indoor option"
+      },
+      {
+        "type": "detail",
+        "q": "Is six o’clock guaranteed?",
+        "choices": [
+          "No, it is an estimate",
+          "Yes, precisely",
+          "No, arrival is confirmed at eight"
+        ],
+        "answer": "No, it is an estimate"
+      },
+      {
+        "type": "inference",
+        "q": "Does the conditional plan prove it will rain?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if the journey is twenty minutes"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "要是",
+        "pinyin": "yào shì",
+        "meaning": "if"
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xià yǔ",
+        "meaning": "to rain"
+      },
+      {
+        "hanzi": "室内",
+        "pinyin": "shì nèi",
+        "meaning": "indoors"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "取消",
+        "pinyin": "qǔ xiāo",
+        "meaning": "to cancel"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u13-r",
+    "title": "A plan with two conditions",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Separate the wish from the confirmed arrangement.",
+    "lines": [
+      {
+        "zh": "我们仍然希望见面，地点仍未确定。",
+        "py": "wǒ men réng rán xī wàng jiàn miàn , dì diǎn réng wèi què dìng .",
+        "en": "We still hope to meet; the venue remains undecided."
+      },
+      {
+        "zh": "朋友预计六点到，路上大约二十分钟。",
+        "py": "péng you yù jì liù diǎn dào , lù shàng dà yuē èr shí fēn zhōng .",
+        "en": "The friend expects to arrive at six; the journey is about twenty minutes."
+      },
+      {
+        "zh": "预报说下午可能下雨，这不等于已经下雨。",
+        "py": "yù bào shuō xià wǔ kě néng xià yǔ , zhè bù děng yú yǐ jīng xià yǔ .",
+        "en": "The forecast says rain is possible this afternoon; it does not mean rain has already started."
+      },
+      {
+        "zh": "要是下雨，就在室内见；室内地点也要先确认。",
+        "py": "yào shì xià yǔ , jiù zài shì nèi jiàn ; shì nèi dì diǎn yě yào xiān què rèn .",
+        "en": "If it rains, meet indoors; the indoor venue also needs prior confirmation."
+      },
+      {
+        "zh": "恐怕有下雨的风险，先准备另一个地点比较保险。",
+        "py": "kǒng pà yǒu xià yǔ de fēng xiǎn , xiān zhǔn bèi lìng yī gè dì diǎn bǐ jiào bǎo xiǎn .",
+        "en": "There may be a risk of rain; preparing another venue first is safer."
+      },
+      {
+        "zh": "可能和确定是两个概念，计划能改变的观念也很重要。",
+        "py": "kě néng hé què dìng shì liǎng gè gài niàn , jì huà néng gǎi biàn de guān niàn yě hěn zhòng yào .",
+        "en": "Possible and certain are two concepts; the idea that plans can change matters too."
+      },
+      {
+        "zh": "我有个念头：活动前预习句子，将来也可以继续用。",
+        "py": "wǒ yǒu gè niàn tou : huó dòng qián yù xí jù zi , jiāng lái yě kě yǐ jì xù yòng .",
+        "en": "I have an idea: prepare the sentences before the event and use them in the future."
+      },
+      {
+        "zh": "愿望不是决定，还没确认时不必写成已经安排好。",
+        "py": "yuàn wàng bù shì jué dìng , hái méi què rèn shí bù bì xiě chéng yǐ jīng ān pái hǎo .",
+        "en": "A wish is not a decision; do not record an unconfirmed plan as settled."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the note distinguish?",
+        "choices": [
+          "Estimates, wishes and confirmed arrangements",
+          "Every hope as a decision",
+          "A forecast as proof of past rain"
+        ],
+        "answer": "Estimates, wishes and confirmed arrangements"
+      },
+      {
+        "type": "detail",
+        "q": "What needs confirmation?",
+        "choices": [
+          "The indoor venue",
+          "A guarantee of sunshine",
+          "The friend’s refusal"
+        ],
+        "answer": "The indoor venue"
+      },
+      {
+        "type": "inference",
+        "q": "Is immediate cancellation required?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only because a wish exists"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我们仍然【希望】见面，地点仍未确定。",
+          "py": "wǒ men réng rán xī wàng jiàn miàn , dì diǎn réng wèi què dìng .",
+          "en": "We still hope to meet; the venue remains undecided."
+        },
+        {
+          "zh": "愿望不是【决定】，还没确认时不必写成已经安排好。",
+          "py": "yuàn wàng bù shì jué dìng , hái méi què rèn shí bù bì xiě chéng yǐ jīng ān pái hǎo .",
+          "en": "A wish is not a decision; do not record an unconfirmed plan as settled."
+        }
+      ],
+      "bank": [
+        "希望",
+        "决定",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "要是",
+        "pinyin": "yào shì",
+        "meaning": "if"
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xià yǔ",
+        "meaning": "to rain"
+      },
+      {
+        "hanzi": "室内",
+        "pinyin": "shì nèi",
+        "meaning": "indoors"
+      },
+      {
+        "hanzi": "确认",
+        "pinyin": "què rèn",
+        "meaning": "to confirm"
+      },
+      {
+        "hanzi": "安排",
+        "pinyin": "ān pái",
+        "meaning": "arrangement"
+      },
+      {
+        "hanzi": "概念",
+        "pinyin": "gài niàn",
+        "meaning": "concept"
+      },
+      {
+        "hanzi": "念头",
+        "pinyin": "niàn tou",
+        "meaning": "thought; idea"
+      },
+      {
+        "hanzi": "保险",
+        "pinyin": "bǎo xiǎn",
+        "meaning": "insurance; safer"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u13-media",
+      "title": "The forecast is not your boss",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original exchange about a flexible plan.",
+      "lines": [
+        {
+          "zh": "大概下雨，恐怕不能来了吧。",
+          "py": "dà gài xià yǔ , kǒng pà bù néng lái le ba .",
+          "en": "It will probably rain; perhaps we cannot come.",
+          "speaker": "a"
+        },
+        {
+          "zh": "雨还没来，你先把见面取消了？",
+          "py": "yǔ hái méi lái , nǐ xiān bǎ jiàn miàn qǔ xiāo le ?",
+          "en": "The rain has not arrived and you have cancelled the meeting already?",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我先查室内地点。",
+          "py": "nà wǒ xiān chá shì nèi dì diǎn .",
+          "en": "Then I will check an indoor venue first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对。计划可以换，朋友不用换。",
+          "py": "duì . jì huà kě yǐ huàn , péng you bù yòng huàn .",
+          "en": "Right. The plan can change; the friend need not.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the exchange suggest?",
+          "choices": [
+            "Change the arrangement before assuming cancellation",
+            "Replace the friend",
+            "Ignore every forecast"
+          ],
+          "answer": "Change the arrangement before assuming cancellation"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "下雨",
+          "pinyin": "xià yǔ",
+          "meaning": "to rain"
+        },
+        {
+          "hanzi": "室内",
+          "pinyin": "shì nèi",
+          "meaning": "indoors"
+        },
+        {
+          "hanzi": "取消",
+          "pinyin": "qǔ xiāo",
+          "meaning": "to cancel"
+        }
+      ]
+    },
+    {
+      "id": "s3-u13-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "将来可以再组织活动。",
+          "py": "jiāng lái kě yǐ zài zǔ zhī huó dòng .",
+          "en": "We can organize another activity in the future."
+        },
+        {
+          "zh": "室内更适合下雨天。",
+          "py": "shì nèi gèng shì hé xià yǔ tiān .",
+          "en": "Indoors is more suitable for a rainy day."
+        },
+        {
+          "zh": "改地点的理由是天气，不是不想见面。",
+          "py": "gǎi dì diǎn de lǐ yóu shì tiān qì , bù shì bù xiǎng jiàn miàn .",
+          "en": "Weather is the reason for changing the venue, not unwillingness to meet."
+        },
+        {
+          "zh": "她改时间有自己的理由，先问清楚。",
+          "py": "tā gǎi shí jiān yǒu zì jǐ de lǐ yóu , xiān wèn qīng chǔ .",
+          "en": "She has her own reason for changing the time; clarify it first."
+        },
+        {
+          "zh": "场地关了，我们不得不改地点。",
+          "py": "chǎng dì guān le , wǒ men bù dé bù gǎi dì diǎn .",
+          "en": "The venue is closed; we have no choice but to change locations."
+        },
+        {
+          "zh": "门已经关了，我们不得不换地方。",
+          "py": "mén yǐ jīng guān le , wǒ men bù dé bù huàn dì fāng .",
+          "en": "The door is closed; we have no choice but to change places."
+        },
+        {
+          "zh": "消息没确认，我有点不安。",
+          "py": "xiāo xī méi què rèn , wǒ yǒu diǎn bù ān .",
+          "en": "The message is unconfirmed; I feel a little uneasy."
+        },
+        {
+          "zh": "她还没回消息，我有点不安。",
+          "py": "tā hái méi huí xiāo xī , wǒ yǒu diǎn bù ān .",
+          "en": "She has not replied; I am a little uneasy."
+        },
+        {
+          "zh": "在外面办活动有下雨的风险。",
+          "py": "zài wài miàn bàn huó dòng yǒu xià yǔ de fēng xiǎn .",
+          "en": "An outdoor event carries the risk of rain."
+        },
+        {
+          "zh": "先准备室内地点比较保险。",
+          "py": "xiān zhǔn bèi shì nèi dì diǎn bǐ jiào bǎo xiǎn .",
+          "en": "Preparing an indoor venue first is safer."
+        },
+        {
+          "zh": "她提前到，让我很意外。",
+          "py": "tā tí qián dào , ràng wǒ hěn yì wài .",
+          "en": "Her early arrival surprised me."
+        },
+        {
+          "zh": "她今天来了，我觉得很意外。",
+          "py": "tā jīn tiān lái le , wǒ jué de hěn yì wài .",
+          "en": "Her arrival today surprises me."
+        },
+        {
+          "zh": "预报说下午可能下雨。",
+          "py": "yù bào shuō xià wǔ kě néng xià yǔ .",
+          "en": "The forecast says rain is possible this afternoon."
+        },
+        {
+          "zh": "活动前先预习要用的句子。",
+          "py": "huó dòng qián xiān yù xí yào yòng de jù zi .",
+          "en": "Prepare the sentences needed before the activity."
+        },
+        {
+          "zh": "可能和确定是不同的概念。",
+          "py": "kě néng hé què dìng shì bù tóng de gài niàn .",
+          "en": "Possible and certain are different concepts."
+        },
+        {
+          "zh": "计划可以改变，这个观念很重要。",
+          "py": "jì huà kě yǐ gǎi biàn , zhè gè guān niàn hěn zhòng yào .",
+          "en": "The notion that plans can change is important."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "下雨",
+          "pinyin": "xià yǔ",
+          "meaning": "to rain"
+        },
+        {
+          "hanzi": "室内",
+          "pinyin": "shì nèi",
+          "meaning": "indoors"
+        },
+        {
+          "hanzi": "确认",
+          "pinyin": "què rèn",
+          "meaning": "to confirm"
+        },
+        {
+          "hanzi": "概念",
+          "pinyin": "gài niàn",
+          "meaning": "concept"
+        },
+        {
+          "hanzi": "天气",
+          "pinyin": "tiān qì",
+          "meaning": "weather"
+        },
+        {
+          "hanzi": "保险",
+          "pinyin": "bǎo xiǎn",
+          "meaning": "insurance; safer"
+        },
+        {
+          "hanzi": "组织",
+          "pinyin": "zǔ zhī",
+          "meaning": "to organize; organization"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u13-t1",
+      "phrase": "s3-u13-w16",
+      "audio": {
+        "zh": "她预计六点到，还没确认。",
+        "py": "tā yù jì liù diǎn dào , hái méi què rèn .",
+        "en": "She expects to arrive at six; it is unconfirmed."
+      },
+      "statement": "Arrival at six is guaranteed.",
+      "answer": false,
+      "why": "预计 signals an estimate."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u13-t2",
+      "phrase": "s3-u13-w11",
+      "audio": {
+        "zh": "不必马上取消，先查室内地点。",
+        "py": "bù bì mǎ shàng qǔ xiāo , xiān chá shì nèi dì diǎn .",
+        "en": "No need to cancel immediately; check indoors first."
+      },
+      "statement": "The speaker proposes checking another venue first.",
+      "answer": true,
+      "why": "The proposal keeps the meeting possible."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u13-t3",
+      "phrase": "s3-u13-w02",
+      "prompt": {
+        "zh": "恐怕要下雨，已经取消了吗？",
+        "py": "kǒng pà yào xià yǔ , yǐ jīng qǔ xiāo le ma ?",
+        "en": "It may rain; has the meeting been cancelled?"
+      },
+      "choices": [
+        "还没有，先确认室内地点。",
+        "六点就是二十个人。",
+        "愿望已经证明下雨。"
+      ],
+      "answer": "还没有，先确认室内地点。",
+      "why": "Report the actual undecided status."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u13-t4",
+      "phrase": "s3-u13-w08",
+      "prompt": {
+        "zh": "下雨时在哪里见更适合？",
+        "py": "xià yǔ shí zài nǎ lǐ jiàn gèng shì hé ?",
+        "en": "Where is more suitable for meeting in rain?"
+      },
+      "choices": [
+        "确认好的室内地点。",
+        "没有查过的门口。",
+        "大约是一个决定。"
+      ],
+      "answer": "确认好的室内地点。",
+      "why": "Suitability does not remove the need to confirm."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u13-t5",
+      "phrase": "s3-u13-w04",
+      "line": {
+        "zh": "我们仍然【希望】见面。",
+        "py": "wǒ men réng rán xī wàng jiàn miàn .",
+        "en": "We still hope to meet."
+      },
+      "blankPy": "xī wàng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u13-t6",
+      "phrase": "s3-u13-w07",
+      "line": {
+        "zh": "先确认，再【决定】。",
+        "py": "xiān què rèn , zài jué dìng .",
+        "en": "Confirm first, then decide."
+      },
+      "blankPy": "jué dìng"
+    },
+    {
+      "type": "match",
+      "id": "s3-u13-t7",
+      "phrase": "s3-u13-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "She will probably arrive at six.",
+          "right": {
+            "zh": "她大概六点到。",
+            "py": "tā dà gài liù diǎn dào .",
+            "en": "She will probably arrive at six."
+          }
+        },
+        {
+          "left": "The venue remains undecided.",
+          "right": {
+            "zh": "地点仍未确定。",
+            "py": "dì diǎn réng wèi què dìng .",
+            "en": "The venue remains undecided."
+          }
+        },
+        {
+          "left": "If it rains, meet indoors.",
+          "right": {
+            "zh": "要是下雨，就在室内见。",
+            "py": "yào shì xià yǔ , jiù zài shì nèi jiàn .",
+            "en": "If it rains, meet indoors."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u13-t8",
+      "phrase": "s3-u13-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "A wish is not a decision.",
+          "right": {
+            "zh": "愿望不是决定。",
+            "py": "yuàn wàng bù shì jué dìng .",
+            "en": "A wish is not a decision."
+          }
+        },
+        {
+          "left": "Rain may be an unwelcome possibility.",
+          "right": {
+            "zh": "恐怕要下雨。",
+            "py": "kǒng pà yào xià yǔ .",
+            "en": "Rain may be an unwelcome possibility."
+          }
+        },
+        {
+          "left": "There is no need to cancel immediately.",
+          "right": {
+            "zh": "不必马上取消。",
+            "py": "bù bì mǎ shàng qǔ xiāo .",
+            "en": "There is no need to cancel immediately."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u13-t9",
+      "phrase": "s3-u13-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Clearer today does not necessarily mean faster.",
+          "right": {
+            "zh": "今天更加清楚，不等于一定更快。",
+            "py": "jīn tiān gèng jiā qīng chǔ , bù děng yú yí dìng gèng kuài .",
+            "en": "Clearer today does not necessarily mean faster."
+          }
+        },
+        {
+          "left": "Not faster than her; possibly equally fast.",
+          "right": {
+            "zh": "不比她快，可能一样快。",
+            "py": "bù bǐ tā kuài , kě néng yī yàng kuài .",
+            "en": "Not faster than her; possibly equally fast."
+          }
+        },
+        {
+          "left": "Usually walk on weekends; today walked only twenty minutes.",
+          "right": {
+            "zh": "通常周末散步，今天只走了二十分钟。",
+            "py": "tōng cháng zhōu mò sàn bù , jīn tiān zhǐ zǒu le èr shí fēn zhōng .",
+            "en": "Usually walk on weekends; today walked only twenty minutes."
+          }
+        },
+        {
+          "left": "Two consecutive days do not mean a year of perseverance.",
+          "right": {
+            "zh": "连续两天不等于坚持了一年。",
+            "py": "lián xù liǎng tiān bù děng yú jiān chí le yī nián .",
+            "en": "Two consecutive days do not mean a year of perseverance."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Report uncertainty",
+      "natural": {
+        "zh": "大概六点到，还没确认。",
+        "py": "dà gài liù diǎn dào , hái méi què rèn .",
+        "en": "Probably at six; not confirmed."
+      },
+      "note": "Do not give an estimate as a guarantee."
+    },
+    {
+      "situation": "Offer a conditional alternative",
+      "natural": {
+        "zh": "要是下雨，就在室内见。",
+        "py": "yào shì xià yǔ , jiù zài shì nèi jiàn .",
+        "en": "If it rains, meet indoors."
+      },
+      "note": "The alternative also needs an available venue."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u13-speak",
+    "title": "Tentative plans, honest answers",
+    "place": "A language-exchange meeting",
+    "context": "Offer a possibility without overpromising.",
+    "goal": "Express estimates without presenting them as confirmed facts",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "地点定了吗？",
+        "pinyin": "dì diǎn dìng le ma ?",
+        "meaning": "Is the venue settled?",
+        "intent": "Report uncertainty",
+        "examples": [
+          "还没确认。"
+        ],
+        "accept": [
+          "^还没确认。[。！？]?$"
+        ]
+      },
+      {
+        "text": "要是下雨呢？",
+        "pinyin": "yào shì xià yǔ ne ?",
+        "meaning": "What if it rains?",
+        "intent": "Offer a conditional arrangement",
+        "examples": [
+          "就在室内见。"
+        ],
+        "accept": [
+          "^就在室内见。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三18, 三69. Native check: 恐怕 pragmatic unwelcome possibility, 大概 versus 大约, adjective 保险 versus insurance noun, 仍 written register, possible versus certain concepts and the friend/plan joke. No claim that forecasts guarantee weather. Native review pending. Planned retrieval 三12 / 三58 / 三15 / 三51: 今天更加清楚，不等于一定更快。, 不比她快，可能一样快。, 通常周末散步，今天只走了二十分钟。, 连续两天不等于坚持了一年。."
+}

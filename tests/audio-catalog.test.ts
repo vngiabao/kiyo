@@ -24,6 +24,9 @@ it("the installed voice uses the exact approved identity and one-pass clean proc
     "content/voices/approved-b-half/profile.json",
   );
   expect(receipt.model).toEqual(profile.model);
+  const profileSha256 = createHash("sha256")
+    .update(readFileSync(roster.approvedProfile))
+    .digest("hex");
   for (const clip of receipt.clips.filter(
     (c: { parts?: unknown }) => !c.parts,
   )) {
@@ -31,11 +34,7 @@ it("the installed voice uses the exact approved identity and one-pass clean proc
     expect(clip.pitchShift, clip.text).toBe(
       -2.25 + (clip.delivery?.pitchOffset ?? 0),
     );
-    expect(clip.profileSha256).toBe(
-      createHash("sha256")
-        .update(readFileSync(roster.approvedProfile))
-        .digest("hex"),
-    );
+    expect(clip.profileSha256).toBe(profileSha256);
   }
   for (const selected of profile.clips.filter(
     (c: { id: string }) => c.id !== "words",

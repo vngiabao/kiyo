@@ -1,0 +1,1292 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u14",
+    "stage": 2,
+    "order": 78,
+    "title": "Is that really what happened?",
+    "titleZh": "消息是真的吗",
+    "canDo": [
+      "Distinguish a rumour from a checked fact",
+      "Understand rhetorical questions without treating them as neutral questions",
+      "Correct an assumption using 并不"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u13"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u14-w01",
+      "hanzi": "白",
+      "pinyin": "bái",
+      "meaning": "in vain; for nothing",
+      "meaningVi": "uổng công",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "没核对日期，白跑了一趟。",
+        "py": "méi hé duì rì qī , bái pǎo le yī tàng .",
+        "en": "Without checking the date, made a trip in vain."
+      },
+      "usageNote": "[GF2021:L3:92] Source entry: 白; bái; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w02",
+      "hanzi": "并",
+      "pinyin": "bìng",
+      "meaning": "actually, with negation; also",
+      "meaningVi": "thực ra; cũng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "活动并没有取消。",
+        "py": "huó dòng bìng méi yǒu qǔ xiāo .",
+        "en": "The event has not actually been cancelled."
+      },
+      "usageNote": "[GF2021:L3:480] Source entry: 并; bìng; 副、连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w03",
+      "hanzi": "当然",
+      "pinyin": "dāng rán",
+      "meaning": "of course; certainly",
+      "meaningVi": "tất nhiên",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "当然要看正式通知。",
+        "py": "dāng rán yào kàn zhèng shì tōng zhī .",
+        "en": "Of course we need to read the official notice."
+      },
+      "usageNote": "[GF2021:L3:1611] Source entry: 当然; dāngrán; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w04",
+      "hanzi": "到底",
+      "pinyin": "dào dǐ",
+      "meaning": "after all; on earth",
+      "meaningVi": "rốt cuộc",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "活动到底在哪一天？",
+        "py": "huó dòng dào dǐ zài nǎ yī tiān ?",
+        "en": "On which day is the event, after all?"
+      },
+      "usageNote": "[GF2021:L3:1657] Source entry: 到底; dàodǐ; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w05",
+      "hanzi": "反正",
+      "pinyin": "fǎn zhèng",
+      "meaning": "anyway; in any case",
+      "meaningVi": "dù sao",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "反正还没出发，先核对日期。",
+        "py": "fǎn zhèng hái méi chū fā , xiān hé duì rì qī .",
+        "en": "Anyway, we have not set off; check the date first."
+      },
+      "usageNote": "[GF2021:L3:2223] Source entry: 反正; fǎn·zhèng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w06",
+      "hanzi": "根本",
+      "pinyin": "gēn běn",
+      "meaning": "at all; fundamentally",
+      "meaningVi": "hoàn toàn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧消息根本不是今天的通知。",
+        "py": "jiù xiāo xī gēn běn bù shì jīn tiān de tōng zhī .",
+        "en": "The old message is not today’s notice at all."
+      },
+      "usageNote": "[GF2021:L3:2732] Source entry: 根本; gēnběn; 副、形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w07",
+      "hanzi": "果然",
+      "pinyin": "guǒ rán",
+      "meaning": "as expected",
+      "meaningVi": "quả nhiên",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "核对后发现，果然是旧日期。",
+        "py": "hé duì hòu fā xiàn , guǒ rán shì jiù rì qī .",
+        "en": "After checking, found that the date was old, as expected."
+      },
+      "usageNote": "[GF2021:L3:3097] Source entry: 果然; guǒrán; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w08",
+      "hanzi": "简直",
+      "pinyin": "jiǎn zhí",
+      "meaning": "simply; practically",
+      "meaningVi": "quả thật; gần như",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张模糊的图简直看不清。",
+        "py": "zhè zhāng mó hú de tú jiǎn zhí kàn bù qīng .",
+        "en": "This blurry image is practically unreadable."
+      },
+      "usageNote": "[GF2021:L3:3967] Source entry: 简直; jiǎnzhí; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w09",
+      "hanzi": "绝对",
+      "pinyin": "jué duì",
+      "meaning": "absolutely",
+      "meaningVi": "tuyệt đối",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "没确认就说绝对取消，不合适。",
+        "py": "méi què rèn jiù shuō jué duì qǔ xiāo , bù hé shì .",
+        "en": "It is inappropriate to say definitely cancelled without confirmation."
+      },
+      "usageNote": "[GF2021:L3:4549] Source entry: 绝对; juéduì; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w10",
+      "hanzi": "难道",
+      "pinyin": "nán dào",
+      "meaning": "could it be that, rhetorical",
+      "meaningVi": "chẳng lẽ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "难道旧图片就能证明今天取消了吗？",
+        "py": "nán dào jiù tú piàn jiù néng zhèng míng jīn tiān qǔ xiāo le ma ?",
+        "en": "Can an old picture really prove today’s cancellation?"
+      },
+      "usageNote": "[GF2021:L3:5785] Source entry: 难道; nándào; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w11",
+      "hanzi": "其实",
+      "pinyin": "qí shí",
+      "meaning": "actually; in fact",
+      "meaningVi": "thực ra",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "其实只是换了房间。",
+        "py": "qí shí zhǐ shì huàn le fáng jiān .",
+        "en": "Actually, only the room changed."
+      },
+      "usageNote": "[GF2021:L3:6221] Source entry: 其实; qíshí; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w12",
+      "hanzi": "千万",
+      "pinyin": "qiān wàn",
+      "meaning": "be sure to; by all means",
+      "meaningVi": "nhất định",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "千万别把猜测当事实。",
+        "py": "qiān wàn bié bǎ cāi cè dāng shì shí .",
+        "en": "Be sure not to treat a guess as fact."
+      },
+      "usageNote": "[GF2021:L3:6311] Source entry: 千万; qiānwàn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w13",
+      "hanzi": "确实",
+      "pinyin": "què shí",
+      "meaning": "indeed; verified as true",
+      "meaningVi": "quả thật",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "通知确实写着换房间。",
+        "py": "tōng zhī què shí xiě zhe huàn fáng jiān .",
+        "en": "The notice does indeed state a room change."
+      },
+      "usageNote": "[GF2021:L3:6644] Source entry: 确实; quèshí; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w14",
+      "hanzi": "只好",
+      "pinyin": "zhǐ hǎo",
+      "meaning": "have no choice but to",
+      "meaningVi": "đành phải",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "图片看不清，只好问负责人。",
+        "py": "tú piàn kàn bù qīng , zhǐ hǎo wèn fù zé rén .",
+        "en": "The image is unclear; there is no choice but to ask the organizer."
+      },
+      "usageNote": "[GF2021:L3:10527] Source entry: 只好; zhǐhǎo; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w15",
+      "hanzi": "终于",
+      "pinyin": "zhōng yú",
+      "meaning": "finally",
+      "meaningVi": "cuối cùng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "核对日期后，终于弄清楚了。",
+        "py": "hé duì rì qī hòu , zhōng yú nòng qīng chǔ le .",
+        "en": "After checking the date, finally clarified it."
+      },
+      "usageNote": "[GF2021:L3:10647] Source entry: 终于; zhōngyú; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w16",
+      "hanzi": "事实",
+      "pinyin": "shì shí",
+      "meaning": "fact",
+      "meaningVi": "sự thật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "换房间是事实，取消是猜测。",
+        "py": "huàn fáng jiān shì shì shí , qǔ xiāo shì cāi cè .",
+        "en": "A room change is fact; cancellation is a guess."
+      },
+      "usageNote": "[GF2021:L3:7302] Source entry: 事实; shìshí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w17",
+      "hanzi": "事实上",
+      "pinyin": "shì shí shàng",
+      "meaning": "in fact",
+      "meaningVi": "trên thực tế",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "事实上，时间没变。",
+        "py": "shì shí shàng , shí jiān méi biàn .",
+        "en": "In fact, the time did not change."
+      },
+      "usageNote": "[GF2021:L3:7303] Source entry: 事实上; shìshíshang; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w18",
+      "hanzi": "判断",
+      "pinyin": "pàn duàn",
+      "meaning": "to judge; judgement",
+      "meaningVi": "phán đoán",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "判断前先看日期。",
+        "py": "pàn duàn qián xiān kàn rì qī .",
+        "en": "Check the date before judging."
+      },
+      "usageNote": "[GF2021:L3:5978] Source entry: 判断; pànduàn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w19",
+      "hanzi": "消息",
+      "pinyin": "xiāo xī",
+      "meaning": "message; news",
+      "meaningVi": "tin tức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这条消息没有写来源。",
+        "py": "zhè tiáo xiāo xī méi yǒu xiě lái yuán .",
+        "en": "This message has no source indicated."
+      },
+      "usageNote": "[GF2021:L3:8881] Source entry: 消息; xiāoxi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w20",
+      "hanzi": "传",
+      "pinyin": "chuán",
+      "meaning": "to pass on; transmit",
+      "meaningVi": "truyền",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "没确认的消息先别传。",
+        "py": "méi què rèn de xiāo xī xiān bié chuán .",
+        "en": "Do not pass on an unconfirmed message yet."
+      },
+      "usageNote": "[GF2021:L3:1217] Source entry: 传; chuán; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w21",
+      "hanzi": "传播",
+      "pinyin": "chuán bō",
+      "meaning": "to spread; disseminate",
+      "meaningVi": "truyền bá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧消息也会被传播。",
+        "py": "jiù xiāo xī yě huì bèi chuán bō .",
+        "en": "Old messages can also be spread."
+      },
+      "usageNote": "[GF2021:L3:1218] Source entry: 传播; chuánbō; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u14-w22",
+      "hanzi": "真实",
+      "pinyin": "zhēn shí",
+      "meaning": "real; truthful",
+      "meaningVi": "chân thực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "图片真实，也可能不是今天的。",
+        "py": "tú piàn zhēn shí , yě kě néng bù shì jīn tiān de .",
+        "en": "An image can be real and still not be from today."
+      },
+      "usageNote": "[GF2021:L3:10359] Source entry: 真实; zhēnshí; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "并",
+      "pinyin": "bìng",
+      "meaning": "also; alongside",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "并",
+          "role": "whole",
+          "gloss": "also; alongside"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 并 in 并. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "并",
+          "p": "bìng",
+          "m": "actually, with negation; also"
+        }
+      ]
+    },
+    {
+      "hanzi": "根",
+      "pinyin": "gēn",
+      "meaning": "root",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "根",
+          "role": "whole",
+          "gloss": "root"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 根 in 根本 / 根. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "根本",
+          "p": "gēn běn",
+          "m": "at all; fundamentally"
+        },
+        {
+          "w": "根",
+          "p": "gēn",
+          "m": "classifier for slender objects"
+        }
+      ]
+    },
+    {
+      "hanzi": "简",
+      "pinyin": "jiǎn",
+      "meaning": "simple; brief",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "简",
+          "role": "whole",
+          "gloss": "simple; brief"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 简 in 简直. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "简直",
+          "p": "jiǎn zhí",
+          "m": "simply; practically"
+        }
+      ]
+    },
+    {
+      "hanzi": "绝",
+      "pinyin": "jué",
+      "meaning": "absolute; cut off",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "绝",
+          "role": "whole",
+          "gloss": "absolute; cut off"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 绝 in 绝对 / 拒绝. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "绝对",
+          "p": "jué duì",
+          "m": "absolutely"
+        },
+        {
+          "w": "拒绝",
+          "p": "jù jué",
+          "m": "to refuse"
+        }
+      ]
+    },
+    {
+      "hanzi": "传",
+      "pinyin": "chuán",
+      "meaning": "transmit",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "传",
+          "role": "whole",
+          "gloss": "transmit"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 传 in 传 / 传播. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "传",
+          "p": "chuán",
+          "m": "to pass on; transmit"
+        },
+        {
+          "w": "传播",
+          "p": "chuán bō",
+          "m": "to spread; disseminate"
+        }
+      ]
+    },
+    {
+      "hanzi": "判",
+      "pinyin": "pàn",
+      "meaning": "judge",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "判",
+          "role": "whole",
+          "gloss": "judge"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 判 in 判断. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "判断",
+          "p": "pàn duàn",
+          "m": "to judge; establish"
+        }
+      ]
+    },
+    {
+      "hanzi": "纪",
+      "pinyin": "jì",
+      "meaning": "record; period",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "纪",
+          "role": "whole",
+          "gloss": "record; period"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 纪 in 年纪 / 纪录. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "年纪",
+          "p": "nián jì",
+          "m": "age"
+        },
+        {
+          "w": "纪录",
+          "p": "jì lù",
+          "m": "record"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u14-g三19",
+      "pattern": "白 / 并 / 当然 / 到底 / 反正 / 根本 / 果然 / 简直 / 绝对 / 难道 / 其实 / 千万 / 确实 / 只好 / 终于",
+      "purpose": "Track attitude and evidential limits",
+      "explanation": "白跑 means a trip in vain. 并没有 challenges an assumed cancellation; it is not English however by itself. 根本不是 strengthens negation. 果然 says a finding matches an expectation, not that expectation alone proves it. 其实 and 事实上 introduce a correction. 绝对 is a strong commitment; avoid it for a guess. 千万别 is emphatic caution, 只好 constrained choice, 终于 an eventual result. Attitude adverbs do not supply evidence.",
+      "examples": [
+        {
+          "zh": "活动并没有取消，只是换了房间。",
+          "py": "huó dòng bìng méi yǒu qǔ xiāo , zhǐ shì huàn le fáng jiān .",
+          "en": "The event is not cancelled; only the room changed."
+        },
+        {
+          "zh": "果然是旧日期，今天的时间没变。",
+          "py": "guǒ rán shì jiù rì qī , jīn tiān de shí jiān méi biàn .",
+          "en": "It is an old date as expected; today’s time is unchanged."
+        },
+        {
+          "zh": "千万别把猜测当事实。",
+          "py": "qiān wàn bié bǎ cāi cè dāng shì shí .",
+          "en": "Be sure not to treat a guess as fact."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "果然，我猜了，所以是真的。",
+          "right": "核对后，果然和我猜的一样。",
+          "why": "果然 comments on a verified outcome matching an expectation."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u14-g三76",
+      "pattern": "不是……吗？ / 难道……吗？",
+      "purpose": "Recognize rhetorical force",
+      "explanation": "不是写着换房间吗？ points to information the speaker expects the listener to acknowledge. 难道旧图片就能证明今天取消了吗？ challenges that inference and expects no; it is not neutral uncertainty about any cancellation. Tone and context matter. For a genuinely open question use 活动取消了吗？ without forcing agreement.",
+      "examples": [
+        {
+          "zh": "不是写着换房间吗？",
+          "py": "bù shì xiě zhe huàn fáng jiān ma ?",
+          "en": "Does it not say the room changed?"
+        },
+        {
+          "zh": "难道旧图片就能证明今天取消了吗？",
+          "py": "nán dào jiù tú piàn jiù néng zhèng míng jīn tiān qǔ xiāo le ma ?",
+          "en": "Can an old picture really prove today’s cancellation?"
+        },
+        {
+          "zh": "活动取消了吗？",
+          "py": "huó dòng qǔ xiāo le ma ?",
+          "en": "Has the event been cancelled?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "难道旧图能证明吗？一定是在认真问图片大小。",
+          "right": "难道旧图能证明吗？是在质疑这个判断。",
+          "why": "The rhetorical question challenges an inference, not image dimensions."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u14-d",
+    "title": "Read the date before forwarding",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what changed in the actual notice.",
+    "lines": [
+      {
+        "zh": "我收到消息，说今天活动绝对取消了。",
+        "py": "wǒ shōu dào xiāo xī , shuō jīn tiān huó dòng jué duì qǔ xiāo le .",
+        "en": "I received a message saying today’s event is definitely cancelled.",
+        "speaker": "a"
+      },
+      {
+        "zh": "来源呢？图片上有日期吗？",
+        "py": "lái yuán ne ? tú piàn shàng yǒu rì qī ma ?",
+        "en": "What is the source? Is there a date on the picture?",
+        "speaker": "b"
+      },
+      {
+        "zh": "图很模糊，简直看不清。",
+        "py": "tú hěn mó hú , jiǎn zhí kàn bù qīng .",
+        "en": "The image is blurry, practically unreadable.",
+        "speaker": "a"
+      },
+      {
+        "zh": "难道看不清的旧图就能证明取消了吗？",
+        "py": "nán dào kàn bù qīng de jiù tú jiù néng zhèng míng qǔ xiāo le ma ?",
+        "en": "Can an unreadable old picture really prove cancellation?",
+        "speaker": "b"
+      },
+      {
+        "zh": "那只好问负责人了。",
+        "py": "nà zhǐ hǎo wèn fù zé rén le .",
+        "en": "Then there is no choice but to ask the organizer.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我查了正式通知。确实换房间，时间没变。",
+        "py": "wǒ chá le zhèng shì tōng zhī . què shí huàn fáng jiān , shí jiān méi biàn .",
+        "en": "I checked the official notice. The room did change; the time did not.",
+        "speaker": "b"
+      },
+      {
+        "zh": "活动并没有取消，我先不传那条消息。",
+        "py": "huó dòng bìng méi yǒu qǔ xiāo , wǒ xiān bù chuán nà tiáo xiāo xī .",
+        "en": "The event is not cancelled; I will not forward that message yet.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，反正还没出发，先看新房间。",
+        "py": "duì , fǎn zhèng hái méi chū fā , xiān kàn xīn fáng jiān .",
+        "en": "Right; we have not set off anyway, so check the new room first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is corrected?",
+        "choices": [
+          "A cancellation claim: only the room changed",
+          "A confirmed cancellation",
+          "A changed event time"
+        ],
+        "answer": "A cancellation claim: only the room changed"
+      },
+      {
+        "type": "detail",
+        "q": "What did the checked notice change?",
+        "choices": [
+          "The room",
+          "The time",
+          "The event date"
+        ],
+        "answer": "The room"
+      },
+      {
+        "type": "inference",
+        "q": "What answer is expected by the rhetorical question?",
+        "choices": [
+          "No, the image does not prove cancellation",
+          "Yes, every old image proves it",
+          "The image is twenty minutes long"
+        ],
+        "answer": "No, the image does not prove cancellation"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice"
+      },
+      {
+        "hanzi": "日期",
+        "pinyin": "rì qī",
+        "meaning": "date"
+      },
+      {
+        "hanzi": "来源",
+        "pinyin": "lái yuán",
+        "meaning": "source"
+      },
+      {
+        "hanzi": "模糊",
+        "pinyin": "mó hú",
+        "meaning": "blurry"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u14-r",
+    "title": "A true image can be out of date",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read how a message was checked.",
+    "lines": [
+      {
+        "zh": "传来的消息说活动取消，图片却没有清楚的日期。",
+        "py": "chuán lái de xiāo xī shuō huó dòng qǔ xiāo , tú piàn què méi yǒu qīng chǔ de rì qī .",
+        "en": "A message that came through said the event was cancelled, but its picture lacked a clear date."
+      },
+      {
+        "zh": "图片真实，不等于它就是今天的通知。",
+        "py": "tú piàn zhēn shí , bù děng yú tā jiù shì jīn tiān de tōng zhī .",
+        "en": "An image being real does not mean it is today’s notice."
+      },
+      {
+        "zh": "我问了负责人，再核对正式通知和纪录。",
+        "py": "wǒ wèn le fù zé rén , zài hé duì zhèng shì tōng zhī hé jì lù .",
+        "en": "I asked the organizer and checked the official notice and record."
+      },
+      {
+        "zh": "事实是换房间，事实上时间没有变。",
+        "py": "shì shí shì huàn fáng jiān , shì shí shàng shí jiān méi yǒu biàn .",
+        "en": "The fact is a room change; in fact the time has not changed."
+      },
+      {
+        "zh": "活动并没有取消，旧消息根本不能证明今天的安排。",
+        "py": "huó dòng bìng méi yǒu qǔ xiāo , jiù xiāo xī gēn běn bù néng zhèng míng jīn tiān de ān pái .",
+        "en": "The event is not cancelled; the old message cannot establish today’s arrangements at all."
+      },
+      {
+        "zh": "没确认的消息先别传播，千万别让朋友白跑一趟。",
+        "py": "méi què rèn de xiāo xī xiān bié chuán bō , qiān wàn bié ràng péng you bái pǎo yī tàng .",
+        "en": "Do not spread unconfirmed news yet; be sure not to make a friend travel in vain."
+      },
+      {
+        "zh": "终于弄清楚了，再告诉朋友新房间。",
+        "py": "zhōng yú nòng qīng chǔ le , zài gào sù péng you xīn fáng jiān .",
+        "en": "Having finally clarified it, tell the friend the new room."
+      },
+      {
+        "zh": "不是写着换房间吗？是在提醒看通知，不是在报告取消。",
+        "py": "bù shì xiě zhe huàn fáng jiān ma ? shì zài tí xǐng kàn tōng zhī , bù shì zài bào gào qǔ xiāo .",
+        "en": "Does it not say the room changed? This reminds one to read the notice, not reports cancellation."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the check based on?",
+        "choices": [
+          "The organizer, notice and record",
+          "Only the image looking real",
+          "The strength of the word absolutely"
+        ],
+        "answer": "The organizer, notice and record"
+      },
+      {
+        "type": "detail",
+        "q": "Has the event time changed?",
+        "choices": [
+          "No",
+          "Yes",
+          "It became unknown because the picture is blurry"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Can an authentic image still be outdated?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only after someone forwards it"
+        ],
+        "answer": "Yes"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【事实】是换房间，事实上时间没有变。",
+          "py": "shì shí shì huàn fáng jiān , shì shí shàng shí jiān méi yǒu biàn .",
+          "en": "The fact is a room change; in fact the time has not changed."
+        },
+        {
+          "zh": "【终于】弄清楚了，再告诉朋友新房间。",
+          "py": "zhōng yú nòng qīng chǔ le , zài gào sù péng you xīn fáng jiān .",
+          "en": "Having finally clarified it, tell the friend the new room."
+        }
+      ],
+      "bank": [
+        "事实",
+        "终于",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "核对",
+        "pinyin": "hé duì",
+        "meaning": "to check against"
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice"
+      },
+      {
+        "hanzi": "日期",
+        "pinyin": "rì qī",
+        "meaning": "date"
+      },
+      {
+        "hanzi": "纪录",
+        "pinyin": "jì lù",
+        "meaning": "record"
+      },
+      {
+        "hanzi": "传来",
+        "pinyin": "chuán lái",
+        "meaning": "to come through; be heard"
+      },
+      {
+        "hanzi": "一趟",
+        "pinyin": "yī tàng",
+        "meaning": "one trip"
+      },
+      {
+        "hanzi": "提醒",
+        "pinyin": "tí xǐng",
+        "meaning": "to remind"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u14-media",
+      "title": "Your adverb is not a source",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original exchange about certainty.",
+      "lines": [
+        {
+          "zh": "我说了绝对，听起来不是很确定吗？",
+          "py": "wǒ shuō le jué duì , tīng qǐ lái bù shì hěn què dìng ma ?",
+          "en": "I said absolutely; does that not sound certain?",
+          "speaker": "a"
+        },
+        {
+          "zh": "很确定。来源呢？",
+          "py": "hěn què dìng . lái yuán ne ?",
+          "en": "Very certain. Where is the source?",
+          "speaker": "b"
+        },
+        {
+          "zh": "还没查。",
+          "py": "hái méi chá .",
+          "en": "I have not checked it yet.",
+          "speaker": "a"
+        },
+        {
+          "zh": "先查。声音大不算核对。",
+          "py": "xiān chá . shēng yīn dà bù suàn hé duì .",
+          "en": "Check first. A loud voice does not count as verification.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the reply ask for?",
+          "choices": [
+            "Evidence, not a stronger delivery",
+            "A louder repetition",
+            "A new image colour"
+          ],
+          "answer": "Evidence, not a stronger delivery"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "核对",
+          "pinyin": "hé duì",
+          "meaning": "to check against"
+        },
+        {
+          "hanzi": "来源",
+          "pinyin": "lái yuán",
+          "meaning": "source"
+        }
+      ]
+    },
+    {
+      "id": "s3-u14-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "没核对日期，白跑了一趟。",
+          "py": "méi hé duì rì qī , bái pǎo le yī tàng .",
+          "en": "Without checking the date, made a trip in vain."
+        },
+        {
+          "zh": "当然要看正式通知。",
+          "py": "dāng rán yào kàn zhèng shì tōng zhī .",
+          "en": "Of course we need to read the official notice."
+        },
+        {
+          "zh": "当然可以问，问清楚再告诉朋友。",
+          "py": "dāng rán kě yǐ wèn , wèn qīng chǔ zài gào sù péng you .",
+          "en": "Of course one can ask; clarify before telling the friend."
+        },
+        {
+          "zh": "活动到底在哪一天？",
+          "py": "huó dòng dào dǐ zài nǎ yī tiān ?",
+          "en": "On which day is the event, after all?"
+        },
+        {
+          "zh": "旧消息根本不是今天的通知。",
+          "py": "jiù xiāo xī gēn běn bù shì jīn tiān de tōng zhī .",
+          "en": "The old message is not today’s notice at all."
+        },
+        {
+          "zh": "这张模糊的图简直看不清。",
+          "py": "zhè zhāng mó hú de tú jiǎn zhí kàn bù qīng .",
+          "en": "This blurry image is practically unreadable."
+        },
+        {
+          "zh": "其实她已经到了，只是在另一个门口。",
+          "py": "qí shí tā yǐ jīng dào le , zhǐ shì zài lìng yī gè mén kǒu .",
+          "en": "Actually, she has arrived, just at another entrance."
+        },
+        {
+          "zh": "通知确实写着换房间。",
+          "py": "tōng zhī què shí xiě zhe huàn fáng jiān .",
+          "en": "The notice does indeed state a room change."
+        },
+        {
+          "zh": "事实上，时间没变。",
+          "py": "shì shí shàng , shí jiān méi biàn .",
+          "en": "In fact, the time did not change."
+        },
+        {
+          "zh": "先问来源，不急着做判断。",
+          "py": "xiān wèn lái yuán , bù jí zhe zuò pàn duàn .",
+          "en": "Ask the source first rather than rushing to a judgement."
+        },
+        {
+          "zh": "旧消息也会被传播。",
+          "py": "jiù xiāo xī yě huì bèi chuán bō .",
+          "en": "Old messages can also be spread."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "核对",
+          "pinyin": "hé duì",
+          "meaning": "to check against"
+        },
+        {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "meaning": "notice"
+        },
+        {
+          "hanzi": "日期",
+          "pinyin": "rì qī",
+          "meaning": "date"
+        },
+        {
+          "hanzi": "来源",
+          "pinyin": "lái yuán",
+          "meaning": "source"
+        },
+        {
+          "hanzi": "模糊",
+          "pinyin": "mó hú",
+          "meaning": "blurry"
+        },
+        {
+          "hanzi": "一趟",
+          "pinyin": "yī tàng",
+          "meaning": "one trip"
+        },
+        {
+          "hanzi": "被传播",
+          "pinyin": "bèi chuán bō",
+          "meaning": "to be circulated (passive expression)"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u14-t1",
+      "phrase": "s3-u14-w02",
+      "audio": {
+        "zh": "活动并没有取消，只是换房间。",
+        "py": "huó dòng bìng méi yǒu qǔ xiāo , zhǐ shì huàn fáng jiān .",
+        "en": "The event is not cancelled; only the room changed."
+      },
+      "statement": "The event is cancelled.",
+      "answer": false,
+      "why": "并没有 negates the assumed cancellation."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u14-t2",
+      "phrase": "s3-u14-w22",
+      "audio": {
+        "zh": "图片真实，但不是今天的。",
+        "py": "tú piàn zhēn shí , dàn bù shì jīn tiān de .",
+        "en": "The image is real but not from today."
+      },
+      "statement": "Real and current are different claims.",
+      "answer": true,
+      "why": "Authenticity does not establish the date."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u14-t3",
+      "phrase": "s3-u14-w19",
+      "prompt": {
+        "zh": "没确认的消息现在传吗？",
+        "py": "méi què rèn de xiāo xī xiàn zài chuán ma ?",
+        "en": "Forward the unconfirmed message now?"
+      },
+      "choices": [
+        "先别传，核对日期和来源。",
+        "加上绝对就可以。",
+        "把房间当时间。"
+      ],
+      "answer": "先别传，核对日期和来源。",
+      "why": "Check before spreading it."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u14-t4",
+      "phrase": "s3-u14-w16",
+      "prompt": {
+        "zh": "到底改了什么？",
+        "py": "dào dǐ gǎi le shén me ?",
+        "en": "What changed after all?"
+      },
+      "choices": [
+        "房间改了，时间没变。",
+        "声音更大了。",
+        "朋友一定白跑了。"
+      ],
+      "answer": "房间改了，时间没变。",
+      "why": "Answer with the verified change."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u14-t5",
+      "phrase": "s3-u14-w11",
+      "line": {
+        "zh": "【其实】只是换了房间。",
+        "py": "qí shí zhǐ shì huàn le fáng jiān .",
+        "en": "Actually, only the room changed."
+      },
+      "blankPy": "qí shí"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u14-t6",
+      "phrase": "s3-u14-w15",
+      "line": {
+        "zh": "【终于】弄清楚了。",
+        "py": "zhōng yú nòng qīng chǔ le .",
+        "en": "Finally clarified it."
+      },
+      "blankPy": "zhōng yú"
+    },
+    {
+      "type": "match",
+      "id": "s3-u14-t7",
+      "phrase": "s3-u14-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The image is unreadable; one has to ask the organizer.",
+          "right": {
+            "zh": "图看不清，只好问负责人。",
+            "py": "tú kàn bù qīng , zhǐ hǎo wèn fù zé rén .",
+            "en": "The image is unreadable; one has to ask the organizer."
+          }
+        },
+        {
+          "left": "Be sure not to treat a guess as fact.",
+          "right": {
+            "zh": "千万别把猜测当事实。",
+            "py": "qiān wàn bié bǎ cāi cè dāng shì shí .",
+            "en": "Be sure not to treat a guess as fact."
+          }
+        },
+        {
+          "left": "We have not set off anyway.",
+          "right": {
+            "zh": "反正还没出发。",
+            "py": "fǎn zhèng hái méi chū fā .",
+            "en": "We have not set off anyway."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u14-t8",
+      "phrase": "s3-u14-w18",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Check the date before judging.",
+          "right": {
+            "zh": "判断前先看日期。",
+            "py": "pàn duàn qián xiān kàn rì qī .",
+            "en": "Check the date before judging."
+          }
+        },
+        {
+          "left": "The message has no source.",
+          "right": {
+            "zh": "消息没有来源。",
+            "py": "xiāo xī méi yǒu lái yuán .",
+            "en": "The message has no source."
+          }
+        },
+        {
+          "left": "The date is old, as expected.",
+          "right": {
+            "zh": "果然是旧日期。",
+            "py": "guǒ rán shì jiù rì qī .",
+            "en": "The date is old, as expected."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u14-t9",
+      "phrase": "s3-u14-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "At least one day ahead; two days ahead is fine too.",
+          "right": {
+            "zh": "至少提前一天，提前两天也可以。",
+            "py": "zhì shǎo tí qián yī tiān , tí qián liǎng tiān yě kě yǐ .",
+            "en": "At least one day ahead; two days ahead is fine too."
+          }
+        },
+        {
+          "left": "Materials are plentiful; places still need confirmation.",
+          "right": {
+            "zh": "材料有的是，名额还要确认。",
+            "py": "cái liào yǒu de shì , míng é hái yào què rèn .",
+            "en": "Materials are plentiful; places still need confirmation."
+          }
+        },
+        {
+          "left": "Increase speed after hearing clearly.",
+          "right": {
+            "zh": "等听清楚了再加快。",
+            "py": "děng tīng qīng chǔ le zài jiā kuài .",
+            "en": "Increase speed after hearing clearly."
+          }
+        },
+        {
+          "left": "I read personally; you help listen.",
+          "right": {
+            "zh": "我亲自读，你帮我听。",
+            "py": "wǒ qīn zì dú , nǐ bāng wǒ tīng .",
+            "en": "I read personally; you help listen."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Correct a mistaken claim",
+      "natural": {
+        "zh": "并没有取消，只是换房间。",
+        "py": "bìng méi yǒu qǔ xiāo , zhǐ shì huàn fáng jiān .",
+        "en": "It is not cancelled; only the room changed."
+      },
+      "note": "Give the actual correction without exaggerating evidence."
+    },
+    {
+      "situation": "Ask neutrally",
+      "natural": {
+        "zh": "活动取消了吗？",
+        "py": "huó dòng qǔ xiāo le ma ?",
+        "en": "Has the event been cancelled?"
+      },
+      "note": "Use an open question when the answer is genuinely unknown."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u14-speak",
+    "title": "Is that really what happened?",
+    "place": "A language-exchange meeting",
+    "context": "Separate guesses from facts and question a claim.",
+    "goal": "Distinguish a rumour from a checked fact",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "改了什么？",
+        "pinyin": "gǎi le shén me ?",
+        "meaning": "What changed?",
+        "intent": "State the verified change",
+        "examples": [
+          "只是换了房间。"
+        ],
+        "accept": [
+          "^只是换了房间。[。！？]?$"
+        ]
+      },
+      {
+        "text": "现在传吗？",
+        "pinyin": "xiàn zài chuán ma ?",
+        "meaning": "Forward it now?",
+        "intent": "Recommend checking first",
+        "examples": [
+          "先核对来源。"
+        ],
+        "accept": [
+          "^先核对来源。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三19, 三76. Native check: 白跑, 并 with negation, 反正 versus indifference, 果然 expectation and evidence, strong 绝对, rhetorical question polarity and polite alternatives. Distinguish 纪录 as record from 记录 as recording. No unverified claims marked facts. Native review pending. Planned retrieval 三13 / 三37 / 三16 / 三17: 至少提前一天，提前两天也可以。, 材料有的是，名额还要确认。, 等听清楚了再加快。, 我亲自读，你帮我听。."
+}

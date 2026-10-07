@@ -20,6 +20,8 @@ if ($Level -eq 2) {
 if ($Level -eq 3) {
   & $python scripts/course-authoring/batch-07.py > "$prefix-coverage-correction.log" 2>&1
   Require-Exit 'Align the temporal adverbial entry with its explicit source classification'
+  & $python scripts/course-authoring/batch-15.py > "$prefix-sense-correction.log" 2>&1
+  Require-Exit 'Teach the cautious-guess adverb sense of 怕 with unchanged unit IDs'
 }
 & $python "scripts/course-authoring/exam-bank-$Level.py" --install > "$prefix-bank.log" 2>&1
 Require-Exit 'Exam-bank serialization'

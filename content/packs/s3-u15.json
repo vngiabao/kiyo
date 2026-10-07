@@ -1,0 +1,1216 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u15",
+    "stage": 2,
+    "order": 79,
+    "title": "Who is organising the event?",
+    "titleZh": "谁来组织活动",
+    "canDo": [
+      "Assign responsibility with 由",
+      "Follow a specified procedure with 按 / 按照",
+      "Distinguish a representative from an organizer"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u14"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u15-w01",
+      "hanzi": "由",
+      "pinyin": "yóu",
+      "meaning": "by; through; from",
+      "meaningVi": "do; bởi",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这次活动由学生举办。",
+        "py": "zhè cì huó dòng yóu xué sheng jǔ bàn .",
+        "en": "This event is organized by students."
+      },
+      "usageNote": "[GF2021:L3:9832] Source entry: 由; yóu; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w02",
+      "hanzi": "按",
+      "pinyin": "àn",
+      "meaning": "according to; press",
+      "meaningVi": "theo",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "按名单分组，不按到达时间。",
+        "py": "àn míng dān fēn zǔ , bù àn dào dá shí jiān .",
+        "en": "Group by the list, not arrival time."
+      },
+      "usageNote": "[GF2021:L3:47] Source entry: 按; àn; 动、介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w03",
+      "hanzi": "按照",
+      "pinyin": "àn zhào",
+      "meaning": "according to",
+      "meaningVi": "theo đúng",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "按照通知上的流程签到。",
+        "py": "àn zhào tōng zhī shàng de liú chéng qiān dào .",
+        "en": "Sign in according to the procedure on the notice."
+      },
+      "usageNote": "[GF2021:L3:53] Source entry: 按照; ànzhào; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w04",
+      "hanzi": "举办",
+      "pinyin": "jǔ bàn",
+      "meaning": "to hold; organize an event",
+      "meaningVi": "tổ chức",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "学生部门举办交流活动。",
+        "py": "xué sheng bù mén jǔ bàn jiāo liú huó dòng .",
+        "en": "The student department holds an exchange event."
+      },
+      "usageNote": "[GF2021:L3:4478] Source entry: 举办; jǔbàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w05",
+      "hanzi": "部门",
+      "pinyin": "bù mén",
+      "meaning": "department",
+      "meaningVi": "bộ phận",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个部门负责报名。",
+        "py": "zhè gè bù mén fù zé bào míng .",
+        "en": "This department handles registration."
+      },
+      "usageNote": "[GF2021:L3:656] Source entry: 部门; bùmén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w06",
+      "hanzi": "部长",
+      "pinyin": "bù zhǎng",
+      "meaning": "department head; minister",
+      "meaningVi": "trưởng bộ phận",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "部长不是每场活动的主持人。",
+        "py": "bù zhǎng bù shì měi chǎng huó dòng de zhǔ chí rén .",
+        "en": "The department head is not the host of every event."
+      },
+      "usageNote": "[GF2021:L3:659] Source entry: 部长; bùzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w07",
+      "hanzi": "主任",
+      "pinyin": "zhǔ rèn",
+      "meaning": "director; head",
+      "meaningVi": "chủ nhiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "主任确认场地，不负责主持。",
+        "py": "zhǔ rèn què rèn chǎng dì , bù fù zé zhǔ chí .",
+        "en": "The director confirms the venue and does not host."
+      },
+      "usageNote": "[GF2021:L3:10722] Source entry: 主任; zhǔrèn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w08",
+      "hanzi": "主持",
+      "pinyin": "zhǔ chí",
+      "meaning": "to host; chair",
+      "meaningVi": "dẫn chương trình",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "活动由一位学生主持。",
+        "py": "huó dòng yóu yī wèi xué sheng zhǔ chí .",
+        "en": "One student hosts the event."
+      },
+      "usageNote": "[GF2021:L3:10709] Source entry: 主持; zhǔchí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w09",
+      "hanzi": "代表",
+      "pinyin": "dài biǎo",
+      "meaning": "representative; to represent",
+      "meaningVi": "đại diện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每组派一位代表发言。",
+        "py": "měi zǔ pài yī wèi dài biǎo fā yán .",
+        "en": "Each group sends one representative to speak."
+      },
+      "usageNote": "[GF2021:L3:1538] Source entry: 代表; dàibiǎo; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w10",
+      "hanzi": "代表团",
+      "pinyin": "dài biǎo tuán",
+      "meaning": "delegation",
+      "meaningVi": "đoàn đại biểu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "代表团来交流，不等于举办方。",
+        "py": "dài biǎo tuán lái jiāo liú , bù děng yú jǔ bàn fāng .",
+        "en": "The delegation comes for an exchange; it is not necessarily the organizer."
+      },
+      "usageNote": "[GF2021:L3:1539] Source entry: 代表团; dàibiǎotuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w11",
+      "hanzi": "带领",
+      "pinyin": "dài lǐng",
+      "meaning": "to lead",
+      "meaningVi": "dẫn dắt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "工作人员带领大家进场。",
+        "py": "gōng zuò rén yuán dài lǐng dà jiā jìn chǎng .",
+        "en": "Staff lead everyone into the venue."
+      },
+      "usageNote": "[GF2021:L3:1550] Source entry: 带领; dàilǐng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w12",
+      "hanzi": "管理",
+      "pinyin": "guǎn lǐ",
+      "meaning": "to manage; management",
+      "meaningVi": "quản lý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "场地由学校管理。",
+        "py": "chǎng dì yóu xué xiào guǎn lǐ .",
+        "en": "The school manages the venue."
+      },
+      "usageNote": "[GF2021:L3:2997] Source entry: 管理; guǎnlǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w13",
+      "hanzi": "集中",
+      "pinyin": "jí zhōng",
+      "meaning": "to concentrate; assemble",
+      "meaningVi": "tập trung",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "大家先在门口集中。",
+        "py": "dà jiā xiān zài mén kǒu jí zhōng .",
+        "en": "Everyone first assembles at the entrance."
+      },
+      "usageNote": "[GF2021:L3:3769] Source entry: 集中; jízhōng; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w14",
+      "hanzi": "会议",
+      "pinyin": "huì yì",
+      "meaning": "meeting; conference",
+      "meaningVi": "cuộc họp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "会议结束后再交流。",
+        "py": "huì yì jié shù hòu zài jiāo liú .",
+        "en": "Have the exchange after the meeting ends."
+      },
+      "usageNote": "[GF2021:L3:3602] Source entry: 会议; huìyì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w15",
+      "hanzi": "会员",
+      "pinyin": "huì yuán",
+      "meaning": "member of an association",
+      "meaningVi": "hội viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不是会员也可以先听。",
+        "py": "bù shì huì yuán yě kě yǐ xiān tīng .",
+        "en": "Even nonmembers may listen first."
+      },
+      "usageNote": "[GF2021:L3:3604] Source entry: 会员; huìyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w16",
+      "hanzi": "办理",
+      "pinyin": "bàn lǐ",
+      "meaning": "to handle; complete formalities",
+      "meaningVi": "làm thủ tục",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "报名手续在门口办理。",
+        "py": "bào míng shǒu xù zài mén kǒu bàn lǐ .",
+        "en": "Registration formalities are handled at the entrance."
+      },
+      "usageNote": "[GF2021:L3:137] Source entry: 办理; bànlǐ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w17",
+      "hanzi": "手续",
+      "pinyin": "shǒu xù",
+      "meaning": "formalities; procedure",
+      "meaningVi": "thủ tục",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "办完手续再进场。",
+        "py": "bàn wán shǒu xù zài jìn chǎng .",
+        "en": "Enter after completing the formalities."
+      },
+      "usageNote": "[GF2021:L3:7391] Source entry: 手续; shǒuxù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w18",
+      "hanzi": "报到",
+      "pinyin": "bào dào",
+      "meaning": "to report for arrival; register on arrival",
+      "meaningVi": "đến trình diện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "到达后先报到。",
+        "py": "dào dá hòu xiān bào dào .",
+        "en": "Report on arrival first."
+      },
+      "usageNote": "[GF2021:L3:223] Source entry: 报到; bào∥dào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w19",
+      "hanzi": "发言",
+      "pinyin": "fā yán",
+      "meaning": "to speak at a meeting",
+      "meaningVi": "phát biểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "代表发言两分钟。",
+        "py": "dài biǎo fā yán liǎng fēn zhōng .",
+        "en": "The representative speaks for two minutes."
+      },
+      "usageNote": "[GF2021:L3:2160] Source entry: 发言; fāyán; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w20",
+      "hanzi": "派",
+      "pinyin": "pài",
+      "meaning": "to send; assign",
+      "meaningVi": "cử",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每组派一人，不是全组都上台。",
+        "py": "měi zǔ pài yī rén , bù shì quán zǔ dōu shàng tái .",
+        "en": "Each group sends one person, not the whole group onto the stage."
+      },
+      "usageNote": "[GF2021:L3:5965] Source entry: 派; pài; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w21",
+      "hanzi": "过程",
+      "pinyin": "guò chéng",
+      "meaning": "process; course of events",
+      "meaningVi": "quá trình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "活动过程写在通知里。",
+        "py": "huó dòng guò chéng xiě zài tōng zhī lǐ .",
+        "en": "The event process is written in the notice."
+      },
+      "usageNote": "[GF2021:L3:3107] Source entry: 过程; guòchéng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u15-w22",
+      "hanzi": "宣传",
+      "pinyin": "xuān chuán",
+      "meaning": "to publicize; publicity",
+      "meaningVi": "tuyên truyền; quảng bá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "宣传前先确认时间。",
+        "py": "xuān chuán qián xiān què rèn shí jiān .",
+        "en": "Confirm the time before publicizing it."
+      },
+      "usageNote": "[GF2021:L3:9171] Source entry: 宣传; xuānchuán; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "按",
+      "pinyin": "àn",
+      "meaning": "press; according to",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "按",
+          "role": "whole",
+          "gloss": "press; according to"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 按 in 按 / 按照. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "按",
+          "p": "àn",
+          "m": "according to"
+        },
+        {
+          "w": "按照",
+          "p": "àn zhào",
+          "m": "according to"
+        }
+      ]
+    },
+    {
+      "hanzi": "管",
+      "pinyin": "guǎn",
+      "meaning": "manage; tube",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "管",
+          "role": "whole",
+          "gloss": "manage; tube"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 管 in 管理. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "管理",
+          "p": "guǎn lǐ",
+          "m": "to manage; management"
+        }
+      ]
+    },
+    {
+      "hanzi": "集",
+      "pinyin": "jí",
+      "meaning": "gather",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "集",
+          "role": "whole",
+          "gloss": "gather"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 集 in 集中 / 集. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "集中",
+          "p": "jí zhōng",
+          "m": "to concentrate; assemble"
+        },
+        {
+          "w": "集",
+          "p": "jí",
+          "m": "episode"
+        }
+      ]
+    },
+    {
+      "hanzi": "领",
+      "pinyin": "lǐng",
+      "meaning": "lead; receive",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "领",
+          "role": "whole",
+          "gloss": "lead; receive"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 领 in 带领 / 领导. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "带领",
+          "p": "dài lǐng",
+          "m": "to lead"
+        },
+        {
+          "w": "领导",
+          "p": "lǐng dǎo",
+          "m": "leader; to lead"
+        }
+      ]
+    },
+    {
+      "hanzi": "程",
+      "pinyin": "chéng",
+      "meaning": "procedure; journey",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "程",
+          "role": "whole",
+          "gloss": "procedure; journey"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 程 in 过程 / 行程. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "过程",
+          "p": "guò chéng",
+          "m": "process; course of events"
+        },
+        {
+          "w": "行程",
+          "p": "xíng chéng",
+          "m": "itinerary"
+        }
+      ]
+    },
+    {
+      "hanzi": "宣",
+      "pinyin": "xuān",
+      "meaning": "announce",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "宣",
+          "role": "whole",
+          "gloss": "announce"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 宣 in 宣传. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "宣传",
+          "p": "xuān chuán",
+          "m": "to publicize; publicity"
+        }
+      ]
+    },
+    {
+      "hanzi": "派",
+      "pinyin": "pài",
+      "meaning": "send; faction",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "派",
+          "role": "whole",
+          "gloss": "send; faction"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 派 in 派. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "派",
+          "p": "pài",
+          "m": "to send; assign"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u15-g三20",
+      "pattern": "由：行动的负责方",
+      "purpose": "Name the agent responsible for an action",
+      "explanation": "活动由学生举办 names the responsible agent before the action. Compare 场地由学校管理 with a person merely attending. A delegation or representative need not be the organizer. In these agentive examples 由 does not mean because; 由于 is a separate causal expression.",
+      "examples": [
+        {
+          "zh": "活动由学生举办。",
+          "py": "huó dòng yóu xué sheng jǔ bàn .",
+          "en": "Students organize the event."
+        },
+        {
+          "zh": "场地由学校管理。",
+          "py": "chǎng dì yóu xué xiào guǎn lǐ .",
+          "en": "The school manages the venue."
+        },
+        {
+          "zh": "会议由一位学生主持。",
+          "py": "huì yì yóu yī wèi xué sheng zhǔ chí .",
+          "en": "One student chairs the meeting."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "代表来了，所以活动由他举办。",
+          "right": "代表来交流，举办方要另查。",
+          "why": "Attendance or representation does not establish responsibility."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u15-g三29",
+      "pattern": "按 / 按照 + 依据",
+      "purpose": "Identify the basis for a procedure",
+      "explanation": "按名单分组 gives the grouping basis, while 按照通知上的流程签到 gives a procedural basis. 按到达时间 and 按名单 may yield different groups; read which is stated. The verb 按 in 按按钮 is press, not the preposition according to.",
+      "examples": [
+        {
+          "zh": "按名单分组。",
+          "py": "àn míng dān fēn zǔ .",
+          "en": "Group according to the list."
+        },
+        {
+          "zh": "按照通知上的流程签到。",
+          "py": "àn zhào tōng zhī shàng de liú chéng qiān dào .",
+          "en": "Sign in according to the procedure in the notice."
+        },
+        {
+          "zh": "按组发言，不按到达时间。",
+          "py": "àn zǔ fā yán , bù àn dào dá shí jiān .",
+          "en": "Speak by group, not by arrival time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "按名单分组，就是谁先到谁先说。",
+          "right": "按名单分组，顺序要看名单。",
+          "why": "Do not replace the stated criterion with arrival order."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u15-d",
+    "title": "A host, a head and a representative",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find who organizes, who hosts and how speaking turns are assigned.",
+    "lines": [
+      {
+        "zh": "这次交流由谁举办？",
+        "py": "zhè cì jiāo liú yóu shéi jǔ bàn ?",
+        "en": "Who organizes this exchange?",
+        "speaker": "a"
+      },
+      {
+        "zh": "由学生部门举办，场地由学校管理。",
+        "py": "yóu xué sheng bù mén jǔ bàn , chǎng dì yóu xué xiào guǎn lǐ .",
+        "en": "The student department organizes it; the school manages the venue.",
+        "speaker": "b"
+      },
+      {
+        "zh": "部长主持吗？",
+        "py": "bù zhǎng zhǔ chí ma ?",
+        "en": "Does the department head host?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不，一位学生主持，主任确认场地。",
+        "py": "bù , yī wèi xué sheng zhǔ chí , zhǔ rèn què rèn chǎng dì .",
+        "en": "No; a student hosts, and the director confirms the venue.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我们代表团怎么报到？",
+        "py": "wǒ men dài biǎo tuán zěn me bào dào ?",
+        "en": "How should our delegation report on arrival?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先在门口集中，按照通知办理手续。",
+        "py": "xiān zài mén kǒu jí zhōng , àn zhào tōng zhī bàn lǐ shǒu xù .",
+        "en": "Assemble at the entrance first and complete the formalities according to the notice.",
+        "speaker": "b"
+      },
+      {
+        "zh": "每组都上台吗？",
+        "py": "měi zǔ dōu shàng tái ma ?",
+        "en": "Does every entire group go on stage?",
+        "speaker": "a"
+      },
+      {
+        "zh": "每组派一位代表，按名单发言，每人两分钟。",
+        "py": "měi zǔ pài yī wèi dài biǎo , àn míng dān fā yán , měi rén liǎng fēn zhōng .",
+        "en": "Each group sends one representative, speaking according to the list, two minutes each.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the conversation clarify?",
+        "choices": [
+          "Responsibilities and speaking procedure",
+          "Every participant is a host",
+          "Arrival order replaces the list"
+        ],
+        "answer": "Responsibilities and speaking procedure"
+      },
+      {
+        "type": "detail",
+        "q": "Who hosts?",
+        "choices": [
+          "A student",
+          "The director",
+          "Every delegation member"
+        ],
+        "answer": "A student"
+      },
+      {
+        "type": "inference",
+        "q": "Do four people from one group all speak?",
+        "choices": [
+          "No, one representative is assigned",
+          "Yes, all four",
+          "Only if they arrive late"
+        ],
+        "answer": "No, one representative is assigned"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "派",
+        "pinyin": "pài",
+        "meaning": "to send; assign"
+      },
+      {
+        "hanzi": "场地",
+        "pinyin": "chǎng dì",
+        "meaning": "venue"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u15-r",
+    "title": "Read the role, not just the title",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the difference between venue management and event hosting.",
+    "lines": [
+      {
+        "zh": "活动由学生部门举办，学校负责管理场地。",
+        "py": "huó dòng yóu xué sheng bù mén jǔ bàn , xué xiào fù zé guǎn lǐ chǎng dì .",
+        "en": "The student department organizes the event; the school manages the venue."
+      },
+      {
+        "zh": "主任确认场地，学生主持会议；部长不主持。",
+        "py": "zhǔ rèn què rèn chǎng dì , xué sheng zhǔ chí huì yì ; bù zhǎng bù zhǔ chí .",
+        "en": "The director confirms the venue and a student chairs the meeting; the department head does not host."
+      },
+      {
+        "zh": "工作人员带领大家进场，所有人先在门口集中。",
+        "py": "gōng zuò rén yuán dài lǐng dà jiā jìn chǎng , suǒ yǒu rén xiān zài mén kǒu jí zhōng .",
+        "en": "Staff lead everyone in; everyone assembles at the entrance first."
+      },
+      {
+        "zh": "代表团先报到，再按照通知办理手续。",
+        "py": "dài biǎo tuán xiān bào dào , zài àn zhào tōng zhī bàn lǐ shǒu xù .",
+        "en": "The delegation reports on arrival and completes formalities according to the notice."
+      },
+      {
+        "zh": "分组和发言都按名单，不按到达的先后。",
+        "py": "fēn zǔ hé fā yán dōu àn míng dān , bù àn dào dá de xiān hòu .",
+        "en": "Grouping and speaking both follow the list, not arrival order."
+      },
+      {
+        "zh": "每组派一位代表，每人发言两分钟。",
+        "py": "měi zǔ pài yī wèi dài biǎo , měi rén fā yán liǎng fēn zhōng .",
+        "en": "Each group sends one representative who speaks for two minutes."
+      },
+      {
+        "zh": "活动流程已经确认，宣传不能把时间写错。",
+        "py": "huó dòng liú chéng yǐ jīng què rèn , xuān chuán bù néng bǎ shí jiān xiě cuò .",
+        "en": "The event procedure is confirmed; publicity must not give the wrong time."
+      },
+      {
+        "zh": "集合后先看分工，再进去。纪念活动也要按通知安排。",
+        "py": "jí hé hòu xiān kàn fēn gōng , zài jìn qù . jì niàn huó dòng yě yào àn tōng zhī ān pái .",
+        "en": "After assembling, check responsibilities before entering. A commemorative event also follows the notice."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Why read the stated role?",
+        "choices": [
+          "A title alone does not tell who hosts",
+          "Every head must host",
+          "Venue managers always speak first"
+        ],
+        "answer": "A title alone does not tell who hosts"
+      },
+      {
+        "type": "detail",
+        "q": "What sets speaking order?",
+        "choices": [
+          "The list",
+          "Arrival order",
+          "The representative’s age"
+        ],
+        "answer": "The list"
+      },
+      {
+        "type": "inference",
+        "q": "Must a visiting delegation organize the event?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only with four members"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "活动由学生部门【举办】，学校负责管理场地。",
+          "py": "huó dòng yóu xué sheng bù mén jǔ bàn , xué xiào fù zé guǎn lǐ chǎng dì .",
+          "en": "The student department organizes the event; the school manages the venue."
+        },
+        {
+          "zh": "每组派一位【代表】，每人发言两分钟。",
+          "py": "měi zǔ pài yī wèi dài biǎo , měi rén fā yán liǎng fēn zhōng .",
+          "en": "Each group sends one representative who speaks for two minutes."
+        }
+      ],
+      "bank": [
+        "举办",
+        "代表",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "集合",
+        "pinyin": "jí hé",
+        "meaning": "to assemble"
+      },
+      {
+        "hanzi": "分工",
+        "pinyin": "fēn gōng",
+        "meaning": "division of work"
+      },
+      {
+        "hanzi": "流程",
+        "pinyin": "liú chéng",
+        "meaning": "procedure"
+      },
+      {
+        "hanzi": "纪念",
+        "pinyin": "jì niàn",
+        "meaning": "to commemorate"
+      },
+      {
+        "hanzi": "派",
+        "pinyin": "pài",
+        "meaning": "to send; assign"
+      },
+      {
+        "hanzi": "场地",
+        "pinyin": "chǎng dì",
+        "meaning": "venue"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u15-media",
+      "title": "The title does not hold the microphone",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original role mix-up.",
+      "lines": [
+        {
+          "zh": "部长到了，话筒给他吧。",
+          "py": "bù zhǎng dào le , huà tǒng gěi tā ba .",
+          "en": "The department head is here; give him the microphone.",
+          "speaker": "a"
+        },
+        {
+          "zh": "先看通知，今天由学生主持。",
+          "py": "xiān kàn tōng zhī , jīn tiān yóu xué sheng zhǔ chí .",
+          "en": "Read the notice first; a student hosts today.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那头衔不能当发言名单。",
+          "py": "nà tóu xián bù néng dāng fā yán míng dān .",
+          "en": "Then a title cannot serve as the speaking list.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对。名单不会因为帽子大就改。",
+          "py": "duì . míng dān bù huì yīn wèi mào zi dà jiù gǎi .",
+          "en": "Right. A grand title does not change the list.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What corrects the assumption?",
+          "choices": [
+            "The assigned role in the notice",
+            "A bigger hat",
+            "The order of arrival"
+          ],
+          "answer": "The assigned role in the notice"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "话筒",
+          "pinyin": "huà tǒng",
+          "meaning": "microphone"
+        },
+        {
+          "hanzi": "头衔",
+          "pinyin": "tóu xián",
+          "meaning": "title; rank"
+        },
+        {
+          "hanzi": "帽子",
+          "pinyin": "mào zi",
+          "meaning": "hat"
+        }
+      ]
+    },
+    {
+      "id": "s3-u15-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "工作人员带领大家进场。",
+          "py": "gōng zuò rén yuán dài lǐng dà jiā jìn chǎng .",
+          "en": "Staff lead everyone into the venue."
+        },
+        {
+          "zh": "不是会员也可以先听。",
+          "py": "bù shì huì yuán yě kě yǐ xiān tīng .",
+          "en": "Even nonmembers may listen first."
+        },
+        {
+          "zh": "会员先报到，新朋友也要看通知。",
+          "py": "huì yuán xiān bào dào , xīn péng you yě yào kàn tōng zhī .",
+          "en": "Members report on arrival; new friends also need to read the notice."
+        },
+        {
+          "zh": "活动过程写在通知里。",
+          "py": "huó dòng guò chéng xiě zài tōng zhī lǐ .",
+          "en": "The event process is written in the notice."
+        },
+        {
+          "zh": "这个过程有三步，先报到，再进场，最后交流。",
+          "py": "zhè gè guò chéng yǒu sān bù , xiān bào dào , zài jìn chǎng , zuì hòu jiāo liú .",
+          "en": "This process has three steps: report on arrival, enter, then exchange ideas."
+        }
+      ],
+      "questions": [],
+      "glosses": []
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u15-t1",
+      "phrase": "s3-u15-w08",
+      "audio": {
+        "zh": "学生主持，主任确认场地。",
+        "py": "xué sheng zhǔ chí , zhǔ rèn què rèn chǎng dì .",
+        "en": "The student hosts; the director confirms the venue."
+      },
+      "statement": "The director hosts.",
+      "answer": false,
+      "why": "The stated roles are different."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u15-t2",
+      "phrase": "s3-u15-w09",
+      "audio": {
+        "zh": "每组派一位代表，每人两分钟。",
+        "py": "měi zǔ pài yī wèi dài biǎo , měi rén liǎng fēn zhōng .",
+        "en": "Each group sends one representative, two minutes each."
+      },
+      "statement": "One group sends one speaker.",
+      "answer": true,
+      "why": "每组一位 gives the group allocation."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u15-t3",
+      "phrase": "s3-u15-w02",
+      "prompt": {
+        "zh": "按什么顺序发言？",
+        "py": "àn shén me shùn xù fā yán ?",
+        "en": "What determines speaking order?"
+      },
+      "choices": [
+        "按名单，不按到达时间。",
+        "部长就是所有会员。",
+        "每个人都能改通知。"
+      ],
+      "answer": "按名单，不按到达时间。",
+      "why": "Use the specified list."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u15-t4",
+      "phrase": "s3-u15-w18",
+      "prompt": {
+        "zh": "到达后先做什么？",
+        "py": "dào dá hòu xiān zuò shén me ?",
+        "en": "What comes first on arrival?"
+      },
+      "choices": [
+        "先在门口报到。",
+        "先替全组发言。",
+        "先写取消通知。"
+      ],
+      "answer": "先在门口报到。",
+      "why": "Arrival registration precedes entry."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u15-t5",
+      "phrase": "s3-u15-w01",
+      "line": {
+        "zh": "活动【由】学生举办。",
+        "py": "huó dòng yóu xué sheng jǔ bàn .",
+        "en": "Students organize the event."
+      },
+      "blankPy": "yóu"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u15-t6",
+      "phrase": "s3-u15-w03",
+      "line": {
+        "zh": "【按照】通知办理手续。",
+        "py": "àn zhào tōng zhī bàn lǐ shǒu xù .",
+        "en": "Complete formalities according to the notice."
+      },
+      "blankPy": "àn zhào"
+    },
+    {
+      "type": "match",
+      "id": "s3-u15-t7",
+      "phrase": "s3-u15-w12",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The school manages the venue.",
+          "right": {
+            "zh": "场地由学校管理。",
+            "py": "chǎng dì yóu xué xiào guǎn lǐ .",
+            "en": "The school manages the venue."
+          }
+        },
+        {
+          "left": "A student chairs the meeting.",
+          "right": {
+            "zh": "学生主持会议。",
+            "py": "xué sheng zhǔ chí huì yì .",
+            "en": "A student chairs the meeting."
+          }
+        },
+        {
+          "left": "The representative speaks for two minutes.",
+          "right": {
+            "zh": "代表发言两分钟。",
+            "py": "dài biǎo fā yán liǎng fēn zhōng .",
+            "en": "The representative speaks for two minutes."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u15-t8",
+      "phrase": "s3-u15-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Assemble at the entrance first.",
+          "right": {
+            "zh": "先在门口集中。",
+            "py": "xiān zài mén kǒu jí zhōng .",
+            "en": "Assemble at the entrance first."
+          }
+        },
+        {
+          "left": "Each group sends one representative.",
+          "right": {
+            "zh": "每组派一位代表。",
+            "py": "měi zǔ pài yī wèi dài biǎo .",
+            "en": "Each group sends one representative."
+          }
+        },
+        {
+          "left": "Confirm the time before publicity.",
+          "right": {
+            "zh": "宣传前确认时间。",
+            "py": "xuān chuán qián què rèn shí jiān .",
+            "en": "Confirm the time before publicity."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u15-t9",
+      "phrase": "s3-u15-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "She once lived here; the old shop moved long ago.",
+          "right": {
+            "zh": "她曾经住这里，旧店早已搬走。",
+            "py": "tā céng jīng zhù zhè lǐ , jiù diàn zǎo yǐ bān zǒu .",
+            "en": "She once lived here; the old shop moved long ago."
+          }
+        },
+        {
+          "left": "Since graduation we have rarely met.",
+          "right": {
+            "zh": "自从毕业，我们很少见面。",
+            "py": "zì cóng bì yè , wǒ men hěn shǎo jiàn miàn .",
+            "en": "Since graduation we have rarely met."
+          }
+        },
+        {
+          "left": "She will probably arrive at six; it is unconfirmed.",
+          "right": {
+            "zh": "她大概六点到，还没确认。",
+            "py": "tā dà gài liù diǎn dào , hái méi què rèn .",
+            "en": "She will probably arrive at six; it is unconfirmed."
+          }
+        },
+        {
+          "left": "If it rains, meet indoors.",
+          "right": {
+            "zh": "要是下雨，就在室内见。",
+            "py": "yào shì xià yǔ , jiù zài shì nèi jiàn .",
+            "en": "If it rains, meet indoors."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Check responsibility",
+      "natural": {
+        "zh": "这次由谁举办？",
+        "py": "zhè cì yóu shéi jǔ bàn ?",
+        "en": "Who organizes this event?"
+      },
+      "note": "Do not infer the organizer from an attendee’s title."
+    },
+    {
+      "situation": "Ask for the actual order",
+      "natural": {
+        "zh": "按名单还是按到达时间？",
+        "py": "àn míng dān hái shi àn dào dá shí jiān ?",
+        "en": "By the list or by arrival time?"
+      },
+      "note": "Ask when the basis is unclear."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u15-speak",
+    "title": "Who is organising the event?",
+    "place": "A language-exchange meeting",
+    "context": "Explain responsibility and agreed instructions.",
+    "goal": "Assign responsibility with 由",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "谁主持？",
+        "pinyin": "shéi zhǔ chí ?",
+        "meaning": "Who hosts?",
+        "intent": "State the assigned role",
+        "examples": [
+          "一位学生主持。"
+        ],
+        "accept": [
+          "^一位学生主持。[。！？]?$"
+        ]
+      },
+      {
+        "text": "每组派几人？",
+        "pinyin": "měi zǔ pài jǐ rén ?",
+        "meaning": "How many does each group send?",
+        "intent": "State the exact allocation",
+        "examples": [
+          "每组一位代表。"
+        ],
+        "accept": [
+          "^每组一位代表。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三20, 三29. Native check: 由 agent construction versus 由于, 按 and 按照 register, 报到 versus 报道, department/head/member roles, 纪念 activity context and grand-title metaphor. No implication of real institution rules. Native review pending. Planned retrieval 三14 / 三21 / 三18 / 三69: 她曾经住这里，旧店早已搬走。, 自从毕业，我们很少见面。, 她大概六点到，还没确认。, 要是下雨，就在室内见。."
+}

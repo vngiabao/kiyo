@@ -196,4 +196,33 @@ describe("course coverage audit", () => {
     pack.vocabulary[0].usageNote = "[GF2021:L2:10] 家（科学家） denotes an occupation specialist.";
     expect(auditCoverage(ref, { ...input(), packs: [pack] }, {}).levels[1].words.introduced).toBe(2);
   });
+  it("requires the taught morpheme or template, its reading, sense and exact source row", () => {
+    const ref = inventory();
+    ref.levels["3"].words = [
+      ["20", "三级", "初（初一）", "chū (chūyī)", "前缀"],
+      ["21", "三级", "化（现代化）", "huà (xiàndàihuà)", "后缀"],
+      ["22", "三级", "…极了", "…jí le", ""],
+    ];
+    const pack = { vocabulary: [
+      { hanzi: "初", pinyin: "chū", pos: "prefix", hskLevel: 3,
+        usageNote: "[GF2021:L3:20] 初（初一） is the lunar-date prefix." },
+      { hanzi: "化", pinyin: "huà", pos: "suffix", hskLevel: 3,
+        usageNote: "[GF2021:L3:21] 化（现代化） indicates transformation." },
+      { hanzi: "极了", pinyin: "jí le", pos: "particle", hskLevel: 3,
+        usageNote: "[GF2021:L3:22] …极了 follows a gradable adjective." },
+    ], grammar: [] } as unknown as ContentPack;
+    const count = () => auditCoverage(ref, { ...input(), packs: [pack] }, {}).levels[2].words.introduced;
+    expect(count()).toBe(3);
+    pack.vocabulary[0].hanzi = "初一";
+    pack.vocabulary[0].pinyin = "chū yī";
+    pack.vocabulary[0].pos = "noun";
+    expect(count()).toBe(2);
+    pack.vocabulary[1].usageNote = "[GF2021:L3:21] incidental mention";
+    expect(count()).toBe(1);
+    pack.vocabulary[2].pinyin = "jǐ le";
+    expect(count()).toBe(0);
+    pack.vocabulary[2].pinyin = "jí le";
+    pack.vocabulary[2].usageNote = "[GF2021:L3:23] wrong row";
+    expect(count()).toBe(0);
+  });
 });

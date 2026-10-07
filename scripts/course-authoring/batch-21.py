@@ -157,15 +157,15 @@ dict(tf=[('桥','桥看起来近，但还没量距离。','The bridge looks near
 'Native check: overlapping 看起来/看上去 uses, 羊 as a general sheep/goat label, animal classifiers, nonjudgmental 胖 use for a model, the banana-as-mountain joke, photograph framing and permission scope. Native review pending.')
 
 u='s3-u28'
-selected_source_rows.update({u+':初':'1169',u+':初一':'1170'})
-source_aliases['初（初一）']=['初一']
-remaining_by_level[3]['初一']=source_rows['1170']
+selected_source_rows[u+':初']='1170'
+source_aliases['初（初一）']=['初']
+remaining_by_level[3]['初']=source_rows['1170']
 course(u,'从下周起',['State a clear start point','Distinguish an action’s duration from elapsed time since completion','Separate a subscription period and a prediction'],[
 ('开始','to start; beginning','bắt đầu','verb','新课程下周开始。','The new course starts next week.','开始了不代表已经学会。','Starting does not imply already having learned it.'),
 ('以来','since','kể từ','noun','开课以来，她每次都做记录。','Since the course began, she has recorded every session.','上周以来的变化要按日期看。','Check changes since last week by date.'),
 ('后年','the year after next','năm sau nữa','noun','后年的计划现在还没定。','The plan for the year after next is still undecided.','后年不是明年。','The year after next is not next year.'),
-('初','at first; initially','ban đầu','adverb','初到这里，她先找教室。','On first arriving here, she looked for the classroom.','初来时不认识路很正常。','It is normal not to know the way when first arriving.'),
-('初一','first day of a lunar month','mùng một','noun','这里的初一指农历每月第一天。','Here 初一 means the first day of each lunar month.','通知写农历初一，不是公历一号。','The notice says lunar-month first day, not Gregorian day one.'),
+('教练','coach; trainer','huấn luyện viên','noun','教练让她先放慢速度。','The coach asks her to slow down first.','教练的建议也要看具体情况。','A coach’s suggestion depends on the specific situation too.'),
+('初','prefix for the first ten days of a lunar month','tiền tố chỉ mười ngày đầu tháng âm lịch','prefix','农历初一、初二里的初用在日期前。','The prefix 初 precedes the day number in lunar dates such as day one and day two.','初三是农历每月第三天，不是公历三号。','初三 is lunar-month day three, not Gregorian day three.'),
 ('初步','preliminary; initial','sơ bộ','adjective','这只是初步安排。','This is only a preliminary arrangement.','初步确认以后仍可以补充。','Details can still be added after preliminary confirmation.'),
 ('初级','elementary; beginner level','sơ cấp','adjective','这门初级课程先练基础。','This elementary course practises foundations first.','初级是课程分级，不是人的价值。','Elementary describes a course level, not a person’s value.'),
 ('初中','junior secondary school','trung học cơ sở','noun','她初中时就开始记日记。','She began keeping a diary in junior secondary school.','初中经历和现在课程不同。','Junior-school experience differs from the present course.'),
@@ -200,10 +200,10 @@ grammar(u,'三52','结束事件 + 时量 + 了','Measure elapsed time since an e
 ('The clock is not impressed','Read an original verse.',[
 ('赶到门前，先把气喘匀。','Reach the door and catch your breath first.'),('下课半小时，钟不等我急。','Class ended half an hour ago; the clock does not wait for my hurry.'),('从下周起，把日期记清。','Starting next week, note the dates clearly.'),('慢慢读通知，快不等于行。','Read the notice slowly; fast does not mean capable.')],
 [('inference','What does the verse advise?',['Read and record carefully despite a hurry','Claim readiness from speed','Treat the course as already completed'],0)],[],False),
-dict(tf=[('开始','课程下周开始，现在时间还没确认。','The course starts next week; its time is not yet confirmed.','The exact time is confirmed.',False,'The statement explicitly leaves the time unconfirmed.'),('期','她只订了一期杂志。','She subscribed to only one magazine issue.','Every future issue is included.',False,'只 limits the subscription to one issue.')],reply=[('到达','已经到达了吗？','Have you arrived?',['还没，只是接近教室。','接近就一定已经到达。','后年就是明天。'],0,'Separate proximity and arrival.'),('录音','可以分享这段录音吗？','May this recording be shared?',['个人复习可以，分享另问。','录完就自动同意公开。','纪录就是正式成绩。'],0,'Check the permission’s scope.')],fill=[('将近','等待将近十分钟，还没开始。','We waited almost ten minutes; it has not started.'),('后年','后年的安排现在还没定。','The plan for the year after next is undecided.')],match=[('时',[('她下课半小时了。','Class ended for her half an hour ago.'),('她上了半小时的课。','She attended class for half an hour.'),('从下周起每周练两次。','Practise twice weekly starting next week.')]),('初',[('初到这里，先找教室。','On first arrival, find the classroom.'),('通知写农历初一。','The notice says lunar day one.'),('开课以来都有记录。','There are records since the course began.')])]),
+dict(tf=[('开始','课程下周开始，现在时间还没确认。','The course starts next week; its time is not yet confirmed.','The exact time is confirmed.',False,'The statement explicitly leaves the time unconfirmed.'),('期','她只订了一期杂志。','She subscribed to only one magazine issue.','Every future issue is included.',False,'只 limits the subscription to one issue.')],reply=[('到达','已经到达了吗？','Have you arrived?',['还没，只是接近教室。','接近就一定已经到达。','后年就是明天。'],0,'Separate proximity and arrival.'),('录音','可以分享这段录音吗？','May this recording be shared?',['个人复习可以，分享另问。','录完就自动同意公开。','纪录就是正式成绩。'],0,'Check the permission’s scope.')],fill=[('将近','等待将近十分钟，还没开始。','We waited almost ten minutes; it has not started.'),('后年','后年的安排现在还没定。','The plan for the year after next is undecided.')],match=[('时',[('她下课半小时了。','Class ended for her half an hour ago.'),('她上了半小时的课。','She attended class for half an hour.'),('从下周起每周练两次。','Practise twice weekly starting next week.')]),('初',[('农历初二的初是日期前缀。','初 is a date prefix in lunar day two.'),('通知写农历初一。','The notice says lunar day one.'),('开课以来都有记录。','There are records since the course began.')])]),
 [('Check the reference point','是上了半小时，还是下课半小时了？','Is it half an hour of class, or half an hour since class ended?','Ask which interval is meant.'),('Wait without inventing','接近了，还没到。','Nearly there; not arrived yet.','Report the actual state.')],
 [('从下周起是什么意思？','What does starting next week mean?','State the start point',['表示下周开始，不是下周结束。']),('电影结束十分钟了呢？','What about the film ending ten minutes ago?','Distinguish elapsed time',['结束以后过了十分钟。'])],
-'Native check: 初 adverb versus 初一 lunar prefix, elapsed-time double-了 constructions, 前后 sequence versus approximation, 纪录 versus 记录, 将近 boundaries, 期 magazine classifier and original verse rhythm. Native review pending.')
+'Native check: 初 lunar-date prefix versus the later first-arrival adverb lesson, elapsed-time double-了 constructions, 前后 sequence versus approximation, 纪录 versus 记录, 将近 boundaries, 期 magazine classifier and original verse rhythm. Native review pending.')
 
 from retrievals import apply_ids
 apply_ids(['s3-u25','s3-u26','s3-u27','s3-u28'])

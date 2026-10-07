@@ -1,0 +1,1382 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u16",
+    "stage": 2,
+    "order": 80,
+    "title": "Bring it over here",
+    "titleZh": "箱子往哪里搬",
+    "canDo": [
+      "Interpret direction relative to the speaker",
+      "Follow a sequence of movement instructions",
+      "Ask before moving a heavy item"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u15"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u16-w01",
+      "hanzi": "朝",
+      "pinyin": "cháo",
+      "meaning": "toward; face",
+      "meaningVi": "hướng về",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "朝门口走，别朝楼梯走。",
+        "py": "cháo mén kǒu zǒu , bié cháo lóu tī zǒu .",
+        "en": "Walk toward the doorway, not toward the stairs."
+      },
+      "usageNote": "[GF2021:L3:883] Source entry: 朝; cháo; 介、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w02",
+      "hanzi": "搬",
+      "pinyin": "bān",
+      "meaning": "to move; carry objects",
+      "meaningVi": "chuyển; mang",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把轻箱子搬到门口。",
+        "py": "bǎ qīng xiāng zi bān dào mén kǒu .",
+        "en": "Move the light box to the doorway."
+      },
+      "usageNote": "[GF2021:L3:126] Source entry: 搬; bān; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w03",
+      "hanzi": "搬家",
+      "pinyin": "bān jiā",
+      "meaning": "to move house",
+      "meaningVi": "chuyển nhà",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "搬家先确认新地址。",
+        "py": "bān jiā xiān què rèn xīn dì zhǐ .",
+        "en": "Confirm the new address before moving house."
+      },
+      "usageNote": "[GF2021:L3:127] Source entry: 搬家; bān∥jiā; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w04",
+      "hanzi": "背",
+      "pinyin": "bēi",
+      "meaning": "to carry on the back",
+      "meaningVi": "cõng; đeo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "轻背包可以背起来。",
+        "py": "qīng bēi bāo kě yǐ bēi qǐ lái .",
+        "en": "The light backpack can be carried on the back."
+      },
+      "usageNote": "[GF2021:L3:258] Source entry: 背; bēi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w05",
+      "hanzi": "背后",
+      "pinyin": "bèi hòu",
+      "meaning": "behind; at the back",
+      "meaningVi": "phía sau",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "背后的门不要挡住。",
+        "py": "bèi hòu de mén bú yào dǎng zhù .",
+        "en": "Do not block the door behind you."
+      },
+      "usageNote": "[GF2021:L3:280] Source entry: 背后; bèihòu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w06",
+      "hanzi": "底下",
+      "pinyin": "dǐ xià",
+      "meaning": "underneath; below",
+      "meaningVi": "bên dưới",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "箱子底下没有轮子。",
+        "py": "xiāng zi dǐ xià méi yǒu lún zi .",
+        "en": "The box has no wheels underneath."
+      },
+      "usageNote": "[GF2021:L3:1751] Source entry: 底下; dǐxia; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w07",
+      "hanzi": "里面",
+      "pinyin": "lǐ miàn",
+      "meaning": "inside",
+      "meaningVi": "bên trong",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "里面是书，先别倒过来。",
+        "py": "lǐ miàn shì shū , xiān bié dào guò lái .",
+        "en": "There are books inside; do not turn it upside down."
+      },
+      "usageNote": "[GF2021:L3:5032] Source entry: 里面; lǐmiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w08",
+      "hanzi": "外面",
+      "pinyin": "wài miàn",
+      "meaning": "outside",
+      "meaningVi": "bên ngoài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "外面下雨，先别搬出去。",
+        "py": "wài miàn xià yǔ , xiān bié bān chū qù .",
+        "en": "It is raining outside; do not move it out yet."
+      },
+      "usageNote": "[GF2021:L3:8261] Source entry: 外面; wài·miàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w09",
+      "hanzi": "上面",
+      "pinyin": "shàng miàn",
+      "meaning": "on top; above",
+      "meaningVi": "bên trên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "上面写着轻，不代表里面没有东西。",
+        "py": "shàng miàn xiě zhe qīng , bù dài biǎo lǐ miàn méi yǒu dōng xi .",
+        "en": "Light is written on top; it does not mean nothing is inside."
+      },
+      "usageNote": "[GF2021:L3:6960] Source entry: 上面; shàngmiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w10",
+      "hanzi": "下面",
+      "pinyin": "xià miàn",
+      "meaning": "under; below",
+      "meaningVi": "bên dưới",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "下面的纸不要压住。",
+        "py": "xià miàn de zhǐ bú yào yā zhù .",
+        "en": "Do not pin down the paper underneath."
+      },
+      "usageNote": "[GF2021:L3:8691] Source entry: 下面; xiàmiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w11",
+      "hanzi": "前面",
+      "pinyin": "qián miàn",
+      "meaning": "in front",
+      "meaningVi": "phía trước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "前面是入口，出口在后面。",
+        "py": "qián miàn shì rù kǒu , chū kǒu zài hòu miàn .",
+        "en": "The entrance is in front; the exit is at the back."
+      },
+      "usageNote": "[GF2021:L3:6343] Source entry: 前面; qiánmiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w12",
+      "hanzi": "后面",
+      "pinyin": "hòu miàn",
+      "meaning": "behind; afterward",
+      "meaningVi": "phía sau",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "后面的箱子比较重。",
+        "py": "hòu miàn de xiāng zi bǐ jiào zhòng .",
+        "en": "The box behind is heavier."
+      },
+      "usageNote": "[GF2021:L3:3376] Source entry: 后面; hòumiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w13",
+      "hanzi": "上来",
+      "pinyin": "shàng lái",
+      "meaning": "to come up",
+      "meaningVi": "lên phía người nói",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你先上来，我在二楼。",
+        "py": "nǐ xiān shàng lái , wǒ zài èr lóu .",
+        "en": "Come up first; I am on the second floor."
+      },
+      "usageNote": "[GF2021:L3:6956] Source entry: 上来; shàng∥·lái; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w14",
+      "hanzi": "上去",
+      "pinyin": "shàng qù",
+      "meaning": "to go up",
+      "meaningVi": "đi lên",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把箱子搬上去，我在一楼等。",
+        "py": "bǎ xiāng zi bān shàng qù , wǒ zài yī lóu děng .",
+        "en": "Carry the box up; I will wait on the first floor."
+      },
+      "usageNote": "[GF2021:L3:6962] Source entry: 上去; shàng∥·qù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w15",
+      "hanzi": "下来",
+      "pinyin": "xià lái",
+      "meaning": "to come down",
+      "meaningVi": "xuống phía người nói",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你下来吧，我在一楼。",
+        "py": "nǐ xià lái ba , wǒ zài yī lóu .",
+        "en": "Come down; I am on the first floor."
+      },
+      "usageNote": "[GF2021:L3:8687] Source entry: 下来; xià∥·lái; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w16",
+      "hanzi": "下去",
+      "pinyin": "xià qù",
+      "meaning": "to go down",
+      "meaningVi": "đi xuống",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你先下去，我在二楼等。",
+        "py": "nǐ xiān xià qù , wǒ zài èr lóu děng .",
+        "en": "Go down first; I will wait on the second floor."
+      },
+      "usageNote": "[GF2021:L3:8694] Source entry: 下去; xià∥·qù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w17",
+      "hanzi": "运输",
+      "pinyin": "yùn shū",
+      "meaning": "to transport; transportation",
+      "meaningVi": "vận chuyển",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "运输前先把箱子装好。",
+        "py": "yùn shū qián xiān bǎ xiāng zi zhuāng hǎo .",
+        "en": "Pack the boxes properly before transport."
+      },
+      "usageNote": "[GF2021:L3:10086] Source entry: 运输; yùnshū; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w18",
+      "hanzi": "安装",
+      "pinyin": "ān zhuāng",
+      "meaning": "to install",
+      "meaningVi": "lắp đặt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张桌子还要安装。",
+        "py": "zhè zhāng zhuō zi hái yào ān zhuāng .",
+        "en": "This desk still needs installing."
+      },
+      "usageNote": "[GF2021:L3:44] Source entry: 安装; ānzhuāng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w19",
+      "hanzi": "家具",
+      "pinyin": "jiā jù",
+      "meaning": "furniture",
+      "meaningVi": "đồ nội thất",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "家具搬完再整理书。",
+        "py": "jiā jù bān wán zài zhěng lǐ shū .",
+        "en": "Organize the books after moving the furniture."
+      },
+      "usageNote": "[GF2021:L3:3856] Source entry: 家具; jiājù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w20",
+      "hanzi": "工具",
+      "pinyin": "gōng jù",
+      "meaning": "tool",
+      "meaningVi": "dụng cụ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "安装工具在小箱子里。",
+        "py": "ān zhuāng gōng jù zài xiǎo xiāng zi lǐ .",
+        "en": "The installation tools are in the small box."
+      },
+      "usageNote": "[GF2021:L3:2759] Source entry: 工具; gōngjù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w21",
+      "hanzi": "木头",
+      "pinyin": "mù tou",
+      "meaning": "wood",
+      "meaningVi": "gỗ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这块木头不是座位。",
+        "py": "zhè kuài mù tou bù shì zuò wèi .",
+        "en": "This piece of wood is not a seat."
+      },
+      "usageNote": "[GF2021:L3:5708] Source entry: 木头; mùtou; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u16-w22",
+      "hanzi": "推开",
+      "pinyin": "tuī kāi",
+      "meaning": "to push open; push aside",
+      "meaningVi": "đẩy ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先推开门，再搬箱子。",
+        "py": "xiān tuī kāi mén , zài bān xiāng zi .",
+        "en": "Push the door open before moving the box."
+      },
+      "usageNote": "[GF2021:L3:8184] Source entry: 推开; tuīkāi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "搬",
+      "pinyin": "bān",
+      "meaning": "move; carry",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "搬",
+          "role": "whole",
+          "gloss": "move; carry"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 搬 in 搬 / 搬家. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "搬",
+          "p": "bān",
+          "m": "to move; carry"
+        },
+        {
+          "w": "搬家",
+          "p": "bān jiā",
+          "m": "to move house"
+        }
+      ]
+    },
+    {
+      "hanzi": "朝",
+      "pinyin": "cháo",
+      "meaning": "toward",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "朝",
+          "role": "whole",
+          "gloss": "toward"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 朝 in 朝. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "朝",
+          "p": "cháo",
+          "m": "toward; face"
+        }
+      ]
+    },
+    {
+      "hanzi": "底",
+      "pinyin": "dǐ",
+      "meaning": "bottom",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "底",
+          "role": "whole",
+          "gloss": "bottom"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 底 in 底下 / 到底. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "底下",
+          "p": "dǐ xià",
+          "m": "underneath; below"
+        },
+        {
+          "w": "到底",
+          "p": "dào dǐ",
+          "m": "after all; on earth"
+        }
+      ]
+    },
+    {
+      "hanzi": "箱",
+      "pinyin": "xiāng",
+      "meaning": "box",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "箱",
+          "role": "whole",
+          "gloss": "box"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 箱 in 音箱 / 箱子. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "音箱",
+          "p": "yīn xiāng",
+          "m": "speaker"
+        },
+        {
+          "w": "箱子",
+          "p": "xiāng zi",
+          "m": "box"
+        }
+      ]
+    },
+    {
+      "hanzi": "具",
+      "pinyin": "jù",
+      "meaning": "tool; equipment",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "具",
+          "role": "whole",
+          "gloss": "tool; equipment"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 具 in 家具 / 工具. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "家具",
+          "p": "jiā jù",
+          "m": "furniture"
+        },
+        {
+          "w": "工具",
+          "p": "gōng jù",
+          "m": "tool"
+        }
+      ]
+    },
+    {
+      "hanzi": "输",
+      "pinyin": "shū",
+      "meaning": "transport; lose",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "输",
+          "role": "whole",
+          "gloss": "transport; lose"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 输 in 运输. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "运输",
+          "p": "yùn shū",
+          "m": "transportation"
+        }
+      ]
+    },
+    {
+      "hanzi": "屋",
+      "pinyin": "wū",
+      "meaning": "room; house",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "屋",
+          "role": "whole",
+          "gloss": "room; house"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 屋 in 屋 / 屋里. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "屋",
+          "p": "wū",
+          "m": "room; house"
+        },
+        {
+          "w": "屋里",
+          "p": "wū lǐ",
+          "m": "inside the room"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u16-g三22",
+      "pattern": "朝 + 方向 / 目标",
+      "purpose": "Give a direction without claiming arrival",
+      "explanation": "朝门口走 names the direction of movement; it does not say the person has already reached the doorway. Compare 搬到门口, which specifies the resulting location. 朝这里走 depends on the speaker’s position. Verify which entrance or stairway is intended before moving a heavy object.",
+      "examples": [
+        {
+          "zh": "朝门口走。",
+          "py": "cháo mén kǒu zǒu .",
+          "en": "Walk toward the doorway."
+        },
+        {
+          "zh": "朝这里走，先别上楼。",
+          "py": "cháo zhè lǐ zǒu , xiān bié shàng lóu .",
+          "en": "Walk this way; do not go upstairs yet."
+        },
+        {
+          "zh": "搬到门口，再停下。",
+          "py": "bān dào mén kǒu , zài tíng xià .",
+          "en": "Move it to the doorway and then stop."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "朝门口走了，所以已经到门口了。",
+          "right": "朝门口走了，还没说是否到达。",
+          "why": "Direction of motion does not establish the endpoint."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u16-g三47",
+      "pattern": "出来 / 出去 / 过来 / 过去 / 回来 / 回去 / 进来 / 进去 / 起来 / 上来 / 上去 / 下来 / 下去",
+      "purpose": "Interpret compound directional complements",
+      "explanation": "来 generally directs movement toward the reference speaker, 去 away. 我在二楼，你上来 contrasts with 我在一楼，你上去. 出/进 locate movement across a boundary, 回 indicates returning, 过 crossing toward or away from a point. 起来 can mean upward movement, not necessarily toward the speaker. With a location keep it before 来/去: 搬到门口来. Ask for the reference position when unclear; do not give dangerous lifting instructions.",
+      "examples": [
+        {
+          "zh": "我在二楼，你上来。",
+          "py": "wǒ zài èr lóu , nǐ shàng lái .",
+          "en": "I am on the second floor; come up."
+        },
+        {
+          "zh": "我在一楼，你先上去。",
+          "py": "wǒ zài yī lóu , nǐ xiān shàng qù .",
+          "en": "I am on the first floor; go up first."
+        },
+        {
+          "zh": "把轻箱子搬到门口来，再把工具拿进去。",
+          "py": "bǎ qīng xiāng zi bān dào mén kǒu lái , zài bǎ gōng jù ná jìn qù .",
+          "en": "Bring the light box to the doorway, then take the tools inside."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我在二楼，你从一楼下来找我。",
+          "right": "我在二楼，你从一楼上来找我。",
+          "why": "Align upward or downward movement with the actual floors."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u16-d",
+    "title": "A light box and a heavy box",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Track the floor and the speaker’s position.",
+    "lines": [
+      {
+        "zh": "你在哪儿？箱子朝哪里搬？",
+        "py": "nǐ zài nǎr ? xiāng zi cháo nǎ lǐ bān ?",
+        "en": "Where are you? Which way should the boxes be moved?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我在一楼门口。先把轻箱子搬过来。",
+        "py": "wǒ zài yī lóu mén kǒu . xiān bǎ qīng xiāng zi bān guò lái .",
+        "en": "I am at the first-floor doorway. Bring the light box over first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "后面那个比较重，也搬过来吗？",
+        "py": "hòu miàn nà gè bǐ jiào zhòng , yě bān guò lái ma ?",
+        "en": "The one behind is heavier; bring it over too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先别动，等两个人一起抬。出口不能挡住。",
+        "py": "xiān bié dòng , děng liǎng gè rén yì qǐ tái . chū kǒu bù néng dǎng zhù .",
+        "en": "Leave it for now; wait for two people to lift it together. Do not block the exit.",
+        "speaker": "b"
+      },
+      {
+        "zh": "轻箱子里面是什么？",
+        "py": "qīng xiāng zi lǐ miàn shì shén me ?",
+        "en": "What is inside the light box?",
+        "speaker": "a"
+      },
+      {
+        "zh": "书和安装工具。工具先拿进去，书先放在门口。",
+        "py": "shū hé ān zhuāng gōng jù . gōng jù xiān ná jìn qù , shū xiān fàng zài mén kǒu .",
+        "en": "Books and installation tools. Take the tools inside first; leave the books at the doorway for now.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我现在上去吗？",
+        "py": "wǒ xiàn zài shàng qù ma ?",
+        "en": "Should I go upstairs now?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先在一楼等。桌子安装好以后再上去。",
+        "py": "xiān zài yī lóu děng . zhuō zi ān zhuāng hǎo yǐ hòu zài shàng qù .",
+        "en": "Wait on the first floor for now. Go upstairs after the desk is installed.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What determines the movement?",
+        "choices": [
+          "The speaker’s location and the stated sequence",
+          "Every box going upstairs immediately",
+          "The label alone proving weight"
+        ],
+        "answer": "The speaker’s location and the stated sequence"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the speaker?",
+        "choices": [
+          "At the first-floor doorway",
+          "On the second floor",
+          "Outside in the rain"
+        ],
+        "answer": "At the first-floor doorway"
+      },
+      {
+        "type": "inference",
+        "q": "Should one move the heavier box alone now?",
+        "choices": [
+          "No, wait for help",
+          "Yes, immediately",
+          "Only because it is behind"
+        ],
+        "answer": "No, wait for help"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "箱子",
+        "pinyin": "xiāng zi",
+        "meaning": "box"
+      },
+      {
+        "hanzi": "门口",
+        "pinyin": "mén kǒu",
+        "meaning": "doorway"
+      },
+      {
+        "hanzi": "重",
+        "pinyin": "zhòng",
+        "meaning": "heavy"
+      },
+      {
+        "hanzi": "轻",
+        "pinyin": "qīng",
+        "meaning": "light"
+      },
+      {
+        "hanzi": "抬",
+        "pinyin": "tái",
+        "meaning": "to lift together"
+      },
+      {
+        "hanzi": "出口",
+        "pinyin": "chū kǒu",
+        "meaning": "exit"
+      },
+      {
+        "hanzi": "挡住",
+        "pinyin": "dǎng zhù",
+        "meaning": "to block"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u16-r",
+    "title": "First the tools, then the furniture",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the movement sequence without reversing directions.",
+    "lines": [
+      {
+        "zh": "我在一楼门口，请先朝这里走。",
+        "py": "wǒ zài yī lóu mén kǒu , qǐng xiān cháo zhè lǐ zǒu .",
+        "en": "I am at the first-floor doorway; walk this way first."
+      },
+      {
+        "zh": "轻箱子先搬过来，重箱子暂时不动。",
+        "py": "qīng xiāng zi xiān bān guò lái , zhòng xiāng zi zàn shí bù dòng .",
+        "en": "Bring the light box over first; leave the heavy box for now."
+      },
+      {
+        "zh": "箱子底下没有轮子，重箱子等两个人一起抬。",
+        "py": "xiāng zi dǐ xià méi yǒu lún zi , zhòng xiāng zi děng liǎng gè rén yì qǐ tái .",
+        "en": "There are no wheels beneath the box; wait for two people to lift the heavy box together."
+      },
+      {
+        "zh": "小箱子里面是工具，先拿进去；书先放在门口。",
+        "py": "xiǎo xiāng zi lǐ miàn shì gōng jù , xiān ná jìn qù ; shū xiān fàng zài mén kǒu .",
+        "en": "The small box contains tools; take them inside first, leaving the books at the doorway."
+      },
+      {
+        "zh": "背包可以背起来，箱子要装好，运输时不能散开。",
+        "py": "bēi bāo kě yǐ bēi qǐ lái , xiāng zi yào zhuāng hǎo , yùn shū shí bù néng sàn kāi .",
+        "en": "Carry the backpack on the back; pack the box properly so it does not come apart in transport."
+      },
+      {
+        "zh": "前面是入口，后面是出口，家具不能挡住出口。",
+        "py": "qián miàn shì rù kǒu , hòu miàn shì chū kǒu , jiā jù bù néng dǎng zhù chū kǒu .",
+        "en": "The entrance is in front and the exit behind; furniture must not block the exit."
+      },
+      {
+        "zh": "桌子还没安装好，先在一楼等，不要把书搬上去。",
+        "py": "zhuō zi hái méi ān zhuāng hǎo , xiān zài yī lóu děng , bú yào bǎ shū bān shàng qù .",
+        "en": "The desk is not yet installed; wait downstairs and do not carry the books up yet."
+      },
+      {
+        "zh": "外面下雨，木头和下面的纸都先留在屋里。",
+        "py": "wài miàn xià yǔ , mù tou hé xià miàn de zhǐ dōu xiān liú zài wū lǐ .",
+        "en": "It is raining outside; leave the wood and paper underneath indoors for now."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the note asking readers to follow?",
+        "choices": [
+          "An ordered sequence with a clear reference location",
+          "All objects out into the rain",
+          "A claim that every box is light"
+        ],
+        "answer": "An ordered sequence with a clear reference location"
+      },
+      {
+        "type": "detail",
+        "q": "What goes inside first?",
+        "choices": [
+          "The tools",
+          "The heavy box alone",
+          "Every book upstairs"
+        ],
+        "answer": "The tools"
+      },
+      {
+        "type": "inference",
+        "q": "Does 朝这里走 mean arrival is complete?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only on the first floor"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "轻箱子先【搬】过来，重箱子暂时不动。",
+          "py": "qīng xiāng zi xiān bān guò lái , zhòng xiāng zi zàn shí bù dòng .",
+          "en": "Bring the light box over first; leave the heavy box for now."
+        },
+        {
+          "zh": "小箱子里面是【工具】，先拿进去；书先放在门口。",
+          "py": "xiǎo xiāng zi lǐ miàn shì gōng jù , xiān ná jìn qù ; shū xiān fàng zài mén kǒu .",
+          "en": "The small box contains tools; take them inside first, leaving the books at the doorway."
+        }
+      ],
+      "bank": [
+        "搬",
+        "工具",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "箱子",
+        "pinyin": "xiāng zi",
+        "meaning": "box"
+      },
+      {
+        "hanzi": "门口",
+        "pinyin": "mén kǒu",
+        "meaning": "doorway"
+      },
+      {
+        "hanzi": "重",
+        "pinyin": "zhòng",
+        "meaning": "heavy"
+      },
+      {
+        "hanzi": "轻",
+        "pinyin": "qīng",
+        "meaning": "light"
+      },
+      {
+        "hanzi": "抬",
+        "pinyin": "tái",
+        "meaning": "to lift together"
+      },
+      {
+        "hanzi": "出口",
+        "pinyin": "chū kǒu",
+        "meaning": "exit"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      },
+      {
+        "hanzi": "运输",
+        "pinyin": "yùn shū",
+        "meaning": "transportation"
+      },
+      {
+        "hanzi": "背包",
+        "pinyin": "bēi bāo",
+        "meaning": "backpack"
+      },
+      {
+        "hanzi": "屋里",
+        "pinyin": "wū lǐ",
+        "meaning": "inside the room"
+      },
+      {
+        "hanzi": "挡住",
+        "pinyin": "dǎng zhù",
+        "meaning": "to block"
+      },
+      {
+        "hanzi": "轮子",
+        "pinyin": "lún zi",
+        "meaning": "wheel"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u16-media",
+      "title": "The box has no legs",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about asking for help.",
+      "lines": [
+        {
+          "zh": "我让箱子过来，它怎么不动？",
+          "py": "wǒ ràng xiāng zi guò lái , tā zěn me bù dòng ?",
+          "en": "I told the box to come over; why is it not moving?",
+          "speaker": "a"
+        },
+        {
+          "zh": "它没有腿，你也不用假装有四只手。",
+          "py": "tā méi yǒu tuǐ , nǐ yě bù yòng jiǎ zhuāng yǒu sì zhǐ shǒu .",
+          "en": "It has no legs; you need not pretend to have four hands either.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那重的先不动，等人帮忙。",
+          "py": "nà zhòng de xiān bù dòng , děng rén bāng máng .",
+          "en": "Then leave the heavy one and wait for help.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次方向和力气都算对了。",
+          "py": "zhè cì fāng xiàng hé lì qì dōu suàn duì le .",
+          "en": "This time both the direction and the strength are accounted for.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the joke encourage?",
+          "choices": [
+            "Waiting for suitable help",
+            "Moving every heavy box alone",
+            "Blocking the exit"
+          ],
+          "answer": "Waiting for suitable help"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "箱子",
+          "pinyin": "xiāng zi",
+          "meaning": "box"
+        },
+        {
+          "hanzi": "重",
+          "pinyin": "zhòng",
+          "meaning": "heavy"
+        }
+      ]
+    },
+    {
+      "id": "s3-u16-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "搬家先确认新地址。",
+          "py": "bān jiā xiān què rèn xīn dì zhǐ .",
+          "en": "Confirm the new address before moving house."
+        },
+        {
+          "zh": "朋友搬家了，做客前再确认地址。",
+          "py": "péng you bān jiā le , zuò kè qián zài què rèn dì zhǐ .",
+          "en": "The friend moved house; confirm the address before visiting."
+        },
+        {
+          "zh": "轻背包可以背起来。",
+          "py": "qīng bēi bāo kě yǐ bēi qǐ lái .",
+          "en": "The light backpack can be carried on the back."
+        },
+        {
+          "zh": "背后的门不要挡住。",
+          "py": "bèi hòu de mén bú yào dǎng zhù .",
+          "en": "Do not block the door behind you."
+        },
+        {
+          "zh": "我背后有出口，箱子先别放这里。",
+          "py": "wǒ bèi hòu yǒu chū kǒu , xiāng zi xiān bié fàng zhè lǐ .",
+          "en": "There is an exit behind me; do not put the box here yet."
+        },
+        {
+          "zh": "外面下雨，先别搬出去。",
+          "py": "wài miàn xià yǔ , xiān bié bān chū qù .",
+          "en": "It is raining outside; do not move it out yet."
+        },
+        {
+          "zh": "上面写着轻，不代表里面没有东西。",
+          "py": "shàng miàn xiě zhe qīng , bù dài biǎo lǐ miàn méi yǒu dōng xi .",
+          "en": "Light is written on top; it does not mean nothing is inside."
+        },
+        {
+          "zh": "箱子上面有字，先读清楚再搬。",
+          "py": "xiāng zi shàng miàn yǒu zì , xiān dú qīng chǔ zài bān .",
+          "en": "There is writing on top of the box; read it clearly before moving it."
+        },
+        {
+          "zh": "下面的纸不要压住。",
+          "py": "xià miàn de zhǐ bú yào yā zhù .",
+          "en": "Do not pin down the paper underneath."
+        },
+        {
+          "zh": "前面是入口，出口在后面。",
+          "py": "qián miàn shì rù kǒu , chū kǒu zài hòu miàn .",
+          "en": "The entrance is in front; the exit is at the back."
+        },
+        {
+          "zh": "你先上来，我在二楼。",
+          "py": "nǐ xiān shàng lái , wǒ zài èr lóu .",
+          "en": "Come up first; I am on the second floor."
+        },
+        {
+          "zh": "你下来吧，我在一楼。",
+          "py": "nǐ xià lái ba , wǒ zài yī lóu .",
+          "en": "Come down; I am on the first floor."
+        },
+        {
+          "zh": "我在一楼，你从二楼下来找我。",
+          "py": "wǒ zài yī lóu , nǐ cóng èr lóu xià lái zhǎo wǒ .",
+          "en": "I am on the first floor; come down from the second to find me."
+        },
+        {
+          "zh": "你先下去，我在二楼等。",
+          "py": "nǐ xiān xià qù , wǒ zài èr lóu děng .",
+          "en": "Go down first; I will wait on the second floor."
+        },
+        {
+          "zh": "我还在二楼，你先下去开门。",
+          "py": "wǒ hái zài èr lóu , nǐ xiān xià qù kāi mén .",
+          "en": "I am still upstairs; go down first and open the door."
+        },
+        {
+          "zh": "运输前先把箱子装好。",
+          "py": "yùn shū qián xiān bǎ xiāng zi zhuāng hǎo .",
+          "en": "Pack the boxes properly before transport."
+        },
+        {
+          "zh": "这块木头不是座位。",
+          "py": "zhè kuài mù tou bù shì zuò wèi .",
+          "en": "This piece of wood is not a seat."
+        },
+        {
+          "zh": "先推开门，再搬箱子。",
+          "py": "xiān tuī kāi mén , zài bān xiāng zi .",
+          "en": "Push the door open before moving the box."
+        },
+        {
+          "zh": "门能推开，但出口还要保持空着。",
+          "py": "mén néng tuī kāi , dàn chū kǒu hái yào bǎo chí kōng zhe .",
+          "en": "The door can be pushed open, but the exit still needs to stay clear."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "箱子",
+          "pinyin": "xiāng zi",
+          "meaning": "box"
+        },
+        {
+          "hanzi": "轻",
+          "pinyin": "qīng",
+          "meaning": "light"
+        },
+        {
+          "hanzi": "出口",
+          "pinyin": "chū kǒu",
+          "meaning": "exit"
+        },
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        },
+        {
+          "hanzi": "运输",
+          "pinyin": "yùn shū",
+          "meaning": "transportation"
+        },
+        {
+          "hanzi": "背包",
+          "pinyin": "bēi bāo",
+          "meaning": "backpack"
+        },
+        {
+          "hanzi": "挡住",
+          "pinyin": "dǎng zhù",
+          "meaning": "to block"
+        },
+        {
+          "hanzi": "压住",
+          "pinyin": "yā zhù",
+          "meaning": "to press down on"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u16-t1",
+      "phrase": "s3-u16-w13",
+      "audio": {
+        "zh": "我在二楼，你上来。",
+        "py": "wǒ zài èr lóu , nǐ shàng lái .",
+        "en": "I am on the second floor; come up."
+      },
+      "statement": "Movement is toward the speaker on the second floor.",
+      "answer": true,
+      "why": "来 uses the speaker as the reference."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u16-t2",
+      "phrase": "s3-u16-w20",
+      "audio": {
+        "zh": "工具先拿进去，书先放在门口。",
+        "py": "gōng jù xiān ná jìn qù , shū xiān fàng zài mén kǒu .",
+        "en": "Take the tools in first; leave books at the doorway."
+      },
+      "statement": "Books go upstairs first.",
+      "answer": false,
+      "why": "Tools go inside; books stay by the doorway."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u16-t3",
+      "phrase": "s3-u16-w02",
+      "prompt": {
+        "zh": "重箱子现在一个人搬吗？",
+        "py": "zhòng xiāng zi xiàn zài yī gè rén bān ma ?",
+        "en": "Move the heavy box alone now?"
+      },
+      "choices": [
+        "先别动，等人一起抬。",
+        "出口挡住也可以。",
+        "箱子会自己上来。"
+      ],
+      "answer": "先别动，等人一起抬。",
+      "why": "Wait for appropriate help."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u16-t4",
+      "phrase": "s3-u16-w01",
+      "prompt": {
+        "zh": "你在一楼门口，我朝哪儿走？",
+        "py": "nǐ zài yī lóu mén kǒu , wǒ cháo nǎr zǒu ?",
+        "en": "You are at the first-floor doorway; which way should I walk?"
+      },
+      "choices": [
+        "朝一楼门口走。",
+        "先去二楼再下雨。",
+        "把工具当楼梯。"
+      ],
+      "answer": "朝一楼门口走。",
+      "why": "Name the actual target."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u16-t5",
+      "phrase": "s3-u16-w14",
+      "line": {
+        "zh": "先安装好，再【上去】。",
+        "py": "xiān ān zhuāng hǎo , zài shàng qù .",
+        "en": "Install it first, then go up."
+      },
+      "blankPy": "shàng qù"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u16-t6",
+      "phrase": "s3-u16-w07",
+      "line": {
+        "zh": "工具在小箱子【里面】。",
+        "py": "gōng jù zài xiǎo xiāng zi lǐ miàn .",
+        "en": "The tools are inside the small box."
+      },
+      "blankPy": "lǐ miàn"
+    },
+    {
+      "type": "match",
+      "id": "s3-u16-t7",
+      "phrase": "s3-u16-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "There are no wheels underneath the box.",
+          "right": {
+            "zh": "箱子底下没有轮子。",
+            "py": "xiāng zi dǐ xià méi yǒu lún zi .",
+            "en": "There are no wheels underneath the box."
+          }
+        },
+        {
+          "left": "I am downstairs; go up first.",
+          "right": {
+            "zh": "我在一楼，你先上去。",
+            "py": "wǒ zài yī lóu , nǐ xiān shàng qù .",
+            "en": "I am downstairs; go up first."
+          }
+        },
+        {
+          "left": "I am upstairs; come up.",
+          "right": {
+            "zh": "我在二楼，你上来。",
+            "py": "wǒ zài èr lóu , nǐ shàng lái .",
+            "en": "I am upstairs; come up."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u16-t8",
+      "phrase": "s3-u16-w19",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Furniture must not block the exit.",
+          "right": {
+            "zh": "家具不能挡住出口。",
+            "py": "jiā jù bù néng dǎng zhù chū kǒu .",
+            "en": "Furniture must not block the exit."
+          }
+        },
+        {
+          "left": "Take the tools inside first.",
+          "right": {
+            "zh": "先把工具拿进去。",
+            "py": "xiān bǎ gōng jù ná jìn qù .",
+            "en": "Take the tools inside first."
+          }
+        },
+        {
+          "left": "Leave the heavy box for now.",
+          "right": {
+            "zh": "重箱子暂时不动。",
+            "py": "zhòng xiāng zi zàn shí bù dòng .",
+            "en": "Leave the heavy box for now."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u16-t9",
+      "phrase": "s3-u16-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Usually walk on weekends; today walked only twenty minutes.",
+          "right": {
+            "zh": "通常周末散步，今天只走了二十分钟。",
+            "py": "tōng cháng zhōu mò sàn bù , jīn tiān zhǐ zǒu le èr shí fēn zhōng .",
+            "en": "Usually walk on weekends; today walked only twenty minutes."
+          }
+        },
+        {
+          "left": "Two consecutive days do not mean a year of perseverance.",
+          "right": {
+            "zh": "连续两天不等于坚持了一年。",
+            "py": "lián xù liǎng tiān bù děng yú jiān chí le yī nián .",
+            "en": "Two consecutive days do not mean a year of perseverance."
+          }
+        },
+        {
+          "left": "The event is not cancelled; only the room changed.",
+          "right": {
+            "zh": "活动并没有取消，只是换了房间。",
+            "py": "huó dòng bìng méi yǒu qǔ xiāo , zhǐ shì huàn le fáng jiān .",
+            "en": "The event is not cancelled; only the room changed."
+          }
+        },
+        {
+          "left": "Can an old picture really prove today’s cancellation?",
+          "right": {
+            "zh": "难道旧图片就能证明今天取消了吗？",
+            "py": "nán dào jiù tú piàn jiù néng zhèng míng jīn tiān qǔ xiāo le ma ?",
+            "en": "Can an old picture really prove today’s cancellation?"
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Clarify the reference",
+      "natural": {
+        "zh": "你在楼上还是楼下？",
+        "py": "nǐ zài lóu shàng hái shi lóu xià ?",
+        "en": "Are you upstairs or downstairs?"
+      },
+      "note": "Ask before interpreting 来 and 去."
+    },
+    {
+      "situation": "Set a safe boundary",
+      "natural": {
+        "zh": "这个太重，等人一起抬。",
+        "py": "zhè gè tài zhòng , děng rén yì qǐ tái .",
+        "en": "This is too heavy; wait for help lifting it."
+      },
+      "note": "The lesson does not teach lifting technique or promise a safe weight."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u16-speak",
+    "title": "Bring it over here",
+    "place": "A language-exchange meeting",
+    "context": "Give precise directions while moving things.",
+    "goal": "Interpret direction relative to the speaker",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "先搬哪个？",
+        "pinyin": "xiān bān nǎ gè ?",
+        "meaning": "Which should be moved first?",
+        "intent": "Follow the sequence",
+        "examples": [
+          "先搬轻箱子。"
+        ],
+        "accept": [
+          "^先搬轻箱子。[。！？]?$"
+        ]
+      },
+      {
+        "text": "书现在上去吗？",
+        "pinyin": "shū xiàn zài shàng qù ma ?",
+        "meaning": "Do the books go up now?",
+        "intent": "State the condition",
+        "examples": [
+          "先等桌子安装好。"
+        ],
+        "accept": [
+          "^先等桌子安装好。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三22, 三47. Native check: directional viewpoint, 上来/上去 and reference floor, 朝 versus 到 endpoint, 背 bēi versus bèi, 箱子运输 wording and informal four-hands joke. No specific safe-weight or lifting-technique claim. Native review pending. Planned retrieval 三15 / 三51 / 三19 / 三76: 通常周末散步，今天只走了二十分钟。, 连续两天不等于坚持了一年。, 活动并没有取消，只是换了房间。, 难道旧图片就能证明今天取消了吗？."
+}
