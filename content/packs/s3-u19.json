@@ -1,0 +1,1296 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u19",
+    "stage": 2,
+    "order": 83,
+    "title": "A proper apology",
+    "titleZh": "解释原因，不推责任",
+    "canDo": [
+      "Give a cause using 由于 / 因为",
+      "Offer a consequence and repair with 因此",
+      "Keep an explanation separate from an excuse"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u18"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u19-w01",
+      "hanzi": "由于",
+      "pinyin": "yóu yú",
+      "meaning": "because of; owing to",
+      "meaningVi": "do; bởi vì",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "由于地址写错，朋友走错了地方。",
+        "py": "yóu yú dì zhǐ xiě cuò , péng you zǒu cuò le dì fāng .",
+        "en": "Because the address was wrong, the friend went to the wrong place."
+      },
+      "usageNote": "[GF2021:L3:9837] Source entry: 由于; yóuyú; 介、连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w02",
+      "hanzi": "因此",
+      "pinyin": "yīn cǐ",
+      "meaning": "therefore; consequently",
+      "meaningVi": "vì vậy",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "地址错了，因此需要发新地址。",
+        "py": "dì zhǐ cuò le , yīn cǐ xū yào fā xīn dì zhǐ .",
+        "en": "The address is wrong; therefore a new one needs sending."
+      },
+      "usageNote": "[GF2021:L3:9675] Source entry: 因此; yīncǐ; 连. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w03",
+      "hanzi": "发生",
+      "pinyin": "fā shēng",
+      "meaning": "to happen; occur",
+      "meaningVi": "xảy ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "发生问题后，先说明情况。",
+        "py": "fā shēng wèn tí hòu , xiān shuō míng qíng kuàng .",
+        "en": "After a problem occurs, explain the situation first."
+      },
+      "usageNote": "[GF2021:L3:2154] Source entry: 发生; fāshēng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w04",
+      "hanzi": "事件",
+      "pinyin": "shì jiàn",
+      "meaning": "event; incident",
+      "meaningVi": "sự việc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这次事件需要记录经过。",
+        "py": "zhè cì shì jiàn xū yào jì lù jīng guò .",
+        "en": "This incident needs a record of what happened."
+      },
+      "usageNote": "[GF2021:L3:7300] Source entry: 事件; shìjiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w05",
+      "hanzi": "事故",
+      "pinyin": "shì gù",
+      "meaning": "accident",
+      "meaningVi": "tai nạn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "事故和普通迟到不是同一个词。",
+        "py": "shì gù hé pǔ tōng chí dào bù shì tóng yī gè cí .",
+        "en": "Accident and ordinary lateness are not the same word."
+      },
+      "usageNote": "[GF2021:L3:7297] Source entry: 事故; shìgù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w06",
+      "hanzi": "后果",
+      "pinyin": "hòu guǒ",
+      "meaning": "consequence",
+      "meaningVi": "hậu quả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "地址错误的后果是朋友多走了一段。",
+        "py": "dì zhǐ cuò wù de hòu guǒ shì péng you duō zǒu le yī duàn .",
+        "en": "The wrong address caused the friend to travel farther."
+      },
+      "usageNote": "[GF2021:L3:3373] Source entry: 后果; hòuguǒ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w07",
+      "hanzi": "反应",
+      "pinyin": "fǎn yìng",
+      "meaning": "reaction; response",
+      "meaningVi": "phản ứng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先听对方的反应，别急着解释。",
+        "py": "xiān tīng duì fāng de fǎn yìng , bié jí zhe jiě shì .",
+        "en": "Listen to the other person’s response before rushing to explain."
+      },
+      "usageNote": "[GF2021:L3:2221] Source entry: 反应; fǎnyìng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w08",
+      "hanzi": "表达",
+      "pinyin": "biǎo dá",
+      "meaning": "to express",
+      "meaningVi": "bày tỏ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "道歉要表达责任，不只是理由。",
+        "py": "dào qiàn yào biǎo dá zé rèn , bù zhǐ shì lǐ yóu .",
+        "en": "An apology should express responsibility, not just reasons."
+      },
+      "usageNote": "[GF2021:L3:439] Source entry: 表达; biǎodá; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w09",
+      "hanzi": "声明",
+      "pinyin": "shēng míng",
+      "meaning": "statement; to declare",
+      "meaningVi": "tuyên bố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "正式声明不能把错误写成对方的问题。",
+        "py": "zhèng shì shēng míng bù néng bǎ cuò wù xiě chéng duì fāng de wèn tí .",
+        "en": "A formal statement should not turn one’s error into the other party’s fault."
+      },
+      "usageNote": "[GF2021:L3:7142] Source entry: 声明; shēngmíng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w10",
+      "hanzi": "宣布",
+      "pinyin": "xuān bù",
+      "meaning": "to announce",
+      "meaningVi": "thông báo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "确认以后再宣布新地点。",
+        "py": "què rèn yǐ hòu zài xuān bù xīn dì diǎn .",
+        "en": "Announce the new venue after confirming it."
+      },
+      "usageNote": "[GF2021:L3:9169] Source entry: 宣布; xuānbù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w11",
+      "hanzi": "发送",
+      "pinyin": "fā sòng",
+      "meaning": "to send; transmit",
+      "meaningVi": "gửi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我现在发送正确地址。",
+        "py": "wǒ xiàn zài fā sòng zhèng què dì zhǐ .",
+        "en": "I am sending the correct address now."
+      },
+      "usageNote": "[GF2021:L3:2156] Source entry: 发送; fāsòng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w12",
+      "hanzi": "补",
+      "pinyin": "bǔ",
+      "meaning": "to supplement; make up for",
+      "meaningVi": "bù; bổ sung",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "漏掉的信息现在补上。",
+        "py": "lòu diào de xìn xī xiàn zài bǔ shàng .",
+        "en": "Add the omitted information now."
+      },
+      "usageNote": "[GF2021:L3:560] Source entry: 补; bǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w13",
+      "hanzi": "完善",
+      "pinyin": "wán shàn",
+      "meaning": "to improve; make complete",
+      "meaningVi": "hoàn thiện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "完善通知，不让别人再走错。",
+        "py": "wán shàn tōng zhī , bù ràng bié ren zài zǒu cuò .",
+        "en": "Improve the notice so others do not go the wrong way again."
+      },
+      "usageNote": "[GF2021:L3:8285] Source entry: 完善; wánshàn; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w14",
+      "hanzi": "注意",
+      "pinyin": "zhù yì",
+      "meaning": "to pay attention",
+      "meaningVi": "chú ý",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "下次发送前注意日期和地址。",
+        "py": "xià cì fā sòng qián zhù yì rì qī hé dì zhǐ .",
+        "en": "Next time pay attention to the date and address before sending."
+      },
+      "usageNote": "[GF2021:L3:10757] Source entry: 注意; zhù∥yì; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w15",
+      "hanzi": "奇怪",
+      "pinyin": "qí guài",
+      "meaning": "strange; odd",
+      "meaningVi": "kỳ lạ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "地址前后不同，让人觉得奇怪。",
+        "py": "dì zhǐ qián hòu bù tóng , ràng rén jué de qí guài .",
+        "en": "The inconsistent addresses seem strange."
+      },
+      "usageNote": "[GF2021:L3:6225] Source entry: 奇怪; qíguài; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w16",
+      "hanzi": "伤心",
+      "pinyin": "shāng xīn",
+      "meaning": "sad; hurt emotionally",
+      "meaningVi": "buồn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她有点伤心，因为道歉像是在怪她。",
+        "py": "tā yǒu diǎn shāng xīn , yīn wèi dào qiàn xiàng shì zài guài tā .",
+        "en": "She feels hurt because the apology sounds like blame."
+      },
+      "usageNote": "[GF2021:L3:6925] Source entry: 伤心; shāng∥xīn; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w17",
+      "hanzi": "伤",
+      "pinyin": "shāng",
+      "meaning": "injury; to hurt",
+      "meaningVi": "vết thương; làm bị thương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "没有人受伤，但时间被浪费了。",
+        "py": "méi yǒu rén shòu shāng , dàn shí jiān bèi làng fèi le .",
+        "en": "No one was injured, but time was wasted."
+      },
+      "usageNote": "[GF2021:L3:6916] Source entry: 伤; shāng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w18",
+      "hanzi": "失去",
+      "pinyin": "shī qù",
+      "meaning": "to lose",
+      "meaningVi": "mất đi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不要因为解释不清而失去信任。",
+        "py": "bú yào yīn wèi jiě shì bù qīng ér shī qù xìn rèn .",
+        "en": "Do not lose trust because of an unclear explanation."
+      },
+      "usageNote": "[GF2021:L3:7178] Source entry: 失去; shīqù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w19",
+      "hanzi": "消失",
+      "pinyin": "xiāo shī",
+      "meaning": "to disappear",
+      "meaningVi": "biến mất",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "消息消失了，也不能假装没发生。",
+        "py": "xiāo xī xiāo shī le , yě bù néng jiǎ zhuāng méi fā shēng .",
+        "en": "Even if the message disappears, do not pretend nothing happened."
+      },
+      "usageNote": "[GF2021:L3:8880] Source entry: 消失; xiāoshī; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w20",
+      "hanzi": "信任",
+      "pinyin": "xìn rèn",
+      "meaning": "to trust; trust",
+      "meaningVi": "tin tưởng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "修正错误以后，信任还要慢慢恢复。",
+        "py": "xiū zhèng cuò wù yǐ hòu , xìn rèn hái yào màn màn huī fù .",
+        "en": "After correcting the error, trust still takes time to recover."
+      },
+      "usageNote": "[GF2021:L3:9037] Source entry: 信任; xìnrèn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w21",
+      "hanzi": "对待",
+      "pinyin": "duì dài",
+      "meaning": "to treat; deal with",
+      "meaningVi": "đối xử",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "认真对待朋友的时间。",
+        "py": "rèn zhēn duì dài péng you de shí jiān .",
+        "en": "Treat a friend’s time seriously."
+      },
+      "usageNote": "[GF2021:L3:2025] Source entry: 对待; duìdài; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u19-w22",
+      "hanzi": "相关",
+      "pinyin": "xiāng guān",
+      "meaning": "related; relevant",
+      "meaningVi": "liên quan",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把相关信息一次发清楚。",
+        "py": "bǎ xiāng guān xìn xī yī cì fā qīng chǔ .",
+        "en": "Send all relevant information clearly at once."
+      },
+      "usageNote": "[GF2021:L3:8803] Source entry: 相关; xiāngguān; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "补",
+      "pinyin": "bǔ",
+      "meaning": "supplement",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "补",
+          "role": "whole",
+          "gloss": "supplement"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 补 in 补 / 补写. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "补",
+          "p": "bǔ",
+          "m": "to supplement; make up for"
+        },
+        {
+          "w": "补写",
+          "p": "bǔ xiě",
+          "m": "to add missing writing"
+        }
+      ]
+    },
+    {
+      "hanzi": "怪",
+      "pinyin": "guài",
+      "meaning": "strange; blame",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "怪",
+          "role": "whole",
+          "gloss": "strange; blame"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 怪 in 奇怪. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "奇怪",
+          "p": "qí guài",
+          "m": "strange; odd"
+        }
+      ]
+    },
+    {
+      "hanzi": "失",
+      "pinyin": "shī",
+      "meaning": "lose",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "失",
+          "role": "whole",
+          "gloss": "lose"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 失 in 失去 / 消失. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "失去",
+          "p": "shī qù",
+          "m": "to lose"
+        },
+        {
+          "w": "消失",
+          "p": "xiāo shī",
+          "m": "to disappear"
+        }
+      ]
+    },
+    {
+      "hanzi": "伤",
+      "pinyin": "shāng",
+      "meaning": "hurt",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "伤",
+          "role": "whole",
+          "gloss": "hurt"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 伤 in 伤心 / 伤. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "伤心",
+          "p": "shāng xīn",
+          "m": "sad; hurt emotionally"
+        },
+        {
+          "w": "伤",
+          "p": "shāng",
+          "m": "injury; to hurt"
+        }
+      ]
+    },
+    {
+      "hanzi": "乱",
+      "pinyin": "luàn",
+      "meaning": "disorder; confuse",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "乱",
+          "role": "whole",
+          "gloss": "disorder; confuse"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 乱 in 乱 / 弄乱. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "乱",
+          "p": "luàn",
+          "m": "carelessly; without order"
+        },
+        {
+          "w": "弄乱",
+          "p": "nòng luàn",
+          "m": "to mess up"
+        }
+      ]
+    },
+    {
+      "hanzi": "善",
+      "pinyin": "shàn",
+      "meaning": "good; improve",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "善",
+          "role": "whole",
+          "gloss": "good; improve"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 善 in 完善. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "完善",
+          "p": "wán shàn",
+          "m": "to improve; make complete"
+        }
+      ]
+    },
+    {
+      "hanzi": "消",
+      "pinyin": "xiāo",
+      "meaning": "disappear; consume",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "消",
+          "role": "whole",
+          "gloss": "disappear; consume"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 消 in 消失 / 消息. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "消失",
+          "p": "xiāo shī",
+          "m": "to disappear"
+        },
+        {
+          "w": "消息",
+          "p": "xiāo xī",
+          "m": "message; news"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u19-g三25",
+      "pattern": "由于 / 因为",
+      "purpose": "Identify the actual cause",
+      "explanation": "由于地址写错 can introduce a cause noun phrase or clause. 因为我写错地址 directly identifies an agent and cause. 由于 is often more written; do not use it to obscure responsibility. A cause can explain a delay without excusing it. This unit concerns an incorrect address, not a real accident.",
+      "examples": [
+        {
+          "zh": "由于地址写错，朋友走错了地方。",
+          "py": "yóu yú dì zhǐ xiě cuò , péng you zǒu cuò le dì fāng .",
+          "en": "Because the address was wrong, the friend went to the wrong place."
+        },
+        {
+          "zh": "因为我写错地址，你多走了一段。",
+          "py": "yīn wèi wǒ xiě cuò dì zhǐ , nǐ duō zǒu le yī duàn .",
+          "en": "Because I wrote the wrong address, you travelled farther."
+        },
+        {
+          "zh": "因为没核对，我发了旧通知。",
+          "py": "yīn wèi méi hé duì , wǒ fā le jiù tōng zhī .",
+          "en": "Because I did not check, I sent the old notice."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "由于你看了我写错的地址，所以是你的问题。",
+          "right": "因为我写错地址，让你多走了一段，对不起。",
+          "why": "Name the actual cause without shifting responsibility."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u19-g三71",
+      "pattern": "（由于）……，所以 / 因此……",
+      "purpose": "Connect cause and consequence without inventing completion",
+      "explanation": "由于地址错了，因此需要发新地址 states a consequence and needed action, not proof that the new address has been sent. Compare 已经发送 with 现在要发送. 因此 is a concise written connector; 所以 is frequent conversationally. The consequence should follow from the stated cause, not from blame unrelated to the facts.",
+      "examples": [
+        {
+          "zh": "地址错了，所以朋友多走了一段。",
+          "py": "dì zhǐ cuò le , suǒ yǐ péng you duō zǒu le yī duàn .",
+          "en": "The address was wrong, so the friend travelled farther."
+        },
+        {
+          "zh": "我漏了门牌号，因此现在补上。",
+          "py": "wǒ lòu le mén pái hào , yīn cǐ xiàn zài bǔ shàng .",
+          "en": "I omitted the building number, so I add it now."
+        },
+        {
+          "zh": "由于通知有错，所以先停止传播旧通知。",
+          "py": "yóu yú tōng zhī yǒu cuò , suǒ yǐ xiān tíng zhǐ chuán bō jiù tōng zhī .",
+          "en": "Because the notice is wrong, stop circulating the old one first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "需要补上，所以已经补好了。",
+          "right": "需要补上，因此我现在补。",
+          "why": "A necessary repair is not evidence of a completed repair."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u19-d",
+    "title": "The apology is not a defence speech",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the error, the consequence and the actual repair.",
+    "lines": [
+      {
+        "zh": "你怎么到了另一个门口？",
+        "py": "nǐ zěn me dào le lìng yī gè mén kǒu ?",
+        "en": "How did you end up at the other entrance?",
+        "speaker": "a"
+      },
+      {
+        "zh": "你发的地址是旧的，我多走了一段。",
+        "py": "nǐ fā de dì zhǐ shì jiù de , wǒ duō zǒu le yī duàn .",
+        "en": "The address you sent was old, and I travelled farther.",
+        "speaker": "b"
+      },
+      {
+        "zh": "对不起，因为我没核对，发了旧地址。",
+        "py": "duì bù qǐ , yīn wèi wǒ méi hé duì , fā le jiù dì zhǐ .",
+        "en": "Sorry; because I did not check, I sent the old address.",
+        "speaker": "a"
+      },
+      {
+        "zh": "刚才你只说我应该早一点出发，我有点伤心。",
+        "py": "gāng cái nǐ zhǐ shuō wǒ yīng gāi zǎo yī diǎn chū fā , wǒ yǒu diǎn shāng xīn .",
+        "en": "Just now you only said I should have left earlier; I felt a little hurt.",
+        "speaker": "b"
+      },
+      {
+        "zh": "是我的错误，不是你的问题。我现在发正确地址。",
+        "py": "shì wǒ de cuò wù , bù shì nǐ de wèn tí . wǒ xiàn zài fā zhèng què dì zhǐ .",
+        "en": "It was my error, not your fault. I will send the correct address now.",
+        "speaker": "a"
+      },
+      {
+        "zh": "还有门牌号，别漏了。",
+        "py": "hái yǒu mén pái hào , bié lòu le .",
+        "en": "Include the building number too; do not omit it.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，相关信息一起发。下次发送前再核对。",
+        "py": "hǎo , xiāng guān xìn xī yì qǐ fā . xià cì fā sòng qián zài hé duì .",
+        "en": "Okay; I will send the relevant information together and check again before sending next time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢，先把通知改好。",
+        "py": "xiè xiè , xiān bǎ tōng zhī gǎi hǎo .",
+        "en": "Thanks; correct the notice first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What makes the second apology more useful?",
+        "choices": [
+          "It accepts responsibility and proposes a concrete repair",
+          "It blames earlier departure",
+          "It claims the old address never existed"
+        ],
+        "answer": "It accepts responsibility and proposes a concrete repair"
+      },
+      {
+        "type": "detail",
+        "q": "Why did the friend travel farther?",
+        "choices": [
+          "The sent address was old",
+          "She refused the new address",
+          "The event was cancelled"
+        ],
+        "answer": "The sent address was old"
+      },
+      {
+        "type": "inference",
+        "q": "Has future checking already prevented every error?",
+        "choices": [
+          "No, it is a future intention",
+          "Yes",
+          "Only if the message disappears"
+        ],
+        "answer": "No, it is a future intention"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "门牌号",
+        "pinyin": "mén pái hào",
+        "meaning": "building or house number"
+      },
+      {
+        "hanzi": "漏",
+        "pinyin": "lòu",
+        "meaning": "to omit; leak"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u19-r",
+    "title": "A cause and a responsibility",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read what is known and what remains to be done.",
+    "lines": [
+      {
+        "zh": "由于我没核对地址，朋友到了旧门口，多走了一段。",
+        "py": "yóu yú wǒ méi hé duì dì zhǐ , péng you dào le jiù mén kǒu , duō zǒu le yī duàn .",
+        "en": "Because I did not check the address, my friend reached the old entrance and travelled farther."
+      },
+      {
+        "zh": "这次事件没有人受伤，但朋友的时间被浪费了。",
+        "py": "zhè cì shì jiàn méi yǒu rén shòu shāng , dàn péng you de shí jiān bèi làng fèi le .",
+        "en": "No one was injured in this incident, but the friend’s time was wasted."
+      },
+      {
+        "zh": "我先听她的反应，再表达道歉，不把后果当她的问题。",
+        "py": "wǒ xiān tīng tā de fǎn yìng , zài biǎo dá dào qiàn , bù bǎ hòu guǒ dāng tā de wèn tí .",
+        "en": "I listen to her response before apologizing, without treating the consequence as her fault."
+      },
+      {
+        "zh": "通知漏了门牌号，因此现在补上并发送正确地址。",
+        "py": "tōng zhī lòu le mén pái hào , yīn cǐ xiàn zài bǔ shàng bìng fā sòng zhèng què dì zhǐ .",
+        "en": "The notice omitted the building number, so I add it now and send the correct address."
+      },
+      {
+        "zh": "发生了错误，消息消失也不能假装没发生。",
+        "py": "fā shēng le cuò wù , xiāo xī xiāo shī yě bù néng jiǎ zhuāng méi fā shēng .",
+        "en": "An error happened; even if the message disappears, do not pretend it did not happen."
+      },
+      {
+        "zh": "旧通知需要修正，不能宣布一个未经确认的新地点。",
+        "py": "jiù tōng zhī xū yào xiū zhèng , bù néng xuān bù yī gè wèi jīng què rèn de xīn dì diǎn .",
+        "en": "The old notice needs correcting; do not announce an unconfirmed new venue."
+      },
+      {
+        "zh": "我把信息弄乱了，就要认真对待修正，不急着说信任已经恢复。",
+        "py": "wǒ bǎ xìn xī nòng luàn le , jiù yào rèn zhēn duì dài xiū zhèng , bù jí zhe shuō xìn rèn yǐ jīng huī fù .",
+        "en": "I confused the information and must take correction seriously, without rushing to say trust has already recovered."
+      },
+      {
+        "zh": "完善通知是一次修正，下次发送前还要注意核对。",
+        "py": "wán shàn tōng zhī shì yī cì xiū zhèng , xià cì fā sòng qián hái yào zhù yì hé duì .",
+        "en": "Improving the notice is one repair; next time still check before sending."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the record contain?",
+        "choices": [
+          "Cause, consequence and concrete correction",
+          "An excuse that erases responsibility",
+          "An invented accident"
+        ],
+        "answer": "Cause, consequence and concrete correction"
+      },
+      {
+        "type": "detail",
+        "q": "Was anyone injured?",
+        "choices": [
+          "No",
+          "Yes, the friend",
+          "The statement does not say"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Does deleting a message erase the incident?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if the old notice is gone"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "【由于】我没核对地址，朋友到了旧门口，多走了一段。",
+          "py": "yóu yú wǒ méi hé duì dì zhǐ , péng you dào le jiù mén kǒu , duō zǒu le yī duàn .",
+          "en": "Because I did not check the address, my friend reached the old entrance and travelled farther."
+        },
+        {
+          "zh": "通知漏了门牌号，【因此】现在补上并发送正确地址。",
+          "py": "tōng zhī lòu le mén pái hào , yīn cǐ xiàn zài bǔ shàng bìng fā sòng zhèng què dì zhǐ .",
+          "en": "The notice omitted the building number, so I add it now and send the correct address."
+        }
+      ],
+      "bank": [
+        "由于",
+        "因此",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "道歉",
+        "pinyin": "dào qiàn",
+        "meaning": "to apologize"
+      },
+      {
+        "hanzi": "弄乱",
+        "pinyin": "nòng luàn",
+        "meaning": "to mess up"
+      },
+      {
+        "hanzi": "受伤",
+        "pinyin": "shòu shāng",
+        "meaning": "to be injured"
+      },
+      {
+        "hanzi": "门牌号",
+        "pinyin": "mén pái hào",
+        "meaning": "building or house number"
+      },
+      {
+        "hanzi": "漏",
+        "pinyin": "lòu",
+        "meaning": "to omit; leak"
+      },
+      {
+        "hanzi": "被浪费",
+        "pinyin": "bèi làng fèi",
+        "meaning": "to be wasted"
+      },
+      {
+        "hanzi": "恢复",
+        "pinyin": "huī fù",
+        "meaning": "to recover; restore"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u19-media",
+      "title": "An apology does not need a scoreboard",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about blame.",
+      "lines": [
+        {
+          "zh": "可是我也等了五分钟。",
+          "py": "kě shì wǒ yě děng le wǔ fēn zhōng .",
+          "en": "But I waited five minutes too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我们先改地址，不先比谁等得久。",
+          "py": "wǒ men xiān gǎi dì zhǐ , bù xiān bǐ shéi děng dé jiǔ .",
+          "en": "Let us correct the address first, not compete over who waited longer.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，是我发错了。",
+          "py": "hǎo , shì wǒ fā cuò le .",
+          "en": "Okay; I sent it incorrectly.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这句比五分钟有用。",
+          "py": "zhè jù bǐ wǔ fēn zhōng yǒu yòng .",
+          "en": "That sentence is more useful than the five minutes.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is prioritized?",
+          "choices": [
+            "Accepting the error and correcting it",
+            "Winning a waiting contest",
+            "Deleting the evidence"
+          ],
+          "answer": "Accepting the error and correcting it"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u19-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "发生问题后，先说明情况。",
+          "py": "fā shēng wèn tí hòu , xiān shuō míng qíng kuàng .",
+          "en": "After a problem occurs, explain the situation first."
+        },
+        {
+          "zh": "这次事件需要记录经过。",
+          "py": "zhè cì shì jiàn xū yào jì lù jīng guò .",
+          "en": "This incident needs a record of what happened."
+        },
+        {
+          "zh": "事故和普通迟到不是同一个词。",
+          "py": "shì gù hé pǔ tōng chí dào bù shì tóng yī gè cí .",
+          "en": "Accident and ordinary lateness are not the same word."
+        },
+        {
+          "zh": "只是地址写错，没有发生事故。",
+          "py": "zhǐ shì dì zhǐ xiě cuò , méi yǒu fā shēng shì gù .",
+          "en": "Only the address was written incorrectly; no accident occurred."
+        },
+        {
+          "zh": "地址错误的后果是朋友多走了一段。",
+          "py": "dì zhǐ cuò wù de hòu guǒ shì péng you duō zǒu le yī duàn .",
+          "en": "The wrong address caused the friend to travel farther."
+        },
+        {
+          "zh": "道歉要表达责任，不只是理由。",
+          "py": "dào qiàn yào biǎo dá zé rèn , bù zhǐ shì lǐ yóu .",
+          "en": "An apology should express responsibility, not just reasons."
+        },
+        {
+          "zh": "正式声明不能把错误写成对方的问题。",
+          "py": "zhèng shì shēng míng bù néng bǎ cuò wù xiě chéng duì fāng de wèn tí .",
+          "en": "A formal statement should not turn one’s error into the other party’s fault."
+        },
+        {
+          "zh": "这份声明写清楚谁发错了地址。",
+          "py": "zhè fèn shēng míng xiě qīng chǔ shéi fā cuò le dì zhǐ .",
+          "en": "This statement makes clear who sent the wrong address."
+        },
+        {
+          "zh": "确认以后再宣布新地点。",
+          "py": "què rèn yǐ hòu zài xuān bù xīn dì diǎn .",
+          "en": "Announce the new venue after confirming it."
+        },
+        {
+          "zh": "地址前后不同，让人觉得奇怪。",
+          "py": "dì zhǐ qián hòu bù tóng , ràng rén jué de qí guài .",
+          "en": "The inconsistent addresses seem strange."
+        },
+        {
+          "zh": "两个通知地址不同，她觉得很奇怪。",
+          "py": "liǎng gè tōng zhī dì zhǐ bù tóng , tā jué de hěn qí guài .",
+          "en": "The notices have different addresses; she finds that strange."
+        },
+        {
+          "zh": "她有点伤心，因为道歉像是在怪她。",
+          "py": "tā yǒu diǎn shāng xīn , yīn wèi dào qiàn xiàng shì zài guài tā .",
+          "en": "She feels hurt because the apology sounds like blame."
+        },
+        {
+          "zh": "不要因为解释不清而失去信任。",
+          "py": "bú yào yīn wèi jiě shì bù qīng ér shī qù xìn rèn .",
+          "en": "Do not lose trust because of an unclear explanation."
+        },
+        {
+          "zh": "失去的时间不能直接补回来，但可以认真道歉。",
+          "py": "shī qù de shí jiān bù néng zhí jiē bǔ huí lái , dàn kě yǐ rèn zhēn dào qiàn .",
+          "en": "Lost time cannot simply be restored, but one can apologize sincerely."
+        },
+        {
+          "zh": "消息消失了，也不能假装没发生。",
+          "py": "xiāo xī xiāo shī le , yě bù néng jiǎ zhuāng méi fā shēng .",
+          "en": "Even if the message disappears, do not pretend nothing happened."
+        },
+        {
+          "zh": "认真对待朋友的时间。",
+          "py": "rèn zhēn duì dài péng you de shí jiān .",
+          "en": "Treat a friend’s time seriously."
+        },
+        {
+          "zh": "把相关信息一次发清楚。",
+          "py": "bǎ xiāng guān xìn xī yī cì fā qīng chǔ .",
+          "en": "Send all relevant information clearly at once."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "道歉",
+          "pinyin": "dào qiàn",
+          "meaning": "to apologize"
+        },
+        {
+          "hanzi": "迟到",
+          "pinyin": "chí dào",
+          "meaning": "to be late"
+        },
+        {
+          "hanzi": "责任",
+          "pinyin": "zé rèn",
+          "meaning": "responsibility"
+        },
+        {
+          "hanzi": "正式",
+          "pinyin": "zhèng shì",
+          "meaning": "formal"
+        },
+        {
+          "hanzi": "错误",
+          "pinyin": "cuò wù",
+          "meaning": "error"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u19-t1",
+      "phrase": "s3-u19-w01",
+      "audio": {
+        "zh": "由于地址写错，朋友多走了一段。",
+        "py": "yóu yú dì zhǐ xiě cuò , péng you duō zǒu le yī duàn .",
+        "en": "The wrong address made the friend travel farther."
+      },
+      "statement": "The stated cause is the wrong address.",
+      "answer": true,
+      "why": "The cause is explicit."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u19-t2",
+      "phrase": "s3-u19-w12",
+      "audio": {
+        "zh": "门牌号需要补上。",
+        "py": "mén pái hào xū yào bǔ shàng .",
+        "en": "The building number needs adding."
+      },
+      "statement": "The number has definitely already been added.",
+      "answer": false,
+      "why": "需要 states a need, not completed action."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u19-t3",
+      "phrase": "s3-u19-w08",
+      "prompt": {
+        "zh": "你发错地址，怎么道歉？",
+        "py": "nǐ fā cuò dì zhǐ , zěn me dào qiàn ?",
+        "en": "You sent the wrong address; how do you apologize?"
+      },
+      "choices": [
+        "对不起，是我没核对，我现在改。",
+        "你应该自己猜。",
+        "旧消息消失就没发生。"
+      ],
+      "answer": "对不起，是我没核对，我现在改。",
+      "why": "Accept responsibility and offer a repair."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u19-t4",
+      "phrase": "s3-u19-w22",
+      "prompt": {
+        "zh": "地址里还缺什么？",
+        "py": "dì zhǐ lǐ hái quē shén me ?",
+        "en": "What is still missing from the address?"
+      },
+      "choices": [
+        "门牌号，和地址一起发清楚。",
+        "一张比赛成绩。",
+        "朋友的所有秘密。"
+      ],
+      "answer": "门牌号，和地址一起发清楚。",
+      "why": "The dialogue identifies the omitted number."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u19-t5",
+      "phrase": "s3-u19-w14",
+      "line": {
+        "zh": "发送前【注意】核对日期。",
+        "py": "fā sòng qián zhù yì hé duì rì qī .",
+        "en": "Check the date before sending."
+      },
+      "blankPy": "zhù yì"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u19-t6",
+      "phrase": "s3-u19-w20",
+      "line": {
+        "zh": "【信任】还要慢慢恢复。",
+        "py": "xìn rèn hái yào màn màn huī fù .",
+        "en": "Trust still needs time to recover."
+      },
+      "blankPy": "xìn rèn"
+    },
+    {
+      "type": "match",
+      "id": "s3-u19-t7",
+      "phrase": "s3-u19-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The friend travelled farther.",
+          "right": {
+            "zh": "朋友多走了一段。",
+            "py": "péng you duō zǒu le yī duàn .",
+            "en": "The friend travelled farther."
+          }
+        },
+        {
+          "left": "I sent an old address.",
+          "right": {
+            "zh": "我发了旧地址。",
+            "py": "wǒ fā le jiù dì zhǐ .",
+            "en": "I sent an old address."
+          }
+        },
+        {
+          "left": "Add the building number now.",
+          "right": {
+            "zh": "现在补上门牌号。",
+            "py": "xiàn zài bǔ shàng mén pái hào .",
+            "en": "Add the building number now."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u19-t8",
+      "phrase": "s3-u19-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Improve the notice to avoid another wrong trip.",
+          "right": {
+            "zh": "完善通知，不让别人再走错。",
+            "py": "wán shàn tōng zhī , bù ràng bié ren zài zǒu cuò .",
+            "en": "Improve the notice to avoid another wrong trip."
+          }
+        },
+        {
+          "left": "Listen to the other person’s reaction first.",
+          "right": {
+            "zh": "先听对方的反应。",
+            "py": "xiān tīng duì fāng de fǎn yìng .",
+            "en": "Listen to the other person’s reaction first."
+          }
+        },
+        {
+          "left": "It is not your fault.",
+          "right": {
+            "zh": "不是你的问题。",
+            "py": "bù shì nǐ de wèn tí .",
+            "en": "It is not your fault."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u19-t9",
+      "phrase": "s3-u19-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The event is not cancelled; only the room changed.",
+          "right": {
+            "zh": "活动并没有取消，只是换了房间。",
+            "py": "huó dòng bìng méi yǒu qǔ xiāo , zhǐ shì huàn le fáng jiān .",
+            "en": "The event is not cancelled; only the room changed."
+          }
+        },
+        {
+          "left": "Can an old picture really prove today’s cancellation?",
+          "right": {
+            "zh": "难道旧图片就能证明今天取消了吗？",
+            "py": "nán dào jiù tú piàn jiù néng zhèng míng jīn tiān qǔ xiāo le ma ?",
+            "en": "Can an old picture really prove today’s cancellation?"
+          }
+        },
+        {
+          "left": "I worry about her and also respect her choice.",
+          "right": {
+            "zh": "我为她担心，也尊重她的选择。",
+            "py": "wǒ wèi tā dān xīn , yě zūn zhòng tā de xuǎn zé .",
+            "en": "I worry about her and also respect her choice."
+          }
+        },
+        {
+          "left": "For me, quiet matters.",
+          "right": {
+            "zh": "对我来说，安静很重要。",
+            "py": "duì wǒ lái shuō , ān jìng hěn zhòng yào .",
+            "en": "For me, quiet matters."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Accept responsibility",
+      "natural": {
+        "zh": "是我没核对，给你添麻烦了。",
+        "py": "shì wǒ méi hé duì , gěi nǐ tiān má fán le .",
+        "en": "I did not check and caused you trouble."
+      },
+      "note": "Explain without blaming the recipient."
+    },
+    {
+      "situation": "Offer a concrete repair",
+      "natural": {
+        "zh": "我现在补上门牌号，再发一次。",
+        "py": "wǒ xiàn zài bǔ shàng mén pái hào , zài fā yī cì .",
+        "en": "I will add the building number now and send it again."
+      },
+      "note": "Keep promised and completed repairs separate."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u19-speak",
+    "title": "A proper apology",
+    "place": "A language-exchange meeting",
+    "context": "Explain causes without using them as excuses.",
+    "goal": "Give a cause using 由于 / 因为",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "谁写错地址？",
+        "pinyin": "shéi xiě cuò dì zhǐ ?",
+        "meaning": "Who wrote the wrong address?",
+        "intent": "Accept responsibility",
+        "examples": [
+          "是我写错了。"
+        ],
+        "accept": [
+          "^是我写错了。[。！？]?$"
+        ]
+      },
+      {
+        "text": "现在怎么补？",
+        "pinyin": "xiàn zài zěn me bǔ ?",
+        "meaning": "How should it be repaired now?",
+        "intent": "Give the actual step",
+        "examples": [
+          "补上门牌号，再发一次。"
+        ],
+        "accept": [
+          "^补上门牌号，再发一次。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三25, 三71. Native check: 由于 versus 因为 register, 因此 causal consequence, apology phrasing, 相关 attributive usage, emotional 伤心 versus physical 伤 and incomplete versus completed repair. Fictional wrong-address incident is not medical guidance. Native review pending. Planned retrieval 三19 / 三76 / 三23 / 三40: 活动并没有取消，只是换了房间。, 难道旧图片就能证明今天取消了吗？, 我为她担心，也尊重她的选择。, 对我来说，安静很重要。."
+}

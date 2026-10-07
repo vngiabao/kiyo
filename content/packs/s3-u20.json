@@ -1,0 +1,1332 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u20",
+    "stage": 2,
+    "order": 84,
+    "title": "A gift with a reason",
+    "titleZh": "礼物为什么这样选",
+    "canDo": [
+      "Explain a purpose with 为了",
+      "Choose a gift using the recipient’s actual needs",
+      "Distinguish material, artistic authorship and price"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u19"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u20-w01",
+      "hanzi": "为了",
+      "pinyin": "wèi le",
+      "meaning": "in order to; for the purpose of",
+      "meaningVi": "để",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "为了方便带书，我选了布袋。",
+        "py": "wèi le fāng biàn dài shū , wǒ xuǎn le bù dài .",
+        "en": "To make carrying books easier, I chose a cloth bag."
+      },
+      "usageNote": "[GF2021:L3:8418] Source entry: 为了; wèile; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w02",
+      "hanzi": "爱心",
+      "pinyin": "ài xīn",
+      "meaning": "kindness; caring heart",
+      "meaningVi": "lòng yêu thương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "爱心不只看礼物的价格。",
+        "py": "ài xīn bù zhǐ kàn lǐ wù de jià gé .",
+        "en": "Care is not judged only by a gift’s price."
+      },
+      "usageNote": "[GF2021:L3:28] Source entry: 爱心; àixīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w03",
+      "hanzi": "设计",
+      "pinyin": "shè jì",
+      "meaning": "to design; design",
+      "meaningVi": "thiết kế",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个设计方便放书。",
+        "py": "zhè gè shè jì fāng biàn fàng shū .",
+        "en": "This design makes storing books convenient."
+      },
+      "usageNote": "[GF2021:L3:7017] Source entry: 设计; shèjì; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w04",
+      "hanzi": "创作",
+      "pinyin": "chuàng zuò",
+      "meaning": "to create an artistic work",
+      "meaningVi": "sáng tác",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张贺卡是我自己创作的。",
+        "py": "zhè zhāng hè kǎ shì wǒ zì jǐ chuàng zuò de .",
+        "en": "I created this greeting card myself."
+      },
+      "usageNote": "[GF2021:L3:1264] Source entry: 创作; chuàngzuò; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w05",
+      "hanzi": "创造",
+      "pinyin": "chuàng zào",
+      "meaning": "to create; bring into being",
+      "meaningVi": "tạo ra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "一起创造回忆，比买贵东西重要。",
+        "py": "yì qǐ chuàng zào huí yì , bǐ mǎi guì dōng xi zhòng yào .",
+        "en": "Creating memories together matters more than buying expensive things."
+      },
+      "usageNote": "[GF2021:L3:1263] Source entry: 创造; chuàngzào; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w06",
+      "hanzi": "创新",
+      "pinyin": "chuàng xīn",
+      "meaning": "to innovate; innovation",
+      "meaningVi": "đổi mới",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "创新不等于把别人的作品改个名字。",
+        "py": "chuàng xīn bù děng yú bǎ bié ren de zuò pǐn gǎi gè míng zi .",
+        "en": "Innovation does not mean renaming someone else’s work."
+      },
+      "usageNote": "[GF2021:L3:1260] Source entry: 创新; chuàngxīn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w07",
+      "hanzi": "作品",
+      "pinyin": "zuò pǐn",
+      "meaning": "work; artistic creation",
+      "meaningVi": "tác phẩm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这幅作品是朋友画的。",
+        "py": "zhè fú zuò pǐn shì péng you huà de .",
+        "en": "This work was drawn by my friend."
+      },
+      "usageNote": "[GF2021:L3:11069] Source entry: 作品; zuòpǐn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w08",
+      "hanzi": "作者",
+      "pinyin": "zuò zhě",
+      "meaning": "author; creator",
+      "meaningVi": "tác giả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "送作品时说明作者是谁。",
+        "py": "sòng zuò pǐn shí shuō míng zuò zhě shì shéi .",
+        "en": "When giving a work, state who created it."
+      },
+      "usageNote": "[GF2021:L3:11076] Source entry: 作者; zuòzhě; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w09",
+      "hanzi": "彩色",
+      "pinyin": "cǎi sè",
+      "meaning": "coloured; colour",
+      "meaningVi": "có màu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "彩色贺卡上写着祝福。",
+        "py": "cǎi sè hè kǎ shàng xiě zhe zhù fú .",
+        "en": "The coloured greeting card carries good wishes."
+      },
+      "usageNote": "[GF2021:L3:692] Source entry: 彩色; cǎisè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w10",
+      "hanzi": "布",
+      "pinyin": "bù",
+      "meaning": "cloth",
+      "meaningVi": "vải",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个袋子是布做的。",
+        "py": "zhè gè dài zi shì bù zuò de .",
+        "en": "This bag is made of cloth."
+      },
+      "usageNote": "[GF2021:L3:643] Source entry: 布; bù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w11",
+      "hanzi": "金",
+      "pinyin": "jīn",
+      "meaning": "gold",
+      "meaningVi": "vàng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "金色不等于材料是金。",
+        "py": "jīn sè bù děng yú cái liào shì jīn .",
+        "en": "Gold colour does not mean the material is gold."
+      },
+      "usageNote": "[GF2021:L3:4250] Source entry: 金; jīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w12",
+      "hanzi": "银",
+      "pinyin": "yín",
+      "meaning": "silver",
+      "meaningVi": "bạc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "银色包装也不一定含银。",
+        "py": "yín sè bāo zhuāng yě bù yí dìng hán yín .",
+        "en": "Silver-coloured packaging does not necessarily contain silver."
+      },
+      "usageNote": "[GF2021:L3:9693] Source entry: 银; yín; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w13",
+      "hanzi": "纪念",
+      "pinyin": "jì niàn",
+      "meaning": "to commemorate; keepsake",
+      "meaningVi": "kỷ niệm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张照片可以纪念第一次见面。",
+        "py": "zhè zhāng zhào piān kě yǐ jì niàn dì yī cì jiàn miàn .",
+        "en": "This photo can commemorate the first meeting."
+      },
+      "usageNote": "[GF2021:L3:3797] Source entry: 纪念; jìniàn; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w14",
+      "hanzi": "祝",
+      "pinyin": "zhù",
+      "meaning": "to wish someone well",
+      "meaningVi": "chúc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我祝她学习顺利。",
+        "py": "wǒ zhù tā xué xí shùn lì .",
+        "en": "I wish her success with her studies."
+      },
+      "usageNote": "[GF2021:L3:10761] Source entry: 祝; zhù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w15",
+      "hanzi": "节约",
+      "pinyin": "jié yuē",
+      "meaning": "to economize; save resources",
+      "meaningVi": "tiết kiệm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "用已有的纸，可以节约材料。",
+        "py": "yòng yǐ yǒu de zhǐ , kě yǐ jié yuē cái liào .",
+        "en": "Using paper already available can save materials."
+      },
+      "usageNote": "[GF2021:L3:4181] Source entry: 节约; jiéyuē; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w16",
+      "hanzi": "浪费",
+      "pinyin": "làng fèi",
+      "meaning": "to waste",
+      "meaningVi": "lãng phí",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "包装太多，反而浪费。",
+        "py": "bāo zhuāng tài duō , fǎn ér làng fèi .",
+        "en": "Too much packaging is wasteful instead."
+      },
+      "usageNote": "[GF2021:L3:4939] Source entry: 浪费; làngfèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w17",
+      "hanzi": "利用",
+      "pinyin": "lì yòng",
+      "meaning": "to use; make use of",
+      "meaningVi": "tận dụng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "利用现有材料，不冒充新的作品。",
+        "py": "lì yòng xiàn yǒu cái liào , bù mào chōng xīn de zuò pǐn .",
+        "en": "Use existing materials without pretending they are new original works."
+      },
+      "usageNote": "[GF2021:L3:5084] Source entry: 利用; lìyòng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w18",
+      "hanzi": "功能",
+      "pinyin": "gōng néng",
+      "meaning": "function",
+      "meaningVi": "chức năng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "布袋的功能是装书，不是表示价格。",
+        "py": "bù dài de gōng néng shì zhuāng shū , bù shì biǎo shì jià gé .",
+        "en": "The cloth bag’s function is to carry books, not display a price."
+      },
+      "usageNote": "[GF2021:L3:2829] Source entry: 功能; gōngnéng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w19",
+      "hanzi": "适用",
+      "pinyin": "shì yòng",
+      "meaning": "applicable; suitable for use",
+      "meaningVi": "thích hợp để dùng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个袋子适用的场合要看大小。",
+        "py": "zhè gè dài zi shì yòng de chǎng hé yào kàn dà xiǎo .",
+        "en": "Its size determines the occasions this bag suits."
+      },
+      "usageNote": "[GF2021:L3:7343] Source entry: 适用; shìyòng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w20",
+      "hanzi": "应用",
+      "pinyin": "yìng yòng",
+      "meaning": "to apply; put to use",
+      "meaningVi": "ứng dụng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把课堂知识应用到贺卡上。",
+        "py": "bǎ kè táng zhī shi yìng yòng dào hè kǎ shàng .",
+        "en": "Apply classroom knowledge to the greeting card."
+      },
+      "usageNote": "[GF2021:L3:9771] Source entry: 应用; yìngyòng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w21",
+      "hanzi": "消费",
+      "pinyin": "xiāo fèi",
+      "meaning": "to consume; spend",
+      "meaningVi": "tiêu dùng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "为了送礼，不必超过自己的消费预算。",
+        "py": "wèi le sòng lǐ , bù bì chāo guò zì jǐ de xiāo fèi yù suàn .",
+        "en": "Giving a gift does not require exceeding one’s spending budget."
+      },
+      "usageNote": "[GF2021:L3:8873] Source entry: 消费; xiāofèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u20-w22",
+      "hanzi": "现金",
+      "pinyin": "xiàn jīn",
+      "meaning": "cash",
+      "meaningVi": "tiền mặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "买材料付了二十块现金。",
+        "py": "mǎi cái liào fù le èr shí kuài xiàn jīn .",
+        "en": "Paid twenty yuan cash for the materials."
+      },
+      "usageNote": "[GF2021:L3:8760] Source entry: 现金; xiànjīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "创",
+      "pinyin": "chuàng",
+      "meaning": "create",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "创",
+          "role": "whole",
+          "gloss": "create"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 创 in 创作 / 创造. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "创作",
+          "p": "chuàng zuò",
+          "m": "to create an artistic work"
+        },
+        {
+          "w": "创造",
+          "p": "chuàng zào",
+          "m": "to create; bring into being"
+        }
+      ]
+    },
+    {
+      "hanzi": "设",
+      "pinyin": "shè",
+      "meaning": "set up",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "设",
+          "role": "whole",
+          "gloss": "set up"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 设 in 设计 / 设备. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "设计",
+          "p": "shè jì",
+          "m": "to design; design"
+        },
+        {
+          "w": "设备",
+          "p": "shè bèi",
+          "m": "equipment"
+        }
+      ]
+    },
+    {
+      "hanzi": "彩",
+      "pinyin": "cǎi",
+      "meaning": "colour",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "彩",
+          "role": "whole",
+          "gloss": "colour"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 彩 in 彩色 / 精彩. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "彩色",
+          "p": "cǎi sè",
+          "m": "coloured"
+        },
+        {
+          "w": "精彩",
+          "p": "jīng cǎi",
+          "m": "wonderful; excellent"
+        }
+      ]
+    },
+    {
+      "hanzi": "布",
+      "pinyin": "bù",
+      "meaning": "cloth",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "布",
+          "role": "whole",
+          "gloss": "cloth"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 布 in 布 / 公布. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "布",
+          "p": "bù",
+          "m": "cloth"
+        },
+        {
+          "w": "公布",
+          "p": "gōng bù",
+          "m": "to announce publicly"
+        }
+      ]
+    },
+    {
+      "hanzi": "材",
+      "pinyin": "cái",
+      "meaning": "material",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "材",
+          "role": "whole",
+          "gloss": "material"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 材 in 材料. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "材料",
+          "p": "cái liào",
+          "m": "materials"
+        }
+      ]
+    },
+    {
+      "hanzi": "金",
+      "pinyin": "jīn",
+      "meaning": "gold",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "金",
+          "role": "whole",
+          "gloss": "gold"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 金 in 金 / 现金. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "金",
+          "p": "jīn",
+          "m": "gold"
+        },
+        {
+          "w": "现金",
+          "p": "xiàn jīn",
+          "m": "cash"
+        }
+      ]
+    },
+    {
+      "hanzi": "约",
+      "pinyin": "yuē",
+      "meaning": "approximately; arrange",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "约",
+          "role": "whole",
+          "gloss": "approximately; arrange"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 约 in 节约 / 约. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "节约",
+          "p": "jié yuē",
+          "m": "to economize; save resources"
+        },
+        {
+          "w": "约",
+          "p": "yuē",
+          "m": "to arrange a meeting; invite"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u20-g三26",
+      "pattern": "为了 + 目的",
+      "purpose": "Distinguish a purpose from a recipient or cause",
+      "explanation": "为了方便带书 states the intended goal. 为朋友准备礼物 identifies the beneficiary instead. 因为她喜欢读书 gives a cause motivating the choice. An intended purpose is not proof that the goal has already been achieved; ask whether the bag fits the recipient’s books.",
+      "examples": [
+        {
+          "zh": "为了方便带书，我选了布袋。",
+          "py": "wèi le fāng biàn dài shū , wǒ xuǎn le bù dài .",
+          "en": "To make carrying books easier, I chose a cloth bag."
+        },
+        {
+          "zh": "为了纪念第一次见面，我选了照片。",
+          "py": "wèi le jì niàn dì yī cì jiàn miàn , wǒ xuǎn le zhào piān .",
+          "en": "To commemorate the first meeting, I chose a photo."
+        },
+        {
+          "zh": "因为她喜欢读书，我为她准备布袋。",
+          "py": "yīn wèi tā xǐ huān dú shū , wǒ wèi tā zhǔn bèi bù dài .",
+          "en": "Because she likes reading, I prepared a cloth bag for her."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "为了方便带书，所以已经证明袋子合适。",
+          "right": "为了方便带书选布袋，还要看大小是否合适。",
+          "why": "An intention does not verify suitability."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u20-g三72",
+      "pattern": "为了……，……",
+      "purpose": "Link an intended purpose to the chosen action",
+      "explanation": "为了节约材料，我用了已有的纸 presents goal then action. It does not require 所以; distinguish causal 因为……所以 from purposive 为了. The alternative 我用了已有的纸，为了节约材料 is possible with context, but the exercise asks for the ordinary initial-purpose ordering. Keep the action concrete and verify the result separately.",
+      "examples": [
+        {
+          "zh": "为了节约材料，我用了已有的纸。",
+          "py": "wèi le jié yuē cái liào , wǒ yòng le yǐ yǒu de zhǐ .",
+          "en": "To save materials, I used paper already available."
+        },
+        {
+          "zh": "为了让她方便带书，我选了布袋。",
+          "py": "wèi le ràng tā fāng biàn dài shū , wǒ xuǎn le bù dài .",
+          "en": "To let her carry books conveniently, I chose a cloth bag."
+        },
+        {
+          "zh": "为了说明作者，我在卡片上写了名字。",
+          "py": "wèi le shuō míng zuò zhě , wǒ zài kǎ piàn shàng xiě le míng zi .",
+          "en": "To identify the creator, I wrote the name on the card."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "为了她喜欢读书，我买了袋子。",
+          "right": "因为她喜欢读书，我买了袋子。",
+          "why": "Her existing preference is a cause; use 为了 for a goal to achieve."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u20-d",
+    "title": "A useful bag and an original card",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find why the gift was chosen and what was actually paid.",
+    "lines": [
+      {
+        "zh": "你为什么选布袋，不选金色盒子？",
+        "py": "nǐ wèi shén me xuǎn bù dài , bù xuǎn jīn sè hé zi ?",
+        "en": "Why choose a cloth bag instead of a gold-coloured box?",
+        "speaker": "a"
+      },
+      {
+        "zh": "为了方便她带书，布袋的功能更适合。",
+        "py": "wèi le fāng biàn tā dài shū , bù dài de gōng néng gèng shì hé .",
+        "en": "To make carrying books easier for her; the bag’s function is more suitable.",
+        "speaker": "b"
+      },
+      {
+        "zh": "金色盒子是金做的吗？",
+        "py": "jīn sè hé zi shì jīn zuò de ma ?",
+        "en": "Is the gold-coloured box made of gold?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，只是颜色。银色包装也不一定是银。",
+        "py": "bù shì , zhǐ shì yán sè . yín sè bāo zhuāng yě bù yí dìng shì yín .",
+        "en": "No, just the colour. Silver-coloured packaging is not necessarily silver either.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这张彩色贺卡是谁创作的？",
+        "py": "zhè zhāng cǎi sè hè kǎ shì shéi chuàng zuò de ?",
+        "en": "Who created this coloured greeting card?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我自己写的，照片是朋友拍的，作者都写清楚了。",
+        "py": "wǒ zì jǐ xiě de , zhào piān shì péng you pāi de , zuò zhě dōu xiě qīng chǔ le .",
+        "en": "I wrote it myself; a friend took the photo, and all creators are identified.",
+        "speaker": "b"
+      },
+      {
+        "zh": "材料花了多少？",
+        "py": "cái liào huā le duō shao ?",
+        "en": "How much did the materials cost?",
+        "speaker": "a"
+      },
+      {
+        "zh": "二十块现金，用了已有的纸，没有超过预算。",
+        "py": "èr shí kuài xiàn jīn , yòng le yǐ yǒu de zhǐ , méi yǒu chāo guò yù suàn .",
+        "en": "Twenty yuan cash; used paper already available and did not exceed the budget.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What guides the gift?",
+        "choices": [
+          "Usefulness, clear authorship and a budget",
+          "Metal colour proving expensive materials",
+          "Price alone proving care"
+        ],
+        "answer": "Usefulness, clear authorship and a budget"
+      },
+      {
+        "type": "detail",
+        "q": "How much cash was paid for materials?",
+        "choices": [
+          "Twenty yuan",
+          "Two hundred yuan",
+          "No cash at all"
+        ],
+        "answer": "Twenty yuan"
+      },
+      {
+        "type": "inference",
+        "q": "Does gold colour prove gold material?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only on a greeting card"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "贺卡",
+        "pinyin": "hè kǎ",
+        "meaning": "greeting card"
+      },
+      {
+        "hanzi": "材料",
+        "pinyin": "cái liào",
+        "meaning": "materials"
+      },
+      {
+        "hanzi": "包装",
+        "pinyin": "bāo zhuāng",
+        "meaning": "packaging"
+      },
+      {
+        "hanzi": "布袋",
+        "pinyin": "bù dài",
+        "meaning": "cloth bag"
+      },
+      {
+        "hanzi": "照片",
+        "pinyin": "zhào piān",
+        "meaning": "photo"
+      },
+      {
+        "hanzi": "彩色",
+        "pinyin": "cǎi sè",
+        "meaning": "coloured"
+      },
+      {
+        "hanzi": "金色",
+        "pinyin": "jīn sè",
+        "meaning": "gold-coloured"
+      },
+      {
+        "hanzi": "银色",
+        "pinyin": "yín sè",
+        "meaning": "silver-coloured"
+      },
+      {
+        "hanzi": "盒子",
+        "pinyin": "hé zi",
+        "meaning": "box"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u20-r",
+    "title": "A gift note without inflated claims",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the purpose, the authors and the material.",
+    "lines": [
+      {
+        "zh": "为了方便朋友带书，我选了一个布袋，先确认大小。",
+        "py": "wèi le fāng biàn péng you dài shū , wǒ xuǎn le yī gè bù dài , xiān què rèn dà xiǎo .",
+        "en": "To make carrying books easier, I chose a cloth bag and checked the size first."
+      },
+      {
+        "zh": "布袋的设计实用，功能是装书，不是表示消费多少。",
+        "py": "bù dài de shè jì shí yòng , gōng néng shì zhuāng shū , bù shì biǎo shì xiāo fèi duō shao .",
+        "en": "The bag’s design is practical; its function is carrying books, not displaying spending."
+      },
+      {
+        "zh": "为了节约材料，我利用已有的纸创作彩色贺卡。",
+        "py": "wèi le jié yuē cái liào , wǒ lì yòng yǐ yǒu de zhǐ chuàng zuò cǎi sè hè kǎ .",
+        "en": "To save materials, I used existing paper to create a coloured greeting card."
+      },
+      {
+        "zh": "照片是朋友的作品，卡片说明作者，不把别人的作品当成自己创作。",
+        "py": "zhào piān shì péng you de zuò pǐn , kǎ piàn shuō míng zuò zhě , bù bǎ bié ren de zuò pǐn dàng chéng zì jǐ chuàng zuò .",
+        "en": "The photo is my friend’s work; the card identifies the creator rather than claiming another’s work as mine."
+      },
+      {
+        "zh": "为了纪念第一次见面，选照片；为了表达祝福，写一句汉语。",
+        "py": "wèi le jì niàn dì yī cì jiàn miàn , xuǎn zhào piān ; wèi le biǎo dá zhù fú , xiě yī jù hàn yǔ .",
+        "en": "To commemorate the first meeting, choose a photo; to express good wishes, write a Mandarin sentence."
+      },
+      {
+        "zh": "金色和银色是颜色说明，不保证材料里有金或银。",
+        "py": "jīn sè hé yín sè shì yán sè shuō míng , bù bǎo zhèng cái liào lǐ yǒu jīn huò yín .",
+        "en": "Gold and silver colour describe appearance; they do not guarantee gold or silver content."
+      },
+      {
+        "zh": "材料付了二十块现金，没有超过预算；过多包装会浪费。",
+        "py": "cái liào fù le èr shí kuài xiàn jīn , méi yǒu chāo guò yù suàn ; guò duō bāo zhuāng huì làng fèi .",
+        "en": "Materials cost twenty yuan cash within budget; excessive packaging would waste resources."
+      },
+      {
+        "zh": "把知识应用到实际表达，创造回忆，不必用价格证明爱心。",
+        "py": "bǎ zhī shi yìng yòng dào shí jì biǎo dá , chuàng zào huí yì , bù bì yòng jià gé zhèng míng ài xīn .",
+        "en": "Apply knowledge to real expression and create memories; no need to prove care through price."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the note avoid?",
+        "choices": [
+          "Overstating price, material and authorship",
+          "Acknowledging a friend’s photo",
+          "Using existing paper"
+        ],
+        "answer": "Overstating price, material and authorship"
+      },
+      {
+        "type": "detail",
+        "q": "Why use existing paper?",
+        "choices": [
+          "To save materials",
+          "To pretend the bag is gold",
+          "To hide the creator"
+        ],
+        "answer": "To save materials"
+      },
+      {
+        "type": "inference",
+        "q": "Is the intended purpose itself proof the bag fits?",
+        "choices": [
+          "No, size must be checked",
+          "Yes",
+          "Only with silver packaging"
+        ],
+        "answer": "No, size must be checked"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "为了【节约】材料，我利用已有的纸创作彩色贺卡。",
+          "py": "wèi le jié yuē cái liào , wǒ lì yòng yǐ yǒu de zhǐ chuàng zuò cǎi sè hè kǎ .",
+          "en": "To save materials, I used existing paper to create a coloured greeting card."
+        },
+        {
+          "zh": "为了【纪念】第一次见面，选照片；为了表达祝福，写一句汉语。",
+          "py": "wèi le jì niàn dì yī cì jiàn miàn , xuǎn zhào piān ; wèi le biǎo dá zhù fú , xiě yī jù hàn yǔ .",
+          "en": "To commemorate the first meeting, choose a photo; to express good wishes, write a Mandarin sentence."
+        }
+      ],
+      "bank": [
+        "节约",
+        "纪念",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "实用",
+        "pinyin": "shí yòng",
+        "meaning": "practical"
+      },
+      {
+        "hanzi": "贺卡",
+        "pinyin": "hè kǎ",
+        "meaning": "greeting card"
+      },
+      {
+        "hanzi": "材料",
+        "pinyin": "cái liào",
+        "meaning": "materials"
+      },
+      {
+        "hanzi": "包装",
+        "pinyin": "bāo zhuāng",
+        "meaning": "packaging"
+      },
+      {
+        "hanzi": "布袋",
+        "pinyin": "bù dài",
+        "meaning": "cloth bag"
+      },
+      {
+        "hanzi": "照片",
+        "pinyin": "zhào piān",
+        "meaning": "photo"
+      },
+      {
+        "hanzi": "纪念",
+        "pinyin": "jì niàn",
+        "meaning": "to commemorate"
+      },
+      {
+        "hanzi": "彩色",
+        "pinyin": "cǎi sè",
+        "meaning": "coloured"
+      },
+      {
+        "hanzi": "金色",
+        "pinyin": "jīn sè",
+        "meaning": "gold-coloured"
+      },
+      {
+        "hanzi": "银色",
+        "pinyin": "yín sè",
+        "meaning": "silver-coloured"
+      },
+      {
+        "hanzi": "回忆",
+        "pinyin": "huí yì",
+        "meaning": "memory; to recall"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u20-media",
+      "title": "The box does not study for her",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original exchange about a useful gift.",
+      "lines": [
+        {
+          "zh": "盒子看起来贵，应该更有爱心吧。",
+          "py": "hé zi kàn qǐ lái guì , yīng gāi gèng yǒu ài xīn ba .",
+          "en": "The box looks expensive; that should mean more care, right?",
+          "speaker": "a"
+        },
+        {
+          "zh": "她要带书，盒子又不会替她读。",
+          "py": "tā yào dài shū , hé zi yòu bù huì tì tā dú .",
+          "en": "She needs to carry books; the box will not read for her.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那选合适的布袋，卡片自己写。",
+          "py": "nà xuǎn hé shì de bù dài , kǎ piàn zì jǐ xiě .",
+          "en": "Then choose a suitable cloth bag and write the card myself.",
+          "speaker": "a"
+        },
+        {
+          "zh": "很好，祝福不用镀金。",
+          "py": "hěn hǎo , zhù fú bù yòng dù jīn .",
+          "en": "Good. A good wish needs no gold plating.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the joke emphasizing?",
+          "choices": [
+            "Use and sincerity over an expensive appearance",
+            "Gold proves friendship",
+            "A box can do the studying"
+          ],
+          "answer": "Use and sincerity over an expensive appearance"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "布袋",
+          "pinyin": "bù dài",
+          "meaning": "cloth bag"
+        },
+        {
+          "hanzi": "盒子",
+          "pinyin": "hé zi",
+          "meaning": "box"
+        },
+        {
+          "hanzi": "镀金",
+          "pinyin": "dù jīn",
+          "meaning": "gold plating; to plate with gold"
+        }
+      ]
+    },
+    {
+      "id": "s3-u20-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这个设计方便放书。",
+          "py": "zhè gè shè jì fāng biàn fàng shū .",
+          "en": "This design makes storing books convenient."
+        },
+        {
+          "zh": "一起创造回忆，比买贵东西重要。",
+          "py": "yì qǐ chuàng zào huí yì , bǐ mǎi guì dōng xi zhòng yào .",
+          "en": "Creating memories together matters more than buying expensive things."
+        },
+        {
+          "zh": "创新不等于把别人的作品改个名字。",
+          "py": "chuàng xīn bù děng yú bǎ bié ren de zuò pǐn gǎi gè míng zi .",
+          "en": "Innovation does not mean renaming someone else’s work."
+        },
+        {
+          "zh": "创新可以从自己的需要开始，不必冒充别人的作者。",
+          "py": "chuàng xīn kě yǐ cóng zì jǐ de xū yào kāi shǐ , bù bì mào chōng bié ren de zuò zhě .",
+          "en": "Innovation can start from one’s own needs, without pretending to have created someone else’s work."
+        },
+        {
+          "zh": "这幅作品是朋友画的。",
+          "py": "zhè fú zuò pǐn shì péng you huà de .",
+          "en": "This work was drawn by my friend."
+        },
+        {
+          "zh": "利用现有材料，不冒充新的作品。",
+          "py": "lì yòng xiàn yǒu cái liào , bù mào chōng xīn de zuò pǐn .",
+          "en": "Use existing materials without pretending they are new original works."
+        },
+        {
+          "zh": "这个袋子适用的场合要看大小。",
+          "py": "zhè gè dài zi shì yòng de chǎng hé yào kàn dà xiǎo .",
+          "en": "Its size determines the occasions this bag suits."
+        },
+        {
+          "zh": "小布袋适用于小书，大书还要看尺寸。",
+          "py": "xiǎo bù dài shì yòng yú xiǎo shū , dà shū hái yào kàn chǐ cùn .",
+          "en": "The small bag suits small books; large ones require checking dimensions."
+        },
+        {
+          "zh": "为了送礼，不必超过自己的消费预算。",
+          "py": "wèi le sòng lǐ , bù bì chāo guò zì jǐ de xiāo fèi yù suàn .",
+          "en": "Giving a gift does not require exceeding one’s spending budget."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "材料",
+          "pinyin": "cái liào",
+          "meaning": "materials"
+        },
+        {
+          "hanzi": "布袋",
+          "pinyin": "bù dài",
+          "meaning": "cloth bag"
+        },
+        {
+          "hanzi": "回忆",
+          "pinyin": "huí yì",
+          "meaning": "memory; to recall"
+        },
+        {
+          "hanzi": "幅",
+          "pinyin": "fú",
+          "meaning": "classifier for pictures"
+        },
+        {
+          "hanzi": "尺寸",
+          "pinyin": "chǐ cùn",
+          "meaning": "dimensions; size"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u20-t1",
+      "phrase": "s3-u20-w11",
+      "audio": {
+        "zh": "金色不等于材料是金。",
+        "py": "jīn sè bù děng yú cái liào shì jīn .",
+        "en": "Gold colour does not mean gold material."
+      },
+      "statement": "Colour alone proves gold content.",
+      "answer": false,
+      "why": "Appearance and material differ."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u20-t2",
+      "phrase": "s3-u20-w08",
+      "audio": {
+        "zh": "照片是朋友拍的，卡片说明作者。",
+        "py": "zhào piān shì péng you pāi de , kǎ piàn shuō míng zuò zhě .",
+        "en": "A friend took the photo; the card identifies the creator."
+      },
+      "statement": "The friend’s authorship is acknowledged.",
+      "answer": true,
+      "why": "The attribution is explicit."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u20-t3",
+      "phrase": "s3-u20-w18",
+      "prompt": {
+        "zh": "为什么选布袋？",
+        "py": "wèi shén me xuǎn bù dài ?",
+        "en": "Why choose a cloth bag?"
+      },
+      "choices": [
+        "为了方便她带书。",
+        "因为金色一定是金。",
+        "为了替她决定所有事。"
+      ],
+      "answer": "为了方便她带书。",
+      "why": "State the actual purpose."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u20-t4",
+      "phrase": "s3-u20-w21",
+      "prompt": {
+        "zh": "送礼必须超过预算吗？",
+        "py": "sòng lǐ bì xū chāo guò yù suàn ma ?",
+        "en": "Must giving a gift exceed the budget?"
+      },
+      "choices": [
+        "不必，选合适的就好。",
+        "必须，价格等于爱心。",
+        "没有包装就不能送。"
+      ],
+      "answer": "不必，选合适的就好。",
+      "why": "The recipient’s needs matter without overspending."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u20-t5",
+      "phrase": "s3-u20-w01",
+      "line": {
+        "zh": "【为了】节约材料，我用已有的纸。",
+        "py": "wèi le jié yuē cái liào , wǒ yòng yǐ yǒu de zhǐ .",
+        "en": "To save materials, I use existing paper."
+      },
+      "blankPy": "wèi le"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u20-t6",
+      "phrase": "s3-u20-w04",
+      "line": {
+        "zh": "贺卡是我自己【创作】的。",
+        "py": "hè kǎ shì wǒ zì jǐ chuàng zuò de .",
+        "en": "I created the greeting card myself."
+      },
+      "blankPy": "chuàng zuò"
+    },
+    {
+      "type": "match",
+      "id": "s3-u20-t7",
+      "phrase": "s3-u20-w22",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Materials cost twenty yuan cash.",
+          "right": {
+            "zh": "材料付了二十块现金。",
+            "py": "cái liào fù le èr shí kuài xiàn jīn .",
+            "en": "Materials cost twenty yuan cash."
+          }
+        },
+        {
+          "left": "The photo was taken by a friend.",
+          "right": {
+            "zh": "照片是朋友拍的。",
+            "py": "zhào piān shì péng you pāi de .",
+            "en": "The photo was taken by a friend."
+          }
+        },
+        {
+          "left": "Check the bag’s size first.",
+          "right": {
+            "zh": "先确认布袋大小。",
+            "py": "xiān què rèn bù dài dà xiǎo .",
+            "en": "Check the bag’s size first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u20-t8",
+      "phrase": "s3-u20-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Apply knowledge to the greeting card.",
+          "right": {
+            "zh": "把知识应用到贺卡上。",
+            "py": "bǎ zhī shi yìng yòng dào hè kǎ shàng .",
+            "en": "Apply knowledge to the greeting card."
+          }
+        },
+        {
+          "left": "Too much packaging is wasteful.",
+          "right": {
+            "zh": "包装太多会浪费。",
+            "py": "bāo zhuāng tài duō huì làng fèi .",
+            "en": "Too much packaging is wasteful."
+          }
+        },
+        {
+          "left": "To commemorate the first meeting.",
+          "right": {
+            "zh": "为了纪念第一次见面。",
+            "py": "wèi le jì niàn dì yī cì jiàn miàn .",
+            "en": "To commemorate the first meeting."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u20-t9",
+      "phrase": "s3-u20-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Students organize the event.",
+          "right": {
+            "zh": "活动由学生举办。",
+            "py": "huó dòng yóu xué sheng jǔ bàn .",
+            "en": "Students organize the event."
+          }
+        },
+        {
+          "left": "Group according to the list, not arrival time.",
+          "right": {
+            "zh": "按名单分组，不按到达时间。",
+            "py": "àn míng dān fēn zǔ , bù àn dào dá shí jiān .",
+            "en": "Group according to the list, not arrival time."
+          }
+        },
+        {
+          "left": "Ask the host to clarify the time.",
+          "right": {
+            "zh": "向主人问清楚时间。",
+            "py": "xiàng zhǔ rén wèn qīng chǔ shí jiān .",
+            "en": "Ask the host to clarify the time."
+          }
+        },
+        {
+          "left": "As usual, ask the time first.",
+          "right": {
+            "zh": "像平时一样，先问时间。",
+            "py": "xiàng píng shí yī yàng , xiān wèn shí jiān .",
+            "en": "As usual, ask the time first."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Explain a useful purpose",
+      "natural": {
+        "zh": "为了方便你带书，选了这个。",
+        "py": "wèi le fāng biàn nǐ dài shū , xuǎn le zhè gè .",
+        "en": "I chose this to make carrying books easier for you."
+      },
+      "note": "Ask about suitability instead of assuming it."
+    },
+    {
+      "situation": "Credit a creator",
+      "natural": {
+        "zh": "照片是朋友拍的，贺卡是我写的。",
+        "py": "zhào piān shì péng you pāi de , hè kǎ shì wǒ xiě de .",
+        "en": "A friend took the photo; I wrote the card."
+      },
+      "note": "Preserve each person’s actual contribution."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u20-speak",
+    "title": "A gift with a reason",
+    "place": "A language-exchange meeting",
+    "context": "Explain the purpose of a plan or gift.",
+    "goal": "Explain a purpose with 为了",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "为了什么？",
+        "pinyin": "wèi le shén me ?",
+        "meaning": "For what purpose?",
+        "intent": "State the recipient-focused purpose",
+        "examples": [
+          "为了方便带书。"
+        ],
+        "accept": [
+          "^为了方便带书。[。！？]?$"
+        ]
+      },
+      {
+        "text": "是谁的照片？",
+        "pinyin": "shì shéi de zhào piān ?",
+        "meaning": "Whose photograph is it?",
+        "intent": "Credit the creator",
+        "examples": [
+          "朋友拍的照片。"
+        ],
+        "accept": [
+          "^朋友拍的照片。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三26, 三72. Native check: 为了 purpose versus 因为 cause and 为 beneficiary, 适用 versus 适合, 彩色 as modifier, 创作 versus 创造, 金/银 colour-material contrast, gift politeness and gold-plating metaphor. Original card/scene only, no copied lyrics or scripts. Native review pending. Planned retrieval 三20 / 三29 / 三24 / 三41: 活动由学生举办。, 按名单分组，不按到达时间。, 向主人问清楚时间。, 像平时一样，先问时间。."
+}

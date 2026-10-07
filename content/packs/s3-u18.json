@@ -1,0 +1,1301 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u18",
+    "stage": 2,
+    "order": 82,
+    "title": "Explaining an unfamiliar custom",
+    "titleZh": "这个习俗怎么理解",
+    "canDo": [
+      "Explain a custom without treating one example as universal",
+      "Direct a question to a specific person with 向",
+      "Use 像……一样 as a limited comparison"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u17"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u18-w01",
+      "hanzi": "文化",
+      "pinyin": "wén huà",
+      "meaning": "culture",
+      "meaningVi": "văn hóa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "了解文化，先问具体习俗。",
+        "py": "liǎo jiě wén huà , xiān wèn jù tǐ xí sú .",
+        "en": "To learn about culture, ask about a specific custom first."
+      },
+      "usageNote": "[GF2021:L3:8454] Source entry: 文化; wénhuà; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w02",
+      "hanzi": "文明",
+      "pinyin": "wén míng",
+      "meaning": "civilization; civilized",
+      "meaningVi": "văn minh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "文明交流也包括认真听不同意见。",
+        "py": "wén míng jiāo liú yě bāo kuò rèn zhēn tīng bù tóng yì jiàn .",
+        "en": "Civil communication also includes listening to different opinions."
+      },
+      "usageNote": "[GF2021:L3:8459] Source entry: 文明; wénmíng; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w03",
+      "hanzi": "民间",
+      "pinyin": "mín jiān",
+      "meaning": "among the people; folk",
+      "meaningVi": "dân gian",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "民间故事有不同版本。",
+        "py": "mín jiān gù shì yǒu bù tóng bǎn běn .",
+        "en": "Folk stories have different versions."
+      },
+      "usageNote": "[GF2021:L3:5609] Source entry: 民间; mínjiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w04",
+      "hanzi": "民族",
+      "pinyin": "mín zú",
+      "meaning": "ethnic group; nation",
+      "meaningVi": "dân tộc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "一个民族也有不同的生活习惯。",
+        "py": "yī gè mín zú yě yǒu bù tóng de shēng huó xí guàn .",
+        "en": "An ethnic group can also have different everyday customs."
+      },
+      "usageNote": "[GF2021:L3:5616] Source entry: 民族; mínzú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w05",
+      "hanzi": "华人",
+      "pinyin": "huá rén",
+      "meaning": "people of Chinese heritage",
+      "meaningVi": "người Hoa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "华人的习惯不一定完全一样。",
+        "py": "huá rén de xí guàn bù yí dìng wán quán yī yàng .",
+        "en": "People of Chinese heritage do not necessarily all share identical customs."
+      },
+      "usageNote": "[GF2021:L3:3445] Source entry: 华人; huárén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w06",
+      "hanzi": "中华民族",
+      "pinyin": "zhōng huá mín zú",
+      "meaning": "the Chinese nation",
+      "meaningVi": "dân tộc Trung Hoa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "文章讨论中华民族的文化，不代表每个人都一样。",
+        "py": "wén zhāng tǎo lùn zhōng huá mín zú de wén huà , bù dài biǎo měi gè rén dōu yī yàng .",
+        "en": "The article discusses the culture of the Chinese nation; it does not mean every person is alike."
+      },
+      "usageNote": "[GF2021:L3:10613] Source entry: 中华民族; Zhōnghuá Mínzú; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w07",
+      "hanzi": "社会",
+      "pinyin": "shè huì",
+      "meaning": "society",
+      "meaningVi": "xã hội",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "社会变化，习俗也会变化。",
+        "py": "shè huì biàn huà , xí sú yě huì biàn huà .",
+        "en": "As society changes, customs can change too."
+      },
+      "usageNote": "[GF2021:L3:7024] Source entry: 社会; shèhuì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w08",
+      "hanzi": "人民",
+      "pinyin": "rén mín",
+      "meaning": "the people",
+      "meaningVi": "nhân dân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "人民的生活不能只看一张照片。",
+        "py": "rén mín de shēng huó bù néng zhǐ kàn yī zhāng zhào piān .",
+        "en": "People’s lives cannot be understood from a single photo."
+      },
+      "usageNote": "[GF2021:L3:6702] Source entry: 人民; rénmín; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w09",
+      "hanzi": "世界",
+      "pinyin": "shì jiè",
+      "meaning": "world",
+      "meaningVi": "thế giới",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "世界各地有不同习俗。",
+        "py": "shì jiè gè dì yǒu bù tóng xí sú .",
+        "en": "Different places around the world have different customs."
+      },
+      "usageNote": "[GF2021:L3:7280] Source entry: 世界; shìjiè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w10",
+      "hanzi": "世纪",
+      "pinyin": "shì jì",
+      "meaning": "century",
+      "meaningVi": "thế kỷ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "上个世纪的照片不代表今天。",
+        "py": "shàng gè shì jì de zhào piān bù dài biǎo jīn tiān .",
+        "en": "A photo from the last century does not represent today."
+      },
+      "usageNote": "[GF2021:L3:7279] Source entry: 世纪; shìjì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w11",
+      "hanzi": "时代",
+      "pinyin": "shí dài",
+      "meaning": "era; age",
+      "meaningVi": "thời đại",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不同的时代有不同的安排。",
+        "py": "bù tóng de shí dài yǒu bù tóng de ān pái .",
+        "en": "Different eras have different arrangements."
+      },
+      "usageNote": "[GF2021:L3:7211] Source entry: 时代; shídài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w12",
+      "hanzi": "古代",
+      "pinyin": "gǔ dài",
+      "meaning": "ancient times",
+      "meaningVi": "thời cổ đại",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "古代的习俗不一定一直保留。",
+        "py": "gǔ dài de xí sú bù yí dìng yì zhí bǎo liú .",
+        "en": "Ancient customs have not necessarily all been preserved."
+      },
+      "usageNote": "[GF2021:L3:2890] Source entry: 古代; gǔdài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w13",
+      "hanzi": "现代",
+      "pinyin": "xiàn dài",
+      "meaning": "modern times; modern",
+      "meaningVi": "hiện đại",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "现代生活中也有人保留旧习俗。",
+        "py": "xiàn dài shēng huó zhōng yě yǒu rén bǎo liú jiù xí sú .",
+        "en": "Some people preserve older customs in modern life too."
+      },
+      "usageNote": "[GF2021:L3:8759] Source entry: 现代; xiàndài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w14",
+      "hanzi": "当地",
+      "pinyin": "dāng dì",
+      "meaning": "local; in that place",
+      "meaningVi": "địa phương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "向当地朋友问问，不要只猜。",
+        "py": "xiàng dāng dì péng you wèn wèn , bú yào zhǐ cāi .",
+        "en": "Ask a local friend rather than merely guessing."
+      },
+      "usageNote": "[GF2021:L3:1605] Source entry: 当地; dāngdì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w15",
+      "hanzi": "国庆",
+      "pinyin": "guó qìng",
+      "meaning": "national day; national celebration",
+      "meaningVi": "quốc khánh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "国庆活动先看当地通知。",
+        "py": "guó qìng huó dòng xiān kàn dāng dì tōng zhī .",
+        "en": "For National Day activities, check local notices first."
+      },
+      "usageNote": "[GF2021:L3:3089] Source entry: 国庆; guóqìng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w16",
+      "hanzi": "庆祝",
+      "pinyin": "qìng zhù",
+      "meaning": "to celebrate",
+      "meaningVi": "chúc mừng; kỷ niệm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每个人庆祝的方式可以不同。",
+        "py": "měi gè rén qìng zhù de fāng shì kě yǐ bù tóng .",
+        "en": "Each person may celebrate in a different way."
+      },
+      "usageNote": "[GF2021:L3:6532] Source entry: 庆祝; qìngzhù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w17",
+      "hanzi": "做客",
+      "pinyin": "zuò kè",
+      "meaning": "to visit as a guest",
+      "meaningVi": "làm khách",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "做客前问清楚时间。",
+        "py": "zuò kè qián wèn qīng chǔ shí jiān .",
+        "en": "Ask the time clearly before visiting as a guest."
+      },
+      "usageNote": "[GF2021:L3:11089] Source entry: 做客; zuò∥kè; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w18",
+      "hanzi": "文学",
+      "pinyin": "wén xué",
+      "meaning": "literature",
+      "meaningVi": "văn học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "文学里的场景不一定是现实规则。",
+        "py": "wén xué lǐ de chǎng jǐng bù yí dìng shì xiàn shí guī zé .",
+        "en": "A scene in literature is not necessarily a real-life rule."
+      },
+      "usageNote": "[GF2021:L3:8464] Source entry: 文学; wénxué; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w19",
+      "hanzi": "美术",
+      "pinyin": "měi shù",
+      "meaning": "fine arts",
+      "meaningVi": "mỹ thuật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "美术作品也可以表现节日。",
+        "py": "měi shù zuò pǐn yě kě yǐ biǎo xiàn jié rì .",
+        "en": "A work of fine art can depict a festival too."
+      },
+      "usageNote": "[GF2021:L3:5500] Source entry: 美术; měishù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w20",
+      "hanzi": "京剧",
+      "pinyin": "jīng jù",
+      "meaning": "Peking opera",
+      "meaningVi": "Kinh kịch",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "京剧和普通聊天的声音不同。",
+        "py": "jīng jù hé pǔ tōng liáo tiān de shēng yīn bù tóng .",
+        "en": "Peking opera sounds different from ordinary conversation."
+      },
+      "usageNote": "[GF2021:L3:4319] Source entry: 京剧; jīngjù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w21",
+      "hanzi": "武术",
+      "pinyin": "wǔ shù",
+      "meaning": "martial arts",
+      "meaningVi": "võ thuật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "武术表演不是所有人的日常习惯。",
+        "py": "wǔ shù biǎo yǎn bù shì suǒ yǒu rén de rì cháng xí guàn .",
+        "en": "A martial arts performance is not everyone’s daily habit."
+      },
+      "usageNote": "[GF2021:L3:8566] Source entry: 武术; wǔshù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u18-w22",
+      "hanzi": "自然",
+      "pinyin": "zì rán",
+      "meaning": "natural; nature; naturally",
+      "meaningVi": "tự nhiên",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不知道就问，这样很自然。",
+        "py": "bù zhī dào jiù wèn , zhè yàng hěn zì rán .",
+        "en": "Ask when you do not know; that is natural."
+      },
+      "usageNote": "[GF2021:L3:10916] Source entry: 自然; zìrán; 名、形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "民",
+      "pinyin": "mín",
+      "meaning": "people",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "民",
+          "role": "whole",
+          "gloss": "people"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 民 in 民间 / 民族. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "民间",
+          "p": "mín jiān",
+          "m": "among the people; folk"
+        },
+        {
+          "w": "民族",
+          "p": "mín zú",
+          "m": "ethnic group; nation"
+        }
+      ]
+    },
+    {
+      "hanzi": "族",
+      "pinyin": "zú",
+      "meaning": "ethnic group; clan",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "族",
+          "role": "whole",
+          "gloss": "ethnic group; clan"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 族 in 民族 / 中华民族. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "民族",
+          "p": "mín zú",
+          "m": "ethnic group; nation"
+        },
+        {
+          "w": "中华民族",
+          "p": "zhōng huá mín zú",
+          "m": "the Chinese nation"
+        }
+      ]
+    },
+    {
+      "hanzi": "华",
+      "pinyin": "huá",
+      "meaning": "splendid; China",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "华",
+          "role": "whole",
+          "gloss": "splendid; China"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 华 in 华人 / 中华民族. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "华人",
+          "p": "huá rén",
+          "m": "people of Chinese heritage"
+        },
+        {
+          "w": "中华民族",
+          "p": "zhōng huá mín zú",
+          "m": "the Chinese nation"
+        }
+      ]
+    },
+    {
+      "hanzi": "化",
+      "pinyin": "huà",
+      "meaning": "change; transform",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "化",
+          "role": "whole",
+          "gloss": "change; transform"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 化 in 文化 / 变化. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "文化",
+          "p": "wén huà",
+          "m": "culture"
+        },
+        {
+          "w": "变化",
+          "p": "biàn huà",
+          "m": "change"
+        }
+      ]
+    },
+    {
+      "hanzi": "世",
+      "pinyin": "shì",
+      "meaning": "world; generation",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "世",
+          "role": "whole",
+          "gloss": "world; generation"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 世 in 世界 / 世纪. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "世界",
+          "p": "shì jiè",
+          "m": "world"
+        },
+        {
+          "w": "世纪",
+          "p": "shì jì",
+          "m": "century"
+        }
+      ]
+    },
+    {
+      "hanzi": "庆",
+      "pinyin": "qìng",
+      "meaning": "celebrate",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "庆",
+          "role": "whole",
+          "gloss": "celebrate"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 庆 in 国庆 / 庆祝. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "国庆",
+          "p": "guó qìng",
+          "m": "national day; national celebration"
+        },
+        {
+          "w": "庆祝",
+          "p": "qìng zhù",
+          "m": "to celebrate"
+        }
+      ]
+    },
+    {
+      "hanzi": "古",
+      "pinyin": "gǔ",
+      "meaning": "ancient",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "古",
+          "role": "whole",
+          "gloss": "ancient"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 古 in 古代. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "古代",
+          "p": "gǔ dài",
+          "m": "ancient times"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u18-g三24",
+      "pattern": "向：行为的对象",
+      "purpose": "Direct an action toward a recipient",
+      "explanation": "向当地朋友请教 identifies the person approached for advice, not a physical compass direction. 向大家介绍 directs an explanation to an audience. This unit contrasts the action recipient with 朝门口走 from the previous unit. Asking one person does not make their answer representative of everyone.",
+      "examples": [
+        {
+          "zh": "向当地朋友请教。",
+          "py": "xiàng dāng dì péng you qǐng jiào .",
+          "en": "Ask a local friend for advice."
+        },
+        {
+          "zh": "她向大家介绍自己的习惯。",
+          "py": "tā xiàng dà jiā jiè shào zì jǐ de xí guàn .",
+          "en": "She introduces her own custom to everyone."
+        },
+        {
+          "zh": "向主人问清楚时间。",
+          "py": "xiàng zhǔ rén wèn qīng chǔ shí jiān .",
+          "en": "Ask the host to clarify the time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "向朋友请教，所以所有人都这样做。",
+          "right": "向朋友请教，再说明这是她的习惯。",
+          "why": "The recipient is an informant, not proof of universal practice."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u18-g三41",
+      "pattern": "像……一样",
+      "purpose": "Compare a stated feature without equating every feature",
+      "explanation": "像平时一样先问时间 compares the specific procedure of asking the time. 像朋友一样交流 compares a manner of interaction; it does not literally establish friendship. State the feature being compared. Avoid an analogy that turns a performance, ancient story or one host’s practice into a universal custom.",
+      "examples": [
+        {
+          "zh": "像平时一样，先问时间。",
+          "py": "xiàng píng shí yī yàng , xiān wèn shí jiān .",
+          "en": "As usual, ask the time first."
+        },
+        {
+          "zh": "大家像朋友一样交流。",
+          "py": "dà jiā xiàng péng you yī yàng jiāo liú .",
+          "en": "Everyone communicates like friends."
+        },
+        {
+          "zh": "这次的安排像上次一样。",
+          "py": "zhè cì de ān pái xiàng shàng cì yī yàng .",
+          "en": "This time’s arrangement is like last time’s."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "像朋友一样交流，就是所有人已经是朋友。",
+          "right": "像朋友一样交流，是比较交流方式。",
+          "why": "A comparison of manner does not establish actual identity."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u18-d",
+    "title": "Ask the host, not the whole world",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find whose practice is described.",
+    "lines": [
+      {
+        "zh": "做客要带什么？网上说每个人都一样。",
+        "py": "zuò kè yào dài shén me ? wǎng shàng shuō měi gè rén dōu yī yàng .",
+        "en": "What should I bring as a guest? Online it says everyone is the same.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先向主人问。这次是她家的安排。",
+        "py": "xiān xiàng zhǔ rén wèn . zhè cì shì tā jiā de ān pái .",
+        "en": "Ask the host first. This is her household’s arrangement.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她说像平时一样，先问时间就好。",
+        "py": "tā shuō xiàng píng shí yī yàng , xiān wèn shí jiān jiù hǎo .",
+        "en": "She says as usual, just ask the time first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那不用把电影里的场景当规则了。",
+        "py": "nà bù yòng bǎ diàn yǐng lǐ de chǎng jǐng dāng guī zé le .",
+        "en": "Then I need not treat a film scene as a rule.",
+        "speaker": "b"
+      },
+      {
+        "zh": "对。古代、现代和当地习惯，也不能混在一起。",
+        "py": "duì . gǔ dài , xiàn dài hé dāng dì xí guàn , yě bù néng hùn zài yì qǐ .",
+        "en": "Right. Ancient, modern and local practices should not be mixed together.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我向朋友请教，再向大家介绍她的习惯。",
+        "py": "wǒ xiàng péng you qǐng jiào , zài xiàng dà jiā jiè shào tā de xí guàn .",
+        "en": "I will ask my friend and introduce her practice to everyone.",
+        "speaker": "b"
+      },
+      {
+        "zh": "说清楚是她的习惯，不是所有人的。",
+        "py": "shuō qīng chǔ shì tā de xí guàn , bù shì suǒ yǒu rén de .",
+        "en": "Clarify that it is hers, not everyone’s.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。不知道就问，比假装都知道自然。",
+        "py": "hǎo . bù zhī dào jiù wèn , bǐ jiǎ zhuāng dōu zhī dào zì rán .",
+        "en": "Okay. Asking when unsure is more natural than pretending to know everything.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the recommended approach?",
+        "choices": [
+          "Ask the host and identify the scope of her practice",
+          "Treat every film scene as a rule",
+          "Assume everyone shares one custom"
+        ],
+        "answer": "Ask the host and identify the scope of her practice"
+      },
+      {
+        "type": "detail",
+        "q": "What does this host ask the guest to do first?",
+        "choices": [
+          "Ask the time",
+          "Bring a mandatory expensive gift",
+          "Perform martial arts"
+        ],
+        "answer": "Ask the time"
+      },
+      {
+        "type": "inference",
+        "q": "Does one host’s answer represent all people?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only on National Day"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "介绍",
+        "pinyin": "jiè shào",
+        "meaning": "to introduce"
+      },
+      {
+        "hanzi": "每个人",
+        "pinyin": "měi gè rén",
+        "meaning": "each person"
+      },
+      {
+        "hanzi": "像",
+        "pinyin": "xiàng",
+        "meaning": "like; resemble"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u18-r",
+    "title": "An introduction with a clear scope",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read how an unfamiliar practice is presented.",
+    "lines": [
+      {
+        "zh": "世界各地有不同习俗，一个民族内部也不一定一样。",
+        "py": "shì jiè gè dì yǒu bù tóng xí sú , yī gè mín zú nèi bù yě bù yí dìng yī yàng .",
+        "en": "Places around the world have different customs, and practices within an ethnic group need not be identical."
+      },
+      {
+        "zh": "文章介绍中华民族的文化，但不替每个人决定生活方式。",
+        "py": "wén zhāng jiè shào zhōng huá mín zú de wén huà , dàn bù tì měi gè rén jué dìng shēng huó fāng shì .",
+        "en": "The article introduces the culture of the Chinese nation but does not decide every person’s way of life."
+      },
+      {
+        "zh": "人民的生活会随社会变化，上个世纪的照片不代表今天。",
+        "py": "rén mín de shēng huó huì suí shè huì biàn huà , shàng gè shì jì de zhào piān bù dài biǎo jīn tiān .",
+        "en": "People’s lives change with society; photos from the last century do not represent today."
+      },
+      {
+        "zh": "古代习俗可能保留，也可能改变，现代安排要再确认。",
+        "py": "gǔ dài xí sú kě néng bǎo liú , yě kě néng gǎi biàn , xiàn dài ān pái yào zài què rèn .",
+        "en": "Ancient customs may persist or change; modern arrangements need checking."
+      },
+      {
+        "zh": "我向当地朋友请教，她介绍自己家国庆庆祝的方式。",
+        "py": "wǒ xiàng dāng dì péng you qǐng jiào , tā jiè shào zì jǐ jiā guó qìng qìng zhù de fāng shì .",
+        "en": "I asked a local friend, and she explained how her family celebrates National Day."
+      },
+      {
+        "zh": "做客像平时一样，先问时间，不把她的答案当统一规则。",
+        "py": "zuò kè xiàng píng shí yī yàng , xiān wèn shí jiān , bù bǎ tā de dá àn dāng tǒng yī guī zé .",
+        "en": "As with an ordinary visit, ask the time first and do not treat her answer as a universal rule."
+      },
+      {
+        "zh": "民间故事、文学、美术和京剧提供文化材料，不等于日常规定。",
+        "py": "mín jiān gù shì , wén xué , měi shù hé jīng jù tí gōng wén huà cái liào , bù děng yú rì cháng guī dìng .",
+        "en": "Folk stories, literature, fine arts and Peking opera provide cultural material, not everyday regulations."
+      },
+      {
+        "zh": "武术表演有自己的场合，华人也有不同习惯；不知道就问很自然。",
+        "py": "wǔ shù biǎo yǎn yǒu zì jǐ de chǎng hé , huá rén yě yǒu bù tóng xí guàn ; bù zhī dào jiù wèn hěn zì rán .",
+        "en": "Martial arts performances have their own occasions, and people of Chinese heritage have different practices; asking when unsure is natural."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What limitation does the article stress?",
+        "choices": [
+          "Culture includes variation and changing contexts",
+          "An old photo proves every current custom",
+          "Every artistic performance is a household rule"
+        ],
+        "answer": "Culture includes variation and changing contexts"
+      },
+      {
+        "type": "detail",
+        "q": "Whose celebration was described?",
+        "choices": [
+          "The local friend’s family’s",
+          "Every family’s",
+          "A confirmed universal rule"
+        ],
+        "answer": "The local friend’s family’s"
+      },
+      {
+        "type": "inference",
+        "q": "May a historical custom change?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only in a film"
+        ],
+        "answer": "Yes"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我向【当地】朋友请教，她介绍自己家国庆庆祝的方式。",
+          "py": "wǒ xiàng dāng dì péng you qǐng jiào , tā jiè shào zì jǐ jiā guó qìng qìng zhù de fāng shì .",
+          "en": "I asked a local friend, and she explained how her family celebrates National Day."
+        },
+        {
+          "zh": "民间故事、【文学】、美术和京剧提供文化材料，不等于日常规定。",
+          "py": "mín jiān gù shì , wén xué , měi shù hé jīng jù tí gōng wén huà cái liào , bù děng yú rì cháng guī dìng .",
+          "en": "Folk stories, literature, fine arts and Peking opera provide cultural material, not everyday regulations."
+        }
+      ],
+      "bank": [
+        "当地",
+        "文学",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "习俗",
+        "pinyin": "xí sú",
+        "meaning": "custom"
+      },
+      {
+        "hanzi": "介绍",
+        "pinyin": "jiè shào",
+        "meaning": "to introduce"
+      },
+      {
+        "hanzi": "每个人",
+        "pinyin": "měi gè rén",
+        "meaning": "each person"
+      },
+      {
+        "hanzi": "像",
+        "pinyin": "xiàng",
+        "meaning": "like; resemble"
+      },
+      {
+        "hanzi": "庆祝",
+        "pinyin": "qìng zhù",
+        "meaning": "to celebrate"
+      },
+      {
+        "hanzi": "文章",
+        "pinyin": "wén zhāng",
+        "meaning": "article"
+      },
+      {
+        "hanzi": "提供",
+        "pinyin": "tí gōng",
+        "meaning": "to provide"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u18-media",
+      "title": "A guest, not a costume test",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about an overgeneralization.",
+      "lines": [
+        {
+          "zh": "电影里都这样，我也照着做吧。",
+          "py": "diàn yǐng lǐ dōu zhè yàng , wǒ yě zhào zhe zuò ba .",
+          "en": "Everyone does it this way in the film; I will copy it.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你去做客，不是去演电影。",
+          "py": "nǐ qù zuò kè , bù shì qù yǎn diàn yǐng .",
+          "en": "You are visiting as a guest, not acting in a film.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那先向主人问时间。",
+          "py": "nà xiān xiàng zhǔ rén wèn shí jiān .",
+          "en": "Then ask the host for the time first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "很好，这个动作不用排练。",
+          "py": "hěn hǎo , zhè gè dòng zuò bù yòng pái liàn .",
+          "en": "Good. That action needs no rehearsal.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the reply favour?",
+          "choices": [
+            "Asking the actual host",
+            "Copying every scene",
+            "Requiring a performance"
+          ],
+          "answer": "Asking the actual host"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u18-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "文明交流也包括认真听不同意见。",
+          "py": "wén míng jiāo liú yě bāo kuò rèn zhēn tīng bù tóng yì jiàn .",
+          "en": "Civil communication also includes listening to different opinions."
+        },
+        {
+          "zh": "文明地交流，也要让对方把话说完。",
+          "py": "wén míng de jiāo liú , yě yào ràng duì fāng bǎ huà shuō wán .",
+          "en": "Communicating civilly also means letting the other person finish."
+        },
+        {
+          "zh": "民间故事有不同版本。",
+          "py": "mín jiān gù shì yǒu bù tóng bǎn běn .",
+          "en": "Folk stories have different versions."
+        },
+        {
+          "zh": "华人的习惯不一定完全一样。",
+          "py": "huá rén de xí guàn bù yí dìng wán quán yī yàng .",
+          "en": "People of Chinese heritage do not necessarily all share identical customs."
+        },
+        {
+          "zh": "文章讨论中华民族的文化，不代表每个人都一样。",
+          "py": "wén zhāng tǎo lùn zhōng huá mín zú de wén huà , bù dài biǎo měi gè rén dōu yī yàng .",
+          "en": "The article discusses the culture of the Chinese nation; it does not mean every person is alike."
+        },
+        {
+          "zh": "社会变化，习俗也会变化。",
+          "py": "shè huì biàn huà , xí sú yě huì biàn huà .",
+          "en": "As society changes, customs can change too."
+        },
+        {
+          "zh": "人民的生活不能只看一张照片。",
+          "py": "rén mín de shēng huó bù néng zhǐ kàn yī zhāng zhào piān .",
+          "en": "People’s lives cannot be understood from a single photo."
+        },
+        {
+          "zh": "世界各地有不同习俗。",
+          "py": "shì jiè gè dì yǒu bù tóng xí sú .",
+          "en": "Different places around the world have different customs."
+        },
+        {
+          "zh": "不同的时代有不同的安排。",
+          "py": "bù tóng de shí dài yǒu bù tóng de ān pái .",
+          "en": "Different eras have different arrangements."
+        },
+        {
+          "zh": "不同的时代，做客的安排也可能不同。",
+          "py": "bù tóng de shí dài , zuò kè de ān pái yě kě néng bù tóng .",
+          "en": "In different eras, arrangements for visiting may differ."
+        },
+        {
+          "zh": "国庆活动先看当地通知。",
+          "py": "guó qìng huó dòng xiān kàn dāng dì tōng zhī .",
+          "en": "For National Day activities, check local notices first."
+        },
+        {
+          "zh": "文学里的场景不一定是现实规则。",
+          "py": "wén xué lǐ de chǎng jǐng bù yí dìng shì xiàn shí guī zé .",
+          "en": "A scene in literature is not necessarily a real-life rule."
+        },
+        {
+          "zh": "美术作品也可以表现节日。",
+          "py": "měi shù zuò pǐn yě kě yǐ biǎo xiàn jié rì .",
+          "en": "A work of fine art can depict a festival too."
+        },
+        {
+          "zh": "武术表演不是所有人的日常习惯。",
+          "py": "wǔ shù biǎo yǎn bù shì suǒ yǒu rén de rì cháng xí guàn .",
+          "en": "A martial arts performance is not everyone’s daily habit."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "习俗",
+          "pinyin": "xí sú",
+          "meaning": "custom"
+        },
+        {
+          "hanzi": "每个人",
+          "pinyin": "měi gè rén",
+          "meaning": "each person"
+        },
+        {
+          "hanzi": "交流",
+          "pinyin": "jiāo liú",
+          "meaning": "to exchange"
+        },
+        {
+          "hanzi": "文章",
+          "pinyin": "wén zhāng",
+          "meaning": "article"
+        },
+        {
+          "hanzi": "版本",
+          "pinyin": "bǎn běn",
+          "meaning": "version"
+        },
+        {
+          "hanzi": "作品",
+          "pinyin": "zuò pǐn",
+          "meaning": "work of art or literature"
+        },
+        {
+          "hanzi": "表演",
+          "pinyin": "biǎo yǎn",
+          "meaning": "to perform; performance"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u18-t1",
+      "phrase": "s3-u18-w14",
+      "audio": {
+        "zh": "我向当地朋友问，这是她家的习惯。",
+        "py": "wǒ xiàng dāng dì péng you wèn , zhè shì tā jiā de xí guàn .",
+        "en": "I ask a local friend; this is her family’s custom."
+      },
+      "statement": "The answer is identified as a family practice.",
+      "answer": true,
+      "why": "The scope is explicitly limited."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u18-t2",
+      "phrase": "s3-u18-w10",
+      "audio": {
+        "zh": "上个世纪的照片不代表今天。",
+        "py": "shàng gè shì jì de zhào piān bù dài biǎo jīn tiān .",
+        "en": "A photo from the last century does not represent today."
+      },
+      "statement": "The old photo proves every current custom.",
+      "answer": false,
+      "why": "Time and scope differ."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u18-t3",
+      "phrase": "s3-u18-w17",
+      "prompt": {
+        "zh": "第一次去做客，先做什么？",
+        "py": "dì yī cì qù zuò kè , xiān zuò shén me ?",
+        "en": "Before a first visit as a guest, what comes first?"
+      },
+      "choices": [
+        "向主人问清楚时间。",
+        "按电影猜所有规则。",
+        "替主人写统一习俗。"
+      ],
+      "answer": "向主人问清楚时间。",
+      "why": "Ask the host."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u18-t4",
+      "phrase": "s3-u18-w01",
+      "prompt": {
+        "zh": "一个例子能代表所有人吗？",
+        "py": "yī gè lì zi néng dài biǎo suǒ yǒu rén ma ?",
+        "en": "Can one example represent everyone?"
+      },
+      "choices": [
+        "不能，要说明具体范围。",
+        "能，文学就是规定。",
+        "能，世界只有一种习惯。"
+      ],
+      "answer": "不能，要说明具体范围。",
+      "why": "Identify the actual scope."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u18-t5",
+      "phrase": "s3-u18-w16",
+      "line": {
+        "zh": "【庆祝】的方式可以不同。",
+        "py": "qìng zhù de fāng shì kě yǐ bù tóng .",
+        "en": "Ways of celebrating may differ."
+      },
+      "blankPy": "qìng zhù"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u18-t6",
+      "phrase": "s3-u18-w22",
+      "line": {
+        "zh": "不知道就问，这样很【自然】。",
+        "py": "bù zhī dào jiù wèn , zhè yàng hěn zì rán .",
+        "en": "Ask when unsure; that is natural."
+      },
+      "blankPy": "zì rán"
+    },
+    {
+      "type": "match",
+      "id": "s3-u18-t7",
+      "phrase": "s3-u18-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Check present-day arrangements again.",
+          "right": {
+            "zh": "现代安排要再确认。",
+            "py": "xiàn dài ān pái yào zài què rèn .",
+            "en": "Check present-day arrangements again."
+          }
+        },
+        {
+          "left": "Ask a local friend for advice.",
+          "right": {
+            "zh": "向当地朋友请教。",
+            "py": "xiàng dāng dì péng you qǐng jiào .",
+            "en": "Ask a local friend for advice."
+          }
+        },
+        {
+          "left": "Ask the time first as usual.",
+          "right": {
+            "zh": "像平时一样先问时间。",
+            "py": "xiàng píng shí yī yàng xiān wèn shí jiān .",
+            "en": "Ask the time first as usual."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u18-t8",
+      "phrase": "s3-u18-w20",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Peking opera is performance, not everyone’s conversational style.",
+          "right": {
+            "zh": "京剧是表演，不是所有人的聊天方式。",
+            "py": "jīng jù shì biǎo yǎn , bù shì suǒ yǒu rén de liáo tiān fāng shì .",
+            "en": "Peking opera is performance, not everyone’s conversational style."
+          }
+        },
+        {
+          "left": "This is only her family’s custom.",
+          "right": {
+            "zh": "这只是她家的习惯。",
+            "py": "zhè zhǐ shì tā jiā de xí guàn .",
+            "en": "This is only her family’s custom."
+          }
+        },
+        {
+          "left": "Ancient customs can also change.",
+          "right": {
+            "zh": "古代习俗也可能改变。",
+            "py": "gǔ dài xí sú yě kě néng gǎi biàn .",
+            "en": "Ancient customs can also change."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u18-t9",
+      "phrase": "s3-u18-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "She will probably arrive at six; it is unconfirmed.",
+          "right": {
+            "zh": "她大概六点到，还没确认。",
+            "py": "tā dà gài liù diǎn dào , hái méi què rèn .",
+            "en": "She will probably arrive at six; it is unconfirmed."
+          }
+        },
+        {
+          "left": "If it rains, meet indoors.",
+          "right": {
+            "zh": "要是下雨，就在室内见。",
+            "py": "yào shì xià yǔ , jiù zài shì nèi jiàn .",
+            "en": "If it rains, meet indoors."
+          }
+        },
+        {
+          "left": "Walk toward the doorway; arrival has not been established.",
+          "right": {
+            "zh": "朝门口走，还没说是否到达。",
+            "py": "cháo mén kǒu zǒu , hái méi shuō shì fǒu dào dá .",
+            "en": "Walk toward the doorway; arrival has not been established."
+          }
+        },
+        {
+          "left": "I am on the second floor; come up.",
+          "right": {
+            "zh": "我在二楼，你上来。",
+            "py": "wǒ zài èr lóu , nǐ shàng lái .",
+            "en": "I am on the second floor; come up."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask without assuming",
+      "natural": {
+        "zh": "这是你家的习惯，还是活动的规定？",
+        "py": "zhè shì nǐ jiā de xí guàn , hái shi huó dòng de guī dìng ?",
+        "en": "Is this your household practice or an event rule?"
+      },
+      "note": "Clarify scope respectfully."
+    },
+    {
+      "situation": "Introduce a limited example",
+      "natural": {
+        "zh": "我朋友家是这样安排的。",
+        "py": "wǒ péng you jiā shì zhè yàng ān pái de .",
+        "en": "My friend’s family arranges it this way."
+      },
+      "note": "Avoid claiming everyone does the same."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u18-speak",
+    "title": "Explaining an unfamiliar custom",
+    "place": "A language-exchange meeting",
+    "context": "Explain whom an action is directed toward and use comparisons.",
+    "goal": "Explain a custom without treating one example as universal",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "向谁问？",
+        "pinyin": "xiàng shéi wèn ?",
+        "meaning": "Whom should one ask?",
+        "intent": "Name the relevant recipient",
+        "examples": [
+          "向主人问。"
+        ],
+        "accept": [
+          "^向主人问。[。！？]?$"
+        ]
+      },
+      {
+        "text": "所有人都这样吗？",
+        "pinyin": "suǒ yǒu rén dōu zhè yàng ma ?",
+        "meaning": "Does everyone do it this way?",
+        "intent": "Limit the claim",
+        "examples": [
+          "不一定，这是她家的习惯。"
+        ],
+        "accept": [
+          "^不一定，这是她家的习惯。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三24, 三41. Native check: 向 recipient versus 朝 direction, 像……一样 comparison scope, 文明 adjective versus civilization noun, 华人 and 中华民族 sociocultural register, folk/art genres and metaphorical film joke. No essentialist or universal custom claims. Native review pending. Planned retrieval 三18 / 三69 / 三22 / 三47: 她大概六点到，还没确认。, 要是下雨，就在室内见。, 朝门口走，还没说是否到达。, 我在二楼，你上来。."
+}

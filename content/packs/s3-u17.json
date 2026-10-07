@@ -1,0 +1,1301 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u17",
+    "stage": 2,
+    "order": 81,
+    "title": "What matters to you?",
+    "titleZh": "对你来说什么重要",
+    "canDo": [
+      "Explain a choice from a person’s perspective",
+      "Express concern or happiness directed toward a particular person",
+      "Compare personal needs without claiming everyone agrees"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u16"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u17-w01",
+      "hanzi": "感情",
+      "pinyin": "gǎn qíng",
+      "meaning": "feeling; affection",
+      "meaningVi": "tình cảm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "朋友之间的感情不能只看礼物价格。",
+        "py": "péng you zhī jiān de gǎn qíng bù néng zhǐ kàn lǐ wù jià gé .",
+        "en": "Friendship cannot be judged only by gift prices."
+      },
+      "usageNote": "[GF2021:L3:2595] Source entry: 感情; gǎnqíng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w02",
+      "hanzi": "感受",
+      "pinyin": "gǎn shòu",
+      "meaning": "feeling; to feel",
+      "meaningVi": "cảm nhận",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先听对方的感受，再解释。",
+        "py": "xiān tīng duì fāng de gǎn shòu , zài jiě shì .",
+        "en": "Listen to the other person’s feelings before explaining."
+      },
+      "usageNote": "[GF2021:L3:2599] Source entry: 感受; gǎnshòu; 名、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w03",
+      "hanzi": "情感",
+      "pinyin": "qíng gǎn",
+      "meaning": "emotion; emotional feeling",
+      "meaningVi": "cảm xúc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这段话表达情感，不是活动规则。",
+        "py": "zhè duàn huà biǎo dá qíng gǎn , bù shì huó dòng guī zé .",
+        "en": "This passage expresses emotion, not event rules."
+      },
+      "usageNote": "[GF2021:L3:6504] Source entry: 情感; qínggǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w04",
+      "hanzi": "内心",
+      "pinyin": "nèi xīn",
+      "meaning": "inner feelings; heart",
+      "meaningVi": "nội tâm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她内心想参加，今天却太累。",
+        "py": "tā nèi xīn xiǎng cān jiā , jīn tiān què tài lèi .",
+        "en": "Inside she wants to join, but today she is too tired."
+      },
+      "usageNote": "[GF2021:L3:5828] Source entry: 内心; nèixīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w05",
+      "hanzi": "心",
+      "pinyin": "xīn",
+      "meaning": "heart; mind",
+      "meaningVi": "lòng; tim",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "心里想去，也可以说今天不方便。",
+        "py": "xīn lǐ xiǎng qù , yě kě yǐ shuō jīn tiān bù fāng biàn .",
+        "en": "Even if one wants to go, one can say today is inconvenient."
+      },
+      "usageNote": "[GF2021:L3:8972] Source entry: 心; xīn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w06",
+      "hanzi": "思想",
+      "pinyin": "sī xiǎng",
+      "meaning": "thought; ideas",
+      "meaningVi": "tư tưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "交流思想，不必有完全一样的答案。",
+        "py": "jiāo liú sī xiǎng , bù bì yǒu wán quán yī yàng de dá àn .",
+        "en": "Exchange ideas; identical answers are not required."
+      },
+      "usageNote": "[GF2021:L3:7630] Source entry: 思想; sīxiǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w07",
+      "hanzi": "价值",
+      "pinyin": "jià zhí",
+      "meaning": "value",
+      "meaningVi": "giá trị",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "对我来说，实用比价格更有价值。",
+        "py": "duì wǒ lái shuō , shí yòng bǐ jià gé gèng yǒu jià zhí .",
+        "en": "For me, usefulness has more value than price."
+      },
+      "usageNote": "[GF2021:L3:3884] Source entry: 价值; jiàzhí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w08",
+      "hanzi": "意义",
+      "pinyin": "yì yì",
+      "meaning": "meaning; significance",
+      "meaningVi": "ý nghĩa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个选择对她有自己的意义。",
+        "py": "zhè gè xuǎn zé duì tā yǒu zì jǐ de yì yì .",
+        "en": "This choice has its own significance for her."
+      },
+      "usageNote": "[GF2021:L3:9668] Source entry: 意义; yìyì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w09",
+      "hanzi": "个人",
+      "pinyin": "gè rén",
+      "meaning": "individual; personal",
+      "meaningVi": "cá nhân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "个人需要不一定一样。",
+        "py": "gè rén xū yào bù yí dìng yī yàng .",
+        "en": "Individual needs are not necessarily the same."
+      },
+      "usageNote": "[GF2021:L3:2717] Source entry: 个人; gèrén; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w10",
+      "hanzi": "自身",
+      "pinyin": "zì shēn",
+      "meaning": "oneself; one’s own",
+      "meaningVi": "bản thân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先了解自身需要，再比较。",
+        "py": "xiān liǎo jiě zì shēn xū yào , zài bǐ jiào .",
+        "en": "Understand one’s own needs before comparing."
+      },
+      "usageNote": "[GF2021:L3:10921] Source entry: 自身; zìshēn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w11",
+      "hanzi": "自主",
+      "pinyin": "zì zhǔ",
+      "meaning": "to act independently; autonomous",
+      "meaningVi": "tự chủ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她可以自主选择，不必替她决定。",
+        "py": "tā kě yǐ zì zhǔ xuǎn zé , bù bì tì tā jué dìng .",
+        "en": "She can choose independently; there is no need to decide for her."
+      },
+      "usageNote": "[GF2021:L3:10940] Source entry: 自主; zìzhǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w12",
+      "hanzi": "理解",
+      "pinyin": "lǐ jiě",
+      "meaning": "to understand",
+      "meaningVi": "hiểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "理解理由，不等于必须同意。",
+        "py": "lǐ jiě lǐ yóu , bù děng yú bì xū tóng yì .",
+        "en": "Understanding the reason does not mean one must agree."
+      },
+      "usageNote": "[GF2021:L3:5039] Source entry: 理解; lǐjiě; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w13",
+      "hanzi": "对方",
+      "pinyin": "duì fāng",
+      "meaning": "the other person or party",
+      "meaningVi": "đối phương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先问对方有没有空。",
+        "py": "xiān wèn duì fāng yǒu méi yǒu kōng .",
+        "en": "Ask first whether the other person is free."
+      },
+      "usageNote": "[GF2021:L3:2027] Source entry: 对方; duìfāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w14",
+      "hanzi": "对象",
+      "pinyin": "duì xiàng",
+      "meaning": "object; intended recipient",
+      "meaningVi": "đối tượng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这份说明的对象是新会员。",
+        "py": "zhè fèn shuō míng de duì xiàng shì xīn huì yuán .",
+        "en": "This explanation is intended for new members."
+      },
+      "usageNote": "[GF2021:L3:2036] Source entry: 对象; duìxiàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w15",
+      "hanzi": "合理",
+      "pinyin": "hé lǐ",
+      "meaning": "reasonable",
+      "meaningVi": "hợp lý",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "按实际需要选择比较合理。",
+        "py": "àn shí jì xū yào xuǎn zé bǐ jiào hé lǐ .",
+        "en": "Choosing according to actual needs is more reasonable."
+      },
+      "usageNote": "[GF2021:L3:3270] Source entry: 合理; hélǐ; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w16",
+      "hanzi": "客观",
+      "pinyin": "kè guān",
+      "meaning": "objective",
+      "meaningVi": "khách quan",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "客观记录价格，不代替别人判断价值。",
+        "py": "kè guān jì lù jià gé , bù dài tì bié ren pàn duàn jià zhí .",
+        "en": "Record prices objectively without judging value for others."
+      },
+      "usageNote": "[GF2021:L3:4730] Source entry: 客观; kèguān; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w17",
+      "hanzi": "体会",
+      "pinyin": "tǐ huì",
+      "meaning": "to appreciate through experience; understanding",
+      "meaningVi": "thấu hiểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "听完她的理由，我能体会她的感受。",
+        "py": "tīng wán tā de lǐ yóu , wǒ néng tǐ huì tā de gǎn shòu .",
+        "en": "After hearing her reasons, I can appreciate her feelings."
+      },
+      "usageNote": "[GF2021:L3:7905] Source entry: 体会; tǐhuì; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w18",
+      "hanzi": "体验",
+      "pinyin": "tǐ yàn",
+      "meaning": "to experience",
+      "meaningVi": "trải nghiệm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先体验一次，再决定要不要继续。",
+        "py": "xiān tǐ yàn yī cì , zài jué dìng yào bù yào jì xù .",
+        "en": "Try it once before deciding whether to continue."
+      },
+      "usageNote": "[GF2021:L3:7916] Source entry: 体验; tǐyàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w19",
+      "hanzi": "体现",
+      "pinyin": "tǐ xiàn",
+      "meaning": "to reflect; embody",
+      "meaningVi": "thể hiện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个安排体现对不同需要的尊重。",
+        "py": "zhè gè ān pái tǐ xiàn duì bù tóng xū yào de zūn zhòng .",
+        "en": "This arrangement reflects respect for different needs."
+      },
+      "usageNote": "[GF2021:L3:7915] Source entry: 体现; tǐxiàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w20",
+      "hanzi": "相似",
+      "pinyin": "xiāng sì",
+      "meaning": "similar",
+      "meaningVi": "tương tự",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "需要相似，也不一定选同一个时间。",
+        "py": "xū yào xiāng sì , yě bù yí dìng xuǎn tóng yī gè shí jiān .",
+        "en": "Similar needs do not necessarily mean choosing the same time."
+      },
+      "usageNote": "[GF2021:L3:8808] Source entry: 相似; xiāngsì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w21",
+      "hanzi": "显然",
+      "pinyin": "xiǎn rán",
+      "meaning": "evidently; obviously",
+      "meaningVi": "rõ ràng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她显然还没决定，别替她答应。",
+        "py": "tā xiǎn rán hái méi jué dìng , bié tì tā dā yìng .",
+        "en": "She evidently has not decided; do not agree on her behalf."
+      },
+      "usageNote": "[GF2021:L3:8749] Source entry: 显然; xiǎnrán; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u17-w22",
+      "hanzi": "状况",
+      "pinyin": "zhuàng kuàng",
+      "meaning": "condition; situation",
+      "meaningVi": "tình trạng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天身体状况不好，就先休息。",
+        "py": "jīn tiān shēn tǐ zhuàng kuàng bù hǎo , jiù xiān xiū xī .",
+        "en": "If one feels unwell today, rest first."
+      },
+      "usageNote": "[GF2021:L3:10838] Source entry: 状况; zhuàngkuàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "内",
+      "pinyin": "nèi",
+      "meaning": "inside",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "内",
+          "role": "whole",
+          "gloss": "inside"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 内 in 内心 / 内容. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "内心",
+          "p": "nèi xīn",
+          "m": "inner feelings; heart"
+        },
+        {
+          "w": "内容",
+          "p": "nèi róng",
+          "m": "content"
+        }
+      ]
+    },
+    {
+      "hanzi": "值",
+      "pinyin": "zhí",
+      "meaning": "value",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "值",
+          "role": "whole",
+          "gloss": "value"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 值 in 价值 / 值班. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "价值",
+          "p": "jià zhí",
+          "m": "value"
+        },
+        {
+          "w": "值班",
+          "p": "zhí bān",
+          "m": "to be on duty"
+        }
+      ]
+    },
+    {
+      "hanzi": "义",
+      "pinyin": "yì",
+      "meaning": "meaning; justice",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "义",
+          "role": "whole",
+          "gloss": "meaning; justice"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 义 in 意义. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "意义",
+          "p": "yì yì",
+          "m": "meaning; significance"
+        }
+      ]
+    },
+    {
+      "hanzi": "似",
+      "pinyin": "shì",
+      "meaning": "similar",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "似",
+          "role": "whole",
+          "gloss": "similar"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 似 in 相似. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "相似",
+          "p": "xiāng sì",
+          "m": "similar"
+        }
+      ]
+    },
+    {
+      "hanzi": "显",
+      "pinyin": "xiǎn",
+      "meaning": "manifest; show",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "显",
+          "role": "whole",
+          "gloss": "manifest; show"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 显 in 显然 / 显示. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "显然",
+          "p": "xiǎn rán",
+          "m": "evidently"
+        },
+        {
+          "w": "显示",
+          "p": "xiǎn shì",
+          "m": "to display"
+        }
+      ]
+    },
+    {
+      "hanzi": "况",
+      "pinyin": "kuàng",
+      "meaning": "condition",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "况",
+          "role": "whole",
+          "gloss": "condition"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 况 in 状况 / 情况. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "状况",
+          "p": "zhuàng kuàng",
+          "m": "condition; situation"
+        },
+        {
+          "w": "情况",
+          "p": "qíng kuàng",
+          "m": "situation"
+        }
+      ]
+    },
+    {
+      "hanzi": "属",
+      "pinyin": "shǔ",
+      "meaning": "belong to",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "属",
+          "role": "whole",
+          "gloss": "belong to"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 属 in 家属 / 属于. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "家属",
+          "p": "jiā shǔ",
+          "m": "family member; dependent"
+        },
+        {
+          "w": "属于",
+          "p": "shǔ yú",
+          "m": "to belong to"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u17-g三23",
+      "pattern": "为：情绪或关心的对象",
+      "purpose": "Identify whom an emotion or concern is directed toward",
+      "explanation": "我为你高兴 and 我为她担心 identify the person an emotion concerns. This object use extends, rather than repeats, the earlier beneficiary use 为朋友打印材料. Both use wèi, unlike wéi in 成为. Concern does not authorize deciding for the person; 我替她决定 acts in her place. Preserve the distinction between a feeling toward someone and an action intended to benefit them.",
+      "examples": [
+        {
+          "zh": "我为你高兴，但不替你决定。",
+          "py": "wǒ wèi nǐ gāo xìng , dàn bù tì nǐ jué dìng .",
+          "en": "I am happy for you but do not decide for you."
+        },
+        {
+          "zh": "她为朋友的身体担心。",
+          "py": "tā wèi péng you de shēn tǐ dān xīn .",
+          "en": "She is concerned about her friend’s health."
+        },
+        {
+          "zh": "别为我的选择着急，我会先问清楚。",
+          "py": "bié wèi wǒ de xuǎn zé zháo jí , wǒ huì xiān wèn qīng chǔ .",
+          "en": "Do not worry about my choice; I will clarify it first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我为她担心，所以她必须听我的。",
+          "right": "我为她担心，也尊重她自己的选择。",
+          "why": "Concern is directed toward a person without removing their agency."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u17-g三40",
+      "pattern": "对……来说",
+      "purpose": "State a perspective rather than a universal judgement",
+      "explanation": "对我来说，安静很重要 locates the judgement in the speaker’s perspective. It does not establish that everyone prefers silence. 对新会员来说 also allows a group perspective, but avoid asserting uniform preferences without evidence. Compare 客观价格 with personally evaluated value.",
+      "examples": [
+        {
+          "zh": "对我来说，安静很重要。",
+          "py": "duì wǒ lái shuō , ān jìng hěn zhòng yào .",
+          "en": "For me, quiet matters."
+        },
+        {
+          "zh": "对她来说，今天休息更合适。",
+          "py": "duì tā lái shuō , jīn tiān xiū xī gèng hé shì .",
+          "en": "For her, rest today is more appropriate."
+        },
+        {
+          "zh": "对新会员来说，先看说明比较方便。",
+          "py": "duì xīn huì yuán lái shuō , xiān kàn shuō míng bǐ jiào fāng biàn .",
+          "en": "For new members, reading the explanation first is more convenient."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "对我来说重要，所以对所有人都重要。",
+          "right": "对我来说重要，对方的需要还要问。",
+          "why": "A personal perspective does not generalize to everyone."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u17-d",
+    "title": "One event, two preferences",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find what each friend prefers and who makes the decision.",
+    "lines": [
+      {
+        "zh": "对你来说，活动最重要的是什么？",
+        "py": "duì nǐ lái shuō , huó dòng zuì zhòng yào de shì shén me ?",
+        "en": "What matters most to you about the event?",
+        "speaker": "a"
+      },
+      {
+        "zh": "安静一点。我今天身体状况不好。",
+        "py": "ān jìng yī diǎn . wǒ jīn tiān shēn tǐ zhuàng kuàng bù hǎo .",
+        "en": "Some quiet. I am not feeling well today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我喜欢热闹，可我能理解你的感受。",
+        "py": "wǒ xǐ huān rè nào , kě wǒ néng lǐ jiě nǐ de gǎn shòu .",
+        "en": "I like a lively atmosphere, but I can understand your feelings.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你为我担心，还换地点了吗？",
+        "py": "nǐ wèi wǒ dān xīn , hái huàn dì diǎn le ma ?",
+        "en": "You are concerned about me; have you also changed the venue?",
+        "speaker": "b"
+      },
+      {
+        "zh": "没有。我为你准备两个选择，你可以自主决定。",
+        "py": "méi yǒu . wǒ wèi nǐ zhǔn bèi liǎng gè xuǎn zé , nǐ kě yǐ zì zhǔ jué dìng .",
+        "en": "No. I prepared two options for you; you can decide independently.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那我先体验安静的活动，不合适就休息。",
+        "py": "nà wǒ xiān tǐ yàn ān jìng de huó dòng , bù hé shì jiù xiū xī .",
+        "en": "Then I will try the quiet activity first and rest if it does not suit me.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，理解不等于所有需要一样。",
+        "py": "hǎo , lǐ jiě bù děng yú suǒ yǒu xū yào yī yàng .",
+        "en": "Okay; understanding does not mean every need is the same.",
+        "speaker": "a"
+      },
+      {
+        "zh": "也别为我的选择着急，我还没定，会先问清楚。",
+        "py": "yě bié wèi wǒ de xuǎn zé zháo jí , wǒ hái méi dìng , huì xiān wèn qīng chǔ .",
+        "en": "And do not worry about my choice; I have not decided and will clarify first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do the friends agree about?",
+        "choices": [
+          "Respecting different needs and the person’s own choice",
+          "Everyone must prefer quiet",
+          "One person has already promised for both"
+        ],
+        "answer": "Respecting different needs and the person’s own choice"
+      },
+      {
+        "type": "detail",
+        "q": "Has the venue been changed?",
+        "choices": [
+          "No",
+          "Yes",
+          "It was cancelled"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Must preparing options mean the friend attends?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if she tries once"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "安静",
+        "pinyin": "ān jìng",
+        "meaning": "quiet"
+      },
+      {
+        "hanzi": "热闹",
+        "pinyin": "rè nào",
+        "meaning": "lively; bustling"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u17-r",
+    "title": "Value is not just a price",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read how the organizer records different needs.",
+    "lines": [
+      {
+        "zh": "对我来说，安静很重要；对朋友来说，交流也有价值。",
+        "py": "duì wǒ lái shuō , ān jìng hěn zhòng yào ; duì péng you lái shuō , jiāo liú yě yǒu jià zhí .",
+        "en": "For me quiet matters; for my friend, interaction also has value."
+      },
+      {
+        "zh": "我们交换思想，不要求个人需要完全一样。",
+        "py": "wǒ men jiāo huàn sī xiǎng , bú yào qiú gè rén xū yào wán quán yī yàng .",
+        "en": "We exchange ideas without requiring identical individual needs."
+      },
+      {
+        "zh": "我为她准备两个选择，没有替她决定。",
+        "py": "wǒ wèi tā zhǔn bèi liǎng gè xuǎn zé , méi yǒu tì tā jué dìng .",
+        "en": "I prepared two options for her and did not decide in her place."
+      },
+      {
+        "zh": "说明的对象是新会员，可以先体验一次。",
+        "py": "shuō míng de duì xiàng shì xīn huì yuán , kě yǐ xiān tǐ yàn yī cì .",
+        "en": "The explanation is for new members, who may try once first."
+      },
+      {
+        "zh": "她内心想参加，今天的身体状况却不好。",
+        "py": "tā nèi xīn xiǎng cān jiā , jīn tiān de shēn tǐ zhuàng kuàng què bù hǎo .",
+        "en": "Inside she wants to join, but she is not feeling well today."
+      },
+      {
+        "zh": "我客观记录价格，也尊重她对意义和价值的判断。",
+        "py": "wǒ kè guān jì lù jià gé , yě zūn zhòng tā duì yì yì hé jià zhí de pàn duàn .",
+        "en": "I record the prices objectively and respect her judgement of meaning and value."
+      },
+      {
+        "zh": "相似的需要不等于一样的选择，她显然还没答应。",
+        "py": "xiāng sì de xū yào bù děng yú yī yàng de xuǎn zé , tā xiǎn rán hái méi dā yìng .",
+        "en": "Similar needs do not mean identical choices; she evidently has not agreed."
+      },
+      {
+        "zh": "这个位置属于安静区，选择它也不代表拒绝朋友。",
+        "py": "zhè gè wèi zhì shǔ yú ān jìng qū , xuǎn zé tā yě bù dài biǎo jù jué péng you .",
+        "en": "This place belongs to the quiet area; choosing it does not mean rejecting a friend."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the record separate?",
+        "choices": [
+          "Personal perspective, objective price and actual consent",
+          "Quiet as a rule for everyone",
+          "A prepared option as a promise"
+        ],
+        "answer": "Personal perspective, objective price and actual consent"
+      },
+      {
+        "type": "detail",
+        "q": "Who makes her final decision?",
+        "choices": [
+          "She does",
+          "The person who prepared options",
+          "All new members together"
+        ],
+        "answer": "She does"
+      },
+      {
+        "type": "inference",
+        "q": "Does choosing a quiet place reject the friendship?",
+        "choices": [
+          "Not necessarily",
+          "Definitely",
+          "Only when the price is low"
+        ],
+        "answer": "Not necessarily"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我为她准备两个选择，没有替她【决定】。",
+          "py": "wǒ wèi tā zhǔn bèi liǎng gè xuǎn zé , méi yǒu tì tā jué dìng .",
+          "en": "I prepared two options for her and did not decide in her place."
+        },
+        {
+          "zh": "【相似】的需要不等于一样的选择，她显然还没答应。",
+          "py": "xiāng sì de xū yào bù děng yú yī yàng de xuǎn zé , tā xiǎn rán hái méi dā yìng .",
+          "en": "Similar needs do not mean identical choices; she evidently has not agreed."
+        }
+      ],
+      "bank": [
+        "决定",
+        "相似",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "安静",
+        "pinyin": "ān jìng",
+        "meaning": "quiet"
+      },
+      {
+        "hanzi": "相似",
+        "pinyin": "xiāng sì",
+        "meaning": "similar"
+      },
+      {
+        "hanzi": "显然",
+        "pinyin": "xiǎn rán",
+        "meaning": "evidently"
+      },
+      {
+        "hanzi": "属于",
+        "pinyin": "shǔ yú",
+        "meaning": "to belong to"
+      },
+      {
+        "hanzi": "尊重",
+        "pinyin": "zūn zhòng",
+        "meaning": "to respect"
+      },
+      {
+        "hanzi": "拒绝",
+        "pinyin": "jù jué",
+        "meaning": "to refuse"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u17-media",
+      "title": "Two choices, no invisible promise",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original short exchange about helpfulness.",
+      "lines": [
+        {
+          "zh": "我为你想好了，感动吧？",
+          "py": "wǒ wèi nǐ xiǎng hǎo le , gǎn dòng ba ?",
+          "en": "I worked it out for you; moved, right?",
+          "speaker": "a"
+        },
+        {
+          "zh": "两个选择很好，别顺便把我的答案也写了。",
+          "py": "liǎng gè xuǎn zé hěn hǎo , bié shùn biàn bǎ wǒ de dá àn yě xiě le .",
+          "en": "Two choices are good; just do not write my answer too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，笔给你。",
+          "py": "hǎo , bǐ gěi nǐ .",
+          "en": "Okay, here is the pen.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次真是为我准备的。",
+          "py": "zhè cì zhēn shì wèi wǒ zhǔn bèi de .",
+          "en": "This time it really is prepared for me.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the friend want?",
+          "choices": [
+            "A choice she can make herself",
+            "No options at all",
+            "The organizer to decide silently"
+          ],
+          "answer": "A choice she can make herself"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u17-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "朋友之间的感情不能只看礼物价格。",
+          "py": "péng you zhī jiān de gǎn qíng bù néng zhǐ kàn lǐ wù jià gé .",
+          "en": "Friendship cannot be judged only by gift prices."
+        },
+        {
+          "zh": "我们重视朋友之间的感情，也尊重不同选择。",
+          "py": "wǒ men zhòng shì péng you zhī jiān de gǎn qíng , yě zūn zhòng bù tóng xuǎn zé .",
+          "en": "We value friendship and also respect different choices."
+        },
+        {
+          "zh": "这段话表达情感，不是活动规则。",
+          "py": "zhè duàn huà biǎo dá qíng gǎn , bù shì huó dòng guī zé .",
+          "en": "This passage expresses emotion, not event rules."
+        },
+        {
+          "zh": "情感可以表达清楚，不必猜对方的答案。",
+          "py": "qíng gǎn kě yǐ biǎo dá qīng chǔ , bù bì cāi duì fāng de dá àn .",
+          "en": "Emotions can be expressed clearly without guessing the other person’s answer."
+        },
+        {
+          "zh": "她内心想参加，今天却太累。",
+          "py": "tā nèi xīn xiǎng cān jiā , jīn tiān què tài lèi .",
+          "en": "Inside she wants to join, but today she is too tired."
+        },
+        {
+          "zh": "交流思想，不必有完全一样的答案。",
+          "py": "jiāo liú sī xiǎng , bù bì yǒu wán quán yī yàng de dá àn .",
+          "en": "Exchange ideas; identical answers are not required."
+        },
+        {
+          "zh": "这个选择对她有自己的意义。",
+          "py": "zhè gè xuǎn zé duì tā yǒu zì jǐ de yì yì .",
+          "en": "This choice has its own significance for her."
+        },
+        {
+          "zh": "个人需要不一定一样。",
+          "py": "gè rén xū yào bù yí dìng yī yàng .",
+          "en": "Individual needs are not necessarily the same."
+        },
+        {
+          "zh": "先了解自身需要，再比较。",
+          "py": "xiān liǎo jiě zì shēn xū yào , zài bǐ jiào .",
+          "en": "Understand one’s own needs before comparing."
+        },
+        {
+          "zh": "她根据自身情况，决定先休息。",
+          "py": "tā gēn jù zì shēn qíng kuàng , jué dìng xiān xiū xī .",
+          "en": "She decides to rest first based on her own situation."
+        },
+        {
+          "zh": "先问对方有没有空。",
+          "py": "xiān wèn duì fāng yǒu méi yǒu kōng .",
+          "en": "Ask first whether the other person is free."
+        },
+        {
+          "zh": "对方还没说愿意，我们先不替她答应。",
+          "py": "duì fāng hái méi shuō yuàn yì , wǒ men xiān bù tì tā dā yìng .",
+          "en": "The other person has not said she is willing; do not agree on her behalf."
+        },
+        {
+          "zh": "这份说明的对象是新会员。",
+          "py": "zhè fèn shuō míng de duì xiàng shì xīn huì yuán .",
+          "en": "This explanation is intended for new members."
+        },
+        {
+          "zh": "按实际需要选择比较合理。",
+          "py": "àn shí jì xū yào xuǎn zé bǐ jiào hé lǐ .",
+          "en": "Choosing according to actual needs is more reasonable."
+        },
+        {
+          "zh": "把两个人的需要都问清楚，安排才合理。",
+          "py": "bǎ liǎng gè rén de xū yào dōu wèn qīng chǔ , ān pái cái hé lǐ .",
+          "en": "Clarifying both people’s needs makes the arrangement reasonable."
+        },
+        {
+          "zh": "听完她的理由，我能体会她的感受。",
+          "py": "tīng wán tā de lǐ yóu , wǒ néng tǐ huì tā de gǎn shòu .",
+          "en": "After hearing her reasons, I can appreciate her feelings."
+        },
+        {
+          "zh": "听她说今天很累，我能体会她想休息。",
+          "py": "tīng tā shuō jīn tiān hěn lèi , wǒ néng tǐ huì tā xiǎng xiū xī .",
+          "en": "Hearing she is tired today, I can appreciate her wish to rest."
+        },
+        {
+          "zh": "这个安排体现对不同需要的尊重。",
+          "py": "zhè gè ān pái tǐ xiàn duì bù tóng xū yào de zūn zhòng .",
+          "en": "This arrangement reflects respect for different needs."
+        },
+        {
+          "zh": "给她自己选，体现对她的尊重。",
+          "py": "gěi tā zì jǐ xuǎn , tǐ xiàn duì tā de zūn zhòng .",
+          "en": "Letting her choose reflects respect for her."
+        },
+        {
+          "zh": "她显然还没决定，别替她答应。",
+          "py": "tā xiǎn rán hái méi jué dìng , bié tì tā dā yìng .",
+          "en": "She evidently has not decided; do not agree on her behalf."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "显然",
+          "pinyin": "xiǎn rán",
+          "meaning": "evidently"
+        },
+        {
+          "hanzi": "情况",
+          "pinyin": "qíng kuàng",
+          "meaning": "situation"
+        },
+        {
+          "hanzi": "尊重",
+          "pinyin": "zūn zhòng",
+          "meaning": "to respect"
+        },
+        {
+          "hanzi": "根据",
+          "pinyin": "gēn jù",
+          "meaning": "on the basis of"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u17-t1",
+      "phrase": "s3-u17-w11",
+      "audio": {
+        "zh": "她可以自主选择，我不替她决定。",
+        "py": "tā kě yǐ zì zhǔ xuǎn zé , wǒ bù tì tā jué dìng .",
+        "en": "She can choose independently; I do not decide for her."
+      },
+      "statement": "She makes her own choice.",
+      "answer": true,
+      "why": "自主 preserves her decision."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u17-t2",
+      "phrase": "s3-u17-w02",
+      "audio": {
+        "zh": "我理解你的感受，但我的需要不同。",
+        "py": "wǒ lǐ jiě nǐ de gǎn shòu , dàn wǒ de xū yào bù tóng .",
+        "en": "I understand your feelings, but my needs differ."
+      },
+      "statement": "Both people have identical needs.",
+      "answer": false,
+      "why": "Understanding is distinct from identical needs."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u17-t3",
+      "phrase": "s3-u17-w13",
+      "prompt": {
+        "zh": "准备好选择以后怎么做？",
+        "py": "zhǔn bèi hǎo xuǎn zé yǐ hòu zěn me zuò ?",
+        "en": "What should one do after preparing options?"
+      },
+      "choices": [
+        "问对方想选哪个。",
+        "直接替她答应。",
+        "把个人需要当统一规则。"
+      ],
+      "answer": "问对方想选哪个。",
+      "why": "Ask the actual recipient."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u17-t4",
+      "phrase": "s3-u17-w07",
+      "prompt": {
+        "zh": "对你来说，价格就是所有价值吗？",
+        "py": "duì nǐ lái shuō , jià gé jiù shì suǒ yǒu jià zhí ma ?",
+        "en": "For you, is price the whole value?"
+      },
+      "choices": [
+        "不是，实用和意义也重要。",
+        "所有人都必须一样。",
+        "没有价格就没有朋友。"
+      ],
+      "answer": "不是，实用和意义也重要。",
+      "why": "Explain the personal criteria."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u17-t5",
+      "phrase": "s3-u17-w12",
+      "line": {
+        "zh": "【理解】理由，不等于必须同意。",
+        "py": "lǐ jiě lǐ yóu , bù děng yú bì xū tóng yì .",
+        "en": "Understanding a reason does not require agreement."
+      },
+      "blankPy": "lǐ jiě"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u17-t6",
+      "phrase": "s3-u17-w20",
+      "line": {
+        "zh": "需要【相似】，选择也可能不同。",
+        "py": "xū yào xiāng sì , xuǎn zé yě kě néng bù tóng .",
+        "en": "Needs may be similar while choices differ."
+      },
+      "blankPy": "xiāng sì"
+    },
+    {
+      "type": "match",
+      "id": "s3-u17-t7",
+      "phrase": "s3-u17-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Record prices objectively.",
+          "right": {
+            "zh": "客观记录价格。",
+            "py": "kè guān jì lù jià gé .",
+            "en": "Record prices objectively."
+          }
+        },
+        {
+          "left": "She has not agreed yet.",
+          "right": {
+            "zh": "她还没答应。",
+            "py": "tā hái méi dā yìng .",
+            "en": "She has not agreed yet."
+          }
+        },
+        {
+          "left": "Try it once first.",
+          "right": {
+            "zh": "先体验一次。",
+            "py": "xiān tǐ yàn yī cì .",
+            "en": "Try it once first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u17-t8",
+      "phrase": "s3-u17-w22",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Not feeling well today.",
+          "right": {
+            "zh": "今天身体状况不好。",
+            "py": "jīn tiān shēn tǐ zhuàng kuàng bù hǎo .",
+            "en": "Not feeling well today."
+          }
+        },
+        {
+          "left": "Prepare two options for her.",
+          "right": {
+            "zh": "为她准备两个选择。",
+            "py": "wèi tā zhǔn bèi liǎng gè xuǎn zé .",
+            "en": "Prepare two options for her."
+          }
+        },
+        {
+          "left": "For me quiet matters.",
+          "right": {
+            "zh": "对我来说安静重要。",
+            "py": "duì wǒ lái shuō ān jìng zhòng yào .",
+            "en": "For me quiet matters."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u17-t9",
+      "phrase": "s3-u17-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Increase speed after hearing clearly.",
+          "right": {
+            "zh": "等听清楚了再加快。",
+            "py": "děng tīng qīng chǔ le zài jiā kuài .",
+            "en": "Increase speed after hearing clearly."
+          }
+        },
+        {
+          "left": "I read personally; you help listen.",
+          "right": {
+            "zh": "我亲自读，你帮我听。",
+            "py": "wǒ qīn zì dú , nǐ bāng wǒ tīng .",
+            "en": "I read personally; you help listen."
+          }
+        },
+        {
+          "left": "Students organize the event.",
+          "right": {
+            "zh": "活动由学生举办。",
+            "py": "huó dòng yóu xué sheng jǔ bàn .",
+            "en": "Students organize the event."
+          }
+        },
+        {
+          "left": "Group according to the list, not arrival time.",
+          "right": {
+            "zh": "按名单分组，不按到达时间。",
+            "py": "àn míng dān fēn zǔ , bù àn dào dá shí jiān .",
+            "en": "Group according to the list, not arrival time."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask about preferences",
+      "natural": {
+        "zh": "对你来说，什么最重要？",
+        "py": "duì nǐ lái shuō , shén me zuì zhòng yào ?",
+        "en": "What matters most to you?"
+      },
+      "note": "Ask without supplying the other person’s answer."
+    },
+    {
+      "situation": "Preserve agency",
+      "natural": {
+        "zh": "我准备了选择，你自己决定。",
+        "py": "wǒ zhǔn bèi le xuǎn zé , nǐ zì jǐ jué dìng .",
+        "en": "I prepared options; you decide."
+      },
+      "note": "Help without claiming consent."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u17-speak",
+    "title": "What matters to you?",
+    "place": "A language-exchange meeting",
+    "context": "Explain a choice from someone's perspective.",
+    "goal": "Explain a choice from a person’s perspective",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你替她答应了吗？",
+        "pinyin": "nǐ tì tā dā yìng le ma ?",
+        "meaning": "Did you agree on her behalf?",
+        "intent": "Preserve the undecided status",
+        "examples": [
+          "没有，她自己决定。"
+        ],
+        "accept": [
+          "^没有，她自己决定。[。！？]?$"
+        ]
+      },
+      {
+        "text": "今天状态怎么样？",
+        "pinyin": "jīn tiān zhuàng tài zěn me yàng ?",
+        "meaning": "How are you today?",
+        "intent": "Report a practical limit",
+        "examples": [
+          "今天有点累，先休息。"
+        ],
+        "accept": [
+          "^今天有点累，先休息。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三23, 三40. Native check: 为2 wèi emotional object versus earlier 为1 beneficiary and 替 substitution, 对……来说 perspective, 自主 conversational register, 感情/情感 distinction and objective price versus evaluated value. Personal-needs claims are fictional and not universal. Native review pending. Planned retrieval 三16 / 三17 / 三20 / 三29: 等听清楚了再加快。, 我亲自读，你帮我听。, 活动由学生举办。, 按名单分组，不按到达时间。."
+}
