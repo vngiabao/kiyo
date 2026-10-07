@@ -1,0 +1,1385 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u23",
+    "stage": 1,
+    "order": 53,
+    "title": "Doing a friend a favour",
+    "titleZh": "帮忙先问清楚",
+    "canDo": [
+      "Ask for a bounded favour with consent",
+      "Use 为 for a beneficiary without confusing 给",
+      "Interpret 有 in an evaluation"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u22"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u23-w01",
+      "hanzi": "为",
+      "pinyin": "wèi",
+      "meaning": "for; on behalf of",
+      "meaningVi": "vì; cho",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我为朋友打印两页材料。",
+        "py": "wǒ wèi péng you dǎ yìn liǎng yè cái liào .",
+        "en": "I print two pages of materials for my friend."
+      },
+      "usageNote": "[GF2021:L2:8415] Source entry: 为; wèi; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w02",
+      "hanzi": "加油",
+      "pinyin": "jiā yóu",
+      "meaning": "to cheer on; refuel",
+      "meaningVi": "cố lên; đổ nhiên liệu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "比赛前我们说加油。",
+        "py": "bǐ sài qián wǒ men shuō jiā yóu .",
+        "en": "Before the match we say Keep it up."
+      },
+      "usageNote": "[GF2021:L2:3844] Source entry: 加油; jiā∥yóu; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w03",
+      "hanzi": "求",
+      "pinyin": "qiú",
+      "meaning": "to request; seek",
+      "meaningVi": "xin; tìm kiếm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个问题可以求别人帮忙，别一个人着急。",
+        "py": "zhè gè wèn tí kě yǐ qiú bié ren bāng máng , bié yī gè rén zháo jí .",
+        "en": "You can seek help with this problem; do not worry alone."
+      },
+      "usageNote": "[GF2021:L2:6539] Source entry: 求; qiú; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w04",
+      "hanzi": "取",
+      "pinyin": "qǔ",
+      "meaning": "to collect; take",
+      "meaningVi": "lấy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "下午去取打印好的材料。",
+        "py": "xià wǔ qù qǔ dǎ yìn hǎo de cái liào .",
+        "en": "Collect the printed materials in the afternoon."
+      },
+      "usageNote": "[GF2021:L2:6568] Source entry: 取; qǔ; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w05",
+      "hanzi": "取得",
+      "pinyin": "qǔ dé",
+      "meaning": "to obtain; achieve",
+      "meaningVi": "đạt được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先取得她的同意，再帮她报名。",
+        "py": "xiān qǔ dé tā de tóng yì , zài bāng tā bào míng .",
+        "en": "Obtain her consent before signing her up."
+      },
+      "usageNote": "[GF2021:L2:6570] Source entry: 取得; qǔdé; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w06",
+      "hanzi": "拿到",
+      "pinyin": "ná dào",
+      "meaning": "to get; receive",
+      "meaningVi": "nhận được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "拿到材料以后，检查页数。",
+        "py": "ná dào cái liào yǐ hòu , jiǎn chá yè shù .",
+        "en": "Once you get the materials, check the number of pages."
+      },
+      "usageNote": "[GF2021:L2:5731] Source entry: 拿到; nádào; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w07",
+      "hanzi": "借",
+      "pinyin": "jiè",
+      "meaning": "to borrow; lend",
+      "meaningVi": "mượn; cho mượn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我想向老师借一本书。",
+        "py": "wǒ xiǎng xiàng lǎo shī jiè yī běn shū .",
+        "en": "I would like to borrow a book from the teacher."
+      },
+      "usageNote": "[GF2021:L2:4239] Source entry: 借; jiè; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w08",
+      "hanzi": "打印",
+      "pinyin": "dǎ yìn",
+      "meaning": "to print",
+      "meaningVi": "in",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "只打印两页，不是整本书。",
+        "py": "zhǐ dǎ yìn liǎng yè , bù shì zhěng běn shū .",
+        "en": "Print only two pages, not the whole book."
+      },
+      "usageNote": "[GF2021:L2:1440] Source entry: 打印; dǎyìn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w09",
+      "hanzi": "计算机",
+      "pinyin": "jì suàn jī",
+      "meaning": "computer",
+      "meaningVi": "máy tính",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "计算机在办公室里。",
+        "py": "jì suàn jī zài bàn gōng shì lǐ .",
+        "en": "The computer is in the office."
+      },
+      "usageNote": "[GF2021:L2:3784] Source entry: 计算机; jìsuànjī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w10",
+      "hanzi": "办公室",
+      "pinyin": "bàn gōng shì",
+      "meaning": "office",
+      "meaningVi": "văn phòng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先问办公室什么时候开门。",
+        "py": "xiān wèn bàn gōng shì shén me shí hou kāi mén .",
+        "en": "First ask when the office opens."
+      },
+      "usageNote": "[GF2021:L2:136] Source entry: 办公室; bàngōngshì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w11",
+      "hanzi": "教师",
+      "pinyin": "jiào shī",
+      "meaning": "teacher",
+      "meaningVi": "giáo viên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "教师不是每天都在办公室。",
+        "py": "jiào shī bù shì měi tiān dōu zài bàn gōng shì .",
+        "en": "The teacher is not in the office every day."
+      },
+      "usageNote": "[GF2021:L2:4120] Source entry: 教师; jiàoshī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w12",
+      "hanzi": "教室",
+      "pinyin": "jiào shì",
+      "meaning": "classroom",
+      "meaningVi": "phòng học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "教室里还有人在上课。",
+        "py": "jiào shì lǐ hái yǒu rén zài shàng kè .",
+        "en": "People are still having class in the classroom."
+      },
+      "usageNote": "[GF2021:L2:4121] Source entry: 教室; jiàoshì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w13",
+      "hanzi": "教学",
+      "pinyin": "jiào xué",
+      "meaning": "teaching; instruction",
+      "meaningVi": "việc giảng dạy",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是教学用的材料。",
+        "py": "zhè shì jiào xué yòng de cái liào .",
+        "en": "These are teaching materials."
+      },
+      "usageNote": "[GF2021:L2:4125] Source entry: 教学; jiàoxué; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w14",
+      "hanzi": "教育",
+      "pinyin": "jiào yù",
+      "meaning": "education; to educate",
+      "meaningVi": "giáo dục",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "教育活动也要说明目的。",
+        "py": "jiào yù huó dòng yě yào shuō míng mù dì .",
+        "en": "An educational activity should also explain its purpose."
+      },
+      "usageNote": "[GF2021:L2:4129] Source entry: 教育; jiàoyù; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w15",
+      "hanzi": "讲",
+      "pinyin": "jiǎng",
+      "meaning": "to speak; tell; explain",
+      "meaningVi": "nói; giảng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "请把要打印哪两页讲清楚。",
+        "py": "qǐng bǎ yào dǎ yìn nǎ liǎng yè jiǎng qīng chǔ .",
+        "en": "Please explain clearly which two pages to print."
+      },
+      "usageNote": "[GF2021:L2:4023] Source entry: 讲; jiǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w16",
+      "hanzi": "讲话",
+      "pinyin": "jiǎng huà",
+      "meaning": "to speak; give a talk",
+      "meaningVi": "nói chuyện; phát biểu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "老师讲话时，我先听完再问。",
+        "py": "lǎo shī jiǎng huà shí , wǒ xiān tīng wán zài wèn .",
+        "en": "When the teacher speaks, I listen to the end before asking."
+      },
+      "usageNote": "[GF2021:L2:4024] Source entry: 讲话; jiǎng∥huà; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w17",
+      "hanzi": "家长",
+      "pinyin": "jiā zhǎng",
+      "meaning": "parent or guardian",
+      "meaningVi": "phụ huynh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个活动需要家长同意。",
+        "py": "zhè gè huó dòng xū yào jiā zhǎng tóng yì .",
+        "en": "This activity requires parental or guardian consent."
+      },
+      "usageNote": "[GF2021:L2:3867] Source entry: 家长; jiāzhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w18",
+      "hanzi": "高中",
+      "pinyin": "gāo zhōng",
+      "meaning": "senior high school",
+      "meaningVi": "trung học phổ thông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她在高中工作，不是这个大学。",
+        "py": "tā zài gāo zhōng gōng zuò , bù shì zhè gè dà xué .",
+        "en": "She works at a senior high school, not this university."
+      },
+      "usageNote": "[GF2021:L2:2667] Source entry: 高中; gāozhōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w19",
+      "hanzi": "中小学",
+      "pinyin": "zhōng xiǎo xué",
+      "meaning": "primary and secondary schools",
+      "meaningVi": "trường phổ thông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这是中小学教师的活动。",
+        "py": "zhè shì zhōng xiǎo xué jiào shī de huó dòng .",
+        "en": "This is an activity for primary and secondary teachers."
+      },
+      "usageNote": "[GF2021:L2:10625] Source entry: 中小学; zhōng-xiǎoxué; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w20",
+      "hanzi": "校园",
+      "pinyin": "xiào yuán",
+      "meaning": "school campus",
+      "meaningVi": "khuôn viên trường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "校园里的路要先看地图。",
+        "py": "xiào yuán lǐ de lù yào xiān kàn dì tú .",
+        "en": "Check a map first for the roads on campus."
+      },
+      "usageNote": "[GF2021:L2:8926] Source entry: 校园; xiàoyuán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w21",
+      "hanzi": "校长",
+      "pinyin": "xiào zhǎng",
+      "meaning": "school principal",
+      "meaningVi": "hiệu trưởng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "校长还没有答应这个计划。",
+        "py": "xiào zhǎng hái méi yǒu dā yìng zhè gè jì huà .",
+        "en": "The principal has not yet agreed to this plan."
+      },
+      "usageNote": "[GF2021:L2:8927] Source entry: 校长; xiàozhǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u23-w22",
+      "hanzi": "级",
+      "pinyin": "jí",
+      "meaning": "level; grade; class",
+      "meaningVi": "cấp; bậc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这份材料的级别不同，先问清楚。",
+        "py": "zhè fèn cái liào de jí bié bù tóng , xiān wèn qīng chǔ .",
+        "en": "These materials are for a different level; first clarify."
+      },
+      "usageNote": "[GF2021:L2:3734] Source entry: 级; jí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "为",
+      "pinyin": "wèi",
+      "meaning": "for; to act as",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "为",
+          "role": "whole",
+          "gloss": "for; to act as"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 为 in 为 / 为什么. This usage note is not an origin or decomposition claim. Read wèi in 为朋友; wéi is used in other words such as 成为.",
+      "words": [
+        {
+          "w": "为",
+          "p": "wèi",
+          "m": "for; on behalf of"
+        },
+        {
+          "w": "为什么",
+          "p": "wèi shén me",
+          "m": "why"
+        }
+      ]
+    },
+    {
+      "hanzi": "印",
+      "pinyin": "yìn",
+      "meaning": "to print; mark",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "印",
+          "role": "whole",
+          "gloss": "to print; mark"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 印 in 打印 / 打印机. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "打印",
+          "p": "dǎ yìn",
+          "m": "to print"
+        },
+        {
+          "w": "打印机",
+          "p": "dǎ yìn jī",
+          "m": "printer"
+        }
+      ]
+    },
+    {
+      "hanzi": "室",
+      "pinyin": "shì",
+      "meaning": "room",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "室",
+          "role": "whole",
+          "gloss": "room"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 室 in 办公室 / 教室. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "办公室",
+          "p": "bàn gōng shì",
+          "m": "office"
+        },
+        {
+          "w": "教室",
+          "p": "jiào shì",
+          "m": "classroom"
+        }
+      ]
+    },
+    {
+      "hanzi": "讲",
+      "pinyin": "jiǎng",
+      "meaning": "to speak; explain",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "讲",
+          "role": "whole",
+          "gloss": "to speak; explain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 讲 in 讲 / 讲话. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "讲",
+          "p": "jiǎng",
+          "m": "to say; explain"
+        },
+        {
+          "w": "讲话",
+          "p": "jiǎng huà",
+          "m": "to speak; give a talk"
+        }
+      ]
+    },
+    {
+      "hanzi": "育",
+      "pinyin": "yù",
+      "meaning": "education; to raise",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "育",
+          "role": "whole",
+          "gloss": "education; to raise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 育 in 教育 / 体育. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "教育",
+          "p": "jiào yù",
+          "m": "education; to educate"
+        },
+        {
+          "w": "体育",
+          "p": "tǐ yù",
+          "m": "physical education; sport"
+        }
+      ]
+    },
+    {
+      "hanzi": "可",
+      "pinyin": "kě",
+      "meaning": "can; acceptable",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "可",
+          "role": "whole",
+          "gloss": "can; acceptable"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 可 in 可是 / 可能. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "可是",
+          "p": "kěshì",
+          "m": "but"
+        },
+        {
+          "w": "可能",
+          "p": "kě néng",
+          "m": "may; possible"
+        }
+      ]
+    },
+    {
+      "hanzi": "物",
+      "pinyin": "wù",
+      "meaning": "thing; object",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "物",
+          "role": "whole",
+          "gloss": "thing; object"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 物 in 礼物 / 食物. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "礼物",
+          "p": "lǐ wù",
+          "m": "gift"
+        },
+        {
+          "w": "食物",
+          "p": "shí wù",
+          "m": "food"
+        }
+      ]
+    },
+    {
+      "hanzi": "力",
+      "pinyin": "lì",
+      "meaning": "strength; effort",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "力",
+          "role": "whole",
+          "gloss": "strength; effort"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 力 in 努力. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "努力",
+          "p": "nǔ lì",
+          "m": "to make an effort; effort"
+        }
+      ]
+    },
+    {
+      "hanzi": "助",
+      "pinyin": "zhù",
+      "meaning": "to help",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "助",
+          "role": "whole",
+          "gloss": "to help"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 助 in 帮助. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "帮助",
+          "p": "bāng zhù",
+          "m": "to help"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u23-g二28",
+      "pattern": "为 + 受益者 + 动作",
+      "purpose": "Identify whom an action benefits",
+      "explanation": "为朋友打印 identifies the beneficiary. 给朋友两页材料 identifies the recipient in a transfer; the patterns can describe different aspects of the same event. 为 wèi here is not wéi in 成为. A beneficiary phrase does not prove that permission has been obtained. Ask first when the action affects another person’s records.",
+      "examples": [
+        {
+          "zh": "我为朋友打印材料。",
+          "py": "wǒ wèi péng you dǎ yìn cái liào .",
+          "en": "I print materials for my friend."
+        },
+        {
+          "zh": "先为她问清楚，再给她答复。",
+          "py": "xiān wèi tā wèn qīng chǔ , zài gěi tā dá fù .",
+          "en": "First clarify for her, then give her a reply."
+        },
+        {
+          "zh": "我不能替她同意。",
+          "py": "wǒ bù néng tì tā tóng yì .",
+          "en": "I cannot agree on her behalf."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我为她同意参加，所以她一定愿意。",
+          "right": "先取得她的同意，再帮她报名。",
+          "why": "An action for someone is not evidence of their consent."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u23-g二55",
+      "pattern": "有 + 意思 / 用 / 时间等：评价或条件",
+      "purpose": "Read 有 in a stated evaluation",
+      "explanation": "这份材料有用 evaluates usefulness, rather than saying the material owns a physical object called 用. 很有意思 evaluates interest. 我有时间 remains an availability statement. Identify the whole phrase; possession and evaluation are separate uses, and usefulness depends on the stated task.",
+      "examples": [
+        {
+          "zh": "这两页材料很有用。",
+          "py": "zhè liǎng yè cái liào hěn yǒu yòng .",
+          "en": "These two pages are useful."
+        },
+        {
+          "zh": "这个例子很有意思。",
+          "py": "zhè gè lì zi hěn yǒu yì si .",
+          "en": "This example is interesting."
+        },
+        {
+          "zh": "我下午有时间帮你。",
+          "py": "wǒ xià wǔ yǒu shí jiān bāng nǐ .",
+          "en": "I have time to help you this afternoon."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这材料是有用的东西有。",
+          "right": "这份材料很有用。",
+          "why": "Use 有用 as the evaluation predicate."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u23-d",
+    "title": "Two pages, after permission",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the exact favour and what must happen first.",
+    "lines": [
+      {
+        "zh": "你下午有时间吗？能为我打印材料吗？",
+        "py": "nǐ xià wǔ yǒu shí jiān ma ? néng wèi wǒ dǎ yìn cái liào ma ?",
+        "en": "Do you have time this afternoon? Can you print materials for me?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，哪几页？",
+        "py": "kě yǐ , nǎ jǐ yè ?",
+        "en": "Yes; which pages?",
+        "speaker": "b"
+      },
+      {
+        "zh": "第二页和第三页，两页就够。",
+        "py": "dì èr yè hé dì sān yè , liǎng yè jiù gòu .",
+        "en": "Pages two and three; two pages are enough.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。办公室几点开？",
+        "py": "hǎo . bàn gōng shì jǐ diǎn kāi ?",
+        "en": "Okay. When does the office open?",
+        "speaker": "b"
+      },
+      {
+        "zh": "下午两点，计算机和打印机都可以用。",
+        "py": "xià wǔ liǎng diǎn , jì suàn jī hé dǎ yìn jī dōu kě yǐ yòng .",
+        "en": "At two in the afternoon; the computer and printer are available.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那我两点去取，拿到以后给你。",
+        "py": "nà wǒ liǎng diǎn qù qǔ , ná dào yǐ hòu gěi nǐ .",
+        "en": "Then I will collect them at two and give them to you once I have them.",
+        "speaker": "b"
+      },
+      {
+        "zh": "活动也帮我报名吧。",
+        "py": "huó dòng yě bāng wǒ bào míng ba .",
+        "en": "Please sign me up for the activity too.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先取得你的同意：是星期六的活动吗？",
+        "py": "xiān qǔ dé nǐ de tóng yì : shì xīng qī liù de huó dòng ma ?",
+        "en": "First let me get your consent: do you mean Saturday’s activity?",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What favour is clearly specified?",
+        "choices": [
+          "Print pages two and three",
+          "Print the whole book",
+          "Agree for the principal"
+        ],
+        "answer": "Print pages two and three"
+      },
+      {
+        "type": "detail",
+        "q": "When does the office open?",
+        "choices": [
+          "Two in the afternoon",
+          "Three in the morning",
+          "Saturday at six"
+        ],
+        "answer": "Two in the afternoon"
+      },
+      {
+        "type": "inference",
+        "q": "Is activity registration already completed?",
+        "choices": [
+          "No, consent and the activity are still being clarified",
+          "Yes, the last line confirms completion",
+          "Yes, printing counts as registration"
+        ],
+        "answer": "No, consent and the activity are still being clarified"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "材料",
+        "pinyin": "cái liào",
+        "meaning": "materials"
+      },
+      {
+        "hanzi": "打印机",
+        "pinyin": "dǎ yìn jī",
+        "meaning": "printer"
+      },
+      {
+        "hanzi": "同意",
+        "pinyin": "tóng yì",
+        "meaning": "agreement"
+      },
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "to register"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u23-r",
+    "title": "A careful volunteer note",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the scope of the favour before acting.",
+    "lines": [
+      {
+        "zh": "今天我为朋友打印两页教学材料。",
+        "py": "jīn tiān wǒ wèi péng you dǎ yìn liǎng yè jiào xué cái liào .",
+        "en": "Today I print two pages of teaching materials for a friend."
+      },
+      {
+        "zh": "第二页和第三页很有用，不用打印整本书。",
+        "py": "dì èr yè hé dì sān yè hěn yǒu yòng , bù yòng dǎ yìn zhěng běn shū .",
+        "en": "Pages two and three are useful; there is no need to print the whole book."
+      },
+      {
+        "zh": "办公室下午两点开，里面有计算机。",
+        "py": "bàn gōng shì xià wǔ liǎng diǎn kāi , lǐ miàn yǒu jì suàn jī .",
+        "en": "The office opens at two in the afternoon and contains a computer."
+      },
+      {
+        "zh": "教室还在上课，不去那里取。",
+        "py": "jiào shì hái zài shàng kè , bù qù nà lǐ qǔ .",
+        "en": "Class is still in progress in the classroom; do not collect the materials there."
+      },
+      {
+        "zh": "拿到材料以后，检查页数，再给朋友。",
+        "py": "ná dào cái liào yǐ hòu , jiǎn chá yè shù , zài gěi péng you .",
+        "en": "After receiving the materials, check the page count and give them to the friend."
+      },
+      {
+        "zh": "打印是自愿帮助，不是代替朋友同意参加。",
+        "py": "dǎ yìn shì zì yuàn bāng zhù , bù shì dài tì péng you tóng yì cān jiā .",
+        "en": "Printing is voluntary help, not consent to participate on the friend’s behalf."
+      },
+      {
+        "zh": "活动的时间和责任都要讲清楚。",
+        "py": "huó dòng de shí jiān hé zé rèn dōu yào jiǎng qīng chǔ .",
+        "en": "The activity’s time and responsibilities must be explained clearly."
+      },
+      {
+        "zh": "取得同意以后才能报名，校长也还没有答应计划。",
+        "py": "qǔ dé tóng yì yǐ hòu cái néng bào míng , xiào zhǎng yě hái méi yǒu dā yìng jì huà .",
+        "en": "Register only after obtaining consent; the principal has not agreed to the plan either."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What principle organizes the note?",
+        "choices": [
+          "Clarify the task and obtain consent",
+          "Assume every request is complete permission",
+          "Print every page"
+        ],
+        "answer": "Clarify the task and obtain consent"
+      },
+      {
+        "type": "detail",
+        "q": "Where are materials collected?",
+        "choices": [
+          "The office",
+          "The occupied classroom",
+          "The campus entrance"
+        ],
+        "answer": "The office"
+      },
+      {
+        "type": "inference",
+        "q": "Can printing confirm attendance?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only for teachers"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "今天我为朋友【打印】两页教学材料。",
+          "py": "jīn tiān wǒ wèi péng you dǎ yìn liǎng yè jiào xué cái liào .",
+          "en": "Today I print two pages of teaching materials for a friend."
+        },
+        {
+          "zh": "打印是自愿【帮助】，不是代替朋友同意参加。",
+          "py": "dǎ yìn shì zì yuàn bāng zhù , bù shì dài tì péng you tóng yì cān jiā .",
+          "en": "Printing is voluntary help, not consent to participate on the friend’s behalf."
+        }
+      ],
+      "bank": [
+        "打印",
+        "帮助",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "材料",
+        "pinyin": "cái liào",
+        "meaning": "materials"
+      },
+      {
+        "hanzi": "自愿",
+        "pinyin": "zì yuàn",
+        "meaning": "voluntary"
+      },
+      {
+        "hanzi": "责任",
+        "pinyin": "zé rèn",
+        "meaning": "responsibility"
+      },
+      {
+        "hanzi": "同意",
+        "pinyin": "tóng yì",
+        "meaning": "agreement"
+      },
+      {
+        "hanzi": "整本",
+        "pinyin": "zhěng běn",
+        "meaning": "the whole volume"
+      },
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "to register"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u23-media",
+      "title": "A helpful printer",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about the limits of helping.",
+      "lines": [
+        {
+          "zh": "加油，我为你打印！",
+          "py": "jiā yóu , wǒ wèi nǐ dǎ yìn !",
+          "en": "Keep it up; I will print for you!",
+          "speaker": "a"
+        },
+        {
+          "zh": "谢谢，两页，不是二十页。",
+          "py": "xiè xiè , liǎng yè , bù shì èr shí yè .",
+          "en": "Thanks; two pages, not twenty.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，两页。还有报名呢？",
+          "py": "hǎo , liǎng yè . hái yǒu bào míng ne ?",
+          "en": "Okay, two pages. What about registration?",
+          "speaker": "a"
+        },
+        {
+          "zh": "先讲清楚时间，我还没同意。",
+          "py": "xiān jiǎng qīng chǔ shí jiān , wǒ hái méi tóng yì .",
+          "en": "Explain the time first; I have not agreed yet.",
+          "speaker": "b"
+        },
+        {
+          "zh": "行，帮助不是替你选择。",
+          "py": "xíng , bāng zhù bù shì tì nǐ xuǎn zé .",
+          "en": "Okay; helping is not choosing for you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这句话很有用。先取材料吧。",
+          "py": "zhè jù huà hěn yǒu yòng . xiān qǔ cái liào ba .",
+          "en": "That sentence is useful. Let us collect the materials first.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What correction matters?",
+          "choices": [
+            "Consent is separate from the printing favour",
+            "Twenty pages were requested",
+            "The activity has already occurred"
+          ],
+          "answer": "Consent is separate from the printing favour"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "材料",
+          "pinyin": "cái liào",
+          "meaning": "materials"
+        },
+        {
+          "hanzi": "同意",
+          "pinyin": "tóng yì",
+          "meaning": "agreement"
+        },
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "to register"
+        }
+      ]
+    },
+    {
+      "id": "s2-u23-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "比赛前我们说加油。",
+          "py": "bǐ sài qián wǒ men shuō jiā yóu .",
+          "en": "Before the match we say Keep it up."
+        },
+        {
+          "zh": "这个问题可以求别人帮忙，别一个人着急。",
+          "py": "zhè gè wèn tí kě yǐ qiú bié ren bāng máng , bié yī gè rén zháo jí .",
+          "en": "You can seek help with this problem; do not worry alone."
+        },
+        {
+          "zh": "求朋友帮忙以前，先说明需要什么。",
+          "py": "qiú péng you bāng máng yǐ qián , xiān shuō míng xū yào shén me .",
+          "en": "Before asking a friend for help, explain what is needed."
+        },
+        {
+          "zh": "我想向老师借一本书。",
+          "py": "wǒ xiǎng xiàng lǎo shī jiè yī běn shū .",
+          "en": "I would like to borrow a book from the teacher."
+        },
+        {
+          "zh": "教师不是每天都在办公室。",
+          "py": "jiào shī bù shì měi tiān dōu zài bàn gōng shì .",
+          "en": "The teacher is not in the office every day."
+        },
+        {
+          "zh": "教室里还有人在上课。",
+          "py": "jiào shì lǐ hái yǒu rén zài shàng kè .",
+          "en": "People are still having class in the classroom."
+        },
+        {
+          "zh": "教育活动也要说明目的。",
+          "py": "jiào yù huó dòng yě yào shuō míng mù dì .",
+          "en": "An educational activity should also explain its purpose."
+        },
+        {
+          "zh": "我们聊教育，不把自己的经历当所有人的经历。",
+          "py": "wǒ men liáo jiào yù , bù bǎ zì jǐ de jīng lì dāng suǒ yǒu rén de jīng lì .",
+          "en": "We discuss education without treating our experiences as everyone’s experiences."
+        },
+        {
+          "zh": "老师讲话时，我先听完再问。",
+          "py": "lǎo shī jiǎng huà shí , wǒ xiān tīng wán zài wèn .",
+          "en": "When the teacher speaks, I listen to the end before asking."
+        },
+        {
+          "zh": "她正在讲话，我等她说完再问。",
+          "py": "tā zhèng zài jiǎng huà , wǒ děng tā shuō wán zài wèn .",
+          "en": "She is speaking; I wait until she finishes before asking."
+        },
+        {
+          "zh": "这个活动需要家长同意。",
+          "py": "zhè gè huó dòng xū yào jiā zhǎng tóng yì .",
+          "en": "This activity requires parental or guardian consent."
+        },
+        {
+          "zh": "家长还没收到通知，我们先别替他答应。",
+          "py": "jiā zhǎng hái mò shōu dào tōng zhī , wǒ men xiān bié tì tā dā yìng .",
+          "en": "The parent has not received the notice; do not agree on his behalf."
+        },
+        {
+          "zh": "她在高中工作，不是这个大学。",
+          "py": "tā zài gāo zhōng gōng zuò , bù shì zhè gè dà xué .",
+          "en": "She works at a senior high school, not this university."
+        },
+        {
+          "zh": "她高中毕业以后换了城市。",
+          "py": "tā gāo zhōng bì yè yǐ hòu huàn le chéng shì .",
+          "en": "She moved cities after graduating from high school."
+        },
+        {
+          "zh": "这是中小学教师的活动。",
+          "py": "zhè shì zhōng xiǎo xué jiào shī de huó dòng .",
+          "en": "This is an activity for primary and secondary teachers."
+        },
+        {
+          "zh": "校园里的路要先看地图。",
+          "py": "xiào yuán lǐ de lù yào xiān kàn dì tú .",
+          "en": "Check a map first for the roads on campus."
+        },
+        {
+          "zh": "校长还没有答应这个计划。",
+          "py": "xiào zhǎng hái méi yǒu dā yìng zhè gè jì huà .",
+          "en": "The principal has not yet agreed to this plan."
+        },
+        {
+          "zh": "这份材料的级别不同，先问清楚。",
+          "py": "zhè fèn cái liào de jí bié bù tóng , xiān wèn qīng chǔ .",
+          "en": "These materials are for a different level; first clarify."
+        },
+        {
+          "zh": "这本书适合初级，不代表所有级别都适合。",
+          "py": "zhè běn shū shì hé chū jí , bù dài biǎo suǒ yǒu jí bié dōu shì hé .",
+          "en": "This book suits beginners; it does not suit every level automatically."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "材料",
+          "pinyin": "cái liào",
+          "meaning": "materials"
+        },
+        {
+          "hanzi": "同意",
+          "pinyin": "tóng yì",
+          "meaning": "agreement"
+        },
+        {
+          "hanzi": "毕业",
+          "pinyin": "bì yè",
+          "meaning": "to graduate"
+        },
+        {
+          "hanzi": "城市",
+          "pinyin": "chéng shì",
+          "meaning": "city"
+        },
+        {
+          "hanzi": "初级",
+          "pinyin": "chū jí",
+          "meaning": "beginner level"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u23-t1",
+      "phrase": "s2-u23-w08",
+      "audio": {
+        "zh": "只打印第二页和第三页。",
+        "py": "zhǐ dǎ yìn dì èr yè hé dì sān yè .",
+        "en": "Print only pages two and three."
+      },
+      "statement": "The whole book is requested.",
+      "answer": false,
+      "why": "只 limits the scope."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u23-t2",
+      "phrase": "s2-u23-w05",
+      "audio": {
+        "zh": "先取得同意，再报名。",
+        "py": "xiān qǔ dé tóng yì , zài bào míng .",
+        "en": "Obtain consent first, then register."
+      },
+      "statement": "Consent precedes registration.",
+      "answer": true,
+      "why": "先…再 states the order."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u23-t3",
+      "phrase": "s2-u23-w15",
+      "prompt": {
+        "zh": "哪两页？请讲清楚。",
+        "py": "nǎ liǎng yè ? qǐng jiǎng qīng chǔ .",
+        "en": "Which two pages? Please clarify."
+      },
+      "choices": [
+        "第二页和第三页。",
+        "整本吧，我没说。",
+        "我不是校长。"
+      ],
+      "answer": "第二页和第三页。",
+      "why": "Name the exact pages."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u23-t4",
+      "phrase": "s2-u23-w07",
+      "prompt": {
+        "zh": "我想借一本书。",
+        "py": "wǒ xiǎng jiè yī běn shū .",
+        "en": "I would like to borrow a book."
+      },
+      "choices": [
+        "可以，下周请还给我。",
+        "我已经吃了两页。",
+        "不问就替你同意。"
+      ],
+      "answer": "可以，下周请还给我。",
+      "why": "Grant a loan with a return expectation."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u23-t5",
+      "phrase": "s2-u23-w10",
+      "line": {
+        "zh": "【办公室】下午两点开。",
+        "py": "bàn gōng shì xià wǔ liǎng diǎn kāi .",
+        "en": "The office opens at two in the afternoon."
+      },
+      "blankPy": "bàn gōng shì"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u23-t6",
+      "phrase": "s2-u23-w06",
+      "line": {
+        "zh": "【拿到】材料以后再给她。",
+        "py": "ná dào cái liào yǐ hòu zài gěi tā .",
+        "en": "Give her the materials after you get them."
+      },
+      "blankPy": "ná dào"
+    },
+    {
+      "type": "match",
+      "id": "s2-u23-t7",
+      "phrase": "s2-u23-w11",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Primary and secondary teachers.",
+          "right": {
+            "zh": "中小学教师。",
+            "py": "zhōng xiǎo xué jiào shī .",
+            "en": "Primary and secondary teachers."
+          }
+        },
+        {
+          "left": "Roads on campus.",
+          "right": {
+            "zh": "校园里的路。",
+            "py": "xiào yuán lǐ de lù .",
+            "en": "Roads on campus."
+          }
+        },
+        {
+          "left": "Teaching materials.",
+          "right": {
+            "zh": "教学材料。",
+            "py": "jiào xué cái liào .",
+            "en": "Teaching materials."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u23-t8",
+      "phrase": "s2-u23-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Print for a friend.",
+          "right": {
+            "zh": "为朋友打印。",
+            "py": "wèi péng you dǎ yìn .",
+            "en": "Print for a friend."
+          }
+        },
+        {
+          "left": "Give materials to a friend.",
+          "right": {
+            "zh": "给朋友材料。",
+            "py": "gěi péng you cái liào .",
+            "en": "Give materials to a friend."
+          }
+        },
+        {
+          "left": "Agree personally first.",
+          "right": {
+            "zh": "自己先同意。",
+            "py": "zì jǐ xiān tóng yì .",
+            "en": "Agree personally first."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u23-t9",
+      "phrase": "s2-u23-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Walk east, then turn left at the intersection.",
+          "right": {
+            "zh": "往东走，路口再向左转。",
+            "py": "wǎng dōng zǒu , lù kǒu zài xiàng zuǒ zhuǎn .",
+            "en": "Walk east, then turn left at the intersection."
+          }
+        },
+        {
+          "left": "Looking north is not already walking north.",
+          "right": {
+            "zh": "看着北边，不是已经往北走。",
+            "py": "kàn zhe běi biān , bù shì yǐ jīng wǎng běi zǒu .",
+            "en": "Looking north is not already walking north."
+          }
+        },
+        {
+          "left": "The exit is on the right; do not go left.",
+          "right": {
+            "zh": "出口在右边，别去左边。",
+            "py": "chū kǒu zài yòu biān , bié qù zuǒ biān .",
+            "en": "The exit is on the right; do not go left."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Bounded help",
+      "natural": {
+        "zh": "可以，哪两页？",
+        "py": "kě yǐ , nǎ liǎng yè ?",
+        "en": "Yes; which two pages?"
+      },
+      "note": "Clarify scope before acting."
+    },
+    {
+      "situation": "Consent first",
+      "natural": {
+        "zh": "你同意以后，我再帮你报名。",
+        "py": "nǐ tóng yì yǐ hòu , wǒ zài bāng nǐ bào míng .",
+        "en": "I will help register you after you agree."
+      },
+      "note": "A favour does not authorize an unrelated action."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u23-speak",
+    "title": "Doing a friend a favour",
+    "place": "A language-exchange meeting",
+    "context": "Explain whom an action benefits.",
+    "goal": "Ask for a bounded favour with consent",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "能打印吗？",
+        "pinyin": "néng dǎ yìn ma ?",
+        "meaning": "Can you print it?",
+        "intent": "Ask for scope",
+        "examples": [
+          "可以，哪两页？"
+        ],
+        "accept": [
+          "^可以，哪两页？[。！？]?$"
+        ]
+      },
+      {
+        "text": "替我报名。",
+        "pinyin": "tì wǒ bào míng .",
+        "meaning": "Register me.",
+        "intent": "Clarify the activity",
+        "examples": [
+          "先确认时间，好吗？"
+        ],
+        "accept": [
+          "^先确认时间，好吗？[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二28, 二55. Native check: 求帮助 collocation, 为 beneficiary versus 给 recipient, 有用 evaluation, teacher/school terminology, consent and the original printer scene. No legal representation or automatic registration is implied. Planned retrieval 二22 / 二23: 往东走，路口再向左转。, 看着北边，不是已经往北走。, 出口在右边，别去左边。."
+}

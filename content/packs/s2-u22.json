@@ -1,0 +1,1265 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s2-u22",
+    "stage": 1,
+    "order": 52,
+    "title": "Close enough to walk?",
+    "titleZh": "绕湖走还是去海边",
+    "canDo": [
+      "Read a stated distance on a north-up map",
+      "Compare route lengths with a quantity complement",
+      "Distinguish a body part from an action reading"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 2
+    },
+    "prerequisites": [
+      "s2-u21"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s2-u22-w01",
+      "hanzi": "背",
+      "pinyin": "bèi",
+      "meaning": "to recite from memory; memorize",
+      "meaningVi": "đọc thuộc; học thuộc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "先背这两句话，再看地图。",
+        "py": "xiān bèi zhè liǎng jù huà , zài kàn dì tú .",
+        "en": "Recite these two sentences from memory first, then look at the map."
+      },
+      "usageNote": "[GF2021:L2:278] Source entry: 背; bèi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w02",
+      "hanzi": "海",
+      "pinyin": "hǎi",
+      "meaning": "sea",
+      "meaningVi": "biển",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "今天看不到海，只能看到湖。",
+        "py": "jīn tiān kàn bù dào hǎi , zhǐ néng kàn dào hú .",
+        "en": "Today we cannot see the sea, only the lake."
+      },
+      "usageNote": "[GF2021:L2:3142] Source entry: 海; hǎi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w03",
+      "hanzi": "海边",
+      "pinyin": "hǎi biān",
+      "meaning": "seaside",
+      "meaningVi": "bờ biển",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "海边很远，今天不去。",
+        "py": "hǎi biān hěn yuǎn , jīn tiān bù qù .",
+        "en": "The seaside is far away; we are not going today."
+      },
+      "usageNote": "[GF2021:L2:3146] Source entry: 海边; hǎi biān; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w04",
+      "hanzi": "河",
+      "pinyin": "hé",
+      "meaning": "river",
+      "meaningVi": "sông",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "河在公园北边。",
+        "py": "hé zài gōng yuán běi biān .",
+        "en": "The river is north of the park."
+      },
+      "usageNote": "[GF2021:L2:3293] Source entry: 河; hé; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w05",
+      "hanzi": "湖",
+      "pinyin": "hú",
+      "meaning": "lake",
+      "meaningVi": "hồ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "湖在公园里面。",
+        "py": "hú zài gōng yuán lǐ miàn .",
+        "en": "The lake is inside the park."
+      },
+      "usageNote": "[GF2021:L2:3411] Source entry: 湖; hú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w06",
+      "hanzi": "大海",
+      "pinyin": "dà hǎi",
+      "meaning": "ocean; sea",
+      "meaningVi": "biển lớn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "照片上是大海，不是这个湖。",
+        "py": "zhào piān shàng shì dà hǎi , bù shì zhè gè hú .",
+        "en": "The photo shows the sea, not this lake."
+      },
+      "usageNote": "[GF2021:L2:1470] Source entry: 大海; dàhǎi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w07",
+      "hanzi": "草",
+      "pinyin": "cǎo",
+      "meaning": "grass",
+      "meaningVi": "cỏ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "草上有水，别坐在那里。",
+        "py": "cǎo shàng yǒu shuǐ , bié zuò zài nà lǐ .",
+        "en": "The grass is wet; do not sit there."
+      },
+      "usageNote": "[GF2021:L2:741] Source entry: 草; cǎo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w08",
+      "hanzi": "草地",
+      "pinyin": "cǎo dì",
+      "meaning": "lawn; grassland",
+      "meaningVi": "bãi cỏ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们在草地旁边见面。",
+        "py": "wǒ men zài cǎo dì páng biān jiàn miàn .",
+        "en": "We meet beside the lawn."
+      },
+      "usageNote": "[GF2021:L2:743] Source entry: 草地; cǎodì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w09",
+      "hanzi": "爬",
+      "pinyin": "pá",
+      "meaning": "to climb; crawl",
+      "meaningVi": "leo; bò",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这里不能爬墙。",
+        "py": "zhè lǐ bù néng pá qiáng .",
+        "en": "You cannot climb the wall here."
+      },
+      "usageNote": "[GF2021:L2:5940] Source entry: 爬; pá; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w10",
+      "hanzi": "墙",
+      "pinyin": "qiáng",
+      "meaning": "wall",
+      "meaningVi": "tường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "墙边有路，不用爬过去。",
+        "py": "qiáng biān yǒu lù , bù yòng pá guò qù .",
+        "en": "There is a path by the wall; no need to climb over."
+      },
+      "usageNote": "[GF2021:L2:6397] Source entry: 墙; qiáng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w11",
+      "hanzi": "脚",
+      "pinyin": "jiǎo",
+      "meaning": "foot",
+      "meaningVi": "bàn chân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "脚累了，我们慢慢走。",
+        "py": "jiǎo lèi le , wǒ men màn màn zǒu .",
+        "en": "Our feet are tired; let us walk slowly."
+      },
+      "usageNote": "[GF2021:L2:4099] Source entry: 脚; jiǎo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w12",
+      "hanzi": "腿",
+      "pinyin": "tuǐ",
+      "meaning": "leg",
+      "meaningVi": "chân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "坐一会儿，让腿休息。",
+        "py": "zuò yī huì er , ràng tuǐ xiū xī .",
+        "en": "Sit for a while and rest your legs."
+      },
+      "usageNote": "[GF2021:L2:8194] Source entry: 腿; tuǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w13",
+      "hanzi": "靠",
+      "pinyin": "kào",
+      "meaning": "to lean against; be close to",
+      "meaningVi": "dựa; gần",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我靠着墙等你。",
+        "py": "wǒ kào zhe qiáng děng nǐ .",
+        "en": "I am waiting for you leaning against the wall."
+      },
+      "usageNote": "[GF2021:L2:4674] Source entry: 靠; kào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w14",
+      "hanzi": "拉",
+      "pinyin": "lā",
+      "meaning": "to pull",
+      "meaningVi": "kéo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "门上写着拉，不是推。",
+        "py": "mén shàng xiě zhe lā , bù shì tuī .",
+        "en": "The door says pull, not push."
+      },
+      "usageNote": "[GF2021:L2:4885] Source entry: 拉; lā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w15",
+      "hanzi": "推",
+      "pinyin": "tuī",
+      "meaning": "to push",
+      "meaningVi": "đẩy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这扇门向外推。",
+        "py": "zhè shàn mén xiàng wài tuī .",
+        "en": "Push this door outward."
+      },
+      "usageNote": "[GF2021:L2:8173] Source entry: 推; tuī; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w16",
+      "hanzi": "倒",
+      "pinyin": "dǎo",
+      "meaning": "to fall; collapse",
+      "meaningVi": "ngã; đổ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "瓶子倒了，我把它放好。",
+        "py": "píng zi dǎo le , wǒ bǎ tā fàng hǎo .",
+        "en": "The bottle fell over; I put it properly in place."
+      },
+      "usageNote": "[GF2021:L2:1647] Source entry: 倒; dǎo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w17",
+      "hanzi": "大自然",
+      "pinyin": "dà zì rán",
+      "meaning": "nature",
+      "meaningVi": "thiên nhiên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "去公园看看大自然，也能好好休息。",
+        "py": "qù gōng yuán kàn kàn dà zì rán , yě néng hǎo hǎo xiū xī .",
+        "en": "Seeing nature in the park can also be restful."
+      },
+      "usageNote": "[GF2021:L2:1529] Source entry: 大自然; dàzìrán; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w18",
+      "hanzi": "动物",
+      "pinyin": "dòng wù",
+      "meaning": "animal",
+      "meaningVi": "động vật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "不要给这里的动物吃东西。",
+        "py": "bú yào gěi zhè lǐ de dòng wù chī dōng xi .",
+        "en": "Do not feed the animals here."
+      },
+      "usageNote": "[GF2021:L2:1935] Source entry: 动物; dòngwù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w19",
+      "hanzi": "狗",
+      "pinyin": "gǒu",
+      "meaning": "dog",
+      "meaningVi": "chó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "狗在主人身边，没有过来。",
+        "py": "gǒu zài zhǔ rén shēn biān , méi yǒu guò lái .",
+        "en": "The dog is beside its owner and has not approached."
+      },
+      "usageNote": "[GF2021:L2:2866] Source entry: 狗; gǒu; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w20",
+      "hanzi": "猫",
+      "pinyin": "māo",
+      "meaning": "cat",
+      "meaningVi": "mèo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "墙边有一只猫。",
+        "py": "qiáng biān yǒu yī zhǐ māo .",
+        "en": "There is a cat beside the wall."
+      },
+      "usageNote": "[GF2021:L2:5439] Source entry: 猫; māo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w21",
+      "hanzi": "鸟",
+      "pinyin": "niǎo",
+      "meaning": "bird",
+      "meaningVi": "chim",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "树上有鸟，声音很好听。",
+        "py": "shù shàng yǒu niǎo , shēng yīn hěn hǎo tīng .",
+        "en": "There are birds in the tree; their calls sound pleasant."
+      },
+      "usageNote": "[GF2021:L2:5877] Source entry: 鸟; niǎo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s2-u22-w22",
+      "hanzi": "超市",
+      "pinyin": "chāo shì",
+      "meaning": "supermarket",
+      "meaningVi": "siêu thị",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "公园南边有超市。",
+        "py": "gōng yuán nán biān yǒu chāo shì .",
+        "en": "There is a supermarket south of the park."
+      },
+      "usageNote": "[GF2021:L2:880] Source entry: 超市; chāoshì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "背",
+      "pinyin": "bèi",
+      "meaning": "back; to carry on the back",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "背",
+          "role": "whole",
+          "gloss": "back; to carry on the back"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 背 in 背. This usage note is not an origin or decomposition claim. Here 背 bèi means reciting from memory; carrying on the back uses bēi. The body-part noun is also bèi but has separate vocabulary ownership.",
+      "words": [
+        {
+          "w": "背",
+          "p": "bèi",
+          "m": "to recite from memory; memorize"
+        }
+      ]
+    },
+    {
+      "hanzi": "海",
+      "pinyin": "hǎi",
+      "meaning": "sea",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "海",
+          "role": "whole",
+          "gloss": "sea"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 海 in 海 / 海边. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "海",
+          "p": "hǎi",
+          "m": "sea"
+        },
+        {
+          "w": "海边",
+          "p": "hǎi biān",
+          "m": "seaside"
+        }
+      ]
+    },
+    {
+      "hanzi": "河",
+      "pinyin": "hé",
+      "meaning": "river",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "河",
+          "role": "whole",
+          "gloss": "river"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 河 in 河. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "河",
+          "p": "hé",
+          "m": "river"
+        }
+      ]
+    },
+    {
+      "hanzi": "湖",
+      "pinyin": "hú",
+      "meaning": "lake",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "湖",
+          "role": "whole",
+          "gloss": "lake"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 湖 in 湖. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "湖",
+          "p": "hú",
+          "m": "lake"
+        }
+      ]
+    },
+    {
+      "hanzi": "草",
+      "pinyin": "cǎo",
+      "meaning": "grass",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "草",
+          "role": "whole",
+          "gloss": "grass"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 草 in 草 / 草地. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "草",
+          "p": "cǎo",
+          "m": "grass"
+        },
+        {
+          "w": "草地",
+          "p": "cǎo dì",
+          "m": "lawn; grassland"
+        }
+      ]
+    },
+    {
+      "hanzi": "脚",
+      "pinyin": "jiǎo",
+      "meaning": "foot",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "脚",
+          "role": "whole",
+          "gloss": "foot"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 脚 in 脚. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "脚",
+          "p": "jiǎo",
+          "m": "foot"
+        }
+      ]
+    },
+    {
+      "hanzi": "腿",
+      "pinyin": "tuǐ",
+      "meaning": "leg",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "腿",
+          "role": "whole",
+          "gloss": "leg"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 腿 in 腿. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "腿",
+          "p": "tuǐ",
+          "m": "leg"
+        }
+      ]
+    },
+    {
+      "hanzi": "靠",
+      "pinyin": "kào",
+      "meaning": "to lean; rely on",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "靠",
+          "role": "whole",
+          "gloss": "to lean; rely on"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 靠 in 靠 / 可靠. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "靠",
+          "p": "kào",
+          "m": "to lean against; be close to"
+        },
+        {
+          "w": "可靠",
+          "p": "kě kào",
+          "m": "reliable"
+        }
+      ]
+    },
+    {
+      "hanzi": "墙",
+      "pinyin": "qiáng",
+      "meaning": "wall",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "墙",
+          "role": "whole",
+          "gloss": "wall"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 墙 in 墙. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "墙",
+          "p": "qiáng",
+          "m": "wall"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s2-u22-g二27",
+      "pattern": "离 + 地点 / 时间 + 距离",
+      "purpose": "State distance relative to a reference point",
+      "explanation": "入口离湖一公里 names the entrance as the subject and lake as the reference. 地图上直线距离 and actual walking distance can differ; use the label given. 离星期六还有两天 similarly measures remaining time. 不远 is an evaluation and does not supply an exact number.",
+      "examples": [
+        {
+          "zh": "入口离湖一公里。",
+          "py": "rù kǒu lí hú yī gōng lǐ .",
+          "en": "The entrance is one kilometre from the lake."
+        },
+        {
+          "zh": "超市离入口五百米。",
+          "py": "chāo shì lí rù kǒu wǔ bǎi mǐ .",
+          "en": "The supermarket is five hundred metres from the entrance."
+        },
+        {
+          "zh": "离星期六还有两天。",
+          "py": "lí xīng qī liù hái yǒu liǎng tiān .",
+          "en": "There are still two days until Saturday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "入口离一公里湖。",
+          "right": "入口离湖一公里。",
+          "why": "Put the reference place after 离, then the distance."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s2-u22-g二53",
+      "pattern": "形容词 + 数量补语",
+      "purpose": "Express a measured difference or extent",
+      "explanation": "北边的路比南边的路长两百米 states a measured difference, not the total length. This note gives south route one kilometre and north route one point two kilometres, so the difference is two hundred metres. A road two metres wider describes width, not distance from a place. Keep the unit and comparison explicit.",
+      "examples": [
+        {
+          "zh": "北边的路比南边的路长两百米。",
+          "py": "běi biān de lù bǐ nán biān de lù zhǎng liǎng bǎi mǐ .",
+          "en": "The north route is two hundred metres longer than the south route."
+        },
+        {
+          "zh": "这面墙高两米。",
+          "py": "zhè miàn qiáng gāo liǎng mǐ .",
+          "en": "This wall is two metres high."
+        },
+        {
+          "zh": "入口离湖一公里，不是两百米。",
+          "py": "rù kǒu lí hú yī gōng lǐ , bù shì liǎng bǎi mǐ .",
+          "en": "The entrance is one kilometre from the lake, not two hundred metres."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "北边的路长两百米，所以一共两百米。",
+          "right": "北边的路比南边的路长两百米，一共一千二百米。",
+          "why": "A comparative difference is not the total length."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s2-u22-d",
+    "title": "A shorter walk",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the distances, then choose the agreed route.",
+    "lines": [
+      {
+        "zh": "去海边还是湖边？",
+        "py": "qù hǎi biān hái shi hú biān ?",
+        "en": "The seaside or the lakeside?",
+        "speaker": "a"
+      },
+      {
+        "zh": "海边太远，今天在公园走走吧。",
+        "py": "hǎi biān tài yuǎn , jīn tiān zài gōng yuán zǒu zǒu ba .",
+        "en": "The seaside is too far; let us walk in the park today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "入口离湖多远？",
+        "py": "rù kǒu lí hú duō yuǎn ?",
+        "en": "How far is the entrance from the lake?",
+        "speaker": "a"
+      },
+      {
+        "zh": "南边的路一公里，北边一千二百米。",
+        "py": "nán biān de lù yī gōng lǐ , běi biān yī qiān èr bǎi mǐ .",
+        "en": "The south route is one kilometre; the north route is twelve hundred metres.",
+        "speaker": "b"
+      },
+      {
+        "zh": "北边长两百米，不是只有两百米。",
+        "py": "běi biān zhǎng liǎng bǎi mǐ , bù shì zhǐ yǒu liǎng bǎi mǐ .",
+        "en": "The north route is two hundred metres longer, not only two hundred metres in total.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。我的脚累了，选南边吧。",
+        "py": "duì . wǒ de jiǎo lèi le , xuǎn nán biān ba .",
+        "en": "Right. My feet are tired; let us choose south.",
+        "speaker": "b"
+      },
+      {
+        "zh": "超市离入口五百米，要不要先去？",
+        "py": "chāo shì lí rù kǒu wǔ bǎi mǐ , yào bù yào xiān qù ?",
+        "en": "The supermarket is five hundred metres from the entrance; shall we go first?",
+        "speaker": "a"
+      },
+      {
+        "zh": "今天不用，先到湖边坐一会儿。",
+        "py": "jīn tiān bù yòng , xiān dào hú biān zuò yī huì er .",
+        "en": "No need today; first go to the lakeside and sit a while.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What walk is agreed?",
+        "choices": [
+          "South route to the lake",
+          "Trip to the seaside",
+          "Visit to the supermarket first"
+        ],
+        "answer": "South route to the lake"
+      },
+      {
+        "type": "detail",
+        "q": "How long is the north route?",
+        "choices": [
+          "1,200 metres",
+          "200 metres",
+          "500 metres"
+        ],
+        "answer": "1,200 metres"
+      },
+      {
+        "type": "inference",
+        "q": "Why choose south?",
+        "choices": [
+          "It is shorter and the speaker’s feet are tired",
+          "The lake is in the sea",
+          "The supermarket is closed"
+        ],
+        "answer": "It is shorter and the speaker’s feet are tired"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s2-u22-r",
+    "title": "The labelled park map",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Use the stated north-up map, not an unstated viewpoint.",
+    "lines": [
+      {
+        "zh": "地图上方是北，下方是南。",
+        "py": "dì tú shàng fāng shì běi , xià fāng shì nán .",
+        "en": "The top of the map is north and the bottom south."
+      },
+      {
+        "zh": "湖在公园里面，河在北边。",
+        "py": "hú zài gōng yuán lǐ miàn , hé zài běi biān .",
+        "en": "The lake is inside the park and the river to the north."
+      },
+      {
+        "zh": "入口到湖的南路一公里，北路一千二百米。",
+        "py": "rù kǒu dào hú de nán lù yī gōng lǐ , běi lù yī qiān èr bǎi mǐ .",
+        "en": "From entrance to lake, the south route is one kilometre and the north route twelve hundred metres."
+      },
+      {
+        "zh": "北路比南路长两百米。",
+        "py": "běi lù bǐ nán lù zhǎng liǎng bǎi mǐ .",
+        "en": "The north route is two hundred metres longer than the south route."
+      },
+      {
+        "zh": "超市在入口南边，离入口五百米。",
+        "py": "chāo shì zài rù kǒu nán biān , lí rù kǒu wǔ bǎi mǐ .",
+        "en": "The supermarket is south of the entrance, five hundred metres from it."
+      },
+      {
+        "zh": "草地旁边有墙，墙边的路可以走，不用爬。",
+        "py": "cǎo dì páng biān yǒu qiáng , qiáng biān de lù kě yǐ zǒu , bù yòng pá .",
+        "en": "There is a wall beside the lawn; the path by the wall is usable and requires no climbing."
+      },
+      {
+        "zh": "门上写拉，别推。瓶子倒下了，要放好。",
+        "py": "mén shàng xiě lā , bié tuī . píng zi dǎo xià le , yào fàng hǎo .",
+        "en": "The door says pull; do not push. A bottle has fallen over and should be put properly in place."
+      },
+      {
+        "zh": "我们先到湖边休息，看鸟，不给动物吃东西。",
+        "py": "wǒ men xiān dào hú biān xiū xī , kàn niǎo , bù gěi dòng wù chī dōng xi .",
+        "en": "We first rest by the lake, watch birds, and do not feed the animals."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the map help decide?",
+        "choices": [
+          "A route to the lake",
+          "The seaside weather",
+          "The cost of a bird"
+        ],
+        "answer": "A route to the lake"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the supermarket relative to the entrance?",
+        "choices": [
+          "South",
+          "North",
+          "Inside the lake"
+        ],
+        "answer": "South"
+      },
+      {
+        "type": "inference",
+        "q": "Is climbing needed?",
+        "choices": [
+          "No, a path is available",
+          "Yes, over the wall",
+          "Only at the river"
+        ],
+        "answer": "No, a path is available"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "北路比南路【长】两百米。",
+          "py": "běi lù bǐ nán lù zhǎng liǎng bǎi mǐ .",
+          "en": "The north route is two hundred metres longer than the south route."
+        },
+        {
+          "zh": "门上写【拉】，别推。瓶子倒下了，要放好。",
+          "py": "mén shàng xiě lā , bié tuī . píng zi dǎo xià le , yào fàng hǎo .",
+          "en": "The door says pull; do not push. A bottle has fallen over and should be put properly in place."
+        }
+      ],
+      "bank": [
+        "长",
+        "拉",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "地图",
+        "pinyin": "dì tú",
+        "meaning": "map"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      },
+      {
+        "hanzi": "倒下",
+        "pinyin": "dǎo xià",
+        "meaning": "to fall down"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s2-u22-media",
+      "title": "Not the postcard sea",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene correcting a picture assumption.",
+      "lines": [
+        {
+          "zh": "照片是大海，今天也去那里吗？",
+          "py": "zhào piān shì dà hǎi , jīn tiān yě qù nà lǐ ma ?",
+          "en": "The photo shows the sea; are we going there today too?",
+          "speaker": "a"
+        },
+        {
+          "zh": "不是，今天去湖边。入口离湖一公里。",
+          "py": "bù shì , jīn tiān qù hú biān . rù kǒu lí hú yī gōng lǐ .",
+          "en": "No; today we go to the lake. The entrance is one kilometre away.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我还没背地图上的两句话，腿也累。",
+          "py": "wǒ hái méi bèi dì tú shàng de liǎng jù huà , tuǐ yě lèi .",
+          "en": "I have not memorized the two sentences on the map yet, and my legs are tired.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那先坐，别急着走。",
+          "py": "nà xiān zuò , bié jí zhe zǒu .",
+          "en": "Then sit first; no rush to walk.",
+          "speaker": "b"
+        },
+        {
+          "zh": "树上有鸟，墙边有猫。",
+          "py": "shù shàng yǒu niǎo , qiáng biān yǒu māo .",
+          "en": "Birds in the tree, a cat by the wall.",
+          "speaker": "a"
+        },
+        {
+          "zh": "看看就好，不给动物吃东西。",
+          "py": "kàn kàn jiù hǎo , bù gěi dòng wù chī dōng xi .",
+          "en": "Watching is enough; do not feed the animals.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the correction distinguish?",
+          "choices": [
+            "The pictured sea and today’s lake destination",
+            "Two identical places",
+            "A request to feed animals"
+          ],
+          "answer": "The pictured sea and today’s lake destination"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "地图",
+          "pinyin": "dì tú",
+          "meaning": "map"
+        },
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        }
+      ]
+    },
+    {
+      "id": "s2-u22-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "照片上是大海，不是这个湖。",
+          "py": "zhào piān shàng shì dà hǎi , bù shì zhè gè hú .",
+          "en": "The photo shows the sea, not this lake."
+        },
+        {
+          "zh": "草上有水，别坐在那里。",
+          "py": "cǎo shàng yǒu shuǐ , bié zuò zài nà lǐ .",
+          "en": "The grass is wet; do not sit there."
+        },
+        {
+          "zh": "我们在草地旁边见面。",
+          "py": "wǒ men zài cǎo dì páng biān jiàn miàn .",
+          "en": "We meet beside the lawn."
+        },
+        {
+          "zh": "我靠着墙等你。",
+          "py": "wǒ kào zhe qiáng děng nǐ .",
+          "en": "I am waiting for you leaning against the wall."
+        },
+        {
+          "zh": "先靠右走，别挡住入口。",
+          "py": "xiān kào yòu zǒu , bié dǎng zhù rù kǒu .",
+          "en": "Keep to the right first, without blocking the entrance."
+        },
+        {
+          "zh": "去公园看看大自然，也能好好休息。",
+          "py": "qù gōng yuán kàn kàn dà zì rán , yě néng hǎo hǎo xiū xī .",
+          "en": "Seeing nature in the park can also be restful."
+        },
+        {
+          "zh": "想看看大自然，也要先确认天气。",
+          "py": "xiǎng kàn kàn dà zì rán , yě yào xiān què rèn tiān qì .",
+          "en": "To experience nature, still confirm the weather first."
+        },
+        {
+          "zh": "狗在主人身边，没有过来。",
+          "py": "gǒu zài zhǔ rén shēn biān , méi yǒu guò lái .",
+          "en": "The dog is beside its owner and has not approached."
+        },
+        {
+          "zh": "墙边有一只猫。",
+          "py": "qiáng biān yǒu yī zhǐ māo .",
+          "en": "There is a cat beside the wall."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        },
+        {
+          "hanzi": "挡住",
+          "pinyin": "dǎng zhù",
+          "meaning": "to block"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s2-u22-t1",
+      "phrase": "s2-u22-w05",
+      "audio": {
+        "zh": "今天去湖边，不去海边。",
+        "py": "jīn tiān qù hú biān , bù qù hǎi biān .",
+        "en": "Today we go to the lake, not the seaside."
+      },
+      "statement": "The destination is the seaside.",
+      "answer": false,
+      "why": "不去 rejects that destination."
+    },
+    {
+      "type": "truefalse",
+      "id": "s2-u22-t2",
+      "phrase": "s2-u22-w10",
+      "audio": {
+        "zh": "墙边有路，不用爬。",
+        "py": "qiáng biān yǒu lù , bù yòng pá .",
+        "en": "There is a path by the wall; no climbing is needed."
+      },
+      "statement": "A usable path is available.",
+      "answer": true,
+      "why": "The path is stated."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u22-t3",
+      "phrase": "s2-u22-w11",
+      "prompt": {
+        "zh": "我的脚累了。",
+        "py": "wǒ de jiǎo lèi le .",
+        "en": "My feet are tired."
+      },
+      "choices": [
+        "先坐一会儿吧。",
+        "那一定爬墙。",
+        "湖就是大海。"
+      ],
+      "answer": "先坐一会儿吧。",
+      "why": "Offer a rest."
+    },
+    {
+      "type": "reply",
+      "id": "s2-u22-t4",
+      "phrase": "s2-u22-w15",
+      "prompt": {
+        "zh": "门上写拉，我该推吗？",
+        "py": "mén shàng xiě lā , wǒ gāi tuī ma ?",
+        "en": "The door says pull; should I push?"
+      },
+      "choices": [
+        "不要，应该拉。",
+        "是，往外推。",
+        "北路一公里。"
+      ],
+      "answer": "不要，应该拉。",
+      "why": "Follow the explicit label."
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u22-t5",
+      "phrase": "s2-u22-w03",
+      "line": {
+        "zh": "【海边】太远，今天不去。",
+        "py": "hǎi biān tài yuǎn , jīn tiān bù qù .",
+        "en": "The seaside is too far; we will not go today."
+      },
+      "blankPy": "hǎi biān"
+    },
+    {
+      "type": "listenfill",
+      "id": "s2-u22-t6",
+      "phrase": "s2-u22-w22",
+      "line": {
+        "zh": "【超市】离入口五百米。",
+        "py": "chāo shì lí rù kǒu wǔ bǎi mǐ .",
+        "en": "The supermarket is five hundred metres from the entrance."
+      },
+      "blankPy": "chāo shì"
+    },
+    {
+      "type": "match",
+      "id": "s2-u22-t7",
+      "phrase": "s2-u22-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Recite these two sentences from memory.",
+          "right": {
+            "zh": "背这两句话。",
+            "py": "bèi zhè liǎng jù huà .",
+            "en": "Recite these two sentences from memory."
+          }
+        },
+        {
+          "left": "Rest the legs first.",
+          "right": {
+            "zh": "腿先休息。",
+            "py": "tuǐ xiān xiū xī .",
+            "en": "Rest the legs first."
+          }
+        },
+        {
+          "left": "Push the door outward.",
+          "right": {
+            "zh": "门向外推。",
+            "py": "mén xiàng wài tuī .",
+            "en": "Push the door outward."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u22-t8",
+      "phrase": "s2-u22-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The bottle has fallen over.",
+          "right": {
+            "zh": "瓶子倒了。",
+            "py": "píng zi dǎo le .",
+            "en": "The bottle has fallen over."
+          }
+        },
+        {
+          "left": "The dog is beside its owner.",
+          "right": {
+            "zh": "狗在主人身边。",
+            "py": "gǒu zài zhǔ rén shēn biān .",
+            "en": "The dog is beside its owner."
+          }
+        },
+        {
+          "left": "The river is to the north.",
+          "right": {
+            "zh": "河在北边。",
+            "py": "hé zài běi biān .",
+            "en": "The river is to the north."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s2-u22-t9",
+      "phrase": "s2-u22-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "I act as group leader today; someone else takes a turn tomorrow.",
+          "right": {
+            "zh": "今天我当组长，明天换人。",
+            "py": "jīn tiān wǒ dāng zǔ zhǎng , míng tiān huàn rén .",
+            "en": "I act as group leader today; someone else takes a turn tomorrow."
+          }
+        },
+        {
+          "left": "We want to organize an event; it has not yet been held.",
+          "right": {
+            "zh": "我们想办活动，还没有举行。",
+            "py": "wǒ men xiǎng bàn huó dòng , hái méi yǒu jǔ xíng .",
+            "en": "We want to organize an event; it has not yet been held."
+          }
+        },
+        {
+          "left": "The purpose is to let everyone practise speaking Mandarin.",
+          "right": {
+            "zh": "目的是让大家练习说汉语。",
+            "py": "mù dì shì ràng dà jiā liàn xí shuō hàn yǔ .",
+            "en": "The purpose is to let everyone practise speaking Mandarin."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "A measured correction",
+      "natural": {
+        "zh": "长两百米，不是一共两百米。",
+        "py": "zhǎng liǎng bǎi mǐ , bù shì yī gòng liǎng bǎi mǐ .",
+        "en": "Two hundred metres longer, not two hundred metres in total."
+      },
+      "note": "State which number describes a difference."
+    },
+    {
+      "situation": "Offering a rest",
+      "natural": {
+        "zh": "累了就先坐一会儿。",
+        "py": "lèi le jiù xiān zuò yī huì er .",
+        "en": "If tired, sit for a while first."
+      },
+      "note": "Do not diagnose the cause of tiredness."
+    }
+  ],
+  "conversation": {
+    "id": "s2-u22-speak",
+    "title": "Close enough to walk?",
+    "place": "A language-exchange meeting",
+    "context": "Compare distance and measurable differences.",
+    "goal": "Read a stated distance on a north-up map",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "入口离湖多远？",
+        "pinyin": "rù kǒu lí hú duō yuǎn ?",
+        "meaning": "How far is the entrance from the lake?",
+        "intent": "Give the south-route distance",
+        "examples": [
+          "一公里。"
+        ],
+        "accept": [
+          "^一公里。[。！？]?$"
+        ]
+      },
+      {
+        "text": "门上写拉。",
+        "pinyin": "mén shàng xiě lā .",
+        "meaning": "The door says pull.",
+        "intent": "Give the corresponding action",
+        "examples": [
+          "应该拉，不应该推。"
+        ],
+        "accept": [
+          "^应该拉，不应该推。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 二27, 二53. Native check: distance versus route length, quantity complements, 背 bèi verb recite versus bēi carry and 倒 dǎo versus dào. Body-part 背 ownership remains later. The north-up map and distances are fictional but explicit; no outdoor route recommendation or diagnosis. Planned retrieval 二21 / 二40: 今天我当组长，明天换人。, 我们想办活动，还没有举行。, 目的是让大家练习说汉语。."
+}
