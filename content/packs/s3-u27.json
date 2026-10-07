@@ -1,0 +1,1202 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u27",
+    "stage": 2,
+    "order": 91,
+    "title": "How does this photo look?",
+    "titleZh": "照片看起来怎么样",
+    "canDo": [
+      "Describe visible appearance without claiming hidden facts",
+      "Compare 看起来 and 看上去 in observation",
+      "Ask permission before using a photograph"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u26"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u27-w01",
+      "hanzi": "看起来",
+      "pinyin": "kàn qi lái",
+      "meaning": "to look; it seems",
+      "meaningVi": "trông có vẻ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "照片看起来很亮。",
+        "py": "zhào piān kàn qi lái hěn liàng .",
+        "en": "The photograph looks bright."
+      },
+      "usageNote": "[GF2021:L3:4643] Source entry: 看起来; kàn ·qǐ·lái; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w02",
+      "hanzi": "看上去",
+      "pinyin": "kàn shàng qu",
+      "meaning": "to look; appear",
+      "meaningVi": "trông có vẻ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "桥看上去很长。",
+        "py": "qiáo kàn shàng qu hěn zhǎng .",
+        "en": "The bridge looks long."
+      },
+      "usageNote": "[GF2021:L3:4645] Source entry: 看上去; kàn shàng·qù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w03",
+      "hanzi": "观察",
+      "pinyin": "guān chá",
+      "meaning": "to observe",
+      "meaningVi": "quan sát",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先观察光线，再说照片。",
+        "py": "xiān guān chá guāng xiàn , zài shuō zhào piān .",
+        "en": "Observe the light before discussing the photograph."
+      },
+      "usageNote": "[GF2021:L3:2974] Source entry: 观察; guānchá; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w04",
+      "hanzi": "景色",
+      "pinyin": "jǐng sè",
+      "meaning": "scenery",
+      "meaningVi": "phong cảnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "照片里的景色很美。",
+        "py": "zhào piān lǐ de jǐng sè hěn měi .",
+        "en": "The scenery in the photograph is beautiful."
+      },
+      "usageNote": "[GF2021:L3:4380] Source entry: 景色; jǐngsè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w05",
+      "hanzi": "美",
+      "pinyin": "měi",
+      "meaning": "beautiful",
+      "meaningVi": "đẹp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张照片很美。",
+        "py": "zhè zhāng zhào piān hěn měi .",
+        "en": "This photograph is beautiful."
+      },
+      "usageNote": "[GF2021:L3:5486] Source entry: 美; měi; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w06",
+      "hanzi": "美好",
+      "pinyin": "měi hǎo",
+      "meaning": "pleasant; wonderful",
+      "meaningVi": "tốt đẹp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张照片让我想到美好的周末。",
+        "py": "zhè zhāng zhào piān ràng wǒ xiǎng dào měi hǎo de zhōu mò .",
+        "en": "This photograph reminds me of a lovely weekend."
+      },
+      "usageNote": "[GF2021:L3:5489] Source entry: 美好; měihǎo; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w07",
+      "hanzi": "美丽",
+      "pinyin": "měi lì",
+      "meaning": "beautiful",
+      "meaningVi": "xinh đẹp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "天空的颜色很美丽。",
+        "py": "tiān kōng de yán sè hěn měi lì .",
+        "en": "The sky’s colours are beautiful."
+      },
+      "usageNote": "[GF2021:L3:5493] Source entry: 美丽; měilì; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w08",
+      "hanzi": "天空",
+      "pinyin": "tiān kōng",
+      "meaning": "sky",
+      "meaningVi": "bầu trời",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "天空的颜色在照片里变了。",
+        "py": "tiān kōng de yán sè zài zhào piān lǐ biàn le .",
+        "en": "The sky’s colour changed in the photograph."
+      },
+      "usageNote": "[GF2021:L3:7936] Source entry: 天空; tiānkōng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w09",
+      "hanzi": "阳光",
+      "pinyin": "yáng guāng",
+      "meaning": "sunlight",
+      "meaningVi": "ánh nắng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "阳光照在桥边。",
+        "py": "yáng guāng zhào zài qiáo biān .",
+        "en": "Sunlight shines beside the bridge."
+      },
+      "usageNote": "[GF2021:L3:9365] Source entry: 阳光; yángguāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w10",
+      "hanzi": "胖",
+      "pinyin": "pàng",
+      "meaning": "fat; stout",
+      "meaningVi": "béo",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "模型看着胖，不代表真人也胖。",
+        "py": "mó xíng kàn zhe pàng , bù dài biǎo zhēn rén yě pàng .",
+        "en": "The model looks stout; that does not imply the real person is too."
+      },
+      "usageNote": "[GF2021:L3:5987] Source entry: 胖; pàng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w11",
+      "hanzi": "拍",
+      "pinyin": "pāi",
+      "meaning": "to photograph; shoot",
+      "meaningVi": "chụp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "拍之前先问她。",
+        "py": "pāi zhī qián xiān wèn tā .",
+        "en": "Ask her before taking the photograph."
+      },
+      "usageNote": "[GF2021:L3:5944] Source entry: 拍; pāi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w12",
+      "hanzi": "图",
+      "pinyin": "tú",
+      "meaning": "picture; diagram",
+      "meaningVi": "hình; sơ đồ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张图说明拍照的位置。",
+        "py": "zhè zhāng tú shuō míng pāi zhào de wèi zhì .",
+        "en": "This diagram shows the photography position."
+      },
+      "usageNote": "[GF2021:L3:8138] Source entry: 图; tú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w13",
+      "hanzi": "图画",
+      "pinyin": "tú huà",
+      "meaning": "drawing; picture",
+      "meaningVi": "tranh vẽ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "图画里的龙不是活的动物。",
+        "py": "tú huà lǐ de lóng bù shì huó de dòng wù .",
+        "en": "The dragon in the drawing is not a living animal."
+      },
+      "usageNote": "[GF2021:L3:8141] Source entry: 图画; túhuà; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w14",
+      "hanzi": "沙子",
+      "pinyin": "shā zi",
+      "meaning": "sand",
+      "meaningVi": "cát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "沙子上有脚印。",
+        "py": "shā zi shàng yǒu jiǎo yìn .",
+        "en": "There are footprints in the sand."
+      },
+      "usageNote": "[GF2021:L3:6877] Source entry: 沙子; shāzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w15",
+      "hanzi": "石头",
+      "pinyin": "shí tou",
+      "meaning": "stone",
+      "meaningVi": "đá",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "桥边放着一块石头。",
+        "py": "qiáo biān fàng zhe yī kuài shí tou .",
+        "en": "A stone lies beside the bridge."
+      },
+      "usageNote": "[GF2021:L3:7206] Source entry: 石头; shítou; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w16",
+      "hanzi": "桥",
+      "pinyin": "qiáo",
+      "meaning": "bridge",
+      "meaningVi": "cầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "桥就在图上的位置。",
+        "py": "qiáo jiù zài tú shàng de wèi zhì .",
+        "en": "The bridge is at the position shown on the diagram."
+      },
+      "usageNote": "[GF2021:L3:6411] Source entry: 桥; qiáo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w17",
+      "hanzi": "龙",
+      "pinyin": "lóng",
+      "meaning": "dragon",
+      "meaningVi": "rồng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "墙上的图画画着一条龙。",
+        "py": "qiáng shàng de tú huà huà zhe yī tiáo lóng .",
+        "en": "The wall picture depicts a dragon."
+      },
+      "usageNote": "[GF2021:L3:5270] Source entry: 龙; lóng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w18",
+      "hanzi": "牛",
+      "pinyin": "niú",
+      "meaning": "cow; cattle",
+      "meaningVi": "bò",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这张图里有一头牛。",
+        "py": "zhè zhāng tú lǐ yǒu yī tóu niú .",
+        "en": "There is a cow in this picture."
+      },
+      "usageNote": "[GF2021:L3:5889] Source entry: 牛; niú; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w19",
+      "hanzi": "羊",
+      "pinyin": "yáng",
+      "meaning": "sheep; goat",
+      "meaningVi": "cừu; dê",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "那只羊站在石头旁边。",
+        "py": "nà zhǐ yáng zhàn zài shí tou páng biān .",
+        "en": "That sheep or goat stands beside the stone."
+      },
+      "usageNote": "[GF2021:L3:9364] Source entry: 羊; yáng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w20",
+      "hanzi": "猪",
+      "pinyin": "zhū",
+      "meaning": "pig",
+      "meaningVi": "lợn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "猪的模型放在门边。",
+        "py": "zhū de mó xíng fàng zài mén biān .",
+        "en": "A pig model stands by the door."
+      },
+      "usageNote": "[GF2021:L3:10700] Source entry: 猪; zhū; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w21",
+      "hanzi": "香蕉",
+      "pinyin": "xiāng jiāo",
+      "meaning": "banana",
+      "meaningVi": "chuối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "桌子上有一根香蕉。",
+        "py": "zhuō zi shàng yǒu yī gēn xiāng jiāo .",
+        "en": "A banana is on the table."
+      },
+      "usageNote": "[GF2021:L3:8819] Source entry: 香蕉; xiāngjiāo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u27-w22",
+      "hanzi": "苹果",
+      "pinyin": "píng guǒ",
+      "meaning": "apple",
+      "meaningVi": "táo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "苹果放在香蕉旁边。",
+        "py": "píng guǒ fàng zài xiāng jiāo páng biān .",
+        "en": "The apple is beside the banana."
+      },
+      "usageNote": "[GF2021:L3:6151] Source entry: 苹果; píngguǒ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "拍",
+      "pinyin": "pāi",
+      "meaning": "to photograph; pat",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "拍",
+          "role": "whole",
+          "gloss": "to photograph; pat"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 拍 in 拍. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "拍",
+          "p": "pāi",
+          "m": "to film; photograph"
+        }
+      ]
+    },
+    {
+      "hanzi": "景",
+      "pinyin": "jǐng",
+      "meaning": "scene; view",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "景",
+          "role": "whole",
+          "gloss": "scene; view"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 景 in 景色 / 背景. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "景色",
+          "p": "jǐng sè",
+          "m": "scenery"
+        },
+        {
+          "w": "背景",
+          "p": "bèi jǐng",
+          "m": "background"
+        }
+      ]
+    },
+    {
+      "hanzi": "丽",
+      "pinyin": "lì",
+      "meaning": "beautiful",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "丽",
+          "role": "whole",
+          "gloss": "beautiful"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 丽 in 美丽. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "美丽",
+          "p": "měi lì",
+          "m": "beautiful"
+        }
+      ]
+    },
+    {
+      "hanzi": "沙",
+      "pinyin": "shā",
+      "meaning": "sand",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "沙",
+          "role": "whole",
+          "gloss": "sand"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 沙 in 沙子 / 沙发. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "沙子",
+          "p": "shā zi",
+          "m": "sand"
+        },
+        {
+          "w": "沙发",
+          "p": "shā fā",
+          "m": "sofa"
+        }
+      ]
+    },
+    {
+      "hanzi": "桥",
+      "pinyin": "qiáo",
+      "meaning": "bridge",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "桥",
+          "role": "whole",
+          "gloss": "bridge"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 桥 in 桥. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "桥",
+          "p": "qiáo",
+          "m": "bridge"
+        }
+      ]
+    },
+    {
+      "hanzi": "羊",
+      "pinyin": "yáng",
+      "meaning": "sheep; goat",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "羊",
+          "role": "whole",
+          "gloss": "sheep; goat"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 羊 in 羊. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "羊",
+          "p": "yáng",
+          "m": "sheep; goat"
+        }
+      ]
+    },
+    {
+      "hanzi": "猪",
+      "pinyin": "zhū",
+      "meaning": "pig",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "猪",
+          "role": "whole",
+          "gloss": "pig"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 猪 in 猪. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "猪",
+          "p": "zhū",
+          "m": "pig"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u27-g三35",
+      "pattern": "看起来 + 描述",
+      "purpose": "Mark appearance or an initial impression",
+      "explanation": "看起来 introduces how something appears, often from observation or combined clues: 照片看起来很亮. It does not certify size, temperature, safety or another person’s inner state. An observed comparison may depend on perspective or lighting.",
+      "examples": [
+        {
+          "zh": "这张照片看起来很亮。",
+          "py": "zhè zhāng zhào piān kàn qi lái hěn liàng .",
+          "en": "This photograph looks bright."
+        },
+        {
+          "zh": "桥看起来很近，实际还要走一会儿。",
+          "py": "qiáo kàn qi lái hěn jìn , shí jì hái yào zǒu yī huì er .",
+          "en": "The bridge looks near, but it still takes a while to reach."
+        },
+        {
+          "zh": "他看起来很安静，我们还没问他的想法。",
+          "py": "tā kàn qi lái hěn ān jìng , wǒ men hái méi wèn tā de xiǎng fǎ .",
+          "en": "He looks quiet; we have not yet asked his thoughts."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "看起来近，所以一定就在旁边。",
+          "right": "看起来近，实际距离还要确认。",
+          "why": "Appearance is not a confirmed distance."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u27-g三36",
+      "pattern": "看上去 + 描述",
+      "purpose": "Describe the impression from looking",
+      "explanation": "看上去 often emphasizes visual appearance and frequently overlaps with 看起来. There is no strict rule that one proves reality and the other means falsehood. Keep the description linked to what is visible: 石头看上去很大. A picture’s framing can affect the impression.",
+      "examples": [
+        {
+          "zh": "石头看上去很大。",
+          "py": "shí tou kàn shàng qu hěn dà .",
+          "en": "The stone looks large."
+        },
+        {
+          "zh": "图画看上去像照片。",
+          "py": "tú huà kàn shàng qu xiàng zhào piān .",
+          "en": "The drawing looks like a photograph."
+        },
+        {
+          "zh": "这里看上去很美，但还没确认能不能进入。",
+          "py": "zhè lǐ kàn shàng qu hěn měi , dàn hái méi què rèn néng bù néng jìn rù .",
+          "en": "This place looks beautiful, but entry permission is unconfirmed."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "看上去美，所以一定安全。",
+          "right": "看上去美，安全还要另外确认。",
+          "why": "Aesthetic appearance is not proof of safety."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u27-d",
+    "title": "A large stone in a small photo",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which observations need more information.",
+    "lines": [
+      {
+        "zh": "这张照片看起来很美，景色是在哪里？",
+        "py": "zhè zhāng zhào piān kàn qi lái hěn měi , jǐng sè shì zài nǎ lǐ ?",
+        "en": "This photograph looks beautiful; where is the scenery?",
+        "speaker": "a"
+      },
+      {
+        "zh": "在桥边。阳光照着沙子，天空颜色有点变了。",
+        "py": "zài qiáo biān . yáng guāng zhào zhe shā zi , tiān kōng yán sè yǒu diǎn biàn le .",
+        "en": "Beside the bridge. Sunlight shines on the sand, and the sky’s colour has changed a little.",
+        "speaker": "b"
+      },
+      {
+        "zh": "石头看上去很大，桥看起来很近。",
+        "py": "shí tou kàn shàng qu hěn dà , qiáo kàn qi lái hěn jìn .",
+        "en": "The stone looks large, and the bridge appears near.",
+        "speaker": "a"
+      },
+      {
+        "zh": "镜头会影响感觉，实际大小和距离还没量。",
+        "py": "jìng tóu huì yǐng xiǎng gǎn jué , shí jì dà xiǎo hé jù lí hái méi liàng .",
+        "en": "The camera affects impressions; actual size and distance have not been measured.",
+        "speaker": "b"
+      },
+      {
+        "zh": "图画里的龙也在那里吗？",
+        "py": "tú huà lǐ de lóng yě zài nà lǐ ma ?",
+        "en": "Is the dragon in the drawing there too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "那是墙上的图，不是活的动物。猪也是模型。",
+        "py": "nà shì qiáng shàng de tú , bù shì huó de dòng wù . zhū yě shì mó xíng .",
+        "en": "It is a picture on the wall, not a living animal; the pig is also a model.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我想拍你站在桥边，可以吗？",
+        "py": "wǒ xiǎng pāi nǐ zhàn zài qiáo biān , kě yǐ ma ?",
+        "en": "I would like to photograph you beside the bridge; may I?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先确认那里能不能站。我同意拍，但别公开。",
+        "py": "xiān què rèn nà lǐ néng bù néng zhàn . wǒ tóng yì pāi , dàn bié gōng kāi .",
+        "en": "First confirm standing there is allowed. I agree to the photograph, but not publication.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What distinction matters?",
+        "choices": [
+          "Appearance, confirmed facts and permission",
+          "Every image and actual safety",
+          "A dragon and a live pig"
+        ],
+        "answer": "Appearance, confirmed facts and permission"
+      },
+      {
+        "type": "detail",
+        "q": "What does the person permit?",
+        "choices": [
+          "Taking but not publishing the photograph",
+          "Unrestricted publication",
+          "Standing anywhere"
+        ],
+        "answer": "Taking but not publishing the photograph"
+      },
+      {
+        "type": "inference",
+        "q": "Has the stone’s size been measured?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only through its colour"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "镜头",
+        "pinyin": "jìng tóu",
+        "meaning": "camera lens; shot"
+      },
+      {
+        "hanzi": "照片",
+        "pinyin": "zhào piān",
+        "meaning": "photo"
+      },
+      {
+        "hanzi": "模型",
+        "pinyin": "mó xíng",
+        "meaning": "model"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u27-r",
+    "title": "Look, then ask",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the caption and its limits.",
+    "lines": [
+      {
+        "zh": "照片里的景色很美，也带来美好的回忆；美丽不是安全证明。",
+        "py": "zhào piān lǐ de jǐng sè hěn měi , yě dài lái měi hǎo de huí yì ; měi lì bù shì ān quán zhèng míng .",
+        "en": "The scenery is beautiful and recalls happy memories; beauty is not proof of safety."
+      },
+      {
+        "zh": "先观察天空与阳光，沙子反光让画面显得更亮。",
+        "py": "xiān guān chá tiān kōng yǔ yáng guāng , shā zi fǎn guāng ràng huà miàn xiǎn de gèng liàng .",
+        "en": "Observe the sky and sunlight; reflected light from sand makes the image seem brighter."
+      },
+      {
+        "zh": "桥和石头看上去离得近，图上的位置却不能给出准确大小。",
+        "py": "qiáo hé shí tou kàn shàng qu lí dé jìn , tú shàng de wèi zhì què bù néng gěi chū zhǔn què dà xiǎo .",
+        "en": "The bridge and stone look near each other, but the diagram does not give exact size."
+      },
+      {
+        "zh": "这张图画画着龙，门边的猪是模型，要分清图画与现场动物。",
+        "py": "zhè zhāng tú huà huà zhe lóng , mén biān de zhū shì mó xíng , yào fēn qīng tú huà yǔ xiàn chǎng dòng wù .",
+        "en": "The drawing depicts a dragon and the pig by the door is a model; distinguish pictures from on-site animals."
+      },
+      {
+        "zh": "图里有牛，也有羊；羊是总称，具体是哪种还要辨认。",
+        "py": "tú lǐ yǒu niú , yě yǒu yáng ; yáng shì zǒng chēng , jù tǐ shì nǎ zhǒng hái yào biàn rèn .",
+        "en": "The picture includes cattle and 羊; 羊 is a general label and the specific animal still needs identifying."
+      },
+      {
+        "zh": "模型看着胖，不要据此评价真人；拍别人之前先问许可。",
+        "py": "mó xíng kàn zhe pàng , bú yào jù cǐ píng jià zhēn rén ; pāi bié ren zhī qián xiān wèn xǔ kě .",
+        "en": "The model looks stout; do not judge real people from it; ask permission before photographing somebody."
+      },
+      {
+        "zh": "香蕉靠近镜头，苹果放在旁边，看起来的大小受位置影响。",
+        "py": "xiāng jiāo kào jìn jìng tóu , píng guǒ fàng zài páng biān , kàn qi lái de dà xiǎo shòu wèi zhì yǐng xiǎng .",
+        "en": "The banana is near the camera and the apple beside it; apparent sizes depend on position."
+      },
+      {
+        "zh": "好看的照片可以留作个人回忆，公开仍要另问。",
+        "py": "hǎo kàn de zhào piān kě yǐ liú zuò gè rén huí yì , gōng kāi réng yào lìng wèn .",
+        "en": "An attractive photograph may be kept as a personal memory; publication requires a separate question."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the caption emphasize?",
+        "choices": [
+          "Qualified observation and specific permission",
+          "Colour as proof of temperature",
+          "Automatic permission to publish"
+        ],
+        "answer": "Qualified observation and specific permission"
+      },
+      {
+        "type": "detail",
+        "q": "Which animal is a model?",
+        "choices": [
+          "The pig",
+          "Every sheep or goat",
+          "The real cow"
+        ],
+        "answer": "The pig"
+      },
+      {
+        "type": "inference",
+        "q": "Does agreement to photography imply publication consent?",
+        "choices": [
+          "No",
+          "Yes",
+          "If the photo is beautiful"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "照片里的【景色】很美，也带来美好的回忆；美丽不是安全证明。",
+          "py": "zhào piān lǐ de jǐng sè hěn měi , yě dài lái měi hǎo de huí yì ; měi lì bù shì ān quán zhèng míng .",
+          "en": "The scenery is beautiful and recalls happy memories; beauty is not proof of safety."
+        },
+        {
+          "zh": "香蕉靠近镜头，【苹果】放在旁边，看起来的大小受位置影响。",
+          "py": "xiāng jiāo kào jìn jìng tóu , píng guǒ fàng zài páng biān , kàn qi lái de dà xiǎo shòu wèi zhì yǐng xiǎng .",
+          "en": "The banana is near the camera and the apple beside it; apparent sizes depend on position."
+        }
+      ],
+      "bank": [
+        "景色",
+        "苹果",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "反光",
+        "pinyin": "fǎn guāng",
+        "meaning": "reflection"
+      },
+      {
+        "hanzi": "镜头",
+        "pinyin": "jìng tóu",
+        "meaning": "camera lens; shot"
+      },
+      {
+        "hanzi": "许可",
+        "pinyin": "xǔ kě",
+        "meaning": "permission"
+      },
+      {
+        "hanzi": "照片",
+        "pinyin": "zhào piān",
+        "meaning": "photo"
+      },
+      {
+        "hanzi": "模型",
+        "pinyin": "mó xíng",
+        "meaning": "model"
+      },
+      {
+        "hanzi": "辨认",
+        "pinyin": "biàn rèn",
+        "meaning": "to identify"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u27-media",
+      "title": "The banana is not a mountain",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original goofy scene.",
+      "lines": [
+        {
+          "zh": "香蕉怎么比桥还大？",
+          "py": "xiāng jiāo zěn me bǐ qiáo hái dà ?",
+          "en": "How is the banana bigger than the bridge?",
+          "speaker": "a"
+        },
+        {
+          "zh": "它离镜头近，你先别把它当山。",
+          "py": "tā lí jìng tóu jìn , nǐ xiān bié bǎ tā dāng shān .",
+          "en": "It is near the camera; do not treat it as a mountain yet.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我写：看起来大。",
+          "py": "nà wǒ xiě : kàn qi lái dà .",
+          "en": "Then I will write: it looks large.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对。照片可爱，尺寸先别猜。",
+          "py": "duì . zhào piān kě ài , chǐ cùn xiān bié cāi .",
+          "en": "Right. The photograph is cute; do not guess the dimensions.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What corrects the mistaken inference?",
+          "choices": [
+            "Camera distance affects apparent size",
+            "The banana is certainly a mountain",
+            "A photograph measures everything"
+          ],
+          "answer": "Camera distance affects apparent size"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "镜头",
+          "pinyin": "jìng tóu",
+          "meaning": "camera lens; shot"
+        },
+        {
+          "hanzi": "照片",
+          "pinyin": "zhào piān",
+          "meaning": "photo"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u27-t1",
+      "phrase": "s3-u27-w16",
+      "audio": {
+        "zh": "桥看起来近，但还没量距离。",
+        "py": "qiáo kàn qi lái jìn , dàn hái méi liàng jù lí .",
+        "en": "The bridge looks near, but its distance has not been measured."
+      },
+      "statement": "The actual distance is known.",
+      "answer": false,
+      "why": "Appearance does not supply a measured distance."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u27-t2",
+      "phrase": "s3-u27-w11",
+      "audio": {
+        "zh": "她同意拍照，不同意公开。",
+        "py": "tā tóng yì pāi zhào , bù tóng yì gōng kāi .",
+        "en": "She permits photography, not publication."
+      },
+      "statement": "Publication is permitted.",
+      "answer": false,
+      "why": "The second permission is denied."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u27-t3",
+      "phrase": "s3-u27-w02",
+      "prompt": {
+        "zh": "照片里的石头有多大？",
+        "py": "zhào piān lǐ de shí tou yǒu duō dà ?",
+        "en": "How large is the stone in the photograph?"
+      },
+      "choices": [
+        "看上去大，实际还没量。",
+        "一定有十米。",
+        "美就是安全。"
+      ],
+      "answer": "看上去大，实际还没量。",
+      "why": "Distinguish impression and measurement."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u27-t4",
+      "phrase": "s3-u27-w19",
+      "prompt": {
+        "zh": "这只羊是绵羊还是山羊？",
+        "py": "zhè zhǐ yáng shì mián yáng hái shi shān yáng ?",
+        "en": "Is this animal a sheep or goat?"
+      },
+      "choices": [
+        "只说羊还不能确定，先辨认。",
+        "所有羊都是猪。",
+        "龙是现场活物。"
+      ],
+      "answer": "只说羊还不能确定，先辨认。",
+      "why": "The general label is insufficient."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u27-t5",
+      "phrase": "s3-u27-w09",
+      "line": {
+        "zh": "【阳光】照在桥边。",
+        "py": "yáng guāng zhào zài qiáo biān .",
+        "en": "Sunlight shines beside the bridge."
+      },
+      "blankPy": "yáng guāng"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u27-t6",
+      "phrase": "s3-u27-w21",
+      "line": {
+        "zh": "【香蕉】离镜头很近。",
+        "py": "xiāng jiāo lí jìng tóu hěn jìn .",
+        "en": "The banana is near the camera."
+      },
+      "blankPy": "xiāng jiāo"
+    },
+    {
+      "type": "match",
+      "id": "s3-u27-t7",
+      "phrase": "s3-u27-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The drawing depicts a dragon.",
+          "right": {
+            "zh": "图画画着一条龙。",
+            "py": "tú huà huà zhe yī tiáo lóng .",
+            "en": "The drawing depicts a dragon."
+          }
+        },
+        {
+          "left": "The pig is a model, not alive.",
+          "right": {
+            "zh": "猪是模型，不是活的。",
+            "py": "zhū shì mó xíng , bù shì huó de .",
+            "en": "The pig is a model, not alive."
+          }
+        },
+        {
+          "left": "The cow looks large.",
+          "right": {
+            "zh": "牛看起来很大。",
+            "py": "niú kàn qi lái hěn dà .",
+            "en": "The cow looks large."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u27-t8",
+      "phrase": "s3-u27-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Observe the light first.",
+          "right": {
+            "zh": "先观察光线。",
+            "py": "xiān guān chá guāng xiàn .",
+            "en": "Observe the light first."
+          }
+        },
+        {
+          "left": "She permits only photography.",
+          "right": {
+            "zh": "她只同意拍照。",
+            "py": "tā zhǐ tóng yì pāi zhào .",
+            "en": "She permits only photography."
+          }
+        },
+        {
+          "left": "The apple is beside the banana.",
+          "right": {
+            "zh": "苹果放在香蕉旁边。",
+            "py": "píng guǒ fàng zài xiāng jiāo páng biān .",
+            "en": "The apple is beside the banana."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u27-tcontext-01",
+      "phrase": "s3-u27-w01",
+      "title": "Use the words in a full sentence",
+      "pairs": [
+        {
+          "left": "This photograph reminds me of a lovely weekend.",
+          "right": {
+            "zh": "这张照片让我想到美好的周末。",
+            "py": "zhè zhāng zhào piān ràng wǒ xiǎng dào měi hǎo de zhōu mò .",
+            "en": "This photograph reminds me of a lovely weekend."
+          }
+        },
+        {
+          "left": "The sky’s colours are beautiful.",
+          "right": {
+            "zh": "天空的颜色很美丽。",
+            "py": "tiān kōng de yán sè hěn měi lì .",
+            "en": "The sky’s colours are beautiful."
+          }
+        },
+        {
+          "left": "The model looks stout; that does not imply the real person is too.",
+          "right": {
+            "zh": "模型看着胖，不代表真人也胖。",
+            "py": "mó xíng kàn zhe pàng , bù dài biǎo zhēn rén yě pàng .",
+            "en": "The model looks stout; that does not imply the real person is too."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u27-t9",
+      "phrase": "s3-u27-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Besides watching programmes, I also listen to the radio.",
+          "right": {
+            "zh": "除了看节目，我还听广播。",
+            "py": "chú le kàn jié mù , wǒ hái tīng guǎng bō .",
+            "en": "Besides watching programmes, I also listen to the radio."
+          }
+        },
+        {
+          "left": "Any of the other days works, except Friday.",
+          "right": {
+            "zh": "除了周五，其他几天都可以。",
+            "py": "chú le zhōu wǔ , qí tā jǐ tiān dōu kě yǐ .",
+            "en": "Any of the other days works, except Friday."
+          }
+        },
+        {
+          "left": "Teacher Mr Zhang also came.",
+          "right": {
+            "zh": "老师张先生也来了。",
+            "py": "lǎo shī zhāng xiān shēng yě lái le .",
+            "en": "Teacher Mr Zhang also came."
+          }
+        },
+        {
+          "left": "She speaks Chinese fluently.",
+          "right": {
+            "zh": "她汉语说得很流利。",
+            "py": "tā hàn yǔ shuō dé hěn liú lì .",
+            "en": "She speaks Chinese fluently."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Qualify an impression",
+      "natural": {
+        "zh": "看起来是这样，实际还要确认。",
+        "py": "kàn qi lái shì zhè yàng , shí jì hái yào què rèn .",
+        "en": "It looks that way; the actual situation needs checking."
+      },
+      "note": "Appearance is not certainty."
+    },
+    {
+      "situation": "Ask two permissions",
+      "natural": {
+        "zh": "可以拍吗？可以公开吗？",
+        "py": "kě yǐ pāi ma ? kě yǐ gōng kāi ma ?",
+        "en": "May I take it? May I publish it?"
+      },
+      "note": "Keep the two decisions separate."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u27-speak",
+    "title": "How does this photo look?",
+    "place": "A language-exchange meeting",
+    "context": "Distinguish appearance from certainty.",
+    "goal": "Describe visible appearance without claiming hidden facts",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "桥近吗？",
+        "pinyin": "qiáo jìn ma ?",
+        "meaning": "Is the bridge near?",
+        "intent": "Separate appearance from confirmed distance",
+        "examples": [
+          "看起来近，但还没量。"
+        ],
+        "accept": [
+          "^看起来近，但还没量。[。！？]?$"
+        ]
+      },
+      {
+        "text": "能公开照片吗？",
+        "pinyin": "néng gōng kāi zhào piān ma ?",
+        "meaning": "May the photo be published?",
+        "intent": "Respect the specific permission",
+        "examples": [
+          "她只同意拍照，公开还要问。"
+        ],
+        "accept": [
+          "^她只同意拍照，公开还要问。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三35, 三36. Native check: overlapping 看起来/看上去 uses, 羊 as a general sheep/goat label, animal classifiers, nonjudgmental 胖 use for a model, the banana-as-mountain joke, photograph framing and permission scope. Native review pending. Planned retrieval 三28 / 三38 / 三32 / 三53: 除了看节目，我还听广播。, 除了周五，其他几天都可以。, 老师张先生也来了。, 她汉语说得很流利。."
+}

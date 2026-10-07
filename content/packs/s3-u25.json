@@ -1,0 +1,1190 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u25",
+    "stage": 2,
+    "order": 89,
+    "title": "The friend I mentioned",
+    "titleZh": "我提过的那位朋友",
+    "canDo": [
+      "Identify a friend through meaningful descriptions",
+      "Recognize four phrase structures",
+      "Read a subject–predicate phrase as the larger predicate"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u24"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u25-w01",
+      "hanzi": "本领",
+      "pinyin": "běn lǐng",
+      "meaning": "ability; skill",
+      "meaningVi": "năng lực",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她有组织活动的本领。",
+        "py": "tā yǒu zǔ zhī huó dòng de běn lǐng .",
+        "en": "She has the ability to organize events."
+      },
+      "usageNote": "[GF2021:L3:304] Source entry: 本领; běnlǐng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w02",
+      "hanzi": "本事",
+      "pinyin": "běn shi",
+      "meaning": "ability; capability",
+      "meaningVi": "bản lĩnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "他修东西很有本事。",
+        "py": "tā xiū dōng xi hěn yǒu běn shi .",
+        "en": "He is good at repairing things."
+      },
+      "usageNote": "[GF2021:L3:311] Source entry: 本事; běnshi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w03",
+      "hanzi": "长处",
+      "pinyin": "cháng chù",
+      "meaning": "strength; strong point",
+      "meaningVi": "điểm mạnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她的长处是听得认真。",
+        "py": "tā de cháng chù shì tīng dé rèn zhēn .",
+        "en": "Her strength is listening carefully."
+      },
+      "usageNote": "[GF2021:L3:818] Source entry: 长处; chángchù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w04",
+      "hanzi": "短处",
+      "pinyin": "duǎn chù",
+      "meaning": "weakness; shortcoming",
+      "meaningVi": "điểm yếu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我的短处是说得太急。",
+        "py": "wǒ de duǎn chù shì shuō dé tài jí .",
+        "en": "My weakness is speaking too hastily."
+      },
+      "usageNote": "[GF2021:L3:1997] Source entry: 短处; duǎnchù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w05",
+      "hanzi": "成熟",
+      "pinyin": "chéng shú",
+      "meaning": "mature",
+      "meaningVi": "trưởng thành",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她处理问题很成熟。",
+        "py": "tā chǔ lǐ wèn tí hěn chéng shú .",
+        "en": "She handles problems maturely."
+      },
+      "usageNote": "[GF2021:L3:969] Source entry: 成熟; chéngshú; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w06",
+      "hanzi": "程度",
+      "pinyin": "chéng dù",
+      "meaning": "degree; extent",
+      "meaningVi": "mức độ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们练到的程度不同。",
+        "py": "wǒ men liàn dào de chéng dù bù tóng .",
+        "en": "We have practised to different levels."
+      },
+      "usageNote": "[GF2021:L3:1005] Source entry: 程度; chéngdù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w07",
+      "hanzi": "表面",
+      "pinyin": "biǎo miàn",
+      "meaning": "surface; appearance",
+      "meaningVi": "bề mặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "表面安静，不代表没在想。",
+        "py": "biǎo miàn ān jìng , bù dài biǎo méi zài xiǎng .",
+        "en": "A quiet appearance does not imply not thinking."
+      },
+      "usageNote": "[GF2021:L3:442] Source entry: 表面; biǎomiàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w08",
+      "hanzi": "表明",
+      "pinyin": "biǎo míng",
+      "meaning": "to show; indicate",
+      "meaningVi": "cho thấy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她的回答表明她看过通知。",
+        "py": "tā de huí dá biǎo míng tā kàn guò tōng zhī .",
+        "en": "Her response indicates she read the notice."
+      },
+      "usageNote": "[GF2021:L3:444] Source entry: 表明; biǎomíng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w09",
+      "hanzi": "显得",
+      "pinyin": "xiǎn de",
+      "meaning": "to seem; appear",
+      "meaningVi": "có vẻ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "换个说法，介绍显得自然一些。",
+        "py": "huàn gè shuō fǎ , jiè shào xiǎn de zì rán yī xiē .",
+        "en": "A different phrasing makes the introduction seem more natural."
+      },
+      "usageNote": "[GF2021:L3:8746] Source entry: 显得; xiǎnde; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w10",
+      "hanzi": "显示",
+      "pinyin": "xiǎn shì",
+      "meaning": "to display; show",
+      "meaningVi": "hiển thị",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "屏幕显示的是文章标题。",
+        "py": "píng mù xiǎn shì de shì wén zhāng biāo tí .",
+        "en": "The screen displays the article title."
+      },
+      "usageNote": "[GF2021:L3:8750] Source entry: 显示; xiǎnshì; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w11",
+      "hanzi": "形象",
+      "pinyin": "xíng xiàng",
+      "meaning": "image; impression",
+      "meaningVi": "hình tượng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "介绍不能只说外在形象。",
+        "py": "jiè shào bù néng zhǐ shuō wài zài xíng xiàng .",
+        "en": "An introduction should not only describe outward image."
+      },
+      "usageNote": "[GF2021:L3:9074] Source entry: 形象; xíngxiàng; 名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w12",
+      "hanzi": "形式",
+      "pinyin": "xíng shì",
+      "meaning": "form; format",
+      "meaningVi": "hình thức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这篇介绍用对话的形式。",
+        "py": "zhè piān jiè shào yòng duì huà de xíng shì .",
+        "en": "This introduction takes the form of dialogue."
+      },
+      "usageNote": "[GF2021:L3:9071] Source entry: 形式; xíngshì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w13",
+      "hanzi": "文字",
+      "pinyin": "wén zì",
+      "meaning": "written language; text",
+      "meaningVi": "chữ viết",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "文字写得简短，意思清楚。",
+        "py": "wén zì xiě dé jiǎn duǎn , yì si qīng chǔ .",
+        "en": "The written text is short and clear."
+      },
+      "usageNote": "[GF2021:L3:8469] Source entry: 文字; wénzì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w14",
+      "hanzi": "文章",
+      "pinyin": "wén zhāng",
+      "meaning": "article; written piece",
+      "meaningVi": "bài viết",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这篇文章介绍一位朋友。",
+        "py": "zhè piān wén zhāng jiè shào yī wèi péng you .",
+        "en": "This article introduces a friend."
+      },
+      "usageNote": "[GF2021:L3:8468] Source entry: 文章; wénzhāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w15",
+      "hanzi": "读者",
+      "pinyin": "dú zhě",
+      "meaning": "reader",
+      "meaningVi": "độc giả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "读者不一定认识她。",
+        "py": "dú zhě bù yí dìng rèn shi tā .",
+        "en": "Readers do not necessarily know her."
+      },
+      "usageNote": "[GF2021:L3:1978] Source entry: 读者; dúzhě; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w16",
+      "hanzi": "写作",
+      "pinyin": "xiě zuò",
+      "meaning": "writing",
+      "meaningVi": "viết văn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "写作前先问她愿不愿意。",
+        "py": "xiě zuò qián xiān wèn tā yuàn bù yuàn yì .",
+        "en": "Ask whether she agrees before writing."
+      },
+      "usageNote": "[GF2021:L3:8962] Source entry: 写作; xiězuò; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w17",
+      "hanzi": "杂志",
+      "pinyin": "zá zhì",
+      "meaning": "magazine",
+      "meaningVi": "tạp chí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她给杂志写了短文。",
+        "py": "tā gěi zá zhì xiě le duǎn wén .",
+        "en": "She wrote a short piece for the magazine."
+      },
+      "usageNote": "[GF2021:L3:10102] Source entry: 杂志; zázhì; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w18",
+      "hanzi": "现实",
+      "pinyin": "xiàn shí",
+      "meaning": "reality; actual life",
+      "meaningVi": "thực tế",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "现实里的朋友和故事人物不同。",
+        "py": "xiàn shí lǐ de péng you hé gù shì rén wù bù tóng .",
+        "en": "Real-life friends differ from fictional characters."
+      },
+      "usageNote": "[GF2021:L3:8762] Source entry: 现实; xiànshí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w19",
+      "hanzi": "班级",
+      "pinyin": "bān jí",
+      "meaning": "class; class group",
+      "meaningVi": "lớp học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们在同一个班级认识。",
+        "py": "wǒ men zài tóng yī gè bān jí rèn shi .",
+        "en": "We met in the same class."
+      },
+      "usageNote": "[GF2021:L3:120] Source entry: 班级; bānjí; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w20",
+      "hanzi": "保安",
+      "pinyin": "bǎo ān",
+      "meaning": "security guard; security",
+      "meaningVi": "bảo vệ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "门口的保安帮我们找到了教室。",
+        "py": "mén kǒu de bǎo ān bāng wǒ men zhǎo dào le jiào shì .",
+        "en": "The guard at the entrance helped us find the classroom."
+      },
+      "usageNote": "[GF2021:L3:196] Source entry: 保安; bǎo’ān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w21",
+      "hanzi": "职业",
+      "pinyin": "zhí yè",
+      "meaning": "occupation",
+      "meaningVi": "nghề nghiệp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她愿意介绍自己的职业。",
+        "py": "tā yuàn yì jiè shào zì jǐ de zhí yè .",
+        "en": "She is willing to introduce her occupation."
+      },
+      "usageNote": "[GF2021:L3:10513] Source entry: 职业; zhíyè; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u25-w22",
+      "hanzi": "评价",
+      "pinyin": "píng jià",
+      "meaning": "assessment; to assess",
+      "meaningVi": "đánh giá",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "评价要说具体事情。",
+        "py": "píng jià yào shuō jù tǐ shì qíng .",
+        "en": "An assessment should name concrete things."
+      },
+      "usageNote": "[GF2021:L3:6144] Source entry: 评价; píngjià; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "察",
+      "pinyin": "chá",
+      "meaning": "to examine; observe",
+      "strokes": 14,
+      "parts": [
+        {
+          "form": "察",
+          "role": "whole",
+          "gloss": "to examine; observe"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 察 in 观察. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "观察",
+          "p": "guān chá",
+          "m": "to observe"
+        }
+      ]
+    },
+    {
+      "hanzi": "础",
+      "pinyin": "chǔ",
+      "meaning": "foundation",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "础",
+          "role": "whole",
+          "gloss": "foundation"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 础 in 基础. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "基础",
+          "p": "jī chǔ",
+          "m": "foundation"
+        }
+      ]
+    },
+    {
+      "hanzi": "评",
+      "pinyin": "píng",
+      "meaning": "to comment; assess",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "评",
+          "role": "whole",
+          "gloss": "to comment; assess"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 评 in 评价. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "评价",
+          "p": "píng jià",
+          "m": "to evaluate; review"
+        }
+      ]
+    },
+    {
+      "hanzi": "品",
+      "pinyin": "pǐn",
+      "meaning": "item; quality",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "品",
+          "role": "whole",
+          "gloss": "item; quality"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 品 in 食品 / 作品. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "食品",
+          "p": "shí pǐn",
+          "m": "food; food products"
+        },
+        {
+          "w": "作品",
+          "p": "zuò pǐn",
+          "m": "work; creation"
+        }
+      ]
+    },
+    {
+      "hanzi": "职",
+      "pinyin": "zhí",
+      "meaning": "occupation; duty",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "职",
+          "role": "whole",
+          "gloss": "occupation; duty"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 职 in 职业 / 职务. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "职业",
+          "p": "zhí yè",
+          "m": "occupation"
+        },
+        {
+          "w": "职务",
+          "p": "zhí wù",
+          "m": "position; job responsibilities"
+        }
+      ]
+    },
+    {
+      "hanzi": "杂",
+      "pinyin": "zá",
+      "meaning": "miscellaneous",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "杂",
+          "role": "whole",
+          "gloss": "miscellaneous"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 杂 in 杂志. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "杂志",
+          "p": "zá zhì",
+          "m": "magazine"
+        }
+      ]
+    },
+    {
+      "hanzi": "章",
+      "pinyin": "zhāng",
+      "meaning": "chapter; written piece",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "章",
+          "role": "whole",
+          "gloss": "chapter; written piece"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 章 in 文章. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "文章",
+          "p": "wén zhāng",
+          "m": "article"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u25-g三32",
+      "pattern": "介宾 / 方位 / 兼语 / 同位短语",
+      "purpose": "Recognize what connects the phrase",
+      "explanation": "介宾: 跟朋友 / 在教室, preposition plus its object. 方位: 桌子上 / 教室里面, referent plus location word. 兼语: 请朋友介绍, where 朋友 is both the object of 请 and the subject of 介绍. 同位: 老师张先生, where two expressions identify the same person. Do not interpret apposition as two teachers or a pivot construction as two unrelated events.",
+      "examples": [
+        {
+          "zh": "我跟朋友在教室里面见面。",
+          "py": "wǒ gēn péng you zài jiào shì lǐ miàn jiàn miàn .",
+          "en": "I meet my friend inside the classroom."
+        },
+        {
+          "zh": "请朋友介绍她的长处。",
+          "py": "qǐng péng you jiè shào tā de cháng chù .",
+          "en": "Ask the friend to introduce her strengths."
+        },
+        {
+          "zh": "老师张先生也来了。",
+          "py": "lǎo shī zhāng xiān shēng yě lái le .",
+          "en": "Teacher Mr Zhang also came."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "老师张先生是两个人。",
+          "right": "老师张先生指同一个人。",
+          "why": "The two appositive expressions refer to the same person."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u25-g三53",
+      "pattern": "大主语 + 小主语 + 谓语",
+      "purpose": "Read the larger topic and its internal statement",
+      "explanation": "A subject–predicate phrase can itself be the predicate: 她汉语说得很流利. 她 is the larger subject; 汉语说得很流利 says something about her Chinese. Similarly 这篇文章内容很清楚 has 这篇文章 as the larger subject and 内容很清楚 as its predicate. This is not a request to add a comma or 是 between every pair of nouns.",
+      "examples": [
+        {
+          "zh": "她汉语说得很流利。",
+          "py": "tā hàn yǔ shuō dé hěn liú lì .",
+          "en": "She speaks Chinese fluently."
+        },
+        {
+          "zh": "这篇文章内容很清楚。",
+          "py": "zhè piān wén zhāng nèi róng hěn qīng chǔ .",
+          "en": "This article’s content is clear."
+        },
+        {
+          "zh": "他组织活动的本领很强。",
+          "py": "tā zǔ zhī huó dòng de běn lǐng hěn qiáng .",
+          "en": "His ability to organize events is strong."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她是汉语说得很流利。",
+          "right": "她汉语说得很流利。",
+          "why": "Do not add 是 to this ordinary subject–predicate construction."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u25-d",
+    "title": "The friend in the introduction",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Identify the friend and what is actually known about her.",
+    "lines": [
+      {
+        "zh": "你提过的那位朋友，是我们班级里的那位吗？",
+        "py": "nǐ tí guò de nà wèi péng you , shì wǒ men bān jí lǐ de nà wèi ma ?",
+        "en": "Is the friend you mentioned the one in our class?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。她汉语说得很流利，写作也有本领。",
+        "py": "duì . tā hàn yǔ shuō dé hěn liú lì , xiě zuò yě yǒu běn lǐng .",
+        "en": "Yes. She speaks Chinese fluently and has writing ability.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我只看过她的文章，表面上显得很安静。",
+        "py": "wǒ zhǐ kàn guò tā de wén zhāng , biǎo miàn shàng xiǎn de hěn ān jìng .",
+        "en": "I have only read her article; she seems quiet on the surface.",
+        "speaker": "a"
+      },
+      {
+        "zh": "表面不能代替评价。她处理活动很成熟。",
+        "py": "biǎo miàn bù néng dài tì píng jià . tā chǔ lǐ huó dòng hěn chéng shú .",
+        "en": "Appearance cannot replace assessment; she handles events maturely.",
+        "speaker": "b"
+      },
+      {
+        "zh": "她的职业是什么？杂志上没有写。",
+        "py": "tā de zhí yè shì shén me ? zá zhì shàng méi yǒu xiě .",
+        "en": "What is her occupation? The magazine did not state it.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个先问她。介绍的形式可以换，事实得确认。",
+        "py": "zhè gè xiān wèn tā . jiè shào de xíng shì kě yǐ huàn , shì shí dé què rèn .",
+        "en": "Ask her first; the introduction’s format can change, but facts need confirmation.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那请她介绍自己的长处和短处。",
+        "py": "nà qǐng tā jiè shào zì jǐ de cháng chù hé duǎn chù .",
+        "en": "Then ask her to introduce her own strengths and weaknesses.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，老师张先生也可以听，但让她先说。",
+        "py": "hǎo , lǎo shī zhāng xiān shēng yě kě yǐ tīng , dàn ràng tā xiān shuō .",
+        "en": "Okay; teacher Mr Zhang can listen too, but let her speak first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the introduction distinguish?",
+        "choices": [
+          "Confirmed facts and impressions",
+          "Occupation and inevitable personality",
+          "Two people named teacher Zhang"
+        ],
+        "answer": "Confirmed facts and impressions"
+      },
+      {
+        "type": "detail",
+        "q": "Where did the speakers meet the friend?",
+        "choices": [
+          "In their class",
+          "At a hospital",
+          "At an airport"
+        ],
+        "answer": "In their class"
+      },
+      {
+        "type": "inference",
+        "q": "Does a quiet appearance establish her whole personality?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only in a magazine"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "流利",
+        "pinyin": "liú lì",
+        "meaning": "fluent"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u25-r",
+    "title": "A description with a basis",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read how the draft is checked with its subject.",
+    "lines": [
+      {
+        "zh": "写作开始前，读者需要知道这位朋友是谁，不能只看屏幕显示的名字。",
+        "py": "xiě zuò kāi shǐ qián , dú zhě xū yào zhī dào zhè wèi péng you shì shéi , bù néng zhǐ kàn píng mù xiǎn shì de míng zi .",
+        "en": "Before writing, readers need to know who this friend is, beyond the displayed name."
+      },
+      {
+        "zh": "我们在班级认识，门口的保安帮过忙，这些是可以确认的事情。",
+        "py": "wǒ men zài bān jí rèn shi , mén kǒu de bǎo ān bāng guò máng , zhè xiē shì kě yǐ què rèn de shì qíng .",
+        "en": "We met in class and the entrance guard helped us; these are confirmable events."
+      },
+      {
+        "zh": "她汉语说得很流利，文章内容很清楚；这两句各有一个内部主谓结构。",
+        "py": "tā hàn yǔ shuō dé hěn liú lì , wén zhāng nèi róng hěn qīng chǔ ; zhè liǎng jù gè yǒu yī gè nèi bù zhǔ wèi jié gòu .",
+        "en": "She speaks Chinese fluently and the article’s content is clear; each contains an internal subject–predicate structure."
+      },
+      {
+        "zh": "她的本领和本事要看实际做过的事，了解的程度也要说明。",
+        "py": "tā de běn lǐng hé běn shi yào kàn shí jì zuò guò de shì , liǎo jiě de chéng dù yě yào shuō míng .",
+        "en": "Her abilities should be judged from actual actions, and the extent of our knowledge stated."
+      },
+      {
+        "zh": "认真观察作品，评价具体长处与短处；基础还在练，不等于没有能力。",
+        "py": "rèn zhēn guān chá zuò pǐn , píng jià jù tǐ cháng chù yǔ duǎn chù ; jī chǔ hái zài liàn , bù děng yú méi yǒu néng lì .",
+        "en": "Observe the work carefully and assess specific strengths and weaknesses; still practising foundations does not mean having no ability."
+      },
+      {
+        "zh": "成熟是这次处理问题给人的形象，不是对所有未来行为的保证。",
+        "py": "chéng shú shì zhè cì chǔ lǐ wèn tí gěi rén de xíng xiàng , bù shì duì suǒ yǒu wèi lái xíng wéi de bǎo zhèng .",
+        "en": "Maturity is the impression from this handling of a problem, not a guarantee of all future behaviour."
+      },
+      {
+        "zh": "文字的形式改变不了现实，杂志介绍的事实由她自己确认。",
+        "py": "wén zì de xíng shì gǎi biàn bù le xiàn shí , zá zhì jiè shào de shì shí yóu tā zì jǐ què rèn .",
+        "en": "A text’s format cannot change reality; she confirms the facts in the magazine introduction."
+      },
+      {
+        "zh": "她的回答表明职业暂时不写，也让介绍显得更尊重本人。",
+        "py": "tā de huí dá biǎo míng zhí yè zàn shí bù xiě , yě ràng jiè shào xiǎn de gèng zūn zhòng běn rén .",
+        "en": "Her response indicates the occupation will be omitted for now, making the introduction more respectful."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What supports the description?",
+        "choices": [
+          "Specific events and the friend’s confirmation",
+          "Only a displayed name",
+          "Invented future guarantees"
+        ],
+        "answer": "Specific events and the friend’s confirmation"
+      },
+      {
+        "type": "detail",
+        "q": "What is omitted for now?",
+        "choices": [
+          "Her occupation",
+          "Every written word",
+          "All reference to class"
+        ],
+        "answer": "Her occupation"
+      },
+      {
+        "type": "inference",
+        "q": "Is practicing foundations incompatible with ability?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only for readers"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "认真观察作品，评价具体【长处】与短处；基础还在练，不等于没有能力。",
+          "py": "rèn zhēn guān chá zuò pǐn , píng jià jù tǐ cháng chù yǔ duǎn chù ; jī chǔ hái zài liàn , bù děng yú méi yǒu néng lì .",
+          "en": "Observe the work carefully and assess specific strengths and weaknesses; still practising foundations does not mean having no ability."
+        },
+        {
+          "zh": "文字的【形式】改变不了现实，杂志介绍的事实由她自己确认。",
+          "py": "wén zì de xíng shì gǎi biàn bù le xiàn shí , zá zhì jiè shào de shì shí yóu tā zì jǐ què rèn .",
+          "en": "A text’s format cannot change reality; she confirms the facts in the magazine introduction."
+        }
+      ],
+      "bank": [
+        "长处",
+        "形式",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "基础",
+        "pinyin": "jī chǔ",
+        "meaning": "foundation"
+      },
+      {
+        "hanzi": "观察",
+        "pinyin": "guān chá",
+        "meaning": "to observe"
+      },
+      {
+        "hanzi": "作品",
+        "pinyin": "zuò pǐn",
+        "meaning": "work; creation"
+      },
+      {
+        "hanzi": "主谓结构",
+        "pinyin": "zhǔ wèi jié gòu",
+        "meaning": "subject–predicate structure"
+      },
+      {
+        "hanzi": "流利",
+        "pinyin": "liú lì",
+        "meaning": "fluent"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u25-media",
+      "title": "The introduction is hers",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original drama scene.",
+      "lines": [
+        {
+          "zh": "你写我很安静，我刚才还在讨论呢。",
+          "py": "nǐ xiě wǒ hěn ān jìng , wǒ gāng cái hái zài tǎo lùn ne .",
+          "en": "You wrote that I am quiet; I was just discussing things.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我只看到表面，介绍写得太满了。",
+          "py": "wǒ zhǐ kàn dào biǎo miàn , jiè shào xiě dé tài mǎn le .",
+          "en": "I saw only the surface and overstated the introduction.",
+          "speaker": "b"
+        },
+        {
+          "zh": "长处短处，我自己说。职业这次先不写。",
+          "py": "cháng chù duǎn chù , wǒ zì jǐ shuō . zhí yè zhè cì xiān bù xiě .",
+          "en": "I will state my strengths and weaknesses; omit my occupation this time.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。文章写你，不替你做决定。",
+          "py": "hǎo . wén zhāng xiě nǐ , bù tì nǐ zuò jué dìng .",
+          "en": "Okay. The article describes you; it does not decide for you.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What does the author change?",
+          "choices": [
+            "Overconfident claims and occupation disclosure",
+            "The friend’s actual job",
+            "The original meeting place"
+          ],
+          "answer": "Overconfident claims and occupation disclosure"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": []
+    },
+    {
+      "id": "s3-u25-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "他修东西很有本事。",
+          "py": "tā xiū dōng xi hěn yǒu běn shi .",
+          "en": "He is good at repairing things."
+        },
+        {
+          "zh": "我们练到的程度不同。",
+          "py": "wǒ men liàn dào de chéng dù bù tóng .",
+          "en": "We have practised to different levels."
+        },
+        {
+          "zh": "她的回答表明她看过通知。",
+          "py": "tā de huí dá biǎo míng tā kàn guò tōng zhī .",
+          "en": "Her response indicates she read the notice."
+        },
+        {
+          "zh": "屏幕显示的是文章标题。",
+          "py": "píng mù xiǎn shì de shì wén zhāng biāo tí .",
+          "en": "The screen displays the article title."
+        },
+        {
+          "zh": "介绍不能只说外在形象。",
+          "py": "jiè shào bù néng zhǐ shuō wài zài xíng xiàng .",
+          "en": "An introduction should not only describe outward image."
+        },
+        {
+          "zh": "现实里的朋友和故事人物不同。",
+          "py": "xiàn shí lǐ de péng you hé gù shì rén wù bù tóng .",
+          "en": "Real-life friends differ from fictional characters."
+        },
+        {
+          "zh": "门口的保安帮我们找到了教室。",
+          "py": "mén kǒu de bǎo ān bāng wǒ men zhǎo dào le jiào shì .",
+          "en": "The guard at the entrance helped us find the classroom."
+        }
+      ],
+      "questions": [],
+      "glosses": []
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u25-t1",
+      "phrase": "s3-u25-w07",
+      "audio": {
+        "zh": "表面安静，不代表没在思考。",
+        "py": "biǎo miàn ān jìng , bù dài biǎo méi zài sī kǎo .",
+        "en": "A quiet appearance does not imply not thinking."
+      },
+      "statement": "The person is certainly not thinking.",
+      "answer": false,
+      "why": "Appearance does not establish the private state."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u25-t2",
+      "phrase": "s3-u25-w21",
+      "audio": {
+        "zh": "她确认这次先不写职业。",
+        "py": "tā què rèn zhè cì xiān bù xiě zhí yè .",
+        "en": "She confirms her occupation should be omitted this time."
+      },
+      "statement": "The occupation should be disclosed now.",
+      "answer": false,
+      "why": "The explicit choice is omission."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u25-t3",
+      "phrase": "s3-u25-w22",
+      "prompt": {
+        "zh": "只看过一篇文章，可以评价所有行为吗？",
+        "py": "zhǐ kàn guò yī piān wén zhāng , kě yǐ píng jià suǒ yǒu xíng wéi ma ?",
+        "en": "Can one article establish all behaviour?"
+      },
+      "choices": [
+        "不可以，要说具体事情。",
+        "安静就是从不讨论。",
+        "职业就是全部人格。"
+      ],
+      "answer": "不可以，要说具体事情。",
+      "why": "Restrict the claim to evidence."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u25-t4",
+      "phrase": "s3-u25-w19",
+      "prompt": {
+        "zh": "你们在哪认识？",
+        "py": "nǐ men zài nǎ rèn shi ?",
+        "en": "Where did you meet?"
+      },
+      "choices": [
+        "在同一个班级。",
+        "读者就是两个老师。",
+        "表面就是职业。"
+      ],
+      "answer": "在同一个班级。",
+      "why": "State the actual meeting context."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u25-t5",
+      "phrase": "s3-u25-w13",
+      "line": {
+        "zh": "先核对【文字】，再录音。",
+        "py": "xiān hé duì wén zì , zài lù yīn .",
+        "en": "Check the written text before recording."
+      },
+      "blankPy": "wén zì"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u25-t6",
+      "phrase": "s3-u25-w15",
+      "line": {
+        "zh": "【读者】不一定认识她。",
+        "py": "dú zhě bù yí dìng rèn shi tā .",
+        "en": "Readers do not necessarily know her."
+      },
+      "blankPy": "dú zhě"
+    },
+    {
+      "type": "match",
+      "id": "s3-u25-t7",
+      "phrase": "s3-u25-w14",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The article’s content is clear.",
+          "right": {
+            "zh": "这篇文章内容很清楚。",
+            "py": "zhè piān wén zhāng nèi róng hěn qīng chǔ .",
+            "en": "The article’s content is clear."
+          }
+        },
+        {
+          "left": "She speaks Chinese fluently.",
+          "right": {
+            "zh": "她汉语说得很流利。",
+            "py": "tā hàn yǔ shuō dé hěn liú lì .",
+            "en": "She speaks Chinese fluently."
+          }
+        },
+        {
+          "left": "Teacher Mr Zhang also came.",
+          "right": {
+            "zh": "老师张先生也来了。",
+            "py": "lǎo shī zhāng xiān shēng yě lái le .",
+            "en": "Teacher Mr Zhang also came."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u25-t8",
+      "phrase": "s3-u25-w01",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "She can organize events.",
+          "right": {
+            "zh": "她有组织活动的本领。",
+            "py": "tā yǒu zǔ zhī huó dòng de běn lǐng .",
+            "en": "She can organize events."
+          }
+        },
+        {
+          "left": "Ask the friend to introduce strengths.",
+          "right": {
+            "zh": "请朋友介绍长处。",
+            "py": "qǐng péng you jiè shào cháng chù .",
+            "en": "Ask the friend to introduce strengths."
+          }
+        },
+        {
+          "left": "The work on the table is hers.",
+          "right": {
+            "zh": "桌子上的作品是她的。",
+            "py": "zhuō zi shàng de zuò pǐn shì tā de .",
+            "en": "The work on the table is hers."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u25-t9",
+      "phrase": "s3-u25-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "For carrying books conveniently, I choose this cloth bag.",
+          "right": {
+            "zh": "为了带书方便，我选这个布袋。",
+            "py": "wèi le dài shū fāng biàn , wǒ xuǎn zhè gè bù dài .",
+            "en": "For carrying books conveniently, I choose this cloth bag."
+          }
+        },
+        {
+          "left": "To commemorate meeting, we make a greeting card.",
+          "right": {
+            "zh": "为了纪念见面，我们做一张贺卡。",
+            "py": "wèi le jì niàn jiàn miàn , wǒ men zuò yī zhāng hè kǎ .",
+            "en": "To commemorate meeting, we make a greeting card."
+          }
+        },
+        {
+          "left": "If the time suits, ask her again.",
+          "right": {
+            "zh": "要是时间合适，就再问她。",
+            "py": "yào shì shí jiān hé shì , jiù zài wèn tā .",
+            "en": "If the time suits, ask her again."
+          }
+        },
+        {
+          "left": "Only if she agrees do we write her occupation.",
+          "right": {
+            "zh": "只有她同意，才写她的职业。",
+            "py": "zhǐ yǒu tā tóng yì , cái xiě tā de zhí yè .",
+            "en": "Only if she agrees do we write her occupation."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Ask before describing",
+      "natural": {
+        "zh": "这句介绍，你愿意这样写吗？",
+        "py": "zhè jù jiè shào , nǐ yuàn yì zhè yàng xiě ma ?",
+        "en": "Would you like this introduction written this way?"
+      },
+      "note": "Allow correction and omission."
+    },
+    {
+      "situation": "Separate observation",
+      "natural": {
+        "zh": "这是我的印象，不一定完整。",
+        "py": "zhè shì wǒ de yìn xiàng , bù yí dìng wán zhěng .",
+        "en": "This is my impression; it may be incomplete."
+      },
+      "note": "State the limits of your knowledge."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u25-speak",
+    "title": "The friend I mentioned",
+    "place": "A language-exchange meeting",
+    "context": "Build descriptions and whole-sentence predicates.",
+    "goal": "Identify a friend through meaningful descriptions",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "她的长处是什么？",
+        "pinyin": "tā de cháng chù shì shén me ?",
+        "meaning": "What is her strength?",
+        "intent": "State one observed ability",
+        "examples": [
+          "她组织活动很有本领。"
+        ],
+        "accept": [
+          "^她组织活动很有本领。[。！？]?$"
+        ]
+      },
+      {
+        "text": "能写她的职业吗？",
+        "pinyin": "néng xiě tā de zhí yè ma ?",
+        "meaning": "May I write her occupation?",
+        "intent": "Ask the person first",
+        "examples": [
+          "先问她愿不愿意。"
+        ],
+        "accept": [
+          "^先问她愿不愿意。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三32, 三53. Native check: 本领 versus 本事 register, apposition 老师张先生, larger-topic scope in 主谓谓语句, 职业 disclosure, 表面 impressions versus evidence, and 作品评价 phrasing. Native review pending. Planned retrieval 三26 / 三72 / 三30 / 三70: 为了带书方便，我选这个布袋。, 为了纪念见面，我们做一张贺卡。, 要是时间合适，就再问她。, 只有她同意，才写她的职业。."
+}
