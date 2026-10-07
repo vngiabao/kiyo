@@ -1,0 +1,1203 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u34",
+    "stage": 2,
+    "order": 98,
+    "title": "The parcel was moved",
+    "titleZh": "是谁把行李移走了",
+    "canDo": [
+      "Follow a passive report without assuming the agent",
+      "Use 是 to emphasize a correction",
+      "Identify belongings from an explicit location"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u33"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u34-w01",
+      "hanzi": "背",
+      "pinyin": "bèi",
+      "meaning": "back of the body",
+      "meaningVi": "lưng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "她的背上有一个背包。",
+        "py": "tā de bèi shàng yǒu yī gè bēi bāo .",
+        "en": "There is a backpack on her back."
+      },
+      "usageNote": "[GF2021:L3:279] Source entry: 背; bèi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w02",
+      "hanzi": "板",
+      "pinyin": "bǎn",
+      "meaning": "board",
+      "meaningVi": "tấm ván",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "木板靠在墙边。",
+        "py": "mù bǎn kào zài qiáng biān .",
+        "en": "The wooden board rests by the wall."
+      },
+      "usageNote": "[GF2021:L3:129] Source entry: 板; bǎn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w03",
+      "hanzi": "保",
+      "pinyin": "bǎo",
+      "meaning": "to keep; protect",
+      "meaningVi": "giữ; bảo vệ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先保住原来的记录。",
+        "py": "xiān bǎo zhù yuán lái de jì lù .",
+        "en": "Preserve the original record first."
+      },
+      "usageNote": "[GF2021:L3:195] Source entry: 保; bǎo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w04",
+      "hanzi": "保护",
+      "pinyin": "bǎo hù",
+      "meaning": "to protect",
+      "meaningVi": "bảo vệ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "包装保护里面的东西。",
+        "py": "bāo zhuāng bǎo hù lǐ miàn de dōng xi .",
+        "en": "The packaging protects what is inside."
+      },
+      "usageNote": "[GF2021:L3:200] Source entry: 保护; bǎohù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w05",
+      "hanzi": "步",
+      "pinyin": "bù",
+      "meaning": "step; pace",
+      "meaningVi": "bước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她向后退了一步。",
+        "py": "tā xiàng hòu tuì le yī bù .",
+        "en": "She stepped back once."
+      },
+      "usageNote": "[GF2021:L3:647] Source entry: 步; bù; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w06",
+      "hanzi": "部",
+      "pinyin": "bù",
+      "meaning": "classifier for machines or works",
+      "meaningVi": "bộ",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这里只写一部手机。",
+        "py": "zhè lǐ zhǐ xiě yī bù shǒu jī .",
+        "en": "Only one mobile phone is listed here."
+      },
+      "usageNote": "[GF2021:L3:652] Source entry: 部; bù; 名、量. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w07",
+      "hanzi": "断",
+      "pinyin": "duàn",
+      "meaning": "to break; disconnect",
+      "meaningVi": "đứt; ngắt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "包上的绳子断了。",
+        "py": "bāo shàng de shéng zi duàn le .",
+        "en": "The bag’s cord broke."
+      },
+      "usageNote": "[GF2021:L3:2006] Source entry: 断; duàn; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w08",
+      "hanzi": "刀",
+      "pinyin": "dāo",
+      "meaning": "knife",
+      "meaningVi": "dao",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "刀放在盒子里，不是玩具。",
+        "py": "dāo fàng zài hé zi lǐ , bù shì wán jù .",
+        "en": "The knife is in a box; it is not a toy."
+      },
+      "usageNote": "[GF2021:L3:1635] Source entry: 刀; dāo; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w09",
+      "hanzi": "防",
+      "pinyin": "fáng",
+      "meaning": "to guard against; prevent",
+      "meaningVi": "phòng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个罩子防灰尘。",
+        "py": "zhè gè zhào zi fáng huī chén .",
+        "en": "This cover guards against dust."
+      },
+      "usageNote": "[GF2021:L3:2250] Source entry: 防; fáng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w10",
+      "hanzi": "破",
+      "pinyin": "pò",
+      "meaning": "broken; to break",
+      "meaningVi": "rách; vỡ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "外面的袋子破了。",
+        "py": "wài miàn de dài zi pò le .",
+        "en": "The outer bag is torn."
+      },
+      "usageNote": "[GF2021:L3:6169] Source entry: 破; pò; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w11",
+      "hanzi": "破坏",
+      "pinyin": "pò huài",
+      "meaning": "to damage; destroy",
+      "meaningVi": "phá hỏng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "移动没有得到许可，可能破坏原来的安排。",
+        "py": "yí dòng méi yǒu dé dào xǔ kě , kě néng pò huài yuán lái de ān pái .",
+        "en": "Moving without permission may disrupt the original arrangement."
+      },
+      "usageNote": "[GF2021:L3:6173] Source entry: 破坏; pòhuài; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w12",
+      "hanzi": "行李",
+      "pinyin": "xíng lǐ",
+      "meaning": "luggage",
+      "meaningVi": "hành lý",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "行李被移到门后了。",
+        "py": "xíng lǐ bèi yí dào mén hòu le .",
+        "en": "The luggage was moved behind the door."
+      },
+      "usageNote": "[GF2021:L3:9061] Source entry: 行李; xíngli; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w13",
+      "hanzi": "屋子",
+      "pinyin": "wū zi",
+      "meaning": "room; house",
+      "meaningVi": "phòng; nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "屋子里还有一个衣架。",
+        "py": "wū zi lǐ hái yǒu yī gè yī jià .",
+        "en": "There is still a clothes rack in the room."
+      },
+      "usageNote": "[GF2021:L3:8505] Source entry: 屋子; wūzi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w14",
+      "hanzi": "衣架",
+      "pinyin": "yī jià",
+      "meaning": "clothes hanger; rack",
+      "meaningVi": "móc; giá áo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "衣架旁边是我的包。",
+        "py": "yī jià páng biān shì wǒ de bāo .",
+        "en": "My bag is beside the clothes rack."
+      },
+      "usageNote": "[GF2021:L3:9468] Source entry: 衣架; yījià; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w15",
+      "hanzi": "服装",
+      "pinyin": "fú zhuāng",
+      "meaning": "clothing",
+      "meaningVi": "trang phục",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "服装放在同一个箱子里。",
+        "py": "fú zhuāng fàng zài tóng yī gè xiāng zi lǐ .",
+        "en": "The clothes are in one box."
+      },
+      "usageNote": "[GF2021:L3:2454] Source entry: 服装; fúzhuāng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w16",
+      "hanzi": "短裤",
+      "pinyin": "duǎn kù",
+      "meaning": "shorts",
+      "meaningVi": "quần đùi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "短裤和衬衫放在一起。",
+        "py": "duǎn kù hé chèn shān fàng zài yì qǐ .",
+        "en": "The shorts and shirt are placed together."
+      },
+      "usageNote": "[GF2021:L3:1998] Source entry: 短裤; duǎnkù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w17",
+      "hanzi": "领",
+      "pinyin": "lǐng",
+      "meaning": "to collect; receive",
+      "meaningVi": "nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她先领自己的行李。",
+        "py": "tā xiān lǐng zì jǐ de xíng lǐ .",
+        "en": "She collects her own luggage first."
+      },
+      "usageNote": "[GF2021:L3:5211] Source entry: 领; lǐng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w18",
+      "hanzi": "抓",
+      "pinyin": "zhuā",
+      "meaning": "to grab",
+      "meaningVi": "nắm; bắt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她抓着包带，不碰别人的包。",
+        "py": "tā zhuā zhe bāo dài , bù pèng bié ren de bāo .",
+        "en": "She holds her bag strap without touching another bag."
+      },
+      "usageNote": "[GF2021:L3:10769] Source entry: 抓; zhuā; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w19",
+      "hanzi": "抓住",
+      "pinyin": "zhuā zhù",
+      "meaning": "to hold firmly; seize",
+      "meaningVi": "nắm chắc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她抓住自己的包带。",
+        "py": "tā zhuā zhù zì jǐ de bāo dài .",
+        "en": "She firmly holds her bag strap."
+      },
+      "usageNote": "[GF2021:L3:10771] Source entry: 抓住; zhuāzhù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w20",
+      "hanzi": "自动",
+      "pinyin": "zì dòng",
+      "meaning": "automatic; automatically",
+      "meaningVi": "tự động",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个门自动关上。",
+        "py": "zhè gè mén zì dòng guān shang .",
+        "en": "This door closes automatically."
+      },
+      "usageNote": "[GF2021:L3:10904] Source entry: 自动; zìdòng; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w21",
+      "hanzi": "围",
+      "pinyin": "wéi",
+      "meaning": "to surround",
+      "meaningVi": "vây",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "别围着行李挡住门。",
+        "py": "bié wéi zhe xíng lǐ dǎng zhù mén .",
+        "en": "Do not crowd around the luggage and block the door."
+      },
+      "usageNote": "[GF2021:L3:8387] Source entry: 围; wéi; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u34-w22",
+      "hanzi": "周围",
+      "pinyin": "zhōu wéi",
+      "meaning": "surroundings; around",
+      "meaningVi": "xung quanh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "包周围没有姓名。",
+        "py": "bāo zhōu wéi méi yǒu xìng míng .",
+        "en": "There is no name around the bag."
+      },
+      "usageNote": "[GF2021:L3:10688] Source entry: 周围; zhōuwéi; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "刀",
+      "pinyin": "dāo",
+      "meaning": "knife",
+      "strokes": 2,
+      "parts": [
+        {
+          "form": "刀",
+          "role": "whole",
+          "gloss": "knife"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 刀 in 刀. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "刀",
+          "p": "dāo",
+          "m": "knife"
+        }
+      ]
+    },
+    {
+      "hanzi": "断",
+      "pinyin": "duàn",
+      "meaning": "to break; disconnect",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "断",
+          "role": "whole",
+          "gloss": "to break; disconnect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 断 in 断 / 打断. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "断",
+          "p": "duàn",
+          "m": "to break; disconnect"
+        },
+        {
+          "w": "打断",
+          "p": "dǎ duàn",
+          "m": "to interrupt"
+        }
+      ]
+    },
+    {
+      "hanzi": "破",
+      "pinyin": "pò",
+      "meaning": "broken",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "破",
+          "role": "whole",
+          "gloss": "broken"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 破 in 破 / 破坏. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "破",
+          "p": "pò",
+          "m": "broken; to break"
+        },
+        {
+          "w": "破坏",
+          "p": "pò huài",
+          "m": "to damage; destroy"
+        }
+      ]
+    },
+    {
+      "hanzi": "皮",
+      "pinyin": "pí",
+      "meaning": "skin; leather",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "皮",
+          "role": "whole",
+          "gloss": "skin; leather"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 皮 in 皮包 / 皮. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "皮包",
+          "p": "pí bāo",
+          "m": "leather bag"
+        },
+        {
+          "w": "皮",
+          "p": "pí",
+          "m": "skin; leather"
+        }
+      ]
+    },
+    {
+      "hanzi": "裙",
+      "pinyin": "qún",
+      "meaning": "skirt",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "裙",
+          "role": "whole",
+          "gloss": "skirt"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 裙 in 裙子 / 皮裙. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "裙子",
+          "p": "qún zi",
+          "m": "skirt"
+        },
+        {
+          "w": "皮裙",
+          "p": "pí qún",
+          "m": "leather skirt"
+        }
+      ]
+    },
+    {
+      "hanzi": "衫",
+      "pinyin": "shān",
+      "meaning": "shirt",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "衫",
+          "role": "whole",
+          "gloss": "shirt"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 衫 in 衬衫. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "衬衫",
+          "p": "chèn shān",
+          "m": "shirt"
+        }
+      ]
+    },
+    {
+      "hanzi": "围",
+      "pinyin": "wéi",
+      "meaning": "to surround",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "围",
+          "role": "whole",
+          "gloss": "to surround"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 围 in 围 / 周围. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "围",
+          "p": "wéi",
+          "m": "to surround"
+        },
+        {
+          "w": "周围",
+          "p": "zhōu wéi",
+          "m": "surroundings; around"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u34-g三55",
+      "pattern": "主语 + 被 + 施事 + 动作；省略施事",
+      "purpose": "Follow the affected item in a passive",
+      "explanation": "行李被同学移到门后了 names the agent. 行李被移到门后了 does not. Passive wording alone does not justify inventing an agent or intention. This expands the earlier 在雨中被弄湿 event with an explicit agent and result location.",
+      "examples": [
+        {
+          "zh": "行李被同学移到门后了。",
+          "py": "xíng lǐ bèi tóng xué yí dào mén hòu le .",
+          "en": "A classmate moved the luggage behind the door."
+        },
+        {
+          "zh": "袋子被划破了。",
+          "py": "dài zi bèi huà pò le .",
+          "en": "The bag was cut or scratched open."
+        },
+        {
+          "zh": "包被放在衣架旁边。",
+          "py": "bāo bèi fàng zài yī jià páng biān .",
+          "en": "The bag was put beside the clothes rack."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "行李被移走了，所以一定是她。",
+          "right": "行李被移走了，还不知道是谁。",
+          "why": "An omitted agent cannot be inferred with certainty."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u34-g三77",
+      "pattern": "是 + 要强调的部分",
+      "purpose": "Use 是 for corrective emphasis",
+      "explanation": "我是来领行李的 emphasizes the stated purpose. 是这个包被移走了 corrects which bag was moved. Emphasis is a speaker’s assertion, not independent evidence; distinguish this from the previously taught identification 是.",
+      "examples": [
+        {
+          "zh": "我是来领行李的。",
+          "py": "wǒ shì lái lǐng xíng lǐ de .",
+          "en": "I came to collect the luggage."
+        },
+        {
+          "zh": "是这个包被移走了。",
+          "py": "shì zhè gè bāo bèi yí zǒu le .",
+          "en": "It is this bag that was moved."
+        },
+        {
+          "zh": "我是真的没看见。",
+          "py": "wǒ shì zhēn de méi kàn jiàn .",
+          "en": "I really did not see it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她说是真的，所以不需要核对。",
+          "right": "她强调是真的，仍要核对具体事实。",
+          "why": "Emphasis does not replace checking facts."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u34-d",
+    "title": "The missing bag",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the bag without assigning blame.",
+    "lines": [
+      {
+        "zh": "我的行李不在这里，是谁移走了？",
+        "py": "wǒ de xíng lǐ bù zài zhè lǐ , shì shéi yí zǒu le ?",
+        "en": "My luggage is not here. Who moved it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "板上写行李被移到门后了，没有写是谁。",
+        "py": "bǎn shàng xiě xíng lǐ bèi yí dào mén hòu le , méi yǒu xiě shì shéi .",
+        "en": "The board says it was moved behind the door; it does not say by whom.",
+        "speaker": "b"
+      },
+      {
+        "zh": "是这个包吗？周围没有姓名。",
+        "py": "shì zhè gè bāo ma ? zhōu wéi méi yǒu xìng míng .",
+        "en": "Is it this bag? There is no name around it.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先问本人。衣架旁边的皮裙、衬衫和短裤放在一起。",
+        "py": "xiān wèn běn rén . yī jià páng biān de pí qún , chèn shān hé duǎn kù fàng zài yì qǐ .",
+        "en": "Ask the person first. The leather skirt, shirt and shorts are together beside the rack.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我是来领行李的，不是来找别人吵架的。",
+        "py": "wǒ shì lái lǐng xíng lǐ de , bù shì lái zhǎo bié ren chǎo jià de .",
+        "en": "I came to collect luggage, not quarrel with anyone.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，先保护原来的记录。门自动关了，别围着门。",
+        "py": "hǎo , xiān bǎo hù yuán lái de jì lù . mén zì dòng guān le , bié wéi zhe mén .",
+        "en": "Good; preserve the original record first. The door closed automatically; do not crowd it.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "Why did the speaker come?",
+        "choices": [
+          "To collect their luggage",
+          "To start a quarrel",
+          "To replace the door"
+        ],
+        "answer": "To collect their luggage"
+      },
+      {
+        "type": "detail",
+        "q": "Where does the board place the luggage?",
+        "choices": [
+          "Behind the door",
+          "On her back",
+          "Outside the building"
+        ],
+        "answer": "Behind the door"
+      },
+      {
+        "type": "inference",
+        "q": "Does the board identify who moved it?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only from the clothing colour"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "皮裙",
+        "pinyin": "pí qún",
+        "meaning": "leather skirt"
+      },
+      {
+        "hanzi": "衬衫",
+        "pinyin": "chèn shān",
+        "meaning": "shirt"
+      },
+      {
+        "hanzi": "移走",
+        "pinyin": "yí zǒu",
+        "meaning": "to move away"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u34-r",
+    "title": "Record, then confirm",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the belongings note.",
+    "lines": [
+      {
+        "zh": "屋子里有木板和衣架，服装放在一个箱子里。",
+        "py": "wū zi lǐ yǒu mù bǎn hé yī jià , fú zhuāng fàng zài yī gè xiāng zi lǐ .",
+        "en": "The room has a wooden board and a rack; clothing is in one box."
+      },
+      {
+        "zh": "一部手机在自己的包里，部不表示主人有几个人。",
+        "py": "yī bù shǒu jī zài zì jǐ de bāo lǐ , bù bù biǎo shì zhǔ rén yǒu jǐ gè rén .",
+        "en": "One phone is in the owner’s bag; 部 does not count owners."
+      },
+      {
+        "zh": "包带原来抓在手里，绳子断了，她退了一步，背上没有受伤。",
+        "py": "bāo dài yuán lái zhuā zài shǒu lǐ , shéng zi duàn le , tā tuì le yī bù , bèi shàng méi yǒu shòu shāng .",
+        "en": "She had held the strap; the cord broke; she stepped back and her back was uninjured."
+      },
+      {
+        "zh": "袋子被划破，不代表里面全部破坏；刀仍在盒子里。",
+        "py": "dài zi bèi huà pò , bù dài biǎo lǐ miàn quán bù pò huài ; dāo réng zài hé zi lǐ .",
+        "en": "A torn bag does not imply all its contents are damaged; the knife remains in its box."
+      },
+      {
+        "zh": "防灰尘的罩子保护物品；先保住记录，再领自己的包。",
+        "py": "fáng huī chén de zhào zi bǎo hù wù pǐn ; xiān bǎo zhù jì lù , zài lǐng zì jǐ de bāo .",
+        "en": "The dust cover protects the items; preserve the record before collecting one’s bag."
+      },
+      {
+        "zh": "抓住线索也要核对，别围着门挡路。是来取包，不是替人判断责任。",
+        "py": "zhuā zhù xiàn suǒ yě yào hé duì , bié wéi zhe mén dǎng lù . shì lái qǔ bāo , bù shì tì rén pàn duàn zé rèn .",
+        "en": "Verify clues and do not block the doorway; the purpose is collecting a bag, not assigning blame."
+      }
+    ],
+    "questions": [
+      {
+        "type": "inference",
+        "q": "Does a torn outer bag prove every item inside is damaged?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if a board is nearby"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "mainidea",
+        "q": "What is the approach?",
+        "choices": [
+          "Record what is known and confirm ownership",
+          "Infer blame from a passive",
+          "Open every bag"
+        ],
+        "answer": "Record what is known and confirm ownership"
+      },
+      {
+        "type": "detail",
+        "q": "What remains in a box?",
+        "choices": [
+          "A knife",
+          "All the luggage",
+          "The door"
+        ],
+        "answer": "A knife"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "防灰尘的罩子【保护】物品；先保住记录，再领自己的包。",
+          "py": "fáng huī chén de zhào zi bǎo hù wù pǐn ; xiān bǎo zhù jì lù , zài lǐng zì jǐ de bāo .",
+          "en": "The dust cover protects the items; preserve the record before collecting one’s bag."
+        }
+      ],
+      "bank": [
+        "保护",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "绳子",
+        "pinyin": "shéng zi",
+        "meaning": "cord"
+      },
+      {
+        "hanzi": "退",
+        "pinyin": "tuì",
+        "meaning": "to step back"
+      },
+      {
+        "hanzi": "灰尘",
+        "pinyin": "huī chén",
+        "meaning": "dust"
+      },
+      {
+        "hanzi": "罩子",
+        "pinyin": "zhào zi",
+        "meaning": "cover"
+      },
+      {
+        "hanzi": "线索",
+        "pinyin": "xiàn suǒ",
+        "meaning": "clue"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u34-media",
+      "title": "The automatic witness",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene.",
+      "lines": [
+        {
+          "zh": "门自动关了，肯定是它把包藏了。",
+          "py": "mén zì dòng guān le , kěn dìng shì tā bǎ bāo cáng le .",
+          "en": "The door closed automatically; surely it hid the bag.",
+          "speaker": "a"
+        },
+        {
+          "zh": "门会关，不会领行李。",
+          "py": "mén huì guān , bù huì lǐng xíng lǐ .",
+          "en": "A door closes; it does not collect luggage.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好吧，先问人，不问门。",
+          "py": "hǎo ba , xiān wèn rén , bù wèn mén .",
+          "en": "All right; ask a person first, not the door.",
+          "speaker": "a"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What inference is corrected?",
+          "choices": [
+            "Attributing intention to an automatic event",
+            "The documented bag location",
+            "A confirmed owner’s answer"
+          ],
+          "answer": "Attributing intention to an automatic event"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "肯定",
+          "pinyin": "kěn dìng",
+          "meaning": "certainly; to affirm"
+        }
+      ]
+    },
+    {
+      "id": "s3-u34-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这个罩子防灰尘。",
+          "py": "zhè gè zhào zi fáng huī chén .",
+          "en": "This cover guards against dust."
+        },
+        {
+          "zh": "移动没有得到许可，可能破坏原来的安排。",
+          "py": "yí dòng méi yǒu dé dào xǔ kě , kě néng pò huài yuán lái de ān pái .",
+          "en": "Moving without permission may disrupt the original arrangement."
+        },
+        {
+          "zh": "屋子里还有一个衣架。",
+          "py": "wū zi lǐ hái yǒu yī gè yī jià .",
+          "en": "There is still a clothes rack in the room."
+        },
+        {
+          "zh": "服装放在同一个箱子里。",
+          "py": "fú zhuāng fàng zài tóng yī gè xiāng zi lǐ .",
+          "en": "The clothes are in one box."
+        },
+        {
+          "zh": "她抓住自己的包带。",
+          "py": "tā zhuā zhù zì jǐ de bāo dài .",
+          "en": "She firmly holds her bag strap."
+        },
+        {
+          "zh": "包周围没有姓名。",
+          "py": "bāo zhōu wéi méi yǒu xìng míng .",
+          "en": "There is no name around the bag."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "移动",
+          "pinyin": "yí dòng",
+          "meaning": "move"
+        },
+        {
+          "hanzi": "许可",
+          "pinyin": "xǔ kě",
+          "meaning": "permission"
+        },
+        {
+          "hanzi": "灰尘",
+          "pinyin": "huī chén",
+          "meaning": "dust"
+        },
+        {
+          "hanzi": "罩子",
+          "pinyin": "zhào zi",
+          "meaning": "cover"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u34-t1",
+      "phrase": "s3-u34-w12",
+      "audio": {
+        "zh": "行李被移走了，没有说是谁。",
+        "py": "xíng lǐ bèi yí zǒu le , méi yǒu shuō shì shéi .",
+        "en": "The luggage was moved; no agent is named."
+      },
+      "statement": "A particular person is identified.",
+      "answer": false,
+      "why": "No agent is stated."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u34-t2",
+      "phrase": "s3-u34-w20",
+      "audio": {
+        "zh": "门自动关上了。",
+        "py": "mén zì dòng guān shang le .",
+        "en": "The door closed automatically."
+      },
+      "statement": "The closure was automatic.",
+      "answer": true,
+      "why": "Automatic is explicit."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u34-t3",
+      "phrase": "s3-u34-w17",
+      "prompt": {
+        "zh": "这个包可以直接领吗？",
+        "py": "zhè gè bāo kě yǐ zhí jiē lǐng ma ?",
+        "en": "May I collect this bag directly?"
+      },
+      "choices": [
+        "先确认是不是自己的。",
+        "颜色一样就都是我的。",
+        "不问本人也算确认。"
+      ],
+      "answer": "先确认是不是自己的。",
+      "why": "Confirm ownership."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u34-t4",
+      "phrase": "s3-u34-w01",
+      "prompt": {
+        "zh": "背疼就能确定原因吗？",
+        "py": "bèi téng jiù néng què dìng yuán yīn ma ?",
+        "en": "Does back pain establish its cause?"
+      },
+      "choices": [
+        "不能，只是报告感受。",
+        "所有原因都一样。",
+        "听见一次就是诊断。"
+      ],
+      "answer": "不能，只是报告感受。",
+      "why": "A reported feeling does not diagnose."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u34-t5",
+      "phrase": "s3-u34-w12",
+      "line": {
+        "zh": "【行李】被移到门后了。",
+        "py": "xíng lǐ bèi yí dào mén hòu le .",
+        "en": "The luggage was moved behind the door."
+      },
+      "blankPy": "xíng lǐ"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u34-t6",
+      "phrase": "s3-u34-w16",
+      "line": {
+        "zh": "那条【短裤】不是我的。",
+        "py": "nà tiáo duǎn kù bù shì wǒ de .",
+        "en": "Those shorts are not mine."
+      },
+      "blankPy": "duǎn kù"
+    },
+    {
+      "type": "match",
+      "id": "s3-u34-t7",
+      "phrase": "s3-u34-w03",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Preserve the original record first.",
+          "right": {
+            "zh": "先保住原来的记录。",
+            "py": "xiān bǎo zhù yuán lái de jì lù .",
+            "en": "Preserve the original record first."
+          }
+        },
+        {
+          "left": "I came to collect luggage.",
+          "right": {
+            "zh": "我是来领行李的。",
+            "py": "wǒ shì lái lǐng xíng lǐ de .",
+            "en": "I came to collect luggage."
+          }
+        },
+        {
+          "left": "It is this bag that was moved.",
+          "right": {
+            "zh": "是这个包被移走了。",
+            "py": "shì zhè gè bāo bèi yí zǒu le .",
+            "en": "It is this bag that was moved."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u34-t8",
+      "phrase": "s3-u34-w06",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Only one phone is here.",
+          "right": {
+            "zh": "这里只有一部手机。",
+            "py": "zhè lǐ zhǐ yǒu yī bù shǒu jī .",
+            "en": "Only one phone is here."
+          }
+        },
+        {
+          "left": "She stepped back once.",
+          "right": {
+            "zh": "她退了一步。",
+            "py": "tā tuì le yī bù .",
+            "en": "She stepped back once."
+          }
+        },
+        {
+          "left": "The knife is in the box.",
+          "right": {
+            "zh": "刀放在盒子里。",
+            "py": "dāo fàng zài hé zi lǐ .",
+            "en": "The knife is in the box."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u34-t9",
+      "phrase": "s3-u34-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "If listening makes you increasingly tired, stop briefly.",
+          "right": {
+            "zh": "越听越累，就先停一下。",
+            "py": "yuè tīng yuè lèi , jiù xiān tíng yī xià .",
+            "en": "If listening makes you increasingly tired, stop briefly."
+          }
+        },
+        {
+          "left": "She listens to Chinese carefully.",
+          "right": {
+            "zh": "她听汉语听得很认真。",
+            "py": "tā tīng hàn yǔ tīng dé hěn rèn zhēn .",
+            "en": "She listens to Chinese carefully."
+          }
+        },
+        {
+          "left": "These emails cannot be dealt with today.",
+          "right": {
+            "zh": "这些邮件今天处理不了。",
+            "py": "zhè xiē yóu jiàn jīn tiān chǔ lǐ bù le .",
+            "en": "These emails cannot be dealt with today."
+          }
+        },
+        {
+          "left": "I asked her three times.",
+          "right": {
+            "zh": "我问了她三次。",
+            "py": "wǒ wèn le tā sān cì .",
+            "en": "I asked her three times."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Unknown agent",
+      "natural": {
+        "zh": "包移走了，谁移的还没确认。",
+        "py": "bāo yí zǒu le , shéi yí de hái méi què rèn .",
+        "en": "The bag was moved; who moved it is unconfirmed."
+      },
+      "note": "Do not invent an agent."
+    },
+    {
+      "situation": "Collect one’s own belongings",
+      "natural": {
+        "zh": "先核对，再拿。",
+        "py": "xiān hé duì , zài ná .",
+        "en": "Check first, then take it."
+      },
+      "note": "Keep ownership explicit."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u34-speak",
+    "title": "The parcel was moved",
+    "place": "A language-exchange meeting",
+    "context": "Describe what happened without blaming someone unfairly.",
+    "goal": "Follow a passive report without assuming the agent",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "包在哪里？",
+        "pinyin": "bāo zài nǎ lǐ ?",
+        "meaning": "Where is the bag?",
+        "intent": "Give the stated location",
+        "examples": [
+          "板上写在门后。"
+        ],
+        "accept": [
+          "^板上写在门后。[。！？]?$"
+        ]
+      },
+      {
+        "text": "是谁移的？",
+        "pinyin": "shì shéi yí de ?",
+        "meaning": "Who moved it?",
+        "intent": "State uncertainty",
+        "examples": [
+          "还不知道，先问负责人。"
+        ],
+        "accept": [
+          "^还不知道，先问负责人。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三55, 三77. Native check: 背 bèi versus bēi, classifier 部/步, 被 with omitted agent, 是 corrective emphasis, rack classifier and everyday belongings register. No pain diagnosis or blame inference. Native review pending. Planned retrieval 三42 / 三59 / 三48 / 三50: 越听越累，就先停一下。, 她听汉语听得很认真。, 这些邮件今天处理不了。, 我问了她三次。."
+}

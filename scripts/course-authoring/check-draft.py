@@ -53,6 +53,8 @@ for path in sorted((shadow/'content/packs').glob('s*.json')):
     pack=common.read(path)
     if not any(u['id']==pack['unit']['id'] for u in common.plan['units']):continue
     assert 8<=len(pack['tasks'])<=10,(pack['unit']['id'],'task budget')
+    for field in ['dialogue','reading']:
+        assert len(pack[field]['questions'])==3,(pack['unit']['id'],field,'three comprehension questions')
     context=[s for key in ['dialogue','reading','extraReadings','grammar','tasks'] for s in connected(pack.get(key))]
     for word in pack['vocabulary']:
         assert len({s for s in context if word['hanzi'] in s})>=2,(pack['unit']['id'],word['hanzi'],'distinct contexts')
