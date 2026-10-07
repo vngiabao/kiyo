@@ -1,0 +1,1244 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u11",
+    "stage": 2,
+    "order": 75,
+    "title": "The habits we keep",
+    "titleZh": "平时怎么过",
+    "canDo": [
+      "Describe habits without turning usually into always",
+      "State how long an action lasts",
+      "Separate completed duration from an ongoing interval"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u10"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u11-w01",
+      "hanzi": "通常",
+      "pinyin": "tōng cháng",
+      "meaning": "usual; normally",
+      "meaningVi": "thông thường",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们通常周末散步。",
+        "py": "wǒ men tōng cháng zhōu mò sàn bù .",
+        "en": "We usually walk at weekends."
+      },
+      "usageNote": "[GF2021:L3:8031] Source entry: 通常; tōngcháng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w02",
+      "hanzi": "往往",
+      "pinyin": "wǎng wǎng",
+      "meaning": "often; tends to",
+      "meaningVi": "thường",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "周末她往往先看天气。",
+        "py": "zhōu mò tā wǎng wǎng xiān kàn tiān qì .",
+        "en": "At weekends she tends to check the weather first."
+      },
+      "usageNote": "[GF2021:L3:8343] Source entry: 往往; wǎngwǎng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w03",
+      "hanzi": "总",
+      "pinyin": "zǒng",
+      "meaning": "always; invariably",
+      "meaningVi": "luôn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "他总忘记带水，今天先提醒他。",
+        "py": "tā zǒng wàng jì dài shuǐ , jīn tiān xiān tí xǐng tā .",
+        "en": "He always forgets water; remind him today."
+      },
+      "usageNote": "[GF2021:L3:10957] Source entry: 总; zǒng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w04",
+      "hanzi": "总是",
+      "pinyin": "zǒng shì",
+      "meaning": "always",
+      "meaningVi": "luôn luôn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她总是先问朋友有没有空。",
+        "py": "tā zǒng shì xiān wèn péng you yǒu méi yǒu kōng .",
+        "en": "She always asks whether her friend is free first."
+      },
+      "usageNote": "[GF2021:L3:10970] Source entry: 总是; zǒngshì; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w05",
+      "hanzi": "日常",
+      "pinyin": "rì cháng",
+      "meaning": "everyday; daily",
+      "meaningVi": "hằng ngày",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是日常活动，不是比赛。",
+        "py": "zhè shì rì cháng huó dòng , bù shì bǐ sài .",
+        "en": "This is an everyday activity, not a competition."
+      },
+      "usageNote": "[GF2021:L3:6761] Source entry: 日常; rìcháng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w06",
+      "hanzi": "长期",
+      "pinyin": "cháng qī",
+      "meaning": "long-term",
+      "meaningVi": "dài hạn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "长期计划可以慢慢调整。",
+        "py": "cháng qī jì huà kě yǐ màn màn tiáo zhěng .",
+        "en": "A long-term plan can be adjusted gradually."
+      },
+      "usageNote": "[GF2021:L3:825] Source entry: 长期; chángqī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w07",
+      "hanzi": "短期",
+      "pinyin": "duǎn qī",
+      "meaning": "short-term",
+      "meaningVi": "ngắn hạn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "短期目标是先养成习惯。",
+        "py": "duǎn qī mù biāo shì xiān yǎng chéng xí guàn .",
+        "en": "The short-term goal is to establish the habit first."
+      },
+      "usageNote": "[GF2021:L3:2000] Source entry: 短期; duǎnqī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w08",
+      "hanzi": "定期",
+      "pinyin": "dìng qī",
+      "meaning": "regularly; at set intervals",
+      "meaningVi": "định kỳ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们定期整理记录。",
+        "py": "wǒ men dìng qī zhěng lǐ jì lù .",
+        "en": "We organize our records regularly."
+      },
+      "usageNote": "[GF2021:L3:1886] Source entry: 定期; dìngqī; 动、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w09",
+      "hanzi": "持续",
+      "pinyin": "chí xù",
+      "meaning": "to last; continue",
+      "meaningVi": "kéo dài",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天的散步持续了二十分钟。",
+        "py": "jīn tiān de sàn bù chí xù le èr shí fēn zhōng .",
+        "en": "Today’s walk lasted twenty minutes."
+      },
+      "usageNote": "[GF2021:L3:1035] Source entry: 持续; chíxù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w10",
+      "hanzi": "连续",
+      "pinyin": "lián xù",
+      "meaning": "consecutive; continuous",
+      "meaningVi": "liên tục",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "连续两天都去了，不等于每天都去。",
+        "py": "lián xù liǎng tiān dōu qù le , bù děng yú měi tiān dōu qù .",
+        "en": "Going on two consecutive days does not mean going every day."
+      },
+      "usageNote": "[GF2021:L3:5098] Source entry: 连续; liánxù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w11",
+      "hanzi": "坚持",
+      "pinyin": "jiān chí",
+      "meaning": "to persist; keep at",
+      "meaningVi": "kiên trì",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "坚持练习，也要休息。",
+        "py": "jiān chí liàn xí , yě yào xiū xī .",
+        "en": "Keep practising, and also rest."
+      },
+      "usageNote": "[GF2021:L3:3903] Source entry: 坚持; jiānchí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w12",
+      "hanzi": "保持",
+      "pinyin": "bǎo chí",
+      "meaning": "to maintain",
+      "meaningVi": "duy trì",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "保持合适的速度，不跟别人比赛。",
+        "py": "bǎo chí hé shì de sù dù , bù gēn bié ren bǐ sài .",
+        "en": "Maintain a suitable speed, without racing others."
+      },
+      "usageNote": "[GF2021:L3:197] Source entry: 保持; bǎochí; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w13",
+      "hanzi": "经历",
+      "pinyin": "jīng lì",
+      "meaning": "experience; to experience",
+      "meaningVi": "trải nghiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "每个人的经历不同。",
+        "py": "měi gè rén de jīng lì bù tóng .",
+        "en": "Everyone’s experience is different."
+      },
+      "usageNote": "[GF2021:L3:4329] Source entry: 经历; jīnglì; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w14",
+      "hanzi": "经验",
+      "pinyin": "jīng yàn",
+      "meaning": "experience; practical knowledge",
+      "meaningVi": "kinh nghiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "有经验，也要看今天的天气。",
+        "py": "yǒu jīng yàn , yě yào kàn jīn tiān de tiān qì .",
+        "en": "Even with experience, check today’s weather."
+      },
+      "usageNote": "[GF2021:L3:4333] Source entry: 经验; jīngyàn; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w15",
+      "hanzi": "整天",
+      "pinyin": "zhěng tiān",
+      "meaning": "all day",
+      "meaningVi": "cả ngày",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不是整天跑步，只练二十分钟。",
+        "py": "bù shì zhěng tiān pǎo bù , zhǐ liàn èr shí fēn zhōng .",
+        "en": "Not running all day: practising for just twenty minutes."
+      },
+      "usageNote": "[GF2021:L3:10412] Source entry: 整天; zhěngtiān; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w16",
+      "hanzi": "整整",
+      "pinyin": "zhěng zhěng",
+      "meaning": "a full; exactly all of",
+      "meaningVi": "trọn; đúng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们走了整整二十分钟。",
+        "py": "wǒ men zǒu le zhěng zhěng èr shí fēn zhōng .",
+        "en": "We walked for a full twenty minutes."
+      },
+      "usageNote": "[GF2021:L3:10413] Source entry: 整整; zhěngzhěng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w17",
+      "hanzi": "久",
+      "pinyin": "jiǔ",
+      "meaning": "long in time",
+      "meaningVi": "lâu",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "很久没见，先慢慢聊。",
+        "py": "hěn jiǔ méi jiàn , xiān màn màn liáo .",
+        "en": "We have not met in a long time; chat at an easy pace first."
+      },
+      "usageNote": "[GF2021:L3:4424] Source entry: 久; jiǔ; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w18",
+      "hanzi": "散步",
+      "pinyin": "sàn bù",
+      "meaning": "to take a walk",
+      "meaningVi": "đi dạo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "晚饭后散步，不是赶路。",
+        "py": "wǎn fàn hòu sàn bù , bù shì gǎn lù .",
+        "en": "Take a walk after dinner, rather than hurry somewhere."
+      },
+      "usageNote": "[GF2021:L3:6851] Source entry: 散步; sàn∥bù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w19",
+      "hanzi": "跑步",
+      "pinyin": "pǎo bù",
+      "meaning": "to run; jog",
+      "meaningVi": "chạy bộ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她今天没跑步，只散步。",
+        "py": "tā jīn tiān méi pǎo bù , zhǐ sàn bù .",
+        "en": "She did not jog today; she only walked."
+      },
+      "usageNote": "[GF2021:L3:5994] Source entry: 跑步; pǎo∥bù; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w20",
+      "hanzi": "营养",
+      "pinyin": "yíng yǎng",
+      "meaning": "nutrition; nourishment",
+      "meaningVi": "dinh dưỡng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "日常饮食也要注意营养。",
+        "py": "rì cháng yǐn shí yě yào zhù yì yíng yǎng .",
+        "en": "Everyday meals also need attention to nutrition."
+      },
+      "usageNote": "[GF2021:L3:9751] Source entry: 营养; yíngyǎng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w21",
+      "hanzi": "暖和",
+      "pinyin": "nuǎn huo",
+      "meaning": "warm",
+      "meaningVi": "ấm áp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天暖和，但出门前仍要看天气。",
+        "py": "jīn tiān nuǎn huo , dàn chū mén qián réng yào kàn tiān qì .",
+        "en": "Today is warm, but still check the weather before going out."
+      },
+      "usageNote": "[GF2021:L3:5928] Source entry: 暖和; nuǎnhuo; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u11-w22",
+      "hanzi": "困",
+      "pinyin": "kùn",
+      "meaning": "sleepy; trapped",
+      "meaningVi": "buồn ngủ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我有点困，今天先休息。",
+        "py": "wǒ yǒu diǎn kùn , jīn tiān xiān xiū xī .",
+        "en": "I am a little sleepy; I will rest first today."
+      },
+      "usageNote": "[GF2021:L3:4869] Source entry: 困; kùn; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "持",
+      "pinyin": "chí",
+      "meaning": "hold; maintain",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "持",
+          "role": "whole",
+          "gloss": "hold; maintain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 持 in 持续 / 坚持. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "持续",
+          "p": "chí xù",
+          "m": "to last; continue"
+        },
+        {
+          "w": "坚持",
+          "p": "jiān chí",
+          "m": "to persist; keep at"
+        }
+      ]
+    },
+    {
+      "hanzi": "历",
+      "pinyin": "lì",
+      "meaning": "experience; history",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "历",
+          "role": "whole",
+          "gloss": "experience; history"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 历 in 经历 / 日历. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "经历",
+          "p": "jīng lì",
+          "m": "experience"
+        },
+        {
+          "w": "日历",
+          "p": "rì lì",
+          "m": "calendar"
+        }
+      ]
+    },
+    {
+      "hanzi": "散",
+      "pinyin": "sàn",
+      "meaning": "disperse",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "散",
+          "role": "whole",
+          "gloss": "disperse"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 散 in 散步 / 散场. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "散步",
+          "p": "sàn bù",
+          "m": "to take a walk"
+        },
+        {
+          "w": "散场",
+          "p": "sàn chǎng",
+          "m": "end of a show"
+        }
+      ]
+    },
+    {
+      "hanzi": "续",
+      "pinyin": "xù",
+      "meaning": "continue",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "续",
+          "role": "whole",
+          "gloss": "continue"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 续 in 持续 / 连续. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "持续",
+          "p": "chí xù",
+          "m": "to last; continue"
+        },
+        {
+          "w": "连续",
+          "p": "lián xù",
+          "m": "consecutive; continuous"
+        }
+      ]
+    },
+    {
+      "hanzi": "营",
+      "pinyin": "yíng",
+      "meaning": "operate; camp",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "营",
+          "role": "whole",
+          "gloss": "operate; camp"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 营 in 营养. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "营养",
+          "p": "yíng yǎng",
+          "m": "nutrition; nourishment"
+        }
+      ]
+    },
+    {
+      "hanzi": "暖",
+      "pinyin": "nuǎn",
+      "meaning": "warm",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "暖",
+          "role": "whole",
+          "gloss": "warm"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 暖 in 暖和. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "暖和",
+          "p": "nuǎn huo",
+          "m": "warm"
+        }
+      ]
+    },
+    {
+      "hanzi": "总",
+      "pinyin": "zǒng",
+      "meaning": "total; always",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "总",
+          "role": "whole",
+          "gloss": "total; always"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 总 in 总 / 总是. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "总",
+          "p": "zǒng",
+          "m": "always; invariably"
+        },
+        {
+          "w": "总是",
+          "p": "zǒng shì",
+          "m": "always"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u11-g三15",
+      "pattern": "通常 / 往往 / 总 / 总是",
+      "purpose": "Describe usual patterns and repeated behaviour",
+      "explanation": "通常 presents the usual situation with possible exceptions. 往往 emphasizes a tendency, often linked to circumstances. 总/总是 describes recurring behaviour and may be emphatic rather than a mathematically proved every-time claim. 他总忘记带水 is a conversational complaint, not a measured score. Distinguish habitual 总是 from 已经 for completion and 一直 for continuation.",
+      "examples": [
+        {
+          "zh": "我们通常周末散步，但这周休息。",
+          "py": "wǒ men tōng cháng zhōu mò sàn bù , dàn zhè zhōu xiū xī .",
+          "en": "We usually walk at weekends, but rest this week."
+        },
+        {
+          "zh": "天气暖和时，她往往出去走走。",
+          "py": "tiān qì nuǎn huo shí , tā wǎng wǎng chū qù zǒu zǒu .",
+          "en": "When it is warm, she tends to go for a walk."
+        },
+        {
+          "zh": "她总是先问朋友有没有空。",
+          "py": "tā zǒng shì xiān wèn péng you yǒu méi yǒu kōng .",
+          "en": "She always asks whether her friend is free first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "通常去，所以这周一定去了。",
+          "right": "通常去，但这周要再问。",
+          "why": "A usual pattern allows an exception."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u11-g三51",
+      "pattern": "动词 + 时量补语：持续多久",
+      "purpose": "Place duration correctly with actions and objects",
+      "explanation": "走了二十分钟 describes a completed interval. 看书看了二十分钟 / 看了二十分钟书 both place duration with the action. 我学汉语学了两年了 normally presents an interval continuing to now; 我学了两年汉语 does not alone establish that it continues. Wait-duration 等了二十分钟 also does not prove the other person arrived. Do not treat a duration as a clock time.",
+      "examples": [
+        {
+          "zh": "我们走了二十分钟。",
+          "py": "wǒ men zǒu le èr shí fēn zhōng .",
+          "en": "We walked for twenty minutes."
+        },
+        {
+          "zh": "她看书看了半个小时。",
+          "py": "tā kàn shū kàn le bàn gè xiǎo shí .",
+          "en": "She read for half an hour."
+        },
+        {
+          "zh": "我等了二十分钟，她还没到。",
+          "py": "wǒ děng le èr shí fēn zhōng , tā hái méi dào .",
+          "en": "I waited twenty minutes; she has not arrived yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我二十分钟看书了。",
+          "right": "我看书看了二十分钟。",
+          "why": "Use the verb-duration construction, not an unanchored time fragment."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u11-d",
+    "title": "A usual walk, an unusual week",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find today’s action and completed duration.",
+    "lines": [
+      {
+        "zh": "你通常周末跑步吗？",
+        "py": "nǐ tōng cháng zhōu mò pǎo bù ma ?",
+        "en": "Do you usually jog at weekends?",
+        "speaker": "a"
+      },
+      {
+        "zh": "通常先散步，今天不跑。",
+        "py": "tōng cháng xiān sàn bù , jīn tiān bù pǎo .",
+        "en": "Usually I walk first; I am not jogging today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这周我们连续两天都出去走了。",
+        "py": "zhè zhōu wǒ men lián xù liǎng tiān dōu chū qù zǒu le .",
+        "en": "This week we went out walking on two consecutive days.",
+        "speaker": "a"
+      },
+      {
+        "zh": "每次多久？今天走了整整二十分钟。",
+        "py": "měi cì duō jiǔ ? jīn tiān zǒu le zhěng zhěng èr shí fēn zhōng .",
+        "en": "How long each time? Today we walked a full twenty minutes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我有点困，明天想休息，不是整天都练。",
+        "py": "wǒ yǒu diǎn kùn , míng tiān xiǎng xiū xī , bù shì zhěng tiān dōu liàn .",
+        "en": "I am a little sleepy; I want to rest tomorrow, rather than practise all day.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，坚持不是不休息；下次再问你有没有空。",
+        "py": "hǎo , jiān chí bù shì bù xiū xī ; xià cì zài wèn nǐ yǒu méi yǒu kōng .",
+        "en": "Fine; persistence does not mean never resting. I will ask whether you are free next time.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do the friends distinguish?",
+        "choices": [
+          "Habit, today’s walk and rest",
+          "Every day as a confirmed run",
+          "Twenty minutes as a clock time"
+        ],
+        "answer": "Habit, today’s walk and rest"
+      },
+      {
+        "type": "detail",
+        "q": "How long was today’s walk?",
+        "choices": [
+          "Twenty minutes",
+          "Two days",
+          "All day"
+        ],
+        "answer": "Twenty minutes"
+      },
+      {
+        "type": "inference",
+        "q": "Do two consecutive days prove a daily habit forever?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only in warm weather"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": []
+  },
+  "reading": {
+    "id": "s3-u11-r",
+    "title": "A small activity record",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read what was actually done rather than assume an unbroken streak.",
+    "lines": [
+      {
+        "zh": "我们通常周末散步，这周连续两天去了。",
+        "py": "wǒ men tōng cháng zhōu mò sàn bù , zhè zhōu lián xù liǎng tiān qù le .",
+        "en": "We usually walk at weekends; this week we went on two consecutive days."
+      },
+      {
+        "zh": "今天没跑步，散步持续了整整二十分钟。",
+        "py": "jīn tiān méi pǎo bù , sàn bù chí xù le zhěng zhěng èr shí fēn zhōng .",
+        "en": "There was no jogging today; the walk lasted a full twenty minutes."
+      },
+      {
+        "zh": "朋友往往先看天气，我总是先问她有没有空。",
+        "py": "péng you wǎng wǎng xiān kàn tiān qì , wǒ zǒng shì xiān wèn tā yǒu méi yǒu kōng .",
+        "en": "My friend tends to check the weather; I always ask whether she is free first."
+      },
+      {
+        "zh": "看书看了半个小时，也不是整天都学习。",
+        "py": "kàn shū kàn le bàn gè xiǎo shí , yě bù shì zhěng tiān dōu xué xí .",
+        "en": "Reading for half an hour does not mean studying all day."
+      },
+      {
+        "zh": "长期保持习惯，短期也可以调整；困了先休息。",
+        "py": "cháng qī bǎo chí xí guàn , duǎn qī yě kě yǐ tiáo zhěng ; kùn le xiān xiū xī .",
+        "en": "Maintain the habit long-term, but adjust in the short term; rest when sleepy."
+      },
+      {
+        "zh": "经历和经验可以交流，今天的记录只写今天。",
+        "py": "jīng lì hé jīng yàn kě yǐ jiāo liú , jīn tiān de jì lù zhǐ xiě jīn tiān .",
+        "en": "Experiences and practical knowledge can be shared; today’s record describes only today."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What does the record avoid?",
+        "choices": [
+          "Turning two days into a permanent daily streak",
+          "Mentioning a duration",
+          "Allowing rest"
+        ],
+        "answer": "Turning two days into a permanent daily streak"
+      },
+      {
+        "type": "detail",
+        "q": "How long was the reading interval?",
+        "choices": [
+          "Half an hour",
+          "All day",
+          "Two years"
+        ],
+        "answer": "Half an hour"
+      },
+      {
+        "type": "inference",
+        "q": "Does a regular habit prohibit resting tomorrow?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if someone has experience"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "今天没跑步，散步【持续】了整整二十分钟。",
+          "py": "jīn tiān méi pǎo bù , sàn bù chí xù le zhěng zhěng èr shí fēn zhōng .",
+          "en": "There was no jogging today; the walk lasted a full twenty minutes."
+        },
+        {
+          "zh": "长期保持习惯，短期也可以调整；困了先【休息】。",
+          "py": "cháng qī bǎo chí xí guàn , duǎn qī yě kě yǐ tiáo zhěng ; kùn le xiān xiū xī .",
+          "en": "Maintain the habit long-term, but adjust in the short term; rest when sleepy."
+        }
+      ],
+      "bank": [
+        "持续",
+        "休息",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "习惯",
+        "pinyin": "xí guàn",
+        "meaning": "habit"
+      },
+      {
+        "hanzi": "天气",
+        "pinyin": "tiān qì",
+        "meaning": "weather"
+      },
+      {
+        "hanzi": "经验",
+        "pinyin": "jīng yàn",
+        "meaning": "experience"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u11-media",
+      "title": "The bottle has a habit too",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a recurring small mistake.",
+      "lines": [
+        {
+          "zh": "我总忘记带水，水瓶也总待在家。",
+          "py": "wǒ zǒng wàng jì dài shuǐ , shuǐ píng yě zǒng dāi zài jiā .",
+          "en": "I always forget water; the bottle always stays home too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那它比你更有规律。",
+          "py": "nà tā bǐ nǐ gèng yǒu guī lǜ .",
+          "en": "Then its routine is more regular than yours.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，今天先拿水，再走二十分钟。",
+          "py": "hǎo , jīn tiān xiān ná shuǐ , zài zǒu èr shí fēn zhōng .",
+          "en": "Fine; today take water first, then walk twenty minutes.",
+          "speaker": "a"
+        },
+        {
+          "zh": "它终于换个地方休息了。",
+          "py": "tā zhōng yú huàn gè dì fāng xiū xī le .",
+          "en": "It finally gets to rest somewhere different.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What makes the joke work?",
+          "choices": [
+            "The bottle repeatedly stays home because it is forgotten",
+            "The bottle can walk independently",
+            "Water guarantees a perfect streak"
+          ],
+          "answer": "The bottle repeatedly stays home because it is forgotten"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "规律",
+          "pinyin": "guī lǜ",
+          "meaning": "regular pattern"
+        },
+        {
+          "hanzi": "待在",
+          "pinyin": "dāi zài",
+          "meaning": "to stay at"
+        }
+      ]
+    },
+    {
+      "id": "s3-u11-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "这是日常活动，不是比赛。",
+          "py": "zhè shì rì cháng huó dòng , bù shì bǐ sài .",
+          "en": "This is an everyday activity, not a competition."
+        },
+        {
+          "zh": "日常习惯可以慢慢改，不必一天全改。",
+          "py": "rì cháng xí guàn kě yǐ màn màn gǎi , bù bì yī tiān quán gǎi .",
+          "en": "Everyday habits can change gradually, not all in one day."
+        },
+        {
+          "zh": "长期计划可以慢慢调整。",
+          "py": "cháng qī jì huà kě yǐ màn màn tiáo zhěng .",
+          "en": "A long-term plan can be adjusted gradually."
+        },
+        {
+          "zh": "短期目标是先养成习惯。",
+          "py": "duǎn qī mù biāo shì xiān yǎng chéng xí guàn .",
+          "en": "The short-term goal is to establish the habit first."
+        },
+        {
+          "zh": "我们定期交流，不代表每天都见面。",
+          "py": "wǒ men dìng qī jiāo liú , bù dài biǎo měi tiān dōu jiàn miàn .",
+          "en": "We have regular exchanges; that does not mean meeting every day."
+        },
+        {
+          "zh": "保持合适的速度，不跟别人比赛。",
+          "py": "bǎo chí hé shì de sù dù , bù gēn bié ren bǐ sài .",
+          "en": "Maintain a suitable speed, without racing others."
+        },
+        {
+          "zh": "每个人的经历不同。",
+          "py": "měi gè rén de jīng lì bù tóng .",
+          "en": "Everyone’s experience is different."
+        },
+        {
+          "zh": "有经验，也要看今天的天气。",
+          "py": "yǒu jīng yàn , yě yào kàn jīn tiān de tiān qì .",
+          "en": "Even with experience, check today’s weather."
+        },
+        {
+          "zh": "日常饮食也要注意营养。",
+          "py": "rì cháng yǐn shí yě yào zhù yì yíng yǎng .",
+          "en": "Everyday meals also need attention to nutrition."
+        },
+        {
+          "zh": "午饭想吃有营养的东西，先问有什么。",
+          "py": "wǔ fàn xiǎng chī yǒu yíng yǎng de dōng xi , xiān wèn yǒu shén me .",
+          "en": "For lunch, I want something nutritious; first ask what is available."
+        },
+        {
+          "zh": "今天暖和，但出门前仍要看天气。",
+          "py": "jīn tiān nuǎn huo , dàn chū mén qián réng yào kàn tiān qì .",
+          "en": "Today is warm, but still check the weather before going out."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "习惯",
+          "pinyin": "xí guàn",
+          "meaning": "habit"
+        },
+        {
+          "hanzi": "天气",
+          "pinyin": "tiān qì",
+          "meaning": "weather"
+        },
+        {
+          "hanzi": "经验",
+          "pinyin": "jīng yàn",
+          "meaning": "experience"
+        },
+        {
+          "hanzi": "日常",
+          "pinyin": "rì cháng",
+          "meaning": "everyday"
+        },
+        {
+          "hanzi": "目标",
+          "pinyin": "mù biāo",
+          "meaning": "goal"
+        },
+        {
+          "hanzi": "速度",
+          "pinyin": "sù dù",
+          "meaning": "speed"
+        },
+        {
+          "hanzi": "饮食",
+          "pinyin": "yǐn shí",
+          "meaning": "diet; food and drink"
+        },
+        {
+          "hanzi": "注意",
+          "pinyin": "zhù yì",
+          "meaning": "to pay attention"
+        },
+        {
+          "hanzi": "仍",
+          "pinyin": "réng",
+          "meaning": "still"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u11-t1",
+      "phrase": "s3-u11-w01",
+      "audio": {
+        "zh": "通常周末去，这周休息。",
+        "py": "tōng cháng zhōu mò qù , zhè zhōu xiū xī .",
+        "en": "Usually go at weekends; rest this week."
+      },
+      "statement": "This week is an exception.",
+      "answer": true,
+      "why": "通常 allows an exception."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u11-t2",
+      "phrase": "s3-u11-w10",
+      "audio": {
+        "zh": "连续两天去了。",
+        "py": "lián xù liǎng tiān qù le .",
+        "en": "Went on two consecutive days."
+      },
+      "statement": "Went every day for a year.",
+      "answer": false,
+      "why": "Only two consecutive days are stated."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u11-t3",
+      "phrase": "s3-u11-w22",
+      "prompt": {
+        "zh": "我有点困，今天怎么办？",
+        "py": "wǒ yǒu diǎn kùn , jīn tiān zěn me bàn ?",
+        "en": "I am sleepy; what should I do today?"
+      },
+      "choices": [
+        "先休息，下次再练。",
+        "整天跑，不能休息。",
+        "二十分钟就是两点。"
+      ],
+      "answer": "先休息，下次再练。",
+      "why": "Rest is permitted by the plan."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u11-t4",
+      "phrase": "s3-u11-w09",
+      "prompt": {
+        "zh": "今天散步持续了多久？",
+        "py": "jīn tiān sàn bù chí xù le duō jiǔ ?",
+        "en": "How long did today’s walk last?"
+      },
+      "choices": [
+        "整整二十分钟。",
+        "明天早上九点。",
+        "两个星期六。"
+      ],
+      "answer": "整整二十分钟。",
+      "why": "Answer duration, not a clock time."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u11-t5",
+      "phrase": "s3-u11-w11",
+      "line": {
+        "zh": "【坚持】练习，也要休息。",
+        "py": "jiān chí liàn xí , yě yào xiū xī .",
+        "en": "Keep practising and also rest."
+      },
+      "blankPy": "jiān chí"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u11-t6",
+      "phrase": "s3-u11-w08",
+      "line": {
+        "zh": "我们【定期】整理记录。",
+        "py": "wǒ men dìng qī zhěng lǐ jì lù .",
+        "en": "We organize the records regularly."
+      },
+      "blankPy": "dìng qī"
+    },
+    {
+      "type": "match",
+      "id": "s3-u11-t7",
+      "phrase": "s3-u11-w16",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Walked for twenty minutes.",
+          "right": {
+            "zh": "走了二十分钟。",
+            "py": "zǒu le èr shí fēn zhōng .",
+            "en": "Walked for twenty minutes."
+          }
+        },
+        {
+          "left": "Read for half an hour.",
+          "right": {
+            "zh": "看书看了半个小时。",
+            "py": "kàn shū kàn le bàn gè xiǎo shí .",
+            "en": "Read for half an hour."
+          }
+        },
+        {
+          "left": "Waited twenty minutes; the person has not arrived.",
+          "right": {
+            "zh": "等了二十分钟，还没到。",
+            "py": "děng le èr shí fēn zhōng , hái méi dào .",
+            "en": "Waited twenty minutes; the person has not arrived."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u11-t8",
+      "phrase": "s3-u11-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Did not jog today.",
+          "right": {
+            "zh": "今天没跑步。",
+            "py": "jīn tiān méi pǎo bù .",
+            "en": "Did not jog today."
+          }
+        },
+        {
+          "left": "Went on two consecutive days this week.",
+          "right": {
+            "zh": "这周连续两天去了。",
+            "py": "zhè zhōu lián xù liǎng tiān qù le .",
+            "en": "Went on two consecutive days this week."
+          }
+        },
+        {
+          "left": "Wants to rest tomorrow.",
+          "right": {
+            "zh": "明天想休息。",
+            "py": "míng tiān xiǎng xiū xī .",
+            "en": "Wants to rest tomorrow."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u11-t9",
+      "phrase": "s3-u11-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Two pairs of chopsticks normally contain four individual sticks.",
+          "right": {
+            "zh": "两双筷子，通常是四根。",
+            "py": "liǎng shuāng kuài zi , tōng cháng shì sì gēn .",
+            "en": "Two pairs of chopsticks normally contain four individual sticks."
+          }
+        },
+        {
+          "left": "After a glance, one still needs to read carefully.",
+          "right": {
+            "zh": "看了一眼，还要仔细读。",
+            "py": "kàn le yī yǎn , hái yào zǐ xì dú .",
+            "en": "After a glance, one still needs to read carefully."
+          }
+        },
+        {
+          "left": "At least one day ahead; two days ahead is also acceptable.",
+          "right": {
+            "zh": "至少提前一天，提前两天也可以。",
+            "py": "zhì shǎo tí qián yī tiān , tí qián liǎng tiān yě kě yǐ .",
+            "en": "At least one day ahead; two days ahead is also acceptable."
+          }
+        },
+        {
+          "left": "Materials are plentiful; places still need confirmation.",
+          "right": {
+            "zh": "材料有的是，名额还要确认。",
+            "py": "cái liào yǒu de shì , míng é hái yào què rèn .",
+            "en": "Materials are plentiful; places still need confirmation."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Check before inviting",
+      "natural": {
+        "zh": "你明天有空吗？困的话先休息。",
+        "py": "nǐ míng tiān yǒu kōng ma ? kùn de huà xiān xiū xī .",
+        "en": "Are you free tomorrow? Rest first if sleepy."
+      },
+      "note": "A habit is not consent to every invitation."
+    },
+    {
+      "situation": "Give an actual duration",
+      "natural": {
+        "zh": "今天走了二十分钟，没有跑步。",
+        "py": "jīn tiān zǒu le èr shí fēn zhōng , méi yǒu pǎo bù .",
+        "en": "Walked twenty minutes today; no jogging."
+      },
+      "note": "Report the activity and interval separately."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u11-speak",
+    "title": "The habits we keep",
+    "place": "A language-exchange meeting",
+    "context": "Talk about typical behaviour and duration.",
+    "goal": "Describe habits without turning usually into always",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "今天跑了吗？",
+        "pinyin": "jīn tiān pǎo le ma ?",
+        "meaning": "Did you jog today?",
+        "intent": "State today’s action",
+        "examples": [
+          "没有，只散步。"
+        ],
+        "accept": [
+          "^没有，只散步。[。！？]?$"
+        ]
+      },
+      {
+        "text": "走了多久？",
+        "pinyin": "zǒu le duō jiǔ ?",
+        "meaning": "How long did you walk?",
+        "intent": "Give the actual duration",
+        "examples": [
+          "走了二十分钟。"
+        ],
+        "accept": [
+          "^走了二十分钟。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三15, 三51. Native check: pragmatic emphasis 总/总是 versus strict frequency, 往往 tendencies, duration word order with an object and continuing 了…了; bottle-personification joke. Nutrition vocabulary is recognition content, not a diet prescription. Native review pending. Planned retrieval 三09 / 三10 / 三13 / 三37: 两双筷子，通常是四根。, 看了一眼，还要仔细读。, 至少提前一天，提前两天也可以。, 材料有的是，名额还要确认。."
+}

@@ -1,0 +1,1322 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u09",
+    "stage": 2,
+    "order": 73,
+    "title": "Only a few places left",
+    "titleZh": "名额不多，材料有的是",
+    "canDo": [
+      "Distinguish minimum amounts from exact limits",
+      "Use only and plentiful expressions without conflating supplies and places",
+      "Check an event notice before signing up"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u08"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u09-w01",
+      "hanzi": "光",
+      "pinyin": "guāng",
+      "meaning": "only; solely",
+      "meaningVi": "chỉ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "光有材料，不等于还有名额。",
+        "py": "guāng yǒu cái liào , bù děng yú hái yǒu míng é .",
+        "en": "Having materials alone does not mean places remain."
+      },
+      "usageNote": "[GF2021:L3:3014] Source entry: 光; guāng; 副、名、形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w02",
+      "hanzi": "仅",
+      "pinyin": "jǐn",
+      "meaning": "only; merely",
+      "meaningVi": "chỉ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "现在仅剩两个名额。",
+        "py": "xiàn zài jǐn shèng liǎng gè míng é .",
+        "en": "Only two places remain now."
+      },
+      "usageNote": "[GF2021:L3:4262] Source entry: 仅; jǐn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w03",
+      "hanzi": "仅仅",
+      "pinyin": "jǐn jǐn",
+      "meaning": "only; merely",
+      "meaningVi": "chỉ vỏn vẹn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "仅仅看标题，还不知道规则。",
+        "py": "jǐn jǐn kàn biāo tí , hái bù zhī dào guī zé .",
+        "en": "Reading only the title does not reveal the rules."
+      },
+      "usageNote": "[GF2021:L3:4264] Source entry: 仅仅; jǐnjǐn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w04",
+      "hanzi": "至少",
+      "pinyin": "zhì shǎo",
+      "meaning": "at least",
+      "meaningVi": "ít nhất",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "至少提前一天报名。",
+        "py": "zhì shǎo tí qián yī tiān bào míng .",
+        "en": "Sign up at least one day in advance."
+      },
+      "usageNote": "[GF2021:L3:10560] Source entry: 至少; zhìshǎo; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w05",
+      "hanzi": "有的是",
+      "pinyin": "yǒu de shì",
+      "meaning": "there is plenty of",
+      "meaningVi": "có rất nhiều",
+      "pos": "expression",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "材料有的是，名额却不多。",
+        "py": "cái liào yǒu de shì , míng é què bù duō .",
+        "en": "There are plenty of materials, but few places."
+      },
+      "usageNote": "[GF2021:L3:9869] Source entry: 有的是; yǒudeshì; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w06",
+      "hanzi": "目前",
+      "pinyin": "mù qián",
+      "meaning": "at present",
+      "meaningVi": "hiện tại",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "目前还有两个名额。",
+        "py": "mù qián hái yǒu liǎng gè míng é .",
+        "en": "At present two places remain."
+      },
+      "usageNote": "[GF2021:L3:5717] Source entry: 目前; mùqián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w07",
+      "hanzi": "近期",
+      "pinyin": "jìn qī",
+      "meaning": "in the near future; recently",
+      "meaningVi": "gần đây; sắp tới",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "近期的活动先看日期。",
+        "py": "jìn qī de huó dòng xiān kàn rì qī .",
+        "en": "For upcoming events, check the date first."
+      },
+      "usageNote": "[GF2021:L3:4309] Source entry: 近期; jìnqī; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w08",
+      "hanzi": "空",
+      "pinyin": "kōng",
+      "meaning": "empty; vacant",
+      "meaningVi": "trống",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "空座位不一定是可报名的名额。",
+        "py": "kōng zuò wèi bù yí dìng shì kě bào míng de míng é .",
+        "en": "An empty seat is not necessarily an available place."
+      },
+      "usageNote": "[GF2021:L3:4749] Source entry: 空; kōng; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w09",
+      "hanzi": "公布",
+      "pinyin": "gōng bù",
+      "meaning": "to announce publicly",
+      "meaningVi": "công bố",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "名单明天公布。",
+        "py": "míng dān míng tiān gōng bù .",
+        "en": "The list will be announced tomorrow."
+      },
+      "usageNote": "[GF2021:L3:2776] Source entry: 公布; gōngbù; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w10",
+      "hanzi": "规定",
+      "pinyin": "guī dìng",
+      "meaning": "rule; to stipulate",
+      "meaningVi": "quy định",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "规定写着至少提前一天报名。",
+        "py": "guī dìng xiě zhe zhì shǎo tí qián yī tiān bào míng .",
+        "en": "The rule says to sign up at least one day ahead."
+      },
+      "usageNote": "[GF2021:L3:3048] Source entry: 规定; guīdìng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w11",
+      "hanzi": "保证",
+      "pinyin": "bǎo zhèng",
+      "meaning": "to guarantee",
+      "meaningVi": "bảo đảm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我不能保证一定有名额。",
+        "py": "wǒ bù néng bǎo zhèng yí dìng yǒu míng é .",
+        "en": "I cannot guarantee a place will be available."
+      },
+      "usageNote": "[GF2021:L3:214] Source entry: 保证; bǎozhèng; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w12",
+      "hanzi": "确定",
+      "pinyin": "què dìng",
+      "meaning": "to confirm; definite",
+      "meaningVi": "xác nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "先确定日期，再报名。",
+        "py": "xiān què dìng rì qī , zài bào míng .",
+        "en": "Confirm the date before signing up."
+      },
+      "usageNote": "[GF2021:L3:6640] Source entry: 确定; quèdìng; 形、动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w13",
+      "hanzi": "票价",
+      "pinyin": "piào jià",
+      "meaning": "ticket price",
+      "meaningVi": "giá vé",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "票价不是所有费用。",
+        "py": "piào jià bù shì suǒ yǒu fèi yòng .",
+        "en": "The ticket price is not every expense."
+      },
+      "usageNote": "[GF2021:L3:6091] Source entry: 票价; piàojià; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w14",
+      "hanzi": "费用",
+      "pinyin": "fèi yòng",
+      "meaning": "expense; cost",
+      "meaningVi": "chi phí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "费用总共二十块。",
+        "py": "fèi yòng zǒng gòng èr shí kuài .",
+        "en": "The total expense is twenty yuan."
+      },
+      "usageNote": "[GF2021:L3:2327] Source entry: 费用; fèiyong; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w15",
+      "hanzi": "价格",
+      "pinyin": "jià gé",
+      "meaning": "price",
+      "meaningVi": "giá",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "价格写在通知上。",
+        "py": "jià gé xiě zài tōng zhī shàng .",
+        "en": "The price is on the notice."
+      },
+      "usageNote": "[GF2021:L3:3881] Source entry: 价格; jiàgé; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w16",
+      "hanzi": "价钱",
+      "pinyin": "jià qián",
+      "meaning": "price",
+      "meaningVi": "giá tiền",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "价钱一样，规则也要看。",
+        "py": "jià qián yī yàng , guī zé yě yào kàn .",
+        "en": "Even with the same price, check the rules."
+      },
+      "usageNote": "[GF2021:L3:3882] Source entry: 价钱; jià·qián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w17",
+      "hanzi": "必要",
+      "pinyin": "bì yào",
+      "meaning": "necessary",
+      "meaningVi": "cần thiết",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "看完整通知很有必要。",
+        "py": "kàn wán zhěng tōng zhī hěn yǒu bì yào .",
+        "en": "Reading the whole notice is necessary."
+      },
+      "usageNote": "[GF2021:L3:360] Source entry: 必要; bìyào; 形、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w18",
+      "hanzi": "场所",
+      "pinyin": "chǎng suǒ",
+      "meaning": "place; venue",
+      "meaningVi": "địa điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个场所能坐十个人。",
+        "py": "zhè gè chǎng suǒ néng zuò shí gè rén .",
+        "en": "This venue seats ten people."
+      },
+      "usageNote": "[GF2021:L3:859] Source entry: 场所; chǎngsuǒ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w19",
+      "hanzi": "场合",
+      "pinyin": "chǎng hé",
+      "meaning": "occasion; situation",
+      "meaningVi": "hoàn cảnh; dịp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不同场合有不同规定。",
+        "py": "bù tóng chǎng hé yǒu bù tóng guī dìng .",
+        "en": "Different occasions have different rules."
+      },
+      "usageNote": "[GF2021:L3:856] Source entry: 场合; chǎnghé; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w20",
+      "hanzi": "公共",
+      "pinyin": "gōng gòng",
+      "meaning": "public; communal",
+      "meaningVi": "công cộng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "公共空间不能随便占座。",
+        "py": "gōng gòng kōng jiān bù néng suí biàn zhàn zuò .",
+        "en": "Do not casually reserve seats in a public space."
+      },
+      "usageNote": "[GF2021:L3:2781] Source entry: 公共; gōnggòng; 形. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w21",
+      "hanzi": "有效",
+      "pinyin": "yǒu xiào",
+      "meaning": "effective; valid",
+      "meaningVi": "có hiệu lực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "报名确认今天仍然有效。",
+        "py": "bào míng què rèn jīn tiān réng rán yǒu xiào .",
+        "en": "The registration confirmation remains valid today."
+      },
+      "usageNote": "[GF2021:L3:9893] Source entry: 有效; yǒuxiào; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u09-w22",
+      "hanzi": "取消",
+      "pinyin": "qǔ xiāo",
+      "meaning": "to cancel",
+      "meaningVi": "hủy",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "要取消，请先联系负责人。",
+        "py": "yào qǔ xiāo , qǐng xiān lián xì fù zé rén .",
+        "en": "To cancel, contact the organizer first."
+      },
+      "usageNote": "[GF2021:L3:6579] Source entry: 取消; qǔxiāo; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "光",
+      "pinyin": "guāng",
+      "meaning": "light; only",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "光",
+          "role": "whole",
+          "gloss": "light; only"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 光 in 光. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "光",
+          "p": "guāng",
+          "m": "only; solely"
+        }
+      ]
+    },
+    {
+      "hanzi": "仅",
+      "pinyin": "jǐn",
+      "meaning": "only",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "仅",
+          "role": "whole",
+          "gloss": "only"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 仅 in 仅 / 仅仅. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "仅",
+          "p": "jǐn",
+          "m": "only; merely"
+        },
+        {
+          "w": "仅仅",
+          "p": "jǐn jǐn",
+          "m": "only; merely"
+        }
+      ]
+    },
+    {
+      "hanzi": "规",
+      "pinyin": "guī",
+      "meaning": "rule; standard",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "规",
+          "role": "whole",
+          "gloss": "rule; standard"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 规 in 规定 / 规则. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "规定",
+          "p": "guī dìng",
+          "m": "rule; to stipulate"
+        },
+        {
+          "w": "规则",
+          "p": "guī zé",
+          "m": "rule"
+        }
+      ]
+    },
+    {
+      "hanzi": "费",
+      "pinyin": "fèi",
+      "meaning": "expense; spend",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "费",
+          "role": "whole",
+          "gloss": "expense; spend"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 费 in 费用 / 交费. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "费用",
+          "p": "fèi yòng",
+          "m": "cost"
+        },
+        {
+          "w": "交费",
+          "p": "jiāo fèi",
+          "m": "to pay a fee"
+        }
+      ]
+    },
+    {
+      "hanzi": "价",
+      "pinyin": "jià",
+      "meaning": "price",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "价",
+          "role": "whole",
+          "gloss": "price"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 价 in 票价 / 价格. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "票价",
+          "p": "piào jià",
+          "m": "ticket price"
+        },
+        {
+          "w": "价格",
+          "p": "jià gé",
+          "m": "price"
+        }
+      ]
+    },
+    {
+      "hanzi": "币",
+      "pinyin": "bì",
+      "meaning": "currency",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "币",
+          "role": "whole",
+          "gloss": "currency"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 币 in 人民币 / 币. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "人民币",
+          "p": "rén mín bì",
+          "m": "renminbi"
+        },
+        {
+          "w": "币",
+          "p": "bì",
+          "m": "currency"
+        }
+      ]
+    },
+    {
+      "hanzi": "效",
+      "pinyin": "xiào",
+      "meaning": "effect",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "效",
+          "role": "whole",
+          "gloss": "effect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 效 in 有效 / 有效期. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "有效",
+          "p": "yǒu xiào",
+          "m": "effective; valid"
+        },
+        {
+          "w": "有效期",
+          "p": "yǒu xiào qī",
+          "m": "validity period"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u09-g三13",
+      "pattern": "光 / 仅 / 仅仅 / 就 / 至少",
+      "purpose": "Read scope and minimum quantities accurately",
+      "explanation": "光带笔就行 means a pen alone suffices in this context; it does not claim pens are the only permitted object. 仅/仅仅 restrict scope. 就两个人 emphasizes a small exact count. 至少两个人 sets a minimum of two, allowing more. 至少提前一天 sets a minimum lead time, not exactly one day. Keep only, sufficiency and minimum distinct.",
+      "examples": [
+        {
+          "zh": "仅剩两个名额。",
+          "py": "jǐn shèng liǎng gè míng é .",
+          "en": "Only two places remain."
+        },
+        {
+          "zh": "就两个人，不是至少两个人。",
+          "py": "jiù liǎng gè rén , bù shì zhì shǎo liǎng gè rén .",
+          "en": "Exactly two people, not at least two."
+        },
+        {
+          "zh": "至少提前一天报名。",
+          "py": "zhì shǎo tí qián yī tiān bào míng .",
+          "en": "Sign up at least one day ahead."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "至少两个就是只能两个。",
+          "right": "至少两个，可以更多。",
+          "why": "A minimum does not impose a maximum."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u09-g三37",
+      "pattern": "有的是：充足的数量",
+      "purpose": "Describe plentiful supplies without claiming unlimited capacity",
+      "explanation": "材料有的是 / 有的是材料 says materials are plentiful. It does not give an exact number and does not transfer that abundance to seats, time or places. Distinguish the idiomatic plentiful construction from 有的材料…: some of the materials. In a practical notice, verify each resource separately.",
+      "examples": [
+        {
+          "zh": "材料有的是，名额只有两个。",
+          "py": "cái liào yǒu de shì , míng é zhǐ yǒu liǎng gè .",
+          "en": "There are plenty of materials but only two places."
+        },
+        {
+          "zh": "有的是纸，不是有的是时间。",
+          "py": "yǒu de shì zhǐ , bù shì yǒu de shì shí jiān .",
+          "en": "There is plenty of paper, not plenty of time."
+        },
+        {
+          "zh": "有的材料要带回家。",
+          "py": "yǒu de cái liào yào dài huí jiā .",
+          "en": "Some of the materials need taking home."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "材料有的是，所以名额一定够。",
+          "right": "材料有的是，名额还要确认。",
+          "why": "Abundance in one resource does not prove another is available."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u09-d",
+    "title": "Plenty of paper, two places",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find the exact limit and the minimum lead time.",
+    "lines": [
+      {
+        "zh": "这个活动还有名额吗？",
+        "py": "zhè gè huó dòng hái yǒu míng é ma ?",
+        "en": "Does this event still have places?",
+        "speaker": "a"
+      },
+      {
+        "zh": "目前仅剩两个，材料有的是。",
+        "py": "mù qián jǐn shèng liǎng gè , cái liào yǒu de shì .",
+        "en": "At present only two remain; there are plenty of materials.",
+        "speaker": "b"
+      },
+      {
+        "zh": "至少提前一天报名，是只能提前一天吗？",
+        "py": "zhì shǎo tí qián yī tiān bào míng , shì zhǐ néng tí qián yī tiān ma ?",
+        "en": "At least one day ahead: does that mean only one day ahead?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是，提前两天也可以。",
+        "py": "bù shì , tí qián liǎng tiān yě kě yǐ .",
+        "en": "No, two days ahead is also fine.",
+        "speaker": "b"
+      },
+      {
+        "zh": "费用呢？",
+        "py": "fèi yòng ne ?",
+        "en": "And the expense?",
+        "speaker": "a"
+      },
+      {
+        "zh": "总共二十块，价格写在通知上。",
+        "py": "zǒng gòng èr shí kuài , jià gé xiě zài tōng zhī shàng .",
+        "en": "Twenty yuan total; the price is on the notice.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我和朋友先确定日期，不保证一定有名额。",
+        "py": "nà wǒ hé péng you xiān què dìng rì qī , bù bǎo zhèng yí dìng yǒu míng é .",
+        "en": "Then my friend and I will confirm the date first; there is no guaranteed place.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，名单明天公布。",
+        "py": "duì , míng dān míng tiān gōng bù .",
+        "en": "Correct; the list will be announced tomorrow.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What needs separate checking?",
+        "choices": [
+          "Places, date and cost",
+          "Only the paper colour",
+          "A guaranteed seat for everyone"
+        ],
+        "answer": "Places, date and cost"
+      },
+      {
+        "type": "detail",
+        "q": "How many places currently remain?",
+        "choices": [
+          "Two",
+          "At least twenty",
+          "None"
+        ],
+        "answer": "Two"
+      },
+      {
+        "type": "inference",
+        "q": "May someone sign up two days ahead?",
+        "choices": [
+          "Yes",
+          "No, exactly one day only",
+          "Only after the list appears"
+        ],
+        "answer": "Yes"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "名额",
+        "pinyin": "míng é",
+        "meaning": "available places"
+      },
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "to sign up"
+      },
+      {
+        "hanzi": "材料",
+        "pinyin": "cái liào",
+        "meaning": "materials"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u09-r",
+    "title": "Read the whole notice",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which amounts are exact and which are minimums.",
+    "lines": [
+      {
+        "zh": "目前仅剩两个名额，场所还有空座位，也不能直接占座。",
+        "py": "mù qián jǐn shèng liǎng gè míng é , chǎng suǒ hái yǒu kōng zuò wèi , yě bù néng zhí jiē zhàn zuò .",
+        "en": "Only two places remain; even empty seats at the venue cannot simply be reserved."
+      },
+      {
+        "zh": "材料有的是，光有材料不等于名额够。",
+        "py": "cái liào yǒu de shì , guāng yǒu cái liào bù děng yú míng é gòu .",
+        "en": "Materials are plentiful; materials alone do not establish sufficient places."
+      },
+      {
+        "zh": "规定是至少提前一天报名，提前两天也可以。",
+        "py": "guī dìng shì zhì shǎo tí qián yī tiān bào míng , tí qián liǎng tiān yě kě yǐ .",
+        "en": "The rule is at least one day ahead; two days ahead is acceptable."
+      },
+      {
+        "zh": "费用总共二十块人民币，不是另加票价。",
+        "py": "fèi yòng zǒng gòng èr shí kuài rén mín bì , bù shì lìng jiā piào jià .",
+        "en": "The total expense is twenty yuan, not an additional ticket price."
+      },
+      {
+        "zh": "名单明天公布，报名确认的有效期要看清楚。",
+        "py": "míng dān míng tiān gōng bù , bào míng què rèn de yǒu xiào qī yào kàn qīng chǔ .",
+        "en": "The list appears tomorrow; read the confirmation’s validity period carefully."
+      },
+      {
+        "zh": "不同场合有不同规定；要取消，先联系负责人。",
+        "py": "bù tóng chǎng hé yǒu bù tóng guī dìng ; yào qǔ xiāo , xiān lián xì fù zé rén .",
+        "en": "Different occasions have different rules; contact the organizer before cancelling."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What is the notice’s advice?",
+        "choices": [
+          "Check limits and conditions separately",
+          "Assume empty seats are available places",
+          "Count paper as money"
+        ],
+        "answer": "Check limits and conditions separately"
+      },
+      {
+        "type": "detail",
+        "q": "Is the ticket price added to the twenty yuan?",
+        "choices": [
+          "No",
+          "Yes",
+          "The notice says fifty"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Do plentiful materials guarantee a place?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only if paper is white"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "目前仅剩两个【名额】，场所还有空座位，也不能直接占座。",
+          "py": "mù qián jǐn shèng liǎng gè míng é , chǎng suǒ hái yǒu kōng zuò wèi , yě bù néng zhí jiē zhàn zuò .",
+          "en": "Only two places remain; even empty seats at the venue cannot simply be reserved."
+        },
+        {
+          "zh": "规定是【至少】提前一天报名，提前两天也可以。",
+          "py": "guī dìng shì zhì shǎo tí qián yī tiān bào míng , tí qián liǎng tiān yě kě yǐ .",
+          "en": "The rule is at least one day ahead; two days ahead is acceptable."
+        }
+      ],
+      "bank": [
+        "名额",
+        "至少",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "名额",
+        "pinyin": "míng é",
+        "meaning": "available places"
+      },
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "to sign up"
+      },
+      {
+        "hanzi": "座位",
+        "pinyin": "zuò wèi",
+        "meaning": "seat"
+      },
+      {
+        "hanzi": "币",
+        "pinyin": "bì",
+        "meaning": "currency"
+      },
+      {
+        "hanzi": "人民币",
+        "pinyin": "rén mín bì",
+        "meaning": "renminbi"
+      },
+      {
+        "hanzi": "材料",
+        "pinyin": "cái liào",
+        "meaning": "materials"
+      },
+      {
+        "hanzi": "有效期",
+        "pinyin": "yǒu xiào qī",
+        "meaning": "validity period"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u09-media",
+      "title": "Paper is not a chair",
+      "format": "story",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original scene about a mistaken inference.",
+      "lines": [
+        {
+          "zh": "材料有的是，那我一定能来吧？",
+          "py": "cái liào yǒu de shì , nà wǒ yí dìng néng lái ba ?",
+          "en": "Materials are plentiful, so I can definitely come, right?",
+          "speaker": "a"
+        },
+        {
+          "zh": "纸能装进包，你不能坐进纸里。",
+          "py": "zhǐ néng zhuāng jìn bāo , nǐ bù néng zuò jìn zhǐ lǐ .",
+          "en": "Paper fits in a bag; you cannot sit inside the paper.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，我查名额，不跟纸抢座位。",
+          "py": "hǎo , wǒ chá míng é , bù gēn zhǐ qiǎng zuò wèi .",
+          "en": "Fine; I will check places and not compete with paper for a seat.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次看完整通知。",
+          "py": "zhè cì kàn wán zhěng tōng zhī .",
+          "en": "Read the whole notice this time.",
+          "speaker": "b"
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "What is the joke correcting?",
+          "choices": [
+            "Confusing supplies with places",
+            "A ban on bags",
+            "A missing paper price"
+          ],
+          "answer": "Confusing supplies with places"
+        }
+      ],
+      "speakers": [
+        {
+          "id": "a",
+          "name": "甲"
+        },
+        {
+          "id": "b",
+          "name": "乙"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "名额",
+          "pinyin": "míng é",
+          "meaning": "available places"
+        },
+        {
+          "hanzi": "座位",
+          "pinyin": "zuò wèi",
+          "meaning": "seat"
+        },
+        {
+          "hanzi": "材料",
+          "pinyin": "cái liào",
+          "meaning": "materials"
+        },
+        {
+          "hanzi": "抢",
+          "pinyin": "qiǎng",
+          "meaning": "to compete for; seize"
+        }
+      ]
+    },
+    {
+      "id": "s3-u09-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "光有材料，不等于还有名额。",
+          "py": "guāng yǒu cái liào , bù děng yú hái yǒu míng é .",
+          "en": "Having materials alone does not mean places remain."
+        },
+        {
+          "zh": "仅仅看标题，还不知道规则。",
+          "py": "jǐn jǐn kàn biāo tí , hái bù zhī dào guī zé .",
+          "en": "Reading only the title does not reveal the rules."
+        },
+        {
+          "zh": "仅仅确认日期，还没确认名额。",
+          "py": "jǐn jǐn què rèn rì qī , hái méi què rèn míng é .",
+          "en": "Only the date is confirmed; the place is not yet confirmed."
+        },
+        {
+          "zh": "近期的活动先看日期。",
+          "py": "jìn qī de huó dòng xiān kàn rì qī .",
+          "en": "For upcoming events, check the date first."
+        },
+        {
+          "zh": "近期活动的费用，要看新的通知。",
+          "py": "jìn qī huó dòng de fèi yòng , yào kàn xīn de tōng zhī .",
+          "en": "Check the new notice for upcoming events’ costs."
+        },
+        {
+          "zh": "空座位不一定是可报名的名额。",
+          "py": "kōng zuò wèi bù yí dìng shì kě bào míng de míng é .",
+          "en": "An empty seat is not necessarily an available place."
+        },
+        {
+          "zh": "价格写在通知上。",
+          "py": "jià gé xiě zài tōng zhī shàng .",
+          "en": "The price is on the notice."
+        },
+        {
+          "zh": "价钱一样，规则也要看。",
+          "py": "jià qián yī yàng , guī zé yě yào kàn .",
+          "en": "Even with the same price, check the rules."
+        },
+        {
+          "zh": "价钱相同，也要分别看报名规定。",
+          "py": "jià qián xiāng tóng , yě yào fēn bié kàn bào míng guī dìng .",
+          "en": "Even with the same price, check registration rules separately."
+        },
+        {
+          "zh": "看完整通知很有必要。",
+          "py": "kàn wán zhěng tōng zhī hěn yǒu bì yào .",
+          "en": "Reading the whole notice is necessary."
+        },
+        {
+          "zh": "确认费用很必要，不要只看标题。",
+          "py": "què rèn fèi yòng hěn bì yào , bú yào zhǐ kàn biāo tí .",
+          "en": "Confirming the cost is necessary; do not read only the heading."
+        },
+        {
+          "zh": "这个场所能坐十个人。",
+          "py": "zhè gè chǎng suǒ néng zuò shí gè rén .",
+          "en": "This venue seats ten people."
+        },
+        {
+          "zh": "不同场合有不同规定。",
+          "py": "bù tóng chǎng hé yǒu bù tóng guī dìng .",
+          "en": "Different occasions have different rules."
+        },
+        {
+          "zh": "公共空间不能随便占座。",
+          "py": "gōng gòng kōng jiān bù néng suí biàn zhàn zuò .",
+          "en": "Do not casually reserve seats in a public space."
+        },
+        {
+          "zh": "公共场所还有空座，不代表活动还有名额。",
+          "py": "gōng gòng chǎng suǒ hái yǒu kōng zuò , bù dài biǎo huó dòng hái yǒu míng é .",
+          "en": "A public venue having empty seats does not mean event places remain."
+        },
+        {
+          "zh": "报名确认今天仍然有效。",
+          "py": "bào míng què rèn jīn tiān réng rán yǒu xiào .",
+          "en": "The registration confirmation remains valid today."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "名额",
+          "pinyin": "míng é",
+          "meaning": "available places"
+        },
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "to sign up"
+        },
+        {
+          "hanzi": "规则",
+          "pinyin": "guī zé",
+          "meaning": "rule"
+        },
+        {
+          "hanzi": "座位",
+          "pinyin": "zuò wèi",
+          "meaning": "seat"
+        },
+        {
+          "hanzi": "材料",
+          "pinyin": "cái liào",
+          "meaning": "materials"
+        },
+        {
+          "hanzi": "标题",
+          "pinyin": "biāo tí",
+          "meaning": "title; heading"
+        },
+        {
+          "hanzi": "仍然",
+          "pinyin": "réng rán",
+          "meaning": "still"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u09-t1",
+      "phrase": "s3-u09-w02",
+      "audio": {
+        "zh": "目前仅剩两个名额。",
+        "py": "mù qián jǐn shèng liǎng gè míng é .",
+        "en": "Only two places currently remain."
+      },
+      "statement": "Exactly two places remain.",
+      "answer": true,
+      "why": "仅 restricts the remaining number."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u09-t2",
+      "phrase": "s3-u09-w04",
+      "audio": {
+        "zh": "至少提前一天报名。",
+        "py": "zhì shǎo tí qián yī tiān bào míng .",
+        "en": "Sign up at least one day ahead."
+      },
+      "statement": "Two days ahead is too early.",
+      "answer": false,
+      "why": "At least permits a longer lead time."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u09-t3",
+      "phrase": "s3-u09-w11",
+      "prompt": {
+        "zh": "材料多，就保证有名额吗？",
+        "py": "cái liào duō , jiù bǎo zhèng yǒu míng é ma ?",
+        "en": "Do plentiful materials guarantee a place?"
+      },
+      "choices": [
+        "不能保证，还要确认名额。",
+        "保证，纸就是座位。",
+        "至少就是零个。"
+      ],
+      "answer": "不能保证，还要确认名额。",
+      "why": "Check the resource that actually limits entry."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u09-t4",
+      "phrase": "s3-u09-w14",
+      "prompt": {
+        "zh": "二十块还要另加票价吗？",
+        "py": "èr shí kuài hái yào lìng jiā piào jià ma ?",
+        "en": "Is a ticket price added to the twenty yuan?"
+      },
+      "choices": [
+        "不用，总共二十块。",
+        "要加二十个人。",
+        "明天是一个名额。"
+      ],
+      "answer": "不用，总共二十块。",
+      "why": "总共 states the total."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u09-t5",
+      "phrase": "s3-u09-w06",
+      "line": {
+        "zh": "【目前】仅剩两个名额。",
+        "py": "mù qián jǐn shèng liǎng gè míng é .",
+        "en": "At present only two places remain."
+      },
+      "blankPy": "mù qián"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u09-t6",
+      "phrase": "s3-u09-w10",
+      "line": {
+        "zh": "先看【规定】，再报名。",
+        "py": "xiān kàn guī dìng , zài bào míng .",
+        "en": "Check the rules before registering."
+      },
+      "blankPy": "guī dìng"
+    },
+    {
+      "type": "match",
+      "id": "s3-u09-t7",
+      "phrase": "s3-u09-w22",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "The list appears tomorrow.",
+          "right": {
+            "zh": "名单明天公布。",
+            "py": "míng dān míng tiān gōng bù .",
+            "en": "The list appears tomorrow."
+          }
+        },
+        {
+          "left": "Confirm the date first.",
+          "right": {
+            "zh": "先确定日期。",
+            "py": "xiān què dìng rì qī .",
+            "en": "Confirm the date first."
+          }
+        },
+        {
+          "left": "Contact before cancelling.",
+          "right": {
+            "zh": "取消前先联系。",
+            "py": "qǔ xiāo qián xiān lián xì .",
+            "en": "Contact before cancelling."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u09-t8",
+      "phrase": "s3-u09-w05",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Materials are plentiful.",
+          "right": {
+            "zh": "材料有的是。",
+            "py": "cái liào yǒu de shì .",
+            "en": "Materials are plentiful."
+          }
+        },
+        {
+          "left": "Only two places remain.",
+          "right": {
+            "zh": "仅剩两个名额。",
+            "py": "jǐn shèng liǎng gè míng é .",
+            "en": "Only two places remain."
+          }
+        },
+        {
+          "left": "At least one day ahead.",
+          "right": {
+            "zh": "至少提前一天。",
+            "py": "zhì shǎo tí qián yī tiān .",
+            "en": "At least one day ahead."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u09-t9",
+      "phrase": "s3-u09-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "Have a haircut in the afternoon, then have a chat with a friend.",
+          "right": {
+            "zh": "下午理个发，再跟朋友谈一谈话。",
+            "py": "xià wǔ lǐ gè fā , zài gēn péng you tán yī tán huà .",
+            "en": "Have a haircut in the afternoon, then have a chat with a friend."
+          }
+        },
+        {
+          "left": "Ask her to ask her friend; she cannot agree on the friend’s behalf.",
+          "right": {
+            "zh": "请她问一下朋友，不能替朋友答应。",
+            "py": "qǐng tā wèn yī xià péng you , bù néng tì péng you dā yìng .",
+            "en": "Ask her to ask her friend; she cannot agree on the friend’s behalf."
+          }
+        },
+        {
+          "left": "Every sheet has a heading; read them one at a time.",
+          "right": {
+            "zh": "张张纸都有标题，一张一张地看。",
+            "py": "zhāng zhāng zhǐ dōu yǒu biāo tí , yī zhāng yī zhāng de kàn .",
+            "en": "Every sheet has a heading; read them one at a time."
+          }
+        },
+        {
+          "left": "Six people and four sheets: two more sheets are needed.",
+          "right": {
+            "zh": "六个人四张纸，还缺两张。",
+            "py": "liù gè rén sì zhāng zhǐ , hái quē liǎng zhāng .",
+            "en": "Six people and four sheets: two more sheets are needed."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Check availability",
+      "natural": {
+        "zh": "材料够，名额还要确认。",
+        "py": "cái liào gòu , míng é hái yào què rèn .",
+        "en": "Materials suffice; places still need confirmation."
+      },
+      "note": "Do not transfer one resource’s abundance to another."
+    },
+    {
+      "situation": "Ask about cancellation",
+      "natural": {
+        "zh": "要取消的话，先联系谁？",
+        "py": "yào qǔ xiāo de huà , xiān lián xì shéi ?",
+        "en": "Whom should I contact to cancel?"
+      },
+      "note": "Read the actual cancellation rule."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u09-speak",
+    "title": "Only a few places left",
+    "place": "A language-exchange meeting",
+    "context": "Discuss limited availability and plentiful supplies.",
+    "goal": "Distinguish minimum amounts from exact limits",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "现在剩几个名额？",
+        "pinyin": "xiàn zài shèng jǐ gè míng é ?",
+        "meaning": "How many places remain now?",
+        "intent": "State the exact number",
+        "examples": [
+          "仅剩两个。"
+        ],
+        "accept": [
+          "^仅剩两个。[。！？]?$"
+        ]
+      },
+      {
+        "text": "什么时候报名？",
+        "pinyin": "shén me shí hou bào míng ?",
+        "meaning": "When should one sign up?",
+        "intent": "Give the minimum lead time",
+        "examples": [
+          "至少提前一天。"
+        ],
+        "accept": [
+          "^至少提前一天。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三13, 三37. Native check: 光 sufficiency scope versus 仅 restriction, 就 quantity emphasis, minimum lead time, idiomatic 有的是 versus 有的; price includes total expenses. Paper/chair joke and confirmation validity phrasing need native style review. Native review pending. Planned retrieval 三05 / 三57 / 三11 / 三33: 下午理个发，再跟朋友谈一谈话。, 请她问一下朋友，不能替朋友答应。, 张张纸都有标题，一张一张地看。, 六个人四张纸，还缺两张。."
+}

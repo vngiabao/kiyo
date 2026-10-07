@@ -1,0 +1,1296 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s3-u10",
+    "stage": 2,
+    "order": 74,
+    "title": "An old friend's surprise visit",
+    "titleZh": "老朋友突然回来",
+    "canDo": [
+      "Describe earlier experiences without inventing current habits",
+      "Anchor changes with 自从",
+      "Distinguish quick action from a newly realized fact"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 3
+    },
+    "prerequisites": [
+      "s3-u09"
+    ],
+    "estimatedMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "s3-u10-w01",
+      "hanzi": "本来",
+      "pinyin": "běn lái",
+      "meaning": "originally; originally intended",
+      "meaningVi": "ban đầu",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "本来想明天联系，今天就收到消息了。",
+        "py": "běn lái xiǎng míng tiān lián xì , jīn tiān jiù shōu dào xiāo xī le .",
+        "en": "Originally intended to contact tomorrow, but received a message today."
+      },
+      "usageNote": "[GF2021:L3:303] Source entry: 本来; běnlái; 形、副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w02",
+      "hanzi": "曾经",
+      "pinyin": "céng jīng",
+      "meaning": "once; formerly",
+      "meaningVi": "đã từng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她曾经住在这个小区。",
+        "py": "tā céng jīng zhù zài zhè gè xiǎo qū .",
+        "en": "She once lived in this community."
+      },
+      "usageNote": "[GF2021:L3:764] Source entry: 曾经; céngjīng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w03",
+      "hanzi": "从来",
+      "pinyin": "cóng lái",
+      "meaning": "ever; always, often with negation",
+      "meaningVi": "từ trước tới nay",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她从来没来过这个新地方。",
+        "py": "tā cóng lái méi lái guò zhè gè xīn dì fāng .",
+        "en": "She has never been to this new place."
+      },
+      "usageNote": "[GF2021:L3:1334] Source entry: 从来; cónglái; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w04",
+      "hanzi": "赶紧",
+      "pinyin": "gǎn jǐn",
+      "meaning": "quickly; hurry to",
+      "meaningVi": "mau chóng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "地址写错了，赶紧改。",
+        "py": "dì zhǐ xiě cuò le , gǎn jǐn gǎi .",
+        "en": "The address is wrong; correct it quickly."
+      },
+      "usageNote": "[GF2021:L3:2578] Source entry: 赶紧; gǎnjǐn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w05",
+      "hanzi": "赶快",
+      "pinyin": "gǎn kuài",
+      "meaning": "quickly; promptly",
+      "meaningVi": "nhanh chóng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "赶快联系她，别让她走错。",
+        "py": "gǎn kuài lián xì tā , bié ràng tā zǒu cuò .",
+        "en": "Contact her quickly so she does not go the wrong way."
+      },
+      "usageNote": "[GF2021:L3:2579] Source entry: 赶快; gǎnkuài; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w06",
+      "hanzi": "立刻",
+      "pinyin": "lì kè",
+      "meaning": "immediately",
+      "meaningVi": "ngay lập tức",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "看到消息，我立刻回复。",
+        "py": "kàn dào xiāo xī , wǒ lì kè huí fù .",
+        "en": "On seeing the message, I replied immediately."
+      },
+      "usageNote": "[GF2021:L3:5073] Source entry: 立刻; lìkè; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w07",
+      "hanzi": "连忙",
+      "pinyin": "lián máng",
+      "meaning": "hurriedly; promptly in response",
+      "meaningVi": "vội vàng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "发现地址错了，我连忙发新地址。",
+        "py": "fā xiàn dì zhǐ cuò le , wǒ lián máng fā xīn dì zhǐ .",
+        "en": "On discovering the wrong address, I hurriedly sent the new one."
+      },
+      "usageNote": "[GF2021:L3:5093] Source entry: 连忙; liánmáng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w08",
+      "hanzi": "始终",
+      "pinyin": "shǐ zhōng",
+      "meaning": "throughout; all along",
+      "meaningVi": "suốt; luôn",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她始终没答应参加聚会。",
+        "py": "tā shǐ zhōng méi dā yìng cān jiā jù huì .",
+        "en": "Throughout, she has not agreed to attend the gathering."
+      },
+      "usageNote": "[GF2021:L3:7271] Source entry: 始终; shǐzhōng; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w09",
+      "hanzi": "已",
+      "pinyin": "yǐ",
+      "meaning": "already, written form",
+      "meaningVi": "đã",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "通知写着地点已改变。",
+        "py": "tōng zhī xiě zhe dì diǎn yǐ gǎi biàn .",
+        "en": "The notice says the venue has changed."
+      },
+      "usageNote": "[GF2021:L3:9558] Source entry: 已; yǐ; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w10",
+      "hanzi": "早已",
+      "pinyin": "zǎo yǐ",
+      "meaning": "long since; already long ago",
+      "meaningVi": "đã từ lâu",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧店早已搬走。",
+        "py": "jiù diàn zǎo yǐ bān zǒu .",
+        "en": "The old shop moved away long ago."
+      },
+      "usageNote": "[GF2021:L3:10166] Source entry: 早已; zǎoyǐ; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w11",
+      "hanzi": "自从",
+      "pinyin": "zì cóng",
+      "meaning": "since",
+      "meaningVi": "từ khi",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "自从毕业，我们很少见面。",
+        "py": "zì cóng bì yè , wǒ men hěn shǎo jiàn miàn .",
+        "en": "Since graduation we have rarely met."
+      },
+      "usageNote": "[GF2021:L3:10903] Source entry: 自从; zìcóng; 介. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w12",
+      "hanzi": "从前",
+      "pinyin": "cóng qián",
+      "meaning": "formerly; in the past",
+      "meaningVi": "trước đây",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "从前我们常在旧店见面。",
+        "py": "cóng qián wǒ men cháng zài jiù diàn jiàn miàn .",
+        "en": "We formerly often met at the old shop."
+      },
+      "usageNote": "[GF2021:L3:1337] Source entry: 从前; cóngqián; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w13",
+      "hanzi": "过去",
+      "pinyin": "guò qù",
+      "meaning": "the past; formerly",
+      "meaningVi": "trước kia",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "过去的地址不能直接当现在的地址。",
+        "py": "guò qù de dì zhǐ bù néng zhí jiē dāng xiàn zài de dì zhǐ .",
+        "en": "The former address cannot simply be used as the current address."
+      },
+      "usageNote": "[GF2021:L3:3123] Source entry: 过去; guòqù; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w14",
+      "hanzi": "当初",
+      "pinyin": "dāng chū",
+      "meaning": "at that time; originally",
+      "meaningVi": "lúc đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "当初没想到店会搬走。",
+        "py": "dāng chū méi xiǎng dào diàn huì bān zǒu .",
+        "en": "At the time we did not expect the shop to move."
+      },
+      "usageNote": "[GF2021:L3:1603] Source entry: 当初; dāngchū; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w15",
+      "hanzi": "至今",
+      "pinyin": "zhì jīn",
+      "meaning": "up to now",
+      "meaningVi": "cho tới nay",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "至今还没定聚会时间。",
+        "py": "zhì jīn hái méi dìng jù huì shí jiān .",
+        "en": "The gathering time is still unsettled up to now."
+      },
+      "usageNote": "[GF2021:L3:10559] Source entry: 至今; zhìjīn; 副. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w16",
+      "hanzi": "年代",
+      "pinyin": "nián dài",
+      "meaning": "era; decade",
+      "meaningVi": "thời đại; thập niên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "不同年代的照片放在不同页。",
+        "py": "bù tóng nián dài de zhào piān fàng zài bù tóng yè .",
+        "en": "Photos from different eras are on different pages."
+      },
+      "usageNote": "[GF2021:L3:5856] Source entry: 年代; niándài; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w17",
+      "hanzi": "年初",
+      "pinyin": "nián chū",
+      "meaning": "beginning of the year",
+      "meaningVi": "đầu năm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "年初我们通过一次电话。",
+        "py": "nián chū wǒ men tōng guò yī cì diàn huà .",
+        "en": "We had one phone call at the beginning of the year."
+      },
+      "usageNote": "[GF2021:L3:5855] Source entry: 年初; niánchū; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w18",
+      "hanzi": "年底",
+      "pinyin": "nián dǐ",
+      "meaning": "end of the year",
+      "meaningVi": "cuối năm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "年底再见的计划还没定。",
+        "py": "nián dǐ zài jiàn de jì huà hái méi dìng .",
+        "en": "The plan to meet at year-end is not settled."
+      },
+      "usageNote": "[GF2021:L3:5857] Source entry: 年底; niándǐ; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w19",
+      "hanzi": "变化",
+      "pinyin": "biàn huà",
+      "meaning": "change",
+      "meaningVi": "thay đổi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "店的位置有变化。",
+        "py": "diàn de wèi zhì yǒu biàn huà .",
+        "en": "The shop’s location has changed."
+      },
+      "usageNote": "[GF2021:L3:399] Source entry: 变化; biànhuà; 动、名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w20",
+      "hanzi": "变为",
+      "pinyin": "biàn wéi",
+      "meaning": "to become; change into",
+      "meaningVi": "trở thành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧店变为新的书店。",
+        "py": "jiù diàn biàn wéi xīn de shū diàn .",
+        "en": "The old shop became a new bookshop."
+      },
+      "usageNote": "[GF2021:L3:403] Source entry: 变为; biànwéi; . This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w21",
+      "hanzi": "成长",
+      "pinyin": "chéng zhǎng",
+      "meaning": "to grow; mature",
+      "meaningVi": "trưởng thành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们在不同地方成长。",
+        "py": "wǒ men zài bù tóng dì fāng chéng zhǎng .",
+        "en": "We grew up in different places."
+      },
+      "usageNote": "[GF2021:L3:977] Source entry: 成长; chéngzhǎng; 动. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    },
+    {
+      "id": "s3-u10-w22",
+      "hanzi": "印象",
+      "pinyin": "yìn xiàng",
+      "meaning": "impression",
+      "meaningVi": "ấn tượng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "旧地址的印象很深，仍然要查新通知。",
+        "py": "jiù dì zhǐ de yìn xiàng hěn shēn , réng rán yào chá xīn tōng zhī .",
+        "en": "The old address left a strong impression; still check the new notice."
+      },
+      "usageNote": "[GF2021:L3:9729] Source entry: 印象; yìnxiàng; 名. This lesson teaches the stated reading and sense; the minimum-level lookup remains separate."
+    }
+  ],
+  "characters": [
+    {
+      "hanzi": "曾",
+      "pinyin": "céng",
+      "meaning": "once; formerly",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "曾",
+          "role": "whole",
+          "gloss": "once; formerly"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 曾 in 曾经. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "曾经",
+          "p": "céng jīng",
+          "m": "once; formerly"
+        }
+      ]
+    },
+    {
+      "hanzi": "赶",
+      "pinyin": "gǎn",
+      "meaning": "hurry; catch up",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "赶",
+          "role": "whole",
+          "gloss": "hurry; catch up"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 赶 in 赶紧 / 赶快. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "赶紧",
+          "p": "gǎn jǐn",
+          "m": "quickly; hurry to"
+        },
+        {
+          "w": "赶快",
+          "p": "gǎn kuài",
+          "m": "promptly"
+        }
+      ]
+    },
+    {
+      "hanzi": "立",
+      "pinyin": "lì",
+      "meaning": "stand; establish",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "立",
+          "role": "whole",
+          "gloss": "stand; establish"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 立 in 立刻. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "立刻",
+          "p": "lì kè",
+          "m": "immediately"
+        }
+      ]
+    },
+    {
+      "hanzi": "连",
+      "pinyin": "lián",
+      "meaning": "connect; consecutively",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "连",
+          "role": "whole",
+          "gloss": "connect; consecutively"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 连 in 连忙 / 连. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "连忙",
+          "p": "lián máng",
+          "m": "hurriedly; promptly in response"
+        },
+        {
+          "w": "连",
+          "p": "lián",
+          "m": "to join; connect"
+        }
+      ]
+    },
+    {
+      "hanzi": "始",
+      "pinyin": "shǐ",
+      "meaning": "begin",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "始",
+          "role": "whole",
+          "gloss": "begin"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 始 in 始终 / 开始. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "始终",
+          "p": "shǐ zhōng",
+          "m": "throughout; all along"
+        },
+        {
+          "w": "开始",
+          "p": "kāi shǐ",
+          "m": "to begin"
+        }
+      ]
+    },
+    {
+      "hanzi": "终",
+      "pinyin": "zhōng",
+      "meaning": "end",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "终",
+          "role": "whole",
+          "gloss": "end"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 终 in 始终 / 终于. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "始终",
+          "p": "shǐ zhōng",
+          "m": "throughout; all along"
+        },
+        {
+          "w": "终于",
+          "p": "zhōng yú",
+          "m": "finally"
+        }
+      ]
+    },
+    {
+      "hanzi": "代",
+      "pinyin": "dài",
+      "meaning": "generation; replace",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "代",
+          "role": "whole",
+          "gloss": "generation; replace"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 代 in 年代 / 月亮代表我的心. This usage note is not an origin or decomposition claim.",
+      "words": [
+        {
+          "w": "年代",
+          "p": "nián dài",
+          "m": "era; decade"
+        },
+        {
+          "w": "月亮代表我的心",
+          "p": "Yuèliang dàibiǎo wǒ de xīn",
+          "m": "\"The Moon Represents My Heart\", a classic love song"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s3-u10-g三14",
+      "pattern": "本来 / 才 / 曾经 / 从来 / 赶紧 / 赶快 / 立刻 / 连忙 / 始终 / 已 / 早已",
+      "purpose": "Distinguish event time, quick response and prior expectations",
+      "explanation": "本来 presents an original situation or intention that may contrast with now. 曾经 marks a past experience, not a current habit. 从来没… means never up to the reference time; 从来都… can describe a consistent habit. 才知道 here is only then realizing, unlike 才两个 quantity limitation. 赶紧/赶快 urge prompt action, 立刻 means immediately, 连忙 a prompt response to circumstances. 始终 throughout covers a period. 已 is concise written 已经; 早已 emphasizes completion long before now.",
+      "examples": [
+        {
+          "zh": "本来想明天问，今天才知道她已经到了。",
+          "py": "běn lái xiǎng míng tiān wèn , jīn tiān cái zhī dào tā yǐ jīng dào le .",
+          "en": "Originally meant to ask tomorrow; only today learned she had arrived."
+        },
+        {
+          "zh": "发现地址错了，我连忙联系她。",
+          "py": "fā xiàn dì zhǐ cuò le , wǒ lián máng lián xì tā .",
+          "en": "On finding the wrong address, I hurriedly contacted her."
+        },
+        {
+          "zh": "她曾经住这里，旧店早已搬走。",
+          "py": "tā céng jīng zhù zhè lǐ , jiù diàn zǎo yǐ bān zǒu .",
+          "en": "She once lived here; the old shop moved long ago."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她曾经住这里，所以现在一定住这里。",
+          "right": "她曾经住这里，现在要再确认。",
+          "why": "Past experience does not prove the present situation."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s3-u10-g三21",
+      "pattern": "自从 + 时间或事件",
+      "purpose": "Anchor a continuing situation after a past starting point",
+      "explanation": "自从毕业，我们很少见面 establishes graduation as the starting point for infrequent meetings. The following clause supplies the subsequent situation; 自从 alone does not explain why it occurred. 自从她搬走以后 can include 以后. Do not use future 明天 as an already established past starting point.",
+      "examples": [
+        {
+          "zh": "自从毕业，我们很少见面。",
+          "py": "zì cóng bì yè , wǒ men hěn shǎo jiàn miàn .",
+          "en": "Since graduation we have rarely met."
+        },
+        {
+          "zh": "自从她搬走以后，我们通过几次电话。",
+          "py": "zì cóng tā bān zǒu yǐ hòu , wǒ men tōng guò jǐ cì diàn huà .",
+          "en": "Since she moved away, we have had several phone calls."
+        },
+        {
+          "zh": "自从年初见过一次，至今还没再见。",
+          "py": "zì cóng nián chū jiàn guò yī cì , zhì jīn hái méi zài jiàn .",
+          "en": "Since meeting once at year-start, we have not met again yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "自从明天毕业，我们过去没见面。",
+          "right": "自从去年毕业，我们很少见面。",
+          "why": "Align the established starting event and later situation."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s3-u10-d",
+    "title": "A message before the planned call",
+    "format": "story",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Find which address is current and what remains undecided.",
+    "lines": [
+      {
+        "zh": "本来想明天联系你，没想到你今天回来了。",
+        "py": "běn lái xiǎng míng tiān lián xì nǐ , méi xiǎng dào nǐ jīn tiān huí lái le .",
+        "en": "I meant to contact you tomorrow; I did not expect you back today.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我曾经住这里，可从来没去过新店。",
+        "py": "wǒ céng jīng zhù zhè lǐ , kě cóng lái méi qù guò xīn diàn .",
+        "en": "I once lived here, but have never visited the new shop.",
+        "speaker": "b"
+      },
+      {
+        "zh": "旧店早已搬走，我今天才发现通知上的地址也错了。",
+        "py": "jiù diàn zǎo yǐ bān zǒu , wǒ jīn tiān cái fā xiàn tōng zhī shàng de dì zhǐ yě cuò le .",
+        "en": "The old shop moved long ago; only today I discovered the notice’s address was wrong too.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那赶紧发新地址，我还没出发。",
+        "py": "nà gǎn jǐn fā xīn dì zhǐ , wǒ hái méi chū fā .",
+        "en": "Then send the new address quickly; I have not set off.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我立刻发。聚会时间至今还没定。",
+        "py": "hǎo , wǒ lì kè fā . jù huì shí jiān zhì jīn hái méi dìng .",
+        "en": "Okay, I will send it immediately. The gathering time is still unsettled.",
+        "speaker": "a"
+      },
+      {
+        "zh": "自从毕业，我们很少见面。先定时间吧。",
+        "py": "zì cóng bì yè , wǒ men hěn shǎo jiàn miàn . xiān dìng shí jiān ba .",
+        "en": "Since graduation we have rarely met. Let us settle the time first.",
+        "speaker": "b"
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What do the friends need to update?",
+        "choices": [
+          "Address and meeting time",
+          "A promise to attend every day",
+          "A graduation date tomorrow"
+        ],
+        "answer": "Address and meeting time"
+      },
+      {
+        "type": "detail",
+        "q": "Has the returning friend set off?",
+        "choices": [
+          "No",
+          "Yes",
+          "She has reached the old shop"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Does a past residence prove familiarity with the new shop?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only at year-end"
+        ],
+        "answer": "No"
+      }
+    ],
+    "speakers": [
+      {
+        "id": "a",
+        "name": "甲"
+      },
+      {
+        "id": "b",
+        "name": "乙"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "联系",
+        "pinyin": "lián xì",
+        "meaning": "to contact"
+      },
+      {
+        "hanzi": "毕业",
+        "pinyin": "bì yè",
+        "meaning": "to graduate"
+      },
+      {
+        "hanzi": "聚会",
+        "pinyin": "jù huì",
+        "meaning": "get-together"
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice"
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s3-u10-r",
+    "title": "An old address in a new message",
+    "format": "note",
+    "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+    "purpose": "Read the difference between memory and the current notice.",
+    "lines": [
+      {
+        "zh": "从前我们常在旧店见面，自从毕业以后，见面的机会少了。",
+        "py": "cóng qián wǒ men cháng zài jiù diàn jiàn miàn , zì cóng bì yè yǐ hòu , jiàn miàn de jī huì shǎo le .",
+        "en": "We formerly met often at the old shop; since graduation, chances to meet have decreased."
+      },
+      {
+        "zh": "年初通过一次电话，至今还没再见。",
+        "py": "nián chū tōng guò yī cì diàn huà , zhì jīn hái méi zài jiàn .",
+        "en": "We had one call at year-start and have not met again yet."
+      },
+      {
+        "zh": "朋友曾经住这里，但从来没去过新店。",
+        "py": "péng you céng jīng zhù zhè lǐ , dàn cóng lái méi qù guò xīn diàn .",
+        "en": "The friend once lived here but has never visited the new shop."
+      },
+      {
+        "zh": "旧店早已搬走，原来的地方变为新的书店。",
+        "py": "jiù diàn zǎo yǐ bān zǒu , yuán lái de dì fāng biàn wéi xīn de shū diàn .",
+        "en": "The old shop moved long ago; its former site became a new bookshop."
+      },
+      {
+        "zh": "我今天才发现通知地址错了，连忙发送新地址。",
+        "py": "wǒ jīn tiān cái fā xiàn tōng zhī dì zhǐ cuò le , lián máng fā sòng xīn dì zhǐ .",
+        "en": "Only today I discovered the wrong notice address and hurriedly sent the new one."
+      },
+      {
+        "zh": "地点已改变，时间还没定；年底再见只是计划。",
+        "py": "dì diǎn yǐ gǎi biàn , shí jiān hái méi dìng ; nián dǐ zài jiàn zhǐ shì jì huà .",
+        "en": "The venue has changed; the time is unsettled, and meeting at year-end is only a plan."
+      }
+    ],
+    "questions": [
+      {
+        "type": "mainidea",
+        "q": "What should the record separate?",
+        "choices": [
+          "Past facts, changed venue and unsettled plans",
+          "Every memory as current proof",
+          "Year-start as the confirmed next meeting"
+        ],
+        "answer": "Past facts, changed venue and unsettled plans"
+      },
+      {
+        "type": "detail",
+        "q": "What occupies the former shop’s site?",
+        "choices": [
+          "A new bookshop",
+          "The unchanged old shop",
+          "A railway"
+        ],
+        "answer": "A new bookshop"
+      },
+      {
+        "type": "inference",
+        "q": "Is the year-end meeting confirmed?",
+        "choices": [
+          "No",
+          "Yes",
+          "Only because one call occurred"
+        ],
+        "answer": "No"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "朋友【曾经】住这里，但从来没去过新店。",
+          "py": "péng you céng jīng zhù zhè lǐ , dàn cóng lái méi qù guò xīn diàn .",
+          "en": "The friend once lived here but has never visited the new shop."
+        },
+        {
+          "zh": "我今天才发现通知地址错了，【连忙】发送新地址。",
+          "py": "wǒ jīn tiān cái fā xiàn tōng zhī dì zhǐ cuò le , lián máng fā sòng xīn dì zhǐ .",
+          "en": "Only today I discovered the wrong notice address and hurriedly sent the new one."
+        }
+      ],
+      "bank": [
+        "曾经",
+        "连忙",
+        "电影"
+      ]
+    },
+    "glosses": [
+      {
+        "hanzi": "毕业",
+        "pinyin": "bì yè",
+        "meaning": "to graduate"
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice"
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dì zhǐ",
+        "meaning": "address"
+      },
+      {
+        "hanzi": "改变",
+        "pinyin": "gǎi biàn",
+        "meaning": "to change"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s3-u10-media",
+      "title": "The address did not wait",
+      "format": "note",
+      "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
+      "purpose": "Read an original verse about memory and change.",
+      "lines": [
+        {
+          "zh": "从前的店，记得很深。",
+          "py": "cóng qián de diàn , jì de hěn shēn .",
+          "en": "The former shop is strongly remembered."
+        },
+        {
+          "zh": "今天的路，还要再问。",
+          "py": "jīn tiān de lù , hái yào zài wèn .",
+          "en": "Today’s route still needs asking."
+        },
+        {
+          "zh": "自从毕业，见得不多。",
+          "py": "zì cóng bì yè , jiàn dé bù duō .",
+          "en": "Since graduation, we have rarely met."
+        },
+        {
+          "zh": "时间没定，先别说准。",
+          "py": "shí jiān méi dìng , xiān bié shuō zhǔn .",
+          "en": "The time is unsettled; do not call it certain yet."
+        }
+      ],
+      "questions": [
+        {
+          "type": "inference",
+          "q": "Why ask again despite remembering the shop?",
+          "choices": [
+            "The current situation may have changed",
+            "Graduation erases all memory",
+            "The meeting is already confirmed"
+          ],
+          "answer": "The current situation may have changed"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "毕业",
+          "pinyin": "bì yè",
+          "meaning": "to graduate"
+        },
+        {
+          "hanzi": "深",
+          "pinyin": "shēn",
+          "meaning": "deep; strong for an impression"
+        }
+      ]
+    },
+    {
+      "id": "s3-u10-word-notebook",
+      "title": "Words in use",
+      "format": "note",
+      "blurb": "Original AI-assisted examples; native review pending.",
+      "purpose": "Compare these complete sentences with the lesson examples. Notice what changes around the same word.",
+      "lines": [
+        {
+          "zh": "地址写错了，赶紧改。",
+          "py": "dì zhǐ xiě cuò le , gǎn jǐn gǎi .",
+          "en": "The address is wrong; correct it quickly."
+        },
+        {
+          "zh": "赶快联系她，别让她走错。",
+          "py": "gǎn kuài lián xì tā , bié ràng tā zǒu cuò .",
+          "en": "Contact her quickly so she does not go the wrong way."
+        },
+        {
+          "zh": "地址写错了，赶快联系还没出发的朋友。",
+          "py": "dì zhǐ xiě cuò le , gǎn kuài lián xì hái méi chū fā de péng you .",
+          "en": "The address is wrong; promptly contact the friend who has not set off."
+        },
+        {
+          "zh": "看到消息，我立刻回复。",
+          "py": "kàn dào xiāo xī , wǒ lì kè huí fù .",
+          "en": "On seeing the message, I replied immediately."
+        },
+        {
+          "zh": "她始终没答应参加聚会。",
+          "py": "tā shǐ zhōng méi dā yìng cān jiā jù huì .",
+          "en": "Throughout, she has not agreed to attend the gathering."
+        },
+        {
+          "zh": "她始终没说一定参加，我们先别替她答应。",
+          "py": "tā shǐ zhōng méi shuō yí dìng cān jiā , wǒ men xiān bié tì tā dā yìng .",
+          "en": "She has never said she will definitely join during this time; do not agree on her behalf."
+        },
+        {
+          "zh": "过去的地址不能直接当现在的地址。",
+          "py": "guò qù de dì zhǐ bù néng zhí jiē dāng xiàn zài de dì zhǐ .",
+          "en": "The former address cannot simply be used as the current address."
+        },
+        {
+          "zh": "过去见面的地点变了，先看新地址。",
+          "py": "guò qù jiàn miàn de dì diǎn biàn le , xiān kàn xīn dì zhǐ .",
+          "en": "The former meeting venue has changed; check the new address first."
+        },
+        {
+          "zh": "当初没想到店会搬走。",
+          "py": "dāng chū méi xiǎng dào diàn huì bān zǒu .",
+          "en": "At the time we did not expect the shop to move."
+        },
+        {
+          "zh": "当初只定了日期，没有定具体时间。",
+          "py": "dāng chū zhǐ dìng le rì qī , méi yǒu dìng jù tǐ shí jiān .",
+          "en": "Originally only the date was settled, not an exact time."
+        },
+        {
+          "zh": "不同年代的照片放在不同页。",
+          "py": "bù tóng nián dài de zhào piān fàng zài bù tóng yè .",
+          "en": "Photos from different eras are on different pages."
+        },
+        {
+          "zh": "照片上的年代不同，不是同一次活动。",
+          "py": "zhào piān shàng de nián dài bù tóng , bù shì tóng yī cì huó dòng .",
+          "en": "The photos are from different eras, not the same event."
+        },
+        {
+          "zh": "店的位置有变化。",
+          "py": "diàn de wèi zhì yǒu biàn huà .",
+          "en": "The shop’s location has changed."
+        },
+        {
+          "zh": "地点有变化，见面的愿望没变。",
+          "py": "dì diǎn yǒu biàn huà , jiàn miàn de yuàn wàng méi biàn .",
+          "en": "The venue has changed; the wish to meet has not."
+        },
+        {
+          "zh": "旧店变为新的书店。",
+          "py": "jiù diàn biàn wéi xīn de shū diàn .",
+          "en": "The old shop became a new bookshop."
+        },
+        {
+          "zh": "我们在不同地方成长。",
+          "py": "wǒ men zài bù tóng dì fāng chéng zhǎng .",
+          "en": "We grew up in different places."
+        },
+        {
+          "zh": "朋友在不同城市成长，也能聊共同的经历。",
+          "py": "péng you zài bù tóng chéng shì chéng zhǎng , yě néng liáo gòng tóng de jīng lì .",
+          "en": "Friends who grew up in different cities can discuss shared experiences."
+        },
+        {
+          "zh": "旧地址的印象很深，仍然要查新通知。",
+          "py": "jiù dì zhǐ de yìn xiàng hěn shēn , réng rán yào chá xīn tōng zhī .",
+          "en": "The old address left a strong impression; still check the new notice."
+        },
+        {
+          "zh": "我有旧店的印象，还要确认现在的地点。",
+          "py": "wǒ yǒu jiù diàn de yìn xiàng , hái yào què rèn xiàn zài de dì diǎn .",
+          "en": "I remember the old shop but still need to confirm the current venue."
+        }
+      ],
+      "questions": [],
+      "glosses": [
+        {
+          "hanzi": "联系",
+          "pinyin": "lián xì",
+          "meaning": "to contact"
+        },
+        {
+          "hanzi": "聚会",
+          "pinyin": "jù huì",
+          "meaning": "get-together"
+        },
+        {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "meaning": "notice"
+        },
+        {
+          "hanzi": "地址",
+          "pinyin": "dì zhǐ",
+          "meaning": "address"
+        },
+        {
+          "hanzi": "年代",
+          "pinyin": "nián dài",
+          "meaning": "era; decade"
+        },
+        {
+          "hanzi": "深",
+          "pinyin": "shēn",
+          "meaning": "deep; strong for an impression"
+        },
+        {
+          "hanzi": "愿望",
+          "pinyin": "yuàn wàng",
+          "meaning": "wish; aspiration"
+        },
+        {
+          "hanzi": "仍然",
+          "pinyin": "réng rán",
+          "meaning": "still"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "type": "truefalse",
+      "id": "s3-u10-t1",
+      "phrase": "s3-u10-w02",
+      "audio": {
+        "zh": "她曾经住这里。",
+        "py": "tā céng jīng zhù zhè lǐ .",
+        "en": "She once lived here."
+      },
+      "statement": "She necessarily lives here now.",
+      "answer": false,
+      "why": "曾经 marks past experience."
+    },
+    {
+      "type": "truefalse",
+      "id": "s3-u10-t2",
+      "phrase": "s3-u10-w15",
+      "audio": {
+        "zh": "时间至今还没定。",
+        "py": "shí jiān zhì jīn hái méi dìng .",
+        "en": "The time remains unsettled."
+      },
+      "statement": "The time is not confirmed yet.",
+      "answer": true,
+      "why": "还没定 states the current status."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u10-t3",
+      "phrase": "s3-u10-w07",
+      "prompt": {
+        "zh": "发现地址错了，怎么办？",
+        "py": "fā xiàn dì zhǐ cuò le , zěn me bàn ?",
+        "en": "What should one do on finding the wrong address?"
+      },
+      "choices": [
+        "赶紧发新地址。",
+        "把旧地址当现在的。",
+        "说她肯定已经到了。"
+      ],
+      "answer": "赶紧发新地址。",
+      "why": "Respond to the changed information."
+    },
+    {
+      "type": "reply",
+      "id": "s3-u10-t4",
+      "phrase": "s3-u10-w11",
+      "prompt": {
+        "zh": "自从毕业，你们常见面吗？",
+        "py": "zì cóng bì yè , nǐ men cháng jiàn miàn ma ?",
+        "en": "Have you met often since graduation?"
+      },
+      "choices": [
+        "很少见面，还没定下次时间。",
+        "明天曾经毕业。",
+        "旧店就是所有年代。"
+      ],
+      "answer": "很少见面，还没定下次时间。",
+      "why": "Answer the stated pattern and pending plan."
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u10-t5",
+      "phrase": "s3-u10-w10",
+      "line": {
+        "zh": "旧店【早已】搬走。",
+        "py": "jiù diàn zǎo yǐ bān zǒu .",
+        "en": "The old shop moved away long ago."
+      },
+      "blankPy": "zǎo yǐ"
+    },
+    {
+      "type": "listenfill",
+      "id": "s3-u10-t6",
+      "phrase": "s3-u10-w01",
+      "line": {
+        "zh": "【本来】想明天联系。",
+        "py": "běn lái xiǎng míng tiān lián xì .",
+        "en": "Originally intended to contact tomorrow."
+      },
+      "blankPy": "běn lái"
+    },
+    {
+      "type": "match",
+      "id": "s3-u10-t7",
+      "phrase": "s3-u10-w13",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "She has not set off.",
+          "right": {
+            "zh": "她还没出发。",
+            "py": "tā hái méi chū fā .",
+            "en": "She has not set off."
+          }
+        },
+        {
+          "left": "The venue has changed.",
+          "right": {
+            "zh": "地点已改变。",
+            "py": "dì diǎn yǐ gǎi biàn .",
+            "en": "The venue has changed."
+          }
+        },
+        {
+          "left": "The time is unsettled.",
+          "right": {
+            "zh": "时间还没定。",
+            "py": "shí jiān hái méi dìng .",
+            "en": "The time is unsettled."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u10-t8",
+      "phrase": "s3-u10-w17",
+      "title": "Match the message to its meaning",
+      "pairs": [
+        {
+          "left": "Had one call at year-start.",
+          "right": {
+            "zh": "年初通过一次电话。",
+            "py": "nián chū tōng guò yī cì diàn huà .",
+            "en": "Had one call at year-start."
+          }
+        },
+        {
+          "left": "Meeting at year-end is only a plan.",
+          "right": {
+            "zh": "年底再见只是计划。",
+            "py": "nián dǐ zài jiàn zhǐ shì jì huà .",
+            "en": "Meeting at year-end is only a plan."
+          }
+        },
+        {
+          "left": "Only today noticed the wrong address.",
+          "right": {
+            "zh": "今天才发现地址错了。",
+            "py": "jīn tiān cái fā xiàn dì zhǐ cuò le .",
+            "en": "Only today noticed the wrong address."
+          }
+        }
+      ]
+    },
+    {
+      "type": "match",
+      "id": "s3-u10-t9",
+      "phrase": "s3-u10-w01",
+      "title": "Bring back earlier language",
+      "pairs": [
+        {
+          "left": "The file can open; its date has not been checked.",
+          "right": {
+            "zh": "文件打得开，日期还没核对。",
+            "py": "wén jiàn dǎ dé kāi , rì qī hái méi hé duì .",
+            "en": "The file can open; its date has not been checked."
+          }
+        },
+        {
+          "left": "Searched for ten minutes and finally found it.",
+          "right": {
+            "zh": "找了十分钟，终于找到了。",
+            "py": "zhǎo le shí fēn zhōng , zhōng yú zhǎo dào le .",
+            "en": "Searched for ten minutes and finally found it."
+          }
+        },
+        {
+          "left": "Clearer today does not mean necessarily faster.",
+          "right": {
+            "zh": "今天更加清楚，不等于一定更快。",
+            "py": "jīn tiān gèng jiā qīng chǔ , bù děng yú yí dìng gèng kuài .",
+            "en": "Clearer today does not mean necessarily faster."
+          }
+        },
+        {
+          "left": "Not faster than her; possibly equally fast.",
+          "right": {
+            "zh": "不比她快，可能一样快。",
+            "py": "bù bǐ tā kuài , kě néng yī yàng kuài .",
+            "en": "Not faster than her; possibly equally fast."
+          }
+        }
+      ]
+    }
+  ],
+  "pragmatics": [
+    {
+      "situation": "Correct an outdated message",
+      "natural": {
+        "zh": "旧地址错了，我现在发新地址。",
+        "py": "jiù dì zhǐ cuò le , wǒ xiàn zài fā xīn dì zhǐ .",
+        "en": "The old address is wrong; I will send the new one now."
+      },
+      "note": "Do not blame a friend for following outdated information."
+    },
+    {
+      "situation": "State the unsettled part",
+      "natural": {
+        "zh": "地点变了，时间还没定。",
+        "py": "dì diǎn biàn le , shí jiān hái méi dìng .",
+        "en": "The venue changed; the time is not settled."
+      },
+      "note": "Separate known change from future intention."
+    }
+  ],
+  "conversation": {
+    "id": "s3-u10-speak",
+    "title": "An old friend's surprise visit",
+    "place": "A language-exchange meeting",
+    "context": "Relate events and changes since a past time.",
+    "goal": "Describe earlier experiences without inventing current habits",
+    "partner": {
+      "name": "Sayo",
+      "persona": "Brief, patient and lightly teasing."
+    },
+    "turns": [
+      {
+        "text": "你去过新店吗？",
+        "pinyin": "nǐ qù guò xīn diàn ma ?",
+        "meaning": "Have you visited the new shop?",
+        "intent": "State the lack of experience",
+        "examples": [
+          "从来没去过。"
+        ],
+        "accept": [
+          "^从来没去过。[。！？]?$"
+        ]
+      },
+      {
+        "text": "聚会时间定了吗？",
+        "pinyin": "jù huì shí jiān dìng le ma ?",
+        "meaning": "Is the gathering time settled?",
+        "intent": "Do not overpromise",
+        "examples": [
+          "还没定。"
+        ],
+        "accept": [
+          "^还没定。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三14, 三21. Native check: adverb family 本来/才/曾经/从来/赶紧/赶快/立刻/连忙/始终/已/早已, written 已 register, 自从 time anchoring, and economical verse phrasing. No inferred current residence or confirmed future meeting. Native review pending. Planned retrieval 三06 / 三46 / 三12 / 三58: 文件打得开，日期还没核对。, 找了十分钟，终于找到了。, 今天更加清楚，不等于一定更快。, 不比她快，可能一样快。."
+}
