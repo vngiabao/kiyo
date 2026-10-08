@@ -392,6 +392,30 @@ if not any(g['hanzi']=='藏' for g in text.get('glosses',[])):
     text.setdefault('glosses',[]).append(dict(hanzi='藏',pinyin='cáng',meaning='hide; put out of sight'))
 dest=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')/'s3-u34.json'
 dest.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
+
+# These later texts used to borrow meanings from the removed artificial scene.
+# Supply the actual local definitions rather than keeping that scene as padding.
+from advanced_reading_repair import dependencies
+dependencies({
+ 's5-u02':[('平稳','steady; stable')],
+ 's5-u08':[('小厅','small hall'),('摆','put; arrange'),('区域','area; region')],
+ 's5-u09':[('小厅','small hall')],
+ 's5-u10':[('小厅','small hall'),('缩','shrink; narrow')],
+ 's5-u11':[('摆','put; arrange'),('挑','choose; pick','tiāo')],
+ 's5-u12':[('缺乏','lack'),('接触','come into contact with'),('秒','second (time)')],
+ 's6-u01':[('小厅','small hall'),('估计','estimate'),('摆','put; arrange'),('挪','move; shift')],
+ 's6-u02':[('小厅','small hall'),('唯一','only; sole'),('栏','column; field on a form'),('柜子','cabinet'),('采纳','adopt; accept a suggestion'),('犯','make; commit (a mistake)'),('依赖','depend on; rely on')],
+ 's6-u03':[('挑','choose; pick','tiāo'),('嫌','dislike; find objectionable'),('阵','classifier for a burst of sound'),('小厅','small hall'),('圆','round'),('款','model; style of a product')],
+ 's6-u04':[('弹','play a musical instrument','tán'),('小厅','small hall'),('唯一','only; sole'),('挪','move; shift')],
+ 's6-u05':[('原稿','original manuscript'),('稿子','draft; manuscript'),('小厅','small hall'),('秒','second (time)'),('情绪','mood; emotion')],
+ 's6-u06':[('挑','choose; pick','tiāo'),('若','if'),('讨厌','dislike'),('引起','cause; give rise to'),('小厅','small hall'),('缩','shrink; narrow'),('凡是','all that; whenever')],
+ 's6-u07':[('伸','extend; stretch out'),('缩','shrink; narrow'),('挪','move; shift'),('大厅','main hall'),('小厅','small hall'),('若','if')],
+ 's6-u08':[('讨厌','dislike'),('引起','cause; give rise to'),('挑','choose; pick','tiāo'),('秒','second (time)'),('分析','analyse; analysis'),('唯一','only; sole'),('下降','fall; decrease'),('若','if')],
+ 's6-u09':[('区域','area; region'),('反馈','feedback'),('若','if'),('登记','register; registration'),('小厅','small hall')],
+ 's6-u10':[('小厅','small hall'),('缩','shrink; narrow'),('挑','choose; pick','tiāo'),('朗读','read aloud'),('阵','classifier for a burst of sound')],
+ 's6-u11':[('小厅','small hall'),('阵','classifier for a burst of sound')],
+ 's6-u12':[('触动','touch; move emotionally')],
+},publish='--publish' in sys.argv)
 pack=json.loads((ROOT/'content/packs/s4-u08.json').read_text('utf-8'))
 text=pack['reading']
 if not any(g['hanzi']=='依赖' for g in text.get('glosses',[])):

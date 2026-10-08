@@ -141,6 +141,11 @@ for number,raw in ROWS.items():
     (target/f'{uid}.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n','utf-8')
     print(uid,'drafted' if '--publish' not in sys.argv else 'published')
 
+from advanced_reading_repair import dependencies
+dependencies({'s5-u08':[('扫','sweep; scan (a code)')],
+              's6-u06':[('拆','take apart; separate')],
+              's6-u12':[('拆','open (a letter); take apart')]},publish='--publish' in sys.argv)
+
 # Preserve definitions that later texts previously inherited from an earlier
 # incidental story occurrence. No saved IDs or recorded lines change here.
 for uid,entries in {'s4-u09':[('申','state; apply'),('码','code')], 's4-u10':[('赞','praise')], 's4-u11':[('赞','praise'),('藏','hide')]}.items():

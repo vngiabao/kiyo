@@ -1,0 +1,1836 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s5-u06",
+    "stage": 3,
+    "order": 126,
+    "title": "Still friends, with a clearer limit",
+    "titleZh": "想听，也得先约时间",
+    "canDo": [
+      "State when and how much conversation is possible",
+      "Acknowledge disappointment without silently withdrawing a limit",
+      "Distinguish a declined time from the end of contact"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 5
+    },
+    "prerequisites": [
+      "s5-u05",
+      "s5-u05-usage"
+    ],
+    "estimatedMinutes": 90
+  },
+  "vocabulary": [
+    {
+      "id": "s5-u06-w01",
+      "hanzi": "尊重",
+      "pinyin": "zūn zhòng",
+      "meaning": "respect",
+      "meaningVi": "tôn trọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你不想说的部分，我会尊重。",
+        "py": "nǐ bù xiǎng shuō de bù fèn , wǒ huì zūn zhòng .",
+        "en": "I’ll respect the parts you don’t want to discuss."
+      },
+      "usageNote": "[GF2021:L5:11050] Source entry: 尊重; zūnzhòng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w02",
+      "hanzi": "抱怨",
+      "pinyin": "bào yuàn",
+      "meaning": "complain",
+      "meaningVi": "phàn nàn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你可以抱怨，不过我今天只能听一会儿。",
+        "py": "nǐ kě yǐ bào yuàn , bù guò wǒ jīn tiān zhǐ néng tīng yī huì er .",
+        "en": "You can complain, but I can only listen briefly today."
+      },
+      "usageNote": "[GF2021:L5:239] Source entry: 抱怨; bào·yuàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w03",
+      "hanzi": "无奈",
+      "pinyin": "wú nài",
+      "meaning": "helpless; without a good alternative",
+      "meaningVi": "bất lực",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我有点无奈，不知道怎么把话接下去。",
+        "py": "wǒ yǒu diǎn wú nài , bù zhī dào zěn me bǎ huà jiē xià qù .",
+        "en": "I feel rather stuck and don’t know how to continue."
+      },
+      "usageNote": "[GF2021:L5:8531] Source entry: 无奈; wúnài; 动、连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w04",
+      "hanzi": "心态",
+      "pinyin": "xīn tài",
+      "meaning": "mindset",
+      "meaningVi": "tâm thế",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我想换个心态，不把每次没接电话都当成拒绝。",
+        "py": "wǒ xiǎng huàn gè xīn tài , bù bǎ měi cì méi jiē diàn huà dōu dàng chéng jù jué .",
+        "en": "I want to stop treating every unanswered call as rejection."
+      },
+      "usageNote": "[GF2021:L5:8991] Source entry: 心态; xīntài; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w05",
+      "hanzi": "打扰",
+      "pinyin": "dǎ rǎo",
+      "meaning": "disturb; interrupt",
+      "meaningVi": "làm phiền",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这么晚打电话，是不是打扰你了？",
+        "py": "zhè me wǎn dǎ diàn huà , shì bú shì dǎ rǎo nǐ le ?",
+        "en": "Am I disturbing you by calling so late?"
+      },
+      "usageNote": "[GF2021:L5:1435] Source entry: 打扰; dǎrǎo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w06",
+      "hanzi": "私人",
+      "pinyin": "sī rén",
+      "meaning": "private; personal",
+      "meaningVi": "riêng tư",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这部分是私人的，我现在不想聊。",
+        "py": "zhè bù fèn shì sī rén de , wǒ xiàn zài bù xiǎng liáo .",
+        "en": "That part is personal; I don’t want to discuss it now."
+      },
+      "usageNote": "[GF2021:L5:7618] Source entry: 私人; sīrén; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w07",
+      "hanzi": "坚定",
+      "pinyin": "jiān dìng",
+      "meaning": "firm; resolute",
+      "meaningVi": "kiên định",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她说得很平静，态度却很坚定。",
+        "py": "tā shuō de hěn píng jìng , tài dù què hěn jiān dìng .",
+        "en": "She spoke calmly, but her position was firm."
+      },
+      "usageNote": "[GF2021:L5:3905] Source entry: 坚定; jiāndìng; 形、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w08",
+      "hanzi": "委托",
+      "pinyin": "wěi tuō",
+      "meaning": "entrust; commission",
+      "meaningVi": "ủy thác",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他委托我把资料带给同事。",
+        "py": "tā wěi tuō wǒ bǎ zī liào dài gěi tóng shì .",
+        "en": "He entrusted me to bring the materials to a colleague."
+      },
+      "usageNote": "[GF2021:L5:8406] Source entry: 委托; wěituō; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w09",
+      "hanzi": "沟通",
+      "pinyin": "gōu tōng",
+      "meaning": "communicate",
+      "meaningVi": "giao tiếp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们需要沟通时间，不只是沟通内容。",
+        "py": "wǒ men xū yào gōu tōng shí jiān , bù zhǐ shì gōu tōng nèi róng .",
+        "en": "We need to discuss timing as well as content."
+      },
+      "usageNote": "[GF2021:L5:2863] Source entry: 沟通; gōutōng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w10",
+      "hanzi": "拒绝",
+      "pinyin": "jù jué",
+      "meaning": "refuse; reject",
+      "meaningVi": "từ chối",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我拒绝的是这个时间，不是以后都不见面。",
+        "py": "wǒ jù jué de shì zhè gè shí jiān , bù shì yǐ hòu dōu bú jiàn miàn .",
+        "en": "I’m declining this time, not all future meetings."
+      },
+      "usageNote": "[GF2021:L5:4499] Source entry: 拒绝; jùjué; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w11",
+      "hanzi": "敏感",
+      "pinyin": "mǐn gǎn",
+      "meaning": "sensitive",
+      "meaningVi": "nhạy cảm",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他对这个话题很敏感，我们先不追问。",
+        "py": "tā duì zhè gè huà tí hěn mǐn gǎn , wǒ men xiān bù zhuī wèn .",
+        "en": "He's sensitive about this topic; let's not press him for now."
+      },
+      "usageNote": "[GF2021:L5:5617] Source entry: 敏感; mǐngǎn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w12",
+      "hanzi": "真诚",
+      "pinyin": "zhēn chéng",
+      "meaning": "sincere",
+      "meaningVi": "chân thành",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我想真诚地说明，不想随便找个理由。",
+        "py": "wǒ xiǎng zhēn chéng de shuō míng , bù xiǎng suí biàn zhǎo gè lǐ yóu .",
+        "en": "I want to explain sincerely rather than invent an excuse."
+      },
+      "usageNote": "[GF2021:L5:10353] Source entry: 真诚; zhēnchéng; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u06-w13",
+      "hanzi": "直接",
+      "pinyin": "zhí jiē",
+      "meaning": "direct; directly",
+      "meaningVi": "trực tiếp",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我直接说今天只能聊二十分钟。",
+        "py": "wǒ zhí jiē shuō jīn tiān zhǐ néng liáo èr shí fēn zhōng .",
+        "en": "I said directly that I could talk for only twenty minutes today."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w14",
+      "hanzi": "理解",
+      "pinyin": "lǐ jiě",
+      "meaning": "understand",
+      "meaningVi": "hiểu",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我理解你想说，但今天不方便。",
+        "py": "wǒ lǐ jiě nǐ xiǎng shuō , dàn jīn tiān bù fāng biàn .",
+        "en": "I understand you want to talk, but today isn’t convenient."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w15",
+      "hanzi": "失望",
+      "pinyin": "shī wàng",
+      "meaning": "disappointed",
+      "meaningVi": "thất vọng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "听见不能继续聊，他有点失望。",
+        "py": "tīng jiàn bù néng jì xù liáo , tā yǒu diǎn shī wàng .",
+        "en": "He was a little disappointed we couldn’t keep talking."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w16",
+      "hanzi": "个人",
+      "pinyin": "gè rén",
+      "meaning": "individual; personal",
+      "meaningVi": "cá nhân",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是我的个人安排，不要求你一样。",
+        "py": "zhè shì wǒ de gè rén ān pái , bú yào qiú nǐ yī yàng .",
+        "en": "This is my own arrangement; I don’t expect yours to be identical."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w17",
+      "hanzi": "坚决",
+      "pinyin": "jiān jué",
+      "meaning": "firmly; resolutely",
+      "meaningVi": "kiên quyết",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这次我坚决不把睡前的时间再排满。",
+        "py": "zhè cì wǒ jiān jué bù bǎ shuì qián de shí jiān zài pái mǎn .",
+        "en": "This time I won’t fill the time before bed again."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w18",
+      "hanzi": "请求",
+      "pinyin": "qǐng qiú",
+      "meaning": "request",
+      "meaningVi": "yêu cầu",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我想提一个请求，先问你有没有时间。",
+        "py": "wǒ xiǎng tí yī gè qǐng qiú , xiān wèn nǐ yǒu méi yǒu shí jiān .",
+        "en": "I’d like to ask something, but first whether you have time."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w19",
+      "hanzi": "承担",
+      "pinyin": "chéng dān",
+      "meaning": "take on; bear",
+      "meaningVi": "đảm nhận",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我愿意帮一部分，不能全部承担。",
+        "py": "wǒ yuàn yì bāng yī bù fèn , bù néng quán bù chéng dān .",
+        "en": "I’m willing to help with part, but can’t take on all of it."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w20",
+      "hanzi": "负担",
+      "pinyin": "fù dān",
+      "meaning": "burden",
+      "meaningVi": "gánh nặng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "每天都等电话，对我成了负担。",
+        "py": "měi tiān dōu děng diàn huà , duì wǒ chéng le fù dān .",
+        "en": "Waiting for calls every day became a burden for me."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w21",
+      "hanzi": "责任",
+      "pinyin": "zé rèn",
+      "meaning": "responsibility",
+      "meaningVi": "trách nhiệm",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "朋友的每一个决定，不都是我的责任。",
+        "py": "péng you de měi yī gè jué dìng , bù dōu shì wǒ de zé rèn .",
+        "en": "Not every decision a friend makes is my responsibility."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w22",
+      "hanzi": "体会",
+      "pinyin": "tǐ huì",
+      "meaning": "understand through experience; feel",
+      "meaningVi": "cảm nhận",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我能体会他一个人在外面的感觉。",
+        "py": "wǒ néng tǐ huì tā yī gè rén zài wài miàn de gǎn jué .",
+        "en": "I can understand how he feels alone away from home."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w23",
+      "hanzi": "适应",
+      "pinyin": "shì yìng",
+      "meaning": "adapt; get used to",
+      "meaningVi": "thích nghi",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "他还在适应新的工作时间。",
+        "py": "tā hái zài shì yìng xīn de gōng zuò shí jiān .",
+        "en": "He’s still adapting to his new work schedule."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u06-w24",
+      "hanzi": "改善",
+      "pinyin": "gǎi shàn",
+      "meaning": "improve",
+      "meaningVi": "cải thiện",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们想改善联系的方式，不是结束联系。",
+        "py": "wǒ men xiǎng gǎi shàn lián xì de fāng shì , bù shì jié shù lián xì .",
+        "en": "We want to improve how we keep in touch, not end contact."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s5-u06-g01",
+      "pattern": "怎么…也 / 都不…",
+      "purpose": "Describe a persistent negative result",
+      "explanation": "怎么 combined with 也不 or 都不 can describe a negative result despite repeated or varied attempts. It is stronger than a simple one-time negative.",
+      "examples": [
+        {
+          "zh": "昨晚怎么打也接不通。",
+          "py": "zuó wǎn zěn me dǎ yě jiē bù tōng .",
+          "en": "However I tried calling last night, it would not connect."
+        },
+        {
+          "zh": "这句话我怎么想都不明白。",
+          "py": "zhè jù huà wǒ zěn me xiǎng dōu bù míng bái .",
+          "en": "However I think about this sentence, I cannot understand it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "昨晚怎么打也接不通，所以他一定讨厌我。",
+          "right": "昨晚怎么打也接不通。",
+          "why": "Failed attempts establish a connection problem, not another person’s motive."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u06-g02",
+      "pattern": "X归X，…",
+      "purpose": "Allow a feeling without cancelling a decision",
+      "explanation": "Acknowledge X and then distinguish the practical point. Do not use the pattern as a dismissive substitute for listening.",
+      "examples": [
+        {
+          "zh": "失望归失望，我们还是得先约时间。",
+          "py": "shī wàng guī shī wàng , wǒ men hái shi děi xiān yuē shí jiān .",
+          "en": "Disappointed or not, we still need to arrange a time first."
+        },
+        {
+          "zh": "想帮归想帮，我今天不能聊太久。",
+          "py": "xiǎng bāng guī xiǎng bāng , wǒ jīn tiān bù néng liáo tài jiǔ .",
+          "en": "I do want to help, but cannot talk too long today."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "失望归失望，所以不许你失望。",
+          "right": "失望归失望，我们还是得先约时间。",
+          "why": "The first clause acknowledges disappointment rather than banning it."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u06-g03",
+      "pattern": "A的A，B的B",
+      "purpose": "Describe different people doing different things",
+      "explanation": "Repeated verbs can distribute parallel actions across a group. This is a compact description, not a universal claim about everyone.",
+      "examples": [
+        {
+          "zh": "吃饭的吃饭，聊天的聊天，大家各做各的。",
+          "py": "chī fàn de chī fàn , liáo tiān de liáo tiān , dà jiā gè zuò gè de .",
+          "en": "Some eat, some chat; everyone does their own thing."
+        },
+        {
+          "zh": "准备的准备，休息的休息，没有一起开始。",
+          "py": "zhǔn bèi de zhǔn bèi , xiū xī de xiū xī , méi yǒu yì qǐ kāi shǐ .",
+          "en": "Some prepare and some rest; they do not all start together."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "吃饭的聊天，聊天的吃饭，所以是各做各的。",
+          "right": "吃饭的吃饭，聊天的聊天，大家各做各的。",
+          "why": "Repeat each activity in its own pair to describe separate ongoing groups."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u06-g04",
+      "pattern": "为的是…，不是…",
+      "purpose": "Clarify the aim of a limit",
+      "explanation": "The purpose clause names the intended aim; 不是 distinguishes it from a mistaken aim. The surrounding conduct should support the explanation.",
+      "examples": [
+        {
+          "zh": "先约时间，为的是能认真听，不是以后都不联系。",
+          "py": "xiān yuē shí jiān , wèi de shì néng rèn zhēn tīng , bù shì yǐ hòu dōu bù lián xì .",
+          "en": "Arranging a time is so I can listen properly, not stop contact altogether."
+        },
+        {
+          "zh": "写短一点，为的是说清问题，不是把心情藏起来。",
+          "py": "xiě duǎn yī diǎn , wèi de shì shuō qīng wèn tí , bù shì bǎ xīn qíng cáng qǐ lái .",
+          "en": "Writing a shorter version is to make the issue clear, not hide feelings."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先约时间，为的是不再联系，后面却说不是不再联系。",
+          "right": "先约时间，为的是能认真听，不是以后都不联系。",
+          "why": "Keep the stated purpose and the corrected assumption distinct rather than contradicting them."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u06-g05",
+      "pattern": "…得…",
+      "purpose": "Express a necessary action in speech",
+      "explanation": "得 pronounced děi means need to or must before a verb. Compare de after an adjective in a result or degree complement.",
+      "examples": [
+        {
+          "zh": "这个安排得改。",
+          "py": "zhè gè ān pái děi gǎi .",
+          "en": "This arrangement needs changing."
+        },
+        {
+          "zh": "你得先问有没有时间。",
+          "py": "nǐ děi xiān wèn yǒu méi yǒu shí jiān .",
+          "en": "You need to ask first whether there is time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这个安排改得。",
+          "right": "这个安排得改。",
+          "why": "For necessity, děi precedes the action 改; it is not a degree complement after it."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s5-u06-d",
+    "title": "想听，也得先约时间",
+    "titleZh": "想听，也得先约时间",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你昨晚没接，我是不是说太多了？",
+        "py": "nǐ zuó wǎn méi jiē , wǒ shì bú shì shuō tài duō le ?",
+        "en": "You didn’t answer last night. Had I been talking too much?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是只说昨晚。最近好几次都是十一点以后，我已经准备睡了。",
+        "py": "bù shì zhǐ shuō zuó wǎn . zuì jìn hǎo jǐ cì dōu shì shí yī diǎn yǐ hòu , wǒ yǐ jīng zhǔn bèi shuì le .",
+        "en": "It’s not just last night. Several recent calls were after eleven, when I was getting ready for bed.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我下班才有时间，白天又不方便。",
+        "py": "wǒ xià bān cái yǒu shí jiān , bái tiān yòu bù fāng biàn .",
+        "en": "I only have time after work, and daytime isn’t convenient.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我知道你工作时间晚，但我第二天要早起。",
+        "py": "wǒ zhī dào nǐ gōng zuò shí jiān wǎn , dàn wǒ dì èr tiān yào zǎo qǐ .",
+        "en": "I know you work late, but I have to get up early the next day.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那你以后都不想听了？",
+        "py": "nà nǐ yǐ hòu dōu bù xiǎng tīng le ?",
+        "en": "So you don’t want to listen anymore?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我没这样说。我是想把时间先约好，十一点以后就不聊了。",
+        "py": "wǒ méi zhè yàng shuō . wǒ shì xiǎng bǎ shí jiān xiān yuē hǎo , shí yī diǎn yǐ hòu jiù bù liáo le .",
+        "en": "That’s not what I said. I want to arrange a time first and not chat after eleven.",
+        "speaker": "b"
+      },
+      {
+        "zh": "可有时候到了晚上，我才知道自己想说什么。",
+        "py": "kě yǒu shí hou dào le wǎn shang , wǒ cái zhī dào zì jǐ xiǎng shuō shén me .",
+        "en": "But sometimes I only know what I want to say once evening comes.",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以先写给我，不用等我马上回。第二天我有空再看。",
+        "py": "kě yǐ xiān xiě gěi wǒ , bù yòng děng wǒ mǎ shàng huí . dì èr tiān wǒ yǒu kōng zài kàn .",
+        "en": "You can write it to me without waiting for an immediate reply. I’ll read it when free the next day.",
+        "speaker": "b"
+      },
+      {
+        "zh": "要是我就想打电话呢？",
+        "py": "yào shì wǒ jiù xiǎng dǎ diàn huà ne ?",
+        "en": "What if I want a call?",
+        "speaker": "a"
+      },
+      {
+        "zh": "那先问有没有时间。明晚九点，我可以聊二十分钟。",
+        "py": "nà xiān wèn yǒu méi yǒu shí jiān . míng wǎn jiǔ diǎn , wǒ kě yǐ liáo èr shí fēn zhōng .",
+        "en": "Then ask if I have time first. Tomorrow at nine I can talk for twenty minutes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "二十分钟会不会太短？",
+        "py": "èr shí fēn zhōng huì bù huì tài duǎn ?",
+        "en": "Won’t twenty minutes be too short?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对你可能短，对我已经要留出时间了。我不能每次都一直聊。",
+        "py": "duì nǐ kě néng duǎn , duì wǒ yǐ jīng yào liú chū shí jiān le . wǒ bù néng měi cì dōu yì zhí liáo .",
+        "en": "It may feel short to you, but I still need to make time for it. I can’t keep talking indefinitely every time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我有点失望，不过听懂了。",
+        "py": "hǎo , wǒ yǒu diǎn shī wàng , bù guò tīng dǒng le .",
+        "en": "Okay. I’m a little disappointed, but I understand.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我知道你会失望。我还是想和你联系，只是这个安排得改。",
+        "py": "wǒ zhī dào nǐ huì shī wàng . wǒ hái shi xiǎng hé nǐ lián xì , zhǐ shì zhè gè ān pái děi gǎi .",
+        "en": "I know you're disappointed. I still want to keep in touch; this arrangement needs changing.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那明晚先讲一件，别从整个月第一天开始。",
+        "py": "nà míng wǎn xiān jiǎng yī jiàn , bié cóng zhěng gè yuè dì yī tiān kāi shǐ .",
+        "en": "Then tomorrow I’ll start with one thing, not the first day of the whole month.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个主意不错，你上次讲到周二我就忘了周一。",
+        "py": "zhè gè zhǔ yì bù cuò , nǐ shàng cì jiǎng dào zhōu èr wǒ jiù wàng le zhōu yī .",
+        "en": "Good idea. Last time you reached Tuesday, I’d already forgotten Monday.",
+        "speaker": "b"
+      },
+      {
+        "zh": "行，我准备一个短版。到了时间你直接提醒我吧。",
+        "py": "xíng , wǒ zhǔn bèi yī gè duǎn bǎn . dào le shí jiān nǐ zhí jiē tí xǐng wǒ ba .",
+        "en": "Okay. I’ll prepare a short version. Remind me directly when time is up.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。没讲完的我们再找时间，不保证每天都有空。",
+        "py": "hǎo . méi jiǎng wán de wǒ men zài zhǎo shí jiān , bù bǎo zhèng měi tiān dōu yǒu kōng .",
+        "en": "Okay. We’ll find another time for what remains, but I can’t promise to be free every day.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is the proposed change?",
+        "choices": [
+          "Arrange calls and stop chatting after eleven",
+          "Never discuss anything again",
+          "Require daily unlimited calls"
+        ],
+        "answer": "Arrange calls and stop chatting after eleven"
+      },
+      {
+        "type": "detail",
+        "q": "What is offered for tomorrow evening?",
+        "choices": [
+          "Twenty minutes at nine",
+          "An entire night after eleven",
+          "No alternative at all"
+        ],
+        "answer": "Twenty minutes at nine"
+      },
+      {
+        "type": "inference",
+        "q": "Why clarify a time limit rather than merely say busy?",
+        "choices": [
+          "It makes the actual availability understandable",
+          "It proves one person never cares",
+          "It means the other person may not feel disappointed"
+        ],
+        "answer": "It makes the actual availability understandable"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s5-u06-r",
+    "title": "想听，也得先约时间",
+    "titleZh": "想听，也得先约时间",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "朋友换了新的工作，常常很晚才下班。我们原来每周见一次，现在见面少了，他就晚上打电话。最开始我很高兴，觉得他还愿意把生活里的事情告诉我。我也听他说新的同事、回家的路和白天没来得及吃的饭，没有把每一次电话都当成问题。",
+        "py": "péng you huàn le xīn de gōng zuò , cháng cháng hěn wǎn cái xià bān . wǒ men yuán lái měi zhōu jiàn yī cì , xiàn zài jiàn miàn shǎo le , tā jiù wǎn shang dǎ diàn huà . zuì kāi shǐ wǒ hěn gāo xìng , jué de tā hái yuàn yì bǎ shēng huó lǐ de shì qíng gào sù wǒ . wǒ yě tīng tā shuō xīn de tóng shì , huí jiā de lù hé bái tiān méi lái de jí chī de fàn , méi yǒu bǎ měi yī cì diàn huà dōu dàng chéng wèn tí .",
+        "en": "My friend changed jobs and often finished late. We used to meet weekly; now he called at night. At first I was pleased he still shared his life: colleagues, the journey home and missed meals. I didn’t treat every call as a problem."
+      },
+      {
+        "zh": "后来电话越来越晚，有几次过了十一点。第一次我想，只听一会儿就睡，可讲完已经过了十二点。第二天我早上有课，坐在那里总想闭眼睛。我没有把这些告诉他，只说最近忙，偶尔不接。他听见我说忙，就以为过几天会和以前一样，不知道我想改的是联系的时间。",
+        "py": "hòu lái diàn huà yuè lái yuè wǎn , yǒu jǐ cì guò le shí yī diǎn . dì yī cì wǒ xiǎng , zhǐ tīng yī huì er jiù shuì , kě jiǎng wán yǐ jīng guò le shí èr diǎn . dì èr tiān wǒ zǎo shàng yǒu kè , zuò zài nà lǐ zǒng xiǎng bì yǎn jīng . wǒ méi yǒu bǎ zhè xiē gào sù tā , zhǐ shuō zuì jìn máng , ǒu ěr bù jiē . tā tīng jiàn wǒ shuō máng , jiù yǐ wéi guò jǐ tiān huì hé yǐ qián yī yàng , bù zhī dào wǒ xiǎng gǎi de shì lián xì de shí jiān .",
+        "en": "The calls grew later, several after eleven. One supposed short chat lasted past midnight; I was sleepy in an early class next day. I only said I was busy and sometimes didn’t answer, without explaining the timing problem. He expected things to return to normal once I was less busy."
+      },
+      {
+        "zh": "一次我没接，第二天他问是不是自己说太多。我本来想再找一个理由，后来觉得这样会让他继续猜。我告诉他，十一点以后我不再接着聊，因为第二天要早起。这个时间是我的个人安排，不是规定朋友都必须一样，也不是说他的工作问题不重要。",
+        "py": "yī cì wǒ méi jiē , dì èr tiān tā wèn shì bú shì zì jǐ shuō tài duō . wǒ běn lái xiǎng zài zhǎo yī gè lǐ yóu , hòu lái jué de zhè yàng huì ràng tā jì xù cāi . wǒ gào sù tā , shí yī diǎn yǐ hòu wǒ bù zài jiē zhe liáo , yīn wèi dì èr tiān yào zǎo qǐ . zhè gè shí jiān shì wǒ de gè rén ān pái , bù shì guī dìng péng you dōu bì xū yī yàng , yě bù shì shuō tā de gōng zuò wèn tí bù zhòng yào .",
+        "en": "After an unanswered call he asked whether he’d talked too much. Rather than invent another excuse, I explained I wouldn’t keep chatting after eleven because I needed an early start. It was my own availability, not a rule for everyone or a claim his work problems didn’t matter."
+      },
+      {
+        "zh": "他有点失望，说下班以后才知道自己想讲什么。我听完，没有马上把安排收回，也没有说他不应该失望。我提出可以先发文字，不用等我马上回；想打电话就先问时间。明晚九点，我可以留出二十分钟。文字和电话都还可以，只是不能每次都由一个突然响起来的铃声决定。",
+        "py": "tā yǒu diǎn shī wàng , shuō xià bān yǐ hòu cái zhī dào zì jǐ xiǎng jiǎng shén me . wǒ tīng wán , méi yǒu mǎ shàng bǎ ān pái shōu huí , yě méi yǒu shuō tā bù yīng gāi shī wàng . wǒ tí chū kě yǐ xiān fā wén zì , bù yòng děng wǒ mǎ shàng huí ; xiǎng dǎ diàn huà jiù xiān wèn shí jiān . míng wǎn jiǔ diǎn , wǒ kě yǐ liú chū èr shí fēn zhōng . wén zì hé diàn huà dōu hái kě yǐ , zhǐ shì bù néng měi cì dōu yóu yī gè tū rán xiǎng qǐ lái de líng shēng jué dìng .",
+        "en": "He was disappointed, saying he often knew what to discuss only after work. I didn’t withdraw the limit or forbid the feeling. He could send writing without expecting an immediate reply, or ask about call availability. I offered twenty minutes at nine the next evening. Both methods remained possible, without an unexpected ring deciding every time."
+      },
+      {
+        "zh": "第二天九点前，他真的先发了一句，问九点还方便吗。我说方便，先问他最想讲哪件事。他选了和同事约时间的误会，没有从上个月第一天开始说。我们聊的时候，我仍然认真听，也问了自己不清楚的地方。二十分钟快到时，我提醒还有两分钟，他把最后的问题说完，我们就结束了。",
+        "py": "dì èr tiān jiǔ diǎn qián , tā zhēn de xiān fā le yī jù , wèn jiǔ diǎn hái fāng biàn ma . wǒ shuō fāng biàn , xiān wèn tā zuì xiǎng jiǎng nǎ jiàn shì . tā xuǎn le hé tóng shì yuē shí jiān de wù huì , méi yǒu cóng shàng gè yuè dì yī tiān kāi shǐ shuō . wǒ men liáo de shí hou , wǒ réng rán rèn zhēn tīng , yě wèn le zì jǐ bù qīng chǔ de dì fāng . èr shí fēn zhōng kuài dào shí , wǒ tí xǐng hái yǒu liǎng fēn zhōng , tā bǎ zuì hòu de wèn tí shuō wán , wǒ men jiù jié shù le .",
+        "en": "Before nine the next evening he checked whether nine still suited me. I asked which event mattered most; he chose a scheduling misunderstanding with a colleague rather than starting from the beginning of the previous month. I listened and asked questions. Two minutes before the limit I reminded him; he finished his question and we ended."
+      },
+      {
+        "zh": "挂电话以后，我发现自己没有像前几次那样一边听一边看钟。他也发来消息，说短一点反而容易说清楚。后来有一天我九点要外出，就提前告诉他，改到第二天。他回我说好，那先把今天的事写两句，明天打电话就不用从头想。我笑着回他，写两句可以，别把二十分钟都先发过来。",
+        "py": "guà diàn huà yǐ hòu , wǒ fā xiàn zì jǐ méi yǒu xiàng qián jǐ cì nà yàng yī biān tīng yī biān kàn zhōng . tā yě fā lái xiāo xī , shuō duǎn yī diǎn fǎn ér róng yì shuō qīng chǔ . hòu lái yǒu yī tiān wǒ jiǔ diǎn yào wài chū , jiù tí qián gào sù tā , gǎi dào dì èr tiān . tā huí wǒ shuō hǎo , nà xiān bǎ jīn tiān de shì xiě liǎng jù , míng tiān dǎ diàn huà jiù bù yòng cóng tóu xiǎng . wǒ xiào zhe huí tā , xiě liǎng jù kě yǐ , bié bǎ èr shí fēn zhōng dōu xiān fā guò lái .",
+        "en": "After the call I realised I hadn't kept watching the clock as before. He messaged that a shorter call made it easier to explain things. Later I had to go out at nine and suggested the next day. Fine: he'd write a couple of lines so we wouldn't have to reconstruct it tomorrow. Laughing, I said two lines were fine—just don't send the whole twenty minutes in advance."
+      },
+      {
+        "zh": "现在他打来，也会先问我最近怎么样。有一次我刚从课上回来，想说一个听错的笑话，他听完比我还笑得大声。快到二十分钟的时候，他说自己今天不赶时间，问我还想不想聊。我那天也有空，就接着说了一会儿。后来我们仍然会改时间，只是把消息提前发来，不用等对方已经准备睡觉才问。",
+        "py": "xiàn zài tā dǎ lái , yě huì xiān wèn wǒ zuì jìn zěn me yàng . yǒu yī cì wǒ gāng cóng kè shàng huí lái , xiǎng shuō yī gè tīng cuò de xiào huà , tā tīng wán bǐ wǒ hái xiào de dà shēng . kuài dào èr shí fēn zhōng de shí hou , tā shuō zì jǐ jīn tiān bù gǎn shí jiān , wèn wǒ hái xiǎng bù xiǎng liáo . wǒ nà tiān yě yǒu kōng , jiù jiē zhe shuō le yī huì er . hòu lái wǒ men réng rán huì gǎi shí jiān , zhǐ shì bǎ xiāo xī tí qián fā lái , bù yòng děng duì fāng yǐ jīng zhǔn bèi shuì jiào cái wèn .",
+        "en": "Now he asks how I've been too. Once, after class, I told him about something I'd misheard, and he laughed louder than I did. Near twenty minutes he said he wasn't in a hurry and asked if I wanted to keep talking. I was free too, so we did. We still sometimes change the time, but message ahead rather than waiting until the other person is ready for bed."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "铃声",
+        "pinyin": "líng shēng",
+        "meaning": "ringing sound"
+      },
+      {
+        "hanzi": "收回",
+        "pinyin": "shōu huí",
+        "meaning": "take back; withdraw"
+      },
+      {
+        "hanzi": "挂电话",
+        "pinyin": "guà diàn huà",
+        "meaning": "hang up a call"
+      },
+      {
+        "hanzi": "偶尔",
+        "pinyin": "ǒu ěr",
+        "meaning": "occasionally"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What improves after the discussion?",
+        "choices": [
+          "Contact continues with clearer timing and more mutual conversation",
+          "All difficult feelings vanish permanently",
+          "Every call becomes longer"
+        ],
+        "answer": "Contact continues with clearer timing and more mutual conversation"
+      },
+      {
+        "type": "detail",
+        "q": "When is the agreed call checked?",
+        "choices": [
+          "Before nine the next evening",
+          "Only after midnight",
+          "After the friend stops all work forever"
+        ],
+        "answer": "Before nine the next evening"
+      },
+      {
+        "type": "inference",
+        "q": "Why does one smooth call not settle everything?",
+        "choices": [
+          "Future availability can change and require another arrangement",
+          "The conversation never happened",
+          "The twenty-minute limit was secretly a test score"
+        ],
+        "answer": "Future availability can change and require another arrangement"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "一次我没接，第二天他问是不是自己说太多。我本来想再找一个理由，后来觉得这样会让他继续猜。我告诉他，十一点以后我不再接着聊，因为第二天要早起。这个时间是我的【个人】安排，不是规定朋友都必须一样，也不是说他的工作问题不重要。",
+          "py": "yī cì wǒ méi jiē , dì èr tiān tā wèn shì bú shì zì jǐ shuō tài duō . wǒ běn lái xiǎng zài zhǎo yī gè lǐ yóu , hòu lái jué de zhè yàng huì ràng tā jì xù cāi . wǒ gào sù tā , shí yī diǎn yǐ hòu wǒ bù zài jiē zhe liáo , yīn wèi dì èr tiān yào zǎo qǐ . zhè gè shí jiān shì wǒ de gè rén ān pái , bù shì guī dìng péng you dōu bì xū yī yàng , yě bù shì shuō tā de gōng zuò wèn tí bù zhòng yào .",
+          "en": "After an unanswered call he asked whether he’d talked too much. Rather than invent another excuse, I explained I wouldn’t keep chatting after eleven because I needed an early start. It was my own availability, not a rule for everyone or a claim his work problems didn’t matter."
+        },
+        {
+          "zh": "他有点【失望】，说下班以后才知道自己想讲什么。我听完，没有马上把安排收回，也没有说他不应该失望。我提出可以先发文字，不用等我马上回；想打电话就先问时间。明晚九点，我可以留出二十分钟。文字和电话都还可以，只是不能每次都由一个突然响起来的铃声决定。",
+          "py": "tā yǒu diǎn shī wàng , shuō xià bān yǐ hòu cái zhī dào zì jǐ xiǎng jiǎng shén me . wǒ tīng wán , méi yǒu mǎ shàng bǎ ān pái shōu huí , yě méi yǒu shuō tā bù yīng gāi shī wàng . wǒ tí chū kě yǐ xiān fā wén zì , bù yòng děng wǒ mǎ shàng huí ; xiǎng dǎ diàn huà jiù xiān wèn shí jiān . míng wǎn jiǔ diǎn , wǒ kě yǐ liú chū èr shí fēn zhōng . wén zì hé diàn huà dōu hái kě yǐ , zhǐ shì bù néng měi cì dōu yóu yī gè tū rán xiǎng qǐ lái de líng shēng jué dìng .",
+          "en": "He was disappointed, saying he often knew what to discuss only after work. I didn’t withdraw the limit or forbid the feeling. He could send writing without expecting an immediate reply, or ask about call availability. I offered twenty minutes at nine the next evening. Both methods remained possible, without an unexpected ring deciding every time."
+        }
+      ],
+      "bank": [
+        "个人",
+        "失望",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s5-u06-media",
+      "title": "The short version needs a question",
+      "titleZh": "The short version needs a question",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "短版准备好了？",
+          "py": "duǎn bǎn zhǔn bèi hǎo le ?",
+          "en": "Is your short version ready?",
+          "speaker": "a"
+        },
+        {
+          "zh": "好了，从今天下午开始。",
+          "py": "hǎo le , cóng jīn tiān xià wǔ kāi shǐ .",
+          "en": "Yes. It starts this afternoon.",
+          "speaker": "b"
+        },
+        {
+          "zh": "不错，不是从上个月开始。",
+          "py": "bù cuò , bù shì cóng shàng gè yuè kāi shǐ .",
+          "en": "Good. Not from the previous month.",
+          "speaker": "a"
+        },
+        {
+          "zh": "但你得先知道昨天发生了什么。",
+          "py": "dàn nǐ děi xiān zhī dào zuó tiān fā shēng le shén me .",
+          "en": "But first you need to know what happened yesterday.",
+          "speaker": "b"
+        },
+        {
+          "zh": "昨天需要讲多久？",
+          "py": "zuó tiān xū yào jiǎng duō jiǔ ?",
+          "en": "How long will yesterday take?",
+          "speaker": "a"
+        },
+        {
+          "zh": "一分钟。我写了三句话。",
+          "py": "yī fēn zhōng . wǒ xiě le sān jù huà .",
+          "en": "One minute. I wrote three sentences.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那可以。先说你最想问的。",
+          "py": "nà kě yǐ . xiān shuō nǐ zuì xiǎng wèn de .",
+          "en": "That works. Start with what you most want to ask.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我想问，别人说再看看，是还没决定吗？",
+          "py": "wǒ xiǎng wèn , bié ren shuō zài kàn kàn , shì hái méi jué dìng ma ?",
+          "en": "When someone says we’ll see, does that mean they haven’t decided?",
+          "speaker": "b"
+        },
+        {
+          "zh": "要听前后。你同事当时怎么说？",
+          "py": "yào tīng qián hòu . nǐ tóng shì dāng shí zěn me shuō ?",
+          "en": "It depends on context. What did your colleague say then?",
+          "speaker": "a"
+        },
+        {
+          "zh": "他说周五时间还没定，让我明天再问。",
+          "py": "tā shuō zhōu wǔ shí jiān hái méi dìng , ràng wǒ míng tiān zài wèn .",
+          "en": "He said Friday’s time wasn’t settled and asked me to check tomorrow.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那先按这句理解，不用猜已经答应了。",
+          "py": "nà xiān àn zhè jù lǐ jiě , bù yòng cāi yǐ jīng dā yìng le .",
+          "en": "Then use that statement for now; don’t assume he agreed already.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。短版里终于有一个问题了。",
+          "py": "hǎo . duǎn bǎn lǐ zhōng yú yǒu yī gè wèn tí le .",
+          "en": "Okay. My short version finally has a question in it.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "一分钟",
+          "pinyin": "yī fēn zhōng",
+          "meaning": "one minute"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What did the colleague say about Friday?",
+          "choices": [
+            "The time was not set and the caller should check tomorrow",
+            "Friday was confirmed permanently",
+            "The friend must answer after eleven"
+          ],
+          "answer": "The time was not set and the caller should check tomorrow"
+        },
+        {
+          "type": "inference",
+          "q": "What does the friend advise against assuming?",
+          "choices": [
+            "That an unsettled arrangement is already agreed",
+            "That the colleague mentioned Friday",
+            "That the caller can ask a question"
+          ],
+          "answer": "That an unsettled arrangement is already agreed"
+        }
+      ]
+    },
+    {
+      "id": "s5-u06-word-notebook",
+      "title": "Still friends, with a clearer limit: words in context",
+      "titleZh": "想听，也得先约时间 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "你不想说的部分，我会尊重。",
+          "py": "nǐ bù xiǎng shuō de bù fèn , wǒ huì zūn zhòng .",
+          "en": "I’ll respect the parts you don’t want to discuss."
+        },
+        {
+          "zh": "尊重他的决定，不等于必须同意他的所有想法。",
+          "py": "zūn zhòng tā de jué dìng , bù děng yú bì xū tóng yì tā de suǒ yǒu xiǎng fǎ .",
+          "en": "Respecting his decision doesn’t mean agreeing with all his ideas."
+        },
+        {
+          "zh": "你可以抱怨，不过我今天只能听一会儿。",
+          "py": "nǐ kě yǐ bào yuàn , bù guò wǒ jīn tiān zhǐ néng tīng yī huì er .",
+          "en": "You can complain, but I can only listen briefly today."
+        },
+        {
+          "zh": "她抱怨排队太久，但没有责怪店员。",
+          "py": "tā bào yuàn pái duì tài jiǔ , dàn méi yǒu zé guài diàn yuán .",
+          "en": "She complained about the long queue without blaming the staff."
+        },
+        {
+          "zh": "我有点无奈，不知道怎么把话接下去。",
+          "py": "wǒ yǒu diǎn wú nài , bù zhī dào zěn me bǎ huà jiē xià qù .",
+          "en": "I feel rather stuck and don’t know how to continue."
+        },
+        {
+          "zh": "他无奈地看着没接通的电话。",
+          "py": "tā wú nài de kàn zhe méi jiē tōng de diàn huà .",
+          "en": "He looked helplessly at the call that hadn’t connected."
+        },
+        {
+          "zh": "我想换个心态，不把每次没接电话都当成拒绝。",
+          "py": "wǒ xiǎng huàn gè xīn tài , bù bǎ měi cì méi jiē diàn huà dōu dàng chéng jù jué .",
+          "en": "I want to stop treating every unanswered call as rejection."
+        },
+        {
+          "zh": "心态变了，不代表问题马上解决。",
+          "py": "xīn tài biàn le , bù dài biǎo wèn tí mǎ shàng jiě jué .",
+          "en": "A changed mindset doesn’t mean the problem is solved immediately."
+        },
+        {
+          "zh": "这么晚打电话，是不是打扰你了？",
+          "py": "zhè me wǎn dǎ diàn huà , shì bú shì dǎ rǎo nǐ le ?",
+          "en": "Am I disturbing you by calling so late?"
+        },
+        {
+          "zh": "你先忙，我晚一点再来，不打扰了。",
+          "py": "nǐ xiān máng , wǒ wǎn yī diǎn zài lái , bù dǎ rǎo le .",
+          "en": "Carry on; I’ll come back later and leave you to it."
+        },
+        {
+          "zh": "这部分是私人的，我现在不想聊。",
+          "py": "zhè bù fèn shì sī rén de , wǒ xiàn zài bù xiǎng liáo .",
+          "en": "That part is personal; I don’t want to discuss it now."
+        },
+        {
+          "zh": "这是私人信件，先问本人再看。",
+          "py": "zhè shì sī rén xìn jiàn , xiān wèn běn rén zài kàn .",
+          "en": "It’s a private letter; ask its owner before reading it."
+        },
+        {
+          "zh": "她说得很平静，态度却很坚定。",
+          "py": "tā shuō de hěn píng jìng , tài dù què hěn jiān dìng .",
+          "en": "She spoke calmly, but her position was firm."
+        },
+        {
+          "zh": "我想坚定一点说清楚，不是提高声音。",
+          "py": "wǒ xiǎng jiān dìng yī diǎn shuō qīng chǔ , bù shì tí gāo shēng yīn .",
+          "en": "I want to state it firmly, not raise my voice."
+        },
+        {
+          "zh": "他委托我把资料带给同事。",
+          "py": "tā wěi tuō wǒ bǎ zī liào dài gěi tóng shì .",
+          "en": "He entrusted me to bring the materials to a colleague."
+        },
+        {
+          "zh": "这项工作不能没有问过就委托给别人。",
+          "py": "zhè xiàng gōng zuò bù néng méi yǒu wèn guò jiù wěi tuō gěi bié ren .",
+          "en": "You can’t assign this work to someone without asking."
+        },
+        {
+          "zh": "我们需要沟通时间，不只是沟通内容。",
+          "py": "wǒ men xū yào gōu tōng shí jiān , bù zhǐ shì gōu tōng nèi róng .",
+          "en": "We need to discuss timing as well as content."
+        },
+        {
+          "zh": "沟通以后，我才知道他没有听清。",
+          "py": "gōu tōng yǐ hòu , wǒ cái zhī dào tā méi yǒu tīng qīng .",
+          "en": "Only after talking did I learn he hadn’t heard clearly."
+        },
+        {
+          "zh": "我拒绝的是这个时间，不是以后都不见面。",
+          "py": "wǒ jù jué de shì zhè gè shí jiān , bù shì yǐ hòu dōu bú jiàn miàn .",
+          "en": "I’m declining this time, not all future meetings."
+        },
+        {
+          "zh": "她拒绝了邀请，也谢谢对方想到她。",
+          "py": "tā jù jué le yāo qǐng , yě xiè xiè duì fāng xiǎng dào tā .",
+          "en": "She declined the invitation and thanked them for thinking of her."
+        },
+        {
+          "zh": "他对这个话题很敏感，我们先不追问。",
+          "py": "tā duì zhè gè huà tí hěn mǐn gǎn , wǒ men xiān bù zhuī wèn .",
+          "en": "He's sensitive about this topic; let's not press him for now."
+        },
+        {
+          "zh": "她对声音很敏感，一点动静就能听见。",
+          "py": "tā duì shēng yīn hěn mǐn gǎn , yī diǎn dòng jìng jiù néng tīng jiàn .",
+          "en": "She is sensitive to sounds and can hear even a small noise."
+        },
+        {
+          "zh": "我想真诚地说明，不想随便找个理由。",
+          "py": "wǒ xiǎng zhēn chéng de shuō míng , bù xiǎng suí biàn zhǎo gè lǐ yóu .",
+          "en": "I want to explain sincerely rather than invent an excuse."
+        },
+        {
+          "zh": "她真诚地谢谢我听完，却没有要求我一定同意。",
+          "py": "tā zhēn chéng de xiè xiè wǒ tīng wán , què méi yǒu yāo qiú wǒ yí dìng tóng yì .",
+          "en": "She sincerely thanked me for listening without requiring agreement."
+        },
+        {
+          "zh": "我直接说今天只能聊二十分钟。",
+          "py": "wǒ zhí jiē shuō jīn tiān zhǐ néng liáo èr shí fēn zhōng .",
+          "en": "I said directly that I could talk for only twenty minutes today."
+        },
+        {
+          "zh": "你可以直接问我，不用让别人转告。",
+          "py": "nǐ kě yǐ zhí jiē wèn wǒ , bù yòng ràng bié ren zhuǎn gào .",
+          "en": "You can ask me directly without having someone pass it on."
+        },
+        {
+          "zh": "我理解你想说，但今天不方便。",
+          "py": "wǒ lǐ jiě nǐ xiǎng shuō , dàn jīn tiān bù fāng biàn .",
+          "en": "I understand you want to talk, but today isn’t convenient."
+        },
+        {
+          "zh": "我还没理解，你再举一个例子好吗？",
+          "py": "wǒ hái méi lǐ jiě , nǐ zài jǔ yī gè lì zi hǎo ma ?",
+          "en": "I haven’t understood yet; could you give another example?"
+        },
+        {
+          "zh": "听见不能继续聊，他有点失望。",
+          "py": "tīng jiàn bù néng jì xù liáo , tā yǒu diǎn shī wàng .",
+          "en": "He was a little disappointed we couldn’t keep talking."
+        },
+        {
+          "zh": "她失望了一会儿，后来又问有没有别的时间。",
+          "py": "tā shī wàng le yī huì er , hòu lái yòu wèn yǒu méi yǒu bié de shí jiān .",
+          "en": "After feeling disappointed briefly, she asked about another time."
+        },
+        {
+          "zh": "这是我的个人安排，不要求你一样。",
+          "py": "zhè shì wǒ de gè rén ān pái , bú yào qiú nǐ yī yàng .",
+          "en": "This is my own arrangement; I don’t expect yours to be identical."
+        },
+        {
+          "zh": "个人意见可以说，但别当成所有人的意见。",
+          "py": "gè rén yì jiàn kě yǐ shuō , dàn bié dàng chéng suǒ yǒu rén de yì jiàn .",
+          "en": "You can share a personal opinion, but don’t treat it as everyone’s view."
+        },
+        {
+          "zh": "这次我坚决不把睡前的时间再排满。",
+          "py": "zhè cì wǒ jiān jué bù bǎ shuì qián de shí jiān zài pái mǎn .",
+          "en": "This time I won’t fill the time before bed again."
+        },
+        {
+          "zh": "她坚决反对把没确认的消息发出去。",
+          "py": "tā jiān jué fǎn duì bǎ méi què rèn de xiāo xī fā chū qù .",
+          "en": "She firmly opposed sending out unconfirmed information."
+        },
+        {
+          "zh": "我想提一个请求，先问你有没有时间。",
+          "py": "wǒ xiǎng tí yī gè qǐng qiú , xiān wèn nǐ yǒu méi yǒu shí jiān .",
+          "en": "I’d like to ask something, but first whether you have time."
+        },
+        {
+          "zh": "这个请求太突然，他需要想一下。",
+          "py": "zhè gè qǐng qiú tài tū rán , tā xū yào xiǎng yī xià .",
+          "en": "The request came so suddenly he needed time to think."
+        },
+        {
+          "zh": "我愿意帮一部分，不能全部承担。",
+          "py": "wǒ yuàn yì bāng yī bù fèn , bù néng quán bù chéng dān .",
+          "en": "I’m willing to help with part, but can’t take on all of it."
+        },
+        {
+          "zh": "她承担了安排场地的工作。",
+          "py": "tā chéng dān le ān pái chǎng dì de gōng zuò .",
+          "en": "She took on arranging the venue."
+        },
+        {
+          "zh": "每天都等电话，对我成了负担。",
+          "py": "měi tiān dōu děng diàn huà , duì wǒ chéng le fù dān .",
+          "en": "Waiting for calls every day became a burden for me."
+        },
+        {
+          "zh": "把时间说清楚，减轻了双方的负担。",
+          "py": "bǎ shí jiān shuō qīng chǔ , jiǎn qīng le shuāng fāng de fù dān .",
+          "en": "Being clear about timing eased the burden for both."
+        },
+        {
+          "zh": "朋友的每一个决定，不都是我的责任。",
+          "py": "péng you de měi yī gè jué dìng , bù dōu shì wǒ de zé rèn .",
+          "en": "Not every decision a friend makes is my responsibility."
+        },
+        {
+          "zh": "整理共享的桌子，是我们一起的责任。",
+          "py": "zhěng lǐ gòng xiǎng de zhuō zi , shì wǒ men yì qǐ de zé rèn .",
+          "en": "Tidying the shared table is our joint responsibility."
+        },
+        {
+          "zh": "我能体会他一个人在外面的感觉。",
+          "py": "wǒ néng tǐ huì tā yī gè rén zài wài miàn de gǎn jué .",
+          "en": "I can understand how he feels alone away from home."
+        },
+        {
+          "zh": "这次以后，我才体会到等回复有多难。",
+          "py": "zhè cì yǐ hòu , wǒ cái tǐ huì dào děng huí fù yǒu duō nán .",
+          "en": "Only after this experience did I feel how hard waiting for a reply can be."
+        },
+        {
+          "zh": "他还在适应新的工作时间。",
+          "py": "tā hái zài shì yìng xīn de gōng zuò shí jiān .",
+          "en": "He’s still adapting to his new work schedule."
+        },
+        {
+          "zh": "我慢慢适应先约时间再聊天。",
+          "py": "wǒ màn màn shì yìng xiān yuē shí jiān zài liáo tiān .",
+          "en": "I’m getting used to arranging a time before chatting."
+        },
+        {
+          "zh": "我们想改善联系的方式，不是结束联系。",
+          "py": "wǒ men xiǎng gǎi shàn lián xì de fāng shì , bù shì jié shù lián xì .",
+          "en": "We want to improve how we keep in touch, not end contact."
+        },
+        {
+          "zh": "换个说法，可能改善气氛，却不能代替实际安排。",
+          "py": "huàn gè shuō fǎ , kě néng gǎi shàn qì fēn , què bù néng dài tì shí jì ān pái .",
+          "en": "Changing the phrasing may improve the atmosphere but can’t replace practical arrangements."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "双方",
+          "pinyin": "shuāng fāng",
+          "meaning": "both parties"
+        },
+        {
+          "hanzi": "责怪",
+          "pinyin": "zé guài",
+          "meaning": "blame"
+        },
+        {
+          "hanzi": "气氛",
+          "pinyin": "qì fēn",
+          "meaning": "atmosphere"
+        },
+        {
+          "hanzi": "转告",
+          "pinyin": "zhuǎn gào",
+          "meaning": "pass on a message"
+        },
+        {
+          "hanzi": "睡前",
+          "pinyin": "shuì qián",
+          "meaning": "before bed"
+        },
+        {
+          "hanzi": "接通",
+          "pinyin": "jiē tōng",
+          "meaning": "connect a call"
+        },
+        {
+          "hanzi": "动静",
+          "pinyin": "dòng jìng",
+          "meaning": "sound or movement; signs of activity"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s5-u06-paired-reading",
+      "title": "The friend who calls after work",
+      "titleZh": "The friend who calls after work",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我开始新工作以后，下班时间变晚，认识的人也少。坐车回去时想起白天的事，总觉得终于有时间讲了。朋友前几次都接电话，我就慢慢把这个时间当成我们共同方便的时间。其实我没有问过他第二天几点起，也没有看见电话另一边他是在坐着休息，还是已经准备睡觉。",
+          "py": "wǒ kāi shǐ xīn gōng zuò yǐ hòu , xià bān shí jiān biàn wǎn , rèn shi de rén yě shǎo . zuò chē huí qù shí xiǎng qǐ bái tiān de shì , zǒng jué de zhōng yú yǒu shí jiān jiǎng le . péng you qián jǐ cì dōu jiē diàn huà , wǒ jiù màn màn bǎ zhè gè shí jiān dàng chéng wǒ men gòng tóng fāng biàn de shí jiān . qí shí wǒ méi yǒu wèn guò tā dì èr tiān jǐ diǎn qǐ , yě méi yǒu kàn jiàn diàn huà lìng yī biān tā shì zài zuò zhe xiū xī , hái shi yǐ jīng zhǔn bèi shuì jiào .",
+          "en": "After starting a new job I finished late and knew few people. On the journey home I finally wanted to discuss the day. Because my friend answered the first calls, I gradually assumed that time suited us both. I hadn’t asked when he got up or whether he was relaxing or preparing for bed."
+        },
+        {
+          "zh": "后来有一次他没接，我有点难受，先想到是不是嫌我总抱怨。第二天问他，他没有说是，也没有只说忙，而是解释最近好几次过了十一点。我回想了一下，的确有一次一直讲到十二点以后。我当时觉得自己终于把话说完，没注意对方已经几次说第二天还要早起。",
+          "py": "hòu lái yǒu yī cì tā méi jiē , wǒ yǒu diǎn nán shòu , xiān xiǎng dào shì bú shì xián wǒ zǒng bào yuàn . dì èr tiān wèn tā , tā méi yǒu shuō shì , yě méi yǒu zhǐ shuō máng , ér shì jiě shì zuì jìn hǎo jǐ cì guò le shí yī diǎn . wǒ huí xiǎng le yī xià , dí què yǒu yī cì yì zhí jiǎng dào shí èr diǎn yǐ hòu . wǒ dāng shí jué de zì jǐ zhōng yú bǎ huà shuō wán , méi zhù yì duì fāng yǐ jīng jǐ cì shuō dì èr tiān hái yào zǎo qǐ .",
+          "en": "After an unanswered call I wondered whether he disliked my complaints. The next day he explained several calls had been after eleven. One had lasted past midnight. I’d been glad to finish my account and missed his repeated references to an early start."
+        },
+        {
+          "zh": "他说十一点以后不聊，我还追问是不是以后都不想听了。他说哪有，明天九点前先发消息就行，还问我记不记得他早上七点要出门。我这才想起，上次挂电话时已经快十二点，他第二天还给我发过一张车站的照片。我把手机往下翻了翻，看到那张照片，回他说好，明天早点问。",
+          "py": "tā shuō shí yī diǎn yǐ hòu bù liáo , wǒ hái zhuī wèn shì bú shì yǐ hòu dōu bù xiǎng tīng le . tā shuō nǎ yǒu , míng tiān jiǔ diǎn qián xiān fā xiāo xī jiù xíng , hái wèn wǒ jì bù jì de tā zǎo shàng qī diǎn yào chū mén . wǒ zhè cái xiǎng qǐ , shàng cì guà diàn huà shí yǐ jīng kuài shí èr diǎn , tā dì èr tiān huán gěi wǒ fā guò yī zhāng chē zhàn de zhào piān . wǒ bǎ shǒu jī wǎng xià fān le fān , kàn dào nà zhāng zhào piān , huí tā shuō hǎo , míng tiān zǎo diǎn wèn .",
+          "en": "When he said no calls after eleven, I asked whether he no longer wanted to listen at all. Of course he did—message before nine tomorrow. Didn't I remember he left at seven in the morning? Last time we'd ended nearly at midnight, and he'd sent a station photo the next day. Scrolling down to it, I replied that I'd ask earlier tomorrow."
+        },
+        {
+          "zh": "我还是觉得二十分钟短，却决定试一次。准备短版时，写了三行又删掉两行，发现自己连同事以前在哪上学都想讲。可这次要问的是明天下午怎么约时间，和那个没关系。我留下最不理解的一点，把日历放在手边。朋友回我九点方便，我看一眼纸，终于不用接通以后才想第一句怎么说。",
+          "py": "wǒ hái shi jué de èr shí fēn zhōng duǎn , què jué dìng shì yī cì . zhǔn bèi duǎn bǎn shí , xiě le sān xíng yòu shān diào liǎng xíng , fā xiàn zì jǐ lián tóng shì yǐ qián zài nǎ shàng xué dōu xiǎng jiǎng . kě zhè cì yào wèn de shì míng tiān xià wǔ zěn me yuē shí jiān , hé nà gè méi guān xì . wǒ liú xià zuì bù lǐ jiě de yī diǎn , bǎ rì lì fàng zài shǒu biān . péng you huí wǒ jiǔ diǎn fāng biàn , wǒ kàn yī yǎn zhǐ , zhōng yú bù yòng jiē tōng yǐ hòu cái xiǎng dì yī jù zěn me shuō .",
+          "en": "Twenty minutes still felt short, but I tried. I wrote three lines, deleted two, and noticed I'd even included where my colleague had gone to school. That had nothing to do with arranging tomorrow afternoon. I kept the point I couldn't understand and put the calendar nearby. When my friend confirmed nine, I looked at the paper: for once I knew my first sentence before connecting."
+        },
+        {
+          "zh": "九点前我先问他方便不方便，收到回复才打。我们聊的时候，他问了两个问题，我也更清楚自己想做什么。到了二十分钟，他说今天先到这里，我没有再加一句“还有最后一件”。以前这句常常又变成十分钟，这次我说好，谢谢你听，下次再讲。挂掉以后，事情不全解决，但我没有觉得自己被赶走。",
+          "py": "jiǔ diǎn qián wǒ xiān wèn tā fāng biàn bù fāng biàn , shōu dào huí fù cái dǎ . wǒ men liáo de shí hou , tā wèn le liǎng gè wèn tí , wǒ yě gèng qīng chǔ zì jǐ xiǎng zuò shén me . dào le èr shí fēn zhōng , tā shuō jīn tiān xiān dào zhè lǐ , wǒ méi yǒu zài jiā yī jù hái yǒu zuì hòu yī jiàn . yǐ qián zhè jù cháng cháng yòu biàn chéng shí fēn zhōng , zhè cì wǒ shuō hǎo , xiè xiè nǐ tīng , xià cì zài jiǎng . guà diào yǐ hòu , shì qíng bù quán jiě jué , dàn wǒ méi yǒu jué de zì jǐ bèi gǎn zǒu .",
+          "en": "I checked before nine and called after a reply. His questions helped clarify my next step. At twenty minutes I didn’t add one more thing, which used to become ten extra minutes. I thanked him and left the rest for another time. The problem wasn’t wholly solved, but I didn’t feel expelled."
+        },
+        {
+          "zh": "后来有一天他说要外出，不能按原来的时间聊，我有一点失望，但没有追问一定去哪里。我们改到第二天。我也开始把不急的事情写下来，有时写完自己就知道问题是什么，不需要每一件都打电话。有时还是想听他的声音，就先问什么时候方便，而不是只发一个电话过来。",
+          "py": "hòu lái yǒu yī tiān tā shuō yào wài chū , bù néng àn yuán lái de shí jiān liáo , wǒ yǒu yī diǎn shī wàng , dàn méi yǒu zhuī wèn yí dìng qù nǎ lǐ . wǒ men gǎi dào dì èr tiān . wǒ yě kāi shǐ bǎ bù jí de shì qíng xiě xià lái , yǒu shí xiě wán zì jǐ jiù zhī dào wèn tí shì shén me , bù xū yào měi yī jiàn dōu dǎ diàn huà . yǒu shí hái shi xiǎng tīng tā de shēng yīn , jiù xiān wèn shén me shí hou fāng biàn , ér bù shì zhǐ fā yī gè diàn huà guò lái .",
+          "en": "When he later had plans, I felt disappointed but didn’t demand his destination. We moved the call to the next day. I began writing non-urgent issues down; sometimes writing clarified them without a call. When I wanted his voice, I asked about availability rather than starting with a ringing phone."
+        },
+        {
+          "zh": "过了几天，他先讲起自己的课，说有个词怎么都记不住。我正想告诉他办法，又想到自己平时总等着别人听，先问他怎么练过。原来我们用的是同一本书，他那一页还有上次写错的笔记。我让他拍给我，两个人一边看一边笑。那天双方都有时间，就多聊了一会儿，直到他问我明天几点起床。",
+          "py": "guò le jǐ tiān , tā xiān jiǎng qǐ zì jǐ de kè , shuō yǒu gè cí zěn me dōu jì bù zhù . wǒ zhèng xiǎng gào sù tā bàn fǎ , yòu xiǎng dào zì jǐ píng shí zǒng děng zhe bié ren tīng , xiān wèn tā zěn me liàn guò . yuán lái wǒ men yòng de shì tóng yī běn shū , tā nà yī yè hái yǒu shàng cì xiě cuò de bǐ jì . wǒ ràng tā pāi gěi wǒ , liǎng gè rén yī biān kàn yī biān xiào . nà tiān shuāng fāng dōu yǒu shí jiān , jiù duō liáo le yī huì er , zhí dào tā wèn wǒ míng tiān jǐ diǎn qǐ chuáng .",
+          "en": "A few days later he told me about class and a word he couldn't remember. Instead of jumping in with advice, I asked how he'd practised. We used the same book, and his page still had an old mistaken note. He sent a photo; we laughed over it together. Both of us had time that day, so we talked longer, until he asked when I needed to get up tomorrow."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "双方",
+          "pinyin": "shuāng fāng",
+          "meaning": "both parties"
+        },
+        {
+          "hanzi": "准备睡觉",
+          "pinyin": "zhǔn bèi shuì jiào",
+          "meaning": "prepare for bed"
+        },
+        {
+          "hanzi": "藏起来",
+          "pinyin": "cáng qǐ lái",
+          "meaning": "hide away"
+        },
+        {
+          "hanzi": "限制",
+          "pinyin": "xiàn zhì",
+          "meaning": "limit; restriction"
+        },
+        {
+          "hanzi": "赶走",
+          "pinyin": "gǎn zǒu",
+          "meaning": "drive away"
+        },
+        {
+          "hanzi": "嫌",
+          "pinyin": "xián",
+          "meaning": "dislike; find something objectionable"
+        },
+        {
+          "hanzi": "不急",
+          "pinyin": "bù jí",
+          "meaning": "not urgent"
+        },
+        {
+          "hanzi": "删掉",
+          "pinyin": "shān diào",
+          "meaning": "delete; cross out"
+        },
+        {
+          "hanzi": "接通",
+          "pinyin": "jiē tōng",
+          "meaning": "connect a call"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What assumption does the caller revise?",
+          "choices": [
+            "Answering early calls did not mean every late time suited both people",
+            "A single answered call means unlimited availability forever",
+            "A calm limit can be ignored until it changes"
+          ],
+          "answer": "Answering early calls did not mean every late time suited both people"
+        },
+        {
+          "type": "detail",
+          "q": "What does the caller do when twenty minutes end?",
+          "choices": [
+            "Thanks the friend without adding another last thing",
+            "Keeps talking for another hour without asking",
+            "Demands an account of all future evenings"
+          ],
+          "answer": "Thanks the friend without adding another last thing"
+        },
+        {
+          "type": "inference",
+          "q": "What remains possible after the limit?",
+          "choices": [
+            "Longer chats when both have time",
+            "No more contact of any kind",
+            "Immediate solutions to every work problem"
+          ],
+          "answer": "Longer chats when both have time"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "后来有一次他没接，我有点难受，先想到是不是嫌我总【抱怨】。第二天问他，他没有说是，也没有只说忙，而是解释最近好几次过了十一点。我回想了一下，的确有一次一直讲到十二点以后。我当时觉得自己终于把话说完，没注意对方已经几次说第二天还要早起。",
+            "py": "hòu lái yǒu yī cì tā méi jiē , wǒ yǒu diǎn nán shòu , xiān xiǎng dào shì bú shì xián wǒ zǒng bào yuàn . dì èr tiān wèn tā , tā méi yǒu shuō shì , yě méi yǒu zhǐ shuō máng , ér shì jiě shì zuì jìn hǎo jǐ cì guò le shí yī diǎn . wǒ huí xiǎng le yī xià , dí què yǒu yī cì yì zhí jiǎng dào shí èr diǎn yǐ hòu . wǒ dāng shí jué de zì jǐ zhōng yú bǎ huà shuō wán , méi zhù yì duì fāng yǐ jīng jǐ cì shuō dì èr tiān hái yào zǎo qǐ .",
+            "en": "After an unanswered call I wondered whether he disliked my complaints. The next day he explained several calls had been after eleven. One had lasted past midnight. I’d been glad to finish my account and missed his repeated references to an early start."
+          },
+          {
+            "zh": "我还是觉得二十分钟短，却决定试一次。准备短版时，写了三行又删掉两行，发现自己连同事以前在哪上学都想讲。可这次要问的是明天下午怎么约时间，和那个没关系。我留下最不【理解】的一点，把日历放在手边。朋友回我九点方便，我看一眼纸，终于不用接通以后才想第一句怎么说。",
+            "py": "wǒ hái shi jué de èr shí fēn zhōng duǎn , què jué dìng shì yī cì . zhǔn bèi duǎn bǎn shí , xiě le sān xíng yòu shān diào liǎng xíng , fā xiàn zì jǐ lián tóng shì yǐ qián zài nǎ shàng xué dōu xiǎng jiǎng . kě zhè cì yào wèn de shì míng tiān xià wǔ zěn me yuē shí jiān , hé nà gè méi guān xì . wǒ liú xià zuì bù lǐ jiě de yī diǎn , bǎ rì lì fàng zài shǒu biān . péng you huí wǒ jiǔ diǎn fāng biàn , wǒ kàn yī yǎn zhǐ , zhōng yú bù yòng jiē tōng yǐ hòu cái xiǎng dì yī jù zěn me shuō .",
+            "en": "Twenty minutes still felt short, but I tried. I wrote three lines, deleted two, and noticed I'd even included where my colleague had gone to school. That had nothing to do with arranging tomorrow afternoon. I kept the point I couldn't understand and put the calendar nearby. When my friend confirmed nine, I looked at the paper: for once I knew my first sentence before connecting."
+          },
+          {
+            "zh": "后来有一天他说要外出，不能按原来的时间聊，我有一点【失望】，但没有追问一定去哪里。我们改到第二天。我也开始把不急的事情写下来，有时写完自己就知道问题是什么，不需要每一件都打电话。有时还是想听他的声音，就先问什么时候方便，而不是只发一个电话过来。",
+            "py": "hòu lái yǒu yī tiān tā shuō yào wài chū , bù néng àn yuán lái de shí jiān liáo , wǒ yǒu yī diǎn shī wàng , dàn méi yǒu zhuī wèn yí dìng qù nǎ lǐ . wǒ men gǎi dào dì èr tiān . wǒ yě kāi shǐ bǎ bù jí de shì qíng xiě xià lái , yǒu shí xiě wán zì jǐ jiù zhī dào wèn tí shì shén me , bù xū yào měi yī jiàn dōu dǎ diàn huà . yǒu shí hái shi xiǎng tīng tā de shēng yīn , jiù xiān wèn shén me shí hou fāng biàn , ér bù shì zhǐ fā yī gè diàn huà guò lái .",
+            "en": "When he later had plans, I felt disappointed but didn’t demand his destination. We moved the call to the next day. I began writing non-urgent issues down; sometimes writing clarified them without a call. When I wanted his voice, I asked about availability rather than starting with a ringing phone."
+          }
+        ],
+        "bank": [
+          "抱怨",
+          "理解",
+          "失望",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s5-u06-c",
+    "title": "Still friends, with a clearer limit",
+    "place": "A planned call between friends",
+    "context": "Several calls after eleven have become tiring; the friends clarify a twenty-minute call and later contact.",
+    "goal": "State when and how much conversation is possible",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "你以后都不想听了？",
+        "pinyin": "nǐ yǐ hòu dōu bù xiǎng tīng le ?",
+        "meaning": "Do you never want to listen again?",
+        "intent": "Correct a global interpretation",
+        "examples": [
+          "不是，我想先约时间，十一点以后就不聊了。"
+        ],
+        "accept": [
+          "^不是，我想先约时间，十一点以后就不聊了。[。！？]?$"
+        ]
+      },
+      {
+        "text": "今晚再聊一会儿不行吗？",
+        "pinyin": "jīn wǎn zài liáo yī huì er bù xíng ma ?",
+        "meaning": "Can’t we talk a little longer tonight?",
+        "intent": "State a limit and a concrete alternative",
+        "examples": [
+          "今晚不行，明晚九点可以聊二十分钟。"
+        ],
+        "accept": [
+          "^今晚不行，明晚九点可以聊二十分钟。[。！？]?$"
+        ]
+      },
+      {
+        "text": "我还是有点失望。",
+        "pinyin": "wǒ hái shi yǒu diǎn shī wàng .",
+        "meaning": "I’m still a little disappointed.",
+        "intent": "Acknowledge without changing the limit",
+        "examples": [
+          "我理解，也想继续联系，只是时间要先约好。"
+        ],
+        "accept": [
+          "^我理解，也想继续联系，只是时间要先约好。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Check availability",
+      "natural": {
+        "zh": "现在方便聊十分钟吗？",
+        "py": "xiàn zài fāng biàn liáo shí fēn zhōng ma ?",
+        "en": "Is now a good time for a ten-minute chat?"
+      },
+      "note": "A question is not already permission; follow the answer."
+    },
+    {
+      "situation": "Be clear at the end",
+      "natural": {
+        "zh": "今天先到这里，没说完的再找时间。",
+        "py": "jīn tiān xiān dào zhè lǐ , méi shuō wán de zài zhǎo shí jiān .",
+        "en": "Let’s stop here today and find another time for the rest."
+      },
+      "note": "A calm limit can be clear without being harsh."
+    },
+    {
+      "situation": "Keep a refusal specific",
+      "natural": {
+        "zh": "我今天没有时间，不是以后都不想聊。",
+        "py": "wǒ jīn tiān méi yǒu shí jiān , bù shì yǐ hòu dōu bù xiǎng liáo .",
+        "en": "I don’t have time today; it doesn’t mean never wanting to chat again."
+      },
+      "note": "Specify the actual constraint instead of leaving the other person to infer a permanent decision."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s5-u06-t01",
+      "phrase": "s5-u06-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我没这样说。我是想把时间先约好，十一点以后就不聊了。",
+        "py": "wǒ méi zhè yàng shuō . wǒ shì xiǎng bǎ shí jiān xiān yuē hǎo , shí yī diǎn yǐ hòu jiù bù liáo le .",
+        "en": "That’s not what I said. I want to arrange a time first and not chat after eleven."
+      },
+      "statement": "The speaker wants no contact ever again.",
+      "answer": false,
+      "why": "The stated change concerns arranging time and calls after eleven."
+    },
+    {
+      "id": "s5-u06-t02",
+      "phrase": "s5-u06-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "那先问有没有时间。明晚九点，我可以聊二十分钟。",
+        "py": "nà xiān wèn yǒu méi yǒu shí jiān . míng wǎn jiǔ diǎn , wǒ kě yǐ liáo èr shí fēn zhōng .",
+        "en": "Then ask if I have time first. Tomorrow at nine I can talk for twenty minutes."
+      },
+      "statement": "Tomorrow’s offer is twenty minutes at nine.",
+      "answer": true,
+      "why": "The time and duration are explicit."
+    },
+    {
+      "id": "s5-u06-t03",
+      "phrase": "s5-u06-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二天九点前，他真的先发了一句，问九点还方便吗。我说方便，先问他最想讲哪件事。他选了和同事约时间的误会，没有从上个月第一天开始说。我们聊的时候，我仍然认真听，也问了自己不清楚的地方。二十分钟快到时，我提醒还有两分钟，他把最后的问题说完，我们就结束了。",
+        "py": "dì èr tiān jiǔ diǎn qián , tā zhēn de xiān fā le yī jù , wèn jiǔ diǎn hái fāng biàn ma . wǒ shuō fāng biàn , xiān wèn tā zuì xiǎng jiǎng nǎ jiàn shì . tā xuǎn le hé tóng shì yuē shí jiān de wù huì , méi yǒu cóng shàng gè yuè dì yī tiān kāi shǐ shuō . wǒ men liáo de shí hou , wǒ réng rán rèn zhēn tīng , yě wèn le zì jǐ bù qīng chǔ de dì fāng . èr shí fēn zhōng kuài dào shí , wǒ tí xǐng hái yǒu liǎng fēn zhōng , tā bǎ zuì hòu de wèn tí shuō wán , wǒ men jiù jié shù le .",
+        "en": "Before nine the next evening he checked whether nine still suited me. I asked which event mattered most; he chose a scheduling misunderstanding with a colleague rather than starting from the beginning of the previous month. I listened and asked questions. Two minutes before the limit I reminded him; he finished his question and we ended."
+      },
+      "statement": "The friend adds another last item when time is up.",
+      "answer": false,
+      "why": "The question is finished and the call ends."
+    },
+    {
+      "id": "s5-u06-t04",
+      "phrase": "s5-u06-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "后来有一天他说要外出，不能按原来的时间聊，我有一点失望，但没有追问一定去哪里。我们改到第二天。我也开始把不急的事情写下来，有时写完自己就知道问题是什么，不需要每一件都打电话。有时还是想听他的声音，就先问什么时候方便，而不是只发一个电话过来。",
+        "py": "hòu lái yǒu yī tiān tā shuō yào wài chū , bù néng àn yuán lái de shí jiān liáo , wǒ yǒu yī diǎn shī wàng , dàn méi yǒu zhuī wèn yí dìng qù nǎ lǐ . wǒ men gǎi dào dì èr tiān . wǒ yě kāi shǐ bǎ bù jí de shì qíng xiě xià lái , yǒu shí xiě wán zì jǐ jiù zhī dào wèn tí shì shén me , bù xū yào měi yī jiàn dōu dǎ diàn huà . yǒu shí hái shi xiǎng tīng tā de shēng yīn , jiù xiān wèn shén me shí hou fāng biàn , ér bù shì zhǐ fā yī gè diàn huà guò lái .",
+        "en": "When he later had plans, I felt disappointed but didn’t demand his destination. We moved the call to the next day. I began writing non-urgent issues down; sometimes writing clarified them without a call. When I wanted his voice, I asked about availability rather than starting with a ringing phone."
+      },
+      "statement": "A changed evening is treated as proof of rejection.",
+      "answer": false,
+      "why": "They move the call to the next day instead."
+    },
+    {
+      "id": "s5-u06-t05",
+      "phrase": "s5-u06-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "你今天没空，明晚九点能聊二十分钟。现在方便聊吗？",
+        "py": "nǐ jīn tiān méi kōng , míng wǎn jiǔ diǎn néng liáo èr shí fēn zhōng . xiàn zài fāng biàn liáo ma ?",
+        "en": "You are busy today but offered twenty minutes tomorrow at nine. Is now convenient?"
+      },
+      "choices": [
+        "今天不行，明晚九点可以聊二十分钟。",
+        "今天可以，你刚才说今天有空。",
+        "明晚十点聊一个小时，和刚才说的一样。"
+      ],
+      "answer": "今天不行，明晚九点可以聊二十分钟。",
+      "why": "The reply gives an actual answer and alternative."
+    },
+    {
+      "id": "s5-u06-t06",
+      "phrase": "s5-u06-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "你说今天先结束，明晚再聊。我有点失望。",
+        "py": "nǐ shuō jīn tiān xiān jié shù , míng wǎn zài liáo . wǒ yǒu diǎn shī wàng .",
+        "en": "You said to end today and chat tomorrow. I am a little disappointed."
+      },
+      "choices": [
+        "我理解，不过今天还是先到这里。",
+        "那我收回刚才的安排，今晚继续到十二点。",
+        "我说的明晚，是以后都不再联系。"
+      ],
+      "answer": "我理解，不过今天还是先到这里。",
+      "why": "Acknowledge the feeling while retaining the stated limit."
+    },
+    {
+      "id": "s5-u06-t07",
+      "phrase": "s5-u06-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "他昨晚一次没接，还不知道原因。是不是不想做朋友了？",
+        "py": "tā zuó wǎn yī cì méi jiē , hái bù zhī dào yuán yīn . shì bú shì bù xiǎng zuò péng you le ?",
+        "en": "He missed one call last night, and we do not know why. Does he not want to be friends?"
+      },
+      "choices": [
+        "先问问原因，没接一次还不能确定。",
+        "已经问过了，他明确说以后不做朋友。",
+        "既然不知道原因，就已经确定是拒绝。"
+      ],
+      "answer": "先问问原因，没接一次还不能确定。",
+      "why": "One missed call does not establish a relationship decision."
+    },
+    {
+      "id": "s5-u06-t08",
+      "phrase": "s5-u06-w08",
+      "type": "listenfill",
+      "line": {
+        "zh": "这个安排【得】改。",
+        "py": "zhè gè ān pái děi gǎi .",
+        "en": "This arrangement needs changing."
+      },
+      "blankPy": "dé"
+    },
+    {
+      "id": "s5-u06-t09",
+      "phrase": "s5-u06-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "先约时间，【为的是】能认真听。",
+        "py": "xiān yuē shí jiān , wèi de shì néng rèn zhēn tīng .",
+        "en": "We arrange a time so I can listen properly."
+      },
+      "blankPy": "wèi de shì"
+    },
+    {
+      "id": "s5-u06-t10",
+      "phrase": "s5-u06-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "这么晚打电话，是不是【打扰】你了？",
+        "py": "zhè me wǎn dǎ diàn huà , shì bú shì dǎ rǎo nǐ le ?",
+        "en": "Am I disturbing you by calling so late?"
+      },
+      "blankPy": "dǎ rǎo"
+    },
+    {
+      "id": "s5-u06-t11",
+      "phrase": "s5-u06-w11",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I’ll respect the parts you don’t want to discuss.",
+          "right": {
+            "zh": "你不想说的部分，我会尊重。",
+            "py": "nǐ bù xiǎng shuō de bù fèn , wǒ huì zūn zhòng .",
+            "en": "I’ll respect the parts you don’t want to discuss."
+          }
+        },
+        {
+          "left": "Am I disturbing you by calling so late?",
+          "right": {
+            "zh": "这么晚打电话，是不是打扰你了？",
+            "py": "zhè me wǎn dǎ diàn huà , shì bú shì dǎ rǎo nǐ le ?",
+            "en": "Am I disturbing you by calling so late?"
+          }
+        },
+        {
+          "left": "That part is personal; I don’t want to discuss it now.",
+          "right": {
+            "zh": "这部分是私人的，我现在不想聊。",
+            "py": "zhè bù fèn shì sī rén de , wǒ xiàn zài bù xiǎng liáo .",
+            "en": "That part is personal; I don’t want to discuss it now."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u06-t12",
+      "phrase": "s5-u06-w12",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Only after talking did I learn he hadn’t heard clearly.",
+          "right": {
+            "zh": "沟通以后，我才知道他没有听清。",
+            "py": "gōu tōng yǐ hòu , wǒ cái zhī dào tā méi yǒu tīng qīng .",
+            "en": "Only after talking did I learn he hadn’t heard clearly."
+          }
+        },
+        {
+          "left": "She declined the invitation and thanked them for thinking of her.",
+          "right": {
+            "zh": "她拒绝了邀请，也谢谢对方想到她。",
+            "py": "tā jù jué le yāo qǐng , yě xiè xiè duì fāng xiǎng dào tā .",
+            "en": "She declined the invitation and thanked them for thinking of her."
+          }
+        },
+        {
+          "left": "She took on arranging the venue.",
+          "right": {
+            "zh": "她承担了安排场地的工作。",
+            "py": "tā chéng dān le ān pái chǎng dì de gōng zuò .",
+            "en": "She took on arranging the venue."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u06-t13",
+      "phrase": "s5-u06-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Waiting for calls every day became a burden for me.",
+          "right": {
+            "zh": "每天都等电话，对我成了负担。",
+            "py": "měi tiān dōu děng diàn huà , duì wǒ chéng le fù dān .",
+            "en": "Waiting for calls every day became a burden for me."
+          }
+        },
+        {
+          "left": "I can understand how he feels alone away from home.",
+          "right": {
+            "zh": "我能体会他一个人在外面的感觉。",
+            "py": "wǒ néng tǐ huì tā yī gè rén zài wài miàn de gǎn jué .",
+            "en": "I can understand how he feels alone away from home."
+          }
+        },
+        {
+          "left": "We want to improve how we keep in touch, not end contact.",
+          "right": {
+            "zh": "我们想改善联系的方式，不是结束联系。",
+            "py": "wǒ men xiǎng gǎi shàn lián xì de fāng shì , bù shì jié shù lián xì .",
+            "en": "We want to improve how we keep in touch, not end contact."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: calm firmness, acknowledgement of disappointment, 委托 workplace register, distribution pattern A的A B的B, and děi necessity versus de complement. The stated times are the fictional friends’ availability, not universal rules. A twenty-minute offer is not automatic permission for daily calls; the second account preserves continuing contact and adjustment. Chinese and English retellings avoid turning refusal of a time into refusal of the person.\n2026-10-08 advanced reading self-review: Replaced repeated statements about boundaries and inference in diary narrators with calendar checks, actual calls, everyday jokes and book-event actions. Kept formal meeting-time analysis where the text is genuinely a work account. Preserved half-hour travel, 8:30 departure/coat, nine/eleven call arrangement, twenty-minute trial, extra two-person ten minutes and display-only book facts. All old word/task/question IDs retained. Native flags: 塞得太满 schedule metaphor, 哪有 response strength, phone-call teasing and book-spoiler banter. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "扰",
+      "pinyin": "rǎo",
+      "meaning": "disturb",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "扰",
+          "role": "whole",
+          "gloss": "disturb"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 扰 in 打扰. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "打扰",
+          "p": "dǎ rǎo",
+          "m": "disturb; interrupt"
+        }
+      ]
+    },
+    {
+      "hanzi": "私",
+      "pinyin": "sī",
+      "meaning": "private; personal",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "私",
+          "role": "whole",
+          "gloss": "private; personal"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 私 in 私人. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "私人",
+          "p": "sī rén",
+          "m": "private; personal"
+        }
+      ]
+    },
+    {
+      "hanzi": "委",
+      "pinyin": "wěi",
+      "meaning": "entrust",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "委",
+          "role": "whole",
+          "gloss": "entrust"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 委 in 委托. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "委托",
+          "p": "wěi tuō",
+          "m": "entrust; commission"
+        }
+      ]
+    },
+    {
+      "hanzi": "托",
+      "pinyin": "tuō",
+      "meaning": "entrust; support",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "托",
+          "role": "whole",
+          "gloss": "entrust; support"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 托 in 委托. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "委托",
+          "p": "wěi tuō",
+          "m": "entrust; commission"
+        }
+      ]
+    },
+    {
+      "hanzi": "拒",
+      "pinyin": "jù",
+      "meaning": "refuse",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "拒",
+          "role": "whole",
+          "gloss": "refuse"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 拒 in 拒绝. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "拒绝",
+          "p": "jù jué",
+          "m": "refuse; reject"
+        }
+      ]
+    },
+    {
+      "hanzi": "敏",
+      "pinyin": "mǐn",
+      "meaning": "sensitive; quick",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "敏",
+          "role": "whole",
+          "gloss": "sensitive; quick"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 敏 in 敏感. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "敏感",
+          "p": "mǐn gǎn",
+          "m": "sensitive"
+        }
+      ]
+    }
+  ]
+}

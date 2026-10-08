@@ -6,6 +6,12 @@ $prefix = "output/gates/advanced-$Level-release"
 function Require-Exit([string]$Step) {
   if ($LASTEXITCODE -ne 0) { throw "$Step failed ($LASTEXITCODE)" }
 }
+# These already-authored changes clarify reading timelines and question support.
+# Accept their changed audio before shipping HSK 5, not in a later release.
+if ($Level -eq 5) {
+  & ./scripts/run-editorial-repairs.ps1 -FirstBatch 63 -LastBatch 63
+  Require-Exit 'HSK 5 connected-reading editorial acceptance'
+}
 $batches = switch ($Level) { 4 {39,40,41,51,52,53} 5 {42,43,44} 6 {45,46,47} }
 foreach ($batch in $batches) {
   $receipt = Get-Content -LiteralPath "output/gates/batch-$batch-final-receipt.json" -Raw | ConvertFrom-Json

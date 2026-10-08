@@ -3,6 +3,7 @@ import json,re
 from common import ROOT,read
 
 rows=[]
+return_terms=['还书','还笔','还回来','还的书','还给','还你','交还','还回去','还袋子','还的时候','还了没有','工具还了']
 for path in sorted((ROOT/'content/packs').glob('s*-u*.json')):
     pack=read(path)
     note=pack.get('notes','Native review pending.')
@@ -16,15 +17,17 @@ for path in sorted((ROOT/'content/packs').glob('s*-u*.json')):
             for child in value:walk(child)
     for field in ['grammar','dialogue','reading','extraReadings']:walk(pack.get(field))
     flagged=[line for line in candidates if any(term in line['zh'] for term in terms)
-             or any(term in line['zh'] for term in ['还书','还笔','还回来','还的书','还给','还你'])]
+             or any(term in line['zh'] for term in return_terms) or '得' in line['zh']]
     if not flagged:flagged=candidates[:2]
     seen=set()
     for line in flagged:
         if line['zh'] in seen:continue
         seen.add(line['zh'])
         return_note = (' Contextual 还 should be huán for returning an object; verify the actual recorded tone, not just the displayed pinyin.'
-                       if any(term in line['zh'] for term in ['还书','还笔','还回来','还的书','还给','还你']) else '')
-        rows.append(dict(unit=pack['unit']['id'],text=line['zh'],py=line['py'],en=line['en'],reason=note+return_note,status='native review pending'))
+                       if any(term in line['zh'] for term in return_terms) else '')
+        de_note = (' Contextual 得 has an editorial de/děi/dé distinction; verify the recorded syllable and connected tone. Speech transcription is not tone certification.'
+                   if '得' in line['zh'] else '')
+        rows.append(dict(unit=pack['unit']['id'],text=line['zh'],py=line['py'],en=line['en'],reason=note+return_note+de_note,status='native review pending'))
     for character in pack.get('characters',[]):
         if pack['unit']['hskTarget']['level']<4 and character['hanzi'] not in ['觉','兴','识','候']:continue
         rows.append(dict(unit=pack['unit']['id'],text=character['hanzi'],py=character['pinyin'],

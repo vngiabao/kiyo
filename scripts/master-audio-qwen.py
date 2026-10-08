@@ -24,7 +24,11 @@ read = lambda path: json.loads(path.read_text('utf-8'))
 
 def atomic(path, data):
     temp = path.with_suffix('.tmp')
-    temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n','utf-8')
+    # Large verification ledgers stay semantically complete without indentation.
+    compact = path.name.endswith('provenance.json')
+    temp.write_text(json.dumps(data,ensure_ascii=False,
+        indent=None if compact else 2,
+        separators=(',',':') if compact else None)+'\n','utf-8')
     temp.replace(path)
 
 def encode(signal, dest):

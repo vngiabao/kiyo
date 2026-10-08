@@ -17,6 +17,7 @@ import {
   defaultHskSettings,
   gradeRun,
   hskSpeech,
+  hskStudyWords,
   hskParticleContext,
   hskItems,
   hskItemById,
@@ -123,11 +124,7 @@ export default function Hsk({
   if (study) {
     const unit = units.find((u) => u.id === study)!;
     const items = hskItems.filter((q) => q.unit === study && q.level === s.level);
-    const words = [
-      ...new Map(
-        items.filter((q) => !q.format || q.format === "cloze").flatMap((q) => q.choices).map((c) => [c.zh, c]),
-      ).values(),
-    ];
+    const words = hskStudyWords(items);
     return (
       <section className="hsk-study">
         <button className="text-button" onClick={() => setStudy(null)}>

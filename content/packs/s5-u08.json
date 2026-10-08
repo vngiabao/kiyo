@@ -1,0 +1,1837 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s5-u08",
+    "stage": 3,
+    "order": 128,
+    "title": "A changed room, the same gathering",
+    "titleZh": "换房间，不是结束活动",
+    "canDo": [
+      "Coordinate an event change across several existing notices",
+      "Distinguish totals, included organisers and seats",
+      "Handle an interruption without losing ownership and participant choices"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 5
+    },
+    "prerequisites": [
+      "s5-u07",
+      "s5-u07-usage"
+    ],
+    "estimatedMinutes": 90
+  },
+  "vocabulary": [
+    {
+      "id": "s5-u08-w01",
+      "hanzi": "预备",
+      "pinyin": "yù bèi",
+      "meaning": "prepare; get ready",
+      "meaningVi": "chuẩn bị",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们预备了两个地点，最后还要确认。",
+        "py": "wǒ men yù bèi le liǎng gè dì diǎn , zuì hòu hái yào què rèn .",
+        "en": "We have prepared two possible venues but still need confirmation."
+      },
+      "usageNote": "[GF2021:L5:9952] Source entry: 预备; yùbèi; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w02",
+      "hanzi": "展览",
+      "pinyin": "zhǎn lǎn",
+      "meaning": "exhibition; exhibit",
+      "meaningVi": "triển lãm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "旁边有一个旧书封面的展览。",
+        "py": "páng biān yǒu yī gè jiù shū fēng miàn de zhǎn lǎn .",
+        "en": "There is an exhibition of old book covers beside us."
+      },
+      "usageNote": "[GF2021:L5:10227] Source entry: 展览; zhǎnlǎn; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w03",
+      "hanzi": "展示",
+      "pinyin": "zhǎn shì",
+      "meaning": "display; show",
+      "meaningVi": "trưng bày",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "先展示自己带的书，再说想换什么。",
+        "py": "xiān zhǎn shì zì jǐ dài de shū , zài shuō xiǎng huàn shén me .",
+        "en": "Show the books you brought first, then say what you want to exchange for."
+      },
+      "usageNote": "[GF2021:L5:10229] Source entry: 展示; zhǎnshì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w04",
+      "hanzi": "自愿",
+      "pinyin": "zì yuàn",
+      "meaning": "voluntarily; voluntary",
+      "meaningVi": "tự nguyện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "帮忙是自愿的，不是每个人都必须留下。",
+        "py": "bāng máng shì zì yuàn de , bù shì měi gè rén dōu bì xū liú xià .",
+        "en": "Helping is voluntary; not everyone has to stay."
+      },
+      "usageNote": "[GF2021:L5:10937] Source entry: 自愿; zìyuàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w05",
+      "hanzi": "负责人",
+      "pinyin": "fù zé rén",
+      "meaning": "person in charge",
+      "meaningVi": "người phụ trách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "换房间以前，先联系负责人。",
+        "py": "huàn fáng jiān yǐ qián , xiān lián xì fù zé rén .",
+        "en": "Contact the person in charge before changing rooms."
+      },
+      "usageNote": "[GF2021:L5:2495] Source entry: 负责人; fùzérén; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w06",
+      "hanzi": "暂停",
+      "pinyin": "zàn tíng",
+      "meaning": "pause; suspend temporarily",
+      "meaningVi": "tạm dừng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "换房间时，先暂停拿书。",
+        "py": "huàn fáng jiān shí , xiān zàn tíng ná shū .",
+        "en": "Pause taking books while we change rooms."
+      },
+      "usageNote": "[GF2021:L5:10135] Source entry: 暂停; zàntíng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w07",
+      "hanzi": "终止",
+      "pinyin": "zhōng zhǐ",
+      "meaning": "terminate; bring to an end",
+      "meaningVi": "chấm dứt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "通知说这次合作终止，不只是推迟。",
+        "py": "tōng zhī shuō zhè cì hé zuò zhōng zhǐ , bù zhǐ shì tuī chí .",
+        "en": "The notice says this cooperation is ended, not merely delayed."
+      },
+      "usageNote": "[GF2021:L5:10648] Source entry: 终止; zhōngzhǐ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w08",
+      "hanzi": "当场",
+      "pinyin": "dāng chǎng",
+      "meaning": "on the spot; then and there",
+      "meaningVi": "tại chỗ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他当场问清楚这本书能不能换。",
+        "py": "tā dāng chǎng wèn qīng chǔ zhè běn shū néng bù néng huàn .",
+        "en": "He checked on the spot whether this book could be exchanged."
+      },
+      "usageNote": "[GF2021:L5:1602] Source entry: 当场; dāngchǎng; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w09",
+      "hanzi": "等候",
+      "pinyin": "děng hòu",
+      "meaning": "wait",
+      "meaningVi": "chờ đợi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "请在桌子旁边等候，不要堵住门口。",
+        "py": "qǐng zài zhuō zi páng biān děng hòu , bú yào dǔ zhù mén kǒu .",
+        "en": "Please wait beside the table without blocking the entrance."
+      },
+      "usageNote": "[GF2021:L5:1718] Source entry: 等候; děnghòu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w10",
+      "hanzi": "分类",
+      "pinyin": "fēn lèi",
+      "meaning": "classify; sort into categories",
+      "meaningVi": "phân loại",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "书先按内容分类，不是按颜色。",
+        "py": "shū xiān àn nèi róng fēn lèi , bù shì àn yán sè .",
+        "en": "Sort the books by content first, not colour."
+      },
+      "usageNote": "[GF2021:L5:2342] Source entry: 分类; fēn∥lèi; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w11",
+      "hanzi": "分享",
+      "pinyin": "fēn xiǎng",
+      "meaning": "share",
+      "meaningVi": "chia sẻ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你可以分享读后的感想，不一定要讲完整故事。",
+        "py": "nǐ kě yǐ fēn xiǎng dú hòu de gǎn xiǎng , bù yí dìng yào jiǎng wán zhěng gù shì .",
+        "en": "You can share your impressions without telling the whole story."
+      },
+      "usageNote": "[GF2021:L5:2354] Source entry: 分享; fēnxiǎng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w12",
+      "hanzi": "发布",
+      "pinyin": "fā bù",
+      "meaning": "publish; release",
+      "meaningVi": "công bố",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "确认新房间以后，再发布公告。",
+        "py": "què rèn xīn fáng jiān yǐ hòu , zài fā bù gōng gào .",
+        "en": "Publish the notice after confirming the new room."
+      },
+      "usageNote": "[GF2021:L5:2126] Source entry: 发布; fābù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w13",
+      "hanzi": "公告",
+      "pinyin": "gōng gào",
+      "meaning": "public notice; announcement",
+      "meaningVi": "thông báo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "公告上有时间和具体房间。",
+        "py": "gōng gào shàng yǒu shí jiān hé jù tǐ fáng jiān .",
+        "en": "The notice has the time and exact room."
+      },
+      "usageNote": "[GF2021:L5:2780] Source entry: 公告; gōnggào; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w14",
+      "hanzi": "共计",
+      "pinyin": "gòng jì",
+      "meaning": "total; amount to",
+      "meaningVi": "tổng cộng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "报名共计二十八人，包括四位组织的人。",
+        "py": "bào míng gòng jì èr shí bā rén , bāo kuò sì wèi zǔ zhī de rén .",
+        "en": "Twenty-eight people registered in total, including four organisers."
+      },
+      "usageNote": "[GF2021:L5:2849] Source entry: 共计; gòngjì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w15",
+      "hanzi": "共享",
+      "pinyin": "gòng xiǎng",
+      "meaning": "share; shared access",
+      "meaningVi": "chia sẻ; dùng chung",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们用同一份共享名单，改过的内容大家能看到。",
+        "py": "wǒ men yòng tóng yī fèn gòng xiǎng míng dān , gǎi guò de nèi róng dà jiā néng kàn dào .",
+        "en": "We use one shared list so everyone can see changes."
+      },
+      "usageNote": "[GF2021:L5:2854] Source entry: 共享; gòngxiǎng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w16",
+      "hanzi": "附件",
+      "pinyin": "fù jiàn",
+      "meaning": "attachment",
+      "meaningVi": "tệp đính kèm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "地图在邮件附件里，不在正文里。",
+        "py": "dì tú zài yóu jiàn fù jiàn lǐ , bù zài zhèng wén lǐ .",
+        "en": "The map is in the email attachment, not the main text."
+      },
+      "usageNote": "[GF2021:L5:2501] Source entry: 附件; fùjiàn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w17",
+      "hanzi": "二维码",
+      "pinyin": "èr wéi mǎ",
+      "meaning": "QR code",
+      "meaningVi": "mã QR",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "扫这个二维码，可以看活动安排。",
+        "py": "sǎo zhè gè èr wéi mǎ , kě yǐ kàn huó dòng ān pái .",
+        "en": "Scan this QR code to view the event schedule."
+      },
+      "usageNote": "[GF2021:L5:2121] Source entry: 二维码; èrwéimǎ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w18",
+      "hanzi": "环节",
+      "pinyin": "huán jié",
+      "meaning": "stage; part of a process or event",
+      "meaningVi": "khâu; phần",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "交换以后还有分享环节。",
+        "py": "jiāo huàn yǐ hòu hái yǒu fēn xiǎng huán jié .",
+        "en": "There is a sharing session after the exchange."
+      },
+      "usageNote": "[GF2021:L5:3504] Source entry: 环节; huánjié; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w19",
+      "hanzi": "回收",
+      "pinyin": "huí shōu",
+      "meaning": "collect for reuse or recycling",
+      "meaningVi": "thu gom; tái chế",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "没有用上的纸，最后一起回收。",
+        "py": "méi yǒu yòng shàng de zhǐ , zuì hòu yì qǐ huí shōu .",
+        "en": "Collect the unused paper together at the end for reuse or recycling."
+      },
+      "usageNote": "[GF2021:L5:3575] Source entry: 回收; huíshōu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w20",
+      "hanzi": "更换",
+      "pinyin": "gēng huàn",
+      "meaning": "replace; change",
+      "meaningVi": "thay đổi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "房间更换了，时间不变。",
+        "py": "fáng jiān gēng huàn le , shí jiān bù biàn .",
+        "en": "The room has changed but the time remains the same."
+      },
+      "usageNote": "[GF2021:L5:2745] Source entry: 更换; gēnghuàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w21",
+      "hanzi": "递给",
+      "pinyin": "dì gěi",
+      "meaning": "hand to",
+      "meaningVi": "đưa cho",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "把这本书递给后面的朋友。",
+        "py": "bǎ zhè běn shū dì gěi hòu miàn de péng you .",
+        "en": "Hand this book to the friend behind you."
+      },
+      "usageNote": "[GF2021:L5:1790] Source entry: 递给; dì gěi; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w22",
+      "hanzi": "返回",
+      "pinyin": "fǎn huí",
+      "meaning": "return; go back",
+      "meaningVi": "quay lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "找不到新地方，就返回原来的门口看通知。",
+        "py": "zhǎo bù dào xīn dì fāng , jiù fǎn huí yuán lái de mén kǒu kàn tōng zhī .",
+        "en": "If you cannot find the new venue, go back to the original entrance and check the notice."
+      },
+      "usageNote": "[GF2021:L5:2225] Source entry: 返回; fǎnhuí; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w23",
+      "hanzi": "恢复",
+      "pinyin": "huī fù",
+      "meaning": "resume; restore",
+      "meaningVi": "khôi phục",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "桌子摆好以后，交换恢复了。",
+        "py": "zhuō zi bǎi hǎo yǐ hòu , jiāo huàn huī fù le .",
+        "en": "The exchange resumed after the tables were arranged."
+      },
+      "usageNote": "[GF2021:L5:3556] Source entry: 恢复; huīfù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u08-w24",
+      "hanzi": "干扰",
+      "pinyin": "gān rǎo",
+      "meaning": "interfere; disturbance",
+      "meaningVi": "gây nhiễu; làm phiền",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "搬东西的时候，别干扰旁边的活动。",
+        "py": "bān dōng xi de shí hou , bié gān rǎo páng biān de huó dòng .",
+        "en": "Avoid disturbing the neighbouring event while moving things."
+      },
+      "usageNote": "[GF2021:L5:2565] Source entry: 干扰; gānrǎo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s5-u08-g01",
+      "pattern": "除非…，才…",
+      "purpose": "Identify a necessary condition",
+      "explanation": "除非 pairs with 才 when the first clause supplies a necessary exception or condition. Compare 除非…否则, which states what happens without that exception.",
+      "examples": [
+        {
+          "zh": "除非房间确认了，我们才发新公告。",
+          "py": "chú fēi fáng jiān què rèn le , wǒ men cái fā xīn gōng gào .",
+          "en": "Only if the room is confirmed will we publish a new notice."
+        },
+        {
+          "zh": "除非本人愿意，这本书才可以拿来交换。",
+          "py": "chú fēi běn rén yuàn yì , zhè běn shū cái kě yǐ ná lái jiāo huàn .",
+          "en": "Only with the owner’s willingness can this book be offered for exchange."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除非房间确认了，我们才已经提前发完公告。",
+          "right": "除非房间确认了，我们才发新公告。",
+          "why": "The condition precedes the intended announcement, rather than describing one sent beforehand."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u08-g02",
+      "pattern": "从而…",
+      "purpose": "Connect an action to its intended or observed consequence",
+      "explanation": "从而 often joins cause and consequence in organised explanation. Distinguish an intended effect from one actually observed in the text.",
+      "examples": [
+        {
+          "zh": "我们把地图改好，从而减少找错房间的情况。",
+          "py": "wǒ men bǎ dì tú gǎi hǎo , cóng ér jiǎn shǎo zhǎo cuò fáng jiān de qíng kuàng .",
+          "en": "We update the map, thereby reducing wrong-room visits."
+        },
+        {
+          "zh": "他先问清楚，从而避免把展示的书拿走。",
+          "py": "tā xiān wèn qīng chǔ , cóng ér bì miǎn bǎ zhǎn shì de shū ná zǒu .",
+          "en": "By asking first he avoids taking a display-only book."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我们改了地图，从而证明所有人都看过。",
+          "right": "我们把地图改好，从而减少找错房间的情况。",
+          "why": "Changing the map does not prove that every person read it."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u08-g03",
+      "pattern": "一…，就…",
+      "purpose": "Connect a prompt response to an event",
+      "explanation": "The first event triggers the next action. The pattern can describe a habit or a future plan, so context establishes whether it happened already.",
+      "examples": [
+        {
+          "zh": "一确认房间，我就通知大家。",
+          "py": "yī què rèn fáng jiān , wǒ jiù tōng zhī dà jiā .",
+          "en": "As soon as the room is confirmed, I will notify everyone."
+        },
+        {
+          "zh": "他一看到新纸，就知道往哪里走。",
+          "py": "tā yī kàn dào xīn zhǐ , jiù zhī dào wǎng nǎ lǐ zǒu .",
+          "en": "As soon as he sees the new paper, he knows where to go."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一确认房间，我就通知了大家，所以现在房间还从没确认。",
+          "right": "一确认房间，我就通知大家。",
+          "why": "A planned response is not an already completed notification."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u08-g04",
+      "pattern": "或是…",
+      "purpose": "Offer another possibility in a statement",
+      "explanation": "或是 links alternatives in a statement. Use 还是 for a question asking the listener to choose between stated alternatives.",
+      "examples": [
+        {
+          "zh": "你可以介绍一本，或是先听别人讲。",
+          "py": "nǐ kě yǐ jiè shào yī běn , huò shì xiān tīng bié ren jiǎng .",
+          "en": "You can introduce a book or first listen to others."
+        },
+        {
+          "zh": "我们可以发邮件，或是当面告诉他。",
+          "py": "wǒ men kě yǐ fā yóu jiàn , huò shì dāng miàn gào sù tā .",
+          "en": "We can email or tell him in person."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你想介绍一本或是先听？",
+          "right": "你想介绍一本还是先听？",
+          "why": "An alternatives question normally uses 还是 to request the choice."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u08-g05",
+      "pattern": "共计…，包括…",
+      "purpose": "Give a total and a included subset",
+      "explanation": "共计 signals the total. 包括 identifies members already within that total; do not add them again without an explicit separate count.",
+      "examples": [
+        {
+          "zh": "共计二十八人，包括四位组织的人。",
+          "py": "gòng jì èr shí bā rén , bāo kuò sì wèi zǔ zhī de rén .",
+          "en": "Twenty-eight people in total, including four organisers."
+        },
+        {
+          "zh": "共计十本，包括两本字典。",
+          "py": "gòng jì shí běn , bāo kuò liǎng běn zì diǎn .",
+          "en": "Ten books in total, including two dictionaries."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "共计二十八人，包括四位，所以一共三十二人。",
+          "right": "共计二十八人，包括四位组织的人。",
+          "why": "The four are included in twenty-eight, not additional people."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s5-u08-d",
+    "title": "换房间，不是结束活动",
+    "titleZh": "换房间，不是结束活动",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "周六的旧书交换，还有什么没确认？",
+        "py": "zhōu liù de jiù shū jiāo huàn , hái yǒu shén me méi què rèn ?",
+        "en": "What is still unconfirmed for Saturday’s book exchange?",
+        "speaker": "a"
+      },
+      {
+        "zh": "房间。原来订的二楼房间要维修，负责人说可以换到一楼。",
+        "py": "fáng jiān . yuán lái dìng de èr lóu fáng jiān yào wéi xiū , fù zé rén shuō kě yǐ huàn dào yī lóu .",
+        "en": "The room. The original upstairs room needs repairs; the organiser says we can move downstairs.",
+        "speaker": "b"
+      },
+      {
+        "zh": "一楼那个有多大？我们共计二十八人呢。",
+        "py": "yī lóu nà gè yǒu duō dà ? wǒ men gòng jì èr shí bā rén ne .",
+        "en": "How big is the downstairs one? We have twenty-eight people in total.",
+        "speaker": "a"
+      },
+      {
+        "zh": "能进三十个人，座位只有二十四个。四个负责的人不用一直坐。",
+        "py": "néng jìn sān shí gè rén , zuò wèi zhǐ yǒu èr shí sì gè . sì gè fù zé de rén bù yòng yì zhí zuò .",
+        "en": "It holds thirty people but has twenty-four seats. The four organisers don’t need to sit throughout.",
+        "speaker": "b"
+      },
+      {
+        "zh": "二十八已经包括我们四个，对吧？",
+        "py": "èr shí bā yǐ jīng bāo kuò wǒ men sì gè , duì ba ?",
+        "en": "The twenty-eight already includes the four of us, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。不是二十八再加四个。名单里都写了。",
+        "py": "duì . bù shì èr shí bā zài jiā sì gè . míng dān lǐ dōu xiě le .",
+        "en": "Right. Not twenty-eight plus four; the list includes us.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那先确认新房间，再发公告。别还没定就让大家找。",
+        "py": "nà xiān què rèn xīn fáng jiān , zài fā gōng gào . bié hái méi dìng jiù ràng dà jiā zhǎo .",
+        "en": "Then confirm the new room before announcing it. Don’t send everyone looking before it’s settled.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我今天下午问。确认以后，把邮件附件里的地图也改掉。",
+        "py": "wǒ jīn tiān xià wǔ wèn . què rèn yǐ hòu , bǎ yóu jiàn fù jiàn lǐ de dì tú yě gǎi diào .",
+        "en": "I’ll ask this afternoon, then update the map in the email attachment.",
+        "speaker": "b"
+      },
+      {
+        "zh": "门口那张纸呢？有些人可能只看了原来的安排。",
+        "py": "mén kǒu nà zhāng zhǐ ne ? yǒu xiē rén kě néng zhǐ kàn le yuán lái de ān pái .",
+        "en": "And the paper at the entrance? Some may have seen only the old plan.",
+        "speaker": "a"
+      },
+      {
+        "zh": "也换。我在原来的门口等半小时，告诉来的人往哪里走。",
+        "py": "yě huàn . wǒ zài yuán lái de mén kǒu děng bàn xiǎo shí , gào sù lái de rén wǎng nǎ lǐ zǒu .",
+        "en": "Replace it too. I’ll wait at the original entrance for half an hour to give directions.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你一个人等，搬书谁帮？",
+        "py": "nǐ yī gè rén děng , bān shū shéi bāng ?",
+        "en": "If you’re waiting alone, who helps move the books?",
+        "speaker": "a"
+      },
+      {
+        "zh": "另外三个人先搬。我进去以后，再准备分享环节。",
+        "py": "lìng wài sān gè rén xiān bān . wǒ jìn qù yǐ hòu , zài zhǔn bèi fēn xiǎng huán jié .",
+        "en": "The other three move them first. When I join them, I’ll prepare the sharing session.",
+        "speaker": "b"
+      },
+      {
+        "zh": "每个人都要上去讲吗？",
+        "py": "měi gè rén dōu yào shàng qù jiǎng ma ?",
+        "en": "Does everyone have to speak at the front?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用，自愿。想听的可以一直听，不影响换书。",
+        "py": "bù yòng , zì yuàn . xiǎng tīng de kě yǐ yì zhí tīng , bù yǐng xiǎng huàn shū .",
+        "en": "No, it’s voluntary. People can just listen and still exchange books.",
+        "speaker": "b"
+      },
+      {
+        "zh": "要是换房间时已经有人拿书呢？",
+        "py": "yào shì huàn fáng jiān shí yǐ jīng yǒu rén ná shū ne ?",
+        "en": "What if people are already taking books when we move rooms?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先暂停，问清楚是谁的、换好了没有，再一起搬。",
+        "py": "xiān zàn tíng , wèn qīng chǔ shì shéi de , huàn hǎo le méi yǒu , zài yì qǐ bān .",
+        "en": "Pause first, check ownership and whether exchanges are agreed, then move them together.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好。我们是在换地方，不是在把书全换成自己的。",
+        "py": "hǎo . wǒ men shì zài huàn dì fāng , bù shì zài bǎ shū quán huàn chéng zì jǐ de .",
+        "en": "Okay. We are changing rooms, not making every book our own.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个提醒给你自己吧，你上次拿着别人的书讲了十分钟。",
+        "py": "zhè gè tí xǐng gěi nǐ zì jǐ ba , nǐ shàng cì ná zhe bié ren de shū jiǎng le shí fēn zhōng .",
+        "en": "Keep that reminder for yourself. Last time you talked for ten minutes holding someone else’s book.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "维修",
+        "pinyin": "wéi xiū",
+        "meaning": "maintenance; repair"
+      },
+      {
+        "hanzi": "座位",
+        "pinyin": "zuò wèi",
+        "meaning": "seat"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What must be confirmed before the new announcement?",
+        "choices": [
+          "The downstairs room",
+          "That every guest will volunteer",
+          "That all books have been donated"
+        ],
+        "answer": "The downstairs room"
+      },
+      {
+        "type": "detail",
+        "q": "How are the four organisers counted?",
+        "choices": [
+          "Already included in the twenty-eight",
+          "Added to twenty-eight to make thirty-two",
+          "Not counted in any total"
+        ],
+        "answer": "Already included in the twenty-eight"
+      },
+      {
+        "type": "inference",
+        "q": "Why keep a person at the old entrance?",
+        "choices": [
+          "Some guests may have only the original location",
+          "No written directions are possible",
+          "It means the new venue was cancelled"
+        ],
+        "answer": "Some guests may have only the original location"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s5-u08-r",
+    "title": "换房间，不是结束活动",
+    "titleZh": "换房间，不是结束活动",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "这次旧书交换原来安排在周六下午两点，二楼的小房间。周四我们收到通知，房间要维修，可以申请换到一楼。四个组织的人先核对名单：共计二十八人，已经包括我们四个，不是另外还有二十八位参加者。一楼能进三十人，但只有二十四个座位，这个区别也要说清楚，不能只看大的数字就答应所有新请求。",
+        "py": "zhè cì jiù shū jiāo huàn yuán lái ān pái zài zhōu liù xià wǔ liǎng diǎn , èr lóu de xiǎo fáng jiān . zhōu sì wǒ men shōu dào tōng zhī , fáng jiān yào wéi xiū , kě yǐ shēn qǐng huàn dào yī lóu . sì gè zǔ zhī de rén xiān hé duì míng dān : gòng jì èr shí bā rén , yǐ jīng bāo kuò wǒ men sì gè , bù shì lìng wài hái yǒu èr shí bā wèi cān jiā zhě . yī lóu néng jìn sān shí rén , dàn zhǐ yǒu èr shí sì gè zuò wèi , zhè gè qū bié yě yào shuō qīng chǔ , bù néng zhǐ kàn dà de shù zì jiù dā yìng suǒ yǒu xīn qǐng qiú .",
+        "en": "The book exchange was planned for Saturday at two in an upstairs room. On Thursday repairs led to an offer to apply for the downstairs room. Our total registration was twenty-eight, including four organisers, not twenty-eight guests plus four. The downstairs room held thirty but had twenty-four seats; we needed to distinguish capacity from seating rather than use the larger number for every request."
+      },
+      {
+        "zh": "当天我联系负责人，确认一楼房间能用到四点，桌子和座位可以留下。交换时大家会走动，分享时参加的二十四个人可以坐，组织的人不用一直坐着。得到确认以后，我才发布新的公告，写清时间不变、房间更换。我也打开邮件附件里的地图，把原来指向二楼的箭头改到一楼，免得文字说一楼，地图还叫人上楼。",
+        "py": "dàng tiān wǒ lián xì fù zé rén , què rèn yī lóu fáng jiān néng yòng dào sì diǎn , zhuō zi hé zuò wèi kě yǐ liú xià . jiāo huàn shí dà jiā huì zǒu dòng , fēn xiǎng shí cān jiā de èr shí sì gè rén kě yǐ zuò , zǔ zhī de rén bù yòng yì zhí zuò zhe . dé dào què rèn yǐ hòu , wǒ cái fā bù xīn de gōng gào , xiě qīng shí jiān bù biàn , fáng jiān gēng huàn . wǒ yě dǎ kāi yóu jiàn fù jiàn lǐ de dì tú , bǎ yuán lái zhǐ xiàng èr lóu de jiàn tóu gǎi dào yī lóu , miǎn de wén zì shuō yī lóu , dì tú hái jiào rén shàng lóu .",
+        "en": "I confirmed the room was available until four, with tables and seats retained. Guests could circulate during exchange and the twenty-four participants sit during sharing; organisers needn’t sit throughout. Only then did I announce the unchanged time and new room, also correcting the email map so its arrow no longer directed people upstairs."
+      },
+      {
+        "zh": "另外一位朋友检查二维码，发现扫出来还是旧安排。原来改了邮件，并不会让那张网页自己改变。我们把网页也改好，又用两部手机各看一次。我用自己的手机试了一次，又请旁边的朋友试，看到的都是新房间了。有位老人说他没有带手机，我把门口的纸给他看，指了指小厅的方向。他说原来就在隔壁，那不用回家拿手机了。",
+        "py": "lìng wài yī wèi péng you jiǎn chá èr wéi mǎ , fā xiàn sǎo chū lái hái shi jiù ān pái . yuán lái gǎi le yóu jiàn , bìng bù huì ràng nà zhāng wǎng yè zì jǐ gǎi biàn . wǒ men bǎ wǎng yè yě gǎi hǎo , yòu yòng liǎng bù shǒu jī gè kàn yī cì . wǒ yòng zì jǐ de shǒu jī shì le yī cì , yòu qǐng páng biān de péng you shì , kàn dào de dōu shì xīn fáng jiān le . yǒu wèi lǎo rén shuō tā méi yǒu dài shǒu jī , wǒ bǎ mén kǒu de zhǐ gěi tā kàn , zhǐ le zhǐ xiǎo tīng de fāng xiàng . tā shuō yuán lái jiù zài gé bì , nà bù yòng huí jiā ná shǒu jī le .",
+        "en": "Another friend found that the QR code still opened the old schedule. Editing the email had not changed the webpage. We updated it and tried two phones; both now showed the new room. An older visitor had not brought a phone, so I showed him the paper notice and pointed towards the small hall. He was pleased it was next door: he would not need to go home for his phone."
+      },
+      {
+        "zh": "周六一点半，我站在原来的门口等了半小时，另外三个人先搬书。一个早到的人拿来两本，还没说好换什么，就把书放在桌上。我请大家先暂停拿书，把已经说好交换的和只是展示的分开。他问是不是活动终止了，我说没有，只是先把书和位置弄清楚，一楼摆好就恢复，开始时间仍然是两点。",
+        "py": "zhōu liù yī diǎn bàn , wǒ zhàn zài yuán lái de mén kǒu děng le bàn xiǎo shí , lìng wài sān gè rén xiān bān shū . yī gè zǎo dào de rén ná lái liǎng běn , hái méi shuō hǎo huàn shén me , jiù bǎ shū fàng zài zhuō shàng . wǒ qǐng dà jiā xiān zàn tíng ná shū , bǎ yǐ jīng shuō hǎo jiāo huàn de hé zhǐ shì zhǎn shì de fēn kāi . tā wèn shì bú shì huó dòng zhōng zhǐ le , wǒ shuō méi yǒu , zhǐ shì xiān bǎ shū hé wèi zhì nòng qīng chǔ , yī lóu bǎi hǎo jiù huī fù , kāi shǐ shí jiān réng rán shì liǎng diǎn .",
+        "en": "From 1:30 Saturday I waited at the old entrance for half an hour while three organisers moved books. An early arrival placed two books down before agreeing an exchange. We paused taking books and separated agreed exchanges from displays. I clarified this wasn’t cancellation: we’d resume once arranged downstairs, still starting at two."
+      },
+      {
+        "zh": "两点以后，大家陆续到一楼。有个人说没有看新邮件，只按原来记住的二楼找，后来在门口看到纸才下来。这样的人不是没认真准备，有可能他确认过原来的信息以后，就没有再打开。我们给他指了展示书的位置，没有让他先证明看过通知，也没有把找错房间当成不能参加的理由。",
+        "py": "liǎng diǎn yǐ hòu , dà jiā lù xù dào yī lóu . yǒu gè rén shuō méi yǒu kàn xīn yóu jiàn , zhǐ àn yuán lái jì zhù de èr lóu zhǎo , hòu lái zài mén kǒu kàn dào zhǐ cái xià lái . zhè yàng de rén bù shì méi rèn zhēn zhǔn bèi , yǒu kě néng tā què rèn guò yuán lái de xìn xī yǐ hòu , jiù méi yǒu zài dǎ kāi . wǒ men gěi tā zhǐ le zhǎn shì shū de wèi zhì , méi yǒu ràng tā xiān zhèng míng kàn guò tōng zhī , yě méi yǒu bǎ zhǎo cuò fáng jiān dàng chéng bù néng cān jiā de lǐ yóu .",
+        "en": "After two, people arrived downstairs. One had remembered upstairs from the original information, finding the paper only later. Having checked earlier, he might simply not have reopened the email. We showed him the display table without demanding proof he’d read the update or treating the wrong room as disqualification."
+      },
+      {
+        "zh": "交换环节，有人把语言词典放在做菜的书旁边，因为封面画了苹果。我们笑了一下，再打开看内容，把它放回学习语言那边。展示封面的区域确实在旁边，他把两种分类混在一起了。他问原来展示封面的是另一张桌子啊，我指给他看，他点点头，把那本词典拿回语言类，又帮旁边的人递了两本书。",
+        "py": "jiāo huàn huán jié , yǒu rén bǎ yǔ yán cí diǎn fàng zài zuò cài de shū páng biān , yīn wèi fēng miàn huà le píng guǒ . wǒ men xiào le yī xià , zài dǎ kāi kàn nèi róng , bǎ tā fàng huí xué xí yǔ yán nà biān . zhǎn shì fēng miàn de qū yù què shí zài páng biān , tā bǎ liǎng zhǒng fēn lèi hùn zài yì qǐ le . tā wèn yuán lái zhǎn shì fēng miàn de shì lìng yī zhāng zhuō zi a , wǒ zhǐ gěi tā kàn , tā diǎn diǎn tóu , bǎ nà běn cí diǎn ná huí yǔ yán lèi , yòu bāng páng biān de rén dì le liǎng běn shū .",
+        "en": "During exchange someone sorted a language dictionary with cookbooks because of an apple cover. We checked the contents and moved it. A separate cover exhibition had caused the confusion. He asked whether the cover exhibition was on another table. I pointed it out. He nodded, returned the dictionary to the language section and passed two books to the next person."
+      },
+      {
+        "zh": "三点开始分享，自愿参加的人先说最想推荐的一点，不必把整本书的故事讲完。有个人只想听，我们也留了座位。四个组织的人有时在旁边整理，有时站着听，不是每个人都不断找事情做。活动快结束，我们问哪些书还属于原来的人，哪些已经换好，再分开收，不因为桌上剩下就把它们全当成捐来的书。",
+        "py": "sān diǎn kāi shǐ fēn xiǎng , zì yuàn cān jiā de rén xiān shuō zuì xiǎng tuī jiàn de yī diǎn , bù bì bǎ zhěng běn shū de gù shì jiǎng wán . yǒu gè rén zhǐ xiǎng tīng , wǒ men yě liú le zuò wèi . sì gè zǔ zhī de rén yǒu shí zài páng biān zhěng lǐ , yǒu shí zhàn zhe tīng , bù shì měi gè rén dōu bù duàn zhǎo shì qíng zuò . huó dòng kuài jié shù , wǒ men wèn nǎ xiē shū hái shǔ yú yuán lái de rén , nǎ xiē yǐ jīng huàn hǎo , zài fēn kāi shōu , bù yīn wèi zhuō shàng shèng xià jiù bǎ tā men quán dàng chéng juān lái de shū .",
+        "en": "At three voluntary speakers shared one recommendation rather than a whole plot. Listeners had seats too. Organisers alternated tidying and listening. Before finishing we checked original ownership and completed exchanges, rather than treating all remaining books as donations."
+      },
+      {
+        "zh": "四点以前，我们收好东西，把能再用的纸集中留下，不能用的按这里的回收安排处理。最后一位朋友拿着书准备走，又回头问下次还办不办。我说想办，请他先告诉我今天怎么找过来的。他拿出手机，照片上还是旧入口。旁边的人也说自己的消息没有更新。我把这几张图记下来，下次先检查这些地方，再把新地址发出去。",
+        "py": "sì diǎn yǐ qián , wǒ men shōu hǎo dōng xi , bǎ néng zài yòng de zhǐ jí zhōng liú xià , bù néng yòng de àn zhè lǐ de huí shōu ān pái chǔ lǐ . zuì hòu yī wèi péng you ná zhe shū zhǔn bèi zǒu , yòu huí tóu wèn xià cì hái bàn bù bàn . wǒ shuō xiǎng bàn , qǐng tā xiān gào sù wǒ jīn tiān zěn me zhǎo guò lái de . tā ná chū shǒu jī , zhào piān shàng hái shi jiù rù kǒu . páng biān de rén yě shuō zì jǐ de xiāo xī méi yǒu gēng xīn . wǒ bǎ zhè jǐ zhāng tú jì xià lái , xià cì xiān jiǎn chá zhè xiē dì fāng , zài bǎ xīn dì zhǐ fā chū qù .",
+        "en": "Before four we packed up, keeping reusable paper and sorting the rest for recycling. The last friend turned back to ask about another event. I hoped so; how had he found us today? His phone still showed a photo of the old entrance. Someone else had an outdated message too. I noted those versions so next time I'd check them before sending the new address."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "网页",
+        "pinyin": "wǎng yè",
+        "meaning": "webpage"
+      },
+      {
+        "hanzi": "维修",
+        "pinyin": "wéi xiū",
+        "meaning": "maintenance; repair"
+      },
+      {
+        "hanzi": "参加者",
+        "pinyin": "cān jiā zhě",
+        "meaning": "participant"
+      },
+      {
+        "hanzi": "捐",
+        "pinyin": "juān",
+        "meaning": "donate"
+      },
+      {
+        "hanzi": "座位",
+        "pinyin": "zuò wèi",
+        "meaning": "seat"
+      },
+      {
+        "hanzi": "箭头",
+        "pinyin": "jiàn tóu",
+        "meaning": "arrow"
+      },
+      {
+        "hanzi": "封面",
+        "pinyin": "fēng miàn",
+        "meaning": "cover of a book"
+      },
+      {
+        "hanzi": "陆续",
+        "pinyin": "lù xù",
+        "meaning": "one after another"
+      },
+      {
+        "hanzi": "终止",
+        "pinyin": "zhōng zhǐ",
+        "meaning": "terminate"
+      },
+      {
+        "hanzi": "更新",
+        "pinyin": "gēng xīn",
+        "meaning": "update"
+      },
+      {
+        "hanzi": "回收",
+        "pinyin": "huí shōu",
+        "meaning": "recycle; collect for reuse"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What lesson does the room change reveal?",
+        "choices": [
+          "Updating one version does not automatically update every existing notice",
+          "All participants must use a QR code",
+          "A pause means an event ends permanently"
+        ],
+        "answer": "Updating one version does not automatically update every existing notice"
+      },
+      {
+        "type": "detail",
+        "q": "When does the organiser wait at the old entrance?",
+        "choices": [
+          "From 1:30 to two",
+          "From two to four",
+          "Only on Thursday before the change"
+        ],
+        "answer": "From 1:30 to two"
+      },
+      {
+        "type": "inference",
+        "q": "Why check the remaining books before packing?",
+        "choices": [
+          "Some may still be display-only or belong to their original owners",
+          "Every remaining book is automatically a donation",
+          "Classification permanently removes ownership"
+        ],
+        "answer": "Some may still be display-only or belong to their original owners"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "这次旧书交换原来安排在周六下午两点，二楼的小房间。周四我们收到通知，房间要维修，可以申请换到一楼。四个组织的人先核对名单：【共计】二十八人，已经包括我们四个，不是另外还有二十八位参加者。一楼能进三十人，但只有二十四个座位，这个区别也要说清楚，不能只看大的数字就答应所有新请求。",
+          "py": "zhè cì jiù shū jiāo huàn yuán lái ān pái zài zhōu liù xià wǔ liǎng diǎn , èr lóu de xiǎo fáng jiān . zhōu sì wǒ men shōu dào tōng zhī , fáng jiān yào wéi xiū , kě yǐ shēn qǐng huàn dào yī lóu . sì gè zǔ zhī de rén xiān hé duì míng dān : gòng jì èr shí bā rén , yǐ jīng bāo kuò wǒ men sì gè , bù shì lìng wài hái yǒu èr shí bā wèi cān jiā zhě . yī lóu néng jìn sān shí rén , dàn zhǐ yǒu èr shí sì gè zuò wèi , zhè gè qū bié yě yào shuō qīng chǔ , bù néng zhǐ kàn dà de shù zì jiù dā yìng suǒ yǒu xīn qǐng qiú .",
+          "en": "The book exchange was planned for Saturday at two in an upstairs room. On Thursday repairs led to an offer to apply for the downstairs room. Our total registration was twenty-eight, including four organisers, not twenty-eight guests plus four. The downstairs room held thirty but had twenty-four seats; we needed to distinguish capacity from seating rather than use the larger number for every request."
+        },
+        {
+          "zh": "当天我联系【负责人】，确认一楼房间能用到四点，桌子和座位可以留下。交换时大家会走动，分享时参加的二十四个人可以坐，组织的人不用一直坐着。得到确认以后，我才发布新的公告，写清时间不变、房间更换。我也打开邮件附件里的地图，把原来指向二楼的箭头改到一楼，免得文字说一楼，地图还叫人上楼。",
+          "py": "dàng tiān wǒ lián xì fù zé rén , què rèn yī lóu fáng jiān néng yòng dào sì diǎn , zhuō zi hé zuò wèi kě yǐ liú xià . jiāo huàn shí dà jiā huì zǒu dòng , fēn xiǎng shí cān jiā de èr shí sì gè rén kě yǐ zuò , zǔ zhī de rén bù yòng yì zhí zuò zhe . dé dào què rèn yǐ hòu , wǒ cái fā bù xīn de gōng gào , xiě qīng shí jiān bù biàn , fáng jiān gēng huàn . wǒ yě dǎ kāi yóu jiàn fù jiàn lǐ de dì tú , bǎ yuán lái zhǐ xiàng èr lóu de jiàn tóu gǎi dào yī lóu , miǎn de wén zì shuō yī lóu , dì tú hái jiào rén shàng lóu .",
+          "en": "I confirmed the room was available until four, with tables and seats retained. Guests could circulate during exchange and the twenty-four participants sit during sharing; organisers needn’t sit throughout. Only then did I announce the unchanged time and new room, also correcting the email map so its arrow no longer directed people upstairs."
+        },
+        {
+          "zh": "另外一位朋友检查【二维码】，发现扫出来还是旧安排。原来改了邮件，并不会让那张网页自己改变。我们把网页也改好，又用两部手机各看一次。我用自己的手机试了一次，又请旁边的朋友试，看到的都是新房间了。有位老人说他没有带手机，我把门口的纸给他看，指了指小厅的方向。他说原来就在隔壁，那不用回家拿手机了。",
+          "py": "lìng wài yī wèi péng you jiǎn chá èr wéi mǎ , fā xiàn sǎo chū lái hái shi jiù ān pái . yuán lái gǎi le yóu jiàn , bìng bù huì ràng nà zhāng wǎng yè zì jǐ gǎi biàn . wǒ men bǎ wǎng yè yě gǎi hǎo , yòu yòng liǎng bù shǒu jī gè kàn yī cì . wǒ yòng zì jǐ de shǒu jī shì le yī cì , yòu qǐng páng biān de péng you shì , kàn dào de dōu shì xīn fáng jiān le . yǒu wèi lǎo rén shuō tā méi yǒu dài shǒu jī , wǒ bǎ mén kǒu de zhǐ gěi tā kàn , zhǐ le zhǐ xiǎo tīng de fāng xiàng . tā shuō yuán lái jiù zài gé bì , nà bù yòng huí jiā ná shǒu jī le .",
+          "en": "Another friend found that the QR code still opened the old schedule. Editing the email had not changed the webpage. We updated it and tried two phones; both now showed the new room. An older visitor had not brought a phone, so I showed him the paper notice and pointed towards the small hall. He was pleased it was next door: he would not need to go home for his phone."
+        }
+      ],
+      "bank": [
+        "共计",
+        "负责人",
+        "二维码",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s5-u08-media",
+      "title": "An apple on the cover",
+      "titleZh": "An apple on the cover",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "这本字典怎么放在做菜的书里？",
+          "py": "zhè běn zì diǎn zěn me fàng zài zuò cài de shū lǐ ?",
+          "en": "Why is this dictionary with the cookbooks?",
+          "speaker": "a"
+        },
+        {
+          "zh": "封面上有一个苹果，我就放过去了。",
+          "py": "fēng miàn shàng yǒu yī gè píng guǒ , wǒ jiù fàng guò qù le .",
+          "en": "There is an apple on the cover, so I put it there.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我们按内容分，不是看封面。",
+          "py": "wǒ men àn nèi róng fēn , bù shì kàn fēng miàn .",
+          "en": "We sort by contents, not cover.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我以为你说展示封面。",
+          "py": "wǒ yǐ wéi nǐ shuō zhǎn shì fēng miàn .",
+          "en": "I thought you said to display covers.",
+          "speaker": "b"
+        },
+        {
+          "zh": "旁边那个展览才看封面，这里是换书。",
+          "py": "páng biān nà gè zhǎn lǎn cái kàn fēng miàn , zhè lǐ shì huàn shū .",
+          "en": "The exhibition beside us is about covers; this is the exchange.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那我打开看看。这个苹果怎么读？",
+          "py": "nà wǒ dǎ kāi kàn kàn . zhè gè píng guǒ zěn me dú ?",
+          "en": "Then I’ll open it. How do you read this apple?",
+          "speaker": "b"
+        },
+        {
+          "zh": "苹果。你先找里面有没有做菜的方法。",
+          "py": "píng guǒ . nǐ xiān zhǎo lǐ miàn yǒu méi yǒu zuò cài de fāng fǎ .",
+          "en": "Apple. First see whether there are cooking methods inside.",
+          "speaker": "a"
+        },
+        {
+          "zh": "没有，只有很多词。",
+          "py": "méi yǒu , zhǐ yǒu hěn duō cí .",
+          "en": "No, just lots of words.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那放到学习语言的那一边。",
+          "py": "nà fàng dào xué xí yǔ yán de nà yī biān .",
+          "en": "Then put it with language-learning books.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。这个分类环节，我还需要练习。",
+          "py": "hǎo . zhè gè fēn lèi huán jié , wǒ hái xū yào liàn xí .",
+          "en": "Okay. I still need practice at this sorting stage.",
+          "speaker": "b"
+        },
+        {
+          "zh": "先把书递给我，你别把自己也分进去了。",
+          "py": "xiān bǎ shū dì gěi wǒ , nǐ bié bǎ zì jǐ yě fēn jìn qù le .",
+          "en": "Hand me the book first. Don’t sort yourself in too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我应该放哪一边，想吃苹果的那一边？",
+          "py": "wǒ yīng gāi fàng nǎ yī biān , xiǎng chī píng guǒ de nà yī biān ?",
+          "en": "Which side should I go on—the side that wants an apple?",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "封面",
+          "pinyin": "fēng miàn",
+          "meaning": "cover of a book"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Why was the dictionary placed with cookbooks?",
+          "choices": [
+            "An apple on its cover",
+            "A recipe in every entry",
+            "An instruction to sort only by binding colour"
+          ],
+          "answer": "An apple on its cover"
+        },
+        {
+          "type": "inference",
+          "q": "Which distinction resolves the mix-up?",
+          "choices": [
+            "Cover display and content-based exchange categories",
+            "Apples cannot appear in language books",
+            "All dictionaries are cookbooks"
+          ],
+          "answer": "Cover display and content-based exchange categories"
+        }
+      ]
+    },
+    {
+      "id": "s5-u08-word-notebook",
+      "title": "A changed room, the same gathering: words in context",
+      "titleZh": "换房间，不是结束活动 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我们预备了两个地点，最后还要确认。",
+          "py": "wǒ men yù bèi le liǎng gè dì diǎn , zuì hòu hái yào què rèn .",
+          "en": "We have prepared two possible venues but still need confirmation."
+        },
+        {
+          "zh": "她预备把那几本书带来。",
+          "py": "tā yù bèi bǎ nà jǐ běn shū dài lái .",
+          "en": "She plans to bring those books."
+        },
+        {
+          "zh": "旁边有一个旧书封面的展览。",
+          "py": "páng biān yǒu yī gè jiù shū fēng miàn de zhǎn lǎn .",
+          "en": "There is an exhibition of old book covers beside us."
+        },
+        {
+          "zh": "这次展览到周日结束。",
+          "py": "zhè cì zhǎn lǎn dào zhōu rì jié shù .",
+          "en": "This exhibition ends on Sunday."
+        },
+        {
+          "zh": "先展示自己带的书，再说想换什么。",
+          "py": "xiān zhǎn shì zì jǐ dài de shū , zài shuō xiǎng huàn shén me .",
+          "en": "Show the books you brought first, then say what you want to exchange for."
+        },
+        {
+          "zh": "他展示了两个不同的做法。",
+          "py": "tā zhǎn shì le liǎng gè bù tóng de zuò fǎ .",
+          "en": "He demonstrated two different approaches."
+        },
+        {
+          "zh": "帮忙是自愿的，不是每个人都必须留下。",
+          "py": "bāng máng shì zì yuàn de , bù shì měi gè rén dōu bì xū liú xià .",
+          "en": "Helping is voluntary; not everyone has to stay."
+        },
+        {
+          "zh": "她自愿负责最后整理桌子。",
+          "py": "tā zì yuàn fù zé zuì hòu zhěng lǐ zhuō zi .",
+          "en": "She volunteered to tidy the tables at the end."
+        },
+        {
+          "zh": "换房间以前，先联系负责人。",
+          "py": "huàn fáng jiān yǐ qián , xiān lián xì fù zé rén .",
+          "en": "Contact the person in charge before changing rooms."
+        },
+        {
+          "zh": "负责人还没来，我们先等答复。",
+          "py": "fù zé rén hái méi lái , wǒ men xiān děng dá fù .",
+          "en": "The person in charge isn’t here yet; we’ll wait for a reply."
+        },
+        {
+          "zh": "换房间时，先暂停拿书。",
+          "py": "huàn fáng jiān shí , xiān zàn tíng ná shū .",
+          "en": "Pause taking books while we change rooms."
+        },
+        {
+          "zh": "节目暂停了十分钟，后来继续。",
+          "py": "jié mù zàn tíng le shí fēn zhōng , hòu lái jì xù .",
+          "en": "The programme paused for ten minutes, then continued."
+        },
+        {
+          "zh": "通知说这次合作终止，不只是推迟。",
+          "py": "tōng zhī shuō zhè cì hé zuò zhōng zhǐ , bù zhǐ shì tuī chí .",
+          "en": "The notice says this cooperation is ended, not merely delayed."
+        },
+        {
+          "zh": "双方同意终止原来的安排。",
+          "py": "shuāng fāng tóng yì zhōng zhǐ yuán lái de ān pái .",
+          "en": "Both sides agreed to end the original arrangement."
+        },
+        {
+          "zh": "他当场问清楚这本书能不能换。",
+          "py": "tā dāng chǎng wèn qīng chǔ zhè běn shū néng bù néng huàn .",
+          "en": "He checked on the spot whether this book could be exchanged."
+        },
+        {
+          "zh": "发现名单错了，我们当场改了。",
+          "py": "fā xiàn míng dān cuò le , wǒ men dāng chǎng gǎi le .",
+          "en": "We corrected the list on the spot after finding an error."
+        },
+        {
+          "zh": "请在桌子旁边等候，不要堵住门口。",
+          "py": "qǐng zài zhuō zi páng biān děng hòu , bú yào dǔ zhù mén kǒu .",
+          "en": "Please wait beside the table without blocking the entrance."
+        },
+        {
+          "zh": "等候的时候，我看了活动介绍。",
+          "py": "děng hòu de shí hou , wǒ kàn le huó dòng jiè shào .",
+          "en": "I read the event description while waiting."
+        },
+        {
+          "zh": "书先按内容分类，不是按颜色。",
+          "py": "shū xiān àn nèi róng fēn lèi , bù shì àn yán sè .",
+          "en": "Sort the books by content first, not colour."
+        },
+        {
+          "zh": "这些问题要分类，再交给不同的人。",
+          "py": "zhè xiē wèn tí yào fēn lèi , zài jiāo gěi bù tóng de rén .",
+          "en": "These questions need sorting before assigning them to different people."
+        },
+        {
+          "zh": "你可以分享读后的感想，不一定要讲完整故事。",
+          "py": "nǐ kě yǐ fēn xiǎng dú hòu de gǎn xiǎng , bù yí dìng yào jiǎng wán zhěng gù shì .",
+          "en": "You can share your impressions without telling the whole story."
+        },
+        {
+          "zh": "她和我们分享了一个好用的办法。",
+          "py": "tā hé wǒ men fēn xiǎng le yī gè hǎo yòng de bàn fǎ .",
+          "en": "She shared a useful approach with us."
+        },
+        {
+          "zh": "确认新房间以后，再发布公告。",
+          "py": "què rèn xīn fáng jiān yǐ hòu , zài fā bù gōng gào .",
+          "en": "Publish the notice after confirming the new room."
+        },
+        {
+          "zh": "这个消息今天上午刚发布。",
+          "py": "zhè gè xiāo xī jīn tiān shàng wǔ gāng fā bù .",
+          "en": "This information was released this morning."
+        },
+        {
+          "zh": "公告上有时间和具体房间。",
+          "py": "gōng gào shàng yǒu shí jiān hé jù tǐ fáng jiān .",
+          "en": "The notice has the time and exact room."
+        },
+        {
+          "zh": "我看了公告，才知道今天没有活动。",
+          "py": "wǒ kàn le gōng gào , cái zhī dào jīn tiān méi yǒu huó dòng .",
+          "en": "Only after reading the notice did I learn there was no event today."
+        },
+        {
+          "zh": "报名共计二十八人，包括四位组织的人。",
+          "py": "bào míng gòng jì èr shí bā rén , bāo kuò sì wèi zǔ zhī de rén .",
+          "en": "Twenty-eight people registered in total, including four organisers."
+        },
+        {
+          "zh": "两张票共计一百元。",
+          "py": "liǎng zhāng piào gòng jì yī bǎi yuán .",
+          "en": "The two tickets total one hundred yuan."
+        },
+        {
+          "zh": "我们用同一份共享名单，改过的内容大家能看到。",
+          "py": "wǒ men yòng tóng yī fèn gòng xiǎng míng dān , gǎi guò de nèi róng dà jiā néng kàn dào .",
+          "en": "We use one shared list so everyone can see changes."
+        },
+        {
+          "zh": "这个文件夹是共享的，组里的人都能查看。",
+          "py": "zhè gè wén jiàn jiā shì gòng xiǎng de , zǔ lǐ de rén dōu néng chá kàn .",
+          "en": "This folder is shared; group members can all view it."
+        },
+        {
+          "zh": "地图在邮件附件里，不在正文里。",
+          "py": "dì tú zài yóu jiàn fù jiàn lǐ , bù zài zhèng wén lǐ .",
+          "en": "The map is in the email attachment, not the main text."
+        },
+        {
+          "zh": "附件太大没发出去，我重新发了一次。",
+          "py": "fù jiàn tài dà méi fā chū qù , wǒ chóng xīn fā le yī cì .",
+          "en": "The attachment was too large to send, so I sent it again."
+        },
+        {
+          "zh": "扫这个二维码，可以看活动安排。",
+          "py": "sǎo zhè gè èr wéi mǎ , kě yǐ kàn huó dòng ān pái .",
+          "en": "Scan this QR code to view the event schedule."
+        },
+        {
+          "zh": "纸上的二维码太小，手机没认出来。",
+          "py": "zhǐ shàng de èr wéi mǎ tài xiǎo , shǒu jī méi rèn chū lái .",
+          "en": "The printed QR code was too small for the phone to recognise."
+        },
+        {
+          "zh": "交换以后还有分享环节。",
+          "py": "jiāo huàn yǐ hòu hái yǒu fēn xiǎng huán jié .",
+          "en": "There is a sharing session after the exchange."
+        },
+        {
+          "zh": "这个环节需要两个人帮忙。",
+          "py": "zhè gè huán jié xū yào liǎng gè rén bāng máng .",
+          "en": "This stage needs help from two people."
+        },
+        {
+          "zh": "没有用上的纸，最后一起回收。",
+          "py": "méi yǒu yòng shàng de zhǐ , zuì hòu yì qǐ huí shōu .",
+          "en": "Collect the unused paper together at the end for reuse or recycling."
+        },
+        {
+          "zh": "楼下有回收旧电池的地方。",
+          "py": "lóu xià yǒu huí shōu jiù diàn chí de dì fāng .",
+          "en": "There is a collection point for old batteries downstairs."
+        },
+        {
+          "zh": "房间更换了，时间不变。",
+          "py": "fáng jiān gēng huàn le , shí jiān bù biàn .",
+          "en": "The room has changed but the time remains the same."
+        },
+        {
+          "zh": "这张纸湿了，我们更换一张。",
+          "py": "zhè zhāng zhǐ shī le , wǒ men gēng huàn yī zhāng .",
+          "en": "This sheet is wet; we will replace it."
+        },
+        {
+          "zh": "把这本书递给后面的朋友。",
+          "py": "bǎ zhè běn shū dì gěi hòu miàn de péng you .",
+          "en": "Hand this book to the friend behind you."
+        },
+        {
+          "zh": "她把名单递给负责登记的人。",
+          "py": "tā bǎ míng dān dì gěi fù zé dēng jì de rén .",
+          "en": "She handed the list to the registration person."
+        },
+        {
+          "zh": "找不到新地方，就返回原来的门口看通知。",
+          "py": "zhǎo bù dào xīn dì fāng , jiù fǎn huí yuán lái de mén kǒu kàn tōng zhī .",
+          "en": "If you cannot find the new venue, go back to the original entrance and check the notice."
+        },
+        {
+          "zh": "他拿完东西就返回小厅。",
+          "py": "tā ná wán dōng xi jiù fǎn huí xiǎo tīng .",
+          "en": "He returned to the small hall after getting his things."
+        },
+        {
+          "zh": "桌子摆好以后，交换恢复了。",
+          "py": "zhuō zi bǎi hǎo yǐ hòu , jiāo huàn huī fù le .",
+          "en": "The exchange resumed after the tables were arranged."
+        },
+        {
+          "zh": "灯恢复了，不过我们没有再搬回去。",
+          "py": "dēng huī fù le , bù guò wǒ men méi yǒu zài bān huí qù .",
+          "en": "The light came back on, but we did not move back again."
+        },
+        {
+          "zh": "搬东西的时候，别干扰旁边的活动。",
+          "py": "bān dōng xi de shí hou , bié gān rǎo páng biān de huó dòng .",
+          "en": "Avoid disturbing the neighbouring event while moving things."
+        },
+        {
+          "zh": "音乐太响，会干扰这里的讨论。",
+          "py": "yīn yuè tài xiǎng , huì gān rǎo zhè lǐ de tǎo lùn .",
+          "en": "Very loud music would disrupt the discussion here."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "正文",
+          "pinyin": "zhèng wén",
+          "meaning": "main body of a text"
+        },
+        {
+          "hanzi": "封面",
+          "pinyin": "fēng miàn",
+          "meaning": "cover of a book"
+        },
+        {
+          "hanzi": "电池",
+          "pinyin": "diàn chí",
+          "meaning": "battery"
+        },
+        {
+          "hanzi": "份",
+          "pinyin": "fèn",
+          "meaning": "copy; portion"
+        },
+        {
+          "hanzi": "登记",
+          "pinyin": "dēng jì",
+          "meaning": "register"
+        },
+        {
+          "hanzi": "堵住",
+          "pinyin": "dǔ zhù",
+          "meaning": "block"
+        },
+        {
+          "hanzi": "终止",
+          "pinyin": "zhōng zhǐ",
+          "meaning": "terminate"
+        },
+        {
+          "hanzi": "回收",
+          "pinyin": "huí shōu",
+          "meaning": "recycle; collect for reuse"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s5-u08-paired-reading",
+      "title": "A first-time participant",
+      "titleZh": "A first-time participant",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我第一次来旧书交换，最早看到的安排是二楼、周六两点。报名以后，我把时间记在日历里，邮件没有再打开。周六到了原来的门口，发现有人站在那里问是不是来换书。我说是，她告诉我已经换到一楼，时间仍然是两点。我当时一点四十五到，所以还在她等候的半小时里面。",
+          "py": "wǒ dì yī cì lái jiù shū jiāo huàn , zuì zǎo kàn dào de ān pái shì èr lóu , zhōu liù liǎng diǎn . bào míng yǐ hòu , wǒ bǎ shí jiān jì zài rì lì lǐ , yóu jiàn méi yǒu zài dǎ kāi . zhōu liù dào le yuán lái de mén kǒu , fā xiàn yǒu rén zhàn zài nà lǐ wèn shì bú shì lái huàn shū . wǒ shuō shì , tā gào sù wǒ yǐ jīng huàn dào yī lóu , shí jiān réng rán shì liǎng diǎn . wǒ dāng shí yī diǎn sì shí wǔ dào , suǒ yǐ hái zài tā děng hòu de bàn xiǎo shí lǐ miàn .",
+          "en": "For my first book exchange I remembered upstairs, Saturday at two. After registering I didn’t reopen the email. At the original entrance at 1:45, an organiser directed me downstairs, still starting at two. I arrived during her half-hour waiting period."
+        },
+        {
+          "zh": "她没有只指一个方向，就回头忙自己的事，而是把纸上的房间名指给我看。我带了两本，一本想换，一本只是想让朋友看看。我问能不能都放，她说可以，但要把只是展示的注明。我这才发现，带来一本书不一定代表愿意把它给出去；别人看见放在桌上，也不一定知道我的想法。",
+          "py": "tā méi yǒu zhǐ zhǐ yī gè fāng xiàng , jiù huí tóu máng zì jǐ de shì , ér shì bǎ zhǐ shàng de fáng jiān míng zhǐ gěi wǒ kàn . wǒ dài le liǎng běn , yī běn xiǎng huàn , yī běn zhǐ shì xiǎng ràng péng you kàn kàn . wǒ wèn néng bù néng dōu fàng , tā shuō kě yǐ , dàn yào bǎ zhǐ shì zhǎn shì de zhù míng . wǒ zhè cái fā xiàn , dài lái yī běn shū bù yí dìng dài biǎo yuàn yì bǎ tā gěi chū qù ; bié ren kàn jiàn fàng zài zhuō shàng , yě bù yí dìng zhī dào wǒ de xiǎng fǎ .",
+          "en": "She pointed out the written room name rather than a vague direction. I had one book to exchange and one merely to show. She asked me to mark the display-only one. Bringing a book didn’t necessarily mean giving it away, and others couldn’t infer my intention from it sitting on the table."
+        },
+        {
+          "zh": "搬到一楼时，桌子还在摆，大家先暂停拿书。我听见“暂停”，以为今天不办了，又问了一次。她说只是等摆好，活动仍然两点开始，不是终止。这个回答让我放心，因为我已经走了半小时才到，也想见见报名的人。后来我听见别的人也问，她没有因为刚解释过，就说大家应该都知道。",
+          "py": "bān dào yī lóu shí , zhuō zi hái zài bǎi , dà jiā xiān zàn tíng ná shū . wǒ tīng jiàn zàn tíng , yǐ wéi jīn tiān bù bàn le , yòu wèn le yī cì . tā shuō zhǐ shì děng bǎi hǎo , huó dòng réng rán liǎng diǎn kāi shǐ , bù shì zhōng zhǐ . zhè gè huí dá ràng wǒ fàng xīn , yīn wèi wǒ yǐ jīng zǒu le bàn xiǎo shí cái dào , yě xiǎng jiàn jiàn bào míng de rén . hòu lái wǒ tīng jiàn bié de rén yě wèn , tā méi yǒu yīn wèi gāng jiě shì guò , jiù shuō dà jiā yīng gāi dōu zhī dào .",
+          "en": "While tables were arranged, taking books paused. I initially feared there was no event, but she clarified the temporary pause and two o’clock start. After a half-hour journey I was relieved. She answered others' similar questions without assuming everyone knew just because she’d explained once."
+        },
+        {
+          "zh": "我看名单上的人数是二十八，又看到只有二十四个座位，有点担心。组织的人告诉我，二十八已经包括他们四位。他们不用一直坐，参加分享的二十四个人都有座位。这里不是靠说“大家随便挤一挤”来解决，也不是把不愿意站的人叫作不合作；她直接说明了名单怎么数、座位给谁。",
+          "py": "wǒ kàn míng dān shàng de rén shù shì èr shí bā , yòu kàn dào zhǐ yǒu èr shí sì gè zuò wèi , yǒu diǎn dān xīn . zǔ zhī de rén gào sù wǒ , èr shí bā yǐ jīng bāo kuò tā men sì wèi . tā men bù yòng yì zhí zuò , cān jiā fēn xiǎng de èr shí sì gè rén dōu yǒu zuò wèi . zhè lǐ bù shì kào shuō dà jiā suí biàn jǐ yī jǐ lái jiě jué , yě bù shì bǎ bù yuàn yì zhàn de rén jiào zuò bù hé zuò ; tā zhí jiē shuō míng le míng dān zěn me shù , zuò wèi gěi shéi .",
+          "en": "The twenty-eight names and twenty-four seats worried me. The four organisers were included in the total and wouldn’t sit throughout, leaving seats for twenty-four participants. They explained the count and seating without asking everyone to squeeze together or calling someone uncooperative for wanting a seat."
+        },
+        {
+          "zh": "两点以后有个人从楼上下来，说只看到旧邮件。我才知道如果晚来，门口那个人不一定还站着，但新的纸会一直留到活动结束。她提前等半小时，是多一种帮助，不是唯一一种找路办法。我回头看自己手机里的附件，确实还存着旧地图，所以把新房间记下来，没有再按旧箭头找。",
+          "py": "liǎng diǎn yǐ hòu yǒu gè rén cóng lóu shàng xià lái , shuō zhǐ kàn dào jiù yóu jiàn . wǒ cái zhī dào rú guǒ wǎn lái , mén kǒu nà gè rén bù yí dìng hái zhàn zhe , dàn xīn de zhǐ huì yì zhí liú dào huó dòng jié shù . tā tí qián děng bàn xiǎo shí , shì duō yī zhǒng bāng zhù , bù shì wéi yī yī zhǒng zhǎo lù bàn fǎ . wǒ huí tóu kàn zì jǐ shǒu jī lǐ de fù jiàn , què shí hái cún zhe jiù dì tú , suǒ yǐ bǎ xīn fáng jiān jì xià lái , méi yǒu zài àn jiù jiàn tóu zhǎo .",
+          "en": "A later arrival had followed the old email upstairs. The organiser wouldn’t necessarily still be waiting for late guests, but the paper would remain until the end. The half-hour presence was an extra aid, not the only directions. My phone still held the old attachment, so I noted the room rather than trusting its old arrow."
+        },
+        {
+          "zh": "换书的时候，我和一个人想换同一本。他先来的，不过还在看。我没有直接拿走，问他是不是已经想要。他说还没决定，可以让我先看。我们后来各选了一本，也分享了一下为什么喜欢。我喜欢的那一本有几页写过字，对方先告诉我，我看过以后觉得可以，再答应交换，没有等到回家才发现。",
+          "py": "huàn shū de shí hou , wǒ hé yī gè rén xiǎng huàn tóng yī běn . tā xiān lái de , bù guò hái zài kàn . wǒ méi yǒu zhí jiē ná zǒu , wèn tā shì bú shì yǐ jīng xiǎng yào . tā shuō hái méi jué dìng , kě yǐ ràng wǒ xiān kàn . wǒ men hòu lái gè xuǎn le yī běn , yě fēn xiǎng le yī xià wèi shén me xǐ huān . wǒ xǐ huān de nà yī běn yǒu jǐ yè xiě guò zì , duì fāng xiān gào sù wǒ , wǒ kàn guò yǐ hòu jué de kě yǐ , zài dā yìng jiāo huàn , méi yǒu děng dào huí jiā cái fā xiàn .",
+          "en": "Another person and I were interested in the same book. I checked whether he’d chosen it rather than taking it. He hadn’t and let me look. We each chose one and discussed our reasons. The owner told me mine had writing on several pages; I checked and accepted before the exchange, rather than discovering it at home."
+        },
+        {
+          "zh": "三点分享时，我不想站到前面，就一直听。有个人讲到故事结尾，旁边的朋友笑着说先别讲，我还没读完。他停了一下，赶紧把下一页合上，改说自己为什么喜欢那个角色。我觉得有意思，就问那个人在开头是不是也这样。他说你先读，读完我们再聊，又把书名写给了我。",
+          "py": "sān diǎn fēn xiǎng shí , wǒ bù xiǎng zhàn dào qián miàn , jiù yì zhí tīng . yǒu gè rén jiǎng dào gù shì jié wěi , páng biān de péng you xiào zhe shuō xiān bié jiǎng , wǒ hái méi dú wán . tā tíng le yī xià , gǎn jǐn bǎ xià yī yè hé shàng , gǎi shuō zì jǐ wèi shén me xǐ huān nà gè jué sè . wǒ jué de yǒu yì si , jiù wèn nà gè rén zài kāi tóu shì bú shì yě zhè yàng . tā shuō nǐ xiān dú , dú wán wǒ men zài liáo , yòu bǎ shū míng xiě gěi le wǒ .",
+          "en": "At three I stayed in my seat to listen. One speaker reached the ending; a friend laughed, 'Don't tell us—I haven't finished it!' He closed the next page and switched to why he liked the character. Interested, I asked whether the character behaved that way at the start too. Read it first, he said, and we'd talk afterwards. He wrote down the title for me."
+        },
+        {
+          "zh": "快四点我收好换来的书，把只是展示的那本也带回。有人问下次能不能帮忙，我说想试登记，不过先确认日期。他指给我看今天那张表，说登记就是问清书名和是谁带来的，不用一下负责所有东西。我拍了张照片，回去慢慢看。出门以后，他发来一条消息，说日期定好就联系我，我回了好，先把刚换的书读完。",
+          "py": "kuài sì diǎn wǒ shōu hǎo huàn lái de shū , bǎ zhǐ shì zhǎn shì de nà běn yě dài huí . yǒu rén wèn xià cì néng bù néng bāng máng , wǒ shuō xiǎng shì dēng jì , bù guò xiān què rèn rì qī . tā zhǐ gěi wǒ kàn jīn tiān nà zhāng biǎo , shuō dēng jì jiù shì wèn qīng shū míng hé shì shéi dài lái de , bù yòng yī xià fù zé suǒ yǒu dōng xi . wǒ pāi le zhāng zhào piān , huí qù màn màn kàn . chū mén yǐ hòu , tā fā lái yī tiáo xiāo xī , shuō rì qī dìng hǎo jiù lián xì wǒ , wǒ huí le hǎo , xiān bǎ gāng huàn de shū dú wán .",
+          "en": "Near four I packed the books I'd swapped and took my display-only book home too. Asked about helping next time, I wanted to try registration but needed the date first. He showed me the form: ask the title and who brought it; I wouldn't have to run everything. I took a photo to study at home. Later he messaged that he'd contact me once the date was fixed. Fine, I replied—first I'd finish my new book."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "注明",
+          "pinyin": "zhù míng",
+          "meaning": "state clearly in a note"
+        },
+        {
+          "hanzi": "日历",
+          "pinyin": "rì lì",
+          "meaning": "calendar"
+        },
+        {
+          "hanzi": "座位",
+          "pinyin": "zuò wèi",
+          "meaning": "seat"
+        },
+        {
+          "hanzi": "箭头",
+          "pinyin": "jiàn tóu",
+          "meaning": "arrow"
+        },
+        {
+          "hanzi": "登记",
+          "pinyin": "dēng jì",
+          "meaning": "register"
+        },
+        {
+          "hanzi": "挤",
+          "pinyin": "jǐ",
+          "meaning": "crowd; squeeze"
+        },
+        {
+          "hanzi": "终止",
+          "pinyin": "zhōng zhǐ",
+          "meaning": "terminate"
+        },
+        {
+          "hanzi": "唯一",
+          "pinyin": "wéi yī",
+          "meaning": "only; sole"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What helps the participant join and return?",
+          "choices": [
+            "Clear directions, choices and a bounded possible future task",
+            "A demand to run the entire next event",
+            "A requirement to tell a whole plot at the front"
+          ],
+          "answer": "Clear directions, choices and a bounded possible future task"
+        },
+        {
+          "type": "detail",
+          "q": "What happens to the display-only book?",
+          "choices": [
+            "The participant takes it home",
+            "It is automatically given to the organisers",
+            "It is exchanged without asking"
+          ],
+          "answer": "The participant takes it home"
+        },
+        {
+          "type": "inference",
+          "q": "Why does one visit not settle future volunteering?",
+          "choices": [
+            "Date and scope still need checking",
+            "The participant disliked every exchange",
+            "All registered guests are already permanent staff"
+          ],
+          "answer": "Date and scope still need checking"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "我第一次来旧书交换，最早看到的安排是二楼、周六两点。报名以后，我把时间记在日历里，邮件没有再打开。周六到了原来的门口，发现有人站在那里问是不是来换书。我说是，她告诉我已经换到一楼，时间仍然是两点。我当时一点四十五到，所以还在她【等候】的半小时里面。",
+            "py": "wǒ dì yī cì lái jiù shū jiāo huàn , zuì zǎo kàn dào de ān pái shì èr lóu , zhōu liù liǎng diǎn . bào míng yǐ hòu , wǒ bǎ shí jiān jì zài rì lì lǐ , yóu jiàn méi yǒu zài dǎ kāi . zhōu liù dào le yuán lái de mén kǒu , fā xiàn yǒu rén zhàn zài nà lǐ wèn shì bú shì lái huàn shū . wǒ shuō shì , tā gào sù wǒ yǐ jīng huàn dào yī lóu , shí jiān réng rán shì liǎng diǎn . wǒ dāng shí yī diǎn sì shí wǔ dào , suǒ yǐ hái zài tā děng hòu de bàn xiǎo shí lǐ miàn .",
+            "en": "For my first book exchange I remembered upstairs, Saturday at two. After registering I didn’t reopen the email. At the original entrance at 1:45, an organiser directed me downstairs, still starting at two. I arrived during her half-hour waiting period."
+          },
+          {
+            "zh": "她没有只指一个方向，就回头忙自己的事，而是把纸上的房间名指给我看。我带了两本，一本想换，一本只是想让朋友看看。我问能不能都放，她说可以，但要把只是【展示】的注明。我这才发现，带来一本书不一定代表愿意把它给出去；别人看见放在桌上，也不一定知道我的想法。",
+            "py": "tā méi yǒu zhǐ zhǐ yī gè fāng xiàng , jiù huí tóu máng zì jǐ de shì , ér shì bǎ zhǐ shàng de fáng jiān míng zhǐ gěi wǒ kàn . wǒ dài le liǎng běn , yī běn xiǎng huàn , yī běn zhǐ shì xiǎng ràng péng you kàn kàn . wǒ wèn néng bù néng dōu fàng , tā shuō kě yǐ , dàn yào bǎ zhǐ shì zhǎn shì de zhù míng . wǒ zhè cái fā xiàn , dài lái yī běn shū bù yí dìng dài biǎo yuàn yì bǎ tā gěi chū qù ; bié ren kàn jiàn fàng zài zhuō shàng , yě bù yí dìng zhī dào wǒ de xiǎng fǎ .",
+            "en": "She pointed out the written room name rather than a vague direction. I had one book to exchange and one merely to show. She asked me to mark the display-only one. Bringing a book didn’t necessarily mean giving it away, and others couldn’t infer my intention from it sitting on the table."
+          },
+          {
+            "zh": "搬到一楼时，桌子还在摆，大家先【暂停】拿书。我听见“暂停”，以为今天不办了，又问了一次。她说只是等摆好，活动仍然两点开始，不是终止。这个回答让我放心，因为我已经走了半小时才到，也想见见报名的人。后来我听见别的人也问，她没有因为刚解释过，就说大家应该都知道。",
+            "py": "bān dào yī lóu shí , zhuō zi hái zài bǎi , dà jiā xiān zàn tíng ná shū . wǒ tīng jiàn zàn tíng , yǐ wéi jīn tiān bù bàn le , yòu wèn le yī cì . tā shuō zhǐ shì děng bǎi hǎo , huó dòng réng rán liǎng diǎn kāi shǐ , bù shì zhōng zhǐ . zhè gè huí dá ràng wǒ fàng xīn , yīn wèi wǒ yǐ jīng zǒu le bàn xiǎo shí cái dào , yě xiǎng jiàn jiàn bào míng de rén . hòu lái wǒ tīng jiàn bié de rén yě wèn , tā méi yǒu yīn wèi gāng jiě shì guò , jiù shuō dà jiā yīng gāi dōu zhī dào .",
+            "en": "While tables were arranged, taking books paused. I initially feared there was no event, but she clarified the temporary pause and two o’clock start. After a half-hour journey I was relieved. She answered others' similar questions without assuming everyone knew just because she’d explained once."
+          }
+        ],
+        "bank": [
+          "等候",
+          "展示",
+          "暂停",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s5-u08-c",
+    "title": "A changed room, the same gathering",
+    "place": "A community book exchange",
+    "context": "An upstairs room becomes unavailable. Twenty-eight registered people include four organisers; the checked downstairs room has thirty-person capacity and twenty-four seats.",
+    "goal": "Coordinate an event change across several existing notices",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "是二十八个人，再加我们四个吗？",
+        "pinyin": "shì èr shí bā gè rén , zài jiā wǒ men sì gè ma ?",
+        "meaning": "Is it twenty-eight plus the four of us?",
+        "intent": "Clarify the total",
+        "examples": [
+          "不是，二十八已经包括我们四个。"
+        ],
+        "accept": [
+          "^不是，二十八已经包括我们四个。[。！？]?$"
+        ]
+      },
+      {
+        "text": "纸改好了，附件不用改吧？",
+        "pinyin": "zhǐ gǎi hǎo le , fù jiàn bù yòng gǎi ba ?",
+        "meaning": "The paper is corrected; no need to change the attachment?",
+        "intent": "Check the existing versions",
+        "examples": [
+          "附件里的地图也要改，还有扫码看到的网页。"
+        ],
+        "accept": [
+          "^附件里的地图也要改，还有扫码看到的网页。[。！？]?$"
+        ]
+      },
+      {
+        "text": "暂停是不是今天不办了？",
+        "pinyin": "zàn tíng shì bú shì jīn tiān bù bàn le ?",
+        "meaning": "Does pausing mean no event today?",
+        "intent": "Limit the interruption",
+        "examples": [
+          "不是，摆好桌子就恢复，还是两点开始。"
+        ],
+        "accept": [
+          "^不是，摆好桌子就恢复，还是两点开始。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Clarify permission to exchange",
+      "natural": {
+        "zh": "这本是想换的，还是只想展示？",
+        "py": "zhè běn shì xiǎng huàn de , hái shi zhǐ xiǎng zhǎn shì ?",
+        "en": "Is this one for exchange or just display?"
+      },
+      "note": "Ask the owner before treating placement as willingness to transfer it."
+    },
+    {
+      "situation": "Give actual directions",
+      "natural": {
+        "zh": "改到一楼这个房间，开始时间不变。",
+        "py": "gǎi dào yī lóu zhè gè fáng jiān , kāi shǐ shí jiān bù biàn .",
+        "en": "It has moved to this downstairs room; the start time is unchanged."
+      },
+      "note": "Specify the location and what has stayed the same."
+    },
+    {
+      "situation": "Offer a bounded role",
+      "natural": {
+        "zh": "下次我想试登记，先确认日期。",
+        "py": "xià cì wǒ xiǎng shì dēng jì , xiān què rèn rì qī .",
+        "en": "I’d like to try registration next time, after checking the date."
+      },
+      "note": "A specific possible task is not an acceptance of all future work."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s5-u08-t01",
+      "phrase": "s5-u08-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "对。不是二十八再加四个。名单里都写了。",
+        "py": "duì . bù shì èr shí bā zài jiā sì gè . míng dān lǐ dōu xiě le .",
+        "en": "Right. Not twenty-eight plus four; the list includes us."
+      },
+      "statement": "The twenty-eight already includes the four organisers.",
+      "answer": true,
+      "why": "The reply explicitly distinguishes included from additional people."
+    },
+    {
+      "id": "s5-u08-t02",
+      "phrase": "s5-u08-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "另外一位朋友检查二维码，发现扫出来还是旧安排。原来改了邮件，并不会让那张网页自己改变。我们把网页也改好，又用两部手机各看一次。我用自己的手机试了一次，又请旁边的朋友试，看到的都是新房间了。有位老人说他没有带手机，我把门口的纸给他看，指了指小厅的方向。他说原来就在隔壁，那不用回家拿手机了。",
+        "py": "lìng wài yī wèi péng you jiǎn chá èr wéi mǎ , fā xiàn sǎo chū lái hái shi jiù ān pái . yuán lái gǎi le yóu jiàn , bìng bù huì ràng nà zhāng wǎng yè zì jǐ gǎi biàn . wǒ men bǎ wǎng yè yě gǎi hǎo , yòu yòng liǎng bù shǒu jī gè kàn yī cì . wǒ yòng zì jǐ de shǒu jī shì le yī cì , yòu qǐng páng biān de péng you shì , kàn dào de dōu shì xīn fáng jiān le . yǒu wèi lǎo rén shuō tā méi yǒu dài shǒu jī , wǒ bǎ mén kǒu de zhǐ gěi tā kàn , zhǐ le zhǐ xiǎo tīng de fāng xiàng . tā shuō yuán lái jiù zài gé bì , nà bù yòng huí jiā ná shǒu jī le .",
+        "en": "Another friend found that the QR code still opened the old schedule. Editing the email had not changed the webpage. We updated it and tried two phones; both now showed the new room. An older visitor had not brought a phone, so I showed him the paper notice and pointed towards the small hall. He was pleased it was next door: he would not need to go home for his phone."
+      },
+      "statement": "Changing the email automatically updated the webpage.",
+      "answer": false,
+      "why": "The QR code initially still opened the old webpage."
+    },
+    {
+      "id": "s5-u08-t03",
+      "phrase": "s5-u08-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "两点以后有个人从楼上下来，说只看到旧邮件。我才知道如果晚来，门口那个人不一定还站着，但新的纸会一直留到活动结束。她提前等半小时，是多一种帮助，不是唯一一种找路办法。我回头看自己手机里的附件，确实还存着旧地图，所以把新房间记下来，没有再按旧箭头找。",
+        "py": "liǎng diǎn yǐ hòu yǒu gè rén cóng lóu shàng xià lái , shuō zhǐ kàn dào jiù yóu jiàn . wǒ cái zhī dào rú guǒ wǎn lái , mén kǒu nà gè rén bù yí dìng hái zhàn zhe , dàn xīn de zhǐ huì yì zhí liú dào huó dòng jié shù . tā tí qián děng bàn xiǎo shí , shì duō yī zhǒng bāng zhù , bù shì wéi yī yī zhǒng zhǎo lù bàn fǎ . wǒ huí tóu kàn zì jǐ shǒu jī lǐ de fù jiàn , què shí hái cún zhe jiù dì tú , suǒ yǐ bǎ xīn fáng jiān jì xià lái , méi yǒu zài àn jiù jiàn tóu zhǎo .",
+        "en": "A later arrival had followed the old email upstairs. The organiser wouldn’t necessarily still be waiting for late guests, but the paper would remain until the end. The half-hour presence was an extra aid, not the only directions. My phone still held the old attachment, so I noted the room rather than trusting its old arrow."
+      },
+      "statement": "Written directions remain after the half-hour waiting period.",
+      "answer": true,
+      "why": "The paper stays until the event ends."
+    },
+    {
+      "id": "s5-u08-t04",
+      "phrase": "s5-u08-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "快四点我收好换来的书，把只是展示的那本也带回。有人问下次能不能帮忙，我说想试登记，不过先确认日期。他指给我看今天那张表，说登记就是问清书名和是谁带来的，不用一下负责所有东西。我拍了张照片，回去慢慢看。出门以后，他发来一条消息，说日期定好就联系我，我回了好，先把刚换的书读完。",
+        "py": "kuài sì diǎn wǒ shōu hǎo huàn lái de shū , bǎ zhǐ shì zhǎn shì de nà běn yě dài huí . yǒu rén wèn xià cì néng bù néng bāng máng , wǒ shuō xiǎng shì dēng jì , bù guò xiān què rèn rì qī . tā zhǐ gěi wǒ kàn jīn tiān nà zhāng biǎo , shuō dēng jì jiù shì wèn qīng shū míng hé shì shéi dài lái de , bù yòng yī xià fù zé suǒ yǒu dōng xi . wǒ pāi le zhāng zhào piān , huí qù màn màn kàn . chū mén yǐ hòu , tā fā lái yī tiáo xiāo xī , shuō rì qī dìng hǎo jiù lián xì wǒ , wǒ huí le hǎo , xiān bǎ gāng huàn de shū dú wán .",
+        "en": "Near four I packed the books I'd swapped and took my display-only book home too. Asked about helping next time, I wanted to try registration but needed the date first. He showed me the form: ask the title and who brought it; I wouldn't have to run everything. I took a photo to study at home. Later he messaged that he'd contact me once the date was fixed. Fine, I replied—first I'd finish my new book."
+      },
+      "statement": "The participant promises to organise the whole next event.",
+      "answer": false,
+      "why": "They offer registration only after checking the date."
+    },
+    {
+      "id": "s5-u08-t05",
+      "phrase": "s5-u08-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "名单共计二十八人，包括四位组织的人。一共有多少人？",
+        "py": "míng dān gòng jì èr shí bā rén , bāo kuò sì wèi zǔ zhī de rén . yī gòng yǒu duō shao rén ?",
+        "en": "The list totals twenty-eight, including four organisers. How many in all?"
+      },
+      "choices": [
+        "二十八，四位已经在里面。",
+        "三十二，要把四位再加一次。",
+        "二十四，不把组织的人算进去。"
+      ],
+      "answer": "二十八，四位已经在里面。",
+      "why": "Including marks a subset inside the stated total."
+    },
+    {
+      "id": "s5-u08-t06",
+      "phrase": "s5-u08-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "邮件改了，扫码还是旧房间。要不要改网页？",
+        "py": "yóu jiàn gǎi le , sǎo mǎ hái shi jiù fáng jiān . yào bù yào gǎi wǎng yè ?",
+        "en": "The email is updated, but the QR code opens the old room. Should the webpage change?"
+      },
+      "choices": [
+        "要，网页还没有跟着改。",
+        "不用，邮件改了就证明网页也改了。",
+        "不用，旧房间和新房间一直相同。"
+      ],
+      "answer": "要，网页还没有跟着改。",
+      "why": "The stated observation distinguishes the two versions."
+    },
+    {
+      "id": "s5-u08-t07",
+      "phrase": "s5-u08-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "这本只想展示，没有答应交换。能当成换好的收走吗？",
+        "py": "zhè běn zhǐ xiǎng zhǎn shì , méi yǒu dā yìng jiāo huàn . néng dàng chéng huàn hǎo de shōu zǒu ma ?",
+        "en": "This book is display-only, without an agreed exchange. Can we pack it as exchanged?"
+      },
+      "choices": [
+        "不能，先问本人，分开收。",
+        "能，放桌上就是已经同意。",
+        "能，暂停就代表所有权换好了。"
+      ],
+      "answer": "不能，先问本人，分开收。",
+      "why": "Placement and agreement are different facts."
+    },
+    {
+      "id": "s5-u08-t08",
+      "phrase": "s5-u08-w08",
+      "type": "listenfill",
+      "line": {
+        "zh": "确认新房间以后，再【发布】公告。",
+        "py": "què rèn xīn fáng jiān yǐ hòu , zài fā bù gōng gào .",
+        "en": "Publish the notice after confirming the new room."
+      },
+      "blankPy": "fā bù"
+    },
+    {
+      "id": "s5-u08-t09",
+      "phrase": "s5-u08-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "帮忙是【自愿】的，不是每个人都必须留下。",
+        "py": "bāng máng shì zì yuàn de , bù shì měi gè rén dōu bì xū liú xià .",
+        "en": "Helping is voluntary; not everyone has to stay."
+      },
+      "blankPy": "zì yuàn"
+    },
+    {
+      "id": "s5-u08-t10",
+      "phrase": "s5-u08-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "一确认房间，我【就】通知大家。",
+        "py": "yī què rèn fáng jiān , wǒ jiù tōng zhī dà jiā .",
+        "en": "As soon as the room is confirmed, I will notify everyone."
+      },
+      "blankPy": "jiù"
+    },
+    {
+      "id": "s5-u08-t11",
+      "phrase": "s5-u08-w11",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "There is an exhibition of old book covers beside us.",
+          "right": {
+            "zh": "旁边有一个旧书封面的展览。",
+            "py": "páng biān yǒu yī gè jiù shū fēng miàn de zhǎn lǎn .",
+            "en": "There is an exhibition of old book covers beside us."
+          }
+        },
+        {
+          "left": "Helping is voluntary; not everyone has to stay.",
+          "right": {
+            "zh": "帮忙是自愿的，不是每个人都必须留下。",
+            "py": "bāng máng shì zì yuàn de , bù shì měi gè rén dōu bì xū liú xià .",
+            "en": "Helping is voluntary; not everyone has to stay."
+          }
+        },
+        {
+          "left": "Contact the person in charge before changing rooms.",
+          "right": {
+            "zh": "换房间以前，先联系负责人。",
+            "py": "huàn fáng jiān yǐ qián , xiān lián xì fù zé rén .",
+            "en": "Contact the person in charge before changing rooms."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u08-t12",
+      "phrase": "s5-u08-w12",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Both sides agreed to end the original arrangement.",
+          "right": {
+            "zh": "双方同意终止原来的安排。",
+            "py": "shuāng fāng tóng yì zhōng zhǐ yuán lái de ān pái .",
+            "en": "Both sides agreed to end the original arrangement."
+          }
+        },
+        {
+          "left": "This information was released this morning.",
+          "right": {
+            "zh": "这个消息今天上午刚发布。",
+            "py": "zhè gè xiāo xī jīn tiān shàng wǔ gāng fā bù .",
+            "en": "This information was released this morning."
+          }
+        },
+        {
+          "left": "Only after reading the notice did I learn there was no event today.",
+          "right": {
+            "zh": "我看了公告，才知道今天没有活动。",
+            "py": "wǒ kàn le gōng gào , cái zhī dào jīn tiān méi yǒu huó dòng .",
+            "en": "Only after reading the notice did I learn there was no event today."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u08-t13",
+      "phrase": "s5-u08-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "We use one shared list so everyone can see changes.",
+          "right": {
+            "zh": "我们用同一份共享名单，改过的内容大家能看到。",
+            "py": "wǒ men yòng tóng yī fèn gòng xiǎng míng dān , gǎi guò de nèi róng dà jiā néng kàn dào .",
+            "en": "We use one shared list so everyone can see changes."
+          }
+        },
+        {
+          "left": "The room has changed but the time remains the same.",
+          "right": {
+            "zh": "房间更换了，时间不变。",
+            "py": "fáng jiān gēng huàn le , shí jiān bù biàn .",
+            "en": "The room has changed but the time remains the same."
+          }
+        },
+        {
+          "left": "The exchange resumed after the tables were arranged.",
+          "right": {
+            "zh": "桌子摆好以后，交换恢复了。",
+            "py": "zhuō zi bǎi hǎo yǐ hòu , jiāo huàn huī fù le .",
+            "en": "The exchange resumed after the tables were arranged."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: dictionary/apple teasing, 展示/展览 contrast, 暂停/终止 register and announcement phrasing. Thursday change is confirmed before publication; Saturday two to four, old-entrance guide 1:30 to two and written notice retained. Twenty-eight includes four organisers; twenty-four seats fit the twenty-four participants while organisers can stand. Room capacity is stated by the fictional organiser, not a real venue recommendation. Ownership and completed exchanges are checked; display is not treated as consent to exchange. All maps, codes and webpages exist only in the fictional text, not as newly promised app features.\n2026-10-08 advanced reading self-review: Replaced repeated statements about boundaries and inference in diary narrators with calendar checks, actual calls, everyday jokes and book-event actions. Kept formal meeting-time analysis where the text is genuinely a work account. Preserved half-hour travel, 8:30 departure/coat, nine/eleven call arrangement, twenty-minute trial, extra two-person ten minutes and display-only book facts. All old word/task/question IDs retained. Native flags: 塞得太满 schedule metaphor, 哪有 response strength, phone-call teasing and book-spoiler banter. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "览",
+      "pinyin": "lǎn",
+      "meaning": "view; browse",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "览",
+          "role": "whole",
+          "gloss": "view; browse"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 览 in 展览. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "展览",
+          "p": "zhǎn lǎn",
+          "m": "exhibition; exhibit"
+        }
+      ]
+    },
+    {
+      "hanzi": "享",
+      "pinyin": "xiǎng",
+      "meaning": "enjoy",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "享",
+          "role": "whole",
+          "gloss": "enjoy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 享 in 分享 / 共享. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "分享",
+          "p": "fēn xiǎng",
+          "m": "share"
+        },
+        {
+          "w": "共享",
+          "p": "gòng xiǎng",
+          "m": "share; shared access"
+        }
+      ]
+    },
+    {
+      "hanzi": "返",
+      "pinyin": "fǎn",
+      "meaning": "return",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "返",
+          "role": "whole",
+          "gloss": "return"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 返 in 返回. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "返回",
+          "p": "fǎn huí",
+          "m": "return; go back"
+        }
+      ]
+    }
+  ]
+}

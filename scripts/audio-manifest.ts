@@ -10,7 +10,7 @@ import {
 } from "../src/hanzi";
 import { baseScenarios, segments } from "../src/dialogue-data";
 import { mascotScenes, moLines, welcomeGreeting } from "../src/sayo-lines";
-import { hskItems, hskSpeech, teacherLines } from "../src/hsk-model";
+import { hskItems, hskSpeech, hskStudyWords, teacherLines } from "../src/hsk-model";
 import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks, packs } from "../src/pack-content";
 import { wordSpeech } from "../src/word-speech";
@@ -188,9 +188,9 @@ export function collectAudioScripts(): Script[] {
   );
   hskItems.forEach((q) => {
     add(q.sentence, "hsk-example", q.py, q.en, ["clear"]);
-    if (q.promptPy) add(q.prompt, "hsk-question", q.promptPy, undefined, ["clear"]);
-    q.segments?.forEach((c) => add(c.zh, "hsk-ordering-part", c.py, c.en, ["clear"]));
-    q.choices.forEach((c) =>
+    // Listening and answer review play the complete sentence. Blank prompts,
+    // ordering fragments and other distractors have no playback control.
+    hskStudyWords([q]).forEach((c) =>
       add(
         hskSpeech(c.zh),
         "hsk-word",

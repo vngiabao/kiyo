@@ -3,10 +3,10 @@ import sys
 from advanced_core import write,rows,words,q,card,practice
 V=words('''
 幽默|humour; humorous|hài hước|他想用幽默缓解尴尬，可是新朋友没听懂。|He tried humour to ease the awkwardness, but the newcomer didn’t understand.|这部电影的幽默很安静，不是每句都让人笑。|The film’s humour is understated; not every line gets a laugh.
-神情|expression; look|vẻ mặt|她的神情变了，我才发现她没有跟着笑。|Her expression changed, and I realised she wasn’t laughing with us.|他听见名字，神情一下认真起来。|Hearing the name, he suddenly looked serious.
+神情|expression; look|vẻ mặt|她的神情变了，我才发现她没有跟着笑。|Her expression changed, and I realised she wasn’t laughing with us.|听见那个名字，他的神情一下变了。|His expression suddenly changed when he heard the name.
 脸色|facial complexion; expression|sắc mặt|她脸色不好，我先问是不是累了。|She looked unwell, so I first asked whether she was tired.|听见这个消息，他的脸色变了。|His expression changed on hearing the news.
 脾气|temper; temperament|tính khí|别把一次生气，就说成她脾气一直不好。|Don’t turn one angry moment into a claim she always has a bad temper.|他脾气有点急，但愿意听解释。|He is a little impatient but willing to hear an explanation.
-客气|polite; formal; courteous|khách sáo|我们不用这么客气，不过也不能替对方决定。|We needn’t be so formal, but cannot decide for one another.|她客气地说谢谢，没有答应留下。|She politely thanked them without agreeing to stay.
+客气|polite; formal; courteous|khách sáo|别这么客气，多吃一点。|Don’t be so formal—have a little more to eat.|她客气地说谢谢，没有答应留下。|She politely thanked them without agreeing to stay.
 面子|face; social dignity|thể diện|我想给他留点面子，就没有当众重复那件事。|To spare him embarrassment, I didn’t repeat it in front of everyone.|她不想为了面子答应自己做不到的事。|She didn’t want to promise something impossible just to save face.
 骂|scold; curse|mắng|她是在解释，不是在骂我。|She is explaining, not scolding me.|他听到骂人的话，先停下了讨论。|He stopped the discussion on hearing insults.
 傻|foolish; silly|ngốc|他觉得自己的做法有点傻，不是在说别人都傻。|He thought his own action a little silly, not that others were all foolish.|别直接叫不熟的人傻。|Don’t directly call someone you barely know silly.
@@ -25,7 +25,7 @@ V=words('''
 瞧|look; see, conversational|nhìn|你瞧，我又拿起盐了。|Look, I’ve picked the salt up again.|瞧，那辆车已经来了。|Look, that vehicle has arrived.
 悄悄|quietly; secretly|lặng lẽ|她悄悄问我，那句话是不是在生气。|She quietly asked whether the sentence showed anger.|我悄悄把湿伞移到门外。|I quietly moved the wet umbrella outside.
 随意|casually; at will|tùy ý|不熟的人之间，称呼别太随意。|Don’t use overly casual forms of address with people you barely know.|这些座位可以随意选，前面没有预留。|You may choose these seats freely; none at the front are reserved.
-失误|mistake; slip|sai sót|这次失误是放盐两次，不是他不会做任何菜。|The slip was adding salt twice, not inability to cook anything.|她说明了失误，也告诉我怎么改。|She explained the mistake and how to correct it.
+失误|mistake; slip|sai sót|我放盐时出了点失误，汤太咸了。|I made a mistake adding salt; the soup was too salty.|她说明了失误，也告诉我怎么改。|She explained the mistake and how to correct it.
 ''')
 D=rows('''
 你尝一口，今天这汤是不是有点咸？|Try some. Is today’s soup a little salty?

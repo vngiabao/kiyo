@@ -25,4 +25,18 @@ class ContextualReading(unittest.TestCase):
         self.assertEqual(screen.transcript_status('认真地读。','认真的赌','rèn zhēn de dú'),'needs-review')
         self.assertEqual(screen.transcript_status('小孩儿','小孩','xiǎo háir'),'needs-review')
 
+    def test_word_spaced_neutral_complement_de(self):
+        self.assertEqual(screen.transcript_status('他说得很好。','他说的很好','Tā shuō de hěnhǎo'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('她笑得很大声。','她笑的很大声','Tā xiào de hěn dàshēng'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('我认真地读课文。','我认真的读课文','Wǒ rènzhēn de dú kèwén'),'homophone-transcript')
+
+    def test_dei_de_and_other_changed_words_still_fail(self):
+        self.assertEqual(screen.transcript_status('我得早点走。','我的早点走','wǒ děi zǎodiǎn zǒu'),'needs-review')
+        self.assertEqual(screen.transcript_status('我得早点走。','我的早点走','wǒ de zǎodiǎn zǒu'),'needs-review')
+        self.assertEqual(screen.transcript_status('得到三分。','的到三分','dé dào sān fēn'),'needs-review')
+        self.assertEqual(screen.transcript_status('得到三分。','的到三分','de dào sān fēn'),'needs-review')
+        self.assertEqual(screen.transcript_status('他说得很好。','他说很好','Tā shuō de hěnhǎo'),'needs-review')
+        self.assertEqual(screen.transcript_status('他说得很好。','他说的很高','Tā shuō de hěnhǎo'),'needs-review')
+        self.assertEqual(screen.transcript_status('认真地读。','认真的赌','rènzhēn de dú'),'needs-review')
+
 if __name__=='__main__':unittest.main()

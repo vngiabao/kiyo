@@ -7,6 +7,7 @@ import json
 import re
 from pathlib import Path
 from pypinyin import lazy_pinyin, Style
+from contextual_de import correct as correct_de
 
 ROOT = Path(__file__).resolve().parents[2]
 read = lambda p: json.loads(p.read_text('utf-8-sig'))
@@ -62,6 +63,17 @@ dictionary.update({'还书':'huán shū', '还笔':'huán bǐ', '还回来':'hu�
                    '有空儿':'yǒu kòngr', '没空儿':'méi kòngr', '变为':'biàn wéi'})
 dictionary['重读'] = 'chóng dú'  # These authored contexts mean read again, not stress a syllable.
 dictionary['没收到'] = 'méi shōu dào'  # Negative 收到, not the overlapping word 没收 (confiscate).
+dictionary['交还'] = 'jiāo huán'  # Return the borrowed bag in the advanced scene.
+dictionary['盯着'] = 'dīng zhe'  # Ongoing watching, not the full-tone reading zhuó.
+dictionary.update({
+    '还回去': 'huán huí qù', '还袋子': 'huán dài zi',
+    '还空袋子': 'huán kōng dài zi', '还的时候': 'huán de shí hou',
+    '还了没有': 'huán le méi yǒu', '工具还了': 'gōng jù huán le',
+    '袋子我还了': 'dài zi wǒ huán le', '你还了吗': 'nǐ huán le ma',
+    '还到门边': 'huán dào mén biān',
+})  # These authored object-return contexts must not inherit the adverb hái.
+dictionary.update({'还是得': 'hái shi děi', '这回得': 'zhè huí děi',
+                   '舍不得': 'shě bu de', '怪不得': 'guài bu de'})
 def py(text):
     text = text.replace('【','').replace('】','')
     out, i = [], 0
@@ -78,7 +90,8 @@ def py(text):
             out.append(dictionary[word]); i += len(word)
         else:
             out.append(lazy_pinyin(text[i],style=Style.TONE,neutral_tone_with_five=False)[0]); i += 1
-    return ' '.join(out)
+    result=' '.join(out)
+    return correct_de(text,result) if '得' in text else result
 
 def line(zh, en, speaker=None):
     result = dict(zh=zh, py=py(zh), en=en)

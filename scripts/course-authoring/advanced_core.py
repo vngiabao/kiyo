@@ -101,3 +101,9 @@ def write(level, number, spec, publish=False):
     target.mkdir(parents=True,exist_ok=True)
     (target/f'{uid}.json').write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
     print(uid,'published' if publish else 'drafted',flush=True)
+    # Finalise the already reviewed four-unit editorial layer before the runner
+    # collects audio. Avoid synthesising an older reading just to replace it.
+    repair = {(5,8):16,(5,12):17,(6,4):18,(6,8):19,(6,12):20}.get((level,number))
+    if publish and repair:
+        import runpy
+        runpy.run_path(str(ROOT/f'scripts/course-authoring/parity-repair-{repair:02}.py'),run_name='__main__')

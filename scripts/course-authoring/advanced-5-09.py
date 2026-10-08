@@ -13,7 +13,7 @@ V=words('''
 联络|contact; get in touch|liên lạc|日期变了，我会和报名的人联络。|If the date changes, I will contact the registered participants.|换号码以后，记得和她联络。|Remember to contact her after changing your number.
 加上|in addition to; plus|cộng thêm|读半小时，加上交流半小时，一共一个小时。|Half an hour reading plus half an hour discussion totals one hour.|两张票加上车费，超过了我的预算。|The two tickets plus travel cost exceed my budget.
 近来|recently; lately|gần đây|近来每次来的人比刚开始多。|Recently attendance has been higher than at the beginning.|近来她常常早点下班。|Recently she has often left work earlier.
-难得|rare; hard to come by|hiếm có|大家难得有同一天下午空着。|It is rare for everyone to have the same afternoon free.|难得来一次，我们慢慢逛。|We rarely get to come here; let’s take our time looking around.
+难得|rare; hard to come by|hiếm có|大家难得在同一天下午都有空。|It is rare for everyone to be free on the same afternoon.|难得来一次，我们慢慢逛。|We rarely get to come here; let’s take our time looking around.
 难以|difficult to|khó mà|只凭一次活动，难以判断以后会不会一直来。|One visit alone makes it hard to judge whether someone will keep coming.|门坏了，屋里的人难以出去。|The broken door makes it difficult for those inside to get out.
 坚定|firm; determined|kiên định|她很坚定地说，读不完也可以来。|She firmly said people could come without finishing the book.|试过以后，他更坚定自己的选择。|After trying it he was more certain of his choice.
 减轻|reduce; ease|giảm bớt|先说一句就行，这样能减轻一些压力。|Starting with one sentence can ease some pressure.|把书分开拿，可以减轻每次的重量。|Carrying the books separately reduces each load.

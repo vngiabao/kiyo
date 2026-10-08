@@ -1,0 +1,1857 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s5-u07",
+    "stage": 3,
+    "order": 127,
+    "title": "A proposal that can answer objections",
+    "titleZh": "会短了，准备呢？",
+    "canDo": [
+      "Present a concrete proposal with a limited trial",
+      "Answer objections about timing and hidden preparation",
+      "Evaluate outcomes without treating one example as conclusive"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 5
+    },
+    "prerequisites": [
+      "s5-u06",
+      "s5-u06-usage"
+    ],
+    "estimatedMinutes": 90
+  },
+  "vocabulary": [
+    {
+      "id": "s5-u07-w01",
+      "hanzi": "成本",
+      "pinyin": "chéng běn",
+      "meaning": "cost",
+      "meaningVi": "chi phí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这个方案的成本不只是买东西的钱。",
+        "py": "zhè gè fāng àn de chéng běn bù zhǐ shì mǎi dōng xi de qián .",
+        "en": "The cost of this plan is not only the money for purchases."
+      },
+      "usageNote": "[GF2021:L5:953] Source entry: 成本; chéngběn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w02",
+      "hanzi": "执行",
+      "pinyin": "zhí xíng",
+      "meaning": "carry out; execute",
+      "meaningVi": "thực hiện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "安排写好了，还要问谁来执行。",
+        "py": "ān pái xiě hǎo le , hái yào wèn shéi lái zhí xíng .",
+        "en": "The plan is written, but we need to ask who will carry it out."
+      },
+      "usageNote": "[GF2021:L5:10487] Source entry: 执行; zhíxíng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w03",
+      "hanzi": "评估",
+      "pinyin": "píng gū",
+      "meaning": "evaluate; assessment",
+      "meaningVi": "đánh giá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "先试两周，再评估有没有帮助。",
+        "py": "xiān shì liǎng zhōu , zài píng gū yǒu méi yǒu bāng zhù .",
+        "en": "Try it for two weeks, then assess whether it helps."
+      },
+      "usageNote": "[GF2021:L5:6143] Source entry: 评估; pínggū; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w04",
+      "hanzi": "依据",
+      "pinyin": "yī jù",
+      "meaning": "basis; grounds",
+      "meaningVi": "căn cứ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你选这个时间，有什么依据？",
+        "py": "nǐ xuǎn zhè gè shí jiān , yǒu shén me yī jù ?",
+        "en": "On what grounds did you choose this time?"
+      },
+      "usageNote": "[GF2021:L5:9480] Source entry: 依据; yījù; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w05",
+      "hanzi": "总体",
+      "pinyin": "zǒng tǐ",
+      "meaning": "overall; as a whole",
+      "meaningVi": "tổng thể",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "总体看，大家想缩短会议，但不想少了解问题。",
+        "py": "zǒng tǐ kàn , dà jiā xiǎng suō duǎn huì yì , dàn bù xiǎng shǎo liǎo jiě wèn tí .",
+        "en": "Overall, people want shorter meetings without learning less about problems."
+      },
+      "usageNote": "[GF2021:L5:10973] Source entry: 总体; zǒngtǐ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w06",
+      "hanzi": "便于",
+      "pinyin": "biàn yú",
+      "meaning": "make convenient; facilitate",
+      "meaningVi": "thuận tiện cho",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "提前写出问题，便于大家准备。",
+        "py": "tí qián xiě chū wèn tí , biàn yú dà jiā zhǔn bèi .",
+        "en": "Writing the questions beforehand helps everyone prepare."
+      },
+      "usageNote": "[GF2021:L5:415] Source entry: 便于; biànyú; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w07",
+      "hanzi": "变动",
+      "pinyin": "biàn dòng",
+      "meaning": "change; alteration",
+      "meaningVi": "thay đổi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "时间有变动，请再确认一次。",
+        "py": "shí jiān yǒu biàn dòng , qǐng zài què rèn yī cì .",
+        "en": "If the time changes, please confirm again."
+      },
+      "usageNote": "[GF2021:L5:396] Source entry: 变动; biàndòng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w08",
+      "hanzi": "达成",
+      "pinyin": "dá chéng",
+      "meaning": "reach, e.g. agreement",
+      "meaningVi": "đạt được",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们还没达成一致，先不要发通知。",
+        "py": "wǒ men hái méi dá chéng yí zhì , xiān bú yào fā tōng zhī .",
+        "en": "We have not reached agreement; do not send the notice yet."
+      },
+      "usageNote": "[GF2021:L5:1401] Source entry: 达成; dáchéng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w09",
+      "hanzi": "成效",
+      "pinyin": "chéng xiào",
+      "meaning": "effectiveness; results",
+      "meaningVi": "hiệu quả",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "会开得短，不一定代表有成效。",
+        "py": "huì kāi de duǎn , bù yí dìng dài biǎo yǒu chéng xiào .",
+        "en": "A short meeting does not necessarily mean it is effective."
+      },
+      "usageNote": "[GF2021:L5:973] Source entry: 成效; chéngxiào; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w10",
+      "hanzi": "答复",
+      "pinyin": "dá fù",
+      "meaning": "reply; response",
+      "meaningVi": "trả lời",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我还在等另外三个人的答复。",
+        "py": "wǒ hái zài děng lìng wài sān gè rén de dá fù .",
+        "en": "I am still waiting for three other people’s replies."
+      },
+      "usageNote": "[GF2021:L5:1406] Source entry: 答复; dá·fù; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w11",
+      "hanzi": "传达",
+      "pinyin": "chuán dá",
+      "meaning": "convey; pass on information",
+      "meaningVi": "truyền đạt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你帮我传达一下这次的变动。",
+        "py": "nǐ bāng wǒ chuán dá yī xià zhè cì de biàn dòng .",
+        "en": "Please pass on this change for me."
+      },
+      "usageNote": "[GF2021:L5:1221] Source entry: 传达; chuándá; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w12",
+      "hanzi": "传递",
+      "pinyin": "chuán dì",
+      "meaning": "pass; transmit",
+      "meaningVi": "truyền; chuyển",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这张纸从前排传递到后排。",
+        "py": "zhè zhāng zhǐ cóng qián pái chuán dì dào hòu pái .",
+        "en": "The paper was passed from the front row to the back."
+      },
+      "usageNote": "[GF2021:L5:1222] Source entry: 传递; chuándì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w13",
+      "hanzi": "不易",
+      "pinyin": "bù yì",
+      "meaning": "not easy",
+      "meaningVi": "không dễ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "六个人都方便的时间不易找到。",
+        "py": "liù gè rén dōu fāng biàn de shí jiān bù yì zhǎo dào .",
+        "en": "A time convenient for all six is hard to find."
+      },
+      "usageNote": "[GF2021:L5:552] Source entry: 不易; búyì; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w14",
+      "hanzi": "出于",
+      "pinyin": "chū yú",
+      "meaning": "out of; motivated by",
+      "meaningVi": "xuất phát từ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我出于方便客户的考虑，想把会议提前。",
+        "py": "wǒ chū yú fāng biàn kè hù de kǎo lǜ , xiǎng bǎ huì yì tí qián .",
+        "en": "I want to move the meeting earlier for the customers' convenience."
+      },
+      "usageNote": "[GF2021:L5:1160] Source entry: 出于; chūyú; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w15",
+      "hanzi": "从而",
+      "pinyin": "cóng ér",
+      "meaning": "thereby; as a result",
+      "meaningVi": "từ đó",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "先写清需要谁回答，从而减少来回找人的时间。",
+        "py": "xiān xiě qīng xū yào shéi huí dá , cóng ér jiǎn shǎo lái huí zhǎo rén de shí jiān .",
+        "en": "Identify who should answer first, thereby reducing time spent looking for people."
+      },
+      "usageNote": "[GF2021:L5:1332] Source entry: 从而; cóng’ér; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w16",
+      "hanzi": "单一",
+      "pinyin": "dān yī",
+      "meaning": "single; one-dimensional",
+      "meaningVi": "đơn nhất",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "只看时间，这个标准太单一。",
+        "py": "zhǐ kàn shí jiān , zhè gè biāo zhǔn tài dān yī .",
+        "en": "Looking only at time is too one-dimensional a criterion."
+      },
+      "usageNote": "[GF2021:L5:1580] Source entry: 单一; dānyī; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w17",
+      "hanzi": "初期",
+      "pinyin": "chū qī",
+      "meaning": "initial stage",
+      "meaningVi": "giai đoạn đầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "初期先用简单的表，不急着加功能。",
+        "py": "chū qī xiān yòng jiǎn dān de biǎo , bù jí zhe jiā gōng néng .",
+        "en": "Use a simple form initially rather than rushing to add functions."
+      },
+      "usageNote": "[GF2021:L5:1175] Source entry: 初期; chūqī; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w18",
+      "hanzi": "差距",
+      "pinyin": "chā jù",
+      "meaning": "gap; disparity",
+      "meaningVi": "khoảng cách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "计划和实际时间还有差距。",
+        "py": "jì huà hé shí jì shí jiān hái yǒu chā jù .",
+        "en": "There is still a gap between planned and actual time."
+      },
+      "usageNote": "[GF2021:L5:771] Source entry: 差距; chājù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w19",
+      "hanzi": "采购",
+      "pinyin": "cǎi gòu",
+      "meaning": "purchase; procurement",
+      "meaningVi": "mua sắm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "采购之前，先确认数量和价格。",
+        "py": "cǎi gòu zhī qián , xiān què rèn shù liàng hé jià gé .",
+        "en": "Confirm quantity and price before purchasing."
+      },
+      "usageNote": "[GF2021:L5:683] Source entry: 采购; cǎigòu; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w20",
+      "hanzi": "补贴",
+      "pinyin": "bǔ tiē",
+      "meaning": "subsidy; allowance",
+      "meaningVi": "trợ cấp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这次活动有交通补贴，具体金额写在通知里。",
+        "py": "zhè cì huó dòng yǒu jiāo tōng bǔ tiē , jù tǐ jīn é xiě zài tōng zhī lǐ .",
+        "en": "This event has a travel allowance; the exact amount is in the notice."
+      },
+      "usageNote": "[GF2021:L5:567] Source entry: 补贴; bǔtiē; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w21",
+      "hanzi": "层次",
+      "pinyin": "céng cì",
+      "meaning": "level; layer; organisation of ideas",
+      "meaningVi": "tầng; cấp độ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "把原因和办法分开说，层次会清楚一些。",
+        "py": "bǎ yuán yīn hé bàn fǎ fēn kāi shuō , céng cì huì qīng chǔ yī xiē .",
+        "en": "Separating reasons and solutions gives the explanation clearer structure."
+      },
+      "usageNote": "[GF2021:L5:761] Source entry: 层次; céngcì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w22",
+      "hanzi": "代价",
+      "pinyin": "dài jià",
+      "meaning": "price paid; cost or sacrifice",
+      "meaningVi": "cái giá",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "如果少开会的代价是大家不知道该做什么，就要再改。",
+        "py": "rú guǒ shǎo kāi huì de dài jià shì dà jiā bù zhī dào gāi zuò shén me , jiù yào zài gǎi .",
+        "en": "If fewer meetings leave people unsure what to do, we need another revision."
+      },
+      "usageNote": "[GF2021:L5:1541] Source entry: 代价; dàijià; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w23",
+      "hanzi": "大致",
+      "pinyin": "dà zhì",
+      "meaning": "roughly; approximately",
+      "meaningVi": "đại khái",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们先说大致安排，具体时间等答复。",
+        "py": "wǒ men xiān shuō dà zhì ān pái , jù tǐ shí jiān děng dá fù .",
+        "en": "We will give the rough plan first and await replies for exact times."
+      },
+      "usageNote": "[GF2021:L5:1527] Source entry: 大致; dàzhì; 形、副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u07-w24",
+      "hanzi": "尝试",
+      "pinyin": "cháng shì",
+      "meaning": "try; attempt",
+      "meaningVi": "thử",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们可以尝试两周，不必一次定一年。",
+        "py": "wǒ men kě yǐ cháng shì liǎng zhōu , bù bì yī cì dìng yī nián .",
+        "en": "We can try for two weeks rather than fixing a whole year at once."
+      },
+      "usageNote": "[GF2021:L5:835] Source entry: 尝试; chángshì; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s5-u07-g01",
+      "pattern": "拿…来说",
+      "purpose": "Introduce a specific example",
+      "explanation": "拿 plus a topic and 来说 draws attention to an example, often followed by what it shows. One example does not automatically represent all cases.",
+      "examples": [
+        {
+          "zh": "拿第二次会议来说，准备时间也增加了。",
+          "py": "ná dì èr cì huì yì lái shuō , zhǔn bèi shí jiān yě zēng jiā le .",
+          "en": "Take the second meeting: preparation time increased too."
+        },
+        {
+          "zh": "拿周三来说，我三点要见客户。",
+          "py": "ná zhōu sān lái shuō , wǒ sān diǎn yào jiàn kè hù .",
+          "en": "Take Wednesday: I have a customer meeting at three."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "拿第二次来说，所以每次都一样。",
+          "right": "拿第二次会议来说，准备时间也增加了。",
+          "why": "The example supports that meeting; it does not prove every meeting identical."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u07-g02",
+      "pattern": "以便…",
+      "purpose": "Give the intended enabling purpose",
+      "explanation": "以便 introduces what an action should make easier or possible. It is common in written or formal workplace explanations; the purpose is not a guaranteed result.",
+      "examples": [
+        {
+          "zh": "请提前写出问题，以便大家准备。",
+          "py": "qǐng tí qián xiě chū wèn tí , yǐ biàn dà jiā zhǔn bèi .",
+          "en": "Please write the questions ahead so everyone can prepare."
+        },
+        {
+          "zh": "先确认人数，以便采购。",
+          "py": "xiān què rèn rén shù , yǐ biàn cǎi gòu .",
+          "en": "Confirm numbers first to make purchasing possible."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "请提前写出问题，以便大家已经准备完了。",
+          "right": "请提前写出问题，以便大家准备。",
+          "why": "The purpose points forward rather than asserting preparation is already complete."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u07-g03",
+      "pattern": "尽管…，但是…",
+      "purpose": "Concede a real circumstance",
+      "explanation": "尽管 introduces an accepted fact; 但是 gives a point that remains despite it. Compare a hypothetical 即使 clause.",
+      "examples": [
+        {
+          "zh": "尽管会议短了，但是准备可能更长。",
+          "py": "jǐn guǎn huì yì duǎn le , dàn shì zhǔn bèi kě néng gèng zhǎng .",
+          "en": "Although the meeting is shorter, preparation may be longer."
+        },
+        {
+          "zh": "尽管只试了两次，但是我们已经发现一个问题。",
+          "py": "jǐn guǎn zhǐ shì le liǎng cì , dàn shì wǒ men yǐ jīng fā xiàn yī gè wèn tí .",
+          "en": "Although we tried it only twice, we have found a problem."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "尽管还没试，但是已经知道全部结果。",
+          "right": "尽管只试了两次，但是我们已经发现一个问题。",
+          "why": "State the actually observed concession and limit the conclusion to the known problem."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u07-g04",
+      "pattern": "一旦…，就…",
+      "purpose": "Plan a response to a possible trigger",
+      "explanation": "一旦 marks the condition becoming true; 就 introduces the response. It often sounds more formal than 要是 and does not assert the trigger already occurred.",
+      "examples": [
+        {
+          "zh": "一旦时间有变动，就重新确认。",
+          "py": "yí dàn shí jiān yǒu biàn dòng , jiù chóng xīn què rèn .",
+          "en": "Once the time changes, confirm again."
+        },
+        {
+          "zh": "一旦人数定下来，就可以采购。",
+          "py": "yí dàn rén shù dìng xià lái , jiù kě yǐ cǎi gòu .",
+          "en": "Once numbers are settled, purchasing can begin."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一旦人数定下来，所以人数已经定了。",
+          "right": "一旦人数定下来，就可以采购。",
+          "why": "A planned conditional action does not establish that numbers are settled now."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u07-g05",
+      "pattern": "V下来 / V起来",
+      "purpose": "Distinguish settling a result and beginning a process",
+      "explanation": "定下来 points to reaching a settled result. 讨论起来 marks beginning discussion. Context matters; do not replace all direction complements interchangeably.",
+      "examples": [
+        {
+          "zh": "时间定下来以后再发通知。",
+          "py": "shí jiān dìng xià lái yǐ hòu zài fā tōng zhī .",
+          "en": "Send notice after the time is settled."
+        },
+        {
+          "zh": "大家讨论起来，才发现还有问题。",
+          "py": "dà jiā tǎo lùn qǐ lái , cái fā xiàn hái yǒu wèn tí .",
+          "en": "Only as discussion began did everyone discover more issues."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "大家讨论下来才开始，时间定起来就结束。",
+          "right": "大家讨论起来，时间以后再定下来。",
+          "why": "Use 起来 for starting discussion and 下来 for a settled time in these frames."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s5-u07-d",
+    "title": "会短了，准备呢？",
+    "titleZh": "会短了，准备呢？",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "我想把每周的会改短一点，先试两周。",
+        "py": "wǒ xiǎng bǎ měi zhōu de huì gǎi duǎn yī diǎn , xiān shì liǎng zhōu .",
+        "en": "I’d like to shorten the weekly meeting for a two-week trial.",
+        "speaker": "a"
+      },
+      {
+        "zh": "现在四十五分钟，你想改成多久？",
+        "py": "xiàn zài sì shí wǔ fēn zhōng , nǐ xiǎng gǎi chéng duō jiǔ ?",
+        "en": "It’s forty-five minutes now. How long do you propose?",
+        "speaker": "b"
+      },
+      {
+        "zh": "二十分钟。每个人先写三点，只讨论需要一起决定的。",
+        "py": "èr shí fēn zhōng . měi gè rén xiān xiě sān diǎn , zhǐ tǎo lùn xū yào yì qǐ jué dìng de .",
+        "en": "Twenty minutes. Each person writes three points first; we discuss what needs a joint decision.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那准备材料的时间会不会更长？别只算开会。",
+        "py": "nà zhǔn bèi cái liào de shí jiān huì bù huì gèng zhǎng ? bié zhǐ suàn kāi huì .",
+        "en": "Will preparation take longer? Don’t count only the meeting.",
+        "speaker": "b"
+      },
+      {
+        "zh": "对，这个也要记。每点最多两三句，不做整页介绍。",
+        "py": "duì , zhè gè yě yào jì . měi diǎn zuì duō liǎng sān jù , bù zuò zhěng yè jiè shào .",
+        "en": "Right, we should record that too. Two or three sentences per point, not a full-page presentation.",
+        "speaker": "a"
+      },
+      {
+        "zh": "时间还是周四五点吗？客户那边五点半可能来电话。",
+        "py": "shí jiān hái shi zhōu sì wǔ diǎn ma ? kè hù nà biān wǔ diǎn bàn kě néng lái diàn huà .",
+        "en": "Still Thursday at five? The customer may call at half five.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我先想周三三点，可只问了三个人，还有三个没答复。",
+        "py": "wǒ xiān xiǎng zhōu sān sān diǎn , kě zhǐ wèn le sān gè rén , hái yǒu sān gè méi dá fù .",
+        "en": "I first thought Wednesday at three, but have asked only three people; three haven’t replied.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我周三三点要见客户，这个时间不行。",
+        "py": "wǒ zhōu sān sān diǎn yào jiàn kè hù , zhè gè shí jiān bù xíng .",
+        "en": "I have a customer meeting Wednesday at three; that won’t work.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那周四三点呢？我先问完六个人，再发新安排。",
+        "py": "nà zhōu sì sān diǎn ne ? wǒ xiān wèn wán liù gè rén , zài fā xīn ān pái .",
+        "en": "What about Thursday at three? I’ll ask all six before sending a new schedule.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个可以。两周以后根据什么评估？",
+        "py": "zhè gè kě yǐ . liǎng zhōu yǐ hòu gēn jù shén me píng gū ?",
+        "en": "That works. What will you use for the assessment after two weeks?",
+        "speaker": "b"
+      },
+      {
+        "zh": "看开会和准备共用了多久，也看最后谁做什么有没有说清。",
+        "py": "kàn kāi huì hé zhǔn bèi gòng yòng le duō jiǔ , yě kàn zuì hòu shéi zuò shén me yǒu méi yǒu shuō qīng .",
+        "en": "Total meeting and preparation time, plus whether responsibilities were clear at the end.",
+        "speaker": "a"
+      },
+      {
+        "zh": "要是有个问题二十分钟讲不完呢？",
+        "py": "yào shì yǒu gè wèn tí èr shí fēn zhōng jiǎng bù wán ne ?",
+        "en": "What if a question can’t be finished in twenty minutes?",
+        "speaker": "b"
+      },
+      {
+        "zh": "先看需要谁。只有两个人相关，就另外约，不让其他四个一直等。",
+        "py": "xiān kàn xū yào shéi . zhǐ yǒu liǎng gè rén xiāng guān , jiù lìng wài yuē , bù ràng qí tā sì gè yì zhí děng .",
+        "en": "Check who is needed. If only two people are involved, arrange a separate time rather than keeping the other four waiting.",
+        "speaker": "a"
+      },
+      {
+        "zh": "但那个时间也要算进去。",
+        "py": "dàn nà gè shí jiān yě yào suàn jìn qù .",
+        "en": "But that time needs counting too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "对。不是换个名字，就不算开会了。",
+        "py": "duì . bù shì huàn gè míng zi , jiù bù suàn kāi huì le .",
+        "en": "Right. Renaming it doesn’t mean it stops being meeting time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，我可以试。材料最晚什么时候写？",
+        "py": "hǎo , wǒ kě yǐ shì . cái liào zuì wǎn shén me shí hou xiě ?",
+        "en": "Okay, I’ll try. When is the latest for writing the notes?",
+        "speaker": "b"
+      },
+      {
+        "zh": "周四中午以前。周二下班前，我先确认大家三点都方便。",
+        "py": "zhōu sì zhōng wǔ yǐ qián . zhōu èr xià bān qián , wǒ xiān què rèn dà jiā sān diǎn dōu fāng biàn .",
+        "en": "Before Thursday noon. Before leaving work Tuesday I’ll first confirm that three suits everyone.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那先等答复，别现在就告诉客户时间已经改好了。",
+        "py": "nà xiān děng dá fù , bié xiàn zài jiù gào sù kè hù shí jiān yǐ jīng gǎi hǎo le .",
+        "en": "Then wait for the replies. Don’t tell the customer the time has changed already.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "客户",
+        "pinyin": "kè hù",
+        "meaning": "customer; client"
+      },
+      {
+        "hanzi": "两周",
+        "pinyin": "liǎng zhōu",
+        "meaning": "two weeks"
+      },
+      {
+        "hanzi": "每点",
+        "pinyin": "měi diǎn",
+        "meaning": "each point"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What happens to the proposal?",
+        "choices": [
+          "A short trial is refined after timing and preparation objections",
+          "The first proposed time is imposed without replies",
+          "All meetings are abolished permanently"
+        ],
+        "answer": "A short trial is refined after timing and preparation objections"
+      },
+      {
+        "type": "detail",
+        "q": "How many replies were missing from the first availability check?",
+        "choices": [
+          "Three",
+          "Six",
+          "None"
+        ],
+        "answer": "Three"
+      },
+      {
+        "type": "inference",
+        "q": "Why count the separate two-person discussion?",
+        "choices": [
+          "Moving work elsewhere does not make its time disappear",
+          "All six must always join it",
+          "The new title guarantees it takes no time"
+        ],
+        "answer": "Moving work elsewhere does not make its time disappear"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s5-u07-r",
+    "title": "会短了，准备呢？",
+    "titleZh": "会短了，准备呢？",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "我们六个人每周四下午五点开会，一般聊四十五分钟。有时五点半客户打电话，一位同事就要出去接，回来又问刚才决定了什么。我想把会议改早、改短，出于方便大家的考虑，先提出周三三点、二十分钟。说出来时我觉得很简单，听到同事的问题，才发现自己只想到了会议里面的时间。",
+        "py": "wǒ men liù gè rén měi zhōu sì xià wǔ wǔ diǎn kāi huì , yì bān liáo sì shí wǔ fēn zhōng . yǒu shí wǔ diǎn bàn kè hù dǎ diàn huà , yī wèi tóng shì jiù yào chū qù jiē , huí lái yòu wèn gāng cái jué dìng le shén me . wǒ xiǎng bǎ huì yì gǎi zǎo , gǎi duǎn , chū yú fāng biàn dà jiā de kǎo lǜ , xiān tí chū zhōu sān sān diǎn , èr shí fēn zhōng . shuō chū lái shí wǒ jué de hěn jiǎn dān , tīng dào tóng shì de wèn tí , cái fā xiàn zì jǐ zhǐ xiǎng dào le huì yì lǐ miàn de shí jiān .",
+        "en": "Our six-person team met Thursdays at five for about forty-five minutes. A customer call at 5:30 sometimes took a colleague out, who then needed the decisions repeated. I proposed Wednesday at three for twenty minutes. It sounded simple until colleagues' questions showed I’d counted only time inside the meeting."
+      },
+      {
+        "zh": "第一个问题是准备材料。我建议每个人提前写三点，只讨论需要一起决定的事情。同事问，会开短了，材料会不会反而要做一整页。我说不用做一页，每点两三句话就好，后来也把准备时间放进记录里。短的目标不是把同样长的内容换个地方做，而是让大家先知道最需要决定的是什么。",
+        "py": "dì yī gè wèn tí shì zhǔn bèi cái liào . wǒ jiàn yì měi gè rén tí qián xiě sān diǎn , zhǐ tǎo lùn xū yào yì qǐ jué dìng de shì qíng . tóng shì wèn , huì kāi duǎn le , cái liào huì bù huì fǎn ér yào zuò yī zhěng yè . wǒ shuō bù yòng zuò yī yè , měi diǎn liǎng sān jù huà jiù hǎo , hòu lái yě bǎ zhǔn bèi shí jiān fàng jìn jì lù lǐ . duǎn de mù biāo bù shì bǎ tóng yàng zhǎng de nèi róng huàn gè dì fāng zuò , ér shì ràng dà jiā xiān zhī dào zuì xū yào jué dìng de shì shén me .",
+        "en": "I suggested three points in advance, discussing only joint decisions. A colleague worried preparation would become a full-page document. I proposed two or three sentences per point and included preparation time in the record. The goal wasn’t moving equally long work elsewhere, but identifying the most important decisions."
+      },
+      {
+        "zh": "第二个问题是时间。我只问了三个人，觉得三点大概方便，就先写进方案。另外一位说，周三三点要见客户，不能来。我这才把还没收到的答复和已经同意分开。我们换成周四三点这个选择，但没有立刻发通知。我到周二下班前问完六个人，收到答复以后才确定两周试用。",
+        "py": "dì èr gè wèn tí shì shí jiān . wǒ zhǐ wèn le sān gè rén , jué de sān diǎn dà gài fāng biàn , jiù xiān xiě jìn fāng àn . lìng wài yī wèi shuō , zhōu sān sān diǎn yào jiàn kè hù , bù néng lái . wǒ zhè cái bǎ hái méi shōu dào de dá fù hé yǐ jīng tóng yì fēn kāi . wǒ men huàn chéng zhōu sì sān diǎn zhè gè xuǎn zé , dàn méi yǒu lì kè fā tōng zhī . wǒ dào zhōu èr xià bān qián wèn wán liù gè rén , shōu dào dá fù yǐ hòu cái què dìng liǎng zhōu shì yòng .",
+        "en": "I had checked only three people’s availability and assumed three was likely suitable. Another had a customer appointment on Wednesday at three. I separated missing replies from agreement. We considered Thursday at three, but waited until all six had replied before Tuesday’s finish to confirm the two-week trial."
+      },
+      {
+        "zh": "第一次按新安排开会，我准备三点用了五分钟，会议用了十八分钟。有人没有问题要一起决定，就简单说这周按原安排继续。大家结束时知道谁负责联系场地、谁问人数、谁确认客户的时间。我觉得轻松了一些，不过没有说十八分钟本身就能证明有成效；如果结束以后还得四处问刚才决定了什么，短也没有解决问题。",
+        "py": "dì yī cì àn xīn ān pái kāi huì , wǒ zhǔn bèi sān diǎn yòng le wǔ fēn zhōng , huì yì yòng le shí bā fēn zhōng . yǒu rén méi yǒu wèn tí yào yì qǐ jué dìng , jiù jiǎn dān shuō zhè zhōu àn yuán ān pái jì xù . dà jiā jié shù shí zhī dào shéi fù zé lián xì chǎng dì , shéi wèn rén shù , shéi què rèn kè hù de shí jiān . wǒ jué de qīng sōng le yī xiē , bù guò méi yǒu shuō shí bā fēn zhōng běn shēn jiù néng zhèng míng yǒu chéng xiào ; rú guǒ jié shù yǐ hòu hái děi sì chù wèn gāng cái jué dìng le shén me , duǎn yě méi yǒu jiě jué wèn tí .",
+        "en": "In the first trial I spent five minutes preparing and eighteen in the meeting. People without joint questions briefly confirmed existing work. At the end responsibilities for venue, numbers and customer time were clear. I felt relief, without treating eighteen minutes alone as proof of effectiveness; having to chase decisions afterwards would still be a problem."
+      },
+      {
+        "zh": "第二次有一个场地问题。原来能用的房间临时要维修，活动是否改到室内，和采购什么东西都有关系。我们用了二十六分钟，没有在二十分钟一到就假装问题已经讲完。最后两个负责的人又谈了十分钟，我也是其中一个。那天我准备材料用了十二分钟，把自己的时间加起来，一共四十八分钟，比第一次多得很明显。",
+        "py": "dì èr cì yǒu yī gè chǎng dì wèn tí . yuán lái néng yòng de fáng jiān lín shí yào wéi xiū , huó dòng shì fǒu gǎi dào shì nèi , hé cǎi gòu shén me dōng xi dōu yǒu guān xì . wǒ men yòng le èr shí liù fēn zhōng , méi yǒu zài èr shí fēn zhōng yī dào jiù jiǎ zhuāng wèn tí yǐ jīng jiǎng wán . zuì hòu liǎng gè fù zé de rén yòu tán le shí fēn zhōng , wǒ yě shì qí zhōng yī gè . nà tiān wǒ zhǔn bèi cái liào yòng le shí èr fēn zhōng , bǎ zì jǐ de shí jiān jiā qǐ lái , yī gòng sì shí bā fēn zhōng , bǐ dì yī cì duō de hěn míng xiǎn .",
+        "en": "The second trial involved room repairs affecting the indoor venue and purchases. We took twenty-six minutes rather than pretending the issue was finished at twenty. Two responsible people, including me, then talked for ten minutes. With my twelve-minute preparation, my total was forty-eight minutes, noticeably more than the first trial."
+      },
+      {
+        "zh": "同事提醒，四十八分钟不能直接和以前四十五分钟相比，因为以前我们只记过会议时间，没有记我准备了多久。他说得对。我们能看出这次有额外工作，也能发现哪部分需要改，但还不能说整个方案一定省时间。把没记录的时间当成零，结果就会看起来比实际好；拿一次有问题的会当作所有会议，也会太快下结论。",
+        "py": "tóng shì tí xǐng , sì shí bā fēn zhōng bù néng zhí jiē hé yǐ qián sì shí wǔ fēn zhōng xiāng bǐ , yīn wèi yǐ qián wǒ men zhǐ jì guò huì yì shí jiān , méi yǒu jì wǒ zhǔn bèi le duō jiǔ . tā shuō de duì . wǒ men néng kàn chū zhè cì yǒu é wài gōng zuò , yě néng fā xiàn nǎ bù fèn xū yào gǎi , dàn hái bù néng shuō zhěng gè fāng àn yí dìng shěng shí jiān . bǎ méi jì lù de shí jiān dàng chéng líng , jié guǒ jiù huì kàn qǐ lái bǐ shí jì hǎo ; ná yī cì yǒu wèn tí de huì dàng zuò suǒ yǒu huì yì , yě huì tài kuài xià jié lùn .",
+        "en": "A colleague noted that forty-eight couldn’t directly be compared with the old forty-five: we’d recorded only the old meeting, not my preparation. We could identify extra work and revisions, but not claim the whole plan saved time. Treating unrecorded time as zero would flatter the result, while one problematic meeting couldn’t represent them all."
+      },
+      {
+        "zh": "两周以后，我们先保留周四三点，再调整材料。每个人除了三点，也写一句最需要谁回答；只有两个人相关的细节，能提前问就提前问。采购的人要知道实际数量，不用等全组都看完颜色和包装。我们没有减少需要一起决定的问题，只把不需要六个人一起等的内容分开，另外花的时间仍然记录。",
+        "py": "liǎng zhōu yǐ hòu , wǒ men xiān bǎo liú zhōu sì sān diǎn , zài tiáo zhěng cái liào . měi gè rén chú le sān diǎn , yě xiě yī jù zuì xū yào shéi huí dá ; zhǐ yǒu liǎng gè rén xiāng guān de xì jié , néng tí qián wèn jiù tí qián wèn . cǎi gòu de rén yào zhī dào shí jì shù liàng , bù yòng děng quán zǔ dōu kàn wán yán sè hé bāo zhuāng . wǒ men méi yǒu jiǎn shǎo xū yào yì qǐ jué dìng de wèn tí , zhǐ bǎ bù xū yào liù gè rén yì qǐ děng de nèi róng fēn kāi , lìng wài huā de shí jiān réng rán jì lù .",
+        "en": "After two weeks we kept Thursday at three and added who needed to answer each question. Details involving only two people could be checked earlier. Purchasers needed actual quantities without waiting for everyone to inspect colours and packaging. We separated work not requiring all six while still recording the additional time."
+      },
+      {
+        "zh": "这个方案从最初一个简单想法，变成了有条件的尝试。有人愿意试，有人先问代价，都帮我看见没想到的地方。我们没有因为第二次用了二十六分钟，就把所有内容恢复到原样，也没有因为第一次只有十八分钟，就说以后只能这样。接下来再记录两周，把问题和改法一起留下，才知道哪些部分值得继续。",
+        "py": "zhè gè fāng àn cóng zuì chū yī gè jiǎn dān xiǎng fǎ , biàn chéng le yǒu tiáo jiàn de cháng shì . yǒu rén yuàn yì shì , yǒu rén xiān wèn dài jià , dōu bāng wǒ kàn jiàn méi xiǎng dào de dì fāng . wǒ men méi yǒu yīn wèi dì èr cì yòng le èr shí liù fēn zhōng , jiù bǎ suǒ yǒu nèi róng huī fù dào yuán yàng , yě méi yǒu yīn wèi dì yī cì zhǐ yǒu shí bā fēn zhōng , jiù shuō yǐ hòu zhǐ néng zhè yàng . jiē xià lái zài jì lù liǎng zhōu , bǎ wèn tí hé gǎi fǎ yì qǐ liú xià , cái zhī dào nǎ xiē bù fèn zhí de jì xù .",
+        "en": "The simple idea became a conditional trial. Willingness and objections both exposed gaps. We didn’t restore everything after the twenty-six-minute meeting or make the eighteen-minute one a permanent rule. Two more weeks of recording problems and revisions would show which parts deserved keeping."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "采购",
+        "pinyin": "cǎi gòu",
+        "meaning": "purchasing"
+      },
+      {
+        "hanzi": "场地",
+        "pinyin": "chǎng dì",
+        "meaning": "venue"
+      },
+      {
+        "hanzi": "维修",
+        "pinyin": "wéi xiū",
+        "meaning": "maintenance; repair"
+      },
+      {
+        "hanzi": "客户",
+        "pinyin": "kè hù",
+        "meaning": "customer; client"
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōng zhī",
+        "meaning": "notice; notify"
+      },
+      {
+        "hanzi": "包装",
+        "pinyin": "bāo zhuāng",
+        "meaning": "packaging"
+      },
+      {
+        "hanzi": "两周",
+        "pinyin": "liǎng zhōu",
+        "meaning": "two weeks"
+      },
+      {
+        "hanzi": "每点",
+        "pinyin": "měi diǎn",
+        "meaning": "each point"
+      },
+      {
+        "hanzi": "记录",
+        "pinyin": "jì lù",
+        "meaning": "record; written record"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What supports continuing to assess the plan?",
+        "choices": [
+          "Recording different kinds of time and clarity of responsibilities",
+          "Treating the shortest meeting as permanent proof",
+          "Ignoring preparation in both trials"
+        ],
+        "answer": "Recording different kinds of time and clarity of responsibilities"
+      },
+      {
+        "type": "detail",
+        "q": "What is the narrator’s second-trial total?",
+        "choices": [
+          "Forty-eight minutes",
+          "Twenty-six minutes including everything",
+          "Eighteen minutes including everything"
+        ],
+        "answer": "Forty-eight minutes"
+      },
+      {
+        "type": "inference",
+        "q": "Why cannot forty-eight be directly compared with the old forty-five?",
+        "choices": [
+          "The old figure excludes unrecorded preparation",
+          "Forty-eight is actually less than forty-five",
+          "The old meeting had no participants"
+        ],
+        "answer": "The old figure excludes unrecorded preparation"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s5-u07-media",
+      "title": "One very long sentence",
+      "titleZh": "One very long sentence",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "三点都写好了？",
+          "py": "sān diǎn dōu xiě hǎo le ?",
+          "en": "Have you written all three points?",
+          "speaker": "a"
+        },
+        {
+          "zh": "写好了，每点三句话。",
+          "py": "xiě hǎo le , měi diǎn sān jù huà .",
+          "en": "Yes, three sentences per point.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这个第三句有多长？",
+          "py": "zhè gè dì sān jù yǒu duō zhǎng ?",
+          "en": "How long is this third sentence?",
+          "speaker": "a"
+        },
+        {
+          "zh": "有一点长。",
+          "py": "yǒu yī diǎn zhǎng .",
+          "en": "A little long.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我读了两分钟，还没看到句号。",
+          "py": "wǒ dú le liǎng fēn zhōng , hái méi kàn dào jù hào .",
+          "en": "I’ve been reading two minutes without reaching a full stop.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好吧，不是把一页连成一句就算短。",
+          "py": "hǎo ba , bù shì bǎ yī yè lián chéng yī jù jiù suàn duǎn .",
+          "en": "Okay, joining a whole page into one sentence doesn’t make it short.",
+          "speaker": "b"
+        },
+        {
+          "zh": "先把最想让大家决定的写出来。",
+          "py": "xiān bǎ zuì xiǎng ràng dà jiā jué dìng de xiě chū lái .",
+          "en": "Start with what you most want everyone to decide.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这个我一句就能说：活动要不要改到室内？",
+          "py": "zhè gè wǒ yī jù jiù néng shuō : huó dòng yào bù yào gǎi dào shì nèi ?",
+          "en": "I can say that in one sentence: should the event move indoors?",
+          "speaker": "b"
+        },
+        {
+          "zh": "理由呢？",
+          "py": "lǐ yóu ne ?",
+          "en": "And the reason?",
+          "speaker": "a"
+        },
+        {
+          "zh": "天气预报说下午有雨，外面没有能放东西的屋子。",
+          "py": "tiān qì yù bào shuō xià wǔ yǒu yǔ , wài miàn méi yǒu néng fàng dōng xi de wū zi .",
+          "en": "The forecast says rain this afternoon, and there’s no room outside to store things.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这就清楚了。两句，不是两页。",
+          "py": "zhè jiù qīng chǔ le . liǎng jù , bù shì liǎng yè .",
+          "en": "That is clear. Two sentences, not two pages.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你今天这个批评，我接受。",
+          "py": "nǐ jīn tiān zhè gè pī píng , wǒ jiē shòu .",
+          "en": "I accept that criticism today.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "句号",
+          "pinyin": "jù hào",
+          "meaning": "full stop"
+        },
+        {
+          "hanzi": "每点",
+          "pinyin": "měi diǎn",
+          "meaning": "each point"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What makes the third sentence seem long?",
+          "choices": [
+            "The colleague reads for two minutes without reaching a full stop",
+            "It contains only one word",
+            "It is a shopping receipt with a stated total"
+          ],
+          "answer": "The colleague reads for two minutes without reaching a full stop"
+        },
+        {
+          "type": "inference",
+          "q": "What does the tease point out?",
+          "choices": [
+            "Joining a page into one sentence does not make the explanation concise",
+            "Every short note is automatically wrong",
+            "The colleague rejects all criticism"
+          ],
+          "answer": "Joining a page into one sentence does not make the explanation concise"
+        }
+      ]
+    },
+    {
+      "id": "s5-u07-word-notebook",
+      "title": "A proposal that can answer objections: words in context",
+      "titleZh": "会短了，准备呢？ · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这个方案的成本不只是买东西的钱。",
+          "py": "zhè gè fāng àn de chéng běn bù zhǐ shì mǎi dōng xi de qián .",
+          "en": "The cost of this plan is not only the money for purchases."
+        },
+        {
+          "zh": "换地方以后，我们重新算了成本。",
+          "py": "huàn dì fāng yǐ hòu , wǒ men chóng xīn suàn le chéng běn .",
+          "en": "After changing the venue, we recalculated the cost."
+        },
+        {
+          "zh": "安排写好了，还要问谁来执行。",
+          "py": "ān pái xiě hǎo le , hái yào wèn shéi lái zhí xíng .",
+          "en": "The plan is written, but we need to ask who will carry it out."
+        },
+        {
+          "zh": "执行的时候发现问题，就及时记下来。",
+          "py": "zhí xíng de shí hou fā xiàn wèn tí , jiù jí shí jì xià lái .",
+          "en": "Record problems promptly when carrying it out."
+        },
+        {
+          "zh": "先试两周，再评估有没有帮助。",
+          "py": "xiān shì liǎng zhōu , zài píng gū yǒu méi yǒu bāng zhù .",
+          "en": "Try it for two weeks, then assess whether it helps."
+        },
+        {
+          "zh": "这次评估包括时间和实际工作。",
+          "py": "zhè cì píng gū bāo kuò shí jiān hé shí jì gōng zuò .",
+          "en": "This assessment covers both time and actual work."
+        },
+        {
+          "zh": "你选这个时间，有什么依据？",
+          "py": "nǐ xuǎn zhè gè shí jiān , yǒu shén me yī jù ?",
+          "en": "On what grounds did you choose this time?"
+        },
+        {
+          "zh": "意见不同，我们就一起看依据。",
+          "py": "yì jiàn bù tóng , wǒ men jiù yì qǐ kàn yī jù .",
+          "en": "When opinions differ, we look at the evidence together."
+        },
+        {
+          "zh": "总体看，大家想缩短会议，但不想少了解问题。",
+          "py": "zǒng tǐ kàn , dà jiā xiǎng suō duǎn huì yì , dàn bù xiǎng shǎo liǎo jiě wèn tí .",
+          "en": "Overall, people want shorter meetings without learning less about problems."
+        },
+        {
+          "zh": "总体情况还可以，有两处需要改。",
+          "py": "zǒng tǐ qíng kuàng hái kě yǐ , yǒu liǎng chù xū yào gǎi .",
+          "en": "Overall things are okay, with two points to change."
+        },
+        {
+          "zh": "提前写出问题，便于大家准备。",
+          "py": "tí qián xiě chū wèn tí , biàn yú dà jiā zhǔn bèi .",
+          "en": "Writing the questions beforehand helps everyone prepare."
+        },
+        {
+          "zh": "把材料放在同一个地方，便于查找。",
+          "py": "bǎ cái liào fàng zài tóng yī gè dì fāng , biàn yú chá zhǎo .",
+          "en": "Keeping materials in one place makes them easier to find."
+        },
+        {
+          "zh": "时间有变动，请再确认一次。",
+          "py": "shí jiān yǒu biàn dòng , qǐng zài què rèn yī cì .",
+          "en": "If the time changes, please confirm again."
+        },
+        {
+          "zh": "人员变动以后，这部分没人负责。",
+          "py": "rén yuán biàn dòng yǐ hòu , zhè bù fèn méi rén fù zé .",
+          "en": "After the staff change, nobody was responsible for this section."
+        },
+        {
+          "zh": "我们还没达成一致，先不要发通知。",
+          "py": "wǒ men hái méi dá chéng yí zhì , xiān bú yào fā tōng zhī .",
+          "en": "We have not reached agreement; do not send the notice yet."
+        },
+        {
+          "zh": "两边达成了一个先试两周的安排。",
+          "py": "liǎng biān dá chéng le yī gè xiān shì liǎng zhōu de ān pái .",
+          "en": "The two sides reached an agreement to try it for two weeks."
+        },
+        {
+          "zh": "会开得短，不一定代表有成效。",
+          "py": "huì kāi de duǎn , bù yí dìng dài biǎo yǒu chéng xiào .",
+          "en": "A short meeting does not necessarily mean it is effective."
+        },
+        {
+          "zh": "这个办法的成效要看后面的情况。",
+          "py": "zhè gè bàn fǎ de chéng xiào yào kàn hòu miàn de qíng kuàng .",
+          "en": "The effectiveness of this approach depends on what follows."
+        },
+        {
+          "zh": "我还在等另外三个人的答复。",
+          "py": "wǒ hái zài děng lìng wài sān gè rén de dá fù .",
+          "en": "I am still waiting for three other people’s replies."
+        },
+        {
+          "zh": "收到答复以后，我才改了时间。",
+          "py": "shōu dào dá fù yǐ hòu , wǒ cái gǎi le shí jiān .",
+          "en": "I changed the time only after receiving a reply."
+        },
+        {
+          "zh": "你帮我传达一下这次的变动。",
+          "py": "nǐ bāng wǒ chuán dá yī xià zhè cì de biàn dòng .",
+          "en": "Please pass on this change for me."
+        },
+        {
+          "zh": "只传达结论，不传达原因，容易误会。",
+          "py": "zhǐ chuán dá jié lùn , bù chuán dá yuán yīn , róng yì wù huì .",
+          "en": "Conveying the conclusion without the reason can cause misunderstandings."
+        },
+        {
+          "zh": "这张纸从前排传递到后排。",
+          "py": "zhè zhāng zhǐ cóng qián pái chuán dì dào hòu pái .",
+          "en": "The paper was passed from the front row to the back."
+        },
+        {
+          "zh": "消息传递了几次，开会时间就被说错了。",
+          "py": "xiāo xī chuán dì le jǐ cì , kāi huì shí jiān jiù bèi shuō cuò le .",
+          "en": "After the message passed through several people, the meeting time was misreported."
+        },
+        {
+          "zh": "六个人都方便的时间不易找到。",
+          "py": "liù gè rén dōu fāng biàn de shí jiān bù yì zhǎo dào .",
+          "en": "A time convenient for all six is hard to find."
+        },
+        {
+          "zh": "这个名字不易记，我们再写一遍。",
+          "py": "zhè gè míng zi bù yì jì , wǒ men zài xiě yī biàn .",
+          "en": "This name is hard to remember; let’s write it again."
+        },
+        {
+          "zh": "我出于方便客户的考虑，想把会议提前。",
+          "py": "wǒ chū yú fāng biàn kè hù de kǎo lǜ , xiǎng bǎ huì yì tí qián .",
+          "en": "I want to move the meeting earlier for the customers' convenience."
+        },
+        {
+          "zh": "她出于好意提醒我，却没有替我做决定。",
+          "py": "tā chū yú hǎo yì tí xǐng wǒ , què méi yǒu tì wǒ zuò jué dìng .",
+          "en": "She reminded me with good intentions without deciding for me."
+        },
+        {
+          "zh": "先写清需要谁回答，从而减少来回找人的时间。",
+          "py": "xiān xiě qīng xū yào shéi huí dá , cóng ér jiǎn shǎo lái huí zhǎo rén de shí jiān .",
+          "en": "Identify who should answer first, thereby reducing time spent looking for people."
+        },
+        {
+          "zh": "我们把重复的内容合在一起，从而缩短了介绍。",
+          "py": "wǒ men bǎ chóng fù de nèi róng hé zài yì qǐ , cóng ér suō duǎn le jiè shào .",
+          "en": "We combined repeated material and thereby shortened the introduction."
+        },
+        {
+          "zh": "只看时间，这个标准太单一。",
+          "py": "zhǐ kàn shí jiān , zhè gè biāo zhǔn tài dān yī .",
+          "en": "Looking only at time is too one-dimensional a criterion."
+        },
+        {
+          "zh": "这里的工作不单一，除了介绍，还要回答问题。",
+          "py": "zhè lǐ de gōng zuò bù dān yī , chú le jiè shào , hái yào huí dá wèn tí .",
+          "en": "The work here is varied: introducing things and answering questions."
+        },
+        {
+          "zh": "初期先用简单的表，不急着加功能。",
+          "py": "chū qī xiān yòng jiǎn dān de biǎo , bù jí zhe jiā gōng néng .",
+          "en": "Use a simple form initially rather than rushing to add functions."
+        },
+        {
+          "zh": "活动初期，大家还不知道去哪里登记。",
+          "py": "huó dòng chū qī , dà jiā hái bù zhī dào qù nǎ lǐ dēng jì .",
+          "en": "Early in the event, people did not know where to register."
+        },
+        {
+          "zh": "计划和实际时间还有差距。",
+          "py": "jì huà hé shí jì shí jiān hái yǒu chā jù .",
+          "en": "There is still a gap between planned and actual time."
+        },
+        {
+          "zh": "两次结果的差距不大，别只说好很多。",
+          "py": "liǎng cì jié guǒ de chā jù bù dà , bié zhǐ shuō hǎo hěn duō .",
+          "en": "The gap between the two results is small; do not merely call it much better."
+        },
+        {
+          "zh": "采购之前，先确认数量和价格。",
+          "py": "cǎi gòu zhī qián , xiān què rèn shù liàng hé jià gé .",
+          "en": "Confirm quantity and price before purchasing."
+        },
+        {
+          "zh": "她负责采购，我负责把东西送过去。",
+          "py": "tā fù zé cǎi gòu , wǒ fù zé bǎ dōng xi sòng guò qù .",
+          "en": "She handles purchases, and I take the items there."
+        },
+        {
+          "zh": "这次活动有交通补贴，具体金额写在通知里。",
+          "py": "zhè cì huó dòng yǒu jiāo tōng bǔ tiē , jù tǐ jīn é xiě zài tōng zhī lǐ .",
+          "en": "This event has a travel allowance; the exact amount is in the notice."
+        },
+        {
+          "zh": "补贴还没到账，我们先问负责的人。",
+          "py": "bǔ tiē hái méi dào zhàng , wǒ men xiān wèn fù zé de rén .",
+          "en": "The allowance has not arrived; we will ask the person responsible."
+        },
+        {
+          "zh": "把原因和办法分开说，层次会清楚一些。",
+          "py": "bǎ yuán yīn hé bàn fǎ fēn kāi shuō , céng cì huì qīng chǔ yī xiē .",
+          "en": "Separating reasons and solutions gives the explanation clearer structure."
+        },
+        {
+          "zh": "这篇文章层次很清楚，每一段都有重点。",
+          "py": "zhè piān wén zhāng céng cì hěn qīng chǔ , měi yī duàn dōu yǒu zhòng diǎn .",
+          "en": "The article has a clear structure, with a focus in each paragraph."
+        },
+        {
+          "zh": "如果少开会的代价是大家不知道该做什么，就要再改。",
+          "py": "rú guǒ shǎo kāi huì de dài jià shì dà jiā bù zhī dào gāi zuò shén me , jiù yào zài gǎi .",
+          "en": "If fewer meetings leave people unsure what to do, we need another revision."
+        },
+        {
+          "zh": "省了钱，却花了很多时间，这也是代价。",
+          "py": "shěng le qián , què huā le hěn duō shí jiān , zhè yě shì dài jià .",
+          "en": "Money was saved but much time spent; that is a cost too."
+        },
+        {
+          "zh": "我们先说大致安排，具体时间等答复。",
+          "py": "wǒ men xiān shuō dà zhì ān pái , jù tǐ shí jiān děng dá fù .",
+          "en": "We will give the rough plan first and await replies for exact times."
+        },
+        {
+          "zh": "我大致明白了，还想问两个细节。",
+          "py": "wǒ dà zhì míng bái le , hái xiǎng wèn liǎng gè xì jié .",
+          "en": "I roughly understand but want to ask about two details."
+        },
+        {
+          "zh": "我们可以尝试两周，不必一次定一年。",
+          "py": "wǒ men kě yǐ cháng shì liǎng zhōu , bù bì yī cì dìng yī nián .",
+          "en": "We can try for two weeks rather than fixing a whole year at once."
+        },
+        {
+          "zh": "第一次尝试没有成功，她换了一个方法。",
+          "py": "dì yī cì cháng shì méi yǒu chéng gōng , tā huàn le yī gè fāng fǎ .",
+          "en": "Her first attempt failed, so she tried another approach."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "采购",
+          "pinyin": "cǎi gòu",
+          "meaning": "purchasing"
+        },
+        {
+          "hanzi": "客户",
+          "pinyin": "kè hù",
+          "meaning": "customer; client"
+        },
+        {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "meaning": "notice; notify"
+        },
+        {
+          "hanzi": "前排",
+          "pinyin": "qián pái",
+          "meaning": "front row"
+        },
+        {
+          "hanzi": "后排",
+          "pinyin": "hòu pái",
+          "meaning": "back row"
+        },
+        {
+          "hanzi": "好意",
+          "pinyin": "hǎo yì",
+          "meaning": "good intentions"
+        },
+        {
+          "hanzi": "标准",
+          "pinyin": "biāo zhǔn",
+          "meaning": "criterion; standard"
+        },
+        {
+          "hanzi": "两周",
+          "pinyin": "liǎng zhōu",
+          "meaning": "two weeks"
+        },
+        {
+          "hanzi": "人员",
+          "pinyin": "rén yuán",
+          "meaning": "personnel"
+        },
+        {
+          "hanzi": "到账",
+          "pinyin": "dào zhàng",
+          "meaning": "be credited to an account"
+        },
+        {
+          "hanzi": "登记",
+          "pinyin": "dēng jì",
+          "meaning": "register; sign in"
+        },
+        {
+          "hanzi": "缩短",
+          "pinyin": "suō duǎn",
+          "meaning": "shorten"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s5-u07-paired-reading",
+      "title": "The colleague who raises objections",
+      "titleZh": "The colleague who raises objections",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "同事提出把会改到周三三点，我先说这个时间不行。我那天下午要见客户，时间已经约好，不想因为内部会议再改。我担心他把这个回答理解成我反对所有变化，就补了一句：改短可以试，但要先问完大家。我们讨论的不是谁更愿意合作，而是哪个安排真的能让六个人到场。",
+          "py": "tóng shì tí chū bǎ huì gǎi dào zhōu sān sān diǎn , wǒ xiān shuō zhè gè shí jiān bù xíng . wǒ nà tiān xià wǔ yào jiàn kè hù , shí jiān yǐ jīng yuē hǎo , bù xiǎng yīn wèi nèi bù huì yì zài gǎi . wǒ dān xīn tā bǎ zhè gè huí dá lǐ jiě chéng wǒ fǎn duì suǒ yǒu biàn huà , jiù bǔ le yī jù : gǎi duǎn kě yǐ shì , dàn yào xiān wèn wán dà jiā . wǒ men tǎo lùn de bù shì shéi gèng yuàn yì hé zuò , ér shì nǎ gè ān pái zhēn de néng ràng liù gè rén dào chǎng .",
+          "en": "When the colleague proposed Wednesday at three, I objected because of a confirmed customer appointment. I clarified I wasn’t rejecting every change: shorter meetings were worth trying after checking everyone’s availability. The issue wasn’t who was more cooperative, but what actually let all six attend."
+        },
+        {
+          "zh": "他说只收到三个人答复，我问另外三个人怎么办。没答复的人可能还没看见，也可能要确认自己的安排，不能算作同意。后来他问了周四三点，到周二下班前收齐回复，才发通知。我看见这个过程，比较放心，因为新时间不是一边说要确认，一边已经替所有人答应。",
+          "py": "tā shuō zhǐ shōu dào sān gè rén dá fù , wǒ wèn lìng wài sān gè rén zěn me bàn . méi dá fù de rén kě néng hái méi kàn jiàn , yě kě néng yào què rèn zì jǐ de ān pái , bù néng suàn zuò tóng yì . hòu lái tā wèn le zhōu sì sān diǎn , dào zhōu èr xià bān qián shōu qí huí fù , cái fā tōng zhī . wǒ kàn jiàn zhè gè guò chéng , bǐ jiào fàng xīn , yīn wèi xīn shí jiān bù shì yī biān shuō yào què rèn , yī biān yǐ jīng tì suǒ yǒu rén dā yìng .",
+          "en": "Only three replies had arrived. Others might not have seen the request or might need to check their calendars, so silence wasn’t agreement. He checked Thursday at three and sent notice only after receiving all replies before Tuesday’s finish. That process reassured me; confirmation wasn’t promised after deciding on everyone’s behalf."
+        },
+        {
+          "zh": "我还问了材料的长度。以前我参加过一种很短的会，每个人会前要做很长的介绍，结果会议时间少了，准备时间更多。这个同事听完，没有说我想得太多，而是把记录增加到包括准备。他也同意每点只写两三句，先说明问题，不需要把所有背景都写成一个新的报告。",
+          "py": "wǒ hái wèn le cái liào de cháng dù . yǐ qián wǒ cān jiā guò yī zhǒng hěn duǎn de huì , měi gè rén huì qián yào zuò hěn zhǎng de jiè shào , jié guǒ huì yì shí jiān shǎo le , zhǔn bèi shí jiān gèng duō . zhè gè tóng shì tīng wán , méi yǒu shuō wǒ xiǎng de tài duō , ér shì bǎ jì lù zēng jiā dào bāo kuò zhǔn bèi . tā yě tóng yì měi diǎn zhǐ xiě liǎng sān jù , xiān shuō míng wèn tí , bù xū yào bǎ suǒ yǒu bèi jǐng dōu xiě chéng yī gè xīn de bào gào .",
+          "en": "I’d attended short meetings requiring long advance presentations, cutting meeting time but increasing preparation. He listened and included preparation in the record. Each point would be two or three sentences identifying a problem, rather than making all background into a new report."
+        },
+        {
+          "zh": "第一次十八分钟结束，我知道自己下午要确认哪几个客户的时间，没有再去问一次。这个结果对我比十八这个数字更重要。另一个同事负责场地，结束前发现自己漏听了人数，就当场问清。我们没有为了守住二十分钟，把他的问题留到一封又一封邮件里，反而趁大家在一起补了一句。",
+          "py": "dì yī cì shí bā fēn zhōng jié shù , wǒ zhī dào zì jǐ xià wǔ yào què rèn nǎ jǐ gè kè hù de shí jiān , méi yǒu zài qù wèn yī cì . zhè gè jié guǒ duì wǒ bǐ shí bā zhè gè shù zì gèng zhòng yào . lìng yī gè tóng shì fù zé chǎng dì , jié shù qián fā xiàn zì jǐ lòu tīng le rén shù , jiù dāng chǎng wèn qīng . wǒ men méi yǒu wèi le shǒu zhù èr shí fēn zhōng , bǎ tā de wèn tí liú dào yī fēng yòu yī fēng yóu jiàn lǐ , fǎn ér chèn dà jiā zài yì qǐ bǔ le yī jù .",
+          "en": "After the first eighteen-minute meeting I knew which customer times to confirm. That mattered more than the number eighteen. The venue organiser clarified a missed attendance number before finishing. We didn’t protect twenty minutes by sending the question into repeated later emails; we settled it together."
+        },
+        {
+          "zh": "第二次场地要维修，采购和活动安排都受到影响。会开了二十六分钟，后来还有两个人继续谈。我不是那两个人，就回去确认客户的时间。快下班时，准备材料的同事过来问我记录放在哪里，我把表打开给他看：我只参加了前面的会议，后面十分钟是他和另一个人的。他说对，那一段要另写，别把我的时间也算进去。",
+          "py": "dì èr cì chǎng dì yào wéi xiū , cǎi gòu hé huó dòng ān pái dōu shòu dào yǐng xiǎng . huì kāi le èr shí liù fēn zhōng , hòu lái hái yǒu liǎng gè rén jì xù tán . wǒ bù shì nà liǎng gè rén , jiù huí qù què rèn kè hù de shí jiān . kuài xià bān shí , zhǔn bèi cái liào de tóng shì guò lái wèn wǒ jì lù fàng zài nǎ lǐ , wǒ bǎ biǎo dǎ kāi gěi tā kàn : wǒ zhǐ cān jiā le qián miàn de huì yì , hòu miàn shí fēn zhōng shì tā hé lìng yī gè rén de . tā shuō duì , nà yī duàn yào lìng xiě , bié bǎ wǒ de shí jiān yě suàn jìn qù .",
+          "en": "Repairs to the venue affected both purchasing and activity plans. The meeting lasted twenty-six minutes, then two people continued. I wasn't one of them and returned to confirming customer times. Near the end of the day my colleague asked where the records were. I showed him: I'd attended only the main meeting; the extra ten minutes belonged to him and someone else. Right, he said—record it separately rather than adding it to my time."
+        },
+        {
+          "zh": "准备材料最多的同事说自己那天一共用了四十八分钟。我提醒他，以前的准备没有记录，四十五只是会议本身。我们不是想让数字永远好看，也不是一看到增加就停止。知道旧记录少了什么，才能公平一点比较。后来我们把记录写得更具体，会议、个人准备、另外讨论分别记，不把所有时间混在同一个格子里。",
+          "py": "zhǔn bèi cái liào zuì duō de tóng shì shuō zì jǐ nà tiān yī gòng yòng le sì shí bā fēn zhōng . wǒ tí xǐng tā , yǐ qián de zhǔn bèi méi yǒu jì lù , sì shí wǔ zhǐ shì huì yì běn shēn . wǒ men bù shì xiǎng ràng shù zì yǒng yuǎn hǎo kàn , yě bù shì yī kàn dào zēng jiā jiù tíng zhǐ . zhī dào jiù jì lù shǎo le shén me , cái néng gōng píng yī diǎn bǐ jiào . hòu lái wǒ men bǎ jì lù xiě de gèng jù tǐ , huì yì , gè rén zhǔn bèi , lìng wài tǎo lùn fēn bié jì , bù bǎ suǒ yǒu shí jiān hùn zài tóng yī gè gé zi lǐ .",
+          "en": "The colleague with the most preparation reported forty-eight total minutes. I reminded him the old forty-five was only the meeting. We weren’t trying to flatter numbers or stop at any increase. Understanding the missing baseline allowed fairer comparison. We recorded meetings, personal preparation and separate discussion in different fields."
+        },
+        {
+          "zh": "两周的尝试结束，我同意继续周四三点，但提出新的问题：如果客户临时需要联系，有没有办法先把我负责的内容说完。我不要求每次都排第一，只希望有变化时能协调。对方说先问当天有没有急的事情，再决定顺序。我觉得这样比一年固定一种顺序更符合我们的工作，也还需要在后面试。",
+          "py": "liǎng zhōu de cháng shì jié shù , wǒ tóng yì jì xù zhōu sì sān diǎn , dàn tí chū xīn de wèn tí : rú guǒ kè hù lín shí xū yào lián xì , yǒu méi yǒu bàn fǎ xiān bǎ wǒ fù zé de nèi róng shuō wán . wǒ bú yào qiú měi cì dōu pái dì yī , zhǐ xī wàng yǒu biàn huà shí néng xié tiáo . duì fāng shuō xiān wèn dàng tiān yǒu méi yǒu jí de shì qíng , zài jué dìng shùn xù . wǒ jué de zhè yàng bǐ yī nián gù dìng yī zhǒng shùn xù gèng fú hé wǒ men de gōng zuò , yě hái xū yào zài hòu miàn shì .",
+          "en": "After two weeks I supported keeping Thursday at three and asked about covering my items early if a customer unexpectedly needed me. I wasn’t demanding always going first. We would check urgent matters and set an order each day. That seemed better suited to our work than a year-long fixed sequence, though still needing trials."
+        },
+        {
+          "zh": "我对这个方案的评价，不是同意的人多就一定好，也不是有人提反对就一定不行。最有用的变化是大家能说明原因，再把实际办法改出来。提出想法的人没有失去面子，提问题的人也没有被叫作不合作。我们还会有分歧，但至少知道下次该拿什么情况来谈，而不是只说我觉得快、你觉得慢。",
+          "py": "wǒ duì zhè gè fāng àn de píng jià , bù shì tóng yì de rén duō jiù yí dìng hǎo , yě bù shì yǒu rén tí fǎn duì jiù yí dìng bù xíng . zuì yǒu yòng de biàn huà shì dà jiā néng shuō míng yuán yīn , zài bǎ shí jì bàn fǎ gǎi chū lái . tí chū xiǎng fǎ de rén méi yǒu shī qù miàn zi , tí wèn tí de rén yě méi yǒu bèi jiào zuò bù hé zuò . wǒ men hái huì yǒu fēn qí , dàn zhì shǎo zhī dào xià cì gāi ná shén me qíng kuàng lái tán , ér bù shì zhǐ shuō wǒ jué de kuài , nǐ jué de màn .",
+          "en": "My judgment wasn’t that many supporters proved it good or one objection proved it bad. The useful change was explaining reasons and revising actions. Neither proposal nor objection meant losing face or being called uncooperative. Disagreement would remain, but now we knew what evidence to discuss beyond feelings of fast or slow."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "采购",
+          "pinyin": "cǎi gòu",
+          "meaning": "purchasing"
+        },
+        {
+          "hanzi": "场地",
+          "pinyin": "chǎng dì",
+          "meaning": "venue"
+        },
+        {
+          "hanzi": "维修",
+          "pinyin": "wéi xiū",
+          "meaning": "maintenance; repair"
+        },
+        {
+          "hanzi": "客户",
+          "pinyin": "kè hù",
+          "meaning": "customer; client"
+        },
+        {
+          "hanzi": "协调",
+          "pinyin": "xié tiáo",
+          "meaning": "coordinate"
+        },
+        {
+          "hanzi": "面子",
+          "pinyin": "miàn zi",
+          "meaning": "face; social standing"
+        },
+        {
+          "hanzi": "分歧",
+          "pinyin": "fēn qí",
+          "meaning": "difference of opinion"
+        },
+        {
+          "hanzi": "格子",
+          "pinyin": "gé zi",
+          "meaning": "cell in a form"
+        },
+        {
+          "hanzi": "邮件",
+          "pinyin": "yóu jiàn",
+          "meaning": "email"
+        },
+        {
+          "hanzi": "通知",
+          "pinyin": "tōng zhī",
+          "meaning": "notice; notify"
+        },
+        {
+          "hanzi": "两周",
+          "pinyin": "liǎng zhōu",
+          "meaning": "two weeks"
+        },
+        {
+          "hanzi": "每点",
+          "pinyin": "měi diǎn",
+          "meaning": "each point"
+        },
+        {
+          "hanzi": "趁",
+          "pinyin": "chèn",
+          "meaning": "take the opportunity while"
+        },
+        {
+          "hanzi": "记录",
+          "pinyin": "jì lù",
+          "meaning": "record; written record"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What does the objector support?",
+          "choices": [
+            "Changes with checked availability and fuller evidence",
+            "Silence treated as agreement",
+            "Every objection treated as refusing cooperation"
+          ],
+          "answer": "Changes with checked availability and fuller evidence"
+        },
+        {
+          "type": "detail",
+          "q": "What does the objector do during the separate ten-minute discussion?",
+          "choices": [
+            "Returns to their own work because they are not one of the two",
+            "Waits with all six people",
+            "Holds the customer meeting that makes Wednesday unsuitable"
+          ],
+          "answer": "Returns to their own work because they are not one of the two"
+        },
+        {
+          "type": "inference",
+          "q": "Why does a later urgent customer call not imply always going first?",
+          "choices": [
+            "The colleague asks for coordination when needed, not a permanent priority",
+            "They say all customers are identical",
+            "They refuse any possible future adjustment"
+          ],
+          "answer": "The colleague asks for coordination when needed, not a permanent priority"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "他说只收到三个人【答复】，我问另外三个人怎么办。没答复的人可能还没看见，也可能要确认自己的安排，不能算作同意。后来他问了周四三点，到周二下班前收齐回复，才发通知。我看见这个过程，比较放心，因为新时间不是一边说要确认，一边已经替所有人答应。",
+            "py": "tā shuō zhǐ shōu dào sān gè rén dá fù , wǒ wèn lìng wài sān gè rén zěn me bàn . méi dá fù de rén kě néng hái méi kàn jiàn , yě kě néng yào què rèn zì jǐ de ān pái , bù néng suàn zuò tóng yì . hòu lái tā wèn le zhōu sì sān diǎn , dào zhōu èr xià bān qián shōu qí huí fù , cái fā tōng zhī . wǒ kàn jiàn zhè gè guò chéng , bǐ jiào fàng xīn , yīn wèi xīn shí jiān bù shì yī biān shuō yào què rèn , yī biān yǐ jīng tì suǒ yǒu rén dā yìng .",
+            "en": "Only three replies had arrived. Others might not have seen the request or might need to check their calendars, so silence wasn’t agreement. He checked Thursday at three and sent notice only after receiving all replies before Tuesday’s finish. That process reassured me; confirmation wasn’t promised after deciding on everyone’s behalf."
+          },
+          {
+            "zh": "第二次场地要维修，【采购】和活动安排都受到影响。会开了二十六分钟，后来还有两个人继续谈。我不是那两个人，就回去确认客户的时间。快下班时，准备材料的同事过来问我记录放在哪里，我把表打开给他看：我只参加了前面的会议，后面十分钟是他和另一个人的。他说对，那一段要另写，别把我的时间也算进去。",
+            "py": "dì èr cì chǎng dì yào wéi xiū , cǎi gòu hé huó dòng ān pái dōu shòu dào yǐng xiǎng . huì kāi le èr shí liù fēn zhōng , hòu lái hái yǒu liǎng gè rén jì xù tán . wǒ bù shì nà liǎng gè rén , jiù huí qù què rèn kè hù de shí jiān . kuài xià bān shí , zhǔn bèi cái liào de tóng shì guò lái wèn wǒ jì lù fàng zài nǎ lǐ , wǒ bǎ biǎo dǎ kāi gěi tā kàn : wǒ zhǐ cān jiā le qián miàn de huì yì , hòu miàn shí fēn zhōng shì tā hé lìng yī gè rén de . tā shuō duì , nà yī duàn yào lìng xiě , bié bǎ wǒ de shí jiān yě suàn jìn qù .",
+            "en": "Repairs to the venue affected both purchasing and activity plans. The meeting lasted twenty-six minutes, then two people continued. I wasn't one of them and returned to confirming customer times. Near the end of the day my colleague asked where the records were. I showed him: I'd attended only the main meeting; the extra ten minutes belonged to him and someone else. Right, he said—record it separately rather than adding it to my time."
+          },
+          {
+            "zh": "两周的【尝试】结束，我同意继续周四三点，但提出新的问题：如果客户临时需要联系，有没有办法先把我负责的内容说完。我不要求每次都排第一，只希望有变化时能协调。对方说先问当天有没有急的事情，再决定顺序。我觉得这样比一年固定一种顺序更符合我们的工作，也还需要在后面试。",
+            "py": "liǎng zhōu de cháng shì jié shù , wǒ tóng yì jì xù zhōu sì sān diǎn , dàn tí chū xīn de wèn tí : rú guǒ kè hù lín shí xū yào lián xì , yǒu méi yǒu bàn fǎ xiān bǎ wǒ fù zé de nèi róng shuō wán . wǒ bú yào qiú měi cì dōu pái dì yī , zhǐ xī wàng yǒu biàn huà shí néng xié tiáo . duì fāng shuō xiān wèn dàng tiān yǒu méi yǒu jí de shì qíng , zài jué dìng shùn xù . wǒ jué de zhè yàng bǐ yī nián gù dìng yī zhǒng shùn xù gèng fú hé wǒ men de gōng zuò , yě hái xū yào zài hòu miàn shì .",
+            "en": "After two weeks I supported keeping Thursday at three and asked about covering my items early if a customer unexpectedly needed me. I wasn’t demanding always going first. We would check urgent matters and set an order each day. That seemed better suited to our work than a year-long fixed sequence, though still needing trials."
+          }
+        ],
+        "bank": [
+          "答复",
+          "采购",
+          "尝试",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s5-u07-c",
+    "title": "A proposal that can answer objections",
+    "place": "An internal team meeting",
+    "context": "A six-person team discusses a shorter meeting and discovers availability and preparation costs that need checking.",
+    "goal": "Present a concrete proposal with a limited trial",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "会短了，材料会不会更长？",
+        "pinyin": "huì duǎn le , cái liào huì bù huì gèng zhǎng ?",
+        "meaning": "If the meeting is shorter, will the notes be longer?",
+        "intent": "Include the objection in evaluation",
+        "examples": [
+          "这个也要记录，每点先写两三句，不做整页介绍。"
+        ],
+        "accept": [
+          "^这个也要记录，每点先写两三句，不做整页介绍。[。！？]?$"
+        ]
+      },
+      {
+        "text": "周三三点我不方便。",
+        "pinyin": "zhōu sān sān diǎn wǒ bù fāng biàn .",
+        "meaning": "Wednesday at three does not suit me.",
+        "intent": "Recheck before committing",
+        "examples": [
+          "那我问一下周四三点，等六个人都答复再确定。"
+        ],
+        "accept": [
+          "^那我问一下周四三点，等六个人都答复再确定。[。！？]?$"
+        ]
+      },
+      {
+        "text": "第一次十八分钟，已经证明最好了吗？",
+        "pinyin": "dì yī cì shí bā fēn zhōng , yǐ jīng zhèng míng zuì hǎo le ma ?",
+        "meaning": "Does the first eighteen-minute meeting prove it is best?",
+        "intent": "Limit the claim",
+        "examples": [
+          "还不能，还要看准备时间和任务有没有说清楚。"
+        ],
+        "accept": [
+          "^还不能，还要看准备时间和任务有没有说清楚。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Invite a specific objection",
+      "natural": {
+        "zh": "你担心的是时间，还是准备材料？",
+        "py": "nǐ dān xīn de shì shí jiān , hái shi zhǔn bèi cái liào ?",
+        "en": "Are you concerned about timing or preparing the notes?"
+      },
+      "note": "Name possible constraints and let the other person explain."
+    },
+    {
+      "situation": "Accept a useful correction",
+      "natural": {
+        "zh": "对，这个时间也应该算进去。",
+        "py": "duì , zhè gè shí jiān yě yīng gāi suàn jìn qù .",
+        "en": "Yes, that time should be included too."
+      },
+      "note": "Accepting the point should lead to an actual change in the evaluation."
+    },
+    {
+      "situation": "Keep a trial limited",
+      "natural": {
+        "zh": "先试两周，再根据记录调整。",
+        "py": "xiān shì liǎng zhōu , zài gēn jù jì lù tiáo zhěng .",
+        "en": "Try two weeks first, then adjust using the record."
+      },
+      "note": "A bounded trial is different from an unchangeable permanent decision."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s5-u07-t01",
+      "phrase": "s5-u07-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我先想周三三点，可只问了三个人，还有三个没答复。",
+        "py": "wǒ xiān xiǎng zhōu sān sān diǎn , kě zhǐ wèn le sān gè rén , hái yǒu sān gè méi dá fù .",
+        "en": "I first thought Wednesday at three, but have asked only three people; three haven’t replied."
+      },
+      "statement": "All six people have agreed to Wednesday at three.",
+      "answer": false,
+      "why": "Only three have been asked and three replies are missing."
+    },
+    {
+      "id": "s5-u07-t02",
+      "phrase": "s5-u07-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二次有一个场地问题。原来能用的房间临时要维修，活动是否改到室内，和采购什么东西都有关系。我们用了二十六分钟，没有在二十分钟一到就假装问题已经讲完。最后两个负责的人又谈了十分钟，我也是其中一个。那天我准备材料用了十二分钟，把自己的时间加起来，一共四十八分钟，比第一次多得很明显。",
+        "py": "dì èr cì yǒu yī gè chǎng dì wèn tí . yuán lái néng yòng de fáng jiān lín shí yào wéi xiū , huó dòng shì fǒu gǎi dào shì nèi , hé cǎi gòu shén me dōng xi dōu yǒu guān xì . wǒ men yòng le èr shí liù fēn zhōng , méi yǒu zài èr shí fēn zhōng yī dào jiù jiǎ zhuāng wèn tí yǐ jīng jiǎng wán . zuì hòu liǎng gè fù zé de rén yòu tán le shí fēn zhōng , wǒ yě shì qí zhōng yī gè . nà tiān wǒ zhǔn bèi cái liào yòng le shí èr fēn zhōng , bǎ zì jǐ de shí jiān jiā qǐ lái , yī gòng sì shí bā fēn zhōng , bǐ dì yī cì duō de hěn míng xiǎn .",
+        "en": "The second trial involved room repairs affecting the indoor venue and purchases. We took twenty-six minutes rather than pretending the issue was finished at twenty. Two responsible people, including me, then talked for ten minutes. With my twelve-minute preparation, my total was forty-eight minutes, noticeably more than the first trial."
+      },
+      "statement": "Twelve minutes of preparation, twenty-six meeting and ten separate discussion total forty-eight.",
+      "answer": true,
+      "why": "12 + 26 + 10 = 48."
+    },
+    {
+      "id": "s5-u07-t03",
+      "phrase": "s5-u07-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二次场地要维修，采购和活动安排都受到影响。会开了二十六分钟，后来还有两个人继续谈。我不是那两个人，就回去确认客户的时间。快下班时，准备材料的同事过来问我记录放在哪里，我把表打开给他看：我只参加了前面的会议，后面十分钟是他和另一个人的。他说对，那一段要另写，别把我的时间也算进去。",
+        "py": "dì èr cì chǎng dì yào wéi xiū , cǎi gòu hé huó dòng ān pái dōu shòu dào yǐng xiǎng . huì kāi le èr shí liù fēn zhōng , hòu lái hái yǒu liǎng gè rén jì xù tán . wǒ bù shì nà liǎng gè rén , jiù huí qù què rèn kè hù de shí jiān . kuài xià bān shí , zhǔn bèi cái liào de tóng shì guò lái wèn wǒ jì lù fàng zài nǎ lǐ , wǒ bǎ biǎo dǎ kāi gěi tā kàn : wǒ zhǐ cān jiā le qián miàn de huì yì , hòu miàn shí fēn zhōng shì tā hé lìng yī gè rén de . tā shuō duì , nà yī duàn yào lìng xiě , bié bǎ wǒ de shí jiān yě suàn jìn qù .",
+        "en": "Repairs to the venue affected both purchasing and activity plans. The meeting lasted twenty-six minutes, then two people continued. I wasn't one of them and returned to confirming customer times. Near the end of the day my colleague asked where the records were. I showed him: I'd attended only the main meeting; the extra ten minutes belonged to him and someone else. Right, he said—record it separately rather than adding it to my time."
+      },
+      "statement": "All six people wait for the extra ten-minute discussion.",
+      "answer": false,
+      "why": "Only two continue; the narrator returns to work."
+    },
+    {
+      "id": "s5-u07-t04",
+      "phrase": "s5-u07-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "同事提醒，四十八分钟不能直接和以前四十五分钟相比，因为以前我们只记过会议时间，没有记我准备了多久。他说得对。我们能看出这次有额外工作，也能发现哪部分需要改，但还不能说整个方案一定省时间。把没记录的时间当成零，结果就会看起来比实际好；拿一次有问题的会当作所有会议，也会太快下结论。",
+        "py": "tóng shì tí xǐng , sì shí bā fēn zhōng bù néng zhí jiē hé yǐ qián sì shí wǔ fēn zhōng xiāng bǐ , yīn wèi yǐ qián wǒ men zhǐ jì guò huì yì shí jiān , méi yǒu jì wǒ zhǔn bèi le duō jiǔ . tā shuō de duì . wǒ men néng kàn chū zhè cì yǒu é wài gōng zuò , yě néng fā xiàn nǎ bù fèn xū yào gǎi , dàn hái bù néng shuō zhěng gè fāng àn yí dìng shěng shí jiān . bǎ méi jì lù de shí jiān dàng chéng líng , jié guǒ jiù huì kàn qǐ lái bǐ shí jì hǎo ; ná yī cì yǒu wèn tí de huì dàng zuò suǒ yǒu huì yì , yě huì tài kuài xià jié lùn .",
+        "en": "A colleague noted that forty-eight couldn’t directly be compared with the old forty-five: we’d recorded only the old meeting, not my preparation. We could identify extra work and revisions, but not claim the whole plan saved time. Treating unrecorded time as zero would flatter the result, while one problematic meeting couldn’t represent them all."
+      },
+      "statement": "The old forty-five-minute figure includes all preparation.",
+      "answer": false,
+      "why": "Old preparation time was not recorded."
+    },
+    {
+      "id": "s5-u07-t05",
+      "phrase": "s5-u07-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "只收到三个人答复，还有三个人没回。可以说六个都同意吗？",
+        "py": "zhǐ shōu dào sān gè rén dá fù , hái yǒu sān gè rén méi huí . kě yǐ shuō liù gè dōu tóng yì ma ?",
+        "en": "Three replied and three have not. Can we say all six agree?"
+      },
+      "choices": [
+        "还不能，先问完再确认。",
+        "可以，没回复就已经同意。",
+        "可以，三个人就是六个人。"
+      ],
+      "answer": "还不能，先问完再确认。",
+      "why": "Missing replies do not establish agreement."
+    },
+    {
+      "id": "s5-u07-t06",
+      "phrase": "s5-u07-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "开会二十六分钟，准备十二分钟，另外讨论十分钟，我共用了多久？",
+        "py": "kāi huì èr shí liù fēn zhōng , zhǔn bèi shí èr fēn zhōng , lìng wài tǎo lùn shí fēn zhōng , wǒ gòng yòng le duō jiǔ ?",
+        "en": "Meeting twenty-six, preparation twelve and extra discussion ten: how much of my time?"
+      },
+      "choices": [
+        "四十八分钟，都要算进去。",
+        "二十六分钟，准备和讨论不算时间。",
+        "三十八分钟，另外十分钟已经不存在。"
+      ],
+      "answer": "四十八分钟，都要算进去。",
+      "why": "The separate components sum to forty-eight."
+    },
+    {
+      "id": "s5-u07-t07",
+      "phrase": "s5-u07-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "我周三三点见客户，周四三点方便。你刚才定周三，我能参加吗？",
+        "py": "wǒ zhōu sān sān diǎn jiàn kè hù , zhōu sì sān diǎn fāng biàn . nǐ gāng cái dìng zhōu sān , wǒ néng cān jiā ma ?",
+        "en": "I see a client Wednesday at three and am free Thursday at three. Can I attend your proposed Wednesday time?"
+      },
+      "choices": [
+        "不方便，先问周四能不能改。",
+        "方便，周三和周四是同一天。",
+        "方便，你已经说周三没有客户。"
+      ],
+      "answer": "不方便，先问周四能不能改。",
+      "why": "The original proposed time conflicts with the stated appointment."
+    },
+    {
+      "id": "s5-u07-t08",
+      "phrase": "s5-u07-w08",
+      "type": "listenfill",
+      "line": {
+        "zh": "请提前写出问题，【以便】大家准备。",
+        "py": "qǐng tí qián xiě chū wèn tí , yǐ biàn dà jiā zhǔn bèi .",
+        "en": "Please write the questions ahead so everyone can prepare."
+      },
+      "blankPy": "yǐ biàn"
+    },
+    {
+      "id": "s5-u07-t09",
+      "phrase": "s5-u07-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "我们还没【达成】一致，先不要发通知。",
+        "py": "wǒ men hái méi dá chéng yí zhì , xiān bú yào fā tōng zhī .",
+        "en": "We have not reached agreement; do not send notice yet."
+      },
+      "blankPy": "dá chéng"
+    },
+    {
+      "id": "s5-u07-t10",
+      "phrase": "s5-u07-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "【拿】第二次会议来说，准备时间也增加了。",
+        "py": "ná dì èr cì huì yì lái shuō , zhǔn bèi shí jiān yě zēng jiā le .",
+        "en": "Take the second meeting: preparation time increased too."
+      },
+      "blankPy": "ná"
+    },
+    {
+      "id": "s5-u07-t11",
+      "phrase": "s5-u07-w11",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The cost of this plan is not only the money for purchases.",
+          "right": {
+            "zh": "这个方案的成本不只是买东西的钱。",
+            "py": "zhè gè fāng àn de chéng běn bù zhǐ shì mǎi dōng xi de qián .",
+            "en": "The cost of this plan is not only the money for purchases."
+          }
+        },
+        {
+          "left": "Try it for two weeks, then assess whether it helps.",
+          "right": {
+            "zh": "先试两周，再评估有没有帮助。",
+            "py": "xiān shì liǎng zhōu , zài píng gū yǒu méi yǒu bāng zhù .",
+            "en": "Try it for two weeks, then assess whether it helps."
+          }
+        },
+        {
+          "left": "Writing the questions beforehand helps everyone prepare.",
+          "right": {
+            "zh": "提前写出问题，便于大家准备。",
+            "py": "tí qián xiě chū wèn tí , biàn yú dà jiā zhǔn bèi .",
+            "en": "Writing the questions beforehand helps everyone prepare."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u07-t12",
+      "phrase": "s5-u07-w12",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The two sides reached an agreement to try it for two weeks.",
+          "right": {
+            "zh": "两边达成了一个先试两周的安排。",
+            "py": "liǎng biān dá chéng le yī gè xiān shì liǎng zhōu de ān pái .",
+            "en": "The two sides reached an agreement to try it for two weeks."
+          }
+        },
+        {
+          "left": "The effectiveness of this approach depends on what follows.",
+          "right": {
+            "zh": "这个办法的成效要看后面的情况。",
+            "py": "zhè gè bàn fǎ de chéng xiào yào kàn hòu miàn de qíng kuàng .",
+            "en": "The effectiveness of this approach depends on what follows."
+          }
+        },
+        {
+          "left": "This name is hard to remember; let’s write it again.",
+          "right": {
+            "zh": "这个名字不易记，我们再写一遍。",
+            "py": "zhè gè míng zi bù yì jì , wǒ men zài xiě yī biàn .",
+            "en": "This name is hard to remember; let’s write it again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u07-t13",
+      "phrase": "s5-u07-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Identify who should answer first, thereby reducing time spent looking for people.",
+          "right": {
+            "zh": "先写清需要谁回答，从而减少来回找人的时间。",
+            "py": "xiān xiě qīng xū yào shéi huí dá , cóng ér jiǎn shǎo lái huí zhǎo rén de shí jiān .",
+            "en": "Identify who should answer first, thereby reducing time spent looking for people."
+          }
+        },
+        {
+          "left": "There is still a gap between planned and actual time.",
+          "right": {
+            "zh": "计划和实际时间还有差距。",
+            "py": "jì huà hé shí jì shí jiān hái yǒu chā jù .",
+            "en": "There is still a gap between planned and actual time."
+          }
+        },
+        {
+          "left": "If fewer meetings leave people unsure what to do, we need another revision.",
+          "right": {
+            "zh": "如果少开会的代价是大家不知道该做什么，就要再改。",
+            "py": "rú guǒ shǎo kāi huì de dài jià shì dà jiā bù zhī dào gāi zuò shén me , jiù yào zài gǎi .",
+            "en": "If fewer meetings leave people unsure what to do, we need another revision."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: formal proposal register, 便于/以便, 出于/从而 and the sentence-length teasing. Six-person availability is confirmed before notice; original Wednesday clashes with a customer appointment, revised Thursday three is checked. First narrator total 5+18=23; second 12+26+10=48. Old forty-five excludes unrecorded preparation, so no unsupported net saving is claimed. Extra discussion involves two, not six. Procurement/allowance examples are independent fictional workplace contexts, not inserted into casual banter.\n2026-10-08 advanced reading self-review: Replaced repeated statements about boundaries and inference in diary narrators with calendar checks, actual calls, everyday jokes and book-event actions. Kept formal meeting-time analysis where the text is genuinely a work account. Preserved half-hour travel, 8:30 departure/coat, nine/eleven call arrangement, twenty-minute trial, extra two-person ten minutes and display-only book facts. All old word/task/question IDs retained. Native flags: 塞得太满 schedule metaphor, 哪有 response strength, phone-call teasing and book-spoiler banter. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "执",
+      "pinyin": "zhí",
+      "meaning": "hold; persist",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "执",
+          "role": "whole",
+          "gloss": "hold; persist"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 执 in 执行. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "执行",
+          "p": "zhí xíng",
+          "m": "carry out; execute"
+        }
+      ]
+    },
+    {
+      "hanzi": "估",
+      "pinyin": "gū",
+      "meaning": "estimate",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "估",
+          "role": "whole",
+          "gloss": "estimate"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 估 in 评估. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "评估",
+          "p": "píng gū",
+          "m": "evaluate; assessment"
+        }
+      ]
+    },
+    {
+      "hanzi": "尝",
+      "pinyin": "cháng",
+      "meaning": "taste; try",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "尝",
+          "role": "whole",
+          "gloss": "taste; try"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 尝 in 尝试. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "尝试",
+          "p": "cháng shì",
+          "m": "try; attempt"
+        }
+      ]
+    }
+  ]
+}

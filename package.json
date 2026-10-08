@@ -5,19 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsx scripts/build-packs.ts && tsx scripts/check-pinyin.ts && tsx scripts/copy-stroke-data.ts && tsx scripts/check-audio.ts && tsx scripts/make-brand.ts && tsc -b && vite build",
+    "build": "tsx scripts/build-packs.ts && tsx scripts/check-pinyin.ts && tsx scripts/check-contextual-pinyin.ts && tsx scripts/copy-stroke-data.ts && tsx scripts/check-audio.ts && tsx scripts/make-brand.ts && tsc -b && vite build",
     "postbuild": "tsx scripts/check-installed-data.ts && tsx scripts/pack-deployment-audio.ts",
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
-    "validate:content": "tsx scripts/validate-content.ts && tsx scripts/check-audio.ts",
+    "validate:content": "tsx scripts/validate-content.ts && tsx scripts/check-contextual-pinyin.ts && tsx scripts/check-audio.ts",
     "audio:manifest": "tsx scripts/audio-manifest.ts",
     "audio:check": "tsx scripts/check-audio.ts",
     "test:e2e": "playwright test",
     "pretest:e2e": "tsx scripts/voice-task-review.ts",
     "format": "prettier --write src tests e2e scripts/*.ts *.ts index.html",
     "hanzi": "tsx scripts/copy-stroke-data.ts",
-    "packs": "tsx scripts/build-packs.ts && tsx scripts/check-pinyin.ts && tsx scripts/copy-stroke-data.ts",
-    "check:pinyin": "tsx scripts/check-pinyin.ts",
+    "packs": "tsx scripts/build-packs.ts && tsx scripts/check-pinyin.ts && tsx scripts/check-contextual-pinyin.ts && tsx scripts/copy-stroke-data.ts",
+    "check:pinyin": "tsx scripts/check-pinyin.ts && tsx scripts/check-contextual-pinyin.ts",
     "dict": "tsx scripts/build-dictionary.ts"
   },
   "dependencies": {

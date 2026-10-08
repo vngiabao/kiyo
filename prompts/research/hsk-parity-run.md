@@ -113,3 +113,148 @@ row is the rising verb, not the litre measure. Corrected those senses and
 replaced the unnatural 绕湖一环 with a concrete ring example. The arithmetic
 is 120/4 + 180/4 = 75 per person. Native review remains pending; publication
 and audio acceptance are separate gates.
+
+## Current-build authentication check — 8 October 2026
+
+The release-4 production preview at http://127.0.0.1:4173 completed the actual
+Google account chooser and Supabase callback for the owner's existing account.
+Its Settings page showed the current 33,847-clip catalog and Course library/More
+navigation. The read-only Check cloud connection reported that the Google account
+and cloud storage were reachable. That probe performs reads, not merge/upload.
+
+Important limitation: this preview origin already contained a consented sync
+profile. It resumed automatic sync on sign-in and reported Your progress is
+synced (last observed 05:08:01 AM local). No Add device progress, Sync now or
+Delete cloud data button was pressed. Therefore this session must not be
+reported as an entirely write-free login test. Signed out of the preview after
+the check; local history was retained. Public-site current-release login remains
+unverified because the existing public browser kept serving an older cached
+shell. Cloudflare's dashboard independently shows release 46b0f1fc active and
+the f012545 Git build. No Access policy or site data was changed.
+
+## Read-only Shiori review follow-up — 8 October 2026
+
+- Read output/course-progress.md and review-n2.md/review-n1.md again. The latest
+  logged Japanese checkpoint is N1 unit 9; this is a documentation snapshot,
+  not a claim that other concurrent Japanese edits have stopped.
+- Its N2 review explicitly says long readings have no full narration; words,
+  examples, scenes and task stimuli do have audio. Kiyo additionally synthesises
+  full reading paragraphs and assembled passages. Model/environment footprint
+  and this audio policy therefore matter when comparing folder sizes.
+- Apply the shared editorial lessons: ordinary dialogue, evidence-supported
+  answers, concrete times/actors, contextual polyphonic readings, independent
+  vocabulary practice, and native-review limits. No Japanese files were edited.
+- Kiyo's new advanced route and exam banks remain adapted original practice;
+  they do not certify a complete official paper or full advanced inventory.
+
+## Released-audio compatibility — 8 October 2026
+
+An editorial replacement removes an old URL from the active teaching catalog.
+Cached app versions may still request it. `retain-released-audio.py` restores
+previously committed MP3s under their exact old URLs for a 90-day window. It
+checks each byte hash against the origin commit's provenance. The separate
+ledger cannot add a line to current coverage or mark a failed take reviewed.
+Expired records are tombstones, not renewed implicitly; the next mastering
+installation archives inactive files as before. Deploy packing includes active
+and retained URLs, while current teaching validation stays catalog-based.
+
+Verified on isolated fixtures: four Python restoration tests and thirteen
+TypeScript retention/transport tests passed. Missing/tampered files, invalid
+paths, duplicate receipts, invalid dates, renewed expiry, and current-catalog
+exclusion are exercised. Actual retained-file count and deployment playback
+remain to be checked after the next installed library. No local progress,
+voice identity or audio encoding changes.
+
+## Exam audio demand correction — 8 October 2026
+
+Read the actual Hsk/HskExam playback sites. Study and answer review play each
+complete `sentence`; the study vocabulary plays choices from cloze/legacy
+items only. Blank `prompt` strings, ordering fragments and other distractors
+have no playback button. The old collector nevertheless requested all of them,
+including strings such as `她虽然笑着说，要求___很明确。`.
+
+Shared `hskStudyWords` now preserves the exact study-screen selection/order and
+supplies its audio collection. Every complete exam sentence is still required.
+No answer key, saved ID, pinyin/readability gate or audio recognition criterion
+changed. The existing blank remains visible until answering; no audio hint is
+introduced before submission. This is removal of unused synthesis inputs,
+not acceptance of an unverified recording.
+
+Audit of the current installed-unit sources: 15,008 previous manifest texts,
+13,408 current playback/teaching texts, 1,600 unused texts removed and zero new
+texts required. Fifteen focused contract/retention/transport tests passed.
+The running batch's audio plan predates this correction; refresh it and rerun
+all eight gates before acceptance/deployment. `output/audio-demand-audit.json`
+records the exact removed strings. Actual final voice/storage totals follow
+installation; the earlier counts are not final release figures.
+
+## Cached character and word playback checks — 8 October 2026
+
+Two character sheets can share one contextual recording (矛 and 盾 use 矛盾).
+Repeated playback may use the browser's cache without another response event.
+The browser checks require a successful network load once per unique URL and
+the real media `ended` event at the exact mapped URL on every word/sheet replay.
+No MP3 playback is mocked. Explicit owner-deferred speech retains its separate
+routing and warning checks. The larger character suite gets a per-glyph total
+time budget, while each individual replay still has a 15-second completion limit.
+
+Both focused browser tests passed on s5-u01–04 (34 new glyphs plus contextual
+reading regressions). Full acceptance must still pass before publication.
+The installed compatibility ledger contains 1,200 retained released recordings,
+each verified against the origin commit's hash; they are excluded from current
+coverage and retained for the stated bounded compatibility window.
+
+## Japanese review refresh — 8 October 2026
+
+The tail of `course-progress.md` is older than the sibling's individual reviews.
+`review-n1.md` now records completion of twelve N1 cores, and `review-keigo.md`
+records all twelve workplace scenarios: 103 packs, 4,192 authored entries,
+345 lessons, 289 notes, 167 scenes and 96 readings at that checkpoint. These
+are the sibling's recorded figures, not independently established proficiency
+or a claim that its concurrently edited files have stopped changing.
+
+Applied comparison criteria remain natural dialogue, precise actor/time/count
+facts, keeping proposed actions distinct from completed ones, contextual speech
+readings, preserved old recordings and honest native-review status. Kiyo's
+selected advanced media/social route is not claimed to match all of Shiori's
+workplace or vocabulary-deck breadth. No sibling source files were changed.
+
+The later `release-report.md` supersedes that intermediate checkpoint: it
+records 154 packs, 963 lessons, 8,777 word/chunk/name records, 73 vocabulary
+decks, 2,013 kanji reference pages and 450 original written practice items.
+Its final optional audio library is about 2 GB, while the installed shell is
+14,759.60 KiB. Those are the sibling's reported release figures, not a fresh
+independent audit of every source row. Its report also explicitly leaves native
+review and the owner's two-device sync test uncertified. It notes that an
+existing in-app browser may retain the older offline app, matching the stale
+Kiyo navigation observed in our live verification browser. We did not clear
+browser data or infer current public-site behavior from a local test.
+
+## Storage snapshot during batch 43 — 8 October 2026
+
+The read-only recursive audit completed with zero filesystem errors in both
+folders: Chinese 26.354 GiB / 359,735 files, Japanese 11.382 GiB / 113,906 files,
+ratio 2.32. This is an in-flight snapshot, not the final release measurement.
+Chinese's offline models are 9.334 GiB, its Python voice runtime 5.305 GiB and
+caches 5.762 GiB. Authored packs are 0.006 GiB; the much larger content root also
+contains artwork and audio provenance. Kiyo's current public assets (0.957 GiB)
+are smaller than Shiori's (2.278 GiB). Folder size therefore mainly reflects
+different voice tooling and working caches, not a larger authored curriculum.
+
+The screen still uses Whisper medium. The large-v3 model is retained for the
+existing independent transcript diagnostic and small for the earlier audition
+tools; removing them would break those reproducible tools. Current generation
+and provenance caches stay until final acceptance. No runtime source, approved
+reference, learner data or sibling file was removed for this snapshot.
+Evidence: output/folder-size-audit-current.json and
+output/folder-size-audit-during-batch43.log.
+
+## Guard against source edits during validation — 8 October 2026
+
+The gate runner now stamps the actual source before its first check as well as
+at the end. If source, curriculum or visual assets change while the eight
+checks are running, acceptance fails and all eight must be rerun. The existing
+release check still rejects edits made after acceptance. This strengthens the
+checks; it does not skip, loosen or substitute any validation. PowerShell
+syntax and source whitespace checks passed. The change enters batch 63's full
+receipt before the next release; its runtime acceptance is not claimed here.

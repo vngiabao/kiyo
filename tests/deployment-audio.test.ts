@@ -18,6 +18,7 @@ function fixture(ignoreRange = false) {
   writeFileSync(join(source, 'index.html'), 'application shell');
   const clips = { 'first.mp3': Buffer.from('ID3first audio'), 'second.mp3': Buffer.from('ID3second audio'), 'third.mp3': Buffer.from('ID3third audio') };
   for (const [name, bytes] of Object.entries(clips)) writeFileSync(join(source, 'audio-v2', name), bytes);
+  writeFileSync(join(source, 'audio-v2/assets.json'), JSON.stringify({ active: { clear: '/audio-v2/first.mp3' } }));
   const report = packAudio(source, stage, 30);
   const assets = { async fetch(request: Request) {
     const path = new URL(request.url).pathname;
@@ -34,6 +35,14 @@ function fixture(ignoreRange = false) {
 }
 
 describe('deployment audio preserves individually addressable clips', () => {
+  it('serves a retained release URL absent from the current teaching catalog', async () => {
+    const f = fixture();
+    const catalog = JSON.parse(readFileSync(join(f.stage, 'audio-v2/assets.json'), 'utf8'));
+    expect(JSON.stringify(catalog)).not.toContain('third.mp3');
+    const response = await f.request('third.mp3');
+    expect(response.status).toBe(200);
+    expect(Buffer.from(await response.arrayBuffer())).toEqual(f.clips['third.mp3']);
+  });
   it('packs exact bytes and hashes without changing source audio or the app shell', async () => {
     const f = fixture();
     expect(f.report.clips).toBe(3); expect(f.report.chunks).toBe(2);

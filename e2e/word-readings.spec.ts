@@ -5,6 +5,16 @@ import { wordSpeech } from "../src/word-speech";
 import { voiceKey } from "../src/sayo-voice";
 
 test("course word taps use the taught reading instead of the glyph default", async ({ page }) => {
+  test.setTimeout(180000);
+  await page.addInitScript(() => {
+    const play = HTMLMediaElement.prototype.play;
+    HTMLMediaElement.prototype.play = function () {
+      this.addEventListener("ended", () => {
+        document.documentElement.dataset.wordAudioEnded = this.src;
+      }, { once: true });
+      return play.call(this);
+    };
+  });
   await page.goto("/");
   await page.getByRole("button", { name: /Start without an account/ }).click();
   await page.getByRole("button", { name: "Continue", exact: true }).click();
@@ -17,13 +27,19 @@ test("course word taps use the taught reading instead of the glyph default", asy
   const packs = JSON.parse(readFileSync("src/generated/packs.json", "utf8")) as ContentPack[];
   const words = packs.flatMap((p) => p.vocabulary).filter((p) => /^s[123]-u\d+-w/u.test(p.id) && ["干", "地", "还", "们", "子"].includes(p.hanzi));
   expect(words.length).toBeGreaterThan(0);
+  const loadedUrls = new Set<string>();
   for (const p of words) {
     await page.getByPlaceholder("Try 你好, ni hao, or hello…").fill(p.hanzi);
     const url = clips[voiceKey(wordSpeech(p.hanzi, p.pinyin))]?.clear;
     expect(url, `${p.id}: ${p.pinyin}`).toBeTruthy();
-    const response = page.waitForResponse((r) => new URL(r.url()).pathname === url && [200, 206].includes(r.status()));
+    const response = !loadedUrls.has(url!) ? page.waitForResponse((r) => new URL(r.url()).pathname === url && [200, 206].includes(r.status())) : null;
+    await page.evaluate(() => { delete document.documentElement.dataset.wordAudioEnded; });
     await page.locator(".word-list button").filter({ hasText: p.meaning }).first().click();
-    await response;
+    if (response) {
+      await response;
+      loadedUrls.add(url!);
+    }
+    await expect.poll(() => page.evaluate(() => document.documentElement.dataset.wordAudioEnded), { timeout: 15000 }).toBe(new URL(url!, page.url()).href);
     await expect(page.getByText(/Using your device’s Mandarin voice/u)).toHaveCount(0);
   }
 });
@@ -39,7 +55,8 @@ const batchGlyphs = [...new Set([
 ])];
 
 test("batch character sheets play their contextual recordings or explicitly declared device fallback", async ({ page }) => {
-  test.setTimeout(180000);
+  // Each glyph loads and replays real audio; larger batches need a per-glyph budget.
+  test.setTimeout(Math.max(180000, batchGlyphs.length * 15000));
   await page.addInitScript(() => {
     const play = HTMLMediaElement.prototype.play;
     HTMLMediaElement.prototype.play = function () {
@@ -76,17 +93,22 @@ test("batch character sheets play their contextual recordings or explicitly decl
   const clips = new Map(Object.entries(
     JSON.parse(readFileSync("src/audio-assets.json", "utf8")) as Record<string, Record<string, string>>,
   ).map(([text, moods]) => [voiceKey(text), moods]));
+  const loadedUrls = new Set<string>();
   for (const glyph of batchGlyphs) {
     const entry = charByHanzi[glyph];
     expect(entry, glyph).toBeTruthy();
     const deferred = isDeferred(entry.say);
     const url = clips.get(voiceKey(entry.say))?.clear;
     if (!deferred) expect(url, `${glyph}: ${entry.say}`).toBeTruthy();
-    // Opening the wall cell already plays and caches this recording.
-    const response = !deferred ? page.waitForResponse((r) =>
+    // Shared contextual recordings may replay from cache without another response.
+    // Require a successful load once per URL and actual completed playback below on every sheet.
+    const response = !deferred && !loadedUrls.has(url!) ? page.waitForResponse((r) =>
       new URL(r.url()).pathname === url && r.ok(), { timeout: 15000 }) : null;
     await page.locator(".char-wall button").filter({ hasText: new RegExp(`^${glyph}$`) }).click();
-    if (response) await response;
+    if (response) {
+      await response;
+      loadedUrls.add(url!);
+    }
     const sheet = page.getByRole("dialog", { name: `Character ${glyph}`, exact: true });
     await expect(sheet.locator(".anatomy-pinyin")).toHaveText(entry.pinyin);
     await page.evaluate(() => {

@@ -12,6 +12,9 @@ function Invoke-AudioStep([string]$Name, [string]$Command, [string[]]$Arguments)
   Write-Output "Passed: $Name"
 }
 $python = '.voice-design-env/Scripts/python.exe'
+Invoke-AudioStep 'screen-tests' $python @('scripts/test-screen-audio.py')
+Invoke-AudioStep 'master-tests' $python @('scripts/test-master-audio.py')
+Invoke-AudioStep 'retention-tests' $python @('scripts/test-retain-released-audio.py')
 # Audio collection imports the compiled course. Publish it before collecting;
 # otherwise a new batch can be screened against the previous batch's manifest.
 Invoke-AudioStep 'prepare-packs' 'npm.cmd' @('run','packs')
@@ -23,6 +26,7 @@ Invoke-AudioStep 'regenerate' $python @('scripts/generate-audio-qwen.py','--batc
 Invoke-AudioStep 'rescreen' $python @('scripts/screen-audio-qwen.py','--repeat-short','--carrier')
 Invoke-AudioStep 'defer' $python @('scripts/repair-audio.py','defer')
 Invoke-AudioStep 'master' $python @('scripts/master-audio-qwen.py','--install')
+Invoke-AudioStep 'retain-released' $python @('scripts/retain-released-audio.py')
 Invoke-AudioStep 'review' $python @('scripts/review-approved-audio.py')
 & ./scripts/course-gates.ps1 -Batch $Batch
 if ($LASTEXITCODE -ne 0) { throw "Batch $Batch gates failed" }

@@ -56,7 +56,7 @@ D=rows('''
 可以让人盼望，别替我保证下周。|It can offer hope; don’t promise next week for me.
 明天车票几点？要不要送你？|What time is tomorrow’s train? Shall we see you off?
 九点。我自己去，今晚已经够热闹了。|Nine. I’ll go myself; tonight is lively enough.
-那这把钥匙怎么还？|Then how will you return the key?
+那这把钥匙怎么还回去？|Then how will you return the key?
 收完东西交给管理员，不是带去邻城。|After packing I’ll hand it to the venue manager, not take it to the next city.
 我看见你把钥匙放包里，以为要先走。|I saw you put it in your bag and thought you were leaving early.
 只是怕排练时丢了。你又给一个动作加了剧情。|Just to avoid losing it in rehearsal. You gave one action a plot again.
@@ -85,7 +85,7 @@ R=rows('''
 排练里那句以后别找我，跟现实里的告别正好放在同一个晚上，很容易让人连起来想。可是我没有把她说那句时的低声当作她不想联系。她随后说不再每周来，还可以在群里聊，也想听大家以后排的东西。我能从这些话知道她没有关闭联系，却不能进一步替她安排固定回来几次。愿意继续联系和保证随时到场，不是同一份承诺。|The play’s line could colour the real farewell, but she explicitly wanted contact and future work updates. That supports continued contact without a fixed return schedule.
 原来的节目里有一段很长的歌，林安觉得最后会累，就选了我们自己写的短歌段。歌里有灯、门和没说完的话，可以让人想到等一个朋友，也可以想到一个人走进新的生活。陈宇问灯还亮是不是等于一定回来，她笑着说别替我保证下周。她没有拒绝那种盼望，只是不愿意让一句歌词变成具体的车票。|She chose the group’s short original verse. Its lamp, door and unfinished words permit waiting or new beginnings. She welcomed hope without converting a lyric into a promised ticket home.
 有人提议周一一起去车站，林安谢过，说自己去就好。听起来有一点可惜，我们也没有继续问是不是不愿意让大家送。她九点要走，早上还要收自己的行李；今晚想热闹，明早想安静，都可以是真的。我们可以觉得舍不得，也不用把每一次拒绝都解释成对整个小组的拒绝。当天愿意做什么，还要听她自己说。|She declined a group station send-off, retaining a lively night and quiet morning. Missing her did not justify turning one refusal into rejection of the whole group.
-快结束时，我看见她把钥匙放进包，以为她准备先走。她说怕排练时掉，收完东西再交给管理员。后来我回想，如果只拍那个动作，旁边写马上离开，大家也可能相信。钥匙进包确实发生，什么时候还、为什么先收，得从后面的安排知道。看见一个动作可以开始提问，却不必立刻为它找一个最大、最难受的解释。|Her bagged key initially looked like an early exit. She explained safe storage and return after packing. A real action did not establish the inferred motive or departure time.
+快结束时，我看见她把钥匙放进包，以为她准备先走。她说怕排练时掉，收完东西再交给管理员。后来我回想，如果只拍那个动作，旁边写马上离开，大家也可能相信。钥匙进包确实发生，什么时候归还、为什么先收，得从后面的安排知道。看见一个动作可以开始提问，却不必立刻为它找一个最大、最难受的解释。|Her bagged key initially looked like an early exit. She explained safe storage and return after packing. A real action did not establish the inferred motive or departure time.
 短剧上演时，林安说完以后别找我，在门口停了一下，陈宇带着伞追上去。观众笑了，后面又安静。我没有觉得那一笑把前面的难过全部消掉，也没有把最后的沉默当成看不懂。故事让不同的感受留在一个场景里，最后没有写两个人以后每天都会见面。灯关下去时，观众还可以继续想，他们会怎么开口。|The staged pause allowed the umbrella line; laughter and later quiet both remained. The play did not promise daily reunions or cancel sadness, leaving future speech open.
 九点半大家开始收，林安也搬椅子。陈宇说今天别让她做，她却说最后一次也不是坐着看你们忙。我们没有把这句话听成她不需要任何照顾，就分两个人去搬重一点的桌子，其余各做一段。十点以前钥匙交了，大家走到门口说再见。最后一晚没有留下一个完美、完全不遗憾的结尾，但每个人都真正来过，做过一点事情，也说过自己想说的话。|At 9:30 everyone packed, including Lin An, with heavier work shared. They returned the key and left before ten. The evening remained imperfect and somewhat regretful, with real presence and contributions rather than a perfect ending.
 ''')

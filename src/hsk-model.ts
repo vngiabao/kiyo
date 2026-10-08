@@ -18,6 +18,11 @@ export const hskParticleContext: Record<
   了: { zh: "好了", py: "hǎo le", en: "done; ready" },
 };
 export const hskSpeech = (text: string) => hskParticleContext[text]?.zh ?? text;
+/** The study screen voices cloze vocabulary, not scrambled ordering distractors. */
+export function hskStudyWords(items: Pick<HskItem, "format" | "choices">[]) {
+  return [...new Map(items.filter((q) => !q.format || q.format === "cloze")
+    .flatMap((q) => q.choices).map((c) => [c.zh, c])).values()];
+}
 export const hskUnits = [
   {
     id: "identity",

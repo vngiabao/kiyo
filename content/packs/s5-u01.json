@@ -1,0 +1,2007 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s5-u01",
+    "stage": 3,
+    "order": 121,
+    "title": "What your friend was waiting for",
+    "titleZh": "不是一句没办法就够了",
+    "canDo": [
+      "Explain the practical effect of a missed commitment",
+      "Acknowledge a reason without treating it as a complete repair",
+      "Compare two perspectives and propose a bounded next action"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 5
+    },
+    "prerequisites": [
+      "s4-u12",
+      "s4-u12-usage"
+    ],
+    "estimatedMinutes": 90
+  },
+  "vocabulary": [
+    {
+      "id": "s5-u01-w01",
+      "hanzi": "冲突",
+      "pinyin": "chōng tū",
+      "meaning": "conflict; clash",
+      "meaningVi": "xung đột",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这两个安排有时间冲突。",
+        "py": "zhè liǎng gè ān pái yǒu shí jiān chōng tū .",
+        "en": "These two arrangements clash in time."
+      },
+      "usageNote": "[GF2021:L5:1051] Source entry: 冲突; chōngtū; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w02",
+      "hanzi": "沟通",
+      "pinyin": "gōu tōng",
+      "meaning": "communicate",
+      "meaningVi": "trao đổi; giao tiếp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "有变化就早点沟通，别等到最后。",
+        "py": "yǒu biàn huà jiù zǎo diǎn gōu tōng , bié děng dào zuì hòu .",
+        "en": "Communicate changes early rather than at the last moment."
+      },
+      "usageNote": "[GF2021:L5:2863] Source entry: 沟通; gōutōng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w03",
+      "hanzi": "真诚",
+      "pinyin": "zhēn chéng",
+      "meaning": "sincere",
+      "meaningVi": "chân thành",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她的感谢很真诚，不是随口说的。",
+        "py": "tā de gǎn xiè hěn zhēn chéng , bù shì suí kǒu shuō de .",
+        "en": "Her thanks are sincere, not just casual words."
+      },
+      "usageNote": "[GF2021:L5:10353] Source entry: 真诚; zhēnchéng; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w04",
+      "hanzi": "尊重",
+      "pinyin": "zūn zhòng",
+      "meaning": "respect",
+      "meaningVi": "tôn trọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我尊重你的决定，但想问清楚原因。",
+        "py": "wǒ zūn zhòng nǐ de jué dìng , dàn xiǎng wèn qīng chǔ yuán yīn .",
+        "en": "I respect your decision but want to understand the reason."
+      },
+      "usageNote": "[GF2021:L5:11050] Source entry: 尊重; zūnzhòng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w05",
+      "hanzi": "矛盾",
+      "pinyin": "máo dùn",
+      "meaning": "contradiction; conflict",
+      "meaningVi": "mâu thuẫn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他说不在乎，却一直抱怨，这有点矛盾。",
+        "py": "tā shuō bù zài hū , què yì zhí bào yuàn , zhè yǒu diǎn máo dùn .",
+        "en": "He says he doesn’t care but keeps complaining; that seems contradictory."
+      },
+      "usageNote": "[GF2021:L5:5446] Source entry: 矛盾; máodùn; 名、形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w06",
+      "hanzi": "抱怨",
+      "pinyin": "bào yuàn",
+      "meaning": "complain",
+      "meaningVi": "phàn nàn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她抱怨等了很久，却没人告诉她原因。",
+        "py": "tā bào yuàn děng le hěn jiǔ , què méi rén gào sù tā yuán yīn .",
+        "en": "She complained she’d waited a long time without anyone explaining why."
+      },
+      "usageNote": "[GF2021:L5:239] Source entry: 抱怨; bào·yuàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w07",
+      "hanzi": "偶然",
+      "pinyin": "ǒu rán",
+      "meaning": "by chance; accidental",
+      "meaningVi": "tình cờ; ngẫu nhiên",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们在车站偶然遇见了。",
+        "py": "wǒ men zài chē zhàn ǒu rán yù jiàn le .",
+        "en": "We ran into each other at the station by chance."
+      },
+      "usageNote": "[GF2021:L5:5937] Source entry: 偶然; ǒurán; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w08",
+      "hanzi": "失误",
+      "pinyin": "shī wù",
+      "meaning": "mistake; error",
+      "meaningVi": "sai sót",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这次失误是我把时间记错了。",
+        "py": "zhè cì shī wù shì wǒ bǎ shí jiān jì cuò le .",
+        "en": "My mistake this time was remembering the time incorrectly."
+      },
+      "usageNote": "[GF2021:L5:7180] Source entry: 失误; shīwù; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w09",
+      "hanzi": "无奈",
+      "pinyin": "wú nài",
+      "meaning": "helpless; having no good option",
+      "meaningVi": "bất lực; đành chịu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她无奈地笑了，说车已经走了。",
+        "py": "tā wú nài de xiào le , shuō chē yǐ jīng zǒu le .",
+        "en": "She smiled helplessly and said the bus had gone."
+      },
+      "usageNote": "[GF2021:L5:8531] Source entry: 无奈; wúnài; 动、连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w10",
+      "hanzi": "消极",
+      "pinyin": "xiāo jí",
+      "meaning": "negative; passive",
+      "meaningVi": "tiêu cực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "一直等别人决定，太消极了。",
+        "py": "yì zhí děng bié ren jué dìng , tài xiāo jí le .",
+        "en": "Waiting for others to decide is too passive."
+      },
+      "usageNote": "[GF2021:L5:8877] Source entry: 消极; xiāojí; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w11",
+      "hanzi": "友谊",
+      "pinyin": "yǒu yì",
+      "meaning": "friendship",
+      "meaningVi": "tình bạn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我们的友谊不是靠每天见面维持的。",
+        "py": "wǒ men de yǒu yì bù shì kào měi tiān jiàn miàn wéi chí de .",
+        "en": "Our friendship doesn’t depend on meeting every day."
+      },
+      "usageNote": "[GF2021:L5:9865] Source entry: 友谊; yǒuyì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w12",
+      "hanzi": "珍惜",
+      "pinyin": "zhēn xī",
+      "meaning": "cherish; value",
+      "meaningVi": "trân trọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我很珍惜能一起做事的机会。",
+        "py": "wǒ hěn zhēn xī néng yì qǐ zuò shì de jī huì .",
+        "en": "I value the chance to work together."
+      },
+      "usageNote": "[GF2021:L5:10349] Source entry: 珍惜; zhēnxī; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w13",
+      "hanzi": "联络",
+      "pinyin": "lián luò",
+      "meaning": "contact; keep in touch",
+      "meaningVi": "liên lạc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "到了以后，我会和你联络。",
+        "py": "dào le yǐ hòu , wǒ huì hé nǐ lián luò .",
+        "en": "I’ll contact you after arriving."
+      },
+      "usageNote": "[GF2021:L5:5108] Source entry: 联络; liánluò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w14",
+      "hanzi": "指责",
+      "pinyin": "zhǐ zé",
+      "meaning": "accuse; criticise",
+      "meaningVi": "chỉ trích",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我想讨论这次安排，不是指责你这个人。",
+        "py": "wǒ xiǎng tǎo lùn zhè cì ān pái , bù shì zhǐ zé nǐ zhè gè rén .",
+        "en": "I want to discuss this arrangement, not attack you as a person."
+      },
+      "usageNote": "[GF2021:L5:10554] Source entry: 指责; zhǐzé; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w15",
+      "hanzi": "犹豫",
+      "pinyin": "yóu yù",
+      "meaning": "hesitate",
+      "meaningVi": "do dự",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我犹豫了一下，还是给她打了电话。",
+        "py": "wǒ yóu yù le yī xià , hái shi gěi tā dǎ le diàn huà .",
+        "en": "I hesitated briefly, then called her anyway."
+      },
+      "usageNote": "[GF2021:L5:9846] Source entry: 犹豫; yóuyù; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w16",
+      "hanzi": "误解",
+      "pinyin": "wù jiě",
+      "meaning": "misunderstand; misunderstanding",
+      "meaningVi": "hiểu sai",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我担心你误解了那句话。",
+        "py": "wǒ dān xīn nǐ wù jiě le nà jù huà .",
+        "en": "I’m worried you misunderstood that sentence."
+      },
+      "usageNote": "[GF2021:L5:8589] Source entry: 误解; wùjiě; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w17",
+      "hanzi": "承担",
+      "pinyin": "chéng dān",
+      "meaning": "take on; bear",
+      "meaningVi": "đảm nhận",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这次多出来的工作，我来承担。",
+        "py": "zhè cì duō chū lái de gōng zuò , wǒ lái chéng dān .",
+        "en": "I’ll take on the extra work this time."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u01-w18",
+      "hanzi": "保证",
+      "pinyin": "bǎo zhèng",
+      "meaning": "promise; guarantee",
+      "meaningVi": "bảo đảm",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我不能保证几点到，会再告诉你。",
+        "py": "wǒ bù néng bǎo zhèng jǐ diǎn dào , huì zài gào sù nǐ .",
+        "en": "I can’t promise an arrival time; I’ll update you."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u01-w19",
+      "hanzi": "可靠",
+      "pinyin": "kě kào",
+      "meaning": "reliable",
+      "meaningVi": "đáng tin cậy",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她很可靠，有变化会主动说。",
+        "py": "tā hěn kě kào , yǒu biàn huà huì zhǔ dòng shuō .",
+        "en": "She’s reliable and says when something changes."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u01-w20",
+      "hanzi": "信任",
+      "pinyin": "xìn rèn",
+      "meaning": "trust",
+      "meaningVi": "tin tưởng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我信任你，才把这件事交给你。",
+        "py": "wǒ xìn rèn nǐ , cái bǎ zhè jiàn shì jiāo gěi nǐ .",
+        "en": "I entrusted you with this because I trust you."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u01-w21",
+      "hanzi": "承认",
+      "pinyin": "chéng rèn",
+      "meaning": "admit; acknowledge",
+      "meaningVi": "thừa nhận",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我承认这次没有及时联系你。",
+        "py": "wǒ chéng rèn zhè cì méi yǒu jí shí lián xì nǐ .",
+        "en": "I admit I didn’t contact you promptly this time."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u01-w22",
+      "hanzi": "体会",
+      "pinyin": "tǐ huì",
+      "meaning": "understand through experience; feel",
+      "meaningVi": "thấu hiểu; trải nghiệm",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我等过以后，才体会到你的感受。",
+        "py": "wǒ děng guò yǐ hòu , cái tǐ huì dào nǐ de gǎn shòu .",
+        "en": "After waiting myself, I understood how you felt."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u01-w23",
+      "hanzi": "耐心",
+      "pinyin": "nài xīn",
+      "meaning": "patience; patient",
+      "meaningVi": "kiên nhẫn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "谢谢你耐心听我说完。",
+        "py": "xiè xiè nǐ nài xīn tīng wǒ shuō wán .",
+        "en": "Thank you for patiently hearing me out."
+      },
+      "usageNote": "[GF2021:L5:5765] Source entry: 耐心; nàixīn; 形、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u01-w24",
+      "hanzi": "尊敬",
+      "pinyin": "zūn jìng",
+      "meaning": "respect; hold in esteem",
+      "meaningVi": "kính trọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我很尊敬这位老师，她总会认真回答。",
+        "py": "wǒ hěn zūn jìng zhè wèi lǎo shī , tā zǒng huì rèn zhēn huí dá .",
+        "en": "I respect this teacher; she always answers thoughtfully."
+      },
+      "usageNote": "[GF2021:L5:11048] Source entry: 尊敬; zūnjìng; 动、形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s5-u01-g01",
+      "pattern": "毕竟",
+      "purpose": "Add a relevant reason without erasing other facts",
+      "explanation": "毕竟 recalls a fact that deserves weight in the current judgment. It can explain a reaction, but it does not logically remove an earlier obligation or prove the speaker is right.",
+      "examples": [
+        {
+          "zh": "我们毕竟约好了，他会等也正常。",
+          "py": "wǒ men bì jìng yuē hǎo le , tā huì děng yě zhèng cháng .",
+          "en": "After all, we had made a plan; it makes sense he waited."
+        },
+        {
+          "zh": "她毕竟第一次做，先给她一点时间。",
+          "py": "tā bì jìng dì yī cì zuò , xiān gěi tā yī diǎn shí jiān .",
+          "en": "After all, it is her first attempt; give her some time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我毕竟临时开会，所以没告诉你也完全不影响你。",
+          "right": "我毕竟临时开会，但也该早点告诉你。",
+          "why": "A reason for the delay does not cancel the effect of missing information."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u01-g02",
+      "pattern": "明明",
+      "purpose": "Emphasise a known fact that conflicts with another claim",
+      "explanation": "明明 highlights what the speaker treats as evident, usually before a contrasting claim or behaviour. It can sound accusatory; the scene must establish the fact rather than relying on the word itself.",
+      "examples": [
+        {
+          "zh": "我们明明约了两点，你却三点才来。",
+          "py": "wǒ men míng míng yuē le liǎng diǎn , nǐ què sān diǎn cái lái .",
+          "en": "We agreed on two, yet you only came at three."
+        },
+        {
+          "zh": "他明明看过消息，却说不知道。",
+          "py": "tā míng míng kàn guò xiāo xī , què shuō bù zhī dào .",
+          "en": "He had clearly read the message but said he did not know."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你明明没看消息，所以我已经证明你看过。",
+          "right": "我们明明约了两点，你却三点才来。",
+          "why": "The emphasised fact must be supported, not reversed by the same sentence."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u01-g03",
+      "pattern": "倒是",
+      "purpose": "Contrast an actual or proposed result with an expectation",
+      "explanation": "倒是 often marks an unexpected positive, negative or alternative judgment. Its force differs from ordinary 是 and from 倒 as a physical verb.",
+      "examples": [
+        {
+          "zh": "他没来，邻居倒是主动帮了忙。",
+          "py": "tā méi lái , lín jū dǎo shì zhǔ dòng bāng le máng .",
+          "en": "He did not come, but the neighbour unexpectedly offered help."
+        },
+        {
+          "zh": "我不能三点到，四点倒是可以。",
+          "py": "wǒ bù néng sān diǎn dào , sì diǎn dǎo shì kě yǐ .",
+          "en": "I cannot arrive at three, but four would work."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我倒是把杯子里的水倒了，所以倒是只表示倒水。",
+          "right": "我不能三点到，四点倒是可以。",
+          "why": "倒是 here offers a contrasting alternative; it is not the pouring verb."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u01-g04",
+      "pattern": "尽管…但是 / 仍然…",
+      "purpose": "Acknowledge a difficulty without changing the result",
+      "explanation": "尽管 introduces an accepted circumstance; 但是 or a following contrasting clause supplies the result. 仍然 means the state continues despite what came before.",
+      "examples": [
+        {
+          "zh": "尽管会议是临时的，但是我仍然该联系你。",
+          "py": "jǐn guǎn huì yì shì lín shí de , dàn shì wǒ réng rán gāi lián xì nǐ .",
+          "en": "Although the meeting came up unexpectedly, I still should have contacted you."
+        },
+        {
+          "zh": "尽管没有大问题，她仍然有点失望。",
+          "py": "jǐn guǎn méi yǒu dà wèn tí , tā réng rán yǒu diǎn shī wàng .",
+          "en": "Although nothing major went wrong, she was still a little disappointed."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "尽管会议是临时的，所以我没有任何承诺。",
+          "right": "尽管会议是临时的，但是我仍然该联系你。",
+          "why": "An unexpected event can coexist with an earlier commitment."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u01-g05",
+      "pattern": "不是…，而是… with a specific concern",
+      "purpose": "Correct an overbroad interpretation of a complaint",
+      "explanation": "Keep both alternatives about the same issue. This lets the speaker distinguish rejecting a person from naming a concrete behaviour. It does not make every complaint constructive automatically.",
+      "examples": [
+        {
+          "zh": "我不是抱怨你忙，而是想知道你来不来。",
+          "py": "wǒ bù shì bào yuàn nǐ máng , ér shì xiǎng zhī dào nǐ lái bù lái .",
+          "en": "I am not complaining that you are busy; I want to know whether you are coming."
+        },
+        {
+          "zh": "问题不是书多，而是放在哪里。",
+          "py": "wèn tí bù shì shū duō , ér shì fàng zài nǎ lǐ .",
+          "en": "The problem is not how many books there are, but where to put them."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不是抱怨你忙，而是你从来没有价值。",
+          "right": "我不是抱怨你忙，而是想知道你来不来。",
+          "why": "Replace the irrelevant personal attack with the actual missing information."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s5-u01-d",
+    "title": "不是一句没办法就够了",
+    "titleZh": "不是一句没办法就够了",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你终于来了。我们说的是两点，现在三点了。",
+        "py": "nǐ zhōng yú lái le . wǒ men shuō de shì liǎng diǎn , xiàn zài sān diǎn le .",
+        "en": "You’re finally here. We agreed on two, and now it’s three.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对不起，临时被叫去开会了，手机还放在桌上。",
+        "py": "duì bù qǐ , lín shí bèi jiào qù kāi huì le , shǒu jī hái fàng zài zhuō shàng .",
+        "en": "Sorry. I was called into a meeting at short notice, and my phone was still on the desk.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我给你打了两次，以为你在路上。司机两点半就走了。",
+        "py": "wǒ gěi nǐ dǎ le liǎng cì , yǐ wéi nǐ zài lù shàng . sī jī liǎng diǎn bàn jiù zǒu le .",
+        "en": "I called you twice and thought you were on the way. The driver left at half past two.",
+        "speaker": "a"
+      },
+      {
+        "zh": "东西都搬上去了？",
+        "py": "dōng xi dōu bān shàng qù le ?",
+        "en": "Is everything upstairs?",
+        "speaker": "b"
+      },
+      {
+        "zh": "邻居帮我把重的搬好了，还有两箱书没整理。",
+        "py": "lín jū bāng wǒ bǎ zhòng de bān hǎo le , hái yǒu liǎng xiāng shū méi zhěng lǐ .",
+        "en": "A neighbour helped carry the heavy things up. There are two boxes of books left to unpack.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那我现在来整理，你先休息一下。",
+        "py": "nà wǒ xiàn zài lái zhěng lǐ , nǐ xiān xiū xī yī xià .",
+        "en": "Then I’ll unpack them now while you rest.",
+        "speaker": "b"
+      },
+      {
+        "zh": "先等一下。我不是只想听你说现在能做什么。",
+        "py": "xiān děng yī xià . wǒ bù shì zhǐ xiǎng tīng nǐ shuō xiàn zài néng zuò shén me .",
+        "en": "Wait a moment. I don’t only want to hear what you can do now.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我知道，你等了一个小时。",
+        "py": "wǒ zhī dào , nǐ děng le yī gè xiǎo shí .",
+        "en": "I know. You waited an hour.",
+        "speaker": "b"
+      },
+      {
+        "zh": "不只是等。我不知道你来不来，就没找别人，最后才去敲邻居的门。",
+        "py": "bù zhǐ shì děng . wǒ bù zhī dào nǐ lái bù lái , jiù méi zhǎo bié ren , zuì hòu cái qù qiāo lín jū de mén .",
+        "en": "Not just waiting. I didn’t know whether you’d come, so I didn’t ask anyone else until I knocked on the neighbour’s door at the last moment.",
+        "speaker": "a"
+      },
+      {
+        "zh": "是我的问题。我以为开完会再告诉你就行，没想到你还在等。",
+        "py": "shì wǒ de wèn tí . wǒ yǐ wéi kāi wán huì zài gào sù nǐ jiù xíng , méi xiǎng dào nǐ hái zài děng .",
+        "en": "That’s my fault. I thought I could tell you after the meeting; I didn’t realise you were still waiting.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我们约好了，我当然会等。你早点说，我就能改安排。",
+        "py": "wǒ men yuē hǎo le , wǒ dāng rán huì děng . nǐ zǎo diǎn shuō , wǒ jiù néng gǎi ān pái .",
+        "en": "We’d made a plan, so of course I’d wait. If you’d told me sooner, I could’ve changed it.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，我不该让你自己猜。今天晚点还需要帮忙吗？",
+        "py": "duì , wǒ bù gāi ràng nǐ zì jǐ cāi . jīn tiān wǎn diǎn hái xū yào bāng máng ma ?",
+        "en": "Right, I shouldn’t have left you guessing. Do you still need help later today?",
+        "speaker": "b"
+      },
+      {
+        "zh": "这两箱先放书架上。不过不用把所有书都按颜色排。",
+        "py": "zhè liǎng xiāng xiān fàng shū jià shàng . bù guò bù yòng bǎ suǒ yǒu shū dōu àn yán sè pái .",
+        "en": "Put these books on the shelf first. But don’t arrange every book by colour.",
+        "speaker": "a"
+      },
+      {
+        "zh": "为什么？你不是说想让房间好看一点？",
+        "py": "wèi shén me ? nǐ bù shì shuō xiǎng ràng fáng jiān hǎo kàn yī diǎn ?",
+        "en": "Why? Didn’t you say you wanted the room to look nicer?",
+        "speaker": "b"
+      },
+      {
+        "zh": "好看是一回事，找得到书是另一回事。我上次找那本字典找了半天。",
+        "py": "hǎo kàn shì yī huí shì , zhǎo de dào shū shì lìng yī huí shì . wǒ shàng cì zhǎo nà běn zì diǎn zhǎo le bàn tiān .",
+        "en": "Looking nice is one thing; finding books is another. Last time it took me ages to find that dictionary.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，按你写的顺序放。我先问清楚，不自己决定。",
+        "py": "hǎo , àn nǐ xiě de shùn xù fàng . wǒ xiān wèn qīng chǔ , bù zì jǐ jué dìng .",
+        "en": "Okay, I’ll use the order you’ve written down. I’ll ask first rather than decide myself.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这样就好。下次有变化，哪怕只发一句话，也早点告诉我。",
+        "py": "zhè yàng jiù hǎo . xià cì yǒu biàn huà , nǎ pà zhǐ fā yī jù huà , yě zǎo diǎn gào sù wǒ .",
+        "en": "That’s fine. Next time something changes, even a short message is enough—tell me early.",
+        "speaker": "a"
+      },
+      {
+        "zh": "记住了。现在请指挥，我今天不负责猜。",
+        "py": "jì zhù le . xiàn zài qǐng zhǐ huī , wǒ jīn tiān bù fù zé cāi .",
+        "en": "Got it. Tell me what to do; today I’m not in charge of guessing.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "邻居",
+        "pinyin": "lín jū",
+        "meaning": "neighbour"
+      },
+      {
+        "hanzi": "书架",
+        "pinyin": "shū jià",
+        "meaning": "bookshelf"
+      },
+      {
+        "hanzi": "敲",
+        "pinyin": "qiāo",
+        "meaning": "knock"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is the main complaint?",
+        "choices": [
+          "The lack of an update prevented a backup plan",
+          "Every book was the wrong colour",
+          "The friend has never had a job"
+        ],
+        "answer": "The lack of an update prevented a backup plan"
+      },
+      {
+        "type": "detail",
+        "q": "Who moved the heavy boxes?",
+        "choices": [
+          "A neighbour",
+          "The late friend before the meeting",
+          "Nobody"
+        ],
+        "answer": "A neighbour"
+      },
+      {
+        "type": "inference",
+        "q": "Why ask before arranging the books?",
+        "choices": [
+          "To avoid repeating the earlier inconvenient colour arrangement",
+          "To prove every dictionary is a cookbook",
+          "To delay all help until next week"
+        ],
+        "answer": "To avoid repeating the earlier inconvenient colour arrangement"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s5-u01-r",
+    "title": "不是一句没办法就够了",
+    "titleZh": "不是一句没办法就够了",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "搬家前一天，我和朋友约好下午两点见。他来帮我搬几个重箱子，我已经订好了车，司机说两点半以前要出发去下一个地方。我把时间发给朋友，他回复“没问题”，于是没有再找第二个人。",
+        "py": "bān jiā qián yī tiān , wǒ hé péng you yuē hǎo xià wǔ liǎng diǎn jiàn . tā lái bāng wǒ bān jǐ gè zhòng xiāng zi , wǒ yǐ jīng dìng hǎo le chē , sī jī shuō liǎng diǎn bàn yǐ qián yào chū fā qù xià yī gè dì fāng . wǒ bǎ shí jiān fā gěi péng you , tā huí fù méi wèn tí , yú shì méi yǒu zài zhǎo dì èr gè rén .",
+        "en": "The day before moving, a friend and I agreed to meet at two. He’d help with the heavy boxes. I’d booked a vehicle whose driver had to leave for another job by half past two. My friend replied “no problem” to the time, so I didn’t ask anyone else."
+      },
+      {
+        "zh": "第二天，两点过了，门外还没人。我给他打电话，没有接。我最初以为他在路上，不方便看手机，就先整理小东西。到了两点二十，我不能再等，去问邻居能不能帮十分钟。邻居把重箱子搬上楼，我送司机离开时，才松了一口气。",
+        "py": "dì èr tiān , liǎng diǎn guò le , mén wài hái méi rén . wǒ gěi tā dǎ diàn huà , méi yǒu jiē . wǒ zuì chū yǐ wéi tā zài lù shàng , bù fāng biàn kàn shǒu jī , jiù xiān zhěng lǐ xiǎo dōng xi . dào le liǎng diǎn èr shí , wǒ bù néng zài děng , qù wèn lín jū néng bù néng bāng shí fēn zhōng . lín jū bǎ zhòng xiāng zi bān shàng lóu , wǒ sòng sī jī lí kāi shí , cái sōng le yì kǒu qì .",
+        "en": "At two the next day, nobody arrived. I called, but he didn’t answer. At first I thought he was travelling and couldn’t check his phone, so I sorted smaller items. At twenty past two I couldn’t wait longer and asked a neighbour for ten minutes of help. Once the heavy boxes were upstairs and the driver left, I finally breathed easier."
+      },
+      {
+        "zh": "三点，朋友终于来了。他说临时开会，手机留在桌上，没有机会看到电话。我相信那场会议不是他故意安排的，但还是生气。既然他已经答应了两点到，我就在根据这个答复做安排。没有新消息，我不知道原来的安排还算不算。",
+        "py": "sān diǎn , péng you zhōng yú lái le . tā shuō lín shí kāi huì , shǒu jī liú zài zhuō shàng , méi yǒu jī huì kàn dào diàn huà . wǒ xiāng xìn nà chǎng huì yì bù shì tā gù yì ān pái de , dàn hái shi shēng qì . jì rán tā yǐ jīng dā yìng le liǎng diǎn dào , wǒ jiù zài gēn jù zhè gè dá fù zuò ān pái . méi yǒu xīn xiāo xī , wǒ bù zhī dào yuán lái de ān pái hái suàn bù suàn .",
+        "en": "My friend finally arrived at three. He said a meeting had come up and his phone had stayed on his desk. I believed he hadn’t deliberately scheduled it, but I was still angry. His agreement to arrive at two had shaped my plans. Without an update, I didn’t know whether that agreement still held."
+      },
+      {
+        "zh": "他想马上开始做事，我请他先听我说完。两次电话没人接的时候，我还在楼下等，以为他过一会儿就到。司机已经把车停在门口，我却不知道该让司机再等，还是去找邻居。他听完，低头看了看那两个未接电话，说下次开会以前就联系我。",
+        "py": "tā xiǎng mǎ shàng kāi shǐ zuò shì , wǒ qǐng tā xiān tīng wǒ shuō wán . liǎng cì diàn huà méi rén jiē de shí hou , wǒ hái zài lóu xià děng , yǐ wéi tā guò yī huì er jiù dào . sī jī yǐ jīng bǎ chē tíng zài mén kǒu , wǒ què bù zhī dào gāi ràng sī jī zài děng , hái shi qù zhǎo lín jū . tā tīng wán , dī tóu kàn le kàn nà liǎng gè wèi jiē diàn huà , shuō xià cì kāi huì yǐ qián jiù lián xì wǒ .",
+        "en": "He wanted to start helping straight away, but I asked him to hear me out. When my two calls went unanswered, I was still downstairs expecting him soon. The driver was waiting outside, and I didn't know whether to ask him to wait longer or fetch a neighbour. My friend looked at the missed calls and said he'd contact me before the meeting next time."
+      },
+      {
+        "zh": "后来，我们一起把剩下的书放上书架。他先问我按什么顺序放，没有像上次那样只按颜色排。我把字典和常用的几本放在手边，其余的按书名排好。最后一箱打开时，里面竟然还有一杯没喝完的水。他笑我搬家连水都不肯扔，我才想起那是早上随手放进去的。",
+        "py": "hòu lái , wǒ men yì qǐ bǎ shèng xià de shū fàng shàng shū jià . tā xiān wèn wǒ àn shén me shùn xù fàng , méi yǒu xiàng shàng cì nà yàng zhǐ àn yán sè pái . wǒ bǎ zì diǎn hé cháng yòng de jǐ běn fàng zài shǒu biān , qí yú de àn shū míng pái hǎo . zuì hòu yī xiāng dǎ kāi shí , lǐ miàn jìng rán hái yǒu yī bēi méi hē wán de shuǐ . tā xiào wǒ bān jiā lián shuǐ dōu bù kěn rēng , wǒ cái xiǎng qǐ nà shì zǎo shàng suí shǒu fàng jìn qù de .",
+        "en": "Later we put the remaining books on the shelves together. He asked how I wanted them arranged, rather than sorting by colour as he'd done before. I kept the dictionary and a few frequently used books within reach and sorted the others by title. The last box contained a half-finished cup of water. He laughed that I wouldn't even throw water away when moving; I'd put it there absent-mindedly that morning."
+      },
+      {
+        "zh": "晚上，我给邻居发消息谢谢他，也把借来的工具还了。朋友问下周还需要他做什么，我看了看空了一半的房间，说先让我把今天这些东西放好吧。他说行，周末有空一起吃饭。我答应了，又提醒他别到时候直接来旧地址。他拿起手机，马上把新地址存好了。",
+        "py": "wǎn shang , wǒ gěi lín jū fā xiāo xī xiè xiè tā , yě bǎ jiè lái de gōng jù huán le . péng you wèn xià zhōu hái xū yào tā zuò shén me , wǒ kàn le kàn kōng le yí bàn de fáng jiān , shuō xiān ràng wǒ bǎ jīn tiān zhè xiē dōng xi fàng hǎo ba . tā shuō xíng , zhōu mò yǒu kōng yì qǐ chī fàn . wǒ dā yìng le , yòu tí xǐng tā bié dào shí hou zhí jiē lái jiù dì zhǐ . tā ná qǐ shǒu jī , mǎ shàng bǎ xīn dì zhǐ cún hǎo le .",
+        "en": "That evening I thanked the neighbour by message and returned the borrowed tools. My friend asked what I needed next week. Looking at the half-empty room, I said to let me put today's things away first. He suggested dinner at the weekend. I agreed and reminded him not to turn up at my old address. He took out his phone and saved the new one immediately."
+      },
+      {
+        "zh": "几天以后，朋友发来周末吃饭的时间。这次他先说星期六下午还要上班，六点以后才方便。我回他六点半见，又把饭馆门口的照片发过去。到了那天，他下班时给我打电话，说车站人有点多，可能晚十分钟。我先进去找座位，等他到了再点菜，没有像搬家那天一样站在门外猜。",
+        "py": "jǐ tiān yǐ hòu , péng you fā lái zhōu mò chī fàn de shí jiān . zhè cì tā xiān shuō xīng qī liù xià wǔ hái yào shàng bān , liù diǎn yǐ hòu cái fāng biàn . wǒ huí tā liù diǎn bàn jiàn , yòu bǎ fàn guǎn mén kǒu de zhào piān fā guò qù . dào le nà tiān , tā xià bān shí gěi wǒ dǎ diàn huà , shuō chē zhàn rén yǒu diǎn duō , kě néng wǎn shí fēn zhōng . wǒ xiān jìn qù zhǎo zuò wèi , děng tā dào le zài diǎn cài , méi yǒu xiàng bān jiā nà tiān yī yàng zhàn zài mén wài cāi .",
+        "en": "A few days later he messaged about weekend dinner. This time he said he was working on Saturday afternoon and was free after six. I suggested half past six and sent a photo of the restaurant entrance. On the day he called after work: the station was busy, and he might be ten minutes late. I went in to find a table and waited to order with him, instead of standing outside guessing as I had on moving day."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "邻居",
+        "pinyin": "lín jū",
+        "meaning": "neighbour"
+      },
+      {
+        "hanzi": "书架",
+        "pinyin": "shū jià",
+        "meaning": "bookshelf"
+      },
+      {
+        "hanzi": "松了一口气",
+        "pinyin": "sōng le yì kǒu qì",
+        "meaning": "feel relieved"
+      },
+      {
+        "hanzi": "偶尔",
+        "pinyin": "ǒu ěr",
+        "meaning": "occasionally"
+      },
+      {
+        "hanzi": "未接电话",
+        "pinyin": "wèi jiē diàn huà",
+        "meaning": "missed call"
+      },
+      {
+        "hanzi": "低头",
+        "pinyin": "dī tóu",
+        "meaning": "lower one’s head"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the narrator distinguish?",
+        "choices": [
+          "Accepting an unexpected change from being left without information",
+          "Every lateness from permanent rejection of a friendship",
+          "Every neighbour from a professional driver"
+        ],
+        "answer": "Accepting an unexpected change from being left without information"
+      },
+      {
+        "type": "detail",
+        "q": "When does the narrator ask the neighbour for help?",
+        "choices": [
+          "At 2:20",
+          "After the late friend arrives at three",
+          "Before booking the vehicle the day before"
+        ],
+        "answer": "At 2:20"
+      },
+      {
+        "type": "inference",
+        "q": "What changes in the later dinner arrangement?",
+        "choices": [
+          "The friend states his availability and calls when delayed",
+          "The narrator waits outside without an update again",
+          "They return to the old address without checking"
+        ],
+        "answer": "The friend states his availability and calls when delayed"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s5-u01-media",
+      "title": "A very hungry filing system",
+      "titleZh": "A very hungry filing system",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "这本放在哪里？",
+          "py": "zhè běn fàng zài nǎ lǐ ?",
+          "en": "Where does this book go?",
+          "speaker": "a"
+        },
+        {
+          "zh": "第二层，和其他字典放一起。",
+          "py": "dì èr céng , hé qí tā zì diǎn fàng yì qǐ .",
+          "en": "On the second shelf with the other dictionaries.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这么多字典，你都看过？",
+          "py": "zhè me duō zì diǎn , nǐ dōu kàn guò ?",
+          "en": "You’ve read all these dictionaries?",
+          "speaker": "a"
+        },
+        {
+          "zh": "字典不是从头看到尾的，想查什么就找什么。",
+          "py": "zì diǎn bù shì cóng tóu kàn dào wěi de , xiǎng chá shén me jiù zhǎo shén me .",
+          "en": "You don’t read a dictionary cover to cover. You look up what you need.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我上次按颜色排，确实不太方便。",
+          "py": "nà wǒ shàng cì àn yán sè pái , què shí bù tài fāng biàn .",
+          "en": "Then arranging them by colour last time really wasn’t convenient.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你还把一本菜谱放进去了。",
+          "py": "nǐ hái bǎ yī běn cài pǔ fàng jìn qù le .",
+          "en": "You even put a cookbook among them.",
+          "speaker": "b"
+        },
+        {
+          "zh": "里面有很多我不认识的字，我以为也算。",
+          "py": "lǐ miàn yǒu hěn duō wǒ bù rèn shi de zì , wǒ yǐ wéi yě suàn .",
+          "en": "It had lots of characters I didn’t know, so I thought it counted.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那你这次先看书名，别只看自己认不认识。",
+          "py": "nà nǐ zhè cì xiān kàn shū míng , bié zhǐ kàn zì jǐ rèn bù rèn shi .",
+          "en": "Read the titles this time, not just whether you know the characters.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好。这本我认识，写着面条。",
+          "py": "hǎo . zhè běn wǒ rèn shi , xiě zhe miàn tiáo .",
+          "en": "Okay, I know this one. It says noodles.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对，放下面。整理完我们就去吃。",
+          "py": "duì , fàng xià miàn . zhěng lǐ wán wǒ men jiù qù chī .",
+          "en": "Right, put it below. We’ll get food after tidying.",
+          "speaker": "b"
+        },
+        {
+          "zh": "现在我很有动力了。",
+          "py": "xiàn zài wǒ hěn yǒu dòng lì le .",
+          "en": "Now I’m motivated.",
+          "speaker": "a"
+        },
+        {
+          "zh": "早知道，刚才先给你看这本。",
+          "py": "zǎo zhī dào , gāng cái xiān gěi nǐ kàn zhè běn .",
+          "en": "If I’d known, I’d have shown you that one first.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "菜谱",
+          "pinyin": "cài pǔ",
+          "meaning": "cookbook"
+        },
+        {
+          "hanzi": "动力",
+          "pinyin": "dòng lì",
+          "meaning": "motivation"
+        },
+        {
+          "hanzi": "书名",
+          "pinyin": "shū míng",
+          "meaning": "book title"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Which item was previously mixed in with dictionaries?",
+          "choices": [
+            "A cookbook",
+            "The only train ticket",
+            "A box of borrowed tools"
+          ],
+          "answer": "A cookbook"
+        },
+        {
+          "type": "inference",
+          "q": "Why does the noodle book motivate the helper?",
+          "choices": [
+            "They plan to eat after finishing",
+            "The shelf can only hold food",
+            "The book has no characters"
+          ],
+          "answer": "They plan to eat after finishing"
+        }
+      ]
+    },
+    {
+      "id": "s5-u01-word-notebook",
+      "title": "What your friend was waiting for: words in context",
+      "titleZh": "不是一句没办法就够了 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这两个安排有时间冲突。",
+          "py": "zhè liǎng gè ān pái yǒu shí jiān chōng tū .",
+          "en": "These two arrangements clash in time."
+        },
+        {
+          "zh": "我们有意见冲突，但还能一起做事。",
+          "py": "wǒ men yǒu yì jiàn chōng tū , dàn hái néng yì qǐ zuò shì .",
+          "en": "We disagree, but can still work together."
+        },
+        {
+          "zh": "有变化就早点沟通，别等到最后。",
+          "py": "yǒu biàn huà jiù zǎo diǎn gōu tōng , bié děng dào zuì hòu .",
+          "en": "Communicate changes early rather than at the last moment."
+        },
+        {
+          "zh": "我们沟通以后，发现想解决的是同一个问题。",
+          "py": "wǒ men gōu tōng yǐ hòu , fā xiàn xiǎng jiě jué de shì tóng yī gè wèn tí .",
+          "en": "After talking, we found we wanted to solve the same problem."
+        },
+        {
+          "zh": "她的感谢很真诚，不是随口说的。",
+          "py": "tā de gǎn xiè hěn zhēn chéng , bù shì suí kǒu shuō de .",
+          "en": "Her thanks are sincere, not just casual words."
+        },
+        {
+          "zh": "我想真诚地说明自己的想法。",
+          "py": "wǒ xiǎng zhēn chéng de shuō míng zì jǐ de xiǎng fǎ .",
+          "en": "I’d like to explain my thoughts sincerely."
+        },
+        {
+          "zh": "我尊重你的决定，但想问清楚原因。",
+          "py": "wǒ zūn zhòng nǐ de jué dìng , dàn xiǎng wèn qīng chǔ yuán yīn .",
+          "en": "I respect your decision but want to understand the reason."
+        },
+        {
+          "zh": "尊重别人的时间，也包括早点告诉他变化。",
+          "py": "zūn zhòng bié ren de shí jiān , yě bāo kuò zǎo diǎn gào sù tā biàn huà .",
+          "en": "Respecting someone’s time includes telling them about changes early."
+        },
+        {
+          "zh": "他说不在乎，却一直抱怨，这有点矛盾。",
+          "py": "tā shuō bù zài hū , què yì zhí bào yuàn , zhè yǒu diǎn máo dùn .",
+          "en": "He says he doesn’t care but keeps complaining; that seems contradictory."
+        },
+        {
+          "zh": "我们之间的矛盾不是今天才有的。",
+          "py": "wǒ men zhī jiān de máo dùn bù shì jīn tiān cái yǒu de .",
+          "en": "The conflict between us didn’t begin today."
+        },
+        {
+          "zh": "她抱怨等了很久，却没人告诉她原因。",
+          "py": "tā bào yuàn děng le hěn jiǔ , què méi rén gào sù tā yuán yīn .",
+          "en": "She complained she’d waited a long time without anyone explaining why."
+        },
+        {
+          "zh": "我不是抱怨你忙，我是想知道你来不来。",
+          "py": "wǒ bù shì bào yuàn nǐ máng , wǒ shì xiǎng zhī dào nǐ lái bù lái .",
+          "en": "I’m not complaining that you’re busy; I want to know whether you’ll come."
+        },
+        {
+          "zh": "我们在车站偶然遇见了。",
+          "py": "wǒ men zài chē zhàn ǒu rán yù jiàn le .",
+          "en": "We ran into each other at the station by chance."
+        },
+        {
+          "zh": "这不是偶然，每次他都提前准备。",
+          "py": "zhè bù shì ǒu rán , měi cì tā dōu tí qián zhǔn bèi .",
+          "en": "This isn’t a coincidence; he prepares in advance every time."
+        },
+        {
+          "zh": "这次失误是我把时间记错了。",
+          "py": "zhè cì shī wù shì wǒ bǎ shí jiān jì cuò le .",
+          "en": "My mistake this time was remembering the time incorrectly."
+        },
+        {
+          "zh": "发现失误以后，先把结果改正。",
+          "py": "fā xiàn shī wù yǐ hòu , xiān bǎ jié guǒ gǎi zhèng .",
+          "en": "Correct the result once you’ve found the mistake."
+        },
+        {
+          "zh": "她无奈地笑了，说车已经走了。",
+          "py": "tā wú nài de xiào le , shuō chē yǐ jīng zǒu le .",
+          "en": "She smiled helplessly and said the bus had gone."
+        },
+        {
+          "zh": "我也很无奈，但不能让你一直等。",
+          "py": "wǒ yě hěn wú nài , dàn bù néng ràng nǐ yì zhí děng .",
+          "en": "I have few options too, but I can’t keep you waiting."
+        },
+        {
+          "zh": "一直等别人决定，太消极了。",
+          "py": "yì zhí děng bié ren jué dìng , tài xiāo jí le .",
+          "en": "Waiting for others to decide is too passive."
+        },
+        {
+          "zh": "他今天有点消极，觉得怎么做都没用。",
+          "py": "tā jīn tiān yǒu diǎn xiāo jí , jué de zěn me zuò dōu méi yòng .",
+          "en": "He’s feeling negative today and thinks nothing he does will help."
+        },
+        {
+          "zh": "我们的友谊不是靠每天见面维持的。",
+          "py": "wǒ men de yǒu yì bù shì kào měi tiān jiàn miàn wéi chí de .",
+          "en": "Our friendship doesn’t depend on meeting every day."
+        },
+        {
+          "zh": "这次旅行让我们的友谊更深了。",
+          "py": "zhè cì lǚ xíng ràng wǒ men de yǒu yì gèng shēn le .",
+          "en": "This trip strengthened our friendship."
+        },
+        {
+          "zh": "我很珍惜能一起做事的机会。",
+          "py": "wǒ hěn zhēn xī néng yì qǐ zuò shì de jī huì .",
+          "en": "I value the chance to work together."
+        },
+        {
+          "zh": "珍惜朋友，也要认真对待答应的事。",
+          "py": "zhēn xī péng you , yě yào rèn zhēn duì dài dā yìng de shì .",
+          "en": "Valuing friends includes taking your commitments seriously."
+        },
+        {
+          "zh": "到了以后，我会和你联络。",
+          "py": "dào le yǐ hòu , wǒ huì hé nǐ lián luò .",
+          "en": "I’ll contact you after arriving."
+        },
+        {
+          "zh": "毕业以后，我们还保持联络。",
+          "py": "bì yè yǐ hòu , wǒ men hái bǎo chí lián luò .",
+          "en": "We kept in touch after graduation."
+        },
+        {
+          "zh": "我想讨论这次安排，不是指责你这个人。",
+          "py": "wǒ xiǎng tǎo lùn zhè cì ān pái , bù shì zhǐ zé nǐ zhè gè rén .",
+          "en": "I want to discuss this arrangement, not attack you as a person."
+        },
+        {
+          "zh": "他没有指责谁，只说明哪里出了问题。",
+          "py": "tā méi yǒu zhǐ zé shéi , zhǐ shuō míng nǎ lǐ chū le wèn tí .",
+          "en": "He didn’t accuse anyone; he just explained where the problem arose."
+        },
+        {
+          "zh": "我犹豫了一下，还是给她打了电话。",
+          "py": "wǒ yóu yù le yī xià , hái shi gěi tā dǎ le diàn huà .",
+          "en": "I hesitated briefly, then called her anyway."
+        },
+        {
+          "zh": "你还在犹豫，是担心时间不够吗？",
+          "py": "nǐ hái zài yóu yù , shì dān xīn shí jiān bù gòu ma ?",
+          "en": "Are you hesitating because you’re worried about time?"
+        },
+        {
+          "zh": "我担心你误解了那句话。",
+          "py": "wǒ dān xīn nǐ wù jiě le nà jù huà .",
+          "en": "I’m worried you misunderstood that sentence."
+        },
+        {
+          "zh": "这次误解和前面少说了一句有关。",
+          "py": "zhè cì wù jiě hé qián miàn shǎo shuō le yī jù yǒu guān .",
+          "en": "This misunderstanding has to do with a missing sentence earlier."
+        },
+        {
+          "zh": "这次多出来的工作，我来承担。",
+          "py": "zhè cì duō chū lái de gōng zuò , wǒ lái chéng dān .",
+          "en": "I’ll take on the extra work this time."
+        },
+        {
+          "zh": "他愿意承担自己决定的结果。",
+          "py": "tā yuàn yì chéng dān zì jǐ jué dìng de jié guǒ .",
+          "en": "He’s willing to bear the consequences of his decision."
+        },
+        {
+          "zh": "我不能保证几点到，会再告诉你。",
+          "py": "wǒ bù néng bǎo zhèng jǐ diǎn dào , huì zài gào sù nǐ .",
+          "en": "I can’t promise an arrival time; I’ll update you."
+        },
+        {
+          "zh": "你保证的事，要先看看能不能做到。",
+          "py": "nǐ bǎo zhèng de shì , yào xiān kàn kàn néng bù néng zuò dào .",
+          "en": "Check whether you can do something before promising it."
+        },
+        {
+          "zh": "她很可靠，有变化会主动说。",
+          "py": "tā hěn kě kào , yǒu biàn huà huì zhǔ dòng shuō .",
+          "en": "She’s reliable and says when something changes."
+        },
+        {
+          "zh": "我想找一个可靠的办法保存这些照片。",
+          "py": "wǒ xiǎng zhǎo yī gè kě kào de bàn fǎ bǎo cún zhè xiē zhào piān .",
+          "en": "I’d like a reliable way to save these photos."
+        },
+        {
+          "zh": "我信任你，才把这件事交给你。",
+          "py": "wǒ xìn rèn nǐ , cái bǎ zhè jiàn shì jiāo gěi nǐ .",
+          "en": "I entrusted you with this because I trust you."
+        },
+        {
+          "zh": "信任不是从来不问，而是可以把问题说清楚。",
+          "py": "xìn rèn bù shì cóng lái bù wèn , ér shì kě yǐ bǎ wèn tí shuō qīng chǔ .",
+          "en": "Trust doesn’t mean never asking; it means being able to clarify problems."
+        },
+        {
+          "zh": "我承认这次没有及时联系你。",
+          "py": "wǒ chéng rèn zhè cì méi yǒu jí shí lián xì nǐ .",
+          "en": "I admit I didn’t contact you promptly this time."
+        },
+        {
+          "zh": "她承认自己只听了一半。",
+          "py": "tā chéng rèn zì jǐ zhǐ tīng le yí bàn .",
+          "en": "She admits she heard only half of it."
+        },
+        {
+          "zh": "我等过以后，才体会到你的感受。",
+          "py": "wǒ děng guò yǐ hòu , cái tǐ huì dào nǐ de gǎn shòu .",
+          "en": "After waiting myself, I understood how you felt."
+        },
+        {
+          "zh": "这次经历让我体会到提前准备的好处。",
+          "py": "zhè cì jīng lì ràng wǒ tǐ huì dào tí qián zhǔn bèi de hǎo chù .",
+          "en": "This experience showed me the benefit of preparing ahead."
+        },
+        {
+          "zh": "谢谢你耐心听我说完。",
+          "py": "xiè xiè nǐ nài xīn tīng wǒ shuō wán .",
+          "en": "Thank you for patiently hearing me out."
+        },
+        {
+          "zh": "她教新同学时很有耐心。",
+          "py": "tā jiào xīn tóng xué shí hěn yǒu nài xīn .",
+          "en": "She’s patient when teaching new classmates."
+        },
+        {
+          "zh": "我很尊敬这位老师，她总会认真回答。",
+          "py": "wǒ hěn zūn jìng zhè wèi lǎo shī , tā zǒng huì rèn zhēn huí dá .",
+          "en": "I respect this teacher; she always answers thoughtfully."
+        },
+        {
+          "zh": "大家尊敬他，不只是因为他的职位。",
+          "py": "dà jiā zūn jìng tā , bù zhǐ shì yīn wèi tā de zhí wèi .",
+          "en": "People respect him for more than his position."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "主动",
+          "pinyin": "zhǔ dòng",
+          "meaning": "take the initiative"
+        },
+        {
+          "hanzi": "维持",
+          "pinyin": "wéi chí",
+          "meaning": "maintain"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s5-u01-paired-reading",
+      "title": "The helper’s view",
+      "titleZh": "The helper’s view",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "那天进门以后，我看见箱子都到了楼上，刚要说“看来已经弄好了”，朋友就指了指地上的两箱书。她的外套搭在椅子上，袖口有一块灰，手里的水也已经凉了。我问重箱子是谁搬的，她说邻居帮了十分钟，司机刚才已经走了。我把包放下，才发现自己来得有多晚。",
+          "py": "nà tiān jìn mén yǐ hòu , wǒ kàn jiàn xiāng zi dōu dào le lóu shàng , gāng yào shuō kàn lái yǐ jīng nòng hǎo le , péng you jiù zhǐ le zhǐ dì shang de liǎng xiāng shū . tā de wài tào dā zài yǐ zi shàng , xiù kǒu yǒu yī kuài huī , shǒu lǐ de shuǐ yě yǐ jīng liáng le . wǒ wèn zhòng xiāng zi shì shéi bān de , tā shuō lín jū bāng le shí fēn zhōng , sī jī gāng cái yǐ jīng zǒu le . wǒ bǎ bāo fàng xià , cái fā xiàn zì jǐ lái de yǒu duō wǎn .",
+          "en": "When I walked in, the boxes were already upstairs. I was about to say, 'Looks like it's done,' when my friend pointed to two boxes of books on the floor. Her coat was on a chair, its sleeve dusty, and the water in her hand had gone cold. A neighbour had helped for ten minutes, she said, and the driver had just left. Putting down my bag, I realised how late I was."
+        },
+        {
+          "zh": "临时开会的时候，我的手机还在桌上。同事叫我过去，我以为只要说几句话，结果一坐下就讨论了很久。中间我想到朋友可能在等，却总觉得下一句说完就能走。直到会议结束拿起手机，看见两个未接电话，我才赶紧出门。一路上我想好了一堆解释，见到她却只说出对不起。",
+          "py": "lín shí kāi huì de shí hou , wǒ de shǒu jī hái zài zhuō shàng . tóng shì jiào wǒ guò qù , wǒ yǐ wéi zhǐ yào shuō jǐ jù huà , jié guǒ yī zuò xià jiù tǎo lùn le hěn jiǔ . zhōng jiān wǒ xiǎng dào péng you kě néng zài děng , què zǒng jué de xià yī jù shuō wán jiù néng zǒu . zhí dào huì yì jié shù ná qǐ shǒu jī , kàn jiàn liǎng gè wèi jiē diàn huà , wǒ cái gǎn jǐn chū mén . yī lù shàng wǒ xiǎng hǎo le yī duī jiě shì , jiàn dào tā què zhǐ shuō chū duì bù qǐ .",
+          "en": "My phone was on my desk when the unexpected meeting began. I thought my colleague needed a quick word, but the discussion went on. I kept thinking my friend might be waiting, then telling myself I could leave after the next point. Only after the meeting, seeing two missed calls, did I hurry out. I prepared plenty of explanations on the way; face to face, all I managed was sorry."
+        },
+        {
+          "zh": "她把没接到电话以后的情况讲完，我才知道，她一直以为我已经在路上。司机在楼下问还有多久，她没法回答；到了两点二十，才去敲邻居的门。邻居本来在做饭，关了火下来帮忙。我问能不能去谢谢他，她说工具晚上要还，到时候一起过去。我先接过她手里那杯凉水，重新倒了一杯。",
+          "py": "tā bǎ méi jiē dào diàn huà yǐ hòu de qíng kuàng jiǎng wán , wǒ cái zhī dào , tā yì zhí yǐ wéi wǒ yǐ jīng zài lù shàng . sī jī zài lóu xià wèn hái yǒu duō jiǔ , tā méi fǎ huí dá ; dào le liǎng diǎn èr shí , cái qù qiāo lín jū de mén . lín jū běn lái zài zuò fàn , guān le huǒ xià lái bāng máng . wǒ wèn néng bù néng qù xiè xiè tā , tā shuō gōng jù wǎn shang yào hái , dào shí hou yì qǐ guò qù . wǒ xiān jiē guò tā shǒu lǐ nà bēi liáng shuǐ , chóng xīn dào le yī bēi .",
+          "en": "When she told me what had happened after the unanswered calls, I learned she'd thought I was already on the way. She couldn't tell the driver how much longer I'd be. At 2:20 she knocked on the neighbour's door; he'd stopped cooking to help. I asked if we could thank him. We could return his tools together that evening, she said. First I took her cold water and poured a fresh cup."
+        },
+        {
+          "zh": "我本来想说以后绝不迟到，话到了嘴边，又想起单位下次也可能临时开会。最后我说，下次会先看安排再答应，有变化就提前打电话。她问手机又留在桌上怎么办，我说向同事借一个。她看了我一会儿，说那就这样吧，先把地上的书放好。我蹲下来打开箱子，这才知道她想按什么顺序排。",
+          "py": "wǒ běn lái xiǎng shuō yǐ hòu jué bù chí dào , huà dào le zuǐ biān , yòu xiǎng qǐ dān wèi xià cì yě kě néng lín shí kāi huì . zuì hòu wǒ shuō , xià cì huì xiān kàn ān pái zài dā yìng , yǒu biàn huà jiù tí qián dǎ diàn huà . tā wèn shǒu jī yòu liú zài zhuō shàng zěn me bàn , wǒ shuō xiàng tóng shì jiè yī gè . tā kàn le wǒ yī huì er , shuō nà jiù zhè yàng ba , xiān bǎ dì shang de shū fàng hǎo . wǒ dūn xià lái dǎ kāi xiāng zi , zhè cái zhī dào tā xiǎng àn shén me shùn xù pái .",
+          "en": "I almost promised never to be late again, then remembered work might spring another meeting on me. I said I'd check my schedule before agreeing and call ahead if anything changed. What if my phone was on the desk again? I'd borrow a colleague's. She looked at me, then said okay: first put away the books on the floor. I crouched to open a box and finally asked how she wanted them arranged."
+        },
+        {
+          "zh": "两周后，朋友请我一起去整理活动室。这次我先看了工作安排，说下午四点可以到，四点以前不能保证。她说需要三点开始，我就没有接下那一段，只答应四点以后整理留下的材料。我们把不能做的部分说在前面，反而没有再发生同样的误会。",
+          "py": "liǎng zhōu hòu , péng you qǐng wǒ yì qǐ qù zhěng lǐ huó dòng shì . zhè cì wǒ xiān kàn le gōng zuò ān pái , shuō xià wǔ sì diǎn kě yǐ dào , sì diǎn yǐ qián bù néng bǎo zhèng . tā shuō xū yào sān diǎn kāi shǐ , wǒ jiù méi yǒu jiē xià nà yī duàn , zhǐ dā yìng sì diǎn yǐ hòu zhěng lǐ liú xià de cái liào . wǒ men bǎ bù néng zuò de bù fèn shuō zài qián miàn , fǎn ér méi yǒu zài fā shēng tóng yàng de wù huì .",
+          "en": "Two weeks later she asked me to help organise an activity room. I checked my work schedule and said I could arrive at four, with no guarantee before then. She needed a three-o’clock start, so I didn’t accept that part, only the remaining materials after four. Stating the limit first prevented the same misunderstanding."
+        },
+        {
+          "zh": "那天中午，我又发了一条消息，确认四点仍然可以到。她回复说，三点开始搬桌子的人已经找好了，让我到时直接整理最后留下的材料。我把工作做完，带上胶带和剪刀，出门前再看了一眼地址。那是活动室，不是她的新家，我上次存好的地址今天还用不上。",
+          "py": "nà tiān zhōng wǔ , wǒ yòu fā le yī tiáo xiāo xī , què rèn sì diǎn réng rán kě yǐ dào . tā huí fù shuō , sān diǎn kāi shǐ bān zhuō zi de rén yǐ jīng zhǎo hǎo le , ràng wǒ dào shí zhí jiē zhěng lǐ zuì hòu liú xià de cái liào . wǒ bǎ gōng zuò zuò wán , dài shàng jiāo dài hé jiǎn dāo , chū mén qián zài kàn le yī yǎn dì zhǐ . nà shì huó dòng shì , bù shì tā de xīn jiā , wǒ shàng cì cún hǎo de dì zhǐ jīn tiān hái yòng bù shàng .",
+          "en": "At midday I confirmed I could still arrive at four. She'd found someone for the tables at three; I should sort the remaining materials. I finished work and packed tape and scissors, checking the address before leaving. It was the activity room, not her new home, so the address I'd saved last time wouldn't help today."
+        },
+        {
+          "zh": "四点到了，我发消息说自己已在门口。她出来开门，说还剩两张桌子没收，材料先放在右边。我卷起袖子，和她把桌子抬回墙边，再把纸按下次要用的顺序收好。快做完时，她问我要不要一起吃点东西。我看了看手机，没有新电话，就说好，这回我真的不赶时间。",
+          "py": "sì diǎn dào le , wǒ fā xiāo xī shuō zì jǐ yǐ zài mén kǒu . tā chū lái kāi mén , shuō hái shèng liǎng zhāng zhuō zi mò shōu , cái liào xiān fàng zài yòu biān . wǒ juǎn qǐ xiù zi , hé tā bǎ zhuō zi tái huí qiáng biān , zài bǎ zhǐ àn xià cì yào yòng de shùn xù shōu hǎo . kuài zuò wán shí , tā wèn wǒ yào bù yào yì qǐ chī diǎn dōng xi . wǒ kàn le kàn shǒu jī , méi yǒu xīn diàn huà , jiù shuō hǎo , zhè huí wǒ zhēn de bù gǎn shí jiān .",
+          "en": "At four I messaged that I was at the door. She opened it: two tables were still out, and the materials should go on the right. We carried the tables to the wall, then sorted the papers for next time. Near the end she suggested something to eat. I checked my phone—no new calls—and said yes: this time I really wasn't in a hurry."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "邻居",
+          "pinyin": "lín jū",
+          "meaning": "neighbour"
+        },
+        {
+          "hanzi": "主动",
+          "pinyin": "zhǔ dòng",
+          "meaning": "take the initiative"
+        },
+        {
+          "hanzi": "仪式",
+          "pinyin": "yí shì",
+          "meaning": "ceremony"
+        },
+        {
+          "hanzi": "未接电话",
+          "pinyin": "wèi jiē diàn huà",
+          "meaning": "missed call"
+        },
+        {
+          "hanzi": "袖口",
+          "pinyin": "xiù kǒu",
+          "meaning": "sleeve cuff"
+        },
+        {
+          "hanzi": "胶带",
+          "pinyin": "jiāo dài",
+          "meaning": "adhesive tape"
+        },
+        {
+          "hanzi": "剪刀",
+          "pinyin": "jiǎn dāo",
+          "meaning": "scissors"
+        },
+        {
+          "hanzi": "搭",
+          "pinyin": "dā",
+          "meaning": "drape; put over"
+        },
+        {
+          "hanzi": "一堆",
+          "pinyin": "yī duī",
+          "meaning": "a pile; a lot"
+        },
+        {
+          "hanzi": "蹲",
+          "pinyin": "dūn",
+          "meaning": "squat; crouch"
+        },
+        {
+          "hanzi": "卷起",
+          "pinyin": "juǎn qǐ",
+          "meaning": "roll up"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What changes in the helper’s later approach?",
+          "choices": [
+            "Limits are stated before accepting a task",
+            "Every future arrival is guaranteed forever",
+            "Other people must stop making plans"
+          ],
+          "answer": "Limits are stated before accepting a task"
+        },
+        {
+          "type": "detail",
+          "q": "At what time can the helper arrive two weeks later?",
+          "choices": [
+            "Four",
+            "Three",
+            "Two"
+          ],
+          "answer": "Four"
+        },
+        {
+          "type": "inference",
+          "q": "What do both accounts support?",
+          "choices": [
+            "Updates and specific actions matter more than a dramatic promise",
+            "No unexpected work can ever happen",
+            "Being a friend means never asking for clarification"
+          ],
+          "answer": "Updates and specific actions matter more than a dramatic promise"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "两周后，朋友请我一起去整理活动室。这次我先看了工作安排，说下午四点可以到，四点以前不能【保证】。她说需要三点开始，我就没有接下那一段，只答应四点以后整理留下的材料。我们把不能做的部分说在前面，反而没有再发生同样的误会。",
+            "py": "liǎng zhōu hòu , péng you qǐng wǒ yì qǐ qù zhěng lǐ huó dòng shì . zhè cì wǒ xiān kàn le gōng zuò ān pái , shuō xià wǔ sì diǎn kě yǐ dào , sì diǎn yǐ qián bù néng bǎo zhèng . tā shuō xū yào sān diǎn kāi shǐ , wǒ jiù méi yǒu jiē xià nà yī duàn , zhǐ dā yìng sì diǎn yǐ hòu zhěng lǐ liú xià de cái liào . wǒ men bǎ bù néng zuò de bù fèn shuō zài qián miàn , fǎn ér méi yǒu zài fā shēng tóng yàng de wù huì .",
+            "en": "Two weeks later she asked me to help organise an activity room. I checked my work schedule and said I could arrive at four, with no guarantee before then. She needed a three-o’clock start, so I didn’t accept that part, only the remaining materials after four. Stating the limit first prevented the same misunderstanding."
+          }
+        ],
+        "bank": [
+          "保证",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s5-u01-c",
+    "title": "What your friend was waiting for",
+    "place": "Unpacking after a missed moving commitment",
+    "context": "A helper arrives at three after agreeing on two; a neighbour already carried the heavy boxes before the driver left at 2:30.",
+    "goal": "Explain the practical effect of a missed commitment",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "我也没办法，临时开会。",
+        "pinyin": "wǒ yě méi bàn fǎ , lín shí kāi huì .",
+        "meaning": "I had no choice either; the meeting was unexpected.",
+        "intent": "Acknowledge the practical effect without denying the meeting",
+        "examples": [
+          "我理解开会是临时的，但不知道你来不来，我没法早点改安排。"
+        ],
+        "accept": [
+          "^我理解开会是临时的，但不知道你来不来，我没法早点改安排。[。！？]?$"
+        ]
+      },
+      {
+        "text": "那我保证下次绝不迟到。",
+        "pinyin": "nà wǒ bǎo zhèng xià cì jué bù chí dào .",
+        "meaning": "Then I promise never to be late next time.",
+        "intent": "Replace an unlimited promise with a concrete process",
+        "examples": [
+          "先确认时间再答应，有变化就提前联系。"
+        ],
+        "accept": [
+          "^先确认时间再答应，有变化就提前联系。[。！？]?$"
+        ]
+      },
+      {
+        "text": "三点能来吗？",
+        "pinyin": "sān diǎn néng lái ma ?",
+        "meaning": "Can you come at three?",
+        "intent": "State a real availability limit",
+        "examples": [
+          "三点不能保证，四点可以。如果需要三点开始，就先找别人。"
+        ],
+        "accept": [
+          "^三点不能保证，四点可以。如果需要三点开始，就先找别人。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Name the missing information",
+      "natural": {
+        "zh": "我不知道你还来不来，所以一直没有找别人。",
+        "py": "wǒ bù zhī dào nǐ hái lái bù lái , suǒ yǐ yì zhí méi yǒu zhǎo bié ren .",
+        "en": "I did not know whether you were still coming, so I did not ask someone else."
+      },
+      "note": "This specifies the practical effect instead of assigning a permanent character flaw."
+    },
+    {
+      "situation": "Limit the commitment",
+      "natural": {
+        "zh": "我四点可以到，三点以前不能保证。",
+        "py": "wǒ sì diǎn kě yǐ dào , sān diǎn yǐ qián bù néng bǎo zhèng .",
+        "en": "I can arrive at four; I cannot guarantee before three."
+      },
+      "note": "A stated limit lets the other person decide whether the help fits their plan."
+    },
+    {
+      "situation": "Acknowledge your part",
+      "natural": {
+        "zh": "我没有及时联系你，让你不好改安排。",
+        "py": "wǒ méi yǒu jí shí lián xì nǐ , ràng nǐ bù hǎo gǎi ān pái .",
+        "en": "I did not contact you promptly, which made changing plans difficult."
+      },
+      "note": "An acknowledgement names your action and its effect rather than only repeating an excuse."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s5-u01-t01",
+      "phrase": "s5-u01-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我给你打了两次，以为你在路上。司机两点半就走了。",
+        "py": "wǒ gěi nǐ dǎ le liǎng cì , yǐ wéi nǐ zài lù shàng . sī jī liǎng diǎn bàn jiù zǒu le .",
+        "en": "I called you twice and thought you were on the way. The driver left at half past two."
+      },
+      "statement": "The driver left at half past two.",
+      "answer": true,
+      "why": "The exact departure time is stated."
+    },
+    {
+      "id": "s5-u01-t02",
+      "phrase": "s5-u01-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "不只是等。我不知道你来不来，就没找别人，最后才去敲邻居的门。",
+        "py": "bù zhǐ shì děng . wǒ bù zhī dào nǐ lái bù lái , jiù méi zhǎo bié ren , zuì hòu cái qù qiāo lín jū de mén .",
+        "en": "Not just waiting. I didn’t know whether you’d come, so I didn’t ask anyone else until I knocked on the neighbour’s door at the last moment."
+      },
+      "statement": "The narrator immediately found another helper when the first call failed.",
+      "answer": false,
+      "why": "Uncertainty delayed asking the neighbour."
+    },
+    {
+      "id": "s5-u01-t03",
+      "phrase": "s5-u01-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "后来，我们一起把剩下的书放上书架。他先问我按什么顺序放，没有像上次那样只按颜色排。我把字典和常用的几本放在手边，其余的按书名排好。最后一箱打开时，里面竟然还有一杯没喝完的水。他笑我搬家连水都不肯扔，我才想起那是早上随手放进去的。",
+        "py": "hòu lái , wǒ men yì qǐ bǎ shèng xià de shū fàng shàng shū jià . tā xiān wèn wǒ àn shén me shùn xù fàng , méi yǒu xiàng shàng cì nà yàng zhǐ àn yán sè pái . wǒ bǎ zì diǎn hé cháng yòng de jǐ běn fàng zài shǒu biān , qí yú de àn shū míng pái hǎo . zuì hòu yī xiāng dǎ kāi shí , lǐ miàn jìng rán hái yǒu yī bēi méi hē wán de shuǐ . tā xiào wǒ bān jiā lián shuǐ dōu bù kěn rēng , wǒ cái xiǎng qǐ nà shì zǎo shàng suí shǒu fàng jìn qù de .",
+        "en": "Later we put the remaining books on the shelves together. He asked how I wanted them arranged, rather than sorting by colour as he'd done before. I kept the dictionary and a few frequently used books within reach and sorted the others by title. The last box contained a half-finished cup of water. He laughed that I wouldn't even throw water away when moving; I'd put it there absent-mindedly that morning."
+      },
+      "statement": "They arrange all the books only by colour.",
+      "answer": false,
+      "why": "The dictionary and frequently used books stay within reach; the others are sorted by title."
+    },
+    {
+      "id": "s5-u01-t04",
+      "phrase": "s5-u01-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "两周后，朋友请我一起去整理活动室。这次我先看了工作安排，说下午四点可以到，四点以前不能保证。她说需要三点开始，我就没有接下那一段，只答应四点以后整理留下的材料。我们把不能做的部分说在前面，反而没有再发生同样的误会。",
+        "py": "liǎng zhōu hòu , péng you qǐng wǒ yì qǐ qù zhěng lǐ huó dòng shì . zhè cì wǒ xiān kàn le gōng zuò ān pái , shuō xià wǔ sì diǎn kě yǐ dào , sì diǎn yǐ qián bù néng bǎo zhèng . tā shuō xū yào sān diǎn kāi shǐ , wǒ jiù méi yǒu jiē xià nà yī duàn , zhǐ dā yìng sì diǎn yǐ hòu zhěng lǐ liú xià de cái liào . wǒ men bǎ bù néng zuò de bù fèn shuō zài qián miàn , fǎn ér méi yǒu zài fā shēng tóng yàng de wù huì .",
+        "en": "Two weeks later she asked me to help organise an activity room. I checked my work schedule and said I could arrive at four, with no guarantee before then. She needed a three-o’clock start, so I didn’t accept that part, only the remaining materials after four. Stating the limit first prevented the same misunderstanding."
+      },
+      "statement": "The helper accepts the three-o’clock start two weeks later.",
+      "answer": false,
+      "why": "They accept only the remaining work after four."
+    },
+    {
+      "id": "s5-u01-t05",
+      "phrase": "s5-u01-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "你临时开会，我等不到消息，没法改安排。为什么我还生气？",
+        "py": "nǐ lín shí kāi huì , wǒ děng bù dào xiāo xī , méi fǎ gǎi ān pái . wèi shén me wǒ hái shēng qì ?",
+        "en": "You had an unexpected meeting. Without an update I could not change the plan. Why am I still upset?"
+      },
+      "choices": [
+        "因为你不知道我来不来，没法早点改安排。",
+        "因为我已经提前告诉你会晚到。",
+        "因为你不需要等，就已经改好安排。"
+      ],
+      "answer": "因为你不知道我来不来，没法早点改安排。",
+      "why": "The complaint concerns missing information, not denying the meeting."
+    },
+    {
+      "id": "s5-u01-t06",
+      "phrase": "s5-u01-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "你四点才有空，还能答应三点来吗？",
+        "py": "nǐ sì diǎn cái yǒu kōng , hái néng dā yìng sān diǎn lái ma ?",
+        "en": "You are only free at four. Can you still promise to arrive at three?"
+      },
+      "choices": [
+        "不答应三点，我可以承担四点以后的部分。",
+        "当然，我四点才出发，三点就能到了。",
+        "我三点才能来，四点没有时间。"
+      ],
+      "answer": "不答应三点，我可以承担四点以后的部分。",
+      "why": "The reply makes the commitment fit actual availability."
+    },
+    {
+      "id": "s5-u01-t07",
+      "phrase": "s5-u01-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "这本菜谱和字典颜色一样。你说按书名放，还放字典旁边吗？",
+        "py": "zhè běn cài pǔ hé zì diǎn yán sè yī yàng . nǐ shuō àn shū míng fàng , hái fàng zì diǎn páng biān ma ?",
+        "en": "The cookbook and dictionary share a colour. You said to sort by title; should this go beside the dictionary?"
+      },
+      "choices": [
+        "别只按颜色，看书名再放。",
+        "对，按颜色放正好符合按书名放。",
+        "不用看书名，同色的都放一起。"
+      ],
+      "answer": "别只按颜色，看书名再放。",
+      "why": "The reply follows the practical shelf instructions."
+    },
+    {
+      "id": "s5-u01-t08",
+      "phrase": "s5-u01-w08",
+      "type": "listenfill",
+      "line": {
+        "zh": "我们【明明】约了两点，你却三点才来。",
+        "py": "wǒ men míng míng yuē le liǎng diǎn , nǐ què sān diǎn cái lái .",
+        "en": "We agreed on two, yet you only arrived at three."
+      },
+      "blankPy": "míng míng"
+    },
+    {
+      "id": "s5-u01-t09",
+      "phrase": "s5-u01-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "他没来，邻居【倒是】主动帮了忙。",
+        "py": "tā méi lái , lín jū dǎo shì zhǔ dòng bāng le máng .",
+        "en": "He did not come, but the neighbour unexpectedly offered help."
+      },
+      "blankPy": "dǎo shì"
+    },
+    {
+      "id": "s5-u01-t10",
+      "phrase": "s5-u01-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "有变化就早点【沟通】。",
+        "py": "yǒu biàn huà jiù zǎo diǎn gōu tōng .",
+        "en": "Communicate changes early."
+      },
+      "blankPy": "gōu tōng"
+    },
+    {
+      "id": "s5-u01-t11",
+      "phrase": "s5-u01-w11",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "These two arrangements clash in time.",
+          "right": {
+            "zh": "这两个安排有时间冲突。",
+            "py": "zhè liǎng gè ān pái yǒu shí jiān chōng tū .",
+            "en": "These two arrangements clash in time."
+          }
+        },
+        {
+          "left": "He says he doesn’t care but keeps complaining; that seems contradictory.",
+          "right": {
+            "zh": "他说不在乎，却一直抱怨，这有点矛盾。",
+            "py": "tā shuō bù zài hū , què yì zhí bào yuàn , zhè yǒu diǎn máo dùn .",
+            "en": "He says he doesn’t care but keeps complaining; that seems contradictory."
+          }
+        },
+        {
+          "left": "My mistake this time was remembering the time incorrectly.",
+          "right": {
+            "zh": "这次失误是我把时间记错了。",
+            "py": "zhè cì shī wù shì wǒ bǎ shí jiān jì cuò le .",
+            "en": "My mistake this time was remembering the time incorrectly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u01-t12",
+      "phrase": "s5-u01-w12",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "This trip strengthened our friendship.",
+          "right": {
+            "zh": "这次旅行让我们的友谊更深了。",
+            "py": "zhè cì lǚ xíng ràng wǒ men de yǒu yì gèng shēn le .",
+            "en": "This trip strengthened our friendship."
+          }
+        },
+        {
+          "left": "Are you hesitating because you’re worried about time?",
+          "right": {
+            "zh": "你还在犹豫，是担心时间不够吗？",
+            "py": "nǐ hái zài yóu yù , shì dān xīn shí jiān bù gòu ma ?",
+            "en": "Are you hesitating because you’re worried about time?"
+          }
+        },
+        {
+          "left": "I’d like a reliable way to save these photos.",
+          "right": {
+            "zh": "我想找一个可靠的办法保存这些照片。",
+            "py": "wǒ xiǎng zhǎo yī gè kě kào de bàn fǎ bǎo cún zhè xiē zhào piān .",
+            "en": "I’d like a reliable way to save these photos."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u01-t13",
+      "phrase": "s5-u01-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I’ll take on the extra work this time.",
+          "right": {
+            "zh": "这次多出来的工作，我来承担。",
+            "py": "zhè cì duō chū lái de gōng zuò , wǒ lái chéng dān .",
+            "en": "I’ll take on the extra work this time."
+          }
+        },
+        {
+          "left": "I admit I didn’t contact you promptly this time.",
+          "right": {
+            "zh": "我承认这次没有及时联系你。",
+            "py": "wǒ chéng rèn zhè cì méi yǒu jí shí lián xì nǐ .",
+            "en": "I admit I didn’t contact you promptly this time."
+          }
+        },
+        {
+          "left": "Thank you for patiently hearing me out.",
+          "right": {
+            "zh": "谢谢你耐心听我说完。",
+            "py": "xiè xiè nǐ nài xīn tīng wǒ shuō wán .",
+            "en": "Thank you for patiently hearing me out."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: degree of irritation and later teasing, 毕竟 as explanation rather than absolution, and 明明’s accusatory force. Both accounts preserve the 2:00 agreement, 2:20 backup request, 2:30 driver departure and 3:00 helper arrival. The later four-o’clock commitment concerns a different activity two weeks later. No universal interpersonal outcome is claimed.\n2026-10-08 advanced reading self-review: Moving and singing readings now recount observable actions, ordinary banter and follow-up plans. Removed repeated friendship guarantees, consent analysis and grand claims from the narrator. Lyric discussion remains literary interpretation; its two readings and uncertain addressee are preserved. Corrected Lin An pronoun continuity in the drama summary. Retained all tested times, two missed words, two short performances and original question/task IDs. Native flags: 搬家连水都不肯扔 banter, 抬桌子/收材料 collocations, 鼓掌 misunderstanding and lyric interpretations. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "沟",
+      "pinyin": "gōu",
+      "meaning": "channel; communicate, in 沟通",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "沟",
+          "role": "whole",
+          "gloss": "channel; communicate, in 沟通"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 沟 in 沟通. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "沟通",
+          "p": "gōu tōng",
+          "m": "communicate"
+        }
+      ]
+    },
+    {
+      "hanzi": "尊",
+      "pinyin": "zūn",
+      "meaning": "respect",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "尊",
+          "role": "whole",
+          "gloss": "respect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 尊 in 尊重 / 尊敬. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "尊重",
+          "p": "zūn zhòng",
+          "m": "respect"
+        },
+        {
+          "w": "尊敬",
+          "p": "zūn jìng",
+          "m": "respect; hold in esteem"
+        }
+      ]
+    },
+    {
+      "hanzi": "矛",
+      "pinyin": "máo",
+      "meaning": "spear; bound component in 矛盾, contradiction",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "矛",
+          "role": "whole",
+          "gloss": "spear; bound component in 矛盾, contradiction"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 矛 in 矛盾. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "矛盾",
+          "p": "máo dùn",
+          "m": "contradiction; conflict"
+        }
+      ]
+    },
+    {
+      "hanzi": "盾",
+      "pinyin": "dùn",
+      "meaning": "shield; bound component in 矛盾, contradiction",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "盾",
+          "role": "whole",
+          "gloss": "shield; bound component in 矛盾, contradiction"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 盾 in 矛盾. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "矛盾",
+          "p": "máo dùn",
+          "m": "contradiction; conflict"
+        }
+      ]
+    },
+    {
+      "hanzi": "怨",
+      "pinyin": "yuàn",
+      "meaning": "resent; complain",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "怨",
+          "role": "whole",
+          "gloss": "resent; complain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 怨 in 抱怨. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "抱怨",
+          "p": "bào yuàn",
+          "m": "complain"
+        }
+      ]
+    },
+    {
+      "hanzi": "偶",
+      "pinyin": "ǒu",
+      "meaning": "occasional; by chance",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "偶",
+          "role": "whole",
+          "gloss": "occasional; by chance"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 偶 in 偶然. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "偶然",
+          "p": "ǒu rán",
+          "m": "by chance; accidental"
+        }
+      ]
+    },
+    {
+      "hanzi": "奈",
+      "pinyin": "nài",
+      "meaning": "bound component in 无奈, having no alternative",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "奈",
+          "role": "whole",
+          "gloss": "bound component in 无奈, having no alternative"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 奈 in 无奈. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "无奈",
+          "p": "wú nài",
+          "m": "helpless; having no good option"
+        }
+      ]
+    },
+    {
+      "hanzi": "谊",
+      "pinyin": "yì",
+      "meaning": "friendship",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "谊",
+          "role": "whole",
+          "gloss": "friendship"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 谊 in 友谊. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "友谊",
+          "p": "yǒu yì",
+          "m": "friendship"
+        }
+      ]
+    },
+    {
+      "hanzi": "珍",
+      "pinyin": "zhēn",
+      "meaning": "valuable; treasure",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "珍",
+          "role": "whole",
+          "gloss": "valuable; treasure"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 珍 in 珍惜. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "珍惜",
+          "p": "zhēn xī",
+          "m": "cherish; value"
+        }
+      ]
+    },
+    {
+      "hanzi": "惜",
+      "pinyin": "xī",
+      "meaning": "cherish; regret losing",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "惜",
+          "role": "whole",
+          "gloss": "cherish; regret losing"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 惜 in 珍惜. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "珍惜",
+          "p": "zhēn xī",
+          "m": "cherish; value"
+        }
+      ]
+    },
+    {
+      "hanzi": "犹",
+      "pinyin": "yóu",
+      "meaning": "hesitate, in 犹豫",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "犹",
+          "role": "whole",
+          "gloss": "hesitate, in 犹豫"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 犹 in 犹豫. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "犹豫",
+          "p": "yóu yù",
+          "m": "hesitate"
+        }
+      ]
+    },
+    {
+      "hanzi": "豫",
+      "pinyin": "yù",
+      "meaning": "bound component in 犹豫, hesitate",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "豫",
+          "role": "whole",
+          "gloss": "bound component in 犹豫, hesitate"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 豫 in 犹豫. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "犹豫",
+          "p": "yóu yù",
+          "m": "hesitate"
+        }
+      ]
+    },
+    {
+      "hanzi": "耐",
+      "pinyin": "nài",
+      "meaning": "endure; patient",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "耐",
+          "role": "whole",
+          "gloss": "endure; patient"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 耐 in 耐心. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "耐心",
+          "p": "nài xīn",
+          "m": "patience; patient"
+        }
+      ]
+    },
+    {
+      "hanzi": "敬",
+      "pinyin": "jìng",
+      "meaning": "respect",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "敬",
+          "role": "whole",
+          "gloss": "respect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 敬 in 尊敬. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "尊敬",
+          "p": "zūn jìng",
+          "m": "respect; hold in esteem"
+        }
+      ]
+    }
+  ]
+}

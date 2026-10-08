@@ -1,0 +1,2041 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s5-u11",
+    "stage": 3,
+    "order": 131,
+    "title": "When praise is a tease",
+    "titleZh": "这句是在夸吗",
+    "canDo": [
+      "Use preceding events and responses to interpret irony",
+      "Distinguish teasing about an event from a literal general judgment",
+      "Ask for clarification or stop repetition without pretending agreement"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 5
+    },
+    "prerequisites": [
+      "s5-u10",
+      "s5-u10-usage"
+    ],
+    "estimatedMinutes": 90
+  },
+  "vocabulary": [
+    {
+      "id": "s5-u11-w01",
+      "hanzi": "幽默",
+      "pinyin": "yōu mò",
+      "meaning": "humour; humorous",
+      "meaningVi": "hài hước",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他想用幽默缓解尴尬，可是新朋友没听懂。",
+        "py": "tā xiǎng yòng yōu mò huǎn jiě gān gà , kě shì xīn péng you méi tīng dǒng .",
+        "en": "He tried humour to ease the awkwardness, but the newcomer didn’t understand."
+      },
+      "usageNote": "[GF2021:L5:9827] Source entry: 幽默; yōumò; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w02",
+      "hanzi": "神情",
+      "pinyin": "shén qíng",
+      "meaning": "expression; look",
+      "meaningVi": "vẻ mặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她的神情变了，我才发现她没有跟着笑。",
+        "py": "tā de shén qíng biàn le , wǒ cái fā xiàn tā méi yǒu gēn zhe xiào .",
+        "en": "Her expression changed, and I realised she wasn’t laughing with us."
+      },
+      "usageNote": "[GF2021:L5:7088] Source entry: 神情; shénqíng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w03",
+      "hanzi": "脸色",
+      "pinyin": "liǎn sè",
+      "meaning": "facial complexion; expression",
+      "meaningVi": "sắc mặt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她脸色不好，我先问是不是累了。",
+        "py": "tā liǎn sè bù hǎo , wǒ xiān wèn shì bú shì lèi le .",
+        "en": "She looked unwell, so I first asked whether she was tired."
+      },
+      "usageNote": "[GF2021:L5:5122] Source entry: 脸色; liǎnsè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w04",
+      "hanzi": "脾气",
+      "pinyin": "pí qì",
+      "meaning": "temper; temperament",
+      "meaningVi": "tính khí",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "别把一次生气，就说成她脾气一直不好。",
+        "py": "bié bǎ yī cì shēng qì , jiù shuō chéng tā pí qì yì zhí bù hǎo .",
+        "en": "Don’t turn one angry moment into a claim she always has a bad temper."
+      },
+      "usageNote": "[GF2021:L5:6062] Source entry: 脾气; píqi; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w05",
+      "hanzi": "客气",
+      "pinyin": "kè qì",
+      "meaning": "polite; formal; courteous",
+      "meaningVi": "khách sáo",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "别这么客气，多吃一点。",
+        "py": "bié zhè me kè qì , duō chī yī diǎn .",
+        "en": "Don’t be so formal—have a little more to eat."
+      },
+      "usageNote": "[GF2021:L5:4734] Source entry: 客气; kèqi; 形、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w06",
+      "hanzi": "面子",
+      "pinyin": "miàn zi",
+      "meaning": "face; social dignity",
+      "meaningVi": "thể diện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我想给他留点面子，就没有当众重复那件事。",
+        "py": "wǒ xiǎng gěi tā liú diǎn miàn zi , jiù méi yǒu dāng zhòng chóng fù nà jiàn shì .",
+        "en": "To spare him embarrassment, I didn’t repeat it in front of everyone."
+      },
+      "usageNote": "[GF2021:L5:5590] Source entry: 面子; miànzi; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w07",
+      "hanzi": "骂",
+      "pinyin": "mà",
+      "meaning": "scold; curse",
+      "meaningVi": "mắng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她是在解释，不是在骂我。",
+        "py": "tā shì zài jiě shì , bù shì zài mà wǒ .",
+        "en": "She is explaining, not scolding me."
+      },
+      "usageNote": "[GF2021:L5:5398] Source entry: 骂; mà; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w08",
+      "hanzi": "傻",
+      "pinyin": "shǎ",
+      "meaning": "foolish; silly",
+      "meaningVi": "ngốc",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他觉得自己的做法有点傻，不是在说别人都傻。",
+        "py": "tā jué de zì jǐ de zuò fǎ yǒu diǎn shǎ , bù shì zài shuō bié ren dōu shǎ .",
+        "en": "He thought his own action a little silly, not that others were all foolish."
+      },
+      "usageNote": "[GF2021:L5:6882] Source entry: 傻; shǎ; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w09",
+      "hanzi": "居然",
+      "pinyin": "jū rán",
+      "meaning": "unexpectedly; to one’s surprise",
+      "meaningVi": "không ngờ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我居然把盐放了两次。",
+        "py": "wǒ jū rán bǎ yán fàng le liǎng cì .",
+        "en": "I somehow put salt in twice."
+      },
+      "usageNote": "[GF2021:L5:4464] Source entry: 居然; jūrán; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w10",
+      "hanzi": "明明",
+      "pinyin": "míng míng",
+      "meaning": "clearly; obviously, contrary to a claim",
+      "meaningVi": "rõ ràng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "明明尝着很咸，他还说你真会放盐。",
+        "py": "míng míng cháng zhe hěn xián , tā hái shuō nǐ zhēn huì fàng yán .",
+        "en": "It clearly tasted salty, yet he said I was good at adding salt."
+      },
+      "usageNote": "[GF2021:L5:5642] Source entry: 明明; míngmíng; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w11",
+      "hanzi": "可",
+      "pinyin": "kě",
+      "meaning": "emphatic adverb in context",
+      "meaningVi": "phó từ nhấn mạnh",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "这句话可不一定是在夸。",
+        "py": "zhè jù huà kě bù yí dìng shì zài kuā .",
+        "en": "This sentence certainly isn’t necessarily praise."
+      },
+      "usageNote": "[GF2021:L5:4691] Source entry: 可; kě; 副、连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w12",
+      "hanzi": "厉害",
+      "pinyin": "lì hài",
+      "meaning": "impressive; severe; formidable",
+      "meaningVi": "giỏi; dữ dội",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你能一边做饭一边接电话，真厉害。",
+        "py": "nǐ néng yī biān zuò fàn yī biān jiē diàn huà , zhēn lì hài .",
+        "en": "Cooking while taking calls is impressive."
+      },
+      "usageNote": "[GF2021:L5:5065] Source entry: 厉害; lìhai; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w13",
+      "hanzi": "可怜",
+      "pinyin": "kě lián",
+      "meaning": "pitiful; unfortunate",
+      "meaningVi": "tội nghiệp",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他说这碗汤太可怜了，盐全进去了。",
+        "py": "tā shuō zhè wǎn tāng tài kě lián le , yán quán jìn qù le .",
+        "en": "He joked the soup was unfortunate: all the salt went into it."
+      },
+      "usageNote": "[GF2021:L5:4704] Source entry: 可怜; kělián; 形、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w14",
+      "hanzi": "忍不住",
+      "pinyin": "rěn bú zhù",
+      "meaning": "cannot help doing",
+      "meaningVi": "không nhịn được",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "听见那句，我忍不住笑了一下。",
+        "py": "tīng jiàn nà jù , wǒ rěn bú zhù xiào le yī xià .",
+        "en": "I couldn’t help a brief laugh at that line."
+      },
+      "usageNote": "[GF2021:L5:6728] Source entry: 忍不住; rěn bu zhù; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w15",
+      "hanzi": "忍受",
+      "pinyin": "rěn shòu",
+      "meaning": "endure; put up with",
+      "meaningVi": "chịu đựng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "不喜欢那样叫，就不用一直忍受。",
+        "py": "bù xǐ huān nà yàng jiào , jiù bù yòng yì zhí rěn shòu .",
+        "en": "You needn’t keep putting up with a name you dislike."
+      },
+      "usageNote": "[GF2021:L5:6731] Source entry: 忍受; rěnshòu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w16",
+      "hanzi": "强迫",
+      "pinyin": "qiǎng pò",
+      "meaning": "force; compel",
+      "meaningVi": "ép buộc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我不想强迫你跟着笑。",
+        "py": "wǒ bù xiǎng qiǎng pò nǐ gēn zhe xiào .",
+        "en": "I don’t want to force you to laugh along."
+      },
+      "usageNote": "[GF2021:L5:6404] Source entry: 强迫; qiǎngpò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w17",
+      "hanzi": "讨厌",
+      "pinyin": "tǎo yàn",
+      "meaning": "dislike; annoying",
+      "meaningVi": "ghét; khó chịu",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我讨厌一直拿同一件事来说。",
+        "py": "wǒ tǎo yàn yì zhí ná tóng yī jiàn shì lái shuō .",
+        "en": "I dislike having the same matter brought up repeatedly."
+      },
+      "usageNote": "[GF2021:L5:7850] Source entry: 讨厌; tǎo∥yàn; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w18",
+      "hanzi": "模仿",
+      "pinyin": "mó fǎng",
+      "meaning": "imitate",
+      "meaningVi": "bắt chước",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "他模仿自己找盐的样子，大家才笑了。",
+        "py": "tā mó fǎng zì jǐ zhǎo yán de yàng zi , dà jiā cái xiào le .",
+        "en": "He imitated himself searching for salt, and people laughed."
+      },
+      "usageNote": "[GF2021:L5:5660] Source entry: 模仿; mófǎng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w19",
+      "hanzi": "模样",
+      "pinyin": "mú yàng",
+      "meaning": "appearance; look",
+      "meaningVi": "dáng vẻ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我没看见他当时的模样，只看了文字。",
+        "py": "wǒ méi kàn jiàn tā dāng shí de mú yàng , zhǐ kàn le wén zì .",
+        "en": "I didn’t see his expression at the time; I only read the text."
+      },
+      "usageNote": "[GF2021:L5:5696] Source entry: 模样; múyàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w20",
+      "hanzi": "目光",
+      "pinyin": "mù guāng",
+      "meaning": "gaze; look",
+      "meaningVi": "ánh mắt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她把目光移到汤上，没有看我。",
+        "py": "tā bǎ mù guāng yí dào tāng shàng , méi yǒu kàn wǒ .",
+        "en": "She shifted her gaze to the soup instead of looking at me."
+      },
+      "usageNote": "[GF2021:L5:5715] Source entry: 目光; mùguāng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w21",
+      "hanzi": "瞧",
+      "pinyin": "qiáo",
+      "meaning": "look; see, conversational",
+      "meaningVi": "nhìn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "你瞧，我又拿起盐了。",
+        "py": "nǐ qiáo , wǒ yòu ná qǐ yán le .",
+        "en": "Look, I’ve picked the salt up again."
+      },
+      "usageNote": "[GF2021:L5:6413] Source entry: 瞧; qiáo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w22",
+      "hanzi": "悄悄",
+      "pinyin": "qiāo qiāo",
+      "meaning": "quietly; secretly",
+      "meaningVi": "lặng lẽ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "她悄悄问我，那句话是不是在生气。",
+        "py": "tā qiāo qiāo wèn wǒ , nà jù huà shì bú shì zài shēng qì .",
+        "en": "She quietly asked whether the sentence showed anger."
+      },
+      "usageNote": "[GF2021:L5:6405] Source entry: 悄悄; qiāoqiāo; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w23",
+      "hanzi": "随意",
+      "pinyin": "suí yì",
+      "meaning": "casually; at will",
+      "meaningVi": "tùy ý",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "不熟的人之间，称呼别太随意。",
+        "py": "bù shú de rén zhī jiān , chēng hū bié tài suí yì .",
+        "en": "Don’t use overly casual forms of address with people you barely know."
+      },
+      "usageNote": "[GF2021:L5:7714] Source entry: 随意; suí∥yì; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u11-w24",
+      "hanzi": "失误",
+      "pinyin": "shī wù",
+      "meaning": "mistake; slip",
+      "meaningVi": "sai sót",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我放盐时出了点失误，汤太咸了。",
+        "py": "wǒ fàng yán shí chū le diǎn shī wù , tāng tài xián le .",
+        "en": "I made a mistake adding salt; the soup was too salty."
+      },
+      "usageNote": "[GF2021:L5:7180] Source entry: 失误; shīwù; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s5-u11-g01",
+      "pattern": "居然…",
+      "purpose": "Mark an unexpected event",
+      "explanation": "居然 presents an outcome as surprising to the speaker. It does not itself say the outcome is good or bad.",
+      "examples": [
+        {
+          "zh": "我居然把盐放了两次。",
+          "py": "wǒ jū rán bǎ yán fàng le liǎng cì .",
+          "en": "I unexpectedly added salt twice."
+        },
+        {
+          "zh": "他居然记得我以前说过的话。",
+          "py": "tā jū rán jì de wǒ yǐ qián shuō guò de huà .",
+          "en": "He unexpectedly remembers what I said before."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我居然把盐放了两次，所以居然总是夸奖。",
+          "right": "我居然把盐放了两次。",
+          "why": "The adverb marks surprise, not automatic praise."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u11-g02",
+      "pattern": "明明…，却/还…",
+      "purpose": "Highlight a contradiction with an apparent fact",
+      "explanation": "明明 presents what the speaker treats as clear. 却 or 还 introduces a conflicting action or claim; check the context rather than assuming the speaker is infallible.",
+      "examples": [
+        {
+          "zh": "明明汤很咸，他还说真会放盐。",
+          "py": "míng míng tāng hěn xián , tā hái shuō zhēn huì fàng yán .",
+          "en": "The soup is clearly salty, yet he says I’m good at adding salt."
+        },
+        {
+          "zh": "明明已经到了，却说还在路上。",
+          "py": "míng míng yǐ jīng dào le , què shuō hái zài lù shàng .",
+          "en": "They have clearly arrived, yet say they are still on the way."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "明明汤很咸，所以一定没有放盐。",
+          "right": "明明汤很咸，他还说真会放盐。",
+          "why": "The contextual contradiction helps identify the tease, not a missing ingredient."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u11-g03",
+      "pattern": "可 + assertion/negative",
+      "purpose": "Recognise conversational emphasis",
+      "explanation": "This use of 可 adds emphasis. Its force depends on the rest of the line and the situation; 可真 is not an automatic label for anger or praise.",
+      "examples": [
+        {
+          "zh": "我可没答应一直来。",
+          "py": "wǒ kě méi dā yìng yì zhí lái .",
+          "en": "I certainly didn’t promise to keep coming."
+        },
+        {
+          "zh": "这句话可不一定是在夸。",
+          "py": "zhè jù huà kě bù yí dìng shì zài kuā .",
+          "en": "This line certainly isn’t necessarily praise."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只要说可真，就一定在生气。",
+          "right": "听到可真，还要看前后发生了什么。",
+          "why": "The form marks emphasis but does not uniquely determine emotion."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u11-g04",
+      "pattern": "真有你的",
+      "purpose": "Read an evaluation through the situation",
+      "explanation": "The fixed expression can admire an achievement or tease a surprising mistake. Nearby events and the addressee’s response establish the local reading.",
+      "examples": [
+        {
+          "zh": "真有你的，这么快就修好了。",
+          "py": "zhēn yǒu nǐ de , zhè me kuài jiù xiū hǎo le .",
+          "en": "Impressive—you fixed it so quickly."
+        },
+        {
+          "zh": "真有你的，一道汤放两次盐。",
+          "py": "zhēn yǒu nǐ de , yī dào tāng fàng liǎng cì yán .",
+          "en": "Well, look at you—salting one soup twice."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "真有你的，所以这次放盐一定恰好。",
+          "right": "真有你的，一道汤放两次盐。",
+          "why": "Here the preceding mistake prevents a simple literal praise reading."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u11-g05",
+      "pattern": "X什么X",
+      "purpose": "Recognise a dismissive rhetorical challenge",
+      "explanation": "Repeating the verb around 什么 often challenges the action rather than asking for an object. It can be sharp; compare a straightforward information question.",
+      "examples": [
+        {
+          "zh": "笑什么笑，先尝了再说。",
+          "py": "xiào shén me xiào , xiān cháng le zài shuō .",
+          "en": "What are you laughing at? Taste it before commenting."
+        },
+        {
+          "zh": "急什么急，还没到时间呢。",
+          "py": "jí shén me jí , hái méi dào shí jiān ne .",
+          "en": "Why the rush? It isn’t time yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "急什么急是在问急的物品是什么。",
+          "right": "急什么急，还没到时间呢。",
+          "why": "This is a challenge to rushing, not an object-identification question."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s5-u11-d",
+    "title": "这句是在夸吗",
+    "titleZh": "这句是在夸吗",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      },
+      {
+        "id": "c",
+        "name": "小周"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你尝一口，今天这汤是不是有点咸？",
+        "py": "nǐ cháng yī kǒu , jīn tiān zhè tāng shì bú shì yǒu diǎn xián ?",
+        "en": "Try some. Is today’s soup a little salty?",
+        "speaker": "a"
+      },
+      {
+        "zh": "你可真会放盐。",
+        "py": "nǐ kě zhēn huì fàng yán .",
+        "en": "You certainly know how to add salt.",
+        "speaker": "b"
+      },
+      {
+        "zh": "是在夸我吗？我都放了两次了。",
+        "py": "shì zài kuā wǒ ma ? wǒ dōu fàng le liǎng cì le .",
+        "en": "Is that praise? I added it twice.",
+        "speaker": "a"
+      },
+      {
+        "zh": "就是在说放多了。我的嘴今天不用再吃别的盐了。",
+        "py": "jiù shì zài shuō fàng duō le . wǒ de zuǐ jīn tiān bù yòng zài chī bié de yán le .",
+        "en": "I mean you added too much. My mouth doesn’t need any other salt today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你们很熟才这么说吧？",
+        "py": "nǐ men hěn shú cái zhè me shuō ba ?",
+        "en": "You say that because you know each other well, right?",
+        "speaker": "c"
+      },
+      {
+        "zh": "对，平时就这么说。你还没尝呢，先喝一口。",
+        "py": "duì , píng shí jiù zhè me shuō . nǐ hái méi cháng ne , xiān hē yī kǒu .",
+        "en": "Yes, that's how we usually talk. You haven't tried it yet—have a sip first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我刚才以为你在生气，没敢笑。",
+        "py": "wǒ gāng cái yǐ wéi nǐ zài shēng qì , méi gǎn xiào .",
+        "en": "I thought you were angry, so I didn’t dare laugh.",
+        "speaker": "c"
+      },
+      {
+        "zh": "没生气，是汤太咸。我还等着他做别的菜呢。",
+        "py": "méi shēng qì , shì tāng tài xián . wǒ hái děng zhe tā zuò bié de cài ne .",
+        "en": "I'm not angry—the soup's too salty. I'm still waiting for his other dishes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那就好。不过别叫我傻，我不喜欢。",
+        "py": "nà jiù hǎo . bù guò bié jiào wǒ shǎ , wǒ bù xǐ huān .",
+        "en": "Good. But don't call me silly; I don't like it.",
+        "speaker": "c"
+      },
+      {
+        "zh": "好，不这样叫。刚才也不是在说你。",
+        "py": "hǎo , bù zhè yàng jiào . gāng cái yě bù shì zài shuō nǐ .",
+        "en": "Okay, I won’t. I wasn’t referring to you earlier either.",
+        "speaker": "b"
+      },
+      {
+        "zh": "真有你的，能把一道汤放两次盐。",
+        "py": "zhēn yǒu nǐ de , néng bǎ yī dào tāng fàng liǎng cì yán .",
+        "en": "Well, look at you—managing to salt one soup twice.",
+        "speaker": "b"
+      },
+      {
+        "zh": "别再说了，我已经拿水来了。",
+        "py": "bié zài shuō le , wǒ yǐ jīng ná shuǐ lái le .",
+        "en": "Enough about it. I’ve brought water already.",
+        "speaker": "a"
+      },
+      {
+        "zh": "行，不说了。你准备加多少？",
+        "py": "xíng , bù shuō le . nǐ zhǔn bèi jiā duō shao ?",
+        "en": "Okay, I’ll stop. How much will you add?",
+        "speaker": "b"
+      },
+      {
+        "zh": "先加一点，再尝，不把整瓶都倒进去。",
+        "py": "xiān jiā yī diǎn , zài cháng , bù bǎ zhěng píng dōu dào jìn qù .",
+        "en": "A little first, then taste, not the whole bottle.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这次终于先尝了。",
+        "py": "zhè cì zhōng yú xiān cháng le .",
+        "en": "Finally tasting first this time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我说别再说，你还来一句？",
+        "py": "wǒ shuō bié zài shuō , nǐ hái lái yī jù ?",
+        "en": "I asked you to stop, and you add another line?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对不起，这句也收回。我去拿碗。",
+        "py": "duì bù qǐ , zhè jù yě shōu huí . wǒ qù ná wǎn .",
+        "en": "Sorry, I take that one back too. I’ll get the bowls.",
+        "speaker": "b"
+      },
+      {
+        "zh": "拿三个就行，你这次不用替盐拿一碗。",
+        "py": "ná sān gè jiù xíng , nǐ zhè cì bù yòng tì yán ná yī wǎn .",
+        "en": "Three is enough. No need for a bowl for the salt this time.",
+        "speaker": "a"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "盐",
+        "pinyin": "yán",
+        "meaning": "salt"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How does the newcomer’s uncertainty get resolved?",
+        "choices": [
+          "Friends explain the salt incident and respect a disliked name",
+          "Everyone demands laughter before giving an explanation",
+          "The soup’s actual taste is never mentioned"
+        ],
+        "answer": "Friends explain the salt incident and respect a disliked name"
+      },
+      {
+        "type": "detail",
+        "q": "What request is initially not fully followed?",
+        "choices": [
+          "The cook’s request to stop repeating the salt joke",
+          "A demand to pour in the entire water bottle",
+          "A request to cancel all future visits"
+        ],
+        "answer": "The cook’s request to stop repeating the salt joke"
+      },
+      {
+        "type": "inference",
+        "q": "What does the cook’s own later joke not establish?",
+        "choices": [
+          "Permission for endless future teasing",
+          "That the earlier stop request happened",
+          "That the gathering continues over dinner"
+        ],
+        "answer": "Permission for endless future teasing"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "你【可】真会放盐。",
+          "py": "nǐ kě zhēn huì fàng yán .",
+          "en": "You certainly know how to add salt.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那就好。不过别叫我【傻】，我不喜欢。",
+          "py": "nà jiù hǎo . bù guò bié jiào wǒ shǎ , wǒ bù xǐ huān .",
+          "en": "Good. But don't call me silly; I don't like it.",
+          "speaker": "c"
+        }
+      ],
+      "bank": [
+        "可",
+        "傻",
+        "明天"
+      ]
+    }
+  },
+  "reading": {
+    "id": "s5-u11-r",
+    "title": "这句是在夸吗",
+    "titleZh": "这句是在夸吗",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "周末我们本来想去公园，下午却下了很大的雨。三个朋友改到我家吃饭，其中两个人很熟，另一位是第一次来。我做了一道汤，一边接电话，一边找调料。电话结束以后，又照平时的习惯放了一次盐，等尝的时候才发现太咸。我说可能放了两次，朋友看着汤笑，说我可真会放盐。",
+        "py": "zhōu mò wǒ men běn lái xiǎng qù gōng yuán , xià wǔ què xià le hěn dà de yǔ . sān gè péng you gǎi dào wǒ jiā chī fàn , qí zhōng liǎng gè rén hěn shú , lìng yī wèi shì dì yī cì lái . wǒ zuò le yī dào tāng , yī biān jiē diàn huà , yī biān zhǎo tiáo liào . diàn huà jié shù yǐ hòu , yòu zhào píng shí de xí guàn fàng le yī cì yán , děng cháng de shí hou cái fā xiàn tài xián . wǒ shuō kě néng fàng le liǎng cì , péng you kàn zhe tāng xiào , shuō wǒ kě zhēn huì fàng yán .",
+        "en": "Rain moved our planned park visit to my home. Two of the three friends knew each other well; one was visiting for the first time. While cooking soup I took a call and added salt, then added it again out of habit. When I noticed the saltiness, a friend smiled at the soup and said I certainly knew how to add salt."
+      },
+      {
+        "zh": "我抬头问他是在夸我吗，他笑着说自己的嘴今天不用再吃别的盐了。我低头又尝一小口，确实咸得喝不下去。刚才电话一来，我把盐罐放在手边，挂了以后又拿起来，连自己都忘了前面已经放过。朋友还等着我做别的菜，我就请他先把水递来，别光站在那里看我笑。",
+        "py": "wǒ tái tóu wèn tā shì zài kuā wǒ ma , tā xiào zhe shuō zì jǐ de zuǐ jīn tiān bù yòng zài chī bié de yán le . wǒ dī tóu yòu cháng yī xiǎo kǒu , què shí xián de hē bù xià qù . gāng cái diàn huà yī lái , wǒ bǎ yán guàn fàng zài shǒu biān , guà le yǐ hòu yòu ná qǐ lái , lián zì jǐ dōu wàng le qián miàn yǐ jīng fàng guò . péng you hái děng zhe wǒ zuò bié de cài , wǒ jiù qǐng tā xiān bǎ shuǐ dì lái , bié guāng zhàn zài nà lǐ kàn wǒ xiào .",
+        "en": "I asked whether that was praise. He laughed that his mouth needed no more salt today. Another tiny sip was too salty to drink. When the phone rang I'd set the salt jar beside me, then picked it up again afterwards, forgetting the first addition. Since he was waiting for the other dishes, I asked him to pass the water instead of just standing there laughing."
+      },
+      {
+        "zh": "第一次来的朋友没有笑。她后来悄悄问，我们是不是已经开始吵架。我愣了一下，说没有，他平时就这么说，还问她刚才有没有尝。她说没有，一进门就看见我们对着汤说话。我把经过讲给她，她才明白为什么他拿盐开玩笑，不过还是先问我这汤真的能喝吗。我说等一下，马上救回来。",
+        "py": "dì yī cì lái de péng you méi yǒu xiào . tā hòu lái qiāo qiāo wèn , wǒ men shì bú shì yǐ jīng kāi shǐ chǎo jià . wǒ lèng le yī xià , shuō méi yǒu , tā píng shí jiù zhè me shuō , hái wèn tā gāng cái yǒu méi yǒu cháng . tā shuō méi yǒu , yī jìn mén jiù kàn jiàn wǒ men duì zhe tāng shuō huà . wǒ bǎ jīng guò jiǎng gěi tā , tā cái míng bái wèi shén me tā ná yán kāi wán xiào , bù guò hái shi xiān wèn wǒ zhè tāng zhēn de néng hē ma . wǒ shuō děng yī xià , mǎ shàng jiù huí lái .",
+        "en": "The new friend didn't laugh. Quietly she asked if we'd started arguing. Taken aback, I said no and asked if she'd tasted it yet. She hadn't; she'd arrived to find us talking over the soup. Once I explained the salt, she understood the joke, but still wanted to know if it was drinkable. Wait a moment, I said—I'd rescue it."
+      },
+      {
+        "zh": "她说自己不喜欢被叫作傻，我马上答应不这样叫。朋友也说刚才是在说我放盐，不是在说她。她点点头，问有没有能帮忙的。我让她把桌上三双筷子摆好，自己去厨房拿水。回来的时候，桌子已经收得很干净，她还把我忘在椅子上的外套挂起来。我说谢谢，这回可不是反话。",
+        "py": "tā shuō zì jǐ bù xǐ huān bèi jiào zuò shǎ , wǒ mǎ shàng dā yìng bù zhè yàng jiào . péng you yě shuō gāng cái shì zài shuō wǒ fàng yán , bù shì zài shuō tā . tā diǎn diǎn tóu , wèn yǒu méi yǒu néng bāng máng de . wǒ ràng tā bǎ zhuō shàng sān shuāng kuài zi bǎi hǎo , zì jǐ qù chú fáng ná shuǐ . huí lái de shí hou , zhuō zi yǐ jīng shōu de hěn gān jìng , tā hái bǎ wǒ wàng zài yǐ zi shàng de wài tào guà qǐ lái . wǒ shuō xiè xiè , zhè huí kě bú shì fǎn huà .",
+        "en": "She said she didn't like being called silly, and I agreed not to call her that. My friend explained he'd meant my salt mistake. She nodded and offered to help. I asked her to set out three pairs of chopsticks while I fetched water. When I returned, the table was tidy and she'd hung up the coat I'd left on a chair. I thanked her—and this time it wasn't irony."
+      },
+      {
+        "zh": "我拿了水来，想先加一点再尝。另一个人又说真有我的，一道汤可以放两次盐。我起初也笑，可他连续说了几次，我就告诉他别再说了。他答应，却又加了一句“这次终于先尝了”。我问，已经说停了，怎么还要补一句。他这才道歉，不再拿同一件事说，转身去拿碗。",
+        "py": "wǒ ná le shuǐ lái , xiǎng xiān jiā yī diǎn zài cháng . lìng yī gè rén yòu shuō zhēn yǒu wǒ de , yī dào tāng kě yǐ fàng liǎng cì yán . wǒ qǐ chū yě xiào , kě tā lián xù shuō le jǐ cì , wǒ jiù gào sù tā bié zài shuō le . tā dā yìng , què yòu jiā le yī jù zhè cì zhōng yú xiān cháng le . wǒ wèn , yǐ jīng shuō tíng le , zěn me hái yào bǔ yī jù . tā zhè cái dào qiàn , bù zài ná tóng yī jiàn shì shuō , zhuǎn shēn qù ná wǎn .",
+        "en": "I brought water to add a little and taste again. Another tease about salting twice initially amused me, but repetition didn’t. I asked him to stop. He agreed yet added another remark about finally tasting first; I pointed out the contradiction. He apologised and got the bowls instead."
+      },
+      {
+        "zh": "后来我自己说，拿三个碗就行，这次不用替盐拿一个。大家笑了一下，也就接着吃饭。加过水的汤终于能喝了，我先给新朋友盛了一点，请她再尝尝。她说好多了，又问我平时是不是也一边接电话一边做饭。我赶紧把手机放到另一边，说今天到吃完以前，谁打来都先等一下。",
+        "py": "hòu lái wǒ zì jǐ shuō , ná sān gè wǎn jiù xíng , zhè cì bù yòng tì yán ná yī gè . dà jiā xiào le yī xià , yě jiù jiē zhe chī fàn . jiā guò shuǐ de tāng zhōng yú néng hē le , wǒ xiān gěi xīn péng you shèng le yī diǎn , qǐng tā zài cháng cháng . tā shuō hǎo duō le , yòu wèn wǒ píng shí shì bú shì yě yī biān jiē diàn huà yī biān zuò fàn . wǒ gǎn jǐn bǎ shǒu jī fàng dào lìng yī biān , shuō jīn tiān dào chī wán yǐ qián , shéi dǎ lái dōu xiān děng yī xià .",
+        "en": "I told him to bring three bowls—no extra one for the salt. We laughed and started dinner. With water added, the soup was finally drinkable, so I served the new friend a little. Much better, she said: did I usually cook while answering calls? I put my phone aside. Whoever called could wait until we'd finished eating."
+      },
+      {
+        "zh": "吃饭时，我们又谈到外面的雨。有人说挑的天气真好，新朋友这次马上问，是不是在说本来想去公园，现在去不了。他说对，也说现在在家喝汤不错。同样一个“好”，前一句带着和实际情况相反的意思，后一句却真是在说另一个方面。她把前后连起来问，比直接判断说好就一定在夸，更容易听清。",
+        "py": "chī fàn shí , wǒ men yòu tán dào wài miàn de yǔ . yǒu rén shuō tiāo de tiān qì zhēn hǎo , xīn péng you zhè cì mǎ shàng wèn , shì bú shì zài shuō běn lái xiǎng qù gōng yuán , xiàn zài qù bù le . tā shuō duì , yě shuō xiàn zài zài jiā hē tāng bù cuò . tóng yàng yī gè hǎo , qián yī jù dài zhe hé shí jì qíng kuàng xiāng fǎn de yì si , hòu yī jù què zhēn shì zài shuō lìng yī gè fāng miàn . tā bǎ qián hòu lián qǐ lái wèn , bǐ zhí jiē pàn duàn shuō hǎo jiù yí dìng zài kuā , gèng róng yì tīng qīng .",
+        "en": "Over dinner “lovely weather” referred ironically to our cancelled park trip, whereas enjoying soup at home was a sincere positive comment on a different aspect. The newcomer checked the context. The same word need not carry the same intention in successive remarks."
+      },
+      {
+        "zh": "饭快吃完，雨还没停。朋友拿着伞站在门口，又看了看窗外，说今天的公园只好留到下次了。新朋友问那下次是谁做汤，我们三个都笑了。我说还是我，不过先把电话关掉。他说好，还把碗送进厨房。她回家以后发消息谢谢我们，说汤后来好喝，第一次见面也没那么紧张了。",
+        "py": "fàn kuài chī wán , yǔ hái méi tíng . péng you ná zhe sǎn zhàn zài mén kǒu , yòu kàn le kàn chuāng wài , shuō jīn tiān de gōng yuán zhǐ hǎo liú dào xià cì le . xīn péng you wèn nà xià cì shì shéi zuò tāng , wǒ men sān gè dōu xiào le . wǒ shuō hái shi wǒ , bù guò xiān bǎ diàn huà guān diào . tā shuō hǎo , hái bǎ wǎn sòng jìn chú fáng . tā huí jiā yǐ hòu fā xiāo xī xiè xiè wǒ men , shuō tāng hòu lái hǎo hē , dì yī cì jiàn miàn yě méi nà me jǐn zhāng le .",
+        "en": "Near the end of dinner it was still raining. My friend stood by the door with an umbrella: the park would have to wait. The newcomer asked who'd make soup next time, and all three of us laughed. Me again, I said, but with the phone off. He agreed and took the bowls to the kitchen. Later she messaged her thanks: the soup had turned out well, and she'd felt less nervous about meeting us."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "盐",
+        "pinyin": "yán",
+        "meaning": "salt"
+      },
+      {
+        "hanzi": "聪",
+        "pinyin": "cōng",
+        "meaning": "clever, as in 聪明"
+      },
+      {
+        "hanzi": "聪明",
+        "pinyin": "cōng míng",
+        "meaning": "clever"
+      },
+      {
+        "hanzi": "调料",
+        "pinyin": "tiáo liào",
+        "meaning": "seasoning"
+      },
+      {
+        "hanzi": "逗",
+        "pinyin": "dòu",
+        "meaning": "tease; amuse"
+      },
+      {
+        "hanzi": "称呼",
+        "pinyin": "chēng hū",
+        "meaning": "form of address"
+      },
+      {
+        "hanzi": "反话",
+        "pinyin": "fǎn huà",
+        "meaning": "ironic wording meaning more than a literal reading"
+      },
+      {
+        "hanzi": "承担",
+        "pinyin": "chéng dān",
+        "meaning": "bear; take on"
+      },
+      {
+        "hanzi": "客气",
+        "pinyin": "kè qì",
+        "meaning": "polite; formal"
+      },
+      {
+        "hanzi": "前后",
+        "pinyin": "qián hòu",
+        "meaning": "preceding and following context"
+      },
+      {
+        "hanzi": "盐罐",
+        "pinyin": "yán guàn",
+        "meaning": "salt jar"
+      },
+      {
+        "hanzi": "愣",
+        "pinyin": "lèng",
+        "meaning": "be momentarily taken aback"
+      },
+      {
+        "hanzi": "盛",
+        "pinyin": "shèng",
+        "meaning": "serve; ladle food"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What guides interpretation and repair?",
+        "choices": [
+          "Context and actual responses, including requests to stop",
+          "Every positive adjective always means the opposite",
+          "Familiarity removes the need to listen"
+        ],
+        "answer": "Context and actual responses, including requests to stop"
+      },
+      {
+        "type": "detail",
+        "q": "Why is the soup salty?",
+        "choices": [
+          "Salt was added twice while a phone call interrupted cooking",
+          "No salt was added at all",
+          "Every guest poured a full bottle into it"
+        ],
+        "answer": "Salt was added twice while a phone call interrupted cooking"
+      },
+      {
+        "type": "inference",
+        "q": "Why is the second remark about staying home sincere?",
+        "choices": [
+          "It evaluates enjoying company at home rather than the bad weather",
+          "Every good has the same intended meaning",
+          "The park trip has definitely resumed"
+        ],
+        "answer": "It evaluates enjoying company at home rather than the bad weather"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "周末我们本来想去公园，下午却下了很大的雨。三个朋友改到我家吃饭，其中两个人很熟，另一位是第一次来。我做了一道汤，一边接电话，一边找调料。电话结束以后，又照平时的习惯放了一次盐，等尝的时候才发现太咸。我说【可】能放了两次，朋友看着汤笑，说我可真会放盐。",
+          "py": "zhōu mò wǒ men běn lái xiǎng qù gōng yuán , xià wǔ què xià le hěn dà de yǔ . sān gè péng you gǎi dào wǒ jiā chī fàn , qí zhōng liǎng gè rén hěn shú , lìng yī wèi shì dì yī cì lái . wǒ zuò le yī dào tāng , yī biān jiē diàn huà , yī biān zhǎo tiáo liào . diàn huà jié shù yǐ hòu , yòu zhào píng shí de xí guàn fàng le yī cì yán , děng cháng de shí hou cái fā xiàn tài xián . wǒ shuō kě néng fàng le liǎng cì , péng you kàn zhe tāng xiào , shuō wǒ kě zhēn huì fàng yán .",
+          "en": "Rain moved our planned park visit to my home. Two of the three friends knew each other well; one was visiting for the first time. While cooking soup I took a call and added salt, then added it again out of habit. When I noticed the saltiness, a friend smiled at the soup and said I certainly knew how to add salt."
+        },
+        {
+          "zh": "第一次来的朋友没有笑。她后来【悄悄】问，我们是不是已经开始吵架。我愣了一下，说没有，他平时就这么说，还问她刚才有没有尝。她说没有，一进门就看见我们对着汤说话。我把经过讲给她，她才明白为什么他拿盐开玩笑，不过还是先问我这汤真的能喝吗。我说等一下，马上救回来。",
+          "py": "dì yī cì lái de péng you méi yǒu xiào . tā hòu lái qiāo qiāo wèn , wǒ men shì bú shì yǐ jīng kāi shǐ chǎo jià . wǒ lèng le yī xià , shuō méi yǒu , tā píng shí jiù zhè me shuō , hái wèn tā gāng cái yǒu méi yǒu cháng . tā shuō méi yǒu , yī jìn mén jiù kàn jiàn wǒ men duì zhe tāng shuō huà . wǒ bǎ jīng guò jiǎng gěi tā , tā cái míng bái wèi shén me tā ná yán kāi wán xiào , bù guò hái shi xiān wèn wǒ zhè tāng zhēn de néng hē ma . wǒ shuō děng yī xià , mǎ shàng jiù huí lái .",
+          "en": "The new friend didn't laugh. Quietly she asked if we'd started arguing. Taken aback, I said no and asked if she'd tasted it yet. She hadn't; she'd arrived to find us talking over the soup. Once I explained the salt, she understood the joke, but still wanted to know if it was drinkable. Wait a moment, I said—I'd rescue it."
+        },
+        {
+          "zh": "她说自己不喜欢被叫作【傻】，我马上答应不这样叫。朋友也说刚才是在说我放盐，不是在说她。她点点头，问有没有能帮忙的。我让她把桌上三双筷子摆好，自己去厨房拿水。回来的时候，桌子已经收得很干净，她还把我忘在椅子上的外套挂起来。我说谢谢，这回可不是反话。",
+          "py": "tā shuō zì jǐ bù xǐ huān bèi jiào zuò shǎ , wǒ mǎ shàng dā yìng bù zhè yàng jiào . péng you yě shuō gāng cái shì zài shuō wǒ fàng yán , bù shì zài shuō tā . tā diǎn diǎn tóu , wèn yǒu méi yǒu néng bāng máng de . wǒ ràng tā bǎ zhuō shàng sān shuāng kuài zi bǎi hǎo , zì jǐ qù chú fáng ná shuǐ . huí lái de shí hou , zhuō zi yǐ jīng shōu de hěn gān jìng , tā hái bǎ wǒ wàng zài yǐ zi shàng de wài tào guà qǐ lái . wǒ shuō xiè xiè , zhè huí kě bú shì fǎn huà .",
+          "en": "She said she didn't like being called silly, and I agreed not to call her that. My friend explained he'd meant my salt mistake. She nodded and offered to help. I asked her to set out three pairs of chopsticks while I fetched water. When I returned, the table was tidy and she'd hung up the coat I'd left on a chair. I thanked her—and this time it wasn't irony."
+        }
+      ],
+      "bank": [
+        "可",
+        "悄悄",
+        "傻",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s5-u11-media",
+      "title": "Such lovely weather",
+      "titleZh": "Such lovely weather",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "外面雨这么大，我们挑的天气可真好。",
+          "py": "wài miàn yǔ zhè me dà , wǒ men tiāo de tiān qì kě zhēn hǎo .",
+          "en": "With that heavy rain outside, we picked such lovely weather.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你是在说天气不好吧？",
+          "py": "nǐ shì zài shuō tiān qì bù hǎo ba ?",
+          "en": "You mean the weather is bad, right?",
+          "speaker": "b"
+        },
+        {
+          "zh": "对，本来想去公园，现在只能在家。",
+          "py": "duì , běn lái xiǎng qù gōng yuán , xiàn zài zhǐ néng zài jiā .",
+          "en": "Yes. We wanted the park, but are staying home now.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那今天也不错，有汤喝。",
+          "py": "nà jīn tiān yě bù cuò , yǒu tāng hē .",
+          "en": "Still not a bad day: there is soup.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你还没尝，别急着说不错。",
+          "py": "nǐ hái méi cháng , bié jí zhe shuō bù cuò .",
+          "en": "You haven’t tasted it. Don’t say it’s good yet.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我只说有汤，没说味道。",
+          "py": "wǒ zhǐ shuō yǒu tāng , méi shuō wèi dào .",
+          "en": "I said there is soup, not how it tastes.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这话听起来真小心。",
+          "py": "zhè huà tīng qǐ lái zhēn xiǎo xīn .",
+          "en": "That sounds very cautious.",
+          "speaker": "a"
+        },
+        {
+          "zh": "毕竟我看见你放了两次盐。",
+          "py": "bì jìng wǒ kàn jiàn nǐ fàng le liǎng cì yán .",
+          "en": "After all, I saw you add salt twice.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你居然一直看着。",
+          "py": "nǐ jū rán yì zhí kàn zhe .",
+          "en": "You were watching the whole time?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我就在旁边洗菜，想不看也难。",
+          "py": "wǒ jiù zài páng biān xǐ cài , xiǎng bù kàn yě nán .",
+          "en": "I was washing vegetables beside you; hard not to notice.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，先尝，再决定要不要加水。",
+          "py": "hǎo , xiān cháng , zài jué dìng yào bù yào jiā shuǐ .",
+          "en": "Okay, taste first, then decide about water.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我只拿小勺，给自己留条路。",
+          "py": "wǒ zhǐ ná xiǎo sháo , gěi zì jǐ liú tiáo lù .",
+          "en": "I’m taking a small spoon, leaving myself a way out.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "盐",
+          "pinyin": "yán",
+          "meaning": "salt"
+        },
+        {
+          "hanzi": "勺",
+          "pinyin": "sháo",
+          "meaning": "spoon"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Why are the friends staying home?",
+          "choices": [
+            "Heavy rain prevents the park plan",
+            "The park was never planned",
+            "The soup proves clear weather"
+          ],
+          "answer": "Heavy rain prevents the park plan"
+        },
+        {
+          "type": "inference",
+          "q": "What does the small-spoon comment do?",
+          "choices": [
+            "Playfully expresses caution about tasting salty soup",
+            "Guarantees the soup tastes perfect",
+            "Demands a separate bowl for the salt"
+          ],
+          "answer": "Playfully expresses caution about tasting salty soup"
+        }
+      ]
+    },
+    {
+      "id": "s5-u11-word-notebook",
+      "title": "When praise is a tease: words in context",
+      "titleZh": "这句是在夸吗 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "他想用幽默缓解尴尬，可是新朋友没听懂。",
+          "py": "tā xiǎng yòng yōu mò huǎn jiě gān gà , kě shì xīn péng you méi tīng dǒng .",
+          "en": "He tried humour to ease the awkwardness, but the newcomer didn’t understand."
+        },
+        {
+          "zh": "这部电影的幽默很安静，不是每句都让人笑。",
+          "py": "zhè bù diàn yǐng de yōu mò hěn ān jìng , bù shì měi jù dōu ràng rén xiào .",
+          "en": "The film’s humour is understated; not every line gets a laugh."
+        },
+        {
+          "zh": "她的神情变了，我才发现她没有跟着笑。",
+          "py": "tā de shén qíng biàn le , wǒ cái fā xiàn tā méi yǒu gēn zhe xiào .",
+          "en": "Her expression changed, and I realised she wasn’t laughing with us."
+        },
+        {
+          "zh": "听见那个名字，他的神情一下变了。",
+          "py": "tīng jiàn nà gè míng zi , tā de shén qíng yī xià biàn le .",
+          "en": "His expression suddenly changed when he heard the name."
+        },
+        {
+          "zh": "她脸色不好，我先问是不是累了。",
+          "py": "tā liǎn sè bù hǎo , wǒ xiān wèn shì bú shì lèi le .",
+          "en": "She looked unwell, so I first asked whether she was tired."
+        },
+        {
+          "zh": "听见这个消息，他的脸色变了。",
+          "py": "tīng jiàn zhè gè xiāo xī , tā de liǎn sè biàn le .",
+          "en": "His expression changed on hearing the news."
+        },
+        {
+          "zh": "别把一次生气，就说成她脾气一直不好。",
+          "py": "bié bǎ yī cì shēng qì , jiù shuō chéng tā pí qì yì zhí bù hǎo .",
+          "en": "Don’t turn one angry moment into a claim she always has a bad temper."
+        },
+        {
+          "zh": "他脾气有点急，但愿意听解释。",
+          "py": "tā pí qì yǒu diǎn jí , dàn yuàn yì tīng jiě shì .",
+          "en": "He is a little impatient but willing to hear an explanation."
+        },
+        {
+          "zh": "别这么客气，多吃一点。",
+          "py": "bié zhè me kè qì , duō chī yī diǎn .",
+          "en": "Don’t be so formal—have a little more to eat."
+        },
+        {
+          "zh": "她客气地说谢谢，没有答应留下。",
+          "py": "tā kè qì de shuō xiè xiè , méi yǒu dā yìng liú xià .",
+          "en": "She politely thanked them without agreeing to stay."
+        },
+        {
+          "zh": "我想给他留点面子，就没有当众重复那件事。",
+          "py": "wǒ xiǎng gěi tā liú diǎn miàn zi , jiù méi yǒu dāng zhòng chóng fù nà jiàn shì .",
+          "en": "To spare him embarrassment, I didn’t repeat it in front of everyone."
+        },
+        {
+          "zh": "她不想为了面子答应自己做不到的事。",
+          "py": "tā bù xiǎng wèi le miàn zi dā yìng zì jǐ zuò bù dào de shì .",
+          "en": "She didn’t want to promise something impossible just to save face."
+        },
+        {
+          "zh": "她是在解释，不是在骂我。",
+          "py": "tā shì zài jiě shì , bù shì zài mà wǒ .",
+          "en": "She is explaining, not scolding me."
+        },
+        {
+          "zh": "他听到骂人的话，先停下了讨论。",
+          "py": "tā tīng dào mà rén de huà , xiān tíng xià le tǎo lùn .",
+          "en": "He stopped the discussion on hearing insults."
+        },
+        {
+          "zh": "他觉得自己的做法有点傻，不是在说别人都傻。",
+          "py": "tā jué de zì jǐ de zuò fǎ yǒu diǎn shǎ , bù shì zài shuō bié ren dōu shǎ .",
+          "en": "He thought his own action a little silly, not that others were all foolish."
+        },
+        {
+          "zh": "别直接叫不熟的人傻。",
+          "py": "bié zhí jiē jiào bù shú de rén shǎ .",
+          "en": "Don’t directly call someone you barely know silly."
+        },
+        {
+          "zh": "我居然把盐放了两次。",
+          "py": "wǒ jū rán bǎ yán fàng le liǎng cì .",
+          "en": "I somehow put salt in twice."
+        },
+        {
+          "zh": "他居然记得我两年前说过的话。",
+          "py": "tā jū rán jì de wǒ liǎng nián qián shuō guò de huà .",
+          "en": "He unexpectedly remembered something I said two years ago."
+        },
+        {
+          "zh": "明明尝着很咸，他还说你真会放盐。",
+          "py": "míng míng cháng zhe hěn xián , tā hái shuō nǐ zhēn huì fàng yán .",
+          "en": "It clearly tasted salty, yet he said I was good at adding salt."
+        },
+        {
+          "zh": "明明已经到了，为什么说还在路上？",
+          "py": "míng míng yǐ jīng dào le , wèi shén me shuō hái zài lù shàng ?",
+          "en": "You have clearly arrived; why say you are still on the way?"
+        },
+        {
+          "zh": "这句话可不一定是在夸。",
+          "py": "zhè jù huà kě bù yí dìng shì zài kuā .",
+          "en": "This sentence certainly isn’t necessarily praise."
+        },
+        {
+          "zh": "我可没答应每天都来。",
+          "py": "wǒ kě méi dā yìng měi tiān dōu lái .",
+          "en": "I certainly didn’t promise to come every day."
+        },
+        {
+          "zh": "你能一边做饭一边接电话，真厉害。",
+          "py": "nǐ néng yī biān zuò fàn yī biān jiē diàn huà , zhēn lì hài .",
+          "en": "Cooking while taking calls is impressive."
+        },
+        {
+          "zh": "雨下得厉害，我们先别走。",
+          "py": "yǔ xià de lì hài , wǒ men xiān bié zǒu .",
+          "en": "The rain is heavy; let’s not leave yet."
+        },
+        {
+          "zh": "他说这碗汤太可怜了，盐全进去了。",
+          "py": "tā shuō zhè wǎn tāng tài kě lián le , yán quán jìn qù le .",
+          "en": "He joked the soup was unfortunate: all the salt went into it."
+        },
+        {
+          "zh": "那只小猫湿了，看起来很可怜。",
+          "py": "nà zhǐ xiǎo māo shī le , kàn qǐ lái hěn kě lián .",
+          "en": "The wet kitten looked pitiful."
+        },
+        {
+          "zh": "听见那句，我忍不住笑了一下。",
+          "py": "tīng jiàn nà jù , wǒ rěn bú zhù xiào le yī xià .",
+          "en": "I couldn’t help a brief laugh at that line."
+        },
+        {
+          "zh": "她忍不住又看了一眼照片。",
+          "py": "tā rěn bú zhù yòu kàn le yī yǎn zhào piān .",
+          "en": "She couldn’t help looking at the photo again."
+        },
+        {
+          "zh": "不喜欢那样叫，就不用一直忍受。",
+          "py": "bù xǐ huān nà yàng jiào , jiù bù yòng yì zhí rěn shòu .",
+          "en": "You needn’t keep putting up with a name you dislike."
+        },
+        {
+          "zh": "他难以忍受门外一直响的声音。",
+          "py": "tā nán yǐ rěn shòu mén wài yì zhí xiǎng de shēng yīn .",
+          "en": "He finds the constant sound outside hard to endure."
+        },
+        {
+          "zh": "我不想强迫你跟着笑。",
+          "py": "wǒ bù xiǎng qiǎng pò nǐ gēn zhe xiào .",
+          "en": "I don’t want to force you to laugh along."
+        },
+        {
+          "zh": "她没有强迫大家留下吃饭。",
+          "py": "tā méi yǒu qiǎng pò dà jiā liú xià chī fàn .",
+          "en": "She didn’t force everyone to stay for dinner."
+        },
+        {
+          "zh": "我讨厌一直拿同一件事来说。",
+          "py": "wǒ tǎo yàn yì zhí ná tóng yī jiàn shì lái shuō .",
+          "en": "I dislike having the same matter brought up repeatedly."
+        },
+        {
+          "zh": "这个声音很讨厌，我先关掉。",
+          "py": "zhè gè shēng yīn hěn tǎo yàn , wǒ xiān guān diào .",
+          "en": "This sound is annoying; I’ll switch it off first."
+        },
+        {
+          "zh": "他模仿自己找盐的样子，大家才笑了。",
+          "py": "tā mó fǎng zì jǐ zhǎo yán de yàng zi , dà jiā cái xiào le .",
+          "en": "He imitated himself searching for salt, and people laughed."
+        },
+        {
+          "zh": "她模仿了一次门响的声音。",
+          "py": "tā mó fǎng le yī cì mén xiǎng de shēng yīn .",
+          "en": "She imitated the sound of the door once."
+        },
+        {
+          "zh": "我没看见他当时的模样，只看了文字。",
+          "py": "wǒ méi kàn jiàn tā dāng shí de mú yàng , zhǐ kàn le wén zì .",
+          "en": "I didn’t see his expression at the time; I only read the text."
+        },
+        {
+          "zh": "这把伞的模样很特别。",
+          "py": "zhè bǎ sǎn de mú yàng hěn tè bié .",
+          "en": "This umbrella has an unusual appearance."
+        },
+        {
+          "zh": "她把目光移到汤上，没有看我。",
+          "py": "tā bǎ mù guāng yí dào tāng shàng , méi yǒu kàn wǒ .",
+          "en": "She shifted her gaze to the soup instead of looking at me."
+        },
+        {
+          "zh": "他的目光一直跟着门口的人。",
+          "py": "tā de mù guāng yì zhí gēn zhe mén kǒu de rén .",
+          "en": "His gaze kept following the person by the entrance."
+        },
+        {
+          "zh": "你瞧，我又拿起盐了。",
+          "py": "nǐ qiáo , wǒ yòu ná qǐ yán le .",
+          "en": "Look, I’ve picked the salt up again."
+        },
+        {
+          "zh": "瞧，那辆车已经来了。",
+          "py": "qiáo , nà liàng chē yǐ jīng lái le .",
+          "en": "Look, that vehicle has arrived."
+        },
+        {
+          "zh": "她悄悄问我，那句话是不是在生气。",
+          "py": "tā qiāo qiāo wèn wǒ , nà jù huà shì bú shì zài shēng qì .",
+          "en": "She quietly asked whether the sentence showed anger."
+        },
+        {
+          "zh": "我悄悄把湿伞移到门外。",
+          "py": "wǒ qiāo qiāo bǎ shī sǎn yí dào mén wài .",
+          "en": "I quietly moved the wet umbrella outside."
+        },
+        {
+          "zh": "不熟的人之间，称呼别太随意。",
+          "py": "bù shú de rén zhī jiān , chēng hū bié tài suí yì .",
+          "en": "Don’t use overly casual forms of address with people you barely know."
+        },
+        {
+          "zh": "这些座位可以随意选，前面没有预留。",
+          "py": "zhè xiē zuò wèi kě yǐ suí yì xuǎn , qián miàn méi yǒu yù liú .",
+          "en": "You may choose these seats freely; none at the front are reserved."
+        },
+        {
+          "zh": "我放盐时出了点失误，汤太咸了。",
+          "py": "wǒ fàng yán shí chū le diǎn shī wù , tāng tài xián le .",
+          "en": "I made a mistake adding salt; the soup was too salty."
+        },
+        {
+          "zh": "她说明了失误，也告诉我怎么改。",
+          "py": "tā shuō míng le shī wù , yě gào sù wǒ zěn me gǎi .",
+          "en": "She explained the mistake and how to correct it."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "盐",
+          "pinyin": "yán",
+          "meaning": "salt"
+        },
+        {
+          "hanzi": "缓",
+          "pinyin": "huǎn",
+          "meaning": "ease; slow"
+        },
+        {
+          "hanzi": "缓解",
+          "pinyin": "huǎn jiě",
+          "meaning": "ease; alleviate"
+        },
+        {
+          "hanzi": "尴尬",
+          "pinyin": "gān gà",
+          "meaning": "awkwardness"
+        },
+        {
+          "hanzi": "称呼",
+          "pinyin": "chēng hū",
+          "meaning": "form of address"
+        },
+        {
+          "hanzi": "客气",
+          "pinyin": "kè qì",
+          "meaning": "polite; formal"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s5-u11-paired-reading",
+      "title": "The first-time guest",
+      "titleZh": "The first-time guest",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "第一次去朋友家吃饭，我最担心的不是汤好不好喝，而是不知道什么时候该跟着笑。两位朋友认识很久，说话很快。我听见一个人说“你可真会放盐”，看见另外一个笑，自己却不明白是在夸还是在生气。汤看起来和别的汤差不多，我还没有尝，所以没有他们刚才已经知道的那一口味道。",
+          "py": "dì yī cì qù péng you jiā chī fàn , wǒ zuì dān xīn de bù shì tāng hǎo bù hǎo hē , ér shì bù zhī dào shén me shí hou gāi gēn zhe xiào . liǎng wèi péng you rèn shi hěn jiǔ , shuō huà hěn kuài . wǒ tīng jiàn yī gè rén shuō nǐ kě zhēn huì fàng yán , kàn jiàn lìng wài yī gè xiào , zì jǐ què bù míng bái shì zài kuā hái shi zài shēng qì . tāng kàn qǐ lái hé bié de tāng chà bu duō , wǒ hái méi yǒu cháng , suǒ yǐ méi yǒu tā men gāng cái yǐ jīng zhī dào de nà yī kǒu wèi dào .",
+          "en": "At a first visit I worried about joining laughter more than the soup. Two longstanding friends spoke quickly. “You certainly know how to add salt” might be praise or anger; I hadn’t tasted the soup and lacked that shared information."
+        },
+        {
+          "zh": "我先没有插话，后来悄悄问他们是不是在吵架。朋友把前面放了两次盐的事讲给我，又解释后面那句今天不用吃别的盐。我这才明白，自己一进门没看到做饭，连汤都还没尝，难怪听不懂。他把杯子递给我，说先喝水，汤还得等一会儿。我坐下来，听他们商量加多少水，心里慢慢放松。",
+          "py": "wǒ xiān méi yǒu chā huà , hòu lái qiāo qiāo wèn tā men shì bú shì zài chǎo jià . péng you bǎ qián miàn fàng le liǎng cì yán de shì jiǎng gěi wǒ , yòu jiě shì hòu miàn nà jù jīn tiān bù yòng chī bié de yán . wǒ zhè cái míng bái , zì jǐ yī jìn mén méi kàn dào zuò fàn , lián tāng dōu hái méi cháng , nán guài tīng bù dǒng . tā bǎ bēi zi dì gěi wǒ , shuō xiān hē shuǐ , tāng hái děi děng yī huì er . wǒ zuò xià lái , tīng tā men shāng liáng jiā duō shao shuǐ , xīn lǐ màn màn fàng sōng .",
+          "en": "I didn't interrupt at first, then quietly asked whether they were arguing. My friend explained the two salt additions and the joke about needing no more salt. I'd arrived too late to see the cooking and hadn't tasted it. He handed me a cup of water while the soup was fixed. Listening to them discuss how much water to add, I gradually relaxed."
+        },
+        {
+          "zh": "我告诉他们，不喜欢有人叫我傻。以前有人这样叫，我说不喜欢，他还是继续，后来我就不太想去那个聚会。这次朋友马上说好，不这样叫，还请我帮忙摆筷子。我打开旁边的抽屉，找到三双放在桌上。他问我碗在哪里，我指了指他身后的柜子，终于也能在他们说话的时候接上一句。",
+          "py": "wǒ gào sù tā men , bù xǐ huān yǒu rén jiào wǒ shǎ . yǐ qián yǒu rén zhè yàng jiào , wǒ shuō bù xǐ huān , tā hái shi jì xù , hòu lái wǒ jiù bù tài xiǎng qù nà gè jù huì . zhè cì péng you mǎ shàng shuō hǎo , bù zhè yàng jiào , hái qǐng wǒ bāng máng bǎi kuài zi . wǒ dǎ kāi páng biān de chōu tì , zhǎo dào sān shuāng fàng zài zhuō shàng . tā wèn wǒ wǎn zài nǎ lǐ , wǒ zhǐ le zhǐ tā shēn hòu de guì zi , zhōng yú yě néng zài tā men shuō huà de shí hou jiē shàng yī jù .",
+          "en": "I told them I disliked being called silly. Someone at another gathering had kept doing it even after I'd asked, and I'd stopped wanting to go. Here my friend immediately agreed and asked me to set out chopsticks. I found three pairs in a drawer. Asked where the bowls were, I pointed to the cupboard behind him; finally I could join in their conversation."
+        },
+        {
+          "zh": "后来做汤的人也说别再说了。我原来以为他们很熟，就一直这样笑着讲，可他放下水的时候，已经不像刚才那么轻松。另一个人又补一句，他认真问怎么还来。我赶紧把刚摆好的筷子往旁边挪，给碗留出地方。那个人道歉以后去拿碗，回来没有再讲盐，问的是我们每个人要多少汤。",
+          "py": "hòu lái zuò tāng de rén yě shuō bié zài shuō le . wǒ yuán lái yǐ wéi tā men hěn shú , jiù yì zhí zhè yàng xiào zhe jiǎng , kě tā fàng xià shuǐ de shí hou , yǐ jīng bù xiàng gāng cái nà me qīng sōng . lìng yī gè rén yòu bǔ yī jù , tā rèn zhēn wèn zěn me hái lái . wǒ gǎn jǐn bǎ gāng bǎi hǎo de kuài zi wǎng páng biān nuó , gěi wǎn liú chū dì fāng . nà gè rén dào qiàn yǐ hòu qù ná wǎn , huí lái méi yǒu zài jiǎng yán , wèn de shì wǒ men měi gè rén yào duō shao tāng .",
+          "en": "Later the cook asked him to stop. I'd thought close friends would keep joking, but when he set down the water he looked less relaxed. One more remark drew a serious question: why another? I moved the chopsticks aside to make room for bowls. After apologising, the friend fetched them; returning, he asked how much soup we each wanted."
+        },
+        {
+          "zh": "拿碗以后，做汤的人自己说这次不用替盐拿一个，大家才又笑起来。他把一勺汤放进我的碗，我先尝了一口，说现在好多了。刚才去拿碗的朋友问我敢不敢多喝，我说可以啊，又把碗往前送了送。这次我听懂了前面的事，也知道他们已经换了话题，不用坐在那里猜到底该不该笑。",
+          "py": "ná wǎn yǐ hòu , zuò tāng de rén zì jǐ shuō zhè cì bù yòng tì yán ná yī gè , dà jiā cái yòu xiào qǐ lái . tā bǎ yī sháo tāng fàng jìn wǒ de wǎn , wǒ xiān cháng le yī kǒu , shuō xiàn zài hǎo duō le . gāng cái qù ná wǎn de péng you wèn wǒ gǎn bù gǎn duō hē , wǒ shuō kě yǐ a , yòu bǎ wǎn wǎng qián sòng le sòng . zhè cì wǒ tīng dǒng le qián miàn de shì , yě zhī dào tā men yǐ jīng huàn le huà tí , bù yòng zuò zài nà lǐ cāi dào dǐ gāi bù gāi xiào .",
+          "en": "When the bowls arrived, the cook joked that the salt didn't need its own bowl, and we laughed again. I tasted a spoonful and said it was better. Would I dare have more? Of course; I pushed my bowl forward. Now I understood what had happened and could hear the topic moving on, instead of sitting there wondering whether to laugh."
+        },
+        {
+          "zh": "后来雨一直下，朋友说挑的天气真好。我看见他指向窗外，就问是不是说公园去不了了。他说对，接着又说在家也挺好。这次我没有把第二个好也理解成坏，因为他说的是在家能一起吃饭。只看相同的词不够，还要听现在到底评价什么，是天气、安排，还是有人做的一道菜。",
+          "py": "hòu lái yǔ yì zhí xià , péng you shuō tiāo de tiān qì zhēn hǎo . wǒ kàn jiàn tā zhǐ xiàng chuāng wài , jiù wèn shì bú shì shuō gōng yuán qù bù le le . tā shuō duì , jiē zhe yòu shuō zài jiā yě tǐng hǎo . zhè cì wǒ méi yǒu bǎ dì èr gè hǎo yě lǐ jiě chéng huài , yīn wèi tā shuō de shì zài jiā néng yì qǐ chī fàn . zhǐ kàn xiāng tóng de cí bù gòu , hái yào tīng xiàn zài dào dǐ píng jià shén me , shì tiān qì , ān pái , hái shi yǒu rén zuò de yī dào cài .",
+          "en": "Persistent rain prompted “lovely weather” while he pointed outside. I checked the cancelled park visit; the following sincere approval concerned eating together at home. Repeated vocabulary did not guarantee repeated intention: the object being evaluated mattered."
+        },
+        {
+          "zh": "我也有一次没听清最后几个字，问他能不能再说。他重复得慢一点，没有变成很大声地对着我喊。我听懂以后回应一句，大家就继续聊了。能问，也能让对方重复，让我更愿意参加；不必每次都猜中，也不必为了不打断就一直点头，等回家以后才发现自己答应了什么。",
+          "py": "wǒ yě yǒu yī cì méi tīng qīng zuì hòu jǐ gè zì , wèn tā néng bù néng zài shuō . tā chóng fù de màn yī diǎn , méi yǒu biàn chéng hěn dà shēng de duì zhe wǒ hǎn . wǒ tīng dǒng yǐ hòu huí yìng yī jù , dà jiā jiù jì xù liáo le . néng wèn , yě néng ràng duì fāng chóng fù , ràng wǒ gèng yuàn yì cān jiā ; bù bì měi cì dōu cāi zhōng , yě bù bì wèi le bù dǎ duàn jiù yì zhí diǎn tóu , děng huí jiā yǐ hòu cái fā xiàn zì jǐ dā yìng le shén me .",
+          "en": "When I missed a few final words, he repeated more slowly without shouting. I responded and conversation continued. Being able to ask and hear a repeat helped participation without always guessing or nodding through an unclear commitment."
+        },
+        {
+          "zh": "回家以后，我给朋友发了一条谢谢，说汤后来好了，聊天也让我放松。他回我，下次天气好就去公园，今天说的那本书也会带上。我问是不是还要自己带碗，他发来一个笑脸，说不用，公园没有那道汤。我这次看见消息就笑了，想起我们刚才在门口说的话，把下次的日期先记在日历里。",
+          "py": "huí jiā yǐ hòu , wǒ gěi péng you fā le yī tiáo xiè xiè , shuō tāng hòu lái hǎo le , liáo tiān yě ràng wǒ fàng sōng . tā huí wǒ , xià cì tiān qì hǎo jiù qù gōng yuán , jīn tiān shuō de nà běn shū yě huì dài shàng . wǒ wèn shì bú shì hái yào zì jǐ dài wǎn , tā fā lái yī gè xiào liǎn , shuō bù yòng , gōng yuán méi yǒu nà dào tāng . wǒ zhè cì kàn jiàn xiāo xī jiù xiào le , xiǎng qǐ wǒ men gāng cái zài mén kǒu shuō de huà , bǎ xià cì de rì qī xiān jì zài rì lì lǐ .",
+          "en": "At home I thanked my friend: the soup had turned out well and the chat had helped me relax. Next time in good weather we'd go to the park, and he'd bring the book we'd discussed. Did I need my own bowl? He sent a smile: no, there'd be no soup in the park. This time I laughed at once, remembering our doorway conversation, and added the next date to my calendar."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "盐",
+          "pinyin": "yán",
+          "meaning": "salt"
+        },
+        {
+          "hanzi": "称呼",
+          "pinyin": "chēng hū",
+          "meaning": "form of address"
+        },
+        {
+          "hanzi": "口味",
+          "pinyin": "kǒu wèi",
+          "meaning": "taste; flavour"
+        },
+        {
+          "hanzi": "插话",
+          "pinyin": "chā huà",
+          "meaning": "interject"
+        },
+        {
+          "hanzi": "反话",
+          "pinyin": "fǎn huà",
+          "meaning": "ironic wording meaning more than a literal reading"
+        },
+        {
+          "hanzi": "得罪",
+          "pinyin": "dé zuì",
+          "meaning": "offend"
+        },
+        {
+          "hanzi": "绕",
+          "pinyin": "rào",
+          "meaning": "go around; circle back"
+        },
+        {
+          "hanzi": "前后",
+          "pinyin": "qián hòu",
+          "meaning": "preceding and following context"
+        },
+        {
+          "hanzi": "抽屉",
+          "pinyin": "chōu tì",
+          "meaning": "drawer"
+        },
+        {
+          "hanzi": "柜子",
+          "pinyin": "guì zi",
+          "meaning": "cupboard; cabinet"
+        },
+        {
+          "hanzi": "一勺",
+          "pinyin": "yī sháo",
+          "meaning": "one spoonful"
+        },
+        {
+          "hanzi": "挪",
+          "pinyin": "nuó",
+          "meaning": "move something a little"
+        },
+        {
+          "hanzi": "笑脸",
+          "pinyin": "xiào liǎn",
+          "meaning": "smiling face"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What makes participation easier for the newcomer?",
+          "choices": [
+            "Explanation, repetition and respected preferences",
+            "Guessing every sentence without asking",
+            "Being required to enjoy all joking"
+          ],
+          "answer": "Explanation, repetition and respected preferences"
+        },
+        {
+          "type": "detail",
+          "q": "What does the newcomer ask not to be called?",
+          "choices": [
+            "傻",
+            "陈宇",
+            "朋友"
+          ],
+          "answer": "傻"
+        },
+        {
+          "type": "inference",
+          "q": "Why is laughing once not a universal rule?",
+          "choices": [
+            "Situation and willingness can change later",
+            "Laughter proves everyone has the same preference",
+            "Requests to stop automatically become false"
+          ],
+          "answer": "Situation and willingness can change later"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "第一次去朋友家吃饭，我最担心的不是汤好不好喝，而是不知道什么时候该跟着笑。两位朋友认识很久，说话很快。我听见一个人说“你【可】真会放盐”，看见另外一个笑，自己却不明白是在夸还是在生气。汤看起来和别的汤差不多，我还没有尝，所以没有他们刚才已经知道的那一口味道。",
+            "py": "dì yī cì qù péng you jiā chī fàn , wǒ zuì dān xīn de bù shì tāng hǎo bù hǎo hē , ér shì bù zhī dào shén me shí hou gāi gēn zhe xiào . liǎng wèi péng you rèn shi hěn jiǔ , shuō huà hěn kuài . wǒ tīng jiàn yī gè rén shuō nǐ kě zhēn huì fàng yán , kàn jiàn lìng wài yī gè xiào , zì jǐ què bù míng bái shì zài kuā hái shi zài shēng qì . tāng kàn qǐ lái hé bié de tāng chà bu duō , wǒ hái méi yǒu cháng , suǒ yǐ méi yǒu tā men gāng cái yǐ jīng zhī dào de nà yī kǒu wèi dào .",
+            "en": "At a first visit I worried about joining laughter more than the soup. Two longstanding friends spoke quickly. “You certainly know how to add salt” might be praise or anger; I hadn’t tasted the soup and lacked that shared information."
+          },
+          {
+            "zh": "我先没有插话，后来【悄悄】问他们是不是在吵架。朋友把前面放了两次盐的事讲给我，又解释后面那句今天不用吃别的盐。我这才明白，自己一进门没看到做饭，连汤都还没尝，难怪听不懂。他把杯子递给我，说先喝水，汤还得等一会儿。我坐下来，听他们商量加多少水，心里慢慢放松。",
+            "py": "wǒ xiān méi yǒu chā huà , hòu lái qiāo qiāo wèn tā men shì bú shì zài chǎo jià . péng you bǎ qián miàn fàng le liǎng cì yán de shì jiǎng gěi wǒ , yòu jiě shì hòu miàn nà jù jīn tiān bù yòng chī bié de yán . wǒ zhè cái míng bái , zì jǐ yī jìn mén méi kàn dào zuò fàn , lián tāng dōu hái méi cháng , nán guài tīng bù dǒng . tā bǎ bēi zi dì gěi wǒ , shuō xiān hē shuǐ , tāng hái děi děng yī huì er . wǒ zuò xià lái , tīng tā men shāng liáng jiā duō shao shuǐ , xīn lǐ màn màn fàng sōng .",
+            "en": "I didn't interrupt at first, then quietly asked whether they were arguing. My friend explained the two salt additions and the joke about needing no more salt. I'd arrived too late to see the cooking and hadn't tasted it. He handed me a cup of water while the soup was fixed. Listening to them discuss how much water to add, I gradually relaxed."
+          },
+          {
+            "zh": "我告诉他们，不喜欢有人叫我【傻】。以前有人这样叫，我说不喜欢，他还是继续，后来我就不太想去那个聚会。这次朋友马上说好，不这样叫，还请我帮忙摆筷子。我打开旁边的抽屉，找到三双放在桌上。他问我碗在哪里，我指了指他身后的柜子，终于也能在他们说话的时候接上一句。",
+            "py": "wǒ gào sù tā men , bù xǐ huān yǒu rén jiào wǒ shǎ . yǐ qián yǒu rén zhè yàng jiào , wǒ shuō bù xǐ huān , tā hái shi jì xù , hòu lái wǒ jiù bù tài xiǎng qù nà gè jù huì . zhè cì péng you mǎ shàng shuō hǎo , bù zhè yàng jiào , hái qǐng wǒ bāng máng bǎi kuài zi . wǒ dǎ kāi páng biān de chōu tì , zhǎo dào sān shuāng fàng zài zhuō shàng . tā wèn wǒ wǎn zài nǎ lǐ , wǒ zhǐ le zhǐ tā shēn hòu de guì zi , zhōng yú yě néng zài tā men shuō huà de shí hou jiē shàng yī jù .",
+            "en": "I told them I disliked being called silly. Someone at another gathering had kept doing it even after I'd asked, and I'd stopped wanting to go. Here my friend immediately agreed and asked me to set out chopsticks. I found three pairs in a drawer. Asked where the bowls were, I pointed to the cupboard behind him; finally I could join in their conversation."
+          }
+        ],
+        "bank": [
+          "可",
+          "悄悄",
+          "傻",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s5-u11-c",
+    "title": "When praise is a tease",
+    "place": "A rainy-day meal at a friend’s home",
+    "context": "One soup is accidentally salted twice. A newcomer asks about the joke; a repeated tease is stopped after a second reminder.",
+    "goal": "Use preceding events and responses to interpret irony",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "你说真会放盐，是夸好喝吗？",
+        "pinyin": "nǐ shuō zhēn huì fàng yán , shì kuā hǎo hē ma ?",
+        "meaning": "Is good at adding salt praise for its taste?",
+        "intent": "Use the known context",
+        "examples": [
+          "不是，这次放了两次，太咸了。"
+        ],
+        "accept": [
+          "^不是，这次放了两次，太咸了。[。！？]?$"
+        ]
+      },
+      {
+        "text": "我不喜欢被这样叫，可以不用吗？",
+        "pinyin": "wǒ bù xǐ huān bèi zhè yàng jiào , kě yǐ bù yòng ma ?",
+        "meaning": "I dislike being called that; could you stop?",
+        "intent": "Respect the specific preference",
+        "examples": [
+          "可以，以后不这样叫。"
+        ],
+        "accept": [
+          "^可以，以后不这样叫。[。！？]?$"
+        ]
+      },
+      {
+        "text": "刚才笑了，现在就不能让我停吗？",
+        "pinyin": "gāng cái xiào le , xiàn zài jiù bù néng ràng wǒ tíng ma ?",
+        "meaning": "You laughed before; can you not ask me to stop now?",
+        "intent": "Allow a changed response",
+        "examples": [
+          "可以，刚才觉得好笑，现在不想再听了。"
+        ],
+        "accept": [
+          "^可以，刚才觉得好笑，现在不想再听了。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Check an uncertain interpretation",
+      "natural": {
+        "zh": "你是在笑这次放多了，不是在生气，对吗？",
+        "py": "nǐ shì zài xiào zhè cì fàng duō le , bù shì zài shēng qì , duì ma ?",
+        "en": "You’re teasing about adding too much this time, not angry, right?"
+      },
+      "note": "Name the event and ask; do not assume a vocal cue has only one meaning."
+    },
+    {
+      "situation": "Make a concrete stop request",
+      "natural": {
+        "zh": "这件事别再说了，我们先吃吧。",
+        "py": "zhè jiàn shì bié zài shuō le , wǒ men xiān chī ba .",
+        "en": "Please stop repeating this one; let’s eat."
+      },
+      "note": "A bounded request makes the wanted change clear."
+    },
+    {
+      "situation": "Repair after missing the request",
+      "natural": {
+        "zh": "对不起，我刚才又说了一句。现在停。",
+        "py": "duì bù qǐ , wǒ gāng cái yòu shuō le yī jù . xiàn zài tíng .",
+        "en": "Sorry, I added another line. I’ll stop now."
+      },
+      "note": "Follow an apology with the actual change, rather than another repetition."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s5-u11-t01",
+      "phrase": "s5-u11-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "没生气，是汤太咸。我还等着他做别的菜呢。",
+        "py": "méi shēng qì , shì tāng tài xián . wǒ hái děng zhe tā zuò bié de cài ne .",
+        "en": "I'm not angry—the soup's too salty. I'm still waiting for his other dishes."
+      },
+      "statement": "The speaker says the cook is unable to cook any dish.",
+      "answer": false,
+      "why": "The explanation explicitly limits criticism to this soup."
+    },
+    {
+      "id": "s5-u11-t02",
+      "phrase": "s5-u11-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我说别再说，你还来一句？",
+        "py": "wǒ shuō bié zài shuō , nǐ hái lái yī jù ?",
+        "en": "I asked you to stop, and you add another line?"
+      },
+      "statement": "The cook reminds the friend of an earlier request to stop.",
+      "answer": true,
+      "why": "The extra remark follows that request."
+    },
+    {
+      "id": "s5-u11-t03",
+      "phrase": "s5-u11-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "后来我自己说，拿三个碗就行，这次不用替盐拿一个。大家笑了一下，也就接着吃饭。加过水的汤终于能喝了，我先给新朋友盛了一点，请她再尝尝。她说好多了，又问我平时是不是也一边接电话一边做饭。我赶紧把手机放到另一边，说今天到吃完以前，谁打来都先等一下。",
+        "py": "hòu lái wǒ zì jǐ shuō , ná sān gè wǎn jiù xíng , zhè cì bù yòng tì yán ná yī gè . dà jiā xiào le yī xià , yě jiù jiē zhe chī fàn . jiā guò shuǐ de tāng zhōng yú néng hē le , wǒ xiān gěi xīn péng you shèng le yī diǎn , qǐng tā zài cháng cháng . tā shuō hǎo duō le , yòu wèn wǒ píng shí shì bú shì yě yī biān jiē diàn huà yī biān zuò fàn . wǒ gǎn jǐn bǎ shǒu jī fàng dào lìng yī biān , shuō jīn tiān dào chī wán yǐ qián , shéi dǎ lái dōu xiān děng yī xià .",
+        "en": "I told him to bring three bowls—no extra one for the salt. We laughed and started dinner. With water added, the soup was finally drinkable, so I served the new friend a little. Much better, she said: did I usually cook while answering calls? I put my phone aside. Whoever called could wait until we'd finished eating."
+      },
+      "statement": "The cook’s own joke cancels all earlier limits.",
+      "answer": false,
+      "why": "The text explicitly keeps the stop request valid."
+    },
+    {
+      "id": "s5-u11-t04",
+      "phrase": "s5-u11-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我也有一次没听清最后几个字，问他能不能再说。他重复得慢一点，没有变成很大声地对着我喊。我听懂以后回应一句，大家就继续聊了。能问，也能让对方重复，让我更愿意参加；不必每次都猜中，也不必为了不打断就一直点头，等回家以后才发现自己答应了什么。",
+        "py": "wǒ yě yǒu yī cì méi tīng qīng zuì hòu jǐ gè zì , wèn tā néng bù néng zài shuō . tā chóng fù de màn yī diǎn , méi yǒu biàn chéng hěn dà shēng de duì zhe wǒ hǎn . wǒ tīng dǒng yǐ hòu huí yìng yī jù , dà jiā jiù jì xù liáo le . néng wèn , yě néng ràng duì fāng chóng fù , ràng wǒ gèng yuàn yì cān jiā ; bù bì měi cì dōu cāi zhōng , yě bù bì wèi le bù dǎ duàn jiù yì zhí diǎn tóu , děng huí jiā yǐ hòu cái fā xiàn zì jǐ dā yìng le shén me .",
+        "en": "When I missed a few final words, he repeated more slowly without shouting. I responded and conversation continued. Being able to ask and hear a repeat helped participation without always guessing or nodding through an unclear commitment."
+      },
+      "statement": "A repeat at a slower pace helps the newcomer respond.",
+      "answer": true,
+      "why": "The speaker repeats more slowly without shouting."
+    },
+    {
+      "id": "s5-u11-t05",
+      "phrase": "s5-u11-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "汤放了两次盐，很咸。他笑着说真会放盐。是在认真夸味道好吗？",
+        "py": "tāng fàng le liǎng cì yán , hěn xián . tā xiào zhe shuō zhēn huì fàng yán . shì zài rèn zhēn kuā wèi dào hǎo ma ?",
+        "en": "The soup was salted twice and tastes salty. He smiles and says good at adding salt. Is this sincere praise of flavour?"
+      },
+      "choices": [
+        "不是，是在笑这次放多了。",
+        "是，说明盐放得刚刚好。",
+        "是，而且证明任何菜都很好。"
+      ],
+      "answer": "不是，是在笑这次放多了。",
+      "why": "The explicit mistake and smile establish the local tease."
+    },
+    {
+      "id": "s5-u11-t06",
+      "phrase": "s5-u11-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "我已经说别再说了，你又加一句。怎么回应？",
+        "py": "wǒ yǐ jīng shuō bié zài shuō le , nǐ yòu jiā yī jù . zěn me huí yìng ?",
+        "en": "I asked you to stop, but you added another line. How should you respond?"
+      },
+      "choices": [
+        "对不起，这句也收回，现在停。",
+        "你刚才笑过，所以我永远不能停。",
+        "你说停，就是让我再说十次。"
+      ],
+      "answer": "对不起，这句也收回，现在停。",
+      "why": "Repair follows the actual request instead of denying it."
+    },
+    {
+      "id": "s5-u11-t07",
+      "phrase": "s5-u11-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "刚才说天气真好，是因为大雨去不了公园。后来在家挺好，指一起吃饭。两个好一样吗？",
+        "py": "gāng cái shuō tiān qì zhēn hǎo , shì yīn wèi dà yǔ qù bù le gōng yuán . hòu lái zài jiā tǐng hǎo , zhǐ yì qǐ chī fàn . liǎng gè hǎo yī yàng ma ?",
+        "en": "Lovely weather refers to rain cancelling the park; good at home refers to company over dinner. Do both good remarks mean the same thing?"
+      },
+      "choices": [
+        "不一样，前后评价的事情不同。",
+        "一样，所有好都只能表示坏。",
+        "一样，所以外面根本没有雨。"
+      ],
+      "answer": "不一样，前后评价的事情不同。",
+      "why": "The evaluated situations differ."
+    },
+    {
+      "id": "s5-u11-t08",
+      "phrase": "s5-u11-w08",
+      "type": "listenfill",
+      "line": {
+        "zh": "我【居然】把盐放了两次。",
+        "py": "wǒ jū rán bǎ yán fàng le liǎng cì .",
+        "en": "I unexpectedly added salt twice."
+      },
+      "blankPy": "jū rán"
+    },
+    {
+      "id": "s5-u11-t09",
+      "phrase": "s5-u11-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "这句话【可】不一定是在夸。",
+        "py": "zhè jù huà kě bù yí dìng shì zài kuā .",
+        "en": "This line certainly isn’t necessarily praise."
+      },
+      "blankPy": "kě"
+    },
+    {
+      "id": "s5-u11-t10",
+      "phrase": "s5-u11-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "我不想【强迫】你跟着笑。",
+        "py": "wǒ bù xiǎng qiǎng pò nǐ gēn zhe xiào .",
+        "en": "I don’t want to force you to laugh along."
+      },
+      "blankPy": "qiǎng pò"
+    },
+    {
+      "id": "s5-u11-t11",
+      "phrase": "s5-u11-w11",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He tried humour to ease the awkwardness, but the newcomer didn’t understand.",
+          "right": {
+            "zh": "他想用幽默缓解尴尬，可是新朋友没听懂。",
+            "py": "tā xiǎng yòng yōu mò huǎn jiě gān gà , kě shì xīn péng you méi tīng dǒng .",
+            "en": "He tried humour to ease the awkwardness, but the newcomer didn’t understand."
+          }
+        },
+        {
+          "left": "Don’t be so formal—have a little more to eat.",
+          "right": {
+            "zh": "别这么客气，多吃一点。",
+            "py": "bié zhè me kè qì , duō chī yī diǎn .",
+            "en": "Don’t be so formal—have a little more to eat."
+          }
+        },
+        {
+          "left": "To spare him embarrassment, I didn’t repeat it in front of everyone.",
+          "right": {
+            "zh": "我想给他留点面子，就没有当众重复那件事。",
+            "py": "wǒ xiǎng gěi tā liú diǎn miàn zi , jiù méi yǒu dāng zhòng chóng fù nà jiàn shì .",
+            "en": "To spare him embarrassment, I didn’t repeat it in front of everyone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u11-t12",
+      "phrase": "s5-u11-w12",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He unexpectedly remembered something I said two years ago.",
+          "right": {
+            "zh": "他居然记得我两年前说过的话。",
+            "py": "tā jū rán jì de wǒ liǎng nián qián shuō guò de huà .",
+            "en": "He unexpectedly remembered something I said two years ago."
+          }
+        },
+        {
+          "left": "She couldn’t help looking at the photo again.",
+          "right": {
+            "zh": "她忍不住又看了一眼照片。",
+            "py": "tā rěn bú zhù yòu kàn le yī yǎn zhào piān .",
+            "en": "She couldn’t help looking at the photo again."
+          }
+        },
+        {
+          "left": "She imitated the sound of the door once.",
+          "right": {
+            "zh": "她模仿了一次门响的声音。",
+            "py": "tā mó fǎng le yī cì mén xiǎng de shēng yīn .",
+            "en": "She imitated the sound of the door once."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u11-t13",
+      "phrase": "s5-u11-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I didn’t see his expression at the time; I only read the text.",
+          "right": {
+            "zh": "我没看见他当时的模样，只看了文字。",
+            "py": "wǒ méi kàn jiàn tā dāng shí de mú yàng , zhǐ kàn le wén zì .",
+            "en": "I didn’t see his expression at the time; I only read the text."
+          }
+        },
+        {
+          "left": "She quietly asked whether the sentence showed anger.",
+          "right": {
+            "zh": "她悄悄问我，那句话是不是在生气。",
+            "py": "tā qiāo qiāo wèn wǒ , nà jù huà shì bú shì zài shēng qì .",
+            "en": "She quietly asked whether the sentence showed anger."
+          }
+        },
+        {
+          "left": "I made a mistake adding salt; the soup was too salty.",
+          "right": {
+            "zh": "我放盐时出了点失误，汤太咸了。",
+            "py": "wǒ fàng yán shí chū le diǎn shī wù , tāng tài xián le .",
+            "en": "I made a mistake adding salt; the soup was too salty."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: teasing strength, 真有你的/可真 intonation, the final salt-bowl comeback and X什么X sharpness. Self-review separates interpretation from enjoyment and one laugh from future permission. Salt is added twice; water is added a little at a time, never a complete bottle by assertion. The newcomer lacks the initial tasted-soup context. Same 好 changes referent between rain and company; positive forms are not labelled universally ironic. Fallback audio does not certify ironic prosody. No real performer or copyrighted scene is used.\n2026-10-08 advanced reading self-review: Three-person soup dialogue keeps distinct speaker IDs but loses the blanket skill judgment and consent explanation. Readings show initial confusion, an actual request to stop, apology, the cook’s own bowl joke and sincere enjoyment at home. Newcomer still asks not to be called 傻; no universal irony rule is taught. Interview/weekly notice and five-classmate survey remain evidence-bound text types. Short/full video distinction and misheard light/letters facts retained. Native flags: 汤救回来, salt-bowl comeback, X什么X strength and friendly mainland banter. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "幽",
+      "pinyin": "yōu",
+      "meaning": "quiet; bound component in 幽默, humour",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "幽",
+          "role": "whole",
+          "gloss": "quiet; bound component in 幽默, humour"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 幽 in 幽默. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "幽默",
+          "p": "yōu mò",
+          "m": "humour; humorous"
+        }
+      ]
+    },
+    {
+      "hanzi": "脾",
+      "pinyin": "pí",
+      "meaning": "bound component in 脾气, temper",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "脾",
+          "role": "whole",
+          "gloss": "bound component in 脾气, temper"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 脾 in 脾气. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "脾气",
+          "p": "pí qì",
+          "m": "temper; temperament"
+        }
+      ]
+    },
+    {
+      "hanzi": "骂",
+      "pinyin": "mà",
+      "meaning": "scold",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "骂",
+          "role": "whole",
+          "gloss": "scold"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 骂 in 骂. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "骂",
+          "p": "mà",
+          "m": "scold; curse"
+        }
+      ]
+    },
+    {
+      "hanzi": "傻",
+      "pinyin": "shǎ",
+      "meaning": "foolish",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "傻",
+          "role": "whole",
+          "gloss": "foolish"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 傻 in 傻. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "傻",
+          "p": "shǎ",
+          "m": "foolish; silly"
+        }
+      ]
+    },
+    {
+      "hanzi": "厉",
+      "pinyin": "lì",
+      "meaning": "strict; severe",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "厉",
+          "role": "whole",
+          "gloss": "strict; severe"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 厉 in 厉害. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "厉害",
+          "p": "lì hài",
+          "m": "impressive; severe; formidable"
+        }
+      ]
+    },
+    {
+      "hanzi": "怜",
+      "pinyin": "lián",
+      "meaning": "pity, in 可怜",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "怜",
+          "role": "whole",
+          "gloss": "pity, in 可怜"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 怜 in 可怜. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "可怜",
+          "p": "kě lián",
+          "m": "pitiful; unfortunate"
+        }
+      ]
+    },
+    {
+      "hanzi": "忍",
+      "pinyin": "rěn",
+      "meaning": "endure; restrain",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "忍",
+          "role": "whole",
+          "gloss": "endure; restrain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 忍 in 忍不住 / 忍受. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "忍不住",
+          "p": "rěn bú zhù",
+          "m": "cannot help doing"
+        },
+        {
+          "w": "忍受",
+          "p": "rěn shòu",
+          "m": "endure; put up with"
+        }
+      ]
+    },
+    {
+      "hanzi": "厌",
+      "pinyin": "yàn",
+      "meaning": "dislike",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "厌",
+          "role": "whole",
+          "gloss": "dislike"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 厌 in 讨厌. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "讨厌",
+          "p": "tǎo yàn",
+          "m": "dislike; annoying"
+        }
+      ]
+    },
+    {
+      "hanzi": "瞧",
+      "pinyin": "qiáo",
+      "meaning": "look",
+      "strokes": 17,
+      "parts": [
+        {
+          "form": "瞧",
+          "role": "whole",
+          "gloss": "look"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 瞧 in 瞧. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "瞧",
+          "p": "qiáo",
+          "m": "look; see, conversational"
+        }
+      ]
+    },
+    {
+      "hanzi": "悄",
+      "pinyin": "qiāo",
+      "meaning": "quiet, in 悄悄",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "悄",
+          "role": "whole",
+          "gloss": "quiet, in 悄悄"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 悄 in 悄悄. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "悄悄",
+          "p": "qiāo qiāo",
+          "m": "quietly; secretly"
+        }
+      ]
+    }
+  ]
+}

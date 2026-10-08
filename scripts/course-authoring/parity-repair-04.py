@@ -281,3 +281,15 @@ if not any(g['hanzi']=='肯' for g in text.get('glosses',[])):
     text.setdefault('glosses',[]).append(dict(hanzi='肯',pinyin='kěn',meaning='be willing to'))
 dest=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')/'s3-u39.json'
 dest.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
+
+from advanced_reading_repair import dependencies
+dependencies({'s4-u11':[('藏','hide; put out of sight','cáng')],
+              's5-u01':[('挥','wave; swing'),('灰','dust; ash')],
+              's5-u03':[('犹豫','hesitate; hesitation')],
+              's5-u04':[('抱怨','complain')],
+              's6-u02':[('珍惜','cherish; value'),('维持','maintain')],
+              's6-u04':[('珍惜','cherish; value')],
+              's6-u05':[('沿','along; follow'),('结局','ending; outcome')],
+              's6-u07':[('线索','clue')],
+              's6-u11':[('结局','ending; outcome')],
+              's6-u12':[('挥','wave; swing')]},publish='--publish' in sys.argv)

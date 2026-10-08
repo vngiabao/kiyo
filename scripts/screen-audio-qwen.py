@@ -15,6 +15,8 @@ import torch
 import whisper
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts/course-authoring'))
+from contextual_de import SYLLABLE, reading as de_reading
 CACHE=ROOT/'.cache/sayo-qwen-approved'
 digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 read=lambda p:json.loads(p.read_text('utf-8'))
@@ -55,18 +57,22 @@ def transcript_status(expected_text, transcript, authored_pinyin=None):
         return 'erhua-transcript'
     if expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
         return 'homophone-transcript'
-    # The dictionary-only reading of 地 is dì, even in a de adverbial.
-    # Use the independently checked authored reading only at that exact
-    # position; ground dì and missing/different syllables remain failures.
-    syllables=re.findall(r"[a-züāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]+",(authored_pinyin or '').lower())
+    # ASR may write neutral 地/得 as 的. Keep this at the exact aligned
+    # position; contextual 得 must independently be de, never dé or děi.
+    # Word-spaced pinyin still contains more than one syllable per word.
+    syllables=[m.group().lower() for m in SYLLABLE.finditer(authored_pinyin or '')]
     if len(expected)==len(heard)==len(syllables):
         differences=[i for i,(a,b) in enumerate(zip(expected,heard)) if a!=b]
-        if differences and all(expected[i]=='地' and heard[i]=='的' and syllables[i]=='de' for i in differences):
+        if differences and all(heard[i]=='的' and syllables[i]=='de'
+                               and (expected[i]=='地' or (expected[i]=='得' and de_reading(expected,i)=='de'))
+                               for i in differences):
             return 'homophone-transcript'
     return 'needs-review'
 
 def atomic(path,data):
-    tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n','utf-8');tmp.replace(path)
+    # The growing receipt ledger is checkpointed after each clip. Compact JSON
+    # keeps every field while reducing repeated disk writes; checks are unchanged.
+    tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n','utf-8');tmp.replace(path)
 
 def main():
     parser=argparse.ArgumentParser()
@@ -103,7 +109,7 @@ def main():
                 expected_text=cue.get('synthesisText',job['text']) if cue.get('extract')=='whole' else job['text']
                 status=transcript_status(expected_text,previous.get('transcript',''),scripts.get(job['text'],{}).get('pinyin'))
                 if status!='needs-review':
-                    previous.update(status=status,orthographicCheckVersion=2)
+                    previous.update(status=status,orthographicCheckVersion=3)
                     atomic(path,report)
             repeat=bool(args.repeat_short and previous and previous['status']=='needs-review'
                 and len(normalize(job['text']))<=3 and 'repeatedTranscript' not in previous)

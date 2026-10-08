@@ -676,3 +676,250 @@ Earlier native-language flags remain open: school/college and country references
 - All eight strict checks passed: output/gates/batch-53-final-receipt.json. New audio followed the same generation, screening, repair and dated unreviewed fallback policy.
 - Native review pending for all new recognition definitions and recorded contextual tones. These entries are recognition instruction, not new dedicated character lessons or learner mastery.
 
+
+- Advanced HSK 4 selected media/social core release: committed f012545e75e01695727c33f99fa22a0f37b0cc4c; clean checkout npm ci and build passed; pushed to origin/main and deployed. Live browser verification remains separate. Full vocabulary inventory and independent native review are not claimed.
+
+- Draft editorial batch 58 (s3-u05–08): independently authored file/date correction, dinner for four, six-person reading group and song/concert practice; 88 vocabulary records each have two independent notebook contexts. Combined draft packs/readability and pinyin pass; actual audio and eight acceptance gates remain pending. Self-review corrected 在路上 and referred to the singer/band as 他们 rather than loosely calling them 演员; retained all old task and word IDs. Native flags: 富/整 bound senses, classifier 行/架/支/只, 相当 and 比较 senses, 证明 examples, 倒是 and pen-as-microphone teasing.
+- Unpublished advanced s6-u05: replaced five disclaimer-like lyric interpretation paragraphs with concrete listening, rehearsal and childhood-memory scenes. Original lyrics and question facts retained; both long readings still meet the unchanged length gate. Combined draft packs/readability passed. Actual audio and complete batch acceptance remain pending; native check requested for narrative/register and sung-versus-spoken interpretation.
+
+- Draft editorial batch 59 (s3-u09–12): last two Saturday tickets, a relocated bookshop, a short riverside walk, and a two-person rehearsal. 88 existing vocabulary records each receive two independently authored contexts. Combined 144-pack draft/readability validation and pinyin check pass (0 pinyin problems). Self-review fixed the walk duration estimate, replaced a question that presumed the passer-by was a neighbour with an explicit bridge-location question, and aligned speaker roles and renamed the bookshop unit to match its new scene. Old task/word IDs retained. Native flags: written 仅/已/变为/至今, 空 kōng versus kòng, 有的是, 往往/总是, 采取/采用, 成果/成就 and friendly teasing. Audio and eight full acceptance gates are queued, not yet passed.
+
+- Draft editorial batch 60 (s3-u13–16): rain-plan lunch, old cancellation image, student-union exchange, and moving a desk/books. 88 existing words each have two separate contexts; old task IDs preserved. Combined 144-pack/readability gate and pinyin pass, 0 pinyin problems. Corrected the false listening statement to be contradicted by its own final clip, explicitly assigned host Xiao Zhou, speaker positions for upstairs directions, and tools versus books in small/large boxes. Added actual later-use glossary definitions for 古, 一模一样 and 组织. Native flags: 保险 safer/insurance, written 仍, 恐怕, 难道, student titles 部长/主任, representative/token 代表, 朝 cháo and 背 bēi, directional complements and teasing. Audio and all eight acceptance gates remain queued.
+
+- Draft editorial batch 61 (s3-u17–20): quiet tea/book meeting, Grandma’s opera stories, wrong gate apology, birthday book bag/photo card. 88 word records receive two independent contexts, IDs preserved. Combined 144-pack/readability and pinyin gates pass, 0 pinyin problems. Self-review removed awkward 向她问 and 背书不够大, dropped the forced eat-questions joke, aligned speakers/recipient, and updated the opera title. Definitions added for removed incidental introductions at actual later uses. Native flags: 感情/情感/感受, 自主/客观 register, 民族/中华民族/华人, 文明 civilisation/courteous, printed 由于/因此/声明, 补/完善, 创作/创造/创新, 适用/应用, 想得美 and 塞给. Audio and eight full acceptance gates remain queued.
+
+## Editorial batch 62 drafted — 2026-10-08
+
+- Units: s2-u04, s2-u07, s2-u23, s2-u25. All 88 existing vocabulary and 36 task IDs retained; the grammar families remain the existing cause/question forms, colour/adjective descriptions, favour/education expressions and concession/result/request forms. No claim of added coverage or learner mastery.
+- Fixed restaurant conversation that sounded like a survey, outfit dialogue with assessment-policy commentary, printing favour with an abstract consent lecture, and activity-room complaints that narrated policy instead of solving an actual problem. Restaurant wait is twenty minutes last week and ten this visit; departure six, ride ten plus walk five. Blue outer layer, white inside, undried yellow garment, red scarves with different shoes. Print pages two/three at two, handover three, Saturday event two. Activity-room clock chimes normally at four; Saturday meetup three. True/false statements checked against their own audio clips.
+- Kept usable vocabulary examples and fixed specific awkward ones. Independently authored second context for each word; education/behaviour/action terms use appropriate separate situations. Removed scenes' inherited character dependencies gained contextual definitions in later units; no gate was weakened.
+- Unchanged combined packs/readability and pinyin preflight: 144/144 packs, zero errors, all word readability >=95%, zero pinyin problems. Evidence: output/parity-repair-14-preflight.log. Draft only: generation, audio screens and full eight-gate acceptance are queued.
+- Native review flags: beneficiary 为; 取得成绩/同意 versus 拿到; 教师/教育/教学/中小学/年级 register; playful 求; 满意/不满/好处/坏处; adjective/色 variants; 站住 request strength; formal 受到/行动/行为 and colloquial 挺好. Not marked native-reviewed.
+
+## Editorial batch 63 prepared — 8 October 2026 (not accepted)
+
+- Four units: s5-u01–04, 96 retained word records and existing grammar cards.
+- Independently authored paragraph edits replace moving/singing policy lectures
+  with calls, unpacking, dinner plans, missed-song jokes and concrete follow-up.
+  Lyric interpretation remains a valid text type; it is not forced into dialogue.
+- Applied self-review fixes: Lin An's pronoun continuity, removed an invented
+  roadworks detail from the short-drama summary before acceptance, retained all
+  assessed times/events and rebuilt passage gaps. Removed incidental earlier
+  偶尔 exposure now has an explicit later-unit definition in s5-u06.
+- Combined draft check: 144/144 packs, zero errors, word readability ≥95%, zero
+  line-pinyin problems. Both advanced readings still exceed 600 Han characters.
+  Audio and the eight batch acceptance gates remain pending in the queue.
+- Native flags: water-box moving banter; 搬/抬/卷起 collocations; applause and
+  self-deprecating jokes; plausible lyric interpretations and mainland diction.
+  No line has been marked native-reviewed.
+
+## Editorial batch 64 prepared — 8 October 2026 (not accepted)
+
+- s5-u05–08: retained 96 word records, grammar cards and every task/question ID.
+- Rewrote calendar/call diaries and book-event paragraphs as events and ordinary
+  banter. Retained genuine formal meeting-time analysis, the 48-minute total,
+  unrecorded old preparation, and two-person extra discussion. Half-hour travel,
+  8:30 coat reminder, nine/eleven call times, twenty-minute trial and display-only
+  book remain consistent with the assessment. Later 劝 usage gained a definition
+  where an incidental earlier occurrence was removed.
+- Draft-only combined preflight passed 144/144 packs, zero errors/pinyin problems,
+  readability ≥95%, and both long readings ≥600 Han characters. Audio/full eight
+  acceptance gates pending. Native flags: 塞得太满, 哪有, phone teasing, spoiler
+  banter and mainland diary register. No native-reviewed claim.
+
+## Editorial batch 65 prepared — 8 October 2026 (not accepted)
+
+- s5-u09–12: 96 existing word records and grammar retained; original task,
+  question and speaker IDs preserved. Soup scene still has three actual speakers.
+- Repaired three dialogue lines and their exact task-audio references. Rewrote
+  awkward friendship/permission lectures in the cook/newcomer readings as dinner
+  events, remembered teasing and follow-up messages. Interview notices, public
+  feedback and literary analysis retain their legitimate text types.
+- Self-review verified two salt additions, newcomer without taste context,
+  stop/apology/cook's own joke, bad-weather irony versus sincere enjoyment,
+  five stated classmates, and short/full clip mishearing. Added actual definitions
+  for utensils/actions and feedback. Rebuilt passage gap fills.
+- Draft preflight: 144/144 packs, zero errors, words ≥95%, zero pinyin problems;
+  both extended readings ≥600 Han characters. Audio/full eight gates pending.
+- Native flags: salt-bowl joke and 汤救回来, 真有你的/可真 prosody, X什么X
+  strength, phone/short-clip mishearing and mainland casual dialogue. No native
+  approval is claimed.
+
+## Editorial batch 66 prepared — 8 October 2026 (not accepted)
+
+- s6-u01–04: retained 128 word records, grammar and question/task/speaker IDs.
+- Repaired formal-sounding apology/photo utterances and exact task references.
+  Revised calendar/camera, borrowing and farewell paragraphs as actual actions;
+  corrected the umbrella role (Chen Yu follows Lin An) and provided 稍后 meaning.
+- Self-review: 2:12 reply, two versus 2:30, Thursday six/5:30, fifteen-minute
+  introduction, three remaining browsing books and Saturday-before-five return
+  remain consistent. Last-evening help is shared; return dates remain uncertain.
+- Draft-only combined preflight passes 144/144 packs, zero errors/pinyin problems,
+  words ≥95%; both long readings ≥900 Han characters. Audio/full eight gates
+  pending. Native flags: 咽回去, deadline/table-lifting banter, 台词/告别 register,
+  photo eyewitness language and chronological retelling. Nothing native-approved.
+
+## Editorial batch 67 prepared — 8 October 2026 (not accepted)
+
+- s6-u05–08, 128 retained word records, grammar and question/task/speaker IDs.
+- Revised singing instructions, spreadsheet-trial narrative, bag investigation
+  and film discussion. Work/calculation text stays formal where appropriate;
+  friends stop talking like assessments. Original refrain and earlier corrected
+  seaside-reading material retained.
+- Self-review verified twenty→thirty equals ten percentage points/fifty percent
+  relative; five manuscript pages, corridor fourth page, upstairs recovery and
+  crease; 9:45 discussion end/10 closure and cleanup interval. Exact changed
+  dialogue references update their task audio, while old IDs stay valid.
+- Combined draft checks: 144/144 packs, zero errors/pinyin problems, words ≥95%,
+  both long readings ≥900 Han characters. Audio/full eight gates pending.
+- Native flags: wind-kept lyric joke, 原稿心疼, manuscript handling collocations,
+  percentage-point register and follow-along singing omissions. Native pending.
+
+## Editorial batch 68 prepared — 8 October 2026 (not accepted)
+
+- s6-u09–12 retain 128 word records and all grammar, speaker and assessment IDs.
+- Revised library timing, work confirmation, phone/menu humour and farewell
+  chronology. Notices and practical work analysis retain their appropriate register.
+  Arrival is the following evening; the actor's train ticket is dated, while the
+  unopened letter and future reunion remain uncertain.
+- Self-review checked next week versus tonight, Friday deadline/Thursday six
+  confirmation, the ten-minute estimate after the bus arrives, 8:30 meeting and
+  nine departure. Questions still distinguish services from opening hours and
+  character events from the actor's actual travel.
+- Combined draft preflight: 144/144 packs, zero errors and pinyin problems,
+  word readability ≥95%; both long readings ≥900 Han characters. Changed audio
+  and the complete eight gates remain pending.
+- Native flags: book/overtime joke, phone-food ambiguity, programme confirmation,
+  lyric interpretation and farewell banter. No native approval is claimed.
+
+## Avoiding duplicate advanced synthesis — 8 October 2026
+
+- Authored editorial sources 16–20 now finalise their four-unit group before
+  its first audio collection: advanced batches 43–47 respectively. All eight
+  gates still run on each group's revised published text and generated audio.
+- Prepared editorial batches 64–68 are therefore incorporated into 43–47;
+  they are not independently accepted or separately required for the final run.
+  Explicit manual reruns remain available. Batch 63 remains queued because
+  batch 42's older readings were already being synthesised.
+- Definition dependencies never publish a future unit ahead of its turn.
+  Source 18 carries 劝 itself when s6-u04 is actually published.
+- This changes synthesis order, not any gate, review status or curriculum ID.
+- Changed-task audit additionally restored explicit pricing deferral in s6-u06
+  before first publication: the original false pricing item still has direct
+  support in its listening audio. Pinyin/readability preflight remains clean.
+
+## Receipt storage optimisation — 8 October 2026
+
+- Mastering provenance and speech-screen checkpoint JSON omit indentation only.
+  Every text, source hash, transcript, status and timestamp field is preserved.
+  Clip encoding and the transcription decisions are unchanged. Subsequent audio
+  steps and content validation read these records normally.
+- Per-clip checkpoints remain atomic; no screening work is skipped to gain speed.
+  Final sizes will be measured after the next install.
+- Advanced exam self-review removed the duplicated phrase 文章原来的文章 from
+  the HSK 6 attendance item before publication. Its count, answer and item ID
+  are unchanged; all 90 draft items passed the strict publication validator.
+
+## Advanced batch 42 accepted locally — 2026-10-08 12:01 UTC
+
+- Units and grammar cards: s5-u01 (24 word records): 毕竟; 明明; 倒是; 尽管…但是 / 仍然…; 不是…，而是… with a specific concern | s5-u02 (24 word records): X归X，Y…; 再…也…; 动词 / 形容词 + 得 + clause; 在…看来; 先…还是…再…? | s5-u03 (24 word records): 随着…，…; 不是…，而是…; 既…，也…; 不一定…; 把…带进 / 装进… | s5-u04 (24 word records): 直到…才…; 原来…; 再…也不 / 没…; 不然…; 把A当成B. Word records include retrieval and are not all newly distinct source entries.
+- Self-review and applied fixes are recorded in each authored pack. Removed unused blank/distractor audio demands by matching the actual study/playback screen; every playable sentence still requires its recording or the owner-approved dated exception. Cached shared MP3s now have real completed-playback checks on every tap.
+- All eight receipt checks passed: packs/pinyin/readability, types, content/audio, unit tests, playback review, development browser, build, production offline browser. Receipt: output/gates/batch-42-final-receipt.json.
+- Sayo audio was generated, screened, genuinely repaired and installed before these gates. Unresolved exceptions remain dated, unreviewed device-speech fallbacks. No native or proficiency approval is claimed.
+- Native flags: teasing/register, longer singing and moving readings, connected-tone delivery. First four HSK 5 readings also have the separately prepared editorial batch 63 queued; this acceptance does not claim that later revision has passed.
+- Acceptance is local; commit, push and deployment are separate.
+
+## Sequential advanced publication repair — 8 October 2026
+
+- Batch 43 initially failed the unchanged pack gate: s5-u05 lacked a meaning
+  for 圈, which blocked the later units' prerequisites. Added the contextual
+  circle/mark gloss in its canonical authored editorial layer before audio.
+- The former combined draft preflight could borrow meanings from future units.
+  The isolated first-publication fixture now runs both pack and pinyin gates
+  after each four-unit prefix, with the real dictionary and stroke references.
+  It found and repaired later missing glosses for 傍晚, 逼, 堆 and 盯.
+- Applied contextual pinyin repairs for 交还, 盯着 and modal 还是得 / 这回得;
+  returning a borrowed object is huán, whereas still/yet stays hái. Clarified
+  several not-yet-published return phrases with 还回去 / 归还 / 送回去.
+  The unchanged later object-return contexts also have explicit readings.
+- All five sequential advanced prefix pack/pinyin checks now pass in isolated
+  draft copies. This is preparation, not audio or batch acceptance. The live
+  application was not changed by those fixture runs.
+- Native tone and naturalness review remains pending; exact return-object
+  lines are included in the native-review candidates rather than certified.
+
+## Connected-reading timing repair queued — 8 October 2026
+
+- Self-review of s5-u05–u08 caught two timeline ambiguities. The first singing date in s5-u05 now says next week, matching the second-week cancellation and alternate-week plan. The s5-u06 main reading now explicitly places the confirming message before nine, matching its detail question.
+- Changes are authored in parity-repair-16.py. The already-running audio batch retains its original manifest; editorial batch 64 will install these two corrected paragraphs, update referenced tasks, regenerate their audio and rerun all eight gates before the final release. This is preparation, not acceptance.
+- The actual sequential pack/pinyin preflight passed at all five unpublished advanced prefixes with these corrections: output/advanced-sequential-publication-check-v4.log. Native review is still pending; no gate was weakened.
+
+## Contextual 得 correction prepared — 8 October 2026
+
+- An editorial audit found 357 pinyin fields across 69 packs in the combined current/future isolated corpus where 得 inherited the wrong dictionary reading. Distinguish complement de, modal děi and lexical dé. 舍不得 and 怪不得 also get the neutral bound citation forms. Preserve every other authored syllable, including telephone yāo, erhua, punctuation, Chinese text, IDs and answer keys.
+- The shared contextual rule set explicitly reports unknown contexts rather than silently approving them. Four Python alignment/preservation fixtures and four TypeScript regression fixtures passed. The isolated future-publication check passed packs, dictionary pinyin and the contextual check at all five four-unit prefixes: output/advanced-sequential-publication-check-v5.log.
+- Batch 43's running synthesis retains its fixed manifest. Before its final acceptance checks, the preparation hook will correct the actual corpus, rebuild the manifest and refresh the generation plan, cached screening, mastering and review provenance. All eight acceptance checks will then run normally. This paragraph records preparation, not installation or release.
+- Recorded contextual 得 and returning-object 还 lines remain exact native-review candidates. Automated speech transcription cannot certify tone accuracy; no line is newly marked native-reviewed by this repair.
+
+- Publication order refined: editorial batches 63–64 now run before the HSK 5 release, so the known date/question fixes do not wait for a later deployment. The remaining default editorial run ends at batch 62; batches 63–64 retain their full eight acceptance checks before HSK 5 ships. No audio or content gate is skipped.
+
+- A second semantic pass caught 找得到 in s5-u01: potential “can find” takes neutral de, unlike lexical 得到 “obtain” dé. Added an explicit potential-complement distinction and a separate regression in both runtimes (now five fixtures each). All five isolated advanced prefixes passed again with that distinction: output/advanced-sequential-publication-check-v6.log. The actual-corpus correction report will record the final installed field count.
+
+- Pre-publication HSK 5 vocabulary self-review also corrected four examples: 难得 uses 在同一天下午都有空; 神情 changes naturally rather than “认真起来”; 客气 uses a dinner invitation; 失误 describes the salty soup without a blanket judgment about the cook. Sources s5-u09/u11 are revised before their first audio generation; subsequent strict prefix and batch gates still apply. No existing teaching or assessment ID changes.
+
+- Final preparation order supersedes the earlier queued batch-64 timing plan: source 16's two date paragraphs will install in batch 43's pre-gate hook, after its in-flight generation finishes. The hook rebuilds the manifest, generates/screens the changed takes, runs genuine repair and deferral steps, masters/reviews, then runs all eight batch-43 gates. Thus no known date ambiguity is locally accepted first. HSK 5 release still runs editorial batch 63; separate batch 64 is no longer required, because its exact source is installed before batch 43 acceptance. Native review remains separate.
+
+### Queued editorial preflight — 8 October 2026
+
+- Tested the next advanced publication prefixes and the later editorial revisions in isolated local copies; this preparation does not accept app batches or recordings.
+- HSK 5 unit 1 revision: replaced a stale lost-hour true/false claim with the actual shelf arrangement; changed the reading question to the later dinner update; aligned the mover's she/her references, linked task and gap-fill. Existing task IDs and the false key remain valid.
+- Added local meanings in later readings where removing artificial earlier vocabulary-heavy scenes removed incidental definition support. Examples include 平稳, 小厅, 摆, 区域, 估计, 挪, 稿子, 反馈 and 触动; ambiguous 弹/挑/藏 glossary readings are stated explicitly. No Chinese sentence is retained merely to satisfy coverage.
+- Contextual 得 rules now include reviewed 改得早 and 高兴得 contexts. Dictionaries and ASR still do not independently certify recorded tones.
+- Preparation evidence is under output/advanced-sequential-publication-check-v*.log and its preserved isolated roots. Each actual audio batch still needs all eight passing gates before acceptance or release.
+
+- Isolated editorial preparation completed: output/advanced-sequential-publication-check-v21.log passes five advanced first-publication prefixes and all twelve queued source 03–14 revisions. All three content checks ran for each prefix/revision: pack/readability, dictionary pinyin and contextual 得. The app corpus and audio acceptance were not changed by this isolated check. Native review remains pending.
+
+- Final isolated preflight v22 also passed all five advanced publication prefixes and source 03–14 editorial revisions after the s5-u05 naturalness fix: 暂时跟不上 replaces awkward 听不住; the newcomer asks about next week rather than the narrator declaring the newcomer's feelings. Timed departure remains 8:30, and the passage questions remain supported. This third changed paragraph is part of batch 43's preparation hook and will be regenerated and screened before acceptance. Evidence: output/advanced-sequential-publication-check-v22.log. Python and TypeScript contextual-reading fixtures each pass six tests.
+
+- Final preflight v25 passes the same five advanced prefixes and all twelve queued editorial revisions after further HSK 5/6 naturalness review. s5-u12 now ends with two friends sharing the full/short video and replaying their preferred details. s6-u12's musician account replaces test/answer-policy leakage with concrete singing, staging, packing and next-day messages; its old true/false task retains its ID/false key and now checks that Lin An leaves without opening the letter. Related questions use passage-grounded distractors. Added the actual 拔 meaning for unplugging a cable. The new recordings and actual eight-gate acceptance are still pending; no native review is claimed. Evidence: output/advanced-sequential-publication-check-v25.log.
+
+### Contextual neutral de transcription fix — 8 October 2026
+
+The audio screen previously compared 地→的 only with one token per space, so ordinary word-spaced pinyin such as rènzhēn could not align. It also omitted complement 得→的 even after the independent contextual checker corrected the displayed reading. The screen now parses actual syllables and accepts only the same aligned neutral de spelling difference. 得 additionally requires the reviewed contextual rule to resolve de; modal děi and lexical dé remain failures even if a supplied pinyin field incorrectly says de. Missing syllables, other changed words, ground dì and 小孩儿 omission still fail the fixtures. Five Python tests passed (output/contextual-de-screen-fixtures.log). Existing raw recordings and cached transcripts are preserved. The next complete screening pass reevaluates negative results under this narrow orthographic rule; no recorded-tone or native approval is granted, and all release gates still run.
+
+- Contextual 得 correction accepted with batch 43: 206 fields in 52 current packs changed; its Chinese, IDs, answer keys and other syllables preserved. The separately authored s5-u05/u06 date fixes also installed before acceptance, with changed audio regenerated, screened and genuinely repaired. Manifest and exact audio provenance refreshed; all eight gates passed. Native recorded-tone review remains pending. Evidence: output/contextual-de-corrections.json and output/gates/batch-43-final-receipt.json.
+
+## Advanced batch 43 accepted locally — 2026-10-08 15:44 UTC
+
+- Units: s5-u05 (24 word records), s5-u06 (24 word records), s5-u07 (24 word records), s5-u08 (24 word records). Word records include retrieval; they are not all new distinct source entries.
+- Grammar cards actually present: s5-u05: 既然…，就…; 除非…，否则…; V下去; …为的是…; 不是…就… | s5-u06: 怎么…也 / 都不…; X归X，…; A的A，B的B; 为的是…，不是…; …得… | s5-u07: 拿…来说; 以便…; 尽管…，但是…; 一旦…，就…; V下来 / V起来 | s5-u08: 除非…，才…; 从而…; 一…，就…; 或是…; 共计…，包括…. Manual source-family crosswalk remains separate.
+- Self-review and applied content fixes: recorded in each pack's notes and its authored source. Readability/pinyin problems were repaired before publication; no non-audio gate was relaxed.
+- All eight receipt checks passed: packs/pinyin/readability, types, content/audio, unit tests, playback review, development browser tests, build, and production offline browser tests. Receipt: output/gates/batch-43-final-receipt.json.
+- Sayo takes were generated, screened and genuinely repaired; unresolved takes are dated unreviewed exceptions under the owner's audio-only policy. Device speech is not labelled Sayo.
+- Native review remains pending for every newly authored line, with particular flags in each pack's notes. No synthetic check certifies natural tone or learner mastery.
+- Acceptance is local. A commit, push or deployment must be reported separately after it actually succeeds.
+
+### Batch 44 content review while recording — 8 October 2026
+
+Read the installed s5-u09–u12 question keys and the source-17 editorial changes. The four units contain 96 word records and twenty grammar cards; these counts include retrieval and are not new distinct inventory coverage. Interview questions preserve the six-to-ten attendance comparison and the one-hour session; the opinion unit distinguishes 64 visits from unique visitors and 16 combined staff-hours. Soup dialogue retains three distinct speakers, the double salt addition, a stop request and the cook's later bowl joke. Full/short video questions preserve the letter box, lit lamp, window opening and final pen action; no reunion is invented. The editorial layer removes policy-like explanations from actual speech and replaces them with concrete actions. Native review is still needed for ironic praise, X什么X force, the salt-bowl comeback and original verse delivery. Recording is in progress; this note is self-review evidence, not batch acceptance or native approval.
+
+## Advanced batch 44 accepted locally — 2026-10-08 19:09 UTC
+
+- Units: s5-u09 (24 word records), s5-u10 (24 word records), s5-u11 (24 word records), s5-u12 (24 word records). Word records include retrieval; they are not all new distinct source entries.
+- Grammar cards actually present: s5-u09: 拿…来说; 尽管…，还是…; 在…看来; 只凭…，难以…; 先…，再… | s5-u10: 并不…; 即使…，也…; 没有…，就没有…; 尽管…，但…; 凭… / 依据… | s5-u11: 居然…; 明明…，却/还…; 可 + assertion/negative; 真有你的; X什么X | s5-u12: 随着…; 不一定 / 未必; 把…当成…; 既…也…; 跟…相比…. Manual source-family crosswalk remains separate.
+- Self-review and applied content fixes: recorded in each pack's notes and its authored source. Readability/pinyin problems were repaired before publication; no non-audio gate was relaxed.
+- All eight receipt checks passed: packs/pinyin/readability, types, content/audio, unit tests, playback review, development browser tests, build, and production offline browser tests. Receipt: output/gates/batch-44-final-receipt.json.
+- Sayo takes were generated, screened and genuinely repaired; unresolved takes are dated unreviewed exceptions under the owner's audio-only policy. Device speech is not labelled Sayo.
+- Native review remains pending for every newly authored line, with particular flags in each pack's notes. No synthetic check certifies natural tone or learner mastery.
+- Acceptance is local. A commit, push or deployment must be reported separately after it actually succeeds.
+
+## Editorial batch 63 accepted locally — 2026-10-08 20:06 UTC
+
+- s5-u01: 24 existing word records; grammar: 毕竟; 明明; 倒是; 尽管…但是 / 仍然…; 不是…，而是… with a specific concern. Applied fixes and native flags: 2026-10-08 advanced reading self-review: Moving and singing readings now recount observable actions, ordinary banter and follow-up plans. Removed repeated friendship guarantees, consent analysis and grand claims from the narrator. Lyric discussion remains literary interpretation; its two readings and uncertain addressee are preserved. Corrected Lin An pronoun continuity in the drama summary. Retained all tested times, two missed words, two short performances and original question/task IDs. Native flags: 搬家连水都不肯扔 banter, 抬桌子/收材料 collocations, 鼓掌 misunderstanding and lyric interpretations. Native review pending.
+- s5-u02: 24 existing word records; grammar: X归X，Y…; 再…也…; 动词 / 形容词 + 得 + clause; 在…看来; 先…还是…再…?. Applied fixes and native flags: 2026-10-08 advanced reading self-review: Moving and singing readings now recount observable actions, ordinary banter and follow-up plans. Removed repeated friendship guarantees, consent analysis and grand claims from the narrator. Lyric discussion remains literary interpretation; its two readings and uncertain addressee are preserved. Corrected Lin An pronoun continuity in the drama summary. Retained all tested times, two missed words, two short performances and original question/task IDs. Native flags: 搬家连水都不肯扔 banter, 抬桌子/收材料 collocations, 鼓掌 misunderstanding and lyric interpretations. Native review pending.
+- s5-u03: 24 existing word records; grammar: 随着…，…; 不是…，而是…; 既…，也…; 不一定…; 把…带进 / 装进…. Applied fixes and native flags: 2026-10-08 advanced reading self-review: Moving and singing readings now recount observable actions, ordinary banter and follow-up plans. Removed repeated friendship guarantees, consent analysis and grand claims from the narrator. Lyric discussion remains literary interpretation; its two readings and uncertain addressee are preserved. Corrected Lin An pronoun continuity in the drama summary. Retained all tested times, two missed words, two short performances and original question/task IDs. Native flags: 搬家连水都不肯扔 banter, 抬桌子/收材料 collocations, 鼓掌 misunderstanding and lyric interpretations. Native review pending.
+- s5-u04: 24 existing word records; grammar: 直到…才…; 原来…; 再…也不 / 没…; 不然…; 把A当成B. Applied fixes and native flags: 2026-10-08 advanced reading self-review: Moving and singing readings now recount observable actions, ordinary banter and follow-up plans. Removed repeated friendship guarantees, consent analysis and grand claims from the narrator. Lyric discussion remains literary interpretation; its two readings and uncertain addressee are preserved. Corrected Lin An pronoun continuity in the drama summary. Retained all tested times, two missed words, two short performances and original question/task IDs. Native flags: 搬家连水都不肯扔 banter, 抬桌子/收材料 collocations, 鼓掌 misunderstanding and lyric interpretations. Native review pending.
+- Existing unit, word and task IDs are preserved. Believable scenes and independent word examples replace coverage stuffing and policy/grammar analysis inside speech. Related later glossary dependencies gained definitions without changing their lines.
+- All eight strict gates passed: output/gates/batch-63-final-receipt.json. Changed audio was generated, screened, genuinely repaired and installed; dated unresolved exceptions remain unreviewed.
+- Native review remains pending. No automatic test establishes naturalness, accent certification or learner mastery. This receipt is local acceptance, not deployment.
+

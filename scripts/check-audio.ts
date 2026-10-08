@@ -5,6 +5,7 @@ import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks } from "../src/pack-content";
 import { collectAudioScripts } from "./audio-manifest";
 import { isDeferred } from "./audio-deferred";
+import { verifyReleasedAudio } from "./audio-compatibility";
 
 const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
 const assets = read("src/audio-assets.json") as Record<
@@ -78,7 +79,11 @@ for (const [file, record] of files) {
   const hash = createHash("sha256").update(readFileSync(file)).digest("hex");
   if (hash !== record.sha256) issues.push(`Changed audio: ${file}`);
 }
+const retained = existsSync("content/voices/released-audio-compatibility.json")
+  ? verifyReleasedAudio(process.cwd(), read("content/voices/released-audio-compatibility.json"))
+  : 0;
 if (issues.length) throw new Error(issues.join("\n"));
+if (retained) console.log(`${retained} retained release clips match their committed hashes; excluded from current coverage.`);
 if (deferred.size)
   console.warn(
     `⚠ ${deferred.size} texts ship without a Sayo clip by owner decision (content/voices/audio-deferred.json); the device voice reads them.`,

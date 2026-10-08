@@ -1,0 +1,1723 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s5-u05",
+    "stage": 3,
+    "order": 125,
+    "title": "A plan with room for friends",
+    "titleZh": "不是每一次，都要到",
+    "canDo": [
+      "Explain a realistic trade-off between study, rest and social plans",
+      "Offer a limited commitment without implying permanent withdrawal",
+      "Compare personal gains and the costs of a packed schedule"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 5
+    },
+    "prerequisites": [
+      "s5-u04",
+      "s5-u04-usage"
+    ],
+    "estimatedMinutes": 90
+  },
+  "vocabulary": [
+    {
+      "id": "s5-u05-w01",
+      "hanzi": "不利",
+      "pinyin": "bù lì",
+      "meaning": "unfavourable; disadvantageous",
+      "meaningVi": "bất lợi",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "每天睡得太晚，对第二天的学习不利。",
+        "py": "měi tiān shuì de tài wǎn , duì dì èr tiān de xué xí bù lì .",
+        "en": "Sleeping too late every day is bad for the following day’s study."
+      },
+      "usageNote": "[GF2021:L5:535] Source entry: 不利; búlì; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u05-w02",
+      "hanzi": "犹豫",
+      "pinyin": "yóu yù",
+      "meaning": "hesitate",
+      "meaningVi": "do dự",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我犹豫要不要每次都参加。",
+        "py": "wǒ yóu yù yào bù yào měi cì dōu cān jiā .",
+        "en": "I’m unsure whether to join every time."
+      },
+      "usageNote": "[GF2021:L5:9846] Source entry: 犹豫; yóuyù; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u05-w03",
+      "hanzi": "预期",
+      "pinyin": "yù qī",
+      "meaning": "expectation",
+      "meaningVi": "kỳ vọng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "计划太满，结果常和预期不同。",
+        "py": "jì huà tài mǎn , jié guǒ cháng hé yù qī bù tóng .",
+        "en": "When the plan is too full, the result often differs from expectations."
+      },
+      "usageNote": "[GF2021:L5:9962] Source entry: 预期; yùqī; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u05-w04",
+      "hanzi": "充足",
+      "pinyin": "chōng zú",
+      "meaning": "sufficient; ample",
+      "meaningVi": "đầy đủ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "我需要留出充足的休息时间。",
+        "py": "wǒ xū yào liú chū chōng zú de xiū xī shí jiān .",
+        "en": "I need to leave enough time to rest."
+      },
+      "usageNote": "[GF2021:L5:1062] Source entry: 充足; chōngzú; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u05-w05",
+      "hanzi": "不足",
+      "pinyin": "bù zú",
+      "meaning": "insufficient; shortcoming",
+      "meaningVi": "không đủ; thiếu sót",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "睡眠不足的时候，我很难听进去。",
+        "py": "shuì mián bù zú de shí hou , wǒ hěn nán tīng jìn qù .",
+        "en": "When I haven’t slept enough, I struggle to take things in."
+      },
+      "usageNote": "[GF2021:L5:642] Source entry: 不足; bùzú; 形、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u05-w06",
+      "hanzi": "减轻",
+      "pinyin": "jiǎn qīng",
+      "meaning": "reduce; ease",
+      "meaningVi": "giảm bớt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 5,
+      "example": {
+        "zh": "少安排一个晚上，能减轻一点压力。",
+        "py": "shǎo ān pái yī gè wǎn shang , néng jiǎn qīng yī diǎn yā lì .",
+        "en": "Scheduling one fewer evening can ease the pressure a little."
+      },
+      "usageNote": "[GF2021:L5:3948] Source entry: 减轻; jiǎnqīng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s5-u05-w07",
+      "hanzi": "效率",
+      "pinyin": "xiào lǜ",
+      "meaning": "efficiency",
+      "meaningVi": "hiệu suất",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "不是坐得越久，效率就越高。",
+        "py": "bù shì zuò de yuè jiǔ , xiào lǜ jiù yuè gāo .",
+        "en": "Spending longer seated doesn’t necessarily make you more efficient."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w08",
+      "hanzi": "精力",
+      "pinyin": "jīng lì",
+      "meaning": "energy",
+      "meaningVi": "sức lực",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我晚上没有那么多精力。",
+        "py": "wǒ wǎn shang méi yǒu nà me duō jīng lì .",
+        "en": "I don’t have that much energy in the evening."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w09",
+      "hanzi": "节省",
+      "pinyin": "jié shěng",
+      "meaning": "save; economise",
+      "meaningVi": "tiết kiệm",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "早点把地点说清楚，能节省找路的时间。",
+        "py": "zǎo diǎn bǎ dì diǎn shuō qīng chǔ , néng jié shěng zhǎo lù de shí jiān .",
+        "en": "Clarifying the location early can save time finding the way."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w10",
+      "hanzi": "投入",
+      "pinyin": "tóu rù",
+      "meaning": "put in; invest time or effort",
+      "meaningVi": "đầu tư",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这段练习已经投入不少时间。",
+        "py": "zhè duàn liàn xí yǐ jīng tóu rù bù shǎo shí jiān .",
+        "en": "I’ve already put quite a lot of time into practising this section."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w11",
+      "hanzi": "有限",
+      "pinyin": "yǒu xiàn",
+      "meaning": "limited",
+      "meaningVi": "có hạn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "时间有限，我得先选最想做的。",
+        "py": "shí jiān yǒu xiàn , wǒ děi xiān xuǎn zuì xiǎng zuò de .",
+        "en": "With limited time, I need to choose what I most want to do first."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w12",
+      "hanzi": "长期",
+      "pinyin": "cháng qī",
+      "meaning": "long term",
+      "meaningVi": "dài hạn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我想找一个能长期继续的办法。",
+        "py": "wǒ xiǎng zhǎo yī gè néng cháng qī jì xù de bàn fǎ .",
+        "en": "I want a method I can sustain long term."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w13",
+      "hanzi": "短期",
+      "pinyin": "duǎn qī",
+      "meaning": "short term",
+      "meaningVi": "ngắn hạn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是短期调整，不是以后都不去了。",
+        "py": "zhè shì duǎn qī tiáo zhěng , bù shì yǐ hòu dōu bù qù le .",
+        "en": "This is a short-term adjustment, not never going again."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w14",
+      "hanzi": "范围",
+      "pinyin": "fàn wéi",
+      "meaning": "range; scope",
+      "meaningVi": "phạm vi",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今天先把练习范围缩小到两段。",
+        "py": "jīn tiān xiān bǎ liàn xí fàn wéi suō xiǎo dào liǎng duàn .",
+        "en": "Let’s limit today’s practice to two sections."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w15",
+      "hanzi": "收获",
+      "pinyin": "shōu huò",
+      "meaning": "gain; what one gets from an experience",
+      "meaningVi": "thu hoạch",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我今天的收获是终于和新朋友聊起来了。",
+        "py": "wǒ jīn tiān de shōu huò shì zhōng yú hé xīn péng you liáo qǐ lái le .",
+        "en": "My gain today was finally chatting with a new friend."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w16",
+      "hanzi": "调整",
+      "pinyin": "tiáo zhěng",
+      "meaning": "adjust",
+      "meaningVi": "điều chỉnh",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "试两周以后，我们再调整时间。",
+        "py": "shì liǎng zhōu yǐ hòu , wǒ men zài tiáo zhěng shí jiān .",
+        "en": "After trying it for two weeks, we’ll adjust the schedule."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w17",
+      "hanzi": "规律",
+      "pinyin": "guī lǜ",
+      "meaning": "regular pattern; regularity",
+      "meaningVi": "quy luật; đều đặn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我想把作息变得规律一点。",
+        "py": "wǒ xiǎng bǎ zuò xī biàn de guī lǜ yī diǎn .",
+        "en": "I want a slightly more regular routine."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w18",
+      "hanzi": "自觉",
+      "pinyin": "zì jué",
+      "meaning": "self-aware; act of one’s own accord",
+      "meaningVi": "tự giác",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "没人提醒，我也会自觉记下没听懂的地方。",
+        "py": "méi rén tí xǐng , wǒ yě huì zì jué jì xià méi tīng dǒng de dì fāng .",
+        "en": "Without a reminder, I note down the parts I don’t understand."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w19",
+      "hanzi": "坚持",
+      "pinyin": "jiān chí",
+      "meaning": "persist; keep doing",
+      "meaningVi": "kiên trì",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我想坚持练，不是每次都练到没力气。",
+        "py": "wǒ xiǎng jiān chí liàn , bù shì měi cì dōu liàn dào méi lì qì .",
+        "en": "I want to keep practising, not exhaust myself each time."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w20",
+      "hanzi": "方案",
+      "pinyin": "fāng àn",
+      "meaning": "plan; proposed approach",
+      "meaningVi": "phương án",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个方案保留了周六见面的时间。",
+        "py": "zhè gè fāng àn bǎo liú le zhōu liù jiàn miàn de shí jiān .",
+        "en": "This plan keeps Saturday available for meeting."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w21",
+      "hanzi": "压力",
+      "pinyin": "yā lì",
+      "meaning": "pressure",
+      "meaningVi": "áp lực",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "把每个晚上都安排满，我反而有压力。",
+        "py": "bǎ měi gè wǎn shang dōu ān pái mǎn , wǒ fǎn ér yǒu yā lì .",
+        "en": "Filling every evening actually puts pressure on me."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w22",
+      "hanzi": "独立",
+      "pinyin": "dú lì",
+      "meaning": "independent; independently",
+      "meaningVi": "độc lập",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "有些内容我能独立练，有些需要一起聊。",
+        "py": "yǒu xiē nèi róng wǒ néng dú lì liàn , yǒu xiē xū yào yì qǐ liáo .",
+        "en": "Some things I can practise independently; others need conversation."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w23",
+      "hanzi": "目标",
+      "pinyin": "mù biāo",
+      "meaning": "goal",
+      "meaningVi": "mục tiêu",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我的目标是能参加聊天，不只是做完题。",
+        "py": "wǒ de mù biāo shì néng cān jiā liáo tiān , bù zhǐ shì zuò wán tí .",
+        "en": "My goal is joining conversations, not just finishing questions."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s5-u05-w24",
+      "hanzi": "合理",
+      "pinyin": "hé lǐ",
+      "meaning": "reasonable",
+      "meaningVi": "hợp lý",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个安排听起来合理，但得试了才知道。",
+        "py": "zhè gè ān pái tīng qǐ lái hé lǐ , dàn děi shì le cái zhī dào .",
+        "en": "This schedule sounds reasonable, but we’ll need to try it."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s5-u05-g01",
+      "pattern": "既然…，就…",
+      "purpose": "Connect a known condition to a proposed decision",
+      "explanation": "既然 treats the first point as accepted information; 就 introduces a response to it. It can propose a decision without making that decision universal.",
+      "examples": [
+        {
+          "zh": "既然周一有课，就先不加活动了。",
+          "py": "jì rán zhōu yī yǒu kè , jiù xiān bù jiā huó dòng le .",
+          "en": "Since there is class on Monday, let us not add an activity then."
+        },
+        {
+          "zh": "既然路上要半小时，就给回家留点时间。",
+          "py": "jì rán lù shàng yào bàn xiǎo shí , jiù gěi huí jiā liú diǎn shí jiān .",
+          "en": "Since the trip takes half an hour, leave some time to get home."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "既然周一有课，但是就先不加活动了。",
+          "right": "既然周一有课，就先不加活动了。",
+          "why": "For this reason-to-decision pair, use 就; do not insert a contrasting 但是."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u05-g02",
+      "pattern": "除非…，否则…",
+      "purpose": "Set an exception to a default intention",
+      "explanation": "除非 names the exception; 否则 introduces what will hold if it does not arise. Distinguish this from 除非…才…, where a condition is necessary for an action.",
+      "examples": [
+        {
+          "zh": "除非临时加班，否则我周六会来。",
+          "py": "chú fēi lín shí jiā bān , fǒu zé wǒ zhōu liù huì lái .",
+          "en": "Unless overtime comes up, I will come Saturday."
+        },
+        {
+          "zh": "除非时间改了，否则我还是六点到。",
+          "py": "chú fēi shí jiān gǎi le , fǒu zé wǒ hái shi liù diǎn dào .",
+          "en": "Unless the time changes, I will still arrive at six."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除非临时加班，否则我一定永远不用上班。",
+          "right": "除非临时加班，否则我周六会来。",
+          "why": "The stated exception concerns this Saturday, not all future work."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u05-g03",
+      "pattern": "V下去",
+      "purpose": "Describe continuation rather than direction",
+      "explanation": "With an ongoing activity, 下去 can mean continue. It need not describe moving physically downward.",
+      "examples": [
+        {
+          "zh": "我想用这个办法练下去。",
+          "py": "wǒ xiǎng yòng zhè gè bàn fǎ liàn xià qù .",
+          "en": "I want to keep practising this way."
+        },
+        {
+          "zh": "这样忙下去，我怕坚持不了。",
+          "py": "zhè yàng máng xià qù , wǒ pà jiān chí bù le .",
+          "en": "If I keep being this busy, I fear I cannot sustain it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我想练下去，所以必须到楼下。",
+          "right": "我想用这个办法练下去。",
+          "why": "The complement indicates continued practice, not a required location downstairs."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u05-g04",
+      "pattern": "…为的是…",
+      "purpose": "Make a purpose explicit",
+      "explanation": "为的是 introduces the intention behind an action. Achieving that intended result is a separate question.",
+      "examples": [
+        {
+          "zh": "我留出周六，为的是和大家聊起来。",
+          "py": "wǒ liú chū zhōu liù , wèi de shì hé dà jiā liáo qǐ lái .",
+          "en": "I keep Saturday available in order to start talking with everyone."
+        },
+        {
+          "zh": "先读两句，为的是到现场能问清楚问题。",
+          "py": "xiān dú liǎng jù , wèi de shì dào xiàn chǎng néng wèn qīng chǔ wèn tí .",
+          "en": "I read two lines first so I can ask clearly about them at the event."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我留出周六，为的是和大家聊起来，所以已经聊得很好。",
+          "right": "我留出周六，为的是和大家聊起来。",
+          "why": "A purpose does not by itself establish that the desired result has happened."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s5-u05-g05",
+      "pattern": "不是…就…",
+      "purpose": "Describe an exhaustive pair in a particular context",
+      "explanation": "不是A就是B can present two alternatives covering the relevant possibilities. Use it only when the situation really supports that restriction.",
+      "examples": [
+        {
+          "zh": "这两周的周四，我不是上课就是唱歌。",
+          "py": "zhè liǎng zhōu de zhōu sì , wǒ bù shì shàng kè jiù shì chàng gē .",
+          "en": "On Thursdays these two weeks I am either at class or singing."
+        },
+        {
+          "zh": "今晚不是在家练，就是去活动。",
+          "py": "jīn wǎn bù shì zài jiā liàn , jiù shì qù huó dòng .",
+          "en": "Tonight it is either practice at home or the event."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不是参加就是不参加，所以每天都只能有两种生活。",
+          "right": "今晚不是在家练，就是去活动。",
+          "why": "Restrict the alternatives to this evening; two stated options do not cover all of life."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s5-u05-d",
+    "title": "不是每一次，都要到",
+    "titleZh": "不是每一次，都要到",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "这周三次活动你都来吗？",
+        "py": "zhè zhōu sān cì huó dòng nǐ dōu lái ma ?",
+        "en": "Are you coming to all three activities this week?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我想来，不过周一和周三已经有课，三个晚上再出门有点多。",
+        "py": "wǒ xiǎng lái , bù guò zhōu yī hé zhōu sān yǐ jīng yǒu kè , sān gè wǎn shang zài chū mén yǒu diǎn duō .",
+        "en": "I’d like to, but I already have classes Monday and Wednesday. Three more evenings out is a lot.",
+        "speaker": "b"
+      },
+      {
+        "zh": "周二看电影，周四唱歌，周六吃饭，你最想留哪个？",
+        "py": "zhōu èr kàn diàn yǐng , zhōu sì chàng gē , zhōu liù chī fàn , nǐ zuì xiǎng liú nǎ gè ?",
+        "en": "Film Tuesday, singing Thursday, dinner Saturday. Which do you most want to keep?",
+        "speaker": "a"
+      },
+      {
+        "zh": "周六吧。我上次一直听，想这次跟大家聊起来。",
+        "py": "zhōu liù ba . wǒ shàng cì yì zhí tīng , xiǎng zhè cì gēn dà jiā liáo qǐ lái .",
+        "en": "Saturday. Last time I mostly listened; I’d like to chat with everyone this time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那电影和唱歌都先不来了？",
+        "py": "nà diàn yǐng hé chàng gē dōu xiān bù lái le ?",
+        "en": "So are you skipping both the film and singing for now?",
+        "speaker": "a"
+      },
+      {
+        "zh": "电影这周先不去，唱歌我隔周来一次，行不行？",
+        "py": "diàn yǐng zhè zhōu xiān bù qù , chàng gē wǒ gé zhōu lái yī cì , xíng bù xíng ?",
+        "en": "I’ll skip the film this week and come to singing every other week. Would that work?",
+        "speaker": "b"
+      },
+      {
+        "zh": "当然。你不用每次都到。",
+        "py": "dāng rán . nǐ bù yòng měi cì dōu dào .",
+        "en": "Of course. You don’t have to be there every time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我就是怕不常来，大家很快就不认识我了。",
+        "py": "wǒ jiù shì pà bù cháng lái , dà jiā hěn kuài jiù bù rèn shi wǒ le .",
+        "en": "I’m worried that if I don’t come often, everyone will quickly forget me.",
+        "speaker": "b"
+      },
+      {
+        "zh": "上次那个来得最少的人，你还记得吧？",
+        "py": "shàng cì nà gè lái de zuì shǎo de rén , nǐ hái jì de ba ?",
+        "en": "You remember the person who came least often last time, don’t you?",
+        "speaker": "a"
+      },
+      {
+        "zh": "记得，那个会给每道菜起名字的。",
+        "py": "jì de , nà gè huì gěi měi dào cài qǐ míng zi de .",
+        "en": "Yes, the one who gave every dish a name.",
+        "speaker": "b"
+      },
+      {
+        "zh": "对，我们也记得你把辣椒当青菜的那次。",
+        "py": "duì , wǒ men yě jì de nǐ bǎ là jiāo dāng qīng cài de nà cì .",
+        "en": "Right. And we remember the time you mistook the chilli for a green vegetable.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个记忆能不能删掉？",
+        "py": "zhè gè jì yì néng bù néng shān diào ?",
+        "en": "Could you delete that memory?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不能。不过下次我先提醒你。",
+        "py": "bù néng . bù guò xià cì wǒ xiān tí xǐng nǐ .",
+        "en": "No. But next time I’ll warn you first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢，终于有一点实际帮助。周六我六点到，八点半回去。",
+        "py": "xiè xiè , zhōng yú yǒu yī diǎn shí jì bāng zhù . zhōu liù wǒ liù diǎn dào , bā diǎn bàn huí qù .",
+        "en": "Thanks, finally some practical help. I’ll arrive at six Saturday and head home at half eight.",
+        "speaker": "b"
+      },
+      {
+        "zh": "太早了吗？我们一般聊到九点。",
+        "py": "tài zǎo le ma ? wǒ men yì bān liáo dào jiǔ diǎn .",
+        "en": "Is that too early? We usually talk until nine.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我第二天想早点练，路上还要半小时。先试两周吧。",
+        "py": "wǒ dì èr tiān xiǎng zǎo diǎn liàn , lù shàng hái yào bàn xiǎo shí . xiān shì liǎng zhōu ba .",
+        "en": "I’d like to practise early the next day, and the journey takes half an hour. Let’s try it for two weeks.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，要走就说一声，不用等大家一起。",
+        "py": "hǎo , yào zǒu jiù shuō yī shēng , bù yòng děng dà jiā yì qǐ .",
+        "en": "Okay. Let us know when you leave; no need to wait for everyone.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那我先这样安排，不把下个月也一次定死。",
+        "py": "nà wǒ xiān zhè yàng ān pái , bù bǎ xià gè yuè yě yī cì dìng sǐ .",
+        "en": "I’ll schedule it like that for now without fixing all of next month at once.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "隔周",
+        "pinyin": "gé zhōu",
+        "meaning": "every other week"
+      },
+      {
+        "hanzi": "定死",
+        "pinyin": "dìng sǐ",
+        "meaning": "fix rigidly"
+      },
+      {
+        "hanzi": "辣椒",
+        "pinyin": "là jiāo",
+        "meaning": "chilli pepper"
+      },
+      {
+        "hanzi": "青菜",
+        "pinyin": "qīng cài",
+        "meaning": "green leafy vegetables"
+      },
+      {
+        "hanzi": "删掉",
+        "pinyin": "shān diào",
+        "meaning": "delete; cross out"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the learner settle on?",
+        "choices": [
+          "Saturday dinner and alternate-week singing",
+          "All three activities every week indefinitely",
+          "No contact with friends again"
+        ],
+        "answer": "Saturday dinner and alternate-week singing"
+      },
+      {
+        "type": "detail",
+        "q": "What time will the learner leave Saturday dinner?",
+        "choices": [
+          "8:30",
+          "Six when it begins",
+          "Midnight"
+        ],
+        "answer": "8:30"
+      },
+      {
+        "type": "inference",
+        "q": "Why try two weeks rather than fix next month?",
+        "choices": [
+          "To see whether the plan actually fits energy and conversation goals",
+          "To prove all activities are useless",
+          "To prevent any later adjustment"
+        ],
+        "answer": "To see whether the plan actually fits energy and conversation goals"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s5-u05-r",
+    "title": "不是每一次，都要到",
+    "titleZh": "不是每一次，都要到",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "朋友发来三次活动的时间，我看了一眼就想全部答应。周二有电影，周四唱歌，周六吃饭，都不是我讨厌的事情。而且我学中文本来就想和人聊，不想只在家做题。可是打开日历，周一和周三已经有课，如果另外三个晚上都出去，这周只剩一个工作日晚上没有安排。",
+        "py": "péng you fā lái sān cì huó dòng de shí jiān , wǒ kàn le yī yǎn jiù xiǎng quán bù dā yìng . zhōu èr yǒu diàn yǐng , zhōu sì chàng gē , zhōu liù chī fàn , dōu bù shì wǒ tǎo yàn de shì qíng . ér qiě wǒ xué zhōng wén běn lái jiù xiǎng hé rén liáo , bù xiǎng zhǐ zài jiā zuò tí . kě shì dǎ kāi rì lì , zhōu yī hé zhōu sān yǐ jīng yǒu kè , rú guǒ lìng wài sān gè wǎn shang dōu chū qù , zhè zhōu zhǐ shèng yī gè gōng zuò rì wǎn shang méi yǒu ān pái .",
+        "en": "My friend sent three activities and I wanted to accept all of them: a Tuesday film, Thursday singing and Saturday dinner. I liked them all and was learning Chinese to talk with people, not just do exercises. But Monday and Wednesday already had classes; adding three evenings out would leave only one weekday evening free."
+      },
+      {
+        "zh": "上个月我试过把时间安排满。课前赶着吃饭，活动结束又在车上补练习，回家以后还觉得当天没做够。最晚的一次，我快十二点才睡，第二天看见熟悉的字也读得很慢。朋友在课上问我刚才讲到哪里，我翻了两页笔记，还没找到。他说昨晚玩得很晚吧，我说没有玩，只是把一天塞得太满了。",
+        "py": "shàng gè yuè wǒ shì guò bǎ shí jiān ān pái mǎn . kè qián gǎn zhe chī fàn , huó dòng jié shù yòu zài chē shàng bǔ liàn xí , huí jiā yǐ hòu hái jué de dàng tiān méi zuò gòu . zuì wǎn de yī cì , wǒ kuài shí èr diǎn cái shuì , dì èr tiān kàn jiàn shú xī de zì yě dú de hěn màn . péng you zài kè shàng wèn wǒ gāng cái jiǎng dào nǎ lǐ , wǒ fān le liǎng yè bǐ jì , hái méi zhǎo dào . tā shuō zuó wǎn wán de hěn wǎn ba , wǒ shuō méi yǒu wán , zhǐ shì bǎ yī tiān sāi de tài mǎn le .",
+        "en": "Last month I tried filling my schedule. I rushed dinner before class and finished exercises on the bus after activities. One night I nearly reached midnight before sleeping; the next day even familiar characters were slow to read. Asked where we'd got to in class, I searched two pages of notes without finding it. A friend asked if I'd stayed out late having fun. No, I'd just crammed too much into a day."
+      },
+      {
+        "zh": "我跟朋友说，想先留下周六吃饭。上次我只跟熟悉的人说话，这次想问新朋友平时看什么、怎么选活动，再讲讲自己最近看的短剧。电影我也想看，就问他下个月还有没有一场。他发来另一张安排，说不急，先来吃饭吧。我把周六圈出来，旁边写了新朋友的名字，免得到时候又叫错。",
+        "py": "wǒ gēn péng you shuō , xiǎng xiān liú xià zhōu liù chī fàn . shàng cì wǒ zhǐ gēn shú xī de rén shuō huà , zhè cì xiǎng wèn xīn péng you píng shí kàn shén me , zěn me xuǎn huó dòng , zài jiǎng jiǎng zì jǐ zuì jìn kàn de duǎn jù . diàn yǐng wǒ yě xiǎng kàn , jiù wèn tā xià gè yuè hái yǒu méi yǒu yī chǎng . tā fā lái lìng yī zhāng ān pái , shuō bù jí , xiān lái chī fàn ba . wǒ bǎ zhōu liù quān chū lái , páng biān xiě le xīn péng you de míng zi , miǎn de dào shí hou yòu jiào cuò .",
+        "en": "I told my friend I'd keep Saturday dinner first. Last time I'd spoken only to familiar people; now I wanted to ask newcomers what they watched and how they chose activities, and mention a short drama I'd seen. I asked about a film next month too. He sent another schedule: no rush, come to dinner first. I circled Saturday and wrote the new friends' names beside it so I wouldn't get them wrong."
+      },
+      {
+        "zh": "唱歌活动我想隔周参加，空下来的那一周先在家把两句读清楚。朋友问我准备带哪首，我说还是上次没跟上的那首。他笑了，说这次给你找个会唱的一起练。我问是不是你，他马上说不是，我只能帮你找人。聊到这里，我又想去唱歌了，不过看一眼日历，还是把下周的日期先记下来。",
+        "py": "chàng gē huó dòng wǒ xiǎng gé zhōu cān jiā , kōng xià lái de nà yī zhōu xiān zài jiā bǎ liǎng jù dú qīng chǔ . péng you wèn wǒ zhǔn bèi dài nǎ shǒu , wǒ shuō hái shi shàng cì méi gēn shàng de nà shǒu . tā xiào le , shuō zhè cì gěi nǐ zhǎo gè huì chàng de yì qǐ liàn . wǒ wèn shì bú shì nǐ , tā mǎ shàng shuō bù shì , wǒ zhǐ néng bāng nǐ zhǎo rén . liáo dào zhè lǐ , wǒ yòu xiǎng qù chàng gē le , bù guò kàn yī yǎn rì lì , hái shi bǎ xià zhōu de rì qī xiān jì xià lái .",
+        "en": "I wanted to attend singing every other week, practising two lines at home in between. Which song would I bring? The one I couldn't keep up with last time. My friend laughed and offered to find someone who could sing it with me. Him? Definitely not—he could only find the person. I felt like going again, but looking at my calendar I wrote down next week's date."
+      },
+      {
+        "zh": "第一次照着这个安排去，我真的和一个新朋友聊了几句。她问我为什么最近看短剧，我说长的暂时跟不上，短的能再看一遍。她推荐了自己的方法，我先记下最想试的一点，说回家试试看。八点半时我说要走，她笑着问下周是不是也来。我说想来，不过先看看课表，又把刚才聊到的剧名记在手机里。",
+        "py": "dì yī cì zhào zhe zhè gè ān pái qù , wǒ zhēn de hé yī gè xīn péng you liáo le jǐ jù . tā wèn wǒ wèi shén me zuì jìn kàn duǎn jù , wǒ shuō zhǎng de zàn shí gēn bù shàng , duǎn de néng zài kàn yī biàn . tā tuī jiàn le zì jǐ de fāng fǎ , wǒ xiān jì xià zuì xiǎng shì de yī diǎn , shuō huí jiā shì shì kàn . bā diǎn bàn shí wǒ shuō yào zǒu , tā xiào zhe wèn xià zhōu shì bú shì yě lái . wǒ shuō xiǎng lái , bù guò xiān kàn kàn kè biǎo , yòu bǎ gāng cái liáo dào de jù míng jì zài shǒu jī lǐ .",
+        "en": "The first time I tried this plan, I chatted with someone new. Why short dramas lately? I couldn't keep up with longer ones yet, and short ones were easier to replay. She shared her method; I noted what I wanted to try at home. When I left at 8:30, she smiled and asked about next week. I'd like to come, I said, but I'd check my class schedule first. I saved the drama title we'd discussed on my phone."
+      },
+      {
+        "zh": "第一次照着这个安排去，我真的和一个新朋友说了几句。她问我为什么最近看短剧，我说长的先听不住，短的能再看一遍。她推荐了自己的方法，我没有当场答应全部照做，先记了最想试的一点。八点半时我说要走，她没有觉得我不喜欢大家，还问下周是不是也来。",
+        "py": "dì yī cì zhào zhe zhè gè ān pái qù , wǒ zhēn de hé yī gè xīn péng you shuō le jǐ jù . tā wèn wǒ wèi shén me zuì jìn kàn duǎn jù , wǒ shuō zhǎng de xiān tīng bù zhù , duǎn de néng zài kàn yī biàn . tā tuī jiàn le zì jǐ de fāng fǎ , wǒ méi yǒu dāng chǎng dā yìng quán bù zhào zuò , xiān jì le zuì xiǎng shì de yī diǎn . bā diǎn bàn shí wǒ shuō yào zǒu , tā méi yǒu jué de wǒ bù xǐ huān dà jiā , hái wèn xià zhōu shì bú shì yě lái .",
+        "en": "The first time, I talked to a new friend. Asked why I watched short dramas, I explained I couldn’t sustain attention on longer ones and could replay short ones. I noted one of her suggestions rather than promising to adopt all of them. At 8:30 I left; she didn’t interpret it as dislike and asked about next week."
+      },
+      {
+        "zh": "第二周有一天加班，我在群里说那周唱歌不去，周六仍然想来。以前我会觉得计划改了就是没坚持，这次我把坚持理解成继续找能做到的安排。两周以后，电影、唱歌和吃饭都还在朋友的计划里，我没有失去选择，只是没有在同一周把所有选择都做完。",
+        "py": "dì èr zhōu yǒu yī tiān jiā bān , wǒ zài qún lǐ shuō nà zhōu chàng gē bù qù , zhōu liù réng rán xiǎng lái . yǐ qián wǒ huì jué de jì huà gǎi le jiù shì méi jiān chí , zhè cì wǒ bǎ jiān chí lǐ jiě chéng jì xù zhǎo néng zuò dào de ān pái . liǎng zhōu yǐ hòu , diàn yǐng , chàng gē hé chī fàn dōu hái zài péng you de jì huà lǐ , wǒ méi yǒu shī qù xuǎn zé , zhǐ shì méi yǒu zài tóng yī zhōu bǎ suǒ yǒu xuǎn zé dōu zuò wán .",
+        "en": "Overtime in week two led me to skip singing while still planning Saturday. I used to treat any schedule change as failed persistence; now it meant continuing to find workable arrangements. After two weeks the activities remained available. I had not lost my choices; I simply hadn’t tried every choice in one week."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "补练习",
+        "pinyin": "bǔ liàn xí",
+        "meaning": "catch up on exercises"
+      },
+      {
+        "hanzi": "课前",
+        "pinyin": "kè qián",
+        "meaning": "before class"
+      },
+      {
+        "hanzi": "隔周",
+        "pinyin": "gé zhōu",
+        "meaning": "every other week"
+      },
+      {
+        "hanzi": "路程",
+        "pinyin": "lù chéng",
+        "meaning": "journey; travel distance"
+      },
+      {
+        "hanzi": "加班",
+        "pinyin": "jiā bān",
+        "meaning": "work overtime"
+      },
+      {
+        "hanzi": "日历",
+        "pinyin": "rì lì",
+        "meaning": "calendar"
+      },
+      {
+        "hanzi": "熟悉",
+        "pinyin": "shú xī",
+        "meaning": "familiar"
+      },
+      {
+        "hanzi": "讨厌",
+        "pinyin": "tǎo yàn",
+        "meaning": "dislike; find annoying"
+      },
+      {
+        "hanzi": "塞",
+        "pinyin": "sāi",
+        "meaning": "stuff; cram"
+      },
+      {
+        "hanzi": "圈",
+        "pinyin": "quān",
+        "meaning": "circle; mark by circling"
+      },
+      {
+        "hanzi": "下下周",
+        "pinyin": "xià xià zhōu",
+        "meaning": "the week after next"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How does the narrator rethink persistence?",
+        "choices": [
+          "Continuing workable arrangements rather than filling every evening",
+          "Never changing any plan once written",
+          "Finishing all choices in the same week"
+        ],
+        "answer": "Continuing workable arrangements rather than filling every evening"
+      },
+      {
+        "type": "detail",
+        "q": "How long is the journey home?",
+        "choices": [
+          "Half an hour",
+          "Three hours",
+          "Five minutes"
+        ],
+        "answer": "Half an hour"
+      },
+      {
+        "type": "inference",
+        "q": "Why prioritise dinner this week?",
+        "choices": [
+          "To practise joining conversations with new people",
+          "Because films can never help language learning",
+          "Because friends have banned singing"
+        ],
+        "answer": "To practise joining conversations with new people"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "第二周有一天加班，我在群里说那周唱歌不去，周六仍然想来。以前我会觉得计划改了就是没【坚持】，这次我把坚持理解成继续找能做到的安排。两周以后，电影、唱歌和吃饭都还在朋友的计划里，我没有失去选择，只是没有在同一周把所有选择都做完。",
+          "py": "dì èr zhōu yǒu yī tiān jiā bān , wǒ zài qún lǐ shuō nà zhōu chàng gē bù qù , zhōu liù réng rán xiǎng lái . yǐ qián wǒ huì jué de jì huà gǎi le jiù shì méi jiān chí , zhè cì wǒ bǎ jiān chí lǐ jiě chéng jì xù zhǎo néng zuò dào de ān pái . liǎng zhōu yǐ hòu , diàn yǐng , chàng gē hé chī fàn dōu hái zài péng you de jì huà lǐ , wǒ méi yǒu shī qù xuǎn zé , zhǐ shì méi yǒu zài tóng yī zhōu bǎ suǒ yǒu xuǎn zé dōu zuò wán .",
+          "en": "Overtime in week two led me to skip singing while still planning Saturday. I used to treat any schedule change as failed persistence; now it meant continuing to find workable arrangements. After two weeks the activities remained available. I had not lost my choices; I simply hadn’t tried every choice in one week."
+        }
+      ],
+      "bank": [
+        "坚持",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s5-u05-media",
+      "title": "An unfinished dinner story",
+      "titleZh": "An unfinished dinner story",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你又做时间表了？",
+          "py": "nǐ yòu zuò shí jiān biǎo le ?",
+          "en": "You’ve made another timetable?",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次没有把每一分钟都填满。",
+          "py": "zhè cì méi yǒu bǎ měi yī fēn zhōng dōu tián mǎn .",
+          "en": "This time I haven’t filled every minute.",
+          "speaker": "b"
+        },
+        {
+          "zh": "上次连吃饭都写十五分钟。",
+          "py": "shàng cì lián chī fàn dōu xiě shí wǔ fēn zhōng .",
+          "en": "Last time you allowed fifteen minutes even for dinner.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我现在知道十五分钟不够听你给菜起名字。",
+          "py": "wǒ xiàn zài zhī dào shí wǔ fēn zhōng bù gòu tīng nǐ gěi cài qǐ míng zi .",
+          "en": "Now I know fifteen minutes isn’t enough to hear your names for the dishes.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那你给聊天留了多久？",
+          "py": "nà nǐ gěi liáo tiān liú le duō jiǔ ?",
+          "en": "How long did you leave for chatting?",
+          "speaker": "a"
+        },
+        {
+          "zh": "两小时半，六点到八点半。",
+          "py": "liǎng xiǎo shí bàn , liù diǎn dào bā diǎn bàn .",
+          "en": "Two and a half hours, six to half eight.",
+          "speaker": "b"
+        },
+        {
+          "zh": "要是讲到一半呢？",
+          "py": "yào shì jiǎng dào yí bàn ne ?",
+          "en": "What if you’re halfway through a story?",
+          "speaker": "a"
+        },
+        {
+          "zh": "那我就说，下周再讲。",
+          "py": "nà wǒ jiù shuō , xià zhōu zài jiǎng .",
+          "en": "Then I’ll say I’ll finish next week.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你这样比短剧还会让人等。",
+          "py": "nǐ zhè yàng bǐ duǎn jù hái huì ràng rén děng .",
+          "en": "You’re better than a short drama at making people wait.",
+          "speaker": "a"
+        },
+        {
+          "zh": "谢谢，这是我今天的收获。",
+          "py": "xiè xiè , zhè shì wǒ jīn tiān de shōu huò .",
+          "en": "Thanks. That’s what I got out of today.",
+          "speaker": "b"
+        },
+        {
+          "zh": "不算表扬。",
+          "py": "bù suàn biǎo yáng .",
+          "en": "That wasn’t praise.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我知道，我也没放进成绩表。",
+          "py": "wǒ zhī dào , wǒ yě méi fàng jìn chéng jì biǎo .",
+          "en": "I know. I didn’t put it in my marks sheet either.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "成绩表",
+          "pinyin": "chéng jì biǎo",
+          "meaning": "marks sheet"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "How long is set aside for chatting?",
+          "choices": [
+            "Two and a half hours",
+            "Fifteen minutes",
+            "Half an hour"
+          ],
+          "answer": "Two and a half hours"
+        },
+        {
+          "type": "inference",
+          "q": "What does the short-drama comparison tease?",
+          "choices": [
+            "Leaving a story unfinished until next week",
+            "An actual examination award",
+            "The end of the friendship"
+          ],
+          "answer": "Leaving a story unfinished until next week"
+        }
+      ]
+    },
+    {
+      "id": "s5-u05-word-notebook",
+      "title": "A plan with room for friends: words in context",
+      "titleZh": "不是每一次，都要到 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "每天睡得太晚，对第二天的学习不利。",
+          "py": "měi tiān shuì de tài wǎn , duì dì èr tiān de xué xí bù lì .",
+          "en": "Sleeping too late every day is bad for the following day’s study."
+        },
+        {
+          "zh": "只看一个人的意见，对讨论不利。",
+          "py": "zhǐ kàn yī gè rén de yì jiàn , duì tǎo lùn bù lì .",
+          "en": "Considering only one person’s view is unhelpful for the discussion."
+        },
+        {
+          "zh": "我犹豫要不要每次都参加。",
+          "py": "wǒ yóu yù yào bù yào měi cì dōu cān jiā .",
+          "en": "I’m unsure whether to join every time."
+        },
+        {
+          "zh": "他犹豫了一会儿，还是问了时间。",
+          "py": "tā yóu yù le yī huì er , hái shi wèn le shí jiān .",
+          "en": "He hesitated briefly but still asked about the time."
+        },
+        {
+          "zh": "计划太满，结果常和预期不同。",
+          "py": "jì huà tài mǎn , jié guǒ cháng hé yù qī bù tóng .",
+          "en": "When the plan is too full, the result often differs from expectations."
+        },
+        {
+          "zh": "我们没有达到预期，但知道了问题在哪。",
+          "py": "wǒ men méi yǒu dá dào yù qī , dàn zhī dào le wèn tí zài nǎ .",
+          "en": "We didn’t meet expectations but learned where the problem was."
+        },
+        {
+          "zh": "我需要留出充足的休息时间。",
+          "py": "wǒ xū yào liú chū chōng zú de xiū xī shí jiān .",
+          "en": "I need to leave enough time to rest."
+        },
+        {
+          "zh": "活动前，大家准备了充足的水。",
+          "py": "huó dòng qián , dà jiā zhǔn bèi le chōng zú de shuǐ .",
+          "en": "Everyone prepared plenty of water before the event."
+        },
+        {
+          "zh": "睡眠不足的时候，我很难听进去。",
+          "py": "shuì mián bù zú de shí hou , wǒ hěn nán tīng jìn qù .",
+          "en": "When I haven’t slept enough, I struggle to take things in."
+        },
+        {
+          "zh": "这个方案的不足是回家太晚。",
+          "py": "zhè gè fāng àn de bù zú shì huí jiā tài wǎn .",
+          "en": "This plan’s drawback is getting home too late."
+        },
+        {
+          "zh": "少安排一个晚上，能减轻一点压力。",
+          "py": "shǎo ān pái yī gè wǎn shang , néng jiǎn qīng yī diǎn yā lì .",
+          "en": "Scheduling one fewer evening can ease the pressure a little."
+        },
+        {
+          "zh": "她帮我分担任务，减轻了我的负担。",
+          "py": "tā bāng wǒ fēn dān rèn wù , jiǎn qīng le wǒ de fù dān .",
+          "en": "She shared the tasks and lightened my load."
+        },
+        {
+          "zh": "不是坐得越久，效率就越高。",
+          "py": "bù shì zuò de yuè jiǔ , xiào lǜ jiù yuè gāo .",
+          "en": "Spending longer seated doesn’t necessarily make you more efficient."
+        },
+        {
+          "zh": "我们把重复的步骤合在一起，提高了效率。",
+          "py": "wǒ men bǎ chóng fù de bù zhòu hé zài yì qǐ , tí gāo le xiào lǜ .",
+          "en": "We combined repeated steps and improved efficiency."
+        },
+        {
+          "zh": "我晚上没有那么多精力。",
+          "py": "wǒ wǎn shang méi yǒu nà me duō jīng lì .",
+          "en": "I don’t have that much energy in the evening."
+        },
+        {
+          "zh": "这件事花了她很多精力。",
+          "py": "zhè jiàn shì huā le tā hěn duō jīng lì .",
+          "en": "This took a lot of her energy."
+        },
+        {
+          "zh": "早点把地点说清楚，能节省找路的时间。",
+          "py": "zǎo diǎn bǎ dì diǎn shuō qīng chǔ , néng jié shěng zhǎo lù de shí jiān .",
+          "en": "Clarifying the location early can save time finding the way."
+        },
+        {
+          "zh": "我想节省路上的时间，不是省掉见朋友。",
+          "py": "wǒ xiǎng jié shěng lù shàng de shí jiān , bù shì shěng diào jiàn péng you .",
+          "en": "I want to save travel time, not cut out seeing friends."
+        },
+        {
+          "zh": "这段练习已经投入不少时间。",
+          "py": "zhè duàn liàn xí yǐ jīng tóu rù bù shǎo shí jiān .",
+          "en": "I’ve already put quite a lot of time into practising this section."
+        },
+        {
+          "zh": "她做事很投入，没听见我进来。",
+          "py": "tā zuò shì hěn tóu rù , méi tīng jiàn wǒ jìn lái .",
+          "en": "She was so absorbed in the task she didn’t hear me come in."
+        },
+        {
+          "zh": "时间有限，我得先选最想做的。",
+          "py": "shí jiān yǒu xiàn , wǒ děi xiān xuǎn zuì xiǎng zuò de .",
+          "en": "With limited time, I need to choose what I most want to do first."
+        },
+        {
+          "zh": "座位有限，晚来的人只能站一会儿。",
+          "py": "zuò wèi yǒu xiàn , wǎn lái de rén zhǐ néng zhàn yī huì er .",
+          "en": "Seats were limited, so late arrivals had to stand for a while."
+        },
+        {
+          "zh": "我想找一个能长期继续的办法。",
+          "py": "wǒ xiǎng zhǎo yī gè néng cháng qī jì xù de bàn fǎ .",
+          "en": "I want a method I can sustain long term."
+        },
+        {
+          "zh": "长期不见面，不等于没有联系。",
+          "py": "cháng qī bú jiàn miàn , bù děng yú méi yǒu lián xì .",
+          "en": "Not meeting for a long time doesn’t mean losing contact."
+        },
+        {
+          "zh": "这是短期调整，不是以后都不去了。",
+          "py": "zhè shì duǎn qī tiáo zhěng , bù shì yǐ hòu dōu bù qù le .",
+          "en": "This is a short-term adjustment, not never going again."
+        },
+        {
+          "zh": "短期看不出变化，我还想再试两周。",
+          "py": "duǎn qī kàn bù chū biàn huà , wǒ hái xiǎng zài shì liǎng zhōu .",
+          "en": "I can’t see a change in the short term and want two more weeks."
+        },
+        {
+          "zh": "今天先把练习范围缩小到两段。",
+          "py": "jīn tiān xiān bǎ liàn xí fàn wéi suō xiǎo dào liǎng duàn .",
+          "en": "Let’s limit today’s practice to two sections."
+        },
+        {
+          "zh": "这次活动的范围比上次大。",
+          "py": "zhè cì huó dòng de fàn wéi bǐ shàng cì dà .",
+          "en": "This event covers a wider scope than the previous one."
+        },
+        {
+          "zh": "我今天的收获是终于和新朋友聊起来了。",
+          "py": "wǒ jīn tiān de shōu huò shì zhōng yú hé xīn péng you liáo qǐ lái le .",
+          "en": "My gain today was finally chatting with a new friend."
+        },
+        {
+          "zh": "看完以后，你最大的收获是什么？",
+          "py": "kàn wán yǐ hòu , nǐ zuì dà de shōu huò shì shén me ?",
+          "en": "What did you get most from watching it?"
+        },
+        {
+          "zh": "试两周以后，我们再调整时间。",
+          "py": "shì liǎng zhōu yǐ hòu , wǒ men zài tiáo zhěng shí jiān .",
+          "en": "After trying it for two weeks, we’ll adjust the schedule."
+        },
+        {
+          "zh": "我把练习顺序调整了一下。",
+          "py": "wǒ bǎ liàn xí shùn xù tiáo zhěng le yī xià .",
+          "en": "I changed the order of the practice a little."
+        },
+        {
+          "zh": "我想把作息变得规律一点。",
+          "py": "wǒ xiǎng bǎ zuò xī biàn de guī lǜ yī diǎn .",
+          "en": "I want a slightly more regular routine."
+        },
+        {
+          "zh": "我还没找到他说话的规律。",
+          "py": "wǒ hái méi zhǎo dào tā shuō huà de guī lǜ .",
+          "en": "I haven’t found the pattern in his speech yet."
+        },
+        {
+          "zh": "没人提醒，我也会自觉记下没听懂的地方。",
+          "py": "méi rén tí xǐng , wǒ yě huì zì jué jì xià méi tīng dǒng de dì fāng .",
+          "en": "Without a reminder, I note down the parts I don’t understand."
+        },
+        {
+          "zh": "大家自觉把椅子放回去。",
+          "py": "dà jiā zì jué bǎ yǐ zi fàng huí qù .",
+          "en": "Everyone put the chairs back without being asked."
+        },
+        {
+          "zh": "我想坚持练，不是每次都练到没力气。",
+          "py": "wǒ xiǎng jiān chí liàn , bù shì měi cì dōu liàn dào méi lì qì .",
+          "en": "I want to keep practising, not exhaust myself each time."
+        },
+        {
+          "zh": "她坚持先听完，再给意见。",
+          "py": "tā jiān chí xiān tīng wán , zài gěi yì jiàn .",
+          "en": "She insisted on listening to the end before giving feedback."
+        },
+        {
+          "zh": "这个方案保留了周六见面的时间。",
+          "py": "zhè gè fāng àn bǎo liú le zhōu liù jiàn miàn de shí jiān .",
+          "en": "This plan keeps Saturday available for meeting."
+        },
+        {
+          "zh": "我们比较了两个方案，选了路上更近的。",
+          "py": "wǒ men bǐ jiào le liǎng gè fāng àn , xuǎn le lù shàng gèng jìn de .",
+          "en": "We compared two plans and chose the nearer route."
+        },
+        {
+          "zh": "把每个晚上都安排满，我反而有压力。",
+          "py": "bǎ měi gè wǎn shang dōu ān pái mǎn , wǒ fǎn ér yǒu yā lì .",
+          "en": "Filling every evening actually puts pressure on me."
+        },
+        {
+          "zh": "你不用为了减轻我的压力，假装事情很容易。",
+          "py": "nǐ bù yòng wèi le jiǎn qīng wǒ de yā lì , jiǎ zhuāng shì qíng hěn róng yì .",
+          "en": "You don’t need to pretend it’s easy to take pressure off me."
+        },
+        {
+          "zh": "有些内容我能独立练，有些需要一起聊。",
+          "py": "yǒu xiē nèi róng wǒ néng dú lì liàn , yǒu xiē xū yào yì qǐ liáo .",
+          "en": "Some things I can practise independently; others need conversation."
+        },
+        {
+          "zh": "她已经能独立完成这个任务。",
+          "py": "tā yǐ jīng néng dú lì wán chéng zhè gè rèn wù .",
+          "en": "She can now complete the task independently."
+        },
+        {
+          "zh": "我的目标是能参加聊天，不只是做完题。",
+          "py": "wǒ de mù biāo shì néng cān jiā liáo tiān , bù zhǐ shì zuò wán tí .",
+          "en": "My goal is joining conversations, not just finishing questions."
+        },
+        {
+          "zh": "这个月的目标先定小一点。",
+          "py": "zhè gè yuè de mù biāo xiān dìng xiǎo yī diǎn .",
+          "en": "Let’s set a smaller goal for this month."
+        },
+        {
+          "zh": "这个安排听起来合理，但得试了才知道。",
+          "py": "zhè gè ān pái tīng qǐ lái hé lǐ , dàn děi shì le cái zhī dào .",
+          "en": "This schedule sounds reasonable, but we’ll need to try it."
+        },
+        {
+          "zh": "你可以不同意，也可以问这个决定是否合理。",
+          "py": "nǐ kě yǐ bù tóng yì , yě kě yǐ wèn zhè gè jué dìng shì fǒu hé lǐ .",
+          "en": "You can disagree and ask whether the decision is reasonable."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "作息",
+          "pinyin": "zuò xī",
+          "meaning": "daily routine of work and rest"
+        },
+        {
+          "hanzi": "省掉",
+          "pinyin": "shěng diào",
+          "meaning": "omit; save by removing"
+        },
+        {
+          "hanzi": "负担",
+          "pinyin": "fù dān",
+          "meaning": "burden"
+        },
+        {
+          "hanzi": "睡眠",
+          "pinyin": "shuì mián",
+          "meaning": "sleep"
+        },
+        {
+          "hanzi": "缩小",
+          "pinyin": "suō xiǎo",
+          "meaning": "reduce in scope"
+        },
+        {
+          "hanzi": "步骤",
+          "pinyin": "bù zhòu",
+          "meaning": "step in a process"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s5-u05-paired-reading",
+      "title": "The friend sending the invitations",
+      "titleZh": "The friend sending the invitations",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我把电影、唱歌和吃饭三次活动一起发给朋友，他马上回我都想去。我正准备把他的名字都填上，又收到下一条：等等，周一周三晚上还有课。我打开日历，和他把一周的时间慢慢对了一遍。周二的电影结束晚，周四唱歌，周六吃饭，光是从他家过来，每次还要在车上坐半个小时。",
+          "py": "wǒ bǎ diàn yǐng , chàng gē hé chī fàn sān cì huó dòng yì qǐ fā gěi péng you , tā mǎ shàng huí wǒ dōu xiǎng qù . wǒ zhèng zhǔn bèi bǎ tā de míng zi dōu tián shàng , yòu shōu dào xià yī tiáo : děng děng , zhōu yī zhōu sān wǎn shang hái yǒu kè . wǒ dǎ kāi rì lì , hé tā bǎ yī zhōu de shí jiān màn màn duì le yī biàn . zhōu èr de diàn yǐng jié shù wǎn , zhōu sì chàng gē , zhōu liù chī fàn , guāng shì cóng tā jiā guò lái , měi cì hái yào zài chē shàng zuò bàn gè xiǎo shí .",
+          "en": "I sent my friend three invitations—film, singing and dinner—and he immediately wanted all three. Before I filled in his name, another message arrived: wait, he had classes on Monday and Wednesday evenings. We checked the calendar together. Tuesday's film ended late, singing was Thursday and dinner Saturday. Just getting from home took him half an hour each time."
+        },
+        {
+          "zh": "我们把活动一个一个说清楚。电影那天结束比较晚，唱歌可以只来一段，吃饭一般从六点聊到九点。他选吃饭，不是因为其他两个没有意思，而是想多和新朋友说话。我原来以为他最喜欢唱歌，听他说完才知道，喜欢和这周最想解决的问题不一定是同一个答案。",
+          "py": "wǒ men bǎ huó dòng yī gè yī gè shuō qīng chǔ . diàn yǐng nà tiān jié shù bǐ jiào wǎn , chàng gē kě yǐ zhǐ lái yī duàn , chī fàn yì bān cóng liù diǎn liáo dào jiǔ diǎn . tā xuǎn chī fàn , bù shì yīn wèi qí tā liǎng gè méi yǒu yì si , ér shì xiǎng duō hé xīn péng you shuō huà . wǒ yuán lái yǐ wéi tā zuì xǐ huān chàng gē , tīng tā shuō wán cái zhī dào , xǐ huān hé zhè zhōu zuì xiǎng jiě jué de wèn tí bù yí dìng shì tóng yī gè dá àn .",
+          "en": "We discussed each event: a late film finish, an optional shorter singing visit and dinner from six to nine. He chose dinner to speak to new people, not because the others were uninteresting. I’d assumed singing was his favourite. Hearing him out showed a favourite and the most pressing goal could differ."
+        },
+        {
+          "zh": "他说八点半走，我问会不会太早。他说回家还要半小时，到了要把第二天的东西准备好。我把外套的位置告诉他，说到时候别忘了拿。那晚我们聊到九点，他提前走的时候，新朋友还在给他发刚才说的剧名。他在门口挥挥手，说看完以后下次聊，我就送他到楼下，告诉他车站在哪边。",
+          "py": "tā shuō bā diǎn bàn zǒu , wǒ wèn huì bù huì tài zǎo . tā shuō huí jiā hái yào bàn xiǎo shí , dào le yào bǎ dì èr tiān de dōng xi zhǔn bèi hǎo . wǒ bǎ wài tào de wèi zhì gào sù tā , shuō dào shí hou bié wàng le ná . nà wǎn wǒ men liáo dào jiǔ diǎn , tā tí qián zǒu de shí hou , xīn péng you hái zài gěi tā fā gāng cái shuō de jù míng . tā zài mén kǒu huī huī shǒu , shuō kàn wán yǐ hòu xià cì liáo , wǒ jiù sòng tā dào lóu xià , gào sù tā chē zhàn zài nǎ biān .",
+          "en": "He'd leave at half past eight. Too early? He needed half an hour home, then time to prepare for tomorrow. I showed him where his coat was. We stayed until nine; when he left, a new friend was still messaging him the drama title they'd discussed. He waved from the door: they'd talk after he'd watched it. I went downstairs with him and pointed out the bus stop."
+        },
+        {
+          "zh": "那晚他坐在新朋友旁边，刚开始还是我先介绍。后来他们聊到看短剧，他就自己问了两个问题。我没有一直替他补句子，也没有在每次停下来时马上换成另一种语言。有一处他找不到词，我问是不是想说听得累，他点头，又用自己的方式说完。别人回答时，我也留在旁边听。",
+          "py": "nà wǎn tā zuò zài xīn péng you páng biān , gāng kāi shǐ hái shi wǒ xiān jiè shào . hòu lái tā men liáo dào kàn duǎn jù , tā jiù zì jǐ wèn le liǎng gè wèn tí . wǒ méi yǒu yì zhí tì tā bǔ jù zi , yě méi yǒu zài měi cì tíng xià lái shí mǎ shàng huàn chéng lìng yī zhǒng yǔ yán . yǒu yī chù tā zhǎo bù dào cí , wǒ wèn shì bú shì xiǎng shuō tīng de lèi , tā diǎn tóu , yòu yòng zì jǐ de fāng shì shuō wán . bié ren huí dá shí , wǒ yě liú zài páng biān tīng .",
+          "en": "That evening I introduced him to someone new. When short dramas came up, he asked two questions himself. I didn’t finish all his sentences or immediately change languages at every pause. When he searched for a word, I checked whether he meant listening fatigue; he agreed and finished in his own way. I stayed to hear the reply too."
+        },
+        {
+          "zh": "八点半，他站起来说先回去，感谢大家推荐。我只提醒他别忘了外套，没有再说“再坐十分钟”。这不是我突然不想见他，而是我们前面已经说好。他走后，还有人聊到九点，也有人九点以前走。一个朋友说，他下次也想早点来，原来只来前半段并不会错过所有聊天。",
+          "py": "bā diǎn bàn , tā zhàn qǐ lái shuō xiān huí qù , gǎn xiè dà jiā tuī jiàn . wǒ zhǐ tí xǐng tā bié wàng le wài tào , méi yǒu zài shuō zài zuò shí fēn zhōng . zhè bù shì wǒ tū rán bù xiǎng jiàn tā , ér shì wǒ men qián miàn yǐ jīng shuō hǎo . tā zǒu hòu , hái yǒu rén liáo dào jiǔ diǎn , yě yǒu rén jiǔ diǎn yǐ qián zǒu . yī gè péng you shuō , tā xià cì yě xiǎng zǎo diǎn lái , yuán lái zhǐ lái qián bàn duàn bìng bù huì cuò guò suǒ yǒu liáo tiān .",
+          "en": "At 8:30 he thanked everyone and left. I reminded him about his coat rather than urging ten more minutes. We had already agreed; it didn’t mean I no longer wanted to see him. Others left at various times. Someone said they’d try coming early, having seen that a shorter visit didn’t mean missing all conversation."
+        },
+        {
+          "zh": "第二周他发消息说加班，唱歌那次不来。我没有把这句话理解成以后再也不来，只回他工作结束早点休息，周六的地点还一样。他周六问能不能带自己做的一点吃的，我们一起问了人数。这些联系也发生在活动外面，并不只有人坐在椅子上的时间才算我们认识。",
+          "py": "dì èr zhōu tā fā xiāo xī shuō jiā bān , chàng gē nà cì bù lái . wǒ méi yǒu bǎ zhè jù huà lǐ jiě chéng yǐ hòu zài yě bù lái , zhǐ huí tā gōng zuò jié shù zǎo diǎn xiū xī , zhōu liù de dì diǎn hái yī yàng . tā zhōu liù wèn néng bù néng dài zì jǐ zuò de yī diǎn chī de , wǒ men yì qǐ wèn le rén shù . zhè xiē lián xì yě fā shēng zài huó dòng wài miàn , bìng bù zhǐ yǒu rén zuò zài yǐ zi shàng de shí jiān cái suàn wǒ men rèn shi .",
+          "en": "In week two he messaged that overtime meant missing singing. I didn’t take it as a permanent departure; I wished him rest and confirmed Saturday’s venue. He later offered food, and we checked numbers. Contact happened outside gatherings too, not only while people were seated there."
+        },
+        {
+          "zh": "两周以后，我问这个安排要不要改。他说周六想继续，唱歌隔周来，电影以后有合适的再约。我把这些记在邀请消息里，没有替他答应下个月的每一场。我们仍然想一起玩，也仍然有自己的时间。能把这些说清楚，反而让我发邀请时更轻松，不用猜他没来是不是因为不想见我们。",
+          "py": "liǎng zhōu yǐ hòu , wǒ wèn zhè gè ān pái yào bù yào gǎi . tā shuō zhōu liù xiǎng jì xù , chàng gē gé zhōu lái , diàn yǐng yǐ hòu yǒu hé shì de zài yuē . wǒ bǎ zhè xiē jì zài yāo qǐng xiāo xī lǐ , méi yǒu tì tā dā yìng xià gè yuè de měi yī chǎng . wǒ men réng rán xiǎng yì qǐ wán , yě réng rán yǒu zì jǐ de shí jiān . néng bǎ zhè xiē shuō qīng chǔ , fǎn ér ràng wǒ fā yāo qǐng shí gèng qīng sōng , bù yòng cāi tā méi lái shì bú shì yīn wèi bù xiǎng jiàn wǒ men .",
+          "en": "After two weeks he kept Saturday and alternate-week singing, leaving films for suitable occasions. I noted that without accepting next month’s every event on his behalf. We wanted time together and time of our own. Clarity made invitations easier; I no longer had to guess whether absence meant not wanting to see us."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "隔周",
+          "pinyin": "gé zhōu",
+          "meaning": "every other week"
+        },
+        {
+          "hanzi": "路程",
+          "pinyin": "lù chéng",
+          "meaning": "journey; travel distance"
+        },
+        {
+          "hanzi": "加班",
+          "pinyin": "jiā bān",
+          "meaning": "work overtime"
+        },
+        {
+          "hanzi": "日历",
+          "pinyin": "rì lì",
+          "meaning": "calendar"
+        },
+        {
+          "hanzi": "遵守",
+          "pinyin": "zūn shǒu",
+          "meaning": "observe a rule or agreement"
+        },
+        {
+          "hanzi": "前半段",
+          "pinyin": "qián bàn duàn",
+          "meaning": "first half"
+        },
+        {
+          "hanzi": "劝",
+          "pinyin": "quàn",
+          "meaning": "urge; persuade"
+        },
+        {
+          "hanzi": "挥手",
+          "pinyin": "huī shǒu",
+          "meaning": "wave"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What makes invitations easier for the friend?",
+          "choices": [
+            "Clear preferences and availability without guessing absence means dislike",
+            "Deciding every evening for the learner",
+            "Requiring every participant to leave together"
+          ],
+          "answer": "Clear preferences and availability without guessing absence means dislike"
+        },
+        {
+          "type": "detail",
+          "q": "What does the host do at 8:30?",
+          "choices": [
+            "Reminds the learner about the coat without pressing them to stay",
+            "Cancels all future dinners",
+            "Rewrites the learner’s timetable without asking"
+          ],
+          "answer": "Reminds the learner about the coat without pressing them to stay"
+        },
+        {
+          "type": "inference",
+          "q": "What does the host learn about a favourite activity?",
+          "choices": [
+            "It need not match the goal someone prioritises this week",
+            "It must be attended every time",
+            "It guarantees a particular examination result"
+          ],
+          "answer": "It need not match the goal someone prioritises this week"
+        }
+      ]
+    }
+  ],
+  "conversation": {
+    "id": "s5-u05-c",
+    "title": "A plan with room for friends",
+    "place": "Planning the week with a friend",
+    "context": "Three social activities compete with two class evenings and a need for rest. The learner proposes a two-week trial.",
+    "goal": "Explain a realistic trade-off between study, rest and social plans",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "三个活动你都来吗？",
+        "pinyin": "sān gè huó dòng nǐ dōu lái ma ?",
+        "meaning": "Are you coming to all three?",
+        "intent": "Choose and explain",
+        "examples": [
+          "这周先来周六吃饭，唱歌隔周来，电影先不去。"
+        ],
+        "accept": [
+          "^这周先来周六吃饭，唱歌隔周来，电影先不去。[。！？]?$"
+        ]
+      },
+      {
+        "text": "不多留半小时吗？",
+        "pinyin": "bù duō liú bàn xiǎo shí ma ?",
+        "meaning": "Won’t you stay another half hour?",
+        "intent": "State a friendly departure boundary",
+        "examples": [
+          "我八点半先走，路上还要半小时，下次再接着聊。"
+        ],
+        "accept": [
+          "^我八点半先走，路上还要半小时，下次再接着聊。[。！？]?$"
+        ]
+      },
+      {
+        "text": "那以后都这样？",
+        "pinyin": "nà yǐ hòu dōu zhè yàng ?",
+        "meaning": "Is that how it will always be?",
+        "intent": "Limit the commitment",
+        "examples": [
+          "先试两周，再看要不要调整。"
+        ],
+        "accept": [
+          "^先试两周，再看要不要调整。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Limit without rejecting",
+      "natural": {
+        "zh": "这次先不去，下次有合适的再约。",
+        "py": "zhè cì xiān bù qù , xià cì yǒu hé shì de zài yuē .",
+        "en": "I’ll skip this one; let’s arrange another suitable occasion."
+      },
+      "note": "A bounded refusal need not mean ending contact."
+    },
+    {
+      "situation": "Say what you want to preserve",
+      "natural": {
+        "zh": "我想留出周六，和大家好好聊。",
+        "py": "wǒ xiǎng liú chū zhōu liù , hé dà jiā hǎo hǎo liáo .",
+        "en": "I want to keep Saturday free to have a proper chat."
+      },
+      "note": "Give a positive priority rather than only listing constraints."
+    },
+    {
+      "situation": "Leave at the agreed time",
+      "natural": {
+        "zh": "我先回去了，下次接着听你讲。",
+        "py": "wǒ xiān huí qù le , xià cì jiē zhe tīng nǐ jiǎng .",
+        "en": "I’ll head home now; I’ll hear the rest next time."
+      },
+      "note": "State the departure and keep the social thread open."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s5-u05-t01",
+      "phrase": "s5-u05-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "电影这周先不去，唱歌我隔周来一次，行不行？",
+        "py": "diàn yǐng zhè zhōu xiān bù qù , chàng gē wǒ gé zhōu lái yī cì , xíng bù xíng ?",
+        "en": "I’ll skip the film this week and come to singing every other week. Would that work?"
+      },
+      "statement": "The learner proposes singing every other week.",
+      "answer": true,
+      "why": "隔周来一次 states the frequency."
+    },
+    {
+      "id": "s5-u05-t02",
+      "phrase": "s5-u05-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第一次照着这个安排去，我真的和一个新朋友聊了几句。她问我为什么最近看短剧，我说长的暂时跟不上，短的能再看一遍。她推荐了自己的方法，我先记下最想试的一点，说回家试试看。八点半时我说要走，她笑着问下周是不是也来。我说想来，不过先看看课表，又把刚才聊到的剧名记在手机里。",
+        "py": "dì yī cì zhào zhe zhè gè ān pái qù , wǒ zhēn de hé yī gè xīn péng you liáo le jǐ jù . tā wèn wǒ wèi shén me zuì jìn kàn duǎn jù , wǒ shuō zhǎng de zàn shí gēn bù shàng , duǎn de néng zài kàn yī biàn . tā tuī jiàn le zì jǐ de fāng fǎ , wǒ xiān jì xià zuì xiǎng shì de yī diǎn , shuō huí jiā shì shì kàn . bā diǎn bàn shí wǒ shuō yào zǒu , tā xiào zhe wèn xià zhōu shì bú shì yě lái . wǒ shuō xiǎng lái , bù guò xiān kàn kàn kè biǎo , yòu bǎ gāng cái liáo dào de jù míng jì zài shǒu jī lǐ .",
+        "en": "The first time I tried this plan, I chatted with someone new. Why short dramas lately? I couldn't keep up with longer ones yet, and short ones were easier to replay. She shared her method; I noted what I wanted to try at home. When I left at 8:30, she smiled and asked about next week. I'd like to come, I said, but I'd check my class schedule first. I saved the drama title we'd discussed on my phone."
+      },
+      "statement": "The learner expects to be home around nine.",
+      "answer": true,
+      "why": "Departure at 8:30 plus a half-hour journey."
+    },
+    {
+      "id": "s5-u05-t03",
+      "phrase": "s5-u05-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "八点半，他站起来说先回去，感谢大家推荐。我只提醒他别忘了外套，没有再说“再坐十分钟”。这不是我突然不想见他，而是我们前面已经说好。他走后，还有人聊到九点，也有人九点以前走。一个朋友说，他下次也想早点来，原来只来前半段并不会错过所有聊天。",
+        "py": "bā diǎn bàn , tā zhàn qǐ lái shuō xiān huí qù , gǎn xiè dà jiā tuī jiàn . wǒ zhǐ tí xǐng tā bié wàng le wài tào , méi yǒu zài shuō zài zuò shí fēn zhōng . zhè bù shì wǒ tū rán bù xiǎng jiàn tā , ér shì wǒ men qián miàn yǐ jīng shuō hǎo . tā zǒu hòu , hái yǒu rén liáo dào jiǔ diǎn , yě yǒu rén jiǔ diǎn yǐ qián zǒu . yī gè péng you shuō , tā xià cì yě xiǎng zǎo diǎn lái , yuán lái zhǐ lái qián bàn duàn bìng bù huì cuò guò suǒ yǒu liáo tiān .",
+        "en": "At 8:30 he thanked everyone and left. I reminded him about his coat rather than urging ten more minutes. We had already agreed; it didn’t mean I no longer wanted to see him. Others left at various times. Someone said they’d try coming early, having seen that a shorter visit didn’t mean missing all conversation."
+      },
+      "statement": "The friend pressures the learner to stay ten more minutes.",
+      "answer": false,
+      "why": "The host explicitly does not do that."
+    },
+    {
+      "id": "s5-u05-t04",
+      "phrase": "s5-u05-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二周有一天加班，我在群里说那周唱歌不去，周六仍然想来。以前我会觉得计划改了就是没坚持，这次我把坚持理解成继续找能做到的安排。两周以后，电影、唱歌和吃饭都还在朋友的计划里，我没有失去选择，只是没有在同一周把所有选择都做完。",
+        "py": "dì èr zhōu yǒu yī tiān jiā bān , wǒ zài qún lǐ shuō nà zhōu chàng gē bù qù , zhōu liù réng rán xiǎng lái . yǐ qián wǒ huì jué de jì huà gǎi le jiù shì méi jiān chí , zhè cì wǒ bǎ jiān chí lǐ jiě chéng jì xù zhǎo néng zuò dào de ān pái . liǎng zhōu yǐ hòu , diàn yǐng , chàng gē hé chī fàn dōu hái zài péng you de jì huà lǐ , wǒ méi yǒu shī qù xuǎn zé , zhǐ shì méi yǒu zài tóng yī zhōu bǎ suǒ yǒu xuǎn zé dōu zuò wán .",
+        "en": "Overtime in week two led me to skip singing while still planning Saturday. I used to treat any schedule change as failed persistence; now it meant continuing to find workable arrangements. After two weeks the activities remained available. I had not lost my choices; I simply hadn’t tried every choice in one week."
+      },
+      "statement": "An overtime day leads the learner to abandon every future activity.",
+      "answer": false,
+      "why": "They skip singing that week while keeping Saturday."
+    },
+    {
+      "id": "s5-u05-t05",
+      "phrase": "s5-u05-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "你说先试两周，周六还来。是以后都不来了？",
+        "py": "nǐ shuō xiān shì liǎng zhōu , zhōu liù hái lái . shì yǐ hòu dōu bù lái le ?",
+        "en": "You proposed a two-week trial and still coming Saturday. Does that mean never coming again?"
+      },
+      "choices": [
+        "不是，先试两周，周六还是想来。",
+        "对，我刚才答应以后每场都不来。",
+        "对，先试两周就是永久停止见面。"
+      ],
+      "answer": "不是，先试两周，周六还是想来。",
+      "why": "The reply corrects a permanent interpretation of a temporary adjustment."
+    },
+    {
+      "id": "s5-u05-t06",
+      "phrase": "s5-u05-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "现在八点半，你想九点到家，路上半小时。还坐十分钟吗？",
+        "py": "xiàn zài bā diǎn bàn , nǐ xiǎng jiǔ diǎn dào jiā , lù shàng bàn xiǎo shí . hái zuò shí fēn zhōng ma ?",
+        "en": "It is 8:30. You want to be home at nine, and the trip takes half an hour. Stay ten more minutes?"
+      },
+      "choices": [
+        "今天先回去吧，下次再听你讲。",
+        "再坐十分钟，九点正好到家。",
+        "等九点出发，还是九点到家。"
+      ],
+      "answer": "今天先回去吧，下次再听你讲。",
+      "why": "A personal departure leaves others free to continue."
+    },
+    {
+      "id": "s5-u05-t07",
+      "phrase": "s5-u05-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "我们还没试这个安排，已经知道一定最好了吗？",
+        "py": "wǒ men hái méi shì zhè gè ān pái , yǐ jīng zhī dào yí dìng zuì hǎo le ma ?",
+        "en": "We have not tried this schedule. Do we already know it is definitely the best?"
+      },
+      "choices": [
+        "还不知道，先试两周再调整。",
+        "已经试过两周，结果完全证明了。",
+        "没试也能确定，实际情况不用看。"
+      ],
+      "answer": "还不知道，先试两周再调整。",
+      "why": "Trial and observation are distinct from guaranteeing success."
+    },
+    {
+      "id": "s5-u05-t08",
+      "phrase": "s5-u05-w08",
+      "type": "listenfill",
+      "line": {
+        "zh": "除非临时加班，【否则】我周六会来。",
+        "py": "chú fēi lín shí jiā bān , fǒu zé wǒ zhōu liù huì lái .",
+        "en": "Unless overtime comes up, I will come Saturday."
+      },
+      "blankPy": "fǒu zé"
+    },
+    {
+      "id": "s5-u05-t09",
+      "phrase": "s5-u05-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "我想用这个办法练【下去】。",
+        "py": "wǒ xiǎng yòng zhè gè bàn fǎ liàn xià qù .",
+        "en": "I want to keep practising this way."
+      },
+      "blankPy": "xià qù"
+    },
+    {
+      "id": "s5-u05-t10",
+      "phrase": "s5-u05-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "我需要留出【充足】的休息时间。",
+        "py": "wǒ xū yào liú chū chōng zú de xiū xī shí jiān .",
+        "en": "I need to leave enough time to rest."
+      },
+      "blankPy": "chōng zú"
+    },
+    {
+      "id": "s5-u05-t11",
+      "phrase": "s5-u05-w11",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Sleeping too late every day is bad for the following day’s study.",
+          "right": {
+            "zh": "每天睡得太晚，对第二天的学习不利。",
+            "py": "měi tiān shuì de tài wǎn , duì dì èr tiān de xué xí bù lì .",
+            "en": "Sleeping too late every day is bad for the following day’s study."
+          }
+        },
+        {
+          "left": "When the plan is too full, the result often differs from expectations.",
+          "right": {
+            "zh": "计划太满，结果常和预期不同。",
+            "py": "jì huà tài mǎn , jié guǒ cháng hé yù qī bù tóng .",
+            "en": "When the plan is too full, the result often differs from expectations."
+          }
+        },
+        {
+          "left": "Scheduling one fewer evening can ease the pressure a little.",
+          "right": {
+            "zh": "少安排一个晚上，能减轻一点压力。",
+            "py": "shǎo ān pái yī gè wǎn shang , néng jiǎn qīng yī diǎn yā lì .",
+            "en": "Scheduling one fewer evening can ease the pressure a little."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u05-t12",
+      "phrase": "s5-u05-w12",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "This took a lot of her energy.",
+          "right": {
+            "zh": "这件事花了她很多精力。",
+            "py": "zhè jiàn shì huā le tā hěn duō jīng lì .",
+            "en": "This took a lot of her energy."
+          }
+        },
+        {
+          "left": "I can’t see a change in the short term and want two more weeks.",
+          "right": {
+            "zh": "短期看不出变化，我还想再试两周。",
+            "py": "duǎn qī kàn bù chū biàn huà , wǒ hái xiǎng zài shì liǎng zhōu .",
+            "en": "I can’t see a change in the short term and want two more weeks."
+          }
+        },
+        {
+          "left": "I haven’t found the pattern in his speech yet.",
+          "right": {
+            "zh": "我还没找到他说话的规律。",
+            "py": "wǒ hái méi zhǎo dào tā shuō huà de guī lǜ .",
+            "en": "I haven’t found the pattern in his speech yet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5-u05-t13",
+      "phrase": "s5-u05-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "My gain today was finally chatting with a new friend.",
+          "right": {
+            "zh": "我今天的收获是终于和新朋友聊起来了。",
+            "py": "wǒ jīn tiān de shōu huò shì zhōng yú hé xīn péng you liáo qǐ lái le .",
+            "en": "My gain today was finally chatting with a new friend."
+          }
+        },
+        {
+          "left": "Filling every evening actually puts pressure on me.",
+          "right": {
+            "zh": "把每个晚上都安排满，我反而有压力。",
+            "py": "bǎ měi gè wǎn shang dōu ān pái mǎn , wǒ fǎn ér yǒu yā lì .",
+            "en": "Filling every evening actually puts pressure on me."
+          }
+        },
+        {
+          "left": "My goal is joining conversations, not just finishing questions.",
+          "right": {
+            "zh": "我的目标是能参加聊天，不只是做完题。",
+            "py": "wǒ de mù biāo shì néng cān jiā liáo tiān , bù zhǐ shì zuò wán tí .",
+            "en": "My goal is joining conversations, not just finishing questions."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: teasing about dish names and short-drama suspense, limited invitations and departure register, 不是A就是B context and 为的是 purpose. Classes Monday/Wednesday, film Tuesday, singing Thursday, dinner Saturday; dinner six to nine, learner leaves 8:30 and travels half an hour. The two-week trial is an individual fictional arrangement, not a sleep prescription or guaranteed learning method. The host’s participation is friendship, not unpaid full-time tutoring.\n2026-10-08 advanced reading self-review: Replaced repeated statements about boundaries and inference in diary narrators with calendar checks, actual calls, everyday jokes and book-event actions. Kept formal meeting-time analysis where the text is genuinely a work account. Preserved half-hour travel, 8:30 departure/coat, nine/eleven call arrangement, twenty-minute trial, extra two-person ten minutes and display-only book facts. All old word/task/question IDs retained. Native flags: 塞得太满 schedule metaphor, 哪有 response strength, phone-call teasing and book-spoiler banter. Native review pending.",
+  "characters": []
+}
