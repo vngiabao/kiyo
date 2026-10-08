@@ -1,0 +1,1219 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u08",
+    "stage": 3,
+    "order": 116,
+    "title": "Same film, different expectations",
+    "titleZh": "你喜欢哪一段",
+    "canDo": [
+      "Give reasons for a film preference without dismissing another viewer",
+      "Separate an observed detail from an interpretation",
+      "Write a recommendation that names both strengths and limitations"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u07",
+      "s4-u07-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u08-w01",
+      "hanzi": "辩论",
+      "pinyin": "biàn lùn",
+      "meaning": "debate",
+      "meaningVi": "tranh biện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这次辩论的题目是城市生活。",
+        "py": "zhè cì biàn lùn de tí mù shì chéng shì shēng huó .",
+        "en": "This debate is about city life."
+      },
+      "usageNote": "[GF2021:L4:424] Source entry: 辩论; biànlùn; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w02",
+      "hanzi": "诚实",
+      "pinyin": "chéng shí",
+      "meaning": "honest",
+      "meaningVi": "trung thực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你诚实地告诉我，不喜欢也没关系。",
+        "py": "nǐ chéng shí de gào sù wǒ , bù xǐ huān yě méi guān xì .",
+        "en": "Tell me honestly; it’s okay if you don’t like it."
+      },
+      "usageNote": "[GF2021:L4:980] Source entry: 诚实; chéng·shí; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w03",
+      "hanzi": "避免",
+      "pinyin": "bì miǎn",
+      "meaning": "avoid",
+      "meaningVi": "tránh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "先问清楚，可以避免误会。",
+        "py": "xiān wèn qīng chǔ , kě yǐ bì miǎn wù huì .",
+        "en": "Asking first can avoid misunderstandings."
+      },
+      "usageNote": "[GF2021:L4:372] Source entry: 避免; bìmiǎn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w04",
+      "hanzi": "片面",
+      "pinyin": "piàn miàn",
+      "meaning": "one-sided; incomplete",
+      "meaningVi": "phiến diện",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "只看价格来评价，太片面了。",
+        "py": "zhǐ kàn jià gé lái píng jià , tài piàn miàn le .",
+        "en": "Judging only by price is too one-sided."
+      },
+      "usageNote": "[GF2021:L4:6083] Source entry: 片面; piànmiàn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w05",
+      "hanzi": "结论",
+      "pinyin": "jié lùn",
+      "meaning": "conclusion",
+      "meaningVi": "kết luận",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "看完前面的部分，再下结论吧。",
+        "py": "kàn wán qián miàn de bù fèn , zài xià jié lùn ba .",
+        "en": "Watch the earlier parts before drawing a conclusion."
+      },
+      "usageNote": "[GF2021:L4:4195] Source entry: 结论; jiélùn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w06",
+      "hanzi": "细节",
+      "pinyin": "xì jié",
+      "meaning": "detail",
+      "meaningVi": "chi tiết",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我想再看一遍这个细节。",
+        "py": "wǒ xiǎng zài kàn yī biàn zhè gè xì jié .",
+        "en": "I’d like to watch this detail again."
+      },
+      "usageNote": "[GF2021:L4:8658] Source entry: 细节; xìjié; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w07",
+      "hanzi": "风格",
+      "pinyin": "fēng gé",
+      "meaning": "style",
+      "meaningVi": "phong cách",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个导演的风格比较安静。",
+        "py": "zhè gè dǎo yǎn de fēng gé bǐ jiào ān jìng .",
+        "en": "This director has a fairly quiet style."
+      },
+      "usageNote": "[GF2021:L4:2395] Source entry: 风格; fēnggé; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w08",
+      "hanzi": "反映",
+      "pinyin": "fǎn yìng",
+      "meaning": "reflect; report a problem",
+      "meaningVi": "phản ánh",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这部电影反映了小城里普通人的生活。",
+        "py": "zhè bù diàn yǐng fǎn yìng le xiǎo chéng lǐ pǔ tōng rén de shēng huó .",
+        "en": "This film reflects ordinary life in a small town."
+      },
+      "usageNote": "[GF2021:L4:2222] Source entry: 反映; fǎnyìng; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w09",
+      "hanzi": "争论",
+      "pinyin": "zhēng lùn",
+      "meaning": "argue; disagreement",
+      "meaningVi": "tranh luận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们为最后那句话争论了半天。",
+        "py": "wǒ men wèi zuì hòu nà jù huà zhēng lùn le bàn tiān .",
+        "en": "We argued for ages about that final sentence."
+      },
+      "usageNote": "[GF2021:L4:10387] Source entry: 争论; zhēnglùn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w10",
+      "hanzi": "期待",
+      "pinyin": "qī dài",
+      "meaning": "look forward to; expect",
+      "meaningVi": "mong đợi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我很期待下周的演出。",
+        "py": "wǒ hěn qī dài xià zhōu de yǎn chū .",
+        "en": "I’m really looking forward to next week’s performance."
+      },
+      "usageNote": "[GF2021:L4:6203] Source entry: 期待; qīdài; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w11",
+      "hanzi": "失望",
+      "pinyin": "shī wàng",
+      "meaning": "disappointed",
+      "meaningVi": "thất vọng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "没买到票，我有点失望。",
+        "py": "méi mǎi dào piào , wǒ yǒu diǎn shī wàng .",
+        "en": "I’m a little disappointed I couldn’t get tickets."
+      },
+      "usageNote": "[GF2021:L4:7179] Source entry: 失望; shīwàng; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w12",
+      "hanzi": "赞成",
+      "pinyin": "zàn chéng",
+      "meaning": "agree with; support an opinion",
+      "meaningVi": "tán thành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我赞成先看完再讨论。",
+        "py": "wǒ zàn chéng xiān kàn wán zài tǎo lùn .",
+        "en": "I agree we should finish watching before discussing it."
+      },
+      "usageNote": "[GF2021:L4:10137] Source entry: 赞成; zànchéng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u08-w13",
+      "hanzi": "评价",
+      "pinyin": "píng jià",
+      "meaning": "evaluate; assessment",
+      "meaningVi": "đánh giá",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你怎么评价这个演员？",
+        "py": "nǐ zěn me píng jià zhè gè yǎn yuán ?",
+        "en": "How would you assess this actor?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u08-w14",
+      "hanzi": "演员",
+      "pinyin": "yǎn yuán",
+      "meaning": "actor",
+      "meaningVi": "diễn viên",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个演员以前演过老师。",
+        "py": "zhè gè yǎn yuán yǐ qián yǎn guò lǎo shī .",
+        "en": "This actor played a teacher before."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u08-w15",
+      "hanzi": "导演",
+      "pinyin": "dǎo yǎn",
+      "meaning": "director",
+      "meaningVi": "đạo diễn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "导演没有把最后的答案说出来。",
+        "py": "dǎo yǎn méi yǒu bǎ zuì hòu de dá àn shuō chū lái .",
+        "en": "The director didn’t give away the final answer."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u08-w16",
+      "hanzi": "观众",
+      "pinyin": "guān zhòng",
+      "meaning": "audience; viewer",
+      "meaningVi": "khán giả",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "观众都安静下来，等演出开始。",
+        "py": "guān zhòng dōu ān jìng xià lái , děng yǎn chū kāi shǐ .",
+        "en": "The audience grew quiet, waiting for the performance."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u08-g01",
+      "pattern": "尽管…但是… / 即使…也…",
+      "purpose": "Distinguish an actual concession from a hypothetical one",
+      "explanation": "尽管 commonly accepts an actual fact and then gives a contrasting result. 即使 introduces an extreme or hypothetical condition; 也 keeps the result unchanged. Context, not translation alone, determines the reading.",
+      "examples": [
+        {
+          "zh": "尽管中间有点慢，但是最后一段很好。",
+          "py": "jǐn guǎn zhōng jiān yǒu diǎn màn , dàn shì zuì hòu yī duàn hěn hǎo .",
+          "en": "Although the middle is slow, the final section is good."
+        },
+        {
+          "zh": "即使你不喜欢，也可以说说原因。",
+          "py": "jí shǐ nǐ bù xǐ huān , yě kě yǐ shuō shuō yuán yīn .",
+          "en": "Even if you don’t like it, you can explain why."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "即使我已经看完，所以我肯定没看。",
+          "right": "尽管我已经看完，但是还没想好怎么评价。",
+          "why": "The actual completion and the remaining uncertainty are compatible."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u08-g02",
+      "pattern": "不一定 / 未必",
+      "purpose": "Avoid claiming a result is guaranteed",
+      "explanation": "These forms deny certainty, rather than directly asserting the opposite. 不一定会回来 leaves both return and non-return possible.",
+      "examples": [
+        {
+          "zh": "他不一定会回来。",
+          "py": "tā bù yí dìng huì huí lái .",
+          "en": "He won’t necessarily return."
+        },
+        {
+          "zh": "大家未必有同样的期待。",
+          "py": "dà jiā wèi bì yǒu tóng yàng de qī dài .",
+          "en": "People may not have the same expectations."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "他不一定会回来，所以他一定不回来。",
+          "right": "他不一定会回来，我还不知道。",
+          "why": "Denying certainty does not establish the opposite as certain."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u08-g03",
+      "pattern": "又没…",
+      "purpose": "Reject an implied claim conversationally",
+      "explanation": "又 before a negative often stresses that an accusation or assumption is unfounded. It can sound defensive, so the relationship and delivery matter.",
+      "examples": [
+        {
+          "zh": "我又没说整部都好。",
+          "py": "wǒ yòu méi shuō zhěng bù dōu hǎo .",
+          "en": "I didn’t say the whole thing was good."
+        },
+        {
+          "zh": "我又没看过，怎么知道？",
+          "py": "wǒ yòu méi kàn guò , zěn me zhī dào ?",
+          "en": "I haven’t even seen it; how would I know?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我又没说整部都好，所以我说了整部都好。",
+          "right": "我喜欢最后一段，又没说整部都好。",
+          "why": "The negative rejects the broader claim while preserving the limited preference."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u08-g04",
+      "pattern": "反而",
+      "purpose": "Mark a result opposite to an expectation",
+      "explanation": "The context supplies an expected direction; 反而 presents a contrasting outcome. It does not simply mean “then”.",
+      "examples": [
+        {
+          "zh": "把不同意见说具体，反而少争论了。",
+          "py": "bǎ bù tóng yì jiàn shuō jù tǐ , fǎn ér shǎo zhēng lùn le .",
+          "en": "Making our different views specific actually reduced the arguing."
+        },
+        {
+          "zh": "我想早点到，走错路反而迟到了。",
+          "py": "wǒ xiǎng zǎo diǎn dào , zǒu cuò lù fǎn ér chí dào le .",
+          "en": "I wanted to arrive early, but taking the wrong road made me late instead."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我早点出发，反而按时到了，因为这正是我预计的。",
+          "right": "我想早点到，走错路反而迟到了。",
+          "why": "The result must contrast with the relevant expectation."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u08-d",
+    "title": "你喜欢哪一段",
+    "titleZh": "你喜欢哪一段",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "看完了？你怎么一句话都不说？",
+        "py": "kàn wán le ? nǐ zěn me yī jù huà dōu bù shuō ?",
+        "en": "Finished? Why aren’t you saying anything?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我在想最后那个人到底回来没有。电影就这么结束了，有点失望。",
+        "py": "wǒ zài xiǎng zuì hòu nà gè rén dào dǐ huí lái méi yǒu . diàn yǐng jiù zhè me jié shù le , yǒu diǎn shī wàng .",
+        "en": "I’m thinking about whether that person ever came back. The film just ends there. I’m a little disappointed.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我倒挺喜欢。她已经把该说的话说了，不一定非要再见面。",
+        "py": "wǒ dào tǐng xǐ huān . tā yǐ jīng bǎ gāi shuō de huà shuō le , bù yí dìng fēi yào zài jiàn miàn .",
+        "en": "I actually liked it. She’d said what she needed to; they didn’t necessarily have to meet again.",
+        "speaker": "a"
+      },
+      {
+        "zh": "可前面一直说等他，最后也没给个答案。",
+        "py": "kě qián miàn yì zhí shuō děng tā , zuì hòu yě méi gěi gè dá àn .",
+        "en": "But she kept talking about waiting for him earlier, and we never got an answer.",
+        "speaker": "b"
+      },
+      {
+        "zh": "答案不只是回没回来吧。她最后自己去了车站，没有再留在家里等。",
+        "py": "dá àn bù zhǐ shì huí méi huí lái ba . tā zuì hòu zì jǐ qù le chē zhàn , méi yǒu zài liú zài jiā lǐ děng .",
+        "en": "The answer isn’t only whether he returned. At the end she went to the station herself instead of staying home waiting.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这点我没注意。我光看火车了，以为他会下来。",
+        "py": "zhè diǎn wǒ méi zhù yì . wǒ guāng kàn huǒ chē le , yǐ wéi tā huì xià lái .",
+        "en": "I missed that. I was only looking at the train, thinking he’d get off.",
+        "speaker": "b"
+      },
+      {
+        "zh": "可以倒回去看看。她走到车站的时候，表情已经不一样了。",
+        "py": "kě yǐ dào huí qù kàn kàn . tā zǒu dào chē zhàn de shí hou , biǎo qíng yǐ jīng bù yī yàng le .",
+        "en": "We can go back and watch. Her expression is already different when she reaches the station.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。不过我还是觉得中间太慢。",
+        "py": "hǎo . bù guò wǒ hái shi jué de zhōng jiān tài màn .",
+        "en": "Okay, but I still think the middle was too slow.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这个我同意。有两段我也差点没看下去。",
+        "py": "zhè gè wǒ tóng yì . yǒu liǎng duàn wǒ yě chà diǎn méi kàn xià qù .",
+        "en": "I agree with that. I almost gave up during two sections too.",
+        "speaker": "a"
+      },
+      {
+        "zh": "原来你也不是都喜欢。我还以为你要替导演解释每一分钟。",
+        "py": "yuán lái nǐ yě bù shì dōu xǐ huān . wǒ hái yǐ wéi nǐ yào tì dǎo yǎn jiě shì měi yī fēn zhōng .",
+        "en": "So you didn’t like everything either. I thought you were going to explain every minute on the director’s behalf.",
+        "speaker": "b"
+      },
+      {
+        "zh": "哪有。我喜欢最后一段，又没说整部都好。",
+        "py": "nǎ yǒu . wǒ xǐ huān zuì hòu yī duàn , yòu méi shuō zhěng bù dōu hǎo .",
+        "en": "Of course not. I liked the last part; I didn’t say the whole thing was good.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那先看最后一段，再去吃饭。我现在只确定一件事：我饿了。",
+        "py": "nà xiān kàn zuì hòu yī duàn , zài qù chī fàn . wǒ xiàn zài zhǐ què dìng yī jiàn shì : wǒ è le .",
+        "en": "Then let’s rewatch the last part and get dinner. I am sure of just one thing right now: I am hungry.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "替",
+        "pinyin": "tì",
+        "meaning": "on behalf of"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What do the viewers disagree about?",
+        "choices": [
+          "Whether the unresolved final section works",
+          "Whether they watched different films",
+          "How many tickets they bought"
+        ],
+        "answer": "Whether the unresolved final section works"
+      },
+      {
+        "type": "detail",
+        "q": "Which criticism do both accept?",
+        "choices": [
+          "Some middle sections are slow",
+          "No character reaches a station",
+          "Every minute is excellent"
+        ],
+        "answer": "Some middle sections are slow"
+      },
+      {
+        "type": "inference",
+        "q": "Why rewatch the final section?",
+        "choices": [
+          "One viewer missed a detail about the girl’s change",
+          "They want to erase their earlier discussion",
+          "The train timetable is an actual travel booking"
+        ],
+        "answer": "One viewer missed a detail about the girl’s change"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u08-r",
+    "title": "你喜欢哪一段",
+    "titleZh": "你喜欢哪一段",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "我和朋友看完同一部电影，第一句话却完全不同。我说“终于结束了”，她说“最后那一段真好”。我们忍不住笑了，原来坐在一起也不代表期待一样。",
+        "py": "wǒ hé péng you kàn wán tóng yī bù diàn yǐng , dì yī jù huà què wán quán bù tóng . wǒ shuō zhōng yú jié shù le , tā shuō zuì hòu nà yī duàn zhēn hǎo . wǒ men rěn bú zhù xiào le , yuán lái zuò zài yì qǐ yě bù dài biǎo qī dài yī yàng .",
+        "en": "My friend and I watched the same film but reacted differently. I said, “Finally over”; she said, “The last part was great.” We laughed: sitting together hadn’t made our expectations the same."
+      },
+      {
+        "zh": "我想看的是两个人最后有没有再见。朋友注意的是女孩怎样从等别人回来，变成自己决定去哪里。我们看的不是两部电影，只是注意了不同的细节。",
+        "py": "wǒ xiǎng kàn de shì liǎng gè rén zuì hòu yǒu méi yǒu zài jiàn . péng you zhù yì de shì nǚ hái zěn yàng cóng děng bié ren huí lái , biàn chéng zì jǐ jué dìng qù nǎ lǐ . wǒ men kàn de bù shì liǎng bù diàn yǐng , zhǐ shì zhù yì le bù tóng de xì jié .",
+        "en": "I wanted to know whether the two people met again. My friend noticed how the girl changed from waiting for someone to deciding where to go herself. We’d watched one film but focused on different details."
+      },
+      {
+        "zh": "回看最后一段以后，我发现她说得有道理。女孩走进车站时没有拿那封一直留着的信。这个动作在前面出现过，所以不是随便加的一下。",
+        "py": "huí kàn zuì hòu yī duàn yǐ hòu , wǒ fā xiàn tā shuō dé yǒu dào lǐ . nǚ hái zǒu jìn chē zhàn shí méi yǒu ná nà fēng yì zhí liú zhe de xìn . zhè gè dòng zuò zài qián miàn chū xiàn guò , suǒ yǐ bù shì suí biàn jiā de yī xià .",
+        "en": "After rewatching the last section, I saw her point. The girl entered the station without the letter she’d kept. That action had appeared earlier, so it wasn’t just an arbitrary extra gesture."
+      },
+      {
+        "zh": "不过这没有让我突然喜欢整部电影。中间几段依然很慢，朋友也同意。我们把“有一个好细节”和“整部都好看”分开说，反而不用争论那么久。",
+        "py": "bù guò zhè méi yǒu ràng wǒ tū rán xǐ huān zhěng bù diàn yǐng . zhōng jiān jǐ duàn yī rán hěn màn , péng you yě tóng yì . wǒ men bǎ yǒu yī gè hǎo xì jié hé zhěng bù dōu hǎo kàn fēn kāi shuō , fǎn ér bù yòng zhēng lùn nà me jiǔ .",
+        "en": "That didn’t suddenly make me love the whole film. Some middle sections were still slow, and my friend agreed. Distinguishing one good detail from enjoying the whole film actually shortened the argument."
+      },
+      {
+        "zh": "后来我写了几句话推荐给同学，没有只写“你一定喜欢”。我说它节奏慢，最后没有直接回答两个人是否再见，但人物的变化值得注意。喜欢明确结果的人，可能会和我一样失望。",
+        "py": "hòu lái wǒ xiě le jǐ jù huà tuī jiàn gěi tóng xué , méi yǒu zhǐ xiě nǐ yí dìng xǐ huān . wǒ shuō tā jié zòu màn , zuì hòu méi yǒu zhí jiē huí dá liǎng gè rén shì fǒu zài jiàn , dàn rén wù de biàn huà zhí de zhù yì . xǐ huān míng què jié guǒ de rén , kě néng huì hé wǒ yī yàng shī wàng .",
+        "en": "Later I wrote a short recommendation for a classmate rather than simply saying, “You’ll definitely like it.” I said it was slow, didn’t directly answer whether they met again and had a character change worth noticing. People who want a definite outcome might be disappointed, as I was."
+      },
+      {
+        "zh": "朋友说这个评价比我刚开始那句“没意思”诚实多了。我还是不想马上再看一遍，不过愿意听听其他观众看到了什么。",
+        "py": "péng you shuō zhè gè píng jià bǐ wǒ gāng kāi shǐ nà jù méi yì si chéng shí duō le . wǒ hái shi bù xiǎng mǎ shàng zài kàn yī biàn , bù guò yuàn yì tīng tīng qí tā guān zhòng kàn dào le shén me .",
+        "en": "My friend said that assessment was much more honest than my initial “boring.” I still didn’t want an immediate rewatch, but I was willing to hear what other viewers had noticed."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "节奏",
+        "pinyin": "jié zòu",
+        "meaning": "pace; rhythm"
+      },
+      {
+        "hanzi": "明确",
+        "pinyin": "míng què",
+        "meaning": "clear; definite"
+      },
+      {
+        "hanzi": "随便",
+        "pinyin": "suí biàn",
+        "meaning": "arbitrarily; casually"
+      },
+      {
+        "hanzi": "忍不住",
+        "pinyin": "rěn bú zhù",
+        "meaning": "cannot help doing"
+      },
+      {
+        "hanzi": "反而",
+        "pinyin": "fǎn ér",
+        "meaning": "instead; contrary to expectation"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What makes the later assessment more useful?",
+        "choices": [
+          "It distinguishes specific details from overall enjoyment",
+          "It promises everyone will enjoy the film",
+          "It copies the friend’s opinion without thought"
+        ],
+        "answer": "It distinguishes specific details from overall enjoyment"
+      },
+      {
+        "type": "detail",
+        "q": "What does the girl leave behind in the final section?",
+        "choices": [
+          "The letter",
+          "Her sister",
+          "Her train ticket already purchased"
+        ],
+        "answer": "The letter"
+      },
+      {
+        "type": "inference",
+        "q": "Who might find the film disappointing?",
+        "choices": [
+          "A viewer wanting a definite answer about the reunion",
+          "Every viewer who likes quiet films",
+          "Only the director"
+        ],
+        "answer": "A viewer wanting a definite answer about the reunion"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u08-media",
+      "title": "The station decision",
+      "titleZh": "The station decision",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你还是带着那封信？",
+          "py": "nǐ hái shi dài zhe nà fēng xìn ?",
+          "en": "Are you still carrying that letter?",
+          "speaker": "a"
+        },
+        {
+          "zh": "今天没带。",
+          "py": "jīn tiān méi dài .",
+          "en": "Not today.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那你来车站做什么？",
+          "py": "nà nǐ lái chē zhàn zuò shén me ?",
+          "en": "Then why have you come to the station?",
+          "speaker": "a"
+        },
+        {
+          "zh": "买票，去我姐姐那儿。",
+          "py": "mǎi piào , qù wǒ jiě jie nàr .",
+          "en": "To buy a ticket to visit my sister.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你不等他了？",
+          "py": "nǐ bù děng tā le ?",
+          "en": "You’re not waiting for him anymore?",
+          "speaker": "a"
+        },
+        {
+          "zh": "他知道怎么找我。我不能一直坐在家里。",
+          "py": "tā zhī dào zěn me zhǎo wǒ . wǒ bù néng yì zhí zuò zài jiā lǐ .",
+          "en": "He knows how to find me. I can’t stay at home forever.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我陪你买票。",
+          "py": "nà wǒ péi nǐ mǎi piào .",
+          "en": "Then I’ll come with you to buy the ticket.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好，顺便帮我看看几点还有车。",
+          "py": "hǎo , shùn biàn bāng wǒ kàn kàn jǐ diǎn hái yǒu chē .",
+          "en": "Okay. Help me check which trains are still available while we’re there.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Why does the girl come to the station?",
+          "choices": [
+            "To buy a ticket to visit her sister",
+            "To give the letter to a driver",
+            "To wait indefinitely at home"
+          ],
+          "answer": "To buy a ticket to visit her sister"
+        },
+        {
+          "type": "inference",
+          "q": "What does “我不能一直坐在家里” suggest?",
+          "choices": [
+            "She is choosing to act rather than only wait",
+            "She has already confirmed the man’s return",
+            "She has forgotten how to buy tickets"
+          ],
+          "answer": "She is choosing to act rather than only wait"
+        }
+      ]
+    },
+    {
+      "id": "s4-u08-word-notebook",
+      "title": "Same film, different expectations: words in context",
+      "titleZh": "你喜欢哪一段 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这次辩论的题目是城市生活。",
+          "py": "zhè cì biàn lùn de tí mù shì chéng shì shēng huó .",
+          "en": "This debate is about city life."
+        },
+        {
+          "zh": "我们在辩论中先说明自己的理由。",
+          "py": "wǒ men zài biàn lùn zhōng xiān shuō míng zì jǐ de lǐ yóu .",
+          "en": "We explain our reasons first in the debate."
+        },
+        {
+          "zh": "你诚实地告诉我，不喜欢也没关系。",
+          "py": "nǐ chéng shí de gào sù wǒ , bù xǐ huān yě méi guān xì .",
+          "en": "Tell me honestly; it’s okay if you don’t like it."
+        },
+        {
+          "zh": "他承认自己看错了，很诚实。",
+          "py": "tā chéng rèn zì jǐ kàn cuò le , hěn chéng shí .",
+          "en": "He honestly admitted he’d misread it."
+        },
+        {
+          "zh": "先问清楚，可以避免误会。",
+          "py": "xiān wèn qīng chǔ , kě yǐ bì miǎn wù huì .",
+          "en": "Asking first can avoid misunderstandings."
+        },
+        {
+          "zh": "我想避免在大家忙的时候打电话。",
+          "py": "wǒ xiǎng bì miǎn zài dà jiā máng de shí hou dǎ diàn huà .",
+          "en": "I want to avoid calling when everyone’s busy."
+        },
+        {
+          "zh": "只看价格来评价，太片面了。",
+          "py": "zhǐ kàn jià gé lái píng jià , tài piàn miàn le .",
+          "en": "Judging only by price is too one-sided."
+        },
+        {
+          "zh": "这篇介绍只说优点，比较片面。",
+          "py": "zhè piān jiè shào zhǐ shuō yōu diǎn , bǐ jiào piàn miàn .",
+          "en": "This introduction is rather one-sided; it only mentions advantages."
+        },
+        {
+          "zh": "看完前面的部分，再下结论吧。",
+          "py": "kàn wán qián miàn de bù fèn , zài xià jié lùn ba .",
+          "en": "Watch the earlier parts before drawing a conclusion."
+        },
+        {
+          "zh": "我们得到的结论不一样。",
+          "py": "wǒ men dé dào de jié lùn bù yī yàng .",
+          "en": "We reached different conclusions."
+        },
+        {
+          "zh": "我想再看一遍这个细节。",
+          "py": "wǒ xiǎng zài kàn yī biàn zhè gè xì jié .",
+          "en": "I’d like to watch this detail again."
+        },
+        {
+          "zh": "他记得见面时的很多细节。",
+          "py": "tā jì de jiàn miàn shí de hěn duō xì jié .",
+          "en": "He remembers many details of their meeting."
+        },
+        {
+          "zh": "这个导演的风格比较安静。",
+          "py": "zhè gè dǎo yǎn de fēng gé bǐ jiào ān jìng .",
+          "en": "This director has a fairly quiet style."
+        },
+        {
+          "zh": "她不喜欢这家店的装修风格。",
+          "py": "tā bù xǐ huān zhè jiā diàn de zhuāng xiū fēng gé .",
+          "en": "She doesn’t like this shop’s decorating style."
+        },
+        {
+          "zh": "这部电影反映了小城里普通人的生活。",
+          "py": "zhè bù diàn yǐng fǎn yìng le xiǎo chéng lǐ pǔ tōng rén de shēng huó .",
+          "en": "This film reflects ordinary life in a small town."
+        },
+        {
+          "zh": "我已经向学校反映了这个问题。",
+          "py": "wǒ yǐ jīng xiàng xué xiào fǎn yìng le zhè gè wèn tí .",
+          "en": "I’ve reported this problem to the school."
+        },
+        {
+          "zh": "我们为最后那句话争论了半天。",
+          "py": "wǒ men wèi zuì hòu nà jù huà zhēng lùn le bàn tiān .",
+          "en": "We argued for ages about that final sentence."
+        },
+        {
+          "zh": "先别争论，听听他怎么说。",
+          "py": "xiān bié zhēng lùn , tīng tīng tā zěn me shuō .",
+          "en": "Don’t argue yet; hear what he has to say."
+        },
+        {
+          "zh": "我很期待下周的演出。",
+          "py": "wǒ hěn qī dài xià zhōu de yǎn chū .",
+          "en": "I’m really looking forward to next week’s performance."
+        },
+        {
+          "zh": "大家对新电影的期待不一样。",
+          "py": "dà jiā duì xīn diàn yǐng de qī dài bù yī yàng .",
+          "en": "People have different expectations of the new film."
+        },
+        {
+          "zh": "没买到票，我有点失望。",
+          "py": "méi mǎi dào piào , wǒ yǒu diǎn shī wàng .",
+          "en": "I’m a little disappointed I couldn’t get tickets."
+        },
+        {
+          "zh": "我以为会再见到他，没想到又失望了。",
+          "py": "wǒ yǐ wéi huì zài jiàn dào tā , méi xiǎng dào yòu shī wàng le .",
+          "en": "I thought I’d see him again, but I was disappointed once more."
+        },
+        {
+          "zh": "我赞成先看完再讨论。",
+          "py": "wǒ zàn chéng xiān kàn wán zài tǎo lùn .",
+          "en": "I agree we should finish watching before discussing it."
+        },
+        {
+          "zh": "他不赞成把时间改到周一。",
+          "py": "tā bù zàn chéng bǎ shí jiān gǎi dào zhōu yī .",
+          "en": "He doesn’t agree with moving it to Monday."
+        },
+        {
+          "zh": "你怎么评价这个演员？",
+          "py": "nǐ zěn me píng jià zhè gè yǎn yuán ?",
+          "en": "How would you assess this actor?"
+        },
+        {
+          "zh": "她的评价很具体，不只是说好看。",
+          "py": "tā de píng jià hěn jù tǐ , bù zhǐ shì shuō hǎo kàn .",
+          "en": "Her assessment is specific, not just “it’s good.”"
+        },
+        {
+          "zh": "这个演员以前演过老师。",
+          "py": "zhè gè yǎn yuán yǐ qián yǎn guò lǎo shī .",
+          "en": "This actor played a teacher before."
+        },
+        {
+          "zh": "我记得演员的脸，却想不起名字。",
+          "py": "wǒ jì de yǎn yuán de liǎn , què xiǎng bù qǐ míng zi .",
+          "en": "I remember the actor’s face but can’t recall the name."
+        },
+        {
+          "zh": "导演没有把最后的答案说出来。",
+          "py": "dǎo yǎn méi yǒu bǎ zuì hòu de dá àn shuō chū lái .",
+          "en": "The director didn’t give away the final answer."
+        },
+        {
+          "zh": "我们看过同一个导演的两部电影。",
+          "py": "wǒ men kàn guò tóng yī gè dǎo yǎn de liǎng bù diàn yǐng .",
+          "en": "We’ve seen two films by the same director."
+        },
+        {
+          "zh": "观众都安静下来，等演出开始。",
+          "py": "guān zhòng dōu ān jìng xià lái , děng yǎn chū kāi shǐ .",
+          "en": "The audience grew quiet, waiting for the performance."
+        },
+        {
+          "zh": "有些观众喜欢最后那一段，有些不喜欢。",
+          "py": "yǒu xiē guān zhòng xǐ huān zuì hòu nà yī duàn , yǒu xiē bù xǐ huān .",
+          "en": "Some viewers like the final section; others don’t."
+        }
+      ],
+      "glosses": [],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u08-c",
+    "title": "Same film, different expectations",
+    "place": "Talking after an original film",
+    "context": "Friends disagree about an unresolved ending but find one shared criticism.",
+    "goal": "Give reasons for a film preference without dismissing another viewer",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "你觉得好看吗？",
+        "pinyin": "nǐ jué de hǎo kàn ma ?",
+        "meaning": "Did you like it?",
+        "intent": "Give a limited positive opinion",
+        "examples": [
+          "我喜欢最后一段，不过中间有点慢。"
+        ],
+        "accept": [
+          "^我喜欢最后一段，不过中间有点慢。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你说他肯定回来了吗？",
+        "pinyin": "nǐ shuō tā kěn dìng huí lái le ma ?",
+        "meaning": "Did you say he definitely returned?",
+        "intent": "Distinguish inference from certainty",
+        "examples": [
+          "没有，我觉得她不一定非要等他回来。"
+        ],
+        "accept": [
+          "^没有，我觉得她不一定非要等他回来。[。！？]?$"
+        ]
+      },
+      {
+        "text": "为什么推荐给我？",
+        "pinyin": "wèi shén me tuī jiàn gěi wǒ ?",
+        "meaning": "Why recommend it to me?",
+        "intent": "Name a relevant strength and limitation",
+        "examples": [
+          "人物的变化很有意思，不过节奏比较慢。"
+        ],
+        "accept": [
+          "^人物的变化很有意思，不过节奏比较慢。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Disagree about the work, not the person",
+      "natural": {
+        "zh": "这一段我看法不一样。",
+        "py": "zhè yī duàn wǒ kàn fǎ bù yī yàng .",
+        "en": "I see this section differently."
+      },
+      "note": "Name the detail under discussion rather than assigning a trait to the other viewer."
+    },
+    {
+      "situation": "Explain a bounded preference",
+      "natural": {
+        "zh": "我喜欢最后一段，没说整部都好。",
+        "py": "wǒ xǐ huān zuì hòu yī duàn , méi shuō zhěng bù dōu hǎo .",
+        "en": "I liked the last part; I did not say the whole film was good."
+      },
+      "note": "A specific positive evaluation can coexist with criticism of other parts."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u08-t01",
+      "phrase": "s4-u08-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "这个我同意。有两段我也差点没看下去。",
+        "py": "zhè gè wǒ tóng yì . yǒu liǎng duàn wǒ yě chà diǎn méi kàn xià qù .",
+        "en": "I agree with that. I almost gave up during two sections too."
+      },
+      "statement": "The speaker also found two sections difficult to keep watching.",
+      "answer": true,
+      "why": "The speaker agrees and identifies two sections."
+    },
+    {
+      "id": "s4-u08-t02",
+      "phrase": "s4-u08-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "不过这没有让我突然喜欢整部电影。中间几段依然很慢，朋友也同意。我们把“有一个好细节”和“整部都好看”分开说，反而不用争论那么久。",
+        "py": "bù guò zhè méi yǒu ràng wǒ tū rán xǐ huān zhěng bù diàn yǐng . zhōng jiān jǐ duàn yī rán hěn màn , péng you yě tóng yì . wǒ men bǎ yǒu yī gè hǎo xì jié hé zhěng bù dōu hǎo kàn fēn kāi shuō , fǎn ér bù yòng zhēng lùn nà me jiǔ .",
+        "en": "That didn’t suddenly make me love the whole film. Some middle sections were still slow, and my friend agreed. Distinguishing one good detail from enjoying the whole film actually shortened the argument."
+      },
+      "statement": "Rewatching made the narrator suddenly love the entire film.",
+      "answer": false,
+      "why": "The narrator explicitly says it did not."
+    },
+    {
+      "id": "s4-u08-t03",
+      "phrase": "s4-u08-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "你说中间慢、喜欢最后一段。是不是觉得整部都好？",
+        "py": "nǐ shuō zhōng jiān màn , xǐ huān zuì hòu yī duàn . shì bú shì jué de zhěng bù dōu hǎo ?",
+        "en": "You said the middle was slow but liked the last part. Do you think the whole film is good?"
+      },
+      "choices": [
+        "不是，我只是喜欢最后一段。",
+        "对，我已经说中间每一段都很好。",
+        "不是，我已经说最后一段也完全不好。"
+      ],
+      "answer": "不是，我只是喜欢最后一段。",
+      "why": "The reply preserves the limited positive evaluation."
+    },
+    {
+      "id": "s4-u08-t04",
+      "phrase": "s4-u08-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "她到车站买票看姐姐，没有确定他回来。怎么回答你不等他了？",
+        "py": "tā dào chē zhàn mǎi piào kàn jiě jie , méi yǒu què dìng tā huí lái . zěn me huí dá nǐ bù děng tā le ?",
+        "en": "She buys a ticket to visit her sister without knowing whether he returns. How does she answer about no longer waiting?"
+      },
+      "choices": [
+        "他知道怎么找我，我先去看看姐姐。",
+        "他已经回来了，所以不用等。",
+        "我来车站只是把信交给他。"
+      ],
+      "answer": "他知道怎么找我，我先去看看姐姐。",
+      "why": "The reply fits the station scene without inventing a confirmed reunion."
+    },
+    {
+      "id": "s4-u08-t05",
+      "phrase": "s4-u08-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "大家未必有同样的【期待】。",
+        "py": "dà jiā wèi bì yǒu tóng yàng de qī dài .",
+        "en": "People may not have the same expectations."
+      },
+      "blankPy": "qī dài"
+    },
+    {
+      "id": "s4-u08-t06",
+      "phrase": "s4-u08-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "我【又】没说整部都好。",
+        "py": "wǒ yòu méi shuō zhěng bù dōu hǎo .",
+        "en": "I did not say the whole thing was good."
+      },
+      "blankPy": "yòu"
+    },
+    {
+      "id": "s4-u08-t07",
+      "phrase": "s4-u08-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Judging only by price is too one-sided.",
+          "right": {
+            "zh": "只看价格来评价，太片面了。",
+            "py": "zhǐ kàn jià gé lái píng jià , tài piàn miàn le .",
+            "en": "Judging only by price is too one-sided."
+          }
+        },
+        {
+          "left": "This director has a fairly quiet style.",
+          "right": {
+            "zh": "这个导演的风格比较安静。",
+            "py": "zhè gè dǎo yǎn de fēng gé bǐ jiào ān jìng .",
+            "en": "This director has a fairly quiet style."
+          }
+        },
+        {
+          "left": "I agree we should finish watching before discussing it.",
+          "right": {
+            "zh": "我赞成先看完再讨论。",
+            "py": "wǒ zàn chéng xiān kàn wán zài tǎo lùn .",
+            "en": "I agree we should finish watching before discussing it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u08-t08",
+      "phrase": "s4-u08-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "We reached different conclusions.",
+          "right": {
+            "zh": "我们得到的结论不一样。",
+            "py": "wǒ men dé dào de jié lùn bù yī yàng .",
+            "en": "We reached different conclusions."
+          }
+        },
+        {
+          "left": "Don’t argue yet; hear what he has to say.",
+          "right": {
+            "zh": "先别争论，听听他怎么说。",
+            "py": "xiān bié zhēng lùn , tīng tīng tā zěn me shuō .",
+            "en": "Don’t argue yet; hear what he has to say."
+          }
+        },
+        {
+          "left": "Her assessment is specific, not just “it’s good.”",
+          "right": {
+            "zh": "她的评价很具体，不只是说好看。",
+            "py": "tā de píng jià hěn jù tǐ , bù zhǐ shì shuō hǎo kàn .",
+            "en": "Her assessment is specific, not just “it’s good.”"
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: the closing hunger joke, defensive 又没 in a close friendship, and the film recommendation’s register. Letter continuity and station purpose checked. The woman’s change is supported by actions, while whether the man returns is deliberately left unknown.",
+  "characters": [
+    {
+      "hanzi": "辩",
+      "pinyin": "biàn",
+      "meaning": "argue; distinguish",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "辩",
+          "role": "whole",
+          "gloss": "argue; distinguish"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 辩 in 辩论. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "辩论",
+          "p": "biàn lùn",
+          "m": "debate"
+        }
+      ]
+    },
+    {
+      "hanzi": "避",
+      "pinyin": "bì",
+      "meaning": "avoid",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "避",
+          "role": "whole",
+          "gloss": "avoid"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 避 in 避免. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "避免",
+          "p": "bì miǎn",
+          "m": "avoid"
+        }
+      ]
+    },
+    {
+      "hanzi": "免",
+      "pinyin": "miǎn",
+      "meaning": "spare; avoid",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "免",
+          "role": "whole",
+          "gloss": "spare; avoid"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 免 in 避免. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "避免",
+          "p": "bì miǎn",
+          "m": "avoid"
+        }
+      ]
+    },
+    {
+      "hanzi": "细",
+      "pinyin": "xì",
+      "meaning": "fine; detailed",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "细",
+          "role": "whole",
+          "gloss": "fine; detailed"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 细 in 细节. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "细节",
+          "p": "xì jié",
+          "m": "detail"
+        }
+      ]
+    },
+    {
+      "hanzi": "映",
+      "pinyin": "yìng",
+      "meaning": "reflect; show on a screen",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "映",
+          "role": "whole",
+          "gloss": "reflect; show on a screen"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 映 in 反映. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "反映",
+          "p": "fǎn yìng",
+          "m": "reflect; report a problem"
+        }
+      ]
+    }
+  ]
+}

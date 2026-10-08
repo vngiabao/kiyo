@@ -25,6 +25,7 @@ export default function HskExam({
     [busy, setBusy] = useState(false),
     [error, setError] = useState("");
   const [optimistic, setOptimistic] = useState<Record<string, HskAnswer>>({});
+  const [heard, setHeard] = useState<Set<string>>(() => new Set());
   const visibleItem = run?.itemIds[index];
   useEffect(() => {
     if (visibleItem && run && !run.finishedAt)
@@ -80,6 +81,7 @@ export default function HskExam({
     });
   };
   const expired = run.deadline !== null && now >= run.deadline;
+  const canAnswer = q.format !== "listening" || heard.has(q.id) || !!answer?.supported;
   const seconds =
     run.deadline === null
       ? null
@@ -89,7 +91,20 @@ export default function HskExam({
   const choices = [...q.choices.slice(offset), ...q.choices.slice(0, offset)];
   const answered = Object.values(run.answers).filter((a) => a.value).length;
   return (
-    <section className="hsk-exam" aria-label="HSK practice">
+    <section className="hsk-exam" aria-label="HSK practice" onKeyDown={(event) => {
+      if (busy || expired || event.ctrlKey || event.metaKey || event.altKey) return;
+      const target = event.target as HTMLElement;
+      if (target.closest('select, textarea, input:not([type="radio"])')) return;
+      const number = Number(event.key);
+      if (/^[1-4]$/.test(event.key) && canAnswer) {
+        event.preventDefault();
+        choose(choices[number - 1].zh, !!answer?.supported);
+      } else if (event.key === "Enter" && answer?.value && !target.closest('button, a')) {
+        event.preventDefault();
+        if (index < run.itemIds.length - 1) setIndex(index + 1);
+        else void act(() => finishHskRun(id));
+      }
+    }}>
       <div className="hsk-exam-bar">
         <button className="text-button" disabled={busy} onClick={onExit}>
           <ArrowLeft /> Save & leave
@@ -135,7 +150,9 @@ export default function HskExam({
       </nav>
       <h1>{q.format === "listening" ? "Listen, then choose." : q.format === "reading" ? "Read, then choose." : q.format === "ordering" ? "Choose the ordinary word order." : "Choose the missing word."}</h1>
       {q.format === "listening" && <>
-        <AudioButton key={q.id} text={q.sentence} mood="clear" label="Play question" />
+        <AudioButton key={q.id} text={q.sentence} mood="clear" label="Play question"
+          onPlayed={() => setHeard((old) => new Set([...old, q.id]))} />
+        {!canAnswer && <p className="muted">Play the full question before answering, or show the words for a supported attempt.</p>}
         {answer?.supported && <p className="hsk-question" lang="zh-CN">{q.sentence}</p>}
       </>}
       {q.format === "reading" && <p className="hsk-question" lang="zh-CN">{q.sentence}</p>}
@@ -145,7 +162,7 @@ export default function HskExam({
       </>}
       <p className="hsk-question" lang="zh-CN">{q.prompt.replace("___", "（　）")}</p>
       {answer?.supported && q.promptPy && <Pinyin text={q.promptPy} />}
-      <fieldset className="hsk-choices" disabled={busy || expired}>
+      <fieldset className="hsk-choices" disabled={busy || expired || !canAnswer}>
         <legend className="sr-only">Answer for question {index + 1}</legend>
         {choices.map((c, i) => (
           <label
@@ -160,7 +177,7 @@ export default function HskExam({
               onChange={() => choose(c.zh, !!answer?.supported)}
             />
             <span className="hsk-choice-letter">
-              {String.fromCharCode(65 + i)}
+              {i + 1}
             </span>
             <span lang="zh-CN">{c.zh}</span>
             {answer?.supported && <Pinyin text={c.py} />}
@@ -210,6 +227,7 @@ export default function HskExam({
         )}
       </div>
       <p className="muted">
+        Keys 1–4 choose an answer. Enter continues after saving. {" "}
         Original Kiyo practice. Raw results only; this is not a full HSK
         paper or an official score.
       </p>

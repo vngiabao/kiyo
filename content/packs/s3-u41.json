@@ -592,75 +592,75 @@
     "title": "A joke at the theatre",
     "format": "story",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Find what was denied and why a joke needs care.",
+    "purpose": "Listen for the problem, the proposed response and the next action.",
     "lines": [
       {
-        "zh": "连续剧明天播出，今天剧场里演话剧。",
-        "py": "lián xù jù míng tiān bō chū , jīn tiān jù chǎng lǐ yǎn huà jù .",
-        "en": "The series broadcasts tomorrow; today a play is performed in the theatre.",
+        "zh": "你笑什么啊？我还没讲完呢。",
+        "py": "nǐ xiào shén me a ? wǒ hái méi jiǎng wán ne .",
+        "en": "What are you laughing at? I haven't finished yet.",
         "speaker": "a"
       },
       {
-        "zh": "导演喊怕什么啊，是在安慰吗？",
-        "py": "dǎo yǎn hǎn pà shén me a , shì zài ān wèi ma ?",
-        "en": "The director shouts 怕什么啊. Is it reassurance?",
+        "zh": "我不是笑你。我把咖啡倒进你的杯子里了。",
+        "py": "wǒ bù shì xiào nǐ . wǒ bǎ kā fēi dào jìn nǐ de bēi zi lǐ le .",
+        "en": "I'm not laughing at you. I poured my coffee into your cup.",
         "speaker": "b"
       },
       {
-        "zh": "要看语气。我陪你可能更清楚，不替对方决定害不害怕。",
-        "py": "yào kàn yǔ qì . wǒ péi nǐ kě néng gèng qīng chǔ , bù tì duì fāng jué dìng hài bù hài pà .",
-        "en": "It depends on delivery. I will accompany you may be clearer; do not decide the other person’s fear.",
+        "zh": "怪不得这么甜！你到底放了多少糖？",
+        "py": "guài bù dé zhè me tián ! nǐ dào dǐ fàng le duō shao táng ?",
+        "en": "No wonder it's so sweet! How much sugar did you put in?",
         "speaker": "a"
       },
       {
-        "zh": "你并没有取消活动，地点也没变吗？",
-        "py": "nǐ bìng méi yǒu qǔ xiāo huó dòng , dì diǎn yě méi biàn ma ?",
-        "en": "You did not cancel. Did the place also stay the same?",
+        "zh": "别问了。我再给你买一杯，好不好？",
+        "py": "bié wèn le . wǒ zài gěi nǐ mǎi yī bēi , hǎo bù hǎo ?",
+        "en": "Don't ask. I'll get you another cup, okay?",
         "speaker": "b"
       },
       {
-        "zh": "我只否认取消，房间换了。记者也要问具体范围。",
-        "py": "wǒ zhǐ fǒu rèn qǔ xiāo , fáng jiān huàn le . jì zhě yě yào wèn jù tǐ fàn wéi .",
-        "en": "I only deny cancellation; the room changed. The reporter should ask the exact scope too.",
+        "zh": "行。对了，明天的连续剧你还看吗？",
+        "py": "xíng . duì le , míng tiān de lián xù jù nǐ hái kàn ma ?",
+        "en": "Okay. By the way, are you still watching that drama tomorrow?",
         "speaker": "a"
       },
       {
-        "zh": "眼前的旧直播录像不是今天现场。收音机有海浪声，不代表这里是海边。",
-        "py": "yǎn qián de jiù zhí bō lù xiàng bù shì jīn tiān xiàn chǎng . shōu yīn jī yǒu hǎi làng shēng , bù dài biǎo zhè lǐ shì hǎi biān .",
-        "en": "The old broadcast recording is not today’s site. Radio sea sounds do not mean this is the seaside.",
+        "zh": "看啊。导演的采访也挺好笑的，我发给你。",
+        "py": "kàn a . dǎo yǎn de cǎi fǎng yě tǐng hǎo xiào de , wǒ fā gěi nǐ .",
+        "en": "Of course. The director's interview is pretty funny too. I'll send it to you.",
         "speaker": "b"
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "What changed despite the activity not being cancelled?",
+        "q": "Why is the drink surprisingly sweet?",
         "choices": [
-          "The room",
-          "The reporter’s name",
-          "The date of the old recording"
+          "The friend put sugar in the coffee",
+          "The café changed its opening time",
+          "The drama starts tomorrow"
         ],
-        "answer": "The room"
+        "answer": "The friend put sugar in the coffee"
       },
       {
         "type": "detail",
-        "q": "What was changed?",
+        "q": "What does the friend offer to do?",
         "choices": [
-          "The room",
-          "The cancellation decision",
-          "Nothing"
+          "Buy another drink",
+          "Cancel drama night",
+          "Finish the story alone"
         ],
-        "answer": "The room"
+        "answer": "Buy another drink"
       },
       {
         "type": "inference",
-        "q": "Does 怕什么啊 always sound kind?",
+        "q": "What will the friend send?",
         "choices": [
-          "No",
-          "Yes",
-          "Only in a theatre"
+          "An interview with the director",
+          "A train ticket",
+          "The café menu"
         ],
-        "answer": "No"
+        "answer": "An interview with the director"
       }
     ],
     "speakers": [
@@ -696,77 +696,90 @@
     "title": "Warm teasing needs an answer",
     "format": "note",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Read the media note.",
+    "purpose": "Follow what happened and explain the people’s choices from the text.",
     "lines": [
       {
-        "zh": "她热爱影视，迎接朋友时先问到达时间；性别不决定节目喜好。",
-        "py": "tā rè ài yǐng shì , yíng jiē péng you shí xiān wèn dào dá shí jiān ; xìng bié bù jué dìng jié mù xǐ hào .",
-        "en": "She loves film and TV and checks arrival time when welcoming friends; gender does not determine preferences."
+        "zh": "周六，我去剧场看朋友的话剧。她热爱表演，练了三个月才第一次上台。",
+        "py": "zhōu liù , wǒ qù jù chǎng kàn péng you de huà jù . tā rè ài biǎo yǎn , liàn le sān gè yuè cái dì yī cì shàng tái .",
+        "en": "On Saturday I went to the theatre to see my friend's play. She loves acting and practised for three months before her first performance."
       },
       {
-        "zh": "古城故事为人所知，伟大是评价，重大要说明影响，不能把评价当证据。",
-        "py": "gǔ chéng gù shì wéi rén suǒ zhī , wěi dà shì píng jià , zhòng dà yào shuō míng yǐng xiǎng , bù néng bǎ píng jià dāng zhèng jù .",
-        "en": "The ancient-city story is known; great is an evaluation and significant needs scope; evaluations are not evidence."
+        "zh": "我刚到门口，她就出来迎接我，把我带到前面的位置。现场比我想象的热闹。",
+        "py": "wǒ gāng dào mén kǒu , tā jiù chū lái yíng jiē wǒ , bǎ wǒ dài dào qián miàn de wèi zhì . xiàn chǎng bǐ wǒ xiǎng xiàng de rè nào .",
+        "en": "As soon as I reached the entrance, she came out to greet me and took me to a seat near the front. It was livelier than I'd expected."
       },
       {
-        "zh": "直线和准确时间要核对，眼前看见的不是全部背景。",
-        "py": "zhí xiàn hé zhǔn què shí jiān yào hé duì , yǎn qián kàn jiàn de bù shì quán bù bèi jǐng .",
-        "en": "Check straight lines and accurate times; what is before us is not all background."
+        "zh": "故事发生在一座古城。一个好奇的孩子走到海边，听见远处传来的海浪声。",
+        "py": "gù shì fā shēng zài yī zuò gǔ chéng . yī gè hào qí de hái zi zǒu dào hǎi biān , tīng jiàn yuǎn chù chuán lái de hǎi làng shēng .",
+        "en": "The story takes place in an old city. A curious child walks to the shore and hears waves in the distance."
       },
       {
-        "zh": "咖啡放在一边，她好奇地听，播放以后仍可以说没听懂。",
-        "py": "kā fēi fàng zài yī biān , tā hào qí de tīng , bō fàng yǐ hòu réng kě yǐ shuō méi tīng dǒng .",
-        "en": "She sets coffee aside and listens curiously; after playback she may still say she did not understand."
+        "zh": "灯一暗，孩子吓了一跳。旁边的朋友小声说：怕什么啊，我陪你。",
+        "py": "dēng yī àn , hái zi xià le yī tiào . páng biān de péng you xiǎo shēng shuō : pà shén me a , wǒ péi nǐ .",
+        "en": "When the lights dim, the child startles. A friend whispers, 'What are you afraid of? I'm here with you.'"
       },
       {
-        "zh": "话剧里的笑和咆哮属于演戏，连续剧里的情绪不替演员说明私人经历。",
-        "py": "huà jù lǐ de xiào hé páo xiāo shǔ yú yǎn xì , lián xù jù lǐ de qíng xù bù tì yǎn yuán shuō míng sī rén jīng lì .",
-        "en": "Laughter and roaring in a play are acting; series emotions do not describe actors’ private lives."
+        "zh": "演出结束，我想跟她聊聊最后一场。她说先喝杯咖啡，慢慢聊。",
+        "py": "yǎn chū jié shù , wǒ xiǎng gēn tā liáo liáo zuì hòu yī chǎng . tā shuō xiān hē bēi kā fēi , màn màn liáo .",
+        "en": "After the performance I wanted to talk to her about the final scene. She suggested coffee first, so we could take our time."
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "What is set aside while she listens?",
+        "q": "Where does the narrator go on Saturday?",
         "choices": [
-          "Coffee",
-          "A new radio",
-          "The activity’s attendance list"
+          "A theatre",
+          "A train station",
+          "A school office"
         ],
-        "answer": "Coffee"
+        "answer": "A theatre"
+      },
+      {
+        "type": "detail",
+        "q": "How long did the friend practise?",
+        "choices": [
+          "Three months",
+          "Three days",
+          "Three years"
+        ],
+        "answer": "Three months"
       },
       {
         "type": "inference",
-        "q": "Do sea sounds from a radio establish that the listener is at the seaside?",
+        "q": "Why suggest coffee after the performance?",
         "choices": [
-          "No",
-          "Yes",
-          "Only during a live broadcast"
+          "To have time to talk about the play",
+          "To rehearse the whole play again",
+          "To catch the last train"
         ],
-        "answer": "No"
-      },
-      {
-        "type": "mainidea",
-        "q": "What is the key distinction?",
-        "choices": [
-          "Performance, interpretation and actual facts",
-          "A recording and the present treated as one",
-          "Popularity as universal approval"
-        ],
-        "answer": "Performance, interpretation and actual facts"
+        "answer": "To have time to talk about the play"
       }
     ],
     "cloze": {
       "lines": [
         {
-          "zh": "咖啡放在一边，她好奇地听，【播放】以后仍可以说没听懂。",
-          "py": "kā fēi fàng zài yī biān , tā hào qí de tīng , bō fàng yǐ hòu réng kě yǐ shuō méi tīng dǒng .",
-          "en": "She sets coffee aside and listens curiously; after playback she may still say she did not understand."
+          "zh": "周六，我去剧场看朋友的【话剧】。她热爱表演，练了三个月才第一次上台。",
+          "py": "zhōu liù , wǒ qù jù chǎng kàn péng you de huà jù . tā rè ài biǎo yǎn , liàn le sān gè yuè cái dì yī cì shàng tái .",
+          "en": "On Saturday I went to the theatre to see my friend's play. She loves acting and practised for three months before her first performance."
+        },
+        {
+          "zh": "我刚到门口，她就出来迎接我，把我带到前面的位置。【现场】比我想象的热闹。",
+          "py": "wǒ gāng dào mén kǒu , tā jiù chū lái yíng jiē wǒ , bǎ wǒ dài dào qián miàn de wèi zhì . xiàn chǎng bǐ wǒ xiǎng xiàng de rè nào .",
+          "en": "As soon as I reached the entrance, she came out to greet me and took me to a seat near the front. It was livelier than I'd expected."
+        },
+        {
+          "zh": "故事发生在一座【古】城。一个好奇的孩子走到海边，听见远处传来的海浪声。",
+          "py": "gù shì fā shēng zài yī zuò gǔ chéng . yī gè hào qí de hái zi zǒu dào hǎi biān , tīng jiàn yuǎn chù chuán lái de hǎi làng shēng .",
+          "en": "The story takes place in an old city. A curious child walks to the shore and hears waves in the distance."
         }
       ],
       "bank": [
-        "播放",
-        "电影"
+        "话剧",
+        "现场",
+        "古",
+        "学校",
+        "明天"
       ]
     },
     "glosses": [
@@ -799,6 +812,11 @@
         "hanzi": "情绪",
         "pinyin": "qíng xù",
         "meaning": "emotion"
+      },
+      {
+        "hanzi": "吓了一跳",
+        "pinyin": "xià le yī tiào",
+        "meaning": "to get a fright"
       }
     ]
   },
@@ -910,6 +928,81 @@
           "zh": "她到门口迎接朋友。",
           "py": "tā dào mén kǒu yíng jiē péng you .",
           "en": "She goes to the doorway to welcome the friend."
+        },
+        {
+          "zh": "这个节目每周六播出。",
+          "py": "zhè gè jié mù měi zhōu liù bō chū .",
+          "en": "This programme airs every Saturday."
+        },
+        {
+          "zh": "请播放第二段，我想再听一次。",
+          "py": "qǐng bō fàng dì èr duàn , wǒ xiǎng zài tīng yī cì .",
+          "en": "Please play the second part. I'd like to hear it again."
+        },
+        {
+          "zh": "记者采访了几位游客。",
+          "py": "jì zhě cǎi fǎng le jǐ wèi yóu kè .",
+          "en": "A reporter interviewed several visitors."
+        },
+        {
+          "zh": "这部连续剧我已经看到第十集了。",
+          "py": "zhè bù lián xù jù wǒ yǐ jīng kàn dào dì shí jí le .",
+          "en": "I've reached episode ten of this drama."
+        },
+        {
+          "zh": "我爷爷每天早上听收音机。",
+          "py": "wǒ yé ye měi tiān zǎo shàng tīng shōu yīn jī .",
+          "en": "My grandpa listens to the radio every morning."
+        },
+        {
+          "zh": "她对影视工作很感兴趣。",
+          "py": "tā duì yǐng shì gōng zuò hěn gǎn xìng qù .",
+          "en": "She's very interested in film and television work."
+        },
+        {
+          "zh": "我错过了直播，晚上再看录像。",
+          "py": "wǒ cuò guò le zhí bō , wǎn shang zài kàn lù xiàng .",
+          "en": "I missed the live broadcast; I’ll watch the recording tonight."
+        },
+        {
+          "zh": "这件事对他有重大影响。",
+          "py": "zhè jiàn shì duì tā yǒu zhòng dà yǐng xiǎng .",
+          "en": "This had a major effect on him."
+        },
+        {
+          "zh": "我觉得她是一位伟大的作家。",
+          "py": "wǒ jué de tā shì yī wèi wěi dà de zuò jiā .",
+          "en": "I think she's a great writer."
+        },
+        {
+          "zh": "把背坐直，别趴在桌子上。",
+          "py": "bǎ bèi zuò zhí , bié pā zài zhuō zi shàng .",
+          "en": "Sit with your back straight. Don't lean over the desk."
+        },
+        {
+          "zh": "我的手表不准，快了五分钟。",
+          "py": "wǒ de shǒu biǎo bù zhǔn , kuài le wǔ fēn zhōng .",
+          "en": "My watch isn't accurate. It's five minutes fast."
+        },
+        {
+          "zh": "她把照片放在我眼前，让我看看。",
+          "py": "tā bǎ zhào piān fàng zài wǒ yǎn qián , ràng wǒ kàn kàn .",
+          "en": "She put the photo in front of me so I could look at it."
+        },
+        {
+          "zh": "我为朋友准备了一份礼物。",
+          "py": "wǒ wèi péng you zhǔn bèi le yī fèn lǐ wù .",
+          "en": "I prepared a gift for my friend."
+        },
+        {
+          "zh": "这张表只写姓名，没有写性别。",
+          "py": "zhè zhāng biǎo zhǐ xiě xìng míng , méi yǒu xiě xìng bié .",
+          "en": "This form asks for your name but does not list gender."
+        },
+        {
+          "zh": "眼前这座楼就是我们的学校。",
+          "py": "yǎn qián zhè zuò lóu jiù shì wǒ men de xué xiào .",
+          "en": "The building in front of us is our school."
         }
       ],
       "questions": [],
@@ -923,6 +1016,16 @@
           "hanzi": "标题",
           "pinyin": "biāo tí",
           "meaning": "title"
+        },
+        {
+          "hanzi": "趴",
+          "pinyin": "pā",
+          "meaning": "lean forward over"
+        },
+        {
+          "hanzi": "感兴趣",
+          "pinyin": "gǎn xìng qù",
+          "meaning": "be interested"
         }
       ]
     }
@@ -1151,5 +1254,5 @@
       }
     ]
   },
-  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三81, 三19. Native check: X什么啊 humour versus dismissiveness, 并 scope, 为 wéi passive formal register, TV vocabulary and friendly repair. Native review pending. Planned retrieval 三61 / 三62 / 三73 / 三74: 我一会儿读，一会儿听。, 一方面想参加，另一方面需要休息。, 我看了通知就问她。, 十个人左右参加。."
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三81, 三19. Native check: X什么啊 humour versus dismissiveness, 并 scope, 为 wéi passive formal register, TV vocabulary and friendly repair. Native review pending. Planned retrieval 三61 / 三62 / 三73 / 三74: 我一会儿读，一会儿听。, 一方面想参加，另一方面需要休息。, 我看了通知就问她。, 十个人左右参加。.\n2026-10-07 editorial correction: dialogue and core reading rewritten as coherent everyday interaction; no recycled-word quota, app policy or safety caveats in character speech. IDs preserved. AI editorial review; native review remains outstanding."
 }

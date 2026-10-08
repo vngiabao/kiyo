@@ -70,7 +70,8 @@ export function auditCoverage(
   }
   const earlierCharacters = new Set<string>();
   const earlierWords = new Set<string>();
-  const levels = [1, 2, 3].map((level) => {
+  const levels = Object.keys(inventory.levels).map(Number).sort((a, b) => a - b).map((level) => {
+    if (!Number.isInteger(level) || level < 1 || level > 9) throw new Error("Invalid inventory level");
     const data = inventory.levels[String(level)];
     const rows = data.words.map((r) => ({
       sourceNo: r[0],
@@ -85,7 +86,7 @@ export function auditCoverage(
         .filter((w, _, all) => all.filter((s) => s === w).length > 1),
     );
     const normalizePinyin = (s: string) =>
-      s.toLowerCase().replace(/[\s'’]/gu, "");
+      s.toLowerCase().replace(/[\s'’·∥]/gu, "").replace(/u:/gu, "ü").normalize("NFC");
     const pos: Record<string, string> = {
       noun: "名",
       verb: "动",
@@ -170,7 +171,7 @@ export function auditCoverage(
       .filter((r) => !r[5].startsWith("※"))
       .map((r, i) => {
         // 【一01】 etc. are the printed Appendix A codes. Query No. is retained separately.
-        const code = `${["", "一", "二", "三"][level]}${String(i + 1).padStart(2, "0")}`;
+        const code = `${["", "一", "二", "三", "四", "五", "六", "七", "八", "九"][level]}${String(i + 1).padStart(2, "0")}`;
         const evidence = input.grammar.find((e) => e.code === code);
         return {
           code,
@@ -249,6 +250,12 @@ export function runCoverage() {
   if (!existsSync(reference))
     throw new Error(`Missing researched inventory: ${reference}`);
   const inventory: Inventory = JSON.parse(readFileSync(reference, "utf8"));
+  const advanced = process.argv.includes("--advanced");
+  const advancedReference = "prompts/research/gf2021-advanced-inventory.json";
+  if (advanced) {
+    const extension: Inventory = JSON.parse(readFileSync(advancedReference, "utf8"));
+    inventory.levels = { ...inventory.levels, ...extension.levels };
+  }
   const lookup = JSON.parse(
     readFileSync("content/hsk/levels.json", "utf8"),
   ).words;
@@ -285,6 +292,7 @@ export function runCoverage() {
     packUnits: packs.length,
     inputs: [
       reference,
+      ...(advanced ? [advancedReference] : []),
       "content/hsk/levels.json",
       "prompts/research/grammar-crosswalk.json",
       "src/content.ts",
@@ -310,7 +318,7 @@ export function runCoverage() {
     );
   if (process.argv.includes("--write"))
     writeFileSync(
-      "prompts/research/coverage-report.json",
+      advanced ? "prompts/research/advanced-coverage-report.json" : "prompts/research/coverage-report.json",
       JSON.stringify(report, null, 2) + "\n",
     );
   return report;

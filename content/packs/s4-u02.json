@@ -1,0 +1,1361 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u02",
+    "stage": 3,
+    "order": 110,
+    "title": "A compliment or a joke?",
+    "titleZh": "你刚才究竟是什么意思",
+    "canDo": [
+      "Check the intended meaning of an ambiguous remark",
+      "Distinguish an impression from a confirmed fact",
+      "Repair a misunderstanding without turning it into an argument"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u01",
+      "s4-u01-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u02-w01",
+      "hanzi": "暗示",
+      "pinyin": "àn shì",
+      "meaning": "hint; imply",
+      "meaningVi": "ám chỉ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她暗示自己想早点回家。",
+        "py": "tā àn shì zì jǐ xiǎng zǎo diǎn huí jiā .",
+        "en": "She hinted that she wanted to go home early."
+      },
+      "usageNote": "[GF2021:L4:58] Source entry: 暗示; ànshì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w02",
+      "hanzi": "含义",
+      "pinyin": "hán yì",
+      "meaning": "meaning; implication",
+      "meaningVi": "ý nghĩa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这句话的含义要看前面说了什么。",
+        "py": "zhè jù huà de hán yì yào kàn qián miàn shuō le shén me .",
+        "en": "What this sentence means depends on what came before it."
+      },
+      "usageNote": "[GF2021:L4:3180] Source entry: 含义; hányì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w03",
+      "hanzi": "究竟",
+      "pinyin": "jiū jìng",
+      "meaning": "exactly; after all",
+      "meaningVi": "rốt cuộc",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你究竟想周五去，还是周六去？",
+        "py": "nǐ jiū jìng xiǎng zhōu wǔ qù , hái shi zhōu liù qù ?",
+        "en": "Do you actually want to go on Friday or Saturday?"
+      },
+      "usageNote": "[GF2021:L4:4421] Source entry: 究竟; jiūjìng; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w04",
+      "hanzi": "未必",
+      "pinyin": "wèi bì",
+      "meaning": "not necessarily",
+      "meaningVi": "chưa chắc",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "贵的东西未必更好。",
+        "py": "guì de dōng xi wèi bì gèng hǎo .",
+        "en": "Expensive things aren’t necessarily better."
+      },
+      "usageNote": "[GF2021:L4:8421] Source entry: 未必; wèibì; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w05",
+      "hanzi": "的确",
+      "pinyin": "dí què",
+      "meaning": "indeed; really",
+      "meaningVi": "quả thật",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这家店的面的确很好吃。",
+        "py": "zhè jiā diàn de miàn dí què hěn hǎo chī .",
+        "en": "The noodles here really are good."
+      },
+      "usageNote": "[GF2021:L4:1738] Source entry: 的确; díquè; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w06",
+      "hanzi": "竟然",
+      "pinyin": "jìng rán",
+      "meaning": "unexpectedly",
+      "meaningVi": "vậy mà",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "他竟然记得我去年说过的话。",
+        "py": "tā jìng rán jì de wǒ qù nián shuō guò de huà .",
+        "en": "He actually remembered what I’d said last year."
+      },
+      "usageNote": "[GF2021:L4:4397] Source entry: 竟然; jìngrán; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w07",
+      "hanzi": "却",
+      "pinyin": "què",
+      "meaning": "but; yet",
+      "meaningVi": "nhưng lại",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我想帮忙，却越帮越忙。",
+        "py": "wǒ xiǎng bāng máng , què yuè bāng yuè máng .",
+        "en": "I wanted to help but ended up making more work."
+      },
+      "usageNote": "[GF2021:L4:6637] Source entry: 却; què; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w08",
+      "hanzi": "对于",
+      "pinyin": "duì yú",
+      "meaning": "as for; regarding",
+      "meaningVi": "đối với",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "对于这个安排，你有什么意见？",
+        "py": "duì yú zhè gè ān pái , nǐ yǒu shén me yì jiàn ?",
+        "en": "What do you think of this arrangement?"
+      },
+      "usageNote": "[GF2021:L4:2039] Source entry: 对于; duìyú; 介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w09",
+      "hanzi": "似乎",
+      "pinyin": "sì hū",
+      "meaning": "seem; apparently",
+      "meaningVi": "dường như",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "他似乎没听懂我的问题。",
+        "py": "tā sì hū méi tīng dǒng wǒ de wèn tí .",
+        "en": "He seems not to have understood my question."
+      },
+      "usageNote": "[GF2021:L4:7645] Source entry: 似乎; sìhū; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w10",
+      "hanzi": "承认",
+      "pinyin": "chéng rèn",
+      "meaning": "admit; acknowledge",
+      "meaningVi": "thừa nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我承认，刚才是我看错了。",
+        "py": "wǒ chéng rèn , gāng cái shì wǒ kàn cuò le .",
+        "en": "I admit I read it wrong just now."
+      },
+      "usageNote": "[GF2021:L4:989] Source entry: 承认; chéngrèn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w11",
+      "hanzi": "诚实",
+      "pinyin": "chéng shí",
+      "meaning": "honest",
+      "meaningVi": "thành thật",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "请诚实地告诉我，菜是不是太咸了？",
+        "py": "qǐng chéng shí de gào sù wǒ , cài shì bú shì tài xián le ?",
+        "en": "Tell me honestly: is the food too salty?"
+      },
+      "usageNote": "[GF2021:L4:980] Source entry: 诚实; chéng·shí; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w12",
+      "hanzi": "称赞",
+      "pinyin": "chēng zàn",
+      "meaning": "compliment; praise",
+      "meaningVi": "khen ngợi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "他称赞我的外套，我却听成了别的话。",
+        "py": "tā chēng zàn wǒ de wài tào , wǒ què tīng chéng le bié de huà .",
+        "en": "He complimented my coat, but I misheard it as something else."
+      },
+      "usageNote": "[GF2021:L4:948] Source entry: 称赞; chēngzàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w13",
+      "hanzi": "解释",
+      "pinyin": "jiě shì",
+      "meaning": "explain",
+      "meaningVi": "giải thích",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你先解释一下，我再回答。",
+        "py": "nǐ xiān jiě shì yī xià , wǒ zài huí dá .",
+        "en": "Explain first, then I’ll answer."
+      },
+      "usageNote": "[GF2021:L4:4218] Source entry: 解释; jiěshì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w14",
+      "hanzi": "表扬",
+      "pinyin": "biǎo yáng",
+      "meaning": "commend; praise",
+      "meaningVi": "biểu dương",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "老师当着全班表扬了她。",
+        "py": "lǎo shī dāng zhe quán bān biǎo yáng le tā .",
+        "en": "The teacher praised her in front of the whole class."
+      },
+      "usageNote": "[GF2021:L4:452] Source entry: 表扬; biǎoyáng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w15",
+      "hanzi": "不在乎",
+      "pinyin": "bù zài hū",
+      "meaning": "not mind; not care",
+      "meaningVi": "không bận tâm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我不在乎坐哪里，只要能听清楚。",
+        "py": "wǒ bù zài hū zuò nǎ lǐ , zhǐ yào néng tīng qīng chǔ .",
+        "en": "I don’t mind where I sit as long as I can hear."
+      },
+      "usageNote": "[GF2021:L4:557] Source entry: 不在乎; búzàihu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u02-w16",
+      "hanzi": "不要紧",
+      "pinyin": "bú yào jǐn",
+      "meaning": "no problem; it’s all right",
+      "meaningVi": "không sao",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "迟到几分钟不要紧，到了给我发消息。",
+        "py": "chí dào jǐ fēn zhōng bú yào jǐn , dào le gěi wǒ fā xiāo xī .",
+        "en": "A few minutes late is fine; message me when you arrive."
+      },
+      "usageNote": "[GF2021:L4:550] Source entry: 不要紧; búyàojǐn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u02-g01",
+      "pattern": "却",
+      "purpose": "Express an unexpected contrast",
+      "explanation": "Place 却 before the second predicate. It usually connects a result that conflicts with the first expectation. It does not automatically mean the result is negative.",
+      "examples": [
+        {
+          "zh": "我想帮忙，却越帮越忙。",
+          "py": "wǒ xiǎng bāng máng , què yuè bāng yuè máng .",
+          "en": "I wanted to help but ended up making more work."
+        },
+        {
+          "zh": "天气很好，她却不想出门。",
+          "py": "tiān qì hěn hǎo , tā què bù xiǎng chū mén .",
+          "en": "The weather is lovely, yet she doesn’t want to go out."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "却天气很好，她不想出门。",
+          "right": "天气很好，她却不想出门。",
+          "why": "却 belongs with the contrasted predicate, not before the topic of the first clause."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u02-g02",
+      "pattern": "究竟",
+      "purpose": "Ask for the exact unresolved point",
+      "explanation": "究竟 strengthens a genuine question with 谁、什么、哪里、为什么 or a choice. Context and delivery determine whether it sounds curious or impatient.",
+      "examples": [
+        {
+          "zh": "票究竟放在哪里了？",
+          "py": "piào jiū jìng fàng zài nǎ lǐ le ?",
+          "en": "Where exactly did you put the tickets?"
+        },
+        {
+          "zh": "你究竟想坐哪一班车？",
+          "py": "nǐ jiū jìng xiǎng zuò nǎ yī bān chē ?",
+          "en": "Which train do you actually want to take?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你究竟坐哪一班车吗？",
+          "right": "你究竟想坐哪一班车？",
+          "why": "A specific-choice question does not add 吗."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u02-g03",
+      "pattern": "对于 + topic",
+      "purpose": "Set the topic of an attitude or assessment",
+      "explanation": "对于 introduces what an attitude, opinion or evaluation concerns. In casual conversation, 关于、对 and a plain topic can overlap; do not force 对于 into every sentence.",
+      "examples": [
+        {
+          "zh": "对于这个安排，你有什么意见？",
+          "py": "duì yú zhè gè ān pái , nǐ yǒu shén me yì jiàn ?",
+          "en": "What do you think of this arrangement?"
+        },
+        {
+          "zh": "对于第一次来的朋友，这张图很有用。",
+          "py": "duì yú dì yī cì lái de péng you , zhè zhāng tú hěn yǒu yòng .",
+          "en": "This map is useful for friends visiting for the first time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我对于车站走过去了。",
+          "right": "我向车站走过去了。",
+          "why": "对于 introduces a topic or target of an attitude, not direction of movement."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u02-g04",
+      "pattern": "的确 / 似乎",
+      "purpose": "Separate confirmation from appearance",
+      "explanation": "的确 endorses a claim; 似乎 presents an impression rather than certainty. A speaker can revise either after learning more.",
+      "examples": [
+        {
+          "zh": "这家的面的确很好吃。",
+          "py": "zhè jiā de miàn dí què hěn hǎo chī .",
+          "en": "The noodles here really are good."
+        },
+        {
+          "zh": "他似乎没听懂，我再说一次吧。",
+          "py": "tā sì hū méi tīng dǒng , wǒ zài shuō yī cì ba .",
+          "en": "He seems not to have understood; I’ll say it again."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "他似乎没听懂，所以我已经确定他不懂。",
+          "right": "他似乎没听懂，我再问问。",
+          "why": "似乎 does not itself establish certainty."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u02-d",
+    "title": "你刚才究竟是什么意思",
+    "titleZh": "你刚才究竟是什么意思",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你刚才说我的外套很特别，究竟是什么意思？",
+        "py": "nǐ gāng cái shuō wǒ de wài tào hěn tè bié , jiū jìng shì shén me yì si ?",
+        "en": "When you said my coat was unusual, what exactly did you mean?",
+        "speaker": "a"
+      },
+      {
+        "zh": "就是颜色很好看。怎么了？",
+        "py": "jiù shì yán sè hěn hǎo kàn . zěn me le ?",
+        "en": "Just that the colour is lovely. What’s wrong?",
+        "speaker": "b"
+      },
+      {
+        "zh": "你的表情太认真了，我以为你在说不好看。",
+        "py": "nǐ de biǎo qíng tài rèn zhēn le , wǒ yǐ wéi nǐ zài shuō bù hǎo kàn .",
+        "en": "You looked so serious that I thought you meant it looked bad.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我真是在称赞你。我这个人一紧张就不太会笑。",
+        "py": "wǒ zhēn shì zài chēng zàn nǐ . wǒ zhè gè rén yī jǐn zhāng jiù bù tài huì xiào .",
+        "en": "I really was complimenting you. I find it hard to smile when I’m nervous.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你也紧张？我还以为只有我这样。",
+        "py": "nǐ yě jǐn zhāng ? wǒ hái yǐ wéi zhǐ yǒu wǒ zhè yàng .",
+        "en": "You get nervous too? I thought it was just me.",
+        "speaker": "a"
+      },
+      {
+        "zh": "当然。刚才我差点叫错你的名字。",
+        "py": "dāng rán . gāng cái wǒ chà diǎn jiào cuò nǐ de míng zi .",
+        "en": "Of course. I almost called you by the wrong name just now.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好吧，那是我误会了。谢谢你的称赞。",
+        "py": "hǎo ba , nà shì wǒ wù huì le . xiè xiè nǐ de chēng zàn .",
+        "en": "Okay, I misunderstood. Thanks for the compliment.",
+        "speaker": "a"
+      },
+      {
+        "zh": "不要紧。说实话，你不喜欢别人评论你的衣服吗？",
+        "py": "bú yào jǐn . shuō shí huà , nǐ bù xǐ huān bié ren píng lùn nǐ de yī fú ma ?",
+        "en": "No problem. Honestly, do you dislike people commenting on your clothes?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不在乎，只是我今天自己也觉得这个颜色太亮了。",
+        "py": "bù zài hū , zhǐ shì wǒ jīn tiān zì jǐ yě jué de zhè gè yán sè tài liàng le .",
+        "en": "I don’t mind. It’s just that I already thought the colour was too bright today.",
+        "speaker": "a"
+      },
+      {
+        "zh": "是挺亮的。我刚到门口，一下就找到你了。",
+        "py": "shì tǐng liàng de . wǒ gāng dào mén kǒu , yī xià jiù zhǎo dào nǐ le .",
+        "en": "It is bright. I spotted you as soon as I arrived at the door.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你这次是在开玩笑，对吧？",
+        "py": "nǐ zhè cì shì zài kāi wán xiào , duì ba ?",
+        "en": "This time you’re joking, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。不过你的确很好找。我们先进去吧。",
+        "py": "duì . bù guò nǐ dí què hěn hǎo zhǎo . wǒ men xiān jìn qù ba .",
+        "en": "Yes. But you really are easy to spot. Let’s go in.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "外套",
+        "pinyin": "wài tào",
+        "meaning": "coat"
+      },
+      {
+        "hanzi": "评论",
+        "pinyin": "píng lùn",
+        "meaning": "comment on"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "Why does the guest ask about the coat comment?",
+        "choices": [
+          "They aren’t sure whether it was a compliment",
+          "They want to borrow the coat",
+          "They cannot find their coat"
+        ],
+        "answer": "They aren’t sure whether it was a compliment"
+      },
+      {
+        "type": "detail",
+        "q": "Why does the speaker look serious?",
+        "choices": [
+          "They find it hard to smile when nervous",
+          "They are deliberately criticising the guest",
+          "They have already left"
+        ],
+        "answer": "They find it hard to smile when nervous"
+      },
+      {
+        "type": "inference",
+        "q": "What supports the second remark being teasing?",
+        "choices": [
+          "The listener checks and the speaker confirms it is a joke",
+          "Every serious expression means a joke",
+          "The speaker refuses to explain"
+        ],
+        "answer": "The listener checks and the speaker confirms it is a joke"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u02-r",
+    "title": "你刚才究竟是什么意思",
+    "titleZh": "你刚才究竟是什么意思",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "以前，朋友说“你可真行”，我总以为是在表扬我。后来有一天，我把大家的车票忘在家里，他又说了这句话。",
+        "py": "yǐ qián , péng you shuō nǐ kě zhēn xíng , wǒ zǒng yǐ wéi shì zài biǎo yáng wǒ . hòu lái yǒu yī tiān , wǒ bǎ dà jiā de chē piào wàng zài jiā lǐ , tā yòu shuō le zhè jù huà .",
+        "en": "When friends used to say “You’re really something,” I always thought it was praise. Then one day I left everyone’s tickets at home, and a friend said it again."
+      },
+      {
+        "zh": "我先笑了，看到他手里的空袋子才发现不对。原来，同样几个字，在不同的情况下，含义可能完全不同。",
+        "py": "wǒ xiān xiào le , kàn dào tā shǒu lǐ de kōng dài zi cái fā xiàn bú duì . yuán lái , tóng yàng jǐ gè zì , zài bù tóng de qíng kuàng xià , hán yì kě néng wán quán bù tóng .",
+        "en": "I smiled at first, then noticed the empty bag in his hand and realised something was wrong. The same few words can mean quite different things in different situations."
+      },
+      {
+        "zh": "他没有发火，只问我究竟把票放在哪里。我承认自己出门前没检查，马上打车回去拿。",
+        "py": "tā méi yǒu fā huǒ , zhǐ wèn wǒ jiū jìng bǎ piào fàng zài nǎ lǐ . wǒ chéng rèn zì jǐ chū mén qián méi jiǎn chá , mǎ shàng dǎ chē huí qù ná .",
+        "en": "He didn’t lose his temper, just asked where exactly I’d put the tickets. I admitted I hadn’t checked before leaving and immediately took a taxi home to collect them."
+      },
+      {
+        "zh": "回来以后，我想解释自己为什么会忘，朋友却先递给我一瓶水，说：“先喝口水，我们还有时间。”",
+        "py": "huí lái yǐ hòu , wǒ xiǎng jiě shì zì jǐ wèi shén me huì wàng , péng you què xiān dì gěi wǒ yī píng shuǐ , shuō : xiān hē kǒu shuǐ , wǒ men hái yǒu shí jiān .",
+        "en": "When I got back, I wanted to explain why I’d forgotten, but my friend handed me some water first and said, “Have a drink first. We still have time.”"
+      },
+      {
+        "zh": "这次我没有急着猜他是不是生气。我先道歉，再问他刚才那句话是不是在开玩笑。他笑着说，一半是玩笑，一半是真的着急。",
+        "py": "zhè cì wǒ méi yǒu jí zhe cāi tā shì bú shì shēng qì . wǒ xiān dào qiàn , zài wèn tā gāng cái nà jù huà shì bú shì zài kāi wán xiào . tā xiào zhe shuō , yí bàn shì wán xiào , yí bàn shì zhēn de zháo jí .",
+        "en": "This time I didn’t rush to guess whether he was angry. I apologised first, then asked whether his earlier remark was a joke. He laughed and said it was half a joke and half genuine worry."
+      },
+      {
+        "zh": "对于不太了解的表达，我现在会看前后的事情，也会直接问。不明白未必是自己的中文太差，有时连熟悉的人也会听错。",
+        "py": "duì yú bù tài liǎo jiě de biǎo dá , wǒ xiàn zài huì kàn qián hòu de shì qíng , yě huì zhí jiē wèn . bù míng bái wèi bì shì zì jǐ de zhōng wén tài chà , yǒu shí lián shú xī de rén yě huì tīng cuò .",
+        "en": "When I don’t understand an expression well, I now look at the surrounding events and ask directly. Not understanding doesn’t necessarily mean my Chinese is poor; even people who know each other can mishear things."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "发火",
+        "pinyin": "fā huǒ",
+        "meaning": "lose one’s temper"
+      },
+      {
+        "hanzi": "熟悉",
+        "pinyin": "shú xī",
+        "meaning": "familiar"
+      },
+      {
+        "hanzi": "空袋子",
+        "pinyin": "kōng dài zi",
+        "meaning": "empty bag"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What has the narrator learned?",
+        "choices": [
+          "The meaning of a remark depends on its situation",
+          "Every remark containing 真 is praise",
+          "Questions should never be asked"
+        ],
+        "answer": "The meaning of a remark depends on its situation"
+      },
+      {
+        "type": "detail",
+        "q": "What did the narrator forget?",
+        "choices": [
+          "Everyone’s tickets",
+          "A bottle of water",
+          "The taxi address"
+        ],
+        "answer": "Everyone’s tickets"
+      },
+      {
+        "type": "inference",
+        "q": "Why offer water before hearing the explanation?",
+        "choices": [
+          "The friend is helping them calm down while time remains",
+          "The friend has cancelled the journey",
+          "The friend has forgotten the tickets too"
+        ],
+        "answer": "The friend is helping them calm down while time remains"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u02-media",
+      "title": "The tickets are still at home",
+      "titleZh": "The tickets are still at home",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你可真行，票呢？",
+          "py": "nǐ kě zhēn xíng , piào ne ?",
+          "en": "You’re really something. Where are the tickets?",
+          "speaker": "a"
+        },
+        {
+          "zh": "在……等一下，我包里怎么没有？",
+          "py": "zài děng yī xià , wǒ bāo lǐ zěn me méi yǒu ?",
+          "en": "In… hang on, why aren’t they in my bag?",
+          "speaker": "b"
+        },
+        {
+          "zh": "你别告诉我，它们还在桌上。",
+          "py": "nǐ bié gào sù wǒ , tā men hái zài zhuō shàng .",
+          "en": "Don’t tell me they’re still on the table.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我承认，应该还在桌上。你等我一下。",
+          "py": "wǒ chéng rèn , yīng gāi hái zài zhuō shàng . nǐ děng wǒ yī xià .",
+          "en": "I admit they’re probably still on the table. Wait a moment.",
+          "speaker": "b"
+        },
+        {
+          "zh": "先别跑，车还有半小时才开。我们一起想想办法。",
+          "py": "xiān bié pǎo , chē hái yǒu bàn xiǎo shí cái kāi . wǒ men yì qǐ xiǎng xiǎng bàn fǎ .",
+          "en": "Don’t run off yet. The train doesn’t leave for another half hour. Let’s work out what to do.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你不生气？",
+          "py": "nǐ bù shēng qì ?",
+          "en": "You’re not angry?",
+          "speaker": "b"
+        },
+        {
+          "zh": "生气也不能把票变出来啊。你先打电话问问家里有人没有。",
+          "py": "shēng qì yě bù néng bǎ piào biàn chū lái a . nǐ xiān dǎ diàn huà wèn wèn jiā lǐ yǒu rén méi yǒu .",
+          "en": "Getting angry won’t make the tickets appear. Call and see whether anyone’s home first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "好。今天我请你吃饭，先补偿一下。",
+          "py": "hǎo . jīn tiān wǒ qǐng nǐ chī fàn , xiān bǔ cháng yī xià .",
+          "en": "Okay. Dinner’s on me today, to make it up to you.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "补偿",
+          "pinyin": "bǔ cháng",
+          "meaning": "make up for; compensate"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "How long remains before departure?",
+          "choices": [
+            "Half an hour",
+            "Five minutes",
+            "Two hours"
+          ],
+          "answer": "Half an hour"
+        },
+        {
+          "type": "inference",
+          "q": "What is the friend’s priority?",
+          "choices": [
+            "Find a practical way to get the tickets",
+            "Argue until the train leaves",
+            "Pretend the tickets are unnecessary"
+          ],
+          "answer": "Find a practical way to get the tickets"
+        }
+      ]
+    },
+    {
+      "id": "s4-u02-word-notebook",
+      "title": "A compliment or a joke?: words in context",
+      "titleZh": "你刚才究竟是什么意思 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "她暗示自己想早点回家。",
+          "py": "tā àn shì zì jǐ xiǎng zǎo diǎn huí jiā .",
+          "en": "She hinted that she wanted to go home early."
+        },
+        {
+          "zh": "他没直接说价格，只暗示可能很贵。",
+          "py": "tā méi zhí jiē shuō jià gé , zhǐ àn shì kě néng hěn guì .",
+          "en": "He didn’t name a price, only hinted that it might be expensive."
+        },
+        {
+          "zh": "这句话的含义要看前面说了什么。",
+          "py": "zhè jù huà de hán yì yào kàn qián miàn shuō le shén me .",
+          "en": "What this sentence means depends on what came before it."
+        },
+        {
+          "zh": "这个名字有什么特别的含义吗？",
+          "py": "zhè gè míng zi yǒu shén me tè bié de hán yì ma ?",
+          "en": "Does this name have a special meaning?"
+        },
+        {
+          "zh": "你究竟想周五去，还是周六去？",
+          "py": "nǐ jiū jìng xiǎng zhōu wǔ qù , hái shi zhōu liù qù ?",
+          "en": "Do you actually want to go on Friday or Saturday?"
+        },
+        {
+          "zh": "我想知道他们究竟为什么吵架。",
+          "py": "wǒ xiǎng zhī dào tā men jiū jìng wèi shén me chǎo jià .",
+          "en": "I want to know exactly why they argued."
+        },
+        {
+          "zh": "贵的东西未必更好。",
+          "py": "guì de dōng xi wèi bì gèng hǎo .",
+          "en": "Expensive things aren’t necessarily better."
+        },
+        {
+          "zh": "不说话未必是生气。",
+          "py": "bù shuō huà wèi bì shì shēng qì .",
+          "en": "Being quiet doesn’t necessarily mean being angry."
+        },
+        {
+          "zh": "这家店的面的确很好吃。",
+          "py": "zhè jiā diàn de miàn dí què hěn hǎo chī .",
+          "en": "The noodles here really are good."
+        },
+        {
+          "zh": "你的办法的确省时间。",
+          "py": "nǐ de bàn fǎ dí què shěng shí jiān .",
+          "en": "Your method really does save time."
+        },
+        {
+          "zh": "他竟然记得我去年说过的话。",
+          "py": "tā jìng rán jì de wǒ qù nián shuō guò de huà .",
+          "en": "He actually remembered what I’d said last year."
+        },
+        {
+          "zh": "我竟然把钥匙放进冰箱了。",
+          "py": "wǒ jìng rán bǎ yào shi fàng jìn bīng xiāng le .",
+          "en": "Somehow I put my keys in the fridge."
+        },
+        {
+          "zh": "我想帮忙，却越帮越忙。",
+          "py": "wǒ xiǎng bāng máng , què yuè bāng yuè máng .",
+          "en": "I wanted to help but ended up making more work."
+        },
+        {
+          "zh": "天气很好，她却不想出门。",
+          "py": "tiān qì hěn hǎo , tā què bù xiǎng chū mén .",
+          "en": "The weather was lovely, yet she didn’t want to go out."
+        },
+        {
+          "zh": "对于这个安排，你有什么意见？",
+          "py": "duì yú zhè gè ān pái , nǐ yǒu shén me yì jiàn ?",
+          "en": "What do you think of this arrangement?"
+        },
+        {
+          "zh": "对于第一次来的朋友，地图很有用。",
+          "py": "duì yú dì yī cì lái de péng you , dì tú hěn yǒu yòng .",
+          "en": "A map is useful for friends visiting for the first time."
+        },
+        {
+          "zh": "他似乎没听懂我的问题。",
+          "py": "tā sì hū méi tīng dǒng wǒ de wèn tí .",
+          "en": "He seems not to have understood my question."
+        },
+        {
+          "zh": "雨似乎停了，我们出去看看吧。",
+          "py": "yǔ sì hū tíng le , wǒ men chū qù kàn kàn ba .",
+          "en": "It seems to have stopped raining. Let’s check outside."
+        },
+        {
+          "zh": "我承认，刚才是我看错了。",
+          "py": "wǒ chéng rèn , gāng cái shì wǒ kàn cuò le .",
+          "en": "I admit I read it wrong just now."
+        },
+        {
+          "zh": "他终于承认自己忘了报名。",
+          "py": "tā zhōng yú chéng rèn zì jǐ wàng le bào míng .",
+          "en": "He finally admitted he’d forgotten to register."
+        },
+        {
+          "zh": "请诚实地告诉我，菜是不是太咸了？",
+          "py": "qǐng chéng shí de gào sù wǒ , cài shì bú shì tài xián le ?",
+          "en": "Tell me honestly: is the food too salty?"
+        },
+        {
+          "zh": "她很诚实，捡到钱马上交给了老师。",
+          "py": "tā hěn chéng shí , jiǎn dào qián mǎ shàng jiāo gěi le lǎo shī .",
+          "en": "She was honest and immediately gave the money she found to the teacher."
+        },
+        {
+          "zh": "他称赞我的外套，我却听成了别的话。",
+          "py": "tā chēng zàn wǒ de wài tào , wǒ què tīng chéng le bié de huà .",
+          "en": "He complimented my coat, but I misheard it as something else."
+        },
+        {
+          "zh": "妈妈称赞我这次做饭有进步。",
+          "py": "mā mā chēng zàn wǒ zhè cì zuò fàn yǒu jìn bù .",
+          "en": "Mum said my cooking had improved this time."
+        },
+        {
+          "zh": "你先解释一下，我再回答。",
+          "py": "nǐ xiān jiě shì yī xià , wǒ zài huí dá .",
+          "en": "Explain first, then I’ll answer."
+        },
+        {
+          "zh": "她用两张照片解释了路线。",
+          "py": "tā yòng liǎng zhāng zhào piān jiě shì le lù xiàn .",
+          "en": "She explained the route using two photos."
+        },
+        {
+          "zh": "老师当着全班表扬了她。",
+          "py": "lǎo shī dāng zhe quán bān biǎo yáng le tā .",
+          "en": "The teacher praised her in front of the whole class."
+        },
+        {
+          "zh": "他不习惯被表扬，脸一下就红了。",
+          "py": "tā bù xí guàn bèi biǎo yáng , liǎn yī xià jiù hóng le .",
+          "en": "He wasn’t used to being praised and immediately blushed."
+        },
+        {
+          "zh": "我不在乎坐哪里，只要能听清楚。",
+          "py": "wǒ bù zài hū zuò nǎ lǐ , zhǐ yào néng tīng qīng chǔ .",
+          "en": "I don’t mind where I sit as long as I can hear."
+        },
+        {
+          "zh": "她不在乎输赢，只想跟朋友一起玩。",
+          "py": "tā bù zài hū shū yíng , zhǐ xiǎng gēn péng you yì qǐ wán .",
+          "en": "She doesn’t care about winning or losing; she just wants to play with friends."
+        },
+        {
+          "zh": "迟到几分钟不要紧，到了给我发消息。",
+          "py": "chí dào jǐ fēn zhōng bú yào jǐn , dào le gěi wǒ fā xiāo xī .",
+          "en": "A few minutes late is fine; message me when you arrive."
+        },
+        {
+          "zh": "杯子打破了？不要紧，你没受伤吧？",
+          "py": "bēi zi dǎ pò le ? bú yào jǐn , nǐ méi shòu shāng ba ?",
+          "en": "You broke the cup? It’s all right. Are you hurt?"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "外套",
+          "pinyin": "wài tào",
+          "meaning": "coat"
+        },
+        {
+          "hanzi": "钥匙",
+          "pinyin": "yào shi",
+          "meaning": "key"
+        },
+        {
+          "hanzi": "冰箱",
+          "pinyin": "bīng xiāng",
+          "meaning": "refrigerator"
+        },
+        {
+          "hanzi": "咸",
+          "pinyin": "xián",
+          "meaning": "salty"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u02-c",
+    "title": "A compliment or a joke?",
+    "place": "Outside a friend’s gathering",
+    "context": "You are unsure whether a comment about your coat was friendly.",
+    "goal": "Check the intended meaning of an ambiguous remark",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "你刚才是什么意思？",
+        "pinyin": "nǐ gāng cái shì shén me yì si ?",
+        "meaning": "What did you mean just now?",
+        "intent": "Clarify your intended compliment",
+        "examples": [
+          "我是真心称赞你，颜色很好看。"
+        ],
+        "accept": [
+          "^我是真心称赞你，颜色很好看。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你是不是不喜欢这个话题？",
+        "pinyin": "nǐ shì bú shì bù xǐ huān zhè gè huà tí ?",
+        "meaning": "Do you dislike this topic?",
+        "intent": "Say that the topic is fine but you misheard",
+        "examples": [
+          "不是，我只是误会你的意思了。"
+        ],
+        "accept": [
+          "^不是，我只是误会你的意思了。[。！？]?$"
+        ]
+      },
+      {
+        "text": "那我们进去吧？",
+        "pinyin": "nà wǒ men jìn qù ba ?",
+        "meaning": "Shall we go in then?",
+        "intent": "Accept and move on",
+        "examples": [
+          "好，进去吧。"
+        ],
+        "accept": [
+          "^好，进去吧。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Check a possible joke",
+      "natural": {
+        "zh": "你是在开玩笑，对吧？",
+        "py": "nǐ shì zài kāi wán xiào , duì ba ?",
+        "en": "You’re joking, right?"
+      },
+      "note": "Use a light delivery when checking friendly teasing; the same words can sound challenging if stressed."
+    },
+    {
+      "situation": "Own a misunderstanding",
+      "natural": {
+        "zh": "是我误会了，谢谢你解释。",
+        "py": "shì wǒ wù huì le , xiè xiè nǐ jiě shì .",
+        "en": "I misunderstood. Thanks for explaining."
+      },
+      "note": "This addresses your reading of the remark without claiming everyone must share it."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u02-t01",
+      "phrase": "s4-u02-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我真是在称赞你。我这个人一紧张就不太会笑。",
+        "py": "wǒ zhēn shì zài chēng zàn nǐ . wǒ zhè gè rén yī jǐn zhāng jiù bù tài huì xiào .",
+        "en": "I really was complimenting you. I find it hard to smile when I’m nervous."
+      },
+      "statement": "The speaker says nervousness makes smiling difficult.",
+      "answer": true,
+      "why": "They explicitly describe what happens when nervous."
+    },
+    {
+      "id": "s4-u02-t02",
+      "phrase": "s4-u02-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "他没有发火，只问我究竟把票放在哪里。我承认自己出门前没检查，马上打车回去拿。",
+        "py": "tā méi yǒu fā huǒ , zhǐ wèn wǒ jiū jìng bǎ piào fàng zài nǎ lǐ . wǒ chéng rèn zì jǐ chū mén qián méi jiǎn chá , mǎ shàng dǎ chē huí qù ná .",
+        "en": "He didn’t lose his temper, just asked where exactly I’d put the tickets. I admitted I hadn’t checked before leaving and immediately took a taxi home to collect them."
+      },
+      "statement": "The narrator immediately blamed the friend for losing the tickets.",
+      "answer": false,
+      "why": "They admitted not checking before leaving."
+    },
+    {
+      "id": "s4-u02-t03",
+      "phrase": "s4-u02-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "你说我的外套挺好看，究竟是什么意思？",
+        "py": "nǐ shuō wǒ de wài tào tǐng hǎo kàn , jiū jìng shì shén me yì si ?",
+        "en": "You said my coat looks good. What exactly do you mean?"
+      },
+      "choices": [
+        "我是在称赞你的外套。",
+        "我是说这件外套不好看。",
+        "我只说不好看，没有说好看。"
+      ],
+      "answer": "我是在称赞你的外套。",
+      "why": "This clarifies the remark under discussion."
+    },
+    {
+      "id": "s4-u02-t04",
+      "phrase": "s4-u02-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "票还在家里，我们现在在车站，家里可能有人。怎么办？",
+        "py": "piào hái zài jiā lǐ , wǒ men xiàn zài zài chē zhàn , jiā lǐ kě néng yǒu rén . zěn me bàn ?",
+        "en": "The tickets are at home and we are at the station. Someone may be home. What can we do?"
+      },
+      "choices": [
+        "先问问家里有没有人。",
+        "我们已经拿到票，可以直接上车。",
+        "票不在家里，你刚才说带来了。"
+      ],
+      "answer": "先问问家里有没有人。",
+      "why": "The reply offers a practical next step."
+    },
+    {
+      "id": "s4-u02-t05",
+      "phrase": "s4-u02-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "天气很好，她【却】不想出门。",
+        "py": "tiān qì hěn hǎo , tā què bù xiǎng chū mén .",
+        "en": "The weather is lovely, yet she doesn’t want to go out."
+      },
+      "blankPy": "què"
+    },
+    {
+      "id": "s4-u02-t06",
+      "phrase": "s4-u02-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "这家店的面【的确】很好吃。",
+        "py": "zhè jiā diàn de miàn dí què hěn hǎo chī .",
+        "en": "The noodles here really are good."
+      },
+      "blankPy": "dí què"
+    },
+    {
+      "id": "s4-u02-t07",
+      "phrase": "s4-u02-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "She hinted that she wanted to go home early.",
+          "right": {
+            "zh": "她暗示自己想早点回家。",
+            "py": "tā àn shì zì jǐ xiǎng zǎo diǎn huí jiā .",
+            "en": "She hinted that she wanted to go home early."
+          }
+        },
+        {
+          "left": "Do you actually want to go on Friday or Saturday?",
+          "right": {
+            "zh": "你究竟想周五去，还是周六去？",
+            "py": "nǐ jiū jìng xiǎng zhōu wǔ qù , hái shi zhōu liù qù ?",
+            "en": "Do you actually want to go on Friday or Saturday?"
+          }
+        },
+        {
+          "left": "I admit I read it wrong just now.",
+          "right": {
+            "zh": "我承认，刚才是我看错了。",
+            "py": "wǒ chéng rèn , gāng cái shì wǒ kàn cuò le .",
+            "en": "I admit I read it wrong just now."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u02-t08",
+      "phrase": "s4-u02-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Being quiet doesn’t necessarily mean being angry.",
+          "right": {
+            "zh": "不说话未必是生气。",
+            "py": "bù shuō huà wèi bì shì shēng qì .",
+            "en": "Being quiet doesn’t necessarily mean being angry."
+          }
+        },
+        {
+          "left": "A map is useful for friends visiting for the first time.",
+          "right": {
+            "zh": "对于第一次来的朋友，地图很有用。",
+            "py": "duì yú dì yī cì lái de péng you , dì tú hěn yǒu yòng .",
+            "en": "A map is useful for friends visiting for the first time."
+          }
+        },
+        {
+          "left": "She doesn’t care about winning or losing; she just wants to play with friends.",
+          "right": {
+            "zh": "她不在乎输赢，只想跟朋友一起玩。",
+            "py": "tā bù zài hū shū yíng , zhǐ xiǎng gēn péng you yì qǐ wán .",
+            "en": "She doesn’t care about winning or losing; she just wants to play with friends."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: teasing force of 你可真行, whether the coat exchange sounds friendly in performance, 得/的/地 and neutral-syllable delivery. Keys distinguish uncertainty and direct statements without placing app-policy commentary in the dialogue.",
+  "characters": [
+    {
+      "hanzi": "暗",
+      "pinyin": "àn",
+      "meaning": "dark; hidden",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "暗",
+          "role": "whole",
+          "gloss": "dark; hidden"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 暗 in 暗示. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "暗示",
+          "p": "àn shì",
+          "m": "hint; imply"
+        }
+      ]
+    },
+    {
+      "hanzi": "含",
+      "pinyin": "hán",
+      "meaning": "contain",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "含",
+          "role": "whole",
+          "gloss": "contain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 含 in 含义. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "含义",
+          "p": "hán yì",
+          "m": "meaning; implication"
+        }
+      ]
+    },
+    {
+      "hanzi": "究",
+      "pinyin": "jiū",
+      "meaning": "investigate, in 究竟",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "究",
+          "role": "whole",
+          "gloss": "investigate, in 究竟"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 究 in 究竟. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "究竟",
+          "p": "jiū jìng",
+          "m": "exactly; after all"
+        }
+      ]
+    },
+    {
+      "hanzi": "竟",
+      "pinyin": "jìng",
+      "meaning": "after all, in 究竟",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "竟",
+          "role": "whole",
+          "gloss": "after all, in 究竟"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 竟 in 究竟 / 竟然. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "究竟",
+          "p": "jiū jìng",
+          "m": "exactly; after all"
+        },
+        {
+          "w": "竟然",
+          "p": "jìng rán",
+          "m": "unexpectedly"
+        }
+      ]
+    },
+    {
+      "hanzi": "未",
+      "pinyin": "wèi",
+      "meaning": "not yet",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "未",
+          "role": "whole",
+          "gloss": "not yet"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 未 in 未必. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "未必",
+          "p": "wèi bì",
+          "m": "not necessarily"
+        }
+      ]
+    },
+    {
+      "hanzi": "却",
+      "pinyin": "què",
+      "meaning": "yet; however",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "却",
+          "role": "whole",
+          "gloss": "yet; however"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 却 in 却. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "却",
+          "p": "què",
+          "m": "but; yet"
+        }
+      ]
+    },
+    {
+      "hanzi": "乎",
+      "pinyin": "hū",
+      "meaning": "bound component in 在乎, care about",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "乎",
+          "role": "whole",
+          "gloss": "bound component in 在乎, care about"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 乎 in 似乎 / 不在乎. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "似乎",
+          "p": "sì hū",
+          "m": "seem; apparently"
+        },
+        {
+          "w": "不在乎",
+          "p": "bù zài hū",
+          "m": "not mind; not care"
+        }
+      ]
+    },
+    {
+      "hanzi": "承",
+      "pinyin": "chéng",
+      "meaning": "undertake; accept",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "承",
+          "role": "whole",
+          "gloss": "undertake; accept"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 承 in 承认. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "承认",
+          "p": "chéng rèn",
+          "m": "admit; acknowledge"
+        }
+      ]
+    },
+    {
+      "hanzi": "诚",
+      "pinyin": "chéng",
+      "meaning": "sincere",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "诚",
+          "role": "whole",
+          "gloss": "sincere"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 诚 in 诚实. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "诚实",
+          "p": "chéng shí",
+          "m": "honest"
+        }
+      ]
+    },
+    {
+      "hanzi": "扬",
+      "pinyin": "yáng",
+      "meaning": "raise; praise, in 表扬",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "扬",
+          "role": "whole",
+          "gloss": "raise; praise, in 表扬"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 扬 in 表扬. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "表扬",
+          "p": "biǎo yáng",
+          "m": "commend; praise"
+        }
+      ]
+    }
+  ]
+}

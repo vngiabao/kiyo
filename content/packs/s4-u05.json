@@ -1,0 +1,1185 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u05",
+    "stage": 3,
+    "order": 113,
+    "title": "Understand the verse before rushing it",
+    "titleZh": "先听懂，再跟着唱",
+    "canDo": [
+      "Explain a short original verse using clues from nearby lines",
+      "Distinguish a poetic image from a literal event",
+      "Choose a small practice segment and describe what improved"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u04",
+      "s4-u04-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u05-w01",
+      "hanzi": "优美",
+      "pinyin": "yōu měi",
+      "meaning": "beautiful; graceful",
+      "meaningVi": "đẹp; thanh nhã",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她的声音很优美。",
+        "py": "tā de shēng yīn hěn yōu měi .",
+        "en": "Her voice is beautiful."
+      },
+      "usageNote": "[GF2021:L4:9816] Source entry: 优美; yōuměi; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u05-w02",
+      "hanzi": "影子",
+      "pinyin": "yǐng zi",
+      "meaning": "shadow",
+      "meaningVi": "bóng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "灯下有两个人的影子。",
+        "py": "dēng xià yǒu liǎng gè rén de yǐng zi .",
+        "en": "There are two people’s shadows under the light."
+      },
+      "usageNote": "[GF2021:L4:9763] Source entry: 影子; yǐngzi; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u05-w03",
+      "hanzi": "浅",
+      "pinyin": "qiǎn",
+      "meaning": "shallow; light in colour",
+      "meaningVi": "nông; nhạt",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这条河很浅，可以看见河底。",
+        "py": "zhè tiáo hé hěn qiǎn , kě yǐ kàn jiàn hé dǐ .",
+        "en": "This river is shallow; you can see the bottom."
+      },
+      "usageNote": "[GF2021:L4:6371] Source entry: 浅; qiǎn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u05-w04",
+      "hanzi": "演唱",
+      "pinyin": "yǎn chàng",
+      "meaning": "sing; perform a song",
+      "meaningVi": "biểu diễn bài hát",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "今晚由她演唱最后一首歌。",
+        "py": "jīn wǎn yóu tā yǎn chàng zuì hòu yī shǒu gē .",
+        "en": "She’ll sing the final song tonight."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w05",
+      "hanzi": "录音",
+      "pinyin": "lù yīn",
+      "meaning": "record sound; sound recording",
+      "meaningVi": "thu âm; bản thu",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我想录音，听听哪里唱得不清楚。",
+        "py": "wǒ xiǎng lù yīn , tīng tīng nǎ lǐ chàng dé bù qīng chǔ .",
+        "en": "I’d like to record myself and hear which parts aren’t clear."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w06",
+      "hanzi": "重复",
+      "pinyin": "chóng fù",
+      "meaning": "repeat",
+      "meaningVi": "lặp lại",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这句话请再重复一次。",
+        "py": "zhè jù huà qǐng zài chóng fù yī cì .",
+        "en": "Please repeat this sentence once more."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w07",
+      "hanzi": "效果",
+      "pinyin": "xiào guǒ",
+      "meaning": "effect; result",
+      "meaningVi": "hiệu quả",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "换了位置以后，录音效果好多了。",
+        "py": "huàn le wèi zhì yǐ hòu , lù yīn xiào guǒ hǎo duō le .",
+        "en": "The recording sounds much better after we moved."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w08",
+      "hanzi": "轻",
+      "pinyin": "qīng",
+      "meaning": "light; gentle",
+      "meaningVi": "nhẹ",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这个包很轻，你拿吧。",
+        "py": "zhè gè bāo hěn qīng , nǐ ná ba .",
+        "en": "This bag is light; you can carry it."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w09",
+      "hanzi": "深",
+      "pinyin": "shēn",
+      "meaning": "deep; dark in colour",
+      "meaningVi": "sâu; đậm",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这条河中间很深。",
+        "py": "zhè tiáo hé zhōng jiān hěn shēn .",
+        "en": "The middle of this river is deep."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w10",
+      "hanzi": "温暖",
+      "pinyin": "wēn nuǎn",
+      "meaning": "warm",
+      "meaningVi": "ấm áp",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "冬天的阳光照在身上很温暖。",
+        "py": "dōng tiān de yáng guāng zhào zài shēn shàng hěn wēn nuǎn .",
+        "en": "The winter sunlight feels warm on my skin."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w11",
+      "hanzi": "静",
+      "pinyin": "jìng",
+      "meaning": "quiet; still",
+      "meaningVi": "yên tĩnh",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "屋里很静，只听见钟的声音。",
+        "py": "wū lǐ hěn jìng , zhǐ tīng jiàn zhōng de shēng yīn .",
+        "en": "The room is quiet; only the clock can be heard."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w12",
+      "hanzi": "感情",
+      "pinyin": "gǎn qíng",
+      "meaning": "feelings; emotional attachment",
+      "meaningVi": "tình cảm",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "他们认识很久了，感情很好。",
+        "py": "tā men rèn shi hěn jiǔ le , gǎn qíng hěn hǎo .",
+        "en": "They’ve known each other a long time and are very close."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w13",
+      "hanzi": "声音",
+      "pinyin": "shēng yīn",
+      "meaning": "sound; voice",
+      "meaningVi": "âm thanh; giọng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我听见楼下有人说话的声音。",
+        "py": "wǒ tīng jiàn lóu xià yǒu rén shuō huà de shēng yīn .",
+        "en": "I heard people talking downstairs."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w14",
+      "hanzi": "动作",
+      "pinyin": "dòng zuò",
+      "meaning": "movement; action",
+      "meaningVi": "động tác",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这个动作先慢慢练。",
+        "py": "zhè gè dòng zuò xiān màn màn liàn .",
+        "en": "Practise this movement slowly first."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u05-w15",
+      "hanzi": "暗",
+      "pinyin": "àn",
+      "meaning": "dark; dim",
+      "meaningVi": "tối",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这边太暗，看不清字。",
+        "py": "zhè biān tài àn , kàn bù qīng zì .",
+        "en": "It’s too dark here to read the words."
+      },
+      "usageNote": "[GF2021:L4:55] Source entry: 暗; àn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u05-w16",
+      "hanzi": "纯",
+      "pinyin": "chún",
+      "meaning": "pure; unmixed",
+      "meaningVi": "thuần; nguyên chất",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这件衣服是纯棉的。",
+        "py": "zhè jiàn yī fú shì chún mián de .",
+        "en": "This garment is pure cotton."
+      },
+      "usageNote": "[GF2021:L4:1276] Source entry: 纯; chún; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u05-g01",
+      "pattern": "一…就…",
+      "purpose": "Describe an immediate trigger",
+      "explanation": "The event after 一 triggers the result after 就. Subjects may differ. This pattern is about the relationship between events, not a promise that practice succeeds.",
+      "examples": [
+        {
+          "zh": "音乐一响，我就跟不上了。",
+          "py": "yīn yuè yī xiǎng , wǒ jiù gēn bù shàng le .",
+          "en": "As soon as the music starts, I can’t keep up."
+        },
+        {
+          "zh": "她一到家就给我打电话。",
+          "py": "tā yī dào jiā jiù gěi wǒ dǎ diàn huà .",
+          "en": "She calls me as soon as she gets home."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一音乐响，我就跟不上了。",
+          "right": "音乐一响，我就跟不上了。",
+          "why": "Put 一 immediately before the triggering verb."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u05-g02",
+      "pattern": "把 + object + result/location",
+      "purpose": "Track what happens to a known object",
+      "explanation": "把 introduces a specific affected object before a verb with a result, location or other completion. In a verse the object or result can be figurative; the grammar alone does not make the image literal.",
+      "examples": [
+        {
+          "zh": "把录音发给我。",
+          "py": "bǎ lù yīn fā gěi wǒ .",
+          "en": "Send me the recording."
+        },
+        {
+          "zh": "把这句话读清楚。",
+          "py": "bǎ zhè jù huà dú qīng chǔ .",
+          "en": "Read this sentence clearly."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "把录音发。",
+          "right": "把录音发给我。",
+          "why": "In this request, give the destination rather than leaving the action incomplete."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u05-g03",
+      "pattern": "不是…而是…",
+      "purpose": "Correct a misunderstanding of meaning",
+      "explanation": "Reject one interpretation and supply the more fitting one. Keep the two clauses comparable.",
+      "examples": [
+        {
+          "zh": "这不是说明天是一件东西，而是在说还想再见。",
+          "py": "zhè bù shì shuō míng tiān shì yī jiàn dōng xi , ér shì zài shuō hái xiǎng zài jiàn .",
+          "en": "It doesn’t mean tomorrow is an object; it means wanting to meet again."
+        },
+        {
+          "zh": "我不是不练，而是想先弄懂。",
+          "py": "wǒ bù shì bù liàn , ér shì xiǎng xiān nòng dǒng .",
+          "en": "It isn’t that I won’t practise; I want to understand first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我不是想先弄懂，而是想先弄懂。",
+          "right": "我不是不练，而是想先弄懂。",
+          "why": "Identical alternatives do not clarify the misunderstanding."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u05-g04",
+      "pattern": "先…再… / 每次都…",
+      "purpose": "Sequence a repeatable practice routine",
+      "explanation": "先 and 再 order actions. 每次都 says an action happens on every occasion; it does not itself mean the action is useful.",
+      "examples": [
+        {
+          "zh": "先读清楚，再跟音乐。",
+          "py": "xiān dú qīng chǔ , zài gēn yīn yuè .",
+          "en": "Read clearly first, then try with the music."
+        },
+        {
+          "zh": "别每次都从头开始。",
+          "py": "bié měi cì dōu cóng tóu kāi shǐ .",
+          "en": "Don’t start from the beginning every time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先跟音乐，再读清楚，所以第一步是读。",
+          "right": "先读清楚，再跟音乐。",
+          "why": "The stated first step must match the order of the clauses."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u05-d",
+    "title": "先听懂，再跟着唱",
+    "titleZh": "先听懂，再跟着唱",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "这两句你已经重复好多遍了，还没唱顺？",
+        "py": "zhè liǎng jù nǐ yǐ jīng chóng fù hǎo duō biàn le , hái méi chàng shùn ?",
+        "en": "You’ve repeated those two lines so many times. Still not smooth?",
+        "speaker": "a"
+      },
+      {
+        "zh": "字我都认识，可是一跟音乐就来不及。",
+        "py": "zì wǒ dōu rèn shi , kě shì yī gēn yīn yuè jiù lái bù jí .",
+        "en": "I know all the words, but I can’t keep up with the music.",
+        "speaker": "b"
+      },
+      {
+        "zh": "先别放音乐。把它当成一句话，读给我听。",
+        "py": "xiān bié fàng yīn yuè . bǎ tā dàng chéng yī jù huà , dú gěi wǒ tīng .",
+        "en": "Leave the music off for now. Treat it as a sentence and read it to me.",
+        "speaker": "a"
+      },
+      {
+        "zh": "“把歌声留在窗边，把明天带回来。”明天怎么带回来？",
+        "py": "bǎ gē shēng liú zài chuāng biān , bǎ míng tiān dài huí lái . míng tiān zěn me dài huí lái ?",
+        "en": "“Leave the song by the window; bring tomorrow back.” How can you bring tomorrow back?",
+        "speaker": "b"
+      },
+      {
+        "zh": "我觉得是在说想再见到那个人。不是有人真的拿着一个明天。",
+        "py": "wǒ jué de shì zài shuō xiǎng zài jiàn dào nà gè rén . bù shì yǒu rén zhēn de ná zhe yī gè míng tiān .",
+        "en": "I think it means wanting to see someone again. Nobody’s literally carrying a tomorrow.",
+        "speaker": "a"
+      },
+      {
+        "zh": "所以这句不是在讲一个动作？",
+        "py": "suǒ yǐ zhè jù bù shì zài jiǎng yī gè dòng zuò ?",
+        "en": "So it isn’t describing an actual action?",
+        "speaker": "b"
+      },
+      {
+        "zh": "有动作的样子，但意思得连着前面的“等你”看。",
+        "py": "yǒu dòng zuò de yàng zi , dàn yì si dé lián zhe qián miàn de děng nǐ kàn .",
+        "en": "It looks like an action, but you need to read it with the earlier “waiting for you.”",
+        "speaker": "a"
+      },
+      {
+        "zh": "懂了。那我先读清楚，再试着唱，行吗？",
+        "py": "dǒng le . nà wǒ xiān dú qīng chǔ , zài shì zhe chàng , xíng ma ?",
+        "en": "Got it. I’ll read it clearly first, then try singing. Okay?",
+        "speaker": "b"
+      },
+      {
+        "zh": "行。录一小段就好，别一开始就从头唱到尾。",
+        "py": "xíng . lù yī xiǎo duàn jiù hǎo , bié yī kāi shǐ jiù cóng tóu chàng dào wěi .",
+        "en": "Sure. Just record a short part. Don’t try the whole thing from the start.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你听的时候不许笑。",
+        "py": "nǐ tīng de shí hou bù xǔ xiào .",
+        "en": "You’re not allowed to laugh when you listen.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那要看你唱什么了。我只能保证认真听。",
+        "py": "nà yào kàn nǐ chàng shén me le . wǒ zhǐ néng bǎo zhèng rèn zhēn tīng .",
+        "en": "That depends on what you sing. I can only promise to listen properly.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好吧，认真听也行。先帮我看看这两个字。",
+        "py": "hǎo ba , rèn zhēn tīng yě xíng . xiān bāng wǒ kàn kàn zhè liǎng gè zì .",
+        "en": "Fine, listening properly will do. Help me check these two characters first.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "从头",
+        "pinyin": "cóng tóu",
+        "meaning": "from the beginning"
+      },
+      {
+        "hanzi": "保证",
+        "pinyin": "bǎo zhèng",
+        "meaning": "promise; guarantee"
+      },
+      {
+        "hanzi": "从头唱到尾",
+        "pinyin": "cóng tóu chàng dào wěi",
+        "meaning": "sing from beginning to end"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the friend suggest first?",
+        "choices": [
+          "Read the words as speech without music",
+          "Perform the whole song immediately",
+          "Memorise sounds without checking meaning"
+        ],
+        "answer": "Read the words as speech without music"
+      },
+      {
+        "type": "detail",
+        "q": "What does the listener promise?",
+        "choices": [
+          "To listen carefully",
+          "Never to laugh under any circumstances",
+          "To make the recording professionally"
+        ],
+        "answer": "To listen carefully"
+      },
+      {
+        "type": "inference",
+        "q": "Why refer to the earlier “waiting for you”?",
+        "choices": [
+          "It gives context for the figurative final line",
+          "It proves tomorrow can be carried",
+          "It supplies the price of the song"
+        ],
+        "answer": "It gives context for the figurative final line"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u05-r",
+    "title": "先听懂，再跟着唱",
+    "titleZh": "先听懂，再跟着唱",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "第一次练这段歌时，我以为只要每个字都认识，就能跟着唱。结果音乐一响，我连第一句都没唱完，后面的字已经来了。",
+        "py": "dì yī cì liàn zhè duàn gē shí , wǒ yǐ wéi zhǐ yào měi gè zì dōu rèn shi , jiù néng gēn zhe chàng . jié guǒ yīn yuè yī xiǎng , wǒ lián dì yī jù dōu méi chàng wán , hòu miàn de zì yǐ jīng lái le .",
+        "en": "When I first practised this verse, I thought knowing every character would let me sing along. Once the music started, I hadn’t finished the first line before the next words arrived."
+      },
+      {
+        "zh": "我关掉音乐，先读歌词。里面有窗边的灯、雨后的影子，还有一个人在等朋友回来。那些东西不难理解，可是最后两句不能只按字面看。",
+        "py": "wǒ guān diào yīn yuè , xiān dú gē cí . lǐ miàn yǒu chuāng biān de dēng , yǔ hòu de yǐng zi , hái yǒu yī gè rén zài děng péng you huí lái . nà xiē dōng xi bù nán lǐ jiě , kě shì zuì hòu liǎng jù bù néng zhǐ àn zì miàn kàn .",
+        "en": "I switched off the music and read the words. There was a light by a window, a shadow after rain and someone waiting for a friend. Those details were clear, but the last two lines needed more than a literal reading."
+      },
+      {
+        "zh": "朋友问我：“前面谁在等谁？”我才发现自己一直注意快不快，没有想过这段到底在说什么。",
+        "py": "péng you wèn wǒ : qián miàn shéi zài děng shéi ? wǒ cái fā xiàn zì jǐ yì zhí zhù yì kuài bù kuài , méi yǒu xiǎng guò zhè duàn dào dǐ zài shuō shén me .",
+        "en": "My friend asked, “Who is waiting for whom earlier?” I realised I’d only been thinking about speed, not what the verse was saying."
+      },
+      {
+        "zh": "我们把八句分成四小段。我先读一句，讲清意思，再跟着音乐试一次。遇到连在一起的几个字，就单独重复，而不是每次都从头开始。",
+        "py": "wǒ men bǎ bā jù fēn chéng sì xiǎo duàn . wǒ xiān dú yī jù , jiǎng qīng yì si , zài gēn zhe yīn yuè shì yī cì . yù dào lián zài yì qǐ de jǐ gè zì , jiù dān dú chóng fù , ér bù shì měi cì dōu cóng tóu kāi shǐ .",
+        "en": "We divided the eight lines into four short sections. I read a line, explained its meaning and then tried it with the music. I practised difficult clusters separately instead of restarting each time."
+      },
+      {
+        "zh": "后来我录了两次。第一次声音太小，第二次字清楚了，速度却还是有点慢。朋友没有说我已经唱好了，只指出我这次没有漏掉“等你”。",
+        "py": "hòu lái wǒ lù le liǎng cì . dì yī cì shēng yīn tài xiǎo , dì èr cì zì qīng chǔ le , sù dù què hái shi yǒu diǎn màn . péng you méi yǒu shuō wǒ yǐ jīng chàng hǎo le , zhǐ zhǐ chū wǒ zhè cì méi yǒu lòu diào děng nǐ .",
+        "en": "Later I made two recordings. The first was too quiet; in the second the words were clear but still a little slow. My friend didn’t say I’d mastered it, just that I hadn’t missed “waiting for you” this time."
+      },
+      {
+        "zh": "现在我仍然会错，不过知道下一次要练哪一小段了。先懂意思再练速度，比把不懂的声音唱得很快更有用。",
+        "py": "xiàn zài wǒ réng rán huì cuò , bù guò zhī dào xià yī cì yào liàn nǎ yī xiǎo duàn le . xiān dǒng yì si zài liàn sù dù , bǐ bǎ bù dǒng de shēng yīn chàng dé hěn kuài gèng yǒu yòng .",
+        "en": "I still make mistakes, but I know which short section to practise next. Understanding first and then practising speed is more useful than singing unclear sounds quickly."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "歌词",
+        "pinyin": "gē cí",
+        "meaning": "song lyrics"
+      },
+      {
+        "hanzi": "字面",
+        "pinyin": "zì miàn",
+        "meaning": "literal wording"
+      },
+      {
+        "hanzi": "漏掉",
+        "pinyin": "lòu diào",
+        "meaning": "miss out; omit"
+      },
+      {
+        "hanzi": "从头",
+        "pinyin": "cóng tóu",
+        "meaning": "from the beginning"
+      },
+      {
+        "hanzi": "遇到",
+        "pinyin": "yù dào",
+        "meaning": "encounter; come across"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What changes in the narrator’s practice?",
+        "choices": [
+          "Meaning and short sections come before speed",
+          "Only full performances are used",
+          "Recordings are permanently avoided"
+        ],
+        "answer": "Meaning and short sections come before speed"
+      },
+      {
+        "type": "detail",
+        "q": "Which phrase is no longer missed in the second recording?",
+        "choices": [
+          "等你",
+          "别笑",
+          "快一点"
+        ],
+        "answer": "等你"
+      },
+      {
+        "type": "inference",
+        "q": "What remains difficult?",
+        "choices": [
+          "Matching the pace",
+          "Recognising any character at all",
+          "Finding someone willing to hear a recording"
+        ],
+        "answer": "Matching the pace"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u05-media",
+      "title": "Original verse: the window light",
+      "titleZh": "Original verse: the window light",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "雨停以后，路还没干。",
+          "py": "yǔ tíng yǐ hòu , lù hái méi gàn .",
+          "en": "After the rain stops, the road is still wet.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你的影子，留在门前。",
+          "py": "nǐ de yǐng zi , liú zài mén qián .",
+          "en": "Your shadow stays in front of the door.",
+          "speaker": "b"
+        },
+        {
+          "zh": "窗边的灯，亮了一晚。",
+          "py": "chuāng biān de dēng , liàng le yī wǎn .",
+          "en": "The light by the window shines all night.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我等你说，明天再见。",
+          "py": "wǒ děng nǐ shuō , míng tiān zài jiàn .",
+          "en": "I wait for you to say, “See you tomorrow.”",
+          "speaker": "b"
+        },
+        {
+          "zh": "别让一句话，走得太远。",
+          "py": "bié ràng yī jù huà , zǒu dé tài yuǎn .",
+          "en": "Don’t let a sentence wander too far.",
+          "speaker": "a"
+        },
+        {
+          "zh": "有些想念，没说也听见。",
+          "py": "yǒu xiē xiǎng niàn , méi shuō yě tīng jiàn .",
+          "en": "Some longing can be heard even without words.",
+          "speaker": "b"
+        },
+        {
+          "zh": "把歌声留在窗边。",
+          "py": "bǎ gē shēng liú zài chuāng biān .",
+          "en": "Leave the song by the window.",
+          "speaker": "a"
+        },
+        {
+          "zh": "把明天带回来。",
+          "py": "bǎ míng tiān dài huí lái .",
+          "en": "Bring tomorrow back.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "想念",
+          "pinyin": "xiǎng niàn",
+          "meaning": "miss; long for"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Who is waiting for a farewell about tomorrow?",
+          "choices": [
+            "The narrator",
+            "A person buying a lamp",
+            "An unnamed train driver"
+          ],
+          "answer": "The narrator"
+        },
+        {
+          "type": "inference",
+          "q": "Which reading best fits “把明天带回来”?",
+          "choices": [
+            "Hope for another meeting",
+            "A literal instruction to carry a date",
+            "A claim that the rain will never stop"
+          ],
+          "answer": "Hope for another meeting"
+        }
+      ]
+    },
+    {
+      "id": "s4-u05-word-notebook",
+      "title": "Understand the verse before rushing it: words in context",
+      "titleZh": "先听懂，再跟着唱 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "她的声音很优美。",
+          "py": "tā de shēng yīn hěn yōu měi .",
+          "en": "Her voice is beautiful."
+        },
+        {
+          "zh": "这篇文章的语言优美，但不难懂。",
+          "py": "zhè piān wén zhāng de yǔ yán yōu měi , dàn bù nán dǒng .",
+          "en": "This article uses beautiful language without being hard to understand."
+        },
+        {
+          "zh": "灯下有两个人的影子。",
+          "py": "dēng xià yǒu liǎng gè rén de yǐng zi .",
+          "en": "There are two people’s shadows under the light."
+        },
+        {
+          "zh": "太阳快落山了，树的影子越来越长。",
+          "py": "tài yáng kuài luò shān le , shù de yǐng zi yuè lái yuè zhǎng .",
+          "en": "The sun is setting and the tree’s shadow is growing longer."
+        },
+        {
+          "zh": "这条河很浅，可以看见河底。",
+          "py": "zhè tiáo hé hěn qiǎn , kě yǐ kàn jiàn hé dǐ .",
+          "en": "This river is shallow; you can see the bottom."
+        },
+        {
+          "zh": "我想买一件颜色浅一点的外套。",
+          "py": "wǒ xiǎng mǎi yī jiàn yán sè qiǎn yī diǎn de wài tào .",
+          "en": "I’d like a coat in a lighter colour."
+        },
+        {
+          "zh": "今晚由她演唱最后一首歌。",
+          "py": "jīn wǎn yóu tā yǎn chàng zuì hòu yī shǒu gē .",
+          "en": "She’ll sing the final song tonight."
+        },
+        {
+          "zh": "这首歌第一次公开演唱时，他还很年轻。",
+          "py": "zhè shǒu gē dì yī cì gōng kāi yǎn chàng shí , tā hái hěn nián qīng .",
+          "en": "He was very young when he first sang this song in public."
+        },
+        {
+          "zh": "我想录音，听听哪里唱得不清楚。",
+          "py": "wǒ xiǎng lù yīn , tīng tīng nǎ lǐ chàng dé bù qīng chǔ .",
+          "en": "I’d like to record myself and hear which parts aren’t clear."
+        },
+        {
+          "zh": "这段录音只有一分钟。",
+          "py": "zhè duàn lù yīn zhǐ yǒu yī fēn zhōng .",
+          "en": "This recording is only a minute long."
+        },
+        {
+          "zh": "这句话请再重复一次。",
+          "py": "zhè jù huà qǐng zài chóng fù yī cì .",
+          "en": "Please repeat this sentence once more."
+        },
+        {
+          "zh": "我不想每天重复同样的错误。",
+          "py": "wǒ bù xiǎng měi tiān chóng fù tóng yàng de cuò wù .",
+          "en": "I don’t want to repeat the same mistakes every day."
+        },
+        {
+          "zh": "换了位置以后，录音效果好多了。",
+          "py": "huàn le wèi zhì yǐ hòu , lù yīn xiào guǒ hǎo duō le .",
+          "en": "The recording sounds much better after we moved."
+        },
+        {
+          "zh": "这个方法的效果要过几天才能看出来。",
+          "py": "zhè gè fāng fǎ de xiào guǒ yào guò jǐ tiān cái néng kàn chū lái .",
+          "en": "It’ll take a few days to see how well this method works."
+        },
+        {
+          "zh": "这个包很轻，你拿吧。",
+          "py": "zhè gè bāo hěn qīng , nǐ ná ba .",
+          "en": "This bag is light; you can carry it."
+        },
+        {
+          "zh": "关门轻一点，孩子在睡觉。",
+          "py": "guān mén qīng yī diǎn , hái zi zài shuì jiào .",
+          "en": "Close the door gently; the child is asleep."
+        },
+        {
+          "zh": "这条河中间很深。",
+          "py": "zhè tiáo hé zhōng jiān hěn shēn .",
+          "en": "The middle of this river is deep."
+        },
+        {
+          "zh": "深蓝色那件更适合你。",
+          "py": "shēn lán sè nà jiàn gèng shì hé nǐ .",
+          "en": "The dark blue one suits you better."
+        },
+        {
+          "zh": "冬天的阳光照在身上很温暖。",
+          "py": "dōng tiān de yáng guāng zhào zài shēn shàng hěn wēn nuǎn .",
+          "en": "The winter sunlight feels warm on my skin."
+        },
+        {
+          "zh": "这封信让我感到温暖。",
+          "py": "zhè fēng xìn ràng wǒ gǎn dào wēn nuǎn .",
+          "en": "This letter made me feel cared for."
+        },
+        {
+          "zh": "屋里很静，只听见钟的声音。",
+          "py": "wū lǐ hěn jìng , zhǐ tīng jiàn zhōng de shēng yīn .",
+          "en": "The room is quiet; only the clock can be heard."
+        },
+        {
+          "zh": "请让孩子静一会儿。",
+          "py": "qǐng ràng hái zi jìng yī huì er .",
+          "en": "Please let the child have a quiet moment."
+        },
+        {
+          "zh": "他们认识很久了，感情很好。",
+          "py": "tā men rèn shi hěn jiǔ le , gǎn qíng hěn hǎo .",
+          "en": "They’ve known each other a long time and are very close."
+        },
+        {
+          "zh": "唱得很准，却没什么感情。",
+          "py": "chàng dé hěn zhǔn , què méi shén me gǎn qíng .",
+          "en": "The singing is accurate but has little feeling."
+        },
+        {
+          "zh": "我听见楼下有人说话的声音。",
+          "py": "wǒ tīng jiàn lóu xià yǒu rén shuō huà de shēng yīn .",
+          "en": "I heard people talking downstairs."
+        },
+        {
+          "zh": "你的声音太小，我听不清。",
+          "py": "nǐ de shēng yīn tài xiǎo , wǒ tīng bù qīng .",
+          "en": "Your voice is too quiet for me to hear clearly."
+        },
+        {
+          "zh": "这个动作先慢慢练。",
+          "py": "zhè gè dòng zuò xiān màn màn liàn .",
+          "en": "Practise this movement slowly first."
+        },
+        {
+          "zh": "她的动作很快，转眼就收好了。",
+          "py": "tā de dòng zuò hěn kuài , zhuǎn yǎn jiù shōu hǎo le .",
+          "en": "She moved quickly and had everything packed in a moment."
+        },
+        {
+          "zh": "这边太暗，看不清字。",
+          "py": "zhè biān tài àn , kàn bù qīng zì .",
+          "en": "It’s too dark here to read the words."
+        },
+        {
+          "zh": "天还没完全暗，我们出去走走吧。",
+          "py": "tiān hái méi wán quán àn , wǒ men chū qù zǒu zǒu ba .",
+          "en": "It isn’t completely dark yet; let’s take a walk."
+        },
+        {
+          "zh": "这件衣服是纯棉的。",
+          "py": "zhè jiàn yī fú shì chún mián de .",
+          "en": "This garment is pure cotton."
+        },
+        {
+          "zh": "我想点一杯纯果汁，不加水。",
+          "py": "wǒ xiǎng diǎn yī bēi chún guǒ zhī , bù jiā shuǐ .",
+          "en": "I’d like pure fruit juice with no water added."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "纯棉",
+          "pinyin": "chún mián",
+          "meaning": "pure cotton"
+        },
+        {
+          "hanzi": "果汁",
+          "pinyin": "guǒ zhī",
+          "meaning": "fruit juice"
+        },
+        {
+          "hanzi": "河底",
+          "pinyin": "hé dǐ",
+          "meaning": "river bottom"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u05-c",
+    "title": "Understand the verse before rushing it",
+    "place": "Practising an original verse with a friend",
+    "context": "One friend can read the words but loses the line when music begins.",
+    "goal": "Explain a short original verse using clues from nearby lines",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "为什么先不放音乐？",
+        "pinyin": "wèi shén me xiān bù fàng yīn yuè ?",
+        "meaning": "Why leave the music off first?",
+        "intent": "Explain the first step",
+        "examples": [
+          "我想先读清楚，弄懂意思。"
+        ],
+        "accept": [
+          "^我想先读清楚，弄懂意思。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你要录整首吗？",
+        "pinyin": "nǐ yào lù zhěng shǒu ma ?",
+        "meaning": "Are you recording the whole song?",
+        "intent": "Choose a manageable section",
+        "examples": [
+          "不用，我先录这两句。"
+        ],
+        "accept": [
+          "^不用，我先录这两句。[。！？]?$"
+        ]
+      },
+      {
+        "text": "最后一句是什么意思？",
+        "pinyin": "zuì hòu yī jù shì shén me yì si ?",
+        "meaning": "What does the last line mean?",
+        "intent": "Give an interpretation with a clue",
+        "examples": [
+          "前面说在等朋友，所以我觉得是希望再见。"
+        ],
+        "accept": [
+          "^前面说在等朋友，所以我觉得是希望再见。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Offer a specific listening request",
+      "natural": {
+        "zh": "帮我听听这两个字清不清楚。",
+        "py": "bāng wǒ tīng tīng zhè liǎng gè zì qīng bù qīng chǔ .",
+        "en": "Help me hear whether these two characters are clear."
+      },
+      "note": "The request asks about a defined segment rather than an invented overall pronunciation score."
+    },
+    {
+      "situation": "Mark an interpretation",
+      "natural": {
+        "zh": "我觉得这里是在说想再见。",
+        "py": "wǒ jué de zhè lǐ shì zài shuō xiǎng zài jiàn .",
+        "en": "I think this means wanting to meet again."
+      },
+      "note": "我觉得 marks your interpretation; nearby lines provide the evidence."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u05-t01",
+      "phrase": "s4-u05-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "行。录一小段就好，别一开始就从头唱到尾。",
+        "py": "xíng . lù yī xiǎo duàn jiù hǎo , bié yī kāi shǐ jiù cóng tóu chàng dào wěi .",
+        "en": "Sure. Just record a short part. Don’t try the whole thing from the start."
+      },
+      "statement": "The friend recommends recording a short section.",
+      "answer": true,
+      "why": "录一小段 explicitly recommends a short section."
+    },
+    {
+      "id": "s4-u05-t02",
+      "phrase": "s4-u05-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "后来我录了两次。第一次声音太小，第二次字清楚了，速度却还是有点慢。朋友没有说我已经唱好了，只指出我这次没有漏掉“等你”。",
+        "py": "hòu lái wǒ lù le liǎng cì . dì yī cì shēng yīn tài xiǎo , dì èr cì zì qīng chǔ le , sù dù què hái shi yǒu diǎn màn . péng you méi yǒu shuō wǒ yǐ jīng chàng hǎo le , zhǐ zhǐ chū wǒ zhè cì méi yǒu lòu diào děng nǐ .",
+        "en": "Later I made two recordings. The first was too quiet; in the second the words were clear but still a little slow. My friend didn’t say I’d mastered it, just that I hadn’t missed “waiting for you” this time."
+      },
+      "statement": "The second recording was already perfectly at the musical pace.",
+      "answer": false,
+      "why": "It was clearer but still a little slow."
+    },
+    {
+      "id": "s4-u05-t03",
+      "phrase": "s4-u05-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "字能读清楚，一跟音乐就来不及。怎么办？",
+        "py": "zì néng dú qīng chǔ , yī gēn yīn yuè jiù lái bù jí . zěn me bàn ?",
+        "en": "I can read the words clearly, but fall behind with the music. What should I do?"
+      },
+      "choices": [
+        "先读这两句，再试着跟。",
+        "既然能读清楚，就已经完全跟上音乐了。",
+        "不用看意思，把整首加快唱完就行。"
+      ],
+      "answer": "先读这两句，再试着跟。",
+      "why": "The reply offers the manageable practice described."
+    },
+    {
+      "id": "s4-u05-t04",
+      "phrase": "s4-u05-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "前面说在等朋友，最后说把明天带回来。是什么意思？",
+        "py": "qián miàn shuō zài děng péng you , zuì hòu shuō bǎ míng tiān dài huí lái . shì shén me yì si ?",
+        "en": "Earlier the narrator waits for a friend, then says bring tomorrow back. What does that mean?"
+      },
+      "choices": [
+        "连着前面的等你看，可能是在说想再见。",
+        "是在要求朋友把一个日期拿在手里。",
+        "是在确定朋友已经回来，再也不用等。"
+      ],
+      "answer": "连着前面的等你看，可能是在说想再见。",
+      "why": "The reply uses a contextual interpretation rather than literal objects."
+    },
+    {
+      "id": "s4-u05-t05",
+      "phrase": "s4-u05-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "我想先读清楚，【再】跟音乐。",
+        "py": "wǒ xiǎng xiān dú qīng chǔ , zài gēn yīn yuè .",
+        "en": "I want to read clearly first, then try with the music."
+      },
+      "blankPy": "zài"
+    },
+    {
+      "id": "s4-u05-t06",
+      "phrase": "s4-u05-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "这段【录音】只有一分钟。",
+        "py": "zhè duàn lù yīn zhǐ yǒu yī fēn zhōng .",
+        "en": "This recording is only a minute long."
+      },
+      "blankPy": "lù yīn"
+    },
+    {
+      "id": "s4-u05-t07",
+      "phrase": "s4-u05-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Her voice is beautiful.",
+          "right": {
+            "zh": "她的声音很优美。",
+            "py": "tā de shēng yīn hěn yōu měi .",
+            "en": "Her voice is beautiful."
+          }
+        },
+        {
+          "left": "There are two people’s shadows under the light.",
+          "right": {
+            "zh": "灯下有两个人的影子。",
+            "py": "dēng xià yǒu liǎng gè rén de yǐng zi .",
+            "en": "There are two people’s shadows under the light."
+          }
+        },
+        {
+          "left": "This river is shallow; you can see the bottom.",
+          "right": {
+            "zh": "这条河很浅，可以看见河底。",
+            "py": "zhè tiáo hé hěn qiǎn , kě yǐ kàn jiàn hé dǐ .",
+            "en": "This river is shallow; you can see the bottom."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u05-t08",
+      "phrase": "s4-u05-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "It’ll take a few days to see how well this method works.",
+          "right": {
+            "zh": "这个方法的效果要过几天才能看出来。",
+            "py": "zhè gè fāng fǎ de xiào guǒ yào guò jǐ tiān cái néng kàn chū lái .",
+            "en": "It’ll take a few days to see how well this method works."
+          }
+        },
+        {
+          "left": "The dark blue one suits you better.",
+          "right": {
+            "zh": "深蓝色那件更适合你。",
+            "py": "shēn lán sè nà jiàn gèng shì hé nǐ .",
+            "en": "The dark blue one suits you better."
+          }
+        },
+        {
+          "left": "Please let the child have a quiet moment.",
+          "right": {
+            "zh": "请让孩子静一会儿。",
+            "py": "qǐng ràng hái zi jìng yī huì er .",
+            "en": "Please let the child have a quiet moment."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: original lyric images, clause rhythm and playful promise to listen. The final-image answer is an evidence-based interpretation, not the sole possible artistic meaning. Recordings are learner-owned; Sayo assets read these lines as speech, not a musical performance. Speed practice never substitutes for lexical tones in ordinary conversation.",
+  "characters": [
+    {
+      "hanzi": "浅",
+      "pinyin": "qiǎn",
+      "meaning": "shallow",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "浅",
+          "role": "whole",
+          "gloss": "shallow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 浅 in 浅. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "浅",
+          "p": "qiǎn",
+          "m": "shallow; light in colour"
+        }
+      ]
+    },
+    {
+      "hanzi": "纯",
+      "pinyin": "chún",
+      "meaning": "pure",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "纯",
+          "role": "whole",
+          "gloss": "pure"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 纯 in 纯. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "纯",
+          "p": "chún",
+          "m": "pure; unmixed"
+        }
+      ]
+    }
+  ]
+}

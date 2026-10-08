@@ -42,6 +42,7 @@ def main():
     sys.stderr.reconfigure(encoding='utf-8')
     CACHE.mkdir(parents=True, exist_ok=True)
     profile, roster = read(PROFILE), read(ROSTER)
+    profile_hash, roster_hash = digest(PROFILE), digest(ROSTER)
     scripts = read(ROOT / 'content/audio-scripts.json')
     selected = {key(c['text']): c for c in profile['clips']}
     audition_moods = dict(welcome='playful', teacher='cool', tones='deadpan',
@@ -57,7 +58,7 @@ def main():
             approved = selected.get(key(entry['text']))
             use_approved = approved and audition_moods[approved['id']] == mood
             recipe = dict(text=entry['text'], mood=mood, model=profile['model'],
-                profileSha256=digest(PROFILE), rosterSha256=digest(ROSTER), pipeline=1,
+                profileSha256=profile_hash, rosterSha256=roster_hash, pipeline=1,
                 take=int(retries.get(entry['id']+'-'+mood, 0)))
             if entry.get('delivery'):
                 recipe['delivery'] = entry['delivery']
@@ -84,8 +85,10 @@ def main():
                 assert digest(ROOT / record['rawFile']) == record['rawSha256']
             else:
                 pending.append(job)
+    # Hash immutable configuration once, then recheck before using the plan.
+    assert digest(PROFILE) == profile_hash and digest(ROSTER) == roster_hash, 'Voice configuration changed during planning'
     # Publish only a generation plan here; app assets are installed by the checked mastering step.
-    atomic(CACHE/'plan.json', dict(profileSha256=digest(PROFILE), rosterSha256=digest(ROSTER),
+    atomic(CACHE/'plan.json', dict(profileSha256=profile_hash, rosterSha256=roster_hash,
         scriptsSha256=digest(ROOT/'content/audio-scripts.json'),
         jobs=[dict(text=j['entry']['text'], mood=j['mood'], receipt=str(j['receipt'].relative_to(ROOT))) for j in jobs]))
     print(f'PLAN {len(jobs)} clips, {len(pending)} pending', flush=True)
@@ -190,6 +193,7 @@ def main():
             batch = failed
         else:
             raise RuntimeError('Could not generate valid clips: '+str([(j['entry']['text'],j['mood']) for j in batch]))
+    assert digest(PROFILE) == profile_hash and digest(ROSTER) == roster_hash, 'Voice configuration changed during generation'
     print('Generation pass complete. Master and verify before installation.', flush=True)
 
 if __name__ == '__main__':

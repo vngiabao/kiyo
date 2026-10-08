@@ -1,0 +1,1309 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u09",
+    "stage": 3,
+    "order": 117,
+    "title": "A late trip, a clear message",
+    "titleZh": "别只说快到了",
+    "canDo": [
+      "Extract an action and deadline from a fictional transport notice",
+      "Update a waiting friend with a specific location and time",
+      "Keep a fallback plan separate from a confirmed result"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u08",
+      "s4-u08-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u09-w01",
+      "hanzi": "航班",
+      "pinyin": "háng bān",
+      "meaning": "flight",
+      "meaningVi": "chuyến bay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个航班明天早上出发。",
+        "py": "zhè gè háng bān míng tiān zǎo shàng chū fā .",
+        "en": "This flight departs tomorrow morning."
+      },
+      "usageNote": "[GF2021:L4:3202] Source entry: 航班; hángbān; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w02",
+      "hanzi": "航空",
+      "pinyin": "háng kōng",
+      "meaning": "aviation; air transport",
+      "meaningVi": "hàng không",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这家航空公司有晚上的航班。",
+        "py": "zhè jiā háng kōng gōng sī yǒu wǎn shang de háng bān .",
+        "en": "This airline has evening flights."
+      },
+      "usageNote": "[GF2021:L4:3204] Source entry: 航空; hángkōng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w03",
+      "hanzi": "长途",
+      "pinyin": "cháng tú",
+      "meaning": "long-distance",
+      "meaningVi": "đường dài",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这次长途旅行，我们准备坐火车。",
+        "py": "zhè cì cháng tú lǚ xíng , wǒ men zhǔn bèi zuò huǒ chē .",
+        "en": "We plan to take the train on this long trip."
+      },
+      "usageNote": "[GF2021:L4:828] Source entry: 长途; chángtú; 形、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w04",
+      "hanzi": "高铁",
+      "pinyin": "gāo tiě",
+      "meaning": "high-speed rail",
+      "meaningVi": "tàu cao tốc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "坐高铁到那里大约两小时。",
+        "py": "zuò gāo tiě dào nà lǐ dà yuē liǎng xiǎo shí .",
+        "en": "It takes around two hours to get there by high-speed train."
+      },
+      "usageNote": "[GF2021:L4:2656] Source entry: 高铁; gāotiě; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w05",
+      "hanzi": "晚点",
+      "pinyin": "wǎn diǎn",
+      "meaning": "be delayed, of transport",
+      "meaningVi": "trễ chuyến",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这趟车晚点了半小时。",
+        "py": "zhè tàng chē wǎn diǎn le bàn xiǎo shí .",
+        "en": "This service is half an hour late."
+      },
+      "usageNote": "[GF2021:L4:8301] Source entry: 晚点; wǎn∥diǎn; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w06",
+      "hanzi": "预订",
+      "pinyin": "yù dìng",
+      "meaning": "book in advance",
+      "meaningVi": "đặt trước",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我想预订周六晚上的房间。",
+        "py": "wǒ xiǎng yù dìng zhōu liù wǎn shang de fáng jiān .",
+        "en": "I’d like to book a room for Saturday night."
+      },
+      "usageNote": "[GF2021:L4:9954] Source entry: 预订; yùdìng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w07",
+      "hanzi": "确认",
+      "pinyin": "què rèn",
+      "meaning": "confirm",
+      "meaningVi": "xác nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你再确认一下车站名字。",
+        "py": "nǐ zài què rèn yī xià chē zhàn míng zi .",
+        "en": "Check the station name once more."
+      },
+      "usageNote": "[GF2021:L4:6643] Source entry: 确认; quèrèn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w08",
+      "hanzi": "途中",
+      "pinyin": "tú zhōng",
+      "meaning": "on the way; en route",
+      "meaningVi": "trên đường",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们途中休息了十分钟。",
+        "py": "wǒ men tú zhōng xiū xī le shí fēn zhōng .",
+        "en": "We took a ten-minute break on the way."
+      },
+      "usageNote": "[GF2021:L4:8151] Source entry: 途中; túzhōng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w09",
+      "hanzi": "堵车",
+      "pinyin": "dǔ chē",
+      "meaning": "be held up in traffic",
+      "meaningVi": "kẹt xe",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "路上堵车，我可能晚一点到。",
+        "py": "lù shàng dǔ chē , wǒ kě néng wǎn yī diǎn dào .",
+        "en": "I’m stuck in traffic and may arrive a little late."
+      },
+      "usageNote": "[GF2021:L4:1980] Source entry: 堵车; dǔ∥chē; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w10",
+      "hanzi": "距离",
+      "pinyin": "jù lí",
+      "meaning": "distance",
+      "meaningVi": "khoảng cách",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "两个车站之间的距离有多远？",
+        "py": "liǎng gè chē zhàn zhī jiān de jù lí yǒu duō yuǎn ?",
+        "en": "How far apart are the two stations?"
+      },
+      "usageNote": "[GF2021:L4:4518] Source entry: 距离; jùlí; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w11",
+      "hanzi": "立即",
+      "pinyin": "lì jí",
+      "meaning": "immediately",
+      "meaningVi": "ngay lập tức",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "看到通知以后，我立即给她打了电话。",
+        "py": "kàn dào tōng zhī yǐ hòu , wǒ lì jí gěi tā dǎ le diàn huà .",
+        "en": "I called her immediately after seeing the notice."
+      },
+      "usageNote": "[GF2021:L4:5071] Source entry: 立即; lìjí; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w12",
+      "hanzi": "期限",
+      "pinyin": "qī xiàn",
+      "meaning": "deadline; time limit",
+      "meaningVi": "thời hạn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "申请期限到周四晚上。",
+        "py": "shēn qǐng qī xiàn dào zhōu sì wǎn shang .",
+        "en": "The application deadline is Thursday evening."
+      },
+      "usageNote": "[GF2021:L4:6208] Source entry: 期限; qīxiàn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w13",
+      "hanzi": "延期",
+      "pinyin": "yán qī",
+      "meaning": "postpone; extend a deadline",
+      "meaningVi": "hoãn; gia hạn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这次活动延期到下周了。",
+        "py": "zhè cì huó dòng yán qī dào xià zhōu le .",
+        "en": "This event has been postponed until next week."
+      },
+      "usageNote": "[GF2021:L4:9283] Source entry: 延期; yán∥qī; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w14",
+      "hanzi": "取消",
+      "pinyin": "qǔ xiāo",
+      "meaning": "cancel",
+      "meaningVi": "hủy",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "两点那趟车取消了。",
+        "py": "liǎng diǎn nà tàng chē qǔ xiāo le .",
+        "en": "The two o’clock service has been cancelled."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u09-w15",
+      "hanzi": "转告",
+      "pinyin": "zhuǎn gào",
+      "meaning": "pass a message on",
+      "meaningVi": "nhắn lại",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "请转告陈宇，我会晚半小时。",
+        "py": "qǐng zhuǎn gào chén yǔ , wǒ huì wǎn bàn xiǎo shí .",
+        "en": "Please tell Chen Yu I’ll be half an hour late."
+      },
+      "usageNote": "[GF2021:L4:10798] Source entry: 转告; zhuǎngào; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u09-w16",
+      "hanzi": "出发",
+      "pinyin": "chū fā",
+      "meaning": "depart; set off",
+      "meaningVi": "khởi hành",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我们几点出发比较好？",
+        "py": "wǒ men jǐ diǎn chū fā bǐ jiào hǎo ?",
+        "en": "What time should we set off?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u09-g01",
+      "pattern": "除非…否则…",
+      "purpose": "State what exception prevents an outcome",
+      "explanation": "除非 supplies the exception or necessary condition; 否则 gives the outcome if it is not met. Compare the condition to the notice rather than inferring general transport rules.",
+      "examples": [
+        {
+          "zh": "除非先办好新票，否则不能直接上这趟车。",
+          "py": "chú fēi xiān bàn hǎo xīn piào , fǒu zé bù néng zhí jiē shàng zhè tàng chē .",
+          "en": "Unless the new ticket is processed first, you can’t board this service directly."
+        },
+        {
+          "zh": "除非大家都有空，否则我们不改到周一。",
+          "py": "chú fēi dà jiā dōu yǒu kōng , fǒu zé wǒ men bù gǎi dào zhōu yī .",
+          "en": "Unless everyone is free, we won’t move it to Monday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除非先办好新票，否则就已经办好了。",
+          "right": "除非先办好新票，否则不能直接上这趟车。",
+          "why": "The 否则 clause must describe what happens without the exception."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u09-g02",
+      "pattern": "万一…",
+      "purpose": "Prepare for a less expected possibility",
+      "explanation": "万一 presents a possible unwelcome contingency. It does not state that it will happen or give a numerical probability.",
+      "examples": [
+        {
+          "zh": "万一来不及，我就先给你电话。",
+          "py": "wàn yī lái bù jí , wǒ jiù xiān gěi nǐ diàn huà .",
+          "en": "If I happen to run out of time, I’ll call you first."
+        },
+        {
+          "zh": "带点水，万一路上买不到呢？",
+          "py": "dài diǎn shuǐ , wàn yī lù shàng mǎi bù dào ne ?",
+          "en": "Bring some water in case we can’t buy any on the way."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "万一路上买不到，所以一定买不到。",
+          "right": "带点水，万一路上买不到呢？",
+          "why": "A contingency is not a confirmed fact."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u09-g03",
+      "pattern": "才 / 就 with time",
+      "purpose": "Express later or earlier than expected",
+      "explanation": "Place the time before 才/就 and the action after it. The choice conveys an expectation, so the clock time alone is insufficient.",
+      "examples": [
+        {
+          "zh": "我们三点十分才出发。",
+          "py": "wǒ men sān diǎn shí fēn cái chū fā .",
+          "en": "We won’t depart until 3:10."
+        },
+        {
+          "zh": "我两点就到车站了。",
+          "py": "wǒ liǎng diǎn jiù dào chē zhàn le .",
+          "en": "I was already at the station at two."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我们才三点十分出发了就。",
+          "right": "我们三点十分才出发。",
+          "why": "才 sits between the time phrase and the action in this sentence."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u09-g04",
+      "pattern": "免得",
+      "purpose": "Give an action intended to avoid a problem",
+      "explanation": "The first clause supplies the precaution; 免得 names an unwanted possible result. It naturally appears in practical reminders.",
+      "examples": [
+        {
+          "zh": "把两张票分开放，免得拿错。",
+          "py": "bǎ liǎng zhāng piào fēn kāi fàng , miǎn de ná cuò .",
+          "en": "Keep the tickets apart so you don’t take the wrong one."
+        },
+        {
+          "zh": "先告诉她，免得她一直等。",
+          "py": "xiān gào sù tā , miǎn de tā yì zhí děng .",
+          "en": "Tell her first so she doesn’t keep waiting."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "把两张票分开放，免得不会拿错。",
+          "right": "把两张票分开放，免得拿错。",
+          "why": "The problem being prevented is taking the wrong ticket, not avoiding the error."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u09-d",
+    "title": "别只说快到了",
+    "titleZh": "别只说快到了",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你到哪儿了？我们已经到车站了。",
+        "py": "nǐ dào nǎr le ? wǒ men yǐ jīng dào chē zhàn le .",
+        "en": "Where are you? We’re already at the station.",
+        "speaker": "a"
+      },
+      {
+        "zh": "还在公交车上，路上堵车。你先看看两点那趟还在不在。",
+        "py": "hái zài gōng jiāo chē shàng , lù shàng dǔ chē . nǐ xiān kàn kàn liǎng diǎn nà tàng hái zài bù zài .",
+        "en": "Still on the bus, stuck in traffic. Check whether the two o’clock service is still running.",
+        "speaker": "b"
+      },
+      {
+        "zh": "刚看到通知，两点那趟取消了。可以申请换到三点十分那趟。",
+        "py": "gāng kàn dào tōng zhī , liǎng diǎn nà tàng qǔ xiāo le . kě yǐ shēn qǐng huàn dào sān diǎn shí fēn nà tàng .",
+        "en": "I’ve just seen a notice: the two o’clock service is cancelled. We can apply to switch to the 3:10 service.",
+        "speaker": "a"
+      },
+      {
+        "zh": "直接拿原来的票上车吗？",
+        "py": "zhí jiē ná yuán lái de piào shàng chē ma ?",
+        "en": "Can we board with the original tickets?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不行，通知写着要先去窗口，三点之前办好。",
+        "py": "bù xíng , tōng zhī xiě zhe yào xiān qù chuāng kǒu , sān diǎn zhī qián bàn hǎo .",
+        "en": "No. The notice says we need to go to the counter and finish before three.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那我先别着急下车。你能问问我没到，能不能先办你的？",
+        "py": "nà wǒ xiān bié zháo jí xià chē . nǐ néng wèn wèn wǒ méi dào , néng bù néng xiān bàn nǐ de ?",
+        "en": "Then I shouldn’t rush off the bus. Could you ask whether you can arrange your ticket before I arrive?",
+        "speaker": "b"
+      },
+      {
+        "zh": "问过了，可以各自办。你到了直接找三号窗口。",
+        "py": "wèn guò le , kě yǐ gè zì bàn . nǐ dào le zhí jiē zhǎo sān hào chuāng kǒu .",
+        "en": "I’ve asked; we can each do it separately. Go straight to counter three when you arrive.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。我大约二点四十到，还有二十分钟。",
+        "py": "hǎo . wǒ dà yuē èr diǎn sì shí dào , hái yǒu èr shí fēn zhōng .",
+        "en": "Okay. I’ll arrive around 2:40, so I’ll have twenty minutes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "时间不多，到了先办票，再买水。",
+        "py": "shí jiān bù duō , dào le xiān bàn piào , zài mǎi shuǐ .",
+        "en": "That’s not much time. Sort out the ticket before buying water.",
+        "speaker": "a"
+      },
+      {
+        "zh": "知道了。你转告林安，我们到她那儿可能比原来晚一个小时。",
+        "py": "zhī dào le . nǐ zhuǎn gào lín ān , wǒ men dào tā nàr kě néng bǐ yuán lái wǎn yī gè xiǎo shí .",
+        "en": "Got it. Tell Lin An we may get to her place an hour later than planned.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我来说。她不用现在就出门等我们。",
+        "py": "wǒ lái shuō . tā bù yòng xiàn zài jiù chū mén děng wǒ men .",
+        "en": "I’ll tell her. She doesn’t need to go out and wait now.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢。早知道这样，我早上就多吃点了。",
+        "py": "xiè xiè . zǎo zhī dào zhè yàng , wǒ zǎo shàng jiù duō chī diǎn le .",
+        "en": "Thanks. If I’d known, I’d have eaten more this morning.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "窗口",
+        "pinyin": "chuāng kǒu",
+        "meaning": "service counter"
+      },
+      {
+        "hanzi": "各自",
+        "pinyin": "gè zì",
+        "meaning": "each separately"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What needs to be arranged?",
+        "choices": [
+          "Replacement tickets after a cancelled service",
+          "A new phone number for every traveller",
+          "An immediate airline booking"
+        ],
+        "answer": "Replacement tickets after a cancelled service"
+      },
+      {
+        "type": "detail",
+        "q": "Which counter handles the switch?",
+        "choices": [
+          "Counter three",
+          "Counter fourteen",
+          "Every counter except three"
+        ],
+        "answer": "Counter three"
+      },
+      {
+        "type": "inference",
+        "q": "Why inform Lin An?",
+        "choices": [
+          "So she can adjust when she leaves to meet them",
+          "To make her wait at the station from two",
+          "To cancel every future meeting"
+        ],
+        "answer": "So she can adjust when she leaves to meet them"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u09-r",
+    "title": "别只说快到了",
+    "titleZh": "别只说快到了",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "通知：原定今日十四点出发的长途汽车取消。已购票的乘客可以到三号窗口申请改乘十五点十分的汽车。办理期限为十五点前。原车票不能直接用于新班次。",
+        "py": "tōng zhī : yuán dìng jīn rì shí sì diǎn chū fā de cháng tú qì chē qǔ xiāo . yǐ gòu piào de chéng kè kě yǐ dào sān hào chuāng kǒu shēn qǐng gǎi chéng shí wǔ diǎn shí fēn de qì chē . bàn lǐ qī xiàn wèi shí wǔ diǎn qián . yuán chē piào bù néng zhí jiē yòng yú xīn bān cì .",
+        "en": "Notice: the long-distance bus scheduled for 14:00 today is cancelled. Ticket holders may request transfer to the 15:10 service at counter three. This must be processed before 15:00. Original tickets cannot be used directly on the new service."
+      },
+      {
+        "zh": "我看到通知的时候是二点二十，朋友还在去车站的公交车上。我先确认了窗口的位置，再问工作人员能不能各自办理。他说可以，不用等所有人到齐。",
+        "py": "wǒ kàn dào tōng zhī de shí hou shì èr diǎn èr shí , péng you hái zài qù chē zhàn de gōng jiāo chē shàng . wǒ xiān què rèn le chuāng kǒu de wèi zhì , zài wèn gōng zuò rén yuán néng bù néng gè zì bàn lǐ . tā shuō kě yǐ , bù yòng děng suǒ yǒu rén dào qí .",
+        "en": "It was 2:20 when I saw the notice, and my friend was still on a city bus to the station. I found the counter and asked whether we could process our tickets separately. The staff member said yes; we didn’t need everyone present."
+      },
+      {
+        "zh": "我办完以后给朋友发了两条消息。第一条是三号窗口的位置，第二条是期限。我没有只说“车改时间了”，因为他还需要知道先做什么。",
+        "py": "wǒ bàn wán yǐ hòu gěi péng you fā le liǎng tiáo xiāo xī . dì yī tiáo shì sān hào chuāng kǒu de wèi zhì , dì èr tiáo shì qī xiàn . wǒ méi yǒu zhǐ shuō chē gǎi shí jiān le , yīn wèi tā hái xū yào zhī dào xiān zuò shén me .",
+        "en": "After sorting mine out, I sent my friend two messages: the counter’s location and the deadline. I didn’t just say “the bus time changed,” because he also needed to know what to do first."
+      },
+      {
+        "zh": "朋友二点四十到了。我在门口接他，一起去窗口。办好票还有一点时间，他买了水和面包，终于不再一直问车上有没有吃的。",
+        "py": "péng you èr diǎn sì shí dào le . wǒ zài mén kǒu jiē tā , yì qǐ qù chuāng kǒu . bàn hǎo piào hái yǒu yī diǎn shí jiān , tā mǎi le shuǐ hé miàn bāo , zhōng yú bù zài yì zhí wèn chē shàng yǒu méi yǒu chī de .",
+        "en": "My friend arrived at 2:40. I met him at the entrance and went with him to the counter. After the tickets were ready there was time for water and bread, and he finally stopped asking whether there was food on the bus."
+      },
+      {
+        "zh": "我们又给林安确认了新的到达时间。她说会晚一点出门，还把饭馆的预订推迟了。一个人知道变化不够，等我们的人也要知道。",
+        "py": "wǒ men yòu gěi lín ān què rèn le xīn de dào dá shí jiān . tā shuō huì wǎn yī diǎn chū mén , hái bǎ fàn guǎn de yù dìng tuī chí le . yī gè rén zhī dào biàn huà bù gòu , děng wǒ men de rén yě yào zhī dào .",
+        "en": "We confirmed our new arrival time with Lin An. She said she’d leave home later and postponed the restaurant booking. It wasn’t enough for us to know the change; the person waiting needed it too."
+      },
+      {
+        "zh": "这次没有按原计划出发，不过该办的都办好了。我把通知保存下来，也把新车票和原来的放在不同地方，免得上车时拿错。",
+        "py": "zhè cì méi yǒu àn yuán jì huà chū fā , bù guò gāi bàn de dōu bàn hǎo le . wǒ bǎ tōng zhī bǎo cún xià lái , yě bǎ xīn chē piào hé yuán lái de fàng zài bù tóng dì fāng , miǎn de shàng chē shí ná cuò .",
+        "en": "We didn’t depart as originally planned, but everything was arranged. I saved the notice and kept the new and original tickets apart so I wouldn’t take the wrong one when boarding."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "改乘",
+        "pinyin": "gǎi chéng",
+        "meaning": "switch to a different service"
+      },
+      {
+        "hanzi": "班次",
+        "pinyin": "bān cì",
+        "meaning": "scheduled service"
+      },
+      {
+        "hanzi": "窗口",
+        "pinyin": "chuāng kǒu",
+        "meaning": "service counter"
+      },
+      {
+        "hanzi": "乘客",
+        "pinyin": "chéng kè",
+        "meaning": "passenger"
+      },
+      {
+        "hanzi": "办理",
+        "pinyin": "bàn lǐ",
+        "meaning": "process; arrange formally"
+      },
+      {
+        "hanzi": "各自",
+        "pinyin": "gè zì",
+        "meaning": "each separately"
+      },
+      {
+        "hanzi": "到齐",
+        "pinyin": "dào qí",
+        "meaning": "all arrive"
+      },
+      {
+        "hanzi": "免得",
+        "pinyin": "miǎn de",
+        "meaning": "so as to avoid"
+      },
+      {
+        "hanzi": "十四点",
+        "pinyin": "shí sì diǎn",
+        "meaning": "14:00"
+      },
+      {
+        "hanzi": "十五点",
+        "pinyin": "shí wǔ diǎn",
+        "meaning": "15:00"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the notice require before the replacement trip?",
+        "choices": [
+          "Visit the specified counter before the deadline",
+          "Board using the original ticket without action",
+          "Wait for every member of the group to arrive"
+        ],
+        "answer": "Visit the specified counter before the deadline"
+      },
+      {
+        "type": "detail",
+        "q": "What is the processing deadline?",
+        "choices": [
+          "Before 15:00",
+          "At departure time 15:10",
+          "After 16:00"
+        ],
+        "answer": "Before 15:00"
+      },
+      {
+        "type": "inference",
+        "q": "Why send two specific messages?",
+        "choices": [
+          "The friend needs both where to go and when to finish",
+          "The staff requires two phones",
+          "Only the new departure time matters"
+        ],
+        "answer": "The friend needs both where to go and when to finish"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u09-media",
+      "title": "Almost where?",
+      "titleZh": "Almost where?",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你发消息说快到了，现在又说晚点？",
+          "py": "nǐ fā xiāo xī shuō kuài dào le , xiàn zài yòu shuō wǎn diǎn ?",
+          "en": "You messaged that you were almost here, and now you’re delayed?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我说的是快到车站，不是快到你家。",
+          "py": "wǒ shuō de shì kuài dào chē zhàn , bù shì kuài dào nǐ jiā .",
+          "en": "I meant almost at the station, not almost at your place.",
+          "speaker": "b"
+        },
+        {
+          "zh": "下次把地方一起说。我都穿好鞋了。",
+          "py": "xià cì bǎ dì fāng yì qǐ shuō . wǒ dōu chuān hǎo xié le .",
+          "en": "Name the place next time. I’ve already put my shoes on.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那先坐一会儿吧。我们三点十分才出发。",
+          "py": "nà xiān zuò yī huì er ba . wǒ men sān diǎn shí fēn cái chū fā .",
+          "en": "Then sit down for a while. We won’t depart until 3:10.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，到了附近再给我电话，别只说快到了。",
+          "py": "hǎo , dào le fù jìn zài gěi wǒ diàn huà , bié zhǐ shuō kuài dào le .",
+          "en": "Okay. Call when you’re nearby rather than just saying almost there.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这次说清楚：快到你家楼下时，我打电话。",
+          "py": "zhè cì shuō qīng chǔ : kuài dào nǐ jiā lóu xià shí , wǒ dǎ diàn huà .",
+          "en": "I’ll make it clear this time: I’ll call when we’re nearly downstairs at your place.",
+          "speaker": "b"
+        },
+        {
+          "zh": "总算听懂了。你饿不饿？",
+          "py": "zǒng suàn tīng dǒng le . nǐ è bù è ?",
+          "en": "Now I understand. Are you hungry?",
+          "speaker": "a"
+        },
+        {
+          "zh": "已经买了面包，终于能等了。",
+          "py": "yǐ jīng mǎi le miàn bāo , zhōng yú néng děng le .",
+          "en": "I’ve bought bread, so I can finally manage the wait.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Which place did “almost there” originally mean?",
+          "choices": [
+            "The station",
+            "Lin An’s home",
+            "The restaurant kitchen"
+          ],
+          "answer": "The station"
+        },
+        {
+          "type": "inference",
+          "q": "Why ask for a place with the update?",
+          "choices": [
+            "The vague phrase made the waiting person leave too early",
+            "The friend has forgotten how to call",
+            "The bus has already arrived at the house"
+          ],
+          "answer": "The vague phrase made the waiting person leave too early"
+        }
+      ]
+    },
+    {
+      "id": "s4-u09-word-notebook",
+      "title": "A late trip, a clear message: words in context",
+      "titleZh": "别只说快到了 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这个航班明天早上出发。",
+          "py": "zhè gè háng bān míng tiān zǎo shàng chū fā .",
+          "en": "This flight departs tomorrow morning."
+        },
+        {
+          "zh": "我的航班晚点了两个小时。",
+          "py": "wǒ de háng bān wǎn diǎn le liǎng gè xiǎo shí .",
+          "en": "My flight was delayed by two hours."
+        },
+        {
+          "zh": "这家航空公司有晚上的航班。",
+          "py": "zhè jiā háng kōng gōng sī yǒu wǎn shang de háng bān .",
+          "en": "This airline has evening flights."
+        },
+        {
+          "zh": "航空运输比以前方便多了。",
+          "py": "háng kōng yùn shū bǐ yǐ qián fāng biàn duō le .",
+          "en": "Air transport is much more convenient than before."
+        },
+        {
+          "zh": "这次长途旅行，我们准备坐火车。",
+          "py": "zhè cì cháng tú lǚ xíng , wǒ men zhǔn bèi zuò huǒ chē .",
+          "en": "We plan to take the train on this long trip."
+        },
+        {
+          "zh": "长途汽车站在城北。",
+          "py": "cháng tú qì chē zhàn zài chéng běi .",
+          "en": "The long-distance bus station is in the north of the city."
+        },
+        {
+          "zh": "坐高铁到那里大约两小时。",
+          "py": "zuò gāo tiě dào nà lǐ dà yuē liǎng xiǎo shí .",
+          "en": "It takes around two hours to get there by high-speed train."
+        },
+        {
+          "zh": "高铁票已经买好了，不用再订。",
+          "py": "gāo tiě piào yǐ jīng mǎi hǎo le , bù yòng zài dìng .",
+          "en": "The high-speed train tickets are already bought; no need to book again."
+        },
+        {
+          "zh": "这趟车晚点了半小时。",
+          "py": "zhè tàng chē wǎn diǎn le bàn xiǎo shí .",
+          "en": "This service is half an hour late."
+        },
+        {
+          "zh": "广播说列车晚点，时间还没确定。",
+          "py": "guǎng bō shuō liè chē wǎn diǎn , shí jiān hái méi què dìng .",
+          "en": "The announcement says the train is delayed, with no time fixed yet."
+        },
+        {
+          "zh": "我想预订周六晚上的房间。",
+          "py": "wǒ xiǎng yù dìng zhōu liù wǎn shang de fáng jiān .",
+          "en": "I’d like to book a room for Saturday night."
+        },
+        {
+          "zh": "预订成功以后，记得保存号码。",
+          "py": "yù dìng chéng gōng yǐ hòu , jì de bǎo cún hào mǎ .",
+          "en": "Keep the number once the booking is confirmed."
+        },
+        {
+          "zh": "你再确认一下车站名字。",
+          "py": "nǐ zài què rèn yī xià chē zhàn míng zi .",
+          "en": "Check the station name once more."
+        },
+        {
+          "zh": "他已经确认周五能来。",
+          "py": "tā yǐ jīng què rèn zhōu wǔ néng lái .",
+          "en": "He’s confirmed he can come on Friday."
+        },
+        {
+          "zh": "我们途中休息了十分钟。",
+          "py": "wǒ men tú zhōng xiū xī le shí fēn zhōng .",
+          "en": "We took a ten-minute break on the way."
+        },
+        {
+          "zh": "途中下雨了，我们就放慢了速度。",
+          "py": "tú zhōng xià yǔ le , wǒ men jiù fàng màn le sù dù .",
+          "en": "It rained on the way, so we slowed down."
+        },
+        {
+          "zh": "路上堵车，我可能晚一点到。",
+          "py": "lù shàng dǔ chē , wǒ kě néng wǎn yī diǎn dào .",
+          "en": "I’m stuck in traffic and may arrive a little late."
+        },
+        {
+          "zh": "这边早上容易堵车，最好早点走。",
+          "py": "zhè biān zǎo shàng róng yì dǔ chē , zuì hǎo zǎo diǎn zǒu .",
+          "en": "Traffic often backs up here in the morning; it’s best to leave early."
+        },
+        {
+          "zh": "两个车站之间的距离有多远？",
+          "py": "liǎng gè chē zhàn zhī jiān de jù lí yǒu duō yuǎn ?",
+          "en": "How far apart are the two stations?"
+        },
+        {
+          "zh": "我想找距离学校近一点的房间。",
+          "py": "wǒ xiǎng zhǎo jù lí xué xiào jìn yī diǎn de fáng jiān .",
+          "en": "I’d like a room closer to the school."
+        },
+        {
+          "zh": "看到通知以后，我立即给她打了电话。",
+          "py": "kàn dào tōng zhī yǐ hòu , wǒ lì jí gěi tā dǎ le diàn huà .",
+          "en": "I called her immediately after seeing the notice."
+        },
+        {
+          "zh": "不用立即决定，今晚回复也可以。",
+          "py": "bù yòng lì jí jué dìng , jīn wǎn huí fù yě kě yǐ .",
+          "en": "No need to decide immediately; you can reply tonight."
+        },
+        {
+          "zh": "申请期限到周四晚上。",
+          "py": "shēn qǐng qī xiàn dào zhōu sì wǎn shang .",
+          "en": "The application deadline is Thursday evening."
+        },
+        {
+          "zh": "这个期限能不能延长两天？",
+          "py": "zhè gè qī xiàn néng bù néng yán cháng liǎng tiān ?",
+          "en": "Could this deadline be extended by two days?"
+        },
+        {
+          "zh": "这次活动延期到下周了。",
+          "py": "zhè cì huó dòng yán qī dào xià zhōu le .",
+          "en": "This event has been postponed until next week."
+        },
+        {
+          "zh": "我想申请延期交材料。",
+          "py": "wǒ xiǎng shēn qǐng yán qī jiāo cái liào .",
+          "en": "I’d like to request more time to submit the documents."
+        },
+        {
+          "zh": "两点那趟车取消了。",
+          "py": "liǎng diǎn nà tàng chē qǔ xiāo le .",
+          "en": "The two o’clock service has been cancelled."
+        },
+        {
+          "zh": "他取消了房间预订，准备当天回家。",
+          "py": "tā qǔ xiāo le fáng jiān yù dìng , zhǔn bèi dàng tiān huí jiā .",
+          "en": "He cancelled the room booking and plans to go home the same day."
+        },
+        {
+          "zh": "请转告陈宇，我会晚半小时。",
+          "py": "qǐng zhuǎn gào chén yǔ , wǒ huì wǎn bàn xiǎo shí .",
+          "en": "Please tell Chen Yu I’ll be half an hour late."
+        },
+        {
+          "zh": "老师让我转告大家，明天换教室。",
+          "py": "lǎo shī ràng wǒ zhuǎn gào dà jiā , míng tiān huàn jiào shì .",
+          "en": "The teacher asked me to tell everyone we’re changing classrooms tomorrow."
+        },
+        {
+          "zh": "我们几点出发比较好？",
+          "py": "wǒ men jǐ diǎn chū fā bǐ jiào hǎo ?",
+          "en": "What time should we set off?"
+        },
+        {
+          "zh": "出发之前，我又检查了一遍地址。",
+          "py": "chū fā zhī qián , wǒ yòu jiǎn chá le yī biàn dì zhǐ .",
+          "en": "I checked the address once more before leaving."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "列车",
+          "pinyin": "liè chē",
+          "meaning": "train"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u09-c",
+    "title": "A late trip, a clear message",
+    "place": "At a fictional bus station",
+    "context": "The two o’clock service is cancelled; a replacement requires counter processing before three.",
+    "goal": "Extract an action and deadline from a fictional transport notice",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "可以直接用原票吗？",
+        "pinyin": "kě yǐ zhí jiē yòng yuán piào ma ?",
+        "meaning": "Can I directly use the original ticket?",
+        "intent": "Explain the required action",
+        "examples": [
+          "不行，要先到三号窗口办新票。"
+        ],
+        "accept": [
+          "^不行，要先到三号窗口办新票。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你说快到哪儿了？",
+        "pinyin": "nǐ shuō kuài dào nǎr le ?",
+        "meaning": "Where are you nearly arriving?",
+        "intent": "Name the exact location",
+        "examples": [
+          "我快到车站了，还没到你家附近。"
+        ],
+        "accept": [
+          "^我快到车站了，还没到你家附近。[。！？]?$"
+        ]
+      },
+      {
+        "text": "要我现在出门吗？",
+        "pinyin": "yào wǒ xiàn zài chū mén ma ?",
+        "meaning": "Should I leave now?",
+        "intent": "Update the waiting person",
+        "examples": [
+          "先不用，我们三点十分才出发。"
+        ],
+        "accept": [
+          "^先不用，我们三点十分才出发。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Provide both place and next step",
+      "natural": {
+        "zh": "到了先找三号窗口，三点前要办好。",
+        "py": "dào le xiān zhǎo sān hào chuāng kǒu , sān diǎn qián yào bàn hǎo .",
+        "en": "Find counter three when you arrive; it must be done before three."
+      },
+      "note": "The message distinguishes the processing deadline from departure time."
+    },
+    {
+      "situation": "Correct a vague update",
+      "natural": {
+        "zh": "我说的是快到车站，还没到你家。",
+        "py": "wǒ shuō de shì kuài dào chē zhàn , hái méi dào nǐ jiā .",
+        "en": "I meant nearly at the station, not at your home yet."
+      },
+      "note": "Name the location that was missing from the earlier message."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u09-t01",
+      "phrase": "s4-u09-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "不行，通知写着要先去窗口，三点之前办好。",
+        "py": "bù xíng , tōng zhī xiě zhe yào xiān qù chuāng kǒu , sān diǎn zhī qián bàn hǎo .",
+        "en": "No. The notice says we need to go to the counter and finish before three."
+      },
+      "statement": "The original tickets can be used directly without visiting a counter.",
+      "answer": false,
+      "why": "The notice requires processing at the counter."
+    },
+    {
+      "id": "s4-u09-t02",
+      "phrase": "s4-u09-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "朋友二点四十到了。我在门口接他，一起去窗口。办好票还有一点时间，他买了水和面包，终于不再一直问车上有没有吃的。",
+        "py": "péng you èr diǎn sì shí dào le . wǒ zài mén kǒu jiē tā , yì qǐ qù chuāng kǒu . bàn hǎo piào hái yǒu yī diǎn shí jiān , tā mǎi le shuǐ hé miàn bāo , zhōng yú bù zài yì zhí wèn chē shàng yǒu méi yǒu chī de .",
+        "en": "My friend arrived at 2:40. I met him at the entrance and went with him to the counter. After the tickets were ready there was time for water and bread, and he finally stopped asking whether there was food on the bus."
+      },
+      "statement": "The friend arrives at 2:40.",
+      "answer": true,
+      "why": "That exact time is stated."
+    },
+    {
+      "id": "s4-u09-t03",
+      "phrase": "s4-u09-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "我三点十分去窗口行吗？",
+        "py": "wǒ sān diǎn shí fēn qù chuāng kǒu xíng ma ?",
+        "en": "Can I go to the counter at 3:10?"
+      },
+      "choices": [
+        "不行，通知说三点前要办好。",
+        "行，通知只要求三点十分出发，没有办理期限。",
+        "只要拿原票就不用办理。"
+      ],
+      "answer": "不行，通知说三点前要办好。",
+      "why": "The counter deadline is earlier than departure."
+    },
+    {
+      "id": "s4-u09-t04",
+      "phrase": "s4-u09-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "我还在去车站的路上，没上长途车。别人问快到了吗，怎么说？",
+        "py": "wǒ hái zài qù chē zhàn de lù shàng , méi shàng cháng tú chē . bié ren wèn kuài dào le ma , zěn me shuō ?",
+        "en": "I am still on the way to the station, not on the coach. How should I answer about nearly arriving?"
+      },
+      "choices": [
+        "我快到车站，还没上长途车。",
+        "我已经坐在长途车上了。",
+        "我已经到了你家门口。"
+      ],
+      "answer": "我快到车站，还没上长途车。",
+      "why": "The response supplies the exact travel stage."
+    },
+    {
+      "id": "s4-u09-t05",
+      "phrase": "s4-u09-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "请再【确认】一下车站名字。",
+        "py": "qǐng zài què rèn yī xià chē zhàn míng zi .",
+        "en": "Please check the station name once more."
+      },
+      "blankPy": "què rèn"
+    },
+    {
+      "id": "s4-u09-t06",
+      "phrase": "s4-u09-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "把两张票分开放，【免得】拿错。",
+        "py": "bǎ liǎng zhāng piào fēn kāi fàng , miǎn de ná cuò .",
+        "en": "Keep the two tickets apart to avoid taking the wrong one."
+      },
+      "blankPy": "miǎn de"
+    },
+    {
+      "id": "s4-u09-t07",
+      "phrase": "s4-u09-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "This flight departs tomorrow morning.",
+          "right": {
+            "zh": "这个航班明天早上出发。",
+            "py": "zhè gè háng bān míng tiān zǎo shàng chū fā .",
+            "en": "This flight departs tomorrow morning."
+          }
+        },
+        {
+          "left": "This service is half an hour late.",
+          "right": {
+            "zh": "这趟车晚点了半小时。",
+            "py": "zhè tàng chē wǎn diǎn le bàn xiǎo shí .",
+            "en": "This service is half an hour late."
+          }
+        },
+        {
+          "left": "We took a ten-minute break on the way.",
+          "right": {
+            "zh": "我们途中休息了十分钟。",
+            "py": "wǒ men tú zhōng xiū xī le shí fēn zhōng .",
+            "en": "We took a ten-minute break on the way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u09-t08",
+      "phrase": "s4-u09-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Traffic often backs up here in the morning; it’s best to leave early.",
+          "right": {
+            "zh": "这边早上容易堵车，最好早点走。",
+            "py": "zhè biān zǎo shàng róng yì dǔ chē , zuì hǎo zǎo diǎn zǒu .",
+            "en": "Traffic often backs up here in the morning; it’s best to leave early."
+          }
+        },
+        {
+          "left": "Could this deadline be extended by two days?",
+          "right": {
+            "zh": "这个期限能不能延长两天？",
+            "py": "zhè gè qī xiàn néng bù néng yán cháng liǎng tiān ?",
+            "en": "Could this deadline be extended by two days?"
+          }
+        },
+        {
+          "left": "The teacher asked me to tell everyone we’re changing classrooms tomorrow.",
+          "right": {
+            "zh": "老师让我转告大家，明天换教室。",
+            "py": "lǎo shī ràng wǒ zhuǎn gào dà jiā , míng tiān huàn jiào shì .",
+            "en": "The teacher asked me to tell everyone we’re changing classrooms tomorrow."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: informal arrival updates, counter wording and long-distance travel terms. All processing rules are specific to this original fictional notice, not universal carrier policies. Timeline checked: arrival 2:40, processing before 3:00, departure 3:10. A tentative one-hour-later arrival is confirmed later without inventing its clock time.",
+  "characters": [
+    {
+      "hanzi": "航",
+      "pinyin": "háng",
+      "meaning": "navigate; voyage",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "航",
+          "role": "whole",
+          "gloss": "navigate; voyage"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 航 in 航班 / 航空. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "航班",
+          "p": "háng bān",
+          "m": "flight"
+        },
+        {
+          "w": "航空",
+          "p": "háng kōng",
+          "m": "aviation; air transport"
+        }
+      ]
+    },
+    {
+      "hanzi": "途",
+      "pinyin": "tú",
+      "meaning": "way; route",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "途",
+          "role": "whole",
+          "gloss": "way; route"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 途 in 长途 / 途中. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "长途",
+          "p": "cháng tú",
+          "m": "long-distance"
+        },
+        {
+          "w": "途中",
+          "p": "tú zhōng",
+          "m": "on the way; en route"
+        }
+      ]
+    },
+    {
+      "hanzi": "堵",
+      "pinyin": "dǔ",
+      "meaning": "block",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "堵",
+          "role": "whole",
+          "gloss": "block"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 堵 in 堵车. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "堵车",
+          "p": "dǔ chē",
+          "m": "be held up in traffic"
+        }
+      ]
+    },
+    {
+      "hanzi": "距",
+      "pinyin": "jù",
+      "meaning": "distance",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "距",
+          "role": "whole",
+          "gloss": "distance"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 距 in 距离. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "距离",
+          "p": "jù lí",
+          "m": "distance"
+        }
+      ]
+    },
+    {
+      "hanzi": "即",
+      "pinyin": "jí",
+      "meaning": "immediately; namely",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "即",
+          "role": "whole",
+          "gloss": "immediately; namely"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 即 in 立即. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "立即",
+          "p": "lì jí",
+          "m": "immediately"
+        }
+      ]
+    },
+    {
+      "hanzi": "限",
+      "pinyin": "xiàn",
+      "meaning": "limit",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "限",
+          "role": "whole",
+          "gloss": "limit"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 限 in 期限. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "期限",
+          "p": "qī xiàn",
+          "m": "deadline; time limit"
+        }
+      ]
+    },
+    {
+      "hanzi": "延",
+      "pinyin": "yán",
+      "meaning": "extend; delay",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "延",
+          "role": "whole",
+          "gloss": "extend; delay"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 延 in 延期. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "延期",
+          "p": "yán qī",
+          "m": "postpone; extend a deadline"
+        }
+      ]
+    }
+  ]
+}

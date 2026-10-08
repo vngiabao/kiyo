@@ -25,6 +25,12 @@ for path in sorted((ROOT/'content/packs').glob('s*-u*.json')):
         return_note = (' Contextual 还 should be huán for returning an object; verify the actual recorded tone, not just the displayed pinyin.'
                        if any(term in line['zh'] for term in ['还书','还笔','还回来','还的书','还给','还你']) else '')
         rows.append(dict(unit=pack['unit']['id'],text=line['zh'],py=line['py'],en=line['en'],reason=note+return_note,status='native review pending'))
+    for character in pack.get('characters',[]):
+        if pack['unit']['hskTarget']['level']<4 and character['hanzi'] not in ['觉','兴','识','候']:continue
+        rows.append(dict(unit=pack['unit']['id'],text=character['hanzi'],py=character['pinyin'],
+                         en=character['meaning'],examples=character.get('words',[]),
+                         reason='Check this source reading and bound-component meaning in its connected word examples. The usage aid is not an etymological claim.',
+                         status='native review pending'))
 for path in sorted((ROOT/'content/packs').glob('hsk-*-bank.hsk.json')):
     bank=read(path)
     for item in bank['items']:

@@ -105,6 +105,8 @@ export async function saveAttempt(
   );
 }
 export async function exportRecord() {
+  // Load the separate exam notebook only when exporting, not on every lesson.
+  const { exportHsk } = await import("./hsk-db");
   const [profiles, attempts, memories, mistakes, sessions, drafts, savedLines, watchLog, personalWords, readingSpeed] =
     await Promise.all([
       db.profiles.toArray(),
@@ -131,6 +133,7 @@ export async function exportRecord() {
     watchLog,
     personalWords,
     readingSpeed,
+    hskNotebook: await exportHsk(),
   };
 }
 export async function importRecord(raw: unknown) {
@@ -150,6 +153,9 @@ export async function importRecord(raw: unknown) {
     if (!Array.isArray(r[key]) || (r[key] as unknown[]).length > 100000)
       throw new Error("The backup is incomplete or too large.");
   const data = r as unknown as Awaited<ReturnType<typeof exportRecord>>;
+  // Older backups have no notebook. Validate a supplied one before any writes.
+  const hsk = r.hskNotebook === undefined ? undefined : await import("./hsk-db");
+  if (hsk) hsk.validateHskBackup(r.hskNotebook);
   const modalities = [
     "listening",
     "reading",
@@ -301,4 +307,5 @@ export async function importRecord(raw: unknown) {
     await db.sessions.bulkPut(data.sessions);
     await db.drafts.bulkPut(data.drafts);
   });
+  if (hsk) await hsk.importHsk(r.hskNotebook);
 }

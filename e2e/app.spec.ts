@@ -1,5 +1,6 @@
 import { test, expect, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
+import AxeBuilder from "@axe-core/playwright";
 /** First screen is sign-in; tests study as a guest. */
 async function enter(page: Page) {
   const guest = page.getByRole("button", { name: /Start without an account/ });
@@ -35,10 +36,10 @@ async function go(page: Page, label: string) {
   if (await tab.isVisible()) return tab.click();
   await page.locator(".tabbar").getByRole("button", { name: "More" }).click();
   await page
-    .locator(".drawer")
+    .getByRole("dialog", { name: "Your study desk" })
     .getByRole("button", { name: label, exact: true })
     .click();
-  await expect(page.locator(".drawer-scrim")).toBeHidden();
+  await expect(page.getByRole("dialog", { name: "Your study desk" })).toBeHidden();
 }
 
 test("navigation survives refresh and browser back; skip link preserves the screen", async ({
@@ -68,6 +69,46 @@ test("navigation survives refresh and browser back; skip link preserves the scre
     page.getByRole("heading", { name: "Watch and sing", exact: true }),
   ).toBeVisible();
 });
+
+for (const width of [1440, 768, 375, 320]) {
+  test(`course library filters and study-desk navigation work at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await onboard(page);
+    await page.getByRole("button", { name: "Save and exit" }).click();
+    await go(page, "Course library");
+    await expect(page.getByRole("heading", { name: "Course library." })).toBeVisible();
+    await page.getByLabel("Level", { exact: true }).selectOption("4");
+    await page.getByLabel("Find a lesson").fill("new group");
+    await expect(page.locator(".library-unit")).toHaveCount(1);
+    if (width === 1440) {
+      expect((await new AxeBuilder({ page }).include(".course-library").withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
+    }
+    await page.getByRole("button", { name: "Open New words", exact: true }).click();
+    await expect(page.getByRole("button", { name: "Save and exit" })).toBeVisible();
+    await page.getByRole("button", { name: "Save and exit" }).click();
+    await page.reload();
+    await expect(page.getByRole("heading", { name: "Course library." })).toBeVisible();
+    await page.getByLabel("Show activities").selectOption("finished");
+    await expect(page.getByText("No activities match these filters.", { exact: false })).toBeVisible();
+    const trigger = page.locator(width <= 820 ? ".tabbar" : ".masthead-tools").getByRole("button", { name: "More", exact: true });
+    await trigger.click();
+    const desk = page.getByRole("dialog", { name: "Your study desk" });
+    await expect(desk).toBeVisible();
+    if (width === 1440) {
+      expect((await new AxeBuilder({ page }).include(".study-menu").withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
+    }
+    await page.keyboard.press("Escape");
+    await expect(desk).toBeHidden();
+    await expect(trigger).toBeFocused();
+    await trigger.click();
+    await desk.getByRole("button", { name: "Dictionary", exact: false }).click();
+    await expect(page).toHaveURL(/#dictionary$/);
+    await expect(desk).toBeHidden();
+    await page.goBack();
+    await expect(page.getByRole("heading", { name: "Course library." })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  });
+}
 
 test("watch captions and saved lines work; changing media clears old captions", async ({
   page,

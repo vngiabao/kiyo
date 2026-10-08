@@ -50,6 +50,34 @@ export const hskUnits = [
     book: "Use the book’s everyday-life dialogues and matching workbook exercises.",
   },
 ] as const;
+/** Stable saved stage IDs; higher-level banks mix skills, not HSK-1 topics. */
+export function hskUnitsFor(level: number) {
+  if (level === 1) return hskUnits;
+  const titles = ["Core understanding", "Connect the details", "Meaning in context"];
+  const descriptions = [
+    "Follow the stated situation, speaker and main point.",
+    "Connect time, reasons, conditions and the sequence of events.",
+    "Explain intent and choose the sentence that fits the context.",
+  ];
+  return hskUnits.map((unit, i) => ({ ...unit, title: titles[i], description: descriptions[i] }));
+}
+export function hskEntryFor(level: number) {
+  if (level === 1) return [
+    "Recognise basic tones and read simple words with their pinyin.",
+    "Understand common greetings, numbers and simple statements.",
+    "Use the character path if reading a short sentence still feels unfamiliar.",
+  ];
+  if (level <= 3) return [
+    "Read the previous level’s short messages and explain their main point.",
+    "Follow who did what, when and where in an everyday exchange.",
+    "Explain missed practice answers before moving to harder material.",
+  ];
+  return [
+    "Follow connected passages from the previous level without translating every word.",
+    "Explain a speaker’s reasons, contrasts and intentions from the actual context.",
+    "Retell the main events and repair recurring listening, reading and writing mistakes.",
+  ];
+}
 export const teacherLines = {
   start: {
     zh: "认真一点。开始吧。",
@@ -73,7 +101,7 @@ export const teacherLines = {
   },
 };
 export const hskSources = {
-  checked: "2026-10-04",
+  checked: "2026-10-07",
   syllabus: "https://www.chinesetest.cn/syllabus",
   official: "https://www.chinesetest.cn/HSK/1",
   samples3:
@@ -171,7 +199,7 @@ export interface HskRun {
   id: string;
   schemaVersion: 1;
   packVersion: 1 | 2;
-  level?: 1 | 2 | 3;
+  level?: 1 | 2 | 3 | 4 | 5 | 6;
   seenItemIds?: string[];
   unit: HskItem["unit"] | "repair";
   itemIds: string[];
@@ -258,7 +286,7 @@ export function hasHskBank(level: number) {
 }
 export function makeBankRun(
   unit: HskRun["unit"],
-  level: 1 | 2 | 3,
+  level: 1 | 2 | 3 | 4 | 5 | 6,
   history: HskRun[],
   ids?: string[],
   now = Date.now(),
@@ -282,7 +310,7 @@ export function validRun(raw: unknown): raw is HskRun {
     !!r &&
     typeof r.id === "string" &&
     r.schemaVersion === 1 &&
-    (r.packVersion === 1 || (r.packVersion === 2 && [1, 2, 3].includes(r.level!))) &&
+    (r.packVersion === 1 || (r.packVersion === 2 && [1, 2, 3, 4, 5, 6].includes(r.level!) && hasHskBank(r.level!))) &&
     ["identity", "numbers", "daily", "sample", "repair"].includes(r.unit) &&
     Array.isArray(r.itemIds) &&
     r.itemIds.length > 0 &&

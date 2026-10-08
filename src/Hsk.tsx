@@ -22,6 +22,8 @@ import {
   hskItemById,
   hskSources,
   hskUnits,
+  hskUnitsFor,
+  hskEntryFor,
   makeRun,
   makeBankRun,
   hasHskBank,
@@ -67,6 +69,7 @@ export default function Hsk({
   const practiceAvailable = s.level === 1 || bank;
   const studyKey = (unit: string) => s.level === 1 ? unit : `${s.level}:${unit}`;
   const plan = roadmapFor(s.level);
+  const units = hskUnitsFor(s.level);
   const levelSteps = sourceStepsFor(s.level);
   const selectLevel = (level: number) =>
     changeHskSettings({
@@ -103,7 +106,7 @@ export default function Hsk({
   const start = (unit: HskRun["unit"], ids?: string[]) =>
     void act(async () => {
       const r = bank
-        ? makeBankRun(unit, s.level as 1 | 2 | 3, runs, ids)
+        ? makeBankRun(unit, s.level as 1 | 2 | 3 | 4 | 5 | 6, runs, ids)
         : makeRun(unit, ids);
       await hskDB.runs.add(r);
       setActive(r.id);
@@ -116,9 +119,9 @@ export default function Hsk({
   const sourceCount = sourceSteps.filter((t) =>
     s.sourceDone.includes(sourceKey + t.id),
   ).length;
-  const next = hskUnits.find((u) => !unitPassed(u.id, runs, s.level));
+  const next = units.find((u) => !unitPassed(u.id, runs, s.level));
   if (study) {
-    const unit = hskUnits.find((u) => u.id === study)!;
+    const unit = units.find((u) => u.id === study)!;
     const items = hskItems.filter((q) => q.unit === study && q.level === s.level);
     const words = [
       ...new Map(
@@ -205,7 +208,7 @@ export default function Hsk({
           <h1>HSK study room.</h1>
           <p className="hsk-deck">Learn it. Prove it. Move on.</p>
           <p>
-            A deliberate path through source material, reading checkpoints and
+            A deliberate path through source material, skill checkpoints and
             timed practice.
           </p>
         </div>
@@ -349,7 +352,7 @@ export default function Hsk({
             <div className="hsk-section-heading">
               <h2>
                 {practiceAvailable
-                  ? "Your reading foundation"
+                  ? `${plan.label} · skill checkpoints`
                   : `${plan.label} · ${plan.title}`}
               </h2>
               <span>
@@ -358,6 +361,13 @@ export default function Hsk({
                   : `${sourceCount} / 5 study steps`}
               </span>
             </div>
+            <details className="hsk-roadmap">
+              <summary>Before {plan.label} · starting skills</summary>
+              <p>{plan.entry}</p>
+              <ul>{hskEntryFor(s.level).map((skill) => <li key={skill}>{skill}</li>)}</ul>
+              <p className="muted">These are Kiyo study recommendations, not official exam eligibility requirements or a placement result. Choose a lower level when the starting skills feel unfamiliar.</p>
+              <p>Study words and characters → grammar in context → reading and listening → mixed checkpoints → timed sample → repair. Use the Source desk for your chosen exam’s writing and speaking requirements.</p>
+            </details>
             {practiceAvailable ? (
               <>
                 <p className="muted">
@@ -366,7 +376,7 @@ export default function Hsk({
                     : "36 original cloze questions: 24 checkpoint items and 12 sample items. This is foundation practice, not complete exam coverage."}
                 </p>
                 <ol className="hsk-path">
-                  {hskUnits.map((u, i) => {
+                  {units.map((u, i) => {
                     const passed = unitPassed(u.id, runs, s.level),
                       unlocked = unitUnlocked(i, runs, s.level),
                       studied = s.studied.includes(studyKey(u.id));
@@ -395,7 +405,7 @@ export default function Hsk({
                           <Pinyin text={u.focusPy} />
                           <p>{u.description}</p>
                           <p className="muted">{u.book}</p></>}
-                          {bank && <p>Study the examples, then answer a fresh selection of listening, reading and word-order questions without help.</p>}
+                          {bank && <p>{u.description} Study the examples, then answer listening, reading, cloze and word-order questions without help.</p>}
                           {unlocked ? (
                             <div className="hsk-row-actions">
                               <button
@@ -482,7 +492,7 @@ export default function Hsk({
           <aside className="hsk-aside">
             <h2>Today’s assignment</h2>
             <p>
-              {s.level === 1
+              {practiceAvailable
                 ? next
                   ? `Study ${next.title.toLowerCase()}, then pass its checkpoint without notes.`
                   : "Take the timed reading sample, then review the official paper."
@@ -737,8 +747,8 @@ export default function Hsk({
       )}
       <footer className="hsk-footer">
         <p>
-          HSK notebook · saved on this device. Separate from cloud sync and the
-          main learning backup.
+          HSK notebook · saved on this device and included in progress backups.
+          Cloud sync does not include this notebook.
         </p>
         <div className="hsk-row-actions">
           <button

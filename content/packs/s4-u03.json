@@ -1,0 +1,1344 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u03",
+    "stage": 3,
+    "order": 111,
+    "title": "A plan that survives the rain",
+    "titleZh": "下雨也能聚在一起",
+    "canDo": [
+      "Coordinate a shared plan and backup venue",
+      "State what changes and what stays fixed",
+      "Share preparation and costs without assigning everything to one person"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u02",
+      "s4-u02-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u03-w01",
+      "hanzi": "替",
+      "pinyin": "tì",
+      "meaning": "on someone’s behalf; instead of",
+      "meaningVi": "thay cho",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你能替我去拿一下票吗？",
+        "py": "nǐ néng tì wǒ qù ná yī xià piào ma ?",
+        "en": "Could you collect the tickets for me?"
+      },
+      "usageNote": "[GF2021:L4:7924] Source entry: 替; tì; 动、介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w02",
+      "hanzi": "根据",
+      "pinyin": "gēn jù",
+      "meaning": "according to; based on",
+      "meaningVi": "dựa theo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "根据天气情况，我们再决定去哪儿。",
+        "py": "gēn jù tiān qì qíng kuàng , wǒ men zài jué dìng qù nǎr .",
+        "en": "We’ll decide where to go based on the weather."
+      },
+      "usageNote": "[GF2021:L4:2734] Source entry: 根据; gēnjù; 动、介、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w03",
+      "hanzi": "既然",
+      "pinyin": "jì rán",
+      "meaning": "since; given that",
+      "meaningVi": "đã…thì",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "既然你也没吃饭，一起去吧。",
+        "py": "jì rán nǐ yě méi chī fàn , yì qǐ qù ba .",
+        "en": "Since you haven’t eaten either, let’s go together."
+      },
+      "usageNote": "[GF2021:L4:3816] Source entry: 既然; jìrán; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w04",
+      "hanzi": "以及",
+      "pinyin": "yǐ jí",
+      "meaning": "and; as well as",
+      "meaningVi": "cũng như",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "桌上有茶、咖啡以及水果。",
+        "py": "zhuō shàng yǒu chá , kā fēi yǐ jí shuǐ guǒ .",
+        "en": "There are tea, coffee and fruit on the table."
+      },
+      "usageNote": "[GF2021:L4:9563] Source entry: 以及; yǐjí; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w05",
+      "hanzi": "否则",
+      "pinyin": "fǒu zé",
+      "meaning": "otherwise",
+      "meaningVi": "nếu không thì",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们早点走，否则会赶不上车。",
+        "py": "wǒ men zǎo diǎn zǒu , fǒu zé huì gǎn bù shàng chē .",
+        "en": "Let’s leave early or we’ll miss the train."
+      },
+      "usageNote": "[GF2021:L4:2440] Source entry: 否则; fǒuzé; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w06",
+      "hanzi": "临时",
+      "pinyin": "lín shí",
+      "meaning": "temporary; at short notice",
+      "meaningVi": "tạm thời; đột xuất",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她临时有事，今天来不了。",
+        "py": "tā lín shí yǒu shì , jīn tiān lái bù le .",
+        "en": "Something came up, so she can’t come today."
+      },
+      "usageNote": "[GF2021:L4:5191] Source entry: 临时; línshí; 形、副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w07",
+      "hanzi": "尽快",
+      "pinyin": "jǐn kuài",
+      "meaning": "as soon as possible",
+      "meaningVi": "sớm nhất có thể",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "请尽快告诉我你几点能到。",
+        "py": "qǐng jǐn kuài gào sù wǒ nǐ jǐ diǎn néng dào .",
+        "en": "Please let me know as soon as possible what time you can arrive."
+      },
+      "usageNote": "[GF2021:L4:4267] Source entry: 尽快; jǐnkuài; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w08",
+      "hanzi": "再三",
+      "pinyin": "zài sān",
+      "meaning": "repeatedly; several times",
+      "meaningVi": "nhiều lần",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "出门前，妈妈再三提醒我带伞。",
+        "py": "chū mén qián , mā mā zài sān tí xǐng wǒ dài sǎn .",
+        "en": "Before I left, Mum reminded me several times to take an umbrella."
+      },
+      "usageNote": "[GF2021:L4:10115] Source entry: 再三; zàisān; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w09",
+      "hanzi": "参与",
+      "pinyin": "cān yù",
+      "meaning": "participate in",
+      "meaningVi": "tham gia",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这次活动有十位邻居参与。",
+        "py": "zhè cì huó dòng yǒu shí wèi lín jū cān yù .",
+        "en": "Ten neighbours are taking part in this event."
+      },
+      "usageNote": "[GF2021:L4:705] Source entry: 参与; cānyù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w10",
+      "hanzi": "承担",
+      "pinyin": "chéng dān",
+      "meaning": "take on; bear",
+      "meaningVi": "đảm nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我来承担这次活动的车费。",
+        "py": "wǒ lái chéng dān zhè cì huó dòng de chē fèi .",
+        "en": "I’ll cover the transport costs for this event."
+      },
+      "usageNote": "[GF2021:L4:987] Source entry: 承担; chéngdān; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w11",
+      "hanzi": "包括",
+      "pinyin": "bāo kuò",
+      "meaning": "include",
+      "meaningVi": "bao gồm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个价格包括一杯饮料。",
+        "py": "zhè gè jià gé bāo kuò yī bēi yǐn liào .",
+        "en": "This price includes a drink."
+      },
+      "usageNote": "[GF2021:L4:176] Source entry: 包括; bāokuò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w12",
+      "hanzi": "无论",
+      "pinyin": "wú lùn",
+      "meaning": "regardless of; no matter",
+      "meaningVi": "bất kể",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "无论下不下雨，我们都四点见。",
+        "py": "wú lùn xià bù xià yǔ , wǒ men dōu sì diǎn jiàn .",
+        "en": "Rain or no rain, we’ll meet at four."
+      },
+      "usageNote": "[GF2021:L4:8529] Source entry: 无论; wúlùn; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w13",
+      "hanzi": "不管",
+      "pinyin": "bù guǎn",
+      "meaning": "no matter; regardless",
+      "meaningVi": "dù; bất kể",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "不管有几个人来，我们都准备两壶茶。",
+        "py": "bù guǎn yǒu jǐ gè rén lái , wǒ men dōu zhǔn bèi liǎng hú chá .",
+        "en": "However many people come, we’ll prepare two pots of tea."
+      },
+      "usageNote": "[GF2021:L4:587] Source entry: 不管; bùguǎn; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w14",
+      "hanzi": "布置",
+      "pinyin": "bù zhì",
+      "meaning": "arrange; decorate",
+      "meaningVi": "sắp xếp; trang trí",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们一起布置房间，准备晚上的聚会。",
+        "py": "wǒ men yì qǐ bù zhì fáng jiān , zhǔn bèi wǎn shang de jù huì .",
+        "en": "We’re arranging the room together for tonight’s get-together."
+      },
+      "usageNote": "[GF2021:L4:646] Source entry: 布置; bùzhì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u03-w15",
+      "hanzi": "取消",
+      "pinyin": "qǔ xiāo",
+      "meaning": "cancel",
+      "meaningVi": "hủy",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "因为大雨，今天的比赛取消了。",
+        "py": "yīn wèi dà yǔ , jīn tiān de bǐ sài qǔ xiāo le .",
+        "en": "Today’s match was cancelled because of heavy rain."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u03-w16",
+      "hanzi": "推迟",
+      "pinyin": "tuī chí",
+      "meaning": "postpone",
+      "meaningVi": "hoãn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们把出发时间推迟了半小时。",
+        "py": "wǒ men bǎ chū fā shí jiān tuī chí le bàn xiǎo shí .",
+        "en": "We postponed departure by half an hour."
+      },
+      "usageNote": "[GF2021:L4:8175] Source entry: 推迟; tuīchí; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u03-g01",
+      "pattern": "既然…就…",
+      "purpose": "Use an accepted fact as the basis for a decision",
+      "explanation": "既然 presents a fact both sides can accept; 就 introduces the consequent decision. A merely hypothetical future condition is better introduced with 如果.",
+      "examples": [
+        {
+          "zh": "既然大家都能来，我们就定周六吧。",
+          "py": "jì rán dà jiā dōu néng lái , wǒ men jiù dìng zhōu liù ba .",
+          "en": "Since everyone can come, let’s choose Saturday."
+        },
+        {
+          "zh": "既然下雨了，我们就在室内见。",
+          "py": "jì rán xià yǔ le , wǒ men jiù zài shì nèi jiàn .",
+          "en": "Since it’s raining, let’s meet indoors."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "既然明天也许下雨，我们已经确定下雨了。",
+          "right": "如果明天下雨，我们就在室内见。",
+          "why": "A possible future condition is not an established fact."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u03-g02",
+      "pattern": "无论 / 不管…都…",
+      "purpose": "Keep a result constant across alternatives",
+      "explanation": "The first clause supplies alternatives or a question-word range. 都 states the unchanged result. This pattern does not erase practical exceptions unless the speaker actually includes them.",
+      "examples": [
+        {
+          "zh": "无论下不下雨，我们都四点见。",
+          "py": "wú lùn xià bù xià yǔ , wǒ men dōu sì diǎn jiàn .",
+          "en": "Rain or no rain, we’ll meet at four."
+        },
+        {
+          "zh": "不管谁先到，都在门口等一下。",
+          "py": "bù guǎn shéi xiān dào , dōu zài mén kǒu děng yī xià .",
+          "en": "Whoever arrives first should wait a moment at the door."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "无论下雨，我们都四点见。",
+          "right": "无论下不下雨，我们都四点见。",
+          "why": "下雨 alone is not a range or pair of alternatives here."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u03-g03",
+      "pattern": "否则",
+      "purpose": "State the unwelcome consequence of not doing something",
+      "explanation": "The first clause gives the action or condition; 否则 introduces what happens if it is not met. It often fits a warning or reminder.",
+      "examples": [
+        {
+          "zh": "先告诉大家换了地方，否则有人会走错。",
+          "py": "xiān gào sù dà jiā huàn le dì fāng , fǒu zé yǒu rén huì zǒu cuò .",
+          "en": "Tell everyone the venue changed or someone will go to the wrong place."
+        },
+        {
+          "zh": "早点出发，否则会迟到。",
+          "py": "zǎo diǎn chū fā , fǒu zé huì chí dào .",
+          "en": "Leave early or you’ll be late."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先告诉大家换了地方，否则他们就知道了。",
+          "right": "先告诉大家换了地方，否则有人会走错。",
+          "why": "Knowing the new venue follows informing people; it is not the consequence of failing to tell them."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u03-g04",
+      "pattern": "替 + person + action",
+      "purpose": "Perform an action on someone’s behalf",
+      "explanation": "替 identifies whose task you take over or whom you help. It does not by itself mean the person gave you permission to make unrelated decisions.",
+      "examples": [
+        {
+          "zh": "你替我买点水果，行吗？",
+          "py": "nǐ tì wǒ mǎi diǎn shuǐ guǒ , xíng ma ?",
+          "en": "Could you buy some fruit for me?"
+        },
+        {
+          "zh": "她替同事上了一天班。",
+          "py": "tā tì tóng shì shàng le yī tiān bān .",
+          "en": "She covered a day of work for her colleague."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我买替你水果。",
+          "right": "我替你买水果。",
+          "why": "替 plus the person goes before the action."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u03-d",
+    "title": "下雨也能聚在一起",
+    "titleZh": "下雨也能聚在一起",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "周六去公园的事，你问过大家了吗？",
+        "py": "zhōu liù qù gōng yuán de shì , nǐ wèn guò dà jiā le ma ?",
+        "en": "Have you asked everyone about going to the park on Saturday?",
+        "speaker": "a"
+      },
+      {
+        "zh": "问了，现在四个人都能来。还是下午四点见？",
+        "py": "wèn le , xiàn zài sì gè rén dōu néng lái . hái shi xià wǔ sì diǎn jiàn ?",
+        "en": "Yes, all four can come. Shall we still meet at four in the afternoon?",
+        "speaker": "b"
+      },
+      {
+        "zh": "可以，不过天气预报说可能下雨。",
+        "py": "kě yǐ , bù guò tiān qì yù bào shuō kě néng xià yǔ .",
+        "en": "That works, but the forecast says it may rain.",
+        "speaker": "a"
+      },
+      {
+        "zh": "既然这样，我再找个室内的地方。你的活动室能借吗？",
+        "py": "jì rán zhè yàng , wǒ zài zhǎo gè shì nèi de dì fāng . nǐ de huó dòng shì néng jiè ma ?",
+        "en": "In that case, I’ll look for an indoor place too. Could we borrow your activity room?",
+        "speaker": "b"
+      },
+      {
+        "zh": "我问问。不管下不下雨，时间都不变，对吧？",
+        "py": "wǒ wèn wèn . bù guǎn xià bù xià yǔ , shí jiān dōu bù biàn , duì ba ?",
+        "en": "I’ll ask. The time stays the same whether it rains or not, right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。今天晚上尽快告诉我，我好发消息给大家。",
+        "py": "duì . jīn tiān wǎn shang jǐn kuài gào sù wǒ , wǒ hǎo fā xiāo xī gěi dà jiā .",
+        "en": "Right. Let me know as soon as you can tonight so I can message everyone.",
+        "speaker": "b"
+      },
+      {
+        "zh": "吃的东西谁准备？上次你一个人做太多了。",
+        "py": "chī de dōng xi shéi zhǔn bèi ? shàng cì nǐ yī gè rén zuò tài duō le .",
+        "en": "Who’s getting the food ready? Last time you did too much on your own.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这次每个人带一道菜。我带面包，你替我买点水果行吗？",
+        "py": "zhè cì měi gè rén dài yī dào cài . wǒ dài miàn bāo , nǐ tì wǒ mǎi diǎn shuǐ guǒ xíng ma ?",
+        "en": "This time everyone brings a dish. I’ll bring bread. Could you buy some fruit for me?",
+        "speaker": "b"
+      },
+      {
+        "zh": "行。买完把钱告诉你，我们四个人一起分。",
+        "py": "xíng . mǎi wán bǎ qián gào sù nǐ , wǒ men sì gè rén yì qǐ fēn .",
+        "en": "Sure. I’ll tell you what it cost, and we’ll split it among the four of us.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。费用包括水果和饮料，自己做的菜就别算了。",
+        "py": "hǎo . fèi yòng bāo kuò shuǐ guǒ hé yǐn liào , zì jǐ zuò de cài jiù bié suàn le .",
+        "en": "Good. We’ll split the cost of fruit and drinks, but not the dishes people make themselves.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我买完再来帮你布置，别又一个人忙。",
+        "py": "nà wǒ mǎi wán zài lái bāng nǐ bù zhì , bié yòu yī gè rén máng .",
+        "en": "Then I’ll help you set up after shopping. Don’t do everything alone again.",
+        "speaker": "a"
+      },
+      {
+        "zh": "知道了。这次我只负责带面包，以及提醒你别迟到。",
+        "py": "zhī dào le . zhè cì wǒ zhǐ fù zé dài miàn bāo , yǐ jí tí xǐng nǐ bié chí dào .",
+        "en": "I know. This time I’m only in charge of bringing bread—and reminding you not to be late.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "室内",
+        "pinyin": "shì nèi",
+        "meaning": "indoors"
+      },
+      {
+        "hanzi": "活动室",
+        "pinyin": "huó dòng shì",
+        "meaning": "activity room"
+      },
+      {
+        "hanzi": "天气预报",
+        "pinyin": "tiān qì yù bào",
+        "meaning": "weather forecast"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is the group planning?",
+        "choices": [
+          "A four-person gathering with shared food",
+          "A public cooking competition",
+          "A cancelled trip abroad"
+        ],
+        "answer": "A four-person gathering with shared food"
+      },
+      {
+        "type": "detail",
+        "q": "Which costs will be divided?",
+        "choices": [
+          "Fruit and drinks",
+          "Every homemade dish",
+          "Only bread"
+        ],
+        "answer": "Fruit and drinks"
+      },
+      {
+        "type": "inference",
+        "q": "Why look for an indoor place too?",
+        "choices": [
+          "The weather forecast suggests rain",
+          "Nobody likes the park",
+          "The time has already been postponed"
+        ],
+        "answer": "The weather forecast suggests rain"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u03-r",
+    "title": "下雨也能聚在一起",
+    "titleZh": "下雨也能聚在一起",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "星期六的天气比预报的还差。三点半，我看见窗外下着大雨，赶紧问群里是不是要取消。",
+        "py": "xīng qī liù de tiān qì bǐ yù bào de hái chà . sān diǎn bàn , wǒ kàn jiàn chuāng wài xià zhe dà yǔ , gǎn jǐn wèn qún lǐ shì bú shì yào qǔ xiāo .",
+        "en": "Saturday’s weather was even worse than forecast. At half past three I saw heavy rain outside and quickly asked the group whether we should cancel."
+      },
+      {
+        "zh": "林安回复说：“不用取消，我们改在活动室见，还是四点。门口有一把伞，谁先到谁先用。”",
+        "py": "lín ān huí fù shuō : bù yòng qǔ xiāo , wǒ men gǎi zài huó dòng shì jiàn , hái shi sì diǎn . mén kǒu yǒu yī bǎ sǎn , shéi xiān dào shéi xiān yòng .",
+        "en": "Lin An replied, “No need to cancel. We’re meeting in the activity room instead, still at four. There’s an umbrella at the door; whoever arrives first can use it.”"
+      },
+      {
+        "zh": "我到的时候，陈宇已经把桌子布置好了。桌上除了水果和饮料，还有每个人自己做的菜。",
+        "py": "wǒ dào de shí hou , chén yǔ yǐ jīng bǎ zhuō zi bù zhì hǎo le . zhuō shàng chú le shuǐ guǒ hé yǐn liào , hái yǒu měi gè rén zì jǐ zuò de cài .",
+        "en": "When I arrived, Chen Yu had already set the table. Besides fruit and drinks, it held dishes each person had made."
+      },
+      {
+        "zh": "大家先吃东西，后来把桌子搬到一边，一起玩游戏。四个人当中，只有我不懂规则，他们就先玩了一轮给我看。",
+        "py": "dà jiā xiān chī dōng xi , hòu lái bǎ zhuō zi bān dào yī biān , yì qǐ wán yóu xì . sì gè rén dāng zhōng , zhǐ yǒu wǒ bù dǒng guī zé , tā men jiù xiān wán le yī lún gěi wǒ kàn .",
+        "en": "We ate first, then moved the table aside and played a game together. I was the only one of the four who didn’t know the rules, so they played a round to show me."
+      },
+      {
+        "zh": "水果和饮料一共花了一百四十块。我们按四个人分，每人三十五块。陈宇说钱不用急着转，回家以后有空再转就行。",
+        "py": "shuǐ guǒ hé yǐn liào yī gòng huā le yī bǎi sì shí kuài . wǒ men àn sì gè rén fēn , měi rén sān shí wǔ kuài . chén yǔ shuō qián bù yòng jí zhe zhuǎn , huí jiā yǐ hòu yǒu kōng zài zhuǎn jiù xíng .",
+        "en": "The fruit and drinks cost 140 yuan altogether. Divided among four people, that was 35 each. Chen Yu said there was no rush to transfer it; we could do it after getting home."
+      },
+      {
+        "zh": "后来，一个朋友临时要回去照顾孩子，先走了。我们没把她留下，也没因为少了一个人就提前结束。",
+        "py": "hòu lái , yī gè péng you lín shí yào huí qù zhào gù hái zi , xiān zǒu le . wǒ men méi bǎ tā liú xià , yě méi yīn wèi shǎo le yī gè rén jiù tí qián jié shù .",
+        "en": "Later, something came up and one friend had to go home to look after her child. We didn’t make her stay or end early just because one person had left."
+      },
+      {
+        "zh": "那天没有去成公园，但我没有失望。大家根据天气换了地方，也把准备工作分开承担了，谁都没忙得吃不上饭。",
+        "py": "nà tiān méi yǒu qù chéng gōng yuán , dàn wǒ méi yǒu shī wàng . dà jiā gēn jù tiān qì huàn le dì fāng , yě bǎ zhǔn bèi gōng zuò fēn kāi chéng dān le , shéi dōu méi máng dé chī bù shàng fàn .",
+        "en": "We didn’t get to the park that day, but I wasn’t disappointed. We changed venue because of the weather and shared the preparation, so nobody was too busy to eat."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "活动室",
+        "pinyin": "huó dòng shì",
+        "meaning": "activity room"
+      },
+      {
+        "hanzi": "规则",
+        "pinyin": "guī zé",
+        "meaning": "rules"
+      },
+      {
+        "hanzi": "转",
+        "pinyin": "zhuǎn",
+        "meaning": "transfer money here"
+      },
+      {
+        "hanzi": "伞",
+        "pinyin": "sǎn",
+        "meaning": "umbrella"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How did the gathering turn out?",
+        "choices": [
+          "It moved indoors and still worked well",
+          "It was cancelled before anyone arrived",
+          "Everyone stayed outside in the rain"
+        ],
+        "answer": "It moved indoors and still worked well"
+      },
+      {
+        "type": "detail",
+        "q": "How much does each person owe for fruit and drinks?",
+        "choices": [
+          "35 yuan",
+          "140 yuan",
+          "70 yuan"
+        ],
+        "answer": "35 yuan"
+      },
+      {
+        "type": "inference",
+        "q": "Why does the narrator see the preparation as successful?",
+        "choices": [
+          "The work was shared and everyone could eat",
+          "One host did all the work without eating",
+          "No food or drinks were purchased"
+        ],
+        "answer": "The work was shared and everyone could eat"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u03-media",
+      "title": "Just a little bread",
+      "titleZh": "Just a little bread",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你再三说别迟到，自己怎么还没到？",
+          "py": "nǐ zài sān shuō bié chí dào , zì jǐ zěn me hái méi dào ?",
+          "en": "You kept telling us not to be late. How come you’re not here yet?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我到楼下了，面包太多，电梯还坏了。",
+          "py": "wǒ dào lóu xià le , miàn bāo tài duō , diàn tī hái huài le .",
+          "en": "I’m downstairs. There’s too much bread, and the lift is broken.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你不是说只带一点吗？",
+          "py": "nǐ bù shì shuō zhǐ dài yī diǎn ma ?",
+          "en": "Didn’t you say you’d only bring a little?",
+          "speaker": "a"
+        },
+        {
+          "zh": "买的时候饿了，越买越多。",
+          "py": "mǎi de shí hou è le , yuè mǎi yuè duō .",
+          "en": "I was hungry while shopping and kept buying more.",
+          "speaker": "b"
+        },
+        {
+          "zh": "别爬楼了，我下来替你拿一半。",
+          "py": "bié pá lóu le , wǒ xià lái tì nǐ ná yí bàn .",
+          "en": "Don’t start climbing. I’ll come down and carry half for you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那你带把伞，门外雨可大了。",
+          "py": "nà nǐ dài bǎ sǎn , mén wài yǔ kě dà le .",
+          "en": "Then bring an umbrella. It’s really raining outside the entrance.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好。今天谁都不许说“就一点”。",
+          "py": "hǎo . jīn tiān shéi dōu bù xǔ shuō jiù yī diǎn .",
+          "en": "Okay. Today nobody’s allowed to say “just a little.”",
+          "speaker": "a"
+        },
+        {
+          "zh": "等你看到面包再说吧，的确不少。",
+          "py": "děng nǐ kàn dào miàn bāo zài shuō ba , dí què bù shǎo .",
+          "en": "Wait until you see the bread. There really is quite a lot.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "电梯",
+          "pinyin": "diàn tī",
+          "meaning": "lift; elevator"
+        },
+        {
+          "hanzi": "爬楼",
+          "pinyin": "pá lóu",
+          "meaning": "climb the stairs"
+        },
+        {
+          "hanzi": "伞",
+          "pinyin": "sǎn",
+          "meaning": "umbrella"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What practical problem holds up the friend?",
+          "choices": [
+            "Too much bread and a broken lift",
+            "They have lost all the food",
+            "They are at the wrong park"
+          ],
+          "answer": "Too much bread and a broken lift"
+        },
+        {
+          "type": "inference",
+          "q": "What does the other friend offer?",
+          "choices": [
+            "Carry half the bread upstairs",
+            "Cancel the meal immediately",
+            "Buy even more bread first"
+          ],
+          "answer": "Carry half the bread upstairs"
+        }
+      ]
+    },
+    {
+      "id": "s4-u03-word-notebook",
+      "title": "A plan that survives the rain: words in context",
+      "titleZh": "下雨也能聚在一起 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "你能替我去拿一下票吗？",
+          "py": "nǐ néng tì wǒ qù ná yī xià piào ma ?",
+          "en": "Could you collect the tickets for me?"
+        },
+        {
+          "zh": "她替同事上了一天班。",
+          "py": "tā tì tóng shì shàng le yī tiān bān .",
+          "en": "She covered a day of work for her colleague."
+        },
+        {
+          "zh": "根据天气情况，我们再决定去哪儿。",
+          "py": "gēn jù tiān qì qíng kuàng , wǒ men zài jué dìng qù nǎr .",
+          "en": "We’ll decide where to go based on the weather."
+        },
+        {
+          "zh": "他根据大家的意见改了菜单。",
+          "py": "tā gēn jù dà jiā de yì jiàn gǎi le cài dān .",
+          "en": "He changed the menu based on everyone’s comments."
+        },
+        {
+          "zh": "既然你也没吃饭，一起去吧。",
+          "py": "jì rán nǐ yě méi chī fàn , yì qǐ qù ba .",
+          "en": "Since you haven’t eaten either, let’s go together."
+        },
+        {
+          "zh": "既然票都买好了，我们就早点出发。",
+          "py": "jì rán piào dōu mǎi hǎo le , wǒ men jiù zǎo diǎn chū fā .",
+          "en": "Since the tickets are bought, let’s set off early."
+        },
+        {
+          "zh": "桌上有茶、咖啡以及水果。",
+          "py": "zhuō shàng yǒu chá , kā fēi yǐ jí shuǐ guǒ .",
+          "en": "There are tea, coffee and fruit on the table."
+        },
+        {
+          "zh": "这封邮件写了时间、地点以及需要带的东西。",
+          "py": "zhè fēng yóu jiàn xiě le shí jiān , dì diǎn yǐ jí xū yào dài de dōng xi .",
+          "en": "This email gives the time, place and what to bring."
+        },
+        {
+          "zh": "我们早点走，否则会赶不上车。",
+          "py": "wǒ men zǎo diǎn zǒu , fǒu zé huì gǎn bù shàng chē .",
+          "en": "Let’s leave early or we’ll miss the train."
+        },
+        {
+          "zh": "先把名字写好，否则容易拿错。",
+          "py": "xiān bǎ míng zi xiě hǎo , fǒu zé róng yì ná cuò .",
+          "en": "Label the names first or people may take the wrong thing."
+        },
+        {
+          "zh": "她临时有事，今天来不了。",
+          "py": "tā lín shí yǒu shì , jīn tiān lái bù le .",
+          "en": "Something came up, so she can’t come today."
+        },
+        {
+          "zh": "我们找了一个临时放行李的地方。",
+          "py": "wǒ men zhǎo le yī gè lín shí fàng xíng lǐ de dì fāng .",
+          "en": "We found a temporary place for our luggage."
+        },
+        {
+          "zh": "请尽快告诉我你几点能到。",
+          "py": "qǐng jǐn kuài gào sù wǒ nǐ jǐ diǎn néng dào .",
+          "en": "Please let me know as soon as possible what time you can arrive."
+        },
+        {
+          "zh": "我会尽快把照片发给你。",
+          "py": "wǒ huì jǐn kuài bǎ zhào piān fā gěi nǐ .",
+          "en": "I’ll send you the photos as soon as I can."
+        },
+        {
+          "zh": "出门前，妈妈再三提醒我带伞。",
+          "py": "chū mén qián , mā mā zài sān tí xǐng wǒ dài sǎn .",
+          "en": "Before I left, Mum reminded me several times to take an umbrella."
+        },
+        {
+          "zh": "我再三确认了地址，还是走错了门。",
+          "py": "wǒ zài sān què rèn le dì zhǐ , hái shi zǒu cuò le mén .",
+          "en": "I checked the address repeatedly and still went to the wrong door."
+        },
+        {
+          "zh": "这次活动有十位邻居参与。",
+          "py": "zhè cì huó dòng yǒu shí wèi lín jū cān yù .",
+          "en": "Ten neighbours are taking part in this event."
+        },
+        {
+          "zh": "她也想参与讨论，但还没想好怎么说。",
+          "py": "tā yě xiǎng cān yù tǎo lùn , dàn hái méi xiǎng hǎo zěn me shuō .",
+          "en": "She wants to join the discussion too but hasn’t worked out what to say."
+        },
+        {
+          "zh": "我来承担这次活动的车费。",
+          "py": "wǒ lái chéng dān zhè cì huó dòng de chē fèi .",
+          "en": "I’ll cover the transport costs for this event."
+        },
+        {
+          "zh": "他不想一个人承担所有工作。",
+          "py": "tā bù xiǎng yī gè rén chéng dān suǒ yǒu gōng zuò .",
+          "en": "He doesn’t want to take on all the work alone."
+        },
+        {
+          "zh": "这个价格包括一杯饮料。",
+          "py": "zhè gè jià gé bāo kuò yī bēi yǐn liào .",
+          "en": "This price includes a drink."
+        },
+        {
+          "zh": "参加的人包括老师和学生。",
+          "py": "cān jiā de rén bāo kuò lǎo shī hé xué sheng .",
+          "en": "Participants include teachers and students."
+        },
+        {
+          "zh": "无论下不下雨，我们都四点见。",
+          "py": "wú lùn xià bù xià yǔ , wǒ men dōu sì diǎn jiàn .",
+          "en": "Rain or no rain, we’ll meet at four."
+        },
+        {
+          "zh": "无论你选哪一件，我都觉得好看。",
+          "py": "wú lùn nǐ xuǎn nǎ yī jiàn , wǒ dōu jué de hǎo kàn .",
+          "en": "Whichever one you choose, I think it looks good."
+        },
+        {
+          "zh": "不管有几个人来，我们都准备两壶茶。",
+          "py": "bù guǎn yǒu jǐ gè rén lái , wǒ men dōu zhǔn bèi liǎng hú chá .",
+          "en": "However many people come, we’ll prepare two pots of tea."
+        },
+        {
+          "zh": "不管谁先到，都在门口等一下。",
+          "py": "bù guǎn shéi xiān dào , dōu zài mén kǒu děng yī xià .",
+          "en": "Whoever arrives first should wait a moment at the door."
+        },
+        {
+          "zh": "我们一起布置房间，准备晚上的聚会。",
+          "py": "wǒ men yì qǐ bù zhì fáng jiān , zhǔn bèi wǎn shang de jù huì .",
+          "en": "We’re arranging the room together for tonight’s get-together."
+        },
+        {
+          "zh": "桌子已经布置好了，就差花了。",
+          "py": "zhuō zi yǐ jīng bù zhì hǎo le , jiù chà huā le .",
+          "en": "The table is arranged; only the flowers are missing."
+        },
+        {
+          "zh": "因为大雨，今天的比赛取消了。",
+          "py": "yīn wèi dà yǔ , jīn tiān de bǐ sài qǔ xiāo le .",
+          "en": "Today’s match was cancelled because of heavy rain."
+        },
+        {
+          "zh": "我不想取消，只想换一个时间。",
+          "py": "wǒ bù xiǎng qǔ xiāo , zhǐ xiǎng huàn yī gè shí jiān .",
+          "en": "I don’t want to cancel, just change the time."
+        },
+        {
+          "zh": "我们把出发时间推迟了半小时。",
+          "py": "wǒ men bǎ chū fā shí jiān tuī chí le bàn xiǎo shí .",
+          "en": "We postponed departure by half an hour."
+        },
+        {
+          "zh": "演出推迟到下周六了。",
+          "py": "yǎn chū tuī chí dào xià zhōu liù le .",
+          "en": "The performance has been postponed to next Saturday."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "伞",
+          "pinyin": "sǎn",
+          "meaning": "umbrella"
+        },
+        {
+          "hanzi": "壶",
+          "pinyin": "hú",
+          "meaning": "pot; kettle"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u03-c",
+    "title": "A plan that survives the rain",
+    "place": "Planning with friends",
+    "context": "Rain may change the venue, but the group wants to meet at the agreed time.",
+    "goal": "Coordinate a shared plan and backup venue",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "如果下雨呢？",
+        "pinyin": "rú guǒ xià yǔ ne ?",
+        "meaning": "What if it rains?",
+        "intent": "Offer the backup venue",
+        "examples": [
+          "如果下雨，我们就在活动室见。"
+        ],
+        "accept": [
+          "^如果下雨，我们就在活动室见。[。！？]?$"
+        ]
+      },
+      {
+        "text": "费用怎么分？",
+        "pinyin": "fèi yòng zěn me fēn ?",
+        "meaning": "How will we divide the costs?",
+        "intent": "Divide fruit and drink costs among four people",
+        "examples": [
+          "水果和饮料的钱，我们四个人一起分。"
+        ],
+        "accept": [
+          "^水果和饮料的钱，我们四个人一起分。[。！？]?$"
+        ]
+      },
+      {
+        "text": "要不要我来帮你？",
+        "pinyin": "yào bù yào wǒ lái bāng nǐ ?",
+        "meaning": "Would you like me to help?",
+        "intent": "Ask for one concrete piece of help",
+        "examples": [
+          "好啊，你替我买点水果吧。"
+        ],
+        "accept": [
+          "^好啊，你替我买点水果吧。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Give a concrete fallback",
+      "natural": {
+        "zh": "如果下雨，我们换到室内，时间不变。",
+        "py": "rú guǒ xià yǔ , wǒ men huàn dào shì nèi , shí jiān bù biàn .",
+        "en": "If it rains, we’ll move indoors; the time stays the same."
+      },
+      "note": "A venue change and a cancellation are different actions."
+    },
+    {
+      "situation": "Ask for manageable help",
+      "natural": {
+        "zh": "你能替我拿一半吗？",
+        "py": "nǐ néng tì wǒ ná yí bàn ma ?",
+        "en": "Could you carry half for me?"
+      },
+      "note": "The bounded request makes the practical task clear."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u03-t01",
+      "phrase": "s4-u03-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我问问。不管下不下雨，时间都不变，对吧？",
+        "py": "wǒ wèn wèn . bù guǎn xià bù xià yǔ , shí jiān dōu bù biàn , duì ba ?",
+        "en": "I’ll ask. The time stays the same whether it rains or not, right?"
+      },
+      "statement": "The proposed meeting time changes if it rains.",
+      "answer": false,
+      "why": "The speaker asks to keep the time unchanged."
+    },
+    {
+      "id": "s4-u03-t02",
+      "phrase": "s4-u03-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "水果和饮料一共花了一百四十块。我们按四个人分，每人三十五块。陈宇说钱不用急着转，回家以后有空再转就行。",
+        "py": "shuǐ guǒ hé yǐn liào yī gòng huā le yī bǎi sì shí kuài . wǒ men àn sì gè rén fēn , měi rén sān shí wǔ kuài . chén yǔ shuō qián bù yòng jí zhe zhuǎn , huí jiā yǐ hòu yǒu kōng zài zhuǎn jiù xíng .",
+        "en": "The fruit and drinks cost 140 yuan altogether. Divided among four people, that was 35 each. Chen Yu said there was no rush to transfer it; we could do it after getting home."
+      },
+      "statement": "Each of four people owes 35 yuan.",
+      "answer": true,
+      "why": "140 divided by 4 is 35."
+    },
+    {
+      "id": "s4-u03-t03",
+      "phrase": "s4-u03-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "我一个人准备不过来，面包和水果还没买。",
+        "py": "wǒ yī gè rén zhǔn bèi bù guò lái , miàn bāo hé shuǐ guǒ hái méi mǎi .",
+        "en": "I cannot prepare everything alone; we have not bought bread or fruit yet."
+      },
+      "choices": [
+        "我们分一下，你负责面包，我买水果。",
+        "面包水果都买好了，不用分工。",
+        "我们还没准备，但大家已经吃完了。"
+      ],
+      "answer": "我们分一下，你负责面包，我买水果。",
+      "why": "The reply divides the actual preparation tasks."
+    },
+    {
+      "id": "s4-u03-t04",
+      "phrase": "s4-u03-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "我们说下雨就改活动室，时间还是四点。现在下雨，要取消吗？",
+        "py": "wǒ men shuō xià yǔ jiù gǎi huó dòng shì , shí jiān hái shi sì diǎn . xiàn zài xià yǔ , yào qǔ xiāo ma ?",
+        "en": "We agreed to use the activity room if it rains, still at four. Now it is raining. Should we cancel?"
+      },
+      "choices": [
+        "不用，改在活动室见，还是四点。",
+        "不用，按刚才安排改成明天六点。",
+        "对，原来的安排是下雨就取消。"
+      ],
+      "answer": "不用，改在活动室见，还是四点。",
+      "why": "The backup changes venue but preserves the agreed time."
+    },
+    {
+      "id": "s4-u03-t05",
+      "phrase": "s4-u03-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "早点出发，【否则】会迟到。",
+        "py": "zǎo diǎn chū fā , fǒu zé huì chí dào .",
+        "en": "Leave early or you’ll be late."
+      },
+      "blankPy": "fǒu zé"
+    },
+    {
+      "id": "s4-u03-t06",
+      "phrase": "s4-u03-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "她【替】同事上了一天班。",
+        "py": "tā tì tóng shì shàng le yī tiān bān .",
+        "en": "She covered a day of work for her colleague."
+      },
+      "blankPy": "tì"
+    },
+    {
+      "id": "s4-u03-t07",
+      "phrase": "s4-u03-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "We’ll decide where to go based on the weather.",
+          "right": {
+            "zh": "根据天气情况，我们再决定去哪儿。",
+            "py": "gēn jù tiān qì qíng kuàng , wǒ men zài jué dìng qù nǎr .",
+            "en": "We’ll decide where to go based on the weather."
+          }
+        },
+        {
+          "left": "Before I left, Mum reminded me several times to take an umbrella.",
+          "right": {
+            "zh": "出门前，妈妈再三提醒我带伞。",
+            "py": "chū mén qián , mā mā zài sān tí xǐng wǒ dài sǎn .",
+            "en": "Before I left, Mum reminded me several times to take an umbrella."
+          }
+        },
+        {
+          "left": "Ten neighbours are taking part in this event.",
+          "right": {
+            "zh": "这次活动有十位邻居参与。",
+            "py": "zhè cì huó dòng yǒu shí wèi lín jū cān yù .",
+            "en": "Ten neighbours are taking part in this event."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u03-t08",
+      "phrase": "s4-u03-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He doesn’t want to take on all the work alone.",
+          "right": {
+            "zh": "他不想一个人承担所有工作。",
+            "py": "tā bù xiǎng yī gè rén chéng dān suǒ yǒu gōng zuò .",
+            "en": "He doesn’t want to take on all the work alone."
+          }
+        },
+        {
+          "left": "The table is arranged; only the flowers are missing.",
+          "right": {
+            "zh": "桌子已经布置好了，就差花了。",
+            "py": "zhuō zi yǐ jīng bù zhì hǎo le , jiù chà huā le .",
+            "en": "The table is arranged; only the flowers are missing."
+          }
+        },
+        {
+          "left": "The performance has been postponed to next Saturday.",
+          "right": {
+            "zh": "演出推迟到下周六了。",
+            "py": "yǎn chū tuī chí dào xià zhōu liù le .",
+            "en": "The performance has been postponed to next Saturday."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: light exaggeration in the bread exchange, 以及 inside a joking list, money-transfer wording. Arithmetic checked: 140/4=35. Time remains four; only the venue changes. Independent formal vocabulary examples are not forced into the friends’ speech.",
+  "characters": [
+    {
+      "hanzi": "替",
+      "pinyin": "tì",
+      "meaning": "replace; on behalf of",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "替",
+          "role": "whole",
+          "gloss": "replace; on behalf of"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 替 in 替. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "替",
+          "p": "tì",
+          "m": "on someone’s behalf; instead of"
+        }
+      ]
+    },
+    {
+      "hanzi": "既",
+      "pinyin": "jì",
+      "meaning": "already; since",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "既",
+          "role": "whole",
+          "gloss": "already; since"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 既 in 既然. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "既然",
+          "p": "jì rán",
+          "m": "since; given that"
+        }
+      ]
+    },
+    {
+      "hanzi": "则",
+      "pinyin": "zé",
+      "meaning": "rule; then",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "则",
+          "role": "whole",
+          "gloss": "rule; then"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 则 in 否则. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "否则",
+          "p": "fǒu zé",
+          "m": "otherwise"
+        }
+      ]
+    },
+    {
+      "hanzi": "临",
+      "pinyin": "lín",
+      "meaning": "approach; be about to",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "临",
+          "role": "whole",
+          "gloss": "approach; be about to"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 临 in 临时. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "临时",
+          "p": "lín shí",
+          "m": "temporary; at short notice"
+        }
+      ]
+    },
+    {
+      "hanzi": "担",
+      "pinyin": "dān",
+      "meaning": "undertake; carry a responsibility",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "担",
+          "role": "whole",
+          "gloss": "undertake; carry a responsibility"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 担 in 承担. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "承担",
+          "p": "chéng dān",
+          "m": "take on; bear"
+        }
+      ]
+    },
+    {
+      "hanzi": "括",
+      "pinyin": "kuò",
+      "meaning": "include; sum up",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "括",
+          "role": "whole",
+          "gloss": "include; sum up"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 括 in 包括. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "包括",
+          "p": "bāo kuò",
+          "m": "include"
+        }
+      ]
+    },
+    {
+      "hanzi": "无",
+      "pinyin": "wú",
+      "meaning": "without; not have",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "无",
+          "role": "whole",
+          "gloss": "without; not have"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 无 in 无论. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "无论",
+          "p": "wú lùn",
+          "m": "regardless of; no matter"
+        }
+      ]
+    },
+    {
+      "hanzi": "置",
+      "pinyin": "zhì",
+      "meaning": "put; place",
+      "strokes": 13,
+      "parts": [
+        {
+          "form": "置",
+          "role": "whole",
+          "gloss": "put; place"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 置 in 布置. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "布置",
+          "p": "bù zhì",
+          "m": "arrange; decorate"
+        }
+      ]
+    },
+    {
+      "hanzi": "迟",
+      "pinyin": "chí",
+      "meaning": "late; slow",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "迟",
+          "role": "whole",
+          "gloss": "late; slow"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 迟 in 推迟. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "推迟",
+          "p": "tuī chí",
+          "m": "postpone"
+        }
+      ]
+    }
+  ]
+}

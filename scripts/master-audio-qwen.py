@@ -64,9 +64,16 @@ def main():
     records,manifest=[],{}
     screen=read(CACHE/'screening.json') if (CACHE/'screening.json').exists() else {'clips':{}}
     acceptable={'text-match','repeated-text-match','homophone-transcript','owner-approved-take','carrier-text-match','carrier-homophone-transcript','erhua-transcript','phone-number-transcript'}
-    raw_records=[read(ROOT/j['receipt']) for j in plan['jobs'] if (ROOT/j['receipt']).exists()]
+    # Generation receipts are immutable for this plan. Read them once; every
+    # chosen raw recording and installed output still gets its exact hash check.
+    raw_by_receipt={j['receipt']:read(ROOT/j['receipt']) for j in plan['jobs'] if (ROOT/j['receipt']).exists()}
+    raw_records=list(raw_by_receipt.values())
     def screening(record):
         return screen['clips'].get(record['rawSha256']+':'+record['text'],{}).get('status','pending')
+    accepted_by_text={}
+    for record in raw_records:
+        if screening(record) in acceptable:
+            accepted_by_text.setdefault(record['text'],[]).append(record)
     if args.install:
         assert screen['planSha256']==digest(CACHE/'plan.json'), 'Screen the current generation plan before installing'
         screened_texts={r['text'] for r in raw_records if screening(r) in acceptable}
@@ -79,10 +86,10 @@ def main():
     for job in plan['jobs']:
         if not (ROOT/job['receipt']).exists():
             continue
-        raw=read(ROOT/job['receipt'])
+        raw=raw_by_receipt[job['receipt']]
         original_mood=raw['mood']
         if screening(raw) not in acceptable:
-            alternatives=[r for r in raw_records if r['text']==raw['text'] and screening(r) in acceptable]
+            alternatives=list(accepted_by_text.get(raw['text'],[]))
             alternatives.sort(key=lambda r:r['mood']!='clear')
             if alternatives:
                 raw=alternatives[0]
@@ -124,12 +131,11 @@ def main():
                     for alias in entry['moods'] if mood=='dialogue' else [mood]:
                         unresolved.append(dict(text=entry['text'],mood=alias,status='missing-screened-part',parts=absent))
                     continue
-                audios,hashes,selections=[],[],[]
+                sources,hashes,selections=[],[],[]
                 for part in entry['parts']:
                     part_mood=part['mood'] if mood=='dialogue' else mood
                     source=ROOT/'public'/index[key(part['text'])][part_mood].lstrip('/')
-                    audio,rate=sf.read(source);assert rate==24000
-                    audios.extend([audio,np.zeros(round(rate*.22))])
+                    sources.append(source)
                     hashes.append(digest(source));selections.append(dict(text=part['text'],mood=part_mood))
                 token=hashlib.sha256((''.join(hashes)+'qwen-assembly-v1').encode()).hexdigest()[:12]
                 dest=OUT/f'{entry["id"]}-{mood}-{token}.mp3'
@@ -139,6 +145,12 @@ def main():
                     assert digest(dest)==record['sha256']
                     assert record['sourceHashes']==hashes and record['parts']==selections
                 else:
+                    # Existing assemblies still verify every part and output hash.
+                    # Decode only when those exact bytes need a new assembly.
+                    audios=[]
+                    for source in sources:
+                        audio,rate=sf.read(source);assert rate==24000
+                        audios.extend([audio,np.zeros(round(rate*.22))])
                     record=dict(text=entry['text'],mood=mood,parts=selections,sourceHashes=hashes,
                         **encode(np.concatenate(audios[:-1]),dest))
                     atomic(receipt,record)

@@ -1,0 +1,1256 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u06",
+    "stage": 3,
+    "order": 114,
+    "title": "Choose a course that fits your life",
+    "titleZh": "这门课适合我吗",
+    "canDo": [
+      "Compare two course options against your study goals",
+      "Ask about entry requirements and application deadlines",
+      "Explain a sustainable study choice to a friend"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u05",
+      "s4-u05-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u06-w01",
+      "hanzi": "课程",
+      "pinyin": "kè chéng",
+      "meaning": "course; classes",
+      "meaningVi": "khóa học",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这门课程每周上两次。",
+        "py": "zhè mén kè chéng měi zhōu shàng liǎng cì .",
+        "en": "This course meets twice a week."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w02",
+      "hanzi": "参考",
+      "pinyin": "cān kǎo",
+      "meaning": "consult; use as a reference",
+      "meaningVi": "tham khảo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你可以参考去年的课程表。",
+        "py": "nǐ kě yǐ cān kǎo qù nián de kè chéng biǎo .",
+        "en": "You can consult last year’s timetable."
+      },
+      "usageNote": "[GF2021:L4:702] Source entry: 参考; cānkǎo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w03",
+      "hanzi": "选择",
+      "pinyin": "xuǎn zé",
+      "meaning": "choose; choice",
+      "meaningVi": "lựa chọn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你为什么选择晚上的班？",
+        "py": "nǐ wèi shén me xuǎn zé wǎn shang de bān ?",
+        "en": "Why did you choose the evening class?"
+      },
+      "usageNote": "[GF2021:L4:9198] Source entry: 选择; xuǎnzé; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w04",
+      "hanzi": "申请",
+      "pinyin": "shēn qǐng",
+      "meaning": "apply; application",
+      "meaningVi": "đăng ký; xin",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我准备申请下个月的课程。",
+        "py": "wǒ zhǔn bèi shēn qǐng xià gè yuè de kè chéng .",
+        "en": "I’m planning to apply for next month’s course."
+      },
+      "usageNote": "[GF2021:L4:7044] Source entry: 申请; shēnqǐng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w05",
+      "hanzi": "本科",
+      "pinyin": "běn kē",
+      "meaning": "undergraduate degree; undergraduate",
+      "meaningVi": "bậc đại học",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她本科读的是中文。",
+        "py": "tā běn kē dú de shì zhōng wén .",
+        "en": "She studied Chinese for her undergraduate degree."
+      },
+      "usageNote": "[GF2021:L4:302] Source entry: 本科; běnkē; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w06",
+      "hanzi": "毕业",
+      "pinyin": "bì yè",
+      "meaning": "graduate",
+      "meaningVi": "tốt nghiệp",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我姐姐去年毕业了。",
+        "py": "wǒ jiě jie qù nián bì yè le .",
+        "en": "My sister graduated last year."
+      },
+      "usageNote": "[GF2021:L4:362] Source entry: 毕业; bì∥yè; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w07",
+      "hanzi": "充分",
+      "pinyin": "chōng fèn",
+      "meaning": "sufficient; fully",
+      "meaningVi": "đầy đủ",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我还没充分了解这门课，想先问问。",
+        "py": "wǒ hái méi chōng fèn liǎo jiě zhè mén kè , xiǎng xiān wèn wèn .",
+        "en": "I don’t know enough about this course yet and want to ask some questions."
+      },
+      "usageNote": "[GF2021:L4:1058] Source entry: 充分; chōngfèn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w08",
+      "hanzi": "材料",
+      "pinyin": "cái liào",
+      "meaning": "material; documents",
+      "meaningVi": "tài liệu; vật liệu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "申请材料要在周五前交齐。",
+        "py": "shēn qǐng cái liào yào zài zhōu wǔ qián jiāo qí .",
+        "en": "All application documents must be submitted before Friday."
+      },
+      "usageNote": "[GF2021:L4:669] Source entry: 材料; cáiliào; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w09",
+      "hanzi": "条件",
+      "pinyin": "tiáo jiàn",
+      "meaning": "condition; requirement",
+      "meaningVi": "điều kiện",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "报名条件是什么？",
+        "py": "bào míng tiáo jiàn shì shén me ?",
+        "en": "What are the enrolment requirements?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w10",
+      "hanzi": "兴趣",
+      "pinyin": "xìng qù",
+      "meaning": "interest",
+      "meaningVi": "hứng thú",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我对电影里的日常对话很有兴趣。",
+        "py": "wǒ duì diàn yǐng lǐ de rì cháng duì huà hěn yǒu xìng qù .",
+        "en": "I’m interested in everyday dialogue in films."
+      },
+      "usageNote": "[GF2021:L4:9085] Source entry: 兴趣; xìngqù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u06-w11",
+      "hanzi": "目的",
+      "pinyin": "mù dì",
+      "meaning": "purpose; aim",
+      "meaningVi": "mục đích",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你来上课的目的是什么？",
+        "py": "nǐ lái shàng kè de mù dì shì shén me ?",
+        "en": "What’s your aim in taking classes?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w12",
+      "hanzi": "水平",
+      "pinyin": "shuǐ píng",
+      "meaning": "level; standard",
+      "meaningVi": "trình độ",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "我的阅读水平比听力好一点。",
+        "py": "wǒ de yuè dú shuǐ píng bǐ tīng lì hǎo yī diǎn .",
+        "en": "My reading is a little stronger than my listening."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w13",
+      "hanzi": "安排",
+      "pinyin": "ān pái",
+      "meaning": "arrange; arrangement",
+      "meaningVi": "sắp xếp",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我想先安排好周末的时间。",
+        "py": "wǒ xiǎng xiān ān pái hǎo zhōu mò de shí jiān .",
+        "en": "I’d like to sort out my weekend schedule first."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w14",
+      "hanzi": "费用",
+      "pinyin": "fèi yòng",
+      "meaning": "costs; fees",
+      "meaningVi": "chi phí",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这个费用包括材料吗？",
+        "py": "zhè gè fèi yòng bāo kuò cái liào ma ?",
+        "en": "Does this fee include the materials?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w15",
+      "hanzi": "适合",
+      "pinyin": "shì hé",
+      "meaning": "suit; be suitable for",
+      "meaningVi": "phù hợp",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这门课适合已经学过基础的人。",
+        "py": "zhè mén kè shì hé yǐ jīng xué guò jī chǔ de rén .",
+        "en": "This course suits people who’ve studied the basics."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u06-w16",
+      "hanzi": "决定",
+      "pinyin": "jué dìng",
+      "meaning": "decide; decision",
+      "meaningVi": "quyết định",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我想看完介绍再决定。",
+        "py": "wǒ xiǎng kàn wán jiè shào zài jué dìng .",
+        "en": "I’d like to read the description before deciding."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u06-g01",
+      "pattern": "对…来说",
+      "purpose": "Frame a judgment from a specific perspective",
+      "explanation": "Place the person or group after 对 and before 来说. The comment is relevant to that perspective; it is not automatically true for everyone.",
+      "examples": [
+        {
+          "zh": "对我来说，周末比晚上方便。",
+          "py": "duì wǒ lái shuō , zhōu mò bǐ wǎn shang fāng biàn .",
+          "en": "For me, weekends are more convenient than evenings."
+        },
+        {
+          "zh": "对刚开始学的人来说，这篇文章太长了。",
+          "py": "duì gāng kāi shǐ xué de rén lái shuō , zhè piān wén zhāng tài zhǎng le .",
+          "en": "For beginners, this article is too long."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "对我来说大家都一定喜欢这门课。",
+          "right": "对我来说，这门课比较合适。",
+          "why": "A personal perspective does not establish everyone else’s preference."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u06-g02",
+      "pattern": "只要…就…",
+      "purpose": "Present a sufficient condition",
+      "explanation": "只要 gives a condition the speaker treats as enough for the outcome. It does not claim the condition is the only route; that distinction matters for eligibility statements.",
+      "examples": [
+        {
+          "zh": "只要材料交齐，就可以开始审核。",
+          "py": "zhǐ yào cái liào jiāo qí , jiù kě yǐ kāi shǐ shěn hé .",
+          "en": "Once all documents are in, the review can start."
+        },
+        {
+          "zh": "只要周末有空，我就来参加。",
+          "py": "zhǐ yào zhōu mò yǒu kōng , wǒ jiù lái cān jiā .",
+          "en": "If I’m free at the weekend, I’ll join."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只要材料交齐，才可以开始审核。",
+          "right": "只要材料交齐，就可以开始审核。",
+          "why": "Use 就 with a sufficient condition; 只有…才 expresses a necessary one."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u06-g03",
+      "pattern": "只有…才…",
+      "purpose": "State a necessary requirement",
+      "explanation": "只有 introduces what must be satisfied; 才 indicates the outcome becomes available after that condition. A requirement does not guarantee success by itself.",
+      "examples": [
+        {
+          "zh": "只有完成基础课程，才可以申请。",
+          "py": "zhǐ yǒu wán chéng jī chǔ kè chéng , cái kě yǐ shēn qǐng .",
+          "en": "You can apply only after completing the foundation course."
+        },
+        {
+          "zh": "只有把时间安排好，才能坚持下来。",
+          "py": "zhǐ yǒu bǎ shí jiān ān pái hǎo , cái néng jiān chí xià lái .",
+          "en": "Only by organising your time can you keep it up."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只有完成基础课程，就一定能被录取。",
+          "right": "只有完成基础课程，才可以申请。",
+          "why": "Eligibility to apply is different from guaranteed admission."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u06-g04",
+      "pattern": "先…再决定要不要…",
+      "purpose": "Delay a decision until after evidence",
+      "explanation": "先 names an action that supplies information; 再 introduces a later decision. 要不要 embeds the yes/no choice inside the sentence.",
+      "examples": [
+        {
+          "zh": "先坚持四周，再决定要不要增加。",
+          "py": "xiān jiān chí sì zhōu , zài jué dìng yào bù yào zēng jiā .",
+          "en": "Keep it up for four weeks, then decide whether to add more."
+        },
+        {
+          "zh": "先问清楚，再决定要不要报名。",
+          "py": "xiān wèn qīng chǔ , zài jué dìng yào bù yào bào míng .",
+          "en": "Ask for the details first, then decide whether to enrol."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "再决定报名，先问清楚，所以我还没决定。",
+          "right": "先问清楚，再决定要不要报名。",
+          "why": "The ordering should reflect that the information comes before the decision."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u06-d",
+    "title": "这门课适合我吗",
+    "titleZh": "这门课适合我吗",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你不是想报名吗？怎么还在看课程介绍？",
+        "py": "nǐ bù shì xiǎng bào míng ma ? zěn me hái zài kàn kè chéng jiè shào ?",
+        "en": "Weren’t you going to enrol? Why are you still reading the descriptions?",
+        "speaker": "a"
+      },
+      {
+        "zh": "一个班练口语，一个班读文章。我两个都想选。",
+        "py": "yī gè bān liàn kǒu yǔ , yī gè bān dú wén zhāng . wǒ liǎng gè dōu xiǎng xuǎn .",
+        "en": "One class practises speaking; the other reads articles. I want both.",
+        "speaker": "b"
+      },
+      {
+        "zh": "时间不一样？",
+        "py": "shí jiān bù yī yàng ?",
+        "en": "Are they at different times?",
+        "speaker": "a"
+      },
+      {
+        "zh": "都在周三晚上。选阅读的话，周末还能参加免费的口语活动。",
+        "py": "dōu zài zhōu sān wǎn shang . xuǎn yuè dú de huà , zhōu mò hái néng cān jiā miǎn fèi de kǒu yǔ huó dòng .",
+        "en": "They’re both on Wednesday evenings. If I choose reading, I can join a free speaking activity at the weekend.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那听起来挺适合你。你不是说平时没机会读长一点的东西？",
+        "py": "nà tīng qǐ lái tǐng shì hé nǐ . nǐ bù shì shuō píng shí méi jī huì dú zhǎng yī diǎn de dōng xi ?",
+        "en": "That sounds like a good fit. Didn’t you say you rarely get to read anything longer?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。不过报名条件写着要先完成基础课程，我不知道以前的课算不算。",
+        "py": "duì . bù guò bào míng tiáo jiàn xiě zhe yào xiān wán chéng jī chǔ kè chéng , wǒ bù zhī dào yǐ qián de kè suàn bù suàn .",
+        "en": "Right, but enrolment requires a foundation course. I don’t know whether my earlier class counts.",
+        "speaker": "b"
+      },
+      {
+        "zh": "先问老师，别自己猜。申请什么时候结束？",
+        "py": "xiān wèn lǎo shī , bié zì jǐ cāi . shēn qǐng shén me shí hou jié shù ?",
+        "en": "Ask the teacher first rather than guessing. When do applications close?",
+        "speaker": "a"
+      },
+      {
+        "zh": "周五前要交齐材料。今天才周一，还有时间。",
+        "py": "zhōu wǔ qián yào jiāo qí cái liào . jīn tiān cái zhōu yī , hái yǒu shí jiān .",
+        "en": "All documents have to be in before Friday. It’s only Monday today, so there’s time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "费用呢？别看见免费活动就忘了课程的钱。",
+        "py": "fèi yòng ne ? bié kàn jiàn miǎn fèi huó dòng jiù wàng le kè chéng de qián .",
+        "en": "What about the fee? Don’t forget the course costs just because the activity’s free.",
+        "speaker": "a"
+      },
+      {
+        "zh": "一千二，包括课本。我已经问清楚了。",
+        "py": "yī qiān èr , bāo kuò kè běn . wǒ yǐ jīng wèn qīng chǔ le .",
+        "en": "Twelve hundred, including the textbook. I’ve already checked.",
+        "speaker": "b"
+      },
+      {
+        "zh": "不错，这次准备得比我充分。选好了周末叫我一起去。",
+        "py": "bù cuò , zhè cì zhǔn bèi dé bǐ wǒ chōng fèn . xuǎn hǎo le zhōu mò jiào wǒ yì qǐ qù .",
+        "en": "Good, you’re better prepared than I am this time. Once you’ve chosen, invite me along at the weekend.",
+        "speaker": "a"
+      },
+      {
+        "zh": "行。不过先说好，你不能只在旁边点头。",
+        "py": "xíng . bù guò xiān shuō hǎo , nǐ bù néng zhǐ zài páng biān diǎn tóu .",
+        "en": "Sure. But let’s be clear: you can’t just stand there nodding.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "enrol"
+      },
+      {
+        "hanzi": "点头",
+        "pinyin": "diǎn tóu",
+        "meaning": "nod"
+      },
+      {
+        "hanzi": "课本",
+        "pinyin": "kè běn",
+        "meaning": "textbook"
+      },
+      {
+        "hanzi": "交齐",
+        "pinyin": "jiāo qí",
+        "meaning": "submit all required items"
+      },
+      {
+        "hanzi": "免费",
+        "pinyin": "miǎn fèi",
+        "meaning": "free of charge"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What choice is being considered?",
+        "choices": [
+          "A reading course plus weekend speaking activity",
+          "Two Wednesday classes at the same time",
+          "Giving up study entirely"
+        ],
+        "answer": "A reading course plus weekend speaking activity"
+      },
+      {
+        "type": "detail",
+        "q": "What does the 1,200 fee include?",
+        "choices": [
+          "The textbook",
+          "All future transport",
+          "A professional degree"
+        ],
+        "answer": "The textbook"
+      },
+      {
+        "type": "inference",
+        "q": "Why ask the teacher about the earlier class?",
+        "choices": [
+          "To check whether it satisfies the foundation requirement",
+          "To demand a free textbook",
+          "To move the deadline to Monday"
+        ],
+        "answer": "To check whether it satisfies the foundation requirement"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u06-r",
+    "title": "这门课适合我吗",
+    "titleZh": "这门课适合我吗",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "我以前选课程，总是先看时间和价格。只要有空、费用不高，就觉得可以试试。上了几次以后，才发现有些课并不适合自己的目的。",
+        "py": "wǒ yǐ qián xuǎn kè chéng , zǒng shì xiān kàn shí jiān hé jià gé . zhǐ yào yǒu kōng , fèi yòng bù gāo , jiù jué de kě yǐ shì shì . shàng le jǐ cì yǐ hòu , cái fā xiàn yǒu xiē kè bìng bù shì hé zì jǐ de mù dì .",
+        "en": "I used to choose courses mainly by time and price. If I was free and the fee wasn’t high, I’d try one. After a few classes, I sometimes found it didn’t fit my goals."
+      },
+      {
+        "zh": "这次我先写了两件想做的事：读懂朋友推荐的短文章，和新认识的人聊得久一点。考试当然也重要，但我不想只会选答案。",
+        "py": "zhè cì wǒ xiān xiě le liǎng jiàn xiǎng zuò de shì : dú dǒng péng you tuī jiàn de duǎn wén zhāng , hé xīn rèn shi de rén liáo dé jiǔ yī diǎn . kǎo shì dāng rán yě zhòng yào , dàn wǒ bù xiǎng zhǐ huì xuǎn dá àn .",
+        "en": "This time I wrote down two things I wanted to do: understand short articles friends recommended and talk longer with people I’d just met. Exams mattered too, but I wanted more than choosing answers."
+      },
+      {
+        "zh": "我参考了课程介绍，也给老师写了邮件。老师说，阅读班每周读一篇文章，再讨论不同的看法；周末的口语活动没有作业，不过参加的人水平不完全一样。",
+        "py": "wǒ cān kǎo le kè chéng jiè shào , yě gěi lǎo shī xiě le yóu jiàn . lǎo shī shuō , yuè dú bān měi zhōu dú yī piān wén zhāng , zài tǎo lùn bù tóng de kàn fǎ ; zhōu mò de kǒu yǔ huó dòng méi yǒu zuò yè , bù guò cān jiā de rén shuǐ píng bù wán quán yī yàng .",
+        "en": "I consulted the descriptions and emailed the teacher. The reading class uses one article a week with discussion of different views. The weekend speaking activity has no homework, but participants have different levels."
+      },
+      {
+        "zh": "老师看过我以前的学习材料以后，说我可以报名阅读班。她还提醒我，申请不是交一张表就结束，周五前要交齐两份材料。",
+        "py": "lǎo shī kàn guò wǒ yǐ qián de xué xí cái liào yǐ hòu , shuō wǒ kě yǐ bào míng yuè dú bān . tā hái tí xǐng wǒ , shēn qǐng bù shì jiāo yī zhāng biǎo jiù jié shù , zhōu wǔ qián yào jiāo qí liǎng fèn cái liào .",
+        "en": "After looking at my previous study material, the teacher said I could enrol in reading. She reminded me that applying meant more than submitting a form: both documents were due before Friday."
+      },
+      {
+        "zh": "我没有同时报第二门课。每周读完一篇文章、准备讨论，再加一次口语活动，已经需要不少时间。先把这个安排坚持四周，再决定要不要增加。",
+        "py": "wǒ méi yǒu tóng shí bào dì èr mén kè . měi zhōu dú wán yī piān wén zhāng , zhǔn bèi tǎo lùn , zài jiā yī cì kǒu yǔ huó dòng , yǐ jīng xū yào bù shǎo shí jiān . xiān bǎ zhè gè ān pái jiān chí sì zhōu , zài jué dìng yào bù yào zēng jiā .",
+        "en": "I didn’t enrol in a second course as well. Reading an article, preparing for discussion and joining one speaking activity each week already took time. I’d keep that routine for four weeks before deciding whether to add more."
+      },
+      {
+        "zh": "报名成功那天，朋友问我能不能马上看懂整部电影。我说还不能，不过下周见到新同学，至少知道该从什么话题开始了。",
+        "py": "bào míng chéng gōng nà tiān , péng you wèn wǒ néng bù néng mǎ shàng kàn dǒng zhěng bù diàn yǐng . wǒ shuō hái bù néng , bù guò xià zhōu jiàn dào xīn tóng xué , zhì shǎo zhī dào gāi cóng shén me huà tí kāi shǐ le .",
+        "en": "When my enrolment was confirmed, a friend asked whether I could immediately understand a whole film. I said no, but at least I’d know how to start talking to my new classmates next week."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "报名",
+        "pinyin": "bào míng",
+        "meaning": "enrol"
+      },
+      {
+        "hanzi": "交齐",
+        "pinyin": "jiāo qí",
+        "meaning": "submit all required items"
+      },
+      {
+        "hanzi": "两份",
+        "pinyin": "liǎng fèn",
+        "meaning": "two copies or documents"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is different about this course choice?",
+        "choices": [
+          "Goals and workload guide it",
+          "Only the cheapest price matters",
+          "The narrator enrols in every available class"
+        ],
+        "answer": "Goals and workload guide it"
+      },
+      {
+        "type": "detail",
+        "q": "How long will the narrator try the routine before adding more?",
+        "choices": [
+          "Four weeks",
+          "Four days",
+          "A year"
+        ],
+        "answer": "Four weeks"
+      },
+      {
+        "type": "inference",
+        "q": "What does the final reply show?",
+        "choices": [
+          "The narrator sees a practical next step without claiming instant fluency",
+          "The narrator already understands every film",
+          "The narrator will never speak to classmates"
+        ],
+        "answer": "The narrator sees a practical next step without claiming instant fluency"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u06-media",
+      "title": "A short article, please",
+      "titleZh": "A short article, please",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你把表交了？",
+          "py": "nǐ bǎ biǎo jiāo le ?",
+          "en": "Did you submit the form?",
+          "speaker": "a"
+        },
+        {
+          "zh": "交了，课本也拿到了。老师说下周带一篇自己喜欢的短文章。",
+          "py": "jiāo le , kè běn yě ná dào le . lǎo shī shuō xià zhōu dài yī piān zì jǐ xǐ huān de duǎn wén zhāng .",
+          "en": "Yes, and I’ve got the textbook. The teacher asked us to bring a short article we like next week.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你打算带什么？",
+          "py": "nǐ dǎ suàn dài shén me ?",
+          "en": "What will you bring?",
+          "speaker": "a"
+        },
+        {
+          "zh": "还没决定。你上次发我的那篇挺有意思。",
+          "py": "hái méi jué dìng . nǐ shàng cì fā wǒ de nà piān tǐng yǒu yì si .",
+          "en": "I haven’t decided. That one you sent me was interesting.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那篇太长了，你不是说带短文章吗？",
+          "py": "nà piān tài zhǎng le , nǐ bù shì shuō dài duǎn wén zhāng ma ?",
+          "en": "That one’s too long. Didn’t you say a short article?",
+          "speaker": "a"
+        },
+        {
+          "zh": "所以我想问问你，有没有同一个作者写的短一点的。",
+          "py": "suǒ yǐ wǒ xiǎng wèn wèn nǐ , yǒu méi yǒu tóng yī gè zuò zhě xiě de duǎn yī diǎn de .",
+          "en": "That’s why I wanted to ask whether the same writer has anything shorter.",
+          "speaker": "b"
+        },
+        {
+          "zh": "有，我找给你。你可别把我的回复也当文章交了。",
+          "py": "yǒu , wǒ zhǎo gěi nǐ . nǐ kě bié bǎ wǒ de huí fù yě dāng wén zhāng jiāo le .",
+          "en": "Yes, I’ll find one. Just don’t submit my reply as the article.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那得看你回复多长。",
+          "py": "nà dé kàn nǐ huí fù duō zhǎng .",
+          "en": "That depends on how long your reply is.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "课本",
+          "pinyin": "kè běn",
+          "meaning": "textbook"
+        },
+        {
+          "hanzi": "作者",
+          "pinyin": "zuò zhě",
+          "meaning": "writer; author"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What is needed for next week?",
+          "choices": [
+            "A short article the learner likes",
+            "Every message from the friend",
+            "A full-length book"
+          ],
+          "answer": "A short article the learner likes"
+        },
+        {
+          "type": "inference",
+          "q": "Why ask for a shorter piece by the same writer?",
+          "choices": [
+            "The recommended piece is interesting but too long",
+            "The writer has stopped writing",
+            "The teacher banned that writer"
+          ],
+          "answer": "The recommended piece is interesting but too long"
+        }
+      ]
+    },
+    {
+      "id": "s4-u06-word-notebook",
+      "title": "Choose a course that fits your life: words in context",
+      "titleZh": "这门课适合我吗 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这门课程每周上两次。",
+          "py": "zhè mén kè chéng měi zhōu shàng liǎng cì .",
+          "en": "This course meets twice a week."
+        },
+        {
+          "zh": "课程结束以后，我们还会一起练习。",
+          "py": "kè chéng jié shù yǐ hòu , wǒ men hái huì yì qǐ liàn xí .",
+          "en": "We’ll keep practising together after the course ends."
+        },
+        {
+          "zh": "你可以参考去年的课程表。",
+          "py": "nǐ kě yǐ cān kǎo qù nián de kè chéng biǎo .",
+          "en": "You can consult last year’s timetable."
+        },
+        {
+          "zh": "这只是参考价格，实际费用还没定。",
+          "py": "zhè zhǐ shì cān kǎo jià gé , shí jì fèi yòng hái méi dìng .",
+          "en": "This is only an indicative price; the actual fee isn’t fixed yet."
+        },
+        {
+          "zh": "你为什么选择晚上的班？",
+          "py": "nǐ wèi shén me xuǎn zé wǎn shang de bān ?",
+          "en": "Why did you choose the evening class?"
+        },
+        {
+          "zh": "这次有三种选择，不用马上决定。",
+          "py": "zhè cì yǒu sān zhǒng xuǎn zé , bù yòng mǎ shàng jué dìng .",
+          "en": "There are three options this time; you don’t need to decide immediately."
+        },
+        {
+          "zh": "我准备申请下个月的课程。",
+          "py": "wǒ zhǔn bèi shēn qǐng xià gè yuè de kè chéng .",
+          "en": "I’m planning to apply for next month’s course."
+        },
+        {
+          "zh": "申请通过以后，学校会发邮件通知你。",
+          "py": "shēn qǐng tōng guò yǐ hòu , xué xiào huì fā yóu jiàn tōng zhī nǐ .",
+          "en": "The school will email you after your application is approved."
+        },
+        {
+          "zh": "她本科读的是中文。",
+          "py": "tā běn kē dú de shì zhōng wén .",
+          "en": "She studied Chinese for her undergraduate degree."
+        },
+        {
+          "zh": "本科毕业以后，他先工作了两年。",
+          "py": "běn kē bì yè yǐ hòu , tā xiān gōng zuò le liǎng nián .",
+          "en": "He worked for two years after completing his undergraduate degree."
+        },
+        {
+          "zh": "我姐姐去年毕业了。",
+          "py": "wǒ jiě jie qù nián bì yè le .",
+          "en": "My sister graduated last year."
+        },
+        {
+          "zh": "毕业前，我们想再一起去一次海边。",
+          "py": "bì yè qián , wǒ men xiǎng zài yì qǐ qù yī cì hǎi biān .",
+          "en": "Before graduation, we’d like one more trip to the sea together."
+        },
+        {
+          "zh": "我还没充分了解这门课，想先问问。",
+          "py": "wǒ hái méi chōng fèn liǎo jiě zhè mén kè , xiǎng xiān wèn wèn .",
+          "en": "I don’t know enough about this course yet and want to ask some questions."
+        },
+        {
+          "zh": "准备充分以后，我说话没那么紧张了。",
+          "py": "zhǔn bèi chōng fèn yǐ hòu , wǒ shuō huà méi nà me jǐn zhāng le .",
+          "en": "After preparing thoroughly, I felt less nervous speaking."
+        },
+        {
+          "zh": "申请材料要在周五前交齐。",
+          "py": "shēn qǐng cái liào yào zài zhōu wǔ qián jiāo qí .",
+          "en": "All application documents must be submitted before Friday."
+        },
+        {
+          "zh": "这些材料太重，一次拿不完。",
+          "py": "zhè xiē cái liào tài zhòng , yī cì ná bù wán .",
+          "en": "These materials are too heavy to carry in one trip."
+        },
+        {
+          "zh": "报名条件是什么？",
+          "py": "bào míng tiáo jiàn shì shén me ?",
+          "en": "What are the enrolment requirements?"
+        },
+        {
+          "zh": "这里条件不错，但离家有点远。",
+          "py": "zhè lǐ tiáo jiàn bù cuò , dàn lí jiā yǒu diǎn yuǎn .",
+          "en": "The facilities here are good, but it’s a little far from home."
+        },
+        {
+          "zh": "我对电影里的日常对话很有兴趣。",
+          "py": "wǒ duì diàn yǐng lǐ de rì cháng duì huà hěn yǒu xìng qù .",
+          "en": "I’m interested in everyday dialogue in films."
+        },
+        {
+          "zh": "这本书让我对历史产生了兴趣。",
+          "py": "zhè běn shū ràng wǒ duì lì shǐ chǎn shēng le xìng qù .",
+          "en": "This book sparked my interest in history."
+        },
+        {
+          "zh": "你来上课的目的是什么？",
+          "py": "nǐ lái shàng kè de mù dì shì shén me ?",
+          "en": "What’s your aim in taking classes?"
+        },
+        {
+          "zh": "这次见面的目的不是讨论钱。",
+          "py": "zhè cì jiàn miàn de mù dì bù shì tǎo lùn qián .",
+          "en": "The purpose of this meeting isn’t to discuss money."
+        },
+        {
+          "zh": "我的阅读水平比听力好一点。",
+          "py": "wǒ de yuè dú shuǐ píng bǐ tīng lì hǎo yī diǎn .",
+          "en": "My reading is a little stronger than my listening."
+        },
+        {
+          "zh": "这家店的服务水平一直不错。",
+          "py": "zhè jiā diàn de fú wù shuǐ píng yì zhí bù cuò .",
+          "en": "This shop’s service has consistently been good."
+        },
+        {
+          "zh": "我想先安排好周末的时间。",
+          "py": "wǒ xiǎng xiān ān pái hǎo zhōu mò de shí jiān .",
+          "en": "I’d like to sort out my weekend schedule first."
+        },
+        {
+          "zh": "老师已经安排了两次讨论。",
+          "py": "lǎo shī yǐ jīng ān pái le liǎng cì tǎo lùn .",
+          "en": "The teacher has arranged two discussions."
+        },
+        {
+          "zh": "这个费用包括材料吗？",
+          "py": "zhè gè fèi yòng bāo kuò cái liào ma ?",
+          "en": "Does this fee include the materials?"
+        },
+        {
+          "zh": "交通费用由我们三个人分。",
+          "py": "jiāo tōng fèi yòng yóu wǒ men sān gè rén fēn .",
+          "en": "The three of us will split the transport costs."
+        },
+        {
+          "zh": "这门课适合已经学过基础的人。",
+          "py": "zhè mén kè shì hé yǐ jīng xué guò jī chǔ de rén .",
+          "en": "This course suits people who’ve studied the basics."
+        },
+        {
+          "zh": "这双鞋不适合走很远的路。",
+          "py": "zhè shuāng xié bù shì hé zǒu hěn yuǎn de lù .",
+          "en": "These shoes aren’t suitable for long walks."
+        },
+        {
+          "zh": "我想看完介绍再决定。",
+          "py": "wǒ xiǎng kàn wán jiè shào zài jué dìng .",
+          "en": "I’d like to read the description before deciding."
+        },
+        {
+          "zh": "我们决定周六在车站见。",
+          "py": "wǒ men jué dìng zhōu liù zài chē zhàn jiàn .",
+          "en": "We decided to meet at the station on Saturday."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "报名",
+          "pinyin": "bào míng",
+          "meaning": "enrol"
+        },
+        {
+          "hanzi": "交齐",
+          "pinyin": "jiāo qí",
+          "meaning": "submit all required items"
+        },
+        {
+          "hanzi": "历史",
+          "pinyin": "lì shǐ",
+          "meaning": "history"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u06-c",
+    "title": "Choose a course that fits your life",
+    "place": "Choosing a course with a friend",
+    "context": "Two classes share a Wednesday slot; one can be combined with a free weekend speaking activity.",
+    "goal": "Compare two course options against your study goals",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "你为什么选这个班？",
+        "pinyin": "nǐ wèi shén me xuǎn zhè gè bān ?",
+        "meaning": "Why choose this class?",
+        "intent": "Connect the choice to a goal",
+        "examples": [
+          "我想练习读文章，也想和同学讨论。"
+        ],
+        "accept": [
+          "^我想练习读文章，也想和同学讨论。[。！？]?$"
+        ]
+      },
+      {
+        "text": "以前的课算吗？",
+        "pinyin": "yǐ qián de kè suàn ma ?",
+        "meaning": "Does the earlier class count?",
+        "intent": "Ask for verification",
+        "examples": [
+          "我想先问老师是否符合报名条件。"
+        ],
+        "accept": [
+          "^我想先问老师是否符合报名条件。[。！？]?$"
+        ]
+      },
+      {
+        "text": "还要再选一门吗？",
+        "pinyin": "hái yào zài xuǎn yī mén ma ?",
+        "meaning": "Will you add another class?",
+        "intent": "Defer a decision until after a trial",
+        "examples": [
+          "我先坚持四周，再决定要不要增加。"
+        ],
+        "accept": [
+          "^我先坚持四周，再决定要不要增加。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Separate price from included items",
+      "natural": {
+        "zh": "这个费用包括课本吗？",
+        "py": "zhè gè fèi yòng bāo kuò kè běn ma ?",
+        "en": "Does this fee include the textbook?"
+      },
+      "note": "A total price does not by itself tell you which items are included."
+    },
+    {
+      "situation": "Ask instead of assuming eligibility",
+      "natural": {
+        "zh": "我以前上过基础课，符合报名条件吗？",
+        "py": "wǒ yǐ qián shàng guò jī chǔ kè , fú hé bào míng tiáo jiàn ma ?",
+        "en": "I took a foundation course before. Do I meet the requirements?"
+      },
+      "note": "State your background and ask whether it satisfies the actual requirement."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u06-t01",
+      "phrase": "s4-u06-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "都在周三晚上。选阅读的话，周末还能参加免费的口语活动。",
+        "py": "dōu zài zhōu sān wǎn shang . xuǎn yuè dú de huà , zhōu mò hái néng cān jiā miǎn fèi de kǒu yǔ huó dòng .",
+        "en": "They’re both on Wednesday evenings. If I choose reading, I can join a free speaking activity at the weekend."
+      },
+      "statement": "Both classes meet on Wednesday evenings.",
+      "answer": true,
+      "why": "The speaker says 都在周三晚上."
+    },
+    {
+      "id": "s4-u06-t02",
+      "phrase": "s4-u06-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我没有同时报第二门课。每周读完一篇文章、准备讨论，再加一次口语活动，已经需要不少时间。先把这个安排坚持四周，再决定要不要增加。",
+        "py": "wǒ méi yǒu tóng shí bào dì èr mén kè . měi zhōu dú wán yī piān wén zhāng , zhǔn bèi tǎo lùn , zài jiā yī cì kǒu yǔ huó dòng , yǐ jīng xū yào bù shǎo shí jiān . xiān bǎ zhè gè ān pái jiān chí sì zhōu , zài jué dìng yào bù yào zēng jiā .",
+        "en": "I didn’t enrol in a second course as well. Reading an article, preparing for discussion and joining one speaking activity each week already took time. I’d keep that routine for four weeks before deciding whether to add more."
+      },
+      "statement": "The narrator immediately adds a second course.",
+      "answer": false,
+      "why": "The narrator tries one routine first."
+    },
+    {
+      "id": "s4-u06-t03",
+      "phrase": "s4-u06-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "我不知道以前的课算不算，老师还没看材料。怎么办？",
+        "py": "wǒ bù zhī dào yǐ qián de kè suàn bù suàn , lǎo shī hái méi kàn cái liào . zěn me bàn ?",
+        "en": "I don’t know whether my earlier class counts; the teacher hasn’t seen the documents. What should I do?"
+      },
+      "choices": [
+        "先把材料给老师看，问清楚。",
+        "没看材料也已经确定不能申请了。",
+        "没看材料也已经确定符合要求了。"
+      ],
+      "answer": "先把材料给老师看，问清楚。",
+      "why": "The reply proposes checking the prerequisite."
+    },
+    {
+      "id": "s4-u06-t04",
+      "phrase": "s4-u06-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "两门都在周三晚上，我只能上一门。怎么决定？",
+        "py": "liǎng mén dōu zài zhōu sān wǎn shang , wǒ zhǐ néng shàng yī mén . zěn me jué dìng ?",
+        "en": "Both classes meet Wednesday evenings; I can attend only one. How should I decide?"
+      },
+      "choices": [
+        "我先比较时间和目的，再决定。",
+        "时间相同，就可以同时去两门课。",
+        "只要课名好听，就一定符合我的目的。"
+      ],
+      "answer": "我先比较时间和目的，再决定。",
+      "why": "The reply describes the relevant choice process."
+    },
+    {
+      "id": "s4-u06-t05",
+      "phrase": "s4-u06-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "我想【参考】去年的课程表。",
+        "py": "wǒ xiǎng cān kǎo qù nián de kè chéng biǎo .",
+        "en": "I want to consult last year’s timetable."
+      },
+      "blankPy": "cān kǎo"
+    },
+    {
+      "id": "s4-u06-t06",
+      "phrase": "s4-u06-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "只有完成基础课程，【才】可以申请。",
+        "py": "zhǐ yǒu wán chéng jī chǔ kè chéng , cái kě yǐ shēn qǐng .",
+        "en": "You can apply only after completing the foundation course."
+      },
+      "blankPy": "cái"
+    },
+    {
+      "id": "s4-u06-t07",
+      "phrase": "s4-u06-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Why did you choose the evening class?",
+          "right": {
+            "zh": "你为什么选择晚上的班？",
+            "py": "nǐ wèi shén me xuǎn zé wǎn shang de bān ?",
+            "en": "Why did you choose the evening class?"
+          }
+        },
+        {
+          "left": "I don’t know enough about this course yet and want to ask some questions.",
+          "right": {
+            "zh": "我还没充分了解这门课，想先问问。",
+            "py": "wǒ hái méi chōng fèn liǎo jiě zhè mén kè , xiǎng xiān wèn wèn .",
+            "en": "I don’t know enough about this course yet and want to ask some questions."
+          }
+        },
+        {
+          "left": "What’s your aim in taking classes?",
+          "right": {
+            "zh": "你来上课的目的是什么？",
+            "py": "nǐ lái shàng kè de mù dì shì shén me ?",
+            "en": "What’s your aim in taking classes?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u06-t08",
+      "phrase": "s4-u06-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "These materials are too heavy to carry in one trip.",
+          "right": {
+            "zh": "这些材料太重，一次拿不完。",
+            "py": "zhè xiē cái liào tài zhòng , yī cì ná bù wán .",
+            "en": "These materials are too heavy to carry in one trip."
+          }
+        },
+        {
+          "left": "The teacher has arranged two discussions.",
+          "right": {
+            "zh": "老师已经安排了两次讨论。",
+            "py": "lǎo shī yǐ jīng ān pái le liǎng cì tǎo lùn .",
+            "en": "The teacher has arranged two discussions."
+          }
+        },
+        {
+          "left": "These shoes aren’t suitable for long walks.",
+          "right": {
+            "zh": "这双鞋不适合走很远的路。",
+            "py": "zhè shuāng xié bù shì hé zǒu hěn yuǎn de lù .",
+            "en": "These shoes aren’t suitable for long walks."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: college/course terminology and friendly final tease. Deadline means before Friday, not including Friday. A completed foundation course permits application; admission is not promised. A four-week trial is a personal plan, not a validated universal study prescription.",
+  "characters": [
+    {
+      "hanzi": "择",
+      "pinyin": "zé",
+      "meaning": "choose, in 选择",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "择",
+          "role": "whole",
+          "gloss": "choose, in 选择"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 择 in 选择. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "选择",
+          "p": "xuǎn zé",
+          "m": "choose; choice"
+        }
+      ]
+    },
+    {
+      "hanzi": "申",
+      "pinyin": "shēn",
+      "meaning": "state; apply",
+      "strokes": 5,
+      "parts": [
+        {
+          "form": "申",
+          "role": "whole",
+          "gloss": "state; apply"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 申 in 申请. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "申请",
+          "p": "shēn qǐng",
+          "m": "apply; application"
+        }
+      ]
+    },
+    {
+      "hanzi": "毕",
+      "pinyin": "bì",
+      "meaning": "finish; after all, in 毕竟",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "毕",
+          "role": "whole",
+          "gloss": "finish; after all, in 毕竟"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 毕 in 毕业. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "毕业",
+          "p": "bì yè",
+          "m": "graduate"
+        }
+      ]
+    },
+    {
+      "hanzi": "料",
+      "pinyin": "liào",
+      "meaning": "material; expect",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "料",
+          "role": "whole",
+          "gloss": "material; expect"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 料 in 材料. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "材料",
+          "p": "cái liào",
+          "m": "material; documents"
+        }
+      ]
+    },
+    {
+      "hanzi": "趣",
+      "pinyin": "qù",
+      "meaning": "interest; interesting quality",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "趣",
+          "role": "whole",
+          "gloss": "interest; interesting quality"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 趣 in 兴趣. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "兴趣",
+          "p": "xìng qù",
+          "m": "interest"
+        }
+      ]
+    }
+  ]
+}

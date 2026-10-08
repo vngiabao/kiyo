@@ -45,6 +45,25 @@ const input = () => ({
 });
 
 describe("course coverage audit", () => {
+  it("audits added levels without promoting incidental words or unmapped grammar", () => {
+    const ref = inventory();
+    ref.levels["6"] = {
+      words: [["60", "六级", "道歉", "dào∥qiàn", ""], ["61", "六级", "此前", "cǐqián", "名"]],
+      characters: [["60", "六级", "歉", "qiàn"]],
+      grammar: [["60", "六级", "", "", "", "就算…也…"]],
+    };
+    const result = auditCoverage(ref, { ...input(),
+      packs: [{ vocabulary: [{ hanzi: "道歉", pinyin: "dào qiàn", pos: "verb", hskLevel: 6,
+        usageNote: "[GF2021:L6:60] Source: 道歉" }], grammar: [] } as unknown as ContentPack],
+      text: "此前 appears only in a passage",
+    }, {});
+    const level = result.levels.find(l => l.level === 6)!;
+    expect(level.words.introduced).toBe(1);
+    expect(level.words.remainingEntries[0].entry).toBe("此前");
+    expect(level.characters.introduced).toBe(0);
+    expect(level.grammar.items[0].code).toBe("六01");
+    expect(level.grammar.unmapped).toBe(1);
+  });
   it("requires exact source evidence for prefixes, classifiers and numbered senses", () => {
     const ref = inventory();
     ref.levels["2"].words = [

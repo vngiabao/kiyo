@@ -602,75 +602,75 @@
     "title": "The source of 她",
     "format": "story",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Read an original subtitle scene.",
+    "purpose": "Listen for the problem, the proposed response and the next action.",
     "lines": [
       {
-        "zh": "她说她会改，这两个她是同一个人吗？",
-        "py": "tā shuō tā huì gǎi , zhè liǎng gè tā shì tóng yī gè rén ma ?",
-        "en": "She says she will change it. Are both 她 the same person?",
+        "zh": "把声音调低一点，隔壁已经睡了。",
+        "py": "bǎ shēng yīn diào dī yī diǎn , gé bì yǐ jīng shuì le .",
+        "en": "Turn the volume down a little. Our neighbour's already asleep.",
         "speaker": "a"
       },
       {
-        "zh": "这一段还没说明。我专门来问，不随便猜。",
-        "py": "zhè yī duàn hái méi shuō míng . wǒ zhuān mén lái wèn , bù suí biàn cāi .",
-        "en": "This passage has not specified it. I came specifically to ask instead of guessing.",
+        "zh": "这么低，你听得清吗？",
+        "py": "zhè me dī , nǐ tīng dé qīng ma ?",
+        "en": "Can you hear it at this volume?",
         "speaker": "b"
       },
       {
-        "zh": "把声音调低，字切换成大一点，能看得懂吗？",
-        "py": "bǎ shēng yīn tiáo dī , zì qiè huàn chéng dà yī diǎn , néng kàn dé dǒng ma ?",
-        "en": "Lower the sound and switch to larger text. Can you understand it?",
+        "zh": "听得清，可刚才那句话我没听懂。她到底在等谁？",
+        "py": "tīng dé qīng , kě gāng cái nà jù huà wǒ méi tīng dǒng . tā dào dǐ zài děng shéi ?",
+        "en": "I can hear it, but I didn't understand that line. Who is she waiting for?",
         "speaker": "a"
       },
       {
-        "zh": "字看得清，但意思还不全懂。老师指导我们查前一句。",
-        "py": "zì kàn dé qīng , dàn yì si hái bù quán dǒng . lǎo shī zhǐ dǎo wǒ men chá qián yī jù .",
-        "en": "The words are clear, but meaning is incomplete. The teacher guides us to check the previous sentence.",
+        "zh": "她姐姐。前面不是说姐姐的车坏了吗？",
+        "py": "tā jiě jie . qián miàn bù shì shuō jiě jie de chē huài le ma ?",
+        "en": "Her sister. Didn't they say earlier that her sister's car broke down?",
         "speaker": "b"
       },
       {
-        "zh": "她指出旧地址造成误会，应当改；已经改了吗？",
-        "py": "tā zhǐ chū jiù dì zhǐ zào chéng wù huì , yīng dāng gǎi ; yǐ jīng gǎi le ma ?",
-        "en": "She points out the old address caused misunderstanding and should change. Is it changed?",
+        "zh": "哦，我刚才去拿水了，漏了那一句。倒回去看看。",
+        "py": "ó , wǒ gāng cái qù ná shuǐ le , lòu le nà yī jù . dào huí qù kàn kàn .",
+        "en": "Oh, I went to get water and missed that line. Let's go back.",
         "speaker": "a"
       },
       {
-        "zh": "还没。形成方案和实行不同，总结只写完成部分。",
-        "py": "hái méi . xíng chéng fāng àn hé shí xíng bù tóng , zǒng jié zhǐ xiě wán chéng bù fèn .",
-        "en": "Not yet. Forming a plan differs from implementing it; summarize completed parts only.",
+        "zh": "等一下，我先把字幕切换成大一点的字。这样看得清楚。",
+        "py": "děng yī xià , wǒ xiān bǎ zì mù qiè huàn chéng dà yī diǎn de zì . zhè yàng kàn dé qīng chǔ .",
+        "en": "One second. I'll make the subtitles bigger first. They're easier to read that way.",
         "speaker": "b"
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "Has the old address already been corrected?",
+        "q": "Why turn down the volume?",
         "choices": [
-          "Not yet",
-          "Yes, every plan has been implemented",
-          "The address was never mentioned"
+          "The neighbour is asleep",
+          "The television is broken",
+          "The episode has ended"
         ],
-        "answer": "Not yet"
+        "answer": "The neighbour is asleep"
       },
       {
         "type": "detail",
-        "q": "Is the reference established?",
+        "q": "Who is the character waiting for?",
         "choices": [
-          "Not yet",
-          "Teacher",
-          "Director"
+          "Her sister",
+          "Her teacher",
+          "Her neighbour"
         ],
-        "answer": "Not yet"
+        "answer": "Her sister"
       },
       {
         "type": "inference",
-        "q": "Does visual clarity prove full meaning understood?",
+        "q": "Why did one friend miss the earlier line?",
         "choices": [
-          "No",
-          "Yes",
-          "If sound is low"
+          "They went to get water",
+          "They had already fallen asleep",
+          "The subtitles were in another language"
         ],
-        "answer": "No"
+        "answer": "They went to get water"
       }
     ],
     "speakers": [
@@ -688,6 +688,11 @@
         "hanzi": "切换",
         "pinyin": "qiè huàn",
         "meaning": "switch"
+      },
+      {
+        "hanzi": "隔壁",
+        "pinyin": "gé bì",
+        "meaning": "next door; the neighbour"
       }
     ]
   },
@@ -696,77 +701,90 @@
     "title": "Look back before deciding",
     "format": "note",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Read the note about references.",
+    "purpose": "Follow what happened and explain the people’s choices from the text.",
     "lines": [
       {
-        "zh": "提问先说明专题，关注实际回答；这句指谁，需要上下文。",
-        "py": "tí wèn xiān shuō míng zhuān tí , guān zhù shí jì huí dá ; zhè jù zhǐ shéi , xū yào shàng xià wén .",
-        "en": "State the topic when asking and attend to the answer; the reference needs context."
+        "zh": "昨晚我和朋友看一部连续剧。她看过前两集，我是第一次看。",
+        "py": "zuó wǎn wǒ hé péng you kàn yī bù lián xù jù . tā kàn guò qián liǎng jí , wǒ shì dì yī cì kàn .",
+        "en": "Last night I watched a drama with a friend. She'd seen the first two episodes; it was my first time."
       },
       {
-        "zh": "把牌子转过来，形状像环的模型是纸造的，不是铁。",
-        "py": "bǎ pái zi zhuǎn guò lái , xíng zhuàng xiàng huán de mó xíng shì zhǐ zào de , bù shì tiě .",
-        "en": "Turn the sign around; the ring-shaped model is paper, not iron."
+        "zh": "开头，一个人抓住门口的牌子，把它转过来，露出背面的地址。",
+        "py": "kāi tóu , yī gè rén zhuā zhù mén kǒu de pái zi , bǎ tā zhuǎn guò lái , lù chū bèi miàn de dì zhǐ .",
+        "en": "At the start someone grabs the sign by the door and turns it around, revealing an address on the back."
       },
       {
-        "zh": "线断了也保留本地记录；调整音量不是换说话人，切换字幕不是完成理解。",
-        "py": "xiàn duàn le yě bǎo liú běn dì jì lù ; tiáo zhěng yīn liàng bù shì huàn shuō huà rén , qiè huàn zì mù bù shì wán chéng lǐ jiě .",
-        "en": "Retain local records after connection loss; volume adjustment does not change speakers; changing captions does not complete understanding."
+        "zh": "我没看清那个地址，就问朋友：这是她要去的地方吗？朋友让我先看下去。",
+        "py": "wǒ méi kàn qīng nà gè dì zhǐ , jiù wèn péng you : zhè shì tā yào qù de dì fāng ma ? péng you ràng wǒ xiān kàn xià qù .",
+        "en": "I couldn't make out the address, so I asked whether that was where she was going. My friend told me to keep watching."
       },
       {
-        "zh": "打破安静使她开始提问，想法转变的原因仍没说。一切只指本段安排。",
-        "py": "dǎ pò ān jìng shǐ tā kāi shǐ tí wèn , xiǎng fǎ zhuǎn biàn de yuán yīn réng méi shuō . yī qiè zhǐ zhǐ běn duàn ān pái .",
-        "en": "Breaking silence makes her start asking; the reason her view changes remains unstated; everything refers only to this passage’s arrangements."
+        "zh": "过了一会儿，老师指出信上的日期错了。她马上打电话，叫姐姐别出发。",
+        "py": "guò le yī huì er , lǎo shī zhǐ chū xìn shàng de rì qī cuò le . tā mǎ shàng dǎ diàn huà , jiào jiě jie bié chū fā .",
+        "en": "A little later a teacher points out that the date on the letter is wrong. She immediately calls her sister and tells her not to leave."
       },
       {
-        "zh": "抓住一句、追问前一句可以查指代；武器台词是虚构场景，不教真实使用。",
-        "py": "zhuā zhù yī jù , zhuī wèn qián yī jù kě yǐ chá zhǐ dài ; wǔ qì tái cí shì xū gòu chǎng jǐng , bù jiào zhēn shí shǐ yòng .",
-        "en": "Holding onto a line and asking about the preceding line may clarify reference; weapon dialogue is fictional, not usage instruction."
+        "zh": "这时我才明白，旧地址造成了误会。我倒回开头再看一次，终于把两件事连起来了。",
+        "py": "zhè shí wǒ cái míng bái , jiù dì zhǐ zào chéng le wù huì . wǒ dào huí kāi tóu zài kàn yī cì , zhōng yú bǎ liǎng jiàn shì lián qǐ lái le .",
+        "en": "Then I understood: the old address had caused the misunderstanding. I went back to the start and finally connected the two events."
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "What is retained after the connection breaks?",
+        "q": "Who has seen the first two episodes?",
         "choices": [
-          "Local records",
-          "Only the speaker’s volume",
-          "A new weapon"
+          "The narrator’s friend",
+          "The narrator",
+          "The sister in the drama"
         ],
-        "answer": "Local records"
+        "answer": "The narrator’s friend"
+      },
+      {
+        "type": "detail",
+        "q": "What does the teacher notice?",
+        "choices": [
+          "The date on the letter is wrong",
+          "The sign is missing",
+          "The telephone is broken"
+        ],
+        "answer": "The date on the letter is wrong"
       },
       {
         "type": "inference",
-        "q": "Does switching subtitles by itself establish comprehension?",
+        "q": "Why does the narrator watch the opening again?",
         "choices": [
-          "No",
-          "Yes",
-          "Only when the picture is clear"
+          "To connect it with the later scene",
+          "To hear a different song",
+          "To choose a new programme"
         ],
-        "answer": "No"
-      },
-      {
-        "type": "mainidea",
-        "q": "What resolves the unknown?",
-        "choices": [
-          "Context and an actual answer",
-          "A pronoun guessed from appearance",
-          "Replay assumed as mastery"
-        ],
-        "answer": "Context and an actual answer"
+        "answer": "To connect it with the later scene"
       }
     ],
     "cloze": {
       "lines": [
         {
-          "zh": "把牌子转过来，【形状】像环的模型是纸造的，不是铁。",
-          "py": "bǎ pái zi zhuǎn guò lái , xíng zhuàng xiàng huán de mó xíng shì zhǐ zào de , bù shì tiě .",
-          "en": "Turn the sign around; the ring-shaped model is paper, not iron."
+          "zh": "开头，一个人抓住门口的牌子，把它【转】过来，露出背面的地址。",
+          "py": "kāi tóu , yī gè rén zhuā zhù mén kǒu de pái zi , bǎ tā zhuǎn guò lái , lù chū bèi miàn de dì zhǐ .",
+          "en": "At the start someone grabs the sign by the door and turns it around, revealing an address on the back."
+        },
+        {
+          "zh": "过了一会儿，老师【指】出信上的日期错了。她马上打电话，叫姐姐别出发。",
+          "py": "guò le yī huì er , lǎo shī zhǐ chū xìn shàng de rì qī cuò le . tā mǎ shàng dǎ diàn huà , jiào jiě jie bié chū fā .",
+          "en": "A little later a teacher points out that the date on the letter is wrong. She immediately calls her sister and tells her not to leave."
+        },
+        {
+          "zh": "这时我才明白，旧地址【造】成了误会。我倒回开头再看一次，终于把两件事连起来了。",
+          "py": "zhè shí wǒ cái míng bái , jiù dì zhǐ zào chéng le wù huì . wǒ dào huí kāi tóu zài kàn yī cì , zhōng yú bǎ liǎng jiàn shì lián qǐ lái le .",
+          "en": "Then I understood: the old address had caused the misunderstanding. I went back to the start and finally connected the two events."
         }
       ],
       "bank": [
-        "形状",
-        "电影"
+        "转",
+        "指",
+        "造",
+        "学校",
+        "明天"
       ]
     },
     "glosses": [
@@ -804,6 +822,11 @@
         "hanzi": "环",
         "pinyin": "huán",
         "meaning": "ring; loop"
+      },
+      {
+        "hanzi": "露出",
+        "pinyin": "lù chū",
+        "meaning": "to reveal; to show"
       }
     ]
   },
@@ -909,6 +932,86 @@
           "zh": "关注她的回答，不替她说。",
           "py": "guān zhù tā de huí dá , bù tì tā shuō .",
           "en": "Attend to her answer without speaking for her."
+        },
+        {
+          "zh": "教练指导我们练这个动作。",
+          "py": "jiào liàn zhǐ dǎo wǒ men liàn zhè gè dòng zuò .",
+          "en": "The coach guides us through this movement."
+        },
+        {
+          "zh": "我把椅子的高度调整了一下。",
+          "py": "wǒ bǎ yǐ zi de gāo dù tiáo zhěng le yī xià .",
+          "en": "I adjusted the height of the chair."
+        },
+        {
+          "zh": "这根线太短，够不到桌子。",
+          "py": "zhè gēn xiàn tài duǎn , gòu bù dào zhuō zi .",
+          "en": "This cable is too short to reach the desk."
+        },
+        {
+          "zh": "这个盒子是铁做的，很重。",
+          "py": "zhè gè hé zi shì tiě zuò de , hěn zhòng .",
+          "en": "This box is made of iron and is heavy."
+        },
+        {
+          "zh": "我不小心打破了一个杯子。",
+          "py": "wǒ bù xiǎo xīn dǎ pò le yī gè bēi zi .",
+          "en": "I accidentally broke a cup."
+        },
+        {
+          "zh": "这件事使我想起小时候。",
+          "py": "zhè jiàn shì shǐ wǒ xiǎng qǐ xiǎo shí hòu .",
+          "en": "This reminded me of my childhood."
+        },
+        {
+          "zh": "我们慢慢形成了周末一起吃饭的习惯。",
+          "py": "wǒ men màn màn xíng chéng le zhōu mò yì qǐ chī fàn de xí guàn .",
+          "en": "We gradually developed the habit of having dinner together at weekends."
+        },
+        {
+          "zh": "这块石头的形状像一颗心。",
+          "py": "zhè kuài shí tou de xíng zhuàng xiàng yī kē xīn .",
+          "en": "This stone is shaped like a heart."
+        },
+        {
+          "zh": "出门前，我把一切都准备好了。",
+          "py": "chū mén qián , wǒ bǎ yī qiè dōu zhǔn bèi hǎo le .",
+          "en": "I had everything ready before leaving."
+        },
+        {
+          "zh": "你应当早点告诉她。",
+          "py": "nǐ yīng dāng zǎo diǎn gào sù tā .",
+          "en": "You should have told her earlier."
+        },
+        {
+          "zh": "这本书是我专门给你买的。",
+          "py": "zhè běn shū shì wǒ zhuān mén gěi nǐ mǎi de .",
+          "en": "I bought this book especially for you."
+        },
+        {
+          "zh": "今天的专题是城市里的树。",
+          "py": "jīn tiān de zhuān tí shì chéng shì lǐ de shù .",
+          "en": "Today's special topic is trees in the city."
+        },
+        {
+          "zh": "我最近一直关注这位导演的新作品。",
+          "py": "wǒ zuì jìn yì zhí guān zhù zhè wèi dǎo yǎn de xīn zuò pǐn .",
+          "en": "I've been following this director's new work recently."
+        },
+        {
+          "zh": "讲座结束以后，大家可以提问。",
+          "py": "jiǎng zuò jié shù yǐ hòu , dà jiā kě yǐ tí wèn .",
+          "en": "Everyone can ask questions after the talk."
+        },
+        {
+          "zh": "她的话使我很高兴。",
+          "py": "tā de huà shǐ wǒ hěn gāo xìng .",
+          "en": "What she said made me happy."
+        },
+        {
+          "zh": "他第一个举手提问。",
+          "py": "tā dì yī gè jǔ shǒu tí wèn .",
+          "en": "He was the first to raise his hand and ask a question."
         }
       ],
       "questions": [],
@@ -922,6 +1025,11 @@
           "hanzi": "环",
           "pinyin": "huán",
           "meaning": "ring; loop"
+        },
+        {
+          "hanzi": "颗",
+          "pinyin": "kē",
+          "meaning": "classifier for small rounded things"
         }
       ]
     }
@@ -1150,5 +1258,5 @@
       }
     ]
   },
-  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三07, 三48. Native check: indirect questions, pronoun references, 调 tiáo, repeated potential-complement retrieval, 看清 versus 看懂. Fictional props and scene, no weapon or operating instruction. Native review pending. Planned retrieval 三64 / 三65 / 三79 / 三80: 首先确认时间，然后报名。, 她核对时间，并且问了地点。, 都十点了，先结束吧。, 慢就慢点儿吧，先说准确。."
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三07, 三48. Native check: indirect questions, pronoun references, 调 tiáo, repeated potential-complement retrieval, 看清 versus 看懂. Fictional props and scene, no weapon or operating instruction. Native review pending. Planned retrieval 三64 / 三65 / 三79 / 三80: 首先确认时间，然后报名。, 她核对时间，并且问了地点。, 都十点了，先结束吧。, 慢就慢点儿吧，先说准确。.\n2026-10-07 editorial correction: dialogue and core reading rewritten as coherent everyday interaction; no recycled-word quota, app policy or safety caveats in character speech. IDs preserved. AI editorial review; native review remains outstanding."
 }

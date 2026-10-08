@@ -2,6 +2,7 @@ import { liveQuery } from "dexie";
 import { db, defaultProfile } from "./db";
 import { authConfigured, currentAccount, supabase } from "./auth";
 import type { Account } from "./types";
+import { verifyCloudConnection } from "./cloud-connection";
 import {
   canonical,
   cloudProfile,
@@ -60,6 +61,14 @@ let running: Promise<void> | null = null;
 let transportFactory = createTransport;
 export function setSyncTransportForTests(factory: typeof createTransport) {
   transportFactory = factory;
+}
+export async function checkCloudConnection() {
+  const user = await currentAccount();
+  if (!user) throw new Error("Sign in before checking cloud storage.");
+  const result = await verifyCloudConnection(await supabase(), user.id);
+  if ((await currentAccount())?.id !== user.id)
+    throw new Error("Account changed. Check the connection after signing in again.");
+  return result;
 }
 export async function localSyncState(): Promise<SyncState> {
   return db.transaction("rw", db.syncState, async () => {

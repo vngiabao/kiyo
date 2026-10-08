@@ -74,7 +74,7 @@ export async function exportHsk() {
     runs: await hskDB.runs.toArray(),
   };
 }
-export async function importHsk(raw: unknown) {
+export function validateHskBackup(raw: unknown) {
   const p = raw as Awaited<ReturnType<typeof exportHsk>>;
   const s = p?.settings;
   if (
@@ -99,6 +99,11 @@ export async function importHsk(raw: unknown) {
     throw new Error(
       "This is not a valid HSK backup for the installed practice pack.",
     );
+  return p;
+}
+export async function importHsk(raw: unknown) {
+  const p = validateHskBackup(raw);
+  const s = p.settings;
   await hskDB.transaction("rw", hskDB.runs, hskDB.settings, async () => {
     // Immutable completed runs merge by id; an existing run is never overwritten.
     for (const r of p.runs)

@@ -162,9 +162,9 @@ const characterContexts: Record<string, string> = {
   空: "有空", 吧: "好吧", 啊: "好啊", 什: "什么", 么: "什么", 以: "可以",
   息: "休息", 儿: "儿子", 孩: "孩子", 弟: "弟弟", 干: "干净", 地: "地上",
   得: "得到", 识: "知识", 候: "时候", 视: "电视机", 准: "准备", 备: "准备",
-  脑: "电脑", 够: "够用", 习: "学习", 觉: "睡觉", 汉: "汉语", 师: "老师",
+  脑: "电脑", 够: "够用", 习: "学习", 觉: "觉得", 汉: "汉语", 师: "老师",
   同: "同学", 星: "星期", 昨: "昨天", 今: "今天", 汽: "汽车", 介: "介绍",
-  绍: "介绍", 京: "北京", 服: "衣服", 欢: "喜欢", 喜: "喜欢", 兴: "高兴",
+  绍: "介绍", 京: "北京", 服: "衣服", 欢: "喜欢", 喜: "喜欢", 
   爸: "爸爸", 谢: "谢谢", 体: "身体", 方: "地方",
   非: "非常", 医: "医生", 馆: "图书馆", 商: "商店", 饭: "米饭",
   桌: "桌子", 唱: "唱歌", 歌: "唱歌", 告: "告诉", 诉: "告诉",
@@ -177,7 +177,8 @@ for (const pack of compiledPacks)
   for (const c of pack.characters) {
     if (baseCharacters.some((b) => b.hanzi === c.hanzi) || packCharacters.some((b) => b.hanzi === c.hanzi)) continue;
     // Bound syllables must keep their word context when packs add explicit glyphs.
-    const say = characterContexts[c.hanzi] ?? c.hanzi;
+    const say = characterContexts[c.hanzi] ??
+      (c.meaning.includes("bound component") && c.words[0] ? c.words[0].w : c.hanzi);
     packCharacters.push({
       id: `c:${c.hanzi}`,
       hanzi: c.hanzi,

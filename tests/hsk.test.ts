@@ -9,6 +9,7 @@ import {
   unresolvedItems,
   validRun,
   makeBankRun,
+  hskUnitsFor,
 } from "../src/hsk-model";
 import { validateHskPack } from "../src/hsk-pack";
 import {
@@ -23,10 +24,31 @@ const pack = JSON.parse(
   readFileSync("content/packs/hsk-reading.hsk.json", "utf8"),
 );
 const words = JSON.parse(readFileSync("content/hsk/levels.json", "utf8")).words;
+it("keeps saved checkpoint IDs while describing higher-level mixed skills honestly", () => {
+  expect(hskUnitsFor(3).map((u) => u.id)).toEqual(hskUnitsFor(1).map((u) => u.id));
+  expect(hskUnitsFor(3).map((u) => u.title).join(" ")).not.toContain("People & identity");
+  expect(hskUnitsFor(2)[1].title).toBe("Connect the details");
+});
 beforeEach(async () => {
   vi.useRealTimers();
   await hskDB.runs.clear();
   await hskDB.settings.clear();
+});
+it("starts and restores every installed advanced bank while rejecting mismatched levels", async () => {
+  const levels = [...new Set(hskItems.map((item) => item.level))].filter((level) => level >= 4);
+  expect(levels.length).toBeGreaterThan(0);
+  for (const level of levels) {
+    const run = makeBankRun("identity", level as 4 | 5 | 6, []);
+    expect(validRun(run)).toBe(true);
+    expect(validRun({ ...run, level: 7 })).toBe(false);
+    expect(validRun({ ...run, level: 1 })).toBe(false);
+    await hskDB.runs.put(run);
+  }
+  const backup = await exportHsk();
+  await hskDB.runs.clear();
+  await importHsk(backup);
+  expect(await hskDB.runs.count()).toBe(levels.length);
+  for (const run of await hskDB.runs.toArray()) expect(validRun(run)).toBe(true);
 });
 function completed(unit: "identity" | "numbers" | "daily") {
   const r = makeRun(unit);

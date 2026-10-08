@@ -1,0 +1,1303 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u07",
+    "stage": 3,
+    "order": 115,
+    "title": "Tell me what is going wrong",
+    "titleZh": "放得下，却站不住",
+    "canDo": [
+      "Ask a collaborator for one specific action",
+      "Describe measurements and distinguish two test results",
+      "Propose a conditional next step instead of overstating success"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u06",
+      "s4-u06-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u07-w01",
+      "hanzi": "程序",
+      "pinyin": "chéng xù",
+      "meaning": "procedure; computer program",
+      "meaningVi": "quy trình; chương trình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们先确认办理程序，再去交材料。",
+        "py": "wǒ men xiān què rèn bàn lǐ chéng xù , zài qù jiāo cái liào .",
+        "en": "Let’s check the procedure before submitting the documents."
+      },
+      "usageNote": "[GF2021:L4:1006] Source entry: 程序; chéngxù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w02",
+      "hanzi": "操作",
+      "pinyin": "cāo zuò",
+      "meaning": "operate; operation",
+      "meaningVi": "thao tác; vận hành",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个机器怎么操作？",
+        "py": "zhè gè jī qì zěn me cāo zuò ?",
+        "en": "How do you operate this machine?"
+      },
+      "usageNote": "[GF2021:L4:739] Source entry: 操作; cāozuò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w03",
+      "hanzi": "产品",
+      "pinyin": "chǎn pǐn",
+      "meaning": "product",
+      "meaningVi": "sản phẩm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个产品主要给小房间用。",
+        "py": "zhè gè chǎn pǐn zhǔ yào gěi xiǎo fáng jiān yòng .",
+        "en": "This product is mainly for small rooms."
+      },
+      "usageNote": "[GF2021:L4:805] Source entry: 产品; chǎnpǐn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w04",
+      "hanzi": "测试",
+      "pinyin": "cè shì",
+      "meaning": "test",
+      "meaningVi": "kiểm tra; thử nghiệm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们先测试一下新设计。",
+        "py": "wǒ men xiān cè shì yī xià xīn shè jì .",
+        "en": "Let’s test the new design first."
+      },
+      "usageNote": "[GF2021:L4:754] Source entry: 测试; cèshì; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w05",
+      "hanzi": "测量",
+      "pinyin": "cè liáng",
+      "meaning": "measure",
+      "meaningVi": "đo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "先测量桌子的宽度。",
+        "py": "xiān cè liáng zhuō zi de kuān dù .",
+        "en": "Measure the width of the table first."
+      },
+      "usageNote": "[GF2021:L4:753] Source entry: 测量; cèliáng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w06",
+      "hanzi": "承受",
+      "pinyin": "chéng shòu",
+      "meaning": "bear; withstand",
+      "meaningVi": "chịu đựng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个架子承受不了这么重的东西。",
+        "py": "zhè gè jià zi chéng shòu bù le zhè me zhòng de dōng xi .",
+        "en": "This stand can’t hold something so heavy."
+      },
+      "usageNote": "[GF2021:L4:990] Source entry: 承受; chéngshòu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w07",
+      "hanzi": "材料",
+      "pinyin": "cái liào",
+      "meaning": "material; documents",
+      "meaningVi": "vật liệu; tài liệu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这种材料太薄，我们换一种吧。",
+        "py": "zhè zhǒng cái liào tài báo , wǒ men huàn yī zhǒng ba .",
+        "en": "This material is too thin; let’s use another."
+      },
+      "usageNote": "[GF2021:L4:669] Source entry: 材料; cáiliào; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w08",
+      "hanzi": "数据",
+      "pinyin": "shù jù",
+      "meaning": "data",
+      "meaningVi": "dữ liệu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "先把这两次的数据放在一起比较。",
+        "py": "xiān bǎ zhè liǎng cì de shù jù fàng zài yì qǐ bǐ jiào .",
+        "en": "Put the data from these two trials together to compare."
+      },
+      "usageNote": "[GF2021:L4:7497] Source entry: 数据; shùjù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w09",
+      "hanzi": "尺寸",
+      "pinyin": "chǐ cùn",
+      "meaning": "size; dimensions",
+      "meaningVi": "kích thước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个盒子的尺寸不对，放不进去。",
+        "py": "zhè gè hé zi de chǐ cùn bú duì , fàng bù jìn qù .",
+        "en": "This box is the wrong size; it won’t fit."
+      },
+      "usageNote": "[GF2021:L4:1039] Source entry: 尺寸; chǐ·cùn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w10",
+      "hanzi": "修理",
+      "pinyin": "xiū lǐ",
+      "meaning": "repair",
+      "meaningVi": "sửa chữa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这把椅子还能修理吗？",
+        "py": "zhè bǎ yǐ zi hái néng xiū lǐ ma ?",
+        "en": "Can this chair still be repaired?"
+      },
+      "usageNote": "[GF2021:L4:9133] Source entry: 修理; xiūlǐ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u07-w11",
+      "hanzi": "工具",
+      "pinyin": "gōng jù",
+      "meaning": "tool",
+      "meaningVi": "dụng cụ",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "你用完工具放回原来的地方。",
+        "py": "nǐ yòng wán gōng jù fàng huí yuán lái de dì fāng .",
+        "en": "Put the tools back where they were after using them."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u07-w12",
+      "hanzi": "设备",
+      "pinyin": "shè bèi",
+      "meaning": "equipment",
+      "meaningVi": "thiết bị",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这些设备下周才送到。",
+        "py": "zhè xiē shè bèi xià zhōu cái sòng dào .",
+        "en": "This equipment won’t arrive until next week."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u07-w13",
+      "hanzi": "指导",
+      "pinyin": "zhǐ dǎo",
+      "meaning": "guide; guidance",
+      "meaningVi": "hướng dẫn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "老师指导我们做第一次测试。",
+        "py": "lǎo shī zhǐ dǎo wǒ men zuò dì yī cì cè shì .",
+        "en": "The teacher guided us through the first test."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u07-w14",
+      "hanzi": "说明",
+      "pinyin": "shuō míng",
+      "meaning": "explain; instructions",
+      "meaningVi": "giải thích; hướng dẫn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "你能说明一下为什么要改尺寸吗？",
+        "py": "nǐ néng shuō míng yī xià wèi shén me yào gǎi chǐ cùn ma ?",
+        "en": "Could you explain why the dimensions need changing?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u07-w15",
+      "hanzi": "合作",
+      "pinyin": "hé zuò",
+      "meaning": "collaborate; cooperation",
+      "meaningVi": "hợp tác",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "我们第一次合作，就把任务分清楚了。",
+        "py": "wǒ men dì yī cì hé zuò , jiù bǎ rèn wù fēn qīng chǔ le .",
+        "en": "We clarified our tasks at the start of our first collaboration."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u07-w16",
+      "hanzi": "方案",
+      "pinyin": "fāng àn",
+      "meaning": "plan; proposed approach",
+      "meaningVi": "phương án",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "两个方案都可以，我们比较一下费用。",
+        "py": "liǎng gè fāng àn dōu kě yǐ , wǒ men bǐ jiào yī xià fèi yòng .",
+        "en": "Both plans work; let’s compare their costs."
+      },
+      "usageNote": "[GF2021:L4:2239] Source entry: 方案; fāng’àn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u07-g01",
+      "pattern": "按照 / 根据",
+      "purpose": "Follow instructions or use evidence",
+      "explanation": "按照 usually describes following a rule, sequence or specification. 根据 introduces the information on which a judgment or action is based. Their uses overlap, so inspect what follows.",
+      "examples": [
+        {
+          "zh": "按照说明，先打开盖子。",
+          "py": "àn zhào shuō míng , xiān dǎ kāi gài zi .",
+          "en": "Following the instructions, open the lid first."
+        },
+        {
+          "zh": "根据测试结果，我们改了尺寸。",
+          "py": "gēn jù cè shì jié guǒ , wǒ men gǎi le chǐ cùn .",
+          "en": "We changed the dimensions based on the test results."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "根据没有结果，我们已经知道所有情况。",
+          "right": "根据这次结果，这部手机放上去能站住。",
+          "why": "Keep the claim within what the actual test showed."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u07-g02",
+      "pattern": "一回事 / 另一回事",
+      "purpose": "Separate two related issues",
+      "explanation": "X是一回事，Y是另一回事 distinguishes criteria that cannot be substituted for each other. This is a discourse frame rather than a technical proof.",
+      "examples": [
+        {
+          "zh": "放得下是一回事，站得住是另一回事。",
+          "py": "fàng dé xià shì yī huí shì , zhàn dé zhù shì lìng yī huí shì .",
+          "en": "Fitting is one thing; staying upright is another."
+        },
+        {
+          "zh": "认识字是一回事，跟上对话是另一回事。",
+          "py": "rèn shi zì shì yī huí shì , gēn shàng duì huà shì lìng yī huí shì .",
+          "en": "Knowing the characters is one thing; following dialogue is another."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "放得下，所以一定站得住。",
+          "right": "放得下是一回事，站得住是另一回事。",
+          "why": "The second property does not follow just from the first."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u07-g03",
+      "pattern": "得 / 不 result potential",
+      "purpose": "Describe whether a result is achievable",
+      "explanation": "Insert 得 or 不 between the verb and a result or direction: 放得下/放不下，站得住/站不住. This differs from 得 before a degree phrase such as 站得很稳.",
+      "examples": [
+        {
+          "zh": "这个盒子放不下手机。",
+          "py": "zhè gè hé zi fàng bù xià shǒu jī .",
+          "en": "This box won’t fit the phone."
+        },
+        {
+          "zh": "这个架子站得住。",
+          "py": "zhè gè jià zi zhàn dé zhù .",
+          "en": "This stand can stay upright."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这个盒子放下不手机。",
+          "right": "这个盒子放不下手机。",
+          "why": "不 goes between the verb and the result/directional complement."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u07-g04",
+      "pattern": "要是…就…",
+      "purpose": "Offer a conditional fallback",
+      "explanation": "要是 introduces a possible situation in conversational speech; 就 introduces the proposed response. Neither says the condition has already occurred.",
+      "examples": [
+        {
+          "zh": "要是第二个也不行，我们就换方案。",
+          "py": "yào shì dì èr gè yě bù xíng , wǒ men jiù huàn fāng àn .",
+          "en": "If the second doesn’t work either, we’ll try a different plan."
+        },
+        {
+          "zh": "要是材料不够，我就再去买。",
+          "py": "yào shì cái liào bù gòu , wǒ jiù zài qù mǎi .",
+          "en": "If there isn’t enough material, I’ll buy more."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "要是第二个也不行，所以它已经坏了。",
+          "right": "要是第二个也不行，我们就换方案。",
+          "why": "A conditional trial result is not an established failure."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u07-d",
+    "title": "放得下，却站不住",
+    "titleZh": "放得下，却站不住",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你那边做好了吗？我把手机带来了。",
+        "py": "nǐ nà biān zuò hǎo le ma ? wǒ bǎ shǒu jī dài lái le .",
+        "en": "Have you finished your part? I’ve brought the phone.",
+        "speaker": "a"
+      },
+      {
+        "zh": "差不多了。不过这个架子一放手机就往后倒。",
+        "py": "chà bu duō le . bù guò zhè gè jià zi yī fàng shǒu jī jiù wǎng hòu dào .",
+        "en": "Almost, but the stand falls backwards as soon as I put the phone on it.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我看看。你是不是只测量了手机的宽度？",
+        "py": "wǒ kàn kàn . nǐ shì bú shì zhǐ cè liáng le shǒu jī de kuān dù ?",
+        "en": "Let me see. Did you measure only the width of the phone?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。尺寸放得下，我就以为没问题了。",
+        "py": "duì . chǐ cùn fàng dé xià , wǒ jiù yǐ wéi méi wèn tí le .",
+        "en": "Yes. It fit, so I thought it was fine.",
+        "speaker": "b"
+      },
+      {
+        "zh": "放得下是一回事，站不站得住是另一回事。先别改外面的样子。",
+        "py": "fàng dé xià shì yī huí shì , zhàn bù zhàn dé zhù shì lìng yī huí shì . xiān bié gǎi wài miàn de yàng zi .",
+        "en": "Fitting is one thing; staying upright is another. Don’t change the appearance yet.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那你帮我拿一下，我把后面这一块加宽。",
+        "py": "nà nǐ bāng wǒ ná yī xià , wǒ bǎ hòu miàn zhè yī kuài jiā kuān .",
+        "en": "Then hold it for me while I widen this piece at the back.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好。材料够吗？",
+        "py": "hǎo . cái liào gòu ma ?",
+        "en": "Okay. Do we have enough material?",
+        "speaker": "a"
+      },
+      {
+        "zh": "还有一张厚的，够做两个。我们可以先试一个。",
+        "py": "hái yǒu yī zhāng hòu de , gòu zuò liǎng gè . wǒ men kě yǐ xiān shì yī gè .",
+        "en": "There’s one thick sheet left, enough for two. We can try one first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "做完再放手机，看看能不能站住。两次测试的数据都留下。",
+        "py": "zuò wán zài fàng shǒu jī , kàn kàn néng bù néng zhàn zhù . liǎng cì cè shì de shù jù dōu liú xià .",
+        "en": "Put the phone on it after finishing and see whether it stays upright. Keep the data from both tests.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你负责记录，我负责做？",
+        "py": "nǐ fù zé jì lù , wǒ fù zé zuò ?",
+        "en": "You’ll record it and I’ll make it?",
+        "speaker": "b"
+      },
+      {
+        "zh": "对。要是第二个也不行，我们就换个方案。",
+        "py": "duì . yào shì dì èr gè yě bù xíng , wǒ men jiù huàn gè fāng àn .",
+        "en": "Right. If the second one doesn’t work either, we’ll try a different plan.",
+        "speaker": "a"
+      },
+      {
+        "zh": "行。我先把这个扶住，别让你的手机也跟着倒。",
+        "py": "xíng . wǒ xiān bǎ zhè gè fú zhù , bié ràng nǐ de shǒu jī yě gēn zhe dào .",
+        "en": "Okay. I’ll hold this one steady first so your phone doesn’t fall with it.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "架子",
+        "pinyin": "jià zi",
+        "meaning": "stand; rack"
+      },
+      {
+        "hanzi": "扶住",
+        "pinyin": "fú zhù",
+        "meaning": "hold steady"
+      },
+      {
+        "hanzi": "宽",
+        "pinyin": "kuān",
+        "meaning": "wide; width"
+      },
+      {
+        "hanzi": "厚",
+        "pinyin": "hòu",
+        "meaning": "thick"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What problem are the collaborators solving?",
+        "choices": [
+          "A phone stand that tips backwards",
+          "A phone that cannot receive calls",
+          "A missing application form"
+        ],
+        "answer": "A phone stand that tips backwards"
+      },
+      {
+        "type": "detail",
+        "q": "How much thick material remains?",
+        "choices": [
+          "Enough for two stands",
+          "None",
+          "Exactly twelve sheets"
+        ],
+        "answer": "Enough for two stands"
+      },
+      {
+        "type": "inference",
+        "q": "Why keep data from both tests?",
+        "choices": [
+          "To compare the attempts",
+          "To claim every phone will fit",
+          "To avoid testing the second version"
+        ],
+        "answer": "To compare the attempts"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u07-r",
+    "title": "放得下，却站不住",
+    "titleZh": "放得下，却站不住",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "小组要做一个放在桌上的手机架。我负责做，陈宇负责测试和记录。我们一开始只讨论了颜色和外形，觉得好看就够了。",
+        "py": "xiǎo zǔ yào zuò yī gè fàng zài zhuō shàng de shǒu jī jià . wǒ fù zé zuò , chén yǔ fù zé cè shì hé jì lù . wǒ men yī kāi shǐ zhǐ tǎo lùn le yán sè hé wài xíng , jué de hǎo kàn jiù gòu le .",
+        "en": "Our group was making a desktop phone stand. I made it, and Chen Yu tested it and recorded results. At first we discussed only colour and shape, thinking appearance was enough."
+      },
+      {
+        "zh": "第一次做完以后，手机放得进去，架子却站不住。我把尺寸写在纸上：前面宽十二厘米，后面只有六厘米。陈宇让我先保留这个设计，再做一个后面更宽的。",
+        "py": "dì yī cì zuò wán yǐ hòu , shǒu jī fàng dé jìn qù , jià zi què zhàn bù zhù . wǒ bǎ chǐ cùn xiě zài zhǐ shàng : qián miàn kuān shí èr lí mǐ , hòu miàn zhǐ yǒu liù lí mǐ . chén yǔ ràng wǒ xiān bǎo liú zhè gè shè jì , zài zuò yī gè hòu miàn gèng kuān de .",
+        "en": "The phone fit in the first version, but the stand wouldn’t stay upright. I wrote down the measurements: twelve centimetres wide in front, just six at the back. Chen Yu asked me to keep that version and make another with a wider back."
+      },
+      {
+        "zh": "我们没有同时换材料和尺寸。第二个仍然用同一种厚纸，只把后面的宽度改成十厘米。这样再测试时，比较的条件会少一点。",
+        "py": "wǒ men méi yǒu tóng shí huàn cái liào hé chǐ cùn . dì èr gè réng rán yòng tóng yī zhǒng hòu zhǐ , zhǐ bǎ hòu miàn de kuān dù gǎi chéng shí lí mǐ . zhè yàng zài cè shì shí , bǐ jiào de tiáo jiàn huì shǎo yī diǎn .",
+        "en": "We didn’t change both material and size at once. The second used the same thick paper, with just the back widened to ten centimetres. That reduced the changes being compared in the next test."
+      },
+      {
+        "zh": "第二个放上这部手机以后能站住了。不过我换了一部更重的手机，它又倒了。陈宇把两次的情况写下来，没有把“这部能用”写成“所有手机都能用”。",
+        "py": "dì èr gè fàng shàng zhè bù shǒu jī yǐ hòu néng zhàn zhù le . bù guò wǒ huàn le yī bù gèng zhòng de shǒu jī , tā yòu dào le . chén yǔ bǎ liǎng cì de qíng kuàng xiě xià lái , méi yǒu bǎ zhè bù néng yòng xiě chéng suǒ yǒu shǒu jī dōu néng yòng .",
+        "en": "The second stood upright with this phone. But when I tried a heavier phone, it fell again. Chen Yu wrote down both results instead of turning “works with this phone” into “works with every phone.”"
+      },
+      {
+        "zh": "老师看过以后，让我们把适用的尺寸和重量写清楚，再讨论能不能改成正式产品。我们还没走到那一步，先把这次结果说明白。",
+        "py": "lǎo shī kàn guò yǐ hòu , ràng wǒ men bǎ shì yòng de chǐ cùn hé zhòng liàng xiě qīng chǔ , zài tǎo lùn néng bù néng gǎi chéng zhèng shì chǎn pǐn . wǒ men hái méi zǒu dào nà yī bù , xiān bǎ zhè cì jié guǒ shuō míng bái .",
+        "en": "After checking it, the teacher asked us to state which dimensions and weight it worked with before discussing a finished product. We weren’t at that stage yet; first we needed a clear account of this trial."
+      },
+      {
+        "zh": "下次合作，我想早点问清楚怎么测试。把问题说得具体一点，比快做一个看起来完成了的东西更有用。",
+        "py": "xià cì hé zuò , wǒ xiǎng zǎo diǎn wèn qīng chǔ zěn me cè shì . bǎ wèn tí shuō dé jù tǐ yī diǎn , bǐ kuài zuò yī gè kàn qǐ lái wán chéng le de dōng xi gèng yǒu yòng .",
+        "en": "Next time, I want to ask earlier how we’ll test it. Describing the problem specifically is more useful than quickly producing something that merely looks finished."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "架子",
+        "pinyin": "jià zi",
+        "meaning": "stand; rack"
+      },
+      {
+        "hanzi": "外形",
+        "pinyin": "wài xíng",
+        "meaning": "appearance; external shape"
+      },
+      {
+        "hanzi": "厘米",
+        "pinyin": "lí mǐ",
+        "meaning": "centimetre"
+      },
+      {
+        "hanzi": "重量",
+        "pinyin": "zhòng liàng",
+        "meaning": "weight"
+      },
+      {
+        "hanzi": "适用",
+        "pinyin": "shì yòng",
+        "meaning": "be suitable for a specific use"
+      },
+      {
+        "hanzi": "宽",
+        "pinyin": "kuān",
+        "meaning": "wide; width"
+      },
+      {
+        "hanzi": "厚",
+        "pinyin": "hòu",
+        "meaning": "thick"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the team learn?",
+        "choices": [
+          "A fit and one successful trial are not enough to establish every use",
+          "Appearance alone proves a product is finished",
+          "All failures were caused by phone software"
+        ],
+        "answer": "A fit and one successful trial are not enough to establish every use"
+      },
+      {
+        "type": "detail",
+        "q": "How wide is the back in the second version?",
+        "choices": [
+          "Ten centimetres",
+          "Six centimetres",
+          "Twelve metres"
+        ],
+        "answer": "Ten centimetres"
+      },
+      {
+        "type": "inference",
+        "q": "Why keep the same material in the second attempt?",
+        "choices": [
+          "To change fewer conditions in the comparison",
+          "To guarantee every heavy phone works",
+          "Because the colour changes automatically"
+        ],
+        "answer": "To change fewer conditions in the comparison"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u07-media",
+      "title": "The missing ruler",
+      "titleZh": "The missing ruler",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你在找什么？",
+          "py": "nǐ zài zhǎo shén me ?",
+          "en": "What are you looking for?",
+          "speaker": "a"
+        },
+        {
+          "zh": "尺子。刚才还在桌上，现在没了。",
+          "py": "chǐ zi . gāng cái hái zài zhuō shàng , xiàn zài méi le .",
+          "en": "The ruler. It was on the table a moment ago, but now it’s gone.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你手里拿的是什么？",
+          "py": "nǐ shǒu lǐ ná de shì shén me ?",
+          "en": "What’s that in your hand?",
+          "speaker": "a"
+        },
+        {
+          "zh": "啊，就是它。我还以为自己拿的是笔。",
+          "py": "a , jiù shì tā . wǒ hái yǐ wéi zì jǐ ná de shì bǐ .",
+          "en": "Oh, that’s it. I thought I was holding a pen.",
+          "speaker": "b"
+        },
+        {
+          "zh": "先喝点水吧。你刚才还问我手机在哪儿，手机就在你面前。",
+          "py": "xiān hē diǎn shuǐ ba . nǐ gāng cái hái wèn wǒ shǒu jī zài nǎr , shǒu jī jiù zài nǐ miàn qián .",
+          "en": "Have some water first. You just asked where the phone was when it was right in front of you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "别说了，今天我负责做，你负责提醒我看眼前。",
+          "py": "bié shuō le , jīn tiān wǒ fù zé zuò , nǐ fù zé tí xǐng wǒ kàn yǎn qián .",
+          "en": "Enough. Today I’ll make things, and you’ll remind me to look in front of me.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我的任务可不轻。",
+          "py": "nà wǒ de rèn wù kě bù qīng .",
+          "en": "That’s quite a job for me.",
+          "speaker": "a"
+        },
+        {
+          "zh": "合作嘛。等会儿请你喝咖啡。",
+          "py": "hé zuò ma . děng huì ér qǐng nǐ hē kā fēi .",
+          "en": "That’s teamwork. I’ll buy you a coffee later.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "尺子",
+          "pinyin": "chǐ zi",
+          "meaning": "ruler"
+        },
+        {
+          "hanzi": "嘛",
+          "pinyin": "ma",
+          "meaning": "particle presenting something as obvious in context"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Where is the ruler?",
+          "choices": [
+            "In the speaker’s hand",
+            "At the coffee shop",
+            "Inside a phone"
+          ],
+          "answer": "In the speaker’s hand"
+        },
+        {
+          "type": "inference",
+          "q": "Why joke that the reminder job is not light?",
+          "choices": [
+            "The friend keeps overlooking things in front of them",
+            "The ruler weighs several kilograms",
+            "The work has already been cancelled"
+          ],
+          "answer": "The friend keeps overlooking things in front of them"
+        }
+      ]
+    },
+    {
+      "id": "s4-u07-word-notebook",
+      "title": "Tell me what is going wrong: words in context",
+      "titleZh": "放得下，却站不住 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我们先确认办理程序，再去交材料。",
+          "py": "wǒ men xiān què rèn bàn lǐ chéng xù , zài qù jiāo cái liào .",
+          "en": "Let’s check the procedure before submitting the documents."
+        },
+        {
+          "zh": "这个程序打开以后一直没反应。",
+          "py": "zhè gè chéng xù dǎ kāi yǐ hòu yì zhí méi fǎn yìng .",
+          "en": "This program hasn’t responded since it opened."
+        },
+        {
+          "zh": "这个机器怎么操作？",
+          "py": "zhè gè jī qì zěn me cāo zuò ?",
+          "en": "How do you operate this machine?"
+        },
+        {
+          "zh": "操作之前，先看一下说明。",
+          "py": "cāo zuò zhī qián , xiān kàn yī xià shuō míng .",
+          "en": "Read the instructions before operating it."
+        },
+        {
+          "zh": "这个产品主要给小房间用。",
+          "py": "zhè gè chǎn pǐn zhǔ yào gěi xiǎo fáng jiān yòng .",
+          "en": "This product is mainly for small rooms."
+        },
+        {
+          "zh": "他们正在改进上一代产品。",
+          "py": "tā men zhèng zài gǎi jìn shàng yí dài chǎn pǐn .",
+          "en": "They’re improving the previous generation of the product."
+        },
+        {
+          "zh": "我们先测试一下新设计。",
+          "py": "wǒ men xiān cè shì yī xià xīn shè jì .",
+          "en": "Let’s test the new design first."
+        },
+        {
+          "zh": "测试结束以后，把结果发给我。",
+          "py": "cè shì jié shù yǐ hòu , bǎ jié guǒ fā gěi wǒ .",
+          "en": "Send me the results after the test."
+        },
+        {
+          "zh": "先测量桌子的宽度。",
+          "py": "xiān cè liáng zhuō zi de kuān dù .",
+          "en": "Measure the width of the table first."
+        },
+        {
+          "zh": "她测量了两次，结果一样。",
+          "py": "tā cè liáng le liǎng cì , jié guǒ yī yàng .",
+          "en": "She measured it twice and got the same result."
+        },
+        {
+          "zh": "这个架子承受不了这么重的东西。",
+          "py": "zhè gè jià zi chéng shòu bù le zhè me zhòng de dōng xi .",
+          "en": "This stand can’t hold something so heavy."
+        },
+        {
+          "zh": "他不想一个人承受那么大的压力。",
+          "py": "tā bù xiǎng yī gè rén chéng shòu nà me dà de yā lì .",
+          "en": "He doesn’t want to bear that much pressure alone."
+        },
+        {
+          "zh": "这种材料太薄，我们换一种吧。",
+          "py": "zhè zhǒng cái liào tài báo , wǒ men huàn yī zhǒng ba .",
+          "en": "This material is too thin; let’s use another."
+        },
+        {
+          "zh": "我把会议材料放在你桌上了。",
+          "py": "wǒ bǎ huì yì cái liào fàng zài nǐ zhuō shàng le .",
+          "en": "I’ve put the meeting documents on your desk."
+        },
+        {
+          "zh": "先把这两次的数据放在一起比较。",
+          "py": "xiān bǎ zhè liǎng cì de shù jù fàng zài yì qǐ bǐ jiào .",
+          "en": "Put the data from these two trials together to compare."
+        },
+        {
+          "zh": "原来的数据还在，不用重新做。",
+          "py": "yuán lái de shù jù hái zài , bù yòng chóng xīn zuò .",
+          "en": "The original data is still there; no need to redo it."
+        },
+        {
+          "zh": "这个盒子的尺寸不对，放不进去。",
+          "py": "zhè gè hé zi de chǐ cùn bú duì , fàng bù jìn qù .",
+          "en": "This box is the wrong size; it won’t fit."
+        },
+        {
+          "zh": "请把门的尺寸发给我。",
+          "py": "qǐng bǎ mén de chǐ cùn fā gěi wǒ .",
+          "en": "Please send me the dimensions of the door."
+        },
+        {
+          "zh": "这把椅子还能修理吗？",
+          "py": "zhè bǎ yǐ zi hái néng xiū lǐ ma ?",
+          "en": "Can this chair still be repaired?"
+        },
+        {
+          "zh": "修理完以后，先检查一下。",
+          "py": "xiū lǐ wán yǐ hòu , xiān jiǎn chá yī xià .",
+          "en": "Check it after the repair."
+        },
+        {
+          "zh": "你用完工具放回原来的地方。",
+          "py": "nǐ yòng wán gōng jù fàng huí yuán lái de dì fāng .",
+          "en": "Put the tools back where they were after using them."
+        },
+        {
+          "zh": "我没带工具，今天只能先看看。",
+          "py": "wǒ méi dài gōng jù , jīn tiān zhǐ néng xiān kàn kàn .",
+          "en": "I didn’t bring tools, so today I can only take a look."
+        },
+        {
+          "zh": "这些设备下周才送到。",
+          "py": "zhè xiē shè bèi xià zhōu cái sòng dào .",
+          "en": "This equipment won’t arrive until next week."
+        },
+        {
+          "zh": "旧设备还能用，我们先别换。",
+          "py": "jiù shè bèi hái néng yòng , wǒ men xiān bié huàn .",
+          "en": "The old equipment still works; let’s not replace it yet."
+        },
+        {
+          "zh": "老师指导我们做第一次测试。",
+          "py": "lǎo shī zhǐ dǎo wǒ men zuò dì yī cì cè shì .",
+          "en": "The teacher guided us through the first test."
+        },
+        {
+          "zh": "谢谢你的指导，我知道怎么改了。",
+          "py": "xiè xiè nǐ de zhǐ dǎo , wǒ zhī dào zěn me gǎi le .",
+          "en": "Thanks for your guidance; I know what to change now."
+        },
+        {
+          "zh": "你能说明一下为什么要改尺寸吗？",
+          "py": "nǐ néng shuō míng yī xià wèi shén me yào gǎi chǐ cùn ma ?",
+          "en": "Could you explain why the dimensions need changing?"
+        },
+        {
+          "zh": "说明里写着要先打开这个盖子。",
+          "py": "shuō míng lǐ xiě zhe yào xiān dǎ kāi zhè gè gài zi .",
+          "en": "The instructions say to open this lid first."
+        },
+        {
+          "zh": "我们第一次合作，就把任务分清楚了。",
+          "py": "wǒ men dì yī cì hé zuò , jiù bǎ rèn wù fēn qīng chǔ le .",
+          "en": "We clarified our tasks at the start of our first collaboration."
+        },
+        {
+          "zh": "我很喜欢和她合作，她有问题会直接问。",
+          "py": "wǒ hěn xǐ huān hé tā hé zuò , tā yǒu wèn tí huì zhí jiē wèn .",
+          "en": "I like working with her; she asks directly when she has a problem."
+        },
+        {
+          "zh": "两个方案都可以，我们比较一下费用。",
+          "py": "liǎng gè fāng àn dōu kě yǐ , wǒ men bǐ jiào yī xià fèi yòng .",
+          "en": "Both plans work; let’s compare their costs."
+        },
+        {
+          "zh": "这个方案还没定，你有意见可以说。",
+          "py": "zhè gè fāng àn hái méi dìng , nǐ yǒu yì jiàn kě yǐ shuō .",
+          "en": "This plan isn’t settled yet; you can share your thoughts."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "架子",
+          "pinyin": "jià zi",
+          "meaning": "stand; rack"
+        },
+        {
+          "hanzi": "盖子",
+          "pinyin": "gài zi",
+          "meaning": "lid"
+        },
+        {
+          "hanzi": "宽",
+          "pinyin": "kuān",
+          "meaning": "wide; width"
+        },
+        {
+          "hanzi": "薄",
+          "pinyin": "báo",
+          "meaning": "thin"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u07-c",
+    "title": "Tell me what is going wrong",
+    "place": "A small classroom design project",
+    "context": "Two collaborators test a paper phone stand and keep the measurements.",
+    "goal": "Ask a collaborator for one specific action",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "我该先做什么？",
+        "pinyin": "wǒ gāi xiān zuò shén me ?",
+        "meaning": "What should I do first?",
+        "intent": "Ask for a bounded measurement",
+        "examples": [
+          "先测量手机的宽度。"
+        ],
+        "accept": [
+          "^先测量手机的宽度。[。！？]?$"
+        ]
+      },
+      {
+        "text": "现在可以说都能用了吗？",
+        "pinyin": "xiàn zài kě yǐ shuō dōu néng yòng le ma ?",
+        "meaning": "Can we say it works for all phones now?",
+        "intent": "Limit the claim to the trial",
+        "examples": [
+          "还不能，我们只测试了这两部手机。"
+        ],
+        "accept": [
+          "^还不能，我们只测试了这两部手机。[。！？]?$"
+        ]
+      },
+      {
+        "text": "要是第二个也不行呢？",
+        "pinyin": "yào shì dì èr gè yě bù xíng ne ?",
+        "meaning": "What if the second does not work either?",
+        "intent": "Offer another plan",
+        "examples": [
+          "我们就换个方案，再试一次。"
+        ],
+        "accept": [
+          "^我们就换个方案，再试一次。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Describe a specific failure",
+      "natural": {
+        "zh": "手机放得下，但架子站不住。",
+        "py": "shǒu jī fàng dé xià , dàn jià zi zhàn bù zhù .",
+        "en": "The phone fits, but the stand will not stay upright."
+      },
+      "note": "Separate the observed results instead of saying only 不行."
+    },
+    {
+      "situation": "Ask for a single practical action",
+      "natural": {
+        "zh": "你帮我扶一下，我来改后面这一块。",
+        "py": "nǐ bāng wǒ fú yī xià , wǒ lái gǎi hòu miàn zhè yī kuài .",
+        "en": "Hold this steady for me while I change the back piece."
+      },
+      "note": "This gives the helper a concrete action and names your own part."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u07-t01",
+      "phrase": "s4-u07-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "对。尺寸放得下，我就以为没问题了。",
+        "py": "duì . chǐ cùn fàng dé xià , wǒ jiù yǐ wéi méi wèn tí le .",
+        "en": "Yes. It fit, so I thought it was fine."
+      },
+      "statement": "The maker initially checked whether the phone fit.",
+      "answer": true,
+      "why": "The speaker says it fit and they assumed that was enough."
+    },
+    {
+      "id": "s4-u07-t02",
+      "phrase": "s4-u07-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二个放上这部手机以后能站住了。不过我换了一部更重的手机，它又倒了。陈宇把两次的情况写下来，没有把“这部能用”写成“所有手机都能用”。",
+        "py": "dì èr gè fàng shàng zhè bù shǒu jī yǐ hòu néng zhàn zhù le . bù guò wǒ huàn le yī bù gèng zhòng de shǒu jī , tā yòu dào le . chén yǔ bǎ liǎng cì de qíng kuàng xiě xià lái , méi yǒu bǎ zhè bù néng yòng xiě chéng suǒ yǒu shǒu jī dōu néng yòng .",
+        "en": "The second stood upright with this phone. But when I tried a heavier phone, it fell again. Chen Yu wrote down both results instead of turning “works with this phone” into “works with every phone.”"
+      },
+      "statement": "The second version also worked with the heavier phone.",
+      "answer": false,
+      "why": "It tipped over again with the heavier phone."
+    },
+    {
+      "id": "s4-u07-t03",
+      "phrase": "s4-u07-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "这个架子一放手机就倒，你能先帮我扶住吗？",
+        "py": "zhè gè jià zi yī fàng shǒu jī jiù dào , nǐ néng xiān bāng wǒ fú zhù ma ?",
+        "en": "This stand tips when I put the phone on it. Can you hold it steady first?"
+      },
+      "choices": [
+        "先扶住，我看看后面这一块。",
+        "不用扶，它已经稳稳站住了。",
+        "不用看，把这次倒了算成测试成功。"
+      ],
+      "answer": "先扶住，我看看后面这一块。",
+      "why": "The reply offers concrete help with the observed problem."
+    },
+    {
+      "id": "s4-u07-t04",
+      "phrase": "s4-u07-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "你在找尺子，手里已经拿着尺子。拿的是什么？",
+        "py": "nǐ zài zhǎo chǐ zi , shǒu lǐ yǐ jīng ná zhe chǐ zi . ná de shì shén me ?",
+        "en": "You are looking for a ruler while holding one. What are you holding?"
+      },
+      "choices": [
+        "啊，就是我在找的尺子。",
+        "是手机，尺子还没找到。",
+        "是架子，尺子还在包里。"
+      ],
+      "answer": "啊，就是我在找的尺子。",
+      "why": "The reply identifies the supposedly missing ruler."
+    },
+    {
+      "id": "s4-u07-t05",
+      "phrase": "s4-u07-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "她【测量】了两次，结果一样。",
+        "py": "tā cè liáng le liǎng cì , jié guǒ yī yàng .",
+        "en": "She measured twice and got the same result."
+      },
+      "blankPy": "cè liáng"
+    },
+    {
+      "id": "s4-u07-t06",
+      "phrase": "s4-u07-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "要是第二个也不行，我们【就】换方案。",
+        "py": "yào shì dì èr gè yě bù xíng , wǒ men jiù huàn fāng àn .",
+        "en": "If the second does not work either, we will change plans."
+      },
+      "blankPy": "jiù"
+    },
+    {
+      "id": "s4-u07-t07",
+      "phrase": "s4-u07-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Let’s check the procedure before submitting the documents.",
+          "right": {
+            "zh": "我们先确认办理程序，再去交材料。",
+            "py": "wǒ men xiān què rèn bàn lǐ chéng xù , zài qù jiāo cái liào .",
+            "en": "Let’s check the procedure before submitting the documents."
+          }
+        },
+        {
+          "left": "This stand can’t hold something so heavy.",
+          "right": {
+            "zh": "这个架子承受不了这么重的东西。",
+            "py": "zhè gè jià zi chéng shòu bù le zhè me zhòng de dōng xi .",
+            "en": "This stand can’t hold something so heavy."
+          }
+        },
+        {
+          "left": "This box is the wrong size; it won’t fit.",
+          "right": {
+            "zh": "这个盒子的尺寸不对，放不进去。",
+            "py": "zhè gè hé zi de chǐ cùn bú duì , fàng bù jìn qù .",
+            "en": "This box is the wrong size; it won’t fit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u07-t08",
+      "phrase": "s4-u07-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Check it after the repair.",
+          "right": {
+            "zh": "修理完以后，先检查一下。",
+            "py": "xiū lǐ wán yǐ hòu , xiān jiǎn chá yī xià .",
+            "en": "Check it after the repair."
+          }
+        },
+        {
+          "left": "The old equipment still works; let’s not replace it yet.",
+          "right": {
+            "zh": "旧设备还能用，我们先别换。",
+            "py": "jiù shè bèi hái néng yòng , wǒ men xiān bié huàn .",
+            "en": "The old equipment still works; let’s not replace it yet."
+          }
+        },
+        {
+          "left": "I like working with her; she asks directly when she has a problem.",
+          "right": {
+            "zh": "我很喜欢和她合作，她有问题会直接问。",
+            "py": "wǒ hěn xǐ huān hé tā hé zuò , tā yǒu wèn tí huì zhí jiē wèn .",
+            "en": "I like working with her; she asks directly when she has a problem."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: practical design vocabulary and the ruler banter. Measurements and outcomes checked: back six then ten centimetres; front twelve; heavier phone still tips. This is a fictional learning project, not an engineering certification or a safety instruction.",
+  "characters": [
+    {
+      "hanzi": "序",
+      "pinyin": "xù",
+      "meaning": "order; sequence",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "序",
+          "role": "whole",
+          "gloss": "order; sequence"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 序 in 程序. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "程序",
+          "p": "chéng xù",
+          "m": "procedure; computer program"
+        }
+      ]
+    },
+    {
+      "hanzi": "操",
+      "pinyin": "cāo",
+      "meaning": "operate, in 操作",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "操",
+          "role": "whole",
+          "gloss": "operate, in 操作"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 操 in 操作. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "操作",
+          "p": "cāo zuò",
+          "m": "operate; operation"
+        }
+      ]
+    },
+    {
+      "hanzi": "测",
+      "pinyin": "cè",
+      "meaning": "measure; test",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "测",
+          "role": "whole",
+          "gloss": "measure; test"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 测 in 测试 / 测量. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "测试",
+          "p": "cè shì",
+          "m": "test"
+        },
+        {
+          "w": "测量",
+          "p": "cè liáng",
+          "m": "measure"
+        }
+      ]
+    },
+    {
+      "hanzi": "尺",
+      "pinyin": "chǐ",
+      "meaning": "ruler; measure of length",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "尺",
+          "role": "whole",
+          "gloss": "ruler; measure of length"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 尺 in 尺寸. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "尺寸",
+          "p": "chǐ cùn",
+          "m": "size; dimensions"
+        }
+      ]
+    },
+    {
+      "hanzi": "寸",
+      "pinyin": "cùn",
+      "meaning": "unit of length; size",
+      "strokes": 3,
+      "parts": [
+        {
+          "form": "寸",
+          "role": "whole",
+          "gloss": "unit of length; size"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 寸 in 尺寸. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "尺寸",
+          "p": "chǐ cùn",
+          "m": "size; dimensions"
+        }
+      ]
+    },
+    {
+      "hanzi": "案",
+      "pinyin": "àn",
+      "meaning": "case; proposal",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "案",
+          "role": "whole",
+          "gloss": "case; proposal"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 案 in 方案. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "方案",
+          "p": "fāng àn",
+          "m": "plan; proposed approach"
+        }
+      ]
+    }
+  ]
+}

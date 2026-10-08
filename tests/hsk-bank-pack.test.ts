@@ -61,3 +61,10 @@ it("uses a reading that actually segments the whole phrase, not glyph defaults",
   expect(verifiedBankText("参加", "cān jiā", words, 1)).toBe(false);
   expect(verifiedBankText("参加", "cān jiā", words, 2)).toBe(true);
 });
+it("normalizes dictionary u: notation without admitting a wrong reading or level", () => {
+  const reference = { 忽略: { hsk3: 6, pinyin: ["hū lu:è"] } };
+  expect(verifiedBankText("忽略", "hū lüè", reference, 6)).toBe(true);
+  expect(verifiedBankText("忽略", "hū lùè", reference, 6)).toBe(false);
+  expect(verifiedBankText("忽略", "hū lǜè", reference, 6)).toBe(false);
+  expect(verifiedBankText("忽略", "hū lüè", reference, 5)).toBe(false);
+});

@@ -591,75 +591,75 @@
     "title": "One last group-chat check",
     "format": "story",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Find the final agreement and remaining uncertainty.",
+    "purpose": "Listen for the problem, the proposed response and the next action.",
     "lines": [
       {
-        "zh": "游戏结束了，这个单元也完成了，算等级认证吗？",
-        "py": "yóu xì jié shù le , zhè gè dān yuán yě wán chéng le , suàn děng jí rèn zhèng ma ?",
-        "en": "The game ended and the unit finished; does that certify a level?",
+        "zh": "明天去新开的店吧，听说那里的面不错。",
+        "py": "míng tiān qù xīn kāi de diàn ba , tīng shuō nà lǐ de miàn bù cuò .",
+        "en": "Let's go to the new place tomorrow. I've heard the noodles are good.",
         "speaker": "a"
       },
       {
-        "zh": "不算。现在先谈群聊安排，不把次数写成认证。",
-        "py": "bù suàn . xiàn zài xiān tán qún liáo ān pái , bù bǎ cì shù xiě chéng rèn zhèng .",
-        "en": "No. Discuss the group plan now instead of recording counts as certification.",
+        "zh": "我看门口的牌子写着周五才开业，明天不是周四吗？",
+        "py": "wǒ kàn mén kǒu de pái zi xiě zhe zhōu wǔ cái kāi yè , míng tiān bù shì zhōu sì ma ?",
+        "en": "The sign says it opens on Friday. Isn't tomorrow Thursday?",
         "speaker": "b"
       },
       {
-        "zh": "店明天开业，牌子还是旧时间。谁负责换？",
-        "py": "diàn míng tiān kāi yè , pái zi hái shi jiù shí jiān . shéi fù zé huàn ?",
-        "en": "The shop opens tomorrow; the sign still has the old time. Who changes it?",
+        "zh": "那块旧牌子还没换。老板刚在群里发了新通知。",
+        "py": "nà kuài jiù pái zi hái méi huàn . lǎo bǎn gāng zài qún lǐ fā le xīn tōng zhī .",
+        "en": "They haven't replaced that old sign yet. The owner just posted a new notice in the group chat.",
         "speaker": "a"
       },
       {
-        "zh": "还没说。要把旧牌子换成新牌子，不是已经换了。",
-        "py": "hái méi shuō . yào bǎ jiù pái zi huàn chéng xīn pái zi , bù shì yǐ jīng huàn le .",
-        "en": "Unstated. The sign needs replacement; it is not replaced yet.",
+        "zh": "你把通知发给我。几点去？",
+        "py": "nǐ bǎ tōng zhī fā gěi wǒ . jǐ diǎn qù ?",
+        "en": "Send me the notice. What time should we go?",
         "speaker": "b"
       },
       {
-        "zh": "实际上她还没报名；握手也不是所有事项都同意。十个人左右还是大概数。",
-        "py": "shí jì shàng tā hái méi bào míng ; wò shǒu yě bù shì suǒ yǒu shì xiàng dōu tóng yì . shí gè rén zuǒ yòu hái shi dà gài shù .",
-        "en": "In fact she has not registered; a handshake is not agreement to everything; about ten is approximate.",
+        "zh": "六点半。你把小周也叫上，我来订位子。",
+        "py": "liù diǎn bàn . nǐ bǎ xiǎo zhōu yě jiào shàng , wǒ lái dìng wèi zi .",
+        "en": "Six thirty. Ask Xiaozhou too. I'll book a table.",
         "speaker": "a"
       },
       {
-        "zh": "明白，组合两条信息，照新通知安排，再等本人回答。",
-        "py": "míng bái , zǔ hé liǎng tiáo xìn xī , zhào xīn tōng zhī ān pái , zài děng běn rén huí dá .",
-        "en": "Understood; combine the two messages, follow the new notice, and await the person’s answer.",
+        "zh": "行，我问问她。她要是加班，咱们就先吃。",
+        "py": "xíng , wǒ wèn wèn tā . tā yào shì jiā bān , zán men jiù xiān chī .",
+        "en": "Sure, I'll ask her. If she's working late, we'll eat first.",
         "speaker": "b"
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "Has she registered?",
+        "q": "Why is the old sign misleading?",
         "choices": [
-          "Not yet",
-          "Yes, the handshake proves it",
-          "Yes, the old sign confirms it"
+          "The opening date has changed",
+          "The shop has permanently closed",
+          "The group has chosen another city"
         ],
-        "answer": "Not yet"
+        "answer": "The opening date has changed"
       },
       {
         "type": "detail",
-        "q": "Has the sign been replaced?",
+        "q": "What time do they plan to go?",
         "choices": [
-          "Not yet",
-          "Yes",
-          "The speaker states it is already new"
+          "Six thirty",
+          "Five thirty",
+          "Seven thirty"
         ],
-        "answer": "Not yet"
+        "answer": "Six thirty"
       },
       {
         "type": "inference",
-        "q": "Does a handshake approve every item?",
+        "q": "What will they do if Xiaozhou works late?",
         "choices": [
-          "No",
-          "Yes",
-          "If a game ended"
+          "Eat first",
+          "Cancel the booking immediately",
+          "Move the meal to Friday"
         ],
-        "answer": "No"
+        "answer": "Eat first"
       }
     ],
     "speakers": [
@@ -679,82 +679,78 @@
     "title": "Keep the facts and the people",
     "format": "note",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Read the final reflection.",
+    "purpose": "Follow what happened and explain the people’s choices from the text.",
     "lines": [
       {
-        "zh": "问题仍然存在，谈过和谈判结束不同；先谈时间，再谈地点。",
-        "py": "wèn tí réng rán cún zài , tán guò hé tán pàn jié shù bù tóng ; xiān tán shí jiān , zài tán dì diǎn .",
-        "en": "The problem remains; discussion differs from a finished negotiation; discuss time before location."
+        "zh": "小周在群里说她今天要加班，可能赶不上晚饭。我就把订位时间改到七点。",
+        "py": "xiǎo zhōu zài qún lǐ shuō tā jīn tiān yào jiā bān , kě néng gǎn bù shàng wǎn fàn . wǒ jiù bǎ dìng wèi shí jiān gǎi dào qī diǎn .",
+        "en": "Xiaozhou said in the group chat that she had to work late and might miss dinner, so I moved the booking to seven."
       },
       {
-        "zh": "这个包属于她，具体事务属谁负责要问本人；结实的袋子也不装任意重量。",
-        "py": "zhè gè bāo shǔ yú tā , jù tǐ shì wù shǔ shéi fù zé yào wèn běn rén ; jiē shi de dài zi yě bù zhuāng rèn yì zhòng liàng .",
-        "en": "The bag is hers; ask who is responsible for matters; a sturdy bag does not hold any weight."
+        "zh": "她看见消息以后给我打电话，说别等她，大家先吃，晚上她再来找我们。",
+        "py": "tā kàn jiàn xiāo xī yǐ hòu gěi wǒ dǎ diàn huà , shuō bié děng tā , dà jiā xiān chī , wǎn shang tā zài lái zhǎo wǒ men .",
+        "en": "After seeing the message she called me and said not to wait: everyone should eat first, and she'd join us later."
       },
       {
-        "zh": "发动朋友参加自愿活动，不替别人报名；一个意见不左右所有人的决定。",
-        "py": "fā dòng péng you cān jiā zì yuàn huó dòng , bù tì bié ren bào míng ; yī gè yì jiàn bù zuǒ yòu suǒ yǒu rén de jué dìng .",
-        "en": "Mobilize friends for voluntary participation without registering for them; one opinion does not control everyone."
+        "zh": "店里的旧牌子已经被老板换了。新牌子上写着开业时间，门口还挂着几张照片。",
+        "py": "diàn lǐ de jiù pái zi yǐ jīng bèi lǎo bǎn huàn le . xīn pái zi shàng xiě zhe kāi yè shí jiān , mén kǒu hái guà zhe jǐ zhāng zhào piān .",
+        "en": "The owner had replaced the old sign. The new one showed the opening time, and a few photographs hung by the door."
       },
       {
-        "zh": "气候资料是长期范围，不代替今天的天气；联合国名字不是正式声明的证明。",
-        "py": "qì hòu zī liào shì cháng qī fàn wéi , bù dài tì jīn tiān de tiān qì ; lián hé guó míng zi bù shì zhèng shì shēng míng de zhèng míng .",
-        "en": "Climate concerns a longer period, not today’s weather; a United Nations name does not prove an official statement."
+        "zh": "我们把包放在椅子旁边，点了三碗面。朋友说这家店让他想起小时候的学校门口。",
+        "py": "wǒ men bǎ bāo fàng zài yǐ zi páng biān , diǎn le sān wǎn miàn . péng you shuō zhè jiā diàn ràng tā xiǎng qǐ xiǎo shí hòu de xué xiào mén kǒu .",
+        "en": "We put our bags beside the chairs and ordered three bowls of noodles. A friend said the place reminded him of the entrance to his school when he was young."
       },
       {
-        "zh": "小说里去世和死去是不同语气的人物经历，人类话题也尊重个人，不冒雨替人决定。",
-        "py": "xiǎo shuō lǐ qù shì hé sǐ qù shì bù tóng yǔ qì de rén wù jīng lì , rén lèi huà tí yě zūn zhòng gè rén , bù mào yǔ tì rén jué dìng .",
-        "en": "去世 and 死去 describe a fictional death with differing registers; discussions of humanity respect individuals and do not make decisions for others while braving rain."
-      },
-      {
-        "zh": "祝愿光明的明天，不保证结果。照相先问本人，牌子换没换先看记录，不随意否认。",
-        "py": "zhù yuàn guāng míng de míng tiān , bù bǎo zhèng jié guǒ . zhào xiàng xiān wèn běn rén , pái zi huàn méi huàn xiān kàn jì lù , bù suí yì fǒu rèn .",
-        "en": "Wish for a hopeful tomorrow without guarantees; ask before taking photos; check whether the sign changed rather than deny arbitrarily."
+        "zh": "八点多，小周终于到了。我们又点了一碗，听她讲今天发生的事，一直聊到店快关门。",
+        "py": "bā diǎn duō , xiǎo zhōu zhōng yú dào le . wǒ men yòu diǎn le yī wǎn , tīng tā jiǎng jīn tiān fā shēng de shì , yì zhí liáo dào diàn kuài guān mén .",
+        "en": "Xiaozhou finally arrived after eight. We ordered another bowl and listened to her day, chatting until the shop was almost closing."
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "What should be checked to establish whether the sign was replaced?",
+        "q": "Why did the narrator move the booking?",
         "choices": [
-          "The record",
-          "Only the weather",
-          "The novel’s ending"
+          "Xiaozhou might work late",
+          "The owner lost the sign",
+          "Everyone disliked noodles"
         ],
-        "answer": "The record"
+        "answer": "Xiaozhou might work late"
+      },
+      {
+        "type": "detail",
+        "q": "Who replaced the old sign?",
+        "choices": [
+          "The owner",
+          "Xiaozhou",
+          "The narrator"
+        ],
+        "answer": "The owner"
       },
       {
         "type": "inference",
-        "q": "Does a good wish guarantee the next result?",
+        "q": "What suggests the friends enjoyed the evening?",
         "choices": [
-          "No",
-          "Yes",
-          "Only if a photograph is taken"
+          "They talked until almost closing time",
+          "They left without ordering",
+          "Nobody spoke after Xiaozhou arrived"
         ],
-        "answer": "No"
-      },
-      {
-        "type": "mainidea",
-        "q": "What should the final chat preserve?",
-        "choices": [
-          "Actual facts, limits and each person’s decision",
-          "Unit counts as level certification",
-          "A handshake as universal consent"
-        ],
-        "answer": "Actual facts, limits and each person’s decision"
+        "answer": "They talked until almost closing time"
       }
     ],
     "cloze": {
       "lines": [
         {
-          "zh": "【发动】朋友参加自愿活动，不替别人报名；一个意见不左右所有人的决定。",
-          "py": "fā dòng péng you cān jiā zì yuàn huó dòng , bù tì bié ren bào míng ; yī gè yì jiàn bù zuǒ yòu suǒ yǒu rén de jué dìng .",
-          "en": "Mobilize friends for voluntary participation without registering for them; one opinion does not control everyone."
+          "zh": "店里的旧牌子已经被老板换了。新牌子上写着【开业】时间，门口还挂着几张照片。",
+          "py": "diàn lǐ de jiù pái zi yǐ jīng bèi lǎo bǎn huàn le . xīn pái zi shàng xiě zhe kāi yè shí jiān , mén kǒu hái guà zhe jǐ zhāng zhào piān .",
+          "en": "The owner had replaced the old sign. The new one showed the opening time, and a few photographs hung by the door."
         }
       ],
       "bank": [
-        "发动",
-        "电影"
+        "开业",
+        "学校",
+        "明天"
       ]
     },
     "glosses": [
@@ -875,6 +871,91 @@
           "zh": "游戏结束了，聊天还没结束。",
           "py": "yóu xì jié shù le , liáo tiān hái méi jié shù .",
           "en": "The game ends; the chat has not."
+        },
+        {
+          "zh": "这家店已经不存在了，原来的房子也拆了。",
+          "py": "zhè jiā diàn yǐ jīng bù cún zài le , yuán lái de fáng zi yě chāi le .",
+          "en": "This shop no longer exists, and the old building has been demolished."
+        },
+        {
+          "zh": "这本教材一共有十个单元。",
+          "py": "zhè běn jiào cái yī gòng yǒu shí gè dān yuán .",
+          "en": "This textbook has ten units in total."
+        },
+        {
+          "zh": "她发动朋友一起打扫小区。",
+          "py": "tā fā dòng péng you yì qǐ dǎ sǎo xiǎo qū .",
+          "en": "She rallied her friends to clean the neighbourhood together."
+        },
+        {
+          "zh": "他相信自己会有一个光明的未来。",
+          "py": "tā xiāng xìn zì jǐ huì yǒu yī gè guāng míng de wèi lái .",
+          "en": "He believes he will have a bright future."
+        },
+        {
+          "zh": "这把椅子很结实，坐两个人也没问题。",
+          "py": "zhè bǎ yǐ zi hěn jiē shí , zuò liǎng gè rén yě méi wèn tí .",
+          "en": "This chair is sturdy; it can even hold two people."
+        },
+        {
+          "zh": "她读了一篇关于联合国的报道。",
+          "py": "tā dú le yī piān guān yú lián hé guó de bào dào .",
+          "en": "She read a report about the United Nations."
+        },
+        {
+          "zh": "这座城市的气候很适合我。",
+          "py": "zhè zuò chéng shì de qì hòu hěn shì hé wǒ .",
+          "en": "This city's climate suits me very well."
+        },
+        {
+          "zh": "她的爷爷前年去世了。",
+          "py": "tā de yé ye qián nián qù shì le .",
+          "en": "Her grandfather passed away the year before last."
+        },
+        {
+          "zh": "这些变化影响着人类的生活。",
+          "py": "zhè xiē biàn huà yǐng xiǎng zhe rén lèi de shēng huó .",
+          "en": "These changes affect human life."
+        },
+        {
+          "zh": "我以为她不喜欢这首歌，实际上她每天都听。",
+          "py": "wǒ yǐ wéi tā bù xǐ huān zhè shǒu gē , shí jì shàng tā měi tiān dōu tīng .",
+          "en": "I thought she didn't like this song, but actually she listens to it every day."
+        },
+        {
+          "zh": "他属牛，我属马。",
+          "py": "tā shǔ niú , wǒ shǔ mǎ .",
+          "en": "His Chinese zodiac sign is the Ox; mine is the Horse."
+        },
+        {
+          "zh": "这辆自行车属于我姐姐。",
+          "py": "zhè liàng zì xíng chē shǔ yú wǒ jiě jie .",
+          "en": "This bicycle belongs to my sister."
+        },
+        {
+          "zh": "双方谈判了三天，终于签了合同。",
+          "py": "shuāng fāng tán pàn le sān tiān , zhōng yú qiān le hé tóng .",
+          "en": "The two sides negotiated for three days and finally signed the contract."
+        },
+        {
+          "zh": "见面时，他微笑着和我握手。",
+          "py": "jiàn miàn shí , tā wēi xiào zhe hé wǒ wò shǒu .",
+          "en": "He smiled and shook my hand when we met."
+        },
+        {
+          "zh": "这个游戏可以四个人一起玩。",
+          "py": "zhè gè yóu xì kě yǐ sì gè rén yì qǐ wán .",
+          "en": "Four people can play this game together."
+        },
+        {
+          "zh": "我照着朋友给的地址找到了这家店。",
+          "py": "wǒ zhào zhe péng you gěi de dì zhǐ zhǎo dào le zhè jiā diàn .",
+          "en": "I found the shop using the address my friend gave me."
+        },
+        {
+          "zh": "把这三种颜色组合起来，试试看。",
+          "py": "bǎ zhè sān zhǒng yán sè zǔ hé qǐ lái , shì shì kàn .",
+          "en": "Try combining these three colours."
         }
       ],
       "questions": [],
@@ -883,6 +964,26 @@
           "hanzi": "包含",
           "pinyin": "bāo hán",
           "meaning": "to contain; include"
+        },
+        {
+          "hanzi": "拆",
+          "pinyin": "chāi",
+          "meaning": "demolish; take apart"
+        },
+        {
+          "hanzi": "签",
+          "pinyin": "qiān",
+          "meaning": "sign"
+        },
+        {
+          "hanzi": "微笑",
+          "pinyin": "wēi xiào",
+          "meaning": "smile"
+        },
+        {
+          "hanzi": "打扫",
+          "pinyin": "dǎ sǎo",
+          "meaning": "clean; tidy"
         }
       ]
     }
@@ -1140,5 +1241,5 @@
       }
     ]
   },
-  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三54, 三55. Native check: 把/被 focus, 属 responsibility and 属于 ownership, 照 according-to versus photography, 左右 approximation versus influence, respectful 去世 register, original group-chat conclusion. No level certification, copyright quotation or assumed consent. Native review pending. Planned retrieval 三73 / 三74 / 三79 / 三80 / 三81: 我看了通知就问她。, 十个人左右参加。, 都十点了，先结束吧。, 慢就慢点儿吧，先说准确。, 急什么啊，还没到时间。."
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三54, 三55. Native check: 把/被 focus, 属 responsibility and 属于 ownership, 照 according-to versus photography, 左右 approximation versus influence, respectful 去世 register, original group-chat conclusion. No level certification, copyright quotation or assumed consent. Native review pending. Planned retrieval 三73 / 三74 / 三79 / 三80 / 三81: 我看了通知就问她。, 十个人左右参加。, 都十点了，先结束吧。, 慢就慢点儿吧，先说准确。, 急什么啊，还没到时间。.\n2026-10-07 editorial correction: dialogue and core reading rewritten as coherent everyday interaction; no recycled-word quota, app policy or safety caveats in character speech. IDs preserved. AI editorial review; native review remains outstanding."
 }

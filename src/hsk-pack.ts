@@ -4,6 +4,7 @@ import {
   pinyinMatches,
   type HskWord,
 } from "./packs";
+import { normalizePinyinReference } from "./pinyin-reference";
 
 export interface HskChoice {
   zh: string;
@@ -38,7 +39,7 @@ export interface HskBankPack {
   version: 2;
   id: string;
   standard: "GF2021 practice";
-  level: 1 | 2 | 3;
+  level: 1 | 2 | 3 | 4 | 5 | 6;
   provenance: HskPracticePack["provenance"];
   items: HskItem[];
 }
@@ -141,7 +142,8 @@ export function verifiedBankText(
         const word = chars.slice(ci, end).join("");
         const ref = words[word];
         if (!ref || typeof ref.hsk3 !== "number" || ref.hsk3 > level) continue;
-        for (const reading of ref.pinyin) {
+        for (const rawReading of ref.pinyin) {
+          const reading = normalizePinyinReference(rawReading);
           const length = syllables(reading).length;
           if (length && pinyinMatches(word, sounds.slice(si, si + length).join(" "), reading))
             reachable.add(`${end}:${si + length}`);
@@ -154,7 +156,7 @@ export function verifiedBankText(
 function validateBank(raw: unknown, words: Record<string, HskWord>): string[] {
   const p = raw as HskBankPack;
   if (!p || p.kind !== "hsk-practice" || p.version !== 2 ||
-      p.standard !== "GF2021 practice" || ![1, 2, 3].includes(p.level) ||
+      p.standard !== "GF2021 practice" || ![1, 2, 3, 4, 5, 6].includes(p.level) ||
       !p.id?.trim() || !Array.isArray(p.items)) return ["Invalid HSK bank schema/version"];
   const errors: string[] = [];
   if (!p.provenance?.author || !p.provenance.status || !p.provenance.sources?.length)

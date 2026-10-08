@@ -1,0 +1,61 @@
+"""Retell a complete original scene, keeping evidence and guesses apart."""
+import sys
+from advanced_core import write,rows,words,q,card,practice
+V=words('''
+概括|summarise; give the main points|khái quát|你能用两句话概括这个故事吗？|Can you summarise this story in two sentences?|她概括了大家的意见，没有重复每个人的话。|She summarised everyone’s views without repeating each person’s words.
+描述|describe|miêu tả|先描述你看到的，再说你怎么想。|Describe what you saw before saying what you think.|他把那天的情况描述得很清楚。|He described that day’s events clearly.
+主题|theme; main subject|chủ đề|这篇文章的主题是离开家以后怎样交朋友。|This article is about making friends after leaving home.|我们先定主题，再选材料。|Let’s choose the theme before selecting material.
+顺序|order; sequence|thứ tự|把这些事按发生的顺序讲。|Tell these events in the order they happened.|你说的顺序和照片里的不一样。|Your sequence differs from the one in the photos.
+背景|background|bối cảnh|故事的背景是一座小城。|The story is set in a small town.|不了解背景，很容易误会这句话。|Without the background, it’s easy to misunderstand this sentence.
+角色|character; role|vai; nhân vật|这个角色一开始不愿意说实话。|This character doesn’t want to tell the truth at first.|她在活动中的角色是主持人。|Her role at the event is host.
+细节|detail|chi tiết|别忘了信放在桌上的那个细节。|Don’t forget the detail about the letter on the table.|这个细节前面也出现过。|This detail appeared earlier too.
+结论|conclusion|kết luận|我们现在还不能下这个结论。|We can’t draw that conclusion yet.|你的结论有哪一句话支持？|Which sentence supports your conclusion?
+原因|reason; cause|nguyên nhân|他离开的原因是什么？|Why did he leave?|我想知道迟到的真正原因。|I’d like to know the real reason for the delay.
+结果|result; outcome|kết quả|最后的结果和我想的不一样。|The final outcome differs from what I expected.|等结果出来以后再通知大家。|Tell everyone after the results come out.
+于是|so; thereupon|thế là|雨突然大了，于是我们进了旁边的店。|The rain suddenly got heavier, so we went into the shop beside us.|他没接电话，于是我发了消息。|He didn’t answer, so I sent a message.
+从此|from then on|từ đó|从此，她每年都会回来看一次。|From then on she returned once a year.|我们在车站认识，从此成了朋友。|We met at the station and became friends from then on.
+最初|initially; at first|ban đầu|我最初以为他不来了。|At first I thought he wasn’t coming.|最初的计划是一起坐公交车。|The initial plan was to take the bus together.
+总结|summarise; sum up|tổng kết|最后，你总结一下今天讨论的内容。|At the end, sum up what we discussed today.|这篇日记总结了我一个月的经历。|This diary entry sums up my experiences over a month.
+印象|impression|ấn tượng|哪一个画面给你的印象最深？|Which image made the strongest impression on you?|我对这家店的第一印象很好。|My first impression of this shop was good.
+经历|experience; go through|trải nghiệm; trải qua|这是我第一次一个人旅行的经历。|This was my first experience of travelling alone.|经历了这件事以后，她更愿意直接问了。|After going through this, she became more willing to ask directly.
+''')
+D=rows('''
+你能讲讲刚才那段吗？我接电话，漏了一半。|Can you tell me about that section? I took a call and missed half of it.
+女孩给哥哥留了张纸条，说这次自己走。后来哥哥去了车站。|The girl left her brother a note saying she’d go alone this time. Later he went to the station.
+所以他们吵架了？|So they’d argued?
+前面没说吵架。哥哥以前每次都送她，这次她想自己试试。|There wasn’t an argument shown earlier. Her brother used to take her every time, and this time she wanted to try alone.
+那他去车站，是不放心吗？|Did he go to the station because he was worried?
+他拿着她忘在桌上的身份证，打电话让她先别上车。|He had the ID she’d left on the table and called to tell her not to board yet.
+哦，我把原因想错了。她最后坐上车了吗？|Oh, I guessed the reason wrong. Did she catch the train in the end?
+坐上了。哥哥把东西给她，她自己去检票口，他没再跟着走。|Yes. Her brother gave her the ID, and she went to the ticket gate herself. He didn’t go with her again.
+这就说清楚了。她不是不要他帮忙，只是不想每次都让他送到最后。|That makes it clear. She doesn’t reject his help; she just doesn’t want him to take her all the way every time.
+我也这么看。不过“以后永远不让他送”可没说。|That’s how I see it too. But nobody said he’d never take her again.
+好，我用两句话讲给林安听，别又把猜的加进去。|Okay, I’ll tell Lin An in two sentences without adding my guesses again.
+两句话？那你这次别从她小时候开始讲。|Two sentences? Then don’t start with her childhood this time.
+''')
+R=rows('''
+妹妹明天第一次独自坐火车去外地。哥哥以前总会替她拿行李，陪她找到座位，再站在窗外挥手。这次她提前把票和地址确认好了，想自己完成这些事。|The younger sister was taking her first solo train trip away from home the next day. Her brother usually carried her luggage, found her seat and waved through the window. This time she had checked her ticket and address and wanted to manage those things herself.
+早上哥哥还没醒，她在桌上留了一张纸条：“这次我自己走，到站给你电话。”她拿起包就出门了，却把身份证留在昨晚整理材料的地方。|In the morning, before her brother woke, she left a note: “I’ll go alone this time and call when I arrive.” She picked up her bag and left, but her ID remained where she’d sorted her documents the night before.
+哥哥醒来先看见纸条，又发现桌上的身份证。他没有立刻说妹妹不能独自去，而是给她打电话，确认她还在车站附近，再把东西送过去。|Her brother woke, saw the note and then the ID on the table. Instead of immediately saying she couldn’t travel alone, he called, checked she was still near the station and brought it to her.
+妹妹接过身份证，有点不好意思：“看来我还是需要你。”哥哥说：“忘了东西就拿给你，这和你能不能自己走是两回事。”他帮她把包关好，但没有像以前一样一路陪到座位。|She took the ID, a little embarrassed: “Looks like I still need you.” He replied, “Bringing you something you forgot is separate from whether you can go yourself.” He closed her bag but didn’t accompany her all the way to her seat as before.
+车开以后，她发了一张窗外的照片。哥哥回复：“到了再打电话。”照片里没有哥哥，也没有车站，只有早上的光和沿途的树。|After the train left, she sent a photo through the window. Her brother replied, “Call when you arrive.” The photo contained neither him nor the station, just morning light and trees along the route.
+这个故事没有说妹妹从此不需要帮助。她漏了一样东西，接受了帮助，仍然完成了自己想试的旅行。概括时如果只说“哥哥追到车站”，就会漏掉为什么去、去了以后做了什么。|The story doesn’t say she never needed help again. She forgot an item, accepted help and still made the trip she wanted to try. A summary saying only “her brother followed her to the station” would leave out why he went and what he did there.
+''')
+M=rows('''
+身份证给你，先看看还有没有别的忘了。|Here’s your ID. Check whether you’ve forgotten anything else.
+包、票、手机，都在。看来我还是需要你。|Bag, ticket, phone—all here. Looks like I still need you.
+忘了东西就拿给你，这和你能不能自己走是两回事。|If you forget something, I bring it. That’s separate from whether you can go yourself.
+那你不用陪我进去，我找到检票口了。|Then you don’t have to come in with me; I’ve found the ticket gate.
+好。到了给我电话，别只发照片。|Okay. Call when you arrive; don’t just send photos.
+知道了。你也别只回复一个“好”。|I know. Don’t just reply with an “okay” either.
+那我换一句：“到了吗？”|Then I’ll change it to: “Arrived?”
+还没出发呢，你倒先问上了。|I haven’t even departed, and you’re already asking.
+''')
+G=[
+card('于是 / 因此','Connect an action or a conclusion to its cause','于是 often moves the narrative to an action following the previous event. 因此 explicitly marks a causal result or conclusion and often fits explanation. They overlap; neither licenses an unsupported inference.','他看见身份证，于是给妹妹打电话。|He saw the ID and then called his sister.\n她已经找到了检票口，因此不需要哥哥继续带路。|She had found the ticket gate, so didn’t need her brother to keep guiding her.','哥哥去了车站，因此他们一定吵架了。','哥哥看到身份证，于是去了车站。','The first statement invents a cause not established by the scene.'),
+card('从此 / 后来','Distinguish a continuing change from a later event','从此 introduces a state or habit continuing from that point. 后来 introduces later events without by itself claiming permanence.','从此，她每年都去一次。|From then on she went once a year.\n后来，她给哥哥打了电话。|Later she called her brother.','后来打了一次电话，所以从此每天都打。','后来，她给哥哥打了电话。','One later event does not prove a permanent daily habit.'),
+card('先…又…再…','Retell a sequence without changing causality','These markers order events. Keep the actions and their subjects clear rather than letting sequence alone imply motives.','他先看见纸条，又发现身份证，再给她打电话。|He saw the note, found the ID and then called her.\n先说发生了什么，再说你的看法。|Say what happened first, then give your interpretation.','他先打电话，再发现身份证，所以发现证件以后才打电话。','他先发现身份证，再打电话。','The described order must agree with the claimed timeline.'),
+card('不是…只是不…','Narrow a negative interpretation','The first clause rejects an overly broad reading; the second names the actual narrower preference. This keeps a summary faithful to what the character said.','她不是不要帮助，只是不想每次都让哥哥送。|She doesn’t reject help; she doesn’t want her brother to take her every time.\n我不是不想听，只是不想先知道结果。|I do want to listen; I don’t want the result revealed first.','她不想每次让哥哥送，所以她永远不要帮助。','她不是不要帮助，只是不想每次都让哥哥送。','A limited preference is not a permanent rejection of all help.'),
+]
+spec=dict(title=('Tell the story, not your guess','到底发生了什么'),goals=['Retell an original scene in chronological order','Name the cause and result without inventing a motive','Give a short summary that preserves a character’s actual choice'],vocabulary=V,grammar=G,dialogue=(D,[q('gist','What does the missed section show?','A sister accepting forgotten-ID help while making her own trip','A confirmed permanent family split','A brother buying every future ticket'),q('detail','Why does the brother go to the station?','To bring the forgotten ID','To force the sister to stay home','To return a borrowed suitcase'),q('inference','What should a faithful summary avoid?','Claiming she will never accept help again','Saying she boarded the train','Mentioning the ID')]),reading=(R,[q('gist','What is the central change?','The sister makes the trip herself with limited practical help','The sister permanently stops talking to her brother','The brother never notices the missing ID'),q('detail','When does she send the window photo?','After the train departs','Before buying any ticket','After reaching her brother’s house'),q('inference','Why is “the brother followed her” alone inadequate?','It omits his reason and what he actually did','It proves they argued','It is the entire explicit theme of the story')]),mediaTitle='A few more characters',media=(M,[q('detail','What does the brother ask her to do after arriving?','Call rather than only sending photos','Cancel the trip','Give him the ID back'),q('inference','Why does she joke about the arrival question?','He asks about arrival before she has even departed','She cannot recognise 到了吗','She has already arrived at her destination')]),glosses=[('身份证','identity card'),('独自','alone'),('检票口','ticket gate'),('挥手','wave'),('沿途','along the route'),('追到','follow or chase as far as'),('纸条','note on a small piece of paper'),('一路','all the way')],place='Retelling an original family travel scene',context='A viewer missed why a brother went to the station and confuses a practical reason with an argument.',turns=[('先发生了什么？','What happened first?','Start with an observed event',['妹妹留下纸条，自己去了车站。']),('哥哥为什么去？','Why did the brother go?','Supply the evidenced cause',['他看见她忘了身份证，就送过去。']),('所以她从此不需要帮助？','So she never needs help from then on?','Correct the overly broad conclusion',['不是，她接受了帮助，但这次还是自己去旅行。'])],usage=[('Mark a guess clearly','我猜他可能担心，不过场景没有直接说。','I guess he may be worried, but the scene does not directly say so.','Separate your plausible interpretation from the stated reason.'),('Give a compact summary','她忘了证件，哥哥送到车站，她仍然自己上了车。','She forgot her ID, her brother brought it to the station, and she still boarded on her own.','Keep the problem, practical help and final choice in the summary.')],tasks=practice([(D[5][0],D[5][1],'The brother brings the forgotten ID.',True,'He is explicitly holding the ID left on the table.'),(R[3][0],R[3][1],'The brother accompanies her all the way to her seat as before.',False,'He does not accompany her as he did before.')],[('她忘了身份证，哥哥送去。没有提吵架，能确定他们吵了吗？','She forgot her ID and her brother brought it. No argument is mentioned. Can we be sure they argued?',['前面没有这样说，他是去送身份证。','能，送身份证就证明他们吵架了。','能，哥哥送去就证明她根本没忘。'],0,'The reply distinguishes the stated practical reason from a guess.'),('她忘了身份证，哥哥送去，她自己上车。能用两句话讲清楚吗？','She forgot her ID, her brother brought it, and she boarded alone. Can you summarise this in two sentences?',['她忘了身份证，哥哥送过去。后来她自己上了车。','她自己拿着身份证来，哥哥陪她坐同一班车。','哥哥没送身份证，所以她一直没有上车。'],0,'The summary preserves the problem and outcome.')],[('他看见身份证，于是给她打电话。','He saw the ID and then called her.','于是'),('先描述你看到的，再说你怎么想。','Describe what you saw before giving your interpretation.','描述')],[[(V[i][3],V[i][4]) for i in [0,4,7]],[(V[i][5],V[i][6]) for i in [3,10,12]]]),review='Native review: sibling register, the early arrival-question joke and short retelling naturalness. Timeline, forgotten document and final independent boarding checked. The story does not establish a quarrel or a permanent rejection of help. No learner mastery or completed HSK inventory is inferred from this capstone.')
+write(4,12,spec,publish='--publish' in sys.argv)

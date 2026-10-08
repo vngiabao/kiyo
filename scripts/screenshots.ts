@@ -100,7 +100,7 @@ for (const [label, width, height] of widths) {
         .getByRole("button", { name: "More" })
         .click();
       await wait(page, 350);
-      return page.locator(".drawer").getByRole("button", { name }).click();
+      return page.getByRole("dialog", { name: "Your study desk" }).getByRole("button", { name }).click();
     }
     return page
       .locator(".main-nav")

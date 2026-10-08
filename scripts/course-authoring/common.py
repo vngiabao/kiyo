@@ -60,6 +60,8 @@ dictionary.update(overrides)
 dictionary.update({'还书':'huán shū', '还笔':'huán bǐ', '还回来':'huán huí lái',
                    '还的书':'huán de shū', '还给':'huán gěi', '还你':'huán nǐ',
                    '有空儿':'yǒu kòngr', '没空儿':'méi kòngr', '变为':'biàn wéi'})
+dictionary['重读'] = 'chóng dú'  # These authored contexts mean read again, not stress a syllable.
+dictionary['没收到'] = 'méi shōu dào'  # Negative 收到, not the overlapping word 没收 (confiscate).
 def py(text):
     text = text.replace('【','').replace('】','')
     out, i = [], 0

@@ -1,0 +1,3407 @@
+{
+  "kind": "hsk-practice",
+  "version": 2,
+  "id": "hsk4-original-rotating",
+  "standard": "GF2021 practice",
+  "level": 4,
+  "provenance": {
+    "author": "Kiyo original exercises",
+    "status": "AI-assisted original mixed practice; native review pending. Ordering and choice cloze are adapted practice, not a full official mock or certified writing assessment.",
+    "sources": [
+      "https://www.chinesetest.cn/syllabus",
+      "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf"
+    ]
+  },
+  "items": [
+    {
+      "format": "reading",
+      "sentence": "第一段：周六我可以帮忙，但是三点要走。第二段：我们四点才开始搬桌子。",
+      "py": "dì yī duàn : zhōu liù wǒ kě yǐ bāng máng , dàn shì sān diǎn yào zǒu . dì èr duàn : wǒ men sì diǎn cái kāi shǐ bān zhuō zi .",
+      "en": "Text 1: I can help on Saturday, but I have to leave at three. Text 2: We start moving the tables at four.",
+      "prompt": "两段放在一起，能确定什么？",
+      "promptPy": "liǎng duàn fàng zài yì qǐ , néng què dìng shén me ?",
+      "choices": [
+        {
+          "zh": "搬桌子的时间不合适。",
+          "py": "bān zhuō zi de shí jiān bù hé shì .",
+          "en": "The moving time doesn't work."
+        },
+        {
+          "zh": "已经答应搬桌子。",
+          "py": "yǐ jīng dā ying bān zhuō zi .",
+          "en": "They've agreed to move the tables."
+        },
+        {
+          "zh": "可以留到五点。",
+          "py": "kě yǐ liú dào wǔ diǎn .",
+          "en": "They can stay until five."
+        },
+        {
+          "zh": "两段说的时间一样。",
+          "py": "liǎng duàn shuō de shí jiān yī yàng .",
+          "en": "Both texts give the same time."
+        }
+      ],
+      "answer": "搬桌子的时间不合适。",
+      "explanation": "Leaving at three cannot cover a task that starts at four.",
+      "id": "hsk4-bank-identity-01",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "我到店了，你慢慢来。先别替我买票，我朋友可能已经买了。等她回复再说。",
+      "py": "wǒ dào diàn le , nǐ màn màn lái . xiān bié tì wǒ mǎi piào , wǒ péng you kě néng yǐ jīng mǎi le . děng tā huí fù zài shuō .",
+      "en": "I'm at the shop. Take your time. Don't buy my ticket yet; my friend may already have bought it. Wait for her reply.",
+      "prompt": "现在应该先做什么？",
+      "promptPy": "xiàn zài yīng gāi xiān zuò shén me ?",
+      "choices": [
+        {
+          "zh": "立刻再买一张。",
+          "py": "lì kè zài mǎi yī zhāng .",
+          "en": "Buy another ticket immediately."
+        },
+        {
+          "zh": "宣布活动取消。",
+          "py": "xuān bù huó dòng qǔ xiāo .",
+          "en": "Announce that the event is cancelled."
+        },
+        {
+          "zh": "把票全送出去。",
+          "py": "bǎ piào quán sòng chū qù .",
+          "en": "Give away every ticket."
+        },
+        {
+          "zh": "等朋友回复。",
+          "py": "děng péng you huí fù .",
+          "en": "Wait for the friend's reply."
+        }
+      ],
+      "answer": "等朋友回复。",
+      "explanation": "The speaker explicitly asks them to wait before buying.",
+      "id": "hsk4-bank-identity-02",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "只有她同意我们才把照片发出去",
+      "py": "zhǐ yǒu tā tóng yì wǒ men cái bǎ zhào piān fā chū qù",
+      "en": "We only send the photo if she agrees.",
+      "prompt": "在什么条件下发照片？",
+      "promptPy": "zài shén me tiáo jiàn xià fā zhào piān ?",
+      "choices": [
+        {
+          "zh": "我们只有把照片发出去她才同意",
+          "py": "wǒ men zhǐ yǒu bǎ zhào piān fā chū qù tā cái tóng yì",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她只有同意才我们把照片发出去",
+          "py": "tā zhǐ yǒu tóng yì cái wǒ men bǎ zhào piān fā chū qù",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "只有她同意我们才把照片发出去",
+          "py": "zhǐ yǒu tā tóng yì wǒ men cái bǎ zhào piān fā chū qù",
+          "en": "We only send the photo if she agrees."
+        },
+        {
+          "zh": "只有她我们同意才把照片发出去",
+          "py": "zhǐ yǒu tā wǒ men tóng yì cái bǎ zhào piān fā chū qù",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "只有她同意我们才把照片发出去",
+      "explanation": "Keep the condition before the 才 response.",
+      "segments": [
+        {
+          "zh": "只有",
+          "py": "zhǐ yǒu",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "她同意",
+          "py": "tā tóng yì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "我们才",
+          "py": "wǒ men cái",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "把照片发出去",
+          "py": "bǎ zhào piān fā chū qù",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-identity-03",
+      "unit": "identity"
+    },
+    {
+      "format": "cloze",
+      "sentence": "虽然雨很大，我们还是按时到了。",
+      "py": "suī rán yǔ hěn dà , wǒ men hái shi àn shí dào le .",
+      "en": "Although the rain is heavy, we still arrive on time.",
+      "prompt": "___雨很大，我们还是按时到了。",
+      "promptPy": "yǔ hěn dà , wǒ men hái shi àn shí dào le .",
+      "choices": [
+        {
+          "zh": "于是",
+          "py": "yú shì",
+          "en": "Then."
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Although."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        }
+      ],
+      "answer": "虽然",
+      "explanation": "虽然 introduces the concessive clause here.",
+      "id": "hsk4-bank-identity-04",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "她觉得电影不错，但不太喜欢最后一段。朋友问要不要建议看，她说可以，不过先别把最后一段讲出来。",
+      "py": "tā jué de diàn yǐng bù cuò , dàn bù tài xǐ huān zuì hòu yī duàn . péng you wèn yào bù yào jiàn yì kàn , tā shuō kě yǐ , bù guò xiān bié bǎ zuì hòu yī duàn jiǎng chū lái .",
+      "en": "She likes most of the film, but not the ending. She would recommend it, with no spoilers.",
+      "prompt": "她对电影的看法是什么？",
+      "promptPy": "tā duì diàn yǐng de kàn fǎ shì shén me ?",
+      "choices": [
+        {
+          "zh": "大部分喜欢，最后一段有保留。",
+          "py": "dà bù fèn xǐ huān , zuì hòu yī duàn yǒu bǎo liú .",
+          "en": "She mostly likes it, with reservations about the ending."
+        },
+        {
+          "zh": "每一段都不喜欢。",
+          "py": "měi yī duàn dōu bù xǐ huān .",
+          "en": "She dislikes every part."
+        },
+        {
+          "zh": "没看过电影。",
+          "py": "méi kàn guò diàn yǐng .",
+          "en": "She hasn't seen it."
+        },
+        {
+          "zh": "要求马上讲最后一段。",
+          "py": "yāo qiú mǎ shàng jiǎng zuì hòu yī duàn .",
+          "en": "She wants the ending revealed immediately."
+        }
+      ],
+      "answer": "大部分喜欢，最后一段有保留。",
+      "explanation": "Her criticism is limited to the ending.",
+      "id": "hsk4-bank-identity-05",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "大雨没有让我们取消见面，只是从公园改到咖啡店，时间仍是两点。",
+      "py": "dà yǔ méi yǒu ràng wǒ men qǔ xiāo jiàn miàn , zhǐ shì cóng gōng yuán gǎi dào kā fēi diàn , shí jiān réng shì liǎng diǎn .",
+      "en": "The heavy rain didn't cancel our meeting. We moved it from the park to a café, still at two.",
+      "prompt": "改了什么？",
+      "promptPy": "gǎi le shén me ?",
+      "choices": [
+        {
+          "zh": "时间。",
+          "py": "shí jiān .",
+          "en": "The time."
+        },
+        {
+          "zh": "朋友名字。",
+          "py": "péng you míng zi .",
+          "en": "The friend's name."
+        },
+        {
+          "zh": "已经不见面。",
+          "py": "yǐ jīng bú jiàn miàn .",
+          "en": "The meeting has been cancelled."
+        },
+        {
+          "zh": "地点。",
+          "py": "dì diǎn .",
+          "en": "The place."
+        }
+      ],
+      "answer": "地点。",
+      "explanation": "Only the location changes.",
+      "id": "hsk4-bank-identity-06",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "他原来想报两个班，发现上课时间相同，只报了周三口语班。读书班等下次。",
+      "py": "tā yuán lái xiǎng bào liǎng gè bān , fā xiàn shàng kè shí jiān xiāng tóng , zhǐ bào le zhōu sān kǒu yǔ bān . dú shū bān děng xià cì .",
+      "en": "He planned to take two classes, but their times clash. This time he enrolled only in Wednesday speaking.",
+      "prompt": "这次报了哪个班？",
+      "promptPy": "zhè cì bào le nǎ gè bān ?",
+      "choices": [
+        {
+          "zh": "只有读书班。",
+          "py": "zhǐ yǒu dú shū bān .",
+          "en": "Only reading."
+        },
+        {
+          "zh": "都没有报。",
+          "py": "dōu méi yǒu bào .",
+          "en": "Neither class."
+        },
+        {
+          "zh": "周三口语班。",
+          "py": "zhōu sān kǒu yǔ bān .",
+          "en": "Wednesday speaking."
+        },
+        {
+          "zh": "两个班。",
+          "py": "liǎng gè bān .",
+          "en": "Both classes."
+        }
+      ],
+      "answer": "周三口语班。",
+      "explanation": "Distinguish his earlier plan from his actual enrolment.",
+      "id": "hsk4-bank-identity-07",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "你别误会，我不是不想帮，只是今天六点以后才有空。如果五点就结束，那今天帮不上。",
+      "py": "nǐ bié wù huì , wǒ bù shì bù xiǎng bāng , zhǐ shì jīn tiān liù diǎn yǐ hòu cái yǒu kōng . rú guǒ wǔ diǎn jiù jié shù , nà jīn tiān bāng bù shàng .",
+      "en": "Don't misunderstand: I want to help, but I'm only free after six. If it ends at five, I can't help today.",
+      "prompt": "如果五点结束，她今天能帮吗？",
+      "promptPy": "rú guǒ wǔ diǎn jié shù , tā jīn tiān néng bāng ma ?",
+      "choices": [
+        {
+          "zh": "能，结束以后也算活动内。",
+          "py": "néng , jié shù yǐ hòu yě suàn huó dòng nèi .",
+          "en": "Yes; arriving after it ends counts as taking part."
+        },
+        {
+          "zh": "不能，有空时间太晚。",
+          "py": "bù néng , yǒu kōng shí jiān tài wǎn .",
+          "en": "No; they're free too late."
+        },
+        {
+          "zh": "能，从四点开始。",
+          "py": "néng , cóng sì diǎn kāi shǐ .",
+          "en": "Yes; they can start at four."
+        },
+        {
+          "zh": "能，已经到场。",
+          "py": "néng , yǐ jīng dào chǎng .",
+          "en": "Yes; they've already arrived."
+        }
+      ],
+      "answer": "不能，有空时间太晚。",
+      "explanation": "Being free after six does not overlap an event ending at five.",
+      "id": "hsk4-bank-identity-08",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "虽然雨很大我们还是按时到了",
+      "py": "suī rán yǔ hěn dà wǒ men hái shi àn shí dào le",
+      "en": "Although the rain is heavy, we still arrive on time.",
+      "prompt": "按什么顺序表达转折？",
+      "promptPy": "àn shén me shùn xù biǎo dá zhuǎn zhé ?",
+      "choices": [
+        {
+          "zh": "虽然雨很大我们还是按时到了",
+          "py": "suī rán yǔ hěn dà wǒ men hái shi àn shí dào le",
+          "en": "Although the rain is heavy, we still arrive on time."
+        },
+        {
+          "zh": "虽然雨我们很大还是按时到了",
+          "py": "suī rán yǔ wǒ men hěn dà hái shi àn shí dào le",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "我们虽然还是雨很大按时到了",
+          "py": "wǒ men suī rán hái shi yǔ hěn dà àn shí dào le",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "雨很大按时我们虽然还是到了",
+          "py": "yǔ hěn dà àn shí wǒ men suī rán hái shi dào le",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "虽然雨很大我们还是按时到了",
+      "explanation": "Keep the concessive clause and its result together.",
+      "segments": [
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "雨很大",
+          "py": "yǔ hěn dà",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒ men",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "还是按时到了",
+          "py": "hái shi àn shí dào le",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-identity-09",
+      "unit": "identity"
+    },
+    {
+      "format": "cloze",
+      "sentence": "只有她同意，我们才发照片。",
+      "py": "zhǐ yǒu tā tóng yì , wǒ men cái fā zhào piān .",
+      "en": "We only share the photo if she agrees.",
+      "prompt": "只有她同意，我们___发照片。",
+      "promptPy": "zhǐ yǒu tā tóng yì , wǒ men fā zhào piān .",
+      "choices": [
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "哪怕",
+          "py": "nǎ pà",
+          "en": "Even if."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        },
+        {
+          "zh": "才",
+          "py": "cái",
+          "en": "Only then."
+        }
+      ],
+      "answer": "才",
+      "explanation": "才 completes the 只有 condition.",
+      "id": "hsk4-bank-identity-10",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "她说这件外套挺好看，就是有点大。服务员建议换小一号，她说先试试，还没决定买。",
+      "py": "tā shuō zhè jiàn wài tào tǐng hǎo kàn , jiù shì yǒu diǎn dà . fú wù yuán jiàn yì huàn xiǎo yī hào , tā shuō xiān shì shì , hái méi jué dìng mǎi .",
+      "en": "She likes the coat, but it's a little big. She'll try a smaller size before deciding.",
+      "prompt": "现在能说她已经买了吗？",
+      "promptPy": "xiàn zài néng shuō tā yǐ jīng mǎi le ma ?",
+      "choices": [
+        {
+          "zh": "能，服务员已付钱。",
+          "py": "néng , fú wù yuán yǐ fù qián .",
+          "en": "Yes, the assistant has paid."
+        },
+        {
+          "zh": "不能，她不喜欢所有外套。",
+          "py": "bù néng , tā bù xǐ huān suǒ yǒu wài tào .",
+          "en": "No, she dislikes every coat."
+        },
+        {
+          "zh": "不能，还要试。",
+          "py": "bù néng , hái yào shì .",
+          "en": "No, she still needs to try it."
+        },
+        {
+          "zh": "能，说好看就是买了。",
+          "py": "néng , shuō hǎo kàn jiù shì mǎi le .",
+          "en": "Yes, calling it nice means she bought it."
+        }
+      ],
+      "answer": "不能，还要试。",
+      "explanation": "Trying an item does not establish a purchase.",
+      "id": "hsk4-bank-identity-11",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "这句话是开玩笑，但你没觉得好笑，我就不继续说。不是让你必须跟着笑。",
+      "py": "zhè jù huà shì kāi wán xiào , dàn nǐ méi jué de hǎo xiào , wǒ jiù bù jì xù shuō . bù shì ràng nǐ bì xū gēn zhe xiào .",
+      "en": "It was a joke, but if you didn't find it funny, I'll stop. You don't have to laugh.",
+      "prompt": "她准备怎么做？",
+      "promptPy": "tā zhǔn bèi zěn me zuò ?",
+      "choices": [
+        {
+          "zh": "继续这样开玩笑。",
+          "py": "jì xù zhè yàng kāi wán xiào .",
+          "en": "Keep making the joke."
+        },
+        {
+          "zh": "停止这样说。",
+          "py": "tíng zhǐ zhè yàng shuō .",
+          "en": "Stop saying it."
+        },
+        {
+          "zh": "要求对方笑。",
+          "py": "yāo qiú duì fāng xiào .",
+          "en": "Require the other person to laugh."
+        },
+        {
+          "zh": "宣布对方不能来。",
+          "py": "xuān bù duì fāng bù néng lái .",
+          "en": "Ban the other person from coming."
+        }
+      ],
+      "answer": "停止这样说。",
+      "explanation": "The speaker offers to stop, without demanding a laugh.",
+      "id": "hsk4-bank-identity-12",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：歌里唱窗户一直开着。第二段：活动通知说九点关闭小房间。",
+      "py": "dì yī duàn : gē lǐ chàng chuāng hù yì zhí kāi zhe . dì èr duàn : huó dòng tōng zhī shuō jiǔ diǎn guān bì xiǎo fáng jiān .",
+      "en": "Text 1: The song says the window stays open. Text 2: The notice says the room closes at nine.",
+      "prompt": "实际活动应按什么时间？",
+      "promptPy": "shí jì huó dòng yīng àn shén me shí jiān ?",
+      "choices": [
+        {
+          "zh": "通知里的九点。",
+          "py": "tōng zhī lǐ de jiǔ diǎn .",
+          "en": "Nine, as stated in the notice."
+        },
+        {
+          "zh": "歌词里的永远。",
+          "py": "gē cí lǐ de yǒng yuǎn .",
+          "en": "Forever, as in the lyric."
+        },
+        {
+          "zh": "没有关闭时间。",
+          "py": "méi yǒu guān bì shí jiān .",
+          "en": "There is no closing time."
+        },
+        {
+          "zh": "第二天九点才开始。",
+          "py": "dì èr tiān jiǔ diǎn cái kāi shǐ .",
+          "en": "It starts at nine tomorrow."
+        }
+      ],
+      "answer": "通知里的九点。",
+      "explanation": "The practical notice supplies the event's closing time.",
+      "id": "hsk4-bank-identity-13",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "我问的是这次报名，不是以前有没有学过。她以前学过写作，这次只报口语。",
+      "py": "wǒ wèn de shì zhè cì bào míng , bù shì yǐ qián yǒu méi yǒu xué guò . tā yǐ qián xué guò xiě zuò , zhè cì zhǐ bào kǒu yǔ .",
+      "en": "I'm asking about this enrolment, not previous study. She studied writing before; this time she enrolled only in speaking.",
+      "prompt": "这次报名什么？",
+      "promptPy": "zhè cì bào míng shén me ?",
+      "choices": [
+        {
+          "zh": "写作。",
+          "py": "xiě zuò .",
+          "en": "Writing."
+        },
+        {
+          "zh": "口语和写作都报。",
+          "py": "kǒu yǔ hé xiě zuò dōu bào .",
+          "en": "Both speaking and writing."
+        },
+        {
+          "zh": "只有听歌。",
+          "py": "zhǐ yǒu tīng gē .",
+          "en": "Only listening to songs."
+        },
+        {
+          "zh": "口语。",
+          "py": "kǒu yǔ .",
+          "en": "Speaking."
+        }
+      ],
+      "answer": "口语。",
+      "explanation": "The question concerns this enrolment.",
+      "id": "hsk4-bank-identity-14",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "这本书被她放回了原来的地方",
+      "py": "zhè běn shū bèi tā fàng huí le yuán lái de dì fāng",
+      "en": "She put the book back in its original place.",
+      "prompt": "谁把书放回去？",
+      "promptPy": "shéi bǎ shū fàng huí qù ?",
+      "choices": [
+        {
+          "zh": "她这本书被回放了原来的地方",
+          "py": "tā zhè běn shū bèi huí fàng le yuán lái de dì fāng",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "被她了这本书放回原来的地方",
+          "py": "bèi tā le zhè běn shū fàng huí yuán lái de dì fāng",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "这本书被她放回了原来的地方",
+          "py": "zhè běn shū bèi tā fàng huí le yuán lái de dì fāng",
+          "en": "She put the book back in its original place."
+        },
+        {
+          "zh": "这本书她放回被了原来的地方",
+          "py": "zhè běn shū tā fàng huí bèi le yuán lái de dì fāng",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "这本书被她放回了原来的地方",
+      "explanation": "The passive object comes before 被, the agent and the action.",
+      "segments": [
+        {
+          "zh": "这本书",
+          "py": "zhè běn shū",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "放回了原来的地方",
+          "py": "fàng huí le yuán lái de dì fāng",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-identity-15",
+      "unit": "identity"
+    },
+    {
+      "format": "cloze",
+      "sentence": "我把资料放回原来的地方了。",
+      "py": "wǒ bǎ zī liào fàng huí yuán lái de dì fāng le .",
+      "en": "I returned the materials to their original place.",
+      "prompt": "我___资料放回原来的地方了。",
+      "promptPy": "wǒ zī liào fàng huí yuán lái de dì fāng le .",
+      "choices": [
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "From."
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "Disposal marker."
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "Passive marker."
+        },
+        {
+          "zh": "向",
+          "py": "xiàng",
+          "en": "Towards."
+        }
+      ],
+      "answer": "把",
+      "explanation": "把 introduces the object before 放回.",
+      "id": "hsk4-bank-identity-16",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "两个人各点三十五元的饭，另外一杯茶十元，约好三人付相同的钱，一起分全部费用。第三人只喝茶，也同意这样分。",
+      "py": "liǎng gè rén gè diǎn sān shí wǔ yuán de fàn , lìng wài yī bēi chá shí yuán , yuē hǎo sān rén fù xiāng tóng de qián , yì qǐ fēn quán bù fèi yòng . dì sān rén zhǐ hē chá , yě tóng yì zhè yàng fēn .",
+      "en": "Two meals cost 35 yuan each and a tea costs 10. All three friends agree to split the whole bill equally.",
+      "prompt": "全部费用是多少？",
+      "promptPy": "quán bù fèi yòng shì duō shao ?",
+      "choices": [
+        {
+          "zh": "八十元。",
+          "py": "bā shí yuán .",
+          "en": "80 yuan."
+        },
+        {
+          "zh": "七十元。",
+          "py": "qī shí yuán .",
+          "en": "70 yuan."
+        },
+        {
+          "zh": "四十五元。",
+          "py": "sì shí wǔ yuán .",
+          "en": "45 yuan."
+        },
+        {
+          "zh": "九十元。",
+          "py": "jiǔ shí yuán .",
+          "en": "90 yuan."
+        }
+      ],
+      "answer": "八十元。",
+      "explanation": "The total is 35 + 35 + 10 = 80 yuan.",
+      "id": "hsk4-bank-identity-17",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "原来九点开门，新通知说九点半。你九点到可能要等，不是说今天不开。",
+      "py": "yuán lái jiǔ diǎn kāi mén , xīn tōng zhī shuō jiǔ diǎn bàn . nǐ jiǔ diǎn dào kě néng yào děng , bù shì shuō jīn tiān bù kāi .",
+      "en": "It used to open at nine. The new notice says nine thirty. Arriving at nine may mean waiting, not that it's closed all day.",
+      "prompt": "新开门时间？",
+      "promptPy": "xīn kāi mén shí jiān ?",
+      "choices": [
+        {
+          "zh": "九点。",
+          "py": "jiǔ diǎn .",
+          "en": "Nine."
+        },
+        {
+          "zh": "十点半。",
+          "py": "shí diǎn bàn .",
+          "en": "Ten thirty."
+        },
+        {
+          "zh": "今天不开。",
+          "py": "jīn tiān bù kāi .",
+          "en": "It won't open today."
+        },
+        {
+          "zh": "九点半。",
+          "py": "jiǔ diǎn bàn .",
+          "en": "Nine thirty."
+        }
+      ],
+      "answer": "九点半。",
+      "explanation": "The new notice changes the opening time to nine thirty.",
+      "id": "hsk4-bank-identity-18",
+      "unit": "identity"
+    },
+    {
+      "format": "reading",
+      "sentence": "为了赶车，她没有参加第二段讨论。她说第一段很有意思，下次如果时间合适还想来。",
+      "py": "wèi le gǎn chē , tā méi yǒu cān jiā dì èr duàn tǎo lùn . tā shuō dì yī duàn hěn yǒu yì si , xià cì rú guǒ shí jiān hé shì hái xiǎng lái .",
+      "en": "She misses the second discussion to catch a bus. She liked the first part and might return if the timing works.",
+      "prompt": "她先走的直接原因是什么？",
+      "promptPy": "tā xiān zǒu de zhí jiē yuán yīn shì shén me ?",
+      "choices": [
+        {
+          "zh": "已经取消下次活动。",
+          "py": "yǐ jīng qǔ xiāo xià cì huó dòng .",
+          "en": "The next event is cancelled."
+        },
+        {
+          "zh": "不认识任何人。",
+          "py": "bù rèn shi rèn hé rén .",
+          "en": "She doesn't know anyone."
+        },
+        {
+          "zh": "赶车。",
+          "py": "gǎn chē .",
+          "en": "To catch a bus."
+        },
+        {
+          "zh": "觉得所有讨论无聊。",
+          "py": "jué de suǒ yǒu tǎo lùn wú liáo .",
+          "en": "She finds all the discussions boring."
+        }
+      ],
+      "answer": "赶车。",
+      "explanation": "The text explicitly gives her travel plans as the reason.",
+      "id": "hsk4-bank-identity-19",
+      "unit": "identity"
+    },
+    {
+      "format": "listening",
+      "sentence": "不用一口气讲完，你先说最重要的。我想知道为什么改地点，别的细节以后补。",
+      "py": "bù yòng yì kǒu qì jiǎng wán , nǐ xiān shuō zuì zhòng yào de . wǒ xiǎng zhī dào wèi shén me gǎi dì diǎn , bié de xì jié yǐ hòu bǔ .",
+      "en": "You don't need to tell me everything at once. Start with why the place changed; the other details can wait.",
+      "prompt": "先说哪部分？",
+      "promptPy": "xiān shuō nǎ bù fèn ?",
+      "choices": [
+        {
+          "zh": "歌词最后一句。",
+          "py": "gē cí zuì hòu yī jù .",
+          "en": "The song's final line."
+        },
+        {
+          "zh": "改地点的原因。",
+          "py": "gǎi dì diǎn de yuán yīn .",
+          "en": "The reason for changing the place."
+        },
+        {
+          "zh": "所有人的名字。",
+          "py": "suǒ yǒu rén de míng zi .",
+          "en": "Everyone's names."
+        },
+        {
+          "zh": "菜单所有价格。",
+          "py": "cài dān suǒ yǒu jià gé .",
+          "en": "Every price on the menu."
+        }
+      ],
+      "answer": "改地点的原因。",
+      "explanation": "The listener states the requested priority.",
+      "id": "hsk4-bank-identity-20",
+      "unit": "identity"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我把结束时间写清楚了",
+      "py": "wǒ bǎ jié shù shí jiān xiě qīng chǔ le",
+      "en": "I wrote the ending time clearly.",
+      "prompt": "把什么写清楚？",
+      "promptPy": "bǎ shén me xiě qīng chǔ ?",
+      "choices": [
+        {
+          "zh": "我把结束时间写清楚了",
+          "py": "wǒ bǎ jié shù shí jiān xiě qīng chǔ le",
+          "en": "I wrote the ending time clearly."
+        },
+        {
+          "zh": "我把写清楚了结束时间",
+          "py": "wǒ bǎ xiě qīng chǔ liǎo jié shù shí jiān",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "结束时间我写清楚了把",
+          "py": "jié shù shí jiān wǒ xiě qīng chǔ le bǎ",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "我结束时间写清楚了把",
+          "py": "wǒ jié shù shí jiān xiě qīng chǔ le bǎ",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "我把结束时间写清楚了",
+      "explanation": "把 introduces the object before the verb and result.",
+      "segments": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "结束时间",
+          "py": "jié shù shí jiān",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "写清楚了",
+          "py": "xiě qīng chǔ le",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-identity-21",
+      "unit": "sample"
+    },
+    {
+      "format": "cloze",
+      "sentence": "他既会唱歌，又会写歌词。",
+      "py": "tā jì huì chàng gē , yòu huì xiě gē cí .",
+      "en": "He can both sing and write lyrics.",
+      "prompt": "他既会唱歌，___会写歌词。",
+      "promptPy": "tā jì huì chàng gē , huì xiě gē cí .",
+      "choices": [
+        {
+          "zh": "否则",
+          "py": "fǒu zé",
+          "en": "Otherwise."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "Also."
+        }
+      ],
+      "answer": "又",
+      "explanation": "既…又 links the two abilities.",
+      "id": "hsk4-bank-identity-22",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "朋友写我可能周五来，还要看工作能不能提前结束。负责的人把名字放在还没确认的地方，没有算进已答应人数。",
+      "py": "péng you xiě wǒ kě néng zhōu wǔ lái , hái yào kàn gōng zuò néng bù néng tí qián jié shù . fù zé de rén bǎ míng zi fàng zài hái méi què rèn de dì fāng , méi yǒu suàn jìn yǐ dā ying rén shù .",
+      "en": "A friend may come on Friday if work finishes early. The organiser keeps the name unconfirmed.",
+      "prompt": "名字放在哪里合理？",
+      "promptPy": "míng zi fàng zài nǎ lǐ hé lǐ ?",
+      "choices": [
+        {
+          "zh": "永远不同意。",
+          "py": "yǒng yuǎn bù tóng yì .",
+          "en": "A permanent refusal."
+        },
+        {
+          "zh": "已经付钱。",
+          "py": "yǐ jīng fù qián .",
+          "en": "Already paid."
+        },
+        {
+          "zh": "还没确认。",
+          "py": "hái méi què rèn .",
+          "en": "Unconfirmed."
+        },
+        {
+          "zh": "已到场。",
+          "py": "yǐ dào chǎng .",
+          "en": "Already arrived."
+        }
+      ],
+      "answer": "还没确认。",
+      "explanation": "A possible visit has not been confirmed.",
+      "id": "hsk4-bank-identity-23",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "我不是说电影不好，我是没看懂姐姐为什么把信留在桌子上。你看到那一段了吗？",
+      "py": "wǒ bù shì shuō diàn yǐng bù hǎo , wǒ shì méi kàn dǒng jiě jie wèi shén me bǎ xìn liú zài zhuō zi shàng . nǐ kàn dào nà yī duàn le ma ?",
+      "en": "I'm not saying the film is bad. I didn't understand why the sister left the letter on the table. Did you see that part?",
+      "prompt": "她需要什么？",
+      "promptPy": "tā xū yào shén me ?",
+      "choices": [
+        {
+          "zh": "取消每场电影。",
+          "py": "qǔ xiāo měi chǎng diàn yǐng .",
+          "en": "To cancel every film."
+        },
+        {
+          "zh": "理解那一段。",
+          "py": "lǐ jiě nà yī duàn .",
+          "en": "To understand that part."
+        },
+        {
+          "zh": "证明电影全坏。",
+          "py": "zhèng míng diàn yǐng quán huài .",
+          "en": "To prove the whole film is bad."
+        },
+        {
+          "zh": "立刻买外套。",
+          "py": "lì kè mǎi wài tào .",
+          "en": "To buy a coat immediately."
+        }
+      ],
+      "answer": "理解那一段。",
+      "explanation": "The speaker asks about the meaning of a particular scene.",
+      "id": "hsk4-bank-identity-24",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：这个房间安静，我喜欢。第二段：这个房间小，二十个人坐不下。",
+      "py": "dì yī duàn : zhè gè fáng jiān ān jìng , wǒ xǐ huān . dì èr duàn : zhè gè fáng jiān xiǎo , èr shí gè rén zuò bù xià .",
+      "en": "Text 1: I like this quiet room. Text 2: It's too small for twenty people.",
+      "prompt": "两段是不是一定说法相反？",
+      "promptPy": "liǎng duàn shì bú shì yí dìng shuō fǎ xiāng fǎn ?",
+      "choices": [
+        {
+          "zh": "不一定，可以安静但小。",
+          "py": "bù yí dìng , kě yǐ ān jìng dàn xiǎo .",
+          "en": "Not necessarily; it can be quiet and small."
+        },
+        {
+          "zh": "一定，第一段同意用，第二段已经取消。",
+          "py": "yí dìng , dì yī duàn tóng yì yòng , dì èr duàn yǐ jīng qǔ xiāo .",
+          "en": "Yes; the first text agrees to use it and the second has cancelled."
+        },
+        {
+          "zh": "不一定，两段都确认二十个人坐得下。",
+          "py": "bù yí dìng , liǎng duàn dōu què rèn èr shí gè rén zuò de xià .",
+          "en": "Not necessarily; both texts confirm that twenty people fit."
+        },
+        {
+          "zh": "不相反，所以已经同意用这个房间。",
+          "py": "bù xiāng fǎn , suǒ yǐ yǐ jīng tóng yì yòng zhè gè fáng jiān .",
+          "en": "No; therefore they have agreed to use this room."
+        }
+      ],
+      "answer": "不一定，可以安静但小。",
+      "explanation": "The two descriptions concern different properties.",
+      "id": "hsk4-bank-identity-25",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "给我留水就好，不用先点饭。我路上吃过一点，到了看饿不饿。",
+      "py": "gěi wǒ liú shuǐ jiù hǎo , bù yòng xiān diǎn fàn . wǒ lù shàng chī guò yī diǎn , dào le kàn è bù è .",
+      "en": "Just save me some water. Don't order food for me yet. I ate a little on the way and will decide when I arrive.",
+      "prompt": "现在可以先准备什么？",
+      "promptPy": "xiàn zài kě yǐ xiān zhǔn bèi shén me ?",
+      "choices": [
+        {
+          "zh": "两份饭。",
+          "py": "liǎng fèn fàn .",
+          "en": "Two meals."
+        },
+        {
+          "zh": "一定不用任何东西。",
+          "py": "yí dìng bù yòng rèn hé dōng xi .",
+          "en": "Absolutely nothing."
+        },
+        {
+          "zh": "一张回去的票。",
+          "py": "yī zhāng huí qù de piào .",
+          "en": "A return ticket."
+        },
+        {
+          "zh": "水。",
+          "py": "shuǐ .",
+          "en": "Water."
+        }
+      ],
+      "answer": "水。",
+      "explanation": "Water is specifically requested; food is postponed.",
+      "id": "hsk4-bank-identity-26",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "她不是不去只是晚一点到",
+      "py": "tā bù shì bù qù zhǐ shì wǎn yī diǎn dào",
+      "en": "She is going; she'll just arrive a little later.",
+      "prompt": "她会来吗？",
+      "promptPy": "tā huì lái ma ?",
+      "choices": [
+        {
+          "zh": "只是她到不是不去晚一点",
+          "py": "zhǐ shì tā dào bù shì bù qù wǎn yī diǎn",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她不是去只是不一点到晚",
+          "py": "tā bù shì qù zhǐ shì bù yī diǎn dào wǎn",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她不是不去只是晚一点到",
+          "py": "tā bù shì bù qù zhǐ shì wǎn yī diǎn dào",
+          "en": "She is going; she'll just arrive a little later."
+        },
+        {
+          "zh": "她不不是去只是到晚一点",
+          "py": "tā bù bù shì qù zhǐ shì dào wǎn yī diǎn",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "她不是不去只是晚一点到",
+      "explanation": "不是不去 negates refusal, followed by the limited qualification.",
+      "segments": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不是",
+          "py": "bù shì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不去",
+          "py": "bù qù",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "只是晚一点到",
+          "py": "zhǐ shì wǎn yī diǎn dào",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-identity-27",
+      "unit": "sample"
+    },
+    {
+      "format": "cloze",
+      "sentence": "我们先确认地点，然后报名。",
+      "py": "wǒ men xiān què rèn dì diǎn , rán hòu bào míng .",
+      "en": "We confirm the place, then enrol.",
+      "prompt": "我们先确认地点，___报名。",
+      "promptPy": "wǒ men xiān què rèn dì diǎn , bào míng .",
+      "choices": [
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        },
+        {
+          "zh": "然后",
+          "py": "rán hòu",
+          "en": "Then."
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        }
+      ],
+      "answer": "然后",
+      "explanation": "然后 sequences the second action.",
+      "id": "hsk4-bank-identity-28",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "她没有说你做错了，只是问这份资料能不能发给大家。回答还要问作者，所以先没有发。",
+      "py": "tā méi yǒu shuō nǐ zuò cuò le , zhǐ shì wèn zhè fèn zī liào néng bù néng fā gěi dà jiā . huí dá hái yào wèn zuò zhě , suǒ yǐ xiān méi yǒu fā .",
+      "en": "She asks whether the materials can be shared. The answer is that they still need to ask the author, so they haven't sent them.",
+      "prompt": "为什么先不发？",
+      "promptPy": "wèi shén me xiān bù fā ?",
+      "choices": [
+        {
+          "zh": "还要问作者。",
+          "py": "hái yào wèn zuò zhě .",
+          "en": "They still need to ask the author."
+        },
+        {
+          "zh": "已经发完。",
+          "py": "yǐ jīng fā wán .",
+          "en": "Everything has already been sent."
+        },
+        {
+          "zh": "她证明内容全错。",
+          "py": "tā zhèng míng nèi róng quán cuò .",
+          "en": "She proved that all the content is wrong."
+        },
+        {
+          "zh": "每个人都明确不同意。",
+          "py": "měi gè rén dōu míng què bù tóng yì .",
+          "en": "Everyone has explicitly refused."
+        }
+      ],
+      "answer": "还要问作者。",
+      "explanation": "The stated reason is the outstanding permission.",
+      "id": "hsk4-bank-identity-29",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "你刚才说周四还是周五？这里太吵，我没听清楚，不是已经答应两个晚上都来。",
+      "py": "nǐ gāng cái shuō zhōu sì hái shi zhōu wǔ ? zhè lǐ tài chǎo , wǒ méi tīng qīng chǔ , bù shì yǐ jīng dā ying liǎng gè wǎn shang dōu lái .",
+      "en": "Did you say Thursday or Friday? It's too noisy and I didn't catch it. I haven't agreed to come on both evenings.",
+      "prompt": "她为什么再问？",
+      "promptPy": "tā wèi shén me zài wèn ?",
+      "choices": [
+        {
+          "zh": "已同意两晚。",
+          "py": "yǐ tóng yì liǎng wǎn .",
+          "en": "They've agreed to both evenings."
+        },
+        {
+          "zh": "不喜欢所有声音。",
+          "py": "bù xǐ huān suǒ yǒu shēng yīn .",
+          "en": "They dislike every sound."
+        },
+        {
+          "zh": "已经结束活动。",
+          "py": "yǐ jīng jié shù huó dòng .",
+          "en": "The event has already ended."
+        },
+        {
+          "zh": "没听清楚是哪天。",
+          "py": "méi tīng qīng chǔ shì nǎ tiān .",
+          "en": "They didn't hear which day."
+        }
+      ],
+      "answer": "没听清楚是哪天。",
+      "explanation": "This is a request to repair a hearing gap.",
+      "id": "hsk4-bank-identity-30",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：周五前回复才保留座位。第二段：她周六上午才回复。",
+      "py": "dì yī duàn : zhōu wǔ qián huí fù cái bǎo liú zuò wèi . dì èr duàn : tā zhōu liù shàng wǔ cái huí fù .",
+      "en": "Text 1: Reply before Friday to keep the seat. Text 2: She replies on Saturday morning.",
+      "prompt": "能按原来的条件保留吗？",
+      "promptPy": "néng àn yuán lái de tiáo jiàn bǎo liú ma ?",
+      "choices": [
+        {
+          "zh": "能，周六就是周四。",
+          "py": "néng , zhōu liù jiù shì zhōu sì .",
+          "en": "Yes; Saturday is Thursday."
+        },
+        {
+          "zh": "不能，因为根本没回复。",
+          "py": "bù néng , yīn wèi gēn běn méi huí fù .",
+          "en": "No; she never replied."
+        },
+        {
+          "zh": "不能，回复太晚。",
+          "py": "bù néng , huí fù tài wǎn .",
+          "en": "No; her reply is too late."
+        },
+        {
+          "zh": "能，已经提前。",
+          "py": "néng , yǐ jīng tí qián .",
+          "en": "Yes; she's replied early."
+        }
+      ],
+      "answer": "不能，回复太晚。",
+      "explanation": "She did reply, but after the deadline.",
+      "id": "hsk4-bank-numbers-01",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "今天别从老入口进，新入口在东边，跟原来的停车地方不同。我发照片给你。",
+      "py": "jīn tiān bié cóng lǎo rù kǒu jìn , xīn rù kǒu zài dōng biān , gēn yuán lái de tíng chē dì fāng bù tóng . wǒ fā zhào piān gěi nǐ .",
+      "en": "Don't use the old entrance today. The new entrance is on the east side, away from the old parking area. I'll send you a photo.",
+      "prompt": "应该找哪里？",
+      "promptPy": "yīng gāi zhǎo nǎ lǐ ?",
+      "choices": [
+        {
+          "zh": "家里的门。",
+          "py": "jiā lǐ de mén .",
+          "en": "The door at home."
+        },
+        {
+          "zh": "东边新入口。",
+          "py": "dōng biān xīn rù kǒu .",
+          "en": "The new entrance on the east side."
+        },
+        {
+          "zh": "旧停车入口。",
+          "py": "jiù tíng chē rù kǒu .",
+          "en": "The old parking entrance."
+        },
+        {
+          "zh": "北边车站。",
+          "py": "běi biān chē zhàn .",
+          "en": "The station to the north."
+        }
+      ],
+      "answer": "东边新入口。",
+      "explanation": "The directions explicitly identify the new entrance.",
+      "id": "hsk4-bank-numbers-02",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "既然你还没收到回答就先确认一下",
+      "py": "jì rán nǐ hái mò shōu dào huí dá jiù xiān què rèn yī xià",
+      "en": "Since you haven't received a reply, check first.",
+      "prompt": "为什么先确认？",
+      "promptPy": "wèi shén me xiān què rèn ?",
+      "choices": [
+        {
+          "zh": "既然你还没收到回答就先确认一下",
+          "py": "jì rán nǐ hái mò shōu dào huí dá jiù xiān què rèn yī xià",
+          "en": "Since you haven't received a reply, check first."
+        },
+        {
+          "zh": "既然就你先还没收到回答确认一下",
+          "py": "jì rán jiù nǐ xiān hái mò shōu dào huí dá què rèn yī xià",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "你既然收到还没回答就确认先一下",
+          "py": "nǐ jì rán shōu dào hái méi huí dá jiù què rèn xiān yī xià",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "先既然你还没收到回答就一下确认",
+          "py": "xiān jì rán nǐ hái mò shōu dào huí dá jiù yī xià què rèn",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "既然你还没收到回答就先确认一下",
+      "explanation": "Keep the 既然 reason before the 就 consequence.",
+      "segments": [
+        {
+          "zh": "既然",
+          "py": "jì rán",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "你还没收到回答",
+          "py": "nǐ hái mò shōu dào huí dá",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "先确认一下",
+          "py": "xiān què rèn yī xià",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-numbers-03",
+      "unit": "numbers"
+    },
+    {
+      "format": "cloze",
+      "sentence": "既然你还没收到回答，就先确认一下。",
+      "py": "jì rán nǐ hái mò shōu dào huí dá , jiù xiān què rèn yī xià .",
+      "en": "Since you haven't received a reply, check first.",
+      "prompt": "既然你还没收到回答，___先确认一下。",
+      "promptPy": "jì rán nǐ hái mò shōu dào huí dá , xiān què rèn yī xià .",
+      "choices": [
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "Then."
+        }
+      ],
+      "answer": "就",
+      "explanation": "就 follows the given 既然 reason.",
+      "id": "hsk4-bank-numbers-04",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "手机支架正面承受十二公斤没有问题，背面按同样方法测，超过十公斤就不稳。她想放十一公斤的设备，要求两面都稳。",
+      "py": "shǒu jī zhī jià zhèng miàn chéng shòu shí èr gōng jīn méi yǒu wèn tí , bèi miàn àn tóng yàng fāng fǎ cè , chāo guò shí gōng jīn jiù bù wěn . tā xiǎng fàng shí yī gōng jīn de shè bèi , yāo qiú liǎng miàn dōu wěn .",
+      "en": "The front of the phone stand holds twelve kilograms. The back becomes unstable above ten. An eleven-kilogram device needs both sides stable.",
+      "prompt": "能满足要求吗？",
+      "promptPy": "néng mǎn zú yāo qiú ma ?",
+      "choices": [
+        {
+          "zh": "能，两面都十二。",
+          "py": "néng , liǎng miàn dōu shí èr .",
+          "en": "Yes; both sides hold twelve."
+        },
+        {
+          "zh": "不能，因为设备只有五公斤。",
+          "py": "bù néng , yīn wèi shè bèi zhǐ yǒu wǔ gōng jīn .",
+          "en": "No; the device weighs only five."
+        },
+        {
+          "zh": "不能，背面不稳。",
+          "py": "bù néng , bèi miàn bù wěn .",
+          "en": "No; the back is unstable."
+        },
+        {
+          "zh": "能，正面够就全够。",
+          "py": "néng , zhèng miàn gòu jiù quán gòu .",
+          "en": "Yes; the front being strong enough is sufficient."
+        }
+      ],
+      "answer": "不能，背面不稳。",
+      "explanation": "Eleven exceeds the back's stated capacity.",
+      "id": "hsk4-bank-numbers-05",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "我只是说她那句写得好，不是说整篇都不用改。第二段还是有点重复。",
+      "py": "wǒ zhǐ shì shuō tā nà jù xiě de hǎo , bù shì shuō zhěng piān dōu bù yòng gǎi . dì èr duàn hái shi yǒu diǎn chóng fù .",
+      "en": "I said that one sentence was well written, not that the whole article needs no revision. The second paragraph still repeats itself.",
+      "prompt": "什么还要改？",
+      "promptPy": "shén me hái yào gǎi ?",
+      "choices": [
+        {
+          "zh": "报名时间。",
+          "py": "bào míng shí jiān .",
+          "en": "The enrolment time."
+        },
+        {
+          "zh": "第二段的重复。",
+          "py": "dì èr duàn de chóng fù .",
+          "en": "Repetition in the second paragraph."
+        },
+        {
+          "zh": "那句已经不存在。",
+          "py": "nà jù yǐ jīng bù cún zài .",
+          "en": "The praised sentence no longer exists."
+        },
+        {
+          "zh": "所有人名字。",
+          "py": "suǒ yǒu rén míng zi .",
+          "en": "Everyone's names."
+        }
+      ],
+      "answer": "第二段的重复。",
+      "explanation": "The praise concerns one sentence; a separate problem remains.",
+      "id": "hsk4-bank-numbers-06",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一组说先整理资料再讨论，第二组说可以边整理边讨论。两组都希望周五前做完。",
+      "py": "dì yī zǔ shuō xiān zhěng lǐ zī liào zài tǎo lùn , dì èr zǔ shuō kě yǐ biān zhěng lǐ biān tǎo lùn . liǎng zǔ dōu xī wàng zhōu wǔ qián zuò wán .",
+      "en": "One group wants to sort the materials before discussing them; the other wants to do both together. Both want to finish before Friday.",
+      "prompt": "共同的目标是什么？",
+      "promptPy": "gòng tóng de mù biāo shì shén me ?",
+      "choices": [
+        {
+          "zh": "周五前完成。",
+          "py": "zhōu wǔ qián wán chéng .",
+          "en": "To finish before Friday."
+        },
+        {
+          "zh": "必须同时做。",
+          "py": "bì xū tóng shí zuò .",
+          "en": "They must work simultaneously."
+        },
+        {
+          "zh": "必须分两次。",
+          "py": "bì xū fēn liǎng cì .",
+          "en": "They must split the tasks into two separate sessions."
+        },
+        {
+          "zh": "已经做完。",
+          "py": "yǐ jīng zuò wán .",
+          "en": "They've already finished."
+        }
+      ],
+      "answer": "周五前完成。",
+      "explanation": "Their goal agrees even though their methods differ.",
+      "id": "hsk4-bank-numbers-07",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "周三免费课不用付费，周五正式课一千二百元，书另外买。你别以为听免费课就是已经报名正式课。",
+      "py": "zhōu sān miǎn fèi kè bù yòng fù fèi , zhōu wǔ zhèng shì kè yī qiān èr bǎi yuán , shū lìng wài mǎi . nǐ bié yǐ wéi tīng miǎn fèi kè jiù shì yǐ jīng bào míng zhèng shì kè .",
+      "en": "Wednesday's trial class is free. Friday's full course costs 1,200 yuan, with books bought separately. Taking the trial doesn't enrol you in the full course.",
+      "prompt": "一千二百包括书吗？",
+      "promptPy": "yī qiān èr bǎi bāo kuò shū ma ?",
+      "choices": [
+        {
+          "zh": "包括全部书。",
+          "py": "bāo kuò quán bù shū .",
+          "en": "Every book is included."
+        },
+        {
+          "zh": "只有书，没有课。",
+          "py": "zhǐ yǒu shū , méi yǒu kè .",
+          "en": "It pays for books but no classes."
+        },
+        {
+          "zh": "两种课都免费。",
+          "py": "liǎng zhǒng kè dōu miǎn fèi .",
+          "en": "Both classes are free."
+        },
+        {
+          "zh": "不包括，书另外买。",
+          "py": "bù bāo kuò , shū lìng wài mǎi .",
+          "en": "No; books are bought separately."
+        }
+      ],
+      "answer": "不包括，书另外买。",
+      "explanation": "The fee expressly excludes the books.",
+      "id": "hsk4-bank-numbers-08",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "无论谁先到都先进去坐",
+      "py": "wú lùn shéi xiān dào dōu xiān jìn qù zuò",
+      "en": "Whoever arrives first should go inside and sit.",
+      "prompt": "谁先进去？",
+      "promptPy": "shéi xiān jìn qù ?",
+      "choices": [
+        {
+          "zh": "谁无论先到先都坐进去",
+          "py": "shéi wú lùn xiān dào xiān dōu zuò jìn qù",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "无论谁先坐都到先进去",
+          "py": "wú lùn shéi xiān zuò dōu dào xiān jìn qù",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "无论谁先到都先进去坐",
+          "py": "wú lùn shéi xiān dào dōu xiān jìn qù zuò",
+          "en": "Whoever arrives first should go inside and sit."
+        },
+        {
+          "zh": "无论都谁先到先进去坐",
+          "py": "wú lùn dōu shéi xiān dào xiān jìn qù zuò",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "无论谁先到都先进去坐",
+      "explanation": "无论谁 pairs with the unconditional 都 response.",
+      "segments": [
+        {
+          "zh": "无论",
+          "py": "wú lùn",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "谁先到",
+          "py": "shéi xiān dào",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "先进去坐",
+          "py": "xiān jìn qù zuò",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-numbers-09",
+      "unit": "numbers"
+    },
+    {
+      "format": "cloze",
+      "sentence": "无论谁先到，都先进去坐。",
+      "py": "wú lùn shéi xiān dào , dōu xiān jìn qù zuò .",
+      "en": "Whoever arrives first should go inside and sit.",
+      "prompt": "无论谁先到，___先进去坐。",
+      "promptPy": "wú lùn shéi xiān dào , xiān jìn qù zuò .",
+      "choices": [
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "All."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        }
+      ],
+      "answer": "都",
+      "explanation": "都 completes the 无论 construction.",
+      "id": "hsk4-bank-numbers-10",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "公共汽车临时取消，工作的人说十五点十分有替代车。原来十四点的安排不能继续。她给朋友发了新时间。",
+      "py": "gōng gòng qì chē lín shí qǔ xiāo , gōng zuò de rén shuō shí wǔ diǎn shí fēn yǒu tì dài chē . yuán lái shí sì diǎn de ān pái bù néng jì xù . tā gěi péng you fā le xīn shí jiān .",
+      "en": "The two o'clock bus is cancelled. Staff announce a replacement at 15:10, and she sends her friend the new time.",
+      "prompt": "她告诉朋友什么？",
+      "promptPy": "tā gào sù péng you shén me ?",
+      "choices": [
+        {
+          "zh": "新的出发时间。",
+          "py": "xīn de chū fā shí jiān .",
+          "en": "The new departure time."
+        },
+        {
+          "zh": "原来那班车仍十四点开。",
+          "py": "yuán lái nà bān chē réng shí sì diǎn kāi .",
+          "en": "The original bus still leaves at two."
+        },
+        {
+          "zh": "完全没有车。",
+          "py": "wán quán méi yǒu chē .",
+          "en": "There are no buses at all."
+        },
+        {
+          "zh": "已经提前到家。",
+          "py": "yǐ jīng tí qián dào jiā .",
+          "en": "She's already home early."
+        }
+      ],
+      "answer": "新的出发时间。",
+      "explanation": "The message communicates the replacement departure.",
+      "id": "hsk4-bank-numbers-11",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "他不是没做，只是没按我们说的两面分别测试。先把方法说清楚，再重新做。",
+      "py": "tā bù shì méi zuò , zhǐ shì méi àn wǒ men shuō de liǎng miàn fēn bié cè shì . xiān bǎ fāng fǎ shuō qīng chǔ , zài chóng xīn zuò .",
+      "en": "He did do the work, but didn't test the two sides separately as requested. Let's clarify the method and do it again.",
+      "prompt": "问题是什么？",
+      "promptPy": "wèn tí shì shén me ?",
+      "choices": [
+        {
+          "zh": "完全没动手。",
+          "py": "wán quán méi dòng shǒu .",
+          "en": "He did nothing at all."
+        },
+        {
+          "zh": "已经两面都测。",
+          "py": "yǐ jīng liǎng miàn dōu cè .",
+          "en": "Both sides have already been tested separately."
+        },
+        {
+          "zh": "不需要任何测试。",
+          "py": "bù xū yào rèn hé cè shì .",
+          "en": "No testing is needed."
+        },
+        {
+          "zh": "测试方法不符合要求。",
+          "py": "cè shì fāng fǎ bù fú hé yāo qiú .",
+          "en": "The testing method doesn't meet the requirement."
+        }
+      ],
+      "answer": "测试方法不符合要求。",
+      "explanation": "The problem is how the work was done, not whether any work happened.",
+      "id": "hsk4-bank-numbers-12",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "周六生日聚会她不参加，建议周二晚上七点单独吃饭。朋友说周二可以，地点还没定。",
+      "py": "zhōu liù shēng rì jù huì tā bù cān jiā , jiàn yì zhōu èr wǎn shang qī diǎn dān dú chī fàn . péng you shuō zhōu èr kě yǐ , dì diǎn hái méi dìng .",
+      "en": "She declines Saturday's birthday gathering and suggests dinner at seven on Tuesday. Her friend agrees to the time; the place isn't settled.",
+      "prompt": "什么已经约好？",
+      "promptPy": "shén me yǐ jīng yuē hǎo ?",
+      "choices": [
+        {
+          "zh": "饭店名字。",
+          "py": "fàn diàn míng zi .",
+          "en": "The restaurant's name."
+        },
+        {
+          "zh": "星期三早餐。",
+          "py": "xīng qī sān zǎo cān .",
+          "en": "Breakfast on Wednesday."
+        },
+        {
+          "zh": "周二七点吃饭的时间。",
+          "py": "zhōu èr qī diǎn chī fàn de shí jiān .",
+          "en": "Dinner at seven on Tuesday."
+        },
+        {
+          "zh": "周六生日参加。",
+          "py": "zhōu liù shēng rì cān jiā .",
+          "en": "Attendance at Saturday's party."
+        }
+      ],
+      "answer": "周二七点吃饭的时间。",
+      "explanation": "Only the proposed Tuesday time is confirmed.",
+      "id": "hsk4-bank-numbers-13",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "她今天想一个人安静坐一会儿，不是跟谁生气。你可以发一句有需要就叫我，不必一直问。",
+      "py": "tā jīn tiān xiǎng yī gè rén ān jìng zuò yī huìr , bù shì gēn shéi shēng qì . nǐ kě yǐ fā yī jù yǒu xū yào jiù jiào wǒ , bù bì yì zhí wèn .",
+      "en": "She wants to sit quietly alone for a while; she's not angry with anyone. You can say, 'Call me if you need anything,' without continually asking.",
+      "prompt": "怎么回应合适？",
+      "promptPy": "zěn me huí yìng hé shì ?",
+      "choices": [
+        {
+          "zh": "宣布永远不联系。",
+          "py": "xuān bù yǒng yuǎn bù lián xì .",
+          "en": "Announce that you'll never contact her again."
+        },
+        {
+          "zh": "留一个需要时能联系的机会。",
+          "py": "liú yī gè xū yào shí néng lián xì de jī huì .",
+          "en": "Leave a way to contact you when needed."
+        },
+        {
+          "zh": "不断追问谁错了。",
+          "py": "bù duàn zhuī wèn shéi cuò le .",
+          "en": "Keep asking whose fault it is."
+        },
+        {
+          "zh": "要求立刻说话。",
+          "py": "yāo qiú lì kè shuō huà .",
+          "en": "Make her speak immediately."
+        }
+      ],
+      "answer": "留一个需要时能联系的机会。",
+      "explanation": "This respects her request while keeping help available.",
+      "id": "hsk4-bank-numbers-14",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "如果她没有同意就不要发照片",
+      "py": "rú guǒ tā méi yǒu tóng yì jiù bú yào fā zhào piān",
+      "en": "If she hasn't agreed, don't send the photo.",
+      "prompt": "怎样表达没有同意就不发？",
+      "promptPy": "zěn yàng biǎo dá méi yǒu tóng yì jiù bù fā ?",
+      "choices": [
+        {
+          "zh": "如果她没有同意就不要发照片",
+          "py": "rú guǒ tā méi yǒu tóng yì jiù bú yào fā zhào piān",
+          "en": "If she hasn't agreed, don't send the photo."
+        },
+        {
+          "zh": "如果就她没有同意不要发照片",
+          "py": "rú guǒ jiù tā méi yǒu tóng yì bú yào fā zhào piān",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她如果同意没有就不要发照片",
+          "py": "tā rú guǒ tóng yì méi yǒu jiù bú yào fā zhào piān",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "不要如果发照片她没有同意就",
+          "py": "bú yào rú guǒ fā zhào piān tā méi yǒu tóng yì jiù",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "如果她没有同意就不要发照片",
+      "explanation": "Preserve the negative condition and the instruction.",
+      "segments": [
+        {
+          "zh": "如果",
+          "py": "rú guǒ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "她没有同意",
+          "py": "tā méi yǒu tóng yì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不要发照片",
+          "py": "bú yào fā zhào piān",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-numbers-15",
+      "unit": "numbers"
+    },
+    {
+      "format": "cloze",
+      "sentence": "如果她没有同意，就不要发照片。",
+      "py": "rú guǒ tā méi yǒu tóng yì , jiù bú yào fā zhào piān .",
+      "en": "If she hasn't agreed, don't send the photo.",
+      "prompt": "如果她没有同意，___不要发照片。",
+      "promptPy": "rú guǒ tā méi yǒu tóng yì , bú yào fā zhào piān .",
+      "choices": [
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Although."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "Then."
+        }
+      ],
+      "answer": "就",
+      "explanation": "就 introduces the result of this condition.",
+      "id": "hsk4-bank-numbers-16",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "她说真早啊，那时朋友比约定晚了二十分钟。后来她明确说是在开玩笑，希望下次早点。",
+      "py": "tā shuō zhēn zǎo a , nà shí péng you bǐ yuē dìng wǎn le èr shí fēn zhōng . hòu lái tā míng què shuō shì zài kāi wán xiào , xī wàng xià cì zǎo diǎn .",
+      "en": "Her friend is twenty minutes late. She says, 'Really early!' and then says she's joking and hopes they'll come earlier next time.",
+      "prompt": "这里真早是什么意思？",
+      "promptPy": "zhè lǐ zhēn zǎo shì shén me yì si ?",
+      "choices": [
+        {
+          "zh": "宣布没有约定。",
+          "py": "xuān bù méi yǒu yuē dìng .",
+          "en": "An announcement that there was no arrangement."
+        },
+        {
+          "zh": "说朋友没来过。",
+          "py": "shuō péng you méi lái guò .",
+          "en": "A claim that the friend never came."
+        },
+        {
+          "zh": "用相反的话提醒迟到。",
+          "py": "yòng xiāng fǎn de huà tí xǐng chí dào .",
+          "en": "An ironic reminder about being late."
+        },
+        {
+          "zh": "真的说朋友来得早。",
+          "py": "zhēn de shuō péng you lái de zǎo .",
+          "en": "A sincere compliment about arriving early."
+        }
+      ],
+      "answer": "用相反的话提醒迟到。",
+      "explanation": "The explicit joke and late arrival establish the irony.",
+      "id": "hsk4-bank-numbers-17",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "十八点开始表演，十七点半先确认设备。来帮忙的人按十七点半，不是十八点才到。",
+      "py": "shí bā diǎn kāi shǐ biǎo yǎn , shí qī diǎn bàn xiān què rèn shè bèi . lái bāng máng de rén àn shí qī diǎn bàn , bù shì shí bā diǎn cái dào .",
+      "en": "The performance begins at six. Equipment checks start at five thirty. Helpers should come for the checks.",
+      "prompt": "帮忙的人什么时候到？",
+      "promptPy": "bāng máng de rén shén me shí hou dào ?",
+      "choices": [
+        {
+          "zh": "演出结束后。",
+          "py": "yǎn chū jié shù hòu .",
+          "en": "After the performance."
+        },
+        {
+          "zh": "十七点半。",
+          "py": "shí qī diǎn bàn .",
+          "en": "Five thirty."
+        },
+        {
+          "zh": "十八点半。",
+          "py": "shí bā diǎn bàn .",
+          "en": "Six thirty."
+        },
+        {
+          "zh": "十九点。",
+          "py": "shí jiǔ diǎn .",
+          "en": "Seven."
+        }
+      ],
+      "answer": "十七点半。",
+      "explanation": "Helpers need to arrive before the performance starts.",
+      "id": "hsk4-bank-numbers-18",
+      "unit": "numbers"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：只要天气好就去。第二段：今天下雨，所以没有去。",
+      "py": "dì yī duàn : zhǐ yào tiān qì hǎo jiù qù . dì èr duàn : jīn tiān xià yǔ , suǒ yǐ méi yǒu qù .",
+      "en": "Text 1: If the weather is good, we'll go. Text 2: Today it rained, so we didn't go.",
+      "prompt": "能说两段一定说法相反吗？",
+      "promptPy": "néng shuō liǎng duàn yí dìng shuō fǎ xiāng fǎn ma ?",
+      "choices": [
+        {
+          "zh": "不能，好天气条件没满足。",
+          "py": "bù néng , hǎo tiān qì tiáo jiàn méi mǎn zú .",
+          "en": "No; the good-weather condition wasn't met."
+        },
+        {
+          "zh": "能，只要表示天天。",
+          "py": "néng , zhǐ yào biǎo shì tiān tiān .",
+          "en": "Yes; the condition means they go every day."
+        },
+        {
+          "zh": "能，没去就证明天气好。",
+          "py": "néng , méi qù jiù zhèng míng tiān qì hǎo .",
+          "en": "Yes; not going proves the weather was good."
+        },
+        {
+          "zh": "不能，因为两段没写天气。",
+          "py": "bù néng , yīn wèi liǎng duàn méi xiě tiān qì .",
+          "en": "No; neither text mentions weather."
+        }
+      ],
+      "answer": "不能，好天气条件没满足。",
+      "explanation": "Rain does not satisfy the stated good-weather condition.",
+      "id": "hsk4-bank-numbers-19",
+      "unit": "numbers"
+    },
+    {
+      "format": "listening",
+      "sentence": "我喜欢这个建议，不过还要问活动的地方能不能安排，不是现在就宣布下周一定开始。",
+      "py": "wǒ xǐ huān zhè gè jiàn yì , bù guò hái yào wèn huó dòng de dì fāng néng bù néng ān pái , bù shì xiàn zài jiù xuān bù xià zhōu yí dìng kāi shǐ .",
+      "en": "I like the suggestion, but we still need to ask whether the venue can arrange it. We can't announce a definite start next week yet.",
+      "prompt": "现在是什么状态？",
+      "promptPy": "xiàn zài shì shén me zhuàng tài ?",
+      "choices": [
+        {
+          "zh": "下周一定开始。",
+          "py": "xià zhōu yí dìng kāi shǐ .",
+          "en": "It definitely starts next week."
+        },
+        {
+          "zh": "已全部取消。",
+          "py": "yǐ quán bù qǔ xiāo .",
+          "en": "Everything is cancelled."
+        },
+        {
+          "zh": "活动的地方已经答应。",
+          "py": "huó dòng de dì fāng yǐ jīng dā ying .",
+          "en": "The venue has already agreed."
+        },
+        {
+          "zh": "喜欢这个建议，安排还没确认。",
+          "py": "xǐ huān zhè gè jiàn yì , ān pái hái méi què rèn .",
+          "en": "The suggestion is liked; arrangements remain unconfirmed."
+        }
+      ],
+      "answer": "喜欢这个建议，安排还没确认。",
+      "explanation": "A positive opinion is not confirmed scheduling.",
+      "id": "hsk4-bank-numbers-20",
+      "unit": "numbers"
+    },
+    {
+      "format": "ordering",
+      "sentence": "她把信收进包里了",
+      "py": "tā bǎ xìn shōu jìn bāo lǐ le",
+      "en": "She put the letter into her bag.",
+      "prompt": "信放到哪里？",
+      "promptPy": "xìn fàng dào nǎ lǐ ?",
+      "choices": [
+        {
+          "zh": "把信她了收进包里",
+          "py": "bǎ xìn tā le shōu jìn bāo lǐ",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "收进包里她把信了",
+          "py": "shōu jìn bāo lǐ tā bǎ xìn le",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她把信收进包里了",
+          "py": "tā bǎ xìn shōu jìn bāo lǐ le",
+          "en": "She put the letter into her bag."
+        },
+        {
+          "zh": "她收进把信包里了",
+          "py": "tā shōu jìn bǎ xìn bāo lǐ le",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "她把信收进包里了",
+      "explanation": "Keep the object 把信 before the action 收进包里.",
+      "segments": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "把信",
+          "py": "bǎ xìn",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "收进包里",
+          "py": "shōu jìn bāo lǐ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-numbers-21",
+      "unit": "sample"
+    },
+    {
+      "format": "cloze",
+      "sentence": "她不仅会唱，也会写。",
+      "py": "tā bù jǐn huì chàng , yě huì xiě .",
+      "en": "She can sing and also write.",
+      "prompt": "她不仅会唱，___会写。",
+      "promptPy": "tā bù jǐn huì chàng , huì xiě .",
+      "choices": [
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "Also."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        }
+      ],
+      "answer": "也",
+      "explanation": "也 adds the second ability after 不仅.",
+      "id": "hsk4-bank-numbers-22",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "她想学夜间课程，但是下班时间常变。她先问能不能补听，再决定要不要报名。",
+      "py": "tā xiǎng xué yè jiān kè chéng , dàn shì xià bān shí jiān cháng biàn . tā xiān wèn néng bù néng bǔ tīng , zài jué dìng yào bù yào bào míng .",
+      "en": "She wants an evening course, but her finishing time at work varies. She asks about catching up on missed classes before deciding.",
+      "prompt": "她为什么先问？",
+      "promptPy": "tā wèi shén me xiān wèn ?",
+      "choices": [
+        {
+          "zh": "确认课程能不能配合时间。",
+          "py": "què rèn kè chéng néng bù néng pèi hé shí jiān .",
+          "en": "To see whether the course fits her schedule."
+        },
+        {
+          "zh": "已经决定不上课。",
+          "py": "yǐ jīng jué dìng bù shàng kè .",
+          "en": "She's already decided not to study."
+        },
+        {
+          "zh": "想取消全部工作。",
+          "py": "xiǎng qǔ xiāo quán bù gōng zuò .",
+          "en": "She wants to cancel all work."
+        },
+        {
+          "zh": "因为课程没有老师。",
+          "py": "yīn wèi kè chéng méi yǒu lǎo shī .",
+          "en": "The course has no teacher."
+        }
+      ],
+      "answer": "确认课程能不能配合时间。",
+      "explanation": "Her question helps her make a decision that is still pending.",
+      "id": "hsk4-bank-numbers-23",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "从今天起每天复习十分钟，不是今天一次做七十分钟就算一周每天都做了。",
+      "py": "cóng jīn tiān qǐ měi tiān fù xí shí fēn zhōng , bù shì jīn tiān yī cì zuò qī shí fēn zhōng jiù suàn yī zhōu měi tiān dōu zuò le .",
+      "en": "Review for ten minutes every day from today. One seventy-minute session doesn't count as reviewing on all seven days.",
+      "prompt": "要求怎样复习？",
+      "promptPy": "yāo qiú zěn yàng fù xí ?",
+      "choices": [
+        {
+          "zh": "今天七十算七天。",
+          "py": "jīn tiān qī shí suàn qī tiān .",
+          "en": "Seventy minutes today counts as seven days."
+        },
+        {
+          "zh": "下周只做一天。",
+          "py": "xià zhōu zhǐ zuò yī tiān .",
+          "en": "Only one day next week."
+        },
+        {
+          "zh": "每次只记名字。",
+          "py": "měi cì zhǐ jì míng zi .",
+          "en": "Only remember names each time."
+        },
+        {
+          "zh": "每天十分钟。",
+          "py": "měi tiān shí fēn zhōng .",
+          "en": "Ten minutes every day."
+        }
+      ],
+      "answer": "每天十分钟。",
+      "explanation": "The instruction includes daily frequency, not just a total duration.",
+      "id": "hsk4-bank-numbers-24",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "影片最后一段她把信收进包，没有打开。朋友认为是不敢看，另外一人认为想到了以后看。画面没给理由。",
+      "py": "yǐng piàn zuì hòu yī duàn tā bǎ xìn shōu jìn bāo , méi yǒu dǎ kāi . péng you rèn wéi shì bù gǎn kàn , lìng wài yī rén rèn wéi xiǎng dào le yǐ hòu kàn . huà miàn méi gěi lǐ yóu .",
+      "en": "In the final scene she puts an unopened letter in her bag. One friend thinks she's afraid to read it; another thinks she's saving it for later. The film doesn't give a reason.",
+      "prompt": "能确定什么？",
+      "promptPy": "néng què dìng shén me ?",
+      "choices": [
+        {
+          "zh": "一定不想联系。",
+          "py": "yí dìng bù xiǎng lián xì .",
+          "en": "She definitely wants no contact."
+        },
+        {
+          "zh": "信已经公开。",
+          "py": "xìn yǐ jīng gōng kāi .",
+          "en": "The letter's contents are public."
+        },
+        {
+          "zh": "信没有打开。",
+          "py": "xìn méi yǒu dǎ kāi .",
+          "en": "The letter wasn't opened."
+        },
+        {
+          "zh": "一定不敢看。",
+          "py": "yí dìng bù gǎn kàn .",
+          "en": "She's definitely afraid to read it."
+        }
+      ],
+      "answer": "信没有打开。",
+      "explanation": "The action is visible; the motive remains unspecified.",
+      "id": "hsk4-bank-numbers-25",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "那句你别让我先讲，是朋友笑着说的。他接着说今天想先听，一会儿再补。",
+      "py": "nà jù nǐ bié ràng wǒ xiān jiǎng , shì péng you xiào zhe shuō de . tā jiē zhe shuō jīn tiān xiǎng xiān tīng , yī huìr zài bǔ .",
+      "en": "The friend smiled and said, 'Don't make me speak first.' He explained that he wanted to listen first and add something later.",
+      "prompt": "他今天想怎么参加？",
+      "promptPy": "tā jīn tiān xiǎng zěn me cān jiā ?",
+      "choices": [
+        {
+          "zh": "要求别人都走。",
+          "py": "yāo qiú bié ren dōu zǒu .",
+          "en": "He wants everyone else to leave."
+        },
+        {
+          "zh": "先听，再补充。",
+          "py": "xiān tīng , zài bǔ chōng .",
+          "en": "Listen first, then contribute."
+        },
+        {
+          "zh": "根本没来。",
+          "py": "gēn běn méi lái .",
+          "en": "He hasn't come at all."
+        },
+        {
+          "zh": "只负责付钱。",
+          "py": "zhǐ fù zé fù qián .",
+          "en": "He only handles payment."
+        }
+      ],
+      "answer": "先听，再补充。",
+      "explanation": "His preferred way of participating is explicitly stated.",
+      "id": "hsk4-bank-numbers-26",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我们先确认场地再报名",
+      "py": "wǒ men xiān què rèn chǎng dì zài bào míng",
+      "en": "We confirm the venue before enrolling.",
+      "prompt": "先做什么？",
+      "promptPy": "xiān zuò shén me ?",
+      "choices": [
+        {
+          "zh": "我们先确认场地再报名",
+          "py": "wǒ men xiān què rèn chǎng dì zài bào míng",
+          "en": "We confirm the venue before enrolling."
+        },
+        {
+          "zh": "我们先再确认场地报名",
+          "py": "wǒ men xiān zài què rèn chǎng dì bào míng",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "先我们场地确认再报名",
+          "py": "xiān wǒ men chǎng dì què rèn zài bào míng",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "我们再先确认场地报名",
+          "py": "wǒ men zài xiān què rèn chǎng dì bào míng",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "我们先确认场地再报名",
+      "explanation": "先…再 gives the required order.",
+      "segments": [
+        {
+          "zh": "我们",
+          "py": "wǒ men",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "确认场地",
+          "py": "què rèn chǎng dì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "再报名",
+          "py": "zài bào míng",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-numbers-27",
+      "unit": "sample"
+    },
+    {
+      "format": "cloze",
+      "sentence": "先把结束时间写清楚，避免大家错过车。",
+      "py": "xiān bǎ jié shù shí jiān xiě qīng chǔ , bì miǎn dà jiā cuò guò chē .",
+      "en": "Write the ending time clearly to avoid people missing their bus.",
+      "prompt": "先把结束时间写清楚，___大家错过车。",
+      "promptPy": "xiān bǎ jié shù shí jiān xiě qīng chǔ , dà jiā cuò guò chē .",
+      "choices": [
+        {
+          "zh": "以为",
+          "py": "yǐ wéi",
+          "en": "Mistakenly think."
+        },
+        {
+          "zh": "曾经",
+          "py": "céng jīng",
+          "en": "Previously."
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "避免",
+          "py": "bì miǎn",
+          "en": "To avoid."
+        }
+      ],
+      "answer": "避免",
+      "explanation": "避免 introduces the outcome to prevent.",
+      "id": "hsk4-bank-numbers-28",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "她给朋友改时间的消息已发，但没收到回答。为了不让人白跑，她决定打电话确认，不把已发当已同意。",
+      "py": "tā gěi péng you gǎi shí jiān de xiāo xī yǐ fā , dàn mò shōu dào huí dá . wèi le bù ràng rén bái pǎo , tā jué dìng dǎ diàn huà què rèn , bù bǎ yǐ fā dāng yǐ tóng yì .",
+      "en": "She sent the changed time but hasn't received a reply. To avoid a wasted trip, she phones to check.",
+      "prompt": "为什么打电话？",
+      "promptPy": "wèi shén me dǎ diàn huà ?",
+      "choices": [
+        {
+          "zh": "已经得到同意。",
+          "py": "yǐ jīng dé dào tóng yì .",
+          "en": "She's already received agreement."
+        },
+        {
+          "zh": "活动完全结束。",
+          "py": "huó dòng wán quán jié shù .",
+          "en": "The event is completely over."
+        },
+        {
+          "zh": "确认对方知道并回应。",
+          "py": "què rèn duì fāng zhī dào bìng huí yìng .",
+          "en": "To check that the friend knows and responds."
+        },
+        {
+          "zh": "证明消息没写。",
+          "py": "zhèng míng xiāo xī méi xiě .",
+          "en": "To prove that no message was written."
+        }
+      ],
+      "answer": "确认对方知道并回应。",
+      "explanation": "Sending a message alone does not establish acceptance.",
+      "id": "hsk4-bank-numbers-29",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "别只看到价格低。第一家十八元不含运输，第二家二十三元已经送到门口。我们要比较总费用。",
+      "py": "bié zhǐ kàn dào jià gé dī . dì yī jiā shí bā yuán bù hán yùn shū , dì èr jiā èr shí sān yuán yǐ jīng sòng dào mén kǒu . wǒ men yào bǐ jiào zǒng fèi yòng .",
+      "en": "Don't look only at the low price. The first shop charges eighteen yuan before transport. The second charges twenty-three including delivery. We need the total cost.",
+      "prompt": "还需要知道第一家什么？",
+      "promptPy": "hái xū yào zhī dào dì yī jiā shén me ?",
+      "choices": [
+        {
+          "zh": "歌最后一段。",
+          "py": "gē zuì hòu yī duàn .",
+          "en": "The song's final part."
+        },
+        {
+          "zh": "运输费用。",
+          "py": "yùn shū fèi yòng .",
+          "en": "The transport charge."
+        },
+        {
+          "zh": "老板名字。",
+          "py": "lǎo bǎn míng zi .",
+          "en": "The owner's name."
+        },
+        {
+          "zh": "门的颜色。",
+          "py": "mén de yán sè .",
+          "en": "The door's colour."
+        }
+      ],
+      "answer": "运输费用。",
+      "explanation": "The missing charge prevents a full cost comparison.",
+      "id": "hsk4-bank-numbers-30",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：夜间活动只开一楼。第二段：二楼借书的地方仍然六点下班。",
+      "py": "dì yī duàn : yè jiān huó dòng zhǐ kāi yī lóu . dì èr duàn : èr lóu jiè shū de dì fāng réng rán liù diǎn xià bān .",
+      "en": "Text 1: The evening event uses only the first floor. Text 2: The upstairs book-lending service still closes at six.",
+      "prompt": "晚间能借书吗？",
+      "promptPy": "wǎn jiān néng jiè shū ma ?",
+      "choices": [
+        {
+          "zh": "不能，借书的地方仍六点下班。",
+          "py": "bù néng , jiè shū de dì fāng réng liù diǎn xià bān .",
+          "en": "No; lending still closes at six."
+        },
+        {
+          "zh": "能，亮灯就全部开放。",
+          "py": "néng , liàng dēng jiù quán bù kāi fàng .",
+          "en": "Yes; lights mean every service is open."
+        },
+        {
+          "zh": "能，二楼一直开放。",
+          "py": "néng , èr lóu yì zhí kāi fàng .",
+          "en": "Yes; the second floor is always open."
+        },
+        {
+          "zh": "能，第二段没有时间。",
+          "py": "néng , dì èr duàn méi yǒu shí jiān .",
+          "en": "Yes; the second text gives no time."
+        }
+      ],
+      "answer": "不能，借书的地方仍六点下班。",
+      "explanation": "An evening event does not extend the lending service's stated hours.",
+      "id": "hsk4-bank-daily-01",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "来了？先别急着上台，喝口水。你紧张也没关系，能停一下再继续，不用装得什么都记住。",
+      "py": "lái le ? xiān bié jí zhe shàng tái , hē kǒu shuǐ . nǐ jǐn zhāng yě méi guān xì , néng tíng yī xià zài jì xù , bù yòng zhuāng de shén me dōu jì zhù .",
+      "en": "You're here? Don't rush onto the stage; have some water. It's okay to be nervous. You can pause and continue without pretending you remember everything.",
+      "prompt": "她可以什么？",
+      "promptPy": "tā kě yǐ shén me ?",
+      "choices": [
+        {
+          "zh": "不能喝水。",
+          "py": "bù néng hē shuǐ .",
+          "en": "Drink no water."
+        },
+        {
+          "zh": "必须一直很快。",
+          "py": "bì xū yì zhí hěn kuài .",
+          "en": "Go fast the whole time."
+        },
+        {
+          "zh": "把所有人赶走。",
+          "py": "bǎ suǒ yǒu rén gǎn zǒu .",
+          "en": "Send everyone away."
+        },
+        {
+          "zh": "停一下再继续。",
+          "py": "tíng yī xià zài jì xù .",
+          "en": "Pause, then continue."
+        }
+      ],
+      "answer": "停一下再继续。",
+      "explanation": "The speaker explicitly permits pausing.",
+      "id": "hsk4-bank-daily-02",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "虽然时间很短我们仍然说清楚了",
+      "py": "suī rán shí jiān hěn duǎn wǒ men réng rán shuō qīng chǔ le",
+      "en": "Although the time was short, we still explained it clearly.",
+      "prompt": "怎样表达让步？",
+      "promptPy": "zěn yàng biǎo dá ràng bù ?",
+      "choices": [
+        {
+          "zh": "虽然时间我们很短仍然说清楚了",
+          "py": "suī rán shí jiān wǒ men hěn duǎn réng rán shuō qīng chǔ le",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "我们短虽然时间仍然很说清楚了",
+          "py": "wǒ men duǎn suī rán shí jiān réng rán hěn shuō qīng chǔ le",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "虽然时间很短我们仍然说清楚了",
+          "py": "suī rán shí jiān hěn duǎn wǒ men réng rán shuō qīng chǔ le",
+          "en": "Although the time was short, we still explained it clearly."
+        },
+        {
+          "zh": "虽然我们时间仍然很短说清楚了",
+          "py": "suī rán wǒ men shí jiān réng rán hěn duǎn shuō qīng chǔ le",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "虽然时间很短我们仍然说清楚了",
+      "explanation": "Keep the concessive clause and 仍然 result intact.",
+      "segments": [
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "时间很短",
+          "py": "shí jiān hěn duǎn",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "我们",
+          "py": "wǒ men",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "仍然说清楚了",
+          "py": "réng rán shuō qīng chǔ le",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-daily-03",
+      "unit": "daily"
+    },
+    {
+      "format": "cloze",
+      "sentence": "虽然时间很短，我们仍然说清楚了。",
+      "py": "suī rán shí jiān hěn duǎn , wǒ men réng rán shuō qīng chǔ le .",
+      "en": "Although the time was short, we still explained it clearly.",
+      "prompt": "虽然时间很短，我们___说清楚了。",
+      "promptPy": "suī rán shí jiān hěn duǎn , wǒ men shuō qīng chǔ le .",
+      "choices": [
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        },
+        {
+          "zh": "仍然",
+          "py": "réng rán",
+          "en": "Still."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        }
+      ],
+      "answer": "仍然",
+      "explanation": "仍然 preserves the result despite the concession.",
+      "id": "hsk4-bank-daily-04",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "小说里说他坐了很久，始终没有打开那个门。读者可以想到害怕，也可以想到等人，下一段才说明原因。",
+      "py": "xiǎo shuō lǐ shuō tā zuò le hěn jiǔ , shǐ zhōng méi yǒu dǎ kāi nà gè mén . dú zhě kě yǐ xiǎng dào hài pà , yě kě yǐ xiǎng dào děng rén , xià yī duàn cái shuō míng yuán yīn .",
+      "en": "The novel says he sat for a long time without opening the door. Fear and waiting are possible readings; the next part explains why.",
+      "prompt": "这一段能确定什么？",
+      "promptPy": "zhè yī duàn néng què dìng shén me ?",
+      "choices": [
+        {
+          "zh": "没有打开门。",
+          "py": "méi yǒu dǎ kāi mén .",
+          "en": "He didn't open the door."
+        },
+        {
+          "zh": "原因已经明确。",
+          "py": "yuán yīn yǐ jīng míng què .",
+          "en": "The reason is already explicit."
+        },
+        {
+          "zh": "下一段不存在。",
+          "py": "xià yī duàn bù cún zài .",
+          "en": "There is no next part."
+        },
+        {
+          "zh": "一定在等姐姐。",
+          "py": "yí dìng zài děng jiě jie .",
+          "en": "He's definitely waiting for his sister."
+        }
+      ],
+      "answer": "没有打开门。",
+      "explanation": "Only the action is established in this part.",
+      "id": "hsk4-bank-daily-05",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "灯还亮着是歌词，不是活动的地方通知。九点半先收东西，十点关闭，别为了再唱把最后的整理工作全留给别人。",
+      "py": "dēng hái liàng zhe shì gē cí , bù shì huó dòng de dì fāng tōng zhī . jiǔ diǎn bàn xiān shōu dōng xi , shí diǎn guān bì , bié wèi le zài chàng bǎ zuì hòu de zhěng lǐ gōng zuò quán liú gěi bié ren .",
+      "en": "'The light is still on' is a lyric, not the venue notice. Pack at nine thirty and close at ten. Don't leave all the closing work to others just to sing more.",
+      "prompt": "九点半应该先做什么？",
+      "promptPy": "jiǔ diǎn bàn yīng gāi xiān zuò shén me ?",
+      "choices": [
+        {
+          "zh": "开始第二场。",
+          "py": "kāi shǐ dì èr chǎng .",
+          "en": "Start a second performance."
+        },
+        {
+          "zh": "安排整夜开放。",
+          "py": "ān pái zhěng yè kāi fàng .",
+          "en": "Arrange all-night opening."
+        },
+        {
+          "zh": "宣布没有工作。",
+          "py": "xuān bù méi yǒu gōng zuò .",
+          "en": "Announce there is no work."
+        },
+        {
+          "zh": "收东西。",
+          "py": "shōu dōng xi .",
+          "en": "Pack things away."
+        }
+      ],
+      "answer": "收东西。",
+      "explanation": "The stated closing arrangements require packing first.",
+      "id": "hsk4-bank-daily-06",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "她写先试四周，如果效果合适再继续。朋友转发成已经永远开放，她请他改回原来的条件。",
+      "py": "tā xiě xiān shì sì zhōu , rú guǒ xiào guǒ hé shì zài jì xù . péng you zhuǎn fā chéng yǐ jīng yǒng yuǎn kāi fàng , tā qǐng tā gǎi huí yuán lái de tiáo jiàn .",
+      "en": "She proposed a four-week trial, continuing only if it works. A friend reposted this as 'already open forever,' and she asked for a correction.",
+      "prompt": "需要改掉什么？",
+      "promptPy": "xū yào gǎi diào shén me ?",
+      "choices": [
+        {
+          "zh": "还没继续的条件。",
+          "py": "hái méi jì xù de tiáo jiàn .",
+          "en": "The condition for continuing."
+        },
+        {
+          "zh": "那条消息全部时间。",
+          "py": "nà tiáo xiāo xī quán bù shí jiān .",
+          "en": "Every time in the message."
+        },
+        {
+          "zh": "已经永远开放的说法。",
+          "py": "yǐ jīng yǒng yuǎn kāi fàng de shuō fǎ .",
+          "en": "The claim that it's already permanently open."
+        },
+        {
+          "zh": "四周试用的事实。",
+          "py": "sì zhōu shì yòng de shì shí .",
+          "en": "The fact that there's a four-week trial."
+        }
+      ],
+      "answer": "已经永远开放的说法。",
+      "explanation": "The repost wrongly removes the trial period and condition.",
+      "id": "hsk4-bank-daily-07",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "你说好是好，不过太远。这是还在考虑，不是已经答应。我先不替你买票。",
+      "py": "nǐ shuō hǎo shì hǎo , bù guò tài yuǎn . zhè shì hái zài kǎo lǜ , bù shì yǐ jīng dā ying . wǒ xiān bù tì nǐ mǎi piào .",
+      "en": "You said, 'It's good, but too far.' That's still considering, not agreement, so I won't buy your ticket yet.",
+      "prompt": "对方是什么状态？",
+      "promptPy": "duì fāng shì shén me zhuàng tài ?",
+      "choices": [
+        {
+          "zh": "不认识地点。",
+          "py": "bù rèn shi dì diǎn .",
+          "en": "Doesn't know the location."
+        },
+        {
+          "zh": "还在考虑。",
+          "py": "hái zài kǎo lǜ .",
+          "en": "Still considering."
+        },
+        {
+          "zh": "已经答应。",
+          "py": "yǐ jīng dā ying .",
+          "en": "Already agreed."
+        },
+        {
+          "zh": "已到场。",
+          "py": "yǐ dào chǎng .",
+          "en": "Already arrived."
+        }
+      ],
+      "answer": "还在考虑。",
+      "explanation": "The stated reservation leaves the decision pending.",
+      "id": "hsk4-bank-daily-08",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "我不是不想参加只是今天不方便",
+      "py": "wǒ bù shì bù xiǎng cān jiā zhǐ shì jīn tiān bù fāng biàn",
+      "en": "I do want to take part; today just doesn't work.",
+      "prompt": "是不是永远不同意？",
+      "promptPy": "shì bú shì yǒng yuǎn bù tóng yì ?",
+      "choices": [
+        {
+          "zh": "我不是不想参加只是今天不方便",
+          "py": "wǒ bù shì bù xiǎng cān jiā zhǐ shì jīn tiān bù fāng biàn",
+          "en": "I do want to take part; today just doesn't work."
+        },
+        {
+          "zh": "我不不是想参加只是今天不方便",
+          "py": "wǒ bù bù shì xiǎng cān jiā zhǐ shì jīn tiān bù fāng biàn",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "只是我今天方便不是不想不参加",
+          "py": "zhǐ shì wǒ jīn tiān fāng biàn bù shì bù xiǎng bù cān jiā",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "我只是参加不想不是今天不方便",
+          "py": "wǒ zhǐ shì cān jiā bù xiǎng bù shì jīn tiān bù fāng biàn",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "我不是不想参加只是今天不方便",
+      "explanation": "The double negative is followed by a specific qualification.",
+      "segments": [
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不是",
+          "py": "bù shì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "不想参加",
+          "py": "bù xiǎng cān jiā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "只是今天不方便",
+          "py": "zhǐ shì jīn tiān bù fāng biàn",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-daily-09",
+      "unit": "daily"
+    },
+    {
+      "format": "cloze",
+      "sentence": "她既想说话，也想赶上车。",
+      "py": "tā jì xiǎng shuō huà , yě xiǎng gǎn shàng chē .",
+      "en": "She wants to talk and catch her bus.",
+      "prompt": "她既想说话，___想赶上车。",
+      "promptPy": "tā jì xiǎng shuō huà , xiǎng gǎn shàng chē .",
+      "choices": [
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "Also."
+        }
+      ],
+      "answer": "也",
+      "explanation": "既…也 connects both wishes.",
+      "id": "hsk4-bank-daily-10",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "唱歌时把一个字唱得更长，是音乐的需要。课上另外听说话读法，老师说唱得像，不表示说话时每个字都准确。",
+      "py": "chàng gē shí bǎ yī gè zì chàng de gèng cháng , shì yīn yuè de xū yào . kè shàng lìng wài tīng shuō huà dú fǎ , lǎo shī shuō chàng de xiàng , bù biǎo shì shuō huà shí měi gè zì dōu zhǔn què .",
+      "en": "Singing may extend a syllable for the music. Class separately practises spoken pronunciation; sounding like the song doesn't prove every spoken syllable is accurate.",
+      "prompt": "两种练习怎样看？",
+      "promptPy": "liǎng zhǒng liàn xí zěn yàng kàn ?",
+      "choices": [
+        {
+          "zh": "完全不能唱。",
+          "py": "wán quán bù néng chàng .",
+          "en": "Singing must be forbidden."
+        },
+        {
+          "zh": "音乐就是语法。",
+          "py": "yīn yuè jiù shì yǔ fǎ .",
+          "en": "Music is grammar."
+        },
+        {
+          "zh": "分别知道练的是什么。",
+          "py": "fēn bié zhī dào liàn de shì shén me .",
+          "en": "Know what each practice is training."
+        },
+        {
+          "zh": "唱得像就全准。",
+          "py": "chàng de xiàng jiù quán zhǔn .",
+          "en": "Sounding like the song proves all spoken sounds are correct."
+        }
+      ],
+      "answer": "分别知道练的是什么。",
+      "explanation": "Musical performance and spoken pronunciation are different practice goals.",
+      "id": "hsk4-bank-daily-11",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "不是每一个笑都表示同意。我是喜欢刚才的开玩笑，周六帮忙这件事还得看时间。",
+      "py": "bù shì měi yī gè xiào dōu biǎo shì tóng yì . wǒ shì xǐ huān gāng cái de kāi wán xiào , zhōu liù bāng máng zhè jiàn shì hái de kàn shí jiān .",
+      "en": "Not every laugh means agreement. I liked the joke, but helping on Saturday still depends on my schedule.",
+      "prompt": "笑能证明已答应帮忙吗？",
+      "promptPy": "xiào néng zhèng míng yǐ dā ying bāng máng ma ?",
+      "choices": [
+        {
+          "zh": "能，周六已过去。",
+          "py": "néng , zhōu liù yǐ guò qù .",
+          "en": "Yes; Saturday is already over."
+        },
+        {
+          "zh": "不能，时间还要确认。",
+          "py": "bù néng , shí jiān hái yào què rèn .",
+          "en": "No; the timing still needs checking."
+        },
+        {
+          "zh": "能，笑等于答应。",
+          "py": "néng , xiào děng yú dā ying .",
+          "en": "Yes; laughing means agreement."
+        },
+        {
+          "zh": "能，已经做完。",
+          "py": "néng , yǐ jīng zuò wán .",
+          "en": "Yes; the work is already done."
+        }
+      ],
+      "answer": "不能，时间还要确认。",
+      "explanation": "Enjoying the joke does not confirm help with a separate task.",
+      "id": "hsk4-bank-daily-12",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：我想星期天见，上午不方便。第二段：她建议星期天下午两点，对方回复可以。",
+      "py": "dì yī duàn : wǒ xiǎng xīng qī tiān jiàn , shàng wǔ bù fāng biàn . dì èr duàn : tā jiàn yì xīng qī tiān xià wǔ liǎng diǎn , duì fāng huí fù kě yǐ .",
+      "en": "Text 1: I want to meet on Sunday, but the morning doesn't work. Text 2: She suggests two on Sunday afternoon, and the other person agrees.",
+      "prompt": "实际约了什么时候？",
+      "promptPy": "shí jì yuē le shén me shí hou ?",
+      "choices": [
+        {
+          "zh": "星期天下午两点。",
+          "py": "xīng qī tiān xià wǔ liǎng diǎn .",
+          "en": "Two on Sunday afternoon."
+        },
+        {
+          "zh": "星期日上午两点。",
+          "py": "xīng qī rì shàng wǔ liǎng diǎn .",
+          "en": "Two on Sunday morning."
+        },
+        {
+          "zh": "星期六下午。",
+          "py": "xīng qī liù xià wǔ .",
+          "en": "Saturday afternoon."
+        },
+        {
+          "zh": "没有答应。",
+          "py": "méi yǒu dā ying .",
+          "en": "No agreement was made."
+        }
+      ],
+      "answer": "星期天下午两点。",
+      "explanation": "The accepted proposal explicitly says Sunday afternoon.",
+      "id": "hsk4-bank-daily-13",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "先让她说完。你要补充可以，但别把她最后一句盖住，否则我们又要问一遍。",
+      "py": "xiān ràng tā shuō wán . nǐ yào bǔ chōng kě yǐ , dàn bié bǎ tā zuì hòu yī jù gài zhù , fǒu zé wǒ men yòu yào wèn yī biàn .",
+      "en": "Let her finish. You can add something, but don't drown out her final sentence or we'll have to ask again.",
+      "prompt": "她希望怎样交流？",
+      "promptPy": "tā xī wàng zěn yàng jiāo liú ?",
+      "choices": [
+        {
+          "zh": "同时说得更响。",
+          "py": "tóng shí shuō de gèng xiǎng .",
+          "en": "Both speak louder at once."
+        },
+        {
+          "zh": "永远不能说。",
+          "py": "yǒng yuǎn bù néng shuō .",
+          "en": "Never speak."
+        },
+        {
+          "zh": "马上离场。",
+          "py": "mǎ shàng lí chǎng .",
+          "en": "Leave immediately."
+        },
+        {
+          "zh": "等对方说完再补充。",
+          "py": "děng duì fāng shuō wán zài bǔ chōng .",
+          "en": "Wait for her to finish, then add something."
+        }
+      ],
+      "answer": "等对方说完再补充。",
+      "explanation": "Finishing one turn prevents the final words from being missed.",
+      "id": "hsk4-bank-daily-14",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "先听完整句再判断意思",
+      "py": "xiān tīng wán zhěng jù zài pàn duàn yì si",
+      "en": "Listen to the whole sentence before judging its meaning.",
+      "prompt": "先做什么？",
+      "promptPy": "xiān zuò shén me ?",
+      "choices": [
+        {
+          "zh": "听先完整再句判断意思",
+          "py": "tīng xiān wán zhěng zài jù pàn duàn yì si",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "先判断听完整句再意思",
+          "py": "xiān pàn duàn tīng wán zhěng jù zài yì si",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "先听完整句再判断意思",
+          "py": "xiān tīng wán zhěng jù zài pàn duàn yì si",
+          "en": "Listen to the whole sentence before judging its meaning."
+        },
+        {
+          "zh": "先再听完整句判断意思",
+          "py": "xiān zài tīng wán zhěng jù pàn duàn yì si",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "先听完整句再判断意思",
+      "explanation": "先…再 orders listening before interpretation.",
+      "segments": [
+        {
+          "zh": "先",
+          "py": "xiān",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "听完整句",
+          "py": "tīng wán zhěng jù",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "判断意思",
+          "py": "pàn duàn yì si",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-daily-15",
+      "unit": "daily"
+    },
+    {
+      "format": "cloze",
+      "sentence": "不是每一个笑都表示同意。",
+      "py": "bù shì měi yī gè xiào dōu biǎo shì tóng yì .",
+      "en": "Not every laugh means agreement.",
+      "prompt": "不是每一个笑___表示同意。",
+      "promptPy": "bù shì měi yī gè xiào biǎo shì tóng yì .",
+      "choices": [
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "All."
+        },
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "In order to."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        }
+      ],
+      "answer": "都",
+      "explanation": "都 falls within the partial negation, so agreement is not universal.",
+      "id": "hsk4-bank-daily-16",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "通知说可以参加活动的人有二十个，工作的人另外有位置。现场四名工作的人，不算进这二十人。",
+      "py": "tōng zhī shuō kě yǐ cān jiā huó dòng de rén yǒu èr shí gè , gōng zuò de rén lìng wài yǒu wèi zhì . xiàn chǎng sì míng gōng zuò de rén , bù suàn jìn zhè èr shí rén .",
+      "en": "The notice allows twenty participants, with separate places for staff. Four staff members don't count towards those twenty.",
+      "prompt": "可以参加活动的人有多少？",
+      "promptPy": "kě yǐ cān jiā huó dòng de rén yǒu duō shao ?",
+      "choices": [
+        {
+          "zh": "二十个。",
+          "py": "èr shí gè .",
+          "en": "Twenty."
+        },
+        {
+          "zh": "十六个。",
+          "py": "shí liù gè .",
+          "en": "Sixteen."
+        },
+        {
+          "zh": "二十四个。",
+          "py": "èr shí sì gè .",
+          "en": "Twenty-four."
+        },
+        {
+          "zh": "四个。",
+          "py": "sì gè .",
+          "en": "Four."
+        }
+      ],
+      "answer": "二十个。",
+      "explanation": "The participant allowance excludes staff.",
+      "id": "hsk4-bank-daily-17",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "我现在离开，不是以后不来。今天回家太晚不方便，下次时间早一点还愿意参加。",
+      "py": "wǒ xiàn zài lí kāi , bù shì yǐ hòu bù lái . jīn tiān huí jiā tài wǎn bù fāng biàn , xià cì shí jiān zǎo yī diǎn hái yuàn yì cān jiā .",
+      "en": "Leaving now doesn't mean I won't come again. Getting home late doesn't work today; I'd still join another event at an earlier time.",
+      "prompt": "她不同意了什么？",
+      "promptPy": "tā bù tóng yì le shén me ?",
+      "choices": [
+        {
+          "zh": "所有未来见面。",
+          "py": "suǒ yǒu wèi lái jiàn miàn .",
+          "en": "Every future meeting."
+        },
+        {
+          "zh": "任何朋友。",
+          "py": "rèn hé péng you .",
+          "en": "Every friend."
+        },
+        {
+          "zh": "每首歌。",
+          "py": "měi shǒu gē .",
+          "en": "Every song."
+        },
+        {
+          "zh": "今天继续留到很晚。",
+          "py": "jīn tiān jì xù liú dào hěn wǎn .",
+          "en": "Staying very late today."
+        }
+      ],
+      "answer": "今天继续留到很晚。",
+      "explanation": "The refusal concerns today's late finish, not all future attendance.",
+      "id": "hsk4-bank-daily-18",
+      "unit": "daily"
+    },
+    {
+      "format": "reading",
+      "sentence": "她把歌词里的雨理解为等待，朋友理解为声音。两人都举了句子，没有说这是当天真实天气。",
+      "py": "tā bǎ gē cí lǐ de yǔ lǐ jiě wèi děng dài , péng you lǐ jiě wèi shēng yīn . liǎng rén dōu jǔ le jù zi , méi yǒu shuō zhè shì dàng tiān zhēn shí tiān qì .",
+      "en": "She reads the rain in the lyric as waiting; her friend reads it as sound. Both point to lines in the song, without claiming that it describes that day's weather.",
+      "prompt": "他们在做什么？",
+      "promptPy": "tā men zài zuò shén me ?",
+      "choices": [
+        {
+          "zh": "确认所有城市天气。",
+          "py": "què rèn suǒ yǒu chéng shì tiān qì .",
+          "en": "Confirming the weather in every city."
+        },
+        {
+          "zh": "证明作者身份。",
+          "py": "zhèng míng zuò zhě shēn fèn .",
+          "en": "Proving the author's identity."
+        },
+        {
+          "zh": "讨论歌词的理解。",
+          "py": "tǎo lùn gē cí de lǐ jiě .",
+          "en": "Discussing interpretations of the lyric."
+        },
+        {
+          "zh": "报告当天雨量。",
+          "py": "bào gào dàng tiān yǔ liàng .",
+          "en": "Reporting actual rainfall that day."
+        }
+      ],
+      "answer": "讨论歌词的理解。",
+      "explanation": "They discuss the song's meaning, not a weather report.",
+      "id": "hsk4-bank-daily-19",
+      "unit": "daily"
+    },
+    {
+      "format": "listening",
+      "sentence": "歌词下一页留给下次见面，没有写下周哪天。现实里要约，还得看大家时间。",
+      "py": "gē cí xià yī yè liú gěi xià cì jiàn miàn , méi yǒu xiě xià zhōu nǎ tiān . xiàn shí lǐ yào yuē , hái de kàn dà jiā shí jiān .",
+      "en": "The lyric leaves the next page for a future meeting, but doesn't name a day next week. Making a real plan still requires checking everyone's time.",
+      "prompt": "能确定下周某天吗？",
+      "promptPy": "néng què dìng xià zhōu mǒu tiān ma ?",
+      "choices": [
+        {
+          "zh": "能，所有人都有空。",
+          "py": "néng , suǒ yǒu rén dōu yǒu kōng .",
+          "en": "Yes; everyone is free."
+        },
+        {
+          "zh": "不能，日期没写。",
+          "py": "bù néng , rì qī méi xiě .",
+          "en": "No; no date is stated."
+        },
+        {
+          "zh": "能，已经买票。",
+          "py": "néng , yǐ jīng mǎi piào .",
+          "en": "Yes; a ticket has already been bought."
+        },
+        {
+          "zh": "能，歌词等于通知。",
+          "py": "néng , gē cí děng yú tōng zhī .",
+          "en": "Yes; the lyric is an event notice."
+        }
+      ],
+      "answer": "不能，日期没写。",
+      "explanation": "The lyrical image doesn't set an actual date.",
+      "id": "hsk4-bank-daily-20",
+      "unit": "daily"
+    },
+    {
+      "format": "ordering",
+      "sentence": "这次只是试点还没决定长期继续",
+      "py": "zhè cì zhǐ shì shì diǎn hái méi jué dìng cháng qī jì xù",
+      "en": "This is only a pilot; long-term continuation hasn't been decided.",
+      "prompt": "已经决定长期吗？",
+      "promptPy": "yǐ jīng jué dìng cháng qī ma ?",
+      "choices": [
+        {
+          "zh": "这次只是试点还没决定长期继续",
+          "py": "zhè cì zhǐ shì shì diǎn hái méi jué dìng cháng qī jì xù",
+          "en": "This is only a pilot; long-term continuation hasn't been decided."
+        },
+        {
+          "zh": "这次只试是点还没决定长期继续",
+          "py": "zhè cì zhǐ shì shì diǎn hái méi jué dìng cháng qī jì xù",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "还没这次决定只是试点长期继续",
+          "py": "hái méi zhè cì jué dìng zhǐ shì shì diǎn cháng qī jì xù",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "只是这次还试点没决定长期继续",
+          "py": "zhǐ shì zhè cì hái shì diǎn méi jué dìng cháng qī jì xù",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "这次只是试点还没决定长期继续",
+      "explanation": "Keep the current pilot separate from a future decision.",
+      "segments": [
+        {
+          "zh": "这次",
+          "py": "zhè cì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "只是",
+          "py": "zhǐ shì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "试点",
+          "py": "shì diǎn",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "还没决定长期继续",
+          "py": "hái méi jué dìng cháng qī jì xù",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-daily-21",
+      "unit": "sample"
+    },
+    {
+      "format": "cloze",
+      "sentence": "先听完整句，再判断意思。",
+      "py": "xiān tīng wán zhěng jù , zài pàn duàn yì si .",
+      "en": "Listen to the whole sentence before judging its meaning.",
+      "prompt": "先听完整句，___判断意思。",
+      "promptPy": "xiān tīng wán zhěng jù , pàn duàn yì si .",
+      "choices": [
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "Not only."
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "Because of."
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "Then."
+        }
+      ],
+      "answer": "再",
+      "explanation": "先…再 establishes the order.",
+      "id": "hsk4-bank-daily-22",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "负责的人请愿意的人补充，有人只听。活动规则没有要求每个人开口，所以沉默不等于不按要求。",
+      "py": "fù zé de rén qǐng yuàn yì de rén bǔ chōng , yǒu rén zhǐ tīng . huó dòng guī zé méi yǒu yāo qiú měi gè rén kāi kǒu , suǒ yǐ chén mò bù děng yú bù àn yāo qiú .",
+      "en": "The organiser invites anyone who wants to add something. Some people only listen. The rules don't require everyone to speak.",
+      "prompt": "能说只听的人不按要求吗？",
+      "promptPy": "néng shuō zhǐ tīng de rén bù àn yāo qiú ma ?",
+      "choices": [
+        {
+          "zh": "能，听就是走了。",
+          "py": "néng , tīng jiù shì zǒu le .",
+          "en": "Yes; listening means leaving."
+        },
+        {
+          "zh": "能，他们没有座位。",
+          "py": "néng , tā men méi yǒu zuò wèi .",
+          "en": "Yes; they have no seats."
+        },
+        {
+          "zh": "不能，可以只听。",
+          "py": "bù néng , kě yǐ zhǐ tīng .",
+          "en": "No; listening alone is allowed."
+        },
+        {
+          "zh": "能，人人必须说。",
+          "py": "néng , rén rén bì xū shuō .",
+          "en": "Yes; everyone has to speak."
+        }
+      ],
+      "answer": "不能，可以只听。",
+      "explanation": "The stated participation rule permits listening.",
+      "id": "hsk4-bank-daily-23",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "一共有五页，袋里一二三五都在，楼里找到四。放回第四页就齐了，但那张纸没有以前那么平了。",
+      "py": "yī gòng yǒu wǔ yè , dài lǐ yī èr sān wǔ dōu zài , lóu lǐ zhǎo dào sì . fàng huí dì sì yè jiù qí le , dàn nà zhāng zhǐ méi yǒu yǐ qián nà me píng le .",
+      "en": "There are five pages. The bag has pages one, two, three and five; page four was found in the corridor. Returning it completes the set, but that page is no longer flat.",
+      "prompt": "找齐以后纸都跟以前一样吗？",
+      "promptPy": "zhǎo qí yǐ hòu zhǐ dōu gēn yǐ qián yī yàng ma ?",
+      "choices": [
+        {
+          "zh": "只有五张相同页。",
+          "py": "zhǐ yǒu wǔ zhāng xiāng tóng yè .",
+          "en": "There are only five identical pages."
+        },
+        {
+          "zh": "不全一样，有张纸不平了。",
+          "py": "bù quán yī yàng , yǒu zhāng zhǐ bù píng le .",
+          "en": "Not completely; one page is no longer flat."
+        },
+        {
+          "zh": "完全一样。",
+          "py": "wán quán yī yàng .",
+          "en": "Everything is identical."
+        },
+        {
+          "zh": "一页都没找到。",
+          "py": "yī yè dōu méi zhǎo dào .",
+          "en": "No pages have been found."
+        }
+      ],
+      "answer": "不全一样，有张纸不平了。",
+      "explanation": "Finding the whole set doesn't restore every page's physical condition.",
+      "id": "hsk4-bank-daily-24",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "第一段：采访称活动方便了下班的人。第二段：通知要求提前报名，没有空位不能直接进。",
+      "py": "dì yī duàn : cǎi fǎng chēng huó dòng fāng biàn le xià bān de rén . dì èr duàn : tōng zhī yāo qiú tí qián bào míng , méi yǒu kōng wèi bù néng zhí jiē jìn .",
+      "en": "Text 1: An interview says the event helps people after work. Text 2: The notice requires registration, and no direct entry when it's full.",
+      "prompt": "方便是不是表示不用报名？",
+      "promptPy": "fāng biàn shì bú shì biǎo shì bù yòng bào míng ?",
+      "choices": [
+        {
+          "zh": "不是，仍按通知报名。",
+          "py": "bù shì , réng àn tōng zhī bào míng .",
+          "en": "No; registration is still required."
+        },
+        {
+          "zh": "是，什么时候都能进。",
+          "py": "shì , shén me shí hou dōu néng jìn .",
+          "en": "Yes; they may enter at any time."
+        },
+        {
+          "zh": "是，没有空位也无限进。",
+          "py": "shì , méi yǒu kōng wèi yě wú xiàn jìn .",
+          "en": "Yes; even a full event has unlimited entry."
+        },
+        {
+          "zh": "不是，所以所有人禁止。",
+          "py": "bù shì , suǒ yǐ suǒ yǒu rén jìn zhǐ .",
+          "en": "No; every person is banned."
+        }
+      ],
+      "answer": "不是，仍按通知报名。",
+      "explanation": "A benefit described in an interview does not remove registration rules.",
+      "id": "hsk4-bank-daily-25",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "我说很难说，是还不知道，不是在保证不会。先等他们回复，别替我把答案改成一定。",
+      "py": "wǒ shuō hěn nán shuō , shì hái bù zhī dào , bù shì zài bǎo zhèng bù huì . xiān děng tā men huí fù , bié tì wǒ bǎ dá àn gǎi chéng yí dìng .",
+      "en": "When I say 'hard to say', I mean I don't know yet, not that it definitely won't happen. Wait for their reply; don't turn my answer into certainty.",
+      "prompt": "现在知道结果吗？",
+      "promptPy": "xiàn zài zhī dào jié guǒ ma ?",
+      "choices": [
+        {
+          "zh": "一定不会。",
+          "py": "yí dìng bù huì .",
+          "en": "It definitely won't happen."
+        },
+        {
+          "zh": "一定会。",
+          "py": "yí dìng huì .",
+          "en": "It definitely will happen."
+        },
+        {
+          "zh": "已经通知所有人。",
+          "py": "yǐ jīng tōng zhī suǒ yǒu rén .",
+          "en": "Everyone has already been told."
+        },
+        {
+          "zh": "还不知道。",
+          "py": "hái bù zhī dào .",
+          "en": "Not yet."
+        }
+      ],
+      "answer": "还不知道。",
+      "explanation": "An uncertain answer is neither a definite yes nor a definite no.",
+      "id": "hsk4-bank-daily-26",
+      "unit": "sample"
+    },
+    {
+      "format": "ordering",
+      "sentence": "她既想说话也想赶上车",
+      "py": "tā jì xiǎng shuō huà yě xiǎng gǎn shàng chē",
+      "en": "She wants to talk and catch her bus.",
+      "prompt": "两种愿望如何表达？",
+      "promptPy": "liǎng zhǒng yuàn wàng rú hé biǎo dá ?",
+      "choices": [
+        {
+          "zh": "既想她说话也想赶上车",
+          "py": "jì xiǎng tā shuō huà yě xiǎng gǎn shàng chē",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她也想既想说话赶上车",
+          "py": "tā yě xiǎng jì xiǎng shuō huà gǎn shàng chē",
+          "en": "Alternative order"
+        },
+        {
+          "zh": "她既想说话也想赶上车",
+          "py": "tā jì xiǎng shuō huà yě xiǎng gǎn shàng chē",
+          "en": "She wants to talk and catch her bus."
+        },
+        {
+          "zh": "她既想也想说话赶上车",
+          "py": "tā jì xiǎng yě xiǎng shuō huà gǎn shàng chē",
+          "en": "Alternative order"
+        }
+      ],
+      "answer": "她既想说话也想赶上车",
+      "explanation": "既…也 connects both wishes.",
+      "segments": [
+        {
+          "zh": "她",
+          "py": "tā",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "既",
+          "py": "jì",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "想说话",
+          "py": "xiǎng shuō huà",
+          "en": "Sentence part"
+        },
+        {
+          "zh": "也想赶上车",
+          "py": "yě xiǎng gǎn shàng chē",
+          "en": "Sentence part"
+        }
+      ],
+      "id": "hsk4-bank-daily-27",
+      "unit": "sample"
+    },
+    {
+      "format": "cloze",
+      "sentence": "从记录来看，有十二个人留下。",
+      "py": "cóng jì lù lái kàn , yǒu shí èr gè rén liú xià .",
+      "en": "According to the record, twelve people stayed.",
+      "prompt": "___记录来看，有十二个人留下。",
+      "promptPy": "jì lù lái kàn , yǒu shí èr gè rén liú xià .",
+      "choices": [
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "Despite."
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "From."
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "Passive."
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "Disposal."
+        }
+      ],
+      "answer": "从",
+      "explanation": "从…来看 identifies the basis for the statement.",
+      "id": "hsk4-bank-daily-28",
+      "unit": "sample"
+    },
+    {
+      "format": "reading",
+      "sentence": "电影里姐姐看着妹妹的包，后来妹妹把信带走。前面的她看着包指姐姐，不是两个人都看。",
+      "py": "diàn yǐng lǐ jiě jie kàn zhe mèi mei de bāo , hòu lái mèi mei bǎ xìn dài zǒu . qián miàn de tā kàn zhe bāo zhǐ jiě jie , bù shì liǎng gè rén dōu kàn .",
+      "en": "The older sister watches the younger sister's bag. Later, the younger sister takes the letter away. In 'she watches the bag', 'she' refers to the older sister.",
+      "prompt": "前面的她指谁？",
+      "promptPy": "qián miàn de tā zhǐ shéi ?",
+      "choices": [
+        {
+          "zh": "姐姐。",
+          "py": "jiě jie .",
+          "en": "The older sister."
+        },
+        {
+          "zh": "妹妹。",
+          "py": "mèi mei .",
+          "en": "The younger sister."
+        },
+        {
+          "zh": "两人都指。",
+          "py": "liǎng rén dōu zhǐ .",
+          "en": "Both of them."
+        },
+        {
+          "zh": "作者。",
+          "py": "zuò zhě .",
+          "en": "The author."
+        }
+      ],
+      "answer": "姐姐。",
+      "explanation": "The text explicitly supplies the pronoun's referent.",
+      "id": "hsk4-bank-daily-29",
+      "unit": "sample"
+    },
+    {
+      "format": "listening",
+      "sentence": "你把她那句后半段再放一遍。我听见不是不好，但后面没听到，先别替她说完整个看法。",
+      "py": "nǐ bǎ tā nà jù hòu bàn duàn zài fàng yī biàn . wǒ tīng jiàn bù shì bù hǎo , dàn hòu miàn méi tīng dào , xiān bié tì tā shuō wán zhěng gè kàn fǎ .",
+      "en": "Replay the second half of her sentence. I heard 'it's not bad' but missed the rest. Don't give her complete opinion for her.",
+      "prompt": "为什么重放？",
+      "promptPy": "wèi shén me zhòng fàng ?",
+      "choices": [
+        {
+          "zh": "为了证明全懂。",
+          "py": "wèi le zhèng míng quán dǒng .",
+          "en": "To prove everything was understood."
+        },
+        {
+          "zh": "已知道所有意思。",
+          "py": "yǐ zhī dào suǒ yǒu yì si .",
+          "en": "All the meaning is already known."
+        },
+        {
+          "zh": "只想加快歌。",
+          "py": "zhǐ xiǎng jiā kuài gē .",
+          "en": "Only to speed up the song."
+        },
+        {
+          "zh": "补听缺的后半段。",
+          "py": "bǔ tīng quē de hòu bàn duàn .",
+          "en": "To hear the missing second half."
+        }
+      ],
+      "answer": "补听缺的后半段。",
+      "explanation": "The listener identifies a specific part they didn't hear.",
+      "id": "hsk4-bank-daily-30",
+      "unit": "sample"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
-import { useState, useSyncExternalStore } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import {
   allowDeviceProgress,
+  checkCloudConnection,
   deleteCloudData,
   getSyncStatus,
   pauseSync,
@@ -64,7 +65,9 @@ export function SyncPanel() {
   const [confirmDelete, setConfirmDelete] = useState(false),
     [confirmResume, setConfirmResume] = useState(false),
     [busy, setBusy] = useState(false),
+    [connection, setConnection] = useState(""),
     [error, setError] = useState("");
+  useEffect(() => setConnection(""), [state.account?.id]);
   const allowed =
     !!state.account &&
     !["consent", "account-mismatch", "unconfigured"].includes(state.phase);
@@ -148,6 +151,25 @@ export function SyncPanel() {
             Cancel
           </button>
         </div>
+      )}
+      {state.account && (
+        <button
+          className="text-button"
+          disabled={busy || state.phase === "syncing"}
+          onClick={() =>
+            void run(async () => {
+              setConnection("");
+              setConnection(await checkCloudConnection());
+            })
+          }
+        >
+          Check cloud connection
+        </button>
+      )}
+      {connection && (
+        <p className="small" role="status">
+          {connection}
+        </p>
       )}
       {confirmDelete && (
         <div className="confirm-box danger">

@@ -11,8 +11,8 @@ export function OfflinePanel() {
     [note, setNote] = useState("");
   const abort = useRef<AbortController | null>(null);
   const refresh = () => {
-    void savedClipCount().then(setSaved);
-    void storageInfo().then(setInfo);
+    void savedClipCount().then(setSaved).catch(() => setNote("The browser couldn’t check saved audio. Try opening Settings again."));
+    void storageInfo().then(setInfo).catch(() => setInfo(null));
   };
   useEffect(() => {
     refresh();
@@ -21,9 +21,10 @@ export function OfflinePanel() {
   async function saveAll() {
     abort.current = new AbortController();
     setNote("");
+    setProgress(saved ?? 0);
     try {
-      const { failed } = await saveAllAudio((done) => setProgress(done), abort.current.signal);
-      setNote(failed ? `${failed} clips couldn’t download. Try again when you’re online.` : "All of Sayo’s audio is saved on this device.");
+      const { failed, cancelled } = await saveAllAudio((done) => setProgress(done), abort.current.signal);
+      setNote(cancelled ? "Download stopped. Saved clips are kept; resume whenever you’re ready." : failed ? `${failed} clips couldn’t download. Try again when you’re online.` : "All of Sayo’s audio is saved on this device.");
     } catch (e) {
       if (!abort.current.signal.aborted) setNote((e as Error).message);
     } finally {
@@ -96,7 +97,7 @@ function DictionaryPanel() {
     void dictManifest().then(async (m) => {
       setManifest(m);
       if (m) setSaved(await savedShardCount(m.shards));
-    });
+    }).catch(() => setNote("The browser couldn’t check saved dictionary files. Try opening Settings again."));
     return () => abort.current?.abort();
   }, []);
   if (!manifest) return null;
@@ -104,14 +105,16 @@ function DictionaryPanel() {
   async function save() {
     abort.current = new AbortController();
     setNote("");
+    setProgress(saved ?? 0);
     try {
-      const { failed } = await saveDictionary(manifest!.shards, setProgress, abort.current.signal);
-      setNote(failed ? `${failed} parts couldn’t download. Try again when you’re online.` : "The whole dictionary is saved on this device.");
+      const { failed, cancelled } = await saveDictionary(manifest!.shards, setProgress, abort.current.signal);
+      setNote(cancelled ? "Download stopped. Saved dictionary files are kept; resume whenever you’re ready." : failed ? `${failed} parts couldn’t download. Try again when you’re online.` : "The whole dictionary is saved on this device.");
     } catch (e) {
       if (!abort.current.signal.aborted) setNote((e as Error).message);
     } finally {
       setProgress(null);
-      setSaved(await savedShardCount(manifest!.shards));
+      try { setSaved(await savedShardCount(manifest!.shards)); }
+      catch { setNote("The browser couldn’t check saved dictionary files. Try opening Settings again."); }
     }
   }
   return (

@@ -1,8 +1,12 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
-import audioAssets from "./src/audio-assets.json";
-import brandAssets from "./src/brand-assets.json";
+import audioAssets from "./src/audio-assets.json" with { type: "json" };
+import brandAssets from "./src/brand-assets.json" with { type: "json" };
+import { compactAudioCatalog } from "./scripts/compact-audio-catalog.ts";
+import { compactCourseData, courseDataPages } from "./scripts/compact-course-data.ts";
+import { readFileSync } from "node:fs";
+const coursePages = courseDataPages(JSON.parse(readFileSync(new URL("./src/generated/packs.json", import.meta.url), "utf8")));
 // An explicit offline download must fit the installed catalog, including future levels.
 const audioCacheCapacity = Math.max(
   6000,
@@ -12,6 +16,36 @@ const audioCacheCapacity = Math.max(
 export default defineConfig({
   plugins: [
     react(),
+    {
+      name: "compact-sayo-catalog",
+      enforce: "pre",
+      apply: "build",
+      resolveId(source, importer) {
+        if (source.endsWith("audio-assets.json") && importer?.replace(/\\/g, "/").includes("/src/"))
+          return "\0kiyo-audio-catalog";
+      },
+      load(id) {
+        if (id === "\0kiyo-audio-catalog") return compactAudioCatalog(audioAssets);
+      },
+    },
+    {
+      name: "compact-course-data",
+      enforce: "pre",
+      apply: "build",
+      resolveId(source, importer) {
+        if (/^\0kiyo-course-page:\d+$/.test(source)) return source;
+        if (source.endsWith("generated/packs.json") && importer?.replace(/\\/g, "/").includes("/src/"))
+          return "\0kiyo-course-data";
+      },
+      load(id) {
+        if (id === "\0kiyo-course-data") {
+          const imports = coursePages.map((_, i) => `import page${i} from ${JSON.stringify(`\0kiyo-course-page:${i}`)};`).join("\n");
+          return `${imports}\nexport default [${coursePages.map((_,i) => `...page${i}`).join(",")}];`;
+        }
+        const match = id.match(/^\0kiyo-course-page:(\d+)$/);
+        if (match && coursePages[Number(match[1])]) return compactCourseData(coursePages[Number(match[1])]);
+      },
+    },
     VitePWA({
       registerType: "prompt",
       includeAssets: [brandAssets.icon32.src.slice(1), "favicon.ico", "icon.svg"],
@@ -141,8 +175,9 @@ export default defineConfig({
       output: {
         codeSplitting: {
           groups: [
-            { name: "course-data", test: /generated[\\/]packs\.json$/ },
-            { name: "audio-catalog", test: /src[\\/]audio-assets\.json$/ },
+            ...coursePages.map((_, i) => ({ name: `course-page-${i + 1}`, test: new RegExp(`kiyo-course-page:${i}$`) })),
+            { name: "course-data", test: /kiyo-course-data|generated[\\/]packs\.json$/ },
+            { name: "audio-catalog", test: /kiyo-audio-catalog|src[\\/]audio-assets\.json$/ },
           ],
         },
       },

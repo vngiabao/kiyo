@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useState } from "react";
+import { lazy, Suspense, useEffect, useRef, useState, type MouseEvent } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
 import {
   ArrowUpRight,
@@ -65,12 +65,14 @@ const Conversation = lazy(() => import("./Conversation"));
 const MediaLab = lazy(() => import("./MediaLab"));
 const Practice = lazy(() => import("./Practice"));
 const Hsk = lazy(() => import("./Hsk"));
+const CourseLibrary = lazy(() => import("./CourseLibrary"));
 const Review = lazy(() =>
   import("./Practice").then((m) => ({ default: m.Review })),
 );
 
 type Route =
   | "today"
+  | "library"
   | "read"
   | "learn"
   | "practice"
@@ -85,6 +87,7 @@ type Route =
 type LessonMode = "lesson" | "listening" | "assessment";
 const nav: { id: Route; label: string; zh: string; mobile?: boolean }[] = [
   { id: "today", label: "Today", zh: "今天", mobile: true },
+  { id: "library", label: "Course library", zh: "课程" },
   { id: "read", label: "Read", zh: "读", mobile: true },
   { id: "learn", label: "Listen", zh: "听", mobile: true },
   { id: "speak", label: "Speak", zh: "说", mobile: true },
@@ -123,6 +126,19 @@ export default function App() {
     [more, setMore] = useState(false),
     [online, setOnline] = useState(navigator.onLine),
     [storageError, setStorageError] = useState("");
+  const menu = useRef<HTMLDialogElement>(null);
+  const moreTrigger = useRef<HTMLButtonElement | null>(null);
+  const openMore = (event: MouseEvent<HTMLButtonElement>) => {
+    moreTrigger.current = event.currentTarget;
+    setMore(true);
+  };
+  useEffect(() => {
+    if (more && menu.current && !menu.current.open) menu.current.showModal();
+    if (!more && menu.current?.open) {
+      menu.current.close();
+      moreTrigger.current?.focus();
+    }
+  }, [more]);
   useEffect(() => {
     const sync = () => {
       if (location.hash === "#main") return;
@@ -264,6 +280,9 @@ export default function App() {
           ))}
         </nav>
         <div className="masthead-tools">
+          <button className="text-button desktop-more" aria-controls="study-menu" aria-haspopup="dialog" aria-expanded={more} onClick={openMore}>
+            More <DotsThree size={20} />
+          </button>
           {!online && (
             <span className="offline-note">
               Offline · local learning available
@@ -309,6 +328,10 @@ export default function App() {
               onReading={setReading}
             />
           )}
+          {route === "library" && <CourseLibrary onLesson={openLesson} onReading={setReading} onSpeak={(id) => {
+            navigate("speak");
+            setSpeakScenario(id);
+          }} />}
           {route === "learn" && (
             <Learn
               onLesson={openLesson}
@@ -366,7 +389,9 @@ export default function App() {
         <button
           className={!current?.mobile && route !== "today" ? "active" : ""}
           aria-expanded={more}
-          onClick={() => setMore(true)}
+          aria-controls="study-menu"
+          aria-haspopup="dialog"
+          onClick={openMore}
         >
           <span className="tab-zh" aria-hidden>
             <DotsThree size={22} weight="bold" />
@@ -374,21 +399,13 @@ export default function App() {
           <span>More</span>
         </button>
       </nav>
-      <div
-        className={`drawer-scrim ${more ? "open" : ""}`}
-        onClick={() => setMore(false)}
-        aria-hidden={!more}
-      >
-        <div
-          className="drawer"
-          role="dialog"
-          aria-modal="true"
-          aria-label="More sections"
-          onClick={(e) => e.stopPropagation()}
-        >
-          <span className="drawer-handle" aria-hidden />
+      <dialog ref={menu} id="study-menu" className="study-menu" aria-labelledby="study-menu-title"
+        onClose={() => setMore(false)} onClick={(e) => { if (e.target === e.currentTarget) setMore(false); }}>
+        <header><h2 id="study-menu-title">Your study desk</h2><button className="icon-button" aria-label="Close study desk" onClick={() => setMore(false)}><X size={20} /></button></header>
+        <nav aria-label="More navigation">
           {(
             [
+              ["library", "Course library", "课程"],
               ["practice", "Practice", "练"],
               ["hsk", "HSK", "考"],
               ["media", "Media", "看"],
@@ -396,11 +413,11 @@ export default function App() {
               ["progress", "Progress", "进步"],
               ["dictionary", "Dictionary", "词典"],
               ["settings", "Settings", "设置"],
+              ["mascot", "Sayo & her voice", "小夜"],
             ] as [Route, string, string][]
           ).map(([id, label, zh]) => (
             <button
               key={id}
-              tabIndex={more ? 0 : -1}
               onClick={() => navigate(id)}
             >
               <span lang="zh-CN" aria-hidden>
@@ -409,8 +426,8 @@ export default function App() {
               {label}
             </button>
           ))}
-        </div>
-      </div>
+        </nav>
+      </dialog>
     </div>
   );
 }

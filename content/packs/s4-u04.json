@@ -1,0 +1,1298 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u04",
+    "stage": 3,
+    "order": 112,
+    "title": "Follow the letter, not just the face",
+    "titleZh": "那封信究竟给谁",
+    "canDo": [
+      "Recover a missed line from an original drama scene",
+      "Separate visible clues from interpretation",
+      "Discuss a character’s possible intention without revealing the ending"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u03",
+      "s4-u03-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u04-w01",
+      "hanzi": "镜头",
+      "pinyin": "jìng tóu",
+      "meaning": "shot; camera view",
+      "meaningVi": "cảnh quay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个镜头一直对着门口。",
+        "py": "zhè gè jìng tóu yì zhí duì zhe mén kǒu .",
+        "en": "This shot keeps the doorway in view."
+      },
+      "usageNote": "[GF2021:L4:4415] Source entry: 镜头; jìngtóu; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w02",
+      "hanzi": "角色",
+      "pinyin": "jué sè",
+      "meaning": "role; fictional character",
+      "meaningVi": "vai; nhân vật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她在剧里演一个医生的角色。",
+        "py": "tā zài jù lǐ yǎn yī gè yī shēng de jué sè .",
+        "en": "She plays a doctor in the drama."
+      },
+      "usageNote": "[GF2021:L4:4542] Source entry: 角色; juésè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w03",
+      "hanzi": "背景",
+      "pinyin": "bèi jǐng",
+      "meaning": "background; setting",
+      "meaningVi": "bối cảnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "故事的背景是一座小城市。",
+        "py": "gù shì de bèi jǐng shì yī zuò xiǎo chéng shì .",
+        "en": "The story is set in a small city."
+      },
+      "usageNote": "[GF2021:L4:281] Source entry: 背景; bèijǐng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w04",
+      "hanzi": "描述",
+      "pinyin": "miáo shù",
+      "meaning": "describe",
+      "meaningVi": "miêu tả",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你能描述一下她最后的表情吗？",
+        "py": "nǐ néng miáo shù yī xià tā zuì hòu de biǎo qíng ma ?",
+        "en": "Could you describe her final expression?"
+      },
+      "usageNote": "[GF2021:L4:5595] Source entry: 描述; miáoshù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w05",
+      "hanzi": "秘密",
+      "pinyin": "mì mì",
+      "meaning": "secret",
+      "meaningVi": "bí mật",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她把这个秘密告诉了姐姐。",
+        "py": "tā bǎ zhè gè mì mì gào sù le jiě jie .",
+        "en": "She told her sister this secret."
+      },
+      "usageNote": "[GF2021:L4:5550] Source entry: 秘密; mìmì; 形、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w06",
+      "hanzi": "甚至",
+      "pinyin": "shèn zhì",
+      "meaning": "even",
+      "meaningVi": "thậm chí",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "他太忙了，甚至忘了今天是星期几。",
+        "py": "tā tài máng le , shèn zhì wàng le jīn tiān shì xīng qī jǐ .",
+        "en": "He was so busy he even forgot what day it was."
+      },
+      "usageNote": "[GF2021:L4:7101] Source entry: 甚至; shènzhì; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w07",
+      "hanzi": "保密",
+      "pinyin": "bǎo mì",
+      "meaning": "keep confidential",
+      "meaningVi": "giữ bí mật",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这件事先保密，周五再告诉她。",
+        "py": "zhè jiàn shì xiān bǎo mì , zhōu wǔ zài gào sù tā .",
+        "en": "Keep this quiet for now; we’ll tell her on Friday."
+      },
+      "usageNote": "[GF2021:L4:203] Source entry: 保密; bǎo∥mì; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w08",
+      "hanzi": "出色",
+      "pinyin": "chū sè",
+      "meaning": "excellent; outstanding",
+      "meaningVi": "xuất sắc",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她在这部电影里的表演很出色。",
+        "py": "tā zài zhè bù diàn yǐng lǐ de biǎo yǎn hěn chū sè .",
+        "en": "Her performance in this film is excellent."
+      },
+      "usageNote": "[GF2021:L4:1141] Source entry: 出色; chūsè; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w09",
+      "hanzi": "沉重",
+      "pinyin": "chén zhòng",
+      "meaning": "heavy; serious in mood",
+      "meaningVi": "nặng nề",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个故事的后半段很沉重。",
+        "py": "zhè gè gù shì de hòu bàn duàn hěn chén zhòng .",
+        "en": "The second half of this story is emotionally heavy."
+      },
+      "usageNote": "[GF2021:L4:931] Source entry: 沉重; chénzhòng; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u04-w10",
+      "hanzi": "回",
+      "pinyin": "huí",
+      "meaning": "turn; instance",
+      "meaningVi": "lần",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这回我终于听懂她为什么笑了。",
+        "py": "zhè huí wǒ zhōng yú tīng dǒng tā wèi shén me xiào le .",
+        "en": "This time I finally understood why she laughed."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u04-w11",
+      "hanzi": "段",
+      "pinyin": "duàn",
+      "meaning": "section; passage",
+      "meaningVi": "đoạn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "这一段只有两个人说话。",
+        "py": "zhè yī duàn zhǐ yǒu liǎng gè rén shuō huà .",
+        "en": "Only two people speak in this section."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u04-w12",
+      "hanzi": "反应",
+      "pinyin": "fǎn yìng",
+      "meaning": "reaction",
+      "meaningVi": "phản ứng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "她听到名字以后，反应很奇怪。",
+        "py": "tā tīng dào míng zi yǐ hòu , fǎn yìng hěn qí guài .",
+        "en": "Her reaction after hearing the name was strange."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u04-w13",
+      "hanzi": "表现",
+      "pinyin": "biǎo xiàn",
+      "meaning": "performance; show",
+      "meaningVi": "thể hiện",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "他在比赛中的表现比上次好多了。",
+        "py": "tā zài bǐ sài zhōng de biǎo xiàn bǐ shàng cì hǎo duō le .",
+        "en": "His performance in the competition was much better than last time."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u04-w14",
+      "hanzi": "观众",
+      "pinyin": "guān zhòng",
+      "meaning": "audience",
+      "meaningVi": "khán giả",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "演出结束，观众都站起来鼓掌。",
+        "py": "yǎn chū jié shù , guān zhòng dōu zhàn qǐ lái gǔ zhǎng .",
+        "en": "At the end of the performance, the audience stood and applauded."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u04-w15",
+      "hanzi": "内容",
+      "pinyin": "nèi róng",
+      "meaning": "content",
+      "meaningVi": "nội dung",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这两封信的内容不一样。",
+        "py": "zhè liǎng fēng xìn de nèi róng bù yī yàng .",
+        "en": "The contents of these two letters differ."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u04-w16",
+      "hanzi": "误会",
+      "pinyin": "wù huì",
+      "meaning": "misunderstanding",
+      "meaningVi": "hiểu lầm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "她以为信是给自己的，结果闹了个误会。",
+        "py": "tā yǐ wéi xìn shì gěi zì jǐ de , jié guǒ nào le gè wù huì .",
+        "en": "She thought the letter was for her, which caused a misunderstanding."
+      },
+      "usageNote": "[GF2021:L4:8588] Source entry: 误会; wùhuì; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u04-g01",
+      "pattern": "不是…而是…",
+      "purpose": "Correct the specific alternative",
+      "explanation": "不是 rejects the first description and 而是 supplies the replacement. Both sides should answer the same implied question.",
+      "examples": [
+        {
+          "zh": "这封信不是给她的，而是给她姐姐的。",
+          "py": "zhè fēng xìn bù shì gěi tā de , ér shì gěi tā jiě jie de .",
+          "en": "This letter is for her sister, not for her."
+        },
+        {
+          "zh": "我不是不想看，而是今天没时间。",
+          "py": "wǒ bù shì bù xiǎng kàn , ér shì jīn tiān méi shí jiān .",
+          "en": "It isn’t that I don’t want to watch; I don’t have time today."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这封信不是给她的，而且给她姐姐。",
+          "right": "这封信不是给她的，而是给她姐姐的。",
+          "why": "而是 introduces the corrected alternative; 而且 adds another item."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u04-g02",
+      "pattern": "连…都…",
+      "purpose": "Highlight an extreme or unexpected included case",
+      "explanation": "Put the especially surprising case after 连. 都 or 也 follows it. The emphasis comes from context, not from an automatic negative meaning.",
+      "examples": [
+        {
+          "zh": "你连信封的颜色都记得。",
+          "py": "nǐ lián xìn fēng de yán sè dōu jì de .",
+          "en": "You even remember the colour of the envelope."
+        },
+        {
+          "zh": "我连她的手都没看见。",
+          "py": "wǒ lián tā de shǒu dōu méi kàn jiàn .",
+          "en": "I didn’t even notice her hand."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你连都信封的颜色记得。",
+          "right": "你连信封的颜色都记得。",
+          "why": "The highlighted phrase belongs between 连 and 都."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u04-g03",
+      "pattern": "与其…不如…",
+      "purpose": "Prefer one approach over another",
+      "explanation": "The first approach is the less preferred one; the second follows 不如. This compares choices rather than measuring one person’s ability against another’s.",
+      "examples": [
+        {
+          "zh": "与其听你解释，不如我自己看。",
+          "py": "yǔ qí tīng nǐ jiě shì , bù rú wǒ zì jǐ kàn .",
+          "en": "Rather than listening to your explanation, I’d prefer to watch for myself."
+        },
+        {
+          "zh": "与其一次看完，不如一段一段看。",
+          "py": "yǔ qí yī cì kàn wán , bù rú yī duàn yī duàn kàn .",
+          "en": "Rather than watching it all at once, it’s better to watch section by section."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "与其我自己看，不如听你解释，所以我决定自己看。",
+          "right": "与其听你解释，不如我自己看。",
+          "why": "The chosen approach must follow 不如 in this comparison."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u04-g04",
+      "pattern": "竟然 / 甚至",
+      "purpose": "Distinguish surprise from escalation",
+      "explanation": "竟然 marks something unexpected. 甚至 adds a case that goes further than what was already stated. Both need a meaningful context, not decoration.",
+      "examples": [
+        {
+          "zh": "她竟然记得十年前的那封信。",
+          "py": "tā jìng rán jì de shí nián qián de nà fēng xìn .",
+          "en": "She surprisingly remembers that letter from ten years ago."
+        },
+        {
+          "zh": "他不只记得内容，甚至记得信封的颜色。",
+          "py": "tā bù zhǐ jì de nèi róng , shèn zhì jì de xìn fēng de yán sè .",
+          "en": "He remembers not just the contents, but even the envelope’s colour."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "他甚至只记得内容，没有更多细节。",
+          "right": "他记得内容，甚至记得信封的颜色。",
+          "why": "The 甚至 case should extend the earlier claim, rather than merely restate a limited amount."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u04-d",
+    "title": "那封信究竟给谁",
+    "titleZh": "那封信究竟给谁",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "等一下，刚才她说什么？我只听到一个名字。",
+        "py": "děng yī xià , gāng cái tā shuō shén me ? wǒ zhǐ tīng dào yī gè míng zi .",
+        "en": "Wait, what did she say just now? I only caught a name.",
+        "speaker": "a"
+      },
+      {
+        "zh": "她说那封信不是给她的，而是给她姐姐的。",
+        "py": "tā shuō nà fēng xìn bù shì gěi tā de , ér shì gěi tā jiě jie de .",
+        "en": "She said the letter wasn’t for her; it was for her sister.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那她为什么还打开了？",
+        "py": "nà tā wèi shén me hái dǎ kāi le ?",
+        "en": "Then why did she open it anyway?",
+        "speaker": "a"
+      },
+      {
+        "zh": "她先打开才看见里面的名字。你看，信封上没写名字。",
+        "py": "tā xiān dǎ kāi cái kàn jiàn lǐ miàn de míng zi . nǐ kàn , xìn fēng shàng méi xiě míng zi .",
+        "en": "She opened it before seeing the name inside. Look, there’s no name on the envelope.",
+        "speaker": "b"
+      },
+      {
+        "zh": "哦，难怪她的表情突然变了。我以为她生气了。",
+        "py": "ó , nán guài tā de biǎo qíng tū rán biàn le . wǒ yǐ wéi tā shēng qì le .",
+        "en": "Oh, that explains why her expression suddenly changed. I thought she was angry.",
+        "speaker": "a"
+      },
+      {
+        "zh": "未必。她可能只是发现自己弄错了。我们再看一段。",
+        "py": "wèi bì . tā kě néng zhǐ shì fā xiàn zì jǐ nòng cuò le . wǒ men zài kàn yī duàn .",
+        "en": "Not necessarily. She may just have realised she was mistaken. Let’s watch a little more.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这个镜头里，桌上好像还有另一封信。",
+        "py": "zhè gè jìng tóu lǐ , zhuō shàng hǎo xiàng hái yǒu lìng yī fēng xìn .",
+        "en": "In this shot there seems to be another letter on the table.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，而且这封已经打开了。姐姐可能早就知道那件事。",
+        "py": "duì , ér qiě zhè fēng yǐ jīng dǎ kāi le . jiě jie kě néng zǎo jiù zhī dào nà jiàn shì .",
+        "en": "Yes, and that one is already open. Her sister may have known about it for a while.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你连信封的颜色都记得，我刚才只顾着看她的脸。",
+        "py": "nǐ lián xìn fēng de yán sè dōu jì de , wǒ gāng cái zhǐ gù zhe kàn tā de liǎn .",
+        "en": "You even remember the envelope’s colour. I was just watching her face.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我上回看过开头。你先别问最后怎么样，我不会说的。",
+        "py": "wǒ shàng huí kàn guò kāi tóu . nǐ xiān bié wèn zuì hòu zěn me yàng , wǒ bù huì shuō de .",
+        "en": "I watched the opening last time. Don’t ask how it ends yet; I’m not telling.",
+        "speaker": "b"
+      },
+      {
+        "zh": "行。与其听你解释，不如我自己看。就是得慢一点。",
+        "py": "xíng . yǔ qí tīng nǐ jiě shì , bù rú wǒ zì jǐ kàn . jiù shì děi màn yī diǎn .",
+        "en": "Fine. Rather than having you explain, I’d rather watch for myself. I just need to go a little slower.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那就一次看一段。等你看完，我们再谈这个角色。",
+        "py": "nà jiù yī cì kàn yī duàn . děng nǐ kàn wán , wǒ men zài tán zhè gè jué sè .",
+        "en": "Then let’s watch one section at a time. After you’ve finished, we can talk about the character.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "信封",
+        "pinyin": "xìn fēng",
+        "meaning": "envelope"
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiě jie",
+        "meaning": "older sister"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What are the friends trying to clarify?",
+        "choices": [
+          "Whom the letter was for and why the expression changed",
+          "How much the letter cost",
+          "Who directed a different programme"
+        ],
+        "answer": "Whom the letter was for and why the expression changed"
+      },
+      {
+        "type": "detail",
+        "q": "What is missing from the envelope?",
+        "choices": [
+          "A name",
+          "An address already read aloud",
+          "Every piece of paper"
+        ],
+        "answer": "A name"
+      },
+      {
+        "type": "inference",
+        "q": "Why does the experienced viewer refuse to explain the ending?",
+        "choices": [
+          "They want the other friend to watch it first",
+          "They have never seen any of the scene",
+          "They cannot remember the envelope colour"
+        ],
+        "answer": "They want the other friend to watch it first"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u04-r",
+    "title": "那封信究竟给谁",
+    "titleZh": "那封信究竟给谁",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "第一次看这段戏时，我以为妹妹故意打开姐姐的信。她拿着信沉默了很久，最后只说了一句“原来你早就知道”。",
+        "py": "dì yī cì kàn zhè duàn xì shí , wǒ yǐ wéi mèi mei gù yì dǎ kāi jiě jie de xìn . tā ná zhe xìn chén mò le hěn jiǔ , zuì hòu zhǐ shuō le yī jù yuán lái nǐ zǎo jiù zhī dào .",
+        "en": "The first time I watched this scene, I thought the younger sister deliberately opened her sister’s letter. She held it silently for a long time and finally said only, “So you knew all along.”"
+      },
+      {
+        "zh": "后来我重新看了前面的镜头。信封上没有名字，妹妹打开以后，才发现信里称呼的是姐姐。",
+        "py": "hòu lái wǒ chóng xīn kàn le qián miàn de jìng tóu . xìn fēng shàng méi yǒu míng zi , mèi mei dǎ kāi yǐ hòu , cái fā xiàn xìn lǐ chēng hū de shì jiě jie .",
+        "en": "Later I rewatched the earlier shots. There was no name on the envelope; only after opening it did the younger sister find it addressed to her older sister."
+      },
+      {
+        "zh": "桌上另一封信已经打开，旁边还放着姐姐的照片。妹妹看到这些，才说出最后那句话。",
+        "py": "zhuō shàng lìng yī fēng xìn yǐ jīng dǎ kāi , páng biān hái fàng zhe jiě jie de zhào piān . mèi mei kàn dào zhè xiē , cái shuō chū zuì hòu nà jù huà .",
+        "en": "Another letter on the table was already open, with a photo of the older sister beside it. The younger sister spoke her final line only after seeing these things."
+      },
+      {
+        "zh": "这些细节让我改变了对这个角色的印象。她未必是在责怪姐姐，也可能是在难过：姐姐一直知道，却没告诉她。",
+        "py": "zhè xiē xì jié ràng wǒ gǎi biàn le duì zhè gè jué sè de yìn xiàng . tā wèi bì shì zài zé guài jiě jie , yě kě néng shì zài nán guò : jiě jie yì zhí zhī dào , què méi gào sù tā .",
+        "en": "These details changed my impression of the character. She wasn’t necessarily blaming her sister; she might also have been hurt that her sister had known all along without telling her."
+      },
+      {
+        "zh": "不过，戏里没有直接解释姐姐为什么保密。直到下一段，我们才听见姐姐自己的回答。她说自己原来想等妹妹考试结束再谈。",
+        "py": "bù guò , xì lǐ méi yǒu zhí jiē jiě shì jiě jie wèi shén me bǎo mì . zhí dào xià yī duàn , wǒ men cái tīng jiàn jiě jie zì jǐ de huí dá . tā shuō zì jǐ yuán lái xiǎng děng mèi mei kǎo shì jié shù zài tán .",
+        "en": "But the scene didn’t directly explain why the older sister had kept it secret. Only in the next section did we hear her answer: she’d wanted to wait until her younger sister’s exams were over before discussing it."
+      },
+      {
+        "zh": "现在跟朋友谈这段戏，我会先描述看见和听见的细节，再说自己的理解。大家可以有不同看法，回去看看同一个镜头，反而更有意思。",
+        "py": "xiàn zài gēn péng you tán zhè duàn xì , wǒ huì xiān miáo shù kàn jiàn hé tīng jiàn de xì jié , zài shuō zì jǐ de lǐ jiě . dà jiā kě yǐ yǒu bù tóng kàn fǎ , huí qù kàn kàn tóng yī gè jìng tóu , fǎn ér gèng yǒu yì si .",
+        "en": "Now when discussing this scene with friends, I describe what I saw and heard before giving my interpretation. We can have different views; returning to the same shot makes it more interesting."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "信封",
+        "pinyin": "xìn fēng",
+        "meaning": "envelope"
+      },
+      {
+        "hanzi": "妹妹",
+        "pinyin": "mèi mei",
+        "meaning": "younger sister"
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiě jie",
+        "meaning": "older sister"
+      },
+      {
+        "hanzi": "责怪",
+        "pinyin": "zé guài",
+        "meaning": "blame"
+      },
+      {
+        "hanzi": "故意",
+        "pinyin": "gù yì",
+        "meaning": "deliberately"
+      },
+      {
+        "hanzi": "称呼",
+        "pinyin": "chēng hū",
+        "meaning": "address someone by a name or title"
+      },
+      {
+        "hanzi": "沉默",
+        "pinyin": "chén mò",
+        "meaning": "silence; remain silent"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What changed the narrator’s interpretation?",
+        "choices": [
+          "Rewatching the letter and photo details",
+          "Learning a new actor’s name",
+          "Skipping every earlier shot"
+        ],
+        "answer": "Rewatching the letter and photo details"
+      },
+      {
+        "type": "detail",
+        "q": "Why did the older sister say she had waited?",
+        "choices": [
+          "She wanted the younger sister’s exams to finish",
+          "She had lost both letters",
+          "She had never read any letter"
+        ],
+        "answer": "She wanted the younger sister’s exams to finish"
+      },
+      {
+        "type": "inference",
+        "q": "Which point is presented as an interpretation rather than a direct statement?",
+        "choices": [
+          "The younger sister may feel hurt about not being told",
+          "The envelope has no name",
+          "The older sister says she waited for the exams"
+        ],
+        "answer": "The younger sister may feel hurt about not being told"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u04-media",
+      "title": "Look at the right-hand side",
+      "titleZh": "Look at the right-hand side",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你都看过了，还跟着紧张？",
+          "py": "nǐ dōu kàn guò le , hái gēn zhe jǐn zhāng ?",
+          "en": "You’ve already seen it. Why are you still getting nervous?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我看过开头，没看过最后。",
+          "py": "wǒ kàn guò kāi tóu , méi kàn guò zuì hòu .",
+          "en": "I’ve seen the opening, not the ending.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那你刚才怎么知道她会打开信？",
+          "py": "nà nǐ gāng cái zěn me zhī dào tā huì dǎ kāi xìn ?",
+          "en": "Then how did you know she’d open the letter?",
+          "speaker": "a"
+        },
+        {
+          "zh": "她手都放在信封上了，我也是看出来的。",
+          "py": "tā shǒu dōu fàng zài xìn fēng shàng le , wǒ yě shì kàn chū lái de .",
+          "en": "Her hand was already on the envelope. I worked it out from what I saw too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我连她的手都没看见，光看那张照片了。",
+          "py": "wǒ lián tā de shǒu dōu méi kàn jiàn , guāng kàn nà zhāng zhào piān le .",
+          "en": "I didn’t even notice her hand. I was just looking at the photo.",
+          "speaker": "a"
+        },
+        {
+          "zh": "难怪。你把这段倒回去，看右边。",
+          "py": "nán guài . nǐ bǎ zhè duàn dào huí qù , kàn yòu biān .",
+          "en": "That explains it. Go back through this section and look on the right.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好。你保密，别先告诉我。",
+          "py": "hǎo . nǐ bǎo mì , bié xiān gào sù wǒ .",
+          "en": "Okay. Keep it secret—don’t tell me first.",
+          "speaker": "a"
+        },
+        {
+          "zh": "知道了。今天我连一句多余的话都不说。",
+          "py": "zhī dào le . jīn tiān wǒ lián yī jù duō yú de huà dōu bù shuō .",
+          "en": "I know. Today I won’t say even one word more than necessary.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "信封",
+          "pinyin": "xìn fēng",
+          "meaning": "envelope"
+        },
+        {
+          "hanzi": "多余",
+          "pinyin": "duō yú",
+          "meaning": "unnecessary; extra"
+        },
+        {
+          "hanzi": "倒回去",
+          "pinyin": "dào huí qù",
+          "meaning": "go back in a recording here"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Which part has the friend already watched?",
+          "choices": [
+            "The opening",
+            "The whole ending",
+            "None of the scene"
+          ],
+          "answer": "The opening"
+        },
+        {
+          "type": "inference",
+          "q": "Why did the other friend miss the hand?",
+          "choices": [
+            "They were concentrating on the photo",
+            "The screen was turned off",
+            "There was no envelope in the shot"
+          ],
+          "answer": "They were concentrating on the photo"
+        }
+      ]
+    },
+    {
+      "id": "s4-u04-word-notebook",
+      "title": "Follow the letter, not just the face: words in context",
+      "titleZh": "那封信究竟给谁 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这个镜头一直对着门口。",
+          "py": "zhè gè jìng tóu yì zhí duì zhe mén kǒu .",
+          "en": "This shot keeps the doorway in view."
+        },
+        {
+          "zh": "最后一个镜头里，桌上多了一封信。",
+          "py": "zuì hòu yī gè jìng tóu lǐ , zhuō shàng duō le yī fēng xìn .",
+          "en": "In the final shot, there is an extra letter on the table."
+        },
+        {
+          "zh": "她在剧里演一个医生的角色。",
+          "py": "tā zài jù lǐ yǎn yī gè yī shēng de jué sè .",
+          "en": "She plays a doctor in the drama."
+        },
+        {
+          "zh": "这个角色到最后才说出自己的名字。",
+          "py": "zhè gè jué sè dào zuì hòu cái shuō chū zì jǐ de míng zi .",
+          "en": "This character reveals their name only at the end."
+        },
+        {
+          "zh": "故事的背景是一座小城市。",
+          "py": "gù shì de bèi jǐng shì yī zuò xiǎo chéng shì .",
+          "en": "The story is set in a small city."
+        },
+        {
+          "zh": "不了解当时的背景，很难懂这句话。",
+          "py": "bù liǎo jiě dāng shí de bèi jǐng , hěn nán dǒng zhè jù huà .",
+          "en": "Without the background at that time, this remark is hard to understand."
+        },
+        {
+          "zh": "你能描述一下她最后的表情吗？",
+          "py": "nǐ néng miáo shù yī xià tā zuì hòu de biǎo qíng ma ?",
+          "en": "Could you describe her final expression?"
+        },
+        {
+          "zh": "信里描述了他们第一次见面的地方。",
+          "py": "xìn lǐ miáo shù le tā men dì yī cì jiàn miàn de dì fāng .",
+          "en": "The letter describes where they first met."
+        },
+        {
+          "zh": "她把这个秘密告诉了姐姐。",
+          "py": "tā bǎ zhè gè mì mì gào sù le jiě jie .",
+          "en": "She told her sister this secret."
+        },
+        {
+          "zh": "他们准备给朋友过生日，暂时要保守秘密。",
+          "py": "tā men zhǔn bèi gěi péng you guò shēng rì , zàn shí yào bǎo shǒu mì mì .",
+          "en": "They’re preparing a birthday celebration for their friend and need to keep it secret for now."
+        },
+        {
+          "zh": "他太忙了，甚至忘了今天是星期几。",
+          "py": "tā tài máng le , shèn zhì wàng le jīn tiān shì xīng qī jǐ .",
+          "en": "He was so busy he even forgot what day it was."
+        },
+        {
+          "zh": "这段话很难，我甚至听了五遍。",
+          "py": "zhè duàn huà hěn nán , wǒ shèn zhì tīng le wǔ biàn .",
+          "en": "This passage is so difficult I listened to it five times."
+        },
+        {
+          "zh": "这件事先保密，周五再告诉她。",
+          "py": "zhè jiàn shì xiān bǎo mì , zhōu wǔ zài gào sù tā .",
+          "en": "Keep this quiet for now; we’ll tell her on Friday."
+        },
+        {
+          "zh": "请替我保密，我想给他一个惊喜。",
+          "py": "qǐng tì wǒ bǎo mì , wǒ xiǎng gěi tā yī gè jīng xǐ .",
+          "en": "Please keep this secret for me; I want to surprise him."
+        },
+        {
+          "zh": "她在这部电影里的表演很出色。",
+          "py": "tā zài zhè bù diàn yǐng lǐ de biǎo yǎn hěn chū sè .",
+          "en": "Her performance in this film is excellent."
+        },
+        {
+          "zh": "他出色地完成了第一次演出。",
+          "py": "tā chū sè de wán chéng le dì yī cì yǎn chū .",
+          "en": "He did an excellent job in his first performance."
+        },
+        {
+          "zh": "这个故事的后半段很沉重。",
+          "py": "zhè gè gù shì de hòu bàn duàn hěn chén zhòng .",
+          "en": "The second half of this story is emotionally heavy."
+        },
+        {
+          "zh": "他带着沉重的心情离开了医院。",
+          "py": "tā dài zhe chén zhòng de xīn qíng lí kāi le yī yuàn .",
+          "en": "He left the hospital feeling weighed down."
+        },
+        {
+          "zh": "这回我终于听懂她为什么笑了。",
+          "py": "zhè huí wǒ zhōng yú tīng dǒng tā wèi shén me xiào le .",
+          "en": "This time I finally understood why she laughed."
+        },
+        {
+          "zh": "上回你说这家店关了，现在又开了吗？",
+          "py": "shàng huí nǐ shuō zhè jiā diàn guān le , xiàn zài yòu kāi le ma ?",
+          "en": "Last time you said this shop had closed. Has it reopened?"
+        },
+        {
+          "zh": "这一段只有两个人说话。",
+          "py": "zhè yī duàn zhǐ yǒu liǎng gè rén shuō huà .",
+          "en": "Only two people speak in this section."
+        },
+        {
+          "zh": "把最后一段再放一遍吧。",
+          "py": "bǎ zuì hòu yī duàn zài fàng yī biàn ba .",
+          "en": "Please play the last section again."
+        },
+        {
+          "zh": "她听到名字以后，反应很奇怪。",
+          "py": "tā tīng dào míng zi yǐ hòu , fǎn yìng hěn qí guài .",
+          "en": "Her reaction after hearing the name was strange."
+        },
+        {
+          "zh": "我的反应慢了一点，没接上他的玩笑。",
+          "py": "wǒ de fǎn yìng màn le yī diǎn , méi jiē shàng tā de wán xiào .",
+          "en": "I reacted a little slowly and missed his joke."
+        },
+        {
+          "zh": "他在比赛中的表现比上次好多了。",
+          "py": "tā zài bǐ sài zhōng de biǎo xiàn bǐ shàng cì hǎo duō le .",
+          "en": "His performance in the competition was much better than last time."
+        },
+        {
+          "zh": "她没有表现出不高兴。",
+          "py": "tā méi yǒu biǎo xiàn chū bù gāo xìng .",
+          "en": "She didn’t show that she was unhappy."
+        },
+        {
+          "zh": "演出结束，观众都站起来鼓掌。",
+          "py": "yǎn chū jié shù , guān zhòng dōu zhàn qǐ lái gǔ zhǎng .",
+          "en": "At the end of the performance, the audience stood and applauded."
+        },
+        {
+          "zh": "观众最想知道的是信里写了什么。",
+          "py": "guān zhòng zuì xiǎng zhī dào de shì xìn lǐ xiě le shén me .",
+          "en": "What the audience most wants to know is what the letter says."
+        },
+        {
+          "zh": "这两封信的内容不一样。",
+          "py": "zhè liǎng fēng xìn de nèi róng bù yī yàng .",
+          "en": "The contents of these two letters differ."
+        },
+        {
+          "zh": "标题很短，内容却有好几页。",
+          "py": "biāo tí hěn duǎn , nèi róng què yǒu hǎo jǐ yè .",
+          "en": "The title is short, but the content runs to several pages."
+        },
+        {
+          "zh": "她以为信是给自己的，结果闹了个误会。",
+          "py": "tā yǐ wéi xìn shì gěi zì jǐ de , jié guǒ nào le gè wù huì .",
+          "en": "She thought the letter was for her, which caused a misunderstanding."
+        },
+        {
+          "zh": "这个误会到最后才解释清楚。",
+          "py": "zhè gè wù huì dào zuì hòu cái jiě shì qīng chǔ .",
+          "en": "This misunderstanding is only cleared up at the end."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "姐姐",
+          "pinyin": "jiě jie",
+          "meaning": "older sister"
+        },
+        {
+          "hanzi": "保守秘密",
+          "pinyin": "bǎo shǒu mì mì",
+          "meaning": "keep a secret"
+        },
+        {
+          "hanzi": "惊喜",
+          "pinyin": "jīng xǐ",
+          "meaning": "pleasant surprise"
+        },
+        {
+          "hanzi": "鼓掌",
+          "pinyin": "gǔ zhǎng",
+          "meaning": "applaud"
+        }
+      ],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u04-c",
+    "title": "Follow the letter, not just the face",
+    "place": "Watching an original drama together",
+    "context": "You missed a line and need to work out whom the letter is addressed to.",
+    "goal": "Recover a missed line from an original drama scene",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "信是给谁的？",
+        "pinyin": "xìn shì gěi shéi de ?",
+        "meaning": "Whom is the letter for?",
+        "intent": "Correct the mistaken recipient",
+        "examples": [
+          "不是给她的，而是给她姐姐的。"
+        ],
+        "accept": [
+          "^不是给她的，而是给她姐姐的。[。！？]?$"
+        ]
+      },
+      {
+        "text": "她为什么沉默？",
+        "pinyin": "tā wèi shén me chén mò ?",
+        "meaning": "Why is she silent?",
+        "intent": "Offer an interpretation as a possibility",
+        "examples": [
+          "她可能是难过，不一定是生气。"
+        ],
+        "accept": [
+          "^她可能是难过，不一定是生气。[。！？]?$"
+        ]
+      },
+      {
+        "text": "要不要我告诉你最后怎么样？",
+        "pinyin": "yào bù yào wǒ gào sù nǐ zuì hòu zěn me yàng ?",
+        "meaning": "Shall I tell you how it ends?",
+        "intent": "Decline the spoiler and ask to watch first",
+        "examples": [
+          "先别告诉我，我自己看。"
+        ],
+        "accept": [
+          "^先别告诉我，我自己看。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Recover a line",
+      "natural": {
+        "zh": "刚才那句话我没听清，能倒回去吗？",
+        "py": "gāng cái nà jù huà wǒ méi tīng qīng , néng dào huí qù ma ?",
+        "en": "I didn’t catch that line. Could we go back?"
+      },
+      "note": "Ask for the missing span; hearing a sound and understanding its implication are different tasks."
+    },
+    {
+      "situation": "Offer a reading of a character",
+      "natural": {
+        "zh": "我觉得她可能有点难过。",
+        "py": "wǒ jué de tā kě néng yǒu diǎn nán guò .",
+        "en": "I think she might feel a little hurt."
+      },
+      "note": "我觉得 and 可能 keep the interpretation distinct from an explicit line in the scene."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u04-t01",
+      "phrase": "s4-u04-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "她说那封信不是给她的，而是给她姐姐的。",
+        "py": "tā shuō nà fēng xìn bù shì gěi tā de , ér shì gěi tā jiě jie de .",
+        "en": "She said the letter wasn’t for her; it was for her sister."
+      },
+      "statement": "The letter is addressed to the younger sister herself.",
+      "answer": false,
+      "why": "It is for her older sister."
+    },
+    {
+      "id": "s4-u04-t02",
+      "phrase": "s4-u04-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "不过，戏里没有直接解释姐姐为什么保密。直到下一段，我们才听见姐姐自己的回答。她说自己原来想等妹妹考试结束再谈。",
+        "py": "bù guò , xì lǐ méi yǒu zhí jiē jiě shì jiě jie wèi shén me bǎo mì . zhí dào xià yī duàn , wǒ men cái tīng jiàn jiě jie zì jǐ de huí dá . tā shuō zì jǐ yuán lái xiǎng děng mèi mei kǎo shì jié shù zài tán .",
+        "en": "But the scene didn’t directly explain why the older sister had kept it secret. Only in the next section did we hear her answer: she’d wanted to wait until her younger sister’s exams were over before discussing it."
+      },
+      "statement": "The older sister says she wanted to wait until the exams finished.",
+      "answer": true,
+      "why": "This is reported as her own explanation."
+    },
+    {
+      "id": "s4-u04-t03",
+      "phrase": "s4-u04-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "我想自己看完再聊。你现在要直接告诉我结尾吗？",
+        "py": "wǒ xiǎng zì jǐ kàn wán zài liáo . nǐ xiàn zài yào zhí jiē gào sù wǒ jié wěi ma ?",
+        "en": "I want to watch it myself before discussing it. Are you going to tell me the ending now?"
+      },
+      "choices": [
+        "先不说，你看完我们再聊。",
+        "不用看了，我现在把最后一幕讲完。",
+        "可以，你已经说想先听结尾。"
+      ],
+      "answer": "先不说，你看完我们再聊。",
+      "why": "The reply preserves the friend’s chance to watch first."
+    },
+    {
+      "id": "s4-u04-t04",
+      "phrase": "s4-u04-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "只看见她看信封后没说话，我以为她生气了。",
+        "py": "zhǐ kàn jiàn tā kàn xìn fēng hòu méi shuō huà , wǒ yǐ wéi tā shēng qì le .",
+        "en": "I only saw her stop speaking after looking at the envelope, and assumed she was angry."
+      },
+      "choices": [
+        "未必，她也可能只是发现弄错了。",
+        "没说话就一定是生气，不用再看。",
+        "没听见她说原因，就已经知道全部了。"
+      ],
+      "answer": "未必，她也可能只是发现弄错了。",
+      "why": "The reply gives a possible alternative without claiming certainty."
+    },
+    {
+      "id": "s4-u04-t05",
+      "phrase": "s4-u04-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "这封信不是给她的，【而是】给她姐姐的。",
+        "py": "zhè fēng xìn bù shì gěi tā de , ér shì gěi tā jiě jie de .",
+        "en": "This letter is for her sister, not for her."
+      },
+      "blankPy": "ér shì"
+    },
+    {
+      "id": "s4-u04-t06",
+      "phrase": "s4-u04-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "你【连】信封的颜色都记得。",
+        "py": "nǐ lián xìn fēng de yán sè dōu jì de .",
+        "en": "You even remember the envelope’s colour."
+      },
+      "blankPy": "lián"
+    },
+    {
+      "id": "s4-u04-t07",
+      "phrase": "s4-u04-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "This shot keeps the doorway in view.",
+          "right": {
+            "zh": "这个镜头一直对着门口。",
+            "py": "zhè gè jìng tóu yì zhí duì zhe mén kǒu .",
+            "en": "This shot keeps the doorway in view."
+          }
+        },
+        {
+          "left": "Could you describe her final expression?",
+          "right": {
+            "zh": "你能描述一下她最后的表情吗？",
+            "py": "nǐ néng miáo shù yī xià tā zuì hòu de biǎo qíng ma ?",
+            "en": "Could you describe her final expression?"
+          }
+        },
+        {
+          "left": "She told her sister this secret.",
+          "right": {
+            "zh": "她把这个秘密告诉了姐姐。",
+            "py": "tā bǎ zhè gè mì mì gào sù le jiě jie .",
+            "en": "She told her sister this secret."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u04-t08",
+      "phrase": "s4-u04-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Please keep this secret for me; I want to surprise him.",
+          "right": {
+            "zh": "请替我保密，我想给他一个惊喜。",
+            "py": "qǐng tì wǒ bǎo mì , wǒ xiǎng gěi tā yī gè jīng xǐ .",
+            "en": "Please keep this secret for me; I want to surprise him."
+          }
+        },
+        {
+          "left": "He left the hospital feeling weighed down.",
+          "right": {
+            "zh": "他带着沉重的心情离开了医院。",
+            "py": "tā dài zhe chén zhòng de xīn qíng lí kāi le yī yuàn .",
+            "en": "He left the hospital feeling weighed down."
+          }
+        },
+        {
+          "left": "The title is short, but the content runs to several pages.",
+          "right": {
+            "zh": "标题很短，内容却有好几页。",
+            "py": "biāo tí hěn duǎn , nèi róng què yǒu hǎo jǐ yè .",
+            "en": "The title is short, but the content runs to several pages."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: natural force of 与其…不如… and 连…都… in friend chat, modal 得 in 得慢一点, and the letter scene’s emotional interpretation. Story chronology checked: opening precedes discovering the recipient; a later explicit explanation is distinguished from inference. Script is original.",
+  "characters": [
+    {
+      "hanzi": "镜",
+      "pinyin": "jìng",
+      "meaning": "mirror; lens",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "镜",
+          "role": "whole",
+          "gloss": "mirror; lens"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 镜 in 镜头. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "镜头",
+          "p": "jìng tóu",
+          "m": "shot; camera view"
+        }
+      ]
+    },
+    {
+      "hanzi": "描",
+      "pinyin": "miáo",
+      "meaning": "depict",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "描",
+          "role": "whole",
+          "gloss": "depict"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 描 in 描述. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "描述",
+          "p": "miáo shù",
+          "m": "describe"
+        }
+      ]
+    },
+    {
+      "hanzi": "述",
+      "pinyin": "shù",
+      "meaning": "state; recount",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "述",
+          "role": "whole",
+          "gloss": "state; recount"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 述 in 描述. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "描述",
+          "p": "miáo shù",
+          "m": "describe"
+        }
+      ]
+    },
+    {
+      "hanzi": "秘",
+      "pinyin": "mì",
+      "meaning": "secret",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "秘",
+          "role": "whole",
+          "gloss": "secret"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 秘 in 秘密. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "秘密",
+          "p": "mì mì",
+          "m": "secret"
+        }
+      ]
+    },
+    {
+      "hanzi": "密",
+      "pinyin": "mì",
+      "meaning": "close; secret",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "密",
+          "role": "whole",
+          "gloss": "close; secret"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 密 in 秘密 / 保密. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "秘密",
+          "p": "mì mì",
+          "m": "secret"
+        },
+        {
+          "w": "保密",
+          "p": "bǎo mì",
+          "m": "keep confidential"
+        }
+      ]
+    },
+    {
+      "hanzi": "甚",
+      "pinyin": "shèn",
+      "meaning": "very; even, in 甚至",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "甚",
+          "role": "whole",
+          "gloss": "very; even, in 甚至"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 甚 in 甚至. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "甚至",
+          "p": "shèn zhì",
+          "m": "even"
+        }
+      ]
+    }
+  ]
+}

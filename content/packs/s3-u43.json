@@ -577,75 +577,75 @@
     "title": "Whose voice is in the verse?",
     "format": "story",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Read the performance discussion.",
+    "purpose": "Listen for the problem, the proposed response and the next action.",
     "lines": [
       {
-        "zh": "把两段合起来，按顺序排；重读时别丢意思。",
-        "py": "bǎ liǎng duàn hé qǐ lái , àn shùn xù pái ; chóng dú shí bié diū yì si .",
-        "en": "Combine the two passages and arrange them; preserve meaning on rereading.",
+        "zh": "你把这两段合起来试试，别一到最后就停。",
+        "py": "nǐ bǎ zhè liǎng duàn hé qǐ lái shì shì , bié yī dào zuì hòu jiù tíng .",
+        "en": "Try joining these two parts. Don't stop as soon as you reach the end.",
         "speaker": "a"
       },
       {
-        "zh": "她唱得很慢，是作者也很伤心吗？",
-        "py": "tā chàng dé hěn màn , shì zuò zhě yě hěn shāng xīn ma ?",
-        "en": "She sings slowly. Is the author sad too?",
+        "zh": "我一快就乱，字都唱不清楚了。",
+        "py": "wǒ yī kuài jiù luàn , zì dōu chàng bù qīng chǔ le .",
+        "en": "When I speed up I get muddled. You can't make out the words.",
         "speaker": "b"
       },
       {
-        "zh": "不一定，角色和作者不同。比起快，她更重视准确。",
-        "py": "bù yí dìng , jué sè hé zuò zhě bù tóng . bǐ qǐ kuài , tā gèng zhòng shì zhǔn què .",
-        "en": "Not necessarily; character and writer differ. She values accuracy above speed.",
+        "zh": "那就慢一点。比起快，我更想听清你在唱什么。",
+        "py": "nà jiù màn yī diǎn . bǐ qǐ kuài , wǒ gèng xiǎng tīng qīng nǐ zài chàng shén me .",
+        "en": "Then slow down. I'd rather understand what you're singing than hear you go fast.",
         "speaker": "a"
       },
       {
-        "zh": "划船、烟和武器都是意象，外交和平是愿望吗？",
-        "py": "huá chuán , yān hé wǔ qì dōu shì yì xiàng , wài jiāo hé píng shì yuàn wàng ma ?",
-        "en": "Are rowing, smoke and weapons imagery, and diplomatic peace a wish?",
+        "zh": "这首歌明明很安静，我怎么唱得像在吵架？",
+        "py": "zhè shǒu gē míng míng hěn ān jìng , wǒ zěn me chàng dé xiàng zài chǎo jià ?",
+        "en": "This song is so quiet. Why do I sound like I'm arguing?",
         "speaker": "b"
       },
       {
-        "zh": "这里是原创诗的想象，不是现实报道；直到最后才说清楚。",
-        "py": "zhè lǐ shì yuán chuàng shī de xiǎng xiàng , bù shì xiàn shí bào dào ; zhí dào zuì hòu cái shuō qīng chǔ .",
-        "en": "This is an original verse’s imagination, not a real report; it becomes clear only at the end.",
+        "zh": "你太用力了。先读一遍，再跟着节拍唱。",
+        "py": "nǐ tài yòng lì le . xiān dú yī biàn , zài gēn zhe jié pāi chàng .",
+        "en": "You're pushing too hard. Read it once first, then sing with the beat.",
         "speaker": "a"
       },
       {
-        "zh": "好，随自己的节奏读，累了先停止。",
-        "py": "hǎo , suí zì jǐ de jié zòu dú , lèi le xiān tíng zhǐ .",
-        "en": "Good; read at your own pace and stop first when tired.",
+        "zh": "好。你别笑啊，我再来一次。",
+        "py": "hǎo . nǐ bié xiào a , wǒ zài lái yī cì .",
+        "en": "Okay. Don't laugh! I'll give it another try.",
         "speaker": "b"
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "What should the reader do when tired?",
+        "q": "What happens when the singer speeds up?",
         "choices": [
-          "Stop first",
-          "Continue without a pause",
-          "Treat the verse as a factual report"
+          "The words become unclear",
+          "The microphone turns off",
+          "The song ends early"
         ],
-        "answer": "Stop first"
+        "answer": "The words become unclear"
       },
       {
         "type": "detail",
-        "q": "What does she prioritize?",
+        "q": "What does the friend suggest doing before singing?",
         "choices": [
-          "Accuracy",
-          "Speed alone",
-          "Being first"
+          "Reading the words once",
+          "Changing every word",
+          "Buying another microphone"
         ],
-        "answer": "Accuracy"
+        "answer": "Reading the words once"
       },
       {
         "type": "inference",
-        "q": "Is lyrical emotion necessarily the writer’s?",
+        "q": "How does the singer feel about trying again?",
         "choices": [
-          "No",
-          "Yes",
-          "Only with smoke"
+          "Willing, but a little embarrassed",
+          "Certain the friend has left",
+          "Determined to stop permanently"
         ],
-        "answer": "No"
+        "answer": "Willing, but a little embarrassed"
       }
     ],
     "speakers": [
@@ -691,77 +691,90 @@
     "title": "Read the words and the image",
     "format": "note",
     "blurb": "Original AI-assisted course writing; not adapted from a show or song.",
-    "purpose": "Read the rehearsal note.",
+    "purpose": "Follow what happened and explain the people’s choices from the text.",
     "lines": [
       {
-        "zh": "语言团把两段组合练习，团结不是每个人都同一种感受。",
-        "py": "yǔ yán tuán bǎ liǎng duàn zǔ hé liàn xí , tuán jié bù shì měi gè rén dōu tóng yī zhǒng gǎn shòu .",
-        "en": "The language group practises joined passages; unity does not mean identical feelings."
+        "zh": "我们语言社团周五晚上练一首自己写的歌。谁也不是专业歌手，唱错了就再来。",
+        "py": "wǒ men yǔ yán shè tuán zhōu wǔ wǎn shang liàn yī shǒu zì jǐ xiě de gē . shéi yě bù shì zhuān yè gē shǒu , chàng cuò le jiù zài lái .",
+        "en": "Our language club practises a song we wrote ourselves on Friday evenings. None of us is a professional singer; when we make a mistake, we try again."
       },
       {
-        "zh": "节拍带动跟读，管材料的人不代任何人同意；推广以前核对来源。",
-        "py": "jié pāi dài dòng gēn dú , guǎn cái liào de rén bù dài rèn hé rén tóng yì ; tuī guǎng yǐ qián hé duì lái yuán .",
-        "en": "The beat prompts reading along; the materials manager does not consent for others; check sources before promotion."
+        "zh": "我管材料，把歌词按顺序排好。朋友拿着吉他，用简单的节拍带动大家。",
+        "py": "wǒ guǎn cái liào , bǎ gē cí àn shùn xù pái hǎo . péng you ná zhe jí tā , yòng jiǎn dān de jié pāi dài dòng dà jiā .",
+        "en": "I'm in charge of the materials and put the lyrics in order. A friend plays guitar and gets everyone going with a simple beat."
       },
       {
-        "zh": "故事里角色前进，追着影子，争第一也要尊重别人，争取机会不等于得到。",
-        "py": "gù shì lǐ jué sè qián jìn , zhuī zhe yǐng zi , zhēng dì yī yě yào zūn zhòng bié ren , zhēng qǔ jī huì bù děng yú dé dào .",
-        "en": "The character moves forward and chases shadows; competing for first requires respect; striving is not obtaining."
+        "zh": "第一段讲一个人划船回家，第二段写他追着岸边的灯光。最后，他终于看见家门。",
+        "py": "dì yī duàn jiǎng yī gè rén huá chuán huí jiā , dì èr duàn xiě tā zhuī zhe àn biān de dēng guāng . zuì hòu , tā zhōng yú kàn jiàn jiā mén .",
+        "en": "The first verse is about someone rowing home; the second follows him chasing the lights on shore. At the end he finally sees his front door."
       },
       {
-        "zh": "桌上有汤、果汁、香蕉和苹果，旁边的龙玩具只是道具。",
-        "py": "zhuō shàng yǒu tāng , guǒ zhī , xiāng jiāo hé píng guǒ , páng biān de lóng wán jù zhǐ shì dào jù .",
-        "en": "The table has soup, juice, bananas and apples; the dragon toy nearby is only a prop."
+        "zh": "唱到这里，我总想唱快一点。朋友说别急，这个人走了很远，现在才到家。",
+        "py": "chàng dào zhè lǐ , wǒ zǒng xiǎng chàng kuài yī diǎn . péng you shuō bié jí , zhè gè rén zǒu le hěn yuǎn , xiàn zài cái dào jiā .",
+        "en": "At this point I always want to sing faster. My friend says not to rush: he's travelled a long way and has only just got home."
       },
       {
-        "zh": "伟大是评价，和平是愿望；直到最后才回答，不说明从最后才开始等。",
-        "py": "wěi dà shì píng jià , hé píng shì yuàn wàng ; zhí dào zuì hòu cái huí dá , bù shuō míng cóng zuì hòu cái kāi shǐ děng .",
-        "en": "Great is an evaluation and peace a wish; answering only at the end does not mean waiting starts there."
+        "zh": "我重新读了一遍，慢慢唱。字清楚了，大家也更容易跟上。",
+        "py": "wǒ chóng xīn dú le yī biàn , màn màn chàng . zì qīng chǔ le , dà jiā yě gèng róng yì gēn shàng .",
+        "en": "I read it again and sang slowly. The words were clearer, and everyone found it easier to join in."
       }
     ],
     "questions": [
       {
         "type": "detail",
-        "q": "What is the dragon toy used as?",
+        "q": "Who wrote the song?",
         "choices": [
-          "A prop",
-          "A weather report",
-          "A real traveller"
+          "The club members",
+          "A professional singer",
+          "The narrator’s teacher"
         ],
-        "answer": "A prop"
+        "answer": "The club members"
+      },
+      {
+        "type": "detail",
+        "q": "What does the person in the song do?",
+        "choices": [
+          "Row home",
+          "Wait at a railway station",
+          "Buy a new guitar"
+        ],
+        "answer": "Row home"
       },
       {
         "type": "inference",
-        "q": "Does striving for an opportunity mean already obtaining it?",
+        "q": "Why slow down near the end?",
         "choices": [
-          "No",
-          "Yes",
-          "Only if the character moves forward"
+          "The words and homecoming moment need time",
+          "Everyone has forgotten the first verse",
+          "The room is too small"
         ],
-        "answer": "No"
-      },
-      {
-        "type": "mainidea",
-        "q": "What is the note doing?",
-        "choices": [
-          "Separating performance, objects and actual claims",
-          "Certifying every imagined event",
-          "Inferring a writer’s feelings"
-        ],
-        "answer": "Separating performance, objects and actual claims"
+        "answer": "The words and homecoming moment need time"
       }
     ],
     "cloze": {
       "lines": [
         {
-          "zh": "节拍【带动】跟读，管材料的人不代任何人同意；推广以前核对来源。",
-          "py": "jié pāi dài dòng gēn dú , guǎn cái liào de rén bù dài rèn hé rén tóng yì ; tuī guǎng yǐ qián hé duì lái yuán .",
-          "en": "The beat prompts reading along; the materials manager does not consent for others; check sources before promotion."
+          "zh": "我们语言社【团】周五晚上练一首自己写的歌。谁也不是专业歌手，唱错了就再来。",
+          "py": "wǒ men yǔ yán shè tuán zhōu wǔ wǎn shang liàn yī shǒu zì jǐ xiě de gē . shéi yě bù shì zhuān yè gē shǒu , chàng cuò le jiù zài lái .",
+          "en": "Our language club practises a song we wrote ourselves on Friday evenings. None of us is a professional singer; when we make a mistake, we try again."
+        },
+        {
+          "zh": "我管材料，把歌词按顺序排好。朋友拿着吉他，用简单的节拍【带动】大家。",
+          "py": "wǒ guǎn cái liào , bǎ gē cí àn shùn xù pái hǎo . péng you ná zhe jí tā , yòng jiǎn dān de jié pāi dài dòng dà jiā .",
+          "en": "I'm in charge of the materials and put the lyrics in order. A friend plays guitar and gets everyone going with a simple beat."
+        },
+        {
+          "zh": "第一段讲一个人【划船】回家，第二段写他追着岸边的灯光。最后，他终于看见家门。",
+          "py": "dì yī duàn jiǎng yī gè rén huá chuán huí jiā , dì èr duàn xiě tā zhuī zhe àn biān de dēng guāng . zuì hòu , tā zhōng yú kàn jiàn jiā mén .",
+          "en": "The first verse is about someone rowing home; the second follows him chasing the lights on shore. At the end he finally sees his front door."
         }
       ],
       "bank": [
+        "团",
         "带动",
-        "电影"
+        "划船",
+        "学校",
+        "明天"
       ]
     },
     "glosses": [
@@ -809,6 +822,16 @@
         "hanzi": "道具",
         "pinyin": "dào jù",
         "meaning": "prop"
+      },
+      {
+        "hanzi": "吉他",
+        "pinyin": "jí tā",
+        "meaning": "guitar"
+      },
+      {
+        "hanzi": "岸边",
+        "pinyin": "àn biān",
+        "meaning": "the shore"
       }
     ]
   },
@@ -922,6 +945,61 @@
           "zh": "角色追着自己的影子。",
           "py": "jué sè zhuī zhe zì jǐ de yǐng zi .",
           "en": "The character chases their shadow."
+        },
+        {
+          "zh": "今天我代她来取材料。",
+          "py": "jīn tiān wǒ dài tā lái qǔ cái liào .",
+          "en": "I'm collecting the materials on her behalf today."
+        },
+        {
+          "zh": "再向前进一点，就能看到湖了。",
+          "py": "zài xiàng qián jìn yī diǎn , jiù néng kàn dào hú le .",
+          "en": "Go forward a little more and you’ll see the lake."
+        },
+        {
+          "zh": "这个队很团结，大家总是互相帮助。",
+          "py": "zhè gè duì hěn tuán jié , dà jiā zǒng shì hù xiāng bāng zhù .",
+          "en": "This team is close-knit; everyone helps one another."
+        },
+        {
+          "zh": "学校想推广这项活动，让更多人参加。",
+          "py": "xué xiào xiǎng tuī guǎng zhè xiàng huó dòng , ràng gèng duō rén cān jiā .",
+          "en": "The school wants to promote the activity so more people can join."
+        },
+        {
+          "zh": "她在大学学习外交。",
+          "py": "tā zài dà xué xué xí wài jiāo .",
+          "en": "She studies diplomacy at university."
+        },
+        {
+          "zh": "博物馆里有古代的武器。",
+          "py": "bó wù guǎn lǐ yǒu gǔ dài de wǔ qì .",
+          "en": "The museum has weapons from ancient times."
+        },
+        {
+          "zh": "厨房里有烟，谁把菜烧糊了？",
+          "py": "chú fáng lǐ yǒu yān , shéi bǎ cài shāo hú le ?",
+          "en": "There's smoke in the kitchen. Who burnt the food?"
+        },
+        {
+          "zh": "我们一直聊，直到最后一辆车来了才告别。",
+          "py": "wǒ men yì zhí liáo , zhí dào zuì hòu yī liàng chē lái le cái gào bié .",
+          "en": "We talked until the last bus arrived, then said goodbye."
+        },
+        {
+          "zh": "音乐停止以后，她还在唱。",
+          "py": "yīn yuè tíng zhǐ yǐ hòu , tā hái zài chàng .",
+          "en": "She was still singing after the music stopped."
+        },
+        {
+          "zh": "他随老师一起去参观。",
+          "py": "tā suí lǎo shī yì qǐ qù cān guān .",
+          "en": "He goes on the visit with his teacher."
+        },
+        {
+          "zh": "孩子把玩具放回盒子里。",
+          "py": "hái zi bǎ wán jù fàng huí hé zi lǐ .",
+          "en": "The child puts the toys back in the box."
         }
       ],
       "questions": [],
@@ -975,6 +1053,11 @@
           "hanzi": "冲突",
           "pinyin": "chōng tū",
           "meaning": "conflict"
+        },
+        {
+          "hanzi": "烧糊",
+          "pinyin": "shāo hú",
+          "meaning": "burn food"
         }
       ]
     }
@@ -1203,5 +1286,5 @@
       }
     ]
   },
-  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三49, 三58. Native check: original verse rhythm, figurative language, 重 chóng versus zhòng, degree/comparison retrieval, 随 register, 团 noun and_until scope. No copyrighted lyrics, real-person biography or operational guidance. Native review pending. Planned retrieval 三66 / 三67 / 三81: 不仅有阅读，而且有听力。, 不是这门，就是那门。, 怕什么啊，我陪你。, 急什么啊，还没到时间。."
+  "notes": "AI-assisted draft; native review pending. GF2021 grammar families: 三49, 三58. Native check: original verse rhythm, figurative language, 重 chóng versus zhòng, degree/comparison retrieval, 随 register, 团 noun and_until scope. No copyrighted lyrics, real-person biography or operational guidance. Native review pending. Planned retrieval 三66 / 三67 / 三81: 不仅有阅读，而且有听力。, 不是这门，就是那门。, 怕什么啊，我陪你。, 急什么啊，还没到时间。.\n2026-10-07 editorial correction: dialogue and core reading rewritten as coherent everyday interaction; no recycled-word quota, app policy or safety caveats in character speech. IDs preserved. AI editorial review; native review remains outstanding."
 }

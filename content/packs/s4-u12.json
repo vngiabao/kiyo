@@ -1,0 +1,1139 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s4-u12",
+    "stage": 3,
+    "order": 120,
+    "title": "Tell the story, not your guess",
+    "titleZh": "到底发生了什么",
+    "canDo": [
+      "Retell an original scene in chronological order",
+      "Name the cause and result without inventing a motive",
+      "Give a short summary that preserves a character’s actual choice"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 4
+    },
+    "prerequisites": [
+      "s4-u11",
+      "s4-u11-usage"
+    ],
+    "estimatedMinutes": 60
+  },
+  "vocabulary": [
+    {
+      "id": "s4-u12-w01",
+      "hanzi": "概括",
+      "pinyin": "gài kuò",
+      "meaning": "summarise; give the main points",
+      "meaningVi": "khái quát",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "你能用两句话概括这个故事吗？",
+        "py": "nǐ néng yòng liǎng jù huà gài kuò zhè gè gù shì ma ?",
+        "en": "Can you summarise this story in two sentences?"
+      },
+      "usageNote": "[GF2021:L4:2555] Source entry: 概括; gàikuò; 动、形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w02",
+      "hanzi": "描述",
+      "pinyin": "miáo shù",
+      "meaning": "describe",
+      "meaningVi": "miêu tả",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "先描述你看到的，再说你怎么想。",
+        "py": "xiān miáo shù nǐ kàn dào de , zài shuō nǐ zěn me xiǎng .",
+        "en": "Describe what you saw before saying what you think."
+      },
+      "usageNote": "[GF2021:L4:5595] Source entry: 描述; miáoshù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w03",
+      "hanzi": "主题",
+      "pinyin": "zhǔ tí",
+      "meaning": "theme; main subject",
+      "meaningVi": "chủ đề",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这篇文章的主题是离开家以后怎样交朋友。",
+        "py": "zhè piān wén zhāng de zhǔ tí shì lí kāi jiā yǐ hòu zěn yàng jiāo péng yǒu .",
+        "en": "This article is about making friends after leaving home."
+      },
+      "usageNote": "[GF2021:L4:10724] Source entry: 主题; zhǔtí; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w04",
+      "hanzi": "顺序",
+      "pinyin": "shùn xù",
+      "meaning": "order; sequence",
+      "meaningVi": "thứ tự",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "把这些事按发生的顺序讲。",
+        "py": "bǎ zhè xiē shì àn fā shēng de shùn xù jiǎng .",
+        "en": "Tell these events in the order they happened."
+      },
+      "usageNote": "[GF2021:L4:7582] Source entry: 顺序; shùnxù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w05",
+      "hanzi": "背景",
+      "pinyin": "bèi jǐng",
+      "meaning": "background",
+      "meaningVi": "bối cảnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "故事的背景是一座小城。",
+        "py": "gù shì de bèi jǐng shì yī zuò xiǎo chéng .",
+        "en": "The story is set in a small town."
+      },
+      "usageNote": "[GF2021:L4:281] Source entry: 背景; bèijǐng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w06",
+      "hanzi": "角色",
+      "pinyin": "jué sè",
+      "meaning": "character; role",
+      "meaningVi": "vai; nhân vật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "这个角色一开始不愿意说实话。",
+        "py": "zhè gè jué sè yī kāi shǐ bù yuàn yì shuō shí huà .",
+        "en": "This character doesn’t want to tell the truth at first."
+      },
+      "usageNote": "[GF2021:L4:4542] Source entry: 角色; juésè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w07",
+      "hanzi": "细节",
+      "pinyin": "xì jié",
+      "meaning": "detail",
+      "meaningVi": "chi tiết",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "别忘了信放在桌上的那个细节。",
+        "py": "bié wàng le xìn fàng zài zhuō shàng de nà gè xì jié .",
+        "en": "Don’t forget the detail about the letter on the table."
+      },
+      "usageNote": "[GF2021:L4:8658] Source entry: 细节; xìjié; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w08",
+      "hanzi": "结论",
+      "pinyin": "jié lùn",
+      "meaning": "conclusion",
+      "meaningVi": "kết luận",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我们现在还不能下这个结论。",
+        "py": "wǒ men xiàn zài hái bù néng xià zhè gè jié lùn .",
+        "en": "We can’t draw that conclusion yet."
+      },
+      "usageNote": "[GF2021:L4:4195] Source entry: 结论; jiélùn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w09",
+      "hanzi": "原因",
+      "pinyin": "yuán yīn",
+      "meaning": "reason; cause",
+      "meaningVi": "nguyên nhân",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "他离开的原因是什么？",
+        "py": "tā lí kāi de yuán yīn shì shén me ?",
+        "en": "Why did he leave?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u12-w10",
+      "hanzi": "结果",
+      "pinyin": "jié guǒ",
+      "meaning": "result; outcome",
+      "meaningVi": "kết quả",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 2,
+      "example": {
+        "zh": "最后的结果和我想的不一样。",
+        "py": "zuì hòu de jié guǒ hé wǒ xiǎng de bù yī yàng .",
+        "en": "The final outcome differs from what I expected."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u12-w11",
+      "hanzi": "于是",
+      "pinyin": "yú shì",
+      "meaning": "so; thereupon",
+      "meaningVi": "thế là",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "雨突然大了，于是我们进了旁边的店。",
+        "py": "yǔ tū rán dà le , yú shì wǒ men jìn le páng biān de diàn .",
+        "en": "The rain suddenly got heavier, so we went into the shop beside us."
+      },
+      "usageNote": "[GF2021:L4:9916] Source entry: 于是; yúshì; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w12",
+      "hanzi": "从此",
+      "pinyin": "cóng cǐ",
+      "meaning": "from then on",
+      "meaningVi": "từ đó",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "从此，她每年都会回来看一次。",
+        "py": "cóng cǐ , tā měi nián dū huì huí lái kàn yī cì .",
+        "en": "From then on she returned once a year."
+      },
+      "usageNote": "[GF2021:L4:1331] Source entry: 从此; cóngcǐ; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w13",
+      "hanzi": "最初",
+      "pinyin": "zuì chū",
+      "meaning": "initially; at first",
+      "meaningVi": "ban đầu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 4,
+      "example": {
+        "zh": "我最初以为他不来了。",
+        "py": "wǒ zuì chū yǐ wéi tā bù lái le .",
+        "en": "At first I thought he wasn’t coming."
+      },
+      "usageNote": "[GF2021:L4:11036] Source entry: 最初; zuìchū; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s4-u12-w14",
+      "hanzi": "总结",
+      "pinyin": "zǒng jié",
+      "meaning": "summarise; sum up",
+      "meaningVi": "tổng kết",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "最后，你总结一下今天讨论的内容。",
+        "py": "zuì hòu , nǐ zǒng jié yī xià jīn tiān tǎo lùn de nèi róng .",
+        "en": "At the end, sum up what we discussed today."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u12-w15",
+      "hanzi": "印象",
+      "pinyin": "yìn xiàng",
+      "meaning": "impression",
+      "meaningVi": "ấn tượng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "哪一个画面给你的印象最深？",
+        "py": "nǎ yī gè huà miàn gěi nǐ de yìn xiàng zuì shēn ?",
+        "en": "Which image made the strongest impression on you?"
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s4-u12-w16",
+      "hanzi": "经历",
+      "pinyin": "jīng lì",
+      "meaning": "experience; go through",
+      "meaningVi": "trải nghiệm; trải qua",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 3,
+      "example": {
+        "zh": "这是我第一次一个人旅行的经历。",
+        "py": "zhè shì wǒ dì yī cì yī gè rén lǚ xíng de jīng lì .",
+        "en": "This was my first experience of travelling alone."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s4-u12-g01",
+      "pattern": "于是 / 因此",
+      "purpose": "Connect an action or a conclusion to its cause",
+      "explanation": "于是 often moves the narrative to an action following the previous event. 因此 explicitly marks a causal result or conclusion and often fits explanation. They overlap; neither licenses an unsupported inference.",
+      "examples": [
+        {
+          "zh": "他看见身份证，于是给妹妹打电话。",
+          "py": "tā kàn jiàn shēn fèn zhèng , yú shì gěi mèi mei dǎ diàn huà .",
+          "en": "He saw the ID and then called his sister."
+        },
+        {
+          "zh": "她已经找到了检票口，因此不需要哥哥继续带路。",
+          "py": "tā yǐ jīng zhǎo dào le jiǎn piào kǒu , yīn cǐ bù xū yào gē gē jì xù dài lù .",
+          "en": "She had found the ticket gate, so didn’t need her brother to keep guiding her."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "哥哥去了车站，因此他们一定吵架了。",
+          "right": "哥哥看到身份证，于是去了车站。",
+          "why": "The first statement invents a cause not established by the scene."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u12-g02",
+      "pattern": "从此 / 后来",
+      "purpose": "Distinguish a continuing change from a later event",
+      "explanation": "从此 introduces a state or habit continuing from that point. 后来 introduces later events without by itself claiming permanence.",
+      "examples": [
+        {
+          "zh": "从此，她每年都去一次。",
+          "py": "cóng cǐ , tā měi nián dōu qù yī cì .",
+          "en": "From then on she went once a year."
+        },
+        {
+          "zh": "后来，她给哥哥打了电话。",
+          "py": "hòu lái , tā gěi gē gē dǎ le diàn huà .",
+          "en": "Later she called her brother."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "后来打了一次电话，所以从此每天都打。",
+          "right": "后来，她给哥哥打了电话。",
+          "why": "One later event does not prove a permanent daily habit."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u12-g03",
+      "pattern": "先…又…再…",
+      "purpose": "Retell a sequence without changing causality",
+      "explanation": "These markers order events. Keep the actions and their subjects clear rather than letting sequence alone imply motives.",
+      "examples": [
+        {
+          "zh": "他先看见纸条，又发现身份证，再给她打电话。",
+          "py": "tā xiān kàn jiàn zhǐ tiáo , yòu fā xiàn shēn fèn zhèng , zài gěi tā dǎ diàn huà .",
+          "en": "He saw the note, found the ID and then called her."
+        },
+        {
+          "zh": "先说发生了什么，再说你的看法。",
+          "py": "xiān shuō fā shēng le shén me , zài shuō nǐ de kàn fǎ .",
+          "en": "Say what happened first, then give your interpretation."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "他先打电话，再发现身份证，所以发现证件以后才打电话。",
+          "right": "他先发现身份证，再打电话。",
+          "why": "The described order must agree with the claimed timeline."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s4-u12-g04",
+      "pattern": "不是…只是不…",
+      "purpose": "Narrow a negative interpretation",
+      "explanation": "The first clause rejects an overly broad reading; the second names the actual narrower preference. This keeps a summary faithful to what the character said.",
+      "examples": [
+        {
+          "zh": "她不是不要帮助，只是不想每次都让哥哥送。",
+          "py": "tā bù shì bú yào bāng zhù , zhǐ shì bù xiǎng měi cì dōu ràng gē gē sòng .",
+          "en": "She doesn’t reject help; she doesn’t want her brother to take her every time."
+        },
+        {
+          "zh": "我不是不想听，只是不想先知道结果。",
+          "py": "wǒ bù shì bù xiǎng tīng , zhǐ shì bù xiǎng xiān zhī dào jié guǒ .",
+          "en": "I do want to listen; I don’t want the result revealed first."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "她不想每次让哥哥送，所以她永远不要帮助。",
+          "right": "她不是不要帮助，只是不想每次都让哥哥送。",
+          "why": "A limited preference is not a permanent rejection of all help."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s4-u12-d",
+    "title": "到底发生了什么",
+    "titleZh": "到底发生了什么",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你能讲讲刚才那段吗？我接电话，漏了一半。",
+        "py": "nǐ néng jiǎng jiǎng gāng cái nà duàn ma ? wǒ jiē diàn huà , lòu le yí bàn .",
+        "en": "Can you tell me about that section? I took a call and missed half of it.",
+        "speaker": "a"
+      },
+      {
+        "zh": "女孩给哥哥留了张纸条，说这次自己走。后来哥哥去了车站。",
+        "py": "nǚ hái gěi gē gē liú le zhāng zhǐ tiáo , shuō zhè cì zì jǐ zǒu . hòu lái gē gē qù le chē zhàn .",
+        "en": "The girl left her brother a note saying she’d go alone this time. Later he went to the station.",
+        "speaker": "b"
+      },
+      {
+        "zh": "所以他们吵架了？",
+        "py": "suǒ yǐ tā men chǎo jià le ?",
+        "en": "So they’d argued?",
+        "speaker": "a"
+      },
+      {
+        "zh": "前面没说吵架。哥哥以前每次都送她，这次她想自己试试。",
+        "py": "qián miàn méi shuō chǎo jià . gē gē yǐ qián měi cì dōu sòng tā , zhè cì tā xiǎng zì jǐ shì shì .",
+        "en": "There wasn’t an argument shown earlier. Her brother used to take her every time, and this time she wanted to try alone.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那他去车站，是不放心吗？",
+        "py": "nà tā qù chē zhàn , shì bù fàng xīn ma ?",
+        "en": "Did he go to the station because he was worried?",
+        "speaker": "a"
+      },
+      {
+        "zh": "他拿着她忘在桌上的身份证，打电话让她先别上车。",
+        "py": "tā ná zhe tā wàng zài zhuō shàng de shēn fèn zhèng , dǎ diàn huà ràng tā xiān bié shàng chē .",
+        "en": "He had the ID she’d left on the table and called to tell her not to board yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "哦，我把原因想错了。她最后坐上车了吗？",
+        "py": "ó , wǒ bǎ yuán yīn xiǎng cuò le . tā zuì hòu zuò shàng chē le ma ?",
+        "en": "Oh, I guessed the reason wrong. Did she catch the train in the end?",
+        "speaker": "a"
+      },
+      {
+        "zh": "坐上了。哥哥把东西给她，她自己去检票口，他没再跟着走。",
+        "py": "zuò shàng le . gē gē bǎ dōng xi gěi tā , tā zì jǐ qù jiǎn piào kǒu , tā méi zài gēn zhe zǒu .",
+        "en": "Yes. Her brother gave her the ID, and she went to the ticket gate herself. He didn’t go with her again.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这就说清楚了。她不是不要他帮忙，只是不想每次都让他送到最后。",
+        "py": "zhè jiù shuō qīng chǔ le . tā bù shì bú yào tā bāng máng , zhǐ shì bù xiǎng měi cì dōu ràng tā sòng dào zuì hòu .",
+        "en": "That makes it clear. She doesn’t reject his help; she just doesn’t want him to take her all the way every time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我也这么看。不过“以后永远不让他送”可没说。",
+        "py": "wǒ yě zhè me kàn . bù guò yǐ hòu yǒng yuǎn bù ràng tā sòng kě méi shuō .",
+        "en": "That’s how I see it too. But nobody said he’d never take her again.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，我用两句话讲给林安听，别又把猜的加进去。",
+        "py": "hǎo , wǒ yòng liǎng jù huà jiǎng gěi lín ān tīng , bié yòu bǎ cāi de jiā jìn qù .",
+        "en": "Okay, I’ll tell Lin An in two sentences without adding my guesses again.",
+        "speaker": "a"
+      },
+      {
+        "zh": "两句话？那你这次别从她小时候开始讲。",
+        "py": "liǎng jù huà ? nà nǐ zhè cì bié cóng tā xiǎo shí hòu kāi shǐ jiǎng .",
+        "en": "Two sentences? Then don’t start with her childhood this time.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "身份证",
+        "pinyin": "shēn fèn zhèng",
+        "meaning": "identity card"
+      },
+      {
+        "hanzi": "检票口",
+        "pinyin": "jiǎn piào kǒu",
+        "meaning": "ticket gate"
+      },
+      {
+        "hanzi": "纸条",
+        "pinyin": "zhǐ tiáo",
+        "meaning": "note on a small piece of paper"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the missed section show?",
+        "choices": [
+          "A sister accepting forgotten-ID help while making her own trip",
+          "A confirmed permanent family split",
+          "A brother buying every future ticket"
+        ],
+        "answer": "A sister accepting forgotten-ID help while making her own trip"
+      },
+      {
+        "type": "detail",
+        "q": "Why does the brother go to the station?",
+        "choices": [
+          "To bring the forgotten ID",
+          "To force the sister to stay home",
+          "To return a borrowed suitcase"
+        ],
+        "answer": "To bring the forgotten ID"
+      },
+      {
+        "type": "inference",
+        "q": "What should a faithful summary avoid?",
+        "choices": [
+          "Claiming she will never accept help again",
+          "Saying she boarded the train",
+          "Mentioning the ID"
+        ],
+        "answer": "Claiming she will never accept help again"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s4-u12-r",
+    "title": "到底发生了什么",
+    "titleZh": "到底发生了什么",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "妹妹明天第一次独自坐火车去外地。哥哥以前总会替她拿行李，陪她找到座位，再站在窗外挥手。这次她提前把票和地址确认好了，想自己完成这些事。",
+        "py": "mèi mei míng tiān dì yī cì dú zì zuò huǒ chē qù wài dì . gē gē yǐ qián zǒng huì tì tā ná xíng lǐ , péi tā zhǎo dào zuò wèi , zài zhàn zài chuāng wài huī shǒu . zhè cì tā tí qián bǎ piào hé dì zhǐ què rèn hǎo le , xiǎng zì jǐ wán chéng zhè xiē shì .",
+        "en": "The younger sister was taking her first solo train trip away from home the next day. Her brother usually carried her luggage, found her seat and waved through the window. This time she had checked her ticket and address and wanted to manage those things herself."
+      },
+      {
+        "zh": "早上哥哥还没醒，她在桌上留了一张纸条：“这次我自己走，到站给你电话。”她拿起包就出门了，却把身份证留在昨晚整理材料的地方。",
+        "py": "zǎo shàng gē gē hái méi xǐng , tā zài zhuō shàng liú le yī zhāng zhǐ tiáo : zhè cì wǒ zì jǐ zǒu , dào zhàn gěi nǐ diàn huà . tā ná qǐ bāo jiù chū mén le , què bǎ shēn fèn zhèng liú zài zuó wǎn zhěng lǐ cái liào de dì fāng .",
+        "en": "In the morning, before her brother woke, she left a note: “I’ll go alone this time and call when I arrive.” She picked up her bag and left, but her ID remained where she’d sorted her documents the night before."
+      },
+      {
+        "zh": "哥哥醒来先看见纸条，又发现桌上的身份证。他没有立刻说妹妹不能独自去，而是给她打电话，确认她还在车站附近，再把东西送过去。",
+        "py": "gē gē xǐng lái xiān kàn jiàn zhǐ tiáo , yòu fā xiàn zhuō shàng de shēn fèn zhèng . tā méi yǒu lì kè shuō mèi mei bù néng dú zì qù , ér shì gěi tā dǎ diàn huà , què rèn tā hái zài chē zhàn fù jìn , zài bǎ dōng xi sòng guò qù .",
+        "en": "Her brother woke, saw the note and then the ID on the table. Instead of immediately saying she couldn’t travel alone, he called, checked she was still near the station and brought it to her."
+      },
+      {
+        "zh": "妹妹接过身份证，有点不好意思：“看来我还是需要你。”哥哥说：“忘了东西就拿给你，这和你能不能自己走是两回事。”他帮她把包关好，但没有像以前一样一路陪到座位。",
+        "py": "mèi mei jiē guò shēn fèn zhèng , yǒu diǎn bù hǎo yì sī : kàn lái wǒ hái shi xū yào nǐ . gē gē shuō : wàng le dōng xi jiù ná gěi nǐ , zhè hé nǐ néng bù néng zì jǐ zǒu shì liǎng huí shì . tā bāng tā bǎ bāo guān hǎo , dàn méi yǒu xiàng yǐ qián yī yàng yī lù péi dào zuò wèi .",
+        "en": "She took the ID, a little embarrassed: “Looks like I still need you.” He replied, “Bringing you something you forgot is separate from whether you can go yourself.” He closed her bag but didn’t accompany her all the way to her seat as before."
+      },
+      {
+        "zh": "车开以后，她发了一张窗外的照片。哥哥回复：“到了再打电话。”照片里没有哥哥，也没有车站，只有早上的光和沿途的树。",
+        "py": "chē kāi yǐ hòu , tā fā le yī zhāng chuāng wài de zhào piān . gē gē huí fù : dào le zài dǎ diàn huà . zhào piān lǐ méi yǒu gē gē , yě méi yǒu chē zhàn , zhǐ yǒu zǎo shàng de guāng hé yán tú de shù .",
+        "en": "After the train left, she sent a photo through the window. Her brother replied, “Call when you arrive.” The photo contained neither him nor the station, just morning light and trees along the route."
+      },
+      {
+        "zh": "这个故事没有说妹妹从此不需要帮助。她漏了一样东西，接受了帮助，仍然完成了自己想试的旅行。概括时如果只说“哥哥追到车站”，就会漏掉为什么去、去了以后做了什么。",
+        "py": "zhè gè gù shì méi yǒu shuō mèi mei cóng cǐ bù xū yào bāng zhù . tā lòu le yī yàng dōng xi , jiē shòu le bāng zhù , réng rán wán chéng le zì jǐ xiǎng shì de lǚ xíng . gài kuò shí rú guǒ zhǐ shuō gē gē zhuī dào chē zhàn , jiù huì lòu diào wèi shén me qù , qù le yǐ hòu zuò le shén me .",
+        "en": "The story doesn’t say she never needed help again. She forgot an item, accepted help and still made the trip she wanted to try. A summary saying only “her brother followed her to the station” would leave out why he went and what he did there."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "身份证",
+        "pinyin": "shēn fèn zhèng",
+        "meaning": "identity card"
+      },
+      {
+        "hanzi": "独自",
+        "pinyin": "dú zì",
+        "meaning": "alone"
+      },
+      {
+        "hanzi": "挥手",
+        "pinyin": "huī shǒu",
+        "meaning": "wave"
+      },
+      {
+        "hanzi": "沿途",
+        "pinyin": "yán tú",
+        "meaning": "along the route"
+      },
+      {
+        "hanzi": "追到",
+        "pinyin": "zhuī dào",
+        "meaning": "follow or chase as far as"
+      },
+      {
+        "hanzi": "纸条",
+        "pinyin": "zhǐ tiáo",
+        "meaning": "note on a small piece of paper"
+      },
+      {
+        "hanzi": "一路",
+        "pinyin": "yī lù",
+        "meaning": "all the way"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is the central change?",
+        "choices": [
+          "The sister makes the trip herself with limited practical help",
+          "The sister permanently stops talking to her brother",
+          "The brother never notices the missing ID"
+        ],
+        "answer": "The sister makes the trip herself with limited practical help"
+      },
+      {
+        "type": "detail",
+        "q": "When does she send the window photo?",
+        "choices": [
+          "After the train departs",
+          "Before buying any ticket",
+          "After reaching her brother’s house"
+        ],
+        "answer": "After the train departs"
+      },
+      {
+        "type": "inference",
+        "q": "Why is “the brother followed her” alone inadequate?",
+        "choices": [
+          "It omits his reason and what he actually did",
+          "It proves they argued",
+          "It is the entire explicit theme of the story"
+        ],
+        "answer": "It omits his reason and what he actually did"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s4-u12-media",
+      "title": "A few more characters",
+      "titleZh": "A few more characters",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "身份证给你，先看看还有没有别的忘了。",
+          "py": "shēn fèn zhèng gěi nǐ , xiān kàn kàn hái yǒu méi yǒu bié de wàng le .",
+          "en": "Here’s your ID. Check whether you’ve forgotten anything else.",
+          "speaker": "a"
+        },
+        {
+          "zh": "包、票、手机，都在。看来我还是需要你。",
+          "py": "bāo , piào , shǒu jī , dōu zài . kàn lái wǒ hái shi xū yào nǐ .",
+          "en": "Bag, ticket, phone—all here. Looks like I still need you.",
+          "speaker": "b"
+        },
+        {
+          "zh": "忘了东西就拿给你，这和你能不能自己走是两回事。",
+          "py": "wàng le dōng xi jiù ná gěi nǐ , zhè hé nǐ néng bù néng zì jǐ zǒu shì liǎng huí shì .",
+          "en": "If you forget something, I bring it. That’s separate from whether you can go yourself.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那你不用陪我进去，我找到检票口了。",
+          "py": "nà nǐ bù yòng péi wǒ jìn qù , wǒ zhǎo dào jiǎn piào kǒu le .",
+          "en": "Then you don’t have to come in with me; I’ve found the ticket gate.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好。到了给我电话，别只发照片。",
+          "py": "hǎo . dào le gěi wǒ diàn huà , bié zhǐ fā zhào piān .",
+          "en": "Okay. Call when you arrive; don’t just send photos.",
+          "speaker": "a"
+        },
+        {
+          "zh": "知道了。你也别只回复一个“好”。",
+          "py": "zhī dào le . nǐ yě bié zhǐ huí fù yī gè hǎo .",
+          "en": "I know. Don’t just reply with an “okay” either.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我换一句：“到了吗？”",
+          "py": "nà wǒ huàn yī jù : dào le ma ?",
+          "en": "Then I’ll change it to: “Arrived?”",
+          "speaker": "a"
+        },
+        {
+          "zh": "还没出发呢，你倒先问上了。",
+          "py": "hái méi chū fā ne , nǐ dào xiān wèn shàng le .",
+          "en": "I haven’t even departed, and you’re already asking.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "身份证",
+          "pinyin": "shēn fèn zhèng",
+          "meaning": "identity card"
+        },
+        {
+          "hanzi": "检票口",
+          "pinyin": "jiǎn piào kǒu",
+          "meaning": "ticket gate"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What does the brother ask her to do after arriving?",
+          "choices": [
+            "Call rather than only sending photos",
+            "Cancel the trip",
+            "Give him the ID back"
+          ],
+          "answer": "Call rather than only sending photos"
+        },
+        {
+          "type": "inference",
+          "q": "Why does she joke about the arrival question?",
+          "choices": [
+            "He asks about arrival before she has even departed",
+            "She cannot recognise 到了吗",
+            "She has already arrived at her destination"
+          ],
+          "answer": "He asks about arrival before she has even departed"
+        }
+      ]
+    },
+    {
+      "id": "s4-u12-word-notebook",
+      "title": "Tell the story, not your guess: words in context",
+      "titleZh": "到底发生了什么 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "你能用两句话概括这个故事吗？",
+          "py": "nǐ néng yòng liǎng jù huà gài kuò zhè gè gù shì ma ?",
+          "en": "Can you summarise this story in two sentences?"
+        },
+        {
+          "zh": "她概括了大家的意见，没有重复每个人的话。",
+          "py": "tā gài kuò le dà jiā de yì jiàn , méi yǒu chóng fù měi gè rén de huà .",
+          "en": "She summarised everyone’s views without repeating each person’s words."
+        },
+        {
+          "zh": "先描述你看到的，再说你怎么想。",
+          "py": "xiān miáo shù nǐ kàn dào de , zài shuō nǐ zěn me xiǎng .",
+          "en": "Describe what you saw before saying what you think."
+        },
+        {
+          "zh": "他把那天的情况描述得很清楚。",
+          "py": "tā bǎ nà tiān de qíng kuàng miáo shù dé hěn qīng chǔ .",
+          "en": "He described that day’s events clearly."
+        },
+        {
+          "zh": "这篇文章的主题是离开家以后怎样交朋友。",
+          "py": "zhè piān wén zhāng de zhǔ tí shì lí kāi jiā yǐ hòu zěn yàng jiāo péng yǒu .",
+          "en": "This article is about making friends after leaving home."
+        },
+        {
+          "zh": "我们先定主题，再选材料。",
+          "py": "wǒ men xiān dìng zhǔ tí , zài xuǎn cái liào .",
+          "en": "Let’s choose the theme before selecting material."
+        },
+        {
+          "zh": "把这些事按发生的顺序讲。",
+          "py": "bǎ zhè xiē shì àn fā shēng de shùn xù jiǎng .",
+          "en": "Tell these events in the order they happened."
+        },
+        {
+          "zh": "你说的顺序和照片里的不一样。",
+          "py": "nǐ shuō de shùn xù hé zhào piān lǐ de bù yī yàng .",
+          "en": "Your sequence differs from the one in the photos."
+        },
+        {
+          "zh": "故事的背景是一座小城。",
+          "py": "gù shì de bèi jǐng shì yī zuò xiǎo chéng .",
+          "en": "The story is set in a small town."
+        },
+        {
+          "zh": "不了解背景，很容易误会这句话。",
+          "py": "bù liǎo jiě bèi jǐng , hěn róng yì wù huì zhè jù huà .",
+          "en": "Without the background, it’s easy to misunderstand this sentence."
+        },
+        {
+          "zh": "这个角色一开始不愿意说实话。",
+          "py": "zhè gè jué sè yī kāi shǐ bù yuàn yì shuō shí huà .",
+          "en": "This character doesn’t want to tell the truth at first."
+        },
+        {
+          "zh": "她在活动中的角色是主持人。",
+          "py": "tā zài huó dòng zhōng de jué sè shì zhǔ chí rén .",
+          "en": "Her role at the event is host."
+        },
+        {
+          "zh": "别忘了信放在桌上的那个细节。",
+          "py": "bié wàng le xìn fàng zài zhuō shàng de nà gè xì jié .",
+          "en": "Don’t forget the detail about the letter on the table."
+        },
+        {
+          "zh": "这个细节前面也出现过。",
+          "py": "zhè gè xì jié qián miàn yě chū xiàn guò .",
+          "en": "This detail appeared earlier too."
+        },
+        {
+          "zh": "我们现在还不能下这个结论。",
+          "py": "wǒ men xiàn zài hái bù néng xià zhè gè jié lùn .",
+          "en": "We can’t draw that conclusion yet."
+        },
+        {
+          "zh": "你的结论有哪一句话支持？",
+          "py": "nǐ de jié lùn yǒu nǎ yī jù huà zhī chí ?",
+          "en": "Which sentence supports your conclusion?"
+        },
+        {
+          "zh": "他离开的原因是什么？",
+          "py": "tā lí kāi de yuán yīn shì shén me ?",
+          "en": "Why did he leave?"
+        },
+        {
+          "zh": "我想知道迟到的真正原因。",
+          "py": "wǒ xiǎng zhī dào chí dào de zhēn zhèng yuán yīn .",
+          "en": "I’d like to know the real reason for the delay."
+        },
+        {
+          "zh": "最后的结果和我想的不一样。",
+          "py": "zuì hòu de jié guǒ hé wǒ xiǎng de bù yī yàng .",
+          "en": "The final outcome differs from what I expected."
+        },
+        {
+          "zh": "等结果出来以后再通知大家。",
+          "py": "děng jié guǒ chū lái yǐ hòu zài tōng zhī dà jiā .",
+          "en": "Tell everyone after the results come out."
+        },
+        {
+          "zh": "雨突然大了，于是我们进了旁边的店。",
+          "py": "yǔ tū rán dà le , yú shì wǒ men jìn le páng biān de diàn .",
+          "en": "The rain suddenly got heavier, so we went into the shop beside us."
+        },
+        {
+          "zh": "他没接电话，于是我发了消息。",
+          "py": "tā méi jiē diàn huà , yú shì wǒ fā le xiāo xī .",
+          "en": "He didn’t answer, so I sent a message."
+        },
+        {
+          "zh": "从此，她每年都会回来看一次。",
+          "py": "cóng cǐ , tā měi nián dū huì huí lái kàn yī cì .",
+          "en": "From then on she returned once a year."
+        },
+        {
+          "zh": "我们在车站认识，从此成了朋友。",
+          "py": "wǒ men zài chē zhàn rèn shi , cóng cǐ chéng le péng you .",
+          "en": "We met at the station and became friends from then on."
+        },
+        {
+          "zh": "我最初以为他不来了。",
+          "py": "wǒ zuì chū yǐ wéi tā bù lái le .",
+          "en": "At first I thought he wasn’t coming."
+        },
+        {
+          "zh": "最初的计划是一起坐公交车。",
+          "py": "zuì chū de jì huà shì yì qǐ zuò gōng jiāo chē .",
+          "en": "The initial plan was to take the bus together."
+        },
+        {
+          "zh": "最后，你总结一下今天讨论的内容。",
+          "py": "zuì hòu , nǐ zǒng jié yī xià jīn tiān tǎo lùn de nèi róng .",
+          "en": "At the end, sum up what we discussed today."
+        },
+        {
+          "zh": "这篇日记总结了我一个月的经历。",
+          "py": "zhè piān rì jì zǒng jié le wǒ yī gè yuè de jīng lì .",
+          "en": "This diary entry sums up my experiences over a month."
+        },
+        {
+          "zh": "哪一个画面给你的印象最深？",
+          "py": "nǎ yī gè huà miàn gěi nǐ de yìn xiàng zuì shēn ?",
+          "en": "Which image made the strongest impression on you?"
+        },
+        {
+          "zh": "我对这家店的第一印象很好。",
+          "py": "wǒ duì zhè jiā diàn de dì yī yìn xiàng hěn hǎo .",
+          "en": "My first impression of this shop was good."
+        },
+        {
+          "zh": "这是我第一次一个人旅行的经历。",
+          "py": "zhè shì wǒ dì yī cì yī gè rén lǚ xíng de jīng lì .",
+          "en": "This was my first experience of travelling alone."
+        },
+        {
+          "zh": "经历了这件事以后，她更愿意直接问了。",
+          "py": "jīng lì le zhè jiàn shì yǐ hòu , tā gèng yuàn yì zhí jiē wèn le .",
+          "en": "After going through this, she became more willing to ask directly."
+        }
+      ],
+      "glosses": [],
+      "questions": []
+    }
+  ],
+  "conversation": {
+    "id": "s4-u12-c",
+    "title": "Tell the story, not your guess",
+    "place": "Retelling an original family travel scene",
+    "context": "A viewer missed why a brother went to the station and confuses a practical reason with an argument.",
+    "goal": "Retell an original scene in chronological order",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "先发生了什么？",
+        "pinyin": "xiān fā shēng le shén me ?",
+        "meaning": "What happened first?",
+        "intent": "Start with an observed event",
+        "examples": [
+          "妹妹留下纸条，自己去了车站。"
+        ],
+        "accept": [
+          "^妹妹留下纸条，自己去了车站。[。！？]?$"
+        ]
+      },
+      {
+        "text": "哥哥为什么去？",
+        "pinyin": "gē gē wèi shén me qù ?",
+        "meaning": "Why did the brother go?",
+        "intent": "Supply the evidenced cause",
+        "examples": [
+          "他看见她忘了身份证，就送过去。"
+        ],
+        "accept": [
+          "^他看见她忘了身份证，就送过去。[。！？]?$"
+        ]
+      },
+      {
+        "text": "所以她从此不需要帮助？",
+        "pinyin": "suǒ yǐ tā cóng cǐ bù xū yào bāng zhù ?",
+        "meaning": "So she never needs help from then on?",
+        "intent": "Correct the overly broad conclusion",
+        "examples": [
+          "不是，她接受了帮助，但这次还是自己去旅行。"
+        ],
+        "accept": [
+          "^不是，她接受了帮助，但这次还是自己去旅行。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Mark a guess clearly",
+      "natural": {
+        "zh": "我猜他可能担心，不过场景没有直接说。",
+        "py": "wǒ cāi tā kě néng dān xīn , bù guò chǎng jǐng méi yǒu zhí jiē shuō .",
+        "en": "I guess he may be worried, but the scene does not directly say so."
+      },
+      "note": "Separate your plausible interpretation from the stated reason."
+    },
+    {
+      "situation": "Give a compact summary",
+      "natural": {
+        "zh": "她忘了证件，哥哥送到车站，她仍然自己上了车。",
+        "py": "tā wàng le zhèng jiàn , gē gē sòng dào chē zhàn , tā réng rán zì jǐ shàng le chē .",
+        "en": "She forgot her ID, her brother brought it to the station, and she still boarded on her own."
+      },
+      "note": "Keep the problem, practical help and final choice in the summary."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s4-u12-t01",
+      "phrase": "s4-u12-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "他拿着她忘在桌上的身份证，打电话让她先别上车。",
+        "py": "tā ná zhe tā wàng zài zhuō shàng de shēn fèn zhèng , dǎ diàn huà ràng tā xiān bié shàng chē .",
+        "en": "He had the ID she’d left on the table and called to tell her not to board yet."
+      },
+      "statement": "The brother brings the forgotten ID.",
+      "answer": true,
+      "why": "He is explicitly holding the ID left on the table."
+    },
+    {
+      "id": "s4-u12-t02",
+      "phrase": "s4-u12-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "妹妹接过身份证，有点不好意思：“看来我还是需要你。”哥哥说：“忘了东西就拿给你，这和你能不能自己走是两回事。”他帮她把包关好，但没有像以前一样一路陪到座位。",
+        "py": "mèi mei jiē guò shēn fèn zhèng , yǒu diǎn bù hǎo yì sī : kàn lái wǒ hái shi xū yào nǐ . gē gē shuō : wàng le dōng xi jiù ná gěi nǐ , zhè hé nǐ néng bù néng zì jǐ zǒu shì liǎng huí shì . tā bāng tā bǎ bāo guān hǎo , dàn méi yǒu xiàng yǐ qián yī yàng yī lù péi dào zuò wèi .",
+        "en": "She took the ID, a little embarrassed: “Looks like I still need you.” He replied, “Bringing you something you forgot is separate from whether you can go yourself.” He closed her bag but didn’t accompany her all the way to her seat as before."
+      },
+      "statement": "The brother accompanies her all the way to her seat as before.",
+      "answer": false,
+      "why": "He does not accompany her as he did before."
+    },
+    {
+      "id": "s4-u12-t03",
+      "phrase": "s4-u12-w03",
+      "type": "reply",
+      "prompt": {
+        "zh": "她忘了身份证，哥哥送去。没有提吵架，能确定他们吵了吗？",
+        "py": "tā wàng le shēn fèn zhèng , gē gē sòng qù . méi yǒu tí chǎo jià , néng què dìng tā men chǎo le ma ?",
+        "en": "She forgot her ID and her brother brought it. No argument is mentioned. Can we be sure they argued?"
+      },
+      "choices": [
+        "前面没有这样说，他是去送身份证。",
+        "能，送身份证就证明他们吵架了。",
+        "能，哥哥送去就证明她根本没忘。"
+      ],
+      "answer": "前面没有这样说，他是去送身份证。",
+      "why": "The reply distinguishes the stated practical reason from a guess."
+    },
+    {
+      "id": "s4-u12-t04",
+      "phrase": "s4-u12-w04",
+      "type": "reply",
+      "prompt": {
+        "zh": "她忘了身份证，哥哥送去，她自己上车。能用两句话讲清楚吗？",
+        "py": "tā wàng le shēn fèn zhèng , gē gē sòng qù , tā zì jǐ shàng chē . néng yòng liǎng jù huà jiǎng qīng chǔ ma ?",
+        "en": "She forgot her ID, her brother brought it, and she boarded alone. Can you summarise this in two sentences?"
+      },
+      "choices": [
+        "她忘了身份证，哥哥送过去。后来她自己上了车。",
+        "她自己拿着身份证来，哥哥陪她坐同一班车。",
+        "哥哥没送身份证，所以她一直没有上车。"
+      ],
+      "answer": "她忘了身份证，哥哥送过去。后来她自己上了车。",
+      "why": "The summary preserves the problem and outcome."
+    },
+    {
+      "id": "s4-u12-t05",
+      "phrase": "s4-u12-w05",
+      "type": "listenfill",
+      "line": {
+        "zh": "他看见身份证，【于是】给她打电话。",
+        "py": "tā kàn jiàn shēn fèn zhèng , yú shì gěi tā dǎ diàn huà .",
+        "en": "He saw the ID and then called her."
+      },
+      "blankPy": "yú shì"
+    },
+    {
+      "id": "s4-u12-t06",
+      "phrase": "s4-u12-w06",
+      "type": "listenfill",
+      "line": {
+        "zh": "先【描述】你看到的，再说你怎么想。",
+        "py": "xiān miáo shù nǐ kàn dào de , zài shuō nǐ zěn me xiǎng .",
+        "en": "Describe what you saw before giving your interpretation."
+      },
+      "blankPy": "miáo shù"
+    },
+    {
+      "id": "s4-u12-t07",
+      "phrase": "s4-u12-w07",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Can you summarise this story in two sentences?",
+          "right": {
+            "zh": "你能用两句话概括这个故事吗？",
+            "py": "nǐ néng yòng liǎng jù huà gài kuò zhè gè gù shì ma ?",
+            "en": "Can you summarise this story in two sentences?"
+          }
+        },
+        {
+          "left": "The story is set in a small town.",
+          "right": {
+            "zh": "故事的背景是一座小城。",
+            "py": "gù shì de bèi jǐng shì yī zuò xiǎo chéng .",
+            "en": "The story is set in a small town."
+          }
+        },
+        {
+          "left": "We can’t draw that conclusion yet.",
+          "right": {
+            "zh": "我们现在还不能下这个结论。",
+            "py": "wǒ men xiàn zài hái bù néng xià zhè gè jié lùn .",
+            "en": "We can’t draw that conclusion yet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4-u12-t08",
+      "phrase": "s4-u12-w08",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Your sequence differs from the one in the photos.",
+          "right": {
+            "zh": "你说的顺序和照片里的不一样。",
+            "py": "nǐ shuō de shùn xù hé zhào piān lǐ de bù yī yàng .",
+            "en": "Your sequence differs from the one in the photos."
+          }
+        },
+        {
+          "left": "He didn’t answer, so I sent a message.",
+          "right": {
+            "zh": "他没接电话，于是我发了消息。",
+            "py": "tā méi jiē diàn huà , yú shì wǒ fā le xiāo xī .",
+            "en": "He didn’t answer, so I sent a message."
+          }
+        },
+        {
+          "left": "The initial plan was to take the bus together.",
+          "right": {
+            "zh": "最初的计划是一起坐公交车。",
+            "py": "zuì chū de jì huà shì yì qǐ zuò gōng jiāo chē .",
+            "en": "The initial plan was to take the bus together."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: sibling register, the early arrival-question joke and short retelling naturalness. Timeline, forgotten document and final independent boarding checked. The story does not establish a quarrel or a permanent rejection of help. No learner mastery or completed HSK inventory is inferred from this capstone.",
+  "characters": []
+}
