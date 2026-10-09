@@ -100,13 +100,13 @@ TEXTS={
 放着吧，等我一起搬。先帮我推开门。|Leave it for now; we'll carry it together. Push the door open for me first.
 好。工具拿进去以后，我上去吗？|Okay. After taking the tools inside, should I go upstairs?
 先在一楼等，桌子装好再把书搬上去。|Wait on the ground floor first. We'll carry the books up when the desk is assembled.
-那我把小箱子放在桌子底下。|I'll put the small box under the table, then.
+那我把小箱子放在门边那张旧桌子底下。|I'll put the small box under the old table by the entrance, then.
 行，别放在门后面，开门会碰到。|Okay. Don't put it behind the door; the door will hit it.
 知道了。你背上那个包要放下来吗？|Got it. Do you want to put down the bag on your back?
 当然，先帮我拿一下，我还没找到拉链。|Yes. Hold it for a moment; I haven't found the zip yet.
 ''',
 '''今天林安搬家，我过去帮忙。到了楼下，她站在一楼门口，背着一个大包，朝我招手，让我先拿小箱子。|Lin An was moving today and I went to help. She stood by the ground-floor entrance with a big backpack, waving me over and asking me to take the small box first.
-小箱子里面是安装工具，大箱子里面都是书。我把工具拿进去，放在桌子底下。书太重，等她放下包，我们再一起搬。|The small box held assembly tools; the big one held books. I took the tools inside and put them under the table. The books were heavy, so we'd carry them together after she put down her bag.
+小箱子里面是安装工具，大箱子里面都是书。我把工具拿进去，放在门边的旧桌子底下。书太重，等她放下包，我们再一起搬。|The small box held assembly tools; the big one held books. I took the tools inside and put them under the old table by the entrance. The books were heavy, so we'd carry them together after she put down her bag.
 林安把门推开，我看见里面还有两件新家具。一张木头桌子还没装好，旁边放着椅子。她说桌子是准备搬到二楼的。|Lin An pushed the door open. Inside were two new pieces of furniture: an unassembled wooden desk and a chair beside it. She said the desk was going upstairs.
 我们先把桌子装好，再一起抬上去。到了二楼，她把桌子放在朝南的窗边，我问书是不是也放这里，她说放在旁边的书架上。|We assembled the desk and carried it up together. Upstairs she put it by the south-facing window. I asked about the books; they'd go on the bookshelf beside it.
 我下去拿书，她在楼上等。我拿了几本上来，放进书架，大箱子剩下的书就分几次拿，不再整箱搬。|I went down for the books while she waited upstairs. I brought up a few and put them on the shelf. We made several trips for the rest rather than moving the whole box.

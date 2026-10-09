@@ -1,0 +1,2302 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u06",
+    "stage": 3,
+    "order": 138,
+    "title": "Support the trial, question the conclusion",
+    "titleZh": "支持试，也把问题说清",
+    "canDo": [
+      "Negotiate a professional disagreement without turning questions into personal rejection",
+      "Distinguish percentage points, relative change and causal evidence",
+      "Agree on a bounded trial with complete workload records"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u05",
+      "s6-u05-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u06-w01",
+      "hanzi": "百分点",
+      "pinyin": "bǎi fēn diǎn",
+      "meaning": "percentage point",
+      "meaningVi": "điểm phần trăm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "百分之二十到百分之三十，增加十个百分点。",
+        "py": "bǎi fēn zhī èr shí dào bǎi fēn zhī sān shí , zēng jiā shí gè bǎi fēn diǎn .",
+        "en": "Twenty percent to thirty percent is an increase of ten percentage points."
+      },
+      "usageNote": "[GF2021:L6:101] Source entry: 百分点; bǎifēndiǎn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w02",
+      "hanzi": "办公",
+      "pinyin": "bàn gōng",
+      "meaning": "work in an office; handle office work",
+      "meaningVi": "làm việc văn phòng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我们周二在小厅办公，把两次记录放在一起看。",
+        "py": "wǒ men zhōu èr zài xiǎo tīng bàn gōng , bǎ liǎng cì jì lù fàng zài yì qǐ kàn .",
+        "en": "We work in the hall Tuesday and compare the two sets of records."
+      },
+      "usageNote": "[GF2021:L6:135] Source entry: 办公; bàn∥gōng; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w03",
+      "hanzi": "团队",
+      "pinyin": "tuán duì",
+      "meaning": "team",
+      "meaningVi": "nhóm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "团队可以意见不同，不用先找一个输赢。",
+        "py": "tuán duì kě yǐ yì jiàn bù tóng , bù yòng xiān zhǎo yī gè shū yíng .",
+        "en": "A team can disagree without first declaring a winner."
+      },
+      "usageNote": "[GF2021:L6:8165] Source entry: 团队; tuánduì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w04",
+      "hanzi": "岗位",
+      "pinyin": "gǎng wèi",
+      "meaning": "job position; assigned post",
+      "meaningVi": "vị trí công việc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "负责联系的岗位还在，不是换封信就不用人了。",
+        "py": "fù zé lián xì de gǎng wèi hái zài , bù shì huàn fēng xìn jiù bù yòng rén le .",
+        "en": "The contact role is still needed; a new letter doesn’t remove it."
+      },
+      "usageNote": "[GF2021:L6:2622] Source entry: 岗位; gǎngwèi; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w05",
+      "hanzi": "策划",
+      "pinyin": "cè huà",
+      "meaning": "plan an event or project",
+      "meaningVi": "lên kế hoạch",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我在策划试点，先写清范围。",
+        "py": "wǒ zài cè huà shì diǎn , xiān xiě qīng fàn wéi .",
+        "en": "I am planning the trial and first state its scope."
+      },
+      "usageNote": "[GF2021:L6:757] Source entry: 策划; cèhuà; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w06",
+      "hanzi": "策略",
+      "pinyin": "cè lüè",
+      "meaning": "strategy; approach",
+      "meaningVi": "chiến lược",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先小范围试，是这次的策略。",
+        "py": "xiān xiǎo fàn wéi shì , shì zhè cì de cè lüè .",
+        "en": "Testing on a small scale first is our strategy."
+      },
+      "usageNote": "[GF2021:L6:758] Source entry: 策略; cèlüè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w07",
+      "hanzi": "决策",
+      "pinyin": "jué cè",
+      "meaning": "make a decision; decision-making",
+      "meaningVi": "quyết định",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这次决策只同意两周试点，不是永久更换。",
+        "py": "zhè cì jué cè zhǐ tóng yì liǎng zhōu shì diǎn , bù shì yǒng jiǔ gēng huàn .",
+        "en": "This decision approves only a two-week trial, not a permanent change."
+      },
+      "usageNote": "[GF2021:L6:4535] Source entry: 决策; juécè; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w08",
+      "hanzi": "定价",
+      "pinyin": "dìng jià",
+      "meaning": "set a price; pricing",
+      "meaningVi": "định giá",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "定价不在这次讨论范围里，我们先看联系方法。",
+        "py": "dìng jià bù zài zhè cì tǎo lùn fàn wéi lǐ , wǒ men xiān kàn lián xì fāng fǎ .",
+        "en": "Pricing isn’t in this discussion; we’re examining contact methods."
+      },
+      "usageNote": "[GF2021:L6:1882] Source entry: 定价; dìngjià; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w09",
+      "hanzi": "金额",
+      "pinyin": "jīn é",
+      "meaning": "amount of money",
+      "meaningVi": "số tiền",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "记录里没有金额，不能推成收入增加。",
+        "py": "jì lù lǐ méi yǒu jīn é , bù néng tuī chéng shōu rù zēng jiā .",
+        "en": "The record has no monetary amounts, so it doesn’t establish increased revenue."
+      },
+      "usageNote": "[GF2021:L6:4251] Source entry: 金额; jīn’é; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w10",
+      "hanzi": "试点",
+      "pinyin": "shì diǎn",
+      "meaning": "limited pilot or trial",
+      "meaningVi": "thí điểm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "两周试点以后，再决定要不要继续。",
+        "py": "liǎng zhōu shì diǎn yǐ hòu , zài jué dìng yào bù yào jì xù .",
+        "en": "Decide whether to continue after the two-week trial."
+      },
+      "usageNote": "[GF2021:L6:7314] Source entry: 试点; shìdiǎn; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w11",
+      "hanzi": "调研",
+      "pinyin": "diào yán",
+      "meaning": "investigate needs or circumstances",
+      "meaningVi": "khảo sát",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先做一点调研，问大家为什么没回复。",
+        "py": "xiān zuò yī diǎn diào yán , wèn dà jiā wèi shén me méi huí fù .",
+        "en": "First investigate why people didn’t reply."
+      },
+      "usageNote": "[GF2021:L6:1859] Source entry: 调研; diàoyán; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w12",
+      "hanzi": "监测",
+      "pinyin": "jiān cè",
+      "meaning": "monitor",
+      "meaningVi": "theo dõi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "监测回复数时，也记录发送对象和时间。",
+        "py": "jiān cè huí fù shù shí , yě jì lù fā sòng duì xiàng hé shí jiān .",
+        "en": "When monitoring replies, record recipients and sending time too."
+      },
+      "usageNote": "[GF2021:L6:3924] Source entry: 监测; jiāncè; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w13",
+      "hanzi": "差异",
+      "pinyin": "chā yì",
+      "meaning": "difference",
+      "meaningVi": "khác biệt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "两组人的差异可能影响回复。",
+        "py": "liǎng zǔ rén de chā yì kě néng yǐng xiǎng huí fù .",
+        "en": "Differences between the groups may affect replies."
+      },
+      "usageNote": "[GF2021:L6:772] Source entry: 差异; chāyì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w14",
+      "hanzi": "衡量",
+      "pinyin": "héng liáng",
+      "meaning": "assess; measure against a criterion",
+      "meaningVi": "đánh giá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "衡量工作量，不能只数回复的人。",
+        "py": "héng liáng gōng zuò liàng , bù néng zhǐ shù huí fù de rén .",
+        "en": "Assessing workload requires more than counting respondents."
+      },
+      "usageNote": "[GF2021:L6:3335] Source entry: 衡量; héngliáng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w15",
+      "hanzi": "因素",
+      "pinyin": "yīn sù",
+      "meaning": "factor",
+      "meaningVi": "yếu tố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "发送日期也是一个因素。",
+        "py": "fā sòng rì qī yě shì yī gè yīn sù .",
+        "en": "The sending date is also a factor."
+      },
+      "usageNote": "[GF2021:L6:9678] Source entry: 因素; yīnsù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w16",
+      "hanzi": "应对",
+      "pinyin": "yìng duì",
+      "meaning": "respond to; deal with",
+      "meaningVi": "ứng phó",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "临时改时间，我们要有应对办法。",
+        "py": "lín shí gǎi shí jiān , wǒ men yào yǒu yìng duì bàn fǎ .",
+        "en": "We need a way to deal with last-minute time changes."
+      },
+      "usageNote": "[GF2021:L6:9766] Source entry: 应对; yìngduì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w17",
+      "hanzi": "采纳",
+      "pinyin": "cǎi nà",
+      "meaning": "adopt a suggestion",
+      "meaningVi": "tiếp nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我采纳了把后续时间也记下的建议。",
+        "py": "wǒ cǎi nà le bǎ hòu xù shí jiān yě jì xià de jiàn yì .",
+        "en": "I adopted the suggestion to record follow-up time too."
+      },
+      "usageNote": "[GF2021:L6:686] Source entry: 采纳; cǎinà; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w18",
+      "hanzi": "协调",
+      "pinyin": "xié tiáo",
+      "meaning": "coordinate",
+      "meaningVi": "điều phối",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "陈宇协调发送和统计，不是一个人做全部。",
+        "py": "chén yǔ xié tiáo fā sòng hé tǒng jì , bù shì yī gè rén zuò quán bù .",
+        "en": "Chen Yu coordinates sending and counts, not does everything himself."
+      },
+      "usageNote": "[GF2021:L6:8945] Source entry: 协调; xiétiáo; 动、形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w19",
+      "hanzi": "协商",
+      "pinyin": "xié shāng",
+      "meaning": "discuss to reach agreement",
+      "meaningVi": "thương lượng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "谁做后续，我们先协商，不直接加给林安。",
+        "py": "shéi zuò hòu xù , wǒ men xiān xié shāng , bù zhí jiē jiā gěi lín ān .",
+        "en": "We discuss follow-up responsibilities before assigning them to Lin An."
+      },
+      "usageNote": "[GF2021:L6:8944] Source entry: 协商; xiéshāng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w20",
+      "hanzi": "听取",
+      "pinyin": "tīng qǔ",
+      "meaning": "hear and consider views",
+      "meaningVi": "lắng nghe",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "听取她的担心，不等于放弃整个想法。",
+        "py": "tīng qǔ tā de dān xīn , bù děng yú fàng qì zhěng gè xiǎng fǎ .",
+        "en": "Hearing her concerns doesn’t mean abandoning the whole idea."
+      },
+      "usageNote": "[GF2021:L6:8010] Source entry: 听取; tīngqǔ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w21",
+      "hanzi": "提交",
+      "pinyin": "tí jiāo",
+      "meaning": "submit",
+      "meaningVi": "nộp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "周四提交修改后的方案。",
+        "py": "zhōu sì tí jiāo xiū gǎi hòu de fāng àn .",
+        "en": "Submit the revised proposal Thursday."
+      },
+      "usageNote": "[GF2021:L6:7888] Source entry: 提交; tíjiāo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w22",
+      "hanzi": "通报",
+      "pinyin": "tōng bào",
+      "meaning": "inform relevant people formally",
+      "meaningVi": "thông báo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "试点结果先向小组通报，再决定后面。",
+        "py": "shì diǎn jié guǒ xiān xiàng xiǎo zǔ tōng bào , zài jué dìng hòu miàn .",
+        "en": "Report trial results to the group before deciding what follows."
+      },
+      "usageNote": "[GF2021:L6:8030] Source entry: 通报; tōngbào; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w23",
+      "hanzi": "配置",
+      "pinyin": "pèi zhì",
+      "meaning": "allocate; set up resources",
+      "meaningVi": "bố trí",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "现有人员配置只能每周做一小轮。",
+        "py": "xiàn yǒu rén yuán pèi zhì zhǐ néng měi zhōu zuò yī xiǎo lún .",
+        "en": "Current staffing allows only one small round each week."
+      },
+      "usageNote": "[GF2021:L6:6022] Source entry: 配置; pèizhì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w24",
+      "hanzi": "关联",
+      "pinyin": "guān lián",
+      "meaning": "association; connection",
+      "meaningVi": "liên hệ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "回复增加和换信有关联，不等于已经知道原因。",
+        "py": "huí fù zēng jiā hé huàn xìn yǒu guān lián , bù děng yú yǐ jīng zhī dào yuán yīn .",
+        "en": "More replies are associated with a new letter, without establishing cause."
+      },
+      "usageNote": "[GF2021:L6:2964] Source entry: 关联; guānlián; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w25",
+      "hanzi": "核心",
+      "pinyin": "hé xīn",
+      "meaning": "core; central point",
+      "meaningVi": "cốt lõi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "核心问题是有没有更清楚，不只是更多。",
+        "py": "hé xīn wèn tí shì yǒu méi yǒu gèng qīng chǔ , bù zhǐ shì gèng duō .",
+        "en": "The core question is whether it is clearer, not merely more."
+      },
+      "usageNote": "[GF2021:L6:3304] Source entry: 核心; héxīn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w26",
+      "hanzi": "切实",
+      "pinyin": "qiè shí",
+      "meaning": "practical and real",
+      "meaningVi": "thiết thực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "方案要有切实的分工，不能只写全力支持。",
+        "py": "fāng àn yào yǒu qiè shí de fēn gōng , bù néng zhǐ xiě quán lì zhī chí .",
+        "en": "The proposal needs practical responsibilities, not only “full support.”"
+      },
+      "usageNote": "[GF2021:L6:6430] Source entry: 切实; qièshí; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w27",
+      "hanzi": "常规",
+      "pinyin": "cháng guī",
+      "meaning": "routine; standard practice",
+      "meaningVi": "thông lệ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "常规联系继续，试点只占一小部分。",
+        "py": "cháng guī lián xì jì xù , shì diǎn zhǐ zhàn yī xiǎo bù fèn .",
+        "en": "Routine contact continues; the trial covers a small part."
+      },
+      "usageNote": "[GF2021:L6:838] Source entry: 常规; chángguī; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w28",
+      "hanzi": "全力",
+      "pinyin": "quán lì",
+      "meaning": "with all one’s effort",
+      "meaningVi": "hết sức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "愿意全力做好，不代表有无限时间。",
+        "py": "yuàn yì quán lì zuò hǎo , bù dài biǎo yǒu wú xiàn shí jiān .",
+        "en": "Wanting to do one’s best doesn’t mean having unlimited time."
+      },
+      "usageNote": "[GF2021:L6:6609] Source entry: 全力; quánlì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w29",
+      "hanzi": "最终",
+      "pinyin": "zuì zhōng",
+      "meaning": "final; ultimately",
+      "meaningVi": "cuối cùng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "最终决定要等两周记录完整以后。",
+        "py": "zuì zhōng jué dìng yào děng liǎng zhōu jì lù wán zhěng yǐ hòu .",
+        "en": "The final decision waits until two weeks of records are complete."
+      },
+      "usageNote": "[GF2021:L6:11041] Source entry: 最终; zuìzhōng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w30",
+      "hanzi": "能否",
+      "pinyin": "néng fǒu",
+      "meaning": "whether something is possible",
+      "meaningVi": "có thể hay không",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "能否减少后续，要看实际记录。",
+        "py": "néng fǒu jiǎn shǎo hòu xù , yào kàn shí jì jì lù .",
+        "en": "Whether follow-up can be reduced depends on actual records."
+      },
+      "usageNote": "[GF2021:L6:5835] Source entry: 能否; néngfǒu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w31",
+      "hanzi": "据",
+      "pinyin": "jù",
+      "meaning": "according to; on the basis of",
+      "meaningVi": "theo",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "据这两次记录，回复比例确实不同。",
+        "py": "jù zhè liǎng cì jì lù , huí fù bǐ lì què shí bù tóng .",
+        "en": "According to these two records, reply proportions differ."
+      },
+      "usageNote": "[GF2021:L6:4513] Source entry: 据; jù; 介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u06-w32",
+      "hanzi": "截至",
+      "pinyin": "jié zhì",
+      "meaning": "as of; up to an endpoint of an observation",
+      "meaningVi": "tính đến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "截至周一中午，第二组收到三十份回复。",
+        "py": "jié zhì zhōu yī zhōng wǔ , dì èr zǔ shōu dào sān shí fèn huí fù .",
+        "en": "As of noon Monday the second group had thirty replies."
+      },
+      "usageNote": "[GF2021:L6:4202] Source entry: 截至; jiézhì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u06-g01",
+      "pattern": "因…而…",
+      "purpose": "Link a stated cause to a result in organised language",
+      "explanation": "因 is a compact formal counterpart of 因为. It attributes a cause; the content still needs evidence rather than being proved by the connector.",
+      "examples": [
+        {
+          "zh": "因时间有限而减少这一轮数量。",
+          "py": "yīn shí jiān yǒu xiàn ér jiǎn shǎo zhè yī lún shù liàng .",
+          "en": "Reduce this round’s size because time is limited."
+        },
+        {
+          "zh": "因对象不同而暂时保留判断。",
+          "py": "yīn duì xiàng bù tóng ér zàn shí bǎo liú pàn duàn .",
+          "en": "Hold judgement for now because recipients differ."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "因信短而回复多，单凭因字就已经证明原因。",
+          "right": "因对象不同而暂时保留判断。",
+          "why": "A causal connector does not itself prove a causal claim."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u06-g02",
+      "pattern": "确认后便…",
+      "purpose": "Recognise concise written sequencing",
+      "explanation": "便 here means then or promptly after the stated condition, close to 就. It does not mean cheap or convenient.",
+      "examples": [
+        {
+          "zh": "确认后便发出通知。",
+          "py": "què rèn hòu biàn fā chū tōng zhī .",
+          "en": "Send the notice after confirmation."
+        },
+        {
+          "zh": "记录完整后便向小组通报。",
+          "py": "jì lù wán zhěng hòu biàn xiàng xiǎo zǔ tōng bào .",
+          "en": "Report to the group once the record is complete."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "确认后便发出通知，表示通知比较便宜。",
+          "right": "确认后便发出通知。",
+          "why": "便 links sequence here, not price."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u06-g03",
+      "pattern": "被…给…",
+      "purpose": "Recognise colloquial passive emphasis",
+      "explanation": "给 can reinforce the passive result after 被. The affected person or plan is the subject; the expression can sound emphatic.",
+      "examples": [
+        {
+          "zh": "原来的安排被临时变化给打乱了。",
+          "py": "yuán lái de ān pái bèi lín shí biàn huà gěi dǎ luàn le .",
+          "en": "The original arrangement was disrupted by a last-minute change."
+        },
+        {
+          "zh": "他的说明被后来的数字给盖住了。",
+          "py": "tā de shuō míng bèi hòu lái de shù zì gěi gài zhù le .",
+          "en": "His explanation was overshadowed by the later numbers."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "原来的安排被变化给打乱了，意思是安排主动制造变化。",
+          "right": "原来的安排被临时变化给打乱了。",
+          "why": "The arrangement receives the effect; it is not the agent."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u06-g04",
+      "pattern": "除…外，…",
+      "purpose": "Read a written exception or addition by context",
+      "explanation": "除…外 may mean except for or besides. 后面的也/还 often signals addition; 都/其余 often supports exclusion. Read the whole sentence.",
+      "examples": [
+        {
+          "zh": "除试点外，常规联系也继续。",
+          "py": "chú shì diǎn wài , cháng guī lián xì yě jì xù .",
+          "en": "Besides the trial, routine contact continues too."
+        },
+        {
+          "zh": "除最后一组外，其余记录都已完整。",
+          "py": "chú zuì hòu yī zǔ wài , qí yú jì lù dōu yǐ wán zhěng .",
+          "en": "Except for the final group, all other records are complete."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除试点外常规也继续，表示常规联系已经取消。",
+          "right": "除试点外，常规联系也继续。",
+          "why": "也 marks continuing additional work here."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u06-g05",
+      "pattern": "至于…",
+      "purpose": "Separate an aspect from the current decision",
+      "explanation": "The topic can be set aside or discussed separately; mentioning it does not automatically approve it.",
+      "examples": [
+        {
+          "zh": "至于定价，这次先不讨论。",
+          "py": "zhì yú dìng jià , zhè cì xiān bù tǎo lùn .",
+          "en": "As for pricing, we won’t discuss it this time."
+        },
+        {
+          "zh": "至于后续谁做，我们还要协商。",
+          "py": "zhì yú hòu xù shéi zuò , wǒ men hái yào xié shāng .",
+          "en": "As for follow-up responsibility, we still need discussion."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "至于后续谁做还要协商，所以已确定全部由她做。",
+          "right": "至于后续谁做，我们还要协商。",
+          "why": "An unresolved role remains unresolved."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u06-g06",
+      "pattern": "就算…，也…",
+      "purpose": "Keep a requirement despite an assumed improvement",
+      "explanation": "就算 introduces a hypothetical concession; 也 retains the limit. Do not replace it with a statement that the assumption has occurred.",
+      "examples": [
+        {
+          "zh": "就算回复更多，也要把后续时间记完整。",
+          "py": "jiù suàn huí fù gèng duō , yě yào bǎ hòu xù shí jiān jì wán zhěng .",
+          "en": "Even with more replies, follow-up time must be fully recorded."
+        },
+        {
+          "zh": "就算支持试点，也不能保证每个时段都有空。",
+          "py": "jiù suàn zhī chí shì diǎn , yě bù néng bǎo zhèng měi gè shí duàn dōu yǒu kōng .",
+          "en": "Even supporting the trial doesn’t guarantee availability at every time."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "就算回复更多，就说明后续记录可以全部省掉。",
+          "right": "就算回复更多，也要把后续时间记完整。",
+          "why": "Improved replies would not remove the recording requirement."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u06-d",
+    "title": "支持试，也把问题说清",
+    "titleZh": "支持试，也把问题说清",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "我想下周都换成这封短一点的邀请。",
+        "py": "wǒ xiǎng xià zhōu dōu huàn chéng zhè fēng duǎn yī diǎn de yāo qǐng .",
+        "en": "I’d like to use this shorter invitation for everyone next week.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先说你看到什么，再说都换，可以吗？",
+        "py": "xiān shuō nǐ kàn dào shén me , zài shuō dōu huàn , kě yǐ ma ?",
+        "en": "Could we first discuss what you saw before changing it for everyone?",
+        "speaker": "b"
+      },
+      {
+        "zh": "上次一百人，二十个回复；这次一百人，三十个。",
+        "py": "shàng cì yī bǎi rén , èr shí gè huí fù ; zhè cì yī bǎi rén , sān shí gè .",
+        "en": "Last time twenty of a hundred replied; this time thirty of a hundred.",
+        "speaker": "a"
+      },
+      {
+        "zh": "人数多了。但这两组是同一批人吗？",
+        "py": "rén shù duō le . dàn zhè liǎng zǔ shì tóng yī pī rén ma ?",
+        "en": "More replies, yes. Were they the same people?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不是。这次有些人以前来过。",
+        "py": "bù shì . zhè cì yǒu xiē rén yǐ qián lái guò .",
+        "en": "No. Some of this group had attended before.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那不能直接说只因为信短了。",
+        "py": "nà bù néng zhí jiē shuō zhǐ yīn wèi xìn duǎn le .",
+        "en": "Then we can’t say it was only because the letter was shorter.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你是觉得不用试？",
+        "py": "nǐ shì jué de bù yòng shì ?",
+        "en": "Do you think we shouldn’t try it?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是不用试，是先小范围试，不要马上全换。",
+        "py": "bù shì bù yòng shì , shì xiān xiǎo fàn wéi shì , bú yào mǎ shàng quán huàn .",
+        "en": "Not that. Try it on a small scale rather than change everything immediately.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我还以为你对这个想法完全没兴趣。",
+        "py": "wǒ hái yǐ wéi nǐ duì zhè gè xiǎng fǎ wán quán méi xìng qù .",
+        "en": "I thought you had no interest in the idea.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我对更清楚有兴趣，对后面会不会更忙也有点担心。",
+        "py": "wǒ duì gèng qīng chǔ yǒu xìng qù , duì hòu miàn huì bù huì gèng máng yě yǒu diǎn dān xīn .",
+        "en": "I am interested in clearer contact and worried about more work afterwards.",
+        "speaker": "b"
+      },
+      {
+        "zh": "旧版准备一小时，后续半小时。新版准备一个半小时。",
+        "py": "jiù bǎn zhǔn bèi yī xiǎo shí , hòu xù bàn xiǎo shí . xīn bǎn zhǔn bèi yī gè bàn xiǎo shí .",
+        "en": "The old version took an hour to prepare and half an hour of follow-up; the new one takes an hour and a half to prepare.",
+        "speaker": "a"
+      },
+      {
+        "zh": "新版后续呢？",
+        "py": "xīn bǎn hòu xù ne ?",
+        "en": "And its follow-up?",
+        "speaker": "b"
+      },
+      {
+        "zh": "还没记完整。有些人只回了想来，还没选时间。",
+        "py": "hái méi jì wán zhěng . yǒu xiē rén zhǐ huí le xiǎng lái , hái méi xuǎn shí jiān .",
+        "en": "The record isn’t complete. Some only said they wanted to come, without choosing a time.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那现在不能写节省了时间。",
+        "py": "nà xiàn zài bù néng xiě jié shěng le shí jiān .",
+        "en": "Then we can’t write that it saves time yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "行，后续也记。你愿意帮我看看怎么记吗？",
+        "py": "xíng , hòu xù yě jì . nǐ yuàn yì bāng wǒ kàn kàn zěn me jì ma ?",
+        "en": "Okay, record follow-up too. Could you help me decide how?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，先列发送、准备和逐个确认三段。",
+        "py": "kě yǐ , xiān liè fā sòng , zhǔn bèi hé zhú gè què rèn sān duàn .",
+        "en": "Yes. List sending, preparation and individual confirmation separately.",
+        "speaker": "b"
+      },
+      {
+        "zh": "试两周，每周一小轮，其他常规联系不变？",
+        "py": "shì liǎng zhōu , měi zhōu yī xiǎo lún , qí tā cháng guī lián xì bù biàn ?",
+        "en": "Two weeks, one small round each week, leaving routine contact unchanged?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，还要确认谁做，别全放到我后面。",
+        "py": "duì , hái yào què rèn shéi zuò , bié quán fàng dào wǒ hòu miàn .",
+        "en": "Right, and decide who does it; don’t add it all to my workload.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我做准备和发送，陈宇统计，我们一起处理确认。",
+        "py": "wǒ zuò zhǔn bèi hé fā sòng , chén yǔ tǒng jì , wǒ men yì qǐ chǔ lǐ què rèn .",
+        "en": "I’ll prepare and send; you count replies, and we share confirmations.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我这周只能周四下午看一小时。",
+        "py": "wǒ zhè zhōu zhǐ néng zhōu sì xià wǔ kàn yī xiǎo shí .",
+        "en": "I can only review for an hour Thursday afternoon this week.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那这轮先按这一小时安排，不够就减少数量。",
+        "py": "nà zhè lún xiān àn zhè yī xiǎo shí ān pái , bù gòu jiù jiǎn shǎo shù liàng .",
+        "en": "Then plan this round within that hour; reduce its size if necessary.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这可以。我提这些不是要跟你争谁对。",
+        "py": "zhè kě yǐ . wǒ tí zhè xiē bù shì yào gēn nǐ zhēng shéi duì .",
+        "en": "That works. My questions aren’t about winning against you.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我也不急着写证明成功了，先把记录补完整。",
+        "py": "wǒ yě bù jí zhe xiě zhèng míng chéng gōng le , xiān bǎ jì lù bǔ wán zhěng .",
+        "en": "I won’t rush to declare proven success either; complete the record first.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好。两周后看结果和工作量，再决定继续不继续。",
+        "py": "hǎo . liǎng zhōu hòu kàn jié guǒ hé gōng zuò liàng , zài jué dìng jì xù bù jì xù .",
+        "en": "Good. Review outcomes and workload after two weeks before deciding whether to continue.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "后续",
+        "pinyin": "hòu xù",
+        "meaning": "follow-up"
+      },
+      {
+        "hanzi": "统计",
+        "pinyin": "tǒng jì",
+        "meaning": "collect and count data"
+      },
+      {
+        "hanzi": "减",
+        "pinyin": "jiǎn",
+        "meaning": "reduce"
+      },
+      {
+        "hanzi": "记录",
+        "pinyin": "jì lù",
+        "meaning": "record"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What is approved?",
+        "choices": [
+          "A two-week small-scale trial alongside routine contact",
+          "Immediate permanent replacement of every contact message",
+          "Cancellation of all experimentation"
+        ],
+        "answer": "A two-week small-scale trial alongside routine contact"
+      },
+      {
+        "type": "detail",
+        "q": "What is not yet fully recorded for the new version?",
+        "choices": [
+          "Follow-up time",
+          "Its ninety-minute preparation",
+          "The number of people initially contacted"
+        ],
+        "answer": "Follow-up time"
+      },
+      {
+        "type": "inference",
+        "q": "Why cannot the observed reply change prove the shorter letter alone caused it?",
+        "choices": [
+          "Recipients and sending dates also differ",
+          "The reply counts are equal",
+          "No invitations were sent"
+        ],
+        "answer": "Recipients and sending dates also differ"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s6-u06-r",
+    "title": "支持试，也把问题说清",
+    "titleZh": "支持试，也把问题说清",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "我把新的邀请信拿到小组里时，原来想直接请大家下周都换。旧信比较长，里面有活动背景、几段介绍和三个可选时间；新信先问有没有兴趣，再给一个清楚的回复办法。上次发给一百人，截至周一中午二十人回复；这次发给另一百人，同样到周一中午收到三十份。我看到二十变三十，很想把这个结果写成新信已经证明更好。",
+        "py": "wǒ bǎ xīn de yāo qǐng xìn ná dào xiǎo zǔ lǐ shí , yuán lái xiǎng zhí jiē qǐng dà jiā xià zhōu dōu huàn . jiù xìn bǐ jiào zhǎng , lǐ miàn yǒu huó dòng bèi jǐng , jǐ duàn jiè shào hé sān gè kě xuǎn shí jiān ; xīn xìn xiān wèn yǒu méi yǒu xìng qù , zài gěi yī gè qīng chǔ de huí fù bàn fǎ . shàng cì fā gěi yī bǎi rén , jié zhì zhōu yī zhōng wǔ èr shí rén huí fù ; zhè cì fā gěi lìng yī bǎi rén , tóng yàng dào zhōu yī zhōng wǔ shōu dào sān shí fèn . wǒ kàn dào èr shí biàn sān shí , hěn xiǎng bǎ zhè gè jié guǒ xiě chéng xīn xìn yǐ jīng zhèng míng gèng hǎo .",
+        "en": "I initially wanted everyone to adopt the new shorter invitation. The old letter had background, introductions and three times; the new one led with interest and a reply route. Each went to one hundred people, with twenty versus thirty replies by Monday noon. I wanted to declare it proven better."
+      },
+      {
+        "zh": "陈宇没有先说同意或不同意，而是问两次联系的是不是同一批人。我说不是，第二组里有一些以前来过。他又问发送的星期和回复的时间是不是一样，才发现第一封周五晚上发，第二封周四下午发。观察到的回复比例确实不同，但两组经验、日期和内容都不完全相同。我原来只盯着信短了这一处，漏了这些可能一起影响结果的因素。",
+        "py": "chén yǔ méi yǒu xiān shuō tóng yì huò bù tóng yì , ér shì wèn liǎng cì lián xì de shì bú shì tóng yī pī rén . wǒ shuō bù shì , dì èr zǔ lǐ yǒu yī xiē yǐ qián lái guò . tā yòu wèn fā sòng de xīng qī hé huí fù de shí jiān shì bú shì yī yàng , cái fā xiàn dì yī fēng zhōu wǔ wǎn shang fā , dì èr fēng zhōu sì xià wǔ fā . guān chá dào de huí fù bǐ lì què shí bù tóng , dàn liǎng zǔ jīng yàn , rì qī hé nèi róng dōu bù wán quán xiāng tóng . wǒ yuán lái zhǐ dīng zhe xìn duǎn le zhè yī chù , lòu le zhè xiē kě néng yì qǐ yǐng xiǎng jié guǒ de yīn sù .",
+        "en": "Chen Yu asked about recipients and timing. They differed: some second-group members had prior attendance, and sending was Friday evening versus Thursday afternoon. The proportions differed, but content was not the sole changed factor."
+      },
+      {
+        "zh": "我们把数字重新写清：百分之二十到百分之三十，增加十个百分点；如果跟原来百分之二十相比，增加的十是原来的百分之五十。两种说法各有比较的对象，不是把十和五十挑一个听起来更大的就行。陈宇说先把分母和对象留在旁边，我觉得有用。这个算式解释比例怎么变，不会自动解释为什么变，也没有把回复的人全部变成最终到场的人。",
+        "py": "wǒ men bǎ shù zì chóng xīn xiě qīng : bǎi fēn zhī èr shí dào bǎi fēn zhī sān shí , zēng jiā shí gè bǎi fēn diǎn ; rú guǒ gēn yuán lái bǎi fēn zhī èr shí xiāng bǐ , zēng jiā de shí shì yuán lái de bǎi fēn zhī wǔ shí . liǎng zhǒng shuō fǎ gè yǒu bǐ jiào de duì xiàng , bù shì bǎ shí hé wǔ shí tiāo yī gè tīng qǐ lái gèng dà de jiù xíng . chén yǔ shuō xiān bǎ fēn mǔ hé duì xiàng liú zài páng biān , wǒ jué de yǒu yòng . zhè gè suàn shì jiě shì bǐ lì zěn me biàn , bù huì zì dòng jiě shì wèi shén me biàn , yě méi yǒu bǎ huí fù de rén quán bù biàn chéng zuì zhōng dào chǎng de rén .",
+        "en": "Twenty to thirty percent is ten percentage points, or fifty percent relative to the original twenty. We retained comparison bases. Arithmetic describes the change, not its cause or eventual attendance."
+      },
+      {
+        "zh": "我问他是不是觉得没有必要试。他说不是，短信可能让人更容易看清，也可能把原来一次讲完的信息放到后续问答里。他支持试两周，不支持现在就说后面一定更省事。我才发现自己把质疑某个结论听成了否定整个想法。一个人可以对方案有兴趣，同时对工作量或判断方法有问题；不需要每一个问题都被当成站在对面。",
+        "py": "wǒ wèn tā shì bú shì jué de méi yǒu bì yào shì . tā shuō bù shì , duǎn xìn kě néng ràng rén gèng róng yì kàn qīng , yě kě néng bǎ yuán lái yī cì jiǎng wán de xìn xī fàng dào hòu xù wèn dá lǐ . tā zhī chí shì liǎng zhōu , bù zhī chí xiàn zài jiù shuō hòu miàn yí dìng gèng shěng shì . wǒ cái fā xiàn zì jǐ bǎ zhì yí mǒu gè jié lùn tīng chéng le fǒu dìng zhěng gè xiǎng fǎ . yī gè rén kě yǐ duì fāng àn yǒu xìng qù , tóng shí duì gōng zuò liàng huò pàn duàn fāng fǎ yǒu wèn tí ; bù xū yào měi yī gè wèn tí dōu bèi dàng chéng zhàn zài duì miàn .",
+        "en": "He supported a two-week trial, not a current guarantee of less work. Short letters might improve clarity while shifting information into follow-up. I had mistaken questioning one claim for rejecting the whole idea."
+      },
+      {
+        "zh": "旧版准备花六十分钟，后续确认花三十分钟，总共九十。新版准备已经花九十，后续还没统计完。有的人回想来，却没选时间，我们还要逐个联系。即使新版最后回复更多，也不能现在宣布总工作量减少。我们把准备、发送、统计和确认分开记，不拿一个环节更短来替代整个过程；没有金额记录，也就不把人数变化写成收入增加。",
+        "py": "jiù bǎn zhǔn bèi huā liù shí fēn zhōng , hòu xù què rèn huā sān shí fēn zhōng , zǒng gòng jiǔ shí . xīn bǎn zhǔn bèi yǐ jīng huā jiǔ shí , hòu xù hái méi tǒng jì wán . yǒu de rén huí xiǎng lái , què méi xuǎn shí jiān , wǒ men hái yào zhú gè lián xì . jí shǐ xīn bǎn zuì hòu huí fù gèng duō , yě bù néng xiàn zài xuān bù zǒng gōng zuò liàng jiǎn shǎo . wǒ men bǎ zhǔn bèi , fā sòng , tǒng jì hé què rèn fēn kāi jì , bù ná yī gè huán jié gèng duǎn lái tì dài zhěng gè guò chéng ; méi yǒu jīn é jì lù , yě jiù bù bǎ rén shù biàn huà xiě chéng shōu rù zēng jiā .",
+        "en": "Old preparation plus follow-up totalled ninety minutes; new preparation alone was ninety with incomplete follow-up. More replies did not establish less total work or more revenue. We separately recorded preparation, sending, counting and confirmations."
+      },
+      {
+        "zh": "小组最后同意两周试点，每周只做一小轮，原来的常规联系继续。这个决策没有永久取消旧版，也没有要求所有活动同时更换。我负责准备和发送，陈宇统计，我们共同处理没有选择时间的回复。谁有其他岗位的工作，先说可用时间，不把愿意帮忙直接等同于可以随时加班。方案越具体，越容易看出哪里还没安排，而不是把困难都留到下周才发现。",
+        "py": "xiǎo zǔ zuì hòu tóng yì liǎng zhōu shì diǎn , měi zhōu zhǐ zuò yī xiǎo lún , yuán lái de cháng guī lián xì jì xù . zhè gè jué cè méi yǒu yǒng jiǔ qǔ xiāo jiù bǎn , yě méi yǒu yāo qiú suǒ yǒu huó dòng tóng shí gēng huàn . wǒ fù zé zhǔn bèi hé fā sòng , chén yǔ tǒng jì , wǒ men gòng tóng chǔ lǐ méi yǒu xuǎn zé shí jiān de huí fù . shéi yǒu qí tā gǎng wèi de gōng zuò , xiān shuō kě yòng shí jiān , bù bǎ yuàn yì bāng máng zhí jiē děng tóng yú kě yǐ suí shí jiā bān . fāng àn yuè jù tǐ , yuè róng yì kàn chū nǎ lǐ hái méi ān pái , ér bù shì bǎ kùn nán dōu liú dào xià zhōu cái fā xiàn .",
+        "en": "The team approved small weekly rounds for two weeks alongside routine work, not a permanent whole-system change. Roles and available time were specified instead of turning goodwill into unlimited extra hours."
+      },
+      {
+        "zh": "陈宇这一周只有周四下午一小时能看，我原来想让他逐封检查所有回复。他说这一小时可以先看样例和记录方式，数量太多就需要减少，或者另找时间协商。我采纳了这个范围，没把一小时写成他会做完所有事情。我们也约定，若临时有别的工作冲突，先联系小组，不等到试点结束才补一句原来没有时间。",
+        "py": "chén yǔ zhè yī zhōu zhǐ yǒu zhōu sì xià wǔ yī xiǎo shí néng kàn , wǒ yuán lái xiǎng ràng tā zhú fēng jiǎn chá suǒ yǒu huí fù . tā shuō zhè yī xiǎo shí kě yǐ xiān kàn yàng lì hé jì lù fāng shì , shù liàng tài duō jiù xū yào jiǎn shǎo , huò zhě lìng zhǎo shí jiān xié shāng . wǒ cǎi nà le zhè gè fàn wéi , méi bǎ yī xiǎo shí xiě chéng tā huì zuò wán suǒ yǒu shì qíng . wǒ men yě yuē dìng , ruò lín shí yǒu bié de gōng zuò chōng tū , xiān lián xì xiǎo zǔ , bù děng dào shì diǎn jié shù cái bǔ yī jù yuán lái méi yǒu shí jiān .",
+        "en": "His hour Thursday could cover examples and recording method, not unlimited replies. I accepted reduced scope or later discussion and early notice of conflicts."
+      },
+      {
+        "zh": "试点的记录还包括没回复的数量，但我们不把沉默直接写成讨厌活动。有人可能没看到，有人看了没时间，也有人确实没有兴趣。调研可以问具体原因，仍要允许对方不答。我希望了解短信有没有更清楚，不是通过追问逼每个人给一个让我满意的解释。如果所有没回复都被归成同一原因，表格很整齐，后面的决策反而没有更可靠。",
+        "py": "shì diǎn de jì lù hái bāo kuò méi huí fù de shù liàng , dàn wǒ men bù bǎ chén mò zhí jiē xiě chéng tǎo yàn huó dòng . yǒu rén kě néng méi kàn dào , yǒu rén kàn le méi shí jiān , yě yǒu rén què shí méi yǒu xìng qù . diào yán kě yǐ wèn jù tǐ yuán yīn , réng yào yǔn xǔ duì fāng bù dá . wǒ xī wàng liǎo jiě duǎn xìn yǒu méi yǒu gèng qīng chǔ , bù shì tōng guò zhuī wèn bī měi gè rén gěi yī gè ràng wǒ mǎn yì de jiě shì . rú guǒ suǒ yǒu méi huí fù dōu bèi guī chéng tóng yī yuán yīn , biǎo gé hěn zhěng qí , hòu miàn de jué cè fǎn ér méi yǒu gèng kě kào .",
+        "en": "Nonreply was counted without assuming dislike. Reasons might differ and enquiries allowed no answer. Neat categories did not justify forcing one cause on everyone."
+      },
+      {
+        "zh": "两周后，我们准备把完整记录向小组通报，再决定是否继续。要看回复、最终确认、实际时间和参加者有没有看懂安排。如果有一项改善，也要说清是在哪些条件下看到的；如果后续变多，可以修改信里最容易引起问题的地方。试点不是非要证明我最初的想法全对，也不是看到一个困难就证明它完全没用。新的信息可以让下一步更小、更具体。",
+        "py": "liǎng zhōu hòu , wǒ men zhǔn bèi bǎ wán zhěng jì lù xiàng xiǎo zǔ tōng bào , zài jué dìng shì fǒu jì xù . yào kàn huí fù , zuì zhōng què rèn , shí jì shí jiān hé cān jiā zhě yǒu méi yǒu kàn dǒng ān pái . rú guǒ yǒu yī xiàng gǎi shàn , yě yào shuō qīng shì zài nǎ xiē tiáo jiàn xià kàn dào de ; rú guǒ hòu xù biàn duō , kě yǐ xiū gǎi xìn lǐ zuì róng yì yǐn qǐ wèn tí de dì fāng . shì diǎn bù shì fēi yào zhèng míng wǒ zuì chū de xiǎng fǎ quán duì , yě bù shì kàn dào yī gè kùn nán jiù zhèng míng tā wán quán méi yòng . xīn de xìn xī kě yǐ ràng xià yī bù gèng xiǎo , gèng jù tǐ .",
+        "en": "The review would combine replies, confirmations, time and clarity, with conditions stated. More follow-up could prompt targeted edits. A trial needn’t prove complete initial correctness or total uselessness from one difficulty."
+      },
+      {
+        "zh": "会后陈宇跟我说，他喜欢我愿意把还不知道的部分留出来。我说其实刚才有一点急，怕大家一问就把方案关掉。我们都笑了，决定下次先讲目标和已知结果，再讲还需要试什么。专业地讨论不是每句话都像报告，也不是把朋友式的客气带进来就能省掉条件。我可以认真说想做，也能认真听别人说只能做到哪一段，让合作靠真实安排继续。",
+        "py": "huì hòu chén yǔ gēn wǒ shuō , tā xǐ huān wǒ yuàn yì bǎ hái bù zhī dào de bù fèn liú chū lái . wǒ shuō qí shí gāng cái yǒu yī diǎn jí , pà dà jiā yī wèn jiù bǎ fāng àn guān diào . wǒ men dōu xiào le , jué dìng xià cì xiān jiǎng mù biāo hé yǐ zhī jié guǒ , zài jiǎng hái xū yào shì shén me . zhuān yè de tǎo lùn bù shì měi jù huà dōu xiàng bào gào , yě bù shì bǎ péng you shì de kè qì dài jìn lái jiù néng shěng diào tiáo jiàn . wǒ kě yǐ rèn zhēn shuō xiǎng zuò , yě néng rèn zhēn tīng bié ren shuō zhǐ néng zuò dào nǎ yī duàn , ràng hé zuò kào zhēn shí ān pái jì xù .",
+        "en": "Afterwards we acknowledged anxiety about losing the proposal under questioning and planned clearer sequencing next time. Professional discussion retained natural speech while making objectives, uncertainty and limits real."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "分母",
+        "pinyin": "fēn mǔ",
+        "meaning": "denominator; comparison base"
+      },
+      {
+        "hanzi": "比例",
+        "pinyin": "bǐ lì",
+        "meaning": "proportion"
+      },
+      {
+        "hanzi": "收入",
+        "pinyin": "shōu rù",
+        "meaning": "revenue; income"
+      },
+      {
+        "hanzi": "后续",
+        "pinyin": "hòu xù",
+        "meaning": "follow-up"
+      },
+      {
+        "hanzi": "质疑",
+        "pinyin": "zhì yí",
+        "meaning": "question a claim"
+      },
+      {
+        "hanzi": "统计",
+        "pinyin": "tǒng jì",
+        "meaning": "collect and count data"
+      },
+      {
+        "hanzi": "样例",
+        "pinyin": "yàng lì",
+        "meaning": "sample example"
+      },
+      {
+        "hanzi": "加班",
+        "pinyin": "jiā bān",
+        "meaning": "work beyond normal hours"
+      },
+      {
+        "hanzi": "否定",
+        "pinyin": "fǒu dìng",
+        "meaning": "reject; negate"
+      },
+      {
+        "hanzi": "减",
+        "pinyin": "jiǎn",
+        "meaning": "reduce"
+      },
+      {
+        "hanzi": "盯",
+        "pinyin": "dīng",
+        "meaning": "fix one’s eyes on"
+      },
+      {
+        "hanzi": "盯着",
+        "pinyin": "dīng zhe",
+        "meaning": "focus fixedly on"
+      },
+      {
+        "hanzi": "记录",
+        "pinyin": "jì lù",
+        "meaning": "record"
+      },
+      {
+        "hanzi": "逼",
+        "pinyin": "bī",
+        "meaning": "force; pressure someone"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How does the proposer’s approach change?",
+        "choices": [
+          "From declaring success to a bounded trial with explicit conditions",
+          "From interest to refusing all measurement",
+          "From a small trial to changing every activity"
+        ],
+        "answer": "From declaring success to a bounded trial with explicit conditions"
+      },
+      {
+        "type": "detail",
+        "q": "Twenty percent to thirty percent changes by how many percentage points?",
+        "choices": [
+          "Ten percentage points",
+          "Fifty percentage points",
+          "Thirty percentage points"
+        ],
+        "answer": "Ten percentage points"
+      },
+      {
+        "type": "inference",
+        "q": "Does willing support imply unlimited availability?",
+        "choices": [
+          "No, responsibilities and time must still be specified",
+          "Yes, goodwill removes other duties",
+          "Yes, a stated hour becomes a whole afternoon"
+        ],
+        "answer": "No, responsibilities and time must still be specified"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u06-media",
+      "title": "Full support and one hour",
+      "titleZh": "Full support and one hour",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "我刚才说全力支持。",
+          "py": "wǒ gāng cái shuō quán lì zhī chí .",
+          "en": "I just said full support.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我听见了，还想听具体谁做。",
+          "py": "wǒ tīng jiàn le , hái xiǎng tīng jù tǐ shéi zuò .",
+          "en": "I heard it, and still want to know who does what.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这四个字听着不够具体？",
+          "py": "zhè sì gè zì tīng zhe bù gòu jù tǐ ?",
+          "en": "Those four words aren’t specific enough?",
+          "speaker": "a"
+        },
+        {
+          "zh": "挺响的，分工还没出来。",
+          "py": "tǐng xiǎng de , fēn gōng hái méi chū lái .",
+          "en": "They’re loud enough; the responsibilities still aren’t there.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我负责准备。",
+          "py": "nà wǒ fù zé zhǔn bèi .",
+          "en": "Then I’ll prepare.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我周四看一小时，多了先再商量。",
+          "py": "wǒ zhōu sì kàn yī xiǎo shí , duō le xiān zài shāng liáng .",
+          "en": "I’ll review for an hour Thursday; discuss anything more first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这回比全力支持长。",
+          "py": "zhè huí bǐ quán lì zhī chí zhǎng .",
+          "en": "That’s longer than full support.",
+          "speaker": "a"
+        },
+        {
+          "zh": "但是能放进日历。",
+          "py": "dàn shì néng fàng jìn rì lì .",
+          "en": "But it fits in a calendar.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你把客气话都拆开了。",
+          "py": "nǐ bǎ kè qì huà dōu chāi kāi le .",
+          "en": "You took apart all the polite phrases.",
+          "speaker": "a"
+        },
+        {
+          "zh": "没拆掉，只是后面加个谁和几点。",
+          "py": "méi chāi diào , zhǐ shì hòu miàn jiā gè shéi hé jǐ diǎn .",
+          "en": "Not removed them—just added who and when.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那全力支持后面写一小时？",
+          "py": "nà quán lì zhī chí hòu miàn xiě yī xiǎo shí ?",
+          "en": "Then put one hour after full support?",
+          "speaker": "a"
+        },
+        {
+          "zh": "写清这一小时做什么，就真的能支持了。",
+          "py": "xiě qīng zhè yī xiǎo shí zuò shén me , jiù zhēn de néng zhī chí le .",
+          "en": "State what that hour does, and it becomes real support.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What makes the support actionable?",
+          "choices": [
+            "Stating what the one hour will do",
+            "Using only the phrase全力支持",
+            "Removing all time limits"
+          ],
+          "answer": "Stating what the one hour will do"
+        },
+        {
+          "type": "inference",
+          "q": "Does specifying a limit remove politeness?",
+          "choices": [
+            "No, it adds actual responsibilities and times",
+            "Yes, only vague agreement is polite",
+            "Yes, a calendar forbids cooperation"
+          ],
+          "answer": "No, it adds actual responsibilities and times"
+        }
+      ]
+    },
+    {
+      "id": "s6-u06-word-notebook",
+      "title": "Support the trial, question the conclusion: words in context",
+      "titleZh": "支持试，也把问题说清 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "百分之二十到百分之三十，增加十个百分点。",
+          "py": "bǎi fēn zhī èr shí dào bǎi fēn zhī sān shí , zēng jiā shí gè bǎi fēn diǎn .",
+          "en": "Twenty percent to thirty percent is an increase of ten percentage points."
+        },
+        {
+          "zh": "比例从百分之四十到百分之四十五，提高五个百分点。",
+          "py": "bǐ lì cóng bǎi fēn zhī sì shí dào bǎi fēn zhī sì shí wǔ , tí gāo wǔ gè bǎi fēn diǎn .",
+          "en": "A proportion moving from forty to forty-five percent rises by five percentage points."
+        },
+        {
+          "zh": "我们周二在小厅办公，把两次记录放在一起看。",
+          "py": "wǒ men zhōu èr zài xiǎo tīng bàn gōng , bǎ liǎng cì jì lù fàng zài yì qǐ kàn .",
+          "en": "We work in the hall Tuesday and compare the two sets of records."
+        },
+        {
+          "zh": "她这周在家办公。",
+          "py": "tā zhè zhōu zài jiā bàn gōng .",
+          "en": "She works from home this week."
+        },
+        {
+          "zh": "团队可以意见不同，不用先找一个输赢。",
+          "py": "tuán duì kě yǐ yì jiàn bù tóng , bù yòng xiān zhǎo yī gè shū yíng .",
+          "en": "A team can disagree without first declaring a winner."
+        },
+        {
+          "zh": "这个团队有四个人。",
+          "py": "zhè gè tuán duì yǒu sì gè rén .",
+          "en": "This team has four people."
+        },
+        {
+          "zh": "负责联系的岗位还在，不是换封信就不用人了。",
+          "py": "fù zé lián xì de gǎng wèi hái zài , bù shì huàn fēng xìn jiù bù yòng rén le .",
+          "en": "The contact role is still needed; a new letter doesn’t remove it."
+        },
+        {
+          "zh": "他换到了新的岗位。",
+          "py": "tā huàn dào le xīn de gǎng wèi .",
+          "en": "He moved to a new position."
+        },
+        {
+          "zh": "我在策划试点，先写清范围。",
+          "py": "wǒ zài cè huà shì diǎn , xiān xiě qīng fàn wéi .",
+          "en": "I am planning the trial and first state its scope."
+        },
+        {
+          "zh": "她策划了一次读书活动。",
+          "py": "tā cè huà le yī cì dú shū huó dòng .",
+          "en": "She planned a reading event."
+        },
+        {
+          "zh": "先小范围试，是这次的策略。",
+          "py": "xiān xiǎo fàn wéi shì , shì zhè cì de cè lüè .",
+          "en": "Testing on a small scale first is our strategy."
+        },
+        {
+          "zh": "他们换了一种联系策略。",
+          "py": "tā men huàn le yī zhǒng lián xì cè lüè .",
+          "en": "They changed their contact strategy."
+        },
+        {
+          "zh": "这次决策只同意两周试点，不是永久更换。",
+          "py": "zhè cì jué cè zhǐ tóng yì liǎng zhōu shì diǎn , bù shì yǒng jiǔ gēng huàn .",
+          "en": "This decision approves only a two-week trial, not a permanent change."
+        },
+        {
+          "zh": "她参与了活动时间的决策。",
+          "py": "tā cān yù le huó dòng shí jiān de jué cè .",
+          "en": "She participated in deciding the event time."
+        },
+        {
+          "zh": "定价不在这次讨论范围里，我们先看联系方法。",
+          "py": "dìng jià bù zài zhè cì tǎo lùn fàn wéi lǐ , wǒ men xiān kàn lián xì fāng fǎ .",
+          "en": "Pricing isn’t in this discussion; we’re examining contact methods."
+        },
+        {
+          "zh": "这本新书的定价还没确定。",
+          "py": "zhè běn xīn shū de dìng jià hái méi què dìng .",
+          "en": "The price of this new book is undecided."
+        },
+        {
+          "zh": "记录里没有金额，不能推成收入增加。",
+          "py": "jì lù lǐ méi yǒu jīn é , bù néng tuī chéng shōu rù zēng jiā .",
+          "en": "The record has no monetary amounts, so it doesn’t establish increased revenue."
+        },
+        {
+          "zh": "请核对这笔费用的金额。",
+          "py": "qǐng hé duì zhè bǐ fèi yòng de jīn é .",
+          "en": "Please check the amount of this expense."
+        },
+        {
+          "zh": "两周试点以后，再决定要不要继续。",
+          "py": "liǎng zhōu shì diǎn yǐ hòu , zài jué dìng yào bù yào jì xù .",
+          "en": "Decide whether to continue after the two-week trial."
+        },
+        {
+          "zh": "新办法先在一个小组试点。",
+          "py": "xīn bàn fǎ xiān zài yī gè xiǎo zǔ shì diǎn .",
+          "en": "The new approach is piloted in one group first."
+        },
+        {
+          "zh": "先做一点调研，问大家为什么没回复。",
+          "py": "xiān zuò yī diǎn diào yán , wèn dà jiā wèi shén me méi huí fù .",
+          "en": "First investigate why people didn’t reply."
+        },
+        {
+          "zh": "她调研了附近几个场地。",
+          "py": "tā diào yán le fù jìn jǐ gè chǎng dì .",
+          "en": "She investigated several nearby venues."
+        },
+        {
+          "zh": "监测回复数时，也记录发送对象和时间。",
+          "py": "jiān cè huí fù shù shí , yě jì lù fā sòng duì xiàng hé shí jiān .",
+          "en": "When monitoring replies, record recipients and sending time too."
+        },
+        {
+          "zh": "他们在监测设备运行的情况。",
+          "py": "tā men zài jiān cè shè bèi yùn xíng de qíng kuàng .",
+          "en": "They are monitoring equipment operation."
+        },
+        {
+          "zh": "两组人的差异可能影响回复。",
+          "py": "liǎng zǔ rén de chā yì kě néng yǐng xiǎng huí fù .",
+          "en": "Differences between the groups may affect replies."
+        },
+        {
+          "zh": "两种说法有明显的差异。",
+          "py": "liǎng zhǒng shuō fǎ yǒu míng xiǎn de chā yì .",
+          "en": "The two statements differ noticeably."
+        },
+        {
+          "zh": "衡量工作量，不能只数回复的人。",
+          "py": "héng liáng gōng zuò liàng , bù néng zhǐ shù huí fù de rén .",
+          "en": "Assessing workload requires more than counting respondents."
+        },
+        {
+          "zh": "她用实际时间衡量准备的难度。",
+          "py": "tā yòng shí jì shí jiān héng liáng zhǔn bèi de nán dù .",
+          "en": "She assesses preparation difficulty using actual time."
+        },
+        {
+          "zh": "发送日期也是一个因素。",
+          "py": "fā sòng rì qī yě shì yī gè yīn sù .",
+          "en": "The sending date is also a factor."
+        },
+        {
+          "zh": "距离是选择场地的一个因素。",
+          "py": "jù lí shì xuǎn zé chǎng dì de yī gè yīn sù .",
+          "en": "Distance is one factor in venue choice."
+        },
+        {
+          "zh": "临时改时间，我们要有应对办法。",
+          "py": "lín shí gǎi shí jiān , wǒ men yào yǒu yìng duì bàn fǎ .",
+          "en": "We need a way to deal with last-minute time changes."
+        },
+        {
+          "zh": "她在练习应对不同的问题。",
+          "py": "tā zài liàn xí yìng duì bù tóng de wèn tí .",
+          "en": "She is practising responding to different questions."
+        },
+        {
+          "zh": "我采纳了把后续时间也记下的建议。",
+          "py": "wǒ cǎi nà le bǎ hòu xù shí jiān yě jì xià de jiàn yì .",
+          "en": "I adopted the suggestion to record follow-up time too."
+        },
+        {
+          "zh": "他的建议没有全部被采纳。",
+          "py": "tā de jiàn yì méi yǒu quán bù bèi cǎi nà .",
+          "en": "Not all his suggestions were adopted."
+        },
+        {
+          "zh": "陈宇协调发送和统计，不是一个人做全部。",
+          "py": "chén yǔ xié tiáo fā sòng hé tǒng jì , bù shì yī gè rén zuò quán bù .",
+          "en": "Chen Yu coordinates sending and counts, not does everything himself."
+        },
+        {
+          "zh": "她协调了两组的时间。",
+          "py": "tā xié tiáo le liǎng zǔ de shí jiān .",
+          "en": "She coordinated the two groups’ times."
+        },
+        {
+          "zh": "谁做后续，我们先协商，不直接加给林安。",
+          "py": "shéi zuò hòu xù , wǒ men xiān xié shāng , bù zhí jiē jiā gěi lín ān .",
+          "en": "We discuss follow-up responsibilities before assigning them to Lin An."
+        },
+        {
+          "zh": "双方协商后改了地点。",
+          "py": "shuāng fāng xié shāng hòu gǎi le dì diǎn .",
+          "en": "The two sides changed the venue after discussion."
+        },
+        {
+          "zh": "听取她的担心，不等于放弃整个想法。",
+          "py": "tīng qǔ tā de dān xīn , bù děng yú fàng qì zhěng gè xiǎng fǎ .",
+          "en": "Hearing her concerns doesn’t mean abandoning the whole idea."
+        },
+        {
+          "zh": "我们听取了参加者的意见。",
+          "py": "wǒ men tīng qǔ le cān jiā zhě de yì jiàn .",
+          "en": "We heard participants’ views."
+        },
+        {
+          "zh": "周四提交修改后的方案。",
+          "py": "zhōu sì tí jiāo xiū gǎi hòu de fāng àn .",
+          "en": "Submit the revised proposal Thursday."
+        },
+        {
+          "zh": "她提交了本周的记录。",
+          "py": "tā tí jiāo le běn zhōu de jì lù .",
+          "en": "She submitted this week’s record."
+        },
+        {
+          "zh": "试点结果先向小组通报，再决定后面。",
+          "py": "shì diǎn jié guǒ xiān xiàng xiǎo zǔ tōng bào , zài jué dìng hòu miàn .",
+          "en": "Report trial results to the group before deciding what follows."
+        },
+        {
+          "zh": "负责人通报了新的安排。",
+          "py": "fù zé rén tōng bào le xīn de ān pái .",
+          "en": "The person responsible announced the new arrangement."
+        },
+        {
+          "zh": "现有人员配置只能每周做一小轮。",
+          "py": "xiàn yǒu rén yuán pèi zhì zhǐ néng měi zhōu zuò yī xiǎo lún .",
+          "en": "Current staffing allows only one small round each week."
+        },
+        {
+          "zh": "这台设备的配置适合放声音。",
+          "py": "zhè tái shè bèi de pèi zhì shì hé fàng shēng yīn .",
+          "en": "This equipment setup is suitable for audio playback."
+        },
+        {
+          "zh": "回复增加和换信有关联，不等于已经知道原因。",
+          "py": "huí fù zēng jiā hé huàn xìn yǒu guān lián , bù děng yú yǐ jīng zhī dào yuán yīn .",
+          "en": "More replies are associated with a new letter, without establishing cause."
+        },
+        {
+          "zh": "两条记录之间有时间上的关联。",
+          "py": "liǎng tiáo jì lù zhī jiān yǒu shí jiān shàng de guān lián .",
+          "en": "The two records have a temporal connection."
+        },
+        {
+          "zh": "核心问题是有没有更清楚，不只是更多。",
+          "py": "hé xīn wèn tí shì yǒu méi yǒu gèng qīng chǔ , bù zhǐ shì gèng duō .",
+          "en": "The core question is whether it is clearer, not merely more."
+        },
+        {
+          "zh": "她很快说出了讨论的核心。",
+          "py": "tā hěn kuài shuō chū le tǎo lùn de hé xīn .",
+          "en": "She quickly stated the discussion’s central point."
+        },
+        {
+          "zh": "方案要有切实的分工，不能只写全力支持。",
+          "py": "fāng àn yào yǒu qiè shí de fēn gōng , bù néng zhǐ xiě quán lì zhī chí .",
+          "en": "The proposal needs practical responsibilities, not only “full support.”"
+        },
+        {
+          "zh": "我们需要切实解决时间冲突。",
+          "py": "wǒ men xū yào qiè shí jiě jué shí jiān chōng tū .",
+          "en": "We need to actually resolve the time conflict."
+        },
+        {
+          "zh": "常规联系继续，试点只占一小部分。",
+          "py": "cháng guī lián xì jì xù , shì diǎn zhǐ zhàn yī xiǎo bù fèn .",
+          "en": "Routine contact continues; the trial covers a small part."
+        },
+        {
+          "zh": "这是每周的常规检查。",
+          "py": "zhè shì měi zhōu de cháng guī jiǎn chá .",
+          "en": "This is the weekly routine check."
+        },
+        {
+          "zh": "愿意全力做好，不代表有无限时间。",
+          "py": "yuàn yì quán lì zuò hǎo , bù dài biǎo yǒu wú xiàn shí jiān .",
+          "en": "Wanting to do one’s best doesn’t mean having unlimited time."
+        },
+        {
+          "zh": "大家全力完成最后的准备。",
+          "py": "dà jiā quán lì wán chéng zuì hòu de zhǔn bèi .",
+          "en": "Everyone gives their full effort to the final preparations."
+        },
+        {
+          "zh": "最终决定要等两周记录完整以后。",
+          "py": "zuì zhōng jué dìng yào děng liǎng zhōu jì lù wán zhěng yǐ hòu .",
+          "en": "The final decision waits until two weeks of records are complete."
+        },
+        {
+          "zh": "最终我们选了离家近的场地。",
+          "py": "zuì zhōng wǒ men xuǎn le lí jiā jìn de chǎng dì .",
+          "en": "Ultimately we chose the venue near home."
+        },
+        {
+          "zh": "能否减少后续，要看实际记录。",
+          "py": "néng fǒu jiǎn shǎo hòu xù , yào kàn shí jì jì lù .",
+          "en": "Whether follow-up can be reduced depends on actual records."
+        },
+        {
+          "zh": "她还在确认能否按时到。",
+          "py": "tā hái zài què rèn néng fǒu àn shí dào .",
+          "en": "She is still checking whether she can arrive on time."
+        },
+        {
+          "zh": "据这两次记录，回复比例确实不同。",
+          "py": "jù zhè liǎng cì jì lù , huí fù bǐ lì què shí bù tóng .",
+          "en": "According to these two records, reply proportions differ."
+        },
+        {
+          "zh": "据通知，开始时间没有变。",
+          "py": "jù tōng zhī , kāi shǐ shí jiān méi yǒu biàn .",
+          "en": "According to the notice the start time is unchanged."
+        },
+        {
+          "zh": "截至周一中午，第二组收到三十份回复。",
+          "py": "jié zhì zhōu yī zhōng wǔ , dì èr zǔ shōu dào sān shí fèn huí fù .",
+          "en": "As of noon Monday the second group had thirty replies."
+        },
+        {
+          "zh": "截至昨天，报名人数是十八。",
+          "py": "jié zhì zuó tiān , bào míng rén shù shì shí bā .",
+          "en": "As of yesterday there were eighteen registrations."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "弃",
+          "pinyin": "qì",
+          "meaning": "abandon"
+        },
+        {
+          "hanzi": "比例",
+          "pinyin": "bǐ lì",
+          "meaning": "proportion"
+        },
+        {
+          "hanzi": "收入",
+          "pinyin": "shōu rù",
+          "meaning": "revenue; income"
+        },
+        {
+          "hanzi": "后续",
+          "pinyin": "hòu xù",
+          "meaning": "follow-up"
+        },
+        {
+          "hanzi": "统计",
+          "pinyin": "tǒng jì",
+          "meaning": "collect and count data"
+        },
+        {
+          "hanzi": "减",
+          "pinyin": "jiǎn",
+          "meaning": "reduce"
+        },
+        {
+          "hanzi": "核",
+          "pinyin": "hé",
+          "meaning": "check; core"
+        },
+        {
+          "hanzi": "记录",
+          "pinyin": "jì lù",
+          "meaning": "record"
+        },
+        {
+          "hanzi": "设备",
+          "pinyin": "shè bèi",
+          "meaning": "equipment"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u06-paired-reading",
+      "title": "The colleague asking questions",
+      "titleZh": "The colleague asking questions",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "听到林安说下周全部换短信，我第一件想知道的是全部包括什么。我们有邀请、已经报名的时间确认和活动前提醒，这三种联系解决不同问题。她这次比较的是邀请的回复，不是每一封后续消息。我请她先把范围缩回邀请，她一开始以为我在找理由不做。我解释，范围讲清以后更容易试，不然一张表里的变化就会替没有比较过的工作下决定。",
+          "py": "tīng dào lín ān shuō xià zhōu quán bù huàn duǎn xìn , wǒ dì yī jiàn xiǎng zhī dào de shì quán bù bāo kuò shén me . wǒ men yǒu yāo qǐng , yǐ jīng bào míng de shí jiān què rèn hé huó dòng qián tí xǐng , zhè sān zhǒng lián xì jiě jué bù tóng wèn tí . tā zhè cì bǐ jiào de shì yāo qǐng de huí fù , bù shì měi yī fēng hòu xù xiāo xī . wǒ qǐng tā xiān bǎ fàn wéi suō huí yāo qǐng , tā yī kāi shǐ yǐ wéi wǒ zài zhǎo lǐ yóu bù zuò . wǒ jiě shì , fàn wéi jiǎng qīng yǐ hòu gèng róng yì shì , bù rán yī zhāng biǎo lǐ de biàn huà jiù huì tì méi yǒu bǐ jiào guò de gōng zuò xià jué dìng .",
+          "en": "“Change everything” could include invitations, confirmations and reminders, though only invitation replies were compared. I asked to limit scope so untested work wasn’t decided by one table."
+        },
+        {
+          "zh": "两组各一百人，回复二十和三十，这个记录值得看。我没有说不同组就什么都不能知道，而是不能只用它证明短信造成全部增加。第二组有以前来过的人，发送日期也早一天，可能都有关联。把这些条件记住，不会让数字消失；它们只是提醒我们，后面想比较内容时，要尽量把对象、时间和回复要求写清，让下一轮更容易解释。",
+          "py": "liǎng zǔ gè yī bǎi rén , huí fù èr shí hé sān shí , zhè gè jì lù zhí de kàn . wǒ méi yǒu shuō bù tóng zǔ jiù shén me dōu bù néng zhī dào , ér shì bù néng zhǐ yòng tā zhèng míng duǎn xìn zào chéng quán bù zēng jiā . dì èr zǔ yǒu yǐ qián lái guò de rén , fā sòng rì qī yě zǎo yī tiān , kě néng dōu yǒu guān lián . bǎ zhè xiē tiáo jiàn jì zhù , bù huì ràng shù zì xiāo shī ; tā men zhǐ shì tí xǐng wǒ men , hòu miàn xiǎng bǐ jiào nèi róng shí , yào jǐn liàng bǎ duì xiàng , shí jiān hé huí fù yāo qiú xiě qīng , ràng xià yī lún gèng róng yì jiě shì .",
+          "en": "The counts were informative without establishing the letter as sole cause. Prior attendance and earlier sending remained associated conditions, guiding a more interpretable next round rather than erasing the numbers."
+        },
+        {
+          "zh": "林安把二十到三十写成提高百分之十，我让她拿计算器再看一下。比例是增加十个百分点，相对原来的百分之二十则增加百分之五十。她看着两个结果，说这回得把比较的是哪一个写在旁边。我们在表里留了原来的二十、后来的三十，又把人次和比例分开。改完以后，她把表发给我，问这样还会不会读错，我让她先把标题补上。",
+          "py": "lín ān bǎ èr shí dào sān shí xiě chéng tí gāo bǎi fēn zhī shí , wǒ ràng tā ná jì suàn qì zài kàn yī xià . bǐ lì shì zēng jiā shí gè bǎi fēn diǎn , xiāng duì yuán lái de bǎi fēn zhī èr shí zé zēng jiā bǎi fēn zhī wǔ shí . tā kàn zhe liǎng gè jié guǒ , shuō zhè huí děi bǎ bǐ jiào de shì nǎ yī gè xiě zài páng biān . wǒ men zài biǎo lǐ liú le yuán lái de èr shí , hòu lái de sān shí , yòu bǎ rén cì hé bǐ lì fēn kāi . gǎi wán yǐ hòu , tā bǎ biǎo fā gěi wǒ , wèn zhè yàng hái huì bù huì dú cuò , wǒ ràng tā xiān bǎ biāo tí bǔ shàng .",
+          "en": "Lin An wrote twenty to thirty as a ten-percent increase. We checked the calculator: ten percentage points, or fifty percent relative to the original twenty percent. She said we'd better label the comparison. We kept the old twenty and new thirty and separated counts from proportions. Sending the revised table, she asked whether it could still be misread. First add the headings, I said."
+        },
+        {
+          "zh": "我另外担心后续。以前邀请长一点，参加者能在一封里看见三个时间；新信先问兴趣，有些人只回有兴趣，下一步还要再问什么时候能来。这不一定坏，先看兴趣再谈时间可能更舒服，但也可能需要更多联系。我没有亲自把新流程做完，所以不能断言一定更忙。我能确定的是现在后续时间没记完整，省时间这个结论还缺一部分。",
+          "py": "wǒ lìng wài dān xīn hòu xù . yǐ qián yāo qǐng zhǎng yī diǎn , cān jiā zhě néng zài yī fēng lǐ kàn jiàn sān gè shí jiān ; xīn xìn xiān wèn xìng qù , yǒu xiē rén zhǐ huí yǒu xìng qù , xià yī bù hái yào zài wèn shén me shí hou néng lái . zhè bù yí dìng huài , xiān kàn xìng qù zài tán shí jiān kě néng gèng shū fú , dàn yě kě néng xū yào gèng duō lián xì . wǒ méi yǒu qīn zì bǎ xīn liú chéng zuò wán , suǒ yǐ bù néng duàn yán yí dìng gèng máng . wǒ néng què dìng de shì xiàn zài hòu xù shí jiān méi jì wán zhěng , shěng shí jiān zhè gè jié lùn hái quē yī bù fèn .",
+          "en": "The interest-first approach might feel easier while requiring time selection later. I hadn’t completed the new process and couldn’t guarantee more work, only identify incomplete follow-up evidence."
+        },
+        {
+          "zh": "我们看旧版六十分钟准备、三十分钟确认，新版九十分钟准备。两边都不能把没有记的部分当零。如果两周后新版确认只用十分钟，总共仍是一个数字；如果要四十分钟，又是另一种工作量。现在这些是假设，不是已经发生的记录。讨论假设可以帮助安排人，却不能提前把希望的十分钟放进结果，随后说试点已经成功省下时间。",
+          "py": "wǒ men kàn jiù bǎn liù shí fēn zhōng zhǔn bèi , sān shí fēn zhōng què rèn , xīn bǎn jiǔ shí fēn zhōng zhǔn bèi . liǎng biān dōu bù néng bǎ méi yǒu jì de bù fèn dāng líng . rú guǒ liǎng zhōu hòu xīn bǎn què rèn zhǐ yòng shí fēn zhōng , zǒng gòng réng shì yī gè shù zì ; rú guǒ yào sì shí fēn zhōng , yòu shì lìng yī zhǒng gōng zuò liàng . xiàn zài zhè xiē shì jiǎ shè , bù shì yǐ jīng fā shēng de jì lù . tǎo lùn jiǎ shè kě yǐ bāng zhù ān pái rén , què bù néng tí qián bǎ xī wàng de shí fēn zhōng fàng jìn jié guǒ , suí hòu shuō shì diǎn yǐ jīng chéng gōng shěng xià shí jiān .",
+          "en": "Unrecorded time was not zero. Hypothetical ten or forty minutes of follow-up would yield different totals, but neither had happened. Planning assumptions could not be inserted as measured success."
+        },
+        {
+          "zh": "我支持两周小范围试，是想把这些问题变得能回答，不是延后到永远不决定。林安提出每周一轮，常规工作继续，我觉得现有人员配置可以试着接住。我们各做明确的一段，遇到数量超出时间就减少或再协商。凡是需要额外确认的回复，都先记在同一张表，不留在一个人的聊天记录里，让其他人以为已经全部处理。",
+          "py": "wǒ zhī chí liǎng zhōu xiǎo fàn wéi shì , shì xiǎng bǎ zhè xiē wèn tí biàn de néng huí dá , bù shì yán hòu dào yǒng yuǎn bù jué dìng . lín ān tí chū měi zhōu yī lún , cháng guī gōng zuò jì xù , wǒ jué de xiàn yǒu rén yuán pèi zhì kě yǐ shì zhe jiē zhù . wǒ men gè zuò míng què de yī duàn , yù dào shù liàng chāo chū shí jiān jiù jiǎn shǎo huò zài xié shāng . fán shì xū yào é wài què rèn de huí fù , dōu xiān jì zài tóng yī zhāng biǎo , bù liú zài yī gè rén de liáo tiān jì lù lǐ , ràng qí tā rén yǐ wéi yǐ jīng quán bù chǔ lǐ .",
+          "en": "I supported a bounded trial to answer questions, not indefinite delay. Roles, capacity and a shared pending-confirmation record prevented excess work from hiding in personal messages."
+        },
+        {
+          "zh": "周四我只有一小时。林安问我愿不愿意全力支持，我说愿意认真做，但这一小时不会因此变成一下午。我们都笑了，她问那先看什么，我选样例和记录方式。这句玩笑没有把她的热情弄没，反而让具体安排出来了。如果我只说一定支持，后来没看完又不说，她可能会把我没做完理解成不上心，而不是一开始时间就不够。",
+          "py": "zhōu sì wǒ zhǐ yǒu yī xiǎo shí . lín ān wèn wǒ yuàn bù yuàn yì quán lì zhī chí , wǒ shuō yuàn yì rèn zhēn zuò , dàn zhè yī xiǎo shí bù huì yīn cǐ biàn chéng yī xià wǔ . wǒ men dōu xiào le , tā wèn nà xiān kàn shén me , wǒ xuǎn yàng lì hé jì lù fāng shì . zhè jù wán xiào méi yǒu bǎ tā de rè qíng nòng méi , fǎn ér ràng jù tǐ ān pái chū lái le . rú guǒ wǒ zhǐ shuō yí dìng zhī chí , hòu lái méi kàn wán yòu bù shuō , tā kě néng huì bǎ wǒ méi zuò wán lǐ jiě chéng bù shàng xīn , ér bù shì yī kāi shǐ shí jiān jiù bù gòu .",
+          "en": "My hour did not become an afternoon through “full support.” A small joke led to prioritising examples and recording, avoiding later misinterpretation of unfinished work as indifference."
+        },
+        {
+          "zh": "我们约好周四交修改方案，两周结束通报结果。我把还没确认的几项放在表后面，林安看完又加了谁负责回复这一行。有人建议连活动内容和收费也一起改，她先记在另一页，说这次把邀请做完再谈。我原来还怕周四来不及，现在看见准备、发送和确认都有了名字，就开始整理自己要问的那几个问题。她走到门口又回头，提醒我别忘了把新版表发给大家。",
+          "py": "wǒ men yuē hǎo zhōu sì jiāo xiū gǎi fāng àn , liǎng zhōu jié shù tōng bào jié guǒ . wǒ bǎ hái méi què rèn de jǐ xiàng fàng zài biǎo hòu miàn , lín ān kàn wán yòu jiā le shéi fù zé huí fù zhè yī xíng . yǒu rén jiàn yì lián huó dòng nèi róng hé shōu fèi yě yì qǐ gǎi , tā xiān jì zài lìng yī yè , shuō zhè cì bǎ yāo qǐng zuò wán zài tán . wǒ yuán lái hái pà zhōu sì lái bù jí , xiàn zài kàn jiàn zhǔn bèi , fā sòng hé què rèn dōu yǒu le míng zi , jiù kāi shǐ zhěng lǐ zì jǐ yào wèn de nà jǐ gè wèn tí . tā zǒu dào mén kǒu yòu huí tóu , tí xǐng wǒ bié wàng le bǎ xīn bǎn biǎo fā gěi dà jiā .",
+          "en": "We agreed to submit the revised plan Thursday and report results after two weeks. I put unresolved items at the end; Lin An added who would handle replies. Suggestions to change the activities and pricing went on another page for later. I'd feared the deadline, but with names assigned to preparation, sending and confirmation I could organise my questions. At the door she reminded me to send everyone the revised table."
+        },
+        {
+          "zh": "会后林安说刚才听到问题时，担心我在否定她。我说自己也差点讲得像所有风险都已经发生，幸好她问是不是完全不用试。我把话收回到现在记录缺什么、下一轮怎么补。彼此的问题可以帮助方案变好，也会因为说得太大让人紧张。听取对方不只是等他说完，更包括发现自己的说法让范围变了，愿意再说明。",
+          "py": "huì hòu lín ān shuō gāng cái tīng dào wèn tí shí , dān xīn wǒ zài fǒu dìng tā . wǒ shuō zì jǐ yě chà diǎn jiǎng de xiàng suǒ yǒu fēng xiǎn dōu yǐ jīng fā shēng , xìng hǎo tā wèn shì bú shì wán quán bù yòng shì . wǒ bǎ huà shōu huí dào xiàn zài jì lù quē shén me , xià yī lún zěn me bǔ . bǐ cǐ de wèn tí kě yǐ bāng zhù fāng àn biàn hǎo , yě huì yīn wèi shuō de tài dà ràng rén jǐn zhāng . tīng qǔ duì fāng bù zhǐ shì děng tā shuō wán , gèng bāo kuò fā xiàn zì jǐ de shuō fǎ ràng fàn wéi biàn le , yuàn yì zài shuō míng .",
+          "en": "We recognised that she heard rejection and I nearly spoke as if every risk had occurred. Clarifying present gaps and next steps corrected both overstatements; listening included revising one’s own scope."
+        },
+        {
+          "zh": "后来我把这次的核心写成两句：有变化值得试，有条件还需要确认。它们不是互相抵消，也没有一边是真话另一边只能客气。专业合作里，支持可以带问题，拒绝某个范围也可以给另一个办法。我们暂时还没有最终的长期决策，却已经有周四的一小时、谁发送、谁统计和两周以后看什么；这些能真正执行的部分，比早早宣布都没问题更让人放心。",
+          "py": "hòu lái wǒ bǎ zhè cì de hé xīn xiě chéng liǎng jù : yǒu biàn huà zhí de shì , yǒu tiáo jiàn hái xū yào què rèn . tā men bù shì hù xiāng dǐ xiāo , yě méi yǒu yī biān shì zhēn huà lìng yī biān zhǐ néng kè qì . zhuān yè hé zuò lǐ , zhī chí kě yǐ dài wèn tí , jù jué mǒu gè fàn wéi yě kě yǐ gěi lìng yī gè bàn fǎ . wǒ men zàn shí hái méi yǒu zuì zhōng de cháng qī jué cè , què yǐ jīng yǒu zhōu sì de yī xiǎo shí , shéi fā sòng , shéi tǒng jì hé liǎng zhōu yǐ hòu kàn shén me ; zhè xiē néng zhēn zhèng zhí xíng de bù fèn , bǐ zǎo zǎo xuān bù dōu méi wèn tí gèng ràng rén fàng xīn .",
+          "en": "Promising change and remaining conditions coexist. The long-term decision was open, but actual roles, Thursday’s hour and the two-week review were actionable and more reassuring than declaring every issue resolved."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "比例",
+          "pinyin": "bǐ lì",
+          "meaning": "proportion"
+        },
+        {
+          "hanzi": "收入",
+          "pinyin": "shōu rù",
+          "meaning": "revenue; income"
+        },
+        {
+          "hanzi": "后续",
+          "pinyin": "hòu xù",
+          "meaning": "follow-up"
+        },
+        {
+          "hanzi": "风险",
+          "pinyin": "fēng xiǎn",
+          "meaning": "risk"
+        },
+        {
+          "hanzi": "统计",
+          "pinyin": "tǒng jì",
+          "meaning": "collect and count data"
+        },
+        {
+          "hanzi": "流程",
+          "pinyin": "liú chéng",
+          "meaning": "process"
+        },
+        {
+          "hanzi": "样例",
+          "pinyin": "yàng lì",
+          "meaning": "sample example"
+        },
+        {
+          "hanzi": "批准",
+          "pinyin": "pī zhǔn",
+          "meaning": "approve"
+        },
+        {
+          "hanzi": "否定",
+          "pinyin": "fǒu dìng",
+          "meaning": "reject; negate"
+        },
+        {
+          "hanzi": "抵消",
+          "pinyin": "dǐ xiāo",
+          "meaning": "cancel out"
+        },
+        {
+          "hanzi": "执行",
+          "pinyin": "zhí xíng",
+          "meaning": "carry out"
+        },
+        {
+          "hanzi": "减",
+          "pinyin": "jiǎn",
+          "meaning": "reduce"
+        },
+        {
+          "hanzi": "核",
+          "pinyin": "hé",
+          "meaning": "check; core"
+        },
+        {
+          "hanzi": "长期",
+          "pinyin": "cháng qī",
+          "meaning": "long-term"
+        },
+        {
+          "hanzi": "断言",
+          "pinyin": "duàn yán",
+          "meaning": "assert firmly"
+        },
+        {
+          "hanzi": "记录",
+          "pinyin": "jì lù",
+          "meaning": "record"
+        },
+        {
+          "hanzi": "计算器",
+          "pinyin": "jì suàn qì",
+          "meaning": "calculator"
+        },
+        {
+          "hanzi": "人次",
+          "pinyin": "rén cì",
+          "meaning": "person-visits; counted attendances"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What does the colleague’s questioning support?",
+          "choices": [
+            "A more interpretable and manageable trial",
+            "Proof every feared risk has already occurred",
+            "An indefinite refusal to decide anything"
+          ],
+          "answer": "A more interpretable and manageable trial"
+        },
+        {
+          "type": "detail",
+          "q": "What is the relative increase from twenty percent to thirty percent?",
+          "choices": [
+            "Fifty percent relative to the original twenty",
+            "Ten percent relative to the original twenty",
+            "Thirty percent relative to the original twenty"
+          ],
+          "answer": "Fifty percent relative to the original twenty"
+        },
+        {
+          "type": "inference",
+          "q": "Can hypothetical ten-minute follow-up be entered as an observed result?",
+          "choices": [
+            "No, it is a planning assumption until measured",
+            "Yes, if it favours the proposal",
+            "Yes, because the preparation time is known"
+          ],
+          "answer": "No, it is a planning assumption until measured"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "两组各一百人，回复二十和三十，这个记录值得看。我没有说不同组就什么都不能知道，而是不能只用它证明短信造成全部增加。第二组有以前来过的人，发送日期也早一天，可能都有【关联】。把这些条件记住，不会让数字消失；它们只是提醒我们，后面想比较内容时，要尽量把对象、时间和回复要求写清，让下一轮更容易解释。",
+            "py": "liǎng zǔ gè yī bǎi rén , huí fù èr shí hé sān shí , zhè gè jì lù zhí de kàn . wǒ méi yǒu shuō bù tóng zǔ jiù shén me dōu bù néng zhī dào , ér shì bù néng zhǐ yòng tā zhèng míng duǎn xìn zào chéng quán bù zēng jiā . dì èr zǔ yǒu yǐ qián lái guò de rén , fā sòng rì qī yě zǎo yī tiān , kě néng dōu yǒu guān lián . bǎ zhè xiē tiáo jiàn jì zhù , bù huì ràng shù zì xiāo shī ; tā men zhǐ shì tí xǐng wǒ men , hòu miàn xiǎng bǐ jiào nèi róng shí , yào jǐn liàng bǎ duì xiàng , shí jiān hé huí fù yāo qiú xiě qīng , ràng xià yī lún gèng róng yì jiě shì .",
+            "en": "The counts were informative without establishing the letter as sole cause. Prior attendance and earlier sending remained associated conditions, guiding a more interpretable next round rather than erasing the numbers."
+          },
+          {
+            "zh": "林安把二十到三十写成提高百分之十，我让她拿计算器再看一下。比例是增加十个【百分点】，相对原来的百分之二十则增加百分之五十。她看着两个结果，说这回得把比较的是哪一个写在旁边。我们在表里留了原来的二十、后来的三十，又把人次和比例分开。改完以后，她把表发给我，问这样还会不会读错，我让她先把标题补上。",
+            "py": "lín ān bǎ èr shí dào sān shí xiě chéng tí gāo bǎi fēn zhī shí , wǒ ràng tā ná jì suàn qì zài kàn yī xià . bǐ lì shì zēng jiā shí gè bǎi fēn diǎn , xiāng duì yuán lái de bǎi fēn zhī èr shí zé zēng jiā bǎi fēn zhī wǔ shí . tā kàn zhe liǎng gè jié guǒ , shuō zhè huí děi bǎ bǐ jiào de shì nǎ yī gè xiě zài páng biān . wǒ men zài biǎo lǐ liú le yuán lái de èr shí , hòu lái de sān shí , yòu bǎ rén cì hé bǐ lì fēn kāi . gǎi wán yǐ hòu , tā bǎ biǎo fā gěi wǒ , wèn zhè yàng hái huì bù huì dú cuò , wǒ ràng tā xiān bǎ biāo tí bǔ shàng .",
+            "en": "Lin An wrote twenty to thirty as a ten-percent increase. We checked the calculator: ten percentage points, or fifty percent relative to the original twenty percent. She said we'd better label the comparison. We kept the old twenty and new thirty and separated counts from proportions. Sending the revised table, she asked whether it could still be misread. First add the headings, I said."
+          },
+          {
+            "zh": "我们看旧版六十分钟准备、三十分钟确认，新版九十分钟准备。两边都不能把没有记的部分当零。如果两周后新版确认只用十分钟，总共仍是一个数字；如果要四十分钟，又是另一种工作量。现在这些是假设，不是已经发生的记录。讨论假设可以帮助安排人，却不能提前把希望的十分钟放进结果，随后说【试点】已经成功省下时间。",
+            "py": "wǒ men kàn jiù bǎn liù shí fēn zhōng zhǔn bèi , sān shí fēn zhōng què rèn , xīn bǎn jiǔ shí fēn zhōng zhǔn bèi . liǎng biān dōu bù néng bǎ méi yǒu jì de bù fèn dāng líng . rú guǒ liǎng zhōu hòu xīn bǎn què rèn zhǐ yòng shí fēn zhōng , zǒng gòng réng shì yī gè shù zì ; rú guǒ yào sì shí fēn zhōng , yòu shì lìng yī zhǒng gōng zuò liàng . xiàn zài zhè xiē shì jiǎ shè , bù shì yǐ jīng fā shēng de jì lù . tǎo lùn jiǎ shè kě yǐ bāng zhù ān pái rén , què bù néng tí qián bǎ xī wàng de shí fēn zhōng fàng jìn jié guǒ , suí hòu shuō shì diǎn yǐ jīng chéng gōng shěng xià shí jiān .",
+            "en": "Unrecorded time was not zero. Hypothetical ten or forty minutes of follow-up would yield different totals, but neither had happened. Planning assumptions could not be inserted as measured success."
+          }
+        ],
+        "bank": [
+          "关联",
+          "百分点",
+          "试点",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u06-c",
+    "title": "Support the trial, question the conclusion",
+    "place": "A small team planning invitations to a reading event",
+    "context": "Separate groups of 100 yield 20 and 30 replies by Monday noon. First sends Friday evening, second Thursday afternoon; prior attendance also differs. Old process60+30=90 minutes, new preparation90 plus unknown follow-up. Approved two-week small rounds, not pricing or permanent change; Thursday review availability one hour.",
+    "goal": "Negotiate a professional disagreement without turning questions into personal rejection",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "二十到三十，是不是十个百分点，也相对增加百分之五十？",
+        "pinyin": "èr shí dào sān shí , shì bú shì shí gè bǎi fēn diǎn , yě xiāng duì zēng jiā bǎi fēn zhī wǔ shí ?",
+        "meaning": "Twenty to thirty percent: ten percentage points and fifty percent relative increase?",
+        "intent": "Keep units and bases explicit",
+        "examples": [
+          "对，两个说法的比较方式不同，要写清原来的比例。"
+        ],
+        "accept": [
+          "^对，两个说法的比较方式不同，要写清原来的比例。[。！？]?$"
+        ]
+      },
+      {
+        "text": "问原因，就是完全不支持试吗？",
+        "pinyin": "wèn yuán yīn , jiù shì wán quán bù zhī chí shì ma ?",
+        "meaning": "Questioning cause means no support for a trial?",
+        "intent": "Separate support and a specific doubt",
+        "examples": [
+          "不是，可以支持试点，同时保留原因判断。"
+        ],
+        "accept": [
+          "^不是，可以支持试点，同时保留原因判断。[。！？]?$"
+        ]
+      },
+      {
+        "text": "新版准备九十分钟，后续没记，就算总共九十？",
+        "pinyin": "xīn bǎn zhǔn bèi jiǔ shí fēn zhōng , hòu xù méi jì , jiù suàn zǒng gòng jiǔ shí ?",
+        "meaning": "Preparation ninety minutes and unrecorded follow-up: total ninety?",
+        "intent": "Do not treat unknown as zero",
+        "examples": [
+          "不能，后续还要记完整。"
+        ],
+        "accept": [
+          "^不能，后续还要记完整。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你愿意支持，就把周四一小时当一下午吧？",
+        "pinyin": "nǐ yuàn yì zhī chí , jiù bǎ zhōu sì yī xiǎo shí dāng yī xià wǔ ba ?",
+        "meaning": "You want to support it; count your Thursday hour as an afternoon?",
+        "intent": "Retain a concrete availability limit",
+        "examples": [
+          "不能，先按一小时安排，不够再协商。"
+        ],
+        "accept": [
+          "^不能，先按一小时安排，不够再协商。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Ask without rejecting the whole idea",
+      "natural": {
+        "zh": "我支持试，不过还想确认这两组是不是同样的条件。",
+        "py": "wǒ zhī chí shì , bù guò hái xiǎng què rèn zhè liǎng zǔ shì bú shì tóng yàng de tiáo jiàn .",
+        "en": "I support trying it, and want to check whether the two groups had the same conditions."
+      },
+      "note": "State both support and the specific question."
+    },
+    {
+      "situation": "Revise an overstated claim",
+      "natural": {
+        "zh": "现在可以说回复比例不同，还不能说只由信的长度造成。",
+        "py": "xiàn zài kě yǐ shuō huí fù bǐ lì bù tóng , hái bù néng shuō zhǐ yóu xìn de cháng dù zào chéng .",
+        "en": "We can say reply proportions differ, not yet that letter length alone caused it."
+      },
+      "note": "Keep the observation and narrow the causal claim."
+    },
+    {
+      "situation": "Make support concrete",
+      "natural": {
+        "zh": "周四我能看一小时，先看样例和记录方式。",
+        "py": "zhōu sì wǒ néng kàn yī xiǎo shí , xiān kàn yàng lì hé jì lù fāng shì .",
+        "en": "I can review for an hour Thursday, starting with examples and recording method."
+      },
+      "note": "A role and time make the agreement executable."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u06-t01",
+      "phrase": "s6-u06-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "陈宇没有先说同意或不同意，而是问两次联系的是不是同一批人。我说不是，第二组里有一些以前来过。他又问发送的星期和回复的时间是不是一样，才发现第一封周五晚上发，第二封周四下午发。观察到的回复比例确实不同，但两组经验、日期和内容都不完全相同。我原来只盯着信短了这一处，漏了这些可能一起影响结果的因素。",
+        "py": "chén yǔ méi yǒu xiān shuō tóng yì huò bù tóng yì , ér shì wèn liǎng cì lián xì de shì bú shì tóng yī pī rén . wǒ shuō bù shì , dì èr zǔ lǐ yǒu yī xiē yǐ qián lái guò . tā yòu wèn fā sòng de xīng qī hé huí fù de shí jiān shì bú shì yī yàng , cái fā xiàn dì yī fēng zhōu wǔ wǎn shang fā , dì èr fēng zhōu sì xià wǔ fā . guān chá dào de huí fù bǐ lì què shí bù tóng , dàn liǎng zǔ jīng yàn , rì qī hé nèi róng dōu bù wán quán xiāng tóng . wǒ yuán lái zhǐ dīng zhe xìn duǎn le zhè yī chù , lòu le zhè xiē kě néng yì qǐ yǐng xiǎng jié guǒ de yīn sù .",
+        "en": "Chen Yu asked about recipients and timing. They differed: some second-group members had prior attendance, and sending was Friday evening versus Thursday afternoon. The proportions differed, but content was not the sole changed factor."
+      },
+      "statement": "The two groups and sending dates are identical.",
+      "answer": false,
+      "why": "Recipients differ and sending is a day earlier in the second group."
+    },
+    {
+      "id": "s6-u06-t02",
+      "phrase": "s6-u06-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我们把数字重新写清：百分之二十到百分之三十，增加十个百分点；如果跟原来百分之二十相比，增加的十是原来的百分之五十。两种说法各有比较的对象，不是把十和五十挑一个听起来更大的就行。陈宇说先把分母和对象留在旁边，我觉得有用。这个算式解释比例怎么变，不会自动解释为什么变，也没有把回复的人全部变成最终到场的人。",
+        "py": "wǒ men bǎ shù zì chóng xīn xiě qīng : bǎi fēn zhī èr shí dào bǎi fēn zhī sān shí , zēng jiā shí gè bǎi fēn diǎn ; rú guǒ gēn yuán lái bǎi fēn zhī èr shí xiāng bǐ , zēng jiā de shí shì yuán lái de bǎi fēn zhī wǔ shí . liǎng zhǒng shuō fǎ gè yǒu bǐ jiào de duì xiàng , bù shì bǎ shí hé wǔ shí tiāo yī gè tīng qǐ lái gèng dà de jiù xíng . chén yǔ shuō xiān bǎ fēn mǔ hé duì xiàng liú zài páng biān , wǒ jué de yǒu yòng . zhè gè suàn shì jiě shì bǐ lì zěn me biàn , bù huì zì dòng jiě shì wèi shén me biàn , yě méi yǒu bǎ huí fù de rén quán bù biàn chéng zuì zhōng dào chǎng de rén .",
+        "en": "Twenty to thirty percent is ten percentage points, or fifty percent relative to the original twenty. We retained comparison bases. Arithmetic describes the change, not its cause or eventual attendance."
+      },
+      "statement": "The proportion rises by ten percentage points.",
+      "answer": true,
+      "why": "Thirty minus twenty is ten percentage points."
+    },
+    {
+      "id": "s6-u06-t03",
+      "phrase": "s6-u06-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我们看旧版六十分钟准备、三十分钟确认，新版九十分钟准备。两边都不能把没有记的部分当零。如果两周后新版确认只用十分钟，总共仍是一个数字；如果要四十分钟，又是另一种工作量。现在这些是假设，不是已经发生的记录。讨论假设可以帮助安排人，却不能提前把希望的十分钟放进结果，随后说试点已经成功省下时间。",
+        "py": "wǒ men kàn jiù bǎn liù shí fēn zhōng zhǔn bèi , sān shí fēn zhōng què rèn , xīn bǎn jiǔ shí fēn zhōng zhǔn bèi . liǎng biān dōu bù néng bǎ méi yǒu jì de bù fèn dāng líng . rú guǒ liǎng zhōu hòu xīn bǎn què rèn zhǐ yòng shí fēn zhōng , zǒng gòng réng shì yī gè shù zì ; rú guǒ yào sì shí fēn zhōng , yòu shì lìng yī zhǒng gōng zuò liàng . xiàn zài zhè xiē shì jiǎ shè , bù shì yǐ jīng fā shēng de jì lù . tǎo lùn jiǎ shè kě yǐ bāng zhù ān pái rén , què bù néng tí qián bǎ xī wàng de shí fēn zhōng fàng jìn jié guǒ , suí hòu shuō shì diǎn yǐ jīng chéng gōng shěng xià shí jiān .",
+        "en": "Unrecorded time was not zero. Hypothetical ten or forty minutes of follow-up would yield different totals, but neither had happened. Planning assumptions could not be inserted as measured success."
+      },
+      "statement": "Unknown follow-up time can be counted as zero.",
+      "answer": false,
+      "why": "Hypothetical follow-up is not observed."
+    },
+    {
+      "id": "s6-u06-t04",
+      "phrase": "s6-u06-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我们约好周四交修改方案，两周结束通报结果。我把还没确认的几项放在表后面，林安看完又加了谁负责回复这一行。有人建议连活动内容和收费也一起改，她先记在另一页，说这次把邀请做完再谈。我原来还怕周四来不及，现在看见准备、发送和确认都有了名字，就开始整理自己要问的那几个问题。她走到门口又回头，提醒我别忘了把新版表发给大家。",
+        "py": "wǒ men yuē hǎo zhōu sì jiāo xiū gǎi fāng àn , liǎng zhōu jié shù tōng bào jié guǒ . wǒ bǎ hái méi què rèn de jǐ xiàng fàng zài biǎo hòu miàn , lín ān kàn wán yòu jiā le shéi fù zé huí fù zhè yī xíng . yǒu rén jiàn yì lián huó dòng nèi róng hé shōu fèi yě yì qǐ gǎi , tā xiān jì zài lìng yī yè , shuō zhè cì bǎ yāo qǐng zuò wán zài tán . wǒ yuán lái hái pà zhōu sì lái bù jí , xiàn zài kàn jiàn zhǔn bèi , fā sòng hé què rèn dōu yǒu le míng zi , jiù kāi shǐ zhěng lǐ zì jǐ yào wèn de nà jǐ gè wèn tí . tā zǒu dào mén kǒu yòu huí tóu , tí xǐng wǒ bié wàng le bǎ xīn bǎn biǎo fā gěi dà jiā .",
+        "en": "We agreed to submit the revised plan Thursday and report results after two weeks. I put unresolved items at the end; Lin An added who would handle replies. Suggestions to change the activities and pricing went on another page for later. I'd feared the deadline, but with names assigned to preparation, sending and confirmation I could organise my questions. At the door she reminded me to send everyone the revised table."
+      },
+      "statement": "Pricing is approved as part of the present trial.",
+      "answer": false,
+      "why": "It is explicitly outside the current scope."
+    },
+    {
+      "id": "s6-u06-t05",
+      "phrase": "s6-u06-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "回复比例从百分之二十到百分之三十，增加多少个百分点？",
+        "py": "huí fù bǐ lì cóng bǎi fēn zhī èr shí dào bǎi fēn zhī sān shí , zēng jiā duō shao gè bǎi fēn diǎn ?",
+        "en": "Reply proportion moves from twenty to thirty percent. How many percentage points?"
+      },
+      "choices": [
+        "十个百分点。",
+        "五十个百分点。",
+        "三十个百分点。"
+      ],
+      "answer": "十个百分点。",
+      "why": "Subtract the two proportions, preserving percentage-point units."
+    },
+    {
+      "id": "s6-u06-t06",
+      "phrase": "s6-u06-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "相对原来的百分之二十，增加的十相当于多少？",
+        "py": "xiāng duì yuán lái de bǎi fēn zhī èr shí , zēng jiā de shí xiāng dāng yú duō shao ?",
+        "en": "Relative to the original twenty, what is the increase of ten?"
+      },
+      "choices": [
+        "原来的百分之五十。",
+        "原来的百分之十。",
+        "原来的百分之三十。"
+      ],
+      "answer": "原来的百分之五十。",
+      "why": "Ten divided by twenty is one half."
+    },
+    {
+      "id": "s6-u06-t07",
+      "phrase": "s6-u06-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "新版只记了准备九十分钟，能宣布总时间更少吗？",
+        "py": "xīn bǎn zhǐ jì le zhǔn bèi jiǔ shí fēn zhōng , néng xuān bù zǒng shí jiān gèng shǎo ma ?",
+        "en": "Only new preparation of ninety minutes is recorded. Can we declare less total time?"
+      },
+      "choices": [
+        "不能，后续还没记完整。",
+        "能，没记的后续就等于零。",
+        "能，回复更多自动使时间消失。"
+      ],
+      "answer": "不能，后续还没记完整。",
+      "why": "Incomplete process records cannot establish lower total time."
+    },
+    {
+      "id": "s6-u06-t08",
+      "phrase": "s6-u06-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "试两周小范围，常规继续。是不是所有联系永久换掉？",
+        "py": "shì liǎng zhōu xiǎo fàn wéi , cháng guī jì xù . shì bú shì suǒ yǒu lián xì yǒng jiǔ huàn diào ?",
+        "en": "A two-week small trial with routine contact continuing. Is every contact permanently replaced?"
+      },
+      "choices": [
+        "不是，只批准这次有限试点。",
+        "是，小范围等于全部永久更换。",
+        "是，其他活动内容也已经批准修改。"
+      ],
+      "answer": "不是，只批准这次有限试点。",
+      "why": "Keep the explicit scope and duration."
+    },
+    {
+      "id": "s6-u06-t09",
+      "phrase": "s6-u06-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "就算回复更多，【也】要把后续时间记完整。",
+        "py": "jiù suàn huí fù gèng duō , yě yào bǎ hòu xù shí jiān jì wán zhěng .",
+        "en": "Even with more replies, follow-up time must be fully recorded."
+      },
+      "blankPy": "yě"
+    },
+    {
+      "id": "s6-u06-t10",
+      "phrase": "s6-u06-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "确认后【便】发出通知。",
+        "py": "què rèn hòu biàn fā chū tōng zhī .",
+        "en": "Send the notice after confirmation."
+      },
+      "blankPy": "biàn"
+    },
+    {
+      "id": "s6-u06-t11",
+      "phrase": "s6-u06-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "【至于】定价，这次先不讨论。",
+        "py": "zhì yú dìng jià , zhè cì xiān bù tǎo lùn .",
+        "en": "As for pricing, we will not discuss it this time."
+      },
+      "blankPy": "zhì yú"
+    },
+    {
+      "id": "s6-u06-t12",
+      "phrase": "s6-u06-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "【据】这两次记录，回复比例确实不同。",
+        "py": "jù zhè liǎng cì jì lù , huí fù bǐ lì què shí bù tóng .",
+        "en": "According to these two records, reply proportions differ."
+      },
+      "blankPy": "jù"
+    },
+    {
+      "id": "s6-u06-t13",
+      "phrase": "s6-u06-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Twenty percent to thirty percent is an increase of ten percentage points.",
+          "right": {
+            "zh": "百分之二十到百分之三十，增加十个百分点。",
+            "py": "bǎi fēn zhī èr shí dào bǎi fēn zhī sān shí , zēng jiā shí gè bǎi fēn diǎn .",
+            "en": "Twenty percent to thirty percent is an increase of ten percentage points."
+          }
+        },
+        {
+          "left": "I am planning the trial and first state its scope.",
+          "right": {
+            "zh": "我在策划试点，先写清范围。",
+            "py": "wǒ zài cè huà shì diǎn , xiān xiě qīng fàn wéi .",
+            "en": "I am planning the trial and first state its scope."
+          }
+        },
+        {
+          "left": "Testing on a small scale first is our strategy.",
+          "right": {
+            "zh": "先小范围试，是这次的策略。",
+            "py": "xiān xiǎo fàn wéi shì , shì zhè cì de cè lüè .",
+            "en": "Testing on a small scale first is our strategy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u06-t14",
+      "phrase": "s6-u06-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "She participated in deciding the event time.",
+          "right": {
+            "zh": "她参与了活动时间的决策。",
+            "py": "tā cān yù le huó dòng shí jiān de jué cè .",
+            "en": "She participated in deciding the event time."
+          }
+        },
+        {
+          "left": "The new approach is piloted in one group first.",
+          "right": {
+            "zh": "新办法先在一个小组试点。",
+            "py": "xīn bàn fǎ xiān zài yī gè xiǎo zǔ shì diǎn .",
+            "en": "The new approach is piloted in one group first."
+          }
+        },
+        {
+          "left": "She investigated several nearby venues.",
+          "right": {
+            "zh": "她调研了附近几个场地。",
+            "py": "tā diào yán le fù jìn jǐ gè chǎng dì .",
+            "en": "She investigated several nearby venues."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u06-t15",
+      "phrase": "s6-u06-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Differences between the groups may affect replies.",
+          "right": {
+            "zh": "两组人的差异可能影响回复。",
+            "py": "liǎng zǔ rén de chā yì kě néng yǐng xiǎng huí fù .",
+            "en": "Differences between the groups may affect replies."
+          }
+        },
+        {
+          "left": "Assessing workload requires more than counting respondents.",
+          "right": {
+            "zh": "衡量工作量，不能只数回复的人。",
+            "py": "héng liáng gōng zuò liàng , bù néng zhǐ shù huí fù de rén .",
+            "en": "Assessing workload requires more than counting respondents."
+          }
+        },
+        {
+          "left": "The sending date is also a factor.",
+          "right": {
+            "zh": "发送日期也是一个因素。",
+            "py": "fā sòng rì qī yě shì yī gè yīn sù .",
+            "en": "The sending date is also a factor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u06-t16",
+      "phrase": "s6-u06-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "We heard participants’ views.",
+          "right": {
+            "zh": "我们听取了参加者的意见。",
+            "py": "wǒ men tīng qǔ le cān jiā zhě de yì jiàn .",
+            "en": "We heard participants’ views."
+          }
+        },
+        {
+          "left": "She submitted this week’s record.",
+          "right": {
+            "zh": "她提交了本周的记录。",
+            "py": "tā tí jiāo le běn zhōu de jì lù .",
+            "en": "She submitted this week’s record."
+          }
+        },
+        {
+          "left": "The person responsible announced the new arrangement.",
+          "right": {
+            "zh": "负责人通报了新的安排。",
+            "py": "fù zé rén tōng bào le xīn de ān pái .",
+            "en": "The person responsible announced the new arrangement."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u06-t17",
+      "phrase": "s6-u06-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "More replies are associated with a new letter, without establishing cause.",
+          "right": {
+            "zh": "回复增加和换信有关联，不等于已经知道原因。",
+            "py": "huí fù zēng jiā hé huàn xìn yǒu guān lián , bù děng yú yǐ jīng zhī dào yuán yīn .",
+            "en": "More replies are associated with a new letter, without establishing cause."
+          }
+        },
+        {
+          "left": "The core question is whether it is clearer, not merely more.",
+          "right": {
+            "zh": "核心问题是有没有更清楚，不只是更多。",
+            "py": "hé xīn wèn tí shì yǒu méi yǒu gèng qīng chǔ , bù zhǐ shì gèng duō .",
+            "en": "The core question is whether it is clearer, not merely more."
+          }
+        },
+        {
+          "left": "As of noon Monday the second group had thirty replies.",
+          "right": {
+            "zh": "截至周一中午，第二组收到三十份回复。",
+            "py": "jié zhì zhōu yī zhōng wǔ , dì èr zǔ shōu dào sān shí fèn huí fù .",
+            "en": "As of noon Monday the second group had thirty replies."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: workplace disagreement register, full-support/calendar banter, 因而/便 and 被…给 scope. Self-review preserves distinct 100-person groups, Friday versus Thursday sending,20/100 versus30/100=+10percentage points or+50%relative, not a causal experiment or attendance/revenue result. Old60+30=90; new90 preparation plus unknown follow-up cannot establish savings. Two-week small trial, Thursday one hour and excluded pricing are consistent across perspectives and tasks. No live business service, statistics certification, database or design changes are involved.\n2026-10-08 advanced reading self-review: Retained genuine calculation and workplace-review text types while replacing boilerplate with actual spreadsheet revision, task assignments and a lost-bag search. Singing dialogue now offers slower practice/recording, not abstract guarantees. Bag recovery preserves five pages, missing fourth page, upstairs storeroom, crease and intact new section. Film discussion retains separate sign-up and 9:45/10 cleanup; reply/attendance counts remain separate. Native flags: 风留下来 joke, 原稿心疼, 跟唱 omissions and calculator/percentage-point register. Native review pending.\n2026-10-08 advanced reading self-review: Bag actions v2: Retained genuine calculation and workplace-review text types while replacing boilerplate with actual spreadsheet revision, task assignments and a lost-bag search. Singing dialogue now offers slower practice/recording, not abstract guarantees. Both bag narrators now describe handling books, asking volunteers, ordering pages and rehearsing instead of repeatedly lecturing on evidence. Lin An returns the empty bag; Chen Yu inserts the pages and leaves its opening unclosed. Rehearsal now explicitly raises page four for everyone to see instead of inheriting the unrelated huǎng reading for a shaking action; its obsolete 晃 glossary aid is removed. The early empty-bag cue and paired narration explicitly describe placing it by the entrance, removing a misleading hái-labelled return action while retaining its time contrast and practised reply. Recovery preserves five unique pages, missing fourth page, upstairs storeroom, crease and intact new section; later copies do not end future borrowing. Film discussion retains separate sign-up and 9:45/10 cleanup; reply/attendance counts remain separate. Native flags: 风留下来 joke, 原稿心疼, 台词丢了 banter, 跟唱 omissions and calculator/percentage-point register. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "岗",
+      "pinyin": "gǎng",
+      "meaning": "post; position",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "岗",
+          "role": "whole",
+          "gloss": "post; position"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 岗 in 岗位. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "岗位",
+          "p": "gǎng wèi",
+          "m": "job position; assigned post"
+        }
+      ]
+    },
+    {
+      "hanzi": "策",
+      "pinyin": "cè",
+      "meaning": "plan; policy",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "策",
+          "role": "whole",
+          "gloss": "plan; policy"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 策 in 策划 / 策略. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "策划",
+          "p": "cè huà",
+          "m": "plan an event or project"
+        },
+        {
+          "w": "策略",
+          "p": "cè lüè",
+          "m": "strategy; approach"
+        }
+      ]
+    },
+    {
+      "hanzi": "监",
+      "pinyin": "jiān",
+      "meaning": "supervise",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "监",
+          "role": "whole",
+          "gloss": "supervise"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 监 in 监测. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "监测",
+          "p": "jiān cè",
+          "m": "monitor"
+        }
+      ]
+    },
+    {
+      "hanzi": "异",
+      "pinyin": "yì",
+      "meaning": "different",
+      "strokes": 6,
+      "parts": [
+        {
+          "form": "异",
+          "role": "whole",
+          "gloss": "different"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 异 in 差异. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "差异",
+          "p": "chā yì",
+          "m": "difference"
+        }
+      ]
+    }
+  ]
+}

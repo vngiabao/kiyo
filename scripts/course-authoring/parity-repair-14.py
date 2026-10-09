@@ -47,7 +47,7 @@ TEXTS={
 认鞋就行，我的是白色的。|Just look at the shoes. Mine are white.
 行，晚上见。|Okay. See you tonight.
 ''',
-'''晚上我和陈宇约好见朋友。出门前我问他穿什么，他说晚上有点凉，让我带一件长一点的衣服。|Chen Yu and I planned to meet friends tonight. Before leaving I asked what to wear. He said it would be cool and suggested a longer layer.
+'''晚上我和陈宇约好见朋友。出门前他问我穿什么，说晚上有点凉，让我带一件长一点的衣服。|Chen Yu and I planned to meet friends tonight. Before leaving he asked what I planned to wear, said it would be cool and suggested a longer layer.
 绿色那件又轻又短，蓝色的长一点。我把蓝色的放进包里，里面穿白色的。黄色那件还没干，只好留在家里。|The green one was light and short; the blue one was longer. I packed the blue one and wore white underneath. The yellow one hadn't dried, so it stayed home.
 我穿黑色的鞋，也戴上朋友送的红色围巾。这双鞋虽然普通，走远路却很舒服，今天正好用得上。|I wore black shoes and the red scarf a friend had given me. The shoes were ordinary but comfortable for long walks, just right for today.
 到车站时，我先看到一条红色围巾，走近才发现是陈宇。他的鞋是白色的，还真的和我们说好的一样。|At the stop I first saw a red scarf; closer up, I realised it was Chen Yu. His shoes were white, just as we'd said.
@@ -256,7 +256,7 @@ for number,(d,r,m) in TEXTS.items():
     for word in {4:['满意','服务'],7:['白色','凉'],23:['打印','取得'],25:['习惯','虽然']}[number]: tasks.append(fill(*examples[word],word))
     tasks.extend(match(list(examples.values())[i:i+3]) for i in [0,3,6])
     inherited=[(g['hanzi'],g['meaning']) for t in [pack['dialogue'],pack['reading'],*pack['extraReadings']] for g in t.get('glosses',[])]
-    repair(number,dict(dialogue=(rows(d),dqs),reading=(rows(r),rqs),media=(rows(m),[]),dialogueSpeakers=['林安','陈宇'] if number!=23 else ['陈宇','林安'],mediaSpeakers=['林安','陈宇'],examples=examples,contexts=contexts,tasks=tasks,glosses=list(dict.fromkeys(inherited+GLOSSES)),
+    repair(number,dict(dialogue=(rows(d),dqs),reading=(rows(r),rqs),media=(rows(m),[]),dialogueSpeakers=['陈宇','林安'] if number in [7,23] else ['林安','陈宇'],mediaSpeakers=['陈宇','林安'] if number==7 else ['林安','陈宇'],examples=examples,contexts=contexts,tasks=tasks,glosses=list(dict.fromkeys(inherited+GLOSSES)),
         usage=[('Respond to this request',REPLIES[number][0][0],REPLIES[number][0][1],'Give the next useful detail for the actual situation.')],turns=[(z,e,'Respond to the immediate request',[c[0]]) for z,e,c in REPLIES[number]],
         review='Targeted HSK 2 naturalness review: restaurant choice with a previous twenty-minute wait versus ten minutes today; two red scarves with different shoes, blue layer packed; printing only pages two/three at two and handing them over at three, Saturday event at two; activity-room discussion with a normal four-o’clock chime and Saturday three meeting. Removed assessment, identity and consent lectures inside friendly speech. All existing word/task IDs preserved. First examples retained where suitable, specific awkward examples fixed; every word also has an independently authored second context. Abstract education, behaviour and action vocabulary stays in separate examples rather than forced conversation. False statements checked against their own audio. Native flags: 为 beneficiary register, 取得成绩/同意 versus 拿到, educational 教师/教育/教学/中小学/年级 terms, 求 playful plea, 满意/不满 and 好处/坏处, adjective 色 forms, 站住 request strength, formal 受到/行动/行为 and colloquial 挺好. Native review pending.'),publish='--publish' in sys.argv,level=2)
 

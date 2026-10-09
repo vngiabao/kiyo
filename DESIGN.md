@@ -270,6 +270,8 @@ On October 7 the owner approved two regenerated branding images: Sayo leaning ov
 
 Loaded last and owned by this section. Direction: a late-night studio (Oura's dusk screens × Sayo/Ado). Follows `../SHARED-SPEC.md`.
 
+Navigation update, 8 October 2026: desktop uses Today · Course library · Read · Listen · Speak · HSK · Practice · Media · Progress, with More, search and settings in the masthead. More opens “Your study desk”; the phone keeps Today · Read · Listen · Speak · More, with Course library accessible from that desk. The library groups installed foundation and HSK material, shows suggested preparation, and filters by level, completion and topic. Counts come from installed activities and saved sessions; course levels never imply learner readiness. Keep Night Study's existing colours, underlined navigation and approved signature/icon artwork. Shiori's light theme and letter-specific destinations are not part of this update.
+
 - **Base:** deep blue-black (`#0b1323`) with one soft moonlight glow top-right (accent at 13%) and a faint teal haze top-left. No flat grey anywhere.
 - **Surfaces:** `--sheet #111a2b` / `--sheet-2 #172338`; rules are translucent blue (`rgb(148 170 214 / .14–.28)`); top bars are frosted glass (`--glass` + 14 px blur).
 - **One luminous accent:** blue-rose `#86a8ff` on `#0a1430` text, with a soft glow under primary buttons. Success `#72d9b9`, error `#ff9a92`, used only on the verdict bar and the chosen answer. Tone colours: coral, amber, mint, blue, grey.

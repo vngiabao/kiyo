@@ -1,0 +1,2209 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u11",
+    "stage": 3,
+    "order": 143,
+    "title": "Hear the second half",
+    "titleZh": "后半句也要听见",
+    "canDo": [
+      "Recover intent from fast casual speech and ellipsis",
+      "Ask for a missing clause without pretending understanding",
+      "Separate temporary instructions,refusal and comprehension gaps"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u10",
+      "s6-u10-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u11-w01",
+      "hanzi": "待会儿",
+      "pinyin": "dāi huìr",
+      "meaning": "in a little while",
+      "meaningVi": "lát nữa",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我待会儿到，你们先进去。",
+        "py": "wǒ dāi huìr dào , nǐ men xiān jìn qù .",
+        "en": "I'll arrive shortly;go in first."
+      },
+      "usageNote": "[GF2021:L6:1533] Source entry: 待会儿; dāihuìr; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w02",
+      "hanzi": "很难说",
+      "pinyin": "hěn nán shuō",
+      "meaning": "hard to say",
+      "meaningVi": "khó nói",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这场什么时候散，很难说。",
+        "py": "zhè chǎng shén me shí hou sàn , hěn nán shuō .",
+        "en": "It's hard to say when this show will finish."
+      },
+      "usageNote": "[GF2021:L6:3327] Source entry: 很难说; hěn nánshuō; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w03",
+      "hanzi": "说实话",
+      "pinyin": "shuō shí huà",
+      "meaning": "to be honest",
+      "meaningVi": "thật lòng",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "说实话，我刚才没听清。",
+        "py": "shuō shí huà , wǒ gāng cái méi tīng qīng .",
+        "en": "Honestly,I didn't catch that."
+      },
+      "usageNote": "[GF2021:L6:7602] Source entry: 说实话; shuō shíhuà; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w04",
+      "hanzi": "算了",
+      "pinyin": "suàn le",
+      "meaning": "never mind; let it go",
+      "meaningVi": "thôi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "买不到就算了，我们先进去。",
+        "py": "mǎi bù dào jiù suàn le , wǒ men xiān jìn qù .",
+        "en": "If we can't get it,never mind;let's go in."
+      },
+      "usageNote": "[GF2021:L6:7695] Source entry: 算了; suànle; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w05",
+      "hanzi": "只管",
+      "pinyin": "zhǐ guǎn",
+      "meaning": "just go ahead and",
+      "meaningVi": "cứ",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "你只管先坐下，我去拿水。",
+        "py": "nǐ zhǐ guǎn xiān zuò xià , wǒ qù ná shuǐ .",
+        "en": "Go ahead and sit;I'll get water."
+      },
+      "usageNote": "[GF2021:L6:10526] Source entry: 只管; zhǐguǎn; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w06",
+      "hanzi": "只顾",
+      "pinyin": "zhǐ gù",
+      "meaning": "be preoccupied with",
+      "meaningVi": "chỉ lo",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我只顾看路，没听见后半句。",
+        "py": "wǒ zhǐ gù kàn lù , méi tīng jiàn hòu bàn jù .",
+        "en": "I was concentrating on the route and missed the second half."
+      },
+      "usageNote": "[GF2021:L6:10525] Source entry: 只顾; zhǐgù; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w07",
+      "hanzi": "只得",
+      "pinyin": "zhǐ dé",
+      "meaning": "have no choice but",
+      "meaningVi": "đành",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "那班车已经走了，我只得等下一班。",
+        "py": "nà bān chē yǐ jīng zǒu le , wǒ zhǐ dé děng xià yī bān .",
+        "en": "That bus has left,so I have to wait for the next."
+      },
+      "usageNote": "[GF2021:L6:10524] Source entry: 只得; zhǐdé; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w08",
+      "hanzi": "再说",
+      "pinyin": "zài shuō",
+      "meaning": "discuss later; besides",
+      "meaningVi": "để sau; hơn nữa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先看完，结尾出去再说。",
+        "py": "xiān kàn wán , jié wěi chū qù zài shuō .",
+        "en": "Finish watching;discuss the ending outside."
+      },
+      "usageNote": "[GF2021:L6:10117] Source entry: 再说; zàishuō; 动、连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w09",
+      "hanzi": "就是说",
+      "pinyin": "jiù shì shuō",
+      "meaning": "that is to say",
+      "meaningVi": "tức là",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "就是说，你会来，只是晚一点。",
+        "py": "jiù shì shuō , nǐ huì lái , zhǐ shì wǎn yī diǎn .",
+        "en": "So you'll come,just a little later."
+      },
+      "usageNote": "[GF2021:L6:4450] Source entry: 就是说; jiùshìshuō; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w10",
+      "hanzi": "不再",
+      "pinyin": "bù zài",
+      "meaning": "no longer",
+      "meaningVi": "không còn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "他不再等上一班车了。",
+        "py": "tā bù zài děng shàng yī bān chē le .",
+        "en": "He's no longer waiting for the previous bus."
+      },
+      "usageNote": "[GF2021:L6:556] Source entry: 不再; búzài; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w11",
+      "hanzi": "前来",
+      "pinyin": "qián lái",
+      "meaning": "come to a place",
+      "meaningVi": "đến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她前来取票，没留下看演出。",
+        "py": "tā qián lái qǔ piào , méi liú xià kàn yǎn chū .",
+        "en": "She came to collect tickets without staying for the show."
+      },
+      "usageNote": "[GF2021:L6:6342] Source entry: 前来; qiánlái; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w12",
+      "hanzi": "路过",
+      "pinyin": "lù guò",
+      "meaning": "pass by",
+      "meaningVi": "đi ngang",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我路过门口，听到你说算了。",
+        "py": "wǒ lù guò mén kǒu , tīng dào nǐ shuō suàn le .",
+        "en": "I passed the entrance and heard you say never mind."
+      },
+      "usageNote": "[GF2021:L6:5310] Source entry: 路过; lùguò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w13",
+      "hanzi": "挨着",
+      "pinyin": "āi zhe",
+      "meaning": "next to",
+      "meaningVi": "sát bên",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我坐在挨着门的位置。",
+        "py": "wǒ zuò zài āi zhe mén de wèi zhì .",
+        "en": "I sit beside the door."
+      },
+      "usageNote": "[GF2021:L6:9] Source entry: 挨着; āizhe; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w14",
+      "hanzi": "沿着",
+      "pinyin": "yán zhe",
+      "meaning": "along",
+      "meaningVi": "dọc",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "沿着小路走到红门。",
+        "py": "yán zhe xiǎo lù zǒu dào hóng mén .",
+        "en": "Follow the path to the red door."
+      },
+      "usageNote": "[GF2021:L6:9308] Source entry: 沿着; yánzhe; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w15",
+      "hanzi": "前方",
+      "pinyin": "qián fāng",
+      "meaning": "ahead",
+      "meaningVi": "phía trước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "前方那辆不是我们等的车。",
+        "py": "qián fāng nà liàng bù shì wǒ men děng de chē .",
+        "en": "The bus ahead isn't the one we're waiting for."
+      },
+      "usageNote": "[GF2021:L6:6337] Source entry: 前方; qiánfāng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w16",
+      "hanzi": "通道",
+      "pinyin": "tōng dào",
+      "meaning": "passage",
+      "meaningVi": "lối đi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "别站在通道里等消息。",
+        "py": "bié zhàn zài tōng dào lǐ děng xiāo xī .",
+        "en": "Don't wait for messages in the passage."
+      },
+      "usageNote": "[GF2021:L6:8034] Source entry: 通道; tōngdào; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w17",
+      "hanzi": "响声",
+      "pinyin": "xiǎng shēng",
+      "meaning": "sound; noise",
+      "meaningVi": "âm thanh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "响声把后半句盖住了。",
+        "py": "xiǎng shēng bǎ hòu bàn jù gài zhù le .",
+        "en": "The noise drowned out the second half."
+      },
+      "usageNote": "[GF2021:L6:8838] Source entry: 响声; xiǎngshēng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w18",
+      "hanzi": "笑声",
+      "pinyin": "xiào shēng",
+      "meaning": "laughter",
+      "meaningVi": "tiếng cười",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "笑声过后她又补了一句。",
+        "py": "xiào shēng guò hòu tā yòu bǔ le yī jù .",
+        "en": "After the laughter,she added another sentence."
+      },
+      "usageNote": "[GF2021:L6:8933] Source entry: 笑声; xiàoshēng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w19",
+      "hanzi": "音量",
+      "pinyin": "yīn liàng",
+      "meaning": "volume",
+      "meaningVi": "âm lượng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "音量太大，我没听清。",
+        "py": "yīn liàng tài dà , wǒ méi tīng qīng .",
+        "en": "The volume was too loud for me to catch it."
+      },
+      "usageNote": "[GF2021:L6:9687] Source entry: 音量; yīnliàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w20",
+      "hanzi": "通话",
+      "pinyin": "tōng huà",
+      "meaning": "have a phone call",
+      "meaningVi": "gọi điện",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这里太吵，不便通话。",
+        "py": "zhè lǐ tài chǎo , bù biàn tōng huà .",
+        "en": "It's too noisy here for a call."
+      },
+      "usageNote": "[GF2021:L6:8039] Source entry: 通话; tōng∥huà; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w21",
+      "hanzi": "留言",
+      "pinyin": "liú yán",
+      "meaning": "leave a message",
+      "meaningVi": "nhắn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先留言，我出去再听。",
+        "py": "xiān liú yán , wǒ chū qù zài tīng .",
+        "en": "Leave a message;I'll listen outside."
+      },
+      "usageNote": "[GF2021:L6:5243] Source entry: 留言; liúyán; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w22",
+      "hanzi": "回应",
+      "pinyin": "huí yìng",
+      "meaning": "respond",
+      "meaningVi": "đáp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她回应说不是不去。",
+        "py": "tā huí yìng shuō bù shì bù qù .",
+        "en": "She replied that it wasn't a refusal to go."
+      },
+      "usageNote": "[GF2021:L6:3583] Source entry: 回应; huíyìng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w23",
+      "hanzi": "打断",
+      "pinyin": "dǎ duàn",
+      "meaning": "interrupt",
+      "meaningVi": "ngắt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我打断一下，你刚才说先别等？",
+        "py": "wǒ dǎ duàn yī xià , nǐ gāng cái shuō xiān bié děng ?",
+        "en": "Let me interrupt—did you say don't wait for now?"
+      },
+      "usageNote": "[GF2021:L6:1417] Source entry: 打断; dǎduàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w24",
+      "hanzi": "区分",
+      "pinyin": "qū fēn",
+      "meaning": "distinguish",
+      "meaningVi": "phân biệt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "把先别等和不会来区分开。",
+        "py": "bǎ xiān bié děng hé bù huì lái qū fēn kāi .",
+        "en": "Distinguish don't wait for now from won't come."
+      },
+      "usageNote": "[GF2021:L6:6557] Source entry: 区分; qūfēn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w25",
+      "hanzi": "此处",
+      "pinyin": "cǐ chù",
+      "meaning": "here",
+      "meaningVi": "tại đây",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "此处不能停留，请到门外等。",
+        "py": "cǐ chù bù néng tíng liú , qǐng dào mén wài děng .",
+        "en": "No waiting here;please wait outside."
+      },
+      "usageNote": "[GF2021:L6:1303] Source entry: 此处; cǐ chù; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w26",
+      "hanzi": "当天",
+      "pinyin": "dàng tiān",
+      "meaning": "on that day",
+      "meaningVi": "hôm đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "当天我们在红门见，不在车站。",
+        "py": "dàng tiān wǒ men zài hóng mén jiàn , bù zài chē zhàn .",
+        "en": "That day we met at the red door,not the station."
+      },
+      "usageNote": "[GF2021:L6:1627] Source entry: 当天; dàngtiān; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w27",
+      "hanzi": "此前",
+      "pinyin": "cǐ qián",
+      "meaning": "before this",
+      "meaningVi": "trước đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "此前我以为她不来了。",
+        "py": "cǐ qián wǒ yǐ wéi tā bù lái le .",
+        "en": "Before this,I thought she wasn't coming."
+      },
+      "usageNote": "[GF2021:L6:1308] Source entry: 此前; cǐqián; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w28",
+      "hanzi": "事后",
+      "pinyin": "shì hòu",
+      "meaning": "afterwards",
+      "meaningVi": "sau đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "事后重听，才听出不是不去。",
+        "py": "shì hòu zhòng tīng , cái tīng chū bù shì bù qù .",
+        "en": "Listening again afterwards,I caught wasn't refusing to go."
+      },
+      "usageNote": "[GF2021:L6:7298] Source entry: 事后; shìhòu; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w29",
+      "hanzi": "传出",
+      "pinyin": "chuán chū",
+      "meaning": "come from; spread",
+      "meaningVi": "truyền ra",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "小厅里传出音乐声。",
+        "py": "xiǎo tīng lǐ chuán chū yīn yuè shēng .",
+        "en": "Music came from the small room."
+      },
+      "usageNote": "[GF2021:L6:1220] Source entry: 传出; chuánchū; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w30",
+      "hanzi": "忽略",
+      "pinyin": "hū lüè",
+      "meaning": "overlook",
+      "meaningVi": "bỏ qua",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我忽略了那个先字。",
+        "py": "wǒ hū lüè le nà gè xiān zì .",
+        "en": "I overlooked the word for now."
+      },
+      "usageNote": "[GF2021:L6:3401] Source entry: 忽略; hūlüè; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u11-w31",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "meaning": "very; strongly",
+      "meaningVi": "rất",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 1,
+      "example": {
+        "zh": "这次我很想去，只是要晚到。",
+        "py": "zhè cì wǒ hěn xiǎng qù , zhǐ shì yào wǎn dào .",
+        "en": "I really want to go this time;I'll just arrive late."
+      },
+      "usageNote": "Retrieval of a word introduced at an earlier minimum level; no new advanced source-entry coverage is claimed."
+    },
+    {
+      "id": "s6-u11-w32",
+      "hanzi": "能否",
+      "pinyin": "néng fǒu",
+      "meaning": "whether possible",
+      "meaningVi": "liệu có thể",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我想问能否晚一点进场。",
+        "py": "wǒ xiǎng wèn néng fǒu wǎn yī diǎn jìn chǎng .",
+        "en": "I'd like to ask whether I can enter later."
+      },
+      "usageNote": "[GF2021:L6:5835] Source entry: 能否; néngfǒu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u11-g01",
+      "pattern": "不是不…，只是…",
+      "purpose": "Distinguish a limited obstacle from refusal",
+      "explanation": "Double negation can reject a refusal interpretation. 只是 limits the following reason;keep the whole sentence.",
+      "examples": [
+        {
+          "zh": "不是不去，只是晚一点到。",
+          "py": "bù shì bù qù , zhǐ shì wǎn yī diǎn dào .",
+          "en": "I am coming,just arriving later."
+        },
+        {
+          "zh": "不是不喜欢，只是还没看懂。",
+          "py": "bù shì bù xǐ huān , zhǐ shì hái méi kàn dǒng .",
+          "en": "I do like it;I have not understood it yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "不是不去，表示绝对不去。",
+          "right": "不是不去，只是晚一点到。",
+          "why": "The phrase explicitly rejects not going."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u11-g02",
+      "pattern": "先别…",
+      "purpose": "Read temporary timing in a negative instruction",
+      "explanation": "先 limits the instruction to the current step;it is not necessarily permanent.",
+      "examples": [
+        {
+          "zh": "先别替我点，到了再看。",
+          "py": "xiān bié tì wǒ diǎn , dào le zài kàn .",
+          "en": "Do not order for me yet;decide on arrival."
+        },
+        {
+          "zh": "结尾先别讲，我还没看。",
+          "py": "jié wěi xiān bié jiǎng , wǒ hái méi kàn .",
+          "en": "Do not tell the ending yet;I have not watched."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先别点，表示以后永远不能点。",
+          "right": "先别替我点，到了再看。",
+          "why": "Retain the temporary scope."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u11-g03",
+      "pattern": "你只管…",
+      "purpose": "Invite an action without requiring a second duty",
+      "explanation": "只管 can give permission or reassurance to go ahead. Interpret any added task separately.",
+      "examples": [
+        {
+          "zh": "你只管进去，我晚点到。",
+          "py": "nǐ zhǐ guǎn jìn qù , wǒ wǎn diǎn dào .",
+          "en": "Go in;I will arrive later."
+        },
+        {
+          "zh": "有问题只管问。",
+          "py": "yǒu wèn tí zhǐ guǎn wèn .",
+          "en": "Go ahead and ask questions."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只管进去，表示必须一直站在门口。",
+          "right": "你只管进去，我晚点到。",
+          "why": "The action invited is entering,not guarding the door."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u11-g04",
+      "pattern": "我可没说…",
+      "purpose": "Recognise an emphatic correction",
+      "explanation": "可 adds emphasis in this conversational correction. Tone may be playful or serious according to context.",
+      "examples": [
+        {
+          "zh": "我可没说不去啊。",
+          "py": "wǒ kě méi shuō bù qù a .",
+          "en": "I did not say I would not go."
+        },
+        {
+          "zh": "我可没说每个人都得等。",
+          "py": "wǒ kě méi shuō měi gè rén dōu děi děng .",
+          "en": "I did not say everyone must wait."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我可没说不去，等于我说不去。",
+          "right": "我可没说不去啊。",
+          "why": "The speaker denies having made that claim."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u11-g05",
+      "pattern": "省略主语",
+      "purpose": "Recover the missing participant from context",
+      "explanation": "In a shared plan,the subject or object may be omitted. Ask when the referent is unclear instead of adding an unsupported person.",
+      "examples": [
+        {
+          "zh": "先别点，我路上可能吃一点。",
+          "py": "xiān bié diǎn , wǒ lù shàng kě néng chī yī diǎn .",
+          "en": "Do not order for me yet;I may eat en route."
+        },
+        {
+          "zh": "到了再发消息。",
+          "py": "dào le zài fā xiāo xī .",
+          "en": "Message when you arrive."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先别点，表示全店都不许点餐。",
+          "right": "先别点，我路上可能吃一点。",
+          "why": "Context points to the speaker’s order,not every order."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u11-g06",
+      "pattern": "不是…，是…",
+      "purpose": "Correct evaluation versus comprehension",
+      "explanation": "A contrast can distinguish a judgement of quality from a missing understanding.",
+      "examples": [
+        {
+          "zh": "不是不好，是我没听懂。",
+          "py": "bù shì bù hǎo , shì wǒ méi tīng dǒng .",
+          "en": "It is not bad;I did not understand."
+        },
+        {
+          "zh": "不是换地方，是我记错了。",
+          "py": "bù shì huàn dì fāng , shì wǒ jì cuò le .",
+          "en": "The venue did not change;I remembered wrong."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "不是不好，是没听懂，已经给出坏的评价。",
+          "right": "不是不好，是我没听懂。",
+          "why": "A comprehension gap is not a negative quality judgement."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u11-d",
+    "title": "后半句也要听见",
+    "titleZh": "后半句也要听见",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你在哪？我这边散了。",
+        "py": "nǐ zài nǎ ? wǒ zhè biān sàn le .",
+        "en": "Where are you?Mine has finished.",
+        "speaker": "a"
+      },
+      {
+        "zh": "车还没到。先别等我，你们进去。",
+        "py": "chē hái méi dào . xiān bié děng wǒ , nǐ men jìn qù .",
+        "en": "The bus hasn't come.Don't wait for me now;go in.",
+        "speaker": "b"
+      },
+      {
+        "zh": "不去了？",
+        "py": "bù qù le ?",
+        "en": "Not coming?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是不去，晚点到。",
+        "py": "bù shì bù qù , wǎn diǎn dào .",
+        "en": "Not refusing to go—I'll get there later.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我刚才只听见别等。",
+        "py": "wǒ gāng cái zhǐ tīng jiàn bié děng .",
+        "en": "I only caught don't wait.",
+        "speaker": "a"
+      },
+      {
+        "zh": "门口太吵了吧。",
+        "py": "mén kǒu tài chǎo le ba .",
+        "en": "It's noisy by the door,isn't it?",
+        "speaker": "b"
+      },
+      {
+        "zh": "对。那先给你点？",
+        "py": "duì . nà xiān gěi nǐ diǎn ?",
+        "en": "Yes.Shall we order for you first?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先别点，我可能路上吃一点。",
+        "py": "xiān bié diǎn , wǒ kě néng lù shàng chī yī diǎn .",
+        "en": "Don't order yet;I might eat on the way.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这回听清了，先别点。",
+        "py": "zhè huí tīng qīng le , xiān bié diǎn .",
+        "en": "Got it this time—don't order yet.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你别连水也不给我啊。",
+        "py": "nǐ bié lián shuǐ yě bù gěi wǒ a .",
+        "en": "Don't deny me water too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "水可以。你到红门发消息。",
+        "py": "shuǐ kě yǐ . nǐ dào hóng mén fā xiāo xī .",
+        "en": "Water's fine.Message at the red door.",
+        "speaker": "a"
+      },
+      {
+        "zh": "哪个红门？上次那家？",
+        "py": "nǎ gè hóng mén ? shàng cì nà jiā ?",
+        "en": "Which red door?Last time's place?",
+        "speaker": "b"
+      },
+      {
+        "zh": "不是，挨着电影院的小店。",
+        "py": "bù shì , āi zhe diàn yǐng yuàn de xiǎo diàn .",
+        "en": "No,the small shop next to the cinema.",
+        "speaker": "a"
+      },
+      {
+        "zh": "哦，我上次走错过。",
+        "py": "ó , wǒ shàng cì zǒu cuò guò .",
+        "en": "Oh,I went the wrong way last time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "沿着小路，不用过桥。",
+        "py": "yán zhe xiǎo lù , bù yòng guò qiáo .",
+        "en": "Follow the path.No need to cross the bridge.",
+        "speaker": "a"
+      },
+      {
+        "zh": "知道了，等会儿到。",
+        "py": "zhī dào le , děng huì ér dào .",
+        "en": "Got it.I'll get there shortly.",
+        "speaker": "b"
+      },
+      {
+        "zh": "等会儿到底多久？",
+        "py": "děng huì ér dào dǐ duō jiǔ ?",
+        "en": "How soon is shortly?",
+        "speaker": "a"
+      },
+      {
+        "zh": "车刚到，十分钟左右。",
+        "py": "chē gāng dào , shí fēn zhōng zuǒ yòu .",
+        "en": "Bus just arrived.Around ten minutes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "行，我进去坐，不站通道里了。",
+        "py": "xíng , wǒ jìn qù zuò , bù zhàn tōng dào lǐ le .",
+        "en": "Okay.I'll sit inside,not stand in the passage.",
+        "speaker": "a"
+      },
+      {
+        "zh": "只管进去，我不是让你守红门。",
+        "py": "zhǐ guǎn jìn qù , wǒ bù shì ràng nǐ shǒu hóng mén .",
+        "en": "Go in.I wasn't asking you to guard the red door.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你一会儿一个不是，我得听全。",
+        "py": "nǐ yī huì er yī gè bù shì , wǒ děi tīng quán .",
+        "en": "You keep correcting things.I need to hear the whole sentence.",
+        "speaker": "a"
+      },
+      {
+        "zh": "慢点说给你听，别替我把后半句删了。",
+        "py": "màn diǎn shuō gěi nǐ tīng , bié tì wǒ bǎ hòu bàn jù shān le .",
+        "en": "I'll say it slower.Don't delete the second half for me.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，来得及的话，结尾也给你讲。",
+        "py": "hǎo , lái de jí de huà , jié wěi yě gěi nǐ jiǎng .",
+        "en": "Okay.If there's time,I'll tell you the ending too.",
+        "speaker": "a"
+      },
+      {
+        "zh": "结尾先别讲！这句你可听清。",
+        "py": "jié wěi xiān bié jiǎng ! zhè jù nǐ kě tīng qīng .",
+        "en": "Don't tell the ending yet!Make sure you catch that one.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "后半句",
+        "pinyin": "hòu bàn jù",
+        "meaning": "second half of the sentence"
+      },
+      {
+        "hanzi": "桥",
+        "pinyin": "qiáo",
+        "meaning": "bridge"
+      },
+      {
+        "hanzi": "删",
+        "pinyin": "shān",
+        "meaning": "delete"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does Lin An mean?",
+        "choices": [
+          "Coming later;friends should enter without waiting outside",
+          "She will never come",
+          "Everyone must refuse food"
+        ],
+        "answer": "Coming later;friends should enter without waiting outside"
+      },
+      {
+        "type": "detail",
+        "q": "Which shop is intended?",
+        "choices": [
+          "The red-door shop next to the cinema,without crossing the bridge",
+          "Last time’s place beyond the bridge",
+          "The bus station"
+        ],
+        "answer": "The red-door shop next to the cinema,without crossing the bridge"
+      },
+      {
+        "type": "inference",
+        "q": "Why say do not tell the ending yet?",
+        "choices": [
+          "She has not watched it,not a permanent ban on discussing endings",
+          "She dislikes every film",
+          "She never wants to hear a friend"
+        ],
+        "answer": "She has not watched it,not a permanent ban on discussing endings"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s6-u11-r",
+    "title": "后半句也要听见",
+    "titleZh": "后半句也要听见",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "演出散场，我站在门边给林安打电话。她那边有车经过，后面几个人一边走一边笑。我问她在哪，她说车还没到，先别等我，你们进去。我只抓住别等两个字，马上问不去了。她提高声音说不是不去，晚点到。我让她把后半句再说一遍，这回总算听清。陈宇已经走到店门口，回头问我还等不等，我说我们先进去，她等到车就发消息。我拿起包，赶紧跟上他。",
+        "py": "yǎn chū sàn chǎng , wǒ zhàn zài mén biān gěi lín ān dǎ diàn huà . tā nà biān yǒu chē jīng guò , hòu miàn jǐ gè rén yī biān zǒu yī biān xiào . wǒ wèn tā zài nǎ , tā shuō chē hái méi dào , xiān bié děng wǒ , nǐ men jìn qù . wǒ zhǐ zhuā zhù bié děng liǎng gè zì , mǎ shàng wèn bù qù le . tā tí gāo shēng yīn shuō bù shì bù qù , wǎn diǎn dào . wǒ ràng tā bǎ hòu bàn jù zài shuō yī biàn , zhè huí zǒng suàn tīng qīng . chén yǔ yǐ jīng zǒu dào diàn mén kǒu , huí tóu wèn wǒ hái děng bù děng , wǒ shuō wǒ men xiān jìn qù , tā děng dào chē jiù fā xiāo xī . wǒ ná qǐ bāo , gǎn jǐn gēn shàng tā .",
+        "en": "After the show I called Lin An from the doorway. Traffic passed at her end while people behind me laughed on their way out. Her bus hadn't arrived; we should go inside without waiting. Catching only 'don't wait,' I asked if she wasn't coming. She raised her voice: she was coming, just later. I asked her to repeat the second half and finally heard it. Chen Yu, already at the shop door, asked whether we were still waiting. We'd go in; she'd message when the bus came. I picked up my bag and hurried after him."
+      },
+      {
+        "zh": "我们约的地方换过一次，上回在桥那边，这次是电影院旁边的红门小店。我刚才只发了红门，她问哪一个，我才想起附近还有另一家。陈宇把店里的菜单递给我，我照着上面的店名补发过去，又拍了一张门口照片。她说自己还记着上次过桥的路，我赶紧回不用过桥，沿着小路到电影院旁边。消息发完，服务员问我们几个人，我伸出三根手指，说还有一个在路上，先给我们找个里面的位置。",
+        "py": "wǒ men yuē de dì fāng huàn guò yī cì , shàng huí zài qiáo nà biān , zhè cì shì diàn yǐng yuàn páng biān de hóng mén xiǎo diàn . wǒ gāng cái zhǐ fā le hóng mén , tā wèn nǎ yī gè , wǒ cái xiǎng qǐ fù jìn hái yǒu lìng yī jiā . chén yǔ bǎ diàn lǐ de cài dān dì gěi wǒ , wǒ zhào zhe shàng miàn de diàn míng bǔ fā guò qù , yòu pāi le yī zhāng mén kǒu zhào piān . tā shuō zì jǐ hái jì zhe shàng cì guò qiáo de lù , wǒ gǎn jǐn huí bù yòng guò qiáo , yán zhe xiǎo lù dào diàn yǐng yuàn páng biān . xiāo xī fā wán , fú wù yuán wèn wǒ men jǐ gè rén , wǒ shēn chū sān gēn shǒu zhǐ , shuō hái yǒu yī gè zài lù shàng , xiān gěi wǒ men zhǎo gè lǐ miàn de wèi zhì .",
+        "en": "We'd changed venues: last time beyond the bridge, this time the red-door shop beside the cinema. I'd only texted 'red door.' When she asked which one, I remembered the other nearby shop. Chen Yu handed me the menu so I could send the name and a doorway photo. She still remembered crossing the bridge; I replied that she should follow the path beside the cinema without crossing it. A server asked how many of us there were. Three, I said, with one still on the way; could we sit further inside?"
+      },
+      {
+        "zh": "进店以后我又问要不要替她点吃的。她说先别点，路上可能吃一点。我重复了一遍先别点，她又补充水可以先拿。陈宇在旁边把菜单翻回来，问那她到了再看吧。我说对，先别替她选。她听见了，笑着问你们已经帮我想了多少菜，我说还没有，只是快把你的水也一起取消了。陈宇拿了三个杯子，我把她那杯放在空椅子前面。",
+        "py": "jìn diàn yǐ hòu wǒ yòu wèn yào bù yào tì tā diǎn chī de . tā shuō xiān bié diǎn , lù shàng kě néng chī yī diǎn . wǒ chóng fù le yī biàn xiān bié diǎn , tā yòu bǔ chōng shuǐ kě yǐ xiān ná . chén yǔ zài páng biān bǎ cài dān fān huí lái , wèn nà tā dào le zài kàn ba . wǒ shuō duì , xiān bié tì tā xuǎn . tā tīng jiàn le , xiào zhe wèn nǐ men yǐ jīng bāng wǒ xiǎng le duō shao cài , wǒ shuō hái méi yǒu , zhǐ shì kuài bǎ nǐ de shuǐ yě yì qǐ qǔ xiāo le . chén yǔ ná le sān gè bēi zi , wǒ bǎ tā nà bēi fàng zài kōng yǐ zi qián miàn .",
+        "en": "Inside I asked about ordering food for her. Not yet—she might eat on the way, but water was fine. Chen turned the menu back: let her choose on arrival? Yes. Hearing us, she laughed and asked how many dishes we'd planned for her. None; we'd almost cancelled her water too. Chen fetched three cups, and I set hers before the empty chair."
+      },
+      {
+        "zh": "她上车后发语音，说十分钟左右到，后面还有一句别站通道里等。我当时正在找座位，耳机里只听到十分钟，就把手机放下了。过一会儿想到外面有人进出，重听一次才听见后半句。她到时我已经坐好，给她指旁边的位置。她问你没真守着门吧，我说没有，现在也不需要让大家绕过我走。她笑得很大声，服务员看过来，我们就把声音放低，先让她喝水。",
+        "py": "tā shàng chē hòu fā yǔ yīn , shuō shí fēn zhōng zuǒ yòu dào , hòu miàn hái yǒu yī jù bié zhàn tōng dào lǐ děng . wǒ dāng shí zhèng zài zhǎo zuò wèi , ěr jī lǐ zhǐ tīng dào shí fēn zhōng , jiù bǎ shǒu jī fàng xià le . guò yī huì er xiǎng dào wài miàn yǒu rén jìn chū , zhòng tīng yī cì cái tīng jiàn hòu bàn jù . tā dào shí wǒ yǐ jīng zuò hǎo , gěi tā zhǐ páng biān de wèi zhì . tā wèn nǐ méi zhēn shǒu zhe mén ba , wǒ shuō méi yǒu , xiàn zài yě bù xū yào ràng dà jiā rào guò wǒ zǒu . tā xiào de hěn dà shēng , fú wù yuán kàn guò lái , wǒ men jiù bǎ shēng yīn fàng dī , xiān ràng tā hē shuǐ .",
+        "en": "On the bus,she said around ten minutes and not to wait in the passage.While finding a seat,I initially caught only the time.A replay supplied the rest.I was seated when she arrived,and pointed to a place.She joked whether I'd guarded the door.I said people no longer needed to go round me.We lowered our laughter when a server looked over and let her drink."
+      },
+      {
+        "zh": "聊演出时，她说另一场结尾不是不好，是她没听懂。我只听到不好，刚要说那就别推荐了，又停下来问后面是什么。她把话说完，问主角为什么把信留在桌上。我拿出节目单，指着人物名字问是不是姐姐，她摇头，说是后来回家的妹妹。陈宇在旁边问哪场戏，我们两个一起翻那张纸，才发现谁也没记下写信的人。她说下次见小周问问，他那天从头看到尾，也许还记得。",
+        "py": "liáo yǎn chū shí , tā shuō lìng yī chǎng jié wěi bù shì bù hǎo , shì tā méi tīng dǒng . wǒ zhǐ tīng dào bù hǎo , gāng yào shuō nà jiù bié tuī jiàn le , yòu tíng xià lái wèn hòu miàn shì shén me . tā bǎ huà shuō wán , wèn zhǔ jué wèi shén me bǎ xìn liú zài zhuō shàng . wǒ ná chū jié mù dān , zhǐ zhe rén wù míng zi wèn shì bú shì jiě jie , tā yáo tóu , shuō shì hòu lái huí jiā de mèi mei . chén yǔ zài páng biān wèn nǎ chǎng xì , wǒ men liǎng gè yì qǐ fān nà zhāng zhǐ , cái fā xiàn shéi yě méi jì xià xiě xìn de rén . tā shuō xià cì jiàn xiǎo zhōu wèn wèn , tā nà tiān cóng tóu kàn dào wěi , yě xǔ hái jì de .",
+        "en": "Discussing another show, she said the ending wasn't bad; she hadn't understood it. I caught 'bad' and nearly said not to recommend it, then asked for the rest. She wanted to know why the lead left the letter on the table. Was it the elder sister? No, the younger one who came home later. Chen Yu asked which scene. Checking the programme together, we realised neither of us had noted who wrote the letter. We'd ask Xiao Zhou, who'd watched the whole show and might remember."
+      },
+      {
+        "zh": "原来她说的妹妹和我记得的姐姐，都穿过同一件外套。我还指着窗边那一场，她已经说到妹妹回家以后了。陈宇笑着问这件衣服到底借过几次，我说先别管衣服，把回家那场再讲一遍。林安从进门说起，讲到把信放下，我终于接上自己看过的那一段。她问这回知道是谁了吧，我说知道，妹妹。她把节目单推回来，让我在名字旁边画个圈，省得下一次又从外套猜起。",
+        "py": "yuán lái tā shuō de mèi mei hé wǒ jì de de jiě jie , dōu chuān guò tóng yī jiàn wài tào . wǒ hái zhǐ zhe chuāng biān nà yī chǎng , tā yǐ jīng shuō dào mèi mei huí jiā yǐ hòu le . chén yǔ xiào zhe wèn zhè jiàn yī fú dào dǐ jiè guò jǐ cì , wǒ shuō xiān bié guǎn yī fú , bǎ huí jiā nà chǎng zài jiǎng yī biàn . lín ān cóng jìn mén shuō qǐ , jiǎng dào bǎ xìn fàng xià , wǒ zhōng yú jiē shàng zì jǐ kàn guò de nà yī duàn . tā wèn zhè huí zhī dào shì shéi le ba , wǒ shuō zhī dào , mèi mei . tā bǎ jié mù dān tuī huí lái , ràng wǒ zài míng zi páng biān huà gè quān , shěng de xià yī cì yòu cóng wài tào cāi qǐ .",
+        "en": "The younger sister she meant and the elder one I remembered had worn the same coat. I was still thinking of the window scene; she'd moved on to the younger sister coming home. How often had that coat been borrowed? Chen Yu laughed. Forget the coat for now—tell the homecoming scene again. From the entrance to putting down the letter, I finally connected it to what I'd seen. The younger sister, then? Yes. She pushed the programme back and had me circle the name so I wouldn't start with the coat again next time."
+      },
+      {
+        "zh": "回家路上，我把她的几条语音又听了一遍。店里的笑声录得特别清楚，先别点后面那句水可以先拿反而不大听得见。我把耳机戴好，再听一次才接上。她最后发文字，说下次店名写全，别只发门的颜色。我回好，又想起刚才妹妹和姐姐的外套，把节目单从包里拿出来看了一眼。陈宇发来明天吃饭的时间，我读完才发现又换了店，赶紧问他店名和地址，先别只告诉我门长什么样。",
+        "py": "huí jiā lù shàng , wǒ bǎ tā de jǐ tiáo yǔ yīn yòu tīng le yī biàn . diàn lǐ de xiào shēng lù de tè bié qīng chǔ , xiān bié diǎn hòu miàn nà jù shuǐ kě yǐ xiān ná fǎn ér bù dà tīng de jiàn . wǒ bǎ ěr jī dài hǎo , zài tīng yī cì cái jiē shàng . tā zuì hòu fā wén zì , shuō xià cì diàn míng xiě quán , bié zhǐ fā mén de yán sè . wǒ huí hǎo , yòu xiǎng qǐ gāng cái mèi mei hé jiě jie de wài tào , bǎ jié mù dān cóng bāo lǐ ná chū lái kàn le yī yǎn . chén yǔ fā lái míng tiān chī fàn de shí jiān , wǒ dú wán cái fā xiàn yòu huàn le diàn , gǎn jǐn wèn tā diàn míng hé dì zhǐ , xiān bié zhǐ gào sù wǒ mén zhǎng shén me yàng .",
+        "en": "On the way home I replayed her messages. The laughter had recorded clearly, but 'water is fine' after 'don't order yet' was hard to hear. With my earphones properly in, I caught it on another listen. Her final text asked for the full shop name next time, rather than the door's colour. I agreed, then checked the programme again, remembering the sisters' coat. Chen Yu sent tomorrow's meal time, at yet another shop. I asked for its name and address before he could tell me only what the door looked like."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "串",
+        "pinyin": "chuàn",
+        "meaning": "mix up"
+      },
+      {
+        "hanzi": "后半句",
+        "pinyin": "hòu bàn jù",
+        "meaning": "second half of the sentence"
+      },
+      {
+        "hanzi": "语音",
+        "pinyin": "yǔ yīn",
+        "meaning": "voice message"
+      },
+      {
+        "hanzi": "耳机",
+        "pinyin": "ěr jī",
+        "meaning": "earphones"
+      },
+      {
+        "hanzi": "散场",
+        "pinyin": "sàn chǎng",
+        "meaning": "a performance ends"
+      },
+      {
+        "hanzi": "补听",
+        "pinyin": "bǔ tīng",
+        "meaning": "listen for the missed part"
+      },
+      {
+        "hanzi": "桥",
+        "pinyin": "qiáo",
+        "meaning": "bridge"
+      },
+      {
+        "hanzi": "店名",
+        "pinyin": "diàn míng",
+        "meaning": "shop name"
+      },
+      {
+        "hanzi": "推荐",
+        "pinyin": "tuī jiàn",
+        "meaning": "recommend"
+      },
+      {
+        "hanzi": "摇头",
+        "pinyin": "yáo tóu",
+        "meaning": "shake one's head"
+      },
+      {
+        "hanzi": "戴",
+        "pinyin": "dài",
+        "meaning": "wear; put on (earphones)"
+      },
+      {
+        "hanzi": "三根",
+        "pinyin": "sān gēn",
+        "meaning": "three elongated items"
+      },
+      {
+        "hanzi": "菜单",
+        "pinyin": "cài dān",
+        "meaning": "menu"
+      },
+      {
+        "hanzi": "节目单",
+        "pinyin": "jié mù dān",
+        "meaning": "programme"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What improves through the misunderstanding?",
+        "choices": [
+          "Specific requests for missed clauses and concrete plan checks",
+          "Perfect understanding of all fast speech",
+          "A decision never to call again"
+        ],
+        "answer": "Specific requests for missed clauses and concrete plan checks"
+      },
+      {
+        "type": "detail",
+        "q": "When is the ten-minute estimate given?",
+        "choices": [
+          "After the bus arrives",
+          "Before knowing any bus timing",
+          "After reaching the shop"
+        ],
+        "answer": "After the bus arrives"
+      },
+      {
+        "type": "inference",
+        "q": "Why not respond to only bad in the ending comment?",
+        "choices": [
+          "The second clause explains a comprehension gap",
+          "The friend has given a complete bad review",
+          "The friend never watched anything"
+        ],
+        "answer": "The second clause explains a comprehension gap"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "演出散场，我站在门边给林安打电话。她那边有车经过，后面几个人一边走一边笑。我问她在哪，她说车还没到，先别等我，你们进去。我只抓住别等两个字，马上问不去了。她提高声音说不是不去，晚点到。我让她把后半句【再说】一遍，这回总算听清。陈宇已经走到店门口，回头问我还等不等，我说我们先进去，她等到车就发消息。我拿起包，赶紧跟上他。",
+          "py": "yǎn chū sàn chǎng , wǒ zhàn zài mén biān gěi lín ān dǎ diàn huà . tā nà biān yǒu chē jīng guò , hòu miàn jǐ gè rén yī biān zǒu yī biān xiào . wǒ wèn tā zài nǎ , tā shuō chē hái méi dào , xiān bié děng wǒ , nǐ men jìn qù . wǒ zhǐ zhuā zhù bié děng liǎng gè zì , mǎ shàng wèn bù qù le . tā tí gāo shēng yīn shuō bù shì bù qù , wǎn diǎn dào . wǒ ràng tā bǎ hòu bàn jù zài shuō yī biàn , zhè huí zǒng suàn tīng qīng . chén yǔ yǐ jīng zǒu dào diàn mén kǒu , huí tóu wèn wǒ hái děng bù děng , wǒ shuō wǒ men xiān jìn qù , tā děng dào chē jiù fā xiāo xī . wǒ ná qǐ bāo , gǎn jǐn gēn shàng tā .",
+          "en": "After the show I called Lin An from the doorway. Traffic passed at her end while people behind me laughed on their way out. Her bus hadn't arrived; we should go inside without waiting. Catching only 'don't wait,' I asked if she wasn't coming. She raised her voice: she was coming, just later. I asked her to repeat the second half and finally heard it. Chen Yu, already at the shop door, asked whether we were still waiting. We'd go in; she'd message when the bus came. I picked up my bag and hurried after him."
+        },
+        {
+          "zh": "我们约的地方换过一次，上回在桥那边，这次是电影院旁边的红门小店。我刚才只发了红门，她问哪一个，我才想起附近还有另一家。陈宇把店里的菜单递给我，我照着上面的店名补发过去，又拍了一张门口照片。她说自己还记着上次过桥的路，我赶紧回不用过桥，【沿着】小路到电影院旁边。消息发完，服务员问我们几个人，我伸出三根手指，说还有一个在路上，先给我们找个里面的位置。",
+          "py": "wǒ men yuē de dì fāng huàn guò yī cì , shàng huí zài qiáo nà biān , zhè cì shì diàn yǐng yuàn páng biān de hóng mén xiǎo diàn . wǒ gāng cái zhǐ fā le hóng mén , tā wèn nǎ yī gè , wǒ cái xiǎng qǐ fù jìn hái yǒu lìng yī jiā . chén yǔ bǎ diàn lǐ de cài dān dì gěi wǒ , wǒ zhào zhe shàng miàn de diàn míng bǔ fā guò qù , yòu pāi le yī zhāng mén kǒu zhào piān . tā shuō zì jǐ hái jì zhe shàng cì guò qiáo de lù , wǒ gǎn jǐn huí bù yòng guò qiáo , yán zhe xiǎo lù dào diàn yǐng yuàn páng biān . xiāo xī fā wán , fú wù yuán wèn wǒ men jǐ gè rén , wǒ shēn chū sān gēn shǒu zhǐ , shuō hái yǒu yī gè zài lù shàng , xiān gěi wǒ men zhǎo gè lǐ miàn de wèi zhì .",
+          "en": "We'd changed venues: last time beyond the bridge, this time the red-door shop beside the cinema. I'd only texted 'red door.' When she asked which one, I remembered the other nearby shop. Chen Yu handed me the menu so I could send the name and a doorway photo. She still remembered crossing the bridge; I replied that she should follow the path beside the cinema without crossing it. A server asked how many of us there were. Three, I said, with one still on the way; could we sit further inside?"
+        },
+        {
+          "zh": "她上车后发语音，说十分钟左右到，后面还有一句别站【通道】里等。我当时正在找座位，耳机里只听到十分钟，就把手机放下了。过一会儿想到外面有人进出，重听一次才听见后半句。她到时我已经坐好，给她指旁边的位置。她问你没真守着门吧，我说没有，现在也不需要让大家绕过我走。她笑得很大声，服务员看过来，我们就把声音放低，先让她喝水。",
+          "py": "tā shàng chē hòu fā yǔ yīn , shuō shí fēn zhōng zuǒ yòu dào , hòu miàn hái yǒu yī jù bié zhàn tōng dào lǐ děng . wǒ dāng shí zhèng zài zhǎo zuò wèi , ěr jī lǐ zhǐ tīng dào shí fēn zhōng , jiù bǎ shǒu jī fàng xià le . guò yī huì er xiǎng dào wài miàn yǒu rén jìn chū , zhòng tīng yī cì cái tīng jiàn hòu bàn jù . tā dào shí wǒ yǐ jīng zuò hǎo , gěi tā zhǐ páng biān de wèi zhì . tā wèn nǐ méi zhēn shǒu zhe mén ba , wǒ shuō méi yǒu , xiàn zài yě bù xū yào ràng dà jiā rào guò wǒ zǒu . tā xiào de hěn dà shēng , fú wù yuán kàn guò lái , wǒ men jiù bǎ shēng yīn fàng dī , xiān ràng tā hē shuǐ .",
+          "en": "On the bus,she said around ten minutes and not to wait in the passage.While finding a seat,I initially caught only the time.A replay supplied the rest.I was seated when she arrived,and pointed to a place.She joked whether I'd guarded the door.I said people no longer needed to go round me.We lowered our laughter when a server looked over and let her drink."
+        }
+      ],
+      "bank": [
+        "再说",
+        "沿着",
+        "通道",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u11-media",
+      "title": "Not bad—just not understood",
+      "titleZh": "Not bad—just not understood",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "这结尾不是不好，是我没听懂。",
+          "py": "zhè jié wěi bù shì bù hǎo , shì wǒ méi tīng dǒng .",
+          "en": "It's not that the ending's bad—I didn't understand it.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我还以为你说不好。",
+          "py": "wǒ hái yǐ wéi nǐ shuō bù hǎo .",
+          "en": "I thought you said it was bad.",
+          "speaker": "b"
+        },
+        {
+          "zh": "后半句呢？",
+          "py": "hòu bàn jù ne ?",
+          "en": "What about the second half?",
+          "speaker": "a"
+        },
+        {
+          "zh": "被门外的声音盖住了。",
+          "py": "bèi mén wài de shēng yīn gài zhù le .",
+          "en": "Noise outside drowned it out.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那先问我，不用替我写影评。",
+          "py": "nà xiān wèn wǒ , bù yòng tì wǒ xiě yǐng píng .",
+          "en": "Then ask me first;don't write my review for me.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你再说一遍？",
+          "py": "nǐ zài shuō yī biàn ?",
+          "en": "Could you say it again?",
+          "speaker": "b"
+        },
+        {
+          "zh": "不是不好，是我没听懂。",
+          "py": "bù shì bù hǎo , shì wǒ méi tīng dǒng .",
+          "en": "Not bad—I didn't understand it.",
+          "speaker": "a"
+        },
+        {
+          "zh": "现在听全了。",
+          "py": "xiàn zài tīng quán le .",
+          "en": "Now I've heard it all.",
+          "speaker": "b"
+        },
+        {
+          "zh": "想听我哪里没懂吗？",
+          "py": "xiǎng tīng wǒ nǎ lǐ méi dǒng ma ?",
+          "en": "Want to hear what I didn't understand?",
+          "speaker": "a"
+        },
+        {
+          "zh": "想，但先去安静一点的地方。",
+          "py": "xiǎng , dàn xiān qù ān jìng yī diǎn de dì fāng .",
+          "en": "Yes,but somewhere quieter first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这句你倒听得挺快。",
+          "py": "zhè jù nǐ dào tīng de tǐng kuài .",
+          "en": "You caught that one quickly.",
+          "speaker": "a"
+        },
+        {
+          "zh": "因为我也想听清。",
+          "py": "yīn wèi wǒ yě xiǎng tīng qīng .",
+          "en": "Because I want to hear properly too.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "后半句",
+          "pinyin": "hòu bàn jù",
+          "meaning": "second half of the sentence"
+        },
+        {
+          "hanzi": "影评",
+          "pinyin": "yǐng píng",
+          "meaning": "film review"
+        },
+        {
+          "hanzi": "盖住",
+          "pinyin": "gài zhù",
+          "meaning": "drown out; cover"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What has been misunderstood?",
+          "choices": [
+            "A comprehension gap as a negative review",
+            "The cinema address",
+            "The meal cost"
+          ],
+          "answer": "A comprehension gap as a negative review"
+        },
+        {
+          "type": "inference",
+          "q": "What repair is suggested?",
+          "choices": [
+            "Repeat the full line somewhere quieter",
+            "Guess another ending",
+            "Pretend to understand every word"
+          ],
+          "answer": "Repeat the full line somewhere quieter"
+        }
+      ]
+    },
+    {
+      "id": "s6-u11-word-notebook",
+      "title": "Hear the second half: words in context",
+      "titleZh": "后半句也要听见 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我待会儿到，你们先进去。",
+          "py": "wǒ dāi huìr dào , nǐ men xiān jìn qù .",
+          "en": "I'll arrive shortly;go in first."
+        },
+        {
+          "zh": "待会儿再回你消息。",
+          "py": "dāi huìr zài huí nǐ xiāo xī .",
+          "en": "I'll reply in a little while."
+        },
+        {
+          "zh": "这场什么时候散，很难说。",
+          "py": "zhè chǎng shén me shí hou sàn , hěn nán shuō .",
+          "en": "It's hard to say when this show will finish."
+        },
+        {
+          "zh": "他今晚能不能来，很难说。",
+          "py": "tā jīn wǎn néng bù néng lái , hěn nán shuō .",
+          "en": "It's hard to say whether he can come tonight."
+        },
+        {
+          "zh": "说实话，我刚才没听清。",
+          "py": "shuō shí huà , wǒ gāng cái méi tīng qīng .",
+          "en": "Honestly,I didn't catch that."
+        },
+        {
+          "zh": "说实话，结尾有一点难。",
+          "py": "shuō shí huà , jié wěi yǒu yī diǎn nán .",
+          "en": "Honestly,the ending is a little difficult."
+        },
+        {
+          "zh": "买不到就算了，我们先进去。",
+          "py": "mǎi bù dào jiù suàn le , wǒ men xiān jìn qù .",
+          "en": "If we can't get it,never mind;let's go in."
+        },
+        {
+          "zh": "这件事先算了，下次再问。",
+          "py": "zhè jiàn shì xiān suàn le , xià cì zài wèn .",
+          "en": "Let this go for now;ask next time."
+        },
+        {
+          "zh": "你只管先坐下，我去拿水。",
+          "py": "nǐ zhǐ guǎn xiān zuò xià , wǒ qù ná shuǐ .",
+          "en": "Go ahead and sit;I'll get water."
+        },
+        {
+          "zh": "有问题你只管问。",
+          "py": "yǒu wèn tí nǐ zhǐ guǎn wèn .",
+          "en": "Just ask if you have questions."
+        },
+        {
+          "zh": "我只顾看路，没听见后半句。",
+          "py": "wǒ zhǐ gù kàn lù , méi tīng jiàn hòu bàn jù .",
+          "en": "I was concentrating on the route and missed the second half."
+        },
+        {
+          "zh": "她只顾找卡，忘了拿包。",
+          "py": "tā zhǐ gù zhǎo kǎ , wàng le ná bāo .",
+          "en": "She was so busy finding her card she forgot her bag."
+        },
+        {
+          "zh": "那班车已经走了，我只得等下一班。",
+          "py": "nà bān chē yǐ jīng zǒu le , wǒ zhǐ dé děng xià yī bān .",
+          "en": "That bus has left,so I have to wait for the next."
+        },
+        {
+          "zh": "雨太大，只得先留下。",
+          "py": "yǔ tài dà , zhǐ dé xiān liú xià .",
+          "en": "The heavy rain leaves us no choice but to stay for now."
+        },
+        {
+          "zh": "先看完，结尾出去再说。",
+          "py": "xiān kàn wán , jié wěi chū qù zài shuō .",
+          "en": "Finish watching;discuss the ending outside."
+        },
+        {
+          "zh": "再说，你也还没吃饭。",
+          "py": "zài shuō , nǐ yě hái méi chī fàn .",
+          "en": "Besides,you haven't eaten yet."
+        },
+        {
+          "zh": "就是说，你会来，只是晚一点。",
+          "py": "jiù shì shuō , nǐ huì lái , zhǐ shì wǎn yī diǎn .",
+          "en": "So you'll come,just a little later."
+        },
+        {
+          "zh": "就是说，先别替我点？",
+          "py": "jiù shì shuō , xiān bié tì wǒ diǎn ?",
+          "en": "So don't order for me yet?"
+        },
+        {
+          "zh": "他不再等上一班车了。",
+          "py": "tā bù zài děng shàng yī bān chē le .",
+          "en": "He's no longer waiting for the previous bus."
+        },
+        {
+          "zh": "她不再用那张旧节目单。",
+          "py": "tā bù zài yòng nà zhāng jiù jié mù dān .",
+          "en": "She no longer uses that old programme."
+        },
+        {
+          "zh": "她前来取票，没留下看演出。",
+          "py": "tā qián lái qǔ piào , méi liú xià kàn yǎn chū .",
+          "en": "She came to collect tickets without staying for the show."
+        },
+        {
+          "zh": "他前来问活动时间。",
+          "py": "tā qián lái wèn huó dòng shí jiān .",
+          "en": "He came to ask the event time."
+        },
+        {
+          "zh": "我路过门口，听到你说算了。",
+          "py": "wǒ lù guò mén kǒu , tīng dào nǐ shuō suàn le .",
+          "en": "I passed the entrance and heard you say never mind."
+        },
+        {
+          "zh": "她路过车站时给我发消息。",
+          "py": "tā lù guò chē zhàn shí gěi wǒ fā xiāo xī .",
+          "en": "She messaged while passing the station."
+        },
+        {
+          "zh": "我坐在挨着门的位置。",
+          "py": "wǒ zuò zài āi zhe mén de wèi zhì .",
+          "en": "I sit beside the door."
+        },
+        {
+          "zh": "那张椅子挨着窗。",
+          "py": "nà zhāng yǐ zi āi zhe chuāng .",
+          "en": "That chair is next to the window."
+        },
+        {
+          "zh": "沿着小路走到红门。",
+          "py": "yán zhe xiǎo lù zǒu dào hóng mén .",
+          "en": "Follow the path to the red door."
+        },
+        {
+          "zh": "他们沿着河边走。",
+          "py": "tā men yán zhe hé biān zǒu .",
+          "en": "They walk along the riverbank."
+        },
+        {
+          "zh": "前方那辆不是我们等的车。",
+          "py": "qián fāng nà liàng bù shì wǒ men děng de chē .",
+          "en": "The bus ahead isn't the one we're waiting for."
+        },
+        {
+          "zh": "前方有一家还开着的店。",
+          "py": "qián fāng yǒu yī jiā hái kāi zhe de diàn .",
+          "en": "There's a shop still open ahead."
+        },
+        {
+          "zh": "别站在通道里等消息。",
+          "py": "bié zhàn zài tōng dào lǐ děng xiāo xī .",
+          "en": "Don't wait for messages in the passage."
+        },
+        {
+          "zh": "这条通道通向小厅。",
+          "py": "zhè tiáo tōng dào tōng xiàng xiǎo tīng .",
+          "en": "This passage leads to the small room."
+        },
+        {
+          "zh": "响声把后半句盖住了。",
+          "py": "xiǎng shēng bǎ hòu bàn jù gài zhù le .",
+          "en": "The noise drowned out the second half."
+        },
+        {
+          "zh": "楼上传来搬桌子的响声。",
+          "py": "lóu shàng chuán lái bān zhuō zi de xiǎng shēng .",
+          "en": "The noise of moving a table came from upstairs."
+        },
+        {
+          "zh": "笑声过后她又补了一句。",
+          "py": "xiào shēng guò hòu tā yòu bǔ le yī jù .",
+          "en": "After the laughter,she added another sentence."
+        },
+        {
+          "zh": "门外有一阵笑声。",
+          "py": "mén wài yǒu yī zhèn xiào shēng .",
+          "en": "Laughter came from outside."
+        },
+        {
+          "zh": "音量太大，我没听清。",
+          "py": "yīn liàng tài dà , wǒ méi tīng qīng .",
+          "en": "The volume was too loud for me to catch it."
+        },
+        {
+          "zh": "把音量调小一点。",
+          "py": "bǎ yīn liàng diào xiǎo yī diǎn .",
+          "en": "Turn the volume down a little."
+        },
+        {
+          "zh": "这里太吵，不便通话。",
+          "py": "zhè lǐ tài chǎo , bù biàn tōng huà .",
+          "en": "It's too noisy here for a call."
+        },
+        {
+          "zh": "她通话结束后才进来。",
+          "py": "tā tōng huà jié shù hòu cái jìn lái .",
+          "en": "She came in after finishing her call."
+        },
+        {
+          "zh": "先留言，我出去再听。",
+          "py": "xiān liú yán , wǒ chū qù zài tīng .",
+          "en": "Leave a message;I'll listen outside."
+        },
+        {
+          "zh": "他留言说改到门口见。",
+          "py": "tā liú yán shuō gǎi dào mén kǒu jiàn .",
+          "en": "He left a message changing the meeting to the entrance."
+        },
+        {
+          "zh": "她回应说不是不去。",
+          "py": "tā huí yìng shuō bù shì bù qù .",
+          "en": "She replied that it wasn't a refusal to go."
+        },
+        {
+          "zh": "他回应了关于票的问题。",
+          "py": "tā huí yìng le guān yú piào de wèn tí .",
+          "en": "He answered the ticket question."
+        },
+        {
+          "zh": "我打断一下，你刚才说先别等？",
+          "py": "wǒ dǎ duàn yī xià , nǐ gāng cái shuō xiān bié děng ?",
+          "en": "Let me interrupt—did you say don't wait for now?"
+        },
+        {
+          "zh": "电话打断了那句话。",
+          "py": "diàn huà dǎ duàn le nà jù huà .",
+          "en": "The call interrupted the sentence."
+        },
+        {
+          "zh": "把先别等和不会来区分开。",
+          "py": "bǎ xiān bié děng hé bù huì lái qū fēn kāi .",
+          "en": "Distinguish don't wait for now from won't come."
+        },
+        {
+          "zh": "这两种语气要区分。",
+          "py": "zhè liǎng zhǒng yǔ qì yào qū fēn .",
+          "en": "Distinguish these two tones."
+        },
+        {
+          "zh": "此处不能停留，请到门外等。",
+          "py": "cǐ chù bù néng tíng liú , qǐng dào mén wài děng .",
+          "en": "No waiting here;please wait outside."
+        },
+        {
+          "zh": "此处是活动入口。",
+          "py": "cǐ chù shì huó dòng rù kǒu .",
+          "en": "This is the event entrance."
+        },
+        {
+          "zh": "当天我们在红门见，不在车站。",
+          "py": "dàng tiān wǒ men zài hóng mén jiàn , bù zài chē zhàn .",
+          "en": "That day we met at the red door,not the station."
+        },
+        {
+          "zh": "当天的节目临时调整了。",
+          "py": "dàng tiān de jié mù lín shí tiáo zhěng le .",
+          "en": "That day's programme changed at short notice."
+        },
+        {
+          "zh": "此前我以为她不来了。",
+          "py": "cǐ qián wǒ yǐ wéi tā bù lái le .",
+          "en": "Before this,I thought she wasn't coming."
+        },
+        {
+          "zh": "此前一直在小厅见面。",
+          "py": "cǐ qián yì zhí zài xiǎo tīng jiàn miàn .",
+          "en": "Before this,we always met in the small room."
+        },
+        {
+          "zh": "事后重听，才听出不是不去。",
+          "py": "shì hòu zhòng tīng , cái tīng chū bù shì bù qù .",
+          "en": "Listening again afterwards,I caught wasn't refusing to go."
+        },
+        {
+          "zh": "她事后才知道时间改了。",
+          "py": "tā shì hòu cái zhī dào shí jiān gǎi le .",
+          "en": "Only afterwards did she learn the time changed."
+        },
+        {
+          "zh": "小厅里传出音乐声。",
+          "py": "xiǎo tīng lǐ chuán chū yīn yuè shēng .",
+          "en": "Music came from the small room."
+        },
+        {
+          "zh": "消息从群里传出去了。",
+          "py": "xiāo xī cóng qún lǐ chuán chū qù le .",
+          "en": "The news spread beyond the group."
+        },
+        {
+          "zh": "我忽略了那个先字。",
+          "py": "wǒ hū lüè le nà gè xiān zì .",
+          "en": "I overlooked the word for now."
+        },
+        {
+          "zh": "别忽略最后一句。",
+          "py": "bié hū lüè zuì hòu yī jù .",
+          "en": "Don't overlook the final sentence."
+        },
+        {
+          "zh": "这次我很想去，只是要晚到。",
+          "py": "zhè cì wǒ hěn xiǎng qù , zhǐ shì yào wǎn dào .",
+          "en": "I really want to go this time;I'll just arrive late."
+        },
+        {
+          "zh": "我很喜欢这个结尾。",
+          "py": "wǒ hěn xǐ huān zhè gè jié wěi .",
+          "en": "I like this ending very much."
+        },
+        {
+          "zh": "我想问能否晚一点进场。",
+          "py": "wǒ xiǎng wèn néng fǒu wǎn yī diǎn jìn chǎng .",
+          "en": "I'd like to ask whether I can enter later."
+        },
+        {
+          "zh": "能否留座位，先问工作人员。",
+          "py": "néng fǒu liú zuò wèi , xiān wèn gōng zuò rén yuán .",
+          "en": "Ask staff whether saving a seat is possible."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "后半句",
+          "pinyin": "hòu bàn jù",
+          "meaning": "second half of the sentence"
+        },
+        {
+          "hanzi": "盖住",
+          "pinyin": "gài zhù",
+          "meaning": "drown out; cover"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        },
+        {
+          "hanzi": "忘",
+          "pinyin": "wàng",
+          "meaning": "forget"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u11-paired-reading",
+      "title": "The friend on the bus",
+      "titleZh": "The friend on the bus",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我今天的演出比陈宇他们那场晚结束一点，跑到车站，等的车还没来。群里问还要等我吗，我先发你们进去，别站门口。电话接通，朋友却问是不是不来了。我说不是不去，车还没到，晚点来。他那边正有人笑，没听清，我又提高声音重复了一遍。看着站牌，我也着急，可车还没来，只好先把晚点到三个字打出来，再让他们给我留一把椅子，不用一起站在外面吹风。",
+          "py": "wǒ jīn tiān de yǎn chū bǐ chén yǔ tā men nà chǎng wǎn jié shù yī diǎn , pǎo dào chē zhàn , děng de chē hái méi lái . qún lǐ wèn hái yào děng wǒ ma , wǒ xiān fā nǐ men jìn qù , bié zhàn mén kǒu . diàn huà jiē tōng , péng you què wèn shì bú shì bù lái le . wǒ shuō bù shì bù qù , chē hái méi dào , wǎn diǎn lái . tā nà biān zhèng yǒu rén xiào , méi tīng qīng , wǒ yòu tí gāo shēng yīn chóng fù le yī biàn . kàn zhe zhàn pái , wǒ yě zháo jí , kě chē hái méi lái , zhǐ hǎo xiān bǎ wǎn diǎn dào sān gè zì dǎ chū lái , zài ràng tā men gěi wǒ liú yī bǎ yǐ zi , bù yòng yì qǐ zhàn zài wài miàn chuī fēng .",
+          "en": "My show ended a little later than Chen Yu's group, and the bus still hadn't come when I ran to the stop. Asked whether they should wait, I texted them to go inside. On the phone, a friend thought I wasn't coming. I was, just later—the bus wasn't there yet. Laughter at his end drowned me out, so I repeated it louder. I was anxious too, but could only text that I'd arrive late and ask them to save a chair rather than stand outside in the wind."
+        },
+        {
+          "zh": "车站有人说话，电话那头又有散场的响声，我们两边都不太听得清。我发文字，把晚点到写出来，站在车站继续等。朋友又问多久，我抬头看了两次，车终于来了，才补了一句十分钟左右。上车以后我找到靠窗的位置，把刚才没说完的路问清。他说红门就在电影院旁边，我看着窗外一站一站过去，快到时先发了消息，让他不用再站门口找我。",
+          "py": "chē zhàn yǒu rén shuō huà , diàn huà nà tóu yòu yǒu sàn chǎng de xiǎng shēng , wǒ men liǎng biān dōu bù tài tīng de qīng . wǒ fā wén zì , bǎ wǎn diǎn dào xiě chū lái , zhàn zài chē zhàn jì xù děng . péng you yòu wèn duō jiǔ , wǒ tái tóu kàn le liǎng cì , chē zhōng yú lái le , cái bǔ le yī jù shí fēn zhōng zuǒ yòu . shàng chē yǐ hòu wǒ zhǎo dào kào chuāng de wèi zhì , bǎ gāng cái méi shuō wán de lù wèn qīng . tā shuō hóng mén jiù zài diàn yǐng yuàn páng biān , wǒ kàn zhe chuāng wài yī zhàn yī zhàn guò qù , kuài dào shí xiān fā le xiāo xī , ràng tā bù yòng zài zhàn mén kǒu zhǎo wǒ .",
+          "en": "People were talking at the stop and the event was ending at the other end of the call. I texted that I'd arrive late and kept waiting. Asked how long, I looked up twice before the bus finally arrived; only then did I estimate about ten minutes. From a window seat I confirmed the red door beside the cinema, watched the stops go past and messaged near arrival so my friend wouldn't stand outside searching for me."
+        },
+        {
+          "zh": "朋友问要不要替我点吃的，我说先别点，路上也许会买一点。他又问到了以后再看吗，我说对，水可以先拿。刚说完，车到了，我把手机放进口袋，上去找座位。旁边有人拿着面包，我才发现自己也饿了，可两只手还要拿包和扶住椅背，只好先坐下来。朋友发来菜单照片，我看了两眼，回他说到了自己选，别急着点，我还没看完。他回了个好，旁边又发来一只装水的杯子。",
+          "py": "péng you wèn yào bù yào tì wǒ diǎn chī de , wǒ shuō xiān bié diǎn , lù shàng yě xǔ huì mǎi yī diǎn . tā yòu wèn dào le yǐ hòu zài kàn ma , wǒ shuō duì , shuǐ kě yǐ xiān ná . gāng shuō wán , chē dào le , wǒ bǎ shǒu jī fàng jìn kǒu dài , shàng qù zhǎo zuò wèi . páng biān yǒu rén ná zhe miàn bāo , wǒ cái fā xiàn zì jǐ yě è le , kě liǎng zhǐ shǒu hái yào ná bāo hé fú zhù yǐ bèi , zhǐ hǎo xiān zuò xià lái . péng you fā lái cài dān zhào piān , wǒ kàn le liǎng yǎn , huí tā shuō dào le zì jǐ xuǎn , bié jí zhe diǎn , wǒ hái méi kàn wán . tā huí le gè hǎo , páng biān yòu fā lái yī zhǐ zhuāng shuǐ de bēi zi .",
+          "en": "Asked whether they should order for me, I said not yet; I might buy something on the way. I'd choose when I arrived, but water was fine. The bus came as I finished, and I put my phone away to board. Someone had bread, reminding me how hungry I was, but I needed both hands for my bag and the seat back. Once seated I looked at the menu photo my friend sent. I'd choose there—don't order before I'd finished reading. He agreed and sent a picture of a glass of water."
+        },
+        {
+          "zh": "下车后我沿着小路走，差点又往桥上去。上次的路太熟，我走了几步才想起这次不用过桥，就停下来打开照片。电影院旁边的小店正好有人出来，红门和照片里一样。我给朋友发到了，避开门口等座位的人往里面走。大家已经坐好，旁边空着一把椅子，桌上还有我的水。朋友问是不是又走错门，我说差一点，你下次直接把店名写出来吧。他把菜单递给我，说先吃，吃完我慢慢念给你听。",
+          "py": "xià chē hòu wǒ yán zhe xiǎo lù zǒu , chà diǎn yòu wǎng qiáo shàng qù . shàng cì de lù tài shú , wǒ zǒu le jǐ bù cái xiǎng qǐ zhè cì bù yòng guò qiáo , jiù tíng xià lái dǎ kāi zhào piān . diàn yǐng yuàn páng biān de xiǎo diàn zhèng hǎo yǒu rén chū lái , hóng mén hé zhào piān lǐ yī yàng . wǒ gěi péng you fā dào le , bì kāi mén kǒu děng zuò wèi de rén wǎng lǐ miàn zǒu . dà jiā yǐ jīng zuò hǎo , páng biān kōng zhe yī bǎ yǐ zi , zhuō shàng hái yǒu wǒ de shuǐ . péng you wèn shì bú shì yòu zǒu cuò mén , wǒ shuō chà yī diǎn , nǐ xià cì zhí jiē bǎ diàn míng xiě chū lái ba . tā bǎ cài dān dì gěi wǒ , shuō xiān chī , chī wán wǒ màn màn niàn gěi nǐ tīng .",
+          "en": "After getting off, I nearly followed the familiar route over the bridge. Remembering I didn't need to cross it, I stopped to check the photo. Someone was leaving the cinema-side shop; its red door matched. I texted that I'd arrived and went around the people waiting outside. My chair and water were ready. Had I gone to the wrong door again? Almost—write the shop name next time. He handed me the menu: eat first, then he'd read it very slowly to me."
+        },
+        {
+          "zh": "喝过水我们才谈演出。我说结尾不是不好，是我没听懂，朋友马上问哪句没听清。我笑着说这次听清了，只是不明白妹妹为什么把信留下。他说不是姐姐吗，我拿出节目单，指着妹妹的名字，让他想想后来回家那场。他看了半天，说自己好像漏了那一小段。我把记得的几句讲给他听，又问他前面的写信那场怎么样。这回轮到我想不起来，我们只好把节目单摊在桌上，从人物名字重新对一遍。",
+          "py": "hē guò shuǐ wǒ men cái tán yǎn chū . wǒ shuō jié wěi bù shì bù hǎo , shì wǒ méi tīng dǒng , péng you mǎ shàng wèn nǎ jù méi tīng qīng . wǒ xiào zhe shuō zhè cì tīng qīng le , zhǐ shì bù míng bái mèi mei wèi shén me bǎ xìn liú xià . tā shuō bù shì jiě jie ma , wǒ ná chū jié mù dān , zhǐ zhe mèi mei de míng zi , ràng tā xiǎng xiǎng hòu lái huí jiā nà chǎng . tā kàn le bàn tiān , shuō zì jǐ hǎo xiàng lòu le nà yī xiǎo duàn . wǒ bǎ jì de de jǐ jù jiǎng gěi tā tīng , yòu wèn tā qián miàn de xiě xìn nà chǎng zěn me yàng . zhè huí lún dào wǒ xiǎng bù qǐ lái , wǒ men zhǐ hǎo bǎ jié mù dān tān zài zhuō shàng , cóng rén wù míng zi chóng xīn duì yī biàn .",
+          "en": "Over water I said the ending wasn't bad; I hadn't understood it. Which line hadn't I heard? My friend asked. This time I'd heard it; I didn't understand why the younger sister left the letter. Wasn't it the elder one? I pointed to the younger sister on the programme and the homecoming scene. He thought he'd missed that short section. I recounted what I remembered and asked about the earlier letter-writing scene. That was the part I couldn't recall, so we spread the programme on the table and checked the names together."
+        },
+        {
+          "zh": "聊到后来，刚才和我对节目单的朋友说，他以前看过前半场，后半场没看完；我却漏了开头，刚才问谁写信，正好问到自己没看的地方。陈宇在旁边拿手机找演出的日期，我看了一眼时间，说今天先别回去了，明天还要早起。他说不是现在，只想下次有空三个人一起看完整。我说好，日期以后再定，这回从开头坐到结束。服务员过来问还要什么，我们看着桌上剩下的菜，赶紧说不用了，先把这些吃完，吃完就各自回家。",
+          "py": "liáo dào hòu lái , gāng cái hé wǒ duì jié mù dān de péng you shuō , tā yǐ qián kàn guò qián bàn chǎng , hòu bàn chǎng méi kàn wán ; wǒ què lòu le kāi tóu , gāng cái wèn shéi xiě xìn , zhèng hǎo wèn dào zì jǐ méi kàn de dì fāng . chén yǔ zài páng biān ná shǒu jī zhǎo yǎn chū de rì qī , wǒ kàn le yī yǎn shí jiān , shuō jīn tiān xiān bié huí qù le , míng tiān hái yào zǎo qǐ . tā shuō bù shì xiàn zài , zhǐ xiǎng xià cì yǒu kōng sān gè rén yì qǐ kàn wán zhěng . wǒ shuō hǎo , rì qī yǐ hòu zài dìng , zhè huí cóng kāi tóu zuò dào jié shù . fú wù yuán guò lái wèn hái yào shén me , wǒ men kàn zhe zhuō shàng shèng xià de cài , gǎn jǐn shuō bù yòng le , xiān bǎ zhè xiē chī wán , chī wán jiù gè zì huí jiā .",
+          "en": "The friend I'd checked the programme with had previously seen the first half but not all of the second; I'd missed the opening, including the letter-writing I'd asked about. Beside us, Chen Yu checked performance dates on his phone. We shouldn't go back tonight—we needed an early start. Not tonight, he said; sometime the three of us could watch the whole thing together. We left the date open and agreed to stay from start to finish. Asked if we wanted anything else, we looked at the food still on the table: finish this, then go home."
+        },
+        {
+          "zh": "我回去以后给他发消息，下一次店名和时间都写全，不只发一个红门。他回了一段故意说得很慢的语音，连店名都说了三遍。我说我听见了，你这样说，等你说完我又饿了。他发来一个笑脸，问那要不要现在再出来吃。我说明天吧，今天真的回家了。我们约好重要的变化先写一句，路上说笑还是照常。睡觉前他把明天的店名和时间发来，我回了个好，这次连地址也看完才放下手机。",
+          "py": "wǒ huí qù yǐ hòu gěi tā fā xiāo xī , xià yī cì diàn míng hé shí jiān dōu xiě quán , bù zhǐ fā yī gè hóng mén . tā huí le yī duàn gù yì shuō de hěn màn de yǔ yīn , lián diàn míng dōu shuō le sān biàn . wǒ shuō wǒ tīng jiàn le , nǐ zhè yàng shuō , děng nǐ shuō wán wǒ yòu è le . tā fā lái yī gè xiào liǎn , wèn nà yào bù yào xiàn zài zài chū lái chī . wǒ shuō míng tiān ba , jīn tiān zhēn de huí jiā le . wǒ men yuē hǎo zhòng yào de biàn huà xiān xiě yī jù , lù shàng shuō xiào hái shi zhào cháng . shuì jiào qián tā bǎ míng tiān de diàn míng hé shí jiān fā lái , wǒ huí le gè hǎo , zhè cì lián dì zhǐ yě kàn wán cái fàng xià shǒu jī .",
+          "en": "After getting home I asked him to write out the shop name and time next time, instead of just sending “red door.” He replied with a deliberately slow voice message and repeated the name three times. I said I had heard him: at that speed I would be hungry again before he finished. He sent a smiling face and asked if I wanted to go back out for food. Tomorrow, I said; I really was home now. We agreed to text important changes but keep joking on the phone as usual. Before bed he sent tomorrow's shop name and time. I replied yes, this time reading the address too before putting my phone down."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "辈",
+          "pinyin": "bèi",
+          "meaning": "generation; a lifetime"
+        },
+        {
+          "hanzi": "主语",
+          "pinyin": "zhǔ yǔ",
+          "meaning": "subject"
+        },
+        {
+          "hanzi": "语音",
+          "pinyin": "yǔ yīn",
+          "meaning": "voice message"
+        },
+        {
+          "hanzi": "散场",
+          "pinyin": "sàn chǎng",
+          "meaning": "a performance ends"
+        },
+        {
+          "hanzi": "隆重",
+          "pinyin": "lóng zhòng",
+          "meaning": "grand; ceremonious"
+        },
+        {
+          "hanzi": "吹风",
+          "pinyin": "chuī fēng",
+          "meaning": "be exposed to the wind"
+        },
+        {
+          "hanzi": "端",
+          "pinyin": "duān",
+          "meaning": "hold; carry"
+        },
+        {
+          "hanzi": "承诺",
+          "pinyin": "chéng nuò",
+          "meaning": "promise"
+        },
+        {
+          "hanzi": "仪式",
+          "pinyin": "yí shì",
+          "meaning": "ceremony"
+        },
+        {
+          "hanzi": "桥",
+          "pinyin": "qiáo",
+          "meaning": "bridge"
+        },
+        {
+          "hanzi": "店名",
+          "pinyin": "diàn míng",
+          "meaning": "shop name"
+        },
+        {
+          "hanzi": "熟",
+          "pinyin": "shú",
+          "meaning": "familiar"
+        },
+        {
+          "hanzi": "漏",
+          "pinyin": "lòu",
+          "meaning": "miss; overlook"
+        },
+        {
+          "hanzi": "推荐",
+          "pinyin": "tuī jiàn",
+          "meaning": "recommend"
+        },
+        {
+          "hanzi": "摊",
+          "pinyin": "tān",
+          "meaning": "spread out"
+        },
+        {
+          "hanzi": "椅背",
+          "pinyin": "yǐ bèi",
+          "meaning": "back of a chair"
+        },
+        {
+          "hanzi": "站牌",
+          "pinyin": "zhàn pái",
+          "meaning": "bus stop sign"
+        },
+        {
+          "hanzi": "菜单",
+          "pinyin": "cài dān",
+          "meaning": "menu"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "开头",
+          "pinyin": "kāi tóu",
+          "meaning": "beginning"
+        },
+        {
+          "hanzi": "靠窗",
+          "pinyin": "kào chuāng",
+          "meaning": "by the window"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "How does the second account complement the first?",
+          "choices": [
+            "It explains short requests and changing timing from the traveller’s side",
+            "It says no messages were sent",
+            "It insists all friends must stop eating"
+          ],
+          "answer": "It explains short requests and changing timing from the traveller’s side"
+        },
+        {
+          "type": "detail",
+          "q": "What is agreed for important changes next time?",
+          "choices": [
+            "Write the important change clearly while keeping ordinary banter",
+            "Stop all friendly speech",
+            "Only use a colour for venue"
+          ],
+          "answer": "Write the important change clearly while keeping ordinary banter"
+        },
+        {
+          "type": "inference",
+          "q": "Are the two not-understanding moments identical?",
+          "choices": [
+            "No:one misses sound,the other lacks plot interpretation",
+            "Yes:both mean the film is bad",
+            "Yes:both prove a pronunciation score"
+          ],
+          "answer": "No:one misses sound,the other lacks plot interpretation"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "车站有人说话，电话那头又有散场的【响声】，我们两边都不太听得清。我发文字，把晚点到写出来，站在车站继续等。朋友又问多久，我抬头看了两次，车终于来了，才补了一句十分钟左右。上车以后我找到靠窗的位置，把刚才没说完的路问清。他说红门就在电影院旁边，我看着窗外一站一站过去，快到时先发了消息，让他不用再站门口找我。",
+            "py": "chē zhàn yǒu rén shuō huà , diàn huà nà tóu yòu yǒu sàn chǎng de xiǎng shēng , wǒ men liǎng biān dōu bù tài tīng de qīng . wǒ fā wén zì , bǎ wǎn diǎn dào xiě chū lái , zhàn zài chē zhàn jì xù děng . péng you yòu wèn duō jiǔ , wǒ tái tóu kàn le liǎng cì , chē zhōng yú lái le , cái bǔ le yī jù shí fēn zhōng zuǒ yòu . shàng chē yǐ hòu wǒ zhǎo dào kào chuāng de wèi zhì , bǎ gāng cái méi shuō wán de lù wèn qīng . tā shuō hóng mén jiù zài diàn yǐng yuàn páng biān , wǒ kàn zhe chuāng wài yī zhàn yī zhàn guò qù , kuài dào shí xiān fā le xiāo xī , ràng tā bù yòng zài zhàn mén kǒu zhǎo wǒ .",
+            "en": "People were talking at the stop and the event was ending at the other end of the call. I texted that I'd arrive late and kept waiting. Asked how long, I looked up twice before the bus finally arrived; only then did I estimate about ten minutes. From a window seat I confirmed the red door beside the cinema, watched the stops go past and messaged near arrival so my friend wouldn't stand outside searching for me."
+          },
+          {
+            "zh": "下车后我【沿着】小路走，差点又往桥上去。上次的路太熟，我走了几步才想起这次不用过桥，就停下来打开照片。电影院旁边的小店正好有人出来，红门和照片里一样。我给朋友发到了，避开门口等座位的人往里面走。大家已经坐好，旁边空着一把椅子，桌上还有我的水。朋友问是不是又走错门，我说差一点，你下次直接把店名写出来吧。他把菜单递给我，说先吃，吃完我慢慢念给你听。",
+            "py": "xià chē hòu wǒ yán zhe xiǎo lù zǒu , chà diǎn yòu wǎng qiáo shàng qù . shàng cì de lù tài shú , wǒ zǒu le jǐ bù cái xiǎng qǐ zhè cì bù yòng guò qiáo , jiù tíng xià lái dǎ kāi zhào piān . diàn yǐng yuàn páng biān de xiǎo diàn zhèng hǎo yǒu rén chū lái , hóng mén hé zhào piān lǐ yī yàng . wǒ gěi péng you fā dào le , bì kāi mén kǒu děng zuò wèi de rén wǎng lǐ miàn zǒu . dà jiā yǐ jīng zuò hǎo , páng biān kōng zhe yī bǎ yǐ zi , zhuō shàng hái yǒu wǒ de shuǐ . péng you wèn shì bú shì yòu zǒu cuò mén , wǒ shuō chà yī diǎn , nǐ xià cì zhí jiē bǎ diàn míng xiě chū lái ba . tā bǎ cài dān dì gěi wǒ , shuō xiān chī , chī wán wǒ màn màn niàn gěi nǐ tīng .",
+            "en": "After getting off, I nearly followed the familiar route over the bridge. Remembering I didn't need to cross it, I stopped to check the photo. Someone was leaving the cinema-side shop; its red door matched. I texted that I'd arrived and went around the people waiting outside. My chair and water were ready. Had I gone to the wrong door again? Almost—write the shop name next time. He handed me the menu: eat first, then he'd read it very slowly to me."
+          },
+          {
+            "zh": "我回去以后给他发消息，下一次店名和时间都写全，不只发一个红门。他回了一段故意说得【很】慢的语音，连店名都说了三遍。我说我听见了，你这样说，等你说完我又饿了。他发来一个笑脸，问那要不要现在再出来吃。我说明天吧，今天真的回家了。我们约好重要的变化先写一句，路上说笑还是照常。睡觉前他把明天的店名和时间发来，我回了个好，这次连地址也看完才放下手机。",
+            "py": "wǒ huí qù yǐ hòu gěi tā fā xiāo xī , xià yī cì diàn míng hé shí jiān dōu xiě quán , bù zhǐ fā yī gè hóng mén . tā huí le yī duàn gù yì shuō de hěn màn de yǔ yīn , lián diàn míng dōu shuō le sān biàn . wǒ shuō wǒ tīng jiàn le , nǐ zhè yàng shuō , děng nǐ shuō wán wǒ yòu è le . tā fā lái yī gè xiào liǎn , wèn nà yào bù yào xiàn zài zài chū lái chī . wǒ shuō míng tiān ba , jīn tiān zhēn de huí jiā le . wǒ men yuē hǎo zhòng yào de biàn huà xiān xiě yī jù , lù shàng shuō xiào hái shi zhào cháng . shuì jiào qián tā bǎ míng tiān de diàn míng hé shí jiān fā lái , wǒ huí le gè hǎo , zhè cì lián dì zhǐ yě kàn wán cái fàng xià shǒu jī .",
+            "en": "After getting home I asked him to write out the shop name and time next time, instead of just sending “red door.” He replied with a deliberately slow voice message and repeated the name three times. I said I had heard him: at that speed I would be hungry again before he finished. He sent a smiling face and asked if I wanted to go back out for food. Tomorrow, I said; I really was home now. We agreed to text important changes but keep joking on the phone as usual. Before bed he sent tomorrow's shop name and time. I replied yes, this time reading the address too before putting my phone down."
+          }
+        ],
+        "bank": [
+          "响声",
+          "沿着",
+          "很",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u11-c",
+    "title": "Hear the second half",
+    "place": "A noisy cinema exit,bus stop and nearby café",
+    "context": "Traveller still coming,late;friends enter first,no order for her yet,water fine. New shop next tocinema red door,path no bridge,not old bridge shop. Around10minutes only afterbusarrives. Ending not bad but not understood:plot interpretation differs from masked sound.",
+    "goal": "Recover intent from fast casual speech and ellipsis",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "先别等我，你们进去。我是不来了吗？",
+        "pinyin": "xiān bié děng wǒ , nǐ men jìn qù . wǒ shì bù lái le ma ?",
+        "meaning": "Don’t wait for me now;go in.Does that mean not coming?",
+        "intent": "Recover scope",
+        "examples": [
+          "不是，还会来，只是晚一点到。"
+        ],
+        "accept": [
+          "^不是，还会来，只是晚一点到。[。！？]?$"
+        ]
+      },
+      {
+        "text": "不是不好，是没听懂。你听成不好了？",
+        "pinyin": "bù shì bù hǎo , shì méi tīng dǒng . nǐ tīng chéng bù hǎo le ?",
+        "meaning": "Not bad—didn’t understand.Did you hear bad?",
+        "intent": "Retain contrast",
+        "examples": [
+          "后半句说明没理解，不是给坏评价。"
+        ],
+        "accept": [
+          "^后半句说明没理解，不是给坏评价。[。！？]?$"
+        ]
+      },
+      {
+        "text": "红门就是上次过桥那家吧？",
+        "pinyin": "hóng mén jiù shì shàng cì guò qiáo nà jiā ba ?",
+        "meaning": "Red door means the old place beyond the bridge?",
+        "intent": "Confirm referent",
+        "examples": [
+          "不是，这次挨着电影院，不用过桥。"
+        ],
+        "accept": [
+          "^不是，这次挨着电影院，不用过桥。[。！？]?$"
+        ]
+      },
+      {
+        "text": "待会儿就一定是十分钟？",
+        "pinyin": "dāi huìr jiù yí dìng shì shí fēn zhōng ?",
+        "meaning": "Shortly must mean ten minutes?",
+        "intent": "Avoid an exact unsupported timing",
+        "examples": [
+          "不一定，要看车到没到，再确认大约多久。"
+        ],
+        "accept": [
+          "^不一定，要看车到没到，再确认大约多久。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Ask for the missed part",
+      "natural": {
+        "zh": "刚才后半句没听清，你再说一遍？",
+        "py": "gāng cái hòu bàn jù méi tīng qīng , nǐ zài shuō yī biàn ?",
+        "en": "I missed the second half;could you repeat it?"
+      },
+      "note": "Name the gap without inventing a meaning."
+    },
+    {
+      "situation": "Repeat the actionable plan",
+      "natural": {
+        "zh": "你会来，我们先进去，不替你点，对吗？",
+        "py": "nǐ huì lái , wǒ men xiān jìn qù , bù tì nǐ diǎn , duì ma ?",
+        "en": "You are coming;we enter first and do not order for you yet,right?"
+      },
+      "note": "Brief concrete readback checks the actual arrangement."
+    },
+    {
+      "situation": "Keep humour while clarifying",
+      "natural": {
+        "zh": "不用慢成这样，后半句别丢就好。",
+        "py": "bù yòng màn chéng zhè yàng , hòu bàn jù bié diū jiù hǎo .",
+        "en": "Not that slowly—just keep the second half."
+      },
+      "note": "A clearer pace need not change Sayo’s identity or claim pronunciation grading."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u11-t01",
+      "phrase": "s6-u11-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "演出散场，我站在门边给林安打电话。她那边有车经过，后面几个人一边走一边笑。我问她在哪，她说车还没到，先别等我，你们进去。我只抓住别等两个字，马上问不去了。她提高声音说不是不去，晚点到。我让她把后半句再说一遍，这回总算听清。陈宇已经走到店门口，回头问我还等不等，我说我们先进去，她等到车就发消息。我拿起包，赶紧跟上他。",
+        "py": "yǎn chū sàn chǎng , wǒ zhàn zài mén biān gěi lín ān dǎ diàn huà . tā nà biān yǒu chē jīng guò , hòu miàn jǐ gè rén yī biān zǒu yī biān xiào . wǒ wèn tā zài nǎ , tā shuō chē hái méi dào , xiān bié děng wǒ , nǐ men jìn qù . wǒ zhǐ zhuā zhù bié děng liǎng gè zì , mǎ shàng wèn bù qù le . tā tí gāo shēng yīn shuō bù shì bù qù , wǎn diǎn dào . wǒ ràng tā bǎ hòu bàn jù zài shuō yī biàn , zhè huí zǒng suàn tīng qīng . chén yǔ yǐ jīng zǒu dào diàn mén kǒu , huí tóu wèn wǒ hái děng bù děng , wǒ shuō wǒ men xiān jìn qù , tā děng dào chē jiù fā xiāo xī . wǒ ná qǐ bāo , gǎn jǐn gēn shàng tā .",
+        "en": "After the show I called Lin An from the doorway. Traffic passed at her end while people behind me laughed on their way out. Her bus hadn't arrived; we should go inside without waiting. Catching only 'don't wait,' I asked if she wasn't coming. She raised her voice: she was coming, just later. I asked her to repeat the second half and finally heard it. Chen Yu, already at the shop door, asked whether we were still waiting. We'd go in; she'd message when the bus came. I picked up my bag and hurried after him."
+      },
+      "statement": "The traveller has permanently refused to come.",
+      "answer": false,
+      "why": "She is coming later."
+    },
+    {
+      "id": "s6-u11-t02",
+      "phrase": "s6-u11-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "她上车后发语音，说十分钟左右到，后面还有一句别站通道里等。我当时正在找座位，耳机里只听到十分钟，就把手机放下了。过一会儿想到外面有人进出，重听一次才听见后半句。她到时我已经坐好，给她指旁边的位置。她问你没真守着门吧，我说没有，现在也不需要让大家绕过我走。她笑得很大声，服务员看过来，我们就把声音放低，先让她喝水。",
+        "py": "tā shàng chē hòu fā yǔ yīn , shuō shí fēn zhōng zuǒ yòu dào , hòu miàn hái yǒu yī jù bié zhàn tōng dào lǐ děng . wǒ dāng shí zhèng zài zhǎo zuò wèi , ěr jī lǐ zhǐ tīng dào shí fēn zhōng , jiù bǎ shǒu jī fàng xià le . guò yī huì er xiǎng dào wài miàn yǒu rén jìn chū , zhòng tīng yī cì cái tīng jiàn hòu bàn jù . tā dào shí wǒ yǐ jīng zuò hǎo , gěi tā zhǐ páng biān de wèi zhì . tā wèn nǐ méi zhēn shǒu zhe mén ba , wǒ shuō méi yǒu , xiàn zài yě bù xū yào ràng dà jiā rào guò wǒ zǒu . tā xiào de hěn dà shēng , fú wù yuán kàn guò lái , wǒ men jiù bǎ shēng yīn fàng dī , xiān ràng tā hē shuǐ .",
+        "en": "On the bus,she said around ten minutes and not to wait in the passage.While finding a seat,I initially caught only the time.A replay supplied the rest.I was seated when she arrived,and pointed to a place.She joked whether I'd guarded the door.I said people no longer needed to go round me.We lowered our laughter when a server looked over and let her drink."
+      },
+      "statement": "A replay supplies the instruction about the passage.",
+      "answer": true,
+      "why": "The later half was initially missed."
+    },
+    {
+      "id": "s6-u11-t03",
+      "phrase": "s6-u11-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "喝过水我们才谈演出。我说结尾不是不好，是我没听懂，朋友马上问哪句没听清。我笑着说这次听清了，只是不明白妹妹为什么把信留下。他说不是姐姐吗，我拿出节目单，指着妹妹的名字，让他想想后来回家那场。他看了半天，说自己好像漏了那一小段。我把记得的几句讲给他听，又问他前面的写信那场怎么样。这回轮到我想不起来，我们只好把节目单摊在桌上，从人物名字重新对一遍。",
+        "py": "hē guò shuǐ wǒ men cái tán yǎn chū . wǒ shuō jié wěi bù shì bù hǎo , shì wǒ méi tīng dǒng , péng you mǎ shàng wèn nǎ jù méi tīng qīng . wǒ xiào zhe shuō zhè cì tīng qīng le , zhǐ shì bù míng bái mèi mei wèi shén me bǎ xìn liú xià . tā shuō bù shì jiě jie ma , wǒ ná chū jié mù dān , zhǐ zhe mèi mei de míng zi , ràng tā xiǎng xiǎng hòu lái huí jiā nà chǎng . tā kàn le bàn tiān , shuō zì jǐ hǎo xiàng lòu le nà yī xiǎo duàn . wǒ bǎ jì de de jǐ jù jiǎng gěi tā tīng , yòu wèn tā qián miàn de xiě xìn nà chǎng zěn me yàng . zhè huí lún dào wǒ xiǎng bù qǐ lái , wǒ men zhǐ hǎo bǎ jié mù dān tān zài zhuō shàng , cóng rén wù míng zi chóng xīn duì yī biàn .",
+        "en": "Over water I said the ending wasn't bad; I hadn't understood it. Which line hadn't I heard? My friend asked. This time I'd heard it; I didn't understand why the younger sister left the letter. Wasn't it the elder one? I pointed to the younger sister on the programme and the homecoming scene. He thought he'd missed that short section. I recounted what I remembered and asked about the earlier letter-writing scene. That was the part I couldn't recall, so we spread the programme on the table and checked the names together."
+      },
+      "statement": "Both comprehension gaps involve missing sound.",
+      "answer": false,
+      "why": "The plot gap remains despite hearing words."
+    },
+    {
+      "id": "s6-u11-t04",
+      "phrase": "s6-u11-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "聊到后来，刚才和我对节目单的朋友说，他以前看过前半场，后半场没看完；我却漏了开头，刚才问谁写信，正好问到自己没看的地方。陈宇在旁边拿手机找演出的日期，我看了一眼时间，说今天先别回去了，明天还要早起。他说不是现在，只想下次有空三个人一起看完整。我说好，日期以后再定，这回从开头坐到结束。服务员过来问还要什么，我们看着桌上剩下的菜，赶紧说不用了，先把这些吃完，吃完就各自回家。",
+        "py": "liáo dào hòu lái , gāng cái hé wǒ duì jié mù dān de péng you shuō , tā yǐ qián kàn guò qián bàn chǎng , hòu bàn chǎng méi kàn wán ; wǒ què lòu le kāi tóu , gāng cái wèn shéi xiě xìn , zhèng hǎo wèn dào zì jǐ méi kàn de dì fāng . chén yǔ zài páng biān ná shǒu jī zhǎo yǎn chū de rì qī , wǒ kàn le yī yǎn shí jiān , shuō jīn tiān xiān bié huí qù le , míng tiān hái yào zǎo qǐ . tā shuō bù shì xiàn zài , zhǐ xiǎng xià cì yǒu kōng sān gè rén yì qǐ kàn wán zhěng . wǒ shuō hǎo , rì qī yǐ hòu zài dìng , zhè huí cóng kāi tóu zuò dào jié shù . fú wù yuán guò lái wèn hái yào shén me , wǒ men kàn zhe zhuō shàng shèng xià de cài , gǎn jǐn shuō bù yòng le , xiān bǎ zhè xiē chī wán , chī wán jiù gè zì huí jiā .",
+        "en": "The friend I'd checked the programme with had previously seen the first half but not all of the second; I'd missed the opening, including the letter-writing I'd asked about. Beside us, Chen Yu checked performance dates on his phone. We shouldn't go back tonight—we needed an early start. Not tonight, he said; sometime the three of us could watch the whole thing together. We left the date open and agreed to stay from start to finish. Asked if we wanted anything else, we looked at the food still on the table: finish this, then go home."
+      },
+      "statement": "The friends decide to stop ordinary banter.",
+      "answer": false,
+      "why": "They keep banter and text important changes."
+    },
+    {
+      "id": "s6-u11-t05",
+      "phrase": "s6-u11-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "不是不去，只是晚到。应该怎么理解？",
+        "py": "bù shì bù qù , zhǐ shì wǎn dào . yīng gāi zěn me lǐ jiě ?",
+        "en": "Not refusing to go,just late.Meaning?"
+      },
+      "choices": [
+        "还会来，晚一些。",
+        "永远不来。",
+        "已经在店里。"
+      ],
+      "answer": "还会来，晚一些。",
+      "why": "Double negation rejects refusal."
+    },
+    {
+      "id": "s6-u11-t06",
+      "phrase": "s6-u11-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "先别点，我路上可能吃一点。能替她立刻点饭吗？",
+        "py": "xiān bié diǎn , wǒ lù shàng kě néng chī yī diǎn . néng tì tā lì kè diǎn fàn ma ?",
+        "en": "Do not order yet;may eat en route.Order immediately?"
+      },
+      "choices": [
+        "不能，到了再确认。",
+        "能，先别等于马上。",
+        "能，已经明确要两份。"
+      ],
+      "answer": "不能，到了再确认。",
+      "why": "Temporary negative instruction remains in force."
+    },
+    {
+      "id": "s6-u11-t07",
+      "phrase": "s6-u11-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "不是不好，是我没听懂。这是明确的坏评价吗？",
+        "py": "bù shì bù hǎo , shì wǒ méi tīng dǒng . zhè shì míng què de huài píng jià ma ?",
+        "en": "Not bad—I did not understand.Clear bad review?"
+      },
+      "choices": [
+        "不是，是理解还有缺口。",
+        "是，只听不好就够。",
+        "是，没懂就说明作品一定差。"
+      ],
+      "answer": "不是，是理解还有缺口。",
+      "why": "Retain the correcting clause."
+    },
+    {
+      "id": "s6-u11-t08",
+      "phrase": "s6-u11-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "新店挨着电影院，不用过桥。哪条路符合？",
+        "py": "xīn diàn āi zhe diàn yǐng yuàn , bù yòng guò qiáo . nǎ tiáo lù fú hé ?",
+        "en": "New shop beside cinema,no bridge.Whichroute?"
+      },
+      "choices": [
+        "沿小路到电影院旁红门。",
+        "过桥去上次红门。",
+        "留在车站永远等。"
+      ],
+      "answer": "沿小路到电影院旁红门。",
+      "why": "Both location and no-bridge detail fit."
+    },
+    {
+      "id": "s6-u11-t09",
+      "phrase": "s6-u11-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "她【回应】说不是不去。",
+        "py": "tā huí yìng shuō bù shì bù qù .",
+        "en": "She replied that she was not refusing to go."
+      },
+      "blankPy": "huí yìng"
+    },
+    {
+      "id": "s6-u11-t10",
+      "phrase": "s6-u11-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "别【忽略】最后一句。",
+        "py": "bié hū lüè zuì hòu yī jù .",
+        "en": "Do not overlook the last sentence."
+      },
+      "blankPy": "hū lüè"
+    },
+    {
+      "id": "s6-u11-t11",
+      "phrase": "s6-u11-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "我【只顾】看路，没听见后半句。",
+        "py": "wǒ zhǐ gù kàn lù , méi tīng jiàn hòu bàn jù .",
+        "en": "I was preoccupied with the route and missed the second half."
+      },
+      "blankPy": "zhǐ gù"
+    },
+    {
+      "id": "s6-u11-t12",
+      "phrase": "s6-u11-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "有问题你【只管】问。",
+        "py": "yǒu wèn tí nǐ zhǐ guǎn wèn .",
+        "en": "Go ahead and ask questions."
+      },
+      "blankPy": "zhǐ guǎn"
+    },
+    {
+      "id": "s6-u11-t13",
+      "phrase": "s6-u11-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I'll arrive shortly;go in first.",
+          "right": {
+            "zh": "我待会儿到，你们先进去。",
+            "py": "wǒ dāi huìr dào , nǐ men xiān jìn qù .",
+            "en": "I'll arrive shortly;go in first."
+          }
+        },
+        {
+          "left": "It's hard to say when this show will finish.",
+          "right": {
+            "zh": "这场什么时候散，很难说。",
+            "py": "zhè chǎng shén me shí hou sàn , hěn nán shuō .",
+            "en": "It's hard to say when this show will finish."
+          }
+        },
+        {
+          "left": "Honestly,I didn't catch that.",
+          "right": {
+            "zh": "说实话，我刚才没听清。",
+            "py": "shuō shí huà , wǒ gāng cái méi tīng qīng .",
+            "en": "Honestly,I didn't catch that."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u11-t14",
+      "phrase": "s6-u11-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Just ask if you have questions.",
+          "right": {
+            "zh": "有问题你只管问。",
+            "py": "yǒu wèn tí nǐ zhǐ guǎn wèn .",
+            "en": "Just ask if you have questions."
+          }
+        },
+        {
+          "left": "The heavy rain leaves us no choice but to stay for now.",
+          "right": {
+            "zh": "雨太大，只得先留下。",
+            "py": "yǔ tài dà , zhǐ dé xiān liú xià .",
+            "en": "The heavy rain leaves us no choice but to stay for now."
+          }
+        },
+        {
+          "left": "So don't order for me yet?",
+          "right": {
+            "zh": "就是说，先别替我点？",
+            "py": "jiù shì shuō , xiān bié tì wǒ diǎn ?",
+            "en": "So don't order for me yet?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u11-t15",
+      "phrase": "s6-u11-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I passed the entrance and heard you say never mind.",
+          "right": {
+            "zh": "我路过门口，听到你说算了。",
+            "py": "wǒ lù guò mén kǒu , tīng dào nǐ shuō suàn le .",
+            "en": "I passed the entrance and heard you say never mind."
+          }
+        },
+        {
+          "left": "The bus ahead isn't the one we're waiting for.",
+          "right": {
+            "zh": "前方那辆不是我们等的车。",
+            "py": "qián fāng nà liàng bù shì wǒ men děng de chē .",
+            "en": "The bus ahead isn't the one we're waiting for."
+          }
+        },
+        {
+          "left": "After the laughter,she added another sentence.",
+          "right": {
+            "zh": "笑声过后她又补了一句。",
+            "py": "xiào shēng guò hòu tā yòu bǔ le yī jù .",
+            "en": "After the laughter,she added another sentence."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u11-t16",
+      "phrase": "s6-u11-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He left a message changing the meeting to the entrance.",
+          "right": {
+            "zh": "他留言说改到门口见。",
+            "py": "tā liú yán shuō gǎi dào mén kǒu jiàn .",
+            "en": "He left a message changing the meeting to the entrance."
+          }
+        },
+        {
+          "left": "Distinguish these two tones.",
+          "right": {
+            "zh": "这两种语气要区分。",
+            "py": "zhè liǎng zhǒng yǔ qì yào qū fēn .",
+            "en": "Distinguish these two tones."
+          }
+        },
+        {
+          "left": "Before this,we always met in the small room.",
+          "right": {
+            "zh": "此前一直在小厅见面。",
+            "py": "cǐ qián yì zhí zài xiǎo tīng jiàn miàn .",
+            "en": "Before this,we always met in the small room."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u11-t17",
+      "phrase": "s6-u11-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Music came from the small room.",
+          "right": {
+            "zh": "小厅里传出音乐声。",
+            "py": "xiǎo tīng lǐ chuán chū yīn yuè shēng .",
+            "en": "Music came from the small room."
+          }
+        },
+        {
+          "left": "I overlooked the word for now.",
+          "right": {
+            "zh": "我忽略了那个先字。",
+            "py": "wǒ hū lüè le nà gè xiān zì .",
+            "en": "I overlooked the word for now."
+          }
+        },
+        {
+          "left": "I'd like to ask whether I can enter later.",
+          "right": {
+            "zh": "我想问能否晚一点进场。",
+            "py": "wǒ xiǎng wèn néng fǒu wǎn yī diǎn jìn chǎng .",
+            "en": "I'd like to ask whether I can enter later."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: fast-chat ellipsis,可没说 correction,delayed-order/water banter,待会儿 pronunciation and voice-paced joke. Self-review distinguishes firsttemporaryinstruction/fullcorrection,old/newred-door venues,estimateonlyafterbusarrives,and sound-vs-plot comprehension. No algorithm claims pace or pronunciation mastery. One Sayo identity retains mood variants; unverified takes follow the owner’s dated audio exception after genuine repair.\n2026-10-08 advanced reading self-review: Phone and letter actions v2: Corrected next-week attendance wording in the library dialogue. Preserved operational notice/service distinction without repeated misconception lectures. Work programme now shows pending confirmation rather than abstract permission analysis. Repaired the reading-first proposal: performers want to hear a short passage before playing, leaving enough music time before their eight-o-clock departure. Thursday dinner reply, Friday room confirmation and original task keys remain unchanged. Misheard-food phone call becomes a water/menu joke; ten-minute estimate still follows bus arrival. Farewell diary clarifies the next-evening arrival chronology, retains unopened letter and actual arrival-message promise. Author account shows alternative phrasing without pretending a return date is known. Added missing reading aids for shaking the head and putting on earphones after the strict character check caught them. Remaining phone narration now shows actual travel, menu and programme checks; the final audience account debates the letter, packs chairs and meets the train instead of repeatedly explaining evidential limits. Native flags: forgotten-lyric and bottle banter, book overtime joke, dialogue-message timing, lyric phrasing and farewell banter. Native review pending.",
+  "characters": []
+}

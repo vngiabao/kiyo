@@ -440,7 +440,15 @@ test("all-level roadmap and combined advanced sources stay distinct", async ({
   });
   await page.getByLabel("Target level", { exact: true }).selectOption("6");
   await expect(
-    page.getByRole("heading", { name: "HSK 6 · Handle dense material" }),
+    fullRoute.getByRole("button", { name: "HSK 6 · Handle dense material", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", {
+      name: installed.some((p) => p.level === 6 && p.version === 2)
+        ? "HSK 6 · skill checkpoints"
+        : "HSK 6 · Handle dense material",
+      exact: true,
+    }),
   ).toBeVisible();
   await page.getByLabel("Target level", { exact: true }).selectOption("7");
   await expect(page.getByLabel("Exam version", { exact: true })).toHaveValue(

@@ -3,7 +3,7 @@ import { mkdirSync } from "node:fs";
 mkdirSync(".impeccable/navigation", { recursive: true });
 const browser = await chromium.launch({ channel: "chrome" });
 try {
-  for (const width of [1440, 768, 375]) {
+  for (const width of [1440, 768, 375, 320]) {
     const context = await browser.newContext({ viewport: { width, height: 1000 }, reducedMotion: "reduce" });
     const page = await context.newPage();
     await page.goto("http://127.0.0.1:5173/");

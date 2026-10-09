@@ -1,0 +1,2419 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u03",
+    "stage": 3,
+    "order": 135,
+    "title": "What the photograph leaves out",
+    "titleZh": "照片之外的那一刻",
+    "canDo": [
+      "Compare observation, attributed account and interpretation",
+      "Retell a small incident without adding unseen motives",
+      "Correct a circulating claim while retaining real events"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u02",
+      "s6-u02-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u03-w01",
+      "hanzi": "响声",
+      "pinyin": "xiǎng shēng",
+      "meaning": "a sound; noise",
+      "meaningVi": "tiếng động",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "杯子落地的响声，把我吓了一跳。",
+        "py": "bēi zi luò dì de xiǎng shēng , bǎ wǒ xià le yī tiào .",
+        "en": "The sound of the glass falling startled me."
+      },
+      "usageNote": "[GF2021:L6:8838] Source entry: 响声; xiǎngshēng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w02",
+      "hanzi": "地板",
+      "pinyin": "dì bǎn",
+      "meaning": "floor surface",
+      "meaningVi": "sàn nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "地板湿了，店员先让大家停一下。",
+        "py": "dì bǎn shī le , diàn yuán xiān ràng dà jiā tíng yī xià .",
+        "en": "The floor was wet, so the worker asked everyone to stop."
+      },
+      "usageNote": "[GF2021:L6:1756] Source entry: 地板; dìbǎn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w03",
+      "hanzi": "踩",
+      "pinyin": "cǎi",
+      "meaning": "step on",
+      "meaningVi": "giẫm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我没看清，差点踩到碎片。",
+        "py": "wǒ méi kàn qīng , chà diǎn cǎi dào suì piàn .",
+        "en": "I almost stepped on a fragment without seeing it."
+      },
+      "usageNote": "[GF2021:L6:694] Source entry: 踩; cǎi; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w04",
+      "hanzi": "捡",
+      "pinyin": "jiǎn",
+      "meaning": "pick up something from the ground",
+      "meaningVi": "nhặt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我想捡，她说先别动。",
+        "py": "wǒ xiǎng jiǎn , tā shuō xiān bié dòng .",
+        "en": "I wanted to pick it up, but she said not to move yet."
+      },
+      "usageNote": "[GF2021:L6:3939] Source entry: 捡; jiǎn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w05",
+      "hanzi": "裂",
+      "pinyin": "liè",
+      "meaning": "split; crack",
+      "meaningVi": "nứt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "杯子已经裂了，不能继续用。",
+        "py": "bēi zi yǐ jīng liè le , bù néng jì xù yòng .",
+        "en": "The glass was cracked and couldn’t be used."
+      },
+      "usageNote": "[GF2021:L6:5181] Source entry: 裂; liè; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w06",
+      "hanzi": "侧",
+      "pinyin": "cè",
+      "meaning": "side",
+      "meaningVi": "phía; bên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我坐在门的另一侧，没看到桌边。",
+        "py": "wǒ zuò zài mén de lìng yī cè , méi kàn dào zhuō biān .",
+        "en": "I sat on the other side of the door and didn’t see the table edge."
+      },
+      "usageNote": "[GF2021:L6:748] Source entry: 侧; cè; 名、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w07",
+      "hanzi": "两侧",
+      "pinyin": "liǎng cè",
+      "meaning": "both sides",
+      "meaningVi": "hai bên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "通道两侧都有人，店员请他们让开。",
+        "py": "tōng dào liǎng cè dōu yǒu rén , diàn yuán qǐng tā men ràng kāi .",
+        "en": "People stood on both sides of the passage and were asked to clear it."
+      },
+      "usageNote": "[GF2021:L6:5143] Source entry: 两侧; liǎngcè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w08",
+      "hanzi": "前方",
+      "pinyin": "qián fāng",
+      "meaning": "ahead; in front",
+      "meaningVi": "phía trước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "前方有人停下，我也没有往前走。",
+        "py": "qián fāng yǒu rén tíng xià , wǒ yě méi yǒu wǎng qián zǒu .",
+        "en": "Someone ahead stopped, and I stopped too."
+      },
+      "usageNote": "[GF2021:L6:6337] Source entry: 前方; qiánfāng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w09",
+      "hanzi": "脚印",
+      "pinyin": "jiǎo yìn",
+      "meaning": "footprint",
+      "meaningVi": "dấu chân",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "地上的脚印不能说明是谁碰倒杯子。",
+        "py": "dì shang de jiǎo yìn bù néng shuō míng shì shéi pèng dào bēi zi .",
+        "en": "Footprints on the floor don’t establish who knocked over the glass."
+      },
+      "usageNote": "[GF2021:L6:4101] Source entry: 脚印; jiǎoyìn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w10",
+      "hanzi": "区分",
+      "pinyin": "qū fēn",
+      "meaning": "distinguish",
+      "meaningVi": "phân biệt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先区分我看到的和听别人说的。",
+        "py": "xiān qū fēn wǒ kàn dào de hé tīng bié ren shuō de .",
+        "en": "First distinguish what I saw from what others told me."
+      },
+      "usageNote": "[GF2021:L6:6557] Source entry: 区分; qūfēn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w11",
+      "hanzi": "亲眼",
+      "pinyin": "qīn yǎn",
+      "meaning": "with one’s own eyes",
+      "meaningVi": "tận mắt",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我亲眼看见的是杯子落地，没看见前一刻。",
+        "py": "wǒ qīn yǎn kàn jiàn de shì bēi zi luò dì , méi kàn jiàn qián yī kè .",
+        "en": "I saw the glass fall, not the moment before."
+      },
+      "usageNote": "[GF2021:L6:6453] Source entry: 亲眼; qīnyǎn; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w12",
+      "hanzi": "恰好",
+      "pinyin": "qià hǎo",
+      "meaning": "happen to; just",
+      "meaningVi": "vừa đúng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "杯子落地时，我恰好低头拿包。",
+        "py": "bēi zi luò dì shí , wǒ qià hǎo dī tóu ná bāo .",
+        "en": "As the glass fell I happened to be looking down for my bag."
+      },
+      "usageNote": "[GF2021:L6:6299] Source entry: 恰好; qiàhǎo; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w13",
+      "hanzi": "事后",
+      "pinyin": "shì hòu",
+      "meaning": "after the event",
+      "meaningVi": "sau sự việc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "事后我才听到完整的经过。",
+        "py": "shì hòu wǒ cái tīng dào wán zhěng de jīng guò .",
+        "en": "Only afterwards did I hear the full account."
+      },
+      "usageNote": "[GF2021:L6:7298] Source entry: 事后; shìhòu; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w14",
+      "hanzi": "此前",
+      "pinyin": "cǐ qián",
+      "meaning": "before this; previously",
+      "meaningVi": "trước đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "此前我只看过那张没有桌面的照片。",
+        "py": "cǐ qián wǒ zhǐ kàn guò nà zhāng méi yǒu zhuō miàn de zhào piān .",
+        "en": "Before this I had only seen the photo with the table cropped out."
+      },
+      "usageNote": "[GF2021:L6:1308] Source entry: 此前; cǐqián; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w15",
+      "hanzi": "同一",
+      "pinyin": "tóng yī",
+      "meaning": "the same",
+      "meaningVi": "cùng một",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "两个人说的是同一声提醒，理解却不同。",
+        "py": "liǎng gè rén shuō de shì tóng yī shēng tí xǐng , lǐ jiě què bù tóng .",
+        "en": "They refer to the same warning but interpret it differently."
+      },
+      "usageNote": "[GF2021:L6:8071] Source entry: 同一; tóngyī; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w16",
+      "hanzi": "传言",
+      "pinyin": "chuán yán",
+      "meaning": "rumour; an unconfirmed circulating account",
+      "meaningVi": "tin đồn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "传言说店员跟客人吵架，原来的消息没有这样写。",
+        "py": "chuán yán shuō diàn yuán gēn kè rén chǎo jià , yuán lái de xiāo xī méi yǒu zhè yàng xiě .",
+        "en": "A rumour said the worker argued with a guest; the original message didn’t say that."
+      },
+      "usageNote": "[GF2021:L6:1234] Source entry: 传言; chuányán; 名、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w17",
+      "hanzi": "传出",
+      "pinyin": "chuán chū",
+      "meaning": "come out; spread from a source",
+      "meaningVi": "truyền ra",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "门里传出别动两个字，我没听见后面。",
+        "py": "mén lǐ chuán chū bié dòng liǎng gè zì , wǒ méi tīng jiàn hòu miàn .",
+        "en": "“Don’t move” came from inside; I missed what followed."
+      },
+      "usageNote": "[GF2021:L6:1220] Source entry: 传出; chuánchū; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w18",
+      "hanzi": "回应",
+      "pinyin": "huí yìng",
+      "meaning": "respond; response",
+      "meaningVi": "phản hồi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "店员回应时，先解释她在提醒地上的碎片。",
+        "py": "diàn yuán huí yìng shí , xiān jiě shì tā zài tí xǐng dì shang de suì piàn .",
+        "en": "In response the worker first explained the fragments on the floor."
+      },
+      "usageNote": "[GF2021:L6:3583] Source entry: 回应; huíyìng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w19",
+      "hanzi": "接收",
+      "pinyin": "jiē shōu",
+      "meaning": "receive",
+      "meaningVi": "tiếp nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我接收了照片，却还没看原来的文字。",
+        "py": "wǒ jiē shōu le zhào piān , què hái méi kàn yuán lái de wén zì .",
+        "en": "I received the photo without yet reading the original text."
+      },
+      "usageNote": "[GF2021:L6:4153] Source entry: 接收; jiēshōu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w20",
+      "hanzi": "查看",
+      "pinyin": "chá kàn",
+      "meaning": "check; inspect",
+      "meaningVi": "kiểm tra",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我们查看原图，才看到桌边和地面。",
+        "py": "wǒ men chá kàn yuán tú , cái kàn dào zhuō biān hé dì miàn .",
+        "en": "Checking the original photo revealed the table edge and floor."
+      },
+      "usageNote": "[GF2021:L6:784] Source entry: 查看; chákàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w21",
+      "hanzi": "据",
+      "pinyin": "jù",
+      "meaning": "according to; based on",
+      "meaningVi": "theo",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "据店员的说明，是她自己的袖子碰到了杯子。",
+        "py": "jù diàn yuán de shuō míng , shì tā zì jǐ de xiù zi pèng dào le bēi zi .",
+        "en": "According to the worker, her own sleeve caught the glass."
+      },
+      "usageNote": "[GF2021:L6:4513] Source entry: 据; jù; 介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w22",
+      "hanzi": "超出",
+      "pinyin": "chāo chū",
+      "meaning": "go beyond",
+      "meaningVi": "vượt quá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "说客人故意闹事，已经超出我看到的内容。",
+        "py": "shuō kè rén gù yì nào shì , yǐ jīng chāo chū wǒ kàn dào de nèi róng .",
+        "en": "Claiming deliberate trouble by a guest exceeds what I saw."
+      },
+      "usageNote": "[GF2021:L6:876] Source entry: 超出; chāochū; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w23",
+      "hanzi": "忽略",
+      "pinyin": "hū lüè",
+      "meaning": "overlook",
+      "meaningVi": "bỏ qua",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我忽略了照片没有拍到前一刻。",
+        "py": "wǒ hū lüè le zhào piān méi yǒu pāi dào qián yī kè .",
+        "en": "I overlooked that the photo didn’t show the preceding moment."
+      },
+      "usageNote": "[GF2021:L6:3401] Source entry: 忽略; hūlüè; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w24",
+      "hanzi": "倾向",
+      "pinyin": "qīng xiàng",
+      "meaning": "tendency; inclination",
+      "meaningVi": "xu hướng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我原来有把大声当成生气的倾向。",
+        "py": "wǒ yuán lái yǒu bǎ dà shēng dàng chéng shēng qì de qīng xiàng .",
+        "en": "I tended to equate loudness with anger."
+      },
+      "usageNote": "[GF2021:L6:6478] Source entry: 倾向; qīngxiàng; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w25",
+      "hanzi": "本地",
+      "pinyin": "běn dì",
+      "meaning": "local; this area",
+      "meaningVi": "địa phương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "照片被发进一个本地群，后来传得很快。",
+        "py": "zhào piān bèi fā jìn yī gè běn dì qún , hòu lái chuán de hěn kuài .",
+        "en": "The photo spread quickly after being posted in a local group."
+      },
+      "usageNote": "[GF2021:L6:300] Source entry: 本地; běndì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w26",
+      "hanzi": "冷水",
+      "pinyin": "lěng shuǐ",
+      "meaning": "cold water",
+      "meaningVi": "nước lạnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "杯子里装的是冷水，不是热茶。",
+        "py": "bēi zi lǐ zhuāng de shì lěng shuǐ , bù shì rè chá .",
+        "en": "The glass contained cold water, not hot tea."
+      },
+      "usageNote": "[GF2021:L6:5007] Source entry: 冷水; lěngshuǐ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w27",
+      "hanzi": "壶",
+      "pinyin": "hú",
+      "meaning": "pot; kettle",
+      "meaningVi": "ấm; bình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "桌上的壶没有倒，倒的是旁边的杯子。",
+        "py": "zhuō shàng de hú méi yǒu dào , dào de shì páng biān de bēi zi .",
+        "en": "The pot remained upright; the glass beside it fell."
+      },
+      "usageNote": "[GF2021:L6:3410] Source entry: 壶; hú; 名、量. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w28",
+      "hanzi": "厨师",
+      "pinyin": "chú shī",
+      "meaning": "cook; chef",
+      "meaningVi": "đầu bếp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "厨师在后面工作，没有看到杯子怎么倒。",
+        "py": "chú shī zài hòu miàn gōng zuò , méi yǒu kàn dào bēi zi zěn me dào .",
+        "en": "The chef was working at the back and didn’t see the glass fall."
+      },
+      "usageNote": "[GF2021:L6:1186] Source entry: 厨师; chúshī; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w29",
+      "hanzi": "挨着",
+      "pinyin": "āi zhe",
+      "meaning": "next to",
+      "meaningVi": "sát cạnh",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "孩子挨着窗边坐，听见声音就站起来。",
+        "py": "hái zi āi zhe chuāng biān zuò , tīng jiàn shēng yīn jiù zhàn qǐ lái .",
+        "en": "The child sat by the window and stood on hearing the sound."
+      },
+      "usageNote": "[GF2021:L6:9] Source entry: 挨着; āizhe; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w30",
+      "hanzi": "对抗",
+      "pinyin": "duì kàng",
+      "meaning": "oppose; confrontation",
+      "meaningVi": "đối đầu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我们没有对抗，只是在请大家别走过来。",
+        "py": "wǒ men méi yǒu duì kàng , zhǐ shì zài qǐng dà jiā bié zǒu guò lái .",
+        "en": "We weren’t confronting anyone, just asking people not to come closer."
+      },
+      "usageNote": "[GF2021:L6:2030] Source entry: 对抗; duìkàng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w31",
+      "hanzi": "足以",
+      "pinyin": "zú yǐ",
+      "meaning": "be enough to",
+      "meaningVi": "đủ để",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "一张照片不足以说明之前发生了什么。",
+        "py": "yī zhāng zhào piān bù zú yǐ shuō míng zhī qián fā shēng le shén me .",
+        "en": "One photo isn’t enough to establish what happened beforehand."
+      },
+      "usageNote": "[GF2021:L6:11004] Source entry: 足以; zúyǐ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u03-w32",
+      "hanzi": "此处",
+      "pinyin": "cǐ chù",
+      "meaning": "here; this place",
+      "meaningVi": "nơi này",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "此处暂时不能通行，请从另一边走。",
+        "py": "cǐ chù zàn shí bù néng tōng xíng , qǐng cóng lìng yī biān zǒu .",
+        "en": "This area is temporarily blocked; use the other side."
+      },
+      "usageNote": "[GF2021:L6:1303] Source entry: 此处; cǐ chù; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u03-g01",
+      "pattern": "据…",
+      "purpose": "Attribute an account to its source",
+      "explanation": "据 points to a stated source. It preserves attribution rather than turning the report into the speaker’s firsthand observation.",
+      "examples": [
+        {
+          "zh": "据店员的说明，是她的袖子碰到了杯子。",
+          "py": "jù diàn yuán de shuō míng , shì tā de xiù zi pèng dào le bēi zi .",
+          "en": "According to the worker, her sleeve caught the glass."
+        },
+        {
+          "zh": "据通知，活动改到周日。",
+          "py": "jù tōng zhī , huó dòng gǎi dào zhōu rì .",
+          "en": "According to the notice, the event has moved to Sunday."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "据她的说明，所以我亲眼看见她全部的动作。",
+          "right": "据店员的说明，是她的袖子碰到了杯子。",
+          "why": "Attributed information is not automatically witnessed information."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u03-g02",
+      "pattern": "不但没有…，反而…",
+      "purpose": "Identify an unintended opposite effect",
+      "explanation": "反而 contrasts with the expected effect supplied by context. It need not reverse every fact.",
+      "examples": [
+        {
+          "zh": "剪掉地面不但没有说明清楚，反而让人误会。",
+          "py": "jiǎn diào dì miàn bù dàn méi yǒu shuō míng qīng chǔ , fǎn ér ràng rén wù huì .",
+          "en": "Cropping out the floor did not clarify things; it caused misunderstanding."
+        },
+        {
+          "zh": "我想帮她，反而挡住了通道。",
+          "py": "wǒ xiǎng bāng tā , fǎn ér dǎng zhù le tōng dào .",
+          "en": "I meant to help but instead blocked the passage."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "剪掉地面说明得更清楚，反而符合原来的目的。",
+          "right": "剪掉地面不但没有说明清楚，反而让人误会。",
+          "why": "The effect conflicts with the attempted clarification."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u03-g03",
+      "pattern": "时而…，时而…",
+      "purpose": "Describe alternating behaviour in narration",
+      "explanation": "Repeated 时而 describes different actions or states at different moments. It does not mean simultaneous actions or a fixed routine.",
+      "examples": [
+        {
+          "zh": "她时而看门口，时而看窗边。",
+          "py": "tā shí ér kàn mén kǒu , shí ér kàn chuāng biān .",
+          "en": "She looked towards the entrance at times and towards the window at others."
+        },
+        {
+          "zh": "他时而看照片，时而读说明。",
+          "py": "tā shí ér kàn zhào piān , shí ér dú shuō míng .",
+          "en": "He alternated between the photograph and the explanation."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "他时而看照片，时而读说明，意思是两个动作每次同时进行。",
+          "right": "他时而看照片，时而读说明。",
+          "why": "The two actions alternate across moments."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u03-g04",
+      "pattern": "连…都…，更…",
+      "purpose": "Build a reasoned comparison",
+      "explanation": "The 更 clause extends the difficulty or limit. It does not supply new evidence for an unseen event.",
+      "examples": [
+        {
+          "zh": "连前一刻都没看见，更不能说全程亲眼看到。",
+          "py": "lián qián yī kè dōu méi kàn jiàn , gèng bù néng shuō quán chéng qīn yǎn kàn dào .",
+          "en": "I didn’t even see the previous moment, still less the whole event."
+        },
+        {
+          "zh": "连地面都没拍到，更难凭照片解释那句提醒。",
+          "py": "lián dì miàn dōu méi pāi dào , gèng nán píng zhào piān jiě shì nà jù tí xǐng .",
+          "en": "The photo misses even the floor, making the warning harder to explain from it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "连前一刻都没看见，更能证明每个动作。",
+          "right": "连前一刻都没看见，更不能说全程亲眼看到。",
+          "why": "Missing an essential view limits the claim."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u03-g05",
+      "pattern": "就是/这就是说",
+      "purpose": "Paraphrase without enlarging a claim",
+      "explanation": "A paraphrase must retain scope. 就是说 can also introduce a clarification question; it need not settle the question.",
+      "examples": [
+        {
+          "zh": "我没看到前一刻。就是说，你只能讲后面看到的部分？",
+          "py": "wǒ méi kàn dào qián yī kè . jiù shì shuō , nǐ zhǐ néng jiǎng hòu miàn kàn dào de bù fèn ?",
+          "en": "I missed the prior moment. So you can only describe what you saw afterwards?"
+        },
+        {
+          "zh": "图里没有声音，这就是说不能从它听见说了什么。",
+          "py": "tú lǐ méi yǒu shēng yīn , zhè jiù shì shuō bù néng cóng tā tīng jiàn shuō le shén me .",
+          "en": "The photo has no audio, so you can’t hear the words from it."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我没看到前一刻，就是说我看到整个经过。",
+          "right": "我没看到前一刻，就是说我只能讲后面看到的部分。",
+          "why": "A paraphrase must not turn a limit into total knowledge."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u03-g06",
+      "pattern": "或…或…",
+      "purpose": "Present possible alternatives in narration",
+      "explanation": "或A或B is concise written coordination. Listed possibilities do not alone establish which occurred.",
+      "examples": [
+        {
+          "zh": "声音大，或是生气，或是提醒远处的人。",
+          "py": "shēng yīn dà , huò shì shēng qì , huò shì tí xǐng yuǎn chù de rén .",
+          "en": "Loudness may be anger or a warning to people farther away."
+        },
+        {
+          "zh": "他或在看图，或在读后面的说明。",
+          "py": "tā huò zài kàn tú , huò zài dú hòu miàn de shuō míng .",
+          "en": "He may be looking at the image or reading the later explanation."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "声音大，或是生气，或是提醒，所以已经确定是生气。",
+          "right": "声音大，或是生气，或是提醒远处的人。",
+          "why": "Alternatives leave selection to additional context."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u03-d",
+    "title": "照片之外的那一刻",
+    "titleZh": "照片之外的那一刻",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你去那家咖啡店时，他们是不是在吵架？",
+        "py": "nǐ qù nà jiā kā fēi diàn shí , tā men shì bú shì zài chǎo jià ?",
+        "en": "Were they arguing when you went to that café?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没有啊。谁说在吵？",
+        "py": "méi yǒu a . shéi shuō zài chǎo ?",
+        "en": "No. Who said they were?",
+        "speaker": "b"
+      },
+      {
+        "zh": "群里有张照片，还说听见店员喊别动。",
+        "py": "qún lǐ yǒu zhāng zhào piān , hái shuō tīng jiàn diàn yuán hǎn bié dòng .",
+        "en": "There’s a photo in the group, and someone heard a worker shout “Don’t move.”",
+        "speaker": "a"
+      },
+      {
+        "zh": "别动是因为地上有碎玻璃，我差点走过去。",
+        "py": "bié dòng shì yīn wèi dì shang yǒu suì bō lí , wǒ chà diǎn zǒu guò qù .",
+        "en": "That was because of broken glass on the floor. I nearly walked over it.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我以为她在凶那个站着的人。",
+        "py": "wǒ yǐ wéi tā zài xiōng nà gè zhàn zhe de rén .",
+        "en": "I thought she was snapping at the person standing there.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那个人是我。我想帮忙捡，她让我先停。",
+        "py": "nà gè rén shì wǒ . wǒ xiǎng bāng máng jiǎn , tā ràng wǒ xiān tíng .",
+        "en": "That person was me. I wanted to pick it up and she stopped me.",
+        "speaker": "b"
+      },
+      {
+        "zh": "照片里看不见地上，只看见你们站着。",
+        "py": "zhào piān lǐ kàn bú jiàn dì shang , zhǐ kàn jiàn nǐ men zhàn zhe .",
+        "en": "The photo doesn’t show the floor, just the two of you standing.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你看看原图，下面那一截被去掉了。",
+        "py": "nǐ kàn kàn yuán tú , xià miàn nà yī jié bèi qù diào le .",
+        "en": "Look at the original; the bottom part was cropped out.",
+        "speaker": "b"
+      },
+      {
+        "zh": "原来还有杯子。是谁碰倒的？",
+        "py": "yuán lái hái yǒu bēi zi . shì shéi pèng dào de ?",
+        "en": "There was a glass. Who knocked it over?",
+        "speaker": "a"
+      },
+      {
+        "zh": "店员说她袖子碰到了。我当时低头拿包，没看见那一下。",
+        "py": "diàn yuán shuō tā xiù zi pèng dào le . wǒ dāng shí dī tóu ná bāo , méi kàn jiàn nà yī xià .",
+        "en": "She said her sleeve caught it. I was looking down for my bag and missed that moment.",
+        "speaker": "b"
+      },
+      {
+        "zh": "所以你只听见声，没看见碰杯子那一下？",
+        "py": "suǒ yǐ nǐ zhǐ tīng jiàn shēng , méi kàn jiàn pèng bēi zi nà yī xià ?",
+        "en": "So you heard the sound but didn't see the moment the glass was knocked over?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，我听见响声抬头，杯子已经在地上了。",
+        "py": "duì , wǒ tīng jiàn xiǎng shēng tái tóu , bēi zi yǐ jīng zài dì shang le .",
+        "en": "Right. When I looked up at the sound, it was already on the floor.",
+        "speaker": "b"
+      },
+      {
+        "zh": "不过你看见她后面在做什么？",
+        "py": "bù guò nǐ kàn jiàn tā hòu miàn zài zuò shén me ?",
+        "en": "But you saw what she did afterwards?",
+        "speaker": "a"
+      },
+      {
+        "zh": "她让门口的人等一下，再请窗边的孩子别过来。",
+        "py": "tā ràng mén kǒu de rén děng yī xià , zài qǐng chuāng biān de hái zi bié guò lái .",
+        "en": "She asked the people at the door to wait and the child by the window not to approach.",
+        "speaker": "b"
+      },
+      {
+        "zh": "难怪声音大一点。那后面怎么了？",
+        "py": "nán guài shēng yīn dà yī diǎn . nà hòu miàn zěn me le ?",
+        "en": "That explains being a little louder. What happened next?",
+        "speaker": "a"
+      },
+      {
+        "zh": "她把那一块收干净，我们才继续坐。没有谁被赶出去。",
+        "py": "tā bǎ nà yī kuài shōu gān jìng , wǒ men cái jì xù zuò . méi yǒu shéi bèi gǎn chū qù .",
+        "en": "She cleaned that area, then we sat again. Nobody was made to leave.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这张照片配上吵架两个字，真变了一个故事。",
+        "py": "zhè zhāng zhào piān pèi shàng chǎo jià liǎng gè zì , zhēn biàn le yī gè gù shì .",
+        "en": "Pairing the photo with “argument” made a different story.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，不过别又写成我全都看见了。",
+        "py": "duì , bù guò bié yòu xiě chéng wǒ quán dōu kàn jiàn le .",
+        "en": "Yes, but don’t now write that I saw everything.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我把原图和你看到的部分一起发回去，可以吗？",
+        "py": "wǒ bǎ yuán tú hé nǐ kàn dào de bù fèn yì qǐ fā huí qù , kě yǐ ma ?",
+        "en": "Can I post the original with the part you actually saw?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，先把我是站着的那个人说清。",
+        "py": "kě yǐ , xiān bǎ wǒ shì zhàn zhe de nà gè rén shuō qīng .",
+        "en": "Yes. First make it clear I am the standing person.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我也改一下刚才那条，说吵架没有依据。",
+        "py": "nà wǒ yě gǎi yī xià gāng cái nà tiáo , shuō chǎo jià méi yǒu yī jù .",
+        "en": "Then I’ll correct my earlier post: there’s no basis for the argument claim.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢。杯子确实倒了，可我们真的没吵架。",
+        "py": "xiè xiè . bēi zi què shí dào le , kě wǒ men zhēn de méi chǎo jià .",
+        "en": "Thanks. The glass did fall, but we really weren't arguing.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我懂。下次先问，不急着给照片写故事。",
+        "py": "wǒ dǒng . xià cì xiān wèn , bù jí zhe gěi zhào piān xiě gù shì .",
+        "en": "I understand. Next time I’ll ask before making up a story for the photo.",
+        "speaker": "a"
+      },
+      {
+        "zh": "故事可以写，别写成我们真的吵了。",
+        "py": "gù shì kě yǐ xiě , bié xiě chéng wǒ men zhēn de chǎo le .",
+        "en": "You can write stories—just don’t turn ours into a real argument.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "凶",
+        "pinyin": "xiōng",
+        "meaning": "fierce; harsh"
+      },
+      {
+        "hanzi": "袖",
+        "pinyin": "xiù",
+        "meaning": "sleeve"
+      },
+      {
+        "hanzi": "袖子",
+        "pinyin": "xiù zi",
+        "meaning": "sleeve"
+      },
+      {
+        "hanzi": "玻璃",
+        "pinyin": "bō lí",
+        "meaning": "glass material"
+      },
+      {
+        "hanzi": "截",
+        "pinyin": "jié",
+        "meaning": "section; cut off"
+      },
+      {
+        "hanzi": "配",
+        "pinyin": "pèi",
+        "meaning": "match; accompany"
+      },
+      {
+        "hanzi": "碎",
+        "pinyin": "suì",
+        "meaning": "broken; fragment"
+      },
+      {
+        "hanzi": "抬",
+        "pinyin": "tái",
+        "meaning": "lift; carry together"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "Why was别动said loudly?",
+        "choices": [
+          "To warn several people about glass on the floor",
+          "To force the standing guest out",
+          "To accuse a guest of deliberate damage"
+        ],
+        "answer": "To warn several people about glass on the floor"
+      },
+      {
+        "type": "detail",
+        "q": "What did the standing guest miss?",
+        "choices": [
+          "The moment before the glass fell",
+          "All events after the sound",
+          "The later clean-up entirely"
+        ],
+        "answer": "The moment before the glass fell"
+      },
+      {
+        "type": "inference",
+        "q": "Why keep the original image with the correction?",
+        "choices": [
+          "To restore missing context without claiming the photograph explains everything",
+          "To make the guest an eyewitness to the sleeve movement",
+          "To prove no glass broke"
+        ],
+        "answer": "To restore missing context without claiming the photograph explains everything"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "那个人是我。我想帮忙【捡】，她让我先停。",
+          "py": "nà gè rén shì wǒ . wǒ xiǎng bāng máng jiǎn , tā ràng wǒ xiān tíng .",
+          "en": "That person was me. I wanted to pick it up and she stopped me.",
+          "speaker": "b"
+        },
+        {
+          "zh": "对，我听见【响声】抬头，杯子已经在地上了。",
+          "py": "duì , wǒ tīng jiàn xiǎng shēng tái tóu , bēi zi yǐ jīng zài dì shang le .",
+          "en": "Right. When I looked up at the sound, it was already on the floor.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我也改一下刚才那条，说吵架没有依【据】。",
+          "py": "nà wǒ yě gǎi yī xià gāng cái nà tiáo , shuō chǎo jià méi yǒu yī jù .",
+          "en": "Then I’ll correct my earlier post: there’s no basis for the argument claim.",
+          "speaker": "a"
+        }
+      ],
+      "bank": [
+        "捡",
+        "响声",
+        "据",
+        "明天"
+      ]
+    }
+  },
+  "reading": {
+    "id": "s6-u03-r",
+    "title": "照片之外的那一刻",
+    "titleZh": "照片之外的那一刻",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "陈宇把照片发给我时，我正坐在回家的公交车上。屏幕上一个人站在桌旁，店员伸着手，旁边还有一句：这家店怎么跟客人吵起来了？我放大一看，站着的人竟然是自己。上午我在那里等林安，等她来了，我们还一起吃了午饭。几个小时过去，群里却已经传出另一种说法。我给陈宇回了句没有吵，然后问他照片是谁拍的。",
+        "py": "chén yǔ bǎ zhào piān fā gěi wǒ shí , wǒ zhèng zuò zài huí jiā de gōng jiāo chē shàng . píng mù shàng yī gè rén zhàn zài zhuō páng , diàn yuán shēn zhuó shǒu , páng biān hái yǒu yī jù : zhè jiā diàn zěn me gēn kè rén chǎo qǐ lái le ? wǒ fàng dà yī kàn , zhàn zhe de rén jìng rán shì zì jǐ . shàng wǔ wǒ zài nà lǐ děng lín ān , děng tā lái le , wǒ men hái yì qǐ chī le wǔ fàn . jǐ gè xiǎo shí guò qù , qún lǐ què yǐ jīng chuán chū lìng yī zhǒng shuō fǎ . wǒ gěi chén yǔ huí le jù méi yǒu chǎo , rán hòu wèn tā zhào piān shì shéi pāi de .",
+        "en": "Chen Yu sent the photo while I was on the bus home. A standing guest and an outstretched hand were captioned as an argument. The guest was me; after waiting for Lin An that morning, we'd had lunch there. I denied the argument and asked who had taken the photo."
+      },
+      {
+        "zh": "上午那声响声来得突然。我恰好低头拿包，想把充电线借给林安，先听见杯子落地，随后才抬起头。店员让我别动，我一下站住，还以为自己的包挡了她。她指了指脚边，我才看到玻璃和一小片水。她说刚才收盘子时袖子碰到了杯沿，先跟我道歉，再请我往旁边坐。那一下我没亲眼看见，后来的提醒和收拾倒记得很清楚。",
+        "py": "shàng wǔ nà shēng xiǎng shēng lái de tū rán . wǒ qià hǎo dī tóu ná bāo , xiǎng bǎ chōng diàn xiàn jiè gěi lín ān , xiān tīng jiàn bēi zi luò dì , suí hòu cái tái qǐ tóu . diàn yuán ràng wǒ bié dòng , wǒ yī xià zhàn zhù , hái yǐ wéi zì jǐ de bāo dǎng le tā . tā zhǐ le zhǐ jiǎo biān , wǒ cái kàn dào bō lí hé yī xiǎo piàn shuǐ . tā shuō gāng cái shōu pán zi shí xiù zi pèng dào le bēi yán , xiān gēn wǒ dào qiàn , zài qǐng wǒ wǎng páng biān zuò . nà yī xià wǒ méi qīn yǎn kàn jiàn , hòu lái de tí xǐng hé shōu shí dào jì de hěn qīng chǔ .",
+        "en": "I was looking down for a charging cable when the glass fell. At first I thought my bag was in the way. The worker pointed to glass and water, explained that her sleeve had caught the rim while clearing plates, and apologised. I had missed the contact but remembered the warning and clean-up."
+      },
+      {
+        "zh": "门口两位客人正要进来，窗边一个孩子听到响声也站了起来。店员时而看门口，时而看窗边，请他们先等一下。她的声音比平时大，我离她最近，确实被吓了一跳。林安走进来时，只看到大家停在原地，问是不是还没营业。我说不是，刚才掉了个杯子。她把借来的伞靠在门边，笑着问：那我来得还挺会挑时候？",
+        "py": "mén kǒu liǎng wèi kè rén zhèng yào jìn lái , chuāng biān yī gè hái zi tīng dào xiǎng shēng yě zhàn le qǐ lái . diàn yuán shí ér kàn mén kǒu , shí ér kàn chuāng biān , qǐng tā men xiān děng yī xià . tā de shēng yīn bǐ píng shí dà , wǒ lí tā zuì jìn , què shí bèi xià le yī tiào . lín ān zǒu jìn lái shí , zhǐ kàn dào dà jiā tíng zài yuán dì , wèn shì bú shì hái méi yíng yè . wǒ shuō bù shì , gāng cái diào le gè bēi zi . tā bǎ jiè lái de sǎn kào zài mén biān , xiào zhe wèn : nà wǒ lái de hái tǐng huì tiāo shí hou ?",
+        "en": "Two arriving guests and a child by the window also stopped. The worker looked between them and spoke loudly enough for all to hear. Lin An walked into the paused scene and joked about her timing when I explained the glass."
+      },
+      {
+        "zh": "陈宇又发来一张原图。这次桌边、椅子和地板都在，店员指向哪里也看得出来。群里的图把下面裁掉了，只剩两个人面对面站着。我问他为什么要裁，他说转发的人嫌下面乱，想让人看清表情。我想起自己当时那张严肃的脸：不是生气，是看了半天还没分清她在指哪个地方。要是只有那张小图，我也会想问一句出了什么事。",
+        "py": "chén yǔ yòu fā lái yī zhāng yuán tú . zhè cì zhuō biān , yǐ zi hé dì bǎn dōu zài , diàn yuán zhǐ xiàng nǎ lǐ yě kàn de chū lái . qún lǐ de tú bǎ xià miàn cái diào le , zhǐ shèng liǎng gè rén miàn duì miàn zhàn zhe . wǒ wèn tā wèi shén me yào cái , tā shuō zhuǎn fā de rén xián xià miàn luàn , xiǎng ràng rén kàn qīng biǎo qíng . wǒ xiǎng qǐ zì jǐ dāng shí nà zhāng yán sù de liǎn : bù shì shēng qì , shì kàn le bàn tiān hái méi fēn qīng tā zài zhǐ nǎ gè dì fāng . yào shì zhǐ yǒu nà zhāng xiǎo tú , wǒ yě huì xiǎng wèn yī jù chū le shén me shì .",
+        "en": "The original showed the table, chairs, floor and the worker's gesture. The repost had cropped off that context to emphasise faces. My serious expression came from trying to see what she was pointing at; even I would have wondered about the cropped image."
+      },
+      {
+        "zh": "照片是坐在窗边的朋友拍的，原本想记录店里的下午光线，没想到刚好拍到这一刻。陈宇联系了她，她说原图可以放回原来的群，但不想再被转到别处。我把上午的经过写了几句，写到杯子怎么掉时，改成店员说袖子碰到了杯子。随后把文字发给林安，请她看看有没有把先后顺序写反。她回了一个笑脸，说别忘了自己进门时那句还没营业。",
+        "py": "zhào piān shì zuò zài chuāng biān de péng you pāi de , yuán běn xiǎng jì lù diàn lǐ de xià wǔ guāng xiàn , méi xiǎng dào gāng hǎo pāi dào zhè yī kè . chén yǔ lián xì le tā , tā shuō yuán tú kě yǐ fàng huí yuán lái de qún , dàn bù xiǎng zài bèi zhuǎn dào bié chù . wǒ bǎ shàng wǔ de jīng guò xiě le jǐ jù , xiě dào bēi zi zěn me diào shí , gǎi chéng diàn yuán shuō xiù zi pèng dào le bēi zi . suí hòu bǎ wén zì fā gěi lín ān , qǐng tā kàn kàn yǒu méi yǒu bǎ xiān hòu shùn xù xiě fǎn . tā huí le yī gè xiào liǎn , shuō bié wàng le zì jǐ jìn mén shí nà jù hái méi yíng yè .",
+        "en": "The photographer had been recording the light and allowed the original to be reposted only in the same group. I wrote a brief account, attributed the sleeve contact to the worker, and asked Lin An to check the sequence. She reminded me of her opening joke."
+      },
+      {
+        "zh": "林安还有一张午饭的照片，里面我们已经坐回去了，桌上放着新水杯。她问要不要一起发，我说留一张原图和几句说明就够了，免得越写越长。陈宇却说大家可能不信那么短。我把他的手机拿过来看，他的草稿已经写到这家店一向服务很好。我问他以前来过几次，他说一次。我笑了：那就写你今天看到的，别替人家写十年的介绍。",
+        "py": "lín ān hái yǒu yī zhāng wǔ fàn de zhào piān , lǐ miàn wǒ men yǐ jīng zuò huí qù le , zhuō shàng fàng zhe xīn shuǐ bēi . tā wèn yào bù yào yì qǐ fā , wǒ shuō liú yī zhāng yuán tú hé jǐ jù shuō míng jiù gòu le , miǎn de yuè xiě yuè zhǎng . chén yǔ què shuō dà jiā kě néng bù xìn nà me duǎn . wǒ bǎ tā de shǒu jī ná guò lái kàn , tā de cǎo gǎo yǐ jīng xiě dào zhè jiā diàn yí xiàng fú wù hěn hǎo . wǒ wèn tā yǐ qián lái guò jǐ cì , tā shuō yī cì . wǒ xiào le : nà jiù xiě nǐ jīn tiān kàn dào de , bié tì rén jiā xiě shí nián de jiè shào .",
+        "en": "Lin An offered a lunch photo, but I preferred one original and a short account. Chen Yu wanted to add a sweeping endorsement after only one visit. I teased him to write about that day rather than invent a decade of experience."
+      },
+      {
+        "zh": "发回群里后，有人先问水是不是热的。我说是冷水，桌上的茶壶没有倒；杯子碎了，大家还是等了一会儿。接着有人认出林安，问她是不是又迟到。她马上接了一句：今天真没有，是我朋友来得太早。这一下话题轻松了不少。最早转发照片的人也看到了说明，删掉原来的吵架二字，补上原图。陈宇把那条消息给我看，才终于放下手机。",
+        "py": "fā huí qún lǐ hòu , yǒu rén xiān wèn shuǐ shì bú shì rè de . wǒ shuō shì lěng shuǐ , zhuō shàng de chá hú méi yǒu dào ; bēi zi suì le , dà jiā hái shi děng le yī huì er . jiē zhe yǒu rén rèn chū lín ān , wèn tā shì bú shì yòu chí dào . tā mǎ shàng jiē le yī jù : jīn tiān zhēn méi yǒu , shì wǒ péng you lái de tài zǎo . zhè yī xià huà tí qīng sōng le bù shǎo . zuì zǎo zhuǎn fā zhào piān de rén yě kàn dào le shuō míng , shān diào yuán lái de chǎo jià èr zì , bǔ shàng yuán tú . chén yǔ bǎ nà tiáo xiāo xī gěi wǒ kàn , cái zhōng yú fàng xià shǒu jī .",
+        "en": "Readers asked whether the water was hot. I explained the cold-water glass, upright teapot and wait. Someone teased Lin An about lateness; she defended herself, lightening the conversation. The original poster corrected the caption and restored the full image."
+      },
+      {
+        "zh": "快到站时，陈宇打来电话。他本来就要去附近买书，问我还想不想坐一会儿。我说手机快没电了，他立刻说自己带着充电线。我想起上午那条线就是给林安拿的，借出去还没拿回来。我们约在书店门口，我下车后先给林安发消息，她回了张线躺在包里的照片，说晚饭时带来。我告诉她不用特意跑，她说反正就在旁边。",
+        "py": "kuài dào zhàn shí , chén yǔ dǎ lái diàn huà . tā běn lái jiù yào qù fù jìn mǎi shū , wèn wǒ hái xiǎng bù xiǎng zuò yī huì er . wǒ shuō shǒu jī kuài méi diàn le , tā lì kè shuō zì jǐ dài zhe chōng diàn xiàn . wǒ xiǎng qǐ shàng wǔ nà tiáo xiàn jiù shì gěi lín ān ná de , jiè chū qù hái méi ná huí lái . wǒ men yuē zài shū diàn mén kǒu , wǒ xià chē hòu xiān gěi lín ān fā xiāo xī , tā huí le zhāng xiàn tǎng zài bāo lǐ de zhào piān , shuō wǎn fàn shí dài lái . wǒ gào sù tā bù yòng tè yì pǎo , tā shuō fǎn zhèng jiù zài páng biān .",
+        "en": "Near my stop, Chen Yu called about meeting at a bookshop. He had a charging cable; mine was still with Lin An. She sent a photo of it in her bag and offered to return it at dinner nearby."
+      },
+      {
+        "zh": "晚上我们三个人又坐到一起。陈宇指着桌上的杯子说今天拍照记得拍全，我说你最好先把自己的手指从镜头前拿开。林安笑得差点喝不下水。后来聊到上午的照片，她问我现在还觉得那声别动凶不凶。我说当时听着真凶，知道脚边有玻璃以后，就明白她为什么急了。陈宇说自己早上只看一张图，倒像已经在现场待了半天。",
+        "py": "wǎn shang wǒ men sān gè rén yòu zuò dào yì qǐ . chén yǔ zhǐ zhe zhuō shàng de bēi zi shuō jīn tiān pāi zhào jì de pāi quán , wǒ shuō nǐ zuì hǎo xiān bǎ zì jǐ de shǒu zhǐ cóng jìng tóu qián ná kāi . lín ān xiào de chà diǎn hē bù xià shuǐ . hòu lái liáo dào shàng wǔ de zhào piān , tā wèn wǒ xiàn zài hái jué de nà shēng bié dòng xiōng bù xiōng . wǒ shuō dāng shí tīng zhe zhēn xiōng , zhī dào jiǎo biān yǒu bō lí yǐ hòu , jiù míng bái tā wèi shén me jí le . chén yǔ shuō zì jǐ zǎo shàng zhǐ kàn yī zhāng tú , dào xiàng yǐ jīng zài xiàn chǎng dài le bàn tiān .",
+        "en": "At dinner we joked about complete photos and Chen Yu's finger over the lens. I admitted that the warning had sounded harsh at first, though the glass explained the urgency. He laughed at how a single image had made him feel like an eyewitness."
+      },
+      {
+        "zh": "第二天我把那张照片存进手机，林安问留着干什么。我说这回表情虽然不好看，故事倒挺完整。她让我别发成正式介绍，怕以后每次去喝咖啡都有人认出我。我就给它换了个名字：借根充电线的一天。那声响、原图和群里的几句回复仍然记得，最清楚的却是晚上她笑得放下水杯的样子。窗边的朋友后来又拍了几张店里的照片，这次光线很好，桌上也没人站起来。",
+        "py": "dì èr tiān wǒ bǎ nà zhāng zhào piān cún jìn shǒu jī , lín ān wèn liú zhe gàn shén me . wǒ shuō zhè huí biǎo qíng suī rán bù hǎo kàn , gù shì dào tǐng wán zhěng . tā ràng wǒ bié fā chéng zhèng shì jiè shào , pà yǐ hòu měi cì qù hē kā fēi dōu yǒu rén rèn chū wǒ . wǒ jiù gěi tā huàn le gè míng zi : jiè gēn chōng diàn xiàn de yī tiān . nà shēng xiǎng , yuán tú hé qún lǐ de jǐ jù huí fù réng rán jì de , zuì qīng chǔ de què shì wǎn shang tā xiào de fàng xià shuǐ bēi de yàng zi . chuāng biān de péng you hòu lái yòu pāi le jǐ zhāng diàn lǐ de zhào piān , zhè cì guāng xiàn hěn hǎo , zhuō shàng yě méi rén zhàn qǐ lái .",
+        "en": "I saved the photo as “The day I borrowed a charging cable,” remembering dinner laughter most clearly. The photographer later returned for quieter pictures with good light and everyone sitting down."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "拾",
+        "pinyin": "shí",
+        "meaning": "pick up; gather"
+      },
+      {
+        "hanzi": "稿",
+        "pinyin": "gǎo",
+        "meaning": "draft; manuscript"
+      },
+      {
+        "hanzi": "躺",
+        "pinyin": "tǎng",
+        "meaning": "lie down"
+      },
+      {
+        "hanzi": "充电线",
+        "pinyin": "chōng diàn xiàn",
+        "meaning": "charging cable"
+      },
+      {
+        "hanzi": "凶",
+        "pinyin": "xiōng",
+        "meaning": "fierce; harsh"
+      },
+      {
+        "hanzi": "伸",
+        "pinyin": "shēn",
+        "meaning": "extend; reach"
+      },
+      {
+        "hanzi": "盘",
+        "pinyin": "pán",
+        "meaning": "plate; tray"
+      },
+      {
+        "hanzi": "袖",
+        "pinyin": "xiù",
+        "meaning": "sleeve"
+      },
+      {
+        "hanzi": "袖子",
+        "pinyin": "xiù zi",
+        "meaning": "sleeve"
+      },
+      {
+        "hanzi": "杯沿",
+        "pinyin": "bēi yán",
+        "meaning": "rim of a glass"
+      },
+      {
+        "hanzi": "玻璃",
+        "pinyin": "bō lí",
+        "meaning": "glass material"
+      },
+      {
+        "hanzi": "裁",
+        "pinyin": "cái",
+        "meaning": "cut; trim"
+      },
+      {
+        "hanzi": "严肃",
+        "pinyin": "yán sù",
+        "meaning": "serious"
+      },
+      {
+        "hanzi": "突",
+        "pinyin": "tū",
+        "meaning": "sudden"
+      },
+      {
+        "hanzi": "碎",
+        "pinyin": "suì",
+        "meaning": "broken; fragment"
+      },
+      {
+        "hanzi": "抬",
+        "pinyin": "tái",
+        "meaning": "lift; carry together"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the narrator correct?",
+        "choices": [
+          "An added argument story, while keeping the spill and warning",
+          "Every fact in the original event",
+          "The identity of the standing person"
+        ],
+        "answer": "An added argument story, while keeping the spill and warning"
+      },
+      {
+        "type": "detail",
+        "q": "What fell?",
+        "choices": [
+          "The cold-water glass",
+          "The teapot",
+          "A chair by the window"
+        ],
+        "answer": "The cold-water glass"
+      },
+      {
+        "type": "inference",
+        "q": "What can the narrator say about the sleeve?",
+        "choices": [
+          "It is the worker’s account, not their firsthand observation",
+          "They directly saw every movement",
+          "The photograph proves the sleeve movement"
+        ],
+        "answer": "It is the worker’s account, not their firsthand observation"
+      }
+    ]
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u03-media",
+      "title": "It is my face",
+      "titleZh": "It is my face",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你这张照片看着可严肃了。",
+          "py": "nǐ zhè zhāng zhào piān kàn zhe kě yán sù le .",
+          "en": "You look so serious in this photo.",
+          "speaker": "a"
+        },
+        {
+          "zh": "因为我没听清你在叫谁。",
+          "py": "yīn wèi wǒ méi tīng qīng nǐ zài jiào shéi .",
+          "en": "Because I couldn’t tell who you were calling.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我叫的是后面的树。",
+          "py": "wǒ jiào de shì hòu miàn de shù .",
+          "en": "I was calling the tree behind you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "树会转过来吗？",
+          "py": "shù huì zhuǎn guò lái ma ?",
+          "en": "Would the tree turn around?",
+          "speaker": "b"
+        },
+        {
+          "zh": "不会，所以还是你转。",
+          "py": "bù huì , suǒ yǐ hái shi nǐ zhuǎn .",
+          "en": "No, so you turn instead.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那你早说我的名字啊。",
+          "py": "nà nǐ zǎo shuō wǒ de míng zi a .",
+          "en": "Then say my name first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，林安，看这里。",
+          "py": "hǎo , lín ān , kàn zhè lǐ .",
+          "en": "Okay, Lin An, look here.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这回听清了。别又配上不高兴三个字。",
+          "py": "zhè huí tīng qīng le . bié yòu pèi shàng bù gāo xìng sān gè zì .",
+          "en": "I heard that. Don’t label it “unhappy” again.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那配什么？",
+          "py": "nà pèi shén me ?",
+          "en": "What label then?",
+          "speaker": "a"
+        },
+        {
+          "zh": "没听清。四个字也放得下。",
+          "py": "méi tīng qīng . sì gè zì yě fàng de xià .",
+          "en": "“Couldn’t hear clearly.” You can fit that too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你对照片的字很认真。",
+          "py": "nǐ duì zhào piàn de zì hěn rèn zhēn .",
+          "en": "You take captions seriously.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对，脸是我的，故事不能都由你写。",
+          "py": "duì , liǎn shì wǒ de , gù shì bù néng dōu yóu nǐ xiě .",
+          "en": "Yes. It’s my face; you don’t get to write every story.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "严肃",
+          "pinyin": "yán sù",
+          "meaning": "serious"
+        },
+        {
+          "hanzi": "配",
+          "pinyin": "pèi",
+          "meaning": "match; accompany"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Why did Lin An look serious?",
+          "choices": [
+            "They could not tell who was being called",
+            "They had already rejected the photograph",
+            "They were arguing with a tree"
+          ],
+          "answer": "They could not tell who was being called"
+        },
+        {
+          "type": "inference",
+          "q": "What is the caption joke about?",
+          "choices": [
+            "Not inventing an emotional story from an expression",
+            "Refusing to have any photograph taken",
+            "Proving all serious faces are angry"
+          ],
+          "answer": "Not inventing an emotional story from an expression"
+        }
+      ]
+    },
+    {
+      "id": "s6-u03-word-notebook",
+      "title": "What the photograph leaves out: words in context",
+      "titleZh": "照片之外的那一刻 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "杯子落地的响声，把我吓了一跳。",
+          "py": "bēi zi luò dì de xiǎng shēng , bǎ wǒ xià le yī tiào .",
+          "en": "The sound of the glass falling startled me."
+        },
+        {
+          "zh": "楼道里传来一阵响声。",
+          "py": "lóu dào lǐ chuán lái yī zhèn xiǎng shēng .",
+          "en": "A noise came from the corridor."
+        },
+        {
+          "zh": "地板湿了，店员先让大家停一下。",
+          "py": "dì bǎn shī le , diàn yuán xiān ràng dà jiā tíng yī xià .",
+          "en": "The floor was wet, so the worker asked everyone to stop."
+        },
+        {
+          "zh": "她擦干了木地板。",
+          "py": "tā cā gàn le mù dì bǎn .",
+          "en": "She wiped the wooden floor dry."
+        },
+        {
+          "zh": "我没看清，差点踩到碎片。",
+          "py": "wǒ méi kàn qīng , chà diǎn cǎi dào suì piàn .",
+          "en": "I almost stepped on a fragment without seeing it."
+        },
+        {
+          "zh": "别踩刚种好的花。",
+          "py": "bié cǎi gāng zhǒng hǎo de huā .",
+          "en": "Don’t step on the newly planted flowers."
+        },
+        {
+          "zh": "我想捡，她说先别动。",
+          "py": "wǒ xiǎng jiǎn , tā shuō xiān bié dòng .",
+          "en": "I wanted to pick it up, but she said not to move yet."
+        },
+        {
+          "zh": "他捡起掉在门口的纸。",
+          "py": "tā jiǎn qǐ diào zài mén kǒu de zhǐ .",
+          "en": "He picks up the paper dropped by the door."
+        },
+        {
+          "zh": "杯子已经裂了，不能继续用。",
+          "py": "bēi zi yǐ jīng liè le , bù néng jì xù yòng .",
+          "en": "The glass was cracked and couldn’t be used."
+        },
+        {
+          "zh": "这块木头从中间裂开了。",
+          "py": "zhè kuài mù tou cóng zhōng jiān liè kāi le .",
+          "en": "The wood split down the middle."
+        },
+        {
+          "zh": "我坐在门的另一侧，没看到桌边。",
+          "py": "wǒ zuò zài mén de lìng yī cè , méi kàn dào zhuō biān .",
+          "en": "I sat on the other side of the door and didn’t see the table edge."
+        },
+        {
+          "zh": "请从左侧进入。",
+          "py": "qǐng cóng zuǒ cè jìn rù .",
+          "en": "Please enter from the left side."
+        },
+        {
+          "zh": "通道两侧都有人，店员请他们让开。",
+          "py": "tōng dào liǎng cè dōu yǒu rén , diàn yuán qǐng tā men ràng kāi .",
+          "en": "People stood on both sides of the passage and were asked to clear it."
+        },
+        {
+          "zh": "路的两侧种着树。",
+          "py": "lù de liǎng cè zhǒng zhe shù .",
+          "en": "Trees line both sides of the road."
+        },
+        {
+          "zh": "前方有人停下，我也没有往前走。",
+          "py": "qián fāng yǒu rén tíng xià , wǒ yě méi yǒu wǎng qián zǒu .",
+          "en": "Someone ahead stopped, and I stopped too."
+        },
+        {
+          "zh": "前方就是入口。",
+          "py": "qián fāng jiù shì rù kǒu .",
+          "en": "The entrance is ahead."
+        },
+        {
+          "zh": "地上的脚印不能说明是谁碰倒杯子。",
+          "py": "dì shang de jiǎo yìn bù néng shuō míng shì shéi pèng dào bēi zi .",
+          "en": "Footprints on the floor don’t establish who knocked over the glass."
+        },
+        {
+          "zh": "雨后路上留下了脚印。",
+          "py": "yǔ hòu lù shàng liú xià le jiǎo yìn .",
+          "en": "Footprints remained on the road after the rain."
+        },
+        {
+          "zh": "先区分我看到的和听别人说的。",
+          "py": "xiān qū fēn wǒ kàn dào de hé tīng bié ren shuō de .",
+          "en": "First distinguish what I saw from what others told me."
+        },
+        {
+          "zh": "我能区分这两种声音。",
+          "py": "wǒ néng qū fēn zhè liǎng zhǒng shēng yīn .",
+          "en": "I can distinguish these two sounds."
+        },
+        {
+          "zh": "我亲眼看见的是杯子落地，没看见前一刻。",
+          "py": "wǒ qīn yǎn kàn jiàn de shì bēi zi luò dì , méi kàn jiàn qián yī kè .",
+          "en": "I saw the glass fall, not the moment before."
+        },
+        {
+          "zh": "她亲眼看见门被打开。",
+          "py": "tā qīn yǎn kàn jiàn mén bèi dǎ kāi .",
+          "en": "She saw the door being opened herself."
+        },
+        {
+          "zh": "杯子落地时，我恰好低头拿包。",
+          "py": "bēi zi luò dì shí , wǒ qià hǎo dī tóu ná bāo .",
+          "en": "As the glass fell I happened to be looking down for my bag."
+        },
+        {
+          "zh": "他恰好带了多一把伞。",
+          "py": "tā qià hǎo dài le duō yī bǎ sǎn .",
+          "en": "He happened to have an extra umbrella."
+        },
+        {
+          "zh": "事后我才听到完整的经过。",
+          "py": "shì hòu wǒ cái tīng dào wán zhěng de jīng guò .",
+          "en": "Only afterwards did I hear the full account."
+        },
+        {
+          "zh": "她事后补了一封说明。",
+          "py": "tā shì hòu bǔ le yī fēng shuō míng .",
+          "en": "She added an explanatory letter afterwards."
+        },
+        {
+          "zh": "此前我只看过那张没有桌面的照片。",
+          "py": "cǐ qián wǒ zhǐ kàn guò nà zhāng méi yǒu zhuō miàn de zhào piān .",
+          "en": "Before this I had only seen the photo with the table cropped out."
+        },
+        {
+          "zh": "此前这家店只在晚上开门。",
+          "py": "cǐ qián zhè jiā diàn zhǐ zài wǎn shang kāi mén .",
+          "en": "Previously this shop only opened in the evening."
+        },
+        {
+          "zh": "两个人说的是同一声提醒，理解却不同。",
+          "py": "liǎng gè rén shuō de shì tóng yī shēng tí xǐng , lǐ jiě què bù tóng .",
+          "en": "They refer to the same warning but interpret it differently."
+        },
+        {
+          "zh": "这两封信不是同一天写的。",
+          "py": "zhè liǎng fēng xìn bù shì tóng yī tiān xiě de .",
+          "en": "These two letters weren’t written on the same day."
+        },
+        {
+          "zh": "传言说店员跟客人吵架，原来的消息没有这样写。",
+          "py": "chuán yán shuō diàn yuán gēn kè rén chǎo jià , yuán lái de xiāo xī méi yǒu zhè yàng xiě .",
+          "en": "A rumour said the worker argued with a guest; the original message didn’t say that."
+        },
+        {
+          "zh": "她没有把传言当成已经证实的消息。",
+          "py": "tā méi yǒu bǎ chuán yán dàng chéng yǐ jīng zhèng shí de xiāo xī .",
+          "en": "She didn’t treat the rumour as verified news."
+        },
+        {
+          "zh": "门里传出别动两个字，我没听见后面。",
+          "py": "mén lǐ chuán chū bié dòng liǎng gè zì , wǒ méi tīng jiàn hòu miàn .",
+          "en": "“Don’t move” came from inside; I missed what followed."
+        },
+        {
+          "zh": "小厅里传出笑声。",
+          "py": "xiǎo tīng lǐ chuán chū xiào shēng .",
+          "en": "Laughter came from the hall."
+        },
+        {
+          "zh": "店员回应时，先解释她在提醒地上的碎片。",
+          "py": "diàn yuán huí yìng shí , xiān jiě shì tā zài tí xǐng dì shang de suì piàn .",
+          "en": "In response the worker first explained the fragments on the floor."
+        },
+        {
+          "zh": "她没有马上回应那个问题。",
+          "py": "tā méi yǒu mǎ shàng huí yìng nà gè wèn tí .",
+          "en": "She didn’t answer that question immediately."
+        },
+        {
+          "zh": "我接收了照片，却还没看原来的文字。",
+          "py": "wǒ jiē shōu le zhào piān , què hái méi kàn yuán lái de wén zì .",
+          "en": "I received the photo without yet reading the original text."
+        },
+        {
+          "zh": "这个设备可以接收声音。",
+          "py": "zhè gè shè bèi kě yǐ jiē shōu shēng yīn .",
+          "en": "This equipment can receive sound."
+        },
+        {
+          "zh": "我们查看原图，才看到桌边和地面。",
+          "py": "wǒ men chá kàn yuán tú , cái kàn dào zhuō biān hé dì miàn .",
+          "en": "Checking the original photo revealed the table edge and floor."
+        },
+        {
+          "zh": "她查看了昨天的安排。",
+          "py": "tā chá kàn le zuó tiān de ān pái .",
+          "en": "She checked yesterday’s plan."
+        },
+        {
+          "zh": "据店员的说明，是她自己的袖子碰到了杯子。",
+          "py": "jù diàn yuán de shuō míng , shì tā zì jǐ de xiù zi pèng dào le bēi zi .",
+          "en": "According to the worker, her own sleeve caught the glass."
+        },
+        {
+          "zh": "据通知，活动改到周日。",
+          "py": "jù tōng zhī , huó dòng gǎi dào zhōu rì .",
+          "en": "According to the notice the event has moved to Sunday."
+        },
+        {
+          "zh": "说客人故意闹事，已经超出我看到的内容。",
+          "py": "shuō kè rén gù yì nào shì , yǐ jīng chāo chū wǒ kàn dào de nèi róng .",
+          "en": "Claiming deliberate trouble by a guest exceeds what I saw."
+        },
+        {
+          "zh": "这个安排超出我们原来讨论的范围。",
+          "py": "zhè gè ān pái chāo chū wǒ men yuán lái tǎo lùn de fàn wéi .",
+          "en": "This arrangement exceeds the scope we discussed."
+        },
+        {
+          "zh": "我忽略了照片没有拍到前一刻。",
+          "py": "wǒ hū lüè le zhào piān méi yǒu pāi dào qián yī kè .",
+          "en": "I overlooked that the photo didn’t show the preceding moment."
+        },
+        {
+          "zh": "她没有忽略那条小字说明。",
+          "py": "tā méi yǒu hū lüè nà tiáo xiǎo zì shuō míng .",
+          "en": "She didn’t overlook the fine-print explanation."
+        },
+        {
+          "zh": "我原来有把大声当成生气的倾向。",
+          "py": "wǒ yuán lái yǒu bǎ dà shēng dàng chéng shēng qì de qīng xiàng .",
+          "en": "I tended to equate loudness with anger."
+        },
+        {
+          "zh": "这两种选择反映了不同的倾向。",
+          "py": "zhè liǎng zhǒng xuǎn zé fǎn yìng le bù tóng de qīng xiàng .",
+          "en": "The two choices reflect different inclinations."
+        },
+        {
+          "zh": "照片被发进一个本地群，后来传得很快。",
+          "py": "zhào piān bèi fā jìn yī gè běn dì qún , hòu lái chuán de hěn kuài .",
+          "en": "The photo spread quickly after being posted in a local group."
+        },
+        {
+          "zh": "她在找本地的课程。",
+          "py": "tā zài zhǎo běn dì de kè chéng .",
+          "en": "She is looking for local courses."
+        },
+        {
+          "zh": "杯子里装的是冷水，不是热茶。",
+          "py": "bēi zi lǐ zhuāng de shì lěng shuǐ , bù shì rè chá .",
+          "en": "The glass contained cold water, not hot tea."
+        },
+        {
+          "zh": "他倒了一杯冷水。",
+          "py": "tā dào le yī bēi lěng shuǐ .",
+          "en": "He poured a glass of cold water."
+        },
+        {
+          "zh": "桌上的壶没有倒，倒的是旁边的杯子。",
+          "py": "zhuō shàng de hú méi yǒu dào , dào de shì páng biān de bēi zi .",
+          "en": "The pot remained upright; the glass beside it fell."
+        },
+        {
+          "zh": "这把壶是用来泡茶的。",
+          "py": "zhè bǎ hú shì yòng lái pào chá de .",
+          "en": "This pot is for brewing tea."
+        },
+        {
+          "zh": "厨师在后面工作，没有看到杯子怎么倒。",
+          "py": "chú shī zài hòu miàn gōng zuò , méi yǒu kàn dào bēi zi zěn me dào .",
+          "en": "The chef was working at the back and didn’t see the glass fall."
+        },
+        {
+          "zh": "这道菜是新来的厨师做的。",
+          "py": "zhè dào cài shì xīn lái de chú shī zuò de .",
+          "en": "The new chef made this dish."
+        },
+        {
+          "zh": "孩子挨着窗边坐，听见声音就站起来。",
+          "py": "hái zi āi zhe chuāng biān zuò , tīng jiàn shēng yīn jiù zhàn qǐ lái .",
+          "en": "The child sat by the window and stood on hearing the sound."
+        },
+        {
+          "zh": "两张小桌挨着放。",
+          "py": "liǎng zhāng xiǎo zhuō āi zhe fàng .",
+          "en": "The two small tables are placed next to each other."
+        },
+        {
+          "zh": "我们没有对抗，只是在请大家别走过来。",
+          "py": "wǒ men méi yǒu duì kàng , zhǐ shì zài qǐng dà jiā bié zǒu guò lái .",
+          "en": "We weren’t confronting anyone, just asking people not to come closer."
+        },
+        {
+          "zh": "讨论不必变成对抗。",
+          "py": "tǎo lùn bù bì biàn chéng duì kàng .",
+          "en": "Discussion needn’t become confrontation."
+        },
+        {
+          "zh": "一张照片不足以说明之前发生了什么。",
+          "py": "yī zhāng zhào piān bù zú yǐ shuō míng zhī qián fā shēng le shén me .",
+          "en": "One photo isn’t enough to establish what happened beforehand."
+        },
+        {
+          "zh": "这些例子足以说明两种用法不同。",
+          "py": "zhè xiē lì zi zú yǐ shuō míng liǎng zhǒng yòng fǎ bù tóng .",
+          "en": "These examples are enough to show the uses differ."
+        },
+        {
+          "zh": "此处暂时不能通行，请从另一边走。",
+          "py": "cǐ chù zàn shí bù néng tōng xíng , qǐng cóng lìng yī biān zǒu .",
+          "en": "This area is temporarily blocked; use the other side."
+        },
+        {
+          "zh": "地图上的此处是旧入口。",
+          "py": "dì tú shàng de cǐ chù shì jiù rù kǒu .",
+          "en": "This point on the map is the old entrance."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "泡",
+          "pinyin": "pào",
+          "meaning": "steep; soak"
+        },
+        {
+          "hanzi": "袖",
+          "pinyin": "xiù",
+          "meaning": "sleeve"
+        },
+        {
+          "hanzi": "袖子",
+          "pinyin": "xiù zi",
+          "meaning": "sleeve"
+        },
+        {
+          "hanzi": "碎片",
+          "pinyin": "suì piàn",
+          "meaning": "fragment"
+        },
+        {
+          "hanzi": "湿",
+          "pinyin": "shī",
+          "meaning": "wet"
+        },
+        {
+          "hanzi": "闹事",
+          "pinyin": "nào shì",
+          "meaning": "cause trouble"
+        },
+        {
+          "hanzi": "传言",
+          "pinyin": "chuán yán",
+          "meaning": "rumour"
+        },
+        {
+          "hanzi": "碎",
+          "pinyin": "suì",
+          "meaning": "broken; fragment"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u03-paired-reading",
+      "title": "The worker’s warning",
+      "titleZh": "The worker’s warning",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "那天上午客人不算多，我正准备把桌边的盘子收回去。站着那位客人的包放在椅子下面，他低头去找东西，我想从另一侧伸手拿盘子，袖子却碰到了水杯。杯子落下时，我先看到水，再听见玻璃碎的响声。以前做事急了也碰倒过东西，但这回旁边马上有人站起来，我连忙说了声别动，怕他低头找包时没看到脚边。",
+          "py": "nà tiān shàng wǔ kè rén bù suàn duō , wǒ zhèng zhǔn bèi bǎ zhuō biān de pán zi shōu huí qù . zhàn zhe nà wèi kè rén de bāo fàng zài yǐ zi xià miàn , tā dī tóu qù zhǎo dōng xi , wǒ xiǎng cóng lìng yī cè shēn shǒu ná pán zi , xiù zi què pèng dào le shuǐ bēi . bēi zi là xià shí , wǒ xiān kàn dào shuǐ , zài tīng jiàn bō lí suì de xiǎng shēng . yǐ qián zuò shì jí le yě pèng dào guò dōng xi , dàn zhè huí páng biān mǎ shàng yǒu rén zhàn qǐ lái , wǒ lián máng shuō le shēng bié dòng , pà tā dī tóu zhǎo bāo shí méi kàn dào jiǎo biān .",
+          "en": "While clearing plates that morning, my sleeve caught a guest's water glass. As it broke, he began to stand. I called out before he moved into the glass while still looking for something in his bag."
+        },
+        {
+          "zh": "他停住以后，门口又来了两位客人，窗边的孩子也想过来。我一边请门口的人等等，一边让孩子先坐好，声音确实提高了。离我最近的客人抬头看着我，我这才发现还没跟他解释。于是我指给他看地板，告诉他刚才是我的袖子碰到了杯子。他说想帮忙捡，我谢谢他，请他先坐到没有水的那边，自己去拿清理的东西。",
+          "py": "tā tíng zhù yǐ hòu , mén kǒu yòu lái le liǎng wèi kè rén , chuāng biān de hái zi yě xiǎng guò lái . wǒ yī biān qǐng mén kǒu de rén děng děng , yī biān ràng hái zi xiān zuò hǎo , shēng yīn què shí tí gāo le . lí wǒ zuì jìn de kè rén tái tóu kàn zhe wǒ , wǒ zhè cái fā xiàn hái méi gēn tā jiě shì . yú shì wǒ zhǐ gěi tā kàn dì bǎn , gào sù tā gāng cái shì wǒ de xiù zi pèng dào le bēi zi . tā shuō xiǎng bāng máng jiǎn , wǒ xiè xiè tā , qǐng tā xiān zuò dào méi yǒu shuǐ de nà biān , zì jǐ qù ná qīng lǐ de dōng xi .",
+          "en": "I asked arriving guests to wait and the child to sit, raising my voice. Then I explained the sleeve contact to the nearest guest. He offered to help; I thanked him and asked him to sit clear of the water."
+        },
+        {
+          "zh": "碎的是冷水杯，茶壶还在桌上。我收好地上的东西，给他换了新杯子，问刚才是不是吓到他了。他说开始真以为自己挡了我的路，后面才看到地上的玻璃。我又说了声抱歉。这几分钟他没法拿包，朋友来了也要等着落座，所以我赶快把桌边的椅子移好，再问他们午饭想坐窗边还是留在原来的位置。",
+          "py": "suì de shì lěng shuǐ bēi , chá hú hái zài zhuō shàng . wǒ shōu hǎo dì shang de dōng xi , gěi tā huàn le xīn bēi zi , wèn gāng cái shì bú shì xià dào tā le . tā shuō kāi shǐ zhēn yǐ wéi zì jǐ dǎng le wǒ de lù , hòu miàn cái kàn dào dì shang de bō lí . wǒ yòu shuō le shēng bào qiàn . zhè jǐ fēn zhōng tā méi fǎ ná bāo , péng you lái le yě yào děng zhuó luò zuò , suǒ yǐ wǒ gǎn kuài bǎ zhuō biān de yǐ zi yí hǎo , zài wèn tā men wǔ fàn xiǎng zuò chuāng biān hái shi liú zài yuán lái de wèi zhì .",
+          "en": "The glass held cold water; the teapot stayed upright. I cleaned, replaced the glass and apologised for startling him. He and his arriving friend had waited to sit, so I rearranged the chairs and offered a choice of tables for lunch."
+        },
+        {
+          "zh": "他朋友选了窗边，一坐下就问今天有什么吃的。厨师正好从后面出来，说有刚做好的面。他们一个点面，一个问能不能少放辣。我进去确认，回来时两人正在找一根充电线。刚才低头拿包的客人总算找到了，递给朋友，还说自己拿根线把全屋的人都吓住了。我忍不住笑了一下，告诉他不用这样说，杯子是我碰到的，线可没有伸手。",
+          "py": "tā péng you xuǎn le chuāng biān , yī zuò xià jiù wèn jīn tiān yǒu shén me chī de . chú shī zhèng hǎo cóng hòu miàn chū lái , shuō yǒu gāng zuò hǎo de miàn . tā men yī gè diǎn miàn , yī gè wèn néng bù néng shǎo fàng là . wǒ jìn qù què rèn , huí lái shí liǎng rén zhèng zài zhǎo yī gēn chōng diàn xiàn . gāng cái dī tóu ná bāo de kè rén zǒng suàn zhǎo dào le , dì gěi péng you , hái shuō zì jǐ ná gēn xiàn bǎ quán wū de rén dōu xià zhù le . wǒ rěn bú zhù xiào le yī xià , gào sù tā bù yòng zhè yàng shuō , bēi zi shì wǒ pèng dào de , xiàn kě méi yǒu shēn shǒu .",
+          "en": "His friend chose the window. After ordering noodles and checking the spice, they found the charging cable he had been looking for. He joked about startling the room to retrieve a cable; I laughed that the cable hadn't reached out and knocked the glass over."
+        },
+        {
+          "zh": "午间忙起来后，我差点忘了这件事。下午休息，一位朋友给我看群里的照片，问是不是有人跟我吵架。我先认出自己的手，再看到客人站着，心里一下有点紧。图里没有地面，看不出杯子，也看不出我是指向哪里。我把整张图找出来，发给朋友，又想了想早上说的话，担心客人只记得那声别动，已经不愿意再来。",
+          "py": "wǔ jiān máng qǐ lái hòu , wǒ chà diǎn wàng le zhè jiàn shì . xià wǔ xiū xī , yī wèi péng you gěi wǒ kàn qún lǐ de zhào piān , wèn shì bú shì yǒu rén gēn wǒ chǎo jià . wǒ xiān rèn chū zì jǐ de shǒu , zài kàn dào kè rén zhàn zhe , xīn lǐ yī xià yǒu diǎn jǐn . tú lǐ méi yǒu dì miàn , kàn bù chū bēi zi , yě kàn bù chū wǒ shì zhǐ xiàng nǎ lǐ . wǒ bǎ zhěng zhāng tú zhǎo chū lái , fā gěi péng you , yòu xiǎng le xiǎng zǎo shàng shuō de huà , dān xīn kè rén zhǐ jì de nà shēng bié dòng , yǐ jīng bù yuàn yì zài lái .",
+          "en": "At my afternoon break, a friend showed me the cropped photo and asked about an argument. With no floor or pointing context, it looked tense. I found the original and worried that the guest might remember only my sharp warning."
+        },
+        {
+          "zh": "朋友说站着的人已经在解释了，还把他的几句消息转给我。他写自己低头时没看到杯子怎么落下，也写后来听我说是袖子碰到了。我读完松了一口气，又请朋友问问，他愿不愿意让我补充一句道歉。对方说不用在群里写太长，上午已经听到两次了。我还是把新杯子的事和等候的几分钟写上，请朋友跟原图放在一起。",
+          "py": "péng you shuō zhàn zhe de rén yǐ jīng zài jiě shì le , hái bǎ tā de jǐ jù xiāo xī zhuǎn gěi wǒ . tā xiě zì jǐ dī tóu shí méi kàn dào bēi zi zěn me là xià , yě xiě hòu lái tīng wǒ shuō shì xiù zi pèng dào le . wǒ dú wán sōng le yì kǒu qì , yòu qǐng péng you wèn wèn , tā yuàn bù yuàn yì ràng wǒ bǔ chōng yī jù dào qiàn . duì fāng shuō bù yòng zài qún lǐ xiě tài zhǎng , shàng wǔ yǐ jīng tīng dào liǎng cì le . wǒ hái shi bǎ xīn bēi zi de shì hé děng hòu de jǐ fēn zhōng xiě shàng , qǐng péng you gēn yuán tú fàng zài yì qǐ .",
+          "en": "The guest was already explaining, distinguishing what he had seen from my account. I asked to add an apology. He replied that he'd already heard two that morning; I kept my note brief, including the replacement and wait."
+        },
+        {
+          "zh": "后来有人进店时问起照片，同事便指了指桌边，说就是这里。我听见后出来打了招呼，对方竟然只关心窗边那个位置下午有没有太阳。我们一起看了看窗外，我说三点以前光比较亮，过了三点就被楼挡住了。他问能不能下周带朋友来拍照，同事帮他记下时间。我才发现，大家对同一张照片留意的地方还真不同。",
+          "py": "hòu lái yǒu rén jìn diàn shí wèn qǐ zhào piān , tóng shì biàn zhǐ le zhǐ zhuō biān , shuō jiù shì zhè lǐ . wǒ tīng jiàn hòu chū lái dǎ le zhāo hū , duì fāng jìng rán zhǐ guān xīn chuāng biān nà gè wèi zhì xià wǔ yǒu méi yǒu tài yáng . wǒ men yì qǐ kàn le kàn chuāng wài , wǒ shuō sān diǎn yǐ qián guāng bǐ jiào liàng , guò le sān diǎn jiù bèi lóu dǎng zhù le . tā wèn néng bù néng xià zhōu dài péng you lái pāi zhào , tóng shì bāng tā jì xià shí jiān . wǒ cái fā xiàn , dà jiā duì tóng yī zhāng zhào piān liú yì de dì fāng hái zhēn bù tóng .",
+          "en": "Another visitor asked about the picture, but mainly wanted the sunny window seat for future photos. We checked the afternoon light and arranged a visit, reminding me that readers noticed different things in the same image."
+        },
+        {
+          "zh": "下班前，我跟同事把那排椅子挪了挪。原来两侧都放着包，有人进来时通道就显得窄。我负责收盘子，同事站在前方试着走了一遍，顺便提醒我袖口要留意。我把袖子折上去，她说看着像准备写作业。我说确实该认真一点了，然后把早上没收完的盘子拿回去。窗边的光已经淡了，桌子擦干以后，留下两个圆圆的杯印。",
+          "py": "xià bān qián , wǒ gēn tóng shì bǎ nà pái yǐ zi nuó le nuó . yuán lái liǎng cè dōu fàng zhe bāo , yǒu rén jìn lái shí tōng dào jiù xiǎn de zhǎi . wǒ fù zé shōu pán zi , tóng shì zhàn zài qián fāng shì zhe zǒu le yī biàn , shùn biàn tí xǐng wǒ xiù kǒu yào liú yì . wǒ bǎ xiù zi zhé shàng qù , tā shuō kàn zhe xiàng zhǔn bèi xiě zuò yè . wǒ shuō què shí gāi rèn zhēn yī diǎn le , rán hòu bǎ zǎo shàng mò shōu wán de pán zi ná huí qù . chuāng biān de guāng yǐ jīng dàn le , zhuō zi cā gàn yǐ hòu , liú xià liǎng gè yuán yuán de bēi yìn .",
+          "en": "Before closing, we adjusted the chairs and tried walking the passage. My colleague teased my rolled-up sleeves as a homework pose. I finished collecting plates while the window light faded and cup rings remained on the wiped table."
+        },
+        {
+          "zh": "第二天那位客人又来了，问新换的水杯是不是同一款。我说是，他先把包放到旁边，笑着说今天不用临时低头找了。随后他问能不能坐昨天的窗边，我带他过去，看到他朋友还带着那根线。她把线往桌上一放，说今天第一件事就是归还。我问午饭还吃面吗，两个人一起点头，客人又补了一句：水也照常，不用因为照片就换一整套餐具。",
+          "py": "dì èr tiān nà wèi kè rén yòu lái le , wèn xīn huàn de shuǐ bēi shì bú shì tóng yī kuǎn . wǒ shuō shì , tā xiān bǎ bāo fàng dào páng biān , xiào zhe shuō jīn tiān bù yòng lín shí dī tóu zhǎo le . suí hòu tā wèn néng bù néng zuò zuó tiān de chuāng biān , wǒ dài tā guò qù , kàn dào tā péng you hái dài zhe nà gēn xiàn . tā bǎ xiàn wǎng zhuō shàng yī fàng , shuō jīn tiān dì yī jiàn shì jiù shì guī huán . wǒ wèn wǔ fàn hái chī miàn ma , liǎng gè rén yì qǐ diǎn tóu , kè rén yòu bǔ le yī jù : shuǐ yě zhào cháng , bù yòng yīn wèi zhào piān jiù huàn yī zhěng tào cān jù .",
+          "en": "The guest returned, put his bag away and asked for the same window seat. His friend immediately returned the cable. They wanted noodles and the usual water, joking that the photo didn't require replacing every dish."
+        },
+        {
+          "zh": "那天我再收盘子时，他正在给朋友看手机里的照片。我以为又是上午那张，走近才看见是一家书店。他们讨论哪张桌子放得下三本大书，朋友说最好别坐在门旁，一有人进来就得搬。我把盘子拿走，听他们继续商量晚上的见面时间。窗边小孩又来了，手里捏着一张画，拿给厨师看。店里的声音还是多，可我这次能慢慢分清：有人点菜，有人等朋友，也有人只是找地方充电。",
+          "py": "nà tiān wǒ zài shōu pán zi shí , tā zhèng zài gěi péng you kàn shǒu jī lǐ de zhào piān . wǒ yǐ wéi yòu shì shàng wǔ nà zhāng , zǒu jìn cái kàn jiàn shì yī jiā shū diàn . tā men tǎo lùn nǎ zhāng zhuō zi fàng de xià sān běn dà shū , péng you shuō zuì hǎo bié zuò zài mén páng , yī yǒu rén jìn lái jiù děi bān . wǒ bǎ pán zi ná zǒu , tīng tā men jì xù shāng liáng wǎn shang de jiàn miàn shí jiān . chuāng biān xiǎo hái yòu lái le , shǒu lǐ niē zhe yī zhāng huà , ná gěi chú shī kàn . diàn lǐ de shēng yīn hái shi duō , kě wǒ zhè cì néng màn màn fēn qīng : yǒu rén diǎn cài , yǒu rén děng péng you , yě yǒu rén zhǐ shì zhǎo dì fāng chōng diàn .",
+          "en": "The next day their photos were of a bookshop, and they discussed where to fit three large books and meet that evening. The child returned with a drawing for the cook. The café remained noisy with orders, friends and people finding places to charge phones."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "挪",
+          "pinyin": "nuó",
+          "meaning": "move; shift"
+        },
+        {
+          "hanzi": "窄",
+          "pinyin": "zhǎi",
+          "meaning": "narrow"
+        },
+        {
+          "hanzi": "折",
+          "pinyin": "zhé",
+          "meaning": "fold"
+        },
+        {
+          "hanzi": "捏",
+          "pinyin": "niē",
+          "meaning": "hold between fingers; pinch"
+        },
+        {
+          "hanzi": "充电线",
+          "pinyin": "chōng diàn xiàn",
+          "meaning": "charging cable"
+        },
+        {
+          "hanzi": "杯印",
+          "pinyin": "bēi yìn",
+          "meaning": "cup ring"
+        },
+        {
+          "hanzi": "餐具",
+          "pinyin": "cān jù",
+          "meaning": "tableware"
+        },
+        {
+          "hanzi": "袖口",
+          "pinyin": "xiù kǒu",
+          "meaning": "cuff"
+        },
+        {
+          "hanzi": "伸",
+          "pinyin": "shēn",
+          "meaning": "extend; reach"
+        },
+        {
+          "hanzi": "盘",
+          "pinyin": "pán",
+          "meaning": "plate; tray"
+        },
+        {
+          "hanzi": "袖",
+          "pinyin": "xiù",
+          "meaning": "sleeve"
+        },
+        {
+          "hanzi": "袖子",
+          "pinyin": "xiù zi",
+          "meaning": "sleeve"
+        },
+        {
+          "hanzi": "玻璃",
+          "pinyin": "bō lí",
+          "meaning": "glass material"
+        },
+        {
+          "hanzi": "外",
+          "pinyin": "wài",
+          "meaning": "outside"
+        },
+        {
+          "hanzi": "碎",
+          "pinyin": "suì",
+          "meaning": "broken; fragment"
+        },
+        {
+          "hanzi": "抬",
+          "pinyin": "tái",
+          "meaning": "lift; carry together"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What does the worker acknowledge?",
+          "choices": [
+            "Their sleeve caused the spill and the sudden warning startled the guest",
+            "The guest caused the spill deliberately",
+            "No inconvenience occurred because the water was cold"
+          ],
+          "answer": "Their sleeve caused the spill and the sudden warning startled the guest"
+        },
+        {
+          "type": "detail",
+          "q": "Why lower the voice afterwards?",
+          "choices": [
+            "People had stopped and could hear the explanation nearby",
+            "The warning was never audible",
+            "The venue was permanently closed"
+          ],
+          "answer": "People had stopped and could hear the explanation nearby"
+        },
+        {
+          "type": "inference",
+          "q": "Why does the guest put the bag away first on the next visit?",
+          "choices": [
+            "So they will not have to bend down and search during the visit",
+            "To accept responsibility for breaking the earlier glass",
+            "To avoid sitting by the window again"
+          ],
+          "answer": "So they will not have to bend down and search during the visit"
+        }
+      ]
+    }
+  ],
+  "conversation": {
+    "id": "s6-u03-c",
+    "title": "What the photograph leaves out",
+    "place": "Friends discussing a café photograph",
+    "context": "A cold-water glass falls when the worker says her sleeve catches it. The guest looks down during that moment, then sees the warning and cleaning. A cropped still image omits the floor; a later correction keeps attribution and unknown parts explicit.",
+    "goal": "Compare observation, attributed account and interpretation",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "照片里你站着，是你碰倒的吗？",
+        "pinyin": "zhào piān lǐ nǐ zhàn zhe , shì nǐ pèng dào de ma ?",
+        "meaning": "You are standing in the photo; did you knock it over?",
+        "intent": "Avoid inferring causation from posture",
+        "examples": [
+          "不能从照片这样判断，我没有看到倒下以前那一下。"
+        ],
+        "accept": [
+          "^不能从照片这样判断，我没有看到倒下以前那一下。[。！？]?$"
+        ]
+      },
+      {
+        "text": "她说袖子碰到，你就亲眼看见了吧？",
+        "pinyin": "tā shuō xiù zi pèng dào , nǐ jiù qīn yǎn kàn jiàn le ba ?",
+        "meaning": "She says her sleeve caught it, so you witnessed it?",
+        "intent": "Attribute the account",
+        "examples": [
+          "不是，那是她的说明，我当时低头。"
+        ],
+        "accept": [
+          "^不是，那是她的说明，我当时低头。[。！？]?$"
+        ]
+      },
+      {
+        "text": "不是热水，就完全没影响吧？",
+        "pinyin": "bù shì rè shuǐ , jiù wán quán méi yǐng xiǎng ba ?",
+        "meaning": "It wasn’t hot water, so no effect at all?",
+        "intent": "Retain the real inconvenience",
+        "examples": [
+          "还是要等，也被声音吓了一下。"
+        ],
+        "accept": [
+          "^还是要等，也被声音吓了一下。[。！？]?$"
+        ]
+      },
+      {
+        "text": "帮你解释，要不要写什么都没发生？",
+        "pinyin": "bāng nǐ jiě shì , yào bù yào xiě shén me dōu méi fā shēng ?",
+        "meaning": "To explain for you, shall we write that nothing happened?",
+        "intent": "Correct only the added claim",
+        "examples": [
+          "不要，杯子确实碎了，只是没有吵架的依据。"
+        ],
+        "accept": [
+          "^不要，杯子确实碎了，只是没有吵架的依据。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Attribute what you heard",
+      "natural": {
+        "zh": "据她的说明，是袖子碰到了杯子。",
+        "py": "jù tā de shuō míng , shì xiù zi pèng dào le bēi zi .",
+        "en": "According to her, the sleeve caught the glass."
+      },
+      "note": "Name the source when you did not see the action."
+    },
+    {
+      "situation": "Keep the limit of an image",
+      "natural": {
+        "zh": "照片没拍到前一刻，这一部分我不知道。",
+        "py": "zhào piān méi pāi dào qián yī kè , zhè yī bù fèn wǒ bù zhī dào .",
+        "en": "The photo misses the preceding moment; I don’t know that part."
+      },
+      "note": "An unknown part stays unknown."
+    },
+    {
+      "situation": "Correct a specific claim",
+      "natural": {
+        "zh": "杯子确实碎了，但说我们吵架没有依据。",
+        "py": "bēi zi què shí suì le , dàn shuō wǒ men chǎo jià méi yǒu yī jù .",
+        "en": "The glass did break, but there is no basis for saying we argued."
+      },
+      "note": "Do not erase real events to correct an interpretation."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u03-t01",
+      "phrase": "s6-u03-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "上午那声响声来得突然。我恰好低头拿包，想把充电线借给林安，先听见杯子落地，随后才抬起头。店员让我别动，我一下站住，还以为自己的包挡了她。她指了指脚边，我才看到玻璃和一小片水。她说刚才收盘子时袖子碰到了杯沿，先跟我道歉，再请我往旁边坐。那一下我没亲眼看见，后来的提醒和收拾倒记得很清楚。",
+        "py": "shàng wǔ nà shēng xiǎng shēng lái de tū rán . wǒ qià hǎo dī tóu ná bāo , xiǎng bǎ chōng diàn xiàn jiè gěi lín ān , xiān tīng jiàn bēi zi luò dì , suí hòu cái tái qǐ tóu . diàn yuán ràng wǒ bié dòng , wǒ yī xià zhàn zhù , hái yǐ wéi zì jǐ de bāo dǎng le tā . tā zhǐ le zhǐ jiǎo biān , wǒ cái kàn dào bō lí hé yī xiǎo piàn shuǐ . tā shuō gāng cái shōu pán zi shí xiù zi pèng dào le bēi yán , xiān gēn wǒ dào qiàn , zài qǐng wǒ wǎng páng biān zuò . nà yī xià wǒ méi qīn yǎn kàn jiàn , hòu lái de tí xǐng hé shōu shí dào jì de hěn qīng chǔ .",
+        "en": "I was looking down for a charging cable when the glass fell. At first I thought my bag was in the way. The worker pointed to glass and water, explained that her sleeve had caught the rim while clearing plates, and apologised. I had missed the contact but remembered the warning and clean-up."
+      },
+      "statement": "The narrator directly sees the sleeve catch the glass.",
+      "answer": false,
+      "why": "They look down and attribute that part to the worker."
+    },
+    {
+      "id": "s6-u03-t02",
+      "phrase": "s6-u03-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "陈宇又发来一张原图。这次桌边、椅子和地板都在，店员指向哪里也看得出来。群里的图把下面裁掉了，只剩两个人面对面站着。我问他为什么要裁，他说转发的人嫌下面乱，想让人看清表情。我想起自己当时那张严肃的脸：不是生气，是看了半天还没分清她在指哪个地方。要是只有那张小图，我也会想问一句出了什么事。",
+        "py": "chén yǔ yòu fā lái yī zhāng yuán tú . zhè cì zhuō biān , yǐ zi hé dì bǎn dōu zài , diàn yuán zhǐ xiàng nǎ lǐ yě kàn de chū lái . qún lǐ de tú bǎ xià miàn cái diào le , zhǐ shèng liǎng gè rén miàn duì miàn zhàn zhe . wǒ wèn tā wèi shén me yào cái , tā shuō zhuǎn fā de rén xián xià miàn luàn , xiǎng ràng rén kàn qīng biǎo qíng . wǒ xiǎng qǐ zì jǐ dāng shí nà zhāng yán sù de liǎn : bù shì shēng qì , shì kàn le bàn tiān hái méi fēn qīng tā zài zhǐ nǎ gè dì fāng . yào shì zhǐ yǒu nà zhāng xiǎo tú , wǒ yě huì xiǎng wèn yī jù chū le shén me shì .",
+        "en": "The original showed the table, chairs, floor and the worker's gesture. The repost had cropped off that context to emphasise faces. My serious expression came from trying to see what she was pointing at; even I would have wondered about the cropped image."
+      },
+      "statement": "The cropped photo omits the lower context.",
+      "answer": true,
+      "why": "The table edge and floor are lost."
+    },
+    {
+      "id": "s6-u03-t03",
+      "phrase": "s6-u03-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "碎的是冷水杯，茶壶还在桌上。我收好地上的东西，给他换了新杯子，问刚才是不是吓到他了。他说开始真以为自己挡了我的路，后面才看到地上的玻璃。我又说了声抱歉。这几分钟他没法拿包，朋友来了也要等着落座，所以我赶快把桌边的椅子移好，再问他们午饭想坐窗边还是留在原来的位置。",
+        "py": "suì de shì lěng shuǐ bēi , chá hú hái zài zhuō shàng . wǒ shōu hǎo dì shang de dōng xi , gěi tā huàn le xīn bēi zi , wèn gāng cái shì bú shì xià dào tā le . tā shuō kāi shǐ zhēn yǐ wéi zì jǐ dǎng le wǒ de lù , hòu miàn cái kàn dào dì shang de bō lí . wǒ yòu shuō le shēng bào qiàn . zhè jǐ fēn zhōng tā méi fǎ ná bāo , péng you lái le yě yào děng zhuó luò zuò , suǒ yǐ wǒ gǎn kuài bǎ zhuō biān de yǐ zi yí hǎo , zài wèn tā men wǔ fàn xiǎng zuò chuāng biān hái shi liú zài yuán lái de wèi zhì .",
+        "en": "The glass held cold water; the teapot stayed upright. I cleaned, replaced the glass and apologised for startling him. He and his arriving friend had waited to sit, so I rearranged the chairs and offered a choice of tables for lunch."
+      },
+      "statement": "Cold water means no inconvenience happened.",
+      "answer": false,
+      "why": "Waiting, replacement and sudden warning still matter."
+    },
+    {
+      "id": "s6-u03-t04",
+      "phrase": "s6-u03-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二天那位客人又来了，问新换的水杯是不是同一款。我说是，他先把包放到旁边，笑着说今天不用临时低头找了。随后他问能不能坐昨天的窗边，我带他过去，看到他朋友还带着那根线。她把线往桌上一放，说今天第一件事就是归还。我问午饭还吃面吗，两个人一起点头，客人又补了一句：水也照常，不用因为照片就换一整套餐具。",
+        "py": "dì èr tiān nà wèi kè rén yòu lái le , wèn xīn huàn de shuǐ bēi shì bú shì tóng yī kuǎn . wǒ shuō shì , tā xiān bǎ bāo fàng dào páng biān , xiào zhe shuō jīn tiān bù yòng lín shí dī tóu zhǎo le . suí hòu tā wèn néng bù néng zuò zuó tiān de chuāng biān , wǒ dài tā guò qù , kàn dào tā péng you hái dài zhe nà gēn xiàn . tā bǎ xiàn wǎng zhuō shàng yī fàng , shuō jīn tiān dì yī jiàn shì jiù shì guī huán . wǒ wèn wǔ fàn hái chī miàn ma , liǎng gè rén yì qǐ diǎn tóu , kè rén yòu bǔ le yī jù : shuǐ yě zhào cháng , bù yòng yīn wèi zhào piān jiù huàn yī zhěng tào cān jù .",
+        "en": "The guest returned, put his bag away and asked for the same window seat. His friend immediately returned the cable. They wanted noodles and the usual water, joking that the photo didn't require replacing every dish."
+      },
+      "statement": "The later bag remark changes who caused the earlier spill.",
+      "answer": false,
+      "why": "A future choice does not rewrite the prior event."
+    },
+    {
+      "id": "s6-u03-t05",
+      "phrase": "s6-u03-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "我只看到杯子已经在地上，能说我看见谁碰倒吗？",
+        "py": "wǒ zhǐ kàn dào bēi zi yǐ jīng zài dì shang , néng shuō wǒ kàn jiàn shéi pèng dào ma ?",
+        "en": "I only saw the glass already on the floor. Can I say I saw who knocked it over?"
+      },
+      "choices": [
+        "不能，那一刻没有看到。",
+        "能，后来看到就等于前面全看到了。",
+        "能，站得近就一定知道谁碰的。"
+      ],
+      "answer": "不能，那一刻没有看到。",
+      "why": "Keep the stated observation limit."
+    },
+    {
+      "id": "s6-u03-t06",
+      "phrase": "s6-u03-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "照片没有声音，能从它听见店员说什么吗？",
+        "py": "zhào piān méi yǒu shēng yīn , néng cóng tā tīng jiàn diàn yuán shuō shén me ma ?",
+        "en": "The photo has no audio. Can we hear the worker’s words from it?"
+      },
+      "choices": [
+        "不能，要另找声音或人的说明。",
+        "能，表情就是完整录音。",
+        "能，剪掉下面就有声音。"
+      ],
+      "answer": "不能，要另找声音或人的说明。",
+      "why": "A still photo contains no audio."
+    },
+    {
+      "id": "s6-u03-t07",
+      "phrase": "s6-u03-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "有人没看到修正，只看到旧图。旧说法一定已经消失吗？",
+        "py": "yǒu rén méi kàn dào xiū zhèng , zhǐ kàn dào jiù tú . jiù shuō fǎ yí dìng yǐ jīng xiāo shī ma ?",
+        "en": "Someone has only seen the old image, not the correction. Has the old interpretation certainly gone?"
+      },
+      "choices": [
+        "不一定，他还可能不知道后面的说明。",
+        "一定，发过修正每个人就都看到了。",
+        "一定，原来的图片已经自动变成新图。"
+      ],
+      "answer": "不一定，他还可能不知道后面的说明。",
+      "why": "Publishing a correction does not establish every reader received it."
+    },
+    {
+      "id": "s6-u03-t08",
+      "phrase": "s6-u03-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "我承认被声音吓到，还能解释不是吵架吗？",
+        "py": "wǒ chéng rèn bèi shēng yīn xià dào , hái néng jiě shì bù shì chǎo jià ma ?",
+        "en": "Can I acknowledge being startled while explaining it was not an argument?"
+      },
+      "choices": [
+        "可以，两件事可以同时是真的。",
+        "不能，只能说完全没感觉。",
+        "不能，吓到就证明整场都在吵架。"
+      ],
+      "answer": "可以，两件事可以同时是真的。",
+      "why": "Experience and interpreted motive remain distinct."
+    },
+    {
+      "id": "s6-u03-t09",
+      "phrase": "s6-u03-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "【据】店员的说明，是她自己的袖子碰到了杯子。",
+        "py": "jù diàn yuán de shuō míng , shì tā zì jǐ de xiù zi pèng dào le bēi zi .",
+        "en": "According to the worker, her own sleeve caught the glass."
+      },
+      "blankPy": "jù"
+    },
+    {
+      "id": "s6-u03-t10",
+      "phrase": "s6-u03-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "先【区分】我看到的和听别人说的。",
+        "py": "xiān qū fēn wǒ kàn dào de hé tīng bié ren shuō de .",
+        "en": "First distinguish what I saw from what others told me."
+      },
+      "blankPy": "qū fēn"
+    },
+    {
+      "id": "s6-u03-t11",
+      "phrase": "s6-u03-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "一张照片不【足以】说明之前发生了什么。",
+        "py": "yī zhāng zhào piān bù zú yǐ shuō míng zhī qián fā shēng le shén me .",
+        "en": "One photo is not enough to establish what happened before."
+      },
+      "blankPy": "zú yǐ"
+    },
+    {
+      "id": "s6-u03-t12",
+      "phrase": "s6-u03-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "我【忽略】了照片没有拍到前一刻。",
+        "py": "wǒ hū lüè le zhào piān méi yǒu pāi dào qián yī kè .",
+        "en": "I overlooked that the photo missed the preceding moment."
+      },
+      "blankPy": "hū lüè"
+    },
+    {
+      "id": "s6-u03-t13",
+      "phrase": "s6-u03-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The sound of the glass falling startled me.",
+          "right": {
+            "zh": "杯子落地的响声，把我吓了一跳。",
+            "py": "bēi zi luò dì de xiǎng shēng , bǎ wǒ xià le yī tiào .",
+            "en": "The sound of the glass falling startled me."
+          }
+        },
+        {
+          "left": "The floor was wet, so the worker asked everyone to stop.",
+          "right": {
+            "zh": "地板湿了，店员先让大家停一下。",
+            "py": "dì bǎn shī le , diàn yuán xiān ràng dà jiā tíng yī xià .",
+            "en": "The floor was wet, so the worker asked everyone to stop."
+          }
+        },
+        {
+          "left": "The glass was cracked and couldn’t be used.",
+          "right": {
+            "zh": "杯子已经裂了，不能继续用。",
+            "py": "bēi zi yǐ jīng liè le , bù néng jì xù yòng .",
+            "en": "The glass was cracked and couldn’t be used."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u03-t14",
+      "phrase": "s6-u03-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Please enter from the left side.",
+          "right": {
+            "zh": "请从左侧进入。",
+            "py": "qǐng cóng zuǒ cè jìn rù .",
+            "en": "Please enter from the left side."
+          }
+        },
+        {
+          "left": "Trees line both sides of the road.",
+          "right": {
+            "zh": "路的两侧种着树。",
+            "py": "lù de liǎng cè zhǒng zhe shù .",
+            "en": "Trees line both sides of the road."
+          }
+        },
+        {
+          "left": "The entrance is ahead.",
+          "right": {
+            "zh": "前方就是入口。",
+            "py": "qián fāng jiù shì rù kǒu .",
+            "en": "The entrance is ahead."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u03-t15",
+      "phrase": "s6-u03-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "First distinguish what I saw from what others told me.",
+          "right": {
+            "zh": "先区分我看到的和听别人说的。",
+            "py": "xiān qū fēn wǒ kàn dào de hé tīng bié ren shuō de .",
+            "en": "First distinguish what I saw from what others told me."
+          }
+        },
+        {
+          "left": "I saw the glass fall, not the moment before.",
+          "right": {
+            "zh": "我亲眼看见的是杯子落地，没看见前一刻。",
+            "py": "wǒ qīn yǎn kàn jiàn de shì bēi zi luò dì , méi kàn jiàn qián yī kè .",
+            "en": "I saw the glass fall, not the moment before."
+          }
+        },
+        {
+          "left": "Only afterwards did I hear the full account.",
+          "right": {
+            "zh": "事后我才听到完整的经过。",
+            "py": "shì hòu wǒ cái tīng dào wán zhěng de jīng guò .",
+            "en": "Only afterwards did I hear the full account."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u03-t16",
+      "phrase": "s6-u03-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "She didn’t treat the rumour as verified news.",
+          "right": {
+            "zh": "她没有把传言当成已经证实的消息。",
+            "py": "tā méi yǒu bǎ chuán yán dàng chéng yǐ jīng zhèng shí de xiāo xī .",
+            "en": "She didn’t treat the rumour as verified news."
+          }
+        },
+        {
+          "left": "She didn’t answer that question immediately.",
+          "right": {
+            "zh": "她没有马上回应那个问题。",
+            "py": "tā méi yǒu mǎ shàng huí yìng nà gè wèn tí .",
+            "en": "She didn’t answer that question immediately."
+          }
+        },
+        {
+          "left": "She checked yesterday’s plan.",
+          "right": {
+            "zh": "她查看了昨天的安排。",
+            "py": "tā chá kàn le zuó tiān de ān pái .",
+            "en": "She checked yesterday’s plan."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u03-t17",
+      "phrase": "s6-u03-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "According to the worker, her own sleeve caught the glass.",
+          "right": {
+            "zh": "据店员的说明，是她自己的袖子碰到了杯子。",
+            "py": "jù diàn yuán de shuō míng , shì tā zì jǐ de xiù zi pèng dào le bēi zi .",
+            "en": "According to the worker, her own sleeve caught the glass."
+          }
+        },
+        {
+          "left": "Claiming deliberate trouble by a guest exceeds what I saw.",
+          "right": {
+            "zh": "说客人故意闹事，已经超出我看到的内容。",
+            "py": "shuō kè rén gù yì nào shì , yǐ jīng chāo chū wǒ kàn dào de nèi róng .",
+            "en": "Claiming deliberate trouble by a guest exceeds what I saw."
+          }
+        },
+        {
+          "left": "One photo isn’t enough to establish what happened beforehand.",
+          "right": {
+            "zh": "一张照片不足以说明之前发生了什么。",
+            "py": "yī zhāng zhào piān bù zú yǐ shuō míng zhī qián fā shēng le shén me .",
+            "en": "One photo isn’t enough to establish what happened beforehand."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Editorial revision: both long accounts now follow the café visit, changing photograph, charging cable and next-day return instead of repeating abstract caveats. Original spill, warning, attribution, cropped floor and next-visit facts remain consistent. Native review: café warning register, photograph/face banter, narrated 时而 alternation and source attribution. Self-review keeps sleeve contact as the worker’s firsthand account only; guest observes after the sound. Cold-water glass falls while pot stays upright. The cropped image omits floor, has no audio and cannot certify intent. A correction retains real inconvenience, asks permission for the original photo and does not publish identifying work details. No safety procedure is taught or scored; the story describes staff handling a small spill. Actual observation and attributed information remain separate across both readings.\n2026-10-08 advanced reading self-review: Replaced repeated forgiveness, permission and identity lectures with calendar corrections, camera setup, actual borrowing and farewell actions. Two dialogue accusations now sound like apologies rather than evidence audits. Photo dialogue retains firsthand/worker-account distinction without report-like wording. Corrected umbrella-rehearsal ownership: Chen Yu chases Lin An. Preserved two/two-thirty and 2:12, Thursday six/5:30, fifteen-minute introduction, three remaining browsing books and Saturday five return requirement. Native flags: 咽回去 metaphor, friendly deadline and lifting-table banter, 台词/告别 register and chronological retelling. Native review pending.\n2026-10-08 advanced reading self-review: Farewell actions v2: Replaced repeated forgiveness, permission and identity lectures with calendar corrections, camera setup, actual borrowing and farewell actions. Two dialogue accusations now sound like apologies rather than evidence audits. Photo dialogue retains firsthand/worker-account distinction without report-like wording. Corrected umbrella-rehearsal ownership: Chen Yu chases Lin An. Preserved two/two-thirty and 2:12, Thursday six/5:30, fifteen-minute introduction, three remaining browsing books and Saturday five return requirement. Native flags: 咽回去 metaphor, friendly deadline and lifting-table banter, 台词/告别 register and chronological retelling. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "踩",
+      "pinyin": "cǎi",
+      "meaning": "step on",
+      "strokes": 15,
+      "parts": [
+        {
+          "form": "踩",
+          "role": "whole",
+          "gloss": "step on"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 踩 in 踩. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "踩",
+          "p": "cǎi",
+          "m": "step on"
+        }
+      ]
+    },
+    {
+      "hanzi": "捡",
+      "pinyin": "jiǎn",
+      "meaning": "pick up",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "捡",
+          "role": "whole",
+          "gloss": "pick up"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 捡 in 捡. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "捡",
+          "p": "jiǎn",
+          "m": "pick up something from the ground"
+        }
+      ]
+    },
+    {
+      "hanzi": "裂",
+      "pinyin": "liè",
+      "meaning": "split; crack",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "裂",
+          "role": "whole",
+          "gloss": "split; crack"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 裂 in 裂. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "裂",
+          "p": "liè",
+          "m": "split; crack"
+        }
+      ]
+    },
+    {
+      "hanzi": "侧",
+      "pinyin": "cè",
+      "meaning": "side",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "侧",
+          "role": "whole",
+          "gloss": "side"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 侧 in 侧 / 两侧. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "侧",
+          "p": "cè",
+          "m": "side"
+        },
+        {
+          "w": "两侧",
+          "p": "liǎng cè",
+          "m": "both sides"
+        }
+      ]
+    },
+    {
+      "hanzi": "略",
+      "pinyin": "lüè",
+      "meaning": "omit; brief",
+      "strokes": 11,
+      "parts": [
+        {
+          "form": "略",
+          "role": "whole",
+          "gloss": "omit; brief"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 略 in 忽略. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "忽略",
+          "p": "hū lüè",
+          "m": "overlook"
+        }
+      ]
+    },
+    {
+      "hanzi": "倾",
+      "pinyin": "qīng",
+      "meaning": "lean; incline",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "倾",
+          "role": "whole",
+          "gloss": "lean; incline"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 倾 in 倾向. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "倾向",
+          "p": "qīng xiàng",
+          "m": "tendency; inclination"
+        }
+      ]
+    },
+    {
+      "hanzi": "壶",
+      "pinyin": "hú",
+      "meaning": "pot; kettle",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "壶",
+          "role": "whole",
+          "gloss": "pot; kettle"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 壶 in 壶. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "壶",
+          "p": "hú",
+          "m": "pot; kettle"
+        }
+      ]
+    },
+    {
+      "hanzi": "抗",
+      "pinyin": "kàng",
+      "meaning": "resist",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "抗",
+          "role": "whole",
+          "gloss": "resist"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 抗 in 对抗. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "对抗",
+          "p": "duì kàng",
+          "m": "oppose; confrontation"
+        }
+      ]
+    }
+  ]
+}

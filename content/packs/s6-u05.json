@@ -1,0 +1,2462 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u05",
+    "stage": 3,
+    "order": 137,
+    "title": "The refrain changes its direction",
+    "titleZh": "同一句，唱给谁？",
+    "canDo": [
+      "Track repeated images and shifting address in an original lyric",
+      "Support an interpretation while leaving unwritten outcomes open",
+      "Use spoken readings and paced rehearsal without confusing melody with Mandarin tones"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u04",
+      "s6-u04-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u05-w01",
+      "hanzi": "歌词",
+      "pinyin": "gē cí",
+      "meaning": "words of a song",
+      "meaningVi": "lời bài hát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "歌词没有变，第二遍唱时我想到的人变了。",
+        "py": "gē cí méi yǒu biàn , dì èr biàn chàng shí wǒ xiǎng dào de rén biàn le .",
+        "en": "The lyrics stayed the same; on the second singing I imagined a different person."
+      },
+      "usageNote": "[GF2021:L6:2691] Source entry: 歌词; gēcí; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w02",
+      "hanzi": "古典",
+      "pinyin": "gǔ diǎn",
+      "meaning": "classical",
+      "meaningVi": "cổ điển",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这段配乐有古典的感觉，不等于歌词是古人写的。",
+        "py": "zhè duàn pèi lè yǒu gǔ diǎn de gǎn jué , bù děng yú gē cí shì gǔ rén xiě de .",
+        "en": "The accompaniment feels classical, not proof the words are ancient."
+      },
+      "usageNote": "[GF2021:L6:2891] Source entry: 古典; gǔdiǎn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w03",
+      "hanzi": "民歌",
+      "pinyin": "mín gē",
+      "meaning": "folk song",
+      "meaningVi": "dân ca",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我们听过民歌的唱法，再试自己的新歌。",
+        "py": "wǒ men tīng guò mín gē de chàng fǎ , zài shì zì jǐ de xīn gē .",
+        "en": "We listened to a folk-song style before trying our new song."
+      },
+      "usageNote": "[GF2021:L6:5607] Source entry: 民歌; míngē; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w04",
+      "hanzi": "戏曲",
+      "pinyin": "xì qǔ",
+      "meaning": "traditional Chinese opera",
+      "meaningVi": "hí khúc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "戏曲里的长音给了我们一个想法，不是照搬整段。",
+        "py": "xì qǔ lǐ de zhǎng yīn gěi le wǒ men yī gè xiǎng fǎ , bù shì zhào bān zhěng duàn .",
+        "en": "A held note in Chinese opera gave us an idea; we didn’t copy a whole section."
+      },
+      "usageNote": "[GF2021:L6:8652] Source entry: 戏曲; xìqǔ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w05",
+      "hanzi": "乐曲",
+      "pinyin": "yuè qǔ",
+      "meaning": "musical composition; piece",
+      "meaningVi": "bản nhạc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这首乐曲没有歌词，可以只听节奏。",
+        "py": "zhè shǒu yuè qǔ méi yǒu gē cí , kě yǐ zhǐ tīng jié zòu .",
+        "en": "This piece has no lyrics, so we can attend to its rhythm."
+      },
+      "usageNote": "[GF2021:L6:10062] Source entry: 乐曲; yuèqǔ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w06",
+      "hanzi": "节奏",
+      "pinyin": "jié zòu",
+      "meaning": "rhythm; pace",
+      "meaningVi": "nhịp điệu",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先跟上节奏，不要把没听清的字跳过去。",
+        "py": "xiān gēn shàng jié zòu , bú yào bǎ méi tīng qīng de zì tiào guò qù .",
+        "en": "Follow the rhythm without skipping words you haven’t caught."
+      },
+      "usageNote": "[GF2021:L6:4182] Source entry: 节奏; jiézòu; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w07",
+      "hanzi": "演奏",
+      "pinyin": "yǎn zòu",
+      "meaning": "perform instrumental music",
+      "meaningVi": "biểu diễn nhạc",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她演奏时，我先小声读歌词。",
+        "py": "tā yǎn zòu shí , wǒ xiān xiǎo shēng dú gē cí .",
+        "en": "While she plays I first read the words quietly."
+      },
+      "usageNote": "[GF2021:L6:9351] Source entry: 演奏; yǎnzòu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w08",
+      "hanzi": "歌唱",
+      "pinyin": "gē chàng",
+      "meaning": "sing; singing",
+      "meaningVi": "ca hát",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "歌唱把一个音拉长，字本身还是那个字。",
+        "py": "gē chàng bǎ yī gè yīn lā zhǎng , zì běn shēn hái shi nà gè zì .",
+        "en": "Singing stretches a sound, but the word remains that word."
+      },
+      "usageNote": "[GF2021:L6:2690] Source entry: 歌唱; gēchàng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w09",
+      "hanzi": "屏幕",
+      "pinyin": "píng mù",
+      "meaning": "screen",
+      "meaningVi": "màn hình",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "屏幕上一行消失了，我还没唱到最后。",
+        "py": "píng mù shàng yī xíng xiāo shī le , wǒ hái méi chàng dào zuì hòu .",
+        "en": "The screen line vanished before I sang its end."
+      },
+      "usageNote": "[GF2021:L6:6156] Source entry: 屏幕; píngmù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w10",
+      "hanzi": "音量",
+      "pinyin": "yīn liàng",
+      "meaning": "volume of sound",
+      "meaningVi": "âm lượng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "音量小一点，才能听见自己在哪个字停。",
+        "py": "yīn liàng xiǎo yī diǎn , cái néng tīng jiàn zì jǐ zài nǎ gè zì tíng .",
+        "en": "A lower volume lets me hear which word I pause on."
+      },
+      "usageNote": "[GF2021:L6:9687] Source entry: 音量; yīnliàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w11",
+      "hanzi": "音像",
+      "pinyin": "yīn xiàng",
+      "meaning": "audio and video material",
+      "meaningVi": "tư liệu nghe nhìn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "课程的音像资料按单元放在一起。",
+        "py": "kè chéng de yīn xiàng zī liào àn dān yuán fàng zài yì qǐ .",
+        "en": "The course’s audio-video materials are grouped by unit."
+      },
+      "usageNote": "[GF2021:L6:9689] Source entry: 音像; yīnxiàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w12",
+      "hanzi": "多媒体",
+      "pinyin": "duō méi tǐ",
+      "meaning": "multimedia",
+      "meaningVi": "đa phương tiện",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "多媒体课件同时有画面、文字和声音。",
+        "py": "duō méi tǐ kè jiàn tóng shí yǒu huà miàn , wén zì hé shēng yīn .",
+        "en": "The multimedia lesson contains images, text and sound."
+      },
+      "usageNote": "[GF2021:L6:2063] Source entry: 多媒体; duōméitǐ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w13",
+      "hanzi": "黑夜",
+      "pinyin": "hēi yè",
+      "meaning": "dark night",
+      "meaningVi": "đêm tối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "黑夜里的灯可以像等候，也可以像一个方向。",
+        "py": "hēi yè lǐ de dēng kě yǐ xiàng děng hòu , yě kě yǐ xiàng yī gè fāng xiàng .",
+        "en": "A lamp in the night can suggest waiting or a direction."
+      },
+      "usageNote": "[GF2021:L6:3323] Source entry: 黑夜; hēiyè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w14",
+      "hanzi": "海浪",
+      "pinyin": "hǎi làng",
+      "meaning": "sea wave",
+      "meaningVi": "sóng biển",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "海浪没有替人物回答，歌里仍留着空白。",
+        "py": "hǎi làng méi yǒu tì rén wù huí dá , gē lǐ réng liú zhe kòng bái .",
+        "en": "The sea waves don’t answer for the character; the song leaves an opening."
+      },
+      "usageNote": "[GF2021:L6:3152] Source entry: 海浪; hǎilàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w15",
+      "hanzi": "海洋",
+      "pinyin": "hǎi yáng",
+      "meaning": "ocean",
+      "meaningVi": "đại dương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "歌里的海洋很宽，房间里的声音却很近。",
+        "py": "gē lǐ de hǎi yáng hěn kuān , fáng jiān lǐ de shēng yīn què hěn jìn .",
+        "en": "The song’s ocean is broad, but the room’s voice is close."
+      },
+      "usageNote": "[GF2021:L6:3164] Source entry: 海洋; hǎiyáng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w16",
+      "hanzi": "波浪",
+      "pinyin": "bō làng",
+      "meaning": "wave; waves",
+      "meaningVi": "làn sóng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "波浪是一幅流动的画面，不是一个人的姓名。",
+        "py": "bō làng shì yī fú liú dòng de huà miàn , bù shì yī gè rén de xìng míng .",
+        "en": "Waves form a moving image, not a person’s name."
+      },
+      "usageNote": "[GF2021:L6:501] Source entry: 波浪; bōlàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w17",
+      "hanzi": "渡",
+      "pinyin": "dù",
+      "meaning": "cross a stretch of water",
+      "meaningVi": "qua sông, nước",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "人物说想渡过河，还没说已经到了对岸。",
+        "py": "rén wù shuō xiǎng dù guò hé , hái méi shuō yǐ jīng dào le duì àn .",
+        "en": "The character wants to cross the river, not says they already reached the far bank."
+      },
+      "usageNote": "[GF2021:L6:1991] Source entry: 渡; dù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w18",
+      "hanzi": "船只",
+      "pinyin": "chuán zhī",
+      "meaning": "boats; vessels",
+      "meaningVi": "tàu thuyền",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "船只离开岸边，我想的是距离在变化。",
+        "py": "chuán zhī lí kāi àn biān , wǒ xiǎng de shì jù lí zài biàn huà .",
+        "en": "As vessels leave the bank, I think of changing distance."
+      },
+      "usageNote": "[GF2021:L6:1241] Source entry: 船只; chuánzhī; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w19",
+      "hanzi": "远方",
+      "pinyin": "yuǎn fāng",
+      "meaning": "a distant place",
+      "meaningVi": "phương xa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "远方是一个方向，没有写具体城市。",
+        "py": "yuǎn fāng shì yī gè fāng xiàng , méi yǒu xiě jù tǐ chéng shì .",
+        "en": "The distant place is a direction without a named city."
+      },
+      "usageNote": "[GF2021:L6:10030] Source entry: 远方; yuǎnfāng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w20",
+      "hanzi": "远离",
+      "pinyin": "yuǎn lí",
+      "meaning": "become or stay far from",
+      "meaningVi": "xa rời",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "远离旧房间，不一定远离所有朋友。",
+        "py": "yuǎn lí jiù fáng jiān , bù yí dìng yuǎn lí suǒ yǒu péng you .",
+        "en": "Leaving the old room needn’t mean leaving every friend behind."
+      },
+      "usageNote": "[GF2021:L6:10033] Source entry: 远离; yuǎnlí; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w21",
+      "hanzi": "远远",
+      "pinyin": "yuǎn yuǎn",
+      "meaning": "far, as an intensifier",
+      "meaningVi": "rất xa; hơn hẳn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "第二遍的速度远远超过我能读清的速度。",
+        "py": "dì èr biàn de sù dù yuǎn yuǎn chāo guò wǒ néng dú qīng de sù dù .",
+        "en": "The second pass is far faster than I can read clearly."
+      },
+      "usageNote": "[GF2021:L6:10034] Source entry: 远远; yuǎnyuǎn; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w22",
+      "hanzi": "一代",
+      "pinyin": "yí dài",
+      "meaning": "a generation",
+      "meaningVi": "một thế hệ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "一代人熟悉的唱法，不一定下一代也常听。",
+        "py": "yí dài rén shú xī de chàng fǎ , bù yí dìng xià yí dài yě cháng tīng .",
+        "en": "A style familiar to one generation may not be common listening for the next."
+      },
+      "usageNote": "[GF2021:L6:9494] Source entry: 一代; yídài; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w23",
+      "hanzi": "时节",
+      "pinyin": "shí jié",
+      "meaning": "season; particular time of year",
+      "meaningVi": "mùa; thời điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这段写雨的时节，不一定是作者今天的天气。",
+        "py": "zhè duàn xiě yǔ de shí jié , bù yí dìng shì zuò zhě jīn tiān de tiān qì .",
+        "en": "This describes a rainy season, not necessarily the writer’s weather today."
+      },
+      "usageNote": "[GF2021:L6:7221] Source entry: 时节; shíjié; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w24",
+      "hanzi": "阴影",
+      "pinyin": "yīn yǐng",
+      "meaning": "shadow",
+      "meaningVi": "bóng tối",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "窗边的阴影在动，我把它听成没有说完的话。",
+        "py": "chuāng biān de yīn yǐng zài dòng , wǒ bǎ tā tīng chéng méi yǒu shuō wán de huà .",
+        "en": "The moving window shadow suggests unfinished words to me."
+      },
+      "usageNote": "[GF2021:L6:9685] Source entry: 阴影; yīnyǐng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w25",
+      "hanzi": "一时",
+      "pinyin": "yī shí",
+      "meaning": "for the moment; temporarily",
+      "meaningVi": "nhất thời",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我一时没跟上，停下来再读。",
+        "py": "wǒ yī shí méi gēn shàng , tíng xià lái zài dú .",
+        "en": "I momentarily lost pace and stopped to reread."
+      },
+      "usageNote": "[GF2021:L6:9613] Source entry: 一时; yìshí; 名、副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w26",
+      "hanzi": "仿佛",
+      "pinyin": "fǎng fú",
+      "meaning": "as if; seem",
+      "meaningVi": "dường như",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "重复的那句仿佛换了一个说话的人。",
+        "py": "chóng fù de nà jù fǎng fú huàn le yī gè shuō huà de rén .",
+        "en": "The repeated line seems to have a different speaker."
+      },
+      "usageNote": "[GF2021:L6:2273] Source entry: 仿佛; fǎngfú; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w27",
+      "hanzi": "好似",
+      "pinyin": "hǎo sì",
+      "meaning": "seem like; resemble",
+      "meaningVi": "giống như",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "那盏灯好似一个没回答的问题。",
+        "py": "nà zhǎn dēng hǎo sì yī gè méi huí dá de wèn tí .",
+        "en": "That lamp seems like an unanswered question."
+      },
+      "usageNote": "[GF2021:L6:3233] Source entry: 好似; hǎosì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w28",
+      "hanzi": "幻想",
+      "pinyin": "huàn xiǎng",
+      "meaning": "imagine an unreal or hoped-for situation",
+      "meaningVi": "tưởng tượng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我幻想过再次见面，歌里没有把它写成事实。",
+        "py": "wǒ huàn xiǎng guò zài cì jiàn miàn , gē lǐ méi yǒu bǎ tā xiě chéng shì shí .",
+        "en": "I imagined meeting again; the song doesn’t make it a fact."
+      },
+      "usageNote": "[GF2021:L6:3514] Source entry: 幻想; huànxiǎng; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w29",
+      "hanzi": "孤独",
+      "pinyin": "gū dú",
+      "meaning": "lonely; loneliness",
+      "meaningVi": "cô đơn",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这一段唱得孤独，下一段又多了一点希望。",
+        "py": "zhè yī duàn chàng de gū dú , xià yī duàn yòu duō le yī diǎn xī wàng .",
+        "en": "This verse sounds lonely; the next adds some hope."
+      },
+      "usageNote": "[GF2021:L6:2881] Source entry: 孤独; gūdú; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w30",
+      "hanzi": "心灵",
+      "pinyin": "xīn líng",
+      "meaning": "inner emotional life; mind or spirit",
+      "meaningVi": "tâm hồn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这首歌让我想起心灵里还没有说出的感受。",
+        "py": "zhè shǒu gē ràng wǒ xiǎng qǐ xīn líng lǐ hái méi yǒu shuō chū de gǎn shòu .",
+        "en": "This song recalls feelings within me that I haven’t yet expressed."
+      },
+      "usageNote": "[GF2021:L6:8983] Source entry: 心灵; xīnlíng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w31",
+      "hanzi": "融合",
+      "pinyin": "róng hé",
+      "meaning": "blend; integrate",
+      "meaningVi": "hòa quyện",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "新歌融合两种唱法，但词和旋律都是我们新写的。",
+        "py": "xīn gē róng hé liǎng zhǒng chàng fǎ , dàn cí hé xuán lǜ dōu shì wǒ men xīn xiě de .",
+        "en": "The new song blends two styles, with newly written words and melody."
+      },
+      "usageNote": "[GF2021:L6:6787] Source entry: 融合; rónghé; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u05-w32",
+      "hanzi": "元素",
+      "pinyin": "yuán sù",
+      "meaning": "element; component",
+      "meaningVi": "yếu tố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "门、灯和风是反复出现的元素。",
+        "py": "mén , dēng hé fēng shì fǎn fù chū xiàn de yuán sù .",
+        "en": "Door, lamp and wind are recurring elements."
+      },
+      "usageNote": "[GF2021:L6:9991] Source entry: 元素; yuánsù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u05-g01",
+      "pattern": "好似 / 仿佛",
+      "purpose": "Recognise resemblance without literal identity",
+      "explanation": "These words describe appearance or experience, often in literary narration. They do not assert that the compared thing is literally true.",
+      "examples": [
+        {
+          "zh": "那盏灯好似一个没回答的问题。",
+          "py": "nà zhǎn dēng hǎo sì yī gè méi huí dá de wèn tí .",
+          "en": "That lamp seems like an unanswered question."
+        },
+        {
+          "zh": "重复的那句仿佛换了一个说话的人。",
+          "py": "chóng fù de nà jù fǎng fú huàn le yī gè shuō huà de rén .",
+          "en": "The repeated line seems to have a different speaker."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "那盏灯好似一个问题，意思是灯真的会开口问句子。",
+          "right": "那盏灯好似一个没回答的问题。",
+          "why": "The resemblance is figurative."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u05-g02",
+      "pattern": "一时 / 时时 / 早晚",
+      "purpose": "Distinguish temporary, repeated and eventual time scope",
+      "explanation": "一时 can mean temporarily; 时时 means repeatedly or all the time; 早晚 can mean sooner or later. Context can also make 早晚 literal morning/evening.",
+      "examples": [
+        {
+          "zh": "我一时没跟上，停下来再读。",
+          "py": "wǒ yī shí méi gēn shàng , tíng xià lái zài dú .",
+          "en": "I temporarily lost pace and stopped to reread."
+        },
+        {
+          "zh": "她时时提醒我看后面的字。",
+          "py": "tā shí shí tí xǐng wǒ kàn hòu miàn de zì .",
+          "en": "She repeatedly reminds me to look at the following words."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "我一时没跟上，表示以后永远都不可能跟上。",
+          "right": "我一时没跟上，停下来再读。",
+          "why": "The temporary scope does not establish permanent inability."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u05-g03",
+      "pattern": "或A或B",
+      "purpose": "Keep alternate readings available",
+      "explanation": "或 can coordinate alternatives in written analysis. It does not mean every interpretation fits regardless of the surrounding lines.",
+      "examples": [
+        {
+          "zh": "你或是门外的朋友，或是镜中的自己。",
+          "py": "nǐ huò shì mén wài de péng you , huò shì jìng zhōng de zì jǐ .",
+          "en": "“You” may be the friend outside or the self in the mirror."
+        },
+        {
+          "zh": "这一段或像等候，或像准备出发。",
+          "py": "zhè yī duàn huò xiàng děng hòu , huò xiàng zhǔn bèi chū fā .",
+          "en": "This section may resemble waiting or preparing to leave."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "或像等候或像出发，所以歌词保证两件事都已经发生。",
+          "right": "这一段或像等候，或像准备出发。",
+          "why": "Possible readings do not certify two literal events."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u05-g04",
+      "pattern": "不是…还/还是…",
+      "purpose": "Recognise a rhetorical additive question",
+      "explanation": "With question intonation, 不是 asks for confirmation of a known fact; 还 adds another fact. The speaker expects agreement rather than simply negating the first clause.",
+      "examples": [
+        {
+          "zh": "你不是已经看过歌词了吗，还漏了那个留字？",
+          "py": "nǐ bù shì yǐ jīng kàn guò gē cí le ma , hái lòu le nà gè liú zì ?",
+          "en": "Haven’t you already read the lyrics? You still missed that 留?"
+        },
+        {
+          "zh": "这版不是慢一点了吗，还是觉得跟不上？",
+          "py": "zhè bǎn bù shì màn yī diǎn le ma , hái shi jué de gēn bù shàng ?",
+          "en": "Isn’t this version slower? You still feel unable to keep up?"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "你不是已经看过歌词了吗，断定你从来没看过。",
+          "right": "你不是已经看过歌词了吗，还漏了那个留字？",
+          "why": "The rhetorical question refers to prior reading and adds the unexpected omission; it does not assert never reading."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u05-g05",
+      "pattern": "X来X去，都是…",
+      "purpose": "Recognise repeated activity with a shared result",
+      "explanation": "Verb来verb去 marks repeated activity. 都是 identifies what remains across those attempts; it does not prove no other future choice is possible.",
+      "examples": [
+        {
+          "zh": "唱来唱去，都是这几个词在不同地方出现。",
+          "py": "chàng lái chàng qù , dōu shì zhè jǐ gè cí zài bù tóng dì fāng chū xiàn .",
+          "en": "Across repeated singing the same words appear in different places."
+        },
+        {
+          "zh": "看来看去，都是门、灯和风这几个元素。",
+          "py": "kàn lái kàn qù , dōu shì mén , dēng hé fēng zhè jǐ gè yuán sù .",
+          "en": "On repeated looking the elements are door, lamp and wind."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "看来看去都是这些元素，意思是以后禁止写新的元素。",
+          "right": "看来看去，都是门、灯和风这几个元素。",
+          "why": "A description of this text does not ban future revision."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u05-g06",
+      "pattern": "除了…，…都…",
+      "purpose": "Read an exception without erasing the main set",
+      "explanation": "除/除了 specifies an excluded part. The main statement applies to the remaining group; the excluded item requires its own information.",
+      "examples": [
+        {
+          "zh": "除了漏掉的留字，其他字这遍都唱出来了。",
+          "py": "chú le lòu diào de liú zì , qí tā zì zhè biàn dōu chàng chū lái le .",
+          "en": "Apart from the omitted 留, the other words were sung this pass."
+        },
+        {
+          "zh": "除了最后一行，前面的歌词都已确认。",
+          "py": "chú le zuì hòu yī xíng , qián miàn de gē cí dōu yǐ què rèn .",
+          "en": "Except for the final line, the preceding lyrics are confirmed."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "除了最后一行前面都确认了，所以最后一行也已经确认。",
+          "right": "除了最后一行，前面的歌词都已确认。",
+          "why": "An exception is not confirmed by the statement about the rest."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u05-d",
+    "title": "同一句，唱给谁？",
+    "titleZh": "同一句，唱给谁？",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你第二遍唱的时候，那个你是在叫谁？",
+        "py": "nǐ dì èr biàn chàng de shí hou , nà gè nǐ shì zài jiào shéi ?",
+        "en": "Who are you addressing as “you” on the second pass?",
+        "speaker": "a"
+      },
+      {
+        "zh": "一开始像门外的朋友，后面也像以前的我。",
+        "py": "yī kāi shǐ xiàng mén wài de péng you , hòu miàn yě xiàng yǐ qián de wǒ .",
+        "en": "At first a friend outside; later it also feels like my earlier self.",
+        "speaker": "b"
+      },
+      {
+        "zh": "因为镜子那句吗？",
+        "py": "yīn wèi jìng zi nà jù ma ?",
+        "en": "Because of the mirror line?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，不过我没把朋友完全拿掉。两个想法可以一起留着。",
+        "py": "duì , bù guò wǒ méi bǎ péng you wán quán ná diào . liǎng gè xiǎng fǎ kě yǐ yì qǐ liú zhe .",
+        "en": "Yes, but I didn’t entirely remove the friend. Both thoughts can remain.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我原来一直在等一个人回来。",
+        "py": "wǒ yuán lái yì zhí zài děng yī gè rén huí lái .",
+        "en": "I kept imagining waiting for someone’s return.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这样也能听。只是最后没有写他真的回来。",
+        "py": "zhè yàng yě néng tīng . zhǐ shì zuì hòu méi yǒu xiě tā zhēn de huí lái .",
+        "en": "That works too. It just doesn’t say they actually return.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那灯关了是不是就没有希望了？",
+        "py": "nà dēng guān le shì bú shì jiù méi yǒu xī wàng le ?",
+        "en": "Then if the lamp switches off, is there no hope?",
+        "speaker": "a"
+      },
+      {
+        "zh": "也可以是夜里要睡，明天还继续走啊。",
+        "py": "yě kě yǐ shì yè lǐ yào shuì , míng tiān hái jì xù zǒu a .",
+        "en": "It can mean sleeping at night and continuing tomorrow.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你这么一说，我唱法就变了。",
+        "py": "nǐ zhè me yī shuō , wǒ chàng fǎ jiù biàn le .",
+        "en": "That changes how I sing it.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先别急着加快，刚才留给我的留漏了。",
+        "py": "xiān bié jí zhe jiā kuài , gāng cái liú gěi wǒ de liú lòu le .",
+        "en": "Don’t speed up yet; you missed “leave” in “leave for me.”",
+        "speaker": "b"
+      },
+      {
+        "zh": "我跟着节奏过去，没发现少一个字。",
+        "py": "wǒ gēn zhe jié zòu guò qù , méi fā xiàn shǎo yī gè zì .",
+        "en": "I followed the beat and didn’t notice the missing word.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我们先读一遍，再接上声音。",
+        "py": "wǒ men xiān dú yī biàn , zài jiē shàng shēng yīn .",
+        "en": "Read it once first, then join the sound.",
+        "speaker": "b"
+      },
+      {
+        "zh": "要每个字都用说话时的声调唱吗？",
+        "py": "yào měi gè zì dōu yòng shuō huà shí de shēng diào chàng ma ?",
+        "en": "Must every word be sung with its spoken tone?",
+        "speaker": "a"
+      },
+      {
+        "zh": "旋律会变音高，学说话还是要另听说话的读法。",
+        "py": "xuán lǜ huì biàn yīn gāo , xué shuō huà hái shi yào lìng tīng shuō huà de dú fǎ .",
+        "en": "Melody changes pitch; to learn speech we still need its spoken reading separately.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我先确认词没听错，不把高音当成四声？",
+        "py": "nà wǒ xiān què rèn cí méi tīng cuò , bù bǎ gāo yīn dàng chéng sì shēng ?",
+        "en": "So confirm the words, not call a high note fourth tone?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。字确认以后，再唱这段旋律。",
+        "py": "duì . zì què rèn yǐ hòu , zài chàng zhè duàn xuán lǜ .",
+        "en": "Right. Confirm the words, then sing the melody.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你把风留给我，这里停一下，好不好？",
+        "py": "nǐ bǎ fēng liú gěi wǒ , zhè lǐ tíng yī xià , hǎo bù hǎo ?",
+        "en": "Could we pause after “you leave the wind for me”?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，留给我后面停，别把留和给分得太开。",
+        "py": "kě yǐ , liú gěi wǒ hòu miàn tíng , bié bǎ liú hé gěi fēn de tài kāi .",
+        "en": "Yes, after “for me”; don’t separate “leave” and “for” too much.",
+        "speaker": "b"
+      },
+      {
+        "zh": "屏幕上的字怎么一下就过去了？",
+        "py": "píng mù shàng de zì zěn me yī xià jiù guò qù le ?",
+        "en": "Why did the screen words pass so quickly?",
+        "speaker": "a"
+      },
+      {
+        "zh": "这一遍快了。我们回到慢一点的版本。",
+        "py": "zhè yī biàn kuài le . wǒ men huí dào màn yī diǎn de bǎn běn .",
+        "en": "That pass was fast. Let’s return to the slower version.",
+        "speaker": "b"
+      },
+      {
+        "zh": "慢一点不会把感觉都唱没吧？",
+        "py": "màn yī diǎn bù huì bǎ gǎn jué dōu chàng méi ba ?",
+        "en": "Won’t singing slower lose all the feeling?",
+        "speaker": "a"
+      },
+      {
+        "zh": "慢一点也能唱出感觉啊。先唱清，再试别的唱法。",
+        "py": "màn yī diǎn yě néng chàng chū gǎn jué a . xiān chàng qīng , zài shì bié de chàng fǎ .",
+        "en": "You can still make it expressive more slowly. Get it clear first, then try other ways.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那我第二遍唱给以前的我，你唱给门外的朋友？",
+        "py": "nà wǒ dì èr biàn chàng gěi yǐ qián de wǒ , nǐ chàng gěi mén wài de péng you ?",
+        "en": "Then I address my earlier self on the second pass, and you the friend outside?",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，唱完听听哪里不一样。两遍都录下来吧。",
+        "py": "hǎo , chàng wán tīng tīng nǎ lǐ bù yī yàng . liǎng biàn dōu lù xià lái ba .",
+        "en": "Okay, let's hear what's different afterwards. Let's record both takes.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "旋律",
+        "pinyin": "xuán lǜ",
+        "meaning": "melody"
+      },
+      {
+        "hanzi": "版",
+        "pinyin": "bǎn",
+        "meaning": "version"
+      },
+      {
+        "hanzi": "镜",
+        "pinyin": "jìng",
+        "meaning": "mirror"
+      },
+      {
+        "hanzi": "镜子",
+        "pinyin": "jìng zi",
+        "meaning": "mirror"
+      },
+      {
+        "hanzi": "幕",
+        "pinyin": "mù",
+        "meaning": "curtain; screen"
+      },
+      {
+        "hanzi": "节奏",
+        "pinyin": "jié zòu",
+        "meaning": "rhythm"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How do the singers treat the repeated你?",
+        "choices": [
+          "Try friend and earlier-self readings with supporting context",
+          "Declare it must identify one real named person",
+          "Delete every word that permits two readings"
+        ],
+        "answer": "Try friend and earlier-self readings with supporting context"
+      },
+      {
+        "type": "detail",
+        "q": "Which word was omitted from留给我?",
+        "choices": [
+          "留",
+          "给",
+          "我"
+        ],
+        "answer": "留"
+      },
+      {
+        "type": "inference",
+        "q": "Does a high musical note establish a spoken tone grade?",
+        "choices": [
+          "No, melody and spoken lexical readings serve different tasks",
+          "Yes, high always means fourth tone",
+          "Yes, singing fast proves every word is correct"
+        ],
+        "answer": "No, melody and spoken lexical readings serve different tasks"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "我跟着【节奏】过去，没发现少一个字。",
+          "py": "wǒ gēn zhe jié zòu guò qù , méi fā xiàn shǎo yī gè zì .",
+          "en": "I followed the beat and didn’t notice the missing word.",
+          "speaker": "a"
+        },
+        {
+          "zh": "【屏幕】上的字怎么一下就过去了？",
+          "py": "píng mù shàng de zì zěn me yī xià jiù guò qù le ?",
+          "en": "Why did the screen words pass so quickly?",
+          "speaker": "a"
+        }
+      ],
+      "bank": [
+        "节奏",
+        "屏幕",
+        "明天"
+      ]
+    }
+  },
+  "reading": {
+    "id": "s6-u05-r",
+    "title": "同一句，唱给谁？",
+    "titleZh": "同一句，唱给谁？",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "第一次听我们新写的短歌，我把开头的你听成门外离开的朋友。门外有脚步，远方看不见，窗下还有没说完的话，这些都让人想到一次告别。我唱你把风留给我，觉得自己留下的是房间，朋友留下的是风。可是歌里没有说明谁去了哪座城市，也没有写两个人什么时候再见。我可以带着自己的经历听，不需要先把所有空白填成确定的安排。",
+        "py": "dì yī cì tīng wǒ men xīn xiě de duǎn gē , wǒ bǎ kāi tóu de nǐ tīng chéng mén wài lí kāi de péng you . mén wài yǒu jiǎo bù , yuǎn fāng kàn bú jiàn , chuāng xià hái yǒu méi shuō wán de huà , zhè xiē dōu ràng rén xiǎng dào yī cì gào bié . wǒ chàng nǐ bǎ fēng liú gěi wǒ , jué de zì jǐ liú xià de shì fáng jiān , péng you liú xià de shì fēng . kě shì gē lǐ méi yǒu shuō míng shéi qù le nǎ zuò chéng shì , yě méi yǒu xiě liǎng gè rén shén me shí hou zài jiàn . wǒ kě yǐ dài zhe zì jǐ de jīng lì tīng , bù xū yào xiān bǎ suǒ yǒu kòng bái tián chéng què dìng de ān pái .",
+        "en": "On first hearing our original short song I imagined a departing friend. Footsteps, unseen distance and unfinished words support farewell. I brought my own experience without inventing a named city or settled reunion."
+      },
+      {
+        "zh": "第二段出现镜子里的我，旧衣在椅边，新的路还没画完。到了这里，重复的你又像是在向过去的自己说话。那个人没有真的从房门出去，变化也可以发生在同一个房间里：旧习惯还在，新选择已经开始。下一句说这一声你也落在我自己心里，没有把第一段的朋友完全删掉。我因此把第二遍唱得轻一点，不再只想追回一个远处的人。",
+        "py": "dì èr duàn chū xiàn jìng zi lǐ de wǒ , jiù yī zài yǐ biān , xīn de lù hái méi huà wán . dào le zhè lǐ , chóng fù de nǐ yòu xiàng shì zài xiàng guò qù de zì jǐ shuō huà . nà gè rén méi yǒu zhēn de cóng fáng mén chū qù , biàn huà yě kě yǐ fā shēng zài tóng yī gè fáng jiān lǐ : jiù xí guàn hái zài , xīn xuǎn zé yǐ jīng kāi shǐ . xià yī jù shuō zhè yī shēng nǐ yě luò zài wǒ zì jǐ xīn lǐ , méi yǒu bǎ dì yī duàn de péng you wán quán shān diào . wǒ yīn cǐ bǎ dì èr biàn chàng de qīng yī diǎn , bù zài zhǐ xiǎng zhuī huí yī gè yuǎn chù de rén .",
+        "en": "The mirror, old clothes and unfinished new road make the repeated address feel inward too. Change can happen in the same room. The line about “you” landing within me adds rather than erases the first friend interpretation."
+      },
+      {
+        "zh": "林安唱的时候仍然想到朋友。她说那面镜子像是朋友走了以后，留下的人终于看见自己的地方。我原来只想到以前的自己，听她说完，才又回头看门外的脚步。我们把那两句读了一遍，她指着窗下没说完的话，说如果只唱给自己，这句话又该怎么唱。我一时答不上来，就请她先唱她的版本，我坐在旁边听。唱到那一句，她停了半拍，好像真的在等门外的人说话。",
+        "py": "lín ān chàng de shí hou réng rán xiǎng dào péng you . tā shuō nà miàn jìng zi xiàng shì péng you zǒu le yǐ hòu , liú xià de rén zhōng yú kàn jiàn zì jǐ de dì fāng . wǒ yuán lái zhǐ xiǎng dào yǐ qián de zì jǐ , tīng tā shuō wán , cái yòu huí tóu kàn mén wài de jiǎo bù . wǒ men bǎ nà liǎng jù dú le yī biàn , tā zhǐ zhe chuāng xià méi shuō wán de huà , shuō rú guǒ zhǐ chàng gěi zì jǐ , zhè jù huà yòu gāi zěn me chàng . wǒ yī shí dá bù shàng lái , jiù qǐng tā xiān chàng tā de bǎn běn , wǒ zuò zài páng biān tīng . chàng dào nà yī jù , tā tíng le bàn pāi , hǎo xiàng zhēn de zài děng mén wài de rén shuō huà .",
+        "en": "Lin An still pictured a friend. To her, the mirror was where the person left behind finally saw themselves. I'd thought only of my earlier self; her explanation made me look back at the footsteps outside. We reread those lines. She pointed to the unfinished words under the window: if I addressed only myself, how would I sing this? I couldn't answer immediately, so I asked to hear her version. At that line she paused for half a beat, as though waiting for someone outside to speak."
+      },
+      {
+        "zh": "最后一段说灯可以关，话不必忘。我以前一听关灯就觉得希望结束，现在也能想到人要休息，明天还走。歌又写船只不保证带谁归来，直接留下等待没有确定结果这一层。这不是说一定不会见面，而是没有保证会见。唱到新的岸边，还愿听你讲，我感到的希望更像愿意继续，不像已经收到下一次回来的车票。",
+        "py": "zuì hòu yī duàn shuō dēng kě yǐ guān , huà bù bì wàng . wǒ yǐ qián yī tīng guān dēng jiù jué de xī wàng jié shù , xiàn zài yě néng xiǎng dào rén yào xiū xī , míng tiān hái zǒu . gē yòu xiě chuán zhī bù bǎo zhèng dài shéi guī lái , zhí jiē liú xià děng dài méi yǒu què dìng jié guǒ zhè yī céng . zhè bù shì shuō yí dìng bù huì jiàn miàn , ér shì méi yǒu bǎo zhèng huì jiàn . chàng dào xīn de àn biān , hái yuàn tīng nǐ jiǎng , wǒ gǎn dào de xī wàng gèng xiàng yuàn yì jì xù , bù xiàng yǐ jīng shōu dào xià yī cì huí lái de chē piào .",
+        "en": "A switched-off lamp can mean rest rather than ended hope. Vessels offer no guaranteed return, which is not a guarantee of no return. The ending’s wish to hear someone again supports willingness without a booked meeting."
+      },
+      {
+        "zh": "我们排练时把三个重复句放在不同位置，第一遍靠近门外脚步，第二遍靠近镜子，第三遍在新的岸边。同样的文字，因为前后内容不同，让我听到不同的方向。不是每次重复都等于完全一样的事情，也不是必须每次都换一个人。我唱完可以问，这一遍前面发生了什么、后面又留下什么，再决定自己的声音想把哪一层带出来。",
+        "py": "wǒ men pái liàn shí bǎ sān gè chóng fù jù fàng zài bù tóng wèi zhì , dì yī biàn kào jìn mén wài jiǎo bù , dì èr biàn kào jìn jìng zi , dì sān biàn zài xīn de àn biān . tóng yàng de wén zì , yīn wèi qián hòu nèi róng bù tóng , ràng wǒ tīng dào bù tóng de fāng xiàng . bù shì měi cì chóng fù dōu děng yú wán quán yī yàng de shì qíng , yě bù shì bì xū měi cì dōu huàn yī gè rén . wǒ chàng wán kě yǐ wèn , zhè yī biàn qián miàn fā shēng le shén me , hòu miàn yòu liú xià shén me , zài jué dìng zì jǐ de shēng yīn xiǎng bǎ nǎ yī céng dài chū lái .",
+        "en": "The repeated line follows footsteps, mirror and new shore respectively. Surrounding verses shift emphasis without requiring a new referent on every repeat. I ask what precedes and follows each before choosing my delivery."
+      },
+      {
+        "zh": "有一遍我漏了留，只唱你把风给我，听着还像一句完整的话，当时没发现。林安把原稿放到我面前，用笔点着那个字，让我先读留给我。我读完又试着唱，到了那个位置，眼睛还在看纸，音乐已经过去了。我们只放这一小段，慢一点再来，终于把字接上。她说这回听见留了，我笑着问那风是不是也真的留下来了。",
+        "py": "yǒu yī biàn wǒ lòu le liú , zhǐ chàng nǐ bǎ fēng gěi wǒ , tīng zhe hái xiàng yī jù wán zhěng de huà , dāng shí méi fā xiàn . lín ān bǎ yuán gǎo fàng dào wǒ miàn qián , yòng bǐ diǎn zhe nà gè zì , ràng wǒ xiān dú liú gěi wǒ . wǒ dú wán yòu shì zhe chàng , dào le nà gè wèi zhì , yǎn jīng hái zài kàn zhǐ , yīn yuè yǐ jīng guò qù le . wǒ men zhǐ fàng zhè yī xiǎo duàn , màn yī diǎn zài lái , zhōng yú bǎ zì jiē shàng . tā shuō zhè huí tīng jiàn liú le , wǒ xiào zhe wèn nà fēng shì bú shì yě zhēn de liú xià lái le .",
+        "en": "In one take I missed 留 and sang 'you give me the wind'; it still sounded like a complete sentence. Lin An pointed to 留 on the lyric sheet and had me read 留给我 first. Singing again, I was still looking at the paper when the music went past. We slowed just that short section and finally fitted the word in. She could hear 留 this time; I joked whether the wind had really stayed too."
+      },
+      {
+        "zh": "节奏快起来以后，屏幕上一行已经换掉，我却还唱到中间。林安按停音乐，让我从没说完的话那一行再来。我把那一行读完，指着纸说不是忘了，是眼睛还没看到后面。她换慢一点的版本，让我先听完整句，再跟着唱。我拿手机录下来，唱完我们并排坐着听，找到两处容易跟丢的地方。我在纸上画好记号，喝一口已经凉了的茶，问现在能不能再试。她说先把开头读一遍，我只好把杯子放回去。",
+        "py": "jié zòu kuài qǐ lái yǐ hòu , píng mù shàng yī xíng yǐ jīng huàn diào , wǒ què hái chàng dào zhōng jiān . lín ān àn tíng yīn yuè , ràng wǒ cóng méi shuō wán de huà nà yī xíng zài lái . wǒ bǎ nà yī xíng dú wán , zhǐ zhe zhǐ shuō bù shì wàng le , shì yǎn jīng hái méi kàn dào hòu miàn . tā huàn màn yī diǎn de bǎn běn , ràng wǒ xiān tīng wán zhěng jù , zài gēn zhe chàng . wǒ ná shǒu jī lù xià lái , chàng wán wǒ men bìng pái zuò zhe tīng , zhǎo dào liǎng chù róng yì gēn diū de dì fāng . wǒ zài zhǐ shàng huà hǎo jì hào , hē yī kǒu yǐ jīng liáng le de chá , wèn xiàn zài néng bù néng zài shì . tā shuō xiān bǎ kāi tóu dú yī biàn , wǒ zhǐ hǎo bǎ bēi zi fàng huí qù .",
+        "en": "As the rhythm sped up, the screen moved on while I was still halfway through the line. Lin An stopped the music and asked me to restart at the unfinished-words line. I read it from the page: I hadn't forgotten it; my eyes hadn't reached the ending. She chose a slower version for me to hear the full sentence, then sing along. I recorded it, and we sat together to find two places where I lost pace. After marking the page I sipped cold tea and asked to try again. Read the opening first, she said. I put the cup back down."
+      },
+      {
+        "zh": "我问林安，能不能把每个字说话时的声调都原样唱出来。她试着唱了两句，我们都笑了，几个字跟原来的旋律怎么也接不上。她说先听清歌词，再听音乐吧，唱的时候音高跟着旋律走。我把说话的那一遍也留在手机里，遇到听不清的词，就先停下音乐听这一份。留给我的留终于听清以后，我再接着唱，倒没有觉得这首歌变得不好听，只是终于知道自己刚才少唱了什么。",
+        "py": "wǒ wèn lín ān , néng bù néng bǎ měi gè zì shuō huà shí de shēng diào dōu yuán yàng chàng chū lái . tā shì zhe chàng le liǎng jù , wǒ men dōu xiào le , jǐ gè zì gēn yuán lái de xuán lǜ zěn me yě jiē bù shàng . tā shuō xiān tīng qīng gē cí , zài tīng yīn yuè ba , chàng de shí hou yīn gāo gēn zhe xuán lǜ zǒu . wǒ bǎ shuō huà de nà yī biàn yě liú zài shǒu jī lǐ , yù dào tīng bù qīng de cí , jiù xiān tíng xià yīn yuè tīng zhè yī fèn . liú gěi wǒ de liú zhōng yú tīng qīng yǐ hòu , wǒ zài jiē zhe chàng , dào méi yǒu jué de zhè shǒu gē biàn de bù hǎo tīng , zhǐ shì zhōng yú zhī dào zì jǐ gāng cái shǎo chàng le shén me .",
+        "en": "I asked Lin An whether we could sing every word with its spoken tone. She tried two lines and we laughed: several words wouldn't fit the melody. She suggested hearing the words clearly first, then the music, whose pitch follows the tune. I kept the spoken version on my phone too and stopped the music to check unclear words. Once I'd heard 留 clearly, I sang again. The song hadn't become less enjoyable; I finally knew what I'd left out."
+      },
+      {
+        "zh": "后来我们试两个版本，我第二段对以前的自己唱，林安对门外的朋友唱。唱完她问，门外的人会不会以为我在叫他回来。我说最后一句确实像在等回答，自己的那一句却像回头看一眼。她又唱了一次，把最后两个字放轻，我坐在桌边听，觉得那个人这回已经走远了。她说也许留第一版，既然想念，就不用装作一点也不想。我们各自记下喜欢的唱法，明天再一起听录音。",
+        "py": "hòu lái wǒ men shì liǎng gè bǎn běn , wǒ dì èr duàn duì yǐ qián de zì jǐ chàng , lín ān duì mén wài de péng you chàng . chàng wán tā wèn , mén wài de rén huì bù huì yǐ wéi wǒ zài jiào tā huí lái . wǒ shuō zuì hòu yī jù què shí xiàng zài děng huí dá , zì jǐ de nà yī jù què xiàng huí tóu kàn yī yǎn . tā yòu chàng le yī cì , bǎ zuì hòu liǎng gè zì fàng qīng , wǒ zuò zài zhuō biān tīng , jué de nà gè rén zhè huí yǐ jīng zǒu yuǎn le . tā shuō yě xǔ liú dì yī bǎn , jì rán xiǎng niàn , jiù bù yòng zhuāng zuò yī diǎn yě bù xiǎng . wǒ men gè zì jì xià xǐ huān de chàng fǎ , míng tiān zài yì qǐ tīng lù yīn .",
+        "en": "We tried two versions: I sang the second verse to my former self, and Lin An sang to a friend outside the door. Afterwards she asked whether it sounded like she was calling him back. I said her ending seemed to wait for an answer; mine felt like a glance backwards. She sang again, softening the final two words. This time I pictured him already far away. She thought she might keep the first version: if she missed him, why pretend she did not? We noted our preferred versions and planned to listen to the recordings tomorrow."
+      },
+      {
+        "zh": "唱完以后，我想把这个方法带到别的歌：先看完整歌词，找重复句附近的变化，再确认听不清的字。熟悉的唱法可能来自一代人的听歌习惯，也可能融合不同风格，不能只凭声音像古典就说词一定古老。我们这首的文字和旋律都是新写的，有门、灯、风这些常见元素，却让它们在自己的句子里慢慢变方向。我愿意再唱一次，不急着把每一个空白都关上。",
+        "py": "chàng wán yǐ hòu , wǒ xiǎng bǎ zhè gè fāng fǎ dài dào bié de gē : xiān kàn wán zhěng gē cí , zhǎo chóng fù jù fù jìn de biàn huà , zài què rèn tīng bù qīng de zì . shú xī de chàng fǎ kě néng lái zì yí dài rén de tīng gē xí guàn , yě kě néng róng hé bù tóng fēng gé , bù néng zhǐ píng shēng yīn xiàng gǔ diǎn jiù shuō cí yí dìng gǔ lǎo . wǒ men zhè shǒu de wén zì hé xuán lǜ dōu shì xīn xiě de , yǒu mén , dēng , fēng zhè xiē cháng jiàn yuán sù , què ràng tā men zài zì jǐ de jù zi lǐ màn màn biàn fāng xiàng . wǒ yuàn yì zài chàng yī cì , bù jí zhe bǎ měi yī gè kòng bái dōu guān shang .",
+        "en": "For other songs I will read the whole lyric, trace changing context around refrains and check unclear words. Style can blend influences without proving ancient authorship. Our newly written words and melody reuse familiar images while changing their direction."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "旋律",
+        "pinyin": "xuán lǜ",
+        "meaning": "melody"
+      },
+      {
+        "hanzi": "岸",
+        "pinyin": "àn",
+        "meaning": "shore; bank"
+      },
+      {
+        "hanzi": "归来",
+        "pinyin": "guī lái",
+        "meaning": "return"
+      },
+      {
+        "hanzi": "空白",
+        "pinyin": "kòng bái",
+        "meaning": "blank; opening left unfilled"
+      },
+      {
+        "hanzi": "版",
+        "pinyin": "bǎn",
+        "meaning": "version"
+      },
+      {
+        "hanzi": "镜",
+        "pinyin": "jìng",
+        "meaning": "mirror"
+      },
+      {
+        "hanzi": "镜子",
+        "pinyin": "jìng zi",
+        "meaning": "mirror"
+      },
+      {
+        "hanzi": "幕",
+        "pinyin": "mù",
+        "meaning": "curtain; screen"
+      },
+      {
+        "hanzi": "重",
+        "pinyin": "zhòng",
+        "meaning": "heavy; important"
+      },
+      {
+        "hanzi": "节奏",
+        "pinyin": "jié zòu",
+        "meaning": "rhythm"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What changes across the refrain?",
+        "choices": [
+          "Surrounding verses shift its possible address and emphasis",
+          "The words are rewritten on every repeat",
+          "A specific return date becomes guaranteed"
+        ],
+        "answer": "Surrounding verses shift its possible address and emphasis"
+      },
+      {
+        "type": "detail",
+        "q": "Which image introduces a possible inward address?",
+        "choices": [
+          "The self in the mirror",
+          "A named train ticket",
+          "A speaker announcing a city"
+        ],
+        "answer": "The self in the mirror"
+      },
+      {
+        "type": "inference",
+        "q": "What does不保证带谁归来leave open?",
+        "choices": [
+          "Return is neither promised nor ruled out",
+          "Return next week is confirmed",
+          "Permanent separation is certified"
+        ],
+        "answer": "Return is neither promised nor ruled out"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "第一次听我们新写的短歌，我把开头的你听成门外离开的朋友。门外有脚步，【远方】看不见，窗下还有没说完的话，这些都让人想到一次告别。我唱你把风留给我，觉得自己留下的是房间，朋友留下的是风。可是歌里没有说明谁去了哪座城市，也没有写两个人什么时候再见。我可以带着自己的经历听，不需要先把所有空白填成确定的安排。",
+          "py": "dì yī cì tīng wǒ men xīn xiě de duǎn gē , wǒ bǎ kāi tóu de nǐ tīng chéng mén wài lí kāi de péng you . mén wài yǒu jiǎo bù , yuǎn fāng kàn bú jiàn , chuāng xià hái yǒu méi shuō wán de huà , zhè xiē dōu ràng rén xiǎng dào yī cì gào bié . wǒ chàng nǐ bǎ fēng liú gěi wǒ , jué de zì jǐ liú xià de shì fáng jiān , péng you liú xià de shì fēng . kě shì gē lǐ méi yǒu shuō míng shéi qù le nǎ zuò chéng shì , yě méi yǒu xiě liǎng gè rén shén me shí hou zài jiàn . wǒ kě yǐ dài zhe zì jǐ de jīng lì tīng , bù xū yào xiān bǎ suǒ yǒu kòng bái tián chéng què dìng de ān pái .",
+          "en": "On first hearing our original short song I imagined a departing friend. Footsteps, unseen distance and unfinished words support farewell. I brought my own experience without inventing a named city or settled reunion."
+        },
+        {
+          "zh": "林安唱的时候仍然想到朋友。她说那面镜子像是朋友走了以后，留下的人终于看见自己的地方。我原来只想到以前的自己，听她说完，才又回头看门外的脚步。我们把那两句读了一遍，她指着窗下没说完的话，说如果只唱给自己，这句话又该怎么唱。我【一时】答不上来，就请她先唱她的版本，我坐在旁边听。唱到那一句，她停了半拍，好像真的在等门外的人说话。",
+          "py": "lín ān chàng de shí hou réng rán xiǎng dào péng you . tā shuō nà miàn jìng zi xiàng shì péng you zǒu le yǐ hòu , liú xià de rén zhōng yú kàn jiàn zì jǐ de dì fāng . wǒ yuán lái zhǐ xiǎng dào yǐ qián de zì jǐ , tīng tā shuō wán , cái yòu huí tóu kàn mén wài de jiǎo bù . wǒ men bǎ nà liǎng jù dú le yī biàn , tā zhǐ zhe chuāng xià méi shuō wán de huà , shuō rú guǒ zhǐ chàng gěi zì jǐ , zhè jù huà yòu gāi zěn me chàng . wǒ yī shí dá bù shàng lái , jiù qǐng tā xiān chàng tā de bǎn běn , wǒ zuò zài páng biān tīng . chàng dào nà yī jù , tā tíng le bàn pāi , hǎo xiàng zhēn de zài děng mén wài de rén shuō huà .",
+          "en": "Lin An still pictured a friend. To her, the mirror was where the person left behind finally saw themselves. I'd thought only of my earlier self; her explanation made me look back at the footsteps outside. We reread those lines. She pointed to the unfinished words under the window: if I addressed only myself, how would I sing this? I couldn't answer immediately, so I asked to hear her version. At that line she paused for half a beat, as though waiting for someone outside to speak."
+        },
+        {
+          "zh": "最后一段说灯可以关，话不必忘。我以前一听关灯就觉得希望结束，现在也能想到人要休息，明天还走。歌又写【船只】不保证带谁归来，直接留下等待没有确定结果这一层。这不是说一定不会见面，而是没有保证会见。唱到新的岸边，还愿听你讲，我感到的希望更像愿意继续，不像已经收到下一次回来的车票。",
+          "py": "zuì hòu yī duàn shuō dēng kě yǐ guān , huà bù bì wàng . wǒ yǐ qián yī tīng guān dēng jiù jué de xī wàng jié shù , xiàn zài yě néng xiǎng dào rén yào xiū xī , míng tiān hái zǒu . gē yòu xiě chuán zhī bù bǎo zhèng dài shéi guī lái , zhí jiē liú xià děng dài méi yǒu què dìng jié guǒ zhè yī céng . zhè bù shì shuō yí dìng bù huì jiàn miàn , ér shì méi yǒu bǎo zhèng huì jiàn . chàng dào xīn de àn biān , hái yuàn tīng nǐ jiǎng , wǒ gǎn dào de xī wàng gèng xiàng yuàn yì jì xù , bù xiàng yǐ jīng shōu dào xià yī cì huí lái de chē piào .",
+          "en": "A switched-off lamp can mean rest rather than ended hope. Vessels offer no guaranteed return, which is not a guarantee of no return. The ending’s wish to hear someone again supports willingness without a booked meeting."
+        }
+      ],
+      "bank": [
+        "远方",
+        "一时",
+        "船只",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u05-media",
+      "title": "Wind, lamp, and a new shore",
+      "titleZh": "Wind, lamp, and a new shore",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你把风留给我，我把灯留给你。",
+          "py": "nǐ bǎ fēng liú gěi wǒ , wǒ bǎ dēng liú gěi nǐ .",
+          "en": "You leave the wind for me; I leave the lamp for you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "门外的脚步，走向看不见的远方。",
+          "py": "mén wài de jiǎo bù , zǒu xiàng kàn bú jiàn de yuǎn fāng .",
+          "en": "Footsteps outside lead towards a distant unseen place.",
+          "speaker": "b"
+        },
+        {
+          "zh": "海浪一遍一遍，没替我们回答。",
+          "py": "hǎi làng yī biàn yī biàn , méi tì wǒ men huí dá .",
+          "en": "Sea waves repeat without answering for us.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我把没说完的话，放在窗下。",
+          "py": "wǒ bǎ méi shuō wán de huà , fàng zài chuāng xià .",
+          "en": "I leave the unfinished words beneath the window.",
+          "speaker": "b"
+        },
+        {
+          "zh": "镜子里的我，比昨天安静。",
+          "py": "jìng zi lǐ de wǒ , bǐ zuó tiān ān jìng .",
+          "en": "The self in the mirror is quieter than yesterday.",
+          "speaker": "a"
+        },
+        {
+          "zh": "旧衣还在椅边，新的路还没画完。",
+          "py": "jiù yī hái zài yǐ biān , xīn de lù hái méi huà wán .",
+          "en": "Old clothes remain by the chair; the new road isn’t fully drawn.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你把风留给我，我把灯留给你。",
+          "py": "nǐ bǎ fēng liú gěi wǒ , wǒ bǎ dēng liú gěi nǐ .",
+          "en": "You leave the wind for me; I leave the lamp for you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "这一声你，也落在我自己心里。",
+          "py": "zhè yī shēng nǐ , yě luò zài wǒ zì jǐ xīn lǐ .",
+          "en": "This “you” also lands within me.",
+          "speaker": "b"
+        },
+        {
+          "zh": "夜深了，灯可以关，话不必忘。",
+          "py": "yè shēn le , dēng kě yǐ guān , huà bù bì wàng .",
+          "en": "Late at night the lamp can switch off without forgetting the words.",
+          "speaker": "a"
+        },
+        {
+          "zh": "明天的船只，不保证带谁归来。",
+          "py": "míng tiān de chuán zhī , bù bǎo zhèng dài shéi guī lái .",
+          "en": "Tomorrow’s vessels don’t guarantee whose return.",
+          "speaker": "b"
+        },
+        {
+          "zh": "你把风留给我，我把灯留给你。",
+          "py": "nǐ bǎ fēng liú gěi wǒ , wǒ bǎ dēng liú gěi nǐ .",
+          "en": "You leave the wind for me; I leave the lamp for you.",
+          "speaker": "a"
+        },
+        {
+          "zh": "走到新的岸边，还愿听你讲。",
+          "py": "zǒu dào xīn de àn biān , hái yuàn tīng nǐ jiǎng .",
+          "en": "At a new shore I still wish to hear you speak.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "岸",
+          "pinyin": "àn",
+          "meaning": "shore; bank"
+        },
+        {
+          "hanzi": "归来",
+          "pinyin": "guī lái",
+          "meaning": "return"
+        },
+        {
+          "hanzi": "镜",
+          "pinyin": "jìng",
+          "meaning": "mirror"
+        },
+        {
+          "hanzi": "镜子",
+          "pinyin": "jìng zi",
+          "meaning": "mirror"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "Where does the second direction appear?",
+          "choices": [
+            "Mirror and the address landing within the self",
+            "A guaranteed return ticket",
+            "A named city and date"
+          ],
+          "answer": "Mirror and the address landing within the self"
+        },
+        {
+          "type": "inference",
+          "q": "Which ending claim is supported?",
+          "choices": [
+            "Moving on can coexist with wishing to hear someone again",
+            "A reunion has already occurred",
+            "Closing the lamp forbids any future contact"
+          ],
+          "answer": "Moving on can coexist with wishing to hear someone again"
+        }
+      ]
+    },
+    {
+      "id": "s6-u05-word-notebook",
+      "title": "The refrain changes its direction: words in context",
+      "titleZh": "同一句，唱给谁？ · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "歌词没有变，第二遍唱时我想到的人变了。",
+          "py": "gē cí méi yǒu biàn , dì èr biàn chàng shí wǒ xiǎng dào de rén biàn le .",
+          "en": "The lyrics stayed the same; on the second singing I imagined a different person."
+        },
+        {
+          "zh": "她把歌词写在纸上。",
+          "py": "tā bǎ gē cí xiě zài zhǐ shàng .",
+          "en": "She wrote the lyrics on paper."
+        },
+        {
+          "zh": "这段配乐有古典的感觉，不等于歌词是古人写的。",
+          "py": "zhè duàn pèi lè yǒu gǔ diǎn de gǎn jué , bù děng yú gē cí shì gǔ rén xiě de .",
+          "en": "The accompaniment feels classical, not proof the words are ancient."
+        },
+        {
+          "zh": "她常听古典音乐。",
+          "py": "tā cháng tīng gǔ diǎn yīn yuè .",
+          "en": "She often listens to classical music."
+        },
+        {
+          "zh": "我们听过民歌的唱法，再试自己的新歌。",
+          "py": "wǒ men tīng guò mín gē de chàng fǎ , zài shì zì jǐ de xīn gē .",
+          "en": "We listened to a folk-song style before trying our new song."
+        },
+        {
+          "zh": "奶奶教我一首家乡的民歌。",
+          "py": "nǎi nai jiào wǒ yī shǒu jiā xiāng de mín gē .",
+          "en": "Grandmother taught me a folk song from home."
+        },
+        {
+          "zh": "戏曲里的长音给了我们一个想法，不是照搬整段。",
+          "py": "xì qǔ lǐ de zhǎng yīn gěi le wǒ men yī gè xiǎng fǎ , bù shì zhào bān zhěng duàn .",
+          "en": "A held note in Chinese opera gave us an idea; we didn’t copy a whole section."
+        },
+        {
+          "zh": "她带朋友去听戏曲。",
+          "py": "tā dài péng you qù tīng xì qǔ .",
+          "en": "She took a friend to listen to Chinese opera."
+        },
+        {
+          "zh": "这首乐曲没有歌词，可以只听节奏。",
+          "py": "zhè shǒu yuè qǔ méi yǒu gē cí , kě yǐ zhǐ tīng jié zòu .",
+          "en": "This piece has no lyrics, so we can attend to its rhythm."
+        },
+        {
+          "zh": "他演奏了一首短乐曲。",
+          "py": "tā yǎn zòu le yī shǒu duǎn yuè qǔ .",
+          "en": "He played a short musical piece."
+        },
+        {
+          "zh": "先跟上节奏，不要把没听清的字跳过去。",
+          "py": "xiān gēn shàng jié zòu , bú yào bǎ méi tīng qīng de zì tiào guò qù .",
+          "en": "Follow the rhythm without skipping words you haven’t caught."
+        },
+        {
+          "zh": "他说话的节奏很快。",
+          "py": "tā shuō huà de jié zòu hěn kuài .",
+          "en": "He speaks at a fast pace."
+        },
+        {
+          "zh": "她演奏时，我先小声读歌词。",
+          "py": "tā yǎn zòu shí , wǒ xiān xiǎo shēng dú gē cí .",
+          "en": "While she plays I first read the words quietly."
+        },
+        {
+          "zh": "他在小厅演奏钢琴。",
+          "py": "tā zài xiǎo tīng yǎn zòu gāng qín .",
+          "en": "He plays the piano in the small hall."
+        },
+        {
+          "zh": "歌唱把一个音拉长，字本身还是那个字。",
+          "py": "gē chàng bǎ yī gè yīn lā zhǎng , zì běn shēn hái shi nà gè zì .",
+          "en": "Singing stretches a sound, but the word remains that word."
+        },
+        {
+          "zh": "她喜欢歌唱，也喜欢听别人唱。",
+          "py": "tā xǐ huān gē chàng , yě xǐ huān tīng bié ren chàng .",
+          "en": "She enjoys singing and listening to others."
+        },
+        {
+          "zh": "屏幕上一行消失了，我还没唱到最后。",
+          "py": "píng mù shàng yī xíng xiāo shī le , wǒ hái méi chàng dào zuì hòu .",
+          "en": "The screen line vanished before I sang its end."
+        },
+        {
+          "zh": "她把屏幕调暗一点。",
+          "py": "tā bǎ píng mù diào àn yī diǎn .",
+          "en": "She dimmed the screen a little."
+        },
+        {
+          "zh": "音量小一点，才能听见自己在哪个字停。",
+          "py": "yīn liàng xiǎo yī diǎn , cái néng tīng jiàn zì jǐ zài nǎ gè zì tíng .",
+          "en": "A lower volume lets me hear which word I pause on."
+        },
+        {
+          "zh": "这段录音的音量比前面小。",
+          "py": "zhè duàn lù yīn de yīn liàng bǐ qián miàn xiǎo .",
+          "en": "This recording is quieter than the previous one."
+        },
+        {
+          "zh": "课程的音像资料按单元放在一起。",
+          "py": "kè chéng de yīn xiàng zī liào àn dān yuán fàng zài yì qǐ .",
+          "en": "The course’s audio-video materials are grouped by unit."
+        },
+        {
+          "zh": "他负责整理音像资料。",
+          "py": "tā fù zé zhěng lǐ yīn xiàng zī liào .",
+          "en": "He is responsible for organising audio-video materials."
+        },
+        {
+          "zh": "多媒体课件同时有画面、文字和声音。",
+          "py": "duō méi tǐ kè jiàn tóng shí yǒu huà miàn , wén zì hé shēng yīn .",
+          "en": "The multimedia lesson contains images, text and sound."
+        },
+        {
+          "zh": "这间教室有多媒体设备。",
+          "py": "zhè jiān jiào shì yǒu duō méi tǐ shè bèi .",
+          "en": "This classroom has multimedia equipment."
+        },
+        {
+          "zh": "黑夜里的灯可以像等候，也可以像一个方向。",
+          "py": "hēi yè lǐ de dēng kě yǐ xiàng děng hòu , yě kě yǐ xiàng yī gè fāng xiàng .",
+          "en": "A lamp in the night can suggest waiting or a direction."
+        },
+        {
+          "zh": "黑夜过去，窗外慢慢亮了。",
+          "py": "hēi yè guò qù , chuāng wài màn màn liàng le .",
+          "en": "After the night the outside gradually brightened."
+        },
+        {
+          "zh": "海浪没有替人物回答，歌里仍留着空白。",
+          "py": "hǎi làng méi yǒu tì rén wù huí dá , gē lǐ réng liú zhe kòng bái .",
+          "en": "The sea waves don’t answer for the character; the song leaves an opening."
+        },
+        {
+          "zh": "她听见海浪拍到岸边。",
+          "py": "tā tīng jiàn hǎi làng pāi dào àn biān .",
+          "en": "She heard waves reach the shore."
+        },
+        {
+          "zh": "歌里的海洋很宽，房间里的声音却很近。",
+          "py": "gē lǐ de hǎi yáng hěn kuān , fáng jiān lǐ de shēng yīn què hěn jìn .",
+          "en": "The song’s ocean is broad, but the room’s voice is close."
+        },
+        {
+          "zh": "这本书介绍海洋里的动物。",
+          "py": "zhè běn shū jiè shào hǎi yáng lǐ de dòng wù .",
+          "en": "This book introduces ocean animals."
+        },
+        {
+          "zh": "波浪是一幅流动的画面，不是一个人的姓名。",
+          "py": "bō làng shì yī fú liú dòng de huà miàn , bù shì yī gè rén de xìng míng .",
+          "en": "Waves form a moving image, not a person’s name."
+        },
+        {
+          "zh": "湖面的波浪比海边小。",
+          "py": "hú miàn de bō làng bǐ hǎi biān xiǎo .",
+          "en": "The lake’s waves are smaller than those by the sea."
+        },
+        {
+          "zh": "人物说想渡过河，还没说已经到了对岸。",
+          "py": "rén wù shuō xiǎng dù guò hé , hái méi shuō yǐ jīng dào le duì àn .",
+          "en": "The character wants to cross the river, not says they already reached the far bank."
+        },
+        {
+          "zh": "他们乘船渡河。",
+          "py": "tā men chéng chuán dù hé .",
+          "en": "They crossed the river by boat."
+        },
+        {
+          "zh": "船只离开岸边，我想的是距离在变化。",
+          "py": "chuán zhī lí kāi àn biān , wǒ xiǎng de shì jù lí zài biàn huà .",
+          "en": "As vessels leave the bank, I think of changing distance."
+        },
+        {
+          "zh": "大风时船只没有出发。",
+          "py": "dà fēng shí chuán zhī méi yǒu chū fā .",
+          "en": "The vessels did not depart in strong winds."
+        },
+        {
+          "zh": "远方是一个方向，没有写具体城市。",
+          "py": "yuǎn fāng shì yī gè fāng xiàng , méi yǒu xiě jù tǐ chéng shì .",
+          "en": "The distant place is a direction without a named city."
+        },
+        {
+          "zh": "她收到一封远方朋友的信。",
+          "py": "tā shōu dào yī fēng yuǎn fāng péng you de xìn .",
+          "en": "She received a letter from a friend far away."
+        },
+        {
+          "zh": "远离旧房间，不一定远离所有朋友。",
+          "py": "yuǎn lí jiù fáng jiān , bù yí dìng yuǎn lí suǒ yǒu péng you .",
+          "en": "Leaving the old room needn’t mean leaving every friend behind."
+        },
+        {
+          "zh": "他们远离城市，住在小村庄。",
+          "py": "tā men yuǎn lí chéng shì , zhù zài xiǎo cūn zhuāng .",
+          "en": "They live in a village far from the city."
+        },
+        {
+          "zh": "第二遍的速度远远超过我能读清的速度。",
+          "py": "dì èr biàn de sù dù yuǎn yuǎn chāo guò wǒ néng dú qīng de sù dù .",
+          "en": "The second pass is far faster than I can read clearly."
+        },
+        {
+          "zh": "他的安排远远比我想的细。",
+          "py": "tā de ān pái yuǎn yuǎn bǐ wǒ xiǎng de xì .",
+          "en": "His plan is far more detailed than I imagined."
+        },
+        {
+          "zh": "一代人熟悉的唱法，不一定下一代也常听。",
+          "py": "yí dài rén shú xī de chàng fǎ , bù yí dìng xià yí dài yě cháng tīng .",
+          "en": "A style familiar to one generation may not be common listening for the next."
+        },
+        {
+          "zh": "这本书写了上一代人的生活。",
+          "py": "zhè běn shū xiě le shàng yí dài rén de shēng huó .",
+          "en": "This book describes the previous generation’s lives."
+        },
+        {
+          "zh": "这段写雨的时节，不一定是作者今天的天气。",
+          "py": "zhè duàn xiě yǔ de shí jié , bù yí dìng shì zuò zhě jīn tiān de tiān qì .",
+          "en": "This describes a rainy season, not necessarily the writer’s weather today."
+        },
+        {
+          "zh": "到了这个时节，天黑得早。",
+          "py": "dào le zhè gè shí jié , tiān hēi de zǎo .",
+          "en": "At this time of year it gets dark early."
+        },
+        {
+          "zh": "窗边的阴影在动，我把它听成没有说完的话。",
+          "py": "chuāng biān de yīn yǐng zài dòng , wǒ bǎ tā tīng chéng méi yǒu shuō wán de huà .",
+          "en": "The moving window shadow suggests unfinished words to me."
+        },
+        {
+          "zh": "树的阴影落在墙上。",
+          "py": "shù de yīn yǐng luò zài qiáng shàng .",
+          "en": "The tree’s shadow falls on the wall."
+        },
+        {
+          "zh": "我一时没跟上，停下来再读。",
+          "py": "wǒ yī shí méi gēn shàng , tíng xià lái zài dú .",
+          "en": "I momentarily lost pace and stopped to reread."
+        },
+        {
+          "zh": "她一时想不起那个人的名字。",
+          "py": "tā yī shí xiǎng bù qǐ nà gè rén de míng zi .",
+          "en": "She couldn’t recall that person’s name for a moment."
+        },
+        {
+          "zh": "重复的那句仿佛换了一个说话的人。",
+          "py": "chóng fù de nà jù fǎng fú huàn le yī gè shuō huà de rén .",
+          "en": "The repeated line seems to have a different speaker."
+        },
+        {
+          "zh": "屋里安静得仿佛没人。",
+          "py": "wū lǐ ān jìng de fǎng fú méi rén .",
+          "en": "The room is as quiet as if empty."
+        },
+        {
+          "zh": "那盏灯好似一个没回答的问题。",
+          "py": "nà zhǎn dēng hǎo sì yī gè méi huí dá de wèn tí .",
+          "en": "That lamp seems like an unanswered question."
+        },
+        {
+          "zh": "河面好似一条发亮的带子。",
+          "py": "hé miàn hǎo sì yī tiáo fā liàng de dài zi .",
+          "en": "The river looks like a shining ribbon."
+        },
+        {
+          "zh": "我幻想过再次见面，歌里没有把它写成事实。",
+          "py": "wǒ huàn xiǎng guò zài cì jiàn miàn , gē lǐ méi yǒu bǎ tā xiě chéng shì shí .",
+          "en": "I imagined meeting again; the song doesn’t make it a fact."
+        },
+        {
+          "zh": "她把小时候的幻想写进故事。",
+          "py": "tā bǎ xiǎo shí hòu de huàn xiǎng xiě jìn gù shì .",
+          "en": "She put her childhood imaginings into the story."
+        },
+        {
+          "zh": "这一段唱得孤独，下一段又多了一点希望。",
+          "py": "zhè yī duàn chàng de gū dú , xià yī duàn yòu duō le yī diǎn xī wàng .",
+          "en": "This verse sounds lonely; the next adds some hope."
+        },
+        {
+          "zh": "他在人多的地方也会觉得孤独。",
+          "py": "tā zài rén duō de dì fāng yě huì jué de gū dú .",
+          "en": "He can feel lonely even among people."
+        },
+        {
+          "zh": "这首歌让我想起心灵里还没有说出的感受。",
+          "py": "zhè shǒu gē ràng wǒ xiǎng qǐ xīn líng lǐ hái méi yǒu shuō chū de gǎn shòu .",
+          "en": "This song recalls feelings within me that I haven’t yet expressed."
+        },
+        {
+          "zh": "音乐让她的心灵慢慢平静。",
+          "py": "yīn yuè ràng tā de xīn líng màn màn píng jìng .",
+          "en": "Music gradually calms her inner world."
+        },
+        {
+          "zh": "新歌融合两种唱法，但词和旋律都是我们新写的。",
+          "py": "xīn gē róng hé liǎng zhǒng chàng fǎ , dàn cí hé xuán lǜ dōu shì wǒ men xīn xiě de .",
+          "en": "The new song blends two styles, with newly written words and melody."
+        },
+        {
+          "zh": "这个活动融合了阅读和演奏。",
+          "py": "zhè gè huó dòng róng hé le yuè dú hé yǎn zòu .",
+          "en": "The event combines reading and instrumental performance."
+        },
+        {
+          "zh": "门、灯和风是反复出现的元素。",
+          "py": "mén , dēng hé fēng shì fǎn fù chū xiàn de yuán sù .",
+          "en": "Door, lamp and wind are recurring elements."
+        },
+        {
+          "zh": "这个设计只保留了三个主要元素。",
+          "py": "zhè gè shè jì zhǐ bǎo liú le sān gè zhǔ yào yuán sù .",
+          "en": "The design keeps just three main elements."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "庄",
+          "pinyin": "zhuāng",
+          "meaning": "village; estate"
+        },
+        {
+          "hanzi": "旋律",
+          "pinyin": "xuán lǜ",
+          "meaning": "melody"
+        },
+        {
+          "hanzi": "岸",
+          "pinyin": "àn",
+          "meaning": "shore; bank"
+        },
+        {
+          "hanzi": "空白",
+          "pinyin": "kòng bái",
+          "meaning": "blank; opening left unfilled"
+        },
+        {
+          "hanzi": "阴影",
+          "pinyin": "yīn yǐng",
+          "meaning": "shadow"
+        },
+        {
+          "hanzi": "跳过",
+          "pinyin": "tiào guò",
+          "meaning": "skip"
+        },
+        {
+          "hanzi": "幕",
+          "pinyin": "mù",
+          "meaning": "curtain; screen"
+        },
+        {
+          "hanzi": "重",
+          "pinyin": "zhòng",
+          "meaning": "heavy; important"
+        },
+        {
+          "hanzi": "照搬",
+          "pinyin": "zhào bān",
+          "meaning": "copy wholesale"
+        },
+        {
+          "hanzi": "节奏",
+          "pinyin": "jié zòu",
+          "meaning": "rhythm"
+        },
+        {
+          "hanzi": "设备",
+          "pinyin": "shè bèi",
+          "meaning": "equipment"
+        },
+        {
+          "hanzi": "盏",
+          "pinyin": "zhǎn",
+          "meaning": "classifier for lamps"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u05-paired-reading",
+      "title": "Writing and rehearsing the opening",
+      "titleZh": "Writing and rehearsing the opening",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "写这首短歌时，我最早只有门外脚步和窗边的灯两个画面。那时候想的确实是一个朋友离开，留下的人不知道该再说什么。陈宇后来问能不能放一面镜子，让留下的人也看见自己。我喜欢这个想法，把旧衣和还没画完的新路放进去。不是把原来的朋友删掉，而是让告别以后还有自己的变化，不让房间只成为等别人回来的一处地方。",
+          "py": "xiě zhè shǒu duǎn gē shí , wǒ zuì zǎo zhǐ yǒu mén wài jiǎo bù hé chuāng biān de dēng liǎng gè huà miàn . nà shí hòu xiǎng dí què shí shì yī gè péng you lí kāi , liú xià de rén bù zhī dào gāi zài shuō shén me . chén yǔ hòu lái wèn néng bù néng fàng yí miàn jìng zi , ràng liú xià de rén yě kàn jiàn zì jǐ . wǒ xǐ huān zhè gè xiǎng fǎ , bǎ jiù yī hé hái méi huà wán de xīn lù fàng jìn qù . bù shì bǎ yuán lái de péng you shān diào , ér shì ràng gào bié yǐ hòu hái yǒu zì jǐ de biàn huà , bù ràng fáng jiān zhǐ chéng wéi děng bié ren huí lái de yī chù dì fāng .",
+          "en": "The initial images concerned a friend leaving. Adding a mirror, old clothes and unfinished road expanded the remaining person’s change without removing the friend or making the room only a waiting place."
+        },
+        {
+          "zh": "我们写重复句你把风留给我，我把灯留给你，觉得两个动作并不相同。风留不住，灯也可能要关，人不能用东西真的交换一份永远不变的关系。可它们放在歌里，可以像两个人各留一点感受。写到这一声你也落在我自己心里时，我想让读者听见新的方向，同时不规定必须从哪一秒起把你全部换成自己。",
+          "py": "wǒ men xiě chóng fù jù nǐ bǎ fēng liú gěi wǒ , wǒ bǎ dēng liú gěi nǐ , jué de liǎng gè dòng zuò bìng bù xiāng tóng . fēng liú bù zhù , dēng yě kě néng yào guān , rén bù néng yòng dōng xi zhēn de jiāo huàn yī fèn yǒng yuǎn bù biàn de guān xì . kě tā men fàng zài gē lǐ , kě yǐ xiàng liǎng gè rén gè liú yī diǎn gǎn shòu . xiě dào zhè yī shēng nǐ yě luò zài wǒ zì jǐ xīn lǐ shí , wǒ xiǎng ràng dú zhě tīng jiàn xīn de fāng xiàng , tóng shí bù guī dìng bì xū cóng nǎ yī miǎo qǐ bǎ nǐ quán bù huàn chéng zì jǐ .",
+          "en": "Wind cannot literally be kept and lamps switch off, yet the exchange can suggest leaving feelings. The inward-address line offered another direction without a precise instant at which every “you” must change referent."
+        },
+        {
+          "zh": "最后我写灯可以关，话不必忘，是因为不想让留下的人为了证明还在等，就永远不敢关灯睡觉。希望也可以跟正常的休息一起发生。新的岸边没有具体地名，船只没有保证带谁回来，我们没有把最后唱成以后再也见不到。如果有人听见的是往前走，也能听到还愿听你讲，这两个方向在结尾里可以互相牵着，不一定要只保留其中一个。",
+          "py": "zuì hòu wǒ xiě dēng kě yǐ guān , huà bù bì wàng , shì yīn wèi bù xiǎng ràng liú xià de rén wéi le zhèng míng hái zài děng , jiù yǒng yuǎn bù gǎn guān dēng shuì jiào . xī wàng yě kě yǐ gēn zhèng cháng de xiū xī yì qǐ fā shēng . xīn de àn biān méi yǒu jù tǐ dì míng , chuán zhī méi yǒu bǎo zhèng dài shéi huí lái , wǒ men méi yǒu bǎ zuì hòu chàng chéng yǐ hòu zài yě jiàn bù dào . rú guǒ yǒu rén tīng jiàn de shì wǎng qián zǒu , yě néng tīng dào hái yuàn tīng nǐ jiǎng , zhè liǎng gè fāng xiàng zài jié wěi lǐ kě yǐ hù xiāng qiān zhe , bù yí dìng yào zhǐ bǎo liú qí zhōng yī gè .",
+          "en": "The lamp line allows rest alongside hope. Unnamed shore and unguaranteed return do not establish permanent separation; forward movement and a continued wish to listen coexist."
+        },
+        {
+          "zh": "第一次排练，我听见陈宇省掉留，以为给他的稿子还是旧版本。他把纸递过来，两个人的那一行完全一样，是他跟着快节奏把那个音漏过去了。我请他只唱这一句，不用从头来。他唱第二遍还是少了留，就先把笔放下，照着纸慢慢读。第三遍乐器一起进来，留给我终于连上了。他自己也听出来，马上抬头看我。我说这回有了，他还不放心，问能不能把刚才那一小段再听一次。",
+          "py": "dì yī cì pái liàn , wǒ tīng jiàn chén yǔ shěng diào liú , yǐ wéi gěi tā de gǎo zi hái shi jiù bǎn běn . tā bǎ zhǐ dì guò lái , liǎng gè rén de nà yī xíng wán quán yī yàng , shì tā gēn zhe kuài jié zòu bǎ nà gè yīn lòu guò qù le . wǒ qǐng tā zhǐ chàng zhè yī jù , bù yòng cóng tóu lái . tā chàng dì èr biàn hái shi shǎo le liú , jiù xiān bǎ bǐ fàng xià , zhào zhe zhǐ màn màn dú . dì sān biàn yuè qì yì qǐ jìn lái , liú gěi wǒ zhōng yú lián shàng le . tā zì jǐ yě tīng chū lái , mǎ shàng tái tóu kàn wǒ . wǒ shuō zhè huí yǒu le , tā hái bù fàng xīn , wèn néng bù néng bǎ gāng cái nà yī xiǎo duàn zài tīng yī cì .",
+          "en": "At the first rehearsal I thought Chen Yu had an old draft when he omitted 留. He handed over his page; our lines were identical. He'd missed the sound while following the fast rhythm. I asked for just that line again. He missed 留 the second time too, so put down his pen and read slowly from the page. On the third pass the instruments joined in and 留给我 finally connected. He heard it himself and looked up. I said it was there this time; he still wanted to hear that short section again."
+        },
+        {
+          "zh": "说话和歌唱的录音，我们都留了一份。陈宇先听说话的那一遍，说比音乐里的字容易听清，几个词以前原来一直听错了。到了歌唱的版本，有些音沿着旋律拖得长，他听得又想跟着唱。我让他先把这一段听完，再放一次给他跟。他唱到留给我时还是看了一眼纸，不过这回没有漏掉。唱完以后，他把两份录音都存好，说路上想听歌，晚上回来再仔细听说话的那份。",
+          "py": "shuō huà hé gē chàng de lù yīn , wǒ men dōu liú le yī fèn . chén yǔ xiān tīng shuō huà de nà yī biàn , shuō bǐ yīn yuè lǐ de zì róng yì tīng qīng , jǐ gè cí yǐ qián yuán lái yì zhí tīng cuò le . dào le gē chàng de bǎn běn , yǒu xiē yīn yán zhe xuán lǜ tuō de zhǎng , tā tīng de yòu xiǎng gēn zhe chàng . wǒ ràng tā xiān bǎ zhè yī duàn tīng wán , zài fàng yī cì gěi tā gēn . tā chàng dào liú gěi wǒ shí hái shi kàn le yī yǎn zhǐ , bù guò zhè huí méi yǒu lòu diào . chàng wán yǐ hòu , tā bǎ liǎng fèn lù yīn dōu cún hǎo , shuō lù shàng xiǎng tīng gē , wǎn shang huí lái zài zǐ xì tīng shuō huà de nà fèn .",
+          "en": "We kept both spoken and sung recordings. Chen Yu found the spoken words clearer and realised he'd long misheard several. The sung version stretched some sounds along the melody and made him want to sing. I asked him to listen through, then replayed it for him to follow. He glanced at the page for 留给我 but didn't omit it this time. Afterwards he saved both: the song for his journey and the spoken recording for a closer listen at home that evening."
+        },
+        {
+          "zh": "为了看哪里最容易跟丢，我把屏幕上的一行分成两次出现，但没有在字词中间乱切。陈宇说留给我连着看，比留在上一行、给我在下一行更容易懂。我于是让一句里的搭配留在一起，停顿放在意思能暂时停的地方。字幕的方便不是把每个字单独跳出来，而是让唱的人看得见一小段完整的关系，再顺着往下接。",
+          "py": "wèi le kàn nǎ lǐ zuì róng yì gēn diū , wǒ bǎ píng mù shàng de yī xíng fēn chéng liǎng cì chū xiàn , dàn méi yǒu zài zì cí zhōng jiān luàn qiè . chén yǔ shuō liú gěi wǒ lián zhe kàn , bǐ liú zài shàng yī xíng , gěi wǒ zài xià yī xíng gèng róng yì dǒng . wǒ yú shì ràng yī jù lǐ de dā pèi liú zài yì qǐ , tíng dùn fàng zài yì sī néng zàn shí tíng de dì fāng . zì mù de fāng biàn bù shì bǎ měi gè zì dān dú tiào chū lái , ér shì ràng chàng de rén kàn de jiàn yī xiǎo duàn wán zhěng de guān xì , zài shùn zhe wǎng xià jiē .",
+          "en": "We split screen timing at meaningful boundaries rather than break 留给我 across lines. Helpful timing showed short connected relationships rather than isolated flashing characters."
+        },
+        {
+          "zh": "有朋友听了慢版，说感觉更孤独；另一个人却觉得像认真跟朋友讲话。我没有急着给这个速度贴一个固定情绪。音量、停顿、前后段落和听的人自己的经验，都会改变他听见的东西。我们可以说这一次我感觉怎样，也可以让别人指出是哪一句带来这种感觉。不需要为了让讨论有一个结束，就宣布某个速度只能属于某种情绪。",
+          "py": "yǒu péng you tīng le màn bǎn , shuō gǎn jué gèng gū dú ; lìng yī gè rén què jué de xiàng rèn zhēn gēn péng you jiǎng huà . wǒ méi yǒu jí zhe gěi zhè gè sù dù tiē yī gè gù dìng qíng xù . yīn liàng , tíng dùn , qián hòu duàn luò hé tīng de rén zì jǐ de jīng yàn , dū huì gǎi biàn tā tīng jiàn de dōng xi . wǒ men kě yǐ shuō zhè yī cì wǒ gǎn jué zěn yàng , yě kě yǐ ràng bié ren zhǐ chū shì nǎ yī jù dài lái zhè zhǒng gǎn jué . bù xū yào wèi le ràng tǎo lùn yǒu yī gè jié shù , jiù xuān bù mǒu gè sù dù zhǐ néng shǔ yú mǒu zhǒng qíng xù .",
+          "en": "Listeners heard the slower version differently. We described perceptions and supporting lines rather than assign speed a fixed emotion; volume, pauses, context and experience all contributed."
+        },
+        {
+          "zh": "后来陈宇唱给以前的自己，我在门外脚步后停半拍，唱给那个离开的朋友。两段录完，我们把手机放在桌边，一人拿一份稿子听。陈宇说我的那遍把留拖得太长，我正想再听，录音里给我两个字已经跟后面的声音挤在一起。我把那一处圈起来，重唱一次，把留唱短一些。他这回能接着唱到窗下那句，听完问是不是还想留第一遍。我说也有一点喜欢，先别删。他把两份分别写上日期和名字，让我明天回来再选。",
+          "py": "hòu lái chén yǔ chàng gěi yǐ qián de zì jǐ , wǒ zài mén wài jiǎo bù hòu tíng bàn pāi , chàng gěi nà gè lí kāi de péng you . liǎng duàn lù wán , wǒ men bǎ shǒu jī fàng zài zhuō biān , yī rén ná yī fèn gǎo zi tīng . chén yǔ shuō wǒ de nà biàn bǎ liú tuō de tài zhǎng , wǒ zhèng xiǎng zài tīng , lù yīn lǐ gěi wǒ liǎng gè zì yǐ jīng gēn hòu miàn de shēng yīn jǐ zài yì qǐ . wǒ bǎ nà yī chù quān qǐ lái , zhòng chàng yī cì , bǎ liú chàng duǎn yī xiē . tā zhè huí néng jiē zhe chàng dào chuāng xià nà jù , tīng wán wèn shì bú shì hái xiǎng liú dì yī biàn . wǒ shuō yě yǒu yī diǎn xǐ huān , xiān bié shān . tā bǎ liǎng fèn fēn bié xiě shàng rì qī hé míng zi , ràng wǒ míng tiān huí lái zài xuǎn .",
+          "en": "Chen Yu sang to his former self; I paused half a beat after the footsteps and sang to the departing friend. We put the phone on the table and listened with a lyric sheet each. I'd stretched 留 too long, he said. On playback, 给我 crowded into the following sounds. I circled the spot and sang again with a shorter 留. This time he could sing on to the window line. Did I still want the first take? I liked something about it too; don't delete it yet. He labelled both with the date and our names so I could choose tomorrow."
+        },
+        {
+          "zh": "这首歌里有海洋和船只，其实我们排练的小厅离海很远。那天窗外只有来来往往的车，陈宇却说唱到海浪时想起小时候去过的海边。我问他那时候是不是也有人离开，他说没有，只有一双鞋被水打湿，回家还被妈妈问怎么弄的。我们笑了半天，他又说，自己在歌里想到的是那天傍晚的风。我没想到一句海浪会让他想起那双鞋，却又觉得很好，歌里的风原来可以走到这么多地方。",
+          "py": "zhè shǒu gē lǐ yǒu hǎi yáng hé chuán zhī , qí shí wǒ men pái liàn de xiǎo tīng lí hǎi hěn yuǎn . nà tiān chuāng wài zhǐ yǒu lái lái wǎng wǎng de chē , chén yǔ què shuō chàng dào hǎi làng shí xiǎng qǐ xiǎo shí hòu qù guò de hǎi biān . wǒ wèn tā nà shí hòu shì bú shì yě yǒu rén lí kāi , tā shuō méi yǒu , zhǐ yǒu yī shuāng xié bèi shuǐ dǎ shī , huí jiā hái bèi mā mā wèn zěn me nòng de . wǒ men xiào le bàn tiān , tā yòu shuō , zì jǐ zài gē lǐ xiǎng dào de shì nà tiān bàng wǎn de fēng . wǒ méi xiǎng dào yī jù hǎi làng huì ràng tā xiǎng qǐ nà shuāng xié , què yòu jué de hěn hǎo , gē lǐ de fēng yuán lái kě yǐ zǒu dào zhè me duō dì fāng .",
+          "en": "The song had an ocean and vessels, but our little rehearsal hall was far inland. Outside were passing cars. Chen Yu said the waves reminded him of the seaside he'd visited as a child. Had someone left then? No, just a pair of shoes soaked by the water, which his mother asked about at home. We laughed; what he really remembered in the song was that evening's breeze. I'd never expected the waves to bring back those shoes. I liked how far the song's wind could travel."
+        },
+        {
+          "zh": "最后我们给原稿记下了几个选择：重复句在三处出现，镜子提供第二种方向，最后保留向前和想再听的两层。以后如果改一行，就重新看它会不会让前后的关系变了，而不是只看字数够不够。唱法可以慢慢试，歌词也可以继续改。现在这版留下的空白，是我们有意留给听的人去连，不是因为忘了写一个确定结局。",
+          "py": "zuì hòu wǒ men gěi yuán gǎo jì xià le jǐ gè xuǎn zé : chóng fù jù zài sān chù chū xiàn , jìng zi tí gōng dì èr zhǒng fāng xiàng , zuì hòu bǎo liú xiàng qián hé xiǎng zài tīng de liǎng céng . yǐ hòu rú guǒ gǎi yī xíng , jiù chóng xīn kàn tā huì bù huì ràng qián hòu de guān xì biàn le , ér bù shì zhǐ kàn zì shù gòu bù gòu . chàng fǎ kě yǐ màn màn shì , gē cí yě kě yǐ jì xù gǎi . xiàn zài zhè bǎn liú xià de kòng bái , shì wǒ men yǒu yì liú gěi tīng de rén qù lián , bù shì yīn wèi wàng le xiě yī gè què dìng jié jú .",
+          "en": "Our notes preserved three refrains, the mirror’s second direction and the ending’s movement plus continued listening. Future edits should check surrounding relationships, not only length. The opening remained intentional rather than an accidentally omitted fixed ending."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "牵",
+          "pinyin": "qiān",
+          "meaning": "draw; lead; hold"
+        },
+        {
+          "hanzi": "旋律",
+          "pinyin": "xuán lǜ",
+          "meaning": "melody"
+        },
+        {
+          "hanzi": "岸",
+          "pinyin": "àn",
+          "meaning": "shore; bank"
+        },
+        {
+          "hanzi": "嗓子",
+          "pinyin": "sǎng zi",
+          "meaning": "voice; throat"
+        },
+        {
+          "hanzi": "空白",
+          "pinyin": "kòng bái",
+          "meaning": "blank; opening left unfilled"
+        },
+        {
+          "hanzi": "省掉",
+          "pinyin": "shěng diào",
+          "meaning": "omit"
+        },
+        {
+          "hanzi": "搭配",
+          "pinyin": "dā pèi",
+          "meaning": "connected combination"
+        },
+        {
+          "hanzi": "版",
+          "pinyin": "bǎn",
+          "meaning": "version"
+        },
+        {
+          "hanzi": "镜",
+          "pinyin": "jìng",
+          "meaning": "mirror"
+        },
+        {
+          "hanzi": "镜子",
+          "pinyin": "jìng zi",
+          "meaning": "mirror"
+        },
+        {
+          "hanzi": "拖",
+          "pinyin": "tuō",
+          "meaning": "stretch; drag"
+        },
+        {
+          "hanzi": "幕",
+          "pinyin": "mù",
+          "meaning": "curtain; screen"
+        },
+        {
+          "hanzi": "笔",
+          "pinyin": "bǐ",
+          "meaning": "stroke; pen"
+        },
+        {
+          "hanzi": "停顿",
+          "pinyin": "tíng dùn",
+          "meaning": "pause"
+        },
+        {
+          "hanzi": "重",
+          "pinyin": "zhòng",
+          "meaning": "heavy; important"
+        },
+        {
+          "hanzi": "节奏",
+          "pinyin": "jié zòu",
+          "meaning": "rhythm"
+        },
+        {
+          "hanzi": "傍晚",
+          "pinyin": "bàng wǎn",
+          "meaning": "towards evening; dusk"
+        },
+        {
+          "hanzi": "情绪",
+          "pinyin": "qíng xù",
+          "meaning": "mood; emotion"
+        },
+        {
+          "hanzi": "稿子",
+          "pinyin": "gǎo zi",
+          "meaning": "draft; script"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What guides the revisions?",
+          "choices": [
+            "Word accuracy, meaningful boundaries and relations between images",
+            "Only making each version faster",
+            "Treating every image as a biographical fact"
+          ],
+          "answer": "Word accuracy, meaningful boundaries and relations between images"
+        },
+        {
+          "type": "detail",
+          "q": "Why keep留给我together on screen?",
+          "choices": [
+            "It is a connected phrase that should not be split arbitrarily",
+            "The phrase has no meaning",
+            "The character给must always be hidden"
+          ],
+          "answer": "It is a connected phrase that should not be split arbitrarily"
+        },
+        {
+          "type": "inference",
+          "q": "Why shorten an overlong stretch?",
+          "choices": [
+            "It was obscuring the later words",
+            "Slowness is forbidden",
+            "Only one emotional delivery is permitted"
+          ],
+          "answer": "It was obscuring the later words"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "最后我写灯可以关，话不必忘，是因为不想让留下的人为了证明还在等，就永远不敢关灯睡觉。希望也可以跟正常的休息一起发生。新的岸边没有具体地名，【船只】没有保证带谁回来，我们没有把最后唱成以后再也见不到。如果有人听见的是往前走，也能听到还愿听你讲，这两个方向在结尾里可以互相牵着，不一定要只保留其中一个。",
+            "py": "zuì hòu wǒ xiě dēng kě yǐ guān , huà bù bì wàng , shì yīn wèi bù xiǎng ràng liú xià de rén wéi le zhèng míng hái zài děng , jiù yǒng yuǎn bù gǎn guān dēng shuì jiào . xī wàng yě kě yǐ gēn zhèng cháng de xiū xī yì qǐ fā shēng . xīn de àn biān méi yǒu jù tǐ dì míng , chuán zhī méi yǒu bǎo zhèng dài shéi huí lái , wǒ men méi yǒu bǎ zuì hòu chàng chéng yǐ hòu zài yě jiàn bù dào . rú guǒ yǒu rén tīng jiàn de shì wǎng qián zǒu , yě néng tīng dào hái yuàn tīng nǐ jiǎng , zhè liǎng gè fāng xiàng zài jié wěi lǐ kě yǐ hù xiāng qiān zhe , bù yí dìng yào zhǐ bǎo liú qí zhōng yī gè .",
+            "en": "The lamp line allows rest alongside hope. Unnamed shore and unguaranteed return do not establish permanent separation; forward movement and a continued wish to listen coexist."
+          },
+          {
+            "zh": "第一次排练，我听见陈宇省掉留，以为给他的稿子还是旧版本。他把纸递过来，两个人的那一行完全一样，是他跟着快【节奏】把那个音漏过去了。我请他只唱这一句，不用从头来。他唱第二遍还是少了留，就先把笔放下，照着纸慢慢读。第三遍乐器一起进来，留给我终于连上了。他自己也听出来，马上抬头看我。我说这回有了，他还不放心，问能不能把刚才那一小段再听一次。",
+            "py": "dì yī cì pái liàn , wǒ tīng jiàn chén yǔ shěng diào liú , yǐ wéi gěi tā de gǎo zi hái shi jiù bǎn běn . tā bǎ zhǐ dì guò lái , liǎng gè rén de nà yī xíng wán quán yī yàng , shì tā gēn zhe kuài jié zòu bǎ nà gè yīn lòu guò qù le . wǒ qǐng tā zhǐ chàng zhè yī jù , bù yòng cóng tóu lái . tā chàng dì èr biàn hái shi shǎo le liú , jiù xiān bǎ bǐ fàng xià , zhào zhe zhǐ màn màn dú . dì sān biàn yuè qì yì qǐ jìn lái , liú gěi wǒ zhōng yú lián shàng le . tā zì jǐ yě tīng chū lái , mǎ shàng tái tóu kàn wǒ . wǒ shuō zhè huí yǒu le , tā hái bù fàng xīn , wèn néng bù néng bǎ gāng cái nà yī xiǎo duàn zài tīng yī cì .",
+            "en": "At the first rehearsal I thought Chen Yu had an old draft when he omitted 留. He handed over his page; our lines were identical. He'd missed the sound while following the fast rhythm. I asked for just that line again. He missed 留 the second time too, so put down his pen and read slowly from the page. On the third pass the instruments joined in and 留给我 finally connected. He heard it himself and looked up. I said it was there this time; he still wanted to hear that short section again."
+          },
+          {
+            "zh": "说话和【歌唱】的录音，我们都留了一份。陈宇先听说话的那一遍，说比音乐里的字容易听清，几个词以前原来一直听错了。到了歌唱的版本，有些音沿着旋律拖得长，他听得又想跟着唱。我让他先把这一段听完，再放一次给他跟。他唱到留给我时还是看了一眼纸，不过这回没有漏掉。唱完以后，他把两份录音都存好，说路上想听歌，晚上回来再仔细听说话的那份。",
+            "py": "shuō huà hé gē chàng de lù yīn , wǒ men dōu liú le yī fèn . chén yǔ xiān tīng shuō huà de nà yī biàn , shuō bǐ yīn yuè lǐ de zì róng yì tīng qīng , jǐ gè cí yǐ qián yuán lái yì zhí tīng cuò le . dào le gē chàng de bǎn běn , yǒu xiē yīn yán zhe xuán lǜ tuō de zhǎng , tā tīng de yòu xiǎng gēn zhe chàng . wǒ ràng tā xiān bǎ zhè yī duàn tīng wán , zài fàng yī cì gěi tā gēn . tā chàng dào liú gěi wǒ shí hái shi kàn le yī yǎn zhǐ , bù guò zhè huí méi yǒu lòu diào . chàng wán yǐ hòu , tā bǎ liǎng fèn lù yīn dōu cún hǎo , shuō lù shàng xiǎng tīng gē , wǎn shang huí lái zài zǐ xì tīng shuō huà de nà fèn .",
+            "en": "We kept both spoken and sung recordings. Chen Yu found the spoken words clearer and realised he'd long misheard several. The sung version stretched some sounds along the melody and made him want to sing. I asked him to listen through, then replayed it for him to follow. He glanced at the page for 留给我 but didn't omit it this time. Afterwards he saved both: the song for his journey and the spoken recording for a closer listen at home that evening."
+          }
+        ],
+        "bank": [
+          "船只",
+          "节奏",
+          "歌唱",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u05-c",
+    "title": "The refrain changes its direction",
+    "place": "Friends rehearsing their own short lyric",
+    "context": "Three identical refrains follow footsteps, mirror and new shore.留is omitted in one rehearsal, not removed from the page. Slower versions and a spoken reading are used; no musical performance is treated as tone assessment.",
+    "goal": "Track repeated images and shifting address in an original lyric",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "第二遍的你只能是同一个门外朋友吗？",
+        "pinyin": "dì èr biàn de nǐ zhǐ néng shì tóng yī gè mén wài péng you ma ?",
+        "meaning": "Must the second “you” refer only to the same friend outside?",
+        "intent": "Use the added mirror clue",
+        "examples": [
+          "也可以想到以前的自己，要跟前后的词一起看。"
+        ],
+        "accept": [
+          "^也可以想到以前的自己，要跟前后的词一起看。[。！？]?$"
+        ]
+      },
+      {
+        "text": "没写一定回来，就是确定永远不见吧？",
+        "pinyin": "méi xiě yí dìng huí lái , jiù shì què dìng yǒng yuǎn bú jiàn ba ?",
+        "meaning": "No guaranteed return means certainly never meeting again?",
+        "intent": "Keep both unconfirmed outcomes open",
+        "examples": [
+          "不是，没有保证回来，也没有说一定不见。"
+        ],
+        "accept": [
+          "^不是，没有保证回来，也没有说一定不见。[。！？]?$"
+        ]
+      },
+      {
+        "text": "唱得很顺，留字没唱也算准确吗？",
+        "pinyin": "chàng de hěn shùn , liú zì méi chàng yě suàn zhǔn què ma ?",
+        "meaning": "It sounds smooth; is it accurate despite omitting 留?",
+        "intent": "Check actual words",
+        "examples": [
+          "不算这一处准确，先把留给我读清再唱。"
+        ],
+        "accept": [
+          "^不算这一处准确，先把留给我读清再唱。[。！？]?$"
+        ]
+      },
+      {
+        "text": "慢版一定只能唱得孤独吗？",
+        "pinyin": "màn bǎn yí dìng zhǐ néng chàng de gū dú ma ?",
+        "meaning": "Must the slower version always sound lonely?",
+        "intent": "Avoid a fixed speed-emotion claim",
+        "examples": [
+          "不一定，还要听停顿、前后内容和唱法。"
+        ],
+        "accept": [
+          "^不一定，还要听停顿、前后内容和唱法。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Offer an interpretation",
+      "natural": {
+        "zh": "我这样听，是因为后面有镜子里的我。",
+        "py": "wǒ zhè yàng tīng , shì yīn wèi hòu miàn yǒu jìng zi lǐ de wǒ .",
+        "en": "I hear it this way because of the later self-in-the-mirror line."
+      },
+      "note": "Point to a supporting line rather than announce the only meaning."
+    },
+    {
+      "situation": "Recover a missing word",
+      "natural": {
+        "zh": "这里是不是少了一个留？我们看一下原稿。",
+        "py": "zhè lǐ shì bú shì shǎo le yī gè liú ? wǒ men kàn yī xià yuán gǎo .",
+        "en": "Is 留 missing here? Let’s check the page."
+      },
+      "note": "Repair the specific word without sweeping judgement."
+    },
+    {
+      "situation": "Separate listening tasks",
+      "natural": {
+        "zh": "这遍先确认词，下一遍再试停顿。",
+        "py": "zhè biàn xiān què rèn cí , xià yī biàn zài shì tíng dùn .",
+        "en": "Check the words on this pass; try pauses on the next."
+      },
+      "note": "Use an observable target without pretending melody grades spoken tones."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u05-t01",
+      "phrase": "s6-u05-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二段出现镜子里的我，旧衣在椅边，新的路还没画完。到了这里，重复的你又像是在向过去的自己说话。那个人没有真的从房门出去，变化也可以发生在同一个房间里：旧习惯还在，新选择已经开始。下一句说这一声你也落在我自己心里，没有把第一段的朋友完全删掉。我因此把第二遍唱得轻一点，不再只想追回一个远处的人。",
+        "py": "dì èr duàn chū xiàn jìng zi lǐ de wǒ , jiù yī zài yǐ biān , xīn de lù hái méi huà wán . dào le zhè lǐ , chóng fù de nǐ yòu xiàng shì zài xiàng guò qù de zì jǐ shuō huà . nà gè rén méi yǒu zhēn de cóng fáng mén chū qù , biàn huà yě kě yǐ fā shēng zài tóng yī gè fáng jiān lǐ : jiù xí guàn hái zài , xīn xuǎn zé yǐ jīng kāi shǐ . xià yī jù shuō zhè yī shēng nǐ yě luò zài wǒ zì jǐ xīn lǐ , méi yǒu bǎ dì yī duàn de péng you wán quán shān diào . wǒ yīn cǐ bǎ dì èr biàn chàng de qīng yī diǎn , bù zài zhǐ xiǎng zhuī huí yī gè yuǎn chù de rén .",
+        "en": "The mirror, old clothes and unfinished new road make the repeated address feel inward too. Change can happen in the same room. The line about “you” landing within me adds rather than erases the first friend interpretation."
+      },
+      "statement": "The mirror entirely erases the earlier friend reading.",
+      "answer": false,
+      "why": "The text explicitly allows both directions."
+    },
+    {
+      "id": "s6-u05-t02",
+      "phrase": "s6-u05-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "最后一段说灯可以关，话不必忘。我以前一听关灯就觉得希望结束，现在也能想到人要休息，明天还走。歌又写船只不保证带谁归来，直接留下等待没有确定结果这一层。这不是说一定不会见面，而是没有保证会见。唱到新的岸边，还愿听你讲，我感到的希望更像愿意继续，不像已经收到下一次回来的车票。",
+        "py": "zuì hòu yī duàn shuō dēng kě yǐ guān , huà bù bì wàng . wǒ yǐ qián yī tīng guān dēng jiù jué de xī wàng jié shù , xiàn zài yě néng xiǎng dào rén yào xiū xī , míng tiān hái zǒu . gē yòu xiě chuán zhī bù bǎo zhèng dài shéi guī lái , zhí jiē liú xià děng dài méi yǒu què dìng jié guǒ zhè yī céng . zhè bù shì shuō yí dìng bù huì jiàn miàn , ér shì méi yǒu bǎo zhèng huì jiàn . chàng dào xīn de àn biān , hái yuàn tīng nǐ jiǎng , wǒ gǎn dào de xī wàng gèng xiàng yuàn yì jì xù , bù xiàng yǐ jīng shōu dào xià yī cì huí lái de chē piào .",
+        "en": "A switched-off lamp can mean rest rather than ended hope. Vessels offer no guaranteed return, which is not a guarantee of no return. The ending’s wish to hear someone again supports willingness without a booked meeting."
+      },
+      "statement": "The ending guarantees that nobody can ever return.",
+      "answer": false,
+      "why": "It removes a guarantee without ruling out return."
+    },
+    {
+      "id": "s6-u05-t03",
+      "phrase": "s6-u05-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第一次排练，我听见陈宇省掉留，以为给他的稿子还是旧版本。他把纸递过来，两个人的那一行完全一样，是他跟着快节奏把那个音漏过去了。我请他只唱这一句，不用从头来。他唱第二遍还是少了留，就先把笔放下，照着纸慢慢读。第三遍乐器一起进来，留给我终于连上了。他自己也听出来，马上抬头看我。我说这回有了，他还不放心，问能不能把刚才那一小段再听一次。",
+        "py": "dì yī cì pái liàn , wǒ tīng jiàn chén yǔ shěng diào liú , yǐ wéi gěi tā de gǎo zi hái shi jiù bǎn běn . tā bǎ zhǐ dì guò lái , liǎng gè rén de nà yī xíng wán quán yī yàng , shì tā gēn zhe kuài jié zòu bǎ nà gè yīn lòu guò qù le . wǒ qǐng tā zhǐ chàng zhè yī jù , bù yòng cóng tóu lái . tā chàng dì èr biàn hái shi shǎo le liú , jiù xiān bǎ bǐ fàng xià , zhào zhe zhǐ màn màn dú . dì sān biàn yuè qì yì qǐ jìn lái , liú gěi wǒ zhōng yú lián shàng le . tā zì jǐ yě tīng chū lái , mǎ shàng tái tóu kàn wǒ . wǒ shuō zhè huí yǒu le , tā hái bù fàng xīn , wèn néng bù néng bǎ gāng cái nà yī xiǎo duàn zài tīng yī cì .",
+        "en": "At the first rehearsal I thought Chen Yu had an old draft when he omitted 留. He handed over his page; our lines were identical. He'd missed the sound while following the fast rhythm. I asked for just that line again. He missed 留 the second time too, so put down his pen and read slowly from the page. On the third pass the instruments joined in and 留给我 finally connected. He heard it himself and looked up. I said it was there this time; he still wanted to hear that short section again."
+      },
+      "statement": "Checking the page identifies a specific omitted word.",
+      "answer": true,
+      "why": "The page retains 留; the singer omitted it."
+    },
+    {
+      "id": "s6-u05-t04",
+      "phrase": "s6-u05-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "后来陈宇唱给以前的自己，我在门外脚步后停半拍，唱给那个离开的朋友。两段录完，我们把手机放在桌边，一人拿一份稿子听。陈宇说我的那遍把留拖得太长，我正想再听，录音里给我两个字已经跟后面的声音挤在一起。我把那一处圈起来，重唱一次，把留唱短一些。他这回能接着唱到窗下那句，听完问是不是还想留第一遍。我说也有一点喜欢，先别删。他把两份分别写上日期和名字，让我明天回来再选。",
+        "py": "hòu lái chén yǔ chàng gěi yǐ qián de zì jǐ , wǒ zài mén wài jiǎo bù hòu tíng bàn pāi , chàng gěi nà gè lí kāi de péng you . liǎng duàn lù wán , wǒ men bǎ shǒu jī fàng zài zhuō biān , yī rén ná yī fèn gǎo zi tīng . chén yǔ shuō wǒ de nà biàn bǎ liú tuō de tài zhǎng , wǒ zhèng xiǎng zài tīng , lù yīn lǐ gěi wǒ liǎng gè zì yǐ jīng gēn hòu miàn de shēng yīn jǐ zài yì qǐ . wǒ bǎ nà yī chù quān qǐ lái , zhòng chàng yī cì , bǎ liú chàng duǎn yī xiē . tā zhè huí néng jiē zhe chàng dào chuāng xià nà jù , tīng wán wèn shì bú shì hái xiǎng liú dì yī biàn . wǒ shuō yě yǒu yī diǎn xǐ huān , xiān bié shān . tā bǎ liǎng fèn fēn bié xiě shàng rì qī hé míng zi , ràng wǒ míng tiān huí lái zài xuǎn .",
+        "en": "Chen Yu sang to his former self; I paused half a beat after the footsteps and sang to the departing friend. We put the phone on the table and listened with a lyric sheet each. I'd stretched 留 too long, he said. On playback, 给我 crowded into the following sounds. I circled the spot and sang again with a shorter 留. This time he could sing on to the window line. Did I still want the first take? I liked something about it too; don't delete it yet. He labelled both with the date and our names so I could choose tomorrow."
+      },
+      "statement": "The stretched phrase is shortened because later words become unclear.",
+      "answer": true,
+      "why": "Intelligibility matters alongside delivery."
+    },
+    {
+      "id": "s6-u05-t05",
+      "phrase": "s6-u05-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "第一段像朋友，第二段出现镜子里的我。可以讨论两个方向吗？",
+        "py": "dì yī duàn xiàng péng you , dì èr duàn chū xiàn jìng zi lǐ de wǒ . kě yǐ tǎo lùn liǎng gè fāng xiàng ma ?",
+        "en": "The first verse suggests a friend; the next includes the mirrored self. May we discuss both?"
+      },
+      "choices": [
+        "可以，要指出前后支持的词。",
+        "不行，重复一次就只能永远同一个人。",
+        "可以，任何没写的城市和车票都已确定。"
+      ],
+      "answer": "可以，要指出前后支持的词。",
+      "why": "Supported alternatives differ from invented facts."
+    },
+    {
+      "id": "s6-u05-t06",
+      "phrase": "s6-u05-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "我一时没跟上，就说明永远学不会吗？",
+        "py": "wǒ yī shí méi gēn shàng , jiù shuō míng yǒng yuǎn xué bù huì ma ?",
+        "en": "I momentarily lose pace. Does that mean permanent inability?"
+      },
+      "choices": [
+        "不说明，先停下再读这一处。",
+        "说明，一时就是永远。",
+        "说明，不用再看具体漏了什么。"
+      ],
+      "answer": "不说明，先停下再读这一处。",
+      "why": "Temporary scope remains temporary."
+    },
+    {
+      "id": "s6-u05-t07",
+      "phrase": "s6-u05-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "这一遍除留字以外都唱出来，留字也已经唱准吗？",
+        "py": "zhè yī biàn chú liú zì yǐ wài dōu chàng chū lái , liú zì yě yǐ jīng chàng zhǔn ma ?",
+        "en": "Every word except 留 was sung. Was 留 also sung correctly?"
+      },
+      "choices": [
+        "没有，那正是需要修的一处。",
+        "是，其他字对就自动补上了。",
+        "是，留字以后永远不用唱。"
+      ],
+      "answer": "没有，那正是需要修的一处。",
+      "why": "Keep the explicit exception."
+    },
+    {
+      "id": "s6-u05-t08",
+      "phrase": "s6-u05-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "歌词有海洋，小厅离海很远。能说歌词一定记录眼前地理吗？",
+        "py": "gē cí yǒu hǎi yáng , xiǎo tīng lí hǎi hěn yuǎn . néng shuō gē cí yí dìng jì lù yǎn qián dì lǐ ma ?",
+        "en": "The lyric has an ocean while the hall is far inland. Must it document local geography?"
+      },
+      "choices": [
+        "不能，画面可以来自想象。",
+        "能，唱到海就证明小厅在海边。",
+        "能，歌词一定是当天的地图。"
+      ],
+      "answer": "不能，画面可以来自想象。",
+      "why": "A lyric image need not be an immediate location report."
+    },
+    {
+      "id": "s6-u05-t09",
+      "phrase": "s6-u05-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "我【一时】没跟上，停下来再读。",
+        "py": "wǒ yī shí méi gēn shàng , tíng xià lái zài dú .",
+        "en": "I momentarily lost pace and stopped to reread."
+      },
+      "blankPy": "yī shí"
+    },
+    {
+      "id": "s6-u05-t10",
+      "phrase": "s6-u05-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "那盏灯【好似】一个没回答的问题。",
+        "py": "nà zhǎn dēng hǎo sì yī gè méi huí dá de wèn tí .",
+        "en": "That lamp seems like an unanswered question."
+      },
+      "blankPy": "hǎo sì"
+    },
+    {
+      "id": "s6-u05-t11",
+      "phrase": "s6-u05-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "【除了】最后一行，前面的歌词都已确认。",
+        "py": "chú le zuì hòu yī xíng , qián miàn de gē cí dōu yǐ què rèn .",
+        "en": "Except for the final line, the preceding lyrics are confirmed."
+      },
+      "blankPy": "chú le"
+    },
+    {
+      "id": "s6-u05-t12",
+      "phrase": "s6-u05-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "看来看去，都是门、灯和风这几个【元素】。",
+        "py": "kàn lái kàn qù , dōu shì mén , dēng hé fēng zhè jǐ gè yuán sù .",
+        "en": "On repeated looking the elements are door, lamp and wind."
+      },
+      "blankPy": "yuán sù"
+    },
+    {
+      "id": "s6-u05-t13",
+      "phrase": "s6-u05-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The lyrics stayed the same; on the second singing I imagined a different person.",
+          "right": {
+            "zh": "歌词没有变，第二遍唱时我想到的人变了。",
+            "py": "gē cí méi yǒu biàn , dì èr biàn chàng shí wǒ xiǎng dào de rén biàn le .",
+            "en": "The lyrics stayed the same; on the second singing I imagined a different person."
+          }
+        },
+        {
+          "left": "The accompaniment feels classical, not proof the words are ancient.",
+          "right": {
+            "zh": "这段配乐有古典的感觉，不等于歌词是古人写的。",
+            "py": "zhè duàn pèi lè yǒu gǔ diǎn de gǎn jué , bù děng yú gē cí shì gǔ rén xiě de .",
+            "en": "The accompaniment feels classical, not proof the words are ancient."
+          }
+        },
+        {
+          "left": "A held note in Chinese opera gave us an idea; we didn’t copy a whole section.",
+          "right": {
+            "zh": "戏曲里的长音给了我们一个想法，不是照搬整段。",
+            "py": "xì qǔ lǐ de zhǎng yīn gěi le wǒ men yī gè xiǎng fǎ , bù shì zhào bān zhěng duàn .",
+            "en": "A held note in Chinese opera gave us an idea; we didn’t copy a whole section."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u05-t14",
+      "phrase": "s6-u05-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He played a short musical piece.",
+          "right": {
+            "zh": "他演奏了一首短乐曲。",
+            "py": "tā yǎn zòu le yī shǒu duǎn yuè qǔ .",
+            "en": "He played a short musical piece."
+          }
+        },
+        {
+          "left": "He speaks at a fast pace.",
+          "right": {
+            "zh": "他说话的节奏很快。",
+            "py": "tā shuō huà de jié zòu hěn kuài .",
+            "en": "He speaks at a fast pace."
+          }
+        },
+        {
+          "left": "He plays the piano in the small hall.",
+          "right": {
+            "zh": "他在小厅演奏钢琴。",
+            "py": "tā zài xiǎo tīng yǎn zòu gāng qín .",
+            "en": "He plays the piano in the small hall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u05-t15",
+      "phrase": "s6-u05-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "A lamp in the night can suggest waiting or a direction.",
+          "right": {
+            "zh": "黑夜里的灯可以像等候，也可以像一个方向。",
+            "py": "hēi yè lǐ de dēng kě yǐ xiàng děng hòu , yě kě yǐ xiàng yī gè fāng xiàng .",
+            "en": "A lamp in the night can suggest waiting or a direction."
+          }
+        },
+        {
+          "left": "The sea waves don’t answer for the character; the song leaves an opening.",
+          "right": {
+            "zh": "海浪没有替人物回答，歌里仍留着空白。",
+            "py": "hǎi làng méi yǒu tì rén wù huí dá , gē lǐ réng liú zhe kòng bái .",
+            "en": "The sea waves don’t answer for the character; the song leaves an opening."
+          }
+        },
+        {
+          "left": "The character wants to cross the river, not says they already reached the far bank.",
+          "right": {
+            "zh": "人物说想渡过河，还没说已经到了对岸。",
+            "py": "rén wù shuō xiǎng dù guò hé , hái méi shuō yǐ jīng dào le duì àn .",
+            "en": "The character wants to cross the river, not says they already reached the far bank."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u05-t16",
+      "phrase": "s6-u05-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "She received a letter from a friend far away.",
+          "right": {
+            "zh": "她收到一封远方朋友的信。",
+            "py": "tā shōu dào yī fēng yuǎn fāng péng you de xìn .",
+            "en": "She received a letter from a friend far away."
+          }
+        },
+        {
+          "left": "They live in a village far from the city.",
+          "right": {
+            "zh": "他们远离城市，住在小村庄。",
+            "py": "tā men yuǎn lí chéng shì , zhù zài xiǎo cūn zhuāng .",
+            "en": "They live in a village far from the city."
+          }
+        },
+        {
+          "left": "This book describes the previous generation’s lives.",
+          "right": {
+            "zh": "这本书写了上一代人的生活。",
+            "py": "zhè běn shū xiě le shàng yí dài rén de shēng huó .",
+            "en": "This book describes the previous generation’s lives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u05-t17",
+      "phrase": "s6-u05-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I momentarily lost pace and stopped to reread.",
+          "right": {
+            "zh": "我一时没跟上，停下来再读。",
+            "py": "wǒ yī shí méi gēn shàng , tíng xià lái zài dú .",
+            "en": "I momentarily lost pace and stopped to reread."
+          }
+        },
+        {
+          "left": "The repeated line seems to have a different speaker.",
+          "right": {
+            "zh": "重复的那句仿佛换了一个说话的人。",
+            "py": "chóng fù de nà jù fǎng fú huàn le yī gè shuō huà de rén .",
+            "en": "The repeated line seems to have a different speaker."
+          }
+        },
+        {
+          "left": "The new song blends two styles, with newly written words and melody.",
+          "right": {
+            "zh": "新歌融合两种唱法，但词和旋律都是我们新写的。",
+            "py": "xīn gē róng hé liǎng zhǒng chàng fǎ , dàn cí hé xuán lǜ dōu shì wǒ men xīn xiě de .",
+            "en": "The new song blends two styles, with newly written words and melody."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: lyric imagery/rhythm, inward/outward address, 一时/时时 distinctions and rhetorical 不是…还/还是 questions. Self-review keeps all text original, preserves three identical refrains and the added mirror clue, distinguishes omitted 留 from an authored revision, and does not certify a return or permanent separation. Spoken lexical readings remain separate from melodic pitch; the app supplies spoken Sayo audio rather than claiming sung tone assessment. Two separately authored readings develop listener and co-writer perspectives. No new voice identity, music source or copyrighted lyric is used.\n2026-10-08 advanced reading self-review: Retained genuine calculation and workplace-review text types while replacing boilerplate with actual spreadsheet revision, task assignments and a lost-bag search. Singing dialogue now offers slower practice/recording, not abstract guarantees. Bag recovery preserves five pages, missing fourth page, upstairs storeroom, crease and intact new section. Film discussion retains separate sign-up and 9:45/10 cleanup; reply/attendance counts remain separate. Native flags: 风留下来 joke, 原稿心疼, 跟唱 omissions and calculator/percentage-point register. Native review pending.\n2026-10-08 advanced reading self-review: Bag actions v2: Retained genuine calculation and workplace-review text types while replacing boilerplate with actual spreadsheet revision, task assignments and a lost-bag search. Singing dialogue now offers slower practice/recording, not abstract guarantees. Both bag narrators now describe handling books, asking volunteers, ordering pages and rehearsing instead of repeatedly lecturing on evidence. Lin An returns the empty bag; Chen Yu inserts the pages and leaves its opening unclosed. Rehearsal now explicitly raises page four for everyone to see instead of inheriting the unrelated huǎng reading for a shaking action; its obsolete 晃 glossary aid is removed. The early empty-bag cue and paired narration explicitly describe placing it by the entrance, removing a misleading hái-labelled return action while retaining its time contrast and practised reply. Recovery preserves five unique pages, missing fourth page, upstairs storeroom, crease and intact new section; later copies do not end future borrowing. Film discussion retains separate sign-up and 9:45/10 cleanup; reply/attendance counts remain separate. Native flags: 风留下来 joke, 原稿心疼, 台词丢了 banter, 跟唱 omissions and calculator/percentage-point register. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "屏",
+      "pinyin": "píng",
+      "meaning": "screen",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "屏",
+          "role": "whole",
+          "gloss": "screen"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 屏 in 屏幕. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "屏幕",
+          "p": "píng mù",
+          "m": "screen"
+        }
+      ]
+    },
+    {
+      "hanzi": "洋",
+      "pinyin": "yáng",
+      "meaning": "ocean; abundant",
+      "strokes": 9,
+      "parts": [
+        {
+          "form": "洋",
+          "role": "whole",
+          "gloss": "ocean; abundant"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 洋 in 海洋. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "海洋",
+          "p": "hǎi yáng",
+          "m": "ocean"
+        }
+      ]
+    },
+    {
+      "hanzi": "波",
+      "pinyin": "bō",
+      "meaning": "wave",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "波",
+          "role": "whole",
+          "gloss": "wave"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 波 in 波浪. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "波浪",
+          "p": "bō làng",
+          "m": "wave; waves"
+        }
+      ]
+    },
+    {
+      "hanzi": "渡",
+      "pinyin": "dù",
+      "meaning": "cross a body of water",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "渡",
+          "role": "whole",
+          "gloss": "cross a body of water"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 渡 in 渡. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "渡",
+          "p": "dù",
+          "m": "cross a stretch of water"
+        }
+      ]
+    },
+    {
+      "hanzi": "幻",
+      "pinyin": "huàn",
+      "meaning": "illusion; change",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "幻",
+          "role": "whole",
+          "gloss": "illusion; change"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 幻 in 幻想. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "幻想",
+          "p": "huàn xiǎng",
+          "m": "imagine an unreal or hoped-for situation"
+        }
+      ]
+    },
+    {
+      "hanzi": "灵",
+      "pinyin": "líng",
+      "meaning": "spirit; quick-minded",
+      "strokes": 7,
+      "parts": [
+        {
+          "form": "灵",
+          "role": "whole",
+          "gloss": "spirit; quick-minded"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 灵 in 心灵. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "心灵",
+          "p": "xīn líng",
+          "m": "inner emotional life; mind or spirit"
+        }
+      ]
+    },
+    {
+      "hanzi": "融",
+      "pinyin": "róng",
+      "meaning": "melt; blend",
+      "strokes": 16,
+      "parts": [
+        {
+          "form": "融",
+          "role": "whole",
+          "gloss": "melt; blend"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 融 in 融合. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "融合",
+          "p": "róng hé",
+          "m": "blend; integrate"
+        }
+      ]
+    },
+    {
+      "hanzi": "素",
+      "pinyin": "sù",
+      "meaning": "element; plain",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "素",
+          "role": "whole",
+          "gloss": "element; plain"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 素 in 元素. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "元素",
+          "p": "yuán sù",
+          "m": "element; component"
+        }
+      ]
+    }
+  ]
+}

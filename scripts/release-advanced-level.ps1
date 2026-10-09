@@ -12,6 +12,20 @@ if ($Level -eq 5) {
   & ./scripts/run-editorial-repairs.ps1 -FirstBatch 63 -LastBatch 63
   Require-Exit 'HSK 5 connected-reading editorial acceptance'
 }
+if ($Level -eq 6) {
+  $farewell = Get-Content -LiteralPath content/packs/s6-u04.json -Raw | ConvertFrom-Json
+  if (-not $farewell.notes.Contains('Farewell actions v2:')) {
+    # Finish the concrete farewell rewrite before its first release. This is
+    # another full audio/acceptance batch, not a waiver for an earlier receipt.
+    & ./scripts/run-editorial-repairs.ps1 -FirstBatch 66 -LastBatch 66
+    Require-Exit 'HSK 6 farewell reading editorial acceptance'
+  }
+  $bag = Get-Content -LiteralPath content/packs/s6-u07.json -Raw | ConvertFrom-Json
+  if (-not $bag.notes.Contains('Bag actions v2:')) {
+    & ./scripts/run-editorial-repairs.ps1 -FirstBatch 67 -LastBatch 67
+    Require-Exit 'HSK 6 lost-bag reading editorial acceptance'
+  }
+}
 $batches = switch ($Level) { 4 {39,40,41,51,52,53} 5 {42,43,44} 6 {45,46,47} }
 foreach ($batch in $batches) {
   $receipt = Get-Content -LiteralPath "output/gates/batch-$batch-final-receipt.json" -Raw | ConvertFrom-Json
@@ -31,6 +45,13 @@ Require-Exit 'Read current source fingerprint'
 if (-not $latest -or $latest.sourceFingerprint -ne $currentFingerprint) {
   throw 'Source changed since the latest complete checks; run all gates before releasing.'
 }
+function Require-TestedSource([string]$Phase) {
+  $observed = (& npx.cmd tsx scripts/release-source-fingerprint.ts).Trim()
+  Require-Exit "Check tested source $Phase"
+  if ($observed -ne $currentFingerprint) {
+    throw "Source changed $Phase; preserve the work and rerun all gates before releasing."
+  }
+}
 & npx.cmd tsx scripts/coverage-report.ts --advanced --write > "$prefix-coverage.log" 2>&1
 Require-Exit 'Coverage report'
 & .voice-design-env/Scripts/python.exe scripts/course-authoring/native-review-report.py > "$prefix-native.log" 2>&1
@@ -42,6 +63,7 @@ Require-Exit 'Read staged files'
 if ($staged | Where-Object { $_ -match '(^|/)(\.env(\.|$)|\.models/|\.cache/|node_modules/|\.voice-design-env/)' -and $_ -ne '.env.example' }) {
   throw 'A credential or local runtime path was staged; inspect before committing.'
 }
+Require-TestedSource 'after staging'
 if ($staged.Count) {
   & git commit -q -m "Add HSK $Level media and social core with screened Sayo audio and practice bank"
   Require-Exit 'Commit accepted release'
@@ -64,9 +86,11 @@ try {
   Require-Exit 'Clean checkout production build'
 } finally { Pop-Location }
 if (@(& git ls-files --others --exclude-standard).Count) { throw 'Untracked production/source files remain; inspect before release.' }
+Require-TestedSource 'after clean checkout verification'
 $env:GIT_TERMINAL_PROMPT = '0'
 & git -c credential.interactive=false push origin main > "$prefix-push.log" 2>&1
 Require-Exit 'Push accepted checkout'
+Require-TestedSource 'before deployment'
 & npx.cmd wrangler deploy > "$prefix-deploy.log" 2>&1
 Require-Exit 'Deploy accepted checkout'
 $entry = "`n- Advanced HSK $Level selected media/social core release: committed $revision; clean checkout npm ci and build passed; pushed to origin/main and deployed. Live browser verification remains separate. Full vocabulary inventory and independent native review are not claimed."

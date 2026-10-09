@@ -34,6 +34,7 @@ export function packAudio(source: string, destination: string, chunkLimit = 8 * 
     }
     queue.length = 0; queuedBytes = 0; chunks++;
   };
+  const buckets = new Map<string, string[]>();
   for (const filename of readdirSync(join(source, 'audio-v2')).sort()) {
     if (filename === 'assets.json') {
       mkdirSync(join(destination, 'audio-v2'), { recursive: true });
@@ -41,13 +42,23 @@ export function packAudio(source: string, destination: string, chunkLimit = 8 * 
       continue;
     }
     if (!/^[a-zA-Z0-9_-]+\.mp3$/.test(filename)) throw new Error(`Unexpected audio asset: ${filename}`);
-    const bytes = readFileSync(join(source, 'audio-v2', filename));
-    if (!bytes.length || bytes.length > chunkLimit) throw new Error(`Invalid clip size: ${filename}`);
-    if (queuedBytes + bytes.length > chunkLimit) flush();
-    queue.push({ filename, bytes, sha256: sha(bytes) });
-    queuedBytes += bytes.length; audioBytes += bytes.length; clips++;
+    const bucket = indexShard(filename);
+    const filenames = buckets.get(bucket) ?? [];
+    filenames.push(filename);
+    buckets.set(bucket, filenames);
   }
-  flush();
+  // A new clip only repacks its own shard. Global sorted packing shifted every
+  // later bundle, forcing unchanged recordings to upload again on each release.
+  for (const bucket of [...buckets.keys()].sort()) {
+    for (const filename of buckets.get(bucket)!) {
+      const bytes = readFileSync(join(source, 'audio-v2', filename));
+      if (!bytes.length || bytes.length > chunkLimit) throw new Error(`Invalid clip size: ${filename}`);
+      if (queuedBytes + bytes.length > chunkLimit) flush();
+      queue.push({ filename, bytes, sha256: sha(bytes) });
+      queuedBytes += bytes.length; audioBytes += bytes.length; clips++;
+    }
+    flush();
+  }
   // Empty shards also return JSON, preventing missing-file SPA fallback responses.
   for (let i = 0; i < 256; i++) {
     const shard = i.toString(16).padStart(2, '0');

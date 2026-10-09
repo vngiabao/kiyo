@@ -34,11 +34,11 @@ for path in sorted((ROOT/'content/packs').glob('s*-u*.json')):
                          en=character['meaning'],examples=character.get('words',[]),
                          reason='Check this source reading and bound-component meaning in its connected word examples. The usage aid is not an etymological claim.',
                          status='native review pending'))
-for path in sorted((ROOT/'content/packs').glob('hsk-*-bank.hsk.json')):
+for path in sorted((ROOT/'content/packs').glob('hsk*.hsk.json')):
     bank=read(path)
     for item in bank['items']:
         # Exact connected prompts make the unresolved native-review scope clear.
-        rows.append(dict(unit=item['id'],text=item['sentence'],py=item['py'],en=item['en'],
+        rows.append(dict(unit=item['id'],standard=bank['standard'],level=bank['level'],text=item['sentence'],py=item['py'],en=item['en'],
                          prompt=item['prompt'],choices=item['choices'],answer=item['answer'],
                          reason='Original exam draft: check naturalness, tone delivery and whether the distractors admit another valid interpretation.',
                          status='native review pending'))

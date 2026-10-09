@@ -6,6 +6,7 @@ from contextual_de import ROOT,correct,reading
 parser=argparse.ArgumentParser()
 parser.add_argument('--root',type=Path,default=ROOT/'content/packs')
 parser.add_argument('--write',action='store_true')
+parser.add_argument('--report',type=Path,default=ROOT/'output/contextual-de-corrections.json')
 args=parser.parse_args()
 changes=[]
 unresolved=set()
@@ -40,6 +41,6 @@ if unresolved:raise ValueError(('Unreviewed 得 contexts; do not write',sorted(u
 # Prepare everything successfully before replacing a single source file.
 if args.write:
     for path,pack in prepared:path.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-report=ROOT/'output/contextual-de-corrections.json'
+report=args.report
 report.write_text(json.dumps(dict(applied=args.write,root=str(args.root),changes=changes),ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(f'{len(changes)} pinyin fields in {len(prepared)} packs; applied={args.write}. Chinese and assessment IDs unchanged. Evidence: {report}')

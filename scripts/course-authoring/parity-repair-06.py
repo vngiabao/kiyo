@@ -20,11 +20,11 @@ TEXTS={
 对，旧被子明天洗。谢谢你，差点把新被子留在门口过夜。|Yes. I'll wash the old one tomorrow. Thanks; I nearly left the new quilt outside overnight.
 ''',
 '''我下班回家时，看见门边放着一个很大的袋子。房东帮我收了快递，还发消息说今天下雨，袋子下面湿了。|When I got home from work, I found a large bag beside the door. The landlord had taken my delivery and messaged that the rain had wet the bottom.
-我想把袋子直接放在沙发上，朋友拦住我，说先看看里面。我把椅子上的裤子拿走，两个人才有地方放袋子。|I was going to put it straight on the sofa. My friend stopped me and suggested checking inside first. I moved my trousers off the chair so we had somewhere to put it.
+我想把袋子直接放在沙发上，朋友拦住我，说先看看里面。我把裤子挪到另一把椅子上，两个人才有地方放袋子。|I was going to put it straight on the sofa. My friend stopped me and suggested checking inside first. I moved my trousers to the other chair so we had somewhere to put the bag.
 绳子太紧，朋友拉了几次也没有解开。我去书架上拿剪刀，慢慢剪开外面的袋子，里面的被子没有湿。|The cord was too tight to undo. I fetched scissors from the bookshelf and carefully cut the outer bag. The quilt inside was dry.
-我高兴地把新被子抱进卧室，想今晚就用。朋友问旧的放哪里，我说先放另一把椅子上，明天再洗。|I happily took the new quilt into the bedroom to use that night. My friend asked about the old one. It could go on another chair until I washed it tomorrow.
+我高兴地把新被子抱进卧室，想今晚就用。朋友问旧的放哪里，我说先和裤子放在一起，明天再洗。|I happily took the new quilt into the bedroom to use that night. My friend asked about the old one. I'd put it with the trousers until I washed it tomorrow.
 两把椅子都放满东西，我们只好坐在沙发上喝水。朋友笑着说，你现在最需要订的，可能不是被子，是一个更大的房间。|Both chairs were now full, so we sat on the sofa with water. My friend joked that my next order should perhaps be a bigger room, not another quilt.
-我把椅子上的裤子挂好，终于空出一个座位。房间没变大，至少明天吃早饭不用站着了。|I hung up the trousers and finally freed a seat. The room was no bigger, but at least I would not have to eat breakfast standing up.
+我把裤子挂好，旧被子搬进卧室，终于空出一个座位。房间没变大，至少明天吃早饭不用站着了。|I hung up the trousers and moved the old quilt into the bedroom, finally freeing a seat. The room was no bigger, but at least I wouldn't have to eat breakfast standing up.
 ''',
 '''你把剪刀放哪里了？|Where did you put the scissors?
 书架上，最上面那一层。|On the top shelf of the bookshelf.
@@ -268,7 +268,7 @@ for number,(d,r,m) in TEXTS.items():
     spec=dict(dialogue=(rows(d),dqs),reading=(rows(r),rqs),media=(rows(m),[]),examples=examples,contexts=contexts,tasks=tasks,glosses=list(dict.fromkeys(glosses)),
         usage=[('Ask for a concrete check',REPLIES[number][0][0],REPLIES[number][0][1],'Keep the request tied to what the other person can do now.')],
         turns=[(z,e,'Respond to the immediate practical question',[c[0]]) for z,e,c in REPLIES[number]],
-        review='Earlier HSK 3 naturalness correction: delivery and a wet bag; two friends catching up on a show; noodles with chilli served separately; friends admitting date mistakes. Formal vocabulary uses independent contexts rather than speech that sounds like a report. Replaced abstract caution and assessment-policy dialogue. All target words get two independently authored contexts, and old word/task/unit IDs remain intact. Native flags: colloquial passive 叫, 具有 with formal collocations, 广大 in public notices, the playful eating invitation, 活 as vivid portrayal and 乐 lè as laughter. All distractors and true/false keys were checked against the rewritten facts.')
+        review='Earlier HSK 3 naturalness correction: delivery and a wet bag; two friends catching up on a show; noodles with chilli served separately; friends admitting date mistakes. Corrected quilt/chair continuity: trousers move to the other chair, the old quilt joins them, and both are removed before the seat is free. Formal vocabulary uses independent contexts rather than speech that sounds like a report. Replaced abstract caution and assessment-policy dialogue. All target words get two independently authored contexts, and old word/task/unit IDs remain intact. Native flags: colloquial passive 叫, 具有 with formal collocations, 广大 in public notices, the playful eating invitation, 活 as vivid portrayal and 乐 lè as laughter. All distractors and true/false keys were checked against the rewritten facts.')
     repair(number,spec,publish='--publish' in sys.argv)
 
 # These two later readings used a glyph met only incidentally in the old scene.

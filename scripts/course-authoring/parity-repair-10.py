@@ -38,7 +38,7 @@ TEXTS={
 '''今晚四个人吃饭，桌子够大吗？|Is the table big enough for the four of us tonight?
 够。再拿两把椅子就行。|Yes. We just need two more chairs.
 筷子放哪儿了？|Where are the chopsticks?
-右边。拿四双，再给每人放一张纸。|On the right. Get four pairs and a sheet of paper for each person.
+右边。拿四双，再给每人放一张纸巾。|On the right. Get four pairs and put a napkin out for each person.
 今天有什么菜？|What's for dinner?
 白菜、鸡蛋和汤。你想喝什么？|Chinese cabbage, eggs and soup. What would you like to drink?
 果汁吧，红茶也行。我不喝啤酒。|Fruit juice, or black tea. I don't drink beer.
@@ -157,7 +157,7 @@ REPLIES={
 
 GLOSSES=[('合照','group photo'),('文件夹','folder'),('原件','original document'),('漏','miss out; omit'),('单独','separately'),('杯子','cup'),('掉','fall; drop'),('标题','title'),('核对','check against the source'),('半天','a long time; half a day'),('拿稳','hold steadily'),('食品','food products'),('进口','import'),('伞','umbrella'),('头顶','overhead; top of the head'),('袜子','sock'),('电视','television'),('新鲜','fresh'),('冰箱','fridge'),('当地','local'),('本地','local area'),('糖','sugar; sweets'),('香味','pleasant smell'),('窗边','by the window'),('剩下','remain'),('端','carry in the hands; serve a dish'),('收拾','tidy up; clear away'),('轮着','take turns'),('相同','the same'),('姓','surname'),('缺','lack'),('开支','expenses'),('漏水','leak water'),('堵车','traffic jam'),('温度','temperature'),('格','field or cell; grid square'),('课程','course'),('负责','be responsible for'),('责任','responsibility'),('功能','function'),('明确','clear; definite'),('数量','quantity'),('满足','satisfy'),('整体','whole; overall'),('全面','comprehensive'),('眼镜','glasses'),('盒子','small box'),('人民币','renminbi'),('停车','park a vehicle'),('同意','agree'),('经历','experience'),('技术','technique'),('相当','fairly; equivalent'),('改进','improve'),('精彩','wonderful'),('话筒','microphone'),('故意','deliberately'),('轻松','relaxed'),('配合','cooperate'),('涂','apply colour'),('嘴','mouth'),('盖子','lid; cap'),('拍手','applaud'),('阳光','sunlight'),('清新','fresh'),('团队','team'),('盖','cover; put a lid on'),('倒','on the contrary; pour'),('一排','a row'),('林安','Lin An, a name'),('陈宇','Chen Yu, a name'),('小周','Xiao Zhou, a name')]
 
-GLOSSES += [('王宁','Wang Ning, a name'),('免得','so as to avoid'),('傍晚','early evening'),('把握','confidence; assurance'),('光','merely; only'),('苹果','apple'),('并不','actually not'),('整顿','put in order; reorganise'),('赶上','keep up with')]
+GLOSSES += [('王宁','Wang Ning, a name'),('免得','so as to avoid'),('傍晚','early evening'),('把握','confidence; assurance'),('光','merely; only'),('苹果','apple'),('并不','actually not'),('整顿','put in order; reorganise'),('赶上','keep up with'),('纸巾','paper napkin; tissue')]
 
 for number,(d,r,m) in TEXTS.items():
     pack=json.loads((ROOT/f'content/packs/s3-u{number:02}.json').read_text('utf-8'))

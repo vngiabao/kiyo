@@ -1,4 +1,5 @@
-import { writeFileSync, mkdirSync } from "node:fs";
+import { mkdirSync } from "node:fs";
+import { writeGeneratedText } from "./write-generated-text";
 import { createHash } from "node:crypto";
 import { phrases, grammarById, packScenarios, usageById } from "../src/content";
 import {
@@ -229,7 +230,7 @@ export function collectAudioScripts(): Script[] {
 if (process.argv[1]?.replace(/\\/g, "/").endsWith("/audio-manifest.ts")) {
   mkdirSync("content", { recursive: true });
   const scripts = collectAudioScripts();
-  writeFileSync(
+  writeGeneratedText(
     "content/audio-scripts.json",
     JSON.stringify(scripts, null, 2) + "\n",
   );

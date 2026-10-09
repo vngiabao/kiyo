@@ -45,7 +45,7 @@ describe('deployment audio preserves individually addressable clips', () => {
   });
   it('packs exact bytes and hashes without changing source audio or the app shell', async () => {
     const f = fixture();
-    expect(f.report.clips).toBe(3); expect(f.report.chunks).toBe(2);
+    expect(f.report.clips).toBe(3); expect(f.report.chunks).toBe(3);
     expect(readFileSync(join(f.stage, 'index.html'), 'utf8')).toBe('application shell');
     for (const [name, bytes] of Object.entries(f.clips)) {
       expect(readFileSync(join(f.source, 'audio-v2', name))).toEqual(bytes);
@@ -57,6 +57,24 @@ describe('deployment audio preserves individually addressable clips', () => {
       expect(response.headers.get('etag')).toBe(`"${sha(bytes)}"`);
       expect(Buffer.from(await response.arrayBuffer())).toEqual(bytes);
     }
+  });
+  it('keeps unrelated bundles and retained clip bytes stable when another shard gains a clip', async () => {
+    const f = fixture();
+    const name = 'first.mp3';
+    const beforeIndex = JSON.parse(readFileSync(join(f.stage, 'audio-store', `index-${indexShard(name)}.json`), 'utf8')) as AudioIndex;
+    const before = beforeIndex.files[name];
+    const beforeBytes = readFileSync(join(f.stage, 'audio-store', before.chunk));
+    let addition = 'added-0.mp3';
+    for (let i = 1; indexShard(addition) === indexShard(name); i++) addition = `added-${i}.mp3`;
+    const newBytes = Buffer.from('ID3new recording');
+    writeFileSync(join(f.source, 'audio-v2', addition), newBytes);
+    packAudio(f.source, f.stage, 30);
+    const afterIndex = JSON.parse(readFileSync(join(f.stage, 'audio-store', `index-${indexShard(name)}.json`), 'utf8')) as AudioIndex;
+    expect(afterIndex.files[name]).toEqual(before);
+    expect(readFileSync(join(f.stage, 'audio-store', before.chunk))).toEqual(beforeBytes);
+    expect(Buffer.from(await (await f.request(addition)).arrayBuffer())).toEqual(newBytes);
+    for (const [filename, bytes] of Object.entries(f.clips))
+      expect(Buffer.from(await (await f.request(filename)).arrayBuffer())).toEqual(bytes);
   });
   it('serves clip-relative ranges, suffixes, HEAD and conditional requests', async () => {
     const f = fixture();

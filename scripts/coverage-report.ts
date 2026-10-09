@@ -1,7 +1,8 @@
 // Research audit only: explicit teaching is separate from incidental text exposure.
 // npx tsx scripts/coverage-report.ts [--write]
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
+import { writeGeneratedText } from "./write-generated-text";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { basePhrases, lessons } from "../src/content";
@@ -317,7 +318,7 @@ export function runCoverage() {
       `GF2021 L${l.level}: words ${l.words.introduced}/${l.words.officialEntries} introduced, ${l.words.remaining} left; characters ${l.characters.introduced}/${l.characters.officialUnique}; grammar ${l.grammar.introduced} introduced, ${l.grammar.partial} partial, ${l.grammar.unmapped} unmapped of ${l.grammar.officialItems}; ${l.words.differences.length} local form/level differences.`,
     );
   if (process.argv.includes("--write"))
-    writeFileSync(
+    writeGeneratedText(
       advanced ? "prompts/research/advanced-coverage-report.json" : "prompts/research/coverage-report.json",
       JSON.stringify(report, null, 2) + "\n",
     );

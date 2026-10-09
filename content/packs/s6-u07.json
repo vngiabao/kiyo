@@ -1,0 +1,2505 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u07",
+    "stage": 3,
+    "order": 139,
+    "title": "The bag has another route",
+    "titleZh": "把一个上午讲清楚",
+    "canDo": [
+      "Reconstruct event order from overlapping first-person accounts",
+      "Retain source, time and location in a longer retelling",
+      "Distinguish recovered completeness from unchanged condition"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u06",
+      "s6-u06-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u07-w01",
+      "hanzi": "当成",
+      "pinyin": "dàng chéng",
+      "meaning": "take for; treat as",
+      "meaningVi": "coi như",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "他把个人的袋子当成交换活动的物品了。",
+        "py": "tā bǎ gè rén de dài zi dàng chéng jiāo huàn huó dòng de wù pǐn le .",
+        "en": "He took a personal bag for an exchange-event item."
+      },
+      "usageNote": "[GF2021:L6:1626] Source entry: 当成; dàngchéng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w02",
+      "hanzi": "当天",
+      "pinyin": "dàng tiān",
+      "meaning": "on that day",
+      "meaningVi": "ngày hôm đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "当天我先还袋子，后来陈宇才放进稿子。",
+        "py": "dàng tiān wǒ xiān huán dài zi , hòu lái chén yǔ cái fàng jìn gǎo zi .",
+        "en": "That day I returned the bag before Chen Yu put pages into it."
+      },
+      "usageNote": "[GF2021:L6:1627] Source entry: 当天; dàngtiān; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w03",
+      "hanzi": "仓库",
+      "pinyin": "cāng kù",
+      "meaning": "storeroom; warehouse",
+      "meaningVi": "kho",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "袋子在二楼仓库，不在活动桌上。",
+        "py": "dài zi zài èr lóu cāng kù , bù zài huó dòng zhuō shàng .",
+        "en": "The bag is in the upstairs storeroom, not on the event table."
+      },
+      "usageNote": "[GF2021:L6:726] Source entry: 仓库; cāngkù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w04",
+      "hanzi": "地下室",
+      "pinyin": "dì xià shì",
+      "meaning": "basement",
+      "meaningVi": "tầng hầm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "有人说找地下室，可我们没有把东西搬到那里。",
+        "py": "yǒu rén shuō zhǎo dì xià shì , kě wǒ men méi yǒu bǎ dōng xi bān dào nà lǐ .",
+        "en": "Someone suggested the basement, but we hadn’t moved items there."
+      },
+      "usageNote": "[GF2021:L6:1777] Source entry: 地下室; dìxiàshì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w05",
+      "hanzi": "楼道",
+      "pinyin": "lóu dào",
+      "meaning": "building corridor",
+      "meaningVi": "hành lang",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我在楼道里看到一张掉出来的纸。",
+        "py": "wǒ zài lóu dào lǐ kàn dào yī zhāng diào chū lái de zhǐ .",
+        "en": "I saw a loose sheet in the corridor."
+      },
+      "usageNote": "[GF2021:L6:5280] Source entry: 楼道; lóudào; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w06",
+      "hanzi": "楼房",
+      "pinyin": "lóu fáng",
+      "meaning": "multi-storey building",
+      "meaningVi": "tòa nhà",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这座楼房有两层，活动在一楼。",
+        "py": "zhè zuò lóu fáng yǒu liǎng céng , huó dòng zài yī lóu .",
+        "en": "This two-storey building hosts the event downstairs."
+      },
+      "usageNote": "[GF2021:L6:5281] Source entry: 楼房; lóufáng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w07",
+      "hanzi": "物品",
+      "pinyin": "wù pǐn",
+      "meaning": "items; belongings",
+      "meaningVi": "đồ vật",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "个人物品和可交换的书要分开放。",
+        "py": "gè rén wù pǐn hé kě jiāo huàn de shū yào fēn kāi fàng .",
+        "en": "Keep personal belongings separate from exchangeable books."
+      },
+      "usageNote": "[GF2021:L6:8579] Source entry: 物品; wùpǐn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w08",
+      "hanzi": "领取",
+      "pinyin": "lǐng qǔ",
+      "meaning": "collect something assigned or available",
+      "meaningVi": "nhận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "领书在大厅，不能到私人物品里随便领取。",
+        "py": "lǐng shū zài dà tīng , bù néng dào sī rén wù pǐn lǐ suí biàn lǐng qǔ .",
+        "en": "Collect books in the hall, not from private belongings."
+      },
+      "usageNote": "[GF2021:L6:5218] Source entry: 领取; lǐngqǔ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w09",
+      "hanzi": "拿走",
+      "pinyin": "ná zǒu",
+      "meaning": "take away",
+      "meaningVi": "mang đi",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "袋子被拿走了，不说明一定离开了楼房。",
+        "py": "dài zi bèi ná zǒu le , bù shuō míng yí dìng lí kāi le lóu fáng .",
+        "en": "The bag was taken away, not necessarily out of the building."
+      },
+      "usageNote": "[GF2021:L6:5733] Source entry: 拿走; názǒu; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w10",
+      "hanzi": "储存",
+      "pinyin": "chǔ cún",
+      "meaning": "store for later use",
+      "meaningVi": "lưu trữ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "二楼储存的是活动用的桌椅。",
+        "py": "èr lóu chǔ cún de shì huó dòng yòng de zhuō yǐ .",
+        "en": "The upper floor stores tables and chairs for events."
+      },
+      "usageNote": "[GF2021:L6:1196] Source entry: 储存; chǔcún; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w11",
+      "hanzi": "看管",
+      "pinyin": "kān guǎn",
+      "meaning": "look after; supervise",
+      "meaningVi": "trông coi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "看管个人袋子不是志愿者已经答应的工作。",
+        "py": "kān guǎn gè rén dài zi bù shì zhì yuàn zhě yǐ jīng dā yìng de gōng zuò .",
+        "en": "Watching personal bags isn’t a duty the volunteer has agreed to."
+      },
+      "usageNote": "[GF2021:L6:4623] Source entry: 看管; kānguǎn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w12",
+      "hanzi": "收藏",
+      "pinyin": "shōu cáng",
+      "meaning": "keep in a collection",
+      "meaningVi": "sưu tầm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我想收藏稿子，不是把它放进交换的书里。",
+        "py": "wǒ xiǎng shōu cáng gǎo zi , bù shì bǎ tā fàng jìn jiāo huàn de shū lǐ .",
+        "en": "I want to keep the pages, not place them among books for exchange."
+      },
+      "usageNote": "[GF2021:L6:7349] Source entry: 收藏; shōucáng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w13",
+      "hanzi": "场馆",
+      "pinyin": "chǎng guǎn",
+      "meaning": "venue building",
+      "meaningVi": "khu tổ chức",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "场馆管理员知道仓库在哪，但没看见每个袋子。",
+        "py": "chǎng guǎn guǎn lǐ yuán zhī dào cāng kù zài nǎ , dàn méi kàn jiàn měi gè dài zi .",
+        "en": "The venue manager knows the storeroom, not every bag’s movements."
+      },
+      "usageNote": "[GF2021:L6:855] Source entry: 场馆; chǎngguǎn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w14",
+      "hanzi": "场地",
+      "pinyin": "chǎng dì",
+      "meaning": "event space; venue",
+      "meaningVi": "địa điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "场地太满，我们把不用的东西先移开。",
+        "py": "chǎng dì tài mǎn , wǒ men bǎ bù yòng de dōng xi xiān yí kāi .",
+        "en": "The venue is crowded, so we move unneeded things aside."
+      },
+      "usageNote": "[GF2021:L6:854] Source entry: 场地; chǎngdì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w15",
+      "hanzi": "前来",
+      "pinyin": "qián lái",
+      "meaning": "come to a stated place",
+      "meaningVi": "đến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "前来换书的人越来越多，门口需要留空。",
+        "py": "qián lái huàn shū de rén yuè lái yuè duō , mén kǒu xū yào liú kōng .",
+        "en": "More people came to exchange books, so the entrance needed clearing."
+      },
+      "usageNote": "[GF2021:L6:6342] Source entry: 前来; qiánlái; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w16",
+      "hanzi": "路过",
+      "pinyin": "lù guò",
+      "meaning": "pass by",
+      "meaningVi": "đi ngang",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我只是路过楼道，不知道谁拿着袋子上楼。",
+        "py": "wǒ zhǐ shì lù guò lóu dào , bù zhī dào shéi ná zhe dài zi shàng lóu .",
+        "en": "I only passed the corridor and don’t know who carried the bag upstairs."
+      },
+      "usageNote": "[GF2021:L6:5310] Source entry: 路过; lùguò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w17",
+      "hanzi": "沿着",
+      "pinyin": "yán zhe",
+      "meaning": "along",
+      "meaningVi": "dọc theo",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "沿着楼道走到尽头，就是仓库。",
+        "py": "yán zhe lóu dào zǒu dào jìn tóu , jiù shì cāng kù .",
+        "en": "Follow the corridor to its end for the storeroom."
+      },
+      "usageNote": "[GF2021:L6:9308] Source entry: 沿着; yánzhe; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w18",
+      "hanzi": "两侧",
+      "pinyin": "liǎng cè",
+      "meaning": "both sides",
+      "meaningVi": "hai bên",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "门的两侧都有箱子，我把袋子放到右边。",
+        "py": "mén de liǎng cè dōu yǒu xiāng zi , wǒ bǎ dài zi fàng dào yòu biān .",
+        "en": "Boxes stand on both sides of the door; I put the bag on the right."
+      },
+      "usageNote": "[GF2021:L6:5143] Source entry: 两侧; liǎngcè; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w19",
+      "hanzi": "前方",
+      "pinyin": "qián fāng",
+      "meaning": "ahead; in front",
+      "meaningVi": "phía trước",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "前方正在搬桌子，我们先等一下。",
+        "py": "qián fāng zhèng zài bān zhuō zi , wǒ men xiān děng yī xià .",
+        "en": "They are moving a table ahead, so we wait."
+      },
+      "usageNote": "[GF2021:L6:6337] Source entry: 前方; qiánfāng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w20",
+      "hanzi": "此处",
+      "pinyin": "cǐ chù",
+      "meaning": "this place; here",
+      "meaningVi": "nơi này",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "纸条写此处放个人物品，后来位置变了。",
+        "py": "zhǐ tiáo xiě cǐ chù fàng gè rén wù pǐn , hòu lái wèi zhì biàn le .",
+        "en": "The note says personal items go here; the location later changes."
+      },
+      "usageNote": "[GF2021:L6:1303] Source entry: 此处; cǐ chù; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w21",
+      "hanzi": "此前",
+      "pinyin": "cǐ qián",
+      "meaning": "previously; before this",
+      "meaningVi": "trước đó",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "此前我只知道袋子还回来了。",
+        "py": "cǐ qián wǒ zhǐ zhī dào dài zi huán huí lái le .",
+        "en": "Before this I only knew the bag had been returned."
+      },
+      "usageNote": "[GF2021:L6:1308] Source entry: 此前; cǐqián; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w22",
+      "hanzi": "事后",
+      "pinyin": "shì hòu",
+      "meaning": "after the event",
+      "meaningVi": "sau sự việc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "事后我们一起补清了每一步。",
+        "py": "shì hòu wǒ men yì qǐ bǔ qīng le měi yī bù .",
+        "en": "Afterwards we reconstructed each step together."
+      },
+      "usageNote": "[GF2021:L6:7298] Source entry: 事后; shìhòu; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w23",
+      "hanzi": "当作",
+      "pinyin": "dàng zuò",
+      "meaning": "treat as",
+      "meaningVi": "coi là",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我把袋子的颜色当作位置的证明，记错了。",
+        "py": "wǒ bǎ dài zi de yán sè dàng zuò wèi zhì de zhèng míng , jì cuò le .",
+        "en": "I wrongly treated the bag’s colour as proof of its location."
+      },
+      "usageNote": "[GF2021:L6:1630] Source entry: 当作; dàngzuò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w24",
+      "hanzi": "恰好",
+      "pinyin": "qià hǎo",
+      "meaning": "happen to; just",
+      "meaningVi": "vừa đúng",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她恰好看见我放纸，知道袋子那时还在。",
+        "py": "tā qià hǎo kàn jiàn wǒ fàng zhǐ , zhī dào dài zi nà shí hái zài .",
+        "en": "She happened to see me insert the pages and knew the bag was there then."
+      },
+      "usageNote": "[GF2021:L6:6299] Source entry: 恰好; qiàhǎo; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w25",
+      "hanzi": "特地",
+      "pinyin": "tè dì",
+      "meaning": "especially for a purpose",
+      "meaningVi": "đặc biệt",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我特地带来原稿，想请大家排练。",
+        "py": "wǒ tè dì dài lái yuán gǎo , xiǎng qǐng dà jiā pái liàn .",
+        "en": "I specially brought the original pages for rehearsal."
+      },
+      "usageNote": "[GF2021:L6:7858] Source entry: 特地; tèdì; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w26",
+      "hanzi": "抱歉",
+      "pinyin": "bào qiàn",
+      "meaning": "sorry",
+      "meaningVi": "xin lỗi",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "抱歉，我以为这个也是活动的东西。",
+        "py": "bào qiàn , wǒ yǐ wéi zhè gè yě shì huó dòng de dōng xi .",
+        "en": "Sorry, I thought this belonged to the event too."
+      },
+      "usageNote": "[GF2021:L6:238] Source entry: 抱歉; bàoqiàn; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w27",
+      "hanzi": "道歉",
+      "pinyin": "dào qiàn",
+      "meaning": "apologise",
+      "meaningVi": "xin lỗi",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我为没有问就搬走道歉。",
+        "py": "wǒ wèi méi yǒu wèn jiù bān zǒu dào qiàn .",
+        "en": "I apologise for moving it without asking."
+      },
+      "usageNote": "[GF2021:L6:1677] Source entry: 道歉; dào∥qiàn; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w28",
+      "hanzi": "通报",
+      "pinyin": "tōng bào",
+      "meaning": "inform relevant people",
+      "meaningVi": "thông báo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我们向在找袋子的人通报已经找到。",
+        "py": "wǒ men xiàng zài zhǎo dài zi de rén tōng bào yǐ jīng zhǎo dào .",
+        "en": "We told the people searching that the bag was found."
+      },
+      "usageNote": "[GF2021:L6:8030] Source entry: 通报; tōngbào; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w29",
+      "hanzi": "传出",
+      "pinyin": "chuán chū",
+      "meaning": "come from inside; spread",
+      "meaningVi": "truyền ra",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "仓库里传出搬椅子的声音。",
+        "py": "cāng kù lǐ chuán chū bān yǐ zi de shēng yīn .",
+        "en": "The sound of moving chairs came from the storeroom."
+      },
+      "usageNote": "[GF2021:L6:1220] Source entry: 传出; chuánchū; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w30",
+      "hanzi": "回应",
+      "pinyin": "huí yìng",
+      "meaning": "respond; response",
+      "meaningVi": "phản hồi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "志愿者回应说袋子是他搬上去的。",
+        "py": "zhì yuàn zhě huí yìng shuō dài zi shì tā bān shàng qù de .",
+        "en": "The volunteer responded that he had moved the bag upstairs."
+      },
+      "usageNote": "[GF2021:L6:3583] Source entry: 回应; huíyìng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w31",
+      "hanzi": "追究",
+      "pinyin": "zhuī jiū",
+      "meaning": "investigate responsibility",
+      "meaningVi": "truy trách nhiệm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先把经过问清，不急着追究谁故意做了什么。",
+        "py": "xiān bǎ jīng guò wèn qīng , bù jí zhe zhuī jiū shéi gù yì zuò le shén me .",
+        "en": "Clarify the events before pursuing claims of deliberate acts."
+      },
+      "usageNote": "[GF2021:L6:10847] Source entry: 追究; zhuījiū; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u07-w32",
+      "hanzi": "涉及",
+      "pinyin": "shè jí",
+      "meaning": "involve; concern",
+      "meaningVi": "liên quan",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这个误会涉及放的位置和搬的人，不只涉及颜色。",
+        "py": "zhè gè wù huì shè jí fàng de wèi zhì hé bān de rén , bù zhǐ shè jí yán sè .",
+        "en": "The confusion concerns placement and the mover, not only colour."
+      },
+      "usageNote": "[GF2021:L6:7032] Source entry: 涉及; shèjí; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u07-g01",
+      "pattern": "此前 / 当天 / 事后",
+      "purpose": "Keep the time reference attached to each account",
+      "explanation": "These expressions organise before, on the relevant day and after. The reference event must remain clear; discovery order is not necessarily event order.",
+      "examples": [
+        {
+          "zh": "此前我只知道袋子还回来了。",
+          "py": "cǐ qián wǒ zhǐ zhī dào dài zi huán huí lái le .",
+          "en": "Before this I only knew the bag had been returned."
+        },
+        {
+          "zh": "事后我们一起补清了每一步。",
+          "py": "shì hòu wǒ men yì qǐ bǔ qīng le měi yī bù .",
+          "en": "Afterwards we reconstructed each step together."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "事后知道的事一定都是事后才发生。",
+          "right": "事后我们一起补清了每一步。",
+          "why": "Knowing something later does not place its occurrence later."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u07-g02",
+      "pattern": "沿着 / 至",
+      "purpose": "Read route and endpoint in organised language",
+      "explanation": "沿着 introduces the path followed; 至 introduces an endpoint in more formal directions. Neither necessarily means passing every room.",
+      "examples": [
+        {
+          "zh": "沿着楼道走至尽头，就能看到仓库。",
+          "py": "yán zhe lóu dào zǒu zhì jìn tóu , jiù néng kàn dào cāng kù .",
+          "en": "Follow the corridor to its end to see the storeroom."
+        },
+        {
+          "zh": "沿着河边走至桥旁再停。",
+          "py": "yán zhe hé biān zǒu zhì qiáo páng zài tíng .",
+          "en": "Follow the riverbank to the bridge, then stop."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "沿着楼道走至尽头，表示每一间房都已经进去看过。",
+          "right": "沿着楼道走至尽头，就能看到仓库。",
+          "why": "A route instruction does not establish inspection of every room."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u07-g03",
+      "pattern": "或…，或…",
+      "purpose": "Keep alternative causes unconfirmed",
+      "explanation": "Written 或 clauses offer possibilities. They are not a list of events all known to have happened.",
+      "examples": [
+        {
+          "zh": "纸或是上楼时掉的，或是放下时掉的。",
+          "py": "zhǐ huò shì shàng lóu shí diào de , huò shì fàng xià shí diào de .",
+          "en": "The sheet may have fallen while going upstairs or when put down."
+        },
+        {
+          "zh": "他或在门口，或在活动桌旁。",
+          "py": "tā huò zài mén kǒu , huò zài huó dòng zhuō páng .",
+          "en": "He may be at the door or the event table."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "或上楼时掉或放下时掉，证明这张纸掉过两次。",
+          "right": "纸或是上楼时掉的，或是放下时掉的。",
+          "why": "Alternatives do not establish two falls."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u07-g04",
+      "pattern": "被…给…",
+      "purpose": "Retell the affected object in a colloquial passive",
+      "explanation": "Give the object, agent and result only as known. 给 adds colloquial emphasis; it does not imply intention.",
+      "examples": [
+        {
+          "zh": "袋子被志愿者给搬到二楼了。",
+          "py": "dài zi bèi zhì yuàn zhě gěi bān dào èr lóu le .",
+          "en": "The bag was moved upstairs by the volunteer."
+        },
+        {
+          "zh": "那张纸被风给吹到桌边了。",
+          "py": "nà zhāng zhǐ bèi fēng gěi chuī dào zhuō biān le .",
+          "en": "The sheet was blown to the table edge by the wind."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "袋子被志愿者给搬到二楼，证明他故意想弄丢。",
+          "right": "袋子被志愿者给搬到二楼了。",
+          "why": "The passive describes an effect without proving a motive."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u07-g05",
+      "pattern": "A一量，B一量",
+      "purpose": "Recognise a distributed description",
+      "explanation": "Parallel noun-plus-one-measure phrases can present things distributed over space. The measure should suit the item; this is a written descriptive form, not a precise inventory by itself.",
+      "examples": [
+        {
+          "zh": "门口一箱，楼道一箱，东西放在不同位置。",
+          "py": "mén kǒu yī xiāng , lóu dào yī xiāng , dōng xi fàng zài bù tóng wèi zhì .",
+          "en": "A box at the entrance and a box in the corridor put things in different places."
+        },
+        {
+          "zh": "这边一张，那边一张，纸散在桌上。",
+          "py": "zhè biān yī zhāng , nà biān yī zhāng , zhǐ sàn zài zhuō shàng .",
+          "en": "A sheet here and a sheet there lie across the table."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "这边一张那边一张，说明全部页码已经核对过。",
+          "right": "这边一张，那边一张，纸散在桌上。",
+          "why": "Distribution is not confirmation of a complete numbered set."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u07-g06",
+      "pattern": "就算…，也…",
+      "purpose": "Maintain a limit after a recovered result",
+      "explanation": "A later good result does not retroactively certify earlier knowledge or perfect condition. 就算 may be hypothetical or concessive according to context.",
+      "examples": [
+        {
+          "zh": "就算找齐了，也不能说从来没有移动过。",
+          "py": "jiù suàn zhǎo qí le , yě bù néng shuō cóng lái méi yǒu yí dòng guò .",
+          "en": "Even with the complete set recovered, we cannot say it never moved."
+        },
+        {
+          "zh": "就算现在知道，也不能说刚才一直知道。",
+          "py": "jiù suàn xiàn zài zhī dào , yě bù néng shuō gāng cái yì zhí zhī dào .",
+          "en": "Even knowing now doesn’t mean always knowing earlier."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "就算现在知道，也说明刚才一直知道。",
+          "right": "就算现在知道，也不能说刚才一直知道。",
+          "why": "Later knowledge does not rewrite its earlier absence."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u07-d",
+    "title": "把一个上午讲清楚",
+    "titleZh": "把一个上午讲清楚",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "蓝袋子你还给我了吗？",
+        "py": "lán dài zi nǐ huán gěi wǒ le ma ?",
+        "en": "Did you return the blue bag?",
+        "speaker": "a"
+      },
+      {
+        "zh": "早上放门右边了，还是空的。",
+        "py": "zǎo shàng fàng mén yòu biān le , hái shi kōng de .",
+        "en": "I put it on the right of the door this morning, empty.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我后来把稿子放进去，现在袋子不见了。",
+        "py": "wǒ hòu lái bǎ gǎo zi fàng jìn qù , xiàn zài dài zi bú jiàn le .",
+        "en": "I put the pages in later, and now the bag is gone.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你不是一直拿着？",
+        "py": "nǐ bù shì yì zhí ná zhe ?",
+        "en": "Weren’t you holding it the whole time?",
+        "speaker": "b"
+      },
+      {
+        "zh": "没有，放完纸就去搬桌子了。",
+        "py": "méi yǒu , fàng wán zhǐ jiù qù bān zhuō zi le .",
+        "en": "No, after putting in the pages I went to move a table.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那我们先找刚才在门口的人。",
+        "py": "nà wǒ men xiān zhǎo gāng cái zài mén kǒu de rén .",
+        "en": "Then ask who was at the door.",
+        "speaker": "b"
+      },
+      {
+        "zh": "有人说东西都搬地下室了。",
+        "py": "yǒu rén shuō dōng xi dōu bān dì xià shì le .",
+        "en": "Someone said everything went to the basement.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那是猜的吧？今天没有用地下室。",
+        "py": "nà shì cāi de ba ? jīn tiān méi yǒu yòng dì xià shì .",
+        "en": "Isn’t that a guess? We haven’t used the basement today.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我在楼道看到一张稿纸，不知道怎么掉出来的。",
+        "py": "wǒ zài lóu dào kàn dào yī zhāng gǎo zhǐ , bù zhī dào zěn me diào chū lái de .",
+        "en": "I saw a page in the corridor; I don’t know how it fell out.",
+        "speaker": "a"
+      },
+      {
+        "zh": "先问问谁搬过袋子吧，我也过去看看。",
+        "py": "xiān wèn wèn shéi bān guò dài zi ba , wǒ yě guò qù kàn kàn .",
+        "en": "Let's ask who moved the bag. I'll go and look too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "志愿者说门口太满，袋子和纸箱一起放到二楼了。",
+        "py": "zhì yuàn zhě shuō mén kǒu tài mǎn , dài zi hé zhǐ xiāng yì qǐ fàng dào èr lóu le .",
+        "en": "The volunteer says the entrance was crowded, so he moved it upstairs with the boxes.",
+        "speaker": "a"
+      },
+      {
+        "zh": "原来还在楼里。那稿子应该也在？",
+        "py": "yuán lái hái zài lóu lǐ . nà gǎo zi yīng gāi yě zài ?",
+        "en": "So it’s still in the building. The pages should be there too?",
+        "speaker": "b"
+      },
+      {
+        "zh": "先去看。我只看到楼道那一张，还没看袋子里面。",
+        "py": "xiān qù kàn . wǒ zhǐ kàn dào lóu dào nà yī zhāng , hái méi kàn dài zi lǐ miàn .",
+        "en": "Let’s check. I only saw that one sheet, not the contents.",
+        "speaker": "a"
+      },
+      {
+        "zh": "找到啦，这就是我的。里面少了哪一页？",
+        "py": "zhǎo dào la , zhè jiù shì wǒ de . lǐ miàn shǎo le nǎ yī yè ?",
+        "en": "Found it—this is mine. Which page is missing?",
+        "speaker": "b"
+      },
+      {
+        "zh": "先按页码排，别只数张数。",
+        "py": "xiān àn yè mǎ pái , bié zhǐ shù zhāng shù .",
+        "en": "Sort by page number, not just count sheets.",
+        "speaker": "a"
+      },
+      {
+        "zh": "三在这里，四就是楼道那张。后面五也在。",
+        "py": "sān zài zhè lǐ , sì jiù shì lóu dào nà zhāng . hòu miàn wǔ yě zài .",
+        "en": "Three is here; four is the corridor sheet, and five is here too.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，连上了。没有少新的那一段。",
+        "py": "hǎo , lián shàng le . méi yǒu shǎo xīn de nà yī duàn .",
+        "en": "Good, they connect. The new section isn’t missing.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我早上放的是空袋子，你后面放纸，我真的不知道。",
+        "py": "wǒ zǎo shàng fàng de shì kōng dài zi , nǐ hòu miàn fàng zhǐ , wǒ zhēn de bù zhī dào .",
+        "en": "I returned an empty bag this morning; I didn’t know you added pages later.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我现在知道了，刚才一着急像是在问你丢哪了。",
+        "py": "wǒ xiàn zài zhī dào le , gāng cái yī zháo jí xiàng shì zài wèn nǐ diū nǎ le .",
+        "en": "I understand now. In my rush I sounded like I was asking where you lost it.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你可以问，我也没把放的位置写给你。",
+        "py": "nǐ kě yǐ wèn , wǒ yě méi bǎ fàng de wèi zhì xiě gěi nǐ .",
+        "en": "You can ask. I also hadn’t written the location to you.",
+        "speaker": "b"
+      },
+      {
+        "zh": "志愿者道歉说以为是交换的东西。",
+        "py": "zhì yuàn zhě dào qiàn shuō yǐ wéi shì jiāo huàn de dōng xi .",
+        "en": "The volunteer apologised; he thought it was exchange material.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那给个人袋子换个地方，不跟活动纸箱放一起。",
+        "py": "nà gěi gè rén dài zi huàn gè dì fāng , bù gēn huó dòng zhǐ xiāng fàng yì qǐ .",
+        "en": "Then give personal bags a different spot, away from event boxes.",
+        "speaker": "b"
+      },
+      {
+        "zh": "行，先把这段排了。等会儿我拿着袋子，你搬桌子。",
+        "py": "xíng , xiān bǎ zhè duàn pái le . děng huì ér wǒ ná zhe dài zi , nǐ bān zhuō zi .",
+        "en": "Okay. Rehearse first; then I’ll hold the bag while you move the table.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这回谁拿着说清了。别又把我的伞也当稿子。",
+        "py": "zhè huí shéi ná zhe shuō qīng le . bié yòu bǎ wǒ de sǎn yě dāng gǎo zi .",
+        "en": "Now we know who has it. Don’t take my umbrella for script pages too.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "啦",
+        "pinyin": "la",
+        "meaning": "particle expressing a lively or changed state"
+      },
+      {
+        "hanzi": "页码",
+        "pinyin": "yè mǎ",
+        "meaning": "page number"
+      },
+      {
+        "hanzi": "志愿者",
+        "pinyin": "zhì yuàn zhě",
+        "meaning": "volunteer"
+      },
+      {
+        "hanzi": "纸箱",
+        "pinyin": "zhǐ xiāng",
+        "meaning": "cardboard box"
+      },
+      {
+        "hanzi": "空",
+        "pinyin": "kōng",
+        "meaning": "empty"
+      },
+      {
+        "hanzi": "稿纸",
+        "pinyin": "gǎo zhǐ",
+        "meaning": "manuscript paper"
+      },
+      {
+        "hanzi": "稿子",
+        "pinyin": "gǎo zi",
+        "meaning": "draft; script"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "How is the missing bag found?",
+        "choices": [
+          "Combine accounts of return, insertion and upstairs relocation",
+          "Assume every item is in the basement",
+          "Conclude it left the building from its absence at the door"
+        ],
+        "answer": "Combine accounts of return, insertion and upstairs relocation"
+      },
+      {
+        "type": "detail",
+        "q": "Which page is found in the corridor?",
+        "choices": [
+          "Page four",
+          "Page one",
+          "Page five"
+        ],
+        "answer": "Page four"
+      },
+      {
+        "type": "inference",
+        "q": "Why check numbers rather than only count sheets?",
+        "choices": [
+          "To restore each distinct page, not a total containing duplicates",
+          "To prove every paper stayed perfect",
+          "To discover a sixth page had always existed"
+        ],
+        "answer": "To restore each distinct page, not a total containing duplicates"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "有人说东西都搬【地下室】了。",
+          "py": "yǒu rén shuō dōng xi dōu bān dì xià shì le .",
+          "en": "Someone said everything went to the basement.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我在【楼道】看到一张稿纸，不知道怎么掉出来的。",
+          "py": "wǒ zài lóu dào kàn dào yī zhāng gǎo zhǐ , bù zhī dào zěn me diào chū lái de .",
+          "en": "I saw a page in the corridor; I don’t know how it fell out.",
+          "speaker": "a"
+        },
+        {
+          "zh": "志愿者【道歉】说以为是交换的东西。",
+          "py": "zhì yuàn zhě dào qiàn shuō yǐ wéi shì jiāo huàn de dōng xi .",
+          "en": "The volunteer apologised; he thought it was exchange material.",
+          "speaker": "a"
+        }
+      ],
+      "bank": [
+        "地下室",
+        "楼道",
+        "道歉",
+        "明天"
+      ]
+    }
+  },
+  "reading": {
+    "id": "s6-u07-r",
+    "title": "把一个上午讲清楚",
+    "titleZh": "把一个上午讲清楚",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "周五晚上我借了陈宇的蓝袋子，带几本书回家。周六上午到了换书活动，我先把书拿出来，再把空袋子放在一楼门右边，准备等他来搬东西时交还。门的两侧都堆着箱子，我把袋子往里挪了一点，免得挡住入口。我想发个消息，手里又有人递来一本书，问放哪儿。我转头帮他找桌子，就把消息忘了。等陈宇来了，我也没有再过去指给他看。",
+        "py": "zhōu wǔ wǎn shang wǒ jiè le chén yǔ de lán dài zi , dài jǐ běn shū huí jiā . zhōu liù shàng wǔ dào le huàn shū huó dòng , wǒ xiān bǎ shū ná chū lái , zài bǎ kōng dài zi fàng zài yī lóu mén yòu biān , zhǔn bèi děng tā lái bān dōng xi shí jiāo huán . mén de liǎng cè dōu duī zhe xiāng zi , wǒ bǎ dài zi wǎng lǐ nuó le yī diǎn , miǎn de dǎng zhù rù kǒu . wǒ xiǎng fā gè xiāo xī , shǒu lǐ yòu yǒu rén dì lái yī běn shū , wèn fàng nǎr . wǒ zhuǎn tóu bāng tā zhǎo zhuō zi , jiù bǎ xiāo xī wàng le . děng chén yǔ lái le , wǒ yě méi yǒu zài guò qù zhǐ gěi tā kàn .",
+        "en": "I borrowed Chen Yu's blue bag on Friday to take some books home. At Saturday's book exchange I removed the books and put the empty bag to the right of the downstairs entrance, ready to return it when he arrived. Boxes lined both sides, so I moved it further in to keep the doorway clear. I meant to message him, but someone handed me a book and asked where it went. Helping them find a table, I forgot the message. When Chen Yu arrived, I didn't go back to show him either."
+      },
+      {
+        "zh": "陈宇来了以后先把蓝袋子找到，放进去五页新稿子，接着去搬桌子。我当时在活动桌旁帮人找书，只看到他从门口走过，没有看到他放纸。后来他问袋子在哪，我还说不是在你手里吗。他伸出两只空手给我看，又指向刚搬完的桌子。我这才想起来，早上还的时候是空袋子，他现在找的却已经装了今天要排的新段落。",
+        "py": "chén yǔ lái le yǐ hòu xiān bǎ lán dài zi zhǎo dào , fàng jìn qù wǔ yè xīn gǎo zi , jiē zhe qù bān zhuō zi . wǒ dāng shí zài huó dòng zhuō páng bāng rén zhǎo shū , zhǐ kàn dào tā cóng mén kǒu zǒu guò , méi yǒu kàn dào tā fàng zhǐ . hòu lái tā wèn dài zi zài nǎ , wǒ hái shuō bù shì zài nǐ shǒu lǐ ma . tā shēn chū liǎng zhǐ kōng shǒu gěi wǒ kàn , yòu zhǐ xiàng gāng bān wán de zhuō zi . wǒ zhè cái xiǎng qǐ lái , zǎo shàng huán de shí hou shì kōng dài zi , tā xiàn zài zhǎo de què yǐ jīng zhuāng le jīn tiān yào pái de xīn duàn luò .",
+        "en": "Chen Yu found the blue bag, put five new manuscript pages inside and went to move tables. I was helping someone find a book and saw him pass, not insert the pages. Asked where the bag was, I thought he had it. He held out empty hands and pointed at the tables he'd moved. The bag I'd returned empty now held today's new rehearsal section."
+      },
+      {
+        "zh": "我们先问门口几个人，有人说不用的东西都到地下室去了。我正要过去，陈宇问他有没有见到蓝袋子。那个人说没有，只是以前活动常放在那里。我停下来给负责场地的人打电话，他说今天地下室没有开，先找楼上。陈宇已经走到楼道，叫我过去看，一张稿纸掉在地上，页码正好是四，上面还有他刚改过的字。",
+        "py": "wǒ men xiān wèn mén kǒu jǐ gè rén , yǒu rén shuō bù yòng de dōng xi dōu dào dì xià shì qù le . wǒ zhèng yào guò qù , chén yǔ wèn tā yǒu méi yǒu jiàn dào lán dài zi . nà gè rén shuō méi yǒu , zhǐ shì yǐ qián huó dòng cháng fàng zài nà lǐ . wǒ tíng xià lái gěi fù zé chǎng dì de rén dǎ diàn huà , tā shuō jīn tiān dì xià shì méi yǒu kāi , xiān zhǎo lóu shàng . chén yǔ yǐ jīng zǒu dào lóu dào , jiào wǒ guò qù kàn , yī zhāng gǎo zhǐ diào zài dì shang , yè mǎ zhèng hǎo shì sì , shàng miàn hái yǒu tā gāng gǎi guò de zì .",
+        "en": "Someone near the entrance suggested the basement, where things had gone at previous events. Before I went, Chen asked if he'd seen the blue bag. He hadn't. The venue contact told me the basement was closed today and suggested upstairs. Chen called from the corridor: a page lay on the floor, numbered four, with his latest corrections on it."
+      },
+      {
+        "zh": "陈宇把第四页拿起来，指着最后一行给我看，说这一句昨晚才改。我问是不是他搬桌子时掉的，他摇头，说搬的是桌子，稿子早就放进袋里了。我让他先拿好这张，自己回门口问负责收东西的人。刚走到门边，就听见志愿者说蓝袋子也搬上去了。陈宇跟在后面，一听二楼两个字就跑了过来，问仓库的门现在开着没有。",
+        "py": "chén yǔ bǎ dì sì yè ná qǐ lái , zhǐ zhe zuì hòu yī xíng gěi wǒ kàn , shuō zhè yī jù zuó wǎn cái gǎi . wǒ wèn shì bú shì tā bān zhuō zi shí diào de , tā yáo tóu , shuō bān de shì zhuō zi , gǎo zi zǎo jiù fàng jìn dài lǐ le . wǒ ràng tā xiān ná hǎo zhè zhāng , zì jǐ huí mén kǒu wèn fù zé shōu dōng xi de rén . gāng zǒu dào mén biān , jiù tīng jiàn zhì yuàn zhě shuō lán dài zi yě bān shàng qù le . chén yǔ gēn zài hòu miàn , yī tīng èr lóu liǎng gè zì jiù pǎo le guò lái , wèn cāng kù de mén xiàn zài kāi zhe méi yǒu .",
+        "en": "Chen Yu picked up page four and pointed to its last line, which he'd revised the night before. Had he dropped it while moving tables? No: he'd been carrying a table, with the pages already in the bag. I asked him to keep the sheet while I went back to the entrance. A volunteer said the blue bag had gone upstairs too. Hearing 'second floor,' Chen Yu hurried over to ask whether the storeroom was open."
+      },
+      {
+        "zh": "负责门口的志愿者说，他把蓝袋子和两只纸箱一起搬到二楼仓库了。门口越来越满，有人推着椅子过不去，他就先把这些东西移开，以为袋子也是活动待用的。他还记得上楼时有纸露在袋口。我问里面是不是放书，他说没打开看，放到纸箱旁就下来了。陈宇举起手里的第四页，问能不能带我们上去，志愿者马上放下正在整理的书，领我们往楼梯走。",
+        "py": "fù zé mén kǒu de zhì yuàn zhě shuō , tā bǎ lán dài zi hé liǎng zhǐ zhǐ xiāng yì qǐ bān dào èr lóu cāng kù le . mén kǒu yuè lái yuè mǎn , yǒu rén tuī zhe yǐ zi guò bù qù , tā jiù xiān bǎ zhè xiē dōng xi yí kāi , yǐ wéi dài zi yě shì huó dòng dài yòng de . tā hái jì de shàng lóu shí yǒu zhǐ lù zài dài kǒu . wǒ wèn lǐ miàn shì bú shì fàng shū , tā shuō méi dǎ kāi kàn , fàng dào zhǐ xiāng páng jiù xià lái le . chén yǔ jǔ qǐ shǒu lǐ de dì sì yè , wèn néng bù néng dài wǒ men shàng qù , zhì yuàn zhě mǎ shàng fàng xià zhèng zài zhěng lǐ de shū , lǐng wǒ men wǎng lóu tī zǒu .",
+        "en": "The entrance volunteer had moved the blue bag and two boxes to the upstairs storeroom. Someone pushing chairs couldn't get through the crowded doorway, so he'd cleared what he assumed was event equipment. He remembered paper sticking out of the bag. Had it contained books? He hadn't opened it; he'd set it beside the boxes and come back down. Chen Yu held up page four and asked to be taken upstairs. The volunteer put down the books he was sorting and led us to the stairs."
+      },
+      {
+        "zh": "我们沿着楼道上去，仓库里正有人收椅子。管理员把门开大一点，让我们从旁边进去。蓝袋子就在靠墙的纸箱旁，陈宇拿起来，先把稿子放到空桌上。里面还有四张，他一张一张排开，一、二、三、五都在。我把楼道那张递过去，他放进三和五中间，又从第一句读到新改的那一句。听见第四页接上了，我才敢把手里的袋子放下，问他这回能排练了吧。",
+        "py": "wǒ men yán zhe lóu dào shàng qù , cāng kù lǐ zhèng yǒu rén shōu yǐ zi . guǎn lǐ yuán bǎ mén kāi dà yī diǎn , ràng wǒ men cóng páng biān jìn qù . lán dài zi jiù zài kào qiáng de zhǐ xiāng páng , chén yǔ ná qǐ lái , xiān bǎ gǎo zi fàng dào kōng zhuō shàng . lǐ miàn hái yǒu sì zhāng , tā yī zhāng yī zhāng pái kāi , yī , èr , sān , wǔ dōu zài . wǒ bǎ lóu dào nà zhāng dì guò qù , tā fàng jìn sān hé wǔ zhōng jiān , yòu cóng dì yī jù dú dào xīn gǎi de nà yī jù . tīng jiàn dì sì yè jiē shàng le , wǒ cái gǎn bǎ shǒu lǐ de dài zi fàng xià , wèn tā zhè huí néng pái liàn le ba .",
+        "en": "Upstairs, someone was putting chairs away. The manager opened the door wider to let us through. Chen Yu found the blue bag beside the boxes and laid its four remaining sheets on an empty table: one, two, three and five. I handed over the corridor sheet; he put it between three and five and read through to his new line. Only when page four fitted did I put down the bag and ask whether we could finally rehearse."
+      },
+      {
+        "zh": "志愿者说抱歉，刚才应该先问一句。陈宇说找到了就好，下次自己把袋口拉好。我也拿出手机，把蓝袋子已找到发到群里，免得大家还往别处跑。门口仍然有人搬书，志愿者指着另一张桌子，问个人东西放那边行不行。我说行，帮他把桌上的活动资料移开，再贴上一张写着个人物品的纸。陈宇拿着稿子过来，笑说现在先别把这五张也当成交换的书。",
+        "py": "zhì yuàn zhě shuō bào qiàn , gāng cái yīng gāi xiān wèn yī jù . chén yǔ shuō zhǎo dào le jiù hǎo , xià cì zì jǐ bǎ dài kǒu lā hǎo . wǒ yě ná chū shǒu jī , bǎ lán dài zi yǐ zhǎo dào fā dào qún lǐ , miǎn de dà jiā hái wǎng bié chù pǎo . mén kǒu réng rán yǒu rén bān shū , zhì yuàn zhě zhǐ zhe lìng yī zhāng zhuō zi , wèn gè rén dōng xi fàng nà biān xíng bù xíng . wǒ shuō xíng , bāng tā bǎ zhuō shàng de huó dòng zī liào yí kāi , zài tiē shàng yī zhāng xiě zhe gè rén wù pǐn de zhǐ . chén yǔ ná zhe gǎo zi guò lái , xiào shuō xiàn zài xiān bié bǎ zhè wǔ zhāng yě dàng chéng jiāo huàn de shū .",
+        "en": "The volunteer apologised for not asking before moving it. Chen Yu was glad we'd found it and would close the bag properly next time. I messaged the group so nobody kept searching elsewhere. With books still passing through the entrance, the volunteer suggested another table for personal belongings. I helped clear the event handouts and label it. Arriving with the manuscript, Chen Yu joked that these five sheets weren't exchange books either."
+      },
+      {
+        "zh": "我们把个人袋子移到另一张桌子，贴了说明，再向还在找的人说已经找到了。有位朋友说我就知道没丢，我笑说刚才我们可不知道。他拿起水杯，问还用不用去地下室，我赶紧说不用了，也在群里补了一句。楼下的朋友回复，幸好看见消息，要不就白跑一趟。管理员让我们把蓝袋子带走，桌上只留下场馆的东西。陈宇收好五页稿子，说明天交给演出的人，今晚先不再挪地方。",
+        "py": "wǒ men bǎ gè rén dài zi yí dào lìng yī zhāng zhuō zi , tiē le shuō míng , zài xiàng hái zài zhǎo de rén shuō yǐ jīng zhǎo dào le . yǒu wèi péng you shuō wǒ jiù zhī dào méi diū , wǒ xiào shuō gāng cái wǒ men kě bù zhī dào . tā ná qǐ shuǐ bēi , wèn hái yòng bù yòng qù dì xià shì , wǒ gǎn jǐn shuō bù yòng le , yě zài qún lǐ bǔ le yī jù . lóu xià de péng you huí fù , xìng hǎo kàn jiàn xiāo xī , yào bù jiù bái pǎo yī tàng . guǎn lǐ yuán ràng wǒ men bǎ lán dài zi dài zǒu , zhuō shàng zhǐ liú xià chǎng guǎn de dōng xi . chén yǔ shōu hǎo wǔ yè gǎo zi , shuō míng tiān jiāo gěi yǎn chū de rén , jīn wǎn xiān bù zài nuó dì fāng .",
+        "en": "We moved the personal bags to another table, labelled them and told the searchers we had found the bag. A friend said he had known it was not lost; I laughed that we certainly had not known that earlier. He asked whether he still needed to check the basement. I quickly said no and updated the group. A friend downstairs was glad to see the message before making a wasted trip. The manager asked us to take the blue bag away and leave only venue equipment on the table. Chen Yu put all five pages together. He would hand them to the performers tomorrow; tonight they would stay put."
+      },
+      {
+        "zh": "排练开始时，陈宇从第一句读起，读到第四页还把纸举起来给大家看了一下，大家都笑了。那张纸有一道新折痕，但字还能看清。他把纸按在桌上，说这里先别翻，让我把这句读完。我接着读自己的下一句，才发现刚才顾着找袋子，把开头的词忘了。陈宇说这回纸没丢，倒是台词丢了。我让他从前一句再来，两个人又试了一遍，这次总算接上。",
+        "py": "pái liàn kāi shǐ shí , chén yǔ cóng dì yī jù dú qǐ , dú dào dì sì yè hái bǎ zhǐ jǔ qǐ lái gěi dà jiā kàn le yī xià , dà jiā dōu xiào le . nà zhāng zhǐ yǒu yī dào xīn zhé hén , dàn zì hái néng kàn qīng . tā bǎ zhǐ àn zài zhuō shàng , shuō zhè lǐ xiān bié fān , ràng wǒ bǎ zhè jù dú wán . wǒ jiē zhe dú zì jǐ de xià yī jù , cái fā xiàn gāng cái gù zhe zhǎo dài zi , bǎ kāi tóu de cí wàng le . chén yǔ shuō zhè huí zhǐ méi diū , dǎo shì tái cí diū le . wǒ ràng tā cóng qián yī jù zài lái , liǎng gè rén yòu shì le yī biàn , zhè cì zǒng suàn jiē shàng .",
+        "en": "Chen Yu began at the first line and held page four up for everyone to see when he reached it, making everyone laugh. Its new crease didn't obscure the words. Holding it against the table, he asked me not to turn it until he'd finished the line. I tried my next line and realised I'd forgotten its opening while searching for the bag. The paper was safe this time, he joked, but we'd lost the dialogue. I asked him to repeat the previous line; on the second attempt we finally joined it up."
+      },
+      {
+        "zh": "晚上一个没来活动的朋友发消息，问怎么群里找了一上午袋子。我回他说周五我借回家，周六把空袋子还到门边；陈宇后来放进去五页稿子，去搬桌子时，志愿者又把袋子和纸箱搬上二楼。我们在楼道找到第四页，在仓库找到其余四页，已经排完了。他问纸还能不能用，我拍了一张照片发过去，折痕还在，字也看得清。陈宇在旁边补了一句，下次直接带副本，原稿留家里。",
+        "py": "wǎn shang yī gè méi lái huó dòng de péng you fā xiāo xī , wèn zěn me qún lǐ zhǎo le yī shàng wǔ dài zi . wǒ huí tā shuō zhōu wǔ wǒ jiè huí jiā , zhōu liù bǎ kōng dài zi huán dào mén biān ; chén yǔ hòu lái fàng jìn qù wǔ yè gǎo zi , qù bān zhuō zi shí , zhì yuàn zhě yòu bǎ dài zi hé zhǐ xiāng bān shàng èr lóu . wǒ men zài lóu dào zhǎo dào dì sì yè , zài cāng kù zhǎo dào qí yú sì yè , yǐ jīng pái wán le . tā wèn zhǐ hái néng bù néng yòng , wǒ pāi le yī zhāng zhào piān fā guò qù , zhé hén hái zài , zì yě kàn de qīng . chén yǔ zài páng biān bǔ le yī jù , xià cì zhí jiē dài fù běn , yuán gǎo liú jiā lǐ .",
+        "en": "That evening an absent friend asked why the group had spent the morning looking for a bag. I messaged back: I'd borrowed it Friday and returned it empty Saturday; Chen Yu had added five script pages, then gone to move tables while a volunteer took the bag and boxes upstairs. We found page four in the corridor and the other four in the storeroom, and had finished rehearsing. Were the pages usable? I sent a photo showing the crease and legible words. Chen Yu added that he'd bring copies next time and leave the originals at home."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "折痕",
+        "pinyin": "zhé hén",
+        "meaning": "crease"
+      },
+      {
+        "hanzi": "页码",
+        "pinyin": "yè mǎ",
+        "meaning": "page number"
+      },
+      {
+        "hanzi": "志愿者",
+        "pinyin": "zhì yuàn zhě",
+        "meaning": "volunteer"
+      },
+      {
+        "hanzi": "纸箱",
+        "pinyin": "zhǐ xiāng",
+        "meaning": "cardboard box"
+      },
+      {
+        "hanzi": "堆",
+        "pinyin": "duī",
+        "meaning": "pile up"
+      },
+      {
+        "hanzi": "袋口",
+        "pinyin": "dài kǒu",
+        "meaning": "opening of a bag"
+      },
+      {
+        "hanzi": "露",
+        "pinyin": "lù",
+        "meaning": "be exposed; show"
+      },
+      {
+        "hanzi": "领",
+        "pinyin": "lǐng",
+        "meaning": "receive; collect"
+      },
+      {
+        "hanzi": "空",
+        "pinyin": "kōng",
+        "meaning": "empty"
+      },
+      {
+        "hanzi": "挡",
+        "pinyin": "dǎng",
+        "meaning": "block"
+      },
+      {
+        "hanzi": "痕",
+        "pinyin": "hén",
+        "meaning": "mark; trace"
+      },
+      {
+        "hanzi": "管理员",
+        "pinyin": "guǎn lǐ yuán",
+        "meaning": "venue manager"
+      },
+      {
+        "hanzi": "遮",
+        "pinyin": "zhē",
+        "meaning": "cover; conceal"
+      },
+      {
+        "hanzi": "折",
+        "pinyin": "zhé",
+        "meaning": "fold; crease"
+      },
+      {
+        "hanzi": "侧",
+        "pinyin": "cè",
+        "meaning": "side; turn sideways"
+      },
+      {
+        "hanzi": "稿纸",
+        "pinyin": "gǎo zhǐ",
+        "meaning": "manuscript paper"
+      },
+      {
+        "hanzi": "交还",
+        "pinyin": "jiāo huán",
+        "meaning": "return; hand back"
+      },
+      {
+        "hanzi": "拉好",
+        "pinyin": "lā hǎo",
+        "meaning": "close or pull into place"
+      },
+      {
+        "hanzi": "楼梯",
+        "pinyin": "lóu tī",
+        "meaning": "stairs"
+      },
+      {
+        "hanzi": "稿子",
+        "pinyin": "gǎo zi",
+        "meaning": "draft; script"
+      },
+      {
+        "hanzi": "台词",
+        "pinyin": "tái cí",
+        "meaning": "lines spoken in a play"
+      },
+      {
+        "hanzi": "副",
+        "pinyin": "fù",
+        "meaning": "copy; auxiliary"
+      },
+      {
+        "hanzi": "摇头",
+        "pinyin": "yáo tóu",
+        "meaning": "shake one's head"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the narrator improve in the retelling?",
+        "choices": [
+          "Event order and attribution instead of imagined continuous observation",
+          "An accusation of intentional loss",
+          "A claim that nothing moved"
+        ],
+        "answer": "Event order and attribution instead of imagined continuous observation"
+      },
+      {
+        "type": "detail",
+        "q": "Where is the bag found?",
+        "choices": [
+          "The upstairs storeroom",
+          "The basement",
+          "Outside the building"
+        ],
+        "answer": "The upstairs storeroom"
+      },
+      {
+        "type": "inference",
+        "q": "Did earlier basement use prove today’s location?",
+        "choices": [
+          "No, it was an unobserved suggestion",
+          "Yes, past use determines every future location",
+          "Yes, the volunteer had said basement"
+        ],
+        "answer": "No, it was an unobserved suggestion"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "周五晚上我借了陈宇的蓝袋子，带几本书回家。周六上午到了换书活动，我先把书拿出来，再把空袋子放在一楼门右边，准备等他来搬东西时交还。门的【两侧】都堆着箱子，我把袋子往里挪了一点，免得挡住入口。我想发个消息，手里又有人递来一本书，问放哪儿。我转头帮他找桌子，就把消息忘了。等陈宇来了，我也没有再过去指给他看。",
+          "py": "zhōu wǔ wǎn shang wǒ jiè le chén yǔ de lán dài zi , dài jǐ běn shū huí jiā . zhōu liù shàng wǔ dào le huàn shū huó dòng , wǒ xiān bǎ shū ná chū lái , zài bǎ kōng dài zi fàng zài yī lóu mén yòu biān , zhǔn bèi děng tā lái bān dōng xi shí jiāo huán . mén de liǎng cè dōu duī zhe xiāng zi , wǒ bǎ dài zi wǎng lǐ nuó le yī diǎn , miǎn de dǎng zhù rù kǒu . wǒ xiǎng fā gè xiāo xī , shǒu lǐ yòu yǒu rén dì lái yī běn shū , wèn fàng nǎr . wǒ zhuǎn tóu bāng tā zhǎo zhuō zi , jiù bǎ xiāo xī wàng le . děng chén yǔ lái le , wǒ yě méi yǒu zài guò qù zhǐ gěi tā kàn .",
+          "en": "I borrowed Chen Yu's blue bag on Friday to take some books home. At Saturday's book exchange I removed the books and put the empty bag to the right of the downstairs entrance, ready to return it when he arrived. Boxes lined both sides, so I moved it further in to keep the doorway clear. I meant to message him, but someone handed me a book and asked where it went. Helping them find a table, I forgot the message. When Chen Yu arrived, I didn't go back to show him either."
+        },
+        {
+          "zh": "我们先问门口几个人，有人说不用的东西都到【地下室】去了。我正要过去，陈宇问他有没有见到蓝袋子。那个人说没有，只是以前活动常放在那里。我停下来给负责场地的人打电话，他说今天地下室没有开，先找楼上。陈宇已经走到楼道，叫我过去看，一张稿纸掉在地上，页码正好是四，上面还有他刚改过的字。",
+          "py": "wǒ men xiān wèn mén kǒu jǐ gè rén , yǒu rén shuō bù yòng de dōng xi dōu dào dì xià shì qù le . wǒ zhèng yào guò qù , chén yǔ wèn tā yǒu méi yǒu jiàn dào lán dài zi . nà gè rén shuō méi yǒu , zhǐ shì yǐ qián huó dòng cháng fàng zài nà lǐ . wǒ tíng xià lái gěi fù zé chǎng dì de rén dǎ diàn huà , tā shuō jīn tiān dì xià shì méi yǒu kāi , xiān zhǎo lóu shàng . chén yǔ yǐ jīng zǒu dào lóu dào , jiào wǒ guò qù kàn , yī zhāng gǎo zhǐ diào zài dì shang , yè mǎ zhèng hǎo shì sì , shàng miàn hái yǒu tā gāng gǎi guò de zì .",
+          "en": "Someone near the entrance suggested the basement, where things had gone at previous events. Before I went, Chen asked if he'd seen the blue bag. He hadn't. The venue contact told me the basement was closed today and suggested upstairs. Chen called from the corridor: a page lay on the floor, numbered four, with his latest corrections on it."
+        },
+        {
+          "zh": "陈宇把第四页拿起来，指着最后一行给我看，说这一句昨晚才改。我问是不是他搬桌子时掉的，他摇头，说搬的是桌子，稿子早就放进袋里了。我让他先拿好这张，自己回门口问负责收东西的人。刚走到门边，就听见志愿者说蓝袋子也搬上去了。陈宇跟在后面，一听二楼两个字就跑了过来，问【仓库】的门现在开着没有。",
+          "py": "chén yǔ bǎ dì sì yè ná qǐ lái , zhǐ zhe zuì hòu yī xíng gěi wǒ kàn , shuō zhè yī jù zuó wǎn cái gǎi . wǒ wèn shì bú shì tā bān zhuō zi shí diào de , tā yáo tóu , shuō bān de shì zhuō zi , gǎo zi zǎo jiù fàng jìn dài lǐ le . wǒ ràng tā xiān ná hǎo zhè zhāng , zì jǐ huí mén kǒu wèn fù zé shōu dōng xi de rén . gāng zǒu dào mén biān , jiù tīng jiàn zhì yuàn zhě shuō lán dài zi yě bān shàng qù le . chén yǔ gēn zài hòu miàn , yī tīng èr lóu liǎng gè zì jiù pǎo le guò lái , wèn cāng kù de mén xiàn zài kāi zhe méi yǒu .",
+          "en": "Chen Yu picked up page four and pointed to its last line, which he'd revised the night before. Had he dropped it while moving tables? No: he'd been carrying a table, with the pages already in the bag. I asked him to keep the sheet while I went back to the entrance. A volunteer said the blue bag had gone upstairs too. Hearing 'second floor,' Chen Yu hurried over to ask whether the storeroom was open."
+        }
+      ],
+      "bank": [
+        "两侧",
+        "地下室",
+        "仓库",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u07-media",
+      "title": "At that moment, not all morning",
+      "titleZh": "At that moment, not all morning",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你不是说那张纸一直在包里吗？",
+          "py": "nǐ bù shì shuō nà zhāng zhǐ yì zhí zài bāo lǐ ma ?",
+          "en": "Didn’t you say that page was always in the bag?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我是说我放进去的时候在。",
+          "py": "wǒ shì shuō wǒ fàng jìn qù de shí hou zài .",
+          "en": "I meant it was there when I put it in.",
+          "speaker": "b"
+        },
+        {
+          "zh": "后面呢？",
+          "py": "hòu miàn ne ?",
+          "en": "And later?",
+          "speaker": "a"
+        },
+        {
+          "zh": "后面我去搬桌子，没一直看着。",
+          "py": "hòu miàn wǒ qù bān zhuō zi , méi yì zhí kàn zhe .",
+          "en": "I moved a table afterwards and didn’t watch constantly.",
+          "speaker": "b"
+        },
+        {
+          "zh": "所以不是一直，是那时候。",
+          "py": "suǒ yǐ bù shì yì zhí , shì nà shí hòu .",
+          "en": "So not always, but at that time.",
+          "speaker": "a"
+        },
+        {
+          "zh": "对。刚才急了，把一刻说成一上午。",
+          "py": "duì . gāng cái jí le , bǎ yī kè shuō chéng yī shàng wǔ .",
+          "en": "Right. I was rushed and turned one moment into the whole morning.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那现在袋子谁拿？",
+          "py": "nà xiàn zài dài zi shéi ná ?",
+          "en": "Then who has the bag now?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我拿，直到排练结束。",
+          "py": "wǒ ná , zhí dào pái liàn jié shù .",
+          "en": "I do, until rehearsal ends.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这句能记下来。",
+          "py": "zhè jù néng jì xià lái .",
+          "en": "We can note that.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你别连伞也记进去。",
+          "py": "nǐ bié lián sǎn yě jì jìn qù .",
+          "en": "Don’t include the umbrella too.",
+          "speaker": "b"
+        },
+        {
+          "zh": "伞是谁的？",
+          "py": "sǎn shì shéi de ?",
+          "en": "Whose umbrella?",
+          "speaker": "a"
+        },
+        {
+          "zh": "我的，这次不用重新找一个下午。",
+          "py": "wǒ de , zhè cì bù yòng chóng xīn zhǎo yī gè xià wǔ .",
+          "en": "Mine. We needn’t spend another afternoon finding it this time.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What claim is corrected?",
+          "choices": [
+            "Always in the bag becomes there when inserted",
+            "Nobody inserted pages",
+            "The bag never existed"
+          ],
+          "answer": "Always in the bag becomes there when inserted"
+        },
+        {
+          "type": "inference",
+          "q": "What does the new statement add?",
+          "choices": [
+            "Who holds the bag and until when",
+            "A guarantee of every future day",
+            "Proof of all unknown earlier movements"
+          ],
+          "answer": "Who holds the bag and until when"
+        }
+      ]
+    },
+    {
+      "id": "s6-u07-word-notebook",
+      "title": "The bag has another route: words in context",
+      "titleZh": "把一个上午讲清楚 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "他把个人的袋子当成交换活动的物品了。",
+          "py": "tā bǎ gè rén de dài zi dàng chéng jiāo huàn huó dòng de wù pǐn le .",
+          "en": "He took a personal bag for an exchange-event item."
+        },
+        {
+          "zh": "别把暂时没回复当成最后拒绝。",
+          "py": "bié bǎ zàn shí méi huí fù dàng chéng zuì hòu jù jué .",
+          "en": "Don’t treat a temporary lack of reply as a final refusal."
+        },
+        {
+          "zh": "当天我先还袋子，后来陈宇才放进稿子。",
+          "py": "dàng tiān wǒ xiān huán dài zi , hòu lái chén yǔ cái fàng jìn gǎo zi .",
+          "en": "That day I returned the bag before Chen Yu put pages into it."
+        },
+        {
+          "zh": "当天的安排临时改了。",
+          "py": "dàng tiān de ān pái lín shí gǎi le .",
+          "en": "The plan changed at short notice that day."
+        },
+        {
+          "zh": "袋子在二楼仓库，不在活动桌上。",
+          "py": "dài zi zài èr lóu cāng kù , bù zài huó dòng zhuō shàng .",
+          "en": "The bag is in the upstairs storeroom, not on the event table."
+        },
+        {
+          "zh": "她去仓库找多余的椅子。",
+          "py": "tā qù cāng kù zhǎo duō yú de yǐ zi .",
+          "en": "She went to the storeroom for extra chairs."
+        },
+        {
+          "zh": "有人说找地下室，可我们没有把东西搬到那里。",
+          "py": "yǒu rén shuō zhǎo dì xià shì , kě wǒ men méi yǒu bǎ dōng xi bān dào nà lǐ .",
+          "en": "Someone suggested the basement, but we hadn’t moved items there."
+        },
+        {
+          "zh": "地下室里放着旧桌子。",
+          "py": "dì xià shì lǐ fàng zhe jiù zhuō zi .",
+          "en": "Old tables are kept in the basement."
+        },
+        {
+          "zh": "我在楼道里看到一张掉出来的纸。",
+          "py": "wǒ zài lóu dào lǐ kàn dào yī zhāng diào chū lái de zhǐ .",
+          "en": "I saw a loose sheet in the corridor."
+        },
+        {
+          "zh": "请别在楼道里放太多东西。",
+          "py": "qǐng bié zài lóu dào lǐ fàng tài duō dōng xi .",
+          "en": "Please don’t leave too much in the corridor."
+        },
+        {
+          "zh": "这座楼房有两层，活动在一楼。",
+          "py": "zhè zuò lóu fáng yǒu liǎng céng , huó dòng zài yī lóu .",
+          "en": "This two-storey building hosts the event downstairs."
+        },
+        {
+          "zh": "新楼房旁边有一条小路。",
+          "py": "xīn lóu fáng páng biān yǒu yī tiáo xiǎo lù .",
+          "en": "There is a small path beside the new building."
+        },
+        {
+          "zh": "个人物品和可交换的书要分开放。",
+          "py": "gè rén wù pǐn hé kě jiāo huàn de shū yào fēn kāi fàng .",
+          "en": "Keep personal belongings separate from exchangeable books."
+        },
+        {
+          "zh": "他把物品列成一张表。",
+          "py": "tā bǎ wù pǐn liè chéng yī zhāng biǎo .",
+          "en": "He made a list of the items."
+        },
+        {
+          "zh": "领书在大厅，不能到私人物品里随便领取。",
+          "py": "lǐng shū zài dà tīng , bù néng dào sī rén wù pǐn lǐ suí biàn lǐng qǔ .",
+          "en": "Collect books in the hall, not from private belongings."
+        },
+        {
+          "zh": "她去门口领取资料。",
+          "py": "tā qù mén kǒu lǐng qǔ zī liào .",
+          "en": "She went to collect materials at the door."
+        },
+        {
+          "zh": "袋子被拿走了，不说明一定离开了楼房。",
+          "py": "dài zi bèi ná zǒu le , bù shuō míng yí dìng lí kāi le lóu fáng .",
+          "en": "The bag was taken away, not necessarily out of the building."
+        },
+        {
+          "zh": "请别把那张还没改完的纸拿走。",
+          "py": "qǐng bié bǎ nà zhāng hái méi gǎi wán de zhǐ ná zǒu .",
+          "en": "Please don’t take away the unfinished page."
+        },
+        {
+          "zh": "二楼储存的是活动用的桌椅。",
+          "py": "èr lóu chǔ cún de shì huó dòng yòng de zhuō yǐ .",
+          "en": "The upper floor stores tables and chairs for events."
+        },
+        {
+          "zh": "他把资料储存在自己的电脑里。",
+          "py": "tā bǎ zī liào chǔ cún zài zì jǐ de diàn nǎo lǐ .",
+          "en": "He stores the materials on his own computer."
+        },
+        {
+          "zh": "看管个人袋子不是志愿者已经答应的工作。",
+          "py": "kān guǎn gè rén dài zi bù shì zhì yuàn zhě yǐ jīng dā yìng de gōng zuò .",
+          "en": "Watching personal bags isn’t a duty the volunteer has agreed to."
+        },
+        {
+          "zh": "她帮同事看管设备。",
+          "py": "tā bāng tóng shì kān guǎn shè bèi .",
+          "en": "She watches the equipment for a colleague."
+        },
+        {
+          "zh": "我想收藏稿子，不是把它放进交换的书里。",
+          "py": "wǒ xiǎng shōu cáng gǎo zi , bù shì bǎ tā fàng jìn jiāo huàn de shū lǐ .",
+          "en": "I want to keep the pages, not place them among books for exchange."
+        },
+        {
+          "zh": "她收藏了几张老节目单。",
+          "py": "tā shōu cáng le jǐ zhāng lǎo jié mù dān .",
+          "en": "She kept a few old programmes in her collection."
+        },
+        {
+          "zh": "场馆管理员知道仓库在哪，但没看见每个袋子。",
+          "py": "chǎng guǎn guǎn lǐ yuán zhī dào cāng kù zài nǎ , dàn méi kàn jiàn měi gè dài zi .",
+          "en": "The venue manager knows the storeroom, not every bag’s movements."
+        },
+        {
+          "zh": "这个场馆周日才开放。",
+          "py": "zhè gè chǎng guǎn zhōu rì cái kāi fàng .",
+          "en": "This venue only opens on Sunday."
+        },
+        {
+          "zh": "场地太满，我们把不用的东西先移开。",
+          "py": "chǎng dì tài mǎn , wǒ men bǎ bù yòng de dōng xi xiān yí kāi .",
+          "en": "The venue is crowded, so we move unneeded things aside."
+        },
+        {
+          "zh": "这次演奏换了场地。",
+          "py": "zhè cì yǎn zòu huàn le chǎng dì .",
+          "en": "This performance has changed location."
+        },
+        {
+          "zh": "前来换书的人越来越多，门口需要留空。",
+          "py": "qián lái huàn shū de rén yuè lái yuè duō , mén kǒu xū yào liú kōng .",
+          "en": "More people came to exchange books, so the entrance needed clearing."
+        },
+        {
+          "zh": "她前来确认活动时间。",
+          "py": "tā qián lái què rèn huó dòng shí jiān .",
+          "en": "She came to confirm the event time."
+        },
+        {
+          "zh": "我只是路过楼道，不知道谁拿着袋子上楼。",
+          "py": "wǒ zhǐ shì lù guò lóu dào , bù zhī dào shéi ná zhe dài zi shàng lóu .",
+          "en": "I only passed the corridor and don’t know who carried the bag upstairs."
+        },
+        {
+          "zh": "他路过门口时听见音乐。",
+          "py": "tā lù guò mén kǒu shí tīng jiàn yīn yuè .",
+          "en": "He heard music while passing the entrance."
+        },
+        {
+          "zh": "沿着楼道走到尽头，就是仓库。",
+          "py": "yán zhe lóu dào zǒu dào jìn tóu , jiù shì cāng kù .",
+          "en": "Follow the corridor to its end for the storeroom."
+        },
+        {
+          "zh": "他们沿着河边走。",
+          "py": "tā men yán zhe hé biān zǒu .",
+          "en": "They walk along the river."
+        },
+        {
+          "zh": "门的两侧都有箱子，我把袋子放到右边。",
+          "py": "mén de liǎng cè dōu yǒu xiāng zi , wǒ bǎ dài zi fàng dào yòu biān .",
+          "en": "Boxes stand on both sides of the door; I put the bag on the right."
+        },
+        {
+          "zh": "通道两侧放着椅子。",
+          "py": "tōng dào liǎng cè fàng zhe yǐ zi .",
+          "en": "Chairs stand on both sides of the passage."
+        },
+        {
+          "zh": "前方正在搬桌子，我们先等一下。",
+          "py": "qián fāng zhèng zài bān zhuō zi , wǒ men xiān děng yī xià .",
+          "en": "They are moving a table ahead, so we wait."
+        },
+        {
+          "zh": "前方那栋楼就是我们要去的。",
+          "py": "qián fāng nà dòng lóu jiù shì wǒ men yào qù de .",
+          "en": "The building ahead is our destination."
+        },
+        {
+          "zh": "纸条写此处放个人物品，后来位置变了。",
+          "py": "zhǐ tiáo xiě cǐ chù fàng gè rén wù pǐn , hòu lái wèi zhì biàn le .",
+          "en": "The note says personal items go here; the location later changes."
+        },
+        {
+          "zh": "此处暂时不能进入。",
+          "py": "cǐ chù zàn shí bù néng jìn rù .",
+          "en": "This area is temporarily closed to entry."
+        },
+        {
+          "zh": "此前我只知道袋子还回来了。",
+          "py": "cǐ qián wǒ zhǐ zhī dào dài zi huán huí lái le .",
+          "en": "Before this I only knew the bag had been returned."
+        },
+        {
+          "zh": "此前活动一直在小厅。",
+          "py": "cǐ qián huó dòng yì zhí zài xiǎo tīng .",
+          "en": "Previously the event was always in the small hall."
+        },
+        {
+          "zh": "事后我们一起补清了每一步。",
+          "py": "shì hòu wǒ men yì qǐ bǔ qīng le měi yī bù .",
+          "en": "Afterwards we reconstructed each step together."
+        },
+        {
+          "zh": "他事后才听说时间改了。",
+          "py": "tā shì hòu cái tīng shuō shí jiān gǎi le .",
+          "en": "Only afterwards did he hear that the time had changed."
+        },
+        {
+          "zh": "我把袋子的颜色当作位置的证明，记错了。",
+          "py": "wǒ bǎ dài zi de yán sè dàng zuò wèi zhì de zhèng míng , jì cuò le .",
+          "en": "I wrongly treated the bag’s colour as proof of its location."
+        },
+        {
+          "zh": "他把这次尝试当作练习。",
+          "py": "tā bǎ zhè cì cháng shì dàng zuò liàn xí .",
+          "en": "He treats this attempt as practice."
+        },
+        {
+          "zh": "她恰好看见我放纸，知道袋子那时还在。",
+          "py": "tā qià hǎo kàn jiàn wǒ fàng zhǐ , zhī dào dài zi nà shí hái zài .",
+          "en": "She happened to see me insert the pages and knew the bag was there then."
+        },
+        {
+          "zh": "今天恰好没有别的安排。",
+          "py": "jīn tiān qià hǎo méi yǒu bié de ān pái .",
+          "en": "Today happens to have no other plans."
+        },
+        {
+          "zh": "我特地带来原稿，想请大家排练。",
+          "py": "wǒ tè dì dài lái yuán gǎo , xiǎng qǐng dà jiā pái liàn .",
+          "en": "I specially brought the original pages for rehearsal."
+        },
+        {
+          "zh": "她特地来听最后一场。",
+          "py": "tā tè dì lái tīng zuì hòu yī chǎng .",
+          "en": "She came specially for the final performance."
+        },
+        {
+          "zh": "抱歉，我以为这个也是活动的东西。",
+          "py": "bào qiàn , wǒ yǐ wéi zhè gè yě shì huó dòng de dōng xi .",
+          "en": "Sorry, I thought this belonged to the event too."
+        },
+        {
+          "zh": "现在不便通话，抱歉。",
+          "py": "xiàn zài bù biàn tōng huà , bào qiàn .",
+          "en": "Sorry, a call is inconvenient now."
+        },
+        {
+          "zh": "我为没有问就搬走道歉。",
+          "py": "wǒ wèi méi yǒu wèn jiù bān zǒu dào qiàn .",
+          "en": "I apologise for moving it without asking."
+        },
+        {
+          "zh": "她先道歉，再说明自己的安排。",
+          "py": "tā xiān dào qiàn , zài shuō míng zì jǐ de ān pái .",
+          "en": "She apologised first, then explained her arrangement."
+        },
+        {
+          "zh": "我们向在找袋子的人通报已经找到。",
+          "py": "wǒ men xiàng zài zhǎo dài zi de rén tōng bào yǐ jīng zhǎo dào .",
+          "en": "We told the people searching that the bag was found."
+        },
+        {
+          "zh": "负责人通报了新的地点。",
+          "py": "fù zé rén tōng bào le xīn de dì diǎn .",
+          "en": "The organiser announced the new location."
+        },
+        {
+          "zh": "仓库里传出搬椅子的声音。",
+          "py": "cāng kù lǐ chuán chū bān yǐ zi de shēng yīn .",
+          "en": "The sound of moving chairs came from the storeroom."
+        },
+        {
+          "zh": "这个消息从小组里传出去了。",
+          "py": "zhè gè xiāo xī cóng xiǎo zǔ lǐ chuán chū qù le .",
+          "en": "This news spread outside the group."
+        },
+        {
+          "zh": "志愿者回应说袋子是他搬上去的。",
+          "py": "zhì yuàn zhě huí yìng shuō dài zi shì tā bān shàng qù de .",
+          "en": "The volunteer responded that he had moved the bag upstairs."
+        },
+        {
+          "zh": "她回应了关于时间的问题。",
+          "py": "tā huí yìng le guān yú shí jiān de wèn tí .",
+          "en": "She answered the timing question."
+        },
+        {
+          "zh": "先把经过问清，不急着追究谁故意做了什么。",
+          "py": "xiān bǎ jīng guò wèn qīng , bù jí zhe zhuī jiū shéi gù yì zuò le shén me .",
+          "en": "Clarify the events before pursuing claims of deliberate acts."
+        },
+        {
+          "zh": "他们还在追究记录出错的原因。",
+          "py": "tā men hái zài zhuī jiū jì lù chū cuò de yuán yīn .",
+          "en": "They are still investigating the cause of the recording error."
+        },
+        {
+          "zh": "这个误会涉及放的位置和搬的人，不只涉及颜色。",
+          "py": "zhè gè wù huì shè jí fàng de wèi zhì hé bān de rén , bù zhǐ shè jí yán sè .",
+          "en": "The confusion concerns placement and the mover, not only colour."
+        },
+        {
+          "zh": "讨论涉及三个不同的安排。",
+          "py": "tǎo lùn shè jí sān gè bù tóng de ān pái .",
+          "en": "The discussion concerns three different arrangements."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "原稿",
+          "pinyin": "yuán gǎo",
+          "meaning": "original manuscript"
+        },
+        {
+          "hanzi": "志愿者",
+          "pinyin": "zhì yuàn zhě",
+          "meaning": "volunteer"
+        },
+        {
+          "hanzi": "暂",
+          "pinyin": "zàn",
+          "meaning": "temporary"
+        },
+        {
+          "hanzi": "暂时",
+          "pinyin": "zàn shí",
+          "meaning": "temporarily"
+        },
+        {
+          "hanzi": "领",
+          "pinyin": "lǐng",
+          "meaning": "receive; collect"
+        },
+        {
+          "hanzi": "空",
+          "pinyin": "kōng",
+          "meaning": "empty"
+        },
+        {
+          "hanzi": "管理员",
+          "pinyin": "guǎn lǐ yuán",
+          "meaning": "venue manager"
+        },
+        {
+          "hanzi": "藏",
+          "pinyin": "cáng",
+          "meaning": "keep; hide"
+        },
+        {
+          "hanzi": "侧",
+          "pinyin": "cè",
+          "meaning": "side; turn sideways"
+        },
+        {
+          "hanzi": "设备",
+          "pinyin": "shè bèi",
+          "meaning": "equipment"
+        },
+        {
+          "hanzi": "稿子",
+          "pinyin": "gǎo zi",
+          "meaning": "draft; script"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u07-paired-reading",
+      "title": "The friend who put in the pages",
+      "titleZh": "The friend who put in the pages",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我特地带五页新稿子来换书活动，想结束以后请大家排一次。到门口看见自己的蓝袋子，我很自然地把纸放进去，觉得比一直拿在手里方便。门边箱子很多，我知道有人在搬，却没有问蓝袋子会不会也被移走。放好以后我去帮忙搬桌子，回头准备排练时才发现原来的地方空了。那一刻我想起袋子昨晚借给林安，先问她还了没有。",
+          "py": "wǒ tè dì dài wǔ yè xīn gǎo zi lái huàn shū huó dòng , xiǎng jié shù yǐ hòu qǐng dà jiā pái yī cì . dào mén kǒu kàn jiàn zì jǐ de lán dài zi , wǒ hěn zì rán de bǎ zhǐ fàng jìn qù , jué de bǐ yì zhí ná zài shǒu lǐ fāng biàn . mén biān xiāng zi hěn duō , wǒ zhī dào yǒu rén zài bān , què méi yǒu wèn lán dài zi huì bù huì yě bèi yí zǒu . fàng hǎo yǐ hòu wǒ qù bāng máng bān zhuō zi , huí tóu zhǔn bèi pái liàn shí cái fā xiàn yuán lái de dì fāng kōng le . nà yī kè wǒ xiǎng qǐ dài zi zuó wǎn jiè gěi lín ān , xiān wèn tā huán le méi yǒu .",
+          "en": "I brought five pages for later rehearsal, found my returned bag and put them in without asking about relocation. After table moving I found the space empty and first asked the borrower about returning it."
+        },
+        {
+          "zh": "林安说早上把空袋子放到门右边。我听见空就急了，问怎么会空，我明明放进去五张。她让我先听完，说空是早上还的时候，那时我还没到。我这才想起自己来了以后打开过袋子，里面确实没有书，正好放稿子。她问放完以后呢，我说去搬桌子了。桌子太重，刚才两个人抬了半天，等我再回来，原来的位置只剩两只空箱子。",
+          "py": "lín ān shuō zǎo shàng bǎ kōng dài zi fàng dào mén yòu biān . wǒ tīng jiàn kōng jiù jí le , wèn zěn me huì kōng , wǒ míng míng fàng jìn qù wǔ zhāng . tā ràng wǒ xiān tīng wán , shuō kōng shì zǎo shàng huán de shí hou , nà shí wǒ hái méi dào . wǒ zhè cái xiǎng qǐ zì jǐ lái le yǐ hòu dǎ kāi guò dài zi , lǐ miàn què shí méi yǒu shū , zhèng hǎo fàng gǎo zi . tā wèn fàng wán yǐ hòu ne , wǒ shuō qù bān zhuō zi le . zhuō zi tài zhòng , gāng cái liǎng gè rén tái le bàn tiān , děng wǒ zài huí lái , yuán lái de wèi zhì zhǐ shèng liǎng zhǐ kōng xiāng zi .",
+          "en": "Lin An said she'd left the empty bag to the right of the entrance. Empty? I'd put five pages in it! Let her finish, she said: it had been empty when she returned it, before I'd arrived. Then I remembered opening it myself and finding no books, leaving room for my manuscript. What had I done afterwards? Moved tables. The table was heavy and had taken two of us a while; by the time I returned, only two empty boxes remained at the spot."
+        },
+        {
+          "zh": "有人说东西都搬到地下室了，我已经转身往楼梯走。林安叫住我，让我先问有没有见到蓝袋子。那个人想了一下，说只是记得上次活动放在那里，今天没有看见。我只好折回来，去问门口的志愿者。他正忙着搬书，让我等一下。我站到旁边，往楼道里看，一张纸躺在地上。林安走过去捡起来，我一看页码，正好是刚才还在找的第四页。",
+          "py": "yǒu rén shuō dōng xi dōu bān dào dì xià shì le , wǒ yǐ jīng zhuǎn shēn wǎng lóu tī zǒu . lín ān jiào zhù wǒ , ràng wǒ xiān wèn yǒu méi yǒu jiàn dào lán dài zi . nà gè rén xiǎng le yī xià , shuō zhǐ shì jì de shàng cì huó dòng fàng zài nà lǐ , jīn tiān méi yǒu kàn jiàn . wǒ zhǐ hǎo zhé huí lái , qù wèn mén kǒu de zhì yuàn zhě . tā zhèng máng zhe bān shū , ràng wǒ děng yī xià . wǒ zhàn dào páng biān , wǎng lóu dào lǐ kàn , yī zhāng zhǐ tǎng zài dì shang . lín ān zǒu guò qù jiǎn qǐ lái , wǒ yī kàn yè mǎ , zhèng hǎo shì gāng cái hái zài zhǎo de dì sì yè .",
+          "en": "Someone said things had gone to the basement, and I was already heading for the stairs when Lin An called me back to ask whether they'd seen the bag. No; they only remembered the previous event. I returned to the entrance volunteer, who was busy moving books and asked me to wait. Looking down the corridor, I spotted a sheet on the floor. Lin An picked it up. Its number was four—the page I'd been looking for."
+        },
+        {
+          "zh": "我拿着第四页，说稿子不是一直在袋里吗。林安问后来也看着吗，我摇头，改口说放进去时还在，后来我去搬桌子了。她指着门边，让我想想袋口有没有拉好。我记得拿纸时两只手都忙，就那么放了进去，接着有人叫我搬桌子。看着手里折过的纸，我越来越想快点找到另外四张。志愿者这时走过来，问是不是在找那个蓝袋子，我赶紧说对。",
+          "py": "wǒ ná zhe dì sì yè , shuō gǎo zi bù shì yì zhí zài dài lǐ ma . lín ān wèn hòu lái yě kàn zhe ma , wǒ yáo tóu , gǎi kǒu shuō fàng jìn qù shí hái zài , hòu lái wǒ qù bān zhuō zi le . tā zhǐ zhe mén biān , ràng wǒ xiǎng xiǎng dài kǒu yǒu méi yǒu lā hǎo . wǒ jì de ná zhǐ shí liǎng zhǐ shǒu dōu máng , jiù nà me fàng le jìn qù , jiē zhe yǒu rén jiào wǒ bān zhuō zi . kàn zhuó shǒu lǐ zhé guò de zhǐ , wǒ yuè lái yuè xiǎng kuài diǎn zhǎo dào lìng wài sì zhāng . zhì yuàn zhě zhè shí zǒu guò lái , wèn shì bú shì zài zhǎo nà gè lán dài zi , wǒ gǎn jǐn shuō duì .",
+          "en": "Holding page four, I asked whether the pages hadn't been in the bag the whole time. Had I watched afterwards? No—I corrected myself: they'd been there when I put them in, then I'd moved tables. Lin An asked if I'd closed the bag. Both hands had been busy with the sheets, and someone had called me away. Looking at the folded paper, I wanted to find the other four quickly. Then the volunteer came over: were we looking for the blue bag? Yes, I said at once."
+        },
+        {
+          "zh": "志愿者说搬到二楼时，我终于松口气。他以为袋子也是活动物品，和两只纸箱一起搬走，好让入口空出来。他说纸露在袋口，我想起自己放完以后没有拉好，就请他带我们上去。楼梯那边已经堆了几箱书，我们侧着身走过，找到最里面的蓝袋子。我先打开看，林安拿着楼道捡到的那张纸站在旁边，等我把页码排好。",
+          "py": "zhì yuàn zhě shuō bān dào èr lóu shí , wǒ zhōng yú sōng kǒu qì . tā yǐ wéi dài zi yě shì huó dòng wù pǐn , hé liǎng zhǐ zhǐ xiāng yì qǐ bān zǒu , hǎo ràng rù kǒu kōng chū lái . tā shuō zhǐ lù zài dài kǒu , wǒ xiǎng qǐ zì jǐ fàng wán yǐ hòu méi yǒu lā hǎo , jiù qǐng tā dài wǒ men shàng qù . lóu tī nà biān yǐ jīng duī le jǐ xiāng shū , wǒ men cè zhe shēn zǒu guò , zhǎo dào zuì lǐ miàn de lán dài zi . wǒ xiān dǎ kāi kàn , lín ān ná zhe lóu dào jiǎn dào de nà zhāng zhǐ zhàn zài páng biān , děng wǒ bǎ yè mǎ pái hǎo .",
+          "en": "The volunteer said he'd moved it upstairs with two boxes to clear the entrance. Paper had stuck out; I remembered not closing the bag. We followed him past boxes of books on the stairs to the blue bag at the back. I opened it while Lin An held the page found in the corridor, waiting for me to order the pages."
+        },
+        {
+          "zh": "袋子里只有四张，我又紧张起来，把一到三放在一起，再找到第五页。林安递来楼道那张，正好是四，新的那一段总算连上了。纸上多了一道折痕，我把它放在桌边慢慢压平，还是有点心疼原稿。志愿者问还能不能读，我说能，都找齐了，先拿去排练吧，晚上回家再把这张夹进书里。",
+          "py": "dài zi lǐ zhǐ yǒu sì zhāng , wǒ yòu jǐn zhāng qǐ lái , bǎ yī dào sān fàng zài yì qǐ , zài zhǎo dào dì wǔ yè . lín ān dì lái lóu dào nà zhāng , zhèng hǎo shì sì , xīn de nà yī duàn zǒng suàn lián shàng le . zhǐ shàng duō le yī dào zhé hén , wǒ bǎ tā fàng zài zhuō biān màn màn yā píng , hái shi yǒu diǎn xīn téng yuán gǎo . zhì yuàn zhě wèn hái néng bù néng dú , wǒ shuō néng , dōu zhǎo qí le , xiān ná qù pái liàn ba , wǎn shang huí jiā zài bǎ zhè zhāng jiā jìn shū lǐ .",
+          "en": "There were only four pages in the bag. I found one to three and five, then Lin An handed me four from the corridor; the new section was complete. I pressed a fresh crease flat against the table, still disappointed about the original. Was it readable? Yes, everything was there. We'd rehearse now, and I'd press it inside a book at home later."
+        },
+        {
+          "zh": "我们跟志愿者一起把个人东西挪到另一张桌子，林安贴了说明。我把蓝袋子提起来给他看，问下次能不能先留在这边。他说可以，不过结束以后记得拿走，晚上还要收桌子。林安笑着说这回看见了，已经不在门边了。我让她先拿袋子，自己把稿子收成一叠。管理员在旁边叫我们再腾出一点地方，刚收好的椅子还要搬过来，我们又往里站了一点。",
+          "py": "wǒ men gēn zhì yuàn zhě yì qǐ bǎ gè rén dōng xi nuó dào lìng yī zhāng zhuō zi , lín ān tiē le shuō míng . wǒ bǎ lán dài zi tí qǐ lái gěi tā kàn , wèn xià cì néng bù néng xiān liú zài zhè biān . tā shuō kě yǐ , bù guò jié shù yǐ hòu jì de ná zǒu , wǎn shang hái yào shōu zhuō zi . lín ān xiào zhe shuō zhè huí kàn jiàn le , yǐ jīng bù zài mén biān le . wǒ ràng tā xiān ná dài zi , zì jǐ bǎ gǎo zi shōu chéng yī dié . guǎn lǐ yuán zài páng biān jiào wǒ men zài téng chū yī diǎn dì fāng , gāng shōu hǎo de yǐ zi hái yào bān guò lái , wǒ men yòu wǎng lǐ zhàn le yī diǎn .",
+          "en": "We moved the personal belongings to another table and Lin An labelled it. I asked the volunteer if the blue bag could stay there next time. Yes, but take it home afterwards; the tables would be cleared at night. Lin An laughed: she'd seen this move, and it was no longer by the door. She held the bag while I gathered the manuscript into a stack. The manager needed room for the chairs he'd just put away, so we moved further inside."
+        },
+        {
+          "zh": "排练前林安说这次袋子我拿，桌子你搬，大家都笑了。我说好，不过伞还是你自己拿。她看了一眼靠门的伞，说伞没动过，你先把桌子搬好。我把桌子推到灯旁，稿子放在上面，等大家坐下才拿起来读。排练结束以后，我把五页都收进自己的背包，林安把空蓝袋子还给我。我拉上两只包的口，她在旁边看着，笑说现在终于能走了吧。",
+          "py": "pái liàn qián lín ān shuō zhè cì dài zi wǒ ná , zhuō zi nǐ bān , dà jiā dōu xiào le . wǒ shuō hǎo , bù guò sǎn hái shi nǐ zì jǐ ná . tā kàn le yī yǎn kào mén de sǎn , shuō sǎn méi dòng guò , nǐ xiān bǎ zhuō zi bān hǎo . wǒ bǎ zhuō zi tuī dào dēng páng , gǎo zi fàng zài shàng miàn , děng dà jiā zuò xià cái ná qǐ lái dú . pái liàn jié shù yǐ hòu , wǒ bǎ wǔ yè dōu shōu jìn zì jǐ de bēi bāo , lín ān bǎ kōng lán dài zi huán gěi wǒ . wǒ lā shàng liǎng zhǐ bāo de kǒu , tā zài páng biān kàn zhe , xiào shuō xiàn zài zhōng yú néng zǒu le ba .",
+          "en": "Before rehearsal Lin An said she'd hold the bag and I'd move the table. Everyone laughed. Fine, but she was carrying her own umbrella. It hadn't moved, she said; get the table into place first. I pushed it beside the lamp, put the manuscript on it and picked it up to read once everyone sat down. Afterwards I put all five pages in my backpack, and Lin An handed me the empty blue bag. As I closed both bags, she laughed: could we finally leave?"
+        },
+        {
+          "zh": "晚饭时有人问，是不是有人拿走了我们的资料。我说是志愿者把袋子和箱子搬到楼上，不是带出楼房。他问怎么还有一张在楼道，我把第四页拿给他看，说可能上楼时从没拉好的袋口掉出来了，具体哪一下没看见。林安在旁边补充，她捡到时就在楼道地上。朋友摸了摸那道折痕，说还好没踩上。我说字都能看清，刚才已经拿它排完了，今晚回家再压一压。",
+          "py": "wǎn fàn shí yǒu rén wèn , shì bú shì yǒu rén ná zǒu le wǒ men de zī liào . wǒ shuō shì zhì yuàn zhě bǎ dài zi hé xiāng zi bān dào lóu shàng , bù shì dài chū lóu fáng . tā wèn zěn me hái yǒu yī zhāng zài lóu dào , wǒ bǎ dì sì yè ná gěi tā kàn , shuō kě néng shàng lóu shí cóng méi lā hǎo de dài kǒu diào chū lái le , jù tǐ nǎ yī xià méi kàn jiàn . lín ān zài páng biān bǔ chōng , tā jiǎn dào shí jiù zài lóu dào dì shang . péng you mō le mō nà dào zhé hén , shuō hái hǎo méi cǎi shàng . wǒ shuō zì dōu néng kàn qīng , gāng cái yǐ jīng ná tā pái wán le , jīn wǎn huí jiā zài yā yī yā .",
+          "en": "At dinner someone asked if our materials had been taken away. The volunteer had moved the bag and boxes upstairs, I said, not out of the building. What about the sheet in the corridor? I showed page four; it might have fallen from the unclosed bag on the way up, though I hadn't seen the moment. Lin An said she'd found it on the corridor floor. Our friend touched the crease: lucky nobody stepped on it. The words were clear and we'd rehearsed with it; I'd press it flat at home."
+        },
+        {
+          "zh": "回家后我把第四页夹进一本厚书，其他四张放在桌上，准备明天一起交给演出的人。林安发消息问还心疼吗，我说一点点，毕竟是自己改了好多遍的原稿。她说下次带副本吧，我拿出手机把五页都拍下来，第二天打印一份，改把副本交给演出的人。原来的收在家里，活动带新印的。蓝袋子倒还可以借，她一问我就说行，不过这次还回来记得告诉我放哪儿，别让我再问一上午。",
+          "py": "huí jiā hòu wǒ bǎ dì sì yè jiā jìn yī běn hòu shū , qí tā sì zhāng fàng zài zhuō shàng , zhǔn bèi míng tiān yì qǐ jiāo gěi yǎn chū de rén . lín ān fā xiāo xī wèn hái xīn téng ma , wǒ shuō yì diǎn diǎn , bì jìng shì zì jǐ gǎi le hǎo duō biàn de yuán gǎo . tā shuō xià cì dài fù běn ba , wǒ ná chū shǒu jī bǎ wǔ yè dōu pāi xià lái , dì èr tiān dǎ yìn yī fèn , gǎi bǎ fù běn jiāo gěi yǎn chū de rén . yuán lái de shōu zài jiā lǐ , huó dòng dài xīn yìn de . lán dài zi dào hái kě yǐ jiè , tā yī wèn wǒ jiù shuō xíng , bù guò zhè cì huán huí lái jì de gào sù wǒ fàng nǎr , bié ràng wǒ zài wèn yī shàng wǔ .",
+          "en": "At home I pressed page four inside a thick book, leaving the other sheets on the desk to hand to the performers tomorrow. Lin An asked if I was still upset. A little: I'd revised that original so many times. Bring copies next time, she said. I photographed all five and printed a set the next day to give the performers instead. I'd keep the originals at home and take the fresh copies to events. She could still borrow the blue bag—just tell me where she'd returned it, so I didn't spend another morning asking."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "副本",
+          "pinyin": "fù běn",
+          "meaning": "copy of a document"
+        },
+        {
+          "hanzi": "折痕",
+          "pinyin": "zhé hén",
+          "meaning": "crease"
+        },
+        {
+          "hanzi": "页码",
+          "pinyin": "yè mǎ",
+          "meaning": "page number"
+        },
+        {
+          "hanzi": "副",
+          "pinyin": "fù",
+          "meaning": "copy; auxiliary"
+        },
+        {
+          "hanzi": "原稿",
+          "pinyin": "yuán gǎo",
+          "meaning": "original manuscript"
+        },
+        {
+          "hanzi": "志愿者",
+          "pinyin": "zhì yuàn zhě",
+          "meaning": "volunteer"
+        },
+        {
+          "hanzi": "纸箱",
+          "pinyin": "zhǐ xiāng",
+          "meaning": "cardboard box"
+        },
+        {
+          "hanzi": "袋口",
+          "pinyin": "dài kǒu",
+          "meaning": "opening of a bag"
+        },
+        {
+          "hanzi": "露",
+          "pinyin": "lù",
+          "meaning": "be exposed; show"
+        },
+        {
+          "hanzi": "拉好",
+          "pinyin": "lā hǎo",
+          "meaning": "close or fasten properly"
+        },
+        {
+          "hanzi": "背包",
+          "pinyin": "bēi bāo",
+          "meaning": "backpack"
+        },
+        {
+          "hanzi": "领",
+          "pinyin": "lǐng",
+          "meaning": "receive; collect"
+        },
+        {
+          "hanzi": "空",
+          "pinyin": "kōng",
+          "meaning": "empty"
+        },
+        {
+          "hanzi": "痕",
+          "pinyin": "hén",
+          "meaning": "mark; trace"
+        },
+        {
+          "hanzi": "管理员",
+          "pinyin": "guǎn lǐ yuán",
+          "meaning": "venue manager"
+        },
+        {
+          "hanzi": "藏",
+          "pinyin": "cáng",
+          "meaning": "keep; hide"
+        },
+        {
+          "hanzi": "全丢",
+          "pinyin": "quán diū",
+          "meaning": "lose everything"
+        },
+        {
+          "hanzi": "折",
+          "pinyin": "zhé",
+          "meaning": "fold; crease"
+        },
+        {
+          "hanzi": "侧",
+          "pinyin": "cè",
+          "meaning": "side; turn sideways"
+        },
+        {
+          "hanzi": "压平",
+          "pinyin": "yā píng",
+          "meaning": "press flat"
+        },
+        {
+          "hanzi": "心疼",
+          "pinyin": "xīn téng",
+          "meaning": "feel distressed about something valued"
+        },
+        {
+          "hanzi": "楼梯",
+          "pinyin": "lóu tī",
+          "meaning": "stairs"
+        },
+        {
+          "hanzi": "堆",
+          "pinyin": "duī",
+          "meaning": "pile; stack"
+        },
+        {
+          "hanzi": "交还",
+          "pinyin": "jiāo huán",
+          "meaning": "return; hand back"
+        },
+        {
+          "hanzi": "稿子",
+          "pinyin": "gǎo zi",
+          "meaning": "draft; script"
+        },
+        {
+          "hanzi": "腾出",
+          "pinyin": "téng chū",
+          "meaning": "make room; free up"
+        },
+        {
+          "hanzi": "打印",
+          "pinyin": "dǎ yìn",
+          "meaning": "print"
+        },
+        {
+          "hanzi": "叠",
+          "pinyin": "dié",
+          "meaning": "stack; pile"
+        },
+        {
+          "hanzi": "捡",
+          "pinyin": "jiǎn",
+          "meaning": "pick up"
+        },
+        {
+          "hanzi": "压",
+          "pinyin": "yā",
+          "meaning": "press"
+        },
+        {
+          "hanzi": "厚",
+          "pinyin": "hòu",
+          "meaning": "thick"
+        },
+        {
+          "hanzi": "夹",
+          "pinyin": "jiā",
+          "meaning": "put between; hold between"
+        },
+        {
+          "hanzi": "空箱子",
+          "pinyin": "kōng xiāng zi",
+          "meaning": "empty box"
+        },
+        {
+          "hanzi": "摇头",
+          "pinyin": "yáo tóu",
+          "meaning": "shake one's head"
+        },
+        {
+          "hanzi": "摸",
+          "pinyin": "mō",
+          "meaning": "touch; feel with a hand"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What does the other account add?",
+          "choices": [
+            "Insertion time, incomplete observation and a practical later copy",
+            "Proof the borrower watched every later action",
+            "A claim that no crease remained"
+          ],
+          "answer": "Insertion time, incomplete observation and a practical later copy"
+        },
+        {
+          "type": "detail",
+          "q": "What remains different after recovery?",
+          "choices": [
+            "A new crease, though the pages are readable and complete",
+            "All five pages are missing",
+            "The new section has disappeared"
+          ],
+          "answer": "A new crease, though the pages are readable and complete"
+        },
+        {
+          "type": "inference",
+          "q": "Why keep originals at home later?",
+          "choices": [
+            "To protect a valued original from repeated moving without ending trust",
+            "To ban every future bag loan",
+            "To prove the volunteer intended damage"
+          ],
+          "answer": "To protect a valued original from repeated moving without ending trust"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "我【特地】带五页新稿子来换书活动，想结束以后请大家排一次。到门口看见自己的蓝袋子，我很自然地把纸放进去，觉得比一直拿在手里方便。门边箱子很多，我知道有人在搬，却没有问蓝袋子会不会也被移走。放好以后我去帮忙搬桌子，回头准备排练时才发现原来的地方空了。那一刻我想起袋子昨晚借给林安，先问她还了没有。",
+            "py": "wǒ tè dì dài wǔ yè xīn gǎo zi lái huàn shū huó dòng , xiǎng jié shù yǐ hòu qǐng dà jiā pái yī cì . dào mén kǒu kàn jiàn zì jǐ de lán dài zi , wǒ hěn zì rán de bǎ zhǐ fàng jìn qù , jué de bǐ yì zhí ná zài shǒu lǐ fāng biàn . mén biān xiāng zi hěn duō , wǒ zhī dào yǒu rén zài bān , què méi yǒu wèn lán dài zi huì bù huì yě bèi yí zǒu . fàng hǎo yǐ hòu wǒ qù bāng máng bān zhuō zi , huí tóu zhǔn bèi pái liàn shí cái fā xiàn yuán lái de dì fāng kōng le . nà yī kè wǒ xiǎng qǐ dài zi zuó wǎn jiè gěi lín ān , xiān wèn tā huán le méi yǒu .",
+            "en": "I brought five pages for later rehearsal, found my returned bag and put them in without asking about relocation. After table moving I found the space empty and first asked the borrower about returning it."
+          },
+          {
+            "zh": "有人说东西都搬到【地下室】了，我已经转身往楼梯走。林安叫住我，让我先问有没有见到蓝袋子。那个人想了一下，说只是记得上次活动放在那里，今天没有看见。我只好折回来，去问门口的志愿者。他正忙着搬书，让我等一下。我站到旁边，往楼道里看，一张纸躺在地上。林安走过去捡起来，我一看页码，正好是刚才还在找的第四页。",
+            "py": "yǒu rén shuō dōng xi dōu bān dào dì xià shì le , wǒ yǐ jīng zhuǎn shēn wǎng lóu tī zǒu . lín ān jiào zhù wǒ , ràng wǒ xiān wèn yǒu méi yǒu jiàn dào lán dài zi . nà gè rén xiǎng le yī xià , shuō zhǐ shì jì de shàng cì huó dòng fàng zài nà lǐ , jīn tiān méi yǒu kàn jiàn . wǒ zhǐ hǎo zhé huí lái , qù wèn mén kǒu de zhì yuàn zhě . tā zhèng máng zhe bān shū , ràng wǒ děng yī xià . wǒ zhàn dào páng biān , wǎng lóu dào lǐ kàn , yī zhāng zhǐ tǎng zài dì shang . lín ān zǒu guò qù jiǎn qǐ lái , wǒ yī kàn yè mǎ , zhèng hǎo shì gāng cái hái zài zhǎo de dì sì yè .",
+            "en": "Someone said things had gone to the basement, and I was already heading for the stairs when Lin An called me back to ask whether they'd seen the bag. No; they only remembered the previous event. I returned to the entrance volunteer, who was busy moving books and asked me to wait. Looking down the corridor, I spotted a sheet on the floor. Lin An picked it up. Its number was four—the page I'd been looking for."
+          },
+          {
+            "zh": "志愿者说搬到二楼时，我终于松口气。他以为袋子也是活动物品，和两只纸箱一起搬走，好让入口空出来。他说纸露在袋口，我想起自己放完以后没有拉好，就请他带我们上去。楼梯那边已经堆了几箱书，我们侧着身走过，找到最里面的蓝袋子。我先打开看，林安拿着【楼道】捡到的那张纸站在旁边，等我把页码排好。",
+            "py": "zhì yuàn zhě shuō bān dào èr lóu shí , wǒ zhōng yú sōng kǒu qì . tā yǐ wéi dài zi yě shì huó dòng wù pǐn , hé liǎng zhǐ zhǐ xiāng yì qǐ bān zǒu , hǎo ràng rù kǒu kōng chū lái . tā shuō zhǐ lù zài dài kǒu , wǒ xiǎng qǐ zì jǐ fàng wán yǐ hòu méi yǒu lā hǎo , jiù qǐng tā dài wǒ men shàng qù . lóu tī nà biān yǐ jīng duī le jǐ xiāng shū , wǒ men cè zhe shēn zǒu guò , zhǎo dào zuì lǐ miàn de lán dài zi . wǒ xiān dǎ kāi kàn , lín ān ná zhe lóu dào jiǎn dào de nà zhāng zhǐ zhàn zài páng biān , děng wǒ bǎ yè mǎ pái hǎo .",
+            "en": "The volunteer said he'd moved it upstairs with two boxes to clear the entrance. Paper had stuck out; I remembered not closing the bag. We followed him past boxes of books on the stairs to the blue bag at the back. I opened it while Lin An held the page found in the corridor, waiting for me to order the pages."
+          }
+        ],
+        "bank": [
+          "特地",
+          "地下室",
+          "楼道",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u07-c",
+    "title": "The bag has another route",
+    "place": "A community book exchange followed by rehearsal",
+    "context": "Friday bag loan; Saturday empty return at downstairs door; Chen Yu inserts pages1–5 then moves table. Volunteer relocates bag with boxes to upstairs storeroom. Page4 found in corridor; bag contains1,2,3,5. Set recovered with a crease; basement suggestion is based only on prior events.",
+    "goal": "Reconstruct event order from overlapping first-person accounts",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "林安早上放下的是空袋子，说明陈宇后来没放纸吗？",
+        "pinyin": "lín ān zǎo shàng fàng xià de shì kōng dài zi , shuō míng chén yǔ hòu lái méi fàng zhǐ ma ?",
+        "meaning": "Lin An left an empty bag there in the morning. Does that mean Chen Yu never added pages later?",
+        "intent": "Retain the two time references",
+        "examples": [
+          "不说明，说的是不同时间里的袋子。"
+        ],
+        "accept": [
+          "^不说明，说的是不同时间里的袋子。[。！？]?$"
+        ]
+      },
+      {
+        "text": "门口不见了，就一定出了楼房吧？",
+        "pinyin": "mén kǒu bú jiàn le , jiù yí dìng chū le lóu fáng ba ?",
+        "meaning": "Gone from the entrance means it left the building?",
+        "intent": "Avoid an enlarged location claim",
+        "examples": [
+          "不一定，也可能移到楼里别处，先问搬的人。"
+        ],
+        "accept": [
+          "^不一定，也可能移到楼里别处，先问搬的人。[。！？]?$"
+        ]
+      },
+      {
+        "text": "四张加一张等于五，就不用看页码吧？",
+        "pinyin": "sì zhāng jiā yī zhāng děng yú wǔ , jiù bù yòng kàn yè mǎ ba ?",
+        "meaning": "Four plus one is five, so no need for page numbers?",
+        "intent": "Check the distinct set",
+        "examples": [
+          "还要看页码，确认每页都有，不是重复一张。"
+        ],
+        "accept": [
+          "^还要看页码，确认每页都有，不是重复一张。[。！？]?$"
+        ]
+      },
+      {
+        "text": "现在找齐，就能说刚才一直知道在哪吗？",
+        "pinyin": "xiàn zài zhǎo qí , jiù néng shuō gāng cái yì zhí zhī dào zài nǎ ma ?",
+        "meaning": "Now recovered, can we say we always knew where it was?",
+        "intent": "Preserve earlier uncertainty",
+        "examples": [
+          "不能，找齐是后来的结果。"
+        ],
+        "accept": [
+          "^不能，找齐是后来的结果。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Attach the time to the observation",
+      "natural": {
+        "zh": "我放进去时在，后来没有一直看。",
+        "py": "wǒ fàng jìn qù shí zài , hòu lái méi yǒu yì zhí kàn .",
+        "en": "It was there when I inserted it; I wasn’t watching afterwards."
+      },
+      "note": "Do not stretch one moment into a whole period."
+    },
+    {
+      "situation": "Name the account source",
+      "natural": {
+        "zh": "志愿者说他搬到二楼，我没看见上楼那段。",
+        "py": "zhì yuàn zhě shuō tā bān dào èr lóu , wǒ méi kàn jiàn shàng lóu nà duàn .",
+        "en": "The volunteer says he moved it upstairs; I didn’t see that part."
+      },
+      "note": "A reconstructed account retains attribution."
+    },
+    {
+      "situation": "Update the result accurately",
+      "natural": {
+        "zh": "页码都齐了，有一张多了折痕，但还能读。",
+        "py": "yè mǎ dōu qí le , yǒu yī zhāng duō le zhé hén , dàn hái néng dú .",
+        "en": "All page numbers are present; one has a crease but remains legible."
+      },
+      "note": "Complete contents need not mean unchanged condition."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u07-t01",
+      "phrase": "s6-u07-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "周五晚上我借了陈宇的蓝袋子，带几本书回家。周六上午到了换书活动，我先把书拿出来，再把空袋子放在一楼门右边，准备等他来搬东西时交还。门的两侧都堆着箱子，我把袋子往里挪了一点，免得挡住入口。我想发个消息，手里又有人递来一本书，问放哪儿。我转头帮他找桌子，就把消息忘了。等陈宇来了，我也没有再过去指给他看。",
+        "py": "zhōu wǔ wǎn shang wǒ jiè le chén yǔ de lán dài zi , dài jǐ běn shū huí jiā . zhōu liù shàng wǔ dào le huàn shū huó dòng , wǒ xiān bǎ shū ná chū lái , zài bǎ kōng dài zi fàng zài yī lóu mén yòu biān , zhǔn bèi děng tā lái bān dōng xi shí jiāo huán . mén de liǎng cè dōu duī zhe xiāng zi , wǒ bǎ dài zi wǎng lǐ nuó le yī diǎn , miǎn de dǎng zhù rù kǒu . wǒ xiǎng fā gè xiāo xī , shǒu lǐ yòu yǒu rén dì lái yī běn shū , wèn fàng nǎr . wǒ zhuǎn tóu bāng tā zhǎo zhuō zi , jiù bǎ xiāo xī wàng le . děng chén yǔ lái le , wǒ yě méi yǒu zài guò qù zhǐ gěi tā kàn .",
+        "en": "I borrowed Chen Yu's blue bag on Friday to take some books home. At Saturday's book exchange I removed the books and put the empty bag to the right of the downstairs entrance, ready to return it when he arrived. Boxes lined both sides, so I moved it further in to keep the doorway clear. I meant to message him, but someone handed me a book and asked where it went. Helping them find a table, I forgot the message. When Chen Yu arrived, I didn't go back to show him either."
+      },
+      "statement": "The borrower directly sees all later contents.",
+      "answer": false,
+      "why": "They know the empty return, not subsequent insertion."
+    },
+    {
+      "id": "s6-u07-t02",
+      "phrase": "s6-u07-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "陈宇把第四页拿起来，指着最后一行给我看，说这一句昨晚才改。我问是不是他搬桌子时掉的，他摇头，说搬的是桌子，稿子早就放进袋里了。我让他先拿好这张，自己回门口问负责收东西的人。刚走到门边，就听见志愿者说蓝袋子也搬上去了。陈宇跟在后面，一听二楼两个字就跑了过来，问仓库的门现在开着没有。",
+        "py": "chén yǔ bǎ dì sì yè ná qǐ lái , zhǐ zhe zuì hòu yī xíng gěi wǒ kàn , shuō zhè yī jù zuó wǎn cái gǎi . wǒ wèn shì bú shì tā bān zhuō zi shí diào de , tā yáo tóu , shuō bān de shì zhuō zi , gǎo zi zǎo jiù fàng jìn dài lǐ le . wǒ ràng tā xiān ná hǎo zhè zhāng , zì jǐ huí mén kǒu wèn fù zé shōu dōng xi de rén . gāng zǒu dào mén biān , jiù tīng jiàn zhì yuàn zhě shuō lán dài zi yě bān shàng qù le . chén yǔ gēn zài hòu miàn , yī tīng èr lóu liǎng gè zì jiù pǎo le guò lái , wèn cāng kù de mén xiàn zài kāi zhe méi yǒu .",
+        "en": "Chen Yu picked up page four and pointed to its last line, which he'd revised the night before. Had he dropped it while moving tables? No: he'd been carrying a table, with the pages already in the bag. I asked him to keep the sheet while I went back to the entrance. A volunteer said the blue bag had gone upstairs too. Hearing 'second floor,' Chen Yu hurried over to ask whether the storeroom was open."
+      },
+      "statement": "The corridor sheet is page four.",
+      "answer": true,
+      "why": "Chen Yu identifies its page number."
+    },
+    {
+      "id": "s6-u07-t03",
+      "phrase": "s6-u07-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "袋子里只有四张，我又紧张起来，把一到三放在一起，再找到第五页。林安递来楼道那张，正好是四，新的那一段总算连上了。纸上多了一道折痕，我把它放在桌边慢慢压平，还是有点心疼原稿。志愿者问还能不能读，我说能，都找齐了，先拿去排练吧，晚上回家再把这张夹进书里。",
+        "py": "dài zi lǐ zhǐ yǒu sì zhāng , wǒ yòu jǐn zhāng qǐ lái , bǎ yī dào sān fàng zài yì qǐ , zài zhǎo dào dì wǔ yè . lín ān dì lái lóu dào nà zhāng , zhèng hǎo shì sì , xīn de nà yī duàn zǒng suàn lián shàng le . zhǐ shàng duō le yī dào zhé hén , wǒ bǎ tā fàng zài zhuō biān màn màn yā píng , hái shi yǒu diǎn xīn téng yuán gǎo . zhì yuàn zhě wèn hái néng bù néng dú , wǒ shuō néng , dōu zhǎo qí le , xiān ná qù pái liàn ba , wǎn shang huí jiā zài bǎ zhè zhāng jiā jìn shū lǐ .",
+        "en": "There were only four pages in the bag. I found one to three and five, then Lin An handed me four from the corridor; the new section was complete. I pressed a fresh crease flat against the table, still disappointed about the original. Was it readable? Yes, everything was there. We'd rehearse now, and I'd press it inside a book at home later."
+      },
+      "statement": "Recovery means every sheet is physically unchanged.",
+      "answer": false,
+      "why": "A new crease remains."
+    },
+    {
+      "id": "s6-u07-t04",
+      "phrase": "s6-u07-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "回家后我把第四页夹进一本厚书，其他四张放在桌上，准备明天一起交给演出的人。林安发消息问还心疼吗，我说一点点，毕竟是自己改了好多遍的原稿。她说下次带副本吧，我拿出手机把五页都拍下来，第二天打印一份，改把副本交给演出的人。原来的收在家里，活动带新印的。蓝袋子倒还可以借，她一问我就说行，不过这次还回来记得告诉我放哪儿，别让我再问一上午。",
+        "py": "huí jiā hòu wǒ bǎ dì sì yè jiā jìn yī běn hòu shū , qí tā sì zhāng fàng zài zhuō shàng , zhǔn bèi míng tiān yì qǐ jiāo gěi yǎn chū de rén . lín ān fā xiāo xī wèn hái xīn téng ma , wǒ shuō yì diǎn diǎn , bì jìng shì zì jǐ gǎi le hǎo duō biàn de yuán gǎo . tā shuō xià cì dài fù běn ba , wǒ ná chū shǒu jī bǎ wǔ yè dōu pāi xià lái , dì èr tiān dǎ yìn yī fèn , gǎi bǎ fù běn jiāo gěi yǎn chū de rén . yuán lái de shōu zài jiā lǐ , huó dòng dài xīn yìn de . lán dài zi dào hái kě yǐ jiè , tā yī wèn wǒ jiù shuō xíng , bù guò zhè cì huán huí lái jì de gào sù wǒ fàng nǎr , bié ràng wǒ zài wèn yī shàng wǔ .",
+        "en": "At home I pressed page four inside a thick book, leaving the other sheets on the desk to hand to the performers tomorrow. Lin An asked if I was still upset. A little: I'd revised that original so many times. Bring copies next time, she said. I photographed all five and printed a set the next day to give the performers instead. I'd keep the originals at home and take the fresh copies to events. She could still borrow the blue bag—just tell me where she'd returned it, so I didn't spend another morning asking."
+      },
+      "statement": "Bringing copies later ends every future bag loan.",
+      "answer": false,
+      "why": "Practical protection does not imply universal distrust."
+    },
+    {
+      "id": "s6-u07-t05",
+      "phrase": "s6-u07-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "她先还空袋子，他后放五页纸。两个说法冲突吗？",
+        "py": "tā xiān huán kōng dài zi , tā hòu fàng wǔ yè zhǐ . liǎng gè shuō fǎ chōng tū ma ?",
+        "en": "She first returns an empty bag; he adds five pages later. Do these accounts conflict?"
+      },
+      "choices": [
+        "不冲突，时间不同。",
+        "冲突，袋子只能永远空。",
+        "冲突，还过就不可能再放东西。"
+      ],
+      "answer": "不冲突，时间不同。",
+      "why": "Sequential states can differ."
+    },
+    {
+      "id": "s6-u07-t06",
+      "phrase": "s6-u07-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "一二三五在袋里，楼道找到四。把四放回后齐了吗？",
+        "py": "yī èr sān wǔ zài dài lǐ , lóu dào zhǎo dào sì . bǎ sì fàng huí hòu qí le ma ?",
+        "en": "Pages one, two, three and five are in the bag; four is found in the corridor. Is the set complete after adding four?"
+      },
+      "choices": [
+        "齐了，原来五个页码各有一页。",
+        "没齐，还缺第四页。",
+        "齐了，所以每页一定没有新折痕。"
+      ],
+      "answer": "齐了，原来五个页码各有一页。",
+      "why": "Completeness concerns the distinct numbered set, not physical perfection."
+    },
+    {
+      "id": "s6-u07-t07",
+      "phrase": "s6-u07-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "有人只说以前用地下室，这能确定今天的袋子在那吗？",
+        "py": "yǒu rén zhǐ shuō yǐ qián yòng dì xià shì , zhè néng què dìng jīn tiān de dài zi zài nà ma ?",
+        "en": "Someone says the basement was used before. Does this determine today’s bag location?"
+      },
+      "choices": [
+        "不能，要问今天有没有看到。",
+        "能，以前用过就永远在那里。",
+        "能，他已经看见袋子了。"
+      ],
+      "answer": "不能，要问今天有没有看到。",
+      "why": "Previous use is not present observation."
+    },
+    {
+      "id": "s6-u07-t08",
+      "phrase": "s6-u07-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "志愿者移动了袋子，能直接写故意弄丢吗？",
+        "py": "zhì yuàn zhě yí dòng le dài zi , néng zhí jiē xiě gù yì nòng diū ma ?",
+        "en": "The volunteer moved the bag. Can we write deliberate loss directly?"
+      },
+      "choices": [
+        "不能，移动和故意弄丢不同。",
+        "能，任何移动都证明恶意。",
+        "能，找到以后也证明没有搬过。"
+      ],
+      "answer": "不能，移动和故意弄丢不同。",
+      "why": "An action does not alone establish the claimed motive."
+    },
+    {
+      "id": "s6-u07-t09",
+      "phrase": "s6-u07-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "【事后】我们一起补清了每一步。",
+        "py": "shì hòu wǒ men yì qǐ bǔ qīng le měi yī bù .",
+        "en": "Afterwards we reconstructed each step together."
+      },
+      "blankPy": "shì hòu"
+    },
+    {
+      "id": "s6-u07-t10",
+      "phrase": "s6-u07-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "【沿着】楼道走到尽头，就是仓库。",
+        "py": "yán zhe lóu dào zǒu dào jìn tóu , jiù shì cāng kù .",
+        "en": "Follow the corridor to its end for the storeroom."
+      },
+      "blankPy": "yán zhe"
+    },
+    {
+      "id": "s6-u07-t11",
+      "phrase": "s6-u07-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "他把个人的袋子【当成】交换活动的物品了。",
+        "py": "tā bǎ gè rén de dài zi dàng chéng jiāo huàn huó dòng de wù pǐn le .",
+        "en": "He took a personal bag for an exchange-event item."
+      },
+      "blankPy": "dàng chéng"
+    },
+    {
+      "id": "s6-u07-t12",
+      "phrase": "s6-u07-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "就算现在知道，【也】不能说刚才一直知道。",
+        "py": "jiù suàn xiàn zài zhī dào , yě bù néng shuō gāng cái yì zhí zhī dào .",
+        "en": "Even knowing now does not mean always knowing earlier."
+      },
+      "blankPy": "yě"
+    },
+    {
+      "id": "s6-u07-t13",
+      "phrase": "s6-u07-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He took a personal bag for an exchange-event item.",
+          "right": {
+            "zh": "他把个人的袋子当成交换活动的物品了。",
+            "py": "tā bǎ gè rén de dài zi dàng chéng jiāo huàn huó dòng de wù pǐn le .",
+            "en": "He took a personal bag for an exchange-event item."
+          }
+        },
+        {
+          "left": "The bag is in the upstairs storeroom, not on the event table.",
+          "right": {
+            "zh": "袋子在二楼仓库，不在活动桌上。",
+            "py": "dài zi zài èr lóu cāng kù , bù zài huó dòng zhuō shàng .",
+            "en": "The bag is in the upstairs storeroom, not on the event table."
+          }
+        },
+        {
+          "left": "I saw a loose sheet in the corridor.",
+          "right": {
+            "zh": "我在楼道里看到一张掉出来的纸。",
+            "py": "wǒ zài lóu dào lǐ kàn dào yī zhāng diào chū lái de zhǐ .",
+            "en": "I saw a loose sheet in the corridor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u07-t14",
+      "phrase": "s6-u07-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "He made a list of the items.",
+          "right": {
+            "zh": "他把物品列成一张表。",
+            "py": "tā bǎ wù pǐn liè chéng yī zhāng biǎo .",
+            "en": "He made a list of the items."
+          }
+        },
+        {
+          "left": "She went to collect materials at the door.",
+          "right": {
+            "zh": "她去门口领取资料。",
+            "py": "tā qù mén kǒu lǐng qǔ zī liào .",
+            "en": "She went to collect materials at the door."
+          }
+        },
+        {
+          "left": "He stores the materials on his own computer.",
+          "right": {
+            "zh": "他把资料储存在自己的电脑里。",
+            "py": "tā bǎ zī liào chǔ cún zài zì jǐ de diàn nǎo lǐ .",
+            "en": "He stores the materials on his own computer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u07-t15",
+      "phrase": "s6-u07-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The venue manager knows the storeroom, not every bag’s movements.",
+          "right": {
+            "zh": "场馆管理员知道仓库在哪，但没看见每个袋子。",
+            "py": "chǎng guǎn guǎn lǐ yuán zhī dào cāng kù zài nǎ , dàn méi kàn jiàn měi gè dài zi .",
+            "en": "The venue manager knows the storeroom, not every bag’s movements."
+          }
+        },
+        {
+          "left": "More people came to exchange books, so the entrance needed clearing.",
+          "right": {
+            "zh": "前来换书的人越来越多，门口需要留空。",
+            "py": "qián lái huàn shū de rén yuè lái yuè duō , mén kǒu xū yào liú kōng .",
+            "en": "More people came to exchange books, so the entrance needed clearing."
+          }
+        },
+        {
+          "left": "Follow the corridor to its end for the storeroom.",
+          "right": {
+            "zh": "沿着楼道走到尽头，就是仓库。",
+            "py": "yán zhe lóu dào zǒu dào jìn tóu , jiù shì cāng kù .",
+            "en": "Follow the corridor to its end for the storeroom."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u07-t16",
+      "phrase": "s6-u07-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Previously the event was always in the small hall.",
+          "right": {
+            "zh": "此前活动一直在小厅。",
+            "py": "cǐ qián huó dòng yì zhí zài xiǎo tīng .",
+            "en": "Previously the event was always in the small hall."
+          }
+        },
+        {
+          "left": "Only afterwards did he hear that the time had changed.",
+          "right": {
+            "zh": "他事后才听说时间改了。",
+            "py": "tā shì hòu cái tīng shuō shí jiān gǎi le .",
+            "en": "Only afterwards did he hear that the time had changed."
+          }
+        },
+        {
+          "left": "She came specially for the final performance.",
+          "right": {
+            "zh": "她特地来听最后一场。",
+            "py": "tā tè dì lái tīng zuì hòu yī chǎng .",
+            "en": "She came specially for the final performance."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u07-t17",
+      "phrase": "s6-u07-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "I apologise for moving it without asking.",
+          "right": {
+            "zh": "我为没有问就搬走道歉。",
+            "py": "wǒ wèi méi yǒu wèn jiù bān zǒu dào qiàn .",
+            "en": "I apologise for moving it without asking."
+          }
+        },
+        {
+          "left": "The volunteer responded that he had moved the bag upstairs.",
+          "right": {
+            "zh": "志愿者回应说袋子是他搬上去的。",
+            "py": "zhì yuàn zhě huí yìng shuō dài zi shì tā bān shàng qù de .",
+            "en": "The volunteer responded that he had moved the bag upstairs."
+          }
+        },
+        {
+          "left": "The confusion concerns placement and the mover, not only colour.",
+          "right": {
+            "zh": "这个误会涉及放的位置和搬的人，不只涉及颜色。",
+            "py": "zhè gè wù huì shè jí fàng de wèi zhì hé bān de rén , bù zhǐ shè jí yán sè .",
+            "en": "The confusion concerns placement and the mover, not only colour."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: bag/page banter, colloquial time-scope correction, parallel A一量B一量 description and source-attributed retelling. Self-review preserves loan→empty return→five-page insertion→upstairs move→page4 recovery. The basement is merely a suggestion; bag stays inside building. Four distinct pages plus4 restore1–5; a crease remains. No one is marked witness to all steps, volunteer has not promised personal-bag supervision, and an action is not scored as intentional loss. Two accounts contain different available information while agreeing on the recovered sequence.\n2026-10-08 advanced reading self-review: Retained genuine calculation and workplace-review text types while replacing boilerplate with actual spreadsheet revision, task assignments and a lost-bag search. Singing dialogue now offers slower practice/recording, not abstract guarantees. Bag recovery preserves five pages, missing fourth page, upstairs storeroom, crease and intact new section. Film discussion retains separate sign-up and 9:45/10 cleanup; reply/attendance counts remain separate. Native flags: 风留下来 joke, 原稿心疼, 跟唱 omissions and calculator/percentage-point register. Native review pending.\n2026-10-08 advanced reading self-review: Bag actions v2: Retained genuine calculation and workplace-review text types while replacing boilerplate with actual spreadsheet revision, task assignments and a lost-bag search. Singing dialogue now offers slower practice/recording, not abstract guarantees. Both bag narrators now describe handling books, asking volunteers, ordering pages and rehearsing instead of repeatedly lecturing on evidence. Lin An returns the empty bag; Chen Yu inserts the pages and leaves its opening unclosed. Rehearsal now explicitly raises page four for everyone to see instead of inheriting the unrelated huǎng reading for a shaking action; its obsolete 晃 glossary aid is removed. The early empty-bag cue and paired narration explicitly describe placing it by the entrance, removing a misleading hái-labelled return action while retaining its time contrast and practised reply. Recovery preserves five unique pages, missing fourth page, upstairs storeroom, crease and intact new section; later copies do not end future borrowing. Film discussion retains separate sign-up and 9:45/10 cleanup; reply/attendance counts remain separate. Native flags: 风留下来 joke, 原稿心疼, 台词丢了 banter, 跟唱 omissions and calculator/percentage-point register. Native review pending.",
+  "characters": [
+    {
+      "hanzi": "仓",
+      "pinyin": "cāng",
+      "meaning": "storehouse",
+      "strokes": 4,
+      "parts": [
+        {
+          "form": "仓",
+          "role": "whole",
+          "gloss": "storehouse"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 仓 in 仓库. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "仓库",
+          "p": "cāng kù",
+          "m": "storeroom; warehouse"
+        }
+      ]
+    },
+    {
+      "hanzi": "储",
+      "pinyin": "chǔ",
+      "meaning": "store; accumulate",
+      "strokes": 12,
+      "parts": [
+        {
+          "form": "储",
+          "role": "whole",
+          "gloss": "store; accumulate"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 储 in 储存. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "储存",
+          "p": "chǔ cún",
+          "m": "store for later use"
+        }
+      ]
+    },
+    {
+      "hanzi": "沿",
+      "pinyin": "yán",
+      "meaning": "along",
+      "strokes": 8,
+      "parts": [
+        {
+          "form": "沿",
+          "role": "whole",
+          "gloss": "along"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 沿 in 沿着. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "沿着",
+          "p": "yán zhe",
+          "m": "along"
+        }
+      ]
+    },
+    {
+      "hanzi": "涉",
+      "pinyin": "shè",
+      "meaning": "involve; wade",
+      "strokes": 10,
+      "parts": [
+        {
+          "form": "涉",
+          "role": "whole",
+          "gloss": "involve; wade"
+        }
+      ],
+      "noteKind": "usage",
+      "note": "Recognize 涉 in 涉及. This is a usage aid, not an etymological decomposition. Other word-dependent readings are not interchangeable.",
+      "words": [
+        {
+          "w": "涉及",
+          "p": "shè jí",
+          "m": "involve; concern"
+        }
+      ]
+    }
+  ]
+}

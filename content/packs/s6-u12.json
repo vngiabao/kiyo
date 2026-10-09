@@ -1,0 +1,2212 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u12",
+    "stage": 3,
+    "order": 144,
+    "title": "Leave a page for next time",
+    "titleZh": "把下一页留给下次",
+    "canDo": [
+      "Retell an original scene and discuss a supported interpretation",
+      "Read lyrics as imagery while keeping practical plans explicit",
+      "Write a concise account separating observation,interpretation and promises"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u11",
+      "s6-u11-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u12-w01",
+      "hanzi": "心愿",
+      "pinyin": "xīn yuàn",
+      "meaning": "wish",
+      "meaningVi": "mong muốn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她的心愿是走之前再一起唱一次。",
+        "py": "tā de xīn yuàn shì zǒu zhī qián zài yì qǐ chàng yī cì .",
+        "en": "Her wish is to sing together once before leaving."
+      },
+      "usageNote": "[GF2021:L6:8998] Source entry: 心愿; xīnyuàn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w02",
+      "hanzi": "心灵",
+      "pinyin": "xīn líng",
+      "meaning": "inner spirit; mind",
+      "meaningVi": "tâm hồn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这首歌写心灵里没有说完的话。",
+        "py": "zhè shǒu gē xiě xīn líng lǐ méi yǒu shuō wán de huà .",
+        "en": "The song concerns words left unsaid in the inner self."
+      },
+      "usageNote": "[GF2021:L6:8983] Source entry: 心灵; xīnlíng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w03",
+      "hanzi": "海浪",
+      "pinyin": "hǎi làng",
+      "meaning": "sea waves",
+      "meaningVi": "sóng biển",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "海浪的声音接在最后一句后面。",
+        "py": "hǎi làng de shēng yīn jiē zài zuì hòu yī jù hòu miàn .",
+        "en": "Sea-wave sounds follow the final line."
+      },
+      "usageNote": "[GF2021:L6:3152] Source entry: 海浪; hǎilàng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w04",
+      "hanzi": "远方",
+      "pinyin": "yuǎn fāng",
+      "meaning": "a distant place",
+      "meaningVi": "phương xa",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她要去远方，但没有说永远不回来。",
+        "py": "tā yào qù yuǎn fāng , dàn méi yǒu shuō yǒng yuǎn bù huí lái .",
+        "en": "She's going far away without saying she'll never return."
+      },
+      "usageNote": "[GF2021:L6:10030] Source entry: 远方; yuǎnfāng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w05",
+      "hanzi": "孤独",
+      "pinyin": "gū dú",
+      "meaning": "lonely; loneliness",
+      "meaningVi": "cô độc",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这一句有孤独，也有期待。",
+        "py": "zhè yī jù yǒu gū dú , yě yǒu qī dài .",
+        "en": "This line contains loneliness and anticipation."
+      },
+      "usageNote": "[GF2021:L6:2881] Source entry: 孤独; gūdú; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w06",
+      "hanzi": "增进",
+      "pinyin": "zēng jìn",
+      "meaning": "increase; deepen",
+      "meaningVi": "tăng thêm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "一起排练增进了了解。",
+        "py": "yì qǐ pái liàn zēng jìn le liǎo jiě .",
+        "en": "Rehearsing together deepened understanding."
+      },
+      "usageNote": "[GF2021:L6:10193] Source entry: 增进; zēngjìn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w07",
+      "hanzi": "平衡",
+      "pinyin": "píng héng",
+      "meaning": "balance",
+      "meaningVi": "cân bằng",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我想平衡演出和休息。",
+        "py": "wǒ xiǎng píng héng yǎn chū hé xiū xī .",
+        "en": "I want to balance performing and resting."
+      },
+      "usageNote": "[GF2021:L6:6128] Source entry: 平衡; pínghéng; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w08",
+      "hanzi": "融合",
+      "pinyin": "róng hé",
+      "meaning": "blend; integrate",
+      "meaningVi": "kết hợp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这段把说话和音乐融合起来。",
+        "py": "zhè duàn bǎ shuō huà hé yīn yuè róng hé qǐ lái .",
+        "en": "This passage blends speech and music."
+      },
+      "usageNote": "[GF2021:L6:6787] Source entry: 融合; rónghé; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w09",
+      "hanzi": "元素",
+      "pinyin": "yuán sù",
+      "meaning": "element",
+      "meaningVi": "yếu tố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "雨声是这段音乐的一个元素。",
+        "py": "yǔ shēng shì zhè duàn yīn yuè de yī gè yuán sù .",
+        "en": "Rain sounds are an element of this music."
+      },
+      "usageNote": "[GF2021:L6:9991] Source entry: 元素; yuánsù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w10",
+      "hanzi": "演奏",
+      "pinyin": "yǎn zòu",
+      "meaning": "play music",
+      "meaningVi": "biểu diễn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "演奏结束后，她才把信拿出来。",
+        "py": "yǎn zòu jié shù hòu , tā cái bǎ xìn ná chū lái .",
+        "en": "She takes out the letter after the performance."
+      },
+      "usageNote": "[GF2021:L6:9351] Source entry: 演奏; yǎnzòu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w11",
+      "hanzi": "歌词",
+      "pinyin": "gē cí",
+      "meaning": "lyrics",
+      "meaningVi": "lời bài hát",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "歌词没有写归来的日期。",
+        "py": "gē cí méi yǒu xiě guī lái de rì qī .",
+        "en": "The lyrics give no return date."
+      },
+      "usageNote": "[GF2021:L6:2691] Source entry: 歌词; gēcí; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w12",
+      "hanzi": "节奏",
+      "pinyin": "jié zòu",
+      "meaning": "rhythm; pace",
+      "meaningVi": "nhịp",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这一段节奏慢下来，话却没变。",
+        "py": "zhè yī duàn jié zòu màn xià lái , huà què méi biàn .",
+        "en": "The passage slows while the words remain unchanged."
+      },
+      "usageNote": "[GF2021:L6:4182] Source entry: 节奏; jiézòu; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w13",
+      "hanzi": "乐曲",
+      "pinyin": "yuè qǔ",
+      "meaning": "musical piece",
+      "meaningVi": "bản nhạc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "乐曲在说话之后开始。",
+        "py": "yuè qǔ zài shuō huà zhī hòu kāi shǐ .",
+        "en": "The piece starts after the spoken dialogue."
+      },
+      "usageNote": "[GF2021:L6:10062] Source entry: 乐曲; yuèqǔ; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w14",
+      "hanzi": "上演",
+      "pinyin": "shàng yǎn",
+      "meaning": "be staged",
+      "meaningVi": "diễn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这段短剧今晚首次上演。",
+        "py": "zhè duàn duǎn jù jīn wǎn shǒu cì shàng yǎn .",
+        "en": "This short play is staged for the first time tonight."
+      },
+      "usageNote": "[GF2021:L6:6978] Source entry: 上演; shàngyǎn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w15",
+      "hanzi": "上台",
+      "pinyin": "shàng tái",
+      "meaning": "go onstage",
+      "meaningVi": "lên sân khấu",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她上台以前先喝了水。",
+        "py": "tā shàng tái yǐ qián xiān hē le shuǐ .",
+        "en": "She drank water before going onstage."
+      },
+      "usageNote": "[GF2021:L6:6969] Source entry: 上台; shàng∥tái; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w16",
+      "hanzi": "主角",
+      "pinyin": "zhǔ jué",
+      "meaning": "lead character",
+      "meaningVi": "nhân vật chính",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "主角最后没有拆信。",
+        "py": "zhǔ jué zuì hòu méi yǒu chāi xìn .",
+        "en": "The lead doesn't open the letter at the end."
+      },
+      "usageNote": "[GF2021:L6:10716] Source entry: 主角; zhǔjué; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w17",
+      "hanzi": "场景",
+      "pinyin": "chǎng jǐng",
+      "meaning": "scene; setting",
+      "meaningVi": "cảnh",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这个场景发生在车站。",
+        "py": "zhè gè chǎng jǐng fā shēng zài chē zhàn .",
+        "en": "This scene takes place at the station."
+      },
+      "usageNote": "[GF2021:L6:857] Source entry: 场景; chǎngjǐng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w18",
+      "hanzi": "场馆",
+      "pinyin": "chǎng guǎn",
+      "meaning": "venue building",
+      "meaningVi": "địa điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "场馆十点关闭。",
+        "py": "chǎng guǎn shí diǎn guān bì .",
+        "en": "The venue closes at ten."
+      },
+      "usageNote": "[GF2021:L6:855] Source entry: 场馆; chǎngguǎn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w19",
+      "hanzi": "送行",
+      "pinyin": "sòng xíng",
+      "meaning": "see someone off",
+      "meaningVi": "tiễn",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "明早我们去车站送行。",
+        "py": "míng zǎo wǒ men qù chē zhàn sòng xíng .",
+        "en": "We'll see her off at the station tomorrow morning."
+      },
+      "usageNote": "[GF2021:L6:7660] Source entry: 送行; sòng∥xíng; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w20",
+      "hanzi": "难忘",
+      "pinyin": "nán wàng",
+      "meaning": "unforgettable; memorable",
+      "meaningVi": "đáng nhớ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "那段安静让我很难忘。",
+        "py": "nà duàn ān jìng ràng wǒ hěn nán wàng .",
+        "en": "That quiet passage is memorable to me."
+      },
+      "usageNote": "[GF2021:L6:5800] Source entry: 难忘; nánwàng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w21",
+      "hanzi": "遗憾",
+      "pinyin": "yí hàn",
+      "meaning": "regret; disappointment",
+      "meaningVi": "tiếc nuối",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "没唱完有点遗憾，但还能下次接着唱。",
+        "py": "méi chàng wán yǒu diǎn yí hàn , dàn hái néng xià cì jiē zhe chàng .",
+        "en": "Not finishing is disappointing,but we can continue next time."
+      },
+      "usageNote": "[GF2021:L6:9544] Source entry: 遗憾; yíhàn; 形、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w22",
+      "hanzi": "情绪",
+      "pinyin": "qíng xù",
+      "meaning": "emotion; mood",
+      "meaningVi": "cảm xúc",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她的情绪在最后一段变了。",
+        "py": "tā de qíng xù zài zuì hòu yī duàn biàn le .",
+        "en": "Her mood changes in the final passage."
+      },
+      "usageNote": "[GF2021:L6:6513] Source entry: 情绪; qíngxù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w23",
+      "hanzi": "隐藏",
+      "pinyin": "yǐn cáng",
+      "meaning": "hide; conceal",
+      "meaningVi": "che giấu",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她没有隐藏要走的事。",
+        "py": "tā méi yǒu yǐn cáng yào zǒu de shì .",
+        "en": "She didn't hide that she was leaving."
+      },
+      "usageNote": "[GF2021:L6:9716] Source entry: 隐藏; yǐncáng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w24",
+      "hanzi": "透露",
+      "pinyin": "tòu lù",
+      "meaning": "reveal",
+      "meaningVi": "tiết lộ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "结尾只透露他已经写过信。",
+        "py": "jié wěi zhǐ tòu lù tā yǐ jīng xiě guò xìn .",
+        "en": "The ending only reveals he has written a letter."
+      },
+      "usageNote": "[GF2021:L6:8124] Source entry: 透露; tòulù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w25",
+      "hanzi": "收藏",
+      "pinyin": "shōu cáng",
+      "meaning": "keep in a collection",
+      "meaningVi": "lưu giữ",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我想收藏这张节目单。",
+        "py": "wǒ xiǎng shōu cáng zhè zhāng jié mù dān .",
+        "en": "I'd like to keep this programme."
+      },
+      "usageNote": "[GF2021:L6:7349] Source entry: 收藏; shōucáng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w26",
+      "hanzi": "一番",
+      "pinyin": "yī fān",
+      "meaning": "a spell or round; classifier for effort or talk",
+      "meaningVi": "một phen",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "经过一番商量，我们先收东西。",
+        "py": "jīng guò yī fān shāng liáng , wǒ men xiān shōu dōng xi .",
+        "en": "After some discussion,we put things away first."
+      },
+      "usageNote": "[GF2021:L6:9588] Source entry: 一番; yìfān; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w27",
+      "hanzi": "时而",
+      "pinyin": "shí ér",
+      "meaning": "sometimes; now and then",
+      "meaningVi": "lúc thì",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这段时而轻，时而响。",
+        "py": "zhè duàn shí ér qīng , shí ér xiǎng .",
+        "en": "This passage is now quiet,now loud."
+      },
+      "usageNote": "[GF2021:L6:7213] Source entry: 时而; shí’ér; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w28",
+      "hanzi": "早晚",
+      "pinyin": "zǎo wǎn",
+      "meaning": "sooner or later",
+      "meaningVi": "sớm muộn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "早晚还会见面，不等于已经定好日期。",
+        "py": "zǎo wǎn hái huì jiàn miàn , bù děng yú yǐ jīng dìng hǎo rì qī .",
+        "en": "Seeing each other sooner or later isn't a fixed date."
+      },
+      "usageNote": "[GF2021:L6:10165] Source entry: 早晚; zǎowǎn; 名、副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w29",
+      "hanzi": "仿佛",
+      "pinyin": "fǎng fú",
+      "meaning": "as if",
+      "meaningVi": "như thể",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她仿佛想说什么，又停了。",
+        "py": "tā fǎng fú xiǎng shuō shén me , yòu tíng le .",
+        "en": "She seems about to speak,then stops."
+      },
+      "usageNote": "[GF2021:L6:2273] Source entry: 仿佛; fǎngfú; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w30",
+      "hanzi": "盼望",
+      "pinyin": "pàn wàng",
+      "meaning": "look forward to",
+      "meaningVi": "mong đợi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我盼望下次一起唱。",
+        "py": "wǒ pàn wàng xià cì yì qǐ chàng .",
+        "en": "I look forward to singing together next time."
+      },
+      "usageNote": "[GF2021:L6:5981] Source entry: 盼望; pànwàng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w31",
+      "hanzi": "留言",
+      "pinyin": "liú yán",
+      "meaning": "leave a message",
+      "meaningVi": "nhắn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "到了以后给我们留言。",
+        "py": "dào le yǐ hòu gěi wǒ men liú yán .",
+        "en": "Leave us a message after arriving."
+      },
+      "usageNote": "[GF2021:L6:5243] Source entry: 留言; liúyán; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u12-w32",
+      "hanzi": "承诺",
+      "pinyin": "chéng nuò",
+      "meaning": "promise",
+      "meaningVi": "hứa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "没有确定时间，就别承诺周末回来。",
+        "py": "méi yǒu què dìng shí jiān , jiù bié chéng nuò zhōu mò huí lái .",
+        "en": "Don't promise a weekend return before the time is settled."
+      },
+      "usageNote": "[GF2021:L6:988] Source entry: 承诺; chéngnuò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u12-g01",
+      "pattern": "仿佛…",
+      "purpose": "Frame an impression rather than a known fact",
+      "explanation": "仿佛 marks resemblance or impression. A visible action can support a reading without revealing an unseen text.",
+      "examples": [
+        {
+          "zh": "她仿佛想说什么，又停了。",
+          "py": "tā fǎng fú xiǎng shuō shén me , yòu tíng le .",
+          "en": "She seems about to speak,then stops."
+        },
+        {
+          "zh": "雨声仿佛从窗外进来。",
+          "py": "yǔ shēng fǎng fú cóng chuāng wài jìn lái .",
+          "en": "Rain seems to come from outside."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "仿佛想说，表示已经说出全部内容。",
+          "right": "她仿佛想说什么，又停了。",
+          "why": "An impression does not establish spoken contents."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u12-g02",
+      "pattern": "时而…，时而…",
+      "purpose": "Describe alternating states",
+      "explanation": "The parallel form describes variation,not an identical state throughout.",
+      "examples": [
+        {
+          "zh": "她时而笑，时而看窗外。",
+          "py": "tā shí ér xiào , shí ér kàn chuāng wài .",
+          "en": "She alternately laughs and looks outside."
+        },
+        {
+          "zh": "这段时而轻，时而响。",
+          "py": "zhè duàn shí ér qīng , shí ér xiǎng .",
+          "en": "This passage alternates quiet and loud."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "时而轻时而响，表示全程音量一样。",
+          "right": "这段时而轻，时而响。",
+          "why": "The states vary."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u12-g03",
+      "pattern": "一番",
+      "purpose": "Read a measure for an effort or discourse",
+      "explanation": "一番 can describe a round of effort,discussion or words;choose a suitable action rather than replacing every quantity.",
+      "examples": [
+        {
+          "zh": "经过一番商量，我们先收东西。",
+          "py": "jīng guò yī fān shāng liáng , wǒ men xiān shōu dōng xi .",
+          "en": "After some discussion,we put things away."
+        },
+        {
+          "zh": "她一番话让我明白了。",
+          "py": "tā yī fān huà ràng wǒ míng bái le .",
+          "en": "Her explanation helped me understand."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一番话必定只有一个字。",
+          "right": "她一番话让我明白了。",
+          "why": "The measure does not specify one character."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u12-g04",
+      "pattern": "早晚",
+      "purpose": "Distinguish sooner-or-later from a fixed date",
+      "explanation": "In this sense 早晚 indicates eventuality,not necessarily morning/evening or a booked day.",
+      "examples": [
+        {
+          "zh": "早晚还会见面，不等于已经定好日期。",
+          "py": "zǎo wǎn hái huì jiàn miàn , bù děng yú yǐ jīng dìng hǎo rì qī .",
+          "en": "Meeting sooner or later is not a fixed date."
+        },
+        {
+          "zh": "这个问题早晚要面对。",
+          "py": "zhè gè wèn tí zǎo wǎn yào miàn duì .",
+          "en": "This issue needs facing sooner or later."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "早晚见面，表示已经约好下周一。",
+          "right": "早晚还会见面，不等于已经定好日期。",
+          "why": "The specific date remains unknown."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u12-g05",
+      "pattern": "并不… / 不等于…",
+      "purpose": "Limit a claimed implication",
+      "explanation": "A limit can separate performer emotion,lyric interpretation and actual arrangements without rejecting all connection.",
+      "examples": [
+        {
+          "zh": "上台并不表示不紧张。",
+          "py": "shàng tái bìng bù biǎo shì bù jǐn zhāng .",
+          "en": "Going onstage does not mean no nerves."
+        },
+        {
+          "zh": "歌词的期待不等于已经买好车票。",
+          "py": "gē cí de qī dài bù děng yú yǐ jīng mǎi hǎo chē piào .",
+          "en": "Lyric anticipation does not mean a ticket is booked."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "上台了，就证明完全不紧张。",
+          "right": "上台并不表示不紧张。",
+          "why": "An action does not prove absence of nerves."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u12-g06",
+      "pattern": "不是每…都…",
+      "purpose": "Keep the scope of a partial negation",
+      "explanation": "This denies universality,not every possible instance. Keep 每 and 都 when reading the lyric.",
+      "examples": [
+        {
+          "zh": "不是每一次等候都要答案。",
+          "py": "bù shì měi yī cì děng hòu dōu yào dá àn .",
+          "en": "Not every wait needs an answer."
+        },
+        {
+          "zh": "不是每一个没说完的故事都取消了结尾。",
+          "py": "bù shì měi yī gè méi shuō wán de gù shì dōu qǔ xiāo liǎo jié wěi .",
+          "en": "Not every unfinished story cancels its ending."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "不是每次都要答案，表示任何一次都不能有答案。",
+          "right": "不是每一次等候都要答案。",
+          "why": "Not all does not mean none."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u12-d",
+    "title": "把下一页留给下次",
+    "titleZh": "把下一页留给下次",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "最后一段你没拆信，我还以为忘了。",
+        "py": "zuì hòu yī duàn nǐ méi chāi xìn , wǒ hái yǐ wéi wàng le .",
+        "en": "You didn't open the letter at the end.I thought you'd forgotten.",
+        "speaker": "a"
+      },
+      {
+        "zh": "没忘，写的就是没拆。",
+        "py": "méi wàng , xiě de jiù shì méi chāi .",
+        "en": "I hadn't—that's what's written.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那里面到底是什么？",
+        "py": "nà lǐ miàn dào dǐ shì shén me ?",
+        "en": "What exactly is inside?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没写给观众看。你可以猜，别说你已经知道。",
+        "py": "méi xiě gěi guān zhòng kàn . nǐ kě yǐ cāi , bié shuō nǐ yǐ jīng zhī dào .",
+        "en": "The audience isn't shown.You can guess,but can't call it known.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我猜是让她别走。",
+        "py": "wǒ cāi shì ràng tā bié zǒu .",
+        "en": "I guessed it asks her not to leave.",
+        "speaker": "a"
+      },
+      {
+        "zh": "也可能是到了再看。结尾没有给答案。",
+        "py": "yě kě néng shì dào le zài kàn . jié wěi méi yǒu gěi dá àn .",
+        "en": "It could be for after arrival.The ending gives no answer.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你唱的那句灯还亮着，是等她回来？",
+        "py": "nǐ chàng de nà jù dēng hái liàng zhe , shì děng tā huí lái ?",
+        "en": "The light still on in the song—is that waiting for her return?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以这么听，也可以是今晚还没结束。",
+        "py": "kě yǐ zhè me tīng , yě kě yǐ shì jīn wǎn hái méi jié shù .",
+        "en": "You can hear it that way,or as tonight not being over yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "没有写下周回来，对吧？",
+        "py": "méi yǒu xiě xià zhōu huí lái , duì ba ?",
+        "en": "No next-week return date,right?",
+        "speaker": "a"
+      },
+      {
+        "zh": "对。别替歌词订车票。",
+        "py": "duì . bié tì gē cí dìng chē piào .",
+        "en": "Right.Don't book a ticket on the lyrics' behalf.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好。那现实里你明天几点的车？",
+        "py": "hǎo . nà xiàn shí lǐ nǐ míng tiān jǐ diǎn de chē ?",
+        "en": "Okay.In real life,when's your train tomorrow?",
+        "speaker": "a"
+      },
+      {
+        "zh": "九点。八点半在入口见就行。",
+        "py": "jiǔ diǎn . bā diǎn bàn zài rù kǒu jiàn jiù xíng .",
+        "en": "Nine.See you at the entrance at eight thirty.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我来送你。想吃点什么？",
+        "py": "wǒ lái sòng nǐ . xiǎng chī diǎn shén me ?",
+        "en": "I'll see you off.Want anything to eat?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不用特意买，带水就好。",
+        "py": "bù yòng tè yì mǎi , dài shuǐ jiù hǎo .",
+        "en": "No special shopping.Just water.",
+        "speaker": "b"
+      },
+      {
+        "zh": "其他人也来？",
+        "py": "qí tā rén yě lái ?",
+        "en": "Are the others coming too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "他们要上班，别替我把全组叫来。",
+        "py": "tā men yào shàng bān , bié tì wǒ bǎ quán zǔ jiào lái .",
+        "en": "They have work.Don't call the whole group for me.",
+        "speaker": "b"
+      },
+      {
+        "zh": "知道了。今晚还能再唱一遍吗？",
+        "py": "zhī dào le . jīn wǎn hái néng zài chàng yī biàn ma ?",
+        "en": "Got it.Can we sing once more tonight?",
+        "speaker": "a"
+      },
+      {
+        "zh": "九点半了，先收东西。场馆十点关。",
+        "py": "jiǔ diǎn bàn le , xiān shōu dōng xi . chǎng guǎn shí diǎn guān .",
+        "en": "It's nine thirty.Put things away first.The venue closes at ten.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那你要回去休息。",
+        "py": "nà nǐ yào huí qù xiū xī .",
+        "en": "Then you need rest.",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，没唱完留一点，下次接着唱。",
+        "py": "hǎo , méi chàng wán liú yī diǎn , xià cì jiē zhe chàng .",
+        "en": "Yes.Leave a little unfinished;continue next time.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这句可以写到群里。",
+        "py": "zhè jù kě yǐ xiě dào qún lǐ .",
+        "en": "We can put that in the group.",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以，别写下周已经约好了。",
+        "py": "kě yǐ , bié xiě xià zhōu yǐ jīng yuē hǎo le .",
+        "en": "Yes,but don't say next week is already booked.",
+        "speaker": "b"
+      },
+      {
+        "zh": "到了给我们留言。",
+        "py": "dào le gěi wǒ men liú yán .",
+        "en": "Message when you arrive.",
+        "speaker": "a"
+      },
+      {
+        "zh": "会的。这句是承诺，不用拿来猜结尾。",
+        "py": "huì de . zhè jù shì chéng nuò , bù yòng ná lái cāi jié wěi .",
+        "en": "I will.That one's a promise,no need to interpret it like the ending.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "拆信",
+        "pinyin": "chāi xìn",
+        "meaning": "open a letter"
+      },
+      {
+        "hanzi": "车票",
+        "pinyin": "chē piào",
+        "meaning": "train or bus ticket"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      },
+      {
+        "hanzi": "忘",
+        "pinyin": "wàng",
+        "meaning": "forget"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What distinction do the friends preserve?",
+        "choices": [
+          "An open fictional ending versus real travel arrangements",
+          "Every lyric predicts a return date",
+          "Every audience guess is a known fact"
+        ],
+        "answer": "An open fictional ending versus real travel arrangements"
+      },
+      {
+        "type": "detail",
+        "q": "When and where is the real send-off?",
+        "choices": [
+          "Eight thirty at the station entrance before the nine train",
+          "Nine thirty inside the venue tonight",
+          "Next Monday at a café"
+        ],
+        "answer": "Eight thirty at the station entrance before the nine train"
+      },
+      {
+        "type": "inference",
+        "q": "Why stop singing before ten?",
+        "choices": [
+          "Closing duties and the traveller’s rest need time",
+          "The friendship has ended",
+          "Every song has been permanently banned"
+        ],
+        "answer": "Closing duties and the traveller’s rest need time"
+      }
+    ]
+  },
+  "reading": {
+    "id": "s6-u12-r",
+    "title": "把下一页留给下次",
+    "titleZh": "把下一页留给下次",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "短剧最后一幕在车站，主角把一封信递给要走的朋友。她接过来，放进包，没有拆。灯慢慢暗下来，旁边的歌唱到门还没关。我坐在第三排，看见她拉好包带，回头望了一眼，觉得信里肯定是在叫她别走。散场后我把这个想法讲给陈宇，他问哪一句写了别走。我翻节目单找了半天，没有找到。他笑着说刚才连信都没拆，你怎么看到里面的字。我只好把节目单合上，说好吧，那是我猜的。",
+        "py": "duǎn jù zuì hòu yī mù zài chē zhàn , zhǔ jué bǎ yī fēng xìn dì gěi yào zǒu de péng you . tā jiē guò lái , fàng jìn bāo , méi yǒu chāi . dēng màn màn àn xià lái , páng biān de gē chàng dào mén hái méi guān . wǒ zuò zài dì sān pái , kàn jiàn tā lā hǎo bāo dài , huí tóu wàng le yī yǎn , jué de xìn lǐ kěn dìng shì zài jiào tā bié zǒu . sàn chǎng hòu wǒ bǎ zhè gè xiǎng fǎ jiǎng gěi chén yǔ , tā wèn nǎ yī jù xiě le bié zǒu . wǒ fān jié mù dān zhǎo le bàn tiān , méi yǒu zhǎo dào . tā xiào zhe shuō gāng cái lián xìn dōu méi chāi , nǐ zěn me kàn dào lǐ miàn de zì . wǒ zhǐ hǎo bǎ jié mù dān hé shàng , shuō hǎo ba , nà shì wǒ cāi de .",
+        "en": "In the final station scene, the lead handed a letter to the departing friend. She put it in her bag without opening it. As the lights dimmed, the song mentioned an open door. From the third row, her tightened strap and backward glance made me sure the letter asked her not to leave. Afterwards Chen Yu asked which line said that. I searched the programme without finding it. She hadn't even opened the letter—how had I seen its words? I closed the programme and admitted it was my guess."
+      },
+      {
+        "zh": "陈宇问我为什么这样猜，我说她回头时停了好一会儿，歌也还没结束。他倒觉得那封信是让她到了以后再看，因为前面她说过到了再告诉你。我拿节目单指给他看，问那桌边写信写了那么久呢，他说所以才有很多话，不一定只写别走。我们从最后一幕又讲回前面，越讲越想再看一次。旁边一个朋友插进来，说你们两个猜了半天，还没问演戏的人。我们一起转头，才发现林安已经拿着水出来了。",
+        "py": "chén yǔ wèn wǒ wèi shén me zhè yàng cāi , wǒ shuō tā huí tóu shí tíng le hǎo yī huì er , gē yě hái méi jié shù . tā dào jué de nà fēng xìn shì ràng tā dào le yǐ hòu zài kàn , yīn wèi qián miàn tā shuō guò dào le zài gào sù nǐ . wǒ ná jié mù dān zhǐ gěi tā kàn , wèn nà zhuō biān xiě xìn xiě le nà me jiǔ ne , tā shuō suǒ yǐ cái yǒu hěn duō huà , bù yí dìng zhǐ xiě bié zǒu . wǒ men cóng zuì hòu yī mù yòu jiǎng huí qián miàn , yuè jiǎng yuè xiǎng zài kàn yī cì . páng biān yī gè péng you chā jìn lái , shuō nǐ men liǎng gè cāi le bàn tiān , hái méi wèn yǎn xì de rén . wǒ men yì qǐ zhuǎn tóu , cái fā xiàn lín ān yǐ jīng ná zhe shuǐ chū lái le .",
+        "en": "Why had I guessed that? Her backward glance lasted, and the song wasn't over. Chen Yu thought she might read the letter after arriving, recalling 'I'll tell you when I get there.' What about the long letter-writing scene? There could be plenty to say beyond asking her to stay. We talked backwards through the play and increasingly wanted another viewing. A friend interrupted: we'd spent all this time guessing without asking the actors. Turning around, we found Lin An had already emerged with water."
+      },
+      {
+        "zh": "林安从后台出来，还拿着半杯水。她今晚演要走的朋友，明早也要坐车去另一个城市，大家围过来就先问信里写了什么。她笑着说剧本没有写，问我们各猜了什么。一个朋友说肯定是让她下周回来，她举起水杯，说先让我把这杯喝完，下周还得看工作。我说好，那明天几点送你，她终于把手机拿出来，指着九点的车次给我看。她点开日期，我这才看清车票早就买好了。",
+        "py": "lín ān cóng hòu tái chū lái , hái ná zhe bàn bēi shuǐ . tā jīn wǎn yǎn yào zǒu de péng you , míng zǎo yě yào zuò chē qù lìng yī gè chéng shì , dà jiā wéi guò lái jiù xiān wèn xìn lǐ xiě le shén me . tā xiào zhe shuō jù běn méi yǒu xiě , wèn wǒ men gè cāi le shén me . yī gè péng you shuō kěn dìng shì ràng tā xià zhōu huí lái , tā jǔ qǐ shuǐ bēi , shuō xiān ràng wǒ bǎ zhè bēi hē wán , xià zhōu hái děi kàn gōng zuò . wǒ shuō hǎo , nà míng tiān jǐ diǎn sòng nǐ , tā zhōng yú bǎ shǒu jī ná chū lái , zhǐ zhe jiǔ diǎn de chē cì gěi wǒ kàn . tā diǎn kāi rì qī , wǒ zhè cái kàn qīng chē piào zǎo jiù mǎi hǎo le .",
+        "en": "Lin An came backstage with half a cup of water. Like her departing character, she'd travel to another city tomorrow. We crowded round to ask what the letter said. The script didn't say; what did we think? Someone thought it asked her back next week. First let her finish her water, she laughed; next week depended on work. Asked about tomorrow, she showed me the nine o'clock departure on her phone. Opening the date, she let me see that the ticket was already booked."
+      },
+      {
+        "zh": "我还想再听一遍歌，问能不能从灯还亮着那句再来。林安看了看表，说九点半了，十点关门，先收东西吧。陈宇把设备关掉，我和朋友把椅子搬回墙边，刚才坐过的地方一下空了。到了门口，林安轻声唱起今晚这句已经有人听见，我跟着接后面，却又忘了词。她把节目单递给我，上面写着把下一页留给下一次见面。我照着唱完，问下一次是哪天，她说现在还不知道，先让我明天坐上车吧。",
+        "py": "wǒ hái xiǎng zài tīng yī biàn gē , wèn néng bù néng cóng dēng hái liàng zhe nà jù zài lái . lín ān kàn le kàn biǎo , shuō jiǔ diǎn bàn le , shí diǎn guān mén , xiān shōu dōng xi ba . chén yǔ bǎ shè bèi guān diào , wǒ hé péng you bǎ yǐ zi bān huí qiáng biān , gāng cái zuò guò de dì fāng yī xià kōng le . dào le mén kǒu , lín ān qīng shēng chàng qǐ jīn wǎn zhè jù yǐ jīng yǒu rén tīng jiàn , wǒ gēn zhe jiē hòu miàn , què yòu wàng le cí . tā bǎ jié mù dān dì gěi wǒ , shàng miàn xiě zhe bǎ xià yī yè liú gěi xià yī cì jiàn miàn . wǒ zhào zhe chàng wán , wèn xià yī cì shì nǎ tiān , tā shuō xiàn zài hái bù zhī dào , xiān ràng wǒ míng tiān zuò shàng chē ba .",
+        "en": "Could we sing again from 'the light is still on'? Lin An checked the time: 9:30, with closing at ten; we'd pack first. Chen Yu shut down the equipment while we carried chairs to the wall. At the door she quietly sang 'someone has heard this line tonight.' I tried to join but forgot the words again. Her programme supplied 'leave the next page for our next meeting.' After singing it, I asked when that would be. She didn't know yet—first let her catch tomorrow's train."
+      },
+      {
+        "zh": "第二天我八点半到车站入口，带了一瓶水。林安拉着箱子过来，问其他人呢，我说几个要上班，今天就我来。她接过水，让我帮她拿一下包，自己把箱子上的节目单收进去。我们站到不挡人的地方，又聊昨晚那封信，她还是让我自己猜。我问到了以后能不能告诉我们一声，她说可以，到了就在群里发消息。九点的车快开了，她拿回包，挥挥手走进入口。我站了一会儿，才发现自己手里还拿着没打开的另一瓶水。",
+        "py": "dì èr tiān wǒ bā diǎn bàn dào chē zhàn rù kǒu , dài le yī píng shuǐ . lín ān lā zhe xiāng zi guò lái , wèn qí tā rén ne , wǒ shuō jǐ gè yào shàng bān , jīn tiān jiù wǒ lái . tā jiē guò shuǐ , ràng wǒ bāng tā ná yī xià bāo , zì jǐ bǎ xiāng zi shàng de jié mù dān shōu jìn qù . wǒ men zhàn dào bù dǎng rén de dì fāng , yòu liáo zuó wǎn nà fēng xìn , tā hái shi ràng wǒ zì jǐ cāi . wǒ wèn dào le yǐ hòu néng bù néng gào sù wǒ men yī shēng , tā shuō kě yǐ , dào le jiù zài qún lǐ fā xiāo xī . jiǔ diǎn de chē kuài kāi le , tā ná huí bāo , huī huī shǒu zǒu jìn rù kǒu . wǒ zhàn le yī huì er , cái fā xiàn zì jǐ shǒu lǐ hái ná zhe méi dǎ kāi de lìng yī píng shuǐ .",
+        "en": "At 8:30 I met Lin An at the station entrance with water. Where were the others? Some had work; it was just me. She had me hold her bag while she packed the programme from her suitcase. Standing out of the way, we discussed the letter again; she still left me to guess. Could she let us know when she arrived? Yes, she'd message the group. With the nine o'clock train nearing departure, she took back her bag and waved. After watching her go, I noticed the other unopened bottle still in my hand."
+      },
+      {
+        "zh": "第二天晚上她发来照片，窗外有很远的灯，配了一句到了，明天再收东西。我把昨天的节目单夹进书里，回她今天有没有忘带伞。她说没有，水也喝完了，又问最后那段录像能不能发给她。我找到递信以后的一小段，先看了一遍，还是没见到信里面写什么。发过去时，我说这回终于把你唱的最后一句听全，下次见面再讲我猜的结尾。",
+        "py": "dì èr tiān wǎn shang tā fā lái zhào piān , chuāng wài yǒu hěn yuǎn de dēng , pèi le yī jù dào le , míng tiān zài shōu dōng xi . wǒ bǎ zuó tiān de jié mù dān jiā jìn shū lǐ , huí tā jīn tiān yǒu méi yǒu wàng dài sǎn . tā shuō méi yǒu , shuǐ yě hē wán le , yòu wèn zuì hòu nà duàn lù xiàng néng bù néng fā gěi tā . wǒ zhǎo dào dì xìn yǐ hòu de yī xiǎo duàn , xiān kàn le yī biàn , hái shi méi jiàn dào xìn lǐ miàn xiě shén me . fā guò qù shí , wǒ shuō zhè huí zhōng yú bǎ nǐ chàng de zuì hòu yī jù tīng quán , xià cì jiàn miàn zài jiǎng wǒ cāi de jié wěi .",
+        "en": "The next evening she sent a photo of distant lights outside: she'd arrived and would unpack tomorrow. I tucked yesterday's programme inside a book and asked if she'd forgotten her umbrella. No, and she'd finished the water too. Could I send the last part of the video? Watching the section after the letter was handed over, I still couldn't see its contents. I sent it, saying I'd finally caught her full last line and would share my guessed ending next time we met."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "后台",
+        "pinyin": "hòu tái",
+        "meaning": "backstage"
+      },
+      {
+        "hanzi": "台词",
+        "pinyin": "tái cí",
+        "meaning": "spoken script"
+      },
+      {
+        "hanzi": "包带",
+        "pinyin": "bāo dài",
+        "meaning": "bag strap"
+      },
+      {
+        "hanzi": "车票",
+        "pinyin": "chē piào",
+        "meaning": "train or bus ticket"
+      },
+      {
+        "hanzi": "夹",
+        "pinyin": "jiā",
+        "meaning": "insert between"
+      },
+      {
+        "hanzi": "舍不得",
+        "pinyin": "shě bu de",
+        "meaning": "be reluctant to part with"
+      },
+      {
+        "hanzi": "角色",
+        "pinyin": "jué sè",
+        "meaning": "role; character"
+      },
+      {
+        "hanzi": "下一页",
+        "pinyin": "xià yī yè",
+        "meaning": "next page"
+      },
+      {
+        "hanzi": "主角",
+        "pinyin": "zhǔ jué",
+        "meaning": "lead character"
+      },
+      {
+        "hanzi": "箱子",
+        "pinyin": "xiāng zi",
+        "meaning": "box; suitcase"
+      },
+      {
+        "hanzi": "车次",
+        "pinyin": "chē cì",
+        "meaning": "scheduled train service"
+      },
+      {
+        "hanzi": "节目单",
+        "pinyin": "jié mù dān",
+        "meaning": "programme"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      },
+      {
+        "hanzi": "忘",
+        "pinyin": "wàng",
+        "meaning": "forget"
+      },
+      {
+        "hanzi": "瓶",
+        "pinyin": "píng",
+        "meaning": "bottle"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the audience narrator learn?",
+        "choices": [
+          "State an interpretation as one,and retain actual promises separately",
+          "Claim the unseen letter contents as certain",
+          "Treat one friend’s departure as a universal ban on contact"
+        ],
+        "answer": "State an interpretation as one,and retain actual promises separately"
+      },
+      {
+        "type": "detail",
+        "q": "Is the letter opened for the audience?",
+        "choices": [
+          "No",
+          "Yes,the whole text is projected",
+          "Yes,before the music"
+        ],
+        "answer": "No"
+      },
+      {
+        "type": "inference",
+        "q": "Which is an explicit real promise?",
+        "choices": [
+          "Message after arrival",
+          "Return next week",
+          "Everyone will join the station send-off"
+        ],
+        "answer": "Message after arrival"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "短剧最后一幕在车站，【主角】把一封信递给要走的朋友。她接过来，放进包，没有拆。灯慢慢暗下来，旁边的歌唱到门还没关。我坐在第三排，看见她拉好包带，回头望了一眼，觉得信里肯定是在叫她别走。散场后我把这个想法讲给陈宇，他问哪一句写了别走。我翻节目单找了半天，没有找到。他笑着说刚才连信都没拆，你怎么看到里面的字。我只好把节目单合上，说好吧，那是我猜的。",
+          "py": "duǎn jù zuì hòu yī mù zài chē zhàn , zhǔ jué bǎ yī fēng xìn dì gěi yào zǒu de péng you . tā jiē guò lái , fàng jìn bāo , méi yǒu chāi . dēng màn màn àn xià lái , páng biān de gē chàng dào mén hái méi guān . wǒ zuò zài dì sān pái , kàn jiàn tā lā hǎo bāo dài , huí tóu wàng le yī yǎn , jué de xìn lǐ kěn dìng shì zài jiào tā bié zǒu . sàn chǎng hòu wǒ bǎ zhè gè xiǎng fǎ jiǎng gěi chén yǔ , tā wèn nǎ yī jù xiě le bié zǒu . wǒ fān jié mù dān zhǎo le bàn tiān , méi yǒu zhǎo dào . tā xiào zhe shuō gāng cái lián xìn dōu méi chāi , nǐ zěn me kàn dào lǐ miàn de zì . wǒ zhǐ hǎo bǎ jié mù dān hé shàng , shuō hǎo ba , nà shì wǒ cāi de .",
+          "en": "In the final station scene, the lead handed a letter to the departing friend. She put it in her bag without opening it. As the lights dimmed, the song mentioned an open door. From the third row, her tightened strap and backward glance made me sure the letter asked her not to leave. Afterwards Chen Yu asked which line said that. I searched the programme without finding it. She hadn't even opened the letter—how had I seen its words? I closed the programme and admitted it was my guess."
+        }
+      ],
+      "bank": [
+        "主角",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u12-media",
+      "title": "The light is still on",
+      "titleZh": "The light is still on",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "窗边的雨还没有停，",
+          "py": "chuāng biān de yǔ hái méi yǒu tíng ,",
+          "en": "The rain beside the window hasn't stopped,",
+          "speaker": "a"
+        },
+        {
+          "zh": "你把最后一句留在门边。",
+          "py": "nǐ bǎ zuì hòu yī jù liú zài mén biān .",
+          "en": "You leave the final sentence by the door.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我把灯调暗一点，",
+          "py": "wǒ bǎ dēng diào àn yī diǎn ,",
+          "en": "I turn the light down a little,",
+          "speaker": "a"
+        },
+        {
+          "zh": "让没说完的话坐在身边。",
+          "py": "ràng méi shuō wán de huà zuò zài shēn biān .",
+          "en": "And let unfinished words sit beside me.",
+          "speaker": "b"
+        },
+        {
+          "zh": "远处有人叫你的名字，",
+          "py": "yuǎn chù yǒu rén jiào nǐ de míng zi ,",
+          "en": "Someone far away calls your name,",
+          "speaker": "a"
+        },
+        {
+          "zh": "脚步从这一页走向明天。",
+          "py": "jiǎo bù cóng zhè yī yè zǒu xiàng míng tiān .",
+          "en": "Footsteps walk from this page towards tomorrow.",
+          "speaker": "b"
+        },
+        {
+          "zh": "灯还亮着，门还没关，",
+          "py": "dēng hái liàng zhe , mén hái méi guān ,",
+          "en": "The light is still on,the door still open,",
+          "speaker": "a"
+        },
+        {
+          "zh": "不是每一次等候都要答案。",
+          "py": "bù shì měi yī cì děng hòu dōu yào dá àn .",
+          "en": "Not every wait needs an answer.",
+          "speaker": "b"
+        },
+        {
+          "zh": "我在雨里听见一段歌，",
+          "py": "wǒ zài yǔ lǐ tīng jiàn yī duàn gē ,",
+          "en": "In the rain I hear a piece of song,",
+          "speaker": "a"
+        },
+        {
+          "zh": "唱到这里，先停一停。",
+          "py": "chàng dào zhè lǐ , xiān tíng yī tíng .",
+          "en": "Sing this far,and pause for now.",
+          "speaker": "b"
+        },
+        {
+          "zh": "下一页留给下一次见面，",
+          "py": "xià yī yè liú gěi xià yī cì jiàn miàn ,",
+          "en": "Leave the next page for the next meeting,",
+          "speaker": "a"
+        },
+        {
+          "zh": "今晚这句，已经有人听见。",
+          "py": "jīn wǎn zhè jù , yǐ jīng yǒu rén tīng jiàn .",
+          "en": "Someone has already heard tonight's line.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "调暗",
+          "pinyin": "diào àn",
+          "meaning": "dim"
+        },
+        {
+          "hanzi": "下一页",
+          "pinyin": "xià yī yè",
+          "meaning": "next page"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What is left for a later meeting?",
+          "choices": [
+            "The next page",
+            "A guaranteed next-Monday ticket",
+            "An opened letter with every answer"
+          ],
+          "answer": "The next page"
+        },
+        {
+          "type": "inference",
+          "q": "Does not every wait needs an answer mean none can have one?",
+          "choices": [
+            "No,it denies all,not every instance",
+            "Yes,no answer can ever occur",
+            "Yes,it proves the date"
+          ],
+          "answer": "No,it denies all,not every instance"
+        }
+      ]
+    },
+    {
+      "id": "s6-u12-word-notebook",
+      "title": "Leave a page for next time: words in context",
+      "titleZh": "把下一页留给下次 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "她的心愿是走之前再一起唱一次。",
+          "py": "tā de xīn yuàn shì zǒu zhī qián zài yì qǐ chàng yī cì .",
+          "en": "Her wish is to sing together once before leaving."
+        },
+        {
+          "zh": "这个心愿一直没有说出口。",
+          "py": "zhè gè xīn yuàn yì zhí méi yǒu shuō chū kǒu .",
+          "en": "This wish has remained unspoken."
+        },
+        {
+          "zh": "这首歌写心灵里没有说完的话。",
+          "py": "zhè shǒu gē xiě xīn líng lǐ méi yǒu shuō wán de huà .",
+          "en": "The song concerns words left unsaid in the inner self."
+        },
+        {
+          "zh": "书里的故事触动了她的心灵。",
+          "py": "shū lǐ de gù shì chù dòng le tā de xīn líng .",
+          "en": "The story moved her deeply."
+        },
+        {
+          "zh": "海浪的声音接在最后一句后面。",
+          "py": "hǎi làng de shēng yīn jiē zài zuì hòu yī jù hòu miàn .",
+          "en": "Sea-wave sounds follow the final line."
+        },
+        {
+          "zh": "他们坐在岸边听海浪。",
+          "py": "tā men zuò zài àn biān tīng hǎi làng .",
+          "en": "They sit by the shore listening to waves."
+        },
+        {
+          "zh": "她要去远方，但没有说永远不回来。",
+          "py": "tā yào qù yuǎn fāng , dàn méi yǒu shuō yǒng yuǎn bù huí lái .",
+          "en": "She's going far away without saying she'll never return."
+        },
+        {
+          "zh": "这封信来自远方。",
+          "py": "zhè fēng xìn lái zì yuǎn fāng .",
+          "en": "This letter comes from far away."
+        },
+        {
+          "zh": "这一句有孤独，也有期待。",
+          "py": "zhè yī jù yǒu gū dú , yě yǒu qī dài .",
+          "en": "This line contains loneliness and anticipation."
+        },
+        {
+          "zh": "她有时觉得孤独，仍愿意联系朋友。",
+          "py": "tā yǒu shí jué de gū dú , réng yuàn yì lián xì péng you .",
+          "en": "She sometimes feels lonely but still wants to contact friends."
+        },
+        {
+          "zh": "一起排练增进了了解。",
+          "py": "yì qǐ pái liàn zēng jìn le liǎo jiě .",
+          "en": "Rehearsing together deepened understanding."
+        },
+        {
+          "zh": "这些交流能增进感情。",
+          "py": "zhè xiē jiāo liú néng zēng jìn gǎn qíng .",
+          "en": "These exchanges can strengthen affection."
+        },
+        {
+          "zh": "我想平衡演出和休息。",
+          "py": "wǒ xiǎng píng héng yǎn chū hé xiū xī .",
+          "en": "I want to balance performing and resting."
+        },
+        {
+          "zh": "两种安排之间需要平衡。",
+          "py": "liǎng zhǒng ān pái zhī jiān xū yào píng héng .",
+          "en": "The two arrangements need balancing."
+        },
+        {
+          "zh": "这段把说话和音乐融合起来。",
+          "py": "zhè duàn bǎ shuō huà hé yīn yuè róng hé qǐ lái .",
+          "en": "This passage blends speech and music."
+        },
+        {
+          "zh": "作品融合了两种形式。",
+          "py": "zuò pǐn róng hé le liǎng zhǒng xíng shì .",
+          "en": "The work blends two forms."
+        },
+        {
+          "zh": "雨声是这段音乐的一个元素。",
+          "py": "yǔ shēng shì zhè duàn yīn yuè de yī gè yuán sù .",
+          "en": "Rain sounds are an element of this music."
+        },
+        {
+          "zh": "别把每个元素都解释成一个人。",
+          "py": "bié bǎ měi gè yuán sù dōu jiě shì chéng yī gè rén .",
+          "en": "Don't interpret every element as a person."
+        },
+        {
+          "zh": "演奏结束后，她才把信拿出来。",
+          "py": "yǎn zòu jié shù hòu , tā cái bǎ xìn ná chū lái .",
+          "en": "She takes out the letter after the performance."
+        },
+        {
+          "zh": "他愿意演奏最后一段。",
+          "py": "tā yuàn yì yǎn zòu zuì hòu yī duàn .",
+          "en": "He's willing to play the final passage."
+        },
+        {
+          "zh": "歌词没有写归来的日期。",
+          "py": "gē cí méi yǒu xiě guī lái de rì qī .",
+          "en": "The lyrics give no return date."
+        },
+        {
+          "zh": "我先把歌词读完整。",
+          "py": "wǒ xiān bǎ gē cí dú wán zhěng .",
+          "en": "I'll read the full lyrics first."
+        },
+        {
+          "zh": "这一段节奏慢下来，话却没变。",
+          "py": "zhè yī duàn jié zòu màn xià lái , huà què méi biàn .",
+          "en": "The passage slows while the words remain unchanged."
+        },
+        {
+          "zh": "她想找到合适的节奏。",
+          "py": "tā xiǎng zhǎo dào hé shì de jié zòu .",
+          "en": "She wants to find a suitable rhythm."
+        },
+        {
+          "zh": "乐曲在说话之后开始。",
+          "py": "yuè qǔ zài shuō huà zhī hòu kāi shǐ .",
+          "en": "The piece starts after the spoken dialogue."
+        },
+        {
+          "zh": "这首乐曲我想再听一遍。",
+          "py": "zhè shǒu yuè qǔ wǒ xiǎng zài tīng yī biàn .",
+          "en": "I'd like to hear this piece again."
+        },
+        {
+          "zh": "这段短剧今晚首次上演。",
+          "py": "zhè duàn duǎn jù jīn wǎn shǒu cì shàng yǎn .",
+          "en": "This short play is staged for the first time tonight."
+        },
+        {
+          "zh": "同一场景又上演了一次。",
+          "py": "tóng yī chǎng jǐng yòu shàng yǎn le yī cì .",
+          "en": "The same scene was staged again."
+        },
+        {
+          "zh": "她上台以前先喝了水。",
+          "py": "tā shàng tái yǐ qián xiān hē le shuǐ .",
+          "en": "She drank water before going onstage."
+        },
+        {
+          "zh": "上台并不表示不紧张。",
+          "py": "shàng tái bìng bù biǎo shì bù jǐn zhāng .",
+          "en": "Going onstage doesn't mean not being nervous."
+        },
+        {
+          "zh": "主角最后没有拆信。",
+          "py": "zhǔ jué zuì hòu méi yǒu chāi xìn .",
+          "en": "The lead doesn't open the letter at the end."
+        },
+        {
+          "zh": "你从哪一幕改变了对主角的看法？",
+          "py": "nǐ cóng nǎ yī mù gǎi biàn le duì zhǔ jué de kàn fǎ ?",
+          "en": "Which scene changed your view of the lead?"
+        },
+        {
+          "zh": "这个场景发生在车站。",
+          "py": "zhè gè chǎng jǐng fā shēng zài chē zhàn .",
+          "en": "This scene takes place at the station."
+        },
+        {
+          "zh": "换了场景，人物关系没有全变。",
+          "py": "huàn le chǎng jǐng , rén wù guān xì méi yǒu quán biàn .",
+          "en": "The setting changes without every relationship changing."
+        },
+        {
+          "zh": "场馆十点关闭。",
+          "py": "chǎng guǎn shí diǎn guān bì .",
+          "en": "The venue closes at ten."
+        },
+        {
+          "zh": "先确认场馆的开放时间。",
+          "py": "xiān què rèn chǎng guǎn de kāi fàng shí jiān .",
+          "en": "First confirm the venue's opening hours."
+        },
+        {
+          "zh": "明早我们去车站送行。",
+          "py": "míng zǎo wǒ men qù chē zhàn sòng xíng .",
+          "en": "We'll see her off at the station tomorrow morning."
+        },
+        {
+          "zh": "她说不用每个人都来送行。",
+          "py": "tā shuō bù yòng měi gè rén dōu lái sòng xíng .",
+          "en": "She says not everyone needs to see her off."
+        },
+        {
+          "zh": "那段安静让我很难忘。",
+          "py": "nà duàn ān jìng ràng wǒ hěn nán wàng .",
+          "en": "That quiet passage is memorable to me."
+        },
+        {
+          "zh": "这是一场难忘的见面。",
+          "py": "zhè shì yī chǎng nán wàng de jiàn miàn .",
+          "en": "This is a memorable meeting."
+        },
+        {
+          "zh": "没唱完有点遗憾，但还能下次接着唱。",
+          "py": "méi chàng wán yǒu diǎn yí hàn , dàn hái néng xià cì jiē zhe chàng .",
+          "en": "Not finishing is disappointing,but we can continue next time."
+        },
+        {
+          "zh": "她为错过那一幕感到遗憾。",
+          "py": "tā wèi cuò guò nà yī mù gǎn dào yí hàn .",
+          "en": "She regrets missing that scene."
+        },
+        {
+          "zh": "她的情绪在最后一段变了。",
+          "py": "tā de qíng xù zài zuì hòu yī duàn biàn le .",
+          "en": "Her mood changes in the final passage."
+        },
+        {
+          "zh": "先听情绪，再看具体的词。",
+          "py": "xiān tīng qíng xù , zài kàn jù tǐ de cí .",
+          "en": "Listen to the mood,then inspect the actual words."
+        },
+        {
+          "zh": "她没有隐藏要走的事。",
+          "py": "tā méi yǒu yǐn cáng yào zǒu de shì .",
+          "en": "She didn't hide that she was leaving."
+        },
+        {
+          "zh": "那句话里隐藏着一个没问出来的问题。",
+          "py": "nà jù huà lǐ yǐn cáng zhe yī gè méi wèn chū lái de wèn tí .",
+          "en": "That sentence conceals an unasked question."
+        },
+        {
+          "zh": "结尾只透露他已经写过信。",
+          "py": "jié wěi zhǐ tòu lù tā yǐ jīng xiě guò xìn .",
+          "en": "The ending only reveals he has written a letter."
+        },
+        {
+          "zh": "她透露了下一场的地点。",
+          "py": "tā tòu lù le xià yī chǎng de dì diǎn .",
+          "en": "She revealed the next venue."
+        },
+        {
+          "zh": "我想收藏这张节目单。",
+          "py": "wǒ xiǎng shōu cáng zhè zhāng jié mù dān .",
+          "en": "I'd like to keep this programme."
+        },
+        {
+          "zh": "她收藏了几张旧照片。",
+          "py": "tā shōu cáng le jǐ zhāng jiù zhào piān .",
+          "en": "She keeps a few old photographs in a collection."
+        },
+        {
+          "zh": "经过一番商量，我们先收东西。",
+          "py": "jīng guò yī fān shāng liáng , wǒ men xiān shōu dōng xi .",
+          "en": "After some discussion,we put things away first."
+        },
+        {
+          "zh": "她一番话让我明白了。",
+          "py": "tā yī fān huà ràng wǒ míng bái le .",
+          "en": "Her explanation helped me understand."
+        },
+        {
+          "zh": "这段时而轻，时而响。",
+          "py": "zhè duàn shí ér qīng , shí ér xiǎng .",
+          "en": "This passage is now quiet,now loud."
+        },
+        {
+          "zh": "她时而笑，时而看窗外。",
+          "py": "tā shí ér xiào , shí ér kàn chuāng wài .",
+          "en": "She alternately laughs and looks outside."
+        },
+        {
+          "zh": "早晚还会见面，不等于已经定好日期。",
+          "py": "zǎo wǎn hái huì jiàn miàn , bù děng yú yǐ jīng dìng hǎo rì qī .",
+          "en": "Seeing each other sooner or later isn't a fixed date."
+        },
+        {
+          "zh": "这个问题早晚要面对。",
+          "py": "zhè gè wèn tí zǎo wǎn yào miàn duì .",
+          "en": "This issue needs facing sooner or later."
+        },
+        {
+          "zh": "她仿佛想说什么，又停了。",
+          "py": "tā fǎng fú xiǎng shuō shén me , yòu tíng le .",
+          "en": "She seems about to speak,then stops."
+        },
+        {
+          "zh": "雨声仿佛从窗外进来。",
+          "py": "yǔ shēng fǎng fú cóng chuāng wài jìn lái .",
+          "en": "The rain sounds seem to come in from outside."
+        },
+        {
+          "zh": "我盼望下次一起唱。",
+          "py": "wǒ pàn wàng xià cì yì qǐ chàng .",
+          "en": "I look forward to singing together next time."
+        },
+        {
+          "zh": "她盼望收到朋友的消息。",
+          "py": "tā pàn wàng shōu dào péng you de xiāo xī .",
+          "en": "She looks forward to a friend's message."
+        },
+        {
+          "zh": "到了以后给我们留言。",
+          "py": "dào le yǐ hòu gěi wǒ men liú yán .",
+          "en": "Leave us a message after arriving."
+        },
+        {
+          "zh": "他留言说今天会晚一点。",
+          "py": "tā liú yán shuō jīn tiān huì wǎn yī diǎn .",
+          "en": "He left a message saying he'd be late today."
+        },
+        {
+          "zh": "没有确定时间，就别承诺周末回来。",
+          "py": "méi yǒu què dìng shí jiān , jiù bié chéng nuò zhōu mò huí lái .",
+          "en": "Don't promise a weekend return before the time is settled."
+        },
+        {
+          "zh": "她承诺到了以后发消息。",
+          "py": "tā chéng nuò dào le yǐ hòu fā xiāo xī .",
+          "en": "She promised to message after arriving."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "拆信",
+          "pinyin": "chāi xìn",
+          "meaning": "open a letter"
+        },
+        {
+          "hanzi": "主角",
+          "pinyin": "zhǔ jué",
+          "meaning": "lead character"
+        },
+        {
+          "hanzi": "仿佛",
+          "pinyin": "fǎng fú",
+          "meaning": "as if"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "忘",
+          "pinyin": "wàng",
+          "meaning": "forget"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u12-paired-reading",
+      "title": "The musician keeps the pause",
+      "titleZh": "The musician keeps the pause",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "写这首歌的时候，我先写了灯还亮着，再把它放进车站那场戏后面。排练时有人说灯就是等那个朋友回来，我拿着吉他想了一会儿，说我开始写的是人走了，话还留在那个晚上。他说听起来也像在等，我就请他唱一遍他的版本。轮到我唱，最后一句又慢了一点，两个人把录音听完，都觉得那盏灯和开始写时已经有点不一样。至于下周，我连自己的工作时间还没排好，歌词里也确实没写日期。",
+          "py": "xiě zhè shǒu gē de shí hou , wǒ xiān xiě le dēng hái liàng zhe , zài bǎ tā fàng jìn chē zhàn nà chǎng xì hòu miàn . pái liàn shí yǒu rén shuō dēng jiù shì děng nà gè péng you huí lái , wǒ ná zhe jí tā xiǎng le yī huì er , shuō wǒ kāi shǐ xiě de shì rén zǒu le , huà hái liú zài nà gè wǎn shang . tā shuō tīng qǐ lái yě xiàng zài děng , wǒ jiù qǐng tā chàng yī biàn tā de bǎn běn . lún dào wǒ chàng , zuì hòu yī jù yòu màn le yī diǎn , liǎng gè rén bǎ lù yīn tīng wán , dōu jué de nà zhǎn dēng hé kāi shǐ xiě shí yǐ jīng yǒu diǎn bù yī yàng . zhì yú xià zhōu , wǒ lián zì jǐ de gōng zuò shí jiān hái méi pái hǎo , gē cí lǐ yě què shí méi xiě rì qī .",
+          "en": "I first wrote 'the light is still on,' then placed it after the station scene. Someone heard waiting for the friend to return. Holding my guitar, I said I'd begun with someone leaving while the words stayed in that evening. We each sang a version; mine slowed the last line. Listening back, the lamp felt a little different from when I'd written it. As for next week, my own work schedule wasn't set, and the lyric gave no date."
+        },
+        {
+          "zh": "后来林安建议把下一页留给下一次见面放到后面，而不是开头。前面的雨声和脚步让人先听见离开，后面的那句才带出再见面的盼望。我喜欢这个顺序，可第一次唱太快，下一页几乎跟上一句粘在一起。朋友听完问，结尾不是说先停一停吗，怎么又约见面？我把两句完整读给他听，再按句子分开唱。他跟着读了一遍，笑着说这次听到了，不过最后那个面还能再留长一点。我试着慢下来，林安在旁边数了四下，两个人终于能接上。",
+          "py": "hòu lái lín ān jiàn yì bǎ xià yī yè liú gěi xià yī cì jiàn miàn fàng dào hòu miàn , ér bù shì kāi tóu . qián miàn de yǔ shēng hé jiǎo bù ràng rén xiān tīng jiàn lí kāi , hòu miàn de nà jù cái dài chū zài jiàn miàn de pàn wàng . wǒ xǐ huān zhè gè shùn xù , kě dì yī cì chàng tài kuài , xià yī yè jī hū gēn shàng yī jù zhān zài yì qǐ . péng you tīng wán wèn , jié wěi bù shì shuō xiān tíng yī tíng ma , zěn me yòu yuē jiàn miàn ? wǒ bǎ liǎng jù wán zhěng dú gěi tā tīng , zài àn jù zi fēn kāi chàng . tā gēn zhe dú le yī biàn , xiào zhe shuō zhè cì tīng dào le , bù guò zuì hòu nà gè miàn hái néng zài liú zhǎng yī diǎn . wǒ shì zhe màn xià lái , lín ān zài páng biān shù le sì xià , liǎng gè rén zhōng yú néng jiē shàng .",
+          "en": "Lin An suggested putting 'leave the next page for our next meeting' near the end. Rain and footsteps first suggested departure; the later line brought back the hope of meeting. But I sang too quickly, joining it to the preceding phrase. My friend heard 'pause for now' and wondered why we were arranging a meeting. I read both lines in full, then sang them separately. He heard it this time, but suggested holding the final syllable a little longer. With Lin An counting four beats, we finally joined in time."
+        },
+        {
+          "zh": "我负责演奏，不演拿信的角色，所以排练时常从旁边看两人。有一次林安忘了把信放进包，直接拿在手上走，画面就像她随时会拆。我们试了两次，最后还是把信收进包，走到门边再回头。包带拉好以后，她看了一眼对方，没有拆信，就转身走。排练完，她问我刚才回头是不是太快。我说只看见头发动了，还没看清表情。她拿起包又走了一遍，回头时多停了一点。我举起吉他，按她走出去的速度再弹两句。陈宇站在门外听，提醒我们别走到一半就把灯关掉。",
+          "py": "wǒ fù zé yǎn zòu , bù yǎn ná xìn de jué sè , suǒ yǐ pái liàn shí cháng cóng páng biān kàn liǎng rén . yǒu yī cì lín ān wàng le bǎ xìn fàng jìn bāo , zhí jiē ná zài shǒu shàng zǒu , huà miàn jiù xiàng tā suí shí huì chāi . wǒ men shì le liǎng cì , zuì hòu hái shi bǎ xìn shōu jìn bāo , zǒu dào mén biān zài huí tóu . bāo dài lā hǎo yǐ hòu , tā kàn le yī yǎn duì fāng , méi yǒu chāi xìn , jiù zhuǎn shēn zǒu . pái liàn wán , tā wèn wǒ gāng cái huí tóu shì bú shì tài kuài . wǒ shuō zhǐ kàn jiàn tóu fà dòng le , hái méi kàn qīng biǎo qíng . tā ná qǐ bāo yòu zǒu le yī biàn , huí tóu shí duō tíng le yī diǎn . wǒ jǔ qǐ jí tā , àn tā zǒu chū qù de sù dù zài dàn liǎng jù . chén yǔ zhàn zài mén wài tīng , tí xǐng wǒ men bié zǒu dào yí bàn jiù bǎ dēng guān diào .",
+          "en": "As the musician, I watched the two actors from the side. Once Lin An left carrying the letter in her hand, looking ready to open it. After two trials, we put it in the bag and had her look back at the door. She fastened the strap, looked at the other character and left without opening the letter. Had she turned too quickly? I'd seen her hair move but missed her expression. She tried again, pausing longer as she turned. I played two phrases to match her departure; listening outside, Chen reminded us not to switch off the light halfway through."
+        },
+        {
+          "zh": "演出那晚，有人把戏里的离开和林安明早坐车连在一起，围着她问以后还回不回来。她举着水杯，说先别急，明早九点的车，八点半入口见，带水就好。要上班的人不用特意赶去。我第二天有工作，听完松了口气，今晚还可以留下收东西。她把没喝完的水放到桌上，和我一起卷起节目单，说到了以后会发消息，我就请她到时把新房间拍给我们看。",
+          "py": "yǎn chū nà wǎn , yǒu rén bǎ xì lǐ de lí kāi hé lín ān míng zǎo zuò chē lián zài yì qǐ , wéi zhe tā wèn yǐ hòu hái huí bù huí lái . tā jǔ zhe shuǐ bēi , shuō xiān bié jí , míng zǎo jiǔ diǎn de chē , bā diǎn bàn rù kǒu jiàn , dài shuǐ jiù hǎo . yào shàng bān de rén bù yòng tè yì gǎn qù . wǒ dì èr tiān yǒu gōng zuò , tīng wán sōng le kǒu qì , jīn wǎn hái kě yǐ liú xià shōu dōng xi . tā bǎ méi hē wán de shuǐ fàng dào zhuō shàng , hé wǒ yì qǐ juǎn qǐ jié mù dān , shuō dào le yǐ hòu huì fā xiāo xī , wǒ jiù qǐng tā dào shí bǎ xīn fáng jiān pāi gěi wǒ men kàn .",
+          "en": "After the performance we crowded round Lin An asking about returns. Holding her cup, she gave tomorrow's plan: a nine o'clock departure, meet at the entrance at 8:30, just bring water. People working needn't rush over. I had work and was relieved; I could still help pack tonight. Rolling up programmes together, she promised to message on arrival. I asked for a photograph of her new room."
+        },
+        {
+          "zh": "九点半以后，我们把设备关好。读书的人收纸，工作人员卷线，我把乐器装回盒子。有人走过来说再唱一分钟吧，我指着已经拔掉的线，说唱以前还得重新接线、调音，唱完又要收一遍。他看看空下来的桌子，说那算了，帮我把椅子搬过去。我在门口轻轻哼了一句，林安把最后一行接上，大家笑了。刚才还想再唱的人也跟着哼，没有回去开设备。工作人员拿来最后一把椅子，问我们明天是不是还起得来，我们马上把门让开，一边笑一边往外走。",
+          "py": "jiǔ diǎn bàn yǐ hòu , wǒ men bǎ shè bèi guān hǎo . dú shū de rén shōu zhǐ , gōng zuò rén yuán juǎn xiàn , wǒ bǎ yuè qì zhuāng huí hé zi . yǒu rén zǒu guò lái shuō zài chàng yī fēn zhōng ba , wǒ zhǐ zhe yǐ jīng bá diào de xiàn , shuō chàng yǐ qián hái děi chóng xīn jiē xiàn , diào yīn , chàng wán yòu yào shōu yī biàn . tā kàn kàn kōng xià lái de zhuō zi , shuō nà suàn le , bāng wǒ bǎ yǐ zi bān guò qù . wǒ zài mén kǒu qīng qīng hēng le yī jù , lín ān bǎ zuì hòu yī xíng jiē shàng , dà jiā xiào le . gāng cái hái xiǎng zài chàng de rén yě gēn zhe hēng , méi yǒu huí qù kāi shè bèi . gōng zuò rén yuán ná lái zuì hòu yī bǎ yǐ zi , wèn wǒ men míng tiān shì bú shì hái qǐ de lái , wǒ men mǎ shàng bǎ mén ràng kāi , yī biān xiào yī biān wǎng wài zǒu .",
+          "en": "After 9:30 we shut down the equipment. Others gathered papers and coiled cables while I packed my instrument. Someone asked for one more minute of singing. I pointed to the disconnected cable: we'd have to reconnect, tune and pack again. Looking at the cleared table, he offered to carry chairs instead. At the door I hummed a phrase; Lin An joined the last line, and we laughed. Even the friend who'd wanted more singing hummed along without restarting anything. Carrying the final chair, a staff member asked if we'd manage to get up tomorrow. We moved out of the doorway, still laughing."
+        },
+        {
+          "zh": "第二天，我在群里看见林安到了的消息，回她新房间看起来怎么样。她说窗很大，东西还没收好，先问昨晚的录像在哪里。我找到文件，把递信和最后一首歌那两段发过去。后来有人问下一次什么时候，我说还没定，等大家把各自的时间发来再约。林安听完录音，指出最后一句比排练时慢，我也发现陈宇在门外那句提醒被录进去了。我们给重复的歌词标了两处，把这一版存好。她说先去收箱子，晚上再听，我回她好，别又把那半杯水忘在桌上。",
+          "py": "dì èr tiān , wǒ zài qún lǐ kàn jiàn lín ān dào le de xiāo xī , huí tā xīn fáng jiān kàn qǐ lái zěn me yàng . tā shuō chuāng hěn dà , dōng xi hái mò shōu hǎo , xiān wèn zuó wǎn de lù xiàng zài nǎ lǐ . wǒ zhǎo dào wén jiàn , bǎ dì xìn hé zuì hòu yī shǒu gē nà liǎng duàn fā guò qù . hòu lái yǒu rén wèn xià yī cì shén me shí hou , wǒ shuō hái méi dìng , děng dà jiā bǎ gè zì de shí jiān fā lái zài yuē . lín ān tīng wán lù yīn , zhǐ chū zuì hòu yī jù bǐ pái liàn shí màn , wǒ yě fā xiàn chén yǔ zài mén wài nà jù tí xǐng bèi lù jìn qù le . wǒ men gěi chóng fù de gē cí biāo le liǎng chù , bǎ zhè yī bǎn cún hǎo . tā shuō xiān qù shōu xiāng zi , wǎn shang zài tīng , wǒ huí tā hǎo , bié yòu bǎ nà bàn bēi shuǐ wàng zài zhuō shàng .",
+          "en": "The next day Lin An posted that she'd arrived. Her new room had a big window, but she hadn't unpacked; where was last night's video? I sent the letter scene and final song. Asked about another performance, I said we'd wait for everyone's availability. Listening back, Lin An noticed a slower final line; I'd also caught Chen's reminder from outside the door on the recording. We marked two lyric repetitions and saved this version. She'd unpack first and listen again that evening. Fine, I replied—just don't forget another half-cup of water on the table."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "粘",
+          "pinyin": "zhān",
+          "meaning": "stick together"
+        },
+        {
+          "hanzi": "吞",
+          "pinyin": "tūn",
+          "meaning": "swallow"
+        },
+        {
+          "hanzi": "包带",
+          "pinyin": "bāo dài",
+          "meaning": "bag strap"
+        },
+        {
+          "hanzi": "扩音",
+          "pinyin": "kuò yīn",
+          "meaning": "amplification"
+        },
+        {
+          "hanzi": "哼",
+          "pinyin": "hēng",
+          "meaning": "hum"
+        },
+        {
+          "hanzi": "调音",
+          "pinyin": "diào yīn",
+          "meaning": "tune; adjust sound"
+        },
+        {
+          "hanzi": "接线",
+          "pinyin": "jiē xiàn",
+          "meaning": "connect cables"
+        },
+        {
+          "hanzi": "停顿",
+          "pinyin": "tíng dùn",
+          "meaning": "pause"
+        },
+        {
+          "hanzi": "秘密",
+          "pinyin": "mì mì",
+          "meaning": "secret"
+        },
+        {
+          "hanzi": "未完成",
+          "pinyin": "wèi wán chéng",
+          "meaning": "unfinished"
+        },
+        {
+          "hanzi": "空白",
+          "pinyin": "kòng bái",
+          "meaning": "gap"
+        },
+        {
+          "hanzi": "乐器",
+          "pinyin": "yuè qì",
+          "meaning": "musical instrument"
+        },
+        {
+          "hanzi": "电源",
+          "pinyin": "diàn yuán",
+          "meaning": "power supply"
+        },
+        {
+          "hanzi": "角色",
+          "pinyin": "jué sè",
+          "meaning": "role; character"
+        },
+        {
+          "hanzi": "下一页",
+          "pinyin": "xià yī yè",
+          "meaning": "next page"
+        },
+        {
+          "hanzi": "文字",
+          "pinyin": "wén zì",
+          "meaning": "written text"
+        },
+        {
+          "hanzi": "箱子",
+          "pinyin": "xiāng zi",
+          "meaning": "box; suitcase"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "开头",
+          "pinyin": "kāi tóu",
+          "meaning": "beginning"
+        },
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        },
+        {
+          "hanzi": "忘",
+          "pinyin": "wàng",
+          "meaning": "forget"
+        },
+        {
+          "hanzi": "拔",
+          "pinyin": "bá",
+          "meaning": "pull out; unplug"
+        },
+        {
+          "hanzi": "卷起",
+          "pinyin": "juǎn qǐ",
+          "meaning": "roll up"
+        },
+        {
+          "hanzi": "吉他",
+          "pinyin": "jí tā",
+          "meaning": "guitar"
+        },
+        {
+          "hanzi": "盏",
+          "pinyin": "zhǎn",
+          "meaning": "classifier for lamps"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "What does the musician describe?",
+          "choices": [
+            "How the song and stage movements are rehearsed",
+            "The complete text of the unopened letter",
+            "A confirmed date for next week’s show"
+          ],
+          "answer": "How the song and stage movements are rehearsed"
+        },
+        {
+          "type": "detail",
+          "q": "What is changed after a too-fast rehearsal?",
+          "choices": [
+            "Read full lines and phrase them clearly",
+            "Move the last line to the opening",
+            "Replace the song with spoken dialogue"
+          ],
+          "answer": "Read full lines and phrase them clearly"
+        },
+        {
+          "type": "inference",
+          "q": "Why not count only one extra minute of singing?",
+          "choices": [
+            "Restarting,tuning and packing also take time",
+            "The venue permits infinite extensions",
+            "No equipment is involved in a full repeat"
+          ],
+          "answer": "Restarting,tuning and packing also take time"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "写这首歌的时候，我先写了灯还亮着，再把它放进车站那场戏后面。排练时有人说灯就是等那个朋友回来，我拿着吉他想了一会儿，说我开始写的是人走了，话还留在那个晚上。他说听起来也像在等，我就请他唱一遍他的版本。轮到我唱，最后一句又慢了一点，两个人把录音听完，都觉得那盏灯和开始写时已经有点不一样。至于下周，我连自己的工作时间还没排好，【歌词】里也确实没写日期。",
+            "py": "xiě zhè shǒu gē de shí hou , wǒ xiān xiě le dēng hái liàng zhe , zài bǎ tā fàng jìn chē zhàn nà chǎng xì hòu miàn . pái liàn shí yǒu rén shuō dēng jiù shì děng nà gè péng you huí lái , wǒ ná zhe jí tā xiǎng le yī huì er , shuō wǒ kāi shǐ xiě de shì rén zǒu le , huà hái liú zài nà gè wǎn shang . tā shuō tīng qǐ lái yě xiàng zài děng , wǒ jiù qǐng tā chàng yī biàn tā de bǎn běn . lún dào wǒ chàng , zuì hòu yī jù yòu màn le yī diǎn , liǎng gè rén bǎ lù yīn tīng wán , dōu jué de nà zhǎn dēng hé kāi shǐ xiě shí yǐ jīng yǒu diǎn bù yī yàng . zhì yú xià zhōu , wǒ lián zì jǐ de gōng zuò shí jiān hái méi pái hǎo , gē cí lǐ yě què shí méi xiě rì qī .",
+            "en": "I first wrote 'the light is still on,' then placed it after the station scene. Someone heard waiting for the friend to return. Holding my guitar, I said I'd begun with someone leaving while the words stayed in that evening. We each sang a version; mine slowed the last line. Listening back, the lamp felt a little different from when I'd written it. As for next week, my own work schedule wasn't set, and the lyric gave no date."
+          },
+          {
+            "zh": "后来林安建议把下一页留给下一次见面放到后面，而不是开头。前面的雨声和脚步让人先听见离开，后面的那句才带出再见面的【盼望】。我喜欢这个顺序，可第一次唱太快，下一页几乎跟上一句粘在一起。朋友听完问，结尾不是说先停一停吗，怎么又约见面？我把两句完整读给他听，再按句子分开唱。他跟着读了一遍，笑着说这次听到了，不过最后那个面还能再留长一点。我试着慢下来，林安在旁边数了四下，两个人终于能接上。",
+            "py": "hòu lái lín ān jiàn yì bǎ xià yī yè liú gěi xià yī cì jiàn miàn fàng dào hòu miàn , ér bù shì kāi tóu . qián miàn de yǔ shēng hé jiǎo bù ràng rén xiān tīng jiàn lí kāi , hòu miàn de nà jù cái dài chū zài jiàn miàn de pàn wàng . wǒ xǐ huān zhè gè shùn xù , kě dì yī cì chàng tài kuài , xià yī yè jī hū gēn shàng yī jù zhān zài yì qǐ . péng you tīng wán wèn , jié wěi bù shì shuō xiān tíng yī tíng ma , zěn me yòu yuē jiàn miàn ? wǒ bǎ liǎng jù wán zhěng dú gěi tā tīng , zài àn jù zi fēn kāi chàng . tā gēn zhe dú le yī biàn , xiào zhe shuō zhè cì tīng dào le , bù guò zuì hòu nà gè miàn hái néng zài liú zhǎng yī diǎn . wǒ shì zhe màn xià lái , lín ān zài páng biān shù le sì xià , liǎng gè rén zhōng yú néng jiē shàng .",
+            "en": "Lin An suggested putting 'leave the next page for our next meeting' near the end. Rain and footsteps first suggested departure; the later line brought back the hope of meeting. But I sang too quickly, joining it to the preceding phrase. My friend heard 'pause for now' and wondered why we were arranging a meeting. I read both lines in full, then sang them separately. He heard it this time, but suggested holding the final syllable a little longer. With Lin An counting four beats, we finally joined in time."
+          },
+          {
+            "zh": "我负责【演奏】，不演拿信的角色，所以排练时常从旁边看两人。有一次林安忘了把信放进包，直接拿在手上走，画面就像她随时会拆。我们试了两次，最后还是把信收进包，走到门边再回头。包带拉好以后，她看了一眼对方，没有拆信，就转身走。排练完，她问我刚才回头是不是太快。我说只看见头发动了，还没看清表情。她拿起包又走了一遍，回头时多停了一点。我举起吉他，按她走出去的速度再弹两句。陈宇站在门外听，提醒我们别走到一半就把灯关掉。",
+            "py": "wǒ fù zé yǎn zòu , bù yǎn ná xìn de jué sè , suǒ yǐ pái liàn shí cháng cóng páng biān kàn liǎng rén . yǒu yī cì lín ān wàng le bǎ xìn fàng jìn bāo , zhí jiē ná zài shǒu shàng zǒu , huà miàn jiù xiàng tā suí shí huì chāi . wǒ men shì le liǎng cì , zuì hòu hái shi bǎ xìn shōu jìn bāo , zǒu dào mén biān zài huí tóu . bāo dài lā hǎo yǐ hòu , tā kàn le yī yǎn duì fāng , méi yǒu chāi xìn , jiù zhuǎn shēn zǒu . pái liàn wán , tā wèn wǒ gāng cái huí tóu shì bú shì tài kuài . wǒ shuō zhǐ kàn jiàn tóu fà dòng le , hái méi kàn qīng biǎo qíng . tā ná qǐ bāo yòu zǒu le yī biàn , huí tóu shí duō tíng le yī diǎn . wǒ jǔ qǐ jí tā , àn tā zǒu chū qù de sù dù zài dàn liǎng jù . chén yǔ zhàn zài mén wài tīng , tí xǐng wǒ men bié zǒu dào yí bàn jiù bǎ dēng guān diào .",
+            "en": "As the musician, I watched the two actors from the side. Once Lin An left carrying the letter in her hand, looking ready to open it. After two trials, we put it in the bag and had her look back at the door. She fastened the strap, looked at the other character and left without opening the letter. Had she turned too quickly? I'd seen her hair move but missed her expression. She tried again, pausing longer as she turned. I played two phrases to match her departure; listening outside, Chen reminded us not to switch off the light halfway through."
+          }
+        ],
+        "bank": [
+          "歌词",
+          "盼望",
+          "演奏",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u12-c",
+    "title": "Leave a page for next time",
+    "place": "After a fictional short play,then a real friend’s station send-off",
+    "context": "Originalplay lettergiven/received/unopened;contentsunseen.Originallyrics openendedanticipation,notfixeddate.RealLinAn9train,nextmorning8:30stationentrance,wateronly,otherswork.21:30closingstarts,venue22closed.Explicitarrivalmessagepromise fulfilled;nextmeetingundated. Audienceandmusicianknowdifferentdetails.",
+    "goal": "Retell an original scene and discuss a supported interpretation",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "信没拆，那里面一定让她别走？",
+        "pinyin": "xìn méi chāi , nà lǐ miàn yí dìng ràng tā bié zǒu ?",
+        "meaning": "Unopened letter must say do not leave?",
+        "intent": "State supported interpretation",
+        "examples": [
+          "可以这样猜，但内容没给观众看，不能说一定。"
+        ],
+        "accept": [
+          "^可以这样猜，但内容没给观众看，不能说一定。[。！？]?$"
+        ]
+      },
+      {
+        "text": "歌词说下次见面，所以已经约好下周？",
+        "pinyin": "gē cí shuō xià cì jiàn miàn , suǒ yǐ yǐ jīng yuē hǎo xià zhōu ?",
+        "meaning": "Next meeting lyric means next week booked?",
+        "intent": "Separate imagery and schedule",
+        "examples": [
+          "不是，具体日期还没定。"
+        ],
+        "accept": [
+          "^不是，具体日期还没定。[。！？]?$"
+        ]
+      },
+      {
+        "text": "再唱一分钟，收尾时间就只多一分钟吧？",
+        "pinyin": "zài chàng yī fēn zhōng , shōu wěi shí jiān jiù zhǐ duō yī fēn zhōng ba ?",
+        "meaning": "One minute singing adds only one minute?",
+        "intent": "Account for setup and packing",
+        "examples": [
+          "还要接线、调音和收好，不能只数唱的时间。"
+        ],
+        "accept": [
+          "^还要接线、调音和收好，不能只数唱的时间。[。！？]?$"
+        ]
+      },
+      {
+        "text": "你答应到了留言，这也是歌词猜想？",
+        "pinyin": "nǐ dā yìng dào le liú yán , zhè yě shì gē cí cāi xiǎng ?",
+        "meaning": "Your arrival-message promise is also a lyric guess?",
+        "intent": "Retain explicit practical commitment",
+        "examples": [
+          "不是，这是现实里直接答应的事。"
+        ],
+        "accept": [
+          "^不是，这是现实里直接答应的事。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Offer an interpretation with room to reply",
+      "natural": {
+        "zh": "我猜他舍不得她走，你从哪里听出别的意思？",
+        "py": "wǒ cāi tā shě bu de tā zǒu , nǐ cóng nǎ lǐ tīng chū bié de yì si ?",
+        "en": "I think he is reluctant to part;what suggests another meaning to you?"
+      },
+      "note": "Discuss actual clues without making an unseen text certain."
+    },
+    {
+      "situation": "Make a practical promise explicit",
+      "natural": {
+        "zh": "到了以后我发消息，时间没定的先不答应。",
+        "py": "dào le yǐ hòu wǒ fā xiāo xī , shí jiān méi dìng de xiān bù dā yìng .",
+        "en": "I will message after arrival;I will not promise an unsettled date."
+      },
+      "note": "Keep a commitment separate from poetic anticipation."
+    },
+    {
+      "situation": "Retell in useful categories",
+      "natural": {
+        "zh": "我看见她收信，猜她想以后读；下次见面还没定。",
+        "py": "wǒ kàn jiàn tā shōu xìn , cāi tā xiǎng yǐ hòu dú ; xià cì jiàn miàn hái méi dìng .",
+        "en": "I saw her put the letter away and guess she plans to read later;the next meeting is undated."
+      },
+      "note": "A concise account can retain fact,inference and practical uncertainty."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u12-t01",
+      "phrase": "s6-u12-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "短剧最后一幕在车站，主角把一封信递给要走的朋友。她接过来，放进包，没有拆。灯慢慢暗下来，旁边的歌唱到门还没关。我坐在第三排，看见她拉好包带，回头望了一眼，觉得信里肯定是在叫她别走。散场后我把这个想法讲给陈宇，他问哪一句写了别走。我翻节目单找了半天，没有找到。他笑着说刚才连信都没拆，你怎么看到里面的字。我只好把节目单合上，说好吧，那是我猜的。",
+        "py": "duǎn jù zuì hòu yī mù zài chē zhàn , zhǔ jué bǎ yī fēng xìn dì gěi yào zǒu de péng you . tā jiē guò lái , fàng jìn bāo , méi yǒu chāi . dēng màn màn àn xià lái , páng biān de gē chàng dào mén hái méi guān . wǒ zuò zài dì sān pái , kàn jiàn tā lā hǎo bāo dài , huí tóu wàng le yī yǎn , jué de xìn lǐ kěn dìng shì zài jiào tā bié zǒu . sàn chǎng hòu wǒ bǎ zhè gè xiǎng fǎ jiǎng gěi chén yǔ , tā wèn nǎ yī jù xiě le bié zǒu . wǒ fān jié mù dān zhǎo le bàn tiān , méi yǒu zhǎo dào . tā xiào zhe shuō gāng cái lián xìn dōu méi chāi , nǐ zěn me kàn dào lǐ miàn de zì . wǒ zhǐ hǎo bǎ jié mù dān hé shàng , shuō hǎo ba , nà shì wǒ cāi de .",
+        "en": "In the final station scene, the lead handed a letter to the departing friend. She put it in her bag without opening it. As the lights dimmed, the song mentioned an open door. From the third row, her tightened strap and backward glance made me sure the letter asked her not to leave. Afterwards Chen Yu asked which line said that. I searched the programme without finding it. She hadn't even opened the letter—how had I seen its words? I closed the programme and admitted it was my guess."
+      },
+      "statement": "The letter contents are shown to the audience.",
+      "answer": false,
+      "why": "They remain unseen."
+    },
+    {
+      "id": "s6-u12-t02",
+      "phrase": "s6-u12-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "第二天我八点半到车站入口，带了一瓶水。林安拉着箱子过来，问其他人呢，我说几个要上班，今天就我来。她接过水，让我帮她拿一下包，自己把箱子上的节目单收进去。我们站到不挡人的地方，又聊昨晚那封信，她还是让我自己猜。我问到了以后能不能告诉我们一声，她说可以，到了就在群里发消息。九点的车快开了，她拿回包，挥挥手走进入口。我站了一会儿，才发现自己手里还拿着没打开的另一瓶水。",
+        "py": "dì èr tiān wǒ bā diǎn bàn dào chē zhàn rù kǒu , dài le yī píng shuǐ . lín ān lā zhe xiāng zi guò lái , wèn qí tā rén ne , wǒ shuō jǐ gè yào shàng bān , jīn tiān jiù wǒ lái . tā jiē guò shuǐ , ràng wǒ bāng tā ná yī xià bāo , zì jǐ bǎ xiāng zi shàng de jié mù dān shōu jìn qù . wǒ men zhàn dào bù dǎng rén de dì fāng , yòu liáo zuó wǎn nà fēng xìn , tā hái shi ràng wǒ zì jǐ cāi . wǒ wèn dào le yǐ hòu néng bù néng gào sù wǒ men yī shēng , tā shuō kě yǐ , dào le jiù zài qún lǐ fā xiāo xī . jiǔ diǎn de chē kuài kāi le , tā ná huí bāo , huī huī shǒu zǒu jìn rù kǒu . wǒ zhàn le yī huì er , cái fā xiàn zì jǐ shǒu lǐ hái ná zhe méi dǎ kāi de lìng yī píng shuǐ .",
+        "en": "At 8:30 I met Lin An at the station entrance with water. Where were the others? Some had work; it was just me. She had me hold her bag while she packed the programme from her suitcase. Standing out of the way, we discussed the letter again; she still left me to guess. Could she let us know when she arrived? Yes, she'd message the group. With the nine o'clock train nearing departure, she took back her bag and waved. After watching her go, I noticed the other unopened bottle still in my hand."
+      },
+      "statement": "The real train leaves at nine and meeting is eight thirty.",
+      "answer": true,
+      "why": "Both times are explicit."
+    },
+    {
+      "id": "s6-u12-t03",
+      "phrase": "s6-u12-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我负责演奏，不演拿信的角色，所以排练时常从旁边看两人。有一次林安忘了把信放进包，直接拿在手上走，画面就像她随时会拆。我们试了两次，最后还是把信收进包，走到门边再回头。包带拉好以后，她看了一眼对方，没有拆信，就转身走。排练完，她问我刚才回头是不是太快。我说只看见头发动了，还没看清表情。她拿起包又走了一遍，回头时多停了一点。我举起吉他，按她走出去的速度再弹两句。陈宇站在门外听，提醒我们别走到一半就把灯关掉。",
+        "py": "wǒ fù zé yǎn zòu , bù yǎn ná xìn de jué sè , suǒ yǐ pái liàn shí cháng cóng páng biān kàn liǎng rén . yǒu yī cì lín ān wàng le bǎ xìn fàng jìn bāo , zhí jiē ná zài shǒu shàng zǒu , huà miàn jiù xiàng tā suí shí huì chāi . wǒ men shì le liǎng cì , zuì hòu hái shi bǎ xìn shōu jìn bāo , zǒu dào mén biān zài huí tóu . bāo dài lā hǎo yǐ hòu , tā kàn le yī yǎn duì fāng , méi yǒu chāi xìn , jiù zhuǎn shēn zǒu . pái liàn wán , tā wèn wǒ gāng cái huí tóu shì bú shì tài kuài . wǒ shuō zhǐ kàn jiàn tóu fà dòng le , hái méi kàn qīng biǎo qíng . tā ná qǐ bāo yòu zǒu le yī biàn , huí tóu shí duō tíng le yī diǎn . wǒ jǔ qǐ jí tā , àn tā zǒu chū qù de sù dù zài dàn liǎng jù . chén yǔ zhàn zài mén wài tīng , tí xǐng wǒ men bié zǒu dào yí bàn jiù bǎ dēng guān diào .",
+        "en": "As the musician, I watched the two actors from the side. Once Lin An left carrying the letter in her hand, looking ready to open it. After two trials, we put it in the bag and had her look back at the door. She fastened the strap, looked at the other character and left without opening the letter. Had she turned too quickly? I'd seen her hair move but missed her expression. She tried again, pausing longer as she turned. I played two phrases to match her departure; listening outside, Chen reminded us not to switch off the light halfway through."
+      },
+      "statement": "Lin An opens the letter before leaving the stage.",
+      "answer": false,
+      "why": "She puts the letter in her bag and leaves without opening it."
+    },
+    {
+      "id": "s6-u12-t04",
+      "phrase": "s6-u12-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "九点半以后，我们把设备关好。读书的人收纸，工作人员卷线，我把乐器装回盒子。有人走过来说再唱一分钟吧，我指着已经拔掉的线，说唱以前还得重新接线、调音，唱完又要收一遍。他看看空下来的桌子，说那算了，帮我把椅子搬过去。我在门口轻轻哼了一句，林安把最后一行接上，大家笑了。刚才还想再唱的人也跟着哼，没有回去开设备。工作人员拿来最后一把椅子，问我们明天是不是还起得来，我们马上把门让开，一边笑一边往外走。",
+        "py": "jiǔ diǎn bàn yǐ hòu , wǒ men bǎ shè bèi guān hǎo . dú shū de rén shōu zhǐ , gōng zuò rén yuán juǎn xiàn , wǒ bǎ yuè qì zhuāng huí hé zi . yǒu rén zǒu guò lái shuō zài chàng yī fēn zhōng ba , wǒ zhǐ zhe yǐ jīng bá diào de xiàn , shuō chàng yǐ qián hái děi chóng xīn jiē xiàn , diào yīn , chàng wán yòu yào shōu yī biàn . tā kàn kàn kōng xià lái de zhuō zi , shuō nà suàn le , bāng wǒ bǎ yǐ zi bān guò qù . wǒ zài mén kǒu qīng qīng hēng le yī jù , lín ān bǎ zuì hòu yī xíng jiē shàng , dà jiā xiào le . gāng cái hái xiǎng zài chàng de rén yě gēn zhe hēng , méi yǒu huí qù kāi shè bèi . gōng zuò rén yuán ná lái zuì hòu yī bǎ yǐ zi , wèn wǒ men míng tiān shì bú shì hái qǐ de lái , wǒ men mǎ shàng bǎ mén ràng kāi , yī biān xiào yī biān wǎng wài zǒu .",
+        "en": "After 9:30 we shut down the equipment. Others gathered papers and coiled cables while I packed my instrument. Someone asked for one more minute of singing. I pointed to the disconnected cable: we'd have to reconnect, tune and pack again. Looking at the cleared table, he offered to carry chairs instead. At the door I hummed a phrase; Lin An joined the last line, and we laughed. Even the friend who'd wanted more singing hummed along without restarting anything. Carrying the final chair, a staff member asked if we'd manage to get up tomorrow. We moved out of the doorway, still laughing."
+      },
+      "statement": "Repeating a full performance requires only its sung minute.",
+      "answer": false,
+      "why": "Setup,tuning and packing also count."
+    },
+    {
+      "id": "s6-u12-t05",
+      "phrase": "s6-u12-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "观众没看见信的字，哪种复述合适？",
+        "py": "guān zhòng méi kàn jiàn xìn de zì , nǎ zhǒng fù shù hé shì ?",
+        "en": "Audience cannot see the letter.Which retelling fits?"
+      },
+      "choices": [
+        "我猜是舍不得，但信的内容没给看。",
+        "信肯定写明下周回来。",
+        "我已经读过整封信。"
+      ],
+      "answer": "我猜是舍不得，但信的内容没给看。",
+      "why": "An interpretation retains the unseen content."
+    },
+    {
+      "id": "s6-u12-t06",
+      "phrase": "s6-u12-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "九点车，八点半入口见。几点来符合？",
+        "py": "jiǔ diǎn chē , bā diǎn bàn rù kǒu jiàn . jǐ diǎn lái fú hé ?",
+        "en": "9train,8:30entrancemeeting.Which fits?"
+      },
+      "choices": [
+        "八点半在车站入口。",
+        "九点半去场馆。",
+        "下周一在咖啡店。"
+      ],
+      "answer": "八点半在车站入口。",
+      "why": "The explicit practical arrangement is separate from the scene."
+    },
+    {
+      "id": "s6-u12-t07",
+      "phrase": "s6-u12-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "歌词说不是每次等候都要答案，表示什么？",
+        "py": "gē cí shuō bù shì měi cì děng hòu dōu yào dá àn , biǎo shì shén me ?",
+        "en": "Not every wait needs an answer.Meaning?"
+      },
+      "choices": [
+        "并非全部都需要，不是一个都不能有。",
+        "所有等候都不能有答案。",
+        "已经写出每个人的日期。"
+      ],
+      "answer": "并非全部都需要，不是一个都不能有。",
+      "why": "Not all is not none."
+    },
+    {
+      "id": "s6-u12-t08",
+      "phrase": "s6-u12-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "她答应到了发消息，哪句是履行承诺？",
+        "py": "tā dā yìng dào le fā xiāo xī , nǎ jù shì lǚ xíng chéng nuò ?",
+        "en": "She promised an arrival message.Which fulfils it?"
+      },
+      "choices": [
+        "到了，明天再收东西。",
+        "歌词里的门还没关。",
+        "我猜信里让她回来。"
+      ],
+      "answer": "到了，明天再收东西。",
+      "why": "A real arrival update fulfils the explicit promise."
+    },
+    {
+      "id": "s6-u12-t09",
+      "phrase": "s6-u12-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "经过【一番】商量，我们先收东西。",
+        "py": "jīng guò yī fān shāng liáng , wǒ men xiān shōu dōng xi .",
+        "en": "After some discussion,we put things away first."
+      },
+      "blankPy": "yī fān"
+    },
+    {
+      "id": "s6-u12-t10",
+      "phrase": "s6-u12-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "她【仿佛】想说什么，又停了。",
+        "py": "tā fǎng fú xiǎng shuō shén me , yòu tíng le .",
+        "en": "She seems about to speak,then stops."
+      },
+      "blankPy": "fǎng fú"
+    },
+    {
+      "id": "s6-u12-t11",
+      "phrase": "s6-u12-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "她【时而】笑，时而看窗外。",
+        "py": "tā shí ér xiào , shí ér kàn chuāng wài .",
+        "en": "She alternates laughing and looking outside."
+      },
+      "blankPy": "shí ér"
+    },
+    {
+      "id": "s6-u12-t12",
+      "phrase": "s6-u12-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "没有确定时间，就别【承诺】周末回来。",
+        "py": "méi yǒu què dìng shí jiān , jiù bié chéng nuò zhōu mò huí lái .",
+        "en": "Do not promise a weekend return before timing is settled."
+      },
+      "blankPy": "chéng nuò"
+    },
+    {
+      "id": "s6-u12-t13",
+      "phrase": "s6-u12-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Her wish is to sing together once before leaving.",
+          "right": {
+            "zh": "她的心愿是走之前再一起唱一次。",
+            "py": "tā de xīn yuàn shì zǒu zhī qián zài yì qǐ chàng yī cì .",
+            "en": "Her wish is to sing together once before leaving."
+          }
+        },
+        {
+          "left": "Sea-wave sounds follow the final line.",
+          "right": {
+            "zh": "海浪的声音接在最后一句后面。",
+            "py": "hǎi làng de shēng yīn jiē zài zuì hòu yī jù hòu miàn .",
+            "en": "Sea-wave sounds follow the final line."
+          }
+        },
+        {
+          "left": "This line contains loneliness and anticipation.",
+          "right": {
+            "zh": "这一句有孤独，也有期待。",
+            "py": "zhè yī jù yǒu gū dú , yě yǒu qī dài .",
+            "en": "This line contains loneliness and anticipation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u12-t14",
+      "phrase": "s6-u12-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The two arrangements need balancing.",
+          "right": {
+            "zh": "两种安排之间需要平衡。",
+            "py": "liǎng zhǒng ān pái zhī jiān xū yào píng héng .",
+            "en": "The two arrangements need balancing."
+          }
+        },
+        {
+          "left": "Don't interpret every element as a person.",
+          "right": {
+            "zh": "别把每个元素都解释成一个人。",
+            "py": "bié bǎ měi gè yuán sù dōu jiě shì chéng yī gè rén .",
+            "en": "Don't interpret every element as a person."
+          }
+        },
+        {
+          "left": "I'll read the full lyrics first.",
+          "right": {
+            "zh": "我先把歌词读完整。",
+            "py": "wǒ xiān bǎ gē cí dú wán zhěng .",
+            "en": "I'll read the full lyrics first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u12-t15",
+      "phrase": "s6-u12-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The piece starts after the spoken dialogue.",
+          "right": {
+            "zh": "乐曲在说话之后开始。",
+            "py": "yuè qǔ zài shuō huà zhī hòu kāi shǐ .",
+            "en": "The piece starts after the spoken dialogue."
+          }
+        },
+        {
+          "left": "The lead doesn't open the letter at the end.",
+          "right": {
+            "zh": "主角最后没有拆信。",
+            "py": "zhǔ jué zuì hòu méi yǒu chāi xìn .",
+            "en": "The lead doesn't open the letter at the end."
+          }
+        },
+        {
+          "left": "We'll see her off at the station tomorrow morning.",
+          "right": {
+            "zh": "明早我们去车站送行。",
+            "py": "míng zǎo wǒ men qù chē zhàn sòng xíng .",
+            "en": "We'll see her off at the station tomorrow morning."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u12-t16",
+      "phrase": "s6-u12-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Listen to the mood,then inspect the actual words.",
+          "right": {
+            "zh": "先听情绪，再看具体的词。",
+            "py": "xiān tīng qíng xù , zài kàn jù tǐ de cí .",
+            "en": "Listen to the mood,then inspect the actual words."
+          }
+        },
+        {
+          "left": "She keeps a few old photographs in a collection.",
+          "right": {
+            "zh": "她收藏了几张旧照片。",
+            "py": "tā shōu cáng le jǐ zhāng jiù zhào piān .",
+            "en": "She keeps a few old photographs in a collection."
+          }
+        },
+        {
+          "left": "This issue needs facing sooner or later.",
+          "right": {
+            "zh": "这个问题早晚要面对。",
+            "py": "zhè gè wèn tí zǎo wǎn yào miàn duì .",
+            "en": "This issue needs facing sooner or later."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u12-t17",
+      "phrase": "s6-u12-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "She seems about to speak,then stops.",
+          "right": {
+            "zh": "她仿佛想说什么，又停了。",
+            "py": "tā fǎng fú xiǎng shuō shén me , yòu tíng le .",
+            "en": "She seems about to speak,then stops."
+          }
+        },
+        {
+          "left": "Leave us a message after arriving.",
+          "right": {
+            "zh": "到了以后给我们留言。",
+            "py": "dào le yǐ hòu gěi wǒ men liú yán .",
+            "en": "Leave us a message after arriving."
+          }
+        },
+        {
+          "left": "Don't promise a weekend return before the time is settled.",
+          "right": {
+            "zh": "没有确定时间，就别承诺周末回来。",
+            "py": "méi yǒu què dìng shí jiān , jiù bié chéng nuò zhōu mò huí lái .",
+            "en": "Don't promise a weekend return before the time is settled."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: original verse imagery/collocation,poeticunfinishedwords,letter/ticket banter,musician register and lexical乐曲yuèqǔ/主角zhǔjué/收藏shōucáng. Self-review differentiates visibleactions/unseenletter/interpretation,poeticnextmeeting/real8:30→9travel,21:30→22closingduties,wateronly/noinvoluntarygroupinvite,and explicitfulfilledarrivalmessage. Originallyrics not existing song. Capstone asks retelling and meaning,no fabricated voice or HSK readiness grade.\n2026-10-08 advanced reading self-review: Phone and letter actions v2: Corrected next-week attendance wording in the library dialogue. Preserved operational notice/service distinction without repeated misconception lectures. Work programme now shows pending confirmation rather than abstract permission analysis. Repaired the reading-first proposal: performers want to hear a short passage before playing, leaving enough music time before their eight-o-clock departure. Thursday dinner reply, Friday room confirmation and original task keys remain unchanged. Misheard-food phone call becomes a water/menu joke; ten-minute estimate still follows bus arrival. Farewell diary clarifies the next-evening arrival chronology, retains unopened letter and actual arrival-message promise. Author account shows alternative phrasing without pretending a return date is known. Added missing reading aids for shaking the head and putting on earphones after the strict character check caught them. Remaining phone narration now shows actual travel, menu and programme checks; the final audience account debates the letter, packs chairs and meets the train instead of repeatedly explaining evidential limits. Native flags: forgotten-lyric and bottle banter, book overtime joke, dialogue-message timing, lyric phrasing and farewell banter. Native review pending.",
+  "characters": []
+}

@@ -8,7 +8,7 @@ TEXTS={
 '''你刚才笑什么？我说错了吗？|What were you laughing at? Did I say something wrong?
 不是，你拿杯子的样子让我想到昨晚那部剧。|No. The way you held the cup reminded me of last night's drama.
 哪部？我也想看。|Which one? I'd like to watch it too.
-就是你推荐的那部。她说茶不甜，下一句却问能不能再放三次糖。|The one you recommended. She says the tea isn't sweet, then asks for sugar three more times.
+就是你推荐的那部。她说不想吃糖，手却还在往杯子里加。|The one you recommended. She says she doesn't want sugar but keeps adding it to her cup.
 她每次都这样，我看到那里也笑了。|She always does that. I laughed at that part too.
 这杯奶茶真的很甜。你要不要换我的绿茶？|This milk tea really is sweet. Would you like my green tea instead?
 不用，你自己喝。我下次记得少放糖就好了。|No, keep yours. I'll remember less sugar next time.
@@ -71,7 +71,7 @@ TEXTS={
 '''下午两点半，我和朋友在门口见面。她抱着两瓶水，我带着一袋面包，一起进了体育馆。|At two thirty I met my friend at the entrance. She had two bottles of water; I brought bread. We entered the sports hall together.
 比赛开始以后，我们班的队很快领先。朋友高兴得站起来，我拉她坐下，后面的人还要看。|Our class's team soon took the lead. My friend stood up excitedly; I pulled her down so those behind could see.
 第二节，对手把分数追上来了。朋友说今天可能要输，我说还有时间，先把面包吃了。|In the second quarter the opponents caught up. My friend thought we might lose. I said there was time left, so let's eat first.
-最后一分钟，两队只差一分。我们都不说话了，连水也忘了喝。结束的时候，我们班多得了三分，终于赢了。|With one minute left, the teams were a point apart. We fell silent and forgot our water. Our class scored three more points before the end and won.
+最后一分钟，两队只差一分。我们都不说话了，连水也忘了喝。比赛结束的时候，我们班领先三分，终于赢了。|With one minute left, the teams were a point apart. We fell silent and forgot our water. At the finish, our class was three points ahead and had won.
 同学出来以后，第一件事是问有没有吃的。我们把剩下的面包给她，她一边吃一边说今天比上次还紧张。|Our classmate came out asking for food. We gave her the remaining bread. She said today's game had been even more tense than last time.
 回去路上，朋友说下次她也想试试。我说可以，但别只练站起来喊，那可不算上场。|On the way home my friend wanted to try playing next time. I told her not to practise only standing and shouting: that didn't count as playing.
 ''',
@@ -268,7 +268,7 @@ for number,(d,r,m) in TEXTS.items():
     gloss += [('阵','short spell; classifier for a burst of sound'),('丢','lose; mislay'),('幸好','fortunately'),('土','soil'),('洞','hole'),('摆','arrange; set out'),('儿童','children'),('抱','hold in one’s arms'),('遇到','encounter'),('贴','stick; affix'),('土豆','potato'),('研究','study; research')]
     spec=dict(dialogue=(rows(d),dqs),reading=(rows(r),rqs),media=(rows(m),[]),examples=examples,contexts=contexts,tasks=tasks,glosses=list(dict.fromkeys(gloss)),
         turns=[(z,e,'Answer the immediate social situation',[c[0]]) for z,e,c in REPLIES[number]],
-        review='Removed role lists, grammar definitions, safety/identity disclaimers and abstract cover-all assertions from the story. Each scene has a real social outcome; independent examples preserve unrelated target words. Keys are checked against the actual text, with one true and one false item and concrete reply intentions. Native flags: narrator’s tea taste, 杯子 sugar joke, partly closing a door, damaged strap repair, basketball final chronology, 任 as holding a named position, volunteering invitation and light teasing. Source senses and old task/word IDs are preserved; native language and audio review remain pending.')
+        review='Removed role lists, grammar definitions, safety/identity disclaimers and abstract cover-all assertions from the story. Each scene has a real social outcome; independent examples preserve unrelated target words. The sugar joke now consistently contrasts not wanting sugar with still adding it, and the final basketball margin is three points. Keys are checked against the actual text, with one true and one false item and concrete reply intentions. Native flags: narrator’s tea taste, 杯子 sugar joke, partly closing a door, damaged strap repair, basketball final chronology, 任 as holding a named position, volunteering invitation and light teasing. Source senses and old task/word IDs are preserved; native language and audio review remain pending.')
     if number==34:spec['title']=('Where did my bag go?','我的包在哪里？')
     if number==35:spec['title']=('A final worth cheering for','一起去看决赛')
     repair(number,spec,publish='--publish' in sys.argv)

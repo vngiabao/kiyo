@@ -32,3 +32,8 @@ output/
 __pycache__/
 *.pyc
 .wrangler/
+
+# Preserve failed generated-file replacements locally for inspection.
+/content/audio-scripts.json.*.tmp
+/prompts/research/coverage-report.json.*.tmp
+/prompts/research/advanced-coverage-report.json.*.tmp

@@ -1,0 +1,2210 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u10",
+    "stage": 3,
+    "order": 142,
+    "title": "Keep the next step clear",
+    "titleZh": "让讨论有下一步",
+    "canDo": [
+      "Facilitate a discussion with useful time boundaries",
+      "Read back consent and tasks without assigning unaccepted work",
+      "Compare a host’s and participant’s accounts"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u09",
+      "s6-u09-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u10-w01",
+      "hanzi": "议题",
+      "pinyin": "yì tí",
+      "meaning": "topic for discussion",
+      "meaningVi": "chủ đề",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "今天的议题是活动先读书还是先听歌。",
+        "py": "jīn tiān de yì tí shì huó dòng xiān dú shū hái shi xiān tīng gē .",
+        "en": "Today's topic is whether reading or music comes first."
+      },
+      "usageNote": "[GF2021:L6:9641] Source entry: 议题; yìtí; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w02",
+      "hanzi": "座谈会",
+      "pinyin": "zuò tán huì",
+      "meaning": "discussion meeting",
+      "meaningVi": "buổi tọa đàm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这是小范围座谈会，不是长篇报告。",
+        "py": "zhè shì xiǎo fàn wéi zuò tán huì , bù shì zhǎng piān bào gào .",
+        "en": "This is a small discussion meeting, not a long report."
+      },
+      "usageNote": "[GF2021:L6:11082] Source entry: 座谈会; zuòtánhuì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w03",
+      "hanzi": "主持人",
+      "pinyin": "zhǔ chí rén",
+      "meaning": "host; facilitator",
+      "meaningVi": "người dẫn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "主持人负责让不同的人有机会说。",
+        "py": "zhǔ chí rén fù zé ràng bù tóng de rén yǒu jī huì shuō .",
+        "en": "The host helps different people have a chance to speak."
+      },
+      "usageNote": "[GF2021:L6:10710] Source entry: 主持人; zhǔchírén; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w04",
+      "hanzi": "发言人",
+      "pinyin": "fā yán rén",
+      "meaning": "spokesperson",
+      "meaningVi": "người phát ngôn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "发言人转达小组已经确认的安排。",
+        "py": "fā yán rén zhuǎn dá xiǎo zǔ yǐ jīng què rèn de ān pái .",
+        "en": "The spokesperson conveys arrangements the group has confirmed."
+      },
+      "usageNote": "[GF2021:L6:2161] Source entry: 发言人; fāyánrén; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w05",
+      "hanzi": "协会",
+      "pinyin": "xié huì",
+      "meaning": "association",
+      "meaningVi": "hiệp hội",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "协会愿意提供小厅。",
+        "py": "xié huì yuàn yì tí gōng xiǎo tīng .",
+        "en": "The association is willing to provide the small room."
+      },
+      "usageNote": "[GF2021:L6:8943] Source entry: 协会; xiéhuì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w06",
+      "hanzi": "会长",
+      "pinyin": "huì zhǎng",
+      "meaning": "association president",
+      "meaningVi": "chủ tịch",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "会长周五才能确认场地。",
+        "py": "huì zhǎng zhōu wǔ cái néng què rèn chǎng dì .",
+        "en": "The president can confirm the space on Friday."
+      },
+      "usageNote": "[GF2021:L6:3605] Source entry: 会长; huìzhǎng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w07",
+      "hanzi": "新人",
+      "pinyin": "xīn rén",
+      "meaning": "new member; newcomer",
+      "meaningVi": "người mới",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "新人也可以先听，不急着上台。",
+        "py": "xīn rén yě kě yǐ xiān tīng , bù jí zhe shàng tái .",
+        "en": "Newcomers can listen first without rushing onstage."
+      },
+      "usageNote": "[GF2021:L6:9019] Source entry: 新人; xīnrén; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w08",
+      "hanzi": "分工",
+      "pinyin": "fēn gōng",
+      "meaning": "divide up work",
+      "meaningVi": "phân công",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "分工要写谁做和什么时候做。",
+        "py": "fēn gōng yào xiě shéi zuò hé shén me shí hou zuò .",
+        "en": "Division of work should say who does what and when."
+      },
+      "usageNote": "[GF2021:L6:2337] Source entry: 分工; fēn∥gōng; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w09",
+      "hanzi": "职责",
+      "pinyin": "zhí zé",
+      "meaning": "responsibility; duty",
+      "meaningVi": "trách nhiệm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "检查设备是工作人员的职责。",
+        "py": "jiǎn chá shè bèi shì gōng zuò rén yuán de zhí zé .",
+        "en": "Checking equipment is the staff's responsibility."
+      },
+      "usageNote": "[GF2021:L6:10516] Source entry: 职责; zhízé; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w10",
+      "hanzi": "协调",
+      "pinyin": "xié tiáo",
+      "meaning": "coordinate",
+      "meaningVi": "phối hợp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我来协调两组的时间。",
+        "py": "wǒ lái xié tiáo liǎng zǔ de shí jiān .",
+        "en": "I'll coordinate the two groups' times."
+      },
+      "usageNote": "[GF2021:L6:8945] Source entry: 协调; xiétiáo; 动、形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w11",
+      "hanzi": "承诺",
+      "pinyin": "chéng nuò",
+      "meaning": "promise",
+      "meaningVi": "cam kết",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "还没问过场地，就不能承诺日期。",
+        "py": "hái méi wèn guò chǎng dì , jiù bù néng chéng nuò rì qī .",
+        "en": "Without checking the venue,we can't promise a date."
+      },
+      "usageNote": "[GF2021:L6:988] Source entry: 承诺; chéngnuò; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w12",
+      "hanzi": "派出",
+      "pinyin": "pài chū",
+      "meaning": "send; dispatch",
+      "meaningVi": "cử",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "协会派出两个人帮助布置。",
+        "py": "xié huì pài chū liǎng gè rén bāng zhù bù zhì .",
+        "en": "The association sends two people to help set up."
+      },
+      "usageNote": "[GF2021:L6:5967] Source entry: 派出; pàichū; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w13",
+      "hanzi": "区分",
+      "pinyin": "qū fēn",
+      "meaning": "distinguish",
+      "meaningVi": "phân biệt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先区分建议和已经同意的事。",
+        "py": "xiān qū fēn jiàn yì hé yǐ jīng tóng yì de shì .",
+        "en": "First distinguish suggestions from agreed matters."
+      },
+      "usageNote": "[GF2021:L6:6557] Source entry: 区分; qūfēn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w14",
+      "hanzi": "提升",
+      "pinyin": "tí shēng",
+      "meaning": "raise; improve",
+      "meaningVi": "nâng cao",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我们想提升听歌时的体验。",
+        "py": "wǒ men xiǎng tí shēng tīng gē shí de tǐ yàn .",
+        "en": "We want to improve the listening experience."
+      },
+      "usageNote": "[GF2021:L6:7893] Source entry: 提升; tíshēng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w15",
+      "hanzi": "听取",
+      "pinyin": "tīng qǔ",
+      "meaning": "hear and consider",
+      "meaningVi": "lắng nghe",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先听取还没开口的人的意见。",
+        "py": "xiān tīng qǔ hái méi kāi kǒu de rén de yì jiàn .",
+        "en": "First hear those who haven't spoken yet."
+      },
+      "usageNote": "[GF2021:L6:8010] Source entry: 听取; tīngqǔ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w16",
+      "hanzi": "提交",
+      "pinyin": "tí jiāo",
+      "meaning": "submit",
+      "meaningVi": "nộp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "会后可以提交补充意见。",
+        "py": "huì hòu kě yǐ tí jiāo bǔ chōng yì jiàn .",
+        "en": "Additional views can be submitted after the meeting."
+      },
+      "usageNote": "[GF2021:L6:7888] Source entry: 提交; tíjiāo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w17",
+      "hanzi": "留言",
+      "pinyin": "liú yán",
+      "meaning": "leave a message",
+      "meaningVi": "để lời nhắn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "她留言说不能负责周六布置。",
+        "py": "tā liú yán shuō bù néng fù zé zhōu liù bù zhì .",
+        "en": "She left a message saying she can't set up on Saturday."
+      },
+      "usageNote": "[GF2021:L6:5243] Source entry: 留言; liúyán; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w18",
+      "hanzi": "回应",
+      "pinyin": "huí yìng",
+      "meaning": "respond",
+      "meaningVi": "phản hồi",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我先回应时间的问题。",
+        "py": "wǒ xiān huí yìng shí jiān de wèn tí .",
+        "en": "I'll respond to the timing question first."
+      },
+      "usageNote": "[GF2021:L6:3583] Source entry: 回应; huíyìng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w19",
+      "hanzi": "探讨",
+      "pinyin": "tàn tǎo",
+      "meaning": "discuss in depth",
+      "meaningVi": "thảo luận",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "音量的问题需要单独探讨。",
+        "py": "yīn liàng de wèn tí xū yào dān dú tàn tǎo .",
+        "en": "Volume needs a separate discussion."
+      },
+      "usageNote": "[GF2021:L6:7812] Source entry: 探讨; tàntǎo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w20",
+      "hanzi": "至于",
+      "pinyin": "zhì yú",
+      "meaning": "as for",
+      "meaningVi": "còn về",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "至于节目单，我来整理。",
+        "py": "zhì yú jié mù dān , wǒ lái zhěng lǐ .",
+        "en": "As for the programme,I will organise it."
+      },
+      "usageNote": "[GF2021:L6:10561] Source entry: 至于; zhìyú; 动、介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w21",
+      "hanzi": "再说",
+      "pinyin": "zài shuō",
+      "meaning": "besides; discuss later",
+      "meaningVi": "hơn nữa",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先确认房间，买东西以后再说。",
+        "py": "xiān què rèn fáng jiān , mǎi dōng xi yǐ hòu zài shuō .",
+        "en": "Confirm the room first;discuss purchases later."
+      },
+      "usageNote": "[GF2021:L6:10117] Source entry: 再说; zàishuō; 动、连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w22",
+      "hanzi": "凡是",
+      "pinyin": "fán shì",
+      "meaning": "all those that; whenever",
+      "meaningVi": "tất cả",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "凡是上台的人，都先确认自己的时间。",
+        "py": "fán shì shàng tái de rén , dōu xiān què rèn zì jǐ de shí jiān .",
+        "en": "Everyone going onstage should confirm their timing first."
+      },
+      "usageNote": "[GF2021:L6:2191] Source entry: 凡是; fánshì; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w23",
+      "hanzi": "若",
+      "pinyin": "ruò",
+      "meaning": "if; formal conditional",
+      "meaningVi": "nếu",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "若小厅不能用，就改期。",
+        "py": "ruò xiǎo tīng bù néng yòng , jiù gǎi qī .",
+        "en": "If the room is unavailable,we'll reschedule."
+      },
+      "usageNote": "[GF2021:L6:6828] Source entry: 若; ruò; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w24",
+      "hanzi": "只得",
+      "pinyin": "zhǐ dé",
+      "meaning": "have no choice but",
+      "meaningVi": "đành",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "场地没确认，我们只得先等。",
+        "py": "chǎng dì méi què rèn , wǒ men zhǐ dé xiān děng .",
+        "en": "With the venue unconfirmed,we have to wait."
+      },
+      "usageNote": "[GF2021:L6:10524] Source entry: 只得; zhǐdé; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w25",
+      "hanzi": "不便",
+      "pinyin": "bù biàn",
+      "meaning": "inconvenient",
+      "meaningVi": "bất tiện",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "周六上午对她不便。",
+        "py": "zhōu liù shàng wǔ duì tā bù biàn .",
+        "en": "Saturday morning is inconvenient for her."
+      },
+      "usageNote": "[GF2021:L6:522] Source entry: 不便; búbiàn; 形、动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w26",
+      "hanzi": "能否",
+      "pinyin": "néng fǒu",
+      "meaning": "whether possible",
+      "meaningVi": "liệu có thể",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "能否安排两次演奏，还没确定。",
+        "py": "néng fǒu ān pái liǎng cì yǎn zòu , hái méi què dìng .",
+        "en": "Whether two performances are possible is undecided."
+      },
+      "usageNote": "[GF2021:L6:5835] Source entry: 能否; néngfǒu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w27",
+      "hanzi": "切实",
+      "pinyin": "qiè shí",
+      "meaning": "practical; effective",
+      "meaningVi": "thiết thực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "先解决切实的问题。",
+        "py": "xiān jiě jué qiè shí de wèn tí .",
+        "en": "First address the practical issues."
+      },
+      "usageNote": "[GF2021:L6:6430] Source entry: 切实; qièshí; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w28",
+      "hanzi": "最终",
+      "pinyin": "zuì zhōng",
+      "meaning": "final; ultimately",
+      "meaningVi": "cuối cùng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "最终顺序还要等周五确认。",
+        "py": "zuì zhōng shùn xù hái yào děng zhōu wǔ què rèn .",
+        "en": "The final running order waits for Friday's confirmation."
+      },
+      "usageNote": "[GF2021:L6:11041] Source entry: 最终; zuìzhōng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w29",
+      "hanzi": "占据",
+      "pinyin": "zhàn jù",
+      "meaning": "take up; occupy",
+      "meaningVi": "chiếm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "别让一个问题占据全部时间。",
+        "py": "bié ràng yī gè wèn tí zhàn jù quán bù shí jiān .",
+        "en": "Don't let one question take all the time."
+      },
+      "usageNote": "[GF2021:L6:10234] Source entry: 占据; zhànjù; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w30",
+      "hanzi": "打断",
+      "pinyin": "dǎ duàn",
+      "meaning": "interrupt",
+      "meaningVi": "ngắt",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "我打断一下，先确认你说的是哪天。",
+        "py": "wǒ dǎ duàn yī xià , xiān què rèn nǐ shuō de shì nǎ tiān .",
+        "en": "Let me interrupt briefly to confirm which day you mean."
+      },
+      "usageNote": "[GF2021:L6:1417] Source entry: 打断; dǎduàn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w31",
+      "hanzi": "笑声",
+      "pinyin": "xiào shēng",
+      "meaning": "laughter",
+      "meaningVi": "tiếng cười",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "笑声过后，我们继续讨论时间。",
+        "py": "xiào shēng guò hòu , wǒ men jì xù tǎo lùn shí jiān .",
+        "en": "After the laughter,we returned to timing."
+      },
+      "usageNote": "[GF2021:L6:8933] Source entry: 笑声; xiàoshēng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u10-w32",
+      "hanzi": "掌声",
+      "pinyin": "zhǎng shēng",
+      "meaning": "applause",
+      "meaningVi": "tiếng vỗ tay",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "掌声表示喜欢，不一定表示同意分工。",
+        "py": "zhǎng shēng biǎo shì xǐ huān , bù yí dìng biǎo shì tóng yì fēn gōng .",
+        "en": "Applause shows appreciation,not necessarily agreement to duties."
+      },
+      "usageNote": "[GF2021:L6:10266] Source entry: 掌声; zhǎngshēng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u10-g01",
+      "pattern": "凡是…，都…",
+      "purpose": "State a rule with a defined group",
+      "explanation": "凡是 selects a group; 都 applies the rule to its members,not everyone present.",
+      "examples": [
+        {
+          "zh": "凡是上台的人，都先确认时间。",
+          "py": "fán shì shàng tái de rén , dōu xiān què rèn shí jiān .",
+          "en": "All performers confirm timing first."
+        },
+        {
+          "zh": "凡是改过的安排，都写进消息。",
+          "py": "fán shì gǎi guò de ān pái , dōu xiě jìn xiāo xī .",
+          "en": "Include all changed arrangements."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "凡是上台的人都确认，表示所有听众都必须上台。",
+          "right": "凡是上台的人，都先确认时间。",
+          "why": "The group is performers,not all attendees."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u10-g02",
+      "pattern": "与其…，不如…",
+      "purpose": "Offer a preferred alternative",
+      "explanation": "This comparison states a preference; it does not establish that others have consented.",
+      "examples": [
+        {
+          "zh": "与其临时赶人，不如先写清结束时间。",
+          "py": "yǔ qí lín shí gǎn rén , bù rú xiān xiě qīng jié shù shí jiān .",
+          "en": "Better state the finish than hurry people out later."
+        },
+        {
+          "zh": "与其猜她有空，不如先问。",
+          "py": "yǔ qí cāi tā yǒu kōng , bù rú xiān wèn .",
+          "en": "Better ask than guess her availability."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "说不如先问，表示她已经答应。",
+          "right": "与其猜她有空，不如先问。",
+          "why": "A proposed action is not its result."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u10-g03",
+      "pattern": "不是…，而是…",
+      "purpose": "Correct the category of an answer",
+      "explanation": "Use an explicit contrast when appreciation has been misread as consent.",
+      "examples": [
+        {
+          "zh": "我不是答应搬桌子，而是想谢谢演奏的人。",
+          "py": "wǒ bù shì dā yìng bān zhuō zi , ér shì xiǎng xiè xiè yǎn zòu de rén .",
+          "en": "I liked the song;I was thanking performers,not agreeing to move tables."
+        },
+        {
+          "zh": "这是待确认的建议，不是已经确定的顺序。",
+          "py": "zhè shì dài què rèn de jiàn yì , bù shì yǐ jīng què dìng de shùn xù .",
+          "en": "This is a pending suggestion,not confirmed order."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "鼓掌就是答应所有分工。",
+          "right": "这是待确认的建议，不是已经确定的顺序。",
+          "why": "Keep appreciation and accepted work distinct."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u10-g04",
+      "pattern": "先…，再…",
+      "purpose": "Preserve the order of checking and announcing",
+      "explanation": "Confirmation precedes listing a person or publishing an arrangement.",
+      "examples": [
+        {
+          "zh": "先问时间，再写名字。",
+          "py": "xiān wèn shí jiān , zài xiě míng zi .",
+          "en": "Ask timing before adding a name."
+        },
+        {
+          "zh": "先确认场地，再发最终节目单。",
+          "py": "xiān què rèn chǎng dì , zài fā zuì zhōng jié mù dān .",
+          "en": "Confirm the room before the final programme."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "先发最终节目单，再问场地，跟原顺序一样。",
+          "right": "先确认场地，再发最终节目单。",
+          "why": "Reversing dependencies changes the arrangement."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u10-g05",
+      "pattern": "若…，就…",
+      "purpose": "Keep an action conditional",
+      "explanation": "A formal condition may introduce an ordinary 就 consequence. The condition is not assumed true.",
+      "examples": [
+        {
+          "zh": "若小厅不能用，就改期。",
+          "py": "ruò xiǎo tīng bù néng yòng , jiù gǎi qī .",
+          "en": "If the room is unavailable,reschedule."
+        },
+        {
+          "zh": "若周五没确认，就先不安排。",
+          "py": "ruò zhōu wǔ méi què rèn , jiù xiān bù ān pái .",
+          "en": "If unconfirmed Friday,do not schedule yet."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "若没确认就不安排，表示现在已经确认了。",
+          "right": "若周五没确认，就先不安排。",
+          "why": "The condition does not report confirmation."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u10-g06",
+      "pattern": "至于… / 免得…",
+      "purpose": "Move topics and give a practical prevention purpose",
+      "explanation": "至于 shifts topic; 免得 introduces what the action is intended to prevent,not a guaranteed outcome.",
+      "examples": [
+        {
+          "zh": "至于节目单，我来整理。",
+          "py": "zhì yú jié mù dān , wǒ lái zhěng lǐ .",
+          "en": "As for the programme,I will organise it."
+        },
+        {
+          "zh": "把时间念一遍，免得记错。",
+          "py": "bǎ shí jiān niàn yī biàn , miǎn de jì cuò .",
+          "en": "Read the time back to reduce mistakes."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "写免得记错，证明之后绝不会出错。",
+          "right": "把时间念一遍，免得记错。",
+          "why": "An intended prevention does not guarantee perfect results."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u10-d",
+    "title": "让讨论有下一步",
+    "titleZh": "让讨论有下一步",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "今天先聊顺序，四十分钟够不够？",
+        "py": "jīn tiān xiān liáo shùn xù , sì shí fēn zhōng gòu bù gòu ?",
+        "en": "Shall we focus on running order today? Is forty minutes enough?",
+        "speaker": "a"
+      },
+      {
+        "zh": "够。场地和设备另有两个人去问。",
+        "py": "gòu . chǎng dì hé shè bèi lìng yǒu liǎng gè rén qù wèn .",
+        "en": "Yes. Two others will check the venue and equipment.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那先读书还是先听歌？",
+        "py": "nà xiān dú shū hái shi xiān tīng gē ?",
+        "en": "Reading or music first then?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我想先听歌，大家比较容易坐下来。",
+        "py": "wǒ xiǎng xiān tīng gē , dà jiā bǐ jiào róng yì zuò xià lái .",
+        "en": "Music first might help people settle.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我倒想先读。两位演奏的朋友也想先听一段。",
+        "py": "wǒ dào xiǎng xiān dú . liǎng wèi yǎn zòu de péng you yě xiǎng xiān tīng yī duàn .",
+        "en": "I'd prefer reading first. The two performers also want to hear a passage before playing.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你说的是演奏的人，还是听的人？",
+        "py": "nǐ shuō de shì yǎn zòu de rén , hái shi tīng de rén ?",
+        "en": "Do you mean performers or listeners?",
+        "speaker": "b"
+      },
+      {
+        "zh": "演奏的，两个人八点以后不便留下。",
+        "py": "yǎn zòu de , liǎng gè rén bā diǎn yǐ hòu bù biàn liú xià .",
+        "en": "Performers—two can't stay after eight.",
+        "speaker": "a"
+      },
+      {
+        "zh": "那得把他们的时间先留出来。",
+        "py": "nà děi bǎ tā men de shí jiān xiān liú chū lái .",
+        "en": "Then we need to reserve their time first.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我补一句，先听歌也不一定非得全听完。",
+        "py": "wǒ bǔ yī jù , xiān tīng gē yě bù yí dìng fēi děi quán tīng wán .",
+        "en": "One thing:music first needn't mean all of it at once.",
+        "speaker": "a"
+      },
+      {
+        "zh": "分成两段？",
+        "py": "fēn chéng liǎng duàn ?",
+        "en": "Split it into two parts?",
+        "speaker": "b"
+      },
+      {
+        "zh": "对，一首开头，一首后面。",
+        "py": "duì , yī shǒu kāi tóu , yī shǒu hòu miàn .",
+        "en": "Yes,one song at the start and another later.",
+        "speaker": "a"
+      },
+      {
+        "zh": "这个可以试，不过先问演奏的人愿不愿意。",
+        "py": "zhè gè kě yǐ shì , bù guò xiān wèn yǎn zòu de rén yuàn bù yuàn yì .",
+        "en": "Worth trying,but first ask whether the performers want that.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我能联系他们，周五前回复。",
+        "py": "wǒ néng lián xì tā men , zhōu wǔ qián huí fù .",
+        "en": "I can contact them and reply before Friday.",
+        "speaker": "a"
+      },
+      {
+        "zh": "谢谢。那节目单先别写成已经确定。",
+        "py": "xiè xiè . nà jié mù dān xiān bié xiě chéng yǐ jīng què dìng .",
+        "en": "Thanks. Let's not call the programme confirmed yet.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你今天终于没替我答应周六早起。",
+        "py": "nǐ jīn tiān zhōng yú méi tì wǒ dā yìng zhōu liù zǎo qǐ .",
+        "en": "Finally you didn't agree to an early Saturday for me.",
+        "speaker": "a"
+      },
+      {
+        "zh": "记住了，你的闹钟归你管。",
+        "py": "jì zhù le , nǐ de nào zhōng guī nǐ guǎn .",
+        "en": "I've learned—your alarm is your business.",
+        "speaker": "b"
+      },
+      {
+        "zh": "还有人想补充顺序吗？",
+        "py": "hái yǒu rén xiǎng bǔ chōng shùn xù ma ?",
+        "en": "Anyone else want to add something about running order?",
+        "speaker": "a"
+      },
+      {
+        "zh": "我只听。现在还不知道会不会上台。",
+        "py": "wǒ zhǐ tīng . xiàn zài hái bù zhī dào huì bù huì shàng tái .",
+        "en": "I'm just listening.I don't yet know whether I'll go onstage.",
+        "speaker": "b"
+      },
+      {
+        "zh": "好，愿意的时候再告诉我们。",
+        "py": "hǎo , yuàn yì de shí hou zài gào sù wǒ men .",
+        "en": "Fine,tell us when you want to.",
+        "speaker": "a"
+      },
+      {
+        "zh": "音量要不要现在聊？",
+        "py": "yīn liàng yào bù yào xiàn zài liáo ?",
+        "en": "Should we discuss volume now?",
+        "speaker": "b"
+      },
+      {
+        "zh": "只剩五分钟，先记下来，下次单独聊。",
+        "py": "zhǐ shèng wǔ fēn zhōng , xiān jì xià lái , xià cì dān dú liáo .",
+        "en": "Five minutes left.Let's note it for a separate discussion.",
+        "speaker": "a"
+      },
+      {
+        "zh": "我把已答应的分工念一遍，你听有没有漏。",
+        "py": "wǒ bǎ yǐ dā yìng de fēn gōng niàn yī biàn , nǐ tīng yǒu méi yǒu lòu .",
+        "en": "I'll read agreed duties back;check if I missed anything.",
+        "speaker": "b"
+      },
+      {
+        "zh": "念吧，没答应的别替我们加上。",
+        "py": "niàn ba , méi dā yìng de bié tì wǒ men jiā shàng .",
+        "en": "Go ahead.Don't add duties we haven't agreed to.",
+        "speaker": "a"
+      },
+      {
+        "zh": "放心，今天只替你保住了闹钟。",
+        "py": "fàng xīn , jīn tiān zhǐ tì nǐ bǎo zhù le nào zhōng .",
+        "en": "Don't worry—today I only protected your alarm.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "闹钟",
+        "pinyin": "nào zhōng",
+        "meaning": "alarm clock"
+      },
+      {
+        "hanzi": "音量",
+        "pinyin": "yīn liàng",
+        "meaning": "volume"
+      },
+      {
+        "hanzi": "节目单",
+        "pinyin": "jié mù dān",
+        "meaning": "programme"
+      },
+      {
+        "hanzi": "设备",
+        "pinyin": "shè bèi",
+        "meaning": "equipment"
+      },
+      {
+        "hanzi": "开头",
+        "pinyin": "kāi tóu",
+        "meaning": "beginning"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the meeting establish?",
+        "choices": [
+          "Who checks the proposal and when,with final order still pending",
+          "A permanently confirmed programme",
+          "Mandatory speaking for newcomers"
+        ],
+        "answer": "Who checks the proposal and when,with final order still pending"
+      },
+      {
+        "type": "detail",
+        "q": "When does Chen Yu promise a reply?",
+        "choices": [
+          "Before Friday",
+          "After the Saturday show",
+          "Immediately without contacting anyone"
+        ],
+        "answer": "Before Friday"
+      },
+      {
+        "type": "inference",
+        "q": "Why postpone volume to a named contact?",
+        "choices": [
+          "To preserve agreed time while keeping a next step",
+          "To dismiss volume as unimportant",
+          "To guarantee brand-new equipment"
+        ],
+        "answer": "To preserve agreed time while keeping a next step"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "演奏的，两个人八点以后【不便】留下。",
+          "py": "yǎn zòu de , liǎng gè rén bā diǎn yǐ hòu bù biàn liú xià .",
+          "en": "Performers—two can't stay after eight.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我把已答应的【分工】念一遍，你听有没有漏。",
+          "py": "wǒ bǎ yǐ dā yìng de fēn gōng niàn yī biàn , nǐ tīng yǒu méi yǒu lòu .",
+          "en": "I'll read agreed duties back;check if I missed anything.",
+          "speaker": "b"
+        }
+      ],
+      "bank": [
+        "不便",
+        "分工",
+        "明天"
+      ]
+    }
+  },
+  "reading": {
+    "id": "s6-u10-r",
+    "title": "让讨论有下一步",
+    "titleZh": "让讨论有下一步",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "我第一次主持小组讨论时，以为把每个人的话都记下来就够了。讨论结束，纸上写满想法，我很满足，直到周六有人问为什么名字出现在布置名单上。她只是在听到一个节目建议时点头，并没有答应上午来。我翻记录，发现自己把她可以帮忙的那句，跟旁边另一个人的周六上午连在一起了。她不是临时反悔，而是我把两段不同的话记成一件已经确定的事。那次以后，我会在散会前念一遍谁答应做什么。",
+        "py": "wǒ dì yī cì zhǔ chí xiǎo zǔ tǎo lùn shí , yǐ wéi bǎ měi gè rén de huà dōu jì xià lái jiù gòu le . tǎo lùn jié shù , zhǐ shàng xiě mǎn xiǎng fǎ , wǒ hěn mǎn zú , zhí dào zhōu liù yǒu rén wèn wèi shén me míng zi chū xiàn zài bù zhì míng dān shàng . tā zhǐ shì zài tīng dào yī gè jié mù jiàn yì shí diǎn tóu , bìng méi yǒu dā yìng shàng wǔ lái . wǒ fān jì lù , fā xiàn zì jǐ bǎ tā kě yǐ bāng máng de nà jù , gēn páng biān lìng yī gè rén de zhōu liù shàng wǔ lián zài yì qǐ le . tā bù shì lín shí fǎn huǐ , ér shì wǒ bǎ liǎng duàn bù tóng de huà jì chéng yī jiàn yǐ jīng què dìng de shì . nà cì yǐ hòu , wǒ huì zài sàn huì qián niàn yī biàn shéi dā yìng zuò shén me .",
+        "en": "At my first meeting,I thought recording every idea was enough.I left satisfied until someone asked why she'd been listed for Saturday setup.She had nodded at a programme suggestion,not agreed to come that morning.I had joined her offer to help with someone else's Saturday timing.She hadn't changed her mind;I'd combined separate remarks.From then on I read agreed duties back before ending."
+      },
+      {
+        "zh": "这次协会愿意借小厅给我们办读书和听歌活动，日期还得等会长周五确认。我先把今天的议题缩到节目顺序，场地和设备由两个人另外联系。讨论安排四十分钟，我把剩下时间写在纸角上，免得一开口就忘了。有人想先听歌，让陌生人容易坐下来；有人想先读，让两位演奏的朋友也能听一段，再上去唱。他们八点以后不能留，朗读就不能太长。我先问清是哪两个人，把八点写在节目单旁边。",
+        "py": "zhè cì xié huì yuàn yì jiè xiǎo tīng gěi wǒ men bàn dú shū hé tīng gē huó dòng , rì qī hái děi děng huì zhǎng zhōu wǔ què rèn . wǒ xiān bǎ jīn tiān de yì tí suō dào jié mù shùn xù , chǎng dì hé shè bèi yóu liǎng gè rén lìng wài lián xì . tǎo lùn ān pái sì shí fēn zhōng , wǒ bǎ shèng xià shí jiān xiě zài zhǐ jiǎo shàng , miǎn de yī kāi kǒu jiù wàng le . yǒu rén xiǎng xiān tīng gē , ràng mò shēng rén róng yì zuò xià lái ; yǒu rén xiǎng xiān dú , ràng liǎng wèi yǎn zòu de péng you yě néng tīng yī duàn , zài shàng qù chàng . tā men bā diǎn yǐ hòu bù néng liú , lǎng dú jiù bù néng tài zhǎng . wǒ xiān wèn qīng shì nǎ liǎng gè rén , bǎ bā diǎn xiě zài jié mù dān páng biān .",
+        "en": "The association offered its small hall, with the date awaiting the president's Friday confirmation. Today's forty-minute meeting covered running order; two others would check the room and equipment. I noted the time left. Some wanted music first to help newcomers settle; others wanted reading first so the two performers could hear a passage before playing. They couldn't stay past eight, so the reading couldn't run too long. I checked who they were and wrote eight beside the programme."
+      },
+      {
+        "zh": "把演奏者和听众分清以后，另一个朋友说能不能把歌分成两段，开头一首，后面一首。陈宇把节目单翻过来，画了两个位置，说先问演奏的人愿不愿意，周五以前回复。小周问周四晚饭前能不能先知道，他看了看手机，说六点前问完就发消息，没问到就把还没定的部分写出来。我把原来连在一起的两首歌分开记，旁边仍然留着待定。大家拿着各自那一页走出去，到门口还在说谁的歌放前面会比较热闹。",
+        "py": "bǎ yǎn zòu zhě hé tīng zhòng fēn qīng yǐ hòu , lìng yī gè péng you shuō néng bù néng bǎ gē fēn chéng liǎng duàn , kāi tóu yī shǒu , hòu miàn yī shǒu . chén yǔ bǎ jié mù dān fān guò lái , huà le liǎng gè wèi zhì , shuō xiān wèn yǎn zòu de rén yuàn bù yuàn yì , zhōu wǔ yǐ qián huí fù . xiǎo zhōu wèn zhōu sì wǎn fàn qián néng bù néng xiān zhī dào , tā kàn le kàn shǒu jī , shuō liù diǎn qián wèn wán jiù fā xiāo xī , méi wèn dào jiù bǎ hái méi dìng de bù fèn xiě chū lái . wǒ bǎ yuán lái lián zài yì qǐ de liǎng shǒu gē fēn kāi jì , páng biān réng rán liú zhe dài dìng . dà jiā ná zhe gè zì nà yī yè zǒu chū qù , dào mén kǒu hái zài shuō shéi de gē fàng qián miàn huì bǐ jiào rè nào .",
+        "en": "After separating performers from listeners, someone proposed one song near the start and one later. Chen drew two places on the back of the programme and would ask the players, replying before Friday. Could we know before Thursday dinner? He'd message before six if he reached them, otherwise say what remained unsettled. I separated the songs but kept them marked pending. Leaving with our notes, we were still discussing which opener would be livelier."
+      },
+      {
+        "zh": "有位新人一直没说话。我问全场还有没有人想补充，她说先听，还不知道会不会上台。我说好，愿意的时候再告诉我们，就继续听别人的意见。她散会后走过来，说自己带了一小段文字，但不想当着所有人试读。我陪她在门边读了一遍，才问要不要先发给负责节目的朋友。她想了想说可以，但别先写名字上台。这是一个比会议里点头更明确的答复，也仍然只允许分享文字，不允许替她决定公开朗读。",
+        "py": "yǒu wèi xīn rén yì zhí méi shuō huà . wǒ wèn quán chǎng hái yǒu méi yǒu rén xiǎng bǔ chōng , tā shuō xiān tīng , hái bù zhī dào huì bù huì shàng tái . wǒ shuō hǎo , yuàn yì de shí hou zài gào sù wǒ men , jiù jì xù tīng bié ren de yì jiàn . tā sàn huì hòu zǒu guò lái , shuō zì jǐ dài le yī xiǎo duàn wén zì , dàn bù xiǎng dāng zhe suǒ yǒu rén shì dú . wǒ péi tā zài mén biān dú le yī biàn , cái wèn yào bù yào xiān fā gěi fù zé jié mù de péng you . tā xiǎng le xiǎng shuō kě yǐ , dàn bié xiān xiě míng zi shàng tái . zhè shì yī gè bǐ huì yì lǐ diǎn tóu gèng míng què de dá fù , yě réng rán zhǐ yǔn xǔ fēn xiǎng wén zì , bù yǔn xǔ tì tā jué dìng gōng kāi lǎng dú .",
+        "en": "A quiet newcomer said she wanted to listen and didn't know whether she'd perform.I accepted that.Afterwards she privately showed a short text and didn't want to try it before everyone.We read it by the door.She allowed sending it to the programme organiser,but not listing her for the stage.That clear answer permitted sharing the text,not deciding on public reading for her."
+      },
+      {
+        "zh": "快结束时有人想谈音量，另一个人又开始讲上回什么设备不好。只剩五分钟，我打断了一下，先说这个问题值得单独谈，再请他们把具体情况发给负责设备的人。打断不是因为问题不重要，而是已经约好的时间也需要有人守住。我们用最后几分钟念确认过的分工，提醒场地和最终顺序等周五回复。有人改了一处，原来他答应的是下午帮四把椅子换位置，不是上午搬所有桌子，我当场改掉。",
+        "py": "kuài jié shù shí yǒu rén xiǎng tán yīn liàng , lìng yī gè rén yòu kāi shǐ jiǎng shàng huí shén me shè bèi bù hǎo . zhǐ shèng wǔ fēn zhōng , wǒ dǎ duàn le yī xià , xiān shuō zhè gè wèn tí zhí de dān dú tán , zài qǐng tā men bǎ jù tǐ qíng kuàng fā gěi fù zé shè bèi de rén . dǎ duàn bù shì yīn wèi wèn tí bù zhòng yào , ér shì yǐ jīng yuē hǎo de shí jiān yě xū yào yǒu rén shǒu zhù . wǒ men yòng zuì hòu jǐ fēn zhōng niàn què rèn guò de fēn gōng , tí xǐng chǎng dì hé zuì zhōng shùn xù děng zhōu wǔ huí fù . yǒu rén gǎi le yī chù , yuán lái tā dā yìng de shì xià wǔ bāng sì bǎ yǐ zi huàn wèi zhì , bù shì shàng wǔ bān suǒ yǒu zhuō zi , wǒ dāng chǎng gǎi diào .",
+        "en": "With five minutes left,volume led into equipment complaints.I interrupted,said it deserved separate discussion and asked for details to the equipment contact.The interruption protected agreed time,not dismissed the issue.We used the remaining minutes to read confirmed duties and note Friday decisions.Someone corrected his task:four chairs in the afternoon,not all tables in the morning.I changed it immediately."
+      },
+      {
+        "zh": "散会后我发了一条很短的消息，没有把整张记录直接贴出去。消息先列已经确认的联系人和回复时间，再列还待确认的场地与顺序，最后放补充意见的方式。有朋友回复一个鼓掌的表情，我笑着回谢谢，这次不把掌声算成搬桌子的报名。她马上又发一条，说周六下午真的可以帮。我们这才问清具体时间和事情，把名字加到新的名单里。会议没有得到所有人同意所有事，却让需要做的下一步有了人，也让还没决定的地方留在原处。",
+        "py": "sàn huì hòu wǒ fā le yī tiáo hěn duǎn de xiāo xī , méi yǒu bǎ zhěng zhāng jì lù zhí jiē tiē chū qù . xiāo xī xiān liè yǐ jīng què rèn de lián xì rén hé huí fù shí jiān , zài liè hái dài què rèn de chǎng dì yǔ shùn xù , zuì hòu fàng bǔ chōng yì jiàn de fāng shì . yǒu péng you huí fù yī gè gǔ zhǎng de biǎo qíng , wǒ xiào zhe huí xiè xiè , zhè cì bù bǎ zhǎng shēng suàn chéng bān zhuō zi de bào míng . tā mǎ shàng yòu fā yī tiáo , shuō zhōu liù xià wǔ zhēn de kě yǐ bāng . wǒ men zhè cái wèn qīng jù tǐ shí jiān hé shì qíng , bǎ míng zi jiā dào xīn de míng dān lǐ . huì yì méi yǒu dé dào suǒ yǒu rén tóng yì suǒ yǒu shì , què ràng xū yào zuò de xià yī bù yǒu le rén , yě ràng hái méi jué dìng de dì fāng liú zài yuán chù .",
+        "en": "My short follow-up listed confirmed contacts and reply times,then undecided room and order,and how to add views.An applause emoji prompted my joke that I wouldn't count it as volunteering for tables.She then genuinely offered Saturday-afternoon help.We clarified the task and time before adding her.The meeting didn't secure everyone's consent to everything,but gave the next steps owners while leaving undecided matters undecided."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "顺耳",
+        "pinyin": "shùn ěr",
+        "meaning": "pleasant to hear"
+      },
+      {
+        "hanzi": "待定",
+        "pinyin": "dài dìng",
+        "meaning": "undecided"
+      },
+      {
+        "hanzi": "布置",
+        "pinyin": "bù zhì",
+        "meaning": "set up"
+      },
+      {
+        "hanzi": "反悔",
+        "pinyin": "fǎn huǐ",
+        "meaning": "go back on an agreement"
+      },
+      {
+        "hanzi": "确认栏",
+        "pinyin": "què rèn lán",
+        "meaning": "confirmation column"
+      },
+      {
+        "hanzi": "待定栏",
+        "pinyin": "dài dìng lán",
+        "meaning": "pending column"
+      },
+      {
+        "hanzi": "记录",
+        "pinyin": "jì lù",
+        "meaning": "record"
+      },
+      {
+        "hanzi": "同意",
+        "pinyin": "tóng yì",
+        "meaning": "agree"
+      },
+      {
+        "hanzi": "鼓掌",
+        "pinyin": "gǔ zhǎng",
+        "meaning": "applaud"
+      },
+      {
+        "hanzi": "音量",
+        "pinyin": "yīn liàng",
+        "meaning": "volume"
+      },
+      {
+        "hanzi": "陌生人",
+        "pinyin": "mò shēng rén",
+        "meaning": "stranger"
+      },
+      {
+        "hanzi": "散会",
+        "pinyin": "sàn huì",
+        "meaning": "end a meeting"
+      },
+      {
+        "hanzi": "栏",
+        "pinyin": "lán",
+        "meaning": "column"
+      },
+      {
+        "hanzi": "设备",
+        "pinyin": "shè bèi",
+        "meaning": "equipment"
+      },
+      {
+        "hanzi": "节目单",
+        "pinyin": "jié mù dān",
+        "meaning": "programme"
+      },
+      {
+        "hanzi": "开头",
+        "pinyin": "kāi tóu",
+        "meaning": "beginning"
+      },
+      {
+        "hanzi": "忘",
+        "pinyin": "wàng",
+        "meaning": "forget"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the host change after a mistaken list?",
+        "choices": [
+          "Read agreed duties back and keep pending matters separate",
+          "Treat every nod as consent",
+          "Publish all notes without checking"
+        ],
+        "answer": "Read agreed duties back and keep pending matters separate"
+      },
+      {
+        "type": "detail",
+        "q": "What does the newcomer permit?",
+        "choices": [
+          "Sharing her text privately,not listing her for stage",
+          "A guaranteed public performance",
+          "Changing the venue"
+        ],
+        "answer": "Sharing her text privately,not listing her for stage"
+      },
+      {
+        "type": "inference",
+        "q": "Why is laughter possible in the follow-up?",
+        "choices": [
+          "The earlier mistake has been acknowledged and tasks clarified",
+          "Nothing ever went wrong",
+          "Applause now automatically volunteers everyone"
+        ],
+        "answer": "The earlier mistake has been acknowledged and tasks clarified"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "这次协会愿意借小厅给我们办读书和听歌活动，日期还得等会长周五确认。我先把今天的【议题】缩到节目顺序，场地和设备由两个人另外联系。讨论安排四十分钟，我把剩下时间写在纸角上，免得一开口就忘了。有人想先听歌，让陌生人容易坐下来；有人想先读，让两位演奏的朋友也能听一段，再上去唱。他们八点以后不能留，朗读就不能太长。我先问清是哪两个人，把八点写在节目单旁边。",
+          "py": "zhè cì xié huì yuàn yì jiè xiǎo tīng gěi wǒ men bàn dú shū hé tīng gē huó dòng , rì qī hái děi děng huì zhǎng zhōu wǔ què rèn . wǒ xiān bǎ jīn tiān de yì tí suō dào jié mù shùn xù , chǎng dì hé shè bèi yóu liǎng gè rén lìng wài lián xì . tǎo lùn ān pái sì shí fēn zhōng , wǒ bǎ shèng xià shí jiān xiě zài zhǐ jiǎo shàng , miǎn de yī kāi kǒu jiù wàng le . yǒu rén xiǎng xiān tīng gē , ràng mò shēng rén róng yì zuò xià lái ; yǒu rén xiǎng xiān dú , ràng liǎng wèi yǎn zòu de péng you yě néng tīng yī duàn , zài shàng qù chàng . tā men bā diǎn yǐ hòu bù néng liú , lǎng dú jiù bù néng tài zhǎng . wǒ xiān wèn qīng shì nǎ liǎng gè rén , bǎ bā diǎn xiě zài jié mù dān páng biān .",
+          "en": "The association offered its small hall, with the date awaiting the president's Friday confirmation. Today's forty-minute meeting covered running order; two others would check the room and equipment. I noted the time left. Some wanted music first to help newcomers settle; others wanted reading first so the two performers could hear a passage before playing. They couldn't stay past eight, so the reading couldn't run too long. I checked who they were and wrote eight beside the programme."
+        },
+        {
+          "zh": "有位【新人】一直没说话。我问全场还有没有人想补充，她说先听，还不知道会不会上台。我说好，愿意的时候再告诉我们，就继续听别人的意见。她散会后走过来，说自己带了一小段文字，但不想当着所有人试读。我陪她在门边读了一遍，才问要不要先发给负责节目的朋友。她想了想说可以，但别先写名字上台。这是一个比会议里点头更明确的答复，也仍然只允许分享文字，不允许替她决定公开朗读。",
+          "py": "yǒu wèi xīn rén yì zhí méi shuō huà . wǒ wèn quán chǎng hái yǒu méi yǒu rén xiǎng bǔ chōng , tā shuō xiān tīng , hái bù zhī dào huì bù huì shàng tái . wǒ shuō hǎo , yuàn yì de shí hou zài gào sù wǒ men , jiù jì xù tīng bié ren de yì jiàn . tā sàn huì hòu zǒu guò lái , shuō zì jǐ dài le yī xiǎo duàn wén zì , dàn bù xiǎng dāng zhe suǒ yǒu rén shì dú . wǒ péi tā zài mén biān dú le yī biàn , cái wèn yào bù yào xiān fā gěi fù zé jié mù de péng you . tā xiǎng le xiǎng shuō kě yǐ , dàn bié xiān xiě míng zi shàng tái . zhè shì yī gè bǐ huì yì lǐ diǎn tóu gèng míng què de dá fù , yě réng rán zhǐ yǔn xǔ fēn xiǎng wén zì , bù yǔn xǔ tì tā jué dìng gōng kāi lǎng dú .",
+          "en": "A quiet newcomer said she wanted to listen and didn't know whether she'd perform.I accepted that.Afterwards she privately showed a short text and didn't want to try it before everyone.We read it by the door.She allowed sending it to the programme organiser,but not listing her for the stage.That clear answer permitted sharing the text,not deciding on public reading for her."
+        },
+        {
+          "zh": "快结束时有人想谈音量，另一个人又开始讲上回什么设备不好。只剩五分钟，我打断了一下，先说这个问题值得单独谈，再请他们把具体情况发给负责设备的人。打断不是因为问题不重要，而是已经约好的时间也需要有人守住。我们用最后几分钟念确认过的【分工】，提醒场地和最终顺序等周五回复。有人改了一处，原来他答应的是下午帮四把椅子换位置，不是上午搬所有桌子，我当场改掉。",
+          "py": "kuài jié shù shí yǒu rén xiǎng tán yīn liàng , lìng yī gè rén yòu kāi shǐ jiǎng shàng huí shén me shè bèi bù hǎo . zhǐ shèng wǔ fēn zhōng , wǒ dǎ duàn le yī xià , xiān shuō zhè gè wèn tí zhí de dān dú tán , zài qǐng tā men bǎ jù tǐ qíng kuàng fā gěi fù zé shè bèi de rén . dǎ duàn bù shì yīn wèi wèn tí bù zhòng yào , ér shì yǐ jīng yuē hǎo de shí jiān yě xū yào yǒu rén shǒu zhù . wǒ men yòng zuì hòu jǐ fēn zhōng niàn què rèn guò de fēn gōng , tí xǐng chǎng dì hé zuì zhōng shùn xù děng zhōu wǔ huí fù . yǒu rén gǎi le yī chù , yuán lái tā dā yìng de shì xià wǔ bāng sì bǎ yǐ zi huàn wèi zhì , bù shì shàng wǔ bān suǒ yǒu zhuō zi , wǒ dāng chǎng gǎi diào .",
+          "en": "With five minutes left,volume led into equipment complaints.I interrupted,said it deserved separate discussion and asked for details to the equipment contact.The interruption protected agreed time,not dismissed the issue.We used the remaining minutes to read confirmed duties and note Friday decisions.Someone corrected his task:four chairs in the afternoon,not all tables in the morning.I changed it immediately."
+        }
+      ],
+      "bank": [
+        "议题",
+        "新人",
+        "分工",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u10-media",
+      "title": "What applause does not volunteer",
+      "titleZh": "What applause does not volunteer",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "你刚才鼓掌，我以为你同意了。",
+          "py": "nǐ gāng cái gǔ zhǎng , wǒ yǐ wéi nǐ tóng yì le .",
+          "en": "You applauded.I thought you agreed.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我是觉得那首歌好，不是答应搬桌子。",
+          "py": "wǒ shì jué de nà shǒu gē hǎo , bù shì dā yìng bān zhuō zi .",
+          "en": "I liked the song.I didn't agree to move tables.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那我把名单改一下。",
+          "py": "nà wǒ bǎ míng dān gǎi yī xià .",
+          "en": "Then I'll change the list.",
+          "speaker": "a"
+        },
+        {
+          "zh": "你先问我哪天有空。",
+          "py": "nǐ xiān wèn wǒ nǎ tiān yǒu kōng .",
+          "en": "Ask which day I'm free first.",
+          "speaker": "b"
+        },
+        {
+          "zh": "周六早上？",
+          "py": "zhōu liù zǎo shàng ?",
+          "en": "Saturday morning?",
+          "speaker": "a"
+        },
+        {
+          "zh": "不行，下午两点以后可以。",
+          "py": "bù xíng , xià wǔ liǎng diǎn yǐ hòu kě yǐ .",
+          "en": "No.After two in the afternoon works.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那只排你两点以后。",
+          "py": "nà zhǐ pái nǐ liǎng diǎn yǐ hòu .",
+          "en": "Then I'll schedule you only after two.",
+          "speaker": "a"
+        },
+        {
+          "zh": "还要问做什么。",
+          "py": "hái yào wèn zuò shén me .",
+          "en": "You still need to ask what I'll do.",
+          "speaker": "b"
+        },
+        {
+          "zh": "搬四把椅子，不搬桌子。",
+          "py": "bān sì bǎ yǐ zi , bù bān zhuō zi .",
+          "en": "Move four chairs,not tables.",
+          "speaker": "a"
+        },
+        {
+          "zh": "行，这次可以鼓掌了。",
+          "py": "xíng , zhè cì kě yǐ gǔ zhǎng le .",
+          "en": "Okay.Now we can applaud.",
+          "speaker": "b"
+        },
+        {
+          "zh": "给椅子鼓掌？",
+          "py": "gěi yǐ zi gǔ zhǎng ?",
+          "en": "For the chairs?",
+          "speaker": "a"
+        },
+        {
+          "zh": "给你终于问清楚了。",
+          "py": "gěi nǐ zhōng yú wèn qīng chǔ le .",
+          "en": "For you finally asking properly.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "同意",
+          "pinyin": "tóng yì",
+          "meaning": "agree"
+        },
+        {
+          "hanzi": "鼓掌",
+          "pinyin": "gǔ zhǎng",
+          "meaning": "applaud"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What does the friend actually agree to move?",
+          "choices": [
+            "Four chairs after two",
+            "All tables in the morning",
+            "The stage at midnight"
+          ],
+          "answer": "Four chairs after two"
+        },
+        {
+          "type": "inference",
+          "q": "What repairs the misunderstanding?",
+          "choices": [
+            "Ask both time and task before listing a name",
+            "Treat an emoji as blanket consent",
+            "Ignore the list"
+          ],
+          "answer": "Ask both time and task before listing a name"
+        }
+      ]
+    },
+    {
+      "id": "s6-u10-word-notebook",
+      "title": "Keep the next step clear: words in context",
+      "titleZh": "让讨论有下一步 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "今天的议题是活动先读书还是先听歌。",
+          "py": "jīn tiān de yì tí shì huó dòng xiān dú shū hái shi xiān tīng gē .",
+          "en": "Today's topic is whether reading or music comes first."
+        },
+        {
+          "zh": "这个议题留到下次。",
+          "py": "zhè gè yì tí liú dào xià cì .",
+          "en": "Leave this topic for next time."
+        },
+        {
+          "zh": "这是小范围座谈会，不是长篇报告。",
+          "py": "zhè shì xiǎo fàn wéi zuò tán huì , bù shì zhǎng piān bào gào .",
+          "en": "This is a small discussion meeting, not a long report."
+        },
+        {
+          "zh": "座谈会结束后还能单独提问。",
+          "py": "zuò tán huì jié shù hòu hái néng dān dú tí wèn .",
+          "en": "Individual questions are possible after the discussion meeting."
+        },
+        {
+          "zh": "主持人负责让不同的人有机会说。",
+          "py": "zhǔ chí rén fù zé ràng bù tóng de rén yǒu jī huì shuō .",
+          "en": "The host helps different people have a chance to speak."
+        },
+        {
+          "zh": "主持人提醒大家剩下的时间。",
+          "py": "zhǔ chí rén tí xǐng dà jiā shèng xià de shí jiān .",
+          "en": "The host reminds everyone of the time left."
+        },
+        {
+          "zh": "发言人转达小组已经确认的安排。",
+          "py": "fā yán rén zhuǎn dá xiǎo zǔ yǐ jīng què rèn de ān pái .",
+          "en": "The spokesperson conveys arrangements the group has confirmed."
+        },
+        {
+          "zh": "发言人没有宣布未决定的事。",
+          "py": "fā yán rén méi yǒu xuān bù wèi jué dìng de shì .",
+          "en": "The spokesperson hasn't announced undecided matters."
+        },
+        {
+          "zh": "协会愿意提供小厅。",
+          "py": "xié huì yuàn yì tí gōng xiǎo tīng .",
+          "en": "The association is willing to provide the small room."
+        },
+        {
+          "zh": "她加入了本地的音乐协会。",
+          "py": "tā jiā rù le běn dì de yīn yuè xié huì .",
+          "en": "She joined the local music association."
+        },
+        {
+          "zh": "会长周五才能确认场地。",
+          "py": "huì zhǎng zhōu wǔ cái néng què rèn chǎng dì .",
+          "en": "The president can confirm the space on Friday."
+        },
+        {
+          "zh": "会长让大家先提交想法。",
+          "py": "huì zhǎng ràng dà jiā xiān tí jiāo xiǎng fǎ .",
+          "en": "The president asked people to submit ideas first."
+        },
+        {
+          "zh": "新人也可以先听，不急着上台。",
+          "py": "xīn rén yě kě yǐ xiān tīng , bù jí zhe shàng tái .",
+          "en": "Newcomers can listen first without rushing onstage."
+        },
+        {
+          "zh": "她带一个新人来认识大家。",
+          "py": "tā dài yī gè xīn rén lái rèn shi dà jiā .",
+          "en": "She brings a new member to meet everyone."
+        },
+        {
+          "zh": "分工要写谁做和什么时候做。",
+          "py": "fēn gōng yào xiě shéi zuò hé shén me shí hou zuò .",
+          "en": "Division of work should say who does what and when."
+        },
+        {
+          "zh": "我们先分工，再开始整理。",
+          "py": "wǒ men xiān fēn gōng , zài kāi shǐ zhěng lǐ .",
+          "en": "We divide up work before sorting."
+        },
+        {
+          "zh": "检查设备是工作人员的职责。",
+          "py": "jiǎn chá shè bèi shì gōng zuò rén yuán de zhí zé .",
+          "en": "Checking equipment is the staff's responsibility."
+        },
+        {
+          "zh": "这个职责不能随便交给没答应的人。",
+          "py": "zhè gè zhí zé bù néng suí biàn jiāo gěi méi dā yìng de rén .",
+          "en": "This responsibility can't simply be assigned to someone who hasn't agreed."
+        },
+        {
+          "zh": "我来协调两组的时间。",
+          "py": "wǒ lái xié tiáo liǎng zǔ de shí jiān .",
+          "en": "I'll coordinate the two groups' times."
+        },
+        {
+          "zh": "她协调了场地和人员安排。",
+          "py": "tā xié tiáo le chǎng dì hé rén yuán ān pái .",
+          "en": "She coordinated venue and staffing arrangements."
+        },
+        {
+          "zh": "还没问过场地，就不能承诺日期。",
+          "py": "hái méi wèn guò chǎng dì , jiù bù néng chéng nuò rì qī .",
+          "en": "Without checking the venue,we can't promise a date."
+        },
+        {
+          "zh": "她承诺周五前回复。",
+          "py": "tā chéng nuò zhōu wǔ qián huí fù .",
+          "en": "She promised to reply by Friday."
+        },
+        {
+          "zh": "协会派出两个人帮助布置。",
+          "py": "xié huì pài chū liǎng gè rén bāng zhù bù zhì .",
+          "en": "The association sends two people to help set up."
+        },
+        {
+          "zh": "小组派出一人去核对设备。",
+          "py": "xiǎo zǔ pài chū yī rén qù hé duì shè bèi .",
+          "en": "The group sends one person to check equipment."
+        },
+        {
+          "zh": "先区分建议和已经同意的事。",
+          "py": "xiān qū fēn jiàn yì hé yǐ jīng tóng yì de shì .",
+          "en": "First distinguish suggestions from agreed matters."
+        },
+        {
+          "zh": "这两种情况要区分。",
+          "py": "zhè liǎng zhǒng qíng kuàng yào qū fēn .",
+          "en": "These two situations need distinguishing."
+        },
+        {
+          "zh": "我们想提升听歌时的体验。",
+          "py": "wǒ men xiǎng tí shēng tīng gē shí de tǐ yàn .",
+          "en": "We want to improve the listening experience."
+        },
+        {
+          "zh": "新安排提升了参加的便利性。",
+          "py": "xīn ān pái tí shēng le cān jiā de biàn lì xìng .",
+          "en": "The new arrangement made participating more convenient."
+        },
+        {
+          "zh": "先听取还没开口的人的意见。",
+          "py": "xiān tīng qǔ hái méi kāi kǒu de rén de yì jiàn .",
+          "en": "First hear those who haven't spoken yet."
+        },
+        {
+          "zh": "她愿意听取相反的看法。",
+          "py": "tā yuàn yì tīng qǔ xiāng fǎn de kàn fǎ .",
+          "en": "She is willing to hear opposing views."
+        },
+        {
+          "zh": "会后可以提交补充意见。",
+          "py": "huì hòu kě yǐ tí jiāo bǔ chōng yì jiàn .",
+          "en": "Additional views can be submitted after the meeting."
+        },
+        {
+          "zh": "请把确认过的名单提交给工作人员。",
+          "py": "qǐng bǎ què rèn guò de míng dān tí jiāo gěi gōng zuò rén yuán .",
+          "en": "Please submit the confirmed list to staff."
+        },
+        {
+          "zh": "她留言说不能负责周六布置。",
+          "py": "tā liú yán shuō bù néng fù zé zhōu liù bù zhì .",
+          "en": "She left a message saying she can't set up on Saturday."
+        },
+        {
+          "zh": "有问题先留言，我晚点回复。",
+          "py": "yǒu wèn tí xiān liú yán , wǒ wǎn diǎn huí fù .",
+          "en": "Leave a message with questions;I'll reply later."
+        },
+        {
+          "zh": "我先回应时间的问题。",
+          "py": "wǒ xiān huí yìng shí jiān de wèn tí .",
+          "en": "I'll respond to the timing question first."
+        },
+        {
+          "zh": "他没有马上回应这个建议。",
+          "py": "tā méi yǒu mǎ shàng huí yìng zhè gè jiàn yì .",
+          "en": "He didn't immediately respond to this suggestion."
+        },
+        {
+          "zh": "音量的问题需要单独探讨。",
+          "py": "yīn liàng de wèn tí xū yào dān dú tàn tǎo .",
+          "en": "Volume needs a separate discussion."
+        },
+        {
+          "zh": "我们想探讨更合适的安排。",
+          "py": "wǒ men xiǎng tàn tǎo gèng hé shì de ān pái .",
+          "en": "We want to discuss a more suitable arrangement."
+        },
+        {
+          "zh": "至于节目单，我来整理。",
+          "py": "zhì yú jié mù dān , wǒ lái zhěng lǐ .",
+          "en": "As for the programme,I will organise it."
+        },
+        {
+          "zh": "至于费用，等确认以后再说。",
+          "py": "zhì yú fèi yòng , děng què rèn yǐ hòu zài shuō .",
+          "en": "Costs can wait until confirmation."
+        },
+        {
+          "zh": "先确认房间，买东西以后再说。",
+          "py": "xiān què rèn fáng jiān , mǎi dōng xi yǐ hòu zài shuō .",
+          "en": "Confirm the room first;discuss purchases later."
+        },
+        {
+          "zh": "再说，设备也还没检查。",
+          "py": "zài shuō , shè bèi yě hái méi jiǎn chá .",
+          "en": "Besides,the equipment hasn't been checked yet."
+        },
+        {
+          "zh": "凡是上台的人，都先确认自己的时间。",
+          "py": "fán shì shàng tái de rén , dōu xiān què rèn zì jǐ de shí jiān .",
+          "en": "Everyone going onstage should confirm their timing first."
+        },
+        {
+          "zh": "凡是改过的安排，都写进消息里。",
+          "py": "fán shì gǎi guò de ān pái , dōu xiě jìn xiāo xī lǐ .",
+          "en": "Put every changed arrangement in the message."
+        },
+        {
+          "zh": "若小厅不能用，就改期。",
+          "py": "ruò xiǎo tīng bù néng yòng , jiù gǎi qī .",
+          "en": "If the room is unavailable,we'll reschedule."
+        },
+        {
+          "zh": "若人数增加，请提前联系。",
+          "py": "ruò rén shù zēng jiā , qǐng tí qián lián xì .",
+          "en": "Contact us beforehand if attendance grows."
+        },
+        {
+          "zh": "场地没确认，我们只得先等。",
+          "py": "chǎng dì méi què rèn , wǒ men zhǐ dé xiān děng .",
+          "en": "With the venue unconfirmed,we have to wait."
+        },
+        {
+          "zh": "她赶车，只得提前离开。",
+          "py": "tā gǎn chē , zhǐ dé tí qián lí kāi .",
+          "en": "She has to leave early for her bus."
+        },
+        {
+          "zh": "周六上午对她不便。",
+          "py": "zhōu liù shàng wǔ duì tā bù biàn .",
+          "en": "Saturday morning is inconvenient for her."
+        },
+        {
+          "zh": "现在不便长谈，晚点再说。",
+          "py": "xiàn zài bù biàn zhǎng tán , wǎn diǎn zài shuō .",
+          "en": "A long talk is inconvenient now;let's talk later."
+        },
+        {
+          "zh": "能否安排两次演奏，还没确定。",
+          "py": "néng fǒu ān pái liǎng cì yǎn zòu , hái méi què dìng .",
+          "en": "Whether two performances are possible is undecided."
+        },
+        {
+          "zh": "请确认能否提前进场。",
+          "py": "qǐng què rèn néng fǒu tí qián jìn chǎng .",
+          "en": "Please confirm whether we may enter early."
+        },
+        {
+          "zh": "先解决切实的问题。",
+          "py": "xiān jiě jué qiè shí de wèn tí .",
+          "en": "First address the practical issues."
+        },
+        {
+          "zh": "这个办法切实可行。",
+          "py": "zhè gè bàn fǎ qiè shí kě xíng .",
+          "en": "This approach is workable."
+        },
+        {
+          "zh": "最终顺序还要等周五确认。",
+          "py": "zuì zhōng shùn xù hái yào děng zhōu wǔ què rèn .",
+          "en": "The final running order waits for Friday's confirmation."
+        },
+        {
+          "zh": "他们最终同意先试一次。",
+          "py": "tā men zuì zhōng tóng yì xiān shì yī cì .",
+          "en": "They ultimately agreed to try once first."
+        },
+        {
+          "zh": "别让一个问题占据全部时间。",
+          "py": "bié ràng yī gè wèn tí zhàn jù quán bù shí jiān .",
+          "en": "Don't let one question take all the time."
+        },
+        {
+          "zh": "设备占据了桌子的一半。",
+          "py": "shè bèi zhàn jù le zhuō zi de yí bàn .",
+          "en": "The equipment occupies half the table."
+        },
+        {
+          "zh": "我打断一下，先确认你说的是哪天。",
+          "py": "wǒ dǎ duàn yī xià , xiān què rèn nǐ shuō de shì nǎ tiān .",
+          "en": "Let me interrupt briefly to confirm which day you mean."
+        },
+        {
+          "zh": "她没打断，让朋友把话说完。",
+          "py": "tā méi dǎ duàn , ràng péng you bǎ huà shuō wán .",
+          "en": "She let her friend finish without interrupting."
+        },
+        {
+          "zh": "笑声过后，我们继续讨论时间。",
+          "py": "xiào shēng guò hòu , wǒ men jì xù tǎo lùn shí jiān .",
+          "en": "After the laughter,we returned to timing."
+        },
+        {
+          "zh": "隔壁传来一阵笑声。",
+          "py": "gé bì chuán lái yī zhèn xiào shēng .",
+          "en": "Laughter came from next door."
+        },
+        {
+          "zh": "掌声表示喜欢，不一定表示同意分工。",
+          "py": "zhǎng shēng biǎo shì xǐ huān , bù yí dìng biǎo shì tóng yì fēn gōng .",
+          "en": "Applause shows appreciation,not necessarily agreement to duties."
+        },
+        {
+          "zh": "演奏结束后响起掌声。",
+          "py": "yǎn zòu jié shù hòu xiǎng qǐ zhǎng shēng .",
+          "en": "Applause followed the performance."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "转达",
+          "pinyin": "zhuǎn dá",
+          "meaning": "convey"
+        },
+        {
+          "hanzi": "布置",
+          "pinyin": "bù zhì",
+          "meaning": "set up"
+        },
+        {
+          "hanzi": "同意",
+          "pinyin": "tóng yì",
+          "meaning": "agree"
+        },
+        {
+          "hanzi": "音量",
+          "pinyin": "yīn liàng",
+          "meaning": "volume"
+        },
+        {
+          "hanzi": "核对",
+          "pinyin": "hé duì",
+          "meaning": "check"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "设备",
+          "pinyin": "shè bèi",
+          "meaning": "equipment"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u10-paired-reading",
+      "title": "A participant decides to come back",
+      "titleZh": "A participant decides to come back",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "我原本不想去今天的讨论，因为上次只是帮忙提了一句建议，最后就被安排周六一早去搬东西。后来主持人道歉，改掉名单，我知道她不是故意的，可下一次听到要开会，还是先想起那张纸。林安跟我说这回散会前会念确认过的分工，没答应的事情不会直接加进去。我才决定去看看，而且先在群里留言，周六上午不便参加，下午两点以后可以考虑，具体要做什么再问我。",
+          "py": "wǒ yuán běn bù xiǎng qù jīn tiān de tǎo lùn , yīn wèi shàng cì zhǐ shì bāng máng tí le yī jù jiàn yì , zuì hòu jiù bèi ān pái zhōu liù yī zǎo qù bān dōng xi . hòu lái zhǔ chí rén dào qiàn , gǎi diào míng dān , wǒ zhī dào tā bù shì gù yì de , kě xià yī cì tīng dào yào kāi huì , hái shi xiān xiǎng qǐ nà zhāng zhǐ . lín ān gēn wǒ shuō zhè huí sàn huì qián huì niàn què rèn guò de fēn gōng , méi dā yìng de shì qíng bù huì zhí jiē jiā jìn qù . wǒ cái jué dìng qù kàn kàn , ér qiě xiān zài qún lǐ liú yán , zhōu liù shàng wǔ bù biàn cān jiā , xià wǔ liǎng diǎn yǐ hòu kě yǐ kǎo lǜ , jù tǐ yào zuò shén me zài wèn wǒ .",
+          "en": "I hesitated about today's meeting because a suggestion last time had become an early Saturday moving duty.The host apologised and corrected it,but I still remembered that list.Lin An said duties would now be read back.I went,and first messaged that Saturday morning didn't work;after two might,depending on the task."
+        },
+        {
+          "zh": "今天讨论节目先后，我先说想把读书放前面，好让两位演奏的朋友先听一段，再上去唱。他们八点以后要走，我提议朗读短一点，给歌留够时间。主持人问清是谁以后，把八点写在节目单旁边。有人建议开头一首、后面一首，我看着纸上的两个位置，觉得也可以试。我点了点头，让陈宇去问问那两个人。陈宇拿起手机，说先联系他们，周四晚饭以前给消息，我就把原来画的两段改成三个位置，等回复再排。",
+          "py": "jīn tiān tǎo lùn jié mù xiān hòu , wǒ xiān shuō xiǎng bǎ dú shū fàng qián miàn , hǎo ràng liǎng wèi yǎn zòu de péng you xiān tīng yī duàn , zài shàng qù chàng . tā men bā diǎn yǐ hòu yào zǒu , wǒ tí yì lǎng dú duǎn yī diǎn , gěi gē liú gòu shí jiān . zhǔ chí rén wèn qīng shì shéi yǐ hòu , bǎ bā diǎn xiě zài jié mù dān páng biān . yǒu rén jiàn yì kāi tóu yī shǒu , hòu miàn yī shǒu , wǒ kàn zhe zhǐ shàng de liǎng gè wèi zhì , jué de yě kě yǐ shì . wǒ diǎn le diǎn tóu , ràng chén yǔ qù wèn wèn nà liǎng gè rén . chén yǔ ná qǐ shǒu jī , shuō xiān lián xì tā men , zhōu sì wǎn fàn yǐ qián gěi xiāo xī , wǒ jiù bǎ yuán lái huà de liǎng duàn gǎi chéng sān gè wèi zhì , děng huí fù zài pái .",
+          "en": "I suggested reading first so the two performers could hear a passage before playing. They had to leave after eight, so I proposed a short reading with enough time left for music. The host checked who they were and noted eight on the programme. One song at the start and one later was another option. I nodded for Chen Yu to ask both performers. He'd contact them and message before Thursday's dinner. I changed my two blocks to three slots while waiting for their reply."
+        },
+        {
+          "zh": "中间有个新人一直听，我本来差点问她怎么不说，后来想起自己有时也要先弄明白大家在聊什么。主持人给全场一个补充的机会，没有点她名字，她说先听。那之后她坐得明显放松些，还在纸上记了两句。沉默的人并不都需要别人马上把话递到嘴边，留一个能自己走进来的入口，有时比当众让她解释为什么不说更舒服。她散会后留下来找林安，我先走了，不知道两人后来谈了什么。",
+          "py": "zhōng jiān yǒu gè xīn rén yì zhí tīng , wǒ běn lái chà diǎn wèn tā zěn me bù shuō , hòu lái xiǎng qǐ zì jǐ yǒu shí yě yào xiān nòng míng bái dà jiā zài liáo shén me . zhǔ chí rén gěi quán chǎng yī gè bǔ chōng de jī huì , méi yǒu diǎn tā míng zi , tā shuō xiān tīng . nà zhī hòu tā zuò de míng xiǎn fàng sōng xiē , hái zài zhǐ shàng jì le liǎng jù . chén mò de rén bìng bù dōu xū yào bié ren mǎ shàng bǎ huà dì dào zuǐ biān , liú yī gè néng zì jǐ zǒu jìn lái de rù kǒu , yǒu shí bǐ dāng zhòng ràng tā jiě shì wèi shén me bù shuō gèng shū fú . tā sàn huì hòu liú xià lái zhǎo lín ān , wǒ xiān zǒu le , bù zhī dào liǎng rén hòu lái tán le shén me .",
+          "en": "A newcomer listened quietly.I nearly asked why,but remembered sometimes I need to understand first.The host invited additions without naming her;she chose listening and relaxed,scribbling notes.An opening someone can choose may be more comfortable than demanding an explanation for silence.She stayed to talk to Lin An.I left and don't know their later conversation."
+        },
+        {
+          "zh": "我比较在意音量，听说要留到下次，起初觉得自己的问题又被推开了。主持人没有只说时间不够，而是明确请我把上次设备的情况发给联系人，下一次单独谈。我把发生在哪首歌、坐在哪边、声音怎样写下来，觉得比现场一口气说所有设备都不好更有用。她也没有承诺一定换新设备，只说先核对。我能接受先弄清楚再决定，不能接受没有人接着管；这次至少知道把消息发给谁。",
+          "py": "wǒ bǐ jiào zài yì yīn liàng , tīng shuō yào liú dào xià cì , qǐ chū jué de zì jǐ de wèn tí yòu bèi tuī kāi le . zhǔ chí rén méi yǒu zhǐ shuō shí jiān bù gòu , ér shì míng què qǐng wǒ bǎ shàng cì shè bèi de qíng kuàng fā gěi lián xì rén , xià yī cì dān dú tán . wǒ bǎ fā shēng zài nǎ shǒu gē , zuò zài nǎ biān , shēng yīn zěn yàng xiě xià lái , jué de bǐ xiàn chǎng yì kǒu qì shuō suǒ yǒu shè bèi dōu bù hǎo gèng yǒu yòng . tā yě méi yǒu chéng nuò yí dìng huàn xīn shè bèi , zhǐ shuō xiān hé duì . wǒ néng jiē shòu xiān nòng qīng chǔ zài jué dìng , bù néng jiē shòu méi yǒu rén jiē zhe guǎn ; zhè cì zhì shǎo zhī dào bǎ xiāo xī fā gěi shéi .",
+          "en": "I cared about volume and initially felt postponed again.The host named a contact and a separate discussion.I wrote which song,where I sat and what the sound was like,more useful than condemning all equipment.She promised checking,not new equipment.I could accept checking before deciding,so long as someone owned the next step.Now I knew whom to message."
+        },
+        {
+          "zh": "最后念分工时，有人把我的下午两点以后听成上午两点，我差点笑出声。大家看了一眼日期和时间，把它写成周六下午，任务也从搬桌子改成移动四把椅子。我说这样可以，主持人才在我的名字后面画上确认。那个动作很小，却让我知道这次不需要回家以后再纠正一张已经发到群里的名单。别人不必猜我有没有在生气，我也不必用越来越硬的语气保护一个原本就没答应的早起安排。",
+          "py": "zuì hòu niàn fēn gōng shí , yǒu rén bǎ wǒ de xià wǔ liǎng diǎn yǐ hòu tīng chéng shàng wǔ liǎng diǎn , wǒ chà diǎn xiào chū shēng . dà jiā kàn le yī yǎn rì qī hé shí jiān , bǎ tā xiě chéng zhōu liù xià wǔ , rèn wù yě cóng bān zhuō zi gǎi chéng yí dòng sì bǎ yǐ zi . wǒ shuō zhè yàng kě yǐ , zhǔ chí rén cái zài wǒ de míng zi hòu miàn huà shàng què rèn . nà gè dòng zuò hěn xiǎo , què ràng wǒ zhī dào zhè cì bù xū yào huí jiā yǐ hòu zài jiū zhèng yī zhāng yǐ jīng fā dào qún lǐ de míng dān . bié ren bù bì cāi wǒ yǒu méi yǒu zài shēng qì , wǒ yě bù bì yòng yuè lái yuè yìng de yǔ qì bǎo hù yī gè yuán běn jiù méi dā yìng de zǎo qǐ ān pái .",
+          "en": "At readback,someone misheard after two in the afternoon as two in the morning.We checked date and time,and changed the task to four chairs.I agreed before the host marked it confirmed.A small act saved me from correcting a published list later,and from sounding increasingly sharp to protect a morning I'd never promised."
+        },
+        {
+          "zh": "会后我给消息回了个鼓掌的表情，主持人拿上次的误会开玩笑，说这次不把掌声算成搬桌子的报名。我觉得能这样笑，说明我们已经把问题放到能处理的位置。之后我正式回复下午可以帮四把椅子，若场地周五确认不了，就先不安排。音乐顺序仍没定，下一次也可能有新问题，但我没有像上次一样只想退出。愿意再来，不是因为每个意见都照我的做，而是因为我的时间、建议和真正答应的工作，这回终于分开记了。",
+          "py": "huì hòu wǒ gěi xiāo xī huí le gè gǔ zhǎng de biǎo qíng , zhǔ chí rén ná shàng cì de wù huì kāi wán xiào , shuō zhè cì bù bǎ zhǎng shēng suàn chéng bān zhuō zi de bào míng . wǒ jué de néng zhè yàng xiào , shuō míng wǒ men yǐ jīng bǎ wèn tí fàng dào néng chǔ lǐ de wèi zhì . zhī hòu wǒ zhèng shì huí fù xià wǔ kě yǐ bāng sì bǎ yǐ zi , ruò chǎng dì zhōu wǔ què rèn bù le , jiù xiān bù ān pái . yīn yuè shùn xù réng méi dìng , xià yī cì yě kě néng yǒu xīn wèn tí , dàn wǒ méi yǒu xiàng shàng cì yī yàng zhǐ xiǎng tuì chū . yuàn yì zài lái , bù shì yīn wèi měi gè yì jiàn dōu zhào wǒ de zuò , ér shì yīn wèi wǒ de shí jiān , jiàn yì hé zhēn zhèng dā yìng de gōng zuò , zhè huí zhōng yú fēn kāi jì le .",
+          "en": "I sent applause,and the host joked it wouldn't count as volunteering for tables.We could laugh because the problem was now manageable.I confirmed four chairs in the afternoon,conditional on Friday venue confirmation.The music order was still undecided.I wanted to return not because every idea went my way,but because my time,my suggestion and my actual agreed work had been recorded separately."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "纠正",
+          "pinyin": "jiū zhèng",
+          "meaning": "correct a mistake"
+        },
+        {
+          "hanzi": "同意",
+          "pinyin": "tóng yì",
+          "meaning": "agree"
+        },
+        {
+          "hanzi": "鼓掌",
+          "pinyin": "gǔ zhǎng",
+          "meaning": "applaud"
+        },
+        {
+          "hanzi": "音量",
+          "pinyin": "yīn liàng",
+          "meaning": "volume"
+        },
+        {
+          "hanzi": "核对",
+          "pinyin": "hé duì",
+          "meaning": "check"
+        },
+        {
+          "hanzi": "散会",
+          "pinyin": "sàn huì",
+          "meaning": "end a meeting"
+        },
+        {
+          "hanzi": "语气",
+          "pinyin": "yǔ qì",
+          "meaning": "tone"
+        },
+        {
+          "hanzi": "硬",
+          "pinyin": "yìng",
+          "meaning": "firm; hard"
+        },
+        {
+          "hanzi": "退出",
+          "pinyin": "tuì chū",
+          "meaning": "withdraw"
+        },
+        {
+          "hanzi": "设备",
+          "pinyin": "shè bèi",
+          "meaning": "equipment"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "开头",
+          "pinyin": "kāi tóu",
+          "meaning": "beginning"
+        },
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "Why does the participant want to return?",
+          "choices": [
+            "Time,suggestions and accepted work are separately respected",
+            "Every opinion was adopted",
+            "No disagreement remained"
+          ],
+          "answer": "Time,suggestions and accepted work are separately respected"
+        },
+        {
+          "type": "detail",
+          "q": "What setup work is agreed?",
+          "choices": [
+            "Four chairs after two Saturday afternoon,subject to room confirmation",
+            "All tables Saturday morning",
+            "Two chairs Friday evening"
+          ],
+          "answer": "Four chairs after two Saturday afternoon,subject to room confirmation"
+        },
+        {
+          "type": "inference",
+          "q": "Does the participant know the newcomer’s private later conversation?",
+          "choices": [
+            "No;they had already left",
+            "Yes;they witnessed everything",
+            "Yes;a quiet person must have agreed to perform"
+          ],
+          "answer": "No;they had already left"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "我原本不想去今天的讨论，因为上次只是帮忙提了一句建议，最后就被安排周六一早去搬东西。后来【主持人】道歉，改掉名单，我知道她不是故意的，可下一次听到要开会，还是先想起那张纸。林安跟我说这回散会前会念确认过的分工，没答应的事情不会直接加进去。我才决定去看看，而且先在群里留言，周六上午不便参加，下午两点以后可以考虑，具体要做什么再问我。",
+            "py": "wǒ yuán běn bù xiǎng qù jīn tiān de tǎo lùn , yīn wèi shàng cì zhǐ shì bāng máng tí le yī jù jiàn yì , zuì hòu jiù bèi ān pái zhōu liù yī zǎo qù bān dōng xi . hòu lái zhǔ chí rén dào qiàn , gǎi diào míng dān , wǒ zhī dào tā bù shì gù yì de , kě xià yī cì tīng dào yào kāi huì , hái shi xiān xiǎng qǐ nà zhāng zhǐ . lín ān gēn wǒ shuō zhè huí sàn huì qián huì niàn què rèn guò de fēn gōng , méi dā yìng de shì qíng bù huì zhí jiē jiā jìn qù . wǒ cái jué dìng qù kàn kàn , ér qiě xiān zài qún lǐ liú yán , zhōu liù shàng wǔ bù biàn cān jiā , xià wǔ liǎng diǎn yǐ hòu kě yǐ kǎo lǜ , jù tǐ yào zuò shén me zài wèn wǒ .",
+            "en": "I hesitated about today's meeting because a suggestion last time had become an early Saturday moving duty.The host apologised and corrected it,but I still remembered that list.Lin An said duties would now be read back.I went,and first messaged that Saturday morning didn't work;after two might,depending on the task."
+          },
+          {
+            "zh": "中间有个【新人】一直听，我本来差点问她怎么不说，后来想起自己有时也要先弄明白大家在聊什么。主持人给全场一个补充的机会，没有点她名字，她说先听。那之后她坐得明显放松些，还在纸上记了两句。沉默的人并不都需要别人马上把话递到嘴边，留一个能自己走进来的入口，有时比当众让她解释为什么不说更舒服。她散会后留下来找林安，我先走了，不知道两人后来谈了什么。",
+            "py": "zhōng jiān yǒu gè xīn rén yì zhí tīng , wǒ běn lái chà diǎn wèn tā zěn me bù shuō , hòu lái xiǎng qǐ zì jǐ yǒu shí yě yào xiān nòng míng bái dà jiā zài liáo shén me . zhǔ chí rén gěi quán chǎng yī gè bǔ chōng de jī huì , méi yǒu diǎn tā míng zi , tā shuō xiān tīng . nà zhī hòu tā zuò de míng xiǎn fàng sōng xiē , hái zài zhǐ shàng jì le liǎng jù . chén mò de rén bìng bù dōu xū yào bié ren mǎ shàng bǎ huà dì dào zuǐ biān , liú yī gè néng zì jǐ zǒu jìn lái de rù kǒu , yǒu shí bǐ dāng zhòng ràng tā jiě shì wèi shén me bù shuō gèng shū fú . tā sàn huì hòu liú xià lái zhǎo lín ān , wǒ xiān zǒu le , bù zhī dào liǎng rén hòu lái tán le shén me .",
+            "en": "A newcomer listened quietly.I nearly asked why,but remembered sometimes I need to understand first.The host invited additions without naming her;she chose listening and relaxed,scribbling notes.An opening someone can choose may be more comfortable than demanding an explanation for silence.She stayed to talk to Lin An.I left and don't know their later conversation."
+          },
+          {
+            "zh": "我比较在意音量，听说要留到下次，起初觉得自己的问题又被推开了。主持人没有只说时间不够，而是明确请我把上次设备的情况发给联系人，下一次单独谈。我把发生在哪首歌、坐在哪边、声音怎样写下来，觉得比现场一口气说所有设备都不好更有用。她也没有【承诺】一定换新设备，只说先核对。我能接受先弄清楚再决定，不能接受没有人接着管；这次至少知道把消息发给谁。",
+            "py": "wǒ bǐ jiào zài yì yīn liàng , tīng shuō yào liú dào xià cì , qǐ chū jué de zì jǐ de wèn tí yòu bèi tuī kāi le . zhǔ chí rén méi yǒu zhǐ shuō shí jiān bù gòu , ér shì míng què qǐng wǒ bǎ shàng cì shè bèi de qíng kuàng fā gěi lián xì rén , xià yī cì dān dú tán . wǒ bǎ fā shēng zài nǎ shǒu gē , zuò zài nǎ biān , shēng yīn zěn yàng xiě xià lái , jué de bǐ xiàn chǎng yì kǒu qì shuō suǒ yǒu shè bèi dōu bù hǎo gèng yǒu yòng . tā yě méi yǒu chéng nuò yí dìng huàn xīn shè bèi , zhǐ shuō xiān hé duì . wǒ néng jiē shòu xiān nòng qīng chǔ zài jué dìng , bù néng jiē shòu méi yǒu rén jiē zhe guǎn ; zhè cì zhì shǎo zhī dào bǎ xiāo xī fā gěi shéi .",
+            "en": "I cared about volume and initially felt postponed again.The host named a contact and a separate discussion.I wrote which song,where I sat and what the sound was like,more useful than condemning all equipment.She promised checking,not new equipment.I could accept checking before deciding,so long as someone owned the next step.Now I knew whom to message."
+          }
+        ],
+        "bank": [
+          "主持人",
+          "新人",
+          "承诺",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u10-c",
+    "title": "Keep the next step clear",
+    "place": "A small music-and-reading association meeting",
+    "context": "40minute meeting about running order only;venue/date pending president Friday;two performers cannot stay after20:00. Split-song proposal requires performer consent. Chen Yu contacts/replies beforeFriday. Setup volunteer accepts4chairs after14Saturday conditional room. Newcomer permits private text sharing,not public stage. Equipment contact owns volume follow-up.",
+    "goal": "Facilitate a discussion with useful time boundaries",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "她鼓掌了，就排她周六早上搬桌子？",
+        "pinyin": "tā gǔ zhǎng le , jiù pái tā zhōu liù zǎo shàng bān zhuō zi ?",
+        "meaning": "She applauded,so schedule Saturday-morning tables?",
+        "intent": "Separate appreciation from consent",
+        "examples": [
+          "先问时间和任务，鼓掌不算答应。"
+        ],
+        "accept": [
+          "^先问时间和任务，鼓掌不算答应。[。！？]?$"
+        ]
+      },
+      {
+        "text": "一首开头一首后面，就直接发节目单？",
+        "pinyin": "yī shǒu kāi tóu yī shǒu hòu miàn , jiù zhí jiē fā jié mù dān ?",
+        "meaning": "A song each end—publish now?",
+        "intent": "Retain dependency",
+        "examples": [
+          "先问演奏的人，再等场地确认。"
+        ],
+        "accept": [
+          "^先问演奏的人，再等场地确认。[。！？]?$"
+        ]
+      },
+      {
+        "text": "那个新人没说话，要不要点名让她讲？",
+        "pinyin": "nà gè xīn rén méi shuō huà , yào bù yào diǎn míng ràng tā jiǎng ?",
+        "meaning": "A newcomer is quiet;call on her?",
+        "intent": "Offer without pressure",
+        "examples": [
+          "可以问谁想补充，不必点名，她可以只听。"
+        ],
+        "accept": [
+          "^可以问谁想补充，不必点名，她可以只听。[。！？]?$"
+        ]
+      },
+      {
+        "text": "没时间聊音量，是不是就不管了？",
+        "pinyin": "méi shí jiān liáo yīn liàng , shì bú shì jiù bù guǎn le ?",
+        "meaning": "No time for volume means ignore it?",
+        "intent": "Name a next step",
+        "examples": [
+          "留给设备联系人单独讨论，说明谁接着处理。"
+        ],
+        "accept": [
+          "^留给设备联系人单独讨论，说明谁接着处理。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Interrupt with a purpose",
+      "natural": {
+        "zh": "我打断一下，先确认你说的是哪天。",
+        "py": "wǒ dǎ duàn yī xià , xiān què rèn nǐ shuō de shì nǎ tiān .",
+        "en": "Let me interrupt briefly to confirm the day."
+      },
+      "note": "Explain the brief intervention rather than claim the issue is unimportant."
+    },
+    {
+      "situation": "Read consent back",
+      "natural": {
+        "zh": "周六下午两点以后，移动四把椅子，对吗？",
+        "py": "zhōu liù xià wǔ liǎng diǎn yǐ hòu , yí dòng sì bǎ yǐ zi , duì ma ?",
+        "en": "After two Saturday afternoon,four chairs,right?"
+      },
+      "note": "Specific readback catches mismatched time and task."
+    },
+    {
+      "situation": "Distinguish a pending proposal",
+      "natural": {
+        "zh": "这个值得试，但还要问演奏的人。",
+        "py": "zhè gè zhí de shì , dàn hái yào wèn yǎn zòu de rén .",
+        "en": "Worth trying,but we still need to ask the performers."
+      },
+      "note": "Positive evaluation does not provide somebody else’s consent."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u10-t01",
+      "phrase": "s6-u10-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我第一次主持小组讨论时，以为把每个人的话都记下来就够了。讨论结束，纸上写满想法，我很满足，直到周六有人问为什么名字出现在布置名单上。她只是在听到一个节目建议时点头，并没有答应上午来。我翻记录，发现自己把她可以帮忙的那句，跟旁边另一个人的周六上午连在一起了。她不是临时反悔，而是我把两段不同的话记成一件已经确定的事。那次以后，我会在散会前念一遍谁答应做什么。",
+        "py": "wǒ dì yī cì zhǔ chí xiǎo zǔ tǎo lùn shí , yǐ wéi bǎ měi gè rén de huà dōu jì xià lái jiù gòu le . tǎo lùn jié shù , zhǐ shàng xiě mǎn xiǎng fǎ , wǒ hěn mǎn zú , zhí dào zhōu liù yǒu rén wèn wèi shén me míng zi chū xiàn zài bù zhì míng dān shàng . tā zhǐ shì zài tīng dào yī gè jié mù jiàn yì shí diǎn tóu , bìng méi yǒu dā yìng shàng wǔ lái . wǒ fān jì lù , fā xiàn zì jǐ bǎ tā kě yǐ bāng máng de nà jù , gēn páng biān lìng yī gè rén de zhōu liù shàng wǔ lián zài yì qǐ le . tā bù shì lín shí fǎn huǐ , ér shì wǒ bǎ liǎng duàn bù tóng de huà jì chéng yī jiàn yǐ jīng què dìng de shì . nà cì yǐ hòu , wǒ huì zài sàn huì qián niàn yī biàn shéi dā yìng zuò shén me .",
+        "en": "At my first meeting,I thought recording every idea was enough.I left satisfied until someone asked why she'd been listed for Saturday setup.She had nodded at a programme suggestion,not agreed to come that morning.I had joined her offer to help with someone else's Saturday timing.She hadn't changed her mind;I'd combined separate remarks.From then on I read agreed duties back before ending."
+      },
+      "statement": "The earlier volunteer had promised Saturday morning and then changed her mind.",
+      "answer": false,
+      "why": "The host wrongly combined remarks."
+    },
+    {
+      "id": "s6-u10-t02",
+      "phrase": "s6-u10-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "有位新人一直没说话。我问全场还有没有人想补充，她说先听，还不知道会不会上台。我说好，愿意的时候再告诉我们，就继续听别人的意见。她散会后走过来，说自己带了一小段文字，但不想当着所有人试读。我陪她在门边读了一遍，才问要不要先发给负责节目的朋友。她想了想说可以，但别先写名字上台。这是一个比会议里点头更明确的答复，也仍然只允许分享文字，不允许替她决定公开朗读。",
+        "py": "yǒu wèi xīn rén yì zhí méi shuō huà . wǒ wèn quán chǎng hái yǒu méi yǒu rén xiǎng bǔ chōng , tā shuō xiān tīng , hái bù zhī dào huì bù huì shàng tái . wǒ shuō hǎo , yuàn yì de shí hou zài gào sù wǒ men , jiù jì xù tīng bié ren de yì jiàn . tā sàn huì hòu zǒu guò lái , shuō zì jǐ dài le yī xiǎo duàn wén zì , dàn bù xiǎng dāng zhe suǒ yǒu rén shì dú . wǒ péi tā zài mén biān dú le yī biàn , cái wèn yào bù yào xiān fā gěi fù zé jié mù de péng you . tā xiǎng le xiǎng shuō kě yǐ , dàn bié xiān xiě míng zi shàng tái . zhè shì yī gè bǐ huì yì lǐ diǎn tóu gèng míng què de dá fù , yě réng rán zhǐ yǔn xǔ fēn xiǎng wén zì , bù yǔn xǔ tì tā jué dìng gōng kāi lǎng dú .",
+        "en": "A quiet newcomer said she wanted to listen and didn't know whether she'd perform.I accepted that.Afterwards she privately showed a short text and didn't want to try it before everyone.We read it by the door.She allowed sending it to the programme organiser,but not listing her for the stage.That clear answer permitted sharing the text,not deciding on public reading for her."
+      },
+      "statement": "The newcomer permits private text sharing but not a stage listing.",
+      "answer": true,
+      "why": "Consent scope is explicit."
+    },
+    {
+      "id": "s6-u10-t03",
+      "phrase": "s6-u10-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "我比较在意音量，听说要留到下次，起初觉得自己的问题又被推开了。主持人没有只说时间不够，而是明确请我把上次设备的情况发给联系人，下一次单独谈。我把发生在哪首歌、坐在哪边、声音怎样写下来，觉得比现场一口气说所有设备都不好更有用。她也没有承诺一定换新设备，只说先核对。我能接受先弄清楚再决定，不能接受没有人接着管；这次至少知道把消息发给谁。",
+        "py": "wǒ bǐ jiào zài yì yīn liàng , tīng shuō yào liú dào xià cì , qǐ chū jué de zì jǐ de wèn tí yòu bèi tuī kāi le . zhǔ chí rén méi yǒu zhǐ shuō shí jiān bù gòu , ér shì míng què qǐng wǒ bǎ shàng cì shè bèi de qíng kuàng fā gěi lián xì rén , xià yī cì dān dú tán . wǒ bǎ fā shēng zài nǎ shǒu gē , zuò zài nǎ biān , shēng yīn zěn yàng xiě xià lái , jué de bǐ xiàn chǎng yì kǒu qì shuō suǒ yǒu shè bèi dōu bù hǎo gèng yǒu yòng . tā yě méi yǒu chéng nuò yí dìng huàn xīn shè bèi , zhǐ shuō xiān hé duì . wǒ néng jiē shòu xiān nòng qīng chǔ zài jué dìng , bù néng jiē shòu méi yǒu rén jiē zhe guǎn ; zhè cì zhì shǎo zhī dào bǎ xiāo xī fā gěi shéi .",
+        "en": "I cared about volume and initially felt postponed again.The host named a contact and a separate discussion.I wrote which song,where I sat and what the sound was like,more useful than condemning all equipment.She promised checking,not new equipment.I could accept checking before deciding,so long as someone owned the next step.Now I knew whom to message."
+      },
+      "statement": "The host promises to replace all equipment.",
+      "answer": false,
+      "why": "Checking,not replacement,is promised."
+    },
+    {
+      "id": "s6-u10-t04",
+      "phrase": "s6-u10-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "最后念分工时，有人把我的下午两点以后听成上午两点，我差点笑出声。大家看了一眼日期和时间，把它写成周六下午，任务也从搬桌子改成移动四把椅子。我说这样可以，主持人才在我的名字后面画上确认。那个动作很小，却让我知道这次不需要回家以后再纠正一张已经发到群里的名单。别人不必猜我有没有在生气，我也不必用越来越硬的语气保护一个原本就没答应的早起安排。",
+        "py": "zuì hòu niàn fēn gōng shí , yǒu rén bǎ wǒ de xià wǔ liǎng diǎn yǐ hòu tīng chéng shàng wǔ liǎng diǎn , wǒ chà diǎn xiào chū shēng . dà jiā kàn le yī yǎn rì qī hé shí jiān , bǎ tā xiě chéng zhōu liù xià wǔ , rèn wù yě cóng bān zhuō zi gǎi chéng yí dòng sì bǎ yǐ zi . wǒ shuō zhè yàng kě yǐ , zhǔ chí rén cái zài wǒ de míng zi hòu miàn huà shàng què rèn . nà gè dòng zuò hěn xiǎo , què ràng wǒ zhī dào zhè cì bù xū yào huí jiā yǐ hòu zài jiū zhèng yī zhāng yǐ jīng fā dào qún lǐ de míng dān . bié ren bù bì cāi wǒ yǒu méi yǒu zài shēng qì , wǒ yě bù bì yòng yuè lái yuè yìng de yǔ qì bǎo hù yī gè yuán běn jiù méi dā yìng de zǎo qǐ ān pái .",
+        "en": "At readback,someone misheard after two in the afternoon as two in the morning.We checked date and time,and changed the task to four chairs.I agreed before the host marked it confirmed.A small act saved me from correcting a published list later,and from sounding increasingly sharp to protect a morning I'd never promised."
+      },
+      "statement": "The participant agrees to all tables in the morning.",
+      "answer": false,
+      "why": "Four chairs after two afternoon."
+    },
+    {
+      "id": "s6-u10-t05",
+      "phrase": "s6-u10-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "小厅周五确认，节目单现在能写最终吗？",
+        "py": "xiǎo tīng zhōu wǔ què rèn , jié mù dān xiàn zài néng xiě zuì zhōng ma ?",
+        "en": "Room confirmation Friday.Can the programme now say final?"
+      },
+      "choices": [
+        "不能，等确认再发。",
+        "能，有人喜欢就算确认。",
+        "能，鼓掌已经代替场地回复。"
+      ],
+      "answer": "不能，等确认再发。",
+      "why": "Venue confirmation is still pending."
+    },
+    {
+      "id": "s6-u10-t06",
+      "phrase": "s6-u10-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "她只许把文字给联系人，能列上台名单吗？",
+        "py": "tā zhǐ xǔ bǎ wén zì gěi lián xì rén , néng liè shàng tái míng dān ma ?",
+        "en": "She permits sharing text with a contact.Can she be listed for stage?"
+      },
+      "choices": [
+        "不能，公开朗读要另问。",
+        "能，发文字就自动上台。",
+        "能，沉默表示答应。"
+      ],
+      "answer": "不能，公开朗读要另问。",
+      "why": "Private sharing is limited consent."
+    },
+    {
+      "id": "s6-u10-t07",
+      "phrase": "s6-u10-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "四十分钟只剩五分钟，音量有联系人。怎么处理？",
+        "py": "sì shí fēn zhōng zhǐ shèng wǔ fēn zhōng , yīn liàng yǒu lián xì rén . zěn me chǔ lǐ ?",
+        "en": "Five of forty minutes left,volume has a contact.What next?"
+      },
+      "choices": [
+        "记下来交联系人，最后核对分工。",
+        "宣布音量永远不用管。",
+        "保证马上换全部设备。"
+      ],
+      "answer": "记下来交联系人，最后核对分工。",
+      "why": "Keep a concrete follow-up and readback."
+    },
+    {
+      "id": "s6-u10-t08",
+      "phrase": "s6-u10-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "说周六下午两点以后搬四把椅子，哪项符合？",
+        "py": "shuō zhōu liù xià wǔ liǎng diǎn yǐ hòu bān sì bǎ yǐ zi , nǎ xiàng fú hé ?",
+        "en": "Which fits four chairs after2Saturdayafternoon?"
+      },
+      "choices": [
+        "下午两点半移动四把椅子。",
+        "上午九点搬全部桌子。",
+        "周五凌晨两点搬四把椅子。"
+      ],
+      "answer": "下午两点半移动四把椅子。",
+      "why": "Both day,time and task match."
+    },
+    {
+      "id": "s6-u10-t09",
+      "phrase": "s6-u10-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "【凡是】改过的安排，都写进消息里。",
+        "py": "fán shì gǎi guò de ān pái , dōu xiě jìn xiāo xī lǐ .",
+        "en": "Include every changed arrangement."
+      },
+      "blankPy": "fán shì"
+    },
+    {
+      "id": "s6-u10-t10",
+      "phrase": "s6-u10-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "她【承诺】周五前回复。",
+        "py": "tā chéng nuò zhōu wǔ qián huí fù .",
+        "en": "She promised a reply beforeFriday."
+      },
+      "blankPy": "chéng nuò"
+    },
+    {
+      "id": "s6-u10-t11",
+      "phrase": "s6-u10-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "我【打断】一下，先确认你说的是哪天。",
+        "py": "wǒ dǎ duàn yī xià , xiān què rèn nǐ shuō de shì nǎ tiān .",
+        "en": "Let me interrupt to confirm the day."
+      },
+      "blankPy": "dǎ duàn"
+    },
+    {
+      "id": "s6-u10-t12",
+      "phrase": "s6-u10-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "【至于】节目单，我来整理。",
+        "py": "zhì yú jié mù dān , wǒ lái zhěng lǐ .",
+        "en": "As for the programme,I will organise it."
+      },
+      "blankPy": "zhì yú"
+    },
+    {
+      "id": "s6-u10-t13",
+      "phrase": "s6-u10-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Today's topic is whether reading or music comes first.",
+          "right": {
+            "zh": "今天的议题是活动先读书还是先听歌。",
+            "py": "jīn tiān de yì tí shì huó dòng xiān dú shū hái shi xiān tīng gē .",
+            "en": "Today's topic is whether reading or music comes first."
+          }
+        },
+        {
+          "left": "This is a small discussion meeting, not a long report.",
+          "right": {
+            "zh": "这是小范围座谈会，不是长篇报告。",
+            "py": "zhè shì xiǎo fàn wéi zuò tán huì , bù shì zhǎng piān bào gào .",
+            "en": "This is a small discussion meeting, not a long report."
+          }
+        },
+        {
+          "left": "The spokesperson conveys arrangements the group has confirmed.",
+          "right": {
+            "zh": "发言人转达小组已经确认的安排。",
+            "py": "fā yán rén zhuǎn dá xiǎo zǔ yǐ jīng què rèn de ān pái .",
+            "en": "The spokesperson conveys arrangements the group has confirmed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u10-t14",
+      "phrase": "s6-u10-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "She brings a new member to meet everyone.",
+          "right": {
+            "zh": "她带一个新人来认识大家。",
+            "py": "tā dài yī gè xīn rén lái rèn shi dà jiā .",
+            "en": "She brings a new member to meet everyone."
+          }
+        },
+        {
+          "left": "This responsibility can't simply be assigned to someone who hasn't agreed.",
+          "right": {
+            "zh": "这个职责不能随便交给没答应的人。",
+            "py": "zhè gè zhí zé bù néng suí biàn jiāo gěi méi dā yìng de rén .",
+            "en": "This responsibility can't simply be assigned to someone who hasn't agreed."
+          }
+        },
+        {
+          "left": "The group sends one person to check equipment.",
+          "right": {
+            "zh": "小组派出一人去核对设备。",
+            "py": "xiǎo zǔ pài chū yī rén qù hé duì shè bèi .",
+            "en": "The group sends one person to check equipment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u10-t15",
+      "phrase": "s6-u10-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "First hear those who haven't spoken yet.",
+          "right": {
+            "zh": "先听取还没开口的人的意见。",
+            "py": "xiān tīng qǔ hái méi kāi kǒu de rén de yì jiàn .",
+            "en": "First hear those who haven't spoken yet."
+          }
+        },
+        {
+          "left": "She left a message saying she can't set up on Saturday.",
+          "right": {
+            "zh": "她留言说不能负责周六布置。",
+            "py": "tā liú yán shuō bù néng fù zé zhōu liù bù zhì .",
+            "en": "She left a message saying she can't set up on Saturday."
+          }
+        },
+        {
+          "left": "Volume needs a separate discussion.",
+          "right": {
+            "zh": "音量的问题需要单独探讨。",
+            "py": "yīn liàng de wèn tí xū yào dān dú tàn tǎo .",
+            "en": "Volume needs a separate discussion."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u10-t16",
+      "phrase": "s6-u10-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Besides,the equipment hasn't been checked yet.",
+          "right": {
+            "zh": "再说，设备也还没检查。",
+            "py": "zài shuō , shè bèi yě hái méi jiǎn chá .",
+            "en": "Besides,the equipment hasn't been checked yet."
+          }
+        },
+        {
+          "left": "Contact us beforehand if attendance grows.",
+          "right": {
+            "zh": "若人数增加，请提前联系。",
+            "py": "ruò rén shù zēng jiā , qǐng tí qián lián xì .",
+            "en": "Contact us beforehand if attendance grows."
+          }
+        },
+        {
+          "left": "Please confirm whether we may enter early.",
+          "right": {
+            "zh": "请确认能否提前进场。",
+            "py": "qǐng què rèn néng fǒu tí qián jìn chǎng .",
+            "en": "Please confirm whether we may enter early."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u10-t17",
+      "phrase": "s6-u10-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Don't let one question take all the time.",
+          "right": {
+            "zh": "别让一个问题占据全部时间。",
+            "py": "bié ràng yī gè wèn tí zhàn jù quán bù shí jiān .",
+            "en": "Don't let one question take all the time."
+          }
+        },
+        {
+          "left": "After the laughter,we returned to timing.",
+          "right": {
+            "zh": "笑声过后，我们继续讨论时间。",
+            "py": "xiào shēng guò hòu , wǒ men jì xù tǎo lùn shí jiān .",
+            "en": "After the laughter,we returned to timing."
+          }
+        },
+        {
+          "left": "Applause shows appreciation,not necessarily agreement to duties.",
+          "right": {
+            "zh": "掌声表示喜欢，不一定表示同意分工。",
+            "py": "zhǎng shēng biǎo shì xǐ huān , bù yí dìng biǎo shì tóng yì fēn gōng .",
+            "en": "Applause shows appreciation,not necessarily agreement to duties."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: chair/applause/alarm banter, gentle interruption,the self-correcting host narrative and formal association terms. Self-review separates nod/applause from task consent,private text from stage consent,performer from audience timing,40minute scope/5minute closing,Friday conditional venue and Saturday14:00+fourchairs. No invented agreement or native certification. Participants retain distinct information; useful facilitation does not mean every opinion wins.\n2026-10-08 advanced reading self-review: Phone and letter actions v2: Corrected next-week attendance wording in the library dialogue. Preserved operational notice/service distinction without repeated misconception lectures. Work programme now shows pending confirmation rather than abstract permission analysis. Repaired the reading-first proposal: performers want to hear a short passage before playing, leaving enough music time before their eight-o-clock departure. Thursday dinner reply, Friday room confirmation and original task keys remain unchanged. Misheard-food phone call becomes a water/menu joke; ten-minute estimate still follows bus arrival. Farewell diary clarifies the next-evening arrival chronology, retains unopened letter and actual arrival-message promise. Author account shows alternative phrasing without pretending a return date is known. Added missing reading aids for shaking the head and putting on earphones after the strict character check caught them. Remaining phone narration now shows actual travel, menu and programme checks; the final audience account debates the letter, packs chairs and meets the train instead of repeatedly explaining evidential limits. Native flags: forgotten-lyric and bottle banter, book overtime joke, dialogue-message timing, lyric phrasing and farewell banter. Native review pending.",
+  "characters": []
+}

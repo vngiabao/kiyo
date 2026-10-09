@@ -2,7 +2,7 @@
 import json,re,sys
 from common import ROOT,line,py
 
-def apply(level,edits,review,glosses=(),publish=False):
+def apply(level,edits,review,glosses=(),publish=False,omit_unused_glosses=(),conversation_edits=None):
     for number,sections in edits.items():
         uid=f's{level}-u{number:02}'
         current=ROOT/f'content/packs/{uid}.json'
@@ -10,6 +10,10 @@ def apply(level,edits,review,glosses=(),publish=False):
         if not publish and '--shadow' in sys.argv:
             source=ROOT/f'.cache/advanced-preflight/content/packs/{uid}.json'
         pack=json.loads(source.read_text('utf-8'))
+        for index,(zh,en) in (conversation_edits or {}).get(number,{}).items():
+            # Retain the practised response and its acceptance rule when clarifying a cue.
+            turn=pack['conversation']['turns'][index]
+            turn.update(text=zh,pinyin=py(zh),meaning=en)
         for suffix,replacements in sections.items():
             text=next(t for t in [pack['dialogue'],pack['reading'],*pack['extraReadings']] if t['id']==uid+suffix)
             for index,(zh,en) in replacements.items():
@@ -43,6 +47,10 @@ def apply(level,edits,review,glosses=(),publish=False):
             for word,meaning in glosses:
                 if any(word in item['zh'] for item in text['lines']) and not any(g['hanzi']==word for g in text.get('glosses',[])):
                     text.setdefault('glosses',[]).append(dict(hanzi=word,pinyin=py(word),meaning=meaning))
+            if 'glosses' in text and omit_unused_glosses:
+                # Remove only named obsolete aids after their authored wording changes.
+                text['glosses']=[g for g in text['glosses'] if g['hanzi'] not in omit_unused_glosses
+                                or any(g['hanzi'] in item['zh'] for item in text['lines'])]
         pack['notes']='\n'.join(dict.fromkeys([*pack.get('notes','').splitlines(),note]))
         dest=ROOT/('content/packs' if publish else 'output/parity-editorial-drafts')/f'{uid}.json'
         dest.parent.mkdir(parents=True,exist_ok=True)

@@ -1,6 +1,7 @@
 """HSK 6 readings 1–4: concrete reconciliations, borrowing and farewell scenes."""
 import sys
-from advanced_reading_repair import apply
+from farewell_reading_edits import apply_farewell_edits
+from advanced_reading_repair import apply,dependencies
 EDITS={
 1:{'-d':{
 12:('这句说重了。上次你就没迟到。',"That was too harsh. You weren't late last time."),
@@ -30,6 +31,10 @@ EDITS={
 3:('有人只听见开头那句，问我们是不是有点不高兴。陈宇笑着说下一句还得追出去送伞，让他等着看。林安站到门边，陈宇又试了一次，刚走两步就被桌子挡住。我们挪开桌子，把台灯和稿子放好，那个朋友这才笑着说原来正在排练。他帮忙拿着伞，问从哪一句再来，我们让他先读林安走到门口的那一句。',"Someone heard only the opening and asked if we were upset. Chen Yu laughed: wait for the next line, when he chased her with an umbrella. On another attempt a table blocked him. We moved it and arranged the lamp and script; our friend finally realised we were rehearsing. Holding the umbrella, he asked where to restart. We pointed to Lin An's line at the doorway."),
 8:('收东西时，她想搬重桌子，我说换我，她说别什么都抢。我只好站到另一边，问往左还是往右。她说左，我一抬才发现地上还放着一把椅子，又赶紧把桌子放下。陈宇过来移开椅子，两个人再抬，终于放回原来的墙边。她拍了拍手上的灰，说刚才要是真的让我一个人搬，说不定还快一点。我笑着让她别算这段时间，先把剩下的书收好。',"While packing up she went to move a heavy table. I offered to take over; she said not to grab every job. I stood at the other end and asked which way. Lifting left, I found a chair in the way and put it down again. Chen moved the chair; we finally carried the table to the wall. Dusting her hands, she joked she'd probably have been quicker alone. Laughing, I told her not to time us and to help with the remaining books.")}}
 }
-apply(6,EDITS,'Replaced repeated forgiveness, permission and identity lectures with calendar corrections, camera setup, actual borrowing and farewell actions. Two dialogue accusations now sound like apologies rather than evidence audits. Photo dialogue retains firsthand/worker-account distinction without report-like wording. Corrected umbrella-rehearsal ownership: Chen Yu chases Lin An. Preserved two/two-thirty and 2:12, Thursday six/5:30, fifteen-minute introduction, three remaining browsing books and Saturday five return requirement. Native flags: 咽回去 metaphor, friendly deadline and lifting-table banter, 台词/告别 register and chronological retelling.',glosses=[('劝','persuade; urge'),('咽','swallow; hold back words'),('稍后','a little later'),('卷起','roll up'),('划','mark; cross out'),('登记','register'),('音箱','speaker; loudspeaker'),('稿子','draft; script'),('灰','dust'),('抬','lift; carry together')],publish='--publish' in sys.argv)
+apply_farewell_edits(EDITS)
+apply(6,EDITS,'Farewell actions v2: Replaced repeated forgiveness, permission and identity lectures with calendar corrections, camera setup, actual borrowing and farewell actions. Two dialogue accusations now sound like apologies rather than evidence audits. Photo dialogue retains firsthand/worker-account distinction without report-like wording. Corrected umbrella-rehearsal ownership: Chen Yu chases Lin An. Preserved two/two-thirty and 2:12, Thursday six/5:30, fifteen-minute introduction, three remaining browsing books and Saturday five return requirement. Native flags: 咽回去 metaphor, friendly deadline and lifting-table banter, 台词/告别 register and chronological retelling.',glosses=[('嗓子','throat; voice'),('盏','classifier for lamps'),('添','add; put in'),('劝','persuade; urge'),('咽','swallow; hold back words'),('稍后','a little later'),('卷起','roll up'),('划','mark; cross out'),('登记','register'),('音箱','speaker; loudspeaker'),('稿子','draft; script'),('灰','dust'),('抬','lift; carry together')],publish='--publish' in sys.argv)
 
 
+
+# The revised earlier reading no longer introduces emotion by incidental use.
+dependencies({'s6-u05':[('情绪','mood; emotion'),('盏','classifier for lamps')], 's6-u12':[('盏','classifier for lamps')]},publish='--publish' in sys.argv)

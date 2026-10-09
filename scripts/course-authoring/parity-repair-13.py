@@ -23,7 +23,7 @@ TEXTS={
 '''今天我和陈宇约好去听演出，出门以前却觉得累。我给他发消息，说想找一个安静的地方坐坐，他提议去河边的小店。|Chen Yu and I had planned to see a performance today, but I felt tired before leaving. I messaged that I'd like somewhere quiet to sit; he suggested the little shop by the river.
 我怕他失望，问要不要他先去看演出。他说今天主要是想和我见面，演出下次也能听。我看到这句话，心里轻松了一点。|Worried he'd be disappointed, I asked if he'd like to go to the show first. He said he mainly wanted to see me today; the show could wait. Reading that made me feel more relaxed.
 到店里以后，我找了窗边的两把椅子。陈宇过来时带了一本薄书，说以前在那里读过，想给我看看。|At the shop I found two chairs by the window. Chen Yu arrived with a slim book he'd read there before and wanted to show me.
-我们点了茶，他翻到里面的一张照片。照片里是一条我小时候走过的路，我指给他看，说原来他也去过那个地方。|We ordered tea. He turned to a photo of a road I'd walked along as a child. I pointed it out and said I hadn't realised he'd been there too.
+我们点了茶，他翻到里面的一张照片。照片里是一条我小时候走过的路，我指给他看。他说去年也去过那里，我们就聊起那条路旁边的小店。|We ordered tea. He turned to a photo of a road I'd walked along as a child. I pointed it out. He said he'd been there last year too, and we talked about the little shops beside that road.
 聊了一会儿，我不那么累了。他问还想不想去听歌，我说今天就坐在这里吧。这本书还没看完，茶也很好喝。|After chatting I felt less tired. He asked if I wanted to hear music now. I'd rather stay here today, I said; I hadn't finished the book and the tea was good.
 傍晚我们一起走到车站。他说下次还坐窗边，我说好，不过这次的书先借我。他把书递来，说椅子不能借，书可以。|That evening we walked to the station together. He suggested the window seats again next time. Yes, I said, but could I borrow today's book first? He handed it over: the chairs couldn't be borrowed, but the book could.
 ''',

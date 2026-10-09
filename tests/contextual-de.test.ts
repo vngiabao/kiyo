@@ -2,6 +2,21 @@ import { describe, expect, it } from "vitest";
 import { checkDePinyin } from "../scripts/contextual-de";
 
 describe("contextual 得 readings", () => {
+  it("requires the reviewed recording complement without approving every 录得 use", () => {
+    const text = "店里的笑声录得特别清楚。";
+    expect(checkDePinyin(text, "diàn lǐ de xiào shēng lù de tè bié qīng chǔ.")).toEqual([]);
+    for (const wrong of ["dé", "děi"])
+      expect(checkDePinyin(text, `diàn lǐ de xiào shēng lù ${wrong} tè bié qīng chǔ.`)).toEqual([`得 needs de, found ${wrong}`]);
+    expect(checkDePinyin("录得这个。", "lù dé zhè ge.")[0]).toContain("Unreviewed");
+  });
+  it("requires the reviewed comparison obligation without guessing nearby contexts", () => {
+    const text = "要评价它，得另外安排一次比较。";
+    expect(checkDePinyin(text, "yào píng jià tā, děi lìng wài ān pái yī cì bǐ jiào.")).toEqual([]);
+    for (const wrong of ["de", "dé"])
+      expect(checkDePinyin(text, `yào píng jià tā, ${wrong} lìng wài ān pái yī cì bǐ jiào.`)).toEqual([`得 needs děi, found ${wrong}`]);
+    expect(checkDePinyin("得另外一个东西。", "dé lìng wài yī gè dōng xi.")[0]).toContain("Unreviewed");
+    expect(checkDePinyin("得到另外一个东西。", "dé dào lìng wài yī gè dōng xi.")).toEqual([]);
+  });
   it("keeps a potential complement distinct from obtaining", () => {
     expect(
       checkDePinyin(
@@ -12,6 +27,8 @@ describe("contextual 得 readings", () => {
     expect(checkDePinyin("找得到书。", "zhǎo dé dào shū.")).toEqual([
       "得 needs de, found dé",
     ]);
+    expect(checkDePinyin("说得出口，看得出来，再得出结论。", "shuō de chū kǒu, kàn de chū lái, zài dé chū jié lùn.")).toEqual([]);
+    expect(checkDePinyin("说得出口。", "shuō dé chū kǒu.")).toEqual(["得 needs de, found dé"]);
   });
   it("separates a complement, obligation, and actual obtaining", () => {
     expect(

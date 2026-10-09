@@ -7,9 +7,11 @@ export function UpdateNotice() {
   useEffect(() => {
     if (!import.meta.env.PROD || !("serviceWorker" in navigator)) return;
     let active = true;
-    const hadController = Boolean(navigator.serviceWorker.controller);
+    let previousController = navigator.serviceWorker.controller;
     const controllerChanged = () => {
-      if (active && hadController) setChanged(true);
+      const next = navigator.serviceWorker.controller;
+      if (active && previousController && next !== previousController) setChanged(true);
+      previousController = next;
     };
     navigator.serviceWorker.addEventListener("controllerchange", controllerChanged);
     let removeListeners = () => {};
@@ -43,7 +45,7 @@ export function UpdateNotice() {
 
   if (!waiting && !changed) return null;
   const refresh = () => {
-    if (changed) {
+    if (changed || waiting?.state === "activated" || waiting?.state === "redundant") {
       location.reload();
       return;
     }

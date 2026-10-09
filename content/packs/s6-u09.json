@@ -1,0 +1,2223 @@
+{
+  "packVersion": 1,
+  "unit": {
+    "id": "s6-u09",
+    "stage": 3,
+    "order": 141,
+    "title": "The feature and the notice",
+    "titleZh": "采访之外的通知",
+    "canDo": [
+      "Read a feature and practical notice together",
+      "Keep visit counts,staff-hours and service conditions distinct",
+      "Summarise a dense article without losing its qualifications"
+    ],
+    "hskTarget": {
+      "standard": "HSK3.0",
+      "level": 6
+    },
+    "prerequisites": [
+      "s6-u08",
+      "s6-u08-usage"
+    ],
+    "estimatedMinutes": 110
+  },
+  "vocabulary": [
+    {
+      "id": "s6-u09-w01",
+      "hanzi": "稿子",
+      "pinyin": "gǎo zi",
+      "meaning": "draft; manuscript",
+      "meaningVi": "bản thảo",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这份稿子先讲借书的故事，再给出数字。",
+        "py": "zhè fèn gǎo zi xiān jiǎng jiè shū de gù shì , zài gěi chū shù zì .",
+        "en": "The draft starts with a borrowing story before giving numbers."
+      },
+      "usageNote": "[GF2021:L6:2672] Source entry: 稿子; gǎozi; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w02",
+      "hanzi": "章",
+      "pinyin": "zhāng",
+      "meaning": "chapter classifier",
+      "meaningVi": "chương",
+      "pos": "classifier",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "第二章写夜间开放的安排。",
+        "py": "dì èr zhāng xiě yè jiān kāi fàng de ān pái .",
+        "en": "Chapter two describes evening opening arrangements."
+      },
+      "usageNote": "[GF2021:L6:10257] Source entry: 章; zhāng; 量. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w03",
+      "hanzi": "说明书",
+      "pinyin": "shuō míng shū",
+      "meaning": "instruction manual",
+      "meaningVi": "hướng dẫn",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "设备的说明书放在柜台旁。",
+        "py": "shè bèi de shuō míng shū fàng zài guì tái páng .",
+        "en": "The equipment manual is beside the counter."
+      },
+      "usageNote": "[GF2021:L6:7599] Source entry: 说明书; shuōmíngshū; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w04",
+      "hanzi": "评",
+      "pinyin": "píng",
+      "meaning": "evaluate; comment on",
+      "meaningVi": "đánh giá",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "别只凭一句标题评整篇文章。",
+        "py": "bié zhǐ píng yī jù biāo tí píng zhěng piān wén zhāng .",
+        "en": "Don't judge the whole article from its headline alone."
+      },
+      "usageNote": "[GF2021:L6:6141] Source entry: 评; píng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w05",
+      "hanzi": "评选",
+      "pinyin": "píng xuǎn",
+      "meaning": "select through evaluation",
+      "meaningVi": "bình chọn",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "读者可以评选最想参加的活动。",
+        "py": "dú zhě kě yǐ píng xuǎn zuì xiǎng cān jiā de huó dòng .",
+        "en": "Readers can vote for the activity they most want to attend."
+      },
+      "usageNote": "[GF2021:L6:6150] Source entry: 评选; píngxuǎn; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w06",
+      "hanzi": "优质",
+      "pinyin": "yōu zhì",
+      "meaning": "high-quality",
+      "meaningVi": "chất lượng tốt",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "优质的活动也要安排合适的时间。",
+        "py": "yōu zhì de huó dòng yě yào ān pái hé shì de shí jiān .",
+        "en": "Even a high-quality event needs suitable timing."
+      },
+      "usageNote": "[GF2021:L6:9823] Source entry: 优质; yōuzhì; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w07",
+      "hanzi": "外观",
+      "pinyin": "wài guān",
+      "meaning": "outward appearance",
+      "meaningVi": "bề ngoài",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "外观变新不表示借书方式也变了。",
+        "py": "wài guān biàn xīn bù biǎo shì jiè shū fāng shì yě biàn le .",
+        "en": "A new appearance doesn't mean borrowing procedures changed."
+      },
+      "usageNote": "[GF2021:L6:8247] Source entry: 外观; wàiguān; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w08",
+      "hanzi": "本地",
+      "pinyin": "běn dì",
+      "meaning": "local",
+      "meaningVi": "địa phương",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "本地杂志采访了图书馆工作人员。",
+        "py": "běn dì zá zhì cǎi fǎng le tú shū guǎn gōng zuò rén yuán .",
+        "en": "A local magazine interviewed library staff."
+      },
+      "usageNote": "[GF2021:L6:300] Source entry: 本地; běndì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w09",
+      "hanzi": "前来",
+      "pinyin": "qián lái",
+      "meaning": "come to a place",
+      "meaningVi": "đến",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "前来活动的人也有只听不借书的。",
+        "py": "qián lái huó dòng de rén yě yǒu zhǐ tīng bù jiè shū de .",
+        "en": "Some event visitors listen without borrowing."
+      },
+      "usageNote": "[GF2021:L6:6342] Source entry: 前来; qiánlái; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w10",
+      "hanzi": "此处",
+      "pinyin": "cǐ chù",
+      "meaning": "here; this place",
+      "meaningVi": "tại đây",
+      "pos": "word",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "此处登记活动，不办理借书。",
+        "py": "cǐ chù dēng jì huó dòng , bù bàn lǐ jiè shū .",
+        "en": "Event registration happens here, not book borrowing."
+      },
+      "usageNote": "[GF2021:L6:1303] Source entry: 此处; cǐ chù; . The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w11",
+      "hanzi": "截至",
+      "pinyin": "jié zhì",
+      "meaning": "up to a stated point",
+      "meaningVi": "đến thời điểm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "截至月底，共有六十四次到访。",
+        "py": "jié zhì yuè dǐ , gòng yǒu liù shí sì cì dào fǎng .",
+        "en": "By month's end there were sixty-four visits."
+      },
+      "usageNote": "[GF2021:L6:4202] Source entry: 截至; jiézhì; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w12",
+      "hanzi": "发放",
+      "pinyin": "fā fàng",
+      "meaning": "distribute",
+      "meaningVi": "phát",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "工作人员在门口发放节目单。",
+        "py": "gōng zuò rén yuán zài mén kǒu fā fàng jié mù dān .",
+        "en": "Staff hand out programmes at the entrance."
+      },
+      "usageNote": "[GF2021:L6:2136] Source entry: 发放; fāfàng; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w13",
+      "hanzi": "发起",
+      "pinyin": "fā qǐ",
+      "meaning": "initiate",
+      "meaningVi": "khởi xướng",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "两个读者发起了晚间读书活动。",
+        "py": "liǎng gè dú zhě fā qǐ le wǎn jiān dú shū huó dòng .",
+        "en": "Two readers initiated the evening reading event."
+      },
+      "usageNote": "[GF2021:L6:2149] Source entry: 发起; fāqǐ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w14",
+      "hanzi": "提交",
+      "pinyin": "tí jiāo",
+      "meaning": "submit",
+      "meaningVi": "nộp",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "想带作品的人先提交一段介绍。",
+        "py": "xiǎng dài zuò pǐn de rén xiān tí jiāo yī duàn jiè shào .",
+        "en": "People bringing work first submit a short introduction."
+      },
+      "usageNote": "[GF2021:L6:7888] Source entry: 提交; tíjiāo; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w15",
+      "hanzi": "通报",
+      "pinyin": "tōng bào",
+      "meaning": "inform relevant people",
+      "meaningVi": "thông báo",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "馆员向报名的人通报时间调整。",
+        "py": "guǎn yuán xiàng bào míng de rén tōng bào shí jiān tiáo zhěng .",
+        "en": "The librarian told registrants about the time change."
+      },
+      "usageNote": "[GF2021:L6:8030] Source entry: 通报; tōngbào; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w16",
+      "hanzi": "场馆",
+      "pinyin": "chǎng guǎn",
+      "meaning": "venue building",
+      "meaningVi": "địa điểm",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "场馆平日六点关门。",
+        "py": "chǎng guǎn píng rì liù diǎn guān mén .",
+        "en": "The venue normally closes at six."
+      },
+      "usageNote": "[GF2021:L6:855] Source entry: 场馆; chǎngguǎn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w17",
+      "hanzi": "场地",
+      "pinyin": "chǎng dì",
+      "meaning": "space for an activity",
+      "meaningVi": "không gian",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "夜间活动只用一楼场地。",
+        "py": "yè jiān huó dòng zhǐ yòng yī lóu chǎng dì .",
+        "en": "The evening event uses only the downstairs space."
+      },
+      "usageNote": "[GF2021:L6:854] Source entry: 场地; chǎngdì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w18",
+      "hanzi": "名额",
+      "pinyin": "míng é",
+      "meaning": "available places",
+      "meaningVi": "suất",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "周末讲座有二十个名额。",
+        "py": "zhōu mò jiǎng zuò yǒu èr shí gè míng é .",
+        "en": "The weekend talk has twenty places."
+      },
+      "usageNote": "[GF2021:L6:5623] Source entry: 名额; míng’é; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w19",
+      "hanzi": "常规",
+      "pinyin": "cháng guī",
+      "meaning": "routine",
+      "meaningVi": "thông lệ",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "常规借书时间没有延长。",
+        "py": "cháng guī jiè shū shí jiān méi yǒu yán cháng .",
+        "en": "Normal borrowing hours have not been extended."
+      },
+      "usageNote": "[GF2021:L6:838] Source entry: 常规; chángguī; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w20",
+      "hanzi": "试点",
+      "pinyin": "shì diǎn",
+      "meaning": "pilot",
+      "meaningVi": "thí điểm",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "夜间开放先试点四周。",
+        "py": "yè jiān kāi fàng xiān shì diǎn sì zhōu .",
+        "en": "Evening opening is initially a four-week pilot."
+      },
+      "usageNote": "[GF2021:L6:7314] Source entry: 试点; shìdiǎn; 动、名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w21",
+      "hanzi": "切实",
+      "pinyin": "qiè shí",
+      "meaning": "practical and effective",
+      "meaningVi": "thiết thực",
+      "pos": "adjective",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "错开收尾时间是一个切实的改进。",
+        "py": "cuò kāi shōu wěi shí jiān shì yī gè qiè shí de gǎi jìn .",
+        "en": "Separating closing duties is a practical improvement."
+      },
+      "usageNote": "[GF2021:L6:6430] Source entry: 切实; qièshí; 形. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w22",
+      "hanzi": "能否",
+      "pinyin": "néng fǒu",
+      "meaning": "whether it is possible",
+      "meaningVi": "liệu có thể",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "能否继续开放，还得看人员安排。",
+        "py": "néng fǒu jì xù kāi fàng , hái děi kàn rén yuán ān pái .",
+        "en": "Continued opening depends on staffing."
+      },
+      "usageNote": "[GF2021:L6:5835] Source entry: 能否; néngfǒu; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w23",
+      "hanzi": "因素",
+      "pinyin": "yīn sù",
+      "meaning": "factor",
+      "meaningVi": "yếu tố",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "附近演出也是到访增加的因素。",
+        "py": "fù jìn yǎn chū yě shì dào fǎng zēng jiā de yīn sù .",
+        "en": "A nearby performance also contributed to visits."
+      },
+      "usageNote": "[GF2021:L6:9678] Source entry: 因素; yīnsù; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w24",
+      "hanzi": "关联",
+      "pinyin": "guān lián",
+      "meaning": "connection",
+      "meaningVi": "liên quan",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "这两件事有关联，文章却没有说谁造成谁。",
+        "py": "zhè liǎng jiàn shì yǒu guān lián , wén zhāng què méi yǒu shuō shéi zào chéng shéi .",
+        "en": "The two are connected, but the article doesn't state which caused which."
+      },
+      "usageNote": "[GF2021:L6:2964] Source entry: 关联; guānlián; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w25",
+      "hanzi": "核心",
+      "pinyin": "hé xīn",
+      "meaning": "core",
+      "meaningVi": "cốt lõi",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "文章的核心是一次有条件的尝试。",
+        "py": "wén zhāng de hé xīn shì yī cì yǒu tiáo jiàn de cháng shì .",
+        "en": "The article centres on a trial with conditions."
+      },
+      "usageNote": "[GF2021:L6:3304] Source entry: 核心; héxīn; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w26",
+      "hanzi": "差异",
+      "pinyin": "chā yì",
+      "meaning": "difference",
+      "meaningVi": "khác biệt",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "两份材料的差异主要在关注的事。",
+        "py": "liǎng fèn cái liào de chā yì zhǔ yào zài guān zhù de shì .",
+        "en": "The materials chiefly differ in what they focus on."
+      },
+      "usageNote": "[GF2021:L6:772] Source entry: 差异; chāyì; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w27",
+      "hanzi": "据",
+      "pinyin": "jù",
+      "meaning": "according to",
+      "meaningVi": "theo",
+      "pos": "preposition",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "据值班记录，六十四是到访次数。",
+        "py": "jù zhí bān jì lù , liù shí sì shì dào fǎng cì shù .",
+        "en": "According to the duty record, sixty-four counts visits."
+      },
+      "usageNote": "[GF2021:L6:4513] Source entry: 据; jù; 介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w28",
+      "hanzi": "至于",
+      "pinyin": "zhì yú",
+      "meaning": "as for",
+      "meaningVi": "còn về",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "至于借书，还是白天办理。",
+        "py": "zhì yú jiè shū , hái shi bái tiān bàn lǐ .",
+        "en": "Borrowing is still handled during the day."
+      },
+      "usageNote": "[GF2021:L6:10561] Source entry: 至于; zhìyú; 动、介. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w29",
+      "hanzi": "最终",
+      "pinyin": "zuì zhōng",
+      "meaning": "final; ultimately",
+      "meaningVi": "cuối cùng",
+      "pos": "noun",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "最终决定要等试点结束。",
+        "py": "zuì zhōng jué dìng yào děng shì diǎn jié shù .",
+        "en": "The final decision will wait until the pilot ends."
+      },
+      "usageNote": "[GF2021:L6:11041] Source entry: 最终; zuìzhōng; 名. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w30",
+      "hanzi": "只得",
+      "pinyin": "zhǐ dé",
+      "meaning": "have no alternative but",
+      "meaningVi": "đành phải",
+      "pos": "adverb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "忘了带卡，她只得白天再来借书。",
+        "py": "wàng le dài kǎ , tā zhǐ dé bái tiān zài lái jiè shū .",
+        "en": "Having forgotten her card, she had to return in daytime to borrow."
+      },
+      "usageNote": "[GF2021:L6:10524] Source entry: 只得; zhǐdé; 副. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w31",
+      "hanzi": "免得",
+      "pinyin": "miǎn de",
+      "meaning": "so as to avoid",
+      "meaningVi": "để tránh",
+      "pos": "conjunction",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "把借书时间写上，免得读者白跑。",
+        "py": "bǎ jiè shū shí jiān xiě shàng , miǎn de dú zhě bái pǎo .",
+        "en": "Include borrowing hours so readers don't make a wasted trip."
+      },
+      "usageNote": "[GF2021:L6:5567] Source entry: 免得; miǎnde; 连. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    },
+    {
+      "id": "s6-u09-w32",
+      "hanzi": "听取",
+      "pinyin": "tīng qǔ",
+      "meaning": "hear and consider",
+      "meaningVi": "lắng nghe",
+      "pos": "verb",
+      "register": "neutral",
+      "hskLevel": 6,
+      "example": {
+        "zh": "馆员先听取到访者的意见。",
+        "py": "guǎn yuán xiān tīng qǔ dào fǎng zhě de yì jiàn .",
+        "en": "The librarian first hears visitors' views."
+      },
+      "usageNote": "[GF2021:L6:8010] Source entry: 听取; tīngqǔ; 动. The lesson teaches this stated sense; minimum-level lookup remains separate."
+    }
+  ],
+  "grammar": [
+    {
+      "id": "s6-u09-g01",
+      "pattern": "一方面…，另一方面…",
+      "purpose": "Organise two relevant considerations",
+      "explanation": "The two sides can support or complicate a proposal; this form does not say each has equal numerical weight.",
+      "examples": [
+        {
+          "zh": "一方面读者想留下，另一方面工作人员要收尾。",
+          "py": "yì fāng miàn dú zhě xiǎng liú xià , lìng yì fāng miàn gōng zuò rén yuán yào shōu wěi .",
+          "en": "Readers want to stay; staff also need to close."
+        },
+        {
+          "zh": "一方面场地有限，另一方面有人只想听。",
+          "py": "yì fāng miàn chǎng dì yǒu xiàn , lìng yì fāng miàn yǒu rén zhǐ xiǎng tīng .",
+          "en": "Space is limited and some only want to listen."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "一方面另一方面表示每边一定各占百分之五十。",
+          "right": "一方面读者想留下，另一方面工作人员要收尾。",
+          "why": "Parallel considerations are not measured halves."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u09-g02",
+      "pattern": "从…来看",
+      "purpose": "Frame the basis of a judgement",
+      "explanation": "Name the perspective or evidence used. The judgement should stay within that basis.",
+      "examples": [
+        {
+          "zh": "从记录来看，这是六十四次到访。",
+          "py": "cóng jì lù lái kàn , zhè shì liù shí sì cì dào fǎng .",
+          "en": "The record shows sixty-four visits."
+        },
+        {
+          "zh": "从人员安排来看，暂时只能开四次。",
+          "py": "cóng rén yuán ān pái lái kàn , zàn shí zhǐ néng kāi sì cì .",
+          "en": "Staffing permits four evenings for now."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "从记录来看六十四次，说明六十四个不同的人。",
+          "right": "从记录来看，这是六十四次到访。",
+          "why": "A visit count is not deduplicated people."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u09-g03",
+      "pattern": "尽管…，仍…",
+      "purpose": "Retain a limit despite another fact",
+      "explanation": "A concession acknowledges a fact without letting it remove the following constraint.",
+      "examples": [
+        {
+          "zh": "尽管灯还亮着，借书柜台仍然下班了。",
+          "py": "jǐn guǎn dēng hái liàng zhe , jiè shū guì tái réng rán xià bān le .",
+          "en": "Though the lights remain on,lending has closed."
+        },
+        {
+          "zh": "尽管有卡，仍要在白天办理。",
+          "py": "jǐn guǎn yǒu kǎ , réng yào zài bái tiān bàn lǐ .",
+          "en": "Even with a card,you need daytime service."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "灯亮着就说明借书柜台也值班。",
+          "right": "尽管灯还亮着，借书柜台仍然下班了。",
+          "why": "Lighting does not override the service-hours limit."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u09-g04",
+      "pattern": "不仅…，也…",
+      "purpose": "Add a second participant or requirement",
+      "explanation": "Keep both groups when a decision concerns different responsibilities.",
+      "examples": [
+        {
+          "zh": "不仅要问读者，也要问工作人员。",
+          "py": "bù jǐn yào wèn dú zhě , yě yào wèn gōng zuò rén yuán .",
+          "en": "Ask readers and staff."
+        },
+        {
+          "zh": "不仅看人数，也看收尾安排。",
+          "py": "bù jǐn kàn rén shù , yě kàn shōu wěi ān pái .",
+          "en": "Consider attendance and closing duties."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "只要读者同意，就不用问工作人员。",
+          "right": "不仅要问读者，也要问工作人员。",
+          "why": "The second required group cannot be dropped."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u09-g05",
+      "pattern": "章 / 篇",
+      "purpose": "Distinguish chapters from complete texts",
+      "explanation": "章 counts chapters within a work; 篇 can count articles and other complete written pieces. They are not interchangeable in every context.",
+      "examples": [
+        {
+          "zh": "第二章写夜间开放的安排。",
+          "py": "dì èr zhāng xiě yè jiān kāi fàng de ān pái .",
+          "en": "Chapter two describes evening arrangements."
+        },
+        {
+          "zh": "我读了两篇关于图书馆的文章。",
+          "py": "wǒ dú le liǎng piān guān yú tú shū guǎn de wén zhāng .",
+          "en": "I read two articles about the library."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "第二章一定就是第二篇独立文章。",
+          "right": "第二章写夜间开放的安排。",
+          "why": "A chapter can belong to one larger work."
+        }
+      ],
+      "register": "neutral"
+    },
+    {
+      "id": "s6-u09-g06",
+      "pattern": "若…，则…",
+      "purpose": "Read a formal conditional arrangement",
+      "explanation": "The notice condition governs the stated follow-up. It does not assert the condition has occurred.",
+      "examples": [
+        {
+          "zh": "若有人退出，则按登记顺序联系。",
+          "py": "ruò yǒu rén tuì chū , zé àn dēng jì shùn xù lián xì .",
+          "en": "If someone withdraws,contact the waiting list in order."
+        },
+        {
+          "zh": "若时间调整，则另行通知。",
+          "py": "ruò shí jiān tiáo zhěng , zé lìng xíng tōng zhī .",
+          "en": "If timing changes,a separate notice follows."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "wrong": "写若有人退出，表示已经有人退出。",
+          "right": "若有人退出，则按登记顺序联系。",
+          "why": "A conditional notice is not a report of an actual withdrawal."
+        }
+      ],
+      "register": "neutral"
+    }
+  ],
+  "dialogue": {
+    "id": "s6-u09-d",
+    "title": "采访之外的通知",
+    "titleZh": "采访之外的通知",
+    "format": "drama",
+    "register": "casual",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [
+      {
+        "id": "a",
+        "name": "林安"
+      },
+      {
+        "id": "b",
+        "name": "陈宇"
+      }
+    ],
+    "lines": [
+      {
+        "zh": "你把杂志那篇看完了吗？",
+        "py": "nǐ bǎ zá zhì nà piān kàn wán le ma ?",
+        "en": "Have you finished that magazine article?",
+        "speaker": "a"
+      },
+      {
+        "zh": "看了，标题说图书馆把夜晚还给读者。",
+        "py": "kàn le , biāo tí shuō tú shū guǎn bǎ yè wǎn huán gěi dú zhě .",
+        "en": "Yes. The headline says the library gives the night back to readers.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那今晚能去借书？",
+        "py": "nà jīn wǎn néng qù jiè shū ?",
+        "en": "Can we borrow books tonight then?",
+        "speaker": "a"
+      },
+      {
+        "zh": "先别急，文章后面说夜里只开一楼。",
+        "py": "xiān bié jí , wén zhāng hòu miàn shuō yè lǐ zhǐ kāi yī lóu .",
+        "en": "Hold on—the article later says only the ground floor opens at night.",
+        "speaker": "b"
+      },
+      {
+        "zh": "借书柜台不是也在一楼？",
+        "py": "jiè shū guì tái bù shì yě zài yī lóu ?",
+        "en": "Isn't the lending counter there too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "在，但夜间只办活动，不办借书。",
+        "py": "zài , dàn yè jiān zhǐ bàn huó dòng , bù bàn jiè shū .",
+        "en": "Yes, but evenings are for events, not borrowing.",
+        "speaker": "b"
+      },
+      {
+        "zh": "这标题把我带远了。",
+        "py": "zhè biāo tí bǎ wǒ dài yuǎn le .",
+        "en": "That headline led me a bit far.",
+        "speaker": "a"
+      },
+      {
+        "zh": "所以我让你看完嘛。",
+        "py": "suǒ yǐ wǒ ràng nǐ kàn wán ma .",
+        "en": "That's why I told you to finish it.",
+        "speaker": "b"
+      },
+      {
+        "zh": "六十四个人来过，听着不少。",
+        "py": "liù shí sì gè rén lái guò , tīng zhe bù shǎo .",
+        "en": "Sixty-four people visited—that sounds like quite a few.",
+        "speaker": "a"
+      },
+      {
+        "zh": "六十四次，不是六十四个人。有的人每周都来。",
+        "py": "liù shí sì cì , bù shì liù shí sì gè rén . yǒu de rén měi zhōu dōu lái .",
+        "en": "Sixty-four visits, not people. Some came every week.",
+        "speaker": "b"
+      },
+      {
+        "zh": "那有没有单独的人数？",
+        "py": "nà yǒu méi yǒu dān dú de rén shù ?",
+        "en": "Is there a separate count of people?",
+        "speaker": "a"
+      },
+      {
+        "zh": "没有，至少这篇没给。",
+        "py": "méi yǒu , zhì shǎo zhè piān méi gěi .",
+        "en": "No, at least not in this article.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你都看到哪了？",
+        "py": "nǐ dōu kàn dào nǎ le ?",
+        "en": "How far did you get?",
+        "speaker": "a"
+      },
+      {
+        "zh": "最后一段。还写了收椅子的安排。",
+        "py": "zuì hòu yī duàn . hái xiě le shōu yǐ zi de ān pái .",
+        "en": "The final paragraph. It even describes putting chairs away.",
+        "speaker": "b"
+      },
+      {
+        "zh": "你现在连椅子都查？",
+        "py": "nǐ xiàn zài lián yǐ zi dōu chá ?",
+        "en": "You're checking chairs now too?",
+        "speaker": "a"
+      },
+      {
+        "zh": "不是查，是看散场以后谁留下收。",
+        "py": "bù shì chá , shì kàn sàn chǎng yǐ hòu shéi liú xià shōu .",
+        "en": "Not checking them—seeing who stays to put them away afterwards.",
+        "speaker": "b"
+      },
+      {
+        "zh": "通知写八点结束，八点半清场。",
+        "py": "tōng zhī xiě bā diǎn jié shù , bā diǎn bàn qīng chǎng .",
+        "en": "The notice says finish at eight, clear the room by eight thirty.",
+        "speaker": "a"
+      },
+      {
+        "zh": "对，文章讲故事，通知给实际安排。",
+        "py": "duì , wén zhāng jiǎng gù shì , tōng zhī gěi shí jì ān pái .",
+        "en": "Right. The article tells the story; the notice gives practical arrangements.",
+        "speaker": "b"
+      },
+      {
+        "zh": "我想参加下周那场，先报名？",
+        "py": "wǒ xiǎng cān jiā xià zhōu nà chǎng , xiān bào míng ?",
+        "en": "I'd like next week's event. Register first?",
+        "speaker": "a"
+      },
+      {
+        "zh": "好，二十个名额，周五前回复。",
+        "py": "hǎo , èr shí gè míng é , zhōu wǔ qián huí fù .",
+        "en": "Yes—twenty places; reply before Friday.",
+        "speaker": "b"
+      },
+      {
+        "zh": "要带一本书吗？",
+        "py": "yào dài yī běn shū ma ?",
+        "en": "Should I bring a book?",
+        "speaker": "a"
+      },
+      {
+        "zh": "可以带，也可以只听。借书得白天来。",
+        "py": "kě yǐ dài , yě kě yǐ zhǐ tīng . jiè shū děi bái tiān lái .",
+        "en": "You can bring one or just listen. Borrowing needs a daytime visit.",
+        "speaker": "b"
+      },
+      {
+        "zh": "行，那下周先听。我的书先不用跟着加班。",
+        "py": "xíng , nà xià zhōu xiān tīng . wǒ de shū xiān bù yòng gēn zhe jiā bān .",
+        "en": "Okay, I'll listen next week. My book needn't work overtime with me yet.",
+        "speaker": "a"
+      },
+      {
+        "zh": "你把卡带着，下次白天就能借。",
+        "py": "nǐ bǎ kǎ dài zhe , xià cì bái tiān jiù néng jiè .",
+        "en": "Keep your card with you so you can borrow next time during the day.",
+        "speaker": "b"
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "柜台",
+        "pinyin": "guì tái",
+        "meaning": "service counter"
+      },
+      {
+        "hanzi": "清场",
+        "pinyin": "qīng chǎng",
+        "meaning": "clear the venue"
+      },
+      {
+        "hanzi": "名额",
+        "pinyin": "míng é",
+        "meaning": "available place"
+      },
+      {
+        "hanzi": "柜",
+        "pinyin": "guì",
+        "meaning": "cabinet"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What do the friends correct?",
+        "choices": [
+          "The headline does not make night borrowing available",
+          "The library is permanently closed",
+          "All sixty-four visits were different people"
+        ],
+        "answer": "The headline does not make night borrowing available"
+      },
+      {
+        "type": "detail",
+        "q": "Which borrowing service is available at night?",
+        "choices": [
+          "None; borrowing remains daytime",
+          "All services",
+          "Only borrowing on the second floor"
+        ],
+        "answer": "None; borrowing remains daytime"
+      },
+      {
+        "type": "inference",
+        "q": "Why read the notice too?",
+        "choices": [
+          "It supplies dates and registration conditions",
+          "It removes the need to register",
+          "It guarantees permanent extension"
+        ],
+        "answer": "It supplies dates and registration conditions"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "先别急，文【章】后面说夜里只开一楼。",
+          "py": "xiān bié jí , wén zhāng hòu miàn shuō yè lǐ zhǐ kāi yī lóu .",
+          "en": "Hold on—the article later says only the ground floor opens at night.",
+          "speaker": "b"
+        },
+        {
+          "zh": "好，二十个【名额】，周五前回复。",
+          "py": "hǎo , èr shí gè míng é , zhōu wǔ qián huí fù .",
+          "en": "Yes—twenty places; reply before Friday.",
+          "speaker": "b"
+        }
+      ],
+      "bank": [
+        "章",
+        "名额",
+        "明天"
+      ]
+    }
+  },
+  "reading": {
+    "id": "s6-u09-r",
+    "title": "采访之外的通知",
+    "titleZh": "采访之外的通知",
+    "format": "story",
+    "register": "neutral",
+    "blurb": "An original learning text, not a published script or lyric.",
+    "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+    "speakers": [],
+    "lines": [
+      {
+        "zh": "每到周四晚上，社区图书馆一楼的灯会比平时多亮两个小时。白天经过那里的人，常以为六点以后门就锁了；现在有人下班吃过饭，又拿着一本薄书走进来。活动不是正式的课，也不要求读者准备长篇介绍。桌上有热水，椅子围成半圈，先由两个人读一小段，再让愿意的人接着说。有人每周都来，有人只是等附近演出开场时进来坐一会儿。灯亮起来，首先改变的是这几种普通的经过方式。",
+        "py": "měi dào zhōu sì wǎn shang , shè qū tú shū guǎn yī lóu de dēng huì bǐ píng shí duō liàng liǎng gè xiǎo shí . bái tiān jīng guò nà lǐ de rén , cháng yǐ wéi liù diǎn yǐ hòu mén jiù suǒ le ; xiàn zài yǒu rén xià bān chī guò fàn , yòu ná zhe yī běn báo shū zǒu jìn lái . huó dòng bù shì zhèng shì de kè , yě bú yào qiú dú zhě zhǔn bèi zhǎng piān jiè shào . zhuō shàng yǒu rè shuǐ , yǐ zi wéi chéng bàn quān , xiān yóu liǎng gè rén dú yī xiǎo duàn , zài ràng yuàn yì de rén jiē zhe shuō . yǒu rén měi zhōu dōu lái , yǒu rén zhǐ shì děng fù jìn yǎn chū kāi chǎng shí jìn lái zuò yī huì er . dēng liàng qǐ lái , shǒu xiān gǎi biàn de shì zhè jǐ zhǒng pǔ tōng de jīng guò fāng shì .",
+        "en": "Each Thursday the neighbourhood library's ground floor stays lit two hours longer. People who thought it closed at six now come after dinner with a slim book. It isn't a formal class or a long prepared presentation. There is hot water and a semicircle of chairs. Two readers read a passage, then others may speak. Some come weekly; others wait for a nearby performance. The lights first change these ordinary ways of passing through."
+      },
+      {
+        "zh": "这个尝试由两位常来的读者发起，馆员帮他们申请场地。原来的想法很简单：白天忙的人也能有个地方见面谈书。为了不打乱常规服务，借书柜台仍按六点结束办理，夜间只开一楼的活动区域，二楼不开放。第一阶段安排四个周四，结束后再根据值班、参加情况和反馈决定下一步。有人问能不能每天都开到八点，馆员说现在的人手只能支持这四次，不能把一个小范围试点写成已经开始的长期服务。",
+        "py": "zhè gè cháng shì yóu liǎng wèi cháng lái de dú zhě fā qǐ , guǎn yuán bāng tā men shēn qǐng chǎng dì . yuán lái de xiǎng fǎ hěn jiǎn dān : bái tiān máng de rén yě néng yǒu gè dì fāng jiàn miàn tán shū . wèi le bù dǎ luàn cháng guī fú wù , jiè shū guì tái réng àn liù diǎn jié shù bàn lǐ , yè jiān zhǐ kāi yī lóu de huó dòng qū yù , èr lóu bù kāi fàng . dì yī jiē duàn ān pái sì gè zhōu sì , jié shù hòu zài gēn jù zhí bān , cān jiā qíng kuàng hé fǎn kuì jué dìng xià yī bù . yǒu rén wèn néng bù néng měi tiān dōu kāi dào bā diǎn , guǎn yuán shuō xiàn zài de rén shǒu zhǐ néng zhī chí zhè sì cì , bù néng bǎ yī gè xiǎo fàn wéi shì diǎn xiě chéng yǐ jīng kāi shǐ de cháng qī fú wù .",
+        "en": "Two regular readers initiated the trial and librarians helped apply for space. The aim was a place for busy daytime workers to discuss books. Normal lending still ends at six; only the ground-floor activity area opens in the evening. Four Thursdays form the initial trial, followed by review of staffing, participation and feedback. Current staffing supports those four evenings, not daily long-term opening."
+      },
+      {
+        "zh": "四次活动结束，到访记录分别是十八、二十、十二和十四次，共六十四次。这里记录的是每次走进活动区的人次，不是去掉重复以后的六十四位居民。前两次正好遇到附近有演出，有几个人听一小段就离开；第三次下雨，也有人提前发消息说不方便来。组织者没有把每一种变化都归到读书内容上。大家更关心留下的人能不能听清、椅子够不够，以及八点结束时还有没有人临时才知道不能借书。",
+        "py": "sì cì huó dòng jié shù , dào fǎng jì lù fēn bié shì shí bā , èr shí , shí èr hé shí sì cì , gòng liù shí sì cì . zhè lǐ jì lù de shì měi cì zǒu jìn huó dòng qū de rén cì , bù shì qù diào chóng fù yǐ hòu de liù shí sì wèi jū mín . qián liǎng cì zhèng hǎo yù dào fù jìn yǒu yǎn chū , yǒu jǐ gè rén tīng yī xiǎo duàn jiù lí kāi ; dì sān cì xià yǔ , yě yǒu rén tí qián fā xiāo xī shuō bù fāng biàn lái . zǔ zhī zhě méi yǒu bǎ měi yī zhǒng biàn huà dōu guī dào dú shū nèi róng shàng . dà jiā gèng guān xīn liú xià de rén néng bù néng tīng qīng , yǐ zi gòu bù gòu , yǐ jí bā diǎn jié shù shí hái yǒu méi yǒu rén lín shí cái zhī dào bù néng jiè shū .",
+        "en": "The four visit counts were eighteen, twenty, twelve and fourteen, totalling sixty-four visits rather than sixty-four unique residents. The first two coincided with nearby performances; some left shortly. Rain affected the third. Organisers didn't assign every change to reading content. They cared about audibility, seating and whether anyone learned only at eight that lending was unavailable."
+      },
+      {
+        "zh": "第一次的通知没有把最后一点写醒目。有位读者带着想借的书名赶来，等讨论结束才发现柜台已经下班。他没有责怪读书的人，只问为什么亮着灯却不能借。馆员解释白天服务和晚间活动的人员安排不同，随后把借书时间加到入口的纸上，也放进报名回复里。第二次仍有一个人看漏了，但他进门就问清，决定先留下听，下周白天再来办理。修改一张通知没让问题马上消失，却减少了把期待一路带到散场才落空的情况。",
+        "py": "dì yī cì de tōng zhī méi yǒu bǎ zuì hòu yī diǎn xiě xǐng mù . yǒu wèi dú zhě dài zhuó xiǎng jiè de shū míng gǎn lái , děng tǎo lùn jié shù cái fā xiàn guì tái yǐ jīng xià bān . tā méi yǒu zé guài dú shū de rén , zhǐ wèn wèi shén me liàng zhe dēng què bù néng jiè . guǎn yuán jiě shì bái tiān fú wù hé wǎn jiān huó dòng de rén yuán ān pái bù tóng , suí hòu bǎ jiè shū shí jiān jiā dào rù kǒu de zhǐ shàng , yě fàng jìn bào míng huí fù lǐ . dì èr cì réng yǒu yī gè rén kàn lòu le , dàn tā jìn mén jiù wèn qīng , jué dìng xiān liú xià tīng , xià zhōu bái tiān zài lái bàn lǐ . xiū gǎi yī zhāng tōng zhī méi ràng wèn tí mǎ shàng xiāo shī , què jiǎn shǎo le bǎ qī dài yī lù dài dào sàn chǎng cái luò kōng de qíng kuàng .",
+        "en": "The first notice didn't make that clear. A visitor arrived with book titles to borrow, learning after discussion that lending had closed. Staff explained the separate arrangements and added lending hours to the entrance and registration reply. Someone missed it the next week but asked on arrival, chose to listen and planned a daytime return. A changed notice didn't erase every problem, but reduced disappointment discovered only at the end."
+      },
+      {
+        "zh": "晚间开放也把收尾的工作带到了大家眼前。平时六点停止借书，工作人员六点半收完；活动那晚读者八点离开，两名工作人员还要把椅子收回、检查热水设备、关好门窗，到八点半才结束。每人比平时多值班两个小时，四次合起来是十六个人小时，每人八小时。读者可以帮忙排椅子，设备和门窗仍由工作人员检查。最后一次收完，馆员把四晚的值班表摊在桌上，说下个月要是继续，还得先问这两个人有没有时间。发起活动的读者拿出手机，约好第二天再来一起看安排。",
+        "py": "wǎn jiān kāi fàng yě bǎ shōu wěi de gōng zuò dài dào le dà jiā yǎn qián . píng shí liù diǎn tíng zhǐ jiè shū , gōng zuò rén yuán liù diǎn bàn shōu wán ; huó dòng nà wǎn dú zhě bā diǎn lí kāi , liǎng míng gōng zuò rén yuán hái yào bǎ yǐ zi shōu huí , jiǎn chá rè shuǐ shè bèi , guān hǎo mén chuāng , dào bā diǎn bàn cái jié shù . měi rén bǐ píng shí duō zhí bān liǎng gè xiǎo shí , sì cì hé qǐ lái shì shí liù gè rén xiǎo shí , měi rén bā xiǎo shí . dú zhě kě yǐ bāng máng pái yǐ zi , shè bèi hé mén chuāng réng yóu gōng zuò rén yuán jiǎn chá . zuì hòu yī cì shōu wán , guǎn yuán bǎ sì wǎn de zhí bān biǎo tān zài zhuō shàng , shuō xià gè yuè yào shì jì xù , hái děi xiān wèn zhè liǎng gè rén yǒu méi yǒu shí jiān . fā qǐ huó dòng de dú zhě ná chū shǒu jī , yuē hǎo dì èr tiān zài lái yì qǐ kàn ān pái .",
+        "en": "Evening events made closing duties visible. Lending normally ended at six and staff finished at 6:30. On event nights readers left at eight; two staff put chairs away, checked the hot-water equipment and closed the windows and doors until 8:30. Each worked two extra hours per event: sixteen staff-hours over four evenings, or eight extra hours each. Readers helped with chairs, while staff checked equipment and doors. After the final evening, the librarian spread out the duty rota: continuing next month would first depend on those two people's availability. The organisers arranged to return the next day to look at the schedule together."
+      },
+      {
+        "zh": "最后一次结束，发起活动的读者在门口碰到那个曾想借书的人。他这回带来的书已经白天借好，还把朋友一起叫来。两人坐得不算前，听到有人读一段关于离家的文字时，互相看了一眼。散场以后，他们没有说自己从此都会来，只问下个月还有没有安排。馆员说还在商量，确定了就发通知。夜晚留给读者的，不是一个已经答应永远开放的门，而是四次实在的相遇，以及能继续商量下一次的机会。",
+        "py": "zuì hòu yī cì jié shù , fā qǐ huó dòng de dú zhě zài mén kǒu pèng dào nà gè céng xiǎng jiè shū de rén . tā zhè huí dài lái de shū yǐ jīng bái tiān jiè hǎo , hái bǎ péng you yì qǐ jiào lái . liǎng rén zuò de bù suàn qián , tīng dào yǒu rén dú yī duàn guān yú lí jiā de wén zì shí , hù xiāng kàn le yī yǎn . sàn chǎng yǐ hòu , tā men méi yǒu shuō zì jǐ cóng cǐ dū huì lái , zhǐ wèn xià gè yuè hái yǒu méi yǒu ān pái . guǎn yuán shuō hái zài shāng liáng , què dìng le jiù fā tōng zhī . yè wǎn liú gěi dú zhě de , bù shì yī gè yǐ jīng dā yìng yǒng yuǎn kāi fàng de mén , ér shì sì cì shí zài de xiāng yù , yǐ jí néng jì xù shāng liáng xià yī cì de jī huì .",
+        "en": "At the final event the would-be borrower returned with a book borrowed during daytime and a friend. During a passage about leaving home they glanced at each other. Afterwards they didn't promise permanent attendance, only asked about next month. Staff were still discussing it and would notify people once settled. The trial offered four real encounters and a chance to discuss another, not a promise of a permanently open door."
+      }
+    ],
+    "glosses": [
+      {
+        "hanzi": "阶段",
+        "pinyin": "jiē duàn",
+        "meaning": "stage; phase"
+      },
+      {
+        "hanzi": "试点",
+        "pinyin": "shì diǎn",
+        "meaning": "pilot programme"
+      },
+      {
+        "hanzi": "柜台",
+        "pinyin": "guì tái",
+        "meaning": "service counter"
+      },
+      {
+        "hanzi": "人次",
+        "pinyin": "rén cì",
+        "meaning": "visits or attendances with repeat people counted again"
+      },
+      {
+        "hanzi": "人手",
+        "pinyin": "rén shǒu",
+        "meaning": "available staff"
+      },
+      {
+        "hanzi": "值班",
+        "pinyin": "zhí bān",
+        "meaning": "be on duty"
+      },
+      {
+        "hanzi": "半圈",
+        "pinyin": "bàn quān",
+        "meaning": "semicircle"
+      },
+      {
+        "hanzi": "醒目",
+        "pinyin": "xǐng mù",
+        "meaning": "easy to notice"
+      },
+      {
+        "hanzi": "落空",
+        "pinyin": "luò kōng",
+        "meaning": "not materialise"
+      },
+      {
+        "hanzi": "柜",
+        "pinyin": "guì",
+        "meaning": "cabinet"
+      },
+      {
+        "hanzi": "锁",
+        "pinyin": "suǒ",
+        "meaning": "lock"
+      },
+      {
+        "hanzi": "人小时",
+        "pinyin": "rén xiǎo shí",
+        "meaning": "person-hours"
+      },
+      {
+        "hanzi": "办理",
+        "pinyin": "bàn lǐ",
+        "meaning": "handle a procedure"
+      },
+      {
+        "hanzi": "薄",
+        "pinyin": "báo",
+        "meaning": "thin"
+      },
+      {
+        "hanzi": "摊",
+        "pinyin": "tān",
+        "meaning": "spread out"
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rù kǒu",
+        "meaning": "entrance"
+      }
+    ],
+    "questions": [
+      {
+        "type": "gist",
+        "q": "What does the feature describe?",
+        "choices": [
+          "A limited four-evening trial with real encounters and practical limits",
+          "A permanent daily full-service extension",
+          "A universal rule that readers prefer night"
+        ],
+        "answer": "A limited four-evening trial with real encounters and practical limits"
+      },
+      {
+        "type": "detail",
+        "q": "What does sixty-four count?",
+        "choices": [
+          "Visits over four evenings",
+          "Unique residents",
+          "Extra hours per staff member"
+        ],
+        "answer": "Visits over four evenings"
+      },
+      {
+        "type": "inference",
+        "q": "Why retain staff feedback in the decision?",
+        "choices": [
+          "Continuing depends on the people doing closing work too",
+          "Only visitors ever do closing work",
+          "All staff have already approved permanent opening"
+        ],
+        "answer": "Continuing depends on the people doing closing work too"
+      }
+    ],
+    "cloze": {
+      "lines": [
+        {
+          "zh": "这个尝试由两位常来的读者【发起】，馆员帮他们申请场地。原来的想法很简单：白天忙的人也能有个地方见面谈书。为了不打乱常规服务，借书柜台仍按六点结束办理，夜间只开一楼的活动区域，二楼不开放。第一阶段安排四个周四，结束后再根据值班、参加情况和反馈决定下一步。有人问能不能每天都开到八点，馆员说现在的人手只能支持这四次，不能把一个小范围试点写成已经开始的长期服务。",
+          "py": "zhè gè cháng shì yóu liǎng wèi cháng lái de dú zhě fā qǐ , guǎn yuán bāng tā men shēn qǐng chǎng dì . yuán lái de xiǎng fǎ hěn jiǎn dān : bái tiān máng de rén yě néng yǒu gè dì fāng jiàn miàn tán shū . wèi le bù dǎ luàn cháng guī fú wù , jiè shū guì tái réng àn liù diǎn jié shù bàn lǐ , yè jiān zhǐ kāi yī lóu de huó dòng qū yù , èr lóu bù kāi fàng . dì yī jiē duàn ān pái sì gè zhōu sì , jié shù hòu zài gēn jù zhí bān , cān jiā qíng kuàng hé fǎn kuì jué dìng xià yī bù . yǒu rén wèn néng bù néng měi tiān dōu kāi dào bā diǎn , guǎn yuán shuō xiàn zài de rén shǒu zhǐ néng zhī chí zhè sì cì , bù néng bǎ yī gè xiǎo fàn wéi shì diǎn xiě chéng yǐ jīng kāi shǐ de cháng qī fú wù .",
+          "en": "Two regular readers initiated the trial and librarians helped apply for space. The aim was a place for busy daytime workers to discuss books. Normal lending still ends at six; only the ground-floor activity area opens in the evening. Four Thursdays form the initial trial, followed by review of staffing, participation and feedback. Current staffing supports those four evenings, not daily long-term opening."
+        }
+      ],
+      "bank": [
+        "发起",
+        "明天"
+      ]
+    }
+  },
+  "extraReadings": [
+    {
+      "id": "s6-u09-media",
+      "title": "A headline for an ordinary Thursday",
+      "titleZh": "A headline for an ordinary Thursday",
+      "format": "drama",
+      "register": "casual",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [
+        {
+          "id": "a",
+          "name": "林安"
+        },
+        {
+          "id": "b",
+          "name": "陈宇"
+        }
+      ],
+      "lines": [
+        {
+          "zh": "标题说整座城都醒了。",
+          "py": "biāo tí shuō zhěng zuò chéng dōu xǐng le .",
+          "en": "The headline says the whole city woke up.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我家楼下还挺安静。",
+          "py": "wǒ jiā lóu xià hái tǐng ān jìng .",
+          "en": "It's still pretty quiet downstairs from me.",
+          "speaker": "b"
+        },
+        {
+          "zh": "那是写得热闹，不是调查全城睡没睡。",
+          "py": "nà shì xiě de rè nào , bù shì diào chá quán chéng shuì méi shuì .",
+          "en": "That's lively writing, not a survey of whether the entire city is asleep.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我知道。我是在问今晚开不开。",
+          "py": "wǒ zhī dào . wǒ shì zài wèn jīn wǎn kāi bù kāi .",
+          "en": "I know. I'm asking whether it opens tonight.",
+          "speaker": "b"
+        },
+        {
+          "zh": "周四开，你现在看的通知是周末讲座。",
+          "py": "zhōu sì kāi , nǐ xiàn zài kàn de tōng zhī shì zhōu mò jiǎng zuò .",
+          "en": "Thursday opens; the notice you're reading is for a weekend talk.",
+          "speaker": "a"
+        },
+        {
+          "zh": "两张放一起，我看串了。",
+          "py": "liǎng zhāng fàng yì qǐ , wǒ kàn chuàn le .",
+          "en": "They're together; I mixed them up.",
+          "speaker": "b"
+        },
+        {
+          "zh": "把日期也看上。",
+          "py": "bǎ rì qī yě kàn shàng .",
+          "en": "Read the date too.",
+          "speaker": "a"
+        },
+        {
+          "zh": "周四八点结束，周末两点开始。",
+          "py": "zhōu sì bā diǎn jié shù , zhōu mò liǎng diǎn kāi shǐ .",
+          "en": "Thursday finishes at eight; the weekend event starts at two.",
+          "speaker": "b"
+        },
+        {
+          "zh": "这回对了。",
+          "py": "zhè huí duì le .",
+          "en": "Right this time.",
+          "speaker": "a"
+        },
+        {
+          "zh": "我终于把夜晚跟下午分开了。",
+          "py": "wǒ zhōng yú bǎ yè wǎn gēn xià wǔ fēn kāi le .",
+          "en": "Finally I've separated night from afternoon.",
+          "speaker": "b"
+        },
+        {
+          "zh": "不用起这么大的标题。",
+          "py": "bù yòng qǐ zhè me dà de biāo tí .",
+          "en": "No need for such a grand headline.",
+          "speaker": "a"
+        },
+        {
+          "zh": "那叫我今天没跑错。",
+          "py": "nà jiào wǒ jīn tiān méi pǎo cuò .",
+          "en": "Then call it 'I didn't go to the wrong event today'.",
+          "speaker": "b"
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "串",
+          "pinyin": "chuàn",
+          "meaning": "mix up; put together"
+        }
+      ],
+      "questions": [
+        {
+          "type": "detail",
+          "q": "What did the reader mix up?",
+          "choices": [
+            "Thursday evening and Saturday afternoon notices",
+            "Two different libraries",
+            "Author and host identities"
+          ],
+          "answer": "Thursday evening and Saturday afternoon notices"
+        },
+        {
+          "type": "inference",
+          "q": "How should the lively headline be read?",
+          "choices": [
+            "As expressive framing,not a citywide sleep survey",
+            "As literal proof nobody sleeps",
+            "As permission to ignore dates"
+          ],
+          "answer": "As expressive framing,not a citywide sleep survey"
+        }
+      ]
+    },
+    {
+      "id": "s6-u09-word-notebook",
+      "title": "The feature and the notice: words in context",
+      "titleZh": "采访之外的通知 · 词语练习",
+      "format": "diary",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Retrieve these words in separate everyday situations.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "这份稿子先讲借书的故事，再给出数字。",
+          "py": "zhè fèn gǎo zi xiān jiǎng jiè shū de gù shì , zài gěi chū shù zì .",
+          "en": "The draft starts with a borrowing story before giving numbers."
+        },
+        {
+          "zh": "她把稿子改短了。",
+          "py": "tā bǎ gǎo zi gǎi duǎn le .",
+          "en": "She shortened the draft."
+        },
+        {
+          "zh": "第二章写夜间开放的安排。",
+          "py": "dì èr zhāng xiě yè jiān kāi fàng de ān pái .",
+          "en": "Chapter two describes evening opening arrangements."
+        },
+        {
+          "zh": "这本书一共有六章。",
+          "py": "zhè běn shū yī gòng yǒu liù zhāng .",
+          "en": "This book has six chapters."
+        },
+        {
+          "zh": "设备的说明书放在柜台旁。",
+          "py": "shè bèi de shuō míng shū fàng zài guì tái páng .",
+          "en": "The equipment manual is beside the counter."
+        },
+        {
+          "zh": "先看说明书再操作。",
+          "py": "xiān kàn shuō míng shū zài cāo zuò .",
+          "en": "Read the manual before operating it."
+        },
+        {
+          "zh": "别只凭一句标题评整篇文章。",
+          "py": "bié zhǐ píng yī jù biāo tí píng zhěng piān wén zhāng .",
+          "en": "Don't judge the whole article from its headline alone."
+        },
+        {
+          "zh": "你先读完，再评这段。",
+          "py": "nǐ xiān dú wán , zài píng zhè duàn .",
+          "en": "Read it through before commenting on this passage."
+        },
+        {
+          "zh": "读者可以评选最想参加的活动。",
+          "py": "dú zhě kě yǐ píng xuǎn zuì xiǎng cān jiā de huó dòng .",
+          "en": "Readers can vote for the activity they most want to attend."
+        },
+        {
+          "zh": "这次评选下周结束。",
+          "py": "zhè cì píng xuǎn xià zhōu jié shù .",
+          "en": "This selection ends next week."
+        },
+        {
+          "zh": "优质的活动也要安排合适的时间。",
+          "py": "yōu zhì de huó dòng yě yào ān pái hé shì de shí jiān .",
+          "en": "Even a high-quality event needs suitable timing."
+        },
+        {
+          "zh": "他们希望提供优质的服务。",
+          "py": "tā men xī wàng tí gōng yōu zhì de fú wù .",
+          "en": "They hope to offer high-quality service."
+        },
+        {
+          "zh": "外观变新不表示借书方式也变了。",
+          "py": "wài guān biàn xīn bù biǎo shì jiè shū fāng shì yě biàn le .",
+          "en": "A new appearance doesn't mean borrowing procedures changed."
+        },
+        {
+          "zh": "我喜欢这张桌子的外观。",
+          "py": "wǒ xǐ huān zhè zhāng zhuō zi de wài guān .",
+          "en": "I like the appearance of this table."
+        },
+        {
+          "zh": "本地杂志采访了图书馆工作人员。",
+          "py": "běn dì zá zhì cǎi fǎng le tú shū guǎn gōng zuò rén yuán .",
+          "en": "A local magazine interviewed library staff."
+        },
+        {
+          "zh": "她想认识一些本地朋友。",
+          "py": "tā xiǎng rèn shi yī xiē běn dì péng you .",
+          "en": "She wants to meet some local friends."
+        },
+        {
+          "zh": "前来活动的人也有只听不借书的。",
+          "py": "qián lái huó dòng de rén yě yǒu zhǐ tīng bù jiè shū de .",
+          "en": "Some event visitors listen without borrowing."
+        },
+        {
+          "zh": "他前来领取自己的资料。",
+          "py": "tā qián lái lǐng qǔ zì jǐ de zī liào .",
+          "en": "He came to collect his materials."
+        },
+        {
+          "zh": "此处登记活动，不办理借书。",
+          "py": "cǐ chù dēng jì huó dòng , bù bàn lǐ jiè shū .",
+          "en": "Event registration happens here, not book borrowing."
+        },
+        {
+          "zh": "此处暂时不能停车。",
+          "py": "cǐ chù zàn shí bù néng tíng chē .",
+          "en": "Parking here is temporarily prohibited."
+        },
+        {
+          "zh": "截至月底，共有六十四次到访。",
+          "py": "jié zhì yuè dǐ , gòng yǒu liù shí sì cì dào fǎng .",
+          "en": "By month's end there were sixty-four visits."
+        },
+        {
+          "zh": "截至周五，名额还没有满。",
+          "py": "jié zhì zhōu wǔ , míng é hái méi yǒu mǎn .",
+          "en": "As of Friday the places weren't full."
+        },
+        {
+          "zh": "工作人员在门口发放节目单。",
+          "py": "gōng zuò rén yuán zài mén kǒu fā fàng jié mù dān .",
+          "en": "Staff hand out programmes at the entrance."
+        },
+        {
+          "zh": "资料明天统一发放。",
+          "py": "zī liào míng tiān tǒng yī fā fàng .",
+          "en": "The materials will be distributed tomorrow."
+        },
+        {
+          "zh": "两个读者发起了晚间读书活动。",
+          "py": "liǎng gè dú zhě fā qǐ le wǎn jiān dú shū huó dòng .",
+          "en": "Two readers initiated the evening reading event."
+        },
+        {
+          "zh": "她发起了一个小范围的讨论。",
+          "py": "tā fā qǐ le yī gè xiǎo fàn wéi de tǎo lùn .",
+          "en": "She started a small discussion."
+        },
+        {
+          "zh": "想带作品的人先提交一段介绍。",
+          "py": "xiǎng dài zuò pǐn de rén xiān tí jiāo yī duàn jiè shào .",
+          "en": "People bringing work first submit a short introduction."
+        },
+        {
+          "zh": "他按时提交了申请。",
+          "py": "tā àn shí tí jiāo le shēn qǐng .",
+          "en": "He submitted the application on time."
+        },
+        {
+          "zh": "馆员向报名的人通报时间调整。",
+          "py": "guǎn yuán xiàng bào míng de rén tōng bào shí jiān tiáo zhěng .",
+          "en": "The librarian told registrants about the time change."
+        },
+        {
+          "zh": "小组通报了活动结果。",
+          "py": "xiǎo zǔ tōng bào le huó dòng jié guǒ .",
+          "en": "The group announced the event results."
+        },
+        {
+          "zh": "场馆平日六点关门。",
+          "py": "chǎng guǎn píng rì liù diǎn guān mén .",
+          "en": "The venue normally closes at six."
+        },
+        {
+          "zh": "那个场馆就在车站旁。",
+          "py": "nà gè chǎng guǎn jiù zài chē zhàn páng .",
+          "en": "That venue is beside the station."
+        },
+        {
+          "zh": "夜间活动只用一楼场地。",
+          "py": "yè jiān huó dòng zhǐ yòng yī lóu chǎng dì .",
+          "en": "The evening event uses only the downstairs space."
+        },
+        {
+          "zh": "活动临时换了场地。",
+          "py": "huó dòng lín shí huàn le chǎng dì .",
+          "en": "The event changed location at short notice."
+        },
+        {
+          "zh": "周末讲座有二十个名额。",
+          "py": "zhōu mò jiǎng zuò yǒu èr shí gè míng é .",
+          "en": "The weekend talk has twenty places."
+        },
+        {
+          "zh": "我想问还有没有名额。",
+          "py": "wǒ xiǎng wèn hái yǒu méi yǒu míng é .",
+          "en": "I'd like to ask whether any places remain."
+        },
+        {
+          "zh": "常规借书时间没有延长。",
+          "py": "cháng guī jiè shū shí jiān méi yǒu yán cháng .",
+          "en": "Normal borrowing hours have not been extended."
+        },
+        {
+          "zh": "这是常规安排的一部分。",
+          "py": "zhè shì cháng guī ān pái de yī bù fèn .",
+          "en": "This is part of the usual arrangement."
+        },
+        {
+          "zh": "夜间开放先试点四周。",
+          "py": "yè jiān kāi fàng xiān shì diǎn sì zhōu .",
+          "en": "Evening opening is initially a four-week pilot."
+        },
+        {
+          "zh": "试点结束后再听取意见。",
+          "py": "shì diǎn jié shù hòu zài tīng qǔ yì jiàn .",
+          "en": "Hear feedback after the pilot ends."
+        },
+        {
+          "zh": "错开收尾时间是一个切实的改进。",
+          "py": "cuò kāi shōu wěi shí jiān shì yī gè qiè shí de gǎi jìn .",
+          "en": "Separating closing duties is a practical improvement."
+        },
+        {
+          "zh": "她想找到切实的办法。",
+          "py": "tā xiǎng zhǎo dào qiè shí de bàn fǎ .",
+          "en": "She wants to find a workable solution."
+        },
+        {
+          "zh": "能否继续开放，还得看人员安排。",
+          "py": "néng fǒu jì xù kāi fàng , hái děi kàn rén yuán ān pái .",
+          "en": "Continued opening depends on staffing."
+        },
+        {
+          "zh": "能否带朋友参加，请先确认。",
+          "py": "néng fǒu dài péng you cān jiā , qǐng xiān què rèn .",
+          "en": "Please confirm whether a friend can join."
+        },
+        {
+          "zh": "附近演出也是到访增加的因素。",
+          "py": "fù jìn yǎn chū yě shì dào fǎng zēng jiā de yīn sù .",
+          "en": "A nearby performance also contributed to visits."
+        },
+        {
+          "zh": "她考虑了几个不同因素。",
+          "py": "tā kǎo lǜ le jǐ gè bù tóng yīn sù .",
+          "en": "She considered several different factors."
+        },
+        {
+          "zh": "这两件事有关联，文章却没有说谁造成谁。",
+          "py": "zhè liǎng jiàn shì yǒu guān lián , wén zhāng què méi yǒu shuō shéi zào chéng shéi .",
+          "en": "The two are connected, but the article doesn't state which caused which."
+        },
+        {
+          "zh": "这张图和正文有什么关联？",
+          "py": "zhè zhāng tú hé zhèng wén yǒu shén me guān lián ?",
+          "en": "How does this picture relate to the text?"
+        },
+        {
+          "zh": "文章的核心是一次有条件的尝试。",
+          "py": "wén zhāng de hé xīn shì yī cì yǒu tiáo jiàn de cháng shì .",
+          "en": "The article centres on a trial with conditions."
+        },
+        {
+          "zh": "先说核心问题，细节以后补。",
+          "py": "xiān shuō hé xīn wèn tí , xì jié yǐ hòu bǔ .",
+          "en": "Start with the central issue and add details later."
+        },
+        {
+          "zh": "两份材料的差异主要在关注的事。",
+          "py": "liǎng fèn cái liào de chā yì zhǔ yào zài guān zhù de shì .",
+          "en": "The materials chiefly differ in what they focus on."
+        },
+        {
+          "zh": "数字的差异需要解释。",
+          "py": "shù zì de chā yì xū yào jiě shì .",
+          "en": "The numerical difference needs explanation."
+        },
+        {
+          "zh": "据值班记录，六十四是到访次数。",
+          "py": "jù zhí bān jì lù , liù shí sì shì dào fǎng cì shù .",
+          "en": "According to the duty record, sixty-four counts visits."
+        },
+        {
+          "zh": "据通知，周四只开放一楼。",
+          "py": "jù tōng zhī , zhōu sì zhǐ kāi fàng yī lóu .",
+          "en": "According to the notice, only downstairs opens on Thursday."
+        },
+        {
+          "zh": "至于借书，还是白天办理。",
+          "py": "zhì yú jiè shū , hái shi bái tiān bàn lǐ .",
+          "en": "Borrowing is still handled during the day."
+        },
+        {
+          "zh": "至于下个月的安排，还没确定。",
+          "py": "zhì yú xià gè yuè de ān pái , hái méi què dìng .",
+          "en": "Next month's arrangements are undecided."
+        },
+        {
+          "zh": "最终决定要等试点结束。",
+          "py": "zuì zhōng jué dìng yào děng shì diǎn jié shù .",
+          "en": "The final decision will wait until the pilot ends."
+        },
+        {
+          "zh": "他们最终选了小房间。",
+          "py": "tā men zuì zhōng xuǎn le xiǎo fáng jiān .",
+          "en": "They finally chose the small room."
+        },
+        {
+          "zh": "忘了带卡，她只得白天再来借书。",
+          "py": "wàng le dài kǎ , tā zhǐ dé bái tiān zài lái jiè shū .",
+          "en": "Having forgotten her card, she had to return in daytime to borrow."
+        },
+        {
+          "zh": "雨太大，我们只得换到室内。",
+          "py": "yǔ tài dà , wǒ men zhǐ dé huàn dào shì nèi .",
+          "en": "The heavy rain left us no choice but to move indoors."
+        },
+        {
+          "zh": "把借书时间写上，免得读者白跑。",
+          "py": "bǎ jiè shū shí jiān xiě shàng , miǎn de dú zhě bái pǎo .",
+          "en": "Include borrowing hours so readers don't make a wasted trip."
+        },
+        {
+          "zh": "先确认地点，免得走错。",
+          "py": "xiān què rèn dì diǎn , miǎn de zǒu cuò .",
+          "en": "Confirm the venue first to avoid going to the wrong place."
+        },
+        {
+          "zh": "馆员先听取到访者的意见。",
+          "py": "guǎn yuán xiān tīng qǔ dào fǎng zhě de yì jiàn .",
+          "en": "The librarian first hears visitors' views."
+        },
+        {
+          "zh": "小组会听取不同意见。",
+          "py": "xiǎo zǔ huì tīng qǔ bù tóng yì jiàn .",
+          "en": "The group will hear differing views."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "试点",
+          "pinyin": "shì diǎn",
+          "meaning": "pilot programme"
+        },
+        {
+          "hanzi": "柜台",
+          "pinyin": "guì tái",
+          "meaning": "service counter"
+        },
+        {
+          "hanzi": "值班",
+          "pinyin": "zhí bān",
+          "meaning": "be on duty"
+        },
+        {
+          "hanzi": "名额",
+          "pinyin": "míng é",
+          "meaning": "available place"
+        },
+        {
+          "hanzi": "柜",
+          "pinyin": "guì",
+          "meaning": "cabinet"
+        },
+        {
+          "hanzi": "稿",
+          "pinyin": "gǎo",
+          "meaning": "draft"
+        },
+        {
+          "hanzi": "采访",
+          "pinyin": "cǎi fǎng",
+          "meaning": "interview"
+        },
+        {
+          "hanzi": "办理",
+          "pinyin": "bàn lǐ",
+          "meaning": "handle a procedure"
+        },
+        {
+          "hanzi": "节目单",
+          "pinyin": "jié mù dān",
+          "meaning": "programme"
+        },
+        {
+          "hanzi": "忘",
+          "pinyin": "wàng",
+          "meaning": "forget"
+        }
+      ],
+      "questions": []
+    },
+    {
+      "id": "s6-u09-paired-reading",
+      "title": "This week’s registration notice",
+      "titleZh": "This week’s registration notice",
+      "format": "story",
+      "register": "neutral",
+      "blurb": "An original learning text, not a published script or lyric.",
+      "purpose": "Follow the speakers’ intentions, supporting details and outcome.",
+      "speakers": [],
+      "lines": [
+        {
+          "zh": "本周图书馆有两项活动，请报名时留意日期、时间和地点。周四是晚间读书活动，六点半入场，七点开始，八点结束，活动区域为一楼小厅。周六是作者见面会，下午一点半入场，两点开始，三点结束，地点也是一楼小厅。两项活动需要分别报名，周四的回复不能代替周六报名。由于地方有限，两场各有二十个名额，额满后可以留下联系方式，若有人退出，工作人员会按登记顺序联系。",
+          "py": "běn zhōu tú shū guǎn yǒu liǎng xiàng huó dòng , qǐng bào míng shí liú yì rì qī , shí jiān hé dì diǎn . zhōu sì shì wǎn jiān dú shū huó dòng , liù diǎn bàn rù chǎng , qī diǎn kāi shǐ , bā diǎn jié shù , huó dòng qū yù wèi yī lóu xiǎo tīng . zhōu liù shì zuò zhě jiàn miàn huì , xià wǔ yī diǎn bàn rù chǎng , liǎng diǎn kāi shǐ , sān diǎn jié shù , dì diǎn yě shì yī lóu xiǎo tīng . liǎng xiàng huó dòng xū yào fēn bié bào míng , zhōu sì de huí fù bù néng dài tì zhōu liù bào míng . yóu yú dì fāng yǒu xiàn , liǎng chǎng gè yǒu èr shí gè míng é , é mǎn hòu kě yǐ liú xià lián xì fāng shì , ruò yǒu rén tuì chū , gōng zuò rén yuán huì àn dēng jì shùn xù lián xì .",
+          "en": "Two library events require attention to dates, times and locations. Thursday reading admits at6:30,starts7,ends8 in the ground-floor room. Saturday's author meeting admits1:30,starts2,ends3 there. Register separately; Thursday confirmation doesn't cover Saturday. Each has twenty places. A waiting list will be contacted in registration order if places open."
+        },
+        {
+          "zh": "周四活动属于晚间开放试点，本月一共安排四次。试点只开放一楼小厅和入口通道，二楼及其他区域不开放。常规借书、还书办理时间仍到下午六点，晚间活动不提供借书服务。若您计划借书，请在常规开放时间前来；参加晚间活动时，可以带自己的书，也可以按活动安排听别人介绍。请把借阅办理与活动报名分别安排，以免到场后错过白天的柜台服务。",
+          "py": "zhōu sì huó dòng shǔ yú wǎn jiān kāi fàng shì diǎn , běn yuè yī gòng ān pái sì cì . shì diǎn zhǐ kāi fàng yī lóu xiǎo tīng hé rù kǒu tōng dào , èr lóu jí qí tā qū yù bù kāi fàng . cháng guī jiè shū , huán shū bàn lǐ shí jiān réng dào xià wǔ liù diǎn , wǎn jiān huó dòng bù tí gōng jiè shū fú wù . ruò nín jì huà jiè shū , qǐng zài cháng guī kāi fàng shí jiān qián lái ; cān jiā wǎn jiān huó dòng shí , kě yǐ dài zì jǐ de shū , yě kě yǐ àn huó dòng ān pái tīng bié ren jiè shào . qǐng bǎ jiè yuè bàn lǐ yǔ huó dòng bào míng fēn bié ān pái , yǐ miǎn dào chǎng hòu cuò guò bái tiān de guì tái fú wù .",
+          "en": "There are four Thursday evening pilot events this month, limited to the first-floor small hall and entrance passage. Other areas are closed. Regular loans and returns end at six; evening events offer no borrowing service. Visit during regular hours to borrow. At the event, bring your own book or listen to introductions. Arrange borrowing and event registration separately so you don't miss the daytime counter."
+        },
+        {
+          "zh": "参加周四读书活动，可以带一本自己的书，也可以只听。想分享的人，请在周三晚八点前提交书名和一段简短介绍，现场每人先读不超过三分钟，再留时间交流。不想发言的读者无需提交介绍，报名回复里写只听即可。若已经提交而临时不方便分享，请告诉工作人员，不会因此取消您的参加资格。读者可以选择怎么参与，组织者需要提前知道分享人数，才能把结束时间安排得清楚。",
+          "py": "cān jiā zhōu sì dú shū huó dòng , kě yǐ dài yī běn zì jǐ de shū , yě kě yǐ zhǐ tīng . xiǎng fēn xiǎng de rén , qǐng zài zhōu sān wǎn bā diǎn qián tí jiāo shū míng hé yī duàn jiǎn duǎn jiè shào , xiàn chǎng měi rén xiān dú bù chāo guò sān fēn zhōng , zài liú shí jiān jiāo liú . bù xiǎng fā yán de dú zhě wú xū tí jiāo jiè shào , bào míng huí fù lǐ xiě zhǐ tīng jí kě . ruò yǐ jīng tí jiāo ér lín shí bù fāng biàn fēn xiǎng , qǐng gào sù gōng zuò rén yuán , bù huì yīn cǐ qǔ xiāo nín de cān jiā zī gé . dú zhě kě yǐ xuǎn zé zěn me cān yù , zǔ zhī zhě xū yào tí qián zhī dào fēn xiǎng rén shù , cái néng bǎ jié shù shí jiān ān pái de qīng chǔ .",
+          "en": "For Thursday, bring a book or just listen. Speakers submit a title and short introduction by Wednesday8pm. Each initially reads no more than three minutes, followed by conversation. Listeners needn't submit an introduction; say 'listen only' in registration. If a planned speaker withdraws from speaking, notify staff; attendance isn't cancelled. Participation is optional; knowing speaker numbers helps plan the finish."
+        },
+        {
+          "zh": "周六作者见面会不要求事先准备介绍。想问作者的问题可以在报名时提交，也可以活动现场写在纸上交给工作人员。主持人会选取与作品相关的问题，不保证每一条都在现场回答。活动结束后有十分钟签名时间，只供已报名的参加者，不另开放入场。签名时请按照工作人员安排排队，不要因为想多聊一会儿占据后面读者的时间。有关下一次活动的信息会另行通知，作者当天也不能替图书馆确认还没决定的日期。",
+          "py": "zhōu liù zuò zhě jiàn miàn huì bú yào qiú shì xiān zhǔn bèi jiè shào . xiǎng wèn zuò zhě de wèn tí kě yǐ zài bào míng shí tí jiāo , yě kě yǐ huó dòng xiàn chǎng xiě zài zhǐ shàng jiāo gěi gōng zuò rén yuán . zhǔ chí rén huì xuǎn qǔ yǔ zuò pǐn xiāng guān de wèn tí , bù bǎo zhèng měi yī tiáo dōu zài xiàn chǎng huí dá . huó dòng jié shù hòu yǒu shí fēn zhōng qiān míng shí jiān , zhǐ gōng yǐ bào míng de cān jiā zhě , bù lìng kāi fàng rù chǎng . qiān míng shí qǐng àn zhào gōng zuò rén yuán ān pái pái duì , bú yào yīn wèi xiǎng duō liáo yī huì er zhàn jù hòu miàn dú zhě de shí jiān . yǒu guān xià yī cì huó dòng de xìn xī huì lìng xíng tōng zhī , zuò zhě dàng tiān yě bù néng tì tú shū guǎn què rèn hái méi jué dìng de rì qī .",
+          "en": "Saturday needs no prepared introduction. Submit questions during registration or on paper at the event. The host selects work-related questions; not all are guaranteed an answer. Ten minutes for signing follow for registered attendees only. Queue as directed; longer personal conversation takes others' time. Future dates will be announced separately; the author cannot confirm undecided library arrangements."
+        },
+        {
+          "zh": "两项活动都请提前十分钟到场核对报名信息。周四八点结束后，工作人员需要检查设备并整理场地，到八点半关闭。读者愿意帮助排椅子，可以在活动结束后问工作人员，不要自行收起仍在使用的设备。周六签名结束后也请按通知离场。提前结束讨论是为了留出实际工作时间，不表示读者可以一直留到关门前一刻。若需要无障碍座位或有其他实际需要，请报名时说明，工作人员会按现有条件回复，不会只凭一句需求就保证所有安排都能做到。",
+          "py": "liǎng xiàng huó dòng dōu qǐng tí qián shí fēn zhōng dào chǎng hé duì bào míng xìn xī . zhōu sì bā diǎn jié shù hòu , gōng zuò rén yuán xū yào jiǎn chá shè bèi bìng zhěng lǐ chǎng dì , dào bā diǎn bàn guān bì . dú zhě yuàn yì bāng zhù pái yǐ zi , kě yǐ zài huó dòng jié shù hòu wèn gōng zuò rén yuán , bú yào zì xíng shōu qǐ réng zài shǐ yòng de shè bèi . zhōu liù qiān míng jié shù hòu yě qǐng àn tōng zhī lí chǎng . tí qián jié shù tǎo lùn shì wèi le liú chū shí jì gōng zuò shí jiān , bù biǎo shì dú zhě kě yǐ yì zhí liú dào guān mén qián yī kè . ruò xū yào wú zhàng ài zuò wèi huò yǒu qí tā shí jì xū yào , qǐng bào míng shí shuō míng , gōng zuò rén yuán huì àn xiàn yǒu tiáo jiàn huí fù , bù huì zhǐ píng yī jù xū qiú jiù bǎo zhèng suǒ yǒu ān pái dōu néng zuò dào .",
+          "en": "Arrive ten minutes early to check registration. Thursday ends8; staff inspect and restore the room before8:30closure. Ask before helping; don't put away equipment still in use. Leave after Saturday signing too. Closing time includes work, not permission to remain until the last moment. State accessibility or other needs when registering; staff will reply based on available arrangements rather than guarantee every request."
+        },
+        {
+          "zh": "如需取消报名，请尽早回复确认消息，让等候的人有机会参加。不要把朋友带入而不另行登记，尤其不要把一场已经确认的名额转到另一场。通知里所说的二十个名额是参加者座位，现场工作人员另有工作位置，不占这二十个座位。试点结束后，图书馆会听取读者和工作人员的意见，再决定是否继续。请以正式通知为准；杂志里的采访帮助您了解这次尝试的故事，不能代替本周两场活动的报名确认和日期说明。",
+          "py": "rú xū qǔ xiāo bào míng , qǐng jǐn zǎo huí fù què rèn xiāo xī , ràng děng hòu de rén yǒu jī huì cān jiā . bú yào bǎ péng you dài rù ér bù lìng xíng dēng jì , yóu qí bú yào bǎ yī chǎng yǐ jīng què rèn de míng é zhuǎn dào lìng yī chǎng . tōng zhī lǐ suǒ shuō de èr shí gè míng é shì cān jiā zhě zuò wèi , xiàn chǎng gōng zuò rén yuán lìng yǒu gōng zuò wèi zhì , bù zhàn zhè èr shí gè zuò wèi . shì diǎn jié shù hòu , tú shū guǎn huì tīng qǔ dú zhě hé gōng zuò rén yuán de yì jiàn , zài jué dìng shì fǒu jì xù . qǐng yǐ zhèng shì tōng zhī wèi zhǔn ; zá zhì lǐ de cǎi fǎng bāng zhù nín liǎo jiě zhè cì cháng shì de gù shì , bù néng dài tì běn zhōu liǎng chǎng huó dòng de bào míng què rèn hé rì qī shuō míng .",
+          "en": "Cancel promptly so waiting people can join. Friends require separate registration; a confirmed place cannot move between events. Twenty places are participant seats; staff work positions are separate. After the pilot, staff and reader views inform continuation. Follow formal notices: the magazine interview explains the story but doesn't replace this week's registration confirmation or dates."
+        }
+      ],
+      "glosses": [
+        {
+          "hanzi": "尤其",
+          "pinyin": "yóu qí",
+          "meaning": "especially"
+        },
+        {
+          "hanzi": "试点",
+          "pinyin": "shì diǎn",
+          "meaning": "pilot programme"
+        },
+        {
+          "hanzi": "柜台",
+          "pinyin": "guì tái",
+          "meaning": "service counter"
+        },
+        {
+          "hanzi": "借阅证",
+          "pinyin": "jiè yuè zhèng",
+          "meaning": "library card"
+        },
+        {
+          "hanzi": "额满",
+          "pinyin": "é mǎn",
+          "meaning": "places filled"
+        },
+        {
+          "hanzi": "无障碍",
+          "pinyin": "wú zhàng ài",
+          "meaning": "accessible; accessibility"
+        },
+        {
+          "hanzi": "签名",
+          "pinyin": "qiān míng",
+          "meaning": "sign a name"
+        },
+        {
+          "hanzi": "另行",
+          "pinyin": "lìng xíng",
+          "meaning": "separately"
+        },
+        {
+          "hanzi": "值班",
+          "pinyin": "zhí bān",
+          "meaning": "be on duty"
+        },
+        {
+          "hanzi": "核对",
+          "pinyin": "hé duì",
+          "meaning": "check against records"
+        },
+        {
+          "hanzi": "不保证",
+          "pinyin": "bù bǎo zhèng",
+          "meaning": "not guarantee"
+        },
+        {
+          "hanzi": "名额",
+          "pinyin": "míng é",
+          "meaning": "available place"
+        },
+        {
+          "hanzi": "柜",
+          "pinyin": "guì",
+          "meaning": "cabinet"
+        },
+        {
+          "hanzi": "签",
+          "pinyin": "qiān",
+          "meaning": "sign"
+        },
+        {
+          "hanzi": "采访",
+          "pinyin": "cǎi fǎng",
+          "meaning": "interview"
+        },
+        {
+          "hanzi": "办理",
+          "pinyin": "bàn lǐ",
+          "meaning": "handle a procedure"
+        },
+        {
+          "hanzi": "入口",
+          "pinyin": "rù kǒu",
+          "meaning": "entrance"
+        },
+        {
+          "hanzi": "借阅",
+          "pinyin": "jiè yuè",
+          "meaning": "borrow books"
+        }
+      ],
+      "questions": [
+        {
+          "type": "gist",
+          "q": "How does the notice complement the feature?",
+          "choices": [
+            "It gives separate dates,registration and service limits",
+            "It contradicts the fact of a trial",
+            "It promises all questions will be answered"
+          ],
+          "answer": "It gives separate dates,registration and service limits"
+        },
+        {
+          "type": "detail",
+          "q": "When does the Saturday meeting begin?",
+          "choices": [
+            "Two in the afternoon",
+            "Seven in the evening",
+            "One thirty in the afternoon"
+          ],
+          "answer": "Two in the afternoon"
+        },
+        {
+          "type": "inference",
+          "q": "Does Thursday confirmation admit a friend on Saturday?",
+          "choices": [
+            "No,separate event and person registration are needed",
+            "Yes,the venue is the same",
+            "Yes,twenty places mean unlimited friends"
+          ],
+          "answer": "No,separate event and person registration are needed"
+        }
+      ],
+      "cloze": {
+        "lines": [
+          {
+            "zh": "本周图书馆有两项活动，请报名时留意日期、时间和地点。周四是晚间读书活动，六点半入场，七点开始，八点结束，活动区域为一楼小厅。周六是作者见面会，下午一点半入场，两点开始，三点结束，地点也是一楼小厅。两项活动需要分别报名，周四的回复不能代替周六报名。由于地方有限，两场各有二十个【名额】，额满后可以留下联系方式，若有人退出，工作人员会按登记顺序联系。",
+            "py": "běn zhōu tú shū guǎn yǒu liǎng xiàng huó dòng , qǐng bào míng shí liú yì rì qī , shí jiān hé dì diǎn . zhōu sì shì wǎn jiān dú shū huó dòng , liù diǎn bàn rù chǎng , qī diǎn kāi shǐ , bā diǎn jié shù , huó dòng qū yù wèi yī lóu xiǎo tīng . zhōu liù shì zuò zhě jiàn miàn huì , xià wǔ yī diǎn bàn rù chǎng , liǎng diǎn kāi shǐ , sān diǎn jié shù , dì diǎn yě shì yī lóu xiǎo tīng . liǎng xiàng huó dòng xū yào fēn bié bào míng , zhōu sì de huí fù bù néng dài tì zhōu liù bào míng . yóu yú dì fāng yǒu xiàn , liǎng chǎng gè yǒu èr shí gè míng é , é mǎn hòu kě yǐ liú xià lián xì fāng shì , ruò yǒu rén tuì chū , gōng zuò rén yuán huì àn dēng jì shùn xù lián xì .",
+            "en": "Two library events require attention to dates, times and locations. Thursday reading admits at6:30,starts7,ends8 in the ground-floor room. Saturday's author meeting admits1:30,starts2,ends3 there. Register separately; Thursday confirmation doesn't cover Saturday. Each has twenty places. A waiting list will be contacted in registration order if places open."
+          },
+          {
+            "zh": "周四活动属于晚间开放试点，本月一共安排四次。试点只开放一楼小厅和入口通道，二楼及其他区域不开放。常规借书、还书办理时间仍到下午六点，晚间活动不提供借书服务。若您计划借书，请在常规开放时间【前来】；参加晚间活动时，可以带自己的书，也可以按活动安排听别人介绍。请把借阅办理与活动报名分别安排，以免到场后错过白天的柜台服务。",
+            "py": "zhōu sì huó dòng shǔ yú wǎn jiān kāi fàng shì diǎn , běn yuè yī gòng ān pái sì cì . shì diǎn zhǐ kāi fàng yī lóu xiǎo tīng hé rù kǒu tōng dào , èr lóu jí qí tā qū yù bù kāi fàng . cháng guī jiè shū , huán shū bàn lǐ shí jiān réng dào xià wǔ liù diǎn , wǎn jiān huó dòng bù tí gōng jiè shū fú wù . ruò nín jì huà jiè shū , qǐng zài cháng guī kāi fàng shí jiān qián lái ; cān jiā wǎn jiān huó dòng shí , kě yǐ dài zì jǐ de shū , yě kě yǐ àn huó dòng ān pái tīng bié ren jiè shào . qǐng bǎ jiè yuè bàn lǐ yǔ huó dòng bào míng fēn bié ān pái , yǐ miǎn dào chǎng hòu cuò guò bái tiān de guì tái fú wù .",
+            "en": "There are four Thursday evening pilot events this month, limited to the first-floor small hall and entrance passage. Other areas are closed. Regular loans and returns end at six; evening events offer no borrowing service. Visit during regular hours to borrow. At the event, bring your own book or listen to introductions. Arrange borrowing and event registration separately so you don't miss the daytime counter."
+          },
+          {
+            "zh": "参加周四读书活动，可以带一本自己的书，也可以只听。想分享的人，请在周三晚八点前【提交】书名和一段简短介绍，现场每人先读不超过三分钟，再留时间交流。不想发言的读者无需提交介绍，报名回复里写只听即可。若已经提交而临时不方便分享，请告诉工作人员，不会因此取消您的参加资格。读者可以选择怎么参与，组织者需要提前知道分享人数，才能把结束时间安排得清楚。",
+            "py": "cān jiā zhōu sì dú shū huó dòng , kě yǐ dài yī běn zì jǐ de shū , yě kě yǐ zhǐ tīng . xiǎng fēn xiǎng de rén , qǐng zài zhōu sān wǎn bā diǎn qián tí jiāo shū míng hé yī duàn jiǎn duǎn jiè shào , xiàn chǎng měi rén xiān dú bù chāo guò sān fēn zhōng , zài liú shí jiān jiāo liú . bù xiǎng fā yán de dú zhě wú xū tí jiāo jiè shào , bào míng huí fù lǐ xiě zhǐ tīng jí kě . ruò yǐ jīng tí jiāo ér lín shí bù fāng biàn fēn xiǎng , qǐng gào sù gōng zuò rén yuán , bù huì yīn cǐ qǔ xiāo nín de cān jiā zī gé . dú zhě kě yǐ xuǎn zé zěn me cān yù , zǔ zhī zhě xū yào tí qián zhī dào fēn xiǎng rén shù , cái néng bǎ jié shù shí jiān ān pái de qīng chǔ .",
+            "en": "For Thursday, bring a book or just listen. Speakers submit a title and short introduction by Wednesday8pm. Each initially reads no more than three minutes, followed by conversation. Listeners needn't submit an introduction; say 'listen only' in registration. If a planned speaker withdraws from speaking, notify staff; attendance isn't cancelled. Participation is optional; knowing speaker numbers helps plan the finish."
+          }
+        ],
+        "bank": [
+          "名额",
+          "前来",
+          "提交",
+          "明天"
+        ]
+      }
+    }
+  ],
+  "conversation": {
+    "id": "s6-u09-c",
+    "title": "The feature and the notice",
+    "place": "A library foyer after reading a local magazine",
+    "context": "Fictional4Thursday pilot,usual lending ends18:00.Thursday entry18:30,start19,end20,staff close20:30;Saturday entry13:30,start14,end15,10min signing.20participantplaces each,event/personregistration separate.18+20+12+14=64visits not uniquepeople;2staff×2hours×4=16staff-hours.",
+    "goal": "Read a feature and practical notice together",
+    "partner": {
+      "name": "陈宇",
+      "persona": "A familiar classmate; friendly, brief replies."
+    },
+    "turns": [
+      {
+        "text": "灯亮着，那我可以晚上借书吧？",
+        "pinyin": "dēng liàng zhe , nà wǒ kě yǐ wǎn shang jiè shū ba ?",
+        "meaning": "Lights on means I can borrow in the evening?",
+        "intent": "Retain service distinction",
+        "examples": [
+          "不能，晚上只办活动，借书仍到六点。"
+        ],
+        "accept": [
+          "^不能，晚上只办活动，借书仍到六点。[。！？]?$"
+        ]
+      },
+      {
+        "text": "六十四次就是六十四个人？",
+        "pinyin": "liù shí sì cì jiù shì liù shí sì gè rén ?",
+        "meaning": "Sixty-four visits means sixty-four people?",
+        "intent": "Name the counting unit",
+        "examples": [
+          "不是，人次可能重复，单独人数没给。"
+        ],
+        "accept": [
+          "^不是，人次可能重复，单独人数没给。[。！？]?$"
+        ]
+      },
+      {
+        "text": "周四有确认，我能带朋友去周六吗？",
+        "pinyin": "zhōu sì yǒu què rèn , wǒ néng dài péng you qù zhōu liù ma ?",
+        "meaning": "With Thursday confirmation,may I take a friend Saturday?",
+        "intent": "Read event and person scope",
+        "examples": [
+          "要另报周六，朋友也要单独登记。"
+        ],
+        "accept": [
+          "^要另报周六，朋友也要单独登记。[。！？]?$"
+        ]
+      },
+      {
+        "text": "两人四次各两小时，每人多十六小时？",
+        "pinyin": "liǎng rén sì cì gè liǎng xiǎo shí , měi rén duō shí liù xiǎo shí ?",
+        "meaning": "Two people,four events,two hours each means16extra per person?",
+        "intent": "Retain total staff-hours",
+        "examples": [
+          "合计十六个人小时，每人八小时。"
+        ],
+        "accept": [
+          "^合计十六个人小时，每人八小时。[。！？]?$"
+        ]
+      }
+    ]
+  },
+  "pragmatics": [
+    {
+      "situation": "Ask about the intended service",
+      "natural": {
+        "zh": "今晚可以借书，还是只参加活动？",
+        "py": "jīn wǎn kě yǐ jiè shū , hái shi zhǐ cān jiā huó dòng ?",
+        "en": "Can I borrow tonight,or only attend the event?"
+      },
+      "note": "A useful practical question distinguishes lights from service availability."
+    },
+    {
+      "situation": "Keep a notice qualification in a summary",
+      "natural": {
+        "zh": "先试四个周四，是否继续还没决定。",
+        "py": "xiān shì sì gè zhōu sì , shì fǒu jì xù hái méi jué dìng .",
+        "en": "Four Thursdays first;continuation is undecided."
+      },
+      "note": "Do not erase the pilot limit to make a stronger headline."
+    },
+    {
+      "situation": "Read across two materials",
+      "natural": {
+        "zh": "采访讲来由，报名要看本周通知。",
+        "py": "cǎi fǎng jiǎng lái yóu , bào míng yào kàn běn zhōu tōng zhī .",
+        "en": "The interview explains the background;registration follows this week’s notice."
+      },
+      "note": "Different genres serve complementary purposes."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "s6-u09-t01",
+      "phrase": "s6-u09-w01",
+      "type": "truefalse",
+      "audio": {
+        "zh": "四次活动结束，到访记录分别是十八、二十、十二和十四次，共六十四次。这里记录的是每次走进活动区的人次，不是去掉重复以后的六十四位居民。前两次正好遇到附近有演出，有几个人听一小段就离开；第三次下雨，也有人提前发消息说不方便来。组织者没有把每一种变化都归到读书内容上。大家更关心留下的人能不能听清、椅子够不够，以及八点结束时还有没有人临时才知道不能借书。",
+        "py": "sì cì huó dòng jié shù , dào fǎng jì lù fēn bié shì shí bā , èr shí , shí èr hé shí sì cì , gòng liù shí sì cì . zhè lǐ jì lù de shì měi cì zǒu jìn huó dòng qū de rén cì , bù shì qù diào chóng fù yǐ hòu de liù shí sì wèi jū mín . qián liǎng cì zhèng hǎo yù dào fù jìn yǒu yǎn chū , yǒu jǐ gè rén tīng yī xiǎo duàn jiù lí kāi ; dì sān cì xià yǔ , yě yǒu rén tí qián fā xiāo xī shuō bù fāng biàn lái . zǔ zhī zhě méi yǒu bǎ měi yī zhǒng biàn huà dōu guī dào dú shū nèi róng shàng . dà jiā gèng guān xīn liú xià de rén néng bù néng tīng qīng , yǐ zi gòu bù gòu , yǐ jí bā diǎn jié shù shí hái yǒu méi yǒu rén lín shí cái zhī dào bù néng jiè shū .",
+        "en": "The four visit counts were eighteen, twenty, twelve and fourteen, totalling sixty-four visits rather than sixty-four unique residents. The first two coincided with nearby performances; some left shortly. Rain affected the third. Organisers didn't assign every change to reading content. They cared about audibility, seating and whether anyone learned only at eight that lending was unavailable."
+      },
+      "statement": "Sixty-four is a unique-person count.",
+      "answer": false,
+      "why": "Repeat visits are counted."
+    },
+    {
+      "id": "s6-u09-t02",
+      "phrase": "s6-u09-w02",
+      "type": "truefalse",
+      "audio": {
+        "zh": "晚间开放也把收尾的工作带到了大家眼前。平时六点停止借书，工作人员六点半收完；活动那晚读者八点离开，两名工作人员还要把椅子收回、检查热水设备、关好门窗，到八点半才结束。每人比平时多值班两个小时，四次合起来是十六个人小时，每人八小时。读者可以帮忙排椅子，设备和门窗仍由工作人员检查。最后一次收完，馆员把四晚的值班表摊在桌上，说下个月要是继续，还得先问这两个人有没有时间。发起活动的读者拿出手机，约好第二天再来一起看安排。",
+        "py": "wǎn jiān kāi fàng yě bǎ shōu wěi de gōng zuò dài dào le dà jiā yǎn qián . píng shí liù diǎn tíng zhǐ jiè shū , gōng zuò rén yuán liù diǎn bàn shōu wán ; huó dòng nà wǎn dú zhě bā diǎn lí kāi , liǎng míng gōng zuò rén yuán hái yào bǎ yǐ zi shōu huí , jiǎn chá rè shuǐ shè bèi , guān hǎo mén chuāng , dào bā diǎn bàn cái jié shù . měi rén bǐ píng shí duō zhí bān liǎng gè xiǎo shí , sì cì hé qǐ lái shì shí liù gè rén xiǎo shí , měi rén bā xiǎo shí . dú zhě kě yǐ bāng máng pái yǐ zi , shè bèi hé mén chuāng réng yóu gōng zuò rén yuán jiǎn chá . zuì hòu yī cì shōu wán , guǎn yuán bǎ sì wǎn de zhí bān biǎo tān zài zhuō shàng , shuō xià gè yuè yào shì jì xù , hái děi xiān wèn zhè liǎng gè rén yǒu méi yǒu shí jiān . fā qǐ huó dòng de dú zhě ná chū shǒu jī , yuē hǎo dì èr tiān zài lái yì qǐ kàn ān pái .",
+        "en": "Evening events made closing duties visible. Lending normally ended at six and staff finished at 6:30. On event nights readers left at eight; two staff put chairs away, checked the hot-water equipment and closed the windows and doors until 8:30. Each worked two extra hours per event: sixteen staff-hours over four evenings, or eight extra hours each. Readers helped with chairs, while staff checked equipment and doors. After the final evening, the librarian spread out the duty rota: continuing next month would first depend on those two people's availability. The organisers arranged to return the next day to look at the schedule together."
+      },
+      "statement": "Extra staffing totals sixteen staff-hours.",
+      "answer": true,
+      "why": "2people×2hours×4events."
+    },
+    {
+      "id": "s6-u09-t03",
+      "phrase": "s6-u09-w03",
+      "type": "truefalse",
+      "audio": {
+        "zh": "本周图书馆有两项活动，请报名时留意日期、时间和地点。周四是晚间读书活动，六点半入场，七点开始，八点结束，活动区域为一楼小厅。周六是作者见面会，下午一点半入场，两点开始，三点结束，地点也是一楼小厅。两项活动需要分别报名，周四的回复不能代替周六报名。由于地方有限，两场各有二十个名额，额满后可以留下联系方式，若有人退出，工作人员会按登记顺序联系。",
+        "py": "běn zhōu tú shū guǎn yǒu liǎng xiàng huó dòng , qǐng bào míng shí liú yì rì qī , shí jiān hé dì diǎn . zhōu sì shì wǎn jiān dú shū huó dòng , liù diǎn bàn rù chǎng , qī diǎn kāi shǐ , bā diǎn jié shù , huó dòng qū yù wèi yī lóu xiǎo tīng . zhōu liù shì zuò zhě jiàn miàn huì , xià wǔ yī diǎn bàn rù chǎng , liǎng diǎn kāi shǐ , sān diǎn jié shù , dì diǎn yě shì yī lóu xiǎo tīng . liǎng xiàng huó dòng xū yào fēn bié bào míng , zhōu sì de huí fù bù néng dài tì zhōu liù bào míng . yóu yú dì fāng yǒu xiàn , liǎng chǎng gè yǒu èr shí gè míng é , é mǎn hòu kě yǐ liú xià lián xì fāng shì , ruò yǒu rén tuì chū , gōng zuò rén yuán huì àn dēng jì shùn xù lián xì .",
+        "en": "Two library events require attention to dates, times and locations. Thursday reading admits at6:30,starts7,ends8 in the ground-floor room. Saturday's author meeting admits1:30,starts2,ends3 there. Register separately; Thursday confirmation doesn't cover Saturday. Each has twenty places. A waiting list will be contacted in registration order if places open."
+      },
+      "statement": "Thursday and Saturday share one registration.",
+      "answer": false,
+      "why": "They need separate registration."
+    },
+    {
+      "id": "s6-u09-t04",
+      "phrase": "s6-u09-w04",
+      "type": "truefalse",
+      "audio": {
+        "zh": "参加周四读书活动，可以带一本自己的书，也可以只听。想分享的人，请在周三晚八点前提交书名和一段简短介绍，现场每人先读不超过三分钟，再留时间交流。不想发言的读者无需提交介绍，报名回复里写只听即可。若已经提交而临时不方便分享，请告诉工作人员，不会因此取消您的参加资格。读者可以选择怎么参与，组织者需要提前知道分享人数，才能把结束时间安排得清楚。",
+        "py": "cān jiā zhōu sì dú shū huó dòng , kě yǐ dài yī běn zì jǐ de shū , yě kě yǐ zhǐ tīng . xiǎng fēn xiǎng de rén , qǐng zài zhōu sān wǎn bā diǎn qián tí jiāo shū míng hé yī duàn jiǎn duǎn jiè shào , xiàn chǎng měi rén xiān dú bù chāo guò sān fēn zhōng , zài liú shí jiān jiāo liú . bù xiǎng fā yán de dú zhě wú xū tí jiāo jiè shào , bào míng huí fù lǐ xiě zhǐ tīng jí kě . ruò yǐ jīng tí jiāo ér lín shí bù fāng biàn fēn xiǎng , qǐng gào sù gōng zuò rén yuán , bù huì yīn cǐ qǔ xiāo nín de cān jiā zī gé . dú zhě kě yǐ xuǎn zé zěn me cān yù , zǔ zhī zhě xū yào tí qián zhī dào fēn xiǎng rén shù , cái néng bǎ jié shù shí jiān ān pái de qīng chǔ .",
+        "en": "For Thursday, bring a book or just listen. Speakers submit a title and short introduction by Wednesday8pm. Each initially reads no more than three minutes, followed by conversation. Listeners needn't submit an introduction; say 'listen only' in registration. If a planned speaker withdraws from speaking, notify staff; attendance isn't cancelled. Participation is optional; knowing speaker numbers helps plan the finish."
+      },
+      "statement": "Listening-only attendees must submit an introduction.",
+      "answer": false,
+      "why": "Only planned speakers submit one."
+    },
+    {
+      "id": "s6-u09-t05",
+      "phrase": "s6-u09-w05",
+      "type": "reply",
+      "prompt": {
+        "zh": "文章说夜间试点四周。能概括成每天都开到八点吗？",
+        "py": "wén zhāng shuō yè jiān shì diǎn sì zhōu . néng gài kuò chéng měi tiān dōu kāi dào bā diǎn ma ?",
+        "en": "Four-week evening pilot. Can it be summarised as daily8pmopening?"
+      },
+      "choices": [
+        "不能，只是四个周四。",
+        "能，夜间等于每天。",
+        "能，标题已经承诺永久开放。"
+      ],
+      "answer": "不能，只是四个周四。",
+      "why": "Retain the stated days and duration."
+    },
+    {
+      "id": "s6-u09-t06",
+      "phrase": "s6-u09-w06",
+      "type": "reply",
+      "prompt": {
+        "zh": "周六两点开始，一点半入场。几点正式开始？",
+        "py": "zhōu liù liǎng diǎn kāi shǐ , yī diǎn bàn rù chǎng . jǐ diǎn zhèng shì kāi shǐ ?",
+        "en": "Saturday2start,1:30entry. Start time?"
+      },
+      "choices": [
+        "下午两点。",
+        "下午一点半。",
+        "晚上七点。"
+      ],
+      "answer": "下午两点。",
+      "why": "Entry and programme start are different."
+    },
+    {
+      "id": "s6-u09-t07",
+      "phrase": "s6-u09-w07",
+      "type": "reply",
+      "prompt": {
+        "zh": "两人每次各两小时，四次合计多少人小时？",
+        "py": "liǎng rén měi cì gè liǎng xiǎo shí , sì cì hé jì duō shao rén xiǎo shí ?",
+        "en": "Two staff,two hours each,four events. Total?"
+      },
+      "choices": [
+        "十六个人小时。",
+        "八个人小时。",
+        "三十二个人小时。"
+      ],
+      "answer": "十六个人小时。",
+      "why": "2×2×4=16."
+    },
+    {
+      "id": "s6-u09-t08",
+      "phrase": "s6-u09-w08",
+      "type": "reply",
+      "prompt": {
+        "zh": "白天办借阅证，晚上是不是所有柜台都值班？",
+        "py": "bái tiān bàn jiè yuè zhèng , wǎn shang shì bú shì suǒ yǒu guì tái dōu zhí bān ?",
+        "en": "Daytime library card means all counters staffed at night?"
+      },
+      "choices": [
+        "不是，还要看夜间服务范围。",
+        "是，有卡就能随时借。",
+        "是，亮灯就全开。"
+      ],
+      "answer": "不是，还要看夜间服务范围。",
+      "why": "Service hours remain limited."
+    },
+    {
+      "id": "s6-u09-t09",
+      "phrase": "s6-u09-w09",
+      "type": "listenfill",
+      "line": {
+        "zh": "【截至】月底，共有六十四次到访。",
+        "py": "jié zhì yuè dǐ , gòng yǒu liù shí sì cì dào fǎng .",
+        "en": "By month end there were64visits."
+      },
+      "blankPy": "jié zhì"
+    },
+    {
+      "id": "s6-u09-t10",
+      "phrase": "s6-u09-w10",
+      "type": "listenfill",
+      "line": {
+        "zh": "两个读者【发起】了晚间读书活动。",
+        "py": "liǎng gè dú zhě fā qǐ le wǎn jiān dú shū huó dòng .",
+        "en": "Two readers initiated evening reading."
+      },
+      "blankPy": "fā qǐ"
+    },
+    {
+      "id": "s6-u09-t11",
+      "phrase": "s6-u09-w11",
+      "type": "listenfill",
+      "line": {
+        "zh": "【至于】借书，还是白天办理。",
+        "py": "zhì yú jiè shū , hái shi bái tiān bàn lǐ .",
+        "en": "Borrowing is still handled during the day."
+      },
+      "blankPy": "zhì yú"
+    },
+    {
+      "id": "s6-u09-t12",
+      "phrase": "s6-u09-w12",
+      "type": "listenfill",
+      "line": {
+        "zh": "先确认地点，【免得】走错。",
+        "py": "xiān què rèn dì diǎn , miǎn de zǒu cuò .",
+        "en": "Confirm the place to avoid going wrong."
+      },
+      "blankPy": "miǎn de"
+    },
+    {
+      "id": "s6-u09-t13",
+      "phrase": "s6-u09-w13",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The draft starts with a borrowing story before giving numbers.",
+          "right": {
+            "zh": "这份稿子先讲借书的故事，再给出数字。",
+            "py": "zhè fèn gǎo zi xiān jiǎng jiè shū de gù shì , zài gěi chū shù zì .",
+            "en": "The draft starts with a borrowing story before giving numbers."
+          }
+        },
+        {
+          "left": "Chapter two describes evening opening arrangements.",
+          "right": {
+            "zh": "第二章写夜间开放的安排。",
+            "py": "dì èr zhāng xiě yè jiān kāi fàng de ān pái .",
+            "en": "Chapter two describes evening opening arrangements."
+          }
+        },
+        {
+          "left": "The equipment manual is beside the counter.",
+          "right": {
+            "zh": "设备的说明书放在柜台旁。",
+            "py": "shè bèi de shuō míng shū fàng zài guì tái páng .",
+            "en": "The equipment manual is beside the counter."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u09-t14",
+      "phrase": "s6-u09-w14",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "They hope to offer high-quality service.",
+          "right": {
+            "zh": "他们希望提供优质的服务。",
+            "py": "tā men xī wàng tí gōng yōu zhì de fú wù .",
+            "en": "They hope to offer high-quality service."
+          }
+        },
+        {
+          "left": "He came to collect his materials.",
+          "right": {
+            "zh": "他前来领取自己的资料。",
+            "py": "tā qián lái lǐng qǔ zì jǐ de zī liào .",
+            "en": "He came to collect his materials."
+          }
+        },
+        {
+          "left": "The materials will be distributed tomorrow.",
+          "right": {
+            "zh": "资料明天统一发放。",
+            "py": "zī liào míng tiān tǒng yī fā fàng .",
+            "en": "The materials will be distributed tomorrow."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u09-t15",
+      "phrase": "s6-u09-w15",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "The librarian told registrants about the time change.",
+          "right": {
+            "zh": "馆员向报名的人通报时间调整。",
+            "py": "guǎn yuán xiàng bào míng de rén tōng bào shí jiān tiáo zhěng .",
+            "en": "The librarian told registrants about the time change."
+          }
+        },
+        {
+          "left": "The weekend talk has twenty places.",
+          "right": {
+            "zh": "周末讲座有二十个名额。",
+            "py": "zhōu mò jiǎng zuò yǒu èr shí gè míng é .",
+            "en": "The weekend talk has twenty places."
+          }
+        },
+        {
+          "left": "Separating closing duties is a practical improvement.",
+          "right": {
+            "zh": "错开收尾时间是一个切实的改进。",
+            "py": "cuò kāi shōu wěi shí jiān shì yī gè qiè shí de gǎi jìn .",
+            "en": "Separating closing duties is a practical improvement."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u09-t16",
+      "phrase": "s6-u09-w16",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "How does this picture relate to the text?",
+          "right": {
+            "zh": "这张图和正文有什么关联？",
+            "py": "zhè zhāng tú hé zhèng wén yǒu shén me guān lián ?",
+            "en": "How does this picture relate to the text?"
+          }
+        },
+        {
+          "left": "According to the notice, only downstairs opens on Thursday.",
+          "right": {
+            "zh": "据通知，周四只开放一楼。",
+            "py": "jù tōng zhī , zhōu sì zhǐ kāi fàng yī lóu .",
+            "en": "According to the notice, only downstairs opens on Thursday."
+          }
+        },
+        {
+          "left": "The heavy rain left us no choice but to move indoors.",
+          "right": {
+            "zh": "雨太大，我们只得换到室内。",
+            "py": "yǔ tài dà , wǒ men zhǐ dé huàn dào shì nèi .",
+            "en": "The heavy rain left us no choice but to move indoors."
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6-u09-t17",
+      "phrase": "s6-u09-w17",
+      "type": "match",
+      "title": "Match the situation to the line",
+      "pairs": [
+        {
+          "left": "Borrowing is still handled during the day.",
+          "right": {
+            "zh": "至于借书，还是白天办理。",
+            "py": "zhì yú jiè shū , hái shi bái tiān bàn lǐ .",
+            "en": "Borrowing is still handled during the day."
+          }
+        },
+        {
+          "left": "Include borrowing hours so readers don't make a wasted trip.",
+          "right": {
+            "zh": "把借书时间写上，免得读者白跑。",
+            "py": "bǎ jiè shū shí jiān xiě shàng , miǎn de dú zhě bái pǎo .",
+            "en": "Include borrowing hours so readers don't make a wasted trip."
+          }
+        },
+        {
+          "left": "The librarian first hears visitors' views.",
+          "right": {
+            "zh": "馆员先听取到访者的意见。",
+            "py": "guǎn yuán xiān tīng qǔ dào fǎng zhě de yì jiàn .",
+            "en": "The librarian first hears visitors' views."
+          }
+        }
+      ]
+    }
+  ],
+  "notes": "2026-10-07 advanced media/social core. Original AI-assisted draft, checked against the stated inventory and comprehension keys. Native review pending. This is a selected competency route; it does not certify full HSK lexical coverage, exam readiness or learner mastery. Native review: feature ending, book-overtime joke, event-notice register and chapter classifier. Self-review checks64visits vs uniquepeople,2×2×4=16staff-hours/8perperson,Thursday versusSaturday dates,twenty participant seats excluding staff,optional speaking,borrowing18:00limit,and conditional continuation. Entire scenario and article are original; no actual venue or promise of accessibility is represented. Summary keeps trial scope,source and responsibilities without inserting a lecture into the friends’ chat.\n2026-10-08 advanced reading self-review: Phone and letter actions v2: Corrected next-week attendance wording in the library dialogue. Preserved operational notice/service distinction without repeated misconception lectures. Work programme now shows pending confirmation rather than abstract permission analysis. Repaired the reading-first proposal: performers want to hear a short passage before playing, leaving enough music time before their eight-o-clock departure. Thursday dinner reply, Friday room confirmation and original task keys remain unchanged. Misheard-food phone call becomes a water/menu joke; ten-minute estimate still follows bus arrival. Farewell diary clarifies the next-evening arrival chronology, retains unopened letter and actual arrival-message promise. Author account shows alternative phrasing without pretending a return date is known. Added missing reading aids for shaking the head and putting on earphones after the strict character check caught them. Remaining phone narration now shows actual travel, menu and programme checks; the final audience account debates the letter, packs chairs and meets the train instead of repeatedly explaining evidential limits. Native flags: forgotten-lyric and bottle banter, book overtime joke, dialogue-message timing, lyric phrasing and farewell banter. Native review pending.",
+  "characters": []
+}
