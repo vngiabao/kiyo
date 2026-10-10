@@ -115,3 +115,20 @@ catalogs did not change. The installed data check confirms the same 144 units,
 16,822 bundled audio texts and existing explicit device-speech exceptions.
 Both approved branding exports were verified during the build. No new missing
 audio or learner-data operation was introduced.
+
+## Release
+
+Cleanup and the previously reviewed polish were committed as
+`d331f54bd8a45a8967349cfb82f9516171fdb813` and pushed to origin/main.
+The tested source fingerprint also matched after committing. Wrangler activated
+`586b9f7e-988c-46a6-82a9-d53fc5245d70` on kiyo.gbaonvo.com at
+2026-10-10T17:07:56Z; the deployment list confirmed 100% traffic on that version.
+Only 11 changed app assets uploaded; 2,797 assets, including all current audio
+chunks, were reused.
+
+The normal public Edge tab played 还记得吗？ through to completion without a
+warning after deployment. It still loaded cached `index-CmSBKDbo.js`, while the
+deployed build uses `index-CTVQbk6Q.js`. This verifies retained audio URLs on the
+older public shell; fresh-shell behavior is verified by the local production
+tests, not claimed as a new public-browser verification. No site data was
+cleared, Access policy changed, or learner progress merged.
