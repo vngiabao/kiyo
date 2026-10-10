@@ -42,7 +42,7 @@ TEXTS={
 包带有点儿破了，我得小心拿。|The strap's a little damaged. I need to carry it carefully.
 我帮你拿一边。别急，车还有十分钟才来。|I'll take one side. No rush; the bus won't be here for ten minutes.
 ''',
-'''演出结束，我回去找衣架旁边的包。那里多了几件外套，却没有我的蓝色行李。|After the performance I returned to the coat rack. There were more coats there, but my blue luggage was missing.
+'''演出结束，我回去找衣架旁边的包。那里多了几件外套，却没有我的蓝色包。|After the performance I returned to the coat rack. There were more coats there, but my blue bag was missing.
 我问了工作人员，她说已经放到门后。我过去看，门开着，下面只有一双鞋。|A staff member said it had been moved behind the door. I looked, but with the door open all I could see was a pair of shoes.
 朋友把门慢慢关上一点，我才看见包在墙边。它没有丢，只是刚才被门挡住了。|My friend partly closed the door. The bag was against the wall: it wasn't lost, just hidden by the door.
 领行李的时候，我发现包带破了一小块。工作人员给我一根绳子，朋友帮我把它连起来。|On collecting it I found a small tear in the strap. The staff member gave me cord, and my friend helped secure it.

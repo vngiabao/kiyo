@@ -42,6 +42,20 @@ for path in sorted((ROOT/'content/packs').glob('hsk*.hsk.json')):
                          prompt=item['prompt'],choices=item['choices'],answer=item['answer'],
                          reason='Original exam draft: check naturalness, tone delivery and whether the distractors admit another valid interpretation.',
                          status='native review pending'))
+recorded_tone_flags = [
+    dict(unit='s3-u24', text='插队', py='chā duì', en='jump a queue',
+         reason='Batch54 cool take transcribed as 查对. A syllable-level match cannot establish chā versus chá; listen to the actual recording for the first tone.'),
+    dict(unit='s3-u28', text='你报的初级游泳课，什么时候开始？',
+         py='nǐ bào de chū jí yóu yǒng kè , shén me shí hou kāi shǐ ?',
+         en='When does your beginner swimming course start?',
+         reason='Batch55 takes transcribed 报 as 抱. The intended fourth tone bào needs an actual recorded-tone check; the text screen does not certify it.'),
+]
+for flag in recorded_tone_flags:
+    existing = next((row for row in rows if row['unit'] == flag['unit'] and row['text'] == flag['text']), None)
+    if existing:
+        existing['reason'] += ' ' + flag['reason']
+    else:
+        rows.append(dict(**flag, status='native review pending'))
 for exception in read(ROOT/'content/voices/audio-deferred.json')['entries']:
     rows.append(dict(unit='audio exception',text=exception['text'],reason=exception.get('reason','Automatic screening failed after repair; device speech fallback.'),status='native review pending'))
 destination=ROOT/'prompts/research/native-review-lines.json'

@@ -64,7 +64,7 @@ TEXTS={
 '''),
 27:(
 '''你昨天发的照片，是在哪里拍的？|Where did you take the photo you sent yesterday?
-河边。那座桥就在照片后面。|By the river. That bridge is in the background.
+河边。你看照片里的那座桥。|By the river. Look at the bridge in the photo.
 看起来很近，你们走过去了吗？|It looks close. Did you walk there?
 走了二十分钟，比照片里远。|It took twenty minutes; it's farther than it looks in the photo.
 这块石头看上去也很大。|The rock looks big too.

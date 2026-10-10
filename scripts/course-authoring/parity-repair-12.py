@@ -192,3 +192,28 @@ for uid,terms in DEPENDENCIES.items():
                 text.setdefault('glosses',[]).append(dict(hanzi=word,pinyin=py(word),meaning=meaning))
     destination=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')/path.name
     destination.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
+
+# Keep the current audio batch fixed; this refinement lands with the next one.
+def casual_followthrough(value):
+    if isinstance(value,str):
+        return value.replace('你从来都把钥匙放在不同的地方。','你每次放钥匙的地方都不一样。').replace('You never put your keys in the same place.','You put your keys somewhere different every time.').replace('在学校旁边的公共活动室，不在上次那个场所。','在学校旁边的公共活动室，不在上次那个地方。').replace('In the shared activity room by the school, not at the previous venue.',"It's in the shared activity room by the school, not where we went last time.")
+    if isinstance(value,list):
+        return [casual_followthrough(child) for child in value]
+    if isinstance(value,dict):
+        result={key:casual_followthrough(child) for key,child in value.items()}
+        if 'zh' in result and result['zh']!=value['zh'] and 'py' in result:
+            result['py']=py(result['zh'].replace('【','').replace('】',''))
+        return result
+    return value
+followthrough_notes={
+    's3-u09':'2026-10-09 venue follow-through: the friends refer to 上次那个地方; formal 场所 remains in its independent vocabulary contexts. The shared activity room, times and question keys remain unchanged.',
+    's3-u10':'2026-10-09 keys follow-through: everyday 每次…都不一样 replaces an affirmative 从来 sentence in the friendly bookshop exchange; 从来 retains its independent vocabulary contexts.',
+}
+for uid,note in followthrough_notes.items():
+    path=ROOT/f'content/packs/{uid}.json'
+    pack=casual_followthrough(json.loads(path.read_text('utf-8')))
+    note+=' Old unit, word and task IDs are preserved. Fresh audio and full gates required. Native review pending.'
+    pack['notes']='\n'.join(dict.fromkeys([*pack.get('notes','').splitlines(),note]))
+    destination=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')/path.name
+    destination.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
+    print(uid,'casual follow-through published' if '--publish' in sys.argv else 'casual follow-through drafted',flush=True)

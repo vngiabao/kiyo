@@ -14,7 +14,7 @@ TEXTS={
 那今天订吧，还有位子吗？|Let's book today. Are there still seats?
 目前只剩两个，我们正好两个人。|There are only two left at present. Just right for us.
 活动在哪儿？|Where's the event?
-在学校旁边的公共活动室，不在上次那个场所。|In the shared activity room by the school, not at the previous venue.
+在学校旁边的公共活动室，不在上次那个地方。|It's in the shared activity room by the school, not where we went last time.
 我差点走错。几点开始？|I almost went to the wrong place. When does it start?
 七点。票上写仅限当天使用。|Seven. The ticket says it's valid only that day.
 好，我先把地址存下来。|Okay. I'll save the address.
@@ -44,7 +44,7 @@ TEXTS={
 新地址在地铁站旁边，我发给你。|The new address is by the metro station. I'll send it.
 收到了。那我立刻出门。|Got it. I'll leave right away.
 别急，我还在找钥匙。|Don't rush. I'm still looking for my keys.
-你从来都把钥匙放在不同的地方。|You never put your keys in the same place.
+你每次放钥匙的地方都不一样。|You put your keys somewhere different every time.
 找到了，在昨天那件外套里。|Found them, in yesterday's coat.
 那三点在书店门口见？|At the bookshop entrance at three, then?
 好。今天先看书，别又只聊一个下午。|Yes. Let's actually look at books today instead of just chatting all afternoon again.

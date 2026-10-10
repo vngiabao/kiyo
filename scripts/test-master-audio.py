@@ -16,6 +16,41 @@ spec.loader.exec_module(master)
 
 
 class Installation(unittest.TestCase):
+    def test_atomic_replacement_retries_a_windows_lock(self):
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / 'ledger.json'
+            target.write_text('{"old":true}', 'utf-8')
+            replace = master.os.replace
+            calls = []
+            def locked_once(source, destination):
+                calls.append(source)
+                if len(calls) == 1:
+                    self.assertEqual(json.loads(target.read_text('utf-8')), {'old': True})
+                    error = PermissionError('fixture Windows lock')
+                    error.winerror = 32
+                    raise error
+                replace(source, destination)
+            with patch.object(master.os, 'replace', side_effect=locked_once), patch.object(master.time, 'sleep'):
+                master.atomic(target, {'new': True})
+            self.assertEqual(len(calls), 2)
+            self.assertEqual(json.loads(target.read_text('utf-8')), {'new': True})
+            self.assertEqual(list(Path(folder).glob('*.tmp')), [])
+
+    def test_persistent_lock_fails_and_preserves_both_ledgers(self):
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / 'ledger.json'
+            target.write_text('{"old":true}', 'utf-8')
+            error = PermissionError('fixture persistent Windows lock')
+            error.winerror = 5
+            with patch.object(master.os, 'replace', side_effect=error) as replace, patch.object(master.time, 'sleep'):
+                with self.assertRaises(PermissionError):
+                    master.atomic(target, {'new': True})
+            self.assertEqual(replace.call_count, 12)
+            self.assertEqual(json.loads(target.read_text('utf-8')), {'old': True})
+            temporary = list(Path(folder).glob('*.tmp'))
+            self.assertEqual(len(temporary), 1)
+            self.assertEqual(json.loads(temporary[0].read_text('utf-8')), {'new': True})
+
     def run_fixture(self, failed, deferred=None):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

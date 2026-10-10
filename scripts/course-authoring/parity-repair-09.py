@@ -189,3 +189,26 @@ for uid,terms in DEPENDENCIES.items():
                 text.setdefault('glosses',[]).append(dict(hanzi=word,pinyin=py(word),meaning=meaning))
     destination=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')/path.name
     destination.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
+
+# A photocopy needs a physical original; sending a file would imply printing.
+# Apply this narrow follow-through only after the preceding batch has finished.
+uid='s3-u04'
+path=ROOT/f'content/packs/{uid}.json'
+pack=json.loads(path.read_text('utf-8'))
+def hand_over_paper(value):
+    if isinstance(value,str):
+        return value.replace('能，发给我吧。','能，拿给我吧。').replace('能，把这一页发给我吧','能，把这一页拿给我吧').replace('陈宇把自己的一页发给我','陈宇把自己的一页交给我').replace('Yes. Send it over.','Yes. Hand it to me.').replace('Chen Yu sent me a page','Chen Yu handed me a page')
+    if isinstance(value,list):
+        return [hand_over_paper(child) for child in value]
+    if isinstance(value,dict):
+        result={key:hand_over_paper(child) for key,child in value.items()}
+        if 'zh' in result and result['zh']!=value['zh'] and 'py' in result:
+            result['py']=py(result['zh'].replace('【','').replace('】',''))
+        return result
+    return value
+pack=hand_over_paper(pack)
+note='2026-10-09 photocopy follow-through: the original page is handed over physically with 拿给/交给, rather than sent as a digital file. Dialogue, reading, task answer and conversation acceptance remain aligned; saved IDs are preserved. Fresh audio and all gates required. Native review pending.'
+pack['notes']='\n'.join(dict.fromkeys([*pack.get('notes','').splitlines(),note]))
+destination=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')/path.name
+destination.write_text(json.dumps(pack,ensure_ascii=False,indent=2)+'\n','utf-8')
+print(uid,'physical-paper follow-through published' if '--publish' in sys.argv else 'physical-paper follow-through drafted',flush=True)

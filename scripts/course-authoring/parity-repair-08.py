@@ -97,7 +97,7 @@ TEXTS={
 那我把两个时间都问一下。|I'll ask about both times.
 好。我先去办公室复印两页，回来再看消息。|Good. I'll photocopy two pages at the office and check the messages when I return.
 你去办公室？能帮我也复印这一页吗？|You're going to the office? Could you copy this page for me too?
-能，发给我吧。|Yes. Send it over.
+能，拿给我吧。|Yes. Hand it to me.
 谢谢。书店还有一位朋友要来，我也问问她。|Thanks. Another friend wants to come to the bookshop; I'll ask her too.
 那我们到了先互相介绍一下。|We can introduce ourselves when we get there.
 好，别一下问太多，让我先等小周回消息。|Sure. Don't ask me everything at once; let me wait for Xiao Zhou's reply first.
@@ -105,7 +105,7 @@ TEXTS={
 没有，我还在这里听你说呢。|No. I'm still here listening to you.
 ''',
 '''我想周六约小周去书店，三点和四点都可以。陈宇说她去理发了，下午再联系。我就先去办公室复印两页材料。|I wanted to go to the bookshop with Xiao Zhou on Saturday; three or four would work. Chen Yu said she was getting a haircut and would contact her that afternoon. I went to the office to photocopy two pages first.
-出门以前，陈宇把自己的一页发给我，麻烦我一起复印。办公室没有排队，我很快就印好了三页，放进包里。|Before I left, Chen Yu sent me a page and asked me to copy it too. There was no queue at the office. I quickly copied all three pages and put them in my bag.
+出门以前，陈宇把自己的一页交给我，麻烦我一起复印。办公室没有排队，我很快就印好了三页，放进包里。|Before I left, Chen Yu handed me a page and asked me to copy it too. There was no queue at the office. I quickly copied all three pages and put them in my bag.
 回来的路上，我看手机，小周还没回答。陈宇说不用急，她理完发还要坐车回家，可能到家以后才看消息。|On the way back I checked my phone. Xiao Zhou hadn't replied yet. Chen Yu said not to rush; she had a bus ride home after her haircut and might only check messages there.
 下午两点，她说三点半能到。这个时间也合适，我就在手机里写好书店的地址，发给陈宇和她。|At two she said she could arrive at three thirty. That worked too, so I wrote out the bookshop address on my phone and sent it to both of them.
 另外一位朋友四点到，我们先找了四个位子。她来了以后，陈宇介绍我们认识；聊了一会儿，才发现我们上次去过同一个活动。|The other friend would arrive at four, so we found four seats first. Chen Yu introduced us when she came. After chatting, we discovered we'd been to the same event before.
@@ -153,7 +153,7 @@ REPLIES={
 1:[('你好，我姓李，怎么称呼你？','Hi, my surname is Li. What should I call you?',['叫我陈宇就行。','第三位还没到。','猫在椅子下面。']),('今天还有谁没到？','Who has not arrived today?',['第三位新成员还在路上。','我父母住在南方。','老王已经坐下了。'])],
 2:[('这两篇，我想先读短一点的。','I’d like to try the shorter of these two passages.',['选左边这篇吧。','下个月有比赛。','时间是周六下午。']),('我先听你读一遍，行吗？','May I listen to you read it once first?',['行，你跟着第一段看。','你已经读完了。','请把所有书都买了。'])],
 3:[('我两点到，三点要走，能帮忙吗？','Can I help if I arrive at two and leave at three?',['能，小周三点来接班。','要到晚上才能走。','今天没有名单。']),('这里四把椅子，我们怎么搬？','How shall we move these four chairs?',['每人搬两把吧。','只搬一把就都搬完了。','三点她会来接班。'])],
-4:[('小周三点和四点都可以的话，你帮我问问？','Could you ask Xiao Zhou whether three or four works?',['行，我下午联系她。','我已经替她理发了。','两页就是一页。']),('你去复印，能帮我也印这一页吗？','Could you copy this page too while you’re photocopying?',['能，把这一页发给我吧。','小周四点还没说话。','我认识门口那只猫。'])]}
+4:[('小周三点和四点都可以的话，你帮我问问？','Could you ask Xiao Zhou whether three or four works?',['行，我下午联系她。','我已经替她理发了。','两页就是一页。']),('你去复印，能帮我也印这一页吗？','Could you copy this page too while you’re photocopying?',['能，把这一页拿给我吧。','小周四点还没说话。','我认识门口那只猫。'])]}
 
 GLOSSES=[('夫妻店','shop run by a couple'),('眼镜','glasses'),('方言','dialect'),('家乡话','hometown dialect'),('寄','send by post'),('填写','fill in a form'),('依靠','rely on'),('经验','experience'),('集合','gather'),('留','save; keep'),('开窗','open a window'),('窗口','window opening'),('位子','seat'),('猫','cat'),('空手','empty-handed'),('猫咪','cat'),('怪不得','no wonder'),('门口','entrance'),('列','list'),('名单','list of names'),('突出','stand out'),('发挥','make use of'),('资格','eligibility'),('标','mark'),('评分','marking; scoring'),('评','evaluate'),('游客','visitor; tourist'),('暂时','temporarily'),('尝试','try'),('挪','move a little'),('喊','shout'),('培训','training'),('登记','register'),('交接','handover'),('接班','take over a shift'),('借','borrow; lend'),('整理','organise; tidy'),('书架','bookshelf'),('需求','demand'),('交通','transport'),('填报','complete and submit a form'),('课程','course'),('承担','take on'),('照看','look after'),('壶','pot; kettle'),('地图','map'),('报名','sign up'),('采访','interview'),('记者','reporter'),('邻居','neighbour'),('窗户','window'),('纸','paper'),('茶杯印','teacup mark'),('印','print; mark'),('排队','queue'),('一边','while'),('收到','receive'),('复印','photocopy'),('才','only then'),('当','serve as; act as'),('到齐','all arrive'),('接待','welcome; receive visitors'),('故乡','hometown'),('训练','train; training'),('行李','luggage'),('挡住','block'),('兴趣','interest'),('申请','apply'),('鼓励','encourage'),('补充','add information'),('范围','range; scope')]
 

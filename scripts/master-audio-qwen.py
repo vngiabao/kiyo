@@ -4,11 +4,14 @@ from datetime import datetime, timezone
 from fractions import Fraction
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import shutil
 import subprocess
 import sys
+import time
+import uuid
 import imageio_ffmpeg
 import numpy as np
 from scipy.signal import resample_poly
@@ -23,13 +26,26 @@ digest = lambda path: hashlib.sha256(path.read_bytes()).hexdigest()
 read = lambda path: json.loads(path.read_text('utf-8'))
 
 def atomic(path, data):
-    temp = path.with_suffix('.tmp')
+    temp = path.with_name(f'{path.name}.{os.getpid()}.{uuid.uuid4().hex}.tmp')
     # Large verification ledgers stay semantically complete without indentation.
     compact = path.name.endswith('provenance.json')
-    temp.write_text(json.dumps(data,ensure_ascii=False,
+    content = json.dumps(data,ensure_ascii=False,
         indent=None if compact else 2,
-        separators=(',',':') if compact else None)+'\n','utf-8')
-    temp.replace(path)
+        separators=(',',':') if compact else None)+'\n'
+    with temp.open('x', encoding='utf-8') as stream:
+        stream.write(content)
+        stream.flush()
+        os.fsync(stream.fileno())
+    # Windows scanners/sync can briefly hold the destination. Keep the old
+    # ledger intact until replacement succeeds; persistent errors still fail.
+    for attempt in range(12):
+        try:
+            os.replace(temp, path)
+            return
+        except PermissionError as error:
+            if getattr(error, 'winerror', None) not in {5, 32, 33} or attempt == 11:
+                raise
+            time.sleep(min(.25 * (attempt + 1), 1))
 
 def encode(signal, dest):
     raw = CACHE/(dest.stem+'-master.wav')

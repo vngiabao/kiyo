@@ -36,7 +36,7 @@ ROWS={
 铁|这个架子是铁做的。|This frame is made of iron.|铁比这种木头重。|Iron is heavier than this kind of wood.
 造|我们想在这里造一座小桥。|We want to build a little bridge here.|爷爷小时候造过一条小船。|Grandpa built a little boat as a child.
 造成|大雨造成了很多不便。|The heavy rain caused inconvenience.|地址写错造成了误会。|The wrong address caused a misunderstanding.
-打破|球打破了窗户。|The ball broke the window.|他一句玩笑打破了安静。|His joke broke the silence.
+打破|球打破了窗户。|The ball broke the window.|他的一句玩笑打破了沉默。|His joke broke the silence.
 使|这个办法使工作方便多了。|This approach made the work much easier.|朋友的帮助使我安心了。|My friend's help reassured me.
 形成|讨论以后，我们形成了一个计划。|We formed a plan after discussing it.|他已经形成了每天读书的习惯。|He's developed a daily reading habit.
 形状|这个盒子的形状很特别。|This box has an unusual shape.|你能画出它的形状吗？|Can you draw its shape?
@@ -52,7 +52,7 @@ ROWS={
 ''',
 43:'''重|他把这段话重读了一遍。|He read this passage again.|请把这个字重写一次。|Please rewrite this character once.
 代|她代我去取了书。|She collected the books on my behalf.|我今天不能去，请你代我参加。|I can't attend today; please go on my behalf.
-带动|她的笑带动大家也笑起来。|Her laughter got everyone laughing.|这个活动带动了更多人参加。|This event encouraged more people to join.
+带动|她的热情带动了大家。|Her enthusiasm got everyone involved.|这个活动带动了更多人参加。|This event encouraged more people to join.
 管|谁管这里的钥匙？|Who's in charge of the keys here?|这件事不归我管。|This isn't my responsibility.
 合|把这两块木头合在一起。|Join these two pieces of wood.|两张桌子合起来，就能坐八个人。|Eight people can sit at the two tables joined together.
 和平|大家都希望和平。|Everyone hopes for peace.|这本书讲的是战争与和平。|This book is about war and peace.
@@ -85,7 +85,7 @@ ROWS={
 去世|她爷爷去年去世了。|Her grandfather died last year.|那位作家去世以后，朋友整理了他的作品。|The writer's friends organised his works after he died.
 人类|这本书介绍了人类的历史。|This book introduces human history.|老师在课上讲了人类生活的变化。|The teacher discussed changes in human life.
 实际上|我看着很安静，实际上很紧张。|I look calm, but I'm actually nervous.|实际上，她已经来过这里两次。|She's actually been here twice.
-属|这里属城南区。|This place falls under the southern district.|这项工作属他负责。|This task falls under his responsibility.
+属|这里属城南区。|This place falls under the southern district.|这块地属学校所有。|This plot of land belongs to the school.
 属于|这个包属于她。|This bag belongs to her.|这里已经不属于我们的学校了。|This place no longer belongs to our school.
 谈|我们先谈时间，再谈地点。|Let's discuss the time before the place.|她不想谈这件事。|She doesn't want to talk about this.
 谈判|谈判进行了三个小时。|The negotiation lasted three hours.|双方下周继续谈判。|The two sides will resume negotiations next week.
@@ -111,6 +111,7 @@ for number,raw in ROWS.items():
     notebook.update(title=p['unit']['title']+': words in context',lines=contexts,questions=[])
     notebook.pop('cloze',None)
     glossary=[('历史','history'),('喜爱','love; be fond of'),('熟悉','familiar'),('趴','lie or lean face-down'),('采访','interview'),('游客','visitor; tourist'),('古代','ancient times'),('科学家','scientist'),('改','change; revise'),('尺寸','dimensions'),('钥匙','key'),('球','ball'),('战争','war'),('和平','peace'),('艺术团','arts group'),('湖','lake'),('邻居','neighbour'),('双方','both sides'),('干燥','dry'),('普','general; universal'),('熟','familiar; ripe'),('届','classifier for an event edition'),('重','again'),('移','move')]
+    glossary += [('沉默','silence; being silent'),('热情','enthusiasm; warmth'),('所有','own; possess, in 属…所有')]
     for z,e in glossary:
         if any(z in l['zh'] for l in contexts) and not any(g['hanzi']==z for g in notebook.get('glosses',[])):
             notebook.setdefault('glosses',[]).append(dict(hanzi=z,pinyin=py(z),meaning=e))
@@ -137,9 +138,42 @@ for number,raw in ROWS.items():
     for i in range(6,len(p['tasks'])):
         p['tasks'][i]=dict(id=p['tasks'][i]['id'],phrase=p['tasks'][i]['phrase'],**match(values[(i-6)*3:(i-6)*3+3]))
     p['notes']+='\n2026-10-08 independent vocabulary review: removed abstract cautionary/meta examples. Two authored contexts per stated sense, exact old IDs retained. Task keys checked against explicit statements; reply tasks ask for a constructive response to a concrete problem. Native review pending: passive 为, chong 重, formal 属, short colloquial statements and bereavement wording. No automatic native or pronunciation certification.'
+    collocation_notes={42:'Replaced 打破安静 with 打破沉默.',43:'Replaced the awkward laughter-driven 带动 sentence with an enthusiasm example.',44:'Replaced 属他负责 with formal ownership 属…所有.'}
+    if number in collocation_notes:
+        p['notes']+='\n2026-10-09 collocation follow-through: '+collocation_notes[number]+' Added precise passage glossary aids; existing word and task IDs remain. Native review pending.'
+    p['notes']='\n'.join(dict.fromkeys(p['notes'].splitlines()))
     target=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')
     (target/f'{uid}.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n','utf-8')
+
     print(uid,'drafted' if '--publish' not in sys.argv else 'published')
+
+# Apply the bag wording follow-through in this next complete audio batch.
+# Keep the currently generating earlier batch's published text untouched.
+uid='s3-u34'
+p=json.loads((ROOT/f'content/packs/{uid}.json').read_text('utf-8'))
+def clarify_blue_bag(value):
+    if isinstance(value,dict):
+        if '蓝色行李' in value.get('zh',''):
+            value['zh']=value['zh'].replace('蓝色行李','蓝色包')
+            value['py']=py(value['zh'])
+            value['en']=value['en'].replace('my blue luggage','my blue bag')
+        for child in value.values():clarify_blue_bag(child)
+    elif isinstance(value,list):
+        for child in value:clarify_blue_bag(child)
+clarify_blue_bag(p)
+reading=p['reading']
+selected=[]
+for item in reading['lines']:
+    word=next((v['hanzi'] for v in p['vocabulary'] if v['hanzi'] in item['zh'] and v['hanzi'] not in [w for _,w in selected]),None)
+    if word:selected.append((item,word))
+    if len(selected)==3:break
+assert selected, 'The revised reading needs real passage-derived gaps'
+reading['cloze']=dict(lines=[{**item,'zh':item['zh'].replace(w,f'【{w}】',1)} for item,w in selected],bank=[w for _,w in selected]+['明天' if all(w!='明天' for _,w in selected) else '昨天'])
+note='2026-10-09 bag wording follow-through: describe the visible blue bag as 蓝色包, retaining 行李 in independent vocabulary examples and collecting-luggage contexts. Passage-derived gaps rebuilt from current lines; saved IDs and standalone task keys preserved. Native review pending.'
+p['notes']='\n'.join(dict.fromkeys([*[entry for entry in p.get('notes','').splitlines() if not entry.startswith('2026-10-09 bag wording follow-through:')],note]))
+target=ROOT/('content/packs' if '--publish' in sys.argv else 'output/parity-editorial-drafts')
+(target/f'{uid}.json').write_text(json.dumps(p,ensure_ascii=False,indent=2)+'\n','utf-8')
+print(uid,'bag wording published' if '--publish' in sys.argv else 'bag wording drafted')
 
 from advanced_reading_repair import dependencies
 dependencies({'s5-u08':[('扫','sweep; scan (a code)')],

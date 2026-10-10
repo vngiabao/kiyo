@@ -1,11 +1,15 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
-import audioAssets from "./src/audio-assets.json" with { type: "json" };
 import brandAssets from "./src/brand-assets.json" with { type: "json" };
 import { compactAudioCatalog } from "./scripts/compact-audio-catalog.ts";
 import { compactCourseData, courseDataPages } from "./scripts/compact-course-data.ts";
 import { readFileSync } from "node:fs";
+// This is build metadata. Importing the changing catalog makes Vite restart
+// its server after audio generation; runtime imports still receive normal HMR.
+const audioAssets = JSON.parse(
+  readFileSync(new URL("./src/audio-assets.json", import.meta.url), "utf8"),
+) as Record<string, Record<string, string>>;
 const coursePages = courseDataPages(JSON.parse(readFileSync(new URL("./src/generated/packs.json", import.meta.url), "utf8")));
 // An explicit offline download must fit the installed catalog, including future levels.
 const audioCacheCapacity = Math.max(
@@ -164,6 +168,8 @@ export default defineConfig({
         "**/.cache/**",
         "**/.dict-cache/**",
         "**/output/**",
+        "**/.deploy-dist/**",
+        "**/public/audio-v2/**",
       ],
     },
   },

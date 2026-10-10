@@ -361,9 +361,14 @@ test("installed HSK notebook and new teacher audio work offline", async ({
   await page.getByRole("button", { name: /I’ve studied these/ }).click();
   await page.getByRole("button", { name: "Take checkpoint", exact: true }).click();
   const run = await savedRun(page);
-  const listening = run.itemIds.find((id) => itemById[id].format === "listening");
+  // Rotation may draw ten reading/cloze items. Seed a real eligible listening
+  // item for this offline-audio fixture rather than relying on that random draw.
+  const listening = installed.filter((p) => p.level === run.level)
+    .flatMap((p) => p.items)
+    .find((q) => q.unit === run.unit && q.format === "listening")?.id;
   expect(listening).toBeTruthy();
-  run.itemIds = [listening!, ...run.itemIds.filter((id) => id !== listening)];
+  run.itemIds = [listening!, ...run.itemIds.filter((id) => id !== listening)]
+    .slice(0, run.itemIds.length);
   await page.evaluate(async (row) => new Promise<void>((resolve, reject) => {
     const request = indexedDB.open("kiyo-hsk-v1");
     request.onerror = () => reject(request.error);
