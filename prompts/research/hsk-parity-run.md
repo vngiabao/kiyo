@@ -424,3 +424,20 @@ Source14 for62 replaces 一个鸡蛋菜和一个青菜 with 点了炒鸡蛋和�
 
 Before refreshing the existing isolated shadow, a conservative Windows attribute guard stopped at .cache's ReparsePoint attribute. Inspection then established no link type/target, no symbolic links, real paths entirely within the intended shadow, and zero lstat reparse tags for all four involved directories. Only the verified shadow's pack copies and generated draft data were written; protected app files were unchanged. All144 shadow packs, word readability and line pinyin pass, with170020 dictionary matches and0 lines to fix. Existing vocabulary/task IDs and two distinct contexts per word are asserted by the draft preflight. This is not batch acceptance or native approval:62 must publish the authored repair, regenerate its changed audio and pass all8 gates.
 The isolated restaurant corpus also passes contextual 得:917 fields,0 problems (output/gates/batch-62-restaurant-contextual.log). No protected root file was modified.
+
+## Final local acceptance and size snapshot — 10 October 2026
+
+All 144 units have actual passing acceptance evidence: 108 foundation units and 36 selected advanced media/social units. The final batch 62 receipt records all eight gates passed at 08:34:13 UTC on source `0b35df7ee3495e1f6b1573696dcf74b7f92ecb751809aeab9108e04ce063161f`. Tests: 190 unit, 45 development-browser and four separate production offline/update cases. Exact word/grammar/fix records are in course-log.md; 2,759 prioritised native-review records are in native-review-lines.json, all unapproved. Advanced full inventory coverage is not claimed.
+
+Read-only folder scan, no filesystem errors: Chinese 35.149 GiB / 646,073 files; Japanese 11.442 GiB / 114,398 files; ratio 3.07. Chinese's local cache (10.319 GiB), models (9.334 GiB) and voice Python environment (5.305 GiB) account for most of its size. Public assets are 1.882 GiB in Chinese and 2.289 GiB in Japanese. The compressed initial install is 14.47 MiB and excludes full audio/dictionary downloads. These are a changing working-folder snapshot, not download sizes. No files were deleted by this final audit. The committed release has 57,947 files / 2,298,242,356 bytes (about 2.14 GiB), no file over 100 MiB and no tracked local model/cache/runtime/credential path.
+
+## Final deployment and bounded live check — 10 October 2026
+
+Commit `14d225401754b3fb01545be7707c5d3932898d86` was pushed to origin/main. Cloudflare uploaded 657 changed assets, retained 2,527 existing assets, and activated version `95e8c507-2eb3-4e35-8341-3dfdc3f2250d` at 09:01:26 UTC. The deployments list confirms that version at 100%. No Access policy or database was changed.
+
+A normal public-site browser tab loaded Kiyo. Hear Sayo (还记得吗？) and Say it for 口 transitioned to Stop and back without an audio/fallback warning; the course dictionary popup displayed kǒu, meaning and examples. These may use cached files and do not prove fresh requests for the entire new catalog. The visible two finished lessons and 20 recognised characters remained after IndexedDB hydration; the transient zero counts during initial loading were not an erased record.
+
+The public tab kept loading older `index-CmSBKDbo.js`, showing the old 901-character / 29,361-clip shell, after ordinary navigation and refresh attempts. The deployed build instead references `index-2IiPMwwc.js`. Thus the new Course library/More and final catalog are verified by the passing local production tests and committed build, but their fresh public UI remains unverified in this browser. Site data, caches and Access protections were not cleared or bypassed to force that result.
+
+Settings showed Google signed in and “Your progress is synced,” last observed at 05:03:07 local, on an already-consented public profile. No Add device progress, Sync now, deletion or sign-out was pressed. Existing automatic sync can run on opening that profile, so this is not a wholly write-free session or a controlled two-device roundtrip. The earlier keep-device/no-merge instruction remains the boundary for deliberate test actions. Independent native review also remains pending.
+
