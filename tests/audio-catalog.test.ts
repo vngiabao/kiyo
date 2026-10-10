@@ -111,11 +111,12 @@ it("the generation catalog covers teaching text and contextual character pronunc
     ),
     ...packScenarios.flatMap((s) => s.turns.map((t) => t.text)),
   ];
-  for (const value of text) {
-    expect(index.get(voiceKey(value)), value).toBeDefined();
-    expect(index.get(voiceKey(value))?.moods, value).toContain("clear");
-    expect(index.get(voiceKey(value))?.moods, value).toContain("playful");
-  }
+  // One assertion over the whole course: per-line expect() calls outgrew the timeout at HSK 6.
+  const missing = text.filter((value) => {
+    const moods = index.get(voiceKey(value))?.moods;
+    return !moods?.includes("clear") || !moods.includes("playful");
+  });
+  expect(missing).toEqual([]);
 });
 it("every Sayo reaction has its requested mood in the generation catalog", () => {
   const lines = [

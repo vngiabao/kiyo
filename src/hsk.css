@@ -412,9 +412,43 @@
   padding: 18px;
   min-height: 72px;
 }
+.hsk-choices label {
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms var(--ease-out);
+}
+.hsk-choices label:active {
+  transform: scale(0.98);
+}
+.hsk-choices label:has(input:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.hsk-choices:disabled label {
+  cursor: not-allowed;
+  transform: none;
+}
 .hsk-choices label.selected {
   border-color: var(--accent);
   background: var(--accent-wash);
+}
+@media (hover: hover) and (pointer: fine) {
+  .hsk-choices:not(:disabled) label:not(.selected):hover {
+    border-color: var(--rule-strong);
+    background: var(--paper-deep);
+  }
+  .hsk-question-nav button:not([aria-current]):hover,
+  .hsk-tabs button:not([aria-current]):hover {
+    color: var(--ink);
+  }
+}
+.hsk-question-nav button,
+.hsk-tabs button {
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    background-color 160ms ease;
 }
 .hsk-choices label > span[lang] {
   font-size: 27px;

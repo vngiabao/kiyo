@@ -15,7 +15,7 @@ Checks (run all before saying something works):
 
 ```sh
 npx tsc -b                 # types
-npm test                   # unit tests (vitest), 27 tests
+npm test                   # unit tests (vitest), 190 tests
 npm run validate:content   # curriculum consistency
 npm run check:pinyin       # every pack line's pinyin vs the HSK 3.0 dictionary (also runs in packs/build)
 npm run test:e2e           # browser tests (needs `npm run dev` running and Google Chrome)
@@ -39,7 +39,7 @@ Visual QA: `npx tsx scripts/screenshots.ts` saves screenshots at 1440 / 768 / 37
 - **Mascot:** `src/Mascot.tsx` + `src/mascot.css`. 小夜 **Sayo**, a cool sensei who speaks in short Mandarin lines (Chinese → pinyin → English). Art is in `public/mascot/quiet/*.png` (originals) → `public/mascot/web/*.webp` (what the app loads, made by `python scripts/prepare-mascot.py`).
 - **Brand:** `src/brand.tsx`. App name **Kiyo 清**, logo drawn from 清 stroke data; the top bar of 青 is lit blue as the qīng tone mark. `scripts/make-icon.ts` builds `public/icon.svg`.
 - **Sign-in:** `src/auth.ts` + `src/Welcome.tsx`. Supabase (Google, Apple, email code), off until `VITE_SUPABASE_URL` / `VITE_SUPABASE_ANON_KEY` are set. "Start without an account" always works.
-- **Audio:** bundled MP3s in `public/audio/` from a local Kokoro TTS model (`scripts/generate-audio.py`, Python env `.audio-env`, models in `.models/`); device voices are the fallback.
+- **Audio:** Sayo clips in `public/audio-v2/` from local Qwen3-TTS (`scripts/generate-audio-qwen.py` → `screen-audio-qwen.py` → `master-audio-qwen.py`, env `.voice-design-env`; steps in README "Sayo audio generation"); device voices are the fallback.
 - **Design:** read `DESIGN.md` first. Dark "Night Study" theme: midnight navy, pale-blue accent, Newsreader + Instrument Sans + Noto Serif SC. Motion: transform/opacity only, ease-out, under 300 ms, and `prefers-reduced-motion` respected.
 
 ## 3. Rules (don't break these)
@@ -91,7 +91,7 @@ Visual QA: `npx tsx scripts/screenshots.ts` saves screenshots at 1440 / 768 / 37
    - Correct only meaning-breaking errors during the chat; give a short register note at the end.
    - Ask the owner before connecting anything paid.
 3. **Grammar in review:** add grammar-example and "say it naturally" items to the review queue (`src/Practice.tsx` → `Review`).
-4. **Audio for packs:** add pack phrases and texts to `scripts/audio-manifest.ts`, then run `scripts/generate-audio.py`.
+4. **Audio for packs:** add pack phrases and texts to `scripts/audio-manifest.ts`, then follow README "Sayo audio generation" (Qwen pipeline).
 5. **New Sayo art:**
    - when the PNGs land in `public/mascot/quiet/`, run `python scripts/prepare-mascot.py`;
    - delete `pending` and `fallback` from `thumbsup` and `run` in `src/Mascot.tsx`;

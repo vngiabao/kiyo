@@ -142,6 +142,8 @@ test("microphone refusal offers a usable alternative", async ({ page }) => {
 test("primary desktop and mobile surfaces meet automated WCAG AA checks", async ({
   page,
 }) => {
+  // Ten full-page axe scans over the HSK 1–6 course need more than the default 40 s.
+  test.setTimeout(120_000);
   // Audit settled colours, not frames of a fade-in.
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/");
