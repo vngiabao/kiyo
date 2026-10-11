@@ -2279,3 +2279,74 @@ button.mo-bubble:active {
     gap: 20px;
   }
 }
+
+/* ---------- Section hues: Sayo's palette across the app ----------
+   Blue (her peony and the night) for Today and Read; amber (sound) for Listen
+   and Media; indigo-violet (her hair) for Speak, HSK and Practice. Teal and
+   peach stay reserved for right and wrong. */
+:root {
+  --violet: #b8a6ff;
+  --violet-wash: rgb(184 166 255 / 0.14);
+  --sound-wash: rgb(242 196 126 / 0.14);
+  --hue: var(--accent);
+  --hue-wash: var(--accent-wash);
+  --hue-glow: rgb(134 168 255 / 0.2);
+}
+:root[data-route="learn"],
+:root[data-route="media"] {
+  --hue: var(--sound);
+  --hue-wash: var(--sound-wash);
+  --hue-glow: rgb(242 196 126 / 0.17);
+}
+:root[data-route="speak"],
+:root[data-route="hsk"],
+:root[data-route="practice"],
+:root[data-route="review"] {
+  --hue: var(--violet);
+  --hue-wash: var(--violet-wash);
+  --hue-glow: rgb(184 166 255 / 0.2);
+}
+body {
+  background:
+    radial-gradient(1200px 560px at 88% -8%, var(--hue-glow), transparent 62%),
+    radial-gradient(700px 500px at -6% 70%, color-mix(in srgb, var(--hue-glow) 55%, transparent), transparent 60%),
+    radial-gradient(800px 420px at -10% 4%, rgb(114 217 185 / 0.05), transparent 60%),
+    linear-gradient(180deg, #0d1628 0px, #0b1323 900px);
+}
+.eyebrow { color: color-mix(in srgb, var(--hue) 72%, var(--ink-3)); }
+.eyebrow [lang] { color: var(--hue); }
+.page-head h1 { position: relative; }
+/* A short rule in the section hue under every page title. */
+.page-head h1::after {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 3px;
+  margin-top: 14px;
+  border-radius: 2px;
+  background: var(--hue);
+}
+.main-nav button.active::after { background: var(--hue); }
+.tabbar .active { color: var(--ink); }
+.tabbar .active .tab-zh { color: var(--hue); }
+.tabs [aria-selected="true"]::after,
+.practice-tabs [aria-selected="true"]::after { background: var(--hue); }
+.unit-number { color: var(--hue); }
+.unit-banner { background: var(--hue-wash); }
+.unit-card-top { color: var(--hue); }
+.unit-card.is-focus { border-color: var(--hue); background: var(--hue-wash); }
+.unit-card-meter::after { background: var(--hue); }
+.level-strip [aria-pressed="true"] { background: var(--hue); }
+.is-next .stone { background: var(--hue); box-shadow: 0 6px 0 color-mix(in srgb, var(--hue) 45%, #000); }
+.is-next .stone:active { box-shadow: 0 2px 0 color-mix(in srgb, var(--hue) 45%, #000); }
+.journey-steps .is-here { border-color: var(--hue); background: var(--hue-wash); }
+.journey-steps .is-here .journey-dot { background: var(--hue); }
+.path-stop.is-current { border-color: var(--hue); box-shadow: inset 0 0 0 1px var(--hue); }
+.path-bar > span { background: var(--hue); }
+.scenario-options [aria-pressed="true"] { box-shadow: inset 3px 0 0 var(--hue); }
+.hsk-tabs button[aria-current] { border-color: var(--hue); }
+.hsk-question-nav button[aria-current] { border-color: var(--hue); background: var(--hue-wash); color: var(--hue); }
+.hsk-choices label.selected { border-color: var(--hue); background: var(--hue-wash); }
+.watch-rungs button.is-on { background: var(--hue-wash); box-shadow: inset 0 0 0 1.5px var(--hue); }
+.watch-rungs .is-on .rung-step { background: var(--hue); }
+.route-stages .is-here .route-num { background: var(--hue); }

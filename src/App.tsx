@@ -152,6 +152,10 @@ export default function App() {
     moreTrigger.current = event.currentTarget;
     setMore(true);
   };
+  // Each section carries its own hue (src/night.css "Section hues").
+  useEffect(() => {
+    document.documentElement.dataset.route = route;
+  }, [route]);
   useEffect(() => {
     if (more && menu.current && !menu.current.open) menu.current.showModal();
     if (!more && menu.current?.open) {
