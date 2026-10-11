@@ -162,8 +162,9 @@ describe("levels and days in a row", () => {
   });
 });
 describe("curriculum and media", () => {
+  // Validates all 144 units; needs more than vitest's default 5 s.
   it("has internally consistent content and answer keys", () =>
-    expect(validateContent()).toEqual([]));
+    expect(validateContent()).toEqual([]), 30_000);
   it("parses captions with CRLF, Unicode, comma or dot milliseconds", () => {
     expect(
       parseSrt(

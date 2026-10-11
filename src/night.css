@@ -1865,3 +1865,217 @@ button.mo-bubble:active {
 .drill-choices .choice {
   min-height: 52px;
 }
+
+/* ---------- Listen: one unit on the trail, the rest in a level grid ---------- */
+.listen-focus {
+  margin-bottom: 56px;
+}
+.listen-focus .section-head,
+.listen-units .section-head {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 20px;
+}
+.listen-focus .section-head .muted,
+.listen-units .section-head .muted {
+  font-size: 15px;
+}
+.listen-focus .text-button {
+  font-size: inherit;
+}
+.level-strip {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.level-strip button {
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-2);
+  box-shadow: inset 0 0 0 1px var(--rule-strong);
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms var(--ease-out);
+}
+.level-strip button:active {
+  transform: scale(0.96);
+}
+.level-strip [aria-pressed="true"] {
+  color: var(--on-accent);
+  background: var(--accent);
+  box-shadow: none;
+}
+.unit-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+.unit-card {
+  display: grid;
+  gap: 6px;
+  width: 100%;
+  min-height: 124px;
+  padding: 16px 16px 18px;
+  text-align: left;
+  border-radius: var(--r-lg);
+  background: var(--sheet);
+  border: 1px solid var(--rule);
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms var(--ease-out);
+}
+.unit-card:active {
+  transform: scale(0.98);
+}
+.unit-card.is-focus {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+.unit-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.unit-card-count {
+  color: var(--ink-3);
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 500;
+}
+.unit-card.is-done .unit-card-count {
+  color: var(--good);
+}
+.unit-card strong {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--ink);
+}
+.unit-card-zh {
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+}
+.unit-card-meter {
+  align-self: end;
+  height: 3px;
+  margin-top: 6px;
+  border-radius: 999px;
+  background: var(--rule-strong);
+  overflow: hidden;
+}
+.unit-card-meter::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: var(--accent);
+  transform: scaleX(var(--p, 0));
+  transform-origin: left;
+  transition: transform 300ms var(--ease-out);
+}
+.unit-card.is-done .unit-card-meter::after {
+  background: var(--good);
+}
+@media (hover: hover) and (pointer: fine) {
+  .level-strip button:not([aria-pressed="true"]):hover {
+    color: var(--ink);
+    background: var(--paper-deep);
+  }
+  .unit-card:not(.is-focus):hover {
+    border-color: var(--rule-strong);
+    background: var(--sheet-2);
+  }
+}
+@media (max-width: 640px) {
+  .unit-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  .unit-card {
+    min-height: 0;
+    padding: 14px;
+  }
+  .unit-card strong {
+    font-size: 17px;
+  }
+}
+/* Speak: scenarios grouped by level, finished ones ticked */
+.scenario-panel .level-strip {
+  margin-bottom: 12px;
+}
+.scenario-options button {
+  position: relative;
+  padding-right: 34px;
+}
+.scenario-done {
+  position: absolute;
+  top: 18px;
+  right: 12px;
+  color: var(--good);
+}
+@media (prefers-reduced-motion: reduce) {
+  .unit-card-meter::after,
+  .level-strip button,
+  .unit-card {
+    transition: none;
+  }
+}
+/* Dictionary: paged list */
+.word-list-more {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+  padding: 20px 0 8px;
+}
+/* Streak chip in the masthead */
+.streak-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 32px;
+  padding: 0 10px;
+  margin-right: 6px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-2);
+  box-shadow: inset 0 0 0 1px var(--rule-strong);
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms var(--ease-out);
+}
+.streak-chip:active {
+  transform: scale(0.96);
+}
+.streak-chip.is-lit {
+  color: var(--sound);
+  background: rgb(242 196 126 / 0.12);
+  box-shadow: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .streak-chip:hover {
+    color: var(--ink);
+    background: var(--paper-deep);
+  }
+  .streak-chip.is-lit:hover {
+    color: var(--sound);
+    background: rgb(242 196 126 / 0.2);
+  }
+}

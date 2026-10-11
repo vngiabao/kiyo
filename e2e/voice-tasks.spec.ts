@@ -57,16 +57,15 @@ async function openTask(page: Page, taskId: string) {
     { lessonId, step },
   );
   await page.goto("/");
+  // The Listen trail shows one unit at a time; the library finds any lesson by title.
   await page
     .locator(".main-nav")
-    .getByRole("button", { name: "Listen", exact: true })
+    .getByRole("button", { name: "Course library", exact: true })
     .click();
+  await page.getByLabel("Find a lesson").fill(task.lessonTitle);
   await page
-    .getByRole("button", {
-      name: new RegExp(
-        `^${task.lessonTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\.`,
-      ),
-    })
+    .getByRole("button", { name: `Open ${task.lessonTitle}`, exact: true })
+    .first()
     .click();
   return task;
 }

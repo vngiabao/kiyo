@@ -730,9 +730,9 @@ export function ReadingRoute() {
         ))}
       </ol>
       <p className="small muted">
-        Word and character counts are the cumulative HSK 3.0 targets. Kiyo's own
-        course currently reaches HSK 1; the later stages lean on your own shows
-        and songs until more units are written.
+        Word and character counts are the cumulative HSK 3.0 targets. Kiyo's
+        course runs through HSK 6 (the top two levels as selected media and
+        social units); your own shows and songs carry the rest.
       </p>
     </section>
   );

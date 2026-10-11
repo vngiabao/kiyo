@@ -133,7 +133,7 @@ export default function Welcome({
             )}
             {authConfigured && !emailConfigured && (
               <p className="auth-note">
-                Private sync · Google account gbao.n.vo@gmail.com only.
+                Private sync · the owner’s Google account only.
               </p>
             )}
             {!authConfigured && (

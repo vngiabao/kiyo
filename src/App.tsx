@@ -1,10 +1,11 @@
-import { lazy, Suspense, useEffect, useRef, useState, type MouseEvent } from "react";
+import { lazy, Suspense, useEffect, useRef, useState, type CSSProperties, type MouseEvent } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
 import {
   ArrowUpRight,
   Check,
   DotsThree,
   DownloadSimple,
+  Flame,
   GearSix,
   MagnifyingGlass,
   X,
@@ -109,6 +110,25 @@ function routeFromHash(): Route {
   if (hash === "companion") return "mascot";
   if (hash === "listen") return "learn";
   return routes.includes(hash as Route) ? (hash as Route) : "today";
+}
+
+/** Days in a row, always in view. It never blocks or punishes; it only counts. */
+function StreakChip({ profile, onOpen }: { profile: Profile; onOpen: () => void }) {
+  const sessions = useLiveQuery(() => db.sessions.toArray()) ?? [];
+  const attempts = useLiveQuery(() => db.attempts.toArray()) ?? [];
+  const { days, studiedToday } = streakOf(sessions, attempts);
+  if (profile.showStreak === false || !days) return null;
+  return (
+    <button
+      className={`streak-chip ${studiedToday ? "is-lit" : ""}`}
+      onClick={onOpen}
+      aria-label={`${days} ${days === 1 ? "day" : "days"} in a row${studiedToday ? ", today counts" : ", study today to keep it"}`}
+      title={studiedToday ? "Today counts" : "Study today to keep it"}
+    >
+      <Flame size={16} weight={studiedToday ? "fill" : "regular"} aria-hidden />
+      <span className="tabular">{days}</span>
+    </button>
+  );
 }
 
 export default function App() {
@@ -288,6 +308,7 @@ export default function App() {
               Offline · local learning available
             </span>
           )}
+          <StreakChip profile={profile} onOpen={() => navigate("today")} />
           <button
             className={`icon-button ${route === "dictionary" ? "active" : ""}`}
             aria-label="Dictionary"
@@ -1099,6 +1120,8 @@ function Learn({
       match: (u: string) => u !== "Sound & survival",
     },
   ];
+  // Units are numbered within their level so HSK 2 starts at unit 1 again.
+  const levelOf = new Map<string, string>();
   const units: PathUnit[] = groups.map((g, gi) => ({
     id: g.id,
     number: gi + 1,
@@ -1120,8 +1143,14 @@ function Learn({
         } satisfies PathNode;
       }),
   }));
+  for (const g of groups) levelOf.set(g.id, "foundation");
   // Content-pack units: words, grammar & usage, dialogue, reading, role-play.
-  for (const [i, u] of packUnits.entries()) {
+  const perLevel = new Map<string, number>();
+  for (const u of packUnits) {
+    const level = u.hskTarget ? String(u.hskTarget.level) : "foundation";
+    levelOf.set(u.id, level);
+    perLevel.set(level, (perLevel.get(level) ?? 0) + 1);
+    const number = level === "foundation" ? groups.length + perLevel.get(level)! : perLevel.get(level)!;
     const nodes: PathNode[] = u.lessons.map((l) => ({
       id: l.id,
       face:
@@ -1164,7 +1193,7 @@ function Learn({
       });
     units.push({
       id: u.id,
-      number: groups.length + i + 1,
+      number,
       title: u.title,
       subtitle: u.canDo.join(" · "),
       preview: u.titleZh,
@@ -1175,6 +1204,18 @@ function Learn({
     .flatMap((u) => u.nodes)
     .find((n) => n.status !== "done");
   if (firstOpen) firstOpen.status = "next";
+  const currentUnit =
+    units.find((u) => u.nodes.some((n) => n.status === "next")) ?? units[0];
+  // One unit on the trail at a time: the whole course is 150 units long.
+  const [picked, setPicked] = useState<string | null>(null);
+  const [level, setLevel] = useState<string | null>(null);
+  const focus = units.find((u) => u.id === picked) ?? currentUnit;
+  const levels = ["foundation", "1", "2", "3", "4", "5", "6"].filter((l) =>
+    units.some((u) => levelOf.get(u.id) === l),
+  );
+  const shownLevel = level ?? levelOf.get(focus.id) ?? "foundation";
+  const levelName = (l: string) => (l === "foundation" ? "Foundation" : `HSK ${l}`);
+  const stage = levels.indexOf(levelOf.get(currentUnit.id) ?? "foundation");
   return (
     <div className="listen-page">
       <header className="page-head">
@@ -1187,8 +1228,84 @@ function Learn({
           Every new phrase shows its pinyin so you always know how to say it.
         </p>
       </header>
-      <PathMap label="Listening path" units={units} />
-      <Journey current={0} />
+      <section className="listen-focus" id="listen-focus" aria-labelledby="listen-focus-title">
+        <div className="section-head">
+          <h2 id="listen-focus-title">
+            {focus.id === currentUnit.id ? "Where you are" : focus.title}
+          </h2>
+          <p className="muted">
+            {levelName(levelOf.get(focus.id) ?? "foundation")} · unit {focus.number}
+            {focus.id !== currentUnit.id && (
+              <>
+                {" · "}
+                <button className="text-button" onClick={() => setPicked(null)}>
+                  Back to where you are
+                </button>
+              </>
+            )}
+          </p>
+        </div>
+        <PathMap label="Listening path" units={[focus]} />
+      </section>
+      <section className="listen-units" aria-labelledby="listen-units-title">
+        <div className="section-head">
+          <h2 id="listen-units-title">Every unit</h2>
+          <p className="muted">
+            {units.length} units from your first 你好 to HSK 6. Pick one to put it on the trail.
+          </p>
+        </div>
+        <div className="level-strip" role="group" aria-label="Course level">
+          {levels.map((l) => (
+            <button
+              key={l}
+              aria-pressed={shownLevel === l}
+              onClick={() => setLevel(l)}
+            >
+              {levelName(l)}
+            </button>
+          ))}
+        </div>
+        <ul className="unit-grid" aria-label={`${levelName(shownLevel)} units`}>
+          {units
+            .filter((u) => levelOf.get(u.id) === shownLevel)
+            .map((u) => {
+              const done = u.nodes.filter((n) => n.status === "done").length;
+              const state =
+                u.id === focus.id ? "is-focus" : done === u.nodes.length ? "is-done" : done ? "is-started" : "";
+              return (
+                <li key={u.id}>
+                  <button
+                    className={`unit-card ${state}`}
+                    aria-pressed={u.id === focus.id}
+                    style={{ "--p": done / u.nodes.length } as CSSProperties}
+                    onClick={() => {
+                      setPicked(u.id);
+                      document.getElementById("listen-focus")?.scrollIntoView({
+                        behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+                        block: "start",
+                      });
+                    }}
+                  >
+                    <span className="unit-card-top">
+                      <span className="unit-card-number">Unit {u.number}</span>
+                      <span className="unit-card-count tabular">
+                        {done}/{u.nodes.length}
+                      </span>
+                    </span>
+                    <strong>{u.title}</strong>
+                    {u.preview && (
+                      <span className="unit-card-zh" lang="zh-CN">
+                        {u.preview}
+                      </span>
+                    )}
+                    <span className="unit-card-meter" aria-hidden />
+                  </button>
+                </li>
+              );
+            })}
+        </ul>
+      </section>
+      <Journey current={Math.max(0, stage)} />
       <p className="small content-note">
         Original drafts · awaiting native educator and audio review.
       </p>
@@ -1404,18 +1521,23 @@ function Progress({
   );
 }
 
+const PAGE = 60;
 function Dictionary({ profile }: { profile: Profile }) {
   const speech = useSpeech();
   const [query, setQuery] = useState(""),
-    [selected, setSelected] = useState<string | null>(null);
+    [selected, setSelected] = useState<string | null>(null),
+    [limit, setLimit] = useState(PAGE);
   const q = searchNormalize(query);
   const items = [
     ...characters,
     ...phrases.filter((p) => p.topic !== "sounds" || !charByHanzi[p.hanzi]),
   ];
-  const filtered = items.filter((p) =>
+  const matches = items.filter((p) =>
     searchNormalize([p.hanzi, p.pinyin, p.meaning].join(" ")).includes(q),
   );
+  // The course holds thousands of entries; page the list instead of painting them all.
+  const filtered = matches.slice(0, limit);
+  const more = matches.length - filtered.length;
   const pick = selected ? phraseById[selected] : null,
     pickChar = pick ? charByHanzi[pick.hanzi] : null;
   return (
@@ -1429,7 +1551,10 @@ function Dictionary({ profile }: { profile: Profile }) {
         <span className="sr-only">Search the course</span>
         <input
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            setLimit(PAGE);
+          }}
           placeholder="Try 你好, ni hao, or hello…"
         />
         {query && (
@@ -1472,6 +1597,16 @@ function Dictionary({ profile }: { profile: Profile }) {
             <li className="empty-state">
               <h2>No match in this course.</h2>
               <p>Try a shorter phrase or its English meaning.</p>
+            </li>
+          )}
+          {more > 0 && (
+            <li className="word-list-more">
+              <p className="small muted" role="status">
+                Showing {filtered.length} of {matches.length}. Type to narrow the list.
+              </p>
+              <button className="button secondary" onClick={() => setLimit((n) => n + PAGE)}>
+                Show {Math.min(more, PAGE)} more
+              </button>
             </li>
           )}
         </ul>

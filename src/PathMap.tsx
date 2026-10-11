@@ -117,8 +117,8 @@ export function Journey({ current = 0 }: { current?: number }) {
     <section className="journey" aria-labelledby="journey-title">
       <h2 id="journey-title">Your whole journey</h2>
       <p className="muted">
-        Ten big steps from your first 你好 to chatting with friends. Only step 1
-        has lessons so far; the rest are on the way.
+        Ten big steps from your first 你好 to chatting with friends. The course
+        runs through HSK 6; your place on it moves as you finish units.
       </p>
       <ol className="journey-steps">
         {journey.map((step, i) => (

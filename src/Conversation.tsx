@@ -7,11 +7,21 @@ import {
 import { AudioButton, Arrow, Recorder } from "./components";
 import { db, saveAttempt } from "./db";
 import { normalize } from "./learning";
-import { packScenarios } from "./content";
+import { packScenarios, packUnits } from "./content";
 import type { Profile } from "./types";
 import { baseScenarios } from "./dialogue-data";
+import { useLiveQuery } from "dexie-react-hooks";
 /** Built-in rehearsals first, then one role-play per content pack. */
 const scenarios = [...baseScenarios, ...packScenarios];
+// Role-plays sit under their unit's course level; the built-in ones are "Foundation".
+const levelOfScenario = new Map<string, string>();
+for (const u of packUnits)
+  if (u.scenario) levelOfScenario.set(u.scenario.id, u.hskTarget ? String(u.hskTarget.level) : "foundation");
+const scenarioLevel = (id: string) => levelOfScenario.get(id) ?? "foundation";
+const scenarioLevels = ["foundation", "1", "2", "3", "4", "5", "6"].filter((l) =>
+  scenarios.some((s) => scenarioLevel(s.id) === l),
+);
+const levelName = (l: string) => (l === "foundation" ? "Foundation" : `HSK ${l}`);
 export default function Conversation({
   profile,
   initialScenario,
@@ -33,7 +43,14 @@ export default function Conversation({
     [feedback, setFeedback] = useState(""),
     [done, setDone] = useState(false),
     [busy, setBusy] = useState(false),
-    [error, setError] = useState("");
+    [error, setError] = useState(""),
+    [level, setLevel] = useState<string | null>(null);
+  const finished = new Set(
+    (useLiveQuery(() => db.sessions.toArray()) ?? [])
+      .filter((s) => s.kind === "conversation")
+      .map((s) => s.lessonId),
+  );
+  const shownLevel = level ?? scenarioLevel(scenarioId);
   const start = useRef(Date.now()),
     turnStart = useRef(Date.now());
   const scenario = scenarios.find((s) => s.id === scenarioId)!,
@@ -115,18 +132,31 @@ export default function Conversation({
           <MoSays state="speak" size={110} side="top" />
           <ChatCircle size={34} weight="light" />
           <h2>Your next conversation</h2>
-          <div className="scenario-options">
-            {scenarios.map((s) => (
-              <button
-                disabled={busy}
-                key={s.id}
-                aria-pressed={scenarioId === s.id}
-                onClick={() => reset(s.id)}
-              >
-                <strong>{s.title}</strong>
-                <span>{s.place}</span>
+          <div className="level-strip" role="group" aria-label="Course level">
+            {scenarioLevels.map((l) => (
+              <button key={l} aria-pressed={shownLevel === l} onClick={() => setLevel(l)}>
+                {levelName(l)}
               </button>
             ))}
+          </div>
+          <div className="scenario-options" aria-label={`${levelName(shownLevel)} role-plays`}>
+            {scenarios
+              .filter((s) => scenarioLevel(s.id) === shownLevel)
+              .map((s) => (
+                <button
+                  disabled={busy}
+                  key={s.id}
+                  aria-pressed={scenarioId === s.id}
+                  className={finished.has(`conversation:${s.id}`) ? "is-done" : ""}
+                  onClick={() => reset(s.id)}
+                >
+                  <strong>{s.title}</strong>
+                  <span>{s.place}</span>
+                  {finished.has(`conversation:${s.id}`) && (
+                    <Check size={14} weight="bold" className="scenario-done" aria-label="Finished" />
+                  )}
+                </button>
+              ))}
           </div>
           <p>{scenario.context}</p>
           <div className="mission-note">
