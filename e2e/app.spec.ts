@@ -77,9 +77,9 @@ for (const width of [1440, 768, 375, 320]) {
     await page.getByRole("button", { name: "Save and exit" }).click();
     await go(page, "Course library");
     await expect(page.getByRole("heading", { name: "Course library." })).toBeVisible();
-    await page.getByLabel("Level", { exact: true }).selectOption("4");
+    await page.getByLabel("Show lessons").selectOption("4");
     await page.getByLabel("Find a lesson").fill("new group");
-    await expect(page.locator(".library-unit")).toHaveCount(1);
+    await expect(page.locator(".course-unit")).toHaveCount(1);
     if (width === 1440) {
       expect((await new AxeBuilder({ page }).include(".course-library").withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
     }
@@ -88,8 +88,10 @@ for (const width of [1440, 768, 375, 320]) {
     await page.getByRole("button", { name: "Save and exit" }).click();
     await page.reload();
     await expect(page.getByRole("heading", { name: "Course library." })).toBeVisible();
-    await page.getByLabel("Show activities").selectOption("finished");
-    await expect(page.getByText("No activities match these filters.", { exact: false })).toBeVisible();
+    await page.getByLabel("Show lessons").selectOption("unfinished");
+    await page.getByLabel("Find a lesson").fill("zzzz");
+    await expect(page.getByText("No lessons match.", { exact: false })).toBeVisible();
+    await page.getByLabel("Find a lesson").fill("");
     const trigger = page.locator(width <= 820 ? ".tabbar" : ".masthead-tools").getByRole("button", { name: "More", exact: true });
     await trigger.click();
     const desk = page.getByRole("dialog", { name: "Your study desk" });
