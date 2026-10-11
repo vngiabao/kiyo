@@ -1,6 +1,6 @@
 # AGENTS.md: start here
 
-> Follows ../SHARED-SPEC.md (shared structure with the Japanese sibling, Shiori). Visual source of truth: `src/night.css` + DESIGN.md "Night Study v2". Don't reintroduce filled verdict bars, uppercase stats labels, mascots inside tables, or a second mascot position in lessons.
+> Follows ../SHARED-SPEC.md (shared structure with the Japanese sibling, Shiori). Visual source of truth: `src/night.css` + DESIGN.md "Night Study v2". Don't reintroduce filled verdict bars, uppercase stats labels, mascots inside tables, or a second mascot position in lessons (Today's framed Sayo card is a deliberate exception, 11 Oct 2026).
 
 You're continuing work on **Kiyo 清**, a Mandarin-learning web app for one serious adult learner (the owner). The goals are years of study, real conversation, professional-level Mandarin and a high HSK score. Reading characters matters a lot. Read this whole file before changing anything.
 

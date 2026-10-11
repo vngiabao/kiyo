@@ -851,14 +851,22 @@ function Today({
             {profile.name ? `, ${profile.name}` : ""}.
           </h1>
         </div>
-        <div className="today-mo">
+        {/* Sayo's card: her name, a halo, today's line and her voice, framed like a study-desk portrait. */}
+        <aside className="sayo-card" aria-label="Sayo, your study mentor">
+          <div className="sayo-card-head">
+            <span className="sayo-card-name">
+              <span lang="zh-CN">小夜</span> Sayo
+            </span>
+            <span className="sayo-card-tag" lang="zh-CN">陪你读</span>
+          </div>
           <MoSays
             state={due ? "review" : "welcome"}
             say={due ? undefined : studiedToday ? moLines.done : undefined}
-            size={200}
-            side="left"
+            size={190}
+            side="top"
+            className="is-card"
           />
-        </div>
+        </aside>
       </header>
       <section className="lead" aria-labelledby="lead-title">
         {readFirst ? (
