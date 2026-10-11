@@ -34,8 +34,9 @@ export function PathMap({ units, label }: { units: PathUnit[]; label: string }) 
     <ol className="path-map" aria-label={label}>
       {units.map((unit) => {
         const done = unit.nodes.filter((n) => n.status === "done").length;
+        const complete = done > 0 && done === unit.nodes.length;
         return (
-          <li key={unit.id} className="path-unit">
+          <li key={unit.id} className={`path-unit ${complete ? "is-complete" : ""}`}>
             <header className="unit-banner">
               <span className="unit-number">Unit {unit.number}</span>
               <h3>{unit.title}</h3>
@@ -46,8 +47,19 @@ export function PathMap({ units, label }: { units: PathUnit[]; label: string }) 
                 </p>
               )}
               <span className="unit-count tabular">
-                {done} / {unit.nodes.length}
+                {complete ? (
+                  <>
+                    <Check size={14} weight="bold" aria-hidden /> Done
+                  </>
+                ) : (
+                  `${done} / ${unit.nodes.length}`
+                )}
               </span>
+              {complete && (
+                <span className="unit-complete-buddy">
+                  <MoSays state="celebrate" say={moLines.done} size={84} side="left" className="is-compact" />
+                </span>
+              )}
             </header>
             <ol className="path-stones">
               {unit.nodes.map((node) => {

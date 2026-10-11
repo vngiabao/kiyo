@@ -472,13 +472,13 @@ button.mo-bubble:active {
     flex-wrap: wrap;
     gap: 12px;
   }
-  .minutes-picker {
-    width: 100%;
-    justify-content: space-between;
-  }
+  /* Keep the pills hugging their numbers; stretching them made the selected one a slab. */
   .minutes-picker button {
-    flex: 1;
+    min-width: 44px;
     min-height: 40px;
+  }
+  .minutes-picker > span {
+    margin-left: auto;
   }
 }
 
@@ -2077,5 +2077,29 @@ button.mo-bubble:active {
   .streak-chip.is-lit:hover {
     color: var(--sound);
     background: rgb(242 196 126 / 0.2);
+  }
+}
+/* A finished unit on the trail: green count, Sayo celebrates beside the banner */
+.path-unit.is-complete .unit-banner {
+  border-color: rgb(114 217 185 / 0.35);
+  background: var(--good-wash);
+}
+.path-unit.is-complete .unit-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--good);
+  font-weight: 600;
+}
+.unit-complete-buddy {
+  position: absolute;
+  right: 12px;
+  bottom: -4px;
+  display: flex;
+  align-items: flex-end;
+}
+@media (max-width: 640px) {
+  .unit-complete-buddy {
+    display: none;
   }
 }

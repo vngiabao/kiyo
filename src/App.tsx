@@ -1270,8 +1270,10 @@ function Learn({
             .filter((u) => levelOf.get(u.id) === shownLevel)
             .map((u) => {
               const done = u.nodes.filter((n) => n.status === "done").length;
-              const state =
-                u.id === focus.id ? "is-focus" : done === u.nodes.length ? "is-done" : done ? "is-started" : "";
+              const state = [
+                u.id === focus.id ? "is-focus" : "",
+                done === u.nodes.length ? "is-done" : done ? "is-started" : "",
+              ].join(" ");
               return (
                 <li key={u.id}>
                   <button
