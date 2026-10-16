@@ -109,7 +109,7 @@ export function PathMap({ units, label }: { units: PathUnit[]; label: string }) 
                     </span>
                     {node.status === "next" && (
                       <span className="stone-buddy">
-                        <MoSays state="welcome" say={moLines.start} size={84} side="left" className="is-compact" />
+                        <MoSays state="welcome" say={moLines.start} size={84} side="left" className="is-compact" follow />
                       </span>
                     )}
                   </li>

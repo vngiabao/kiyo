@@ -111,7 +111,7 @@ export function Review({
         <p>Remember the sound. Retrieve the meaning. Give it time to stay.</p>
       </div>
       <section className="review-summary">
-        <MoSays state={due.length ? "review" : "rest"} size={120} side="left" />
+        <MoSays state={due.length ? "review" : "rest"} size={120} side="left" follow />
         <span className="review-number">{due.length}</span>
         <div>
           <h2>

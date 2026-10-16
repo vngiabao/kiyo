@@ -131,7 +131,7 @@ export default function Conversation({
       </div>
       <div className="conversation-grid">
         <aside className="scenario-panel">
-          <MoSays state="speak" size={110} side="top" />
+          <MoSays state="speak" size={110} side="top" follow />
           <ChatCircle size={34} weight="light" />
           <h2>Your next conversation</h2>
           <div className="level-strip" role="group" aria-label="Course level">

@@ -209,7 +209,7 @@ export default function Hsk({
             timed practice.
           </p>
         </div>
-        <MoSays state="teacher" say={teacherLines.start} size={220} />
+        <MoSays state="teacher" say={teacherLines.start} size={220} follow />
         <button
           className="button hsk-quick-start"
           onClick={() =>

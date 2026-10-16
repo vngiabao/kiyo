@@ -97,6 +97,24 @@ export const sfx = {
     o.start(t);
     o.stop(t + 0.1);
   },
+  /** A seal stamping down: a soft, low thud with a paper tick. */
+  stamp() {
+    const c = audio();
+    if (!c || !master) return;
+    const t = c.currentTime;
+    const o = c.createOscillator();
+    const g = c.createGain();
+    o.type = "sine";
+    o.frequency.setValueAtTime(170, t);
+    o.frequency.exponentialRampToValueAtTime(70, t + 0.12);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.exponentialRampToValueAtTime(0.9, t + 0.005);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.16);
+    o.connect(g).connect(master);
+    o.start(t);
+    o.stop(t + 0.2);
+    note(2400, 0.004, 0.03, [{ type: "triangle", gain: 0.12 }]);
+  },
   /** A right answer: two bright rising bell notes. */
   correct() {
     if (!audio()) return;

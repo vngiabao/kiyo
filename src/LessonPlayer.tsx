@@ -831,6 +831,7 @@ export function ExerciseView({
           <Mascot
             size={132}
             still
+            follow
             state={
               error
                 ? "error"

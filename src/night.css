@@ -2378,3 +2378,47 @@ body {
   border-radius: 999px;
   background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 60%, var(--good)));
 }
+
+/* ---------- Interactions (src/interactions.ts) ---------- */
+/* Cards catch a soft light in the section hue where the pointer is. */
+.spot-host { position: relative; }
+.spot-host::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(240px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--hue) 16%, transparent), transparent 70%);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+.spot-host.is-lit-spot::after { opacity: 1; }
+/* Today's character floats a little against its practice grid, with a shadow that answers the pointer. */
+.lead-glyph > span[lang] {
+  translate: calc(var(--px, 0) * 16px) calc(var(--py, 0) * 12px);
+  text-shadow: calc(var(--px, 0) * -10px) calc(var(--py, 0) * -8px) 24px rgb(134 168 255 / 0.25);
+  transition: translate 140ms linear, text-shadow 140ms linear;
+}
+/* Seals: a character you know, stamped where you clicked. */
+.stamp-layer { position: absolute; top: 0; left: 0; width: 0; height: 0; z-index: 60; pointer-events: none; }
+.stamp {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 9px;
+  border: 2.5px solid var(--hue);
+  color: var(--hue);
+  background: color-mix(in srgb, var(--hue) 13%, transparent);
+  box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--hue) 20%, transparent);
+  font-family: var(--font-han, "Noto Serif SC", serif);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+@media (prefers-reduced-motion: reduce) {
+  .lead-glyph > span[lang] { translate: none; text-shadow: none; }
+}

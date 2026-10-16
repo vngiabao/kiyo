@@ -1,4 +1,5 @@
 import { voiceDelay } from "./sfx";
+import { onSayoCue, type Cue } from "./sayo-director";
 import {
   createContext,
   useContext,
@@ -50,6 +51,7 @@ export function Mascot({
   active = false,
   still = false,
   showcase = false,
+  follow = false,
   className = "",
 }: {
   state?: MascotState;
@@ -57,23 +59,29 @@ export function Mascot({
   active?: boolean;
   still?: boolean;
   showcase?: boolean;
+  /** Reacts to the learner (sayo-director cues) and leans toward the pointer (interactions.ts). */
+  follow?: boolean;
   className?: string;
 }) {
   const preferences = useContext(Preferences);
+  const [cue, setCue] = useState<Cue>(null);
+  useEffect(() => (follow ? onSayoCue(setCue) : undefined), [follow]);
   if (!showcase && !preferences.visible) return null;
   const motion = !still && preferences.motion;
+  const pose = cue?.state ?? state;
   return (
     <span
       className={`mascot ${className}`}
-      data-state={state}
+      data-state={pose}
+      data-follow={follow && motion ? "" : undefined}
       data-motion={motion}
       data-active={active}
       style={{ "--mascot-size": `${size}px` } as CSSProperties}
       aria-hidden="true"
     >
       <img
-        key={`${state}-${active}`}
-        src={`/mascot/web/${state}.webp`}
+        key={`${pose}-${active}`}
+        src={`/mascot/web/${pose}.webp`}
         width="480"
         height="480"
         alt=""
@@ -98,6 +106,7 @@ export function MoSays({
   autoSpeak = false,
   interactive = true,
   collapsible = false,
+  follow = false,
 }: {
   state: MascotState;
   say?: MoLine;
@@ -109,11 +118,15 @@ export function MoSays({
   interactive?: boolean;
   /** Show only the Chinese line on narrow screens until tapped. */
   collapsible?: boolean;
+  follow?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
   const preferences = useContext(Preferences);
   const visible = preferences.visible || showcase;
-  const words = say ?? sceneById[state].say;
+  // While a cue carries a line (a poke), her bubble shows what she is actually saying.
+  const [cueLine, setCueLine] = useState<MoLine | undefined>(undefined);
+  useEffect(() => (follow ? onSayoCue((c) => setCueLine(c?.say)) : undefined), [follow]);
+  const words = cueLine ?? say ?? sceneById[state].say;
   const { speak, stop, playing, error } = useSpeech();
   const Bubble = interactive ? "button" : "p";
   useEffect(() => {
@@ -125,7 +138,7 @@ export function MoSays({
   }, [autoSpeak, preferences.quiet, preferences.ready, words.zh, speak, stop]);
   return (
     <div className={`mo-says side-${side} ${visible ? "" : "no-art"} ${collapsible ? "is-collapsible" : ""} ${expanded ? "is-expanded" : ""} ${className}`}>
-      <Mascot state={state} size={size} showcase={showcase} active={playing} />
+      <Mascot state={state} size={size} showcase={showcase} active={playing} follow={follow} />
       <Bubble type={interactive ? "button" : undefined} className={`mo-bubble ${interactive ? "mo-voice" : ""}`} key={words.zh}
         aria-label={interactive ? playing ? "Stop Sayo’s voice" : `Hear Sayo: ${words.zh}` : undefined}
         aria-expanded={collapsible ? expanded : undefined}

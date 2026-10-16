@@ -45,6 +45,8 @@ import {
 } from "./Characters";
 import { mandarinVoices } from "./audio";
 import { answerFeedback } from "./answer-voice";
+import { setKnownCharacters, startInteractions } from "./interactions";
+import { startSayoDirector } from "./sayo-director";
 import { backupDue, downloadBackup } from "./backup";
 import { OfflinePanel } from "./OfflinePanel";
 import { sayoVoiceURI } from "./sayo-voice";
@@ -162,6 +164,21 @@ export default function App() {
   useEffect(() => setSfxEnabled(profile.sfx !== false && !profile.quiet), [profile.sfx, profile.quiet]);
   const profileNow = useRef(profile);
   profileNow.current = profile;
+  // Sayo's reactions to the learner, and the pointer/click layer (interactions.ts).
+  useEffect(() => {
+    const stopDirector = startSayoDirector();
+    const stopInteractions = startInteractions({
+      voiceURI: () => profileNow.current.voiceURI,
+      quiet: () => profileNow.current.quiet,
+    });
+    return () => { stopDirector(); stopInteractions(); };
+  }, []);
+  // Seals stamp characters the learner has actually met in finished reading lessons.
+  const finishedIds = useLiveQuery(() => db.sessions.toArray().then((s) => s.map((x) => x.lessonId).join("|")), [], "");
+  useEffect(() => {
+    const done = new Set(finishedIds.split("|"));
+    setKnownCharacters(readingLessons.filter((l) => done.has(l.id)).flatMap((l) => l.phrases.map((p) => p.slice(2))));
+  }, [finishedIds]);
   // One listener for every answer surface: choices, word banks, match cards, exam options.
   // A Chinese answer tagged data-say is read by Sayo (her recorded clip only); anything else pops.
   useEffect(() => {
@@ -931,6 +948,7 @@ function Today({
             size={190}
             side="top"
             className="is-card"
+            follow
           />
         </aside>
       </header>
