@@ -5,22 +5,26 @@
  * - Persistent storage asks the browser not to evict this site's data
  *   (IndexedDB included) when the disk runs low.
  */
-import assets from "./audio-assets.json";
+import { audioCatalog, loadAudioCatalog } from "./audio-catalog";
 
 export const AUDIO_CACHE = "sayo-audio";
 
-/** Every installed clip, once. */
+/** Every installed clip, once. Empty until the catalogue has loaded (see loadClipUrls). */
 export function clipUrls(): string[] {
-  const urls = Object.values(
-    assets as Record<string, Record<string, string>>,
-  ).flatMap((moods) => Object.values(moods));
+  const urls = Object.values(audioCatalog() ?? {}).flatMap((moods) => Object.values(moods));
   return [...new Set(urls)].map((u) => new URL(u, location.origin).href);
+}
+
+/** Every installed clip, once, loading the catalogue first if needed. */
+export async function loadClipUrls(): Promise<string[]> {
+  await loadAudioCatalog();
+  return clipUrls();
 }
 
 export async function savedClipCount(): Promise<number> {
   if (typeof caches === "undefined") return 0;
   const cache = await caches.open(AUDIO_CACHE);
-  return (await missingClips(cache, clipUrls())).saved;
+  return (await missingClips(cache, await loadClipUrls())).saved;
 }
 
 const isAudio = (res: Response | undefined) => !!res?.ok && /^audio\//i.test(res.headers.get("content-type") ?? "");
@@ -46,7 +50,7 @@ export async function saveAllAudio(
   if (typeof caches === "undefined")
     throw new Error("This browser can’t store audio for offline use.");
   const cache = await caches.open(AUDIO_CACHE);
-  const all = clipUrls();
+  const all = await loadClipUrls();
   const { missing: todo, saved } = await missingClips(cache, all, signal);
   let done = saved, failed = 0, cursor = 0;
   let storageError: Error | undefined;

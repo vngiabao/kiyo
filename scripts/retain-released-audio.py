@@ -7,15 +7,17 @@ ROOT=Path(__file__).resolve().parents[1]
 read=lambda p:json.loads(p.read_text('utf-8'))
 sha=lambda data:hashlib.sha256(data).hexdigest()
 
-def retain(root=ROOT,today=None,git=None):
+def retain(root=ROOT,today=None,git=None,history=False):
+    """history=True also keeps clips from every catalogue revision of the last 90 days,
+    so a batch committed in several steps cannot strand an installed client."""
     root=Path(root).resolve()
     today=today or date.today()
     git=git or (lambda *args:subprocess.check_output(['git',*args],cwd=root))
     revision=git('rev-parse','HEAD').decode().strip()
     assert re.fullmatch('[a-f0-9]{40}',revision)
-    released=json.loads(git('show',revision+':src/audio-assets.json'))
-    proof=json.loads(git('show',revision+':content/voices/sayo-library-provenance.json'))
-    records={r['file']:r for r in proof['clips']}
+    revisions=[revision]
+    if history:
+        revisions+=[r for r in git('log','--since=90 days ago','--format=%H','--','src/audio-assets.json').decode().split() if r!=revision]
     current={url for voices in read(root/'src/audio-assets.json').values() for url in voices.values()}
     path=root/'content/voices/released-audio-compatibility.json'
     old=read(path) if path.exists() else dict(entries=[],expired=[])
@@ -31,15 +33,18 @@ def retain(root=ROOT,today=None,git=None):
     previous={r['file']:r for r in previous_rows}
     entries={file:r for file,r in previous.items() if date.fromisoformat(r['retainThrough'])>=today and '/'+file.removeprefix('public/') not in current}
     until=(today+timedelta(days=90)).isoformat()
-    for voices in released.values():
-        for url in voices.values():
-            if url in current:continue
-            file='public'+url
-            # A later run cannot silently restart an expired retention window.
-            if file in previous and date.fromisoformat(previous[file]['retainThrough'])<today:continue
-            assert file in records,('Released clip lacks provenance',file)
-            entries.setdefault(file,dict(file=file,sha256=records[file]['sha256'],originCommit=revision,retainThrough=until))
-    origins={revision:records}
+    origins={}
+    for rev in revisions:
+        released=json.loads(git('show',rev+':src/audio-assets.json'))
+        records=origins[rev]={r['file']:r for r in json.loads(git('show',rev+':content/voices/sayo-library-provenance.json'))['clips']}
+        for voices in released.values():
+            for url in voices.values():
+                if url in current:continue
+                file='public'+url
+                # A later run cannot silently restart an expired retention window.
+                if file in previous and date.fromisoformat(previous[file]['retainThrough'])<today:continue
+                assert file in records,('Released clip lacks provenance',file,rev)
+                entries.setdefault(file,dict(file=file,sha256=records[file]['sha256'],originCommit=rev,retainThrough=until))
     for file,record in entries.items():
         assert re.fullmatch(r'public/audio-v2/[A-Za-z0-9_-]+\.mp3',file),file
         assert re.fullmatch('[a-f0-9]{40}',record['originCommit'])
@@ -62,4 +67,4 @@ def retain(root=ROOT,today=None,git=None):
     print(f'Retained {len(entries)} previously released clips; exact committed hashes verified.')
     return ledger
 
-if __name__=='__main__':retain()
+if __name__=='__main__':retain(history=True)

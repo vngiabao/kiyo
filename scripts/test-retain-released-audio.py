@@ -52,4 +52,19 @@ class ReleasedAudio(unittest.TestCase):
             (root/'src/audio-assets.json').write_text(json.dumps({'old':{'clear':'/audio-v2/old.mp3'}}),'utf-8')
             self.assertEqual(retention.retain(root,date(2026,10,9),git)['entries'],[])
 
+    def test_history_keeps_clips_from_earlier_catalogue_revisions(self):
+        # HEAD replaced old.mp3 already; an earlier batch commit still served it.
+        with tempfile.TemporaryDirectory(prefix='kiyo-retention-test-') as folder:
+            root=Path(folder);file,data,base=self.fixture(root)
+            def git(*args):
+                if args==('rev-parse','HEAD'):return b'b'*40
+                if args==('log','--since=90 days ago','--format=%H','--','src/audio-assets.json'):return ('b'*40+'\n'+'a'*40+'\n').encode()
+                if args==('show','b'*40+':src/audio-assets.json'):return b'{}'
+                if args==('show','b'*40+':content/voices/sayo-library-provenance.json'):return json.dumps({'clips':[]}).encode()
+                return base(*args)
+            self.assertEqual(retention.retain(root,date(2026,10,8),git)['entries'],[])
+            ledger=retention.retain(root,date(2026,10,8),git,history=True)
+            self.assertEqual([e['originCommit'] for e in ledger['entries']],['a'*40])
+            self.assertEqual((root/file).read_bytes(),data)
+
 if __name__=='__main__':unittest.main()

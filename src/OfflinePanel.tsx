@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import { askPersistentStorage, clipUrls, saveAllAudio, savedClipCount, storageInfo, type StorageInfo } from "./offline";
+import { askPersistentStorage, clipUrls, loadClipUrls, saveAllAudio, savedClipCount, storageInfo, type StorageInfo } from "./offline";
 import { dictManifest, saveDictionary, savedShardCount, type DictManifest } from "./offline";
 
 /** Settings → Your data: keep this device's copy safe and usable offline. */
 export function OfflinePanel() {
-  const total = clipUrls().length;
+  const [total, setTotal] = useState(() => clipUrls().length);
+  useEffect(() => { void loadClipUrls().then((u) => setTotal(u.length)).catch(() => {}); }, []);
   const [saved, setSaved] = useState<number | null>(null),
     [info, setInfo] = useState<StorageInfo | null>(null),
     [progress, setProgress] = useState<number | null>(null),

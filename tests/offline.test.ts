@@ -1,11 +1,14 @@
-import { afterEach, expect, it, vi } from "vitest";
+import { afterEach, beforeAll, expect, it, vi } from "vitest";
 import { clipUrls, savedClipCount, saveAllAudio, saveDictionary, savedShardCount } from "../src/offline";
+import { loadAudioCatalog } from "../src/audio-catalog";
 
 vi.mock("../src/audio-assets.json", () => ({ default: {
   a: { clear: "/audio/a.mp3", cool: "/audio/a.mp3" },
   b: { clear: "/audio/b.mp3" }, c: { clear: "/audio/c.mp3" },
 } }));
 afterEach(() => vi.unstubAllGlobals());
+// The catalogue loads lazily in the app; load the mocked one before clipUrls() is read.
+beforeAll(() => loadAudioCatalog());
 const audio = () => new Response(new Uint8Array([73, 68, 51]), { headers: { "content-type": "audio/mpeg" } });
 function setup(saved = 2) {
   vi.stubGlobal("location", { origin: "https://kiyo.example" });

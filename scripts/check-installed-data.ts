@@ -10,7 +10,10 @@ async function built(prefix: string, expected: unknown) {
   const candidates = files.filter((file) => file.startsWith(prefix + "-") && file.endsWith(".js"));
   assert.equal(candidates.length, 1, `Expected one installed ${prefix} module`);
   const module = await import(pathToFileURL(resolve("dist/assets", candidates[0])).href);
-  assert(Object.values(module).some((value) => isDeepStrictEqual(value, expected)),
+  // A lazily imported module is exported as a namespace object; its data is under `.default`.
+  const values = Object.values(module).flatMap((value) =>
+    value && typeof value === "object" && "default" in value ? [value, (value as { default: unknown }).default] : [value]);
+  assert(values.some((value) => isDeepStrictEqual(value, expected)),
     `Installed ${prefix} differs from the complete source data`);
 }
 const course = JSON.parse(readFileSync("src/generated/packs.json", "utf8"));

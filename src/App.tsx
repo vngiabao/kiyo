@@ -45,6 +45,8 @@ import {
 } from "./Characters";
 import { mandarinVoices } from "./audio";
 import { answerFeedback } from "./answer-voice";
+import { SealBook } from "./SealBook";
+import { loadAudioCatalog } from "./audio-catalog";
 import { setKnownCharacters, startInteractions } from "./interactions";
 import { startSayoDirector } from "./sayo-director";
 import { backupDue, downloadBackup } from "./backup";
@@ -164,6 +166,16 @@ export default function App() {
   useEffect(() => setSfxEnabled(profile.sfx !== false && !profile.quiet), [profile.sfx, profile.quiet]);
   const profileNow = useRef(profile);
   profileNow.current = profile;
+  // Sayo's clip catalogue loads right after the first paint, off the critical path.
+  useEffect(() => {
+    const start = () => void loadAudioCatalog().catch(() => {});
+    if ("requestIdleCallback" in window) {
+      const id = requestIdleCallback(start, { timeout: 1500 });
+      return () => cancelIdleCallback(id);
+    }
+    const id = setTimeout(start, 200);
+    return () => clearTimeout(id);
+  }, []);
   // Sayo's reactions to the learner, and the pointer/click layer (interactions.ts).
   useEffect(() => {
     const stopDirector = startSayoDirector();
@@ -464,7 +476,7 @@ export default function App() {
           {route === "hsk" && (
             <Hsk onLesson={openLesson} onFocus={setHskFocus} />
           )}
-          {route === "progress" && <Progress onLesson={openLesson} />}
+          {route === "progress" && <Progress onLesson={openLesson} voiceURI={profile.voiceURI} />}
           {route === "dictionary" && <Dictionary profile={profile} />}
           {route === "settings" && (
             <Settings profile={profile} onMascot={() => navigate("mascot")} />
@@ -1416,8 +1428,10 @@ function Learn({
 
 function Progress({
   onLesson,
+  voiceURI,
 }: {
   onLesson: (id: string, mode: "assessment") => void;
+  voiceURI?: string;
 }) {
   const attempts = useLiveQuery(() => db.attempts.toArray()) ?? [],
     sessions = useLiveQuery(() => db.sessions.toArray()) ?? [],
@@ -1448,7 +1462,7 @@ function Progress({
         </p>
       </header>
       <div className="tabs" role="tablist" aria-label="Progress sections">
-        {["Capabilities", "Mistakes", "HSK alignment"].map((s) => (
+        {["Capabilities", "Seals", "Mistakes", "HSK alignment"].map((s) => (
           <button
             key={s}
             role="tab"
@@ -1549,6 +1563,8 @@ function Progress({
             </button>
           </section>
         </>
+      ) : section === "Seals" ? (
+        <SealBook status={status} voiceURI={voiceURI} />
       ) : section === "Mistakes" ? (
         <>
           <p className="muted">
@@ -1938,7 +1954,8 @@ function Settings({
               Sound effects
               <small>
                 A soft pop when you pick an answer, a chime when it's right, a
-                low note when it isn't. Off in quiet mode.
+                low note when it isn't, and a light buzz on Android phones. Off
+                in quiet mode.
               </small>
             </span>
           </label>

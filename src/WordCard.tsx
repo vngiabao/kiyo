@@ -5,12 +5,11 @@ import { db } from "./db";
 import { segment, tokenAt, type Token } from "./dictionary";
 import { phrases } from "./content";
 import { AudioButton, Pinyin } from "./components";
-import assets from "./audio-assets.json";
-import { voiceKey } from "./sayo-voice";
+import { hasSayoClip } from "./audio";
+import { useAudioCatalogReady } from "./audio-catalog";
 import { wordSpeech } from "./word-speech";
 
 const taught = new Set(phrases.map((p) => p.hanzi.replace(/[，。！？、,.!?]/g, "")));
-const clips = assets as Record<string, Record<string, string>>;
 
 /** Words of a line, from the offline dictionary. Null while the dictionary loads. */
 export function useWords(line: string | undefined) {
@@ -46,7 +45,8 @@ export function WordCard({
   const saved = useLiveQuery(() => db.personalWords.get(token.text), [token.text]);
   const main = token.entries[0];
   const spoken = wordSpeech(token.text, main?.p ?? "");
-  const hasClip = !!clips[voiceKey(spoken)];
+  useAudioCatalogReady();
+  const hasClip = hasSayoClip(spoken);
   const simplified = main?.s;
   return (
     <aside className="word-card" role="status" aria-label={`Dictionary: ${token.text}`}>

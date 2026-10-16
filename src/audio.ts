@@ -1,4 +1,4 @@
-import assets from "./audio-assets.json";
+import { audioCatalog, loadAudioCatalog } from "./audio-catalog";
 import deliveryRates from "../content/voices/playback-rates.json";
 import { sayoVoiceURI, voiceKey as key, type SayoMood } from "./sayo-voice";
 type Options = {
@@ -34,14 +34,16 @@ export const mandarinVoices = () =>
     : speechSynthesis
         .getVoices()
         .filter((v) => /^zh(-|_)(CN|Hans)/i.test(v.lang) || v.lang === "zh");
-const index = Object.fromEntries(
-  Object.entries(assets).map(([text, voices]) => [
-    key(text),
-    voices as Record<string, string>,
-  ]),
-);
+let builtIndex: Record<string, Record<string, string>> | null = null;
+/** Clip lookup by normalised text; null until the catalogue has loaded. */
+function clipIndex() {
+  const catalog = audioCatalog();
+  if (!builtIndex && catalog)
+    builtIndex = Object.fromEntries(Object.entries(catalog).map(([text, voices]) => [key(text), voices]));
+  return builtIndex;
+}
 /** True when Sayo has a recorded clip for this exact text (no device-voice fallback needed). */
-export const hasSayoClip = (text: string) => !!index[key(text)];
+export const hasSayoClip = (text: string) => !!clipIndex()?.[key(text)];
 let active: HTMLAudioElement | null = null,
   finishActive: (() => void) | null = null;
 function stop() {
@@ -52,8 +54,22 @@ function stop() {
   if (typeof speechSynthesis !== "undefined") speechSynthesis.cancel();
 }
 export const browserSpeech: SpeechProvider = {
-  speak(text, options = {}) {
+  speak(text, options = {}): Promise<void> {
     if (options.signal?.aborted) return Promise.resolve();
+    // First sound of the session may arrive before the catalogue: wait for it once.
+    const index = clipIndex();
+    if (!index)
+      return loadAudioCatalog().then(
+        () => browserSpeech.speak(text, options),
+        () => speakWith({}, text, options),
+      );
+    return speakWith(index, text, options);
+  },
+  stop,
+};
+
+function speakWith(index: Record<string, Record<string, string>>, text: string, options: Options): Promise<void> {
+  {
     stop();
     return new Promise((resolve, reject) => {
       let finished = false;
@@ -158,6 +174,5 @@ export const browserSpeech: SpeechProvider = {
       }
       deviceSpeech();
     });
-  },
-  stop,
-};
+  }
+}

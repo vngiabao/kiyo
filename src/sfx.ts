@@ -68,6 +68,17 @@ function note(freq: number, at: number, length: number, voices: Voice[], filter?
   }
 }
 
+/** A light haptic tap on phones that allow it (Android); iOS ignores web vibration. */
+function buzz(pattern: number | number[]) {
+  if (!enabled || typeof navigator === "undefined" || !("vibrate" in navigator)) return;
+  if (!matchMedia("(pointer: coarse)").matches) return;
+  try {
+    navigator.vibrate(pattern);
+  } catch {
+    /* Blocked without a user gesture; nothing to do. */
+  }
+}
+
 function hold(seconds: number) {
   quietUntil = Math.max(quietUntil, performance.now() + seconds * 1000);
 }
@@ -114,12 +125,14 @@ export const sfx = {
     o.start(t);
     o.stop(t + 0.2);
     note(2400, 0.004, 0.03, [{ type: "triangle", gain: 0.12 }]);
+    buzz(12);
   },
   /** A right answer: two bright rising bell notes. */
   correct() {
     if (!audio()) return;
     note(C6, 0, 0.4, bell);
     note(G6, 0.085, 0.55, bell);
+    buzz(18);
     hold(0.32);
   },
   /** A wrong answer: two low, soft falling notes. Information, not punishment. */
@@ -128,12 +141,14 @@ export const sfx = {
     const soft: Voice[] = [{ type: "triangle", gain: 0.7 }, { type: "sine", gain: 0.3, ratio: 2 }];
     note(349.23, 0, 0.22, soft, 1400);
     note(293.66, 0.12, 0.32, soft, 1200);
+    buzz([28, 60, 28]);
     hold(0.36);
   },
   /** A finished lesson: a rising arpeggio. */
   complete() {
     if (!audio()) return;
     [C5, E5, G5, C6].forEach((f, i) => note(f, i * 0.075, i === 3 ? 0.8 : 0.35, bell));
+    buzz([16, 60, 16, 60, 40]);
     hold(0.55);
   },
   /** A level up: the arpeggio climbs higher and lands on a chord. */
@@ -141,6 +156,7 @@ export const sfx = {
     if (!audio()) return;
     [C5, E5, G5, C6, E6].forEach((f, i) => note(f, i * 0.07, 0.4, bell));
     [C6, E6, G6].forEach((f) => note(f, 0.42, 1.1, bell));
+    buzz([16, 50, 16, 50, 16, 80, 60]);
     hold(0.9);
   },
 };

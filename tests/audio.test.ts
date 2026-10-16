@@ -1,5 +1,9 @@
-import { afterEach, expect, it, vi } from "vitest";
+import { afterEach, beforeAll, expect, it, vi } from "vitest";
 import { browserSpeech } from "../src/audio";
+import { loadAudioCatalog } from "../src/audio-catalog";
+
+// The catalogue loads lazily in the app; load it up front so playback is synchronous.
+beforeAll(() => loadAudioCatalog());
 import { welcomeGreeting } from "../src/sayo-lines";
 
 class TestAudio {
