@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { gsap, quiet, reducedMotion, useGSAP } from "./motion";
 import { useLiveQuery } from "dexie-react-hooks";
 import { CaretRight, Check } from "@phosphor-icons/react";
 import { db } from "./db";
@@ -69,6 +70,17 @@ export default function CourseLibrary({ onLesson, onReading, onSpeak }: {
   const completed = units.reduce((n, u) => n + u.entries.filter((e) => done.has(e.id)).length, 0);
   const isOpen = (level: string) =>
     toggled[level] ?? (level === "foundation" || level === currentLevel || filter === level || Boolean(needle));
+  const root = useRef<HTMLDivElement>(null);
+  // The path board fills in like a progress report: stops rise, then each bar draws to its value.
+  useGSAP(
+    () => {
+      if (reducedMotion()) return;
+      gsap.timeline()
+        .from(quiet(root.current!.querySelectorAll(".path-stop")), { y: 12, opacity: 0, stagger: 0.05, duration: 0.35, clearProps: "transform,opacity,visibility,transition" })
+        .from(".path-bar > span", { scaleX: 0, transformOrigin: "left center", stagger: 0.05, duration: 0.6, ease: "power2.out", clearProps: "transform" }, "-=0.2");
+    },
+    { scope: root },
+  );
   const goTo = (level: string) => {
     setFilter(level);
     setToggled((t) => ({ ...t, [level]: true }));
@@ -79,7 +91,7 @@ export default function CourseLibrary({ onLesson, onReading, onSpeak }: {
       }),
     );
   };
-  return <div className="course-library">
+  return <div className="course-library" ref={root}>
     <header className="page-head">
       <h1>Course library.</h1>
       <p className="lede">Characters, everyday exchanges, songs and drama scenes. Choose a level, then open a lesson.</p>

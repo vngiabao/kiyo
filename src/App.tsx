@@ -1,4 +1,5 @@
 import { lazy, Suspense, useEffect, useRef, useState, type CSSProperties, type MouseEvent } from "react";
+import { setSfxEnabled, sfx } from "./sfx";
 import { useLiveQuery } from "dexie-react-hooks";
 import {
   ArrowUpRight,
@@ -43,6 +44,7 @@ import {
   useCharacterStatus,
 } from "./Characters";
 import { mandarinVoices } from "./audio";
+import { answerFeedback } from "./answer-voice";
 import { backupDue, downloadBackup } from "./backup";
 import { OfflinePanel } from "./OfflinePanel";
 import { sayoVoiceURI } from "./sayo-voice";
@@ -62,6 +64,7 @@ import { SyncConsent, SyncPanel, useSyncStatus } from "./SyncPanel";
 import { BrandSignature, brand } from "./brand";
 import { Mascot, MascotGallery, MoSays, moLines } from "./Mascot";
 import { levelOf, streakOf } from "./progression";
+import { burst, gsap, quiet, rise, useGSAP } from "./motion";
 const Conversation = lazy(() => import("./Conversation"));
 const MediaLab = lazy(() => import("./MediaLab"));
 const Practice = lazy(() => import("./Practice"));
@@ -117,9 +120,28 @@ function StreakChip({ profile, onOpen }: { profile: Profile; onOpen: () => void 
   const sessions = useLiveQuery(() => db.sessions.toArray()) ?? [];
   const attempts = useLiveQuery(() => db.attempts.toArray()) ?? [];
   const { days, studiedToday } = streakOf(sessions, attempts);
+  const chip = useRef<HTMLButtonElement>(null);
+  const wasLit = useRef<boolean | null>(null);
+  // Lights up once a day, the moment today first counts.
+  useGSAP(
+    () => {
+      const lit = studiedToday && days > 0;
+      const first = wasLit.current === false && lit;
+      wasLit.current = lit;
+      if (!first || !chip.current) return;
+      burst(chip.current, 10);
+      quiet(chip.current);
+      gsap.fromTo(chip.current.querySelector("svg"),
+        { scale: 0.4, rotation: -20 },
+        { scale: 1, rotation: 0, duration: 0.6, ease: "back.out(3)" });
+      gsap.fromTo(chip.current, { scale: 1.18 }, { scale: 1, duration: 0.5, ease: "elastic.out(1, 0.5)", clearProps: "transform,transition" });
+    },
+    { dependencies: [studiedToday, days], scope: chip },
+  );
   if (profile.showStreak === false || !days) return null;
   return (
     <button
+      ref={chip}
       className={`streak-chip ${studiedToday ? "is-lit" : ""}`}
       onClick={onOpen}
       aria-label={`${days} ${days === 1 ? "day" : "days"} in a row${studiedToday ? ", today counts" : ", study today to keep it"}`}
@@ -136,6 +158,23 @@ export default function App() {
   useEffect(startSync, []);
   const profileData = useLiveQuery(() => db.profiles.get("learner"), [], null);
   const profile = profileData ?? defaultProfile;
+  // Interface sounds follow Settings and go silent in quiet mode.
+  useEffect(() => setSfxEnabled(profile.sfx !== false && !profile.quiet), [profile.sfx, profile.quiet]);
+  const profileNow = useRef(profile);
+  profileNow.current = profile;
+  // One listener for every answer surface: choices, word banks, match cards, exam options.
+  // A Chinese answer tagged data-say is read by Sayo (her recorded clip only); anything else pops.
+  useEffect(() => {
+    const pick = (event: PointerEvent) => {
+      const target = (event.target as Element | null)?.closest<HTMLElement>(
+        ".choice, .token-bank button, .assembly button, .match-item, .match-option, .hsk-choices label, .chip-picker button",
+      );
+      if (!target || target.matches(":disabled, [aria-disabled='true']") || target.closest("fieldset:disabled")) return;
+      answerFeedback(target.dataset.say, profileNow.current);
+    };
+    document.addEventListener("pointerdown", pick, { capture: true });
+    return () => document.removeEventListener("pointerdown", pick, { capture: true });
+  }, []);
   const [route, setRoute] = useState<Route>(routeFromHash),
     [hskFocus, setHskFocus] = useState(false),
     [speakScenario, setSpeakScenario] = useState<string | undefined>(undefined),
@@ -148,6 +187,29 @@ export default function App() {
     [storageError, setStorageError] = useState("");
   const menu = useRef<HTMLDialogElement>(null);
   const moreTrigger = useRef<HTMLButtonElement | null>(null);
+  const mainRef = useRef<HTMLElement>(null);
+  // Each page arrives the same way: its heading rises in, then the first sections.
+  // Lazy pages mount after Suspense resolves, so wait for the heading to appear.
+  useGSAP(
+    () => {
+      const root = mainRef.current;
+      if (!root) return;
+      const run = () => {
+        const head = root.querySelector(".page-head, .today-head");
+        if (!head) return false;
+        const after: Element[] = [];
+        for (let n = head.nextElementSibling; n && after.length < 3; n = n.nextElementSibling) after.push(n);
+        rise([...Array.from(head.children), ...after], { stagger: 0.05, duration: 0.34 });
+        return true;
+      };
+      if (run()) return;
+      const watch = new MutationObserver(() => { if (run()) watch.disconnect(); });
+      watch.observe(root, { childList: true, subtree: true });
+      const stop = setTimeout(() => watch.disconnect(), 3000);
+      return () => { watch.disconnect(); clearTimeout(stop); };
+    },
+    { dependencies: [route], scope: mainRef, revertOnUpdate: true },
+  );
   const openMore = (event: MouseEvent<HTMLButtonElement>) => {
     moreTrigger.current = event.currentTarget;
     setMore(true);
@@ -329,7 +391,7 @@ export default function App() {
           </button>
         </div>
       </header>
-      <main id="main" className="main-content" tabIndex={-1}>
+      <main id="main" className="main-content" tabIndex={-1} ref={mainRef}>
         <Suspense
           fallback={
             <div className="loading-state">
@@ -1227,6 +1289,13 @@ function Learn({
   );
   const shownLevel = level ?? levelOf.get(focus.id) ?? "foundation";
   const levelName = (l: string) => (l === "foundation" ? "Foundation" : `HSK ${l}`);
+  const gridRef = useRef<HTMLUListElement>(null);
+  useGSAP(
+    () => {
+      rise(gridRef.current!.querySelectorAll(".unit-card"), { y: 16, scale: 0.97, stagger: { each: 0.025, grid: "auto", from: "start" }, duration: 0.32 });
+    },
+    { dependencies: [shownLevel], scope: gridRef, revertOnUpdate: true },
+  );
   const stage = levels.indexOf(levelOf.get(currentUnit.id) ?? "foundation");
   return (
     <div className="listen-page">
@@ -1277,7 +1346,7 @@ function Learn({
             </button>
           ))}
         </div>
-        <ul className="unit-grid" aria-label={`${levelName(shownLevel)} units`}>
+        <ul className="unit-grid" aria-label={`${levelName(shownLevel)} units`} ref={gridRef}>
           {units
             .filter((u) => levelOf.get(u.id) === shownLevel)
             .map((u) => {
@@ -1832,6 +1901,40 @@ function Settings({
               Colour pinyin by tone
               <small>
                 <Pinyin text="mā má mǎ mà ma" /> · a visual cue for each tone.
+              </small>
+            </span>
+          </label>
+          <label className="check-field">
+            <input
+              type="checkbox"
+              checked={profile.sfx !== false}
+              onChange={(e) => {
+                void update({ sfx: e.target.checked });
+                if (e.target.checked) {
+                  setSfxEnabled(!profile.quiet);
+                  sfx.correct();
+                }
+              }}
+            />
+            <span>
+              Sound effects
+              <small>
+                A soft pop when you pick an answer, a chime when it's right, a
+                low note when it isn't. Off in quiet mode.
+              </small>
+            </span>
+          </label>
+          <label className="check-field">
+            <input
+              type="checkbox"
+              checked={profile.readChoices !== false}
+              onChange={(e) => void update({ readChoices: e.target.checked })}
+            />
+            <span>
+              Sayo reads the answer you pick
+              <small>
+                Tap a Chinese answer and hear it in her voice. Never in listening
+                checks or exams. Off in quiet mode.
               </small>
             </span>
           </label>

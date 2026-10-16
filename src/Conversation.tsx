@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import { sfx } from "./sfx";
 import {
   ChatCircle,
   ArrowCounterClockwise,
@@ -72,6 +73,7 @@ export default function Conversation({
     setBusy(true);
     setError("");
     const valid = current.test(normalize(answer));
+    if (valid) sfx.correct();
     try {
       await saveAttempt({
         phraseId: current.phrase,

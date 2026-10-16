@@ -149,6 +149,7 @@ function Choices({
             className={`choice ${state}`}
             onClick={() => onPick(c)}
             lang={zh ? "zh-CN" : undefined}
+            data-say={zh ? c : undefined}
           >
             <span className="choice-key" aria-hidden>{i + 1}</span>
             <span className="choice-text">
@@ -390,7 +391,7 @@ function ClozeTask({ t, profile, submitted, revealed, onAnswer }: Omit<Shared, "
       {!submitted && (
         <div className="token-bank" lang="zh-CN" aria-label="Word bank">
           {bank.map((w) => (
-            <button key={w} disabled={fills.includes(w)} onClick={() => place(w)}>
+            <button key={w} disabled={fills.includes(w)} onClick={() => place(w)} data-say={w}>
               {w}
             </button>
           ))}
@@ -452,7 +453,7 @@ function MatchTask({ t, submitted, revealed, onAnswer }: Omit<Shared, "heard"> &
         {order.map((ri) => {
           const owner = links.indexOf(ri);
           return (
-            <button key={ri} className={`match-option ${owner >= 0 ? "is-used" : ""}`} disabled={submitted} onClick={() => link(ri)} lang="zh-CN">
+            <button key={ri} className={`match-option ${owner >= 0 ? "is-used" : ""}`} disabled={submitted} onClick={() => link(ri)} lang="zh-CN" data-say={plain(t.pairs[ri].right.zh)}>
               {owner >= 0 && <span className="match-key tabular" aria-hidden>{owner + 1}</span>}
               <span className="match-zh">
                 {plain(t.pairs[ri].right.zh)}

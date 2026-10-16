@@ -182,6 +182,10 @@ export interface Profile {
   mascotMotion?: boolean;
   /** Show the days-in-a-row count. Secondary by design. */
   showStreak?: boolean;
+  /** Interface sound effects (answer pop, right/wrong, lesson complete). Undefined = on. */
+  sfx?: boolean;
+  /** Sayo reads a Chinese answer aloud when you pick it. Undefined = on. */
+  readChoices?: boolean;
   /** How the learner came in: an account, or straight in as a guest. */
   entry?: "account" | "guest";
   account?: Account | null;

@@ -1,3 +1,4 @@
+import { voiceDelay } from "./sfx";
 import {
   createContext,
   useContext,
@@ -118,7 +119,8 @@ export function MoSays({
   useEffect(() => {
     if (!autoSpeak || preferences.quiet || !preferences.ready) return;
     // Defer one tick so React's development effect replay cannot speak twice.
-    const timer = setTimeout(() => speak(words.zh, { voiceURI: `local:${reactionMood(words.zh)}` }), 0);
+    // Starts after any interface sound (sfx.ts) so the chime never talks over her.
+    const timer = setTimeout(() => speak(words.zh, { voiceURI: `local:${reactionMood(words.zh)}` }), voiceDelay());
     return () => { clearTimeout(timer); stop(); };
   }, [autoSpeak, preferences.quiet, preferences.ready, words.zh, speak, stop]);
   return (

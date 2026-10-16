@@ -2350,3 +2350,31 @@ body {
 .watch-rungs button.is-on { background: var(--hue-wash); box-shadow: inset 0 0 0 1.5px var(--hue); }
 .watch-rungs .is-on .rung-step { background: var(--hue); }
 .route-stages .is-here .route-num { background: var(--hue); }
+
+/* ---------- Motion (GSAP, src/motion.ts) ---------- */
+/* GSAP owns the level badge entrance now. */
+.level-badge { position: relative; animation: none; }
+.burst-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.streak-chip { position: relative; }
+/* Lesson progress: a real bar, not a hairline. */
+.lesson-progress {
+  height: 6px;
+  margin: 0 var(--gutter);
+  border-radius: 999px;
+  background: var(--rule);
+  overflow: hidden;
+}
+.lesson-progress div {
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 60%, var(--good)));
+}

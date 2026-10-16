@@ -40,6 +40,8 @@ const index = Object.fromEntries(
     voices as Record<string, string>,
   ]),
 );
+/** True when Sayo has a recorded clip for this exact text (no device-voice fallback needed). */
+export const hasSayoClip = (text: string) => !!index[key(text)];
 let active: HTMLAudioElement | null = null,
   finishActive: (() => void) | null = null;
 function stop() {

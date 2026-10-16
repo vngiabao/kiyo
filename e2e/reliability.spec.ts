@@ -249,7 +249,8 @@ test("complete beginner lesson saves a session and starts the next lesson", asyn
     await button("Check").click();
     await expect(page.locator(".verdict strong")).toBeVisible();
   };
-  for (let guard = 0; guard < 40 && !(await page.getByText("Now you can").isVisible()); guard++) {
+  // The finish screen animates in, so test for it being mounted rather than already visible.
+  for (let guard = 0; guard < 40 && !(await page.locator(".level-up, .lesson-done").count()); guard++) {
     const kind = ((await page.locator(".exercise").getAttribute("class")) ?? "").match(/kind-(\w+)/)?.[1] ?? "";
     seen.add(kind);
     const show = page.getByRole("button", { name: /^(Show the words|Show pinyin)$/ });

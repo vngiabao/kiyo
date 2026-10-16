@@ -26,6 +26,9 @@ import { Mascot, MoSays, type MascotState, type MoLine } from "./Mascot";
 import { levelOf, streakOf } from "./progression";
 import { TaskView, type TaskAnswer } from "./TaskView";
 import { nextReaction, type ReactionKind } from "./sayo-reactions";
+import { burst, gsap, quiet, reducedMotion, rise, useGSAP } from "./motion";
+import { sfx } from "./sfx";
+import { answerFeedback } from "./answer-voice";
 
 const quizKinds = [
   "choice",
@@ -68,6 +71,18 @@ export default function LessonPlayer({
     } | null>(null),
     [error, setError] = useState("");
   const advancing = useRef(false);
+  const doneRef = useRef<HTMLDivElement>(null);
+  useGSAP(
+    () => {
+      if (!doneRef.current) return;
+      sfx.complete();
+      rise(doneRef.current.children, { stagger: 0.07 });
+      rise(doneRef.current.querySelectorAll(".done-glyphs span, .complete-mark"), {
+        y: -18, scale: 0.7, ease: "back.out(2)", stagger: 0.05, delay: 0.15,
+      });
+    },
+    { dependencies: [done], scope: doneRef },
+  );
   const started = useRef(Date.now()),
     draftKey = `${mode}:${lessonId}`;
   useEffect(() => {
@@ -206,7 +221,7 @@ export default function LessonPlayer({
           onExit={onExit}
         />
       ) : done ? (
-        <div className="lesson-done">
+        <div className="lesson-done" ref={doneRef}>
           <MoSays
             autoSpeak
             state="celebrate"
@@ -356,6 +371,8 @@ export function ExerciseView({
         context: e.id,
       });
       setResult(correct);
+      if (correct === true) sfx.correct();
+      else if (correct === false) sfx.wrong();
       setFeedback(reaction(e, p.topic, correct, revealed));
       setSubmitted(true);
     } catch {
@@ -406,7 +423,10 @@ export function ExerciseView({
         )?.click();
       } else if (isChoice && !submitted && /^[1-9]$/.test(event.key)) {
         const c = e.choices?.[+event.key - 1];
-        if (c && !needsAudio) setAnswer(c);
+        if (c && !needsAudio) {
+          setAnswer(c);
+          answerFeedback(!listeningTask && /\p{Script=Han}/u.test(c) ? c : undefined, profile);
+        }
       } else if (
         event.key === "Enter" &&
         (tag !== "BUTTON" ||
@@ -418,7 +438,7 @@ export function ExerciseView({
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [isChoice, submitted, e.choices, needsAudio]);
+  }, [isChoice, submitted, e.choices, needsAudio, listeningTask, profile]);
   // Sayo stands just above the verdict bar, whose height changes with its content.
   useEffect(() => {
     const el = footerRef.current;
@@ -447,8 +467,30 @@ export function ExerciseView({
     );
     return () => clearTimeout(timer);
   }, [submitted, e.kind]);
+  const exRef = useRef<HTMLElement>(null);
+  // The answer reacts physically: a right one springs, a wrong one shakes its head.
+  // Both finish inside 0.35 s; the lesson bar glows forward on a right answer.
+  useGSAP(
+    () => {
+      if (!submitted || result === null || reducedMotion()) return;
+      const root = exRef.current!;
+      const picked = root.querySelectorAll(result ? ".choice.correct, .match-item.correct" : ".choice.incorrect, .match-item.incorrect");
+      const targets = picked.length ? picked : root.querySelectorAll(".exercise-stage");
+      // Keyframed tweens can leave a zero transform behind; clear it once they finish.
+      const settle = () => gsap.set(targets, { clearProps: "transform,transition" });
+      if (result) {
+        gsap.to(quiet(targets), { keyframes: { scale: [1, picked.length ? 1.06 : 1.015, 0.985, 1] }, duration: 0.34, ease: "power2.out", onComplete: settle });
+        const fill = document.querySelector<HTMLElement>(".lesson-progress > div");
+        if (fill) gsap.fromTo(fill, { boxShadow: "0 0 0 rgb(114 217 185 / 0)" }, { boxShadow: "0 0 14px rgb(114 217 185 / 0.9)", duration: 0.25, yoyo: true, repeat: 1, clearProps: "boxShadow" });
+      } else {
+        gsap.to(quiet(targets), { keyframes: { x: [0, -8, 7, -5, 3, 0] }, duration: 0.34, ease: "none", onComplete: settle });
+      }
+    },
+    { dependencies: [submitted, result], scope: exRef },
+  );
   return (
     <section
+      ref={exRef}
       className={`exercise kind-${e.kind}`}
       aria-labelledby="exercise-title"
     >
@@ -622,6 +664,7 @@ export function ExerciseView({
                 <button
                   key={i}
                   disabled={selected.includes(i) || submitted}
+                  data-say={e.kind === "reorder" ? e.tokens?.[i] : undefined}
                   onClick={() => setSelected((s) => [...s, i])}
                 >
                   {token}
@@ -678,6 +721,8 @@ export function ExerciseView({
                 aria-checked={answer === choice}
                 disabled={submitted || busy || needsAudio}
                 className={`choice ${state}`}
+                // Sayo reads a Chinese answer when you pick it (never in listening checks).
+                data-say={!listeningTask && /\p{Script=Han}/u.test(choice) ? choice : undefined}
                 onClick={() => setAnswer(choice)}
                 lang={
                   glyphChoices || e.kind === "register" ? "zh-CN" : undefined
@@ -954,8 +999,35 @@ function LevelUp({
   onExit: () => void;
 }) {
   const [levelLine] = useState(() => nextReaction("levelUp"));
+  const root = useRef<HTMLDivElement>(null);
+  // The one big moment: Sayo, the badge with a burst, the number counting up, then what's new.
+  useGSAP(
+    () => {
+      sfx.levelUp();
+      if (reducedMotion()) return;
+      const number = root.current!.querySelector<HTMLElement>(".level-number")!;
+      const count = { n: Math.max(0, level - 1) };
+      gsap
+        .timeline({ defaults: { ease: "power3.out" } })
+        .from(".mo-says", { y: 18, opacity: 0, duration: 0.45 })
+        .from(".level-badge", { scale: 0.4, rotation: -14, opacity: 0, duration: 0.7, ease: "back.out(1.9)" }, "-=0.2")
+        .add(() => { burst(root.current!.querySelector(".level-badge")!); }, "<0.15")
+        .to(count, {
+          n: level,
+          duration: 0.5,
+          ease: "power1.out",
+          onUpdate: () => { number.textContent = String(Math.round(count.n)); },
+        }, "<")
+        .from(".level-up h1, .level-mission", { y: 12, opacity: 0, stagger: 0.08, duration: 0.4 }, "-=0.25")
+        .from(".done-glyphs span", { y: -26, scale: 0.6, opacity: 0, stagger: 0.06, duration: 0.5, ease: "back.out(2.2)" }, "-=0.15")
+        // Continue is never hidden: a learner can leave the celebration at any moment.
+        .from(".level-streak, .level-up > .muted", { y: 10, opacity: 0, stagger: 0.07, duration: 0.35 }, "-=0.2")
+        .add(() => gsap.set(root.current!.querySelectorAll(".mo-says, .level-badge, h1, .level-mission, .done-glyphs span, .level-streak, .muted"), { clearProps: "transform,opacity" }));
+    },
+    { scope: root },
+  );
   return (
-    <div className="level-up" role="status">
+    <div className="level-up" role="status" ref={root}>
       <MoSays
         autoSpeak
         state="thumbsup"

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { sfx } from "./sfx";
 import { Lightning } from "@phosphor-icons/react";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "./db";
@@ -59,6 +60,8 @@ export function ReadingDrill() {
     if (stage.kind !== "ask" || !line) return;
     setPick(choice);
     const ok = choice === line.en;
+    if (ok) sfx.correct();
+    else sfx.wrong();
     const next = nextRate(rate, streak, ok);
     if (ok) setCorrect((n) => n + 1);
     setStage({ kind: "told", i: stage.i, correct: ok, from: rate });

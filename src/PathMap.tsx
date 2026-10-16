@@ -1,4 +1,5 @@
-import type { CSSProperties, ReactNode } from "react";
+import { useRef, type CSSProperties, type ReactNode } from "react";
+import { gsap, quiet, reducedMotion, useGSAP } from "./motion";
 import { BookOpen, ChatCircle, Check, Lightning } from "@phosphor-icons/react";
 import { Mascot, MoSays, moLines } from "./Mascot";
 
@@ -30,8 +31,26 @@ const curve = [0, 1, 1.5, 1, 0, -1, -1.5, -1];
  */
 export function PathMap({ units, label }: { units: PathUnit[]; label: string }) {
   let index = 0;
+  const root = useRef<HTMLOListElement>(null);
+  // Stones drop onto the trail one after another, following its curve.
+  useGSAP(
+    () => {
+      if (reducedMotion()) return;
+      gsap.from(".unit-banner", { y: 12, opacity: 0, duration: 0.35, clearProps: "all" });
+      // Long trails (the Read path) keep the whole cascade under ~0.7 s.
+      const each = Math.min(0.045, 0.7 / Math.max(1, gsap.utils.toArray(".stone", root.current).length));
+      gsap.from(quiet(root.current!.querySelectorAll(".stone")), {
+        scale: 0.5, y: -10, opacity: 0, duration: 0.45, ease: "back.out(1.8)",
+        stagger: each, delay: 0.08, clearProps: "transform,opacity,visibility,transition",
+      });
+      gsap.from(".stone-label", {
+        x: -8, opacity: 0, duration: 0.3, stagger: each, delay: 0.16, clearProps: "transform,opacity,visibility",
+      });
+    },
+    { dependencies: [units.map((u) => u.id).join()], scope: root, revertOnUpdate: true },
+  );
   return (
-    <ol className="path-map" aria-label={label}>
+    <ol className="path-map" aria-label={label} ref={root}>
       {units.map((unit) => {
         const done = unit.nodes.filter((n) => n.status === "done").length;
         const complete = done > 0 && done === unit.nodes.length;
