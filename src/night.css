@@ -2422,3 +2422,5 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .lead-glyph > span[lang] { translate: none; text-shadow: none; }
 }
+/* Keep Sayo's halo inside her own layer: behind her, never behind the card. */
+.sayo-card .mo-says.is-card .mascot { isolation: isolate; }

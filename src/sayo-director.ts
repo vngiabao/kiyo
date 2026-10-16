@@ -43,7 +43,7 @@ export function startSayoDirector() {
   const peek = /^(Show (pinyin|the words|transcript|romaji)|Reveal|Peek|Show hint)/i;
   const onClick = (e: MouseEvent) => {
     const b = (e.target as Element | null)?.closest("button");
-    if (b && peek.test(b.textContent?.trim() ?? "")) cueSayo("rest", 1600, "peek");
+    if (b && peek.test(b.textContent?.trim() ?? "")) cueSayo("peek", 1800, "peek");
   };
   const onOver = (e: PointerEvent) => {
     const b = (e.target as Element | null)?.closest("button");
@@ -51,7 +51,7 @@ export function startSayoDirector() {
   };
   const onFocus = (e: FocusEvent) => {
     const el = e.target as Element | null;
-    if (el?.matches("input[type=text], input:not([type]), textarea, .fill-slot input")) cueSayo("think", Infinity, "typing");
+    if (el?.matches("input[type=text], input:not([type]), textarea, .fill-slot input")) cueSayo("watch", Infinity, "typing");
   };
   const onBlur = () => clearSayo("typing");
   let idle: ReturnType<typeof setTimeout> | undefined;

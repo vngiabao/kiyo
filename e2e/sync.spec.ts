@@ -155,6 +155,9 @@ test("all sixteen installed Sayo poses load with no pending placeholders", async
     "write",
     "celebrate",
     "rest",
+    "peek",
+    "watch",
+    "stamp",
   ]) {
     const response = await page.request.get(`/mascot/web/${pose}.webp`);
     expect(response.ok(), pose).toBe(true);

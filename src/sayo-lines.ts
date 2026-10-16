@@ -128,6 +128,24 @@ export const mascotScenes = [
     say: line("天天来。", "Tiāntiān lái.", "Come back every day."),
     use: "Your days-in-a-row count.",
   },
+  {
+    id: "peek",
+    name: "Peek",
+    say: line("这次有帮手。", "Zhè cì yǒu bāngshǒu.", "You had a helper this time."),
+    use: "You reveal pinyin, the words or a transcript.",
+  },
+  {
+    id: "watch",
+    name: "Take your time",
+    say: line("没事，慢慢来。", "Méi shì, mànmàn lái.", "It’s okay. Take your time."),
+    use: "While you type an answer.",
+  },
+  {
+    id: "stamp",
+    name: "Approved",
+    say: line("这一课拿下了。", "Zhè yí kè ná xià le.", "You finished this lesson."),
+    use: "A finished lesson, and every seal you stamp.",
+  },
 ] as const;
 export type MascotState = (typeof mascotScenes)[number]["id"];
 export const sceneById = Object.fromEntries(

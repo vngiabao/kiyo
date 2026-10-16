@@ -224,7 +224,7 @@ export default function LessonPlayer({
         <div className="lesson-done" ref={doneRef}>
           <MoSays
             autoSpeak
-            state="celebrate"
+            state="stamp"
             say={completionLine}
             size={150}
             side="top"

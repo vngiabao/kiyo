@@ -10,7 +10,7 @@ import { gsap, reducedMotion } from "./motion";
 import { sfx } from "./sfx";
 import { browserSpeech, hasSayoClip } from "./audio";
 import { reactionMood } from "./sayo-voice";
-import { cueSayo } from "./sayo-director";
+import { cueSayo, onSayoCue } from "./sayo-director";
 
 const SPOT = ".unit-card, .path-stop, .sayo-card, .choice, .hsk-choices label, .lead-glyph, .scenario-options button";
 const MAGNET = ".button:not(.secondary):not(:disabled)";
@@ -51,8 +51,12 @@ export function startInteractions(opts: { voiceURI: () => string | undefined; qu
       const now = leans.get(el) ?? { r: 0, x: 0, y: 0 };
       const next = { r: lerp(now.r, target.r, 0.12), x: lerp(now.x, target.x, 0.12), y: lerp(now.y, target.y, 0.12) };
       leans.set(el, next);
-      el.style.rotate = `${next.r.toFixed(2)}deg`;
-      el.style.translate = `${next.x.toFixed(2)}px ${next.y.toFixed(2)}px`;
+      // Lean the artwork, not the frame, so her halo and card stay upright.
+      const img = el.querySelector("img");
+      if (img) {
+        img.style.rotate = `${next.r.toFixed(2)}deg`;
+        img.style.translate = `${next.x.toFixed(2)}px ${next.y.toFixed(2)}px`;
+      }
       if (Math.abs(next.r - target.r) > 0.02 || Math.abs(next.x - target.x) > 0.05) moving = true;
     }
     // Magnetic primary buttons: drift a few pixels toward the pointer, ease home when it leaves.
@@ -124,10 +128,13 @@ export function startInteractions(opts: { voiceURI: () => string | undefined; qu
     stamp(e.pageX, e.pageY);
   };
 
+  // A pose change swaps her image; re-apply the current lean to the new one.
+  const stopCues = onSayoCue(() => requestAnimationFrame(kick));
   document.addEventListener("pointermove", onMove, { passive: true });
   document.documentElement.addEventListener("pointerleave", onLeave);
   document.addEventListener("click", onClick);
   return () => {
+    stopCues();
     cancelAnimationFrame(raf);
     document.removeEventListener("pointermove", onMove);
     document.documentElement.removeEventListener("pointerleave", onLeave);
@@ -150,6 +157,8 @@ function stamp(x: number, y: number) {
   s.style.top = `${y}px`;
   layer.appendChild(s);
   sfx.stamp();
+  // She stamps it with you.
+  cueSayo("stamp", 1100, "stamp");
   const tilt = gsap.utils.random(-14, 14);
   if (reducedMotion()) {
     gsap.set(s, { rotation: tilt, xPercent: -50, yPercent: -50 });
