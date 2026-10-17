@@ -24,6 +24,10 @@ convert=OpenCC('t2s')
 
 def normalize(text, digit_sequence=False, year_digits=False):
     text=convert.convert(text)
+    # Whisper writes spoken 百分之二十 as 20%. Expand only unsigned integer
+    # notation, preserving the exact value and keeping 百分点 distinct. This is
+    # orthography, not permission to omit words or accept a nearby percentage.
+    text=re.sub(r'(?<![\d.+−-])(\d{1,3})\s*[%％]',r'百分之\1',text)
     if year_digits:
         digits='零一二三四五六七八九'
         text=re.sub(r'(?<!\d)\d{4}(?=年)',lambda match:''.join(digits[int(c)] for c in match.group()),text)
@@ -55,17 +59,24 @@ def transcript_status(expected_text, transcript, authored_pinyin=None):
     without_erhua=lambda t:re.sub(r'([点玩哪这那会])儿',r'\1',t)
     if expected!=without_erhua(expected) and without_erhua(expected)==heard:
         return 'erhua-transcript'
+    syllables=[m.group().lower() for m in SYLLABLE.finditer(authored_pinyin or '')]
+    if len(expected)==len(heard)==len(syllables):
+        # Apply the authored aspect spelling before the existing full-line
+        # phonetic comparison, so a simultaneous 他/她 transcript is handled by
+        # that same comparison. No other character or reading is changed here.
+        heard=''.join('着' if expected[i]=='着' and c=='著' and syllables[i]=='zhe' else c
+                      for i,c in enumerate(heard))
     if expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
         return 'homophone-transcript'
     # ASR may write neutral 地/得 as 的. Keep this at the exact aligned
     # position; contextual 得 must independently be de, never dé or děi.
     # Word-spaced pinyin still contains more than one syllable per word.
-    syllables=[m.group().lower() for m in SYLLABLE.finditer(authored_pinyin or '')]
     if len(expected)==len(heard)==len(syllables):
         differences=[i for i,(a,b) in enumerate(zip(expected,heard)) if a!=b]
-        if differences and all(heard[i]=='的' and syllables[i]=='de'
-                               and (expected[i]=='地' or (expected[i]=='得' and de_reading(expected,i)=='de'))
-                               for i in differences):
+        if differences and all(
+            (heard[i]=='的' and syllables[i]=='de'
+             and (expected[i]=='地' or (expected[i]=='得' and de_reading(expected,i)=='de')))
+            for i in differences):
             return 'homophone-transcript'
     return 'needs-review'
 
@@ -91,10 +102,12 @@ def main():
         plan=read(CACHE/'plan.json')
         report['planSha256']=digest(CACHE/'plan.json')
         waiting=0
+        raw_records={}
         for job in plan['jobs']:
             receipt=ROOT/job['receipt']
             if not receipt.exists():waiting+=1;continue
             record=read(receipt);hash=record['rawSha256']
+            raw_records[job['receipt']]=record
             source=ROOT/record['rawFile']
             assert digest(source)==hash
             id=hash+':'+job['text']
@@ -145,6 +158,10 @@ def main():
                         status=transcript_status(job['text'],previous.get('transcript',''))
                     result=dict(previous,carrierTranscript=transcript,status=status)
                 if repeat and not carrier:
+                    # Keep evidence from an already completed carrier check.
+                    # Dropping it makes the next pass needlessly repeat that
+                    # probe and another complete source-integrity scan.
+                    result=dict(previous, **result)
                     result.update(transcript=previous['transcript'],repeatedTranscript=transcript)
             report['clips'][id]=result
             print(result['status'],job['text'],job['mood'],result['transcript'],flush=True)
@@ -152,9 +169,10 @@ def main():
         current=[]
         extra_checks=False
         for job in plan['jobs']:
-            receipt=ROOT/job['receipt']
-            if receipt.exists():
-                record=read(receipt)
+            # Use this pass's exact-hash-verified snapshot. Receipts appearing
+            # during --follow are verified on its next pass, never used early.
+            record=raw_records.get(job['receipt'])
+            if record is not None:
                 result=report['clips'].get(record['rawSha256']+':'+job['text'],{'status':'needs-review'})
                 current.append(result)
                 if result['status']=='needs-review':

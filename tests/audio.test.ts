@@ -103,6 +103,24 @@ it("a failed bundled clip falls back once and credits only completed device spee
   expect(onComplete).toHaveBeenCalledTimes(1);
 });
 
+it("answer-only playback never switches to a device voice on a failed recording", async () => {
+  vi.stubGlobal("Audio", TestAudio);
+  const device = vi.fn();
+  vi.stubGlobal("speechSynthesis", {
+    getVoices: () => [
+      { lang: "zh-CN", voiceURI: "device", localService: true },
+    ],
+    cancel: vi.fn(),
+    speak: device,
+  });
+  const pending = browserSpeech.speak("你好", { allowDeviceFallback: false });
+  const rejected = expect(pending).rejects.toThrow("This audio could not load");
+  TestAudio.clips[0].onerror?.();
+  await rejected;
+  expect(TestAudio.clips[0].pause).toHaveBeenCalled();
+  expect(device).not.toHaveBeenCalled();
+});
+
 it("unmounting an old control cannot stop newer playback", async () => {
   vi.stubGlobal("Audio", TestAudio);
   const owner = new AbortController();

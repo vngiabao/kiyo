@@ -807,6 +807,20 @@ function SourceChecklist({
   const prefix = `${s.edition}:${s.level}:`;
   const steps = sourceStepsFor(s.level);
   const [pending, setPending] = useState<Record<string, boolean>>({});
+  useEffect(() => {
+    // The write can finish before useLiveQuery publishes it. Keep the selected
+    // state until the observed settings acknowledge it, avoiding an unchecked frame.
+    setPending((old) => {
+      const waiting = Object.fromEntries(
+        Object.entries(old).filter(
+          ([id, checked]) => s.sourceDone.includes(id) !== checked,
+        ),
+      );
+      return Object.keys(waiting).length === Object.keys(old).length
+        ? old
+        : waiting;
+    });
+  }, [s.sourceDone]);
   return (
     <ol className="hsk-source-checklist">
       {steps.map((t, i) => {
@@ -824,22 +838,27 @@ function SourceChecklist({
                 onChange={(e) => {
                   const checked = e.target.checked;
                   setPending((old) => ({ ...old, [prefix + t.id]: checked }));
-                  void act(() =>
-                    changeHskSettings({
-                      sourceDone: checked
-                        ? [...new Set([...s.sourceDone, prefix + t.id])]
-                        : s.sourceDone.filter(
-                            (id) =>
-                              !steps.slice(i).some((p) => id === prefix + p.id),
-                          ),
-                    }),
-                  ).finally(() =>
-                    setPending((old) => {
-                      const copy = { ...old };
-                      delete copy[prefix + t.id];
-                      return copy;
-                    }),
-                  );
+                  void act(async () => {
+                    try {
+                      await changeHskSettings({
+                        sourceDone: checked
+                          ? [...new Set([...s.sourceDone, prefix + t.id])]
+                          : s.sourceDone.filter(
+                              (id) =>
+                                !steps
+                                  .slice(i)
+                                  .some((p) => id === prefix + p.id),
+                            ),
+                      });
+                    } catch (error) {
+                      setPending((old) => {
+                        const copy = { ...old };
+                        delete copy[prefix + t.id];
+                        return copy;
+                      });
+                      throw error;
+                    }
+                  });
                 }}
               />
               <span>

@@ -132,11 +132,14 @@ npx tsx scripts/voice-task-review.ts
 .voice-design-env/Scripts/python.exe scripts/review-approved-audio.py
 # Resolve screening discrepancies before installing:
 .voice-design-env/Scripts/python.exe scripts/master-audio-qwen.py --install
+.voice-design-env/Scripts/python.exe scripts/retain-released-audio.py
 npm run audio:check
 npm run build
 ```
 
-`content/audio-scripts.json` covers phrases, contextual character pronunciations (`say`), word examples, pack grammar examples, reading lines, dialogue turns, the welcome greeting and Sayo reactions. Both content validation and production builds check the fresh catalog against installed audio, rejecting stale manifests, missing moods, broken URLs and changed file hashes. Unknown user-provided text can still use a device Mandarin voice, with a visible fallback message.
+`content/audio-scripts.json` covers phrases, contextual character pronunciations (`say`), word examples, pack grammar examples, reading lines, dialogue turns, tappable Mandarin answer choices and distractors, the welcome greeting and Sayo reactions. Both content validation and production builds check the fresh catalog against installed audio, rejecting stale manifests, missing moods, broken URLs and changed file hashes. Answer taps wait for the lazy catalog and use Sayo recordings only; English labels and unavailable answer recordings retain the interface sound. Unknown user-provided text can still use a device Mandarin voice, with a visible fallback message.
+
+Restart `npm run dev` after a bulk audio installation so Vite refreshes its public-file inventory before playback tests. A stale development server can otherwise return the HTML shell for an MP3 that is present on disk.
 
 `src/sayo-reactions.ts` supplies 100 lesson reactions in outcome-specific pools. Each pool cycles before repeating; a checked answer keeps its line stable. Ungraded practice is acknowledged without claiming it was correct. Reactions use the same approved identity and existing art. Their additional pitch offset is 0 to −0.5 semitone, putting them between −0.5 and −1 relative to the previous audition. One resampling pass also gently slows lower takes, without additional time stretching. The local rollout page includes all 100 reactions and 20 sample clips; transcription screening is not native-speaker approval.
 
@@ -148,7 +151,7 @@ Open `/output/approved-voice-rollout/index.html` for the new task conversations,
 
 Task audio includes `taskAudio()` for base lessons and validated packs. Conversation speakers receive Cool, Playful, then Soft in order of appearance; other task lines use Clear. Dialogue assemblies reuse the finalized line files. `npm run audio:check` rejects missing task mood files or spoken gap brackets. The older CosyVoice revisions described below are historical; the approved profile above is the current source of truth.
 
-For ambiguous short words, `pronunciation-contexts.json` can synthesize a natural carrier followed by the target, then retain only that last clause. Carrier audio, crop boundaries and hashes are preserved. Written homophone cues are explicitly recorded and must retain the target's pinyin and tones. Screening can transcribe the complete carrier without supplying the expected text; this helps separate short-context recognition failures from wrong words. When a mood take remains uncertain, mastering prefers a screened take of the same text in another Sayo mood, usually Clear. Every substitution is listed in provenance; it never substitutes a different word or another voice. Installation refuses texts with no screened alternative.
+For ambiguous short words, `pronunciation-contexts.json` can synthesize a natural carrier followed by the target, then retain only that last clause. Carrier audio, crop boundaries and hashes are preserved. Written homophone cues are explicitly recorded and must retain the target's pinyin and tones. Screening can transcribe the complete carrier without supplying the expected text; this helps separate short-context recognition failures from wrong words. When a mood take remains uncertain, mastering prefers a screened take of the same text in another Sayo mood, usually Clear. Every substitution is listed in provenance; it never substitutes a different word or another voice. Unlisted texts with no screened alternative fail installation. Under the owner's audio-only exception, a dated deferral after a real repair stays unvoiced and unreviewed. Released-file retention restores exact previously committed URLs for cached clients before the audio/build gates run.
 
 ## Deployment
 

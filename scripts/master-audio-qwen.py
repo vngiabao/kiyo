@@ -1,5 +1,6 @@
 """Install screened speech; only documented owner-approved deferrals may stay absent."""
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from fractions import Fraction
 import hashlib
@@ -86,7 +87,10 @@ def main():
     acceptable={'text-match','repeated-text-match','homophone-transcript','owner-approved-take','carrier-text-match','carrier-homophone-transcript','erhua-transcript','phone-number-transcript'}
     # Generation receipts are immutable for this plan. Read them once; every
     # chosen raw recording and installed output still gets its exact hash check.
-    raw_by_receipt={j['receipt']:read(ROOT/j['receipt']) for j in plan['jobs'] if (ROOT/j['receipt']).exists()}
+    def load_receipt(job):
+        return job['receipt'], read(ROOT/job['receipt'])
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        raw_by_receipt=dict(pool.map(load_receipt, (j for j in plan['jobs'] if (ROOT/j['receipt']).exists())))
     raw_records=list(raw_by_receipt.values())
     def screening(record):
         return screen['clips'].get(record['rawSha256']+':'+record['text'],{}).get('status','pending')

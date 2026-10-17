@@ -2,12 +2,83 @@
 import importlib.util
 from pathlib import Path
 import unittest
+import contextlib
+import io
+import json
+import sys
+import tempfile
+from unittest.mock import patch
 
 spec=importlib.util.spec_from_file_location('screen',Path(__file__).with_name('screen-audio-qwen.py'))
 screen=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(screen)
 
 class ContextualReading(unittest.TestCase):
+    def test_failed_repeat_preserves_completed_carrier_evidence_and_terminates(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            cache=root/'.cache/sayo-qwen-approved'
+            cache.mkdir(parents=True)
+            (root/'content').mkdir()
+            def put(path, value):
+                path.write_text(json.dumps(value,ensure_ascii=False),'utf-8')
+            raw=cache/'word.wav'
+            carrier=cache/'carrier.wav'
+            screen.sf.write(raw,screen.np.ones(12000)*.1,24000)
+            screen.sf.write(carrier,screen.np.ones(24000)*.1,24000)
+            receipt=cache/'word.json'
+            record=dict(text='后',mood='clear',rawFile=raw.relative_to(root).as_posix(),
+                        rawSha256=screen.digest(raw),carrierFile=carrier.relative_to(root).as_posix(),
+                        carrierSha256=screen.digest(carrier))
+            put(receipt,record)
+            put(cache/'plan.json',dict(jobs=[dict(text='后',mood='clear',receipt=receipt.relative_to(root).as_posix())]))
+            put(root/'content/audio-scripts.json',[dict(text='后',pinyin='hòu')])
+            calls=[]
+            class Model:
+                def transcribe(self,*args,**kwargs):
+                    calls.append(kwargs)
+                    return dict(text='好')
+            actual_read=screen.read
+            receipt_reads=[]
+            def counted_read(path):
+                if path==receipt:receipt_reads.append(path)
+                return actual_read(path)
+            output=io.StringIO()
+            output.reconfigure=lambda **kwargs:None
+            with patch.multiple(screen,ROOT=root,CACHE=cache), \
+                 patch.object(screen,'read',side_effect=counted_read), \
+                 patch.object(screen.whisper,'load_model',return_value=Model()), \
+                 patch.object(sys,'argv',['screen','--device','cpu','--repeat-short','--carrier']), \
+                 contextlib.redirect_stdout(output):
+                screen.main()
+            report=actual_read(cache/'screening.json')
+            result=report['clips'][record['rawSha256']+':后']
+            self.assertEqual(result['status'],'needs-review')
+            self.assertIn('carrierTranscript',result)
+            self.assertIn('repeatedTranscript',result)
+            self.assertEqual(len(calls),3) # original, carrier and repeat; each exactly once
+            self.assertEqual(len(receipt_reads),3) # one verified snapshot per pass
+            self.assertEqual(report['unreviewed'],1)
+
+    def test_traditional_aspect_spelling_needs_the_authored_reading(self):
+        self.assertEqual(screen.transcript_status('他拿着书。','他拿著書','Tā ná zhe shū'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('她拿着书。','他拿著書','Tā ná zhe shū'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('他拿着书。','他拿著書','Tā ná zhù shū'),'needs-review')
+        self.assertEqual(screen.transcript_status('他拿着书。','他拿書','Tā ná zhe shū'),'needs-review')
+        self.assertEqual(screen.transcript_status('他拿着书。','他拿著筆','Tā ná zhe shū'),'needs-review')
+        self.assertEqual(screen.transcript_status('著作','着作','zhù zuò'),'needs-review')
+
+    def test_integer_percent_notation_is_the_same_spoken_number(self):
+        self.assertEqual(screen.transcript_status('百分之二十到百分之三十，增加十个百分点。','20%到30%增加10个百分点。'),'text-match')
+        self.assertEqual(screen.transcript_status('比例提高到百分之四十五。','比例提高到45％。'),'text-match')
+
+    def test_wrong_percent_and_percentage_points_stay_distinct(self):
+        self.assertEqual(screen.transcript_status('百分之二十到百分之三十。','20%到35%'),'needs-review')
+        self.assertEqual(screen.transcript_status('增加十个百分点。','增加10%'),'needs-review')
+        self.assertEqual(screen.transcript_status('百分之二十。','0.2%'),'needs-review')
+        self.assertEqual(screen.transcript_status('百分之二十。','-20%'),'needs-review')
+        self.assertEqual(screen.transcript_status('百分之二十。','120%'),'needs-review')
+
     def test_year_transcription_preserves_the_authored_date(self):
         self.assertEqual(screen.transcript_status('二零二六年十月六日，星期二。','2026年10月6日 星期二'),'text-match')
         self.assertEqual(screen.transcript_status('二零二六年十月六日，星期二。','2025年10月6日 星期二'),'needs-review')

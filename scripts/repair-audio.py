@@ -4,6 +4,7 @@ Never marks a failed take reviewed or installs it. The mastering/catalog gates
 still validate every non-deferred file and source hash.
 """
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import hashlib
 import json
@@ -12,6 +13,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 read = lambda p: json.loads(p.read_text('utf-8'))
 write = lambda p, data: p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', 'utf-8')
+
+def checked_rows(root, jobs, screen):
+    """Check every immutable source; overlap independent Windows file reads only."""
+    def verify(job):
+        receipt = read(root / job['receipt'])
+        source = root / receipt['rawFile']
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == receipt['rawSha256']
+        result = screen['clips'][receipt['rawSha256'] + ':' + job['text']]
+        return job, receipt, result
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        yield from pool.map(verify, jobs)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -22,11 +34,7 @@ def main():
     plan, screen = read(plan_path), read(cache / 'screening.json')
     assert screen['planSha256'] == hashlib.sha256(plan_path.read_bytes()).hexdigest(), 'Stale screening plan'
     grouped = {}
-    for job in plan['jobs']:
-        receipt = read(ROOT / job['receipt'])
-        source = ROOT / receipt['rawFile']
-        assert hashlib.sha256(source.read_bytes()).hexdigest() == receipt['rawSha256']
-        result = screen['clips'][receipt['rawSha256'] + ':' + job['text']]
+    for job, receipt, result in checked_rows(ROOT, plan['jobs'], screen):
         grouped.setdefault(job['text'], []).append((job, receipt, result))
     failed = {text: rows for text, rows in grouped.items() if all(r['status'] == 'needs-review' for _, _, r in rows)}
     retry_path = ROOT / 'content/voices/approved-b-half/retries.json'

@@ -11,10 +11,16 @@ import {
 } from "../src/hanzi";
 import { baseScenarios, segments } from "../src/dialogue-data";
 import { mascotScenes, moLines, welcomeGreeting } from "../src/sayo-lines";
-import { hskItems, hskSpeech, hskStudyWords, teacherLines } from "../src/hsk-model";
+import {
+  hskItems,
+  hskSpeech,
+  hskStudyWords,
+  teacherLines,
+} from "../src/hsk-model";
 import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks, packs } from "../src/pack-content";
 import { wordSpeech } from "../src/word-speech";
+import { answerAudioTexts } from "./answer-audio";
 import { sayoReactions } from "../src/sayo-reactions";
 import {
   dialogueMood,
@@ -97,7 +103,12 @@ export function collectAudioScripts(): Script[] {
     }
   }
   phrases.forEach((p) => {
-    add(p.audio.text, "word", p.audio.text === p.hanzi ? p.pinyin : undefined, p.meaning);
+    add(
+      p.audio.text,
+      "word",
+      p.audio.text === p.hanzi ? p.pinyin : undefined,
+      p.meaning,
+    );
     if (p.example) add(p.example.zh, "example", p.example.py, p.example.en);
   });
   characters.forEach((c) => {
@@ -225,6 +236,10 @@ export function collectAudioScripts(): Script[] {
         );
     }
   }
+  // Answer taps include distractors and word-bank fragments, not only the
+  // authored correct answer or full sentence. Keep their coverage build-gated.
+  for (const { text } of answerAudioTexts())
+    add(text, "answer-choice", undefined, undefined, ["clear"]);
   return [...entries.values()];
 }
 if (process.argv[1]?.replace(/\\/g, "/").endsWith("/audio-manifest.ts")) {

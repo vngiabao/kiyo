@@ -6,6 +6,8 @@ type Options = {
   rate?: number;
   voiceURI?: string;
   mood?: SayoMood;
+  /** Answer taps must stay in Sayo's voice, even when a recording fails to load. */
+  allowDeviceFallback?: boolean;
   onFallback?: () => void;
   onStart?: () => void;
   onEnd?: () => void;
@@ -39,7 +41,9 @@ let builtIndex: Record<string, Record<string, string>> | null = null;
 function clipIndex() {
   const catalog = audioCatalog();
   if (!builtIndex && catalog)
-    builtIndex = Object.fromEntries(Object.entries(catalog).map(([text, voices]) => [key(text), voices]));
+    builtIndex = Object.fromEntries(
+      Object.entries(catalog).map(([text, voices]) => [key(text), voices]),
+    );
   return builtIndex;
 }
 /** True when Sayo has a recorded clip for this exact text (no device-voice fallback needed). */
@@ -68,7 +72,11 @@ export const browserSpeech: SpeechProvider = {
   stop,
 };
 
-function speakWith(index: Record<string, Record<string, string>>, text: string, options: Options): Promise<void> {
+function speakWith(
+  index: Record<string, Record<string, string>>,
+  text: string,
+  options: Options,
+): Promise<void> {
   {
     stop();
     return new Promise((resolve, reject) => {
@@ -107,6 +115,15 @@ function speakWith(index: Record<string, Record<string, string>>, text: string, 
       let deviceStarted = false;
       const deviceSpeech = (loadError?: Error) => {
         if (finished || deviceStarted) return;
+        if (options.allowDeviceFallback === false) {
+          active?.pause();
+          finish(
+            false,
+            loadError ??
+              new Error("No Sayo recording is available for this answer."),
+          );
+          return;
+        }
         deviceStarted = true;
         active?.pause();
         active = null;

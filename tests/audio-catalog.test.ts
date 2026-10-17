@@ -11,8 +11,19 @@ import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks } from "../src/pack-content";
 import assets from "../src/audio-assets.json";
 import { wordSpeech } from "../src/word-speech";
+import { answerAudioTexts } from "../scripts/answer-audio";
 
 const index = new Map(scripts.map((s) => [voiceKey(s.text), s]));
+it("all tappable Mandarin answers, including distractors and bank tiles, enter the checked manifest", () => {
+  const answers = answerAudioTexts();
+  expect(answers.map((a) => a.text)).toContain("二十五");
+  expect(answers.map((a) => a.text)).toContain("太贵了，我不要。");
+  expect(answers.some((a) => /[a-z]/i.test(a.text))).toBe(false);
+  const missing = answers.filter(
+    (a) => !index.get(voiceKey(a.text))?.moods.includes("clear"),
+  );
+  expect(missing).toEqual([]);
+});
 it("the installed voice uses the exact approved identity and one-pass clean processing", () => {
   const roster = JSON.parse(readFileSync("content/voices/roster.json", "utf8"));
   const profile = JSON.parse(

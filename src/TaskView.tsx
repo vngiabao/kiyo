@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Check, Play, Stop, X } from "@phosphor-icons/react";
 import { browserSpeech } from "./audio";
+import { answerSpeechText } from "./answer-text";
 import { AudioButton, Pinyin } from "./components";
 import { dialogueMood, type SayoMood } from "./sayo-voice";
 import type { Profile, Task, TaskLine } from "./types";
@@ -149,7 +150,7 @@ function Choices({
             className={`choice ${state}`}
             onClick={() => onPick(c)}
             lang={zh ? "zh-CN" : undefined}
-            data-say={zh ? c : undefined}
+            data-say={answerSpeechText(c) ? c : undefined}
           >
             <span className="choice-key" aria-hidden>{i + 1}</span>
             <span className="choice-text">

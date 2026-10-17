@@ -10,8 +10,10 @@ const fixtures = JSON.parse(
   type: string;
   lessonId: string;
   lessonTitle: string;
+  libraryAction: string;
   step: number;
   lines: { zh: string; mood: string }[];
+  reviewChoice?: { question: number; text: string; url: string };
 }[];
 
 const assets = new Map(
@@ -20,7 +22,7 @@ const assets = new Map(
   ),
 );
 
-async function openTask(page: Page, taskId: string) {
+async function openTask(page: Page, taskId: string, quiet = true) {
   const task = fixtures.find((t) => t.id === taskId)!;
   const { lessonId, step } = task;
   expect(step).toBeGreaterThanOrEqual(0);
@@ -28,7 +30,7 @@ async function openTask(page: Page, taskId: string) {
   await page.getByRole("button", { name: /Start without an account/ }).click();
   await page.getByRole("button", { name: "Continue", exact: true }).click();
   await page.getByRole("button", { name: "Continue", exact: true }).click();
-  await page.getByRole("checkbox", { name: "Start in quiet mode" }).check();
+  if (quiet) await page.getByRole("checkbox", { name: "Start in quiet mode" }).check();
   await page
     .getByRole("button", { name: "Meet your first characters" })
     .click();
@@ -64,11 +66,43 @@ async function openTask(page: Page, taskId: string) {
     .click();
   await page.getByLabel("Find a lesson").fill(task.lessonTitle);
   await page
-    .getByRole("button", { name: `Open ${task.lessonTitle}`, exact: true })
+    .getByRole("button", { name: task.libraryAction, exact: true })
     .first()
     .click();
   return task;
 }
+
+test("a Chinese dialogue answer plays its real Sayo recording when selected", async ({ page }) => {
+  await page.addInitScript(() => {
+    Object.assign(window, { answerEnded: "", answerFallbacks: 0 });
+    const play = HTMLMediaElement.prototype.play;
+    HTMLMediaElement.prototype.play = function () {
+      this.addEventListener("ended", () => {
+        (window as unknown as { answerEnded: string }).answerEnded = new URL(this.currentSrc).pathname;
+      }, { once: true });
+      return play.call(this);
+    };
+    speechSynthesis.speak = () => {
+      (window as unknown as { answerFallbacks: number }).answerFallbacks++;
+    };
+  });
+  const fixture = fixtures.find(task => task.reviewChoice)!;
+  expect(fixture).toBeTruthy();
+  const choice = fixture.reviewChoice!;
+  await openTask(page, fixture.id, false);
+  // Revealing is explicitly supported; no test result or learner progress is submitted.
+  await page.getByRole("button", { name: "Show the words", exact: true }).click();
+  const option = page.locator(".task-question").nth(choice.question)
+    .getByRole("radio", { name: choice.text, exact: true });
+  await expect(option).toHaveAttribute("data-say", choice.text);
+  const response = page.waitForResponse(r => r.url().endsWith(choice.url) && r.request().method() === "GET");
+  await option.click();
+  const recording = await response;
+  expect([200, 206]).toContain(recording.status());
+  expect(recording.headers()["content-type"]).toMatch(/audio/);
+  await expect.poll(() => page.evaluate(() => (window as unknown as { answerEnded: string }).answerEnded), { timeout: 15000 }).toBe(choice.url);
+  expect(await page.evaluate(() => (window as unknown as { answerFallbacks: number }).answerFallbacks)).toBe(0);
+});
 
 for (const id of ["names-d", "rescue-d", "meet-d"]) {
   test(`new conversation ${id} plays every line in its mapped Sayo mood without fallback`, async ({
