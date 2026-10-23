@@ -3,6 +3,7 @@ import os
 os.environ['HF_HUB_OFFLINE'] = '1'
 os.environ['TOKENIZERS_PARALLELISM'] = 'false'
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import replace
 from datetime import datetime, timezone
 import hashlib
@@ -31,6 +32,17 @@ def atomic(path, data):
     temp = path.with_suffix('.tmp')
     temp.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', 'utf-8')
     temp.replace(path)
+
+def cached_jobs(jobs, root=ROOT):
+    """Verify every cached waveform before reuse; only independent reads overlap."""
+    def verified(job):
+        if not job['receipt'].exists():
+            return False
+        record = read(job['receipt'])
+        assert digest(root / record['rawFile']) == record['rawSha256']
+        return True
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        return list(pool.map(verified, jobs))
 
 def main():
     parser = argparse.ArgumentParser()
@@ -80,11 +92,7 @@ def main():
                     rawSha256=digest(source), alreadyProcessed=True, approvedTake=True,
                     seconds=approved['settings']['seconds'], seed=None)
                 atomic(receipt, record)
-            elif receipt.exists():
-                record = read(receipt)
-                assert digest(ROOT / record['rawFile']) == record['rawSha256']
-            else:
-                pending.append(job)
+    pending = [job for job, cached in zip(jobs, cached_jobs(jobs)) if not cached]
     # Hash immutable configuration once, then recheck before using the plan.
     assert digest(PROFILE) == profile_hash and digest(ROSTER) == roster_hash, 'Voice configuration changed during planning'
     # Publish only a generation plan here; app assets are installed by the checked mastering step.

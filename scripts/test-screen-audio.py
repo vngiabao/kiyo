@@ -14,6 +14,40 @@ screen=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(screen)
 
 class ContextualReading(unittest.TestCase):
+    def test_numeric_two_can_spell_an_exact_aligned_authored_liang(self):
+        self.assertEqual(screen.transcript_status('两点到两点十五分。','2点到2点15分'),'text-match')
+        self.assertEqual(screen.transcript_status('第二组有两个人。','第2组有2个人'),'text-match')
+        self.assertEqual(screen.transcript_status('两百人等两分钟。','200人等2分钟'),'needs-review')
+
+    def test_liang_does_not_allow_a_changed_value_or_explicit_er(self):
+        for heard in ['3点到2点15分','二点到两点十五分','12点到2点15分','2.0点到2点15分','-2点到2点15分']:
+            self.assertEqual(screen.transcript_status('两点到两点十五分。',heard),'needs-review')
+
+    def test_snapshot_checks_every_present_source_and_leaves_unfinished_jobs_pending(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            jobs=[]
+            for i in range(20):
+                data=f'waveform {i}'.encode()
+                raw=root/f'{i}.wav'
+                raw.write_bytes(data)
+                record=dict(rawFile=raw.name,rawSha256=screen.digest(raw))
+                (root/f'{i}.json').write_text(json.dumps(record),'utf-8')
+                jobs.append(dict(receipt=f'{i}.json'))
+            (root/'7.json').unlink()
+            result=screen.verified_receipts(root,jobs)
+            self.assertEqual(list(result),[f'{i}.json' for i in range(20) if i!=7])
+            (root/'16.wav').write_bytes(b'changed')
+            with self.assertRaises(AssertionError):
+                screen.verified_receipts(root,jobs)
+
+    def test_snapshot_rejects_a_missing_recorded_waveform(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            (root/'receipt.json').write_text(json.dumps(dict(rawFile='missing.wav',rawSha256='0'*64)),'utf-8')
+            with self.assertRaises(FileNotFoundError):
+                screen.verified_receipts(root,[dict(receipt='receipt.json')])
+
     def test_failed_repeat_preserves_completed_carrier_evidence_and_terminates(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder)
@@ -88,6 +122,9 @@ class ContextualReading(unittest.TestCase):
     def test_adverbial_de_is_a_spoken_homophone(self):
         self.assertEqual(screen.transcript_status('我认真地读课文。','我认真的读课文','wǒ rèn zhēn de dú kè wén'),'homophone-transcript')
         self.assertEqual(screen.transcript_status('认真的学生认真地读课文。','认真的学生认真的读课文','rèn zhēn de xué sheng rèn zhēn de dú kè wén'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('有条件地继续试周四。','有条件的继续是周四','Yǒu tiáojiàn de jìxù shì Zhōusì.'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('她认真地读课文。','他认真的读课文','Tā rènzhēn de dú kèwén.'),'homophone-transcript')
+        self.assertEqual(screen.transcript_status('有条件地继续试周四。','有条件的继续时周四','Yǒu tiáojiàn de jìxù shì Zhōusì.'),'needs-review')
 
     def test_wrong_ground_and_missing_syllables_still_fail(self):
         self.assertEqual(screen.transcript_status('地上','的上','dì shang'),'needs-review')

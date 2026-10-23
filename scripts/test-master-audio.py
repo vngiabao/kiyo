@@ -3,6 +3,7 @@ import contextlib
 import importlib.util
 import io
 import json
+import hashlib
 from pathlib import Path
 import sys
 import tempfile
@@ -16,6 +17,58 @@ spec.loader.exec_module(master)
 
 
 class Installation(unittest.TestCase):
+    def test_unexpired_released_url_is_preserved_and_hash_checked(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);voices=root/'content/voices';voices.mkdir(parents=True)
+            out=root/'public/audio-v2';out.mkdir(parents=True)
+            clip=out/'released.mp3';clip.write_bytes(b'released bytes')
+            ledger=dict(entries=[dict(file='public/audio-v2/released.mp3',sha256=master.digest(clip),retainThrough='2099-12-31')])
+            (voices/'released-audio-compatibility.json').write_text(json.dumps(ledger),'utf-8')
+            self.assertEqual(master.retained_public_names(root),{'released.mp3'})
+            clip.write_bytes(b'changed')
+            with self.assertRaises(AssertionError):master.retained_public_names(root)
+
+    def test_expired_released_url_is_not_kept_by_mastering(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);voices=root/'content/voices';voices.mkdir(parents=True)
+            (voices/'released-audio-compatibility.json').write_text(json.dumps(dict(entries=[dict(file='public/audio-v2/expired.mp3',sha256='old',retainThrough='2000-01-01')])),'utf-8')
+            self.assertEqual(master.retained_public_names(root),set())
+
+    def source_fixture(self,root):
+        cache=root/'cache';out=root/'out';cache.mkdir();out.mkdir()
+        rows=[]
+        for i in range(20):
+            data=f'raw {i}'.encode();raw_sha=hashlib.sha256(data).hexdigest()
+            (root/f'{i}.wav').write_bytes(data)
+            raw=dict(rawFile=f'{i}.wav',rawSha256=raw_sha)
+            token=hashlib.sha256((raw_sha+'clearqwen-master-v1').encode()).hexdigest()[:12]
+            dest=out/f'sayo-b-half-clear-{token}.mp3';dest.write_bytes(f'mp3 {i}'.encode())
+            (cache/(dest.stem+'-master.json')).write_text(json.dumps(dict(sha256=master.digest(dest))),'utf-8')
+            rows.append(('clear',raw))
+        return cache,out,rows
+
+    def test_cache_snapshot_preserves_order_and_marks_uncached_encoding(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);cache,out,rows=self.source_fixture(root)
+            checked=master.checked_master_sources(root,cache,out,rows)
+            checked[7][4].unlink()
+            current=master.checked_master_sources(root,cache,out,rows)
+            self.assertEqual([r[1]['rawFile'] for r in current],[f'{i}.wav' for i in range(20)])
+            self.assertEqual([r[-1] is None for r in current],[i==7 for i in range(20)])
+
+    def test_cache_snapshot_rejects_any_changed_raw(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);cache,out,rows=self.source_fixture(root)
+            (root/'13.wav').write_bytes(b'changed')
+            with self.assertRaises(AssertionError):master.checked_master_sources(root,cache,out,rows)
+
+    def test_cache_snapshot_rejects_any_changed_encoded_output(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);cache,out,rows=self.source_fixture(root)
+            checked=master.checked_master_sources(root,cache,out,rows)
+            checked[9][3].write_bytes(b'changed')
+            with self.assertRaises(AssertionError):master.checked_master_sources(root,cache,out,rows)
+
     def test_atomic_replacement_retries_a_windows_lock(self):
         with tempfile.TemporaryDirectory() as folder:
             target = Path(folder) / 'ledger.json'

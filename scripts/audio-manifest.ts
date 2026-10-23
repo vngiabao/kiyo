@@ -21,6 +21,7 @@ import { lessonTasks, taskAudio } from "../src/tasks";
 import { compiledPacks, packs } from "../src/pack-content";
 import { wordSpeech } from "../src/word-speech";
 import { answerAudioTexts } from "./answer-audio";
+import answerPronunciations from "../content/voices/audio-pronunciations.json" with { type: "json" };
 import { sayoReactions } from "../src/sayo-reactions";
 import {
   dialogueMood,
@@ -238,8 +239,13 @@ export function collectAudioScripts(): Script[] {
   }
   // Answer taps include distractors and word-bank fragments, not only the
   // authored correct answer or full sentence. Keep their coverage build-gated.
-  for (const { text } of answerAudioTexts())
-    add(text, "answer-choice", undefined, undefined, ["clear"]);
+  const answerTexts = answerAudioTexts();
+  const pronounced = answerPronunciations as Record<string, string>;
+  for (const text of Object.keys(pronounced))
+    if (!answerTexts.some((answer) => answer.text === text))
+      throw new Error(`Unused answer pronunciation: ${text}`);
+  for (const { text } of answerTexts)
+    add(text, "answer-choice", pronounced[text], undefined, ["clear"]);
   return [...entries.values()];
 }
 if (process.argv[1]?.replace(/\\/g, "/").endsWith("/audio-manifest.ts")) {

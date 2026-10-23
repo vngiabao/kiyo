@@ -1,0 +1,11 @@
+# Public assets are verified and served by their exact byte hashes.
+public/** -text
+content/audio-scripts.json -text
+
+# These recipes were approved with CRLF bytes. Keep their pinned hashes on every OS.
+content/voices/approved-b-half/profile.json text eol=crlf
+content/voices/sayo-roster-staged.json text eol=crlf
+
+# Keep the existing CRLF checkout bytes without obscuring their text diffs.
+public/audio-v2/assets.json text eol=crlf
+public/licenses/THIRD_PARTY_NOTICES.txt text eol=crlf

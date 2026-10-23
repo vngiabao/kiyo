@@ -153,6 +153,19 @@ Task audio includes `taskAudio()` for base lessons and validated packs. Conversa
 
 For ambiguous short words, `pronunciation-contexts.json` can synthesize a natural carrier followed by the target, then retain only that last clause. Carrier audio, crop boundaries and hashes are preserved. Written homophone cues are explicitly recorded and must retain the target's pinyin and tones. Screening can transcribe the complete carrier without supplying the expected text; this helps separate short-context recognition failures from wrong words. When a mood take remains uncertain, mastering prefers a screened take of the same text in another Sayo mood, usually Clear. Every substitution is listed in provenance; it never substitutes a different word or another voice. Unlisted texts with no screened alternative fail installation. Under the owner's audio-only exception, a dated deferral after a real repair stays unvoiced and unreviewed. Released-file retention restores exact previously committed URLs for cached clients before the audio/build gates run.
 
+If Whisper large-v3 weights are already installed locally, unresolved recordings can receive an independent blind check with the same phonetic criteria:
+
+```sh
+.voice-design-env/Scripts/python.exe scripts/diagnose-audio-transcripts.py --deferred-only --output output/independent-audio.json
+.voice-design-env/Scripts/python.exe scripts/verify-independent-audio.py output/independent-audio.json
+.voice-design-env/Scripts/python.exe scripts/screen-audio-qwen.py --repeat-short --carrier
+.voice-design-env/Scripts/python.exe scripts/repair-audio.py defer
+```
+
+Diagnosis alone never changes the library. Verification checks the recognizer and waveform hashes, preserves the primary failure, and recomputes the existing comparison before accepting anything. Mastering carries the independent receipt into provenance, and the build rejects missing or inconsistent evidence. Follow the usual install and released-file retention steps afterward. `content/voices/audio-pronunciations.json` supplies authored pronunciation metadata for ambiguous answer targets; the manifest rejects unused entries.
+
+After a pronunciation-metadata correction, `scripts/select-historical-audio.py` can inspect earlier deferral snapshots before making more recordings. It accepts only an exact earlier repaired waveform of the same pinned profile and delivery whose saved blind transcript passes the current comparison. Its default is a report; `--apply` selects the reproducible earlier recipe. Keep `highest-takes.json` with `retries.json`: selecting an earlier take must not cause the next genuine repair to reuse a later failed take number. Run generation (which can report zero pending), screening, deferral reconciliation and installation normally afterward. Mastering keeps hash-verified, unexpired compatibility URLs in place during replacement; expired files still follow the normal archive/retention policy.
+
 ## Deployment
 
 Deploy the `dist/` directory to an HTTPS static host at the domain root. Microphone access requires HTTPS or localhost. No service credentials belong in the browser bundle. A public preview is available at https://tingjian-mandarin-preview.gbao-n-vo.chatgpt.site. See HOSTING.md for its identity and update workflow. Establish a tested backup/sync policy, privacy review and content approval process before accepting paying learners.

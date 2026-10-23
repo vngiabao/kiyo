@@ -6,6 +6,10 @@ import { compiledPacks } from "../src/pack-content";
 import { collectAudioScripts } from "./audio-manifest";
 import { isDeferred } from "./audio-deferred";
 import { verifyReleasedAudio } from "./audio-compatibility";
+import {
+  independentAudioIssue,
+  type IndependentProof,
+} from "./audio-verification";
 
 const read = (path: string) => JSON.parse(readFileSync(path, "utf8"));
 const assets = read("src/audio-assets.json") as Record<
@@ -22,9 +26,18 @@ const provenance = read("content/voices/sayo-library-provenance.json") as {
     sha256: string;
     sampleRate: number;
     seconds: number;
+    text?: string;
+    rawSha256?: string;
+    screeningStatus?: string;
+    independentVerification?: IndependentProof;
   }[];
 };
 const files = new Map(provenance.clips.map((c) => [c.file, c]));
+const independent = existsSync(
+  "content/voices/independent-audio-verification.json",
+)
+  ? read("content/voices/independent-audio-verification.json")
+  : undefined;
 const issues: string[] = [];
 const deferred = new Set<string>();
 if (
@@ -72,6 +85,8 @@ for (const s of scripts)
       issues.push(`Invalid metadata: ${file}`);
   }
 for (const [file, record] of files) {
+  const verificationIssue = independentAudioIssue(record, independent);
+  if (verificationIssue) issues.push(`${file}: ${verificationIssue}`);
   if (!existsSync(file)) {
     issues.push(`Missing ${file}`);
     continue;
@@ -80,10 +95,16 @@ for (const [file, record] of files) {
   if (hash !== record.sha256) issues.push(`Changed audio: ${file}`);
 }
 const retained = existsSync("content/voices/released-audio-compatibility.json")
-  ? verifyReleasedAudio(process.cwd(), read("content/voices/released-audio-compatibility.json"))
+  ? verifyReleasedAudio(
+      process.cwd(),
+      read("content/voices/released-audio-compatibility.json"),
+    )
   : 0;
 if (issues.length) throw new Error(issues.join("\n"));
-if (retained) console.log(`${retained} retained release clips match their committed hashes; excluded from current coverage.`);
+if (retained)
+  console.log(
+    `${retained} retained release clips match their committed hashes; excluded from current coverage.`,
+  );
 if (deferred.size)
   console.warn(
     `⚠ ${deferred.size} texts ship without a Sayo clip by owner decision (content/voices/audio-deferred.json); the device voice reads them.`,

@@ -1,7 +1,7 @@
 """Install screened speech; only documented owner-approved deferrals may stay absent."""
 import argparse
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from fractions import Fraction
 import hashlib
 import json
@@ -61,6 +61,39 @@ def encode(signal, dest):
     return dict(file=dest.relative_to(ROOT).as_posix(),sha256=digest(dest),
         seconds=len(audio)/rate,sampleRate=rate,channels=1,bytes=dest.stat().st_size,**levels)
 
+def checked_master_sources(root,cache,out,selections):
+    """Verify every chosen raw/output once; overlap immutable cache reads only."""
+    def verify(selection):
+        original_mood,raw=selection
+        source=root/raw['rawFile']
+        assert digest(source)==raw['rawSha256']
+        pitch_offset=raw.get('delivery',{}).get('pitchOffset',0)
+        processing_key='qwen-master-v1'+(f':{pitch_offset}' if pitch_offset else '')
+        token=hashlib.sha256((raw['rawSha256']+original_mood+processing_key).encode()).hexdigest()[:12]
+        dest=out/f'sayo-b-half-{original_mood}-{token}.mp3'
+        receipt=cache/(dest.stem+'-master.json')
+        record=None
+        if receipt.exists() and dest.exists():
+            record=read(receipt)
+            assert digest(dest)==record['sha256']
+        return original_mood,raw,source,dest,receipt,pitch_offset,record
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        return list(pool.map(verify,selections))
+
+def retained_public_names(root,today=None):
+    """Keep valid, unexpired released URLs in place during catalog replacement."""
+    path=root/'content/voices/released-audio-compatibility.json'
+    if not path.exists():return set()
+    today=today or date.today()
+    rows=[row for row in read(path)['entries'] if date.fromisoformat(row['retainThrough'])>=today]
+    def verify(row):
+        assert re.fullmatch(r'public/audio-v2/[A-Za-z0-9_-]+\.mp3',row['file'])
+        target=root/row['file']
+        if target.exists():assert digest(target)==row['sha256'], 'Changed retained audio: '+row['file']
+        return Path(row['file']).name
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        return set(pool.map(verify,rows))
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--install',action='store_true')
@@ -78,9 +111,6 @@ def main():
     assert plan['scriptsSha256']==digest(ROOT/'content/audio-scripts.json')
     profile,roster=read(profile_path),read(roster_path)
     scripts=read(ROOT/'content/audio-scripts.json')
-    missing=[j for j in plan['jobs'] if not (ROOT/j['receipt']).exists()]
-    if missing and not args.partial:
-        raise RuntimeError(f'{len(missing)} raw clips missing; refusing incomplete library')
     OUT.mkdir(exist_ok=True)
     records,manifest=[],{}
     screen=read(CACHE/'screening.json') if (CACHE/'screening.json').exists() else {'clips':{}}
@@ -88,9 +118,13 @@ def main():
     # Generation receipts are immutable for this plan. Read them once; every
     # chosen raw recording and installed output still gets its exact hash check.
     def load_receipt(job):
-        return job['receipt'], read(ROOT/job['receipt'])
+        path=ROOT/job['receipt']
+        return job['receipt'], read(path) if path.exists() else None
     with ThreadPoolExecutor(max_workers=8) as pool:
-        raw_by_receipt=dict(pool.map(load_receipt, (j for j in plan['jobs'] if (ROOT/j['receipt']).exists())))
+        raw_by_receipt={path:record for path,record in pool.map(load_receipt,plan['jobs']) if record is not None}
+    missing=[j for j in plan['jobs'] if j['receipt'] not in raw_by_receipt]
+    if missing and not args.partial:
+        raise RuntimeError(f'{len(missing)} raw clips missing; refusing incomplete library')
     raw_records=list(raw_by_receipt.values())
     def screening(record):
         return screen['clips'].get(record['rawSha256']+':'+record['text'],{}).get('status','pending')
@@ -107,8 +141,9 @@ def main():
     substitutions=[]
     unresolved=[]
     ratio=Fraction(profile['processing']['resampleRatio'])
+    selections=[]
     for job in plan['jobs']:
-        if not (ROOT/job['receipt']).exists():
+        if job['receipt'] not in raw_by_receipt:
             continue
         raw=raw_by_receipt[job['receipt']]
         original_mood=raw['mood']
@@ -121,17 +156,11 @@ def main():
             else:
                 unresolved.append(dict(text=raw['text'],mood=original_mood,status=screening(raw)))
                 continue
-        source=ROOT/raw['rawFile']
-        assert digest(source)==raw['rawSha256']
-        pitch_offset=raw.get('delivery',{}).get('pitchOffset',0)
-        processing_key='qwen-master-v1'+(f':{pitch_offset}' if pitch_offset else '')
-        token=hashlib.sha256((raw['rawSha256']+original_mood+processing_key).encode()).hexdigest()[:12]
-        dest=OUT/f'sayo-b-half-{original_mood}-{token}.mp3'
-        receipt=CACHE/(dest.stem+'-master.json')
-        if receipt.exists() and dest.exists():
-            record=read(receipt)
-            assert digest(dest)==record['sha256']
-        else:
+        selections.append((original_mood,raw))
+    prepared=checked_master_sources(ROOT,CACHE,OUT,selections)
+    print(f'Verified {len(prepared)} selected raw/cache sources; {sum(row[-1] is None for row in prepared)} need encoding.',flush=True)
+    for original_mood,raw,source,dest,receipt,pitch_offset,record in prepared:
+        if record is None:
             audio,rate=sf.read(source)
             assert rate==24000
             if not raw['alreadyProcessed']:
@@ -143,9 +172,14 @@ def main():
                 masteredAt=datetime.now(timezone.utc).isoformat())
             atomic(receipt,record)
         record.update(mood=original_mood,deliveryMood=raw['mood'],screeningStatus=screening(raw))
+        independent=screen['clips'].get(raw['rawSha256']+':'+raw['text'],{}).get('independentVerification')
+        if independent:
+            assert independent['rawSha256']==raw['rawSha256']
+            record['independentVerification']=independent
         records.append(record)
         manifest.setdefault(raw['text'],{})[original_mood]='/audio-v2/'+dest.name
     index={key(text):voices for text,voices in manifest.items()}
+    verified_mp3_hashes={record['file']:record['sha256'] for record in records}
     if not args.partial:
         for entry in scripts:
             if not entry.get('parts'): continue
@@ -160,7 +194,9 @@ def main():
                     part_mood=part['mood'] if mood=='dialogue' else mood
                     source=ROOT/'public'/index[key(part['text'])][part_mood].lstrip('/')
                     sources.append(source)
-                    hashes.append(digest(source));selections.append(dict(text=part['text'],mood=part_mood))
+                    # This exact part was hash-checked (or encoded and checked)
+                    # above. Reuse its immutable snapshot across assemblies.
+                    hashes.append(verified_mp3_hashes[source.relative_to(ROOT).as_posix()]);selections.append(dict(text=part['text'],mood=part_mood))
                 token=hashlib.sha256((''.join(hashes)+'qwen-assembly-v1').encode()).hexdigest()[:12]
                 dest=OUT/f'{entry["id"]}-{mood}-{token}.mp3'
                 receipt=CACHE/(dest.stem+'-master.json')
@@ -218,7 +254,7 @@ def main():
         backup=ROOT/'output/audio-backup-before-approved-b'
         backup.mkdir(parents=True,exist_ok=True)
         # Keep all inactive audio recoverable outside public so the PWA only ships the new library.
-        keep={Path(r['file']).name for r in records}
+        keep={Path(r['file']).name for r in records}|retained_public_names(ROOT)
         archive=backup/'mp3';archive.mkdir(exist_ok=True)
         for file in OUT.glob('*.mp3'):
             if file.name in keep: continue

@@ -1,5 +1,6 @@
 """Resume advisory Mandarin transcription checks without supplying the expected text."""
 import argparse
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 from pathlib import Path
@@ -22,7 +23,7 @@ digest=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 read=lambda p:json.loads(p.read_text('utf-8'))
 convert=OpenCC('t2s')
 
-def normalize(text, digit_sequence=False, year_digits=False):
+def normalize(text, digit_sequence=False, year_digits=False, numeric_liang=False):
     text=convert.convert(text)
     # Whisper writes spoken 百分之二十 as 20%. Expand only unsigned integer
     # notation, preserving the exact value and keeping 百分点 distinct. This is
@@ -36,6 +37,8 @@ def normalize(text, digit_sequence=False, year_digits=False):
         if digit_sequence or match.group().startswith('0'):
             return ''.join(digits[int(c)] for c in match.group())
         n=int(match.group())
+        if n==2 and numeric_liang and not (match.start() and text[match.start()-1] in '+-−.'):
+            return '两'
         if n<10:return digits[n]
         if n<100:return (digits[n//10] if n>=20 else '')+'十'+(digits[n%10] if n%10 else '')
         if n<1000:
@@ -50,6 +53,12 @@ def transcript_status(expected_text, transcript, authored_pinyin=None):
     digit_sequence='幺' in expected_text or bool(re.fullmatch(r'[零一二三四五六七八九幺]+',normalize(expected_text)))
     year_digits=bool(re.search(r'[零一二三四五六七八九]{4}年',expected_text))
     expected,heard=normalize(expected_text,digit_sequence,year_digits),normalize(transcript,digit_sequence,year_digits)
+    # An ASR numeral 2 does not spell out 二 versus 两. Resolve only an exact
+    # aligned authored 两; explicit spoken 二 and all other values stay distinct.
+    liang=normalize(transcript,digit_sequence,year_digits,numeric_liang=True)
+    if len(expected)==len(heard)==len(liang):
+        heard=''.join('两' if e=='两' and h=='二' and l=='两' else h
+                      for e,h,l in zip(expected,heard,liang))
     if expected==heard:return 'text-match'
     # ASR writes spoken phone-number yao as 一. Synthesis still receives 幺.
     if '幺' in expected and expected.replace('幺','一')==heard:return 'phone-number-transcript'
@@ -64,8 +73,12 @@ def transcript_status(expected_text, transcript, authored_pinyin=None):
         # Apply the authored aspect spelling before the existing full-line
         # phonetic comparison, so a simultaneous 他/她 transcript is handled by
         # that same comparison. No other character or reading is changed here.
-        heard=''.join('着' if expected[i]=='着' and c=='著' and syllables[i]=='zhe' else c
-                      for i,c in enumerate(heard))
+        def aligned_spelling(i,c):
+            if expected[i]=='着' and c=='著' and syllables[i]=='zhe':return '着'
+            if c=='的' and syllables[i]=='de' and (expected[i]=='地' or (expected[i]=='得' and de_reading(expected,i)=='de')):
+                return expected[i]
+            return c
+        heard=''.join(aligned_spelling(i,c) for i,c in enumerate(heard))
     if expected and heard and lazy_pinyin(expected,style=Style.TONE3,neutral_tone_with_five=True)==lazy_pinyin(heard,style=Style.TONE3,neutral_tone_with_five=True):
         return 'homophone-transcript'
     # ASR may write neutral 地/得 as 的. Keep this at the exact aligned
@@ -85,6 +98,17 @@ def atomic(path,data):
     # keeps every field while reducing repeated disk writes; checks are unchanged.
     tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(data,ensure_ascii=False,separators=(',',':'))+'\n','utf-8');tmp.replace(path)
 
+def verified_receipts(root,jobs):
+    """Snapshot immutable generated sources; verify every hash before screening."""
+    def verify(job):
+        path=root/job['receipt']
+        if not path.exists():return job['receipt'],None
+        record=read(path)
+        assert digest(root/record['rawFile'])==record['rawSha256']
+        return job['receipt'],record
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        return {path:record for path,record in pool.map(verify,jobs) if record is not None}
+
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--follow',action='store_true')
@@ -102,14 +126,12 @@ def main():
         plan=read(CACHE/'plan.json')
         report['planSha256']=digest(CACHE/'plan.json')
         waiting=0
-        raw_records={}
+        raw_records=verified_receipts(ROOT,plan['jobs'])
         for job in plan['jobs']:
-            receipt=ROOT/job['receipt']
-            if not receipt.exists():waiting+=1;continue
-            record=read(receipt);hash=record['rawSha256']
-            raw_records[job['receipt']]=record
+            record=raw_records.get(job['receipt'])
+            if record is None:waiting+=1;continue
+            hash=record['rawSha256']
             source=ROOT/record['rawFile']
-            assert digest(source)==hash
             id=hash+':'+job['text']
             previous=report['clips'].get(id)
             if previous and previous['status'].startswith('carrier-') and len(normalize(job['text']))>3:
@@ -122,7 +144,7 @@ def main():
                 expected_text=cue.get('synthesisText',job['text']) if cue.get('extract')=='whole' else job['text']
                 status=transcript_status(expected_text,previous.get('transcript',''),scripts.get(job['text'],{}).get('pinyin'))
                 if status!='needs-review':
-                    previous.update(status=status,orthographicCheckVersion=3)
+                    previous.update(status=status,orthographicCheckVersion=5)
                     atomic(path,report)
             repeat=bool(args.repeat_short and previous and previous['status']=='needs-review'
                 and len(normalize(job['text']))<=3 and 'repeatedTranscript' not in previous)
