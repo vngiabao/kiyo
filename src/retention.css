@@ -85,3 +85,19 @@
 @media (prefers-reduced-motion: reduce) {
   .note-seal { rotate: none; }
 }
+/* Expired Cloudflare Access sign-in (src/session.ts): one calm line under the masthead. */
+.signin-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin: 12px auto 0;
+  width: min(100% - 32px, 1180px);
+  padding: 14px 20px;
+  border-radius: var(--r-lg);
+  border: 1px solid color-mix(in srgb, var(--sound) 45%, var(--rule));
+  background: color-mix(in srgb, var(--sound) 10%, var(--sheet));
+}
+.signin-banner p { margin: 0; font-size: 18px; color: var(--ink); line-height: 1.45; max-width: 62ch; }
+.signin-banner .button { min-height: 48px; font-size: 16px; }

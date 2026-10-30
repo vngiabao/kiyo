@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { browserSpeech } from "./audio";
 import { useLiveQuery } from "dexie-react-hooks";
 import { db } from "./db";
+import { checkSignIn } from "./session";
 
 /** Cancels only this control's playback when it leaves the screen. */
 export function useSpeech() {
@@ -22,13 +23,21 @@ export function useSpeech() {
       owner.current = controller;
       setError("");
       setPlaying(true);
+      // An expired sign-in blocks every recording not saved yet; say that instead.
+      const explain = (message: string) => {
+        setError(message);
+        void checkSignIn().then((expired) => {
+          if (expired && owner.current === controller)
+            setError("Your Kiyo sign-in expired, so Sayo’s recording couldn’t load. Sign in again from the banner at the top.");
+        });
+      };
       void browserSpeech
         .speak(text, {
           ...options,
           voiceURI: options.voiceURI ?? voiceURI,
           signal: controller.signal,
           onFallback: () => {
-            setError("Using your device’s Mandarin voice for this line.");
+            explain("Using your device’s Mandarin voice for this line.");
             options.onFallback?.();
           },
           onEnd: () => {
@@ -38,7 +47,7 @@ export function useSpeech() {
         })
         .catch((reason: unknown) => {
           if (!controller.signal.aborted && owner.current === controller) {
-            setError(
+            explain(
               reason instanceof Error
                 ? reason.message
                 : "Audio could not play. Tap to try again.",

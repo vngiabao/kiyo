@@ -47,6 +47,7 @@ import { mandarinVoices } from "./audio";
 import { answerFeedback } from "./answer-voice";
 import { SealBook } from "./SealBook";
 import { ReminderSettings, SayoNote } from "./SayoNote";
+import { signInAgain, useSignInExpired } from "./session";
 import "./retention.css";
 import { loadAudioCatalog } from "./audio-catalog";
 import { setKnownCharacters, startInteractions } from "./interactions";
@@ -215,6 +216,7 @@ export default function App() {
     [reading, setReading] = useState<string | null>(null),
     [more, setMore] = useState(false),
     [online, setOnline] = useState(navigator.onLine),
+    signInExpired = useSignInExpired(),
     [storageError, setStorageError] = useState("");
   const menu = useRef<HTMLDialogElement>(null);
   const moreTrigger = useRef<HTMLButtonElement | null>(null);
@@ -422,6 +424,17 @@ export default function App() {
           </button>
         </div>
       </header>
+      {signInExpired && online && (
+        <div className="signin-banner" role="alert">
+          <p>
+            Your Kiyo sign-in expired. Lessons still work, but Sayo’s voice, sync and her daily
+            note need it.
+          </p>
+          <button className="button" onClick={signInAgain}>
+            Sign in again
+          </button>
+        </div>
+      )}
       <main id="main" className="main-content" tabIndex={-1} ref={mainRef}>
         <Suspense
           fallback={

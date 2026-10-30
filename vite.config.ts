@@ -82,7 +82,7 @@ export default defineConfig({
         clientsClaim: true,
         // Access must finish its server-side callback before the offline shell
         // handles app navigation; otherwise an expired login cannot recover.
-        navigateFallbackDenylist: [/^\/cdn-cgi\//],
+        navigateFallbackDenylist: [/^\/cdn-cgi\//, /^\/api\//],
         globPatterns: ["**/*.{js,css,html,svg,woff2,mp3,json,png,webp}"],
         // Sayo's daily note: push and notification-click handlers (public/push-sw.js).
         importScripts: ["push-sw.js"],
