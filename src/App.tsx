@@ -46,6 +46,8 @@ import {
 import { mandarinVoices } from "./audio";
 import { answerFeedback } from "./answer-voice";
 import { SealBook } from "./SealBook";
+import { ReminderSettings, SayoNote } from "./SayoNote";
+import "./retention.css";
 import { loadAudioCatalog } from "./audio-catalog";
 import { setKnownCharacters, startInteractions } from "./interactions";
 import { startSayoDirector } from "./sayo-director";
@@ -1029,6 +1031,16 @@ function Today({
         </div>
       </section>
 
+      <SayoNote
+        profile={profile}
+        featured={featured}
+        lessonId={nextRead.id}
+        studiedToday={studiedToday}
+        due={due}
+        onLesson={(id) => onLesson(id)}
+        onReview={() => onNavigate("review")}
+      />
+
       {(showBackup || backupNote) && (
         <aside className="backup-nudge" role="status">
           {backupNote ? (
@@ -1987,6 +1999,7 @@ function Settings({
               </small>
             </span>
           </label>
+          <ReminderSettings profile={profile} />
           <label className="field">
             Sayo’s voice
             <select

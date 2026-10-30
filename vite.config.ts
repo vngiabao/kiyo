@@ -84,6 +84,8 @@ export default defineConfig({
         // handles app navigation; otherwise an expired login cannot recover.
         navigateFallbackDenylist: [/^\/cdn-cgi\//],
         globPatterns: ["**/*.{js,css,html,svg,woff2,mp3,json,png,webp}"],
+        // Sayo's daily note: push and notification-click handlers (public/push-sw.js).
+        importScripts: ["push-sw.js"],
         // CJK fonts ship as ~100 unicode-range slices per weight; cache the
         // slices a learner actually uses instead of precaching all of them.
         // Full-size mascot PNGs are only for the gallery download; the app uses WebP.

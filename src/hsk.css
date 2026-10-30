@@ -37,16 +37,16 @@
 .hsk-target label {
   display: grid;
   gap: 6px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-target select {
   width: 100%;
   min-width: 0;
 }
 .hsk-target p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
-  color: var(--ink-3);
+  color: var(--ink-2);
   margin: 0;
 }
 .hsk-tabs {
@@ -58,7 +58,7 @@
 .hsk-tabs button {
   padding: 14px 0;
   border-radius: 0;
-  color: var(--ink-3);
+  color: var(--ink-2);
   border-bottom: 2px solid transparent;
 }
 .hsk-tabs button[aria-current] {
@@ -82,7 +82,7 @@
 .hsk-section-heading > span {
   font-size: 14px;
   white-space: nowrap;
-  color: var(--ink-3);
+  color: var(--ink-2);
 }
 .hsk-path {
   list-style: none;
@@ -112,7 +112,7 @@
   font-size: 23px;
 }
 .hsk-step-title > span {
-  font-size: 13px;
+  font-size: 14px;
 }
 .hsk-focus {
   font-size: 25px;
@@ -124,12 +124,12 @@
 }
 .hsk-path .muted,
 .hsk-path small {
-  font-size: 14px;
+  font-size: 16px;
 }
 .hsk-path small {
   display: block;
   margin-top: 10px;
-  color: var(--ink-3);
+  color: var(--ink-2);
 }
 .hsk-row-actions {
   display: flex;
@@ -141,8 +141,8 @@
   display: flex;
   gap: 10px;
   align-items: center;
-  font-size: 14px;
-  color: var(--ink-3);
+  font-size: 16px;
+  color: var(--ink-2);
 }
 .hsk-good {
   color: var(--good);
@@ -162,7 +162,7 @@
   font-size: 19px;
 }
 .hsk-aside p {
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-aside a,
 .hsk-source-list a {
@@ -198,7 +198,7 @@
   font-size: 26px;
 }
 .hsk-timed p {
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-timed .button {
   margin-top: 8px;
@@ -215,7 +215,7 @@
 }
 .hsk-resume p {
   margin: 4px 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .hsk-source-list {
   display: grid;
@@ -228,8 +228,8 @@
   padding-top: 22px;
 }
 .hsk-source-list article > span {
-  font-size: 12px;
-  color: var(--ink-3);
+  font-size: 14px;
+  color: var(--ink-2);
 }
 .hsk-source-list h3 {
   font-size: 26px;
@@ -237,7 +237,7 @@
 }
 .hsk-source-list p,
 .hsk-source-list a {
-  font-size: 15px;
+  font-size: 16px;
   overflow-wrap: anywhere;
 }
 .hsk-source-checklist {
@@ -266,15 +266,15 @@
 }
 .hsk-source-checklist label > span > span,
 .hsk-source-checklist small {
-  font-size: 15px;
-  color: var(--ink-3);
+  font-size: 16px;
+  color: var(--ink-2);
 }
 .hsk-footer {
   border-top: 1px solid var(--rule);
   margin-top: 56px;
   padding: 22px 0 12px;
-  color: var(--ink-3);
-  font-size: 14px;
+  color: var(--ink-2);
+  font-size: 16px;
 }
 .hsk-footer .text-button {
   padding-left: 0;
@@ -287,7 +287,7 @@
 }
 .hsk-import input {
   max-width: 240px;
-  font-size: 13px;
+  font-size: 16px;
 }
 .hsk-source-desk details {
   border-top: 1px solid var(--rule);
@@ -318,7 +318,7 @@
   display: grid;
   gap: 4px;
   margin: 0;
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-word-bank .audio-small {
   margin-top: 8px;
@@ -339,7 +339,7 @@
   margin-top: 0;
 }
 .hsk-study-lines .muted {
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-exam {
   max-width: 800px;
@@ -351,7 +351,7 @@
   align-items: center;
   border-bottom: 1px solid var(--rule);
   padding: 0 0 18px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-clock {
   display: flex;
@@ -372,7 +372,7 @@
   min-height: 40px;
   border: 1px solid var(--rule);
   border-radius: var(--r-sm);
-  color: var(--ink-3);
+  color: var(--ink-2);
 }
 .hsk-question-nav .answered {
   background: var(--sheet);
@@ -454,7 +454,7 @@
   font-size: 27px;
 }
 .hsk-choice-letter {
-  color: var(--ink-3);
+  color: var(--ink-2);
   font-size: 14px;
 }
 .hsk-exam-actions {
@@ -466,7 +466,7 @@
   margin-top: 28px;
 }
 .hsk-exam > .muted {
-  font-size: 14px;
+  font-size: 16px;
 }
 .hsk-result-head {
   display: grid;
@@ -506,7 +506,7 @@
   line-height: 1.7;
 }
 .hsk-answer-review .muted {
-  font-size: 15px;
+  font-size: 16px;
 }
 .hsk-mistakes,
 .hsk-history {
@@ -528,8 +528,8 @@
   align-items: center;
 }
 .hsk-history p {
-  font-size: 14px;
-  color: var(--ink-3);
+  font-size: 16px;
+  color: var(--ink-2);
 }
 @media (max-width: 1000px) {
   .hsk-path-layout {
@@ -576,7 +576,7 @@
     gap: 24px;
   }
   .hsk-tabs button {
-    font-size: 15px;
+    font-size: 16px;
   }
   .hsk-section-heading {
     flex-wrap: wrap;
@@ -772,7 +772,7 @@
   margin: 8px 0;
 }
 .hsk-roadmap small {
-  color: var(--ink-3);
+  color: var(--ink-2);
 }
 .hsk-entry {
   margin: 18px 0;

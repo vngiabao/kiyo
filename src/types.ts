@@ -193,6 +193,12 @@ export interface Profile {
   lastBackupAt?: number;
   /** Device-only: "Later" on the backup reminder. */
   backupSnoozedAt?: number;
+  /** Device-only: Sayo's daily note by Web Push (each device has its own subscription). */
+  reminder?: { enabled: boolean; time: string; endpoint?: string };
+  /** Device-only: the reminder offer on Today was answered or dismissed. */
+  reminderAskedAt?: number;
+  /** Device-only: tomorrow's character, sealed after a study day (local YYYY-MM-DD). */
+  sealedNote?: { hanzi: string; lessonId: string; sealedOn: string; openedOn?: string };
 }
 export type LearningPath = "characters" | "sound" | "together";
 export interface Draft {

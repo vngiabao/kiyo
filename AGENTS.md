@@ -15,7 +15,7 @@ Checks (run all before saying something works):
 
 ```sh
 npx tsc -b                 # types
-npm test                   # unit tests (vitest), 190 tests
+npm test                   # unit tests (vitest), 214 tests
 npm run validate:content   # curriculum consistency
 npm run check:pinyin       # every pack line's pinyin vs the HSK 3.0 dictionary (also runs in packs/build)
 npm run test:e2e           # browser tests (needs `npm run dev` running and Google Chrome)
@@ -62,6 +62,10 @@ Visual QA: `npx tsx scripts/screenshots.ts` saves screenshots at 1440 / 768 / 37
 - **Dictionary (offline, CC-CEDICT, CC BY-SA 4.0):** `npm run dict` builds `public/dict/` (256 shards, loaded per lookup, cache `kiyo-dict`, never precached). `src/dictionary.ts` splits lines into words (96.6% boundary accuracy on the test set in `tests/dictionary.test.ts`); `src/WordCard.tsx` is the tap card used by the Watch player and the reader. Saved words: Dexie v4 `personalWords` (in backups, Anki export). Research notes: `prompts/research/dictionary-and-speed.md`.
 - **Reading-speed drill:** Practice → Reading speed (`src/drill.ts`, `src/ReadingDrill.tsx`). Only lines from finished content, made of taught characters, flashed at your pace; unaided meaning check; staircase pace; Netflix reference of 9 chars/s (adults), 7 (children). Sessions: Dexie v4 `readingSpeed` (in backups).
 - **Fitting 150 units on screen (11 Oct 2026):** Listen puts one unit on the stepping-stone trail ("Where you are") and lists the rest in a Foundation / HSK 1–6 level strip with a unit grid (`Learn` in `src/App.tsx`); a finished unit gets a green banner with Sayo celebrating (`src/PathMap.tsx`). Speak groups role-plays by the same strip; the Dictionary pages 60 rows at a time. A days-in-a-row chip (`StreakChip`) sits in the masthead and obeys "Show days in a row". Never render the whole course as one list again.
+- **Coming back (30 Oct 2026, the owner asked for better return visits):** Sayo's evening note.
+  - After a study session, Today seals tomorrow's character (`profile.sealedNote`); it opens the next morning with "Meet X" and a two-minute review (`src/SayoNote.tsx`, `src/retention.css`).
+  - Optional daily Web Push at a chosen time: `src/reminders.ts` → Worker `workers/push.ts` (RFC 8291/8292 with WebCrypto, no dependency), subscriptions in KV `PUSH`, cron every 15 min, `public/push-sw.js` picks Sayo's line from IndexedDB (studied today / sealed note / reviews due). Settings → "Sayo's daily note" turns it on, sends a test or falls back to a calendar `.ics` alert. iPhone needs the app added to the Home Screen first.
+  - The VAPID private key is the Worker secret `VAPID_PRIVATE_JWK`; until it is set, `/api/push/key` returns null and the app offers the calendar only. Reminder fields are device-only (not in `profileFields`).
 - **Lasting:** audio is cached on first play (`sayo-audio` cache) with "Save all audio" in Settings; persistent-storage request; weekly backup reminder on Today until sync is live.
 
 - **Done and working:**

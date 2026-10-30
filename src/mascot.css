@@ -209,7 +209,7 @@
   border-radius: 14px 14px 4px 14px;
   background: var(--sheet);
   border: 1px solid var(--rule);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.35;
 }
 .onboarding-specimen .mascot {
@@ -265,8 +265,8 @@
   gap: 16px;
   min-height: 84px;
   border-bottom: 1px solid var(--rule);
-  font-size: 13px;
-  color: var(--ink-3);
+  font-size: 14px;
+  color: var(--ink-2);
 }
 .mascot-feature {
   display: grid;
@@ -317,8 +317,8 @@
 }
 .mascot-feature-art p {
   margin: 0;
-  font-size: 15px;
-  color: var(--ink-3);
+  font-size: 16px;
+  color: var(--ink-2);
 }
 .mascot-collection {
   border-top: 1px solid var(--rule);
@@ -337,7 +337,7 @@
 .mascot-scene-description {
   min-height: 44px;
   max-width: 70ch;
-  color: var(--ink-3);
+  color: var(--ink-2);
   margin: 12px 0 20px;
 }
 .mascot-pose-grid {
@@ -355,7 +355,7 @@
   border-radius: 12px;
   background: transparent;
   font: inherit;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--ink);
   cursor: pointer;
 }
@@ -525,11 +525,11 @@
   color: var(--ink);
 }
 .mo-py {
-  font-size: 14px;
+  font-size: 16px;
 }
 .mo-en {
-  font-size: 13px;
-  color: var(--ink-3);
+  font-size: 16px;
+  color: var(--ink-2);
 }
 .mo-bubble.is-large {
   max-width: none;
@@ -599,7 +599,7 @@
   border-radius: 14px;
   background: var(--accent);
   color: var(--on-accent);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
 }
 .streak-fact {
@@ -644,7 +644,7 @@
   animation: badge-in 420ms var(--ease-out) both 120ms;
 }
 .level-word {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -689,12 +689,12 @@
 
 /* Gallery additions */
 .pose-zh {
-  font-size: 15px;
+  font-size: 16px;
   margin-top: 6px;
   color: var(--ink-2);
 }
 .pose-pending {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -782,7 +782,7 @@
 }
 .pose-zh {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -800,5 +800,5 @@
 }
 .mo-voice { font: inherit; color: var(--ink); cursor: pointer; pointer-events: auto; }
 .mo-voice:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
-.mo-voice-hint { font-size: 12px; color: var(--accent); }
+.mo-voice-hint { font-size: 14px; color: var(--accent); }
 .mo-voice:hover { border-color: var(--accent); }
